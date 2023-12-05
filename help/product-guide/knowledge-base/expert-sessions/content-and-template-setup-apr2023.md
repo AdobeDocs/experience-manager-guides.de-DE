@@ -2,9 +2,9 @@
 title: Einrichtung von Inhalten und Vorlagen
 description: Erfahren Sie, was Sie beim Einrichten von Inhalten und Vorlagen in AEM Handbüchern beachten sollten.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Die Menge an Inhalten, die Sie in einem System verwalten, um verschiedene Arten 
 ## Sitzungsübersicht
 
 In dieser Sitzung haben wir im Großen und Ganzen Folgendes behandelt:
+
 - verschiedene Aspekte der Inhaltseinrichtung (Kategorisierung, Klassifizierung, Metadaten)
 - Einrichten von Inhaltsvorlagen (Themenvorlagen, Zuordnungsvorlagen, Snippets)
-
 
 
 ## Sitzungsaufzeichnung
@@ -38,6 +38,7 @@ In dieser Sitzung haben wir im Großen und Ganzen Folgendes behandelt:
 ## Haupterkenntnisse
 
 In dieser Sitzung haben Sie Folgendes erfahren:
+
 - Analysieren und Nachdenken vor dem Import/Erstellen von Inhalten
 - Klassifizieren und Kategorisieren des Inhalts für verschiedene Benutzersegmente (Endbenutzer oder Autor)
 - Nutzung von Metadatenfunktionen zur Steigerung der Benutzerproduktivität
@@ -51,13 +52,14 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 - **Funktionsvideos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **Benutzerhandbuch** - [Autoreninhalt](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **Benutzerhandbuch** - [Autoreninhalt](/help/product-guide/user-guide/reports-intro.md)
 
 - **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
+>
 > - On-Premise: 4.2 oder höher
 > - Cloud Service: 2303 oder höher
 

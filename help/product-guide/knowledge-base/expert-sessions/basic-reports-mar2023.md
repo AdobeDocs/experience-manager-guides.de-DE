@@ -2,9 +2,9 @@
 title: Berichte in AEM Handbüchern
 description: Erfahren Sie, welche Berichte in AEM zur Verfügung stehen, um Benutzer bei der Verbesserung der Inhaltsqualität zu unterstützen.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,7 @@ Bei einer organisatorischen Einrichtung möchten Sie die Gesamtvollständigkeit 
 ## Sitzungsübersicht
 
 In dieser Sitzung wurden native Berichte angezeigt, die Benutzern zur Verfügung standen. Wir haben im Großen und Ganzen Folgendes behandelt:
+
 - Dokument- (Zuordnung) und Themenberichte
 - Metadatenberichte und Optionen zur Massenverwaltung von Metadaten
 - Berichte zur Inhaltswiederverwendung
@@ -40,6 +41,7 @@ In dieser Sitzung wurden native Berichte angezeigt, die Benutzern zur Verfügung
 ## Haupterkenntnisse
 
 In dieser Sitzung haben Sie Folgendes erfahren:
+
 - Bedeutung von Berichten in CCMS
 - Verfügbare native Berichte
 - Beispiele für die Berichterstellung über Inhalte
@@ -51,13 +53,14 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 - **Funktionsvideos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **Benutzerhandbuch** - [Autoreninhalt](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **Benutzerhandbuch** - [Autoreninhalt](/help/product-guide/user-guide/reports-intro.md)
 
 - **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
+>
 > - On-Premise: 4.2 oder höher
 > - Cloud Service: 2302 oder höher
 
