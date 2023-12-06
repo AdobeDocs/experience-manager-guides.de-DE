@@ -2,9 +2,9 @@
 title: Konfigurieren der Suche in der AEM Assets-Benutzeroberfläche
 description: Erfahren Sie, wie Sie die Suche für die AEM Assets-Benutzeroberfläche konfigurieren
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 247f4d8fe744b6f9d285a7f61c2b31628de2bb36
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1695'
 ht-degree: 1%
 
 ---
@@ -135,15 +135,15 @@ Eine Regel besteht aus folgenden Elementen:
 
 xpath : Die XPath-Abfrage, mit der die Elemente oder Attribute aus DITA-Dateien abgerufen werden. Die Standardkonfiguration für die Elementregel ruft alle `prolog` -Elemente. Und die Standardkonfiguration für die Attributregel ruft alle Attribute von `prolog` -Elemente. Sie können eine XPath-Abfrage angeben, um die Elemente oder Attribute zu serialisieren, nach denen Sie suchen möchten.
 
-    Die XPath-Abfrage enthält den Klassennamen des Dokumenttyps. Die Klasse &quot;topic/topic&quot;wird für DITA-Dokumente des Thementyps verwendet. Wenn Sie eine Regel für andere DITA-Dokumente erstellen möchten, müssen Sie die folgenden Klassennamen verwenden:
-    
-    |Dokumenttyp|Klassenname|
-    |—|—|
-    |Thema|- Thema/Thema|
-    |Aufgabe|- topic/topic task/task|
-    |Konzept|- topic/topic concept/concept|
-    |Referenz|- topic/topic reference/reference|
-    |Map|- map/map|
+Die XPath-Abfrage enthält den Klassennamen des Dokumenttyps. Die `topic/topic` -Klasse wird für DITA-Dokumente des Thementyps verwendet. Wenn Sie eine Regel für andere DITA-Dokumente erstellen möchten, müssen Sie die folgenden Klassennamen verwenden:
+
+| Dokumenttyp | Klassenname |
+|-------------|----------|
+| Thema | - topic/topic |
+| Aufgabe | - topic/topic/task/task |
+| Konzept | - topic/topic concept/concept |
+| Verweis | - topic/topic reference/reference |
+| Zuordnung | - map/map |
 
 text : Wenn Sie nach dem Text innerhalb des angegebenen Elements suchen möchten, geben Sie den Wert yes an. Wenn Sie &quot;Nein&quot;als Wert angeben, werden nur die Attribute innerhalb des Elements serialisiert. Die Attribute, nach denen Sie suchen möchten, müssen im Abschnitt &quot;Attributsatz&quot;angegeben werden.
 
