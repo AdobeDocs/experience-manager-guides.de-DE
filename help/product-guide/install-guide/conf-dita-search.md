@@ -2,9 +2,9 @@
 title: Konfigurieren der Suche in der AEM Assets-Benutzeroberfläche
 description: Erfahren Sie, wie Sie die Suche für die AEM Assets-Benutzeroberfläche konfigurieren
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 247f4d8fe744b6f9d285a7f61c2b31628de2bb36
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1696'
 ht-degree: 1%
 
 ---
@@ -70,6 +70,7 @@ Führen Sie Folgendes aus, um die UUID-basierte Suchkomponente in der AEM Assets
 
    - **Feldbezeichnung**: UUID
    - **Eigenschaftsname**: jcr:content/fmUuid
+
 1. Klicks **Fertig** , um Ihre Änderungen zu speichern.
 
    Wenn Sie auf die Option Filter in der Assets-Benutzeroberfläche zugreifen, erhalten Sie die UUIS-basierte Suchfilteroption.
@@ -127,7 +128,6 @@ Diese Datei enthält zwei Hauptabschnitte: Attributsatz und Regelsatz. Im Folgen
 Im Regelsatzabschnitt können Sie Folgendes angeben:
 
 - Regeln zum Extrahieren der Elemente
-
 - Regeln zum Extrahieren von Attributen
 
 
@@ -143,7 +143,7 @@ Die XPath-Abfrage enthält den Klassennamen des Dokumenttyps. Die `topic/topic` 
 | Aufgabe | - topic/topic/task/task |
 | Konzept | - topic/topic concept/concept |
 | Verweis | - topic/topic reference/reference |
-| Zuordnung | - map/map |
+| Map | - map/map |
 
 text : Wenn Sie nach dem Text innerhalb des angegebenen Elements suchen möchten, geben Sie den Wert yes an. Wenn Sie &quot;Nein&quot;als Wert angeben, werden nur die Attribute innerhalb des Elements serialisiert. Die Attribute, nach denen Sie suchen möchten, müssen im Abschnitt &quot;Attributsatz&quot;angegeben werden.
 
