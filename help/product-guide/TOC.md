@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager-Handbücher
 user-guide-description: Lesen Sie die Produktdokumentation für Adobe Experience Manager-Handbücher.
 breadcrumb-title: Handbuch für AEM
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: 757371f7d9e9029096abd2f269b3bdd715d1c965
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1635'
 ht-degree: 4%
 
 ---
@@ -213,8 +213,8 @@ ht-degree: 4%
       + Inhaltsmigration {#content-migration}
          + [Migration von Nicht-UUID-zu-UUID-Inhalten](./install-guide/migrate-uuid-non-uuid.md)
          + Migrationsprozess {#migration-process}
-            + [Migrieren von Nicht-UUID-Inhalten mit Versionen](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            + [Migrieren von Nicht-UUID-Inhalten ohne Versionen](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            + [Migrieren versionierter Inhalte](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            + [Migrieren nicht versionierter Inhalte](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          + [Migrieren vorhandener Inhalte](./install-guide/migrate-content.md)
          + [Vorhandenen DITA-Inhalt hochladen](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [Nicht-DITA-Inhalt migrieren](./install-guide/migrate-content-non-dita.md)
