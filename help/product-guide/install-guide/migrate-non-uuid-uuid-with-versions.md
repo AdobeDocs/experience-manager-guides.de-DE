@@ -1,7 +1,7 @@
 ---
 title: Konvertieren von Nicht-UUID-Inhalten mit Versionen in UUID-Inhalt
 description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte mit Versionen zu UUID-Inhalten migrieren.
-source-git-commit: 0d985688af601ca51822b116ea4baafce19f0658
+source-git-commit: b57364fa52d48791fbab07125f13007c563b7781
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -53,19 +53,19 @@ Führen Sie die folgenden Prüfungen für die Nicht-UUID-Version durch (4.1 Nich
    >
    >* Sie benötigen Administratorrechte, um die Migration ausführen zu können.
    >* Es wird empfohlen, die Dateien mit Fehlern zu beheben, bevor Sie mit der Migration fortfahren.
-1. (Optional) Führen Sie eine Versionsbereinigung für den Inhalt durch, um unnötige Versionen zu entfernen und den Migrationsprozess zu beschleunigen. Um die Versionsbereinigung durchzuführen, wählen Sie die Option **Versionsbereinigung** vom Migrationsbildschirm aus und rufen Sie die Benutzeroberfläche mit der URL auf `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+
+1. (Optional) Führen Sie eine Versionsbereinigung für den Inhalt durch, um unnötige Versionen zu entfernen und den Migrationsprozess zu beschleunigen. Um die Versionsbereinigung durchzuführen, wählen Sie die Option
+   **Versionsbereinigung** vom Migrationsbildschirm aus und rufen Sie die Benutzeroberfläche mit der URL auf `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >Dieses Dienstprogramm entfernt keine Versionen, die in Grundlinien- oder Rezensionen verwendet werden, oder hat Beschriftungen.
-1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Launch `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. Auswählen **Kompatibilitätsbewertung**  aus dem linken Bedienfeld aus und durchsuchen Sie einen Ordnerpfad.
 1. Überprüfen Sie die Kompatibilität, um die folgenden Informationen aufzulisten:
    * Dateien insgesamt
    * Versionen insgesamt
    * Geschätzte Migrationszeit
    * Fehlerfreie Dateien
-
-
 
    ![Registerkarte &quot;Kompatibilitätsbewertung&quot;der Migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
