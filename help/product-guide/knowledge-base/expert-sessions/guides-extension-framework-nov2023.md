@@ -2,9 +2,9 @@
 title: Erweiterungs-Framework von AEM Handbüchern - Anpassen der Web-Editor- und Überprüfungs-Benutzeroberfläche
 description: Mit dem Framework für die Guides-Erweiterung können Sie die gewünschten Abschnitte der Review-Benutzeroberfläche oder des Web-Editors anpassen, indem Sie einfach zu aktualisierende JSON-, CSS- und JavaScript-Dateien verwenden.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 - **Häufige Anwendungsfälle dokumentiert** - [auf Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
 
-- **Öffentliches Repository mit Beispielen** - [auf GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Verzweigung siehe sc-experte-session
+- **Öffentliches Repository mit Beispielen** - [auf GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Siehe Verzweigung sc-experte-session
 
 
 >[!NOTE]
