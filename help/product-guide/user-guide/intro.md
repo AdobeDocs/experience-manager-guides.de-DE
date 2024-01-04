@@ -1,12 +1,12 @@
 ---
 title: Informationen zu Adobe Experience Manager-Handbüchern
-description: Erfahren Sie mehr über Adobe Experience Manager Guides, eine DITA-basierte Inhaltsverwaltungslösung für Unternehmen. Machen Sie sich mit den Vorteilen AEM Guides vertraut.
-short-description: Erfahren Sie mehr über AEM Guides, eine DITA-basierte Inhaltsverwaltungslösung für Unternehmen.
+description: Erfahren Sie mehr über Adobe Experience Manager Guides, eine DITA-basierte Content-Management-Lösung für Unternehmen. Machen Sie sich mit den Vorteilen von AEM Guides vertraut.
+short-description: Erfahren Sie mehr über AEM Guides, eine DITA-basierte Content-Management-Lösung für Unternehmen.
 exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
 source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 

@@ -1,11 +1,11 @@
 ---
-user-guide-title: Experience Manager-Handbücher
-user-guide-description: Lesen Sie die Produktdokumentation für Adobe Experience Manager-Handbücher.
-breadcrumb-title: Handbuch für AEM
+user-guide-title: Experience Manager Guides
+user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
+breadcrumb-title: Handbuch zu AEM Guides
 source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
 source-wordcount: '1638'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
