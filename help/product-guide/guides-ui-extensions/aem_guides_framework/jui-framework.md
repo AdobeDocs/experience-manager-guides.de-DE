@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Jui Framework
+description: Grundlagen zu Jui Framework
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ Die JUI-React-Spectrum-Bibliothek verfügt über Wrapper-Widgets von Adobe React
 
 ### MVC UI Design
 
-![Alternativtext](./imgs/jui-mvc-flow.png)
+![JUI MVC-Fluss](./imgs/jui-mvc-flow.png)
 
 ### Widget
 
@@ -35,7 +36,7 @@ Die JUI-React-Spectrum-Bibliothek verfügt über Wrapper-Widgets von Adobe React
 - Kann andere Widgets haben
 - App ist ein Widget
 
-![Alternativtext](./imgs/jui-widget.png)
+![JUI Widget](./imgs/jui-widget.png)
 
 ### Element
 
@@ -76,4 +77,4 @@ Die JUI-React-Spectrum-Bibliothek verfügt über Wrapper-Widgets von Adobe React
 
 ### Beispiel-App-Design
 
-![Alternativtext](./imgs/jui-sample-app.png)
+![Beispielanwendung](./imgs/jui-sample-app.png)

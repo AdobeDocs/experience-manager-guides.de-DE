@@ -1,10 +1,14 @@
 ---
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+title: Anpassen
+description: Anpassen der Überprüfungs-App
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
+
+
 # Anpassen der Überprüfungs-App
 
 Um die Anpassung der Review-App zu erleichtern, haben wir einige der unten aufgeführten und erläuterten Erweiterungspunkte bereitgestellt:
@@ -14,7 +18,7 @@ Um die Anpassung der Review-App zu erleichtern, haben wir einige der unten aufge
 - id: `review_comment`
 - Hook: `this.updateExtraProps`:
 
-Wie besprochen [here](../../aem_guides_framework/basic_customisation.md), werden alle neuen Attribute, die bei der Anpassung hinzugefügt werden, unter `this.model.extraProps`. Die -Methode `updateExtraProps` ermöglicht es Ihnen, einem Überprüfungskommentar Attribute hinzuzufügen und dabei auch die Aktualisierung und Speicherung des hinzugefügten Attributs auf dem Server zu verarbeiten.
+Wie besprochen [here](../../aem_guides_framework/basic-customisation.md), werden alle neuen Attribute, die bei der Anpassung hinzugefügt werden, unter `this.model.extraProps`. Die -Methode `updateExtraProps` ermöglicht es Ihnen, einem Überprüfungskommentar Attribute hinzuzufügen und dabei auch die Aktualisierung und Speicherung des hinzugefügten Attributs auf dem Server zu verarbeiten.
 
 ### Nutzungsbeispiel
 
