@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Handbuch zu AEM Guides
-source-git-commit: 6dedfb51c9f32c5f621c3672735ecc07be3d619d
+source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1660'
 ht-degree: 5%
 
 ---
@@ -398,6 +398,10 @@ ht-degree: 5%
             + [Einführung in das Extension-Repository](./guides-ui-extensions/getting-started/extension-repo-intro.md)
          + Anpassungen {#customisations}
             + [Einfache Anpassung](./guides-ui-extensions/customisations/add-button.md)
+            + [Kontextmenüs anpassen](./guides-ui-extensions/customisations/context-menus.md)
+            + [Anpassen der Symbolleiste und der Symbolleiste](./guides-ui-extensions/customisations/toolbar-topbar.md)
+         + Überprüfen{#review-app-customisations}
+            + [Komponenten](./guides-ui-extensions/customisations/ReviewApp/components.md)
       + Veröffentlichung {#publishing}
          + [AEM Umgebung für native PDF-Veröffentlichung konfigurieren](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS und Handbücher](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
