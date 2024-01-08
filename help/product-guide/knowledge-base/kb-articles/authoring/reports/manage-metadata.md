@@ -2,9 +2,9 @@
 title: Verwalten von Tags für DITA-Dateien in AEM Handbüchern
 description: Kurzer Artikel zum Verwalten von cq:tags in AEM Handbüchern
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Sie können auch vorhandene Tags entfernen, die in ausgewählten Dateien verwend
 
 ### Liste in manage->metadata ist leer oder unvollständig
 
-Wenn die Liste leer oder unvollständig ist, müssen Sie die Indizierung möglicherweise in Ihrer Ditamap ausführen. Weitere Informationen finden Sie unter [Upgrade-Anweisungen (Index Ihres Inhalts)](/help/product-guide/install-guide/upgrade-xml-documentation.md#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Upgrade-Anweisungen (Index Ihres Inhalts)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Benutzerdefinierte Metadaten werden nicht in der Liste angezeigt
 
@@ -54,8 +54,8 @@ Wenn die Liste leer oder unvollständig ist, müssen Sie die Indizierung möglic
 
 ## Weitere hilfreiche Ressourcen
 
-- [Massen-Tagging mit Map Dashboard (Assets-Benutzeroberfläche)](/help/product-guide/user-guide/map-editor-bulk-tagging.md)
-- [Ditamap-Berichte im Web-Editor](/help/product-guide/user-guide/reports-web-editor.md)
+- [Massen-Tagging mit Map Dashboard (Assets-Benutzeroberfläche)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [Ditamap-Berichte im Web-Editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [Tagging in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 

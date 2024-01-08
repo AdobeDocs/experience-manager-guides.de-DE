@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit dem Oxygen-Plug-in für Adobe Experience 
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0e19b870541e8e65dc371eb01fc3256f172c1a91
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6294'
 ht-degree: 0%
 
 ---
@@ -246,22 +246,21 @@ Führen Sie die folgenden Schritte aus, um Profilattribute und Querverweise zu k
 
    ![Dokumenttyp-Zuordnung](images/document_type_association.png){width="650" align="left"}
 
-1. Im **Klassenpfad** Wählen Sie com.adobe.o2.connector im **Übergeordnete Klassenlader vom Plug-in mit ID verwenden** angezeigt.
+1. Im **Klassenpfad** Registerkarte auswählen `com.adobe.o2.connector` im **Übergeordnete Klassenlader vom Plug-in mit ID verwenden** angezeigt.
 
    ![Registerkarte &quot;Klassenpfad&quot;](images/dita-extension.png){width="650" align="left"}
 
 1. Im **Erweiterungen** -Tab, nehmen Sie die folgenden Änderungen vor:
-   - Klicks **Auswählen** neben dem **Listener für Autorenerweiterungsstatus** under **Individuelle Erweiterungen** und wählen Sie CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
-   - Klicks **Auswählen** neben dem **Autor des benutzerdefinierten Attributwert-Editors** under **Individuelle Erweiterungen** und wählen Sie CustomValueEditor - com.adobe.o2.framework.extn im **Klasse** Liste. Klicks **OK**.
-Der folgende Screenshot zeigt die konfigurierte **Erweiterung** Registerkarte für DITA-Themen:
 
-     ![Konfigurierte Erweiterung für DITA-Themen](images/dita-topic-extension-tab.png){width="650" align="left"}
-
-   - Klicks **Auswählen** neben dem **Erweiterungspaket** und wählen Sie LinkResolverExtensionBundle - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
-
+   - Klicks **Auswählen** neben dem **Erweiterungspaket** und wählen   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` im **Klasse** Liste. Klicken Sie auf **OK**.
      ![Konfigurierte Erweiterung für DITA-Themen](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+   - Klicks **Auswählen** neben dem **Listener für Autorenerweiterungsstatus** under **Individuelle Erweiterungen** und wählen `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` im **Klasse** Liste. Klicken Sie auf **OK**.
+   - Klicks **Auswählen** neben dem **Autor des benutzerdefinierten Attributwert-Editors** under **Individuelle Erweiterungen** und wählen `CustomValueEditor - com.adobe.o2.framework.extn` im **Klasse** Liste. Klicken Sie auf **OK**.
+   - Klicks **Auswählen** neben dem **Externe Autorenobjekteinfüge-Handler** under **Individuelle Erweiterungen** und wählen `CustomURLInsertionHandler - com.adobe.o2.ui ` im **Klasse** Liste. Klicken Sie auf **OK**.
 
 
+   Der folgende Screenshot zeigt die konfigurierte **Erweiterung** Registerkarte für DITA-Themen:
+   <img src="images/dita-topic-extension-tab.png" alt="Konfigurierte Erweiterung für DITA-Themen" width="650" border="2px">
 1. Klicks **OK** in allen Dialogfeldern, um Ihre Änderungen zu speichern.
 
 ### Konfigurieren der DITA Map-Erweiterung
@@ -274,16 +273,19 @@ Führen Sie die folgenden Schritte aus, um die DITA Map-Erweiterung zu konfiguri
 1. Im **Dokumenttyp-Zuordnung** Registerkarte auswählen **DITA Map** und klicken Sie anschließend auf **Erweitern**.
 1. Im **Klassenpfad** Wählen Sie com.adobe.o2.connector im **Übergeordnete Klassenlader vom Plug-in mit ID verwenden** angezeigt.
 1. Im **Erweiterungen** -Tab, nehmen Sie die folgenden Änderungen vor:
-1. 
-   - Klicks **Auswählen** neben dem **Listener für Autorenerweiterungsstatus** under **Individuelle Erweiterungen** und wählen Sie CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
-- Klicks **Auswählen** neben dem **Autor des benutzerdefinierten Attributwert-Editors** under **Individuelle Erweiterungen** und wählen Sie CustomValueEditor - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
-- *\(Optional\)* Wenn Sie beim Öffnen einer Zuordnungsdatei keine Verweise auflösen möchten, müssen Sie die folgende zusätzliche Konfiguration durchführen:
+   - Klicks **Auswählen** neben dem **Erweiterungspaket** und wählen   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` im **Klasse** Liste. Klicken Sie auf **OK**.
 
-  Klicks **Auswählen** neben dem **Referenzen-Resolver** under **Individuelle Erweiterungen** und wählen Sie CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn im **Klasse** Liste. Klicken Sie auf **OK**.
+   - Klicks **Auswählen** neben dem **Listener für Autorenerweiterungsstatus** under **Individuelle Erweiterungen** und wählen `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` im **Klasse** Liste. Klicken Sie auf **OK**.
 
-  Der folgende Screenshot zeigt die konfigurierte **Erweiterung** tab:
+   - Klicks **Auswählen** neben dem **Externe Autorenobjekteinfüge-Handler** under **Individuelle Erweiterungen** und wählen `CustomURLInsertionHandler - com.adobe.o2.ui ` im **Klasse** Liste. Klicken Sie auf **OK**.
 
-  ![Konfigurierte Erweiterung für DITA Map](images/dita-map-extension-tab.png){width="650" align="left"}
+   - Klicks **Auswählen** neben dem **Autor des benutzerdefinierten Attributwert-Editors** under **Individuelle Erweiterungen** und wählen `CustomValueEditor - com.adobe.o2.framework.extn` im **Klasse** Liste. Klicken Sie auf **OK**.
+
+   - Klicks **Auswählen** neben dem **Referenzen-Resolver** under **Individuelle Erweiterungen** und wählen `CustomDITAMapReferenceResolver - com.adobe.o2` im **Klasse** Liste. Klicken Sie auf **OK**.
+   - *\(Optional\)* Wenn Sie beim Öffnen einer Zuordnungsdatei keine Verweise auflösen möchten, müssen Sie die folgende zusätzliche Konfiguration durchführen:
+
+   Der folgende Screenshot zeigt die konfigurierte **Erweiterung** tab:
+   <img src="images/dita-map-extension-tab.png" alt="Konfigurierte Erweiterung für DITA Map" width="650" border="2px">
 
 1. Klicks **OK** in allen Dialogfeldern, um Ihre Änderungen zu speichern.
 
@@ -440,7 +442,7 @@ Wenn Sie eine Datei einchecken, wird die lokale Kopie von Ihrem System im AEM-Re
 
    ![Dialogfeld &quot;Einchecken&quot;](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   Sie können derselben Version eines Themas mehrere Bezeichnungen (durch Kommas getrennt) hinzufügen.  Beispiel: *Adobe*, *AEM*,*Handbücher*
+   Sie können derselben Version eines Themas mehrere Bezeichnungen (durch Kommas getrennt) hinzufügen.  Beispiel: *Adobe*, *AEM*, *Handbücher*.
 Sie können jedoch nicht dieselbe Bezeichnung zu den verschiedenen Versionen eines Themas hinzufügen. Wenn Sie eine Bezeichnung hinzufügen, die Sie bereits zu einer früheren Version hinzugefügt haben, wird diese der neuesten Version hinzugefügt und aus der früheren Version entfernt.
 
    >[!NOTE]
@@ -511,7 +513,7 @@ Beim Verschieben oder Kopieren von Inhalten aus Ihrem lokalen System in AEM Repo
 
 - Wenn Sie Inhalte aus AEM Repository auschecken und Änderungen auf Ihrem lokalen System vornehmen, stellen Sie sicher, dass der Dateiname zum Zeitpunkt des Hochladens der Datei nicht geändert wird.
 
-- Wenn Sie einen Verweis in den DITA Maps Manager einfügen, wird der Titel der Datei und nicht die UUID angezeigt. Wenn der Titel nicht vorhanden ist, wird der Dateiname angezeigt.
+- Wenn Sie einen Verweis in den DITA Maps Manager oder den Editor einfügen, wird der Titel der Datei und nicht die UUID angezeigt. Wenn der Titel nicht vorhanden ist, wird der Dateiname angezeigt.
 
 ### Favoriten hinzufügen oder entfernen {#id195HC04405P}
 
@@ -607,6 +609,24 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Thema in der Oxygen XML Auth
    >[!NOTE]
    >
    >Stellen Sie sicher, dass Sie das Thema mit dem Sauerstoff-Plug-in für AEM Guides einchecken. Wenn Sie über die AEM Web-Oberfläche einchecken, werden die Änderungen, die Sie in der Sauerstoff-XML-Autoreninstanz vornehmen, nicht in der eingecheckten Version des Themas gespeichert.
+
+**Einfügen eines Verweises auf ein Thema aus dem Experience Manager Guides-Repository**
+
+Sie können auch per Drag-and-Drop ein Thema einfügen, um die Referenz in ein Thema oder eine DITA-Zuordnung einzufügen.
+>[!NOTE]
+>
+> Sie müssen eine Datei auschecken, bevor Sie einen Verweis hinzufügen.
+
+Die folgenden Elemente werden basierend auf dem Typ der Verweise hinzugefügt:
+
+Wenn Sie mit einem geöffneten Thema zum Editor wechseln:
+- Eine Referenz wird hinzugefügt mit `<image>` -Element für die Bilder.
+- Für ein Video oder eine Audioaufzeichnung wird ein Objektelement hinzugefügt.
+- Die `<xref>`  -Element für alle anderen Referenzen wie Thema, Zuordnung, DITAVAL, PDF, ZIP und XML hinzugefügt.
+
+Wenn Sie beim Editor oder DITA Maps-Manager mit geöffneter Karte ablegen:
+- Die `<mapref>` -Element für Zuordnungsverweise hinzugefügt, die eine DITA-Zuordnung, eine Lesekarte oder ein Subjekt-Schema enthalten.
+- Die `<topicref>` -Element für alle anderen Referenzen wie Thema, Zuordnung, DITAVAL, PDF, ZIP und XML hinzugefügt.
 
 
 ## Arbeiten mit Attributprofilen {#id1827JA002YK}

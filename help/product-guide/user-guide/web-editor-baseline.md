@@ -2,9 +2,9 @@
 title: Erstellen und Verwalten von Grundlinien im Web-Editor
 description: Erstellen und verwalten Sie Grundlinien über den Webeditor in AEM Handbüchern. Erfahren Sie, wie Sie Grundlinien basierend auf Bezeichnungen erstellen und Filter auf die Grundlinien anwenden.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: f02a9e4a71796996a4ea933cb3c5b983103a251b
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Sie können eine Grundlinie im Web Editor erstellen, indem Sie die folgenden Sch
 
    ![Grundlegender Bereich](images/baseline-manage.png){width="800" align="left"}
 
-1. Im **Grundlinie** auf + rechts oben. Sie können eine Grundlinie mit einer bestimmten Version der Themen und referenzierten Inhalten erstellen, die an einem bestimmten Datum und zu einer bestimmten Uhrzeit verfügbar sind, oder mit einer für eine Version der Themen definierten Bezeichnung.
-1. Geben Sie einen Namen für die Grundlinie in **Baseline Name**.
-1. In **Grundlinien-Option** können Sie entweder **Verwenden der Dateiversion** Option oder **Verwenden von Bezeichnungen** Option:
+1. Im **Grundlinie** klicken Sie oben rechts auf das Symbol + , um eine Grundlinie zu erstellen.
+1. Geben Sie einen Namen für die Grundlinie in **Name**.
+1. In **Konfiguration** können Sie entweder **Manuelle Aktualisierung** Option oder **Automatische Aktualisierung** Option:
 
-   **Verwenden der Dateiversion**: Sie können eine statische Grundlinie mit einer bestimmten Version der Themen und des referenzierten Inhalts erstellen, die an einem bestimmten Datum und zu einer bestimmten Uhrzeit verfügbar ist, oder mit einer für eine Version der Themen definierten Beschriftung:
+   **Manuelle Aktualisierung**: Sie können manuell eine statische Grundlinie mit einer bestimmten Version der Themen und des referenzierten Inhalts erstellen, die an einem bestimmten Datum und zu einer bestimmten Uhrzeit verfügbar ist, oder mit einer für eine Version der Themen definierten Bezeichnung:
 
-   - In **Legen Sie die neueste Version basierend auf** eine der folgenden Optionen auswählen:
+   - In **Wählen Sie die Version basierend auf** eine der folgenden Optionen auswählen:
 
 
       1. **Datum** &lt;time stamp=&quot;&quot;>: Wählt die Version des Themas als Datum und Uhrzeit aus.
@@ -52,9 +52,9 @@ Sie können eine Grundlinie im Web Editor erstellen, indem Sie die folgenden Sch
 
          Nachdem Sie eine Bezeichnung oder Version als Datum ausgewählt haben, werden alle referenzierten Themen und Mediendateien in der Zuordnung entsprechend ausgewählt. Diese Themenauswahl wird nicht auf der Benutzeroberfläche angezeigt, sondern im Backend gespeichert.
 
-   **Beschriftungen verwenden**: Wählen Sie diese Option für die Grundlagenerstellung aus, um die Themen entsprechend der auf sie angewendeten Bezeichnung auszuwählen.
+   **Automatische Aktualisierung**: Wählen Sie diese Option für die Grundlinien-Erstellung aus, um die Themen automatisch entsprechend der auf sie angewendeten Bezeichnung auszuwählen.
 
-   Grundlinien, die auf Bezeichnungen basieren, werden dynamisch aktualisiert. Wenn Sie eine Grundlinie erstellen, eine Grundlinie herunterladen oder ein Übersetzungsprojekt mit einer Grundlinie erstellen, werden die Dateien dynamisch anhand der aktualisierten Beschriftungen ausgewählt. Wenn Sie beispielsweise Version 1.2 eines Themas mit Label Release 1.0 für die Grundlinie und später aktualisierte Version 1.5 mit Label Release 1.0 verwendet haben, wird die Grundlinie dynamisch aktualisiert und Version 1.5 wird verwendet.
+   Grundlinien, die mit der Konfiguration der automatischen Aktualisierung erstellt wurden, werden dynamisch aktualisiert. Wenn Sie eine Grundlinie erstellen, eine Grundlinie herunterladen oder ein Übersetzungsprojekt mit einer Grundlinie erstellen, werden die Dateien dynamisch anhand der aktualisierten Beschriftungen ausgewählt. Wenn Sie beispielsweise Version 1.2 eines Themas mit Label Release 1.0 für die Grundlinie und später aktualisierte Version 1.5 mit Label Release 1.0 verwendet haben, wird die Grundlinie dynamisch aktualisiert und Version 1.5 wird verwendet.
 
    ![Erstellen einer Grundlinie](images/dynamic-baseline.png){width="550" align="left"}
 
@@ -78,16 +78,7 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
 
 - Sie können über das Textfeld im Bedienfeld &quot;Grundlinie&quot;nach einer vorhandenen Grundlinie suchen. Verwenden Sie die **Filter anwenden** -Symbol, um alle Grundlinien anzuzeigen oder die Grundlinien mit dem Erstellungsstatus als &quot;Erfolgreich&quot;, &quot;In Bearbeitung&quot;oder &quot;Fehlgeschlagen&quot;aufzulisten.
 - Verwenden Sie die **Aktualisieren** im Bedienfeld &quot;Grundlinie&quot;ein, um alle Grundlinien erneut zu überprüfen und eine neue Liste der Grundlinien für die DITA-Karte anzuzeigen, die in der Kartenansicht geöffnet ist.
-- Sie können den Inhalt einer vorhandenen statischen Grundlinie anzeigen oder bearbeiten, indem Sie in der Liste im Bedienfeld Grundlinie auf die Grundlinie doppelklicken. Das Grundlinien-Bearbeitungsfenster in der Mitte zeigt die DITA-Map-Datei, den Inhalt oder die Themen der Zuordnung und den referenzierten Inhalt an.
-
-
-  ![Optionen einer Grundlinie](images/baseline-options.png){width="800" align="left"}
-
-
-
-  Sie können auch die folgenden Vorgänge auf der Grundlinie im Menü Optionen ausführen:
-
-- **Bearbeiten**, **Duplizieren,** **Umbenennen** oder **Löschen** eine bestehende Grundlinie.
+- Sie können den Inhalt einer vorhandenen statischen Grundlinie anzeigen oder bearbeiten, indem Sie auf die Grundlinie in der Liste im **Grundlinie** Bedienfeld. Das Grundlinien-Bearbeitungsfenster in der Mitte zeigt die DITA-Map-Datei, den Inhalt oder die Themen der Zuordnung und den referenzierten Inhalt an.
 
   >[!NOTE]
   >
@@ -95,7 +86,25 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
   >
   >Der Bearbeitungsvorgang bei dynamischen Grundlinien ermöglicht es Ihnen, die Eigenschaften der Grundlinie zu bearbeiten, da die Verweise für dynamische Grundlinien zur Laufzeit mithilfe der Beschriftungen generiert werden.
 
-- Hinzufügen, Entfernen oder Ändern vorhandener Bezeichnungen aus dem **Verwalten von Bezeichnungen** für statische Grundlinien. Wenn Ihr Administrator vordefinierte Beschriftungen konfiguriert hat, werden diese Beschriftungen in der Dropdownliste Titel hinzufügen angezeigt. Weitere Informationen zum Hinzufügen von Bezeichnungen finden Sie unter [Verwenden von Bezeichnungen](web-editor-use-label.md#).
+  ![Optionen einer Grundlinie](images/baseline-options.png){width="800" align="left"}
+
+
+
+  Sie können auch die folgenden Vorgänge auf der Grundlinie im Menü Optionen ausführen:
+- **Grundlinie duplizieren**: Sie können eine Grundlinie duplizieren und entsprechend Ihren Anforderungen ändern.
+  ![Grundlinie duplizieren](images/baseline-duplicate.png){width="300" align="left"}
+  *Duplizieren Sie eine Grundlinie basierend auf einem Titel oder erstellen Sie eine exakte Kopie.*
+
+   1. Auswählen **Duplizieren** im Menü Optionen einer Grundlinie. Die **Grundlinie duplizieren** wird geöffnet.
+      >[!NOTE]
+      > 
+      >Der Standardname der Grundlinie lautet `<selected baseline name>`_suffix (wie sample-baseline_1). Sie können den Namen entsprechend Ihren Anforderungen ändern.
+   1. In **Wählen Sie die Version basierend auf** können Sie entweder die **Exakte Kopie** oder **Titel** Option:
+      - **Exakte Kopie**: Experience Manager Guides wählen dieselbe Version aller Themen aus und erstellen eine exakte Kopie der duplizierten Grundlinie.
+      - **Titel**: Sie können eine Bezeichnung aus der Dropdown-Liste auswählen. In den Experience Manager-Handbüchern werden die Themenversionen ausgewählt, für die der ausgewählte Titel definiert ist, während für die übrigen Themen die Version aus der duplizierten Grundlinie ausgewählt wird. Beispielsweise können Sie die Bezeichnung `Release 1.0` aus der Dropdown-Liste aus, werden die Versionen der Themen ausgewählt, für die Sie diese Bezeichnung definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Grundlinie ausgewählt.
+   1. Klicks **Duplizieren**.
+- **Umbenennen** oder **Löschen** eine bestehende Grundlinie.
+- Hinzufügen, Entfernen oder Ändern vorhandener Bezeichnungen aus dem **Verwalten von Bezeichnungen** für statische Grundlinien. Wenn Ihr Administrator vordefinierte Beschriftungen konfiguriert hat, werden diese Beschriftungen in der Dropdown-Liste Titel hinzufügen angezeigt. Weitere Informationen zum Hinzufügen von Bezeichnungen finden Sie unter [Verwenden von Bezeichnungen](web-editor-use-label.md#).
 
   >[!NOTE]
   >
@@ -123,3 +132,4 @@ Verwenden des Symbols Filter im **Standardfilter** -Bedienfeld können Sie Filte
 Nachdem Sie die Grundlinie bearbeitet haben, können Sie auf **Speichern** -Schaltfläche oben, um die Änderungen an der Grundlinie zu speichern. Sie können auf die **Zurücksetzen** , wenn Sie die Änderung nicht speichern und die Grundlinie zurücksetzen möchten. Wenn Sie auf die **Zurücksetzen** -Schaltfläche ein Warnhinweis angezeigt, dass nicht gespeicherte Änderungen verloren gehen.
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
+

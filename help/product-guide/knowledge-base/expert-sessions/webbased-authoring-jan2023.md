@@ -2,9 +2,9 @@
 title: Webbasierte Inhalte erstellen
 description: Erfahren Sie, wie Sie strukturierte Inhalte mit dem Web-Editor erstellen.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,6 @@ In dieser Sitzung erfahren Sie, wie Sie Inhalte mit dem Web-Editor erstellen, ve
 ## Haupterkenntnisse
 
 In dieser Sitzung erfahren Sie mehr über Folgendes:
-
 - Einstellungen für den Web-Editor konfigurieren
 - Verwenden der Funktionen des Web-Editors zur Verbesserung der Produktivität von Autoren
 - Erweiterung und Integration der verfügbaren Funktionen
@@ -41,14 +40,13 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 - **Funktionsvideos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Benutzerhandbuch** - [Autoreninhalt](/help/product-guide/user-guide/authoring-content.md)
+- **Benutzerhandbuch** - [Autoreninhalt](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
 - **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
->
 > - On-Premise 4.1.3 oder höher
 > - Cloud Service 2211 und höher
 

@@ -2,9 +2,9 @@
 title: Inhalte übersetzen
 description: Erfahren Sie, wie Sie Ihre Inhalte in mehrere Sprachen übersetzen können.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '166'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,6 @@ In dieser Sitzung erfahren Sie mehr über den Übersetzungsprozess, den Integrat
 ## Haupterkenntnisse
 
 In dieser Sitzung erfahren Sie mehr über Folgendes:
-
 - Gründe, warum Unternehmen in Übersetzung investieren, um ihr Geschäft zu verbessern
 - Verfügbarer Framework-Mechanismus und Übersetzungsprozess
 - Automatisierung von Übersetzungs-Workflows, APIs und Dashboards
@@ -41,14 +40,13 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 - **Funktionsvideos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Benutzerhandbuch** - [Inhalt übersetzen](/help/product-guide/install-guide/translation.md)
+- **Benutzerhandbuch** - [Inhalt übersetzen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
 - **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
 > Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
->
 > - On-Premise 4.1 oder höher
 > - Cloud Service 2207 oder höher
 

@@ -2,9 +2,9 @@
 title: Fügen Sie eine neue, benutzerdefiniert umsetzbare Schaltfläche in der Web-Beditor-Symbolleiste hinzu.
 description: Erfahren Sie, wie Sie eine neue benutzerdefinierte Schaltfläche in der WebBeditor-Symbolleiste hinzufügen und JavaScript aufrufen, um sie benutzerdefiniert zu bedienen.
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ Verwenden Sie die Ordnerprofile, um die *ui_config.json* Fügen Sie auf der Regi
 
 ### Verarbeiten des On-Click-Ereignisses für die neue Schaltfläche
 
->[!NOTE]
->
->Die unten genannten Schritte sind als in diesem Beitrag angehängtes Paket verfügbar.
-
+    HINWEIS: Die unten genannten Schritte sind als in diesem Beitrag angehängtes Paket verfügbar.
 
 
 - Erstellen Sie nach dem Speichern des Ordnerprofils einen &quot;cq:ClientLibraryFolder&quot;in einem Projektverzeichnis (möglicherweise unter */apps*) und fügen Sie Eigenschaften hinzu, wie im Screenshot unten gezeigt:

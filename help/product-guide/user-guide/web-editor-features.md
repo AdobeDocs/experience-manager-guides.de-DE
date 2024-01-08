@@ -2,9 +2,9 @@
 title: Funktionen des Web Editors kennen
 description: Entdecken Sie die Funktionen des Webeditors in AEM Handbüchern. Machen Sie sich mit der Benutzeroberfläche des Web-Editors vertraut, einschließlich der Hauptsymbolleiste, der sekundären Symbolleiste, des linken Bedienfelds, des Inhaltsbearbeitungsbereichs und des rechten Bedienfelds.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
 workflow-type: tm+mt
-source-wordcount: '17222'
+source-wordcount: '17364'
 ht-degree: 0%
 
 ---
@@ -147,9 +147,11 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Profil veröffentlichen**: Enthält die Veröffentlichungsprofile , die zum Veröffentlichen der Knowledge Base-Ausgabe verwendet werden können. Sie können ein neues Profil für einen ausgewählten Verbrauchertyp erstellen. Beispielsweise Salesforce.
+- **Profil veröffentlichen**: Enthält die Veröffentlichungsprofile , die zum Veröffentlichen der **Wissensdatenbank** Ausgabe. Sie können ein neues Profil für eine Ziel-Wissensdatenbank erstellen. Beispielsweise Salesforce oder ServiceNow.
 
-   - **Anforderungen zum Erstellen eines Salesforce-Veröffentlichungsprofils**
+   - **Erstellen eines Salesforce-Veröffentlichungsprofils**
+
+     **Voraussetzungen**
 
       - Erstellen Sie eine verbundene App für Salesforce. Weitere Informationen finden Sie unter [Aktivieren der OAuth-Einstellungen für die API-Integration](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
@@ -157,7 +159,7 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
 
          - Geben Sie den Rückruf an.
 
-           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
          - Wählen Sie die folgenden OAuth-Bereiche aus:
             - Vollständiger Zugriff (vollständig)
@@ -166,18 +168,38 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
   Sobald die App konfiguriert ist, stellt Salesforce eine **Consumer Key** und **Verbrauchergeheimnis**.
 
   Diese können zum Erstellen des Salesforce Publish-Profils verwendet werden.
-  ![Profile in den Editor-Einstellungen](./images/create-profile-editor-settings.png){width="300" align="left"}
 
 
+   - Um ein Salesforce-Veröffentlichungsprofil zu erstellen, wählen Sie die **Salesforce** Knowledge Base aus dem **Server-Typ** Dropdown. Geben Sie einen Profilnamen ein. Im **Site-URL**, geben Sie die Verbraucherseite ein, die Sie zum Veröffentlichen der Ausgabe verwenden würden, und fügen Sie dann die **Consumer Key** und **Verbrauchergeheimnis** von der Salesforce-Verbraucherseite bereitgestellt werden. Dann **Bestätigen** und **Speichern** das neu erstellte Profil.
+     ![salesforce publish profile in editor settings](./images/salesforce-publish-profile.png){width="550" align="left"}
 
-- Um ein Veröffentlichungsprofil zu erstellen, können Sie eine Wissensdatenbank wie Salesforce aus dem **Server-Typ** Dropdown. Geben Sie einen Profilnamen ein. Im **Site-URL** Geben Sie die Website des Verbrauchers ein, die Sie zum Veröffentlichen der Ausgabe verwenden würden, und fügen Sie dann die **Consumer Key** und **Verbrauchergeheimnis** von der Verbraucherseite wie Salesforce bereitgestellt werden. Melden Sie sich dann beim neu erstellten Profil an.
-
-  >[!NOTE]
-  >
-  >Verwenden Sie zum Konfigurieren eines Proxys für Salesforce in Experience Manager-Handbüchern die Apache HTTP Components Proxy Configuration in AEM. Erfahren Sie, wie [Konfigurieren des Proxys für den AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >[!NOTE]
+     >
+     >Verwenden Sie zum Konfigurieren eines Proxys für Salesforce in Experience Manager-Handbüchern die Apache HTTP Components Proxy Configuration in AEM. Erfahren Sie, wie [Konfigurieren des Proxys für den AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-  Nach der Anmeldung können Sie das Veröffentlichungsprofil in den Ausgabevorgaben einer DITA Map auswählen und die Ausgabe für ausgewählte Artikel generieren. Weitere Informationen finden Sie unter [Artikelbasierte Veröffentlichung im Web Editor](../install-guide/configure-article-based-publishing.md) im Installations- und Konfigurationshandbuch.
+   - **Erstellen eines ServiceNow Publish-Profils**
+
+     **Voraussetzungen**
+
+     Konfigurieren Sie den ServiceNow-Server, um die Assets hochzuladen.
+      - Stellen Sie eine Verbindung zum **ServiceNow** Server.
+      - Navigieren Sie zu **Systemeigenschaften** > **Sicherheit**.
+      - Deaktivieren Sie die folgende Option:
+
+        **Diese Eigenschaft muss so eingestellt sein, dass die MIME-Typüberprüfung für Uploads aktiviert wird (alle Versionen Eureka und höher). Aktiviert (true) oder deaktiviert (false) die Überprüfung des MIME-Typs für die Dateianlagen. Über glide.attachment.extensions konfigurierte Dateierweiterungen werden beim Hochladen auf den MIME-Typ überprüft.**
+
+      - Klicken Sie auf **Speichern**.
+
+     Nachdem Sie die App konfiguriert haben, erstellen Sie die **ServiceNow** Profil veröffentlichen.
+   - Um ein Veröffentlichungsprofil zu erstellen, wählen Sie die ServiceNow-Wissensdatenbank aus der **Server-Typ** Dropdown. Profil eingeben **Name**. Im **ServiceNow URL**, geben Sie die Verbraucherseite ein, die Sie für die Veröffentlichung der Ausgabe verwenden würden, und fügen Sie dann die **Benutzername** und **Passwort** von der ServiceNow-Verbraucherseite bereitgestellt werden. Dann **Bestätigen** und **Speichern** das neu erstellte Profil.
+
+     ![ServiceNow publish profile](./images/service-now-publish-profile.png){width="550" align="left"}
+
+  Nach der Validierung können Sie das Veröffentlichungsprofil in den Ausgabevorgaben einer DITA Map auswählen und es verwenden, um die Ausgabe in der  **Salesforce** oder **ServiceNow** Server, den Sie ausgewählt haben.
+
+  Weitere Informationen zum [Wissensdatenbank](../user-guide/generate-output-knowledge-base.md) Ausgabevorgabe.
+
 
 - **Validierung**: Diese Registerkarte enthält Optionen zum Konfigurieren der Schematron-Überprüfungen im Web-Editor. Sie können die folgenden Funktionen aktivieren:
 
@@ -186,7 +208,7 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
      >[!NOTE]
      >Die ausgewählten Schematron-Dateien bleiben für das ausgewählte Ordnerprofil bestehen.
 
-     ![Validierung in den Editor-Einstellungen](./images/editor-setting-validation.png){width="300" align="left"}
+     ![Validierung in den Editor-Einstellungen](./images/editor-setting-validation.png){width="550" align="left"}
 Dadurch wird verhindert, dass Benutzer Dateien speichern, die eine Regel beschädigen, die in den ausgewählten Schematron-Dateien definiert ist. Wenn diese Option nicht ausgewählt ist, wird die Datei vor dem Speichern der Änderungen nicht validiert.
 
    - **Alle Benutzer können Schemadateien im Überprüfungsfenster hinzufügen**: Wählen Sie diese Option aus, damit Benutzer im Webeditor im Bereich Validierung beliebige Schemadateien hinzufügen können. Dadurch können Benutzer Schematron-Dateien hinzufügen und die Themen dann anhand der Schematron-Datei validieren. Wenn dies nicht ausgewählt ist, wird die **Schematron-Datei hinzufügen** -Schaltfläche steht Benutzern im **Überprüfungsbedienfeld** des Webeditors.
@@ -232,9 +254,8 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Mithilfe der Vore
 
 - **Root Map auswählen**: Wählen Sie eine DITA-Map-Datei aus, um Schlüsselverweise oder Glossareinträge aufzulösen. Die ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen. Weitere Informationen finden Sie unter [Schlüsselverweise auflösen](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > Wenn Sie keine Stammzuordnung verwenden möchten, stellen Sie sicher, dass die **Root Map auswählen** leer ist.
 
 **Autoren-, Quell- und Vorschaumodi**
@@ -666,7 +687,7 @@ Mit AEM Guides können Sie Beschriftungen in einem freien Textformat angeben ode
 
 Diese Beschriftungen werden Autoren in Form einer Dropdown-Liste angezeigt, wo sie eine Beschriftung angeben müssen. Dadurch wird sichergestellt, dass im System nur vordefinierte, konsistente Beschriftungen verwendet werden.
 
-Es gibt verschiedene Methoden, mit denen Sie Bezeichnungen auf Ihre Themen anwenden können - [Versionsverlauf](web-editor-use-label.md#) Bedienfeld in der Assets-Benutzeroberfläche, [Grundlinien](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) Benutzeroberfläche und Web-Editor. Mit der Funktion Versionsbezeichnung im Web-Editor können Autoren schnell und einfach Titel zu ihren Themen zuweisen.
+Es gibt verschiedene Methoden, mit denen Sie Bezeichnungen auf Ihre Themen anwenden können - [Versionsverlauf](web-editor-use-label.md) Bedienfeld in der Assets-Benutzeroberfläche, [Grundlinien](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) Benutzeroberfläche und Web-Editor. Mit der Funktion Versionsbezeichnung im Web-Editor können Autoren schnell und einfach Titel zu ihren Themen zuweisen.
 
 So fügen Sie Ihrem Thema im Web Editor Beschriftungen hinzu:
 

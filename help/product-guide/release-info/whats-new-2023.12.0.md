@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Neue Funktionen in der Adobe Experience Manager-Anleitung, Version Dezember 2023
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Dezember 2023.
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: a2605a7758f53fd877f28cad98a1ef17f9f87b50
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ Dieser Artikel behandelt die neuen und verbesserten Funktionen in der Version De
 Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter [Versionshinweise](release-notes-2023.12.0.md).
 
 
-## Variablen in der nativen PDF-Ausgabe verwenden
+## Variablen in der PDF-Ausgabe verwenden
 
-Sie können Variablensätze verwenden, um Informationen dynamisch einzufügen und zu verwalten, die sich basierend auf bestimmten Bedingungen wie Produktnamen und Versionen ändern können. Mit dieser Funktion können Sie dasselbe PDF-Layout verwenden und Ausgaben mit unterschiedlichen Werten generieren. Sie müssen nicht für jeden Wertesatz separate Layouts erstellen.
+Mithilfe von Variablen können Sie wiederverwendbare Informationen dynamisch einfügen und verwalten. Experience Manager-Handbücher helfen Ihnen beim Erstellen, Bearbeiten und Anzeigen einer Vorschau von Variablen beim Generieren der PDF-Ausgabe. Sie können die Werte von Variablen schnell ändern und Ihre Dokumente portabel und einfach zu aktualisieren.
 
-Sie können beispielsweise für jedes Produkt einen Variablensatz erstellen. Dieser Variablensatz kann aus Variablen für verschiedene Produktdetails wie ProductName, VersionNumber und ReleaseDate bestehen. Anschließend können Sie für diese Variablen unterschiedliche Werte hinzufügen.
+![native PDF-Variablen](assets/add-variable-default.png){width="800" align="left"}
+
+*Erstellen und verwalten Sie Variablen im Web Editor.*
+
+Sie können auch Variablensätze erstellen, die die Standardwerte außer Kraft setzen und Ihren Variablen alternative Werte zuweisen. Fügen Sie diese Variablen in das Seitenlayout ein und verwenden Sie dasselbe PDF-Layout. Sie müssen nicht für jeden Wertesatz separate Layouts erstellen. Sie können beispielsweise für jede Produktversion einen Variablensatz erstellen. Dieser Variablensatz kann aus Variablen für verschiedene Produktdetails wie Produktname, Versionsnummer und Veröffentlichungsdatum bestehen. Anschließend können Sie für diese Variablen unterschiedliche Werte hinzufügen.
 
 **Variable festgelegt 1: Adobe-set1**
 
@@ -27,30 +31,25 @@ Sie können beispielsweise für jedes Produkt einen Variablensatz erstellen. Die
 * VersionNumber: 2311
 * Releasedatum: 20.11.2023
 
-**Variable festgelegt 1: Adobe-set2**
+**Variable festgelegt 2: Adobe-set2**
 
 * ProductName: Experience Manager-Handbücher
 * VersionNumber: 2310
 * ReleaseDate: 27.09.2023
 
 
-![native PDF-Variablen](assets/native-pdf-variables.png){width="800" align="left"}
-
-*Erstellen Sie Variablen auf der Registerkarte &quot;Ausgabe&quot;im Web Editor.*
-
-Sie können auch Variablen mit Werten mit HTML-Tags erstellen. Fügen Sie beispielsweise Bilder aus dem Inhalts-DAM hinzu, indem Sie die `<img>` -Tag.
-
-Nachdem Sie die Variablen erstellt haben, können Sie die Variablen mithilfe der Seitenlayouts in den Ausgabevorlagen zu den entsprechenden Stellen im Dokument hinzufügen. Die Werte werden automatisch in der PDF-Ausgabe basierend auf dem in der Ausgabevorgabe ausgewählten Variablensatz ausgewählt.
-
-
 
 <img src="./assets/native-pdf-variable-output.png" alt="Fußzeile in PDF-Ausgabe" width="500" border="2px">
 
-*Generieren Sie die native PDF-Ausgabe mithilfe von Variablen im PDF-Layout.*
+*Generieren Sie die PDF-Ausgabe mithilfe von Variablen im PDF-Layout.*
 
-Mit dieser Funktion können Sie benutzerdefinierte Ausgaben mit dynamischen Inhalten in Ihrer Dokumentation generieren und Änderungen effizient verwalten. Sie können auch Stile anwenden und HTML Markup verwenden, um die Variablen zu formatieren.
+Sie können Stile anwenden und HTML Markup verwenden, um die Variablen zu formatieren.  Sie können die Werte für alle Variablen bei Bedarf auch schnell aktualisieren und die Ausgabe neu generieren. Wenn Sie beispielsweise die Details für eine Version aktualisieren müssen, können Sie den Wert der Version in der Variablen VersionNumber bearbeiten und die Ausgabe neu generieren.
 
-Sie können die Werte für jeden beliebigen Variablensatz auch schnell aktualisieren, wann immer dies erforderlich ist, und die Ausgabe neu generieren. Wenn Sie beispielsweise die Details für eine Version aktualisieren müssen, können Sie den Wert der Version in VersionNumber aktualisieren und die Ausgabe neu generieren.
+
+Erfahren Sie mehr über die Verwendung [Variablen in der PDF-Ausgabe](../native-pdf/native-pdf-variables.md).
+
+
+
 
 
 ## Umgestaltetes Erlebnis zur Bearbeitung der Attribute
@@ -89,6 +88,7 @@ Mit dieser Funktion können Sie Inhalte wie Text, Videos und Bilder in der Servi
 
 *Erstellen Sie eine Ausgabevorgabe für die ServiceNow-Wissensdatenbank.*
 
+Weitere Informationen zum [Wissensdatenbank](../user-guide/generate-output-knowledge-base.md) Ausgabevorgaben.
 
 ## Verbessertes Landkartenkollektions-Dashboard
 
@@ -124,6 +124,8 @@ Außerdem können Sie damit eine Grundlinie basierend auf der Bezeichnung dupliz
 ![Grundlinie duplizieren ](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplizieren Sie eine Grundlinie basierend auf einem Titel oder erstellen Sie eine exakte Kopie.*
+
+Erfahren Sie mehr über das [Erstellen und Verwalten von Grundlinien im Web-Editor](../user-guide/web-editor-baseline.md).
 
 ## Verbesserter Prozess für die Erstellung der Massen-Aktivierungszuordnung
 

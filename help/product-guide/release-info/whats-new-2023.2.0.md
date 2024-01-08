@@ -1,10 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version Februar 2023
+title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version Februar 2023
 description: Februar-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Mit dem neuen Publishing-Microservice können Sie große Veröffentlichungsarbei
 
 Für jede Veröffentlichungsanforderung AEM Handbücher führt as a Cloud Service einen separaten Container aus, der entsprechend den Benutzeranforderungen horizontal skaliert wird. Dadurch können Sie mehrere Veröffentlichungsanfragen ausführen und eine verbesserte Leistung erzielen.
 
-Weitere Informationen finden Sie unter [Neue mikrodienstbasierte Veröffentlichung für AEM Guides as a Cloud Service konfigurieren](/help/product-guide/knowledge-base/publishing/configure-microservices.md).
+Weitere Informationen finden Sie unter [Neue mikrodienstbasierte Veröffentlichung für AEM Guides as a Cloud Service konfigurieren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
 ## Native PDF | Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe
 
@@ -132,11 +132,11 @@ Jetzt können Sie ein benutzerdefiniertes Lesezeichen zu einem bestimmten Inhalt
 AEM Guides bieten die Möglichkeit, benutzerdefinierte Stile auf die TOC-Einträge oder ein bestimmtes Thema in der PDF-Ausgabe anzuwenden. Sie können beispielsweise die Textfarbe im Inhaltsverzeichnis und den Titel des Themas ändern. Sie können auch Stile auf den gesamten Inhalt innerhalb des Themas anwenden.
 
 
-## Native PDF | Formatieren der Seitenmarkierung in der Fußnote-Komponente
+## Native PDF | Formatieren Sie die Seitenmarkierung in der Fußnoten-Komponente.
 
 Jetzt können Sie die Seitenmarkierung in den Fußnoten gestalten. Sie können beispielsweise Klammern hinzufügen oder ihre Farbe ändern. Diese Stile helfen Benutzern, die Seitenmarkierungen im Dokument einfach zu identifizieren.
 
-## Native PDF | Änderungsleiste zur Anzeige geänderter Themen im Inhaltsverzeichnis
+## Native PDF | Ändern Sie die Leiste, um geänderte Themen im Inhaltsverzeichnis anzugeben.
 
 Mit AEM Guides können Sie jetzt die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe schnell identifizieren.  Er zeigt eine Änderungsleiste links von den geänderten Themen im Inhaltsverzeichnis an. Sie können auf das Thema im Inhaltsverzeichnis klicken und die detaillierten Änderungen anzeigen.
 

@@ -2,9 +2,9 @@
 title: Verwalten von Inhalten mit Grundlinien
 description: Erfahren Sie, wie Sie Grundlinien verwenden können, um Ihre Inhalte effektiv zu verwalten.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,6 @@ In dieser Sitzung erfahren Sie, wie Sie mithilfe von Grundlinien Inhalte effekti
 ## Haupterkenntnisse
 
 In dieser Sitzung erfahren Sie mehr über Folgendes:
-
 - Verschiedene Grundlinien-Vorgänge in AEM Guides
 - Herunterladen, Veröffentlichen und Übersetzen anhand einer Grundlinie
 - Best Practices für die Verwendung einer Grundlinie
@@ -41,14 +40,13 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 - **Funktionsvideos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Benutzerhandbuch** - [Arbeiten mit Grundlinie](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
+- **Benutzerhandbuch** - [Arbeiten mit Grundlinie](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
 - **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 >Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
->
 > - On-Premise 4.1 und höher
 > - Cloud Service 2211 und höher
 

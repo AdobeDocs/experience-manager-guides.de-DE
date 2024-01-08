@@ -2,9 +2,9 @@
 title: Arbeitsablauf nach der Erstellung
 description: Eine Übersicht über den Nachbearbeitungs-Workflow mit einem Beispiel
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 2%
 
 ---
@@ -20,15 +20,13 @@ Sie können beispielsweise bestimmte Eigenschaften für die PDF-Ausgabe festlege
 ### Workflow-Prozess erstellen
 
 Erstellen Sie einen Java- oder ECMA-basierten Workflow-Prozess, der den Vorgang für die generierte Ausgabe ausführt. Beispiel: Kopieren einiger Metadaten aus der Quelle in den generierten Inhalt oder Bearbeiten von Metadaten der generierten Ausgabe.
-
 - Wir werden ein Beispiel für die Erstellung eines solchen Prozesses mit ECMA-Skript verwenden (siehe angehängtes Paket).
-- Informationen zum Java-basierten Workflow-Prozess finden Sie im Abschnitt &quot;*Arbeitsablauf für die Generierung nach der Ausgabe anpassen*&quot; [Handbuch zur Installation und Konfiguration](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)
+- Informationen zum Java-basierten Workflow-Prozess finden Sie im Abschnitt &quot;*Arbeitsablauf für die Generierung nach der Ausgabe anpassen*&quot; [Handbuch zur Installation und Konfiguration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
 
 
 ### Erstellen Sie ein Workflow-Modell
 
 Erstellen Sie mit dem benutzerdefinierten Workflow-Prozess, den Sie im vorherigen Schritt erstellt haben, ein Workflow-Modell und fügen Sie diesen Prozessschritt hinzu.
-
 - Sie müssen auch einen obligatorischen Prozessschritt hinzufügen &quot;*Post-Generierung abschließen*&quot; als letzten Schritt des Workflows.
 
 Siehe Beispiel-Workflow-Modell unten:

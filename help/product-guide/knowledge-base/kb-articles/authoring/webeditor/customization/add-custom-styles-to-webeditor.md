@@ -2,9 +2,9 @@
 title: Hinzufügen benutzerdefinierter Stile zum Guides-Editor
 description: Erfahren Sie, wie Sie benutzerdefinierte Stile hinzufügen, um das Erscheinungsbild des Guides-Editors zu ändern.
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Verwenden Sie die Ordnerprofile, um die *css_layout.css* Fügen Sie auf der Regi
 [Verwenden Sie diesen Link, um mehr über das Ordnerprofil und das Konfigurieren des CSS-Vorlagenlayouts zu erfahren.](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 Verwenden Sie Folgendes, um den obigen Stil in Ihrem Webserver einzurichten:
-
 - Verwendung [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) und laden Sie es in das Ordnerprofil Ihrer Wahl hoch.
 - Installieren Sie das angehängte Paket [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) Verwenden AEM Paketmanagers zur Installation der in der obigen CSS-Datei verwendeten Ressourcen
 
@@ -57,4 +56,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Verweise
 
-Sie interessieren sich möglicherweise auch für die Expertensitzung zu Wetterkonfigurationen und -anpassungen, die unter [Expertensitzung zum Webeditor](/help/product-guide/knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+Sie interessieren sich möglicherweise auch für die Expertensitzung zu Wetterkonfigurationen und -anpassungen, die unter [Expertensitzung zum Webeditor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

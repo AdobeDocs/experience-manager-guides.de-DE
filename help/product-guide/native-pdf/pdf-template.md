@@ -2,9 +2,9 @@
 title: Native PDF-Vorlagen erstellen und anpassen
 description: Erfahren Sie, wie Sie native PDF-Vorlagen erstellen und anpassen.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Wählen Sie diese Option aus, um die Eigenschaften der Vorlage anzuzeigen und zu
 Wählen Sie diese Option aus, um die Vorlage in der Assets-Benutzeroberfläche anzuzeigen. Da der Stammspeicherort der Vorlage geöffnet wird, können Sie alle Ressourcen der Vorlage anzeigen.
 
 Nachdem Sie die benutzerdefinierte Vorlage erstellt haben, können Sie sie aus den Seitenlayouts in der PDF-Ausgabevorgabe auswählen.
-Erfahren Sie, wie [PDF-Ausgabe veröffentlichen](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Erfahren Sie, wie [PDF-Ausgabe veröffentlichen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -112,7 +112,6 @@ Weitere Informationen zum Einrichten von globalen Profilen und Profilen auf Ordn
 Sie können Vorlagen anpassen, indem Sie die Vorlagenkomponenten anpassen und Stilformate mithilfe von Stylesheets anwenden.
 
 Gehen Sie wie folgt vor, um eine PDF-Vorlage anzupassen:
-
 1. Navigieren Sie im Web-Editor zum **Ausgabe** Registerkarte.
 1. Erweitern Sie die linke Seitenleiste und wählen Sie **Vorlagen**.
 

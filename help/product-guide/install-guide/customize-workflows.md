@@ -2,7 +2,7 @@
 title: Workflows konfigurieren und anpassen
 description: Erfahren Sie, wie Sie Workflows konfigurieren und anpassen.
 exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 3%
@@ -201,7 +201,7 @@ Die folgenden Eigenschaften steuern, wie AEM Guides die Nachbearbeitungs-Workflo
 >
 > Die folgenden Eigenschaften sind über die Web-Konsole zugänglich: http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr.
 
-| Eigenschaft | Bundle-Name | Beschreibung |
+| Property | Bundle-Name | Beschreibung |
 |--------|-----------|-----------|
 | Dynamische Outrefs | `com.adobe.fmdita.postprocess.PostProcessObservation` | Bei allen Dateien, bei denen die Nachbearbeitung nicht durchgeführt wurde, werden die ausgehenden Verweise abgerufen, indem die Themendateien analysiert werden. Es wird empfohlen, diese Option deaktiviert zu lassen, da es möglich ist, das System zu überlasten, wenn die Anzahl der zu verarbeitenden Dateien groß ist. |
 | Nachbearbeitungs-Threads | `com.adobe.fmdita.config.ConfigManager` | Legt die Anzahl der Nachbearbeitungs-Threads fest, die für Nachbearbeitungs-Workflows verwendet werden sollen. <br>Der Standardwert ist 1. |
