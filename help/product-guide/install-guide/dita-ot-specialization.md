@@ -2,7 +2,7 @@
 title: Verwenden einer benutzerdefinierten DITA-OT- und DITA-Spezialisierung
 description: Erfahren Sie, wie Sie benutzerdefinierte DITA-OT- und DITA-Spezialisierung verwenden.
 exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8e8e64ad1105b0546856cb82b47547ceacd405b9
 workflow-type: tm+mt
 source-wordcount: '2093'
 ht-degree: 0%
@@ -156,7 +156,7 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
 
 1. Laden Sie den Ordner an den folgenden Speicherort hoch:
 
-   `/libs/fmdita/dita_resources`
+   `/apps/fmdita/dita_resources`
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
 
