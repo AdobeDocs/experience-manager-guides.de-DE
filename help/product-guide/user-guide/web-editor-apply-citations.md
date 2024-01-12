@@ -2,7 +2,9 @@
 title: Hinzufügen und Verwalten von Zitaten in Ihrem Inhalt
 description: Fügen Sie Zitate hinzu und verwalten Sie sie in AEM Handbüchern. Erfahren Sie, wie Sie Inhaltsausgabe mit Zitaten anwenden, importieren, filtern, suchen, ändern, bearbeiten, Vorschau anzeigen, einfügen, löschen und generieren können.
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -69,7 +71,7 @@ Die **Erwähnung hinzufügen** wird geöffnet.
 
 
 
-1. Klicken Sie auf **Fertig**.
+1. Wählen Sie **Fertig**.
 
    Dem Feld &quot;Zitat&quot;wird ein neuer Zitat hinzugefügt.
 
@@ -248,7 +250,7 @@ Platzieren Sie im Thema den Cursor am Ende des Zitats.
    >Die bereits im Thema verwendeten Zitate werden durch die im Dialogfeld ausgewählten Aktionen ersetzt.
 
 
-1. Klicken Sie auf **Fertig**.
+1. Wählen Sie **Fertig**.
 
 ## Generieren der Ausgabe von Inhalten mit Zitaten
 

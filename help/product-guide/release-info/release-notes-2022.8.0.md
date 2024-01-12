@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version August 2022
+title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version August 2022
 description: August-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -95,7 +97,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Aktualisiertes Node.js wird nicht für die Veröffentlichung verwendet. (9835)
 * DITA-Thema wird nicht automatisch mit den Änderungen aktualisiert, die auf der **Eigenschaften** Seite. (8745)
 * Frontmatter-Element beim Hinzufügen zu einer DITA-Bookmap funktioniert nicht ordnungsgemäß. (9507)
-* Native PDF | Bei Verwendung von wird eine leere PDF generiert. **Schnellgenerierung** für mehrere Dateien, wenn ein leeres Element ausgewählt ist. (9822)
+* Native PDF | Eine leere PDF wird bei generiert, wenn **Schnellgenerierung** für mehrere Dateien, wenn ein leeres Element ausgewählt ist. (9822)
 * Native PDF | Anhang wird als Kapitel in der PDF-Ausgabe veröffentlicht. (9829)
 * Native PDF | Wenn ein SVG-Bild bearbeitet wird, wird es im Seitenlayout nicht aktualisiert angezeigt. (9069)
 * Beim Einfügen eines `Nonbreaking Hyphen` wird mithilfe des **Sonderzeichen einfügen** angezeigt. (8919)

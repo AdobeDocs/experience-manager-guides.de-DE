@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in der Adobe Experience Manager-Version 4.3.0
+title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in der Version 4.3.0 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.3.0 der Adobe Experience Manager-Handbücher.
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 1%
@@ -110,7 +112,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 - Die Veröffentlichung schlägt beim Umbenennen einer nativen PDF-Vorgabe fehl. (12564)
 - Beim Duplizieren einer nativen PDF-Vorlage wird der Standardspeicherort der Vorlage anstelle des angegebenen benutzerdefinierten Vorlagenspeicherorts übernommen. (12563)
-- Native PDF | Die Sprachmetadaten können im generierten PDF nicht so festgelegt werden, dass sie WCAG 2.0 entsprechen. (12407)
+- Native PDF | Die Sprachmetadaten können nicht auf der generierten PDF so festgelegt werden, dass sie WCAG 2.0 entsprechen. (12407)
 - Das Veröffentlichen auf AEM Site schlägt fehl, wenn temporäre Dateien aus Pod gelesen werden, die möglicherweise aktualisiert oder neu gestartet wurden. (12113)
 - Native PDF | Benutzerdefinierte Attribute werden nicht an temporäre HTML- oder PDF-Engine übertragen. (DXML-12005)
 - Native PDF | Java OutOfMemoryError tritt beim Veröffentlichen großer Inhalte auf. (11789)

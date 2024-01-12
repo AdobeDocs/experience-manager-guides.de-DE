@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides Version 4.2
+title: Versionshinweise | Adobe Experience Manager-Handbücher Version 4.2
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.2 der Adobe Experience Manager-Handbücher.
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 1%
@@ -107,7 +109,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Übersetzung | Der Übersetzungsauftrag wird aufgrund von ungültigen /libs/fmdita/i18n/ja.json nicht gestartet. (10543)
 * Übersetzung | In einem Scoping-Übersetzungsprojekt, das über das Übersetzungs-Dashboard (Menschliche Übersetzung) erstellt wurde, tritt ein Fehler auf. (10526)
 * Übersetzung | Die Nachbearbeitung wird für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. (10332)
-* Übersetzung | Metadaten und Tags werden nicht an die übersetzten Kopien weitergegeben. (4696)
+* Übersetzung| Metadaten und Tags werden nicht an die übersetzten Kopien weitergegeben. (4696)
 * Für jedes Asset werden mehrere Popups angezeigt, wenn die Version geändert und im Baseline-Editor gespeichert wird. (10399)
 * SitzungsLeak tritt unter com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210) auf. (10279)
 * Die Videodatei fehlt in der Grundlinie, wenn der übergeordnete Ordner Leerzeichen im Namen enthält. (10031)
@@ -120,19 +122,19 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Der Herausgeber zeigt die angeforderten Daten nicht in den Infoprotokollen an und enthält auch einige Junk-Protokolle.(10567)
 * Native PDF | PDF-Generierung schlägt mit einer Nullzeiger-Ausnahme fehl. (10950)
 * Native PDF | conkeyref wird in der generierten Ausgabe nicht aufgelöst. (10564)
-* Native PDF | Probleme treten mit den Metadaten einer Zuordnung auf, auf die in der PDF-Ausgabe verwiesen werden muss.(10556)
+* Native PDF | Es treten Probleme mit den Metadaten einer Zuordnung auf, auf die in der PDF-Ausgabe verwiesen werden muss.(10556)
 * Native PDF | Beim Drehen der Tabellenüberschrift treten Probleme auf. (10555)
 * Native PDF | Beim Entfernen von Themen mit Verarbeitungsrolle=&#39;resource-only&#39; treten Probleme auf. 10554)
 * Native PDF | Leere Keyrefs werden in der PDF-Ausgabe angezeigt. (10553)
 * Native PDF | Verschachtelt `<indexterm>` sind beim nativen PDF-Export nicht verschachtelt. (10521)
 * Native PDF | Native PDF verwendet für die generierten Tags den Inline-Stil anstelle des Klassennamens. (10498)
 * Native PDF | Verschachtelte topicref in Anhängen werden alle in der temporären HTML in h1 umgewandelt.(10454)
-* Native PDF | Frontmatter-Themen können nicht aus dem Inhaltsverzeichnis ausgeblendet werden. (10355)
+* Native PDF | Es ist nicht möglich, Themen aus dem Inhaltsverzeichnis zu verbergen. (10355)
 * Native PDF | Tabellenframe-Attribut wird nicht auf die temporäre HTML übertragen (als Klasse). (10353)
 * Native PDF | Temporäre HTML-Dateien fügen die Klassen colsep und rowsep zu <td> und <th> auch wenn ihr Wert 0 in der Quell-DITA beträgt. (10352)
-* Native PDF | Beim Neustarten von Seitennummern im Kapitel-Layout wird die Nummerierung nach dem Zufallsprinzip am Ende des vorherigen Kapitels begonnen. (10154)
+* Native PDF | Beim Neustarten von Seitenzahlen im Kapitellayout wird die Nummerierung nach dem Zufallsprinzip am Ende des vorherigen Kapitels begonnen. (10154)
 * Native PDF | Schlüsselreferenzen für Keydefs mit Bild- oder externen Links werden nicht aufgelöst. (10063)
-* Native PDF | Anlage wird als Kapitel in der generierten PDF angezeigt. (9829)
+* Native PDF | Anhang wird als Kapitel in der generierten PDF angezeigt. (9829)
 * Die Registerkarte &quot;Vorlage&quot;im XML-Editor wird den Ordnerprofil-Administratoren nicht angezeigt. (10266)
 * Grundlegende Veröffentlichung schlägt bei PDF fehl, die mit FrameMaker Publishing Server 2020 erstellt wurde. (10551)
 * Anwendungsfehler tritt beim Klicken auf die Schaltfläche &quot;Bearbeiten&quot;auf, nachdem im Popup &quot;Quick Generate&quot;das Kontrollkästchen Alle Vorgaben über Ausgabevorgaben ausgewählt wurden. (10388)

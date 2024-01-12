@@ -2,7 +2,9 @@
 title: Inhaltsfragment aus Ihrer Datenquelle einfügen
 description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Handbüchern. Erfahren Sie, wie Sie ein Inhaltsfragment aus Ihrer Datenquelle einfügen. Erstellen Sie ein Thema mit dem Thema-Generator.
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 0%
@@ -97,7 +99,7 @@ Die nativen Vorlagen für die ausgewählte Datenquelle werden in der Dropdown-Li
 1. Sie können die Daten in der Vorschau oder in der DITA-Quellansicht anzeigen.
 
    1. Die Vorschau zeigt an, wie die Daten beim Einfügen in den Inhalt angezeigt werden. Die Vorschau zeigt einen kleinen Teil der Daten im Format der ausgewählten Vorlage an.
-Beispiel:
+Zum Beispiel:
       - Wenn Sie die Vorlage &quot;sql-table&quot;ausgewählt haben, können Sie die SQL-Daten im Tabellenformat anzeigen.
       - Wenn Sie die Vorlage &quot;jira-ordered-list&quot;ausgewählt haben, können Sie eine geordnete Liste für die Jira-Probleme anzeigen.
 
@@ -249,7 +251,7 @@ Experience Manager-Vorlagen unterstützen auch die Velocity-Tools (Version 2.0).
 
 Führen Sie die folgenden Schritte aus, um ein Velocity-Tool in einer Vorlage zu verwenden:
 1. Bearbeiten Sie eine Velocity-Vorlage im Web-Editor.
-1. Fügen Sie ein Tool und dessen Funktion in der `<tool.function>` Format. Beispiel:
+1. Fügen Sie ein Tool und dessen Funktion in der `<tool.function>` Format. Zum Beispiel:
    - Verwenden Sie zum Generieren einer zufälligen Nummer mit dem Mathematik-Tool `$mathTool.random`.
    - Verwenden Sie zum Generieren der Summe der Zahlen mit dem mathematischen Werkzeug `$mathTool.add(num1, num2)`.
 1. Verwenden Sie die Vorlage, um einen Inhaltsausschnitt oder ein Thema zu erstellen.

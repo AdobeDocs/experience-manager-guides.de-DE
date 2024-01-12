@@ -2,7 +2,9 @@
 title: Massenaktivierungszuordnung löschen
 description: Erfahren Sie, wie Sie die Erfassung von Massen-Aktivierungskarten in AEM Handbüchern löschen.
 exl-id: 8e1f30e4-4b83-4282-97c9-7e6960c6ec19
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing, Bulk Activation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%

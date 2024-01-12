@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern 4.3.1
+title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in der Version 4.3.1 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.3.1 der Adobe Experience Manager-Handbücher.
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 1%
@@ -104,15 +106,15 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Veröffentlichung
 
-- Native PDF | Die Reihenfolge der Themen wird nicht festgelegt, wenn die PDF-Ausgabe erzeugt wird. (13157)
-- Native PDF | Es ist kein standardmäßiges Stil-Tag verfügbar für `<p>`-Element. (12559)
-- Native PDF | Inline-Stile, die auf den Inhaltsbereich angewendet werden, werden nicht auf die Themen in der Vordergrund- und der RückMaterie angewendet. (13510)
+- Native PDF | Die Reihenfolge der Themen wird bei der Erzeugung der PDF-Ausgabe nicht festgelegt. (13157)
+- Native PDF| Es ist kein standardmäßiges Stil-Tag verfügbar für `<p>`-Element. (12559)
+- Native PDF | Inline-Stile, die auf den Inhaltsbereich angewendet werden, werden nicht auf die Themen in der Vordergrund- und in der Rückseite angewendet. (13510)
 - Die `DeliveryTarget` -Attribut wird beim Generieren der AEM Site-Ausgabe nicht übernommen.  (13132)
 - Die **Veröffentlichen** Workflow hängt beim Generieren AEM Site-Ausgabe für Inhalte mit bestimmten Fehlern nicht mehr zusammen. (12000)
 
 - Native PDF | Durch die Verwendung mehrerer xrefs wird der Text über die Spaltenbreite hinaus erweitert. (13004)
 - Native PDF | Wenn das Thema und der Titel dieselbe ID aufweisen, führt dies zu einer fehlerhaften Generierung der PDF-Ausgabe. (12644)
-- Native PDF | Beim Hinzufügen einer Ausgabeklasse zu einer übergeordneten Klasse `<topicref>` -Element in einer DITA-Zuordnung und durch Anwendung eines benutzerdefinierten Stils auf die Ausgabeklasse wird die Formatierung auf Elemente im Themenhauptteil angewendet, einschließlich Abschnittstitel. (12166)
+- Native PDF | Beim Hinzufügen einer Ausgabeklasse zu einem übergeordneten Element `<topicref>` -Element in einer DITA-Zuordnung und durch Anwendung eines benutzerdefinierten Stils auf die Ausgabeklasse wird die Formatierung auf Elemente im Themenhauptteil angewendet, einschließlich Abschnittstitel. (12166)
 - Inkrementelle Veröffentlichung funktioniert nicht, wenn eine DITA-Map über mehrere Ditavalrefs verfügt. (12117)
 - AEM Site | Beim Erstellen einer Zuordnung mit Keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. (1209)
 - Wenn Assets aus AEM DAM in einer anderen Ausgabe als der AEM-Site verwendet werden, spiegeln die Metadaten &quot;jcr:createdBy&quot;nicht den Namen des Herausgebers oder den Namen des Benutzers wider, der die DITA-Map oder das Thema zuletzt geändert hat. (12090)

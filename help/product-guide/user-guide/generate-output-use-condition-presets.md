@@ -2,7 +2,9 @@
 title: Verwenden von Bedingungsvorgaben
 description: Erfahren Sie mehr über die Verwendung von Bedingungsvorgaben in AEM Guides. Erfahren Sie, wie Sie in AEM Bedingungsvorgaben erstellen, bearbeiten, kopieren und löschen.
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 1%
@@ -54,7 +56,7 @@ Die **Attribute** zeigt alle Attribute an, die zu allen Verweisen hinzugefügt w
    * **Alle auswählen** , um alle Attribute und deren Werte zur Bedingungsvoreinstellung hinzuzufügen.
 Standardmäßig ist die Aktion für ein Attribut `Include`.
 
-1. Auswählen **Hinzufügen**. Sie können diesen Schritt wiederholen, um weitere Attribute hinzuzufügen. Die von Ihnen hinzugefügten Attribute werden von der Mitte zum rechten Bereich verschoben.
+1. Klicken Sie auf **Hinzufügen**. Sie können diesen Schritt wiederholen, um weitere Attribute hinzuzufügen. Die von Ihnen hinzugefügten Attribute werden von der Mitte zum rechten Bereich verschoben.
 1. Wählen Sie oben in der Aktionsleiste Entfernen aus, um die ausgewählten Attribute im rechten Bereich zu entfernen.
 1. (Optional) Bei Bedarf können Sie die auf die Attribute angewendete Aktion überschreiben.
 Führen Sie einen der folgenden Schritte aus:

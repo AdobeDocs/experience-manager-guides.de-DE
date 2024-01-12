@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version September 2022
+title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version September 2022
 description: September-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -95,32 +97,32 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Web-Editor | Beim Verschieben von Elementen innerhalb eines Themas werden die zugewiesenen IDs für Elemente durch automatisch zugewiesene IDs überschrieben. (7895)
 * Änderungen verfolgen | Der Inhalt geht verloren, wenn mithilfe der Eingabetaste ein neues Element eingegeben wird. (10246)
 * Die auf die Hauptkarte in dita-templates verweisende Unterkarte wird nicht erstellt. (10231)
-* XML-Editor | Kopieren/Einfügen funktioniert nicht im Autorenmodus. (10309)
+* XML-Editor | Das Kopieren und Einfügen funktioniert nicht im Autorenmodus. (10309)
 * Nach Auswahl mehrerer Versionsbeschriftungen wird die Auswahl nicht aufgehoben. (9561)
 * Die automatische Navigation zum Pfad im Dialogfeld zum Durchsuchen der Site funktioniert nicht wie das Durchsuchen von Dateien. (9920)
 * Im Bedienfeld &quot;Umrisse&quot;werden keine Inhalte angezeigt, wenn aus **Autor** nach **Quelle** -Modus. (10319)
 * Conref in einem neuen Thema, das mit einem Inhalt in der Themenvorlage erstellt wurde, funktioniert nicht. Die kopierte Hash-ID wird in der Inhaltskopie nicht aktualisiert. (9890)
-* Web-Editor | Beim Erstellen einer Zuordnung aus der Zuordnungsvorlage existiert kein Lader. (9891)
-* Neuer Map-Editor | Formatierter oder kursiver Text im Zuordnungstitel wird nicht beibehalten, wenn Sie von **Autor** der **Layout** anzeigen. (10218)
+* Web-Editor | Beim Erstellen einer Zuordnung aus der Zuordnungsvorlage existiert kein Ladeprogramm. (9891)
+* Neuer Map-Editor | Der fett gedruckte oder kursive Text im Zuordnungstitel wird nicht beibehalten, wenn Sie von **Autor** der **Layout** anzeigen. (10218)
 * Neuer Map-Editor | Bedingungen, die auf einen Verweis angewendet werden, können nicht aus der Ansicht &quot;Layout&quot;entfernt werden. (10213)
 * Neuer Map-Editor | Das Anwenden von Bedingungsverweisen funktioniert nicht in der Layout-Ansicht wie in der Autorenansicht. (10198)
-* Neuer Map-Editor | Durch Verschieben nach links aus dem Kontextmenü wird der Verweis entfernt, wenn er nicht nach links verschoben werden kann. (10219)
+* Neuer Map-Editor | Durch das Verschieben nach links aus dem Kontextmenü wird der Verweis entfernt, wenn er nicht nach links verschoben werden kann. (10219)
 * Neuer Map-Editor |Das Symbol wird für die Verweise in einer mit der Layoutansicht erstellten Zuordnung falsch angezeigt. (10197)
-* Repository-Bereich | Ein Rechtsklick in das Repository-Bedienfeld erzeugt einen Anwendungsfehler. (10123)
-* Suchen und Ersetzen | Dunkler Modus ist für Suchergebnisse im Web Editor nicht lesbar. (9978)
+* Repository-Bereich | Wenn Sie mit der rechten Maustaste in das Repository-Bedienfeld klicken, wird ein Anwendungsfehler angezeigt. (10123)
+* Suchen und Ersetzen | Der Dunkelmodus ist für Suchergebnisse im Web Editor nicht lesbar. (9978)
 * Übersetzung | Metadaten und Tags werden nicht an die übersetzten Kopien weitergegeben. (4696)
 * Beim Kopieren des Einfügeinhalts (Strg+C/Strg+V) wird im Autorenmodus ein Fehler ausgegeben. (10304)
-* PDF-Vorlage | Beim Hinzufügen von Hintergrundbildern zu einem Seitenlayout wird &quot;Bildpfad absolut&quot;angezeigt, und die Bilder werden nicht auf der PDF angezeigt. (10297)
-* Native PDF | Kapiteltitel und Kapitelüberschrift funktionieren nicht bei der PDF-Veröffentlichung. (9947)
+* PDF-Vorlage | Beim Hinzufügen von Hintergrundbildern zu einem Seitenlayout wird der Bildpfad als absoluter Pfad angezeigt, und die Bilder werden nicht auf der PDF angezeigt. (10297)
+* Native PDF | Der Kapiteltitel und die Kapitelüberschrift funktionieren nicht bei der PDF-Veröffentlichung. (9947)
 * Native PDF | `xref` für ein Konzept für ein bestimmtes DITA-Thema nicht richtig aufgelöst. (10229)
 * Native PDF | Beschriftungstext für eine Tabelle kann in der generierten PDF-Ausgabe nicht angezeigt werden. (9827)
 * Native PDF | Verweise in Anhängen werden in der PDF-Ausgabe nicht als Anhänge angezeigt. (10182)
-* Native PDF | Das Attribut &quot;Frame&quot;für eine Tabelle wird nicht auf die temporäre HTML (als -Klasse) übertragen. (10353)
-* Native PDF | temp HTML-Dateien fügen die Klassen colsep und rowsep zu td hinzu und die , selbst wenn ihr Wert 0 in der Quell-DITA beträgt. (10352)
+* Native PDF | Das Framenattribut für eine Tabelle wird nicht an die temporäre HTML (als -Klasse) übertragen. (10353)
+* Native PDF | temporäre HTML-Dateien fügen die Klassen colsep und rowsep zu td hinzu und die , selbst wenn ihr Wert 0 in der Quell-DITA beträgt. (10352)
 * Native PDF | Metadaten für im Seitenlayout hinzugefügte Kriterien werden nicht berücksichtigt. (10377)
 * Native PDF | Die Erstellung von PDF schlägt bei bestimmten Inhalten fehl. (9927)
 * Native PDF | Der Inhalt über conkeyref wird nicht in der PDF-Ausgabe angezeigt. (9836)
-* Native PDF | Schlüsselreferenzen für Keydefs mit Bildern oder externen Links werden nicht aufgelöst. (10063)
+* Native PDF | Schlüsselverweise für Keydefs mit Bildern oder externen Links werden nicht aufgelöst. (10063)
 * Die Autorenansicht für eine Zuordnung zeigt keinen Platzhaltertext für die Tabellenliste und die Dateiliste an. (10330)
 * Wenn wir eine neue Grundlinie erstellen, wird der bereits ausgewählte Grundlinienfilter nicht angewendet. (9954)
 * Die Videodatei fehlt in der Grundlinie, wenn der Name des übergeordneten Ordners ein Leerzeichen hat. 10031)

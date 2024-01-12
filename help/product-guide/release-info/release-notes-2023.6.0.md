@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version Juni 2023
+title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version Juni 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Adobe Experience Manager Guides-Version vom Juni 2023 as a Cloud Service.
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 1%
@@ -86,7 +88,7 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzubearbeit
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text auf Zuordnungs- und Themenliste auf der Registerkarte Berichte zu finden und zu ersetzen:
 
-1. Führen Sie eine POST-Anfrage an den Server aus \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert \|\| Beispiel : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Führen Sie eine POST-Anfrage an den Server aus \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert \|\| Beispiel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Maps eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
@@ -142,8 +144,8 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 - Das Veröffentlichen auf AEM Site schlägt fehl, wenn temporäre Dateien aus Pod gelesen werden, die möglicherweise aktualisiert oder neu gestartet wurden. (12113)
 - Native PDF | Das Veröffentlichen von Inhalten mit einer Ausgabeklasse mit Klammern() führt zum Einfrieren der Veröffentlichung. (1936)
-- JSON-Ausgabe | Zuordnen von Metadaten mit Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (1933)
-- Web-Editor | Ausgabepfad und Vorlage können nicht in der AEM-Vorgabe ausgewählt werden. (11530)
+- JSON-Ausgabe | Zuordnen von Metadaten mit dem Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (1933)
+- Web-Editor | Der Ausgabepfad und die Vorlage können nicht in der AEM ausgewählt werden. (11530)
 - Native PDF | Benutzerdefinierte Attribute werden nicht an temporäre HTML- oder PDF-Engine übertragen. (DXML-12005)
 - Native PDF | Java OutOfMemoryError tritt beim Veröffentlichen großer Inhalte auf. (11789)
 - JSON-Ausgabe | Die `fmUuid` -Eigenschaft im Knoten jcr:content von JSON unterscheidet sich von der &quot;id&quot;innerhalb der JSON. (11564)
@@ -152,7 +154,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Native PDF | Die PDF-Vorlageneinstellungen können nicht gespeichert werden. (10751)
 - Native PDF | Der Text geht über die Spaltenbreite hinaus und schließt mehrere xrefs ein. (10876)
 - Native PDF | `<note>``</note>` -Element generiert keinen zusätzlichen span-Titel seines Typs. (10549)
-- Native PDF | Die Sprachmetadaten können im generierten PDF nicht so festgelegt werden, dass sie WCAG 2.0 entsprechen. (12296)
+- Native PDF | Die Sprachmetadaten können nicht auf der generierten PDF so festgelegt werden, dass sie WCAG 2.0 entsprechen. (12296)
 
 
 

@@ -2,7 +2,9 @@
 title: Versionshinweise | Neue Funktionen in Version 4.2.1 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 4.2.1 der Adobe Experience Manager-Handbücher.
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -61,7 +63,7 @@ Sie können auch die CSV-Datei generieren, um die aktuelle Momentaufnahme der in
 
 Weitere Informationen finden Sie in der Beschreibung der Multimedia-Berichtsfunktion im Abschnitt [DITA-Zuordnungsbericht aus dem Web-Editor](../user-guide/reports-web-editor.md) Abschnitt.
 
-## Native PDF | Änderungsleiste zur Anzeige geänderter Themen im Inhaltsverzeichnis
+## Native PDF | Ändern Sie die Leiste, um geänderte Themen im Inhaltsverzeichnis anzugeben.
 
 Mit AEM Guides können Sie jetzt die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe schnell identifizieren.  Er zeigt eine Änderungsleiste links von den geänderten Themen im Inhaltsverzeichnis an. Sie können auf das Thema im Inhaltsverzeichnis klicken und die detaillierten Änderungen anzeigen.
 
@@ -71,7 +73,7 @@ Weitere Informationen finden Sie unter [Arbeiten mit benutzerdefinierten Änderu
 
 
 
-## Native PDF | Formatieren der Seitenmarkierung in der Fußnote-Komponente
+## Native PDF | Formatieren Sie die Seitenmarkierung in der Fußnoten-Komponente.
 
 Jetzt können Sie die Seitenmarkierung in den Fußnoten gestalten. Sie können beispielsweise Klammern hinzufügen oder ihre Farbe ändern. Diese Stile helfen Benutzern, die Seitenmarkierungen im Dokument einfach zu identifizieren.
 

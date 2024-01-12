@@ -2,7 +2,10 @@
 title: Nicht-UUID-Inhalt ohne Versionen in UUID-Inhalt konvertieren
 description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte ohne Versionen migrieren.
 exl-id: 44b5660d-9961-4463-9686-53085249fb05
-source-git-commit: 0c45b3bee77d04f031dea157e7d3671b2cc11b45
+feature: Migration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%

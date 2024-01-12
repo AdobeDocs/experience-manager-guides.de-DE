@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version März 2023
+title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version März 2023
 description: Version der Adobe Experience Manager-Handbücher as a Cloud Service im März
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,10 +60,10 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 * Der Download-PDF-Prozess funktioniert im Web-Editor nicht ordnungsgemäß. (11496)
-* JSON-Ausgabe | Zuordnen von Metadaten mit Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (11438)
+* JSON-Ausgabe | Zuordnen von Metadaten mit dem Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (11438)
 * Das Einfügen von Audio- und Video-Multimediadateien schlägt im YouTube-Format unter dem **Multimedia einfügen** Symbol. (11320)
 * Der Validierungsfehler tritt auf, wenn eine Zuordnung mithilfe der Vorlage erstellt wird, die über ein spezielles Titelelement verfügt. (11212)
-* Native PDF | Die Fußnote in der Tabellenüberschrift führt zu fett und zentriert ausgerichtetem Text in der entsprechenden Fußzeile der PDF-Ausgabe. (10610)
+* Native PDF | Die in der Tabellenüberschrift vorhandene Fußnote führt zu fett und zentriert ausgerichtetem Text in der entsprechenden Fußzeile der PDF-Ausgabe. (10610)
 >[!NOTE]
 >
 >Um die Änderung der nativen PDF widerzuspiegeln, löschen Sie den Ordner PDF unter /content/dam/dita-templates und aktualisieren Sie dann auf den neuesten Build. (10610)

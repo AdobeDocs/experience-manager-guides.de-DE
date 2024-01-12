@@ -2,7 +2,9 @@
 title: Versionshinweise | Neue Funktionen in der Adobe Experience Manager-Anleitung, Version November 2023
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im November 2023.
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%

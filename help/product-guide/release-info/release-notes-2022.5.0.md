@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version Mai 2022
+title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version Mai 2022
 description: Adobe Experience Manager-Handbücher as a Cloud Service im Mai
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -80,7 +82,7 @@ Wenn Sie nur den Bereich für die Übersetzung eines Projekts erstellen müssen,
 
 * Die **Sprachen** zeigt die Sprachordner sowie deren Sprachcodes an. Zum Beispiel Französisch (fr) und Deutsch (de).
 
-* Die Übersetzungsfunktion unterstützt jetzt auch den Sprachcode, der sowohl Land als auch Sprache enthält. Beispiel: `fr-fr`, `en-us`.
+* Die Übersetzungsfunktion unterstützt jetzt auch den Sprachcode, der sowohl Land als auch Sprache enthält. Zum Beispiel, `fr-fr`, `en-us`.
 
 ![Übersetzungssprache](assets/translation-languages.png)
 

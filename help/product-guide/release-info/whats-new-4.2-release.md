@@ -2,7 +2,9 @@
 title: Versionshinweise | Neue Funktionen in Version 4.2 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 4.2 der Adobe Experience Manager-Handbücher.
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -199,7 +201,7 @@ Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten, eingefüg
 * Eingefügten Inhalt in grüner Farbe anzeigen und unterstrichen
 * Gelöschte Inhalte in roter Farbe anzeigen und mit einem Durchstreichen markieren
 
-## Native PDF | Variablenunterstützung für Ausgabepfad und PDF-Dateiname
+## Native PDF | Variablenunterstützung für Output Path und PDF File Name
 
 Jetzt können Sie auch die folgenden vordefinierten Variablen verwenden, um den Ausgabepfad und die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um die folgenden Optionen zu definieren:
 * `${map_filename}`

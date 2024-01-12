@@ -2,7 +2,9 @@
 title: Weitere Funktionen im Web Editor
 description: Weitere Funktionen des Webeditors finden Sie in AEM Handbüchern. Erfahren Sie, wie Sie diese Funktionen für ein verbessertes Authoring in AEM Handbüchern verwenden.
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%

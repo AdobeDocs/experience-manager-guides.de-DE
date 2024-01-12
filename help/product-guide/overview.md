@@ -2,7 +2,9 @@
 title: Tutorials für Experience Manager-Handbücher
 description: Hier finden Sie Anleitungsvideos für Experience Manager-Handbücher (früher XML Documentation für Adobe Experience Manager). Erfahren Sie mehr über native DITA-Unterstützung und strukturiertes Authoring in Experience Manager.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 4bb3a064a44b0b0c638ef22d0d7c219c77a20b20
+feature: AEM Guides Tutorials
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 2%

@@ -2,7 +2,9 @@
 title: AEM Umgebung für native PDF-Veröffentlichung konfigurieren
 description: AEM Umgebung für native PDF-Veröffentlichung konfigurieren
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Native PDF Output
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 1%
@@ -41,7 +43,7 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im Or
 6. Geben Sie als Variablennamen JAVA_HOME ein.
 7. Geben Sie im Wertefeld den Pfad zur Java-Installation an und klicken Sie auf OK.
 
-   Beispiel:
+   Zum Beispiel:
 
    JAVA 11
 
@@ -55,7 +57,7 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im Or
 
 9. Jetzt geben die Pfadvariablen den Wert des Serverpfads an und klicken auf OK.
 
-   Beispiel:
+   Zum Beispiel:
 
    JAVA 11
 
@@ -77,7 +79,7 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im Or
 3. Wenn die Variable JAVA_HOME nicht festgelegt ist, führen Sie Schritt 4 aus. Wechseln Sie andernfalls direkt zu Schritt 5.
 4. Variable JAVA_HOME mithilfe der folgenden Befehle festlegen, die auf der installierten Java-Version basieren
 
-   Beispiel:
+   Zum Beispiel:
 
    JAVA 11
 
@@ -124,7 +126,7 @@ Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssy
 
 4. Variable JAVA_HOME mithilfe der folgenden Befehle festlegen, die auf der installierten Java-Version basieren
 
-   Beispiel:
+   Zum Beispiel:
 
    JAVA 11
 

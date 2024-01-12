@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version Februar 2023
+title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version Februar 2023
 description: Februar-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 1%
@@ -95,6 +97,6 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Native PDF | Verschachtelte topicref in Anhängen werden alle in der temporären HTML in h1 umgewandelt. 10454
 * Grundlegende Veröffentlichung schlägt bei PDF fehl, die mit FrameMaker Publishing Server 2020 erstellt wurde. (10551)
 * Native PDF | Hinzufügen `xref` in ein Bild wird das Bild nicht auf der generierten PDF gerendert. (11346)
-* Native PDF | Bild-Tag fügt allen Bildern das Attribut display-inline hinzu. (10653)
+* Native PDF | Das Bild-Tag fügt allen Bildern das Attribut display-inline hinzu. (10653)
 * Native PDF | Entwurfskommentare sind standardmäßig in der generierten Ausgabe ausgeblendet. (10560)
 * Native PDF | navtitle wird für topichead nicht geehrt. (10509)

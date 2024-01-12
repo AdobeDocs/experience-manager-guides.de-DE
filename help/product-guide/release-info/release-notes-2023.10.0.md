@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version Oktober 2023
+title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in der Adobe Experience Manager-Version vom Oktober 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und wie Sie auf die Version von Adobe Experience Manager Guides vom Oktober 2023 aktualisieren as a Cloud Service
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 1%
@@ -88,7 +90,7 @@ Führen Sie die folgenden Schritte für die Nachbearbeitung des vorhandenen Inha
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text auf Zuordnungs- und Themenliste auf der Registerkarte Berichte zu finden und zu ersetzen:
 
-1. Führen Sie eine POST-Anfrage an den Server aus \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert \|\| Beispiel : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Führen Sie eine POST-Anfrage an den Server aus \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert \|\| Beispiel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Maps eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
@@ -137,9 +139,9 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Veröffentlichung
 
-- Native PDF | Die Reihenfolge der Themen wird nicht festgelegt, wenn die PDF-Ausgabe erzeugt wird. (13157)
-- Native PDF | Es ist kein standardmäßiges Stil-Tag verfügbar für `<p>`-Element. (12559)
-- Native PDF | Inline-Stile, die auf den Inhaltsbereich angewendet werden, werden nicht auf die Themen in der Vordergrund- und der RückMaterie angewendet. (13510)
+- Native PDF | Die Reihenfolge der Themen wird bei der Erzeugung der PDF-Ausgabe nicht festgelegt. (13157)
+- Native PDF| Es ist kein standardmäßiges Stil-Tag verfügbar für `<p>`-Element. (12559)
+- Native PDF | Inline-Stile, die auf den Inhaltsbereich angewendet werden, werden nicht auf die Themen in der Vordergrund- und in der Rückseite angewendet. (13510)
 - Die `DeliveryTarget` -Attribut wird beim Generieren der AEM Site-Ausgabe nicht übernommen.  (13132)
 - Die **Veröffentlichen** Workflow hängt beim Generieren AEM Site-Ausgabe für Inhalte mit bestimmten Fehlern nicht mehr zusammen. (12000)
 

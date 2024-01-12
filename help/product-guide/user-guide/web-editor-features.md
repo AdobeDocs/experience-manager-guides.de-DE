@@ -2,7 +2,9 @@
 title: Funktionen des Web Editors kennen
 description: Entdecken Sie die Funktionen des Webeditors in AEM Handbüchern. Machen Sie sich mit der Benutzeroberfläche des Web-Editors vertraut, einschließlich der Hauptsymbolleiste, der sekundären Symbolleiste, des linken Bedienfelds, des Inhaltsbearbeitungsbereichs und des rechten Bedienfelds.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '17364'
 ht-degree: 0%

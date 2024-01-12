@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern 4.2.1
+title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in Version 4.2.1 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.2.1 der Adobe Experience Manager-Handbücher.
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -79,7 +81,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Beim Authoring im Element, das grün (Änderungen verfolgen) angezeigt wird, wird der neue Inhalt als Verfolgungsänderung angezeigt, auch wenn die Verfolgungsänderung deaktiviert ist. (7021)
 * Der Browser (Web Editor) friert beim Laden von Inhalten mit benutzerdefiniertem Schema ein. (1121)
 * Native PDF | Beim Erstellen einer Ausgabevorgabe mit der Option &quot;Zum Ordnerprofil hinzufügen&quot;schlägt die PDF-Erstellung mit einer Nullzeiger-Ausnahme fehl. (10950)
-* Native PDF | Bild-Tag fügt allen Bildern das Attribut display-inline hinzu. (10653)
+* Native PDF | Das Bild-Tag fügt allen Bildern das Attribut display-inline hinzu. (10653)
 * Das Einfügen von Audio- und Video-Multimediadateien schlägt im YouTube-Format unter dem **Multimedia einfügen** Symbol. (11320)
 * Der Validierungsfehler tritt auf, wenn eine Zuordnung mithilfe der Vorlage erstellt wird, die über ein spezielles Titelelement verfügt. (11212)
 * Web-Editor | Beim Bearbeiten eines Themas wird im XML-Editor geschütztes Leerzeichen hinzugefügt. (11786)
@@ -94,15 +96,15 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 ### Veröffentlichung
 
 * Native PDF | Das Veröffentlichen von Inhalten mit einer Ausgabeklasse mit Klammern() führt zum Einfrieren der Veröffentlichung. (1936)
-* JSON-Ausgabe | Zuordnen von Metadaten mit Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (1933)
+* JSON-Ausgabe | Zuordnen von Metadaten mit dem Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (1933)
 * Problem tritt bei AEM Site-Suche auf (funktioniert nicht über 2-3-Level-Knoten hinaus). (11352)
-* Web-Editor | Ausgabepfad und Vorlage können nicht in der AEM-Vorgabe ausgewählt werden. (11530)
+* Web-Editor | Der Ausgabepfad und die Vorlage können nicht in der AEM ausgewählt werden. (11530)
 * Bei der Aktualisierung von Version 4.1.x auf Version 4.2 funktioniert die Native PDF Engine nicht und gibt auch für das unterstützte Betriebssystem eine NullPointerException aus.(11526)
 * Der Download-PDF-Prozess funktioniert im Web-Editor nicht ordnungsgemäß. (11496)
 * Native PDF | Entwurfskommentare sind standardmäßig in der generierten Ausgabe ausgeblendet. (10560)
 * Native PDF | navtitle wird für topichead nicht geehrt. (10509)
 * Native PDF | Hinzufügen `xref` in ein Bild wird das Bild nicht auf der generierten PDF gerendert. (11346)
-* Native PDF | Die Fußnote in der Tabellenüberschrift führt zu fett und zentriert ausgerichtetem Text in der entsprechenden Fußzeile der PDF-Ausgabe. (10610)
+* Native PDF | Die in der Tabellenüberschrift vorhandene Fußnote führt zu fett und zentriert ausgerichtetem Text in der entsprechenden Fußzeile der PDF-Ausgabe. (10610)
 
 ### Übersetzung
 

@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version September 2023
+title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in der Adobe Experience Manager-Version vom September 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und wie Sie auf die Version September 2023 von Adobe Experience Manager Guides as a Cloud Service aktualisieren können
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 0%
@@ -88,7 +90,7 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzubearbeit
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text auf Zuordnungs- und Themenliste auf der Registerkarte Berichte zu finden und zu ersetzen:
 
-1. Führen Sie eine POST-Anfrage an den Server aus \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert \|\| Beispiel : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Führen Sie eine POST-Anfrage an den Server aus \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert \|\| Beispiel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Maps eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
@@ -161,7 +163,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 - Native PDF | Durch die Verwendung mehrerer xrefs wird der Text über die Spaltenbreite hinaus erweitert. (13004)
 - Native PDF | Wenn das Thema und der Titel dieselbe ID aufweisen, führt dies zu einer fehlerhaften Generierung der PDF-Ausgabe. (12644)
-- Native PDF | Beim Hinzufügen einer Ausgabeklasse zu einer übergeordneten Klasse `<topicref>` -Element in einer DITA-Zuordnung und durch Anwendung eines benutzerdefinierten Stils auf die Ausgabeklasse wird die Formatierung auf Elemente im Themenhauptteil angewendet, einschließlich Abschnittstitel.(12166)
+- Native PDF | Beim Hinzufügen einer Ausgabeklasse zu einem übergeordneten Element `<topicref>` -Element in einer DITA-Zuordnung und durch Anwendung eines benutzerdefinierten Stils auf die Ausgabeklasse wird die Formatierung auf Elemente im Themenhauptteil angewendet, einschließlich Abschnittstitel.(12166)
 - Inkrementelle Veröffentlichung funktioniert nicht, wenn eine DITA-Map über mehrere Ditavalrefs verfügt. (12117)
 - AEM Site | Beim Erstellen einer Zuordnung mit Keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. (1209)
 - Wenn Assets aus AEM DAM in einer anderen Ausgabe als der AEM-Site verwendet werden, spiegeln die Metadaten &quot;jcr:createdBy&quot;nicht den Namen des Herausgebers oder den Namen des Benutzers wider, der die DITA-Map oder das Thema zuletzt geändert hat. (12090)

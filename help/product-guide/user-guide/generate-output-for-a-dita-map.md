@@ -2,7 +2,9 @@
 title: Generieren der Ausgabe für eine DITA-Zuordnung über die Zuordnungskonsole
 description: Generieren Sie die Ausgabe für eine DITA-Zuordnung über die Zuordnungskonsole in AEM Guides. Erfahren Sie mehr über die inkrementelle Ausgabegenerierung und wie Sie den Status, den Abbruch und das Löschen einer Ausgabenaufgabe anzeigen können.
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%

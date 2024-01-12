@@ -2,7 +2,10 @@
 title: Konfigurieren globaler Profile oder Profile auf Ordnerebene
 description: Erfahren Sie, wie Sie globale Profile oder Profile auf Ordnerebene konfigurieren
 exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Profiles
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '3896'
 ht-degree: 0%
@@ -49,7 +52,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
   Neben Themenvorlagen können Sie auch die Zuordnungsvorlagen definieren, die Autoren zur Verfügung gestellt werden. Die folgenden Zuordnungsvorlagen sind standardmäßig verfügbar:
 
-   - Zuordnung
+   - Map
 
    - Lesezeichen
 

@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version Oktober 2022
+title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version Oktober 2022
 description: Oktober-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -61,12 +63,12 @@ Wählen Sie eine oder mehrere Vorgaben aus und generieren Sie schnell die Ausgab
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Native PDF | Beim Entfernen von Themen, die nur Ressourcen enthalten, aus der PDF-Ausgabe tritt ein Fehler auf. 10554)
+* Native PDF | Beim Entfernen von Themen, die nur Ressourcen betreffen, aus der PDF-Ausgabe tritt ein Fehler auf. 10554)
 * Native PDF | Leere Keyrefs werden in der PDF-Ausgabe angezeigt. (10553)
 * Native PDF | `navtitle` für `topichead` wird nicht geehrt. (10509)
 * Native PDF | Unterstützung für Ad64 JDK-Versionen erforderlich. (10465)
-* Native PDF | Frontmatter-Themen können nicht aus dem Inhaltsverzeichnis ausgeblendet werden. (10355)
-* Native PDF | Beim Neustarten der Seitenzahl im Kapitel-Layout beginnt die Nummerierung zufällig am Ende des vorherigen Kapitels. (10154)
+* Native PDF | Es ist nicht möglich, Themen aus der Vorderseite aus dem Inhaltsverzeichnis auszublenden. (10355)
+* Native PDF | Wenn Sie die Seitenzahl im Kapitel-Layout nach dem Zufallsprinzip neu starten, beginnt die Nummerierung am Ende des vorherigen Kapitels. (10154)
 * Chrome Browser | Beim Ziehen und Ablegen eines Elements aus der Benutzeroberfläche wird der Bildschirm leer. Beispielsweise beim Ziehen einer Bedingung aus dem Bedienfeld &quot;Bedingungen&quot;. (10524)
 * Knoteneigenschaften werden nach dem Kopieren/Einfügen-Vorgang eines Assets entfernt. (10053)
 * Beim Klicken  **Schließen** -Benutzer zu Assets umgeleitet wurden - das Erlebnis wurde korrigiert, um Benutzer zur AEM-Homepage zu leiten. 9654

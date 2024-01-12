@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version November 2022
+title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version November 2022
 description: November-Version der Adobe Experience Manager-Handbücher as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -110,7 +112,7 @@ Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten, eingefüg
 * Eingefügten Inhalt in grüner Farbe anzeigen und unterstrichen
 * Gelöschte Inhalte in roter Farbe anzeigen und mit einem Durchstreichen markieren
 
-### Native PDF | Variablenunterstützung für Ausgabepfad und PDF-Dateiname
+### Native PDF | Variablenunterstützung für Output Path und PDF File Name
 
 Jetzt können Sie auch die folgenden vordefinierten Variablen verwenden, um den Ausgabepfad und die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um die folgenden Optionen zu definieren:
 * `${map_filename}`

@@ -2,7 +2,10 @@
 title: Ausgabegenerierungseinstellungen konfigurieren
 description: Erfahren Sie, wie Sie die Einstellungen für die Generierung von Ausgaben konfigurieren
 exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '5762'
 ht-degree: 1%
@@ -461,7 +464,7 @@ Sie können die vordefinierten DITA-Elementzuordnungen verwenden oder DITA-Eleme
 
 Eine allgemeine Übersicht über die `elementmapping.xml` Struktur wird nachfolgend erläutert:
 
-1. Jedes DITA-Element wird zuerst nach einer entsprechenden Komponentenzuordnung basierend auf dem Elementnamen gesucht. Beispiel:
+1. Jedes DITA-Element wird zuerst nach einer entsprechenden Komponentenzuordnung basierend auf dem Elementnamen gesucht. Zum Beispiel:
 
    ```XML
    <ditaelement>     
@@ -475,7 +478,7 @@ Eine allgemeine Übersicht über die `elementmapping.xml` Struktur wird nachfolg
 
    Im obigen Beispiel werden alle `substeps` DITA-Elemente werden mit der `dita/components/ditaolist` -Komponente.
 
-1. Wenn ein DITA-Element keine Übereinstimmung basierend auf dem Namen findet, wird eine Übereinstimmung anhand der `class` abgeschlossen ist. Beispiel:
+1. Wenn ein DITA-Element keine Übereinstimmung basierend auf dem Namen findet, wird eine Übereinstimmung anhand der `class` abgeschlossen ist. Zum Beispiel:
 
    ```XML
    <ditaelement>  
@@ -492,7 +495,7 @@ Eine allgemeine Übersicht über die `elementmapping.xml` Struktur wird nachfolg
 
    Wenn im obigen Beispiel keine Zuordnung für die `task` -Element, dann die `task` -Element der obigen Komponente zugeordnet ist, da `task` von der `topic` -Komponente.
 
-1. Wenn ein Element über eine entsprechende Komponentenzuordnung verfügt, wird die weitere Verarbeitung seiner untergeordneten Elemente durch `type`. Beispiel:
+1. Wenn ein Element über eine entsprechende Komponentenzuordnung verfügt, wird die weitere Verarbeitung seiner untergeordneten Elemente durch `type`. Zum Beispiel:
 
    ```XML
    <ditaelement>  
@@ -521,7 +524,7 @@ Eine allgemeine Übersicht über die `elementmapping.xml` Struktur wird nachfolg
 
 1. Sie können `<attributemap>` in der Elementzuordnung, um Attributwerte den entsprechenden Knoteneigenschaften zuzuordnen.
 
-1. `textprop` kann für die Serialisierung des Textinhalts eines DITA-Elements in eine Knoteneigenschaft verwendet werden. Darüber hinaus kann es mehrmals in einem Element-Tag verwendet werden, um den Textinhalt an mehreren Stellen in der veröffentlichten Hierarchie zu serialisieren. Sie können auch den Speicherort und Namen der Ziel-Property anpassen. Beispiel:
+1. `textprop` kann für die Serialisierung des Textinhalts eines DITA-Elements in eine Knoteneigenschaft verwendet werden. Darüber hinaus kann es mehrmals in einem Element-Tag verwendet werden, um den Textinhalt an mehreren Stellen in der veröffentlichten Hierarchie zu serialisieren. Sie können auch den Speicherort und Namen der Ziel-Property anpassen. Zum Beispiel:
 
    ```XML
    <ditaelement> 
@@ -536,7 +539,7 @@ Eine allgemeine Übersicht über die `elementmapping.xml` Struktur wird nachfolg
 
    Die obige Elementzuordnung gibt an, dass der Textinhalt von `<title>` -Element wird als Wert einer Eigenschaft mit dem Namen `jcr:title` auf dem Ausgabeknoten.
 
-1. `xmlprop` kann zum Serialisieren der gesamten XML für ein bestimmtes Element mit einer Knoteneigenschaft verwendet werden. Die Komponente kann dann diese Knoteneigenschaft lesen und benutzerdefiniertes Rendering durchführen. Beispiel:
+1. `xmlprop` kann zum Serialisieren der gesamten XML für ein bestimmtes Element mit einer Knoteneigenschaft verwendet werden. Die Komponente kann dann diese Knoteneigenschaft lesen und benutzerdefiniertes Rendering durchführen. Zum Beispiel:
 
    ```XML
    <ditaelement> 
@@ -551,7 +554,7 @@ Eine allgemeine Übersicht über die `elementmapping.xml` Struktur wird nachfolg
 
    Die obige Elementzuordnung gibt an, dass das gesamte XML-Markup für das Element `<svg-container>` wird als Wert einer Eigenschaft mit dem Namen `data` auf dem Ausgabeknoten.
 
-1. Es gibt eine spezielle Attributzuordnung zur Verarbeitung der Pfadauflösung im Prozess der Ausgabegenerierung. Beispiel:
+1. Es gibt eine spezielle Attributzuordnung zur Verarbeitung der Pfadauflösung im Prozess der Ausgabegenerierung. Zum Beispiel:
 
    ```XML
    <attributemap> 

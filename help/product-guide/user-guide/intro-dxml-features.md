@@ -2,7 +2,9 @@
 title: Wichtige Funktionen AEM Handbücher
 description: Lernen Sie die wichtigsten Funktionen in AEM Guides, DITA-Authoring, Content Management, webbasierter Review, Übersetzung, Lokalisierung, kanalübergreifendes Publishing und Integration von FrameMaker kennen.
 exl-id: 978d7027-08da-40f7-ae9e-bb4d559a84dc
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Introduction
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%
