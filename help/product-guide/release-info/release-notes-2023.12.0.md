@@ -3,7 +3,7 @@ title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in de
 description: Erfahren Sie mehr über die Fehlerbehebungen und wie Sie auf die Version von Adobe Experience Manager Guides vom Dezember 2023 as a Cloud Service aktualisieren können.
 feature: Release Notes
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 110a358ce6c0525f7b1eae075d89d78f8014ceff
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unte
 Führen Sie die folgenden Schritte aus, um die aktuelle as a Cloud Service Einrichtung der Experience Manager-Handbücher zu aktualisieren:
 
 1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2023.12.0.15.
+2. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2023.12.0.16.
 3. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die Version der Experience Manager-Handbücher vom Dezember 2023 as a Cloud Service zu aktualisieren.
 
 ## Schritte zum Aktivieren des Triggers eines Skripts über ein Servlet
