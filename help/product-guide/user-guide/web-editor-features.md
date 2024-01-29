@@ -4,9 +4,9 @@ description: Entdecken Sie die Funktionen des Webeditors in AEM Handbüchern. Ma
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '17364'
+source-wordcount: '17861'
 ht-degree: 0%
 
 ---
@@ -228,6 +228,27 @@ Dadurch wird verhindert, dass Benutzer Dateien speichern, die eine Regel beschä
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
+- **Metadaten**: Sie können die Versionsmetadaten des Themas und deren Werte steuern, die im **Versionsverlauf** Dialogfeld.  Geben Sie im Metadatenpfad den Speicherort der Knoten an, von denen Sie die Metadaten auswählen möchten. Sie können auch einen benutzerdefinierten Namen für die Metadaten als Beschriftung definieren. Die Standardeigenschaften sind Titel, Dokumentstatus und Tags.
+
+  Die Metadaten können aus jeder Eigenschaft unter der `/jcr:content` -Knoten des Assets, damit Sie den Pfad der Eigenschaft als Metadatenpfad hinzufügen können.
+
+
+  Wenn der Metadatenpfad leer ist, wird ein Fehler angezeigt. Wenn Sie die Beschriftung leer lassen, wird das letzte Element als Beschriftung ausgewählt.
+
+
+
+
+  ![Registerkarte &quot;Metadaten&quot;in den Editor-Einstellungen](images/editor-setting-metadata.png){width="550" align="left"}
+
+  *Konfigurieren Sie die Metadaten für die **Versionsverlauf**Dialogfeld.*
+
+
+
+
+  Sie können auch die Reihenfolge definieren, in der diese Metadaten-Tags angezeigt werden. Um die Standardreihenfolge dieser Tags zu ändern, wählen Sie die gepunkteten Balken aus, um die Tags per Drag-and-Drop an die gewünschte Position zu ziehen.
+Die Metadatenbeschriftungen werden in derselben Sequenz in der **Versionsverlauf** des Webeditors.
+
+
 
 **Benutzereinstellungen** - ![](images/user_preference_editor_icon.svg)
 
@@ -270,9 +291,16 @@ Die sekundäre Symbolleiste wird angezeigt, wenn Sie ein Thema zur Bearbeitung i
 
 **Element einfügen** - ![](images/Add_icon.svg)
 
-Fügt ein gültiges Element an der aktuellen oder nächsten gültigen Position ein. Wenn Sie in einem Blockelement wie einem `note`und verwenden Sie dann das Symbol Element einfügen , um ein neues Element nach der `note` -Element. Im folgenden Screenshot wurde ein Hinweis-Element in das Element p \(paragraph\) eingefügt:
+Fügt ein gültiges Element an der aktuellen oder nächsten gültigen Position ein. Sie können auch den Tastaturbefehl ***Alt***+***Eingabe*** , um das Popup Element einfügen zu öffnen. Sie bearbeiten beispielsweise einen Absatz und dann im **Element einfügen** angezeigt, wird eine Liste von Elementen angezeigt, die in den Absatz eingefügt werden können. Wählen Sie das Element aus, das Sie einfügen möchten. Sie können die Tastatur verwenden, um durch die Liste der Elemente zu scrollen und die ***Eingabe*** , um das erforderliche Element einzufügen. Sie können auch ein Zeichen oder eine Zeichenfolge in das Suchfeld eingeben und nach den Elementen suchen, die damit beginnen.
 
-![](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+
+![Element einfügen](images/insert-element.png){width="300" align="left"}
+
+*Geben Sie &quot;t&quot;ein, um nach allen gültigen Elementen zu suchen, die mit &quot;t&quot;beginnen.*
+
+Wenn Sie in einem Blockelement wie einem `note`und verwenden Sie dann das Symbol Element einfügen , um ein neues Element nach der `note` -Element. Im folgenden Screenshot wurde ein Hinweis-Element in das Element p \(paragraph\) eingefügt:
+
+![Element in ein Blockelement einfügen](images/note-in-para-insert-element_cs.png){width="800" align="left"}
 
 Wenn Sie im Notizelement die Eingabetaste drücken, wird im Notizelement selbst ein neuer Absatz erstellt. Um ein neues Element außerhalb der Notiz einzufügen, klicken Sie im Breadcrumb der Elemente auf das p-Element \(hervorgehoben im Screenshot\) und klicken Sie auf das Symbol Element einfügen oder drücken Sie die Eingabetaste ***Alt***+***Eingabe*** , um das Popup Element einfügen zu öffnen. Wählen Sie dann das gewünschte Element aus und drücken Sie die Eingabetaste , um das ausgewählte Element nach dem Notizelement einzufügen.
 
@@ -282,7 +310,7 @@ Sie können auch ein Element zwischen zwei Elementen hinzufügen, wenn ein blink
 
 Wenn Sie beispielsweise an einem DITA-Thema arbeiten und der Block-Cursor zwischen der kurzen Beschreibung und dem Text blinkt, können Sie `prolog` und fügen Sie dann Copyright-, Autoren- und andere Details hinzu.
 
-Eine weitere Möglichkeit, ein neues Element einzugeben, ist die Verwendung des Kontextmenüs. Klicken Sie mit der rechten Maustaste auf eine beliebige Stelle im Dokument, um das Kontextmenü aufzurufen. Wählen Sie aus diesem Menü Element einfügen aus, um das Dialogfeld Element einfügen anzuzeigen und das Element auszuwählen, das Sie einfügen möchten.
+Eine weitere Möglichkeit, ein neues Element einzugeben, ist die Verwendung des Kontextmenüs. Klicken Sie mit der rechten Maustaste auf eine beliebige Stelle im Dokument, um das Kontextmenü aufzurufen. Wählen Sie aus diesem Menü **Element einfügen** , um **Element einfügen** und wählen Sie das Element aus, das Sie einfügen möchten.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
@@ -297,6 +325,10 @@ Erstellt eine nummerierte Liste am aktuellen oder nächsten gültigen Speicheror
 **Aufzählungsliste einfügen/entfernen** - ![](images/BulletList_icon.svg)
 
 Erstellt eine Liste mit Aufzählungszeichen an der aktuellen oder nächsten gültigen Position. Wenn Sie sich auf einer Liste mit Aufzählungszeichen befinden und auf dieses Symbol klicken, wird das Element in einen normalen Absatz umgewandelt.
+
+>[!NOTE]
+>
+>Sie können auch die **Aufspaltung** -Option im Kontextmenü eines Listenelements aus, um die aktuelle Liste aufzuteilen und eine neue Liste auf derselben Ebene zu beginnen.
 
 **Tabelle einfügen** - ![](images/Table_icon.svg)
 
@@ -640,9 +672,10 @@ Führen Sie die folgenden Schritte aus, um Änderungen in einer Map-Datei zusamm
 
 **Versionsverlauf** - ![](images/version-history-web-editor-ico.svg)
 
-AEM Handbücher bieten verschiedene Möglichkeiten, die für Ihre Themendateien erstellten Versionen anzuzeigen, sowie Möglichkeiten, zu einer bestimmten Version zurückzukehren. Die meisten dieser Funktionen sind jedoch außerhalb des Web-Editors verfügbar.
 
-Mit der Funktion Versionsverlauf im Web Editor können Sie nicht nur die verfügbaren Versionen und Beschriftungen Ihres aktiven Themas überprüfen, sondern auch flexibel auf jede Version im Editor selbst zurückgreifen.
+Die **Versionsverlauf** im Web Editor können Sie die verfügbaren Versionen Ihrer DITA-Dateien überprüfen, sie vergleichen und vom Editor selbst auf eine beliebige Version zurücksetzen.
+
+Im Versionsverlauf können Sie den Inhalt und die Metadaten der aktuellen Version (die auch eine Arbeitskopie sein kann) mit einer früheren Version derselben Datei vergleichen. Sie können auch die Bezeichnungen und Kommentare für die verglichenen Versionen anzeigen.
 
 Um auf den Versionsverlauf zuzugreifen und zu einer bestimmten Version Ihres Themas zurückzukehren, führen Sie die folgenden Schritte aus:
 
@@ -650,19 +683,39 @@ Um auf den Versionsverlauf zuzugreifen und zu einer bestimmten Version Ihres The
 
 1. Klicks **Versionsverlauf**.
 
-   Das Dialogfeld Versionsverlauf wird angezeigt.
+   Die **Versionsverlauf** angezeigt.
 
-   ![](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Dialogfeld &quot;Versionsverlauf&quot;](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   *Vorschau der Änderungen in den verschiedenen Versionen eines Themas*
 
-1. Wählen Sie eine Version des Themas aus, auf das Sie im Abschnitt **Version auswählen** Dropdown-Liste.
+1. Wählen Sie eine Version des Themas aus, das Sie im Abschnitt **Vergleichen mit** Dropdown-Liste.
 
    >[!NOTE]
    >
    > Wenn auf eine Version Bezeichnungen angewendet werden, werden sie auch \(in Klammern\) zusammen mit der Versionsnummer angezeigt.
 
-   Sobald Sie eine Version aus der Dropdownliste auswählen, wird die Option Auf ausgewählte Version zurücksetzen verfügbar gemacht. Im Vorschaufenster werden die Unterschiede zwischen der aktuellen Version und der ausgewählten Version des Themas angezeigt.
 
-   ![](images/version-history-revert-diff-dialog-web-editor.png){width="550" align="left"}
+
+1. Aktivieren **Anzeigen von Bezeichnungen und Kommentaren** -Option, um die Bezeichnungen und Kommentare anzuzeigen, die auf die aktuelle und die verglichenen Versionen angewendet wurden.
+
+1. Sie können auch die folgenden Informationen im **Versionsverlauf** Dialogfeld:
+
+   **Vorschau** tab: Der neu hinzugefügte Inhalt ist grün und der gelöschte Inhalt rot.
+
+   **Metadaten** tab: Die neu hinzugefügten Metadaten sind grün und die gelöschten Metadaten rot.
+   ![Metadatenunterschied für Versionen ](images/metadata-version-diff.png){width="550" align="left"}
+   *Vergleichen Sie die Metadaten verschiedener Versionen im Versionsverlauf.*
+
+   >[!NOTE]
+   >
+   > Ihr Systemadministrator kann die Metadaten ändern, die auf der Registerkarte Metadaten in den Editor-Einstellungen angezeigt werden sollen.
+
+   Sie können auch die Benutzer- und Uhrzeitdetails der aktuellen und der verglichenen Version anzeigen.
+
+
+
+1. Sobald Sie eine Version aus der Dropdownliste auswählen, wird die **Option &quot;Auf ausgewählte Version zurücksetzen&quot;** bereitgestellt werden. Im Vorschaufenster werden die Unterschiede zwischen der aktuellen Version und der ausgewählten Version des Themas angezeigt.
+
 
 1. Klicks **Auf ausgewählte Version zurücksetzen** , um Ihre Arbeitskopie mit der ausgewählten Version des Themas wiederherzustellen.
 
@@ -875,7 +928,7 @@ Sie können die folgenden Aktionen über das Menü Optionen ausführen, das für
 
 Im Menü Optionen werden je nachdem, ob Sie eine Mediendatei oder eine DITA-Datei auswählen, unterschiedliche Optionen angezeigt. Einige häufig verfügbare Optionen für Medien- und DITA-Dateien sind:
 
-- Duplizieren
+- Duplikat
 - Auschecken/Einchecken
 - Vorschau
 - Verschieben nach
@@ -1107,14 +1160,17 @@ Sie können die folgenden Aktionen über das Menü Optionen der Zuordnungsdatei 
 - **Map-Dashboard öffnen**: Öffnen Sie das Landkarten-Dashboard.
 
 - **Anzeigen in der Assets-Benutzeroberfläche**: Verwenden Sie diese Option, um eine Vorschau der Zuordnungsdatei in der Assets-Benutzeroberfläche anzuzeigen. In dieser Ansicht werden alle Themendateien in der Zuordnung in einer einzigen einheitlichen Seitenansicht angezeigt.
-- **Download-Map**: Wählen Sie diese Option aus, um die **Download-Map** angezeigt.
+- **Download-Map**: Wählen Sie diese Option aus, um die **Download-Map** Dialogfeld.
 Im **Download-Map** können Sie die folgenden Optionen auswählen:
    - **Grundlinie verwenden**: Wählen Sie diese Option aus, um eine Liste der Grundlinien für die DITA-Zuordnung zu erhalten. Wenn Sie die Zuordnungsdatei und deren Inhalt auf Grundlage einer bestimmten Grundlinie herunterladen möchten, wählen Sie die Grundlinie aus der Dropdownliste aus. Weitere Informationen zum Arbeiten mit Grundlinien finden Sie unter [Arbeiten mit Grundlinien](./generate-output-use-baseline-for-publishing.md).
    - **Reduzieren der Dateihierarchie**: Wählen Sie diese Option, um alle referenzierten Themen und Mediendateien in einem einzigen Ordner zu speichern.
 
   Sie können auch die Zuordnungsdatei herunterladen, ohne eine Option auszuwählen. In diesem Fall werden die letzten beibehaltenen Versionen der referenzierten Themen und Mediendateien heruntergeladen.
 
-  Nachdem Sie auf **Herunterladen** -Schaltfläche, wird die Anfrage zum Herunterladen der Map in die Warteschlange gestellt. Sie erhalten die Download-bereite Benachrichtigung, wenn die Karte zum Herunterladen bereit ist. Wenn der Download fehlschlägt, erhalten Sie die Benachrichtigung, dass der Map-Download fehlgeschlagen ist
+
+  Nachdem Sie auf **Herunterladen** -Schaltfläche, wird die Paketanforderung für den Zuordnungsexport in die Warteschlange gestellt. Die **Erfolg** angezeigt, wenn das Paket erfolgreich erstellt wurde.  Sie können auf die **Herunterladen** -Schaltfläche in der **Erfolg** Dialogfeld.
+
+  Sie erhalten die Download-bereite Benachrichtigung, wenn die Karte zum Herunterladen bereit ist. Wenn der Download fehlschlägt, erhalten Sie die Benachrichtigung, dass der Map-Download fehlgeschlagen ist.
 
   Sie können über den AEM Benachrichtigungs-Posteingang auf den Downloadlink zugreifen. Wählen Sie die generierte Zuordnungsbenachrichtigung im Posteingang aus, um die Zuordnung im ZIP-Format herunterzuladen.
 
@@ -1801,7 +1857,9 @@ Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie dies
 
 **Dateieigenschaften** -  ![](images/topic-properties-icon.svg)
 
-Zeigen Sie die Eigenschaften der ausgewählten Datei an, indem Sie im rechten Bereich auf das Symbol Dateieigenschaften klicken. Die Dateieigenschaften haben die folgenden beiden Abschnitte:
+Zeigen Sie die Eigenschaften der ausgewählten Datei an, indem Sie auf Dateieigenschaften klicken ![](images/topic-properties-icon.svg) im rechten Bereich. Die Funktion Dateieigenschaften ist in allen vier Modi oder Ansichten verfügbar: Layout, Autor, Quelle und Vorschau.
+
+Die Dateieigenschaften haben die folgenden beiden Abschnitte:
 
 **Allgemein**
 

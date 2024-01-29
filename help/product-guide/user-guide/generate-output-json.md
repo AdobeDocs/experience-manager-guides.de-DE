@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine JSON-Vorgabe aus dem Web-Editor und dem 
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,6 @@ Im Web-Editor wurden die folgenden Konfigurationen unter dem **Allgemein** tab:
 
 Weitere Informationen finden Sie unter [JSON-Konfiguration](#id231KJA00REJ).
 
-**Über das Zuordnungs-Dashboard**
-
-Um Ausgabevorgaben für das PDF zu öffnen, klicken Sie in der Assets-Benutzeroberfläche auf eine DITA-Zuordnungsdatei, klicken Sie dann auf Ausgabevorgaben und dann auf die Option HTML5 . Klicken Sie im Dashboard Map auf **Bearbeiten** Klicken Sie oben auf , um die verschiedenen Konfigurationen zu aktualisieren, und klicken Sie dann auf **Speichern**.
 
 **JSON-Konfiguration**
 

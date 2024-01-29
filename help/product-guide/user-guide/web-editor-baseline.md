@@ -4,9 +4,9 @@ description: Erstellen und verwalten Sie Grundlinien über den Webeditor in AEM 
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > Es wird empfohlen, diese Grundlinie-Funktion aus dem Web Editor zu verwenden, wenn Sie ein Upgrade auf AEM Guides-Version vom as a Cloud Service März oder höher durchgeführt haben.
 
-AEM Handbücher bietet die Funktion &quot;Grundlinie&quot;im Web Editor, mit der Benutzer Grundlinien erstellen und Themen aus verschiedenen Versionen veröffentlichen oder übersetzen können.
+AEM Handbücher bietet die Funktion &quot;Grundlinie&quot;im Web Editor, mit der Benutzer Grundlinien erstellen und Themen aus verschiedenen Versionen veröffentlichen oder übersetzen können. Sie können auch mehrere Ausgabevorgaben derselben DITA-Map parallel veröffentlichen.
 
 ## Erstellen einer Grundlinie
 
@@ -56,11 +56,12 @@ Sie können eine Grundlinie im Web Editor erstellen, indem Sie die folgenden Sch
 
    **Automatische Aktualisierung**: Wählen Sie diese Option für die Grundlinien-Erstellung aus, um die Themen automatisch entsprechend der auf sie angewendeten Bezeichnung auszuwählen.
 
-   Grundlinien, die mit der Konfiguration der automatischen Aktualisierung erstellt wurden, werden dynamisch aktualisiert. Wenn Sie eine Grundlinie erstellen, eine Grundlinie herunterladen oder ein Übersetzungsprojekt mit einer Grundlinie erstellen, werden die Dateien dynamisch anhand der aktualisierten Beschriftungen ausgewählt. Wenn Sie beispielsweise Version 1.2 eines Themas mit Label Release 1.0 für die Grundlinie und später aktualisierte Version 1.5 mit Label Release 1.0 verwendet haben, wird die Grundlinie dynamisch aktualisiert und Version 1.5 wird verwendet.
+   Grundlinien, die mit der automatischen Aktualisierungskonfiguration erstellt wurden, werden dynamisch aktualisiert. Wenn Sie eine Grundlinie erstellen, eine Grundlinie herunterladen oder ein Übersetzungsprojekt mit einer Grundlinie erstellen, werden die Dateien dynamisch anhand der aktualisierten Beschriftungen ausgewählt. Wenn Sie beispielsweise Version 1.2 eines Themas mit Label Release 1.0 für die Grundlinie und später aktualisierte Version 1.5 mit Label Release 1.0 verwendet haben, wird die Grundlinie dynamisch aktualisiert und Version 1.5 wird verwendet.
 
-   ![Erstellen einer Grundlinie](images/dynamic-baseline.png){width="550" align="left"}
+   ![Erstellen einer Grundlinie](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Beschriftungen auswählen**: Wenn für die Themen Beschriftungen angegeben sind, werden diese im Abschnitt **Beschriftungen auswählen** Dropdown. Sie können die Titel\(s\) aus der Liste auswählen. Die zuerst ausgewählten Titel erhalten höhere Priorität als die späteren.
+   - **Beschriftungen auswählen**: Wenn für die Themen Beschriftungen angegeben sind, verwenden Sie die **Beschriftungen auswählen** Dropdown-Liste zur Auswahl aus [aufgelistete Beschriftungen](#labels-list).
+Die zuerst ausgewählten Titel erhalten höhere Priorität als die späteren.
 
      Bei dynamischen Grundlinien werden die Beschriftungen von der zuletzt gespeicherten Version und der aktuellen Arbeitskopie der Karte abgerufen. Wenn Sie beispielsweise Bezeichnungen erstellt haben   `Label Release A.1.0 ` und `Label Release A.1.1` für die Versionen 1.0 und 1.1 von Thema A und Beschriftungen `Label Release B.1.0` und `Label Release B.1.1` für die Versionen 1.0 und 1.1 von Thema B . Anschließend können Sie Thema A zu Karte A in Version 1.0 und Thema B zu Karte A in 1.0* hinzufügen (Arbeitskopie). In diesem Fall können Sie  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, und `Label Release B.1.1` in der Dropdown-Liste der dynamischen Grundlinien-Beschriftungen.
 
@@ -93,18 +94,23 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
 
 
   Sie können auch die folgenden Vorgänge auf der Grundlinie im Menü Optionen ausführen:
-- **Grundlinie duplizieren**: Sie können eine Grundlinie duplizieren und entsprechend Ihren Anforderungen ändern.
-  ![Grundlinie duplizieren](images/baseline-duplicate.png){width="300" align="left"}
-  *Duplizieren Sie eine Grundlinie basierend auf einem Titel oder erstellen Sie eine exakte Kopie.*
 
-   1. Auswählen **Duplizieren** im Menü Optionen einer Grundlinie. Die **Grundlinie duplizieren** wird geöffnet.
-      >[!NOTE]
-      > 
-      >Der Standardname der Grundlinie lautet `<selected baseline name>`_suffix (wie sample-baseline_1). Sie können den Namen entsprechend Ihren Anforderungen ändern.
-   1. In **Wählen Sie die Version basierend auf** können Sie entweder die **Exakte Kopie** oder **Titel** Option:
-      - **Exakte Kopie**: Experience Manager Guides wählen dieselbe Version aller Themen aus und erstellen eine exakte Kopie der duplizierten Grundlinie.
-      - **Titel**: Sie können eine Bezeichnung aus der Dropdown-Liste auswählen. In den Experience Manager-Handbüchern werden die Themenversionen ausgewählt, für die der ausgewählte Titel definiert ist, während für die übrigen Themen die Version aus der duplizierten Grundlinie ausgewählt wird. Beispielsweise können Sie die Bezeichnung `Release 1.0` aus der Dropdown-Liste aus, werden die Versionen der Themen ausgewählt, für die Sie diese Bezeichnung definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Grundlinie ausgewählt.
-   1. Klicks **Duplizieren**.
+### Grundlinie duplizieren
+
+Sie können eine Grundlinie duplizieren und entsprechend Ihren Anforderungen ändern.
+![Grundlinie duplizieren](images/baseline-duplicate.png){width="300" align="left"}
+*Duplizieren Sie eine Grundlinie basierend auf einem Titel oder erstellen Sie eine exakte Kopie.*
+
+1. Auswählen **Duplizieren** im Menü Optionen einer Grundlinie. Die **Grundlinie duplizieren** wird geöffnet.
+>[!NOTE]
+> > Der Standardname der Grundlinie lautet `<selected baseline name>`_suffix (wie sample-baseline_1). Sie können den Namen entsprechend Ihren Anforderungen ändern.
+
+   In **Wählen Sie die Version basierend auf** können Sie entweder die **Exakte Kopie** oder **Titel** Option:
+
+   - **Exakte Kopie**: Experience Manager Guides wählen dieselbe Version aller Themen aus und erstellen eine exakte Kopie der duplizierten Grundlinie.
+   - **Titel**: Mithilfe des Dropdown-Menüs können Sie eine der [aufgelistete Beschriftungen](#labels-list). In den Experience Manager-Handbüchern werden die Themenversionen ausgewählt, für die der ausgewählte Titel definiert ist, während für die übrigen Themen die Version aus der duplizierten Grundlinie ausgewählt wird. Beispielsweise können Sie die Bezeichnung `Release 1.0` aus der Dropdown-Liste aus, werden die Versionen der Themen ausgewählt, für die Sie diese Bezeichnung definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Grundlinie ausgewählt.
+1. Klicks **Duplizieren**.
+
 - **Umbenennen** oder **Löschen** eine bestehende Grundlinie.
 - Hinzufügen, Entfernen oder Ändern vorhandener Bezeichnungen aus dem **Verwalten von Bezeichnungen** für statische Grundlinien. Wenn Ihr Administrator vordefinierte Beschriftungen konfiguriert hat, werden diese Beschriftungen in der Dropdown-Liste Titel hinzufügen angezeigt. Weitere Informationen zum Hinzufügen von Bezeichnungen finden Sie unter [Verwenden von Bezeichnungen](web-editor-use-label.md#).
 
@@ -115,7 +121,16 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
 - **Eigenschaften bearbeiten** einer vorhandenen statischen Grundlinie, die Sie beim Erstellen der Grundlinie festgelegt haben.
 - Exportieren Sie die Momentaufnahme einer Grundlinie in eine Microsoft Excel-Datei mit der **Exportgrundlinie** -Option.
 
-**Standardfilter**
+
+### Liste der Titel {#labels-list}
+
+Die im Dropdown-Menü aufgelisteten Beschriftungen basieren auf den folgenden Kriterien:
+- Die Beschriftungen sollten zu einer Version der Themen in der DITA-Zuordnung hinzugefügt werden (auf der die Grundlinie erstellt wird).
+- Und nur die Referenzen der ersten Ebene (Themen oder Unterkarten) der DITA-Map werden für die Auswahl der Beschriftungen berücksichtigt.
+
+
+
+## Standardfilter
 
 Verwenden des Symbols Filter im **Standardfilter** -Bedienfeld können Sie Filter auf die Grundlinie anwenden, die im Fenster der Grundlinienbearbeitung geöffnet wurde:
 

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Dateien und Ordner in AEM Handbüchern verwal
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3108'
+source-wordcount: '3109'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
    > Auswählen <img src="images/info-icon.svg" width="25">   in der Nähe eines Felds, um weitere Details dazu anzuzeigen.
 
    - **Stapelgröße**: Geben Sie die Anzahl der Dateien an, die in einem Batch verschoben werden sollen. Die Standardwerte bei 50 Dateien.
-   - **Schlafintervall**: Geben Sie die Zeit in Sekunden an, die der Prozess warten soll, bevor der nächste Batch gestartet wird. Während dieses Ruhezeitintervalls behebt das System die Verweise auf und aus den verschobenen Dateien. Das standardmäßige Schlafintervall beträgt 60 Sekunden.
+   - **Schlafintervall (Sekunden)**: Geben Sie die Zeit in Sekunden an, die der Prozess warten soll, bevor der nächste Batch gestartet wird. Während dieses Ruhezeitintervalls behebt das System die Verweise auf und aus den verschobenen Dateien. Das standardmäßige Schlafintervall beträgt 60 Sekunden.
 
 
    - **Suffix zu doppelten Ordnern hinzufügen**: Wenn Sie Ordner mit demselben Namen verschieben, müssen Sie diese Option auswählen. Im vorherigen Screenshot wurde beispielsweise die **Quellpfad** enthält den Namen der zu verschiebenden Ordner. Der Ordner &quot;topic&quot;befindet sich an zwei verschiedenen Speicherorten - Test-A und Test-B. Wenn Sie diese Option auswählen, werden die Ordner erfolgreich verschoben. Der erste verschobene Ordner heißt &quot;topic&quot;, während der zweite Ordner &quot;topic0&quot;heißt. Beim Verschieben wird den Ordnern mit demselben Namen ein Suffix aus der sequenziellen Reihe \(0, 1, 2 usw.) hinzugefügt.

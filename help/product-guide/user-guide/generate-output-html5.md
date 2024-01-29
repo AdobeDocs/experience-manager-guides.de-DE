@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine HTML5-Vorgabe aus dem Web-Editor und dem
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Die Registerkarte Erweitert enthält die folgenden Konfigurationen:
 
 - Name der Umwandlung
 - Temporäre DITA-OT-Dateien bereinigen
-- Eigenschaften
+- Dateieigenschaften
 
 Weitere Informationen finden Sie unter [HTML5-Konfiguration](#id231KJA00REJ).
 
@@ -67,6 +67,6 @@ Die folgenden Optionen sind für die HTML5-Ausgabe verfügbar:
 | Zielpfad | Der Pfad in Ihrem AEM-Repository, in dem die HTML5-Ausgabe gespeichert wird. |
 | Temporäre DITA-OT-Dateien bereinigen | Wählen Sie diese Option, um die von DITA-OT generierten temporären Dateien zu bereinigen. Der Speicherort, an dem DITA-OT temporäre Dateien speichert, finden Sie im Ausgabegenerierungsprotokoll.<br><br>Wenn beim Generieren der Ausgabe über DITA-OT Fehler auftreten, können Sie diese Option deaktivieren, um die temporären Dateien beizubehalten. Anschließend können Sie diese Dateien zur Fehlerbehebung bei Fehlern bei der Ausgabe-Generierung verwenden. |
 | Grundlinie verwenden | Wenn Sie eine Grundlinie für die ausgewählte DITA-Zuordnung erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Siehe [Arbeiten mit Grundlinien](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) für weitere Details. |
-| Eigenschaften | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite &quot;Eigenschaften&quot;der DITA-Map- oder Bookmap-Datei festgelegt. Die Eigenschaften, die Sie aus der Dropdown-Liste auswählen, werden unter der **Eigenschaften** -Feld. Wählen Sie das Kreuzsymbol neben der Eigenschaft aus, um sie zu entfernen. <br><br>**Hinweis**: Sie können die Metadaten auch mithilfe der DITA-OT-Veröffentlichung an die Ausgabe übergeben. Weitere Informationen finden Sie unter [Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| Dateieigenschaften | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite &quot;Eigenschaften&quot;der DITA-Map- oder Bookmap-Datei festgelegt. Die Eigenschaften, die Sie aus der Dropdown-Liste auswählen, werden unter der **Dateieigenschaften** -Feld. Wählen Sie das Kreuzsymbol neben der Eigenschaft aus, um sie zu entfernen. <br><br>**Hinweis**: Sie können die Metadaten auch mithilfe der DITA-OT-Veröffentlichung an die Ausgabe übergeben. Weitere Informationen finden Sie unter [Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Übergeordnetes Thema:**[ Grundlegendes zu den Ausgabevorgaben](generate-output-understand-presets.md)

@@ -3,9 +3,9 @@ title: Versionshinweise | Neue Funktionen in der Adobe Experience Manager-Anleit
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Dezember 2023.
 feature: What's New
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -128,13 +128,6 @@ Außerdem können Sie damit eine Grundlinie basierend auf der Bezeichnung dupliz
 *Duplizieren Sie eine Grundlinie basierend auf einem Titel oder erstellen Sie eine exakte Kopie.*
 
 Erfahren Sie mehr über das [Erstellen und Verwalten von Grundlinien im Web-Editor](../user-guide/web-editor-baseline.md).
-
-## Verbesserter Prozess für die Erstellung der Massen-Aktivierungszuordnung
-
-Die Erstellung einer Massen-Aktivierungskarten-Sammlung ist jetzt harmonischer. Wenn nun die Seite Aktivierungsergebnisse angezeigt wird, können Sie die Ergebnisse der Aktivierung und Protokolle anzeigen.
-Weitere Informationen finden Sie unter [Erstellen einer Massen-Aktivierungszuordnung](../user-guide/conf-bulk-activation-create-map-collection.md).
-
-
 
 ## Auflösen von Cross-Map-Links in der Ausgabe der AEM Site
 

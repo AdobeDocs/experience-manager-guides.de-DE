@@ -4,10 +4,10 @@ description: Übersetzen Sie Ihre Inhalte über den Web-Editor in mehrere Sprach
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1907'
-ht-degree: 0%
+source-wordcount: '1925'
+ht-degree: 1%
 
 ---
 
@@ -37,8 +37,8 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
 ## Erstelle ein Übersetzungsprojekt
 
 1. Öffnen Sie im Bereich &quot;Repository&quot;die DITA-Zuordnungsdatei in der Zuordnungsansicht.
-1. Klicken Sie auf **Verwalten** Registerkarte. Im Übersetzungsfenster wird der per Hyperlink verknüpfte Titel der DITA-Map zusammen mit dem **Sprachen** Liste.
-1. Aus dem **Sprachen** auswählen, wählen Sie das Gebietsschema aus, in das Sie Ihr Projekt übersetzen möchten. Sie können **Alle** um Ihr Projekt in alle verfügbaren Sprachen zu übersetzen.
+1. Klicken Sie auf **Verwalten** Registerkarte. Im Übersetzungsbereich wird die **Verfügbare Sprachen** Liste.
+1. Aus dem **Verfügbare Sprachen** auswählen, wählen Sie das Gebietsschema aus, in das Sie Ihr Projekt übersetzen möchten. Sie können **Alle auswählen** um Ihr Projekt in alle verfügbaren Sprachen zu übersetzen.
 
    >[!NOTE]
    >
@@ -46,11 +46,13 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
 
    >[!IMPORTANT]
    >
-   > Die Sprache zeigt nur die Sprachen an, für die parallel zur Ausgangssprache ein Sprachordner erstellt wird. Ein auf einer anderen Ebene erstellter Sprachordner, z. B. eine Ebene weiter ab dem Ordner für die Ausgangssprache, wird ebenfalls nicht angezeigt. Stellen Sie sicher, dass Sie alle Zielsprachordner auf derselben Ebene wie Ihren Ausgangssprachordner erstellen.
+   > Die Liste zeigt nur die Sprachen an, für die parallel zur Ausgangssprache ein Sprachordner erstellt wird. Ein auf einer anderen Ebene erstellter Sprachordner, z. B. eine Ebene weiter ab dem Ordner für die Ausgangssprache, wird ebenfalls nicht angezeigt. Stellen Sie sicher, dass Sie alle Zielsprachordner auf derselben Ebene wie Ihren Ausgangssprachordner erstellen.
 
-   ![](images/translation-languages.png){width="350" align="left"}
+   ![](images/translation-languages.png){width="300" align="left"}
 
-1. Sie können auch die folgenden Optionen verwenden:
+1. Sie können auch eine der folgenden Optionen auswählen, um Ihr Projekt zu übersetzen:
+
+   **Keines** Wählen Sie diese Option, um die Standardversionen der Dateien zu übersetzen. Standardmäßig ist diese Option aktiviert.
 
    **Grundlinie verwenden:** Sie können eine Grundlinie auswählen, um Ihr Projekt zu übersetzen. Klicken Sie auf Grundlinie verwenden und wählen Sie eine auf der Karte erstellte Grundlinie aus. Alle Dateien, die Teil der ausgewählten Grundlinie sind, werden auf der Seite Übersetzung angezeigt. Sobald Ihr Inhalt übersetzt wurde, können Sie die übersetzte Grundlinie exportieren. Weitere Informationen zum Exportieren der übersetzten Grundlinie finden Sie unter [Exportieren der übersetzten Grundlinie](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
@@ -146,7 +148,7 @@ Wenn Sie beispielsweise Quelldateien mit der Versionsbezeichnung haben `Release 
 
 AEM Handbücher bieten die Möglichkeit, die Unterschiede zwischen der ausgewählten Version und der zuletzt übersetzten Quellversion der Themen zu überprüfen. Sie können die **Nicht synchronisiert** -Dateien basierend auf den vorgenommenen Änderungen.
 
-![](images/translation-version-diff.png){width="800" align="left"}
+![](images/translation-version-diff.png){width="650" align="left"}
 
 Wählen Sie die **Unterschied anzeigen** icon \(![](images/show-difference-icon.svg)\) für ein Thema, um die Unterschiede zwischen der zuletzt übersetzten Version und der aktuellen Version der ausgewählten Datei anzuzeigen.
 

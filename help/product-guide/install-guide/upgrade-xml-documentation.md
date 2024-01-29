@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '5744'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > Befolgen Sie die Upgrade-Anweisungen für die lizenzierte Version Ihres Produkts.
 
-Sie können Ihre aktuelle Version der Experience Manager-Handbücher auf Version 4.3.1 aktualisieren
+Sie können Ihre aktuelle Version der Experience Manager-Handbücher auf Version 4.4.0 aktualisieren:
 
-- Wenn Sie Version 4.3.0, 4.2 oder 4.2.1 verwenden, können Sie direkt auf Version 4.3.1 aktualisieren.
-- Wenn Sie Version 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.3.0, 4.2 oder 4.2.x aktualisieren, bevor Sie auf Version 4.3.1 aktualisieren.
-- Wenn Sie Version 4.0 verwenden, müssen Sie vor der Aktualisierung auf Version 4.3.1 auf Version 4.2 aktualisieren.
+- Wenn Sie Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) verwenden, können Sie direkt auf Version 4.4.0 aktualisieren.
+- Wenn Sie Version 4.2, 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) aktualisieren, bevor Sie auf Version 4.4.0 aktualisieren.
+- Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
 - Wenn Sie eine Version vor 3.8.5 verwenden, finden Sie im Abschnitt Upgrade Experience Manager-Handbuch im produktspezifischen Installationshandbuch weitere Informationen.
 
@@ -38,6 +38,7 @@ Weitere Informationen finden Sie in den folgenden Verfahren:
 - [Upgrade auf Version 4.2.1](#upgrade-version-4-2-1)
 - [Upgrade auf Version 4.3.0](#upgrade-version-4-3)
 - [Upgrade auf Version 4.3.1](#upgrade-version-4-3-1)
+- [Upgrade auf Version 4.4.0](#upgrade-version-4-4-0)
 
 
 >[!IMPORTANT]
@@ -61,7 +62,7 @@ Bevor Sie mit dem Upgrade-Prozess für Experience Manager Guides beginnen, stell
 1. Die Überprüfungskommentare wurden in Themen importiert, die zur Überprüfung geöffnet sind.
 1. Alle aktiven Rezensionen wurden geschlossen.
 1. Alle Übersetzungsaufgaben wurden geschlossen.
-1. Deinstallieren Sie alle Hotfixes des Experience Manager Guides, die auf der vorherigen Version installiert sind \(Haupt- oder Patch-Version\) der Experience Manager-Handbücher.
+1. Deinstallieren Sie alle Experience Manager Guides-Hotfixes, die auf der vorherigen Version installiert waren \(Haupt- oder Patch-Version\) der Experience Manager-Handbücher.
 
 **Vor der Installation von Version 4.0**
 
@@ -78,7 +79,7 @@ Diese API dient dazu, den aktuellen Systemstatus zu bewerten und darüber zu ber
 
 | Endpunkt | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
-| Anfragetyp | **GET** Sie können einen Webbrowser verwenden, in dem Sie als Administrator bei der AEM-Instanz angemeldet sind. |
+| Abfragetyp | **GET** Sie können einen Webbrowser verwenden, in dem Sie als Administrator bei der AEM-Instanz angemeldet sind. |
 | Erwartete Antwort | - Falls alle erforderlichen Knoten verschoben werden können, erhalten Sie eine übergebene Prüfung. <br>- Wenn sich ein Knoten am Zielspeicherort befindet, wird ein relevanter Fehler ausgegeben. Bereinigen Sie das Repository \(Löschen-Knoten /var/dxml\), installieren Sie das Aktualisierungspaket neu und führen Sie dann erneut einen Trigger für diesen Endpunkt durch. <br>**Hinweis:** Dies ist kein häufiger Fehler, da der Zielspeicherort zuvor nicht von 3.x-Experience Manager-Handbüchern verwendet wird. <br> - Wenn dieses Skript nicht erfolgreich ist, fahren Sie nicht fort und melden Sie es Ihrem Kundenerfolgsteam. |
 
 **Systemdatenmigration-API**
@@ -90,7 +91,7 @@ Diese API dient der Migration der Systemdaten, wie im Abschnitt **Migrationszuor
 
 | Endpunkt | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
-| Anfragetyp | **POST** Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
+| Abfragetyp | **POST** Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
 | Erwartete Antwort | - Nach erfolgreicher Migration können Sie die XML Documentation-Lösungsversion 4.0 installieren.<br>- Wenn Fehler auftreten, stellen Sie den letzten Checkpoint wieder her und geben Sie die Fehlerprotokolle zusammen mit der API-Ausgabe für Ihr Customer Success Team frei. |
 
 **Migrationszuordnung**: Die obige API migriert alle Daten unter dem Quellspeicherort zum Zielspeicherort.
@@ -292,9 +293,11 @@ und legen Sie die folgenden Eigenschaften im Knoten fest:
 
 ## Upgrade auf Version 4.2.1 {#upgrade-version-4-2-1}
 
-Die Aktualisierung auf Version 4.2.1 hängt von der aktuellen Version der Experience Manager-Handbücher ab.
+>[!TIP]
+>
+>Es wird empfohlen, Hotfix 4.2.1.3 zusätzlich zu Version 4.2.1 zu installieren.
 
-Wenn Sie Version 4.1, 4.1.x oder 4.2 verwenden, können Sie direkt auf Version 4.2.1 aktualisieren.
+Die Aktualisierung auf Version 4.2.1 hängt von der aktuellen Version der Experience Manager-Handbücher ab. Wenn Sie Version 4.1, 4.1.x oder 4.2 verwenden, können Sie direkt auf Version 4.2.1 aktualisieren.
 
 >[!NOTE]
 >
@@ -512,12 +515,12 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzubearbeit
 
    | Endpunkt | /bin/guides/reports/upgrade |
    |---|---|
-   | Anfragetyp | **POST**  Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
+   | Abfragetyp | **POST**  Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
    | Erwartete Antwort | Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden.<br> Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Endpunkt | /bin/guides/reports/upgrade |
    |---|---|
-   | Anfragetyp | **GET** |
+   | Abfragetyp | **GET** |
    | Parameter | jobId: Übergeben Sie die jobId, die von der vorherigen POST-Anfrage empfangen wurde. |
    | Erwartete Antwort | - Nach Abschluss des Auftrags antwortet die GET-Anfrage erfolgreich. <br> - Falls Fehler auftreten, teilen Sie die Fehlerprotokolle zusammen mit der API-Ausgabe mit Ihrem Kundenerfolgsteam.  <br>Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
@@ -525,7 +528,6 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzubearbeit
 1. Wiederherstellen des standardmäßigen oder vorherigen vorhandenen Werts von `queryLimitReads` wenn Sie es in Schritt 1 geändert haben.
 
 
-4.3.1
 
 ## Upgrade auf Version 4.3.1 {#upgrade-version-4-3-1}
 
@@ -540,7 +542,7 @@ Die Aktualisierung auf Version 4.3.1 hängt von der aktuellen Version der Experi
 Stellen Sie vor dem Beginn des Aktualisierungsprozesses der Experience Manager Guides 4.3.1 Folgendes sicher:
 
 1. Aktualisierung auf Experience Manager Guides Version 4.3.0, 4.2 oder 4.2.1 und Abschluss des jeweiligen Installationsschritts.
-1. Alle Übersetzungsaufgaben wurden geschlossen.
+1. (Optional) Alle Übersetzungsaufgaben wurden geschlossen.
 1. Die Protokollebene wurde zu **INFO** für `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` -Klasse und hängen diese Protokolle an eine neue Protokolldatei an, z. B. `logs/translation_upgrade.log`.
 
 
@@ -713,18 +715,217 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzubearbeit
 
    | Endpunkt | /bin/guides/reports/upgrade |
    |---|---|
-   | Anfragetyp | **POST**  Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
+   | Abfragetyp | **POST**  Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
    | Erwartete Antwort | Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden.<br> Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Endpunkt | /bin/guides/reports/upgrade |
    |---|---|
-   | Anfragetyp | **GET** |
+   | Abfragetyp | **GET** |
    | Parameter | jobId: Übergeben Sie die jobId, die von der vorherigen POST-Anfrage empfangen wurde. |
    | Erwartete Antwort | - Nach Abschluss des Auftrags antwortet die GET-Anfrage erfolgreich. <br> - Falls Fehler auftreten, teilen Sie die Fehlerprotokolle zusammen mit der API-Ausgabe mit Ihrem Kundenerfolgsteam.  <br>Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. Wiederherstellen des standardmäßigen oder vorherigen vorhandenen Werts von `queryLimitReads` wenn Sie es in Schritt 1 geändert haben.
 
+## Upgrade auf Version 4.4.0 {#upgrade-version-4-4-0}
+
+Die Aktualisierung auf Version 4.4.0 hängt von der aktuellen Version der Experience Manager-Handbücher ab. Wenn Sie Version 4.3.1, 4.3.0, 4.2 oder 4.2.1 (Hotfix 4.2.1.3) verwenden, können Sie direkt auf Version 4.4.0 aktualisieren
+
+>[!NOTE]
+>
+>Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Aktualisierungsprozess außerhalb der Spitzenzeiten zu starten.
+
+****Voraussetzungen****
+
+Stellen Sie vor dem Beginn des Aktualisierungsprozesses der Experience Manager Guides 4.4.0 Folgendes sicher:
+
+1. Aktualisierung auf Experience Manager Guides Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) und Abschluss des jeweiligen Installationsschritts.
+1. (Optional) Alle Übersetzungsaufgaben wurden geschlossen.
+1. Die Protokollebene wurde zu **INFO** für `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` -Klasse und hängen diese Protokolle an eine neue Protokolldatei an, z. B. `logs/translation_upgrade.log`.
+
+
+## Installieren Sie Version 4.4.0
+
+1. Laden Sie das 4.4.0-Versionspaket von herunter. [Adobe Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Installieren Sie das Paket der Version 4.4.0.
+1. Sie können den Trigger drücken, um den Aktualisierungsauftrag für die Übersetzungskarte zu starten. Weitere Informationen finden Sie unter [Aktivieren des Triggers eines Skripts über ein Servlet](#enable-trigger-serverlet-4-4-0).
+
+1. Warten Sie nach Abschluss der Paketinstallation auf die folgende(n) Meldung(en\) in den Protokollen:
+
+   `Completed the post deployment setup script`
+
+   Die obige Meldung weist darauf hin, dass alle Installationsschritte abgeschlossen sind.
+
+   Sollten Sie auf eines der folgenden FEHLER-Präfixe stoßen, melden Sie diese Ihrem Kundenerfolgsteam:
+
+   - Fehler beim Setup-Skript nach der Bereitstellung
+   - Ausnahme beim Importieren der Übersetzungs-MAP
+   - Die Übersetzungszuordnung kann nicht von v1 auf v2 für die Eigenschaft portiert werden
+1. Aktualisieren Sie das Oxygen Connector-Plugin, das mit Version 4.4.0 veröffentlicht wurde \(falls erforderlich\).
+1. Löschen Sie den Browser-Cache nach der Installation des Pakets.
+1. Fahren Sie mit der Aktualisierung der Anpassungen fort, wie im nächsten Abschnitt beschrieben.
+
+
+## Nach der Installation von Version 4.4.0
+
+Nach der Installation von Experience Manager Guides können Sie die verschiedenen Konfigurationen, die von der neu installierten Version gelten, mit Ihrem Setup zusammenführen.
+
+>[!NOTE]
+>
+> Das Modell dam-update-asset kann angepasst werden. Wenn also Anpassungen vorgenommen wurden, müssen wir die Anpassungen und Experience Manager-Handbücher mit der Arbeitskopie des Modells synchronisieren.
+
+1. **DAM-Update-Asset-Workflow \(Nachbearbeitungs-Änderungen\):**
+
+1. URL öffnen:
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. Auswählen **Workflow &quot;DAM-Update-Asset&quot;**.
+1. Klicken Sie auf **Bearbeiten**.
+1. Wenn die Variable **DXML-Nachbearbeitungs-Initiator** -Komponente vorhanden ist, stellen Sie sicher, dass die Anpassungen synchronisiert werden.
+1. Wenn die Variable **DXML-Nachbearbeitungs-Initiator** -Komponente fehlt, führen Sie die folgenden Schritte aus, um sie einzufügen:
+
+1. Klicks **Komponente einfügen** \(Verantwortlich für die Nachbearbeitung von Experience Manager-Handbüchern als letzten Schritt im Prozess\).
+1. Konfigurieren Sie die **Prozessschritt** mit folgenden Details:
+
+   **Registerkarte &quot;Allgemein&quot;**
+
+   **Titel:** DXML-Nachbearbeitungs-Initiator
+
+   **Beschreibung**: DXML-Nachbearbeitungs-Initiatorschritt, der einen Sling-Auftrag für die DXML-Nachbearbeitung des geänderten/erstellten Assets Trigger
+
+   **Tab Prozess**
+
+   - Auswählen **DXML-Nachbearbeitungs-Initiator** aus dem **Prozess** Dropdown
+
+   - Auswählen **Handler-Modus**
+
+   - Auswählen **Fertig**
+
+1. Klicks **Synchronisieren** oben rechts nach Abschluss der Änderungen. Sie erhalten eine Erfolgsbenachrichtigung.
+
+   >[!NOTE]
+   >
+   > Aktualisieren Sie und überprüfen Sie, ob im endgültigen Workflow-Modell benutzerdefinierte Änderungen und der Nachbearbeitungsschritt Experience Manager-Guides vorhanden sind.
+
+1. Einmal **Workflow &quot;DAM-Update-Asset&quot;** validiert wird, überprüfen Sie die entsprechenden Starter-Konfigurationen. Gehen Sie dazu zur Workflow-Oberfläche AEM und öffnen Sie Starter.
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   Suchen Sie nach den folgenden beiden Startern \(die aktiv sein sollten\) und nehmen Sie Änderungen vor \(falls erforderlich\), die **Workflow &quot;DAM-Update-Asset&quot;**:
+
+1. Starter für &quot;*Knoten erstellt*&quot; **Workflow &quot;DAM-Update-Asset&quot;**- für Bedingungen `"jcr:content/jcr:mimeType!=video"`, sollte der Wert &quot;Globbing&quot;wie folgt lauten:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39; sollte `"event-user-data:changedByWorkflowProcess"`.
+   - Starter für &quot;*Knoten geändert*&quot; **DAM-Update-Asset-Workflow -** für Bedingung &quot;`jcr:content/jcr:mimeType!=video`&quot;, sollte der Wert &quot;Globbing&quot;wie folgt lauten:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` sollte `"event-user-data:changedByWorkflowProcess"`.
+
+1. Nachdem das Upgrade abgeschlossen ist, stellen Sie sicher, dass alle Anpassungen/Überlagerungen validiert und aktualisiert wurden, um dem neuen Anwendungscode zu entsprechen. Nachfolgend finden Sie einige Beispiele:
+   - Alle aus /libs/fmditaor/libsüberlagerten Komponenten sollten mit dem neuen Produktcode verglichen werden und Aktualisierungen sollten in überlagerten Dateien unter/apps vorgenommen werden.
+   - Alle clientlib-Kategorien, die vom Produkt verwendet werden, sollten auf Änderungen überprüft werden. Alle überschriebenen Konfigurationen \(Beispiele unten\) sollten mit den neuesten verglichen werden, um die neuesten Funktionen zu erhalten:
+   - elementmapping.xml
+   - ui\_config.json\(möglicherweise in Ordnerprofilen festgelegt\)
+   - geändert `com.adobe.fmdita.config.ConfigManager`
+
+1. Wenn Sie in damAssetLucene Anpassungen hinzugefügt haben, müssen Sie diese möglicherweise erneut anwenden. Nachdem Sie diese Änderungen vorgenommen haben, setzen Sie reindex auf true. Dadurch werden alle vorhandenen Knoten mit den Anpassungen neu indiziert. Nach Abschluss des Vorgangs wird das reindex-Flag erneut auf &quot;false&quot;gesetzt. Dies kann abhängig von der Anzahl der Assets im System einige Stunden dauern.
+
+## Schritte zum Indexieren des vorhandenen Inhalts
+
+>[!NOTE]
+>
+> Sie müssen diese Schritte nicht ausführen, wenn Sie ein Upgrade von 4.3.0 oder 4.3.1 durchführen.
+
+Führen Sie die folgenden Schritte für die Indizierung des vorhandenen Inhalts aus und verwenden Sie den neuen Suchen- und Ersetzen-Text auf Zuordnungsebene:
+
+- Führen Sie eine POST-Anfrage an den Server aus \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert \|\| Beispiel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+
+- Nach Abschluss des Auftrags antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Maps können über die Serverprotokolle bestätigt werden.
+
+## Schritte zum Nachbearbeiten des vorhandenen Inhalts zur Verwendung des Berichts über einen fehlerhaften Link
+
+>[!NOTE]
+>
+> Sie müssen diese Schritte nicht ausführen, wenn Sie ein Upgrade von 4.3.0 oder 4.3.1 durchführen.
+
+Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzubearbeiten und den neuen Bericht zu fehlerhaften Links zu verwenden:
+
+1. (Optional) Wenn mehr als 100.000 Datendateien im System vorhanden sind, aktualisieren Sie die `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` auf einen größeren Wert (ein Wert, der größer ist als die Anzahl der vorhandenen Assets, z. B. 200.000), und dann erneut bereitgestellt werden.
+
+   | PID | Eigenschaftenschlüssel | Eigenschaftswert |
+   |---|---|---|
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Wert: 200000 <br> Standardwert: 100000 |
+
+1. Führen Sie die folgenden APIs aus, um die Nachbearbeitung für alle Dateien auszuführen:
+
+   | Endpunkt | /bin/guides/reports/upgrade |
+   |---|---|
+   | Abfragetyp | **POST**  Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
+   | Erwartete Antwort | Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden.<br> Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade` |
+
+   | Endpunkt | /bin/guides/reports/upgrade |
+   |---|---|
+   | Abfragetyp | **GET** |
+   | Parameter | jobId: Übergeben Sie die jobId, die von der vorherigen POST-Anfrage empfangen wurde. |
+   | Erwartete Antwort | - Nach Abschluss des Auftrags antwortet die GET-Anfrage erfolgreich. <br> - Falls Fehler auftreten, teilen Sie die Fehlerprotokolle zusammen mit der API-Ausgabe mit Ihrem Kundenerfolgsteam.  <br>Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
+1. Wiederherstellen des standardmäßigen oder vorherigen vorhandenen Werts von `queryLimitReads` wenn Sie es in Schritt 1 geändert haben.
+
+### Aktivieren des Triggers eines Skripts über ein Servlet{#enable-trigger-serverlet-4-4-0}
+
+>[!NOTE]
+>
+> Sie müssen diese Schritte nicht ausführen, wenn Sie ein Upgrade von 4.3.0 oder 4.3.1 durchführen.
+
+POST:
+
+```
+http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
+```
+
+Antwort:
+
+```
+{
+"msg": "Job is successfully submitted and lock node is created for future reference",
+"lockNodePath": "/var/dxml/executor-locks/translation-map-upgrade/1683190032886",
+"status": "SCHEDULED"
+}
+```
+
+In der obigen Antwort-JSON wird der Schlüssel `lockNodePath` enthält den Pfad zum Knoten, der im Repository erstellt wurde und auf den gesendeten Auftrag verweist. Er wird automatisch gelöscht, sobald der Auftrag abgeschlossen ist. Bis dahin können Sie den aktuellen Status des Auftrags in diesem Knoten nachlesen.
+
+Suchen nach `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` und `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` bevor Sie mit den nächsten Schritten fortfahren.
+
+>[!NOTE]
+>
+> Sie sollten überprüfen, ob der Knoten noch vorhanden ist und den Status des Auftrags.
+
+**GET**: `http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/1683190032886.json`
+
+
+
+## Schritte zum Verarbeiten der `'fmdita rewriter'` Konflikt
+
+Experience Manager-Handbücher verfügen über eine [**benutzerdefinierte Sling-Rewriter**](../cs-install-guide/conf-output-generation.md#custom-rewriter) -Modul zur Behandlung der im Fall von Querkarten generierten Links (Verknüpfungen zwischen den Themen zweier verschiedener Karten).
+
+Wenn Sie einen anderen benutzerdefinierten Sling-Rewriter in Ihrer Codebase haben, verwenden Sie eine `'order'` Wert größer als 50, da der Experience Manager Guides Sling Rewriter verwendet `'order'` 50.  Um dies zu überschreiben, benötigen Sie einen Wert > 50. Weitere Informationen finden Sie unter [Pipelines zum Neuschreiben der Ausgabe](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+Während dieses Upgrades, seit der `'order'` -Wert von 1000 auf 50 geändert wird, müssen Sie die vorhandene benutzerdefinierte Rewriter, sofern vorhanden, mit `'fmdita-rewriter'`.
 
 
 **Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
