@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Neue Funktionen in Version 4.4.0 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 4.4.0 von Adobe Experience Manager-Handbüchern.
-source-git-commit: ca86700d033ad8eb7cdba917f010f3aa71113a19
+source-git-commit: 027e8e6a6119145a5b2255449514a76488c90463
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,7 @@ Mit Experience Manager-Handbüchern können Sie als Administrator die URL der AE
 
 Experience Manager bietet die Möglichkeit, Grundlinien zu erstellen, indem die Themen automatisch entsprechend der auf sie angewendeten Bezeichnung ausgewählt werden. Jetzt können Sie auch nahtlos mehrere Ausgabevorgaben mit automatischen Grundlinien derselben DITA-Zuordnung veröffentlichen. Sie müssen nicht nur eine Vorgabe gleichzeitig veröffentlichen, sondern können mühelos mehrere Ausgabevorgaben gleichzeitig veröffentlichen.
 
+Erfahren Sie mehr über das [Erstellen und Verwalten von Grundlinien im Web-Editor](../user-guide/web-editor-baseline.md).
 
 ## Native PDF-Verbesserungen
 
@@ -216,10 +217,10 @@ Sie können Stile anwenden und HTML Markup verwenden, um die Variablen zu format
 Erfahren Sie mehr über die Verwendung [Variablen in der PDF-Ausgabe](../native-pdf/native-pdf-variables.md).
 
 
-### Assets-Metadaten in der PDF-Ausgabe bereitstellen
+### Übertragen von Asset-Metadaten in die PDF-Ausgabe
 
 Experience Manager bietet jetzt die Möglichkeit, die Metadateneigenschaften der Assets von der DITA-Zuordnung zur PDF-Ausgabe zu übertragen.
-In der Ausgabevorgabe Native PDF können Sie die Metadaten auswählen, die Sie für den PDF-Veröffentlichungsprozess bereitstellen möchten. Sie können sowohl die benutzerdefinierten Eigenschaften als auch die Standardeigenschaften auswählen.  Die ausgewählten Metadateneigenschaften werden in die PDF-Datei übertragen, die mithilfe des nativen PDF erstellt wird.
+Aus der Ausgabevorgabe Native PDF können Sie die Metadaten auswählen, die Sie an den PDF-Veröffentlichungsprozess weiterleiten möchten. Sie können sowohl die benutzerdefinierten Eigenschaften als auch die Standardeigenschaften auswählen.  Die ausgewählten Metadateneigenschaften werden in die PDF-Datei übertragen, die mithilfe des nativen PDF erstellt wird.
 
 Diese Funktion ist nützlich, da Sie damit Ihre Asset-Eigenschaften wie Autor, Erstellungsdatum oder Dokumenttitel konsistent halten können. Dies erleichtert die Organisation, Suche und Kategorisierung Ihrer Dokumente.
 
