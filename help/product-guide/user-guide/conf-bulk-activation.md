@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die Massenaktivierung veröffentlichter Inh
 exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 5dac015816317ee9739c7c3678541592a7145e89
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Massenaktivierung veröffentlichter Inhalte {#id214GG080LE8}
 
-In einem realen Wortszenario hätten Ihre Autoren Zugriff auf die Autoreninstanz von AEM, während der eigentliche Inhalt in der Veröffentlichungsinstanz von AEM veröffentlicht wird. Die Veröffentlichungsinstanzen können dann über verschiedene geografische Standorte hinweg weiter bereitgestellt werden. Die veröffentlichte Ausgabe muss mithilfe verschiedener Prozesse auf diesen Publishing-Server verschoben werden. Der Prozess der Umstellung von Inhalten von der Authoring-Instanz auf die Publishing-Instanz wird als Aktivierung oder Replikation von Inhalten bezeichnet.
+In einem realen Szenario hätten Ihre Autoren Zugriff auf die Autoreninstanz von AEM, während der eigentliche Inhalt in der Veröffentlichungsinstanz von AEM veröffentlicht wird. Die Veröffentlichungsinstanzen können dann über verschiedene geografische Standorte hinweg weiter bereitgestellt werden. Die veröffentlichte Ausgabe muss mithilfe verschiedener Prozesse auf diesen Publishing-Server verschoben werden. Der Prozess der Umstellung von Inhalten von der Authoring-Instanz auf die Publishing-Instanz wird als Aktivierung oder Replikation von Inhalten bezeichnet.
 
 >[!NOTE]
 >
