@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 84c36eb746f0b8d49e1e461062c0d1373a0d1e83
+source-git-commit: 1171f785ff183f9d3332842fb9a15e123041de4a
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 6%
@@ -61,7 +61,7 @@ ht-degree: 6%
       + Version 4.4.0 {#44-release}
          + Neue Funktionen {#44-whats-new}
             + [4.4 Neue Funktionen](./release-info/whats-new-4.4.md)
-         + Versionshinweise {#43-release-notes}
+         + Versionshinweise {#44-release-notes}
             + [4.4 - Versionshinweise](./release-info/release-notes-4.4.md)
       + Version 4.3.0 {#43-release}
          + Neue Funktionen {#43-whats-new}
