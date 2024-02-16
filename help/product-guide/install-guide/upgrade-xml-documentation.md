@@ -5,7 +5,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
 workflow-type: tm+mt
 source-wordcount: '5744'
 ht-degree: 0%
@@ -237,7 +237,7 @@ Nach der Installation von Experience Manager Guides können Sie die verschiedene
    - ui\_config.json\(möglicherweise in Ordnerprofilen festgelegt\)
    - geändert `com.adobe.fmdita.config.ConfigManager`
    - Überprüfen Sie, ob der benutzerspezifische Code alte Pfade verwendet hat \(wie im Abschnitt [Migrationszuordnung](#id2244LE040XA) -Abschnitt\) - sollten auf die neuen Pfade aktualisiert werden, damit die Anpassungen auch erwartungsgemäß funktionieren.
-1. Über alle neuen Konfigurationen in der aktuellen Version lesen \(überprüfen Sie [Versionshinweise](../release-info/release-notes-4.3.md)\) und überprüfen Sie, ob irgendwelche Funktionen betroffen sind, und ergreifen Sie geeignete Maßnahmen. Ein Beispiel könnte die Verwendung der in Version 4.0 eingeführten &quot;verbesserten Handhabung von Dateien und Versionen&quot; sein, für die Sie eine Konfiguration aktivieren müssen.
+1. Über alle neuen Konfigurationen in der aktuellen Version lesen \(überprüfen Sie [Versionshinweise](../release-info/release-notes-4-3.md)\) und überprüfen Sie, ob irgendwelche Funktionen betroffen sind, und ergreifen Sie geeignete Maßnahmen. Ein Beispiel könnte die Verwendung der in Version 4.0 eingeführten &quot;verbesserten Handhabung von Dateien und Versionen&quot; sein, für die Sie eine Konfiguration aktivieren müssen.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts, um das neue Suchen und Ersetzen zu verwenden:
 
@@ -452,7 +452,7 @@ Nach der Installation von Experience Manager Guides können Sie die verschiedene
    - ui\_config.json\(möglicherweise in Ordnerprofilen festgelegt\)
    - geändert `com.adobe.fmdita.config.ConfigManager`
    - Überprüfen Sie, ob der benutzerspezifische Code alte Pfade verwendet hat \(wie im Abschnitt [Migrationszuordnung](#id2244LE040XA) -Abschnitt\) - sollten auf die neuen Pfade aktualisiert werden, damit die Anpassungen auch erwartungsgemäß funktionieren.
-1. Über alle neuen Konfigurationen in der aktuellen Version lesen \(überprüfen Sie [Versionshinweise](../release-info/release-notes-4.2.1.md)\) und überprüfen Sie, ob irgendwelche Funktionen betroffen sind, und ergreifen Sie geeignete Maßnahmen. Ein Beispiel könnte die Verwendung der in Version 4.0 eingeführten &quot;verbesserten Handhabung von Dateien und Versionen&quot; sein, für die Sie eine Konfiguration aktivieren müssen.
+1. Über alle neuen Konfigurationen in der aktuellen Version lesen \(überprüfen Sie [Versionshinweise](../release-info/release-notes-4-2-1.md)\) und überprüfen Sie, ob irgendwelche Funktionen betroffen sind, und ergreifen Sie geeignete Maßnahmen. Ein Beispiel könnte die Verwendung der in Version 4.0 eingeführten &quot;verbesserten Handhabung von Dateien und Versionen&quot; sein, für die Sie eine Konfiguration aktivieren müssen.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts, um das neue Suchen und Ersetzen zu verwenden:
 
