@@ -4,9 +4,9 @@ description: AEM Umgebung für native PDF-Veröffentlichung konfigurieren
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: a41fed965ed9fe33994478d51030eefdad1037de
+source-git-commit: 1baed01b2e573d79d4baaa6a551966ce59449136
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -181,12 +181,6 @@ Wenn das Problem auch nach der Korrektur der Java-Umgebungseinstellungen weiter 
 
 Überprüfen Sie den Wert der Zeitüberschreitungseigenschaft für den Knoten nodejs in /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs im CRX-Repository. Der Standardwert ist 300.
 
-### Fehler beim Extrahieren der Abhängigkeitsausnahme (String zu lang)
-![Zeichenfolge zu lange Ausnahme](..//assets/publishing/string-too-long-error.png)
-
-So umgehen Sie diese Ausnahme:
-1. Löschen Sie einige Stile, die nicht benötigt werden, um sie zu verkleinern.
-2. Erstellen Sie mehrere Stylesheets anstelle eines einzelnen großen CSS.
 
 
 Wenn bei der Durchführung eines der oben genannten Schritte Probleme auftreten, posten Sie Ihre Frage in der AEM Guides-Community. [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) Hilfe.
