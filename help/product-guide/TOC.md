@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 03335bcff4987d486e3b1650c5ad6954dbb4c23a
+source-git-commit: 8fc1a5232bcc9049b16def8d629ab45a278a2c8f
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1711'
 ht-degree: 6%
 
 ---
@@ -387,6 +387,7 @@ ht-degree: 6%
       - [Natives PDF-Publishing lernen - Hands im Labor - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
       - [Erweiterungs-Framework von AEM Handbüchern](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
       - [Externe Datenquellenintegration](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
+      - [Inhalt in Handbüchern übersetzen - Teil 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
    - Artikel {#kb-articles}
       - Authoring {#authoring}
          - Berichte {#reports}
