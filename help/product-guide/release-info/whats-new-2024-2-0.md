@@ -1,34 +1,41 @@
 ---
-title: Versionshinweise | Neue Funktionen in der Adobe Experience Manager-Anleitung, Version Februar 2024
-description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Februar 2024.
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+title: Versionshinweise | Neue Funktionen in den Adobe Experience Manager-Handbüchern, Version 2024.2.0
+description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 2024.2.0 der Adobe Experience Manager-Handbücher as a Cloud Service.
+source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
 
-# Neue Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service vom Februar 2024
+# Neue Funktionen in Version 2024.2.0
 
-Dieser Artikel behandelt die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager-Handbüchern vom Februar 2024 (später auch als *Experience Manager Guides as a Cloud Service*).
+Dieser Artikel behandelt die neuen und verbesserten Funktionen in der Version 2024.2.0 der Adobe Experience Manager-Handbücher.
 
-Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter [Versionshinweise](release-notes-2023-12-0.md).
+Eine Liste der in dieser Version behobenen Probleme finden Sie unter [Behobene Probleme in Version 2024.2.0](fixed-issues-2024-2-0.md).
 
-## KI-basierte intelligente Vorschläge zum Erstellen von Inhalten
+
+Informationen zu [Upgrade-Anweisungen für die Version 2024.2.0](upgrade-instructions-2024-2-0.md).
+
+
+
+## KI-gestützte intelligente Vorschläge zum Hinzufügen von Inhaltsverweisen beim Erstellen von Inhalten
 
 Jetzt können Sie Ihre Authoring-Journey mit intelligenten Vorschlägen erweitern, einer neuen KI-basierten Funktion im Web Editor. Diese intelligente Funktion ermöglicht Ihnen beim Verfassen Ihrer Inhalte Echtzeitvorschläge für Inhaltsverweise, verbessert Ihren Workflow, erhöht die Genauigkeit und sorgt für eine beispiellose Effizienz.
 
 
 Um den Inhalt korrekt und konsistent zu halten, beschränken sich die Suchvorgänge und Vorschläge auf den Inhalt Ihrer Organisation und entsprechen genau den Suchbegriffen, nach denen Sie suchen.
 
-![Bedienfeld &quot;Smarte Vorschläge&quot;im Web Editor ](web-editor-smart-suggestion.png) {width="800" align="left"}
+![Bedienfeld &quot;Smarte Vorschläge&quot;im Web Editor ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Zeigen Sie intelligente Vorschläge an, um übereinstimmende Inhaltsverweise aus Ihrem Content-Repository zu suchen und hinzuzufügen.*
 
-Sie können den aktuellen Inhalt auch mit ähnlichen Inhalten in anderen Themen vergleichen. Anschließend können Sie mühelos die Inhaltselemente aus verschiedenen Themen auswählen und sie als Inhaltsreferenzen zu Ihrem aktuellen Thema hinzufügen. Durch das Hinzufügen der Inhaltsreferenzen werden Aktualisierungen leichter zu handhaben, insbesondere in größeren Dokumentationsprojekten. Angenommen, Sie erstellen eine Broschüre über die neuesten Funktionen Ihres Produkts. In diesem Fall können Sie die aktualisierten Spezifikationen schnell als Inhaltsreferenzen aus den zugehörigen Funktionsdokumenten hinzufügen.
+Sie können den aktuellen Inhalt auch mit ähnlichen Inhalten in anderen Themen vergleichen. Anschließend können Sie mühelos die Inhaltselemente aus verschiedenen Themen auswählen und sie als Inhaltsreferenzen zu Ihrem aktuellen Thema hinzufügen. Durch das Hinzufügen der Inhaltsreferenzen werden Aktualisierungen leichter zu handhaben, insbesondere in größeren Dokumentationsprojekten. Sie erstellen beispielsweise eine Broschüre über die neuesten Funktionen Ihres Produkts. In diesem Fall können Sie die aktualisierten Spezifikationen schnell als Inhaltsreferenzen aus den zugehörigen Funktionsdokumenten hinzufügen.
 
 Die Verwendung dieser intelligenten Funktion reduziert den manuellen Aufwand bei der Suche nach verwandten Inhalten und hilft Ihnen, sich auf die Erstellung neuer Inhalte zu konzentrieren.  Darüber hinaus wird die Konsistenz gewahrt und die Teamzusammenarbeit erleichtert.
+
+Weitere Informationen [KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten](../user-guide/authoring-ai-based-smart-suggestions.md).
 
 ## Überarbeitete Funktion für den Versionsverlauf im Web-Editor
 
@@ -40,7 +47,7 @@ Die Experience Manager-Handbücher bieten nun eine erweiterte Funktion zum Versi
 
 Weitere Informationen zum **Versionsverlauf** Funktionsbeschreibung in [Linke Leiste](../user-guide/web-editor-features.md#id2051EA0M0HS) Abschnitt.
 
-## Verbessertes Übersetzungsfenster
+## Verbesserte Benutzerfreundlichkeit im Übersetzungsbereich
 
 Die **Übersetzung** wurde verbessert.  Sie können die **Verfügbare Sprachen** und wählen Sie schnell das Gebietsschema aus, in das Sie Ihr Projekt übersetzen möchten. Bei einer Auswahl können Sie auch **Alle auswählen** um Ihr Projekt in alle verfügbaren Sprachen zu übersetzen.
 
@@ -66,7 +73,7 @@ Wenn Sie beispielsweise einen Absatz bearbeiten, den Sie einfügen möchten, kö
 Weitere Informationen finden Sie unter **Element einfügen** Funktionsbeschreibung in [Linke Leiste](../user-guide/web-editor-features.md#id2051EA0M0HS) Abschnitt.
 
 
-## Möglichkeit, eine Liste auf derselben Ebene zu teilen
+## Möglichkeit, die aktuelle Liste zu teilen und mit einem neuen Listenelement auf derselben Ebene zu beginnen
 
 Jetzt können Sie Ihre Liste einfach im Web-Editor aufteilen. Wählen Sie die **Aufspaltung** im Kontextmenü eines Listenelements, um die aktuelle Liste aufzuteilen. Auf derselben Ebene wird eine neue Liste erstellt, die mit dem Listenelement beginnt, das Sie für die Aufteilung ausgewählt haben.
 
@@ -82,14 +89,14 @@ Jetzt können Sie auf die **Dateieigenschaften** in allen vier Modi oder Ansicht
 
 Weitere Informationen finden Sie unter **Dateieigenschaften** Funktionsbeschreibung in [Rechter Bereich](../user-guide/web-editor-features.md#id2051EB003YK) Abschnitt.
 
-## Mehrere Ausgabevorgaben parallel veröffentlichen
+## Möglichkeit, mehrere Ausgabevorgaben mit dynamischen Grundlinien parallel zu veröffentlichen
 
 Experience Manager bietet die Möglichkeit, Grundlinien zu erstellen, indem die Themen automatisch entsprechend der auf sie angewendeten Bezeichnung ausgewählt werden. Jetzt können Sie auch nahtlos mehrere Ausgabevorgaben mit automatischen Grundlinien derselben DITA-Zuordnung veröffentlichen. Sie müssen nicht nur eine Vorgabe gleichzeitig veröffentlichen, sondern können mühelos mehrere Ausgabevorgaben gleichzeitig veröffentlichen.
 
 
 ## Native PDF-Verbesserungen
 
-Die folgenden nativen PDF-Verbesserungen wurden in der Version vom Februar 2024 vorgenommen:
+Die folgenden nativen PDF-Verbesserungen wurden in Version 2024.2.0 vorgenommen:
 
 ### Übergeben von Asset-Metadaten an die PDF-Ausgabe
 

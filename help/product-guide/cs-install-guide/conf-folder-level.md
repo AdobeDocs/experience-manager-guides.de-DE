@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '4285'
 ht-degree: 0%
 
 ---
@@ -405,6 +405,43 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 1. Klicks **OK** , um Änderungen aus den ausgewählten Ausgabevorgaben auf alle vorhandenen DITA-Maps anzuwenden.
 
+
+
+## KI-gestützte intelligente Vorschläge im Web-Editor konfigurieren {#conf-ai-smart-suggestions}
+
+Für ![AEM Cloud ](assets/aem-cloud-icon.svg) Experience Manager-Handbücher as a Cloud Service .
+
+Sie können die KI-gestützten intelligenten Vorschläge konfigurieren und den Autoren dabei helfen, die vorhandenen Inhalte wiederzuverwenden und mühelos korrekte und konsistente Inhaltsreferenzen zu erstellen. Die **AI-Konfiguration** können Sie die Einstellungen des Bedienfelds &quot;Smart Suggestions&quot;im Web Editor steuern.
+
+Führen Sie die folgenden Schritte aus, um die standardmäßige AI-Konfiguration im Profil auf globaler Ebene oder auf Ordnerebene zu konfigurieren:
+1. Melden Sie sich bei Adobe Experience Manager als Administrator oder Benutzer mit Administratorrechten für ein Profil auf Ordnerebene an.
+1. Wählen Sie die **Adobe Experience Manager** links oben und wählen Sie **Instrumente**.
+1. Auswählen **Handbücher** aus der Liste der Tools und wählen Sie die **Ordnerprofile** Kachel.
+1. Wählen Sie die Profilkachel aus, die Sie konfigurieren möchten.
+
+   >[!NOTE]
+   >
+   >Sie können KI-basierte intelligente Vorschläge für das globale Profil oder ein Profil auf Ordnerebene konfigurieren.
+
+1. Wählen Sie auf der Profilseite die **AI-Konfiguration** Registerkarte.
+   ![Registerkarte &quot;AI-Konfiguration&quot;im globalen Profil](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+
+1. Klicken Sie auf **Bearbeiten**.
+1. Als Administrator können Sie die folgenden Einstellungen konfigurieren:
+
+   **Mindestzeichen**: Geben Sie die Mindestanzahl von Zeichen ein, die die Autoren eingeben müssen, um die Vorschläge zu erhalten. Wenn diese Zahl beispielsweise 7 beträgt, muss der Autor mindestens 7 Zeichen hinzufügen, um einen intelligenten Vorschlag anzuzeigen.
+
+   **Maximale Vorschläge**: Geben Sie die maximale Anzahl von Vorschlägen ein, die Autoren beim Verfassen des Inhalts erhalten können. Wenn diese Zahl beispielsweise 5 beträgt, kann der Autor fünf oder weniger intelligente Vorschläge anzeigen.
+
+   **Dateien und Ordner**: Wählen Sie die Dateien oder Ordner aus, aus denen die intelligenten Vorschläge angezeigt werden sollen. *Zur Konsistenz des Inhalts wird empfohlen, dass keine zwei Einträge in der Liste gemeinsame Dateien enthalten*. Nach Auswahl der Dateien und Ordner werden diese aufgelistet.
+
+1. Klicken Sie auf **Speichern**.
+
+   >[!NOTE]
+   >
+   > Die letzten indizierten Statusdetails werden nach dem Speichern der Datei oben angezeigt.
+
+Erfahren Sie mehr darüber, wie Sie [KI-basierte intelligente Vorschläge](../user-guide/authoring-ai-based-smart-suggestions.md) , um beim Authoring im Web Editor Inhaltsreferenzen hinzuzufügen.
 
 ## Konfigurieren und Anpassen des XML Web Editor {#id2065G300O5Z}
 

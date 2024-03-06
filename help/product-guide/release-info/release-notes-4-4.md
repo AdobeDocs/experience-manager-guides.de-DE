@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in der Version 4.4.0 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.4.0 der Adobe Experience Manager-Handbücher.
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unte
 ## Aktualisierung auf Version 4.4.0 der Experience Manager-Handbücher
 
 
-Sie können Ihre aktuelle Version von Guides einfach auf Version 4.4.0 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.4.0 der Experience Manager-Handbücher fortfahren, müssen Sie die folgenden Punkte beachten:
+Sie können Ihre aktuelle Version der Experience Manager-Handbücher einfach auf Version 4.4.0 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.4.0 der Experience Manager-Handbücher fortfahren, müssen Sie die folgenden Punkte beachten:
 
 
 - Wenn Sie Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) verwenden, können Sie direkt auf Version 4.4.0 aktualisieren.
 - Wenn Sie Version 4.2, 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) aktualisieren, bevor Sie auf Version 4.4.0 aktualisieren.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, finden Sie im Abschnitt Upgrade Experience Manager-Handbuch im produktspezifischen Installationshandbuch weitere Informationen.
+- Wenn Sie eine Version vor 3.8.5 verwenden, finden Sie im Abschnitt Upgrade Experience Manager-Handbuch im produktspezifischen Installationshandbuch unter [Hilfe-PDF-Archiv für Adobe Experience Manager-Handbücher](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 

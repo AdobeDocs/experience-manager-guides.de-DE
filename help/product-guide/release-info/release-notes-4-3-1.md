@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Ve
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unte
 ## Aktualisierung auf Version 4.3.1 der Experience Manager-Handbücher
 
 
-Sie können Ihre aktuelle Version von Guides einfach auf Version 4.3.1 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.3.1 der Experience Manager-Handbücher fortfahren, müssen Sie die folgenden Punkte beachten: Sie können Ihre aktuelle Version der Experience Manager-Handbücher auf Version 4.3.1 aktualisieren
+Sie können Ihre aktuelle Version der Experience Manager-Handbücher einfach auf Version 4.3.1 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.3.1 der Experience Manager-Handbücher fortfahren, müssen Sie die folgenden Punkte beachten: Sie können Ihre aktuelle Version der Experience Manager-Handbücher auf Version 4.3.1 aktualisieren
 
 
 - Wenn Sie Version 4.3.0, 4.2 oder 4.2.1 verwenden, können Sie direkt auf Version 4.3.1 aktualisieren.
