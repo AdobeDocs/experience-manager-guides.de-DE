@@ -1,18 +1,23 @@
 ---
 title: Versionshinweise | Neue Funktionen in Version 4.4.0 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 4.4.0 von Adobe Experience Manager-Handbüchern.
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+role: Leader
+source-git-commit: 8f8075b205725a55b93286c804b879353b4d965d
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
 
 ---
 
-# Neue Funktionen in Version 4.4.0 von Adobe Experience Manager-Handbüchern (Januar 2024)
+# Neue Funktionen in Version 4.4.0 (Januar 2024)
 
-Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version 4.4.0 der Adobe Experience Manager-Handbücher (später auch als *Experience Manager-Handbücher*).
+Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version 4.4.0 der Adobe Experience Manager-Handbücher.
 
-Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter [Versionshinweise](./release-notes-4-4.md).
+Eine Liste der in dieser Version behobenen Probleme finden Sie unter [Behobene Probleme in Version 4.4.0](../release-info/fixed-issues-4-4.md).
+
+Informationen zu [Upgrade-Anweisungen für Version 4.4.0](../release-info/upgrade-instructions-4-4.md).
+
+
 
 ## Überarbeitete Funktion für den Versionsverlauf im Web-Editor
 

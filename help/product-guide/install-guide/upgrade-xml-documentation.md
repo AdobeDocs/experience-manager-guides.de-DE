@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 98fec02367c7e3f33f2511e51675d9e02e41170a
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5940'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Sie können Ihre aktuelle Version der Experience Manager-Handbücher auf Version 4.4.0 aktualisieren:
 
-- Wenn Sie Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) verwenden, können Sie direkt auf Version 4.4.0 aktualisieren.
+- Wenn Sie Version 4.3.1.5, 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) verwenden, können Sie direkt auf Version 4.4.0 aktualisieren.
 - Wenn Sie Version 4.2, 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) aktualisieren, bevor Sie auf Version 4.4.0 aktualisieren.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
@@ -38,6 +38,7 @@ Weitere Informationen finden Sie in den folgenden Verfahren:
 - [Upgrade auf Version 4.2.1](#upgrade-version-4-2-1)
 - [Upgrade auf Version 4.3.0](#upgrade-version-4-3)
 - [Upgrade auf Version 4.3.1](#upgrade-version-4-3-1)
+- [Upgrade auf Version 4.3.1.5](#upgrade-version-4-3-1-5)
 - [Upgrade auf Version 4.4.0](#upgrade-version-4-4-0)
 
 
@@ -53,7 +54,9 @@ Bevor Sie den Prozess ausführen, müssen Sie bestimmte Aufgaben ausführen. In 
 
 >[!NOTE]
 >
-> Dieser Aktualisierungsprozess gilt nur von Version 3.8.5 auf Version 4.0. Informationen zum Upgrade von Version 3.4 oder höher auf Version 3.8.5 finden Sie im Abschnitt *Upgrade-Experience Manager-Handbücher* Abschnitt im produktspezifischen Installationshandbuch finden Sie im Abschnitt [Hilfeseite](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Dieser Aktualisierungsprozess gilt nur von Version 3.8.5 auf Version 4.0. Informationen zum Upgrade von Version 3.4 oder höher auf Version 3.8.5 finden Sie im Abschnitt *Upgrade-Experience Manager-Handbücher* Abschnitt im produktspezifischen Installationshandbuch, verfügbar unter [Hilfe zum PDF-Archiv von Adobe Experience Manager-Handbüchern](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
+
 
 ****Voraussetzungen****
 
@@ -463,7 +466,7 @@ Führen Sie die folgenden Schritte für die Indizierung des vorhandenen Inhalts 
 
 - Führen Sie eine POST-Anfrage an den Server aus \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert \|\| Beispiel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- Sie können auch einen Stammordner übergeben, um die DITA-Maps eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
+- Sie können auch einen Stammordner übergeben, um die DITA-Maps eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Zum Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
 - Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -726,6 +729,48 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzubearbeit
 
 
 1. Wiederherstellen des standardmäßigen oder vorherigen vorhandenen Werts von `queryLimitReads` wenn Sie es in Schritt 1 geändert haben.
+
+
+
+## Upgrade auf Version 4.3.1.5 {#upgrade-version-4-3-1-5}
+
+Die Aktualisierung auf Version 4.3.1.5 hängt von der aktuellen Version der Experience Manager-Handbücher ab. Wenn Sie Version 4.3.1 verwenden, können Sie direkt auf Version 4.3.1.5 aktualisieren.
+
+
+
+## Installieren Sie Version 4.3.1.5.
+
+1. Laden Sie das 4.3.1.5-Versionspaket herunter. [Adobe Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Installieren Sie das Paket der Version 4.3.1.5.
+
+1. Warten Sie, bis der Installationsprozess erfolgreich abgeschlossen wurde.
+1. Fahren Sie mit der Aktualisierung der Anpassungen fort, wie im nächsten Abschnitt beschrieben.
+
+
+## Nach der Installation von Version 4.3.1.5
+
+
+>[!NOTE]
+>
+>Wenn Sie das Bundle org.apache.Velocity verwenden möchten, führen Sie die folgenden Schritte aus, bevor Sie das Bundle hochladen:
+> 1. Rufen Sie `<server>:<port>/system/console/bundles` auf.
+> 1. Suchen Sie nach org.apache.Velocity.
+> 1. Deinstallieren Sie das gesuchte Bundle.
+> 1. Installieren Sie das erforderliche Velocity-Bundle.
+
+
+1. Nachdem das Upgrade abgeschlossen ist, stellen Sie sicher, dass alle Anpassungen/Überlagerungen validiert und aktualisiert wurden, um dem neuen Anwendungscode zu entsprechen. Nachfolgend finden Sie einige Beispiele:
+   - Alle Komponenten, die aus `/libs/fmdita` oder` /libs` sollte mit dem neuen Produktcode verglichen werden und Aktualisierungen sollten in überlagerten Dateien unter `/apps` .
+   - Alle clientlib-Kategorien, die vom Produkt verwendet werden, sollten auf Änderungen überprüft werden. Alle überschriebenen Konfigurationen \(Beispiele unten\) sollten mit den neuesten verglichen werden, um die neuesten Funktionen zu erhalten:
+   - `elementmapping.xml`
+   - `ui\_config.json\` (möglicherweise in Ordnerprofilen festgelegt\)
+   - geändert `com.adobe.fmdita.config.ConfigManager`
+
+
+
+
+
+
 
 ## Upgrade auf Version 4.4.0 {#upgrade-version-4-4-0}
 

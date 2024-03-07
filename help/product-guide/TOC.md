@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
+source-git-commit: d886d25f90f95c01009c0a9586df6b32754223cb
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1742'
 ht-degree: 6%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 6%
 - [Überblick über [!DNL AEM Guides]](overview.md)
 - [Haftungsausschluss](./user-guide/rebranding-disclaimer.md)
 - Versionshinweise {#release-info}
-
-   - [[!DNL AEM Guides] Releases](./release-info/latest-release-info.md)
    - Versionshinweise {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
@@ -63,12 +61,15 @@ ht-degree: 6%
             - [März - Versionshinweise](./release-info/release-notes-2022-3-0.md)
             - [Februar - Versionshinweise](./release-info/release-notes-2022-2-0.md)
             - [Januar - Versionshinweise](./release-info/release-notes-2022-1-0.md)
-      - On-Premise/Managed Services {#on-prem-release-notes}
-      - Version 4.4.0 {#44-release}
-         - Neue Funktionen {#44-whats-new}
-            - [4.4 Neue Funktionen](./release-info/whats-new-4-4.md)
-         - Versionshinweise {#44-release-notes}
-            - [4.4 - Versionshinweise](./release-info/release-notes-4-4.md)
+   - On-Premise/Managed Services {#on-prem-release-notes}
+      - [[!DNL AEM Guides] Releases](./release-info/latest-release-info.md)
+      - Version 4.4.0 {#440-release}
+         - [Neuerungen](./release-info/whats-new-4-4.md)
+         - [Behobene Probleme](./release-info/fixed-issues-4-4.md)
+         - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-4.md)
+      - Version 4.3.1.5 {#4315-release}
+         - [Behobene Probleme](./release-info/fixed-issues-4-3-1-5.md)
+         - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-3-1-5.md)
       - Version 4.3.0 {#43-release}
          - Neue Funktionen {#43-whats-new}
             - [4.3.1 Neue Funktionen](./release-info/whats-new-4-3-1-release.md)
