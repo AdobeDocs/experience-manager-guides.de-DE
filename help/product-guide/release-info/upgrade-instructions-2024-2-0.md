@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version 2024.2.0
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf die Version 2024.2.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: e7457762ced59f696c5bd762c719cfd59b357250
+source-git-commit: 9022b8fbae9ff9eba962ca75e25c1f1137b008f8
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 0%
@@ -33,7 +33,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | Experience Manager-Handbücher für as a Cloud | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2024.2.0 | 3.4-uuid 1 | 3.4-uuid 1 | 2,3 | 2,3 |
+| 2024.2.0 | 3.5-uuid 1 | 3.5-uuid 1 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
