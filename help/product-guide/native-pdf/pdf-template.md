@@ -5,9 +5,9 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: e3fcfeb94c77ee9e499425608048fc882eaa293b
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -27,16 +27,19 @@ Es sind einige werksmäßig bereitgestellte Beispielvorlagen vorhanden, die die 
 Sie können benutzerdefinierte PDF-Vorlagen mit bestimmten Seitenlayouts erstellen und Formatierungen für Seitenlayoutkomponenten (wie Inhaltsverzeichnis, Index, Glossar) oder DITA-Komponenten (wie Überschrift, Absatz, Liste) mithilfe von Stylesheets definieren.
 
 Gehen Sie wie folgt vor, um eine neue PDF-Vorlage zu erstellen:
+
 1. Navigieren Sie im Web-Editor zum **Ausgabe** Registerkarte.
 1. Auswählen **Vorlagen** <img src="./assets/template.svg" alt= "Vorlagensymbol" width="25"> im linken Bereich.
-<img src="assets/create-pdf-template.png" alt="PDF-Vorlage erstellen" width="400">
-1. Wählen Sie im Fenster **Vorlagen** das **+*-Symbol neben **Vorlagen** und danach **PDF-Vorlage** aus.
-1. Wählen Sie im Dialogfeld **Neue PDF-Vorlage** eine Werksvorlage aus, die Sie als Grundlage für die Erstellung der benutzerdefinierten Vorlage verwenden möchten. Sie können auch das Suchfeld verwenden, um nach einer Vorlage zu suchen.
+
+   <img src="assets/create-pdf-template.png" alt="PDF-Vorlage erstellen" width="400">
+
+1. Im **Vorlagen** auswählen, wählen Sie die **+** Symbol neben **Vorlagen** und wählen **PDF-Vorlage**.
+1. Im **Neue PDF-Vorlage** wählen Sie eine Werksvorlage aus, die Sie als Grundlage für die Erstellung der benutzerdefinierten Vorlage verwenden möchten. Sie können auch das Suchfeld verwenden, um nach einer Vorlage zu suchen.
 1. Geben Sie einen Titel für die Vorlage an.
 
->[!NOTE]
->
->  Sie können auch beim Erstellen und Duplizieren einer Vorlage eine Vorschau einer Miniaturansicht für die Vorlage anzeigen. Bearbeiten oder löschen Sie die Miniaturansicht mit [**Eigenschaften**](#properties-option) im **Optionen** nach der Erstellung der Vorlage.
+   >[!NOTE]
+   >
+   >  Sie können auch beim Erstellen und Duplizieren einer Vorlage eine Vorschau einer Miniaturansicht für die Vorlage anzeigen. Bearbeiten oder löschen Sie die Miniaturansicht mit [**Eigenschaften**](#properties-option) im **Optionen** nach der Erstellung der Vorlage.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -47,6 +50,7 @@ Gehen Sie wie folgt vor, um eine neue PDF-Vorlage zu erstellen:
 Wenn Sie eine neue Vorlage mit demselben Seitenlayout und derselben Formatierung wie eine vorhandene Vorlage erstellen möchten, können Sie eine Kopie erstellen. Nachdem eine Vorlage dupliziert wurde, können Sie ihre Komponenten nach Bedarf weiter anpassen.
 
 Gehen Sie wie folgt vor, um eine vorhandene PDF-Vorlage zu duplizieren:
+
 1. Navigieren Sie im Web-Editor zum **Ausgabe** Registerkarte.
 1. Auswählen **Vorlagen** <img src="./assets/template.svg" alt= "Vorlagensymbol" width="25"> im linken Bereich. Dadurch wird die **Vorlagen** Fenster.
 1. Bewegen Sie den Mauszeiger über die Vorlage, die Sie duplizieren möchten, und wählen Sie die **...** *Optionen* Symbol und wählen Sie **Duplizieren** aus dem Kontextmenü aus.
@@ -88,6 +92,7 @@ Wählen Sie diese Option aus, um die Eigenschaften der Vorlage anzuzeigen und zu
 Wählen Sie diese Option aus, um die Vorlage in der Assets-Benutzeroberfläche anzuzeigen. Da der Stammspeicherort der Vorlage geöffnet wird, können Sie alle Ressourcen der Vorlage anzeigen.
 
 Nachdem Sie die benutzerdefinierte Vorlage erstellt haben, können Sie sie aus den Seitenlayouts in der PDF-Ausgabevorgabe auswählen.
+
 Erfahren Sie, wie [PDF-Ausgabe veröffentlichen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
@@ -96,35 +101,36 @@ Erfahren Sie, wie [PDF-Ausgabe veröffentlichen](https://experienceleague.adobe.
 
 Je nach Einrichtung kann Ihr Administrator die Vorlagen konfigurieren:
 
-<details>
-<summary> Cloud Services </summary>
++++ Cloud Services
 
 Weitere Informationen zum Einrichten von globalen Profilen und Profilen auf Ordnerebene finden Sie unter [Vorlagen konfigurieren](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) im Installations- und Konfigurationshandbuch für Cloud Service.
 
-</details>
++++
 
-<details>    
-<summary>  On-Premise Software </summary>
++++ On-Premise Software
 
 Weitere Informationen zum Einrichten von globalen Profilen und Profilen auf Ordnerebene finden Sie unter [Authoring-Vorlagen konfigurieren](../install-guide/conf-folder-level.md#create-custom-authoring-template-id1917d0eg0hj) im On-Premise-Installations- und Konfigurationshandbuch.
 
-</details>
++++
 
 ## PDF-Vorlage anpassen {#customize-pdf-template}
 
 Sie können Vorlagen anpassen, indem Sie die Vorlagenkomponenten anpassen und Stilformate mithilfe von Stylesheets anwenden.
 
 Gehen Sie wie folgt vor, um eine PDF-Vorlage anzupassen:
+
 1. Navigieren Sie im Web-Editor zum **Ausgabe** Registerkarte.
 1. Erweitern Sie die linke Seitenleiste und wählen Sie **Vorlagen**.
 
    Dadurch wird die **Vorlagen** Bedienfeld.
+
 1. Führen Sie einen der folgenden Schritte aus, um die Komponenten einer Vorlage anzuzeigen:
 
    * Wählen Sie das Symbol > neben einer Vorlage aus oder doppelklicken Sie auf den Vorlagennamen.
    * Bewegen Sie den Mauszeiger über eine Vorlage und wählen Sie die Option ... (**Optionen** und wählen Sie **Bearbeiten** aus dem Kontextmenü aus.
 
-     Standardmäßig wird dadurch die **Einstellungen** im Vorlagen-Editor.
+   Standardmäßig wird dadurch die **Einstellungen** im Vorlagen-Editor.
+
    <img src="assets/customize-pdf-template.png" alt="Anpassen von PDF Teamplte" width="350">
 
    >[!NOTE]
@@ -134,6 +140,7 @@ Gehen Sie wie folgt vor, um eine PDF-Vorlage anzupassen:
    > `/libs/fmdita/pdf`
 
    Die verschiedenen Vorlagenkomponenten, die Sie anpassen können, werden in die folgenden Abschnitte kategorisiert:
+
    * Seitenlayouts: Eine typische PDF enthält verschiedene Seiten, wie z. B. ein Titelbild oder eine Titelseite, Inhaltsverzeichnis, Kapitel, Index, Zitate und mehr. Im Bereich Seitenlayouts können Sie das Erscheinungsbild verschiedener Seiten entwerfen, aus denen sich Ihre PDF zusammensetzt. Weitere Informationen finden Sie unter [Seitenlayouts](../native-pdf/components-pdf-template.md#page-layouts).
 
      Zusätzlich zum Erscheinungsbild können Sie auch die Anordnung der Seitenelemente wie Kopf- und Fußzeilen sowie Inhaltsbereiche auf einer Seite definieren. Weitere Informationen zum Anpassen des Seitenlayouts finden Sie unter [Seitenlayouts erstellen und anpassen](components-pdf-template.md#create-customize-page-layout).
@@ -143,8 +150,10 @@ Gehen Sie wie folgt vor, um eine PDF-Vorlage anzupassen:
 Sie können auch Ressourcen verwenden, die sich an einem anderen Speicherort im Repository befinden. Sie müssen keine doppelten Ressourcen für jede Vorlage erstellen und diese in einem freigegebenen Ordner speichern und in allen nativen PDF-Vorlagen verwenden.
 
      Weitere Informationen zur Verwendung von Ressourcen finden Sie unter [Arbeiten mit Ressourcen](components-pdf-template.md#work-with-resources).
+
    * Einstellungen: Konfigurieren Sie die Ausgabeeinstellungen zum Generieren einer PDF mithilfe der Vorlage. In diesem Abschnitt können Sie das Vorlagen-Mapping für verschiedene Seiten in einer PDF, Kapitel-Startseite, Druckmarken, Zitaten und mehr definieren.
-Sie können auch die Reihenfolge anordnen, in der sie in Ihrer endgültigen PDF-Ausgabe erscheinen sollen.
+
+   Sie können auch die Reihenfolge anordnen, in der sie in Ihrer endgültigen PDF-Ausgabe erscheinen sollen.
 Weitere Informationen zum Anwenden von Einstellungen finden Sie unter [Erweiterte PDF-Einstellungen](components-pdf-template.md#advanced-pdf-settings).
 
 
