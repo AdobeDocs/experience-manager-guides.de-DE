@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 46fae421d3fb3bedaa2841c29d7d20f539bdf793
+source-git-commit: fa6486d7a1ca392742968fc4adad3e3910a91903
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1749'
 ht-degree: 6%
 
 ---
@@ -416,7 +416,7 @@ ht-degree: 6%
             - Komponenten {#framework-components}
                - [Schaltfläche](./guides-ui-extensions/aem_guides_framework/components/button.md)
                - [Symbol](./guides-ui-extensions/aem_guides_framework/components/icon.md)
-               - [Bezeichnung](./guides-ui-extensions/aem_guides_framework/components/label.md)
+               - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
                - [Liste](./guides-ui-extensions/aem_guides_framework/components/list.md)
                - [Textbereich](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
             - Widgets {#framework-widgets}
@@ -434,7 +434,10 @@ ht-degree: 6%
                - [Komponenten](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Anpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       - Veröffentlichung {#publishing}
-         - [AEM Umgebung für native PDF-Veröffentlichung konfigurieren](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+         - [Konfigurieren AEM Umgebung für natives PDF-Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+
+         - [Generieren des Inhaltsverzeichnisses für Bookmap in nativer PDF-Veröffentlichung](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+
          - [FMPS und Handbücher](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice-Architektur und -Leistung](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Konfigurieren der Veröffentlichung auf Microservice-Basis](./knowledge-base/publishing/configure-microservices.md)
