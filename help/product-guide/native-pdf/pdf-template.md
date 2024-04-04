@@ -5,7 +5,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 7790aa9dce9a586b8b422dc6deeecab3d53aca8d
+source-git-commit: a6c87e6f9a68962488e70985a0513dcb05eaa9cd
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Sie können benutzerdefinierte PDF-Vorlagen mit bestimmten Seitenlayouts erstell
 Gehen Sie wie folgt vor, um eine neue PDF-Vorlage zu erstellen:
 
 1. Navigieren Sie im Web-Editor zum **Ausgabe** Registerkarte.
-1. Auswählen **Vorlagen** ![Vorlagensymbol](./assets/template.svg) im linken Bereich.
+1. Auswählen **Vorlagen** <img src="./assets/template.png" alt= "Vorlagensymbol" width="25"> im linken Bereich.
 
    <img src="assets/create-pdf-template.png" alt="PDF-Vorlage erstellen" width="400">
 
