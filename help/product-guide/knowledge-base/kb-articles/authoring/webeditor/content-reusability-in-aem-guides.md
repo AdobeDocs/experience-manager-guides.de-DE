@@ -2,9 +2,9 @@
 title: Wiederverwendung von DITA-Inhalten in AEM Handbüchern
 description: In diesem kurzen Artikel erfahren Sie, wie Sie mit AEM Handbüchern und DITA Zeit und Mühe sparen, wenn Sie die Wiederverwendbarkeit von Inhalten verwenden
 role: User, Admin
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 # Wiederverwendbarkeit von Inhalten in AEM Handbüchern
 
 Adobe AEM Guides nutzen die Stärken von DITA, um eine benutzerfreundliche Oberfläche für die Wiederverwendung von Inhalten bereitzustellen.
+
+In diesem Artikel würden wir über Folgendes sprechen:
+
+1. Wiederverwendbarkeit mithilfe der Themenreferenz (`topicrefs`)
+2. Wiederverwendbarkeit mithilfe der Inhaltsreferenz (`conref` und `conkeyref`)
+3. Bonusspitze für die Wiederverwendung von Inhalten mit Drag-and-Drop in AEM Guides
 
 ## Wiederverwendbarkeit mit Themenverweisen (topicref)
 
@@ -129,7 +135,7 @@ Schritt 2: Wählen Sie die Stammzuordnung (optional), den Schlüssel und das Fra
 Hier wurde die Stammzuordnung automatisch ausgewählt, da sie bereits in der Kartenansicht geöffnet war.
 
 
-### Wiederverwenden von Inhalten mit einem Klick in AEM Handbüchern
+## Wiederverwenden von Inhalten mit einem Klick in AEM Handbüchern
 
 AEM Handbücher bieten die Möglichkeit, Inhaltsverweise mit nur einem Klick hinzuzufügen.
 
