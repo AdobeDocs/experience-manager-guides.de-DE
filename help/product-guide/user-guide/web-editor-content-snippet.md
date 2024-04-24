@@ -4,9 +4,9 @@ description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Handbüchern. Erfa
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2389'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 0%
 
 A **Datenquelle** ist ein System, in dem Sie die Daten für Ihr Unternehmen speichern und verwalten. Dies sind Ihre Datensatzsysteme wie JIRA, SQL-Datenbanken, PIM oder PLM. AEM Handbücher bieten die Möglichkeit, eine Verbindung mit Ihrer Datenquelle herzustellen und die Daten daraus zu verwenden.
 
+Sie können auch über einen Datei-Connector eine Verbindung zu JSON-Datendateien herstellen. Laden Sie die JSON-Datei von Ihrem Computer hoch oder durchsuchen Sie sie über die Adobe Experience Manager-Assets. Erstellen Sie dann mithilfe der Generatoren Inhaltsfragmente oder Themen.
+
 ## Data Sources-Bedienfeld
 
-Auswählen **Data Sources** ![](images/data-source-icon.svg) im linken Bereich, um die verbundenen Datenquellen anzuzeigen. Das Bedienfeld Data Sources wird geöffnet und zeigt alle verbundenen Datenquellen an.
+Auswählen **Data Sources** ![Datenquelle](images/data-source-icon.svg) im linken Bereich, um die verbundenen Datenquellen anzuzeigen. Das Bedienfeld Data Sources wird geöffnet und zeigt alle verbundenen Datenquellen an.
 
 Je nach Einrichtung kann Ihr Administrator einen Datenquellen-Connector konfigurieren:
 
@@ -80,11 +82,23 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsfragment mit dem Inhaltsfr
 1. Wählen Sie eine Datenquelle aus, um die für die ausgewählte Datenquelle verfügbaren Inhaltsfragment-Generatoren anzuzeigen.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+
    *Im Bereich &quot;Data Sources&quot;werden die verfügbaren Inhaltsfragment-Generatoren aufgelistet.*
 
 1. Auswählen **Hinzufügen** , um einen neuen Inhaltsfragment-Generator hinzuzufügen. Die **Inhaltsfragment-Generator hinzufügen** -Bedienfeld geöffnet.
 
-1. Geben Sie die Abfrage in das Textfeld Datenabfrage ein.
+1. Geben Sie die Abfrage im **Datenabfrage** Textfeld.  Auswählen **Beispielabfrage kopieren** um eine Datenabfrage schnell zu kopieren. Anstatt die Abfrage manuell zu erstellen, können Sie die Beispielabfrage kopieren und in die **Datenabfrage** Textfeld. Bearbeiten Sie dann einfach die Abfrage entsprechend Ihren Datenanforderungen.
+
+   >[!NOTE]
+   >
+   >Experience Manager bietet verschiedene Beispielabfragen für alle Ressourcen in den verschiedenen Datenquellen. Diese werden der Datenquelle zugeordnet, aus der Sie die Daten abrufen.
+
+1. Wenn Sie einen Datei-Connector verwenden, können Sie die JSON-Datei von Ihrem Computer hochladen oder eine JSON-Datei aus Adobe Experience Manager-Assets durchsuchen.
+
+   >[!NOTE]
+   >
+   > Wenn Sie einen Datei-Connector verwenden, werden Sie die Optionen zum Hochladen oder Durchsuchen von Dateien anstelle einer Datenabfrage anzeigen.
+
 1. Wählen Sie die Vorlage aus, die Ihrer Datenquelle zugeordnet ist. **Datenzuordnungsvorlage** Dropdown.
 Die nativen Vorlagen für die ausgewählte Datenquelle werden in der Dropdown-Liste angezeigt. Sie können beispielsweise die Vorlage &quot;sql-table&quot;für die Datenquelle &quot;PostgreSQL&quot;anzeigen.
 
@@ -93,6 +107,12 @@ Die nativen Vorlagen für die ausgewählte Datenquelle werden in der Dropdown-Li
    > Wenn Ihr Administrator benutzerdefinierte Vorlagen konfiguriert hat, werden diese Vorlagen auch in der Dropdown-Liste angezeigt (basierend auf den von Ihrem Administrator durchgeführten Vorlagenpfadkonfigurationen).
    >   
    >Sie können auch Velocity-Tools in den Vorlagen verwenden. Erfahren Sie mehr über das [Verwenden von Velocity-Tools](#use-velocity-tools).
+
+1. Die **Ressource** für einige Connectoren wie REST Client, Salsify, Akeneo und Microsoft ADO angezeigt.  Wählen Sie eine Ressource aus dem Dropdown-Menü aus und verbinden Sie sie, um einen Inhaltsausschnitt oder ein Thema mit dem Generator dafür zu erstellen.
+
+   >[!NOTE]
+   >
+   > Ihr Administrator kann beim Konfigurieren der Datenquellen-Connectoren Standardressourcen konfigurieren oder Ressourcen für mehrere URLs hinzufügen.
 
 1. Klicks **Abrufen** , um die Daten aus der Datenquelle abzurufen und die Vorlage auf die Daten anzuwenden, die aus der SQL-Abfrage resultieren.
 
@@ -144,6 +164,8 @@ Der Themengenerator kann die Themen mit den Daten und eine DITA-Zuordnung für a
 
 
 
+
+
 ### Thema erstellen
 
 Führen Sie die folgenden Schritte aus, um ein Thema mit dem Themengenerator zu erstellen:
@@ -166,7 +188,18 @@ Führen Sie die folgenden Schritte aus, um ein Thema mit dem Themengenerator zu 
 
    *Fügen Sie die Datenabfrage, die Vorlage für die Datenzuordnung und die Details des Stammknotens für den Themengenerator hinzu und geben Sie ihm im Bereich &quot;Fetch Configuration&quot;einen eindeutigen Namen.*
 
-   1. Geben Sie die Abfrage im **Datenabfrage** Textfeld.
+   1. Geben Sie die Abfrage im **Datenabfrage** Textfeld. Auswählen **Beispielabfrage kopieren** um eine Datenabfrage schnell zu kopieren. Anstatt die Abfrage manuell zu erstellen, können Sie die Beispielabfrage kopieren und in die **Datenabfrage** Textfeld. Bearbeiten Sie dann einfach die Abfrage entsprechend Ihren Datenanforderungen.
+
+      >[!NOTE]
+      >
+      >Experience Manager bietet verschiedene Beispielabfragen für alle Ressourcen in den verschiedenen Datenquellen. Diese werden der Datenquelle zugeordnet, aus der Sie die Daten abrufen.
+
+   1. Wenn Sie einen Datei-Connector verwenden, können Sie die JSON-Datei von Ihrem Computer hochladen oder eine JSON-Datei aus Adobe Experience Manager-Assets durchsuchen.
+
+      >[!NOTE]
+      >
+      > Wenn Sie einen Datei-Connector verwenden, werden Sie die Optionen zum Hochladen oder Durchsuchen von Dateien anstelle einer Datenabfrage anzeigen.
+
    1. Wählen Sie die Vorlage aus, die Ihrer Datenquelle zugeordnet ist. **Datenzuordnungsvorlage** Dropdown.
 
       >[!NOTE]

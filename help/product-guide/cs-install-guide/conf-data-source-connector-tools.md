@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Konfigurieren eines Datenquellen-Connectors über die Benutzeroberfläche
 
 Experience Manager-Handbücher enthalten die **Data Sources** -Tool, mit dem Sie native Connectoren für Datenquellen konfigurieren können. Sie können die Connectoren JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch und Generic REST Client einrichten.
+
+Neben diesen vordefinierten Connectoren bieten die Experience Manager Guides die Connectoren für die Datenquellen Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO). Sie können sie herunterladen und installieren. Die Benutzer können diese Connectoren dann konfigurieren.
+
+Sie können auch über einen Datei-Connector eine Verbindung zu JSON-Datendateien herstellen. Laden Sie die JSON-Datei von Ihrem Computer hoch oder durchsuchen Sie sie über die Adobe Experience Manager-Assets. Erstellen Sie dann mithilfe der Generatoren Inhaltsfragmente oder Themen.
 
 Um einen Connector zu konfigurieren, führen Sie die folgenden Schritte aus:
 
@@ -37,14 +41,19 @@ Um einen Connector zu konfigurieren, führen Sie die folgenden Schritte aus:
 1. Geben Sie die Konfigurations- und Verbindungsdetails gemäß der Datenbank ein.
 
    >[!TIP]
+   >
    >* Bewegen <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> neben dem Feld, um weitere Details dazu anzuzeigen.
    > * Felder mit * sind obligatorisch. Sie können beispielsweise die folgenden Details für den Elasticsearch-Connector eingeben.
 
    * **Name**: Geben Sie den Namen der Datenquelle ein.
-   * Authentifizierungstyp: Wählen Sie in der Dropdown-Liste den Authentifizierungstyp aus. Beispiel: Grundlegende Authentifizierung mit Benutzername und Kennwort
+   * **Authentifizierungstyp**: Wählen Sie den Authentifizierungstyp aus der Dropdown-Liste aus. Beispiel: Grundlegende Authentifizierung mit Benutzername und Kennwort
    * **Benutzername**: Geben Sie Ihren Benutzernamen ein.
    * **Passwort**: Geben Sie Ihren Benutzernamen und Ihr Kennwort ein.
    * **URL**: Hinzufügen der API-URL.
+
+
+1. Wählen Sie die **Werksvorlagen ausschließen** -Option, um die Factory-Vorlagen von der Verwendung für die Themen- und Snippet-Generierung auszuschließen. Sie werden nicht unter dem **Datenzuordnungsvorlage** Dropdown im  **Inhaltsfragment-Generator hinzufügen** oder **Themengenerator hinzufügen** Dialogfeld.
+
 
 1. Auswählen **Verbindung testen**. Sie können die **Verbindung testen** -Schaltfläche nur aktiviert ist, nachdem Sie die erforderlichen Details hinzugefügt haben. Zeigen Sie eine Erfolgsmeldung an, wenn die Verbindungsdetails korrekt sind. Andernfalls wird möglicherweise eine Fehlermeldung angezeigt.
 
@@ -54,6 +63,21 @@ Um einen Connector zu konfigurieren, führen Sie die folgenden Schritte aus:
 
 
    Wenn der Connector erfolgreich gespeichert wurde, können Sie die verbundene Datenquelle auf der Seite anzeigen.
+
+**Verbindung zu mehreren Ressourcen herstellen**
+
+Sie können für einige Connectoren wie generischer REST Client, Salsify, Akeneo und Microsoft Azure DevOps-Pinnwände (ADO) mehrere Ressourcen hinzufügen oder verwenden, die auf unterschiedlichen URLs basieren. Stellen Sie dann eine Verbindung mit ihnen her, um mithilfe der Generatoren Inhaltsfragmente oder Themen zu erstellen.
+
+Führen Sie die folgenden Schritte aus, um eine Ressource zu erstellen:
+
+1. Auswählen ![Symbol hinzufügen](assets/Add_icon.svg) im **URL-Ressourcenabschnitt** , um für jede URL eine Ressource hinzuzufügen.
+1. Konfigurieren Sie alle Details im **Ressource hinzufügen** Dialogfeld.
+1. Klicken Sie auf **Hinzufügen**.
+1. Sie können ![Bearbeitungssymbol](assets/edit_pencil_icon.svg) oder löschen ![delete](assets/Delete_icon.svg) die Ressource aus der URL-Ressourcenliste.
+
+1. Sie können auch die Standardressourcen verwenden, die für Datenquellen wie Salsify, Akeneo und Microsoft ADO verfügbar sind. Schalten Sie die Optionen für die Ressource aus, die Sie nicht für eine Datenquelle konfigurieren möchten.
+
+Auf diese Weise können Sie schnell Daten aus einer der Ressourcen für eine bestimmte Datenquelle in einem einzelnen Inhaltsfragment oder Thema abrufen.
 
 ## Für einen Connector verfügbare Funktionen
 

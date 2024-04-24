@@ -4,9 +4,9 @@ description: Weitere Funktionen des Webeditors finden Sie in AEM Handbüchern. E
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,25 @@ Je nachdem, ob die Datei gesperrt/entsperrt ist und gespeicherte oder nicht gesp
 
 **MathML-Gleichungen einfügen**
 
-- AEM Guides bieten Ihnen eine native Unterstützung für das Einfügen von MathML-Gleichungen durch Integration mit [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) Anwendung. Um eine MathML-Gleichung einzufügen, klicken Sie auf die **Element einfügen** und geben Sie mathml ein. Wenn Sie mathml-Element aus der Liste auswählen, wird das Dialogfeld &quot;MathML einfügen&quot;angezeigt:
+- Experience Manager Guides bieten Ihnen eine native Unterstützung für das Einfügen von MathML-Gleichungen durch Integration mit [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) Anwendung. Um eine MathML-Gleichung einzufügen, wählen Sie die **Element einfügen** und geben Sie mathml ein. Wenn Sie ein mathml -Element aus der Liste auswählen, wird die **MathML einfügen** angezeigt wird:
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![mathml-Gleichung in den mathml-Editor einfügen](images/insert-mathml-equation.png){width="550" align="left"}
 
-Erstellen Sie mit den MathML-Gleichungs-Tools Ihre Gleichung und klicken Sie auf &quot;Einfügen&quot;, um sie Ihrem Dokument hinzuzufügen. Die Gleichung wird mit hellgrauem Hintergrund eingefügt, wie unten dargestellt:
+Erstellen Sie mit den MathML-Gleichungs-Tools Ihre Gleichung und klicken Sie auf **Einfügen** , um es zu Ihrem Dokument hinzuzufügen. Die Gleichung wird mit hellgrauem Hintergrund eingefügt, wie unten dargestellt:
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![Beispielmathelgleichung](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 Sie können eine Gleichung jederzeit aktualisieren, indem Sie mit der rechten Maustaste auf eine vorhandene Gleichung klicken und **MathML bearbeiten** aus dem Kontextmenü aus.
+
+- **Validierung von Gleichungen im MathML-Editor**
+
+  Experience Manager Guides validieren MathML-Gleichungen, wenn Sie ein Thema mit ihnen speichern.
+Wenn Sie eine Gleichung mit dem MathML-Editor einfügen, wird die Gleichung in den Experience Manager-Handbüchern rot hervorgehoben, wenn Syntaxprobleme auftreten. Sie können sie vor dem Einfügen korrigieren. Wenn Sie keine Änderungen vornehmen, wählen Sie aber **Einfügen**, wird eine Warnung angezeigt.
+
+  ![mathml-Gleichung validieren](images/validate-mathml-equation.png){width="400" align="left"}
+
+  Wenn Sie die MathML-Gleichung einfügen, die einen Syntaxfehler enthält, tritt ein Überprüfungsfehler auf, wenn Sie versuchen, das Thema zu speichern.
+
 
 **Fußnoten einfügen**
 
@@ -203,11 +213,30 @@ Zusätzlich zum Kontextmenü der Breadcrumb-Leiste kann auf das Dialogfeld Eleme
 
 - Durch das Entpacken eines Elements können Sie das Element-Tag aus dem ausgewählten Text entfernen und mit dem übergeordneten Element zusammenführen. Wenn Sie beispielsweise eine `p` -Element in einer `note` -Element, können Sie die `p` -Element, um den Text direkt im `note` -Element. Die **Element entpacken** ist im Kontextmenü der Breadcrumb-Leiste des Themas verfügbar. Um die Einbindung eines Elements aufzuheben, klicken Sie mit der rechten Maustaste auf das Element, um das Kontextmenü zu öffnen, und wählen Sie dann **Element entpacken** , um das Element zu entfernen und den Text des Elements mit seinem übergeordneten Element zusammenzuführen.
 
+**Umgang mit Leerzeichen für DITA-Elemente**
+
+- In XML umfassen Leerzeichen Leerzeichen, Registerkarten, Zeilenumbrüche und leere Zeilen. Experience Manager Guides konvertieren mehrere aufeinander folgende Leerzeichen in einen Raum. Auf diese Weise können Sie die WYSIWYG-Ansicht des Web Editors beibehalten.
+
+  >[!NOTE]
+  >
+  >In einigen Elementen, in denen gemäß den DITA-Regeln Leerzeichen beibehalten werden müssen, werden die verschiedenen nachfolgenden Leerzeichen beibehalten. Beispiel: `<pre>` und `<codeblock>` -Elemente.
+
+
 **Zeilenumbrüche und Einzüge beibehalten**
 
 - DITA-Elemente, die Zeilenumbrüche und Leerzeichen enthalten, werden gemäß ihrer Definition im Autoren-, Quell- oder Vorschaumodus sowie in der endgültigen veröffentlichten Ausgabe unterstützt und gerendert. Der folgende Screenshot zeigt den Inhalt im `msgblock` Element, wobei die Zeilenumbrüche und Leerzeichen \(Einzug\) beibehalten wurden:
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
+
+
+
+**Umgang mit geschützten Leerzeichen im Web Editor**
+
+- Sie können mit dem **Sonderzeichen einfügen**  ![Symbol &quot;Sonderzeichen einfügen&quot;](images/insert-special-chars-icon.svg) oder **Alt** + **Leerzeichen** Tastenkombinationen.  Diese geschützten Leerzeichen werden beim Bearbeiten eines Themas im Web-Editor als Indikator angezeigt. Sie können die Anzeige der geschützten Leerzeichen mit der **Anzeigen von geschützten Leerzeichen im Autorenmodus** Option aus der **Erscheinungsbild** des **Benutzereinstellungen** ![Symbol &quot;Benutzereinstellungen&quot;](images/user_preference_editor_icon.svg).
+
+- Wenn Sie Inhalt mit einem geschützten Leerzeichen aus externen Quellen kopieren und in die **Autor** anzeigen, wird das nicht brechende Leerzeichen in ein Leerzeichen umgewandelt.
+Wenn Sie jedoch Inhalt mit einem geschützten Leerzeichen aus der **Autor** -Ansicht, wird sie beibehalten.
+
 
 **Element-ID automatisch generieren**
 

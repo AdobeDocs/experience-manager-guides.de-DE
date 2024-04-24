@@ -1,18 +1,19 @@
 ---
 title: Versionshinweise | Neue Funktionen in den Adobe Experience Manager-Handbüchern, Version 2024.2.0
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 2024.2.0 der Adobe Experience Manager-Handbücher as a Cloud Service.
-source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
+exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
+source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # Neue Funktionen in Version 2024.2.0
 
-Dieser Artikel behandelt die neuen und verbesserten Funktionen in der Version 2024.2.0 der Adobe Experience Manager-Handbücher.
+Dieser Artikel behandelt die neuen und verbesserten Funktionen der Version 2024.2.0 von Adobe Experience Manager-Handbüchern.
 
-Eine Liste der in dieser Version behobenen Probleme finden Sie unter [Behobene Probleme in Version 2024.2.0](fixed-issues-2024-2-0.md).
+Eine Liste der in dieser Version behobenen Probleme finden Sie in der [Behobene Probleme in Version 2024.2.0](fixed-issues-2024-2-0.md).
 
 
 Informationen zu [Upgrade-Anweisungen für die Version 2024.2.0](upgrade-instructions-2024-2-0.md).

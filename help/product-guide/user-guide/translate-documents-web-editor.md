@@ -4,9 +4,9 @@ description: Übersetzen Sie Ihre Inhalte über den Web-Editor in mehrere Sprach
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: ce7619538b229625277a552071bed8800e67f677
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '2246'
 ht-degree: 1%
 
 ---
@@ -34,21 +34,39 @@ Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie
 >
 > Der Stammordner und die Zielordner müssen auf derselben Ebene erstellt werden.
 
-## Erstelle ein Übersetzungsprojekt
+## Ein Übersetzungsprojekt erstellen
 
-1. Öffnen Sie im Bereich &quot;Repository&quot;die DITA-Zuordnungsdatei in der Zuordnungsansicht.
-1. Klicken Sie auf **Verwalten** Registerkarte. Im Übersetzungsbereich wird die **Verfügbare Sprachen** Liste.
-1. Aus dem **Verfügbare Sprachen** auswählen, wählen Sie das Gebietsschema aus, in das Sie Ihr Projekt übersetzen möchten. Sie können **Alle auswählen** um Ihr Projekt in alle verfügbaren Sprachen zu übersetzen.
+1. Im **Repository** -Bedienfeld öffnen Sie die DITA-Map-Datei in der Kartenansicht.
+1. Klicken Sie auf **Verwalten** Registerkarte. Die **Übersetzungsbereich** zeigt die verfügbaren Sprachgruppen an.
 
-   >[!NOTE]
-   >
-   > Die Liste enthält die Sprachordner sowie deren Sprachcodes. Zum Beispiel Französisch \(fr\) und Deutsch \(de\).
+1. Als Benutzer können Sie die für Ihr Ordnerprofil konfigurierten Sprachgruppen anzeigen. Die Sprachgruppen zeigen die Sprachordner zusammen mit ihren Sprachcodes an. Beispielsweise enthält die Sprachgruppe G1 die Ordner Italienisch \(it\), Deutsch \(de\), Französisch \(fr\) und Englisch \(en\).
+
+   ![Übersetzungsbereich](images/translation-languages.png){width="300" align="left"}
+
+   *Wählen Sie die Sprachgruppen oder Sprachen aus, in denen Sie Ihre Dokumente übersetzen möchten.*
+
 
    >[!IMPORTANT]
    >
-   > Die Liste zeigt nur die Sprachen an, für die parallel zur Ausgangssprache ein Sprachordner erstellt wird. Ein auf einer anderen Ebene erstellter Sprachordner, z. B. eine Ebene weiter ab dem Ordner für die Ausgangssprache, wird ebenfalls nicht angezeigt. Stellen Sie sicher, dass Sie alle Zielsprachordner auf derselben Ebene wie Ihren Ausgangssprachordner erstellen.
+   > Sie können nur die Sprachen auswählen und übersetzen, für die Sie den Zielordner parallel zur Ausgangssprache erstellt haben. Ein auf einer anderen Ebene erstellter Sprachordner, z. B. eine Ebene weiter ab dem Ordner für die Ausgangssprache, wird ebenfalls nicht angezeigt. Stellen Sie sicher, dass Sie alle Zielsprachordner auf derselben Ebene wie Ihren Ausgangssprachordner erstellen.
 
-   ![](images/translation-languages.png){width="300" align="left"}
+
+
+1. Sie können eine beliebige Sprachgruppe als Ziel für die Übersetzung auswählen. Wenn Sie **Alle auswählen**, werden die ausgewählten Dateien in alle verfügbaren Sprachen innerhalb der vorhandenen Sprachgruppen übersetzt.
+
+   Die Option Sprachordner wird ausgegraut und zeigt ein Warnzeichen an:
+
+   - Wenn der Zielordner für eine Sprache fehlt.
+   - Wenn die Zielsprache mit der Quelle identisch ist.
+
+
+   >[!NOTE]
+   >
+   > Wenn Sie den Zielordner für eine Sprache erstellen, nachdem Sie die Sprachgruppe erstellt haben, aktualisieren Sie den Browser, um die Sprache in den Sprachgruppen zu aktivieren.
+
+1. Wenn Sie eine bestimmte Sprache auswählen, wird diese wie ausgewählt unter allen ausgewählten Sprachgruppen angezeigt. Wenn man also in eine Sprache übersetzt, wird es für alle Sprachgruppen auf einmal übersetzt. Wenn beispielsweise Deutsch sowohl in G1- als auch in G2-Sprachgruppen vorhanden ist, wird es für beide Sprachen ausgewählt.
+
+1. Aus dem **weitere Sprachen** können Sie eine beliebige Sprache auswählen, für die Sie den Zielordner erstellt haben, die jedoch nicht zu einer Sprachgruppe gehört.
 
 1. Sie können auch eine der folgenden Optionen auswählen, um Ihr Projekt zu übersetzen:
 
@@ -113,7 +131,7 @@ Mit AEM Guides können Ihre Administratoren die Übersetzungsregeln konfiguriere
 
 SRX-Dateien sollten als `<language-code>.srx`. Beispiel: en-US oder ar-AE.
 
->[Hinweis]
+>[!NOTE]
 >Bei diesem Titel wird nicht zwischen Groß- und Kleinschreibung unterschieden, sodass Sie &quot;en-US&quot;, &quot;en-us&quot;oder &quot;EN-us&quot;haben können. Außerdem können AEM Hilfslinien &#39;-&#39; (Bindestrich) oder &#39;_&#39; (Unterstrich) auflösen. Sie können also &quot;en-US&quot;oder &quot;en_US&quot;haben.
 
 Sie können diese Dateien auch in einen beliebigen Ordner unter AEM Asset-Stamm einfügen, der `./content/dam`.
@@ -188,5 +206,19 @@ Einige Verweise auf Ihr Übersetzungs-Dashboard befinden sich möglicherweise in
 Klicken Sie im Dialogfeld auf den Namen der Referenz, um sie im Vorschaumodus zu öffnen. Sie können auch auf das Übersetzungsprojekt klicken, um die Übersetzung zu starten.
 
 ![](images/translation-in-progress.png){width="550" align="left"}
+
+
+## Automatisches Löschen oder Deaktivieren eines abgeschlossenen Übersetzungsprojekts
+
+>[!NOTE]
+> 
+>Diese Funktion steht für die neuen Übersetzungsprojekte zur Verfügung, die Sie mit Experience Manager Guides 2404 oder höher erstellen.  Es hat keine Auswirkungen auf bestehende Projekte.
+
+Ihr Administrator kann die **Bereinigung des Übersetzungsprojekts nach Abschluss** Option unter **Übersetzung** Registerkarte in **Editor-Einstellungen** , um die Übersetzungsprojekte automatisch zu deaktivieren oder zu löschen.
+
+Für eine effiziente Dokumentenverwaltung bieten Experience Manager-Handbücher die Möglichkeit, die Übersetzungsprojekte zu löschen, nachdem Sie die Übersetzung abgeschlossen haben.
+
+Sie können die Übersetzungsprojekte auch deaktivieren, wenn Sie sie später verwenden möchten. Beim Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner gelöscht. Durch das Deaktivieren eines Projekts wird es nicht gelöscht, sondern im Repository beibehalten. Sie können ein deaktiviertes Projekt jedoch nicht aktualisieren oder bearbeiten.  Das Löschen oder Deaktivieren eines Projekts hat keine Auswirkungen auf den Übersetzungsstatus von Verweisen.
+
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 32da48d82b1267bb220424edf385035426293b66
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,37 @@ ht-degree: 0%
 
 Mit der folgenden REST-API können Sie CRX-Pakete erstellen und aktivieren.
 
-## Package erstellen und aktivieren
+## Paket Erstellen und aktivieren
 
-Eine POST-Methode, die das CRX-Paket erstellt und aktiviert.
+Ein POST-Methode, das das CRX-Paket erstellt und aktiviert.
 
-**Anforderungs-URL**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/activate
+**URL** anfordern:
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/activate&lt;/port-number\>&lt;/aem-guides-server\>
 
-**Parameter**: Die Anforderungsabfrage besteht aus der JSON-Regelzeichenfolge. Der Inhaltstyp der POST-Anforderung muss auf `application/json; charset=UTF-8`.
+**Parameter**:
+Die Anfrage Abfrage besteht aus der Zeichenfolge der JSON-Regeln. Die Content-Typ der POST-Anfrage muss auf eingestellt sein.`application/json; charset=UTF-8`
 
-**Beispiel**: Die folgenden Beispiele zeigen den API-Aufruf mithilfe des curl-Befehls:
+**Beispiel**:
+Das folgende Beispiel zeigt den API-Aufruf mithilfe des cURL-Befehls:
 
-    &quot;
-    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt; em-guides-server*>:&lt;*port-number*>/bin/fmdita/activate
-    &quot;
+```XML
+curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UTF-8"  -k -X POST -d "{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}" http://<*aem-guides-server*>:<*port-number*>/bin/fmdita/activate
+```
+
+
+**Optionaler Parameter**
+
+`activationTarget`
+
+**Gültige Werte**
+
+`preview` oder `publish` für Cloud Service und `publish` für On-Premise Software
+
+Wenn der Parameter einen ungültig-Wert enthält, schlägt die Aktivierung des Pakets fehl. Das folgende Beispiel zeigt den API-Aufruf mithilfe des curl-Befehls mit optionalem Parameter:
+
+
+    &#39;&#39;&#39;XML
+    
+    curl -u &lt;*username*>:&lt;*password*> -H &quot;Inhaltstyp: Applikation/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON-Regelzeichenfolge](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=&#39;&lt;validActivationTargetValue>&#39;
+    &#39;&#39;&#39;
+&lt;/validActivationTargetValue>&lt;/*port-number*>&lt;/*aem-guides-server*>&lt;/*password*>&lt;/*username*>

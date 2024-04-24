@@ -4,24 +4,28 @@ description: Erfahren Sie, wie Sie neue mikrodienstbasierte Veröffentlichungen 
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 0%
+source-wordcount: '711'
+ht-degree: 2%
 
 ---
 
-# Neue mikrodienstbasierte Veröffentlichung für AEM Guides as a Cloud Service konfigurieren
+# Konfigurieren der Veröffentlichung auf Microservice-Basis mit JWT-Authentifizierung
 
-Mit dem neuen Publishing-Microservice können Benutzer gleichzeitig große Veröffentlichungsarbeitslasten auf AEM Handbüchern as a Cloud Service ausführen und die branchenführende Server-lose Adobe I/O Runtime-Plattform nutzen.
-
-Für jede Veröffentlichungsanforderung AEM Handbücher führt as a Cloud Service einen separaten Container aus, der entsprechend den Benutzeranforderungen horizontal skaliert wird. Dadurch erhalten Benutzer die Möglichkeit, mehrere Veröffentlichungsanfragen auszuführen und eine bessere Leistung zu erzielen als ihre großen On-Premise-AEM-Server.
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
-> Die mikrodienstbasierte Veröffentlichung in AEM Guides unterstützt die Typen von PDF (nativ und DITA-OT-basiert), HTML5, JSON und benutzerdefinierten Ausgabevorgaben.
+> Die Anmeldedaten für Dienstkonten (JWT) wurden zugunsten der OAuth-Server-zu-Server-Anmeldeinformationen eingestellt. Ihre Anwendungen, die die Anmeldedaten für das Service-Konto (JWT) verwenden, funktionieren nach dem 1. Januar 2025 nicht mehr. Sie müssen bis zum 1. Januar 2025 zu den neuen Anmeldedaten migrieren, um sicherzustellen, dass Ihre Anwendung weiterhin funktioniert. Weitere Informationen [Migration von JWT-Anmeldedaten (Service Account) zu OAuth-Server-zu-Server-Anmeldedaten](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
-Da der neue Cloud Publishing-Dienst durch die Adobe IMS-JWT-basierte Authentifizierung geschützt ist, sollten Kunden die folgenden Schritte ausführen, um ihre Umgebungen mit sicheren Token-basierten Authentifizierungsarbeitsabläufen zu integrieren und mit der neuen Cloud-basierten skalierbaren Publishing-Lösung zu beginnen.
+
+
+Die mikrodienstbasierte Veröffentlichung in für Adobe Experience Manager Guides as a Cloud Service unterstützt die Typen von Ausgabevorgaben (nativ und DITA-OT-basiert), HTML5, JSON und CUSTOM.
+
+Da die Anmeldedaten für das Dienstkonto (JWT) veraltet sind, wird empfohlen, die OAuth-basierte Authentifizierung von Adobe IMS zu verwenden. Erfahren Sie, wie [Konfigurieren der Veröffentlichung auf Microservice-Basis mit OAuth-Authentifizierung](configure-microservices-imt-config.md).
+
+Für den durch die JWT-basierte Authentifizierung von Adobe IMS gesicherten Publishing-Dienst sollten Kunden die folgenden Schritte ausführen, um ihre Umgebungen mit sicheren Token-basierten Authentifizierungsworkflows zu integrieren und mit der Verwendung der neuen Cloud-basierten skalierbaren Publishing-Lösung zu beginnen.
 
 
 ## Erstellen von IMS-Konfigurationen in der Adobe Developer-Konsole
@@ -80,7 +84,7 @@ Führen Sie die folgenden Schritte aus, um der Umgebung die IMS-Konfiguration hi
 >
 > Sie müssen den Inhalt der JSON-Datei mit Details zum privaten Schlüssel und Dienst in die Wertspalte des Konfigurationsbereichs öffnen, kopieren und einfügen, wie im obigen Screenshot gezeigt.
 
-Nachdem Sie die IMS-Konfiguration zur Umgebung hinzugefügt haben, führen Sie die folgenden Schritte aus, um diese Eigenschaften mit OSGi mit AEM Guides zu verknüpfen:
+Nachdem Sie die IMS-Konfiguration zur Umgebung hinzugefügt haben, führen Sie die folgenden Schritte aus, um diese Eigenschaften mit OSGi-Experience Manager-Handbüchern zu verknüpfen:
 
 1. Fügen Sie in Ihrem Git-Projektcode des Cloud Manager die folgenden beiden Dateien hinzu (Dateiinhalte finden Sie unter [Anhang](#appendix)).
 

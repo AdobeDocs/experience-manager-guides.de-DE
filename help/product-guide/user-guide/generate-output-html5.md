@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine HTML5-Vorgabe aus dem Web-Editor und dem
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: b82f1f3b42f85cce8420d3962c69cd3bafc5728d
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1187'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Die **Allgemein** tab enthält die folgenden Konfigurationen:
 Die Registerkarte Erweitert enthält die folgenden Konfigurationen:
 
 - Name der Umwandlung
-- Temporäre DITA-OT-Dateien bereinigen
+- Herunterladen temporärer Dateien
 - Dateieigenschaften
 
 Weitere Informationen finden Sie unter [HTML5-Konfiguration](#id231KJA00REJ).
@@ -65,7 +65,7 @@ Die folgenden Optionen sind für die HTML5-Ausgabe verfügbar:
 | Dateiname | Geben Sie den Dateinamen an, mit dem Sie die HTML5-Ausgabe speichern möchten.<br><br>**Hinweis**:Wenn Sie keinen Dateinamen angeben, wird der Titel der DITA-Zuordnung verwendet, um den endgültigen HTML5-Ausgabedateinamen zu generieren. Wenn die Zuordnung keinen Titel hat, wird der Dateiname der DITA-Zuordnung verwendet, um die endgültige HTML5-Ausgabe zu benennen. Der Dateiname wird mithilfe der im System konfigurierten Regeln bereinigt, um ungültige Zeichen zu verarbeiten. |
 | Workflow &quot;Nach der Erstellung ausführen&quot; | Wenn Sie diese Option wählen, wird eine neue Dropdownliste mit dem Workflow nach der Generierung angezeigt, die alle in AEM konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, der nach Abschluss des Workflows zur Generierung der Ausgabe ausgeführt werden soll.<br><br>**Hinweis**:Weitere Informationen zum Erstellen eines benutzerdefinierten Workflows für die Generierung nach der Ausgabe finden Sie unter _Arbeitsablauf für die Generierung nach der Ausgabe anpassen_ unter Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern as a Cloud Service. |
 | Zielpfad | Der Pfad in Ihrem AEM-Repository, in dem die HTML5-Ausgabe gespeichert wird. |
-| Temporäre DITA-OT-Dateien bereinigen | Wählen Sie diese Option, um die von DITA-OT generierten temporären Dateien zu bereinigen. Der Speicherort, an dem DITA-OT temporäre Dateien speichert, finden Sie im Ausgabegenerierungsprotokoll.<br><br>Wenn beim Generieren der Ausgabe über DITA-OT Fehler auftreten, können Sie diese Option deaktivieren, um die temporären Dateien beizubehalten. Anschließend können Sie diese Dateien zur Fehlerbehebung bei Fehlern bei der Ausgabe-Generierung verwenden. |
+| Herunterladen temporärer Dateien | Wählen Sie diese Option, um die von DITA-OT generierten temporären Dateien herunterzuladen. Der Speicherort, an dem DITA-OT temporäre Dateien speichert, finden Sie im Ausgabegenerierungsprotokoll. Wenn beim Generieren der Ausgabe über DITA-OT Fehler auftreten, wählen Sie diese Option, um die temporären Dateien beizubehalten. Anschließend können Sie diese Dateien zur Fehlerbehebung bei Fehlern bei der Ausgabe-Generierung verwenden.<br> <br>  Nachdem Sie die Ausgabe generiert haben, wählen Sie die **Herunterladen temporärer Dateien** ![Symbol zum Herunterladen temporärer Dateien](images/download-temp-files-icon.png) -Symbol, um den ZIP-Ordner mit den temporären Dateien herunterzuladen. <br><br> **Hinweis**: Wenn Sie einige Dateieigenschaften auswählen und dann die temporären Dateien herunterladen, erhalten Sie auch die *metadata.xml* im Ordner &quot;ZIP&quot;. |
 | Grundlinie verwenden | Wenn Sie eine Grundlinie für die ausgewählte DITA-Zuordnung erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Siehe [Arbeiten mit Grundlinien](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) für weitere Details. |
 | Dateieigenschaften | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite &quot;Eigenschaften&quot;der DITA-Map- oder Bookmap-Datei festgelegt. Die Eigenschaften, die Sie aus der Dropdown-Liste auswählen, werden unter der **Dateieigenschaften** -Feld. Wählen Sie das Kreuzsymbol neben der Eigenschaft aus, um sie zu entfernen. <br><br>**Hinweis**: Sie können die Metadaten auch mithilfe der DITA-OT-Veröffentlichung an die Ausgabe übergeben. Weitere Informationen finden Sie unter [Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

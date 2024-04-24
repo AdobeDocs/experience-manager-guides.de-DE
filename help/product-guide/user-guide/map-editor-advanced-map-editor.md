@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit dem erweiterten Map-Editor in AEM Guides 
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3788'
 ht-degree: 0%
 
 ---
@@ -340,7 +340,12 @@ Um Themen über eine DITA-Zuordnung zu bearbeiten, führen Sie die folgenden Sch
 
      Sie können festlegen, dass alle ausgewählten Themen gespeichert werden, oder Sie können die Themen, die Sie nicht speichern möchten, deaktivieren.
 
-   - Sie können das Thema mit dem **Als neue Version speichern und entsperren** Schaltfläche. Wenn Sie eine Revision des Themas speichern, wird eine neue Revision erstellt und die Sperre wird ebenfalls veröffentlicht.
+   - Sie können das Thema mit dem **Als neue Version speichern und entsperren** Schaltfläche. Wenn Sie eine Version des Themas speichern, wird eine neue Version erstellt und die Sperre wird ebenfalls freigegeben.
+
+     Es wird empfohlen, die Änderungen zu speichern, bevor Sie die Dateien einchecken.  Wenn Sie die Änderungen speichern, wird die XML-Datei validiert.
+
+   - Sie können auch mehrere Themen mit der **Als neue Version speichern und entsperren** Schaltfläche. Wenn Sie eine Version der Themen speichern, wird für jedes Thema eine neue Version erstellt und die Sperre wird ebenfalls freigegeben. Sie können den Fortschritt der Überprüfung der Themen auch über die **Als neue Version speichern und entsperren** Dialogfeld. Beim Einchecken der Dateien wird eine Erfolgsmeldung angezeigt.
+
    - Wenn Ihr Administrator die Option zum Einchecken von Dateien beim Schließen aktiviert hat, wird Ihnen eine Eingabeaufforderung zum Speichern von Dateien angezeigt, sobald die ausgecheckten Dateien geschlossen werden. Wenn diese Option aktiviert ist, wird Ihnen beim Schließen des Editors mit geänderten Dateien die Liste der ausgecheckten Dateien angezeigt, die gespeichert werden müssen. Die ausgecheckten Dateien werden mit einem Sperrsymbol angezeigt:
 
      ![](images/save-on-close.PNG){width="550" align="left"}

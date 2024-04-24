@@ -4,9 +4,9 @@ description: Entdecken Sie die Funktionen des Webeditors in AEM Handbüchern. Ma
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
 workflow-type: tm+mt
-source-wordcount: '17861'
+source-wordcount: '18678'
 ht-degree: 0%
 
 ---
@@ -222,11 +222,33 @@ Dadurch wird verhindert, dass Benutzer Dateien speichern, die eine Regel beschä
 
   ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
-- **Übersetzung**: Dieser Tab enthält die Option, die Quellbeschriftungen auf die Zielversion zu übertragen.
+- **Übersetzung**: Dieser Tab enthält die Optionen zum Erstellen von Sprachgruppen, zum Übertragen der Quelltitel auf die Zielversion und zum Bereinigen des Übersetzungsprojekts.
+  ![](images/editor-setting-translation.png){width="550" align="left"}
+
+   - **Sprachgruppen**: Als Administrator können Sie eine Gruppe von Sprachen erstellen und diese als Satz für die Übersetzung des Inhalts verwenden.\
+     Führen Sie die folgenden Schritte aus, um eine neue Sprachgruppe zu erstellen:
+      1. Wählen Sie die ![Symbol hinzufügen](images/Add_icon.svg) Symbol.
+      1. Geben Sie den Namen der Sprachgruppe ein. Jede Sprache sollte einen eindeutigen Namen haben. Sie können einen Fehler anzeigen, wenn das Namensfeld leer ist oder wenn der Name nicht eindeutig ist.
+      1. Wählen Sie die Sprachen aus der Dropdown-Liste aus. Sie können mehrere Sprachen auswählen.
+
+     Geben Sie die ersten Zeichen der Sprache oder den Sprachcode ein, um die gewünschten Sprachen zu filtern. Geben Sie beispielsweise &quot;en&quot;ein, um alle Sprachen zu filtern, die &quot;en&quot;am Anfang ihres Namens oder Codes enthalten.
+      1. Auswählen **Fertig** , um die ausgewählten Sprachen zur Gruppe hinzuzufügen. Die Sprachen werden angezeigt. Wenn Sie drei oder mehr Sprachen hinzufügen, **Mehr anzeigen** angezeigt. Sie können **Mehr anzeigen** um alle in der Gruppe vorhandenen Sprachen anzuzeigen.
+         >[!TIP]
+         >
+         > Umschalten **Mehr anzeigen** nach **Weniger anzeigen** und nur einige Sprachen anzeigen.
+
+      1. Bewegen Sie den Mauszeiger über die zu bearbeitenden Sprachen in einer Gruppe ![Bearbeitungssymbol](images/edit_pencil_icon.svg) oder löschen ![delete](images/Delete_icon.svg) die Sprachgruppen.
+      1. Speichern Sie die **Editor-Einstellungen**.
+
+         >[!NOTE]
+         >
+         >Als Benutzer können Sie die für Ihr Ordnerprofil konfigurierten Sprachgruppen anzeigen.
 
    - **Quellversionsbeschriftungen an die Zielversion weiterleiten**: Wählen Sie diese Option, um den Titel der Quelldateiversion an die übersetzte Datei zu übergeben. Standardmäßig ist dies deaktiviert.
+   - **Bereinigung des Übersetzungsprojekts nach Abschluss**: Wählen Sie diese Option, um die Übersetzungsprojekte zu konfigurieren, die nach der Übersetzung automatisch deaktiviert oder gelöscht werden sollen. Standardmäßig ist **Keines** ausgewählt ist, sodass das Projekt nach der Übersetzung vorhanden ist.
 
-  ![](images/editor-setting-translation.png){width="550" align="left"}
+     Sie können die Übersetzungsprojekte deaktivieren, wenn Sie sie später verwenden möchten. Durch das Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner dauerhaft gelöscht.
+
 
 - **Metadaten**: Sie können die Versionsmetadaten des Themas und deren Werte steuern, die im **Versionsverlauf** Dialogfeld.  Geben Sie im Metadatenpfad den Speicherort der Knoten an, von denen Sie die Metadaten auswählen möchten. Sie können auch einen benutzerdefinierten Namen für die Metadaten als Beschriftung definieren. Die Standardeigenschaften sind Titel, Dokumentstatus und Tags.
 
@@ -250,36 +272,48 @@ Die Metadatenbeschriftungen werden in derselben Sequenz in der **Versionsverlauf
 
 
 
-**Benutzereinstellungen** - ![](images/user_preference_editor_icon.svg)
+**Benutzereinstellungen** - ![Symbol &quot;Benutzereinstellungen&quot;](images/user_preference_editor_icon.svg)
 
 Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Mithilfe der Voreinstellungen kann ein Autor die folgenden Einstellungen konfigurieren:
 
-![](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Gerätedesign verwenden**: Aktivieren Sie dieses Kontrollkästchen, damit AEM Guides je nach Thema Ihres Geräts automatisch zwischen hellen und dunklen Designs wechseln können.
 
-- **Anzeigen von Dateien nach**: Wählen Sie die Standardmethode zum Anzeigen der Dateien im Web-Editor aus. Sie können die Liste der Dateien anhand der Titel oder Dateinamen aus den verschiedenen Bedienfeldern im **Autor** anzeigen.
-  >[!NOTE]
-  >
-  > Standardmäßig werden die Dateien nach Titel im Web Editor angezeigt.
+- **Allgemein**: Im Tab Allgemein können Sie die folgenden Einstellungen konfigurieren:
 
-- **Design**: Sie können aus den Designs Hell, Lightest, Dark oder Dunkelste für den Editor wählen. Im Falle eines Lightest-Designs verwenden die Symbolleisten und Bedienfelder einen helleren grauen Farbhintergrund. Im Falle des Lichtdesigns verwenden die Symbolleisten und Bedienfelder einen hellgrauen Farbhintergrund. Im Falle eines dunkelsten Designs verwenden die Symbolleisten und Bedienfelder einen dunkleren schwarzen Farbhintergrund. Im Falle eines dunklen Designs verwenden die Symbolleisten und Bedienfelder einen schwarzen Farbhintergrund. In allen Designs wird der Inhaltsbearbeitungsbereich in weißem Farbhintergrund angezeigt.
+  ![Registerkarte &quot;Allgemein&quot;der Benutzereinstellungen](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Ordnerprofile**: Das Ordnerprofil steuert verschiedene Konfigurationen im Zusammenhang mit bedingten Attributen, Bearbeitungsvorlagen, Ausgabevorgaben und Web-Editor-Konfigurationen. Das globale Profil wird standardmäßig angezeigt. Wenn Ihr Administrator außerdem Ordnerprofile im System konfiguriert hat, werden diese ebenfalls in der Liste Ordnerprofile angezeigt.
+   - **Ordnerprofile**: Das Ordnerprofil steuert verschiedene Konfigurationen im Zusammenhang mit bedingten Attributen, Bearbeitungsvorlagen, Ausgabevorgaben und Web-Editor-Konfigurationen. Das globale Profil wird standardmäßig angezeigt. Wenn Ihr Administrator außerdem Ordnerprofile im System konfiguriert hat, werden diese ebenfalls in der Liste Ordnerprofile angezeigt.
 
-  Zu den Konfigurationen des Web-Editors, die ein Administrator im Ordnerprofil definieren kann, gehören: Anpassung der Benutzeroberfläche einschließlich der Symbolleistensymbole, Layout des Web-Editors, Snippets und Root Map. Weitere Informationen finden Sie unter *Konfigurieren globaler Profile oder Profile auf Ordnerebene* im as a Cloud Service Adobe Experience Manager-Handbücher installieren und konfigurieren .
+     Zu den Konfigurationen des Web-Editors, die ein Administrator im Ordnerprofil definieren kann, gehören: Anpassung der Benutzeroberfläche einschließlich der Symbolleistensymbole, Layout des Web-Editors, Snippets und Root Map. Weitere Informationen finden Sie unter *Konfigurieren globaler Profile oder Profile auf Ordnerebene* im as a Cloud Service Adobe Experience Manager-Handbücher installieren und konfigurieren .
 
-  >[!NOTE]
-  >
-  > Der Name des aktuellen Ordnerprofils wird als Beschriftung für das Symbol Benutzereinstellungen in der Hauptsymbolleiste angezeigt.
+     >[!NOTE]
+     >
+     > Der Name des aktuellen Ordnerprofils wird als Beschriftung für das Symbol Benutzereinstellungen in der Hauptsymbolleiste angezeigt.
 
-- **Basispfad**: Wenn Sie über den Web Editor auf das AEM Repository zugreifen, werden Ihnen standardmäßig Assets vom Speicherort /content/dam angezeigt. Ihr Arbeitsordner würde höchstwahrscheinlich einige Ordner im Ordner /content/dam/ enthalten. Es würde einige Klicks dauern, den Arbeitsordner jedes Mal zu erreichen. Sie können den Basispfad auf Ihren Arbeitsordner festlegen und die Repository-Ansicht zeigt Ihnen dann den Inhalt von diesem Speicherort vorab an. Dadurch wird der Zugriff auf Ihren Arbeitsordner verkürzt. Wenn Sie eine Referenz- oder Mediendatei in Ihr Thema einfügen, beginnt der Speicherort für die Dateisuche mit dem Ordner, der im Basispfad festgelegt ist.
+   - **Basispfad**: Wenn Sie über den Web Editor auf das AEM Repository zugreifen, werden Ihnen standardmäßig Assets vom Speicherort /content/dam angezeigt. Ihr Arbeitsordner würde höchstwahrscheinlich einige Ordner im Ordner /content/dam/ enthalten. Es würde einige Klicks dauern, den Arbeitsordner jedes Mal zu erreichen. Sie können den Basispfad auf Ihren Arbeitsordner festlegen und die Repository-Ansicht zeigt Ihnen dann den Inhalt von diesem Speicherort vorab an. Dadurch wird der Zugriff auf Ihren Arbeitsordner verkürzt. Wenn Sie eine Referenz- oder Mediendatei in Ihr Thema einfügen, beginnt der Speicherort für die Dateisuche mit dem Ordner, der im Basispfad festgelegt ist.
 
-- **Root Map auswählen**: Wählen Sie eine DITA-Map-Datei aus, um Schlüsselverweise oder Glossareinträge aufzulösen. Die ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen. Weitere Informationen finden Sie unter [Schlüsselverweise auflösen](map-editor-other-features.md#id176GD01H05Z).
+   - **Root Map auswählen**: Wählen Sie eine DITA-Map-Datei aus, um Schlüsselverweise oder Glossareinträge aufzulösen. Die ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen. Weitere Informationen finden Sie unter [Schlüsselverweise auflösen](map-editor-other-features.md#id176GD01H05Z).
 
->[!NOTE]
-> 
-> Wenn Sie keine Stammzuordnung verwenden möchten, stellen Sie sicher, dass die **Root Map auswählen** leer ist.
+     >[!NOTE]
+     >    
+     > Wenn Sie keine Stammzuordnung verwenden möchten, stellen Sie sicher, dass die **Root Map auswählen** leer ist.
+
+- **Erscheinungsbild**: Wählen Sie die Designs für die Web Editor-Anwendung und die Quellansicht des Inhaltsbearbeitungsbereichs aus.
+
+  ![Registerkarte &quot;Erscheinungsbild&quot;der Benutzereinstellungen](images/user_preference_editor_appearance.png){width="550" align="left"}
+
+   - **Anzeigen von Dateien nach**: Wählen Sie die Standardmethode zum Anzeigen der Dateien im Web-Editor aus. Sie können die Liste der Dateien anhand der Titel oder Dateinamen aus den verschiedenen Bedienfeldern im **Autor** anzeigen.
+     >[!NOTE]
+     >
+     > Standardmäßig werden die Dateien nach Titel im Web Editor angezeigt.
+
+   - **Anwendungsdesign**: Sie können aus dem **hell** oder **dunkel** Designs für die Anwendung. Im Falle der **hell** -Design verwenden die Symbolleisten und Bedienfelder einen hellgrauen Farbhintergrund. Im Falle der **dunkel** -Design verwenden die Symbolleisten und Bedienfelder einen schwarzen Farbhintergrund. Auswählen **Gerätedesign verwenden** um Experience Manager-Guides zu ermöglichen, die hellen und dunklen Themen basierend auf dem Thema Ihres Geräts auszuwählen.  In allen Designs wird der Inhaltsbearbeitungsbereich in weißem Farbhintergrund im **Autor** anzeigen.
+
+   - **Design der Quellansicht**: - Sie können aus dem **hell** oder **dunkel** Designs für den Inhaltsbearbeitungsbereich in der Quellansicht. Im Falle der **hell** Design verwendet der Inhaltsbearbeitungsbereich einen hellgrauen Farbhintergrund für die Quellansicht, während im Fall von **dunkel** -Design verwenden, wird ein schwarzer Farbhintergrund verwendet. Auswählen **Gerätedesign verwenden** um Experience Manager-Guides zu ermöglichen, die hellen und dunklen Themen basierend auf dem Thema Ihres Geräts auszuwählen.
+
+   - **Suchen Sie immer nach Dateien im Repository.**: Wählen Sie diese Option, um den Speicherort einer Datei im Repository anzuzeigen, während Sie sie im Web Editor bearbeiten.
+
+   - **Anzeigen von geschützten Leerzeichen im Autorenmodus**: Wählen Sie diese Option, um beim Bearbeiten im Web Editor einen Indikator für die geschützten Leerzeichen anzuzeigen. Sie ist standardmäßig aktiviert.
 
 **Autoren-, Quell- und Vorschaumodi**
 
@@ -291,7 +325,19 @@ Die sekundäre Symbolleiste wird angezeigt, wenn Sie ein Thema zur Bearbeitung i
 
 **Element einfügen** - ![](images/Add_icon.svg)
 
-Fügt ein gültiges Element an der aktuellen oder nächsten gültigen Position ein. Sie können auch den Tastaturbefehl ***Alt***+***Eingabe*** , um das Popup Element einfügen zu öffnen. Sie bearbeiten beispielsweise einen Absatz und dann im **Element einfügen** angezeigt, wird eine Liste von Elementen angezeigt, die in den Absatz eingefügt werden können. Wählen Sie das Element aus, das Sie einfügen möchten. Sie können die Tastatur verwenden, um durch die Liste der Elemente zu scrollen und die ***Eingabe*** , um das erforderliche Element einzufügen. Sie können auch ein Zeichen oder eine Zeichenfolge in das Suchfeld eingeben und nach den Elementen suchen, die damit beginnen.
+Fügt ein gültiges Element an der aktuellen oder nächsten gültigen Position ein. Sie können auch den Tastaturbefehl ***Alt***+***Eingabe*** , um das Popup Element einfügen zu öffnen. Sie bearbeiten beispielsweise einen Absatz und dann im **Element einfügen** angezeigt, wird eine Liste von Elementen angezeigt, die in den Absatz eingefügt werden können. Wählen Sie das Element aus, das Sie einfügen möchten. Sie können die Tastatur verwenden, um durch die Liste der Elemente zu scrollen und die ***Eingabe*** , um das erforderliche Element einzufügen.
+
+Sie können zwei Typen gültiger Elemente anzeigen:
+
+- **Gültige Elemente am aktuellen Speicherort**: Die Liste zeigt die Elemente an, die Sie an der aktuellen Cursorposition selbst einfügen können.
+
+- **Gültige Elemente außerhalb des aktuellen Speicherorts**: Die Liste zeigt die Elemente an, die Sie nach den übergeordneten Elementen des aktuellen Elements in der Elementhierarchie einfügen können.
+
+
+
+Wenn Sie sich beispielsweise innerhalb des `<b>` -Element können Sie Elemente wie `<u>`, `<xref>`, `<i>` am aktuellen Speicherort. Im Gegensatz dazu können Sie Elemente wie `<table>` und `<topic>` außerhalb des aktuellen Speicherorts.
+
+Sie können auch ein Zeichen oder eine Zeichenfolge in das Suchfeld eingeben und nach den Elementen suchen, die damit beginnen.
 
 
 ![Element einfügen](images/insert-element.png){width="300" align="left"}
@@ -618,7 +664,7 @@ Um Änderungen an einem Thema zusammenzuführen, führen Sie die folgenden Schri
 
 1. Öffnen Sie ein Thema im Web-Editor.
 
-1. Klicks **Zusammenführen**.
+1. Klicken Sie auf **Zusammenführen**.
 
    Das Dialogfeld Zusammenführen wird angezeigt.
 
@@ -647,7 +693,7 @@ Führen Sie die folgenden Schritte aus, um Änderungen in einer Map-Datei zusamm
 
 1. Öffnen Sie eine Karte im Web-Editor.
 
-1. Klicks **Zusammenführen**.
+1. Klicken Sie auf **Zusammenführen**.
 
    Das Dialogfeld Zusammenführen wird angezeigt.
 
@@ -863,22 +909,70 @@ Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken 
 
 **Suche filtern**
 
-Der Web Editor bietet erweiterte Filter für die Suche nach Text. Klicken Sie auf die Filtersuche \(![](images/filter-search-icon.svg)\)Symbol, um das Filterbedienfeld zu öffnen. Sie können in den Dateien im ausgewählten Pfad des AEM-Repositorys nach einem Text suchen. Beispielsweise wird im folgenden Screenshot nach &quot;Allgemeiner Zweck&quot;gesucht.
+Der Web Editor bietet erweiterte Filter für die Suche nach Text. Sie können in den Dateien, die auf dem ausgewählten Pfad des Adobe Experience Manager-Repositorys vorhanden sind, nach Text suchen und filtern. Sie sucht in den Dateien nach Titel, Dateinamen und Inhalt.
 
-![](images/repository-filter-search.png){width="400" align="left"}
 
-Sie haben auch die folgenden Optionen, um die Dateien zu filtern und Ihre Suche im AEM Repository einzugrenzen:
+![Suchdateien in der Repository-Ansicht](images/repository-filter-search.png){width="300" align="left"}
 
-- **DITA-Dateien**: Sie können alle **DITA-Themen** und **DITA-Maps** im ausgewählten Pfad vorhanden sein.
-- **Nicht-DITA-Dateien**: Sie können nach **Bilddateien**, **Multimedia**, und **Dokumente** im ausgewählten Pfad.
-- **DITA-Elemente**: Sie können auch nach bestimmten Werten in den Attributen der angegebenen DITA-Elemente suchen.
-- **Ausgecheckt von**: Sie können nach Dateien suchen, die vom angegebenen Benutzer ausgecheckt wurden.
-- **Zuletzt geändert**: Sie können nach Dateien suchen, die nach einem ausgewählten Datum, aber vor einem ausgewählten Datum, zuletzt geändert wurden. Sie können auch nach Dateien suchen, die in den letzten 2 Stunden, in der letzten Woche, im letzten Monat oder im letzten Jahr zuletzt geändert wurden.
+*Filter anwenden, um nach Dateien zu suchen, die den Text enthalten`general purpose.`*
+
+Wählen Sie die **Suche filtern** \(![Symbol für Suchfilter](images/filter-search-icon.svg)\), um das Popup-Fenster Filter nach zu öffnen.
+
+>[!NOTE]
+>
+> Wenn Sie nach Text suchen oder Dateien filtern, wird ein blauer Punkt auf der **Suche filtern**  \(![Symbol für Suchfilter](images/filter-search-icon.svg)\), um anzugeben, dass wir uns im Suchbereich befinden und dass einige Filter angewendet wurden.
+
+
+Sie haben die folgenden Optionen, um die Dateien zu filtern und Ihre Suche im Adobe Experience Manager-Repository einzuschränken:
+
+- **DITA-Dateien**: Sie können alle **DITA-Themen** und **DITA-Maps** im ausgewählten Pfad vorhanden sein. Diese sind standardmäßig ausgewählt.
+- **Nicht-DITA-Dateien**: Sie können nach **Ditaval-Dateien**,  **Bilddateien**, **Multimedia**, **Dokumente**, und **Json** im ausgewählten Pfad.
+
+![Schnellsuchfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
+
+*Verwenden Sie die Schnellfilter, um nach DITA- und Nicht-DITA-Dateien zu suchen.*
+
+**Erweiterte Filter**
+
+Wählen Sie die **Erweiterte Filter** ![Symbol für erweiterte Filter](images/advanced-filter-gear-icon.svg)Symbol zum Anzeigen der **Erweiterter Filter** Dialogfeld.
+
+Sie können die folgenden Optionen unter dem **Allgemein** und **Erweitert** Registerkarten.
+
+![Dialogfeld für erweiterte Filter](images/repository-filter-search-advanced.png) {width="800" align="left"}
+
+
+**Allgemein**
+
+- **Die Suchergebnisse lauten wie folgt**: Suchen Sie in den Dateien im ausgewählten Pfad des Adobe Experience Manager-Repositorys nach Text. Der Text wird im Titel, Dateinamen und Inhalt der Dateien durchsucht.
+
+Dies wird mit dem Suchfeld im Repository-Fenster synchronisiert. Wenn Sie beispielsweise `general purpose` im Suchfeld im Repository-Bereich angezeigt, wird es auch im **Erweiterter Filter** und umgekehrt.
+
+- **Suchen in**: Wählen Sie den Pfad aus, in dem Sie die im Adobe Experience Manager-Repository vorhandenen Dateien durchsuchen möchten.
+
+- **Ausgecheckt von**: Sie können nach Dateien suchen, die der angegebene Benutzer auscheckt.
+- **Zuletzt geändert**: Sie können nach Dateien suchen, die nach einem ausgewählten Datum, aber vor einem ausgewählten Datum, zuletzt geändert wurden.
+- **Geändert vor**: Sie können nach Dateien suchen, die vor einem ausgewählten Datum zuletzt geändert wurden.
+- **Zeitrahmen**: Sie können auch nach Dateien suchen, die in den letzten zwei Stunden, in der letzten Woche, im letzten Monat oder im letzten Jahr zuletzt geändert wurden.
 - **Tags**: Sie können nach Dateien suchen, auf die bestimmte Tags angewendet wurden. Sie können das Tag entweder eingeben oder aus der Dropdown-Liste auswählen.
 
-**Hinweis:** Ihr Systemadministrator kann auch die Textfilter konfigurieren und andere Filter ein- oder ausblenden. Weitere Informationen finden Sie unter *Textfilter konfigurieren* im as a Cloud Service Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
+**Erweitert**
 
-Die Liste der gefilterten Dateien mit dem gesuchten Text wird angezeigt. Im obigen Screenshot werden beispielsweise die Dateien mit dem Text &quot;Allgemeiner Zweck&quot;aufgelistet. Sie können mehrere Dateien aus der gefilterten Liste auswählen, um sie per Drag-and-Drop in eine zur Bearbeitung geöffnete Karte zu ziehen.
+- **DITA-Elemente**: Sie können auch nach bestimmten Werten in den Attributen der angegebenen DITA-Elemente suchen.
+   - Auswählen **Element hinzufügen** ![Symbol hinzufügen](images/Add_icon.svg) , um die Elemente, Attribute und Werte hinzuzufügen.
+   - Wenden Sie die ausgewählten Filter an.
+
+- Auswählen **Alle löschen** um alle angewendeten Filter zu löschen.
+
+
+- Wählen Sie die **Filter schließen** ![Symbol &quot;Schließen&quot;](images/close-icon.svg) -Symbol, um den Filter zu schließen und zur Baumansicht des Repositorys zurückzukehren.
+  >[!NOTE]
+  >
+  >Ihr Systemadministrator kann auch die Textfilter konfigurieren und andere Filter ein- oder ausblenden. Weitere Informationen finden Sie unter *Textfilter konfigurieren* im as a Cloud Service Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
+
+  Die Liste der gefilterten Dateien, die den gesuchten Text enthalten, wird angezeigt. Beispielsweise die Dateien, die den Text enthalten `general purpose` werden im vorherigen Screenshot aufgelistet. Sie können mehrere Dateien aus der gefilterten Liste auswählen, um sie per Drag-and-Drop in eine zur Bearbeitung geöffnete Karte zu ziehen.
+
+
+
 
 **Optionen, Menü**
 
@@ -895,7 +989,7 @@ Sie können die folgenden Aktionen über das Menü Optionen ausführen, das für
 
 
 
-- **Hochladen von Assets**: Laden Sie eine Datei aus Ihrem lokalen System in den ausgewählten Ordner in AEM Repository hoch. Sie können Dateien auch per Drag &amp; Drop aus Ihrem lokalen System in das aktuelle Arbeitsthema ziehen. Dies ist sehr nützlich, wenn Sie Bilder aus Ihrem lokalen System in Ihr Thema einfügen möchten.
+- **Hochladen von Assets**: Laden Sie eine Datei aus Ihrem lokalen System in den ausgewählten Ordner im Adobe Experience Manager-Repository hoch. Sie können Dateien auch per Drag &amp; Drop aus Ihrem lokalen System in das aktuelle Arbeitsthema ziehen. Dies ist sehr nützlich, wenn Sie Bilder aus Ihrem lokalen System in Ihr Thema einfügen möchten.
 
   ![](images/upload-assets.png){width="550" align="left"}
 
@@ -928,7 +1022,7 @@ Sie können die folgenden Aktionen über das Menü Optionen ausführen, das für
 
 Im Menü Optionen werden je nachdem, ob Sie eine Mediendatei oder eine DITA-Datei auswählen, unterschiedliche Optionen angezeigt. Einige häufig verfügbare Optionen für Medien- und DITA-Dateien sind:
 
-- Duplikat
+- Duplizieren
 - Auschecken/Einchecken
 - Vorschau
 - Verschieben nach
@@ -1576,7 +1670,7 @@ Verwenden Sie beispielsweise die folgende Auflistung, um die `@platform` -Attrib
 </details>
 
 
-**Dropdown-Liste Attribute**
+**Attribute** Dropdown
 
 Sie können den Wert des Betreffschemas auch mit der **Attribute** Dropdown aus **Inhaltseigenschaften** -Bedienfeld in **Autor** anzeigen.
 ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
@@ -1828,10 +1922,13 @@ Das rechte Bedienfeld ist ein persistentes Bedienfeld, das Informationen zum akt
 
 Im rechten Bereich haben Sie Zugriff auf die folgenden Funktionen:
 
-**Inhaltseigenschaften** -  ![](images/content-properties-icon.svg)
+**Inhaltseigenschaften** -  ![Inhaltseigenschaften](images/content-properties-icon.svg)
 
-Sie können auf die Funktion Inhaltseigenschaften zugreifen, indem Sie im rechten Bereich auf das Symbol Inhaltseigenschaften klicken. Der Bereich Inhaltseigenschaften enthält Informationen zum Typ des aktuell ausgewählten Elements im Dokument und dessen Attributen.
-Sie können Attribute einfach hinzufügen, bearbeiten oder löschen.
+Sie können auf die **Inhaltseigenschaften** durch Auswahl der **Inhaltseigenschaften** im rechten Bereich. Die **Inhaltseigenschaften** enthält Informationen zum Typ des aktuell ausgewählten Elements im Dokument und dessen Attributen.
+
+**Typ**: Sie können die Tags der vollständigen Hierarchie für das aktuelle Tag aus der Dropdown-Liste anzeigen und auswählen.
+
+**Attribute**: Die **Attribute** Dropdown-Bedienfeld ist in den Ansichten &quot;Layout&quot;, &quot;Autor&quot;und &quot;Quelle&quot;verfügbar. Sie können Attribute einfach hinzufügen, bearbeiten oder löschen.
 
 1. Klicks **+ Hinzufügen**.
 
