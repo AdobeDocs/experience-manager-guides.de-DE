@@ -2,7 +2,7 @@
 title: Konfigurieren der intelligenten Vorschläge für das Authoring
 description: Erfahren Sie, wie Sie die intelligenten Vorschläge für das Authoring konfigurieren
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
+source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 1%
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # KI-gestützte intelligente Vorschläge für das Authoring konfigurieren
 
-Als Administrator können Sie die Funktion Smart Suggestions für Autoren konfigurieren. Der intelligente Empfehlungsdienst wird durch die auth-basierte Authentifizierung von Adobe IMS gesichert. Integrieren Sie Ihre Umgebung in die sicheren Token-basierten Authentifizierungs-Workflows von Adobe und beginnen Sie mit der Verwendung der neuen Funktion für intelligente Vorschläge. Die folgende Konfiguration hilft Ihnen beim Hinzufügen der **AI-Konfiguration** zum Ordnerprofil. Nach dem Hinzufügen können Sie die Funktion für intelligente Vorschläge im Web-Editor verwenden.
+Als Administrator können Sie die Funktion Smart Suggestions für Autoren konfigurieren. Der intelligente Empfehlungsdienst wird durch die auth-basierte Authentifizierung von Adobe IMS gesichert. Integrieren Sie Ihre Umgebung in sichere Adobe Token-basierte Authentifizierungs-Workflows und beginnen Sie mit der Verwendung der neuen Funktion für intelligente Vorschläge. Die folgende Konfiguration hilft Ihnen beim Hinzufügen der **AI-Konfiguration** zum Ordnerprofil. Nach dem Hinzufügen können Sie die Funktion für intelligente Vorschläge im Web-Editor verwenden.
 
 ## Erstellen von IMS-Konfigurationen in der Adobe Developer-Konsole
 
@@ -34,7 +34,9 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in der Adobe Deve
    *Fügen Sie Ihrem Projekt die I/O-Management-API hinzu.*
 
 1. Erstellen Sie eine neue **OAuth-Berechtigung** und speichern Sie es.
-   ![OAuth-Berechtigungskachel in &quot;API konfigurieren&quot;](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+
+   ![OAuth-Berechtigungskachel in &quot;API konfigurieren&quot;](assets/conf-ss-OAuth-credential.png)
+
    *Konfigurieren Sie OAuth-Anmeldedaten für Ihre API.*
 
 1. Im  **Projekte** auswählen **OAuth Server to Server** und wählen Sie dann die neu erstellten Anmeldedaten aus.
