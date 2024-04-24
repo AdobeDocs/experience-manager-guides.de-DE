@@ -4,7 +4,7 @@ description: Entdecken Sie die Funktionen des Webeditors in AEM Handbüchern. Ma
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -233,6 +233,7 @@ Dadurch wird verhindert, dass Benutzer Dateien speichern, die eine Regel beschä
 
      Geben Sie die ersten Zeichen der Sprache oder den Sprachcode ein, um die gewünschten Sprachen zu filtern. Geben Sie beispielsweise &quot;en&quot;ein, um alle Sprachen zu filtern, die &quot;en&quot;am Anfang ihres Namens oder Codes enthalten.
       1. Auswählen **Fertig** , um die ausgewählten Sprachen zur Gruppe hinzuzufügen. Die Sprachen werden angezeigt. Wenn Sie drei oder mehr Sprachen hinzufügen, **Mehr anzeigen** angezeigt. Sie können **Mehr anzeigen** um alle in der Gruppe vorhandenen Sprachen anzuzeigen.
+
          >[!TIP]
          >
          > Umschalten **Mehr anzeigen** nach **Weniger anzeigen** und nur einige Sprachen anzeigen.
@@ -303,6 +304,7 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Mithilfe der Vore
   ![Registerkarte &quot;Erscheinungsbild&quot;der Benutzereinstellungen](images/user_preference_editor_appearance.png){width="550" align="left"}
 
    - **Anzeigen von Dateien nach**: Wählen Sie die Standardmethode zum Anzeigen der Dateien im Web-Editor aus. Sie können die Liste der Dateien anhand der Titel oder Dateinamen aus den verschiedenen Bedienfeldern im **Autor** anzeigen.
+
      >[!NOTE]
      >
      > Standardmäßig werden die Dateien nach Titel im Web Editor angezeigt.
@@ -846,7 +848,9 @@ Im linken Bereich haben Sie Zugriff auf die folgenden Funktionen:
 **Favoriten** -  ![](images/favorite-collections.svg)
 
 Wenn Sie an einer Reihe von Dateien oder Ordnern arbeiten, können Sie diese Ihrer Favoritenliste hinzufügen, um schnell darauf zugreifen zu können. Die Favoritenliste enthält die Liste der Dokumente, die Sie hinzugefügt haben, sowie andere öffentlich zugängliche Dokumente der anderen Benutzer.
+
 Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+
 >[!NOTE]
 >
 > Als Administrator können Sie auch die Liste der Dateien nach Dateinamen im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
@@ -878,6 +882,7 @@ Verwenden Sie eine der folgenden Methoden, um Ihrer Lieblingssammlung eine Datei
 Sie können auch viele Aktionen über das Menü &quot;Optionen&quot;ausführen, das für eine Favoriten-Sammlung verfügbar ist:
 
 ![](images/favorites-options.png){width="400" align="left"}
+
 - **Umbenennen**: Benennen Sie die ausgewählte Sammlung um.
 - **Löschen**: Löscht die ausgewählte Sammlung.
 - **Aktualisieren**: Rufen Sie eine neue Liste von Dateien und Ordnern aus dem Repository ab.
@@ -965,11 +970,12 @@ Dies wird mit dem Suchfeld im Repository-Fenster synchronisiert. Wenn Sie beispi
 
 
 - Wählen Sie die **Filter schließen** ![Symbol &quot;Schließen&quot;](images/close-icon.svg) -Symbol, um den Filter zu schließen und zur Baumansicht des Repositorys zurückzukehren.
+
   >[!NOTE]
   >
   >Ihr Systemadministrator kann auch die Textfilter konfigurieren und andere Filter ein- oder ausblenden. Weitere Informationen finden Sie unter *Textfilter konfigurieren* im as a Cloud Service Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
-
-  Die Liste der gefilterten Dateien, die den gesuchten Text enthalten, wird angezeigt. Beispielsweise die Dateien, die den Text enthalten `general purpose` werden im vorherigen Screenshot aufgelistet. Sie können mehrere Dateien aus der gefilterten Liste auswählen, um sie per Drag-and-Drop in eine zur Bearbeitung geöffnete Karte zu ziehen.
+  >
+  >Die Liste der gefilterten Dateien, die den gesuchten Text enthalten, wird angezeigt. Beispielsweise die Dateien, die den Text enthalten `general purpose` werden im vorherigen Screenshot aufgelistet. Sie können mehrere Dateien aus der gefilterten Liste auswählen, um sie per Drag-and-Drop in eine zur Bearbeitung geöffnete Karte zu ziehen.
 
 
 
@@ -1067,6 +1073,7 @@ Die verschiedenen Optionen im Menü Optionen werden nachfolgend beschrieben:
   ![](images/rename-move-asset.png){width="550" align="left"}
 
   >[!NOTE]
+  >
   > Sie können eine Datei auch per Drag-and-Drop in einen anderen Zielordner ziehen.
 
   **Ausschlussszenarien**
@@ -1078,6 +1085,7 @@ Die verschiedenen Optionen im Menü Optionen werden nachfolgend beschrieben:
    - Wenn ein anderer Benutzer die Datei auscheckt, können Sie sie nicht umbenennen oder verschieben, wird die Option Umbenennen oder Verschieben nach für die Datei nicht angezeigt.
 
   >[!NOTE]
+  >
   > Wenn Ihnen Ihr Administrator die Berechtigungen für einen Ordner erteilt hat, wird die **Umbenennen** oder **Verschieben nach** -Optionen angezeigt.
 
   <details>
@@ -1206,6 +1214,7 @@ Geben Sie einen **Titel** für den Ordner, der automatisch in den Ordnernamen ko
 Wenn Sie auf das Symbol &quot;Kartenansicht&quot;klicken, erhalten Sie eine Liste der Themen in der Map-Datei. Wenn Sie keine Zuordnungsdatei geöffnet haben, wird die Zuordnungsansicht leer angezeigt. Durch Doppelklick auf eine Zuordnungsdatei wird die Zuordnungsdatei in dieser Ansicht geöffnet. Sie können auf eine beliebige Datei in der Karte doppelklicken, um sie im Web Editor zu öffnen.
 
 Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+
 >[!NOTE]
 >
 >Als Administrator können Sie auch den Dateinamen der übergeordneten Zuordnung anzeigen, die derzeit in der Kartenansicht geöffnet ist. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
@@ -1255,12 +1264,13 @@ Sie können die folgenden Aktionen über das Menü Optionen der Zuordnungsdatei 
 
 - **Anzeigen in der Assets-Benutzeroberfläche**: Verwenden Sie diese Option, um eine Vorschau der Zuordnungsdatei in der Assets-Benutzeroberfläche anzuzeigen. In dieser Ansicht werden alle Themendateien in der Zuordnung in einer einzigen einheitlichen Seitenansicht angezeigt.
 - **Download-Map**: Wählen Sie diese Option aus, um die **Download-Map** Dialogfeld.
+
 Im **Download-Map** können Sie die folgenden Optionen auswählen:
-   - **Grundlinie verwenden**: Wählen Sie diese Option aus, um eine Liste der Grundlinien für die DITA-Zuordnung zu erhalten. Wenn Sie die Zuordnungsdatei und deren Inhalt auf Grundlage einer bestimmten Grundlinie herunterladen möchten, wählen Sie die Grundlinie aus der Dropdownliste aus. Weitere Informationen zum Arbeiten mit Grundlinien finden Sie unter [Arbeiten mit Grundlinien](./generate-output-use-baseline-for-publishing.md).
-   - **Reduzieren der Dateihierarchie**: Wählen Sie diese Option, um alle referenzierten Themen und Mediendateien in einem einzigen Ordner zu speichern.
+
+- **Grundlinie verwenden**: Wählen Sie diese Option aus, um eine Liste der Grundlinien für die DITA-Zuordnung zu erhalten. Wenn Sie die Zuordnungsdatei und deren Inhalt auf Grundlage einer bestimmten Grundlinie herunterladen möchten, wählen Sie die Grundlinie aus der Dropdownliste aus. Weitere Informationen zum Arbeiten mit Grundlinien finden Sie unter [Arbeiten mit Grundlinien](./generate-output-use-baseline-for-publishing.md).
+- **Reduzieren der Dateihierarchie**: Wählen Sie diese Option, um alle referenzierten Themen und Mediendateien in einem einzigen Ordner zu speichern.
 
   Sie können auch die Zuordnungsdatei herunterladen, ohne eine Option auszuwählen. In diesem Fall werden die letzten beibehaltenen Versionen der referenzierten Themen und Mediendateien heruntergeladen.
-
 
   Nachdem Sie auf **Herunterladen** -Schaltfläche, wird die Paketanforderung für den Zuordnungsexport in die Warteschlange gestellt. Die **Erfolg** angezeigt, wenn das Paket erfolgreich erstellt wurde.  Sie können auf die **Herunterladen** -Schaltfläche in der **Erfolg** Dialogfeld.
 
@@ -1387,6 +1397,7 @@ Eine der Hauptfunktionen von DITA ist die Möglichkeit, Inhalte wiederzuverwende
 Sie können wiederverwendbaren Inhalt einfach per Drag-and-Drop aus dem Bedienfeld auf das aktuelle Thema ziehen und so einfach und schnell einfügen. Sie können auch eine Vorschau des Inhalts erhalten, bevor Sie ihn in Ihr Dokument einfügen.
 
 Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+
 >[!NOTE]
 >
 > Als Administrator können Sie auch die Liste der Dateien nach Dateinamen im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
@@ -1770,7 +1781,9 @@ Im Menü Optionen einer vorhandenen Vorlage können Sie zwischen **Bearbeiten** 
 **Überprüfen** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM Handbücher bieten die Möglichkeit, alle Prüfungsaufgaben in Ihren Projekten anzuzeigen. Sie können alle Überprüfungsprojekte und die aktiven Prüfungsaufgaben innerhalb der Überprüfungsprojekte anzeigen, zu denen Sie gehören, aus dem **Überprüfen** Bedienfeld.  Anschließend können Sie die Prüfungsaufgaben öffnen, um die Kommentare der einzelnen Prüfer anzuzeigen.
+
 Im Prüfungsbereich werden die Prüfungsaufgaben angezeigt. Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+
 >[!NOTE]
 >
 > Als Administrator können Sie auch die Liste der Dateien nach Dateinamen im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
@@ -1805,6 +1818,7 @@ Um die Überprüfungskommentare in den aktiven Prüfungsaufgaben anzuzeigen, die
    >[!NOTE]
    > 
    > Die **Überprüfen** und **Kommentare** -Bedienfeld sind immer synchronisiert. Im Bereich &quot;Kommentare&quot;werden die Kommentare basierend auf der Überprüfungsaufgabe geladen, die im Überprüfungsbereich geladen wird.
+   >
    > Weitere Informationen dazu, wie Sie die Kommentare bearbeiten können, finden Sie unter [Kommentare zur Adressüberprüfung](review-address-review-comments.md#).
 
 **Suchen und Ersetzen** -  ![](images/FindAndReplace_icon.svg)
@@ -1814,6 +1828,7 @@ Das Symbol Suchen und Ersetzen befindet sich unten im linken Bereich. Im Bereich
 ![](images/map-find-replace.png){width="800" align="left"}
 
 Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+
 >[!NOTE]
 >
 > Als Administrator können Sie auch die Liste der Dateinamen im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
@@ -1822,6 +1837,7 @@ Führen Sie die folgenden Schritte aus, um die globale Suche durchzuführen und 
 
 1. Globale **Suchen und Ersetzen** Bedienfeld.
 1. Klicken Sie auf **Schau nach** Wählen Sie eine der folgenden Optionen aus, um die Suche durchzuführen.
+
    - **Aktuelle Karte**: Um in der aktuell geöffneten Karte zu suchen
 
      >[!NOTE]
@@ -1875,9 +1891,7 @@ Führen Sie die folgenden Schritte aus, um die globale Suche durchzuführen und 
 
 1. Drücken Sie die Eingabetaste oder wählen Sie **Suche** icon \( ![](images/search-icon.svg)\), um die Suche durchzuführen.
 1. Wählen Sie eine Datei aus der Suchergebnisliste aus. Die Datei wird im Inhaltsbearbeitungsbereich geöffnet, wobei der gesuchte Begriff im Inhalt hervorgehoben wird.
-
 1. Klicks **Einzelnes Vorkommen ersetzen** \( ![](images/replace-icon.svg)\), um den derzeit hervorgehobenen Suchbegriff im Thema zu ersetzen, oder klicken Sie auf &quot;Nächste Übereinstimmung&quot; ![](images/next-match-in-search.png) oder ![](images/previous-match-in-search.png) Vorherige Übereinstimmung , um zum nächsten oder vorherigen Vorkommen des Textes zu wechseln.
-
 1. Klicks **Alle in Datei ersetzen** \( ![](images/replace-all-in-file-icon.svg)\), um alle Vorkommen des gesuchten Begriffs in einer Datei durch den Ersetzungsbegriff in einem einzigen Klick zu ersetzen. Nachdem Sie alle Vorkommen in der ausgewählten Datei ersetzt haben, wird Ihnen eine Benachrichtigung angezeigt.
 
    >[!NOTE]
@@ -1904,6 +1918,7 @@ Sie können auch die **Suchen in Map** Option aus der **Optionen** -Menü einer 
 Im Inhaltsbearbeitungsbereich wird der Inhalt des Themas oder der Zuordnung angezeigt. In diesem Bereich werden alle Inhalte bearbeitet. Es gibt eine WYSIWYG-Ansicht des Inhalts, den Sie bearbeiten. Sie können mehrere Themen gleichzeitig öffnen lassen, die auf den jeweiligen Registerkarten angezeigt werden.
 
 Standardmäßig können Sie die Dateinamen in den Registerkarten anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+
 >[!NOTE]
 >
 > Als Administrator können Sie auch die Liste der Dateien anhand der Dateinamen in den Registerkarten anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
@@ -1985,6 +2000,7 @@ Im Abschnitt Verweise haben Sie Zugriff auf folgende Funktionen:
 - **Ausgehende Links:** Unter Ausgehende Links werden die Dokumente aufgelistet, auf die im aktuellen Dokument verwiesen wird.
 
 Standardmäßig können Sie die Dateien anhand von Titeln anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
+
 >[!NOTE]
 >
 > Als Administrator können Sie auch die Liste der Dateien nach Dateinamen im Web Editor anzeigen. Wählen Sie die **Dateiname** der **Anzeigen von Dateien nach** Abschnitt in **Benutzereinstellungen** ![](images/user_preference_editor_icon.svg).
@@ -2014,4 +2030,3 @@ Mithilfe der Funktion &quot;Getrackte Änderungen&quot;im rechten Bereich könne
 > Die Funktion &quot;Getrackte Änderungen&quot;zeigt alle Aktualisierungen an, die mithilfe der Funktion Tracking-Änderungen aktivieren/deaktivieren in der Hauptsymbolleiste verfolgt wurden. Weitere Informationen finden Sie unter [Änderungen aktivieren/deaktivieren](#id205DF0203Y4).
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
-
