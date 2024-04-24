@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise | Fehlerkorrektur - Adobe Experience Manager-Handbücher, Version 2024.4.0 - jetzt verfügbar
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2024.04.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9d1b0bea20b2fe3ae8fb2ee7cf4387cf7271562d
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -64,4 +64,5 @@ Informationen zu [Upgrade-Anweisungen für die Version 2024.04.0](upgrade-instru
 ## Übersetzung
 
 - **Übersetzung akzeptieren** schlägt fehl, um die Übersetzung temporärer Dateien abzuschließen. (14665)
+
 

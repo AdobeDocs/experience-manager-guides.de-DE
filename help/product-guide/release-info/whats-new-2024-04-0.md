@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise | Neue Funktionen in den Adobe Experience Manager-Handbüchern, Version 2024.4.0
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version 2024.4.0 der Adobe Experience Manager-Handbücher as a Cloud Service.
-source-git-commit: 9a0d2886012bd1695387a93984ccac5127384db3
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '1806'
 ht-degree: 0%
@@ -223,3 +223,4 @@ Die Anmeldedaten für das Dienstkonto (JWT) werden nicht mehr für die **OAuth S
 
 
 Der Cloud Publishing-Dienst für Experience Manager-Handbücher ist jetzt durch die OAuth-basierte Authentifizierung von Adobe IMS geschützt. Erfahren Sie, wie [Konfigurieren der Veröffentlichung auf Microservice-Basis mit OAuth-Authentifizierung](../knowledge-base/publishing/configure-microservices-imt-config.md).
+

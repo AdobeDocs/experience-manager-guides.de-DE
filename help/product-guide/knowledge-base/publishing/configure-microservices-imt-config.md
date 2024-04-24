@@ -3,7 +3,7 @@ title: Konfigurieren der mikrodienstbasierten Veröffentlichung mit der OAuth-Au
 description: Erfahren Sie, wie Sie die Veröffentlichung auf Microservice-Basis mit OAuth-Authentifizierung für AEM Guides konfigurieren.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 17116ed5619b7177cf0174449d67cfebf5b9cf46
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -21,9 +21,6 @@ Für jede Veröffentlichungsanforderung führt Experience Manager Guides as a Cl
 > Die mikrodienstbasierte Veröffentlichung in Experience Manager Guides unterstützt die Typen von PDF (nativ und DITA-OT-basiert), HTML5, JSON und benutzerdefinierten Ausgabevorgaben.
 
 Da der Cloud Publishing-Dienst durch die Adobe IMS OAuth-basierte Authentifizierung geschützt ist, führen Sie die folgenden Schritte aus, um ihre Umgebungen mit sicheren Token-basierten Authentifizierungsarbeitsabläufen zu integrieren und mit der Cloud-basierten skalierbaren Publishing-Lösung zu beginnen.
-
-
-
 
 
 ## Erstellen von IMS-Konfigurationen in der Adobe Developer-Konsole

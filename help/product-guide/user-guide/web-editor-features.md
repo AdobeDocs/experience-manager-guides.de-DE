@@ -4,7 +4,7 @@ description: Entdecken Sie die Funktionen des Webeditors in AEM Handbüchern. Ma
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -2014,3 +2014,4 @@ Mithilfe der Funktion &quot;Getrackte Änderungen&quot;im rechten Bereich könne
 > Die Funktion &quot;Getrackte Änderungen&quot;zeigt alle Aktualisierungen an, die mithilfe der Funktion Tracking-Änderungen aktivieren/deaktivieren in der Hauptsymbolleiste verfolgt wurden. Weitere Informationen finden Sie unter [Änderungen aktivieren/deaktivieren](#id205DF0203Y4).
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
+
