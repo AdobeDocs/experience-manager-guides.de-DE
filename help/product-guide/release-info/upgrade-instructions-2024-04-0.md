@@ -1,9 +1,10 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager-Handbüchern, Version 2024.04.0
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf die Version 2024.04.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: deca46e5-12cc-497f-84af-61ee02da3d65
+source-git-commit: 989f1628adf417167525a068845203380573b077
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -45,6 +46,12 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 ## Aktualisierung auf Version 2024.04.0
 
 Experience Manager-Handbücher werden automatisch aktualisiert, wenn die aktuelle (neueste) Version von Experience Manager as a Cloud Service aktualisiert wird.
+
+>[!NOTE]
+>
+> Sobald Sie mit der Verwendung der aktuellen (neuesten) Version beginnen, vergleichen Sie alle überschriebenen Konfigurationen mit den neuesten, um die neuesten Funktionen zu erhalten:
+>- ui_config.json (möglicherweise in Ordnerprofilen festgelegt)
+
 
 
 Führen Sie die folgenden Schritte für die Experience Manager-Handbücher as a Cloud Service aus, wenn Sie es für Ihre bestehende Version noch nicht getan haben:
@@ -130,4 +137,3 @@ Experience Manager-Handbücher verfügen über eine [**benutzerdefinierte Sling-
 Wenn Sie einen anderen benutzerdefinierten Sling-Rewriter in Ihrer Codebase haben, verwenden Sie eine `'order'` Wert größer als 50, da der Experience Manager Guides Sling Rewriter verwendet `'order'` 50. Um dies zu überschreiben, benötigen Sie einen Wert > 50. Weitere Informationen finden Sie unter [Pipelines zum Neuschreiben der Ausgabe](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 Während dieses Upgrades, seit der `'order'` -Wert von 1000 auf 50 geändert wird, müssen Sie die vorhandene benutzerdefinierte Rewriter, sofern vorhanden, mit `fmdita-rewriter`.
-
