@@ -1,19 +1,19 @@
 ---
 title: Symbol für benutzerdefinierte Datentypen konfigurieren
 description: Erfahren Sie, wie Sie das Symbol für benutzerdefinierte Datentypen definieren, um deren Symbol auf verschiedenen Benutzeroberflächen in AEM anzuzeigen.
-source-git-commit: 60d4aeec9841fdab8ff97d975fbbe4a640ccf9e8
+source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-# Symbol für benutzerdefinierte Diatetypen (Thema oder Zuordnung) konfigurieren
+# Symbol für benutzerdefinierte/spezialisierte Datentypen (Thema oder Zuordnung) konfigurieren
 
 
 ## Problem-Anweisung
 
-Mit dem benutzerdefinierten Schema, das in AEM Guides verwendet wird, können Sie benutzerdefinierte Themen- oder Zuordnungstypen erstellen. Dabei können Sie bemerken, dass die benutzerdefinierten Themen/Zuordnungen im Web-Editor oder in der Assets-Benutzeroberfläche nicht als Symbol angezeigt werden. Siehe unten Screenshot als Referenz.
+Mit dem benutzerdefinierten Schema, das in AEM Guides verwendet wird, können Sie benutzerdefinierte Themen- oder Zuordnungstypen erstellen, sodass Sie feststellen können, dass die benutzerdefinierten Themen-/Zuordnungstypen in der Web-Editor- oder Assets-Benutzeroberfläche nicht als Symbol angezeigt werden. Siehe unten Screenshot als Referenz.
 
 ![Screenshot als Referenz](../assets/authoring/custom-ditatype-icon-notshown.png)
 
