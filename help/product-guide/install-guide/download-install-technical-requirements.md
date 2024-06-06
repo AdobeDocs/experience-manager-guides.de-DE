@@ -5,9 +5,9 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 60e905bf4027ee6c0390bf067b95517ab770ed7b
+source-git-commit: eb6d678a27f5a000b83dbc662f4f9ddbba68d8f9
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '93'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,11 @@ Stellen Sie vor der Installation AEM Guides 4.4 sicher, dass Ihr System die folg
 
 **Adobe Experience Manager**
 
-- Version 6.5 Service Pack 19, 18 oder 17
+- Version 6.5 Service Pack 20, 19, 18 oder 17
 
 >[!IMPORTANT]
 >
-> Für die Generierung AEM Site-Ausgabe muss Ihre AEM Veröffentlichungsinstanz über Service Pack 19, 18 oder 17 verfügen.
+> Für die Generierung AEM Site-Ausgabe muss Ihre AEM Veröffentlichungsinstanz über Service Pack 20, 19, 18 oder 17 verfügen.
 
 **Betriebssysteme**
 

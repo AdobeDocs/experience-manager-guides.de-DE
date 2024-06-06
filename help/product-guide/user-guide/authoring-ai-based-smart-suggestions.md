@@ -1,14 +1,13 @@
 ---
 title: KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten
 description: Erfahren Sie, wie Sie KI-gestützte intelligente Vorschläge im Web-Editor anzeigen und nutzen können.
-source-git-commit: eea4a30b91fd5c28647fd7ea95dd8058ec411adc
+exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
+source-git-commit: 75425d82ee55485503ea6678030c5e919e50a691
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
-
-
 
 # KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten
 
@@ -76,6 +75,8 @@ Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hin
 1. Sie können auch **Accept** oder **Ablehnen** im **Inhaltswiederverwendung** Empfehlungen für die entsprechenden Empfehlungen.
 
 
-
 Diese intelligente Funktion ist praktisch und minimiert den Aufwand für die manuelle Inhaltssuche, sodass Sie sich mehr auf die Erstellung neuer Inhalte konzentrieren können. Außerdem wird eine bessere Teamzusammenarbeit ermöglicht und die Konsistenz der von verschiedenen Autoren erstellten Inhalte wird gewahrt.
 
+>[!NOTE]
+>
+>Intelligente Vorschläge behalten Ihre Daten nicht über die aktuelle Sitzung hinaus bei. Bei Antworten basieren intelligente Vorschläge ausschließlich auf dem Index, der für den in Ihrer internen Datenbank enthaltenen Inhalt erstellt wurde. Externe KI-Tools werden nicht verwendet, um sicherzustellen, dass Ihre Daten im System verbleiben.
