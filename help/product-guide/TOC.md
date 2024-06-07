@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 56fa545f1dd32bcc3ec533cffb14a364b934ba20
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 6%
+source-wordcount: '1815'
+ht-degree: 7%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 6%
       - Cloud Services {#cloud-release-notes}
          - [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
          - Versionen 2024 {#2024-releases}
+            - Version 2024.6.0 {#2406-release}
+               - [Neuerungen](./release-info/whats-new-2024-06-0.md)
+               - [Behobene Probleme](./release-info/fixed-issues-2024-06-0.md)
+               - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2024-06-0.md)
             - Version 2024.4.0 {#2404-release}
                - [Neuerungen](./release-info/whats-new-2024-04-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2024-04-0.md)
@@ -121,6 +125,7 @@ ht-degree: 6%
                - [Web-Editor-Ansichten](./user-guide/web-editor-views.md)
                - [Unterstützung für Schematron-Dateien](./user-guide/support-schematron-file.md)
                - [KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten](./user-guide/authoring-ai-based-smart-suggestions.md)
+
                - [Erstellen von Markdown-Dokumenten aus dem Web Editor](./user-guide/web-editor-markdown-topic.md)
                - [Hinzufügen von Zitaten zu Ihrem Inhalt](./user-guide/web-editor-apply-citations.md)
                - [Daten aus Datenquellen verwenden](./user-guide/web-editor-content-snippet.md)
@@ -191,7 +196,8 @@ ht-degree: 6%
          - [Zusätzliche Sonderzeichen konfigurieren](./web-editor/configure-additional-special-characters.md)
       - [Verwalten von Veröffentlichungsaufgaben mit dem Veröffentlichungs-Dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Grundlegende Fehlerbehebung](./user-guide/generate-output-basic-troubleshooting.md)
-      - [In einem Inhaltsfragment veröffentlichen](./user-guide/publish-content-fragment.md)
+      - [Veröffentlichen von Inhaltsfragmenten](./user-guide/publish-content-fragment.md)
+      - [Experience Fragments veröffentlichen](./user-guide/publish-experience-fragment.md)
       - Massenaktivierung von Inhalten {#bulk-activation}
          - [Massenaktivierung veröffentlichter Inhalte](./user-guide/conf-bulk-activation.md)
          - [Erstellen einer Massen-Aktivierungszuordnung](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -240,10 +246,11 @@ ht-degree: 6%
       - Arbeiten mit benutzerdefinierten DITA-OT- und Spezialisierungen {#custom-dita-ot-spec}
          - [Verwenden einer benutzerdefinierten DITA-OT- und DITA-Spezialisierung](./install-guide/dita-ot-specialization.md)
       - Konfigurieren von UUID- und Nicht-UUID-basierten Dateinamen {#conf-non-uuid-filename}
-         - [Dateinamen konfigurieren](./install-guide/conf-file-names.md)
-         - [Automatische Dateinamen basierend auf UUID konfigurieren](./install-guide/conf-auto-uuid-filenames.md)
-         - [Konfigurieren von Regx für gültige Dateinamenzeichen](./install-guide/conf-file-names-valid-regx.md)
-         - [Gültige Dateinamen für AEM Site-Ausgabe konfigurieren](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - [Konfigurieren der Nachbearbeitung für einen Ordner](./install-guide/conf-folder-post-processing.md)
+      - [Dateinamen konfigurieren](./install-guide/conf-file-names.md)
+      - [Automatische Dateinamen basierend auf UUID konfigurieren](./install-guide/conf-auto-uuid-filenames.md)
+      - [Konfigurieren von Regx für gültige Dateinamenzeichen](./install-guide/conf-file-names-valid-regx.md)
+      - [Gültige Dateinamen für AEM Site-Ausgabe konfigurieren](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - Arbeiten mit Themen- und Zuordnungsvorlagen {#topic-map-template}
          - [Konfigurieren von Themen- und Zuordnungsvorlagen](./install-guide/conf-template-tags.md)
          - [Benutzerdefinierte DITA-Themenvorlage konfigurieren](./install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -287,6 +294,7 @@ ht-degree: 6%
             - [Seitenlayout erstellen](./native-pdf/design-page-layout.md)
             - [Variablen in der PDF-Ausgabe](./native-pdf/native-pdf-variables.md)
             - [Unterstützung für Sprachvariablen](./native-pdf/native-pdf-language-variables.md)
+            - [Barcode zur PDF-Ausgabe hinzufügen](./native-pdf/add-barcode.md)
             - Allgemeine Inhaltsstile {#content-styles}
                - [Arbeiten mit allgemeinen Inhaltsstilen](./native-pdf/stylesheet.md)
                - [Arbeiten mit benutzerdefinierten Änderungsbalkenstilen](./native-pdf/change-bar-style.md)
@@ -295,8 +303,7 @@ ht-degree: 6%
                - [Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil](./native-pdf/use-javascript-content-style.md)
                - [Stile auf Fußnoten anwenden](./native-pdf/footnote-number-style.md)
          - [JVM-Flags für native PDF-Veröffentlichung konfigurieren](./native-pdf/configure-jvm-flags.md)
-         - [Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](./install-guide/conf-content-fragment-mapping.md)
-      - Arbeiten mit benutzerdefinierten Workflows {#custom-workflow}
+         - Arbeiten mit benutzerdefinierten Workflows {#custom-workflow}
          - [Workflows konfigurieren und anpassen](./install-guide/customize-workflows.md)
       - Arbeiten mit Übersetzungskonfigurationen {#translate-config}
          - [Inhalte übersetzen](./install-guide/translation.md)
@@ -365,6 +372,7 @@ ht-degree: 6%
          - [Native PDF-Veröffentlichung](./cs-install-guide/native-pdf-publishing.md)
          - [Konfigurieren des Knotenprozesses für die native PDF-Veröffentlichung](./native-pdf/configure-node-options.md)
          - [Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
+         - [Erstellen einer Zuordnung zwischen einem Thema und einem Experience Fragment](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
       - Arbeiten mit benutzerdefinierten Workflows {#custom-workflow-cs}
          - [Workflows konfigurieren und anpassen](./cs-install-guide/customize-workflows.md)
       - Arbeiten mit Übersetzungskonfigurationen {#translate-config-cs}

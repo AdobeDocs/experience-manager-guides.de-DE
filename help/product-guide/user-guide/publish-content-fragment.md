@@ -4,66 +4,94 @@ description: Veröffentlichen Sie ein Thema oder die Elemente innerhalb eines Th
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 7c7e3dcddf733793a5d6db50205ba60d24702451
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 0%
+source-wordcount: '925'
+ht-degree: 1%
 
 ---
 
-# In einem Inhaltsfragment veröffentlichen
+# Veröffentlichen von Inhaltsfragmenten
 
-Inhaltsfragmente sind separate Inhaltsfragmente in AEM. Sie sind strukturierte Inhalte, die auf einem Inhaltsmodell basieren. Inhaltsfragmente sind reine Inhalte ohne Design- oder Layoutinformationen. Sie können unabhängig von den von AEM unterstützten Kanälen erstellt und verwaltet werden. Inhaltsfragmente sind modular, wobei Inhalte in kleinere Komponenten unterteilt werden.
+Inhaltsfragmente sind separate Inhaltsfragmente in Adobe Experience Manager. Sie sind strukturierte Inhalte, die auf einem Inhaltsmodell basieren. Inhaltsfragmente sind reine Inhalte ohne Design- oder Layoutinformationen. Sie können unabhängig von den von Adobe Experience Manager unterstützten Kanälen erstellt und verwaltet werden. Inhaltsfragmente sind modular, wobei Inhalte in kleinere Komponenten unterteilt werden.
 
-Mit AEM Guides können Sie ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment veröffentlichen. Sie können eine JSON-basierte Zuordnung zwischen einem Thema und einem Inhaltsfragmentmodell erstellen. Verwenden Sie diese Zuordnung, um ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment zu veröffentlichen. Sie können dann Inhaltsfragmente in jeder beliebigen AEM-Site verwenden oder die Details über APIs extrahieren, die von Inhaltsfragmenten unterstützt werden.
+Mit Adobe Experience Manager-Handbüchern können Sie ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment veröffentlichen. Sie können eine JSON-basierte Zuordnung zwischen einem Thema und einem Inhaltsfragmentmodell erstellen. Verwenden Sie diese Zuordnung, um ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment zu veröffentlichen. Anschließend können Sie Inhaltsfragmente auf jeder beliebigen Adobe Experience Manager-Site verwenden oder die Details über APIs extrahieren, die von Inhaltsfragmenten unterstützt werden.
 
 
 Gehen Sie wie folgt vor, um ein Inhaltsfragment zu erstellen:
 
-1. Erstellen Sie eine [Inhaltsfragmentmodell](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=de) in AEM Assets.
+1. Erstellen Sie eine [Inhaltsfragmentmodell](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=de) in Adobe Experience Manager Assets.
 1. Erstellen Sie einen Ordner, in dem Sie die Inhaltsfragmente speichern möchten, die Sie basierend auf dem Inhaltsfragmentmodell erstellen. Beispiel: &quot;stock-content-fragments&quot;.
 1. Bearbeiten Sie die Eigenschaften des Ordners (z. B. &quot;stock-content-fragments&quot;) und fügen Sie den Pfad des Ordners hinzu, der das Inhaltsfragmentmodell in der Cloud-Konfiguration enthält.
 Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration. Diese Konfiguration verbindet alle Inhaltsfragmentmodelle mit dem Ordner .\
    ![Cloud-Konfigurationsdetails in den Ordnereigenschaften hinzufügen](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
    *Fügen Sie die Cloud-Konfiguration in den Ordnereigenschaften hinzu, um sie mit den Fragmentmodellen zu verbinden.*
-1. Wählen Sie das Thema aus, das Sie im **Repository-Ansicht**.
-1. Aus dem **Optionen** Menü auswählen **Veröffentlichen als** > **Inhaltsfragment**.
-1. Im **Als Inhaltsfragment veröffentlichen** das folgende Dialogfeld ausfüllen:
-   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Inhaltsfragment veröffentlichen hinzu](images/content-fragment-publish.png){width="500" align="left"}
+
+1. Um ein Inhaltsfragment zu erstellen, wählen Sie **Neue Ausgabe** ![Neues Ausgabesymbol](./images/Add_icon.svg) aus dem **Ausgaben** im Abschnitt **Dateieigenschaften** eines Themas.
+1. Auswählen **Inhaltsfragment**.\
+   ![Registerkarte &quot;Dateieigenschaften&quot;](./images/file-properties-outputs-tab.png){width="300" align="left"}
+
+   *Hinzufügen eines neuen Inhaltsfragments aus den Dateieigenschaften eines Themas*.
+
+1. Im **Inhaltsfragment generieren** Geben Sie die folgenden Details ein:
+   ![Fragmentmodell und Zuordnungsdetails im Dialogfeld Als Inhaltsfragment veröffentlichen hinzufügen](images/content-fragment-publish.png){width="500" align="left"}
    *Fügen Sie die Pfad-, Modell- und Zuordnungsdetails hinzu, um ein Thema oder seine Elemente als Inhaltsfragment zu veröffentlichen. Sie können ein vorhandenes Inhaltsfragment überschreiben.*
 
-   * **Pfad**: Durchsuchen und wählen Sie den Pfad des Ordners aus, in dem Sie das Inhaltsfragment veröffentlichen möchten. Sie können auch ein vorhandenes Inhaltsfragment auswählen und veröffentlichen.
-   * **Titel**: Geben Sie den Titel des Inhaltsfragments ein.
-   * **Name**: Geben Sie den Namen des Inhaltsfragments ein.
+   >[!NOTE]
+   >
+   >Sie können ein Inhaltsfragment auch über die **Repository-Ansicht**. Wählen Sie das Thema aus, das Sie als Inhaltsfragment veröffentlichen möchten. Dann aus dem **Optionen** Menü auswählen **Veröffentlichen als** > **Inhaltsfragment**.
+
+   * **Pfad**: Durchsuchen und wählen Sie den Pfad des Ordners aus, in dem Sie das Inhaltsfragment veröffentlichen möchten. Wenn Sie ein vorhandenes Inhaltsfragment auswählen, wird der Inhalt der zugeordneten Felder überschrieben.
+   * **Titel**: Geben Sie den Titel des Inhaltsfragments ein. Standardmäßig wird der Titel mit dem Titel des Themas gefüllt. Sie können sie bearbeiten. Mit diesem Titel wird der Name des Inhaltsfragments generiert.
+   * **Name**: Geben Sie den Namen des Inhaltsfragments ein. Standardmäßig wird der Name mit dem Titel des Themas ausgefüllt und die Leerzeichen werden durch &quot;_&quot;ersetzt. Beispiel: *sample_content_fragment*. Sie können sie bearbeiten.  Mit diesem Namen wird die URL für das Inhaltsfragment generiert.
    * **Modell**: Wählen Sie das Inhaltsfragmentmodell aus, das Sie zum Erstellen Ihres Inhaltsfragments verwenden möchten. Die Modelle werden aus dem Ordner ausgewählt, den Sie in den Cloud-Services konfiguriert haben.
    * **Zuordnung**: Wählen Sie eine Zuordnung aus der Dropdown-Liste aus. Es wählt die Zuordnungen aus der *contentFragmentMapping.json* -Datei.
 
 
 
-     Je nach Einrichtung kann Ihr Administrator die Zuordnungen im *contentFragmentMapping.json* -Datei.
+     Ihr Administrator kann die Zuordnungen im *contentFragmentMapping.json* -Datei. Erfahren Sie mehr über das [Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) im Installations- und Konfigurationshandbuch.
 
-     <details>
-        <summary>Cloud Services</summary>
+   * Sie können auch verschiedene Bedingungen auswählen, um den Inhalt zu veröffentlichen.  Wählen Sie eine der folgenden Optionen aus:
 
-     Erfahren Sie mehr über das [Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) im Cloud Service-Installations- und Konfigurationshandbuch.
-     </details>
 
-     <details>
-        <summary> On-Premise Software</summary>
+      * **Keines**: Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die veröffentlichte Ausgabe anwenden möchten.
+      * **Verwenden von DITAVAL**: Wählen Sie die zu erzeugende DITAVAL-Datei aus, die spezifischen Inhalt enthält. Sie können die DITAVAL-Datei über das Dialogfeld &quot;Durchsuchen&quot;oder durch Eingabe des Dateipfads auswählen.
+      * **Verwenden von Attributen**: Sie können Bedingungsattribute in Ihren DITA-Themen definieren. Wählen Sie dann das Bedingungsattribut aus, um den relevanten Inhalt zu veröffentlichen.
+     >[!NOTE]
+     > 
+     >Bedingungen werden nur aktiviert, wenn im Thema Bedingungsattribute definiert sind.
 
-     Erfahren Sie mehr über das [Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](../install-guide/conf-content-fragment-mapping.md) im On-Premise-Installations- und Konfigurationshandbuch.
 
-     </details>
-   * Wählen Sie die **Überschreiben** aktivieren, wenn Ihr Inhaltsfragment bereits existiert und Sie es überschreiben möchten. AEM Guides zeigt einen Fehler an, wenn Sie das Kontrollkästchen nicht aktivieren und Ihr Inhaltsfragment bereits existiert.
-1. Klicks **Erstellen** , um das Inhaltsfragment zu veröffentlichen.
-1. Sie können die Inhaltsfragmente für ein Thema unter dem **Fragmente** im Abschnitt **Dateieigenschaften**.
 
-   ![Inhaltsfragmente für ein Thema anzeigen](images/topic-content-fragments.png){width="300" align="left"}
+   * Auswählen **Vorhandenen Inhalt überschreiben** wenn Ihr Inhaltsfragment bereits existiert und Sie es überschreiben möchten. In den Experience Manager-Handbüchern wird ein Fehler angezeigt, wenn Sie das Kontrollkästchen nicht aktivieren und das Inhaltsfragment bereits vorhanden ist.
+1. Klicks **Erzeugen** , um das Inhaltsfragment zu veröffentlichen.
+
+1. Sie können die Inhaltsfragmente für ein Thema unter dem **Ausgaben** im Abschnitt **Dateieigenschaften**.
+
+   ![Anzeigen von Inhaltsfragmenten für ein Thema](images/outputs-options-menu.png){width="300" align="left"}
 
    *Zeigen Sie die für ein Thema vorhandenen Inhaltsfragmente an und veröffentlichen Sie sie erneut.*
 
-Sie können das Inhaltsfragment auch erneut veröffentlichen, um das Inhaltsfragment mit dem neuesten Inhalt aus dem DITA-Thema zu aktualisieren.
+
+Nachdem Sie die Inhaltsfragmente veröffentlicht haben, können Sie sie auch auf jeder beliebigen Adobe Experience Manager-Site verwenden.
 
 
 
-Nachdem Sie die Inhaltsfragmente veröffentlicht haben, können Sie sie auch auf jeder beliebigen AEM verwenden.
+
+## Menü &quot;Optionen&quot;für ein Inhaltsfragment
+
+Sie können auch die folgenden Aktionen für ein Inhaltsfragment aus dem **Optionen** Menü:
+
+* **Erzeugen**: Veröffentlichen Sie das Inhaltsfragment erneut, um es mit dem neuesten Inhalt aus dem DITA-Thema zu aktualisieren. Wenn Sie die Ausgabe neu generieren, können Sie Pfad, Name, Titel, Modell und Zuordnung des Inhaltsfragments nicht ändern. Sie können jedoch beim erneuten Generieren der Ausgabe unterschiedliche Bedingungen auswählen.
+
+* **Duplizieren**: Duplizieren Sie ein Inhaltsfragment. Sie können den Pfad, Namen, Titel, Modell und die Zuordnung ändern. Sie können beim Duplizieren eines Inhaltsfragments auch andere Bedingungen auswählen.
+
+* **Entfernen**: Entfernt ein Inhaltsfragment aus der Ausgabeliste. Eine Bestätigungsaufforderung wird angezeigt. Nach der Bestätigung wird das Inhaltsfragment aus dem **Ausgaben** Liste.
+
+  >[!NOTE]
+  >
+  > Durch diese Aktion wird kein Inhalt aus dem Inhaltsfragment gelöscht.
+
+* **Ansicht**: Zeigen Sie den Inhaltsfragment-Editor an. Sie können auch Änderungen vornehmen und speichern.
+
+

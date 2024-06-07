@@ -5,16 +5,16 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
 # Inhalte übersetzen {#id181GB0400UI}
 
-Automatisieren Sie die Übersetzung von Seiteninhalten, Assets und benutzergenerierten Inhalten, um mehrsprachige Websites zu erstellen und zu verwalten. Um Übersetzungs-Workflows zu automatisieren, integrieren Sie Übersetzungsdienstleister in AEM und erstellen Sie Projekte für die Übersetzung von Inhalten in mehrere Sprachen. AEM unterstützt Workflows für menschliche und maschinelle Übersetzungen.
+Automatisieren Sie die Übersetzung von Seiteninhalten, Assets und benutzergenerierten Inhalten, um mehrsprachige Websites zu erstellen und zu pflegen. Um Übersetzungs-Workflows zu automatisieren, integrieren Sie Übersetzungsdienstleister in AEM und erstellen Sie Projekte für die Übersetzung von Inhalten in mehrere Sprachen. AEM unterstützt Workflows für menschliche und maschinelle Übersetzungen.
 
 - Menschliche Übersetzung: Inhalte werden an Ihren Übersetzungsdienstleister gesendet und von professionellen Übersetzern übersetzt. Wenn die Inhalte übersetzt wurden, werden sie zurückgesendet und in AEM importiert. Wenn Ihr Übersetzungsanbieter in AEM integriert ist, werden Inhalte automatisch zwischen AEM und dem Übersetzungsanbieter ausgetauscht
 
@@ -92,7 +92,39 @@ Basierend auf dem in Ihrer Einrichtung verwendeten Übersetzungs-Workflow sollte
 
 1. Klicken Sie auf **Speichern**.
 
+<!---
 
+This was added for 2406 CS IG
+
+## Configure the legacy translation workflow 
+
+It is recommended that you use the latest translation workflow, which provides enhanced performance. However, you can configure the legacy translation workflow if necessary.
+
+Based on the translation workflow used in your setup, provide the following (property) details to configure the legacy translation workflow: the component-based translation workflow option should be configured as follows:
+
+1.  Open the Adobe Experience Manager Web Console Configuration page.
+
+    The default URL to access the configuration page is:
+
+    ! Add the syntax of http as given in previous config
+
+    Note: Configure htttp code as given in previous sample
+    
+
+1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
+
+
+
+1.  Configure the **Run legacy translation workflow** option as per your setup:
+
+    -   If you use the latest translation workflow, then *Disable* \( `false`\) the **Run legacy translation workflow** option. The latest translation workflow is enabled by default. <br> 
+
+    -   If you use the legacy translation, then *Enable \( `true`\)* the **Run legacy translation workflow** option.
+
+1.  Click **Save**.
+
+
+--->
 >[!IMPORTANT]
 >
 > Nachdem Sie die Übersetzungskonfigurationen eingerichtet haben, stellen Sie sicher, dass Sie die entsprechende Cloud-Konfiguration für die Sprachordner einrichten.

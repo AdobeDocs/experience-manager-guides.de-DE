@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die native PDF-Veröffentlichung verwenden, e
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: e78749b1d5b4ba944cbca69ba65c6d28355b2c34
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3362'
 ht-degree: 1%
 
 ---
@@ -212,3 +212,10 @@ Wenn Sie die **Herunterladen temporärer Dateien** in den erweiterten Einstellun
 
 AEM Guides unterstützen auch Sprachvariablen. Auswählen **Sprachvariablen** <img src="./assets/language-variables.svg" width="25">  im linken Bereich eine lokalisierte Version der vordefinierten Beschriftungen wie Hinweis, Vorsicht und Warnung oder statischer Text in der PDF-Ausgabe definieren. Weitere Informationen finden Sie unter [Unterstützung für Sprachvariablen](../native-pdf/native-pdf-language-variables.md).
 
+
+
+### Unterstützung für Markdown-Dokumente
+
+Experience Manager-Handbücher unterstützen auch Ihre Markdown-Dokumente.  Markdown-Dateien sind einfach zu erstellen und bieten außerdem eine Vielzahl von Formatierungsoptionen. Erfahren Sie, wie [Erstellen von Markdown-Dokumenten aus dem Web Editor](../user-guide/web-editor-markdown-topic.md).
+
+Sie können die Markdown-Themen zu Ihrer DITA-Zuordnung hinzufügen und die PDF-Ausgabe mithilfe der nativen PDF-Ausgabevorgaben generieren.  Erfahren Sie, wie Sie [Erstellen einer PDF-Ausgabevorgabe](#create-a-pdf-output-preset-create-output-preset).

@@ -5,10 +5,10 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 15%
+source-wordcount: '756'
+ht-degree: 13%
 
 ---
 
@@ -68,9 +68,26 @@ Basierend auf dem in Ihrem Setup verwendeten Übersetzungs-Workflow sollte die O
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Boolesch: <br> - Wenn Sie eine menschliche Übersetzung verwenden, dann *Deaktivieren* \( `false`\) die **Komponentenbasierter Übersetzungs-Workflow** -Option. <br> - Wenn Sie maschinelle Übersetzung verwenden, dann *Aktivieren \( `true`\)* die **Komponentenbasierter Übersetzungs-Workflow** -Option. |
 
+
+
+## Konfigurieren des alten Übersetzungs-Workflows
+
+Es wird empfohlen, den neuesten Übersetzungs-Workflow zu verwenden, der die Leistung verbessert. Wenn Sie jedoch den alten Übersetzungs-Workflow verwenden möchten, können Sie ihn konfigurieren.
+
+Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden (Eigenschaft-)Details an, um den alten Übersetzungs-Workflow zu konfigurieren:
+
+
+
+
+| PID | Eigenschaftenschlüssel | Eigenschaftswert |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Boolesch: <br> - Wenn Sie den neuesten Übersetzungs-Workflow verwenden, dann *Deaktivieren* \( `false`\) die **Veralteten Übersetzungs-Workflow ausführen** -Option. Der neueste Übersetzungs-Workflow ist standardmäßig aktiviert. <br> - Wenn Sie die alte Übersetzung verwenden, dann *Aktivieren \( `true`\)* die **Veralteten Übersetzungs-Workflow ausführen** -Option. |
+
+
+
 >[!NOTE]
 >
-> Wenn Sie Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector wie im Abschnitt *[Konfigurieren des Übersetzungsintegrations-Frameworks](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* Thema in AEM Dokumentation.
+> Wenn Sie Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector wie im Abschnitt *[Konfigurieren des Übersetzungsintegrations-Frameworks](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* Thema in der Adobe Experience Manager-Dokumentation.
 
 >[!IMPORTANT]
 >

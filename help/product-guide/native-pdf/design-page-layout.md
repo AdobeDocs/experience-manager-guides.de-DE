@@ -5,9 +5,9 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
 workflow-type: tm+mt
-source-wordcount: '4825'
+source-wordcount: '4972'
 ht-degree: 0%
 
 ---
@@ -352,25 +352,39 @@ Felder sind sehr nützlich, wenn Sie vordefinierte Informationen einfügen möch
 
 Es gibt die folgenden Kategorien für Felder, die Sie in Ihr Seitenlayout einfügen können:
 
+* Metadaten
+* Thementitel
+* Kapiteltitel
+* Map Title
+* Seitenzahl
+* Kapitelnummer
+* Seiten insgesamt
 * Datum
 * Zeit
-* Thementitel
-* Projekttitel
-* Seitenzahl
-* Gesamtseite
-* Kapiteltitel
-* Kapitelnummer
-* Metadaten
+
 
 Jede dieser Feldkategorien enthält verschiedene Varianten, in die die Feldinformationen eingefügt werden können. Ein Datumsfeld kann beispielsweise unterschiedliche Varianten aufweisen, z. B. `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` und so weiter. Auf ähnliche Weise kann die Seitenzahl Variationen in Form von roman-, decimal- oder sogar gebietsschemaspezifischen Formaten wie _Arabisch_, _Devanagari_, _Hebräisch_ und mehr.
 
-Zusätzlich zu den vordefinierten Feldern können Sie auch Metadateninformationen als Variablen oder Felder in Ihrem Seitenlayout hinzufügen. Diese Metadaten werden in Ihrem Quell-DITA-Map-Inhalt gespeichert und können einfach in Ihr Seitenlayout eingefügt werden.
 
-Sie können auch die Metadateneigenschaften aus Ihren Assets auswählen und zum Seitenlayout hinzufügen. Die Asset-Metadaten werden dann für Ihre PDF-Ausgabe veröffentlicht. Diese Metadateneigenschaften der Assets werden über die **Eigenschaften** Seite der DITA-Map- oder Bookmap-Datei.
+Zusätzlich zu den vordefinierten Feldern können Sie auch Metadateninformationen als Variablen oder Felder in Ihrem Seitenlayout hinzufügen. Diese Metadaten werden in Ihrer Quell-DITA gespeichert. **Inhalt zuordnen** oder sie kann aus der DITA ausgewählt werden **Dateieigenschaften zuordnen** oder **Eigenschaften von Themendateien** und einfach in Ihr Seitenlayout eingefügt werden.
+
+Sie können die Metadaten aus den folgenden Optionen auswählen:
+
+* **Inhalt zuordnen** enthält die Metadaten, die Sie in der `<topicmeta>` -Element der DITA-Zuordnung.
+* **Dateieigenschaften zuordnen** enthält die Metadaten, auf die Sie über die **Eigenschaften** Seite einer DITA-Zuordnung.
+* **Eigenschaften von Themendateien** enthält die Metadaten, auf die Sie über die **Eigenschaften** Seite eines Themas.
+
+
+Sie können Metadaten aus **Dateieigenschaften zuordnen** und **Eigenschaften von Themendateien** in einem Dokument. Sie können beispielsweise eine PDF mit dem Zuordnungstitel auf der Titelseite und dem Thementitel in der Kopfzeile anderer Seiten veröffentlichen. Dazu können Sie die Metadaten für den Zuordnungstitel aus dem **Dateieigenschaften zuordnen** zum Layout der Titelseite. Fügen Sie dann die Metadaten für den Thementitel aus dem **Eigenschaften von Themendateien**  in die Kopfzeile des Seitenlayouts Kapitel und Themen.
+
+Wenn ein Thema auf einer Seite endet, während das andere auf derselben Seite beginnt, werden die Metadaten des ersten Themas ausgewählt. Sie können auch benutzerdefinierte Eigenschaften hinzufügen und diese dann als Felder in das Seitenlayout einfügen.
+
 
 >[!NOTE]
 >
 > Die Metadatenfelder werden entsprechend Ihrer Auswahl an Assets oder Zuordnungen im **Von** Dropdown.
+
+
 
 
 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
@@ -395,7 +409,7 @@ Im folgenden Beispiel werden wir eine Seitenzahl und einen Kapiteltitel in den F
 
 1. Wählen Sie die **Seitenzahl** in der Liste &quot;Feld&quot;die **default(1)** Seitennummernformat aus der Liste &quot;Format&quot;und klicken Sie auf **Einfügen**.
 
-   <img src="./assets/insert-page-number-field.svg" width="400">
+   <img src="./assets/insert-page-number-field.png" width="400">
 
    >[!NOTE]
    >

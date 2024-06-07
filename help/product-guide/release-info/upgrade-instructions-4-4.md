@@ -2,10 +2,11 @@
 title: Versionshinweise | Aktualisierungsanweisungen für die Version 4.4.0 der Adobe Experience Manager-Handbücher
 description: Erfahren Sie, wie Sie auf die Version 4.4.0 der Adobe Experience Manager-Handbücher aktualisieren.
 role: Leader
-source-git-commit: 2209fd311ca1ad524db35633b8be22f6d303346d
+exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
+source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '461'
+ht-degree: 5%
 
 ---
 
@@ -27,10 +28,10 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 ### Adobe Experience Manager
 
 **4.4.0 Nicht-UUID**
-Version 6.5 Service Pack 19, 18, 17
+Version 6.5 Service Pack 20, 19, 18 oder 17
 
 **4.4.0 UUID**
-Version 6.5 Service Pack 19, 18, 17
+Version 6.5 Service Pack 20, 19, 18 oder 17
 
 
 Weitere Informationen finden Sie unter [Technische Anforderungen](../install-guide/download-install-technical-requirements.md) im On-Premise-Installations- und Konfigurationshandbuch beschrieben.
@@ -82,4 +83,3 @@ Sie können Ihre aktuelle Version von Guides einfach auf Version 4.4.0 aktualisi
 >Sie müssen AEM Service Pack installieren, bevor Sie die Experience Manager Guides-Version aktualisieren.
 
 Für Details, Ansicht [Upgrade-Anweisungen für On-Premise-Versionen](../install-guide/upgrade-xml-documentation.md) von Experience Manager-Guides.
-

@@ -4,7 +4,7 @@ description: Weitere Funktionen des Webeditors finden Sie in AEM Handbüchern. E
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -182,6 +182,7 @@ Wenn Sie eine Gleichung mit dem MathML-Editor einfügen, wird die Gleichung in d
 **Fußnoten einfügen**
 
 - Fügen Sie mithilfe der `fn` -Element. Im Authoring-Modus wird der Wert der Fußnote inline mit dem Inhalt angezeigt. Wenn Sie jedoch den Vorschaumodus wechseln oder Ihr Dokument veröffentlichen, wird die Fußnote am Ende des Themas angezeigt.
+
 
 **Element umbenennen oder ersetzen**
 

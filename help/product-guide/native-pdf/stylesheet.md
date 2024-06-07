@@ -5,9 +5,9 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
 workflow-type: tm+mt
-source-wordcount: '3525'
+source-wordcount: '3778'
 ht-degree: 1%
 
 ---
@@ -374,3 +374,63 @@ Im folgenden Beispiel wird der Titel eines neuen Fensters (`wintitle`) style:
 Der folgende Screenshot zeigt den wintitle-Stil, der auf den Text &quot;Primäre Kontrolle&quot;angewendet wird.
 
 <img src="./assets/other-style-wintitle.png" width="500">
+
+
+## Eindeutigen Stil für ein Einzelseitenlayout definieren
+
+Beim Veröffentlichen der nativen PDF-Ausgabe werden alle Stile in der endgültigen PDF zusammengeführt. Es ist wichtig, jeder Vorlage in der CSS einen eindeutigen Stil zuzuweisen.
+Verwenden Sie unterschiedliche CSS-Stilnamen, um bestimmte Schriftarten und Stile auf verschiedene Bereiche einer PDF anzuwenden. Sie können beispielsweise die gewünschte Schriftart für die Titelseite mithilfe des folgenden CSS definieren.
+
+```css
+...
+[data-page-layout="Front"] * { 
+    font-size: 18pt; 
+}  
+...
+```
+
+
+Der Rest des Dokuments verwendet die Standardschrift, die Sie für das Body-Tag in `content.css` oder `layout.css`. Dadurch wird sichergestellt, dass Stile nicht zusammengeführt werden und jeder Abschnitt sein beabsichtigtes Design behält. Wenn Sie unterschiedliche Schriftgrößen wünschen, erstellen Sie spezifische Stile für sie.
+
+Sie können beispielsweise die folgenden Stile definieren, um die Schriftgröße 18 für die Titelseitenabsätze und die Schriftgröße 11 pt für die Titelseite zu definieren:
+
+```css
+[data-page-layout="Front"] p { //For all paragraphs inside Front page
+  font-size: 18pt; 
+} 
+  
+[data-page-layout="Back"] p { //For all paragraphs inside Back page
+  font-size: 11pt; 
+}
+```
+
+>[!NOTE]
+>
+Im vorherigen Beispiel sind &quot;Vorder&quot;und &quot;Zurück&quot;die Beispielnamen der Layout-Dateien, die Sie in den Vorlagen verwenden können.
+
+
+## Definieren eines benutzerdefinierten CSS-Stils für Präfix- und Suffix-Inhalte
+
+Wenn Sie die benutzerdefinierten CSS-Stile definieren, erhalten diese beim Generieren der nativen PDF-Ausgabe die erste Priorität.
+Der folgende standardmäßige CSS-Stil blendet sowohl Präfix- als auch Suffix-Inhalt aus.
+
+```css
+...
+.prefix-content, .suffix-content{
+    display: none;
+} 
+...
+```
+
+So lassen Sie diese Präfixe im `<note>` -Element verwenden, fügen Sie die folgende CSS in Ihre `content.css`:
+
+```css
+...
+.prefix-content{
+    display: inline !important;
+}
+...
+```
+
+Die `<note>` -Element generiert eine zusätzliche `<span>` mit dem Klassenpräfix-content, das seinem Typattribut entspricht. Diese CSS-Regel zielt auf die `.prefix-content` -Klasse `<note>` -Elemente mit einem Typattribut verwenden, sodass Sie den Präfixinhalt nach Bedarf gestalten oder bearbeiten können.
+

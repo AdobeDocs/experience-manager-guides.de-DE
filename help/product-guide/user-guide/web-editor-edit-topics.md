@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Themen im Web-Editor bearbeiten können. Erfa
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,24 @@ Der Web Editor verfügt über eine Reihe von Bearbeitungsfunktionen, mit denen S
    >[!NOTE]
    >
    > Wenn Sie keine Änderungen in AEM Repository übertragen möchten, klicken Sie auf **Schließen** und klicken Sie anschließend auf **Ohne Speichern schließen** im Dialogfeld Nicht gespeicherte Änderungen .
+
+
+## Teilauswahl von Inhalten über Elemente hinweg
+
+Mit Experience Manager-Handbüchern können Sie auch Inhalte elementübergreifend auswählen. Nach Auswahl des Inhalts können Sie die folgenden Vorgänge ausführen:
+- Formatierung und Löschen: Machen Sie den ausgewählten Inhalt fett, kursiv, unterstrichen oder löschen Sie ihn sogar. Der Inhalt der gültigen offenen Tags wird dann zusammengeführt und unter einem einzelnen Element angezeigt. Sie können beispielsweise den Inhalt eines Absatzes auswählen und die Auswahl auf einen anderen Absatz erweitern. Wenn Sie dann den ausgewählten Inhalt fett formatieren, werden alle fett gedruckten Inhalte der geöffneten Tags zusammengeführt und unter einem einzigen Absatzelement angezeigt.
+
+Wenn Sie den ausgewählten Inhalt löschen, wird der verbleibende Inhalt nach dem Löschen in den geöffneten Tags zusammengeführt.
+
+- Um den Inhalt mit einem gültigen Element zu umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element zu umgeben:
+   - Wählen Sie den Inhalt eines Elements aus.
+   - Wählen Sie die ![add](images/Add_icon.svg) über das Symbol in der sekundären Symbolleiste am oberen Rand, um die **Umgeben mit Element** Dialogfeld. Im Dialogfeld werden die gültigen Elemente für den ausgewählten Inhalt aufgelistet.
+     >[!NOTE]
+     >
+     > Sie können auch das Dialogfeld Umfrage mit Element anzeigen, indem Sie das Kontextmenü des ausgewählten Inhalts auswählen.
+
+   - Wählen Sie im Dialogfeld ein Element aus. Der ausgewählte Inhalt wird unter diesem Element eingeschlossen. Wenn Sie beispielsweise den Inhalt in einem Absatz auswählen und dann die `<note>` -Element aus **Umgeben mit Element** angezeigt, wird der ausgewählte Inhalt unter einem Hinweis angezeigt.\
+     ![Dialogfeld &quot;Umgehendes Element&quot;](./images/surround-element.png) {width="300" align="left"}
 
 ## Aktualisieren des Browsers beim Bearbeiten der Dateien
 

@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 32da48d82b1267bb220424edf385035426293b66
+source-git-commit: b95a64ca2e8ebffebec3d8ff8704f76f7faceca2
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,17 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 **Gültige Werte**
 
-`preview` oder `publish` für Cloud Service und `publish` für On-Premise Software
+`preview` oder `publish` für Cloud Service und `publish` für On-Premise-Software
 
-Wenn der Parameter einen ungültig-Wert enthält, schlägt die Aktivierung des Pakets fehl. Das folgende Beispiel zeigt den API-Aufruf mithilfe des curl-Befehls mit optionalem Parameter:
+- Wenn der Parameter zum Cloud Service einen ungültig-Wert enthält, schlägt das Paket Aktivierung fehl.
+
+- Wenn bei On-Premise-Software der Parameter einen ungültig-Wert enthält, wird der Fehler protokolliert, und die Veröffentlichung erfolgt mit dem Standardwert `publish`.
+
+Wenn Sie den optionalen Parameter nicht definieren, `activationTarget`wird er unter Verwendung des standardmäßigen veröffentlichen Agenten sowohl für Cloud Service als auch für On-Premise-Software aktiviert.
+
+
+
+Das folgende Beispiel zeigt den API-Aufruf mithilfe des curl-Befehls mit optionalem Parameter:
 
 
     &#39;&#39;&#39;XML

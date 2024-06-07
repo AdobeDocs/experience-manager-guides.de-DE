@@ -5,9 +5,9 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,10 @@ Die `activate` -Methode erstellt ein CRX-Paket auf der Autoreninstanz und repliz
 >
 > Während der Erstellung oder Aktivierung aufgetretene Fehler werden in die `outputstream`.
 
+### Beispiel mit zwei Parametern
+
 **Syntax**:
+
 
 ```JAVA
 public static void activate
@@ -54,9 +57,28 @@ public static void activate
 throws GuidesApiException
 ```
 
-**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`json`|Zeichenfolge|JSON-Zeichenfolge, die das zu erstellende CRX-Paket bestimmt. Verwenden Sie das folgende Format, um die JSON-Zeichenfolge zu erstellen: <br>- `activate`: Ist vom Typ Boolesch \(`true`/`false`\). Bestimmt, ob das in der Autoreninstanz erstellte CRX-Paket auf die Veröffentlichungsinstanz repliziert wird. <br> - `rules`: weist den Typ JSON-Array auf. Ein Array von JSON-Regeln, die nacheinander verarbeitet werden, um das CRX-Paket zu erstellen. <br> - `rootPath`: Ist vom Typ String. Der Basispfad, auf dem die Knoten-/Eigenschaftenabfragen ausgeführt werden. Wenn keine Knoten-/Eigenschaftenabfragen vorhanden sind, werden der Stammpfad und alle unter dem Stammpfad vorhandenen Knoten im CRX-Paket enthalten. <br> - `nodeQueries`: ist vom Typ Regex-Array. Ein Array von regulären Ausdrücken, die verwendet werden, um bestimmte Dateien unter dem Stammpfad einzuschließen. <br> - `propertyQueries`: weist den Typ JSON-Array auf. Ein Array von JSON-Objekten mit jedem JSON-Objekt, das aus einer XPath-Abfrage besteht, die auf dem Stammpfad ausgeführt werden soll, und dem Namen einer Eigenschaft, die in jedem JCR-Knoten vorhanden ist, nachdem die Abfrage ausgeführt wurde. Der Wert der Eigenschaft in jedem JCR-Knoten sollte ein Pfad oder ein Array von Pfaden sein. Die in dieser Eigenschaft vorhandenen Pfade werden dem CRX-Paket hinzugefügt.| |`outputstream`|java.io.OutputStream|Dies wird verwendet, um das Ergebnis verschiedener Phasen zu schreiben, z. B. die Ausführung von Abfragen, die Aufnahme von Dateien, die Erstellung von CRX-Paketen oder die Aktivierung. Jeder Fehler, der während des Erstellungs- oder Aktivierungsprozesses auftritt, wird in die `outputstream`. Dies ist für das Debugging nützlich.| |`session`|Zeichenfolge|Eine gültige JCR-Sitzung mit Aktivierungsberechtigung.|
+### Beispiel mit drittem optionalen Parameter
 
-**Ausnahme**: Threads ``java.io.IOException``.
+```JAVA
+public static void activate
+(
+  String json, 
+  OutputStream outputstream,
+  String activationTarget, 
+  Session session
+) 
+throws GuidesApiException
+```
+
+**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`json`|Zeichenfolge|JSON-Zeichenfolge, die das zu erstellende CRX-Paket bestimmt. Verwenden Sie das folgende Format, um die JSON-Zeichenfolge zu erstellen: <br>- `activate`: Ist vom Typ Boolesch \(`true`/`false`\). Bestimmt, ob das in der Autoreninstanz erstellte CRX-Paket auf die Veröffentlichungsinstanz repliziert wird. <br> - `rules`: weist den Typ JSON-Array auf. Ein Array von JSON-Regeln, die nacheinander verarbeitet werden, um das CRX-Paket zu erstellen. <br> - `rootPath`: Ist vom Typ String. Der Basispfad, auf dem die Knoten-/Eigenschaftenabfragen ausgeführt werden. Wenn keine Knoten-/Eigenschaftenabfragen vorhanden sind, werden der Stammpfad und alle unter dem Stammpfad vorhandenen Knoten im CRX-Paket enthalten. <br> - `nodeQueries`: ist vom Typ Regex-Array. Ein Array von regulären Ausdrücken, die verwendet werden, um bestimmte Dateien unter dem Stammpfad einzuschließen. <br> - `propertyQueries`: weist den Typ JSON-Array auf. Ein Array von JSON-Objekten mit jedem JSON-Objekt, das aus einer XPath-Abfrage besteht, die auf dem Stammpfad ausgeführt werden soll, und dem Namen einer Eigenschaft, die in jedem JCR-Knoten vorhanden ist, nachdem die Abfrage ausgeführt wurde. Der Wert der Eigenschaft in jedem JCR-Knoten sollte ein Pfad oder ein Array von Pfaden sein. Die in dieser Eigenschaft vorhandenen Pfade werden dem CRX-Paket hinzugefügt.| |`outputstream`|java.io.OutputStream|Dies wird verwendet, um das Ergebnis verschiedener Phasen zu schreiben, z. B. die Ausführung von Abfragen, die Aufnahme von Dateien, die Erstellung von CRX-Paketen oder die Aktivierung. Jeder Fehler, der während des Erstellungs- oder Aktivierungsprozesses auftritt, wird in die `outputstream`. Dies ist für das Debugging nützlich.| |`session`|Zeichenfolge|Eine gültige JCR-Sitzung mit Aktivierungsberechtigung.| |`activationTarget`|String|(*Optional*) `preview` oder `publish` für Cloud Service und `publish` für On-Premise-Software <br> - Wenn der Cloud Service einen ungültigen Wert enthält, schlägt die Paketaktivierung fehl. <br> - Bei On-Premise-Software wird der Fehler protokolliert, wenn der Parameter einen ungültigen Wert enthält, und die Veröffentlichung erfolgt mithilfe des Standardwerts. `publish`. |
+
+**Ausnahme**:
+
+Threads `java.io.IOException` und `java.io.IllegalArgumentException`
+
+
+Wenn Sie den optionalen Parameter nicht definieren, `activationTarget`, wird die Verwendung des standardmäßigen Veröffentlichungsagenten für Cloud Service- und On-Premise-Software aktiviert.
+
 
 **Beispiel**: Das folgende Beispiel zeigt, wie eine JSON-Abfrage erstellt wird:
 

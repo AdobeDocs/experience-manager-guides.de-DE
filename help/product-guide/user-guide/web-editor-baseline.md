@@ -4,9 +4,9 @@ description: Erstellen und verwalten Sie Grundlinien über den Webeditor in AEM 
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: c4c5fa16daf3f713f85783152094c8af59eb4f8c
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,12 @@ Sie können eine Grundlinie im Web Editor erstellen, indem Sie die folgenden Sch
 
    ![Erstellen einer Grundlinie](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Beschriftungen auswählen**: Wenn für die Themen Beschriftungen angegeben sind, verwenden Sie die **Beschriftungen auswählen** Dropdown-Liste zur Auswahl aus [aufgelistete Beschriftungen](#labels-list).
+   - **Bezeichnungen**: Wenn für die Themen Beschriftungen angegeben sind, verwenden Sie die **Bezeichnungen** Dropdown-Liste zur Auswahl aus [aufgelistete Beschriftungen](#labels-list).
 Die zuerst ausgewählten Titel erhalten höhere Priorität als die späteren.
+
+     >[!NOTE]
+     >
+     >Während die Beschriftungen gezogen werden, wird eine Ladefunktion angezeigt und die Dropdown-Liste ist deaktiviert.
 
      Bei dynamischen Grundlinien werden die Beschriftungen von der zuletzt gespeicherten Version und der aktuellen Arbeitskopie der Karte abgerufen. Wenn Sie beispielsweise Bezeichnungen erstellt haben   `Label Release A.1.0 ` und `Label Release A.1.1` für die Versionen 1.0 und 1.1 von Thema A und Beschriftungen `Label Release B.1.0` und `Label Release B.1.1` für die Versionen 1.0 und 1.1 von Thema B . Anschließend können Sie Thema A zu Karte A in Version 1.0 und Thema B zu Karte A in 1.0* hinzufügen (Arbeitskopie). In diesem Fall können Sie  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, und `Label Release B.1.1` in der Dropdown-Liste der dynamischen Grundlinien-Beschriftungen.
 
