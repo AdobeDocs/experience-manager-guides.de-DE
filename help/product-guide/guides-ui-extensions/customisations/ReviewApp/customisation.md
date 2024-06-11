@@ -2,13 +2,13 @@
 title: Anpassen
 description: Anpassen der Überprüfungs-App
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
 
 ---
-
 
 # Anpassen der Überprüfungs-App
 
@@ -28,10 +28,10 @@ Aktualisieren wir die `commentRationale` zu &quot;Dies ist ein wichtiger Satz.&q
 Dies kann mithilfe der folgenden Syntax erfolgen:
 
 ```typescript
- this.updateExtraProps(
-        {'commentRationale': 'This is an important sentence.',
-        'severity': 'CRITICAL'}
-      )
+  this.next('updateExtraProps', {
+    'commentRationale': 'This is an important sentence.',
+    'severity': 'CRITICAL'
+  })
 ```
 
 Das obige Codefragment verarbeitet die Aktualisierung und Speicherung der Werte. Die gespeicherten Werte können über die Benutzeroberfläche gerendert werden, indem die Ansicht definiert wird.
@@ -65,7 +65,7 @@ Angenommen, wir möchten eine extraProp senden, `userInfo`, jedes Mal, wenn ein 
 ```typescript
     onNewCommentEvent(args){
       const events = _.get(args, "events")
-      const currTopicIndex = tcx.model.getValue(tcx.model.KEYS.REVIEW_CURR_TOPIC) || this.model.currTopicIndex || "0"
+      const currTopicIndex = tcx.model.getValue(tcx.model.KEYS.REVIEW_CURR_TOPIC) || this.getValue('currTopicIndex') || "0"
       const event = _.get(_.get(events, currTopicIndex), '0')
       const newComment = _.get(args, 'newComment')
       const newReply = _.get(args, 'newReply')
@@ -88,7 +88,8 @@ Im obigen Codeausschnitt überprüfen wir, ob das gesendete Ereignis ein neuer K
           'userEmail': userData?.email || '',
         }
         const data = {... event, extraProps}
-        this.sendExtraProps(
+        this.next(
+          'sendExtraProps',
           data
         )
       })

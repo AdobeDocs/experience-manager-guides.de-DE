@@ -2,7 +2,8 @@
 title: Anpassen der App
 description: Anpassen der App
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -18,20 +19,21 @@ Unsere App folgt einer MVC-Struktur (Modell, Ansicht, Controller)
 Das Modell definiert die verschiedenen Attribute und speichert deren Werte. Auf die Werte der verschiedenen im Modell gespeicherten Attribute kann vom Controller mithilfe der Syntax zugegriffen werden
 
 ```typescript
-this.model.attributeName
+this.getValue('attributeName')
 ```
 
 Zur Anpassung in der App werden alle neu erstellten Attribute unter einer Zuordnung im Modell hinzugefügt.
 Um ein neues Attribut im Modell festzulegen, verwenden wir die folgende Syntax im Controller:
 
 ```typescript
-this.model.extraProps.set("key", value)
+// If a key is not already in model then it will be added to extraProps
+this.setValue('key', value)
 ```
 
 Um auf ein Attribut zuzugreifen, das dem Modell hinzugefügt wurde, verwenden wir die folgende Syntax:
 
 ```typescript
-const value = this.model.extraProps.get("key")
+const value = this.getValue("key")
 ```
 
 ## Anzeigen
@@ -87,13 +89,13 @@ in diesem Fall `extraProps.buttonLabel` enthält den Titel der Schaltfläche
 
 ```typescript
   controller: {
-    init: function () {
-      this.model.extraProps.set("buttonLabel", "Submit")
+    init: function (context) {
+      context.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
-        const buttonLabel = this.model.extraProps.get("buttonLabel") === "Submit"? "Cancel" : "Submit"
-        this.model.extraProps.set("buttonLabel", buttonLabel)
+        const buttonLabel = this.getValue("buttonLabel") === "Submit"? "Cancel" : "Submit"
+        this.setValue("buttonLabel", buttonLabel)
     }
   }
 ```
