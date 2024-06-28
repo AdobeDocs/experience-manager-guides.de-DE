@@ -3,7 +3,8 @@ title: Konfigurieren der mikrodienstbasierten Veröffentlichung mit der OAuth-Au
 description: Erfahren Sie, wie Sie die Veröffentlichung auf Microservice-Basis mit OAuth-Authentifizierung für AEM Guides konfigurieren.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
+source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -12,34 +13,34 @@ ht-degree: 0%
 
 # Konfigurieren der mikrodienstbasierten Veröffentlichung mit OAuth-Authentifizierung
 
-Mit dem Publishing-Microservice können Sie as a Cloud Service große Veröffentlichungsarbeitslasten auf Experience Manager-Handbüchern ausführen und von der branchenführenden Server-losen Adobe I/O Runtime-Plattform profitieren.
+Mit dem Publishing-Microservice können Sie große Veröffentlichungsarbeitslasten gleichzeitig auf Experience Manager Guides as a Cloud Service ausführen und die branchenführende Server-lose Adobe I/O Runtime-Plattform nutzen.
 
 Für jede Veröffentlichungsanforderung führt Experience Manager Guides as a Cloud Service einen separaten Container aus, der entsprechend den Benutzeranforderungen horizontal skaliert wird. Dies bietet die Möglichkeit, mehrere Veröffentlichungsanfragen auszuführen und eine bessere Leistung zu erzielen als die großen On-Premise-Adobe Experience Manager-Server.
 
 >[!NOTE]
 >
-> Die mikrodienstbasierte Veröffentlichung in Experience Manager Guides unterstützt die Typen von PDF (nativ und DITA-OT-basiert), HTML5, JSON und benutzerdefinierten Ausgabevorgaben.
+> Microservice-basierte Veröffentlichung in Experience Manager Guides unterstützt die Typen von PDF (nativ und DITA-OT-basiert), HTML5, JSON und benutzerdefinierten Ausgabevorgaben.
 
 Da der Cloud Publishing-Dienst durch die Adobe IMS OAuth-basierte Authentifizierung geschützt ist, führen Sie die folgenden Schritte aus, um ihre Umgebungen mit sicheren Token-basierten Authentifizierungsarbeitsabläufen zu integrieren und mit der Cloud-basierten skalierbaren Publishing-Lösung zu beginnen.
 
 
-## Erstellen von IMS-Konfigurationen in der Adobe Developer-Konsole
+## Erstellen von IMS-Konfigurationen in Adobe Developer Console
 
 **Rolle, die zum Erstellen der Konfigurationen erforderlich ist**: Systemadministrator
 
-Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in zu erstellen **Adobe Developer-Konsole**:
+Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in zu erstellen **Adobe Developer Console**:
 
 >[!NOTE]
 >
 >Wenn Sie bereits ein OAuth-Projekt erstellt haben, um die KI-gestützten intelligenten Vorschläge für das Authoring zu konfigurieren, können Sie die folgenden Schritte überspringen, um das Projekt zu erstellen.
 
-1. Öffnen **Entwicklerkonsole**: `https://developer.adobe.com/console`.
+1. Öffnen **Developer Console**: `https://developer.adobe.com/console`.
 
 1. Wechseln Sie zu **Projekte** oben.
 
    <img src="assets/projects-tab.png" alt="Projekt-Tab" width="500">
 
-   *Wählen Sie die **Projekte**auf der Registerkarte **Adobe Developer-Konsole***
+   *Wählen Sie die **Projekte**auf der Registerkarte **Adobe Developer Console***
 
 1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Leeres Projekt** aus dem **Neues Projekt erstellen** Dropdown.
 
@@ -127,7 +128,7 @@ Um einen Publishing-Microservice zum ersten Mal zu verwenden, aktualisieren Sie 
 >
 > Überspringen Sie die folgenden Schritte, wenn Sie bereits eine mikrodienstbasierte Veröffentlichung verwenden:
 
-Nachdem Sie die IMS-Konfiguration zur Umgebung hinzugefügt haben, führen Sie die folgenden Schritte aus, um diese Eigenschaften mit OSGi-Experience Manager-Handbüchern zu verknüpfen:
+Nachdem Sie die IMS-Konfiguration zur Umgebung hinzugefügt haben, führen Sie die folgenden Schritte aus, um diese Eigenschaften mithilfe von OSGi mit Experience Manager Guides zu verknüpfen:
 
 1. Fügen Sie in Ihrem Git-Projektcode für Cloud Manager die folgenden beiden Dateien hinzu (für Dateiinhalte zeigen Sie [Anhang](#appendix)).
 
