@@ -2,11 +2,11 @@
 title: Konfigurieren der mikrodienstbasierten Veröffentlichung mit der OAuth-Authentifizierung für AEM Guides as a Cloud Service
 description: Erfahren Sie, wie Sie die Veröffentlichung auf Microservice-Basis mit OAuth-Authentifizierung für AEM Guides konfigurieren.
 feature: Microservice in AEM Guides
-role: User, Admin
+role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
+source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Sie haben die OAuth-Authentifizierungsdetails konfiguriert und die Details zum J
 >
 >Wenn Sie bereits ein OAuth-Projekt für intelligente Vorschläge erstellt haben, können Sie dasselbe Projekt für Microservices wiederverwenden und die folgenden Schritte überspringen, um die IMS-Konfiguration zur Umgebung hinzuzufügen.
 
-### Vorhandene Konfiguration aktualisieren
+### Vorhandene Konfiguration aktualisieren (JWT auf OAuth shift )
 
 Wenn Sie bereits einen Microservice für die Veröffentlichung mit JWT (nicht mehr unterstützt) verwenden, führen Sie die folgenden Schritte aus, um die Konfigurationen zu aktualisieren:
 
@@ -114,7 +114,7 @@ Um einen Publishing-Microservice zum ersten Mal zu verwenden, aktualisieren Sie 
 1. Wählen Sie den Namen der Umgebung aus, die Sie konfigurieren möchten. Diese sollte Sie zum **Umgebungsinformationen** Seite.
 1. Wechseln Sie zu **Konfiguration** Registerkarte.
 
-1. Aktualisieren Sie das JSON-Feld SERVICE_ACCOUNT_DETAILS . Stellen Sie sicher, dass Sie denselben Namen und dieselbe Konfiguration wie im folgenden Screenshot verwenden.
+1. Erstellen Sie eine neue Konfiguration mit dem Namen SERVICE_ACCOUNT_DETAILS. Fügen Sie als Wert den Inhalt der OAuth-JSON-Datei hinzu, den Sie von der Entwicklerkonsole heruntergeladen haben.
 
 
 <img src="assets/jws-service-account-config.png" alt="IMS-Dienstkontokonfiguration" width="500">
@@ -122,7 +122,7 @@ Um einen Publishing-Microservice zum ersten Mal zu verwenden, aktualisieren Sie 
 *Konfigurieren Sie die Umgebung zum ersten Mal.*
 
 
-### Erstmalige Verwendung der Veröffentlichung auf Microservice-Basis
+### Erstmalige Codeänderungen für die Aktivierung der mikrodienstbasierten Veröffentlichung
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ Um einen Publishing-Microservice zum ersten Mal zu verwenden, aktualisieren Sie 
 
 Nachdem Sie die IMS-Konfiguration zur Umgebung hinzugefügt haben, führen Sie die folgenden Schritte aus, um diese Eigenschaften mithilfe von OSGi mit Experience Manager Guides zu verknüpfen:
 
-1. Fügen Sie in Ihrem Git-Projektcode für Cloud Manager die folgenden beiden Dateien hinzu (für Dateiinhalte zeigen Sie [Anhang](#appendix)).
+1. Fügen Sie in Ihrem Git-Projektcode für Cloud Manager die folgenden beiden Dateien hinzu `/apps/fmditaCustom/config` (für Dateiinhalte, Ansicht [Anhang](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
