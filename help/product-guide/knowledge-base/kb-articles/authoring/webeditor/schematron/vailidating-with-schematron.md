@@ -13,12 +13,12 @@ ht-degree: 0%
 
 # Kontrollieren der Qualität von Inhalten im Web-Editor
 
-Dieser Artikel gibt einen Überblick über die Validierungsmöglichkeiten im Web-Editor AEM Guides.
+Dieser Artikel gibt einen Überblick über Validierungsmöglichkeiten im AEM Guides-Web-Editor.
 Der Design-Web-Editor nutzt das DITA-Schema-Setup im System, um Benutzer dazu zu zwingen, DITA-konforme Inhalte zu erstellen. Dadurch ist der gesamte im System gespeicherte Inhalt strukturiert, wiederverwendbar und gültig.
 
-Neben der Unterstützung für DITA-Regeln unterstützt der Web-Editor auch die Validierung von Inhalten, die auf &quot;*Schematron*&quot;.
+Neben der Unterstützung für DITA-Regeln unterstützt der Web-Editor auch die Validierung von Inhalten, die auf &quot;*Schematron*&quot;-Regeln basieren.
 
-&quot;*Schematron*&quot; bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Sie können die Schemadateien importieren und sie auch im Web-Editor bearbeiten. Mithilfe einer Schematron-Datei können Sie bestimmte Regeln definieren und sie dann für ein DITA-Thema oder eine Zuordnung validieren. Schemaregeln können die Konsistenz der XML-Struktur sicherstellen, indem als Regeln definierte Einschränkungen auferlegt werden. Diese Beschränkungen werden von KMU getragen, die die Qualität und Konsistenz der Inhalte besitzen.
+&quot;*Schematron*&quot; bezieht sich auf eine regelbasierte Validierungssprache, mit der Tests für eine XML-Datei definiert werden. Sie können die Schemadateien importieren und sie auch im Web-Editor bearbeiten. Mithilfe einer Schematron-Datei können Sie bestimmte Regeln definieren und sie dann für ein DITA-Thema oder eine Zuordnung validieren. Schemaregeln können die Konsistenz der XML-Struktur sicherstellen, indem als Regeln definierte Einschränkungen auferlegt werden. Diese Beschränkungen werden von KMU getragen, die die Qualität und Konsistenz der Inhalte besitzen.
 
     HINWEIS: Der Webeditor unterstützt ISO-Schemata.
 
@@ -32,24 +32,25 @@ Siehe Abschnitt &quot;Unterstützung für Schematron-Dateien&quot;im [Benutzerha
 
 ### Validierungsregeln beim Speichern von Dateien durchsetzen
 
-Mit den Webeditor-Einstellungen können Power-User Schemaregeln/-Dateien einrichten, die jedes Mal ausgeführt werden, wenn ein Benutzer den Inhalt aktualisiert. Weitere Informationen finden Sie im Abschnitt &quot;Validierung&quot;unter [Benutzerhandbuch](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+Mit den Webeditor-Einstellungen können Power-User Schemaregeln/-Dateien einrichten, die jedes Mal ausgeführt werden, wenn ein Benutzer den Inhalt aktualisiert. Weitere Informationen finden Sie im Abschnitt &quot;Validierung&quot;im [Benutzerhandbuch](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
-![Regeln aus den Einstellungen des Web-Editors festlegen](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
+![Festlegen von Regeln aus den Einstellungen des Web-Editors](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
 
 ### Können Sie die Validierung manuell ausführen?
 
 Ja, als Autor/Benutzer können Sie beim Erstellen von Inhalten das Bedienfeld &quot;Schematron&quot;im Webeditor verwenden, um eine Schematrator-Datei hochzuladen und Überprüfungen für die im Editor geöffnete Datei durchzuführen.
 
-    Damit dies funktioniert, muss der Ordnerprofiladministrator allen Benutzern erlauben, Schemadateien im Überprüfungsfenster hinzuzufügen. Siehe Editor-Einstellungen (Screenshot oben)
+    Damit dies funktioniert, muss der Ordnerprofiladministrator allen Benutzern erlauben, Schemadateien im Überprüfungsbedienfeld hinzuzufügen. Siehe Editor-Einstellungen (Screenshot oben)
 
 ![Schematron-Datei auswählen](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
-![Validierung ausführen](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
+![Ausführen der Validierung](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
 
 
 ### Unterstützte Regeln
 
-Die aktuelle Version von AEM Guides unterstützt nur die Validierung, die ausschließlich auf &quot;Zusicherung&quot;basierende Regeln verwendet. (siehe [Asset vs. Bericht](https://schematron.com/document/205.html)) Auf &quot;Berichten&quot;basierende Regeln werden noch nicht unterstützt.
+Die aktuelle Version von AEM Guides unterstützt die Validierung nur mit auf &quot;Zusicherung&quot;basierenden Regeln. (siehe [Asset vs. Bericht](https://schematron.com/document/205.html))
+Auf &quot;Berichten&quot;basierende Regeln werden noch nicht unterstützt.
 
 
 ### Beispiele und weitere Hilfe zu Schemakontrollen-Regeln
@@ -100,6 +101,6 @@ Die aktuelle Version von AEM Guides unterstützt nur die Validierung, die aussch
 
 #### Ressourcen
 
-- Grundlagen  [Schematron-Grundlagen](https://da2022.xatapult.com/#what-is-schematron)
-- Weitere Informationen [Zusicherungsregeln in Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- Grundlegendes zu [Schematron-Grundlagen](https://da2022.xatapult.com/#what-is-schematron)
+- Weitere Informationen zu [Zuweisungsregeln in Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
 - [Beispielschema-Datei](../../../assets/authoring/sample_schematron.sch)

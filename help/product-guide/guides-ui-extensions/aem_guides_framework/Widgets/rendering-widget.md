@@ -2,7 +2,8 @@
 title: Rendering-Widgets
 description: Funktionsweise des Renderings in JUI Widgets
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 381cc7b9-c957-40be-9db4-8347eefe2fa7
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 
 # Rendering-Widgets
 
-Ein Widget kann gerendert werden, indem es mithilfe seiner `id`
+Wir können ein Widget rendern, indem wir es mit seinem `id` referenzieren
 
-So rendern Sie das Widget `widget_languages` überall in der App können wir die einfache Syntax verwenden:
+Um das Widget `widget_languages` überall in der App zu rendern, können wir die einfache Syntax verwenden:
 
 ```json
 {
@@ -67,7 +68,7 @@ const listJSON = {
 }
 ```
 
-Hier `@files` ist eine Liste von Dateiobjekten mit Feldern
+Hier ist `@files` eine Liste von Dateiobjekten mit Feldern
 
 ```typescript
 - fileName: string

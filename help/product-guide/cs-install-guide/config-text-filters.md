@@ -25,12 +25,12 @@ Standardmäßig können Sie einige erweiterte Filter verwenden, um die Dateien i
 Führen Sie die folgenden Schritte aus, um die Textfilter zu konfigurieren:
 
 1. Melden Sie sich bei Adobe Experience Manager als Administrator an.
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
-1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die Schaltfläche **Ordnerprofile**.
-1. Klicken Sie auf **Globales Profil** Kachel.
-1. Klicken Sie auf **Konfiguration des XML-Editors**.
-1. Klicken Sie auf **Bearbeiten** Symbol oben.
-1. Klicken Sie auf **Herunterladen** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
+1. Wählen Sie **Handbücher** aus der Liste der Tools und klicken Sie auf **Ordnerprofile**.
+1. Klicken Sie auf die Kachel **Globales Profil** .
+1. Klicken Sie auf **XML-Editor-Konfiguration**.
+1. Klicken Sie oben auf das Symbol **Bearbeiten** .
+1. Klicken Sie auf das Symbol **Download** , um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
    1. Konfigurieren Sie die Filter in der Datei. Sie können auch benutzerdefinierte Filter hinzufügen, wie im folgenden Beispiel gezeigt:
 
       Das folgende Codefragment zeigt, wie Sie Filteroptionen für DITA-Dateien, Nicht-DITA-, DITA-Elemente und Ausgecheckt von Dateien hinzufügen. Es enthält auch einen benutzerdefinierten Filter - Tags.
@@ -72,12 +72,12 @@ Führen Sie die folgenden Schritte aus, um die Textfilter zu konfigurieren:
 
       ****Titel****: Der Anzeigename des Filters. Dieser Titel wird als Filteroption im Dialogfeld zum Durchsuchen von Dateien angezeigt.
 
-      ****Eigenschaft****: Die Eigenschaft, die in den Metadaten der Datei übereinstimmen soll. Um beispielsweise nur Dateien zuzulassen, deren -Eigenschaft die dita\_class -Metadaten enthält, verwendet der Eigenschaftenfilter den Wert &quot;jcr:content/metadata/dita\_class&quot;.
+      ****Eigenschaft****: Die Eigenschaft, die in den Metadaten der Datei übereinstimmt. Um beispielsweise nur Dateien zuzulassen, deren -Eigenschaft die dita\_class -Metadaten enthält, verwendet der Eigenschaftenfilter den Wert &quot;jcr:content/metadata/dita\_class&quot;.
 
-      ****Vorgang **:**Geben Sie &quot;exists&quot;an, um für das Vorhandensein des im Eigenschaftsparameter angegebenen Werts zu stimmen.
+      ****Vorgang **:**Geben Sie &quot;exists&quot;an, damit der im Eigenschaftsparameter angegebene Wert übereinstimmt.
 
 1. Laden Sie die aktualisierte Datei ui\_config.json hoch, die die hinzugefügten Filter enthält.
 
 Die konfigurierten Filter sind im Filterbereich verfügbar.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

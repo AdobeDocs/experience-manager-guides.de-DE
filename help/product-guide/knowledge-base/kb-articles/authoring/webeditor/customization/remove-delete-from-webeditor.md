@@ -1,17 +1,17 @@
 ---
 title: Entfernen Sie die Option "Löschen"aus dem Dateikontextmenü im WebEditor für bestimmte Benutzer
 description: Erfahren Sie, wie Sie den WebEditor anpassen, indem Sie die Option "Löschen"aus dem Dateikontextmenü für bestimmte Benutzer/Gruppen entfernen.
-source-git-commit: aacc04e2fb6ca061825e5e219ad6e03bf711b3d0
+exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
 # Option &quot;Löschen&quot;aus dem Dateikontextmenü in WebEditor entfernen
 
-In diesem Artikel erfahren wir, wie wir die Option &quot;Löschen&quot;im Dateikontextmenü im Guides-Web-Editor für bestimmte Benutzer oder Gruppen ausblenden. Weitere Anpassungen der Menüoptionen im Dateikontext finden Sie unter Guides Extension Framework . Weitere Informationen finden Sie unter [here](https://github.com/adobe/guides-extension/tree/main).
+In diesem Artikel erfahren Sie, wie Sie die Option &quot;Löschen&quot;im Dateikontextmenü im AEM Guides Web Editor für bestimmte Benutzer oder Gruppen ausblenden. Weitere Anpassungen der Menüoptionen im Dateikontext finden Sie unter Guides Extension Framework . Weitere Details finden Sie [hier](https://github.com/adobe/guides-extension/tree/main).
 
 Wie Sie aus dem folgenden Snippet sehen können, ist im Dateikontextmenü für diesen bestimmten Benutzer die Option &quot;Löschen&quot;verfügbar.
 
@@ -28,7 +28,7 @@ Lassen Sie uns nun sehen, wie wir die Löschoption für diesen Benutzer ausblend
 - Schließen Sie die Berechtigungen &quot;jcr:removeChildNodes&quot;und &quot;jcr:removeNode&quot;ein.
 - Wählen Sie &quot;Berechtigungstyp&quot;als &quot;Ablehnen&quot;und klicken Sie auf &quot;Hinzufügen&quot;, wie unten dargestellt.
 
-![Benutzerberechtigungen - ACE verweigern](../../../assets/authoring/permission-ACE-Delete.png)
+![Benutzerberechtigungen verweigern ACE](../../../assets/authoring/permission-ACE-Delete.png)
 
 ![Zugriffssteuerungsliste in Berechtigungen](../../../assets/authoring/delete-acl.png)
 

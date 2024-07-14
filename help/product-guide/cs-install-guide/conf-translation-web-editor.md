@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Der Web-Editor bietet eine leistungsstarke Übersetzungsfunktion, mit der Sie Ihre Inhalte in mehrere Sprachen übersetzen können.
 
-Sie können die **Verwalten** im Web Editor, um Ihren Inhalt zu übersetzen. Diese Registerkarte ist standardmäßig verfügbar.
+Sie können die Registerkarte **Verwalten** im Web Editor verwenden, um Ihren Inhalt zu übersetzen. Diese Registerkarte ist standardmäßig verfügbar.
 
-So blenden Sie die **Verwalten** im Web Editor die folgenden Schritte ausführen:
+So blenden Sie die Registerkarte **Verwalten** im Web Editor aus:
 
-1. Anmelden **Adobe Experience Manager** als Administrator.
-1. Klicken Sie auf **Adobe Experience Manager** links oben und wählen Sie **Instrumente**.
-1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die Schaltfläche **Ordnerprofile**.
-1. Klicken Sie auf **Globales Profil** Kachel.
-1. Klicken Sie auf **Konfiguration des XML-Editors**.
-1. Klicken Sie auf **Bearbeiten** Symbol oben.
-1. Laden Sie die `ui\_config.json` file.Entfernen Sie das folgende Codefragment aus der heruntergeladenen Datei:
+1. Melden Sie sich bei **Adobe Experience Manager** als Administrator an.
+1. Klicken Sie oben auf den Link **Adobe Experience Manager** und wählen Sie **Tools** aus.
+1. Wählen Sie **Handbücher** aus der Liste der Tools und klicken Sie auf **Ordnerprofile**.
+1. Klicken Sie auf die Kachel **Globales Profil** .
+1. Klicken Sie auf **XML-Editor-Konfiguration**.
+1. Klicken Sie oben auf das Symbol **Bearbeiten** .
+1. Laden Sie die Datei `ui\_config.json` herunter. Entfernen Sie das folgende Codefragment aus der heruntergeladenen Datei:
 
    ```json
    {
@@ -46,6 +46,6 @@ So blenden Sie die **Verwalten** im Web Editor die folgenden Schritte ausführen
 
 1. Laden Sie die aktualisierte Datei ui\_config.json hoch.
 
-Beachten Sie Folgendes: **Verwalten** -Filter nicht mehr verfügbar ist.
+Beachten Sie, dass der Filter **Verwalten** nicht mehr verfügbar ist.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

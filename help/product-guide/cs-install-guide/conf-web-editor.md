@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Anpassen des Web-Editors {#id181AI0003PN}
 
-AEM Handbücher sind mit einem leistungsstarken Web-Editor ausgestattet, mit dem Ihre Autoren DITA-Dokumente erstellen und bearbeiten können. Sie können die Symbolleiste des Web-Editors anpassen, um alle Funktionen hinzuzufügen oder zu entfernen, auf die Sie über die Symbolleiste zugreifen können. Außerdem können Sie die automatische Speicherung von Dateien konfigurieren, IDs für Elemente generieren, die in Ihre Dokumente eingefügt werden, und vieles mehr. Die folgenden Abschnitte behandeln die Funktionen, die Sie im Web Editor anpassen können:
+AEM Guides verfügt über einen leistungsstarken Web-Editor, mit dem Ihre Autoren DITA-Dokumente erstellen und bearbeiten können. Sie können die Symbolleiste des Web-Editors anpassen, um alle Funktionen hinzuzufügen oder zu entfernen, auf die Sie über die Symbolleiste zugreifen können. Außerdem können Sie die automatische Speicherung von Dateien konfigurieren, IDs für Elemente generieren, die in Ihre Dokumente eingefügt werden, und vieles mehr. Die folgenden Abschnitte behandeln die Funktionen, die Sie im Web Editor anpassen können:
 
 - [Symbolleiste anpassen](conf-web-editor-customize-toolbar.md#)
 - [Automatische Speicherung von Dateien im Web Editor konfigurieren](auto-save-in-editor.md#)
@@ -32,9 +32,9 @@ AEM Handbücher sind mit einem leistungsstarken Web-Editor ausgestattet, mit dem
 
 - **[DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen](open-dita-files-same-tab.md)**
 
-- **[Benutzerdefiniertes Bedienfeld im linken Bereich konfigurieren](configure-custom-panel.md)**
+- **[Benutzerdefiniertes Bedienfeld im linken Bedienfeld konfigurieren](configure-custom-panel.md)**
 
-- **[Automatische Speicherung von Dateien im Web Editor konfigurieren](auto-save-in-editor.md)**
+- **[Automatische Speicherung der Datei im Web-Editor konfigurieren](auto-save-in-editor.md)**
 
 - **[Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren](conf-save-as-new-version-close.md)**
 
@@ -50,12 +50,12 @@ AEM Handbücher sind mit einem leistungsstarken Web-Editor ausgestattet, mit dem
 
 - **[Filter für Dialogfeld &quot;Dateisuche&quot;konfigurieren](conf-custom-file-filters.md)**
 
-- **[Pakete für die artikelbasierte Veröffentlichung installieren](configure-article-based-publishing.md)**
+- **[Installieren von Paketen für die artikelbasierte Veröffentlichung](configure-article-based-publishing.md)**
 
-- **[PDF-Generierung für einzelne Themen konfigurieren](conf-pdf-generation-dita-ot.md)**
+- **[PDF-Generierung eines einzelnen Themas konfigurieren](conf-pdf-generation-dita-ot.md)**
 
-- **[Übersetzungsfunktion im Web-Editor konfigurieren](conf-translation-web-editor.md)**
+- **[Konfigurieren der Übersetzungsfunktion im Web-Editor](conf-translation-web-editor.md)**
 
-- **[Festlegen des Erweiterten Map-Editors als Standard](conf-map-editor.md)**
+- **[Legen Sie den erweiterten Map-Editor als Standard fest](conf-map-editor.md)**
 
-- **[Standardmäßig Attribut @navtitle einschließen](auto-add-navtitle.md)**
+- **[Standardmäßig @navtitle-Attribut einschließen](auto-add-navtitle.md)**

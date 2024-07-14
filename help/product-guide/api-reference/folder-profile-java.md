@@ -22,9 +22,9 @@ Paketdetails:
 
 - Artefakt-ID: **api**
 
-- Version: **3,2**
+- Version: **3.2**
 
-- Package: **com.adobe.fmdita.api.profiles**
+- Paket: **com.adobe.fmdita.api.profiles**
 
 - Klassendetails:
 
@@ -32,12 +32,12 @@ Paketdetails:
   public class FolderProfileUtils extends Object
   ```
 
-  Die **`FolderProfileUtils`** -Klasse enthält eine Methode zum Hinzufügen von bedingten Attributen zu einem Ordnerprofil.
+  Die Klasse **`FolderProfileUtils`** enthält eine Methode zum Hinzufügen bedingter Attribute zu einem Ordnerprofil.
 
 
 ## Hinzufügen bedingter Attribute zu einem Ordnerprofil
 
-Die ``addAttributeProfiles`` -Methode fügt einem Profil auf Ordnerebene bedingte Attribute hinzu.
+Die Methode ``addAttributeProfiles`` fügt einem Profil auf Ordnerebene bedingte Attribute hinzu.
 
 **Syntax**:
 
@@ -53,15 +53,23 @@ String profileName,
 Session session) throws GuidesApiException
 ```
 
-**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |``attributeNames``|Zeichenfolge|Eine Liste von Attributnamen.| |``values``|Zeichenfolge|Eine Liste von Werten für die angegebenen Attribute.| |`labels`|Zeichenfolge|Eine Liste von Bezeichnungen für die `attribute`- `value` Paare. [1](#fntarg_1)| |`profileName`|Zeichenfolge|Der Name des Profils auf Ordnerebene, auf das diese Attribute, Werte und Beschriftungen angewendet werden müssen. **Wichtig:** Alle vorhandenen im Profil definierten Attribute-Werte-Beschriftungen werden überschrieben.| |`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
+**Parameter**:
+|Name|Typ|Beschreibung|
+|—|—|—|
+|``attributeNames``|String|Eine Liste von Attributnamen.|
+|``values``|String|Eine Liste von Werten für die angegebenen Attribute.|
+|`labels`|String|Eine Liste von Bezeichnungen für die `attribute`- `value` Paare. [1](#fntarg_1)|
+|`profileName`|String|Der Name des Profils auf Ordnerebene, auf das diese Attribute, Werte und Beschriftungen angewendet werden müssen. **Wichtig:** Alle im Profil definierten vorhandenen attribute-values-label werden überschrieben.|
+|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
 
-**Rückgabe**:
-`true` für Erfolg. Im Falle eines Fehlers wird eine Ausnahme ausgelöst.
+**Gibt** zurück:
+`true` für den Erfolg. Im Falle eines Fehlers wird eine Ausnahme ausgelöst.
 
-**Ausnahme**: Threads ``java.lang.Exception`` in den folgenden Szenarien:
+**Exception**:
+Gibt ``java.lang.Exception`` in den folgenden Szenarien aus:
 
-- Wenn die API nicht `resourceResolverFactory` -Objekt. In diesem Fall sollten Sie das Bundle neu starten.
+- Wenn die API kein `resourceResolverFactory` -Objekt abrufen konnte. In diesem Fall sollten Sie das Bundle neu starten.
 - Wenn an die API übergebene Parameter ungültig sind.
 - Wenn die API über eine nicht autorisierte Benutzersitzung aufgerufen wird, z. B. der Benutzer, der kein Administrator für das angegebene Ordnerprofil ist.
 
-[1](#fnsrc_1) Die `attributeNames`, `values`, und `labels` in einer Array-Liste muss demselben Eintrag entsprechen.
+[1](#fnsrc_1) Die `attributeNames`, `values` und `labels` am selben Index in einer Array-Liste müssen demselben Eintrag entsprechen.

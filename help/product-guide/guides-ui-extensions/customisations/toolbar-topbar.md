@@ -2,19 +2,19 @@
 title: Symbolleiste und Symbolleiste
 description: Symbolleiste und Symbolleiste anpassen
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 7065c9b8-67ac-4f6d-8124-daa547f2dc3b
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
-
 # Symbolleiste und Symbolleiste anpassen
 
-So passen Sie die `topbar` und `toolbar`verwenden wir die IDs: `topbar` oder `toolbar`und folgen Sie derselben Ansicht, der Controller-Struktur.
+Um die `topbar` und `toolbar` anzupassen, verwenden wir die IDs: `topbar` oder `toolbar` und folgen derselben Ansicht, der Controller-Struktur.
 
-Nachfolgend finden Sie ein triviales Beispiel für die Anpassung der Symbolleiste. Hier haben wir die `Insert Numbered List` und ersetzt die `Insert Paragraph` -Schaltfläche mit unserer eigenen Komponente unter Verwendung eines benutzerdefinierten On-Click-Handlers.
+Nachfolgend finden Sie ein triviales Beispiel für die Anpassung der Symbolleiste. In unserem Beispiel haben wir die Schaltfläche `Insert Numbered List` entfernt und die Schaltfläche `Insert Paragraph` mit unserer eigenen Komponente durch einen benutzerdefinierten Klick-Handler ersetzt.
 
 ```js title = toolbar_customisation.js
 const toolbarExtend = {

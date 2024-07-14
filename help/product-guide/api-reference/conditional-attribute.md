@@ -21,10 +21,14 @@ Mit der folgenden REST-API können Sie bedingte Attribute zu einem Ordnerprofil 
 Eine POST -Methode, die einem angegebenen Ordnerprofil bedingte Attribute hinzufügt.
 
 **Anforderungs-URL**:\
-http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/folderprofiles
 
 **Parameter**:\
-|Name|Typ|Erforderlich|Beschreibung| |—|—|—|—|—| |`:operation`|String|Ja|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters lautet ``ADDATTRIBUTEPROFILES``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden.| |`profilename`|Zeichenfolge|Ja|Anzeigename des Profils auf Ordnerebene, dem die bedingten Attribute hinzugefügt werden müssen.| |`conditionalprofiles`|JSON-Array|Ja|Ein JSON-Array, das aus dem bedingten Attributnamen und den Werten besteht. Das folgende Beispielcodefragment zeigt das JSON-Array mit zwei Attributen - `platform` und `product` mit mehreren zugewiesenen Werten.|
+|Name|Typ|Erforderlich|Beschreibung|
+|—|—|—|—|—|
+|`:operation`|String|Yes|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist ``ADDATTRIBUTEPROFILES``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden.|
+|`profilename`|String|Ja|Anzeigename des Profils auf Ordnerebene, dem die bedingten Attribute hinzugefügt werden müssen.|
+|`conditionalprofiles`|JSON-Array|Ja|Ein JSON-Array, das aus dem bedingten Attributnamen und den Werten besteht. Das folgende Beispielcodefragment zeigt das JSON-Array mit zwei Attributen - `platform` und `product` mit mehreren Werten, die ihnen zugewiesen sind.|
 
 ```JSON
 [  {    name: "platform",    

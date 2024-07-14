@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Artikelbasierte Veröffentlichung im Web Editor {#id218CL05J0M1}
 
-AEM Guides verfügen über eine Funktion zur artikelbasierten Veröffentlichung, die im Web Editor integriert ist und es Benutzern ermöglicht, ein oder mehrere Themen gleichzeitig zu veröffentlichen.
+AEM Guides verfügt über eine artikelbasierte Veröffentlichungsfunktion, die im Web Editor integriert ist und es Benutzern ermöglicht, ein oder mehrere Themen gleichzeitig zu veröffentlichen.
 
 Diese Engine enthält außerdem eine OOTB-Inhaltsvorlage, die auf AEM Kernkomponenten aufbaut und es Benutzern ermöglicht, ein wissensbasiertes Repository der technischen Inhalte zu erstellen. Diese Vorlage kann an die Bedürfnisse der Kunden angepasst werden. Diese Engine ermöglicht es den Benutzern, die DITA-Karte in additive Weise zu erstellen und Themen zu veröffentlichen, sobald sie bereit sind. Sie können die Ausgabevorgaben für Ihre Karte einfach erstellen, die im Bereich &quot;Kartenansicht&quot;geöffnet ist, und die Ausgabe für ein oder mehrere Themen derselben Karte schnell generieren.
 

@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Führen Sie die folgenden Schritte aus, um ein benutzerdefiniertes Bedienfeld im linken Bereich des Web-Editors hinzuzufügen:
 
-1. Erstellen Sie eine *clientlib* und fügen Sie Ihre JavaScript- und CSS-Datei in diesen Ordner ein.
-1. Aktualisieren Sie die categories-Eigenschaft des *clientlib* Ordner, indem ihm der Wert von *apps.format.xml\_editor.page\_overrides*.
+1. Erstellen Sie einen Ordner *clientlib* und fügen Sie Ihre JavaScript- und CSS-Datei in diesen Ordner ein.
+1. Aktualisieren Sie die categories-Eigenschaft des Ordners *clientlib* , indem Sie ihm den Wert *apps.fmdita.xml\_editor.page\_overrides* zuweisen.
 
 Beispielcode zum Konfigurieren eines benutzerdefinierten Bedienfelds:
 
@@ -58,4 +58,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

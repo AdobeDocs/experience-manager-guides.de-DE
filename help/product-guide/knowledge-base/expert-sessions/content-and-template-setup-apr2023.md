@@ -1,6 +1,6 @@
 ---
 title: Einrichtung von Inhalten und Vorlagen
-description: Erfahren Sie, was Sie beim Einrichten von Inhalten und Vorlagen in AEM Handbüchern beachten sollten.
+description: Hier erfahren Sie, welche Überlegungen zum Einrichten von Inhalten und Vorlagen in AEM Guides erforderlich sind.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
 feature: Template Configuration
 role: User, Admin
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# Einrichtung von Inhalten und Vorlagen in AEM Handbüchern
+# Einrichtung von Inhalten und Vorlagen in AEM Guides
 
 Die Menge an Inhalten, die Sie in einem System verwalten, um verschiedene Arten von Dokumenten zu unterstützen, die an Endbenutzer gesendet werden, erfordert, dass Autoren den Inhalt nicht nur kategorisieren, um ihn bei Bedarf einfach zu verfolgen und zu ändern, sondern auch, dass Autoren neue/ähnliche Dokumente erstellen können, ohne sie von Grund auf neu schreiben zu müssen.
 
@@ -32,9 +32,9 @@ In dieser Sitzung haben wir im Großen und Ganzen Folgendes behandelt:
 ## Lichter
 
 - **Datum** - 27. April 2023
-- **Anzahl der TeilnehmerInnen** - 70
+- **Anzahl der Teilnehmer** - 70
 - **Dauer** - 60 Minuten
-- **Zielgruppe** - Kunden, Partner und Adobe-Mitarbeiter
+- **Audience** - Kunden, Partner und Adobe-Mitarbeiter
 
 
 ## Haupterkenntnisse
@@ -51,25 +51,25 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 ## Verwandte Ressourcen
 
-- **Funktionsvideos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
 - **Benutzerhandbuch** - [Autoreninhalt](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Besuchen Sie für sitzungsspezifische Community-Interaktionen auf dem Experience League das [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
+> Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
 > - On-Premise: 4.2 oder höher
 > - Cloud Service: 2303 oder höher
 
 
 ## Nächste Sachverständigensitzung
 
-- **Thema** - Native PDF-Veröffentlichung - Lernen anhand von Beispielen (Teil 1)
+- **Thema** - Native PDF-Veröffentlichung - Lernen nach Beispiel (Teil 1)
 - **Geplant am** - 1. Juni 2023
 
 
 ## Kontakt
 
-Für alle Fragen senden Sie uns eine E-Mail unter <techcomm@adobe.com>
+Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>

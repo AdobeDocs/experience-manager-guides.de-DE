@@ -1,6 +1,6 @@
 ---
 title: Massen-Tagging von DITA-Inhalten
-description: Verwenden Sie das Massen-Tagging von Inhalten in AEM Handbüchern, um die Entdeckung von DITA-Inhalten zu verbessern. Erfahren Sie, wie Sie Massen-Tags auf einzelne Themen oder mehrere Themen anwenden, entfernen, anzeigen oder ausblenden.
+description: Verwenden Sie das Massen-Tagging von Inhalten in AEM Guides, um die Entdeckung von DITA-Inhalten zu verbessern. Erfahren Sie, wie Sie Massen-Tags auf einzelne Themen oder mehrere Themen anwenden, entfernen, anzeigen oder ausblenden.
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Mit Tags können Sie Inhalte innerhalb Ihres Inhalts-Repositorys und auch in der veröffentlichten Ausgabe gruppieren oder klassifizieren. Wenn Sie Tags auf Ihren Inhalt angewendet haben, können Sie verwandte Themen in einer DITA-Map finden, die Ihnen beim Authoring von Inhalten helfen kann. Mit der veröffentlichten Ausgabe können Endbenutzer den richtigen Inhalt schneller finden, wenn geeignete Tags vorhanden sind.
 
-Mit AEM Guides können Sie DITA-Inhalte mit wenigen Klicks taggen. Sie können die Massen-Tagging-Funktion verwenden, um mehrere Tags auf mehrere Themen, eine DITA-Zuordnung oder auf eine Unterzuordnung anzuwenden. Sie können auch Tags auf ein einzelnes Thema anwenden. Tagging ist die native Funktion in AEM. Weitere Informationen zum Erstellen und Verwalten von Tags finden Sie in der [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in AEM Dokumentation.
+Mit AEM Guides können Sie DITA-Inhalte mit nur wenigen Klicks taggen. Sie können die Massen-Tagging-Funktion verwenden, um mehrere Tags auf mehrere Themen, eine DITA-Zuordnung oder auf eine Unterzuordnung anzuwenden. Sie können auch Tags auf ein einzelnes Thema anwenden. Tagging ist die native Funktion in AEM. Weitere Informationen zum Erstellen und Verwalten von Tags finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in AEM Dokumentation.
 
-Standardmäßig gewähren AEM Guides keinen Lesezugriff für Benutzer im Ordner, in dem alle Tags im AEM-Repository gespeichert sind. Um im AEM-Repository definierte Tags zu verwenden, müssen Sie Ihren Systemadministrator bitten, Zugriff auf den Ordner zu gewähren, in dem die Tags gespeichert sind.
+Standardmäßig gewährt AEM Guides keinen Lesezugriff für Benutzer im Ordner, in dem alle Tags im AEM-Repository gespeichert sind. Um im AEM-Repository definierte Tags zu verwenden, müssen Sie Ihren Systemadministrator bitten, Zugriff auf den Ordner zu gewähren, in dem die Tags gespeichert sind.
 
 ## Anwenden von Bulk-Tags
 
@@ -27,7 +27,7 @@ Verwenden Sie die Massen-Tagging-Funktion, um mehrere Tags gleichzeitig anzuwend
 
    Die DITA-Zuordnungskonsole wird mit der Liste der zum Generieren der Ausgabe verfügbaren Ausgabevorgaben angezeigt.
 
-1. Klicks **Themen**.
+1. Klicken Sie auf **Themen**.
 
    Eine Liste der in der DITA-Map verfügbaren Themen wird angezeigt. Die UUIDs der Themen werden unter dem Thementitel angezeigt.
 
@@ -40,7 +40,7 @@ Verwenden Sie die Massen-Tagging-Funktion, um mehrere Tags gleichzeitig anzuwend
    >
    > Der obige Screenshot zeigt eine ausgewählte und erweiterte Unterkarte. Bei Auswahl der Unterzuordnung werden auch alle Themen unter der Unterzuordnung ausgewählt.
 
-1. Klicks **Anwenden von Tags**.
+1. Klicken Sie auf **Tags anwenden**.
 
    Das Dialogfeld Tags auswählen wird angezeigt.
 
@@ -65,13 +65,13 @@ Führen Sie die folgenden Schritte aus, um Tags auf ein einzelnes Thema anzuwend
 
    Die Eigenschaftenseite des Themas wird angezeigt.
 
-1. Klicken Sie auf der Registerkarte Allgemein auf das Symbol Durchsuchen neben dem **Tags** -Feld.
+1. Klicken Sie auf der Registerkarte Allgemein auf das Symbol Durchsuchen neben dem Feld **Tags** .
 
 1. Wählen Sie ein oder mehrere Tags aus, die Sie auf das ausgewählte Thema anwenden möchten.
 
 1. Bestätigen Sie Ihre Auswahl.
 
-1. Klicks **Anwenden von Tags**.
+1. Klicken Sie auf **Tags anwenden**.
 
    Die ausgewählten Tags werden auf das Thema angewendet und im Feld Tags angezeigt.
 
@@ -88,13 +88,13 @@ Führen Sie die folgenden Schritte aus, um alle Tags aus einem oder mehreren The
 
    Die DITA-Zuordnungskonsole wird mit der Liste der zum Generieren der Ausgabe verfügbaren Ausgabevorgaben angezeigt.
 
-1. Klicks **Themen**.
+1. Klicken Sie auf **Themen**.
 
    Eine Liste der in der DITA-Map verfügbaren Themen wird angezeigt.
 
 1. Wählen Sie die Themen aus, aus denen Sie Tags entfernen möchten.
 
-1. Klicks **Entfernen von Tags**.
+1. Klicken Sie auf **Tags entfernen**.
 
    >[!NOTE]
    >
@@ -107,4 +107,4 @@ Führen Sie die folgenden Schritte aus, um alle Tags aus einem oder mehreren The
 
 Wenn Sie eine lange Liste von Tags auf Ihre Themen angewendet haben, ist die Navigation möglicherweise etwas schwerfällig. Sie können Tags in der Ansicht der DITA-Map-Konsole einfach ausblenden, indem Sie auf das Symbol Tags ausblenden klicken. Wenn die Tags nicht sichtbar sind, werden durch Klicken auf &quot;Tags anzeigen&quot;alle Tags angezeigt.
 
-**Übergeordnetes Thema:**[ Verwalten von Metadaten](manage-metadata.md)
+**Übergeordnetes Thema:**[ Metadaten verwalten](manage-metadata.md)

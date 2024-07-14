@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Festlegen des Erweiterten Map-Editors als Standard {#id181AI0003PN}
 
-AEM Guides verfügen über einen einfachen Map-Editor und einen erweiterten Map-Editor. Der Basic Map Editor bietet Ihnen alle notwendigen Funktionen zum Erstellen Ihrer Zuordnungsdatei. Der erweiterte Map-Editor ist wesentlich umfangreicher und im Web-Editor integriert. Mit dem erweiterten Map Editor können Autoren DITA-Zuordnungsdateien mit einer benutzerfreundlichen Benutzeroberfläche erstellen und bearbeiten.
+AEM Guides verfügt über einen einfachen Map-Editor und einen erweiterten Map-Editor. Der Basic Map Editor bietet Ihnen alle notwendigen Funktionen zum Erstellen Ihrer Zuordnungsdatei. Der erweiterte Map-Editor ist wesentlich umfangreicher und im Web-Editor integriert. Mit dem erweiterten Map Editor können Autoren DITA-Zuordnungsdateien mit einer benutzerfreundlichen Benutzeroberfläche erstellen und bearbeiten.
 
 Standardmäßig wird eine neue Zuordnungsdatei bei der Erstellung im Basic Map Editor geöffnet. Sie können dieses Verhalten ändern, indem Sie die Einstellung aktivieren, um den erweiterten Map-Editor standardmäßig zu öffnen.
 
@@ -26,6 +26,6 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 >[!NOTE]
 >
-> Wenn ein Autor eine Zuordnungsdatei erstellt und sie zur Bearbeitung öffnet, wird standardmäßig der Basic Map Editor gestartet. Wenn die Option &quot;Bearbeiten&quot;für eine Zuordnungsdatei aus der Assets-Benutzeroberfläche ausgewählt ist, wird sie auch im Basic Map Editor geöffnet.
+> Wenn ein Autor eine Zuordnungsdatei erstellt und sie zur Bearbeitung öffnet, wird standardmäßig der Basic Map Editor gestartet. Wenn die Option &quot;Bearbeiten&quot;für eine Zuordnungsdatei über die Assets-Benutzeroberfläche ausgewählt ist, wird sie auch im Basic Map Editor geöffnet.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

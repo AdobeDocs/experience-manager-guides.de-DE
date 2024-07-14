@@ -18,8 +18,8 @@ Mit AEM Guides können Sie eine Vielzahl strukturierter und unstrukturierter Dok
 
 >[!TIP]
 >
-> Siehe *Inhaltsmigration und -upload* Abschnitt [Anhang.md](appendix.md) im Handbuch Best Practices für Best Practices zur Verwendung der Migration und des Hochladens vorhandener Inhalte.
+> Best Practices zur Migration und zum Hochladen vorhandener Inhalte finden Sie im Abschnitt [Anhang.md](appendix.md) des Handbuchs mit Best Practices für die Migration und den Upload von Inhalten.**
 
 - **[Vorhandenen DITA-Inhalt hochladen](migrate-content-upload-existing-dita-content.md)**
 
-- **[Nicht-DITA-Inhalt migrieren](migrate-content-non-dita.md)**
+- **[Migrieren von Nicht-DITA-Inhalten](migrate-content-non-dita.md)**

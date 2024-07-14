@@ -17,13 +17,13 @@ Dieser Artikel gibt einen Überblick über die Architektur und Leistungszahlen d
 
 >[!NOTE]
 >
-> Die mikrodienstbasierte Veröffentlichung in AEM Guides unterstützt die Typen von PDF (nativ und DITA-OT-basiert), HTML5, JSON und benutzerdefinierten Ausgabevorgaben.
+> Microservice-basierte Veröffentlichung in AEM Guides unterstützt die Typen von PDF (nativ und DITA-OT-basiert), HTML5, JSON und benutzerdefinierten Ausgabevorgaben.
 
 ## Probleme mit vorhandenen Veröffentlichungs-Workflows in der Cloud
 
 DITA Publishing ist ein ressourcenintensiver Prozess, der hauptsächlich von verfügbarem Systemspeicher und CPU abhängig ist. Der Bedarf an diesen Ressourcen steigt weiter, wenn Herausgeber große Maps mit vielen Themen veröffentlichen oder wenn mehrere parallele Veröffentlichungsanforderungen ausgelöst werden.
 
-Wenn Sie den neuen Dienst nicht verwenden, erfolgt die gesamte Veröffentlichung auf demselben Kubernetes(k8)-Pod, auf dem auch der AEM Cloud-Server ausgeführt wird. Ein typischer k8-Pod hat eine Beschränkung auf die Menge an Arbeitsspeicher und CPU, die er verwenden kann. Wenn Benutzer von AEM Guides große oder parallele Arbeitslasten veröffentlichen, kann diese Beschränkung schnell überwunden werden. K8 startet Pods neu, die versuchen, mehr Ressourcen als das konfigurierte Limit zu verwenden, was sich ernsthaft auf die AEM Cloud-Instanz selbst auswirken kann.
+Wenn Sie den neuen Dienst nicht verwenden, erfolgt die gesamte Veröffentlichung auf demselben Kubernetes(k8)-Pod, auf dem auch der AEM Cloud-Server ausgeführt wird. Ein typischer k8-Pod hat eine Beschränkung auf die Menge an Arbeitsspeicher und CPU, die er verwenden kann. Wenn AEM Guides-Benutzer große oder parallele Arbeitslasten veröffentlichen, kann diese Grenze schnell überschritten werden. K8 startet Pods neu, die versuchen, mehr Ressourcen als das konfigurierte Limit zu verwenden, was sich ernsthaft auf die AEM Cloud-Instanz selbst auswirken kann.
 
 Diese Ressourcenbegrenzung war die Hauptmotivation, einen dedizierten Dienst einzurichten, der es uns ermöglicht, mehrere gleichzeitige und große Veröffentlichungsarbeitslasten in der Cloud auszuführen.
 
@@ -44,7 +44,7 @@ Alle diese Nachrichten werden durch Adobe IMS mit JWT-basierter Authentifizierun
 
 ## Leistungsanalyse
 
-In diesem Abschnitt werden die Leistungszahlen des Microservice vorgestellt. Er vergleicht die Leistung des Microservice mit dem On-Premise-Angebot AEM Guides, da die alte Cloud-Architektur Probleme bei gleichzeitiger Veröffentlichung oder der Veröffentlichung sehr großer Karten hatte.
+In diesem Abschnitt werden die Leistungszahlen des Microservice vorgestellt. Er vergleicht die Leistung des Microservice mit dem On-Premise-Angebot von AEM Guides, da die alte Cloud-Architektur Probleme bei gleichzeitiger Veröffentlichung oder der Veröffentlichung sehr großer Karten hatte.
 
 Wenn Sie eine große Karte in On-Premise veröffentlichen, müssen Sie möglicherweise die Java-Heap-Parameter anpassen, da andernfalls Fehler wegen zu wenig Arbeitsspeicher auftreten können. In der Cloud ist der Microservice bereits profiliert und verfügt standardmäßig über optimale Java-Heap- und andere Konfigurationen.
 
@@ -80,4 +80,4 @@ Wenn Sie eine große Karte in On-Premise veröffentlichen, müssen Sie mögliche
 
 Ein Teil jeder Veröffentlichungsanforderung muss auf der AEM ausgeführt werden, um den richtigen Veröffentlichungsinhalt abzurufen, der an den Microservice gesendet werden soll. Die neue Cloud-Architektur verwendet AEM Aufträge anstelle AEM Workflows, wie es in der alten Architektur der Fall war. Diese Änderung ermöglicht es AEM Guides-Administratoren, Cloud-Publishing-Warteschlangeneinstellungen individuell zu konfigurieren, ohne andere AEM Aufträge oder Workflow-Konfigurationen zu beeinträchtigen.
 
-Details zur Konfiguration des neuen Veröffentlichungs-Microservice finden Sie hier: [Konfigurieren von Microservice](configure-microservices.md)
+Details zur Konfiguration des neuen Veröffentlichungs-Microservice finden Sie hier: [Microservice konfigurieren](configure-microservices.md)

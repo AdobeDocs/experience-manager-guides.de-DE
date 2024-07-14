@@ -41,4 +41,4 @@ Für Konfigurationsaktualisierungen sollte der folgende allgemeine Ansatz verwen
 1. Übertragen Sie die Änderungen und führen Sie die Cloud Manager-Pipeline aus, um die aktualisierte Konfiguration bereitzustellen.
 
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)

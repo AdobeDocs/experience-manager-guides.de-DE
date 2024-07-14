@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher Version 4.2
-description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.2 der Adobe Experience Manager-Handbücher.
+title: Versionshinweise | Adobe Experience Manager Guides Version 4.2
+description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.2 von Adobe Experience Manager Guides.
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
@@ -11,28 +11,28 @@ ht-degree: 1%
 
 ---
 
-# Version 4.2 von Adobe Experience Manager-Handbüchern (Februar 2023)
+# Version 4.2 von Adobe Experience Manager Guides (Februar 2023)
 
-In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die in Version 4.2 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM*).
+In diesem Versionshinweis werden die Aktualisierungsanweisungen, die Kompatibilitätsmatrix und die in Version 4.2 von Adobe Experience Manager Guides behobenen Probleme (später als *AEM Guides*) behandelt.
 
-Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 4.2 von Adobe Experience Manager-Handbüchern](whats-new-4-2-release.md).
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 4.2 von Adobe Experience Manager Guides](whats-new-4-2-release.md).
 
-## Aktualisierung auf Version 4.2 AEM Handbücher
+## Aktualisierung auf Version 4.2 von AEM Guides
 
 Sie können Ihre aktuelle Version von AEM Guides einfach auf Version 4.2 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.2 von AEM Guides fortfahren, müssen Sie die folgenden Punkte beachten:
 * Wenn Sie Version 4.0, 4.1 oder 4.1.x verwenden, können Sie direkt auf Version 4.2 aktualisieren.
 * Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-* Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt *Upgrade AEM Handbücher* im produktspezifischen Installationshandbuch.
+* Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt *AEM Guides aktualisieren* im produktspezifischen Installationshandbuch.
 
 >[!NOTE]
 >
->Sie müssen AEM Service Pack installieren, bevor Sie AEM Guides-Version aktualisieren.
+>Sie müssen AEM Service Pack installieren, bevor Sie die AEM Guides-Version aktualisieren.
 
 Weitere Informationen finden Sie unter [Upgrade-Anweisungen](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides 4.2 unterstützt werden.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die von AEM Guides 4.2 unterstützten Softwareanwendungen aufgeführt.
 
 ### Adobe Experience Manager
 
@@ -42,7 +42,7 @@ Version 6.5 Service Pack 15, 14, 13 oder 12
 **UUID**
 Version 6.5 Service Pack 15, 14, 13 oder 12
 
-Weitere Informationen finden Sie unter *Technische Anforderungen* im Handbuch &quot;Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern&quot;.
+Weitere Informationen finden Sie im Abschnitt *Technische Anforderungen* im Handbuch &quot;Installieren und Konfigurieren von Adobe Experience Manager Guides&quot;.
 
 ### FrameMaker und FrameMaker Publishing Server
 
@@ -69,20 +69,20 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 ### Authoring
 
 * Beim Hinzufügen einer Registerkarte wird der linke Bereich umgebrochen. (1126)
-* Änderungen im HTML-Code des Web Editors verursachen Probleme mit `<dl>` und `<dlentry>`. (11024)
+* Änderungen am HTML-Code des Web Editors verursachen Probleme mit `<dl>` und `<dlentry>`. (11024)
 * Einige Attribute werden nicht als bedingt behandelt und verursachen Probleme. (10895)
-* Drei Ebenen oder mehr verschachtelt `<indexterm>` sind beim nativen PDF-Export nicht verschachtelt. (1079)
-* Der Inhalt verschwindet beim Wechsel von der Autoren- zur Quellansicht im Hauptteil einer Aufgabe. (10735)
+* Drei Ebenen oder mehr verschachtelte `<indexterm>` sind im nativen PDF-Export nicht verschachtelt. (1079)
+* Der Inhalt verschwindet beim Wechsel von der Autorenansicht zur Source-Ansicht im Hauptteil einer Aufgabe. (10735)
 * Überprüfungskommentare werden in einer Prüfungsaufgabe nicht platziert. (10625)
-* `<conref>` Hinweis innerhalb eines para-Tags wird nicht im Vorschaumodus angezeigt. (10559)
+* `<conref>` Hinweis innerhalb eines Para-Tags wird nicht im Vorschaumodus angezeigt. (10559)
 * Wenn Sie die Rücktaste am Ende eines Listenelements drücken, wird die gesamte Liste entfernt. (10540)
 * Der Bildschirm wird in Chrome v106 beim Ziehen und Ablegen eines Elements aus der Benutzeroberfläche (z. B. aus dem Bedienfeld &quot;Bedingungen&quot;) als leer angezeigt. (10524)
-* Die Schaltfläche &quot;Automatischer Einzug&quot;fehlt in der Symbolleiste in **Quelle** anzeigen. (10448)
+* Die Schaltfläche &quot;Automatischer Einzug&quot;fehlt in der Symbolleiste in der Ansicht &quot;**Source**&quot;. (10448)
 * Das erste Zeichen eines Listenelements geht manchmal verloren, wenn die Liste im Editor erstellt wird.(10447)
-* **Rückgängig** oder **Wiederholen** funktioniert bei einigen Dateien nicht richtig. (10373)
+* **Rückgängig** oder **Wiederholen** funktioniert bei einigen Dateien nicht ordnungsgemäß. (10373)
 * Benutzerdefinierte Metadaten werden beim Kopieren und Einfügen nicht beibehalten. (10367)
 * Beim Kopieren (Strg+C) und Einfügen (Strg+V) des Inhalts tritt ein Fehler auf. (10304)
-* Im Bedienfeld &quot;Kontur&quot;werden keine Inhalte angezeigt, wenn von der Autoreninstanz in den Quellmodus gewechselt wird. (10296)
+* Im Bedienfeld &quot;Umrisse&quot;werden keine Inhalte angezeigt, wenn von der Autoreninstanz in den Source-Modus gewechselt wird. (10296)
 * Submap wird nicht erstellt, wenn sie auf eine Hauptkarte in DITA-Vorlagen verweist. (10231)
 * Navigationsprobleme treten im Web Editor nach der Aktualisierung auf Version 4.0 auf. (10159)
 * Die Option &quot;Rückgängig&quot;im XML-Editor bringt den Benutzer zum Anfang der Seite. (10091)
@@ -95,10 +95,10 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Keine Option zum Erstellen einer neuen Vorlage in den Unterordnern von Themen oder Maps. (9888)
 * Der XML-Editor aktualisiert die Bilder nicht zu Themen. (9500)
 * mimeType ist für die Erstellung und Aktualisierung von DITA-Assets hartcodiert. (8979)
-* Ein normaler Bindestrich wird eingefügt, wenn Sie im **Sonderzeichen einfügen** angezeigt. (8919)
+* Beim Auswählen von geschützten Bindestrichen im Dialogfeld **Sonderzeichen einfügen** wird ein normaler Bindestrich eingefügt. (8919)
 * Der Name des Erstellers der Version im Versionsverlauf ist &quot;fmdita-service-user&quot;für die Dateien, die über die Assets-Benutzeroberfläche hochgeladen wurden. (8910)
 * Die Option &quot;Bearbeiten&quot;funktioniert nicht für Bilder, während Sie in der Spaltenansicht der Assets-Benutzeroberfläche arbeiten. (8758)
-* DITA-Thema wird nicht automatisch mit Änderungen aktualisiert, die am **Eigenschaften** Seite. (8745)
+* Das DITA-Thema wird nicht automatisch mit Änderungen aktualisiert, die auf der Seite **Eigenschaften** vorgenommen wurden. (8745)
 * Beim Verschieben von Elementen innerhalb des Themas im Web Editor werden die zugewiesenen IDs für Elemente durch automatisch zugewiesene IDs überschrieben. (7895)
 
 ### Verwaltung
@@ -108,7 +108,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Web Editor-Grundlinie | Das Verhalten der Spalte &quot;Neueste&quot;unterscheidet sich im neuen Dashboard für die Grundlinie im Web Editor. (10808)
 * Übersetzung | Der Übersetzungsauftrag wird aufgrund von ungültigen /libs/fmdita/i18n/ja.json nicht gestartet. (10543)
 * Übersetzung | In einem Scoping-Übersetzungsprojekt, das über das Übersetzungs-Dashboard (Menschliche Übersetzung) erstellt wurde, tritt ein Fehler auf. (10526)
-* Übersetzung | Die Nachbearbeitung wird für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. (10332)
+* Übersetzung | Die Verarbeitung von Post ist für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. (10332)
 * Übersetzung| Metadaten und Tags werden nicht an die übersetzten Kopien weitergegeben. (4696)
 * Für jedes Asset werden mehrere Popups angezeigt, wenn die Version geändert und im Baseline-Editor gespeichert wird. (10399)
 * SitzungsLeak tritt unter com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210) auf. (10279)
@@ -126,7 +126,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Native PDF | Beim Drehen der Tabellenüberschrift treten Probleme auf. (10555)
 * Native PDF | Beim Entfernen von Themen mit Verarbeitungsrolle=&#39;resource-only&#39; treten Probleme auf. 10554)
 * Native PDF | Leere Keyrefs werden in der PDF-Ausgabe angezeigt. (10553)
-* Native PDF | Verschachtelt `<indexterm>` sind beim nativen PDF-Export nicht verschachtelt. (10521)
+* Native PDF | Verschachtelte `<indexterm>` werden im nativen PDF-Export nicht verschachtelt. (10521)
 * Native PDF | Native PDF verwendet für die generierten Tags den Inline-Stil anstelle des Klassennamens. (10498)
 * Native PDF | Verschachtelte topicref in Anhängen werden alle in der temporären HTML in h1 umgewandelt.(10454)
 * Native PDF | Es ist nicht möglich, Themen aus dem Inhaltsverzeichnis zu verbergen. (10355)
@@ -144,6 +144,6 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ## Bekanntes Problem
 
-Adobe hat das folgende bekannte Problem für AEM Guides 4.2-Version identifiziert:
+Adobe hat das folgende bekannte Problem für die AEM Guides-Version 4.2 identifiziert:
 
 * Benutzer können Überprüfungsvorgänge auch nach Abschluss der Prüfungsaufgabe durchführen.

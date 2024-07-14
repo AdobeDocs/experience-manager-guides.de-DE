@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # PDF-Generierung für einzelne Themen konfigurieren {#id22ADC70M0XA}
 
-Mit den AEM-Handbüchern können Sie die PDF einzelner Themen oder eine ganze Map-Datei generieren. Sie können Ihre Themen im PDF-Format mithilfe der nativen PDF- oder DITA-OT-Methode veröffentlichen. Verwenden Sie die native PDF-Methode, um eine funktionsreiche PDF-Ausgabe basierend auf W3C CSS3- und CSS-Medienstandards zu generieren. Sie können die DITA-OT-Methode verwenden, um eine PDF-Ausgabe für eine Zuordnung aus dem Map-Dashboard zu generieren.
+Mit der AEM Guides können Sie die PDF einzelner Themen oder eine ganze Map-Datei generieren. Sie können Ihre Themen im PDF-Format mithilfe der nativen PDF- oder DITA-OT-Methode veröffentlichen. Verwenden Sie die native PDF-Methode, um eine funktionsreiche PDF-Ausgabe basierend auf W3C CSS3- und CSS-Medienstandards zu generieren. Sie können die DITA-OT-Methode verwenden, um eine PDF-Ausgabe für eine Zuordnung aus dem Map-Dashboard zu generieren.
 
 >[!NOTE]
 >
@@ -24,12 +24,12 @@ So aktivieren Sie die alte PDF-Generierung über DITA-OT im Themenvorschaumodus:
 
 1. Melden Sie sich bei Adobe Experience Manager als Administrator an und laden Sie die Konfigurationsdatei der Benutzeroberfläche herunter.
 
-1. Klicken Sie dazu oben auf den Link Adobe Experience Manager und wählen Sie **Instrumente**.
-1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die Schaltfläche **Ordnerprofile**.
-1. Klicken Sie auf **Globales Profil** Kachel.
-1. Wählen Sie die **Konfiguration des XML-Editors** Registerkarte und klicken Sie auf **Bearbeiten** Symbol oben
-1. Klicken Sie auf **Herunterladen** -Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
-1. Im `ui_config.json` -Datei, suchen Sie die folgende Konfiguration:
+1. Klicken Sie dazu oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
+1. Wählen Sie **Handbücher** aus der Liste der Tools und klicken Sie auf **Ordnerprofile**.
+1. Klicken Sie auf die Kachel **Globales Profil** .
+1. Wählen Sie die Registerkarte **XML-Editor-Konfiguration** aus und klicken Sie oben auf das Symbol **Bearbeiten** .
+1. Klicken Sie auf das Symbol **Download** , um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
+1. Suchen Sie in der Datei &quot;`ui_config.json`&quot;die folgende Konfiguration:
 
    ```
    {
@@ -59,4 +59,4 @@ So aktivieren Sie die alte PDF-Generierung über DITA-OT im Themenvorschaumodus:
 
 Wenn Sie nach dem Ausführen der oben genannten Schritte unter Benutzereinstellungen im Web-Editor dasselbe Ordnerprofil auswählen, wird im Vorschaumodus eines Themas die Option zum Generieren von PDF angezeigt.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

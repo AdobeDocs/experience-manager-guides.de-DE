@@ -1,6 +1,6 @@
 ---
 title: Themen oder Zuordnungen überprüfen
-description: Prüfen Sie Themen oder Maps effizient in AEM Guides für eine reibungslose Inhaltsbewertung. Machen Sie sich mit den Funktionen für Autoren und Prüfer in AEM Handbüchern vertraut.
+description: Prüfen Sie Themen oder Maps in AEM Guides effizient für eine reibungslose Inhaltsbewertung. Machen Sie sich mit den Funktionen für Autoren und Prüfer in AEM Guides vertraut.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Fast alle technischen Dokumente müssen mehrere Rezensionen durchlaufen. In den meisten Fällen umfasst ein Prüfungszyklus mehrere Prüfer. Das Ansprechen und Reagieren auf Kommentare von mehreren Validierern ist für Autoren immer eine Herausforderung. In einem Szenario mit mehreren Validierern ist es außerdem hilfreich, wenn einem Validierer auch die Kommentare anderer Validierer angezeigt werden.
 
-Einige der wichtigsten Funktionen, die von AEM Guides für die *Initiatoren \(oder Autoren\)* sind:
+Einige der Hauptfunktionen, die AEM Guides den *Initiatoren \(oder Autoren\)* anbietet, sind:
 
 - Erstellen Sie ein DITA-Projekt für den Review-Workflow.
 - Senden Sie ein oder mehrere Themen zur Überprüfung in einer einzelnen Prüfungsaufgabe.
@@ -35,7 +35,7 @@ Einige der wichtigsten Funktionen, die von AEM Guides für die *Initiatoren \(od
 - Importieren Sie \(gelöschte oder eingefügte\) Kommentare automatisch in die Version des Themas, das zur Überprüfung freigegeben wurde.
 
 
-Für die *validierende Benutzer*:
+Für die *validierungsverantwortlichen* verfügbare Funktionen:
 
 - Erhalten Sie eine zusammengesetzte Ansicht der Themen, die zur Überprüfung freigegeben wurden.
 - Wechseln Sie zwischen der Composite-Ansicht und der individuellen Themenansicht.
@@ -51,16 +51,16 @@ Für die *validierende Benutzer*:
 
 >[!NOTE]
 >
-> Siehe *Überprüfen* im Handbuch Best Practices für Best Practices zur Erstellung von Prüfungsaufgaben.
+> Best Practices zur Erstellung von Prüfungsaufgaben finden Sie im Abschnitt *Überprüfen* des Leitfadens zu Best Practices .
 
-- **[Erstellen eines DITA-Projekts](authoring-create-dita-project.md)**
+- **[DITA-Projekt erstellen](authoring-create-dita-project.md)**
 
-- **[Senden von Themen zur Überprüfung](review-send-topics-for-review.md)**
+- **[Themen zur Überprüfung senden](review-send-topics-for-review.md)**
 
-- **[Prüfungsaufgabe erneut zuweisen mithilfe von Benachrichtigungen](reassign-review-using-notification.md)**
+- **[Zuweisen einer Prüfungsaufgabe mithilfe der Benachrichtigung](reassign-review-using-notification.md)**
 
 - **[Prüfungsthemen](review-topics.md)**
 
-- **[Kommentare zur Adressüberprüfung](review-address-review-comments.md)**
+- **[Kommentare zur Adressprüfung](review-address-review-comments.md)**
 
 - **[Verwalten von Prüfungsaufgaben mithilfe des Überprüfungs-Dashboards](review-manage-tasks-review-dashboard.md)**

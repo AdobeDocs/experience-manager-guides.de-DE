@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Konfigurieren eines Datenquellen-Connectors über die Benutzeroberfläche
 
-Experience Manager-Handbücher enthalten die **Data Sources** -Tool, mit dem Sie native Connectoren für Datenquellen konfigurieren können. Sie können die Connectoren JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch und Generic REST Client einrichten.
+Experience Manager Guides enthält das Tool **Data Sources** , mit dem Sie native Connectoren für Datenquellen konfigurieren können. Sie können die Connectoren JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch und Generic REST Client einrichten.
 
 
-Neben diesen vordefinierten Connectoren bieten die Experience Manager Guides die Connectoren für die Datenquellen Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO). Sie können diese Open-Source-Connectoren über die [Maven Central Repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Die Benutzer können diese Connectoren dann konfigurieren.
-Erfahren Sie, wie [einen Open-Source-Connector installieren](#install-open-source-connector).
+Neben diesen vordefinierten Connectoren stellt Experience Manager Guides die Connectoren für die Datenquellen Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO) bereit. Sie können diese Open-Source-Connectoren aus dem [Maven Central Repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) herunterladen und installieren. Die Benutzer können diese Connectoren dann konfigurieren.
+Erfahren Sie, wie Sie [einen Open-Source-Connector installieren](#install-open-source-connector).
 
 
 
@@ -26,15 +26,15 @@ Sie können auch über einen Datei-Connector eine Verbindung zu JSON-Datendateie
 
 Um einen Connector zu konfigurieren, führen Sie die folgenden Schritte aus:
 
-1. Wählen Sie die **Adobe Experience Manager** oben klicken und &quot;Tools&quot;auswählen.
-1. Auswählen **Handbücher** aus der Liste der Tools.
-1. Wählen Sie die **Data Sources** Kachel. Die **Data Sources** angezeigt. Sie können die verbundenen Datenquellen anzeigen.
+1. Wählen Sie oben den Link **Adobe Experience Manager** aus und wählen Sie &quot;Tools&quot;.
+1. Wählen Sie **Guides** aus der Liste der Tools aus.
+1. Wählen Sie die Kachel **Datenquellen** aus. Die Seite **Data Sources** wird angezeigt. Sie können die verbundenen Datenquellen anzeigen.
 
-   Sie können zwischen **Listenansicht** oder **Kachelansicht** um die verschiedenen verbundenen Datenquellen als Liste oder Kacheln anzuzeigen.
+   Sie können zwischen der **Listenansicht** oder der **Kachelansicht** umschalten, um die verschiedenen verbundenen Datenquellen als Liste oder Kacheln anzuzeigen.
 
    <img src="./assets/data-sources-create-window.png" alt= "Datenquellen, die auf der Seite &quot;Datenquellen&quot;aufgelistet sind" width="800">
 
-   *Anzeigen oder Erstellen eines Datenquellen-Connectors*
+   *Anzeigen oder Erstellen eines Datenquellen-Connectors.*
 1. Klicken Sie auf **Erstellen**.
 1. Wählen Sie die Datenbank aus, für die Sie den Connector erstellen möchten. Beispielsweise der Elasticsearch-Connector.
    >[!NOTE]
@@ -46,24 +46,24 @@ Um einen Connector zu konfigurieren, führen Sie die folgenden Schritte aus:
 
    >[!TIP]
    >
-   >* Bewegen <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> neben dem Feld, um weitere Details dazu anzuzeigen.
+   >* Bewegen <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> in der Nähe des Felds, um weitere Details dazu anzuzeigen.
    > * Felder mit * sind obligatorisch. Sie können beispielsweise die folgenden Details für den Elasticsearch-Connector eingeben.
 
    * **Name**: Geben Sie den Namen der Datenquelle ein.
    * **Authentifizierungstyp**: Wählen Sie den Authentifizierungstyp aus der Dropdown-Liste aus. Beispiel: Grundlegende Authentifizierung mit Benutzername und Kennwort
    * **Benutzername**: Geben Sie Ihren Benutzernamen ein.
-   * **Passwort**: Geben Sie Ihren Benutzernamen und Ihr Kennwort ein.
-   * **URL**: Hinzufügen der API-URL.
+   * **Kennwort**: Geben Sie Ihren Benutzernamen und Ihr Kennwort ein.
+   * **URL**: Fügen Sie die API-URL hinzu.
 
 
-1. Wählen Sie die **Werksvorlagen ausschließen** -Option, um die Factory-Vorlagen von der Verwendung für die Themen- und Snippet-Generierung auszuschließen. Sie werden nicht unter dem **Datenzuordnungsvorlage** Dropdown im  **Inhaltsfragment-Generator hinzufügen** oder **Themengenerator hinzufügen** Dialogfeld.
+1. Wählen Sie die Option **Factory-Vorlagen ausschließen** aus, um die Factory-Vorlagen von der Verwendung für die Themen- und Snippet-Generierung auszuschließen. Sie werden nicht im Dropdown-Menü **Datenzuordnungsvorlage** im Dialogfeld **Inhaltsfragmentgenerator hinzufügen** oder im Dialogfeld **Themengenerator hinzufügen** angezeigt.
 
 
-1. Auswählen **Verbindung testen**. Sie können die **Verbindung testen** -Schaltfläche nur aktiviert ist, nachdem Sie die erforderlichen Details hinzugefügt haben. Zeigen Sie eine Erfolgsmeldung an, wenn die Verbindungsdetails korrekt sind. Andernfalls wird möglicherweise eine Fehlermeldung angezeigt.
+1. Wählen Sie **Verbindung testen** aus. Sie können die Schaltfläche **Verbindung testen** erst anzeigen, nachdem Sie die erforderlichen Details hinzugefügt haben. Zeigen Sie eine Erfolgsmeldung an, wenn die Verbindungsdetails korrekt sind. Andernfalls wird möglicherweise eine Fehlermeldung angezeigt.
 
 
 
-1. Auswählen **Speichern** oben, um den Connector zu speichern.     Anzeigen der **Speichern** -Schaltfläche aktiviert, nachdem Sie alle Details ausgefüllt haben und die Verbindung erfolgreich hergestellt wurde.
+1. Wählen Sie oben **Speichern** aus, um den Connector zu speichern.     Zeigen Sie die Schaltfläche **Speichern** an, die aktiviert ist, nachdem Sie alle Details ausgefüllt haben und die Verbindung erfolgreich hergestellt wurde.
 
 
    Wenn der Connector erfolgreich gespeichert wurde, können Sie die verbundene Datenquelle auf der Seite anzeigen.
@@ -74,10 +74,10 @@ Sie können für einige Connectoren wie generischer REST Client, Salsify, Akeneo
 
 Führen Sie die folgenden Schritte aus, um eine Ressource zu erstellen:
 
-1. Auswählen ![Symbol hinzufügen](assets/Add_icon.svg) im **URL-Ressourcenabschnitt** , um für jede URL eine Ressource hinzuzufügen.
-1. Konfigurieren Sie alle Details im **Ressource hinzufügen** Dialogfeld.
+1. Wählen Sie ![Symbol hinzufügen](assets/Add_icon.svg) im Abschnitt **URL-Ressource** aus, um eine Ressource für jede URL hinzuzufügen.
+1. Konfigurieren Sie alle Details im Dialogfeld **Ressource hinzufügen** .
 1. Klicken Sie auf **Hinzufügen**.
-1. Sie können ![Bearbeitungssymbol](assets/edit_pencil_icon.svg) oder löschen ![delete](assets/Delete_icon.svg) die Ressource aus der URL-Ressourcenliste.
+1. Sie können das Symbol ![Bearbeiten](assets/edit_pencil_icon.svg) bearbeiten oder die Ressource ![löschen](assets/Delete_icon.svg) aus der Liste der URL-Ressourcen löschen.
 
 1. Sie können auch die Standardressourcen verwenden, die für Datenquellen wie Salsify, Akeneo und Microsoft ADO verfügbar sind. Schalten Sie die Optionen für die Ressource aus, die Sie nicht für eine Datenquelle konfigurieren möchten.
 
@@ -87,9 +87,9 @@ Auf diese Weise können Sie schnell Daten aus einer der Ressourcen für eine bes
 
 ## Installieren eines Open-Source-Connectors{#install-open-source-connector}
 
-So veröffentlichen Sie eine Abhängigkeit auf der [Maven Central Repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) den Cloud Services hinzufügen, müssen Sie die Abhängigkeit für einen Open-Source-Connector einbeziehen und einbetten.
+Um eine Abhängigkeit im [Maven Central Repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) auf den Cloud Services zu veröffentlichen, müssen Sie die Abhängigkeit für einen Open-Source-Connector einschließen und einbetten.
 
-1. Fügen Sie die Abhängigkeit in `all/pom.xml`  in Ihrem Cloud Manager-Git-Projektcode. Sie können beispielsweise die folgende Abhängigkeit für den Datenquellen-Connector für Microsoft Azure DevOps-Pinnwände hinzufügen.
+1. Fügen Sie die Abhängigkeit in `all/pom.xml` in Ihrem Cloud Manager-Git-Projektcode hinzu. Sie können beispielsweise die folgende Abhängigkeit für den Datenquellen-Connector für Microsoft Azure DevOps-Pinnwände hinzufügen.
 
 
    ```
@@ -105,8 +105,8 @@ So veröffentlichen Sie eine Abhängigkeit auf der [Maven Central Repository](ht
 
        &quot;
        &lt;embedded>
-       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
-       &lt;artifactid>konnect-azure-devops&lt;/artifactid>
+       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
+       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
        &lt;type>jar&lt;/type>
        &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
        &lt;/embedded>
@@ -118,18 +118,18 @@ Der Connector ist in Ihrer Umgebung installiert.
 
 ## Für einen Connector verfügbare Funktionen
 
-* Zwischen den **Listenansicht** oder **Kachelansicht**  um die verschiedenen verbundenen Datenquellen als Liste oder Kacheln anzuzeigen.
-* Aktivieren Sie das Kontrollkästchen für einen einzelnen Connector. Klicks **Alle auswählen** , um alle Connectoren auszuwählen. Sie können auf **Auswahl für alle aufheben** wenn alle Connectoren ausgewählt sind.
+* Zwischen der **Listenansicht** oder der **Kachelansicht** wechseln, um die verschiedenen verbundenen Datenquellen als Liste oder Kacheln anzuzeigen.
+* Aktivieren Sie das Kontrollkästchen für einen einzelnen Connector. Klicken Sie auf **Alle auswählen** , um alle Connectoren auszuwählen. Sie können auf &quot;**Auswahl aufheben**&quot;klicken, wenn alle Connectoren ausgewählt sind.
 
 <img src="./assets/data-sources-features.png" alt= "Funktionen der Datenquellen auf der Seite &quot;Datenquellen&quot;" width="800">
 
 *Bearbeiten, erneutes Verbinden, Duplizieren oder Löschen eines Datenquellen-Connectors.*
 
-Sie können die folgenden Funktionen für den Connector auf der **Data Sources** Seite:
+Sie können die folgenden Funktionen für den Connector auf der Seite **Data Sources** verwenden:
 
 * **Bearbeiten**: Bearbeiten Sie die Konfigurationsdetails für den ausgewählten Connector.
 
-* **Wiederholen**: Schließen Sie eine Verbindung zu einem getrennten Connector wieder her.
+* **Erneute Verbindung herstellen**: Verbinden Sie sich erneut mit einem getrennten Connector.
 
 * **Duplizieren**: Erstellen Sie einen neuen doppelten Connector mit dem aktuellen Connector als Basis. Der doppelte Connector wird standardmäßig mit einem Suffix (wie connectorname_1) erstellt. Beispiel: sample-elastisches-search_1.
 Wenn der Connector mit demselben Namen vorhanden ist, wird ein Fehler angezeigt.
@@ -137,4 +137,4 @@ Wenn der Connector mit demselben Namen vorhanden ist, wird ein Fehler angezeigt.
 * **Löschen**: Löschen Sie den ausgewählten Connector.
 
 
-Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector unter der **Data Sources-Bedienfeld** im Web-Editor. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Inhaltsfragment aus Ihrer Datenquelle einfügen](../user-guide/web-editor-content-snippet.md).
+Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector im Web Editor im Bereich **Datenquellen** aufgelistet. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Einfügen eines Inhaltsfragments aus Ihrer Datenquelle](../user-guide/web-editor-content-snippet.md).

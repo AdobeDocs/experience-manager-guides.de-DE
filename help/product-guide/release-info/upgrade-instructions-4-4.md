@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise | Aktualisierungsanweisungen für die Version 4.4.0 der Adobe Experience Manager-Handbücher
-description: Erfahren Sie, wie Sie auf die Version 4.4.0 der Adobe Experience Manager-Handbücher aktualisieren.
+title: Versionshinweise | Upgrade-Anweisungen für Adobe Experience Manager Guides Version 4.4.0
+description: Erfahren Sie, wie Sie auf die Adobe Experience Manager Guides-Version 4.4.0 aktualisieren.
 role: Leader
 exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
 source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
@@ -12,18 +12,18 @@ ht-degree: 5%
 
 # Upgrade-Anweisungen für die Version 4.4.0 (Januar 2024)
 
-In diesem Artikel werden die Upgrade-Anweisungen und die Kompatibilitätsmatrix für Version 4.4.0 der Adobe Experience Manager-Handbücher behandelt.
+In diesem Artikel werden die Upgrade-Anweisungen und die Kompatibilitätsmatrix für Version 4.4.0 von Adobe Experience Manager Guides beschrieben.
 
 Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 4.4.0](../release-info/whats-new-4-4.md).
 
-Eine Liste der in dieser Version behobenen Probleme finden Sie unter [Behobene Probleme in Version 4.4.0](../release-info/fixed-issues-4-4.md).
+Sehen Sie sich für die Liste der in dieser Version behobenen Probleme [Behobene Probleme in Version 4.4.0](../release-info/fixed-issues-4-4.md) an.
 
 
 
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von Experience Manager Guides 4.4.0 unterstützt werden.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die von Experience Manager Guides 4.4.0 unterstützten Softwareanwendungen aufgeführt.
 
 ### Adobe Experience Manager
 
@@ -34,7 +34,7 @@ Version 6.5 Service Pack 20, 19, 18 oder 17
 Version 6.5 Service Pack 20, 19, 18 oder 17
 
 
-Weitere Informationen finden Sie unter [Technische Anforderungen](../install-guide/download-install-technical-requirements.md) im On-Premise-Installations- und Konfigurationshandbuch beschrieben.
+Weitere Informationen finden Sie im Abschnitt [Technische Anforderungen](../install-guide/download-install-technical-requirements.md) im On-Premise-Installations- und Konfigurationshandbuch.
 
 ### FrameMaker und FrameMaker Publishing Server
 
@@ -60,21 +60,21 @@ Weitere Informationen finden Sie unter [Technische Anforderungen](../install-gui
 
 | Name des Komponentenpakets | Komponentenversion | Vorlagenversion |
 |---|---|---|
-| Experience Manager Guides-Komponenteninhaltspaket für Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Experience Manager Guides Components Content Package for Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 
 
-## Aktualisierung auf Version 4.4.0 der Experience Manager-Handbücher
+## Aktualisierung auf Version 4.4.0 von Experience Manager Guides
 
 
-Sie können Ihre aktuelle Version von Guides einfach auf Version 4.4.0 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.4.0 der Experience Manager-Handbücher fortfahren, müssen Sie die folgenden Punkte beachten:
+Sie können Ihre aktuelle Version von Guides einfach auf Version 4.4.0 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.4.0 von Experience Manager Guides fortfahren, müssen Sie die folgenden Punkte beachten:
 
 
 - Wenn Sie Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) verwenden, können Sie direkt auf Version 4.4.0 aktualisieren.
 - Wenn Sie Version 4.2, 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) aktualisieren, bevor Sie auf Version 4.4.0 aktualisieren.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, finden Sie im Abschnitt Upgrade Experience Manager-Handbuch im produktspezifischen Installationshandbuch unter [Hilfe zum PDF-Archiv von Adobe Experience Manager-Handbüchern](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt &quot;Aktualisieren von Experience Manager Guides&quot;im produktspezifischen Installationshandbuch, das im [Adobe Experience Manager Guides-PDF-Archiv](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 
 
@@ -82,4 +82,4 @@ Sie können Ihre aktuelle Version von Guides einfach auf Version 4.4.0 aktualisi
 >
 >Sie müssen AEM Service Pack installieren, bevor Sie die Experience Manager Guides-Version aktualisieren.
 
-Für Details, Ansicht [Upgrade-Anweisungen für On-Premise-Versionen](../install-guide/upgrade-xml-documentation.md) von Experience Manager-Guides.
+Weitere Informationen finden Sie unter [Upgrade-Anweisungen für die On-Premise-Versionen](../install-guide/upgrade-xml-documentation.md) von Experience Manager Guides.

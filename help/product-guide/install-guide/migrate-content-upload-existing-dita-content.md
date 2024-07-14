@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um WinSCP zum Hochladen von Dateien zu v
 
    Das Dialogfeld Anmelden wird angezeigt.
 
-1. Geben Sie im Dialogfeld &quot;Anmelden&quot;die Einstellung Neue Site an, indem Sie WebDAV als **Dateiprotokoll** und weitere Verbindungsdetails bereitstellen, z. B.:
+1. Geben Sie im Dialogfeld &quot;Anmelden&quot;die Einstellung &quot;Neue Site&quot;an, indem Sie WebDAV als **Dateiprotokoll** auswählen und weitere Verbindungsdetails angeben, z. B.:
 
    - die URL, unter der Ihr AEM gehostet wird,
 
@@ -49,20 +49,20 @@ Führen Sie die folgenden Schritte aus, um FrameMaker AEM Connector zum Hochlade
 
 1. Starten Sie FrameMaker.
 
-1. Öffnen Sie die **Connection Manager** angezeigt.
+1. Öffnen Sie das Dialogfeld **Verbindungsmanager** .
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
 1. Geben Sie die folgenden Details ein, um eine Verbindung zum AEM-Repository herzustellen:
 
-   - **Name**: Geben Sie einen beschreibenden Namen ein, um die Verbindung zu Ihrem AEM zu identifizieren.
+   - **Name**: Geben Sie einen beschreibenden Namen ein, um die Verbindung zu Ihrem AEM-Server zu identifizieren.
    - **Server**: Geben Sie die URL und die Portnummer Ihres AEM-Servers ein.
 
-   - **Benutzername**/**Passwort**: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf den AEM-Server ein.
+   - **Benutzername**/**Kennwort**: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf den AEM-Server ein.
 
-1. Klicks **Verbinden**.
+1. Klicken Sie auf **Verbinden**.
 
-   Nachdem die Verbindung erfolgreich hergestellt wurde, werden Assets aus dem AEM Repository im Fenster Repository Manager angezeigt.
+   Sobald die Verbindung erfolgreich hergestellt wurde, wird Assets aus dem AEM Repository im Fenster Repository Manager angezeigt.
 
    ![](assets/fm-repo-manager.png){width="550" align="left"}
 
@@ -83,9 +83,9 @@ Führen Sie die folgenden Schritte aus, um Dateinamen mit einem UUID-Muster zu v
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf *com.adobe.fmdita.config.ConfigManager* Bundle
+1. Suchen Sie nach dem Bundle *com.adobe.fmdita.config.ConfigManager* und klicken Sie darauf.
 
-1. Im **UUID-Dateinamenmuster** -Eigenschaft ein Muster angeben, um die Namen der importierten Datei zu überprüfen.
+1. Geben Sie in der Eigenschaft **UUID-Dateinamenmuster** ein Muster an, nach dem die Namen der importierten Datei überprüft werden sollen.
 
    Wenn eine Datei nicht dem angegebenen Muster entspricht, wird der Eigenschaft der Datei eine UUID hinzugefügt und alle Verweise auf die Datei werden mit der der Datei zugewiesenen UUID aktualisiert.
 
@@ -97,12 +97,12 @@ Führen Sie die folgenden Schritte aus, um Dateinamen mit einem UUID-Muster zu v
 Sie können eine der folgenden Methoden verwenden, um Ihre Inhalte mit UUID hochzuladen:
 
 - Ziehen Sie Inhalte per Drag-and-Drop aus Ihrem lokalen System.
-- Verwenden Sie die **Erstellen** \> **Dateien** Workflow über AEM Assets-Benutzeroberfläche.
+- Verwenden Sie den Workflow **Erstellen** \> **Dateien** aus AEM Assets-Benutzeroberfläche.
 - Verwenden Sie ein Tool wie WinSCP.
 
-Wenn Sie ein Tool wie WinSCP verwenden, können Sie die Aktion definieren, die für eine duplizierte Datei ausgeführt werden soll, indem Sie die **Alte Datei mit derselben UUID in neuen Ordner verschieben** in der configMgr. Diese Option definiert, welche Aktion für eine Datei ausgeführt wird, die an einem anderen Speicherort im AEM-Repository verfügbar ist. Diese Einstellung ist im *com.adobe.fmdita.config.ConfigManager* Bundle in der configMgr.
+Wenn Sie ein Tool wie WinSCP verwenden, können Sie die Aktion definieren, die für eine duplizierte Datei ausgeführt werden soll, indem Sie die Option **Alte Datei mit derselben UUID in neuen Ordner verschieben** in configMgr festlegen. Diese Option definiert, welche Aktion für eine Datei ausgeführt wird, die an einem anderen Speicherort im AEM-Repository verfügbar ist. Diese Einstellung ist im Bundle *com.adobe.fmdita.config.ConfigManager* im configMgr verfügbar.
 
-Standardmäßig wird die **Alte Datei mit derselben UUID in neuen Ordner verschieben** aktiviert ist. Dies bedeutet, dass die hochgeladene Datei in einem anderen Ordner im Repository vorhanden ist, die vorhandene Datei an den aktuellen Speicherort verschoben und mit der hochgeladenen Datei überschrieben wird. Wenn Sie diese Option nicht auswählen, wird die Datei an ihrem vorhandenen Speicherort überschrieben.
+Standardmäßig ist die Option **Alte Datei mit derselben UUID in neuen Ordner verschieben** aktiviert. Dies bedeutet, dass die hochgeladene Datei in einem anderen Ordner im Repository vorhanden ist, die vorhandene Datei an den aktuellen Speicherort verschoben und mit der hochgeladenen Datei überschrieben wird. Wenn Sie diese Option nicht auswählen, wird die Datei an ihrem vorhandenen Speicherort überschrieben.
 
 **Zusätzliche Hinweise zum Arbeiten mit UUID-basierten Dateien**:
 
@@ -126,7 +126,7 @@ Beim Verschieben oder Kopieren von Inhalten aus Ihrem lokalen System in das AEM-
 
 Sie können auch mithilfe von Curl-Befehlen einen Ordner in DAM erstellen, Dateien hochladen und Metadaten zum hochgeladenen Inhalt hinzufügen.
 
-**Ordner erstellen**
+**Erstellen eines Ordners**
 
 Führen Sie den folgenden Befehl aus, um einen Ordner in AEM Repository zu erstellen:
 
@@ -138,9 +138,9 @@ Geben Sie die folgenden Parameter an, um einen Ordner zu erstellen:
 
 - `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss über die Berechtigung zur Ordnererstellung verfügen.
 
-- `jcr:primaryType=sling:Folder`: Geben Sie diesen Parameter an *as is* , um eine Ressource vom Typ Ordner zu erstellen.
+- `jcr:primaryType=sling:Folder`: Geben Sie diesen Parameter *as is* an, um eine Ressource vom Typ Ordner zu erstellen.
 
-- `<server folder path>`: Vollständiger Ordnerpfad einschließlich des Namens des neuen Ordners, den Sie im AEM Repository erstellen möchten. Wenn Sie beispielsweise den Pfad als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`, dann den Ordner `AEM-Guides` wird innerhalb der `projects` Ordner in DAM.
+- `<server folder path>`: Vollständiger Ordnerpfad einschließlich des Namens des neuen Ordners, den Sie im AEM Repository erstellen möchten. Wenn Sie beispielsweise den Pfad als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides` angeben, wird der Ordner `AEM-Guides` im Ordner `projects` in DAM erstellt.
 
 
 **Datei hochladen**
@@ -153,14 +153,14 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 Geben Sie die folgenden Parameter an, um eine Datei hochzuladen:
 
-- `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss Schreibrechte für die `server folder path`.
+- `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss über Schreibberechtigungen für die `server folder path` verfügen.
 
 - ``local file path``: Vervollständigen Sie den Dateipfad auf Ihrem lokalen System, den Sie hochladen möchten.
 
 - `<server folder path>`: Füllen Sie den Ordnerpfad auf dem AEM-Server aus, auf den Sie die Datei hochladen möchten.
 
 
-**Hinzufügen von Metadaten**
+**Metadaten hinzufügen**
 
 Führen Sie den folgenden Befehl aus, um Metadaten zu einer Datei hinzuzufügen:
 
@@ -170,11 +170,11 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 Geben Sie die folgenden Parameter an, um Metadateninformationen hinzuzufügen:
 
-- `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss Schreibrechte für die ``metadata node path``.
+- `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss über Schreibberechtigungen für die ``metadata node path`` verfügen.
 
-- ``-F<attribute name>=<value>``: Die `<attribute name>` ist der Name des Metadatenattributs, z. B. `audience` und `<value>` könnte `internal`. Sie können mehrere Attributname-Wert-Paare, getrennt durch Leerzeichen, angeben.
+- ``-F<attribute name>=<value>``: Der `<attribute name>` ist der Name des Metadatenattributs, z. B. `audience` und der `<value>` könnte `internal` sein. Sie können mehrere Attributname-Wert-Paare, getrennt durch Leerzeichen, angeben.
 
-- `<metadata node path>`: Vollständiger Ordnerpfad einschließlich Dateiname und Metadatenknoten. Wenn Sie beispielsweise den Pfad als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`festgelegt ist, werden die angegebenen Metadateninformationen auf `intro.xml` -Datei.
+- `<metadata node path>`: Vollständiger Ordnerpfad einschließlich Dateiname und Metadatenknoten. Wenn Sie beispielsweise den Pfad als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` angeben, werden die angegebenen Metadateninformationen in der Datei `intro.xml` festgelegt.
 
 
 **Übergeordnetes Thema:**[ Migrieren vorhandener Inhalte](migrate-content.md)

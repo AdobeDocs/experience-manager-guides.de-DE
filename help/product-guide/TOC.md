@@ -57,7 +57,7 @@ ht-degree: 7%
             - März-Version {#2303-release}
                - [Neuerungen](./release-info/whats-new-2023-3-0.md)
                - [Versionshinweise](./release-info/release-notes-2023-3-0.md)
-            - Februar-Version {#2302-release}
+            - Februarversion {#2302-release}
                - [Neuerungen](./release-info/whats-new-2023-2-0.md)
                - [Versionshinweise](./release-info/release-notes-2023-2-0.md)
          - Versionen 2022 {#2022-releases}
@@ -72,21 +72,21 @@ ht-degree: 7%
             - [Januar - Versionshinweise](./release-info/release-notes-2022-1-0.md)
       - On-Premise/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] Releases](./release-info/latest-release-info.md)
-         - Version 4.4.0 {#440-release}
+         - 4.4.0 Release {#440-release}
             - [Neuerungen](./release-info/whats-new-4-4.md)
             - [Behobene Probleme](./release-info/fixed-issues-4-4.md)
             - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-4.md)
-         - Version 4.3.1.5 {#4315-release}
+         - 4.3.1.5 Release {#4315-release}
             - [Behobene Probleme](./release-info/fixed-issues-4-3-1-5.md)
             - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-3-1-5.md)
-         - Version 4.3.0 {#43-release}
+         - 4.3.0 Release {#43-release}
             - Neue Funktionen {#43-whats-new}
                - [4.3.1 Neue Funktionen](./release-info/whats-new-4-3-1-release.md)
                - [4.3.0 Neue Funktionen](./release-info/whats-new-4-3-release.md)
             - Versionshinweise {#43-release-notes}
                - [4.3.1 - Versionshinweise](./release-info/release-notes-4-3-1.md)
                - [4.3.0 - Versionshinweise](./release-info/release-notes-4-3.md)
-         - Version 4.2 {#42-release}
+         - 4.2 Release {#42-release}
             - Neue Funktionen {#42-whats-new}
                - [4.2.1 Neue Funktionen](./release-info/whats-new-4-2-1-release.md)
                - [4.2 Neue Funktionen](./release-info/whats-new-4-2-release.md)
@@ -100,9 +100,9 @@ ht-degree: 7%
 
    - Einführung {#about-aem-guide}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] Arbeiten und wichtige Funktionen {#aemg-works-features}
-         - [How [!DNL AEM Guides] works](./user-guide/intro-how-dxml-works.md)
-         - [Schlüssel [!DNL AEM Guides] Funktionen](./user-guide/intro-dxml-features.md)
+      - [!DNL AEM Guides] Arbeits- und Schlüsselfunktionen {#aemg-works-features}
+         - [Funktionsweise von [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Key [!DNL AEM Guides] features](./user-guide/intro-dxml-features.md)
    - Inhalt verwalten {#manage-content}
       - [Schlüsselkonzepte, Rollen und Berechtigungen und Voraussetzungen](./user-guide/authoring.md)
       - [Hochladen von Dateien](./user-guide/authoring-upload-existing-files.md)
@@ -119,7 +119,7 @@ ht-degree: 7%
          - Autoreninhalt {#author-content-aem-guides}
 
             - [Inhaltserstellung mit AEM Guides](./user-guide/authoring-content-xml-doc.md)
-            - Web-Editor {#work-with-web-editor}
+            - Web Editor {#work-with-web-editor}
 
                - [Arbeiten mit dem Web-Editor](./user-guide/web-editor.md)
                - [Starten des Web Editors](./user-guide/web-editor-launch-editor.md)
@@ -138,8 +138,8 @@ ht-degree: 7%
                - Artikelbasierte Veröffentlichung {#article-based-pub}
                   - [Artikelbasierte Veröffentlichung im Web Editor](./user-guide/web-editor-article-publishing.md)
                   - [Erstellen von Ausgabevorgaben aus dem Web-Editor](./user-guide/web-editor-article-publishing-presets.md)
-                  - [Generate-Ausgabe aus dem Repository-Bedienfeld oder dem Bedienfeld &quot;Map View&quot;](./user-guide/web-editor-article-publishing-output.md)
-                  - [Verwenden des Bedienfelds &quot;Quick Generate&quot;zu generate und Anzeigen der Ausgabe](./user-guide/web-editor-quick-generate-panel.md)
+                  - [Generieren Sie die Ausgabe aus dem Repository-Bedienfeld oder dem Bedienfeld &quot;Map View&quot;](./user-guide/web-editor-article-publishing-output.md)
+                  - [Verwenden Sie den Bereich &quot;Schnellgenerierung&quot;, um die Ausgabe zu generieren und anzuzeigen](./user-guide/web-editor-quick-generate-panel.md)
                - [Übersetzen von Dokumenten aus dem Web Editor](./user-guide/translate-documents-web-editor.md)
                - [Erstellen und Verwalten von Grundlinien im Web-Editor](./user-guide/web-editor-baseline.md)
                - [Dokumentstatus](./user-guide/web-editor-document-states.md)
@@ -152,7 +152,7 @@ ht-degree: 7%
                - [Arbeiten mit dem erweiterten Map-Editor](./user-guide/map-editor-advanced-map-editor.md)
                - [Arbeiten mit dem Basic Map Editor](./user-guide/map-editor-basic-map-editor.md)
                - [Weitere Funktionen im Map-Editor](./user-guide/map-editor-other-features.md)
-            - DITAVAL Editor {#ditaval-editor}
+            - DITAVAL-Editor {#ditaval-editor}
                - [Arbeiten mit dem DITAVAL-Editor](./user-guide/ditaval-editor.md)
 
          - Desktop-Tools für die Inhaltserstellung {#author-using-desktop-tools}
@@ -175,12 +175,12 @@ ht-degree: 7%
       - [Arbeiten mit Metadaten in AEM](./user-guide/metadata-dita.md)
       - [Smart-Tagging](./user-guide/web-editor-smart-tagging.md)
       - [Massen-Tagging von DITA-Inhalten](./user-guide/map-editor-bulk-tagging.md)
-   - Übersetzung von Inhalten {#translate-content}
+   - Inhaltsübersetzung {#translate-content}
       - [Inhalte übersetzen](./user-guide/translation.md)
       - [Best Practices für die Übersetzung von Inhalten](./user-guide/translation-first-time.md)
       - [Anzeigen des Übersetzungsstatus](./user-guide/translation-view-trans-state-6234.md)
       - [Geänderte Themen übersetzen](./user-guide/translation-modified-topics-6234.md)
-   - Generierung der Ausgabe {#output-gen}
+   - Ausgabegenerierung {#output-gen}
       - [Grundlagen zur Generierung von Ausgaben](./user-guide/generate-output.md)
       - [Einführung in Ausgabevorgaben](./user-guide/generate-output-understand-presets.md)
       - Ausgabevorgaben in AEM Guides {#output-presets-aemg}
@@ -197,7 +197,7 @@ ht-degree: 7%
       - [Bedingte Attributprofilierung](./user-guide/generate-output-conditional-attribute-profiling.md)
       - [Verwenden von Bedingungsvorgaben](./user-guide/generate-output-use-condition-presets.md)
       - [Arbeiten mit Grundlinien](./user-guide/generate-output-use-baseline-for-publishing.md)
-      - [Generate-Ausgabe für eine DITA-Zuordnung aus der Zuordnungskonsole](./user-guide/generate-output-for-a-dita-map.md)
+      - [Generieren der Ausgabe für eine DITA-Zuordnung über die Zuordnungskonsole](./user-guide/generate-output-for-a-dita-map.md)
       - [Verwenden der Kartensammlung für die Ausgabegenerierung](./user-guide/generate-output-use-map-collection-output-generation.md)
       - Verwenden der nativen PDF-Veröffentlichungsfunktion {#web-editor}
          - [Publish PDF-Ausgabe](./web-editor/native-pdf-web-editor.md)
@@ -206,20 +206,20 @@ ht-degree: 7%
       - [Grundlegende Fehlerbehebung](./user-guide/generate-output-basic-troubleshooting.md)
       - [Veröffentlichen von Inhaltsfragmenten](./user-guide/publish-content-fragment.md)
       - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
-      - Massenaktivierung von Inhalten {#bulk-activation}
+      - Massenaktivierung des Inhalts {#bulk-activation}
          - [Massenaktivierung veröffentlichter Inhalte](./user-guide/conf-bulk-activation.md)
          - [Erstellen einer Massen-Aktivierungszuordnung](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Ausgabe aktivieren](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [Massenaktivierungszuordnung bearbeiten](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Massenaktivierungszuordnung löschen](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   - Generierung von FrameMaker-Dokumenten {#generate-fm-output}
-      - [Generate-Ausgabe von FrameMaker-Dokumenten](./user-guide/fm-output-generatation.md)
+   - Generierung der Ausgabe von FrameMaker-Dokumenten {#generate-fm-output}
+      - [Ausgabe von FrameMaker-Dokumenten generieren](./user-guide/fm-output-generatation.md)
       - Unterstützte Vorgaben {#fm-docs-generating-presets}
          - [Vorgaben zum Generieren von FrameMaker-Dokumenten](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
          - [EPUB](./user-guide/fm-output-epub-preset.md)
-      - [Generate-Ausgabe von .book- oder .fm-Dateien](./user-guide/fm-output-generate.md)
+      - [Ausgabe von .book- oder .fm-Dateien generieren](./user-guide/fm-output-generate.md)
       - [Status der Ausgabegenerierungsaufgabe anzeigen](./user-guide/fm-output-view-status.md)
    - Berichte in AEM Guides {#reports-aem-guide}
       - [Einführung in Berichte](./user-guide/reports-intro.md)
@@ -232,7 +232,7 @@ ht-degree: 7%
 - Installation und Konfiguration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [On-Premise-Grundlagen](./install-guide/introduction.md)
-      - Herunterladen, Installieren und Aktualisieren {#download-install-upgrade-aemg}
+      - Herunterladen, Installieren und Aktualisieren von {#download-install-upgrade-aemg}
          - [Download- und Installationsübersicht](./install-guide/download-install.md)
          - [Technische Anforderungen](./install-guide/download-install-technical-requirements.md)
          - [Installieren von Adobe Experience Manager](./install-guide/download-install-aem.md)
@@ -252,7 +252,7 @@ ht-degree: 7%
          - [Migrieren vorhandener Inhalte](./install-guide/migrate-content.md)
          - [Vorhandenen DITA-Inhalt hochladen](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Nicht-DITA-Inhalt migrieren](./install-guide/migrate-content-non-dita.md)
-      - Arbeiten mit benutzerdefinierten DITA-OT- und Spezialisierungen {#custom-dita-ot-spec}
+      - Arbeiten mit benutzerdefiniertem DITA-OT und Spezialisierung {#custom-dita-ot-spec}
          - [Verwenden einer benutzerdefinierten DITA-OT- und DITA-Spezialisierung](./install-guide/dita-ot-specialization.md)
       - Konfigurieren von UUID- und Nicht-UUID-basierten Dateinamen {#conf-non-uuid-filename}
       - [Konfigurieren der Nachbearbeitung für einen Ordner](./install-guide/conf-folder-post-processing.md)
@@ -266,7 +266,7 @@ ht-degree: 7%
          - [Benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren](./install-guide/conf-template-tags-custom-dita-map-templates.md)
       - Arbeiten mit Dokumentstatus {#doc-state}
          - [Dokumentstatus konfigurieren](./install-guide/customize-doc-state.md)
-      - Arbeiten mit Web Editor-Konfigurationen {#web-editor-configs}
+      - Arbeiten mit den Web-Editor-Konfigurationen {#web-editor-configs}
          - [Anpassen des Web-Editors](./install-guide/conf-web-editor.md)
          - [Symbolleiste anpassen](./install-guide/conf-web-editor-customize-toolbar.md)
          - [Standardwert für die Tag-Ansicht konfigurieren](./install-guide/configure-default-value-tags-view.md)
@@ -276,10 +276,10 @@ ht-degree: 7%
          - [Benutzerdefiniertes Bedienfeld im linken Bereich konfigurieren](./install-guide/configure-custom-panel.md)
          - [Automatische Speicherung von Dateien im Web Editor konfigurieren](./install-guide/auto-save-in-editor.md)
          - [Filter für Dialogfeld &quot;Dateisuche&quot;konfigurieren](./install-guide/conf-custom-file-filters.md)
-         - [Konfigurieren von prompt zum Speichern als neue Version beim Schließen](./install-guide/conf-save-as-new-version-close.md)
-         - [Konfigurieren von prompt zum Einchecken einer Datei beim Schließen](./install-guide/conf-checkin-file-close.md)
+         - [Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren](./install-guide/conf-save-as-new-version-close.md)
+         - [Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren](./install-guide/conf-checkin-file-close.md)
          - [Zulässige Sonderzeichen konfigurieren](./install-guide/conf-special-chars.md)
-         - [Element-IDs für die automatische generate](./install-guide/auto-generate-ids.md)
+         - [Element-IDs automatisch generieren](./install-guide/auto-generate-ids.md)
          - [AEM Standardwörterbuch anpassen](./install-guide/customize-aem-custom-dictionary.md)
          - [Textfilter konfigurieren](./install-guide/config-text-filters.md)
          - [Konfigurieren der Anzahl der LimitReads für eine Abfrage](./install-guide/conf-query-limitreads.md)
@@ -297,7 +297,7 @@ ht-degree: 7%
          - [Integrieren von Desktop-basierten XML-Editoren](./install-guide/integrate-desktop-editors.md)
       - Arbeiten mit Ausgabegenerierungseinstellungen {#output-gen-config}
          - [Ausgabegenerierungseinstellungen konfigurieren](./install-guide/conf-output-generation.md)
-         - Native PDF-Veröffentlichung {#config-native-pdf-publish}
+         - Native PDF Publishing {#config-native-pdf-publish}
             - [PDF-Vorlage](./native-pdf/pdf-template.md)
             - [Komponenten einer PDF-Vorlage](./native-pdf/components-pdf-template.md)
             - [Seitenlayout erstellen](./native-pdf/design-page-layout.md)
@@ -316,12 +316,12 @@ ht-degree: 7%
          - [Workflows konfigurieren und anpassen](./install-guide/customize-workflows.md)
       - Arbeiten mit Übersetzungskonfigurationen {#translate-config}
          - [Inhalte übersetzen](./install-guide/translation.md)
-      - Arbeiten mit der AEM Assets-Suche {#aem-asset-search}
+      - Arbeiten mit AEM Assets-Suche {#aem-asset-search}
          - [Konfigurieren der Suche in der AEM Assets-Benutzeroberfläche](./install-guide/conf-dita-search.md)
       - [Anhang](./install-guide/appendix.md)
    - Cloud Services {#cs-ig}
       - [Informationen zu diesem Handbuch](./cs-install-guide/introduction.md)
-      - Bereitstellen und Konfigurieren von AEM Guides as Cloud Service {#deploy-conf-aemg-cs}
+      - Bereitstellen und Konfigurieren von AEM Guides als Cloud Service {#deploy-conf-aemg-cs}
          - [Herunterladen und installieren](./cs-install-guide/download-install.md)
          - [AEM Guides-Modul bereitstellen](./cs-install-guide/download-install-dxml-first-time.md)
          - [Konfiguration des Dispatchers](./cs-install-guide/download-install-configure-dispatcher.md)
@@ -335,7 +335,7 @@ ht-degree: 7%
          - [Migrieren vorhandener Inhalte](./cs-install-guide/migrate-content.md)
          - [Vorhandenen DITA-Inhalt hochladen](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
          - [Nicht-DITA-Inhalt migrieren](./cs-install-guide/migrate-content-non-dita.md)
-      - Arbeiten mit benutzerdefinierten DITA-OT- und Spezialisierungen {#custom-dita-ot-spec-cs}
+      - Arbeiten mit benutzerdefiniertem DITA-OT und Spezialisierung {#custom-dita-ot-spec-cs}
          - [Verwenden einer benutzerdefinierten DITA-OT- und DITA-Spezialisierung](./cs-install-guide/dita-ot-specialization.md)
       - Konfigurieren von UUID- und Nicht-UUID-basierten Dateinamen {#conf-non-uuid-filename-cs}
          - [Konfigurieren der Nachbearbeitung für einen Ordner](./cs-install-guide/conf-folder-post-processing.md)
@@ -349,7 +349,7 @@ ht-degree: 7%
          - [Benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - Arbeiten mit Dokumentstatus {#doc-state-cs}
          - [Dokumentstatus konfigurieren](./cs-install-guide/customize-doc-state.md)
-      - Arbeiten mit Web Editor-Konfigurationen {#web-editor-configs-cs}
+      - Arbeiten mit den Web-Editor-Konfigurationen {#web-editor-configs-cs}
          - [Anpassen des Web-Editors](./cs-install-guide/conf-web-editor.md)
          - [Symbolleiste anpassen](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          - [KI-gestützte intelligente Vorschläge für das Authoring konfigurieren](./cs-install-guide/conf-smart-suggestions.md)
@@ -358,10 +358,10 @@ ht-degree: 7%
          - [DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen](./cs-install-guide/open-dita-files-same-tab.md)
          - [Benutzerdefiniertes Bedienfeld im linken Bereich konfigurieren](./cs-install-guide/configure-custom-panel.md)
          - [Automatische Speicherung von Dateien im Web Editor konfigurieren](./cs-install-guide/auto-save-in-editor.md)
-         - [Konfigurieren von prompt zum Speichern als neue Version beim Schließen](./cs-install-guide/conf-save-as-new-version-close.md)
-         - [Konfigurieren von prompt zum Einchecken einer Datei beim Schließen](./cs-install-guide/conf-checkin-file-close.md)
+         - [Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren](./cs-install-guide/conf-save-as-new-version-close.md)
+         - [Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren](./cs-install-guide/conf-checkin-file-close.md)
          - [Zulässige Sonderzeichen konfigurieren](./cs-install-guide/conf-special-chars.md)
-         - [Element-IDs für die automatische generate](./cs-install-guide/auto-generate-ids.md)
+         - [Element-IDs automatisch generieren](./cs-install-guide/auto-generate-ids.md)
          - [AEM Standardwörterbuch anpassen](./cs-install-guide/customize-aem-custom-dictionary.md)
          - [Textfilter konfigurieren](./cs-install-guide/config-text-filters.md)
          - [Filter für Dialogfeld &quot;Dateisuche&quot;konfigurieren](./cs-install-guide/conf-custom-file-filters.md)
@@ -386,7 +386,7 @@ ht-degree: 7%
          - [Workflows konfigurieren und anpassen](./cs-install-guide/customize-workflows.md)
       - Arbeiten mit Übersetzungskonfigurationen {#translate-config-cs}
          - [Inhalte übersetzen](./cs-install-guide/translation.md)
-      - Arbeiten mit der AEM Assets-Suche {#aem-asset-search-cs}
+      - Arbeiten mit AEM Assets-Suche {#aem-asset-search-cs}
          - [Konfigurieren der Suche in der AEM Assets-Benutzeroberfläche](./cs-install-guide/conf-dita-search.md)
       - [Anhang](./cs-install-guide/appendix.md)
 - API-Referenz {#api-reference}
@@ -426,9 +426,9 @@ ht-degree: 7%
    - Artikel {#kb-articles}
 
       - Authoring {#authoring}
-         - Web-Editor {#webeditor}
+         - Web Editor {#webeditor}
             - [Wiederverwendbarkeit von Inhalten in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-            - Anpassen {#customizing}
+            - Anpassen von {#customizing}
                - [Hinzufügen benutzerdefinierter Schaltflächen zur Symbolleiste](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Hinzufügen benutzerdefinierter Stile zum Web-Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [Anpassen des Ordners ContextMenu](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
@@ -459,14 +459,14 @@ ht-degree: 7%
             - [Einfache Anpassung](./guides-ui-extensions/customisations/add-button.md)
             - [Kontextmenüs anpassen](./guides-ui-extensions/customisations/context-menus.md)
             - [Anpassen der Symbolleiste und der Symbolleiste](./guides-ui-extensions/customisations/toolbar-topbar.md)
-            - Überprüfen{#review-app-customisations}
+            - Review{#review-app-customisations}
                - [Komponenten](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Anpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       - Veröffentlichung {#publishing}
 
          - [Konfigurieren AEM Umgebung für natives PDF-Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
 
-         - [Generate Bookmap&#39;s TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+         - [Generieren des Inhaltsverzeichnisses für Bookmap in nativer PDF-Veröffentlichung](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
 
          - [FMPS und Handbücher](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice-Architektur und -Leistung](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)

@@ -23,24 +23,24 @@ Automatisieren Sie die Übersetzung von Seiteninhalten, Assets und benutzergener
 
 Die Übersetzung der Inhalte umfasst die folgenden Schritte:
 
-1. AEM mit Ihrer [Übersetzungsdienstleister](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) und erstellen Sie Framework-Konfigurationen für die Übersetzungsintegration.
+1. Verbinden Sie AEM mit Ihrem [Übersetzungsdienstleister](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) und erstellen Sie Framework-Konfigurationen für die Übersetzungsintegration.
 
 1. Verknüpfen Sie die Seiten Ihres Sprach-Masters mit dem Übersetzungsdienst und den Framework-Konfigurationen.
 
-1. Identifizieren Sie den Typ von [zu übersetzende Inhalte](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. Identifizieren Sie den Typ des zu übersetzenden [Inhalts](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
 1. [Bereiten Sie die Inhalte für die Übersetzung vor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en), indem Sie den Sprachstamm und die Stammseiten der Sprachkopien erstellen.
 
-1. Erstellen [Übersetzungsprojekte](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) , um die zu übersetzenden Inhalte zu sammeln und den Übersetzungsprozess vorzubereiten.
+1. Erstellen Sie [Übersetzungsprojekte](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) , um die zu übersetzenden Inhalte zusammenzustellen und den Übersetzungsprozess vorzubereiten.
 
-1. Verwenden Sie Übersetzungsprojekte, um [Verwalten der Inhaltsübersetzung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) -Prozess.
+1. Verwenden Sie die Übersetzungsprojekte, um den Prozess für die Inhaltsübersetzung zu verwalten.[](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en)
 
 
 Wenn Ihr Übersetzungsanbieter keinen Connector zur Integration mit AEM bereitstellt, unterstützt AEM den manuellen Export und Import von übersetzten Inhalten im XML-Format.
 
 >[!TIP]
 >
-> Siehe *Übersetzung* im Leitfaden zu Best Practices Best Practices für die Übersetzung von Inhalten.
+> Best Practices zur Übersetzung von Inhalten finden Sie im Abschnitt *Übersetzung* des Best Practices-Handbuchs.
 
 ## Konfigurieren der Registerkarte &quot;Übersetzung&quot;im DITA-Map-Dashboard
 
@@ -66,7 +66,7 @@ Basierend auf dem in Ihrem Setup verwendeten Übersetzungs-Workflow sollte die O
 
 | PID | Eigenschaftenschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Boolesch: <br> - Wenn Sie eine menschliche Übersetzung verwenden, dann *Deaktivieren* \( `false`\) die **Komponentenbasierter Übersetzungs-Workflow** -Option. <br> - Wenn Sie maschinelle Übersetzung verwenden, dann *Aktivieren \( `true`\)* die **Komponentenbasierter Übersetzungs-Workflow** -Option. |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Boolesch: <br> -   Wenn Sie eine menschliche Übersetzung verwenden, deaktivieren Sie die Option *komponentenbasierter Übersetzungs-Workflow **\( `false`\).*** <br> -   Wenn Sie maschinelle Übersetzung verwenden, aktivieren Sie die Option *Komponenten-basierter Übersetzungs-Workflow aktivieren \( `true`\)* .**** |
 
 
 
@@ -81,13 +81,13 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 | PID | Eigenschaftenschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Boolesch: <br> - Wenn Sie den neuesten Übersetzungs-Workflow verwenden, dann *Deaktivieren* \( `false`\) die **Veralteten Übersetzungs-Workflow ausführen** -Option. Der neueste Übersetzungs-Workflow ist standardmäßig aktiviert. <br> - Wenn Sie die alte Übersetzung verwenden, dann *Aktivieren \( `true`\)* die **Veralteten Übersetzungs-Workflow ausführen** -Option. |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Boolescher Wert: <br> - Wenn Sie den neuesten Übersetzungs-Workflow verwenden, deaktivieren Sie die Option *Deaktivieren* \( `false`\) und führen Sie den **alten Übersetzungs-Workflow ausführen** aus. Der neueste Übersetzungs-Workflow ist standardmäßig aktiviert. <br> -   Wenn Sie die alte Übersetzung verwenden, aktivieren Sie die Option *Enable \( `true`\)* the **Run Legacy translation workflow** . |
 
 
 
 >[!NOTE]
 >
-> Wenn Sie Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector wie im Abschnitt *[Konfigurieren des Übersetzungsintegrations-Frameworks](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* Thema in der Adobe Experience Manager-Dokumentation.
+> Wenn Sie Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector wie im Thema *[Konfigurieren des Übersetzungsintegrations-Frameworks](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* in der Adobe Experience Manager-Dokumentation beschrieben konfiguriert haben.
 
 >[!IMPORTANT]
 >
@@ -101,5 +101,5 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 | PID | Eigenschaftenschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Boolesch: <br> - Wenn Sie die Nachbearbeitung nicht für die temporären Dateien ausführen möchten, dann *Deaktivieren* \( false\) die **Sprachkopien nach der Verarbeitung** -Option.<br> - Wenn Sie die Nachbearbeitung für die temporären Dateien ausführen möchten, dann *Aktivieren* \( true\) die **Sprachkopien nach der Verarbeitung** -Option.<br> **Standardwert**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Boolesch: <br> -   Wenn Sie den Nachbearbeitungsprozess nicht für die temporären Dateien ausführen möchten, aktivieren Sie die Option *Sprachkopien mit Post-Verarbeitung deaktivieren* \( false\)**-Prozess** .<br> -   Wenn Sie die Nachbearbeitung für die temporären Dateien ausführen möchten, aktivieren Sie die Option *Post-Prozesssprachkopien aktivieren* \( true\).<br>**** **Standardwert**: false |
 

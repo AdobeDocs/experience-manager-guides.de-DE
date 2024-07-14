@@ -25,9 +25,9 @@ Es gibt zwei Möglichkeiten, die Symbolleiste des Web-Editors anzupassen:
 
 ## Hinzufügen einer Funktion in der Symbolleiste
 
-Das Hinzufügen einer Funktion zum Web-Editor umfasst zwei Hauptaufgaben - das Hinzufügen eines Symbols für die Funktion im *ui\_config.json* und das Hinzufügen der Hintergrundfunktion in JavaScript.
+Das Hinzufügen einer Funktion zum Webeditor umfasst zwei Hauptaufgaben: das Hinzufügen eines Symbols für die Funktion in der Datei *ui\_config.json* und das Hinzufügen der Hintergrundfunktion in JavaScript.
 
-**Hinzufügen eines Symbols in der Symbolleiste**
+**Fügen Sie ein Symbol in der Symbolleiste hinzu**
 
 Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine Funktion hinzuzufügen:
 
@@ -41,15 +41,15 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Navigieren Sie zu und öffnen Sie die `ui_config.json` in der Datei `apps` Knoten zur Bearbeitung.
+1. Navigieren Sie zur Datei &quot;`ui_config.json`&quot; und öffnen Sie sie im Knoten &quot;`apps`&quot;, um sie zu bearbeiten.
 
-1. Im `ui_config.json` -Datei, fügen Sie die Definition der neuen Funktion im Abschnitt &quot;Symbolleisten&quot;hinzu. In der Regel können Sie eine neue Schaltflächengruppe für Symbolleisten erstellen und eine oder mehrere Schaltflächen der Symbolleiste hinzufügen. Sie können auch eine neue Symbolleistenschaltfläche innerhalb einer vorhandenen Symbolleistengruppe hinzufügen. Die folgenden Details sind erforderlich, um eine neue Symbolleistengruppe zu erstellen:
+1. Fügen Sie in der Datei `ui_config.json` die Definition der neuen Funktion im Abschnitt &quot;Symbolleisten&quot;hinzu. In der Regel können Sie eine neue Schaltflächengruppe für Symbolleisten erstellen und eine oder mehrere Schaltflächen der Symbolleiste hinzufügen. Sie können auch eine neue Symbolleistenschaltfläche innerhalb einer vorhandenen Symbolleistengruppe hinzufügen. Die folgenden Details sind erforderlich, um eine neue Symbolleistengruppe zu erstellen:
 
-   - **type:**specify `blockGroup` als `type` -Wert. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
+   - **type:**Geben Sie `blockGroup` als `type` -Wert an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
 
-   - **extraklasse:** Name der Klasse(n), getrennt durch Leerzeichen.
+   - **extraclass:** Name der Klasse(n), getrennt durch Leerzeichen.
 
-   - **items:** Definieren Sie die Definition aller Gruppen in der Symbolleiste. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole in einer Symbolleistengruppe zu definieren, müssen Sie die `type` -Attribut innerhalb der `items`und setzen Sie den Wert auf `buttonGroup`. Geben Sie einen oder mehrere Klassennamen in der `extraclass` -Eigenschaft. Geben Sie den Namen der Funktion im `label` -Eigenschaft. Das folgende Snippet aus dem `ui_config.json` -Datei zeigt die Definition des Hauptbausteins der Symbolleiste, gefolgt von der `buttonGroup` Definition:
+   - **Elemente:** Geben Sie die Definition aller Gruppen in der Symbolleiste an. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole in einer Symbolleistengruppe zu definieren, müssen Sie das Attribut `type` innerhalb von `items` erneut definieren und dessen Wert auf `buttonGroup` setzen. Geben Sie einen oder mehrere Klassennamen in der Eigenschaft `extraclass` an. Geben Sie den Funktionsnamen in der Eigenschaft `label` an. Das folgende Codefragment aus der Datei `ui_config.json` zeigt die Definition des Haupt-Symbolleistenblocks gefolgt von der Definition `buttonGroup`:
 
      ```json
      "toolbar": {    
@@ -64,37 +64,37 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
              "items": [
      ```
 
-     Innerhalb der `items` -Sammlung müssen Sie die Definition für ein oder mehrere Symbolleistensymbole angeben.
+     In der Sammlung `items` müssen Sie die Definition für ein oder mehrere Symbolleistensymbole angeben.
 Sie müssen die folgenden Eigenschaften definieren, um ein Symbolleistensymbol hinzuzufügen:
 
-   - **Typ:** Angeben `button` als `type` -Wert. Dieser Wert gibt an, dass Sie eine Symbolleistenschaltfläche hinzufügen.
+   - **type:** Geben Sie `button` als den Wert `type` an. Dieser Wert gibt an, dass Sie eine Symbolleistenschaltfläche hinzufügen.
 
-   - **-Symbol:** Geben Sie den Namen des Coral-Symbols an, das Sie in der Symbolleiste verwenden möchten.
+   - **Symbol:** Geben Sie den Namen des Coral-Symbols an, das Sie in der Symbolleiste verwenden möchten.
 
-   - **Variante:** Angeben `quiet` als `variant` -Wert.
+   - **variant:** Geben Sie `quiet` als `variant` -Wert an.
 
    - **title:** Geben Sie die QuickInfo für das Symbol an.
 
-   - **on-click:** Geben Sie den für die Funktion definierten Befehlsnamen in der JavaScript-Datei an. Wenn für Ihren Befehl Eingabeparameter erforderlich sind, geben Sie den Befehlsnamen wie folgt an:
+   - **on-click:** Geben Sie den Befehlsnamen an, der für die Funktion in der JavaScript-Datei definiert ist. Wenn für Ihren Befehl Eingabeparameter erforderlich sind, geben Sie den Befehlsnamen wie folgt an:
 
      ```JavaScript
      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
      ```
 
-   - **ein- oder ausblenden:** Wenn Sie die `show` -Eigenschaft und geben Sie dann die Modi an, in denen das Symbol angezeigt wird. Mögliche Werte sind - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(in allen Modi anzeigen\) oder `false` \(In allen Modi ausblenden\).
+   - **Anzeigen oder Ausblenden:** Wenn Sie die Eigenschaft `show` definieren, geben Sie die Modi an, in denen das Symbol angezeigt wird. Mögliche Werte sind - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(in allen Modi anzeigen\) oder `false` \(in allen Modi ausblenden\).
 
-   anstelle von `show`, können Sie auch die `hide` -Eigenschaft. Die möglichen Werte sind identisch mit in `show` -Eigenschaft mit dem einzigen Unterschied, dass das Symbol für den angegebenen Modus nicht angezeigt wird.
+   Anstelle von `show` können Sie auch die Eigenschaft `hide` definieren. Die möglichen Werte sind mit denen in der Eigenschaft `show` identisch, mit dem einzigen Unterschied, dass das Symbol für den angegebenen Modus nicht angezeigt wird.
 
-1. Erstellen Sie eine *clientlib* und fügen Sie Ihr JavaScript in diesen Ordner ein.
+1. Erstellen Sie einen Ordner *clientlib* und fügen Sie Ihren JavaScript in diesen Ordner ein.
 
-1. Aktualisieren Sie die categories-Eigenschaft des *clientlib* Ordner, indem ihm der Wert von *apps.format.xml\_editor.page\_overrides*.
+1. Aktualisieren Sie die categories-Eigenschaft des Ordners *clientlib* , indem Sie ihm den Wert *apps.fmdita.xml\_editor.page\_overrides* zuweisen.
 
-1. Speichern Sie die *ui\_config.json* und laden Sie den Web Editor neu.
+1. Speichern Sie die Datei *ui\_config.json* und laden Sie den Web Editor neu.
 
 
 **JavaScript-Codebeispiele**
 
-In diesem Abschnitt finden Sie zwei Beispiele für JavaScript-Code, die Ihnen bei den ersten Schritten mit dem Hinzufügen benutzerdefinierter Funktionen helfen. Das folgende Beispiel zeigt AEM Versionsnummer des Guides, wenn ein Benutzer in der Symbolleiste auf das Symbol Version anzeigen klickt.
+In diesem Abschnitt finden Sie zwei Beispiele für JavaScript-Code, die Ihnen bei den ersten Schritten mit dem Hinzufügen benutzerdefinierter Funktionen helfen. Das folgende Beispiel zeigt die AEM Guides-Versionsnummer, wenn ein Benutzer in der Symbolleiste auf das Symbol Version anzeigen klickt.
 
 Fügen Sie einer JavaScript-Datei den folgenden Code hinzu:
 
@@ -218,14 +218,14 @@ Führen Sie die folgenden Schritte aus, um unerwünschte Funktionen aus der Symb
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Navigieren Sie zu und öffnen Sie die `ui_config.json` in der Datei `apps` Knoten zur Bearbeitung.
-Die `ui_config.json` -Datei umfasst drei Abschnitte:
+1. Navigieren Sie zur Datei &quot;`ui_config.json`&quot; und öffnen Sie sie im Knoten &quot;`apps`&quot;, um sie zu bearbeiten.
+Die Datei `ui_config.json` enthält drei Abschnitte:
 
-- **Symbolleisten:**   Dieser Abschnitt enthält die Definition aller in der Symbolleiste des Editors verfügbaren Funktionen wie &quot;Nummerierte Liste einfügen/entfernen&quot;, &quot;\(Datei\) schließen&quot;, &quot;Speichern&quot;, &quot;Kommentare&quot;und mehr.
+- **toolbars:**   Dieser Abschnitt enthält die Definition aller in der Symbolleiste des Editors verfügbaren Funktionen wie &quot;Nummerierte Liste einfügen/entfernen&quot;, &quot;\(Datei\) schließen&quot;, &quot;Speichern&quot;, &quot;Kommentare&quot;und mehr.
 
-- **Kurzbefehle:**   Dieser Abschnitt enthält die Definition von Tastaturbefehlen, die einer bestimmten Funktion im Editor zugewiesen sind.
+- **Tastaturbefehle:**   Dieser Abschnitt enthält die Definition von Tastaturbefehlen, die einer bestimmten Funktion im Editor zugewiesen sind.
 
-- **templates:**   Dieser Abschnitt enthält die vordefinierte Struktur von DITA-Elementen, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt &quot;Vorlagen&quot;Vorlagendefinitionen für Absätze, einfache Tabellen, Tabellen und Textelemente. Sie können eine Vorlagendefinition für jedes Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise eine `p` Element mit jeder neuen `li` -Element in eine Liste ein, können Sie am Ende des Vorlagenabschnitts folgenden Code hinzufügen, um dies zu erreichen:
+- **templates:**   Dieser Abschnitt enthält die vordefinierte Struktur von DITA-Elementen, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt &quot;Vorlagen&quot;Vorlagendefinitionen für Absätze, einfache Tabellen, Tabellen und Textelemente. Sie können eine Vorlagendefinition für jedes Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise ein `p` -Element mit jedem neuen `li` -Element in einer Liste hinzufügen möchten, können Sie den folgenden Code am Ende des Vorlagenabschnitts hinzufügen, um dies zu erreichen:
 
 ```HTML
 "li": "<li><p></p></li>"
@@ -233,7 +233,7 @@ Die `ui_config.json` -Datei umfasst drei Abschnitte:
 
 1. Entfernen Sie im Abschnitt &quot;Symbolleisten&quot;den Eintrag der Funktion, die Sie Ihren Benutzern nicht zur Verfügung stellen möchten.
 
-1. Speichern Sie die *ui\_config.json* und laden Sie den Web Editor neu.
+1. Speichern Sie die Datei *ui\_config.json* und laden Sie den Web Editor neu.
 
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

@@ -1,6 +1,6 @@
 ---
 title: Arbeiten mit dem Basic Map Editor
-description: Erfahren Sie, wie Sie mit dem Basic Map Editor in AEM Handbüchern arbeiten. Machen Sie sich mit den Funktionen des einfachen Map-Editors auf Zuordnungs- und Themenebene vertraut. Erstellen und bearbeiten Sie Beziehungstabellen in einer DITA-Zuordnung.
+description: Erfahren Sie, wie Sie mit dem Basic Map Editor in AEM Guides arbeiten. Machen Sie sich mit den Funktionen des einfachen Map-Editors auf Zuordnungs- und Themenebene vertraut. Erstellen und bearbeiten Sie Beziehungstabellen in einer DITA-Zuordnung.
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
@@ -27,7 +27,7 @@ Nachdem eine Zuordnungsdatei erstellt wurde, müssen Sie der Zuordnungsdatei The
 
 Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei zu erstellen:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zur Zuordnungsdatei, die Sie bearbeiten möchten.
+1. Navigieren Sie in der Assets-Benutzeroberfläche zu der Zuordnungsdatei, die Sie bearbeiten möchten.
 
 1. Um eine exklusive Sperre für die Zuordnungsdatei zu erhalten, wählen Sie die Zuordnungsdatei aus und klicken Sie auf **Auschecken**.
 
@@ -41,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei zu erstellen:
 
    ![](images/dita-map-01.png){width="800" align="left"}
 
-1. Verwenden der **Verweise** navigieren Sie zu dem Ordner, der die Themen oder Unterkarten enthält, die Sie hinzufügen möchten.
+1. Navigieren Sie in der Leiste **Verweise** zu dem Ordner, der die Themen oder Unterkarten enthält, die Sie hinzufügen möchten.
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei zu erstellen:
 
 ![](images/ditamap-toolbar-actions.png){width="800" align="left"}
 
-**A: Suche**
+**A: search**
 
 Sie können die erforderlichen Themen aus DAM suchen und darin einbeziehen. Wenn Sie auf dieses Symbol klicken, wird das Dialogfeld Suchen angezeigt:
 
@@ -80,7 +80,7 @@ Geben Sie die Suchbegriffe ein, nach denen Sie suchen möchten. Diese Suchbegrif
 
 **B: Gruppe**
 
-Aktivieren Sie das Kontrollkästchen links neben den Themen und klicken Sie in der Symbolleiste auf Gruppe , um die ausgewählten Themen zu gruppieren. Weitere Informationen zu Gruppierungsthemen finden Sie unter [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) Dokumentation in OASIS DITA Language Specification.
+Aktivieren Sie das Kontrollkästchen links neben den Themen und klicken Sie in der Symbolleiste auf Gruppe , um die ausgewählten Themen zu gruppieren. Weitere Informationen zu Gruppierungsthemen finden Sie in der Dokumentation zu [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) in der OASIS DITA-Sprachspezifikation.
 
 **C: Löschen**
 
@@ -90,23 +90,23 @@ Aktivieren Sie das Kontrollkästchen links neben einem Thema und klicken Sie in 
 
 Zeigt die \(oder blendet\) Nummerierung für die Themen auf der Karte an.
 
-**E: Validieren**
+**E: Validate**
 
 Überprüfen Sie, ob die Zuordnung gültig ist oder Fehler aufweist.
 
 **F: Standardmodus/XML-Modus**
 
-Im **Standardmodus**, wenn Sie auf einen Themenlink klicken, wird die Vorschau des Themas in einer neuen Registerkarte angezeigt. Klicken Sie auf die **Standardmodus** ändert den Modus in **XML-Modus**. In **XML-Modus** Wenn Sie auf eine beliebige Stelle in einer Themenzeile klicken, wird die zugrunde liegende XML der Themenreferenzen innerhalb des Themas angezeigt. In der Quell-XML-Ansicht gibt es eine **Auto-Einzug** -Option, die den XML-Code im lesbaren und leicht lesbaren Format neu organisiert. Wenn Sie eine Zuordnung manuell bearbeiten, führt die Quellansicht auch Validierungsprüfungen durch. Wenn Ihre XML Fehler enthält, wird dasselbe im **XML-Modus** und Sie dürfen die DITA-Map-Datei nicht speichern. Wenn Sie die XML-Datei für die gesamte Zuordnung anzeigen möchten, klicken Sie auf eine beliebige Stelle außerhalb der Themengrenze.
+Im **Standardmodus** wird durch Klicken auf einen Themenlink die Vorschau des Themas in einer neuen Registerkarte angezeigt. Wenn Sie auf das Symbol **Standardmodus** klicken, ändert sich sein Modus in **XML-Modus**. Wenn Sie im **XML-Modus** auf eine beliebige Stelle in einer Themenzeile klicken, wird die zugrunde liegende XML der Themenverweise innerhalb des Themas angezeigt. In der Quell-XML-Ansicht gibt es die Option **Auto Indent** , mit der der XML-Code im lesbaren und darstellbaren Format neu organisiert wird. Wenn Sie eine Zuordnung manuell bearbeiten, führt die Quellansicht auch Validierungsprüfungen durch. Wenn Ihre XML Fehler enthält, wird dasselbe im **XML-Modus** hervorgehoben und Sie dürfen die DITA-Map-Datei nicht speichern. Wenn Sie die XML-Datei für die gesamte Zuordnung anzeigen möchten, klicken Sie auf eine beliebige Stelle außerhalb der Themengrenze.
 
 
-**Hinweis:** Im Standardmodus können Sie die Tastaturbefehle verwenden, um \(`Ctrl+z`\) oder wiederholen Sie \(`Ctrl+y`\) die letzte Aktion.
+**Hinweis:** Im Standardmodus können Sie die Tastaturbefehle verwenden, um die letzte Aktion rückgängig zu machen \(`Ctrl+z`\) oder wiederherzustellen.`Ctrl+y`
 
 
 ![](images/dita-map-invalid-source.png){width="650" align="left"}
 
 **G: Zuordnungseigenschaften**
 
-Zeigen Sie das Dialogfeld Zuordnungseigenschaften an, in dem Sie die Attribute und Metadateninformationen für die Zuordnung festlegen können. Um ein Attribut hinzuzufügen, klicken Sie auf die **Hinzufügen** Schaltfläche unten links im Dialogfeld, um die **Attribut** Dropdown-Liste. Wählen Sie in der Liste das Attribut aus, das Sie hinzufügen möchten. Wenn das ausgewählte Attribut vordefinierte Werte enthält, die in der DTD angegeben sind, werden diese Werte in einer neuen Dropdown-Liste angezeigt. Sie können den gewünschten Wert aus der Dropdownliste auswählen. Wenn kein vordefinierter Wert vorhanden ist, wird Ihnen ein Textfeld angezeigt, in das Sie einen Wert für das ausgewählte Attribut eingeben können.
+Zeigen Sie das Dialogfeld Zuordnungseigenschaften an, in dem Sie die Attribute und Metadateninformationen für die Zuordnung festlegen können. Um ein Attribut hinzuzufügen, klicken Sie auf die Schaltfläche **Hinzufügen** unten links im Dialogfeld, um die Dropdownliste **Attribut** zu erhalten. Wählen Sie in der Liste das Attribut aus, das Sie hinzufügen möchten. Wenn das ausgewählte Attribut vordefinierte Werte enthält, die in der DTD angegeben sind, werden diese Werte in einer neuen Dropdown-Liste angezeigt. Sie können den gewünschten Wert aus der Dropdownliste auswählen. Wenn kein vordefinierter Wert vorhanden ist, wird Ihnen ein Textfeld angezeigt, in das Sie einen Wert für das ausgewählte Attribut eingeben können.
 
 ![](images/map-properties.png){width="300" align="left"}
 
@@ -116,13 +116,13 @@ Wenn Sie den Mauszeiger im Basic Map Editor über ein Thema oder eine Unterzuord
 
 ![](images/ditamap-actions.png){width="650" align="left"}
 
-**A: Nach links oder nach rechts verschieben**
+**A: Nach links oder rechts verschieben**
 
 Klicken Sie auf die Pfeilsymbole links oder rechts, um das Thema nach links oder rechts zu verschieben. Wenn Sie ein Thema so verschieben, wird es zu einem untergeordneten Element \(verschachteln\) oder Geschwister \(Verschachtelung entfernen\) im Hinblick auf das obige Thema.
 
 **B: Eigenschaften**
 
-Klicken Sie auf das Symbol Eigenschaften , um das Dialogfeld Eigenschaften von Topicref zu öffnen. Mithilfe dieses Dialogfelds können Sie die Themenattribute und Metadateninformationen festlegen. Weitere Informationen zu den standardmäßigen Themenattributen und Metadaten finden Sie in der [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) Dokumentation in OASIS DITA Language Specification.
+Klicken Sie auf das Symbol Eigenschaften , um das Dialogfeld Eigenschaften von Topicref zu öffnen. Mithilfe dieses Dialogfelds können Sie die Themenattribute und Metadateninformationen festlegen. Weitere Informationen zu den standardmäßigen Themenattributen und Metadaten finden Sie in der Dokumentation zu [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) in der OASIS DITA-Sprachspezifikation.
 
 
 ![](images/map-properties-metadata.png){width="350" align="left"}
@@ -137,7 +137,7 @@ Klicken Sie auf das Symbol Schlüssel , um eine neue Schlüsseldefinition hinzuz
 
 ## Arbeiten mit Beziehungstabellen im Basic Map Editor {#id1944B0I0COB}
 
-Die Zuordnungs-Editoren AEM Guides verfügen über eine leistungsstarke Funktion, mit der Sie Beziehungstabellen in Ihrer DITA-Zuordnung erstellen und bearbeiten können.
+Die Map-Editoren von AEM Guides verfügen über eine leistungsstarke Funktion, mit der Sie Beziehungstabellen in Ihrer DITA-Map erstellen und bearbeiten können.
 
 Führen Sie die folgenden Schritte aus, um mit Beziehungstabellen im Basic Map Editor zu arbeiten:
 
@@ -145,17 +145,17 @@ Führen Sie die folgenden Schritte aus, um mit Beziehungstabellen im Basic Map E
 
 1. Klicken Sie auf die DITA-Karte, um sie in der DITA-Map-Konsole zu öffnen.
 
-1. Wählen Sie die **Themen** um eine Liste der in der DITA-Map verfügbaren Themen anzuzeigen.
+1. Wählen Sie die Registerkarte **Themen** aus, um eine Liste der in der DITA-Map verfügbaren Themen anzuzeigen.
 
    >[!TIP]
    >
-   > Im Tab Themen können Sie die Zuordnungsdatei mit ihren abhängigen Elementen herunterladen. Weitere Informationen finden Sie unter [DITA-Map-Datei exportieren](authoring-download-assets.md#id218UBA00IXA).
+   > Im Tab Themen können Sie die Zuordnungsdatei mit ihren abhängigen Elementen herunterladen. Weitere Informationen finden Sie unter [Exportieren einer DITA-Map-Datei](authoring-download-assets.md#id218UBA00IXA).
 
-1. Klicken Sie in der Symbolleiste auf **Bearbeiten**.
+1. Klicken Sie in der Hauptsymbolleiste auf **Bearbeiten**.
 
    Die Zuordnungsdatei wird im Basic Map Editor geöffnet.
 
-1. Auswählen **Reltable** aus der Symbolleiste.
+1. Wählen Sie **Reltable** aus der Symbolleiste aus.
 
    ![](images/reltable.png){width="650" align="left"}
 
@@ -178,16 +178,16 @@ Führen Sie die folgenden Schritte aus, um mit Beziehungstabellen im Basic Map E
 
 Sie können auch die folgenden Aktionen im Beziehungstabelle-Editor durchführen:
 
-**Zeilen oder Spalten löschen**
+**Löschen von Zeilen oder Spalten**
 
 Wenn Sie eine Spalte aus Ihrer Tabelle löschen möchten, aktivieren Sie das Kontrollkästchen in der Spaltenüberschrift und klicken Sie auf &quot;Löschen&quot;. Wenn Sie eine Zeile aus der Tabelle entfernen möchten, aktivieren Sie das Kontrollkästchen in der ersten Spalte der entsprechenden Zeile und klicken Sie auf Löschen.
 
-**Thema löschen**
+**Löschen eines Themas**
 
 Wenn Sie ein Thema aus Ihrer Tabelle löschen möchten, klicken Sie auf das Kreuzsymbol neben dem Thema.
 
-**Beziehungstabelle löschen**
+**Löschen der Beziehungstabelle**
 
 Wenn Sie die Beziehungstabelle löschen möchten, klicken Sie auf eine beliebige Stelle außerhalb der Beziehungstabelle und klicken Sie auf &quot;Löschen&quot;.
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Map Editor](map-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Map-Editor](map-editor.md)

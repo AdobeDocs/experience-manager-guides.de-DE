@@ -16,7 +16,7 @@ ht-degree: 0%
 
 In diesem Thema werden Informationen zum Arbeiten mit Dateinamen für Ihre DITA-Dateien behandelt. Sie können Dateinamenmuster definieren und auch die Liste der gültigen Zeichen steuern, die in den Dateinamen zulässig sind.
 
-- **[Automatische Dateinamen basierend auf UUID konfigurieren](conf-auto-uuid-filenames.md)**
+- **[Konfigurieren von automatischen Dateinamen basierend auf der UUID](conf-auto-uuid-filenames.md)**
 
 - **[Konfigurieren von Regx für gültige Dateinamenzeichen](conf-file-names-valid-regx.md)**
 

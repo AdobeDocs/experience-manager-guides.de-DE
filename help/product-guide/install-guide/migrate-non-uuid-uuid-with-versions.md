@@ -4,7 +4,8 @@ description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte mit Versionen zu UUID-Inha
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
@@ -17,11 +18,11 @@ Führen Sie diese Schritte aus, um Inhalte ohne UUID-Version in UUID-Inhalte zu 
 
 >[!NOTE]
 >
->Befolgen Sie die [Upgrade-Anweisungen](./upgrade-xml-documentation.md) spezifisch für die lizenzierte Version Ihres Produkts.
+>Befolgen Sie die [Upgrade-Anweisungen](./upgrade-xml-documentation.md) speziell für die lizenzierte Version Ihres Produkts.
 
 ## Kompatibilitätsmatrix
 
-| Aktuelle Version der Experience Manager-Handbücher (nicht UUID) | Erforderliche Version für die Migration zu UUID | Unterstützter Aktualisierungspfad |
+| Aktuelle Experience Manager Guides-Version (Nicht-UUID) | Erforderliche Version für die Migration zu UUID | Unterstützter Aktualisierungspfad |
 |---|---|---|
 | 3.8.5, 4.0.x oder 4.1.x | 4.1 Nicht-UUID | Installieren Sie 4.1 (UUID) und führen Sie die Migration aus. |
 | 4.2, 4.2.x oder 4.3 | 4.3.0 Nicht-UUID | Installieren Sie 4.3.1 (UUID) und führen Sie die Migration aus. |
@@ -57,25 +58,25 @@ Führen Sie die folgenden Prüfungen für die Nicht-UUID-Version durch (4.1 Nich
    >* Sie benötigen Administratorrechte, um die Migration ausführen zu können.
    >* Es wird empfohlen, die Dateien mit Fehlern zu beheben, bevor Sie mit der Migration fortfahren.
 
-1. (Optional) Führen Sie eine Versionsbereinigung für den Inhalt durch, um unnötige Versionen zu entfernen und den Migrationsprozess zu beschleunigen. Um die Versionsbereinigung durchzuführen, wählen Sie die Option **Versionsbereinigung** vom Migrationsbildschirm aus und rufen Sie die Benutzeroberfläche mit der URL auf `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. (Optional) Führen Sie eine Versionsbereinigung für den Inhalt durch, um unnötige Versionen zu entfernen und den Migrationsprozess zu beschleunigen. Um die Versionsbereinigung durchzuführen, wählen Sie im Migrationsbildschirm die Option **Versionsbereinigung** aus und wechseln Sie mithilfe der URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` zur Benutzeroberfläche.
    >[!NOTE]
    >
    >Dieses Dienstprogramm entfernt keine Versionen, die in Grundlinien- oder Rezensionen verwendet werden, oder hat Beschriftungen.
 
-1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
-1. Auswählen **Kompatibilitätsbewertung**  aus dem linken Bedienfeld aus und durchsuchen Sie einen Ordnerpfad.
+1. Starten Sie `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Wählen Sie im linken Bereich die Option **Kompatibilitätsbewertung** aus und durchsuchen Sie einen Ordnerpfad.
 1. Überprüfen Sie die Kompatibilität, um die folgenden Informationen aufzulisten:
-   * Dateien insgesamt
+   * Gesamtzahl der Dateien
    * Versionen insgesamt
    * Geschätzte Migrationszeit
    * Fehlerfreie Dateien
 
-   ![Registerkarte &quot;Kompatibilitätsbewertung&quot;der Migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
+   Registerkarte ![Kompatibilitätsbewertung bei Migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
-1. Auswählen **Validierungen konfigurieren** aus dem linken Bereich. Dann **Zuordnung auswählen** und **Vorgabe auswählen** der Karte, um sie zu konfigurieren. In der aktuellen Liste der Ausgabeprüfungen werden die vor der Migration vorhandenen Ausgabedateien angezeigt. Sie können anhand der Ausgabedateien validiert werden, die nach der Migration generiert wurden.
+1. Wählen Sie im linken Bereich **Überprüfungen konfigurieren** aus. Wählen Sie dann **map** und **preset** der Zuordnung aus, um sie zu konfigurieren. In der aktuellen Liste der Ausgabeprüfungen werden die vor der Migration vorhandenen Ausgabedateien angezeigt. Sie können anhand der Ausgabedateien validiert werden, die nach der Migration generiert wurden.
 
-   ![Registerkarte &quot;Überprüfungen&quot;bei der Migration konfigurieren](assets/migration-configure-validation.png){width="800" align="left"}
+   ![Registerkarte &quot;Überprüfungen konfigurieren&quot;bei der Migration](assets/migration-configure-validation.png){width="800" align="left"}
 
 
 
@@ -84,50 +85,50 @@ Führen Sie die folgenden Prüfungen für die Nicht-UUID-Version durch (4.1 Nich
 
 ### Schritt 1: Konfiguration aktualisieren
 
-1. Stellen Sie sicher, dass der verfügbare freie Speicherplatz mindestens zehnmal so groß ist wie der Speicherplatz, den AEM (crx-quickstart-Verzeichnis) während der Migration benötigt. Nach Abschluss der Migration können Sie den Großteil des Festplattenspeichers durch Ausführung der Komprimierung zurückgewinnen (siehe [Revisionsbereinigung](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=de)).
+1. Stellen Sie sicher, dass der verfügbare freie Speicherplatz mindestens zehnmal so groß ist wie der Speicherplatz, den AEM (crx-quickstart-Verzeichnis) während der Migration benötigt. Nachdem Sie die Migration abgeschlossen haben, können Sie den Großteil des Festplattenspeichers durch Ausführen der Komprimierung wiederherstellen (siehe [Revisionsbereinigung](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=de)).
 
-1. Aktivieren *Aktivieren von Workflow-Startern für Nachbearbeitung* in `com.adobe.fmdita.config.ConfigManager` und *Aktivieren der Versionspostverarbeitung* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Aktivieren Sie *Post-Workflow-Starter für die Verarbeitung aktivieren* in `com.adobe.fmdita.config.ConfigManager` und *Aktivieren Sie die Versionsnachbearbeitung aktivieren* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
 1. Installieren Sie die UUID-Version der unterstützten Version über die Nicht-UUID-Version. Wenn Sie beispielsweise den Build 4.1 non-UUID verwenden, müssen Sie UUID Version 4.1 installieren und die Migration ausführen.
 
 1. Installieren Sie das neue Paket für die UUID-Migration.
 
-1. Deaktivieren Sie die folgenden Workflows und jeden anderen Workflow, der ausgeführt wird `/content/dam` Verwenden von Startern in `http://<server-name>/libs/cq/workflow/content/console.html`.
+1. Deaktivieren Sie die folgenden Workflows und alle anderen Workflows, die unter `/content/dam` ausgeführt werden, mithilfe von Startern in `http://<server-name>/libs/cq/workflow/content/console.html`.
 
    * Workflow „DAM-Update-Asset“
    * DAM-Metadaten-Writeback-Workflow
 
-1. Deaktivieren *Aktivieren von Workflow-Startern für Nachbearbeitung* in `com.adobe.fmdita.config.ConfigManager` und deaktivieren *Aktivieren der Versionspostverarbeitung* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Deaktivieren Sie *Aktivieren Sie die Post-Workflow-Starter für die Verarbeitung* in `com.adobe.fmdita.config.ConfigManager` und deaktivieren Sie *Aktivieren Sie die Versionsnachbearbeitung aktivieren* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
-1. Deaktivieren Sie die Eigenschaft Validierung aktivieren (`validation.enabled`) in Day CQ Tagging Service.
+1. Deaktivieren Sie die Eigenschaft Validierung aktivieren (`validation.enabled`) in Day CQ Tagging Service .
 
-1. Stellen Sie sicher, dass `uuid.regex` Eigenschaftsordner wird ordnungsgemäß in `com.adobe.fmdita.config.ConfigManager`. Wenn es leer ist, setzen Sie es auf den Standardwert - `^GUID-(?<id>.*)`.
-1. Hinzufügen einer separaten Protokollfunktion für `com.adobe.fmdita.uuid` Die Browserantwort ist auch unter folgender Adresse verfügbar: `/content/uuid-upgrade/logs`.
+1. Stellen Sie sicher, dass der Eigenschaftsordner `uuid.regex` in `com.adobe.fmdita.config.ConfigManager` korrekt festgelegt ist. Wenn es leer ist, setzen Sie es auf den Standardwert - `^GUID-(?<id>.*)`.
+1. Fügen Sie eine separate Protokollfunktion für `com.adobe.fmdita.uuid` hinzu. Die Browserantwort ist auch unter `/content/uuid-upgrade/logs` verfügbar.
 
 ### Schritt 2: Ausführen der Migration und Validieren
 
 #### Migrationspaket installieren
 
-1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Starten Sie `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
    ![Registerkarte &quot;Systemaktualisierung&quot;bei der Migration](assets/migration-system-upgrade.png){width="800" align="left"}
 
-1. Auswählen **Systemaktualisierung** im linken Bereich, um die Migration auszuführen. Starten Sie einen Ordner mit kleineren Daten, bevor Sie ihn ausführen. `/content/dam`.
+1. Wählen Sie im linken Bereich die Option **Systemaktualisierung** aus, um die Migration auszuführen. Beginnen Sie mit einem Ordner mit kleineren Daten, bevor Sie ihn auf `/content/dam` ausführen.
 
-1. Auswählen **Bericht herunterladen** während die Migration ausgeführt wird, um zu überprüfen, ob alle Dateien im Ordner ordnungsgemäß aktualisiert wurden und ob alle Funktionen nur für diesen Ordner funktionieren.
+1. Wählen Sie **Bericht herunterladen** , während die Migration ausgeführt wird, um zu überprüfen, ob alle Dateien im Ordner korrekt aktualisiert wurden und ob alle Funktionen nur für diesen Ordner funktionieren.
 
 
 >[!NOTE]
 >
-> Die Inhaltsmigration kann auf Ordnerebene ausgeführt werden. `/content/dam`oder denselben Ordner (Migration erneut ausführen).
+> Die Inhaltsmigration kann auf Ordnerebene, dem vollständigen Tag `/content/dam` oder im selben Ordner ausgeführt werden (Neuausführung der Migration).
 
 Außerdem muss sichergestellt werden, dass die Inhaltsmigration für alle Medien-Assets erfolgt, z. B. für Bilder und Grafiken, die Sie im DITA-Inhalt verwendet haben.
 
 #### Grundlegende und überprüfte Migration
 
-Auswählen **Grundlinien-/Prüfungsaktualisierung** im linken Bereich, um die Grundlinien zu migrieren und auf Ordnerebene zu überprüfen.
+Wählen Sie im linken Bereich die Option **Grundlinien-/Überprüfungsaktualisierung** aus, um die Grundlinien zu migrieren und auf Ordnerebene zu überprüfen.
 
-![Registerkarte &quot;Grundlinien und Überprüfung&quot;in der Migration](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+![Registerkarte &quot;Grundlinie und Überprüfung&quot;in der Migration](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
 
 ### Schritt 3: Konfiguration wiederherstellen
@@ -143,10 +144,9 @@ Aktivieren Sie nach erfolgreicher Migration des Servers die Nachbearbeitung, das
 
 ## Migrationsvalidierung
 
-1. Nachdem die Migration abgeschlossen ist, wählen Sie **Systemaktualisierung überprüfen** im linken Bereich und überprüfen Sie die Ausgabedateien vor und nach der Migration, um sicherzustellen, dass die Migration erfolgreich ist.
+1. Nachdem die Migration abgeschlossen ist, wählen Sie im linken Bereich die Option **Systemaktualisierung überprüfen** aus und validieren Sie die Ausgabedateien vor und nach der Migration, um sicherzustellen, dass die Migration erfolgreich ist.
 
-   ![Registerkarte &quot;Systemaktualisierung überprüfen&quot;bei der Migration](assets/migration-validate-system-upgrade.png){width="800" align="left"}
+   ![Registerkarte &quot;Systemaktualisierung bei Migration überprüfen&quot;](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
 1. Nach Abschluss der Validierung kann der Großteil des Festplattenspeichers durch Ausführen der Komprimierung zurückgewonnen werden (siehe `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
-

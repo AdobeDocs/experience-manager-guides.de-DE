@@ -1,5 +1,5 @@
 ---
-title: Native PDF-Veröffentlichungsfunktion | Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil
+title: Native PDF Publish-Funktion | Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil
 description: Erfahren Sie, wie Sie Stile für Ihren Inhalt erstellen und Stile erstellen.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
@@ -18,7 +18,7 @@ Mit der nativen PDF-Veröffentlichungsfunktion können Sie JavaScript ausführen
 Um die Ausführung von JavaScript zu unterstützen, bietet Ihnen die Funktion Native PDF Publishing die folgenden Callback-Funktionen:
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`: Diese Rückruffunktion wird ausgeführt, bevor das Inhaltsverzeichnis generiert wird.
-* `window.pdfLayout.onBeforePagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis generiert wurde, aber bevor Seitenumbrüche in der PDF hinzugefügt werden.
+* `window.pdfLayout.onBeforePagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis generiert wurde, aber bevor Seitenumbrüche zum PDF hinzugefügt werden.
 * `window.pdfLayout.onAfterPagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis und die Seitenumbrüche im PDF hinzugefügt wurden.
 
 >[!NOTE]
@@ -27,14 +27,14 @@ Um die Ausführung von JavaScript zu unterstützen, bietet Ihnen die Funktion Na
 
 Je nach Art der Inhalts- oder Stiländerung, die Sie durchführen möchten, können Sie auswählen, welche Callback-Funktion verwendet werden soll. Wenn Sie beispielsweise Inhalte hinzufügen möchten, wird empfohlen, dies vor der Erstellung des Inhaltsverzeichnisses durchzuführen. Wenn Sie Stilaktualisierungen vornehmen möchten, können diese entweder vor oder nach der Paginierung durchgeführt werden.
 
-Im folgenden Beispiel wird die Position der Titel der Abbildung von über den Bildern in unterhalb der Bilder geändert. Dazu müssen Sie die JavaScript-Ausführungsoption in der Vorgabe aktivieren. Führen Sie dazu die folgenden Schritte aus:
+Im folgenden Beispiel wird die Position der Titel der Abbildung von über den Bildern in unterhalb der Bilder geändert. Dazu müssen Sie in der Vorgabe die Option JavaScript-Ausführung aktivieren. Führen Sie dazu die folgenden Schritte aus:
 
 1. Öffnen Sie die Vorgabe zur Bearbeitung.
-1. Navigieren Sie zu **Erweitert** Registerkarte.
-1. Wählen Sie die **JavaScript aktivieren** -Option.
+1. Gehen Sie zur Registerkarte **Erweitert** .
+1. Wählen Sie die Option **JavaScript aktivieren** aus.
 1. Speichern und schließen Sie die Vorgabe.
 
-Erstellen Sie anschließend eine JavaScript-Datei mit dem folgenden Code und speichern Sie sie im Ordner Ressourcen Ihrer Vorlage:
+Erstellen Sie anschließend eine JavaScript-Datei mit folgendem Code und speichern Sie sie im Ordner Ressourcen Ihrer Vorlage:
 
 ```css
 ...
@@ -63,9 +63,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
 >[!NOTE]
 >
->Die `window.addEventListener('DOMContentLoaded', function ()` -Funktion aufgerufen werden, bevor die Callback-Funktionen verwendet werden.
+>Die Funktion `window.addEventListener('DOMContentLoaded', function ()` muss aufgerufen werden, bevor die Callback-Funktionen verwendet werden.
 
-Als Nächstes muss dieses Skript aus einer Vorlagendatei aufgerufen werden, die zum Generieren der PDF-Ausgabe verwendet wird. Für unser Beispiel fügen wir es der TOC-Vorlage hinzu. Stellen Sie sicher, dass `<script>` -Tag innerhalb eines vordefinierten `<div>` -Tag in `<body>` -Tag. Wenn Sie sie in der `<head>` -Tag oder außerhalb von `<body>` -Tag, wird das Skript nicht ausgeführt.
+Als Nächstes muss dieses Skript aus einer Vorlagendatei aufgerufen werden, die zum Generieren der PDF-Ausgabe verwendet wird. Für unser Beispiel fügen wir es der TOC-Vorlage hinzu. Stellen Sie sicher, dass das Tag `<script>` innerhalb eines vordefinierten `<div>` -Tags innerhalb des Tags `<body>` hinzugefügt wird. Wenn Sie sie im Tag `<head>` oder außerhalb des Tags `<body>` hinzufügen, wird das Skript nicht ausgeführt.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
@@ -75,7 +75,7 @@ Die mithilfe dieses Codes generierte Ausgabe und die Vorlage zeigt den Titel der
 
 ## Hinzufügen eines Wasserzeichens zur PDF-Ausgabe für Entwurfsdokumente {#watermark-draft-document}
 
-Sie können auch JavaScript verwenden, um bedingte Wasserzeichen hinzuzufügen. Diese Wasserzeichen werden Ihrem Dokument hinzugefügt, wenn die definierte Bedingung erfüllt ist.\
+Sie können JavaScript auch verwenden, um bedingte Wasserzeichen hinzuzufügen. Diese Wasserzeichen werden Ihrem Dokument hinzugefügt, wenn die definierte Bedingung erfüllt ist.\
 Sie können beispielsweise eine JavaScript-Datei mit folgendem Code erstellen, um ein Wasserzeichen für die PDF-Ausgabe des Dokuments zu erstellen, das noch nicht genehmigt wurde. Dieses Wasserzeichen wird nicht angezeigt, wenn Sie die PDF für das Dokument im Dokumentstatus &quot;Genehmigt&quot;generieren.
 
 ```css
@@ -101,6 +101,6 @@ window.addEventListener('DOMContentLoaded', function () {
 ...
 ```
 
-Die mit diesem Code generierte PDF-Ausgabe zeigt ein Wasserzeichen an *Entwurf* auf der Titelseite Ihres Dokuments:
+Die mit diesem Code generierte PDF-Ausgabe zeigt ein Wasserzeichen *Entwurf* auf der Titelseite Ihres Dokuments an:
 
 <img src="./assets/draft-watermark.png" width="500">

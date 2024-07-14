@@ -5,12 +5,12 @@ source-wordcount: '409'
 ht-degree: 4%
 
 ---
-# Verwenden von Adobe Experience Manager-Handbüchern as a Cloud Service
+# Verwenden von Adobe Experience Manager Guides as a Cloud Service
 
 - [Haftungsausschluss](rebranding-disclaimer.md)
-- [Über Adobe Experience Manager-Handbücher as a Cloud Service](intro.md)
-   - [Funktionsweise AEM Handbücher](intro-how-dxml-works.md)
-   - [Wichtige Funktionen AEM Handbücher](intro-dxml-features.md)
+- [Über Adobe Experience Manager Guides as a Cloud Service](intro.md)
+   - [Funktionsweise von AEM Guides](intro-how-dxml-works.md)
+   - [Wichtigste AEM Guides-Funktionen](intro-dxml-features.md)
 - [Inhalt verwalten](authoring.md)
    - [Hochladen von Dateien](authoring-upload-existing-files.md)
    - [Dateien und Ordner verwalten](authoring-file-management.md)
@@ -19,7 +19,7 @@ ht-degree: 4%
    - [Erstellen und Anzeigen einer Vorschau von Themen](create-preview-topics.md)
       - [Erstellen von Themen](web-editor-create-topics.md)
       - [Vorschau eines Themas](web-editor-preview-topics.md)
-   - [Verfassen von Inhalten mithilfe AEM Handbüchern](authoring-content-xml-doc.md)
+   - [Inhaltserstellung mit AEM Guides](authoring-content-xml-doc.md)
       - [Arbeiten mit dem Web-Editor](web-editor.md)
          - [Starten des Web Editors](web-editor-launch-editor.md)
          - [Bearbeiten von Themen im Web-Editor](web-editor-edit-topics.md)
@@ -78,7 +78,7 @@ ht-degree: 4%
    - [Arbeiten mit Grundlinien](generate-output-use-baseline-for-publishing.md)
    - [Generieren der Ausgabe für eine DITA-Zuordnung über die Zuordnungskonsole](generate-output-for-a-dita-map.md)
    - [Verwenden der Kartensammlung für die Ausgabegenerierung](generate-output-use-map-collection-output-generation.md)
-   - [Verwalten von Veröffentlichungsaufgaben mit dem Veröffentlichungs-Dashboard](generate-output-publish-dashboard.md)
+   - [Verwalten von Veröffentlichungsaufgaben mithilfe des Publish-Dashboards](generate-output-publish-dashboard.md)
    - [Grundlegende Fehlerbehebung](generate-output-basic-troubleshooting.md)
    - [Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
       - [Erstellen einer Massen-Aktivierungszuordnung](conf-bulk-activation-create-map-collection.md)

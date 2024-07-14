@@ -24,18 +24,18 @@ Wenn Sie in einigen Workflows auf einen Link eines Themas oder einer Zuordnungsd
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
+1. Suchen Sie nach dem Bundle **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** und klicken Sie darauf.
 
-1. Wählen Sie die **DITA-Thema/Karte auf derselben Registerkarte öffnen** -Option.
+1. Wählen Sie die Option **DITA-Thema/Karte auf derselben Registerkarte öffnen** aus.
 
 1. Klicken Sie auf **Speichern**.
 
 
 Diese Einstellung wirkt sich auf die folgenden Stellen aus, an denen Sie auf die Themen- oder Zuordnungsdateien zugreifen können:
 
-- DITA-Thema erstellen \(am Ende des Workflows, wenn Sie auf das **Thema öffnen** button\)
+- DITA-Thema erstellen \(am Ende des Workflows, wenn Sie auf die Schaltfläche **Thema öffnen** klicken\)
 
-- DITA-Map erstellen \(am Ende des Workflows, wenn Sie auf die **Open Map** button\)
+- DITA-Map erstellen \(am Ende des Workflows, wenn Sie auf die Schaltfläche **Map öffnen** klicken\)
 
 - Registerkarte &quot;Themen&quot;in der DITA-Map-Konsole
 
@@ -44,4 +44,4 @@ Diese Einstellung wirkt sich auf die folgenden Stellen aus, an denen Sie auf die
 - Registerkarte &quot;Berichte&quot;in der DITA-Map-Konsole
 
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

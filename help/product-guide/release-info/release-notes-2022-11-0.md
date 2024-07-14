@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version November 2022
-description: November-Version der Adobe Experience Manager-Handbücher as a Cloud Service
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version November 2022
+description: November-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
 feature: Release Notes
 role: Leader
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# November-Version der Adobe Experience Manager-Handbücher as a Cloud Service
+# November-Version von Adobe Experience Manager Guides as a Cloud Service
 
 ## Aktualisierung auf die November-Version
 
-Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Guides*) einrichten, indem Sie die folgenden Schritte ausführen:
+Führen Sie die folgenden Schritte aus, um das aktuelle Adobe Experience Manager Guides-as a Cloud Service-Setup (später als *AEM Guides as a Cloud Service* bezeichnet) zu aktualisieren:
 1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2022.11.198.
+1. Aktualisieren Sie die Eigenschaft `<dox.version>` in der Datei `/dox/dox.installer/pom.xml` Ihres Cloud Service-Git-Codes auf 2022.11.198.
 1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die November-Version von AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Schritte zum Indexieren des vorhandenen Inhalts (nur, wenn Sie eine Version vor der September-Version von AEM Guides as a Cloud Service verwenden)
@@ -28,13 +28,13 @@ Führen Sie die folgenden Schritte für die Indizierung des vorhandenen Inhalts 
 (Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert || Beispiel : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Beispiel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(Beispiel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c183 79f11c42_678)
 
 * Nach Abschluss des Auftrags antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Maps können über die Serverprotokolle bestätigt werden.
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides as a Cloud Service vom November 2022 unterstützt werden.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von der AEM Guides as a Cloud Service-Version vom November 2022 unterstützt werden.
 
 ### FrameMaker und FrameMaker Publishing Server
 
@@ -47,7 +47,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 ### Sauerstoffanschluss
 
-| AEM-Handbücher für Cloud | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| AEM Guides as a Cloud-Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
 | 2022.11.0 | 2,7,13 | 2,7,13 | 2,3 | 2,3 |
 |  |  |  |  |
@@ -55,19 +55,19 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 ## Neue Funktionen und Verbesserungen
 
-AEM Guides as a Cloud Service bietet Verbesserungen und neue Funktionen in der November-Version:
+AEM Guides as a Cloud Service bietet in der November-Version Verbesserungen und neue Funktionen:
 
 
 ### Löschen von Dateien aus dem Repository-Bereich
 
-Jetzt können Sie Dateien (einzelne Datei pro Datei) einfach aus der **Optionen** Menü der ausgewählten Datei aus dem Repository-Bereich.
+Jetzt können Sie Dateien (einzelne Datei) einfach aus dem Menü **Optionen** der ausgewählten Datei aus dem Repository-Bedienfeld löschen.
 <img src="assets/repository-delete-file.png" alt="Aus Repository löschen" width="500">
 
 Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt. Wenn keine andere Datei auf die Datei verweist, wird sie gelöscht und es wird eine Erfolgsmeldung angezeigt.
 
 Wenn die ausgewählte Datei ausgecheckt ist, kann sie nicht gelöscht werden. Eine Fehlermeldung wird angezeigt. Wenn die ausgewählte Datei zu einer Favoriten-Sammlung hinzugefügt oder aus einer anderen Datei referenziert wird, prüft AEM Guides, ob Sie Ihre Bestätigung erhalten haben, und gibt Ihnen die Möglichkeit, sie erzwungen zu löschen. Wenn Sie ein referenziertes Thema löschen und die Datei mit Verweisen zur Bearbeitung geöffnet haben, wird der fehlerhafte Link für die referenzierte Datei angezeigt.
 
-**Hinweis**: Sie können die ausgewählte Datei auch mithilfe der Entf-Taste der Tastatur löschen.
+**Hinweis**: Sie können die ausgewählte Datei auch mit der Entf-Taste der Tastatur löschen.
 
 
 ### Ausgewählte Dateiversionen bereinigen
@@ -77,7 +77,7 @@ Beim Erstellen und Verwalten Ihres Inhalts werden möglicherweise viele Versione
 <img src="assets/preview-purge-report.png" alt="Bereinigungsbericht in der Vorschau" width="500">
 
 
-AEM Guides löschen nicht die erste Version der Datei oder eine Version, die in einer Grundlinie enthalten ist oder auf die eine Beschriftung angewendet wird. Der Bereinigungsvorgang löscht nicht einmal Dateien, die in einer Übersetzung oder einem Prüfungs-Workflow enthalten sind. Sie können die Anzahl der beizubehaltenden Versionen auswählen und auch die Dateien löschen, die älter als die definierte Anzahl von Tagen sind.
+AEM Guides löscht nicht die erste Dateiversion oder eine Version, die in einer Grundlinie enthalten ist, oder hat eine Beschriftung darauf angewendet. Der Bereinigungsvorgang löscht nicht einmal Dateien, die in einer Übersetzung oder einem Prüfungs-Workflow enthalten sind. Sie können die Anzahl der beizubehaltenden Versionen auswählen und auch die Dateien löschen, die älter als die definierte Anzahl von Tagen sind.
 
 Bevor Sie mit dem Bereinigungsvorgang beginnen, können Sie eine Vorschau des Berichts anzeigen, um die Versionen anzuzeigen, die bereinigt werden sollen. Anschließend können Sie den Bereinigungsvorgang starten oder abbrechen.
 
@@ -87,13 +87,13 @@ Nach Abschluss des Bereinigungsvorgangs können Sie den Bereinigungsbericht prü
 
 ### Ausgabevorgaben für Global- und Ordnerprofile verwalten
 
-AEM Handbücher bieten Ihnen die Möglichkeit, Ausgabevorgaben für die globalen und Ordnerprofile zu erstellen und zu verwalten. Dann können Sie diese Ausgabevorgaben einfach verwenden, um die Ausgabe für alle Maps zu generieren, die mit diesem Global- oder Ordnerprofil verbunden sind.
+AEM Guides bietet Ihnen die Möglichkeit, Ausgabevorgaben für die globalen und Ordnerprofile zu erstellen und zu verwalten. Dann können Sie diese Ausgabevorgaben einfach verwenden, um die Ausgabe für alle Maps zu generieren, die mit diesem Global- oder Ordnerprofil verbunden sind.
 
 <img src="assets/add-global-output-preset.png" alt="Globales Profil hinzufügen" width="400">
 
-**Hinweis** Nur Benutzer mit Administratorrechten auf Ordnerebene können Vorgaben für Global- und Ordnerprofile erstellen.
+**Hinweis** Nur Benutzer mit Administratorrechten auf Ordnerebene können Vorgaben für globale Ordner und Ordnerprofile erstellen.
 
-Diese globalen Vorgaben werden unter der **Ausgabe** -Registerkarte aller zugehörigen Karten. Sie können sie verwenden, um die Ausgabe für alle zugehörigen Maps zu generieren. Sie können die Vorgabe als standardmäßige PDF-Vorgabe auswählen, um die PDF-Ausgabe zu generieren. Sie können auch **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** eine vorhandene Ausgabevorgabe aus der **Optionen** Menü.
+Diese globalen Vorgaben werden auf der Registerkarte **Ausgabe** aller zugehörigen Maps angezeigt. Sie können sie verwenden, um die Ausgabe für alle zugehörigen Maps zu generieren. Sie können die Vorgabe als standardmäßige PDF-Vorgabe auswählen, um die PDF-Ausgabe zu generieren. Sie können eine vorhandene Ausgabevorgabe auch im Menü **Optionen** **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** umbenennen.
 
 ### Spalte &quot;Versionsbezeichnung&quot;zum Übersetzungs-Dashboard hinzugefügt
 
@@ -136,19 +136,19 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Native PDF | Inline-Stil wird zum Generieren von Tags anstelle von Klassennamen verwendet.  (10498)
 * Der Web Editor lädt zeitweise eine leere Seite. (10678)
 * Die PDF-Veröffentlichung schlägt fehl, wenn eine Vorgabe durch Duplizieren einer vorhandenen Vorgabe erstellt wird. (10584)
-* **Protokoll anzeigen** -Schaltfläche funktioniert nicht, wenn die PDF-Generierung für eine Vorgabe fehlschlägt. (10576)
+* Die Schaltfläche **Protokoll anzeigen** funktioniert nicht, wenn die PDF-Generierung für eine Vorgabe fehlschlägt. (10576)
 * Hinweis innerhalb eines para-Tags, das eine conref ist, wird nicht in der Vorschau angezeigt. (10559)
 * Wenn Sie die Rücktaste am Ende eines Listenelements drücken, wird die gesamte Liste entfernt. (10540)
-* Bei Verwendung eines nativen PDF exportieren Sie die verschachtelten `<indexterm>` sind nicht im Index verschachtelt. (10521)
-* **Auto-Indent** in der Symbolleiste fehlt in der Quellansicht. (10448)
+* Bei Verwendung eines nativen PDF-Exports sind die verschachtelten `<indexterm>` nicht im Index verschachtelt. (10521)
+* Die Schaltfläche **Automatischer Einzug** in der Symbolleiste fehlt in der Source-Ansicht. (10448)
 * Das erste Zeichen eines Listenelements geht verloren, während die Liste im Editor erstellt wird. 10447)
 * Es werden mehrere Popups angezeigt, wenn eine DITA-Asset-Version geändert und im Fenster der Basisbearbeitung gespeichert wird. (10399)
-* Anwendungsfehler beim Klicken **Bearbeiten** nach Auswahl aller Ausgabevorgaben aus dem Bereich Schnellgenerierung . (10388)
-* Benutzerdefinierte Metadaten für DITA-Themen werden nicht beibehalten, wenn eine Aktion zum Kopieren und Einfügen über die Assets-Benutzeroberfläche ausgeführt wird. (10367)
-* Die Nachbearbeitung wird für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. (10332)
+* Anwendungsfehler tritt beim Klicken auf die Schaltfläche **Bearbeiten** auf, nachdem alle Ausgabevorgaben im Bereich &quot;Schnellgenerierung&quot;ausgewählt wurden. (10388)
+* Benutzerdefinierte Metadaten für DITA-Themen werden nicht beibehalten, wenn über die Assets-Benutzeroberfläche eine Aktion zum Kopieren und Einfügen ausgeführt wird. (10367)
+* Die Verarbeitung von Post ist für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. (10332)
 * Die Registerkarte &quot;Vorlage&quot;im XML-Editor ist für Ordnerprofiladministratoren nicht sichtbar. (10266)
 * Navigationsprobleme treten im Web Editor nach der Aktualisierung auf Version 4.0 auf. (10159)
 * SVG-Dateien werden nicht im Vorschaumodus angezeigt. (10010)
 * Wenn die Registerkarte &quot;Ausgabe&quot;des Editors mehr Vorgaben enthält, kann kein Bildlauf im Bereich &quot;Vorgaben&quot;durchgeführt werden und nicht alle Vorgaben werden angezeigt. (9787)
-* **Bearbeiten** und **Anmerken** -Optionen für ein Bild funktionieren in der Spaltenansicht nicht ordnungsgemäß. (8758)
+* Die Optionen **Bearbeiten** und **Anmerken** für ein Bild funktionieren in der Spaltenansicht nicht ordnungsgemäß. (8758)
 * Peer-Link wird nicht aufgelöst und in der generierten Ausgabe als normaler Text angezeigt. (7774)

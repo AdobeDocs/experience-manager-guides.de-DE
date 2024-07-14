@@ -1,6 +1,6 @@
 ---
 title: Hinzufügen und Verwalten von Zitaten in Ihrem Inhalt
-description: Fügen Sie Zitate hinzu und verwalten Sie sie in AEM Handbüchern. Erfahren Sie, wie Sie Inhaltsausgabe mit Zitaten anwenden, importieren, filtern, suchen, ändern, bearbeiten, Vorschau anzeigen, einfügen, löschen und generieren können.
+description: Fügen Sie Zitate in AEM Guides hinzu und verwalten Sie sie. Erfahren Sie, wie Sie Inhaltsausgabe mit Zitaten anwenden, importieren, filtern, suchen, ändern, bearbeiten, Vorschau anzeigen, einfügen, löschen und generieren können.
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 Zitate sind Verweise auf die Informationsquelle, die zu Ihrem Inhalt hinzugefügt wird. Mithilfe von Zitaten können Sie den Autoren die Quellinformationen zuschreiben und Lesern dabei helfen, die Quellinformationen zu verfolgen. Das Hinzufügen von Zitaten macht Ihren Inhalt zuverlässiger und verhindert Plagiate. Sie ermöglichen es Ihnen auch, gut recherchierte Inhalte anzuzeigen.
 
-In AEM Handbüchern können Sie Zitate hinzufügen und importieren und auf Ihren Inhalt anwenden. Sie können diese Zitate aus jeder Quelle von Büchern, Websites und Zeitschriften hinzufügen.
+In AEM Guides können Sie Zitate hinzufügen und importieren und auf Ihre Inhalte anwenden. Sie können diese Zitate aus jeder Quelle von Büchern, Websites und Zeitschriften hinzufügen.
 
 
-AEM Guides helfen Ihnen beim Bearbeiten, Anzeigen einer Vorschau und Sortieren Ihrer Zitate. Nachdem Sie Ihre Zitate in den Inhalt eingefügt haben, können Sie die Ausgabe mithilfe der nativen PDF generieren. Sie können auch die Bibliografie- oder Referenzseite in der Ausgabe Native PDF hinzufügen.
+AEM Guides unterstützt Sie bei der Bearbeitung, Vorschau und Sortierung Ihrer Zitate. Nachdem Sie Ihre Zitate in den Inhalt eingefügt haben, können Sie die Ausgabe mithilfe der nativen PDF generieren. Sie können auch die Bibliografie- oder Referenzseite in der Ausgabe Native PDF hinzufügen.
 
-AEM Guides unterstützt mehrere Arten von Zitaten, wie z. B. Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) und American Heart Association (AHA). Es wird empfohlen, sie klar und konsistent zu verwenden.
+AEM Guides unterstützt mehrere Arten von Zitaten, wie etwa die Modern Language Association (MLA), die American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) und American Heart Association (AHA). Es wird empfohlen, sie klar und konsistent zu verwenden.
 
 
 >[!NOTE]
@@ -32,39 +32,39 @@ AEM Guides unterstützt mehrere Arten von Zitaten, wie z. B. Modern Language Ass
 
 Gehen Sie wie folgt vor, um Zitate hinzuzufügen:
 
-1. Wählen Sie die **Zitate** ![Zitatensymbol](images/citations-icon.svg) im linken Bereich.
-Die **Zitate** -Bedienfeld geöffnet.
+1. Wählen Sie im linken Fensterbereich das Symbol **Zitate** ![Zitate](images/citations-icon.svg) aus.
+Das Bedienfeld **Zitate** wird geöffnet.
 
    ![](images/citation-panel.png){width="300" align="left"}
 
-1. Im **Zitate** Bereich, wählen Sie ![Symbol &quot;Hinzufügen&quot;](images/Add_icon.svg). Im Dropdown-Menü haben Sie die Möglichkeit, einen neuen Zitat hinzuzufügen oder einen Zitat zu importieren.
+1. Wählen Sie im Bedienfeld **Zitate** die Option ![Symbol hinzufügen](images/Add_icon.svg) aus. Im Dropdown-Menü haben Sie die Möglichkeit, einen neuen Zitat hinzuzufügen oder einen Zitat zu importieren.
 
-1. Auswählen **Neue Bezeichnung** um eine neue Zitate hinzuzufügen.
-Die **Erwähnung hinzufügen** wird geöffnet.
+1. Wählen Sie **New Citation** aus, um einen neuen Zitat hinzuzufügen.
+Das Dialogfeld **Citation hinzufügen** wird geöffnet.
 
-   ![Teilnahmebereich im Web-Editor](images/citation-add.png) {width="300" align="left"}
+   ![Zitationsbereich im Web-Editor](images/citation-add.png) {width="300" align="left"}
 
 
-1. Füllen Sie die Felder im **Erwähnung hinzufügen** Dialogfeld.
+1. Füllen Sie die Felder im Dialogfeld **Zitat hinzufügen** aus.
 
    >[!NOTE]
    >
-   >Sie können auch die ISBN-, DOI- oder PubMed-ID hinzufügen. AEM Guides füllen die anderen Felder automatisch aus.
+   >Sie können auch die ISBN-, DOI- oder PubMed-ID hinzufügen. AEM Guides füllt die anderen Felder automatisch aus.
 
    | Buch | Website | Journal |
    | --- | ---|---|
-   | **Quelle** <br> Wählen Sie aus der Dropdown-Liste die Quelle des Zitats als Buch aus. | **Quelle**<br> Wählen Sie aus der Dropdown-Liste die Quelle des Zitats als Website aus. | **Quelle** <br> Wählen Sie aus der Dropdown-Liste die Quelle des Zitats als Journal aus. |
-   | **Suchen nach** <br> Auswählen **ISBN** oder **DOI** aus der Dropdown-Liste, um nach der digitalen ID zu suchen, die mit der Erwähnung verknüpft ist.  <br> DOI: Digital Object Identifier <br> ISBN: Unique Numeric Book Identifier | **Suchen nach** <br> Auswählen **DOI** aus der Dropdown-Liste, um nach der digitalen ID zu suchen, die mit der Erwähnung verknüpft ist. | **Suchen nach** <br> Auswählen **DOI** oder PubMed-ID aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit der Erwähnung verknüpft ist. <br>  <br> |
-   | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors der Zitat hinzu. Auswählen ![](images/Add_icon.svg) um weitere Namen hinzuzufügen. | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors der Zitat hinzu. Auswählen ![](images/Add_icon.svg)  um weitere Namen hinzuzufügen. | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors der Zitat hinzu. Auswählen ![](images/Add_icon.svg)um weitere Namen hinzuzufügen. |
+   | **Source** <br> Wählen Sie aus der Dropdown-Liste die Quelle des Zitats als Buch aus. | **Source**<br> Wählen Sie aus der Dropdown-Liste die Quelle des Zitats als Website aus. | **Source** <br> Wählen Sie aus der Dropdown-Liste die Quelle des Zitats als Journal aus. |
+   | **Suche nach** <br> Wählen Sie **ISBN** oder **DOI** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit der Erwähnung verknüpft ist.  <br> DOI: Digital Object Identifier <br> ISBN: Unique Numeric Book Identifier | **Suche nach** <br> Wählen Sie **DOI** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit der Erwähnung verknüpft ist. | **Suche nach** <br> Wählen Sie **DOI** oder die PubMed-ID aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit der Erwähnung verknüpft ist. <br>  <br> |
+   | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors der Erwähnung hinzu. Wählen Sie ![](images/Add_icon.svg) aus, um weitere Namen hinzuzufügen. | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors der Erwähnung hinzu. Wählen Sie ![](images/Add_icon.svg) aus, um weitere Namen hinzuzufügen. | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors der Erwähnung hinzu. Wählen Sie ![](images/Add_icon.svg)aus, um weitere Namen hinzuzufügen. |
    | **Titel** <br> Fügen Sie den Titel des Buches hinzu. | **Titel** <br> Fügen Sie den Titel der Webseite hinzu. | **Titel** <br> Fügen Sie den Titel des Artikels hinzu. |
-   | **Bearbeiter** <br> Fügen Sie den Herausgeber des Buches hinzu. | **Website-Name** <br> Fügen Sie den Namen der Website hinzu. | **Journaltitel** <br> Fügen Sie den Titel des Werkes hinzu, in dem der Artikel gefunden wird. |
+   | **Bearbeiter** <br> Fügen Sie den Editor des Buches hinzu. | **Website-Name** <br> Fügen Sie den Namen der Website hinzu. | **Journaltitel** <br> Fügen Sie den Titel des Werkes hinzu, in dem der Artikel gefunden wird. |
    | **Edition** <br> Fügen Sie die Ausgabe des Buches hinzu. | **URL** <br> Fügen Sie den Weblink der Website hinzu, um den Inhalt zu durchsuchen. | **Jahr** <br> Fügen Sie das Jahr hinzu, in dem der Artikel veröffentlicht wird. |
-   | **Ort** <br> Fügen Sie die Stadt der Veröffentlichung hinzu. | **Aufrufdatum**<br> Fügen Sie das Datum hinzu, an dem auf den Inhalt der Website zugegriffen wird. | **Lautstärke** <br> Fügen Sie das Volumen der Arbeit in der Reihe hinzu. |
+   | **Stadt** <br> Fügen Sie die Stadt der Veröffentlichung hinzu. | **Aufrufdatum**<br> Fügen Sie das Datum hinzu, an dem auf den Inhalt der Website zugegriffen wird. | **Lautstärke** <br> Fügen Sie das Volumen des Werkes in der Serie hinzu. |
    | **Herausgeber** <br> Fügen Sie den Namen des Herausgebers des Buches hinzu. | **Veröffentlichungsdatum** <br> Fügen Sie das Datum hinzu, an dem der Inhalt der Website veröffentlicht wird. | **Zahl** <br> Fügen Sie die Anzahl der Lautstärke innerhalb der Serie hinzu. |
-   | **Jahr** <br> Fügen Sie das Jahr hinzu, in dem das Buch veröffentlicht wird. | **Aktualisiertes Datum** <br> Fügen Sie das Datum hinzu, an dem der Inhalt der Website aktualisiert wird. | **Seiten** <br> Fügen Sie die Seitenzahl oder den Seitenbereich hinzu, in dem der Artikel gefunden wird. |
+   | **Jahr** <br> Fügen Sie das Jahr hinzu, in dem das Buch veröffentlicht wird. | **Aktualisiertes Datum** <br> Fügen Sie das Datum hinzu, an dem der Inhalt der Website aktualisiert wird. | **Seiten** <br> Fügen Sie die Seitennummer oder den Seitenbereich hinzu, in dem der Artikel gefunden wird. |
    | **Version** <br> Fügen Sie die Version des Buches hinzu. | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für die Erwähnung hinzu. Eine eindeutige ID ist eine eindeutige Kennung für diese Erwähnung. | **URL** <br>Fügen Sie den Web-Link zum Protokoll hinzu. |
-   | **Serie** <br>Fügen Sie die Reihe des Buches hinzu. |  | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für die Erwähnung hinzu. Eine eindeutige ID ist eine eindeutige Kennung für diese Erwähnung. |
-   | **URL**  <br>  Fügen Sie den Web-Link zum Buch hinzu. |
+   | **Series** <br>Fügen Sie die Reihe des Buches hinzu. |  | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für die Erwähnung hinzu. Eine eindeutige ID ist eine eindeutige Kennung für diese Erwähnung. |
+   | **URL** <br> Fügen Sie den Web-Link zum Buch hinzu. |
    | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für die Erwähnung hinzu. Eine eindeutige ID ist eine eindeutige Kennung für diese Erwähnung. |
 
 
@@ -83,11 +83,11 @@ Die **Erwähnung hinzufügen** wird geöffnet.
 
 Gehen Sie wie folgt vor, um Zitate zu importieren:
 
-1. Wählen Sie im linken Bereich die Option **Zitate** ![Zitatensymbol](images/citations-icon.svg).
+1. Wählen Sie im linken Bereich das Symbol **Zitate** ![Zitate](images/citations-icon.svg) aus.
 
-   Die **Zitate** -Bedienfeld geöffnet.
+   Das Bedienfeld **Zitate** wird geöffnet.
 
-1. Im **Zitate** Bereich, wählen Sie ![Symbol &quot;Hinzufügen&quot;](images/Add_icon.svg)und wählen Sie **Import** aus dem Dropdown-Menü aus.
+1. Wählen Sie im Bedienfeld **Zitate** die Option ![Symbol hinzufügen](images/Add_icon.svg) und dann **Import** aus der Dropdown-Liste.
 1. Durchsuchen Sie eine .bib-Datei von Ihrem System und importieren Sie sie .
 
    >[!TIP]
@@ -97,8 +97,8 @@ Gehen Sie wie folgt vor, um Zitate zu importieren:
    Nachdem die Datei erfolgreich importiert wurde, können Sie die Verweise im Fenster &quot;Zitate&quot;anzeigen.
 
    >[!NOTE]
-   > <ol><li> AEM Guides importiert nur die Zitate, die einzigartig sind und noch nicht vorhanden sind.
-    &gt; <li> AEM Guides können Zitate aus einem Buch, einer Zeitschrift oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
+   > <ol><li> AEM Guides importiert nur die Zitate, die eindeutig sind und noch nicht vorhanden sind.
+    &gt; <li> AEM Guides kann Zitate aus einem Buch, einer Zeitschrift oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
 
 ## Zitate verwalten
 
@@ -106,28 +106,28 @@ Die Zitate werden in der linken Leiste alphabetisch sortiert. Suchen Sie nach de
 
 ### Filter
 
-Wählen Sie die **Filter** ![](images/filter-search-icon.svg) neben der Suchleiste und wählen Sie die Quelloptionen aus der Dropdown-Liste aus, um die Zitate-Liste zu filtern. Sie ermöglicht sowohl eine als auch mehrere Auswahlen.
+Wählen Sie das Symbol **Filter** ![](images/filter-search-icon.svg) neben der Suchleiste aus und wählen Sie die Quelloptionen aus der Dropdown-Liste aus, um die Zitationsliste zu filtern. Sie ermöglicht sowohl eine als auch mehrere Auswahlen.
 
 * **Alle Quellen**: Es wird eine vollständige Liste der Zitate einschließlich aller Quellen angezeigt.
 
-* **Buch**: Zeigt die Liste der aus Büchern stammenden Zitate an.
+* **Buch**: Es zeigt die Liste der Zitate aus Büchern.
 
-* **Webseite**: Zeigt die Liste der von Websites stammenden Zitate an.
+* **Website**: Zeigt die Liste der von Websites stammenden Zitate an.
 
-* **Protokoll**: Zeigt die Liste der Zitate aus Zeitschriften an.
+* **Journal**: Es zeigt die Liste der Zitate aus Journalen an.
 
 ### Suchen
 
 Durchsuchen Sie die Zitate nach Ihrem Inhalt.
 
 1. Wählen Sie im linken Bereich die Option &quot;Zitate&quot;.
-Die **Zitate** -Bedienfeld geöffnet.
+Das Bedienfeld **Zitate** wird geöffnet.
 
 1. Verwenden Sie die Suchleiste, um in einer langen Liste nach der entsprechenden Erwähnung zu suchen.
 
 ### Bearbeitungsstil ändern {#change-citation-style}
 
-Ihr Systemadministrator kann den Stil von Zitaten aus dem **Zitate**  Dropdown im **Allgemeine Einstellungen** im **Editor-Einstellungen**.
+Ihr Systemadministrator kann den Stil von Zitaten aus dem Dropdown-Menü **Zitate** auf der Registerkarte **Allgemeine Einstellungen** in den **Editor-Einstellungen** ändern.
 Diese Stile bestimmen, wie Zitate im Vorschaufenster oder in der nativen PDF-Ausgabe angezeigt werden.
 
 Die folgenden Optionen sind im Dropdown-Menü verfügbar:
@@ -135,20 +135,20 @@ Die folgenden Optionen sind im Dropdown-Menü verfügbar:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Modern Language Association Style <br> | American Psychology Association Style | Chicago Manual of Style | Institut für Elektrotechnik und Elektroniktechnik | American Heart Association Style |
-| Beispiel:<br> Crawford, Claire, et al. *Emotionaler Inhalt dunkler Erinnerungen*.Edited by Memory, vol 16, 2010, Amsterdam. | Beispiel: <br> Crawford, C., J., &amp; , C. (2010). *Emotionaler Inhalt dunkler Erinnerungen* (505-16 ed.). 10.1080/ 09658210902067289 | Beispiel: <br> Crawford, Claire, et al. *Emotionaler Inhalt dunkler Erinnerungen*. 16.5.2010. | Beispiel: <br> C. Crawford, J. und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. | Beispiel: <br> C. Crawford, J. und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. |
+| Beispiel:<br> Crawford, Claire usw. *Emotionaler Inhalt dunkler Erinnerungen*.Bearbeitet durch Speicher, Vol. 16, 2010, Amsterdam. | Beispiel: <br> Crawford, C., J., &amp;, C. (2010). *Emotionaler Inhalt dunkler Erinnerungen* (505-16 ed.). 10.1080/ 09658210902067289 | Beispiel: <br> Crawford, Claire usw. *Emotionaler Inhalt dunkler Erinnerungen*. 16.5.2010. | Beispiel: <br> C. Crawford, J. und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. | Beispiel: <br> C. Crawford, J. und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. |
 
 
 ## Bearbeiten von Zitaten
 
 Gehen Sie wie folgt vor, um die Zitate zu bearbeiten:
 
-1. Bewegen Sie den Mauszeiger über den Namen der Zitation aus der Liste. Auswählen  ![](images/options.svg) die **Optionen** Symbol.
+1. Bewegen Sie den Mauszeiger über den Namen der Zitation aus der Liste. Wählen Sie ![](images/options.svg) das Symbol **Optionen** aus.
 
-1. Auswählen  **Bearbeiten**.
+1. Wählen Sie **Bearbeiten** aus.
 
-Die **Zitat bearbeiten** wird geöffnet.
+Das Dialogfeld **Zitat bearbeiten** wird geöffnet.
 
-1. Nehmen Sie die erforderlichen Änderungen vor. Auswählen **Fertig**.
+1. Nehmen Sie die erforderlichen Änderungen vor. Wählen Sie **Fertig** aus.
 Die ausgewählte Zitat wird bearbeitet.
 
 >[!NOTE]
@@ -159,14 +159,14 @@ Die ausgewählte Zitat wird bearbeitet.
 
 Gehen Sie wie folgt vor, um eine Zitate in der Vorschau anzuzeigen:
 
-Bewegen Sie den Mauszeiger über den Namen der Zitation aus der Liste. Auswählen     ![](images/options.svg) **Optionen** Symbol.
+Bewegen Sie den Mauszeiger über den Namen der Zitation aus der Liste. Auswählen     Symbol ![](images/options.svg) **Optionen**.
 
-1. Auswählen **Vorschau**.
+1. Wählen Sie **Vorschau** aus.
 Sie können den Inhalt und das Format der Zitate im Vorschaufenster in der Vorschau anzeigen.
 
    >[!NOTE]
    >
-   >Die Vorschau basiert auf dem Zitat-Stil, den Ihr Administrator in der Variablen **Editor-Einstellungen**.
+   >Die Vorschau basiert auf dem Referenzstil, den Ihr Administrator in den **Editor-Einstellungen** ausgewählt hat.
 
 1. Klicken Sie auf eine beliebige Stelle auf dem Bildschirm, um das Vorschaufenster zu schließen.
 
@@ -174,7 +174,7 @@ Sie können den Inhalt und das Format der Zitate im Vorschaufenster in der Vorsc
 
 >[!NOTE]
 >
-> Sie können auch eine Vorschau einer in ein Thema eingefügten Zitation über die Assets-Benutzeroberfläche oder die Registerkarte Vorschau des Web-Editors anzeigen.
+> Sie können auch eine Vorschau einer in ein Thema eingefügten Zitation über die Benutzeroberfläche von Assets oder die Registerkarte Vorschau des Webeditors anzeigen.
 
 ## Zitate einfügen
 
@@ -188,12 +188,12 @@ Sie können Zitate zum Thema über die Hauptsymbolleiste oder das linke Bedienfe
 
 ### In der Symbolleiste
 
-1. Wählen Sie die **Zitate** ![Zitatensymbol ](images/citations-icon.svg) in der Hauptsymbolleiste.
-1. Im **Zitate** wählen Sie den Titel aus. Sie können auch mehrere Zitate auswählen.
-   ![Anführungsdialogfeld](images/citation-dialog-main-toolbar.png){width="300" align="left"}
-1. Sie können Zitate filtern, indem Sie die ersten Buchstaben im Suchbereich der **Zitat** Dialogfeld.
+1. Wählen Sie in der Hauptsymbolleiste das Symbol **Zitate** ![ Zitate ](images/citations-icon.svg) aus.
+1. Wählen Sie im Dialogfeld **Zitate** die Zitate aus. Sie können auch mehrere Zitate auswählen.
+   ![Dialogfeld &quot;citation&quot;](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+1. Sie können Zitate filtern, indem Sie die ersten Buchstaben im Suchbereich des Dialogfelds **Zitat** eingeben.
 
-1. Klicks **Fertig**.
+1. Klicken Sie auf **Fertig**.
 Die ausgewählte Erwähnung wird an der Cursorposition in Ihrem Thema hinzugefügt.
 
 
@@ -201,17 +201,17 @@ Die ausgewählte Erwähnung wird an der Cursorposition in Ihrem Thema hinzugefü
 
 >[!NOTE]
 > 
->So zeigen Sie die **Zitate** im linken Bereich angezeigt, muss Ihr Systemadministrator die **Zitate** in der **Bedienfelder** Registerkarte in **Editor-Einstellungen**.
+>Um das Symbol **Zitate** im linken Bereich anzuzeigen, muss Ihr Systemadministrator die Option **Zitate** auf der Registerkarte **Bedienfelder** in den **Editor-Einstellungen** auswählen.
 
-1. Auswählen **Zitate** ![Zitatensymbol ](images/citations-icon.svg) im linken Bereich.
-1. Ziehen Sie die Zitate aus der **Zitate** und legen Sie es an der entsprechenden Stelle im Thema ab.
+1. Wählen Sie im linken Fensterbereich das Symbol **Zitate** ![Zitate ](images/citations-icon.svg) aus.
+1. Ziehen Sie die Erwähnung aus dem Bedienfeld **Zitate** und legen Sie sie an der entsprechenden Stelle im Thema ab.
 
-   Sie können auch **Einfügen** von  ![](images/options.svg) **Optionen** , um eine Zitate einzufügen.
+   Sie können auch **Einfügen** aus ![](images/options.svg) **Optionen** auswählen, um einen Verweis einzufügen.
 
    ![Zitate einfügen](images/citation-panel-insert.png)
-1. Um mehrere Zitate auszuwählen, klicken Sie mit der rechten Maustaste auf eine Zitation im Thema und wählen Sie **Änderungsbeschriftung** aus dem Kontextmenü.
-1. Wählen Sie die einzufügenden Zitate aus der **Zitat** angezeigt.
-1. Auswählen **Fertig** , um sie zum Thema hinzuzufügen.
+1. Um mehrere Zitate auszuwählen, klicken Sie mit der rechten Maustaste auf einen Zitat im Thema und wählen Sie im Kontextmenü die Option **Zitat ändern** aus.
+1. Wählen Sie im Dialogfeld **Zitat** die einzufügenden Zitate aus.
+1. Wählen Sie **Fertig** aus, um sie dem Thema hinzuzufügen.
 
 Nachdem Sie die Zitate in das Thema eingefügt haben, können Sie sie im Web-Editor in der Vorschau anzeigen. Sie können auch Inhalte mit Zitaten mithilfe des nativen PDF veröffentlichen.
 
@@ -226,10 +226,10 @@ Sie können Zitate aus dem Bereich &quot;Zitate&quot;oder aus einem Thema lösch
 Gehen Sie wie folgt vor, um eine Zitate aus dem Bereich &quot;Zitate&quot;zu löschen:
 
 1. Bewegen Sie den Mauszeiger über den Namen der Zitation aus der Liste.
-1. Wählen Sie die ![](images/options.svg) **Optionen** Symbol.
+1. Wählen Sie das Symbol ![](images/options.svg) **Optionen** aus.
 1. Wählen Sie die   **Löschen** ![](images/Delete_icon.svg).
 Das Bestätigungsdialogfeld wird geöffnet.
-1. Auswählen **Ja**.
+1. Wählen Sie **Ja** aus.
 Die ausgewählte Zitation wird aus dem Zitate-Panel gestrichen.
 
 
@@ -240,7 +240,7 @@ Gehen Sie wie folgt vor, um eine bereits im Thema verwendete Zitation zu lösche
 
 Platzieren Sie im Thema den Cursor am Ende des Zitats.
 
-1. Klicken Sie mit der rechten Maustaste auf eine Erwähnung des Themas und wählen Sie **Änderungsbeschriftung** aus dem Kontextmenü. Das Dialogfeld Zitat wird geöffnet.
+1. Klicken Sie mit der rechten Maustaste auf einen Zitat im Thema und wählen Sie **Zitat ändern** aus dem Kontextmenü. Das Dialogfeld Zitat wird geöffnet.
    ![Kontextmenü einer Erwähnung](./images/modify-citation.png)
 
 1. Sie können die Zitate auswählen, die Sie in das Dokument einfügen möchten.
@@ -258,10 +258,10 @@ Nachdem Sie Zitate in das Thema eingefügt haben, können Sie Inhalte mit Zitate
 
 In der nativen PDF-Ausgabe erscheinen die Zitate in dem Inhalt, in den Sie sie eingefügt haben. Sie können auch eine Bibliografie-Seite erstellen. Wenn Sie auf eine beliebige Erwähnung klicken, werden Sie zur bibliography-Seite weitergeleitet.
 
-Erstellen Sie eine **Zitate** Seitenlayout in den PDF-Vorlagen und fügen Sie sie in Ihr Dokument ein. Alle im Buch verwendeten Zitate werden auf einer Seite aufgelistet, die in der PDF-Ausgabe erscheint. Weitere Informationen zum Erstellen eines Seitenlayouts finden Sie unter [Seitenlayout erstellen](../native-pdf/components-pdf-template.md#create-page-layout).
+Erstellen Sie ein Seitenlayout für **Zitate** in den PDF-Vorlagen und fügen Sie es in Ihr Dokument ein. Alle im Buch verwendeten Zitate werden auf einer Seite aufgelistet, die in der PDF-Ausgabe erscheint. Weitere Informationen zum Erstellen eines Seitenlayouts finden Sie unter [Erstellen eines Seitenlayouts](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Um die Ansicht und das Erscheinungsbild der Zitationsseite zu ändern, zeigen Sie [PDF-Vorlagen anpassen](../native-pdf/pdf-template.md).
+Um die Ansicht und das Erscheinungsbild der Referenzseite zu ändern, sehen Sie sich [PDF-Vorlagen anpassen](../native-pdf/pdf-template.md) an.
 
 
 
@@ -269,8 +269,8 @@ Um die Ansicht und das Erscheinungsbild der Zitationsseite zu ändern, zeigen Si
 
 Wenden Sie Formatierungen auf die Zitate an, wenn sie zum Thema hinzugefügt werden.
 
-1. Auswählen **Stylesheets** im **Vorlagen** -Bedienfeld einer nativen PDF-Ausgabevorgabe.   Er öffnet die **STILE** -Bereich, der alle Stiloptionen enthält.
+1. Wählen Sie **Stylesheets** im Bereich **Vorlagen** einer Nativen PDF-Ausgabevorgabe aus.   Dadurch wird der Bereich **STILE** geöffnet, der alle Stiloptionen enthält.
 
 1. Suchen Sie im Suchbereich nach `<cite>`.
 
-Weitere Informationen zu Stilen finden Sie unter [Arbeiten mit allgemeinen Inhaltsstilen](../native-pdf/stylesheet.md).
+Weitere Informationen zu Stilen finden Sie unter [Arbeiten mit den gängigen Inhaltsstilen](../native-pdf/stylesheet.md).

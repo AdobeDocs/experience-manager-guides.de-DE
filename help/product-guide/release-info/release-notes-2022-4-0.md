@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version April 2022
-description: April-Version der Adobe Experience Manager-Handbücher as a Cloud Service
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version April 2022
+description: April-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# April-Version der Adobe Experience Manager-Handbücher as a Cloud Service
+# April-Version von Adobe Experience Manager Guides as a Cloud Service
 
 ## Aktualisierung auf die Version vom April
 
-Aktuelles Upgrade durchführen [!DNL Adobe Experience Manager Guides] as a Cloud Service (später genannt) *[!DNL AEM Guides]as a Cloud Service*) einrichten, indem Sie die folgenden Schritte ausführen:
+Führen Sie die folgenden Schritte aus, um das aktuelle Setup für [!DNL Adobe Experience Manager Guides] as a Cloud Service (später als *[!DNL AEM Guides]as a Cloud Service* bezeichnet) zu aktualisieren:
 1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2022.4.133.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die April-Version von zu aktualisieren. [!DNL AEM Guides] as a Cloud Service.
+1. Aktualisieren Sie die Eigenschaft `<dox.version>` in der Datei `/dox/dox.installer/pom.xml` Ihres Cloud Service-Git-Codes auf 2022.4.133.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die April-Version von [!DNL AEM Guides] as a Cloud Service zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die von [!DNL AEM Guides] as a Cloud Service Version April 2022.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die von der Version [!DNL AEM Guides] as a Cloud Service vom April 2022 unterstützten Softwareanwendungen aufgeführt.
 
 ### FrameMaker und FrameMaker Publishing Server
 
@@ -34,7 +34,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von [!DNL AEM Guide
 
 ### Sauerstoffanschluss
 
-| Cloud-Version für AEM Guides | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
+| AEM Guides Cloud-Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
 | --- | --- | --- |
 | 2022.4.0 | 2,5,6 | 2,5,6 |
 |  |  |  |
@@ -57,15 +57,15 @@ Jetzt werden die Schlüsselverweise auf der Grundlage der in der folgenden Prior
 1. Bedienfeld &quot;Landkartenansicht&quot;
 1. Ordnerprofil
 
-Weitere Informationen finden Sie unter *Schlüsselverweise auflösen* im Benutzerhandbuch.
+Weitere Informationen finden Sie im Abschnitt *Schlüsselreferenzen auflösen* im Benutzerhandbuch.
 
 ### Hinzufügen eines benutzerdefinierten Bedienfelds im linken Bereich
 
-Jetzt können Sie ein benutzerdefiniertes Bedienfeld im linken Bereich des Web-Editors hinzufügen. Sie können ein benutzerdefiniertes Bedienfeld für verschiedene Zwecke verwenden, z. B. Hilfe bereitstellen oder Tests für ein Projekt durchführen. Wenn ein benutzerdefiniertes Bedienfeld konfiguriert wurde, wird es auch in der Liste der Bedienfelder innerhalb der **Editor-Einstellungen**. Sie können den Schalter umschalten, um das benutzerdefinierte Bedienfeld ein- oder auszublenden.
+Jetzt können Sie ein benutzerdefiniertes Bedienfeld im linken Bereich des Web-Editors hinzufügen. Sie können ein benutzerdefiniertes Bedienfeld für verschiedene Zwecke verwenden, z. B. Hilfe bereitstellen oder Tests für ein Projekt durchführen. Wenn ein benutzerdefiniertes Bedienfeld konfiguriert wurde, wird es auch in der Liste der Bedienfelder in den **Editor-Einstellungen** angezeigt. Sie können den Schalter umschalten, um das benutzerdefinierte Bedienfeld ein- oder auszublenden.
 
 ### Möglichkeit, den Dokumentstatus von Themen in einer DITA-Zuordnung zu ändern
 
-Jetzt können Sie den Dokumentstatus ausgewählter Themen in einer DITA-Zuordnung einfach ändern. Sie können die Eigenschaften ausgewählter Themen auch in einer DITA-Zuordnung über die **Weitere Optionen** Menü unten im Bedienfeld &quot;Kartenansicht&quot;.
+Jetzt können Sie den Dokumentstatus ausgewählter Themen in einer DITA-Zuordnung einfach ändern. Sie können die Eigenschaften ausgewählter Themen auch in einer DITA-Zuordnung über das Menü **Mehr Optionen** unten im Bereich &quot;Kartenansicht&quot;öffnen und bearbeiten.
 
 ![ausgewählte Themeneigenschaften](assets/map-view-properties.png)
 
@@ -73,7 +73,7 @@ Jetzt können Sie den Dokumentstatus ausgewählter Themen in einer DITA-Zuordnun
 
 Der Web Editor hilft Ihnen bei der Verwaltung Ihrer Versionen. Jetzt können Sie auch die Version des aktiven Themas oder der DITA-Zuordnung oben rechts auf der Registerkarte &quot;Datei&quot;des Themas im Vorschaumodus eines Themas sehen.
 
-![Vorschau Version](assets/preview-version.png)
+![Vorschauversion](assets/preview-version.png)
 
 ## Behobene Probleme
 
@@ -87,7 +87,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Probleme treten auf, wenn ein beliebiger Suchbegriff im Titel für die Registerkarte verwendet wird. (9318)
 * Die Grundlinie schlägt beim Hinzufügen einer Bezeichnung mit Leerzeichen fehl. (9362)
 * AEM Site-Ausgabe zeigt das Glossarverwendungselement nicht korrekt an. (8936)
-* Konsolenfehler tritt beim Öffnen der **Ausgabe** im Web Editor. (8715)
+* Konsolenfehler tritt beim Öffnen der Registerkarte **Ausgabe** im Web Editor auf. (8715)
 * Die Fehlermeldung, die bei der Veröffentlichung eines manuellen Datensatztyps über Salesforce angezeigt wird, ist nicht intuitiv. (8952)
 * Die Einstellung Mit Bedingungsattributen validieren wird nicht sofort geöffnet. Stattdessen muss der Benutzer die Datei erneut öffnen, um die Validierungen anzuzeigen. (9300)
 * Metadaten können nicht entfernt werden, nachdem eine DITA-Zuordnung mit Metadaten veröffentlicht wurde.  (9178)
@@ -100,7 +100,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ## Bekannte Probleme
 
-Adobe hat das folgende bekannte Problem in der [!DNL AEM Guides] as a Cloud Service April-Version.
+Adobe hat das folgende bekannte Problem in der Version [!DNL AEM Guides] as a Cloud Service April identifiziert.
 
 * Der Web Editor meldet keinen Fehler, wenn zwei oder mehr Grundlinien mit demselben Namen erstellt werden, jedoch Unterschiede bei Leerzeichen oder Groß-/Kleinschreibung bestehen. Beispiel: &quot;adobe&quot;und &quot;Adobe&quot;oder &quot;Adobe&quot;.
 * Der Sauerstoff-Connector hängt zwischenzeitlich beim häufigen Anmelden, Abmelden oder Wechseln zwischen verschiedenen Authentifizierungstypen.

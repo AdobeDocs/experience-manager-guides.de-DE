@@ -13,7 +13,7 @@ ht-degree: 5%
 
 # Inhalte übersetzen
 
-AEM Guides bieten die ultimative Lösung für die Erstellung mehrsprachiger Inhalte mit leistungsstarken Übersetzungsfunktionen.
+AEM Guides bietet die ultimative Lösung für die Erstellung mehrsprachiger Inhalte mit leistungsstarken Übersetzungsfunktionen.
 
 ## Sitzungsübersicht
 
@@ -26,9 +26,9 @@ In dieser Sitzung erfahren Sie mehr über den Übersetzungsprozess, den Integrat
 ## Lichter
 
 - **Datum** - 27. Oktober 2022
-- **Anzahl der TeilnehmerInnen** - 94
+- **Anzahl der Teilnehmer** - 94
 - **Dauer** - 60 Minuten
-- **Zielgruppe** - Kunden, Partner und Adobe-Mitarbeiter
+- **Audience** - Kunden, Partner und Adobe-Mitarbeiter
 
 ## Haupterkenntnisse
 
@@ -40,18 +40,18 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 ## Verwandte Ressourcen
 
-- **Funktionsvideos** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
 - **Benutzerhandbuch** - [Inhalt übersetzen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **Community-Forum** - Besuchen Sie für sitzungsspezifische Community-Interaktionen auf dem Experience League das [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen AEM Handbücher verfügbar:
+> Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
 > - On-Premise 4.1 oder höher
 > - Cloud Service 2207 oder höher
 
 ## Kontakt
 
-Für alle Fragen senden Sie uns eine E-Mail unter <techcomm@adobe.com>
+Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>

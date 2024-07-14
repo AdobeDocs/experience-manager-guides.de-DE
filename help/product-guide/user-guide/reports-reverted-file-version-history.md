@@ -1,6 +1,6 @@
 ---
 title: Versionsverlauf wiederhergestellter Dateien - Bericht
-description: Zeigen Sie die Berichte zum Versionsverlauf rückgängig gemachter Dateien in AEM Handbüchern an. Erfahren Sie, wie Sie über die Assets-Benutzeroberfläche, die Themenvorschau und die Auswahl der AEM Tools auf Protokolle mit rückgängig gemachten Versionen zugreifen können.
+description: Zeigen Sie Berichte zum Versionsverlauf wiederhergestellter Dateien in AEM Guides an. Erfahren Sie, wie Sie über die Assets-Benutzeroberfläche, die Themenvorschau und die Auswahl der AEM Tools auf Protokolle mit rückgängig gemachten Versionen zugreifen können.
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
@@ -19,26 +19,26 @@ Mit AEM Guides können Sie einen Versionsverlaufsbericht für eine einzelne Date
 
 Der Zugriff auf diesen Bericht ist an folgenden Stellen möglich:
 
-- **Assets-Benutzeroberfläche**: durch Auswahl einer Datei und Öffnen der **Versionsverlauf** über die linke Leiste. Die **Versionsverlauf** Ansicht enthält **Versionsprotokolle wiederherstellen** -Link am unteren Rand des Bedienfelds. Wenn Sie auf diesen Link klicken, wird der Verlauf der ausgewählten Datei mit den wiederhergestellten Versionen angezeigt.
+- **Assets UI**: Wählen Sie eine Datei aus und öffnen Sie in der linken Leiste den **Versionsverlauf**. Die Ansicht **Versionsverlauf** enthält den Link **Versionsprotokolle wiederherstellen** unten im Bedienfeld. Wenn Sie auf diesen Link klicken, wird der Verlauf der ausgewählten Datei mit den wiederhergestellten Versionen angezeigt.
 
   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
-- **Themenvorschau**: Wenn Sie ein Thema in der Vorschau anzeigen, können Sie auch die **Versionsverlauf** aus der linken Leiste. Sie erhalten ein Bedienfeld ähnlich der Assets-Benutzeroberfläche, von dem aus Sie auf die **Versionsprotokolle wiederherstellen** -Link, um auf den Verlauf der wiederhergestellten Version des aktiven Dokuments zuzugreifen.
+- **Themenvorschau**: Wenn Sie ein Thema in der Vorschau anzeigen, können Sie auch das Bedienfeld **Versionsverlauf** von der linken Leiste aus aufrufen. Sie erhalten ein Bedienfeld ähnlich der Benutzeroberfläche von Assets, von dem aus Sie auf den Link **Versionsprotokolle wiederherstellen** klicken können, um auf den wiederhergestellten Versionsverlauf des aktiven Dokuments zuzugreifen.
 
-- **Abschnitt &quot;AEM Tools&quot;**: Sie können auch über den Bereich AEM Tools auf diesen Bericht zugreifen. Im folgenden Verfahren wird erläutert, wie Sie über den Abschnitt AEM Tools auf den Verlauf der Zurückkehrversion zugreifen können.
+- **AEM Tools-Abschnitt**: Sie können auch über den Abschnitt &quot;AEM Tools&quot;auf diesen Bericht zugreifen. Im folgenden Verfahren wird erläutert, wie Sie über den Abschnitt &quot;AEM Tools&quot;auf den Verlauf der Zurückkehrversion zugreifen können.
 
 
 Führen Sie die folgenden Schritte aus, um auf den Bericht Verlauf zurücksetzen zuzugreifen:
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Auswählen **Handbücher** aus der Liste der Tools.
+1. Wählen Sie **Guides** aus der Liste der Tools aus.
 
-1. Klicken Sie auf **Versionsverlauf wiederherstellen** Kachel.
+1. Klicken Sie auf die Kachel **Versionsverlauf wiederherstellen** .
 
    Es wird eine leere Seite Versionsverlauf wiederherstellen angezeigt, auf der Sie eine Datei oder einen Ordner durchsuchen und auswählen müssen, um den Bericht zu generieren.
 
-1. Klicks **Protokolle anzeigen** , um den Bericht für die ausgewählte Datei oder den ausgewählten Ordner zu generieren.
+1. Klicken Sie auf **Protokolle anzeigen** , um den Bericht für die ausgewählte Datei oder den ausgewählten Ordner zu generieren.
 
    ![](images/revert-version-history-report.png){width="800" align="left"}
 
@@ -50,9 +50,9 @@ Führen Sie die folgenden Schritte aus, um auf den Bericht Verlauf zurücksetzen
 
    - **Benutzer**: Name des Benutzers, der zu einer früheren Version zurückgekehrt ist.
 
-   - **Zurück von**: Die ursprüngliche Versionsnummer der Datei, von der sie zurückgesetzt wurde.
+   - **Aus** zurücksetzen: Die ursprüngliche Versionsnummer der Datei, von der sie zurückgesetzt wurde.
 
-   - **Wiederherstellen auf**: Die Version, auf die die Datei zurückgesetzt wurde.
+   - **Auf** zurücksetzen: Die Version, auf die die Datei zurückgesetzt wurde.
 
    - **Kommentar**: Jeder Kommentar des Benutzers, der die Datei zurückgesetzt hat.
 

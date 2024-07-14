@@ -24,9 +24,9 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 Diese Einstellung wirkt sich auf die folgenden Stellen aus, an denen Sie auf die Themen- oder Zuordnungsdateien zugreifen können:
 
-- DITA-Thema erstellen \(am Ende des Workflows, wenn Sie auf das **Thema öffnen** button\)
+- DITA-Thema erstellen \(am Ende des Workflows, wenn Sie auf die Schaltfläche **Thema öffnen** klicken\)
 
-- DITA-Map erstellen \(am Ende des Workflows, wenn Sie auf die **Open Map** button\)
+- DITA-Map erstellen \(am Ende des Workflows, wenn Sie auf die Schaltfläche **Map öffnen** klicken\)
 
 - Registerkarte &quot;Themen&quot;in der DITA-Map-Konsole
 
@@ -35,4 +35,4 @@ Diese Einstellung wirkt sich auf die folgenden Stellen aus, an denen Sie auf die
 - Registerkarte &quot;Berichte&quot;in der DITA-Map-Konsole
 
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

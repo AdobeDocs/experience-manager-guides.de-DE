@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # AEM Standardwörterbuch anpassen {#id209SD8000WU}
 
-Der Web Editor kann so konfiguriert werden, dass er AEM Rechtschreibprüfung oder die Rechtschreibprüfung des Browsers verwendet. Wenn Sie sich dafür entscheiden, mit AEM Rechtschreibprüfung zu arbeiten, erhalten Sie die Flexibilität, Ihre benutzerdefinierte Wortliste zu definieren. Diese benutzerdefinierten Wörter werden dann zum AEM Wörterbuch hinzugefügt und diese Wörter werden im Web Editor nicht als \(falsch\) gekennzeichnet.
+Der Web Editor kann so konfiguriert werden, dass er die Rechtschreibprüfung AEM oder die Rechtschreibprüfung des Browsers verwendet. Wenn Sie sich dafür entscheiden, mit AEM Rechtschreibprüfung zu arbeiten, erhalten Sie die Flexibilität, Ihre benutzerdefinierte Wortliste zu definieren. Diese benutzerdefinierten Wörter werden dann zum AEM Wörterbuch hinzugefügt und diese Wörter werden im Web Editor nicht als \(falsch\) gekennzeichnet.
 
 Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierte Wortliste zu erstellen, die AEM Wörterbuch hinzugefügt wird:
 
@@ -24,7 +24,7 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierte Wortliste zu 
    >
    > Jedes benutzerdefinierte Wort muss in einer neuen Zeile definiert werden.
 
-1. Speichern Sie die Datei unter dem folgenden Speicherort im Git-Repository von Cloud Manager:
+1. Speichern Sie die Datei an folgendem Speicherort in Ihrem Cloud Manager-Git-Repository:
 
    /apps/fmdita/config
 
@@ -35,4 +35,4 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierte Wortliste zu 
 
 Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die benutzerdefinierte Wörterbuchliste im AEM Wörterbuch aktualisiert wird.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

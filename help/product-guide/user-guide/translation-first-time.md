@@ -1,6 +1,6 @@
 ---
 title: Best Practices für die Übersetzung von Inhalten
-description: Machen Sie sich mit den Best Practices für die Übersetzung von Inhalten in AEM Handbüchern vertraut. Erfahren Sie, wie Sie den Übersetzungsdienst konfigurieren, ein neues Übersetzungsprojekt erstellen und den Übersetzungsauftrag starten.
+description: Machen Sie sich mit den Best Practices für die Übersetzung von Inhalten in AEM Guides vertraut. Erfahren Sie, wie Sie den Übersetzungsdienst konfigurieren, ein neues Übersetzungsprojekt erstellen und den Übersetzungsauftrag starten.
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
@@ -17,7 +17,7 @@ Beachten Sie beim Übersetzen von Inhalten den folgenden Punkt:
 
 - Ordner- und Dateinamen müssen den Dateinamenstandards entsprechen, z. B.: Leerzeichen, Apostroph, Klammern, Gleichheitszeichen, Sonderzeichen oder Nicht-ASCII-Zeichen dürfen nicht verwendet werden.
 
-- Wenn Sie Inhalte in verschiedene Sprachen übersetzen, müssen Sie für jede Sprache entsprechende Ordner erstellen. Jeder dieser Sprachordner enthält den Inhalt, der dieser Sprache entspricht. Sie können beispielsweise Ordner mithilfe des Sprachdesignators erstellen, z. B. wie `de` für Deutsch, `fr` für Französisch usw. Alternativ können Sie Ordner mit den Sprachen- und Regionsdesignatoren erstellen, z. B. `fr-FR` für Französisch gemäß der Verwendung in Frankreich oder `fr-CA` für Französisch, wie in Kanada verwendet.
+- Wenn Sie Inhalte in verschiedene Sprachen übersetzen, müssen Sie für jede Sprache entsprechende Ordner erstellen. Jeder dieser Sprachordner enthält den Inhalt, der dieser Sprache entspricht. Sie können beispielsweise Ordner mit dem Sprachbezeichner wie `de` für Deutsch, `fr` für Französisch usw. erstellen. Alternativ können Sie Ordner mit den Sprachen- und Regionsbezeichnungen erstellen, z. B. &quot;`fr-FR`&quot;für Französisch, wie in Frankreich verwendet, &quot;`fr-CA`&quot;für Französisch, wie in Kanada verwendet.
 - Für die Zielsprache sollten auch die tatsächlichen Gebietsschemata entsprechend den Zielsprachordnern in ihrer Instanz ausgewählt sein.
 - Die Cloud-Konfiguration sollte mit der des Quellordners identisch sein und es sollte nur eine Cloud-Konfiguration in einem Ordner geben. Sie können unter /conf mehrere Ordner erstellen, wenn Sie mehrere Übersetzungs-Connectoren verwenden möchten.
 - Ein Ordner sollte nicht mehr als 1000 Dateien enthalten.
@@ -39,9 +39,9 @@ Führen Sie die folgenden Schritte aus, um den Dienst für menschliche oder masc
 
 1. Wählen Sie in der Assets-Benutzeroberfläche den Ordner Quellsprache aus.
 
-1. Öffnen Sie die Ordnereigenschaften und navigieren Sie zu **Cloud Service** Registerkarte.
+1. Öffnen Sie die Ordnereigenschaften und rufen Sie die Registerkarte **Cloud Service** auf.
 
-1. Im **Cloud Service** auf, konfigurieren Sie den Übersetzungsdienst, den Sie verwenden möchten.
+1. Konfigurieren Sie auf der Registerkarte **Cloud Service** den zu verwendenden Übersetzungsdienst.
 
    Sie können maschinelle oder menschliche Übersetzung konfigurieren.
 
@@ -49,14 +49,14 @@ Führen Sie die folgenden Schritte aus, um den Dienst für menschliche oder masc
 
    >[!NOTE]
    >
-   > Siehe [Konfigurieren des Übersetzungsintegrations-Frameworks](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in AEM Dokumentation finden Sie Einzelheiten zur Integration mit Übersetzungsdiensten von Drittanbietern.
+   > Weitere Informationen zur Integration mit Übersetzungsdiensten von Drittanbietern finden Sie unter [Konfigurieren des Übersetzungsintegrations-Frameworks](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in AEM Dokumentation.
 
-1. Klicks **Speichern und schließen** , um die aktualisierten Ordnereigenschaften zu speichern.
+1. Klicken Sie auf **Speichern und schließen** , um die aktualisierten Ordnereigenschaften zu speichern.
 
 
 >[!TIP]
 >
-> Siehe *Übersetzung* im Handbuch Best Practices für Best Practices für die Übersetzung von Inhalten.
+> Best Practices zur Übersetzung von Inhalten finden Sie im Abschnitt *Übersetzung* des Best Practices-Handbuchs.
 
 ## Erstellen eines neuen Übersetzungsprojekts
 
@@ -64,13 +64,13 @@ Führen Sie die folgenden Schritte aus, um ein Übersetzungsprojekt zu erstellen
 
 >[!NOTE]
 >
-> Bevor Sie die Schritte in diesem Verfahren durchführen, stellen Sie sicher, dass Sie den erforderlichen Sprachstamm und die Zielordner erstellt haben, wie im Abschnitt [Best Practices für die Übersetzung von Inhalten](#id1678G0S702F).
+> Bevor Sie die Schritte in diesem Verfahren durchführen, stellen Sie sicher, dass Sie den erforderlichen Sprachstamm und die Zielordner erstellt haben, wie in [Best Practices für die Übersetzung von Inhalten](#id1678G0S702F) beschrieben.
 
 1. Klicken Sie in der Assets-Benutzeroberfläche auf die DITA-Zuordnungsdatei.
 
-1. Klicken Sie auf **Übersetzung** Registerkarte.
+1. Klicken Sie auf die Registerkarte **Übersetzung** .
 
-1. Aus dem **Zielsprachen** auflisten, das Gebietsschema auswählen, in das Sie Ihr Projekt übersetzen möchten, und auf **Fertig**.
+1. Wählen Sie in der Liste **Zielsprachen** das Gebietsschema aus, in das Sie Ihr Projekt übersetzen möchten, und klicken Sie auf **Fertig**.
 
    Eine Zusammenfassung und Details zu Themen und zugehörigen Assets werden angezeigt.
 
@@ -84,25 +84,25 @@ Führen Sie die folgenden Schritte aus, um ein Übersetzungsprojekt zu erstellen
 
    >[!NOTE]
    >
-   > Klicken Sie nach Anwendung des erforderlichen Filters auf **Fertig** im Bereich Filter , um Themen nach Ihrer Auswahl zu filtern.
+   > Klicken Sie nach dem Anwenden des erforderlichen Filters im Filterbereich auf **Fertig** , um die Themen nach Ihrer Auswahl zu filtern.
 
    - **Übersetzungsstatus**: Wählen Sie diese Option, um Themen nach ihrem Übersetzungsstatus zu filtern. Die verfügbaren Optionen sind: &quot;Nicht synchronisiert&quot;, &quot;Fehlende Kopie&quot;, &quot;In Bearbeitung&quot;und &quot;In Sync&quot;.
-   - **Suche**: Geben Sie einen oder mehrere Suchbegriffe in die Thementitel ein.
-   - **Quelltyp**: Wählen Sie diese Option, um Themen nach Dateitypen zu filtern. Die verfügbaren Optionen sind: Alle, DITA, DITA-Zuordnung, Ressource.
-   - **Quellversion geändert nach**: Wählen Sie die Filterung des Themas nach Datum und Uhrzeit der Änderung aus. Alle Themen, die nach dem angegebenen Datum und der angegebenen Uhrzeit geändert wurden, werden in der Liste angezeigt.
+   - **Suche**: Geben Sie einen oder mehrere Begriffe ein, die in den Thementiteln durchsucht werden sollen.
+   - **Source-Typ**: Wählen Sie diese Option, um Themen nach Dateitypen zu filtern. Die verfügbaren Optionen sind: Alle, DITA, DITA-Zuordnung, Ressource.
+   - **Source-Version geändert nach**: Wählen Sie diese Option aus, um das Thema nach Datum und Uhrzeit der Änderung zu filtern. Alle Themen, die nach dem angegebenen Datum und der angegebenen Uhrzeit geändert wurden, werden in der Liste angezeigt.
    - **Grundlinie**: Klicken Sie auf Grundlinie verwenden und wählen Sie eine auf der Zuordnung erstellte Grundlinie aus. Alle Dateien, die Teil der ausgewählten Grundlinie sind, werden auf der Seite Übersetzung angezeigt. Sie können die gewünschten Dateien aus der Grundlinie auswählen und mit dem Übersetzungsprozess fortfahren. Sobald Ihr Inhalt übersetzt wurde, können Sie die übersetzte Grundlinie exportieren. Weitere Informationen zum Exportieren der übersetzten Grundlinie finden Sie unter [Exportieren der übersetzten Grundlinie](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
-1. Klicks **Erstellen/Aktualisieren von Sprachkopien** unten im Bereich Filter .
+1. Klicken Sie unten im Filterbereich auf **Sprachkopien erstellen/aktualisieren** .
 
-1. Aus dem **Projekt** Liste auswählen **Neues Übersetzungsprojekt erstellen**.
+1. Wählen Sie in der Liste **Projekt** die Option **Neues Übersetzungsprojekt erstellen** aus.
 
    >[!NOTE]
    >
-   > Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Auswählen **Zu vorhandenem Übersetzungsprojekt hinzufügen** Option aus der **Projekt** und wählen Sie ein Projekt aus dem **Vorhandenes Übersetzungsprojekt** Liste.
+   > Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Wählen Sie die Option **Zu vorhandenem Übersetzungsprojekt hinzufügen** aus der Liste **Projekt** und wählen Sie ein Projekt aus der Liste **Vorhandenes Übersetzungsprojekt** aus.
 
 1. Geben Sie im Feld **Projekttitel** einen Namen für das Projekt ein.
 
-1. Wählen Sie die **DITA Map einschließen** -Option, um die Karte zur Übersetzung zu senden.
-1. Klicks **Starten** , um ein neues Übersetzungsprojekt zu erstellen.
+1. Wählen Sie die Option **DITA-Map einschließen** aus, um die Zuordnung zur Übersetzung zu senden.
+1. Klicken Sie auf **Starten** , um ein neues Übersetzungsprojekt zu erstellen.
 
    Ein neues Übersetzungsprojekt wird mit der ausgewählten Version der Themen erstellt. Zu diesem Zeitpunkt wird eine Popup-Meldung angezeigt, die bestätigt, dass das Übersetzungsprojekt erstellt wurde. Sobald alle Zielsprachkopien im Übersetzungsprojekt verfügbar sind, erhalten Sie eine Benachrichtigung im Posteingang. Sobald der Bereich der Zielsprachkopien im Übersetzungsprojekt verfügbar ist, können Sie den Übersetzungsauftrag starten.
 
@@ -111,8 +111,8 @@ Führen Sie die folgenden Schritte aus, um ein Übersetzungsprojekt zu erstellen
 
 Die Registerkarte Übersetzung enthält die folgenden Abschnitte:
 
-- **Zusammenfassung**: Zeigt die Anzahl der referenzierten Themen und die Quellsprache zusammen mit ihrem Code an.
-- **Details**: Zeigt den Titel des Themas, den Typ des Themas, den Sprachcode des Themas, die Quellsprache, die Version des Quellthemas, die zum Thema hinzugefügte Bezeichnung und den Übersetzungsstatus an.
+- **Zusammenfassung**: Zeigt die Anzahl der referenzierten Themen und der Quellsprache zusammen mit ihrem Code an.
+- **Details**: Zeigt den Thementitel, den Thementyp, den Sprachcode des Themas, die Quellsprache, die Version des Quellthemas, die zum Thema hinzugefügte Bezeichnung und den Übersetzungsstatus an.
 
 
 
@@ -121,11 +121,11 @@ Die Registerkarte Übersetzung enthält die folgenden Abschnitte:
 
 Führen Sie die folgenden Schritte aus, um den Übersetzungsauftrag zu starten:
 
-1. Im **Projekte** Navigieren Sie zum Projektordner, den Sie für die Lokalisierung erstellt haben.
+1. Navigieren Sie in der Konsole **Projekte** zum Projektordner, den Sie für die Lokalisierung erstellt haben.
 
 1. Klicken Sie auf das Lokalisierungsprojekt, um die Detailseite zu öffnen.
 
-1. Klicken Sie auf den Pfeil am **Übersetzungsauftrag** und wählen Sie **Starten** aus der Liste, um den Übersetzungs-Workflow zu starten.
+1. Klicken Sie auf den Pfeil auf der Kachel **Übersetzungsauftrag** und wählen Sie **Start** aus der Liste aus, um den Übersetzungs-Workflow zu starten.
 
    >[!NOTE]
    >
@@ -138,6 +138,6 @@ Nach Abschluss der Übersetzung ändert sich der Status des Übersetzungsauftrag
 
 >[!NOTE]
 >
-> Wenn Sie die Übersetzung für ein oder mehrere Themen in einem Übersetzungsauftrag ablehnen, wird die **In Bearbeitung** Der Übersetzungsstatus aller abgelehnten Themen wird auf ihren ursprünglichen Status zurückgesetzt. Der Status der referenzierten Themen wird überprüft und entsprechend dem aktuellen Übersetzungsstatus zurückgesetzt. Außerdem werden die im Zielprojekt erstellten Übersetzungsdateien nicht gelöscht, selbst wenn die Übersetzung für sie abgelehnt wurde.
+> Wenn Sie die Übersetzung für ein oder mehrere Themen in einem Übersetzungsauftrag ablehnen, wird der Übersetzungsstatus **In Bearbeitung** aller abgelehnten Themen wieder auf den ursprünglichen Status zurückgesetzt. Der Status der referenzierten Themen wird überprüft und entsprechend dem aktuellen Übersetzungsstatus zurückgesetzt. Außerdem werden die im Zielprojekt erstellten Übersetzungsdateien nicht gelöscht, selbst wenn die Übersetzung für sie abgelehnt wurde.
 
 **Übergeordnetes Thema:**[ Inhalt übersetzen](translation.md)

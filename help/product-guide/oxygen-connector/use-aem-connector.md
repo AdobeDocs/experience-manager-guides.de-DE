@@ -1,6 +1,6 @@
 ---
-title: Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher
-description: Erfahren Sie, wie Sie mit dem Oxygen-Plug-in für Adobe Experience Manager-Handbücher Inhalte erstellen und verwalten können.
+title: Sauerstoff-Plugin für Adobe Experience Manager Guides
+description: Erfahren Sie, wie Sie mit dem Oxygen-Plug-in für Adobe Experience Manager Guides Inhalte erstellen und verwalten können.
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
@@ -13,25 +13,25 @@ ht-degree: 0%
 
 ---
 
-# Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher {#id1645H6010Q5}
+# Sauerstoff-Plugin für Adobe Experience Manager Guides {#id1645H6010Q5}
 
-Mit dem Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher \(später als &quot;Sauerstoff-Plug-in für AEM Guides&quot;im Handbuch\) können Sie die XML-Autoreninstanz mit dem Adobe Experience Manager \(AEM\)-Repository verbinden, um Inhalte zu erstellen und zu verwalten. Mit dem Plug-in können Sie Dateien durchsuchen, durchsuchen und öffnen, Dateien auschecken und einchecken sowie Ordner und Dateien in AEM Repository hochladen. Mit dem Bedienfeld &quot;AEM Guides&quot;in der Desktop-Applikation können Sie die gewünschten Ordner \(aus AEM Repository\) zur Liste der bevorzugten Ordner markieren, damit Sie schnell darauf zugreifen können. Darüber hinaus können Sie ein Paket in AEM Web-Oberfläche installieren und Ihre DITA-Dateien in der Oxygen XML Author direkt über die AEM Web-Oberfläche öffnen.
+Mit dem Sauerstoff-Plugin für Adobe Experience Manager Guides \(später im Handbuch als Sauerstoff-Plugin für AEM Guides bezeichnet\) können Sie die Sauerstoff-XML-Autoreninstanz mit dem Adobe Experience Manager \(AEM\)-Repository verbinden, um Inhalte zu erstellen und zu verwalten. Mit dem Plug-in können Sie Dateien durchsuchen, durchsuchen und öffnen, Dateien auschecken und einchecken sowie Ordner und Dateien in AEM Repository hochladen. Im AEM Guides-Bedienfeld der Desktop-Applikation können Sie die gewünschten Ordner \(aus AEM Repository\) zur Liste der bevorzugten Ordner markieren, damit Sie schnell darauf zugreifen können. Darüber hinaus können Sie ein Paket in AEM Web-Oberfläche installieren und Ihre DITA-Dateien in der Oxygen XML Author direkt über die AEM Web-Oberfläche öffnen.
 
 ## Herunterladen und installieren {#id1826M0L0PUI}
 
-Das Sauerstoff-Plugin für AEM Guides wird über Ihr Adobe Software Distribution-Portal bereitgestellt. Suchen Sie auf der Registerkarte &quot;Experience Manager&quot;nach &quot;Sauerstoff&quot;und laden Sie dann das Plug-in-Installationsprogramm von Ihrem [Adobe Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+Das Sauerstoff-Plugin für AEM Guides wird über Ihr Adobe Software Distribution-Portal bereitgestellt. Suchen Sie auf der Registerkarte &quot;Experience Manager&quot;nach &quot;Sauerstoff&quot;und laden Sie dann das Plugin-Installationsprogramm von Ihrem [Adobe Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) herunter.
 
 >[!NOTE]
 >
->Überprüfen Sie in den Versionshinweisen für die jeweiligen Adobe Experience Manager-Handbücher auf die Kompatibilität der Adobe-Connector-Version.
+>Überprüfen Sie in den Versionshinweisen für die jeweilige Adobe Experience Manager Guides auf die Kompatibilität mit der Sauerstoff-Connector-Version.
 
-Nachdem Sie das Installationsprogramm installiert haben, installieren Sie es auf Ihrem lokalen Computer, auf dem die Oxygen XML Author installiert ist. Bevor Sie mit der Installation beginnen, müssen Sie sicherstellen, dass Ihr System die technischen Anforderungen für die Installation des Oxygen Plugins für AEM Guides erfüllt.
+Nachdem Sie das Installationsprogramm installiert haben, installieren Sie es auf Ihrem lokalen Computer, auf dem die Oxygen XML Author installiert ist. Bevor Sie mit der Installation beginnen, müssen Sie sicherstellen, dass Ihr System die technischen Anforderungen für die Installation des Sauerstoff-Plug-ins für AEM Guides erfüllt.
 
 ### Technische Anforderungen
 
 - Sauerstoff-XML-Autorenversion 25.1
 
-- Adobe Experience Manager-Handbücher Version 4.3 oder höher
+- Adobe Experience Manager Guides-Version 4.3 oder höher
 
 - Adobe Experience Manager-Version 6.5 mit Service Pack 14, 15, 16 und 17
 
@@ -44,15 +44,15 @@ Nachdem Sie das Installationsprogramm installiert haben, installieren Sie es auf
 
 >[!IMPORTANT]
 >
->Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe **Deinstallieren von Paketen** im Abschnitt [Arbeiten mit Paketen](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) Artikel für Anweisungen zur Deinstallation.
+>Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Anweisungen zur Deinstallation finden Sie im Abschnitt **Deinstallieren von Paketen** im Artikel [Arbeiten mit Paketen](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) .
 
 Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Author installiert ist:
 
-1. Starten des Installationsprogramms `.exe` -Datei.
+1. Starten Sie die Datei &quot;`.exe`&quot; des Installationsprogramms.
 
    Der Willkommensbildschirm des Installationsassistenten wird angezeigt.
 
-1. Klicks **Nächste** und navigieren Sie zu dem Speicherort, an dem die .exe-Datei der Oxygen XML Author verfügbar ist.
+1. Klicken Sie auf &quot;**Weiter**&quot;und navigieren Sie zu dem Speicherort, an dem die EXE-Datei der Oxygen XML-Autoreninstanz verfügbar ist.
 
 1. Wählen Sie die Datei aus und klicken Sie auf **Öffnen**.
 
@@ -62,23 +62,23 @@ Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Autho
 
 1. Klicken Sie auf **Installieren**.
 
-1. Klicks **Beenden** um den Installationsassistenten zu schließen.
+1. Klicken Sie auf **Beenden** , um den Installationsassistenten zu schließen.
 1. Starten Sie die XML-Autoreninstanz Oxygen.
 
-   Das Bedienfeld AEM Guides wird im XML-Autor von Sauerstoff angezeigt.
+   Das AEM Guides-Bedienfeld wird im Oxygen XML Author angezeigt.
 
-   ![AEM](images/oxygen-aem-connector.png){width="800" align="left"}
+   ![AEM-Connector](images/oxygen-aem-connector.png){width="800" align="left"}
 
    >[!NOTE]
    >
-   >Wenn das Bedienfeld AEM Guides nicht angezeigt wird, finden Sie die Problemumgehungen im Abschnitt zur Fehlerbehebung .—[Bedienfeld AEM Guides fehlt](#id192BH200ZAX).
+   >Wenn das Bedienfeld &quot;AEM Guides&quot;nicht angezeigt wird, finden Sie Informationen zu den Problemumgehungen im Abschnitt zur Fehlerbehebung -[Fehlendes AEM Guides-Bedienfeld](#id192BH200ZAX).
 
 
 ### Installieren des Plug-ins in Mac
 
 >[!IMPORTANT]
 >
->Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe **Deinstallieren von Paketen** im Abschnitt [Arbeiten mit Paketen](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) Anweisungen zur Deinstallation des Artikels.
+>Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Weitere Informationen finden Sie im Abschnitt **Deinstallieren von Paketen** in den Anweisungen zur Deinstallation des Artikels [Arbeiten mit Paketen](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) .
 
 Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Author installiert ist:
 
@@ -97,13 +97,13 @@ Führen Sie die folgenden Schritte für das System aus, auf dem Oxygen XML Autho
 
 1. Starten Sie die XML-Autoreninstanz Oxygen.
 
-   Das Bedienfeld AEM Guides wird im XML-Autor von Sauerstoff angezeigt.
+   Das AEM Guides-Bedienfeld wird im Oxygen XML Author angezeigt.
 
    ![AEM Connector Mac](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
 
    >[!NOTE]
    >
-   >Wenn das Bedienfeld AEM Guides nicht angezeigt wird, finden Sie die Problemumgehungen im Abschnitt zur Fehlerbehebung .—[Bedienfeld AEM Guides fehlt](#id192BH200ZAX).
+   >Wenn das Bedienfeld &quot;AEM Guides&quot;nicht angezeigt wird, finden Sie Informationen zu den Problemumgehungen im Abschnitt zur Fehlerbehebung -[Fehlendes AEM Guides-Bedienfeld](#id192BH200ZAX).
 
 
 ### Installieren Sie das Paket für die Aktivierung der Dokumentbearbeitungsfunktion über AEM Web-Oberfläche {#id182CE0Q0TY4}
@@ -113,41 +113,41 @@ Als Autor können Sie Ihre DITA-Maps oder -Themen in der Oxygen XML Author direk
 Als AEM Administrator führen Sie die folgenden Schritte aus, um das Paket zu installieren:
 
 1. Rufen Sie die ZIP-Datei des Pakets von Ihrem IT-Team ab.
-1. Melden Sie sich bei Ihrer AEM an *\(als Administrator\)* und navigieren Sie zum CRX Package Manager. Die Standard-URL für den Zugriff auf den Paketmanager lautet
+1. Melden Sie sich bei Ihrer AEM-Instanz an *\ (als Administrator\)* und navigieren Sie zum CRX Package Manager. Die Standard-URL für den Zugriff auf den Paketmanager lautet
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
    Der Package Manager verwaltet die Pakete in Ihrer lokalen AEM-Installation. Weitere Informationen zum Arbeiten mit Package Manager finden Sie unter [Arbeiten mit Paketen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in AEM Dokumentation.
 
-   ![Package Manager](images/package-manager.png) {width="650" align="left"}
+   ![Paketmanager](images/package-manager.png) {width="650" align="left"}
 
-1. Um das Sauerstoffpaket hochzuladen, klicken Sie auf **Paket hochladen**.
+1. Um das Sauerstoff-Paket hochzuladen, klicken Sie auf **Paket hochladen**.
 1. Navigieren Sie im Dialogfeld &quot;Paket hochladen&quot;zur Sauerstoffpaketdatei, die Sie in Schritt 1 heruntergeladen haben, und klicken Sie auf OK.
 
    Das Paket wird in Ihre AEM-Instanz hochgeladen.
 
 1. Um den Installationsprozess zu starten, klicken Sie auf **Installieren**.
 
-   ![Sauerstoffverpackung](images/oxygen-package.png){width="650" align="left"}
+   ![Sauerstoff-Paket](images/oxygen-package.png){width="650" align="left"}
 
-1. Klicken Sie im Dialogfeld Paket installieren auf **Installieren**.
-1. Klicken Sie nach Abschluss der Installation auf die Schaltfläche Home in der oberen linken Ecke des CRX Package Manager.
+1. Klicken Sie im Dialogfeld &quot;Paket installieren&quot;auf **Installieren**.
+1. Klicken Sie nach Abschluss der Installation auf die Schaltfläche Home in der linken oberen Ecke des CRX Package Managers.
 1. Wählen Sie eine DITA-Datei im Ordner &quot;Assets&quot;aus.
 
-   **In Sauerstoff bearbeiten** ist in der Symbolleiste verfügbar. Weitere Informationen zur Verwendung dieser Option finden Sie unter [Öffnen Sie das DITA-Thema in der Oxygen XML Author über AEM Web-Oberfläche.](#id182CE0I905Z).
+   Die Option **In Sauerstoff bearbeiten** ist in der Symbolleiste verfügbar. Weitere Informationen zur Verwendung dieser Option finden Sie unter [DITA-Thema in der XML-Autoreninstanz von Oxygen über AEM Web-Oberfläche öffnen](#id182CE0I905Z).
 
    >[!NOTE]
    >
-   >Die **In Sauerstoff bearbeiten** angezeigt, wenn Sie ein DITA-Thema auswählen. Wenn Sie mehrere Themen auswählen, ist die Option nicht sichtbar.
+   >Die Option **In Sauerstoff bearbeiten** ist sichtbar, wenn Sie ein DITA-Thema auswählen. Wenn Sie mehrere Themen auswählen, ist die Option nicht sichtbar.
 
 
-## Konfigurieren des Sauerstoffplugins für AEM Guides {#id1826KF00AHS}
+## Konfigurieren des Sauerstoff-Plug-ins für AEM Guides {#id1826KF00AHS}
 
 Nachdem Sie das Plug-in heruntergeladen und installiert haben, müssen Sie Folgendes konfigurieren, damit es mit dem Plug-in funktioniert:
 
-- **Webauthentifizierungseinstellungen**: Einstellungen für die SSO-Authentifizierung im Plug-in für AEM Handbücher.
-- **Allgemeine Einstellungen**: Verbindungsparameter für das Plug-in, z. B. AEM Server-URL, Anmeldedaten usw.
-- **Voreinstellung für die Profilattributanpassung und Dateinamen in Querverweisen**: Diese Konfiguration ist für die Profilattributschemata für die Dokumentationssätze erforderlich.
+- **Web authentication settings**: Einstellungen für die SSO-Authentifizierung im Plug-in für AEM Guides.
+- **Allgemeine Einstellungen**: Verbindungseinstellungen für das Plug-in, wie z. B. AEM Server-URL, Anmeldedetails usw.
+- **Präferenz für die Profilattributanpassung und Dateinamen in Querverweisen**: Diese Konfiguration ist für die Profilattributschemas für die Dokumentationssätze erforderlich.
 
 ### Webauthentifizierungseinstellungen
 
@@ -185,7 +185,7 @@ Fügen Sie die folgenden Zeilen in die Datei SauerstoffAuthor.sh ein.
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**Windows und Sauerstoff 25.1**
+**Für Windows und Sauerstoff 25.1**
 
 Fügen Sie die folgenden Zeilen in env.bat hinzu
 
@@ -205,14 +205,14 @@ Fügen Sie die folgenden Zeilen in die Datei SauerstoffAuthor.bat ein
 
 ### Allgemeine Einstellungen
 
-Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher zu konfigurieren:
+Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Sauerstoff-Plug-in für Adobe Experience Manager Guides zu konfigurieren:
 
-1. Klicken Sie im Bedienfeld AEM Guides auf das Einstellungssymbol und wählen Sie dann **Einstellungen**.
+1. Klicken Sie im Bedienfeld &quot;AEM Guides&quot;auf das Einstellungssymbol und wählen Sie dann **Einstellungen** aus.
 
-   ![Verbindungsparameter ](images/settings.png){width="800" align="left"}
+   ![Verbindungseinstellungen ](images/settings.png){width="800" align="left"}
 
 1. Geben Sie die folgenden Details an:
-   - **Server-URL**: URL des AEM-Servers, beispielsweise:
+   - **Server-URL**: URL des AEM, z. B.:
 
      ```http
      http[s]://<host>:<port>
@@ -224,9 +224,9 @@ Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Sauer
      >
      >Wenn Ihr AEM-Server an Port 80 oder 443 bereitgestellt wird, müssen Sie ihn nicht in der URL angeben.
 
-   - **Authentifizierung:** Wählen Sie aus **Einfach \(Benutzername/Kennwort\)** oder **Webauthentifizierung**. Wenn Sie **Allgemein** Authentifizierung müssen Sie die **Benutzername** und **Passwort** im Dialogfeld &quot;Voreinstellungen&quot;.
+   - **Authentifizierung:** Wählen Sie aus **Einfach \(Benutzername/Kennwort\)** oder **Webauthentifizierung**. Wenn Sie die Authentifizierung **Einfach** auswählen, müssen Sie den Benutzernamen **3} und das Kennwort** 5} im Dialogfeld &quot;Voreinstellungen&quot;eingeben.****
 
-     Wenn Sie Webauthentifizierung auswählen, wird der Bildschirm AEM Anmeldung angezeigt. Geben Sie Ihre Anmeldedaten ein und klicken Sie auf **Anmelden** Schaltfläche. Bei erfolgreicher Anmeldung wird der Bildschirm AEM Anmeldung geschlossen und im Bedienfeld AEM Handbücher wird die Dateiliste vom AEM-Server angezeigt.
+     Wenn Sie Webauthentifizierung auswählen, wird der Bildschirm AEM Anmeldung angezeigt. Geben Sie Ihre Anmeldedaten ein und klicken Sie auf die Schaltfläche **Anmelden** . Bei erfolgreicher Anmeldung wird der Bildschirm AEM Anmeldung geschlossen und das Bedienfeld AEM Guides zeigt die Dateiliste vom AEM Server an.
 
    - **Verbindungs-Timeout**: Geben Sie die Zeit in Sekunden an, die der Client auf eine Antwort vom AEM-Server wartet. Wenn innerhalb der angegebenen Zeit keine Antwort vom Server empfangen wird, wird die Anfrage beendet. Der Standardwert ist 20 Sekunden.
 
@@ -234,7 +234,7 @@ Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Sauer
    - **Datei beim Auschecken öffnen**: Wenn diese Option aktiviert ist, werden die Dateien beim Auschecken geöffnet.
    - **Datei beim Einchecken schließen**: Wenn ausgewählt, werden die Dateien beim Einchecken geschlossen. Vor dem Schließen der Datei wird ein Popup angezeigt, in dem Sie die Versionskommentare angeben können.
    - **Dialogfeld &quot;Einchecken&quot;beim Schließen der Datei anzeigen**: Wenn diese Option aktiviert ist, wird beim Schließen einer Datei ein Popup-Fenster angezeigt. Im Popup-Fenster können Sie auswählen, ob Sie die Datei einchecken oder die Datei schließen möchten, ohne sie einzuchecken.
-   - **Datei für automatisches Auschecken beim Öffnen**: Wenn diese Option aktiviert ist, wird sie durch Doppelklicken auf eine Datei automatisch ausgecheckt und zur Bearbeitung geöffnet. Wenn die Datei bereits ausgecheckt ist, wird sie einfach zur Bearbeitung geöffnet. Wenn diese Option nicht ausgewählt ist, wird eine Datei, für die Sie keine Sperre haben, im schreibgeschützten Modus geöffnet.
+   - **Datei beim Öffnen automatisch auschecken**: Wenn diese Option aktiviert ist, wird sie durch Doppelklicken auf eine Datei automatisch ausgecheckt und zur Bearbeitung geöffnet. Wenn die Datei bereits ausgecheckt ist, wird sie einfach zur Bearbeitung geöffnet. Wenn diese Option nicht ausgewählt ist, wird eine Datei, für die Sie keine Sperre haben, im schreibgeschützten Modus geöffnet.
 1. Klicken Sie auf **OK**.
 
 ### Voreinstellung für die Profilattributanpassung und Dateinamen in Querverweisen {#id1827K0D0OHT}
@@ -243,27 +243,27 @@ Sie müssen die Voreinstellungen in der Oxygen XML Author konfigurieren, um das 
 
 Führen Sie die folgenden Schritte aus, um Profilattribute und Querverweise zu konfigurieren:
 
-1. Klicken Sie in Oxygen XML Author auf **Optionen** \> **Voreinstellungen**.
-1. Im **Dokumenttyp-Zuordnung** Registerkarte auswählen **DITA** und klicken Sie anschließend auf **Erweitern**.
+1. Klicken Sie in Oxygen XML Author auf **Options** \> **Preferences**.
+1. Wählen Sie auf der Registerkarte **Dokumenttyp-Zuordnung** die Option **DITA** und klicken Sie dann auf **Erweitern**.
 
-   ![Dokumenttyp-Zuordnung](images/document_type_association.png){width="650" align="left"}
+   ![Zuordnung des Dokumenttyps](images/document_type_association.png){width="650" align="left"}
 
-1. Im **Klassenpfad** Registerkarte auswählen `com.adobe.o2.connector` im **Übergeordnete Klassenlader vom Plug-in mit ID verwenden** angezeigt.
+1. Wählen Sie auf der Registerkarte **Klassenpfad** in der Dropdown-Liste **Parent Class Loader From Plugin with ID** verwenden die Option `com.adobe.o2.connector` aus.
 
    ![Registerkarte &quot;Klassenpfad&quot;](images/dita-extension.png){width="650" align="left"}
 
-1. Im **Erweiterungen** -Tab, nehmen Sie die folgenden Änderungen vor:
+1. Nehmen Sie auf der Registerkarte **Erweiterungen** die folgenden Änderungen vor:
 
-   - Klicks **Auswählen** neben dem **Erweiterungspaket** und wählen   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` im **Klasse** Liste. Klicken Sie auf **OK**.
+   - Klicken Sie auf **Choose** neben dem Bundle **Erweiterungen** und wählen Sie   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` in der Liste **Klasse**. Klicken Sie auf **OK**.
      ![Konfigurierte Erweiterung für DITA-Themen](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
-   - Klicks **Auswählen** neben dem **Listener für Autorenerweiterungsstatus** under **Individuelle Erweiterungen** und wählen `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` im **Klasse** Liste. Klicken Sie auf **OK**.
-   - Klicks **Auswählen** neben dem **Autor des benutzerdefinierten Attributwert-Editors** under **Individuelle Erweiterungen** und wählen `CustomValueEditor - com.adobe.o2.framework.extn` im **Klasse** Liste. Klicken Sie auf **OK**.
-   - Klicks **Auswählen** neben dem **Externe Autorenobjekteinfüge-Handler** under **Individuelle Erweiterungen** und wählen `CustomURLInsertionHandler - com.adobe.o2.ui ` im **Klasse** Liste. Klicken Sie auf **OK**.
+   - Klicken Sie auf **Choose** neben dem Listener für den Autorenerweiterungsstatus **unter** Individuelle Erweiterungen **und wählen Sie `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` in der Liste** Klasse **aus.** Klicken Sie auf **OK**.
+   - Klicken Sie neben dem Editor für benutzerdefinierten Attributwert für Autoren **auf** Auswählen **unter** Individuelle Erweiterungen **und wählen Sie `CustomValueEditor - com.adobe.o2.framework.extn` in der Liste** Klasse **aus.** Klicken Sie auf **OK**.
+   - Klicken Sie auf **Choose** neben dem Einfüge-Handler für externe Autorenobjekte **unter** Individuelle Erweiterungen **und wählen Sie `CustomURLInsertionHandler - com.adobe.o2.ui ` in der Liste** Klasse **aus.** Klicken Sie auf **OK**.
 
 
-   Der folgende Screenshot zeigt die konfigurierte **Erweiterung** Registerkarte für DITA-Themen:
+   Der folgende Screenshot zeigt die konfigurierte Registerkarte **Erweiterung** für DITA-Themen:
    <img src="images/dita-topic-extension-tab.png" alt="Konfigurierte Erweiterung für DITA-Themen" width="650" border="2px">
-1. Klicks **OK** in allen Dialogfeldern, um Ihre Änderungen zu speichern.
+1. Klicken Sie in allen Dialogfeldern auf **OK** , um Ihre Änderungen zu speichern.
 
 ### Konfigurieren der DITA Map-Erweiterung
 
@@ -271,33 +271,33 @@ Die Konfiguration der DITA-Map-Erweiterung ist erforderlich, um das Öffnen von 
 
 Führen Sie die folgenden Schritte aus, um die DITA Map-Erweiterung zu konfigurieren:
 
-1. Klicken Sie in Oxygen XML Author auf **Optionen** \> **Voreinstellungen**.
-1. Im **Dokumenttyp-Zuordnung** Registerkarte auswählen **DITA Map** und klicken Sie anschließend auf **Erweitern**.
-1. Im **Klassenpfad** Wählen Sie com.adobe.o2.connector im **Übergeordnete Klassenlader vom Plug-in mit ID verwenden** angezeigt.
-1. Im **Erweiterungen** -Tab, nehmen Sie die folgenden Änderungen vor:
-   - Klicks **Auswählen** neben dem **Erweiterungspaket** und wählen   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` im **Klasse** Liste. Klicken Sie auf **OK**.
+1. Klicken Sie in Oxygen XML Author auf **Options** \> **Preferences**.
+1. Wählen Sie auf der Registerkarte **Dokumenttyp-Zuordnung** die Option **DITA-Zuordnung** und klicken Sie dann auf **Erweitern**.
+1. Wählen Sie auf der Registerkarte **Klassenpfad** com.adobe.o2.connector in der Dropdown-Liste **Übergeordnete Klassenlader aus Plug-in mit ID verwenden** aus.
+1. Nehmen Sie auf der Registerkarte **Erweiterungen** die folgenden Änderungen vor:
+   - Klicken Sie auf **Choose** neben dem Bundle **Erweiterungen** und wählen Sie   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` in der Liste **Klasse**. Klicken Sie auf **OK**.
 
-   - Klicks **Auswählen** neben dem **Listener für Autorenerweiterungsstatus** under **Individuelle Erweiterungen** und wählen `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` im **Klasse** Liste. Klicken Sie auf **OK**.
+   - Klicken Sie auf **Choose** neben dem Listener für den Autorenerweiterungsstatus **unter** Individuelle Erweiterungen **und wählen Sie `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` in der Liste** Klasse **aus.** Klicken Sie auf **OK**.
 
-   - Klicks **Auswählen** neben dem **Externe Autorenobjekteinfüge-Handler** under **Individuelle Erweiterungen** und wählen `CustomURLInsertionHandler - com.adobe.o2.ui ` im **Klasse** Liste. Klicken Sie auf **OK**.
+   - Klicken Sie auf **Choose** neben dem Einfüge-Handler für externe Autorenobjekte **unter** Individuelle Erweiterungen **und wählen Sie `CustomURLInsertionHandler - com.adobe.o2.ui ` in der Liste** Klasse **aus.** Klicken Sie auf **OK**.
 
-   - Klicks **Auswählen** neben dem **Autor des benutzerdefinierten Attributwert-Editors** under **Individuelle Erweiterungen** und wählen `CustomValueEditor - com.adobe.o2.framework.extn` im **Klasse** Liste. Klicken Sie auf **OK**.
+   - Klicken Sie neben dem Editor für benutzerdefinierten Attributwert für Autoren **auf** Auswählen **unter** Individuelle Erweiterungen **und wählen Sie `CustomValueEditor - com.adobe.o2.framework.extn` in der Liste** Klasse **aus.** Klicken Sie auf **OK**.
 
-   - Klicks **Auswählen** neben dem **Referenzen-Resolver** under **Individuelle Erweiterungen** und wählen `CustomDITAMapReferenceResolver - com.adobe.o2` im **Klasse** Liste. Klicken Sie auf **OK**.
-   - *\(Optional\)* Wenn Sie beim Öffnen einer Zuordnungsdatei keine Verweise auflösen möchten, müssen Sie die folgende zusätzliche Konfiguration durchführen:
+   - Klicken Sie auf **Choose** neben dem **References resolver** unter **Individuelle Erweiterungen** und wählen Sie `CustomDITAMapReferenceResolver - com.adobe.o2` in der Liste **Klasse** aus. Klicken Sie auf **OK**.
+   - *\(Optional\)* Wenn Sie Verweise beim Öffnen einer Zuordnungsdatei nicht auflösen möchten, müssen Sie die folgende zusätzliche Konfiguration durchführen:
 
-   Der folgende Screenshot zeigt die konfigurierte **Erweiterung** tab:
+   Der folgende Screenshot zeigt die konfigurierte Registerkarte **Erweiterung**:
    <img src="images/dita-map-extension-tab.png" alt="Konfigurierte Erweiterung für DITA Map" width="650" border="2px">
 
-1. Klicks **OK** in allen Dialogfeldern, um Ihre Änderungen zu speichern.
+1. Klicken Sie in allen Dialogfeldern auf **OK** , um Ihre Änderungen zu speichern.
 
-## Arbeiten mit dem Sauerstoff-Plug-in für AEM Guides {#id1826JG00WY4}
+## Arbeiten mit dem Oxygen-Plug-in für AEM Guides {#id1826JG00WY4}
 
-### Bedienfeld &quot;AEM Guides&quot;
+### AEM Guides-Bedienfeld
 
-Der folgende Bildschirm zeigt das Bedienfeld AEM Guides .
+Der folgende Bildschirm zeigt das AEM Guides-Bedienfeld.
 
-![Connector-Bereich](images/connector-panel.png){width="550" align="left"}
+![Bedienfeld &quot;Connector&quot;](images/connector-panel.png){width="550" align="left"}
 
 **A**\) Zeigt die Suchleiste an.
 
@@ -305,48 +305,48 @@ Der folgende Bildschirm zeigt das Bedienfeld AEM Guides .
 
 **C**\) Der DAM-Ordner zeigt das AEM Repository an. Sie können die Ordneransicht erweitern und reduzieren.
 
-**D**\) Das Symbol Einstellungen \(Zahnrad\) mit den folgenden Optionen:
+**D**\) Das Einstellungssymbol \(Zahnrad\) mit den folgenden Optionen:
 
 - **Verbinden**: Wählen Sie diese Option, um eine Verbindung zum AEM-Server herzustellen. Die Option ist deaktiviert, wenn die XML-Autoreninstanz mit dem AEM Server verbunden ist.
-- **Aktualisieren**: Wählen Sie diese Option, um den aktuellen Status der Dateien und Ordner aus dem AEM Repository abzurufen.
+- **Aktualisieren**: Wählen Sie diese Option, um den neuesten Status der Dateien und Ordner aus dem AEM Repository abzurufen.
 
   >[!NOTE]
   >
-  >Achten Sie darauf, die Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie **Aktualisieren** -Option, erhalten Sie eine Warnung, um Ihre Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie Ihre Dateien nicht gespeichert haben, können Sie auf **Abbrechen** und speichern Sie sie.
+  >Achten Sie darauf, die Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie die Option **Aktualisieren** auswählen, erhalten Sie eine Warnung, Ihre Dateien zu speichern, bevor Sie sie aktualisieren. Wenn Sie Ihre Dateien nicht gespeichert haben, können Sie auf **Abbrechen** klicken und sie speichern.
 
 - **Einstellungen**: Sie können diese Option verwenden, um das Dialogfeld &quot;Allgemeine Voreinstellungen&quot;des Plug-ins zu öffnen.
 - **Abmelden**: Wählen Sie diese Option, um die AEM Serververbindung zu schließen. Diese Option ist nur verfügbar, wenn Sie den Webauthentifizierungsmodus verwenden.
 
 ### Kontextmenüfunktionen
 
-Die Funktionen des SauerstoffPlugins für AEM Guides sind verfügbar, wenn Sie mit der rechten Maustaste auf einen Ordner oder eine Datei im AEM-Repository klicken. Die für die Ordner verfügbaren Funktionen unterscheiden sich von den Dateien. Im Folgenden finden Sie eine vollständige Liste der Funktionen im Oxygen Plugin für AEM Guides-Kontextmenü:
+Die Funktionen des Sauerstoff-Plug-ins für AEM Guides sind verfügbar, wenn Sie mit der rechten Maustaste auf einen Ordner oder eine Datei im AEM-Repository klicken. Die für die Ordner verfügbaren Funktionen unterscheiden sich von den Dateien. Im Folgenden finden Sie eine vollständige Liste der Funktionen des Oxygen-Plug-ins für das AEM Guides-Kontextmenü:
 
 - **Öffnen**: Öffnet die ausgewählte Datei oder erweitert den ausgewählten Ordner.
-- **Öffnen in**: Sie können die ausgewählte Datei im Web Editor für AEM Handbücher, im Map Dashboard oder im Map Editor öffnen. Weitere Informationen zu diesen Optionen finden Sie unter [Öffnen Sie die Datei im Editor AEM Guides .](#id195GH0V30KX).
+- **Öffnen in**: Sie können die ausgewählte Datei im Web Editor, im Map-Dashboard oder im Map-Editor in AEM Guides öffnen. Weitere Informationen zu diesen Optionen finden Sie unter [Datei im AEM Guides-Editor öffnen](#id195GH0V30KX).
 - **Auschecken**: Prüft eine Datei aus AEM Repository. Weitere Informationen finden Sie unter [Auschecken von Dateien](#id195HC020TS4).
 - **Checkout mit abhängigen Elementen**: Prüft eine Datei mit ihren direkten Verweisen. Weitere Informationen finden Sie unter [Auschecken von Dateien](#id195HC020TS4).
-- **Checkout mit schreibgeschützten abhängigen Elementen**: Prüft die ausgewählte Datei mit den abhängigen Elementen. Sie können keine Änderungen an den abhängigen Dateien vornehmen. Weitere Informationen finden Sie unter [Auschecken von Dateien](#id195HC020TS4).
-- **Abbrechen des Auscheckens**: Bricht die ausgecheckte Datei ab, schließt die Datei aus dem Editor und setzt die Änderungen auf die letzte Version der auf dem Server gespeicherten Datei zurück.
-- **Aktualisieren**: Ruft bei einer Datei die neueste Kopie der Datei aus dem AEM-Repository ab. Für einen Ordner ruft er die Ordnerstruktur und den Status der Datei ab. Das bedeutet, dass eine Datei hinzugefügt wird und sie dann in der AEM Guides-Ansicht angezeigt wird. Wenn eine Datei auf AEM Server ausgecheckt wurde, zeigt die Aktualisierung in der Sauerstoffverfassungs-Autoreninstanz die Datei als ausgecheckt an. Dies aktualisiert jedoch nicht die Dateiliste im *In AEM Handbüchern ausgecheckte Dateien* Ansicht.
-- **Ausgecheckte Dateien aktualisieren**: Aktualisiert die Liste der ausgecheckten Dateien im *In AEM Handbüchern ausgecheckte Dateien* Ansicht. Wenn eine Datei auf AEM Server ausgecheckt wurde, wird durch eine Aktualisierung die Liste der ausgecheckten Dateien im *In AEM Handbüchern ausgecheckte Dateien* Ansicht. Wenn jedoch eine neue Datei hinzugefügt wurde oder sich der Status einer Datei geändert hat, wird sie nicht in der Baumstruktur der AEM Guides aktualisiert. Um den Status von Dateien auf AEM zu aktualisieren, müssen Sie eine Aktualisierung durchführen.
-- **Einchecken**: Prüft eine Datei, die Sie ausgecheckt haben. Weitere Informationen finden Sie unter [Einchecken einer Datei](#id182CF0J0FHS).
-- **Einchecken mit abhängigen Elementen**: Wenn Sie Dateien mit abhängigen Elementen ausgecheckt haben, checkt diese Option die Hauptdatei zusammen mit den abhängigen Elementen ein. Weitere Informationen finden Sie unter [Einchecken einer Datei](#id182CF0J0FHS).
+- **Mit schreibgeschützten abhängigen Elementen auschecken**: Prüft die ausgewählte Datei mit den abhängigen Elementen. Sie können keine Änderungen an den abhängigen Dateien vornehmen. Weitere Informationen finden Sie unter [Auschecken von Dateien](#id195HC020TS4).
+- **Auschecken abbrechen**: Bricht die ausgecheckte Datei ab, schließt die Datei aus dem Editor und setzt die Änderungen auf die letzte Version der auf dem Server gespeicherten Datei zurück.
+- **Aktualisieren**: Ruft im Fall einer Datei die neueste Kopie der Datei aus dem AEM-Repository ab. Für einen Ordner ruft er die Ordnerstruktur und den Status der Datei ab. Das bedeutet, dass eine Datei hinzugefügt wird und sie dann in der AEM Guides-Ansicht angezeigt wird. Wenn eine Datei auf AEM Server ausgecheckt wurde, zeigt die Aktualisierung in der Sauerstoffverfassungs-Autoreninstanz die Datei als ausgecheckt an. Dies aktualisiert jedoch nicht die Dateiliste in der Ansicht &quot;*Ausgecheckte Dateien in AEM Guides*&quot;.
+- **Ausgecheckte Dateien aktualisieren**: Aktualisiert die Liste der ausgecheckten Dateien in der Ansicht *Ausgecheckte Dateien in AEM Guides* . Wenn eine Datei auf AEM Server ausgecheckt wurde, wird durch eine Aktualisierung die Liste der ausgecheckten Dateien in der Ansicht &quot;*Ausgecheckte Dateien in AEM Guides*&quot;aktualisiert. Wenn jedoch eine neue Datei hinzugefügt oder der Status einer Datei geändert wurde, wird sie nicht in der AEM Guides-Strukturansicht aktualisiert. Um den Status von Dateien auf AEM zu aktualisieren, müssen Sie eine Aktualisierung durchführen.
+- **Einchecken**: Prüft eine Datei, die Sie ausgecheckt haben. Weitere Informationen finden Sie unter [Einchecken in einer Datei](#id182CF0J0FHS).
+- **Mit abhängigen Elementen einchecken**: Wenn Sie Dateien mit abhängigen Elementen ausgecheckt haben, checkt diese Option die Hauptdatei zusammen mit den abhängigen Elementen ein. Weitere Informationen finden Sie unter [Einchecken in einer Datei](#id182CF0J0FHS).
 - **Ordner erstellen**: Erstellt einen Ordner im AEM-Repository. Diese Option ist nur auf Ordnerebene verfügbar.
-- **Datei hochladen\(en\)**: Lädt einzelne oder mehrere Dateien hoch. Weitere Informationen finden Sie unter [Dateien und Ordner hochladen](#id195HC03F03J).
-- **Hochladen mit abhängigen Elementen**: Lädt DITA-Dateien \(XML, DITA, Book Map oder DITA Map\) mit den abhängigen Elementen hoch. Weitere Informationen finden Sie unter [Dateien und Ordner hochladen](#id195HC03F03J).
+- **Datei hochladen\(s\)**: Lädt einzelne oder mehrere Dateien hoch. Weitere Informationen finden Sie unter [Dateien und Ordner hochladen](#id195HC03F03J).
+- **Mit abhängigen Elementen hochladen**: Lädt DITA-Dateien \(XML, DITA, Book Map oder DITA Map\) mit den abhängigen Elementen hoch. Weitere Informationen finden Sie unter [Dateien und Ordner hochladen](#id195HC03F03J).
 - **Ordner hochladen**: Lädt einen Ordner in das AEM-Repository hoch. Weitere Informationen finden Sie unter [Dateien und Ordner hochladen](#id195HC03F03J).
-- **Zu Favoriten hinzufügen**: Fügt einen Ordner zum *Favoriten* Ordner im Bedienfeld &quot;AEM Guides&quot;. Es wird empfohlen, Ihren Arbeitsordner hier hinzuzufügen, was die Synchronisierung von Dateien und den Dateistatus von AEM erleichtert.
+- **Zu Favoriten hinzufügen**: Fügt einen Ordner zum Ordner *Favoriten* im AEM Guides-Bedienfeld hinzu. Es wird empfohlen, Ihren Arbeitsordner hier hinzuzufügen, was die Synchronisierung von Dateien und den Dateistatus von AEM erleichtert.
 - **Aus Favoriten entfernen**: Entfernt einen Ordner aus *Favoriten*. Weitere Informationen finden Sie unter [Favoriten hinzufügen oder entfernen](#id195HC04405P).
-- **Anzeigen von Metadaten**: Zeigt die Metadaten wie die DITA-Klasse, den Titel, den Typ, die UUID und andere mit einer Datei verknüpfte Informationen an. Weitere Informationen finden Sie unter [Metadaten einer Datei anzeigen](#id195GHN0H05C).
+- **Metadaten anzeigen**: Zeigt die Metadaten wie die DITA-Klasse, den Titel, den Typ, die UUID und andere mit einer Datei verknüpfte Informationen an. Weitere Informationen finden Sie unter [Metadaten einer Datei anzeigen](#id195GHN0H05C).
 - **Versionen anzeigen**: Zeigt den Versionsverlauf einer Datei an. Weitere Informationen finden Sie unter [Versionsverlauf einer Datei anzeigen](#id195GI000D5Q).
 
 ### Öffnen einer Datei in der XML-Autoreninstanz von Oxygen {#id195GHJ0A0UB}
 
 Nachdem Sie eine Verbindung zum AEM-Repository hergestellt haben, können Sie Dateien zur Bearbeitung in der XML-Autoreninstanz öffnen. Führen Sie die folgenden Schritte aus, um eine Datei zur Bearbeitung im Oxygen XML Author zu öffnen:
 
-1. Klicken Sie mit der rechten Maustaste auf eine Datei im Bedienfeld AEM Guides , die Sie zur Bearbeitung öffnen möchten.
+1. Klicken Sie im AEM Guides-Bedienfeld mit der rechten Maustaste auf eine Datei, die Sie zur Bearbeitung öffnen möchten.
 
-1. Auswählen **Öffnen** aus dem Kontextmenü aus.
+1. Wählen Sie **Öffnen** aus dem Kontextmenü.
 
    Die Datei wird im Editor der XML-Autoreninstanz von Oxygen geöffnet.
 
@@ -355,23 +355,23 @@ Nachdem Sie eine Verbindung zum AEM-Repository hergestellt haben, können Sie Da
    Wenn Sie den Mauszeiger über die Registerkarte einer Datei bewegen, wird Ihnen der Serverpfad zusammen mit der UUID angezeigt. Im obigen Screenshot wird die UUID des Dokuments hervorgehoben.
 
 
-Wenn Sie die **Datei für automatisches Auschecken beim Öffnen** Option \(im Dialogfeld Voreinstellungen\), wird die Datei beim Öffnen automatisch ausgecheckt und steht zur Bearbeitung zur Verfügung. Um eine Datei zu öffnen, können Sie entweder auf einen Dateinamen doppelklicken oder mit der rechten Maustaste auf den Dateinamen klicken und **Öffnen** aus dem Kontextmenü aus. Wenn diese Option nicht ausgewählt ist, wird die Datei im schreibgeschützten Modus geöffnet.
+Wenn Sie die Option &quot;**Automatische Checkout-Datei beim Öffnen**&quot;ausgewählt haben \(im Dialogfeld &quot;Voreinstellungen&quot;\), wird beim Öffnen einer Datei die Datei automatisch ausgecheckt und steht zur Bearbeitung zur Verfügung. Um eine Datei zu öffnen, können Sie entweder auf einen Dateinamen doppelklicken oder mit der rechten Maustaste auf den Dateinamen klicken und **Öffnen** aus dem Kontextmenü auswählen. Wenn diese Option nicht ausgewählt ist, wird die Datei im schreibgeschützten Modus geöffnet.
 
 >[!NOTE]
 >
 >Sie können auch auf eine Datei doppelklicken, um sie zu öffnen.
 
-### Öffnen Sie die Datei im Editor AEM Guides . {#id195GH0V30KX}
+### Datei im AEM Guides-Editor öffnen {#id195GH0V30KX}
 
-Wenn Sie die in AEM Handbüchern verfügbaren Editoren verwenden möchten, wählen Sie die gewünschte Option im Kontextmenü aus. Führen Sie die folgenden Schritte aus, um den Editor AEM Guides anstelle des Oxygen XML Author-Editors zu verwenden:
+Wenn Sie die in AEM Guides verfügbaren Editoren verwenden möchten, wählen Sie dazu die gewünschte Option im Kontextmenü aus. Führen Sie die folgenden Schritte aus, um den AEM Guides-Editor anstelle des Oxygen XML Author-Editors zu verwenden:
 
-1. Klicken Sie mit der rechten Maustaste auf eine Datei im Bedienfeld AEM Guides , die Sie zur Bearbeitung öffnen möchten.
+1. Klicken Sie im AEM Guides-Bedienfeld mit der rechten Maustaste auf eine Datei, die Sie zur Bearbeitung öffnen möchten.
 
-1. Auswählen **Öffnen in** Wählen Sie im Kontextmenü eine der folgenden Optionen aus:
+1. Wählen Sie im Kontextmenü die Option **Öffnen in** und wählen Sie eine der folgenden Optionen:
 
-   - **Web-Themen-Editor**: Wenn es sich bei der Datei, die Sie öffnen, um eine .xml - oder .dita -Datei handelt, können Sie sie zur Bearbeitung im Web Editor öffnen. Wählen Sie die **Web-Themen-Editor** -Option, um die ausgewählte Datei zur Bearbeitung im Web-Editor zu öffnen.
+   - **Web-Themen-Editor**: Wenn es sich bei der Datei, die Sie öffnen, um eine .xml- oder .dita-Datei handelt, können Sie sie zur Bearbeitung im Web-Editor öffnen. Wählen Sie die Option &quot;**Web-Themen-Editor**&quot;, um die ausgewählte Datei zur Bearbeitung im Web-Editor zu öffnen.
 
-   - **Zuordnungs-Dashboard**: Sie können eine .ditamap-Datei im Dashboard der Karte bearbeiten, in der Sie verschiedene Vorgänge für die Zuordnungsdatei ausführen können. Diese Vorgänge hängen von der Rolle/Gruppe ab, zu der Sie gehören.
+   - **Dashboard zuordnen**: Sie können eine .ditamap-Datei im Map-Dashboard bearbeiten, in der Sie verschiedene Vorgänge für die Zuordnungsdatei ausführen können. Diese Vorgänge hängen von der Rolle/Gruppe ab, zu der Sie gehören.
 
    - **Web DITA Map Editor**: Wenn Sie die .ditamap-Datei zur Bearbeitung im Map Editor öffnen möchten, wählen Sie diese Option. Mit der Option &quot;DITA Map Editor&quot;können Sie Themen hinzufügen oder entfernen, Beziehungstabellen hinzufügen und andere Vorgänge auf Ihrer Zuordnung durchführen.
 
@@ -381,19 +381,19 @@ Wenn Sie die in AEM Handbüchern verfügbaren Editoren verwenden möchten, wähl
 Wenn Sie eine Datei auschecken, wird sie lokal auf Ihrem System gespeichert und zur Bearbeitung im AEM Repository gesperrt. Führen Sie die folgenden Schritte aus, um eine Datei auszuchecken:
 
 1. Sie können Ihre Dateien auf eine der folgenden Arten auschecken:
-   - Klicken Sie im Bereich &quot;AEM Handbücher&quot;mit der rechten Maustaste auf eine Datei.
+   - Klicken Sie im AEM Guides-Bedienfeld mit der rechten Maustaste auf eine Datei.
    - Klicken Sie mit der rechten Maustaste auf die Registerkarte &quot;Zuordnung&quot;im Bereich &quot;DITA Maps Manager&quot;.
    - Klicken Sie mit der rechten Maustaste auf eine Datei im Bereich &quot;DITA Maps Manager&quot;.
    - Klicken Sie mit der rechten Maustaste auf die Registerkarte &quot;Datei&quot;, wenn Sie eine Zuordnung oder ein Thema im Editor öffnen.
 
 1. Wählen Sie eine der folgenden Optionen aus:
-   - **Checkout:** Checkt eine Datei aus AEM Repository aus und stellt sie zur Bearbeitung bereit.
-   - **Checkout mit abhängigen Elementen**: Prüft eine Datei mit ihren direkten Verweisen. Mit dieser Option können Sie Änderungen an übergeordneten und untergeordneten Seiten vornehmen. Das Sauerstoff-Plug-in für AEM Guides unterstützt das Auschecken einer Ebene von abhängigen Elementen. Beispiel: Zuordnung A verweist auf Thema A und Thema A verweist auf Thema B. Wenn Sie Karte A auschecken, wird Thema A unabhängig von der Ebene in der TOC-Hierarchie ausgecheckt. Themen B wird jedoch nicht überprüft, da es nicht direkt von Karte A aus verknüpft ist.
-   - **Checkout mit schreibgeschützten abhängigen Elementen**: Prüft eine Datei und lädt ihre abhängigen Elemente als schreibgeschützte Kopien auf Ihren lokalen Computer herunter. Sie können keine Änderungen an den abhängigen Dateien vornehmen.
+   - **Auschecken:** Prüft eine Datei aus AEM Repository und stellt sie zur Bearbeitung bereit.
+   - **Checkout mit abhängigen Elementen**: Prüft eine Datei mit ihren direkten Verweisen. Mit dieser Option können Sie Änderungen an übergeordneten und untergeordneten Seiten vornehmen. Das Sauerstoff-Plugin für AEM Guides unterstützt das Auschecken einer Ebene von abhängigen Elementen. Beispiel: Zuordnung A verweist auf Thema A und Thema A verweist auf Thema B. Wenn Sie Karte A auschecken, wird Thema A unabhängig von der Ebene in der TOC-Hierarchie ausgecheckt. Themen B wird jedoch nicht überprüft, da es nicht direkt von Karte A aus verknüpft ist.
+   - **Mit schreibgeschützten abhängigen Elementen auschecken**: Prüft eine Datei und lädt ihre abhängigen Elemente als schreibgeschützte Kopien auf Ihren lokalen Computer herunter. Sie können keine Änderungen an den abhängigen Dateien vornehmen.
 
-Wenn Sie die **Dateien beim Auschecken öffnen** Option \(im Dialogfeld Voreinstellungen\), wird die Datei beim Auschecken einer Datei automatisch zur Bearbeitung geöffnet.
+Wenn Sie die Option **Dateien beim Auschecken öffnen** ausgewählt haben \(im Dialogfeld &quot;Voreinstellungen&quot;\), wird beim Auschecken einer Datei die Datei automatisch zur Bearbeitung geöffnet.
 
-Wenn Sie die **Datei für automatisches Auschecken beim Öffnen** Option \(im Dialogfeld Voreinstellungen\), wird die Datei beim Öffnen automatisch ausgecheckt und zur Bearbeitung zur Verfügung gestellt. Um eine Datei zu öffnen, können Sie entweder auf einen Dateinamen doppelklicken oder mit der rechten Maustaste auf den Dateinamen klicken und **Öffnen** aus dem Kontextmenü aus.
+Wenn Sie die Option &quot;**Automatische Checkout-Datei beim Öffnen**&quot;ausgewählt haben \(im Dialogfeld &quot;Voreinstellungen&quot;\), wird beim Öffnen der Datei die Datei automatisch ausgecheckt und zur Bearbeitung bereitgestellt. Um eine Datei zu öffnen, können Sie entweder auf einen Dateinamen doppelklicken oder mit der rechten Maustaste auf den Dateinamen klicken und **Öffnen** aus dem Kontextmenü auswählen.
 
 Wenn eine Datei ausgecheckt wird, ändert sich das Symbol der Datei, um den Sperrstatus anzuzeigen.
 
@@ -409,18 +409,18 @@ Im obigen Screenshot wird eine von einem anderen Benutzer ausgecheckte Datei mit
 
 Wenn Sie eine Datei einchecken, wird die lokale Kopie von Ihrem System im AEM-Repository gespeichert und die Sperre in der Datei wird entfernt. Führen Sie die folgenden Schritte aus, um eine Datei einzuchecken:
 
-1. Speichern Sie die Datei, indem Sie auf **Datei** \> **Speichern**.
+1. Speichern Sie Ihre Datei, indem Sie auf **Datei** \> **Speichern** klicken.
 
 1. Klicken Sie mit der rechten Maustaste auf eine ausgecheckte Datei oder Zuordnung an einem der folgenden Speicherorte:
-   - Bedienfeld &quot;AEM Guides&quot;
+   - AEM Guides-Bedienfeld
    - Bedienfeld &quot;DITA Maps Manager&quot;
    - Registerkarte &quot;Datei&quot;, wenn Sie eine Zuordnung oder ein Thema im Editor öffnen.
    - Die Registerkarte &quot;Zuordnung&quot;im Bereich &quot;DITA Maps Manager&quot;.
 
 1. Wählen Sie aus den folgenden beiden Optionen:
 
-   - **Einchecken**: Checkt die ausgewählte Datei aus Ihrem lokalen System in AEM Repository ein.
-   - **Einchecken mit abhängigen Personen:** Wenn Sie eine Datei zusammen mit den abhängigen Elementen ausgecheckt haben, verwenden Sie diese Option, um alle abhängigen Dateien in einem Vorgang einzuchecken. Bei Auswahl dieser Option wird das Dialogfeld &quot;Einchecken&quot;mit allen abhängigen Dateien angezeigt. Klicken Sie auf OK , um alle Dateien gleichzeitig einzuchecken.
+   - **Einchecken**: Prüft die ausgewählte Datei von Ihrem lokalen System in AEM Repository.
+   - **Mit abhängigen Elementen einchecken:** Wenn Sie eine Datei zusammen mit den abhängigen Elementen ausgecheckt haben, verwenden Sie diese Option, um alle abhängigen Dateien in einem einzigen Vorgang einzuchecken. Bei Auswahl dieser Option wird das Dialogfeld &quot;Einchecken&quot;mit allen abhängigen Dateien angezeigt. Klicken Sie auf OK , um alle Dateien gleichzeitig einzuchecken.
 
    Wenn Sie die abhängigen Dateien nicht ausgecheckt haben und diese Option wählen, werden nur die abhängigen Dateien eingecheckt, die \(separat\) ausgecheckt haben. Ihnen wird eine Liste der Dateien angezeigt, die nicht eingecheckt werden konnten:
 
@@ -432,19 +432,19 @@ Wenn Sie eine Datei einchecken, wird die lokale Kopie von Ihrem System im AEM-Re
 
    Wenn Sie über AEM eine abhängige Datei eingecheckt haben, wird die Dateiliste in der Sauerstoff-Autoreninstanz erst aktualisiert, wenn Sie den Ordner &quot;Aktualisierte und ausgecheckte Dateien aktualisieren&quot;erstellt haben. Wenn Sie ein Check-in mit abhängigen Personen durchführen und einige Dateien über AEM einchecken, erhalten Sie eine Fehlerliste mit den Dateien, die nicht eingecheckt werden konnten.
 
-1. \(Optional\) Im **Einchecken** oder **Einchecken mit abhängigen Personen** Dialogfeld, Kommentar hinzufügen in **Versionskommentare** Textfeld.
+1. \(Optional\) Fügen Sie im Dialogfeld **Einchecken** oder **Einchecken mit abhängigen Elementen** im Textfeld **Versionskommentare** einen Kommentar hinzu.
 
    >[!NOTE]
    >
    >Dieser Kommentar wird im AEM Versionsverlauf der Datei angezeigt.
 
-1. Fügen Sie Titel im **Titel** Textfeld in der **Einchecken** oder **Einchecken mit abhängigen Personen** Dialogfeld . Geben Sie einen Titel ein und drücken Sie die Eingabetaste. Beispiel: *Version 2307*.
+1. Fügen Sie im Textfeld **Beschriftung** im Dialogfeld **Einchecken** oder im Dialogfeld **Einchecken mit abhängigen Elementen** Beschriftungen hinzu. Geben Sie einen Titel ein und drücken Sie die Eingabetaste. Beispiel: *Version 2307*.
 
-   Wenn Ihr Administrator eine vordefinierte Liste von Bezeichnungen verwendet und diese in die `label.json` -Datei, werden diese Beschriftungen als Dropdown-Liste angezeigt. Sie können eine oder mehrere Beschriftungen aus der Dropdown-Liste auswählen.
+   Wenn Ihr Administrator eine vordefinierte Liste von Bezeichnungen verwendet und diese in die Datei `label.json` hochgeladen hat, werden diese Bezeichnungen als Dropdown-Liste angezeigt. Sie können eine oder mehrere Beschriftungen aus der Dropdown-Liste auswählen.
 
    ![Dialogfeld &quot;Einchecken&quot;](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   Sie können derselben Version eines Themas mehrere Bezeichnungen (durch Kommas getrennt) hinzufügen.  Beispiel: *Adobe*, *AEM*, *Handbücher*.
+   Sie können derselben Version eines Themas mehrere Bezeichnungen (durch Kommas getrennt) hinzufügen.  Beispiel: *Adobe*, *AEM*, *Guides*.
 Sie können jedoch nicht dieselbe Bezeichnung zu den verschiedenen Versionen eines Themas hinzufügen. Wenn Sie eine Bezeichnung hinzufügen, die Sie bereits zu einer früheren Version hinzugefügt haben, wird diese der neuesten Version hinzugefügt und aus der früheren Version entfernt.
 
    >[!NOTE]
@@ -458,13 +458,13 @@ Sie können jedoch nicht dieselbe Bezeichnung zu den verschiedenen Versionen ein
 >
 >Wenn die ausgecheckte Datei gelöscht oder in einen anderen Ordner in AEM verschoben wird, erhalten Sie beim Einchecken der Datei eine Fehlermeldung. Vergewissern Sie sich, dass die ausgecheckte Datei nicht über die AEM Web-Oberfläche verschoben oder gelöscht wird.
 
-### Ausgecheckte Dateien in AEM Guides-Ansicht
+### In der AEM Guides-Ansicht ausgecheckte Dateien
 
-Wenn Sie mehrere Ordner haben, ist es nicht einfach herauszufinden, wie viele Dateien in einer Ansicht ausgecheckt werden. AEM Guides bieten die Option &quot;Ausgecheckte Dateien&quot;in AEM Guides-Ansicht, die eine vollständige Momentaufnahme der derzeit ausgecheckten Dateien liefert. Mithilfe dieser Ansicht können Sie mithilfe von AEM Handbüchern einfach herausfinden, welche Dateien von Ihnen in AEM Repository überprüft wurden. Führen Sie die folgenden Schritte aus, um auf diese Ansicht zuzugreifen und sie zu verwenden:
+Wenn Sie mehrere Ordner haben, ist es nicht einfach herauszufinden, wie viele Dateien in einer Ansicht ausgecheckt werden. AEM Guides bietet in der AEM Guides-Ansicht ausgecheckte Dateien, die eine vollständige Momentaufnahme der derzeit ausgecheckten Dateien liefert. Mithilfe dieser Ansicht können Sie einfach feststellen, welche Dateien von Ihnen in AEM Repository mithilfe von AEM Guides überprüft wurden. Führen Sie die folgenden Schritte aus, um auf diese Ansicht zuzugreifen und sie zu verwenden:
 
-1. Klicks **Fenster** \> **Anzeigen-Ansicht** \> **In AEM Handbüchern ausgecheckte Dateien**.
+1. Klicken Sie auf **Window** \> **Show View** \> **Files Checked-out in AEM Guides**.
 
-   Die Ansicht Dateien, die in AEM Guides ausgecheckt wurden, wird angezeigt.
+   Die Ansicht &quot;Files Checked-out in AEM Guides&quot;wird angezeigt.
 
    ![ausgecheckte Dateien](images/files-checkedout-view.png){width="550" align="left"}
 
@@ -478,11 +478,11 @@ Wenn Sie mehrere Ordner haben, ist es nicht einfach herauszufinden, wie viele Da
    - [Anzeigen von Metadaten](#id195GHN0H05C)
    - [Versionen anzeigen](#id195GI000D5Q)
 
-**Hinweise zu ausgecheckten Dateien in AEM Guides-Ansicht:**
+**Hinweise zu in der AEM Guides-Ansicht ausgecheckten Dateien:**
 
-- Die *In AEM Handbüchern ausgecheckte Dateien* In der Ansicht werden die Sitzungen des Benutzers verwaltet. Das bedeutet, dass Dateien, die vom aktuellen Benutzer ausgecheckt wurden, in der Ansicht über die Sitzungen desselben Benutzers hinweg gespeichert und gepflegt werden \(oder Cache\).
+- Die Ansicht &quot;*Ausgecheckte Dateien&quot;in AEM Guides*&quot;verwaltet die Benutzersitzungen. Das bedeutet, dass Dateien, die vom aktuellen Benutzer ausgecheckt wurden, in der Ansicht über die Sitzungen desselben Benutzers hinweg gespeichert und gepflegt werden \(oder Cache\).
 
-- Wenn der Benutzer die Anmeldedaten oder den AEM-Server ändert, werden die Daten der ausgecheckten Datei \(oder Cache\) in der Ansicht zurückgesetzt. Der Benutzer muss manuell eine *Ausgecheckte Dateien aktualisieren* -Befehl für jeden Ordner, aus dem die Dateien zuvor ausgecheckt wurden. Um dies zu vereinfachen, wird empfohlen, Ihre Arbeitsordner zu *Favoriten* von wo aus Sie schnell eine Ordneraktualisierung durchführen können.
+- Wenn der Benutzer die Anmeldedaten oder den AEM-Server ändert, werden die Daten der ausgecheckten Datei \(oder Cache\) in der Ansicht zurückgesetzt. Der Benutzer muss für jeden Ordner, aus dem die Dateien zuvor ausgecheckt wurden, manuell den Befehl *Ausgewählte Dateien aktualisieren* ausführen. Um dies zu vereinfachen, wird empfohlen, Ihre Arbeitsordner *Favoriten* hinzuzufügen, damit Sie schnell eine Ordneraktualisierung vornehmen können.
 
 - Sie können die Dateiliste nach Dateinamen, Titel oder Pfad sortieren. Wenn eine neue Datei ausgecheckt ist, wird die Datei in der Ansicht in sortierter Reihenfolge angezeigt.
 
@@ -491,17 +491,17 @@ Wenn Sie mehrere Ordner haben, ist es nicht einfach herauszufinden, wie viele Da
 
 Führen Sie die folgenden Schritte aus, um Dateien oder Ordner hochzuladen:
 
-1. Klicken Sie mit der rechten Maustaste auf einen Ordner im Bedienfeld AEM Handbücher .
+1. Klicken Sie im AEM Guides-Bedienfeld mit der rechten Maustaste auf einen Ordner.
 1. Wählen Sie eine der folgenden Optionen aus:
-   - **Datei hochladen\(en\)**: Wählen Sie diese Option, um einzelne oder mehrere Dateien in den ausgewählten Ordner im AEM-Repository hochzuladen. Wählen Sie im Dialogfeld Zu ladende Dateien auswählen die Dateien aus und klicken Sie auf **Öffnen**.
-   - **Hochladen mit abhängigen Elementen**: Wählen Sie diese Option, um eine DITA-Datei mit den abhängigen Elementen hochzuladen. Wählen Sie im Dialogfeld Zu ladende Datei auswählen die Dateien aus und klicken Sie auf **Öffnen**.
-   - **Ordner hochladen**: Wählen Sie diese Option, um einen Ordner in das AEM-Repository hochzuladen. Wählen Sie im Dialogfeld Auswählen den Ordner aus und klicken Sie auf **Auswählen**.
+   - **Datei hochladen\(s\)**: Wählen Sie diese Option, um einzelne oder mehrere Dateien in den ausgewählten Ordner im AEM-Repository hochzuladen. Wählen Sie im Dialogfeld Dateien auswählen \(s\) für den Upload die Dateien aus und klicken Sie auf **Öffnen**.
+   - **Mit abhängigen Elementen hochladen**: Wählen Sie diese Option, um eine DITA-Datei mit den abhängigen Elementen hochzuladen. Wählen Sie im Dialogfeld &quot;Select file to upload&quot;die Dateien aus und klicken Sie auf **Open**.
+   - **Ordner hochladen**: Wählen Sie diese Option, um einen Ordner in das AEM-Repository hochzuladen. Wählen Sie im Dialogfeld &quot;Auswählen&quot;den Ordner aus und klicken Sie auf **Choose**.
 
 **Zusätzliche Hinweise zum Arbeiten mit UUID-basierten Dateien**:
 
 Beim Verschieben oder Kopieren von Inhalten aus Ihrem lokalen System in AEM Repository müssen die folgenden Punkte berücksichtigt werden:
 
-- Beim Hochladen einer oder mehrerer Dateien wird für Dateien ohne UUID eine neue UUID generiert. Diese UUID wird im `topic id` einer DITA-Datei.
+- Beim Hochladen einer oder mehrerer Dateien wird für Dateien ohne UUID eine neue UUID generiert. Diese UUID wird im `topic id` einer DITA-Datei hinzugefügt.
 
 - Beim Kopieren eines Ordners werden die Verweise auf die Dateien \(im Ordner\) automatisch in allen DITA-Maps aktualisiert, die auf Dateien in diesem Ordner verweisen.
 
@@ -519,20 +519,20 @@ Beim Verschieben oder Kopieren von Inhalten aus Ihrem lokalen System in AEM Repo
 
 ### Favoriten hinzufügen oder entfernen {#id195HC04405P}
 
-Führen Sie die folgenden Schritte aus, um einen Ordner zum Ordner Favoriten im Bedienfeld AEM Handbücher hinzuzufügen oder zu entfernen:
+Führen Sie die folgenden Schritte aus, um einen Ordner zum Ordner Favoriten im AEM Guides-Bedienfeld hinzuzufügen oder zu entfernen:
 
-- Klicken Sie mit der rechten Maustaste auf einen Ordner und wählen Sie **Zu Favoriten hinzufügen**. Sie können einen Ordner zu Favoriten hinzufügen, wenn er nicht zu Favoriten gehört.
+- Klicken Sie mit der rechten Maustaste auf einen Ordner und wählen Sie **Zu Favoriten hinzufügen** aus. Sie können einen Ordner zu Favoriten hinzufügen, wenn er nicht zu Favoriten gehört.
 - Sie können Ordner auf folgende Weise aus Favoriten entfernen:
-   - Rechtsklicken Sie auf einen Ordner im **Favoriten** Ordner und auswählen **Aus Favoriten entfernen**.
-   - Klicken Sie mit der rechten Maustaste auf einen Ordner im AEM-Repository unter **DAM** Ordner, der bereits als Favorit hinzugefügt wurde, und wählen Sie **Aus Favoriten entfernen**.
+   - Klicken Sie mit der rechten Maustaste auf einen Ordner im Ordner **Favoriten** und wählen Sie **Aus Favoriten entfernen** aus.
+   - Klicken Sie mit der rechten Maustaste auf einen Ordner im AEM-Repository unter dem Ordner &quot;**DAM**&quot;, der bereits als Favorit hinzugefügt wurde, und wählen Sie &quot;**Aus Favoriten entfernen**&quot;.
 
 ### Versionsverlauf einer Datei anzeigen {#id195GI000D5Q}
 
 Führen Sie die folgenden Schritte aus, um den Versionsverlauf einer Datei anzuzeigen:
 
-1. Klicken Sie mit der rechten Maustaste auf eine Datei im Bedienfeld AEM Guides .
+1. Klicken Sie im AEM Guides-Bedienfeld mit der rechten Maustaste auf eine Datei.
 
-1. Auswählen **Versionen anzeigen** aus dem Kontextmenü aus.
+1. Wählen Sie **Versionen anzeigen** aus dem Kontextmenü.
 
    Der Versionsverlauf der Datei wird im Dialogfeld Versionen angezeigt.
 
@@ -543,76 +543,76 @@ Führen Sie die folgenden Schritte aus, um den Versionsverlauf einer Datei anzuz
 
 Führen Sie die folgenden Schritte aus, um die Metadaten einer Datei anzuzeigen:
 
-1. Klicken Sie mit der rechten Maustaste auf eine Datei im Bedienfeld AEM Guides .
+1. Klicken Sie im AEM Guides-Bedienfeld mit der rechten Maustaste auf eine Datei.
 
-1. Auswählen **Anzeigen von Metadaten** aus dem Kontextmenü aus.
+1. Wählen Sie **Metadaten anzeigen** aus dem Kontextmenü.
 
    Die Metadaten der Datei wie DITA-Klasse, Dokumentstatus, Änderungsdatum, Größe, Titel und UUID werden im Dialogfeld Metadaten angezeigt.
 
-   ![Anzeigen von Metadaten](images/metadata.png){width="550" align="left"}
+   ![Metadaten anzeigen](images/metadata.png){width="550" align="left"}
 
 
 ## Suchen nach einem Thema im AEM Repository {#id1826J20405Z}
 
-Sie können über die Suchleiste im Bedienfeld AEM Handbücher nach Themen im AEM Repository suchen. Sie können im gesamten DAM-Ordner suchen oder einen Ordner auswählen und dann nach einem Thema in diesem Ordner suchen. Das Suchergebnis zeigt die Themen an, deren Text mit Ihrer Suchabfrage übereinstimmt.
+Sie können über die Suchleiste im AEM Guides-Bereich nach Themen im AEM-Repository suchen. Sie können im gesamten DAM-Ordner suchen oder einen Ordner auswählen und dann nach einem Thema in diesem Ordner suchen. Das Suchergebnis zeigt die Themen an, deren Text mit Ihrer Suchabfrage übereinstimmt.
 
 Führen Sie die folgenden Schritte aus, um Themen zu suchen:
 
 1. Wählen Sie einen Ordner im AEM-Repository aus, in dem Sie nach einem Thema suchen möchten.
-1. Geben Sie die Suchabfrage ein \(z. B. `introduction`\) in der Suchleiste des Oxygen Plugins für AEM Guides.
+1. Geben Sie die Suchabfrage \(z. B. `introduction`\) in die Suchleiste des Sauerstoff-Plug-ins für AEM Guides ein.
 1. Klicken Sie auf die Suchschaltfläche oder drücken Sie die Eingabetaste.
 
-   Das Ergebnis wird auf der Registerkarte Suchergebnisse als Liste mit dem Dateipfad angezeigt. Wenn für Ihre Suchanfrage kein passendes Ergebnis vorliegt, werden in &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> angezeigt.
+   Das Ergebnis wird auf der Registerkarte Suchergebnisse als Liste mit dem Dateipfad angezeigt. Wenn für Ihre Suchabfrage kein passendes Ergebnis vorliegt, wird die Meldung &lt;Pfad des ausgewählten Ordners\> Keine Ergebnisse angezeigt.
 
    ![Ergebnisse der Suche](images/search.png){width="550" align="left"}
 
 1. \(Optional\) Doppelklicken Sie auf eine Datei im Suchergebnis, um sie in der XML-Autoreninstanz von Oxygen zu öffnen.
 1. Führen Sie einen der folgenden Schritte aus, um zur AEM Repository-Ansicht zurückzukehren:
-   - Um die AEM Repository-Ansicht anzuzeigen, ohne die Suchergebnisse zu löschen, klicken Sie auf **Durchsuchen** Registerkarte.
+   - Um die AEM Repository-Ansicht anzuzeigen, ohne die Suchergebnisse zu löschen, klicken Sie auf die Registerkarte **Durchsuchen** .
    - Um die Suchergebnisse zu löschen und das AEM Repository anzuzeigen, klicken Sie auf das Symbol Suche löschen .
 
 ## Öffnen Sie das DITA-Thema in der Oxygen XML Author über AEM Web-Oberfläche. {#id182CE0I905Z}
 
-Sie können Ihr DITA-Thema in der Oxygen XML Author über die AEM Web-Oberfläche öffnen und bearbeiten. Sie müssen ein Package in AEM installieren, um diese Option zu aktivieren. Weitere Informationen zur Paketinstallation finden Sie unter [Installieren Sie das Paket für die Aktivierung der Dokumentbearbeitungsfunktion über AEM Web-Oberfläche](#id182CE0Q0TY4).
+Sie können Ihr DITA-Thema in der Oxygen XML Author über die AEM Web-Oberfläche öffnen und bearbeiten. Sie müssen ein Package in AEM installieren, um diese Option zu aktivieren. Weitere Informationen zur Paketinstallation finden Sie unter [Installieren des Pakets für die Aktivierung der Dokumentbearbeitungsfunktion über AEM Web-Oberfläche](#id182CE0Q0TY4).
 
 >[!NOTE]
 >
->Die **In Sauerstoff bearbeiten** kann von verschiedenen Stellen in AEM aus aufgerufen werden: bei Auswahl eines Themas, bei der Vorschau eines Themas oder über die Registerkarte Themen und Berichte der DITA-Map-Konsole. Wenn Sie mehrere Themen auswählen, ist die Option nicht in der Symbolleiste sichtbar.
+>Die Option **In Sauerstoff bearbeiten** ist an verschiedenen Stellen in AEM verfügbar: bei Auswahl eines Themas, bei der Vorschau eines Themas oder auf der Registerkarte &quot;Themen und Berichte&quot;der DITA-Zuordnungskonsole. Wenn Sie mehrere Themen auswählen, ist die Option nicht in der Symbolleiste sichtbar.
 
-**DITA-Thema öffnen**
+**Öffnen eines DITA-Themas**
 
 Führen Sie die folgenden Schritte aus, um ein DITA-Thema in der XML-Autoreninstanz von Oxygen zu öffnen:
 
-1. Wählen Sie ein Thema in Ihren Assets aus und klicken Sie auf **In Sauerstoff bearbeiten** in der Symbolleiste.
+1. Wählen Sie ein Thema in Ihren Assets aus und klicken Sie in der Symbolleiste auf die Option **In Sauerstoff bearbeiten** .
 
    >[!NOTE]
    >
    >Wenn das Thema nicht ausgecheckt ist, wird es zunächst ausgecheckt und dann im Bearbeitungsmodus in Sauerstoff geöffnet.
 
-1. Wählen Sie Oxygen XML Author *&lt;version>* im **Launch-Anwendung** Meldungsfeld. Sie können **Meine Auswahl an AEM-Links speichern** -Option, um Ihre Voreinstellung zu speichern.
+1. Wählen Sie im Meldungsfeld **Launch Application** die Option &quot;XHTML-Autor *&lt;Version\>*&quot;. Sie können die Option **Meine Auswahl für AEM Links speichern** auswählen, um Ihre Voreinstellung zu speichern.
 
 **Bearbeiten eines DITA-Themas**
 
 Führen Sie die folgenden Schritte aus, um ein DITA-Thema in der Oxygen XML Author zu bearbeiten:
 
 1. Auswählen und Auschecken eines Themas in Ihren Assets.
-1. Klicks **In Sauerstoff bearbeiten** in der Symbolleiste.
+1. Klicken Sie in der Symbolleiste auf die Option **In Sauerstoff bearbeiten** .
 
    >[!NOTE]
    >
    >Wenn das Thema nicht ausgecheckt ist, wird es zunächst ausgecheckt und dann im Bearbeitungsmodus in Sauerstoff geöffnet.
 
-1. Wählen Sie Oxygen XML Author *&lt;version>* im **Launch-Anwendung** Meldungsfeld. Sie können **Meine Auswahl an AEM-Links speichern** -Option, um Ihre Voreinstellung zu speichern.
+1. Wählen Sie im Meldungsfeld **Launch Application** die Option &quot;XHTML-Autor *&lt;Version\>*&quot;. Sie können die Option **Meine Auswahl für AEM Links speichern** auswählen, um Ihre Voreinstellung zu speichern.
 1. Bearbeiten Sie das Thema in der Oxygen XML Author.
-1. Checken Sie das Thema aus dem Oxygen-Plug-in für AEM Guides ein.
+1. Checken Sie das Thema über das Oxygen-Plug-in für AEM Guides ein.
 
    Weitere Informationen zum Einchecken eines Themas mit dem Sauerstoff-Plug-in für AEM Guides finden Sie unter [Einchecken einer Datei](#id182CF0J0FHS).
 
    >[!NOTE]
    >
-   >Stellen Sie sicher, dass Sie das Thema mit dem Sauerstoff-Plug-in für AEM Guides einchecken. Wenn Sie über die AEM Web-Oberfläche einchecken, werden die Änderungen, die Sie in der Sauerstoff-XML-Autoreninstanz vornehmen, nicht in der eingecheckten Version des Themas gespeichert.
+   >Stellen Sie sicher, dass Sie das Thema mit dem Sauerstoff-Plugin für AEM Guides einchecken. Wenn Sie über die AEM Web-Oberfläche einchecken, werden die Änderungen, die Sie in der Sauerstoff-XML-Autoreninstanz vornehmen, nicht in der eingecheckten Version des Themas gespeichert.
 
-**Einfügen eines Verweises auf ein Thema aus dem Experience Manager Guides-Repository**
+**Fügen Sie einen Verweis auf ein Thema aus dem Experience Manager Guides-Repository ein**
 
 Sie können auch per Drag-and-Drop ein Thema einfügen, um die Referenz in ein Thema oder eine DITA-Zuordnung einzufügen.
 >[!NOTE]
@@ -622,34 +622,34 @@ Sie können auch per Drag-and-Drop ein Thema einfügen, um die Referenz in ein T
 Die folgenden Elemente werden basierend auf dem Typ der Verweise hinzugefügt:
 
 Wenn Sie mit einem geöffneten Thema zum Editor wechseln:
-- Eine Referenz wird hinzugefügt mit `<image>` -Element für die Bilder.
+- Eine Referenz mit dem Element `<image>` für die Bilder wird hinzugefügt.
 - Für ein Video oder eine Audioaufzeichnung wird ein Objektelement hinzugefügt.
-- Die `<xref>`  -Element für alle anderen Referenzen wie Thema, Zuordnung, DITAVAL, PDF, ZIP und XML hinzugefügt.
+- Das Element `<xref>` wird für alle anderen Verweise wie Thema, Zuordnung, DITAVAL, PDF, ZIP und XML hinzugefügt.
 
 Wenn Sie beim Editor oder DITA Maps-Manager mit geöffneter Karte ablegen:
-- Die `<mapref>` -Element für Zuordnungsverweise hinzugefügt, die eine DITA-Zuordnung, eine Lesekarte oder ein Subjekt-Schema enthalten.
-- Die `<topicref>` -Element für alle anderen Referenzen wie Thema, Zuordnung, DITAVAL, PDF, ZIP und XML hinzugefügt.
+- Das Element `<mapref>` wird für Zuordnungsverweise hinzugefügt, die eine DITA-Zuordnung, eine Bookmap oder ein Subject-Schema enthalten.
+- Das Element `<topicref>` wird für alle anderen Verweise wie Thema, Zuordnung, DITAVAL, PDF, ZIP und XML hinzugefügt.
 
 
 ## Arbeiten mit Attributprofilen {#id1827JA002YK}
 
-Mit AEM Guides können Sie bedingte Attribute mithilfe der relevanten DITA-Attribute einfach erstellen und zuordnen. Sie können bedingte Attribute auf globaler Ebene oder auf Ordnerebene definieren. Die global definierten Bedingungen sind für alle Projekte sichtbar und die Bedingungen auf Ordnerebene sind nur in Projekten sichtbar, die innerhalb des angegebenen Ordners erstellt wurden. Inhaltsautoren können diese bedingten Attribute verwenden, um Inhalte in ihren DITA-Themen oder -Maps, die sie erstellen oder verwenden, an Bedingungen zu knüpfen. Weitere Informationen zum Erstellen von bedingten Attributen in AEM mithilfe der AEM-Handbücher finden Sie unter *Bedingte Attribute für globale Profile oder Profile auf Ordnerebene konfigurieren* unter Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
+Mit AEM Guides können Sie bedingte Attribute mithilfe der entsprechenden DITA-Attribute einfach erstellen und zuordnen. Sie können bedingte Attribute auf globaler Ebene oder auf Ordnerebene definieren. Die global definierten Bedingungen sind für alle Projekte sichtbar und die Bedingungen auf Ordnerebene sind nur in Projekten sichtbar, die innerhalb des angegebenen Ordners erstellt wurden. Inhaltsautoren können diese bedingten Attribute verwenden, um Inhalte in ihren DITA-Themen oder -Maps, die sie erstellen oder verwenden, an Bedingungen zu knüpfen. Weitere Informationen zum Erstellen von bedingten Attributen in AEM mithilfe von AEM Guides finden Sie im Abschnitt *Bedingte Attribute für globale Profile oder Profile auf Ordnerebene konfigurieren* unter Installieren und Konfigurieren von Adobe Experience Manager Guides.
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass Sie die bedingten Attribute in AEM hinzugefügt und [Voreinstellung für die Profilattributanpassung](#id1827K0D0OHT) bevor Sie bedingte Attribute zu Ihrem Inhalt hinzufügen.
+>Stellen Sie sicher, dass Sie die bedingten Attribute in AEM hinzugefügt und [Voreinstellung für die Profilattributanpassung](#id1827K0D0OHT) festgelegt haben, bevor Sie bedingte Attribute zu Ihrem Inhalt hinzufügen.
 
 Führen Sie die folgenden Schritte aus, um Ihrem Inhalt in der XML-Autoreninstanz Bedingungsattribute hinzuzufügen:
 
-1. Checken Sie ein Thema aus und öffnen Sie es über *Sauerstoff-Plug-in für AEM Guides*.
+1. Checken Sie ein Thema aus und öffnen Sie es über das *Sauerstoff-Plug-in für AEM Guides*.
 1. Wählen Sie den Teil des Inhalts aus, auf den Sie die bedingten Attribute anwenden möchten.
 1. Doppelklicken Sie auf das bedingte Attribut im Bereich &quot;Attribute&quot;der XML-Autoreninstanz Oxygen .
 
-   ![Attributbedienfeld](images/attribute-panel.png){width="300" align="left"}
+   ![Attributbereich](images/attribute-panel.png){width="300" align="left"}
 
-1. Im **Verfügbar** im Dialogfeld &quot;Attribut bearbeiten&quot;das Attribut\(s\) auswählen und auf **Hinzufügen**.
+1. Wählen Sie in der Spalte **Verfügbar** des Dialogfelds &quot;Attribut bearbeiten&quot;das Attribut\(s\) aus und klicken Sie auf **Hinzufügen**.
 
-   Der folgende Bildschirm zeigt `audience` -Attribute.
+   Im folgenden Bildschirm werden die Attribute `audience` angezeigt.
 
    ![Dialogfeld &quot;Attribute bearbeiten&quot;](images/edit-attributes.png){width="550" align="left"}
 
@@ -662,39 +662,39 @@ Führen Sie die folgenden Schritte aus, um Ihrem Inhalt in der XML-Autoreninstan
 
 In diesem Thema werden einige der häufigsten Probleme behandelt, die bei der Arbeit mit dem Plug-in auftreten können, sowie deren Lösungen.
 
-### Bedienfeld AEM Guides fehlt {#id192BH200ZAX}
+### Fehlendes AEM Guides-Bedienfeld {#id192BH200ZAX}
 
-**Problem** - Wenn das Bedienfeld &quot;AEM Guides&quot;in der XML-Autoreninstanz nicht angezeigt wird, versuchen Sie die folgenden Lösungen:
+**Problem** - Wenn das AEM Guides-Bedienfeld in der XML-Autoreninstanz nicht angezeigt wird, versuchen Sie die folgenden Lösungen:
 
 Lösung 1:
 
 1. Aktivieren Sie in der XML-Autoreninstanz Oxygen das Plug-in.
 
-   Klicks **Optionen** \> **Voreinstellungen** \> **Plugins** und wählen **Sauerstoff-Plug-in für Adobe Experience Manager-Handbücher.**
+   Klicken Sie auf **Options** \> **Preferences** \> **Plugins** und wählen Sie **Oxygen Plugin for Adobe Experience Manager Guides** aus.
 
 1. Starten Sie die XML-Autoreninstanz von Oxygen neu.
 
 
 Lösung 2:
 
-1. Wenn das Bedienfeld &quot;AEM Guides&quot;immer noch nicht angezeigt wird, aktivieren Sie das Fenster AEM Guides .
+1. Wenn das Bedienfeld AEM Guides immer noch nicht angezeigt wird, aktivieren Sie das Fenster AEM Guides .
 
-   Klicken Sie in Oxygen XML Author auf **Fenster** \> **Anzeigen-Ansicht** \> **AEM**.
+   Klicken Sie in Oxygen XML Author auf **Window** \> **Show View** \> **AEM Guides**.
 
 Lösung 3:
 
-1. Deinstallieren Sie das Oxygen-Plug-in für Adobe Experience Manager-Handbücher und installieren Sie es erneut.
+1. Deinstallieren Sie das Oxygen-Plug-in für Adobe Experience Manager Guides und installieren Sie es erneut.
 
-   - Deinstallieren Sie unter Windows das Plug-in von **Programme hinzufügen oder entfernen** Liste. Installieren Sie dann das Plug-in neu.
+   - Deinstallieren Sie unter Windows das Plug-in aus der Liste **Programme hinzufügen oder entfernen** . Installieren Sie dann das Plug-in neu.
 
-   - Rufen Sie in Mac den Ordner aem-connector-x.x im Ordner &quot;plugins&quot;von Oxygen XML Author auf und verschieben Sie ihn in **Papierkorb**. Leeren Sie dann die **Papierkorb** Ordner.
+   - Rufen Sie in Mac den Ordner aem-connector-x.x im Ordner &quot;plugins&quot;von Oxygen XML Author auf und verschieben Sie ihn in **Papierkorb**. Leeren Sie dann den Ordner **Papierkorb** .
 
 
 ### Anschluss für DITA-OT-Transformation konfigurieren
 
 **Problem** - Wenn Sie eine DITA-OT-Transformation für Dateien ausführen, die vom Plug-in verarbeitet werden, schlägt die Transformation mit dem folgenden Fehler fehl:
 
-![Fehler bei DITA-OT-Transformation](images/proxy-server-path-error-new.png){width="800" align="left"}
+![Fehler bei der DITA-OT-Umwandlung](images/proxy-server-path-error-new.png){width="800" align="left"}
 
 **Lösung** - Dieses Problem wurde behoben, indem ein Proxy-Server zwischen DITA-OT und dem Plug-in hinzugefügt wurde. Dieser Proxy-Server verarbeitet und gibt alle Dateien weiter, die von DITA-OT für Umwandlungen angefordert werden. Der Standardanschluss, für den dieser Server konfiguriert wurde, ist: `5972`. Wenn Sie diesen Anschluss für einen anderen Server verwenden, können Sie einen anderen Anschluss für den Proxyserver angeben.
 
@@ -707,15 +707,15 @@ Führen Sie die folgenden Schritte aus, um den Standardanschluss des Proxyserver
 1. Starten Sie die XL-XML-Autoreninstanz neu und führen Sie die DITA-OT-Transformation aus.
 
 
-### AEM Bedienfeld &quot;Guides&quot;navigiert nicht zum Speicherort der geöffneten Datei
+### Das AEM Guides-Bedienfeld navigiert nicht zum Speicherort der geöffneten Datei
 
-Problem: Wenn Sie eine Datei zum Bearbeiten in der XML-Autoreninstanz von AEM Server aus öffnen, wird die Datei zur Bearbeitung in der XML-Autoreninstanz geöffnet. Das Bedienfeld AEM Guides zeigt jedoch nicht den Speicherort der Datei in der Navigationsstruktur an.
+Problem: Wenn Sie eine Datei zum Bearbeiten in der XML-Autoreninstanz von AEM Server aus öffnen, wird die Datei zur Bearbeitung in der XML-Autoreninstanz geöffnet. Das AEM Guides-Bedienfeld zeigt jedoch nicht den Speicherort der Datei in der Navigationsstruktur an.
 
 Lösung: Dieses Problem wurde in Szenarien beobachtet, in denen der Dateipfad /content/dam zweimal enthält. Standardmäßig werden alle Assets in AEM im Ordner /content/dam gespeichert. Wenn Sie eine Ordnerstruktur hochladen oder erstellen, die auch /content/dam enthält, wird dieses Problem beobachtet. Sie können alle normalen Vorgänge für diese Dateien ausführen, ihr Speicherort innerhalb der Navigationsstruktur wird jedoch nicht standardmäßig angezeigt. Um auf diese Datei in der Navigationsstruktur zuzugreifen, müssen Sie manuell zum Speicherort der Datei navigieren. Beachten Sie, dass in der Navigationsstruktur der doppelte Pfad /content/dam durch /content/assets ersetzt wird.
 
 ### Protokollierung konfigurieren
 
-Problem: Das Sauerstoff-Plug-in für AEM Guides generiert standardmäßig keine Protokolle, was das Debuggen von Fehlerszenarien erschwert.
+Problem: Standardmäßig generiert das Sauerstoff-Plug-in für AEM Guides keine Protokolle, was das Debuggen von Fehlerszenarien erschwert.
 
 Lösung: Führen Sie die folgenden Schritte aus, um die Logger für Adobe Xygen und JxBrowser einzurichten:
 
@@ -746,12 +746,12 @@ Lösung: Führen Sie die folgenden Schritte aus, um die Logger für Adobe Xygen 
    </configuration>   
    ```
 
-1. Speichern Sie die Datei im `Oxygen Author 25` Verzeichnis. (Der Pfad lautet beispielsweise: `C:\Program Files\Oxygen XML Author 25\logback.xml`)
+1. Speichern Sie die Datei im Verzeichnis &quot;`Oxygen Author 25`&quot;. (Der Pfad lautet beispielsweise: `C:\Program Files\Oxygen XML Author 25\logback.xml`)
 
-1. Schließen Sie die Datei. Dadurch werden Xygen-Protokolle aktiviert, die unter dem Pfad verfügbar sind: `${user.home}/Desktop/oxygenLog/oxygen.log`
-1. Öffnen Sie die `oxygenAuthor.bat` in einem Texteditor.
+1. Schließen Sie die Datei. Dadurch werden Xygen-Protokolle aktiviert, die unter dem folgenden Pfad verfügbar sind: `${user.home}/Desktop/oxygenLog/oxygen.log`
+1. Öffnen Sie die Datei &quot;`oxygenAuthor.bat`&quot; in einem Texteditor.
 1. Richten Sie JxBrowser-bezogene Protokolle ein, indem Sie den Parameter hinzufügen
-   `-Denable.aem.jx.log=true`. Dies ermöglicht JxBrowser-bezogene Protokolle, die Sie unter dem Pfad anzeigen können: `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`:
+   `-Denable.aem.jx.log=true`. Dadurch werden JxBrowser-bezogene Protokolle aktiviert, die Sie unter dem folgenden Pfad anzeigen können: `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`:
 
 
 

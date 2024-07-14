@@ -39,13 +39,13 @@ const value = this.getValue("key")
 ## Anzeigen
 
 Die Ansicht definiert die Benutzeroberfläche der App. Wir verwenden JSON-Dateien, um die Ansicht unserer Dateien zu definieren. In unserem Beispiel definieren wir die Komponenten, den CSS (wie in der Extraklasse der Komponenten angegeben) und rendern die im Modell gespeicherten Werte.
-In unserer App wird jede Ansicht mithilfe einer JSON definiert. Auf die JSONs wird anhand ihrer eindeutigen IDs verwiesen, die als `id`.
+In unserer App wird jede Ansicht mithilfe einer JSON definiert. Auf die JSONs wird mit ihren eindeutigen IDs, die als `id` bezeichnet werden, verwiesen.
 
 ## Controller
 
 Der Controller wird verwendet, um Ereignisse zu verarbeiten und die Daten zu verarbeiten. Der Controller wird verwendet, um Daten vom Server abzurufen und zu senden. Es ist die Schnittstelle zwischen dem, was auf der Benutzeroberfläche angezeigt und im Backend gespeichert wird.
 
-- Zum Festlegen von Werten bei der Initialisierung verwenden wir die `init` -Funktion.
+- Zum Festlegen von Werten bei der Initialisierung verwenden wir die Funktion `init` .
 - Um eine Methode zum Controller hinzuzufügen, verwenden wir die folgende Syntax:
 
 ```typescript
@@ -54,7 +54,7 @@ methodName: function(args){
 }
 ```
 
-Die `methodName` dient hier als `key` , um auf die Methode in der JSON-Datei (Ansicht) oder in anderen Funktionen zu verweisen
+Die `methodName` dient hier als `key`, um auf die Methode in der JSON (Ansicht) oder in anderen Funktionen zu verweisen
 
 - Um eine Methode im Controller aufzurufen, verwenden wir die Syntax
 
@@ -69,7 +69,7 @@ Wir fügen eine Schaltfläche hinzu, mit der der Beschriftungswert eines Klicks 
 
 ### Beispiel anzeigen
 
-Unten definieren wir die JSON für eine Schaltfläche, die einen dynamischen Text anzeigt, der im Modell unter dem Variablennamen gespeichert ist. `buttonLabel`.
+Unten definieren wir die JSON für eine Schaltfläche, die einen dynamischen Text anzeigt, der im Modell unter dem Variablennamen `buttonLabel` gespeichert ist.
 In diesem Beispiel ändert sich der Titel der Schaltfläche.
 
 ```JSON
@@ -83,7 +83,7 @@ In diesem Beispiel ändert sich der Titel der Schaltfläche.
 
 ### Modellbeispiel
 
-in diesem Fall `extraProps.buttonLabel` enthält den Titel der Schaltfläche
+In diesem Fall enthält `extraProps.buttonLabel` den Titel der Schaltfläche
 
 ### Controller-Beispiel
 

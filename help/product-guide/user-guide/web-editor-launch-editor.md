@@ -1,6 +1,6 @@
 ---
 title: Starten des Web Editors
-description: Erfahren Sie, wie Sie den Web-Editor über die AEM Navigationsseite, die AEM Assets-Benutzeroberfläche und die DITA-Zuordnungskonsole in AEM Handbüchern starten.
+description: Erfahren Sie, wie Sie den Web-Editor über die AEM Navigationsseite, die AEM Assets-Benutzeroberfläche und die DITA Map Console in AEM Guides starten.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
@@ -27,15 +27,15 @@ Wenn Sie sich bei AEM anmelden, wird Ihnen die Navigationsseite angezeigt:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Klicken Sie auf **Handbücher** -Link führt Sie direkt zum Web-Editor.
+Wenn Sie auf den Link **Handbücher** klicken, gelangen Sie direkt zum Webeditor.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 Da Sie den Web Editor gestartet haben, ohne eine Datei auszuwählen, wird ein leerer Web-Editor-Bildschirm angezeigt. Sie können eine Datei zur Bearbeitung aus AEM Repository oder Ihrer Favoriten-Sammlung öffnen.
 
-- Klicken Sie auf **Handbücher** Symbol (![](images/aem-guides-icon.png) ), um zur AEM Navigationsseite zurückzukehren.
+- Klicken Sie auf das Symbol **Guides** (![](images/aem-guides-icon.png) ), um zur AEM Navigationsseite zurückzukehren.
 
-- Die **Schließen** -Schaltfläche führt Sie je nach Setup zu einem Ziel:
+- Mit der Schaltfläche **Schließen** gelangen Sie je nach Einrichtung zu einem Ziel:
 
 
 
@@ -43,14 +43,14 @@ Da Sie den Web Editor gestartet haben, ohne eine Datei auszuwählen, wird ein le
 
   <summary> Cloud Services </summary>
 
-  Wenn Sie Cloud Service verwenden, klicken Sie auf die **Schließen** -Schaltfläche, um zur AEM Navigationsseite zurückzukehren.
+  Wenn Sie Cloud Service verwenden, klicken Sie auf die Schaltfläche **Schließen** , um zur AEM Navigationsseite zurückzukehren.
   </details>
 
   <details>
 
   <summary> On-Premise Software</summary>
 
-  Wenn Sie AEM On-Premise-Software-Handbücher (4.2.1 und höher) verwenden, klicken Sie auf die Schaltfläche **Schließen** rechts klicken, um zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche zurückzukehren.
+  Wenn Sie die On-Premise-Software von AEM Guides (4.2.1 und höher) verwenden, klicken Sie rechts auf die Schaltfläche **Schließen** , um zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche zurückzukehren.
 
   </details>
 
@@ -76,7 +76,7 @@ Ein anderer Speicherort, von dem aus Sie den Web Editor starten können, ist die
 
    >[!IMPORTANT]
    >
-   > Wenn Ihr Administrator die **Bearbeitung ohne Checkout deaktivieren** auswählen, müssen Sie die Datei vor der Bearbeitung auschecken. Wenn Sie die Datei nicht auschecken, wird die Bearbeitungsoption nicht angezeigt.
+   > Wenn Ihr Administrator die Option **Bearbeitung ohne Checkout deaktivieren** konfiguriert hat, müssen Sie die Datei vor der Bearbeitung auschecken. Wenn Sie die Datei nicht auschecken, wird die Bearbeitungsoption nicht angezeigt.
 
 1. Schließen Sie den Asset-Auswahlmodus und klicken Sie auf das Thema, das Sie bearbeiten möchten.
 
@@ -94,7 +94,7 @@ Ein anderer Speicherort, von dem aus Sie den Web Editor starten können, ist die
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Klicks **Bearbeiten** , um das Thema im Web-Editor zu öffnen.
+1. Klicken Sie auf **Bearbeiten** , um das Thema im Web-Editor zu öffnen.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
@@ -103,17 +103,17 @@ Ein anderer Speicherort, von dem aus Sie den Web Editor starten können, ist die
 
 Gehen Sie wie folgt vor, um den Web Editor über die DITA Map-Konsole zu öffnen:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu der DITA-Map-Datei, die das Thema enthält, das Sie bearbeiten möchten, und klicken Sie darauf.
+1. Navigieren Sie in der Assets-Benutzeroberfläche zu der DITA-Zuordnungsdatei, die das Thema enthält, das Sie bearbeiten möchten, und klicken Sie darauf.
 
    Die DITA-Map-Konsole wird angezeigt.
 
-1. Klicks **Themen**.
+1. Klicken Sie auf **Themen**.
 
    Eine Liste der Themen in der Zuordnungsdatei wird angezeigt. Die UUID der Themen wird unter dem Thementitel angezeigt.
 
 1. Wählen Sie die Themendatei aus, die Sie bearbeiten möchten.
 
-1. Klicks **Thema bearbeiten**.
+1. Klicken Sie auf **Thema bearbeiten**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
@@ -121,7 +121,7 @@ Gehen Sie wie folgt vor, um den Web Editor über die DITA Map-Konsole zu öffnen
 
    >[!IMPORTANT]
    >
-   > Wenn Ihr Administrator die **Bearbeitung ohne Checkout deaktivieren** auswählen, müssen Sie die Datei vor der Bearbeitung auschecken. Wenn Sie die Datei nicht auschecken, wird das Dokument im schreibgeschützten Modus im Editor geöffnet.
+   > Wenn Ihr Administrator die Option **Bearbeitung ohne Checkout deaktivieren** konfiguriert hat, müssen Sie die Datei vor der Bearbeitung auschecken. Wenn Sie die Datei nicht auschecken, wird das Dokument im schreibgeschützten Modus im Editor geöffnet.
 
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

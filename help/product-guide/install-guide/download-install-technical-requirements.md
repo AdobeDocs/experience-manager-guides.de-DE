@@ -1,6 +1,6 @@
 ---
 title: Technische Anforderungen
-description: Erfahren Sie mehr über die technischen Anforderungen für die Verwendung mit Adobe Experience Manager-Handbüchern.
+description: Erfahren Sie mehr über die technischen Anforderungen für die Zusammenarbeit mit Adobe Experience Manager Guides
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # Technische Anforderungen {#id213BCG003XA}
 
-Stellen Sie vor der Installation AEM Guides 4.4 sicher, dass Ihr System die folgenden technischen Anforderungen erfüllt:
+Stellen Sie vor der Installation von AEM Guides 4.4 sicher, dass Ihr System die folgenden technischen Anforderungen erfüllt:
 
 **Adobe Experience Manager**
 
@@ -43,4 +43,4 @@ Stellen Sie vor der Installation AEM Guides 4.4 sicher, dass Ihr System die folg
 - Google Chrome
 
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)

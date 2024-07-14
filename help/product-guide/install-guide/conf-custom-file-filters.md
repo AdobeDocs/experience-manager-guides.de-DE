@@ -28,9 +28,9 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierten Dateifiltero
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Navigieren Sie zu und öffnen Sie die `ui_config.json` in der Datei `apps` Knoten zur Bearbeitung.
+1. Navigieren Sie zur Datei &quot;`ui_config.json`&quot; und öffnen Sie sie im Knoten &quot;`apps`&quot;, um sie zu bearbeiten.
 
-1. Im `ui_config.json` -Datei, fügen Sie die Definition der Filter hinzu, die Sie hinzufügen möchten.
+1. Fügen Sie in der Datei `ui_config.json` die Definition der Filter hinzu, die Sie hinzufügen möchten.
 
    Das folgende Codefragment zeigt, wie zwei Filteroptionen hinzugefügt werden: DITA-Dateien und Bilddateien.
 
@@ -57,13 +57,13 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierten Dateifiltero
 
    - **title:**   Der Anzeigename des Filters. Dieser Titel wird als Filteroption im Dialogfeld zum Durchsuchen von Dateien angezeigt.
 
-   - **Eigenschaft:**   Die Eigenschaft, die in den Metadaten der Datei übereinstimmen soll. So lassen Sie beispielsweise nur die Dateien zu, bei denen die `dita_class` Metadaten in ihrer Eigenschaft verwendet der Eigenschaftsfilter &quot;`jcr:content/metadata/dita_class`&quot; als Wert.
+   - **property:**   Die Eigenschaft, die in den Metadaten der Datei übereinstimmen soll. Um beispielsweise nur Dateien zuzulassen, deren Eigenschaft die Metadaten `dita_class` enthält, nimmt der Eigenschaftsfilter den Wert &quot;`jcr:content/metadata/dita_class`&quot;an.
 
-   - **-Vorgang:**   Geben Sie &quot;`exists`&quot;, um für das Vorhandensein des im Eigenschaftsparameter angegebenen Werts zu stimmen.
+   - **operation:**   Geben Sie &quot;`exists`&quot;an, damit der Wert, der im Eigenschaftsparameter angegeben ist, für die Existenz gefunden wird.
 
-   Der zweite Filter ist für Bilddateien vorgesehen. Die Parameter ähneln dem ersten Filter mit Ausnahme der `value` -Parameter. Die `value` -Parameter verwendet ein Array von Bildtypen als Wert. Alle im Parameter value angegebenen Dateitypen werden gesucht und im Dialogfeld zum Durchsuchen von Dateien angezeigt. Alle anderen Dateitypen werden ignoriert.
+   Der zweite Filter ist für Bilddateien vorgesehen. Die Parameter ähneln dem ersten Filter mit Ausnahme des Parameters `value` . Der Parameter `value` verwendet ein Array von Bildtypen als Wert. Alle im Parameter value angegebenen Dateitypen werden gesucht und im Dialogfeld zum Durchsuchen von Dateien angezeigt. Alle anderen Dateitypen werden ignoriert.
 
-1. Speichern Sie die *ui\_config.json* und laden Sie den Web Editor neu.
+1. Speichern Sie die Datei *ui\_config.json* und laden Sie den Web Editor neu.
 
    Wenn Sie das Dialogfeld zum Durchsuchen der Datei starten, werden die in der Datei ui\_config.json konfigurierten Filteroptionen angezeigt.
 

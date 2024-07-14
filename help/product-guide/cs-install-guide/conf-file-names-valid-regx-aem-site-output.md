@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Gültige Dateinamen für AEM Site-Ausgabe konfigurieren {#id214GK0X0KXA}
 
-Ähnlich wie bei der Liste gültiger Dateinamenzeichen, die für DITA-Themen zulässig sind, können Sie auch eine Liste gültiger Dateinamenzeichen für AEM Site-Ausgabe konfigurieren. Einige der bekannten Zeichen, die in einer URL nicht zulässig sind, sind: ``'<>`@$``. Diese Zeichen werden so konfiguriert, dass sie automatisch in einen Unterstrich umgewandelt werden.`_`&quot;, wenn sie beim Generieren AEM Site-Ausgabedateinamen gefunden werden.
+Ähnlich wie bei der Liste gültiger Dateinamenzeichen, die für DITA-Themen zulässig sind, können Sie auch eine Liste gültiger Dateinamenzeichen für AEM Site-Ausgabe konfigurieren. Einige der bekannten Zeichen, die in einer URL nicht zulässig sind, sind: ``'<>`@$``. Diese Zeichen werden so konfiguriert, dass sie beim Generieren AEM Site-Ausgabedateinamen automatisch in einen Unterstrich &quot;`_`&quot;umgewandelt werden.
 
 Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden \(Eigenschaft\)-Details an, um gültige Zeichen in AEM Site-Ausgabe festzulegen:
 

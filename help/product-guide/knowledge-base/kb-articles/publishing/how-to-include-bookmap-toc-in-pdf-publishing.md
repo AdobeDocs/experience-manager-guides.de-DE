@@ -16,7 +16,8 @@ ht-degree: 0%
 
 ## Einrichten Ihrer Lesekarte
 
-Fügen Sie die `<toc>`  element: Innerhalb des Lesezeichens `<frontmatter>`-Element, suchen Sie die `<booklists>` -Element.  Nest a `<toc>` Element in `<booklists>` wie folgt:
+Fügen Sie das Element `<toc>` hinzu:
+Suchen Sie im `<frontmatter>` -Element Ihrer Bookmap nach dem Element `<booklists>` .  Verschachteln Sie ein `<toc>` -Element innerhalb von `<booklists>` wie folgt:
 
 ```
 <frontmatter>
@@ -27,7 +28,7 @@ Fügen Sie die `<toc>`  element: Innerhalb des Lesezeichens `<frontmatter>`-Elem
 </frontmatter>
 ```
 
-Die DITA-Spezifikation ermöglicht die Platzierung des Inhaltsverzeichnisses und der Leselisten innerhalb der `<backmatter>` -Abschnitt.
+Die DITA-Spezifikation ermöglicht auch die Platzierung des Inhaltsverzeichnisses und der Leselisten im Abschnitt `<backmatter>` .
 
 
 ```
@@ -80,7 +81,7 @@ Die Bestellung von TOC und anderen Booklists in PDF basiert nur auf der Lesezeic
 ![toc](../assets/publishing/toc.png)
 
 
-## FAQs
+## Häufig gestellte Fragen
 
 - ### Einbinden des Inhaltsverzeichnisses einer Ditamap in eine PDF
 
@@ -88,17 +89,17 @@ Ditamaps selbst verfügen nicht direkt über ein Inhaltsverzeichnis (TOC), wie e
 
 Wenn Sie Ditamap veröffentlichen, bietet Native PDF eine Funktion zum automatischen Generieren von TOC und Booklist . Sie können die Generierung von TOC in ditamap über die nativen PDF-Einstellungen aktivieren/deaktivieren.
 
-![Aktivieren Sie das Inhaltsverzeichnis deaktivieren .](../assets/publishing/pageorder.png)
+![Aktiviert &quot;TOC deaktivieren&quot;](../assets/publishing/pageorder.png)
 
 ## Zusätzliche Ressourcen :
 
 - [Dokumentation zum Layout nativer PDF-Designseiten](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Voraufgezeichnete native PDF-Grundlagen einer Expertensitzung](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Voraufgezeichnete native PDF-Grundlagen der Expertensitzung](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Posten in der AEM Guides-Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) für alle Abfragen.
+Post in der AEM Guides-Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) für alle Abfragen.
 
 
 

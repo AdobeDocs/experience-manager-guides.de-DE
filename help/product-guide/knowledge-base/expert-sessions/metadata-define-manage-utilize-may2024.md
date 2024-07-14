@@ -1,18 +1,18 @@
 ---
 title: Definieren, Verwalten, Verwenden - Metadaten
 description: Definieren, Verwalten und Verwenden von Metadaten
-source-git-commit: 876e512febc9a4529d70b96303af21917e41961f
+exl-id: 3ebcb752-ba73-4c4c-9340-125b1e984cd1
+source-git-commit: 73c12f4f7e426c0c62150fe20770fa3599e6d095
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 2%
 
 ---
 
-
 # Definieren, Verwalten und Verwenden von Metadaten
 
 Unabhängig davon, ob Sie die Organisation von Inhalten planen, Inhalte in verschiedene Typen kategorisieren oder für verschiedene Endbenutzergruppen veröffentlichen oder Inhalte für die Suche einer AI-Engine zur Verfügung stellen oder Endbenutzern die Möglichkeit geben, in verschiedenen Facetten zu suchen - Sie müssen Metadaten für Ihre Inhalte strategisch ausrichten.
-Mit Adobe Experience Manager-Handbüchern können Sie Metadaten für im System verwaltete Inhalte effektiv definieren, anwenden und verwenden. Wir werden in dieser Sitzung lernen, wie man das macht.
+Mit Adobe Experience Manager Guides können Sie Metadaten für im System verwaltete Inhalte effektiv definieren, anwenden und verwenden. Wir werden in dieser Sitzung lernen, wie man das macht.
 
 
 ## Sitzungsaufzeichnung
@@ -23,9 +23,9 @@ Mit Adobe Experience Manager-Handbüchern können Sie Metadaten für im System v
 ## Lichter
 
 - **Datum** - 9. Mai 2024
-- **Anzahl der TeilnehmerInnen** - 100+
+- **Anzahl der Teilnehmer** - 100+
 - **Dauer** - 60 Minuten
-- **Zielgruppe** - Kunden, Partner und Adobe-Mitarbeiter
+- **Audience** - Kunden, Partner und Adobe-Mitarbeiter
 
 ## Haupterkenntnisse
 
@@ -50,12 +50,12 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 ### Community-Forum
 
-- Informationen zu sitzungsspezifischen Community-Interaktionen auf dem Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Besuchen Sie für sitzungsspezifische Community-Interaktionen auf dem Experience League [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in folgenden Versionen AEM Handbücher verfügbar:
+> Die in dieser Sitzung angezeigten Funktionen sind in folgenden Versionen von AEM Guides verfügbar:
 > - März 2024 (für Cloud)
 > - 4.4 (für Nicht-Cloud)
 
@@ -63,4 +63,4 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 ## Kontakt
 
-Für alle Fragen senden Sie uns eine E-Mail unter <techcomm@adobe.com>
+Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>

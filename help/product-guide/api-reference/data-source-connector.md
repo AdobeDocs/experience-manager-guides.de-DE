@@ -23,7 +23,10 @@ Eine GET, die einen Datenquellen-Connector registriert.
 **Anforderungs-URL**:
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
-**Parameter**: |Name|Typ|Erforderlich|Beschreibung| |—|—|—|—|—| |`path`|Zeichenfolge|Ja|Eine Zeichenfolge, die auf einen Pfad im AEM Repository verweist. Es kann sich um einen Pfad im `/content/dam or /var/dxml`.|
+**Parameter**:
+|Name|Typ|Erforderlich|Beschreibung|
+|—|—|—|—|—|
+|`path`|String|Ja|Ein String, der auf einen Pfad im AEM Repository verweist. Es kann sich um einen Pfad im `/content/dam or /var/dxml`| handeln.
 
 **Beispiel**:\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`

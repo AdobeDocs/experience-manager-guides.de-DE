@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Dokumentstatus konfigurieren {#id181GB0400UI}
 
-Mit AEM-Handbüchern können Sie die Dokumentzustände für Ihre DITA-Themen entsprechend den Anforderungen Ihres Unternehmens definieren. Sie können verschiedene Status Ihres Dokuments von Anfang bis Ende definieren. Der erste Status kann beispielsweise Entwurf sein und zu Überprüfen, Genehmigt, Übersetzt und schließlich zu Veröffentlicht wechseln.
+Mit AEM Guides können Sie die Dokumentstatus für Ihre DITA-Themen entsprechend den Anforderungen Ihres Unternehmens definieren. Sie können verschiedene Status Ihres Dokuments von Anfang bis Ende definieren. Der erste Status kann beispielsweise Entwurf sein und zu Überprüfen, Genehmigt, Übersetzt und schließlich zu Veröffentlicht wechseln.
 
 Es gibt zwei Möglichkeiten, wie ein Thema von einem Status zum anderen übergehen kann: manuelle und automatische. Die in einem Profil definierten Dokumentstatus können zum manuellen Ändern des Dokumentstatus verwendet werden. Dies kann über die Seite Eigenschaften einer Themendatei erfolgen. Sie können auch definieren, wer das Dokument von einem Status in einen anderen verschieben kann. Ein Autor kann beispielsweise ein Dokument erstellen und der Standardstatus des Dokuments kann &quot;Entwurf&quot;lauten. Wenn der Autor das Dokument zur Überprüfung sendet, kann er den Dokumentstatus in &quot;In Überprüfung&quot;ändern. Der Überprüfer kann den Dokumentstatus basierend auf dem Überprüfungsprozess entweder zu Genehmigt oder zu Entwurf erneut ändern. Wenn das Dokument genehmigt ist, kann der Herausgeber den Dokumentstatus abhängig vom Workflow in Übersetzt oder Veröffentlicht ändern.
 
 >[!NOTE]
 >
-> Wenn ein Benutzer zum *Administratoren* -Gruppe kann der Benutzer den Status eines Dokuments von einem beliebigen Status ändern, unabhängig von den im System definierten Dokumentstatusübergängen.
+> Wenn ein Benutzer zur Gruppe *Administratoren* gehört, kann der Benutzer den Status eines Dokuments von einem beliebigen Status ändern, unabhängig von den im System definierten Dokumentstatusübergängen.
 
 ## Erstellen eines Dokumentstatus
 
-AEM Guides werden mit einer Reihe von Standarddokumentstatus ausgeliefert. Diese Status sind:
+AEM Guides wird mit einer Reihe von Standarddokumentstatus ausgeliefert. Diese Status sind:
 
 - Entwurf
 - Bearbeiten
@@ -37,38 +37,38 @@ Diese Standardstatus sind für alle DITA-Themen verfügbar, die unter DAM erstel
 
 Um Dokumentstatus mithilfe des Ordnerprofils zu erstellen, führen Sie die folgenden Schritte aus:
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
-1. Auswählen **Handbücher** aus der Liste der Tools.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
+1. Wählen Sie **Guides** aus der Liste der Tools aus.
 1. Klicken Sie auf die Kachel Dokumentstatus .
 
-   Die Seite &quot;Asset-Status&quot;wird angezeigt. Standardmäßig zeigt die Seite ein Standardprofil an.
+   Die Seite Assets-Status wird angezeigt. Standardmäßig zeigt die Seite ein Standardprofil an.
 
-1. Klicks **Profil erstellen** und geben Sie die folgenden Details ein:
+1. Klicken Sie auf **Profil erstellen** und geben Sie die folgenden Details ein:
    - Geben Sie im Feld Profil den Namen für das Profil ein.
    - Geben Sie den Pfad an, auf den Sie das neue Profil anwenden möchten.
-   - Geben Sie den Status des Dokuments im **Zugelassene Status** under **Staaten**. Die standardmäßigen Dokumentstatus sind &quot;Entwurf&quot;, &quot;Bearbeiten&quot;, &quot;In Review&quot;, &quot;Genehmigt&quot;und &quot;Fertig&quot;.
+   - Geben Sie die Status des Dokuments in den &quot;**Zulässige Status**&quot;unter &quot;**Status**&quot;an. Die standardmäßigen Dokumentstatus sind &quot;Entwurf&quot;, &quot;Bearbeiten&quot;, &quot;In Review&quot;, &quot;Genehmigt&quot;und &quot;Fertig&quot;.
 
-     Klicken Sie auf **Hinzufügen** Schaltfläche zum Hinzufügen eines Dokumentstatus.
+     Klicken Sie auf die Schaltfläche **Hinzufügen** , um einen Dokumentstatus hinzuzufügen.
 
       - Klicken Sie auf das Symbol Löschen , um einen Dokumentstatus zu löschen.
 
      >[!NOTE]
      >
-     > Löschen Sie keinen Dokumentstatus, wenn sich Dokumente noch in diesem Status befinden. Wenn Sie einen Dokumentstatus löschen, können Sie den Dokumentstatus solcher Dokumente nur ändern, wenn Sie zum *administrator* Benutzergruppe.
+     > Löschen Sie keinen Dokumentstatus, wenn sich Dokumente noch in diesem Status befinden. Wenn Sie einen Dokumentstatus löschen, können Sie den Dokumentstatus solcher Dokumente nur ändern, wenn Sie zur Benutzergruppe *administrator* gehören.
 
-   - Geben Sie den Anfangsstatus des Dokuments im **Startstatus**.
-   - Geben Sie den Endstatus des Dokuments im **Endzustand**.
-   - Geben Sie die Statustransition des Dokuments in **Von** und **nach** under **Statusübergang**.
+   - Geben Sie den Anfangsstatus des Dokuments im Ordner &quot;**Startstatus**&quot;an.
+   - Geben Sie den Endstatus des Dokuments im **Endstatus** an.
+   - Geben Sie den Statusübergang des Dokuments in **Von** und **bis** unter **Statusübergang** an.
 
-      - Geben Sie die Benutzer und Benutzergruppen an, die den Dokumentstatus in **Gruppen**.
+      - Geben Sie die Benutzer und Benutzergruppen an, die den Dokumentstatus in **Gruppen** ändern können.
 
-      - Klicken Sie auf **Hinzufügen** -Schaltfläche, um eine Statustransition hinzuzufügen.
+      - Klicken Sie auf die Schaltfläche **Hinzufügen** , um einen Statusübergang hinzuzufügen.
 
       - Klicken Sie auf das Symbol Löschen , um eine Statustransition zu löschen.
 
      >[!NOTE]
      >
-     > Löschen Sie keine Statusübergänge, wenn sich Dokumente noch in der `From` state. Wenn Sie eine Statustransition löschen, können Sie den Dokumentstatus solcher Dokumente nur ändern, wenn Sie zum *administrator* Benutzergruppe.
+     > Löschen Sie keine Statusübergänge, wenn die Dokumente noch den Status &quot;`From`&quot; aufweisen. Wenn Sie eine Statustransition löschen, können Sie den Dokumentstatus solcher Dokumente nur ändern, wenn Sie zur Benutzergruppe *administrator* gehören.
 
 1. Klicken Sie auf **Fertig**.
 
@@ -78,11 +78,11 @@ Je nach Anforderung können Sie eine Kopie eines vorhandenen Dokumentstatusprofi
 
 Um eine Kopie eines Dokumentstatusprofils zu erstellen, führen Sie die folgenden Schritte aus:
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
-1. Auswählen **Handbücher** aus der Liste der Tools.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
+1. Wählen Sie **Guides** aus der Liste der Tools aus.
 1. Klicken Sie auf die Kachel Dokumentstatus .
 
-   Die Seite &quot;Asset-Status&quot;wird angezeigt.
+   Die Seite Assets-Status wird angezeigt.
 
 1. Wählen Sie das zu duplizierende Dokumentstatusprofil aus und klicken Sie auf **Profil duplizieren**.
 1. Nehmen Sie die erforderlichen Änderungen vor und klicken Sie auf **Fertig**.
@@ -91,28 +91,28 @@ Um eine Kopie eines Dokumentstatusprofils zu erstellen, führen Sie die folgende
 
 >[!NOTE]
 >
-> Löschen Sie keine Dokumentstatus- oder Statusübergänge, wenn sich Dokumente noch im Status- oder Statusübergang befinden. Wenn Sie einen Status- oder Statusübergang löschen, können Sie den Dokumentstatus solcher Dokumente nur ändern, wenn Sie zum *administrator* Benutzergruppe.
+> Löschen Sie keine Dokumentstatus- oder Statusübergänge, wenn sich Dokumente noch im Status- oder Statusübergang befinden. Wenn Sie einen Status- oder Statusübergang löschen, können Sie den Dokumentstatus solcher Dokumente nur ändern, wenn Sie zur Benutzergruppe *administrator* gehören.
 
 Führen Sie die folgenden Schritte aus, um einen Dokumentstatus- oder Statusübergang aus einem Dokumentstatusprofil zu löschen:
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
-1. Auswählen **Handbücher** aus der Liste der Tools.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
+1. Wählen Sie **Guides** aus der Liste der Tools aus.
 1. Klicken Sie auf die Kachel Dokumentstatus .
 
-   Die Seite &quot;Asset-Status&quot;wird angezeigt.
+   Die Seite Assets-Status wird angezeigt.
 
 1. Wählen Sie das Dokumentstatusprofil aus, aus dem Sie den Dokumentstatus löschen möchten, und klicken Sie auf **Profil bearbeiten**.
-1. Löschen Sie den Dokumentstatus bzw. die Statustransition und klicken Sie auf **Fertig**.
+1. Löschen Sie den Dokumentstatus- oder Statusübergang und klicken Sie auf **Fertig**.
 
 ## Löschen von Dokumentstatusprofilen
 
 Um ein Dokumentenstatusprofil zu löschen, führen Sie die folgenden Schritte aus:
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
-1. Auswählen **Handbücher** aus der Liste der Tools.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
+1. Wählen Sie **Guides** aus der Liste der Tools aus.
 1. Klicken Sie auf die Kachel Dokumentstatus .
 
-   Die Seite &quot;Asset-Status&quot;wird angezeigt.
+   Die Seite Assets-Status wird angezeigt.
 
 1. Wählen Sie das zu löschende Dokumentstatusprofil aus und klicken Sie auf **Profil löschen**.
 
@@ -131,25 +131,25 @@ Führen Sie die folgenden Schritte aus, um die Änderung des Dokumentstatus zu a
    `<AEM_Server_URL>:<port>/workflow`
 
 1. Öffnen Sie einen Workflow auf der Workflow-Seite. Beispiel: Thema überprüfen.
-1. Auswählen **Prozessschritt** aus dem **Workflow** und ziehen Sie den Workflow per Drag-and-Drop in den AEM.
+1. Wählen Sie **Prozessschritt** aus dem Abschnitt **Workflow** des AEM-Dialogfelds und ziehen Sie den Workflow per Drag-and-Drop.
 
    ![](assets/process-step-workflow.png)
 
-1. Doppelklicken Sie auf den Prozess und öffnen Sie die **Schritt-Eigenschaften** angezeigt.
-1. Geben Sie die folgenden Details in die **Prozess** Registerkarte des Dialogfelds und klicken Sie auf OK:
-   - Auswählen **Dokumentstatus für jedes DAM-Asset festlegen** aus der Dropdown-Liste Prozess aus.
+1. Doppelklicken Sie auf den Prozess und öffnen Sie das Dialogfeld **Schritt-Eigenschaften** .
+1. Geben Sie die folgenden Details auf der Registerkarte **Prozess** des Dialogfelds ein und klicken Sie auf &quot;OK&quot;:
+   - Wählen Sie **Dokumentstatus für ein DAM-Asset festlegen** aus der Dropdown-Liste &quot;Prozess&quot;.
    - Aktivieren Sie das Kontrollkästchen Handler-Modus .
-   - Geben Sie den Namen des Dokumentstatus im **Argumente** Textfeld.
+   - Geben Sie den Namen des Dokumentstatus in das Textfeld **Argumente** ein.
 
      >[!NOTE]
      >
      > Vergewissern Sie sich, dass Sie den richtigen Dokumentstatus in das Textfeld Argument eingeben. Wenn Sie einen falschen Namen eingeben, wird für das Dokument der falsche Dokumentstatus festgelegt.
 
-1. Klicks **Speichern** , um den Workflow zu speichern.
+1. Klicken Sie auf **Speichern** , um den Workflow zu speichern.
 
 ## Genehmigungs-Workflow aktivieren
 
-AEM Guides bieten einen Arbeitsablauf für die Dokumentgenehmigung, mit dem Sie den Lebenszyklus Ihres Dokumententwicklungsprozesses steuern können. Führen Sie die folgenden Schritte aus, um den Genehmigungs-Workflow zu aktivieren:
+AEM Guides bietet einen Arbeitsablauf für die Dokumentgenehmigung, mit dem Sie den Lebenszyklus Ihres Dokumententwicklungsprozesses steuern können. Führen Sie die folgenden Schritte aus, um den Genehmigungs-Workflow zu aktivieren:
 
 1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
@@ -161,9 +161,9 @@ AEM Guides bieten einen Arbeitsablauf für die Dokumentgenehmigung, mit dem Sie 
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Navigieren Sie zu und öffnen Sie die `ui_config.json` in der Datei `apps` Knoten zur Bearbeitung.
+1. Navigieren Sie zur Datei &quot;`ui_config.json`&quot; und öffnen Sie sie im Knoten &quot;`apps`&quot;, um sie zu bearbeiten.
 
-1. Im `ui_config.json` Datei, aktivieren Sie die Validierungs-Workflow-Funktion, indem Sie die *Funktionen* wie unten gezeigt:
+1. Aktivieren Sie in der Datei `ui_config.json` die Funktion des Genehmigungsarbeitsablaufs, indem Sie den Abschnitt *features* wie unten gezeigt ändern:
 
    ```json
    "features":  

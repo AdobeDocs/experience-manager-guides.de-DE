@@ -2,7 +2,8 @@
 title: Liste
 description: Liste
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 333b5e24-efba-4a51-8f68-83b5d1d7daec
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 5%
@@ -34,8 +35,8 @@ const listJSON =  {
 },
 ```
 
-Normalerweise ist itemConfig ein `widget`. Weitere Informationen zu Widgets finden Sie unter [Widgets](../Widgets/basic-widget.md)
+Normalerweise ist itemConfig ein `widget`. Weitere Informationen zu Widgets finden Sie unter [Widgets](../Widgets/basic-widget.md) .
 
 Die gerenderte Liste sieht wie folgt aus:
 
-![Liste](./imgs/list.png "Liste")
+![list](./imgs/list.png "list")

@@ -17,13 +17,13 @@ Sie können eine Prüfungsaufgabe, die Ihnen zugewiesen ist, einem anderen Benut
 
 Beachten Sie, dass eine Neuzuweisung nur für Prüfer-Aufgaben und nicht für Eigentümeraufgaben durchgeführt werden kann.
 
-1. **Überprüfungsaufgabe**: Jede Aufgabe, die einem Prüfer für eine Überprüfung zugewiesen ist.
-1. **Eigentümeraufgabe**: Eine Aufgabe, die nur für den Eigentümer erstellt wird. Wenn Sie eine Prüfungsaufgabe erstellen und einem Überprüfer zuweisen, erhält der Inhaber auch eine Eigentümeraufgabe mit dem Namen &quot;Close &lt; Prüfungsaufgabe\> \(z. B. close-reviewtask1\)&quot;, aber diese Eigentümeraufgabe kann niemandem neu zugewiesen werden.
+1. **Überprüferaufgabe**: Jede Aufgabe, die einem Überprüfer für eine Überprüfung zugewiesen ist.
+1. **Owner task**: Eine Aufgabe, die nur für den Eigentümer erstellt wird. Wenn Sie eine Prüfungsaufgabe erstellen und einem Überprüfer zuweisen, erhält der Inhaber auch eine Eigentümeraufgabe mit dem Namen &quot;Close &lt; Prüfungsaufgabe\> \(z. B. close-reviewtask1\)&quot;, aber diese Eigentümeraufgabe kann niemandem neu zugewiesen werden.
 
 Führen Sie die folgenden Schritte aus, um eine Prüfungsaufgabe aus der Posteingangsbenachrichtigung erneut zuzuweisen:
 
 1. Wählen Sie die Benachrichtigung zur Prüfungsaufgabe im Posteingang aus.
-1. Auswählen **Neu zuweisen** Symbol oben.
+1. Wählen Sie oben das Symbol **Neu zuweisen** aus.
 1. Wählen Sie den Benutzernamen aus, dem Sie die Aufgabe erneut zuweisen möchten.
 
    >[!IMPORTANT]
@@ -32,7 +32,7 @@ Führen Sie die folgenden Schritte aus, um eine Prüfungsaufgabe aus der Postein
 
    ![](images/reassign-user-inbox.png){width="800" align="left"}
 
-1. Auswählen **Neu zuweisen**.
+1. Wählen Sie **Neu zuweisen** aus.
 
 Nachdem die Prüfungsaufgabe neu zugewiesen wurde, zeigt die Spalte Bevollmächtigter den Namen des Validierers an, dem die Aufgabe neu zugewiesen wurde.
 

@@ -1,6 +1,6 @@
 ---
-title: AEM deinstallieren
-description: Erfahren Sie, wie Sie AEM deinstallieren.
+title: AEM Guides deinstallieren
+description: Erfahren Sie, wie Sie AEM Guides deinstallieren
 exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# AEM deinstallieren {#id21BHG0C0SXA}
+# AEM Guides deinstallieren {#id21BHG0C0SXA}
 
-Sie können AEM Handbücher mit dem CRX Package Manager deinstallieren. Während der Deinstallation werden die Inhalte des Repositorys auf den Schnappschuss zurückgesetzt, der unmittelbar vor der Installation des Pakets erstellt wurde.
+Sie können AEM Guides mit dem CRX Package Manager deinstallieren. Während der Deinstallation werden die Inhalte des Repositorys auf den Schnappschuss zurückgesetzt, der unmittelbar vor der Installation des Pakets erstellt wurde.
 
-Führen Sie die folgenden Schritte aus, um AEM Handbücher zu deinstallieren:
+Führen Sie die folgenden Schritte aus, um AEM Guides zu deinstallieren:
 
 1. Melden Sie sich bei Ihrer AEM-Instanz an und navigieren Sie zum CRX Package Manager. Die Standard-URL für den Zugriff auf den Paketmanager lautet:
 
@@ -26,9 +26,9 @@ Führen Sie die folgenden Schritte aus, um AEM Handbücher zu deinstallieren:
 
 1. Suchen Sie nach dem com.adobe.fmdita -Paket.
 1. Klicken Sie auf das Paket, um es zu erweitern.
-1. Klicks **Mehr** , um das Dropdown-Menü zu öffnen.
-1. Klicks **Deinstallieren** und warten Sie, bis die Deinstallation abgeschlossen ist.
-1. Wenn Sie dieses Paket nicht mehr benötigen, klicken Sie auf **Löschen** nach der Deinstallation des Pakets.
+1. Klicken Sie auf **Mehr** , um das Dropdown-Menü zu öffnen.
+1. Klicken Sie auf **Deinstallieren** und warten Sie, bis die Deinstallation abgeschlossen ist.
+1. Wenn Sie dieses Paket nicht mehr benötigen, klicken Sie nach der Deinstallation des Pakets auf **Löschen** .
 
 ## Nach der Deinstallation
 
@@ -46,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um die Restdateien nach der Deinstallati
    http://<host>:<port>/libs/granite/ui/content/dumplibs.rebuild.html?back=true
    ```
 
-1. Klicks **Ungültiger Cache**.
+1. Klicken Sie auf **Cache invalidieren**.
 1. Bereinigen Sie den Cache des Browsers.
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)

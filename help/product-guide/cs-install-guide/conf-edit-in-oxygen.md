@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Konfigurieren der Bearbeitungsoption in Sauerstoff
 
-AEM Guides ermöglichen es den Benutzern auch, ihre DITA-Themen und DITA-Maps im Oxygen-Connector-Plugin zu bearbeiten.
+AEM Guides ermöglicht es Benutzern auch, ihre DITA-Themen und DITA-Maps im Oxygen-Connector-Plugin zu bearbeiten.
 
-Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden (Eigenschaft-)Details an, um die **In Sauerstoff bearbeiten** Option:
+Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden (Eigenschaftsdetails) an, um die Option **In Sauerstoff bearbeiten** zu konfigurieren:
 
 
 
@@ -28,4 +28,4 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 >
 > Diese Konfiguration ist standardmäßig deaktiviert und die Option ist im Web-Editor nicht verfügbar.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

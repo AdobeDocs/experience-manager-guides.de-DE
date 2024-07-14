@@ -1,5 +1,5 @@
 ---
-title: Erweiterungs-Framework von AEM Handbüchern - Anpassen der Web-Editor- und Überprüfungs-Benutzeroberfläche
+title: Erweiterungs-Framework von AEM Guides - Anpassen der Web-Editor- und Überprüfungs-Benutzeroberfläche
 description: Mit dem Framework für die Guides-Erweiterung können Sie die gewünschten Abschnitte der Review-Benutzeroberfläche oder des Web-Editors anpassen, indem Sie einfach zu aktualisierende JSON-, CSS- und JavaScript-Dateien verwenden.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
@@ -11,11 +11,11 @@ ht-degree: 1%
 
 ---
 
-# Erweiterungs-Framework von AEM Handbüchern: Anpassen der Web-Editor- und Überprüfungs-Benutzeroberfläche
+# Erweiterungs-Framework von AEM Guides: Anpassen der Web-Editor- und Überprüfungs-Benutzeroberfläche
 
-Bei der Arbeit in einem System ist es üblich, dass Unternehmen/Benutzer benutzerdefinierte Schaltflächen, Aktionen oder Informationen zur Erfüllung ihrer Vorgänge und zur Verbesserung ihrer Produktivität wünschen. Das Extension Framework bietet die Möglichkeit, benutzerdefinierte Pakete über AEM Handbücher zu erstellen, um die Benutzeroberfläche und ihr Verhalten zu erweitern. Diese benutzerdefinierten Pakete sind für Entwickler und Berater nützlich, um ihnen Erweiterbarkeit für die Komponenten in der Editor-/Überprüfungs-Benutzeroberfläche zu gewähren. Sie können Schaltflächen, Dialogfelder und Dropdown-Menüs auswählen und benutzerdefiniertes JavaScript hinzufügen, das einfach mit AEM Guides-Benutzeroberfläche interagieren kann.
+Bei der Arbeit in einem System ist es üblich, dass Unternehmen/Benutzer benutzerdefinierte Schaltflächen, Aktionen oder Informationen zur Erfüllung ihrer Vorgänge und zur Verbesserung ihrer Produktivität wünschen. Das Extension Framework bietet die Möglichkeit, benutzerdefinierte Pakete über AEM Guides zu erstellen, um die Benutzeroberfläche und ihr Verhalten zu erweitern. Diese benutzerdefinierten Pakete sind für Entwickler und Berater nützlich, um ihnen Erweiterbarkeit für die Komponenten in der Editor-/Überprüfungs-Benutzeroberfläche zu gewähren. Sie können Schaltflächen, Dialogfelder und Dropdown-Menüs auswählen und benutzerdefinierte JavaScript hinzufügen, die einfach mit der AEM Guides-Benutzeroberfläche interagieren können.
 
-In dieser Sitzung erfahren Sie mithilfe praktischer Szenarien, wie Sie die Benutzeroberfläche von Review und Webeditor AEM Handbüchern anpassen oder erweitern können.
+In dieser Sitzung erfahren Sie mithilfe praktischer Szenarien, wie Sie die Benutzeroberfläche von AEM Guides für Review und Webeditor anpassen oder erweitern.
 
 ## Sitzungsaufzeichnung
 
@@ -24,9 +24,9 @@ In dieser Sitzung erfahren Sie mithilfe praktischer Szenarien, wie Sie die Benut
 ## Lichter
 
 - **Datum** - 2. November 2023
-- **Anzahl der TeilnehmerInnen** - 119
+- **Anzahl der Teilnehmer** - 119
 - **Dauer** - 60 Minuten
-- **Zielgruppe** - Kunden, Partner und Adobe-Mitarbeiter
+- **Audience** - Kunden, Partner und Adobe-Mitarbeiter
 
 ## Haupterkenntnisse
 
@@ -45,18 +45,18 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 ## Verwandte Ressourcen
 
-- **Basis-Repository für Erweiterungs-Framework** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **Basis-Repository des Erweiterungs-Frameworks** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
 - **Dokumentation** - [auf Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Häufige Anwendungsfälle dokumentiert** - [auf Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Dokumentation häufiger Anwendungsfälle** - [auf Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **Öffentliches Repository mit Beispielen** - [auf GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Siehe Verzweigung sc-experte-session
 
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in folgenden Versionen AEM Handbücher verfügbar:
+> Die in dieser Sitzung angezeigten Funktionen sind in folgenden Versionen von AEM Guides verfügbar:
 > - Oktober 2023 (für Cloud)
 > - 4.3.x (für Nicht-Cloud)
 
@@ -64,4 +64,4 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 ## Kontakt
 
-Für alle Fragen senden Sie uns eine E-Mail unter <techcomm@adobe.com>
+Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>

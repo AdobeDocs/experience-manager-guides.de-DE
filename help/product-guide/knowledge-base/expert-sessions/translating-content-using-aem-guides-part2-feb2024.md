@@ -1,16 +1,17 @@
 ---
 title: Übersetzen von Inhalten in Handbüchern - Teil 2
 description: Erfahren Sie, wie Sie Ihre Inhalte in mehrere Sprachen übersetzen können.
-source-git-commit: 87fe100d312fafbfd5b336f7c5ca618bc20cdebb
+exl-id: b61d4432-62bf-4fb5-8264-ac50dc93215b
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 2%
 
 ---
 
-# Übersetzen von Inhalten mithilfe AEM Handbüchern - Teil 2
+# Übersetzen von Inhalten mit AEM Guides - Teil 2
 
-AEM Guides verfügen über leistungsstarke Funktionen, mit denen Sie Ihre Inhalte in mehrere Sprachen übersetzen können. Sowohl menschliche als auch maschinelle Übersetzungs-Workflows werden von AEM Guides unterstützt. In dieser Sitzung werden wir die neuesten Entwicklungen im Rahmen der Guides-Übersetzung untersuchen und die verfügbaren Framework-Mechanismen und den Übersetzungsprozess mit einer Live-Demo verstehen.
+AEM Guides verfügt über leistungsstarke Funktionen, mit denen Sie Ihre Inhalte in mehrere Sprachen übersetzen können. Sowohl Übersetzungs-Workflows als auch Workflows für maschinelle Übersetzung werden von AEM Guides unterstützt. In dieser Sitzung werden wir die neuesten Entwicklungen im Rahmen der Guides-Übersetzung untersuchen und die verfügbaren Framework-Mechanismen und den Übersetzungsprozess mit einer Live-Demo verstehen.
 
 
 ## Sitzungsaufzeichnung
@@ -20,9 +21,9 @@ AEM Guides verfügen über leistungsstarke Funktionen, mit denen Sie Ihre Inhalt
 ## Lichter
 
 - **Datum** - 29. Februar 2024
-- **Anzahl der TeilnehmerInnen** - 57
+- **Anzahl der Teilnehmer** - 57
 - **Dauer** - 60 Minuten
-- **Zielgruppe** - Kunden, Partner und Adobe-Mitarbeiter
+- **Audience** - Kunden, Partner und Adobe-Mitarbeiter
 
 ## Haupterkenntnisse
 
@@ -38,12 +39,12 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 - **Dokumentation** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
 
-- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter  [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Besuchen Sie für sitzungsspezifische Community-Interaktionen auf dem Experience League das [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in folgenden Versionen AEM Handbücher verfügbar:
+> Die in dieser Sitzung angezeigten Funktionen sind in folgenden Versionen von AEM Guides verfügbar:
 > - Dezember 2024 (für Cloud)
 > - 4.4 (für Nicht-Cloud)
 
@@ -51,4 +52,4 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 ## Kontakt
 
-Für alle Fragen senden Sie uns eine E-Mail unter <techcomm@adobe.com>
+Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>

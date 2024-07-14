@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Beachten Sie bei der Leistungsoptimierung die folgenden Punkte:
 
-- Informationen zur Optimierung von Inhalten und Indizierungsfunktionen finden Sie unter [Inhaltssuche und -indizierung optimieren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=de) in AEM Dokumentation.
+- Informationen zur Optimierung von Inhalten und Indizierung finden Sie unter [Inhaltssuche und -indizierung optimieren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=de) in AEM Dokumentation.
 
 - Patch Xerces Jar bei Verwendung von benutzerdefiniertem DITA-OT für die Veröffentlichung. Dies ist je nach Anwendungsfall eine obligatorische Konfiguration. Diese Änderung ist nur erforderlich, wenn Sie benutzerdefinierte DITA-OT für die Veröffentlichungsausgabe verwenden.
 
@@ -25,4 +25,4 @@ Beachten Sie bei der Leistungsoptimierung die folgenden Punkte:
   Diese Änderung reduziert die Veröffentlichungszeit und die Speicherauslastung beim Veröffentlichen von DITA-Maps mit einer großen Anzahl von Themen.
 
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)

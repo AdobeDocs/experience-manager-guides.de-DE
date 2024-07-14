@@ -19,4 +19,4 @@ Sie können Ausgaben in PDF, ePub, HTML und vielen anderen Formaten erstellen, d
 
 *Wenden Sie sich an Ihr Customer Success Team, um diese Funktion in der Umgebung aktivieren zu lassen. Dies ist im Rahmen der nativen Unterstützung nicht aktiviert.*
 
-**Übergeordnetes Thema:**[ Verfassen von Inhalten mit Desktop-Tools](author-desktop-tools.md)
+**Übergeordnetes Thema:**[ Autoreninhalt mit Desktop-Tools](author-desktop-tools.md)

@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise | Adobe Experience Manager-Handbücher as a Cloud Service, Version Mai 2022
-description: Adobe Experience Manager-Handbücher as a Cloud Service im Mai
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version Mai 2022
+description: Mai-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager-Handbücher as a Cloud Service im Mai
+# Mai-Version von Adobe Experience Manager Guides as a Cloud Service
 
 ## Aktualisierung auf die Mai-Version
 
-Aktualisieren Sie Ihre aktuellen Adobe Experience Manager-Handbücher as a Cloud Service (später als *AEM as a Cloud Service Guides*) einrichten, indem Sie die folgenden Schritte ausführen:
+Führen Sie die folgenden Schritte aus, um das aktuelle Adobe Experience Manager Guides-as a Cloud Service-Setup (später als *AEM Guides as a Cloud Service* bezeichnet) zu aktualisieren:
 1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren `<dox.version>` -Eigenschaft in `/dox/dox.installer/pom.xml` -Datei Ihres Cloud Service-Git-Codes auf 2022.5.144.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die as a Cloud Service Version der AEM im Mai zu aktualisieren.
+1. Aktualisieren Sie die Eigenschaft `<dox.version>` in der Datei `/dox/dox.installer/pom.xml` Ihres Cloud Service-Git-Codes auf 2022.5.144.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die AEM Guides-as a Cloud Services-Version vom Mai zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides as a Cloud Service vom Mai 2022 unterstützt werden.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von der AEM Guides as a Cloud Service-Version vom Mai 2022 unterstützt werden.
 
 ### FrameMaker und FrameMaker Publishing Server
 
@@ -35,7 +35,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 ### Sauerstoffanschluss
 
-| AEM-Handbücher für Cloud | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
+| AEM Guides as a Cloud-Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
 | --- | --- | --- |
 | 2022.5.0 | 2,6,9 | 2,6,9 |
 |  |  |  |
@@ -47,11 +47,11 @@ AEM Guides as a Cloud Service bietet viele Verbesserungen und neue Funktionen in
 
 ### Verbesserter Web-Editor
 
-* **Erstellen von Karten basierend auf benutzerdefinierten Vorlagen**
+* **Erstellen von Maps basierend auf benutzerdefinierten Vorlagen**
 
 Jetzt erhalten Sie die leistungsstarke Funktion, um benutzerdefinierte Kartenvorlagen zu erstellen. Sie können sie verwenden, um DITA-Maps zusammen mit den Themenvorlagen und Zuordnungsvorlagen zu erstellen, auf die in der Zuordnungsvorlage verwiesen wird.
 
-![Datenvorlagen](assets/dita-templates.png)
+![dita templates](assets/dita-templates.png)
 
 Sie können auch auf andere Zuordnungsvorlagen und Themenvorlagen aus der benutzerdefinierten Zuordnungsvorlage verweisen. Die referenzierten Zuordnungsvorlagen können sich auf verschiedene Zuordnungsvorlagen, Themenvorlagen, Themen, Zuordnungen, Bilder, Videos und andere Assets beziehen.
 
@@ -59,13 +59,13 @@ Sie können auch auf andere Zuordnungsvorlagen und Themenvorlagen aus der benutz
 
 Die benutzerdefinierte Kartenvorlage kann Ihnen dabei helfen, die Zuordnungsvorlagen und die gesamte referenzierte Ordnerstruktur einfach zu replizieren. Diese benutzerdefinierten Vorlagen sind besonders nützlich, um mehrere Karten mit rekursiven Strukturen und Referenzen zu erstellen und neu zu erstellen.
 
-* Die **Suchbegriff einfügen** wurde verbessert. Sie können jetzt einfacher einen Suchbegriff finden, der eingefügt werden soll, da die Suchbegriffe in alphabetischer Reihenfolge aufgelistet sind. Sie können auch nach Keywords suchen, indem Sie eine Suchzeichenfolge in das Suchfeld eingeben.
+* Die Funktion **Suchbegriff einfügen** wurde verbessert. Sie können jetzt einfacher einen Suchbegriff finden, der eingefügt werden soll, da die Suchbegriffe in alphabetischer Reihenfolge aufgelistet sind. Sie können auch nach Keywords suchen, indem Sie eine Suchzeichenfolge in das Suchfeld eingeben.
 
 ![Suchbegriff einfügen](assets/insert-keyword.png)
 
 * Jetzt werden die Dateien in der Repository-Ansicht in Batches geladen. Es werden 75 Dateien gleichzeitig geladen. Diese Stapelladung ist effizient und Sie können schneller auf die Dateien zugreifen, als alle in einem Ordner vorhandenen Dateien zu laden.
 
-![Laden weiterer Dateien](assets/load-more-files.png)
+![Mehr Dateien laden](assets/load-more-files.png)
 
 * Sie können SVG-Bilder rendern, die eingebettete Daten oder Links in allen Bildschirmen des XML-Editors enthalten, einschließlich, aber nicht beschränkt auf Vorschau und Autorenansicht.
 
@@ -73,14 +73,14 @@ Die benutzerdefinierte Kartenvorlage kann Ihnen dabei helfen, die Zuordnungsvorl
 
 ### Verbesserter Übersetzungsprozess
 
-* **Möglichkeit zur Erstellung eines Scoping-Übersetzungsprojekts**
-Wenn Sie nur den Bereich für die Übersetzung eines Projekts erstellen müssen, können Sie **Neues Scoping-Übersetzungsprojekt erstellen**. Dadurch werden die Kopien nicht zur Übersetzung gesendet und der ursprüngliche Übersetzungsstatus der Dateien wird beibehalten.
+* **Möglichkeit, ein Scoping-Übersetzungsprojekt zu erstellen**
+Wenn Sie nur den Umfang für die Übersetzung eines Projekts erstellen müssen, können Sie **Neues Scoping-Übersetzungsprojekt erstellen** auswählen. Dadurch werden die Kopien nicht zur Übersetzung gesendet und der ursprüngliche Übersetzungsstatus der Dateien wird beibehalten.
 
 ![Scoping-Übersetzungsprojekt](assets/scoping-translation-project.png)
 
 * Wenn Sie die Übersetzung für ein oder mehrere Themen in einem Übersetzungsauftrag ablehnen, wird der Status In Bearbeitung der Übersetzung aller abgelehnten Themen wieder auf den ursprünglichen Status zurückgesetzt.
 
-* Die **Sprachen** zeigt die Sprachordner sowie deren Sprachcodes an. Zum Beispiel Französisch (fr) und Deutsch (de).
+* In der Liste **Sprachen** werden die Sprachordner zusammen mit ihren Sprachcodes angezeigt. Zum Beispiel Französisch (fr) und Deutsch (de).
 
 * Die Übersetzungsfunktion unterstützt jetzt auch den Sprachcode, der sowohl Land als auch Sprache enthält. Zum Beispiel, `fr-fr`, `en-us`.
 
@@ -88,14 +88,14 @@ Wenn Sie nur den Bereich für die Übersetzung eines Projekts erstellen müssen,
 
 * Beim Laden einer DITA-Zuordnung, die sich außerhalb des Sprachordners befindet, wird keine Ausnahme am Backend protokolliert.
 
-Weitere Informationen zur Übersetzung finden Sie unter *Übersetzen von Dokumenten aus dem Web Editor* unter Verwenden von Adobe Experience Manager-Handbüchern as a Cloud Service.
+Weitere Informationen zur Übersetzung finden Sie im Abschnitt *Dokumente aus dem Web Editor übersetzen* unter Verwenden von Adobe Experience Manager Guides as a Cloud Service .
 
 
 ### Verbesserte Veröffentlichung
 
-* Sie können auch auf die **Dashboard veröffentlichen** im Tab Ausgaben , während Sie die Ausgabe aus dem Mapping-Dashboard generieren. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Dashboard veröffentlichen verfügbar.
+* Sie können auch über die Registerkarte &quot;Ausgaben&quot;auf das **Publish-Dashboard** zugreifen, während Sie die Ausgabe aus dem Mapping-Dashboard generieren. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Publish Dashboard verfügbar.
 
-![in die Warteschlange gestellte Ausgaben](assets/queued-output.png)
+![Ausgaben in der Warteschlange](assets/queued-output.png)
 
 * Im Landkarten-Dashboard können Sie mehrere DITAVAL-Dateien auswählen, um konditionalisierte Inhalte zu generieren. Sie können die Dateireihenfolge beibehalten, indem Sie Dateien hinzufügen oder löschen. Sie können auch mit dem Mauszeiger über den Dateinamen fahren, um den Pfad im AEM Repository anzuzeigen, in dem die Datei gespeichert ist.
 
@@ -108,7 +108,7 @@ Der XML-Editor bietet die Möglichkeit, einem Artikel mehrere Produktkategorien 
 
 ### Weitere Funktionsverbesserungen
 
-* Der Vorschaumodus unterstützt auch `deliveryTarget` bedingtes Verarbeitungsattribut in DITA. Er ist als Option im Dropdown-Filter zusammen mit **audience**, **platform**, **product**, Props, **otherprops**.
+* Der Vorschaumodus unterstützt auch das Attribut `deliveryTarget` für die bedingte Verarbeitung in DITA. Sie ist als Option im Dropdown-Filter zusammen mit **audience**, **platform**, **product**, props, **other props** verfügbar.
 * Es wurde die Option zur erzwungenen Synchronisation zwischen dem AEM-Server in Oxygen und dem lokalen System bereitgestellt.
 
 ## Behobene Probleme
@@ -117,23 +117,23 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 * Im Überprüfungsfenster des Webeditors kann der Benutzer nicht auf die Überprüfungskommentare antworten. (9667)
 * Das Programm wird beim Klicken auf einen leeren Ordner nach dem Aktualisieren über das Menü Optionen leer angezeigt. (9639)
-* Eine neue Version wird erstellt, wenn wir **Speichern und schließen** die eingecheckte Datei. (9638)
-* Die Schaltfläche Schließen wird nicht angezeigt, wenn **Als neue Version speichern** aktiviert ist. (9637)
+* Eine neue Version wird erstellt, wenn die eingecheckte Datei **Speichern und schließen** wird. (9638)
+* Die Schaltfläche &quot;Schließen&quot;wird nicht angezeigt, wenn das Kontrollkästchen **Als neue Version speichern** aktiviert ist. (9637)
 * Die richtige PDF wird nicht veröffentlicht, wenn sie zunächst über eine separate PDF für jedes Kapitel und dann über eine einzelne PDF-Datei veröffentlicht wird (separate PDF-Dateien erstellen ist deaktiviert). (9632)
 * Das Zuordnungs-Dashboard gibt für Benutzer, die keine Administratoren sind, ein Metadatenproblem aus. (9620)
 * Nachdem eine Grundlinie erstellt wurde, wird der Status in der Benutzeroberfläche auf &quot;Fehlgeschlagen&quot;(Abrufen des Statusaufrufs schlägt fehl) gesetzt, wenn der Server mehr als 10.000 Dateien hat. (9608)
 * Das Speichern großer Daten in Eigenschaften führt zu einem Veröffentlichungsfehler, da der Aufspaltungs-Veröffentlichungs-Workflow fehlschlägt. (9586)
-* Der Status &quot;Bedingte Attribute: Filter&quot;wird beim Wechseln zwischen Vorschau und Quelle nicht beibehalten. (9553)
-* Der Name der Lesekarte wird in der Repository-Ansicht leer angezeigt, falls kein Name über die `mainbooktitle` -Tag. (9538)
+* Der Status &quot;Bedingte Attribute: Filter&quot;wird beim Wechseln zwischen Vorschau und Source nicht beibehalten. (9553)
+* In der Repository-Ansicht wird der Name der Lesekarte leer angezeigt, falls kein Name über das Tag `mainbooktitle` angegeben wird. (9538)
 * HTTP 400-Fehler tritt beim Öffnen einer mit Sauerstoff hochgeladenen Datei auf. (9535)
 * Die Vorgaben einer zuvor geöffneten Karte bleiben beim Öffnen einer Karte ohne definierte Vorgaben auf der Registerkarte &quot;Ausgabe&quot;sichtbar. (9523)
 * Die Suchfunktion für Tags und Attribute funktioniert nicht im Bedienfeld &quot;Kontur&quot;. (9506)
 * Neu erstellte Sammlung ist erst sichtbar, nachdem der Browser aktualisiert wurde. (9505)
 * Beschriftungen für bedingte Attribute (nicht die Werte) werden beim Hinzufügen aller Bedingungen über die Option &quot;Alle Eigenschaften hinzufügen&quot;im Quellmodus angezeigt. (9501)
 * Dateien werden beim Zurücksetzen auf eine beliebige Version automatisch ausgecheckt. (9482)
-* Beim Zurücksetzen einer Dateiversion werden in der Assets-Benutzeroberfläche falsche Unterschiede beim Zeitstempel angezeigt. (9480)
+* Beim Wiederherstellen einer Dateiversion werden in der Benutzeroberfläche von Assets falsche Zeitstempelunterschiede angezeigt. (9480)
 * Beim Einfügen von Elementen in das topicref -Element der DITA-Zuordnung werden mehrere Elemente aus Suchergebnissen hinzugefügt. 9474
-* Wenn die Einstellung **Neue Version für hochgeladene Datei erstellen** auf &quot;ON&quot;gesetzt ist, wird eine neue Version erstellt, wenn auf einem beliebigen eingefrorenen Knoten der Modus zurückgesetzt und gespeichert wird. (9473)
+* Wenn die Einstellung &quot;**Neue Version für hochgeladene Datei erstellen**&quot;aktiviert ist, wird beim Wiederherstellen und Speichern auf einem beliebigen eingefrorenen Knoten eine neue Version erstellt. (9473)
 * Der Anzeigetext der Schlüsselreferenz und der Inhaltsschlüsselreferenz wird beim Ändern der Link-URL nicht beibehalten, wenn beim Definieren der Schlüsselreferenz kein Anzeigetext hinzugefügt wird. 9458
 * Im Versionsverlauf werden Versionsnummer und Titel für die aktuelle Version nicht angezeigt. (9446)
 * Der Editor friert ein, wenn bestimmte Inhaltsdateien im Editor geöffnet werden. (9443)
@@ -144,12 +144,12 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Fehler wird bei der Erstellung neuer Inhalte immer protokolliert. (9388)
 * Neu erstellte DITA-Assets werden immer von einem anderen Benutzer ausgecheckt. (9387)
 * Das Umbenennen eines Elements funktioniert beim Konvertieren von topicref in glossref nicht ordnungsgemäß. (9380)
-* Versionsbeschriftung wird nicht als Dropdown-Liste angezeigt in **Als neue Version speichern** angezeigt. (9379)
-* Bedingungen werden beim Wechseln zwischen verschiedenen Versionen von nicht angewendet **Diff anzeigen** Dropdown. (9366)
+* Die Versionsbeschriftung wird nicht als Dropdown-Liste im Dialogfeld **Als neue Version speichern** angezeigt. (9379)
+* Beim Wechseln zwischen verschiedenen Versionen aus dem Dropdown-Menü **Unterschiede anzeigen** werden keine Bedingungen angewendet. (9366)
 * Bei der Verwendung von Vorschaufiltern treten mehrere Probleme auf. (9365)
 * Nicht-DITA- und DITAVAL-Assets können nicht in topicref eingefügt werden. (9363)
-* Die validierte Übersetzung wird nicht in die Zielsprache integriert, wenn der Zielsprachcode fünf Zeichen enthält, z. B. `fr_ca`. 9357
-* Es ist nicht möglich, Dateien mit **Suchen von Dateien im Ordner** aus dem **Weitere Optionen** und die App reagiert nicht mehr. (9337)
+* Die genehmigte Übersetzung wird nicht in die Zielsprache integriert, wenn der Zielsprachcode fünf Zeichen wie `fr_ca` enthält. 9357
+* Es ist nicht möglich, Dateien mithilfe von **Dateien im Ordner suchen** aus dem Menü **Mehr Optionen** zu suchen, und die App reagiert nicht mehr. (9337)
 * Das Dialogfeld &quot;Durchsuchen&quot;hängt, wenn eine große Anzahl von Schlüsseln vorhanden ist. (9332)
 * DITAVAL-Dateien funktionieren nicht bei der artikelbasierten Veröffentlichung. (9330)
 * Die Reihenfolge der Fußnoten ist in der Ausgabe der AEM Site falsch. (9327)
@@ -165,16 +165,16 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Beim erneuten Laden des Ordnerprofils treten Erlebnis- oder Funktionsprobleme auf. (9103)
 * Beim Löschen des Seitenlayout-Editors wird er nicht im mittleren Bereich der Autorenansicht geschlossen. (9087)
 * Im Web Editor tritt beim Entfernen eines Bildes und anschließenden Speichern der neuen Version des Dokuments ein Validierungsfehler auf. (8985)
-* Es kann nicht alle `glossrefs` im Glossarbereich (inhaltsspezifisch). (8886)
-* `xref` in der artikelbasierten Veröffentlichungsausgabe wird kein Text angezeigt. (8764)
+* Es können nicht alle `glossrefs` im Glossarbereich (inhaltsspezifisch) angezeigt werden. (8886)
+* `xref` ohne Text wird in der artikelbasierten Veröffentlichungsausgabe nicht angezeigt. (8764)
 * Verweise werden beim Verschieben von Bildern oder Multimedia-Dateien mit Leerzeichen in den Dateinamen unterbrochen. (8624)
-* Verweise umbrechen bei Auswahl `Select All` und verschieben Sie die Multimedia-Dateien oder DITA-Inhalte in einen anderen Ordner. (8622)
-* Ausgabeaufträge mit dem Status &quot;Warten&quot;oder &quot;Ausführen&quot;werden im Dashboard &quot;Veröffentlichen&quot;nicht bereinigt.  (8569)
+* Verweise unterscheiden sich bei der Auswahl von `Select All` und der Verschiebung der Multimedia-Dateien oder DITA-Inhalte in einen anderen Ordner. (8622)
+* Ausgabeaufträge mit dem Status &quot;Warten&quot;oder &quot;Ausführen&quot;werden im Publish-Dashboard nicht bereinigt.  (8569)
 * Die Bereinigungsfunktion für die Ausgabe schlägt fehl, wenn eine große Anzahl von Knoten des Ausgabestverlaufs vorhanden ist. (8568)
 * DITA Add on-Paket verhindert die Erkennung von DAM-doppelten Assets. 8417)
 * Schaltfläche Prüfungsaufgabe erstellen für Nicht-DITA-Dateien aktiviert. (8401)
 * Das Dialogfeld Verweise einfügen wird beim Hinzufügen von Subjekten zu einer Zuordnung über die Benutzeroberfläche geöffnet. (8212)
-* Unerwarteter Speicherplatz in jedem leeren Feld `entry` Element, wenn das Attribut outputClass hinzugefügt wird `tgroup` -Element. (7532)
+* Unerwarteter Speicherplatz in jedem leeren `entry` -Element, wenn das Attribut &quot;outputClass&quot;zum Element `tgroup` hinzugefügt wird. (7532)
 * Im Repository-Bereich werden nach Abschluss der Aktion keine Symbole für die Dateisperre angezeigt, die ein- oder ausgecheckt wurden. (5817)
 * Das Sperrsymbol wird in der Repository-Ansicht angezeigt, selbst wenn die Datei im Editor eingecheckt wurde.  (5756)
 * Sites fehlen in AEM Vorgaben auf der Registerkarte &quot;Ausgabe&quot;. (9567)

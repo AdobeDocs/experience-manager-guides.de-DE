@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Die native PDF-Veröffentlichung startet einen separaten JVM-Prozess zum Generieren einer PDF. Möglicherweise müssen Sie die Konfigurationen dieser JVM anpassen, um verschiedene Szenarien zu unterstützen. Um beispielsweise größere Workloads auszuführen, sollten Sie die maximale Heap-Größe erhöhen, die für den erzeugten JVM-Prozess verfügbar ist.
 
-Führen Sie die folgenden Schritte aus, um die JVM-Flags AEM Guides Native PDF Publishing zu konfigurieren:
+Führen Sie die folgenden Schritte aus, um die AEM Guides Native PDF Publishing JVM-Flags zu konfigurieren:
 
 1. Öffnen Sie die Seite Adobe Experience Manager Web Console Configuration .
 
@@ -26,9 +26,9 @@ Führen Sie die folgenden Schritte aus, um die JVM-Flags AEM Guides Native PDF P
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und wählen Sie *com.adobe.fmdita.config.ConfigManager* Bundle
+1. Suchen Sie nach dem Bundle *com.adobe.fmdita.config.ConfigManager* und wählen Sie es aus.
 
-1. Eigenschaft aktualisieren **Java-Befehlszeilenoptionen für natives PDF** (*native.pdf.java.opts*), um alle standardmäßigen JVM-Flags zu übergeben.
+1. Aktualisieren Sie die Eigenschaft **Java-Befehlszeilenoptionen für natives PDF** (*native.pdf.java.opts*), um alle standardmäßigen JVM-Flags zu übergeben.
 
 
 

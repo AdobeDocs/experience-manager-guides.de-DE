@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise | Neue Funktionen in Adobe Experience Manager-Handbüchern, Version Juni 2023
-description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Juni 2023.
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides, Version Juni 2023
+description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Adobe Experience Manager Guides as a Cloud Service-Version vom Juni 2023.
 exl-id: 625f9702-2b91-4622-9fec-282f47f1d7a6
 feature: What's New
 role: Leader
@@ -11,28 +11,28 @@ ht-degree: 0%
 
 ---
 
-# Neue Funktionen in der Version von Adobe Experience Manager Guides as a Cloud Service im Juni 2023
+# Neue Funktionen in der Adobe Experience Manager Guides as a Cloud Service-Version vom Juni 2023
 
-Dieser Artikel behandelt die neuen und verbesserten Funktionen in Version Juni 2023 der Adobe Experience Manager-Handbücher (später auch als *AEM as a Cloud Service Guides*).
+In diesem Artikel werden die neuen und verbesserten Funktionen in der Adobe Experience Manager Guides-Version vom Juni 2023 (später als *AEM Guides as a Cloud Service* bezeichnet) behandelt.
 
 Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter [Versionshinweise](release-notes-2023-6-0.md).
 
 ## Bericht zu fehlerhaften Links im Web-Editor
 
-Mit AEM Guides können Sie die Gesamtvollständigkeit Ihrer technischen Dokumente überprüfen und Berichte aus dem Web-Editor erstellen. Ab der Version Juni 2023 bieten Ihnen AEM Handbücher die Möglichkeit, fehlerhafte Links anzuzeigen und zu reparieren. Dies ist ein nützlicher Bericht, der Ihnen bei der Verwaltung Ihrer fehlerhaften Links hilft. Sie können die fehlerhaften Links in Ihrer DITA-Zuordnung einfach anzeigen und sie auch beheben.
+Mit AEM Guides können Sie die Vollständigkeit Ihrer technischen Dokumente überprüfen und Berichte aus dem Web-Editor erstellen. AEM Guides bietet Ihnen jetzt in der Version vom Juni 2023 die Möglichkeit, fehlerhafte Links anzuzeigen und zu reparieren. Dies ist ein nützlicher Bericht, der Ihnen bei der Verwaltung Ihrer fehlerhaften Links hilft. Sie können die fehlerhaften Links in Ihrer DITA-Zuordnung einfach anzeigen und sie auch beheben.
 ![](assets/broken-link-report.png){width="800" align="left"}
 
 Wenn Sie einen Link korrigieren, wird er nicht unter der Liste der fehlerhaften Links angezeigt.
 
-Weitere Informationen finden Sie unter [Fehlerbehebung bei fehlerhaften Links](../user-guide/reports-web-editor.md#report-broken-links).
+Weitere Informationen finden Sie unter [Anzeigen und Korrigieren von fehlerhaften Links](../user-guide/reports-web-editor.md#report-broken-links).
 
 ## Umbenennen und Verschieben von Dateien in der Repository-Ansicht
 
-Jetzt können Sie eine Datei auch umbenennen oder aus dem Repository-Bereich verschieben. Diese Funktion ist praktisch und erleichtert die Verwaltung Ihrer Dateien über das Repository-Bedienfeld. Sie können eine Datei auswählen und sie umbenennen oder verschieben mithilfe der **Optionen** für die ausgewählte Datei. AEM Handbücher zeigt eine Erfolgsmeldung an, wenn Sie eine Datei verschieben oder umbenennen.
+Jetzt können Sie eine Datei auch umbenennen oder aus dem Repository-Bereich verschieben. Diese Funktion ist praktisch und erleichtert die Verwaltung Ihrer Dateien über das Repository-Bedienfeld. Sie können eine Datei auswählen und sie über das Menü **Optionen** für die ausgewählte Datei umbenennen oder verschieben. AEM Guides zeigt eine Erfolgsmeldung an, wenn Sie eine Datei verschieben oder umbenennen.
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
-Weitere Informationen zum Menü Optionen einer Datei finden Sie unter **Repository-Ansicht** Funktionsbeschreibung in [Linke Leiste](../user-guide/web-editor-features.md#id2051EA0M0HS) Abschnitt.
+Weitere Informationen zum Menü &quot;Optionen&quot;einer Datei finden Sie in der Beschreibung der Funktion **Repository-Ansicht** im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS) .
 
 ## Native PDF-Verbesserungen
 
@@ -44,7 +44,7 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Wasserzeichens zur PDF
 
 ### Unterstützung für Sprachvariablen
 
-AEM Guides unterstützen Sprachvariablen. Sie können Sprachvariablen verwenden, um eine lokalisierte Version der vordefinierten Beschriftungen wie Hinweis, Vorsicht und Warnung oder statischen Text in der PDF-Ausgabe zu definieren.
+AEM Guides unterstützt Sprachvariablen. Sie können Sprachvariablen verwenden, um eine lokalisierte Version der vordefinierten Beschriftungen wie Hinweis, Vorsicht und Warnung oder statischen Text in der PDF-Ausgabe zu definieren.
 Sie können die Sprachvariablen oder die lokalisierte Version der Titel den entsprechenden Abschnitten in Ihrer PDF-Ausgabe und in den Ausgabevorlagen hinzufügen.
 
 #### Sprachvariablen in der PDF-Ausgabe
@@ -67,14 +67,14 @@ Weitere Informationen finden Sie unter [Unterstützung für Sprachvariablen](../
 
 Metadaten sind die Beschreibung oder Definition Ihres Inhalts. Diese Metadaten werden in Ihrem Quell-DITA-Map-Inhalt gespeichert.
 
-Jetzt können Sie in AEM Handbüchern auch die Metadateneigenschaften Ihrer Assets auswählen und sie zum Seitenlayout hinzufügen. Anschließend wählt AEM Guides diese Metadateneigenschaften Ihrer Assets aus und veröffentlicht sie in Ihrer PDF-Ausgabe.
+Jetzt können Sie in AEM Guides auch die Metadateneigenschaften Ihrer Assets auswählen und sie zum Seitenlayout hinzufügen. Anschließend wählt AEM Guides diese Metadateneigenschaften Ihrer Assets aus und veröffentlicht sie in Ihrer PDF-Ausgabe.
 
 
 ![](assets/native-pdf-metadata-asset.png){width="550" align="left"}
 
 >[!NOTE]
 >
-> AEM Guides unterstützen auch die Metadateneigenschaften für Ihre DITA-Maps.
+> AEM Guides unterstützt auch die Metadateneigenschaften für Ihre DITA-Maps.
 
 Weitere Informationen finden Sie unter [Felder und Metadaten hinzufügen](../native-pdf/design-page-layout.md#add-fields-metadata).
 
@@ -83,9 +83,9 @@ Weitere Informationen finden Sie unter [Felder und Metadaten hinzufügen](../nat
 
 ### Verwenden Sie Berichtanweisungen zur Überprüfung auf Regeln in Schema
 
-AEM Guides unterstützen jetzt auch die Berichtanweisungen mit dem Schema. Eine Berichtanweisung generiert eine Meldung, wenn eine Testanweisung als &quot;true&quot;ausgewertet wird. Wenn Sie beispielsweise eine Kurzbeschreibung von 150 Zeichen oder weniger wünschen, können Sie eine Berichtanweisung definieren, um die Themen zu überprüfen, bei denen die Kurzbeschreibung mehr als 150 Zeichen umfasst.
+AEM Guides unterstützt nun auch die Berichtanweisungen mit dem Schema . Eine Berichtanweisung generiert eine Meldung, wenn eine Testanweisung als &quot;true&quot;ausgewertet wird. Wenn Sie beispielsweise eine Kurzbeschreibung von 150 Zeichen oder weniger wünschen, können Sie eine Berichtanweisung definieren, um die Themen zu überprüfen, bei denen die Kurzbeschreibung mehr als 150 Zeichen umfasst.
 
-Weitere Informationen finden Sie unter [Verwenden Sie Assets und Berichtanweisungen, um nach Regeln zu suchen.](../user-guide/support-schematron-file.md#schematron-assert-report).
+Weitere Informationen finden Sie unter [Verwenden Sie Assert- und Berichtanweisungen, um nach Regeln zu suchen](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### Verwenden von Regex-Ausdrücken
 
@@ -96,10 +96,10 @@ Weitere Informationen finden Sie unter [Verwenden von Regex-Ausdrücken](../user
 
 ### Abstrakte Muster definieren
 
-AEM Guides unterstützen auch abstrakte Muster in Schematron. Sie können allgemeine abstrakte Muster definieren und diese abstrakten Muster wiederverwenden. Abstrakte Muster können Ihr Schema vereinfachen und Ihnen auch bei der Verwaltung und Aktualisierung Ihrer Validierungslogik helfen.
+AEM Guides unterstützt auch abstrakte Muster in Schematron. Sie können allgemeine abstrakte Muster definieren und diese abstrakten Muster wiederverwenden. Abstrakte Muster können Ihr Schema vereinfachen und Ihnen auch bei der Verwaltung und Aktualisierung Ihrer Validierungslogik helfen.
 
 
-Weitere Informationen finden Sie unter [Abstrakte Muster definieren](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
+Weitere Informationen finden Sie unter [Definieren abstrakter Muster](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
 
 ## Navigieren Sie vom Web Editor zur AEM Homepage .
 
@@ -107,21 +107,21 @@ Jetzt können Sie einfach vom Web-Editor zur AEM Homepage navigieren.
 
 ![](assets/web-editor-launch-page.png){width="800" align="left"}
 
-* Klicken Sie auf **Handbücher** Symbol (![](assets/aem-guides-icon.png) ), um zur AEM Navigationsseite zurückzukehren.
+* Klicken Sie auf das Symbol **Guides** (![](assets/aem-guides-icon.png) ), um zur AEM Navigationsseite zurückzukehren.
 
 
-Weitere Informationen finden Sie unter [AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+Weitere Informationen finden Sie unter [AEM Navigationsseite](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## Umgang mit hierarchischen Definitionen von Betreffdefinitionen und Auflistungen
 
-AEM Guides verfügen über die leistungsstarke Funktion zum Erstellen von Themenschemas, die eine spezielle Form von DITA-Maps darstellen, die zur Definition von taxonomischen Objekten und kontrollierten Werten verwendet werden. Jetzt können AEM Guides auch die Definition des Betreffs in einer Zuordnung und die Auflistungsdefinitionen in einer anderen Zuordnung definieren. Anschließend können Sie die Zuordnungsreferenz hinzufügen und das Betreffschema verwenden.
+AEM Guides verfügt über die leistungsstarke Funktion zum Erstellen von Themenschema-Karten, die eine spezielle Form von DITA-Maps sind, die zur Definition von taxonomischen Objekten und kontrollierten Werten verwendet werden. Jetzt können Sie mit AEM Guides auch die Definition des Betreffs in einer Zuordnung und die Auflistungsdefinitionen in einer anderen Zuordnung definieren. Anschließend können Sie die Zuordnungsreferenz hinzufügen und das Betreffschema verwenden.
 Die Verweise auf die Betreffauflistung werden in derselben Zuordnung oder der referenzierten Zuordnung aufgelöst.
 
-Weitere Informationen zum Umgang mit hierarchischen Definitionen von Betreffdefinitionen und Auflistungen finden Sie in der **Betrifft** Funktionsbeschreibung in [Linke Leiste](../user-guide/web-editor-features.md#id2051EA0M0HS) Abschnitt.
+Weitere Informationen zum Umgang mit hierarchischen Definitionen von Betreffdefinitionen und Auflistungen finden Sie in der Beschreibung der Funktion **Betreff schema** im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS) .
 
 ## Unterstützung des XLIFF-Formats bei der Übersetzung
 
-AEM Guides unterstützen auch das XLIFF-Format (XML Localization Interchange File Format) bei der Übersetzung. Jetzt können Sie auch **Erstellen eines neuen XLIFF-Übersetzungsprojekts** , um den XML-Inhalt in das XLIFF-Format zu konvertieren.
+AEM Guides unterstützt auch das XLIFF-Format (XML Localization Interchange File Format) bei der Übersetzung. Jetzt können Sie auch **ein neues XLIFF-Übersetzungsprojekt erstellen** auswählen, um den XML-Inhalt in das XLIFF-Format zu konvertieren.
 Mithilfe dieses Formats können Sie den Inhalt in das XLIFF-Format des Branchenstandards exportieren und dann den Übersetzungsanbietern dasselbe bereitstellen. Weitere Informationen finden Sie unter [Erstellen eines Übersetzungsprojekts](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
 ![](assets/translation-project-types.png){width="350" align="left"}
@@ -130,20 +130,20 @@ Mithilfe dieses Formats können Sie den Inhalt in das XLIFF-Format des Branchens
 
 ## Verbessertes Bedienfeld &quot;Favoriten&quot;
 
-Mithilfe AEM Handbücher können Sie eine Sammlung oder Favoritenliste Ihrer Dateien und Ordner erstellen und diese einfach verwenden. Jetzt **Optionen** Menü ist auch verfügbar im **Favoriten** Bedienfeld. Sie können die ausgewählte Sammlung umbenennen oder aus der **Optionen** Menü. Sie können die **Aktualisieren** , um eine neue Liste von Dateien oder Ordnern aus dem Repository zu erhalten. Sie können den Ordnerinhalt auch in der Assets-Benutzeroberfläche anzeigen.
+Mit AEM Guides können Sie eine Sammlung oder Favoritenliste Ihrer Dateien und Ordner erstellen und diese einfach verwenden. Jetzt ist das Menü **Optionen** auch im Bedienfeld **Favoriten** verfügbar. Sie können die ausgewählte Sammlung umbenennen oder aus dem Menü **Optionen** löschen. Sie können die Option **Aktualisieren** auswählen, um eine neue Liste von Dateien oder Ordnern aus dem Repository abzurufen. Sie können den Ordnerinhalt auch in der Benutzeroberfläche von Assets anzeigen.
 
 ![](assets/favorites-options.png){width="650" align="left"}
 
 >[!NOTE]
 >
-> Sie können die Liste auch mit dem **Aktualisieren** Symbol oben.
+> Sie können die Liste auch mit dem Symbol **Aktualisieren** oben aktualisieren.
 
-Weitere Informationen finden Sie unter **Optionen** Menü einer Favoriten-Sammlung, siehe **Favoriten** Funktionsbeschreibung in [Linke Leiste](../user-guide/web-editor-features.md#id2051EA0M0HS) Abschnitt.
+Weitere Informationen zum Menü **Optionen** einer Favoriten-Sammlung finden Sie in der Beschreibung der Funktion **Favoriten** im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS) .
 
 ## Wechseln Sie zum Systemdesign
 
-Sie können jetzt auch das Gerätedesign verwenden. Verwenden der **Benutzereinstellungen** können Sie AEM Guides so konfigurieren, dass je nach Thema Ihres Geräts automatisch zwischen hellen und dunklen Themen umgeschaltet wird.
+Sie können jetzt auch das Gerätedesign verwenden. Mithilfe der **Benutzereinstellungen** können Sie AEM Guides so konfigurieren, dass basierend auf dem Design Ihres Geräts automatisch zwischen hellen und dunklen Designs gewechselt wird.
 
 ![](assets/device-theme-user-preferences.png){width="550" align="left"}
 
-Weitere Informationen finden Sie unter **Benutzereinstellungen** Funktionsbeschreibung in [Hauptleiste](../user-guide/web-editor-features.md#id2051EA0G05Z) Abschnitt.
+Weitere Informationen finden Sie in der Beschreibung der Funktion **Benutzereinstellungen** im Abschnitt [Hauptsymbolleiste](../user-guide/web-editor-features.md#id2051EA0G05Z) .

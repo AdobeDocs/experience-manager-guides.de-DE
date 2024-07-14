@@ -24,7 +24,7 @@ Dies umfasst die folgenden Schritte:
 
 Sehen wir uns dazu ein Beispiel an, in dem wir die kurze Beschreibung und den Titel als separaten Block mit einigen Stilaspekten im Editor anzeigen möchten.
 
-![Vorschau des Webeditors mit benutzerdefinierten Stilen](../../../assets/authoring/webeditor-customstyles-preview.png)
+![Anzeigen einer Vorschau des Webeditors mit benutzerdefinierten Stilen](../../../assets/authoring/webeditor-customstyles-preview.png)
 
 
 ## Implementieren
@@ -32,13 +32,13 @@ Sehen wir uns dazu ein Beispiel an, in dem wir die kurze Beschreibung und den Ti
 
 ### Hinzufügen der benutzerdefinierten CSS zum Ordnerprofil
 
-Verwenden Sie die Ordnerprofile, um die *css_layout.css* Fügen Sie auf der Registerkarte &quot;XML-Editor-Konfiguration&quot;die CSS-Datei mit benutzerdefinierten Stilen hinzu.
+Verwenden Sie die Ordnerprofile, um die *css_layout.css* auf der Registerkarte &quot;XML-Editor-Konfiguration&quot;zu überprüfen und das CSS mit benutzerdefinierten Stilen hinzuzufügen.
 
-[Verwenden Sie diesen Link, um mehr über das Ordnerprofil und das Konfigurieren des CSS-Vorlagenlayouts zu erfahren.](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[Verwenden Sie diesen Link, um mehr über das Ordnerprofil und das Konfigurieren des CSS-Vorlagenlayouts zu erfahren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 Verwenden Sie Folgendes, um den obigen Stil in Ihrem Webserver einzurichten:
-- Verwendung [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) und laden Sie es in das Ordnerprofil Ihrer Wahl hoch.
-- Installieren Sie das angehängte Paket [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) Verwenden AEM Paketmanagers zur Installation der in der obigen CSS-Datei verwendeten Ressourcen
+- Verwenden Sie [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) und laden Sie es in das Ordnerprofil Ihrer Wahl hoch
+- Installieren Sie das angehängte Paket [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) mit AEM Paketmanager, um die in der obigen CSS-Datei verwendeten Ressourcen zu installieren.
 
 ```
 This will install the resources at path "/content/dam/resources" which will include sub-folders "fonts" and "images"
@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Verweise
 
-Sie interessieren sich möglicherweise auch für die Expertensitzung zu Wetterkonfigurationen und -anpassungen, die unter [Expertensitzung zum Webeditor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)
+Möglicherweise interessieren Sie sich auch für die Expertensitzung rund um die Konfiguration und Anpassung von Webservern, die in der [Expertensitzung zum Webserver](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en) behandelt wird.

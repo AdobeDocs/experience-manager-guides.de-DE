@@ -1,6 +1,6 @@
 ---
 title: Konversionsstatusbericht
-description: Konvertieren Sie Dokumente verschiedener Formate in DITA in AEM Guides. Erfahren Sie, wie Sie Filter hinzufügen und einen Konversionsstatusbericht anzeigen.
+description: Konvertieren Sie in AEM Guides Dokumente unterschiedlicher Formate in DITA. Erfahren Sie, wie Sie Filter hinzufügen und einen Konversionsstatusbericht anzeigen.
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Konversionsstatusbericht {#id205BBA00WZZ}
 
-AEM Guides bieten eine zuverlässige Konvertierungsfunktion, um Dokumente verschiedener Formate in DITA zu konvertieren. Der Konversionsstatusbericht bietet eine konsolidierte Ansicht aller Konversionsaufgaben, die von AEM Handbüchern ausgeführt werden.
+AEM Guides bietet eine zuverlässige Konvertierungsfunktion, um Dokumente mit verschiedenen Formaten in DITA zu konvertieren. Der Konversionsstatusbericht bietet eine konsolidierte Ansicht aller von AEM Guides ausgeführten Konversionsaufgaben.
 
 Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeigen:
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Auswählen **Handbücher** aus der Liste der Tools.
+1. Wählen Sie **Guides** aus der Liste der Tools aus.
 
-1. Klicken Sie auf **Konversionsstatusbericht** Kachel.
+1. Klicken Sie auf die Kachel **Konversionsstatusbericht** .
 
    Der Konversionsstatusbericht wird für alle Konversionsaufgaben angezeigt, die auf dem System ausgeführt werden.
 
@@ -45,9 +45,9 @@ Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeig
 
       - **Dateityp**: Typ des Quelldokuments, das Word, strukturierte HTML, XML und DocBook sein kann.
 
-      - **Hinzugefügt von**: Name des Benutzers, der die Konvertierungsaufgabe ausgeführt hat.
+      - **Hinzugefügt von**: Name des Benutzers, der die Konversionsaufgabe ausgeführt hat.
 
-      - **Datum hinzugefügt**: Datum der Ausführung der Aufgabe. Durch Klicken auf den Link Datum hinzugefügt wird die Protokolldatei heruntergeladen.
+      - **Datum hinzugefügt**: Datum, an dem die Aufgabe ausgeführt wurde. Durch Klicken auf den Link Datum hinzugefügt wird die Protokolldatei heruntergeladen.
 
       - **Pfad**: Vollständiger Pfad des Quelldokuments.
 

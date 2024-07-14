@@ -1,6 +1,6 @@
 ---
 title: Verwenden von Bezeichnungen
-description: Informationen zur Verwendung von Bezeichnungen für verschiedene Versionen einer Datei finden Sie in AEM Handbüchern. Erfahren Sie, wie Sie einer Version eines Themas eine Bezeichnung hinzufügen oder löschen.
+description: Erfahren Sie mehr über die Verwendung von Bezeichnungen für verschiedene Dateiversionen in AEM Guides. Erfahren Sie, wie Sie einer Version eines Themas eine Bezeichnung hinzufügen oder löschen.
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Verwenden von Bezeichnungen {#id164JBG0M0T1}
 
-Mit AEM Guides können Sie verschiedenen Versionen einer Datei Beschriftungen hinzufügen. Sie können diese Beschriftungen verwenden, um die Version anzugeben, die Sie in eine Grundlinie zur Veröffentlichung einbeziehen möchten. Weitere Informationen zur Verwendung von Bezeichnungen zum Erstellen einer Grundlinie finden Sie unter [Arbeiten mit Grundlinien](generate-output-use-baseline-for-publishing.md#).
+Mit AEM Guides können Sie verschiedenen Dateiversionen Titel hinzufügen. Sie können diese Beschriftungen verwenden, um die Version anzugeben, die Sie in eine Grundlinie zur Veröffentlichung einbeziehen möchten. Weitere Informationen zur Verwendung von Bezeichnungen zum Erstellen einer Grundlinie finden Sie unter [Arbeiten mit Grundlinie](generate-output-use-baseline-for-publishing.md#).
 
-Wenn Sie beispielsweise *Version 1.0* eines Themas in *Version 1.0* und *Version 1.1* desselben Themas in *Version 2.0* können Sie *Version 1.0* auf der *Version 1.0* und *Version 2.0* auf der *Version 1.1*.
+Wenn Sie z. B. die *Version 1.0* eines Themas in *Version 1.0* und die *Version 1.1* desselben Themas in *Version 2.0* verwenden möchten, können Sie der *Version 1.0* und der *Version 2.0 die Bezeichnung* Version 1.0 hinzufügen. 13} auf der *Version 1.1*.**
 
 Nachdem Sie die Titel hinzugefügt haben, können Sie eine Grundlinie erstellen und festlegen, welche Version des Themas für die Veröffentlichung mit dieser Grundlinie einbezogen werden soll. Um zu sehen, welche Version in einer Grundlinie ein- oder ausgeschlossen werden soll, können Sie die Option Versionsverlauf verwenden.
 
@@ -24,16 +24,16 @@ Nachdem Sie die Titel hinzugefügt haben, können Sie eine Grundlinie erstellen 
 Führen Sie die folgenden Schritte aus, um Ihrem Thema eine Bezeichnung hinzuzufügen:
 
 1. Wählen Sie in der Assets-Benutzeroberfläche ein Thema aus
-1. Klicken Sie auf das Symbol für die Auswahl der linken Leiste und wählen Sie **Versionsverlauf**.
+1. Klicken Sie auf das Symbol für die Auswahl der linken Leiste und wählen Sie **Versionsverlauf** aus.
 1. Klicken Sie im Versionsverlauf auf eine Version, der Sie eine Bezeichnung hinzufügen möchten.
 
-1. Geben Sie einen Titel für die ausgewählte Version ein und drücken Sie die Eingabetaste. Beispiel: *Version 2.6*.
+1. Geben Sie einen Titel für die ausgewählte Version ein und drücken Sie die Eingabetaste. Beispiel: *2.6 Release*.
 
    >[!NOTE]
    >
    > Dieselbe Bezeichnung kann nicht den verschiedenen Versionen eines Themas hinzugefügt werden. Sie können jedoch derselben Version eines Themas mehrere Bezeichnungen hinzufügen.
 
-   Die Titel werden im Versionsverlauf des ausgewählten Themas angezeigt. Im folgenden Screenshot werden die Beschriftungen angezeigt *x.x-Version* und *Benutzerhandbuch* zur hervorgehobenen Version des Themas hinzugefügt.
+   Die Titel werden im Versionsverlauf des ausgewählten Themas angezeigt. Im folgenden Screenshot werden die Beschriftungen *x.x Release* und *Benutzerhandbuch* angezeigt, die zur hervorgehobenen Version des Themas hinzugefügt wurden.
 
    ![](images/labels.png){width="300" align="left"}
 
@@ -46,13 +46,13 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema eine Bezeichnung hinzuzuf
 Führen Sie die folgenden Schritte aus, um eine Bezeichnung zu löschen:
 
 1. Wählen Sie in der Assets-Benutzeroberfläche ein Thema aus, dem eine Bezeichnung hinzugefügt wurde.
-1. Klicken Sie auf das Symbol für die Auswahl der linken Leiste und wählen Sie **Versionsverlauf**.
+1. Klicken Sie auf das Symbol für die Auswahl der linken Leiste und wählen Sie **Versionsverlauf** aus.
 
    Im Versionsverlauf werden alle Versionen eines Themas und die damit verbundenen Bezeichnungen angezeigt. Die folgende Abbildung zeigt ein Beispiel für verschiedene Versionen eines Themas und einer Version wurden Titel hinzugefügt.
 
    ![](images/labels.png){width="300" align="left"}
 
-1. Klicken Sie auf die Löschschaltfläche \(**X**\), um den Titel zu löschen.
+1. Klicken Sie auf die Schaltfläche zum Löschen \(**X**\), um die Bezeichnung zu löschen.
 
    ![](images/delete-labels.png){width="300" align="left"}
 

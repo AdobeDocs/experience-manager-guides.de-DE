@@ -1,6 +1,6 @@
 ---
-title: Upgrade AEM Handbücher
-description: Erfahren Sie, wie Sie AEM aktualisieren
+title: AEM Guides aktualisieren
+description: Erfahren Sie, wie Sie AEM Guides aktualisieren
 exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
 role: Admin
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Upgrade AEM Handbücher {#id213BD050YPH}
+# AEM Guides aktualisieren {#id213BD050YPH}
 
 1. Greifen Sie auf das Git-Repository von Cloud Manager zu.
 
@@ -29,6 +29,6 @@ ht-degree: 0%
 
 ## Löschen des Browser-Cache
 
-Nach Abschluss des Aktualisierungsprozesses müssen alle Benutzer den Browser-Cache löschen, bevor die aktualisierte Version der AEM-Handbücher verwendet werden kann.
+Nach Abschluss des Aktualisierungsprozesses müssen alle Benutzer den Browsercache löschen, bevor die aktualisierte Version von AEM Guides verwendet werden kann.
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)

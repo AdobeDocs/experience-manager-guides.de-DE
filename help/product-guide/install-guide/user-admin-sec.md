@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # Benutzerverwaltung und -sicherheit {#id181AED00G5Z}
 
-Um auf Funktionen in AEM Handbüchern zugreifen und diese konfigurieren zu können, müssen Sie Benutzer erstellen. Diesen Benutzern können dann Berechtigungen für den Zugriff auf alle oder bestimmte Funktionen in AEM Handbüchern zugewiesen werden. Erfahren Sie, wie Sie die Benutzerautorisierung konfigurieren und verwalten und verstehen Sie auch die Theorie, die dahinter steckt, wie Authentifizierung und Autorisierung in AEM funktioniert.
+Um auf Funktionen in AEM Guides zuzugreifen und diese zu konfigurieren, müssen Sie Benutzer erstellen. Diesen Benutzern können dann Berechtigungen für den Zugriff auf alle oder bestimmte Funktionen in AEM Guides zugewiesen werden. Erfahren Sie, wie Sie die Benutzerautorisierung konfigurieren und verwalten und verstehen Sie auch die Theorie, die dahinter steckt, wie Authentifizierung und Autorisierung in AEM funktioniert.
 
 Die folgenden Themen in AEM Dokumentation helfen Ihnen dabei, die Konzepte und Funktionen der Benutzerverwaltung sowie sicherheitsrelevante Aspekte zu verstehen:
 
@@ -29,11 +29,11 @@ Die folgenden Themen in AEM Dokumentation helfen Ihnen dabei, die Konzepte und F
 
 ## Von AEM Guides erstellte Benutzergruppen {#id181TF0K0MHT}
 
-AEM Guides bieten drei native Gruppen zur Verwaltung verschiedener Aufgaben in einem DITA-Projekt. Diese Gruppen sind: *Autoren*, *Überprüfer*, und *Herausgeber*. Abhängig von der Gruppe, der ein Benutzer zugeordnet ist, können er bestimmte Aufgaben ausführen. Beispielsweise kann eine Veröffentlichungsaufgabe nur von einem Herausgeber, aber nicht von einem Autor oder Überprüfer ausgeführt werden. Auf ähnliche Weise kann ein Autor ein neues Thema erstellen und ein Überprüfer kann nur ein Thema überprüfen.
+AEM Guides bietet drei native Gruppen zur Verwaltung verschiedener Aufgaben in einem DITA-Projekt. Diese Gruppen sind: *Autoren*, *Überprüfer* und *Herausgeber*. Abhängig von der Gruppe, der ein Benutzer zugeordnet ist, können er bestimmte Aufgaben ausführen. Beispielsweise kann eine Veröffentlichungsaufgabe nur von einem Herausgeber, aber nicht von einem Autor oder Überprüfer ausgeführt werden. Auf ähnliche Weise kann ein Autor ein neues Thema erstellen und ein Überprüfer kann nur ein Thema überprüfen.
 
 >[!TIP]
 >
-> Siehe *Berechtigungen* im Handbuch Best Practices für Best Practices zum Festlegen von Benutzerberechtigungen.
+> Best Practices zum Festlegen von Benutzerberechtigungen finden Sie im Abschnitt *Berechtigungen* im Best Practices-Handbuch.
 
 In der folgenden Tabelle sind verschiedene Aufgaben und die Gruppen aufgeführt, die diese Aufgaben ausführen können:
 
@@ -43,7 +43,7 @@ In der folgenden Tabelle sind verschiedene Aufgaben und die Gruppen aufgeführt,
 | DITA Map erstellen | Ja |   | Ja |
 | Sammlungen zuordnen | Ja |   | Ja |
 | Bewertungsaufgabe erstellen | Ja |   | Ja |
-| Thema überprüfen[1](#fntarg_1) | Ja | Ja | Ja |
+| Prüfungsthema[1](#fntarg_1) | Ja | Ja | Ja |
 | Schlüsselauflösung | Ja |   | Ja |
 | Auf FrameMaker öffnen | Ja |   | Ja |
 | Auschecken/Einchecken | Ja |   | Ja |
@@ -56,18 +56,18 @@ In der folgenden Tabelle sind verschiedene Aufgaben und die Gruppen aufgeführt,
 | **Dokumentstatus** |
 | Dokumentstatusprofil erstellen/bearbeiten |   |   | Ja |
 | Dokumentstatus ändern[2](#fntarg_2) | Ja | Ja | Ja |
-| **In der DITA Map Console verfügbare Funktionen \(Registerkarte &quot;Ausgabevorgaben&quot;\)** |
+| **In der DITA-Map-Konsole verfügbare Funktionen \(Registerkarte &quot;Ausgabevorgaben&quot;\)** |
 | Generieren |   |   | Ja |
 | Bearbeiten |   |   | Ja |
 | Duplizieren |   |   | Ja |
 | Erstellen |   |   | Ja |
 | Vorgabe löschen |   |   | Ja |
-| **In der DITA Map Console verfügbare Funktionen \(Registerkarte &quot;Ausgaben&quot;\)** |
+| **In der DITA-Map-Konsole verfügbare Funktionen \(Registerkarte &quot;Ausgaben&quot;\)** |
 | Anzeigen der generierten Ausgabe | Ja |   | Ja |
-| **In der DITA Map Console verfügbare Funktionen \(Registerkarte &quot;Themen&quot;\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte &quot;Themen&quot;\)** |
 | Bewertungsaufgabe erstellen | Ja |   | Ja |
 | Bearbeiten | Ja |   | Ja |
-| **In der DITA Map Console verfügbare Funktionen \(Registerkarte &quot;Grundlinien&quot;\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte &quot;Grundlinien&quot;\)** |
 | Erstellen |   |   | Ja |
 | Bearbeiten |   |   | Ja |
 | Duplizieren |   |   | Ja |
@@ -80,15 +80,15 @@ In der folgenden Tabelle sind verschiedene Aufgaben und die Gruppen aufgeführt,
 
 Die folgende Liste enthält einige Empfehlungen und Punkte, die sich auf Benutzergruppen und entsprechende Berechtigungen beziehen:
 
-- Wenn Sie möchten, dass ein Benutzer den Übersetzungs- oder Überprüfungs-Workflow startet, stellen Sie sicher, dass der Benutzer Mitglied der *Herausgeber* und *Gruppe &quot;projects-administrators&quot;*.
+- Wenn Sie möchten, dass ein Benutzer den Übersetzungs- oder Überprüfungs-Workflow startet, stellen Sie sicher, dass der Benutzer Mitglied der Gruppe *Herausgeber* und *Projektadministratoren* ist.
 
 - Benutzer müssen über die Lese-, Erstellungs-, Lösch- und Änderungsberechtigungen für die Ordner mit den Quell- und Zielsprachen verfügen, an denen sie arbeiten müssen.
 
-- Wenn Sie ein Projekt erstellen, sind Sie der Eigentümer des Projekts mit *Herausgeber* Berechtigungen. Damit andere Benutzer in einem Projekt ihre Teammitglieder sehen, Aufgaben erstellen oder Workflows erstellen können, müssen sie Lesezugriff auf `/home/users` und `/home/groups` Knoten. Eine Möglichkeit, Lesezugriff auf `/home/users` und `/home/groups` -Knoten erhalten Lesezugriff auf die `projects-users` hinzugefügt.
+- Wenn Sie ein Projekt erstellen, sind Sie Eigentümer des Projekts mit *Herausgeber* -Berechtigungen. Damit andere Benutzer in einem Projekt ihre Teammitglieder sehen, Aufgaben erstellen oder Workflows erstellen können, müssen sie Lesezugriff auf die Knoten `/home/users` und `/home/groups` haben. Eine Möglichkeit, Lesezugriff auf `/home/users` - und `/home/groups` -Knoten zu gewähren, besteht darin, Lesezugriff auf die `projects-users` -Gruppe zu gewähren.
 
-- *Überprüfer* Sie können über die Projektkonsole oder über den Benachrichtigungslink im Posteingang auf Überprüfungskommentare zu einem Thema zugreifen und diese hinzufügen. Außerdem ist dieser Zugriff nur verfügbar, bis die Prüfungsaufgabe geöffnet ist.
+- *Überprüfer* können über die Projektkonsole oder über den Benachrichtigungslink im Posteingang auf Überprüfungskommentare zu einem Thema zugreifen und diese Kommentare hinzufügen. Außerdem ist dieser Zugriff nur verfügbar, bis die Prüfungsaufgabe geöffnet ist.
 
-- Standardmäßig ist *Herausgeber* erhalten Zugriff und Berechtigungen für die folgenden Ordner in DAM:
+- Standardmäßig erhalten *Herausgeber* Zugriff und Berechtigungen für die folgenden Ordner in DAM:
 
    - ``/var/dxml``-\> Lesen und Schreiben
 
@@ -98,14 +98,14 @@ Die folgende Liste enthält einige Empfehlungen und Punkte, die sich auf Benutze
 
   Sie müssen Ihrem Herausgeber explizite Lese- und Schreibberechtigungen erteilen, wenn Sie neben den oben genannten standardmäßigen Veröffentlichungsorten einen anderen Speicherort verwenden.
 
-- Alle Benutzer unter *Autoren*, *Überprüfer*, und *Herausgeber* -Gruppen haben Lesezugriff auf alle Inhalte in DAM.
+- Alle Benutzer unter den Gruppen *Autoren*, *Überprüfer* und *Herausgeber* haben Lesezugriff auf alle Inhalte in DAM.
 
 - Berechtigungen auf Ordnerebene müssen Benutzern über die Benutzerverwaltungsseite zugewiesen werden.
 
-- Wenn Sie möchten, dass Ihre Benutzer Suchvorgänge in DAM ausführen können, müssen Sie Ihre Benutzer zum Mitglied der *dam-users* hinzugefügt.
+- Wenn Sie möchten, dass Ihre Benutzer Suchvorgänge in DAM ausführen können, weisen Sie Ihre Benutzer der Gruppe *dam-users* zu.
 
-- Wenn Sie jedem Benutzer Administratorrechte gewähren möchten, können Sie ihm Zugriff über AEM Standardgruppen gewähren, z. B. *Administratoren*, *projects-administrators*, oder die OSGi-Konfiguration \(Felix Console\).
+- Wenn Sie jedem Benutzer Administratorrechte gewähren möchten, können Sie ihm Zugriff über AEM Standardgruppen gewähren, z. B. *Administratoren*, *Projekte-Administratoren* oder die OSGi-Konfiguration \(Felix Console\).
 
 - Um Benutzern Berechtigungen zum Ändern des Dokumentstatus zu geben, stellen Sie sicher, dass Sie den Benutzer im Abschnitt Statusübergang des Dokumentstatusprofils hinzufügen.
 
-[1](#fnsrc_1) Wenn *Autoren* und *Herausgeber* werden zur Überprüfung aufgefordert.[2](#fnsrc_2) Abhängig von den Berechtigungen, die dem Benutzer im Dokumentstatusprofil zugewiesen wurden.
+[1](#fnsrc_1) Wenn *Autoren* und *Herausgeber* zur Überprüfung eingeladen werden.[2](#fnsrc_2) Abhängig von den Berechtigungen, die dem Benutzer im Dokumentenstatusprofil zugewiesen wurden.

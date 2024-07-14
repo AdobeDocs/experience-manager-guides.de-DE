@@ -1,13 +1,13 @@
 ---
 title: Blenden Sie die Option DitaMap erstellen aus dem Kontextmenü Ordner für bestimmte Benutzer oder Gruppen aus.
 description: Erfahren Sie, wie Sie den WebEditor anpassen können, indem Sie die Option "DitaMap"im Ordner-Kontextmenü für bestimmte Benutzer/Gruppen ausblenden.
-source-git-commit: ea8fb646287f68676b6530b4cc5f56e7ba2d9b0c
+exl-id: 796bfe3a-3950-4ade-9215-c33534791055
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
-
 
 # Anzeigen/Ausblenden von &quot;DitaMAP erstellen&quot;im Ordnerkontextmenü im Webditor
 
@@ -16,8 +16,8 @@ In diesem Anwendungsfall wird diese Option für alle Benutzer ohne Autorenberech
 
 ## Voraussetzungen
 
-Wir nutzen das Erweiterungspaket AEM Guides , mit dem Sie die Benutzeroberfläche Ihrer App gemäß Ihren Anforderungen anpassen können.
-Bitte gehen Sie durch [Dokumentation](https://github.com/adobe/guides-extension/tree/main) , um weitere Einblicke in die Funktionsweise des Guides Extension Framework zu erhalten.
+Wir nutzen das AEM Guides Extension-Paket, mit dem Sie die Benutzeroberfläche Ihrer App gemäß Ihren Anforderungen anpassen können.
+In dieser [Dokumentation](https://github.com/adobe/guides-extension/tree/main) erhalten Sie weitere Einblicke in die Funktionsweise des Guides Extension Framework.
 
 Jetzt erfahren Sie, wie Sie das Kontextmenü des Ordners anpassen, um diese Option für alle Benutzer ohne Autorenberechtigung auszublenden.
 
@@ -31,7 +31,7 @@ Lassen Sie uns nun sehen, wie wir diese Option mithilfe des Guides Extension Fra
 
 Die Implementierung ist in folgende Teile unterteilt:
 
-- **Änderungen am Controller &quot;Folder_options&quot;**
+- **Änderungen im Ordner_options-Controller**
 
   Jedem Kontextmenü ist eine Controller-ID zugeordnet. Dieser Controller verarbeitet die On-Event-Funktionalität für die verschiedenen Kontextmenüoptionen.
 
@@ -60,7 +60,7 @@ const folderOptions = {
 };
 ```
 
-- **Erstellen eines neuen Widgets zur Verarbeitung der Logik**
+- **Erstellung eines neuen Widgets zur Verarbeitung der Logik**
 
   Eine neue Widget-Erstellung (customoptions.ts) ist erforderlich, um die Logik zu schreiben, um diese Option nur für Benutzer ohne Autorenberechtigung auszublenden. Um dies zu erreichen, haben wir den &#39;show&#39;-Schlüssel verwendet, der als Umschalter in unserer JSON-Struktur fungiert.
 
@@ -126,11 +126,11 @@ Dieser Anwendungsfall wurde zu GIT hinzugefügt. Bitte finden Sie die entspreche
 
 ### Verwandte Ressourcen
 
-- **Basis-Repository für Erweiterungs-Framework** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **Basis-Repository des Erweiterungs-Frameworks** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
 - **Dokumentation** - [auf Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Häufige Anwendungsfälle dokumentiert** - [auf Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Dokumentation häufiger Anwendungsfälle** - [auf Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **Öffentliches Repository mit Beispielen** - [auf GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Siehe Verzweigung sc-experte-session
 

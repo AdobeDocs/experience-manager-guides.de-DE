@@ -11,22 +11,22 @@ ht-degree: 8%
 
 ---
 
-# AEM Anleitungen zur Veröffentlichung von Benchmarks auf AEMaaCS
+# AEM Guides Publishing Benchmarks auf AEMaaCS
 
-Derzeit AEM Guides-Cloud-Service hat einige Einschränkungen bei der Größe von Veröffentlichungskarten, die das Guides-Team aktiv lösen möchte.
+Der AEM Guides-Cloud-Service hat derzeit einige Einschränkungen hinsichtlich der Größe von Veröffentlichungskarten, die das Guides-Team aktiv lösen möchte.
 
-Das Guides-Team hat einen skalierbaren Publishing-Microservice eingeführt, um große Karten und mehrere gleichzeitige Veröffentlichungen zu unterstützen. Weitere Informationen zum neuen Veröffentlichungs-Microservice finden Sie unter [Architektur von Publishing-Microservices](publish-microservice-architecture-and-performance.md)
+Das Guides-Team hat einen skalierbaren Publishing-Microservice eingeführt, um große Karten und mehrere gleichzeitige Veröffentlichungen zu unterstützen. Weitere Informationen zum neuen Veröffentlichungs-Microservice finden Sie unter [Architektur des Veröffentlichungs-Microservice](publish-microservice-architecture-and-performance.md)
 
-Informationen zum Konfigurieren des neuen Veröffentlichungsdienstes für AEM Cloud-Umgebung finden Sie unter [Neue mikrodienstbasierte Veröffentlichung konfigurieren](configure-microservices.md)
+Informationen zum Konfigurieren des neuen Veröffentlichungsdienstes für eine AEM Cloud-Umgebung finden Sie unter [Konfigurieren einer neuen mikrodienstbasierten Veröffentlichung](configure-microservices.md) .
 
 
 ## Ausführungsumgebung
 
-    AEM: 2023.5.11983.20230511T173830Z
-    Guide Add on Release: 2023.6.0
-    AEM Site-Vorlage: OOTB-Vorlage für AEM Guides
-    DITA-OT-Version: 3.5.4
-    Veröffentlichungs-Workflow-Typ: Veröffentlichungs-Workflow aufteilen
+    AEM Version: 2023.5.11983.20230511T173830Z
+    Anleitung Add On Release: 2023.6.0
+    AEM Site Template: AEM Guides OTB template
+    DITA-OT version: 3.5 4.4
+    Publish-Workflow-Typ: Aufspaltung des Publish-Workflows
     Vom Microservice unterstützte Ausgabe: Native PDF, PDF (Dita-OT)
 
 ## Generierungsnummern der Ausgabe

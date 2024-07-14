@@ -1,5 +1,5 @@
 ---
-title: Übersetzen von Inhalten in AEM Handbüchern
+title: Übersetzen von Inhalten in AEM Guides
 description: Erfahren Sie, wie Sie Inhalte übersetzen
 exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
@@ -23,24 +23,24 @@ Automatisieren Sie die Übersetzung von Seiteninhalten, Assets und benutzergener
 
 Die Übersetzung der Inhalte umfasst die folgenden Schritte:
 
-1. AEM mit Ihrer [Übersetzungsdienstleister](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) und erstellen [Framework-Konfigurationen für die Übersetzungsintegration](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Verbinden Sie AEM mit Ihrem [Übersetzungsdienstleister](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) und erstellen Sie [Framework-Konfigurationen für die Übersetzungsintegration](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Verknüpfen Sie die Seiten Ihres Sprach-Masters mit dem [Übersetzungsdienst- und Framework-Konfigurationen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Verknüpfen Sie die Seiten Ihres Sprach-Masters mit dem [Übersetzungsdienst und den Framework-Konfigurationen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identifizieren Sie den Typ von [zu übersetzende Inhalte](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identifizieren Sie den Typ des zu übersetzenden [Inhalts](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
 1. [Bereiten Sie die Inhalte für die Übersetzung vor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html), indem Sie den Sprachstamm und die Stammseiten der Sprachkopien erstellen.
 
-1. Erstellen [Übersetzungsprojekte](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) , um die zu übersetzenden Inhalte zu sammeln und den Übersetzungsprozess vorzubereiten.
+1. Erstellen Sie [Übersetzungsprojekte](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) , um die zu übersetzenden Inhalte zusammenzustellen und den Übersetzungsprozess vorzubereiten.
 
-1. Verwenden Sie Übersetzungsprojekte, um [Verwalten der Inhaltsübersetzung](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) -Prozess.
+1. Verwenden Sie die Übersetzungsprojekte, um den Prozess für die Inhaltsübersetzung zu verwalten.[](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html)
 
 
 Wenn Ihr Übersetzungsanbieter keinen Connector zur Integration mit AEM bereitstellt, unterstützt AEM den manuellen Export und Import von übersetzten Inhalten im XML-Format.
 
 >[!TIP]
 >
-> Siehe *Übersetzung* Informationen im Abschnitt Best Practices für Best Practices zur Übersetzung von Inhalten.
+> Best Practices zur Übersetzung von Inhalten finden Sie im Abschnitt *Übersetzung* im Best Practices-Handbuch.
 
 ## Konfigurieren der Registerkarte &quot;Übersetzung&quot;im DITA-Map-Dashboard
 
@@ -54,9 +54,9 @@ Die Option Übersetzungsregisterkarte ausblenden ist standardmäßig nicht aktiv
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle
+1. Suchen Sie nach dem Bundle **com.adobe.fmdita.config.ConfigManager** und klicken Sie darauf.
 
-1. Wählen Sie die **Registerkarte &quot;Übersetzung ausblenden&quot;** -Option, um die Registerkarte &quot;Übersetzung&quot;im Landkarten-Dashboard auszublenden.
+1. Wählen Sie die Option **Registerkarte &quot;Übersetzung ausblenden&quot;** aus, um die Registerkarte &quot;Übersetzung&quot;im Map-Dashboard auszublenden.
 
    >[!NOTE]
    >
@@ -78,17 +78,17 @@ Basierend auf dem in Ihrer Einrichtung verwendeten Übersetzungs-Workflow sollte
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle
+1. Suchen Sie nach dem Bundle **com.adobe.fmdita.config.ConfigManager** und klicken Sie darauf.
 
-1. Konfigurieren Sie die **Komponentenbasierter DITA-Übersetzungs-Workflow** -Option entsprechend Ihrer Einrichtung:
+1. Konfigurieren Sie die Option **komponentenbasierter DITA-Übersetzungs-Workflow** gemäß Ihrer Einrichtung:
 
-   - Wenn Sie menschliche Übersetzung verwenden, dann *Deaktivieren* die **Komponentenbasierter Übersetzungs-Workflow** -Option.
+   - Wenn Sie eine menschliche Übersetzung verwenden, deaktivieren Sie die Option **Arbeitsablauf für die komponentenbasierte Übersetzung** *Deaktivieren* .
 
-   - Wenn Sie maschinelle Übersetzung verwenden, dann *Aktivieren* die **Komponentenbasierter Übersetzungs-Workflow** -Option.
+   - Wenn Sie maschinelle Übersetzung verwenden, aktivieren Sie die Option **Arbeitsablauf für komponentenbasierte Übersetzung** *Aktivieren* .
 
    >[!NOTE]
    >
-   > Wenn Sie Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector wie im Abschnitt *[Konfigurieren des Übersetzungsintegrations-Frameworks](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* Thema in AEM Dokumentation.
+   > Wenn Sie Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector wie im Thema *[Konfigurieren des Übersetzungsintegrations-Frameworks](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* in AEM Dokumentation beschrieben konfiguriert haben.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -143,12 +143,12 @@ Standardmäßig ist die Option Nachbearbeitung temporärer Dateien deaktiviert. 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle
+1. Suchen Sie nach dem Bundle **com.adobe.fmdita.config.ConfigManager** und klicken Sie darauf.
 
-1. Konfigurieren Sie die **Sprachkopien nach der Verarbeitung** -Option entsprechend Ihrer Einrichtung:
+1. Konfigurieren Sie die Option **Post-Prozesssprachkopien** gemäß Ihrer Einrichtung:
 
-   - \(*Standard*\) Wenn Sie die Nachbearbeitung nicht für die temporären Dateien ausführen möchten, dann *Deaktivieren* die **Sprachkopien nach der Verarbeitung** -Option.
+   - \(*Standard*\) Wenn Sie den Nachbearbeitungsprozess nicht für die temporären Dateien ausführen möchten, deaktivieren Sie die Option *Post-Prozesssprachkopien deaktivieren*.****
 
-   - Wenn Sie die Nachbearbeitung für die temporären Dateien ausführen möchten, dann *Aktivieren* die **Sprachkopien nach der Verarbeitung** -Option.
+   - Wenn Sie die Nachbearbeitung für die temporären Dateien ausführen möchten, aktivieren Sie die Option **Post-Sprachkopien verarbeiten** , um *Aktivieren* zu aktivieren.
 
 1. Klicken Sie auf **Speichern**.

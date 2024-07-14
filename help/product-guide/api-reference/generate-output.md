@@ -22,9 +22,9 @@ Paketdetails:
 
 - Artefakt-ID: **api**
 
-- Version: **3,4**
+- Version: **3.4**
 
-- Package: ****com.adobe.fmdita.api.maps****
+- Paket: ****com.adobe.fmdita.api.maps****
 
 - Klassendetails:
 
@@ -32,12 +32,12 @@ Paketdetails:
   public class **PublishUtils** extends Object
   ```
 
-  Die **`PublishUtils`** -Klasse enthält eine Methode zum Generieren der Ausgabe für eine oder mehrere Ausgabevorgaben.
+  Die Klasse **`PublishUtils`** enthält eine Methode zum Generieren der Ausgabe für eine oder mehrere Ausgabevorgaben.
 
 
 ## Ausgabe generieren
 
-Die ``generateOutput`` -Methode generiert die Ausgabe für eine DITA-Map-Datei mithilfe der angegebenen Ausgabevorgaben.
+Die Methode ``generateOutput`` generiert die Ausgabe für eine DITA-Map-Datei mithilfe der angegebenen Ausgabevorgaben.
 
 **Syntax**:
 
@@ -48,6 +48,12 @@ String outputName)
 throws GuidesApiException
 ```
 
-**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.| |``sourcePath``|String|Pfad \(im AEM Repository\) der DITA-Map-Datei, für die die Ausgabe generiert werden muss.| |``outputName``|Zeichenfolge|Name der Ausgabevorgabe\(n\), die zum Generieren der Ausgabe verwendet werden soll. Es können mehrere Ausgabevorgaben mit einem senkrechten Strich (&quot;\|&quot;\) angegeben werden, z. B. `aemsite\|pdfoutput`.|
+**Parameter**:
+|Name|Typ|Beschreibung|
+|—|—|—|
+|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
+|``sourcePath``|String|Pfad \(im AEM Repository\) der DITA-Map-Datei, für die die Ausgabe generiert werden muss.|
+|``outputName``|String|Name der Ausgabevorgabe\(n\), die zum Generieren der Ausgabe verwendet werden soll. Mehrere Ausgabevorgaben können mit einem senkrechten Strich (&quot;\|&quot;\) angegeben werden, z. B. `aemsite\|pdfoutput`.|
 
-**Ausnahme**: Threads ``javax.jcr.RepositoryException``, `java.io.IOException`, und `java.lang.Exception`.
+**Exception**:
+Löst ``javax.jcr.RepositoryException``, `java.io.IOException` und `java.lang.Exception` aus.

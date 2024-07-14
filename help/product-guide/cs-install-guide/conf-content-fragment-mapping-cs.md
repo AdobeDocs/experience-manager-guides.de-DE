@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment
 
-AEM Guides bieten die Funktion zum Erstellen einer JSON-basierten Zuordnung zwischen einem Thema und einem Inhaltsfragmentmodell. Sie können diese Zuordnung verwenden, um Inhalte in einigen oder allen Elementen innerhalb eines Themas in einem Inhaltsfragment zu veröffentlichen.
+AEM Guides bietet die Funktion zum Erstellen einer JSON-basierten Zuordnung zwischen einem Thema und einem Inhaltsfragmentmodell. Sie können diese Zuordnung verwenden, um Inhalte in einigen oder allen Elementen innerhalb eines Themas in einem Inhaltsfragment zu veröffentlichen.
 
-1. So laden Sie die *contentFragmentMapping.json*, melden Sie sich als Administrator bei Adobe Experience Manager an.
-1. Wählen Sie oben den Link Adobe Experience Manager aus und wählen Sie **Instrumente**.
-1. Wählen Sie in der Liste der Tools die Option Guides aus und wählen Sie die **Ordnerprofile**.
-1. Wählen Sie die **Globales Profil** Kachel.
-1. Wählen Sie die **Konfiguration des XML-Editors** und wählen Sie die **Bearbeiten** Symbol oben.
-1. Wählen Sie die **Herunterladen** zum Herunterladen des *contentFragmentMapping.json*  -Datei auf Ihrem lokalen System. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
+1. Um die Datei *contentFragmentMapping.json* herunterzuladen, melden Sie sich als Administrator bei Adobe Experience Manager an.
+1. Wählen Sie oben den Adobe Experience Manager-Link und dann **Tools** aus.
+1. Wählen Sie in der Liste der Tools die Option &quot;Guides&quot;aus und wählen Sie **Ordnerprofile** aus.
+1. Wählen Sie die Kachel **Globales Profil** aus.
+1. Wählen Sie die Registerkarte **XML-Editor-Konfiguration** und dann oben das Symbol **Bearbeiten** aus.
+1. Wählen Sie das Symbol **Download** aus, um die Datei *contentFragmentMapping.json* auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
 
 1. Sie müssen die folgenden Validierungen befolgen:
 
@@ -94,4 +94,4 @@ Beispieldatei:
 ]
 ```
 
-Sie können das gesamte Thema mit der Standardzuordnung veröffentlichen. Wählen Sie die `Full Topic` Zuordnung aus der Dropdown-Liste **Inhaltsfragment generieren** und weisen das Feld &quot;topicData&quot;im Inhaltsfragmentmodell auf.
+Sie können das gesamte Thema mit der Standardzuordnung veröffentlichen. Wählen Sie die `Full Topic` -Zuordnung aus dem Dropdown-Dialogfeld **Inhaltsfragment erzeugen** aus und weisen Sie im Inhaltsfragmentmodell das Feld &quot;topicData&quot;auf.

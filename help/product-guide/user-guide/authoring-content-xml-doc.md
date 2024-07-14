@@ -1,6 +1,6 @@
 ---
-title: Verfassen von Inhalten mithilfe AEM Handbüchern
-description: Inhaltserstellung effizient mithilfe von AEM. Erfahren Sie, wie Sie Ihre Dokumente in AEM Handbüchern erstellen, bearbeiten und veröffentlichen.
+title: Inhaltserstellung mit AEM Guides
+description: Verfassen Sie Inhalte effizient mit AEM Guides. Erfahren Sie, wie Sie Ihre Dokumente in AEM Guides erstellen, bearbeiten und veröffentlichen.
 exl-id: 9e29dde4-a9de-41e0-86c8-ca949bd3669c
 feature: Authoring
 role: User
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# Verfassen von Inhalten mithilfe AEM Handbüchern {#id221EB0P0E20}
+# Inhaltserstellung mit AEM Guides {#id221EB0P0E20}
 
-AEM Guides sind mit den drei nativen Editoren ausgestattet. Sie können sie verwenden, um Ihre Dokumente zu erstellen, zu bearbeiten und zu veröffentlichen.
+AEM Guides verfügt über die drei nativen Editoren. Sie können sie verwenden, um Ihre Dokumente zu erstellen, zu bearbeiten und zu veröffentlichen.
 
-1. **Web-Editor**: Hiermit können Sie strukturierte Dokumente erstellen und bearbeiten.
-1. **Map Editor**: Verwenden Sie sie zum Erstellen und Bearbeiten von DITA-Map- und Bookmap-Dateien.
-1. **Ditaval Editor**: Verwenden Sie ihn, um eine bedingte Ausgabe zu generieren.
+1. **Web-Editor**: Verwenden Sie ihn zum Erstellen und Bearbeiten strukturierter Dokumente.
+1. **Map-Editor**: Verwenden Sie ihn zum Erstellen und Bearbeiten von DITA-Mapping- und Bookmap-Dateien.
+1. **Ditaval Editor**: Verwenden Sie ihn zum Generieren einer bedingten Ausgabe.
 
 - **[Arbeiten mit dem Web-Editor](web-editor.md)**
 

@@ -1,6 +1,6 @@
 ---
-title: Installation AEM Guides überprüfen
-description: Erfahren Sie, wie Sie die Installation AEM Guides überprüfen
+title: Überprüfen der AEM Guides-Installation
+description: Erfahren Sie, wie Sie die Installation von AEM Guides überprüfen
 exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 feature: Installation
 role: Admin
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Installation AEM Guides überprüfen {#id213BD030FBE}
+# Überprüfen der AEM Guides-Installation {#id213BD030FBE}
 
-Nach der Installation AEM Guides müssen Sie überprüfen, ob die Installation erfolgreich war oder nicht. Führen Sie die folgenden Schritte aus, um den Installationsprozess zu überprüfen:
+Nachdem Sie AEM Guides installiert haben, müssen Sie überprüfen, ob die Installation erfolgreich war oder nicht. Führen Sie die folgenden Schritte aus, um den Installationsprozess zu überprüfen:
 
 1. Melden Sie sich bei Ihrer AEM-Instanz an und navigieren Sie zur Seite AEM Web Console Bundles . Die Standard-URL für den Zugriff auf die Bundles-Seite lautet:
 
@@ -24,15 +24,15 @@ Nach der Installation AEM Guides müssen Sie überprüfen, ob die Installation e
 
    Eine Liste von Bundles wird angezeigt.
 
-1. Filtern Sie die Liste der Bundles, indem Sie das Format in das Filtertextfeld eingeben und die Eingabetaste drücken **Eingabe**.
+1. Filtern Sie die Liste der Bundles, indem Sie das Format in das Filtertextfeld eingeben und die Taste **Enter** drücken.
 
-   Die Liste der Bundles wird gefiltert, um die von AEM Guides installierten Bundles anzuzeigen. Wenn die Installation erfolgreich war, verfügen alle installierten Bundles über eine **Status** von **Aktiv**.
+   Die Liste der Bundles wird gefiltert, um die von AEM Guides installierten Bundles anzuzeigen. Wenn die Installation erfolgreich war, haben alle installierten Bundles den **Status** von **Aktiv**.
 
-   Wenn eines der Bundles keine **Aktiv** und überprüfen Sie dann die AEM, um das Installationsproblem zu beheben.
+   Wenn eines der Bundles keinen Status **Aktiv** aufweist, überprüfen Sie die AEM, um das Installationsproblem zu beheben.
 
 
 >[!IMPORTANT]
 >
-> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Siehe [Recommendations zur Leistungsoptimierung](download-install-recommend-perf-optimiz.md#) für Details.
+> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden Sie unter [Recommendations zur Leistungsoptimierung](download-install-recommend-perf-optimiz.md#).
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)

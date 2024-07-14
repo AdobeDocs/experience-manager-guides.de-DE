@@ -17,7 +17,7 @@ Nachdem Sie die Ausgabegenerierungsaufgabe für ein FrameMaker-Dokument initiier
 
 Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange anzuzeigen:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zum FrameMaker-Dokument, für das Sie den Status der Ausgabenerstellung überprüfen möchten, und klicken Sie darauf.
+1. Navigieren Sie in der Assets-Benutzeroberfläche zum Dokument FrameMaker , für das Sie den Status der Ausgabenerstellung überprüfen möchten, und klicken Sie darauf.
 
 1. Klicken Sie auf Ausgaben.
 
@@ -29,7 +29,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange 
 
      Listet die Ausgaben auf, die darauf warten, generiert zu werden oder sich im Generierungsprozess befinden. Sie finden außerdem die Einstellung zur Generierung der Ausgabe oder die Vorgabe, die für die in der Warteschlange befindliche Aufgabe verwendet wird, den Typ, den Benutzer, der die Aufgabe initiiert hat, die Zeit seit der Warteschlange der Aufgabe und den aktuellen Status.
 
-   - **Generierte Ausgaben**
+   - **Erzeugte Ausgaben**
 
      Listet die abgeschlossenen Ausgabenaufgaben auf. Auch hier werden Informationen angezeigt, die dem Abschnitt &quot;In die Warteschlange gestellte Ausgaben&quot;ähneln, mit dem einzigen Unterschied zur Zeit der Ausgabenerstellung.
 

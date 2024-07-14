@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Vorhandenen DITA-Inhalt hochladen {#id176FF000JUI}
 
-Wahrscheinlich verfügen Sie über ein Repository mit vorhandenen DITA-Inhalten, das Sie mit den AEM Guides verwenden möchten. Für solche vorhandenen Inhalte können Sie eine der unterstützten Methoden verwenden, die unter [Hinzufügen digitaler Assets zu Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html).
+Wahrscheinlich verfügen Sie über ein Repository mit vorhandenen DITA-Inhalten, das Sie mit AEM Guides verwenden möchten. Für solche vorhandenen Inhalte können Sie eine der unterstützten Methoden verwenden, die unter [Hinzufügen digitaler Assets zu Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) erläutert werden.
 
 ## Konfigurieren des UUID-Dateinamenmusters
 
@@ -24,13 +24,13 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 | PID | Eigenschaftenschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | Zeichenfolge, die das Regex für das UUID-Dateinamenmuster angibt. <br> Wenn eine Datei nicht dem angegebenen Muster entspricht, wird der Eigenschaft der Datei eine UUID hinzugefügt und alle Verweise auf die Datei werden mit der der Datei zugewiesenen UUID aktualisiert. <br> **Standardwert**: `"^GUID-(?<id>.*)"` |
+| `com.adobe.fmdita.config.ConfigManager` | `uuid.regex` | Zeichenfolge, die das Regex für das UUID-Dateinamenmuster angibt. <br> Wenn eine Datei nicht dem angegebenen Muster entspricht, wird der Eigenschaft der Datei eine UUID hinzugefügt und alle Verweise auf die Datei werden mit der der Datei zugewiesenen UID aktualisiert. <br> **Standardwert**: `"^GUID-(?<id>.*)"` |
 
 ## Verwenden von curl-Befehlen
 
 Sie können auch mithilfe von Curl-Befehlen einen Ordner in DAM erstellen, Dateien hochladen und Metadaten zum hochgeladenen Inhalt hinzufügen.
 
-**Ordner erstellen**
+**Erstellen eines Ordners**
 
 Führen Sie den folgenden Befehl aus, um einen Ordner in AEM Repository zu erstellen:
 
@@ -42,9 +42,9 @@ Geben Sie die folgenden Parameter an, um einen Ordner zu erstellen:
 
 - `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss über die Berechtigung zur Ordnererstellung verfügen.
 
-- `jcr:primaryType=sling:Folder`: Geben Sie diesen Parameter an *as is* , um eine Ressource vom Typ Ordner zu erstellen.
+- `jcr:primaryType=sling:Folder`: Geben Sie diesen Parameter *as is* an, um eine Ressource vom Typ Ordner zu erstellen.
 
-- `<server folder path>`: Vollständiger Ordnerpfad einschließlich des Namens des neuen Ordners, den Sie im AEM Repository erstellen möchten. Wenn Sie beispielsweise den Pfad als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`, dann den Ordner `AEM-Guides` wird innerhalb der `projects` Ordner in DAM.
+- `<server folder path>`: Vollständiger Ordnerpfad einschließlich des Namens des neuen Ordners, den Sie im AEM Repository erstellen möchten. Wenn Sie beispielsweise den Pfad als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides` angeben, wird der Ordner `AEM-Guides` im Ordner `projects` in DAM erstellt.
 
 
 **Datei hochladen**
@@ -57,14 +57,14 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 Geben Sie die folgenden Parameter an, um eine Datei hochzuladen:
 
-- `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss Schreibrechte für die `server folder path`.
+- `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss über Schreibberechtigungen für die `server folder path` verfügen.
 
 - ``local file path``: Vervollständigen Sie den Dateipfad auf Ihrem lokalen System, den Sie hochladen möchten.
 
 - `<server folder path>`: Füllen Sie den Ordnerpfad auf dem AEM-Server aus, auf den Sie die Datei hochladen möchten.
 
 
-**Hinzufügen von Metadaten**
+**Metadaten hinzufügen**
 
 Führen Sie den folgenden Befehl aus, um Metadaten zu einer Datei hinzuzufügen:
 
@@ -74,11 +74,11 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 Geben Sie die folgenden Parameter an, um Metadateninformationen hinzuzufügen:
 
-- `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss Schreibrechte für die ``metadata node path``.
+- `<username>:<passowrd>`: Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf das AEM-Repository an. Dieser Benutzer muss über Schreibberechtigungen für die ``metadata node path`` verfügen.
 
-- ``-F<attribute name>=<value>``: Die `<attribute name>` ist der Name des Metadatenattributs, z. B. `audience` und `<value>` könnte `internal`. Sie können mehrere Attributname-Wert-Paare, getrennt durch Leerzeichen, angeben.
+- ``-F<attribute name>=<value>``: Der `<attribute name>` ist der Name des Metadatenattributs, z. B. `audience` und der `<value>` könnte `internal` sein. Sie können mehrere Attributname-Wert-Paare, getrennt durch Leerzeichen, angeben.
 
-- `<metadata node path>`: Vollständiger Ordnerpfad einschließlich Dateiname und Metadatenknoten. Wenn Sie beispielsweise den Pfad als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`festgelegt ist, werden die angegebenen Metadateninformationen auf `intro.xml` -Datei.
+- `<metadata node path>`: Vollständiger Ordnerpfad einschließlich Dateiname und Metadatenknoten. Wenn Sie beispielsweise den Pfad als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` angeben, werden die angegebenen Metadateninformationen in der Datei `intro.xml` festgelegt.
 
 
 **Übergeordnetes Thema:**[ Migrieren vorhandener Inhalte](migrate-content.md)

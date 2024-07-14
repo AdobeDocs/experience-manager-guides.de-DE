@@ -24,13 +24,13 @@ Führen Sie die folgenden Schritte aus, um die Anzahl der Knoten zu erhöhen, di
    http://<server name>:<port>/system/console/jmx
    ```
 
-1. Suchen Sie nach und klicken Sie auf **QueryEngineSettings**.
+1. Suchen Sie nach **QueryEngineSettings** und klicken Sie darauf.
 
-1. Ändern Sie den Attributwert für **LimitReads** -Attribut.
+1. Ändern Sie den Attributwert für das Attribut **LimitReads** .
 
 1. Klicken Sie auf **Speichern**.
 
 
 Wenn Sie diesen Attributwert erhöhen, hilft Ihnen dies beim Generieren des Berichts für größere DITA-Maps.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

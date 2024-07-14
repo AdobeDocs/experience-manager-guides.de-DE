@@ -1,18 +1,19 @@
 ---
-title: Externe Datenquellenintegration für AEM Handbücher
-description: Integration von Inhaltsdatenquellen in AEM Handbücher .
+title: Externe Datenquellenintegration für AEM Guides
+description: Integration von Inhaltsdatenquellen in AEM Guides .
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 02a6c2ea-a550-49d5-ae54-1cc24ef35287
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
 
 ---
 
-# Externe Datenquellenintegration für AEM Handbücher: Wie funktioniert sie?
+# Externe Datenquellenintegration für AEM Guides: Wie funktioniert sie?
 
 Viele Unternehmenskunden verfügen über Daten, die über mehrere Datenbanken verteilt sind. Oft müssen die Daten jedoch in AEM Handbücher integriert werden, damit sie verarbeitet werden können.
-Adobe Experience Manager-Handbücher enthalten jetzt vordefinierte Connectoren für externe Datenquellen, einschließlich JIRA, PIMs, SQL Data Bases und PLMs, sodass sie zu einem echten Content Hub werden.
+Adobe Experience Manager Guides verfügt jetzt über vordefinierte Connectoren für externe Datenquellen, einschließlich JIRA, PIMs, SQL Data Bases und PLMs, wodurch es zu einem echten Content Hub wird.
 
 
 ## Sitzungsaufzeichnung
@@ -22,14 +23,14 @@ Adobe Experience Manager-Handbücher enthalten jetzt vordefinierte Connectoren f
 ## Lichter
 
 - **Datum** - 14. Dezember 2023
-- **Anzahl der TeilnehmerInnen** - 80
+- **Anzahl der Teilnehmer** - 80
 - **Dauer** - 60 Minuten
-- **Zielgruppe** - Kunden, Partner und Adobe-Mitarbeiter
+- **Audience** - Kunden, Partner und Adobe-Mitarbeiter
 
 ## Haupterkenntnisse
 
 In dieser Sitzung erfahren Sie mehr über Folgendes:
-- Eine Übersicht über Datenquellen und deren Nutzung mit AEM Handbüchern
+- Eine Übersicht über Datenquellen und ihre Nutzung mit AEM Guides
 - Einrichten der Verbindung für verschiedene Datenquellen
    - Verwendung von Velocity-Tools in den Datenquellenvorlagen
    - Arbeiten mit Zuordnungsvorlagen
@@ -43,7 +44,7 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 ## Verwandte Ressourcen
 
-- **Konfigurieren des DataSource-Connectors** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
+- **Konfigurieren des Datenquellenanschlusses** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
 
 - **Dokumentation** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
 
@@ -53,7 +54,7 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in folgenden Versionen AEM Handbücher verfügbar:
+> Die in dieser Sitzung angezeigten Funktionen sind in folgenden Versionen von AEM Guides verfügbar:
 > - Dezember 2023 (für Cloud)
 > - 4.3.1 (für Nicht-Cloud)
 
@@ -61,4 +62,4 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 ## Kontakt
 
-Für alle Fragen senden Sie uns eine E-Mail unter <techcomm@adobe.com>
+Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>

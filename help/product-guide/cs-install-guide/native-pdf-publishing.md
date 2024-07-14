@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Native PDF-Veröffentlichung
 
-Mit AEM Guides können Sie mithilfe der Funktion Native PDF-Generierung PDF aus einzelnen Themen oder einer Map-Datei generieren. Sie können PDF-Vorlagen beim Generieren der PDF-Ausgabe anpassen und verwenden. Sie können Seitenlayouts erstellen und entwerfen, um die verschiedenen Bereiche in der PDF-Ausgabe entsprechend Ihren Anforderungen darzustellen.
+Mit AEM Guides können Sie mithilfe der Funktion zur Generierung nativer PDF PDF aus einzelnen Themen oder einer Map-Datei generieren. Sie können PDF-Vorlagen beim Generieren der PDF-Ausgabe anpassen und verwenden. Sie können Seitenlayouts erstellen und entwerfen, um die verschiedenen Bereiche in der PDF-Ausgabe entsprechend Ihren Anforderungen darzustellen.
 
-Darüber hinaus unterstützen AEM Guides auch Sprachvariablen, mit denen Sie lokalisierte Zeichenfolgen definieren können. Außerdem können Sie Stile für verschiedene Elemente definieren, die in Ihrer PDF-Ausgabe vorhanden sind. Wenn Sie ein fortgeschrittener Benutzer sind, können Sie auch direkt mit CSS arbeiten, um erweiterte Seitenlayouts zu erstellen.
+Darüber hinaus unterstützt AEM Guides auch Sprachvariablen, mit denen Sie lokalisierte Zeichenfolgen definieren können. Außerdem können Sie Stile für verschiedene Elemente definieren, die in Ihrer PDF-Ausgabe vorhanden sind. Wenn Sie ein fortgeschrittener Benutzer sind, können Sie auch direkt mit CSS arbeiten, um erweiterte Seitenlayouts zu erstellen.
 
 
 Weitere Informationen finden Sie unter:

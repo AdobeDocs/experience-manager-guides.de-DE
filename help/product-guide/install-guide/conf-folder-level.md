@@ -16,7 +16,7 @@ ht-degree: 0%
 
 In einem Unternehmen können verschiedene Gruppen oder Produkte verschiedene Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Web-Editor-Konfigurationen verwenden. Die Konfiguration dieser Vorlagen nur auf Unternehmensebene (oder global\) kann Autoren das Erlebnis erschweren, da sie Vorlagen oder Profile sehen, die für sie nicht relevant sind.
 
-AEM Guides ermöglichen die Konfiguration von Authoring- \(Thema- oder Zuordnungsvorlagen), Ausgabevorlagen, bedingten Attributen und Web-Editor-Konfigurationen auf Unternehmensebene \(global\) sowie auf Ordnerebene. Auf diese Weise können Sie die Konfigurationen für verschiedene Abteilungen oder Produkte in Ihrem Unternehmen trennen.
+Mit AEM Guides können Sie Authoring- \(Themen- oder Zuordnungsvorlagen), Ausgabevorlagen, bedingte Attribute und Web-Editor-Konfigurationen auf Unternehmens- \(global\)- sowie Ordnerebene konfigurieren. Auf diese Weise können Sie die Konfigurationen für verschiedene Abteilungen oder Produkte in Ihrem Unternehmen trennen.
 
 Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung oder Produktadministratoren delegieren, um die Verwaltung zu dezentralisieren.
 
@@ -28,11 +28,11 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
 - **Bedingte Attribute**: Verwenden Sie diese Registerkarte, um bedingte Attribute auf globaler oder Ordnerebene zu konfigurieren. Ein bedingtes Attribut ist eine Kombination aus Attributname und -wert und Sie können auch eine Bezeichnung dafür definieren. Sie können die standardmäßigen DITA-Attribute oder Ihre eigenen benutzerdefinierten Attribute verwenden. Die von Ihnen auf globaler Ebene definierten bedingten Attribute werden allen Benutzern projektübergreifend zur Verfügung gestellt. Wenn Sie bedingte Attribute auf Ordnerebene definiert haben, werden sie mit den global definierten bedingten Attributen zusammengeführt.
 
-- **Authoring-Vorlage**: Auf dieser Registerkarte können Sie die Vorlagen konfigurieren, die Ihre Autoren zum Erstellen von DITA-Inhalten verwenden werden. Die folgenden Themenvorlagen sind standardmäßig verfügbar:
+- **Authoring-Vorlage**: Verwenden Sie diese Registerkarte, um die Vorlagen zu konfigurieren, die Ihre Autoren zum Erstellen von DITA-Inhalten verwenden werden. Die folgenden Themenvorlagen sind standardmäßig verfügbar:
 
    - Glossar
 
-   - Verweis
+   - Referenz
 
    - Thema
 
@@ -56,7 +56,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
    - Lesezeichen
 
-- **Ausgabevorgabe**: Ähnlich wie bei Authoring-Vorlagen gibt es fünf vorkonfigurierte Ausgabevorgaben:
+- **Ausgabevorgabe**: Ähnlich wie bei Bearbeitungsvorlagen gibt es fünf vorkonfigurierte Ausgabevorgaben:
 
    - AEM Site
 
@@ -68,9 +68,9 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
    - Benutzerdefiniert
 
-  Herausgeber können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des Profils auf globaler oder Ordnerebene konfiguriert werden. Nach der Konfiguration stehen die Veröffentlichungsvorgaben den Herausgebern für neu erstellte DITA-Maps zur Verfügung. Sie können Veröffentlichungsvorgaben auch auf vorhandene DITA-Maps anwenden, siehe [Vorgabenänderungen anwenden](#id18AGD0K0OHS) für weitere Details.
+  Herausgeber können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des Profils auf globaler oder Ordnerebene konfiguriert werden. Nach der Konfiguration stehen die Veröffentlichungsvorgaben den Herausgebern für neu erstellte DITA-Maps zur Verfügung. Sie können Veröffentlichungsvorgaben auch auf vorhandene DITA-Maps anwenden. Weitere Informationen finden Sie unter [Anwenden von Vorgabenänderungen](#id18AGD0K0OHS) .
 
-- **XML-Editor-Konfigurationen**: Verwenden Sie diese Registerkarte, um das Erscheinungsbild und die verschiedenen Funktionen des Web-Editors anzupassen. Die folgenden konfigurierbaren Einstellungen sind für den Web Editor verfügbar:
+- **XML-Editor-Konfigurationen**: Verwenden Sie diese Registerkarte, um das Erscheinungsbild und die verschiedenen Funktionen des Web Editors anzupassen. Die folgenden konfigurierbaren Einstellungen sind für den Web Editor verfügbar:
 
    - Konfiguration der Benutzeroberfläche des XML-Editors
    - CSS-Vorlagenlayout
@@ -90,25 +90,25 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Melden Sie sich bei Adobe Experience Manager als Administrator an.
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die Schaltfläche **Ordnerprofile**.
+1. Wählen Sie **Handbücher** aus der Liste der Tools und klicken Sie auf **Ordnerprofile**.
 
    Zum ersten Mal wird die Seite Ordnerprofile nur mit der Kachel Globales Profil angezeigt.
 
    ![](assets/folder-profile-global.png){width="800" align="left"}
 
-1. Klicken Sie auf **Globales Profil** Kachel.
+1. Klicken Sie auf die Kachel **Globales Profil** .
 
-1. So konfigurieren Sie **Bedingte Attribute**, siehe [Bedingte Attribute für globale Profile oder Profile auf Ordnerebene konfigurieren](#id1889D0I305Z).
+1. Informationen zum Konfigurieren von **Bedingten Attributen** finden Sie unter [Bedingte Attribute für globale Profile oder Profile auf Ordnerebene konfigurieren](#id1889D0I305Z).
 
-1. So konfigurieren Sie **Authoring-Vorlage**, siehe [Authoring-Vorlagen konfigurieren](#id1889D0IL0Y4).
+1. Informationen zum Konfigurieren von **Authoring-Vorlage** finden Sie unter [Konfigurieren von Authoring-Vorlagen](#id1889D0IL0Y4).
 
-1. So konfigurieren Sie **Ausgabevorgaben**, siehe [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
+1. Informationen zum Konfigurieren von **Ausgabevorgaben** finden Sie unter [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der Konfiguration des XML-Editors finden Sie unter [Konfigurieren und Anpassen des XML Web Editor](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der Konfiguration des XML-Editors finden Sie unter [Konfigurieren und Anpassen des XML-Web-Editors](#id2065G300O5Z).
 
-1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie die **Globales Profil**.
+1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie das **globale Profil**.
 
 
 ## Erstellen und Konfigurieren eines Profils auf Ordnerebene
@@ -117,9 +117,9 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
 
 1. Melden Sie sich bei Adobe Experience Manager als Administrator an.
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die **Ordnerprofile** Kachel.
+1. Wählen Sie **Guides** aus der Liste der Tools und klicken Sie auf die Kachel **Ordnerprofile** .
 
    Zum ersten Mal wird die Seite Ordnerprofile nur mit der Standardkachel Globales Profil angezeigt.
 
@@ -127,7 +127,7 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
 
    ![](assets/create-folder-profile.png){width="300" align="left"}
 
-1. Geben Sie die folgenden Details in die **Ordnerprofil erstellen** dialog:
+1. Geben Sie die folgenden Details in das Dialogfeld **Ordnerprofil erstellen** ein:
    - Name des Ordnerprofils.
    - Pfad des Ordners, in dem das Profil anwendbar sein soll.
 
@@ -143,7 +143,7 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
 
    Es wird eine Registerkarte Allgemein mit dem Namen des Ordnerprofils und den konfigurierten Ordnerinformationen angezeigt.
 
-1. Klicks **Bearbeiten** , um mehrere Ordner und Benutzer hinzuzufügen, die Administratorzugriff haben, um das Ordnerprofil zu ändern.
+1. Klicken Sie auf **Bearbeiten** , um mehrere Ordner und Benutzer hinzuzufügen, die Administratorzugriff haben, um das Ordnerprofil zu ändern.
 
    >[!NOTE]
    >
@@ -155,13 +155,13 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
    >
    > Stellen Sie sicher, dass dem Ordner, den Sie hier auswählen, kein anderes Profil auf Ordnerebene zugeordnet ist.
 
-1. Um einen Benutzer hinzuzufügen, wählen Sie einen Benutzer aus der **Admin-Benutzer** und klicken Sie auf **Hinzufügen**.
+1. Um einen Benutzer hinzuzufügen, wählen Sie einen Benutzer aus der Dropdownliste **Admin-Benutzer** aus und klicken Sie auf **Hinzufügen**.
 
    >[!NOTE]
    >
    > Sie können dem Ordnerprofil aus der Dropdownliste mehrere Benutzer hinzufügen. Sie können auch einen vorhandenen Administrator aus der Liste entfernen, indem Sie auf das Löschsymbol neben der Benutzer-ID klicken.
 
-1. Klicken Sie nach dem Hinzufügen aller erforderlichen Ordner und Benutzer zum Ordnerprofil auf **Speichern**.
+1. Nachdem Sie alle erforderlichen Ordner und Benutzer zum Ordnerprofil hinzugefügt haben, klicken Sie auf **Speichern**.
 
 
 Jetzt können Sie die bedingten Attribute, Bearbeitungsvorlagen, Ausgabevorgaben und den XML-Editor konfigurieren.
@@ -176,9 +176,9 @@ Führen Sie die folgenden Schritte aus, um standardmäßige DITA-unterstützte b
 
 1. Melden Sie sich bei Adobe Experience Manager als Administrator oder Benutzer mit Administratorrechten für ein Profil auf Ordnerebene an.
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die **Ordnerprofile** Kachel.
+1. Wählen Sie **Guides** aus der Liste der Tools und klicken Sie auf die Kachel **Ordnerprofile** .
 
 1. Klicken Sie auf die Profilkachel, die Sie konfigurieren möchten.
 
@@ -186,28 +186,28 @@ Führen Sie die folgenden Schritte aus, um standardmäßige DITA-unterstützte b
    >
    > Sie können bedingte Attribute im Profil &quot;Global&quot;oder in einem Profil auf Ordnerebene konfigurieren.
 
-1. Klicken Sie auf der Profilseite auf die **Bedingte Attribute** Registerkarte.
+1. Klicken Sie auf der Profilseite auf die Registerkarte **Bedingte Attribute** .
 
 1. Klicken Sie auf **Bearbeiten**.
 
 1. Klicken Sie auf **Hinzufügen**.
 
-1. Geben Sie die **Name**, **Wert** und ein **Titel** für das bedingte Attribut.
+1. Geben Sie den **Namen**, den **Wert** und eine **Bezeichnung** für das bedingte Attribut ein.
 
    Sie können ein Profil mit nur dem Attributnamen speichern. Ein Attribut kann jedoch nur verwendet werden, wenn dafür ein Wert angegeben ist. Wenn Sie für ein Attribut - Wert und Titel angeben, zeigt der Web Editor die Bezeichnung des bedingten Attributs an. Außerdem wird der Titel dem Publishing-Administrator zum Zeitpunkt der Erstellung einer bedingten Vorgabe angezeigt.
 
-   Der folgende Screenshot zeigt die Definition für die `platform` -Attribut mit möglichen Werten und Bezeichnungen.
+   Der folgende Screenshot zeigt die Definition des Attributs `platform` mit möglichen Werten und Bezeichnungen.
 
    ![](assets/add_profile.png){width="650" align="left"}
 
-1. Wenn Sie weitere Werte für dasselbe Attribut hinzufügen möchten, klicken Sie auf die **+** und geben Sie den zusätzlichen Wert und die Bezeichnung ein.
+1. Wenn Sie weitere Werte für dasselbe Attribut hinzufügen möchten, klicken Sie auf das Symbol **+** und geben Sie den zusätzlichen Wert und die Beschriftung ein.
 
 1. Wenn Sie weitere Attribute hinzufügen möchten, klicken Sie auf **Hinzufügen**.
 
 1. Klicken Sie auf **Speichern**.
 
 
-**Verwenden benutzerdefinierter Attribute**
+**Benutzerdefinierte Attribute verwenden**
 
 Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültiges DITA-Attribut handeln, das von der DTD unterstützt wird. Wenn Sie ein beliebiges Attribut verwenden möchten, das kein standardmäßiges DITA-Attribut ist, führen Sie die folgenden zusätzlichen Schritte aus:
 
@@ -217,11 +217,11 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
 
    >[!IMPORTANT]
    >
-   > Die spezielle DTD-Datei sollte Teil der Bereitstellung von benutzerspezifischem Code sein. DTDs unter /etc sind Teil der Produktbereitstellung und werden daher bei der Installation neuer Versionen überschrieben. Es wird empfohlen, spezialisierte DTD unter /apps im Projektordner hinzuzufügen und den DTD/Katalogpfad in das DITA-Profil einzuschließen. Weitere Informationen finden Sie unter [Integrieren der DITA-Spezialisierung](dita-ot-specialization.md#id211MB0E00XA).
+   > Die spezielle DTD-Datei sollte Teil der Bereitstellung von benutzerspezifischem Code sein. DTDs unter /etc sind Teil der Produktbereitstellung und werden daher bei der Installation neuer Versionen überschrieben. Es wird empfohlen, unter /apps im Projektordner eine spezielle DTD hinzuzufügen und den DTD/Katalogpfad in das DITA-Profil einzuschließen. Weitere Informationen finden Sie unter [DITA-Spezialisierung integrieren](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Öffnen Sie die Seite Adobe Experience Manager Web Console Configuration .
 
-1. Suchen Sie nach und klicken Sie auf *com.adobe.fmdita.config.ConfigManager* Bundle
+1. Suchen Sie nach dem Bundle *com.adobe.fmdita.config.ConfigManager* und klicken Sie darauf.
 
 1. Speichern Sie die Konfiguration.
 
@@ -231,9 +231,9 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
 
    /libs/fmdita/config/condAttrList.xml
 
-1. Erstellen Sie einen Überlagerungsknoten des `config` -Ordner in `apps` Knoten.
+1. Erstellen Sie einen Überlagerungsknoten des Ordners `config` im Knoten `apps` .
 
-1. Navigieren Sie zur Datei &quot;condAttrList.xml&quot;und fügen Sie sie der Datei &quot;condAttrList.xml&quot;im `apps` node:
+1. Navigieren Sie zur Datei &quot;condAttrList.xml&quot;und fügen Sie sie im Knoten `apps` hinzu:
 
    `/apps/fmdita/config/condAttrList.xml`
 
@@ -244,17 +244,17 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
 
 ## Authoring-Vorlagen konfigurieren {#id1889D0IL0Y4}
 
-AEM Guides sind mit 7 nativen Bearbeitungsvorlagen und 2 DITA-Zuordnungsvorlagen ausgestattet. Sie können festlegen, dass nur einige Vorlagen für Ihre Autoren verfügbar sind. Wenn Sie eine benutzerdefinierte Vorlage verwenden, kann diese konfiguriert und für das Authoring bereitgestellt werden. Auf der Registerkarte &quot;Authoring-Vorlage&quot;in der Konfiguration von Ordnerprofilen können Sie Themen- oder Zuordnungsvorlagen aus globalen Profilen oder Profilen auf Ordnerebene hinzufügen oder entfernen.
+AEM Guides verfügt über 7 vordefinierte Bearbeitungsvorlagen und 2 DITA-Zuordnungsvorlagen. Sie können festlegen, dass nur einige Vorlagen für Ihre Autoren verfügbar sind. Wenn Sie eine benutzerdefinierte Vorlage verwenden, kann diese konfiguriert und für das Authoring bereitgestellt werden. Auf der Registerkarte &quot;Authoring-Vorlage&quot;in der Konfiguration von Ordnerprofilen können Sie Themen- oder Zuordnungsvorlagen aus globalen Profilen oder Profilen auf Ordnerebene hinzufügen oder entfernen.
 
-Sie können auch vor dem Konfigurieren der Themen- oder Zuordnungsvorlagen auf globaler oder Ordnerebene einen Speicherort für Ihre benutzerdefinierten Authoring-Vorlagen definieren. Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts zum Speichern von Bearbeitungsvorlagen finden Sie unter [Benutzerdefinierten DITA-Vorlagenordnerpfad konfigurieren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Sie können auch vor dem Konfigurieren der Themen- oder Zuordnungsvorlagen auf globaler oder Ordnerebene einen Speicherort für Ihre benutzerdefinierten Authoring-Vorlagen definieren. Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts zum Speichern von Authoring-Vorlagen finden Sie unter [Ordnerpfad für benutzerdefinierte DITA-Vorlagen konfigurieren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
 Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen zu einem Ordnerprofil hinzuzufügen:
 
 1. Melden Sie sich bei Adobe Experience Manager als Administrator oder Benutzer mit Administratorrechten für ein Profil auf Ordnerebene an.
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die **Ordnerprofile** Kachel.
+1. Wählen Sie **Guides** aus der Liste der Tools und klicken Sie auf die Kachel **Ordnerprofile** .
 
 1. Klicken Sie auf die Profilkachel, die Sie konfigurieren möchten.
 
@@ -262,14 +262,14 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
    >
    > Sie können die Authoring-Vorlage im Profil &quot;Global&quot;oder in einem Profil auf Ordnerebene konfigurieren.
 
-1. Klicken Sie auf der Profilseite auf die **Authoring-Vorlage** Registerkarte.
+1. Klicken Sie auf der Profilseite auf die Registerkarte **Authoring Template** .
 1. Klicken Sie auf **Bearbeiten**.
 
    Sie erhalten die Optionen zum Hinzufügen von Themen- und Zuordnungsvorlagen, indem Sie vom Standardspeicherort aus suchen oder nach ihnen suchen.
 
    >[!NOTE]
    >
-   > Standardmäßig werden alle Authoring-Vorlagen im Ordner /content/dam/dita-templates gespeichert. Die `dita-templates` Ordner enthält `topics` und `maps` Unterordner zum Speichern der Themen- und Zuordnungsvorlagen. Sie können Ihre benutzerdefinierten Vorlagen \(.dita,.xml oder .ditamapfiles\) in die Standardordner für Vorlagen einfügen. Nachdem Sie Ihre Vorlage im Standardordner hinzugefügt haben, können Sie sie dem globalen Ordner oder dem Ordnerprofil hinzufügen. Weitere Informationen zum Erstellen benutzerdefinierter Vorlagen mit dem Web Editor finden Sie unter [Benutzerdefinierte Authoring-Vorlage erstellen](#id1917D0EG0HJ).
+   > Standardmäßig werden alle Authoring-Vorlagen im Ordner /content/dam/dita-templates gespeichert. Der Ordner &quot;`dita-templates`&quot; enthält die Unterordner &quot;`topics`&quot; und &quot;`maps`&quot;, in denen die Themen- und Zuordnungsvorlagen gespeichert werden. Sie können Ihre benutzerdefinierten Vorlagen \(.dita,.xml oder .ditamapfiles\) in die Standardordner für Vorlagen einfügen. Nachdem Sie Ihre Vorlage im Standardordner hinzugefügt haben, können Sie sie dem globalen Ordner oder dem Ordnerprofil hinzufügen. Weitere Informationen zum Erstellen benutzerdefinierter Vorlagen mit dem Web Editor finden Sie unter [Erstellen einer benutzerdefinierten Authoring-Vorlage](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="550" align="left"}
 
@@ -277,11 +277,11 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
 
    Um eine Vorlage hinzuzufügen, führen Sie einen der folgenden Schritte aus:
 
-   - Auswählen **Suche oder Typ** und geben Sie den Namen einer Vorlage ein oder wählen Sie ihn aus der Dropdown-Liste aus. Die Dropdown-Liste enthält alle Standardvorlagen und alle neuen Vorlagen, die Sie erstellt haben.
+   - Wählen Sie **Suche oder Typ** aus und geben Sie den Namen einer Vorlage ein oder wählen Sie ihn aus der Dropdownliste aus. Die Dropdown-Liste enthält alle Standardvorlagen und alle neuen Vorlagen, die Sie erstellt haben.
 
      ![](assets/default-template-list.png){width="350" align="left"}
 
-   - Klicks **Durchsuchen** und wählen Sie eine Vorlage aus DAM aus.
+   - Klicken Sie auf **Durchsuchen** und wählen Sie eine Vorlage aus DAM aus.
 
 1. Klicken Sie auf **Hinzufügen**.
 
@@ -300,7 +300,7 @@ Falls Sie die Vorlagen für ein Profil auf Ordnerebene konfiguriert haben, werde
 
 ## Benutzerdefinierte Authoring-Vorlage erstellen {#id1917D0EG0HJ}
 
-AEM Guides bieten eine einfache Möglichkeit, Authoring-Vorlagen zu erstellen. Als Systemadministrator können Sie den Web Editor verwenden, um von Grund auf Bearbeitungsvorlagen zu erstellen. Anschließend können Sie die neue Vorlage im globalen Profil hinzufügen oder sie mithilfe des ordnerspezifischen Profils einem bestimmten Ordner zuweisen.
+AEM Guides bietet eine einfache Möglichkeit, Bearbeitungsvorlagen zu erstellen. Als Systemadministrator können Sie den Web Editor verwenden, um von Grund auf Bearbeitungsvorlagen zu erstellen. Anschließend können Sie die neue Vorlage im globalen Profil hinzufügen oder sie mithilfe des ordnerspezifischen Profils einem bestimmten Ordner zuweisen.
 
 Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Authoring-Vorlage zu erstellen:
 
@@ -310,9 +310,9 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Authoring-Vor
 
    >[!NOTE]
    >
-   > Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts zum Speichern von Themen oder Zuordnungsvorlagen finden Sie unter [Benutzerdefinierten DITA-Vorlagenordnerpfad konfigurieren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
+   > Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts zum Speichern von Themen- oder Zuordnungsvorlagen finden Sie unter [Pfad des benutzerdefinierten DITA-Vorlagenordners konfigurieren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
 
-1. Klicks **Erstellen** \> **DITA-Vorlage**.
+1. Klicken Sie auf **Erstellen** \> **DITA-Vorlage**.
 
 1. Wählen Sie auf der Blueprint-Seite den Typ der DITA-Themenvorlage aus, die Sie erstellen möchten.
 
@@ -322,13 +322,13 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Authoring-Vor
 
 1. Klicken Sie auf **Weiter**.
 
-1. Geben Sie auf der Seite mit den neuen Vorlageneigenschaften eine **Titel**, **Name**, und **Beschreibung** für die Vorlage.
+1. Geben Sie auf der neuen Seite &quot;Vorlageneigenschaften&quot;einen **Titel**, einen **Namen** und eine **Beschreibung** für die Vorlage ein.
 
    >[!NOTE]
    >
    > Der Name wird basierend auf dem Titel der Vorlage automatisch vorgeschlagen. Wenn Sie den Namen manuell angeben möchten, stellen Sie sicher, dass der Name keine Leerzeichen, Apostroph oder Klammern enthält und mit .dita endet.
 
-1. *\(Optional\)* Klicken Sie auf **Miniatur hinzufügen** zum Browser für und wählen Sie eine Miniaturansicht aus, die mit Ihrer Vorlage verknüpft werden soll.
+1. *\(Optional\)* Klicken Sie auf die Schaltfläche &quot;**Miniatur hinzufügen**&quot;, um im Browser eine Miniaturansicht anzuzeigen, und wählen Sie eine Miniaturansicht aus, die mit Ihrer Vorlage verknüpft werden soll.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -345,15 +345,15 @@ Mit AEM Guides kann der Administrator Ausgabevorgaben mit bestimmten Einstellung
 
 Nachdem die standardmäßigen Ausgabevorgaben im System erstellt wurden, verwenden alle DITA-Maps, die danach erstellt wurden, die Standardvorgaben zum Generieren der Ausgabe. Alle vorhandenen DITA-Maps verwenden jedoch weiterhin die Ausgabevorgaben, die zuvor mit ihnen konfiguriert wurden. Wenn Sie die neue Ausgabevorgabe auf alle vorhandenen DITA-Maps anwenden möchten, müssen Sie den Workflow Vorgabenänderungen anwenden ausführen.
 
-Zusätzlich zu den auf globaler oder Unternehmensebene konfigurierten Vorgaben hätte ein Herausgeber weiterhin die Berechtigung, mehr Ausgabevorgaben zu erstellen. Diese Vorgaben sind jedoch an die DITA-Map gebunden, für die sie erstellt werden. Weitere Informationen zum Erstellen regulärer Ausgabevorgaben für eine DITA-Zuordnung finden Sie unter *Ausgabevorgabe erstellen, bearbeiten, duplizieren oder entfernen* im *Verwenden von Adobe Experience Manager-Handbüchern*.
+Zusätzlich zu den auf globaler oder Unternehmensebene konfigurierten Vorgaben hätte ein Herausgeber weiterhin die Berechtigung, mehr Ausgabevorgaben zu erstellen. Diese Vorgaben sind jedoch an die DITA-Map gebunden, für die sie erstellt werden. Weitere Informationen zum Erstellen regulärer Ausgabevorgaben für eine DITA-Zuordnung finden Sie unter *Erstellen, Bearbeiten, Duplizieren oder Entfernen einer Ausgabevorgabe* in der Datei *Verwenden von Adobe Experience Manager Guides*.
 
 Führen Sie die folgenden Schritte aus, um globale oder ordnerspezifische Ausgabevorgaben zu konfigurieren:
 
 1. Melden Sie sich bei Adobe Experience Manager als Administrator oder Benutzer mit Administratorrechten für ein ordnerspezifisches Profil an.
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die **Ordnerprofile** Kachel.
+1. Wählen Sie **Guides** aus der Liste der Tools und klicken Sie auf die Kachel **Ordnerprofile** .
 
 1. Klicken Sie auf die Profilkachel, die Sie konfigurieren möchten.
 
@@ -361,20 +361,20 @@ Führen Sie die folgenden Schritte aus, um globale oder ordnerspezifische Ausgab
    >
    > Sie können Ausgabevorgaben im globalen Profil oder in einem ordnerspezifischen Profil konfigurieren.
 
-1. Auf der Profilseite. Klicken Sie auf **Ausgabevorgaben** Registerkarte.
+1. Auf der Profilseite. Klicken Sie auf die Registerkarte **Ausgabevorgaben**.
 
    Es wird eine Liste mit vordefinierten Ausgabevorgaben angezeigt, die AEM Site, PDF, HTML5, EPUB und benutzerdefiniertes Modell umfasst.
 
 1. Führen Sie einen der folgenden Schritte aus, um eine Ausgabevorgabe zu erstellen oder zu bearbeiten:
 
-   - Klicks **Erstellen** , um eine neue Ausgabevorgabe von Grund auf neu zu erstellen.
+   - Klicken Sie auf **Erstellen** , um eine neue Ausgabevorgabe von Grund auf neu zu erstellen.
    - Klicken Sie auf Duplizieren , um eine Kopie der ausgewählten Ausgabevorgabe zu erstellen. Sie können Änderungen an der duplizierten Vorgabe vornehmen und sie speichern.
 
-   - Klicks **Bearbeiten** , um die Konfiguration der ausgewählten Vorgabe zur Bearbeitung zu öffnen.
+   - Klicken Sie auf **Bearbeiten** , um die Konfiguration der ausgewählten Vorgabe zur Bearbeitung zu öffnen.
 
-     Weitere Informationen zu den Ausgabevorgabeneinstellungen finden Sie unter *Grundlegendes zu den Ausgabevorgaben* in den Benutzerhandbüchern zu Adobe Experience Manager.
+     Weitere Informationen zu den Ausgabevorgabeneinstellungen finden Sie unter *Grundlegendes zu den Ausgabevorgaben* in &quot;Verwenden von Adobe Experience Manager Guides&quot;.
 
-1. Klicks **Speichern** , um die Voreinstellungen zu speichern.
+1. Klicken Sie auf **Speichern** , um die Vorgabeneinstellungen zu speichern.
 
 
 Alle DITA-Maps, die danach erstellt oder hochgeladen wurden, verfügen über die neue oder aktualisierte Ausgabevorgabe.
@@ -387,9 +387,9 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 1. Melden Sie sich bei Adobe Experience Manager als Administrator oder Benutzer mit Administratorrechten für ein ordnerspezifisches Profil an.
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Auswählen **Handbücher** aus der Liste der Tools und klicken Sie auf die **Ordnerprofile** Kachel.
+1. Wählen Sie **Guides** aus der Liste der Tools und klicken Sie auf die Kachel **Ordnerprofile** .
 
 1. Klicken Sie auf die Profilkachel, die Sie konfigurieren möchten.
 
@@ -397,21 +397,21 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
    >
    > Sie können Ausgabevorgaben im globalen Profil oder in einem ordnerspezifischen Profil konfigurieren.
 
-1. Auf der Profilseite. Klicken Sie auf **Ausgabevorgaben** Registerkarte.
+1. Auf der Profilseite. Klicken Sie auf die Registerkarte **Ausgabevorgaben**.
 
    Es wird eine Liste mit vordefinierten Ausgabevorgaben angezeigt, die AEM Site, PDF, HTML5, EPUB und benutzerdefiniertes Modell umfasst.
 
 1. Wählen Sie die Ausgabevorgabe aus, die Sie auf vorhandene DITA-Maps anwenden möchten.
 
-1. Klicks **Anwenden von Vorgabenänderungen** in der Hauptsymbolleiste.
+1. Klicken Sie in der Hauptsymbolleiste auf **Vorgabenänderungen anwenden** .
 
 1. Im Dialogfeld Vorgabenänderungen anwenden können Sie aus folgenden Optionen auswählen:
 
-   - **Auswählen der Option &quot;Vorhandene Vorgabe überschreiben&quot;**: Wenn Sie diese Option auswählen, überschreiben alle Aktualisierungen, die Sie in den vorhandenen Ausgabevorgaben vorgenommen haben, die Einstellungen in allen vorhandenen DITA-Maps, in denen diese Vorgabe verwendet wird. Dies führt jedoch zum Verlust vorhandener bedingter Vorgabe- und Basisinformationen, die mit der Zuordnung verknüpft sind.
+   - **Auswahl der Option &quot;Vorhandene Vorgabe überschreiben&quot;**: Wenn Sie diese Option auswählen, werden die Einstellungen aller Aktualisierungen, die Sie in den vorhandenen Ausgabevorgaben vorgenommen haben, in allen vorhandenen DITA-Maps überschrieben, in denen diese Vorgabe verwendet wird. Dies führt jedoch zum Verlust vorhandener bedingter Vorgabe- und Basisinformationen, die mit der Zuordnung verknüpft sind.
 
-   - **Nicht auswählen Option &quot;Vorhandene Vorgabe überschreiben&quot;**: Wenn Sie diese Option nicht auswählen, wirken sich die Aktualisierungen, die Sie in den vorhandenen Ausgabevorgaben vorgenommen haben, nicht auf die vorhandenen DITA-Maps aus. Nur die neu hinzugefügten Vorgaben werden zu den vorhandenen DITA-Maps hinzugefügt. Beachten Sie, dass die neu erstellte DITA-Zuordnung sowohl die aktualisierten Ausgabevorgaben als auch die neu hinzugefügten Vorgaben erhält.
+   - **Nicht die Option &quot;Vorhandene Vorgabe überschreiben&quot;auswählen**: Wenn Sie diese Option nicht auswählen, wirken sich die von Ihnen in den vorhandenen Ausgabevorgaben vorgenommenen Aktualisierungen nicht auf die vorhandenen DITA-Maps aus. Nur die neu hinzugefügten Vorgaben werden zu den vorhandenen DITA-Maps hinzugefügt. Beachten Sie, dass die neu erstellte DITA-Zuordnung sowohl die aktualisierten Ausgabevorgaben als auch die neu hinzugefügten Vorgaben erhält.
 
-1. Klicks **OK** , um Änderungen aus den ausgewählten Ausgabevorgaben auf alle vorhandenen DITA-Maps anzuwenden.
+1. Klicken Sie auf **OK** , um Änderungen von den ausgewählten Ausgabevorgaben auf alle vorhandenen DITA-Maps anzuwenden.
 
 
 ## Konfigurieren und Anpassen des XML Web Editor {#id2065G300O5Z}
@@ -420,7 +420,7 @@ Standardmäßig enthält der XML-Web-Editor eine Vielzahl von Funktionen, die Ih
 
 **Konfiguration der Benutzeroberfläche des XML-Editors**
 
-Diese Einstellung steuert die Symbolleiste und die anderen Elemente der Benutzeroberfläche des Web-Editors. Klicken Sie auf **Herunterladen** -Symbol, um die neueste Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und die Datei hochladen. Klicken Sie auf **Download-Standard**-Symbol, um die Standarddatei ui\_config.json auf Ihr lokales System herunterzuladen. Sie können die Standarddatei jederzeit herunterladen, Änderungen daran vornehmen und sie hochladen. Abhängig davon, wo Sie die Datei hochladen, ob es sich um ein globales Profil oder ein Profil auf Ordnerebene handelt, werden die Änderungen entsprechend angewendet. Weitere Informationen zum Anpassen des XML-Editors mithilfe der Datei ui\_config.json finden Sie unter [Symbolleiste anpassen](conf-web-editor-customize-toolbar.md#).
+Diese Einstellung steuert die Symbolleiste und die anderen Elemente der Benutzeroberfläche des Web-Editors. Klicken Sie auf das Symbol **Download** , um die neueste Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und die Datei hochladen. Klicken Sie auf das Symbol **Standard herunterladen** , um die Standarddatei ui\_config.json auf Ihr lokales System herunterzuladen. Sie können die Standarddatei jederzeit herunterladen, Änderungen daran vornehmen und sie hochladen. Abhängig davon, wo Sie die Datei hochladen, ob es sich um ein globales Profil oder ein Profil auf Ordnerebene handelt, werden die Änderungen entsprechend angewendet. Weitere Informationen zum Anpassen des XML-Editors mithilfe der Datei ui\_config.json finden Sie unter [Anpassen der Symbolleiste](conf-web-editor-customize-toolbar.md#).
 
 **CSS-Vorlagenlayout**
 
@@ -454,7 +454,7 @@ Die folgenden Details sind zum Erstellen eines Snippets erforderlich:
 
 - **description:**   Fügen Sie eine beschreibende Information für den Ausschnitt hinzu.
 
-- **Wert:**   Geben Sie den XML-Code des Snippets an.
+- **value:**   Geben Sie den XML-Code des Snippets an.
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-title: Native PDF-Veröffentlichungsfunktion | Verwenden benutzerdefinierter Stile in Fußnoten
+title: Native PDF Publish-Funktion | Verwenden benutzerdefinierter Stile in Fußnoten
 description: Erfahren Sie, wie Sie Stile auf die Zahlen in Fußnoten anwenden.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
@@ -31,8 +31,8 @@ Sie können die Stile der Fußnotenaufrufe und -markierungen ändern und ihr Ers
 
 Verwenden Sie das angegebene Beispiel, um eine Klammer vor und nach dem Fußnotenaufruf und der -Markierung hinzuzufügen:
 
-* Fügen Sie das Präfix &quot;(&quot;und das Suffix &quot;)&quot;mithilfe des Inhaltsattributs im `footnote-call` -Stil, der die Klammern um die Fußnotennummer im Themeninhalt hinzufügt.
-* Fügen Sie das Präfix &quot;(&quot;und das Suffix &quot;)&quot;mithilfe des Inhaltsattributs im `footnote-marker` -Stil, der die Klammern um die Fußnotennummer am unteren Rand der Seite hinzufügt.
+* Fügen Sie das Präfix &quot;(&quot; und das Suffix &quot;)&quot;mithilfe des Inhaltsattributs im Stil `footnote-call` hinzu, wodurch die Klammern um die Fußnotennummer im Themeninhalt hinzugefügt werden.
+* Fügen Sie das Präfix &quot;(&quot; und das Suffix &quot;)&quot;mithilfe des Inhaltsattributs im Stil `footnote-marker` hinzu, wodurch die Klammern um die Fußnotennummer am unteren Rand der Seite hinzugefügt werden.
 
 ```css
 ...
@@ -75,7 +75,8 @@ In der Ausgabe können Sie Folgendes anzeigen:
 
 ## Fußnotenaufruf ausblenden
 
-Sie können auch einen Stil auf Fußnotenaufrufe mit bestimmten Attributen anwenden. Verwenden Sie beispielsweise den folgenden Stil, um eine Fußnote mit den IDs auszublenden: Der Fußnotenaufruf ist im Hauptinhalt ausgeblendet, die Fußnote-Markierung wird jedoch unten auf der Seite angezeigt.
+Sie können auch einen Stil auf Fußnotenaufrufe mit bestimmten Attributen anwenden. Verwenden Sie beispielsweise den folgenden Stil, um eine Fußnote mit den IDs auszublenden:
+Der Fußnotenaufruf ist im Hauptinhalt ausgeblendet, die Fußnotenmarkierung wird jedoch unten auf der Seite angezeigt.
 
 ```css
 .fn[id]::footnote-call {
@@ -92,7 +93,7 @@ Im Fußnotenbereich werden alle Fußnoten platziert, im Allgemeinen am Ende eine
 
 Sie können die Seiteneigenschaften für Seitenlayouts verwenden, um den Fußnotenbereich in den verschiedenen Abschnitten in einem PDF-Dokument zu gestalten. Sie können beispielsweise die Ränder und Abstände des Fußnotenbereichs in einem Kapitel angeben. Sie können auch die Rahmenseite, den Stil, die Farbe, die Breite und den Radius ändern.
 
-Erfahren Sie mehr über [Arbeiten mit den Seiteneigenschaften eines Seitenlayouts](./design-page-layout.md#page-props-page-layout).
+Erfahren Sie, wie Sie [mit den Seiteneigenschaften eines Seitenlayouts arbeiten](./design-page-layout.md#page-props-page-layout).
 
 ### CSS-Stile
 
@@ -115,7 +116,7 @@ Standardmäßig werden die Fußnoten fortlaufend in einem Dokument nummeriert. S
 
 ### Seitenlayouts
 
-Sie können eine Zahl in den Seitenlayouts angeben, um die Fußnotennummerierung in den verschiedenen Abschnitten eines PDF-Dokuments neu zu starten. Wählen Sie beispielsweise eine Zahl aus dem **Nummerierung von neu starten** im Bereich &quot;Seiteneigenschaften&quot;ein, um die Fußnotennummerierung für jedes Kapitel neu zu starten.
+Sie können eine Zahl in den Seitenlayouts angeben, um die Fußnotennummerierung in den verschiedenen Abschnitten eines PDF-Dokuments neu zu starten. Wählen Sie beispielsweise eine Zahl aus dem Feld **Nummerierung von** im Bereich Seiteneigenschaften neu starten aus, um die Fußnotennummerierung für jedes Kapitel neu zu starten.
 
 ### CSS-Stile
 
@@ -147,7 +148,7 @@ Sie können auch auf eine Fußnote verweisen und mehrmals in Ihrer PDF-Ausgabe a
 Der folgende Screenshot zeigt beispielsweise, wie die gleiche Fußnote für alle Städte in der PDF-Ausgabe referenziert wird.
 <img width="550" alt="Fußnotenreferenzen in einem PDF-Dokument" src="./assets/link-footnotes.png" border="2px">
 
-*Fügen Sie den Querverweis auf eine Fußnote ein.*
+*Fügen Sie den Querverweis in eine Fußnote ein.*
 
 
 

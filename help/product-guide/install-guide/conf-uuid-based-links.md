@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Anzeige von UUID-basierten Links konfigurieren {#id2035G20M0QN}
 
-Wenn Sie einen Link mit der Option Verweis einfügen oder Inhalt wiederverwenden im Web-Editor einfügen erstellen, wird der Link standardmäßig mit der UUID des referenzierten Inhalts erstellt. Die **Link** -Eigenschaft \(im Bereich Eigenschaften\) des referenzierten Inhalts kann so konfiguriert werden, dass der relative Dateipfad des referenzierten Inhalts oder der UUID angezeigt wird. Diese Anzeige wird von der **Aktivieren von UUIDs** in der configMgr. Standardmäßig ist sie aktiviert, was bedeutet, dass die UUID des referenzierten Inhalts im Bereich Eigenschaften angezeigt wird.
+Wenn Sie einen Link mit der Option Verweis einfügen oder Inhalt wiederverwenden im Web-Editor einfügen erstellen, wird der Link standardmäßig mit der UUID des referenzierten Inhalts erstellt. Die Eigenschaft **Link** \(im Eigenschaftenbereich\) des referenzierten Inhalts kann so konfiguriert werden, dass der relative Dateipfad des referenzierten Inhalts oder die UUID angezeigt wird. Diese Anzeige wird durch die Option **UUIDs aktivieren** in configMgr gesteuert. Standardmäßig ist sie aktiviert, was bedeutet, dass die UUID des referenzierten Inhalts im Bereich Eigenschaften angezeigt wird.
 
 Führen Sie die folgenden Schritte aus, um den relativen Pfad oder die UUID des referenzierten Inhalts im Web Editor anzuzeigen:
 
@@ -26,13 +26,13 @@ Führen Sie die folgenden Schritte aus, um den relativen Pfad oder die UUID des 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
+1. Suchen Sie nach dem Bundle **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** und klicken Sie darauf.
 
-1. Im *XmlEditorConfig* -Einstellungen **Aktivieren von UUIDs** ist standardmäßig aktiviert. Dies bedeutet, dass die UUID des referenzierten Inhalts im **Link** -Eigenschaft im Bereich &quot;Eigenschaften&quot;.
+1. In den Einstellungen für *XmlEditorConfig* ist die Option **UUIDs aktivieren** standardmäßig aktiviert. Dies bedeutet, dass die UUID des referenzierten Inhalts in der Eigenschaft **Link** im Bereich &quot;Eigenschaften&quot;angezeigt wird.
 
-   Wenn Sie den relativen Pfad des verknüpften Inhalts anzeigen möchten, deaktivieren Sie die Option **Aktivieren von UUIDs** -Option.
+   Wenn Sie den relativen Pfad des verknüpften Inhalts anzeigen möchten, deaktivieren Sie die Option **UUIDs aktivieren** .
 
 1. Klicken Sie auf **Speichern**.
 
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

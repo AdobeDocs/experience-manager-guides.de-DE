@@ -15,19 +15,19 @@ ht-degree: 2%
 
 Nachdem Sie eine Zuordnungssammlung für die Massenaktivierung erstellt haben, besteht der nächste Schritt darin, Ihren Inhalt in der Veröffentlichungsinstanz zu aktivieren. Führen Sie die folgenden Schritte aus, um Ihren Inhalt zu aktivieren:
 
-1. Auswählen **Handbücher** aus der Liste der Tools.
+1. Wählen Sie **Guides** aus der Liste der Tools aus.
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Klicken Sie auf **Massen-Veröffentlichungs-Dashboard** Kachel.
+1. Klicken Sie auf die Kachel **Publish-Dashboard-Stapel** .
 
    Eine Liste mit Massenaktivierungskarten-Sammlungen wird angezeigt.
 
-1. Wählen Sie die zu veröffentlichende Sammlung aus und klicken Sie auf **Öffnen**.
+1. Wählen Sie die Sammlung aus, die Sie veröffentlichen möchten, und klicken Sie auf **Öffnen**.
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
-1. \(*Optional*\) Wenden Sie die erforderlichen Filter aus der linken Leiste an, um die Zuordnung anhand ihrer geänderten \(Status\), Ausgabevorgabe oder Sprache zu filtern.
+1. \(*Optional*\) Wenden Sie die erforderlichen Filter aus der linken Leiste an, um die Zuordnung anhand der geänderten \(Status\), Ausgabevorgabe oder Sprache zu filtern.
 
    >[!NOTE]
    >
@@ -39,21 +39,21 @@ Sehen Sie sich die verschiedenen Möglichkeiten an, um Ihre Sammlung basierend a
 <details>
 <summary> Cloud Services </summary>
 
-![Massenkollektion-Veröffentlichung im Cloud-Service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![bulk-collection-publish on cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
-Sie können die Ausgabe für die **Vorschau** oder **Veröffentlichen** Instanzen.
+Sie können die Ausgabe für die Instanzen **Vorschau** oder **Publish** aktivieren.
 
 **Vorschau**
 
-* Um die Ausgabe der ausgewählten Karten zu aktivieren, wählen Sie die vorgenerierte Kartenausgabe aus und wählen Sie **Veröffentlichen in** > **Vorschau**.
-* Um die Ausgabe aller DITA-Maps mit ihren konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben dem **Zuordnung** und wählen Sie **Veröffentlichen in** > **Veröffentlichen**.
+* Um die Ausgabe der ausgewählten Maps zu aktivieren, wählen Sie die vorgenerierte Mapping-Ausgabe aus und wählen Sie **Publish to** > **Vorschau**.
+* Um die Ausgabe aller DITA-Maps mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Spalte **Map** und wählen Sie dann **Publish to** > **Publish** aus.
 
 
 **Veröffentlichen**
 
-* Um die Ausgabe der ausgewählten Karten zu aktivieren, wählen Sie die vorgenerierte Kartenausgabe aus und wählen Sie **Veröffentlichen in** > **Veröffentlichen**.
+* Um die Ausgabe der ausgewählten Maps zu aktivieren, wählen Sie die vorgenerierte Mapping-Ausgabe aus und wählen Sie **Publish to** > **Publish**.
 
-* Um die Ausgabe aller DITA-Maps mit ihren konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Karte (Spalte) und wählen Sie dann **Veröffentlichen in** > **Veröffentlichen**.
+* Um die Ausgabe aller DITA-Maps mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Karte (Spalte) und wählen Sie dann **Publish zu** > **Publish** aus.
 
 
 >[!NOTE]
@@ -62,7 +62,7 @@ Sie können die Ausgabe für die **Vorschau** oder **Veröffentlichen** Instanze
 
 Eine Erfolgsmeldung wird angezeigt, wenn die Zuordnungsausgabe zur Veröffentlichung in die Warteschlange gestellt wird.
 
-Sobald die Ausgabe für die ausgewählten Zuordnungsdateien aktiviert wurde, wird die Registerkarte &quot;Prüfverlauf&quot;aktualisiert und die neueste aktivierte Ausgabe wird oben angezeigt. Die **Veröffentlicht** -Spalte mit dem Veröffentlichungsdatum und der Veröffentlichungszeit aktualisiert.
+Sobald die Ausgabe für die ausgewählten Zuordnungsdateien aktiviert wurde, wird die Registerkarte &quot;Prüfverlauf&quot;aktualisiert und die neueste aktivierte Ausgabe wird oben angezeigt. Die Spalte **Veröffentlicht** wird mit dem Veröffentlichungsdatum und der Veröffentlichungszeit aktualisiert.
 
 </details>
 
@@ -72,8 +72,8 @@ Sobald die Ausgabe für die ausgewählten Zuordnungsdateien aktiviert wurde, wir
 
 Führen Sie einen der folgenden Schritte aus:
 
-* Um die Ausgabe der ausgewählten Karten zu aktivieren, wählen Sie die vorgenerierte Kartenausgabe aus und wählen Sie **Quick Publish**.
-* Um die Ausgabe aller DITA-Maps mit ihren konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Karte (Spalte) und wählen Sie dann **Quick Publish**
+* Um die Ausgabe der ausgewählten Karten zu aktivieren, wählen Sie die vorgenerierte Zuordnungsausgabe aus und wählen Sie **Quick Publish** aus.
+* Um die Ausgabe aller DITA-Maps mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Karte (Spalte) und wählen Sie dann **Quick Publish** aus.
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]
@@ -83,6 +83,6 @@ Führen Sie einen der folgenden Schritte aus:
 
 Eine Erfolgsmeldung wird angezeigt, wenn die Zuordnungsausgabe zur Veröffentlichung in die Warteschlange gestellt wird.
 
-Sobald die Ausgabe für die ausgewählten Zuordnungsdateien aktiviert wurde, wird die Registerkarte &quot;Prüfverlauf&quot;aktualisiert und die neueste aktivierte Ausgabe wird oben angezeigt. Die **Veröffentlicht** -Spalte mit dem Veröffentlichungsdatum und der Veröffentlichungszeit aktualisiert.
+Sobald die Ausgabe für die ausgewählten Zuordnungsdateien aktiviert wurde, wird die Registerkarte &quot;Prüfverlauf&quot;aktualisiert und die neueste aktivierte Ausgabe wird oben angezeigt. Die Spalte **Veröffentlicht** wird mit dem Veröffentlichungsdatum und der Veröffentlichungszeit aktualisiert.
 
 **Übergeordnetes Thema: **[Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

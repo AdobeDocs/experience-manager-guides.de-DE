@@ -17,7 +17,7 @@ Unternehmen sollten Schlüssel verwenden, wenn sie einen wiederverwendbaren und 
 
 ## Schritt 1: Erstellen einer globalen Zuordnung zum Speichern Ihrer Schlüssel
 
-Erstellen Sie eine Zuordnung und fügen Sie die [!UICONTROL keyref] -Element.
+Erstellen Sie eine Zuordnung und fügen Sie ihr das Element [!UICONTROL keyref] hinzu.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,7 +37,7 @@ Erstellen Sie eine Zuordnung und fügen Sie die [!UICONTROL keyref] -Element.
 </map>
 ```
 
-Hier haben Sie zwei Definitionen definiert, wie oben gezeigt, und eine [!UICONTROL keyref] as _AEM_ für die _Adobe Experience Manager_ Text.
+Hier haben Sie, wie oben gezeigt, zwei Definitionen definiert, die [!UICONTROL keyref] als _AEM_ für den Text _Adobe Experience Manager_ angegeben haben.
 
 ## Schritt 2: Hinzufügen dieser Karte zu Ihrer Veröffentlichungskarte
 
@@ -55,10 +55,10 @@ Hier haben Sie zwei Definitionen definiert, wie oben gezeigt, und eine [!UICONTR
 
 ## Schritt 3: Verwenden Sie die Schlüssel, um auf die in der globalen Schlüsselzuordnung definierten Variablen zu verweisen.
 
-+ Bearbeiten Sie das Thema und fügen Sie den Schlüsselwert mithilfe des [!UICONTROL keyref].
++ Bearbeiten Sie das Thema und fügen Sie den Schlüsselwert mithilfe von [!UICONTROL keyref] hinzu.
 + Wie im Screenshot gezeigt, wird ein kleines Fenster angezeigt, in dem Keywords ausgewählt werden können. Dies wird angezeigt, wenn Sie das Element &quot;keyword&quot;hinzufügen.
   ![Element einfügen](assets/insert_element.png)
-  ![Key Ref](assets/key_ref.png)
+  ![key ref](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

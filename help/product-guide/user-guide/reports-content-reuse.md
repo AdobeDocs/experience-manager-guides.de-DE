@@ -1,6 +1,6 @@
 ---
 title: Bericht zur Inhaltswiederverwendung
-description: Erfahren Sie, wie Sie den Bericht zur Wiederverwendung von Inhalten in AEM Handbüchern anzeigen. Erstellen Sie den Bericht, um den Prozentsatz der Wiederverwendung des Inhalts zu ermitteln.
+description: Erfahren Sie, wie Sie den Bericht zur Wiederverwendung von Inhalten in AEM Guides anzeigen. Erstellen Sie den Bericht, um den Prozentsatz der Wiederverwendung des Inhalts zu ermitteln.
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
@@ -21,17 +21,17 @@ Ein weiterer nützlicher Bericht, den Sie generieren können, ist der Bericht zu
 
 Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von Inhalten anzuzeigen:
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Instrumente**.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Auswählen **Handbücher** aus der Liste der Tools.
+1. Wählen Sie **Guides** aus der Liste der Tools aus.
 
-1. Klicken Sie auf **Bericht zur Inhaltswiederverwendung** Kachel.
+1. Klicken Sie auf die Kachel **Bericht zur Inhaltswiederverwendung** .
 
-1. Klicks **Durchsuchen** um einen Pfad auszuwählen, in dem sich Ihre Themen befinden, oder den Pfad manuell eingeben.
+1. Klicken Sie auf **Durchsuchen** , um einen Pfad auszuwählen, in dem sich Ihre Themen befinden, oder geben Sie den Pfad manuell ein.
 
    Der Bericht wird durch das Prüfen des Inhalts im übergeordneten Ordner und in allen untergeordneten Ordnern generiert.
 
-1. Klicks **Bericht erstellen** , um den Bericht zur Inhaltswiederverwendung zu erhalten.
+1. Klicken Sie auf **Bericht erstellen** , um den Bericht zur Wiederverwendung von Inhalten zu erhalten.
 
    ![](images/content-reuse-uuid.png){width="800" align="left"}
 
@@ -51,11 +51,11 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 
       - **Größe**: Dateigröße in Byte.
 
-      - **Status**: Der aktuelle Status des Dokuments - Entwurf, In-Review oder überprüft.
+      - **Status**: Der aktuelle Status des Dokuments - Entwurf, In Überprüfung oder Überarbeitet.
 
-      - **Anzahl der wiederverwendeten Male**: Gibt an, wie oft das entsprechende Thema wiederverwendet wurde. Dies wird berechnet als Summe der Einträge in den Spalten &quot;Referenziert von&quot; minus 1.
+      - **Anzahl der Wiederverwendungen**: Gibt an, wie oft das entsprechende Thema wiederverwendet wurde. Dies wird berechnet als Summe der Einträge in den Spalten &quot;Referenziert von&quot; minus 1.
 
-      - **Referenziert von**: Die Themen, auf die das entsprechende Thema verwiesen wurde. Hier werden nur die direkten \(ersten\) Verweise berücksichtigt. Mehrere Themen werden durch Kommas getrennt. Die UUID der referenzierten Datei wird auch in Klammern erwähnt. Durch Klicken auf den Titel-Link des Themas wird die Themenvorschau geöffnet.
+      - **Referenziert von**: Die Themen, in denen auf das entsprechende Thema verwiesen wurde. Hier werden nur die direkten \(ersten\) Verweise berücksichtigt. Mehrere Themen werden durch Kommas getrennt. Die UUID der referenzierten Datei wird auch in Klammern erwähnt. Durch Klicken auf den Titel-Link des Themas wird die Themenvorschau geöffnet.
 
 
 >[!NOTE]

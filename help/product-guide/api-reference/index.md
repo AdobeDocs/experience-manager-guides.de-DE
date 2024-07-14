@@ -1,6 +1,6 @@
 ---
-title: API-Referenz für Adobe Experience Manager-Handbücher
-description: API-Referenz für Adobe Experience Manager-Handbücher
+title: API-Referenz für Adobe Experience Manager Guides
+description: API-Referenz für Adobe Experience Manager Guides
 source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
 workflow-type: tm+mt
 source-wordcount: '110'
@@ -9,7 +9,7 @@ ht-degree: 1%
 ---
 
 
-# API-Referenz für Adobe Experience Manager-Handbücher
+# API-Referenz für Adobe Experience Manager Guides
 
 - [Haftungsausschluss](rebranding-disclaimer.md)
 - [Einführung](introduction.md)
@@ -25,6 +25,6 @@ ht-degree: 1%
 - [Java-basierte APIs für die Verwendung mit Grundlinien und Bezeichnungen](create-baseline-label-java.md)
 - [Java-basierte API für die Arbeit mit Ordnerprofilen](folder-profile-java.md)
 - [Java-basierte API zum Erstellen und Aktivieren von Paketen](create-activate-package-java.md)
-- [Ereignishandler für die Nachbearbeitung](post-process-event.md)
+- [Post-Verarbeitungs-Ereignishandler](post-process-event.md)
 - [Konvertierungs-Prozess-Ereignishandler](conversion-complete-event.md)
 

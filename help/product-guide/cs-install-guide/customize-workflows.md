@@ -23,7 +23,7 @@ Weitere Informationen zu Workflows in AEM finden Sie unter:
 - Anwenden und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
 
-Die Abschnitte in diesem Thema führen Sie durch verschiedene Anpassungen, die Sie in den Standard-Workflows vornehmen können, die in den AEM-Handbüchern enthalten sind.
+Die Abschnitte in diesem Thema führen Sie durch verschiedene Anpassungen, die Sie in den Standard-Workflows vornehmen können, die in der AEM Guides bereitgestellt werden.
 
 ## Anpassen des Prüfungs-Workflows {#id176NE0C00HS}
 
@@ -31,13 +31,13 @@ Das Content-Authoring-Team jedes Unternehmens arbeitet auf eine bestimmte Weise,
 
 Mit AEM Guides können Sie den standardmäßigen Prüfungs-Workflow anpassen. Sie können die folgenden vier benutzerdefinierten Review-bezogenen Prozesse mit Ihren anderen Authoring- oder Publishing-Workflows verwenden.
 
-- **Prüfung erstellen**: Dieser Prozess bereitet die Metadaten vor, die zum Erstellen einer Prüfungsaufgabe erforderlich sind. Beispielsweise werden den Validierungsverantwortlichen Prüfungsberechtigungen zugewiesen, der Status der zu überprüfenden Themen festgelegt, Zeitpläne für die Überprüfung festgelegt und mehr. Von den vier Prozessen ist dies der einzige erforderliche Prozess, der in Ihren benutzerdefinierten Workflow aufgenommen werden muss. Im Workflow können Sie die drei anderen Prozesse ein- oder ausschließen.
+- **Überprüfung erstellen**: Dieser Prozess bereitet die Metadaten vor, die zum Erstellen einer Prüfungsaufgabe erforderlich sind. Beispielsweise werden den Validierungsverantwortlichen Prüfungsberechtigungen zugewiesen, der Status der zu überprüfenden Themen festgelegt, Zeitpläne für die Überprüfung festgelegt und mehr. Von den vier Prozessen ist dies der einzige erforderliche Prozess, der in Ihren benutzerdefinierten Workflow aufgenommen werden muss. Im Workflow können Sie die drei anderen Prozesse ein- oder ausschließen.
 
-- **Prüfungsaufgabe zuweisen**: Dieser Prozess erstellt die Überprüfungsaufgabe und sendet die Aufgabenbenachrichtigung an den Initiator und die Überprüfer.
+- **Prüfungsaufgabe zuweisen**: Dieser Prozess erstellt die Prüfungsaufgabe und sendet die Aufgabenbenachrichtigung an den Initiator und die Überprüfer.
 
-- **Überprüfungs-E-Mail senden**: Dieser Prozess sendet die Review-E-Mail an den Initiator und die Überprüfer.
+- **Überprüfungs-E-Mail senden**: Dieser Prozess sendet die Überprüfungs-E-Mail an den Initiator und die Überprüfer.
 
-- **Vorgang planen zum Schließen der Überprüfung**: Dieser Prozess stellt sicher, dass der Überprüfungsprozess beim Erreichen des Termins abgeschlossen ist.
+- **Auftrag zum Schließen der Überprüfung planen**: Dieser Prozess stellt sicher, dass der Überprüfungsprozess beim Erreichen des Termins abgeschlossen ist.
 
 
 Wenn Sie einen benutzerdefinierten Überprüfungs-Workflow erstellen, besteht die erste Aufgabe darin, die erforderlichen Metadaten festzulegen, die für den Prozess zum Erstellen einer Überprüfung erforderlich sind. Dazu können Sie ein ECMA-Skript erstellen. Nachfolgend finden Sie ein Beispiel für das ECMA-Skript, das die Metadaten zuweist:
@@ -57,20 +57,20 @@ workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 ```
 
-Sie können dieses Skript im `/etc/workflows/scripts` Knoten. In der folgenden Tabelle werden die von diesem ECMA-Skript zugewiesenen Eigenschaften beschrieben:
+Sie können dieses Skript im Knoten `/etc/workflows/scripts` erstellen. In der folgenden Tabelle werden die von diesem ECMA-Skript zugewiesenen Eigenschaften beschrieben:
 
 | Eigenschaft | Typ | Beschreibung |
 |--------|----|-----------|
 | `initiator` | Zeichenfolge | Benutzer-ID des Benutzers, der die Prüfungsaufgabe initiiert. |
-| `operation` | Zeichenfolge | Ein statischer Wert, festgelegt als `AEM_REVIEW`. |
+| `operation` | Zeichenfolge | Ein statischer Wert, der auf `AEM_REVIEW` gesetzt ist. |
 | `orgTopics` | Zeichenfolge | Pfad der Themen, die zur Überprüfung freigegeben werden. Geben Sie mehrere Themen durch Kommas getrennt an. |
 | `payloadJson` | JSON-Objekt | Geben Sie die folgenden Werte an: -   `base`: Pfad des übergeordneten Ordners, der das Thema enthält, das zur Überprüfung gesendet wird. <br> -   `asset`: Pfad des Themas, das zur Überprüfung gesendet wird. <br> -   `referrer`: Lassen Sie es leer. |
-| `deadline` | Zeichenfolge | Geben Sie die Uhrzeit in `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` Format. |
+| `deadline` | Zeichenfolge | Geben Sie die Zeit im Format `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` an. |
 | `title` | Zeichenfolge | Geben Sie einen Titel für die Prüfungsaufgabe ein. |
 | `description` | Zeichenfolge | Geben Sie eine Beschreibung für die Prüfungsaufgabe ein. |
 | `assignee` | Zeichenfolge | Benutzer-ID der Benutzer, an die Sie die Themen senden möchten\(n), um sie zu überprüfen. |
 | `status` | Ganzzahl | Ein statischer Wert, der auf 1 gesetzt ist. |
-| `startTime` | Long | Verwenden Sie die `System.currentTimeMillis()` -Funktion, um die aktuelle Systemzeit abzurufen. |
+| `startTime` | Long | Verwenden Sie die Funktion `System.currentTimeMillis()` , um die aktuelle Systemzeit abzurufen. |
 
 Nachdem Sie das Skript erstellt haben, rufen Sie es auf, bevor Sie in Ihrem Workflow den Prozess Überprüfung erstellen aufrufen. Anschließend können Sie je nach Ihren Anforderungen die anderen Workflow-Prozesse für Überprüfungen aufrufen.
 
@@ -78,28 +78,28 @@ Nachdem Sie das Skript erstellt haben, rufen Sie es auf, bevor Sie in Ihrem Work
 
 Um die Leistung der Workflow-Engine zu verbessern, können Sie regelmäßig abgeschlossene Workflow-Instanzen aus dem AEM-Repository bereinigen. Wenn Sie die standardmäßigen AEM verwenden, werden alle abgeschlossenen Workflow-Instanzen nach einem bestimmten Zeitraum bereinigt. Dies führt auch dazu, dass alle Prüfungs-Workflows aus dem AEM-Repository gelöscht werden.
 
-Sie können die automatische Bereinigung von Überprüfungs-Workflows verhindern, indem Sie das Überprüfungs-Workflow-Modell \(Informationen\) aus der automatischen Bereinigungskonfiguration entfernen. Sie müssen die **Adobe Granite-Workflow-Bereinigungskonfiguration** , um die Überprüfungs-Workflow-Modelle aus der Liste für die automatische Bereinigung zu entfernen.
+Sie können die automatische Bereinigung von Überprüfungs-Workflows verhindern, indem Sie das Überprüfungs-Workflow-Modell \(Informationen\) aus der automatischen Bereinigungskonfiguration entfernen. Sie müssen die **Adobe Granite Workflow Purge Configuration** verwenden, um die Überprüfungs-Workflow-Modelle aus der Liste der automatischen Bereinigung zu entfernen.
 
-Im **Adobe Granite-Workflow-Bereinigungskonfiguration** müssen Sie mindestens einen Workflow auflisten, den Sie sicher bereinigen können. Sie können beispielsweise einen der folgenden, von AEM Guides erstellten Workflows verwenden:
+Stellen Sie in der **Adobe Granite Workflow-Bereinigungskonfiguration** sicher, dass Sie mindestens einen Workflow auflisten, den Sie sicher bereinigen können. Sie können beispielsweise einen der folgenden, von AEM Guides erstellten Workflows verwenden:
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
-Workflow im **Adobe Granite-Workflow-Bereinigungskonfiguration** stellt sicher, dass AEM nur die in der Konfiguration aufgelisteten Workflows löscht. Dadurch wird verhindert, dass AEM die Informationen des Prüfungs-Workflows bereinigen.
+Durch Hinzufügen eines Workflows in der **Adobe Granite Workflow-Bereinigungskonfiguration** wird sichergestellt, dass AEM nur die in der Konfiguration aufgelisteten Workflows bereinigt. Dadurch wird verhindert, dass AEM die Informationen des Prüfungs-Workflows bereinigen.
 
-Weitere Informationen zum Konfigurieren der **Adobe Granite-Workflow-Bereinigungskonfiguration**, siehe *Verwalten von Workflow-Instanzen* in AEM Dokumentation.
+Weitere Informationen zum Konfigurieren der **Adobe Granite Workflow Purge Configuration** finden Sie unter *Verwalten von Workflow-Instanzen* in AEM Dokumentation.
 
 ### E-Mail-Vorlagen anpassen
 
-Einige der Workflows für AEM Guides nutzen E-Mail-Benachrichtigungen. Wenn Sie beispielsweise eine Prüfungsaufgabe starten, wird eine E-Mail-Benachrichtigung an die Validierer gesendet. Um jedoch sicherzustellen, dass die E-Mail-Benachrichtigung gesendet wird, müssen Sie diese Funktion in AEM aktivieren. Informationen zum Aktivieren von E-Mail-Benachrichtigungen in AEM finden Sie im Artikel . [E-Mail senden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de#sending-email) in AEM Dokumentation.
+Einige AEM Guides-Workflows nutzen E-Mail-Benachrichtigungen. Wenn Sie beispielsweise eine Prüfungsaufgabe starten, wird eine E-Mail-Benachrichtigung an die Validierer gesendet. Um jedoch sicherzustellen, dass die E-Mail-Benachrichtigung gesendet wird, müssen Sie diese Funktion in AEM aktivieren. Informationen zum Aktivieren von E-Mail-Benachrichtigungen in AEM finden Sie im Artikel [E-Mail senden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de#sending-email) in AEM Dokumentation.
 
-Die AEM Guides enthalten eine Reihe von E-Mail-Vorlagen, die Sie anpassen können. Führen Sie die folgenden Schritte aus, um diese Vorlagen anzupassen:
+Der AEM Guides enthält eine Reihe von E-Mail-Vorlagen, die Sie anpassen können. Führen Sie die folgenden Schritte aus, um diese Vorlagen anzupassen:
 
-1. Herunterladen mit dem Package Manager `/libs/fmdita/mail` -Datei.
+1. Verwenden Sie den Package Manager, um die Datei `/libs/fmdita/mail` herunterzuladen.
 
    >[!NOTE]
    >
-   > Nehmen Sie keine Anpassungen in den Standardkonfigurationsdateien vor, die im ``libs`` Knoten. Sie müssen eine Überlagerung der ``libs`` Knoten in ``apps`` und aktualisieren Sie die erforderlichen Dateien im ``apps`` nur Knoten.
+   > Nehmen Sie keine Anpassungen in den Standardkonfigurationsdateien vor, die im Knoten ``libs`` verfügbar sind. Sie müssen eine Überlagerung des Knotens ``libs`` im Knoten ``apps`` erstellen und nur die erforderlichen Dateien im Knoten ``apps`` aktualisieren.
 
 1. Der E-Mail-Ordner enthält die folgenden anpassbaren Vorlagen:
 
@@ -112,7 +112,7 @@ Die AEM Guides enthalten eine Reihe von E-Mail-Vorlagen, die Sie anpassen könne
 
 ## Arbeitsablauf für die Generierung nach der Ausgabe anpassen {#id17A6GI004Y4}
 
-AEM Handbücher bieten Ihnen die Flexibilität, einen Workflow zur Erstellung nach der Ausgabe festzulegen. Sie können einige Nachbearbeitungsaufgaben für die Ausgabe ausführen, die mithilfe der AEM-Handbücher generiert wird. Sie können beispielsweise einige CQ-Tags auf die generierte AEM Site-Ausgabe anwenden oder bestimmte Eigenschaften für die PDF-Ausgabe festlegen oder eine E-Mail an eine Gruppe von Benutzern senden, sobald die Ausgabe generiert wurde.
+AEM Guides bietet Ihnen die Flexibilität, einen Workflow zur Erstellung nach der Ausgabe festzulegen. Sie können einige Nachbearbeitungsaufgaben für die Ausgabe ausführen, die mit der AEM Guides generiert wird. Sie können beispielsweise einige CQ-Tags auf die generierte AEM Site-Ausgabe anwenden oder bestimmte Eigenschaften für die PDF-Ausgabe festlegen oder eine E-Mail an eine Gruppe von Benutzern senden, sobald die Ausgabe generiert wurde.
 
 Sie können ein neues Workflow-Modell erstellen, das als Workflow für die Generierung nach der Ausgabe verwendet wird. Wenn ein Workflow zur Generierung nach der Ausgabe ausgelöst wird, gibt der Workflow zur Generierung der Ausgabe Kontextdaten über die Workflow-Metadatenzuordnung frei, die Sie zur Verarbeitung der generierten Ausgabe verwenden können. In der folgenden Tabelle werden die als Metadaten freigegebenen Kontextdaten beschrieben:
 
@@ -132,7 +132,7 @@ Um die Metadaten zur Ausgabegenerierung zu verwenden, können Sie ein ECMA-Skrip
 
 >[!NOTE]
 >
-> Sie können dieses Skript im ``/etc/workflows/scripts`` Knoten.
+> Sie können dieses Skript im Knoten ``/etc/workflows/scripts`` erstellen.
 
 ```javascript
 var session = workflowSession.getSession(); // Obtain session object to read/write the repository.
@@ -155,4 +155,4 @@ generatedPath;
 */
 ```
 
-Rufen Sie nach der Erstellung des Skripts das benutzerdefinierte Skript in Ihrem Workflow auf. Anschließend können Sie entsprechend Ihren Anforderungen die anderen Workflow-Prozesse aufrufen. Nachdem Sie Ihren benutzerdefinierten Workflow entworfen haben, rufen Sie die *Post-Generierung abschließen* als letzten Schritt in Ihrem Workflow-Prozess. Die *Post-Generierung abschließen* Schritt stellt sicher, dass der Status der Ausgabegenerierungsaufgabe aktualisiert wird auf *Abgeschlossen* nach Abschluss des Generierungsprozesses. Nach der Erstellung eines benutzerdefinierten Workflows für die Erstellung nach der Ausgabe können Sie ihn mit einer beliebigen Ausgabegenerierungsvoreinstellung konfigurieren. Wählen Sie den gewünschten Workflow im *Workflow &quot;Nach der Erstellung ausführen&quot;* -Eigenschaft der erforderlichen Vorgabe. Wenn Sie eine Ausgabegenerierungsaufgabe mit der konfigurierten Ausgabevorgabe ausführen, ändert sich der Aufgabenstatus \(auf der Registerkarte &quot;Ausgabe&quot;\) in *Nachbearbeitung*.
+Rufen Sie nach der Erstellung des Skripts das benutzerdefinierte Skript in Ihrem Workflow auf. Anschließend können Sie entsprechend Ihren Anforderungen die anderen Workflow-Prozesse aufrufen. Nachdem Sie Ihren benutzerdefinierten Workflow entworfen haben, rufen Sie die *Post-Generierung abschließen* als letzten Schritt im Workflow-Prozess auf. Der Schritt *Post-Generierung abschließen* stellt sicher, dass der Status der Ausgabegenerierungsaufgabe nach Abschluss des Ausgabegenerierungsprozesses auf *Abgeschlossen* aktualisiert wird. Nach der Erstellung eines benutzerdefinierten Workflows für die Erstellung nach der Ausgabe können Sie ihn mit einer beliebigen Ausgabegenerierungsvoreinstellung konfigurieren. Wählen Sie den erforderlichen Workflow in der Eigenschaft *Post-Generierungsarbeitsablauf ausführen* der erforderlichen Vorgabe aus. Wenn Sie eine Ausgabegenerierungsaufgabe mit der konfigurierten Ausgabevorgabe ausführen, ändert sich der Aufgabenstatus \(auf der Registerkarte &quot;Ausgabe&quot;\) in *Post-Verarbeitung*.

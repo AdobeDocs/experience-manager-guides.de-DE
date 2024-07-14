@@ -7,7 +7,7 @@ role: User
 source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1210'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -23,8 +23,8 @@ Sie können Bedingungsvorgaben auf zwei Arten erstellen:
 
 ## Bedingungsvorgaben aus dem Web-Editor
 
-In Experience Manager-Handbüchern können Sie Bedingungsvorgaben im Web-Editor verwalten und in den Ausgabevorgaben verwenden, um die endgültige Ausgabe zu generieren.
-Sie können die Bedingungsvorgaben erstellen und anzeigen, die Attribute anzeigen und die Aktionen für die aktuelle Zuordnung über die **Bedingungsvorgaben** im Web Editor angezeigt.
+Mit Experience Manager Guides können Sie Bedingungsvorgaben im Web Editor verwalten und in den Ausgabevorgaben verwenden, um die endgültige Ausgabe zu generieren.
+Sie können die Bedingungsvorgaben erstellen und anzeigen, die Attribute anzeigen und die Aktionen für die aktuelle Zuordnung über die Ansicht **Bedingungsvorgaben** im Web Editor verwalten.
 
 <img src="images//manage-condtions-presets.png" alt= "Bedingungsvorgaben im Web-Editor" width="800" border="1px">
 
@@ -32,31 +32,31 @@ Sie können die Bedingungsvorgaben erstellen und anzeigen, die Attribute anzeige
 
 ### Bedingungsvorgabe erstellen
 
-Die **Bedingungsvorgaben** -Ansicht enthält detaillierte Informationen zu den Bedingungsvorgaben, z. B. deren Attributen, Werten und Aktionen.
+Die Ansicht **Bedingungsvorgaben** enthält detaillierte Informationen zu den Bedingungsvorgaben, wie etwa ihren Attributen, Werten und Aktionen.
 Sie können eine Bedingungsvoreinstellung für die Themen erstellen, indem Sie die folgenden Schritte ausführen:
 
-1. Im **Repository** öffnen Sie die DITA-Map-Datei in der Kartenansicht.
-1. Wählen Sie die **Verwalten** Registerkarte.
-1. Auswählen **Bedingungsvorgaben** auf der linken Seite. Die Liste der für die DITA-Zuordnung definierten Bedingungsvorgaben wird angezeigt.
-1. Wählen Sie das Symbol + neben **Bedingungsvorgaben** , um die **Neue Bedingungsvorgabe** angezeigt.
+1. Öffnen Sie im Bedienfeld **Repository** die DITA-Map-Datei in der Kartenansicht.
+1. Wählen Sie die Registerkarte **Verwalten** aus.
+1. Wählen Sie links **Bedingungsvorgaben** aus. Die Liste der für die DITA-Zuordnung definierten Bedingungsvorgaben wird angezeigt.
+1. Wählen Sie das Symbol + neben **Bedingungsvorgaben** aus, um das Dialogfeld **Neue Bedingungsvorgabe** zu öffnen.
 1. Geben Sie einen eindeutigen Namen für die Vorgabe ein.
 
    >[!NOTE]
    >
    > Wenn das Namensfeld leer ist oder Sie ein ungültiges Zeichen oder einen Namen eingeben, der mit einer vorhandenen Bedingungsvorgabe übereinstimmt, wird ein Fehler angezeigt. Sie können einen Bindestrich &quot;-&quot;oder einen Unterstrich &quot;_&quot;als Trennzeichen verwenden.
 
-1. Auswählen **Erstellen**.
+1. Wählen Sie **Erstellen** aus.
 Die neue Bedingungsvoreinstellung wird der Liste hinzugefügt.
 1. Doppelklicken Sie auf eine Bedingungsvorgabe, um die Attribute und Aktionen anzuzeigen.
-Die **Attribute** zeigt alle Attribute an, die zu allen Verweisen hinzugefügt wurden, die in der Zuordnung vorhanden sind. Im rechten Bereich werden nur die Bedingungen angezeigt, die Sie den Bedingungsvorgaben hinzugefügt haben.
+Im Bedienfeld **Attribute** werden alle Attribute angezeigt, die zu allen in der Zuordnung vorhandenen Verweisen hinzugefügt wurden. Im rechten Bereich werden nur die Bedingungen angezeigt, die Sie den Bedingungsvorgaben hinzugefügt haben.
 1. Führen Sie einen der folgenden Schritte aus, um die Attribute hinzuzufügen:
-   * Wählen Sie ein oder mehrere Attribute aus, um alle darunter stehenden Werte zur Bedingungsvorgabe hinzuzufügen. Sie können beispielsweise die `platform` -Attribut, um alle zugehörigen Werte hinzuzufügen.
-   * Wählen Sie einen oder mehrere Attributwerte aus, um sie der Bedingungsvorgabe hinzuzufügen. Sie können beispielsweise die `Unix` und `Win` Plattformattribute-Werte
-   * Wählen Sie ein beliebiges Attribut- und Wertpaar aus und ziehen Sie es in das mittlere Bedienfeld. Sie können beispielsweise die `Unix` des Plattformattributs und ziehen Sie es.
-   * **Alle auswählen** , um alle Attribute und deren Werte zur Bedingungsvoreinstellung hinzuzufügen.
-Standardmäßig ist die Aktion für ein Attribut `Include`.
+   * Wählen Sie ein oder mehrere Attribute aus, um alle darunter stehenden Werte zur Bedingungsvorgabe hinzuzufügen. Sie können beispielsweise das Attribut `platform` auswählen, um alle Werte hinzuzufügen.
+   * Wählen Sie einen oder mehrere Attributwerte aus, um sie der Bedingungsvorgabe hinzuzufügen. Sie können beispielsweise die Werte `Unix` und `Win` des Plattformattributs auswählen
+   * Wählen Sie ein beliebiges Attribut- und Wertpaar aus und ziehen Sie es in das mittlere Bedienfeld. Sie können beispielsweise den Wert `Unix` des Plattformattributs auswählen und ihn ziehen.
+   * **Wählen Sie all** aus, um alle Attribute und deren Werte zur Bedingungsvorgabe hinzuzufügen.
+Standardmäßig lautet die Aktion für ein Attribut `Include`.
 
-1. Klicken Sie auf **Hinzufügen**. Sie können diesen Schritt wiederholen, um weitere Attribute hinzuzufügen. Die von Ihnen hinzugefügten Attribute werden von der Mitte zum rechten Bereich verschoben.
+1. Wählen Sie **Hinzufügen**. Sie können diesen Schritt wiederholen, um weitere Attribute hinzuzufügen. Die von Ihnen hinzugefügten Attribute werden von der Mitte zum rechten Bereich verschoben.
 1. Wählen Sie oben in der Aktionsleiste Entfernen aus, um die ausgewählten Attribute im rechten Bereich zu entfernen.
 1. (Optional) Bei Bedarf können Sie die auf die Attribute angewendete Aktion überschreiben.
 Führen Sie einen der folgenden Schritte aus:
@@ -66,41 +66,41 @@ Führen Sie einen der folgenden Schritte aus:
       * Durchgang
       * Kennzeichnung
    * Wählen Sie im rechten Bereich mehrere Attributzeilen aus und wählen Sie in der Aktionsleiste oben eine Aktion aus. Beispielsweise können Sie die Aktion Ausschließen für die ausgewählten Attribute auswählen.
-1. Auswählen **Speichern** , um die Bedingungsvorgabe zu speichern.
+1. Wählen Sie **Speichern** aus, um die Bedingungsvorgabe zu speichern.
 
    >[!NOTE]
    >
    > Sie sehen eine Warnung, wenn Sie eine andere Vorgabe auswählen oder die Vorgabe schließen, ohne sie zu speichern.
 
-Nachdem Sie eine Bedingungsvorgabe erstellt haben, wird sie unter der **Bedingungsvorgaben** Dropdown-Liste der Ausgabevorgaben. Erfahren Sie mehr über das [PDF-Ausgabe veröffentlichen](../web-editor/native-pdf-web-editor.md).
+Nachdem Sie eine Bedingungsvorgabe erstellt haben, wird sie unter dem Dropdown-Menü **Bedingungsvorgaben** der Ausgabevorgaben angezeigt. Erfahren Sie mehr über die [Publish-PDF-Ausgabe](../web-editor/native-pdf-web-editor.md).
 
 ### Umbenennen einer Bedingungsvorgabe
 
 Führen Sie die folgenden Schritte aus, um eine Bedingungsvorgabe umzubenennen:
 
-1. Bewegen Sie den Mauszeiger über eine Bedingungsvorgabe aus der **Bedingungsvorgaben** Bedienfeld.
-1. Auswählen **Umbenennen** über das Menü Optionen , um die **Vorgabe für Bedingungen umbenennen** angezeigt.
+1. Bewegen Sie den Mauszeiger über eine Bedingungsvorgabe im Bedienfeld **Bedingungsvorgaben** .
+1. Wählen Sie im Menü &quot;Optionen&quot;die Option **Umbenennen** aus, um das Dialogfeld **Vorgabe der Bedingung umbenennen** zu öffnen.
 1. Bearbeiten Sie den Namen der Bedingungsvorgabe.
-1. Klicks **Umbenennen**.
+1. Klicken Sie auf **Umbenennen**.
 
 ### Bedingungsvorgabe duplizieren
 
 Führen Sie die folgenden Schritte aus, um eine Bedingungsvorgabe zu duplizieren:
 
-1. Bewegen Sie den Mauszeiger über eine Bedingungsvorgabe aus der **Bedingungsvorgaben** Bedienfeld.
-1. Auswählen **Duplizieren** über das Menü Optionen , um die **Vorgabe für doppelte Bedingung** angezeigt.
+1. Bewegen Sie den Mauszeiger über eine Bedingungsvorgabe im Bedienfeld **Bedingungsvorgaben** .
+1. Wählen Sie im Menü &quot;Optionen&quot;die Option **Duplizieren** aus, um das Dialogfeld **Bedingungsvorgabe duplizieren** zu öffnen.
    >[!NOTE]
    >
-   > Der Standardname der Vorgabe lautet `<selected condition preset name>_1`. Sie können den Namen entsprechend Ihren Anforderungen ändern.
+   > Der Standardname der Vorgabe ist `<selected condition preset name>_1`. Sie können den Namen entsprechend Ihren Anforderungen ändern.
 
-1. Klicks **Duplizieren**.
+1. Klicken Sie auf **Duplizieren**.
 
 ### Bedingungsvorgabe löschen
 
 Führen Sie die folgenden Schritte aus, um Bedingungsvorgaben zu löschen:
 
-1. Bewegen Sie den Mauszeiger über eine Bedingungsvorgabe aus der **Bedingungsvorgaben** Bedienfeld.
-1. Auswählen **Löschen** über das Menü Optionen , um die **Bedingungsvorgabe löschen** angezeigt.
+1. Bewegen Sie den Mauszeiger über eine Bedingungsvorgabe im Bedienfeld **Bedingungsvorgaben** .
+1. Wählen Sie **Löschen** aus dem Menü &quot;Optionen&quot;, um das Dialogfeld **Vorgabe für Löschbedingung löschen** zu öffnen.
 1. Klicken Sie auf **Löschen**.
 
 
@@ -112,32 +112,33 @@ Führen Sie die folgenden Schritte aus, um Bedingungsvorgaben zu löschen:
 
 Führen Sie die folgenden Schritte aus, um eine Bedingungsvorgabe zu erstellen:
 
-1. Auswählen **Bedingungsvorgaben** in der DITA-Map-Konsole.
-1. Klicks **Erstellen** Schaltfläche.
-1. Geben Sie einen Namen für die Vorgabe in ein **Namensbedingung**.
-1. Wählen Sie eine der folgenden Standardaktionen aus **Legen Sie die Standardaktion auf** Dropdownliste:
+1. Wählen Sie in der DITA-Zuordnungskonsole die Registerkarte **Bedingungsvorgaben** aus.
+1. Klicken Sie auf die Schaltfläche **Erstellen** .
+1. Geben Sie unter &quot;Namensbedingung **&quot;einen Namen für die Vorgabe ein.**
+1. Wählen Sie eine der folgenden Standardaktionen aus der Dropdown-Liste **Standardaktion auf** festlegen:
 
    * Einschließen
    * Ausschließen
    * Durchgang
-   * Flag Die Aktion wird als Standardaktion für alle Attribute festgelegt, unabhängig davon, ob sie zur Bedingungsvorgabe hinzugefügt werden oder nicht.
+   * Markierung
+Die Aktion wird als Standardaktion für alle Attribute festgelegt, unabhängig davon, ob sie zur Bedingungsvorgabe hinzugefügt werden oder nicht.
 
-   Sie haben beispielsweise 15 Bedingungsattribute in Ihrem Dokument und vier davon wurden in die Bedingungsvorgabe aufgenommen. Wenn Sie **exclude** als Standardaktion festgelegt ist, wird sie auf alle 15 Attribute angewendet.
+   Sie haben beispielsweise 15 Bedingungsattribute in Ihrem Dokument und vier davon wurden in die Bedingungsvorgabe aufgenommen. Wenn Sie **exclude** als Standardaktion auswählen, wird dies auf alle 15 Attribute angewendet.
 
 1. Führen Sie einen der folgenden Schritte aus, um die Attribute hinzuzufügen:
-   * Klicks **Hinzufügen** auf ein Attribut zur Bedingungsvorgabe. Sie können diesen Schritt wiederholen, um weitere Attribute hinzuzufügen.
-   * Klicks **Alle hinzufügen** , um alle Attribute zur Bedingungsvorgabe hinzuzufügen.
+   * Klicken Sie auf **Hinzufügen** , um ein Attribut zur Bedingungsvorgabe hinzuzufügen. Sie können diesen Schritt wiederholen, um weitere Attribute hinzuzufügen.
+   * Klicken Sie auf **Alle hinzufügen** , um alle Attribute zur Bedingungsvorgabe hinzuzufügen.
 1. \(Optional\) Bei Bedarf können Sie die Standardaktion überschreiben, die auf die Attribute in Schritt 4 angewendet wird. Führen Sie einen der folgenden Schritte aus:
-   * Auswählen mehrerer Attribute, Auswählen einer Aktion aus **Setzen Sie die Aktion für ausgewählte Bedingungen auf** und klicken Sie auf **Anwenden**.
-   * Wählen Sie eine Aktion für ein Attribut aus dem **Aktion** angezeigt.
+   * Wählen Sie mehrere Attribute aus, wählen Sie eine Aktion aus **Legen Sie die Aktion für die ausgewählten Bedingungen auf** fest und klicken Sie auf **Anwenden**.
+   * Wählen Sie eine Aktion für ein Attribut aus der Dropdownliste **Aktion** aus.
 1. Klicken Sie auf **Speichern**.
 
 ### Bedingungsvorgabe bearbeiten
 
 Sie können Änderungen an einer vorhandenen Bedingungsvorgabe vornehmen, um die Aktionen zu ändern, die auf die Attribute in der Bedingungsvorgabe angewendet werden. Führen Sie die folgenden Schritte aus, um eine Bedingungsvorgabe zu bearbeiten:
 
-1. Auswählen **Bedingungsvorgaben** in der DITA-Map-Konsole.
-1. Klicks **Bearbeiten** Schaltfläche.
+1. Wählen Sie in der DITA-Zuordnungskonsole die Registerkarte **Bedingungsvorgaben** aus.
+1. Klicken Sie auf die Schaltfläche **Bearbeiten** .
 1. Nehmen Sie die erforderlichen Änderungen für alle Attribute in der Bedingungsvorgabe vor.
 1. Klicken Sie auf **Speichern**.
 
@@ -145,12 +146,12 @@ Sie können Änderungen an einer vorhandenen Bedingungsvorgabe vornehmen, um die
 
 Sie können eine Kopie einer Bedingungsvorgabe erstellen und diese dann entsprechend Ihren Anforderungen ändern. Führen Sie die folgenden Schritte aus, um eine Kopie einer Bedingungsvorgabe zu erstellen:
 
-1. Auswählen **Bedingungsvorgaben** in der DITA-Map-Konsole.
-1. Klicks **Duplizieren** Schaltfläche.
+1. Wählen Sie in der DITA-Zuordnungskonsole die Registerkarte **Bedingungsvorgaben** aus.
+1. Klicken Sie auf die Schaltfläche **Duplizieren** .
 
    >[!NOTE]
    >
-   > Der Standardname der Vorgabe lautet `<selected condition preset name>_Duplicate`
+   > Der Standardname der Vorgabe ist `<selected condition preset name>_Duplicate`
 
    Sie können den Namen nach Bedarf ändern.
 
@@ -159,11 +160,11 @@ Sie können eine Kopie einer Bedingungsvorgabe erstellen und diese dann entsprec
 
 ### Bedingungsvorgabe löschen
 
-Sie können eine oder mehrere Bedingungsvorgaben aus dem **Bedingungsvorgabe** Registerkarte der DITA-Map-Konsole. Führen Sie die folgenden Schritte aus, um Bedingungsvorgaben zu löschen:
+Sie können eine oder mehrere Bedingungsvorgaben aus der Registerkarte **Bedingungsvorgabe** der DITA-Zuordnungskonsole löschen. Führen Sie die folgenden Schritte aus, um Bedingungsvorgaben zu löschen:
 
-1. Auswählen **Bedingungsvorgaben** in der DITA-Map-Konsole.
+1. Wählen Sie in der DITA-Zuordnungskonsole die Registerkarte **Bedingungsvorgaben** aus.
 1. Wählen Sie die zu löschenden Bedingungsvorgaben aus.
-1. Klicks **Entfernen** Schaltfläche.
-1. Klicks **Entfernen** , um die Aktion zu bestätigen.
+1. Klicken Sie auf die Schaltfläche **Entfernen** .
+1. Klicken Sie auf **Entfernen** , um die Aktion zu bestätigen.
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

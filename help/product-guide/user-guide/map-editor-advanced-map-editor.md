@@ -21,7 +21,7 @@ Neben der direkten Bearbeitung von Zuordnungsdateien im Web-Editor können Sie a
 
 Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiterten Zuordnungseditor zu erstellen:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zur Zuordnungsdatei, die Sie bearbeiten möchten.
+1. Navigieren Sie in der Assets-Benutzeroberfläche zu der Zuordnungsdatei, die Sie bearbeiten möchten.
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
    ![](images/edit-map-main-menu.png){width="800" align="left"}
 
-   Sie können auch die **Themen bearbeiten** Option im Aktionsmenü der Zuordnungsdatei:
+   Sie können auch die Option **Themen bearbeiten** im Aktionsmenü der Zuordnungsdatei auswählen:
 
    ![](images/edit-map-action-menu.png){width="800" align="left"}
 
@@ -51,33 +51,33 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
    ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
-   - **A** - \(*Hauptleiste*\): Dies ähnelt der Hauptsymbolleiste des Web-Editors. Siehe [Hauptleiste](web-editor-features.md#id2051EA0G05Z) im Web Editor für weitere Informationen.
+   - **A** - \(*Hauptsymbolleiste*\): Dies ähnelt der Hauptsymbolleiste des Web-Editors. Weitere Informationen finden Sie unter [Hauptsymbolleiste](web-editor-features.md#id2051EA0G05Z) im Web-Editor.
 
-   - **B** - \(*Sekundäre Symbolleiste*\) Dies ist die Sekundäre Symbolleiste, mit der Sie mit Zuordnungsdateien arbeiten können. Weitere Informationen zu den über die Sekundäre Symbolleiste verfügbaren Funktionen finden Sie unter [In der Symbolleiste des Erweiterten Map-Editors verfügbare Funktionen](#id205DEC0005Z).
+   - **B** - \(*Sekundäre Symbolleiste*\) Dies ist die Sekundäre Symbolleiste, mit der Sie mit Zuordnungsdateien arbeiten können. Weitere Informationen zu den Funktionen, die über die Sekundäre Symbolleiste verfügbar sind, finden Sie unter [Funktionen, die in der Symbolleiste des erweiterten Map-Editors verfügbar sind](#id205DEC0005Z).
 
-   - **C** - \(*Zuordnungsansichten*\): Ermöglicht es Ihnen, den Map Editor zwischen Layout, Autor, Quelle und Vorschau zu wechseln. Die **Layout**-Ansicht ermöglicht es Ihnen, die Themen in einer DITA-Zuordnung zu organisieren. Dadurch erhält der Baum oder die hierarchische Ansicht der Karte. Die **Autor** -Ansicht können Sie die Themen im Map-Editor bearbeiten. Dies gibt auch die WYSIWYG-Ansicht der Map-Datei. Die **Quelle** -Ansicht können Sie mit der zugrunde liegenden XML der Map-Datei arbeiten. Die Vorschau bietet eine konsolidierte Ansicht aller Themen und Unterkarten innerhalb der Zuordnungsdatei. Die **Schließen** -Link schließt die Map-Datei.
+   - **C** - \(*Zuordnungsansichten*\): Ermöglicht es Ihnen, den Zuordnungs-Editor zwischen Layout, Autor, Source und Vorschau zu wechseln. Mit der Ansicht **Layout** können Sie die Themen in einer DITA-Zuordnung organisieren. Dadurch erhält der Baum oder die hierarchische Ansicht der Karte. Mit der Ansicht **Autor** können Sie die Themen im Map Editor bearbeiten. Dies gibt auch die WYSIWYG-Ansicht der Map-Datei. Mit der Ansicht **Source** können Sie mit der zugrunde liegenden XML der Zuordnungsdatei arbeiten. Die Vorschau bietet eine konsolidierte Ansicht aller Themen und Unterkarten innerhalb der Zuordnungsdatei. Der Link **Close** schließt die Zuordnungsdatei.
 
-   - **D** - \(*Linke Leiste*\): Bietet Zugriff auf das linke Bedienfeld, über das Sie auf die Funktionen Favoriten, Repository, Map, Gliederung und andere Funktionen zugreifen können. Sie können sie erweitern oder reduzieren, indem Sie auf das Symbol &quot;Seitenleiste erweitern&quot;\(![](images/sidebar-expand-icon.svg)\). Weitere Informationen zu den im linken Bereich verfügbaren Funktionen finden Sie unter [Linke Leiste](web-editor-features.md#id2051EA0M0HS) im Web-Editor.
+   - **D** - \(*Linkes Bedienfeld*\): Ermöglicht Zugriff auf das linke Bedienfeld, über das Sie auf die Funktionen Favoriten, Repository, Map, Gliederung und andere Funktionen zugreifen können. Sie können sie erweitern oder reduzieren, indem Sie auf das Symbol Seitenleiste erweitern klicken \(![](images/sidebar-expand-icon.svg)\). Weitere Informationen zu den im linken Bereich verfügbaren Funktionen finden Sie unter [Linker Bereich](web-editor-features.md#id2051EA0M0HS) im Web Editor.
 
-   - **E** - \(*Mittlerer Bereich*\): Inhaltsbearbeitungsbereich zuordnen.
+   - **E** - \(*Middle Area*\): Zuordnungsinhaltsbearbeitungsbereich.
 
-   - **F** - \(*Rechter Bereich*\): Gewährt Zugriff auf den Bereich Eigenschaften . Sie können die Inhaltseigenschaften und die Zuordnungseigenschaften des ausgewählten Themas oder der ausgewählten Zuordnung sehen. Weitere Informationen zu den in diesem Bedienfeld verfügbaren Funktionen finden Sie unter [Rechter Bereich](web-editor-features.md#id2051EB003YK) im Web-Editor.
+   - **F** - \(*Rechter Bereich*\): Ermöglicht Zugriff auf den Bereich &quot;Eigenschaften&quot;. Sie können die Inhaltseigenschaften und die Zuordnungseigenschaften des ausgewählten Themas oder der ausgewählten Zuordnung sehen. Weitere Informationen zu den in diesem Bedienfeld verfügbaren Funktionen finden Sie unter [Rechtes Bedienfeld](web-editor-features.md#id2051EB003YK) im Web Editor.
 
-1. Wechseln Sie in der linken Leiste zum **Repository-Ansicht**.
+1. Wechseln Sie im linken Bereich zur Ansicht **Repository**.
 
 1. Navigieren Sie im AEM-Repository zu dem Ordner, der die Themen oder Unterkarten enthält, die Sie hinzufügen möchten.
 
-1. Wählen Sie das Thema oder die Zuordnungsdatei im **Repository-Ansicht** und ziehen Sie sie per Drag-and-Drop in den Bearbeitungsbereich für Inhalte der \(mittleren\) Zuordnung.
+1. Wählen Sie das Thema oder die Zuordnungsdatei in der **Repository-Ansicht** aus und ziehen Sie sie per Drag-and-Drop in den Bearbeitungsbereich für den Inhalt der \(Mitte\) Zuordnung.
 
    Das Thema wird der Karte hinzugefügt.
 
-   ![Map Editor hinzufügen](images/map-editor-add-topic.png){width="800" align="left"}
+   ![Map-Editor hinzugefügt Thema](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. Um nachfolgende Themen oder eine Unterzuordnung hinzuzufügen, ziehen Sie das Thema oder die Unterzuordnung per Drag-and-Drop an die gewünschte Position in der Zuordnung.
 
    Beachten Sie beim Erstellen Ihrer Zuordnungsdatei die folgenden Punkte:
 
-   - Die Datei wird an einer Stelle hinzugefügt, an der die horizontale Leiste im Kartenbearbeitungsbereich angezeigt wird. Im folgenden Screenshot wird die *Übersicht* Das Thema wird zwischen den *Allgemeine Beschreibung* und *Launch- und Landingpage* Themen.
+   - Die Datei wird an einer Stelle hinzugefügt, an der die horizontale Leiste im Kartenbearbeitungsbereich angezeigt wird. Im folgenden Screenshot wird das Thema *Überblick* zwischen den Themen *Allgemeine Beschreibung* und *Launch und Landingpage* hinzugefügt.
 
      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
@@ -93,18 +93,18 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
    - Sie können die Tastenkombinationen Strg+Z und Strg+Y oder ihre jeweiligen Symbole in der Symbolleiste verwenden, um jede Änderung in der Zuordnung rückgängig zu machen oder wiederherzustellen.
 
-   - Um die Position eines Themas zu ändern, wählen Sie das Thema \(durch Klicken auf das Themensymbol\) aus und ziehen Sie es per Drag-and-Drop an die gewünschte Position in der Map-Datei. Stellen Sie sicher, dass die horizontale Leiste an der Stelle sichtbar ist, an der Sie das Thema platzieren möchten. Im folgenden Screenshot wird das Thema *Launch- und Landingpage* wird nach dem *Übersicht* Thema.
+   - Um die Position eines Themas zu ändern, wählen Sie das Thema \(durch Klicken auf das Themensymbol\) aus und ziehen Sie es per Drag-and-Drop an die gewünschte Position in der Map-Datei. Stellen Sie sicher, dass die horizontale Leiste an der Stelle sichtbar ist, an der Sie das Thema platzieren möchten. Im folgenden Screenshot wird das Thema *Launch und Landingpage* nach dem Thema *Überblick* verschoben.
 
      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
-   - Um die Eigenschaften Ihrer Zuordnungsdatei zu überprüfen, klicken Sie mit der rechten Maustaste auf eine beliebige Stelle im Zuordnungsbearbeitungsbereich und wählen Sie **Eigenschaften** aus dem Kontextmenü aus. Basierend auf Ihrer AEM können Sie Eigenschaften wie Metadaten, Aktivierung planen \(de\), Verweise, Dokumentstatus und mehr sehen.
+   - Um die Eigenschaften Ihrer Zuordnungsdatei zu überprüfen, klicken Sie mit der rechten Maustaste auf eine beliebige Stelle im Zuordnungsbearbeitungsbereich und wählen Sie im Kontextmenü die Option **Eigenschaften** aus. Basierend auf Ihrer AEM können Sie Eigenschaften wie Metadaten, Aktivierung planen \(de\), Verweise, Dokumentstatus und mehr sehen.
 
 1. Klicken Sie auf **Speichern**.
 
 
 ## In der Symbolleiste des Erweiterten Map-Editors verfügbare Funktionen {#id205DEC0005Z}
 
-Die Symbolleiste im Editor für erweiterte Zuordnungen ähnelt dem Thema Web Editor. Die grundlegenden Vorgänge wie das Umschalten des linken Bedienfelds, das Speichern der Zuordnung, das Erstellen einer neuen Version der Zuordnung, das Rückgängigmachen/Wiederholen des letzten Vorgangs und das Löschen der ausgewählten Elemente sind in beiden Editoren üblich. Weitere Informationen zur Funktionsweise dieser Vorgänge finden Sie unter [Funktionen des Web Editors kennen](web-editor-features.md#) Abschnitt.
+Die Symbolleiste im Editor für erweiterte Zuordnungen ähnelt dem Thema Web Editor. Die grundlegenden Vorgänge wie das Umschalten des linken Bedienfelds, das Speichern der Zuordnung, das Erstellen einer neuen Version der Zuordnung, das Rückgängigmachen/Wiederholen des letzten Vorgangs und das Löschen der ausgewählten Elemente sind in beiden Editoren üblich. Ausführliche Informationen zur Funktionsweise dieser Vorgänge finden Sie im Abschnitt [Funktionsweise des Web-Editors kennenlernen](web-editor-features.md#) .
 
 Die folgenden zuordnungsspezifischen Vorgänge sind auch in der Symbolleiste in den Layoutansichten und Autorenansichten verfügbar:
 
@@ -126,7 +126,7 @@ Zeigt das Dialogfeld &quot;Themensuche&quot;an. Navigieren Sie zur Themen-/Zuord
 
 **Themengruppe einfügen** - ![](images/insert-topic-group.png)
 
-Fügen Sie die `topicgroup` -Element. Weitere Informationen zu Gruppierungsthemen finden Sie unter [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) Dokumentation in OASIS DITA Language Specification.
+Fügen Sie das Element `topicgroup` ein. Weitere Informationen zu Gruppierungsthemen finden Sie in der Dokumentation zu [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) in der OASIS DITA-Sprachspezifikation.
 
 **Schlüsseldefinition einfügen** - ![](images/Key_icon.svg)
 
@@ -138,19 +138,19 @@ Zeigt das Dialogfeld Keydef einfügen an. Verwenden Sie dieses Dialogfeld, um ei
 
 Zeigt das Dialogfeld Element einfügen an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in die Zuordnung eingefügt.
 
-**Einfügen von Vorder-Matches** - ![](images/frontmatter.svg)
+**Vorne Frage einfügen** - ![](images/frontmatter.svg)
 
 Dieses Symbol wird angezeigt, wenn Sie eine Lesekarte zur Bearbeitung öffnen. Sie können Komponenten wie Inhaltsverzeichnisse, Indexe und Tabellen am Anfang des Buches einfügen.
 
-**Rücken einfügen** - ![](images/backmatter.svg)
+**Rücken Matter einfügen** - ![](images/backmatter.svg)
 
 Dieses Symbol wird angezeigt, wenn Sie eine Lesekarte zur Bearbeitung öffnen. Sie können Komponenten für ein Ende des Buches einfügen, z. B. einen Index, ein Glossar und eine Liste von Abbildungen.
 
-**Ausgewähltes Element nach links/rechts verschieben** - ![](images/left-arrow-icon.png) / ![](images/right-arrow-icon.png)
+**Verschieben des ausgewählten Elements nach links/rechts** - ![](images/left-arrow-icon.png) / ![](images/right-arrow-icon.png)
 
 Klicken Sie auf den Pfeil nach links, um das Thema in der Hierarchie nach links zu verschieben. Dies fördert im Wesentlichen das jeweilige Thema auf einer Ebene in der Hierarchie. Wenn Sie beispielsweise auf den Pfeil nach links klicken, während ein untergeordnetes Thema ausgewählt ist, wird es zum gleichrangigen Thema. Wenn Sie auf den Pfeil nach rechts klicken, wird das Thema auf die rechte Seite verschoben, sodass es zum untergeordneten Element des Themas darüber wird.
 
-**Ausgewähltes Element nach oben/unten verschieben![](images/arrowup.svg)** - / ![](images/arrowdown.svg)
+**Verschieben des ausgewählten Elements nach oben/unten![](images/arrowup.svg)** - / ![](images/arrowdown.svg)
 
 Klicken Sie auf die Pfeilsymbole nach oben oder unten, um das Thema in der Hierarchie nach oben oder unten zu verschieben.
 
@@ -162,9 +162,9 @@ Klicken Sie auf die Pfeilsymbole nach oben oder unten, um das Thema in der Hiera
 
 Ruft eine Sperre in der Zuordnungsdatei ab und lässt die Sperre los. Wenn Sie nicht gespeicherte Änderungen in Ihrer Zuordnungsdatei haben, werden Sie zum Zeitpunkt der Freigabe der Sperre aufgefordert, die Zuordnungsdatei zu speichern. Die Änderungen werden in der aktuellen Version der Map-Datei gespeichert.
 
-**Zusammenführen** - ![](images/merge-icon.svg)
+**Merge** - ![](images/merge-icon.svg)
 
-Weitere Informationen zum Zusammenführen von Inhalten aus einer anderen Version derselben oder einer anderen Datei finden Sie unter [Zusammenführen](web-editor-features.md#id205DF04E0HS) im Web-Editor.
+Weitere Informationen zum Zusammenführen von Inhalten aus einer anderen Version derselben oder einer anderen Datei finden Sie unter [Zusammenführen](web-editor-features.md#id205DF04E0HS) im Web Editor.
 
 **Versionsverlauf** - ![](images/version-history-web-editor-ico.svg)
 
@@ -172,7 +172,7 @@ Weitere Informationen zum Zusammenführen von Inhalten aus einer anderen Version
 
 **Versionsbezeichnung** - ![](images/version-label-icon.svg)
 
-Zeigt das Dialogfeld zur Verwaltung der Versionsbeschriftungen an. Wählen Sie eine Version aus der Dropdownliste aus. Wählen Sie den Titel aus, den Sie auf die ausgewählte Version anwenden möchten, und klicken Sie auf **Titel hinzufügen** , um es hinzuzufügen.
+Zeigt das Dialogfeld zur Verwaltung der Versionsbeschriftungen an. Wählen Sie eine Version aus der Dropdownliste aus. Wählen Sie die Bezeichnung aus, die Sie auf die ausgewählte Version anwenden möchten, und klicken Sie auf **Titel hinzufügen** , um sie hinzuzufügen.
 
 **Anzeigeoptionen** - ![](images/view-options.svg)
 
@@ -184,9 +184,9 @@ Blendet die Zeilennummer für jedes Thema ein oder aus. Die Zeilennummern werden
 
 - **Kontrollkästchen anzeigen**
 
-Blendet ein Kontrollkästchen für jedes Thema ein oder aus. Sie können das Kontrollkästchen verwenden, um das/die Thema(e\) auszuwählen und mithilfe des Menüs &quot;Optionen&quot;verschiedene Aufgaben auszuführen. Weitere Informationen finden Sie unter [Optionen](#id228ID8006H8) Menü.
+Blendet ein Kontrollkästchen für jedes Thema ein oder aus. Sie können das Kontrollkästchen verwenden, um das/die Thema(e\) auszuwählen und mithilfe des Menüs &quot;Optionen&quot;verschiedene Aufgaben auszuführen. Weitere Informationen finden Sie im Menü [Optionen](#id228ID8006H8) .
 
-- **Dateiname anzeigen**
+- **Dateinamen anzeigen**
 
 Zeigt den Dateinamen der Titel der Themen an.
 
@@ -195,21 +195,21 @@ Zeigt den Dateinamen der Titel der Themen an.
 > Wenn Sie den Mauszeiger über den Titel eines Themas bewegen, wird Ihnen der Dateipfad angezeigt.
 
 
-**Anzeigen von Themen basierend auf bedingten Filtern** Wenn Sie Bedingungen für ein Thema angewendet haben, wird rechts neben dem Thema ein Filtersymbol angezeigt. Wenn Sie den Mauszeiger über ein Filtersymbol bewegen, werden Ihnen die angewendete Bedingung und ihr Attributwert angezeigt.
+**Themen basierend auf bedingten Filtern anzeigen** Wenn Sie Bedingungen auf ein Thema angewendet haben, wird rechts neben dem Thema ein Filtersymbol angezeigt. Wenn Sie den Mauszeiger über ein Filtersymbol bewegen, werden Ihnen die angewendete Bedingung und ihr Attributwert angezeigt.
 
-**Menü &quot;Optionen&quot;in der Ansicht &quot;Layout&quot;**
+**Menü &quot;Optionen&quot;in der Layoutansicht**
 
 Neben der Organisation von Themen in der Map-Datei können Sie auch die folgenden Aktionen über das Menü Optionen durchführen, das für ein Element in der Layout-Ansicht verfügbar ist:
 
 ![](images/map-editor-options-menu.png){width="650" align="left"}
 
-- **Hinzufügen**: Sie können im Map Editor ein neues Thema oder einen leeren Verweis hinzufügen:
-   - **Leere Referenz**: Mit dieser Option können Sie in Ihrer DITA-Zuordnung einen leeren Verweis hinzufügen. Sie können später auf den eingefügten leeren Verweis doppelklicken und die Themendetails hinzufügen. Weitere Informationen finden Sie unter [Thema erstellen](web-editor-features.md#id228ICI0105U) im Web-Editor.
-   - **Neues Thema**: Wenn Sie ein neues Thema aus dem Menü erstellen, wird das Dialogfeld Neues Thema erstellen angezeigt. Geben Sie im Dialogfeld Neues Thema erstellen die erforderlichen Details ein und klicken Sie auf Erstellen . Weitere Informationen finden Sie unter [Thema erstellen](web-editor-features.md#id228ICI0105U) im Web-Editor.
-- **Verschieben**: Sie können ein Thema in der Hierarchie nach oben/unten/rechts/links verschieben. Sie können auch per Drag-and-Drop ein Thema oder eine Zuordnung aus dem Repository-Bedienfeld in die im Map Editor geöffnete Karte ziehen.
-- **Rückgängig**: Machen Sie den letzten Vorgang in der Ansicht &quot;Layout&quot;rückgängig.
+- **Hinzufügen**: Sie können ein neues Thema oder einen leeren Verweis aus dem Map Editor hinzufügen:
+   - **Leere Referenz**: Mit dieser Option können Sie in Ihrer DITA-Zuordnung eine leere Referenz hinzufügen. Sie können später auf den eingefügten leeren Verweis doppelklicken und die Themendetails hinzufügen. Weitere Informationen finden Sie unter [Thema erstellen](web-editor-features.md#id228ICI0105U) im Web Editor.
+   - **Neues Thema**: Wenn Sie ein neues Thema aus dem Menü erstellen, erhalten Sie das Dialogfeld Neues Thema erstellen . Geben Sie im Dialogfeld Neues Thema erstellen die erforderlichen Details ein und klicken Sie auf Erstellen . Weitere Informationen finden Sie unter [Thema erstellen](web-editor-features.md#id228ICI0105U) im Web Editor.
+- **Verschieben**: Sie können ein Thema in der Hierarchie nach oben/unten/rechts/links verschieben. Sie können auch ein Thema oder eine Zuordnung per Drag-and-Drop aus dem Repository-Bereich in die im Map Editor geöffnete Karte ziehen.
+- **Rückgängig**: Rückgängig machen des letzten Vorgangs in der Layout-Ansicht.
 - **Wiederholen**: Wiederholen Sie den letzten Vorgang in der Ansicht &quot;Layout&quot;.
-- **Kopieren**: Kopieren Sie die ausgewählte Referenz aus der Zuordnungsdatei.
+- **Kopieren**: Kopieren Sie den ausgewählten Verweis aus der Zuordnungsdatei.
 
   >[!NOTE]
   >
@@ -231,16 +231,16 @@ Im rechten Bereich werden die Inhaltseigenschaften und die Zuordnungseigenschaft
 
 Der Bereich &quot;Inhaltseigenschaften&quot;enthält Informationen zum Typ des aktuell ausgewählten Themas in der Zuordnung, zur Link-URL und zu den Attributen. Weitere Informationen finden Sie unter [Inhaltseigenschaften](web-editor-features.md#id228IDB00HMM) im Web-Editor.
 
-- **Andere Attribute** Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Im Bereich &quot;Inhaltseigenschaften&quot;können Sie diese Attribute auswählen und sie relevanten Inhalten in Ihrem Thema zuweisen. Sie können auch Attribute zuweisen, die von Ihrem Administrator unter der **Anzeigenattribute** in den Editor-Einstellungen. Die für ein Element definierten Attribute werden im Layout und in der Gliederungsansicht angezeigt. Auf diese Weise können Sie sich alle Themen in einer Zuordnung, für die ein bestimmtes Attribut definiert ist, kurz ansehen. Beispielsweise alle Themen, für die das Plattformattribut als &quot;Android&quot;definiert ist.
+- **Andere Attribute** Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Im Bereich &quot;Inhaltseigenschaften&quot;können Sie diese Attribute auswählen und sie relevanten Inhalten in Ihrem Thema zuweisen. Sie können auch Attribute zuweisen, die von Ihrem Administrator auf der Registerkarte **Anzeigenattribute** in den Editor-Einstellungen konfiguriert wurden. Die für ein Element definierten Attribute werden im Layout und in der Gliederungsansicht angezeigt. Auf diese Weise können Sie sich alle Themen in einer Zuordnung, für die ein bestimmtes Attribut definiert ist, kurz ansehen. Beispielsweise alle Themen, für die das Plattformattribut als &quot;Android&quot;definiert ist.
 
-  ![Layoutansicht](images/layout-inline-attributes.png){width="650" align="left"}
+  ![layout view](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  Weitere Informationen finden Sie unter *Anzeigenattribute* innerhalb der *Editor-Einstellungen* Funktionsbeschreibung in [Linke Leiste](web-editor-features.md#id2051EA0M0HS) Abschnitt.
+  Weitere Informationen finden Sie unter *Attribute anzeigen* in der Funktionsbeschreibung *Editor Settings* im Abschnitt [Left Panel](web-editor-features.md#id2051EA0M0HS) .
 
 - **Metadaten** Mithilfe der Metadaten können Sie die Metadateninformationen festlegen. Sie können den Navigationstitel, den Linktext, die Kurzbeschreibung und die Suchbegriffe definieren.
 
-Weitere Informationen zu den standardmäßigen Themenattributen und Metadaten finden Sie in der [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) Dokumentation in OASIS DITA Language Specification.
+Weitere Informationen zu den standardmäßigen Themenattributen und Metadaten finden Sie in der Dokumentation zu [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) in der OASIS DITA-Sprachspezifikation.
 
 **Zuordnungseigenschaften**
 
@@ -248,7 +248,7 @@ Zeigt das Dialogfeld Zuordnungseigenschaften an, in dem Sie die Attribute und Me
 
 ## Autorenansicht {#id205DEC0005Z_author_view}
 
-Die **Autor** -Ansicht können Sie Ihre DITA-Zuordnung im Web-Editor bearbeiten. Dies zeigt die WYSIWYG-Ansicht des Map-Editors und einige der in der Autorenansicht angezeigten Symbole sind mit der Layout-Ansicht identisch. Weitere Informationen finden Sie unter [Layoutansicht](#id205DEC0005Z_layout_view). Darüber hinaus können Sie die folgenden Symbole sehen und die entsprechenden Aufgaben in der Autorenansicht ausführen:
+Mit der Ansicht **Autor** können Sie Ihre DITA-Zuordnung im Web Editor bearbeiten. Dies zeigt die WYSIWYG-Ansicht des Map-Editors und einige der in der Autorenansicht angezeigten Symbole sind mit der Layout-Ansicht identisch. Weitere Informationen finden Sie unter [Layout-Ansicht](#id205DEC0005Z_layout_view). Darüber hinaus können Sie die folgenden Symbole sehen und die entsprechenden Aufgaben in der Autorenansicht ausführen:
 
 **Einfügen vor/Einfügen nach** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -260,7 +260,7 @@ Zeigt das Dialogfeld Element einfügen an. Wählen Sie das Element aus, das Sie 
 
 **Beziehungstabelle einfügen** - ![](images/relationship_table_icon.svg)
 
-Fügt eine Beziehungstabelle in die Zuordnung ein. Da das Konzept der Arbeit mit der Beziehungstabelle mit dem im Abschnitt &quot;Grundlegender Map-Editor&quot;erläuterten Konzept übereinstimmt, lesen Sie [Arbeiten mit Beziehungstabellen im Basic Map Editor](map-editor-basic-map-editor.md#id1944B0I0COB) für weitere Details.
+Fügt eine Beziehungstabelle in die Zuordnung ein. Da das Konzept der Arbeit mit der Beziehungstabelle mit dem im Abschnitt &quot;Grundlegender Map-Editor&quot;erläuterten Konzept übereinstimmt, finden Sie weitere Informationen unter [Arbeiten mit Beziehungstabellen im Grundlageneditor](map-editor-basic-map-editor.md#id1944B0I0COB) .
 
 **Wiederverwendbaren Inhalt einfügen** - ![](images/content-reuse-icon.png)
 
@@ -268,57 +268,57 @@ Zeigt das Dialogfeld Inhalt wiederverwenden an. Verwenden Sie dieses Dialogfeld,
 
 **Navigationstitel-Attribut aktualisieren** - ![](images/navtitle-refresh-icon.svg)
 
-Synchronisiert die `title` -Element einer referenzierten Datei in einer Zuordnung mit dem in `@navtitle` -Attribut. Sie können verschiedene Arten von Referenzdateien zu einer Zuordnung hinzufügen, z. B. Themen-, Referenz-, Aufgaben-, \(Unter-)Maps usw. Die meisten dieser Dateien unterstützen die `@navtitle` -Attribut. Wenn eine Datei die `@navtitle` -Attribut, dann die `@navtitle` -Attribut für dieselbe Datei in der Zuordnung aktualisiert wird. In diesem Fall `@navtitle` -Attribut nicht vorhanden ist, wird die `@navtitle` -Attribut dieser Referenzdatei hinzugefügt und ihr `title` wird auch aktualisiert, um die `@navtitle`.
+Synchronisiert das Element `title` einer referenzierten Datei in einer Zuordnung mit dem im Attribut `@navtitle` angegebenen Wert. Sie können verschiedene Arten von Referenzdateien zu einer Zuordnung hinzufügen, z. B. Themen-, Referenz-, Aufgaben-, \(Unter-)Maps usw. Die meisten dieser Dateien unterstützen das Attribut `@navtitle` . Wenn eine Datei das Attribut `@navtitle` enthält, wird das Attribut `@navtitle` für dieselbe Datei in der Zuordnung aktualisiert. Wenn das Attribut `@navtitle` nicht vorhanden ist, wird das Attribut `@navtitle` dieser Referenzdatei hinzugefügt und ihr `title` wird ebenfalls aktualisiert, um den Wert `@navtitle` anzuzeigen.
 
 >[!NOTE]
 >
-> Ihr Administrator kann das automatische Hinzufügen konfigurieren `@navtitle` -Attribut zu jeder Referenzdatei zuordnen, die Sie einer Zuordnung hinzufügen. Weitere Informationen zum Konfigurieren des automatischen Hinzufügens `@navtitle` -Attribut, siehe *Standardmäßig Attribut @navtitle einschließen* unter Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern as a Cloud Service.
+> Ihr Administrator kann das automatische Hinzufügen des Attributs `@navtitle` zu jeder Referenzdatei konfigurieren, die Sie einer Zuordnung hinzufügen. Weitere Informationen zum Konfigurieren des automatischen Hinzufügens des Attributs `@navtitle` finden Sie unter *Standardmäßig @navtitle-Attribut einschließen* in Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
-Klicken Sie auf das Symbol Navigationstitel-Attribut aktualisieren , um die `title` -Element und `@navtitle` -Attributs.
+Klicken Sie auf das Symbol Navigationstitel-Attribut aktualisieren , um die Werte der Attribute `title` und `@navtitle` zu synchronisieren.
 
-**Anzeigen von Tags ein/aus** - ![](images/Label_icon.svg)
+**Tag-Ansicht ein/aus** - ![](images/Label_icon.svg)
 
 Blendet die XML-Tags ein oder aus. Die Tags dienen als visuelle Hinweise zur Begrenzung eines Elements. Wenn Sie in diesem Modus einen Thema-/Zuordnungsverweis einfügen möchten, ziehen Sie die gewünschte Datei vor oder nach dem Tag per Drag-and-Drop. Die horizontale Leiste wird im Modus Tags-Ansicht nicht angezeigt.
 
-**Änderungen aktivieren/deaktivieren** - ![](images/track-change-icon.svg)
+**Verfolgungsänderungen aktivieren/deaktivieren** - ![](images/track-change-icon.svg)
 
-Sie können alle in der Zuordnungsdatei vorgenommenen Aktualisierungen verfolgen, indem Sie den Modus Änderungen verfolgen aktivieren. Nachdem Sie die Verfolgungsänderungen aktiviert haben, werden alle Einfügungen und Löschungen im Dokument erfasst. Weitere Informationen finden Sie unter [Änderungen aktivieren/deaktivieren](web-editor-features.md#id205DF0203Y4) im Web-Editor.
+Sie können alle in der Zuordnungsdatei vorgenommenen Aktualisierungen verfolgen, indem Sie den Modus Änderungen verfolgen aktivieren. Nachdem Sie die Verfolgungsänderungen aktiviert haben, werden alle Einfügungen und Löschungen im Dokument erfasst. Weitere Informationen finden Sie unter [Tracking-Änderungen aktivieren/deaktivieren](web-editor-features.md#id205DF0203Y4) im Web Editor.
 
 **Prüfungsaufgabe erstellen** - ![](images/create-review-task-icon.svg)
 
-Sie können eine Prüfungsaufgabe des aktuellen Themas oder der Zuordnungsdatei direkt im Web-Editor erstellen. Öffnen Sie die Datei, für die Sie die Prüfungsaufgabe erstellen möchten, und klicken Sie auf Prüfungsaufgabe erstellen , um den Überprüfungserstellungsprozess zu starten. Befolgen Sie die Anweisungen im Abschnitt [Themen oder Zuordnungen überprüfen](review.md#) für weitere Details.
+Sie können eine Prüfungsaufgabe des aktuellen Themas oder der Zuordnungsdatei direkt im Web-Editor erstellen. Öffnen Sie die Datei, für die Sie die Prüfungsaufgabe erstellen möchten, und klicken Sie auf Prüfungsaufgabe erstellen , um den Überprüfungserstellungsprozess zu starten. Befolgen Sie die Anweisungen in den [Prüfungsthemen oder -zuordnungen](review.md#) , um weitere Details zu erhalten.
 
 ## Themen über DITA-Map bearbeiten {#id17ACJ0F0FHS}
 
 Die Bearbeitung eines einzelnen Themas gibt dem Autor keinen vollständigen Kontext. Ein Autor hätte keine Informationen darüber, wo ein Thema in einer DITA-Zuordnung platziert wird. Ohne diese kontextbezogenen Informationen wird es für Autoren ein wenig schwierig, Inhalte zu erstellen.
 
-AEM Guides ermöglichen es Autoren, eine DITA-Map im Web Editor zu öffnen und die Platzierung von Themen in der Map anzuzeigen. Auf diese Weise können Autoren erkennen, wo genau das Thema in der Zuordnung platziert wird, und relevantere Inhalte erstellen. Wenn mehrere Autoren an einem Projekt arbeiten, können sie außerdem wissen, welche Themen in der Karte verfügbar sind, und Inhalte wiederverwenden, wo immer dies erforderlich ist.
+Mit AEM Guides können Autoren eine DITA-Map im Web Editor öffnen und die Platzierung von Themen in der Map anzeigen. Auf diese Weise können Autoren erkennen, wo genau das Thema in der Zuordnung platziert wird, und relevantere Inhalte erstellen. Wenn mehrere Autoren an einem Projekt arbeiten, können sie außerdem wissen, welche Themen in der Karte verfügbar sind, und Inhalte wiederverwenden, wo immer dies erforderlich ist.
 
 Um Themen über eine DITA-Zuordnung zu bearbeiten, führen Sie die folgenden Schritte aus:
 
 1. Navigieren Sie in der Assets-Benutzeroberfläche zu der DITA-Zuordnung, die die Themen enthält, die Sie bearbeiten möchten.
 1. Klicken Sie auf die DITA-Karte, um sie in der DITA-Map-Konsole zu öffnen.
-1. Wählen Sie die **Themen** um eine Liste der in der DITA-Map verfügbaren Themen anzuzeigen.
+1. Wählen Sie die Registerkarte **Themen** aus, um eine Liste der in der DITA-Map verfügbaren Themen anzuzeigen.
 
    >[!TIP]
    >
-   > Im Tab Themen können Sie die Zuordnungsdatei mit ihren abhängigen Elementen herunterladen. Weitere Informationen finden Sie unter [DITA-Map-Datei exportieren](authoring-download-assets.md#id218UBA00IXA).
+   > Im Tab Themen können Sie die Zuordnungsdatei mit ihren abhängigen Elementen herunterladen. Weitere Informationen finden Sie unter [Exportieren einer DITA-Map-Datei](authoring-download-assets.md#id218UBA00IXA).
 
-1. Klicken Sie in der Symbolleiste auf **Themen bearbeiten**.
+1. Klicken Sie in der Hauptsymbolleiste auf **Themen bearbeiten** .
 
    Die DITA-Zuordnung wird im Web-Editor geöffnet.
 
    >[!NOTE]
    >
-   > Sie können auch die DITA-Map-Datei in der Assets-Benutzeroberfläche auswählen und auf **Themen bearbeiten** in der Hauptsymbolleiste, um den Web Editor zu starten.
+   > Sie können auch die DITA-Zuordnungsdatei in der Assets-Benutzeroberfläche auswählen und in der Hauptsymbolleiste auf **Themen bearbeiten** klicken, um den Web Editor zu starten.
 
    ![](images/web-editor-map-view_cs.png){width="350" align="left"}
 
-1. \(*Optional*\) Sie können auch ein Thema aus der Zuordnung auswählen und die Datei vor der Bearbeitung auschecken. Um die Datei auszuchecken, wählen Sie mindestens eine Datei aus dem linken Bereich aus und klicken Sie auf **Checkout**. Sie können die Sperre auch für jede Datei freigeben, indem Sie die ausgecheckte Datei auswählen und auf **Auschecken und Entsperren abbrechen** in der Kartenansicht.
+1. \(*Optional*\) Sie können auch ein Thema aus der Zuordnung auswählen und die Datei vor der Bearbeitung auschecken. Um die Datei\(en\) auszuchecken, wählen Sie mindestens eine Datei im linken Bereich aus und klicken Sie auf **Auschecken**. Sie können die Sperre auch für jede Datei freigeben, indem Sie die ausgecheckte Datei auswählen und in der Kartenansicht auf das Symbol **Auschecken abbrechen und Entsperren** klicken.
 
    >[!IMPORTANT]
    >
-   > Wenn Ihr Administrator die **Bearbeitung ohne Checkout deaktivieren** auswählen, müssen Sie die Datei vor der Bearbeitung auschecken. Wenn Sie die Datei nicht auschecken, wird das Dokument im schreibgeschützten Modus im Editor geöffnet.
+   > Wenn Ihr Administrator die Option **Bearbeitung ohne Checkout deaktivieren** konfiguriert hat, müssen Sie die Datei vor der Bearbeitung auschecken. Wenn Sie die Datei nicht auschecken, wird das Dokument im schreibgeschützten Modus im Editor geöffnet.
 
    Im folgenden Screenshot werden die Symbole für Auschecken und Sperren \(A\), Auschecken abbrechen und Entsperren \(B\), Als neue Version speichern und Entsperren \(C\), Bearbeiten \(D\), Vorschau \(E\), verschiedene Symbole mit verschiedenen DITA-Dateitypen \(F\) und Dateien, die ausgecheckt werden \(G\), hervorgehoben.
 
@@ -334,27 +334,27 @@ Um Themen über eine DITA-Zuordnung zu bearbeiten, führen Sie die folgenden Sch
 
 1. Nachdem Sie die Bearbeitung der Themen abgeschlossen haben, haben Sie folgende Möglichkeiten:
 
-   - Sie können sie einzeln speichern. Wenn Sie auf **Ohne Speichern schließen** In den Themen wird ein Dialogfeld angezeigt, in dem Sie aufgefordert werden, die nicht gespeicherten Themen zu speichern:
+   - Sie können sie einzeln speichern. Wenn Sie auf **Schließen ohne Speichern** klicken, werden Sie in einem Dialogfeld aufgefordert, die nicht gespeicherten Themen zu speichern:
 
      ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
      Sie können festlegen, dass alle ausgewählten Themen gespeichert werden, oder Sie können die Themen, die Sie nicht speichern möchten, deaktivieren.
 
-   - Sie können das Thema mit dem **Als neue Version speichern und entsperren** Schaltfläche. Wenn Sie eine Version des Themas speichern, wird eine neue Version erstellt und die Sperre wird ebenfalls freigegeben.
+   - Sie können das Thema mit der Schaltfläche **Als neue Version speichern und entsperren** einchecken. Wenn Sie eine Version des Themas speichern, wird eine neue Version erstellt und die Sperre wird ebenfalls freigegeben.
 
      Es wird empfohlen, die Änderungen zu speichern, bevor Sie die Dateien einchecken.  Wenn Sie die Änderungen speichern, wird die XML-Datei validiert.
 
-   - Sie können auch mehrere Themen mit der **Als neue Version speichern und entsperren** Schaltfläche. Wenn Sie eine Version der Themen speichern, wird für jedes Thema eine neue Version erstellt und die Sperre wird ebenfalls freigegeben. Sie können den Fortschritt der Überprüfung der Themen auch über die **Als neue Version speichern und entsperren** Dialogfeld. Beim Einchecken der Dateien wird eine Erfolgsmeldung angezeigt.
+   - Mit der Schaltfläche &quot;**Als neue Version speichern&quot;und &quot;Entsperren&quot;** können Sie auch mehrere Themen auswählen und einchecken. Wenn Sie eine Version der Themen speichern, wird für jedes Thema eine neue Version erstellt und die Sperre wird ebenfalls freigegeben. Sie können auch den Fortschritt der Überprüfung in den Themen im Dialogfeld **Als neue Version speichern und Entsperren** anzeigen. Beim Einchecken der Dateien wird eine Erfolgsmeldung angezeigt.
 
    - Wenn Ihr Administrator die Option zum Einchecken von Dateien beim Schließen aktiviert hat, wird Ihnen eine Eingabeaufforderung zum Speichern von Dateien angezeigt, sobald die ausgecheckten Dateien geschlossen werden. Wenn diese Option aktiviert ist, wird Ihnen beim Schließen des Editors mit geänderten Dateien die Liste der ausgecheckten Dateien angezeigt, die gespeichert werden müssen. Die ausgecheckten Dateien werden mit einem Sperrsymbol angezeigt:
 
      ![](images/save-on-close.PNG){width="550" align="left"}
 
-      - Klicken auf **Ohne Speichern schließen** -Schaltfläche schließt die Dateien, ohne die Änderungen zu speichern.
+      - Wenn Sie auf die Schaltfläche **Ohne Speichern schließen** klicken, werden die Dateien geschlossen, ohne die Änderungen zu speichern.
 
-      - Klicken Sie auf **Speichern** speichert die Änderungen, checkt die Dateien jedoch nicht ein.
+      - Durch Klicken auf die Schaltfläche **Speichern** werden die Änderungen gespeichert, die Dateien werden jedoch nicht eingecheckt.
 
-      - Auswählen der **Überprüfen von Dateien** und klicken Sie dann auf **Speichern** -Schaltfläche checkt die Dateien ein \(erstellt eine andere Version\) und speichert auch die Dateien.
+      - Wenn Sie die Option **Überprüfen der Dateien** auswählen und dann auf die Schaltfläche **Speichern** klicken, werden die Dateien eincheckt \(erstellt eine andere Version\) und auch die Dateien gespeichert.
 
 
 ## Vorschau einer Landkarte
@@ -363,11 +363,11 @@ Zusätzlich zur Möglichkeit, die Position jeder Themendatei in einer Zuordnung 
 
 Sie können auf die Vorschau einer Karte wie folgt zugreifen:
 
-- **Assets-Benutzeroberfläche**: Navigieren Sie in der Assets-Benutzeroberfläche zum Zuordnungsspeicherort, wählen Sie die Zuordnungsdatei aus und wählen Sie **Vorschau anzeigen** in der Symbolleiste. Die Vorschau der Karte wird in einem neuen Tab angezeigt. Sie können den Inhalt aller Themen im Vorschaumodus anzeigen. In dieser Ansicht können Sie kein Thema bearbeiten.
+- **Assets UI**: Navigieren Sie in der Assets-Benutzeroberfläche zum Zuordnungsspeicherort, wählen Sie die Zuordnungsdatei aus und wählen Sie in der Symbolleiste **Zuordnungsvorschau** aus. Die Vorschau der Karte wird in einem neuen Tab angezeigt. Sie können den Inhalt aller Themen im Vorschaumodus anzeigen. In dieser Ansicht können Sie kein Thema bearbeiten.
 
   >[!NOTE]
   >
-  > Wenn die Variable *Vorschau anzeigen* nicht in der Hauptsymbolleiste sichtbar ist, wurde sie möglicherweise unter die **Mehr** Symbolleistenmenü.
+  > Wenn die Option *Vorschau der Karte* nicht in der Hauptsymbolleiste angezeigt wird, wurde sie möglicherweise unter das Symbolleistenmenü **Mehr** verschoben.
 
 - **Erweiterter Map-Editor**: Klicken Sie im erweiterten Map-Editor auf das Symbol Vorschau , um die Vorschau der aktuellen Zuordnung anzuzeigen.
 
@@ -375,7 +375,7 @@ Sie können auf die Vorschau einer Karte wie folgt zugreifen:
 
   Sie können die folgenden zusätzlichen Aufgaben im Vorschaumodus ausführen:
 
-   - Klicken Sie mit der rechten Maustaste auf ein Thema und wählen Sie **Bearbeiten** , um das Thema zur Bearbeitung in einer neuen Registerkarte zu öffnen.
+   - Klicken Sie mit der rechten Maustaste auf ein Thema und wählen Sie **Bearbeiten** aus, um das Thema zur Bearbeitung auf einer neuen Registerkarte zu öffnen.
 
      >[!NOTE]
      >
@@ -386,4 +386,4 @@ Sie können auf die Vorschau einer Karte wie folgt zugreifen:
    - Das aktuelle Thema in der Zuordnungsvorschau wird ebenfalls in der Zuordnungsstruktur hervorgehoben.
 
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Map Editor](map-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Map-Editor](map-editor.md)

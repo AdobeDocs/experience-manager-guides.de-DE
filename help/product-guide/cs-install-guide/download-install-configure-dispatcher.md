@@ -1,6 +1,6 @@
 ---
 title: Konfiguration des Dispatchers
-description: Erfahren Sie, wie Sie den Dispatcher konfigurieren
+description: Erfahren Sie, wie Sie Dispatcher konfigurieren
 exl-id: d3ce4d01-b0fd-4f02-977c-ab378c328071
 feature: Installation
 role: Admin
@@ -16,11 +16,11 @@ ht-degree: 19%
 
 Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich. Weitere Informationen finden Sie unter [Dispatcher in der Cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
 
-1. Informationen zum Migrieren der Dispatcher-Konfiguration von AMS zu Cloud Service finden Sie unter [Migration der Dispatcher-Konfiguration von AMS auf AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en).
-1. Weitere Informationen zum Konfigurieren des Dispatchers finden Sie unter [Dispatcher konfigurieren](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de).
+1. Informationen zum Migrieren der Dispatcher-Konfiguration von AMS zu Cloud Service finden Sie unter [Migrieren der Dispatcher-Konfiguration von AMS zu AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en).
+1. Weitere Informationen zum Konfigurieren des Dispatchers finden Sie unter [Konfigurieren von Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de).
 
 >[!NOTE]
 >
 > AEM as a Cloud Service unterstützt Dispatcher nicht für die Autoreninstanz.
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)

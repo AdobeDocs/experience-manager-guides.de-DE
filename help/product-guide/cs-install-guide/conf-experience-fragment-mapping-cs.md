@@ -4,7 +4,8 @@ description: Erfahren Sie, wie Sie die JSON-basierte Zuordnung zwischen einem Th
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f252537d15d7e8f8651dddb0ae635905705e4adf
+exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -13,14 +14,14 @@ ht-degree: 0%
 
 # Erstellen einer Zuordnung zwischen einem Thema und einem Experience Fragment
 
-Adobe Experience Manager-Handbücher bieten die Funktion zum Erstellen einer JSON-basierten Zuordnung zwischen einem Thema und einer Experience Fragment-Vorlage. Sie können diese Zuordnung verwenden, um Inhalte, die in einigen oder allen Elementen innerhalb eines Themas vorhanden sind, in einem Experience Fragment zu veröffentlichen.
+Adobe Experience Manager Guides bietet die Funktion zum Erstellen einer JSON-basierten Zuordnung zwischen einem Thema und einer Experience Fragment-Vorlage. Sie können diese Zuordnung verwenden, um Inhalte, die in einigen oder allen Elementen innerhalb eines Themas vorhanden sind, in einem Experience Fragment zu veröffentlichen.
 
-1. So laden Sie die *experienceFragmentMapping.json*, melden Sie sich als Administrator bei Adobe Experience Manager an.
-1. Wählen Sie oben den Link Adobe Experience Manager aus und wählen Sie **Instrumente**.
-1. Wählen Sie in der Liste der Tools die Option Guides aus und wählen Sie die **Ordnerprofile**.
-1. Wählen Sie die Profilkachel aus, die Sie konfigurieren möchten. Sie können die Zuordnung für das globale Profil oder ein Profil auf Ordnerebene konfigurieren. Wählen Sie beispielsweise die **Globales Profil** Kachel.
-1. Wählen Sie die **Konfiguration des XML-Editors** und wählen Sie die **Bearbeiten** Symbol oben.
-1. Wählen Sie die **Herunterladen** zum Herunterladen des *experienceFragmentMapping.json*  -Datei auf Ihrem lokalen System. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
+1. Melden Sie sich zum Herunterladen von *experienceFragmentMapping.json* bei Adobe Experience Manager als Administrator an.
+1. Wählen Sie oben den Adobe Experience Manager-Link und dann **Tools** aus.
+1. Wählen Sie in der Liste der Tools die Option &quot;Guides&quot;aus und wählen Sie **Ordnerprofile** aus.
+1. Wählen Sie die Profilkachel aus, die Sie konfigurieren möchten. Sie können die Zuordnung für das globale Profil oder ein Profil auf Ordnerebene konfigurieren. Wählen Sie beispielsweise die Kachel **Globales Profil** aus.
+1. Wählen Sie die Registerkarte **XML-Editor-Konfiguration** und dann oben das Symbol **Bearbeiten** aus.
+1. Wählen Sie das Symbol **Download** aus, um die Datei *experienceFragmentMapping.json* auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
 
 1. Sie müssen die folgenden Validierungen befolgen:
 
@@ -45,11 +46,11 @@ Adobe Experience Manager-Handbücher bieten die Funktion zum Erstellen einer JSO
 
 1. Speichern Sie die Datei und laden Sie sie hoch.
 
-Experience Manager-Handbücher konvertieren das gesamte Thema in HTML, das dann den im Experience Fragment verwendeten Kernkomponenten zugeordnet werden kann. Zum Beispiel der Inhalt in einer `<p>` -Tag zugeordnet werden, um eine Textkomponente im Experience Fragment zu erstellen.
+Experience Manager Guides konvertiert das gesamte Thema in HTML, das dann den im Experience Fragment verwendeten Kernkomponenten zugeordnet werden kann. Beispielsweise kann der Inhalt in einem `<p>` -Tag zugeordnet werden, um eine Textkomponente im Experience Fragment zu erstellen.
 * `name`: Geben Sie das HTML-Element an. Zum Beispiel `<div>`, `<img>`
 * `class`: Geben Sie das DITA-Element-Tag an, das dem HTML-Element entspricht. Beispiel: `<p>` `<image>`
-* `resourceType`: Geben Sie den Ressourcentyp an, der für die in Experience Fragment verwendete Komponente gilt. Beispiel: `wcm/foundation/components/text` ist der resourceType für den wcm `text` -Komponente.
-* `attributeMap`: Stellen Sie zusätzliche Informationen für die Komponente bereit, z. B. ob eine Textkomponente als `RichText` oder enthält `fileReference` einer Bildkomponente.
+* `resourceType`: Geben Sie den Ressourcentyp an, der für die im Experience Fragment verwendete Komponente gilt. Beispielsweise ist `wcm/foundation/components/text` der resourceType für die wcm `text` -Komponente.
+* `attributeMap`: Geben Sie zusätzliche Informationen für die Komponente ein, z. B. ob eine Textkomponente als `RichText` gerendert werden soll oder die `fileReference` einer Bildkomponente enthält.
 
 
 
@@ -156,7 +157,6 @@ Beispieldatei:
 
 
 
-Wählen Sie beim Veröffentlichen der Experience Fragments im Web Editor die `Template` aus dem Dropdown-Menü im **Experience Fragment generieren** Dialogfeld zum Anzeigen der für die Vorlage verfügbaren Zuordnung im **Zuordnung** -Feld. Wenn keine benutzerdefinierte Zuordnung für eine Vorlage vorhanden ist, wird die Standardzuordnung aufgelistet. Sie können die Standardzuordnung verwenden, um das gesamte Thema als Experience Fragment zu veröffentlichen.
+Wählen Sie beim Veröffentlichen der Experience Fragments im Web Editor im Dropdown-Menü im Dialogfeld **Erlebnisfragment erzeugen** die Option `Template` aus, um die für die Vorlage verfügbare Zuordnung im Feld **Zuordnung** anzuzeigen. Wenn keine benutzerdefinierte Zuordnung für eine Vorlage vorhanden ist, wird die Standardzuordnung aufgelistet. Sie können die Standardzuordnung verwenden, um das gesamte Thema als Experience Fragment zu veröffentlichen.
 
-Weitere Informationen finden Sie unter [Experience Fragments veröffentlichen](../user-guide/publish-experience-fragment.md).
-
+Weitere Informationen finden Sie unter [Publish Experience Fragments](../user-guide/publish-experience-fragment.md).

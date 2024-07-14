@@ -1,6 +1,6 @@
 ---
 title: Ausgabe von .book- oder .fm-Dateien generieren
-description: Erfahren Sie, wie Sie die Ausgabe von .book- oder .fm-Dateien in AEM Guides generieren.
+description: Erfahren Sie, wie Sie in AEM Guides die Ausgabe von .book- oder .fm-Dateien generieren.
 exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
 feature: Publishing FrameMaker Documents
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Führen Sie die folgenden Schritte aus, um die Ausgabe für FrameMaker-Dokumente zu generieren:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu und klicken Sie auf die Schaltfläche `.book` oder `.fm` -Datei, die Sie veröffentlichen möchten.
+1. Navigieren Sie in der Assets-Benutzeroberfläche zu der Datei `.book` oder `.fm`, die Sie veröffentlichen möchten, und klicken Sie darauf.
 
    Die DITA-Zuordnungskonsole wird mit der Liste der zum Generieren der Ausgabe verfügbaren Ausgabevorgaben angezeigt.
 

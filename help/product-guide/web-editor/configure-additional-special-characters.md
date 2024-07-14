@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren zusätzlicher Sonderzeichen in der Symbolleiste des Web-Editors
-description: Erfahren Sie, wie Sie im Web-Editor von AEM Guides zusätzliche Sonderzeichen konfigurieren.
+description: Erfahren Sie, wie Sie zusätzliche Sonderzeichen im Web-Editor von AEM Guides konfigurieren.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
@@ -55,10 +55,10 @@ Sie können mehrere Definitionen von Sonderzeichen innerhalb einer Kategorie def
 
 Dadurch wird im Dialogfeld &quot;Sonderzeichen&quot;eine weitere Kategorie hinzugefügt:
 
-![Symbolkategorie](assets/special-char-category.png)
+![Besondere Symbolkategorie](assets/special-char-category.png)
 
 ![Sonderzeichen einfügen](assets/insert-special-char.png)
 
 >[!MORELIKETHIS]
 >
->+ [Handbuch zur Installation und Konfiguration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [Installations- und Konfigurationshandbuch](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)

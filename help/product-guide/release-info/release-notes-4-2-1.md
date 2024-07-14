@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in Version 4.2.1 der Adobe Experience Manager-Handbücher
-description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.2.1 der Adobe Experience Manager-Handbücher.
+title: Versionshinweise | Aktualisierungsanweisungen und behobene Probleme in Adobe Experience Manager Guides Version 4.2.1
+description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.2.1 von Adobe Experience Manager Guides.
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
@@ -11,30 +11,31 @@ ht-degree: 1%
 
 ---
 
-# Version 4.2.1 von Adobe Experience Manager-Handbüchern (Mai 2023)
+# Version 4.2.1 von Adobe Experience Manager Guides (Mai 2023)
 
-In diesem Versionshinweis werden die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die in Version 4.2.1 der Adobe Experience Manager-Handbücher behobenen Probleme (später auch als *AEM*).
+In diesem Versionshinweis werden die Aktualisierungsanweisungen, die Kompatibilitätsmatrix und die in Version 4.2.1 von Adobe Experience Manager Guides behobenen Probleme (später als *AEM Guides*) behandelt.
 
-Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 4.2.1 von Adobe Experience Manager-Handbüchern](whats-new-4-2-1-release.md).
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 4.2.1 von Adobe Experience Manager Guides](whats-new-4-2-1-release.md).
 
-## Aktualisierung auf Version 4.2.1 der AEM Handbücher
+## Aktualisierung auf Version 4.2.1 von AEM Guides
 
 
-Sie können Ihre aktuelle Version von AEM Guides einfach auf Version 4.2.1 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.2.1 von AEM Guides fortfahren, müssen Sie die folgenden Punkte beachten: Sie können Ihre aktuelle Version von AEM Guides auf Version 4.2.1 aktualisieren.
+Sie können Ihre aktuelle Version von AEM Guides einfach auf Version 4.2.1 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.2.1 von AEM Guides fortfahren, müssen Sie die folgenden Punkte beachten:
+Sie können Ihre aktuelle Version von AEM Guides auf Version 4.2.1 aktualisieren.
 * Wenn Sie Version 4.1, 4.1.x oder 4.2 verwenden, können Sie direkt auf Version 4.2.1 aktualisieren.
 * Wenn Sie Version 4.0 verwenden, müssen Sie vor der Aktualisierung auf Version 4.2.1 auf Version 4.2 aktualisieren.
 * Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-* Wenn Sie eine Version vor 3.8.5 verwenden, finden Sie im Abschnitt AEM Upgrade-Handbuch im produktspezifischen Installationshandbuch weitere Informationen.
+* Wenn Sie eine Version vor Version 3.8.5 verwenden, lesen Sie den Abschnitt &quot;Aktualisieren von AEM Guides&quot;im produktspezifischen Installationshandbuch.
 
 >[!NOTE]
 >
->Sie müssen AEM Service Pack installieren, bevor Sie AEM Guides-Version aktualisieren.
+>Sie müssen AEM Service Pack installieren, bevor Sie die AEM Guides-Version aktualisieren.
 
 Weitere Informationen finden Sie unter [Upgrade-Anweisungen](../install-guide/upgrade-xml-documentation.md).
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von AEM Guides 4.2 unterstützt werden. Version 1.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die von AEM Guides 4.2 unterstützten Softwareanwendungen aufgeführt. Version 1.
 
 ### Adobe Experience Manager
 
@@ -44,7 +45,7 @@ Version 6.5 Service Pack 15, 14, 13 oder 12
 **UUID**
 Version 6.5 Service Pack 15, 14, 13 oder 12
 
-Weitere Informationen finden Sie unter *Technische Anforderungen* im Handbuch &quot;Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern&quot;.
+Weitere Informationen finden Sie im Abschnitt *Technische Anforderungen* im Handbuch &quot;Installieren und Konfigurieren von Adobe Experience Manager Guides&quot;.
 
 ### FrameMaker und FrameMaker Publishing Server
 
@@ -82,7 +83,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Der Browser (Web Editor) friert beim Laden von Inhalten mit benutzerdefiniertem Schema ein. (1121)
 * Native PDF | Beim Erstellen einer Ausgabevorgabe mit der Option &quot;Zum Ordnerprofil hinzufügen&quot;schlägt die PDF-Erstellung mit einer Nullzeiger-Ausnahme fehl. (10950)
 * Native PDF | Das Bild-Tag fügt allen Bildern das Attribut display-inline hinzu. (10653)
-* Das Einfügen von Audio- und Video-Multimediadateien schlägt im YouTube-Format unter dem **Multimedia einfügen** Symbol. (11320)
+* Das Einfügen von Audio- und Video-Multimedia-Dateien schlägt im YouTube-Format unter dem Symbol &quot;**Multimedia einfügen**&quot;fehl. (11320)
 * Der Validierungsfehler tritt auf, wenn eine Zuordnung mithilfe der Vorlage erstellt wird, die über ein spezielles Titelelement verfügt. (11212)
 * Web-Editor | Beim Bearbeiten eines Themas wird im XML-Editor geschütztes Leerzeichen hinzugefügt. (11786)
 
@@ -90,20 +91,20 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 * Auf der Registerkarte Berichte in der Web Editor-Benutzeroberfläche wird nicht die Themenliste der alten DITA-Maps angezeigt, die vor der Aktualisierung 4.2 erstellt wurden. (11708)
 
-* Die Schaltfläche &quot;Dateien hochladen&quot;in der Assets-Benutzeroberfläche ist in Version 4.2 nicht mehr verfügbar. (11633)
+* Die Funktion der Schaltfläche &quot;Dateien hochladen&quot;in der Benutzeroberfläche von Assets ist in Version 4.2 umgebrochen. (11633)
 
 
 ### Veröffentlichung
 
 * Native PDF | Das Veröffentlichen von Inhalten mit einer Ausgabeklasse mit Klammern() führt zum Einfrieren der Veröffentlichung. (1936)
-* JSON-Ausgabe | Zuordnen von Metadaten mit dem Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (1933)
+* JSON-Ausgabe | Zuordnen von Metadaten mit dem Eigenschaftswert &quot;`"value in spaces and double quotes"`&quot; führt zu einem Veröffentlichungsfehler. (1933)
 * Problem tritt bei AEM Site-Suche auf (funktioniert nicht über 2-3-Level-Knoten hinaus). (11352)
 * Web-Editor | Der Ausgabepfad und die Vorlage können nicht in der AEM ausgewählt werden. (11530)
 * Bei der Aktualisierung von Version 4.1.x auf Version 4.2 funktioniert die Native PDF Engine nicht und gibt auch für das unterstützte Betriebssystem eine NullPointerException aus.(11526)
 * Der Download-PDF-Prozess funktioniert im Web-Editor nicht ordnungsgemäß. (11496)
 * Native PDF | Entwurfskommentare sind standardmäßig in der generierten Ausgabe ausgeblendet. (10560)
 * Native PDF | navtitle wird für topichead nicht geehrt. (10509)
-* Native PDF | Hinzufügen `xref` in ein Bild wird das Bild nicht auf der generierten PDF gerendert. (11346)
+* Native PDF | Durch Hinzufügen von `xref` zu einem Bild wird das Bild nicht auf der generierten PDF gerendert. (11346)
 * Native PDF | Die in der Tabellenüberschrift vorhandene Fußnote führt zu fett und zentriert ausgerichtetem Text in der entsprechenden Fußzeile der PDF-Ausgabe. (10610)
 
 ### Übersetzung

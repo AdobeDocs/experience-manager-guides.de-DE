@@ -26,10 +26,10 @@ Führen Sie die folgenden Schritte aus, um die Schematron-Dateien zu importieren
 
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
-1. Navigieren Sie zum gewünschten Ordner (in den Sie die Dateien hochladen möchten) unter *Repository-Ansicht*.
-1. Klicken Sie auf **Optionen** -Symbol, um das Kontextmenü zu öffnen und **Hochladen von Assets**.
-1. Im **Hochladen von Assets** Dialogfeld können Sie den Zielordner im **Asset-Ordner auswählen** -Feld.
-1. Klicks **Dateien auswählen** und wählen Sie die Schematron-Dateien aus. Sie können eine oder mehrere Schemadateien auswählen und dann auf **Hochladen**.
+1. Navigieren Sie in der *Repository-Ansicht* zum gewünschten Ordner (in den Sie die Dateien hochladen möchten).
+1. Klicken Sie auf das Symbol **Optionen** , um das Kontextmenü zu öffnen und die Option **Assets hochladen** zu wählen.
+1. Im Dialogfeld **Assets hochladen** können Sie den Zielordner im Feld **Asset-Ordner auswählen** ändern.
+1. Klicken Sie auf **Dateien auswählen** und wählen Sie die Schematrondateien aus. Sie können eine oder mehrere Schemadateien auswählen und dann auf **Hochladen** klicken.
 
 ## Validieren eines DITA-Themas oder -Map mit Schematron
 
@@ -59,7 +59,7 @@ Die Schemaunterstützung im Web Editor hilft Ihnen dabei, die Dateien anhand ein
 
 ## Verwenden Sie Assets und Berichtanweisungen, um nach Regeln zu suchen.{#schematron-assert-report}
 
-AEM Guides unterstützen auch die Assert- und Berichtanweisungen in Schematron. Diese Anweisungen helfen Ihnen bei der Validierung Ihrer DITA-Themen.
+AEM Guides unterstützt auch die Assert- und Berichtanweisungen in Schematron. Diese Anweisungen helfen Ihnen bei der Validierung Ihrer DITA-Themen.
 
 ### Assert-Anweisung
 
@@ -107,7 +107,7 @@ No one word titles.
 
 ## Abstrakte Muster definieren{#schematron-abstract-patterns}
 
-AEM Guides unterstützen auch abstrakte Muster in Schematron. Sie können allgemeine abstrakte Muster definieren, um diese abstrakten Muster wiederzuverwenden.  Sie können Platzhalterparameter erstellen, die das tatsächliche Muster angeben.
+AEM Guides unterstützt auch abstrakte Muster in Schematron. Sie können allgemeine abstrakte Muster definieren, um diese abstrakten Muster wiederzuverwenden.  Sie können Platzhalterparameter erstellen, die das tatsächliche Muster angeben.
 
 
 Die Verwendung abstrakter Muster kann das Schema vereinfachen, indem die Duplizierung von Regeln reduziert und die Verwaltung und Aktualisierung Ihrer Validierungslogik vereinfacht wird. Außerdem kann es das Verständnis Ihres Schemas vereinfachen, da Sie komplexe Validierungslogik in einem einzigen abstrakten Muster definieren können, das im gesamten Schema wiederverwendet werden kann.

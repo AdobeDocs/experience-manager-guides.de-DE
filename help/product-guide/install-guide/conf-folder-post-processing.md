@@ -4,19 +4,19 @@ description: Erfahren Sie, wie Sie die Nachbearbeitung für einen Ordner deaktiv
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 532e7c562a233619a8c4b7cbdbaef44bc73eb4b2
+exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
-
 # Deaktivieren der Nachbearbeitung für einen Ordner
 
-Standardmäßig werden alle hochgeladenen Assets mit dem Workflow DAM-Update-Asset verarbeitet. Experience Manager Guides führen im Rahmen dieses Workflows eine zusätzliche Verarbeitung durch, die als Nachbearbeitung bezeichnet wird. Dies hilft auch beim Generieren der UUIDs
+Standardmäßig werden alle hochgeladenen Assets mit dem Workflow DAM-Update-Asset verarbeitet. Experience Manager Guides führt im Rahmen dieses Workflows eine zusätzliche Verarbeitung durch, die so genannte Nachbearbeitung. Dies hilft auch beim Generieren der UUIDs
 
-Beim Hochladen Ihrer Dateien und Ordner in die *Adobe Experience Manager Assets* -Server können Sie auch die Nachbearbeitung und die Generierung von UUIDs deaktivieren.
+Beim Hochladen Ihrer Dateien und Ordner auf den Server *Adobe Experience Manager Assets* können Sie auch die Nachbearbeitung und die Generierung von UUIDs deaktivieren.
 
 
 Führen Sie die folgenden Schritte aus, um die Nachbearbeitung für einen bestimmten Pfad zu deaktivieren oder die Nachbearbeitung für einen Ordner zu ignorieren:
@@ -30,11 +30,11 @@ Führen Sie die folgenden Schritte aus, um die Nachbearbeitung für einen bestim
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.config.ConfigManager** Bundle
+1. Suchen Sie nach dem Bundle **com.adobe.fmdita.config.ConfigManager** und klicken Sie darauf.
 
-1. Wählen Sie die **Ignorierte Pfade für die Nachbearbeitung** , um einen Ordner für die Nachbearbeitung zu ignorieren.
+1. Wählen Sie die Option **Ignorierte Pfade für die Post-Verarbeitung** aus, um einen Ordner für die Nachbearbeitung zu ignorieren.
 
-   Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS (mehrwertige Eigenschaft, Zeichenfolgen mit Pfad, der weggelassen wird) `/` am Ende)
+   Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS (mehrwertige Eigenschaft, Zeichenfolgen mit Pfad, in dem am Ende `/` fehlt)
 
    **Standardwert**: `/content/dam/projects/translation_output`
 
@@ -42,9 +42,9 @@ Führen Sie die folgenden Schritte aus, um die Nachbearbeitung für einen bestim
    >
    > Diese Eigenschaft ist standardmäßig deaktiviert und die Registerkarte &quot;Übersetzung&quot;ist im Landkarten-Dashboard verfügbar.
 
-1. Wählen Sie die **Aktivierte Pfade für die Nachbearbeitung** , um einen Pfad für die Nachbearbeitung zu aktivieren.
+1. Wählen Sie die Option **Aktivierte Pfade für die Post-Verarbeitung** aus, um einen Pfad für die Nachbearbeitung zu aktivieren.
 
-   Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS (mehrwertige Eigenschaft, Zeichenfolgen mit Pfad, der weggelassen wird) `/` am Ende)
+   Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS (mehrwertige Eigenschaft, Zeichenfolgen mit Pfad, in dem am Ende `/` fehlt)
 
    **Standardwert**: `/content/dam/`
 

@@ -1,6 +1,6 @@
 ---
 title: Konfiguration des Dispatchers
-description: Erfahren Sie, wie Sie den Dispatcher konfigurieren
+description: Erfahren Sie, wie Sie Dispatcher konfigurieren
 exl-id: 525de1c3-5a79-4d65-89b4-ca05ae660c2c
 feature: Installation
 role: Admin
@@ -14,15 +14,15 @@ ht-degree: 6%
 
 # Konfiguration des Dispatchers {#id213BCM0M05U}
 
-Wenn Sie planen, einen Dispatcher in AEM Autoreninstanz zusammen mit AEM Guides zu verwenden, müssen Sie die folgenden zusätzlichen Konfigurationen durchführen, um das Setup abzuschließen:
+Wenn Sie planen, eine Dispatcher in AEM -Autoreninstanz zusammen mit AEM Guides zu verwenden, müssen Sie die folgenden zusätzlichen Konfigurationen durchführen, um die Einrichtung abzuschließen:
 
 >[!NOTE]
 >
-> Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich. Weitere Informationen zur Verwendung des Dispatchers finden Sie unter [Dispatcher-Übersicht](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=de).
+> Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich. Weitere Informationen zur Verwendung von Dispatcher finden Sie unter [Übersicht über Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=de).
 
 ## AllowEncodedSlashes in URLs aktivieren
 
-URLs mit kodierten Schrägstrichen sind in AEM Dispatcher-Einrichtung nicht standardmäßig aktiviert. Bei der Arbeit mit AEM Handbüchern müssen Sie dies jedoch aktivieren. Dazu müssen Sie den Parameter AllowEncodedSlashes in der Apache-Konfiguration auf Ein setzen, wie im folgenden Snippet gezeigt:
+URLs mit kodierten Schrägstrichen sind bei AEM Dispatcher-Setup nicht standardmäßig aktiviert. Bei der Arbeit mit AEM Guides müssen Sie dies jedoch aktivieren. Dazu müssen Sie den Parameter AllowEncodedSlashes in der Apache-Konfiguration auf Ein setzen, wie im folgenden Snippet gezeigt:
 
 ```XML
 <VirtualHost *:80>
@@ -41,7 +41,7 @@ URLs mit kodierten Schrägstrichen sind in AEM Dispatcher-Einrichtung nicht stan
 
 ## Datei &quot;mime.types&quot;für DITA konfigurieren
 
-Wenn Sie einen Dispatcher mit AEM Guides verwenden, müssen Sie sicherstellen, dass die DITA-Map- und Themendateien als HTML gerendert werden, damit Autoren den Inhalt erwartungsgemäß anzeigen können (anstelle des Rohtextformats\).
+Bei der Verwendung einer Dispatcher mit AEM Guides müssen Sie sicherstellen, dass die DITA-Zuordnungs- und Themendateien als HTML gerendert werden, damit Autoren den Inhalt erwartungsgemäß anzeigen können (anstelle des Rohtextformats\).
 
 Führen Sie die folgenden Schritte aus, um die Datei &quot;mime.types&quot;zu aktualisieren:
 
@@ -60,13 +60,13 @@ Führen Sie die folgenden Schritte aus, um die Datei &quot;mime.types&quot;zu ak
 1. Speichern und schließen Sie die Datei.
 
 
-Diese Konfigurationsaktualisierung stellt sicher, dass die vom Dispatcher gerenderten DITA-Zuordnungs- und Themendateien in der Assets-Benutzeroberfläche als HTML angezeigt werden.
+Diese Konfigurationsaktualisierung stellt sicher, dass von Dispatcher gerenderte DITA-Zuordnungs- und Themendateien in der Assets-Benutzeroberfläche als HTML angezeigt werden.
 
 ## URL der Anfrage &quot;Benutzereinstellungen zulassen&quot;
 
-Wenn Sie einen Dispatcher mit AEM Guides verwenden und Ihre Autoreninstanz über einen Dispatcher verfügt, nehmen Sie die folgenden beiden Änderungen vor:
+Wenn Sie eine Dispatcher mit AEM Guides verwenden und Ihre Autoreninstanz über einen Dispatcher verfügt, nehmen Sie die folgenden beiden Änderungen vor:
 
-- Setzen Sie die URL der POST-Anfrage auf die Whitelist. Beispiel &quot; `/filters`&quot; Regel wird unten angegeben - Fügen Sie diese Regel zur Dispatcher-Konfigurationsdatei hinzu:
+- Setzen Sie die URL der POST-Anfrage auf die Whitelist. Nachfolgend finden Sie eine Beispielregel &quot;`/filters`&quot;: Fügen Sie diese Regel zur Dispatcher-Konfigurationsdatei hinzu:
 
 ```json
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}
@@ -81,4 +81,4 @@ Wenn Sie einen Dispatcher mit AEM Guides verwenden und Ihre Autoreninstanz über
                 }
 ```
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)

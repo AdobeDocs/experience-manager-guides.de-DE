@@ -18,7 +18,7 @@ Die Versionierung ist ein wichtiger Aspekt jedes Content Management-Systems. Dam
 
 Als Administrator können Sie Regeln durchsetzen, die Benutzer daran hindern, eine Datei zu bearbeiten, ohne sie auszuchecken. Ebenso können Sie sicherstellen, dass alle ausgecheckten Dateien wieder eingecheckt werden, um Datenverlust zu vermeiden.
 
-In einer Umgebung mit mehreren Anwendungen ist es auch wichtig sicherzustellen, dass Benutzer keine Dateien aus dem System löschen. Diese Anforderung ist für Dateien, die von anderen Benutzern ausgecheckt werden, wichtiger. Um zu verhindern, dass Benutzer versehentlich ausgecheckte Dateien aus dem System löschen, bietet AEM Guides eine Konfiguration, die Sie verwenden können. Zusätzlich zu ausgecheckten Dateien können Sie auch das Löschen von Dateien steuern, die Verweise enthalten oder aus anderen Dateien referenziert werden.
+In einer Umgebung mit mehreren Anwendungen ist es auch wichtig sicherzustellen, dass Benutzer keine Dateien aus dem System löschen. Diese Anforderung ist für Dateien, die von anderen Benutzern ausgecheckt werden, wichtiger. Um zu verhindern, dass Benutzer versehentlich ausgecheckte Dateien aus dem System löschen, stellt AEM Guides eine Konfiguration bereit, die Sie verwenden können. Zusätzlich zu ausgecheckten Dateien können Sie auch das Löschen von Dateien steuern, die Verweise enthalten oder aus anderen Dateien referenziert werden.
 
 ## Neue Version für hochgeladene Datei erstellen
 
@@ -26,10 +26,10 @@ In einer Umgebung mit mehreren Anwendungen ist es auch wichtig sicherzustellen, 
 >
 > Diese Konfiguration gilt nur beim Hochladen von Dateien.
 
-So aktivieren Sie die **Neue Version für hochgeladene Datei erstellen** -Option, führen Sie die folgenden Schritte aus:
+Um die Option **Neue Version für hochgeladene Datei erstellen** zu aktivieren, führen Sie die folgenden Schritte aus:
 
 1. Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen.
-1. Geben Sie in der Konfigurationsdatei die folgenden \(Eigenschaft\)-Details an, um die **Neue Version für hochgeladene Datei erstellen** Option:
+1. Geben Sie in der Konfigurationsdatei die folgenden \(property\) Details ein, um die Option **Neue Version für hochgeladene Datei erstellen** zu konfigurieren:
 
 
    | PID | Eigenschaftenschlüssel | Eigenschaftswert |
@@ -42,7 +42,7 @@ So aktivieren Sie die **Neue Version für hochgeladene Datei erstellen** -Option
 
 ## Einstellungen konfigurieren, um die Bearbeitung ausgecheckter Dateien zu ermöglichen
 
-Mit dem Web Editor für AEM Guides können Sie DITA-Themen erstellen und aktualisieren. Sie können den Web Editor so konfigurieren, dass nur die Dokumente bearbeitet werden können, die aus dem Repository ausgecheckt wurden. Dadurch wird sichergestellt, dass kein anderer Autor versehentlich ein Thema überschreibt, das von einem anderen Autor zur Bearbeitung geöffnet wird. Sobald ein Thema zur Bearbeitung geöffnet ist, kann ein Autor die Datei zum Zeitpunkt des Schließens der Datei einchecken.
+Mit dem AEM Guides Web Editor können Sie DITA-Themen erstellen und aktualisieren. Sie können den Web Editor so konfigurieren, dass nur die Dokumente bearbeitet werden können, die aus dem Repository ausgecheckt wurden. Dadurch wird sichergestellt, dass kein anderer Autor versehentlich ein Thema überschreibt, das von einem anderen Autor zur Bearbeitung geöffnet wird. Sobald ein Thema zur Bearbeitung geöffnet ist, kann ein Autor die Datei zum Zeitpunkt des Schließens der Datei einchecken.
 
 Eine weitere wichtige Regel besteht darin sicherzustellen, dass ausgecheckte Dateien wieder in das System eingecheckt werden. Dadurch wird verhindert, dass Benutzer die Dateien versehentlich schließen, ohne sie erneut einzuchecken.
 
@@ -66,12 +66,12 @@ Darüber hinaus können Sie konfigurieren, dass eine Warnmeldung angezeigt wird,
 
 >[!NOTE]
 >
-> *Diese Konfiguration ist nur anwendbar, wenn Sie Dateien über die Assets-Benutzeroberfläche erstellen und nicht, wenn Sie Dateien mit dem WebDAV-Tool hochladen.*
+> *Diese Konfiguration gilt nur, wenn Sie Dateien über die Assets-Benutzeroberfläche erstellen, nicht aber, wenn Sie Dateien mit dem WebDAV-Tool hochladen.*
 
 So können Benutzer die Datei beim Hochladen überschreiben, die von ihnen oder einem anderen Benutzer ausgecheckt wurde:
 
 1. Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen.
-1. Geben Sie in der Konfigurationsdatei die folgenden \(Eigenschaft\)-Details an, um die **Auscheckte Datei beim Hochladen überschreiben** Option:
+1. Geben Sie in der Konfigurationsdatei die folgenden \(property\) Details ein, um die Option **Ausgecheckte Datei beim Hochladen überschreiben** zu konfigurieren:
 
 
 | PID | Eigenschaftenschlüssel | Eigenschaftswert |
@@ -105,7 +105,7 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 | PID | Eigenschaftenschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Mögliche Werte sind: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Standardwert**: `allow_unsafe_delete_for_delete_assets_group` <br> Die Details zu diesen Konstanten sind unten aufgeführt. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Mögliche Werte sind: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Standardwert**: `allow_unsafe_delete_for_delete_assets_group` <br> Die Details dieser Konstanten sind unten angegeben. |
 
 Je nachdem, wem Sie Zugriff auf das Löschen gewähren möchten, geben Sie eine der folgenden Konstanten an:
 
@@ -113,7 +113,7 @@ Je nachdem, wem Sie Zugriff auf das Löschen gewähren möchten, geben Sie eine 
 
   ![](assets/allow_unsafe_delete-force-delete.PNG)
 
-- allow\_unsafe\_delete\_for\_delete\_assets\_group: Ein Administrator oder ein Benutzer, der zum *delete-assets* -Gruppe Dateien löschen kann. Wenn ein anderer Benutzer versucht, Dateien mit Verweisen zu löschen, kann er diese Dateien erst löschen, wenn alle Verweise entfernt wurden. Der folgende Screenshot wird angezeigt, wenn ein Benutzer, der keine Berechtigungen hat, versucht, Dateien zu löschen.
+- allow\_unsafe\_delete\_for\_delete\_assets\_group: Ein Administrator oder ein Benutzer, der der Gruppe *delete-assets* angehört, darf Dateien löschen. Wenn ein anderer Benutzer versucht, Dateien mit Verweisen zu löschen, kann er diese Dateien erst löschen, wenn alle Verweise entfernt wurden. Der folgende Screenshot wird angezeigt, wenn ein Benutzer, der keine Berechtigungen hat, versucht, Dateien zu löschen.
 
   ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG)
 
@@ -143,15 +143,15 @@ Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
    ![](assets/preview-purge-report.png)
 
 1. 
-   - **Anzahl der Versionen, die von der neuesten Version beibehalten werden sollen**: Geben Sie die Anzahl der Versionen an, die beibehalten und nicht bereinigt werden sollen. Wenn wir beispielsweise 5 eingeben, werden die letzten fünf Versionen beibehalten und die Versionen vor diesen werden für die Bereinigung qualifiziert, falls andere Bereinigungsbedingungen erfüllt sind.
-- **Erstellte Versionen innerhalb des Zeitbereichs beibehalten \(in Tagen\)**: Geben Sie das Höchstalter einer Version in Tagen an. Die Versionen, die älter als die angegebene Anzahl von Tagen sind, sind für die Bereinigung qualifiziert, falls andere Bereinigungsbedingungen erfüllt sind. Wenn Sie beispielsweise 100 eingeben, werden alle Versionen, die vor 100 Tagen erstellt wurden, für die Bereinigung qualifiziert, falls andere Bereinigungsbedingungen erfüllt sind.
+   - **Anzahl der Versionen, die von der neuesten Version beibehalten werden sollen**: Geben Sie die Anzahl der Versionen ein, die beibehalten und nicht bereinigt werden sollen. Wenn wir beispielsweise 5 eingeben, werden die letzten fünf Versionen beibehalten und die Versionen vor diesen werden für die Bereinigung qualifiziert, falls andere Bereinigungsbedingungen erfüllt sind.
+- **Erstellte Versionen in Zeitspanne beibehalten \(in Tagen\)**: Geben Sie das Höchstalter für eine Version in Tagen ein. Die Versionen, die älter als die angegebene Anzahl von Tagen sind, sind für die Bereinigung qualifiziert, falls andere Bereinigungsbedingungen erfüllt sind. Wenn Sie beispielsweise 100 eingeben, werden alle Versionen, die vor 100 Tagen erstellt wurden, für die Bereinigung qualifiziert, falls andere Bereinigungsbedingungen erfüllt sind.
 - **Pfad**: Wählen Sie den Pfad der Datei oder des Ordners aus, deren Dateien Sie bereinigen möchten.
 
   >[!NOTE]
   >
   > Sie können nur DITA-Dateien bereinigen.
 
-1. Klicks **Bericht zur Bereinigung der Vorschau**.
+1. Klicken Sie auf **Bericht zur Bereinigung der Vorschau**.
 
    >[!NOTE]
    >
@@ -160,15 +160,15 @@ Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
    Der Versionsbereinigungsbericht wird generiert.
 
 1. Laden Sie den Versionsbereinigungsbericht herunter und überprüfen Sie die Dateien und Versionen, die bereinigt werden sollen.
-1. Sie können zwischen **Bereinigung abbrechen** oder **Bereinigung starten**.
+1. Sie können zwischen **Bereinigung abbrechen** oder **Bereinigung starten** wählen.
 
    ![](assets/download-purge-report.png)
 
    Der Bereinigungsstatus wird angezeigt.
 
-   Klicks **Bericht zur Versionsbereinigung herunterladen** , um die bereinigten Versionen anzuzeigen. Dieser Bericht liefert den Bereinigungsstatus für alle Versionen zusammen mit den Gründen, warum eine bestimmte Version beibehalten wurde oder warum sie bereinigt wurde.
+   Klicken Sie auf **Versionsbereinigungsbericht herunterladen** , um die bereinigten Versionen anzuzeigen. Dieser Bericht liefert den Bereinigungsstatus für alle Versionen zusammen mit den Gründen, warum eine bestimmte Version beibehalten wurde oder warum sie bereinigt wurde.
 
 
 >[!NOTE]
 >
-> Der Bericht wird am folgenden Speicherort heruntergeladen: `/var/dxml/versionpurge`
+> Der Bericht wird unter folgendem Pfad heruntergeladen: `/var/dxml/versionpurge`

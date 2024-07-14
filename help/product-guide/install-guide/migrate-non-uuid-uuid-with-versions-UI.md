@@ -28,7 +28,7 @@ Wenn Sie Version 4.3.x oder höher verwenden, führen Sie diese Schritte aus, um
 
 ## Vormigration
 
-1. (Optional) Führen Sie eine Versionsbereinigung für den Inhalt durch, um unnötige Versionen zu entfernen und den Migrationsprozess zu beschleunigen. Um die Versionsbereinigung für Version 4.1 durchzuführen (NICHT unterstützt für Version 4.0), installieren Sie das Paket `com.adobe.guides.version-purge-1.0.11.zip`und gehen Sie mithilfe dieser URL zur Benutzeroberfläche `http://<server-name> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`.
+1. (Optional) Führen Sie eine Versionsbereinigung für den Inhalt durch, um unnötige Versionen zu entfernen und den Migrationsprozess zu beschleunigen. Um die Versionsbereinigung für Version 4.1 durchzuführen (NICHT unterstützt für Version 4.0), installieren Sie das Paket `com.adobe.guides.version-purge-1.0.11.zip` und wechseln Sie mithilfe dieser URL `http://<server-name> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html` zur Benutzeroberfläche.
 
    >[!NOTE]
    >
@@ -40,21 +40,21 @@ Wenn Sie Version 4.3.x oder höher verwenden, führen Sie diese Schritte aus, um
    >* Sie benötigen Administratorrechte, um die Migration ausführen zu können.
    >* Es wird empfohlen, die Dateien mit Fehlern zu beheben, bevor Sie mit der Migration fortfahren.
 
-1. Auswählen **Kompatibilitätsbewertung**  aus dem linken Bedienfeld aus und durchsuchen Sie einen Ordnerpfad.
+1. Wählen Sie im linken Bereich die Option **Kompatibilitätsbewertung** aus und durchsuchen Sie einen Ordnerpfad.
 1. Überprüfen Sie die Kompatibilität, um die folgenden Informationen aufzulisten:
-   * Dateien insgesamt
+   * Gesamtzahl der Dateien
    * Versionen insgesamt
    * Geschätzte Migrationszeit
    * Fehlerfreie Dateien
 
 
 
-![Registerkarte &quot;Kompatibilitätsbewertung&quot;der Migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
+Registerkarte ![Kompatibilitätsbewertung bei Migration](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
-1. Auswählen **Validierungen konfigurieren** aus dem linken Bereich. Dann **Zuordnung auswählen** und **Vorgabe auswählen** der Karte, um sie zu konfigurieren. In der aktuellen Liste der Ausgabeprüfungen werden die vor der Migration vorhandenen Ausgabedateien angezeigt und sie können anhand der nach der Migration erzeugten Ausgabedateien validiert werden.
+1. Wählen Sie im linken Bereich **Überprüfungen konfigurieren** aus. Wählen Sie dann **map** und **preset** der Zuordnung aus, um sie zu konfigurieren. In der aktuellen Liste der Ausgabeprüfungen werden die vor der Migration vorhandenen Ausgabedateien angezeigt und sie können anhand der nach der Migration erzeugten Ausgabedateien validiert werden.
 
-![Registerkarte &quot;Überprüfungen&quot;bei der Migration konfigurieren](assets/migration-configure-validation.png){width="800" align="left"}
+![Registerkarte &quot;Überprüfungen konfigurieren&quot;bei der Migration](assets/migration-configure-validation.png){width="800" align="left"}
 
 
 
@@ -63,25 +63,25 @@ Wenn Sie Version 4.3.x oder höher verwenden, führen Sie diese Schritte aus, um
 
 ### Schritt 1: Konfiguration aktualisieren
 
-1. Stellen Sie sicher, dass der verfügbare freie Speicherplatz mindestens dem 10-fachen des Speicherplatz entspricht, den AEM (crx-quickstart-Verzeichnis) während der Migration benötigt. Nach Abschluss der Migration können Sie den Großteil des Festplattenspeichers durch Ausführen der Komprimierung zurückgewinnen (siehe [Revisionsbereinigung](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=de)).
+1. Stellen Sie sicher, dass der verfügbare freie Speicherplatz mindestens dem 10-fachen des Speicherplatz entspricht, den AEM (crx-quickstart-Verzeichnis) während der Migration benötigt. Nachdem Sie die Migration abgeschlossen haben, können Sie den Großteil des Festplattenspeichers durch Ausführen der Komprimierung wiederherstellen (siehe [Revisionsbereinigung](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=de)).
 
-1. Aktivieren *Aktivieren von Workflow-Startern für Nachbearbeitung* in `com.adobe.fmdita.config.ConfigManager` und *Aktivieren der Versionspostverarbeitung* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Aktivieren Sie *Post-Workflow-Starter für die Verarbeitung aktivieren* in `com.adobe.fmdita.config.ConfigManager` und *Aktivieren Sie die Versionsnachbearbeitung aktivieren* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
 1. Installieren Sie die UUID-Version der unterstützten Version über die Nicht-UUID-Version. Wenn Sie beispielsweise einen 4.0-Nicht-UUID-Build oder einen 4.1-Nicht-UUID-Build verwenden, müssen Sie UUID-Version 4.1 installieren.
 
 1. Installieren Sie das neue Paket für die UUID-Migration (`com.adobe.guides.uuid-upgrade-1.1.13`).
 
-1. Deaktivieren Sie die folgenden Workflows und jeden anderen Workflow, der ausgeführt wird `/content/dam` Verwenden von Startern in `http://localhost:4502/libs/cq/workflow/content/console.html`.
+1. Deaktivieren Sie die folgenden Workflows und alle anderen Workflows, die unter `/content/dam` ausgeführt werden, mithilfe von Startern in `http://localhost:4502/libs/cq/workflow/content/console.html`.
 
    * Workflow „DAM-Update-Asset“
    * DAM-Metadaten-Writeback-Workflow
 
-1. Deaktivieren *Aktivieren von Workflow-Startern für Nachbearbeitung* in `com.adobe.fmdita.config.ConfigManager` und deaktivieren *Aktivieren der Versionspostverarbeitung* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Deaktivieren Sie *Aktivieren Sie die Post-Workflow-Starter für die Verarbeitung* in `com.adobe.fmdita.config.ConfigManager` und deaktivieren Sie *Aktivieren Sie die Versionsnachbearbeitung aktivieren* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
-1. Deaktivieren Sie die Eigenschaft Validierung aktivieren (`validation.enabled`) in Day CQ Tagging Service.
+1. Deaktivieren Sie die Eigenschaft Validierung aktivieren (`validation.enabled`) in Day CQ Tagging Service .
 
-1. Stellen Sie sicher, dass `uuid.regex` Eigenschaftsordner wird ordnungsgemäß in `com.adobe.fmdita.config.ConfigManager`. Wenn es leer ist, setzen Sie es auf den Standardwert - `^GUID-(?<id>.*)`.
-1. Hinzufügen einer separaten Protokollfunktion für `com.adobe.fmdita.uuid.upgrade.UuidUpgrade` Die Browserantwort ist auch unter folgender Adresse verfügbar: `/content/uuid-upgrade/logs`.
+1. Stellen Sie sicher, dass der Eigenschaftsordner `uuid.regex` in `com.adobe.fmdita.config.ConfigManager` korrekt festgelegt ist. Wenn es leer ist, setzen Sie es auf den Standardwert - `^GUID-(?<id>.*)`.
+1. Fügen Sie eine separate Protokollfunktion für `com.adobe.fmdita.uuid.upgrade.UuidUpgrade` hinzu. Die Browserantwort ist auch unter `/content/uuid-upgrade/logs` verfügbar.
 
 ### Schritt 2: Ausführen der Migration und Validieren
 
@@ -89,22 +89,22 @@ Wenn Sie Version 4.3.x oder höher verwenden, führen Sie diese Schritte aus, um
 
 ![Registerkarte &quot;Systemaktualisierung&quot;bei der Migration](assets/migration-system-upgrade.png){width="800" align="left"}
 
-* Auswählen **Systemaktualisierung** im linken Bereich, um die Migration auszuführen. Starten Sie einen Ordner mit kleineren Daten, bevor Sie ihn ausführen. `/content/dam`.
+* Wählen Sie im linken Bereich die Option **Systemaktualisierung** aus, um die Migration auszuführen. Beginnen Sie mit einem Ordner mit kleineren Daten, bevor Sie ihn auf `/content/dam` ausführen.
 
-* Auswählen **Bericht herunterladen** während die Migration ausgeführt wird, um zu überprüfen, ob alle Dateien im Ordner ordnungsgemäß aktualisiert wurden und ob alle Funktionen nur für diesen Ordner funktionieren.
+* Wählen Sie **Bericht herunterladen** , während die Migration ausgeführt wird, um zu überprüfen, ob alle Dateien im Ordner korrekt aktualisiert wurden und ob alle Funktionen nur für diesen Ordner funktionieren.
 
 
 >[!NOTE]
 >
-> Die Inhaltsmigration kann auf Ordnerebene oder nach Abschluss der `/content/dam` oder sich im selben Ordner befinden (Migration erneut ausführen).
+> Die Inhaltsmigration kann auf Ordnerebene oder auf dem vollständigen Tag `/content/dam` oder im selben Ordner ausgeführt werden (Neuausführung der Migration).
 
 Darüber hinaus ist es wichtig sicherzustellen, dass die Inhaltsmigration auch für alle Medien-Assets durchgeführt wird, z. B. für Bilder und Grafiken, die Sie im DITA-Inhalt verwendet haben.
 
 #### Grundlegende und überprüfte Migration
 
-Auswählen **Grundlinien-/Prüfungsaktualisierung** im linken Bereich, um die Grundlinien zu migrieren und auf Ordnerebene zu überprüfen.
+Wählen Sie im linken Bereich die Option **Grundlinien-/Überprüfungsaktualisierung** aus, um die Grundlinien zu migrieren und auf Ordnerebene zu überprüfen.
 
-![Registerkarte &quot;Grundlinien und Überprüfung&quot;in der Migration](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+![Registerkarte &quot;Grundlinie und Überprüfung&quot;in der Migration](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
 
 ### Schritt 3: Konfiguration wiederherstellen
@@ -120,9 +120,9 @@ Nachdem der Server erfolgreich migriert wurde, aktivieren Sie die Nachbearbeitun
 
 ## Migrationsvalidierung
 
-Nachdem die Migration abgeschlossen ist, wählen Sie **Systemaktualisierung überprüfen** im linken Bereich und überprüfen Sie die Ausgabedateien vor und nach der Migration, um sicherzustellen, dass die Migration erfolgreich ist.
+Nachdem die Migration abgeschlossen ist, wählen Sie im linken Bereich die Option **Systemaktualisierung überprüfen** aus und validieren Sie die Ausgabedateien vor und nach der Migration, um sicherzustellen, dass die Migration erfolgreich ist.
 
-![Registerkarte &quot;Systemaktualisierung überprüfen&quot;bei der Migration](assets/migration-validate-system-upgrade.png){width="800" align="left"}
+![Registerkarte &quot;Systemaktualisierung bei Migration überprüfen&quot;](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
 1. Nach Abschluss der Migration kann der Großteil des Festplattenspeichers durch Ausführen der Komprimierung wiederhergestellt werden (siehe `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).

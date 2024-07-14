@@ -2,7 +2,8 @@
 title: Symbol
 description: Symbol
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 5ba41c77-7329-49fc-bce5-02682261ea8e
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 6%
@@ -12,9 +13,9 @@ ht-degree: 6%
 # Symbol
 
 Um ein Symbol anzuzeigen, verwenden wir die Komponente, das Symbol .
-Die Textbereichskomponente in JUI stellt einen HTML-Code dar `<icon/>`.
+Die Textbereichskomponente in JUI stellt einen HTML-Code `<icon/>` dar.
 
-Die unter verfügbaren Symbole [Adobe Spectrum-Symbole](https://spectrum.adobe.com/page/icons/) sind mit unserer App kompatibel.
+Die unter [Adobe Spectrum Icons](https://spectrum.adobe.com/page/icons/) verfügbaren Symbole sind mit unserer App kompatibel.
 
 ```js title="icon.js"
 const iconJSON =  {
@@ -29,4 +30,4 @@ Schaltflächen können auch Symbole hinzugefügt werden.
 
 Das gerenderte Symbol sieht wie folgt aus:
 
-![icon](./imgs/info_icon.png "Symbol")
+![icon](./imgs/info_icon.png "icon")

@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Automatische Speicherung von Dateien im Web Editor konfigurieren {#id199CC0J0M5Z}
 
-Eine der häufigsten Funktionen im browserbasierten Editor ist die Möglichkeit, Daten nach einem bestimmten Zeitraum zu speichern. Der Web Editor der AEM Guides unterstützt auch das automatische Speichern von Themen- und Zuordnungsdateien im angegebenen Zeitintervall. Wenn diese Funktion ausgelöst wird, wird die Arbeitskopie des Themas oder der Zuordnung gespeichert. Eine neue Version des Themas oder der Zuordnung wird nicht erstellt. Um eine neue Version zu erstellen, müssen Sie in der Symbolleiste des Web-Editors auf das Symbol Revision speichern klicken.
+Eine der häufigsten Funktionen im browserbasierten Editor ist die Möglichkeit, Daten nach einem bestimmten Zeitraum zu speichern. Der Web Editor von AEM Guides unterstützt auch das automatische Speichern von Themen- und Zuordnungsdateien im angegebenen Zeitintervall. Wenn diese Funktion ausgelöst wird, wird die Arbeitskopie des Themas oder der Zuordnung gespeichert. Eine neue Version des Themas oder der Zuordnung wird nicht erstellt. Um eine neue Version zu erstellen, müssen Sie in der Symbolleiste des Web-Editors auf das Symbol Revision speichern klicken.
 
 Die Funktion zum automatischen Speichern ist nicht standardmäßig aktiviert und Sie müssen sie in der configMgr aktivieren. Führen Sie die folgenden Schritte aus, um die Funktion zum automatischen Speichern im Web-Editor zu aktivieren:
 
@@ -26,13 +26,13 @@ Die Funktion zum automatischen Speichern ist nicht standardmäßig aktiviert und
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach und klicken Sie auf **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** Bundle
+1. Suchen Sie nach dem Bundle **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** und klicken Sie darauf.
 
-1. Im *XmlEditorConfig* -Einstellungen, wählen Sie die **Automatisches Speichern** -Option.
+1. Wählen Sie in den Einstellungen für *XmlEditorConfig* die Option **Automatisches Speichern** aus.
 
-1. Im **Automatisches Speichern-Intervall** geben Sie das Zeitintervall in Sekunden an, um die Funktion zum automatischen Speichern Trigger.
+1. Geben Sie im Feld **Automatisches Speicherintervall** das Zeitintervall in Sekunden an, in dem die Funktion zum automatischen Speichern Trigger werden soll.
 
 1. Klicken Sie auf **Speichern**.
 
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)

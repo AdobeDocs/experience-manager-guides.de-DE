@@ -1,5 +1,5 @@
 ---
-title: Native PDF-Veröffentlichungsfunktion | Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte
+title: Native PDF Publish-Funktion | Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte
 description: Erfahren Sie, wie Sie Stile für Ihren Inhalt erstellen und Stile erstellen.
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 # Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte
 
-Manchmal können Sie benutzerdefinierte Stile auf die TOC-Einträge oder ein bestimmtes Thema anwenden. Dies kann durch die Verknüpfung eines `outputclass` -Attribut mit dem `<topicref>` -Element in Ihrer DITA-Zuordnung. Wenn Sie ein benutzerdefiniertes Format auf ein ganzes Thema anwenden möchten, kann dies auch durch Erweitern der Stildefinition des Attributs in der CSS erreicht werden.
+Manchmal können Sie benutzerdefinierte Stile auf die TOC-Einträge oder ein bestimmtes Thema anwenden. Dies kann erreicht werden, indem ein `outputclass` -Attribut mit dem `<topicref>` -Element in Ihrer DITA-Zuordnung verknüpft wird. Wenn Sie ein benutzerdefiniertes Format auf ein ganzes Thema anwenden möchten, kann dies auch durch Erweitern der Stildefinition des Attributs in der CSS erreicht werden.
 
-Nehmen wir ein Beispiel für ein neues Thema, das Sie zur Überprüfung senden möchten. Zur einfachen Identifizierung des aktualisierten Themas müssen Sie eine `outputclass` -Attribut `<topicref>` -Element in Ihrer DITA-Zuordnung ein und definieren Sie dann einen benutzerdefinierten Stil für denselben in der CSS.
+Nehmen wir ein Beispiel für ein neues Thema, das Sie zur Überprüfung senden möchten. Zur einfachen Identifizierung des aktualisierten Themas müssen Sie dem Element `<topicref>` in Ihrer DITA-Zuordnung ein Attribut `outputclass` hinzufügen und dann in der CSS einen benutzerdefinierten Stil für dasselbe definieren.
 
-Im folgenden Beispiel wird die *Flugverlauf* dem Thema zugewiesen wurde, wurde ein `outputclass` -Attribut mit dem Wert von `new-topic`.
+Im folgenden Beispiel wurde dem Thema *Verlauf der Flüge* das Attribut `outputclass` mit dem Wert `new-topic` zugewiesen.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
-Die Klassendefinition der `new-topic` in einer CSS können Sie den Stil für die folgenden Elemente definieren:
+Mit der Klassendefinition von `new-topic` in einem CSS können Sie den Stil für die folgenden Elemente definieren:
 * Der Haupteintrag im Inhaltsverzeichnis oder im Mini-Inhaltsverzeichnis
 * Der Titel des Themas im Hauptinhalt
 * Der gesamte Inhalt des Themas, einschließlich des Titels
 
-Sehen wir uns an, wie jedes dieser Szenarien in CSS definiert werden kann. In der folgenden CSS-Definition der `new-topic` -Klasse, wurde die Textfarbe geändert.
+Sehen wir uns an, wie jedes dieser Szenarien in CSS definiert werden kann. In der folgenden CSS-Definition der Klasse `new-topic` wurde die Textfarbe geändert.
 
 ```css
 …
@@ -61,7 +61,7 @@ Wenn Sie möchten, dass der TOC-Eintrag und der Titel des Themas unterschiedlich
 ...
 ```
 
-Schließlich können Sie auch Stile auf den gesamten Inhalt innerhalb des Themas anwenden. Dazu müssen Sie ein Suffix hinzufügen &quot;`-content`&quot; zum Klassennamen. Im folgenden Beispiel wurde eine Änderungsleiste für den gesamten Inhalt des Themas hinzugefügt:
+Schließlich können Sie auch Stile auf den gesamten Inhalt innerhalb des Themas anwenden. Dazu müssen Sie dem Klassennamen das Suffix &quot;`-content`&quot; hinzufügen. Im folgenden Beispiel wurde eine Änderungsleiste für den gesamten Inhalt des Themas hinzugefügt:
 
 ```css
 ...
@@ -72,6 +72,6 @@ Schließlich können Sie auch Stile auf den gesamten Inhalt innerhalb des Themas
 ...
 ```
 
-Unter Verwendung der oben genannten Stilattribute wird links neben dem *Flugverlauf* wie unten gezeigt:
+Unter Verwendung der oben genannten Stilattribute wird links neben dem Thema *Verlauf des Fluges* eine Änderungsleiste hinzugefügt, wie unten dargestellt:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">

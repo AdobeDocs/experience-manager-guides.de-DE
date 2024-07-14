@@ -2,13 +2,13 @@
 title: Widgets
 description: Widgets
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 96e960df-d595-4d58-8ad4-27057f857bac
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
-
 
 # Widgets
 
@@ -45,8 +45,8 @@ const widgetJSON =  {
 },
 ```
 
-Hier, `@languages` ist ein Array, das im Modell von `widget_languages` as: [&quot;English&quot;, &quot;French&quot;, &quot;Hindi&quot;, &quot;Spanish&quot;, &quot;Urdu&quot;]
+Hier ist `@languages` ein Array, das im Modell von `widget_languages` definiert ist als: [&quot;English&quot;, &quot;French&quot;, &quot;Hindi&quot;, &quot;Spanisch&quot;, &quot;Urdu&quot;]
 
 Das gerenderte grundlegende Widget sieht wie folgt aus:
 
-![basic_widget](imgs/basic_widget.png "Grundlegendes Widget")
+![basic_widget](imgs/basic_widget.png "Basic widget")

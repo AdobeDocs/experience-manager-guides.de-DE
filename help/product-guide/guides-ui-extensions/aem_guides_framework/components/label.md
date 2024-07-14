@@ -1,15 +1,16 @@
 ---
-title: Bezeichnung
-description: Bezeichnung
+title: Label
+description: Label
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: aceefb08-3198-4c3a-90ec-ac1cdde28582
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 6%
 
 ---
 
-# Bezeichnung
+# Label
 
 Um Text oder Zeichenfolge anzuzeigen, verwenden wir die Komponente, Bezeichnung.
 Die Beschriftungskomponente in JUI steht für einen HTML-Code `<label/>`.
@@ -34,4 +35,4 @@ const labelJSON =  {
 
 Die gerenderte Bezeichnung sieht wie folgt aus:
 
-![label](./imgs/label.png "Titel")
+![label](./imgs/label.png "label")

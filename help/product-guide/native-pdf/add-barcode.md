@@ -1,13 +1,13 @@
 ---
-title: Native PDF-Veröffentlichungsfunktion | Barcode hinzufügen
+title: Native PDF Publish-Funktion | Barcode hinzufügen
 description: Erfahren Sie, wie Sie Barcodes hinzufügen.
-source-git-commit: a766353908829ab433173f8fd003ecad0c9d1bf1
+exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
 
 ---
-
 
 # Barcode zur PDF-Ausgabe hinzufügen
 
@@ -24,7 +24,7 @@ Führen Sie die folgenden Schritte aus, um einen Barcode zu generieren:
 
 ### CSS der Vorlage aktualisieren, um einen Barcode-Wert zu rendern
 
-Ändern Sie die `layout.css` -Datei, um einen Barcode während der PDF-Erstellung wiederzugeben. Es werden verschiedene Barcode-Typen wie &quot;qrcode&quot;und &quot;pdf417&quot;unterstützt.  Weitere Informationen finden Sie unter [Barcode-Typen](#barcode-types).
+Ändern Sie die Datei &quot;`layout.css`&quot;, um einen Barcode während der PDF-Erstellung wiederzugeben. Es werden verschiedene Barcode-Typen wie &quot;qrcode&quot;und &quot;pdf417&quot;unterstützt.  Weitere Informationen finden Sie unter [Barcodetypen](#barcode-types).
 
 
 
@@ -50,7 +50,7 @@ Sie können den Barcode auf unterschiedliche Weise generieren. Einige der Beispi
 
 Fügen Sie einen Barcode-Platzhalter in der Vorlagenkopfzeile hinzu und wenden Sie den Stil an:
 
-1. Bearbeiten **Vorlagen** > **Seitenlayouts**
+1. Bearbeiten von **Vorlagen** > **Seitenlayouts**
 1. Wählen Sie ein Seitenlayout aus. Sie können beispielsweise das Seitenlayout &quot;BackCover&quot;auswählen, das die Kopf- oder Fußzeile enthält.
 1. Fügen Sie den folgenden Bereich an der Stelle hinzu, an der Sie den Barcode einfügen möchten.
 
@@ -58,9 +58,9 @@ Fügen Sie einen Barcode-Platzhalter in der Vorlagenkopfzeile hinzu und wenden S
 
    >[!NOTE]
    >
-   > Verwenden Sie denselben Klassennamen, den Sie in der `layout.css`.
+   > Verwenden Sie denselben Klassennamen, den Sie in `layout.css` definiert haben.
 
-1. Ersetzen `<Sample barcode>` mit dem Wert, den der Barcode-Scanner lesen soll.
+1. Ersetzen Sie `<Sample barcode>` durch den Wert, den der Barcode-Scanner lesen soll.
 
 Sie können den Barcode beim Generieren der Ausgabe-PDF mithilfe der Vorlage anzeigen, die das Seitenlayout enthält. Nachdem Sie die vorherigen Schritte ausgeführt haben, können Sie die PDF-Ausgabe mit einem Barcode generieren.
 
@@ -70,7 +70,7 @@ Der folgende Screenshot zeigt einen Beispiel-Barcode in einer PDF-Ausgabe.
 
 **Beispiel 2**
 
-Ändern Sie die `Common.plt` in der Datei **Allgemein** Vorlage , um einen Barcode nach dem Projekttitel hinzuzufügen.
+Ändern Sie die Datei `Common.plt` in der Vorlage **Einfach** , um einen Barcode nach dem Projekttitel hinzuzufügen.
 
 Um einen Barcode für eine ISBN-Nummer zu erstellen, fügen Sie eine ISBN-Nummer hinzu. Verwenden Sie dann die ISBN-Nummer, um den Barcode zu generieren.
 
@@ -89,7 +89,7 @@ Um einen Barcode für eine ISBN-Nummer zu erstellen, fügen Sie eine ISBN-Nummer
 
 So erstellen Sie einen Barcode mit den Zuordnungsmetadaten:
 
-Verwenden Sie alle im Abschnitt `<topicmeta>` -Element einer DITA-Zuordnung, die als Barcode angezeigt werden soll. Stellen Sie sicher, dass Sie den richtigen XPath verwenden. Sie können beispielsweise eine `<resourceid>` im `<topicmeta>` einer DITA-Zuordnung.
+Verwenden Sie alle Metadaten, die im Element `<topicmeta>` einer DITA-Zuordnung vorhanden sind, um sie als Barcode anzuzeigen. Stellen Sie sicher, dass Sie den richtigen XPath verwenden. Sie können beispielsweise eine `<resourceid>` in der `<topicmeta>` einer DITA-Zuordnung hinzufügen.
 
 Im folgenden Beispiel dient die Ressourcen-ID als Haupteingabe zum Generieren des Barcodes.
 
@@ -156,6 +156,3 @@ Einige der häufig verwendeten Barcodes sind wie folgt:
 | Aztec Code | aztec-code | Aztec Code Strichcode-Symbole gemäß ISO/IEC 24778:2008. |                            |
 | DataMatrix | data-matrix | Datenmatrix ECC 200 Strichcode-Symbologien nach ISO/IEC 16022:2006. |
 | Code 1 | code-one |                            |
-
-
-

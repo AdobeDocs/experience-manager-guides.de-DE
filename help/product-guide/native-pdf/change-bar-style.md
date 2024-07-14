@@ -1,5 +1,5 @@
 ---
-title: Native PDF-Veröffentlichungsfunktion | Arbeiten mit benutzerdefinierten Änderungsbalkenstilen
+title: Native PDF Publish-Funktion | Arbeiten mit benutzerdefinierten Änderungsbalkenstilen
 description: Erfahren Sie, wie Sie Stile auf Änderungsleisten anwenden.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Arbeiten mit benutzerdefinierten Änderungsbalkenstilen
 
-Ein Änderungsbalken ist eine vertikale Linie, die neue oder überarbeitete Inhalte visuell identifiziert. In AEM Guides können Sie eine Änderungsleiste links neben dem geänderten Inhalt in den Themen und auch die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe anzeigen.
+Ein Änderungsbalken ist eine vertikale Linie, die neue oder überarbeitete Inhalte visuell identifiziert. Mit AEM Guides können Sie links neben dem geänderten Inhalt innerhalb der Themen und auch die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe eine Änderungsleiste anzeigen.
 
-Weitere Informationen zum Anzeigen der Änderungsleiste finden Sie unter *PDF mit Änderungsleiste zwischen veröffentlichten Versionen erstellen* Einstellung in [PDF-Ausgabe veröffentlichen](../web-editor/native-pdf-web-editor.md).
+Weitere Informationen zum Anzeigen der Änderungsleiste finden Sie unter der Einstellung *PDF mit Änderungsleiste zwischen veröffentlichten Versionen erstellen* in der Einstellung [Publish PDF Output](../web-editor/native-pdf-web-editor.md).
 
 ## Inhalt innerhalb von Themen geändert
 
@@ -27,9 +27,9 @@ Sie können die folgenden Stile ändern, um den geänderten Inhalt und darunter 
 
 >[!NOTE]
 >
->Diese Stile sind Teil von `layout.css` und Sie können sie nach Bedarf bearbeiten.
+>Diese Stile sind Teil der Datei &quot;`layout.css`&quot;, die Sie nach Bedarf bearbeiten können.
 
-Beispielsweise können Sie das Farbattribut im `.inserted-block` Stil , um festzulegen, wie der eingefügte Inhalt in der veröffentlichten PDF-Ausgabe angezeigt wird.
+Beispielsweise können Sie mit dem Farbattribut im Stil `.inserted-block` festlegen, wie der eingefügte Inhalt in der veröffentlichten PDF-Ausgabe angezeigt wird.
 
 
 ```css
@@ -46,7 +46,7 @@ Beispielsweise können Sie das Farbattribut im `.inserted-block` Stil , um festz
 ...
 ```
 
-Auf ähnliche Weise können Sie die `.deleted-block` Stil , um festzulegen, wie der gelöschte Inhalt in der veröffentlichten PDF-Ausgabe angezeigt wird.
+Auf ähnliche Weise können Sie den Stil `.deleted-block` verwenden, um festzulegen, wie der gelöschte Inhalt in der veröffentlichten PDF-Ausgabe angezeigt wird.
 
 ```css
 ...
@@ -63,9 +63,9 @@ Auf ähnliche Weise können Sie die `.deleted-block` Stil , um festzulegen, wie 
 ...
 ```
 
-Sie können `.inserted-change-bar` und `.deleted-change-bar` -Stil, um das Erscheinungsbild der Änderungsbalken zu ändern, die links neben dem aktualisierten Inhalt angezeigt werden.
+Sie können den Stil `.inserted-change-bar` und `.deleted-change-bar` verwenden, um das Erscheinungsbild der Änderungsbalken zu ändern, die links neben dem aktualisierten Inhalt angezeigt werden.
 
-Sie können beispielsweise `-ro-change-bar-color` -Attribut in `.inserted-change-bar` Stil, um die eingefügte Änderungsleiste in grüner Farbe anzuzeigen. Sie können auch `-ro-change-bar-color` -Attribut in `.deleted-change-bar` Stil, um die gelöschte Änderungsleiste in roter Farbe anzuzeigen.
+Beispielsweise können Sie das Attribut `-ro-change-bar-color` im Stil `.inserted-change-bar` verwenden, um die eingefügte Änderungsleiste in grüner Farbe anzuzeigen. Sie können auch das Attribut `-ro-change-bar-color` im Stil `.deleted-change-bar` verwenden, um die gelöschte Änderungsleiste in roter Farbe anzuzeigen.
 
 ```css
 ...
@@ -83,7 +83,7 @@ Sie können beispielsweise `-ro-change-bar-color` -Attribut in `.inserted-change
 
 ## Geändertes Thema im Inhaltsverzeichnis (Inhaltsverzeichnis)
 
-Sie können auch eine Änderungsleiste links von den geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe hinzufügen. Sie können `-ro-change-bar-color` -Attribut im `.changed-topic` Stil , um eine Änderungsleiste in der Farbe Ihrer Wahl für die aktualisierten Themen in der Liste &quot;Inhaltsverzeichnis&quot;hinzuzufügen.
+Sie können auch eine Änderungsleiste links von den geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe hinzufügen. Sie können das Attribut `-ro-change-bar-color` im Stil `.changed-topic` verwenden, um eine Änderungsleiste in der Farbe Ihrer Wahl für die aktualisierten Themen in der Liste &quot;Inhaltsverzeichnis&quot;hinzuzufügen.
 
 Sie können beispielsweise einen Änderungsbalken mit grüner Farbe hinzufügen.
 

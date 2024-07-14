@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Karten basierend auf benutzerdefinierten Vorlagen
-description: Erfahren Sie, wie Sie eine Vorlage erstellen, sie zum Erstellen neuer Zuordnungsdateien verwenden und den definierten Titel in eine DITA-Zuordnung in AEM Guides übergeben.
+description: Erfahren Sie, wie Sie eine Vorlage erstellen, sie zum Erstellen neuer Zuordnungsdateien verwenden und den definierten Titel an eine DITA-Zuordnung in AEM Guides weitergeben.
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
@@ -31,7 +31,7 @@ Mit AEM Guides können Sie benutzerdefinierte Maps und Themen aus dem Ordner dit
 
 
 Sie können Zuordnungs- und Themenvorlagen wie folgt erstellen:
-1. Bereich &quot;Vorlagen&quot;der [Linke Leiste](./web-editor-features.md#left-panel-id2051ea0m0hs)
+1. Vorlagenbereich des Bereichs [Links ](./web-editor-features.md#left-panel-id2051ea0m0hs)
 1. [Vorlagen in der Assets-Benutzeroberfläche](#templates-assets-ui)
 1. [Optionen, Menü](#templates-in-assets-ui)
 
@@ -41,14 +41,14 @@ Sie können Zuordnungs- und Themenvorlagen wie folgt erstellen:
 
 Führen Sie die folgenden Schritte aus, um eine Themenvorlage zu erstellen:
 
-1. Im **Assets-Benutzeroberfläche**, navigieren Sie zum Ordner dita-templates .
+1. Navigieren Sie in der **Assets-Benutzeroberfläche** zum Ordner &quot;dita-templates&quot;.
 
    ![](images/dita-templates.png){width="800" align="left"}
 
-1. Klicks **topics** Ordner, um ihn zu öffnen. Klicken Sie auf **Erstellen von \> DITA-Vorlage**.
-1. Wählen Sie auf der Blueprint-Seite **Thema** und klicken Sie anschließend auf **Weiter.**
-1. Geben Sie auf der Seite Eigenschaften die Themenvorlage an **Titel**.
-1. Datei angeben **Name**
+1. Klicken Sie auf den Ordner **topics** , um ihn zu öffnen. Klicken Sie auf **Erstellen \> DITA-Vorlage**.
+1. Wählen Sie auf der Blueprint-Seite **Thema** aus und klicken Sie dann auf **Weiter**.
+1. Geben Sie auf der Seite Eigenschaften die Themenvorlage **Titel** an.
+1. Geben Sie die Datei **Name** an
 
    >[!NOTE]
    >
@@ -61,15 +61,15 @@ Führen Sie die folgenden Schritte aus, um eine Themenvorlage zu erstellen:
 
 Führen Sie die folgenden Schritte aus, um eine Zuordnungsvorlage zu erstellen:
 
-1. Im **Assets-Benutzeroberfläche**, navigieren Sie zum Ordner dita-templates .
-1. Klicks **maps** Ordner, um ihn zu öffnen.
-1. Klicks **Erstellen Sie \> DITA-Vorlage.**
+1. Navigieren Sie in der **Assets-Benutzeroberfläche** zum Ordner &quot;dita-templates&quot;.
+1. Klicken Sie auf den Ordner **maps** , um ihn zu öffnen.
+1. Klicken Sie auf **Erstellen \> DITA-Vorlage.**
 
    ![](images/create-dita-template.png){width="300" align="left"}
 
-1. Wählen Sie auf der Blueprint-Seite **Zuordnung** und klicken **Nächste**.
-1. Geben Sie auf der Seite Eigenschaften die Zuordnungsvorlage an **Titel**.
-1. Datei angeben **Name**.
+1. Wählen Sie auf der Blueprint-Seite **Map** aus und klicken Sie auf **Next**.
+1. Geben Sie auf der Seite Eigenschaften die Zuordnungsvorlage **Titel** an.
+1. Geben Sie die Datei **Name** an.
 
    >[!NOTE]
    >
@@ -81,12 +81,12 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnungsvorlage zu erstellen:
 
 Gehen Sie wie folgt vor, um eine Zuordnung oder Themenvorlage zu erstellen:
 
-1. Wählen Sie die **Zuordnung** oder **Thema** im Ordner &quot;Aktuelle Vorlagen&quot;. Beispielsweise den Ordner `dita-templates`.
-1. Aus dem **Optionen** Menü auswählen **Erstellen einer Zuordnungsvorlage** oder **Erstellen einer Themenvorlage**.
+1. Wählen Sie den Ordner **Zuordnung** oder **Thema** im aktuellen Vorlagenordner aus. Beispielsweise den Ordner `dita-templates`.
+1. Wählen Sie im Menü **Optionen** die Option **Zuordnungsvorlage erstellen** oder **Themenvorlage erstellen** aus.
 
-   Die **Neue Zuordnungsvorlage erstellen** oder **Neue Themenvorlage erstellen** wird geöffnet.
+   Das Dialogfeld **Neue Zuordnungsvorlage erstellen** oder **Neue Themenvorlage erstellen** wird geöffnet.
 1. Geben Sie den Titel und den Namen der neuen Vorlage ein.
-1. Wählen Sie den Vorlagentyp aus, den Sie erstellen möchten, aus dem **Vorlage** Dropdown-Liste.
+1. Wählen Sie aus der Dropdownliste **Vorlage** den Typ der Vorlage aus, die Sie erstellen möchten.
 
 Die erstellte Meldung wird angezeigt. Sie können die Vorlage Ihrem globalen Profil oder Profil auf Ordnerebene hinzufügen. Die neue Vorlage wird dann im Prozess der Themen- oder Zuordnungserstellung angezeigt und Sie können damit Zuordnungen oder Themen erstellen.
 
@@ -97,13 +97,13 @@ Je nach Setup erfahren Sie, wie Sie den benutzerdefinierten Ordnerpfad für DITA
 <details>
     <summary> Cloud Services </summary>
 
-Erfahren Sie, wie [benutzerdefinierten Ordnerpfad für DITA-Vorlagen konfigurieren](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) im Cloud Service-Installations- und Konfigurationshandbuch.
+Erfahren Sie im Cloud Service-Installations- und Konfigurationshandbuch, wie Sie den benutzerdefinierten Ordnerpfad für DITA-Vorlagen ](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) konfigurieren.[
 </details>
 
 <details>
     <summary> On-Premise Software</summary>
 
-Erfahren Sie, wie [benutzerdefinierten Ordnerpfad für DITA-Vorlagen konfigurieren](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) im On-Premise-Installations- und Konfigurationshandbuch.
+Erfahren Sie im On-Premise-Installations- und Konfigurationshandbuch, wie Sie den benutzerdefinierten Ordnerpfad für DITA-Vorlagen ](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) konfigurieren.[
 </details>
 
 ## Weitergeben des in den Vorlagen definierten Titels
@@ -157,15 +157,15 @@ Beispiel
 
 >[!NOTE]
 >
-> Die Zuordnungsvorlage muss von Ihrem Administrator konfiguriert und für die Bearbeitung zur Verfügung gestellt werden. Weitere Informationen finden Sie unter *Authoring-Vorlagen konfigurieren* im as a Cloud Service Installieren und Konfigurieren von Adobe Experience Manager-Handbüchern.
+> Die Zuordnungsvorlage muss von Ihrem Administrator konfiguriert und für die Bearbeitung zur Verfügung gestellt werden. Weitere Informationen finden Sie im Abschnitt *Bearbeitungsvorlagen konfigurieren* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 Führen Sie die folgenden Schritte aus, um eine Zuordnung mithilfe der benutzerdefinierten Zuordnungsvorlage zu erstellen:
 
-1. Im **Assets-Benutzeroberfläche,** Navigieren Sie zu dem Ordner, in dem Sie die Zuordnung erstellen möchten.
-1. Klicks **Erstellen von \> DITA Map**.
-1. Wählen Sie auf der Blueprint-Seite die gewünschte Zuordnungsvorlage aus und klicken Sie auf **Nächste**. Wenn Sie beispielsweise eine Zuordnungsvorlage &quot;test-template&quot;erstellt haben, wählen Sie sie aus.
-1. Geben Sie auf der Seite Eigenschaften die Zuordnung an **Titel**.
-1. Datei angeben **Name**.
+1. Navigieren Sie in der Benutzeroberfläche von **Assets** zu dem Ordner, in dem Sie die Zuordnung erstellen möchten.
+1. Klicken Sie auf **Erstellen \> DITA Map**.
+1. Wählen Sie auf der Blueprint-Seite die gewünschte Zuordnungsvorlage aus und klicken Sie auf **Weiter**. Wenn Sie beispielsweise eine Zuordnungsvorlage &quot;test-template&quot;erstellt haben, wählen Sie sie aus.
+1. Geben Sie auf der Seite Eigenschaften die Zuordnung **Titel** an.
+1. Geben Sie die Datei **Name** an.
 
    >[!NOTE]
    >
@@ -176,9 +176,9 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnung mithilfe der benutzerd
 
 Die Zuordnung generiert alle Assets, auf die im Vorlagenordner verwiesen wird. Einige Asset-Typen, die in einer Zuordnung referenziert werden, können wie folgt aussehen:
 
-- Wenn die Zuordnung den Verweis auf eine Themenvorlage enthält, wird eine Kopie davon innerhalb des Ordners in derselben Hierarchie wie im Themenordner im Ordner `dita-templates` Ordner.
-- Wenn die Zuordnung den Verweis auf eine Zuordnungsvorlage enthält, wird eine Kopie davon innerhalb des Ordners in derselben Hierarchie wie im Ordner &quot;maps&quot;im Ordner `dita-templates` Ordner.
-- Wenn die Zuordnung einen generischen Verweis auf ein Thema oder eine Zuordnung außerhalb des `dita-templates/topics` oder `dita-templates/maps` -Ordner, wird nur auf denselben verwiesen und es wird keine Kopie erstellt.
+- Wenn die Zuordnung den Verweis auf eine Themenvorlage enthält, wird eine Kopie davon im Ordner erstellt, in derselben Hierarchie wie im Ordner &quot;topics&quot;im Ordner &quot;`dita-templates`&quot;.
+- Wenn die Zuordnung den Verweis auf eine Zuordnungsvorlage enthält, wird eine Kopie davon im Ordner erstellt, in derselben Hierarchie wie im Ordner &quot;maps&quot;im Ordner &quot;`dita-templates`&quot;.
+- Wenn die Zuordnung den generischen Verweis auf ein Thema oder eine Zuordnung außerhalb des Ordners `dita-templates/topics` oder `dita-templates/maps` enthält, wird nur auf dasselbe verwiesen und es wird keine Kopie erstellt.
 
   >[!NOTE]
   >
@@ -189,4 +189,4 @@ Die Zuordnung generiert alle Assets, auf die im Vorlagenordner verwiesen wird. E
 
 - Wenn eine andere Zuordnung oder ein anderes Thema auf derselben Ebene im Ordner erstellt wird, werden die Namen der neu erstellten Assets mit 0,1,2 usw. angehängt. Sie können wählen, ob Sie die Karte zur Bearbeitung öffnen oder die Zuordnungsdatei im Repository speichern möchten.
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Map Editor](map-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Map-Editor](map-editor.md)

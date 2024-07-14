@@ -1,6 +1,6 @@
 ---
 title: Vorschau eines Themas
-description: Erfahren Sie, wie Sie in AEM Handbüchern eine Vorschau eines Themas anzeigen können. Erfahren Sie mehr über die im Vorschaumodus verfügbaren Funktionen. Verzweigung, Wiederherstellung und nachfolgende Versionierung in AEM Handbüchern.
+description: Erfahren Sie, wie Sie eine Vorschau eines Themas in AEM Guides anzeigen. Erfahren Sie mehr über die im Vorschaumodus verfügbaren Funktionen. Verzweigung, Wiederherstellung und nachfolgende Versionierung in AEM Handbüchern.
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
@@ -20,7 +20,7 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau eines Themas anzuzeigen
 1. Navigieren Sie in der Assets-Benutzeroberfläche zu dem Thema, das Sie anzeigen möchten.
 1. Klicken Sie auf das Thema, das Sie anzeigen möchten.
 
-   Eine Vorschau des Themas wird in der Assets-Benutzeroberfläche angezeigt.
+   Eine Vorschau des Themas wird in der Benutzeroberfläche von Assets angezeigt.
 
    >[!NOTE]
    >
@@ -42,17 +42,17 @@ Anzeigen der Eigenschaften des ausgewählten Themas Basierend auf Ihrer AEM kön
 
 >[!NOTE]
 >
-> Die Titeleigenschaft eines Themas wird automatisch aus dem `title` -Tag des DITA-Themas oder -Map. Wenn Sie im Eigenschaftenfenster Änderungen am Titel vornehmen, geht diese Änderung verloren. Wenn Sie die Eigenschaft title aktualisieren möchten, sollten Sie dies mit dem Web-Editor tun.
+> Die title-Eigenschaft eines Themas wird automatisch aus dem `title` -Tag des DITA-Themas oder -Map gefüllt. Wenn Sie im Eigenschaftenfenster Änderungen am Titel vornehmen, geht diese Änderung verloren. Wenn Sie die Eigenschaft title aktualisieren möchten, sollten Sie dies mit dem Web-Editor tun.
 
 Die Eigenschaftenseite enthält nützliche Informationen zu den Verweisen, z. B. wo eine Zuordnung oder ein Thema verwendet wird oder welche Verweise in einem Dokument enthalten sind. Auf der Seite &quot;Eigenschaften&quot;werden zwei Arten von Verweisen für ein Dokument aufgelistet: **Verwendet in** und **Ausgehende Verweise**.
 
-Die **Verwendet in** referenziert die Dokumente, in denen die aktuelle Datei referenziert oder verwendet wird. Die **Ausgehende Verweise** listet die Dokumente auf, auf die im aktuellen Dokument verwiesen wird.
+Der in **verwendete** Verweis auf die Liste der Dokumente, auf die die aktuelle Datei verwiesen oder verwendet wird. Die **ausgehenden Verweise** listen die Dokumente auf, die im aktuellen Dokument referenziert werden.
 
-Das Symbol \(+\) im **Verwendet in** Im Abschnitt Verweise können Sie weiter nach oben navigieren, um zu ermitteln, wo dieses Thema verwendet oder referenziert wird.
+Mit dem Symbol \(+\) im Abschnitt &quot;**Verwendet in**&quot; können Sie weiter nach oben navigieren, um zu ermitteln, wo dieses Thema verwendet oder referenziert wird.
 
 ![](images/used-in-dialog_cs.png){width="800" align="left"}
 
-Klicken Sie auf ![](images/right-arrow-used-in-dialog.svg)-Symbol neben einem Dokument zeigt die Zuordnungs- oder Themendateien an, auf die dieses Dokument weitergeleitet wird.
+Wenn Sie auf das Symbol &quot;![](images/right-arrow-used-in-dialog.svg)neben einem Dokument klicken, werden die Zuordnungs- oder Themendateien angezeigt, auf die dieses Dokument weitergeleitet wird.
 
 **Bedingte Filterung \(A/B\)**
 
@@ -66,7 +66,7 @@ Wenn Ihr Thema bedingte Inhalte enthält, wird das A/B-Symbol in der Symbolleist
 
 **Bearbeiten**
 
-- Öffnen Sie das Thema zur Bearbeitung im Web-Editor. Die **Bearbeiten** ist nicht verfügbar, wenn Ihr Administrator die Option **Bearbeitung ohne Checkout deaktivieren** -Option. Wenn die Option aktiviert ist, wird die **Bearbeiten** nur nach dem Auschecken einer Themendatei.
+- Öffnen Sie das Thema zur Bearbeitung im Web-Editor. Die Option **Bearbeiten** ist nicht verfügbar, wenn Ihr Administrator die Option **Bearbeitung ohne Checkout deaktivieren** aktiviert hat. Wenn die Option aktiviert ist, wird die Option **Bearbeiten** erst angezeigt, nachdem Sie eine Themendatei ausgecheckt haben.
 
 **Schlüsselauflösung**
 
@@ -74,11 +74,11 @@ Wenn Ihr Thema bedingte Inhalte enthält, wird das A/B-Symbol in der Symbolleist
 
 **Quelle**
 
-- Öffnen Sie den XML-Quellcode einer Datei. Sie können den zugrunde liegenden XML-Code einer Zuordnung, eines Themas oder einer DITAVAL-Datei anzeigen, indem Sie die Datei im Vorschaumodus öffnen und auf das Symbol Quelle klicken. Das Popup &quot;XML-Quelle&quot;zeigt den XML-Quellcode an. Sie können einen bestimmten Code aus der Datei auswählen oder `Ctrl`+`a` , um den gesamten Inhalt auszuwählen.
+- Öffnen Sie den XML-Quellcode einer Datei. Sie können den zugrunde liegenden XML-Code einer Zuordnung, eines Themas oder einer DITAVAL-Datei anzeigen, indem Sie die Datei im Vorschaumodus öffnen und auf das Source-Symbol klicken. Das XML Source-Popup zeigt den XML-Quellcode an. Sie können einen bestimmten Code aus der Datei auswählen oder auf `Ctrl`+`a` drücken, um den gesamten Inhalt auszuwählen.
 
   >[!NOTE]
   >
-  > Um die Quellcodeansicht einer DITA-Map-Datei zu erhalten, wählen Sie die Datei in der Assets-Benutzeroberfläche aus und klicken Sie auf Quelle .
+  > Um die Quellcodeansicht einer DITA-Map-Datei zu erhalten, wählen Sie die Datei in der Assets-Benutzeroberfläche aus und klicken Sie auf Source.
 
   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
@@ -90,7 +90,7 @@ Wenn Ihr Thema bedingte Inhalte enthält, wird das A/B-Symbol in der Symbolleist
    - DITA-Map-Konsole
    - Themen- oder Bildvorschau
 
-Eine neue Option **UUID-Link freigeben** wird in der Symbolleiste der oben genannten Bereiche angezeigt. Der folgende Screenshot zeigt die **UUID-Link freigeben** im Vorschaumodus eines Themas:
+In der Symbolleiste der oben genannten Bereiche wird eine neue Option **UID-Link freigeben** angezeigt. Der folgende Screenshot zeigt die Option **UUID-Link freigeben** im Vorschaumodus eines Themas:
 
 ![](images/share-uuid-link_cs.png){width="800" align="left"}
 
@@ -104,7 +104,7 @@ Wenn Sie den Link über die DITA-Map-Konsole oder den Vorschaumodus einer Datei 
 >
 > Der Link kann nicht als Referenz-Link in einem anderen Thema verwendet werden. Er bietet nur direkten Zugriff auf die Datei im Repository. Außerdem bleibt der Link gültig, solange die Datei im Repository verfügbar ist. Selbst wenn die Datei an einen anderen Speicherort im Repository verschoben wird, bleibt der Link gültig. Der Link schlägt nur fehl, wenn die Datei aus dem Repository gelöscht wird.
 
-**Auschecken/Einchecken**
+**Aus-/Einchecken**
 
 - Schaltet die Funktionen &quot;Auschecken&quot;und &quot;Einchecken&quot;um. Wenn eine Datei ausgecheckt ist, erhält der aktuelle Benutzer eine exklusive Schreibberechtigung für die Datei. Eine ausgecheckte Datei kann im Web Editor zur Bearbeitung geöffnet werden. Nachdem Sie die erforderlichen Änderungen vorgenommen haben, klicken Sie auf das Symbol Einchecken , um die Datei in DAM zu speichern.
 
@@ -118,7 +118,7 @@ Ausgecheckte Datei in der Listenansicht:
 
 ![](images/checkout-list-62.png){width="550" align="left"}
 
-Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzeigeeinstellungen** under **Listenansicht** und wählen Sie die **Ausgecheckt** -Status in der **Spalten konfigurieren** angezeigt.
+Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie unter &quot;**Listenansicht**&quot;die Option &quot;**Anzeigeeinstellungen**&quot;aus und wählen Sie im Dialogfeld &quot;**Spalten konfigurieren**&quot;den Status &quot;**Ausgecheckt**&quot;.
 
 ![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
 
@@ -126,7 +126,7 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
 >
 > Best Practices für die Arbeit mit dem Auschecken und Einchecken von Dateien finden Sie im Abschnitt Versionierung von Inhalten im Handbuch Best Practices .
 
-**Unterschied der webbasierten Version**
+**Web-basierte Versionsdifferenz**
 
 - Wenn Ihr Thema einige Änderungen erfahren hat, können Sie die Änderungen, die in verschiedenen Versionen dieses Themas vorgenommen wurden, einfach herausfinden. So finden Sie Änderungen in verschiedenen Versionen eines Themas:
 
@@ -140,9 +140,9 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
 
       ![](images/timeline-versions62_cs.png){width="800" align="left"}
 
-   1. Wählen Sie in den aufgeführten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und klicken Sie auf **Vorschau der Version**. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
+   1. Wählen Sie in den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und klicken Sie auf **Vorschau der Version anzeigen**. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
 
-   1. Aus dem **Diff anzeigen** auswählen, wählen Sie die Version aus, mit der Sie die Basisversion vergleichen möchten.
+   1. Wählen Sie in der Liste **Unterschiede anzeigen** die Version aus, mit der Sie die Basisversion vergleichen möchten.
 
       ![](images/show-diff-list-cropped.png){width="800" align="left"}
 
@@ -153,7 +153,7 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
 
 ### Verzweigung, Wiederherstellung und nachfolgende Versionierung {#id193PG0Y051X}
 
-- In einer typischen Authoring-Umgebung müssten Sie einen neuen Zweig eines Themas erstellen, um einer bestimmten Version gerecht zu werden. Wie jedes andere Versionsverwaltungssystem können Sie mit AEM Guides eine Verzweigung aus einer vorhandenen Version eines Themas erstellen oder zu einer älteren Version eines Themas zurückkehren. Mithilfe der in AEM Handbüchern bereitgestellten Funktionen zur Versionsverwaltung können Sie die folgenden Aufgaben ausführen:
+- In einer typischen Authoring-Umgebung müssten Sie einen neuen Zweig eines Themas erstellen, um einer bestimmten Version gerecht zu werden. Wie jedes andere Versionsverwaltungssystem können Sie mit AEM Guides eine Verzweigung aus einer bereits vorhandenen Themenversion erstellen oder eine ältere Themenversion wiederherstellen. Mithilfe der von AEM Guides bereitgestellten Versionsverwaltungsfunktionen können Sie die folgenden Aufgaben ausführen:
 
    - Erstellen einer Verzweigung aus einer vorhandenen Version eines Themas
    - Nachfolgende Versionen in einem neuen Zweig erstellen
@@ -165,7 +165,7 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
 
   Für jedes neue Thema wird die erste Version als 1.0 nummeriert. Danach wird jede neue Version des Themas mit einer inkrementellen Zahl wie 1.1, 1.2 usw. gespeichert. Nachdem Sie eine Verzweigung eines Themas erstellt haben, wird eine neue Verzweigung erstellt, die die Versionsnummer enthält, von der aus die Verzweigung erstellt wird, und am Ende der Version eine 0 hinzufügt. Wie in der Abbildung gezeigt, wird eine neue Verzweigung aus Version 1.1 eines Themas erstellt. Der neue Zweig wird mit Version 1.1.0 versioniert. Danach erhält jedes Mal, wenn Sie eine neue Version des Themas in diesem Zweig speichern, eine inkrementelle Versionsnummer wie 1.1.1, 1.1.2 usw.
 
-  Ähnlich wie beim Verzweigen können Sie auch Ihre funktionierende oder aktuelle Version auf eine beliebige Version zurücksetzen, die im Repository vorhanden ist. Um zu einer Version zurückzukehren, wählen Sie einfach die gewünschte Version des Themas aus und klicken Sie auf **Auf diese Version zurücksetzen** im **Versionsverlauf** Bedienfeld.
+  Ähnlich wie beim Verzweigen können Sie auch Ihre funktionierende oder aktuelle Version auf eine beliebige Version zurücksetzen, die im Repository vorhanden ist. Um zu einer Version zurückzukehren, wählen Sie einfach die gewünschte Version des Themas aus und klicken Sie im Bedienfeld **Versionsverlauf** auf **Auf diese Version zurücksetzen** .
 
   Führen Sie die folgenden Schritte aus, um einen Zweig zu erstellen, zu einer Version zurückzukehren und nachfolgende Versionen eines Themas zu verwalten:
 
@@ -173,7 +173,7 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
   >
   > Die im folgenden Verfahren beschriebene Methode gilt nur für DITA-Dateien. Verwenden Sie bei Nicht-DITA-Dateien die Timeline-Ansicht, um Versionen zu erstellen oder eine vorhandene Version einer Datei wiederherzustellen.
 
-   1. Rufen Sie das Thema in der Assets-Benutzeroberfläche auf.
+   1. Rufen Sie das Thema in der Benutzeroberfläche von Assets auf.
 
       >[!NOTE]
       >
@@ -185,7 +185,7 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
 
       >[!NOTE]
       >
-      > Eine Liste der für das ausgewählte Thema verfügbaren Versionen wird angezeigt. Jede Version enthält den Zeitstempel, den Benutzernamen, den Versionskommentar und [label](web-editor-use-label.md#) Informationen.
+      > Eine Liste der für das ausgewählte Thema verfügbaren Versionen wird angezeigt. Jede Version enthält den Zeitstempel, den Benutzernamen, den Versionskommentar und die [label](web-editor-use-label.md#) -Informationen.
 
    1. Wählen Sie eine Version aus, aus der Sie eine Verzweigung erstellen möchten. Im folgenden Screenshot wird Version 1.2 zum Erstellen einer Verzweigung ausgewählt.
 
@@ -193,13 +193,13 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
 
       >[!NOTE]
       >
-      > Die aktuelle Version eines Themas enthält *\(Aktuell\)* neben der Versionsnummer angegeben.
+      > Die aktuelle Version eines Themas enthält &quot;*\(Aktuell\)*&quot;, die neben der Versionsnummer erwähnt wird.
 
-   1. Klicks **Auf diese Version zurücksetzen**.
+   1. Klicken Sie auf **Auf diese Version zurücksetzen**.
 
       Es wird eine Meldung angezeigt, in der Sie aufgefordert werden, die Erstellung einer neuen Verzweigung zu bestätigen.
 
-   1. *\(Optional\)* In der Eingabeaufforderung erhalten Sie eine Option, die **Aktuelle Arbeitskopie als neue Version speichern**. Je nach Auswahl dieser Option sind die beiden folgenden Aktionen möglich:
+   1. *\(Optional\)* In der Meldungsaufforderung erhalten Sie eine Option zum Auswählen der Option **Aktuelle Arbeitskopie als neue Version speichern**. Je nach Auswahl dieser Option sind die beiden folgenden Aktionen möglich:
 
       - Wenn Sie diese Option auswählen, wird ab Version 1.1 eine Verzweigung erstellt. Außerdem wird eine neue Version des Themas auch aus der aktuellen Arbeitskopie des Themas erstellt und als nächste Version - 1.4 - gespeichert.
 
@@ -216,6 +216,6 @@ Wenn die Spalte &quot;Ausgecheckt&quot;nicht angezeigt wird, wählen Sie **Anzei
    1. Klicken Sie auf **OK**.
 
 
-  Eine neue Verzweigung wird aus der ausgewählten Version des Themas erstellt. Der obige Prozess kann auch angewendet werden, um zu einer bestimmten Version eines Themas zurückzukehren. Technisch gesehen bedeutet das Zurücksetzen auf eine bestimmte Version, dass Sie eine neue Verzweigung aus der ausgewählten Version erstellen und diese Version zur aktuellen Arbeitskopie des Themas machen. Sie können auch den Verlauf der Dateien anzeigen, die im Bericht Versionsverlauf zurückgesetzt wurden. Weitere Informationen zu diesem Bericht finden Sie unter [Versionsverlauf wiederhergestellter Dateien - Bericht](reports-reverted-file-version-history.md#).
+  Eine neue Verzweigung wird aus der ausgewählten Version des Themas erstellt. Der obige Prozess kann auch angewendet werden, um zu einer bestimmten Version eines Themas zurückzukehren. Technisch gesehen bedeutet das Zurücksetzen auf eine bestimmte Version, dass Sie eine neue Verzweigung aus der ausgewählten Version erstellen und diese Version zur aktuellen Arbeitskopie des Themas machen. Sie können auch den Verlauf der Dateien anzeigen, die im Bericht Versionsverlauf zurückgesetzt wurden. Weitere Informationen zu diesem Bericht finden Sie unter [Versionsverlaufbericht für zurückgegebene Dateien](reports-reverted-file-version-history.md#).
 
-**Übergeordnetes Thema:**[ Erstellen und Anzeigen einer Vorschau von Themen](create-preview-topics.md)
+**Übergeordnetes Thema:**[ Themen erstellen und in der Vorschau anzeigen](create-preview-topics.md)

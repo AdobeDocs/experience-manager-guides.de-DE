@@ -19,9 +19,9 @@ Controller:
    - Kartenansicht: `ditamap_viewer_controller`
    - Repository-Bereich: `repository_panel_controller`
    - Favoriten-Bedienfeld: `collection_tree_controller`
-   - Dateieigenschaften - Referenzlinks: `file_references_links_controller`
+   - Dateieigenschaften-Referenzlinks: `file_references_links_controller`
    - Repository-Suchbereich: `repository_search_controller`
-   - Betreff-Panel: `subject_scheme_tree_controller`
+   - Betreff-Schema-Panel: `subject_scheme_tree_controller`
 
 - `folder_options`
 Controller:
@@ -38,7 +38,7 @@ Controller:
 
 - `baseline_panel_menu`
 Controller:
-   - Grundlinien-Bedienfeld: `baseline_panel`
+   - Grundlinienbedienfeld: `baseline_panel`
 
 - `preset_item_menu`
 Controller:
@@ -46,7 +46,7 @@ Controller:
 
 Sie können auch Ihr eigenes Kontextmenü erstellen, indem Sie eine neue eindeutige ID definieren.
 
-Jetzt verfügt jedes Kontextmenü über eine `controller id` zugeordnet wurde. Dieser Controller verarbeitet die `on-event` Funktionen für die verschiedenen Kontextmenüoptionen
+Jetzt ist jedem Kontextmenü ein `controller id` zugeordnet. Dieser Controller verarbeitet die `on-event`-Funktionalität für die verschiedenen Kontextmenüoptionen.
 
 Nehmen wir ein Beispiel, um
 
@@ -119,6 +119,6 @@ const fileOptions = {
 Lassen Sie uns nun verstehen, was dieser Code tut.
 
 1. `id` wird verwendet, um das Kontextmenü zu identifizieren, das wir anpassen möchten.
-2. `contextMenuWidget` wird verwendet, um die `widget id` oder `component` , das das Kontextmenü aufruft und das `events`.
+2. `contextMenuWidget` wird verwendet, um den `widget id` oder den `component` zu definieren, der das Kontextmenü aufruft und den `events` verarbeitet.
 
-Der Rest bleibt derselbe, wobei `view` zum Definieren der Elemente verwendet wird, `target` gibt an, wo die Option ersetzt, angehängt oder vorangestellt werden soll, und `contextMenuWidget` Controller verarbeitet die `on-click` -Ereignisse.
+Der Rest bleibt gleich, wobei `view` verwendet wird, um die Elemente zu definieren, `target` identifiziert, wo die Option ersetzt, angehängt oder vorangestellt werden soll, und der `contextMenuWidget` Controller verarbeitet die `on-click`-Ereignisse.

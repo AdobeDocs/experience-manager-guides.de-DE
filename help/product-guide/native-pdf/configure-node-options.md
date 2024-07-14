@@ -16,8 +16,8 @@ ht-degree: 1%
 
 Die native PDF-Veröffentlichung startet einen separaten NodeJs-Prozess, um die im Veröffentlichungsprozess generierten Dateien in eine endgültige PDF zu konvertieren. Möglicherweise müssen Sie die Konfigurationen dieses Knotenprozesses anpassen, bei dem die native PDF-Veröffentlichung ausgeführt wird, um verschiedene Szenarien zu unterstützen. Um beispielsweise größere Workloads auszuführen, sollten Sie die maximale Heap-Größe erhöhen, die für den generierten NodeJs-Prozess verfügbar ist.
 
-Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](../cs-install-guide/download-install-additional-config-override.md) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden (Eigenschaft-)Details an:
+Verwenden Sie die Anweisungen in [Konfigurationsüberschreibungen](../cs-install-guide/download-install-additional-config-override.md) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden (Eigenschaftsdetails) an:
 
 | PID | Eigenschaftenschlüssel | Eigenschaftswert |
 |---|---|---|
-| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | Zeichenfolgenwert zum Festlegen eines beliebigen Standards `NODE_OPTIONS`.<BR> Standardwert: &quot;&quot; |
+| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | Zeichenfolgenwert zum Festlegen von Standard-`NODE_OPTIONS`.<BR> Standardwert: &quot;&quot; |

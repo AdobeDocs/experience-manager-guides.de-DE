@@ -1,5 +1,5 @@
 ---
-title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
+title: Native PDF Publish-Funktion | Komponenten einer PDF-Vorlage
 description: Erfahren Sie mehr über die verschiedenen Komponenten einer PDF-Vorlage und wie Sie diese anpassen und konfigurieren.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
@@ -19,7 +19,8 @@ Eine PDF-Vorlage besteht aus vier Komponenten: Seitenlayouts, Stylesheets, Resso
 
 ## Seitenlayouts erstellen und anpassen {#create-customize-page-layout}
 
-Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur einer Seite entwerfen, indem Sie die Kopf- und Fußzeile sowie den Inhaltsbereich auf einer Seite definieren. Mit dem WYSIWYG-Seiten-Layout-Editor können Sie ein Seitenlayout für verschiedene Bereiche in einer PDF erstellen, z. B. die Seiten für die Vorder- und Rückseite, Kapitel, Inhaltsverzeichnis, Index, leere Seite, Seiten für die Vorderseite, Seiten für die Rückseite, Bildliste (LOF), Tabellenliste (LOT) oder ein Glossar. Sie können auch ein Layout für eine benutzerdefinierte Seite erstellen. In den PDF-Vorlageneinstellungen können Sie ein Seitenlayout mit verschiedenen Abschnitten innerhalb einer PDF zuweisen, die dann zum Generieren der PDF-Ausgabe verwendet werden.
+Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur einer Seite entwerfen, indem Sie die Kopf- und Fußzeile sowie den Inhaltsbereich auf einer Seite definieren. Mit dem WYSIWYG-Seiten-Layout-Editor können Sie ein Seitenlayout für verschiedene Bereiche in einer PDF erstellen, wie z. B. die Vorder- und Rückseite, Kapitel, Tabelle von
+Inhalt (Inhaltsverzeichnis), Index, leere Seite, Seiten mit Vorder-Materie, Seiten mit der Rückmeldung, Liste der Zahlen (LOF), Liste der Tabellen (LOT), Glossar oder erstellen Sie ein Layout für eine benutzerdefinierte Seite. In den PDF-Vorlageneinstellungen können Sie ein Seitenlayout mit verschiedenen Abschnitten innerhalb einer PDF zuweisen, die dann zum Generieren der PDF-Ausgabe verwendet werden.
 
 ### Neues Seitenlayout erstellen {#create-page-layout}
 
@@ -27,7 +28,7 @@ Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur e
 >
 >Es gibt Beispielseitenlayouts, die standardmäßig bereitgestellt werden. Sie können diese anpassen oder neue Seitenlayouts erstellen.
 
-1. Navigieren Sie im Web-Editor zum **Ausgabe** Registerkarte.
+1. Gehen Sie im Web Editor zur Registerkarte **Ausgabe** .
 1. Erweitern Sie die linke Seitenleiste und klicken Sie auf **Vorlagen**.
 1. Öffnen Sie die Vorlage, mit der Sie arbeiten möchten.
 
@@ -37,13 +38,13 @@ Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur e
 
 1. Führen Sie einen der folgenden Schritte aus, um ein neues Seitenlayout zu erstellen:
 
-   * Bewegen **Seitenlayouts** und klicken Sie auf (*Optionen* Symbol) **...** und wählen **Neues Seitenlayout**.
+   * Bewegen Sie den Mauszeiger über **Seitenlayouts**, klicken Sie auf das Symbol (*Optionen*) **...** und wählen Sie **Neues Seitenlayout**.
 
 
-   * Im **Vorlagen** auf das **+** Symbol neben **Vorlagen** und wählen **Seitenlayout** aus dem Kontextmenü aus.
+   * Klicken Sie im Bedienfeld **Vorlagen** auf das Symbol **+** neben **Vorlagen** und wählen Sie im Kontextmenü die Option **Seitenlayout** aus.
 
 
-     Dadurch wird die **Layout hinzufügen** angezeigt.
+     Dadurch wird das Dialogfeld **Layout hinzufügen** geöffnet.
 
      <img src="assets/add-layout-2.png" alt="Dialogfeld &quot;Layout hinzufügen&quot;" width="250">
 
@@ -59,46 +60,46 @@ Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur e
 
 ### Duplizieren eines Seitenlayouts {#duplicate-page-layout}
 
-1. Im **Vorlagen** Bereich der Vorlage, die Sie duplizieren möchten, Doppelklicken Sie auf  **Seitenlayouts** oder auf **>** Symbol vor **Seitenlayouts**.
+1. Doppelklicken Sie im Abschnitt **Vorlagen** der Vorlage, die Sie duplizieren möchten, auf **Seitenlayouts** oder klicken Sie vor **Seitenlayouts** auf das Symbol **>** .
 
    Dadurch wird die Liste der Seitenlayouts in der Vorlage angezeigt.
 
-1. Bewegen Sie den Mauszeiger über das Seitenlayout, das Sie duplizieren möchten, und klicken Sie auf (*Optionen* Symbol) **...** und wählen **Duplizieren** aus dem Kontextmenü aus.
+1. Bewegen Sie den Mauszeiger über das Seitenlayout, das Sie duplizieren möchten, klicken Sie auf das Symbol (*Optionen* ) **...** und wählen Sie im Kontextmenü die Option **Duplizieren** aus.
 
-1. Im _Layout duplizieren_ ein, geben Sie einen Namen für das Seitenlayout ein.
+1. Geben Sie im Dialogfeld _Layout duplizieren_ einen Namen für das Seitenlayout ein.
 
-1. Klicks **Fertig**.
+1. Klicken Sie auf **Fertig**.
 Eine Kopie des ausgewählten Seitenlayouts wird erstellt und unter Seitenlayouts hinzugefügt.
 
 ### Seitenlayout anpassen {#customize-page-layout}
 
-1. Im **Vorlagen** in der Vorlage, die Sie bearbeiten möchten, doppelklicken Sie **Seitenlayouts** oder auf **>** Symbol vor **Seitenlayouts**.
+1. Doppelklicken Sie im Abschnitt **Vorlagen** der Vorlage, die Sie bearbeiten möchten, auf **Seitenlayouts** oder klicken Sie auf das Symbol **>** vor dem Symbol **Seitenlayouts**.
 
    Dadurch wird die Liste der Seitenlayouts in der Vorlage angezeigt.
 1. Führen Sie einen der folgenden Schritte aus, um das Seitenlayout anzupassen:
    * Doppelklicken Sie auf ein beliebiges Seitenlayout.
-   * Bewegen Sie den Mauszeiger über ein Seitenlayout und klicken Sie auf (*Optionen* Symbol) **...** und wählen **Bearbeiten** aus dem Kontextmenü aus.
+   * Bewegen Sie den Mauszeiger über ein Seitenlayout, klicken Sie auf das Symbol (*Optionen*) **...** und wählen Sie im Kontextmenü die Option **Bearbeiten** aus.
 
    Dadurch wird der Seitenlayout-Editor zur Anpassung geöffnet.
 1. Klicken Sie nach den gewünschten Änderungen auf *Alle speichern* (oder `Crl+S`).
 
-   Weitere Informationen zum Definieren einzelner Layoutelemente wie Kopf- und Fußzeile, Seitenzahl, Titel und mehr finden Sie unter [Seitenlayout erstellen](design-page-layout.md).
+   Weitere Informationen zum Definieren einzelner Layoutelemente wie Kopf- und Fußzeile, Seitenzahl, Titel und mehr finden Sie unter [Erstellen eines Seitenlayouts](design-page-layout.md).
 
 ## Verwenden von Stylesheets zum Anpassen von PDF {#stylesheet-customization}
 
-Mit den Einstellungen in der Komponente &quot;Stylesheets&quot;können Sie die Seitenlayoutkomponenten und DITA-Inhalte mit dem WYSIWYG-Editor gestalten oder direkt mit der CSS-Datei arbeiten. Sie können eigene Stile erstellen oder die Standardstileigenschaften anpassen. Der WYSIWYG-Editor bietet Ihnen Zugriff auf die meisten Eigenschaften, die Sie zum Gestalten Ihres Seitenlayouts oder DITA-Inhalts benötigen. Für erweiterte Anpassungen können Sie direkt in der Quellansicht arbeiten.
+Mit den Einstellungen in der Komponente &quot;Stylesheets&quot;können Sie die Seitenlayoutkomponenten und DITA-Inhalte mit dem WYSIWYG-Editor gestalten oder direkt mit der CSS-Datei arbeiten. Sie können eigene Stile erstellen oder die Standardstileigenschaften anpassen. Der WYSIWYG-Editor bietet Ihnen Zugriff auf die meisten Eigenschaften, die Sie zum Gestalten Ihres Seitenlayouts oder DITA-Inhalts benötigen. Für erweiterte Anpassungen können Sie direkt in der Source-Ansicht arbeiten.
 
 ### Neues Stylesheet erstellen {#create-stylesheet}
 
 Während CSS-Dateien für Inhalt und Layout bereitgestellt werden, können Sie ein neues Stylesheet erstellen, um mehrere Anpassungen auf einen bestimmten Stiltyp anzuwenden, der dann auf eine Zielkomponente angewendet werden kann. Standardmäßig werden Beispiel-CSS-Dateien innerhalb des Produkts gebündelt. Diese CSS-Dateien sollen Ihnen dabei helfen, Ihre Stilinformationen über Inhalte und Layouts hinweg zu organisieren. Sie können diese Stile in einer oder mehreren CSS-Dateien zusammenführen.
 
-Jedes Mal, wenn Sie ein neues Seitenlayout erstellen, wird standardmäßig die `layout.css` -Datei im neuen Seitenlayout enthalten ist. Wenn das Seitenlayout Stile aus einer anderen CSS-Datei enthalten soll, können Sie die gewünschte CSS-Datei einfach per Drag-and-Drop in den Inhaltsbearbeitungsbereich des neuen Seitenlayouts ziehen. Um zu überprüfen, ob die CSS-Datei in das Seitenlayout eingebettet wurde, wechseln Sie zur Quellansicht und Sie finden einen Link zur CSS-Datei im `<head>` -Element.
+Jedes Mal, wenn Sie ein neues Seitenlayout erstellen, ist die Datei `layout.css` standardmäßig im neuen Seitenlayout enthalten. Wenn das Seitenlayout Stile aus einer anderen CSS-Datei enthalten soll, können Sie die gewünschte CSS-Datei einfach per Drag-and-Drop in den Inhaltsbearbeitungsbereich des neuen Seitenlayouts ziehen. Um zu überprüfen, ob die CSS-Datei in das Seitenlayout eingebettet wurde, wechseln Sie zur Source-Ansicht und Sie finden einen Link zur CSS-Datei im Element `<head>` .
 
 
 Gehen Sie wie folgt vor, um ein Stylesheet zu erstellen:
-1. Im **Vorlagen** einen der folgenden Schritte ausführen:
-   * Bewegen Sie den Mauszeiger über die **Stylesheets** und klicken Sie auf (*Optionen* Symbol) **...** und wählen **Neues Stylesheet**.
-   * Klicken Sie auf **+** Symbol neben **Vorlagen** und wählen **Stylesheet** aus dem Kontextmenü aus.
+1. Führen Sie im Bedienfeld **Vorlagen** einen der folgenden Schritte aus:
+   * Bewegen Sie den Mauszeiger über die Registerkarte **Stylesheets**, klicken Sie auf das Symbol (*Optionen*) **...** und wählen Sie **Neues Stylesheet**.
+   * Klicken Sie auf das Symbol **+** neben **Vorlagen** und wählen Sie **Stylesheet** aus dem Kontextmenü.
 
    Dadurch wird das Dialogfeld Stylesheet hinzufügen geöffnet.
 
@@ -113,29 +114,29 @@ Gehen Sie wie folgt vor, um ein Stylesheet zu erstellen:
 Standardmäßig enthalten die mit der Vorlage bereitgestellten CSS-Dateien Stile für Überschrift, Absatz, Zeichen, Hyperlink, Bild, Tabelle, div, Seite und andere Stile. Sie können das Standard-Stilformat überschreiben oder einen neuen Stil erstellen.
 
 
-Sie können einen neuen Stil erstellen, um ihn im Seitenlayout der Vorlage zu verwenden, oder einen benutzerdefinierten Stil für ein DITA-Element anwenden. Um diese benutzerdefinierten Stile auf das DITA-Element anzuwenden, müssen Sie sicherstellen, dass der Klassenname des Stils mit dem Namen des DITA-Elements oder dem `outputclass` -Attribut.  Beispiel: `<div>` in DITA wird durch die Variable `.div {}` in CSS oder seiner `outputclass` -Attribut. Wenn Sie eine `<div outputclass="my-div">` In DITA wird sie durch das `.div {}` oder `.my-div {}` in der CSS.
+Sie können einen neuen Stil erstellen, um ihn im Seitenlayout der Vorlage zu verwenden, oder einen benutzerdefinierten Stil für ein DITA-Element anwenden. Um diese benutzerdefinierten Stile auf das DITA-Element anzuwenden, müssen Sie sicherstellen, dass der Klassenname des Stils mit dem Namen des DITA-Elements oder dem Attribut `outputclass` übereinstimmt.  Beispiel: `<div>` in DITA wird vom Attribut `.div {}` in CSS oder seinem Attribut `outputclass` verwaltet. Wenn Sie in DITA den Wert `<div outputclass="my-div">` anwenden, wird er in der CSS durch den Wert `.div {}` oder den Wert `.my-div {}` geregelt.
 
 
 
 Gehen Sie wie folgt vor, um einen neuen Stil zu erstellen:
 1. Erweitern Sie die linke Seitenleiste und doppelklicken Sie auf die Vorlage, in der Sie den Stil erstellen möchten.
-1. Erweitern Sie die **Stylesheets** Abschnitt. Er öffnet die **Stile** -Bereich, der alle Stiloptionen enthält.
+1. Erweitern Sie den Abschnitt **Stylesheets** . Dadurch wird der Bereich **Stile** geöffnet, der alle Stiloptionen enthält.
 1. Klicken Sie auf das Symbol + , um einen neuen Stil hinzuzufügen.
 
-   **Stil hinzufügen** wird geöffnet.
+   Das Dialogfeld **Stil hinzufügen** wird geöffnet.
 
 
    <img src="assets/add-style.png" alt="Neuen Stil hinzufügen" width="500"/>
 
-1. Geben Sie eine **Klasse** name. Um einen Stil auf das DITA-Element anzuwenden, stellen Sie sicher, dass der Klassenname des Stils mit dem Namen des DITA-Elements oder dem `outputclass` -Attribut.
-1. Im **Tag** (optional), wählen Sie ein Tag aus, für das Sie einen neuen Stil erstellen möchten.
+1. Geben Sie einen **Class**-Namen an. Um einen Stil auf das DITA-Element anzuwenden, stellen Sie sicher, dass der Klassenname des Stils mit dem Namen des DITA-Elements oder dem Attribut `outputclass` übereinstimmt.
+1. Wählen Sie im Feld **Tag** (optional) ein Tag aus, für das Sie einen neuen Stil erstellen möchten.
 
 
-1. Wählen Sie eine **Pseudo-Klasse** um ein Element zu formatieren. Mit einer Pseudo-Klasse können Sie einen speziellen Status des Elements definieren. Verwenden Sie beispielsweise die Pseudo-Klasse, um ein Element zu formatieren, wenn Sie den Mauszeiger darüber bewegen oder wenn Sie den Fokus darauf legen. Sie können auch mehrere Pseudoklassen auswählen. Sie können beispielsweise pseudo-class verwenden `a::visited {color: blue;}` , um die besuchten Links zu formatieren.
+1. Wählen Sie eine **Pseudo-Klasse** aus, um ein Element zu formatieren. Mit einer Pseudo-Klasse können Sie einen speziellen Status des Elements definieren. Verwenden Sie beispielsweise die Pseudo-Klasse, um ein Element zu formatieren, wenn Sie den Mauszeiger darüber bewegen oder wenn Sie den Fokus darauf legen. Sie können auch mehrere Pseudoklassen auswählen. Sie können beispielsweise die Pseudo-Klasse `a::visited {color: blue;}` verwenden, um die besuchten Links zu formatieren.
 
-1. Fügen Sie die Auswahl für den neuen Stil hinzu. Die **Selektor** -Feld unterstützt Sie beim Hinzufügen benutzerdefinierter Selektoren neben der Kombination aus Klasse, Tag und Pseudo-Klasse . Sie können beispielsweise `table a.link` -Stil für alle Hyperlinks in einer Tabelle.
+1. Fügen Sie die Auswahl für den neuen Stil hinzu. Mit dem Feld **Selektor** können Sie benutzerdefinierte Selektoren neben der Kombination aus Klasse, Tag und Pseudo-Klasse hinzufügen. Sie können beispielsweise den Stil `table a.link` für alle Hyperlinks in einer Tabelle erstellen.
 
-   Weitere Informationen zu CSS-Tags finden Sie unter [Siehe CSS-Stilgrammatik .](https://www.w3.org/TR/CSS21/syndata.html#characters).
+   Weitere Informationen zu CSS-Tags finden Sie unter [Siehe CSS-Stilgrammatik](https://www.w3.org/TR/CSS21/syndata.html#characters).
 
 1. Klicken Sie auf **Fertig**.
 
@@ -146,7 +147,7 @@ Gehen Sie wie folgt vor, um einen neuen Stil zu erstellen:
 Nachdem Sie eine neue CSS-Datei mit Standardstilen erstellt haben oder die Stile in einer vorhandenen CSS-Datei anpassen möchten, können Sie dazu den Stileditor verwenden.
 
 Gehen Sie wie folgt vor, um einen Stil anzupassen:
-1. Doppelklicken **Stylesheets** oder auf **>** Symbol vor **Stylesheets**.
+1. Doppelklicken Sie auf **Stylesheets** oder klicken Sie auf das Symbol **>** vor **Stylesheets**.
 
    Dadurch werden die standardmäßigen (Inhalt und Layout) und benutzerdefinierten CSS-Dateien angezeigt.
 1. Öffnen Sie ein Stylesheet zur Bearbeitung.
@@ -164,12 +165,12 @@ Gehen Sie wie folgt vor, um einen Stil anzupassen:
 
 ### Eigenschaften von Stilen
 
-Im mittleren Bereich können Sie die Eigenschaften bearbeiten. Es kann jedoch schwierig sein, eine Momentaufnahme aller vorhandenen Werte zu erhalten.  Die **Eigenschaften** gibt einen schnellen Überblick über alle Attribute und Werte des Stils.
+Im mittleren Bereich können Sie die Eigenschaften bearbeiten. Es kann jedoch schwierig sein, eine Momentaufnahme aller vorhandenen Werte zu erhalten.  Der Bereich **Eigenschaften** bietet einen schnellen Überblick über alle Attribute und Werte des Stils.
 
-Im mittleren Bereich können Sie die häufig verwendeten Eigenschaften bearbeiten, jedoch nicht alle von CSS unterstützten Eigenschaften. Im **Eigenschaften** können Sie alle von CSS unterstützten Eigenschaften bearbeiten und eine Vorschau davon anzeigen. Sie müssen nicht zur Quellansicht wechseln, um Eigenschaften zu bearbeiten.
+Im mittleren Bereich können Sie die häufig verwendeten Eigenschaften bearbeiten, jedoch nicht alle von CSS unterstützten Eigenschaften. Im Bereich **Eigenschaften** können Sie alle von CSS unterstützten Eigenschaften bearbeiten und eine Vorschau davon anzeigen. Sie müssen nicht zur Quellansicht wechseln, um Eigenschaften zu bearbeiten.
 
 
-Erfahren Sie mehr über die Verwendung des Stileditors zum [Arbeiten mit allgemeinen Inhaltsstilen](stylesheet.md).
+Erfahren Sie mehr über die Verwendung des Stileditors zum Arbeiten mit den gängigen Inhaltsstilen ](stylesheet.md).[
 
 ## Arbeiten mit Ressourcen {#work-with-resources}
 
@@ -179,38 +180,39 @@ Gehen Sie wie folgt vor, um eine Asset-Datei zum Ordner Ressourcen hinzuzufügen
 
 1. Bewegen Sie den Mauszeiger über die Registerkarte Ressourcen-Ordner , klicken Sie auf das Symbol Optionen ... und wählen Sie Importieren.
 
-   Dadurch wird das Dialogfeld &quot;Assets hochladen&quot;geöffnet.
+   Dadurch wird das Dialogfeld Assets hochladen geöffnet.
 
    <img src="assets/resources-import-assets.png" alt="Hochladen von Assets" width="300">
 
-   Der Pfad, in den die Asset-Datei hochgeladen wird, wird im **Asset-Ordner auswählen** -Feld.
+   Der Pfad, in den die Asset-Datei hochgeladen wird, wird im Feld **Asset-Ordner auswählen** angezeigt.
    >[!NOTE]
    >
-   >Sie können den Pfad zum Hochladen von Assets nicht ändern. Standardmäßig werden alle Assets unter dem `/content/dam/dita-templates/pdf/<PDF-template-name>` Ordner.
+   >Sie können den Pfad zum Hochladen von Assets nicht ändern. Standardmäßig werden alle Assets im Ordner &quot;`/content/dam/dita-templates/pdf/<PDF-template-name>`&quot;gespeichert.
 
-1. Klicks **Dateien auswählen** zum Durchsuchen der Asset-Datei von Ihrem lokalen Computer aus
+1. Klicken Sie auf **Dateien auswählen** , um die Asset-Datei von Ihrem lokalen Computer aus zu durchsuchen.
 
-1. Klicks **Hochladen**.
+1. Klicken Sie auf **Hochladen**.
 Die ausgewählte Datei wird importiert und im Ordner Ressourcen aufgeführt.
 
 ## Erweiterte PDF-Einstellungen {#advanced-pdf-settings}
 
-Verwenden Sie den Bereich Einstellungen , um das Layout der erweiterten PDF zu konfigurieren, das PDF von ungeraden oder geraden Seiten zu starten, die Formate für die Querverweise zu konfigurieren und Druckmarken in der endgültigen PDF zu aktivieren, die mithilfe der Vorlage generiert wird.
+Verwenden Sie den Bereich Einstellungen , um das Layout der PDF zu konfigurieren, das PDF von ungeraden oder geraden Seiten zu starten, die Formate für die Querverweise zu konfigurieren und Druckmarken in der endgültigen PDF zu aktivieren, die generiert wird.
+die Vorlage verwenden.
 
-Klicken Sie zum Konfigurieren auf **Einstellungen** im **Vorlagen** -Bereich, um die folgenden Optionen anzuzeigen:
+Klicken Sie zum Konfigurieren im Bereich **Vorlagen** auf **Einstellungen** , um die folgenden Optionen anzuzeigen:
 
 ### Allgemein
 
 Legen Sie die grundlegenden Konfigurationseinstellungen für das Starten eines Kapitels von einer ungeraden oder geraden Seite, die TOC-Struktur fest und definieren Sie das Füllzeichenzeilenformat für die TOC-Einträge. Sie können die folgende Einstellung definieren:
 
-* **Starten Sie ein neues Kapitel aus**: Hiermit können Sie festlegen, wie die einzelnen Kapitel im endgültigen PDF veröffentlicht werden. Sie können aus einer **Neue Seite**, **Ungerade Seite**, **Gerade Seite** oder **Aktuelle Seite**  Optionen. Wenn Sie ein neues Kapitel von einer ungeraden Seite aus beginnen möchten, wird nach einem Kapitel, das auf einer ungeraden Seite endet, eine leere Seite eingefügt. Wenn Ihr Kapitel beispielsweise auf Seite 15 endet, fügt der Veröffentlichungsprozess eine leere 16 ein<sup>th</sup> -Seite, damit das neue Kapitel mit der 17 beginnen kann.<sup>th</sup> Seite.  Wenn Sie die **Aktuelle Seite** -Option, werden alle Kapitel als Fortsetzung ohne Seitenumbrüche veröffentlicht. Wenn ein Kapitel beispielsweise in der Mitte von Seite 15 endet, wird das nächste Kapitel auch von der 15. Seite selbst aus gestartet.
+* **Neues Kapitel von** starten: Ermöglicht die Definition, wie die einzelnen Kapitel im endgültigen PDF veröffentlicht werden. Sie können aus den Optionen **Neue Seite**, **Ungerade Seite**, **Gerade Seite** oder **Aktuelle Seite** auswählen. Wenn Sie ein neues Kapitel von einer ungeraden Seite aus beginnen möchten, wird nach einem Kapitel, das auf einer ungeraden Seite endet, eine leere Seite eingefügt. Wenn Ihr Kapitel beispielsweise auf Seite 15 endet, fügt der Veröffentlichungsprozess eine leere 16<sup>th</sup>-Seite ein, damit das neue Kapitel von der 17<sup>th</sup>-Seite aus beginnen kann.  Wenn Sie die Option **Aktuelle Seite** auswählen, werden alle Kapitel als Fortsetzung ohne Seitenumbrüche veröffentlicht. Wenn ein Kapitel beispielsweise in der Mitte von Seite 15 endet, wird das nächste Kapitel auch von der 15. Seite selbst aus gestartet.
 
-* **Jedes Thema von einer neuen Seite aus starten**: Wenn jedes Thema in Ihrem Kapitel von einer neuen Seite aus beginnen soll, wählen Sie **Jedes Thema von einer neuen Seite aus starten** -Option. Wenn Sie Ihre Themen ohne Seitenlücken fortsetzen möchten, deaktivieren Sie diese Option.
+* **Beginnen jedes Thema von einer neuen Seite**: Wenn jedes Thema in Ihrem Kapitel von einer neuen Seite aus beginnen soll, wählen Sie die Option **Jedes Thema von einer neuen Seite starten** . Wenn Sie Ihre Themen ohne Seitenlücken fortsetzen möchten, deaktivieren Sie diese Option.
 
-* **Inhaltsverzeichnis-Struktur**: Hiermit können Sie die Hierarchie des Inhaltsverzeichnisses anpassen. Es werden die folgenden zusätzlichen Einstellungen verwendet:
+* **TOC Structure**: Ermöglicht die Anpassung der Hierarchie des Inhaltsverzeichnisses. Es werden die folgenden zusätzlichen Einstellungen verwendet:
 
-   * **Überschriften bis zur Ebene verwenden**: Hiermit können Sie die Anzahl der Überschriftenebenen anpassen, die in der TOC-Struktur Ihrer PDF angezeigt werden sollen.
-   * **Zeigt keine Seitenzahl für die erste Ebene im Inhaltsverzeichnis an**: Wählen Sie diese Option, um die entsprechenden Seitenzahlen für alle Kapitel auszublenden, die verschachtelte oder untergeordnete Themen enthalten. Betrachten Sie das folgende Beispiel, in dem eine Ausgabe erstellt wird, ohne diese Option auszuwählen.
+   * **Überschriften bis Ebene** verwenden: Mit dieser Option können Sie die Anzahl der Überschriftenebenen anpassen, die in der TOC-Struktur Ihrer PDF angezeigt werden sollen.
+   * **Keine Seitenzahl für die erste Ebene im Inhaltsverzeichnis anzeigen**: Wählen Sie diese Option, um die entsprechenden Seitenzahlen für alle Kapitel auszublenden, die verschachtelte oder untergeordnete Themen enthalten. Betrachten Sie das folgende Beispiel, in dem eine Ausgabe erstellt wird, ohne diese Option auszuwählen.
 
   <img src="assets/page-number-in-toc.png" alt="Hochladen von Assets" width="250">
 
@@ -222,24 +224,24 @@ Legen Sie die grundlegenden Konfigurationseinstellungen für das Starten eines K
 
   Hier können Sie bemerken, dass die erweiterten PDF-Einstellungen des ersten Kapitels keine Seitenzahl erhalten, da sie verschachtelte oder untergeordnete Themen haben. Eine Seitenzahl hingegen, wenn sie Anhang und Legal zugewiesen wird, da es sich um eigenständige Themen ohne untergeordnetes Thema handelt.
 
-* **Kapitelnummer im Inhaltsverzeichnis nicht anzeigen** : Wählen Sie diese Option, um die Kapitelnamen ohne die Kapitelnummern im Inhaltsverzeichnis anzuzeigen.   Standardmäßig werden die Kapitelnummern im TOC Ihrer PDF-Ausgabe angezeigt.
+* **Kapitelnummer nicht im Inhaltsverzeichnis anzeigen** : Wählen Sie diese Option, um die Kapitelnamen ohne Kapitelnummern im Inhaltsverzeichnis anzuzeigen.   Standardmäßig werden die Kapitelnummern im TOC Ihrer PDF-Ausgabe angezeigt.
 * **Füllzeichenformat**: Verwenden Sie die Dropdown-Liste, um die Füllzeichenlinien &quot;Gepunktet&quot;, &quot;Durchgehend&quot;oder &quot;Leerzeichen&quot;auszuwählen, um die Überschriftenebenen mit den entsprechenden Seitenzahlen zu verbinden.
-Informationen zum Anwenden der TOC-Struktur und der Styling-Überschriftenebenen finden Sie unter [Kapitel-Inhaltsverzeichnis hinzufügen](design-page-layout.md#add-chapter-toc).
+Informationen zum Anwenden der TOC-Struktur und des Stils von Überschriftenebenen finden Sie unter [Hinzufügen eines Kapitel-TOC](design-page-layout.md#add-chapter-toc).
 
   >[!NOTE]
   >
   >Wenn Sie CSS-Entwickler sind, können Sie das Füllzeichenformat auch direkt in der CSS-Datei definieren.
 
-* **Verwenden der Tabellenfortsetzungsmarkierung**: Wählen Sie diese Option, um Markierungen für lange Tabellen zu definieren, die über mehrere Seiten verteilt sind.
-Sie können den Text definieren, der vor und nach dem Umbruch angezeigt werden soll. Beispielsweise wird eine Tabelle auf Seite 5 umgebrochen, und Sie definieren `<Continued on page %page-num%>` für **Text vor Umbruch**.  Im Text wird unten auf Seite 5 &quot;Fortsetzung auf Seite 6&quot;angezeigt.
+* **Verwenden Sie die Tabellenfortsetzungsmarke**: Wählen Sie diese Option aus, um Markierungen für lange Tabellen zu definieren, die über mehrere Seiten verteilt sind.
+Sie können den Text definieren, der vor und nach dem Umbruch angezeigt werden soll. Beispielsweise wird eine Tabelle auf Seite 5 umgebrochen und Sie definieren `<Continued on page %page-num%>` für **Text vor Umbruch**.  Im Text wird unten auf Seite 5 &quot;Fortsetzung auf Seite 6&quot;angezeigt.
 
-  Verwenden Sie Sprachvariablen, um den Text für die Fortsetzung der Markierung vor und nach der Pause zu definieren. Abhängig von Ihrer ausgewählten Sprache wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt. Sie können beispielsweise `Continued on page %page-num%` als Text in Englisch und `Fortsetzung auf Seite %page-num%` auf Deutsch.
+  Verwenden Sie Sprachvariablen, um den Text für die Fortsetzung der Markierung vor und nach der Pause zu definieren. Abhängig von Ihrer ausgewählten Sprache wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt. Sie können beispielsweise `Continued on page %page-num%` als Text in englischer Sprache und `Fortsetzung auf Seite %page-num%` in deutscher Sprache veröffentlichen.
 
-  Bewegen <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> neben der Option, um weitere Details dazu anzuzeigen.
-* **Glossarbegriffe mit der Glossarseite verknüpfen**: Wählen Sie diese Option, um die Glossarbegriffe als Hyperlinks im Inhalt anzuzeigen und sie mit den Begriffen auf der Glossarseite zu verknüpfen. Dies hilft den Lesern, die Definition eines Begriffs im Glossar schnell anzuzeigen.
+  Bewegen <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> in der Nähe der Option, um weitere Details dazu anzuzeigen.
+* **Verknüpfen Sie Glossarbegriffe mit der Glossarseite**: Wählen Sie diese Option, um die Glossarbegriffe als Hyperlinks im Inhalt anzuzeigen und sie mit den Begriffen auf der Glossarseite zu verknüpfen. Dies hilft den Lesern, die Definition eines Begriffs im Glossar schnell anzuzeigen.
 
   Um die Glossarbegriffe in Hyperlinks zu konvertieren, gehen Sie folgendermaßen vor:
-   * Aktivieren **Glossar** im **Seitenlayout-Reihenfolge** für eine DITA-Zuordnung.
+   * Aktivieren Sie **Glossar** auf der Registerkarte **Seitenlayout-Reihenfolge** für eine DITA-Zuordnung.
    * Fügen Sie das Glossar in die &quot;Back Matter Pages&quot;für eine Buchkarte ein.
 
   Wenn Sie die Glossarseite nicht aktivieren, werden die Glossarbegriffe im Inhalt nicht in Hyperlinks in der PDF-Ausgabe konvertiert.
@@ -258,39 +260,39 @@ Die folgenden Einstellungen sind im Abschnitt Seitenlayout verfügbar:
 
 **Standardseitenlayout**: Wählen Sie ein Seitenlayout, das als Standardlayout für alle Seiten in Ihrer PDF dient. Dies ist das grundlegende Seitenlayout, das auf die Abschnitte oder Themen angewendet wird, in denen Sie kein dediziertes Seitenlayout erstellt haben.
 
-**Seitenlayout für verschiedene Abschnitte**: Sie können ein Seitenlayout den folgenden Abschnitten Ihrer PDF-Ausgabe zuordnen. Wenn Sie ein Seitenlayout für den zugehörigen Abschnitt entworfen haben, wählen Sie es aus der Dropdownliste aus. Wenn für bestimmte Abschnitte keine Seitenlayouts erstellt wurden, wird das standardmäßige Seitenlayout angewendet.
+**Seitenlayout für verschiedene Bereiche**: Sie können ein Seitenlayout den folgenden Abschnitten Ihrer PDF-Ausgabe zuordnen. Wenn Sie ein Seitenlayout für den zugehörigen Abschnitt entworfen haben, wählen Sie es aus der Dropdownliste aus. Wenn für bestimmte Abschnitte keine Seitenlayouts erstellt wurden, wird das standardmäßige Seitenlayout angewendet.
 
 * **Kapitel und Themen**: Sie können das Seitenlayout für die Kapitel und Themen festlegen. Das ausgewählte Layout wird auf alle Kapitel und Themen angewendet.
 
-* **TOC**: Wenn Sie das Seitenlayout für das Inhaltsverzeichnis entworfen haben, wählen Sie **TOC** in der Dropdown-Liste und alle TOC-Seiten in Ihrem Dokument haben das Layout der Inhaltsverzeichnis-Seite.
+* **TOC**: Wenn Sie das Seitenlayout für das Inhaltsverzeichnis entworfen haben, wählen Sie in der Dropdownliste die Option **TOC** aus, und alle TOC-Seiten in Ihrem Dokument haben das Layout für die Inhaltsverzeichnis-Seite.
 
-* **Liste der Abbildungen und Tabellen**: Sie können auch das Seitenlayout für Zahlen und Tabellen festlegen. Das ausgewählte Layout wird auf alle Abbildungen und Tabellen angewendet.
+* **Liste der Abbildungen und Tabellenliste**: Sie können auch das Seitenlayout für Zahlen und Tabellen festlegen. Das ausgewählte Layout wird auf alle Abbildungen und Tabellen angewendet.
 
-* **Index**: Wenn Sie ein Indexseitenlayout entworfen haben, ordnen Sie es der Option Index zu. Mithilfe der Stylesheets können Sie verschiedene Indexelemente in der PDF-Ausgabe formatieren. Indexstile verwenden `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` und `.idx-child` , um die Stile für die Elemente des Index anzupassen.
+* **Index**: Wenn Sie ein Indexseitenlayout entworfen haben, ordnen Sie es der Option Index zu. Mithilfe der Stylesheets können Sie verschiedene Indexelemente in der PDF-Ausgabe formatieren. Verwenden Sie die Indexstile `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`, `.idx-keyword`, `.idx-name`, `.idx-link` und `.idx-child`, um die Stile für die Elemente des Index anzupassen.
 
 * **Glossar**: Wenn Sie ein Glossar-Seitenlayout haben, ordnen Sie es der Glossaroption zu.
 
   Die Begriffe im Glossar Ihrer PDF-Ausgabe werden immer in alphabetischer Reihenfolge sortiert.
 
-  Sie können auch das Tag hinzufügen `sort-as` um einen Sortierschlüssel für die Glossarbegriffe zu definieren. Experience Manager Guides verwenden dann den Sortierschlüssel, um die Glossarbegriffe anstelle der Glossarbegriffe zu sortieren. Wenn Sie den Sortierschlüssel nicht definiert haben, werden die Glossarbegriffe zum Sortieren verwendet. Sie können beispielsweise das Tag `sort-as` der `glossterm` und legen Sie den Wert auf `A` für den Begriff &quot;USB&quot;(z. B. `<glossterm>USB<sort-as>A</sort-as></glossterm>`). Auf ähnliche Weise können Sie `sort-as` Tag und legen Sie den Wert auf `B` für den Begriff &quot;Pen Drive&quot;. Wenn Sie diese Glossarbegriffe sortieren, wird der Sortierschlüssel `A` für den Glossarbegriff &quot;USB&quot; vor der Sortiertaste angezeigt. `B` für den Glossarbegriff &quot;Pen Drive&quot;. In der PDF-Ausgabe kommt &quot;USB&quot; also vor &quot;Pen Drive&quot; auf der Glossarseite.
+  Sie können auch das Tag `sort-as` hinzufügen, um einen Sortierschlüssel für die Glossarbegriffe zu definieren. Experience Manager Guides verwendet dann den Sortierschlüssel, um die Glossarbegriffe anstelle der Glossarbegriffe zu sortieren. Wenn Sie den Sortierschlüssel nicht definiert haben, werden die Glossarbegriffe zum Sortieren verwendet. Sie können beispielsweise das Tag `sort-as` zum Tag `glossterm` hinzufügen und dessen Wert für den Begriff &quot;USB&quot;(z. B. `<glossterm>USB<sort-as>A</sort-as></glossterm>`) auf `A` setzen. Auf ähnliche Weise können Sie das Tag `sort-as` hinzufügen und seinen Wert für den Begriff &quot;Pen Drive&quot;auf `B` setzen. Wenn Sie diese Glossarbegriffe sortieren, erscheint der Sortierschlüssel `A` für den Glossarbegriff &quot;USB&quot; vor dem Sortierschlüssel `B` für den Glossarbegriff &quot;Pen Drive&quot;. In der PDF-Ausgabe kommt &quot;USB&quot; also vor &quot;Pen Drive&quot; auf der Glossarseite.
 
-  Mithilfe der Stylesheets können Sie verschiedene Glossarelemente in der PDF-Ausgabe gestalten. Glossarstile verwenden `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, und `.glo-term` , um die Stile für die Elemente des Glossars anzupassen.
+  Mithilfe der Stylesheets können Sie verschiedene Glossarelemente in der PDF-Ausgabe gestalten. Verwenden Sie die Glossarstile `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link` und `.glo-term`, um die Stile für die Elemente des Glossars anzupassen.
 
-  Erfahren Sie mehr über die Verwendung des Stileditors zum [Arbeiten mit allgemeinen Inhaltsstilen](stylesheet.md).
+  Erfahren Sie mehr über die Verwendung des Stileditors zum Arbeiten mit den gängigen Inhaltsstilen ](stylesheet.md).[
 
-* **Seiten mit VorMaterie und Seiten mit Rücken**: Diese Seitenlayouts definieren die Formatierung für Seiten mit Vorder- oder Rückseite Ihres Buches. Wenn Sie das Layout der Vorderteile entworfen haben, ordnen Sie es dem **Seiten mit Vordergrund** -Option. Wenn Sie das Layout der Vorderseite aus dem Dropdown-Menü auswählen, wird das Layout der Vorderseite auf alle in der Vorderseite vorhandenen Themen angewendet.
+* **Seiten mit Vorder- und Rückmeldungen**: Diese Seitenlayouts definieren den Stil für Seiten mit Vorder- oder Rückbestandteilen in Ihrem Buch. Wenn Sie das Layout der Vorderseite entworfen haben, ordnen Sie es der Option **Seiten mit Vorder-Materie** zu. Wenn Sie das Layout der Vorderseite aus dem Dropdown-Menü auswählen, wird das Layout der Vorderseite auf alle in der Vorderseite vorhandenen Themen angewendet.
 
-  Wenn Sie das Layout für die Hintergrundmatte entworfen haben, ordnen Sie es dem **Zurück Matter Pages** -Option. Wenn Sie das Layout für die Hintergrundmatte aus der Dropdown-Liste auswählen, wird das Layout für die Hintergrundmatte auf alle Themen angewendet, die in der Hintergrundmatte vorhanden sind.
+  Wenn Sie das Layout für die umgekehrte Materie entworfen haben, ordnen Sie es der Option **Rücken Matter Pages** zu. Wenn Sie das Layout für die Hintergrundmatte aus der Dropdown-Liste auswählen, wird das Layout für die Hintergrundmatte auf alle Themen angewendet, die in der Hintergrundmatte vorhanden sind.
 
-  **Seiten mit Vordergrund** wird auch als Fallback-Layout für die **TOC**, **Bildliste** und Liste der Tabellen.  Ebenso **Zurück Matter Pages** wird auch als Fallback-Layout für die **Index** und **Glossar** Layouts. Wenn Sie das Layout für diese Seiten nicht ausgewählt haben, wird das ausgewählte Seiten-Layout &quot;Vorder-&quot;und &quot;RückMatter-Seiten&quot;angewendet.  Wenn Sie das Layout Seiten mit Vorder- oder RückMaterie nicht ausgewählt haben, wird das standardmäßige Seitenlayout auf sie angewendet.
+  **Seiten mit Vordergrund** wird auch als Ausweichlayout für die Tabellen **TOC**, **Liste der Abbildungen** und &quot;Tabellenliste&quot;verwendet.  Gleichermaßen wird **Back Matter Pages** auch als Ausweichlayout für die Layouts **Index** und **Glossar** verwendet. Wenn Sie das Layout für diese Seiten nicht ausgewählt haben, wird das ausgewählte Seiten-Layout &quot;Vorder-&quot;und &quot;RückMatter-Seiten&quot;angewendet.  Wenn Sie das Layout Seiten mit Vorder- oder RückMaterie nicht ausgewählt haben, wird das standardmäßige Seitenlayout auf sie angewendet.
 
-* **Seitenlayout für leere Seiten**: Sie können auch das Seitenlayout für leere Seiten festlegen. Das ausgewählte Layout wird auf alle leeren Seiten angewendet. Wenn Sie beispielsweise ein leeres Seitenlayout für alle leeren Seiten entworfen haben, wählen Sie **Leer** in der Dropdown-Liste und alle leeren Seiten in Ihrem Dokument haben das Layout Leere Seite .
+* **Seitenlayout für leere Seiten**:    Sie können auch das Seitenlayout für leere Seiten festlegen. Das ausgewählte Layout wird auf alle leeren Seiten angewendet. Wenn Sie beispielsweise ein leeres Seitenlayout für alle leeren Seiten entworfen haben, wählen Sie in der Dropdown-Liste die Option &quot;**Leer**&quot;, und alle leeren Seiten in Ihrem Dokument haben das Layout &quot;Leere Seite&quot;.
 
-* **Titelseite und Rückseite**: Wenn Sie ein Deckblatt-Layout entworfen haben, ordnen Sie es dem **Titelseite** -Option. Wenn Sie ein Layout für die Rückseite haben, ordnen Sie es dem **Zurück-Seite** -Option. Wenn keine Deckblatt- oder Rückseite-Layouts erstellt wurden, wird das standardmäßige Seitenlayout angewendet.
+* **Titelseite und Rückseite**: Wenn Sie ein Titelseitenlayout entworfen haben, ordnen Sie es der Option **Titelseite** zu. Wenn Sie ein Layout für die Rückseite haben, ordnen Sie es der Option **Zurück-Seite** zu. Wenn keine Deckblatt- oder Rückseite-Layouts erstellt wurden, wird das standardmäßige Seitenlayout angewendet.
 
 
 
-Weitere Informationen zu Seitenlayouts finden Sie unter [Seitenlayout erstellen](design-page-layout.md).
+Weitere Informationen zu Seitenlayouts finden Sie unter [Erstellen eines Seitenlayouts](design-page-layout.md).
 
 ### Seitenlayout-Reihenfolge {#page-order}
 
@@ -318,21 +320,21 @@ Sie können die folgenden Bereiche in Ihrer PDF ein- oder ausblenden und auch di
 
 
 .
-**Kapitel und Themen** Das Layout ist standardmäßig immer aktiviert. Sie können sie nicht umschalten.
+Das Layout **Kapitel und Themen** ist standardmäßig immer aktiviert. Sie können sie nicht umschalten.
 
 **Seiten zusammenführen**
 
-Standardmäßig beginnen alle Abschnitte auf einer neuen Seite. Wählen Sie die **Vorherige Seite** oder **Nächste Seite** Option aus der **Zusammenführen mit** Dropdown, um einen Abschnitt mit einer vorherigen oder nächsten Seite zusammenzuführen. Dadurch wird der Abschnitt in Weiterführung mit der ausgewählten Seite in der PDF-Ausgabe veröffentlicht. Dadurch gibt es keinen Seitenumbruch dazwischen.
+Standardmäßig beginnen alle Abschnitte auf einer neuen Seite. Wählen Sie die Option **Vorherige Seite** oder **Nächste Seite** aus dem Dropdown-Menü **Zusammenführen mit** aus, um einen Abschnitt mit einer vorherigen oder nächsten Seite zusammenzuführen. Dadurch wird der Abschnitt in Weiterführung mit der ausgewählten Seite in der PDF-Ausgabe veröffentlicht. Dadurch gibt es keinen Seitenumbruch dazwischen.
 
 >[!NOTE]
 >
-> Diese Einstellung gilt nur für den Abschnitt und nicht für dessen Komponenten.  Wenn Sie beispielsweise die **Vorherige Seite** -Option für **Kapitel und Themen**, die **Kapitel und Themen** -Abschnitt wird mit der vorherigen Seite zusammengeführt. Die verschiedenen Kapitel und Themen werden gemäß **Allgemein** settings.Wenn beispielsweise in **Starten Sie ein neues Kapitel, indem Sie** auswählen **Ungerade Seite**, wird nach einem Kapitel, das auf einer ungeraden Seite endet, eine leere Seite eingefügt.
+> Diese Einstellung gilt nur für den Abschnitt und nicht für dessen Komponenten.  Wenn Sie beispielsweise die Option **Vorherige Seite** für **Kapitel und Themen** auswählen, wird der Abschnitt **Kapitel und Themen** mit der vorherigen Seite zusammengeführt. Die verschiedenen Kapitel und Themen werden gemäß den Einstellungen für **Allgemein** veröffentlicht. Wenn Sie z. B. in **Ein neues Kapitel über die Einstellung** beginnen, wählen Sie **Ungerade Seite** aus, wird nach einem Kapitel, das auf einer ungeraden Seite endet, eine leere Seite eingefügt.
 
 Wenn Sie einen Abschnitt mit der vorherigen Seite oder der nächsten Seite zusammenführen, wird der Inhalt zusammengeführt und der Stil des Zielabschnitts, in dem der Inhalt zusammengeführt wird, wird angewendet.
 
-Wenn Sie beispielsweise **TOC** und **Kapitel und Themen** und wählen Sie die **Nächste Seite** für **TOC**, die **TOC** führt mit dem nächsten Abschnitt zusammen, d. h. dem **Kapitel und Themen**. Der Stil des **Kapitel und Themen** wird auf den zusammengeführten Inhalt beider Abschnitte angewendet.
+Wenn Sie beispielsweise &quot;**TOC**&quot;und &quot;**Kapitel und Themen**&quot;aktivieren und &quot;**Nächste Seite**&quot;für &quot;**TOC**&quot;auswählen, wird &quot;**TOC**&quot;mit dem nächsten Abschnitt zusammengeführt, nämlich dem Abschnitt &quot;**Kapitel und Themen**&quot;. Der Stil des Abschnitts **Kapitel und Themen** wird auf den zusammengeführten Inhalt beider Abschnitte angewendet.
 
-Die Option &quot;Zusammenführen&quot;funktioniert nacheinander, wenn Sie also **Nächste Seite** für mehrere fortlaufende Abschnitte werden sie alle mit dem ersten Abschnitt (in die nächste Richtung) zusammengeführt, für den diese Eigenschaft nicht festgelegt ist. Sie können beispielsweise **TOC**, **Kapitel und Themen**, **Bildliste**, und **Index**. Wenn Sie **Nächste Seite** für **TOC**, **Kapitel und Themen**, **Bildliste**, und **Keines** für **Index**, werden alle mit  **Index**.
+Die Zusammenführungsoption funktioniert nacheinander. Wenn Sie also für mehrere fortlaufende Abschnitte **Nächste Seite** ausgewählt haben, werden alle mit dem ersten Abschnitt (in die nächste Richtung) zusammengeführt, für den diese Eigenschaft nicht festgelegt ist. Sie aktivieren beispielsweise **TOC**, **Kapitel und Themen**, **Liste der Abbildungen** und **Index**. Wenn Sie dann **Nächste Seite** für **TOC**, **Kapitel und Themen**, **Liste der Abbildungen** und **Keine** für **Index** festlegen, werden alle mit **Index** zusammengeführt.
 
 
 **Statische Seiten**
@@ -342,7 +344,7 @@ Sie können auch benutzerdefinierte Seitenlayouts erstellen und diese als statis
 
 Führen Sie die folgenden Schritte aus, um ein benutzerdefiniertes Seitenlayout hinzuzufügen:
 
-1. Auswählen **Hinzufügen** ![](assets/add-icon.svg) , um ein neues Seitenlayout hinzuzufügen. Das Bedienfeld &quot;Seitenlayout hinzufügen&quot;wird geöffnet.
+1. Wählen Sie **Hinzufügen** ![](assets/add-icon.svg) aus, um ein neues Seitenlayout hinzuzufügen. Das Bedienfeld &quot;Seitenlayout hinzufügen&quot;wird geöffnet.
 2. Wählen Sie das Seitenlayout aus der Liste aus und klicken Sie auf Hinzufügen. Das neue Seitenlayout wird der Liste der Seitenlayouts hinzugefügt.
 
 
@@ -350,7 +352,7 @@ Sie können auch die folgenden Aktionen durchführen:
 
 * Wählen Sie die gepunkteten Balken aus, um das Seitenlayout an die gewünschte Position zu ziehen.
 
-* Auswählen **Layout entfernen** ![](assets/delete-icon.svg)  um ein Layout zu entfernen.
+* Wählen Sie **Layout entfernen** ![](assets/delete-icon.svg) aus, um ein Layout zu entfernen.
 
 * Sie können auch eine statische Seite mit der vorherigen oder der nächsten Seite zusammenführen.
 
@@ -367,18 +369,18 @@ Die Seiten in einem PDF-Dokument werden in der Regel entsprechend dem Inhalt in 
 <img src="assets/template-page-organization.png" alt="Seitenorganisation" width="550">
 
 
-Die folgenden Einstellungen sind im **Seitenorganisation** Abschnitt:
+Die folgenden Einstellungen sind im Abschnitt **Seitenorganisation** verfügbar:
 
 #### Seitenreihenfolge
 
 Wählen Sie eine Seitenreihenfolge aus, die die Reihenfolge der Seiten in Ihrem PDF-Dokument bestimmt. Sie können die folgenden Optionen aus der Dropdown-Liste auswählen:
 
 * **Standard**: Die Standardreihenfolge der Seiten gemäß der Quelldatei.
-* **Erste ungerade Seiten**: Alle ungeraden Seiten werden vor allen geraden Seiten verschoben.
+* **Ungerade Seiten zuerst hinzufügen**: Alle ungeraden Seiten werden vor allen geraden Seiten verschoben.
 * **Gerade Seiten zuerst**: Alle geraden Seiten werden vor allen ungeraden Seiten verschoben.
 * **Umkehren**: Die Seitenreihenfolge wird umgekehrt.
-* **Lesezeichen**: Alle Seiten werden wie in einem Booklet angeordnet.
-* **Lesezeichen rechts nach links**: Alle Seiten befinden sich in der Lesezeichenreihenfolge von rechts nach links.
+* **Lesezeichen**: Alle Seiten werden wie in einem Lesezeichen angeordnet.
+* **Rechts nach links Lesezeichen**: Alle Seiten befinden sich in der Lesezeichenreihenfolge von rechts nach links.
 * **Benutzerdefiniert**: Definieren Sie eine benutzerdefinierte Reihenfolge der Seiten anstelle einer vordefinierten Reihenfolge.
    * &quot;a..b&quot;— Alle aufeinander folgenden Seiten von a bis b.
    * &quot;a,b,c&quot; — Neue Seitenreihenfolge a, b, c.
@@ -402,17 +404,17 @@ Definieren Sie die Größe des Zielblatts und die Ausrichtung, in der Sie das Bl
 
 Konfigurieren Sie die Druckproduktionseinstellungen, um Druckermarkierungen zuzuweisen, Farbmodelle auszuwählen und Eigenschaften für den Druck Ihrer PDF-Ausgabe anzugeben.
 
-* **Druckermarken**: Wenn Sie ein Dokument für die Druckproduktion vorbereiten, werden den Seitengrenzen Druckmarkierungen hinzugefügt, um die korrekte Ausrichtung, Beschneidung und Farbauswahl beim Drucken zu unterstützen. Durch Auswahl eines Druckerzeichens wird die Seitenbegrenzung erweitert, um die Markierung aufzunehmen, die beim Drucken abgeschnitten wird. Sie können die folgenden Druckermarkierungen in Ihrer PDF-Ausgabe anzeigen lassen:
-   * **Schnittmarken**: Wählen Sie die Option aus, um an jeder Ecke des Schnittbereichs eine Markierung zu platzieren und anzugeben, wo das Papier nach dem Drucken beschnitten werden soll.
-   * **Anschnittmarken**: Wählen Sie diese Option, um eine Markierung an jeder Ecke des Anschnittrahmens zu platzieren, um den Schnittbereich für das erweiterte Bild anzugeben.
-   * **Registrierungszeichen**: Wählen Sie diese Option, um eine Markierung außerhalb des Zuschnittbereichs zu platzieren, damit die verschiedenen Trennlinien in einem Farbdokument ausgerichtet werden.
-   * **Farbbalken**: Wählen Sie diese Option, um einen Farbstreifen außerhalb des Schnittbereichs hinzuzufügen, um die Farbkonsistenz zu gewährleisten und die Farbdichte beim Drucken anzupassen.
+* **Druckermarkierungen**: Wenn Sie ein Dokument für die Druckproduktion vorbereiten, werden den Seitengrenzen Druckmarkierungen hinzugefügt, um die korrekte Ausrichtung, Beschneidung und Farbauswahl beim Drucken zu unterstützen. Durch Auswahl eines Druckerzeichens wird die Seitenbegrenzung erweitert, um die Markierung aufzunehmen, die beim Drucken abgeschnitten wird. Sie können die folgenden Druckermarkierungen in Ihrer PDF-Ausgabe anzeigen lassen:
+   * **Schnittmarkierungen**: Wählen Sie die Option, um an jeder Ecke des Zuschnittbereichs eine Markierung zu platzieren, um anzugeben, wo das Papier nach dem Drucken beschnitten werden soll.
+   * **Anschnittmarkierungen**: Wählen Sie diese Option aus, um eine Markierung an jeder Ecke des Anschnittrahmens zu platzieren, um den Schnittbereich für das erweiterte Bild anzugeben.
+   * **Registrierungszeichen**: Wählen Sie diese Option aus, um eine Markierung außerhalb des Zuschnittbereichs zu platzieren, um die verschiedenen Trennlinien in einem Farbdokument auszurichten.
+   * **Farbbalken**: Wählen Sie diese Option, um einen Farbstreifen außerhalb des Schnittbereichs hinzuzufügen, um die Farbkonsistenz zu wahren und die Farbdichte beim Drucken anzupassen.
 
-  Legen Sie Dimensionen für die ausgewählten Druckermarkierungen mithilfe der **Linienbreite**, **Linienfarbe**, und **Breite des Anschnittrahmens** Optionen.
+  Legen Sie Dimensionen für die ausgewählten Druckermarkierungen mithilfe der Optionen **Linienbreite**, **Linienfarbe** und **Breite des Anschnittrahmens** fest.
 
-* **Größe des Medienfelds**: Dies ist die Gesamtseitengröße einschließlich des erweiterten Bereichs, der von Druckermarkierungen belegt wird. Verwenden Sie die Dropdown-Option, um die Seitengröße für Ihre PDF-Ausgabe auszuwählen oder eine eigene benutzerdefinierte Größe zu erstellen.
+* **Medienfeldgröße**: Dies ist die Gesamtseitengröße einschließlich des erweiterten Bereichs, der von Druckermarkierungen belegt wird. Verwenden Sie die Dropdown-Option, um die Seitengröße für Ihre PDF-Ausgabe auszuwählen oder eine eigene benutzerdefinierte Größe zu erstellen.
 
-* **Farbraum**: Sie haben die Möglichkeit, aus RGB- oder CMYK-Farbräumen auszuwählen, um Ihr PDF-Dokument zu drucken. Wählen Sie RGB aus, um die generierte PDF digital und CMYK für den physischen Druck anzuzeigen. Die im Dokument definierten Farben werden in den ausgewählten Farbraum konvertiert.
+* **Farbraum**: Sie können zwischen RGB- oder CMYK-Farbräumen wählen, um Ihr PDF-Dokument zu drucken. Wählen Sie RGB aus, um die generierte PDF digital und CMYK für den physischen Druck anzuzeigen. Die im Dokument definierten Farben werden in den ausgewählten Farbraum konvertiert.
   >[!NOTE]
   >
   >Für die Erstellung von PDF/A ist bei Verwendung des CMYK-Farbraums ein ICC-Farbprofil erforderlich.
@@ -421,7 +423,7 @@ Konfigurieren Sie die Druckproduktionseinstellungen, um Druckermarkierungen zuzu
 
 ### Querverweise {#cross-references}
 
-Verwenden Sie die **Querverweis** um festzulegen, wie die Querverweise auf der PDF veröffentlicht werden. Sie können die Querverweise für Thementitel, Tabellen, Zahlen und mehr formatieren.
+Verwenden Sie die Registerkarte **Querverweis** , um festzulegen, wie die Querverweise auf der PDF veröffentlicht werden. Sie können die Querverweise für Thementitel, Tabellen, Zahlen und mehr formatieren.
 
 >[!NOTE]
 >
@@ -429,18 +431,18 @@ Verwenden Sie die **Querverweis** um festzulegen, wie die Querverweise auf der P
 
 Sie können auch Variablen verwenden, um einen Querverweis zu definieren.  Wenn Sie eine Variable verwenden, wird ihr Wert aus den Eigenschaften ausgewählt. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um einen Querverweis zu definieren. Sie können auch eine Kombination aus Zeichenfolge und Variable verwenden.
 
-Sie können beispielsweise `View details on {chapter}`. Wenn der Kapitelname &quot;Allgemeine Einstellungen&quot;lautet, lautet der Querverweis in der Ausgabe &quot;Siehe Details zu den allgemeinen Einstellungen&quot;.
+Sie können beispielsweise `View details on {chapter}` verwenden. Wenn der Kapitelname &quot;Allgemeine Einstellungen&quot;lautet, lautet der Querverweis in der Ausgabe &quot;Siehe Details zu den allgemeinen Einstellungen&quot;.
 
-AEM Guides bieten die folgenden nativen Variablen:
+AEM Guides bietet die folgenden nativen Variablen:
 
 * {title}: Erstellt einen Querverweis zum Titel des Themas. Siehe beispielsweise Nützliche Links auf Seite 2.
 * {page} Fügt einen Querverweis zu den Seitenzahlen hinzu. Siehe beispielsweise auf Seite 1.
-* {description}: Fügt einen Querverweis zum Text der Beschreibung hinzu. Siehe beispielsweise die Details AEM Handbücher.
+* {description}: Fügt einen Querverweis zum Text der Beschreibung hinzu. Siehe beispielsweise die Details zu AEM Guides.
 * {chapter}: Fügt einen Querverweis zu den Kapitelnummern hinzu. Siehe beispielsweise Kapitel 1.
-* {bookmarkText}: Erstellt einen Querverweis zum mit Lesezeichen versehenen Text. Siehe beispielsweise stop_words auf Seite 5.
+* {bookmarkText}: Erstellt einen Querverweis auf den mit Lesezeichen versehenen Text. Siehe beispielsweise stop_words auf Seite 5.
 * {captionText}: Erstellt einen Querverweis zur Beschriftung der Abbildung oder Tabelle in Ihrem Thema. Siehe zum Beispiel Flugfluss auf Seite 2.
-* {figure}: Fügt einen Querverweis zur Zahl hinzu. Wählt die Zahl aus den automatischen Nummernstilen aus, die Sie für die Beschriftung definiert haben.  Sie können beispielsweise &quot;Siehe {figure} auf Seite {page}&quot;. Der Querverweis in der Ausgabe enthält die automatisch generierte Zahlen- und Seitenzahl &quot;Siehe Abbildung 1 auf Seite 5&quot;.
-* {table}: Fügt einen Querverweis zur Tabellennummer hinzu. Wählt die Tabellennummer aus den automatischen Nummernstilen aus, die Sie für die Beschriftung definiert haben. Sie können beispielsweise &quot;Siehe {table} auf Seite {page}&quot;. Der Querverweis in der Ausgabe enthält die automatisch generierte Tabellennummer und die zugehörige Seitenzahl &quot;Siehe Tabelle 1 auf Seite 5&quot;.
+* {figure}: Fügt einen Querverweis zur Zahl hinzu. Wählt die Zahl aus den automatischen Nummernstilen aus, die Sie für die Beschriftung definiert haben.  Sie können beispielsweise &quot;Siehe {figure} auf Seite {page}&quot;verwenden. Der Querverweis in der Ausgabe enthält die automatisch generierte Zahlen- und Seitenzahl &quot;Siehe Abbildung 1 auf Seite 5&quot;.
+* {table}: Fügt einen Querverweis zur Tabellennummer hinzu. Wählt die Tabellennummer aus den automatischen Nummernstilen aus, die Sie für die Beschriftung definiert haben. Sie können beispielsweise &quot;Siehe {table} auf Seite {page}&quot;verwenden. Der Querverweis in der Ausgabe enthält die automatisch generierte Tabellennummer und die zugehörige Seitenzahl &quot;Siehe Tabelle 1 auf Seite 5&quot;.
 
 
 
@@ -450,14 +452,14 @@ AEM Guides bieten die folgenden nativen Variablen:
 
 #### Standard-Querverweisformat
 
-Wenn Sie das Textfeld leer lassen und den Link-Text beim Einfügen eines Querverweises nicht definiert haben, werden in den Experience Manager-Guides die folgenden Variablen für die entsprechenden Querverweise hinzugefügt:
+Wenn Sie das Textfeld leer lassen und den Link-Text beim Einfügen eines Querverweises nicht definiert haben, fügt Experience Manager Guides die folgenden Variablen für die entsprechenden Querverweise hinzu:
 
 * **Titel**: `{title}`
 * **Beschreibung**: `{description}`
 * **Absatz**: `{bookmarkText}`
 * **Lesezeichen**: `{bookmarkText}`
 * **Abbildung**: `{captionText}`
-* **Verzeichnis**: `{captionText}`
+* **Tabelle**: `{captionText}`
 
 Die Rangfolge für Querverweise lautet:
 * Link-Text, der in den Querverweisen hinzugefügt wird
@@ -471,11 +473,11 @@ Sie können auch Sprachvariablen verwenden, um lokalisierte Querverweise zu defi
 
 Beispielsweise können Sie eine Sprachvariable &quot;reference-label&quot;hinzufügen und die Werte in Englisch und Deutsch definieren.
 
-* Englisch - &quot;Ansicht auf Seite {page}&quot;
-* Deutsch - &quot;ANZEIGE auf der Seite&quot; {page}&quot;
+* Englisch - &quot;Auf Seite anzeigen {page}&quot;
+* Deutsch - &quot;finden Sie auf der Seite&quot;{page}
 
 
-Wenn Sie `${lng:<variable name>}` im Abschnitt Absatz enthalten die Querverweise in den Absätzen der Ausgabe den lokalisierten Text und die Seitenzahl.\
+Wenn Sie dem Abschnitt &quot;Absatz&quot;den Wert &quot;`${lng:<variable name>}`&quot;hinzufügen, enthalten die Querverweise in den Absätzen der Ausgabe den lokalisierten Text und die Seitennummer.\
 Beispielsweise zeigen die folgenden Screenshots die Querverweise &quot;View on the Page 1&quot; auf Englisch und &quot;View auf der Seite 1&quot; auf Deutsch.
 
 <img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einer Schreibweise" width ="800" border="2px">

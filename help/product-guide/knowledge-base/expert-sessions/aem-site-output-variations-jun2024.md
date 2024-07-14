@@ -1,6 +1,6 @@
 ---
 title: Ausgabevarianten für AEM Sites
-description: Erfahren Sie, wie Sie verschiedene Varianten der AEM Sites-Ausgabe aus AEM Guides generate verwenden.
+description: Erfahren Sie, wie Sie verschiedene Varianten der AEM Sites-Ausgabe aus AEM Guides generieren.
 source-git-commit: e4873d61fce4a44cf77fadb2b1a4425252c71af8
 workflow-type: tm+mt
 source-wordcount: '196'
@@ -11,9 +11,11 @@ ht-degree: 3%
 
 # Sitzungsübersicht
 
-Ein klar definiertes Layout eines Web-Erlebnisses führt zu konsistentem Anwendungsbranding und -design sowie Einheitlichkeit und Kohärenz auf allen digitalen Erlebnissen/Seiten der Plattform.
+Ein klar definiertes Layout eines Web-Erlebnisses führt zu konsistentem Anwendungs-Branding
+und Design zusammen mit Einheitlichkeit und Kohärenz im gesamten digitalen Umfeld
+Erlebnis/Seiten der Plattform.
 All dies kann durch verschiedene Variationen der Site-Ausgabe erreicht werden, die von Adobe Experience Manager-Handbüchern angeboten wird.
-In dieser Sitzung erfahren Sie, wie Sie verschiedene Varianten der Ausgabe AEM Sites in generate durchführen.
+In dieser Sitzung erfahren Sie, wie Sie verschiedene Varianten der Ausgabe AEM Sites generieren.
 
 ## Sitzungsaufzeichnung
 
@@ -31,9 +33,9 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 ## Lichter
 
 - **Datum** - 27. Juni 2024
-- **Anzahl der TeilnehmerInnen** - 120
+- **Anzahl der Teilnehmer** - 120
 - **Dauer** - 60 Minuten
-- **Zielgruppe** - Kunden, Partner und Adobe-Mitarbeiter
+- **Audience** - Kunden, Partner und Adobe-Mitarbeiter
 
 ## Verwandte Ressourcen
 
@@ -44,7 +46,7 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 - [AEM Vorlagen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **Community-Forum** - Sitzungsspezifische Community-Interaktionen auf dem Experience League finden Sie unter [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Besuchen Sie für sitzungsspezifische Community-Interaktionen auf dem Experience League das [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
@@ -52,4 +54,4 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 ## Kontakt
 
-Für alle Fragen senden Sie uns eine E-Mail unter <techcomm@adobe.com>
+Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>

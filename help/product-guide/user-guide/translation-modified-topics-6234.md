@@ -19,11 +19,11 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
 1. Klicken Sie auf die DITA-Map-Datei im Ordner &quot;Quellsprachkopie&quot;.
 
-1. Klicken Sie auf **Übersetzung** Registerkarte.
+1. Klicken Sie auf die Registerkarte **Übersetzung** .
 
-1. Im **Filter** auf der linken Seite, wählen Sie die **Sprachen übersetzen** , für die Sie den Status überprüfen möchten, und klicken Sie auf **Fertig**.
+1. Wählen Sie im Bereich **Filter** auf der linken Seite die Option **Sprachen übersetzen** aus, für die Sie den Status überprüfen möchten, und klicken Sie auf **Fertig**.
 
-   Sie können den Übersetzungsstatus für jedes Thema sehen. Die Themen, für die eine andere Überarbeitung des Themas verfügbar ist als das, was zur Übersetzung gesendet wurde, zeigen eine **Veraltet** -Status.
+   Sie können den Übersetzungsstatus für jedes Thema sehen. In den Themen, für die eine andere Revision des Themas als für die Übersetzung verfügbar ist, wird der Status **Veraltet vom Datum** angezeigt.
 
    >[!NOTE]
    >
@@ -35,15 +35,15 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
 1. Aktivieren Sie das Kontrollkästchen, um die Themen auszuwählen, die Sie zur erneuten Übersetzung senden möchten.
 
-   Wenn Sie ein nicht synchronisiertes Datum auswählen, wird die **Erstellen/Aktualisieren von Sprachkopien** im Bereich &quot;Verweise&quot;angezeigt und die **Nicht synchronisierten Status schließen** oberhalb der Schaltfläche **Filter** Symbol.
+   Wenn Sie ein nicht synchronisiertes Datum auswählen, wird die Option **Sprachkopien erstellen/aktualisieren** im Bereich &quot;Verweise&quot;und die Schaltfläche **Nicht synchronisierten Status verwerfen** oberhalb des Symbols **Filter** angezeigt.
 
-   Sie können die **Nicht synchronisieren beenden** -Schaltfläche zum Überschreiben des Status &quot;Out of Date&quot;für die Themen in der DITA-Zuordnung. Wenn Sie beispielsweise Änderungen an der englischen Version des Themas vorgenommen haben, für das keine Übersetzung erforderlich ist, können Sie diese Schaltfläche verwenden und den Status &quot;Out of Date&quot;für das ausgewählte Thema ändern.
+   Sie können die Schaltfläche **Nicht synchronisieren beenden** verwenden, um den Status &quot;Out of Date&quot;für die Themen in der DITA-Map zu überschreiben. Wenn Sie beispielsweise Änderungen an der englischen Version des Themas vorgenommen haben, für das keine Übersetzung erforderlich ist, können Sie diese Schaltfläche verwenden und den Status &quot;Out of Date&quot;für das ausgewählte Thema ändern.
 
    >[!NOTE]
    >
-   > Wenn Sie auf die **Nicht synchronisierten Status schließen** für die ausgewählten Themen vom Typ &quot;Out of Date&quot;auf &quot;Aktuell&quot;gesetzt.
+   > Wenn Sie auf die Schaltfläche **Nicht synchronisierten Status verwerfen** klicken, wird der Themenstatus für die ausgewählten Themen &quot;Nicht aktualisiert&quot;auf &quot;Aktuell&quot;gesetzt.
 
-1. Klicks **Sprachkopien aktualisieren** und konfigurieren Sie den Übersetzungsauftrag.
+1. Klicken Sie auf **Sprachkopien aktualisieren** und konfigurieren Sie den Übersetzungsauftrag.
 
 1. Sie können ein neues Übersetzungsprojekt erstellen oder Themen zu einem vorhandenen Übersetzungsprojekt hinzufügen. Geben Sie die erforderlichen Details an, um das Übersetzungsprojekt zu konfigurieren.
 
@@ -55,7 +55,7 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
    ![](images/incremental-job.PNG){width="300" align="left"}
 
-1. Um die Übersetzung zu starten, klicken Sie auf den Pfeil auf der Karte für den Übersetzungsauftrag und wählen Sie **Starten** aus der Liste. Eine Meldung informiert Sie darüber, dass der Auftrag gestartet wurde.
+1. Um die Übersetzung zu starten, klicken Sie auf den Pfeil auf der Karte für den Übersetzungsauftrag und wählen Sie **Start** aus der Liste aus. Eine Meldung informiert Sie darüber, dass der Auftrag gestartet wurde.
 
    Sie können auch den Status des zu übersetzenden Themas anzeigen, wenn Sie auf das Auslassungszeichen am unteren Rand der Karte für Übersetzungsaufträge klicken.
 
@@ -65,11 +65,11 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
 1. Nach Abschluss der Übersetzung ändert sich der Status in **Bereit zur Überprüfung**. Klicken Sie auf die Auslassungspunkte, um Themendetails anzuzeigen, und führen Sie in der Symbolleiste einen der folgenden Schritte aus:
 
-   - Klicks **In Assets einblenden** , um die Übersetzung anzuzeigen und zu überprüfen.
+   - Klicken Sie auf **In Assets einblenden** , um die Übersetzung anzuzeigen und zu überprüfen.
 
-   - Klicks **Übersetzung akzeptieren** wenn Sie der Meinung sind, dass die Änderungen korrekt übersetzt wurden. Eine Bestätigungsmeldung wird angezeigt.
+   - Klicken Sie auf **Übersetzung akzeptieren** , wenn Sie glauben, dass die Änderungen korrekt übersetzt wurden. Eine Bestätigungsmeldung wird angezeigt.
 
-   - Klicks **Übersetzung ablehnen** wenn Sie der Meinung sind, dass die Arbeit neu erledigt werden muss. Eine Zurückweisungsmeldung wird angezeigt.
+   - Klicken Sie auf **Übersetzung ablehnen** , wenn Sie der Meinung sind, dass der Auftrag erneut ausgeführt werden muss. Eine Zurückweisungsmeldung wird angezeigt.
 
    >[!NOTE]
    >

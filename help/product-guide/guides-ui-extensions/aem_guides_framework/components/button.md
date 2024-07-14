@@ -2,18 +2,18 @@
 title: Schaltfläche
 description: Schaltfläche
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 40e3f254-f94e-4f43-8ff5-2e6e1eb1cb6f
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 5%
 
 ---
 
-
 # Schaltfläche
 
 Um eine Schaltfläche anzuzeigen, verwenden wir die Komponente, Schaltfläche .
-Die Schaltflächenkomponente in JUI stellt einen HTML-Code dar `<button/>`.
+Die Schaltflächenkomponente in JUI stellt einen HTML-Code `<button/>` dar.
 
 ```js title="buttonJSON.js"
 const buttonJSON = {
@@ -24,9 +24,9 @@ const buttonJSON = {
 };
 ```
 
-Dadurch wird eine Schaltfläche mit der Bezeichnung `Yes, login`. Die anderen Eigenschaften umfassen, sind jedoch nicht auf variant,label,on-click beschränkt.
-> **_NOTE:_**  Die `on-<events>` ist die Syntax zum Aufrufen der Befehle in den Controllern.
+Dadurch wird eine Schaltfläche mit der Bezeichnung `Yes, login` erzeugt. Die anderen Eigenschaften umfassen, sind jedoch nicht auf variant,label,on-click beschränkt.
+> **_HINWEIS:_** Die `on-<events>` ist die Syntax zum Aufrufen der Befehle in den Controllern.
 
 Die gerenderte Schaltfläche sieht wie folgt aus:
 
-![button](imgs/yes_login_button.png "Schaltfläche")
+![button](imgs/yes_login_button.png "button")

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Java-basierte APIs zum Arbeiten mit DITA-Maps {#id175UB30E05Z}
 
-Mit den folgenden Java-basierten APIs können Sie in AEM Handbüchern mit DITA-Maps arbeiten. Diese APIs sind in Form eines Bundles verfügbar. Sie müssen dieses Bundle in Ihren Code aufnehmen, um diese APIs verwenden zu können.
+Mit den folgenden Java-basierten APIs können Sie mit DITA-Maps in AEM Guides arbeiten. Diese APIs sind in Form eines Bundles verfügbar. Sie müssen dieses Bundle in Ihren Code aufnehmen, um diese APIs verwenden zu können.
 
 Paketdetails:
 
@@ -22,9 +22,9 @@ Paketdetails:
 
 - Artefakt-ID: **api**
 
-- Version: **3,2**
+- Version: **3.2**
 
-- Package: **com.adobe.fmdita.api.maps**
+- Paket: **com.adobe.fmdita.api.maps**
 
 - Klassendetails:
 
@@ -37,7 +37,7 @@ Paketdetails:
 
 ## DITA-Map mit abhängigen Elementen herunterladen
 
-Die `zipMapWithDependents` erstellt eine ZIP-Datei, die eine DITA-Zuordnung zusammen mit allen abhängigen Elementen wie referenzierten Themen, Unterkarten, Bildern und DTDs enthält. Die ZIP-Datei für die DITA-Zuordnung wird basierend auf einer gegebenen Grundlinie erstellt.
+Die Methode `zipMapWithDependents` erstellt eine ZIP-Datei, die eine DITA-Zuordnung zusammen mit allen abhängigen Elementen wie referenzierten Themen, Unterkarten, Bildern und DTDs enthält. Die ZIP-Datei für die DITA-Zuordnung wird basierend auf einer gegebenen Grundlinie erstellt.
 
 Außerdem können Sie entweder dieselbe Struktur beibehalten \(über- und untergeordnete Ordner\) oder eine flache Dateistruktur in einem einzigen Ordner für alle abhängigen Dateien erstellen.
 
@@ -56,17 +56,26 @@ public static void zipMapWithDependents(Session session,
                      throws RepositoryException, IOException
 ```
 
-**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.| |`sourcePath`|Zeichenfolge|Pfad \(im AEM Repository\) der DITA-Map-Datei, die heruntergeladen werden muss.| |`outputStream`|java.io.OutputStream|Der Stream, in den die ZIP geschrieben werden soll.| |`baseline`|Zeichenfolge|Der Titel der Grundlinie, die zum Abrufen des versionierten Inhalts verwendet wird. <br> **Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden.| |flachFS|Boolesch|\(optional\) Wenn auf &quot;true&quot;gesetzt, wird eine flache Dateistruktur in der ZIP-Datei zurückgegeben. Wenn Ihre DITA-Zuordnung beispielsweise auf Inhalte in mehreren Ordnern verweist, werden alle referenzierten Dateien in einen einzigen Ordner abgerufen. Wenn es Dateien mit demselben Namen gibt, werden diese Dateien umbenannt, indem ein numerisches Suffix hinzugefügt wird. Alle Verweise \(in DITA-Zuordnung und Themen\) werden automatisch verarbeitet, da sie basierend auf dem neuen Speicherort der Dateien in der flachen Ordnerstruktur aktualisiert werden. Wenn der Wert auf &quot;false&quot;gesetzt ist, wird die Ordnerstruktur so beibehalten, wie es in der ZIP-Datei der Fall ist. Wenn sich die DITA-Zuordnung auf Dateien von mehreren Speicherorten bezieht, werden auch alle diese Speicherorte in der ZIP-Datei erstellt. Wenn Sie die ZIP-Datei wiederherstellen, wird die genaue Ordnerstruktur am Zielspeicherort erstellt. <br> Der Standardwert für diesen Parameter ist &quot;false&quot;|.
+**Parameter**:
+|Name|Typ|Beschreibung|
+|—|—|—|
+|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
+|`sourcePath`|String|Pfad \(im AEM Repository\) der DITA-Map-Datei, die heruntergeladen werden muss.|
+|`outputStream`|java.io.OutputStream|Der Stream, in den die ZIP geschrieben werden soll.|
+|`baseline`|String|Der Titel der Grundlinie, mit der der versionierte Inhalt abgerufen wird. <br> **Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden.|
+|flachFS|Boolesch|\(optional\) Wenn auf &quot;true&quot;gesetzt, wird eine flache Dateistruktur in der ZIP-Datei zurückgegeben. Wenn Ihre DITA-Zuordnung beispielsweise auf Inhalte in mehreren Ordnern verweist, werden alle referenzierten Dateien in einen einzigen Ordner abgerufen. Wenn es Dateien mit demselben Namen gibt, werden diese Dateien umbenannt, indem ein numerisches Suffix hinzugefügt wird. Alle Verweise \(in DITA-Zuordnung und Themen\) werden automatisch verarbeitet, da sie basierend auf dem neuen Speicherort der Dateien in der flachen Ordnerstruktur aktualisiert werden. Wenn der Wert auf &quot;false&quot;gesetzt ist, wird die Ordnerstruktur so beibehalten, wie es in der ZIP-Datei der Fall ist. Wenn sich die DITA-Zuordnung auf Dateien von mehreren Speicherorten bezieht, werden auch alle diese Speicherorte in der ZIP-Datei erstellt. Wenn Sie die ZIP-Datei wiederherstellen, wird die genaue Ordnerstruktur am Zielspeicherort erstellt. <br> Der Standardwert für diesen Parameter ist &quot;false&quot;.|
 
-**Rückgabe**: Der Inhalt des ZIP wird in die `outputStream`.
+**Gibt** zurück:
+Der Inhalt der ZIP wird in die `outputStream` geschrieben.
 
-**Ausnahme**: Threads ``javax.jcr.RepositoryException``, `java.io.IOException`.
+**Exception**:
+Löst ``javax.jcr.RepositoryException``, `java.io.IOException` aus.
 
 ## DITA-Map mit abhängigen Elementen herunterladen \(asynchron\)
 
 Alternativ können Sie DITA-Map mit abhängigen Elementen im asynchronen Modus herunterladen. Dieser Ansatz ist für größere DITA-Maps nützlicher.
 
-Die `zipMapWithDependents` erstellt eine ZIP-Datei, die eine DITA-Zuordnung zusammen mit allen abhängigen Elementen wie referenzierten Themen, Unterkarten, Bildern und DTDs enthält. Die ZIP-Datei für die DITA-Zuordnung wird basierend auf einer gegebenen Grundlinie erstellt.
+Die Methode `zipMapWithDependents` erstellt eine ZIP-Datei, die eine DITA-Zuordnung zusammen mit allen abhängigen Elementen wie referenzierten Themen, Unterkarten, Bildern und DTDs enthält. Die ZIP-Datei für die DITA-Zuordnung wird basierend auf einer gegebenen Grundlinie erstellt.
 
 Außerdem können Sie entweder dieselbe Struktur beibehalten \(über- und untergeordnete Ordner\) oder eine flache Dateistruktur in einem einzigen Ordner für alle abhängigen Dateien erstellen.
 
@@ -83,9 +92,16 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
                      boolean flatFS) 
 ```
 
-**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.| |`sourcePath`|Zeichenfolge|Pfad \(im AEM Repository\) der DITA-Map-Datei, die heruntergeladen werden muss.| |`baseline`|Zeichenfolge|Der Titel der Grundlinie, die zum Abrufen des versionierten Inhalts verwendet wird. <br> **Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden.| |flachFS|Boolesch|\(optional\) Wenn auf &quot;true&quot;gesetzt, wird eine flache Dateistruktur in der ZIP-Datei zurückgegeben. Wenn Ihre DITA-Zuordnung beispielsweise auf Inhalte in mehreren Ordnern verweist, werden alle referenzierten Dateien in einen einzigen Ordner abgerufen. Wenn es Dateien mit demselben Namen gibt, werden diese Dateien umbenannt, indem ein numerisches Suffix hinzugefügt wird. Alle Verweise \(in DITA-Zuordnung und Themen\) werden automatisch verarbeitet, da sie basierend auf dem neuen Speicherort der Dateien in der flachen Ordnerstruktur aktualisiert werden. Wenn der Wert auf &quot;false&quot;gesetzt ist, wird die Ordnerstruktur so beibehalten, wie es in der ZIP-Datei der Fall ist. Wenn sich die DITA-Zuordnung auf Dateien von mehreren Speicherorten bezieht, werden auch alle diese Speicherorte in der ZIP-Datei erstellt. Wenn Sie die ZIP-Datei wiederherstellen, wird die genaue Ordnerstruktur am Zielspeicherort erstellt.<br> Der Standardwert für diesen Parameter ist &quot;false&quot;|.
+**Parameter**:
+|Name|Typ|Beschreibung|
+|—|—|—|
+|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
+|`sourcePath`|String|Pfad \(im AEM Repository\) der DITA-Map-Datei, die heruntergeladen werden muss.|
+|`baseline`|String|Der Titel der Grundlinie, mit der der versionierte Inhalt abgerufen wird. <br> **Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden.|
+|flachFS|Boolesch|\(optional\) Wenn auf &quot;true&quot;gesetzt, wird eine flache Dateistruktur in der ZIP-Datei zurückgegeben. Wenn Ihre DITA-Zuordnung beispielsweise auf Inhalte in mehreren Ordnern verweist, werden alle referenzierten Dateien in einen einzigen Ordner abgerufen. Wenn es Dateien mit demselben Namen gibt, werden diese Dateien umbenannt, indem ein numerisches Suffix hinzugefügt wird. Alle Verweise \(in DITA-Zuordnung und Themen\) werden automatisch verarbeitet, da sie basierend auf dem neuen Speicherort der Dateien in der flachen Ordnerstruktur aktualisiert werden. Wenn der Wert auf &quot;false&quot;gesetzt ist, wird die Ordnerstruktur so beibehalten, wie es in der ZIP-Datei der Fall ist. Wenn sich die DITA-Zuordnung auf Dateien von mehreren Speicherorten bezieht, werden auch alle diese Speicherorte in der ZIP-Datei erstellt. Wenn Sie die ZIP-Datei wiederherstellen, wird die genaue Ordnerstruktur am Zielspeicherort erstellt.<br> Der Standardwert für diesen Parameter ist &quot;false&quot;.|
 
-**Rückgabe**: Der Knoten der ZIP-Datei wird in die `CompletableFuture`-Klasse. Der Benutzer kann die asynchrone Verarbeitung fortsetzen und `.get()`-Methode der Zukunft, um den Thread zu blockieren, wenn der Knoten benötigt wird. Der zurückgegebene Wert kann auch mit einem Fehler enden, der mit `.exceptionally()` -Methode.
+**Gibt** zurück:
+Der Knoten der ZIP-Datei wird in die Klasse `CompletableFuture`eingeschlossen. Der Benutzer kann die asynchrone Verarbeitung fortsetzen und die `.get()`Methode der Zukunft verwenden, um den Thread zu blockieren, wenn der Knoten benötigt wird. Der zurückgegebene Wert kann auch mit einem Fehler enden, der mit der `.exceptionally()` -Methode verarbeitet werden kann.
 
 ## Liste der Grundlinien abrufen
 
@@ -100,11 +116,17 @@ public static List<HashMap<String,String>> getBaselineList(
                   throws javax.jcr.RepositoryException
 ```
 
-**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.| |`sourcePath`|Zeichenfolge|Pfad \(im AEM Repository\) der DITA-Map-Datei, für die die Grundlinien-Informationen abgerufen werden sollen.|
+**Parameter**:
+|Name|Typ|Beschreibung|
+|—|—|—|
+|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
+|`sourcePath`|String|Pfad \(im AEM Repository\) der DITA-Map-Datei, für die die Grundlinien-Informationen abgerufen werden sollen.|
 
-**Rückgabe**: Eine Liste von `HashMap` Objekte. Jeder `HashMap` -Objekt stellt eine Grundlinie dar und enthält den Namen und Titel der Grundlinie.
+**Gibt** zurück:
+Eine Liste von `HashMap` -Objekten. Jedes `HashMap` -Objekt stellt eine Grundlinie dar und enthält den Namen und den Titel der Grundlinie.
 
-**Ausnahme**: Threads ``javax.jcr.RepositoryException``.
+**Exception**:
+Gibt ``javax.jcr.RepositoryException`` aus.
 
 ## Liste bedingter Vorgaben abrufen
 
@@ -119,15 +141,21 @@ public static List<HashMap<String,String>> getConditionalPresetList (
                   throws javax.jcr.RepositoryException
 ```
 
-**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.| |`sourcePath`|Zeichenfolge|Pfad \(im AEM Repository\) der DITA-Map-Datei, für die die bedingten Vorgabeninformationen abgerufen werden sollen.|
+**Parameter**:
+|Name|Typ|Beschreibung|
+|—|—|—|
+|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
+|`sourcePath`|String|Pfad \(im AEM Repository\) der DITA-Map-Datei, für die die bedingten Vorgabeninformationen abgerufen werden sollen.|
 
-**Rückgabe**: Eine Liste von `HashMap` Objekte. Jeder `HashMap` -Objekt stellt eine bedingte Vorgabe dar und enthält den Namen und den Titel der bedingten Vorgabe.
+**Gibt** zurück:
+Eine Liste von `HashMap` -Objekten. Jedes `HashMap` -Objekt stellt eine bedingte Vorgabe dar und enthält den Namen und den Titel der bedingten Vorgabe.
 
-**Ausnahme**: Threads ``javax.jcr.RepositoryException``.
+**Exception**:
+Gibt ``javax.jcr.RepositoryException`` aus.
 
 ## Abrufen der DITAVAL-Dateiinformationen für eine bedingte Vorgabe
 
-Die ``getDitavalFromConditionalPreset`` -Methode ruft den Pfad der DITAVAL-Datei ab, der einer bedingten Vorgabe für eine bestimmte DITA-Zuordnung entspricht.
+Die Methode ``getDitavalFromConditionalPreset`` ruft den Pfad der DITAVAL-Datei ab, der einer bedingten Vorgabe für eine bestimmte DITA-Zuordnung entspricht.
 
 **Syntax**:
 
@@ -138,9 +166,15 @@ public static String getDitavalFromConditionalPreset
     String cpName) throws RepositoryException
 ```
 
-**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.| |`sourcePath`|String|Pfad \(im AEM Repository\) der DITA-Map-Datei, für die die DITAVAL-Datei abgerufen werden soll.| |`cpName`|Zeichenfolge|Name der bedingten Vorgabe in der DITA-Zuordnung, für die die DITAVAL-Datei abgerufen werden soll.|
+**Parameter**:
+|Name|Typ|Beschreibung|
+|—|—|—|
+|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
+|`sourcePath`|String|Path \(im AEM Repository\) der DITA-Map-Datei, für die die DITAVAL-Datei abgerufen werden soll.|
+|`cpName`|String|Name der bedingten Vorgabe in der DITA-Zuordnung, für die die DITAVAL-Datei abgerufen werden soll.|
 
-**Rückgabe**: Der Pfad der DITAVAL-Datei, die der in der DITA-Map-Datei definierten bedingten Vorgabe entspricht.
+**Gibt** zurück:
+Der Pfad der DITAVAL-Datei, die der in der DITA-Map-Datei definierten bedingten Vorgabe entspricht.
 
 ## Abrufen aller Abhängigkeiten für einen Knoten
 
@@ -154,6 +188,10 @@ public static List
 (Node rootNode) throws GuidesApiException
 ```
 
-**Parameter**: |Name|Typ|Beschreibung| |—|—|—| |`rootNode`|javax.jcr.Node|Der Stammknoten, für den alle Abhängigkeiten abgerufen werden sollen.|
+**Parameter**:
+|Name|Typ|Beschreibung|
+|—|—|—|
+|`rootNode`|javax.jcr.Node|Der Stammknoten, für den alle Abhängigkeiten abgerufen werden sollen.|
 
-**Rückgabe**: Eine Knotenliste, die alle Abhängigkeiten des Stammknotens enthält.
+**Gibt** zurück:
+Eine Knotenliste, die alle Abhängigkeiten des Stammknotens enthält.

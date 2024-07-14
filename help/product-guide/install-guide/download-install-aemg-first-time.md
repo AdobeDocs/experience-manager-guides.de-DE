@@ -1,6 +1,6 @@
 ---
-title: erstmaliges Herunterladen und Installieren AEM Handbücher
-description: Erfahren Sie, wie Sie zum ersten Mal AEM Handbücher herunterladen und installieren
+title: AEM Guides zum ersten Mal herunterladen und installieren
+description: Erfahren Sie, wie Sie AEM Guides zum ersten Mal herunterladen und installieren
 exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# erstmaliges Herunterladen und Installieren AEM Handbücher {#id213BCL00KEV}
+# AEM Guides zum ersten Mal herunterladen und installieren {#id213BCL00KEV}
 
-Führen Sie die folgenden Schritte aus, um AEM Guides zum ersten Mal auf einen Computer herunterzuladen und zu installieren:
+Führen Sie die folgenden Schritte aus, um AEM Guides zum ersten Mal auf einem Computer herunterzuladen und zu installieren:
 
 >[!IMPORTANT]
 >
 > Wenn Sie Livefyre zusammen mit AEM Guides verwenden möchten, stellen Sie sicher, dass Sie die Livefyre-Versionen vor Version 3.0 installieren, bevor Sie AEM Guides installieren. Wenn Sie Livefyre Version 3.0 oder höher verwenden, gibt es keine solche Einschränkung.
 
-1. Laden Sie AEM Handbücher vom Adobe Software Distribution-Portal herunter.
+1. Laden Sie AEM Guides vom Adobe Software Distribution-Portal herunter.
 
 1. Melden Sie sich bei Ihrer AEM-Instanz an und navigieren Sie zum CRX Package Manager. Die Standard-URL für den Zugriff auf den Paketmanager lautet:
 
@@ -32,23 +32,23 @@ Führen Sie die folgenden Schritte aus, um AEM Guides zum ersten Mal auf einen C
 
    ![](assets/package-manager.png){width="650" align="left"}
 
-1. Um das Package AEM Guides hochzuladen, klicken Sie auf **Paket hochladen**.
+1. Um das AEM Guides-Paket hochzuladen, klicken Sie auf **Paket hochladen**.
 
-1. Navigieren Sie im Dialogfeld Paket hochladen zur Datei mit den AEM Guides, die Sie in Schritt 1 heruntergeladen haben, und klicken Sie auf **OK**.
+1. Navigieren Sie im Dialogfeld Paket hochladen zur AEM Guides-Datei, die Sie in Schritt 1 heruntergeladen haben, und klicken Sie auf **OK**.
 
    Das Paket wird in Ihre AEM-Instanz hochgeladen.
 
-1. Um das Paket zu installieren, klicken Sie auf **Installieren**.
+1. Klicken Sie zum Installieren des Pakets auf **Installieren**.
 
    ![](assets/install-package.png){width="650" align="left"}
 
-1. Klicken Sie im Dialogfeld Paket installieren auf **Installieren**.
+1. Klicken Sie im Dialogfeld &quot;Paket installieren&quot;auf **Installieren**.
 
-1. Um mit AEM Guides zu beginnen, klicken Sie auf die Schaltfläche &quot;Startseite&quot; ![](assets/home-button.png) in der linken oberen Ecke des CRX Package Manager.
+1. Um mit AEM Guides zu beginnen, klicken Sie links oben im CRX Package Manager auf die Schaltfläche &quot;Startseite&quot;![](assets/home-button.png) .
 
 
 >[!NOTE]
 >
 > Führen Sie den Installationsvorgang für alle Instanzen von AEM-Servern in Ihrer Einrichtung durch.
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)
