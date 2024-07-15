@@ -28,15 +28,15 @@ com/adobe/fmdita/replication/complete
 
 **Parameter**:
 
-|Name|Typ|Beschreibung|
-|---|---|---|
-|`path`|String|Der Pfad der Datei, die dieses Ereignis ausgelöst hat. <br> Zum Beispiel `/content/output/sites/ditamap1-ditamap`. <br> Dies ist eine Liste von Pfaden, die als JSON-Array serialisiert wurden.|
-|`messageType`|String|Der Typ einer Nachricht. <br>Mögliche Option : `REPLICATION`|
-|`action`|String|Dies ist die ausgeführte Aktion. <br>Mögliche Option : `BulkReplicate`|
-|`user`|String|Der Benutzer, der den Vorgang gestartet hat.|
-|`result`|String|Das Ergebnis der Massenaktivierung. Es handelt sich um ein serialisiertes JSON-Objekt: <br>`{"success":boolean,"code":integer,"message":"" }`|
-|`agentId`|String|Die in der Replikation verwendete agentId. Zum Beispiel: `"publish"`.|
-|`importMode`|String|Importmodus, der in der Aktivierung verwendet wird. Die möglichen Optionen sind: <br>`REPLACE, MERGE, UPDATE`|.
+|Name|Type|Description|
+|----|----|-----------|
+|`path`|String|The path of the file that triggered this event. <br> For example, `/content/output/sites/ditamap1-ditamap`. <br> It is a list of paths serialized as a JSON array.|
+|`messageType`|String|The type of a message. <br>Possible option : `REPLICATION`|
+|`action`|String|This is the action performed. <br>Possible option : `BulkReplicate`|
+|`user`|String|The user who started the operation.|
+|`result`|String|The result of the Bulk Activation. It is a serialized JSON Object: <br>`{"success":boolean,"code":integer,"message":"" }`|
+|`agentId`|String|The agentId used in the replication. For example, `"publish"`.|
+|`importMode`|String|Import mode used in Activation. The possible options are: <br>`REPLACE, MERGE, UPDATE`.|
 
 
 **Beispiel-Ereignis-Listener**:
