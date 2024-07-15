@@ -27,8 +27,9 @@ com/adobe/fmdita/replication/complete
 ```
 
 **Parameter**:
+
 |Name|Typ|Beschreibung|
-|—|—|—|
+|---|---|---|
 |`path`|String|Der Pfad der Datei, die dieses Ereignis ausgelöst hat. <br> Zum Beispiel `/content/output/sites/ditamap1-ditamap`. <br> Dies ist eine Liste von Pfaden, die als JSON-Array serialisiert wurden.|
 |`messageType`|String|Der Typ einer Nachricht. <br>Mögliche Option : `REPLICATION`|
 |`action`|String|Dies ist die ausgeführte Aktion. <br>Mögliche Option : `BulkReplicate`|
