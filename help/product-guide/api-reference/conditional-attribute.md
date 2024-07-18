@@ -5,10 +5,10 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,12 +23,13 @@ Eine POST -Methode, die einem angegebenen Ordnerprofil bedingte Attribute hinzuf
 **Anforderungs-URL**:\
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/folderprofiles
 
-**Parameter**:\
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|`:operation`|String|Yes|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist ``ADDATTRIBUTEPROFILES``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden.|
-|`profilename`|String|Ja|Anzeigename des Profils auf Ordnerebene, dem die bedingten Attribute hinzugefügt werden müssen.|
-|`conditionalprofiles`|JSON-Array|Ja|Ein JSON-Array, das aus dem bedingten Attributnamen und den Werten besteht. Das folgende Beispielcodefragment zeigt das JSON-Array mit zwei Attributen - `platform` und `product` mit mehreren Werten, die ihnen zugewiesen sind.|
+**Parameter**:
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| `:operation` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist ``ADDATTRIBUTEPROFILES``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| `profilename` | Zeichenfolge | Ja | Anzeigename des Profils auf Ordnerebene, dem die bedingten Attribute hinzugefügt werden müssen. |
+| `conditionalprofiles` | JSON-Array | Ja | Ein JSON-Array, das aus dem bedingten Attributnamen und den Werten besteht. Das folgende Beispielcodefragment zeigt das JSON-Array mit zwei Attributen - `platform` und `product` mit mehreren Werten, die ihnen zugewiesen sind. |
 
 ```JSON
 [  {    name: "platform",    

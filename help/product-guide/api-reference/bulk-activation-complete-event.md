@@ -5,10 +5,10 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -28,15 +28,15 @@ com/adobe/fmdita/replication/complete
 
 **Parameter**:
 
-|Name|Type|Description|
+| Name | Typ | Beschreibung |
 |----|----|-----------|
-|`path`|String|The path of the file that triggered this event. <br> For example, `/content/output/sites/ditamap1-ditamap`. <br> It is a list of paths serialized as a JSON array.|
-|`messageType`|String|The type of a message. <br>Possible option : `REPLICATION`|
-|`action`|String|This is the action performed. <br>Possible option : `BulkReplicate`|
-|`user`|String|The user who started the operation.|
-|`result`|String|The result of the Bulk Activation. It is a serialized JSON Object: <br>`{"success":boolean,"code":integer,"message":"" }`|
-|`agentId`|String|The agentId used in the replication. For example, `"publish"`.|
-|`importMode`|String|Import mode used in Activation. The possible options are: <br>`REPLACE, MERGE, UPDATE`.|
+| `path` | Zeichenfolge | Der Pfad der Datei, die dieses Ereignis ausgelöst hat. <br> Zum Beispiel `/content/output/sites/ditamap1-ditamap`. <br> Dies ist eine Liste von Pfaden, die als JSON-Array serialisiert wurden. |
+| `messageType` | Zeichenfolge | Der Typ einer Nachricht. <br>Mögliche Option : `REPLICATION` |
+| `action` | Zeichenfolge | Dies ist die ausgeführte Aktion. <br>Mögliche Option : `BulkReplicate` |
+| `user` | Zeichenfolge | Der Benutzer, der den Vorgang gestartet hat. |
+| `result` | Zeichenfolge | Das Ergebnis der Massenaktivierung. Dies ist ein serialisiertes JSON-Objekt: <br>`{"success":boolean,"code":integer,"message":"" }` |
+| `agentId` | Zeichenfolge | Die in der Replikation verwendete agentId. Zum Beispiel: `"publish"`. |
+| `importMode` | Zeichenfolge | In Activation verwendeter Importmodus. Die möglichen Optionen sind: <br>`REPLACE, MERGE, UPDATE`. |
 
 
 **Beispiel-Ereignis-Listener**:

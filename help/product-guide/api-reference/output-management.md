@@ -5,10 +5,10 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 3279640b32041cafe262457c62b8bd34e55f9ccf
 workflow-type: tm+mt
 source-wordcount: '1175'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -23,11 +23,12 @@ Eine POST -Methode, die alle für eine DITA-Zuordnung konfigurierten Ausgabevorg
 **Anforderungs-URL**:
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
-**Parameter**:\
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|`:operation`|String|Yes|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist `getalloutputs`.<br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden.|
-|`sourcePath`|String|Ja|Absoluter Pfad der DITA-Map-Datei.|
+**Parameter**:
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| `:operation` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist `getalloutputs`.<br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| `sourcePath` | Zeichenfolge | Ja | Absoluter Pfad der DITA-Map-Datei. |
 
 **Antwortwerte**:
 Gibt ein Array von JSON Output Preset -Objekten zurück, von denen jedes die folgenden Elemente enthält:
@@ -59,17 +60,19 @@ Eine POST -Methode, die eine neue Ausgabevorgabe für eine DITA-Zuordnung erstel
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameter**:
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|`:operation`|String|Yes|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist ``createoutput``.<br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden.|
-|`sourcePath`|String|Ja|Absoluter Pfad der DITA-Map-Datei.|
-|`outputTitle`|String|Ja|Ein beschreibender Name für die Ausgabevorgabeneinstellungen. Damit wird der Wert für die Eigenschaft &quot;Setting Name&quot;für die Ausgabevorgabe definiert.<br> **Hinweis:** Wenn eine neue Ausgabevorgabe erstellt wird, gibt das Backend-System einen eindeutigen Namen für die Ausgabevorgabe aus dem angegebenen Titel aus.|
-|`outputType`|String|Ja|Ausgabetyp, der mithilfe dieser Vorgabe generiert wurde, z. B. AEM Site, PDF, EPUB oder andere. Die verfügbaren Optionen sind:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br> -   BENUTZERDEFINIERT|
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| `:operation` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist ``createoutput``.<br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| `sourcePath` | Zeichenfolge | Ja | Absoluter Pfad der DITA-Map-Datei. |
+| `outputTitle` | Zeichenfolge | Ja | Ein beschreibender Name für die Ausgabevorgabeneinstellungen. Damit wird der Wert für die Eigenschaft &quot;Setting Name&quot;für die Ausgabevorgabe definiert.<br> **Hinweis:** Wenn eine neue Ausgabevorgabe erstellt wird, gibt das Backend-System einen eindeutigen Namen für die Ausgabevorgabe aus dem angegebenen Titel aus. |
+| `outputType` | Zeichenfolge | Ja | Ausgabetyp, der mit dieser Vorgabe generiert wurde, z. B. AEM Site, PDF, EPUB oder andere. Die verfügbaren Optionen sind:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br> -   BENUTZERDEFINIERT |
 
 **Antwortwerte**:
-|Element|Beschreibung|
-|—|—|
-|`outputName`|Ein eindeutiger Name für die neu erstellte Ausgabevorgabe. Dieser Name wird aus dem Wert des Parameters `outputTitle` abgeleitet.|
+
+| Element | Beschreibung |
+|-------|-----------|
+| `outputName` | Ein eindeutiger Name für die neu erstellte Ausgabevorgabe. Dieser Name wird aus dem Wert des Parameters `outputTitle` abgeleitet. |
 
 ## Ausgabevorgabe speichern
 
@@ -79,11 +82,12 @@ Eine POST-Methode, die Änderungen speichert, die an einer Ausgabevorgabe vorgen
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameter**:
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|`:operation`|String|Yes|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist ``saveoutput``.<br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden.|
-|`sourcePath`|String|Ja|Absoluter Pfad der DITA-Map-Datei.|
-|`outputObj`|String|Ja|Ein JSON-Objekt, das Eigenschaften der zu aktualisierenden Ausgabevorgabe enthält. Die Eigenschaft `outputObj.outputName` enthält den Namen der zu aktualisierenden Ausgabevorgabe. Informationen zum Format des JSON-Objekts finden Sie in der Tabelle **Antwortwerte** in [Abrufen aller Ausgabevorgaben für eine DITA-Zuordnung](#get-output-presets-dita-map).|
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| `:operation` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist ``saveoutput``.<br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| `sourcePath` | Zeichenfolge | Ja | Absoluter Pfad der DITA-Map-Datei. |
+| `outputObj` | Zeichenfolge | Ja | Ein JSON-Objekt, das Eigenschaften der Ausgabevorgabe enthält, die aktualisiert wird. Die Eigenschaft `outputObj.outputName` enthält den Namen der zu aktualisierenden Ausgabevorgabe. Informationen zum Format des JSON-Objekts finden Sie in der Tabelle **Antwortwerte** in [Abrufen aller Ausgabevorgaben für eine DITA-Zuordnung](#get-output-presets-dita-map). |
 
 **Antwortwerte**:
 Gibt eine HTTP-Antwort 200 \(Erfolgreich\) zurück.
@@ -96,28 +100,30 @@ Eine POST -Methode, die eine vorhandene Ausgabevorgabe abruft.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameter**:
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|`:operation`|String|Yes|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist `getoutput`. <br>**Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden.|
-|`sourcePath`|String|Ja|Absoluter Pfad der DITA-Map-Datei.|
-|`outputName`|String|Ja|Name der Ausgabevorgabe, für die die Details abgerufen werden müssen.|
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| `:operation` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist `getoutput`. <br>**Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| `sourcePath` | Zeichenfolge | Ja | Absoluter Pfad der DITA-Map-Datei. |
+| `outputName` | Zeichenfolge | Ja | Name der Ausgabevorgabe, für die die Details abgerufen werden müssen. |
 
 **Antwortwerte**:
-|Element|Beschreibung|
-|—|—|
-|`outputName`|Name der Ausgabevorgabe. Ausgabenamen sind im Umfang der DITA-Zuordnung, in der sie definiert sind, eindeutig.|
-|`outputType`|Ausgabetyp, der mit dieser Vorgabe generiert wurde, z. B. AEM Site, PDF, EPUB oder andere. Die verfügbaren Optionen sind:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br> -   BENUTZERDEFINIERTER <br>|
-|`outputTitle`|Ein beschreibender Name für die Ausgabevorgabeneinstellungen. Damit wird der Wert für die Eigenschaft &quot;Setting Name&quot;für die Ausgabevorgabe definiert.|
-|`ditaValPathList`|Array von DITAVAL-Dateipfaden, die zum Generieren der gewünschten Ausgabe verwendet werden sollen.|
-|`targetPath`|Pfad, in dem die Ausgabe veröffentlicht oder gespeichert wird.|
-|`siteName`|\(Für AEM Site-Ausgabe\) Name der AEM Site.|
-|`siteTitle`|\(Für AEM Site-Ausgabe\) Titel der AEM Site.|
-|`templatePath`|\(Für AEM Site-Ausgabe\) Pfad des Vorlagenknotens, der zum Generieren der gewünschten Ausgabe verwendet werden soll.|
-|`searchScope`|Geben Sie den Perimeter für den Suchvorgang an. Der Wert für diesen Parameter muss auf `local` gesetzt werden.|
-|`generateTOC`|\(Für AEM Site-Ausgabe\) Geben Sie an, ob ein Inhaltsverzeichnis generiert wird \(true\) oder nicht \(false\).|
-|`generateBreadcrumbs`|\(Für AEM Site-Ausgabe\) Geben Sie an, ob die Breadcrumbs generiert werden \(true\) oder nicht \(false\).|
-|`overwriteFiles`|\(Für AEM Site-Ausgabe\) Geben Sie an, ob Dateien am Ziel überschrieben werden \(true\) oder nicht \(false\).|
-|`pdfGenerator`|Geben Sie die zu verwendende PDF-Generierungs-Engine an. Die möglichen Werte sind:<br>-   DITAOT <br>-   FMPS|
+
+| Element | Beschreibung |
+|-------|-----------|
+| `outputName` | Name der Ausgabevorgabe. Ausgabenamen sind im Umfang der DITA-Zuordnung, in der sie definiert sind, eindeutig. |
+| `outputType` | Ausgabetyp, der mit dieser Vorgabe generiert wurde, z. B. AEM Site, PDF, EPUB oder andere. Die verfügbaren Optionen sind:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br> -   BENUTZERDEFINIERTER <br> |
+| `outputTitle` | Ein beschreibender Name für die Ausgabevorgabeneinstellungen. Damit wird der Wert für die Eigenschaft &quot;Setting Name&quot;für die Ausgabevorgabe definiert. |
+| `ditaValPathList` | Array von DITAVAL-Dateipfaden, die zum Generieren der gewünschten Ausgabe verwendet werden sollen. |
+| `targetPath` | Pfad, in dem die Ausgabe veröffentlicht oder gespeichert wird. |
+| `siteName` | \(Für AEM Site-Ausgabe\) Name der AEM Site. |
+| `siteTitle` | \(Für AEM Site-Ausgabe\) Titel der AEM Site. |
+| `templatePath` | \(Für AEM Site-Ausgabe\) Pfad des Vorlagenknotens, der zum Generieren der gewünschten Ausgabe verwendet werden soll. |
+| `searchScope` | Geben Sie den Umfang für den Suchvorgang an. Der Wert für diesen Parameter muss auf `local` gesetzt werden. |
+| `generateTOC` | \(Für AEM Site-Ausgabe\) Geben Sie an, ob ein Inhaltsverzeichnis generiert wird \(true\) oder nicht \(false\). |
+| `generateBreadcrumbs` | \(Für AEM Site-Ausgabe\) Geben Sie an, ob die Breadcrumbs generiert werden \(true\) oder nicht \(false\). |
+| `overwriteFiles` | \(Für AEM Site-Ausgabe\) Geben Sie an, ob Dateien am Ziel überschrieben werden \(true\) oder nicht \(false\). |
+| `pdfGenerator` | Geben Sie die zu verwendende PDF-Generierungs-Engine an. Die möglichen Werte sind:<br>-   DITAOT <br>-   FMPS |
 
 >[!NOTE]
 >
@@ -131,11 +137,12 @@ Eine GET-Methode, die die Ausgabe mithilfe einer oder mehrerer Ausgabevorgaben g
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameter**:
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|`operation`|String|Yes|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist `GENERATEOUTPUT`.<br> **Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden.|
-|`source`|String|Ja|Absoluter Pfad der DITA-Map-Datei.|
-|`outputName`|String|Ja|Name der Ausgabevorgabe\(n\), die zum Generieren der Ausgabe verwendet werden soll. Mehrere Ausgabevorgaben können mit einem senkrechten Strich (&quot;\|&quot;\) angegeben werden, z. B. `aemsite|pdfoutput`.|
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| `operation` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist `GENERATEOUTPUT`.<br> **Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden. |
+| `source` | Zeichenfolge | Ja | Absoluter Pfad der DITA-Map-Datei. |
+| `outputName` | Zeichenfolge | Ja | Name der Ausgabevorgabe\(n\), die zum Generieren der Ausgabe verwendet werden soll. Es können mehrere Ausgabevorgaben mit einem senkrechten Strich (&quot;\|&quot;\) angegeben werden, z. B. &quot;`aemsite|pdfoutput`&quot;. |
 
 **Antwortwerte**:
 Gibt eine HTTP-Antwort 200 \(Erfolgreich\) zurück.
@@ -148,10 +155,11 @@ Eine GET-Methode, die mithilfe einer oder mehrerer Ausgabevorgaben eine inkremen
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameter**:
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|`operation`|String|Yes|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist `INCREMENTALPUBLISH`. <br>**Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden.|
-|`contentPath`|JSON|Ja|Absoluter Pfad der DITA-Map-Datei und Themendateien zusammen mit dem Namen der Ausgabevorgaben. Verwenden Sie das folgende Beispiel als Baustein:|
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| `operation` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist `INCREMENTALPUBLISH`. <br>**Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden. |
+| `contentPath` | JSON | Ja | Absoluter Pfad der DITA-Map-Datei und Themendateien zusammen mit dem Namen der Ausgabevorgaben. Verwenden Sie das folgende Beispiel als Baustein: |
 
 ```XML
 {
@@ -192,11 +200,12 @@ Eine POST-Methode zum Löschen einer Ausgabevorgabe.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameter**:
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|`:operation`|String|Yes|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist `deleteoutput`.<br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden.|
-|`sourcePath`|String|Ja|Absoluter Pfad der DITA-Map-Datei.|
-|`outputName`|String|Ja|Name der zu löschenden Ausgabevorgabe.|
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| `:operation` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist `deleteoutput`.<br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| `sourcePath` | Zeichenfolge | Ja | Absoluter Pfad der DITA-Map-Datei. |
+| `outputName` | Zeichenfolge | Ja | Name der zu löschenden Ausgabevorgabe. |
 
 **Antwortwerte**:
 Gibt eine HTTP-Antwort 200 \(Erfolgreich\) zurück.

@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: bda1af0da134fce53b4a4118278fa1ef2fe34c69
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -24,13 +24,14 @@ Eine GET, die Word-Dokumente in DITA-Format konvertiert.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **Parameter**:
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|``operation``|String|Yes|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist ``word2dita``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
-|`inputFile`|String|Ja|Absoluter Pfad der Word-Quelldateien im AEM Repository.|
-|`destPath`|String|Ja|Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden.|
-|`createRev`|Boolesch|Ja|Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält.|
-|`style2tagMap`|String|Ja|Absoluter Pfad der Stilzuordnungsdatei, die für die Konvertierung verwendet wird.|
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| ``operation`` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist ``word2dita``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| `inputFile` | Zeichenfolge | Ja | Absoluter Pfad der Word-Quelldateien in AEM Repository. |
+| `destPath` | Zeichenfolge | Ja | Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden. |
+| `createRev` | Boolesch | Ja | Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält. |
+| `style2tagMap` | Zeichenfolge | Ja | Absoluter Pfad der Stilzuordnungsdatei, die für die Konvertierung verwendet wird. |
 
 **Antwortwerte**:
 Gibt eine HTTP-Antwort 200 \(Erfolgreich\) zurück.
