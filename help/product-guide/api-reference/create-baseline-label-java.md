@@ -5,10 +5,10 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 1860525120edc4df33b898841b9073311d3031c5
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -54,14 +54,15 @@ throws GuidesApiException
 ```
 
 **Parameter**:
-|Name|Typ|Beschreibung|
-|—|—|—|
-|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung. Die Benutzersitzung muss sowohl Lese- als auch Schreibberechtigungen für die DITA-Zuordnung und Leseberechtigungen für alle in der Grundlinie enthaltenen Referenzdateien haben.|
-|`sourcePath`|String|Absoluter Pfad der DITA-Map-Datei im AEM Repository.|
-|`baselineTitle`|String|Ein eindeutiger Titel für die Grundlinie.|
-|`label`|String|Wählen Sie die Version eines Themas aus, auf das die angegebene Bezeichnung angewendet wird.|
-|`directContext`|LinkedHashMap&lt;String, Object\>|Die Konfigurationen, anhand derer direkt auf das Thema \(content\) verwiesen wird, werden anhand der Reihenfolge, die in der Zuordnung erwähnt wird, eine Version aufgelöst. <br> Wenn nach der Iteration auf allen Schlüsseln der Zuordnung keine Version gefunden wird, schlägt der Prozess zur Erstellung der Grundlinie fehl. <br> Wenn die HashMap leer ist \(leere und nicht Null-Zuordnung als Standard senden\), wird sie standardmäßig wie folgt aufgefüllt: <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Wenn Sie möchten, dass die Grundlinien-Erstellung nur die Version einer bestimmten Beschriftung auswählt und fehlschlägt, wenn keine solche Version vorhanden ist, setzen Sie den Schlüssel `label` und die Beschriftung, auf der Sie eine Grundlinie erstellen möchten.|
-|`indirectContext`|LinkedHashMap&lt;String, Object\>|Die Konfigurationen, anhand derer indirekt auf das Thema \(referenzierter Inhalt\) verwiesen wird, werden anhand der Reihenfolge, die in der Zuordnung erwähnt wird, eine Version aufgelöst. <br> Wenn nach der Iteration auf allen Schlüsseln der Zuordnung keine Version gefunden wird, schlägt der Prozess zur Erstellung der Grundlinie fehl. <br> Wenn die HashMap leer ist \(leere und nicht Null-Zuordnung als Standard senden\), wird sie standardmäßig wie folgt aufgefüllt: <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Wenn Sie möchten, dass es die neueste Version ist, anstatt eine Version automatisch zu übernehmen, ersetzen Sie: <br>`indirectContext.put("pickAutomatically", null);` <br> _with:_ <br>`indirectContext.put("latest", true)`|
+
+| Name | Typ | Beschreibung |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Eine gültige JCR-Sitzung. Die Benutzersitzung muss sowohl Lese- als auch Schreibberechtigungen für die DITA-Zuordnung und Leseberechtigungen für alle in der Grundlinie enthaltenen Referenzdateien haben. |
+| `sourcePath` | Zeichenfolge | Absoluter Pfad der DITA-Map-Datei im AEM Repository. |
+| `baselineTitle` | Zeichenfolge | Ein eindeutiger Titel für die Grundlinie. |
+| `label` | Zeichenfolge | Wählen Sie die Version eines Themas aus, auf das die angegebene Bezeichnung angewendet wird. |
+| `directContext` | LinkedHashMap&lt;String, Object\> | Die Konfigurationen, auf deren Grundlage das direkt referenzierte Thema \(Inhalt\) ausgewählt wird, die Reihenfolge, die in der Zuordnung erwähnt wird, wird befolgt, um eine Version aufzulösen. <br> Wenn nach der Iteration auf allen Schlüsseln der Zuordnung keine Version gefunden wird, schlägt der Prozess zur Erstellung der Grundlinie fehl. <br> Wenn die HashMap leer ist \(leere und nicht Null-Zuordnung als Standard senden\), wird sie standardmäßig wie folgt aufgefüllt: <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Wenn Sie möchten, dass die Grundlinien-Erstellung nur die Version einer bestimmten Beschriftung auswählt und fehlschlägt, wenn keine solche Version vorhanden ist, setzen Sie den Schlüssel `label` und die Beschriftung, auf der Sie eine Grundlinie erstellen möchten. |
+| `indirectContext` | LinkedHashMap&lt;String, Object\> | Die Konfigurationen, anhand derer indirekt auf das Thema \(referenzierter Inhalt\) verwiesen wird, werden anhand der Reihenfolge, die in der Zuordnung erwähnt wird, zur Auflösung einer Version verwendet. <br> Wenn nach der Iteration auf allen Schlüsseln der Zuordnung keine Version gefunden wird, schlägt der Prozess zur Erstellung der Grundlinie fehl. <br> Wenn die HashMap leer ist \(leere und nicht Null-Zuordnung als Standard senden\), wird sie standardmäßig wie folgt aufgefüllt: <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Wenn Sie möchten, dass es die neueste Version ist, anstatt eine Version automatisch zu übernehmen, ersetzen Sie: <br>`indirectContext.put("pickAutomatically", null);` <br> _with:_ <br>`indirectContext.put("latest", true)` |
 
 **Gibt** zurück:
 Der Name der Grundlinie, der der Knotenname der Grundlinie im JCR-Repository ist. Der Titel der neu erstellten Grundlinie wird dem Benutzer auf der Grundlagenseite für die DITA-Zuordnung angezeigt.
@@ -80,12 +81,13 @@ Date versionDate) throws GuidesApiException
 ```
 
 **Parameter**:
-|Name|Typ|Beschreibung|
-|—|—|—|
-|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung. Die Benutzersitzung muss sowohl Lese- als auch Schreibberechtigungen für die DITA-Zuordnung und Leseberechtigungen für alle in der Grundlinie enthaltenen Referenzdateien haben.|
-|``sourcePath``|String|Absoluter Pfad der DITA-Map-Datei im AEM Repository.|
-|`baselineTitle`|String|Ein eindeutiger Titel für die Grundlinie.|
-|`versionDate`|Datum|Die Grundlinie wird mit den Versionen der Themen erstellt\ (direkt referenziert aus der DITA-Zuordnung\) wie zu diesem Datum. Geben Sie das Datum im Format `d-MM-yyyy H:mm` an.|
+
+| Name | Typ | Beschreibung |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Eine gültige JCR-Sitzung. Die Benutzersitzung muss sowohl Lese- als auch Schreibberechtigungen für die DITA-Zuordnung und Leseberechtigungen für alle in der Grundlinie enthaltenen Referenzdateien haben. |
+| ``sourcePath`` | Zeichenfolge | Absoluter Pfad der DITA-Map-Datei im AEM Repository. |
+| `baselineTitle` | Zeichenfolge | Ein eindeutiger Titel für die Grundlinie. |
+| `versionDate` | Datum | Die Grundlinie wird mit den Versionen der Themen\ (direkt referenziert aus der DITA-Zuordnung\) erstellt, wie zu diesem Datum. Geben Sie das Datum im Format `d-MM-yyyy H:mm` an. |
 
 **Gibt** zurück:
 Der Name der Grundlinie, der der Knotenname der Grundlinie im JCR-Repository ist. Der Titel der neu erstellten Grundlinie wird dem Benutzer auf der Grundlagenseite für die DITA-Zuordnung angezeigt.
@@ -108,12 +110,13 @@ public static void applyLabel(Session session,
 ```
 
 **Parameter**:
-|Name|Typ|Beschreibung|
-|—|—|—|
-|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
-|`sourcePath`|String|Absoluter Pfad der DITA-Map-Datei im AEM Repository.|
-|``baselineName``|String|Name des Grundlinien-Knotens, auf den die Beschriftung angewendet werden soll. Um den Namen des Grundlinien-Knotens abzurufen, können Sie die Methode [\#id185NFF0085Z](#id185NFF0085Z) verwenden oder den Grundlinien-Knoten der DITA-Zuordnung in CRXDE überprüfen.<br> **Hinweis:** Die Beschriftung wird auf die Version von Dateien angewendet, die direkt von der Map-Datei in der Grundlinie referenziert werden.|
-|`label`|String|Eine Beschriftung, die auf Dateien in der Grundlinie angewendet wird. Achten Sie darauf, dass die Beschriftung folgende Zeichen nicht enthält: &amp;sol; &amp;comma; &amp;colon; &amp;comma; &amp;lbrack; &amp;comma; &amp; &amp;rbrack; &amp;comma; &amp;comma; &amp;ast; <br> Wenn Sie mehrere Beschriftungen festlegen möchten, trennen Sie sie mit einem Komma; 1, Beschriftung2.|
+
+| Name | Typ | Beschreibung |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Eine gültige JCR-Sitzung. |
+| `sourcePath` | Zeichenfolge | Absoluter Pfad der DITA-Map-Datei im AEM Repository. |
+| ``baselineName`` | Zeichenfolge | Name des Grundlinien-Knotens, auf den die Beschriftung angewendet werden soll. Um den Namen des Grundlinien-Knotens abzurufen, können Sie die Methode [\#id185NFF0085Z](#id185NFF0085Z) verwenden oder den Grundlinien-Knoten der DITA-Zuordnung in CRXDE überprüfen.<br> **Hinweis:** Die Beschriftung wird auf die Version von Dateien angewendet, die direkt von der Map-Datei in der Grundlinie referenziert werden. |
+| `label` | Zeichenfolge | Eine Beschriftung, die auf Dateien in der Grundlinie angewendet wird. Achten Sie darauf, dass die Beschriftung folgende Zeichen nicht enthält: &amp;sol; &amp;comma; &amp;colon; &amp;comma; &amp;lbrack; &amp;comma; &amp; &amp;rbrack; &amp;comma; &amp;comma; &amp;ast; <br> Wenn Sie mehrere Beschriftungen festlegen möchten, trennen Sie sie mit einem Komma; 1, Beschriftung2. |
 
 **Exception**:
 Gibt `RepositoryException` aus.
@@ -133,12 +136,13 @@ String label) throws GuidesApiException
 ```
 
 **Parameter**:
-|Name|Typ|Beschreibung|
-|—|—|—|
-|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
-|`sourcePath`|String|Absoluter Pfad der DITA-Map-Datei im AEM Repository.|
-|`baselineName`|String|Name der Grundlinie, von der die Beschriftung gelöscht werden soll. <br> **Hinweis:** Die Beschriftung wird aus der Version der Dateien gelöscht, die direkt von der Map-Datei im Grundlinien referenziert werden.|
-|`label`|String|Eine Beschriftung, die aus Dateien in der Grundlinie gelöscht werden soll. <br> Wenn Sie mehrere Bezeichnungen löschen möchten, trennen Sie diese durch ein Komma, z. B. Label1, Label2.|
+
+| Name | Typ | Beschreibung |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Eine gültige JCR-Sitzung. |
+| `sourcePath` | Zeichenfolge | Absoluter Pfad der DITA-Map-Datei im AEM Repository. |
+| `baselineName` | Zeichenfolge | Name der Grundlinie, von der die Bezeichnung gelöscht werden soll. <br> **Hinweis:** Die Beschriftung wird aus der Version der Dateien gelöscht, die direkt von der Map-Datei im Grundlinien referenziert werden. |
+| `label` | Zeichenfolge | Eine Beschriftung, die aus Dateien in der Grundlinie gelöscht werden soll. <br> Wenn Sie mehrere Beschriftungen löschen möchten, trennen Sie sie durch ein Komma, z. B. Titel1, Titel2. |
 
 **Gibt** zurück:
 Die Zuordnung mit dem *Schlüssel-Wert-Paar* von `path:deletedlabels` für alle Dateien in der Grundlinie.
