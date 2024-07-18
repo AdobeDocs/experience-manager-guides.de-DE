@@ -3,7 +3,7 @@ title: Anpassen
 description: Anpassen der Überprüfungs-App
 role: User, Admin
 exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Um die Anpassung der Review-App zu erleichtern, haben wir einige der unten aufge
 ## Review-Comment
 
 - id: `review_comment`
-- hook: `this.updateExtraProps`:
+- hook: `this.next('updateExtraProps')`:
 
 Wie [hier](../../aem_guides_framework/basic-customisation.md) erläutert, werden alle neuen Attribute, die bei der Anpassung hinzugefügt werden, unter `this.model.extraProps` gespeichert. Mit der Methode &quot;`updateExtraProps`&quot; können Sie einem Überprüfungskommentar Attribute hinzufügen und dabei auch die Aktualisierung und Speicherung des hinzugefügten Attributs auf dem Server durchführen.
 
@@ -80,8 +80,20 @@ Angenommen, wir möchten bei jedem Versand eines neuen Kommentars oder einer neu
 Im obigen Codeausschnitt überprüfen wir, ob das gesendete Ereignis ein neuer Kommentar oder eine neue Antwort war. Im Falle eines neuen Kommentars oder einer neuen Antwort rufen wir die Methode `setUserInfo` auf
 
 ```typescript
+    const getUserInfo = (userId) => {
+      return $.ajax({
+        url: '/bin/dxml/xmleditor/userinfo',
+        data: {
+          username: userId,
+        },
+        success: (data) => {
+          return data
+        }
+      })
+    }
+
     setUserInfo(event) {
-      this.loader?.getUserInfo(event.user).subscribe(userData => {
+      getUserInfo(event.user).done(userData => {
         const extraProps = {
           "userFirstName": userData?.givenName || '',
           "userLastName": userData?.familyName || '',

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
+source-git-commit: d16d9915b826a754f834ad82f413e860c2da12d2
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 7%
 
 ---
@@ -403,7 +403,7 @@ ht-degree: 7%
    - [Java-basierte APIs für die Verwendung mit Grundlinien und Bezeichnungen](./api-reference/create-baseline-label-java.md)
    - [Java-basierte API für die Arbeit mit Ordnerprofilen](./api-reference/folder-profile-java.md)
    - [Java-basierte API zum Erstellen und Aktivieren von Paketen](./api-reference/create-activate-package-java.md)
-   - [Post-Verarbeitungs-Ereignishandler](./api-reference/post-process-event.md)
+   - [Ereignishandler für die Nachbearbeitung](./api-reference/post-process-event.md)
    - [Ereignis-Handler für Massenaktivierung](./api-reference/bulk-activation-complete-event.md)
    - [Konvertierungs-Prozess-Ereignishandler](./api-reference/conversion-complete-event.md)
 - Wissensdatenbank {#knowledge-base}
@@ -459,9 +459,12 @@ ht-degree: 7%
             - [Einfache Anpassung](./guides-ui-extensions/customisations/add-button.md)
             - [Kontextmenüs anpassen](./guides-ui-extensions/customisations/context-menus.md)
             - [Anpassen der Symbolleiste und der Symbolleiste](./guides-ui-extensions/customisations/toolbar-topbar.md)
+            - [Beispiele](./guides-ui-extensions/examples.md)
+            - [Anpassbare JSONs](./guides-ui-extensions/JSONs.md)
             - Review{#review-app-customisations}
                - [Komponenten](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Anpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+               - [Benutzerdefiniertes Dialogfeld](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Veröffentlichung {#publishing}
 
          - [Konfigurieren AEM Umgebung für natives PDF-Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -477,7 +480,7 @@ ht-degree: 7%
          - [Einrichten eines benutzerdefinierten DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
       - Workflows {#workflows}
-         - [Post-Generierungsarbeitsablauf](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         - [Arbeitsablauf nach der Erstellung](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Übersetzung {#translation}
          - [Absätze von der Übersetzung ausschließen](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - Anwendungsfälle {#use-cases}
