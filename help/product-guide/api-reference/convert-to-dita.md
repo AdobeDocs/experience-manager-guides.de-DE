@@ -5,10 +5,10 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: add4730e396fe7384a20fb2c6c04730c20a83e71
+source-git-commit: e979823b7947b561165fde92023ae9c440182e94
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -63,12 +63,13 @@ Eine GET-Methode, die InDesign-Dokumente in das DITA-Format konvertiert.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **Parameter**:
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|``operation``|String|Yes|Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist ``idml2dita``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden.|
-|`inputFile`|String|Ja|Absoluter Pfad der InDesign-Quelldateien im AEM Repository.|
-|`destPath`|String|Ja|Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden.|
-|`createRev`|Boolesch|Ja|Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält.|
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| ``operation`` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist ``idml2dita``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| `inputFile` | Zeichenfolge | Ja | Absoluter Pfad der InDesign-Quelldateien im AEM Repository. |
+| `destPath` | Zeichenfolge | Ja | Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden. |
+| `createRev` | Boolesch | Ja | Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält. |
 
 **Antwortwerte**:
 Gibt eine HTTP-Antwort 200 \(Erfolgreich\) zurück.
