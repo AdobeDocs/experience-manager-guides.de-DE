@@ -5,10 +5,10 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: d0196ffbe5a779445d627871c2940f7eea40f1ce
+source-git-commit: 65ad1dcd69e120ff96aabdeb3e31baa9669299a8
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -41,19 +41,21 @@ Eine POST-Methode, die einen Export für eine DITA-Zuordnung mit allen abhängig
 http:*//&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
 
 **Parameter**:
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|`ditamap`|String|Ja|Absoluter Pfad der DITA-Map-Datei im AEM Repository.|
-|`baseline`|String|No|Der Titel der Grundlinie, die zum Abrufen des versionierten Inhalts verwendet wird. <br> **Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden.|
-|`flatFS`|Boolean|No|\(Optional\) Wenn &quot;true&quot;festgelegt ist, wird eine flache Dateistruktur in der ZIP-Datei zurückgegeben. Wenn Ihre DITA-Zuordnung beispielsweise auf Inhalte in mehreren Ordnern verweist, werden alle referenzierten Dateien in einen einzigen Ordner abgerufen. Wenn es Dateien mit demselben Namen gibt, werden diese Dateien umbenannt, indem ein numerisches Suffix hinzugefügt wird. Alle Verweise \(in DITA-Zuordnung und Themen\) werden automatisch verarbeitet, da sie basierend auf dem neuen Speicherort der Dateien in der flachen Ordnerstruktur aktualisiert werden. Wenn der Wert auf &quot;false&quot;gesetzt ist, wird die Ordnerstruktur so beibehalten, wie es in der ZIP-Datei der Fall ist. Wenn sich die DITA-Zuordnung auf Dateien von mehreren Speicherorten bezieht, werden auch alle diese Speicherorte in der ZIP-Datei erstellt. Wenn Sie die ZIP-Datei wiederherstellen, wird die genaue Ordnerstruktur am Zielspeicherort erstellt. <br> Der Standardwert für diesen Parameter ist &quot;false&quot;.|
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| `ditamap` | Zeichenfolge | Ja | Absoluter Pfad der DITA-Map-Datei im AEM Repository. |
+| `baseline` | Zeichenfolge | Nein | Der Titel der Grundlinie, mit der der versionierte Inhalt abgerufen wird. <br> **Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden. |
+| `flatFS` | Boolesch | Nein | \(Optional\) Wenn auf &quot;true&quot;gesetzt, wird eine flache Dateistruktur in der ZIP-Datei zurückgegeben. Wenn Ihre DITA-Zuordnung beispielsweise auf Inhalte in mehreren Ordnern verweist, werden alle referenzierten Dateien in einen einzigen Ordner abgerufen. Wenn es Dateien mit demselben Namen gibt, werden diese Dateien umbenannt, indem ein numerisches Suffix hinzugefügt wird. Alle Verweise \(in DITA-Zuordnung und Themen\) werden automatisch verarbeitet, da sie basierend auf dem neuen Speicherort der Dateien in der flachen Ordnerstruktur aktualisiert werden. Wenn der Wert auf &quot;false&quot;gesetzt ist, wird die Ordnerstruktur so beibehalten, wie es in der ZIP-Datei der Fall ist. Wenn sich die DITA-Zuordnung auf Dateien von mehreren Speicherorten bezieht, werden auch alle diese Speicherorte in der ZIP-Datei erstellt. Wenn Sie die ZIP-Datei wiederherstellen, wird die genaue Ordnerstruktur am Zielspeicherort erstellt. <br> Der Standardwert für diesen Parameter ist &quot;false&quot;. |
 
 **Antwortwerte**:
-|Element|Beschreibung|
-|—|—|
-|`status`|Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: GESTARTET, FEHLGESCHLAGEN, FORTSCHRITTE, ERFOLG, FEHLGESCHLAGEN, GELÖSCHT|
-|`jobId`|Die eindeutige ID des Auftrags. Kann später zur Statusabfrage verwendet werden.|
-|errorMessage|Die Fehlermeldung des Auftrags im Fall eines Fehlers \(wenn der Status FEHLGESCHLAGEN, FISSING oder GELÖSCHT ist\).|
-|`filePath`|Der Dateipfad der ZIP. Sie ist nur vorhanden, wenn der Auftrag abgeschlossen ist und der Status SUCCEED lautet. Dies kann zum Herunterladen der ZIP-Datei verwendet werden.|
+
+| Element | Beschreibung |
+|-------|-----------|
+| `status` | Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: GESTARTET, FEHLGESCHLAGEN, FORTSCHRITTE, ERFOLG, FEHLGESCHLAGEN, GELÖSCHT |
+| `jobId` | Die eindeutige ID des Auftrags. Kann später zur Statusabfrage verwendet werden. |
+| errorMessage | Die Fehlermeldung des Auftrags im Fall eines Fehlers \(wenn der Status FEHLGESCHLAGEN, FEHLGESCHLAGEN oder GELÖSCHT ist\). |
+| `filePath` | Der Dateipfad der ZIP-Datei. Sie ist nur vorhanden, wenn der Auftrag abgeschlossen ist und der Status SUCCEED lautet. Dies kann zum Herunterladen der ZIP-Datei verwendet werden. |
 
 ## DITA-Map-Status des Abfrageexports
 
@@ -63,14 +65,16 @@ Eine GET-Methode, die den Exportstatus für eine DITA-Zuordnung mit allen zugeh�
 http:*//&lt;aem-guides-server\>: &lt;port-number\>/bin/dxml/async-export*
 
 **Parameter**
-|Name|Typ|Erforderlich|Beschreibung|
-|—|—|—|—|—|
-|`jobId`|String|Ja|Die Auftrags-ID, die abgerufen wird, wenn der Exportauftrag initiiert wird.|
+
+| Name | Typ | Erforderlich | Beschreibung |
+|----|----|--------|-----------|
+| `jobId` | Zeichenfolge | Ja | Die Auftrags-ID, die abgerufen wird, wenn der Exportauftrag initiiert wird. |
 
 **Antwortwerte**:
-|Element|Beschreibung|
-|—|—|
-|`status`|Der Status des Exportvorgangs. Die möglichen Optionen sind: GESTARTET, FEHLGESCHLAGEN, FORTSCHRITTE, ERFOLG, FEHLGESCHLAGEN, GELÖSCHT|
-|`jobId`|Die eindeutige ID des Auftrags. Kann später zur Statusabfrage verwendet werden.|
-|`errorMessage`|Die Fehlermeldung des Auftrags im Fall eines Fehlschlagens \(wenn der Status FEHLGESCHLAGEN, FEHLGESCHLAGEN oder GELÖSCHT ist\).|
-|`filePath`|Der Dateipfad der ZIP. Sie ist nur vorhanden, wenn der Auftrag abgeschlossen ist und der Status SUCCEED lautet. Dies kann zum Herunterladen der ZIP-Datei verwendet werden.|
+
+| Element | Beschreibung |
+|-------|-----------|
+| `status` | Der Status des Exportvorgangs. Die möglichen Optionen sind: GESTARTET, FEHLGESCHLAGEN, FORTSCHRITTE, ERFOLG, FEHLGESCHLAGEN, GELÖSCHT |
+| `jobId` | Die eindeutige ID des Auftrags. Kann später zur Statusabfrage verwendet werden. |
+| `errorMessage` | Die Fehlermeldung des Auftrags im Fall eines Fehlers \(wenn der Status FEHLGESCHLAGEN, FEHLGESCHLAGEN oder GELÖSCHT ist\). |
+| `filePath` | Der Dateipfad der ZIP-Datei. Sie ist nur vorhanden, wenn der Auftrag abgeschlossen ist und der Status SUCCEED lautet. Dies kann zum Herunterladen der ZIP-Datei verwendet werden. |
