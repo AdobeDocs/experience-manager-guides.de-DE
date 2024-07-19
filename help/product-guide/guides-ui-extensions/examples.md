@@ -1,9 +1,9 @@
 ---
 title: Beispiele
 description: Liste der Anpassungsbeispiele
-source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
+source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,9 @@ In dieser Datei berechnen und weisen wir die eindeutige Kommentar-ID zu, die in 
 
 6. [Annehmen mit Dialogfeld &quot;Änderung&quot;](./examples/review_app_examples/accept_with_modification_dialog.ts)
 Dies ist ein Beispiel für das Hinzufügen neuer Widgets zur App. Hier haben wir ein neues Dialogfeld mit zwei Eingabetextfeldern erstellt: `Revised Text` und `Adjudicator Comment Rationale`
+
+7. [Revision speichern](./examples/save_revision.ts)
+Dies ist ein Beispiel dafür, wie ein vorhandenes Dialogfeld aktualisiert wird. Hierfür fügen wir eine Schaltfläche zur Veröffentlichung hinzu. Wir erlauben eine Änderung des Inhalts des Dialogfelds. Siehe JSON hier: [`save_revision`](./jsons/dialogs/save_revision.json)
 
 ![Mit Änderungs-Dialogfeld akzeptieren](./imgs/accept_with_modification_dialogue.png)
 
