@@ -4,7 +4,7 @@ description: Neueste Version von Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -18,6 +18,7 @@ Diese Versionshinweise behandeln die Aktualisierungsanweisungen, neuen Funktione
 ## Aktualisierung auf die neueste Version
 
 Sie können Ihre aktuelle Version von AEM Guides einfach auf Version 4.1.3 aktualisieren. Bevor Sie mit der Aktualisierung auf Version 4.1.3 von AEM Guides fortfahren, müssen Sie die folgenden Punkte beachten:
+
 * Wenn Sie Version 4.1 oder 4.1.x verwenden, können Sie direkt auf Version 4.1.3 aktualisieren.
 * Wenn Sie Version 4.0.x verwenden, müssen Sie auf Version 4.1 oder 4.1.x aktualisieren, bevor Sie auf Version 4.1.3 aktualisieren.
 * Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0.x aktualisieren, bevor Sie auf Version 4.1 aktualisieren.

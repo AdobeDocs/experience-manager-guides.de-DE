@@ -3,9 +3,9 @@ title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Ver
 description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in Version 4.4.0 von Adobe Experience Manager Guides
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,7 @@ Jetzt bietet Experience Manager Guides eine erweiterte Funktion zum Versionsverl
 ![Dialogfeld &quot;Versionsverlauf&quot;](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *Sehen Sie sich die Änderungen in den verschiedenen Versionen eines Themas in der Vorschau an.*
 
-
-Weitere Informationen zur Beschreibung der Funktion **Versionsverlauf** finden Sie im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS) .
+Weitere Informationen zur Beschreibung der Funktion **Versionsverlauf** finden Sie im Abschnitt [Linkes Bedienfeld (veraltet)](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) .
 
 ## Verwalten von Bedingungsvorgaben
 
