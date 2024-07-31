@@ -5,10 +5,10 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -54,13 +54,14 @@ Session session) throws GuidesApiException
 ```
 
 **Parameter**:
-|Name|Typ|Beschreibung|
-|—|—|—|
-|``attributeNames``|String|Eine Liste von Attributnamen.|
-|``values``|String|Eine Liste von Werten für die angegebenen Attribute.|
-|`labels`|String|Eine Liste von Bezeichnungen für die `attribute`- `value` Paare. [1](#fntarg_1)|
-|`profileName`|String|Der Name des Profils auf Ordnerebene, auf das diese Attribute, Werte und Beschriftungen angewendet werden müssen. **Wichtig:** Alle im Profil definierten vorhandenen attribute-values-label werden überschrieben.|
-|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
+
+| Name | Typ | Beschreibung |
+|----|----|-----------|
+| ``attributeNames`` | Zeichenfolge | Eine Liste von Attributnamen. |
+| ``values`` | Zeichenfolge | Eine Liste von Werten für die angegebenen Attribute. |
+| `labels` | Zeichenfolge | Eine Liste von Bezeichnungen für die `attribute` - `value`-Paare. [1](#fntarg_1) |
+| `profileName` | Zeichenfolge | Der Name des Profils auf Ordnerebene, auf das diese Attribute, Werte und Beschriftungen angewendet werden müssen. **Wichtig:** Alle im Profil definierten vorhandenen attribute-values-label werden überschrieben. |
+| `session` | javax.jcr.Session | Eine gültige JCR-Sitzung. |
 
 **Gibt** zurück:
 `true` für den Erfolg. Im Falle eines Fehlers wird eine Ausnahme ausgelöst.

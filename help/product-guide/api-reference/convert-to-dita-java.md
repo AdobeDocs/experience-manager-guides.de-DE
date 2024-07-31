@@ -5,10 +5,10 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -50,12 +50,13 @@ public static void convertHtmlToDita(Session session,
 ```
 
 **Parameter**:
-|Name|Typ|Beschreibung|
-|—|—|—|
-|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
-|`inputFile`|String|Absoluter Pfad der HTML-Quelldateien im AEM Repository.|
-|`destPath`|String|Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden.|
-|`createRev`|Boolesch|Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält.|
+
+| Name | Typ | Beschreibung |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Eine gültige JCR-Sitzung. |
+| `inputFile` | Zeichenfolge | Absoluter Pfad der HTML-Quelldateien im AEM Repository. |
+| `destPath` | Zeichenfolge | Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden. |
+| `createRev` | Boolesch | Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält. |
 
 **Exception**:
 Gibt `RepositoryException` aus.
@@ -76,13 +77,14 @@ public static void convertWordToDita(Session session,
 ```
 
 **Parameter**:
-|Name|Typ|Beschreibung|
-|—|—|—|
-|`session`|javax.jcr.Session|Eine gültige JCR-Sitzung.|
-|`inputFile`|String|Absoluter Pfad der Word-Quelldateien im AEM Repository.|
-|`destPath`|String|Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden.|
-|`style2tagMap`|String|Absoluter Pfad der Stilzuordnungsdatei, die für die Konvertierung verwendet wird.|
-|`createRev`|Boolesch|Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält.|
+
+| Name | Typ | Beschreibung |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Eine gültige JCR-Sitzung. |
+| `inputFile` | Zeichenfolge | Absoluter Pfad der Word-Quelldateien in AEM Repository. |
+| `destPath` | Zeichenfolge | Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden. |
+| `style2tagMap` | Zeichenfolge | Absoluter Pfad der Stilzuordnungsdatei, die für die Konvertierung verwendet wird. |
+| `createRev` | Boolesch | Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält. |
 
 **Exception**:
 Gibt `RepositoryException` aus.

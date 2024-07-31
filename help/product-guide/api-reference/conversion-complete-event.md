@@ -5,10 +5,10 @@ exl-id: 8033935d-2113-4e39-ab74-b7431b89f948
 feature: Conversion Process Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -26,10 +26,11 @@ Ereignisdetails werden nachfolgend erläutert:
 com/adobe/fmdita/conversion/complete 
 ```
 
-**Parameter**:\
-|Name|Typ|Beschreibung|
-|—|—|—|
-|`status`|String|Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: -   ERFOLG: Der Konvertierungsprozess wurde erfolgreich abgeschlossen. <br> -   MIT FEHLERN ABGESCHLOSSEN: Der Konvertierungsprozess ist abgeschlossen, allerdings mit einigen Fehlern. <br>-   FEHLGESCHLAGEN: Der Konvertierungsprozess schlug aufgrund eines schwerwiegenden Fehlers fehl.|
-|`filePath`|String|Absoluter Pfad der Quelldatei \(zu konvertieren\) im AEM Repository.|
-|`outputPath`|String|Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden.|
-|`logPath`|String|Absoluter Pfad des Knotens, in dem das Konvertierungsprotokoll gespeichert wird.|
+**Parameter**:
+
+| Name | Typ | Beschreibung |
+|----|----|-----------|
+| `status` | Zeichenfolge | Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: -   ERFOLG: Der Konvertierungsprozess wurde erfolgreich abgeschlossen. <br> -   MIT FEHLERN ABGESCHLOSSEN: Der Konvertierungsprozess ist abgeschlossen, allerdings mit einigen Fehlern. <br>-   FEHLGESCHLAGEN: Der Konvertierungsprozess schlug aufgrund eines schwerwiegenden Fehlers fehl. |
+| `filePath` | Zeichenfolge | Absoluter Pfad der Quelldatei \(zu konvertieren\) im AEM Repository. |
+| `outputPath` | Zeichenfolge | Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden. |
+| `logPath` | Zeichenfolge | Absoluter Pfad des Knotens, in dem das Konvertierungsprotokoll gespeichert wird. |

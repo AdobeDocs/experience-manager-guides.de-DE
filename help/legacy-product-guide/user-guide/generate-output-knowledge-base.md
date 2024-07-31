@@ -3,7 +3,8 @@ title: Wissensdatenbank
 description: Erfahren Sie, wie Sie eine Knowledge Base-Vorgabe aus dem Web-Editor und dem Map-Dashboard erstellen. Konfigurieren Sie die Ausgabevorgabe der Wissensdatenbank in AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
@@ -51,12 +52,13 @@ Im Web-Editor wurden die folgenden Konfigurationen auf den Registerkarten **Allg
 | Kategorien | Wählen Sie eine Kategorie aus der Dropdown-Liste aus, um die Themen des Inhaltsverzeichnisses in dieser Kategorie auf der Salesforce-Site zu veröffentlichen. |
 
 Sie können auch die folgenden Optionen in den Vorgaben Salesforce und ServiceNow anzeigen:
+
 | Optionen | Beschreibung |
-| — | — |
-|Entfernen Sie die Themenüberschrift aus dem Artikeltext.|Wählen Sie diese Option, um die Themenüberschrift aus dem Artikel in der veröffentlichten Ausgabe zu entfernen. |
-|Als Entwurf hochladen | Wählen Sie diese Option aus, um das Thema hochzuladen, um es als Entwurf freizugeben, bevor es für die Benutzer verfügbar gemacht wird.|
-|Bilder hochladen| Wählen Sie diese Option aus, wenn Bilder in Themen in die veröffentlichte Ausgabe aufgenommen werden sollen.|
-|Verknüpfte Dokumente hochladen| Aktivieren Sie diese Option, um die in Themen verknüpften Dokumente in die veröffentlichte Ausgabe einzuschließen.|
+| --- | --- |
+| Entfernen Sie die Überschrift des Themas aus dem Artikeltext. | Wählen Sie diese Option aus, um die Themenüberschrift aus dem Artikel in der veröffentlichten Ausgabe zu entfernen. |
+| Als Entwurf hochladen | Wählen Sie diese Option aus, um das Thema hochzuladen, um es als Entwurf freizugeben, bevor es für die Benutzer verfügbar gemacht wird. |
+| Bilder hochladen | Wählen Sie diese Option aus, wenn Bilder in Themen in die veröffentlichte Ausgabe aufgenommen werden sollen. |
+| Hochladen verknüpfter Dokumente | Aktivieren Sie diese Option, um die in Themen verknüpften Dokumente in die veröffentlichte Ausgabe einzuschließen. |
 
 
 ### Adobe Experience Manager
@@ -73,6 +75,7 @@ Sie können auch die folgenden Optionen in den Vorgaben Salesforce und ServiceNo
 | Kategorie | Wählen Sie im Dropdown-Menü eine Kategorie aus, um die Themen des Inhaltsverzeichnisses in dieser Kategorie auf der Adobe Experience Manager-Site zu veröffentlichen. |
 | Vorlage für Abschnitte und Artikelvorlagen | Dies sind die Strukturkomponenten, mit denen der Inhalt Ihrer Ausgabe organisiert wird. Diese sind in der Adobe Experience Manager Site-Vorlage vordefiniert. |
 | Arbeitsablauf nach der Erstellung | Wenn Sie diese Option auswählen, wird eine neue Dropdown-Liste für den Arbeitsablauf nach der Generierung angezeigt, die alle in Adobe Experience Manager konfigurierten Arbeitsabläufe enthält. Sie müssen einen Workflow auswählen, der nach Abschluss des Workflows zur Generierung der Ausgabe ausgeführt werden soll.<br>Erfahren Sie im Installations- und Konfigurationshandbuch mehr über das Anpassen des Workflows für die Generierung nach der Ausgabe [.](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) |
+
 >[!TIP]
 > 
 >Wählen Sie das Aktualisierungssymbol **Aktualisieren** ![](images/navtitle-refresh-icon.svg) aus, um die entsprechenden Vorlagen in den Feldern gemäß der von Ihnen ausgewählten Knowledge Base-Vorlage zu füllen.
