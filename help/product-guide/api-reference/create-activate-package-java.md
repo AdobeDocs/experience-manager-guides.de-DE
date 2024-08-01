@@ -5,10 +5,10 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
+source-git-commit: 1bb422427822e7f369e0c1be7de6b12ec012075e
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -71,12 +71,13 @@ throws GuidesApiException
 ```
 
 **Parameter**:
-|Name|Typ|Beschreibung|
-|—|—|—|
-|`json`|String|JSON-Zeichenfolge, die das zu erstellende CRX-Paket bestimmt. Verwenden Sie das folgende Format, um die JSON-Zeichenfolge zu erstellen: <br> - `activate`: Ist vom Typ Boolesch \(`true`/`false`\). Bestimmt, ob das in der Autoreninstanz erstellte CRX-Package auf die Veröffentlichungsinstanz repliziert wird. <br> - `rules`: Ist vom Typ JSON-Array. Ein Array von JSON-Regeln, die nacheinander verarbeitet werden, um das CRX-Paket zu erstellen. <br> - `rootPath`: Ist vom Typ String. Der Basispfad, auf dem die Knoten-/Eigenschaftenabfragen ausgeführt werden. Wenn keine Knoten-/Eigenschaftenabfragen vorhanden sind, werden der Stammpfad und alle Knoten, die unter dem Stammpfad vorhanden sind, in das CRX-Paket aufgenommen. <br> - `nodeQueries`: Ist vom Typ Regex-Array. Ein Array von regulären Ausdrücken, die verwendet werden, um bestimmte Dateien unter dem Stammpfad einzuschließen. <br> - `propertyQueries`: Ist vom Typ JSON-Array. Ein Array von JSON-Objekten mit jedem JSON-Objekt, das aus einer XPath-Abfrage besteht, die auf dem Stammpfad ausgeführt werden soll, und dem Namen einer Eigenschaft, die in jedem JCR-Knoten vorhanden ist, nachdem die Abfrage ausgeführt wurde. Der Wert der Eigenschaft in jedem JCR-Knoten sollte ein Pfad oder ein Array von Pfaden sein. Die in dieser Eigenschaft vorhandenen Pfade werden dem CRX-Paket hinzugefügt.|
-|`outputstream`|java.io.OutputStream|Dies wird verwendet, um das Ergebnis verschiedener Phasen zu schreiben, z. B. Abfrageausführung, Dateieinbindung, Erstellung von CRX-Paketen oder Aktivierung. Jeder Fehler, der beim Erstellen oder Aktivieren auftritt, wird in den `outputstream` geschrieben. Dies ist für das Debugging nützlich.|
-|`session`|String|Eine gültige JCR-Sitzung mit Aktivierungsberechtigung.|
-|`activationTarget`|String|(*Optional*) `preview` oder `publish` für Cloud Service und `publish` für On-Premise-Software <br> - Wenn der Parameter einen ungültigen Wert enthält, schlägt die Paketaktivierung fehl. <br> - Bei On-Premise-Software wird der Fehler protokolliert, wenn der Parameter einen ungültigen Wert enthält, und die Veröffentlichung erfolgt mit dem Standardwert `publish`. |
+
+| Name | Typ | Beschreibung |
+|----|----|-----------|
+| `json` | Zeichenfolge | JSON-Zeichenfolge, die das zu erstellende CRX-Paket bestimmt. Verwenden Sie das folgende Format, um die JSON-Zeichenfolge zu erstellen: <br> - `activate`: Ist vom Typ Boolesch \(`true`/`false`\). Bestimmt, ob das in der Autoreninstanz erstellte CRX-Package auf die Veröffentlichungsinstanz repliziert wird. <br> - `rules`: Ist vom Typ JSON-Array. Ein Array von JSON-Regeln, die nacheinander verarbeitet werden, um das CRX-Paket zu erstellen. <br> - `rootPath`: Ist vom Typ String. Der Basispfad, auf dem die Knoten-/Eigenschaftenabfragen ausgeführt werden. Wenn keine Knoten-/Eigenschaftenabfragen vorhanden sind, werden der Stammpfad und alle Knoten, die unter dem Stammpfad vorhanden sind, in das CRX-Paket aufgenommen. <br> - `nodeQueries`: Ist vom Typ Regex-Array. Ein Array von regulären Ausdrücken, die verwendet werden, um bestimmte Dateien unter dem Stammpfad einzuschließen. <br> - `propertyQueries`: Ist vom Typ JSON-Array. Ein Array von JSON-Objekten mit jedem JSON-Objekt, das aus einer XPath-Abfrage besteht, die auf dem Stammpfad ausgeführt werden soll, und dem Namen einer Eigenschaft, die in jedem JCR-Knoten vorhanden ist, nachdem die Abfrage ausgeführt wurde. Der Wert der Eigenschaft in jedem JCR-Knoten sollte ein Pfad oder ein Array von Pfaden sein. Die in dieser Eigenschaft vorhandenen Pfade werden dem CRX-Paket hinzugefügt. |
+| `outputstream` | java.io.OutputStream | Dies wird verwendet, um das Ergebnis aus verschiedenen Phasen zu schreiben, z. B. die Ausführung von Abfragen, die Einbindung von Dateien, die Erstellung von CRX-Paketen oder die Aktivierung. Jeder Fehler, der beim Erstellen oder Aktivieren auftritt, wird in den `outputstream` geschrieben. Dies ist für das Debugging nützlich. |
+| `session` | Zeichenfolge | Eine gültige JCR-Sitzung mit Aktivierungsberechtigung. |
+| `activationTarget` | Zeichenfolge | (*Optional*) `preview` oder `publish` für Cloud Service und `publish` für On-Premise-Software <br> - Wenn der Parameter einen ungültigen Wert enthält, schlägt die Paketaktivierung fehl. <br> - Bei On-Premise-Software wird der Fehler protokolliert, wenn der Parameter einen ungültigen Wert enthält, und die Veröffentlichung erfolgt mit dem Standardwert `publish`. |
 
 **Exception**:
 
