@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie den Inhalt von der On-Premise-Software auf Cl
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0c29d3cffa9f9a741ba5f7bd6150d234fbe8341e
+source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 5%
@@ -74,8 +74,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Experience Manager Guides-Inhal
 1. Wählen Sie nach der Erstellung die drei Punkte aus und wählen Sie **Extraktionsschlüssel kopieren**.
 
 
-1. Klicken Sie auf **In die Zwischenablage kopieren**.
-Erstellen Sie Ihr erstes Projekt.
+1. Klicken Sie auf **In die Zwischenablage kopieren**. Erstellen Sie Ihr erstes Projekt.
    ![Extraktionsschlüssel](./assets/migration-copy-to-clipboard.png)
 
 1. Wählen Sie oben **Adobe Experience Manager** und dann die Kachel **Softwareverteilung** aus.
@@ -125,17 +124,14 @@ oder
 1. Wählen Sie den **Migrationssatz** und dann oben **Extrahieren** aus.
    ![Extraktion des Migrationssatzes ](./assets/migration-extract.png)
 
-1. Überprüfen Sie die Details im Popup **Extraktion des Migrationssatzes** für die ausgewählten Pfade und Konfigurationen und klicken Sie auf **Extrahieren**.
-Die Extraktion dauert Minuten, und der Status wird als aktualisiert angezeigt.
+1. Überprüfen Sie die Details im Popup **Extraktion des Migrationssatzes** für die ausgewählten Pfade und Konfigurationen und klicken Sie auf **Extrahieren**. Die Extraktion dauert Minuten, und der Status wird als aktualisiert angezeigt.
    ![Extraktion des Migrationssatzes](./assets/migration-set-extraction.png)
 
 1. Nachdem die Extraktion abgeschlossen ist und durch den Status &quot;`finished`&quot; gekennzeichnet ist, gehen Sie zu Cloud Acceleration Manager und wählen Sie das in Schritt 18 erstellte Projekt aus.
 Wählen Sie für weitere Informationen die drei Punkte aus und klicken Sie dann auf **Details anzeigen**.
 
 
-1. Überprüfen Sie im Popup mit den Details zum Migrationssatz die Konfiguration des Migrationssatzes und schließen Sie das Popup-Fenster.
-
-   Sie können die Pfade und andere Einstellungen anzeigen, wie im folgenden Screenshot gezeigt:
+1. Überprüfen Sie im Popup mit den Details zum Migrationssatz die Konfiguration des Migrationssatzes und schließen Sie das Popup-Fenster. Sie können die Pfade und andere Einstellungen anzeigen, wie im folgenden Screenshot gezeigt:
    ![migration-details](./assets/migration-details.png)
 
 
@@ -146,8 +142,6 @@ Wählen Sie für weitere Informationen die drei Punkte aus und klicken Sie dann 
 1. Wählen Sie den Migrationssatz aus, wählen Sie den erforderlichen Server Ihrer Umgebung aus und klicken Sie auf **Aufnehmen**.
 
    ![neue Aufnahme](./assets/migration-new-ingestion.png)
-
-
 
 ## Ausführen des Content Transfer Tool auf einer Publish-Instanz
 
