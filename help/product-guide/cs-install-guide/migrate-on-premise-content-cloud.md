@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie den Inhalt von der On-Premise-Software auf Cl
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
+source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 4%
@@ -18,10 +18,10 @@ Mit Experience Manager as a Cloud Service können sich Ihre Teams auf Innovation
 
 Dieser Artikel bietet einen detaillierten Schritt-für-Schritt-Prozess für die Migration Ihrer On-Premise- oder Managed Services Experience Manager Guides-Inhalte auf Cloud Service, um einen reibungslosen Übergang zur Cloud-basierten Plattform zu gewährleisten.
 
-## Voraussetzungen
+## Anforderungen
 
 * Adobe Experience Manager 6.4 oder höher
-* Experience Manager Guides sollte die UUID-Version verwenden. Wenn Sie eine Nicht-UUID-Version von Adobe Experience Manager Guides verwenden, migrieren Sie zunächst mithilfe der Schritte unter [Nicht-DITA-Inhalt migrieren](./migrate-content-non-dita.md) zu UUID.
+* Experience Manager Guides sollte die UUID-Version verwenden. Wenn Sie eine Nicht-UUID-Version von Adobe Experience Manager Guides verwenden, migrieren Sie zunächst mithilfe der Schritte unter [Nicht-DITA-Inhalt migrieren](../install-guide/migrate-uuid-non-uuid.md) zu UUID.
 * Zugriff auf **Cloud Acceleration Manager** für die Cloud-Instanz, in die Sie den Inhalt migrieren möchten
 * Bis zu 20 TB Repository-Größe wird unterstützt
 * Gesamtgröße des Lucene-Index von 25 GB
