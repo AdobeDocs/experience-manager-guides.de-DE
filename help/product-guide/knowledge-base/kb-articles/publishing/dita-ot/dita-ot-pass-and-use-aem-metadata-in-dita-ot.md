@@ -1,9 +1,7 @@
 ---
 title: Übertragen von AEM Assets-Metadaten in die vom DITA-OT-Plug-in generierte Ausgabe
 description: Konfigurieren des DITA-OT-Plug-ins und -Inhalts in AEM, um Metadaten an die generierte Ausgabe zu senden
-role: Developer
-feature: DITA-OT publishing
-source-git-commit: ed35fa94d9c3cec70a4959d7efe69678b066a2e0
+source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%
