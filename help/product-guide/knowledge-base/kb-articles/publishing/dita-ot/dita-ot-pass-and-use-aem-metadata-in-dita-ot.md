@@ -1,7 +1,7 @@
 ---
 title: Übertragen von AEM Assets-Metadaten in die vom DITA-OT-Plug-in generierte Ausgabe
 description: Konfigurieren des DITA-OT-Plug-ins und -Inhalts in AEM, um Metadaten an die generierte Ausgabe zu senden
-source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
+source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%
@@ -21,8 +21,8 @@ Auf hoher Ebene sind im Folgenden die Schritte aufgeführt, die Sie in diesem Ar
 
 ## Hintergrund
 
-Mit AEM Guides können Sie mithilfe der konfigurierten Plug-ins DITA-OT-Plug-ins zur Veröffentlichung in Ausgabeformaten Ihrer Wahl verwenden und
-Sie können auch Metadaten der in AEM DAM verwalteten Assets an den DITA-OT-Prozess übergeben, um sie in der generierten Ausgabe zu verwenden. Weitere Informationen dazu finden Sie in der Dokumentation unter [Einrichten von ditamap/topics zum Übergeben von Metadaten über Ausgabevorgaben](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+Mit AEM Guides können Sie mithilfe von DITA-OT-Plug-ins Veröffentlichungen in Ausgabeformaten Ihrer Wahl mithilfe der konfigurierten Plug-ins durchführen und
+Sie können auch Metadaten der in AEM DAM verwalteten Assets an den DITA-OT-Prozess übergeben, um sie in der generierten Ausgabe zu verwenden. Weitere Informationen dazu finden Sie in der Dokumentation unter [Einrichten von ditamap/topics, um Metadaten über die Ausgabevorgabe weiterzugeben](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Annahmen
