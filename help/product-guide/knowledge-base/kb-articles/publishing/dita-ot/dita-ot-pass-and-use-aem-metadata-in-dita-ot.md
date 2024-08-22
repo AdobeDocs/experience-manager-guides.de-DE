@@ -1,15 +1,15 @@
 ---
 title: Übertragen von AEM Assets-Metadaten in die vom DITA-OT-Plug-in generierte Ausgabe
 description: Konfigurieren des DITA-OT-Plug-ins und -Inhalts in AEM, um Metadaten an die generierte Ausgabe zu senden
-source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
+source-git-commit: b48f5a342989d3be48bbc1e8af51a2ce477d0ac7
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
 
 
-# Über diesen Artikel
+# Übertragen von AEM Assets-Metadaten in die vom DITA-OT-Plug-in generierte Ausgabe
 
 In diesem Artikel erfahren Sie, wie Sie Änderungen am DITA-OT-Plug-in implementieren können, um die vom AEM Guides-Veröffentlichungs-Workflow übergebene Eigenschaft metadata.xml _(verfügbar in temporären Dateien)_ zu lesen und die Eigenschaften in DITA-OT-Plug-ins zu nutzen und in der generierten Ausgabe festzulegen.
 
