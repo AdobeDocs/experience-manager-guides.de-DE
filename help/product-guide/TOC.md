@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
+source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 7%
@@ -21,15 +21,15 @@ ht-degree: 7%
          - [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
          - Versionen 2024 {#2024-releases}
             - Version 2024.6.0 {#2406-release}
-               - [Neuerungen](./release-info/whats-new-2024-06-0.md)
+               - [Neue Funktionen](./release-info/whats-new-2024-06-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2024-06-0.md)
                - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2024-06-0.md)
             - Version 2024.4.0 {#2404-release}
-               - [Neuerungen](./release-info/whats-new-2024-04-0.md)
+               - [Neue Funktionen](./release-info/whats-new-2024-04-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2024-04-0.md)
                - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2024-04-0.md)
             - Version 2024.2.0 {#2402-release}
-               - [Neuerungen](./release-info/whats-new-2024-2-0.md)
+               - [Neue Funktionen](./release-info/whats-new-2024-2-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2024-2-0.md)
                - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2024-2-0.md)
          - Versionen 2023 {#2023-releases}
@@ -73,7 +73,7 @@ ht-degree: 7%
       - On-Premise/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] Releases](./release-info/latest-release-info.md)
          - 4.4.0 Release {#440-release}
-            - [Neuerungen](./release-info/whats-new-4-4.md)
+            - [Neue Funktionen](./release-info/whats-new-4-4.md)
             - [Behobene Probleme](./release-info/fixed-issues-4-4.md)
             - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-4.md)
          - 4.3.1.5 Release {#4315-release}
@@ -450,12 +450,12 @@ ht-degree: 7%
                - [Symbol](./guides-ui-extensions/aem_guides_framework/components/icon.md)
                - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
                - [Liste](./guides-ui-extensions/aem_guides_framework/components/list.md)
-               - [Textbereich](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+               - [Textbereich](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
             - Widgets {#framework-widgets}
                - [Rendering-Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [Grundlegende Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          - Erste Schritte {#getting-started}
-            - [Einführung](./guides-ui-extensions/getting-started/Introduction.md)
+            - [Einführung](./guides-ui-extensions/getting-started/introduction.md)
             - [Installationshandbuch](./guides-ui-extensions/getting-started/integrating-customisations.md)
             - [Einführung in das Extension-Repository](./guides-ui-extensions/getting-started/extension-repo-intro.md)
          - Anpassungen {#customisations}
@@ -463,7 +463,7 @@ ht-degree: 7%
             - [Kontextmenüs anpassen](./guides-ui-extensions/customisations/context-menus.md)
             - [Anpassen der Symbolleiste und der Symbolleiste](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [Beispiele](./guides-ui-extensions/examples.md)
-            - [Anpassbare JSONs](./guides-ui-extensions/JSONs.md)
+            - [Anpassbare JSONs](./guides-ui-extensions/jsons.md)
             - Review{#review-app-customisations}
                - [Komponenten](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Anpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
