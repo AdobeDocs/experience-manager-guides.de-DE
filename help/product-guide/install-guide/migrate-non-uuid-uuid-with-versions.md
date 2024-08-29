@@ -5,14 +5,19 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 1%
 
 ---
 
 # Migrieren versionierter Inhalte
+
+>[!NOTE]
+>
+> Sie können Ihre Nicht-UUID-Inhalte in Experience Manager Guides zu UUID-Inhalten migrieren. Dieser Artikel wird im November 2024 archiviert.
+>Die aktuelle und detaillierte Dokumentation finden Sie unter [**Migration von Nicht-UUID-zu-UUID-Inhalten**](./migrate-non-uuid-uuid-new.md) .
 
 Führen Sie diese Schritte aus, um Inhalte ohne UUID-Version in UUID-Inhalte zu migrieren.
 
@@ -87,7 +92,7 @@ Führen Sie die folgenden Prüfungen für die Nicht-UUID-Version durch (4.1 Nich
 
 1. Stellen Sie sicher, dass der verfügbare freie Speicherplatz mindestens zehnmal so groß ist wie der Speicherplatz, den AEM (crx-quickstart-Verzeichnis) während der Migration benötigt. Nachdem Sie die Migration abgeschlossen haben, können Sie den Großteil des Festplattenspeichers durch Ausführen der Komprimierung wiederherstellen (siehe [Revisionsbereinigung](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=de)).
 
-1. Aktivieren Sie *Post-Workflow-Starter für die Verarbeitung aktivieren* in `com.adobe.fmdita.config.ConfigManager` und *Aktivieren Sie die Versionsnachbearbeitung aktivieren* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Aktivieren Sie *Aktivieren Sie die Launcher des Nachbearbeitungs-Workflows* in `com.adobe.fmdita.config.ConfigManager` und *Aktivieren Sie die Versionspostverarbeitung* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`.
 
 1. Installieren Sie die UUID-Version der unterstützten Version über die Nicht-UUID-Version. Wenn Sie beispielsweise den Build 4.1 non-UUID verwenden, müssen Sie UUID Version 4.1 installieren und die Migration ausführen.
 
@@ -98,7 +103,7 @@ Führen Sie die folgenden Prüfungen für die Nicht-UUID-Version durch (4.1 Nich
    * Workflow „DAM-Update-Asset“
    * DAM-Metadaten-Writeback-Workflow
 
-1. Deaktivieren Sie *Aktivieren Sie die Post-Workflow-Starter für die Verarbeitung* in `com.adobe.fmdita.config.ConfigManager` und deaktivieren Sie *Aktivieren Sie die Versionsnachbearbeitung aktivieren* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Deaktivieren Sie *Aktivieren Sie die Launcher des Nachbearbeitungs-Workflows* in `com.adobe.fmdita.config.ConfigManager` und deaktivieren Sie *Aktivieren Sie die Versionspostverarbeitung* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
 1. Deaktivieren Sie die Eigenschaft Validierung aktivieren (`validation.enabled`) in Day CQ Tagging Service .
 
