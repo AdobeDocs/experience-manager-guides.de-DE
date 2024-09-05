@@ -3,9 +3,9 @@ title: Wiederverwendung von DITA-Inhalten in AEM Guides
 description: In diesem kurzen Artikel erfahren Sie, wie Sie mit AEM Guides und DITA Zeit und Mühe sparen, wenn Sie die Wiederverwendbarkeit von Inhalten verwenden
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
+source-git-commit: 12d7f9c3479d2fa8e8f0adad7cb89993cd17dec0
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe AEM Guides nutzt die Stärken von DITA, um eine benutzerfreundliche Oberfläche für die Wiederverwendung von Inhalten bereitzustellen.
 
-In diesem Artikel würden wir über Folgendes sprechen:
+In diesem Artikel wird Folgendes besprochen:
 
 1. [Wiederverwendbarkeit mithilfe der Themenreferenz (](#reusability-using-topic-referencestopicref)
 2. [Wiederverwendbarkeit mithilfe der Inhaltsreferenz (](#reusability-using-content-reference-conref--conkeyref)
@@ -79,7 +79,7 @@ Sie möchten ein einzelnes KYC-Fragment für Ihre Themen &quot;Konto speichern&q
 
 Hier ist `conref=kyc_procedures.dita#indvidual_kyc` kyc_operations.dita die Dateikennung und #individuelle_kyc die Fragmentkennung.
 
-Kyc_procedure.dita ist weiterhin die einzige Informationsquelle. Wenn es Änderungen am KYC-Prozess gibt, wie es von den Vorschriften gefordert wird, müssen Sie einfach ein Thema aktualisieren, und diese Änderungen werden automatisch in allen Themen übernommen, die darauf verweisen.
+Kyc_procedure.dita ist weiterhin die einzige Informationsquelle. Wenn regulatorische Änderungen Aktualisierungen des KYC-Prozesses erfordern, aktualisieren Sie den Themenpfad mit dem neuen. Die Änderungen werden automatisch in allen Themen übernommen, die darauf verweisen.
 
 Mit AEM Guides werden die beiden Klicks
 
@@ -91,7 +91,7 @@ Schritt 1: Klicken Sie auf Wiederverwendbaren Inhalt einfügen
 Schritt 2: Wählen Sie die Datei und das Fragment aus, die wiederverwendet werden sollen.
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
-Ähnlich wie &quot;conref&quot;können Sie auch &quot;conkeyref&quot;verwenden, wobei Sie, anstatt einen Inhaltspfad anzugeben, Inhalte über Schlüssel referenzieren können.
+Ähnlich wie &quot;conref&quot;können Sie auch &quot;conkeyref&quot;verwenden, wobei Sie, anstatt einen Inhaltspfad anzugeben, auf Inhalte über Schlüssel verweisen.
 
 Codebeispiel :
 
@@ -111,7 +111,7 @@ Die Schlüsseldefinition sieht wie folgt aus:
 </map>
 ```
 
-Schlüssel - &quot;Kyc_procedure&quot; wird weiterhin die einzige Informationsquelle sein. Wenn es Änderungen am KYC-Prozess gibt, wie es von Verordnungen gefordert wird, müssen Sie einfach einen Themenpfad mit einem neuen Themenpfad aktualisieren. Diese Änderungen werden automatisch in allen Themen übernommen, die darauf verweisen.
+Schlüssel - &#39;Kyc_procedure&#39; ist weiterhin die einzige Informationsquelle. Wenn es Änderungen am KYC-Prozess gibt, wie es von Verordnungen gefordert wird, müssen Sie einfach einen Themenpfad mit einem neuen Themenpfad aktualisieren. Diese Änderungen werden automatisch in allen Themen übernommen, die darauf verweisen.
 
 ```
 <map id="ABC_manual">
@@ -154,14 +154,16 @@ Schritt 2: Ziehen Sie das Fragment, das Sie in einem Ihrer Zielthemen wiederverw
 
 - ### Nach Auswahl der Datei/des Schlüssels im Dialogfeld Inhalt wiederverwenden werden nicht alle Inhalte angezeigt
 
-Sie müssen IDs Fragmenten (DITA-Elementen ) zuweisen, die Sie in anderen Themen wiederverwenden möchten
+Zuweisen von IDs zu Fragmenten (DITA-Elementen), die Sie in anderen Themen wiederverwenden möchten
 
 - ## Schlüssel werden im Dialogfeld &quot;Inhalt wiederverwenden&quot;nicht angezeigt
 
-Stellen Sie sicher, dass Sie die Stammzuordnung/die übergeordnete Zuordnung in der Zuordnungsansicht geöffnet haben, die über eine Schlüsseldefinition verfügt, oder fügen Sie den Pfad der Stammzuordnung manuell im selben Dialogfeld hinzu.
+  Stellen Sie sicher, dass Sie die Stammzuordnung/die übergeordnete Zuordnung in der Zuordnungsansicht geöffnet haben, die über eine Schlüsseldefinition verfügt, oder fügen Sie den Pfad der Stammzuordnung manuell im selben Dialogfeld hinzu.
 
 
 <br>
+<br>
+<br>
 
 
-Post in der AEM Guides-Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) für alle Abfragen.
+Posten Sie für Abfragen im AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) .
