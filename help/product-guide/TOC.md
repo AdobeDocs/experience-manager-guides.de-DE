@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
+source-git-commit: ff34f8b21d3e930ed332a360e90040a14b219f75
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1855'
 ht-degree: 7%
 
 ---
@@ -483,6 +483,7 @@ ht-degree: 7%
       - Workflows {#workflows}
          - [Arbeitsablauf nach der Erstellung](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Übersetzung {#translation}
+         - [Best Practices zur Steigerung der Übersetzungsleistung](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
          - [Absätze von der Übersetzung ausschließen](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - Anwendungsfälle {#use-cases}
          - [Arbeiten mit bedingten Inhalten](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
