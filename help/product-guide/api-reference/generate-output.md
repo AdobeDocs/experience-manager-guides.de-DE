@@ -5,14 +5,19 @@ exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
 level: Experienced
-source-git-commit: a255007fc9fe169f926e356ec9d2a8f5a2fdbe29
+source-git-commit: ee4eb829ebe215315b05cd1f376e934c02a73b1e
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '201'
+ht-degree: 2%
 
 ---
 
 # Java-basierte API für die Verwendung mit der Ausgabegenerierung {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> Sie können in Experience Manager Guides verfügbare Java-basierte APIs verwenden, um benutzerdefinierte Plug-ins zu erstellen und native Workflows zu erweitern. Dieser Artikel wird im November 2024 archiviert.
+> Die aktuelle und detaillierte Dokumentation zur Verwendung der Java-basierten API finden Sie unter [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) .
 
 Mit der folgenden Java-basierten API können Sie die Ausgabe für eine DITA-Zuordnung generieren. Diese API ist in Form eines Bundles verfügbar. Sie müssen dieses Bundle in Ihren Code aufnehmen, um diese APIs verwenden zu können.
 

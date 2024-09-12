@@ -5,14 +5,20 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: 1bb422427822e7f369e0c1be7de6b12ec012075e
+source-git-commit: ed0b0e6124a8656e711a8e64b290b805569fbd48
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
 
 # Java-basierte API zum Erstellen und Aktivieren von Paketen {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> Sie können in Experience Manager Guides verfügbare Java-basierte APIs verwenden, um benutzerdefinierte Plug-ins zu erstellen und native Workflows zu erweitern. Dieser Artikel wird im November 2024 archiviert.
+> Die aktuelle und detaillierte Dokumentation zur Verwendung der Java-basierten API finden Sie unter [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) .
+
 
 Mit der folgenden Java-basierten API können Sie CRX-Pakete erstellen und aktivieren. Diese API ist in Form eines Bundles verfügbar. Sie müssen dieses Bundle in Ihren Code aufnehmen, um diese APIs verwenden zu können.
 

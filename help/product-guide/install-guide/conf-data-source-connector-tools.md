@@ -5,9 +5,9 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1eb4fcb33d6f905df3f543232e7040d1da42560b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -76,4 +76,8 @@ Wenn der Connector mit demselben Namen vorhanden ist, wird ein Fehler angezeigt.
 * **Löschen**: Löschen Sie den ausgewählten Connector.
 
 
-Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector im Web Editor im Bereich **Datenquellen** aufgelistet. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Einfügen eines Inhaltsfragments aus Ihrer Datenquelle](../user-guide/web-editor-content-snippet.md).
+Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector im Web Editor im Bereich **Datenquellen** aufgelistet. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Daten aus Ihrer Datenquelle verwenden](../user-guide/web-editor-content-snippet.md).
+
+>[!NOTE]
+>
+>Sie können auch benutzerdefinierte Connectoren erstellen und diese mit den verschiedenen Datenquellen verwenden. Erfahren Sie, wie Sie [benutzerdefinierte Connectoren konfigurieren](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md).

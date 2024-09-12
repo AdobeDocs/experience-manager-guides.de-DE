@@ -5,7 +5,7 @@ exl-id: 6579812b-caa7-420f-a6e4-36fef7d63d34
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 2e52beedb5b3ce13acfae1ecba3b67e8de8e6614
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -43,3 +43,4 @@ AEM Guides verfügt über einen leistungsstarken Web-Editor, mit dem Ihre Autore
 - [Konfigurieren der Anzahl der LimitReads für eine Abfrage](conf-query-limitreads.md)
 
 - [Pakete für die artikelbasierte Veröffentlichung installieren](configure-article-based-publishing.md)
+

@@ -4,14 +4,19 @@ description: Erfahren Sie, wie Sie mit dem Basic Map Editor in AEM Guides arbeit
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
 
 # Arbeiten mit dem Basic Map Editor {#id1942CM005Y4}
+
+>[!NOTE]
+>
+> Der Basic Map Editor, der zuvor in Experience Manager Guides verfügbar war, wurde ab Version 4.3 und 2307 eingestellt. Sie können nicht auf den Basic Map Editor zugreifen, um DITA-Maps zu erstellen und zu verwalten.
+>Es wird empfohlen, den erweiterten Map-Editor zu verwenden. Der erweiterte Map Editor bietet erweiterte Funktionen und bessere Anpassungsoptionen. Erfahren Sie mehr über die Verwendung des [erweiterten Map-Editors](../user-guide/map-editor-advanced-map-editor.md).
 
 Der Basic Map Editor bietet eine einfache Drag-and-Drop-Funktion, um Themen aus Ihrem AEM-Repository hinzuzufügen und die DITA-Map oder -Lesekarte zu erstellen. Sie können verschachtelte Themen, Beziehungstabellen \(reltable\), Attribute und Metadateninformationen hinzufügen und die Zuordnung auch auf Richtigkeit überprüfen.
 

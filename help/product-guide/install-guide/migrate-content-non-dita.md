@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1644bfba3332b0f023aa8d70aefd2680d4220d8a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen Word-Dokumente in DI
 
    - Geben Sie im Element props2Propagate die Eigenschaften an, die an die DITA-Zuordnung übergeben werden sollen. Diese Eigenschaft ist erforderlich, um die Standardmetadaten wie dc:title,dc:subject,dam:keywords,dam:category aus Dokumentmetadaten an konvertierte DITA-Assets zu übergeben.
 
-1. Speichern Sie die Datei `w2d_io.xml`.
+1. Speichern Sie die `w2d_io.xml`-Datei.
 
 1. Nachdem Sie die erforderlichen Parameter in der Datei `w2d_io.xml` konfiguriert haben, melden Sie sich bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 
@@ -130,29 +130,44 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen InDesign-Dokumente i
 
    `/libs/fmdita/config/idml2dita_io.xml`
 
-1. Erstellen Sie einen Überlagerungsknoten des Ordners `config` im Knoten `apps` .
+1. Um eine benutzerdefinierte Konfiguration entsprechend Ihren Anforderungen zu erstellen, erstellen Sie einen Überlagerungsknoten des Ordners `config` im Knoten `apps` .
+
+1. Kopieren Sie die folgenden Dateien oder Ordner aus dem Ordner `libs` in den Ordner &quot;apps&quot;:
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. Navigieren Sie zur Konfigurationsdatei, die im Knoten `apps` verfügbar ist:
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-   Konfigurieren Sie die folgenden Parameter in der Datei `idml2dita_io.xml` :
+1. Fügen Sie die Zuordnung der Konfigurationen hinzu, die im Ordner &quot;`idml12dita`&quot;in der Datei &quot;`idml2dita_io.xml`&quot;vorhanden sind.
+1. Fügen Sie die folgenden Eigenschaften in die Datei `idml2dita_io.xml` ein:
 
-   - Geben Sie im Element `inputDir` den Speicherort des Eingabeordners an, in dem die Quelldokumente für InDesign verfügbar sind. Wenn Ihre InDesign-Dokumente beispielsweise in einem Ordner mit dem Namen `indesigntodita` im Ordner `projects` gespeichert sind, geben Sie folgenden Speicherort an: `/content/dam/idmlfiles/indesigntodita/`
+   ```
+   <entry key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
 
-   - Geben Sie im Element `outputDir` den Speicherort des Ausgabeordners an oder behalten Sie den standardmäßigen Ausgabespeicherort bei, um das konvertierte DITA-Dokument zu speichern. Wenn der angegebene Ausgabeordner nicht in DAM vorhanden ist, erstellt der Konvertierungs-Workflow den Ausgabeordner.
+Konfigurieren Sie die folgenden Parameter in der Datei `idml2dita_io.xml` :
 
-   - Geben Sie im Element `mapStyle` den Speicherort der Zuordnungsdatei an, die Zuordnungen für InDesign-Dokumentstile zu DITA-Elementen enthält. Die Standardzuordnung wird in der Datei gespeichert, die sich unter:
+- Geben Sie im Element `inputDir` den Speicherort des Eingabeordners an, in dem die Quelldokumente für InDesign verfügbar sind. Wenn Ihre InDesign-Dokumente beispielsweise in einem Ordner mit dem Namen `indesigntodita` im Ordner `projects` gespeichert sind, geben Sie folgenden Speicherort an: `/content/dam/idmlfiles/indesigntodita/`
 
-     ```XML
-     /stmap.adobeidml.xml
-     ```
+- Geben Sie im Element `outputDir` den Speicherort des Ausgabeordners an oder behalten Sie den standardmäßigen Ausgabespeicherort bei, um das konvertierte DITA-Dokument zu speichern. Wenn der angegebene Ausgabeordner nicht in DAM vorhanden ist, erstellt der Konvertierungs-Workflow den Ausgabeordner.
 
-     >[!NOTE]
-     >
-     > Weitere Informationen zur Dateistruktur von `stmap.adobeidml.xml` und dazu, wie Sie sie anpassen können, finden Sie im Abschnitt [Vorbereiten der Zuordnungsdatei für die InDesign zur DITA-Migration](appendix.md#id194AF0003HT) im Abschnitt *Anhang*.
+- Geben Sie im Element `mapStyle` den Speicherort der Zuordnungsdatei an, die Zuordnungen für InDesign-Dokumentstile zu DITA-Elementen enthält. Die Standardzuordnung wird in der Datei gespeichert, die sich unter:
 
-1. Speichern Sie die Datei `idml2dita_io.xml`.
+```XML
+    /stmap.adobeidml.xml
+```
+
+>[!NOTE]
+>
+> Weitere Informationen zur Dateistruktur von `stmap.adobeidml.xml` und dazu, wie Sie sie anpassen können, finden Sie im Abschnitt [Vorbereiten der Zuordnungsdatei für die InDesign zur DITA-Migration](appendix.md#id194AF0003HT) im Abschnitt *Anhang*.
+
+1. Speichern Sie die `idml2dita_io.xml`-Datei.
 
 1. Nachdem Sie die erforderlichen Parameter in der Datei `idml2dita_io.xml` konfiguriert haben, melden Sie sich bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 
@@ -240,7 +255,7 @@ Führen Sie die folgenden Schritte aus, um Ihr vorhandenes XHTML-Dokument in ein
 
    - Geben Sie für das Element `createRev` an, ob eine neue Version des konvertierten DITA-Themas erstellt werden soll \(`true`\) oder nicht \(`false`\).
 
-1. Speichern Sie die Datei `h2d_io.xml`.
+1. Speichern Sie die `h2d_io.xml`-Datei.
 
 1. Nachdem Sie die erforderlichen Parameter in der Datei `h2d_io.xml` konfiguriert haben, melden Sie sich bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 
@@ -313,7 +328,7 @@ Gehen Sie wie folgt vor, um Ihre bestehenden unstrukturierten FrameMaker-Dokumen
 
    - Geben Sie im Element `ditaVal` den Wert für das zugeordnete Attribut an. Wenn Sie keinen Wert haben, können Sie diesen Eintrag leer lassen.
 
-1. Speichern Sie die Datei `style2attrMap.xml`.
+1. Speichern Sie die `style2attrMap.xml`-Datei.
 
 1. Nachdem Sie die erforderlichen Parameter in der Datei `style2attrMap.xml` konfiguriert haben, melden Sie sich bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 
@@ -364,7 +379,7 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen strukturierten Dokum
 
    - Geben Sie für das Element `createRev` an, ob eine neue Version des konvertierten DITA-Themas erstellt werden soll \(`true`\) oder nicht \(`false`\).
 
-1. Speichern Sie die Datei `XSLConfig.xml`.
+1. Speichern Sie die `XSLConfig.xml`-Datei.
 
 1. Nachdem Sie die erforderlichen Parameter in der Datei `XSLConfig.xml` konfiguriert haben, melden Sie sich bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 

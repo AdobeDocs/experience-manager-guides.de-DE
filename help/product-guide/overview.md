@@ -4,7 +4,7 @@ description: Hier finden Sie Anleitungsvideos für Experience Manager Guides (fr
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: fb4b5fa72cc0643810e4c299dd827803687f0bc4
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Mit der Lösung [!DNL AEM Guides] können Unternehmen nahtlose und personalisier
 > 
 > Adobe Experience Manager Guides wurde früher als _XML Documentation für Adobe Experience Manager_ gekennzeichnet. Beachten Sie bitte, dass einige Verweise in der Dokumentation weiterhin auf das frühere Branding verweisen können, aber weiterhin auf das aktuelle Angebot anwendbar sind.
 
-## Neuerungen
+## Neue Funktionen
 
 * **[[!DNL AEM Guides] Einführungskurs](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
 
@@ -36,7 +36,6 @@ Mit der Lösung [!DNL AEM Guides] können Unternehmen nahtlose und personalisier
 * **[Ausgabegenerierung mit  [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
   _Erfahren Sie, wie Sie die Ausgabe mit [!DNL Adobe Experience Manager Guides] generieren. Erfahren Sie mehr über verschiedene Funktionen, die für die Generierung von Ausgaben verfügbar sind - Berichte, Grundlinien, Bedingungen, Fehlerbehebung, Massenveröffentlichung und Aktivierung._
-
 
 <!--
 
@@ -90,9 +89,9 @@ Dummy links cause validation to fail
 
 -->
 
-
 ## Zusätzliche Ressourcen
 
 * [[!DNL AEM Guides] Online-Benutzerhandbuch](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] PDF-Guides](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League – AEM-Erkundung](https://experienceleague.adobe.com/?lang=de#recommended/solutions/experience-manager)
+

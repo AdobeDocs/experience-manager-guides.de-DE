@@ -5,9 +5,9 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -75,3 +75,17 @@ Schließlich können Sie auch Stile auf den gesamten Inhalt innerhalb des Themas
 Unter Verwendung der oben genannten Stilattribute wird links neben dem Thema *Verlauf des Fluges* eine Änderungsleiste hinzugefügt, wie unten dargestellt:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
+
+## Leere Zeilen aus dem Inhaltsverzeichnis entfernen
+
+Wenn Sie den Titel für keine Themen definiert haben, werden im Inhaltsverzeichnis für diese Themen leere Zeilen angezeigt.
+
+Um die leeren Zeilen aus dem Inhaltsverzeichnis und dem Mini-Inhaltsverzeichnis zu entfernen, fügen Sie den folgenden Stil in den `layout.css` hinzu:
+
+```css
+.toc-body a:empty,
+.chaptoc-body a:empty {
+    display: none;
+} 
+```
+

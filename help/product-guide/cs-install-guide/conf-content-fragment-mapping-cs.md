@@ -5,16 +5,24 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
+source-git-commit: 97d7776c81e7776d0248d6711ae5d05c46c44239
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment
 
-AEM Guides bietet die Funktion zum Erstellen einer JSON-basierten Zuordnung zwischen einem Thema und einem Inhaltsfragmentmodell. Sie können diese Zuordnung verwenden, um Inhalte in einigen oder allen Elementen innerhalb eines Themas in einem Inhaltsfragment zu veröffentlichen.
+
+
+Mit Adobe Experience Manager Guides können Sie eine JSON-basierte Zuordnung zwischen einem Thema und einem Inhaltsfragmentmodell erstellen. Sie können die JSON-basierte Zuordnung verwenden, um Inhalte in einigen oder allen Elementen innerhalb eines Themas in einem Inhaltsfragment zu veröffentlichen.
+
+>[!NOTE]
+> 
+> Wenn Sie Version 4.6 oder neuere Versionen verwenden, müssen Sie diese Zuordnung nicht erstellen. Sie können die Themenelemente auf die Felder im Inhaltsfragmentmodell ziehen.
+> Erfahren Sie mehr über das [Veröffentlichen von Inhaltsfragmenten](../user-guide/publish-content-fragment.md).
+
 
 1. Um die Datei *contentFragmentMapping.json* herunterzuladen, melden Sie sich als Administrator bei Adobe Experience Manager an.
 1. Wählen Sie oben den Adobe Experience Manager-Link und dann **Tools** aus.

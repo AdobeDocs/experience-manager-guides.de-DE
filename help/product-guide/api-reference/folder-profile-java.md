@@ -5,14 +5,22 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
+source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 3%
+source-wordcount: '286'
+ht-degree: 2%
 
 ---
 
 # Java-basierte API für die Arbeit mit Ordnerprofilen {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> Sie können in Experience Manager Guides verfügbare Java-basierte APIs verwenden, um benutzerdefinierte Plug-ins zu erstellen und native Workflows zu erweitern. Dieser Artikel wird im November 2024 archiviert.
+> Die aktuelle und detaillierte Dokumentation zur Verwendung der Java-basierten API finden Sie unter [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) .
+
+
+
 
 Mit der folgenden Java-basierten API können Sie bedingte Attribute zu einem Profil auf Ordnerebene hinzufügen. Diese API ist in Form eines Bundles verfügbar. Sie müssen dieses Bundle in Ihren Code aufnehmen, um diese APIs verwenden zu können.
 

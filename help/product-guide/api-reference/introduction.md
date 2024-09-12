@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9024b552fd470344ba7b0068a147c37084ae0d13
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -222,6 +222,12 @@ Um die API-JAR-Datei zu verwenden, müssen Sie die Abhängigkeit zur pom.xml Ihr
 >[!NOTE]
 >
 > Da die Pakete innerhalb der API-JAR immer noch dieselben sind, ist keine Codeänderung erforderlich, um diese API-JAR in den vorhandenen Cloud-Projekten zu verwenden.
+
+### Java-basierte APIs
+
+Sie können in Experience Manager Guides verfügbare Java-basierte APIs verwenden, um benutzerdefinierte Plug-ins zu erstellen und native Workflows zu erweitern. Die aktuelle und detaillierte Dokumentation zur Verwendung der Java-basierten API finden Sie unter [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) .
+
+
 
 ## Zusätzliche Ressourcen
 

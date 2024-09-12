@@ -4,9 +4,9 @@ description: Entdecken Sie die Funktionen des Web-Editors in AEM Guides. Machen 
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
+source-git-commit: 2e474dec4f55ccf54a415b1969f7e7f79c4d0226
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -172,7 +172,7 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
   Diese können zum Erstellen des Salesforce Publish-Profils verwendet werden.
 
 
-   - Um ein Salesforce Publish-Profil zu erstellen, wählen Sie die Wissensdatenbank **Salesforce** aus der Dropdown-Liste **Servertyp** aus. Geben Sie einen Profilnamen ein. Geben Sie in die **Site-URL** die Verbraucher-Site ein, mit der Sie die Ausgabe veröffentlichen möchten, und fügen Sie dann den **Consumer Key** und den **Consumer Secret** hinzu, die von der Salesforce-Verbraucherseite bereitgestellt werden. Dann **Validieren** und **Speichern** das neu erstellte Profil.
+   - Um ein Salesforce Publish-Profil zu erstellen, wählen Sie die Wissensdatenbank **Salesforce** aus der Dropdown-Liste **Servertyp** aus. Geben Sie einen Profilnamen ein. Geben Sie in die **Site-URL** die Verbraucher-Site ein, mit der Sie die Ausgabe veröffentlichen möchten, und fügen Sie dann den von der Salesforce-Verbraucherseite bereitgestellten **Consumer Key** und den **Consumer Secret** hinzu. Dann **Validieren** und **Speichern** das neu erstellte Profil.
      ![salesforce publish profile in editor settings](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -198,7 +198,7 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
 
      ![ServiceNow publish profile](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Nach der Validierung können Sie das Publish-Profil in den Ausgabevorgaben einer DITA Map auswählen und es verwenden, um die Ausgabe auf dem von Ihnen ausgewählten **Salesforce**- oder **ServiceNow**-Server zu generieren.
+  Nach der Validierung können Sie das Publish-Profil in den Ausgabevorgaben einer DITA Map auswählen und es verwenden, um die Ausgabe auf dem von Ihnen ausgewählten **Salesforce** - oder **ServiceNow** -Server zu generieren.
 
   Erfahren Sie mehr über die Ausgabevorgabe [Knowledge Base](../user-guide/generate-output-knowledge-base.md).
 
@@ -1508,7 +1508,22 @@ Um eine Bedingung hinzuzufügen oder zu definieren, klicken Sie auf das Symbol +
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-Wählen Sie in der Liste Attribut das bedingte Attribut aus, das Sie definieren möchten, geben Sie einen Wert für die Bedingung ein und geben Sie dann die Bezeichnung an, die im Bedienfeld Bedingungen angezeigt werden soll. Sie können auch eine Farbe für die Bedingung definieren. Diese Farbe wird als Hintergrundfarbe des Inhalts festgelegt, auf den die Bedingung angewendet wird
+Wählen Sie in der Liste Attribut das bedingte Attribut aus, das Sie definieren möchten, geben Sie einen Wert für die Bedingung ein und geben Sie dann die Bezeichnung an, die im Bedienfeld Bedingungen angezeigt werden soll. Definieren Sie eine Gruppe für die Bedingung. Sie können einer Gruppe mehrere Bedingungen hinzufügen. Sie können auch eine Farbe für die Bedingung definieren. Diese Farbe wird als Hintergrundfarbe des Inhalts festgelegt, auf den die Bedingung angewendet wird.
+
+Sie können die Bedingungen gruppieren und in verschachtelten Ordnern strukturieren. Mit Gruppen können Sie Bedingungen auf mehreren Ebenen erstellen und diese besser für die Verwendung im Inhalt organisieren.
+
+Sie können beispielsweise Bedingungsgruppen von Produkten wie *Acrobat* und *AEM Guides* erstellen. Sie können die bedingten Attribute für beide Gruppen auswählen. Unter jeder Gruppe können Sie bestimmte Werte wie *Benutzer*, *Administrator*, *Überprüfer* und *Autor* haben.
+
+>[!NOTE]
+>
+> Geben Sie entweder ein, um eine neue Gruppe zu erstellen, oder wählen Sie eine bestehende Gruppe für ein bestimmtes Attribut aus.
+
+Sie können `/` verwenden und Untergruppen definieren, um Untergruppen wie `AEM Guides/Cloud Service` zu definieren.
+
+
+
+![Bedingungen, die in einer verschachtelten Hierarchie organisiert sind](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 Um eine Bedingung zu bearbeiten, wählen Sie **Bearbeiten** aus dem Menü &quot;Optionen&quot;. Das Dialogfeld Bedingung bearbeiten wird angezeigt:
 
@@ -1806,7 +1821,7 @@ Um die Überprüfungskommentare in den aktiven Prüfungsaufgaben anzuzeigen, die
    - Wählen Sie ![](images/filter-search-icon.svg) aus, um das Dialogfeld **Filter** zu öffnen. Sie können alle oder nur bestimmte Projekte auswählen. Die ausgewählten Projekte werden im Bedienfeld **Überprüfung** aufgelistet.
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     Die Option **Von mir initiierte Aufgaben** ist standardmäßig aktiviert. Damit können Sie nur die Aufgaben anzeigen, die Sie initiiert haben.
+     Die Option **Von mir initiierte Aufgaben** ist standardmäßig aktiviert. Damit können Sie nur die Aufgaben anzeigen, die Sie initiiert haben. Der Umschalter-Status dieser Option wird auch nach dem Aktualisieren der Seite beibehalten.
 
 1. Standardmäßig wird in Ihrem Überprüfungsprojekt eine flache Liste von Themen angezeigt, denen Kommentare zugeordnet sind. Wenden Sie die erforderlichen Filter aus der linken Leiste an, um die Themen anhand der darin vorhandenen Überprüfungskommentare zu filtern:
 
@@ -1917,7 +1932,7 @@ Sie können auch die Option **In Zuordnung suchen** aus dem Menü **Optionen** e
 
 ## Inhaltsbearbeitungsbereich {#id2051EB000UI}
 
-Im Inhaltsbearbeitungsbereich wird der Inhalt des Themas oder der Zuordnung angezeigt. In diesem Bereich werden alle Inhalte bearbeitet. Es gibt eine WYSIWYG-Ansicht des Inhalts, den Sie bearbeiten. Sie können mehrere Themen gleichzeitig öffnen lassen, die auf den jeweiligen Registerkarten angezeigt werden.
+Im Inhaltsbearbeitungsbereich wird der Inhalt des Themas oder der Zuordnung angezeigt. In diesem Bereich werden alle Inhalte bearbeitet. Er bietet eine WYSIWYG-Ansicht des bearbeiteten Inhalts. Sie können mehrere Themen gleichzeitig öffnen lassen, die auf den jeweiligen Registerkarten angezeigt werden.
 
 Standardmäßig können Sie die Dateinamen in den Registerkarten anzeigen. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateinamen und den Dateipfad als QuickInfo anzeigen.
 

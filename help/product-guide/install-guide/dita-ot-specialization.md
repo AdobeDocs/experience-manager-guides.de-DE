@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
 workflow-type: tm+mt
-source-wordcount: '2093'
+source-wordcount: '2122'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Es gibt zwei Möglichkeiten, das benutzerdefinierte DITA-OT-Plug-in für die Ver
 
 Standardmäßig ist AEM Guides mit einem vorkonfigurierten Profil ausgestattet, das die Konfigurationen für die Standardvorlagen enthält, die zum Bearbeiten und Veröffentlichen von Inhalten verwendet werden sollen. Sie können benutzerdefinierte Profile mit benutzerdefinierten Vorlagen erstellen, die beim Bearbeiten von Dokumenten und benutzerdefinierten DITA-OT-Plug-ins zum Veröffentlichen von Inhalten verwendet werden.
 
-Das DITA-OT-Standardpaket, das mit AEM Guides verfügbar ist, enthält den Apache FOP XSL-FO-Prozessor, der das Rendering von MathML-Gleichungen nicht unterstützt. Wenn Sie MathML-Gleichungen in Ihrem Inhalt verwenden, stellen Sie sicher, dass Sie ein MathML-Rendering-Engine-Plug-in für Apache FOP integriert haben oder einen anderen XSL-FO-Prozessor verwenden.
+Das DITA-OT-Standardpaket, das mit AEM Guides verfügbar ist, enthält den Apache FOP XSL-FO-Prozessor, der das Rendern von MathML-Gleichungen nicht unterstützt. Wenn Sie MathML-Gleichungen in Ihrem Inhalt verwenden, stellen Sie sicher, dass Sie ein MathML Rendering Engine-Plug-in für Apache FOP integriert haben oder einen anderen XSL-FO-Prozessor verwenden.
 
 >[!IMPORTANT]
 >
@@ -171,6 +171,8 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
    >
    > Die Informationen zum Standardprofil werden auf der Seite Profile angezeigt. Wenn Sie AEM Guides von Version 2.2 auf 2.5.1 oder 2.6 aktualisiert haben, werden alle über den Konfigurationsmanager vorgenommenen Änderungen automatisch ausgewählt und im Standardprofil gespeichert.
 
+
+
 1. Sie können das Standardprofil bearbeiten, ein neues Profil erstellen oder Einstellungen aus dem Standardprofil duplizieren, um ein neues Profil zu erstellen.
 
    >[!NOTE]
@@ -178,6 +180,12 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
    > Das Standardprofil kann nicht gelöscht werden. Alle neuen Profile, die Sie erstellen, können jedoch bearbeitet und gelöscht werden.
 
 1. Geben Sie in den Einstellungen **Schema** \> **Katalog** den Pfad der benutzerdefinierten DTD- und XSD-Dateien `catalog.xml` in Ihrem AEM-Repository an.
+
+   >[!NOTE]
+   >
+   > Wenn Sie das benutzerdefinierte Schema verwenden, müssen Sie den Pfad der benutzerdefinierten DTD- und XSD-catalog.xml-Dateien im AEM-Repository in der Option **Kataloge integrieren** definieren.
+
+
 
 1. Wählen Sie die Option **System-ID-Katalog hinzufügen** aus.
 

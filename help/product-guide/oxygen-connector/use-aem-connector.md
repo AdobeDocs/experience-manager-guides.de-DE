@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6293'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Nachdem Sie das Installationsprogramm installiert haben, installieren Sie es auf
 
 ### Technische Anforderungen
 
-- Sauerstoff-XML-Autorenversion 25.1
+- Sauerstoff-XML-Autorenversion 26.1
 
-- Adobe Experience Manager Guides-Version 4.3 oder höher
+- Adobe Experience Manager Guides-Version 4.6 oder höher
 
-- Adobe Experience Manager-Version 6.5 mit Service Pack 14, 15, 16 und 17
+- Adobe Experience Manager-Version 6.5 mit Service Pack 21, 20 und 19
 
-- Von Oxygen XML Author Version 25.1 unterstütztes Betriebssystem
+- Von Oxygen XML Author Version 26.1 unterstütztes Betriebssystem
 
 - Java Development Kit
    - Oracle SE 8 JRE 1.8
@@ -159,7 +159,7 @@ Aktualisieren Sie die angegebenen Dateien, um die Web-Authentifizierungseinstell
 >
 >Erstellen Sie eine Sicherungskopie der Datei, bevor Sie sie aktualisieren.
 
-**Für Mac und Sauerstoff 25.1**
+**Für Mac und Sauerstoff 26.1**
 
 Fügen Sie die folgenden Zeilen in env.sh hinzu:
 
@@ -185,7 +185,7 @@ Fügen Sie die folgenden Zeilen in die Datei SauerstoffAuthor.sh ein.
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**Für Windows und Sauerstoff 25.1**
+**Für Windows und Sauerstoff 26.1**
 
 Fügen Sie die folgenden Zeilen in env.bat hinzu
 
@@ -746,7 +746,7 @@ Lösung: Führen Sie die folgenden Schritte aus, um die Logger für Adobe Xygen 
    </configuration>   
    ```
 
-1. Speichern Sie die Datei im Verzeichnis &quot;`Oxygen Author 25`&quot;. (Der Pfad lautet beispielsweise: `C:\Program Files\Oxygen XML Author 25\logback.xml`)
+1. Speichern Sie die Datei im Verzeichnis &quot;`Oxygen Author 26`&quot;. (Der Pfad lautet beispielsweise: `C:\Program Files\Oxygen XML Author 26\logback.xml`)
 
 1. Schließen Sie die Datei. Dadurch werden Xygen-Protokolle aktiviert, die unter dem folgenden Pfad verfügbar sind: `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. Öffnen Sie die Datei &quot;`oxygenAuthor.bat`&quot; in einem Texteditor.

@@ -5,9 +5,9 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: e979823b7947b561165fde92023ae9c440182e94
+source-git-commit: 45ae1471fe0f0586764ede9dd96530b7f75f69ee
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 9%
 
 ---
@@ -22,8 +22,6 @@ Eine GET, die Word-Dokumente in DITA-Format konvertiert.
 
 **Anforderungs-URL**:
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
-
-**Parameter**:
 
 | Name | Typ | Erforderlich | Beschreibung |
 |----|----|--------|-----------|
@@ -41,6 +39,7 @@ Gibt eine HTTP-Antwort 200 \(Erfolgreich\) zurück.
 Eine GET-Methode, die HTML-Dokumente in das DITA-Format konvertiert.
 
 **Anforderungs-URL**:
+
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **Parameter**:
@@ -53,6 +52,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 | `createRev` | Boolesch | Ja | Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält. |
 
 **Antwortwerte**:
+
 Gibt eine HTTP-Antwort 200 \(Erfolgreich\) zurück.
 
 ## Konvertieren von InDesign-Dokumenten

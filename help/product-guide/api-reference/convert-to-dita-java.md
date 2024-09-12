@@ -5,14 +5,22 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
+source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '300'
 ht-degree: 5%
 
 ---
 
 # Java-basierte APIs für Konversions-Workflow {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> Sie können in Experience Manager Guides verfügbare Java-basierte APIs verwenden, um benutzerdefinierte Plug-ins zu erstellen und native Workflows zu erweitern. Dieser Artikel wird im November 2024 archiviert.
+> Die aktuelle und detaillierte Dokumentation zur Verwendung der Java-basierten API finden Sie unter [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) .
+
+
+
 
 Mit den folgenden Java-basierten APIs können Sie HTML- und Word-Dokumente in das DITA-Format konvertieren. Diese APIs sind in Form eines Bundles verfügbar. Sie müssen dieses Bundle in Ihren Code aufnehmen, um diese APIs verwenden zu können.
 

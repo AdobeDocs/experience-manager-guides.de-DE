@@ -5,7 +5,7 @@ exl-id: f8b723bf-84c0-4fe6-936e-63970fb3e417
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
+source-git-commit: c9ad3bd0e43863ac9ad65776e4e8a81c3176f9a0
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
@@ -22,6 +22,6 @@ Sie können Ihren Nicht-UUID-Inhalt in UUID migrieren.
 > Bevor Sie Inhalte auf den UUID-Server migrieren, stellen Sie sicher, dass auf dem Server ein Nicht-UUID-Server mit kompatibler AEM Guides-Version installiert ist.
 
 
-* [**Migration von Nicht-UUID-Inhalten zu UUID**](./migrate-non-uuid-uuid-new.md)
-* [**Migrieren von versioniertem Inhalt (alt)**](./migrate-non-uuid-uuid-with-versions.md)
+* [**Migration von Nicht-UUID-Inhalten zu UUID**](./migrate-non-uuid-uuid.md)
+* [**Migrieren von versioniertem Inhalt (alt)**](./migrate-non-uuid-uuid-with-versions-legacy.md)
 

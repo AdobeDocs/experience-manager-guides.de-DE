@@ -5,14 +5,20 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: 1860525120edc4df33b898841b9073311d3031c5
+source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '931'
 ht-degree: 2%
 
 ---
 
 # Java-basierte APIs für die Verwendung mit Grundlinien und Bezeichnungen {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> Sie können in Experience Manager Guides verfügbare Java-basierte APIs verwenden, um benutzerdefinierte Plug-ins zu erstellen und native Workflows zu erweitern. Dieser Artikel wird im November 2024 archiviert.
+> Die aktuelle und detaillierte Dokumentation zur Verwendung der Java-basierten API finden Sie unter [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) .
+
 
 Mit den folgenden Java-basierten APIs können Sie eine Grundlinie erstellen und Dateien Beschriftungen zu einer Grundlinie hinzufügen. Diese APIs sind in Form eines Bundles verfügbar. Sie müssen dieses Bundle in Ihren Code aufnehmen, um diese APIs verwenden zu können.
 
