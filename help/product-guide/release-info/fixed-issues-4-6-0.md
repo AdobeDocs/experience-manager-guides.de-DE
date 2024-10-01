@@ -2,9 +2,9 @@
 title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 4.6.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Adobe Experience Manager Guides-Version 4.6.0
 role: Leader
-source-git-commit: 5a30d427fa579e37a18b0fca65dea96dc486c594
+source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,8 @@ Adobe hat die folgenden bekannten Probleme für Version 4.6.0 identifiziert:
 - Die Referenz zum Thema scheint in der Benutzeroberfläche fehlerhaft zu sein, wenn sie von der oberen Symbolleiste der DITA-Map eingefügt wird.
 - Die native PDF-Generierung schlägt für eine DITA-Zuordnung fehl, wenn sie fehlende Verweise aufweist.
 - Sobald der Dokumentstatus eines Themas auf **Fertig** aktualisiert wurde, ist das Symbol **Neue Version starten** nur im Modus **Vorschau** des Themas verfügbar.
+- Wenn Sie eine DITA-Datei in der Asset-Benutzeroberfläche auswählen, wird die Option **In FrameMaker öffnen** angezeigt, auch wenn sie in den Konfigurationseinstellungen deaktiviert ist.
+
 
 
 
