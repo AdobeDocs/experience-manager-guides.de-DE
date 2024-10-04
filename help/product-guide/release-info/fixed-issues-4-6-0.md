@@ -2,9 +2,9 @@
 title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 4.6.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Adobe Experience Manager Guides-Version 4.6.0
 role: Leader
-source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
+source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ Erfahren Sie mehr über [Upgrade-Anweisungen für Version 4.6.0](../release-info
 - Das Verhalten der Schaltfläche Schließen ist bei Verwendung der Funktion Automatisches Speichern inkonsistent. (1096)
 - Beim Einfügen eines neuen Elements oder Ändern von Gleichungen treten in MathML-Elementen Validierungsprobleme auf. (10624)
 - Die Funktion &quot;Änderungen verfolgen&quot;funktioniert nicht mit Text, der mit koreanischen Zeichen beginnt. (14538)
-
-
+- Verknüpfte Bilder aus den Themen werden nach der Versionserstellung nicht in der Grundlinie angezeigt. (16931)
 
 ## Veröffentlichung
 
