@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: cddbd7a19d4dfaa3f6549ed1bd511eeeb02acbb2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -137,12 +137,29 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen InDesign-Dokumente i
 1. Navigieren Sie zur Standardkonfigurationsdatei, die unter folgendem Speicherort verfügbar ist:
 
    `/libs/fmdita/config/idml2dita_io.xml`
+1. Um eine benutzerdefinierte Konfiguration entsprechend Ihren Anforderungen zu erstellen, erstellen Sie einen Überlagerungsknoten des Ordners `config` im Knoten `apps` .
 
-1. Erstellen Sie einen Überlagerungsknoten des Ordners `config` im Knoten `apps` .
+1. Kopieren Sie die folgenden Dateien oder Ordner aus dem Ordner `libs` in den Ordner &quot;apps&quot;:
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. Navigieren Sie zur Konfigurationsdatei, die im Knoten `apps` verfügbar ist:
 
    `/apps/fmdita/config/idml2dita_io.xml`
+
+1. Fügen Sie die Zuordnung der Konfigurationen hinzu, die im Ordner &quot;`idml12dita`&quot;in der Datei &quot;`idml2dita_io.xml`&quot;vorhanden sind.
+1. Fügen Sie die folgenden Eigenschaften in die Datei `idml2dita_io.xml` ein:
+
+   ```
+   <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
+
+1. Erstellen Sie einen Überlagerungsknoten des Ordners `config` im Knoten `apps` .
+
 
    Konfigurieren Sie die folgenden Parameter in der Datei `idml2dita_io.xml` :
 
@@ -160,7 +177,7 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen InDesign-Dokumente i
      >
      > Weitere Informationen zur Struktur der Datei `stmap.adobeidml.xml` und zur Anpassung finden Sie im Abschnitt [Anhang.md\#id194AF0003HT](appendix.md#id194AF0003HT) im Anhang.
 
-1. Speichern Sie die Datei `idml2dita_io.xml`.
+1. Speichern Sie die `idml2dita_io.xml`-Datei.
 
 1. Nachdem Sie die erforderlichen Parameter in der Datei `idml2dita_io.xml` konfiguriert haben, melden Sie sich bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 
@@ -323,7 +340,7 @@ Gehen Sie wie folgt vor, um Ihre bestehenden unstrukturierten FrameMaker-Dokumen
 
    - Geben Sie im Element `ditaVal` den Wert für das zugeordnete Attribut an. Wenn Sie keinen Wert haben, können Sie diesen Eintrag leer lassen.
 
-1. Speichern Sie die Datei `style2attrMap.xml`.
+1. Speichern Sie die `style2attrMap.xml`-Datei.
 
 1. Nachdem Sie die erforderlichen Parameter in der Datei `style2attrMap.xml` konfiguriert haben, melden Sie sich bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 
@@ -368,7 +385,7 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen strukturierten Dokum
 
    - Geben Sie für das Element `createRev` an, ob eine neue Version des konvertierten DITA-Themas erstellt werden soll \(`true`\) oder nicht \(`false`\).
 
-1. Speichern Sie die Datei `XSLConfig.xml`.
+1. Speichern Sie die `XSLConfig.xml`-Datei.
 
 1. Nachdem Sie die erforderlichen Parameter in der Datei `XSLConfig.xml` konfiguriert haben, melden Sie sich bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 

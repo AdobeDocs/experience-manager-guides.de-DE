@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
+source-git-commit: b2b26a85236245f989866ab8ee801a930ed8a8c4
 workflow-type: tm+mt
-source-wordcount: '6293'
+source-wordcount: '6347'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ Nachdem Sie eine Verbindung zum AEM-Repository hergestellt haben, können Sie Da
 
 1. Klicken Sie im AEM Guides-Bedienfeld mit der rechten Maustaste auf eine Datei, die Sie zur Bearbeitung öffnen möchten.
 
-1. Wählen Sie **Öffnen** aus dem Kontextmenü.
+1. Wählen Sie **Öffnen** aus dem Kontextmenü. Alternativ können Sie auf die Datei doppelklicken, um sie zu öffnen.
 
    Die Datei wird im Editor der XML-Autoreninstanz von Oxygen geöffnet.
 
@@ -354,12 +354,14 @@ Nachdem Sie eine Verbindung zum AEM-Repository hergestellt haben, können Sie Da
 
    Wenn Sie den Mauszeiger über die Registerkarte einer Datei bewegen, wird Ihnen der Serverpfad zusammen mit der UUID angezeigt. Im obigen Screenshot wird die UUID des Dokuments hervorgehoben.
 
+>[!NOTE]
+>
+>Wenn Sie den Mauszeiger über die Bilder oder Videos in einem Thema im Editor der XML-Autoren-Sauerstoff bewegen, wird nur die UUID des ausgewählten Elements angezeigt. Um es im Repository zu finden, klicken Sie mit der rechten Maustaste auf das angezeigte Bild- oder Objekt-Tag (nur bei Videos, Audiodateien und anderen Mediendateien) und wählen Sie **Im Repository anzeigen** aus.
+
+
 
 Wenn Sie die Option &quot;**Automatische Checkout-Datei beim Öffnen**&quot;ausgewählt haben \(im Dialogfeld &quot;Voreinstellungen&quot;\), wird beim Öffnen einer Datei die Datei automatisch ausgecheckt und steht zur Bearbeitung zur Verfügung. Um eine Datei zu öffnen, können Sie entweder auf einen Dateinamen doppelklicken oder mit der rechten Maustaste auf den Dateinamen klicken und **Öffnen** aus dem Kontextmenü auswählen. Wenn diese Option nicht ausgewählt ist, wird die Datei im schreibgeschützten Modus geöffnet.
 
->[!NOTE]
->
->Sie können auch auf eine Datei doppelklicken, um sie zu öffnen.
 
 ### Datei im AEM Guides-Editor öffnen {#id195GH0V30KX}
 
@@ -751,7 +753,7 @@ Lösung: Führen Sie die folgenden Schritte aus, um die Logger für Adobe Xygen 
 1. Schließen Sie die Datei. Dadurch werden Xygen-Protokolle aktiviert, die unter dem folgenden Pfad verfügbar sind: `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. Öffnen Sie die Datei &quot;`oxygenAuthor.bat`&quot; in einem Texteditor.
 1. Richten Sie JxBrowser-bezogene Protokolle ein, indem Sie den Parameter hinzufügen
-   `-Denable.aem.jx.log=true`. Dadurch werden JxBrowser-bezogene Protokolle aktiviert, die Sie unter dem folgenden Pfad anzeigen können: `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`:
+   `-Denable.aem.jx.log=true` ersetzt werden. Dadurch werden JxBrowser-bezogene Protokolle aktiviert, die Sie unter dem folgenden Pfad anzeigen können: `${user.home}\AppData\Local\Temp\Oxygen_Plugin_Javax_Log.log`:
 
 
 

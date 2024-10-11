@@ -5,9 +5,9 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -55,4 +55,20 @@ Wenn Sie das nächste Mal eine neue Zuordnung erstellen, wird Ihre Vorlage auf d
 >
 > Best Practices zur Verwendung benutzerdefinierter Zuordnungsvorlagen finden Sie im Abschnitt *Benutzerdefinierte Vorlagen* im Best Practices-Handbuch.
 
-**Übergeordnetes Thema:**[ Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)
+
+## Anzahl der Verweise in einer DITA-Zuordnung anpassen
+
+Sie können den Schwellenwert für die asynchrone Verarbeitung basierend auf der Anzahl der Verweise in der DITA-Zuordnung konfigurieren. Standardmäßig werden Maps mit mehr als 5 Verweisen über asynchrone Vorgänge erstellt, während Maps mit weniger Verweisen weiterhin synchrone Vorgänge verwenden.
+
+
+Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden (Eigenschaft-)Details an, um die Anzahl der Verweise in der DITA-Zuordnungsvorlage anzugeben, damit der Prozess synchron bleibt:
+
+| PID | Eigenschaftenschlüssel | Eigenschaftswert |
+|---|------------|--------------|
+| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **Standardwert**: 5 |
+
+Wenn Sie eine DITA-Zuordnung mit großen Themenverweisen mithilfe einer benutzerdefinierten Vorlage erstellen, schlägt die Zuordnungserstellung auf dem Cloud-Server fehl, wenn die Gesamtverarbeitungszeit 60 Sekunden überschreitet.
+
+Um dies zu verhindern, konfigurieren Sie in XmlEditorConfig die Erstellung von **asynchronen Datenkarten** , die die parallele Ausführung von Aufgaben und die Verkürzung der Verarbeitungszeiten für größere DITA-Maps ermöglicht.
+
+**Übergeordnetes Thema:** [Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)

@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
+source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
 workflow-type: tm+mt
-source-wordcount: '4285'
+source-wordcount: '4521'
 ht-degree: 0%
 
 ---
@@ -411,7 +411,7 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 Für ![AEM Cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
 
-Sie können die KI-gestützten intelligenten Vorschläge konfigurieren und den Autoren dabei helfen, die vorhandenen Inhalte wiederzuverwenden und mühelos korrekte und konsistente Inhaltsreferenzen zu erstellen. Auf der Registerkarte **KI-Konfiguration** können Sie die Einstellungen des Bedienfelds &quot;Smart Suggestions&quot;im Web Editor steuern.
+Sie können die KI-gestützten intelligenten Vorschläge konfigurieren und den Autoren dabei helfen, die vorhandenen Inhalte wiederzuverwenden und mühelos korrekte und konsistente Inhaltsreferenzen zu erstellen. Auf der Registerkarte **KI-Konfiguration** können Sie die Einstellungen von **Vorschlagen wiederverwendbarer Inhalte** im Bereich &quot;KI-Assistent&quot;des Web Editors steuern.
 
 Führen Sie die folgenden Schritte aus, um die standardmäßige AI-Konfiguration im Profil auf globaler Ebene oder auf Ordnerebene zu konfigurieren:
 1. Melden Sie sich bei Adobe Experience Manager als Administrator oder Benutzer mit Administratorrechten für ein Profil auf Ordnerebene an.
@@ -446,52 +446,52 @@ Erfahren Sie mehr darüber, wie Sie [KI-basierte intelligente Vorschläge](../us
 
 
 
-<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+## KI-gestützte intelligente Hilfe im Web-Editor konfigurieren {#conf-ai-guides-assistant}
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+Für ![AEM Cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Sie können die KI-gestützte **Smart-Hilfe** so konfigurieren, dass Autoren Fragen stellen und mühelos den erforderlichen Inhalt aus der [Experience Manager Guides-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) finden können.
 
-The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
+Auf der Registerkarte **XML-Editor-Konfiguration** können Sie die Standardfragen für das Bedienfeld **Intelligente Hilfe** im Web Editor konfigurieren.
 
 >[!NOTE]
 >
->You can configure up to 10 default questions. 
+>Sie können bis zu 10 Standardfragen konfigurieren.
 
-Perform the following steps to configure the default questions:
+Führen Sie die folgenden Schritte aus, um die Standardfragen zu konfigurieren:
 
-1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
-1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
-1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
-1. Select the profile tile that you want to configure.
+1. Melden Sie sich bei Adobe Experience Manager als Administrator oder Benutzer mit Administratorrechten für ein Profil auf Ordnerebene an.
+1. Wählen Sie oben den Link **Adobe Experience Manager** und danach **Tools** aus.
+1. Wählen Sie **Guides** aus der Liste der Tools und dann die Kachel **Ordnerprofile** aus.
+1. Wählen Sie die Profilkachel aus, die Sie konfigurieren möchten.
 
-    >[!NOTE]
-    >
-    >You can configure default questions for the **Guides assistant panel** to the global or a folder-level profile.
+   >[!NOTE]
+   >
+   >Sie können Standardfragen für das Bedienfeld **Intelligente Hilfe** für das globale Profil oder ein Profil auf Ordnerebene konfigurieren.
 
-1.  Select the **XML Editor Configuration** tab. 
+1. Wählen Sie die Registerkarte **XML-Editor-Konfiguration** aus.
 
-1. Click the **Edit** icon on the top.
-1.  In the **XML Editor UI configuration** section, select the **Download** icon to download the `ui_config.json` file on your local system.
-1.  In the `ui_config.json` file, add the sample questions.
+1. Klicken Sie oben auf das Symbol **Bearbeiten** .
+1. Wählen Sie im Abschnitt **Konfiguration der XML-Editor-Benutzeroberfläche** das Symbol **Download** aus, um die Datei `ui_config.json` auf Ihr lokales System herunterzuladen.
+1. Fügen Sie in der Datei `ui_config.json` die Beispielfragen hinzu.
 
-    **Example of sample questions**:
+   **Beispiel für Beispielfragen**:
 
-    ```json
-    "assistantSampleQuestions": [
-    "How to create a new topic",
-    "How to create a new map",
-    "What is a baseline" ]
-    ```
+   ```json
+   "assistantSampleQuestions": [
+   "How to create a new topic",
+   "How to create a new map",
+   "What is a baseline" ]
+   ```
 
-1. Save the file and upload it.
+1. Speichern Sie die Datei und laden Sie sie hoch.
 
-    >[!NOTE]
-    >
-    > The default questions appear in the **Guides assistant** panel after you save the file. 
+   >[!NOTE]
+   >
+   > Die Standardfragen werden nach dem Speichern der Datei im Bedienfeld **Smart Help** angezeigt.
 
 
-Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
+Erfahren Sie mehr über die Verwendung der [KI-gestützten intelligenten Hilfe](../user-guide/ai-based-smart-help.md), um die erforderlichen Inhalte aus der Experience Manager Guides-Dokumentation zu finden.
 
 
 ## Konfigurieren und Anpassen des XML Web Editor {#id2065G300O5Z}
