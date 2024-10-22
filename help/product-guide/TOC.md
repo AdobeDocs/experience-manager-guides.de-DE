@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: fb586c7e857db5c4aa68645cb1be2a48fdbe165c
+source-git-commit: 9db546b3a9e0ece66024e1c06c6cec52b786ff76
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1974'
 ht-degree: 7%
 
 ---
@@ -494,18 +494,22 @@ ht-degree: 7%
          - [Konfigurieren eines Datenquellen-Connectors](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
 
       - Veröffentlichung {#publishing}
+
+         - Native PDF {#native-pdf}
+            - [Fügen Sie benutzerdefinierte Schriftarten zu Ihrer nativen DITA-PDF hinzu.](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+            - [Konfigurieren AEM Umgebung für natives PDF-Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+            - [Hinzufügen von Enterprise Branding zur ersten Seite eines PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
+            - [Generieren des Inhaltsverzeichnisses für Bookmap in nativer PDF-Veröffentlichung](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - DITA-OT {#dita-ot}
             - [Verwenden AEM Metadaten im Plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
-         - [Fügen Sie benutzerdefinierte Schriftarten zu Ihrer nativen DITA-PDF hinzu.](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-         - [Konfigurieren AEM Umgebung für natives PDF-Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-         - [Hinzufügen von Enterprise Branding zur ersten Seite eines PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-         - [Generieren des Inhaltsverzeichnisses für Bookmap in nativer PDF-Veröffentlichung](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+            - [Einrichten eines benutzerdefinierten DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
          - [FMPS und Handbücher](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+
          - [Microservice-Architektur und -Leistung](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Konfigurieren der Veröffentlichung auf Microservice-Basis mit JWT-Authentifizierung](./knowledge-base/publishing/configure-microservices.md)
          - [Konfigurieren der mikrodienstbasierten Veröffentlichung mit OAuth-Authentifizierung](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Veröffentlichen von Benchmarks in AEM Cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-         - [Einrichten eines benutzerdefinierten DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+
 
       - Workflows {#workflows}
          - [Arbeitsablauf nach der Erstellung](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
