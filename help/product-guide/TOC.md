@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 6543bc66e1c950a6bf6b923652d61ee87ef966c8
+source-git-commit: fb586c7e857db5c4aa68645cb1be2a48fdbe165c
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1972'
 ht-degree: 7%
 
 ---
@@ -496,6 +496,7 @@ ht-degree: 7%
       - Veröffentlichung {#publishing}
          - DITA-OT {#dita-ot}
             - [Verwenden AEM Metadaten im Plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
+         - [Fügen Sie benutzerdefinierte Schriftarten zu Ihrer nativen DITA-PDF hinzu.](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
          - [Konfigurieren AEM Umgebung für natives PDF-Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          - [Hinzufügen von Enterprise Branding zur ersten Seite eines PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
          - [Generieren des Inhaltsverzeichnisses für Bookmap in nativer PDF-Veröffentlichung](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
