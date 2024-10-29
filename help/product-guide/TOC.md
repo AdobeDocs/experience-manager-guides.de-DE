@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 9db546b3a9e0ece66024e1c06c6cec52b786ff76
+source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 7%
 
 ---
@@ -20,10 +20,13 @@ ht-degree: 7%
       - Cloud Services {#cloud-release-notes}
          - [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
          - Versionen 2024 {#2024-releases}
-            - Version 2024.10.0 {#2410-release}
-               - [Neue Funktionen](./release-info/whats-new-2024-10-0.md)
-               - [Behobene Probleme](./release-info/fixed-issues-2024-10-0.md)
-               - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2024-10-0.md)
+            - Version 2024.10.x {#2410-release}
+               - Version 2024.10.1 {#2410-1-release}
+                  - [Behobene Probleme](./release-info/fixed-issues-2024-10-1.md)
+               - Version 2024.10.0 {#2410-0-release}
+                  - [Neue Funktionen](./release-info/whats-new-2024-10-0.md)
+                  - [Behobene Probleme](./release-info/fixed-issues-2024-10-0.md)
+                  - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2024-10-0.md)
             - Version 2024.6.0 {#2406-release}
                - [Neue Funktionen](./release-info/whats-new-2024-06-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2024-06-0.md)
@@ -76,11 +79,13 @@ ht-degree: 7%
             - [Januar - Versionshinweise](./release-info/release-notes-2022-1-0.md)
       - On-Premise/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] Releases](./release-info/latest-release-info.md)
+         - 4.6.1 Release {#461-release}
+            - [Behobene Probleme](./release-info/fixed-issues-4-6-1.md)
+            - [Aktualisierungsanweisungen](./release-info/upgrade-instructions-4-6-1.md)
          - 4.6.0 Release {#460-release}
             - [Neue Funktionen](./release-info/whats-new-4-6.md)
             - [Behobene Probleme](./release-info/fixed-issues-4-6-0.md)
             - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-6-0.md)
-
          - 4.4.0 Release {#440-release}
             - [Neue Funktionen](./release-info/whats-new-4-4.md)
             - [Behobene Probleme](./release-info/fixed-issues-4-4.md)
@@ -106,7 +111,6 @@ ht-degree: 7%
          - [4.0.x - Versionshinweise](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          - [3.8.x - Versionshinweise](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Benutzerhandbuch {#user-guide}
-
    - Einführung {#about-aem-guide}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] Arbeits- und Schlüsselfunktionen {#aemg-works-features}
@@ -118,18 +122,14 @@ ht-degree: 7%
       - [Dateien und Ordner verwalten](./user-guide/authoring-file-management.md)
       - [Dateien herunterladen](./user-guide/authoring-download-assets.md)
    - Autoreninhalt {#author-content}
-
       - [Authoring – Übersicht](./user-guide/authoring-content.md)
       - Themenerstellung und -vorschau {#create-preview-topics}
-
          - [Erstellen und Anzeigen einer Vorschau von Themen](./user-guide/create-preview-topics.md)
          - [Erstellen von Themen](./user-guide/web-editor-create-topics.md)
          - [Vorschau eines Themas](./user-guide/web-editor-preview-topics.md)
          - Autoreninhalt {#author-content-aem-guides}
-
             - [Inhaltserstellung mit AEM Guides](./user-guide/authoring-content-xml-doc.md)
             - Web Editor {#work-with-web-editor}
-
                - [Arbeiten mit dem Web-Editor](./user-guide/web-editor.md)
                - [Starten des Web Editors](./user-guide/web-editor-launch-editor.md)
                - [Bearbeiten von Themen im Web-Editor](./user-guide/web-editor-edit-topics.md)
@@ -154,7 +154,6 @@ ht-degree: 7%
                - [Erstellen und Verwalten von Grundlinien im Web-Editor](./user-guide/web-editor-baseline.md)
                - [Dokumentstatus](./user-guide/web-editor-document-states.md)
                - [Verwenden von Bezeichnungen](./user-guide/web-editor-use-label.md)
-
             - Map Editor {#work-with-map-editor}
                - [Arbeiten mit dem Map Editor](./user-guide/map-editor.md)
                - [Erstellen einer Karte](./user-guide/map-editor-create-map.md)
@@ -164,12 +163,10 @@ ht-degree: 7%
                - [Weitere Funktionen im Map-Editor](./user-guide/map-editor-other-features.md)
             - DITAVAL-Editor {#ditaval-editor}
                - [Arbeiten mit dem DITAVAL-Editor](./user-guide/ditaval-editor.md)
-
          - Desktop-Tools für die Inhaltserstellung {#author-using-desktop-tools}
             - [Verfassen von Inhalten mit Desktop-Tools](./user-guide/author-desktop-tools.md)
             - [Arbeiten mit FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Arbeiten mit Oxygen](./user-guide/author-desktop-oxygen.md)
-
    - Inhalt überprüfen {#review-topic-maps}
       - [Themen oder Zuordnungen überprüfen](./user-guide/review.md)
       - [Erstellen eines DITA-Projekts](./user-guide/authoring-create-dita-project.md)
@@ -194,7 +191,6 @@ ht-degree: 7%
       - [Grundlagen zur Generierung von Ausgaben](./user-guide/generate-output.md)
       - [Einführung in Ausgabevorgaben](./user-guide/generate-output-understand-presets.md)
       - Ausgabevorgaben in AEM Guides {#output-presets-aemg}
-
          - [AEM Sites](./user-guide/generate-output-aem-site.md)
          - [AEM Sites-Vorgaben im Landkarten-Dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [AEM Sites-Vorgaben im Web-Editor](./user-guide/generate-output-aem-site-web-editor.md)
@@ -242,7 +238,6 @@ ht-degree: 7%
       - [Bericht zur Inhaltswiederverwendung](./user-guide/reports-content-reuse.md)
       - [Konversionsstatusbericht](./user-guide/reports-convertion-status.md)
       - [Versionsverlauf wiederhergestellter Dateien - Bericht](./user-guide/reports-reverted-file-version-history.md)
-
 - Installation und Konfiguration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [On-Premise-Grundlagen](./install-guide/introduction.md)
@@ -368,8 +363,7 @@ ht-degree: 7%
       - Arbeiten mit den Web-Editor-Konfigurationen {#web-editor-configs-cs}
          - [Anpassen des Web-Editors](./cs-install-guide/conf-web-editor.md)
          - [Symbolleiste anpassen](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         - [KI-gestützte intelligente Vorschläge für das Authoring konfigurieren](./cs-install-guide/conf-smart-suggestions.md)
-
+         - [KI-gestützte intelligente Vorschläge für die Bearbeitung konfigurieren](./cs-install-guide/conf-smart-suggestions.md)
          - [Konfigurieren der KI-gestützten intelligenten Hilfe für die Inhaltssuche](./cs-install-guide/conf-smart-help.md)
          - [Standardwert für die Tag-Ansicht konfigurieren](./cs-install-guide/configure-default-value-tags-view.md)
          - [Anzeige von UUID-basierten Links konfigurieren](./cs-install-guide/conf-uuid-based-links.md)
@@ -428,7 +422,6 @@ ht-degree: 7%
    - [Ereignis-Handler für Massenaktivierung](./api-reference/bulk-activation-complete-event.md)
    - [Konvertierungs-Prozess-Ereignishandler](./api-reference/conversion-complete-event.md)
 - Wissensdatenbank {#knowledge-base}
-
    - Expertensitzung {#expert-session}
       - [Übersicht über Expertensitzungen](./knowledge-base/expert-sessions/expert-session.md)
       - [Inhalte übersetzen](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
@@ -447,7 +440,6 @@ ht-degree: 7%
       - [Bereitstellungsoptionen und Migration zu Cloud](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
       - [Migrieren von Inhalten ohne UUID zu UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
    - Artikel {#kb-articles}
-
       - Authoring {#authoring}
          - Web Editor {#webeditor}
             - [Wiederverwendbarkeit von Inhalten in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
@@ -492,9 +484,7 @@ ht-degree: 7%
       - Externe Datenquelle {#external-data-source}
          - [Datenquellen integrieren](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
          - [Konfigurieren eines Datenquellen-Connectors](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
-
       - Veröffentlichung {#publishing}
-
          - Native PDF {#native-pdf}
             - [Fügen Sie benutzerdefinierte Schriftarten zu Ihrer nativen DITA-PDF hinzu.](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
             - [Konfigurieren AEM Umgebung für natives PDF-Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -504,13 +494,10 @@ ht-degree: 7%
             - [Verwenden AEM Metadaten im Plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [Einrichten eines benutzerdefinierten DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
          - [FMPS und Handbücher](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-
          - [Microservice-Architektur und -Leistung](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Konfigurieren der Veröffentlichung auf Microservice-Basis mit JWT-Authentifizierung](./knowledge-base/publishing/configure-microservices.md)
          - [Konfigurieren der mikrodienstbasierten Veröffentlichung mit OAuth-Authentifizierung](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Veröffentlichen von Benchmarks in AEM Cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-
-
       - Workflows {#workflows}
          - [Arbeitsablauf nach der Erstellung](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Übersetzung {#translation}
@@ -519,5 +506,4 @@ ht-degree: 7%
       - Anwendungsfälle {#use-cases}
          - [Arbeiten mit bedingten Inhalten](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [Arbeiten mit Schlüsseln](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-
    - [Verwenden des Sauerstoffanschlusses](./oxygen-connector/use-aem-connector.md)

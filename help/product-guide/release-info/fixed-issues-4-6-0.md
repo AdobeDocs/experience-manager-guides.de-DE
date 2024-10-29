@@ -2,9 +2,9 @@
 title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 4.6.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Adobe Experience Manager Guides-Version 4.6.0
 role: Leader
-source-git-commit: 9ffe068bbcdc0fe32e3dbf56a48171d241825e5a
+source-git-commit: d51cc5ed621d5f533815c677e23bd4c1f4a52de3
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ Erfahren Sie mehr über [Upgrade-Anweisungen für Version 4.6.0](../release-info
 - Die Themenneuerstellung schlägt aufgrund des Fehlers der OOTB-Regenerate Topic oder der inkrementellen Publish-API fehl. (18452)
 - Die Bedingungsvorgabe ruft nach der Aktualisierung von Experience Manager Guides keine aktualisierten Attribute ab. (18174)
 - Inhaltsreferenzen werden für die Ausgabe nativer PDF nicht korrekt aufgelöst, wenn sich die Datei mit Schlüsseldefinitionen nicht im selben Ordner wie die DITA-Zuordnung befindet. (15062)
+- Das Massen-Publish-Dashboard zeigt leere Karten an, die sich noch im Übersetzungsprozess befinden. (19352)
 - Die Massenaktivierung von veröffentlichten Inhalten funktioniert nicht für lokalisierte Maps. (17638)
+
 
 
 ## Verwaltung
