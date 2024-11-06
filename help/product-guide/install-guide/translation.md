@@ -5,10 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
+source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 14%
+source-wordcount: '836'
+ht-degree: 12%
 
 ---
 
@@ -92,6 +92,40 @@ Basierend auf dem in Ihrer Einrichtung verwendeten Übersetzungs-Workflow sollte
 
 1. Klicken Sie auf **Speichern**.
 
+>[!IMPORTANT]
+>
+> Nachdem Sie die Übersetzungskonfigurationen eingerichtet haben, stellen Sie sicher, dass Sie die entsprechende Cloud-Konfiguration für die Sprachordner einrichten.
+
+## Konfigurieren des alten Übersetzungs-Workflows
+
+>[!IMPORTANT]
+> 
+> Es wird empfohlen, den neuesten Übersetzungs-Workflow zu verwenden, der die Leistung verbessert. Wenn jedoch Anpassungen im aktuellen Übersetzungsprozess aktiviert sind, sollten Sie den alten Übersetzungs-Workflow verwenden.
+
+Standardmäßig ist die Option Legacy-Übersetzungs-Workflow deaktiviert. Sie können diese Option konfigurieren, indem Sie die folgenden Schritte ausführen:
+
+1. Öffnen Sie die Seite Adobe Experience Manager Web Console Configuration .
+
+   Die Standard-URL für den Zugriff auf die Konfigurationsseite lautet:
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. Suchen Sie nach dem Bundle **com.adobe.fmdita.config.ConfigManager** und klicken Sie darauf.
+
+1. Konfigurieren Sie die Option für den alten Übersetzungs-Workflow entsprechend Ihrer Einrichtung:
+
+   - (*Standard*) Wenn Sie den neuesten Übersetzungs-Workflow verwenden möchten, deaktivieren Sie die Option **Veralteten Übersetzungs-Workflow ausführen** .
+   - Wenn Sie den alten Übersetzungs-Workflow verwenden möchten, aktivieren Sie die Option **Veralteten Übersetzungs-Workflow ausführen** .
+
+1. Klicken Sie auf **Speichern**.
+
+
+
+
+
+
 <!---
 
 This was added for 2406 CS IG
@@ -125,9 +159,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 --->
->[!IMPORTANT]
->
-> Nachdem Sie die Übersetzungskonfigurationen eingerichtet haben, stellen Sie sicher, dass Sie die entsprechende Cloud-Konfiguration für die Sprachordner einrichten.
+
 
 ## Konfigurieren der Nachbearbeitung temporärer Sprachkopien
 
@@ -145,10 +177,10 @@ Standardmäßig ist die Option Nachbearbeitung temporärer Dateien deaktiviert. 
 
 1. Suchen Sie nach dem Bundle **com.adobe.fmdita.config.ConfigManager** und klicken Sie darauf.
 
-1. Konfigurieren Sie die Option **Post-Prozesssprachkopien** gemäß Ihrer Einrichtung:
+1. Konfigurieren Sie die Option **Sprachkopien nach der Verarbeitung** gemäß Ihrer Einrichtung:
 
-   - \(*Standard*\) Wenn Sie den Nachbearbeitungsprozess nicht für die temporären Dateien ausführen möchten, deaktivieren Sie die Option *Post-Prozesssprachkopien deaktivieren*.****
+   - \(*Standard*\) Wenn Sie die Nachbearbeitung nicht für die temporären Dateien ausführen möchten, deaktivieren Sie die Option *Sprachkopien nach der Verarbeitung deaktivieren*.****
 
-   - Wenn Sie die Nachbearbeitung für die temporären Dateien ausführen möchten, aktivieren Sie die Option **Post-Sprachkopien verarbeiten** , um *Aktivieren* zu aktivieren.
+   - Wenn Sie die Nachbearbeitung für die temporären Dateien ausführen möchten, aktivieren Sie die Option **Sprachkopien nach der Verarbeitung** *Aktivieren* .
 
 1. Klicken Sie auf **Speichern**.
