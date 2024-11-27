@@ -4,9 +4,9 @@ user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience M
 breadcrumb-title: Dokumentation zu AEM Guides
 hide: true
 badgeAll: label="Legacy-Handbuch - Weitere Informationen" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Legacy-Anleitung"
-source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
+source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '543'
 ht-degree: 6%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 6%
       - [Einführung in Ausgabevorgaben](./user-guide/generate-output-understand-presets.md)
       - Ausgabevorgaben in AEM Guides {#output-presets-aemg}
          - [AEM Site](./user-guide/generate-output-aem-site.md)
+         - [AEM Sites-Vorgaben im Landkarten-Dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [AEM Sites-Vorgaben im Web-Editor](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [Wissensdatenbank](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
