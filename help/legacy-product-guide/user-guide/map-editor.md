@@ -1,9 +1,10 @@
 ---
 title: Arbeiten mit dem Map Editor
 description: Arbeiten Sie mit dem Map Editor in AEM Guides. Erfahren Sie, wie Sie eine Zuordnungsdatei im AEM-Map-Editor erstellen und bearbeiten.
+exl-id: 1c780ae2-6917-474f-8222-cb93807426e2
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

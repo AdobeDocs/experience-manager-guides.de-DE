@@ -1,9 +1,10 @@
 ---
 title: Inhalt verwalten
 description: Verwalten Sie Inhalte und identifizieren Sie Ihre Rollen und Berechtigungen in AEM Guides. Erfahren Sie mehr über die wichtigsten Konzepte des Content Managements und der Arbeit mit globalen Profilen oder Profilen auf Ordnerebene.
+exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -14,7 +15,7 @@ ht-degree: 10%
 
 Bevor Sie mit der eigentlichen Inhaltserstellung beginnen, müssen Sie sich mit einigen Grundkonzepten des Content Managements in AEM Guides vertraut machen. Beginnen Sie dann mit dem Erstellen verschiedener Benutzergruppen und dem Organisieren Ihrer Assets.
 
-## Schlüsselkonzepte
+## Wichtige Konzepte
 
 Einige der wichtigsten Konzepte des Content Managements in AEM sind:
 

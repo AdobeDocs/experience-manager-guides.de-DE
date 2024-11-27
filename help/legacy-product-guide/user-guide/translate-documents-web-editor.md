@@ -1,11 +1,12 @@
 ---
 title: Übersetzen von Dokumenten aus dem Web Editor
 description: Übersetzen Sie Ihre Inhalte über den Web-Editor in mehrere Sprachen. Erfahren Sie, wie Sie ein Übersetzungsprojekt erstellen, Regeln hinzufügen, Versionen anzeigen und nicht synchronisierte Dateien in AEM Guides schließen.
+exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2343'
 ht-degree: 1%
 
 ---
@@ -22,7 +23,7 @@ AEM Guides verfügt über eine leistungsstarke Funktion im Web Editor, mit der S
 >
 > Ihr Administrator kann die Registerkarte Verwalten \(für die Übersetzung verwendet\) im Web Editor konfigurieren. Weitere Informationen finden Sie unter *Konfigurieren der Übersetzungsfunktion im Web-Editor* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service .
 
-## Vorbereitung
+## Voraussetzungen
 
 Stellen Sie vor dem Ausführen der Schritte in diesem Verfahren sicher, dass Sie den erforderlichen Sprachstamm und die Zielordner erstellt haben.
 
@@ -111,11 +112,15 @@ In einem XLIFF-Projekt wird der Inhalt in das XLIFF-Format des Branchenstandards
    - Sie können **Neues mehrsprachiges Übersetzungsprojekt erstellen** auswählen, das Übersetzungsaufträge für alle Sprachen enthält, die Sie für die Übersetzung ausgewählt haben. Wenn Sie beispielsweise Französisch, Deutsch und Spanisch ausgewählt haben, wird ein Projekt erstellt, das Übersetzungsaufträge für alle drei Sprachen enthält.
    - Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Wählen Sie in der Liste Projekt die Option Zu **vorhandenem Übersetzungsprojekt hinzufügen** aus und wählen Sie ein Projekt aus der Liste Vorhandenes Übersetzungsprojekt aus. Sie können diese Projekte nach der neuesten, aufsteigenden oder absteigenden Reihenfolge sortieren.
 
-     >[!NOTE]
-     >
-     > Wenn es sich bei Ihrem vorhandenen Projekt um ein Scoping-Projekt handelt, ist in seinem Namen &quot;\(Scoping\)&quot;angehängt.
+- Wenn Sie &quot;**Vorhandenes Übersetzungsprojekt**&quot;auswählen, aktualisiert dieser Vorgang den vorhandenen Asset-Eintrag im Projekt, wenn das Asset bereits hinzugefügt wurde und sich der zugehörige Übersetzungsauftragsstatus im Status &quot;*Entwurf*&quot;befindet.
+   - Wenn die Zielsprache im Projekt nicht vorhanden ist, wird ein neues Projekt für das Übersetzungsprojekt mit einer Sprache erstellt und ein neuer Auftrag für mehrsprachige Übersetzungsprojekte erstellt.
+   - Wenn der Auftrag bereits für die Zielsprache vorhanden ist und sich der Auftragsstatus nicht im Status &quot;*Entwurf*&quot;befindet, wird innerhalb desselben Projekts ein neuer Auftrag erstellt, um die Assets zur Übersetzung hinzuzufügen.
 
-   - Wenn Sie den Umfang für die Übersetzung eines Projekts erstellen müssen, können Sie **Neues Scoping-Übersetzungsprojekt erstellen** auswählen. Dadurch werden die Kopien nicht zur Übersetzung gesendet und der ursprüngliche Übersetzungsstatus der Dateien wird beibehalten. Die Zielsprachkopie der referenzierten Themen, die zum Scoping gesendet werden, hat keine Auswirkungen.
+  >[!NOTE]
+  >
+  > Wenn es sich bei Ihrem vorhandenen Projekt um ein Scoping-Projekt handelt, ist in seinem Namen &quot;\(Scoping\)&quot;angehängt.
+
+- Wenn Sie den Umfang für die Übersetzung eines Projekts erstellen müssen, können Sie **Neues Scoping-Übersetzungsprojekt erstellen** auswählen. Dadurch werden die Kopien nicht zur Übersetzung gesendet und der ursprüngliche Übersetzungsstatus der Dateien wird beibehalten. Die Zielsprachkopie der referenzierten Themen, die zum Scoping gesendet werden, hat keine Auswirkungen.
 1. Geben Sie im Feld **Projekttitel** einen Namen für das Projekt ein.
 1. Klicken Sie auf **Erstellen** , um ein neues Übersetzungsprojekt zu erstellen.
 

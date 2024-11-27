@@ -1,9 +1,10 @@
 ---
 title: Themen oder Zuordnungen überprüfen
 description: Prüfen Sie Themen oder Maps in AEM Guides effizient für eine reibungslose Inhaltsbewertung. Machen Sie sich mit den Funktionen für Autoren und Prüfer in AEM Guides vertraut.
+exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%

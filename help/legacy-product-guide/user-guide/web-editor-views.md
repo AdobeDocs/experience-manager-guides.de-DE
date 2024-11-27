@@ -1,9 +1,10 @@
 ---
 title: Web-Editor-Ansichten
 description: Dokumente im Autoren-, Quell- und Vorschaumodus anzeigen. Erfahren Sie, wie Sie Inhalte basierend auf bedingten Filtern anzeigen, die Markierungen von Änderungen verfolgen und ein Thema als PDF in AEM Guides exportieren können.
+exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%

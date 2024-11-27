@@ -1,11 +1,12 @@
 ---
 title: Bearbeiten von Themen im Web-Editor
 description: Erfahren Sie, wie Sie Themen im Web-Editor bearbeiten können. Machen Sie sich mit verschiedenen Bearbeitungsfunktionen vertraut, um Ihre Themendateien in AEM Guides zu ändern.
+exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -38,11 +39,13 @@ Der Web Editor verfügt über eine Reihe von Bearbeitungsfunktionen, mit denen S
 ## Teilauswahl von Inhalten über Elemente hinweg
 
 In Experience Manager Guides können Sie auch Inhalte über Elemente hinweg auswählen. Nach Auswahl des Inhalts können Sie die folgenden Vorgänge ausführen:
+
 - Formatierung und Löschen: Machen Sie den ausgewählten Inhalt fett, kursiv, unterstrichen oder löschen Sie ihn sogar. Der Inhalt der gültigen offenen Tags wird dann zusammengeführt und unter einem einzelnen Element angezeigt. Sie können beispielsweise den Inhalt eines Absatzes auswählen und die Auswahl auf einen anderen Absatz erweitern. Wenn Sie dann den ausgewählten Inhalt fett formatieren, werden alle fett gedruckten Inhalte der geöffneten Tags zusammengeführt und unter einem einzigen Absatzelement angezeigt.
 
 Wenn Sie den ausgewählten Inhalt löschen, wird der verbleibende Inhalt nach dem Löschen in den geöffneten Tags zusammengeführt.
 
 - Um den Inhalt mit einem gültigen Element zu umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element zu umgeben:
+
    - Wählen Sie den Inhalt eines Elements aus.
    - Wählen Sie in der sekundären Symbolleiste oben das Symbol ![Hinzufügen](images/Add_icon.svg) aus, um das Dialogfeld **Umgeben mit Element** anzuzeigen. Im Dialogfeld werden die gültigen Elemente für den ausgewählten Inhalt aufgelistet.
      >[!NOTE]
@@ -73,7 +76,27 @@ AEM Guides gibt auch an, ob die letzte gespeicherte \(Work\) Kopie der Datei mit
 ![Indikator für Versionsaktualisierung](images/version-update-indicator.png){width="550" align="left"}
 
 
+## Öffnen gesperrter Dateien im Authoring- und Source-Modus
 
+Wenn eine DITA- oder Markdown-Datei von einem anderen Benutzer gesperrt oder ausgecheckt wird, ist das Bearbeiten oder Ändern des Inhalts nicht möglich. Sie können die Datei jedoch zusätzlich zum Modus **Vorschau** weiterhin im schreibgeschützten Format sowohl im Modus **Autor** als auch im Modus **Source** anzeigen.
+
+Im schreibgeschützten Modus können Sie Inhalt, Tags und Attribute im Modus **Autor** oder **Source** anzeigen. Sie können auch die Dateieigenschaften ändern.
+
+In der Symbolleiste werden die folgenden Symbole für schreibgeschützten Zugriff angezeigt:
+
+- Ansicht &quot;Tags ein/aus&quot;
+- Versionsverlauf
+- Versions-Label
+
+Experience Manager Guides zeigt außerdem einen Indikator **Schreibgeschützter Zugriff** neben der Versionsnummer an.
+
+![schreibgeschützte Datei im Autorenmodus anzeigen](images/locked-file-editor.png)
+
+Sie können auf die Ansicht **Layout** für schreibgeschützte DITA-Maps zugreifen. In dieser Ansicht können Sie die DITA-Zuordnung und ihre Eigenschaften anzeigen, aber Bearbeitungen verhindern.
+
+>[!NOTE]
+>
+> Ihre Benutzer mit Administratorrechten auf Ordnerebene müssen *ui_config.json* aktualisieren, damit Sie harmonisch auf die schreibgeschützten Dateien im Author-, Source- und Layout-Modus zugreifen können.
 
 ## Suchen einer geöffneten Datei in der Repository-Ansicht
 

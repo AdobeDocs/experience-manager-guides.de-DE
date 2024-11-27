@@ -1,9 +1,10 @@
 ---
 title: Kommentare zur Adressüberprüfung
 description: Erfahren Sie, wie Sie in AEM Guides Prüfungskommentare als Autor bearbeiten können. Hier erfahren Sie, wie Autoren Kommentare in einem Dokument bearbeiten, filtern, akzeptieren oder ablehnen können.
+exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 # Kommentare zur Adressüberprüfung {#id2056B0X0KBI}
 
 
-Als Autor können Sie mit dem Web Editor Kommentare in einem Thema bearbeiten. Die Kommentare werden basierend auf der Überprüfungsaufgabe geladen, die im Überprüfungsbereich ausgewählt wurde. Weitere Informationen finden Sie in der Beschreibung der Funktion **Prüfungsbereich** ![](images/active-review-tasklist-icon.svg) im Abschnitt [Linkes Bedienfeld](/help/product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) .
+Als Autor können Sie mit dem Web Editor Kommentare in einem Thema bearbeiten. Die Kommentare werden basierend auf der Überprüfungsaufgabe geladen, die im Überprüfungsbereich ausgewählt wurde. Weitere Informationen finden Sie in der Beschreibung der Funktion **Prüfungsbereich** ![](images/active-review-tasklist-icon.svg) im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS) .
 
 In den folgenden Abschnitten werden die Möglichkeiten zum Bearbeiten von Kommentaren im Web Editor beschrieben.
 

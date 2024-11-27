@@ -1,9 +1,10 @@
 ---
 title: Prüfungsthemen
 description: Erfahren Sie, wie Sie Themen überprüfen und die Funktionen als Prüfer, Dokumentansicht, Themenansicht, kontextbezogene Symbolleiste, Vorschaumodus, Hinzufügen von Anlagen zu Kommentaren und Bedingungsbedienfeld in AEM Guides verwenden.
+exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%

@@ -1,9 +1,10 @@
 ---
 title: Versionsverlauf wiederhergestellter Dateien - Bericht
 description: Zeigen Sie Berichte zum Versionsverlauf wiederhergestellter Dateien in AEM Guides an. Erfahren Sie, wie Sie über die Assets-Benutzeroberfläche, die Themenvorschau und die Auswahl der AEM Tools auf Protokolle mit rückgängig gemachten Versionen zugreifen können.
+exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

@@ -1,9 +1,10 @@
 ---
 title: Unterstützung für Schematron-Dateien
 description: Erfahren Sie, wie Sie ein DITA-Thema importieren und validieren, Assert-Berichtanweisungen verwenden, um nach Regeln zu suchen, Regex-Ausdrücke zu verwenden und abstrakte Muster in Schemateien von AEM Guides zu definieren.
+exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%

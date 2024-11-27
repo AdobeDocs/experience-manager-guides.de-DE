@@ -1,11 +1,12 @@
 ---
 title: HTML5 verwenden
 description: Erfahren Sie, wie Sie eine HTML5-Vorgabe aus dem Web-Editor und dem Mapping-Dashboard erstellen. Konfigurieren Sie die HTML5-Ausgabevorgabe in AEM Guides.
+exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1226'
 ht-degree: 1%
 
 ---
@@ -40,7 +41,7 @@ Die Registerkarte **Allgemein** enthält die folgenden Konfigurationen:
 Die Registerkarte Erweitert enthält die folgenden Konfigurationen:
 
 - Name der Umwandlung
-- Herunterladen temporärer Dateien
+- Beibehalten temporärer Dateien
 - Dateieigenschaften
 
 Weitere Informationen finden Sie unter [HTML5 configuration](#id231KJA00REJ).
@@ -64,7 +65,8 @@ Die folgenden Optionen sind für die HTML5-Ausgabe verfügbar:
 | Dateiname | Geben Sie den Dateinamen an, mit dem Sie die HTML5-Ausgabe speichern möchten.<br><br>**Hinweis**: Wenn Sie keinen Dateinamen angeben, wird der Titel der DITA-Zuordnung verwendet, um den endgültigen HTML5-Ausgabedateinamen zu generieren. Wenn die Zuordnung keinen Titel hat, wird der Dateiname der DITA-Zuordnung verwendet, um die endgültige HTML5-Ausgabe zu benennen. Der Dateiname wird mithilfe der im System konfigurierten Regeln bereinigt, um ungültige Zeichen zu verarbeiten. |
 | Workflow &quot;Nach der Erstellung ausführen&quot; | Wenn Sie diese Option wählen, wird eine neue Dropdownliste mit dem Workflow nach der Generierung angezeigt, die alle in AEM konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, der nach Abschluss des Workflows zur Generierung der Ausgabe ausgeführt werden soll.<br><br>**Hinweis**:Weitere Informationen zum Erstellen eines benutzerdefinierten Workflows für die Generierung nach der Ausgabe finden Sie unter _Workflow für die Generierung nach der Ausgabe anpassen_ in Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service. |
 | Zielpfad | Der Pfad in Ihrem AEM-Repository, in dem die HTML5-Ausgabe gespeichert wird. |
-| Herunterladen temporärer Dateien | Wählen Sie diese Option, um die von DITA-OT generierten temporären Dateien herunterzuladen. Der Speicherort, an dem DITA-OT temporäre Dateien speichert, finden Sie im Ausgabegenerierungsprotokoll. Wenn beim Generieren der Ausgabe über DITA-OT Fehler auftreten, wählen Sie diese Option, um die temporären Dateien beizubehalten. Sie können diese Dateien dann verwenden, um Fehler bei der Ausgabenerstellung zu beheben.<br> <br> Nachdem Sie die Ausgabe generiert haben, wählen Sie das Symbol **Temporäre Dateien herunterladen** ![Symbol zum Herunterladen temporärer Dateien](images/download-temp-files-icon.png) aus, um den ZIP-Ordner mit den temporären Dateien herunterzuladen. <br><br> **Hinweis**: Wenn Sie einige Dateieigenschaften auswählen und dann die temporären Dateien herunterladen, erhalten Sie auch die Datei *metadata.xml* im ZIP-Ordner. |
+| Beibehalten temporärer Dateien | Wählen Sie diese Option, um die von DITA-OT generierten temporären Dateien beizubehalten. Wenn beim Generieren der Ausgabe über DITA-OT Fehler auftreten, wählen Sie diese Option, um die temporären Dateien beizubehalten. Sie können diese Dateien dann verwenden, um Fehler bei der Ausgabenerstellung zu beheben.<br> <br> Nachdem Sie die Ausgabe generiert haben, wählen Sie das Symbol **Temporäre Dateien herunterladen** ![Symbol zum Herunterladen temporärer Dateien](images/download-temp-files-icon.png) aus, um den ZIP-Ordner mit den temporären Dateien herunterzuladen. <br><br> **Hinweis**: Wenn Dateieigenschaften während der Generierung hinzugefügt werden, enthalten die temporären Ausgabedateien auch eine *metadata.xml* -Datei, die diese Eigenschaften enthält. |
+| Reduzieren der Dateihierarchie | Wählen Sie die Option aus, um die HTML5-Ausgabe in einer flachen Ordnerhierarchie zu generieren. Der gesamte Inhalt wird im HTML5-Ausgabeformat in einer flachen Dateihierarchie veröffentlicht und in einem einzigen Ordner gespeichert. <br> Wenn Sie diese Option deaktivieren, wird die Ausgabe in einer verschachtelten Ordnerhierarchie generiert und die gesamte Ordnerstruktur wird repliziert. |
 | Grundlinie verwenden | Wenn Sie eine Grundlinie für die ausgewählte DITA-Zuordnung erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie unter [Arbeiten mit Grundlinie](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) . |
 | Dateieigenschaften | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite &quot;Eigenschaften&quot;der DITA-Map- oder Bookmap-Datei festgelegt. Die Eigenschaften, die Sie aus der Dropdown-Liste auswählen, werden unter dem Feld **Dateieigenschaften** angezeigt. Wählen Sie das Kreuzsymbol neben der Eigenschaft aus, um sie zu entfernen. <br><br>**Hinweis**: Sie können die Metadaten auch mithilfe der DITA-OT-Veröffentlichung an die Ausgabe übergeben. Weitere Informationen finden Sie unter [Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

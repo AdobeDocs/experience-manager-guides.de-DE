@@ -1,9 +1,10 @@
 ---
 title: Weitere Funktionen im Web Editor
 description: Weitere Funktionen des Web-Editors in AEM Guides Erfahren Sie, wie Sie diese Funktionen für ein verbessertes Authoring in AEM Guides verwenden können.
+exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -171,11 +172,11 @@ Sie können eine Gleichung jederzeit aktualisieren, indem Sie mit der rechten Ma
 - **Validierung von Gleichungen im MathML-Editor**
 
   Experience Manager Guides validiert MathML-Gleichungen, wenn Sie ein Thema mit ihnen speichern.
-Wenn Sie eine Gleichung mit dem MathML-Editor einfügen, markiert Experience Manager Guides die Gleichung in Rot, wenn Syntaxprobleme auftreten. Sie können sie vor dem Einfügen korrigieren. Wenn Sie keine Änderungen vornehmen, außer **Einfügen**, wird eine Warnung angezeigt.
+Wenn Sie eine Gleichung mit dem MathML-Editor einfügen, markiert Experience Manager Guides die Gleichung rot, wenn Syntaxprobleme auftreten. Sie können sie vor dem Einfügen korrigieren. Wenn Sie keine Änderungen vornehmen, außer **Einfügen**, wird eine Warnung angezeigt.
 
   ![validate mathml gleichung](images/validate-mathml-equation.png){width="400" align="left"}
 
-  Wenn Sie die MathML-Gleichung einfügen, die einen Syntaxfehler enthält, tritt ein Überprüfungsfehler auf, wenn Sie versuchen, das Thema zu speichern.
+  Wenn Sie die MathML-Gleichung einfügen, die einen Syntaxfehler enthält, tritt beim Versuch, das Thema zu speichern, ein Überprüfungsfehler auf.
 
 
 **Fußnoten einfügen**

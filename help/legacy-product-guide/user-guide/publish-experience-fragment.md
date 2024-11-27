@@ -3,7 +3,8 @@ title: Publish als Thema für ein Experience Fragment
 description: Publish Sie ein Thema oder die Elemente innerhalb eines Themas zu einem Experience Fragment in AEM Guides.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Experience Fragments anzeigen und erneut veröffentlichen können.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -60,7 +61,7 @@ Zum Beispiel:
 
 
 
-     Ihr Administrator kann die Zuordnungen zur Datei *experienceFragmentMapping.json* hinzufügen.  Weitere Informationen zum Erstellen einer Zuordnung zwischen einem Thema und einem Experience Fragment ](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) finden Sie im Installations- und Konfigurationshandbuch.[
+     Ihr Administrator kann die Zuordnungen zur Datei *experienceFragmentMapping.json* hinzufügen.  Weitere Informationen zum Erstellen einer Zuordnung zwischen einem Thema und einem Experience Fragment ](../cs-install-guide/conf-experience-fragment-mapping-cs.md) finden Sie im Installations- und Konfigurationshandbuch.[
 
    * Sie können auch verschiedene Bedingungen auswählen, um den Inhalt zu veröffentlichen.  Wählen Sie eine der folgenden Optionen aus:
 

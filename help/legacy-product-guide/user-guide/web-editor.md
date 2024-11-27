@@ -1,9 +1,10 @@
 ---
 title: Arbeiten mit dem Web-Editor
 description: Erstellen und bearbeiten Sie strukturierte Dokumente mit dem Webeditor. Erfahren Sie, wie Sie mit dem Web-Editor nach den DITA-Standards in AEM Guides arbeiten.
+exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

@@ -1,9 +1,10 @@
 ---
 title: Erstellen einer Karte
 description: Erstellen Sie eine Karte mit dem Map Editor in AEM Guides. Suchen Sie nach den Schritten zum Erstellen einer Map-Datei basierend auf einer Map-Vorlage.
+exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

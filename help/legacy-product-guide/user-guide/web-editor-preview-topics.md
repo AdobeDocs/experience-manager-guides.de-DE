@@ -1,9 +1,10 @@
 ---
 title: Vorschau eines Themas
 description: Erfahren Sie, wie Sie eine Vorschau eines Themas in AEM Guides anzeigen. Erfahren Sie mehr über die im Vorschaumodus verfügbaren Funktionen. Verzweigung, Wiederherstellung und nachfolgende Versionierung in AEM Handbüchern.
+exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%

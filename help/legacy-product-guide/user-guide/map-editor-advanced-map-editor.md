@@ -1,9 +1,10 @@
 ---
 title: Arbeiten mit dem erweiterten Map-Editor
 description: Erfahren Sie, wie Sie mit dem erweiterten Map-Editor in AEM Guides arbeiten. Machen Sie sich mit den Funktionen des erweiterten Map-Editors vertraut. Bearbeiten Sie Themen über eine DITA-Zuordnung und verwenden Sie die Layoutansicht, die Autorenansicht und den Vorschaumodus.
+exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -54,7 +55,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
    - **B** - \(*Sekundäre Symbolleiste*\) Dies ist die Sekundäre Symbolleiste, mit der Sie mit Zuordnungsdateien arbeiten können. Weitere Informationen zu den Funktionen, die über die Sekundäre Symbolleiste verfügbar sind, finden Sie unter [Funktionen, die in der Symbolleiste des erweiterten Map-Editors verfügbar sind](#id205DEC0005Z).
 
-   - **C** - \(*Zuordnungsansichten*\): Ermöglicht es Ihnen, den Zuordnungs-Editor zwischen Layout, Autor, Source und Vorschau zu wechseln. Mit der Ansicht **Layout** können Sie die Themen in einer DITA-Zuordnung organisieren. Dadurch erhält der Baum oder die hierarchische Ansicht der Karte. Mit der Ansicht **Autor** können Sie die Themen im Map Editor bearbeiten. Dies gibt auch die WYSIWYG-Ansicht der Map-Datei. Mit der Ansicht **Source** können Sie mit der zugrunde liegenden XML der Zuordnungsdatei arbeiten. Die Vorschau bietet eine konsolidierte Ansicht aller Themen und Unterkarten innerhalb der Zuordnungsdatei. Der Link **Close** schließt die Zuordnungsdatei.
+   - **C** - \(*Zuordnungsansichten*\): Ermöglicht es Ihnen, den Zuordnungs-Editor zwischen Layout, Autor, Source und Vorschau zu wechseln. Mit der Ansicht **Layout** können Sie die Themen in einer DITA-Zuordnung organisieren. Dadurch erhält der Baum oder die hierarchische Ansicht der Karte. Mit der Ansicht **Autor** können Sie die Themen im Map Editor bearbeiten. Dadurch erhalten Sie auch die WYSIWYG-Ansicht der Zuordnungsdatei. Mit der Ansicht **Source** können Sie mit der zugrunde liegenden XML der Zuordnungsdatei arbeiten. Die Vorschau bietet eine konsolidierte Ansicht aller Themen und Unterkarten innerhalb der Zuordnungsdatei. Der Link **Close** schließt die Zuordnungsdatei.
 
    - **D** - \(*Linkes Bedienfeld*\): Ermöglicht Zugriff auf das linke Bedienfeld, über das Sie auf die Funktionen Favoriten, Repository, Map, Gliederung und andere Funktionen zugreifen können. Sie können sie erweitern oder reduzieren, indem Sie auf das Symbol Seitenleiste erweitern klicken \(![](images/sidebar-expand-icon.svg)\). Weitere Informationen zu den im linken Bereich verfügbaren Funktionen finden Sie unter [Linker Bereich](web-editor-features.md#id2051EA0M0HS) im Web Editor.
 

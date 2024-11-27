@@ -1,9 +1,10 @@
 ---
 title: Verwenden von Bezeichnungen
 description: Erfahren Sie mehr über die Verwendung von Bezeichnungen für verschiedene Dateiversionen in AEM Guides. Erfahren Sie, wie Sie einer Version eines Themas eine Bezeichnung hinzufügen oder löschen.
+exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%

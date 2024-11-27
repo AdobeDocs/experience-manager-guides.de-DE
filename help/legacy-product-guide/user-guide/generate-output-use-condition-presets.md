@@ -1,9 +1,10 @@
 ---
 title: Verwenden von Bedingungsvorgaben
 description: Erfahren Sie mehr über die Verwendung von Bedingungsvorgaben in AEM Guides. Erfahren Sie, wie Sie in AEM Bedingungsvorgaben erstellen, bearbeiten, kopieren und löschen.
+exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 2%
@@ -71,7 +72,7 @@ Führen Sie einen der folgenden Schritte aus:
    >
    > Sie sehen eine Warnung, wenn Sie eine andere Vorgabe auswählen oder die Vorgabe schließen, ohne sie zu speichern.
 
-Nachdem Sie eine Bedingungsvorgabe erstellt haben, wird sie unter dem Dropdown-Menü **Bedingungsvorgaben** der Ausgabevorgaben angezeigt. Erfahren Sie mehr über die [Publish-PDF-Ausgabe](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Nachdem Sie eine Bedingungsvorgabe erstellt haben, wird sie unter dem Dropdown-Menü **Bedingungsvorgaben** der Ausgabevorgaben angezeigt. Erfahren Sie mehr über die [Publish-PDF-Ausgabe](../web-editor/native-pdf-web-editor.md).
 
 ### Umbenennen einer Bedingungsvorgabe
 

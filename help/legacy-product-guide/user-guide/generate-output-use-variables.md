@@ -1,9 +1,10 @@
 ---
 title: Verwenden Sie Variablen zum Festlegen der Optionen "Zielpfad", "Site-Name"oder "Dateiname"
 description: Erfahren Sie, wie Sie Variablen zum Festlegen der Optionen für Zielpfad, Site-Name oder Dateiname verwenden. Erfahren Sie mehr über native Variablen, die in AEM Guides unterstützt werden.
+exl-id: 3396c971-6332-45b5-b2ef-b07f0abf97f7
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%

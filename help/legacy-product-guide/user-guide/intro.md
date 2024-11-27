@@ -1,9 +1,10 @@
 ---
 title: Über Adobe Experience Manager Guides
 description: Erfahren Sie mehr über Adobe Experience Manager Guides, eine DITA-basierte Content-Management-Lösung für Unternehmen. Machen Sie sich mit den Vorteilen von AEM Guides vertraut.
+exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
 feature: Introduction
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 7%
