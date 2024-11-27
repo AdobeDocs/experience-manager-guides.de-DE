@@ -1,10 +1,9 @@
 ---
 title: Verwenden der Kartensammlung für die Ausgabegenerierung
 description: Erfahren Sie, wie Sie eine Zuordnungssammlung erstellen und löschen und eine DITA-Zuordnung hinzufügen oder löschen. Konfigurieren, Generieren und Abbrechen einer Ausgabegenerierungsaufgabe aus einer Zuordnungssammlung in AEM Guides.
-exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%

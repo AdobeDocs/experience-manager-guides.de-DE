@@ -1,10 +1,9 @@
 ---
 title: AEM Sites
 description: Erstellen und konfigurieren Sie AEM Site-Voreinstellung in AEM Guides. Verwenden Sie AEM Site-Unterstützung, um eine artikelbasierte Ausgabe zu generieren, Themen zur Ausgabenverknüpfung zu erstellen, Conref zu veröffentlichen und eine Zeichenfolge innerhalb des Inhalts zu suchen.
-exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%

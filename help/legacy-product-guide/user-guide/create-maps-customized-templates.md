@@ -1,10 +1,9 @@
 ---
 title: Erstellen von Karten basierend auf benutzerdefinierten Vorlagen
 description: Erfahren Sie, wie Sie eine Vorlage erstellen, sie zum Erstellen neuer Zuordnungsdateien verwenden und den definierten Titel an eine DITA-Zuordnung in AEM Guides weitergeben.
-exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%

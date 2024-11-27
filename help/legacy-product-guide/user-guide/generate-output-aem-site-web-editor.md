@@ -3,8 +3,7 @@ title: AEM Sites
 description: Erstellen und konfigurieren Sie die AEM Sites-Vorgabe im Web Editor und generieren Sie die AEM Sites-Ausgabe für DITA-Maps, ausgewählte Themen und verknüpfte Themen.
 feature: Publishing
 role: User
-exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -104,7 +103,7 @@ Die **Themenliste** zeigt die Liste der Themen an, die in der aktuellen Arbeitsk
 Die Registerkarte **Themenliste** ist in den AEM Vorgaben vorhanden, die nicht basierend auf der alten Zuordnung erstellt werden.
 
 **Querverweise**
-Diese Liste enthält Themen, die Querverweise mit `scope =”peer”` enthalten. Sie können den Veröffentlichungskontext für eine Liste von Querverweisen mit `scope=”peer”` zu Themen angeben, die in anderen DITA-Maps verfügbar sind. Diese Registerkarte wird angezeigt, wenn Sie die Experience Manager Guides-Version (UUID) verwenden.
+Diese Liste enthält Themen, die Querverweise mit `scope ="peer"` enthalten. Sie können den Veröffentlichungskontext für eine Liste von Querverweisen mit `scope="peer"` zu Themen angeben, die in anderen DITA-Maps verfügbar sind. Diese Registerkarte wird angezeigt, wenn Sie die Experience Manager Guides-Version (UUID) verwenden.
 
 
 
@@ -195,13 +194,13 @@ Wenn Sie AEM Sites-Vorgaben aus dem Web Editor verwenden möchten, erstellen Sie
 
 1. Öffnen Sie die Registerkarte **Querverweise**.
 
-   Ihnen wird eine Liste der Themen und ihrer Verweise angezeigt. Sie können den Veröffentlichungskontext für eine Liste von Querverweisen zu Themen angeben, die in anderen DITA-Maps mit `scope=”peer”` verfügbar sind.
+   Ihnen wird eine Liste der Themen und ihrer Verweise angezeigt. Sie können den Veröffentlichungskontext für eine Liste von Querverweisen zu Themen angeben, die in anderen DITA-Maps mit `scope="peer"` verfügbar sind.
 
    Um das Querverweisbedienfeld vom Web Editor verwenden zu können, muss `<xrefs>` über eindeutige IDs verfügen. Eindeutige IDs für `<xrefs>` werden beim Bearbeiten/Speichern des älteren Inhalts automatisch generiert, wenn die ID nicht vorhanden ist.
 
    >[!NOTE]
    >
-   >Auf der Registerkarte **Querverweise** werden Themen angezeigt, die nur mit dem Wert `scope=”peer”` verknüpft sind. Für Links mit `scope=”local”` müssen Sie den Veröffentlichungskontext nicht angeben.
+   >Auf der Registerkarte **Querverweise** werden Themen angezeigt, die nur mit dem Wert `scope="peer"` verknüpft sind. Bei Links mit `scope="local"` müssen Sie den Veröffentlichungskontext nicht angeben.
 
    Bei allen verknüpften Themen ist standardmäßig die neueste Ausgabevorgabe und Zuordnung ausgewählt. Der Veröffentlichungskontext für alle verknüpften Themen ist standardmäßig auf `<Most recently generated>` map festgelegt.
 
@@ -210,8 +209,8 @@ Wenn Sie AEM Sites-Vorgaben aus dem Web Editor verwenden möchten, erstellen Sie
 1. Wenn Sie die zuletzt veröffentlichte Ausgabe jeder abhängigen Datei in der Zuordnung verwenden möchten, wählen Sie **Zuletzt generierten Veröffentlichungskontext verwenden** für alle abhängigen Themen aus.
 Sie sollten die als übergeordnete Zuordnung ausgewählte Zuordnung veröffentlichen, bevor Sie die Zuordnung mit verknüpften Themen veröffentlichen. Wenn die Zuordnung mit verknüpften Themen nicht veröffentlicht wird, erscheinen die Links in der AEM Sites-Ausgabe als normaler Text anstelle von Hyperlinks.
 Sie sollten denselben Typ der AEM Sites-Vorgabe für das verknüpfte Thema auswählen. Wenn die aktuelle AEM Sites-Vorgabe beispielsweise die Zuordnung älterer Komponenten verwendet, wählen Sie eine ähnliche AEM Sites-Vorgabe des verknüpften Themas aus.
-1. Wählen Sie in der Dropdown-Liste &quot;Übergeordnete Zuordnung&quot;die Zuordnungsdatei aus, mit deren Ausgabe Sie die Ausgabe der aktuellen Zuordnung verknüpfen möchten.
-Wenn Sie eine Zuordnungsdatei auswählen, wird die UUID der Zuordnung in der Spalte &quot;Übergeordnete Map-UUID&quot;angezeigt. Die mit der ausgewählten Zuordnung verknüpften Ausgabevorgaben werden in der Liste Voreinstellungen der übergeordneten Zuordnung aufgeführt. Beispielsweise enthält Thema 1 in Karte A einen Verweis auf Thema 2. Thema 2 kann in einer oder mehreren Maps vorhanden sein. Sie können für jeden Link die übergeordnete Zuordnung und eine bestimmte Vorgabe oder die zuletzt veröffentlichte Ausgabe auswählen.
+1. Wählen Sie in der Dropdown-Liste Übergeordnete Zuordnung die Zuordnungsdatei aus, mit deren Ausgabe Sie die Ausgabe der aktuellen Zuordnung verknüpfen möchten.
+Wenn Sie eine Zuordnungsdatei auswählen, wird die UUID der Zuordnung in der Spalte &quot;Übergeordnete Map - UUID&quot;angezeigt. Die mit der ausgewählten Zuordnung verknüpften Ausgabevorgaben werden in der Liste Voreinstellungen der übergeordneten Zuordnung aufgeführt. Beispielsweise enthält Thema 1 in Karte A einen Verweis auf Thema 2. Thema 2 kann in einer oder mehreren Maps vorhanden sein. Sie können für jeden Link die übergeordnete Zuordnung und eine bestimmte Vorgabe oder die zuletzt veröffentlichte Ausgabe auswählen.
 
 1. Wenn dasselbe Thema mehr als einmal in einer Datei referenziert wird, können Sie für jede Instanz einen anderen Veröffentlichungskontext hinzufügen. Dies bietet mehr Flexibilität und Kontrolle über den Inhalt. Zum Beispiel ist Thema 3 sowohl in Karte B als auch in Karte C vorhanden. Thema 1 enthält zwei Verweise auf Thema 3. Sie können Map B als übergeordnete Zuordnung für den ersten Link und Map C als übergeordnete Zuordnung für den zweiten Link auswählen.
 

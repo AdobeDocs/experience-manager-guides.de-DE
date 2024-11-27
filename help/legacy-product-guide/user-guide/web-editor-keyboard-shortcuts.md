@@ -1,10 +1,9 @@
 ---
 title: Tastaturbefehle im Web-Editor
 description: Entdecken Sie zeitsparende Tastaturbefehle im Web-Editor von AEM Guides.
-exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 2%

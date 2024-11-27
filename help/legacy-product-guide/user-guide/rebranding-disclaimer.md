@@ -1,10 +1,9 @@
 ---
 title: Haftungsausschluss
 description: Dies ist ein Haftungsausschluss zur Adressierung der Namensänderung von XML Documentation für Adobe Experience Manager in AEM Guides.
-exl-id: 388fb8d9-a7d0-4bbb-b244-4ccf461eafdf
 feature: Disclaimer
 role: User, Leader, Admin, Developer
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%

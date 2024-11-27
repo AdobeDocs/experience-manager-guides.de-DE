@@ -1,10 +1,9 @@
 ---
 title: Inhaltsfragment aus Ihrer Datenquelle einfügen
 description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Guides. Erfahren Sie, wie Sie ein Inhaltsfragment aus Ihrer Datenquelle einfügen. Erstellen Sie ein Thema mit dem Thema-Generator.
-exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -206,7 +205,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema mit dem Themengenerator zu 
       >
       > Wenn Ihr Administrator benutzerdefinierte Vorlagen konfiguriert hat, werden diese Vorlagen auch in der Dropdown-Liste angezeigt (basierend auf den von Ihrem Administrator durchgeführten Vorlagenpfadkonfigurationen). Sie können beispielsweise eine Themenvorlage erstellen, die eine geordnete Liste, Tabellen, Absätze oder andere DITA-Elemente enthält.
 
-   1. Geben Sie den Stammknoten **ein.** Dies ist der Knoten, unter dem Sie auf Ihre Daten zugreifen möchten. Der Themengenerator erstellt dann jedes Thema auf der im Stammknoten definierten Ebene. Sie können beispielsweise &quot;issues&quot;als Stammknoten in Jira hinzufügen. Wenn also eine Abfrage 13 Probleme zurückgibt, erhalten Sie 13 Themen, ein Thema für jedes Problem.
+   1. Geben Sie den Stammknoten **ein.** Dies ist der Knoten, unter dem Sie auf Ihre Daten zugreifen möchten. Der Themengenerator erstellt dann jedes Thema auf der im Stammknoten definierten Ebene. Beispielsweise können Sie &quot;issues&quot;als Stammknoten in Jira hinzufügen. Wenn also eine Abfrage 13 Probleme zurückgibt, erhalten Sie 13 Themen, ein Thema für jedes Problem.
 
    1. Klicken Sie auf **Fetch** , um die Daten aus der Datenquelle abzurufen und die Vorlage auf die Daten anzuwenden, die aus der SQL-Abfrage resultieren. Die Vorschau zeigt einen kleinen Bruchteil der Darstellung des Themas im Format der ausgewählten Vorlage. Beispielsweise können Sie ein einzelnes Jira-Problem mit allen Feldern anzeigen, die aus der Abfrage resultieren.
    1. Geben Sie den Namen des Thema-Generators ein.

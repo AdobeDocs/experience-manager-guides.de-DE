@@ -1,10 +1,9 @@
 ---
 title: Verwalten von Prüfungsaufgaben mithilfe des Überprüfungs-Dashboards
 description: Verwalten Sie Prüfungsaufgaben über das Dashboard "Überprüfen"in AEM Guides. Erfahren Sie mehr über die durchgeführten Aktionen auf der Registerkarte "Aufgabe", "Inhalt", "Überprüfer"und überprüfen Sie den Status einer Prüfungsaufgabe.
-exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%

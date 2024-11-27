@@ -1,10 +1,9 @@
 ---
 title: Erstellen und Verwalten von Grundlinien im Web-Editor
 description: Erstellen und verwalten Sie Grundlinien über den Webeditor in AEM Guides. Erfahren Sie, wie Sie Grundlinien basierend auf Bezeichnungen erstellen und Filter auf die Grundlinien anwenden.
-exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%

@@ -1,10 +1,9 @@
 ---
 title: Hinzufügen und Verwalten von Zitaten in Ihrem Inhalt
 description: Fügen Sie Zitate in AEM Guides hinzu und verwalten Sie sie. Erfahren Sie, wie Sie Inhaltsausgabe mit Zitaten anwenden, importieren, filtern, suchen, ändern, bearbeiten, Vorschau anzeigen, einfügen, löschen und generieren können.
-exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%

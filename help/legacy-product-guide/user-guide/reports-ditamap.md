@@ -1,10 +1,9 @@
 ---
 title: DITA-Mapping-Bericht aus dem Mapping-Dashboard
 description: Erstellen Sie DITA-Map-Berichte über das Map-Dashboard in AEM Guides. Erfahren Sie, wie Sie die CSV-Datei eines DITA-Map-Berichts generieren.
-exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%

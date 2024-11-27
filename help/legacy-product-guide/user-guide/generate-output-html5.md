@@ -1,10 +1,9 @@
 ---
 title: HTML5 verwenden
 description: Erfahren Sie, wie Sie eine HTML5-Vorgabe aus dem Web-Editor und dem Mapping-Dashboard erstellen. Konfigurieren Sie die HTML5-Ausgabevorgabe in AEM Guides.
-exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 1%

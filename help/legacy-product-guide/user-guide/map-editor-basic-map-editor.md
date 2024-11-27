@@ -1,10 +1,9 @@
 ---
 title: Arbeiten mit dem Basic Map Editor
 description: Erfahren Sie, wie Sie mit dem Basic Map Editor in AEM Guides arbeiten. Machen Sie sich mit den Funktionen des einfachen Map-Editors auf Zuordnungs- und Themenebene vertraut. Erstellen und bearbeiten Sie Beziehungstabellen in einer DITA-Zuordnung.
-exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%

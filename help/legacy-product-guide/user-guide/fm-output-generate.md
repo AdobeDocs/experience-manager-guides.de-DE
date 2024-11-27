@@ -1,10 +1,9 @@
 ---
 title: Ausgabe von .book- oder .fm-Dateien generieren
 description: Erfahren Sie, wie Sie in AEM Guides die Ausgabe von .book- oder .fm-Dateien generieren.
-exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%

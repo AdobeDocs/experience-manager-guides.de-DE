@@ -1,10 +1,9 @@
 ---
 title: Autoreninhalt
 description: Inhaltserstellung in AEM Guides. Erfahren Sie, wie Sie die Version Ihres Dokuments erstellen, in der Vorschau anzeigen, bearbeiten, speichern und für Überprüfungen freigeben können.
-exl-id: 2696f315-7c27-4bac-a621-b8066cf5c96e
 feature: Authoring
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%

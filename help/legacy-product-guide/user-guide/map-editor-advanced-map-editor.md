@@ -1,10 +1,9 @@
 ---
 title: Arbeiten mit dem erweiterten Map-Editor
 description: Erfahren Sie, wie Sie mit dem erweiterten Map-Editor in AEM Guides arbeiten. Machen Sie sich mit den Funktionen des erweiterten Map-Editors vertraut. Bearbeiten Sie Themen über eine DITA-Zuordnung und verwenden Sie die Layoutansicht, die Autorenansicht und den Vorschaumodus.
-exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%

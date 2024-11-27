@@ -1,10 +1,9 @@
 ---
 title: Konversionsstatusbericht
 description: Konvertieren Sie in AEM Guides Dokumente unterschiedlicher Formate in DITA. Erfahren Sie, wie Sie Filter hinzufügen und einen Konversionsstatusbericht anzeigen.
-exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%

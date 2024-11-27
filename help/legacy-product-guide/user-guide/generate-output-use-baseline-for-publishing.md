@@ -1,10 +1,9 @@
 ---
 title: Arbeiten mit Grundlinien
 description: Machen Sie sich mit der Verwendung von Grundlinien in AEM Guides vertraut. Erfahren Sie, wie Sie übersetzte Grundlinien erstellen, anzeigen, bearbeiten, duplizieren, entfernen, Beschriftungen hinzufügen und exportieren.
-exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 0%

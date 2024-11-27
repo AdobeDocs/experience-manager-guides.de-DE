@@ -1,8 +1,7 @@
 ---
 title: KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten
 description: Erfahren Sie, wie Sie KI-gestützte intelligente Vorschläge im Web Editor anzeigen und nutzen können.
-exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%

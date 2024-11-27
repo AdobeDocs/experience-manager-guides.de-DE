@@ -3,8 +3,7 @@ title: AEM Site
 description: Erstellen und konfigurieren Sie AEM in AEM Guides voreingestellte Sites über das Map Dashboard. Verwenden Sie AEM Sites-Unterstützung, um eine artikelbasierte Ausgabe zu generieren, verknüpfte Themen zu veröffentlichen, conref zu erstellen und eine Zeichenfolge innerhalb des Inhalts zu suchen.
 feature: Publishing
 role: User
-exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%

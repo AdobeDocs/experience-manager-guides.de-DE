@@ -1,10 +1,9 @@
 ---
 title: Übersetzen von Dokumenten aus dem Web Editor
 description: Übersetzen Sie Ihre Inhalte über den Web-Editor in mehrere Sprachen. Erfahren Sie, wie Sie ein Übersetzungsprojekt erstellen, Regeln hinzufügen, Versionen anzeigen und nicht synchronisierte Dateien in AEM Guides schließen.
-exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 1%
@@ -114,7 +113,7 @@ In einem XLIFF-Projekt wird der Inhalt in das XLIFF-Format des Branchenstandards
 
 - Wenn Sie &quot;**Vorhandenes Übersetzungsprojekt**&quot;auswählen, aktualisiert dieser Vorgang den vorhandenen Asset-Eintrag im Projekt, wenn das Asset bereits hinzugefügt wurde und sich der zugehörige Übersetzungsauftragsstatus im Status &quot;*Entwurf*&quot;befindet.
    - Wenn die Zielsprache im Projekt nicht vorhanden ist, wird ein neues Projekt für das Übersetzungsprojekt mit einer Sprache erstellt und ein neuer Auftrag für mehrsprachige Übersetzungsprojekte erstellt.
-   - Wenn der Auftrag bereits für die Zielsprache vorhanden ist und sich der Auftragsstatus nicht im Status &quot;*Entwurf*&quot;befindet, wird innerhalb desselben Projekts ein neuer Auftrag erstellt, um die Assets zur Übersetzung hinzuzufügen.
+   - Wenn der Auftrag bereits für die Zielsprache vorhanden ist und sich der Auftragsstatus nicht im Status *Entwurf* befindet, wird innerhalb desselben Projekts ein neuer Auftrag erstellt, um die Assets zur Übersetzung hinzuzufügen.
 
   >[!NOTE]
   >

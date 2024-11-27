@@ -1,10 +1,9 @@
 ---
 title: PDF
 description: Generieren und konfigurieren Sie die PDF-Ausgabe für FrameMaker-Dokumente in AEM Guides.
-exl-id: df3d3cd8-2aa1-4d82-8756-c3f5555cb904
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%

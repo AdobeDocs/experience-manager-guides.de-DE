@@ -3,8 +3,7 @@ title: Wissensdatenbank
 description: Erfahren Sie, wie Sie eine Knowledge Base-Vorgabe aus dem Web-Editor und dem Map-Dashboard erstellen. Konfigurieren Sie die Ausgabevorgabe der Wissensdatenbank in AEM Guides.
 feature: Publishing
 role: User
-exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%

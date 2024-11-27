@@ -1,10 +1,9 @@
 ---
 title: Publish eines Themas für ein Inhaltsfragment
 description: Publish eines Themas oder der Elemente innerhalb eines Themas zu einem Inhaltsfragment in AEM Guides.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Inhaltsfragmente anzeigen und erneut veröffentlichen können.
-exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%

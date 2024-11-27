@@ -3,8 +3,7 @@ title: Publish als Thema für ein Experience Fragment
 description: Publish Sie ein Thema oder die Elemente innerhalb eines Themas zu einem Experience Fragment in AEM Guides.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Experience Fragments anzeigen und erneut veröffentlichen können.
 feature: Publishing
 role: User
-exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%

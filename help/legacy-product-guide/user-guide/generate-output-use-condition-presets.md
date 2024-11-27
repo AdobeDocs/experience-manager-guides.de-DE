@@ -1,10 +1,9 @@
 ---
 title: Verwenden von Bedingungsvorgaben
 description: Erfahren Sie mehr über die Verwendung von Bedingungsvorgaben in AEM Guides. Erfahren Sie, wie Sie in AEM Bedingungsvorgaben erstellen, bearbeiten, kopieren und löschen.
-exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 2%

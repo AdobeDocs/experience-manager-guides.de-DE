@@ -1,10 +1,9 @@
 ---
 title: Massenaktivierungszuordnung bearbeiten
 description: Verwenden Sie das Bulk Publish-Dashboard in AEM Guides. Erfahren Sie, wie Sie eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie Zuordnungsdateien hinzufügen oder entfernen.
-exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%

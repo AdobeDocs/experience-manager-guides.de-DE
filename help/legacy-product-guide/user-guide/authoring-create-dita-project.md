@@ -1,10 +1,9 @@
 ---
 title: Erstellen eines DITA-Projekts
 description: Erstellen Sie ein DITA-Projekt mit einer Vorlage in AEM Guides. Erfahren Sie, wie Sie mit einem DITA-Projekt die Überprüfungen starten können.
-exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
 feature: Reviewing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%

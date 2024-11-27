@@ -1,10 +1,9 @@
 ---
 title: Ausgabe aktivieren
 description: Aktivieren Sie die Ausgabe von DITA-Maps in AEM Guides. Erfahren Sie, wie Sie Ihren Inhalt in der Veröffentlichungsinstanz aktivieren.
-exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 2%

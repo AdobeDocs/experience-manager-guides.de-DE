@@ -1,10 +1,9 @@
 ---
 title: Verwalten von Veröffentlichungsaufgaben mithilfe des Publish-Dashboards
 description: Verwalten Sie Veröffentlichungsaufgaben mithilfe des Publish Dashboards in AEM Guides. Erfahren Sie, wie Sie auf das Publishing-Dashboard zugreifen und eine Veröffentlichungsaufgabe abbrechen können.
-exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%

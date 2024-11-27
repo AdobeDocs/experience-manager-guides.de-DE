@@ -1,10 +1,9 @@
 ---
 title: Dateien und Ordner verwalten
 description: Erfahren Sie, wie Sie Dateien und Ordner in AEM Guides verwalten. Kopieren Sie Dateien und Ordner in großen Mengen, ziehen Sie sie per Drag-and-Drop, löschen Sie sie, verschieben Sie sie und suchen Sie DITA-Inhalte.
-exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
