@@ -3,7 +3,7 @@ title: Hinzufügen und Verwalten von Zitaten in Ihrem Inhalt
 description: Fügen Sie Zitate in AEM Guides hinzu und verwalten Sie sie. Erfahren Sie, wie Sie Inhaltsausgabe mit Zitaten anwenden, importieren, filtern, suchen, ändern, bearbeiten, Vorschau anzeigen, einfügen, löschen und generieren können.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -257,10 +257,10 @@ Nachdem Sie Zitate in das Thema eingefügt haben, können Sie Inhalte mit Zitate
 
 In der nativen PDF-Ausgabe erscheinen die Zitate in dem Inhalt, in den Sie sie eingefügt haben. Sie können auch eine Bibliografie-Seite erstellen. Wenn Sie auf eine beliebige Erwähnung klicken, werden Sie zur bibliography-Seite weitergeleitet.
 
-Erstellen Sie ein Seitenlayout für **Zitate** in den PDF-Vorlagen und fügen Sie es in Ihr Dokument ein. Alle im Buch verwendeten Zitate werden auf einer Seite aufgelistet, die in der PDF-Ausgabe erscheint. Weitere Informationen zum Erstellen eines Seitenlayouts finden Sie unter [Erstellen eines Seitenlayouts](../native-pdf/components-pdf-template.md#create-page-layout).
+Erstellen Sie ein Seitenlayout für **Zitate** in den PDF-Vorlagen und fügen Sie es in Ihr Dokument ein. Alle im Buch verwendeten Zitate werden auf einer Seite aufgelistet, die in der PDF-Ausgabe erscheint. Weitere Informationen zum Erstellen eines Seitenlayouts finden Sie unter [Erstellen eines Seitenlayouts](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Um die Ansicht und das Erscheinungsbild der Referenzseite zu ändern, sehen Sie sich [PDF-Vorlagen anpassen](../native-pdf/pdf-template.md) an.
+Um die Ansicht und das Erscheinungsbild der Referenzseite zu ändern, sehen Sie sich [PDF-Vorlagen anpassen](/help/product-guide/native-pdf/pdf-template.md) an.
 
 
 
@@ -272,4 +272,4 @@ Wenden Sie Formatierungen auf die Zitate an, wenn sie zum Thema hinzugefügt wer
 
 1. Suchen Sie im Suchbereich nach `<cite>`.
 
-Weitere Informationen zu Stilen finden Sie unter [Arbeiten mit den gängigen Inhaltsstilen](../native-pdf/stylesheet.md).
+Weitere Informationen zu Stilen finden Sie unter [Arbeiten mit den gängigen Inhaltsstilen](/help/product-guide/native-pdf/stylesheet.md).
