@@ -3,7 +3,7 @@ title: Publish eines Themas für ein Inhaltsfragment
 description: Publish eines Themas oder der Elemente innerhalb eines Themas zu einem Inhaltsfragment in AEM Guides.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Inhaltsfragmente anzeigen und erneut veröffentlichen können.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Auf der rechten Seite werden die veröffentlichten Inhaltsfragmentinhalte im Fal
 
      >[!NOTE]
      >
-     > Wenn Sie Version 4.4 oder frühere Versionen verwenden, wählen Sie eine Zuordnung aus der Dropdown-Liste aus. Die Zuordnungen werden aus der Datei *contentFragmentMapping.json* ausgewählt.  Ihr Administrator kann die Zuordnungen zur Datei *contentFragmentMapping.json* hinzufügen. Weitere Informationen zum Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) finden Sie im Installations- und Konfigurationshandbuch.[
+     > Wenn Sie Version 4.4 oder frühere Versionen verwenden, wählen Sie eine Zuordnung aus der Dropdown-Liste aus. Die Zuordnungen werden aus der Datei *contentFragmentMapping.json* ausgewählt.  Ihr Administrator kann die Zuordnungen zur Datei *contentFragmentMapping.json* hinzufügen. Weitere Informationen zum Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) finden Sie im Installations- und Konfigurationshandbuch.[
 
 1. Klicken Sie auf **Erzeugen** , um das Inhaltsfragment zu veröffentlichen.
 
@@ -110,4 +110,4 @@ Sie können auch die folgenden Aktionen für ein Inhaltsfragment über das Menü
 
 Das neue UUID-Migrationsskript für Inhalte wurde erheblich optimiert, sodass die Inhaltsmigration von Nicht-UUID zu UUID 30-mal schneller ist als das vorherige Skript. Es enthält Funktionen wie die Wiederaufnahme von Tests an Checkpoints, Live-Einblicke, geschätzte Fertigstellungszeiten und detaillierte Berichte, die einen harmonischen Migrationsprozess gewährleisten. Der Migrationsprozess bewahrt insbesondere Asset-Metadaten ohne Änderungen auf. Das Skript wurde mit einem großen Datensatz mit 3 Millionen Assets getestet und überprüft, um seine Effizienz und Zuverlässigkeit bei umfangreichen Migrationen zu bestätigen.
 
-Erfahren Sie mehr über die Migration von [Nicht-UUID-zu-UUID-Inhalten](../install-guide/migrate-non-uuid-uuid.md).
+Erfahren Sie mehr über die Migration von [Nicht-UUID-zu-UUID-Inhalten](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).

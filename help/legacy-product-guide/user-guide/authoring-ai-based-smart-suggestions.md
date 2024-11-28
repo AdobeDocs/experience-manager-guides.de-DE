@@ -1,7 +1,7 @@
 ---
 title: KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten
 description: Erfahren Sie, wie Sie KI-gestützte intelligente Vorschläge im Web Editor anzeigen und nutzen können.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Während Sie Inhalte erstellen, kann die Funktion **Wiederverwendbaren Inhalt vo
 Auf diese Weise können Sie vorhandenen Inhalt aus Ihrem Dokumentations-Repository wiederverwenden und konsistente Inhalte erstellen. Sie erstellen beispielsweise ein Dokument mit Informationen zu **Adobe Firefly**, einschließlich eines Absatzes über **Adobe**. In diesem Fall können Sie den Inhaltsverweis schnell von einem anderen Thema wie **Adobe Photoshop** anzeigen und hinzufügen, das denselben Absatz enthält.
 >[!NOTE]
 >
-> In den Profilen [global oder auf Ordnerebene](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions) muss Ihr Administrator die Dateien oder Ordner definieren, die für intelligente Vorschläge indiziert werden sollen, die Mindestanzahl der Zeichen, die Sie eingeben müssen, um die Vorschläge anzuzeigen, und die maximale Anzahl an Vorschlägen, die Sie in der Liste anzeigen können.
+> In den Profilen [global oder auf Ordnerebene](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions) muss Ihr Administrator die Dateien oder Ordner definieren, die für intelligente Vorschläge indiziert werden sollen, die Mindestanzahl der Zeichen, die Sie eingeben müssen, um die Vorschläge anzuzeigen, und die maximale Anzahl an Vorschlägen, die Sie in der Liste anzeigen können.
 
 Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hinzufügen entsprechender Inhaltsreferenzen zu Ihrem Thema anzuzeigen:
 

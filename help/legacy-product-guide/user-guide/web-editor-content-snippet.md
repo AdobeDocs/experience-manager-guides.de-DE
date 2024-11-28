@@ -3,7 +3,7 @@ title: Inhaltsfragment aus Ihrer Datenquelle einfügen
 description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Guides. Erfahren Sie, wie Sie ein Inhaltsfragment aus Ihrer Datenquelle einfügen. Erstellen Sie ein Thema mit dem Thema-Generator.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ Je nach Einrichtung kann Ihr Administrator einen Datenquellen-Connector konfigur
 <summary> Cloud Services </summary>
 
 
-- Wenn Sie die Version von Oktober 2023 oder höher verwenden, erfahren Sie im Cloud Service-Installations- und Konfigurationshandbuch, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md).
+- Wenn Sie die Version von Oktober 2023 oder höher verwenden, erfahren Sie im Cloud Service-Installations- und Konfigurationshandbuch, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md).
 
-- Wenn Sie die Version von Juli 2023 oder September 2023 verwenden, erfahren Sie im Cloud Service-Installations- und Konfigurationshandbuch, wie Sie einen Datenquellen-Connector konfigurieren [1}.](../cs-install-guide/conf-data-source-connector.md)
+- Wenn Sie die Version von Juli 2023 oder September 2023 verwenden, erfahren Sie im Cloud Service-Installations- und Konfigurationshandbuch, wie Sie einen Datenquellen-Connector konfigurieren [1}.](/help/product-guide/cs-install-guide/conf-data-source-connector.md)
 
 </details>
 
 <details>    
 <summary>  On-Premise Software </summary>
 
-- Wenn Sie Version 4.3.1 oder höher verwenden, erfahren Sie im On-Premise-Installations- und Konfigurationshandbuch, wie Sie einen Datenquellen-Connector über die Benutzeroberfläche ](../cs-install-guide/conf-data-source-connector-tools.md) konfigurieren.[
+- Wenn Sie Version 4.3.1 oder höher verwenden, erfahren Sie im On-Premise-Installations- und Konfigurationshandbuch, wie Sie einen Datenquellen-Connector über die Benutzeroberfläche ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) konfigurieren.[
 
-- Wenn Sie Version 4.3 verwenden, erfahren Sie im On-Premise-Installations- und Konfigurationshandbuch, wie Sie einen Datenquell-Connector ](../cs-install-guide/conf-data-source-connector.md) konfigurieren.[
+- Wenn Sie Version 4.3 verwenden, erfahren Sie im On-Premise-Installations- und Konfigurationshandbuch, wie Sie einen Datenquell-Connector ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) konfigurieren.[
 </details>
 
 

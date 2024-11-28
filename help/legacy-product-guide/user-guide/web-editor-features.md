@@ -3,7 +3,7 @@ title: Funktionen des Web Editors kennen
 description: Entdecken Sie die Funktionen des Web-Editors in AEM Guides. Machen Sie sich mit der Benutzeroberfläche des Web-Editors vertraut, einschließlich der Hauptsymbolleiste, der sekundären Symbolleiste, des linken Bedienfelds, des Inhaltsbearbeitungsbereichs und des rechten Bedienfelds.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -605,7 +605,7 @@ Wenn Sie sich in der Kartenansicht befinden und die übergeordnete Zuordnung erw
 
 Die QuickInfo für &quot;Ein-/Auschecken&quot;wird durch die Eigenschaft title in der Datei `ui_config.json` bestimmt.
 
-Weitere Informationen finden Sie unter [Konfigurieren des Titels für &quot;Ein- und Auschecken&quot;-Symbole](../install-guide/conf-checkin-checkout-title.md) im On-Premise-Installations- und Konfigurationshandbuch.
+Weitere Informationen finden Sie unter [Konfigurieren des Titels für &quot;Ein- und Auschecken&quot;-Symbole](/help/product-guide/install-guide/conf-checkin-checkout-title.md) im On-Premise-Installations- und Konfigurationshandbuch.
 
 
 **Tag-Ansicht ein/aus** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ Die verschiedenen Optionen im Menü Optionen werden nachfolgend beschrieben:
 
   >[!NOTE]
   >
-  >Wenden Sie sich an Ihr Customer Success Team, um diese Funktion in der Umgebung aktivieren zu lassen. Dies ist im Rahmen der nativen Unterstützung nicht aktiviert. Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Option zur Bearbeitung in Sauerstoff](../cs-install-guide/conf-edit-in-oxygen.md) im Installations- und Konfigurationshandbuch.
+  >Wenden Sie sich an Ihr Customer Success Team, um diese Funktion in der Umgebung aktivieren zu lassen. Dies ist im Rahmen der nativen Unterstützung nicht aktiviert. Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Option zur Bearbeitung in Sauerstoff](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) im Installations- und Konfigurationshandbuch.
 
 
 - **Anzeigen in der Assets-Benutzeroberfläche**: Verwenden Sie diese Option, um eine Vorschau einer .dita/.xml-Datei in der Assets-Benutzeroberfläche anzuzeigen. Bei einer .ditamap/.bookmap -Datei werden alle Themendateien in der Zuordnung in einer einheitlichen Seitenansicht angezeigt.

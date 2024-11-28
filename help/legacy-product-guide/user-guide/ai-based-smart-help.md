@@ -1,7 +1,7 @@
 ---
 title: KI-gestützte intelligente Hilfe für die Suche nach Inhalten
 description: Erfahren Sie, wie Sie die KI-gestützte intelligente Hilfe im Web-Editor anzeigen und nutzen können.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Wenn Sie den Web Editor öffnen, wird rechts das Bedienfeld **Smart Help** angez
 
 >[!NOTE]
 >
-> Ihr Administrator muss die Funktion **Smart Help** konfigurieren. Weitere Informationen finden Sie im Abschnitt [Konfigurieren der KI-gestützten intelligenten Hilfe für die Inhaltssuche](../cs-install-guide/conf-smart-help.md) im Installations- und Konfigurationshandbuch für Cloud Service.
+> Ihr Administrator muss die Funktion **Smart Help** konfigurieren. Weitere Informationen finden Sie im Abschnitt [Konfigurieren der KI-gestützten intelligenten Hilfe für die Inhaltssuche](/help/product-guide/cs-install-guide/conf-smart-help.md) im Installations- und Konfigurationshandbuch für Cloud Service.
 
 ![Smart Help panel](images/smart-help-panel.png){width="300" align="left"}
 
@@ -39,7 +39,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe der Konversationssuche geeig
 
    >[!NOTE]
    >
-   > In den Profilen [global oder auf Ordnerebene](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant) muss Ihr Administrator die Standardfragen definieren, die im Bedienfeld angezeigt werden.
+   > In den Profilen [global oder auf Ordnerebene](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant) muss Ihr Administrator die Standardfragen definieren, die im Bedienfeld angezeigt werden.
 
 1. Geben Sie die Frage ein, um den zugehörigen Inhalt in der Experience Manager Guides-Dokumentation zu finden. Sie können die Standardfrage im Bedienfeld auswählen oder Ihre Frage in das Textfeld eingeben.
 

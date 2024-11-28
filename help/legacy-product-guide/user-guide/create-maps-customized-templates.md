@@ -3,7 +3,7 @@ title: Erstellen von Karten basierend auf benutzerdefinierten Vorlagen
 description: Erfahren Sie, wie Sie eine Vorlage erstellen, sie zum Erstellen neuer Zuordnungsdateien verwenden und den definierten Titel an eine DITA-Zuordnung in AEM Guides weitergeben.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,13 +96,13 @@ Je nach Setup erfahren Sie, wie Sie den benutzerdefinierten Ordnerpfad für DITA
 <details>
     <summary> Cloud Services </summary>
 
-Erfahren Sie im Cloud Service-Installations- und Konfigurationshandbuch, wie Sie den benutzerdefinierten Ordnerpfad für DITA-Vorlagen ](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) konfigurieren.[
+Erfahren Sie im Cloud Service-Installations- und Konfigurationshandbuch, wie Sie den benutzerdefinierten Ordnerpfad für DITA-Vorlagen ](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) konfigurieren.[
 </details>
 
 <details>
     <summary> On-Premise Software</summary>
 
-Erfahren Sie im On-Premise-Installations- und Konfigurationshandbuch, wie Sie den benutzerdefinierten Ordnerpfad für DITA-Vorlagen ](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) konfigurieren.[
+Erfahren Sie im On-Premise-Installations- und Konfigurationshandbuch, wie Sie den benutzerdefinierten Ordnerpfad für DITA-Vorlagen ](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) konfigurieren.[
 </details>
 
 ## Weitergeben des in den Vorlagen definierten Titels

@@ -3,7 +3,7 @@ title: AEM Sites
 description: Erstellen und konfigurieren Sie die AEM Sites-Vorgabe im Web Editor und generieren Sie die AEM Sites-Ausgabe für DITA-Maps, ausgewählte Themen und verknüpfte Themen.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 Sie können AEM Sites-Vorgaben im Web Editor erstellen und so konfigurieren, dass die AEM Sites-Ausgabe generiert wird. Die AEM Sites-Ausgabe basiert auf dem Mapping der zusammengesetzten Komponenten zusammen mit dem Tag &quot;`guides-components`&quot;, was die effiziente Erstellung und Verwaltung von Inhalten erleichtert.
 
 Experience Manager Guides stellt vordefinierte Vorlagen zum Erstellen von AEM Sites bereit. Mithilfe dieser Vorgaben können Sie ein konsistentes Inhaltslayout und eine konsistente Inhaltsstruktur gewährleisten.
-- [Erstellen Sie Startseiten](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) anhand dieser vordefinierten Vorlagen.
-- Sie können [Themenvorlagen bearbeiten](../cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) und Stile entsprechend Ihren Anforderungen anwenden.
-- Sie können auch [vorhandene AEM Sites-Vorlagen anpassen](../cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates).
+- [Erstellen Sie Startseiten](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) anhand dieser vordefinierten Vorlagen.
+- Sie können [Themenvorlagen bearbeiten](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) und Stile entsprechend Ihren Anforderungen anwenden.
+- Sie können auch [vorhandene AEM Sites-Vorlagen anpassen](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates).
 
 
 
@@ -40,8 +40,8 @@ Führen Sie die folgenden Schritte aus, um die AEM Sites-Vorgaben im Web Editor 
 >[!NOTE]
 >
 >Bevor Sie die AEM Sites-Vorgaben für Experience Manager Guides konfigurieren, muss Ihr Administrator eine AEM Sites-Struktur mit den Vorlagen erstellen.
-- **On-Premise-Software**: Erfahren Sie mehr über das [Herunterladen und Installieren von AEM Sites-Vorlagen](../install-guide/download-install-aem-sites-templates.md) für On-Premise-Software.
-- **Cloud Service**: Erfahren Sie mehr über das [Herunterladen und Installieren von AEM Sites-Vorlagen](../cs-install-guide/download-install-aem-sites-templates-cs.md) für den Cloud Service.
+- **On-Premise-Software**: Erfahren Sie mehr über das [Herunterladen und Installieren von AEM Sites-Vorlagen](/help/product-guide/install-guide/download-install-aem-sites-templates.md) für On-Premise-Software.
+- **Cloud Service**: Erfahren Sie mehr über das [Herunterladen und Installieren von AEM Sites-Vorlagen](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) für den Cloud Service.
 
 
 
@@ -140,7 +140,7 @@ Die folgenden Optionen sind für die AEM Sites-Ausgabe verfügbar:
 Mit Experience Manager Guides können Sie die vordefinierten Vorlagen verwenden oder eigene AEM Sites-Vorlagen hinzufügen.
 
 Bevor Sie die AEM Sites-Vorgaben konfigurieren, stellen Sie sicher, dass Sie eine AEM Sites-Struktur mithilfe der Vorlagen erstellen.\
-Weitere Informationen finden Sie unter [Herunterladen und Installieren von AEM Sites-Vorlagen](../install-guide/download-install-aem-sites-templates.md).
+Weitere Informationen finden Sie unter [Herunterladen und Installieren von AEM Sites-Vorlagen](/help/product-guide/install-guide/download-install-aem-sites-templates.md).
 
 
 
