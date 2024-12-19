@@ -21,6 +21,6 @@ Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern 
 
 >[!NOTE]
 >
-> AEM as a Cloud Service unterstützt Dispatcher nicht für die Autoreninstanz.
+> AEM as a Cloud Service unterstützt keinen Dispatcher für die Autoreninstanz.
 
-**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

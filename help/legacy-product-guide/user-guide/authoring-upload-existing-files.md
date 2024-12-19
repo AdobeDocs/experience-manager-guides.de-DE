@@ -1,9 +1,10 @@
 ---
 title: Hochladen von Dateien
-description: Erfahren Sie, wie Sie Ihre Dateien in das AEM-Repository hochladen und Fehler beheben können. Erfahren Sie mehr über die Benutzeroberfläche der Asset-Konsole, AEM Desktop-Programm, die Erfassung von Asset-Massen und die Verwendung von FrameMaker für Massen-Uploads.
+description: Erfahren Sie, wie Sie Ihre Dateien in das AEM-Repository hochladen und Fehler beheben können. Kennenlernen der Assets-Konsolen-Benutzeroberfläche, des AEM-Desktop-Programms, der Asset-Massenaufnahme und der Verwendung von FrameMaker für den Massen-Upload
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
+source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 1%
@@ -12,38 +13,38 @@ ht-degree: 1%
 
 # Hochladen von Dateien {#id176FF000JUI}
 
-Wahrscheinlich verfügen Sie über ein Repository mit vorhandenen DITA-Inhalten, das Sie mit AEM Guides verwenden möchten. Für solche vorhandenen Inhalte können Sie einen der folgenden Ansätze verwenden, um Ihre Inhalte stapelweise in AEM Repository hochzuladen:
+Wahrscheinlich hätten Sie ein Repository mit vorhandenen DITA-Inhalten, die Sie mit AEM Guides verwenden möchten. Für solche vorhandenen Inhalte können Sie einen der folgenden Ansätze verwenden, um Ihren Inhalt stapelweise in das AEM-Repository hochzuladen:
 
 >[!IMPORTANT]
 >
-> Detaillierte Informationen zu den unterstützten Methoden zum Hochladen von Inhalten in AEM finden Sie unter [Hinzufügen digitaler Assets zu Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) .
+> Siehe [Hinzufügen digitaler Assets zu Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) für detaillierte Informationen zu den unterstützten Methoden zum Hochladen von Inhalten in AEM.
 
-## Benutzeroberfläche der Assets Console
+## Benutzeroberfläche der Assets-Konsole
 
-Sie können Inhalte auf Ihrem Desktop auswählen und auf die AEM-Benutzeroberfläche ziehen, \(Webbrowser\), um sie in den Zielordner zu verschieben. Weitere Informationen finden Sie unter [Hochladen von Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) in AEM Dokumentation.
+Sie können Inhalte auf Ihrem Desktop auswählen und über die AEM-Benutzeroberfläche \(Webbrowser\) in den Zielordner ziehen. Weitere Informationen finden Sie unter [Hochladen von Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) in der AEM-Dokumentation.
 
 ## AEM-Desktop-Programm
 
-Verwenden Sie AEM Desktop-Programm, wenn Sie Kreativprofis sind und die Assets auf Ihrem lokalen Desktop verwalten möchten. Sie können diese Assets mit Ihren Desktop-Applikationen öffnen und bearbeiten. Sie können auch Versionen verwalten und Ihre Dateien für andere Benutzer freigeben. Weitere Informationen finden Sie unter [AEM Desktop-Programm](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=de).
+Verwenden Sie das AEM-Desktop-Programm, wenn Sie ein Kreativprofi sind und die Assets auf Ihrem lokalen Desktop verwalten möchten. Sie können diese Assets mit Ihren Desktop-Programmen öffnen und bearbeiten. Sie können auch Versionen verwalten und Ihre Dateien für andere Benutzer freigeben. Weitere Informationen finden Sie unter [AEM Desktop App](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=de).
 
 ## Asset-Massenaufnahme
 
-Wenn Sie über umfangreiche Migrationen und gelegentliche Massenaufnahmen verfügen, verwenden Sie Asset-Massenaufnahmen, um Ihre Inhalte hochzuladen. Mit diesem Tool können Sie Masseninhalte aus unterstützten Datenspeichern wie Azure oder S3 hochladen. Weitere Informationen finden Sie unter [Asset-Massenaufnahme](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
+Bei umfangreichen Migrationen und gelegentlichen Massenaufnahmen von Assets können Sie Ihre Inhalte mit dem Asset-Bulk-Ingest hochladen. Mit diesem Tool können Sie Masseninhalte aus unterstützten Datenspeichern wie Azure oder S3 hochladen. Weitere Informationen finden Sie unter [Asset-Massenaufnahme](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
 ## FrameMaker für Massen-Upload verwenden
 
-Adobe FrameMaker verfügt über einen leistungsstarken AEM-Connector, mit dem Sie Ihre vorhandenen DITA- und anderen FrameMaker-Dokumente \(`.book` und `.fm`\) einfach in AEM hochladen können. Sie können verschiedene Funktionen zum Hochladen von Dateien verwenden, z. B. das Hochladen einer einzelnen Datei, das Hochladen eines vollständigen Ordners mit oder ohne Abhängigkeiten \(z. B. Inhaltsreferenzen, Querverweise und Grafiken\).
+Adobe FrameMaker verfügt über einen leistungsstarken AEM-Connector, mit dem Sie vorhandene DITA- und andere FrameMaker-Dokumente \(`.book` und `.fm`\) einfach in AEM hochladen können. Sie können verschiedene Datei-Upload-Funktionen verwenden, z. B. das Hochladen einer einzelnen Datei, das Hochladen eines vollständigen Ordners mit oder ohne Abhängigkeiten \(z. B. Inhaltsreferenzen, Querverweise und Grafiken\).
 
-Weitere Informationen zur Verwendung der Massen-Upload-Funktion in FrameMaker finden Sie im Abschnitt *Erstellen eines CRX-Ordners und Hochladen von Dateien* im FrameMaker-Benutzerhandbuch.
+Weitere Informationen zur Verwendung der Funktion für den Massen-Upload in FrameMaker finden Sie im Abschnitt *Erstellen eines CRX-Ordners und Hochladen von*) im FrameMaker-Benutzerhandbuch.
 
-## Umgang mit Fehlern beim Hochladen von Inhalten {#id201MI0I04Y4}
+## Fehlerbehandlung beim Hochladen von Inhalten {#id201MI0I04Y4}
 
-Falls eine oder mehrere Dateien nicht hochgeladen werden konnten, wird am Ende des Upload-Prozesses eine Eingabeaufforderung mit einer Liste der Dateien angezeigt, die nicht hochgeladen werden konnten:
+Wenn es zu einem Fehler beim Hochladen einer oder mehrerer Dateien kommt, wird am Ende des Upload-Prozesses eine Eingabeaufforderung mit einer Liste der Dateien angezeigt, die nicht hochgeladen werden konnten:
 
 ![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
-Weitere Informationen zu den verschiedenen Szenarien für das Hochladen von Dateien finden Sie unter [Hochladen von DITA-Inhalten](authoring-file-management.md#).
+Weitere Informationen zu den verschiedenen Szenarien für den Datei-Upload finden Sie unter [DITA-Inhalt hochladen](authoring-file-management.md#).
 
-Wenn Sie ein Tool wie AEM Desktop-Programm oder Asset-Massenaufnahme verwenden, wird die Aktion, die für eine duplizierte Datei ausgeführt werden soll, durch eine Einstellung auf dem AEM-Server gesteuert. Wenden Sie sich an Ihren Systemadministrator, um Informationen zu dieser Konfiguration zu erhalten.
+Wenn Sie ein Tool wie das AEM-Desktop-Programm oder das Asset-Bulk-Ingest verwenden, wird die Aktion, die für eine doppelte Datei ausgeführt werden soll, durch eine Einstellung im AEM-Server gesteuert. Wenden Sie sich an Ihren Systemadministrator, um mehr über diese Konfiguration zu erfahren.
 
-**Übergeordnetes Thema:**[ Inhalt verwalten](authoring.md)
+**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)

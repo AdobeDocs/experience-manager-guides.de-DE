@@ -1,6 +1,6 @@
 ---
-title: Hinzufügen benutzerdefinierter Stile zum Guides-Editor
-description: Erfahren Sie, wie Sie benutzerdefinierte Stile hinzufügen, um das Erscheinungsbild des Guides-Editors zu ändern.
+title: Hinzufügen benutzerdefinierter Stile zu Handbüchern im Web-Editor
+description: Erfahren Sie, wie Sie benutzerdefinierte Stile hinzufügen können, um das Erscheinungsbild des Web-Editors für Handbücher zu ändern.
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
 feature: Web Editor
 role: User, Admin
@@ -11,34 +11,34 @@ ht-degree: 0%
 
 ---
 
-# Hinzufügen benutzerdefinierter Stile zum Guides-Editor
+# Hinzufügen benutzerdefinierter Stile zu Handbüchern im Web-Editor
 
-In diesem Artikel erfahren Sie, wie Sie benutzerdefinierte Stile hinzufügen können, um das Erscheinungsbild und die Standardeinstellung für den Webserver zu ändern.
+In diesem Artikel erfahren Sie, wie Sie benutzerdefinierte Stile hinzufügen können, um das standardmäßige Erscheinungsbild des Web-Editors zu ändern.
 
 Dies umfasst die folgenden Schritte:
-- Hinzufügen benutzerdefinierter Stile über die Konfiguration des XML-Editors für Ordnerprofile
-- Auswählen des entsprechenden Ordnerprofils im WebEditor und Testen der Änderungen
+- Hinzufügen der benutzerdefinierten Stile über die Konfiguration des XML-Editors für Ordnerprofile
+- Auswählen des entsprechenden Ordnerprofils im Web-Editor und Testen der Änderungen
 
 
-## Implementieren anhand eines Beispiels
+## Beispielhafte Implementierung
 
-Sehen wir uns dazu ein Beispiel an, in dem wir die kurze Beschreibung und den Titel als separaten Block mit einigen Stilaspekten im Editor anzeigen möchten.
+Sehen wir uns dazu ein Beispiel an, in dem die Kurzbeschreibung und der Titel als separater Block mit einigen Stilaspekten im Editor angezeigt werden sollen.
 
-![Anzeigen einer Vorschau des Webeditors mit benutzerdefinierten Stilen](../../../assets/authoring/webeditor-customstyles-preview.png)
-
-
-## Implementieren
+![Vorschau des Web-Editors mit benutzerdefinierten Stilen](../../../assets/authoring/webeditor-customstyles-preview.png)
 
 
-### Hinzufügen der benutzerdefinierten CSS zum Ordnerprofil
+## Implementieren von
 
-Verwenden Sie die Ordnerprofile, um die *css_layout.css* auf der Registerkarte &quot;XML-Editor-Konfiguration&quot;zu überprüfen und das CSS mit benutzerdefinierten Stilen hinzuzufügen.
 
-[Verwenden Sie diesen Link, um mehr über das Ordnerprofil und das Konfigurieren des CSS-Vorlagenlayouts zu erfahren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+### Hinzufügen des benutzerdefinierten CSS zum Ordnerprofil
 
-Verwenden Sie Folgendes, um den obigen Stil in Ihrem Webserver einzurichten:
-- Verwenden Sie [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) und laden Sie es in das Ordnerprofil Ihrer Wahl hoch
-- Installieren Sie das angehängte Paket [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) mit AEM Paketmanager, um die in der obigen CSS-Datei verwendeten Ressourcen zu installieren.
+Verwenden Sie die Ordnerprofile, um *css_layout.css* auf der Registerkarte „XML-Editor-Konfiguration“ zu überprüfen und das CSS mit benutzerdefinierten Stilen hinzuzufügen
+
+[Verwenden Sie diesen Link, um mehr über Ordnerprofile und das Konfigurieren des CSS-Vorlagenlayouts zu erfahren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+
+Verwenden Sie Folgendes, um den oben genannten Stil in Ihrem Web-Editor einzurichten:
+- Verwenden Sie [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) und laden Sie es in den Profilordner Ihrer Wahl hoch
+- Installieren Sie das angehängte Paket [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) mithilfe von AEM Package Manager, um die in der obigen CSS-Datei verwendeten Ressourcen zu installieren
 
 ```
 This will install the resources at path "/content/dam/resources" which will include sub-folders "fonts" and "images"
@@ -47,9 +47,9 @@ This will install the resources at path "/content/dam/resources" which will incl
 
 ### Testen
 
-- Öffnen Sie den Web-Editor
-- Wählen Sie in den Benutzereinstellungen das Ordnerprofil aus, in dem Sie die benutzerdefinierten Stile hinzugefügt haben. Wenn Sie es zum globalen Profil hinzugefügt haben, verwenden Sie es wahrscheinlich bereits.
-- Öffnen Sie ein Thema. Sie werden feststellen, dass der Bearbeitungsbereich über eine benutzerdefinierte Benutzeroberfläche verfügen sollte.
+- Web-Editor öffnen
+- Wählen Sie in den Benutzereinstellungen den Profilordner aus, dem Sie die benutzerdefinierten Stile hinzugefügt haben. Wenn Sie es zum globalen Profil hinzugefügt haben, verwenden Sie es wahrscheinlich bereits.
+- Wenn Sie ein Thema öffnen, werden Sie feststellen, dass der Bearbeitungsbereich eine benutzerdefinierte Benutzeroberfläche haben sollte
 
 ```
 Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud version 2303 (March)
@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Verweise
 
-Möglicherweise interessieren Sie sich auch für die Expertensitzung rund um die Konfiguration und Anpassung von Webservern, die in der [Expertensitzung zum Webserver](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en) behandelt wird.
+Vielleicht interessieren Sie sich auch für die Expertensitzung zu WebEditor-Konfigurationen und -Anpassungen, die unter [Expertensitzung auf WebEditor“ behandelt ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

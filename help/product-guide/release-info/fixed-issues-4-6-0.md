@@ -1,170 +1,166 @@
 ---
-title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 4.6.0
-description: Erfahren Sie mehr über die Fehlerbehebungen in der Adobe Experience Manager Guides-Version 4.6.0
+title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 4.6.0 behoben
+description: Erfahren Sie mehr über die Fehlerbehebungen in Version 4.6.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: d51cc5ed621d5f533815c677e23bd4c1f4a52de3
+exl-id: fd12d627-5163-4edd-b28e-bef13267fcc9
+source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 0%
 
 ---
 
-
 # Es wurden Probleme in Version 4.6.0 (September 2024) behoben
 
 
-Dieser Artikel behandelt die Fehler, die in verschiedenen Bereichen der Version 4.6.0 von Adobe Experience Manager Guides behoben wurden.
+Dieser Artikel behandelt die in verschiedenen Bereichen von Version 4.6.0 von Adobe Experience Manager Guides behobenen Fehler.
 
 
 Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 4.6.0](whats-new-4-6.md).
 
-Erfahren Sie mehr über [Upgrade-Anweisungen für Version 4.6.0](../release-info/upgrade-instructions-4-6-0.md).
+Erfahren Sie mehr über [Upgrade-Anweisungen für die Version 4.6.0](../release-info/upgrade-instructions-4-6-0.md).
 
 ## Authoring
 
-- Die Option **Suchen** funktioniert in der Ansicht **Source** nicht. (18610)
-- Die Symbole **Auschecken** und **Einchecken** werden zusammen angezeigt, wenn `autocheckout` in xmleditor konfiguriert ist. (18088)
-- Große DITA-Maps werden langsam geladen und benötigen Zeit, um zur Ansicht **Layout** zu wechseln.  (17590)
-- Fehler bei doppelten Bild-IDs in den Themen beschränken das Speichern oder Bearbeiten eines Themas durch den Benutzer. (17528)
-- Beim Kopieren und Einfügen von Themen mit einer Größe von mehr als 15 KB tritt ein unerwarteter Fehler auf. (17171)
-- Die Funktion zum Ändern des Dokumentstatus im Bedienfeld **Dateieigenschaften** funktioniert nicht ordnungsgemäß und ändert sich in den Status *Entwurf* . (17088)
-- Wenn Sie die Einstellungen des XML-Editors mit einem benutzerdefinierten Ordnerprofil ändern, wird `ui_config.json` mit einer falschen Datei aktualisiert. (17011)
-- In wiederverwendbaren Inhaltsbereichen werden Elemente nicht aufgelistet, wenn die **Benutzereinstellungen** so eingestellt sind, dass Dateien mit **Dateiname** angezeigt werden. (16896)
-- Unterelemente innerhalb des Tabellentitelelements werden im Modus **Vorschau** von Experience Manager Guides nicht dargestellt. (16691)
-- **Sonderzeichen**, die mit Escape-Zeichen geschrieben wurden, werden nach dem Hochladen in Experience Manager Guides aus dem Thema entfernt. (16495)
-- Vimeo-Videos unterstützen keine Vollbildfunktionalität in Experience Manager Guides. (1596)
-- Das Einfügen langer vorformatierter Textzeilen in Elemente vom Typ `<pre>` oder `<codeblock>` führt zu abgeschnittenem Text. (15859)
-- Das Löschen von Inhalten erfolgt aufgrund doppelter GUIDs, wenn Vorlagen über Code installiert, aber nicht verarbeitet werden. (15858)
-- Experience Manager Guides hält im Modus **Vorschau** nicht das Attribut **Verarbeitungsrolle** ein. (15787)
-- Der Editor löscht gelegentlich zusätzlichen Text, der über den ausgewählten Bereich hinausgeht. (15708)
-- Es ist nicht möglich, große Tabellen aus Word-Dokumenten oder HTML in den Web-Editor zu kopieren und einzufügen. (15369)
-- Fehlende APIs oder Ereignisse zum Erfassen von Attributen, die zu einem Element hinzugefügt oder ein neues Element eingefügt werden. (15351)
-- Es ist nicht möglich, im Web Editor das Tag `<data>` innerhalb des Tags `<ol>` hinzuzufügen. (15161)
-- Die Platzhalterkomponente **Element** friert die Benutzeroberfläche ein. (14957)
-- Der Web Editor kann keine PPTX-Dateien hochladen. (14837)
-- Beim Suchen eines Textes im Web Editor kehrt der Cursor beim Drücken der Eingabetaste zum ersten Vorkommen des gesuchten Textes zurück. (14820)
-- Das automatische Speichern verursacht mehrere Probleme, es positioniert den Cursor neu und erfordert manuelle Klicks im Dokument. (14253)
-- Wenn Sie die Taste **Enter** in einer Tabellenzelle innerhalb des Textes drücken, wird der Absatz nicht wie erwartet geteilt. (14251)
-- Große Dateien werden nicht im Web Editor geladen und frieren den Browser ein. (13227)
-- Die Suchergebnisse werden deaktiviert, nachdem eine Datei geöffnet wurde, die über globale **Suchen und Ersetzen** gefunden wurde. (12142)
-- In der Quellansicht wird gelegentlich `</conbody>` an falschen Stellen eingefügt. (11305)
-- Der Komponentenpfad `/libs/fmdita/components/versions` ist fest codiert und die Benutzer können ihn nicht überlagern. (8779)
-- `<conref>` für ein Thema, auf das in einer DITA-Zuordnung verwiesen wird, wird nicht in der Vorschau im Editor angezeigt. (17794)
-- Die Experience Manager-DITA-Anleitung kann nach Verwendung der Funktion zum automatischen Einzug nicht auf die Funktion &quot;Speichern&quot;Trigger werden. (16482)
-- Die QuickInfo-Funktion kann das Source-Feld im XML-Editor nicht aktualisieren. (15847)
-- Die Funktion **UUID-Link freigeben** funktioniert nicht für die Bilder in Adobe Experience Manager. (15598)
-- In der Ansicht **Autor** tritt ein Problem beim Kopieren und Einfügen auf, wenn ununterbrochene Leerzeichen verwendet werden und Text überläuft. (15541)
-- Überschneidende Textprobleme treten in den Tags `<reltable>` und `<fig>` auf. (15238)
-- Flackernde Probleme treten im Bereich **Attribute** auf. (15237)
-- Beim Hinzufügen eines `<conref>` -Elements zu einer anderen DITA-Zuordnung in `<topicmeta>` wird die Zuordnungs-ID ebenfalls an die ID des Elements angehängt. `<othermeta>` (15226)
-- Der Cursor springt beim Löschen eines Zeichens oder Worts im Inhalt zwischen den Blockelementen. (15224)
-- Die Fehlermeldung &quot;Datei ausgecheckt durch&quot; wird falsch angezeigt, wenn Dateien von einer anderen Registerkarte verschoben, Token abgelaufen oder der Benutzer abgemeldet wird. (15223)
-- Der `<conref>` kann nicht über das Bedienfeld **Attribute** aktualisiert werden, wenn Änderungen vorgenommen werden. (15209)
-- Die gesamte Zelle wird bei der Auswahl eines Bildes in einer Tabellenzelle ausgewählt. (15188)
-- Der Bereich **Attribute** wird nicht in der Source-Ansicht des Web Editors angezeigt. (14387)
-- `<Topicref>`, der mit `<keyref>` hinzugefügt wurde, wird nicht in nativer PDF angezeigt. (1974)
-- Beim Bearbeiten am Ende eines Tags im Web Editor werden unerwünschte, geschützten Leerzeichen hinzugefügt. (11786)
-- Der Inhalt wird beim Korrigieren der Rechtschreibfehler in DITA-Dateien gelöscht. (11610)
-- Durch Öffnen eines DITA-Themas oder -Map in einer neuen Registerkarte zur Bearbeitung wird die Auswahlnavigation in der Assets-Benutzeroberfläche eingefroren. (4992)
-- Das Löschen von Überprüfungsknoten beeinträchtigt die Möglichkeit, Kommentare in Adobe Experience Manager Guides zu öffnen und anzuzeigen. (15366)
-- In der DITA-Version wird der Benutzername fälschlicherweise in der Assets-Benutzeroberfläche angezeigt. (17580)
-- Das Element `<title>` wird automatisch hinzugefügt, wenn das Element `<fig>` als Ausschnitt eingefügt wird. (18562)
-- Beim Hochladen einer großen Anzahl von Dateien mit dichten Datensätzen in Experience Manager Guides treten Probleme auf.(17008)
-- Der Webeditor zeigt standardmäßig den richtigen Suchbegriff nicht an, insbesondere wenn der Suchbegriff in untergeordneten Maps unterschiedlich definiert ist. (14748)
-- Der **Dokumentstatus** wird nicht angezeigt, wenn die Eigenschaften von mehr als 50 Dateien stapelweise in der Zuordnungsansicht des Web-Editors bearbeitet werden. (14574)
-- Das Verhalten der Schaltfläche Schließen ist bei Verwendung der Funktion Automatisches Speichern inkonsistent. (1096)
-- Beim Einfügen eines neuen Elements oder Ändern von Gleichungen treten in MathML-Elementen Validierungsprobleme auf. (10624)
-- Die Funktion &quot;Änderungen verfolgen&quot;funktioniert nicht mit Text, der mit koreanischen Zeichen beginnt. (14538)
-- Verknüpfte Bilder aus den Themen werden nach der Versionserstellung nicht in der Grundlinie angezeigt. (16931)
+- Die Option **Suchen** funktioniert in der Ansicht **Source** nicht. 18610)
+- **Auschecken** und **Einchecken** werden zusammen angezeigt, wenn `autocheckout` im xmeditor konfiguriert ist. 18088)
+- Große DITA-Karten werden langsam geladen und brauchen beim Wechsel zur **Layout**-Ansicht etwas Zeit.  17590)
+- Fehler für doppelte Bild-IDs in den Themen hindern den Benutzer daran, ein Thema zu speichern oder zu erstellen. 17528)
+- Das Kopieren und Einfügen von Themen mit einer Größe von mehr als 15 KB schlägt mit einem unerwarteten Fehler fehl. 17171)
+- Die Funktion zum Ändern des Dokumentstatus im Bedienfeld **Dateieigenschaften** funktioniert nicht ordnungsgemäß und ändert sich in den *Entwurf*. 17088)
+- Beim Ändern der XML-Editor-Einstellungen mithilfe eines benutzerdefinierten Ordnerprofils wird der `ui_config.json` mit einer falschen Datei aktualisiert. 17011)
+- Wiederverwendbare Inhaltsbedienfelder enthalten keine Elemente, wenn die **Benutzereinstellungen** so eingestellt sind, dass Dateien nach &quot;**&quot; angezeigt**. 16896)
+- Unterelemente innerhalb des Tabellentitelelements können im **-Modus** Experience Manager Guides nicht gerendert werden. 16691)
+- **Sonderzeichen** die mit Escape-Zeichen geschrieben wurden, werden aus dem Thema entfernt, nachdem sie in Experience Manager Guides hochgeladen wurden. 16495)
+- Vimeo-Videos unterstützen in Experience Manager Guides keine Vollbildfunktion. 15996)
+- Das Einfügen langer vorformatierter Textsequenzen in `<pre>` oder `<codeblock>` führt zu abgeschnittenem Text. 15859)
+- Das Löschen von Inhalten erfolgt aufgrund doppelter GUIDs, wenn Vorlagen über Code installiert werden, aber nicht verarbeitet werden. 15858)
+- Experience Manager Guides erfüllt das Attribut **Verarbeitungsrolle** im Modus **Vorschau** nicht. 15787)
+- Der Editor löscht gelegentlich zusätzlichen Text über den ausgewählten Bereich hinaus. 15708)
+- Es ist nicht möglich, große Tabellen aus Word-Dokumenten oder HTML in den Web-Editor zu kopieren und einzufügen. 15369)
+- Fehlende APIs oder Ereignisse zur Erfassung des Hinzufügens eines Attributs zu einem Element oder zum Einfügen eines neuen Elements. 15351)
+- Hinzufügen `<data>` Tags innerhalb `<ol>` Tags im Web-Editor nicht möglich. 15161)
+- Die **Element**-Platzhalterkomponente bewirkt, dass die Benutzeroberfläche einfriert. 14957)
+- Der Web-Editor kann keine PPTX-Dateien hochladen. 14837)
+- Beim Suchen eines Textes im Web-Editor kehrt der Cursor beim Drücken der Eingabetaste zum ersten Vorkommen des gesuchten Textes zurück. 14820)
+- Das automatische Speichern verursacht mehrere Probleme, positioniert den Cursor neu und erfordert manuelle Klicks im Dokument. 14253)
+- Durch Drücken der **Eingabetaste** in einer Tabellenzelle innerhalb des Texts wird der Absatz nicht wie erwartet aufgeteilt. 14251)
+- Große Dateien werden nicht in den Web-Editor geladen und bewirken, dass der Browser einfriert. 13227)
+- Die Suchergebnisse werden nach dem Öffnen einer Datei, die über global (Suchen **Ersetzen) gefunden wurde,**. 12142)
+- In der Quellansicht wird `</conbody>` gelegentlich an falschen Stellen eingefügt. 11305)
+- Der Komponentenpfad `/libs/fmdita/components/versions` ist hartcodiert, und die Benutzer können ihn nicht überlagern. (8 779)
+- `<conref>` für ein Thema, auf das in einer DITA-Karte verwiesen wird, wird nicht in der Vorschau im Editor angezeigt. 17794)
+- Der DITA-Guide des Experience Managers kann die Speicherfunktion nach Verwendung der Funktion zum automatischen Einrücken nicht mit einem Trigger versehen. 16482)
+- Die QuickInfo-Funktion kann das Source-Feld im XML-Editor nicht aktualisieren. 15847)
+- Die Funktion **UUID-Link freigeben** funktioniert nicht für die Bilder in Adobe Experience Manager. 15598)
+- In der **Autoren** Ansicht tritt ein Problem beim Kopieren und Einfügen auf, wenn Leerzeichen ohne Unterbrechung verwendet werden, was zum Überlauf von Text führt. 15541)
+- Überschneidende Textprobleme treten bei `<reltable>` und `<fig>` Tags auf. 15238)
+- Flimmernde Probleme treten im Bedienfeld &quot;**&quot;**. 15237)
+- In `<othermeta>` Element in `<topicmeta>` wird beim Hinzufügen eines `<conref>` zu einer anderen DITA-Zuordnung auch die Zuordnungs-ID zusammen mit der ID des Elements angehängt. 15226)
+- Beim Löschen eines Zeichens oder Worts im Inhalt springt der Cursor zwischen den Blockelementen. 15224)
+- Datei, die durch die Fehlermeldung „ausgecheckt“ wurde, wird falsch angezeigt, wenn Bearbeitungsdateien von einer anderen Registerkarte verschoben werden, wenn Token abgelaufen sind oder wenn der Benutzer abgemeldet wird. 15223)
+- Die `<conref>` kann nicht über das Bedienfeld **Attribute** aktualisiert werden, wenn Änderungen vorgenommen werden. 15209)
+- Bei der Auswahl eines Bildes in einer Tabellenzelle wird die gesamte Zelle ausgewählt. 15188)
+- Das **Attribute**-Bedienfeld wird in der Source-Ansicht des Web-Editors nicht angezeigt. 14387)
+- `<Topicref>`, die mit `<keyref>` hinzugefügt wurden, werden in nativen PDF nicht angezeigt. 11974)
+- Unerwünschte, nicht umbrechende Leerzeichen werden beim Bearbeiten am Ende eines Tags im Web-Editor hinzugefügt. 11786)
+- Der Inhalt wird beim Korrigieren der Rechtschreibfehler in DITA-Dateien gelöscht. 11610)
+- Beim Öffnen eines DITA-Themas oder einer DITA-Zuordnung auf einer neuen Registerkarte zum Bearbeiten wird die Auswahlnavigation in der Assets-Benutzeroberfläche eingefroren. (4992)
+- Durch das Löschen von Prüfungsknoten wird die Möglichkeit zum Öffnen und Anzeigen von Kommentaren in Adobe Experience Manager Guides beeinträchtigt. 15366)
+- Die DITA-Version zeigt den Benutzernamen in der Assets-Benutzeroberfläche falsch an. 17580)
+- Das `<title>` wird automatisch hinzugefügt, wenn das `<fig>` als Ausschnitt eingefügt wird. 18562)
+- Beim Hochladen einer großen Anzahl von Dateien mit großen Datensätzen in Experience Manager Guides treten Probleme auf.17008)
+- Der Web-Editor zeigt standardmäßig nicht das richtige Keyword an, insbesondere wenn das Keyword in untergeordneten Zuordnungen anders definiert ist. 14748)
+- Der **Dokumentstatus** wird nicht angezeigt, wenn die Eigenschaften von mehr als 50 Dateien stapelweise in der Zuordnungsansicht des Web-Editors bearbeitet werden. 14574)
+- Das Verhalten der Schaltfläche Schließen ist bei Verwendung der Funktion zum automatischen Speichern inkonsistent. 10996)
+- In MathML-Elementen treten beim Einfügen neuer Elemente oder beim Ändern von Gleichungen Validierungsprobleme auf. 10624)
+- Die Funktion „Änderungen nachverfolgen“ funktioniert nicht bei Text, der mit koreanischen Zeichen beginnt. 14538)
+- Verknüpfte Bilder aus den Themen werden nach der Erstellung der Version nicht in der Grundlinie angezeigt. 16931)
 
 ## Veröffentlichung
 
-- Querverweise auf den Schlüssel werden in der nativen PDF-Ausgabe nicht aufgelöst. (18087)
-- Der Fehler **duplicate_value** tritt gelegentlich auf, wenn ein vorhandener Artikel in Salesforce erneut veröffentlicht wird. (17932)
-- Die Salesforce-Verbindungsprüfung schlägt mit der Blitzer-URL fehl. (17797)
-- Bei Auswahl der Option **In der topicmeta** hinzugefügte Metadaten verwenden werden die Metadateneigenschaften nicht in den Dokumenteigenschaften der nativen PDF-Ausgabe weitergeleitet.(17283)
-- Die Bedingungsfilterung in der nativen PDF-Ausgabe funktioniert nicht erwartungsgemäß im Vergleich zu DITA-OT. (17095)
-- Das Inhaltsverzeichnis berücksichtigt in der Ausgabe des nativen PDF keine `<sub>` - oder `<sup>` -Tags. (17028)
-- Die Zuordnung von Zuordnungen zwischen Zuordnungen kann nicht alle übergeordneten Zuordnungen in den Einstellungen des Veröffentlichungskontexts für einen Link mit dem Wert `scope="peer"` anzeigen. (16700)
-- AEM Site-Generierung und inkrementelle Publish-API funktionieren nicht erwartungsgemäß. (16666)
-- AEM Erzeugung der Site-Ausgabe schlägt fehl, wenn die Option **Orphan-Site löschen** aktiviert ist. (15896)
-- Die alten Attribute werden beim Hinzufügen oder Entfernen neuer oder vorhandener Attribute in den **Bedingungsvorgaben** beibehalten. (15890)
-- In der JSON-Ausgabe werden Metadaten aus der DITA-Zuordnung oder Themen nicht in die JSON-Ausgabedateien übertragen. (15713)
-- Der RTL-Sprachinhalt wird in der Ausgabe der nativen PDF-Veröffentlichung nicht korrekt verarbeitet. (15709)
-- Die native PDF-Veröffentlichung schlägt fehl, wenn die Vorgabe umbenannt wird. (15662)
-- Die Eigenschaft **sourcePath** ist in der Ausgabe der veröffentlichten AEM nicht korrekt. (15502)
-- Die Auswahl und Anpassung von Sprachvariablen funktioniert in der Nativen PDF-Ausgabevorgabe nicht ordnungsgemäß. (15399)
-- Die native PDF-Erstellung schlägt bei Verwendung eines großen Stylesheets oder einer Layoutvorlage fehl. (15344)
-- Inhalte werden in der veröffentlichten Ausgabe nicht ordnungsgemäß gerendert, wenn `<conref>` mit einem absoluten Pfad verwendet wird. (1522)
-- Die Verkürzung der AEM Sites-URL funktioniert aufgrund von Konflikten zwischen `fmdita rewriter` und `ResourceResolver` nicht. (14793)
-- Die native PDF-Generierung schlägt mit einem Fehler bezüglich der Abrufen von Abhängigkeiten für Node.js fehl. (14445)
-- Die Attribute **processing-role=&quot;resource-only&quot;**, **search=&quot;no&quot;** und **chunk=&quot;to-content&quot;** erscheinen in der AEM Sites-Ausgabe nicht bzw. nicht. (14442)
-- `<Conref>` wird im `Preview` -Modus des Web Editors und der nativen PDF-Ausgabe nicht aufgelöst. (17827)
-- In nativer PDF werden verschachtelte DITA-Themen im Inhaltsverzeichnis (Inhaltsverzeichnis) falsch angezeigt. (16742)
-- Miniaturansichten, die von **Dynamic Media** für Videodateien generiert wurden, bleiben in der veröffentlichten Ausgabe nicht erhalten. (15656)
-- Die referenzierte PDF wird während der Massenaktivierung veröffentlichter Inhalte nicht im **Bulk Publish Dashboard** aktiviert. (17793)
-- Wenn ein Ordner mit 2k-Maps im Ordnerpfad innerhalb eines Ordnerprofils festgelegt ist, schlagen die auf die Ausgabevorgabe angewendeten Änderungen fehl. (14852)
-- Die Themenneuerstellung schlägt aufgrund des Fehlers der OOTB-Regenerate Topic oder der inkrementellen Publish-API fehl. (18452)
-- Die Bedingungsvorgabe ruft nach der Aktualisierung von Experience Manager Guides keine aktualisierten Attribute ab. (18174)
-- Inhaltsreferenzen werden für die Ausgabe nativer PDF nicht korrekt aufgelöst, wenn sich die Datei mit Schlüsseldefinitionen nicht im selben Ordner wie die DITA-Zuordnung befindet. (15062)
-- Das Massen-Publish-Dashboard zeigt leere Karten an, die sich noch im Übersetzungsprozess befinden. (19352)
-- Die Massenaktivierung von veröffentlichten Inhalten funktioniert nicht für lokalisierte Maps. (17638)
+- Der Querverweis auf den -Schlüssel wird in der nativen PDF-Ausgabe nicht aufgelöst. 18087)
+- Der Fehler **duplicate_value** tritt gelegentlich auf, wenn ein vorhandener Artikel in Salesforce erneut veröffentlicht wird. 17932)
+- Die Validierung der Salesforce-Verbindung schlägt mit der Lightning-URL fehl. 17797)
+- Bei Auswahl der Option **Im Topicmeta hinzugefügte Metadaten verwenden** werden die Metadateneigenschaften nicht in den Dokumenteigenschaften der nativen PDF-Ausgabe übertragen.17283)
+- Die Bedingungsfilterung in der nativen PDF-Ausgabe funktioniert im Vergleich zu DITA-OT nicht wie erwartet. 17095)
+- Das Inhaltsverzeichnis berücksichtigt keine `<sub>` oder `<sup>` Tags in der nativen PDF-Ausgabe. 17028)
+- Bei der Crossmap-Verknüpfung werden nicht alle übergeordneten Karten in den Einstellungen des Veröffentlichungskontexts für einen Link mit dem `scope="peer"` angezeigt. 16700)
+- Die AEM-Site-Generierung und die inkrementelle Veröffentlichungs-API funktionieren nicht wie erwartet. 16666)
+- Die Generierung der AEM-Site-Ausgabe schlägt fehl, wenn **Option „Verwaiste Site löschen** aktiviert ist. 15896)
+- Die alten Attribute werden in den **Bedingungsvorgaben“ beibehalten** wenn neue oder vorhandene Attribute hinzugefügt oder entfernt werden. 15890)
+- In der JSON-Ausgabe können Metadaten aus DITA-Zuordnungen oder Themen nicht an die JSON-Ausgabedateien übertragen werden. 15713)
+- Der Inhalt der RTL-Sprache wird in der nativen PDF-Veröffentlichungsausgabe nicht korrekt verarbeitet. 15709)
+- Die native PDF-Veröffentlichung schlägt fehl, wenn die Voreinstellung umbenannt wird. 15662)
+- Die **sourcePath**-Eigenschaft ist in der veröffentlichten AEM-Site-Ausgabe falsch. 15502)
+- Die Auswahl und Anpassung von Sprachvariablen funktioniert in der nativen PDF-Ausgabevorgabe nicht ordnungsgemäß. 15399)
+- Die native PDF-Generierung schlägt bei Verwendung eines großen Stylesheets oder einer großen Layout-Vorlage fehl. 15344)
+- Inhalte werden in der veröffentlichten Ausgabe nicht richtig gerendert, wenn `<conref>` mit einem absoluten Pfad verwendet wird. 15222)
+- Die AEM Sites-URL-Verkürzung funktioniert aufgrund von Konflikten zwischen dem `fmdita rewriter` und `ResourceResolver` nicht. 14793)
+- Die native PDF-Generierung schlägt mit einem Fehler im Zusammenhang mit dem Abrufen der Abhängigkeiten für Node.js fehl. 14445)
+- Die **processing-role=„resource-only“**, **search=„no“** und **chunk=„to-content“** werden unabhängig in der AEM Sites-Ausgabe angezeigt. 14442)
+- `<Conref>` wird im `Preview` des Web-Editors und der nativen PDF-Ausgabe nicht aufgelöst. 17827)
+- Auf nativen PDF werden verschachtelte DITA-Themen im Inhaltsverzeichnis (TOC) falsch angezeigt. 16742)
+- Miniaturansichten, die von **Dynamic Media** für Videodateien generiert werden, bleiben in der veröffentlichten Ausgabe nicht erhalten. 15656)
+- Die referenzierte PDF wird während der Massenaktivierung **veröffentlichten Inhalte nicht über** Publish-Dashboard aktiviert. 17793)
+- Wenn ein Ordner, der 2K-Zuordnungen enthält, im Ordnerpfad innerhalb eines Ordnerprofils festgelegt ist, schlagen die auf die Ausgabevorgabe angewendeten Änderungen fehl. 14852)
+- Die Themenwiederherstellung schlägt aufgrund des vorkonfigurierten Regenerierungsthemas oder eines inkrementellen Fehlers bei der Veröffentlichungs-API fehl. 18452)
+- Die Bedingungsvoreinstellung ruft nach dem Upgrade von Experience Manager Guides keine aktualisierten Attribute ab. 18174)
+- Inhaltsreferenzen werden für die native PDF-Ausgabe nicht korrekt aufgelöst, wenn sich die Datei mit den Schlüsseldefinitionen nicht im selben Ordner wie die DITA-Zuordnung befindet. 15062)
+- Das Publish-Dashboard wird für Karten, die sich noch im Übersetzungsprozess befinden, leer angezeigt. 19352)
+- Die Massenaktivierung von veröffentlichten Inhalten funktioniert nicht für lokalisierte Karten. 17638)
 
 
 
 ## Verwaltung
 
 
-- InDesign zu DITA-Konvertierungen haben einen fest programmierten Konfigurationspfad, sodass die benutzerdefinierten Konfigurationsdateien nicht ausgewählt werden. (16891)
-- Nicht geschlossene **Ressourcen-Resolver** führen zu einer Erhöhung der Sitzungsanzahl und `PathNotFoundException` Fehlern nach der Version 4.3.1 von Experience Manager Guides. (15604)
-- Fehler bei der Installation von Guides-Paketen in großen Repositorys. (15160)
-- Das Erstellen einer Grundlinie mithilfe der Java-API funktioniert nicht mit Experience Manager Guides. (14787)
-- Die `/bin/fmdita/import` -API bleibt in ausstehender Anfrage unbegrenzt erhalten, wenn das Hochladen von Assets 500 MB überschreitet. (14743)
-- Beim Bearbeiten einer bestehenden Grundlinie und Auswählen einer bestimmten Version werden Anwendungsfehler Trigger. (14451)
-- Die Ausführung des Postprozessskripts schlägt aufgrund der Ausnahme **FileNotFoundException** fehl. (16517)
-- Dynamische Titel mit `<conkeyref>` werden nicht in der Themenliste &quot;Bericht&quot;angezeigt. (16967)
-- Die ungenauen Zahlen für die **Themenliste** in der Benutzeroberfläche für Experience Manager Guides-Berichte treten aufgrund der nicht gepatchten Eigenschaften beim Kopieren von DITA-Assets auf. (15529)
-- Themen mit externen Verweisen mit %20 in der URL zeigen fehlerhafte Dateiverweise an. (15347)
-- Die Eigenschaften fmditaMaprefs und fmditakeydefrefs zeigen relative Pfade an, obwohl absolute Pfade für die DITA-Zuordnung und Themen festgelegt wurden. (18353)
-- Der Pfad für die Überlagerungsfunktion ist für die koreanische Sprachdatei hartcodiert und nicht korrekt ausgewählt. (17089)
-- Der Standardzeitpunkt bei der Erstellung einer Grundlinie im Web Editor wird als 00:00 anstelle der aktuellen Zeit angezeigt. (15215)
+- Die Konvertierung von InDesign in DITA weist einen hartcodierten Konfigurationspfad auf, sodass die benutzerdefinierten Konfigurationsdateien nicht ausgewählt werden. 16891)
+- Nicht geschlossene **Resource Resolver** führen nach der Version 4.3.1 von Experience Manager Guides zu einer zunehmenden Anzahl von Sitzungen und `PathNotFoundException`. 15604)
+- Fehler beim Installieren von Handbuchpaketen in großen Repositorys. 15160)
+- Das Erstellen einer Grundlinie mit der Java-API funktioniert nicht mit Experience Manager Guides. 14787)
+- Die `/bin/fmdita/import`-API bleibt unbegrenzt in der ausstehenden Anfrage hängen, wenn das Hochladen von Assets 500 MB überschreitet. 14743)
+- Bearbeiten einer bestehenden Baseline und Auswählen einer bestimmten Version Trigger-Anwendungsfehler. 14451)
+- Die Ausführung des Nachbearbeitungs-Skripts schlägt aufgrund eines Ausnahmefehlers **FileNotFoundException** fehl. 16517)
+- Dynamische Titel mit `<conkeyref>` werden nicht in der Berichtsthemenliste angezeigt. 16967)
+- Die ungenaue Anzahl **Themenliste** tritt in der Benutzeroberfläche für Experience Manager Guides-Berichte aufgrund der nicht gepatchten Eigenschaften beim Kopieren von DITA-Assets auf. 15529)
+- Themen, die externe Verweise mit %20 in der URL enthalten, zeigen beschädigte Dateiverweise an. 15347)
+- Die Eigenschaften fmditaMaprefs und fmditakeydefrefs zeigen relative Pfade an, obwohl absolute Pfade für die DITA-Zuordnung und Themen festgelegt wurden. 18353)
+- Der Pfad für die Überlagerungsfunktion ist für die koreanische Sprachdatei hartcodiert und nicht korrekt ausgewählt. 17089)
+- Die Standardzeit bei der Baseline-Erstellung im Web-Editor wird als 00:00 anstelle der aktuellen Zeit angezeigt. 15215)
 
 ## Überprüfung
 
-- Das Abrufen der Benutzerliste beim Erstellen einer Prüfungsaufgabe schlägt fehl, wenn die Benutzeranzahl 25 überschreitet. (17329)
-- Prüfungsthemen werden nicht in der richtigen Reihenfolge angezeigt. (16319)
-- Im Web Editor wird das Überprüfungsbedienfeld langsam geladen. (14680)
-- Überprüfer können beim Ausführen einer Dokumentüberprüfung in Experience Manager Guides keine Leerzeichen hinzufügen, hervorheben oder ausblenden. (14752)
-- Wenn ein Benutzer eine Überprüfungsaufgabe aktualisiert, erhalten nicht alle zugewiesenen Überprüfer eine Benachrichtigung über die Aktualisierung. (9496)
+- Das Abrufen der Benutzerliste beim Erstellen einer Prüfungsaufgabe schlägt fehl, wenn die Benutzeranzahl 25 überschreitet. 17329)
+- Prüfungsthemen werden nicht in der richtigen Reihenfolge angezeigt. 16319)
+- Im Web-Editor wird das Überprüfungsfeld langsam geladen. 14680)
+- Reviewer können bei der Durchführung einer Dokumentüberprüfung in Experience Manager Guides keine Leerzeichen hinzufügen, hervorheben oder ausstreichen. 14752)
+- Wenn ein(e) Benutzende(r) eine Prüfungsaufgabe aktualisiert, erhalten nicht alle zugewiesenen Reviewer eine Benachrichtigung über die Aktualisierung. (9496)
 
 ## Übersetzung
 
-- Die Referenzen übersetzter Assets werden nicht aktualisiert. (18086)
-- Es können keine XLIFF-Projekte mit menschlicher Übersetzung erstellt werden. (16964)
-- Der Titel mit `<conref>` oder `<conkeyref>` wird nicht in den Dashboards &quot;Grundlinie&quot;und &quot;Übersetzung&quot;des Webeditors aufgelöst. (16961, 16879)
-- Bei Übersetzungsprojekten werden mit der Experience Manager Guides-Version 4.3.1 keine neuen Sprachaufträge zu Adobe Experience Manager 6.5 SP18 hinzugefügt. (15398)
-- **Accept Translation** kann die Übersetzung temporärer Dateien nicht abschließen. (14665)
-- Das Hinzufügen eines aktualisierten Themas in einem aktiven Übersetzungsprojekt führt zu einem doppelten Thema und der Prozess schlägt fehl. (7688)
-- Verweise werden beim Übersetzen in mehrere Sprachen nicht korrekt als Direkt oder Indirect gefiltert. (17891)
-- XLIFF-basierte Übersetzung schlägt bei Benutzern ohne Administratorrechte mit Fehler fehl.(17296)
-- Der Titel der übersetzten Dateien wird nach der zweiten Übersetzung auf Englisch zurückgesetzt, obwohl der Inhalt übersetzt wurde. (15200)
-- Wenn Sie ein Übersetzungsprojekt mit dem **Übersetzungsstatus** als **Gestartet** auswählen, wird eine falsche Seite geöffnet. (13248)
-- Den Übersetzungsprojekten, die durch Auswahl der Option **Nur Struktur erstellen** erstellt wurden, werden keine UUIDs zugewiesen. (18980)
+- Die Verweise von übersetzten Assets werden nicht aktualisiert. 18086)
+- XLIFF-Projekte mit menschlicher Übersetzung können nicht erstellt werden. 16964)
+- Der Titel mit `<conref>` oder `<conkeyref>` wird in den Baseline- und Übersetzungs-Dashboards des Web-Editors nicht aufgelöst. (16961, 16879)
+- Übersetzungsprojekte können mit der Version 4.3.1 von Experience Manager Guides keine neuen Sprachaufträge zu Adobe Experience Manager 6.5 SP18 hinzufügen. 15398)
+- **Übersetzung akzeptieren** kann die Übersetzung von temporären Dateien nicht abschließen. 14665)
+- Das Hinzufügen eines aktualisierten Themas zu einem aktiven Übersetzungsprojekt führt zu einem doppelten Thema und der Prozess schlägt fehl. (7688)
+- Verweise werden bei der Übersetzung in mehrere Sprachen nicht korrekt als direkt oder indirekt gefiltert. 17891)
+- Die XLIFF-basierte Übersetzung schlägt für Benutzer ohne Administratorrechte mit einem Fehler fehl.17296)
+- Der Titel der übersetzten Dateien kehrt nach der zweiten Übersetzung ins Englische zurück, obwohl die Inhalte übersetzt wurden. 15200)
+- Wenn Sie ein Übersetzungsprojekt mit dem **Übersetzungsstatus** als **In Bearbeitung** auswählen, wird eine falsche Seite geöffnet. 13248)
+- Den Übersetzungsprojekten, die durch Auswahl der Option **Nur Struktur erstellen** erstellt wurden, werden keine UUIDs zugewiesen. 18980)
 
 
 ## Bekannte Probleme
 
-Adobe hat die folgenden bekannten Probleme für Version 4.6.0 identifiziert:
-- Wenn Sie eine Vorgabe vom Typ **AEM Sites** öffnen (nicht veraltet), wird das Thema als verschmutzt markiert.
-- Das ausgewählte Bedienfeld wird beim Aktualisieren des Browsers auf der Registerkarte **Ausgabe** nicht beibehalten.
-- Themen können nicht zwischen zwei `topicrefs` in die Ansicht **Autor** gezogen und dort abgelegt werden.
-- Die in der Vorgabe angewendete Bedingungsfilterung wird nicht über **Als PDF herunterladen** angewendet.
-- Die Erstellung eines einzelnen Themas aus dem Zuordnungsbereich generiert alle in der Vorgabe **AEM Sites** ausgewählten Themen (nicht veraltet).
-- Die Referenz zum Thema scheint in der Benutzeroberfläche fehlerhaft zu sein, wenn sie von der oberen Symbolleiste der DITA-Map eingefügt wird.
-- Die native PDF-Generierung schlägt für eine DITA-Zuordnung fehl, wenn sie fehlende Verweise aufweist.
-- Sobald der Dokumentstatus eines Themas auf **Fertig** aktualisiert wurde, ist das Symbol **Neue Version starten** nur im Modus **Vorschau** des Themas verfügbar.
-- Wenn Sie eine DITA-Datei in der Asset-Benutzeroberfläche auswählen, wird die Option **In FrameMaker öffnen** angezeigt, auch wenn sie in den Konfigurationseinstellungen deaktiviert ist.
-
-
-
-
+Adobe hat die folgenden bekannten Probleme in Version 4.6.0 festgestellt:
+- Das Öffnen einer **AEM Sites**-Vorgabe (nicht veraltet) kennzeichnet das Thema als beschädigt.
+- Das ausgewählte Bedienfeld wird bei der Browser-Aktualisierung auf der Registerkarte **Ausgabe** nicht beibehalten.
+- Themen können nicht zwischen zwei `topicrefs` in der Ansicht **Autor** gezogen werden.
+- Die in der Voreinstellung angewendete Bedingungsfilterung wird nicht über (**als PDF herunterladen)**.
+- Bei der Erstellung eines einzelnen Themas im Zuordnungsbereich werden alle Themen generiert, die in der Vorgabe **AEM Sites** ausgewählt wurden (nicht veraltet).
+- Der Verweis des Themas erscheint in der Benutzeroberfläche fehlerhaft, wenn er in der oberen Symbolleiste der DITA-Zuordnung eingefügt wird.
+- Die native PDF-Generierung schlägt für eine DITA-Zuordnung fehl, wenn Referenzen fehlen.
+- Sobald der Dokumentstatus eines Themas auf „Fertig **aktualisiert wurde** ist das Symbol **Neue Version starten** nur im **Vorschau** des Themas verfügbar.
+- Bei Auswahl einer DITA-Datei in der Asset-Benutzeroberfläche wird die Option **Auf FrameMaker öffnen** angezeigt, auch wenn sie in den Konfigurationseinstellungen deaktiviert ist.

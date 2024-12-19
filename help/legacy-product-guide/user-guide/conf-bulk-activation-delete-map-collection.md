@@ -1,34 +1,35 @@
 ---
-title: Massenaktivierungszuordnung löschen
-description: Erfahren Sie, wie Sie die Massenaktivierungszuordnung in AEM Guides löschen.
+title: Massenaktivierungs-Zuordnungssammlung löschen
+description: Erfahren Sie, wie Sie die Massen-Aktivierungszuordnungssammlung in AEM Guides löschen.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 374f8265-9aa0-4a08-8afa-ae9ce0cb33e6
+source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-# Massenaktivierungszuordnung löschen {#id214GI40B0XA}
+# Massenaktivierungs-Zuordnungssammlung löschen {#id214GI40B0XA}
 
-Sie können eine Massen-Aktivierungszuordnung löschen, wenn sie nicht mehr benötigt wird. So löschen Sie eine Massen-Aktivierungszuordnung:
+Sie können eine Massen-Aktivierungszuordnungssammlung löschen, wenn sie nicht mehr benötigt wird. Um eine Massenaktivierungszuordnungssammlung zu löschen, führen Sie die folgenden Schritte aus:
 
 1. Wählen Sie **Guides** aus der Liste der Tools aus.
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Klicken Sie auf die Kachel **Publish-Dashboard-Stapel** .
+1. Klicken Sie auf die Kachel **Publish-Dashboard** Massenverarbeitung“.
 
-   Eine Liste mit Massenaktivierungskarten-Sammlungen wird angezeigt.
+   Eine Liste der Massenaktivierungszuordnungssammlungen wird angezeigt.
 
-1. Wählen Sie die Sammlung aus, die Sie bearbeiten möchten, und klicken Sie auf **Löschen**.
+1. Wählen Sie die zu bearbeitende Sammlung aus und klicken Sie auf **Löschen**.
 
-   Eine Meldung zur Löschbestätigung wird angezeigt.
+   Eine Löschbestätigungsmeldung wird angezeigt.
 
-1. Klicken Sie auf **Ja**.
+1. Klicken Sie **Ja**.
 
-   Die Erfassung der Massen-Aktivierungszuordnung wird aus dem System gelöscht.
+   Die Massen-Aktivierungszuordnungssammlung wird aus dem System gelöscht.
 
 
 **Übergeordnetes Thema:**[ Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

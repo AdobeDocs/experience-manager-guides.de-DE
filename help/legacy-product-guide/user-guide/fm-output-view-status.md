@@ -1,38 +1,39 @@
 ---
-title: Status der Ausgabegenerierungsaufgabe anzeigen
-description: Anzeigen der Ausgabegenerierungswarteschlange von FrameMaker-Dokumenten. Erfahren Sie, wie Sie den Status einer Ausgabegenerierungsaufgabe anzeigen können.
+title: Anzeigen des Status der Ausgabegenerierungsaufgabe
+description: Anzeigen der Ausgabegenerierungswarteschlange von FrameMaker-Dokumenten. Erfahren Sie, wie Sie den Status einer Ausgabegenerierungsaufgabe anzeigen.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
+source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
-# Status der Ausgabegenerierungsaufgabe anzeigen {#viewing_output_history}
+# Anzeigen des Status der Ausgabegenerierungsaufgabe {#viewing_output_history}
 
 Nachdem Sie die Ausgabegenerierungsaufgabe für ein FrameMaker-Dokument initiiert haben, sendet AEM Guides diese Aufgabe an die Ausgabegenerierungswarteschlange. Diese Warteschlange wird in Echtzeit aktualisiert und zeigt den Status jeder Ausgabegenerierungsaufgabe in der Warteschlange an.
 
 Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange anzuzeigen:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zum Dokument FrameMaker , für das Sie den Status der Ausgabenerstellung überprüfen möchten, und klicken Sie darauf.
+1. Navigieren Sie in der Assets-Benutzeroberfläche zu und klicken Sie auf FrameMaker-Dokument, für das Sie den Status der Ausgabegenerierung überprüfen möchten.
 
 1. Klicken Sie auf Ausgaben.
 
    ![](images/output-queued-fm.png){width="800" align="left"}
 
-1. Die Seite &quot;Ausgaben&quot;ist in zwei Teile unterteilt:
+1. Die Seite „Ausgaben“ ist in zwei Teile unterteilt:
 
-   - **In die Warteschlange gestellte Ausgaben:**
+   - **Ausgänge in der Warteschlange:**
 
-     Listet die Ausgaben auf, die darauf warten, generiert zu werden oder sich im Generierungsprozess befinden. Sie finden außerdem die Einstellung zur Generierung der Ausgabe oder die Vorgabe, die für die in der Warteschlange befindliche Aufgabe verwendet wird, den Typ, den Benutzer, der die Aufgabe initiiert hat, die Zeit seit der Warteschlange der Aufgabe und den aktuellen Status.
+     Listet die Ausgaben auf, die entweder auf die Generierung warten oder sich im Generierungsprozess befinden. Sie finden auch die Einstellung für die Ausgabegenerierung oder die Voreinstellung für die Aufgabe in der Warteschlange, den Typ, den Benutzer, der die Aufgabe initiiert hat, den Zeitpunkt, seit dem die Aufgabe in die Warteschlange gestellt wird, und den aktuellen Status.
 
    - **Erzeugte Ausgaben**
 
-     Listet die abgeschlossenen Ausgabenaufgaben auf. Auch hier werden Informationen angezeigt, die dem Abschnitt &quot;In die Warteschlange gestellte Ausgaben&quot;ähneln, mit dem einzigen Unterschied zur Zeit der Ausgabenerstellung.
+     Listet die abgeschlossenen Ausgabeaufgaben auf. Auch hier ähneln die Informationen in diesem Abschnitt den Ausgaben in der Warteschlange, mit dem einzigen Unterschied der Erzeugungszeit für die Ausgabe.
 
-     In dieser Liste können Aufgaben aufgeführt sein, die erfolgreich ausgeführt wurden, oder Aufgaben, die fehlgeschlagen sind. Für die Aufgaben, die erfolgreich abgeschlossen wurden, erstellt der Veröffentlichungsprozess eine Protokolldatei \(logs.txt\), auf die über den Link in der Spalte Generiert am zugegriffen werden kann.
+     In dieser Liste sind möglicherweise Aufgaben enthalten, die erfolgreich ausgeführt wurden, oder Aufgaben, bei denen ein Fehler aufgetreten ist. Für die erfolgreich abgeschlossenen Aufgaben erstellt der Veröffentlichungsprozess eine Protokolldatei \(logs.txt\), auf die Sie zugreifen können, indem Sie auf den Link in der Spalte Generiert unter klicken.
 
 
 **Übergeordnetes Thema:**[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)

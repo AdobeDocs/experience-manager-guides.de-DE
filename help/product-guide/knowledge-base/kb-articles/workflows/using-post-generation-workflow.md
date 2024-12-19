@@ -1,6 +1,6 @@
 ---
-title: Post-Generierungsarbeitsablauf
-description: Eine Übersicht über den Nachbearbeitungs-Workflow mit einem Beispiel
+title: Nachgenerierungs-Workflow
+description: Ein Überblick über den Nachgenerierungs-Workflow mit einem Beispiel
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
 feature: Workflow Configuration
 role: User, Admin
@@ -11,48 +11,48 @@ ht-degree: 2%
 
 ---
 
-# AEM Guides Publishing - Workflow zur Post-Generierung
+# AEM Guides-Veröffentlichung - Workflow nach der Generierung
 
-AEM Guides bietet Ihnen die Flexibilität, einen Workflow zur Erstellung nach der Ausgabe festzulegen. Sie können einige Nachbearbeitungsaufgaben für die Ausgabe ausführen, die mit AEM Guides generiert wird.
-Sie können beispielsweise bestimmte Eigenschaften für die PDF-Ausgabe festlegen oder eine E-Mail an eine Benutzergruppe senden, sobald die Ausgabe generiert wurde.
+AEM Guides bietet Ihnen die Flexibilität, einen Workflow nach der Ausgabe anzugeben. Sie können einige Nachbearbeitungsaufgaben für die Ausgabe ausführen, die mit AEM Guides generiert wird.
+Beispielsweise können Sie bestimmte Eigenschaften für die PDF-Ausgabe festlegen oder eine E-Mail an eine Benutzergruppe senden, sobald die Ausgabe generiert wurde.
 
 
-## Was sind die erforderlichen Schritte zur Nutzung der Workflows zur Post-Generierung?
+## Welche Schritte sind bei der Verwendung von Workflows nach der Generierung erforderlich?
 
-### Workflow-Prozess erstellen
+### Erstellen eines Workflow-Prozesses
 
-Erstellen Sie einen Java- oder ECMA-basierten Workflow-Prozess, der den Vorgang für die generierte Ausgabe ausführt. Beispiel: Kopieren einiger Metadaten aus der Quelle in den generierten Inhalt oder Bearbeiten von Metadaten der generierten Ausgabe.
-- Wir werden ein Beispiel für die Erstellung eines solchen Prozesses mit ECMA-Skript verwenden (siehe angehängtes Paket).
-- Informationen zum Java-basierten Workflow-Prozess finden Sie im Abschnitt &quot;*Arbeitsablauf für die Generierung nach der Ausgabe anpassen*&quot; des [Installations- und Konfigurationshandbuchs](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+Erstellen Sie einen Java- oder ECMA-basierten Workflow-Prozess, der den Vorgang an der generierten Ausgabe ausführt. Kopieren Sie beispielsweise einige Metadaten aus der Quelle in den generierten Inhalt oder bearbeiten Sie Metadaten der generierten Ausgabe.
+- Wir werden ein Beispiel für die Erstellung eines solchen Prozesses mit ECMA-Skript nehmen (Sie können das angehängte Paket lesen)
+- Informationen zu Java-basierten Workflow-Prozessen finden Sie im Abschnitt *Anpassen des Workflows nach* Generierung“ [Installations- und Konfigurationshandbuch](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
 
 
 ### Erstellen Sie ein Workflow-Modell
 
-Erstellen Sie mit dem benutzerdefinierten Workflow-Prozess, den Sie im vorherigen Schritt erstellt haben, ein Workflow-Modell und fügen Sie diesen Prozessschritt hinzu.
-- Als letzten Schritt des Workflows müssen Sie außerdem einen obligatorischen Prozessschritt &quot;*Post-Generierung abschließen*&quot;hinzufügen.
+Erstellen Sie mit dem benutzerdefinierten Workflow-Prozess, den Sie im vorherigen Schritt erstellt haben, ein Workflow-Modell und fügen Sie ihm diesen Prozessschritt hinzu.
+- Sie müssen außerdem den obligatorischen Prozessschritt &quot;*Nachgenerierung abschließen* als letzten Schritt des Workflows hinzufügen.
 
 Siehe Beispiel-Workflow-Modell unten:
 
-![Workflow-Modell für die Post-Generierung](../assets/workflows/pgwf-workflow-model.png)
+![Workflow-Modell nach der Generierung](../assets/workflows/pgwf-workflow-model.png)
 
 
-### Verwenden Sie diesen Nachbearbeitungs-Workflow auf einer Karte
+### Diesen Nachgenerierungs-Workflow auf einer Zuordnung verwenden
 
-Der Post-Generierungs-Workflow ist eine Eigenschaft, die für jede Ausgabevorgabe im AEM Guides-Veröffentlichungsmechanismus konfiguriert werden kann. Beispiel:
+Der Nachgenerierungs-Workflow ist eine Eigenschaft, die für jede Ausgabevorgabe innerhalb des AEM Guides-Veröffentlichungsmechanismus konfiguriert werden kann. Zum Beispiel:
 
-![Post-Generierungs-Workflow für die Ausgabevorgabe](../assets/workflows/pgwf-preset-settings.png)
+![Nachgenerierungs-Workflow für Ausgabevorgabe](../assets/workflows/pgwf-preset-settings.png)
 
 
-Vorausgesetzt, das ausgewählte Modell wurde bereits erstellt.
+Angenommen, das ausgewählte Modell wurde bereits erstellt.
 
 
 ### Testen
 
-Jetzt können Sie die Veröffentlichung mit dieser Vorgabe ausführen und die Ausgabe des Prozessschritts überprüfen
+Jetzt können Sie die Veröffentlichung mit dieser Voreinstellung ausführen und die Ausgabe des Prozessschritts überprüfen
 
 
 ## Beispiel
 
-Als Referenz können Sie das folgende Paket verwenden und es über den Paketmanager installieren, um den Beispielworkflow nach der Generierung zu testen (*wie in den Screenshots oben*)
+Als Referenz können Sie das folgende Paket verwenden und über Package Manager installieren, um den Beispiel-Workflow nach der Generierung zu testen (*oben in Screenshots beschrieben*)
 
 [Beispiel für ein ECMA-basiertes Workflow-Modell nach der Generierung](../assets/workflows/sample-pgwf-ecma-test-wfmetadata.zip)

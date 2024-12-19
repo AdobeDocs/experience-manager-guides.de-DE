@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Konfigurieren von Themen- und Zuordnungsvorlagen {#id181AH2003PF}
 
-AEM Guides enthält Themen- und DITA-Zuordnungsvorlagen. Sie können eine eigene benutzerdefinierte Vorlage erstellen und diese für Ihre Autoren freigeben. Dieses Thema behandelt den Prozess der Verwendung von benutzerdefinierten Themen- und Zuordnungsvorlagen.
+AEM Guides verfügt über Topic- und DITA-Zuordnungsvorlagen. Sie können Ihre eigene benutzerdefinierte Vorlage erstellen und diese für Ihre Autoren freigeben. In diesem Thema wird die Verwendung benutzerdefinierter Themen- und Zuordnungsvorlagen beschrieben.
 
-- **[Benutzerdefinierte DITA-Themenvorlage konfigurieren](conf-template-tags-custom-dita-topic-template.md)**
+- **[Konfigurieren einer benutzerdefinierten DITA-Themenvorlage](conf-template-tags-custom-dita-topic-template.md)**
 
-- **[Benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren](conf-template-tags-custom-dita-map-templates.md)**
+- **[Konfigurieren einer benutzerdefinierten DITA-Zuordnungsvorlage](conf-template-tags-custom-dita-map-templates.md)**

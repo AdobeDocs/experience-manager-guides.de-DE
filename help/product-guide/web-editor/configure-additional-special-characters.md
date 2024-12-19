@@ -11,21 +11,21 @@ ht-degree: 0%
 
 ---
 
-# So konfigurieren Sie zusätzliche Sonderzeichen in der Symbolleiste des Web-Editors
+# Konfigurieren zusätzlicher Sonderzeichen in der Symbolleiste des Web-Editors
 
-In der Symbolleiste des Web-Editors gibt es eine Option zum Verknüpfen, damit der Autor die Sonderzeichen bereits einfügen kann.
-Dasselbe ist im folgenden Screenshot zu sehen:
+In der Symbolleiste des Web-Editors gibt es eine Verknüpfungsoption, mit der der Autor die Sonderzeichen bereits einfügen kann.
+Dasselbe kann im folgenden Screenshot gezeigt werden:
 
 ![Sonderzeichen](assets/special-chars.png)
 
 
-Diese Liste von Zeichen kann hier konfiguriert werden. Wenn Sie weitere Zeichen hinzufügen müssen, führen Sie die folgenden Schritte aus:
+Diese Liste von Zeichen kann hier konfiguriert werden. Wenn Sie mehr Zeichen zu diesem Feld hinzufügen müssen, führen Sie die folgenden Schritte aus:
 
 + Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
-+ Erstellen Sie die Datei &quot;symbols.json&quot;am folgenden Speicherort: &#39;/apps/fmdita/xmleditor/&#39; (Sie können die Standarddatei aus dem Verzeichnis &quot;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&quot;kopieren).
++ Erstellen Sie die Datei „symbols.json“ am folgenden Speicherort: &quot;/apps/fmdita/xmeditor/&quot; (Sie können den Standardwert vom Speicherort &quot;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&quot; kopieren)
 
-+ Fügen Sie die Sonderzeichendefinition in der Datei symbols.json wie folgt hinzu:
++ Fügen Sie die Sonderzeichendefinition in der Datei „symbols.json“ wie folgt hinzu:
 
 ```
 {
@@ -43,19 +43,19 @@ Diese Liste von Zeichen kann hier konfiguriert werden. Wenn Sie weitere Zeichen 
 }
 ```
 
-Die Struktur der Datei symbols.json wird nachfolgend beschrieben:
+Die Struktur der Datei „symbols.json“ wird nachfolgend erläutert:
 
-+ &quot;label&quot;: &quot;Logische Symbole&quot;: Gibt die Kategorie für die Sonderzeichen an. Im Snippet wird eine Kategorie mit dem Namen &quot;Logisches Symbol&quot;definiert.
++ „label“: „Logical Symbols“: Legt die Kategorie der Sonderzeichen fest. Im Snippet wird eine Kategorie mit dem Namen „Logisches Symbol“ definiert.
 
-+ &quot;items&quot;: Hiermit wird die Sammlung von Sonderzeichen in der Kategorie definiert.
++ „items“: Damit wird die Sammlung von Sonderzeichen in der Kategorie definiert.
 
-+ &quot;name&quot;: &quot;≥&quot;, &quot;title&quot;: &quot;Greater-Than or Equal To&quot;: Dies ist die Definition des Sonderzeichens. Sie beginnt mit der Bezeichnung &quot;name&quot;, die nicht geändert werden darf. Dem Namen folgt das Sonderzeichen. Der &quot;Titel&quot;ist der Name oder Titel des Sonderzeichens, das als QuickInfo für dieses Sonderzeichen angezeigt wird.
++ „name“: &quot;≥&quot;, „title“: „größer oder gleich“: Dies ist die Definition des Sonderzeichens. Sie beginnt mit der Bezeichnung „Name“, die nicht geändert werden darf. Auf den Namen folgt das Sonderzeichen. Der „Titel“ ist der Name oder Titel des Sonderzeichens, das als QuickInfo für dieses Sonderzeichen angezeigt wird.
 
 Sie können mehrere Definitionen von Sonderzeichen innerhalb einer Kategorie definieren.
 
-Dadurch wird im Dialogfeld &quot;Sonderzeichen&quot;eine weitere Kategorie hinzugefügt:
+Dadurch wird eine weitere Kategorie in das Dialogfeld Sonderzeichen eingefügt:
 
-![Besondere Symbolkategorie](assets/special-char-category.png)
+![Sonderzeichenkategorie](assets/special-char-category.png)
 
 ![Sonderzeichen einfügen](assets/insert-special-char.png)
 

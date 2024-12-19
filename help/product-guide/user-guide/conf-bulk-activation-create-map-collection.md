@@ -1,6 +1,6 @@
 ---
-title: Erstellen einer Massen-Aktivierungszuordnung
-description: Erfahren Sie, wie Sie in AEM Handbüchern eine Massen-Aktivierungszuordnung erstellen.
+title: Erstellen einer Massenaktivierungs-Zuordnungssammlung
+description: In den AEM-Handbüchern erfahren Sie, wie Sie eine Massen-Aktivierungszuordnungssammlung erstellen.
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
@@ -11,98 +11,98 @@ ht-degree: 0%
 
 ---
 
-# Erstellen einer Massen-Aktivierungszuordnung {#id214GG0E90EV}
+# Erstellen einer Massenaktivierungs-Zuordnungssammlung {#id214GG0E90EV}
 
-Führen Sie die folgenden Schritte aus, um eine Massen-Aktivierungszuordnung zu erstellen:
+Um eine Massen-Aktivierungszuordnungssammlung zu erstellen, führen Sie die folgenden Schritte aus:
 
 1. Wählen Sie **Guides** aus der Liste der Tools aus.
 
-1. Wählen Sie oben den Adobe Experience Manager-Link und dann **Tools** aus.
+1. Klicken Sie oben auf den Adobe Experience Manager-Link und anschließend auf **Tools**.
 
-1. Wählen Sie die Kachel **Publish-Dashboard-Stapel** aus.
+1. Wählen Sie die Kachel **Massen-Publish-Dashboard** aus.
 
-   Zum ersten Mal wird eine leere Sammlungsseite angezeigt. Wenn Sie zuvor Massenaktivierungskollektionen erstellt haben, werden diese auf dieser Seite angezeigt.
+   Zum ersten Mal wird eine leere Sammlungsseite angezeigt. Wenn Sie zuvor Massenaktivierungssammlungen erstellt haben, werden diese auf dieser Seite angezeigt.
 
 1. Klicken Sie auf **Erstellen**.
 
-1. Geben Sie einen Titel für Ihre Massen-Aktivierungszuordnung ein und klicken Sie auf **Erstellen**.
+1. Geben Sie einen Titel für Ihre Massenaktivierungszuordnungssammlung ein und klicken Sie auf **Erstellen**.
 
-   Bei der Erstellung der Massen-Aktivierungszuordnung wird eine Erfolgsmeldung angezeigt.
+   Bei der Erstellung der Massen-Aktivierungszuordnungssammlung wird eine Erfolgsmeldung angezeigt.
 
-1. Klicken Sie in der Erfolgsmeldung auf **Öffnen** .
+1. Klicken **auf** Erfolgsmeldung.
 
 1. Wählen Sie **Bearbeiten** und dann **Karten hinzufügen** aus.
 
-1. Suchen Sie die DITA-Maps, die Sie zur Massen-Aktivierungszuordnungssammlung hinzufügen möchten, und fügen Sie sie hinzu.
+1. Suchen Sie die DITA-Zuordnungen, die Sie der Zuordnungssammlung für die Massenaktivierung hinzufügen möchten, und fügen Sie sie hinzu.
 
-   Standardmäßig werden alle Vorgaben und Gebietsschemata, die mit der Zuordnung verknüpft sind, automatisch hinzugefügt.
+   Standardmäßig werden alle der Zuordnung zugeordneten Vorgaben und Gebietsschemata automatisch hinzugefügt.
 
-1. Wählen Sie die gewünschte Ausgabe aus, indem Sie die gleitende Schaltfläche ein- oder ausschalten.
+1. Wählen Sie den gewünschten Ausgang, indem Sie die Schiebetaste ein- oder ausschalten.
 
-   Sie können mehrere Ausgabevorgaben für die verschiedenen Gebietsschemata auswählen.
+   Sie können mehrere Ausgabevorgaben für alle verfügbaren Gebietsschemata auswählen.
 
 1. Klicken Sie auf **Fertig**.
 
 Die DITA-Zuordnungsdateien werden Ihrer Massen-Aktivierungszuordnungssammlung hinzugefügt.
 
-![ erstellte Massenaktivierungssammlung](images/bulk-activation-collection-created.png){width="800" align="left"}
+![ erstellte Massenaktivierungs-Sammlung](images/bulk-activation-collection-created.png){width="800" align="left"}
 
-## Registerkarte &quot;Maps und Vorgaben&quot;
+## Registerkarte „Zuordnungen und Vorgaben“
 
-Die Registerkarte **Maps und Vorgaben** enthält Informationen in den folgenden Spalten:
+Die **Zuordnungen und Vorgaben** enthält Informationen in den folgenden Spalten:
 
-- **Zuordnung**: Zeigt den Titel der DITA-Map-Datei an.
-- **Map Path**: Zeigt den vollständigen Pfad der DITA-Map-Datei an.
+- **Map**: Zeigt den Titel der DITA-Zuordnungsdatei an.
+- **Map Path**: Zeigt den vollständigen Pfad der DITA-Zuordnungsdatei an.
 
 - **UUID**: Zeigt die eindeutige Kennung an, die mit der Datei verknüpft ist.
 
-- **Sprache**: Zeigt den Sprachcode der DITA-Zuordnung an.
-- **Vorgabe**: Zeigt den Titel der in der Zuordnungsdatei konfigurierten Ausgabevorgabe an. Außerdem wird das Symbol je nach Typ der Ausgabevorgabe angezeigt.
+- **Language**: Zeigt den Sprach-Code der DITA-Karte an.
+- **Voreinstellung**: Zeigt den Titel der Ausgabevorgabe an, die in der Zuordnungsdatei konfiguriert ist. Außerdem wird das Symbol je nach Typ der Ausgabevorgabe angezeigt.
 
   >[!NOTE]
   >
-  > Das kleine ![](images/global-preset-icon.svg) -Symbol zeigt eine Vorgabe auf Ordnerprofilebene an.
+  > Das kleine ![](images/global-preset-icon.svg) zeigt eine Vorgabe auf Ordnerprofilebene an.
 
-- **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wird. Anhand dieser Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung aktivieren möchten oder nicht.
-- **Generiert**: Zeigt Datum und Uhrzeit der letzten generierten Ausgabe an.
-- **Veröffentlicht**: Zeigt das Datum und die Uhrzeit der letzten veröffentlichten (oder aktivierten) Ausgabe an. Wenn Sie den Link auswählen, wird die Seite **Aktivierungsergebnisse** angezeigt, die die Protokolle mit Informationen zum Stammpfad enthält, in dem der Inhalt aktiviert ist.
+- **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wird. Basierend auf diesen Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Map aktivieren möchten oder nicht.
+- **Erstellt**: Zeigt Datum und Uhrzeit der letzten generierten Ausgabe an.
+- **Veröffentlicht**: Zeigt Datum und Uhrzeit der letzten veröffentlichten (oder aktivierten) Ausgabe an. Wenn Sie den Link auswählen, wird die **Aktivierungsergebnisse** angezeigt, die die Protokolle mit Informationen zum Stammpfad enthält, in dem der Inhalt aktiviert wird.
 
-## Registerkarte &quot;Audit History&quot;
+## Registerkarte „Audit-Verlauf“
 
-Die Registerkarte **Audit History** enthält Informationen über die aktivierten Zuordnungsausgaben in den folgenden Spalten:
-- **Zuordnung**: Zeigt den Titel der DITA-Map-Datei an.
-- **Map Path**: Zeigt den vollständigen Pfad der DITA-Map-Datei an.
+Die **Audit-Verlauf** enthält Informationen zu den aktivierten Zuordnungsausgaben in den folgenden Spalten:
+- **Map**: Zeigt den Titel der DITA-Zuordnungsdatei an.
+- **Map Path**: Zeigt den vollständigen Pfad der DITA-Zuordnungsdatei an.
 - **UUID** : Zeigt die eindeutige Kennung an, die mit der Datei verknüpft ist.
-- **Sprache**: Zeigt den Sprachcode der DITA-Zuordnung an.
-- **Vorgabe**: Zeigt den Titel der in der Zuordnungsdatei konfigurierten Ausgabevorgabe an. Außerdem wird das Symbol je nach Typ der Ausgabevorgabe angezeigt.
-- **Status**: Zeigt den Status der Aktivierung als erfolgreich oder fehlgeschlagen an.
+- **Language**: Zeigt den Sprach-Code der DITA-Karte an.
+- **Voreinstellung**: Zeigt den Titel der Ausgabevorgabe an, die in der Zuordnungsdatei konfiguriert ist. Außerdem wird das Symbol je nach Typ der Ausgabevorgabe angezeigt.
+- **Status**: Zeigt den Status der Aktivierung als erfolgreich oder nicht erfolgreich an.
 - **Ziel**: Wenn Sie die Ausgabe in Experience Manager Guides as a Cloud Service generieren, können Sie das Ziel der Ausgabe als Publish oder Vorschau anzeigen.
 
   >[!NOTE]
   >
-  > Das kleine ![](images/global-preset-icon.svg) -Symbol zeigt eine Vorgabe auf Ordnerprofilebene an.
+  > Das kleine ![](images/global-preset-icon.svg) zeigt eine Vorgabe auf Ordnerprofilebene an.
 
 - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wurde. Basierend auf diesen Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung aktivieren möchten.
-- **Veröffentlicht**: Zeigt das Datum und die Uhrzeit der letzten veröffentlichten (oder aktivierten) Ausgabe an. Wenn Sie den Link auswählen, wird die Seite Aktivierungsergebnisse angezeigt, die die Protokolle mit Informationen zum Stammpfad enthält, in dem der Inhalt aktiviert ist.
-  ![ erstellte Registerkarte für den Verlauf der Massenaktivierung-Erfassung ](images/bulk-collection-audit-history.png){width="800" align="left"}
+- **Veröffentlicht**: Zeigt Datum und Uhrzeit der letzten veröffentlichten (oder aktivierten) Ausgabe an. Wenn Sie auf den Link klicken, wird die Seite Aktivierungsergebnisse angezeigt, die die Protokolle mit Informationen zum Stammpfad enthält, in dem der Inhalt aktiviert wird.
+  ![ hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](images/bulk-collection-audit-history.png){width="800" align="left"}
 
-  *Zeigen Sie die Informationen zu den aktivierten Zuordnungsausgaben auf der Registerkarte **Audit History**an.*
+  *Informationen zu den aktivierten Zuordnungsausgaben finden Sie auf der Registerkarte **Prüfverlauf**.*
 
 
   >[!NOTE]
   >
-  > Die Ausgaben auf der Registerkarte **Audit History** werden anhand der Spalte **Veröffentlicht** sortiert.
+  > Die Ausgaben in der Registerkarte **Auditverlauf** werden nach der Spalte **Veröffentlicht** sortiert.
 
 
 
-## Linke Leiste
+## Linkes Bedienfeld
 
-Die folgenden Filteroptionen sind im linken Bereich verfügbar:
+Die folgenden Filteroptionen sind im linken Bedienfeld verfügbar:
 
-- **Geändert**: Sie können &quot;Ja&quot;oder &quot;Nein&quot;auswählen. Wenn Sie &quot;Ja&quot;auswählen, werden nur die modifizierten DITA-Maps angezeigt. Eine geänderte Karte ist eine Karte, die seit der letzten Veröffentlichung erstellt wurde.
-- **Vorgabe**: Wählen Sie eine Vorgabe aus, für die Sie die Zuordnungsdateien herausfiltern möchten. Diese Spalte zeigt den Titel der in der Zuordnungsdatei konfigurierten Ausgabevorgabe. Wenn Sie beispielsweise die Vorgabe *AEM Site* auswählen, werden nur die Karten angezeigt, für die die Ausgabevorgabe *AEM Site* konfiguriert ist.
-- **Sprache**: Sie können einen der verfügbaren Sprachcodes auswählen und auf der Registerkarte &quot;Karten und Vorgaben&quot;nur die ausgewählte Sprache anzeigen.
+- **Geändert**: Sie können „Ja“ oder „Nein“ auswählen. Wenn Sie auf Ja klicken, werden nur die geänderten DITA-Karten angezeigt. Eine geänderte Zuordnung ist eine Zuordnung, die seit ihrer letzten Veröffentlichung generiert wurde.
+- **Voreinstellung**: Wählen Sie eine Voreinstellung aus, für die Sie die Zuordnungsdateien herausfiltern möchten. In dieser Spalte wird der Titel der in der Zuordnungsdatei konfigurierten Ausgabevorgabe angezeigt. Wenn Sie beispielsweise die Vorgabe *AEM-Site* auswählen, werden nur die Zuordnungen angezeigt, für die die Ausgabevorgabe *AEM-Site* konfiguriert ist.
+- **Sprache**: Sie können einen beliebigen der verfügbaren Sprach-Codes auswählen und nur die ausgewählte Sprache auf der Registerkarte Zuordnungen und Vorgaben anzeigen.
 
-Die Filter werden aktualisiert, wenn Sie von der Registerkarte **Maps und Vorgaben** zur Registerkarte **Audit History** wechseln und umgekehrt.
+Die Filter werden aktualisiert, wenn Sie von der Registerkarte **Zuordnungen und Vorgaben** zur Registerkarte **Prüfverlauf** und umgekehrt wechseln.
 
 **Übergeordnetes Thema: **[Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

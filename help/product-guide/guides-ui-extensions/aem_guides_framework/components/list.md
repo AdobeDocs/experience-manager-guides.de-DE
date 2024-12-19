@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Liste
 
-Um eine Liste anzuzeigen, verwenden wir die Komponentenliste.
+Zum Anzeigen einer Liste verwenden wir die Komponentenliste .
 
 ```js title="list.js"
 const listJSON =  {
@@ -22,7 +22,7 @@ const listJSON =  {
 ```
 
 Hier ist Sprache ein einfaches Array von Zeichenfolgen. `languages = ["English", "Hindi", "French"]`
-Wenn wir eine Liste von Objekten rendern möchten, können wir die Struktur mithilfe der Elementkonfiguration angeben.
+Für den Fall, dass wir eine Liste von Objekten rendern möchten, können wir die Struktur mithilfe der Elementkonfiguration angeben.
 
 ```js title="list.js"
 const listJSON =  {
@@ -35,7 +35,7 @@ const listJSON =  {
 },
 ```
 
-Normalerweise ist itemConfig ein `widget`. Weitere Informationen zu Widgets finden Sie unter [Widgets](../Widgets/basic-widget.md) .
+Normalerweise ist itemConfig ein `widget`. Weitere Informationen zu Widgets finden Sie unter [Widgets](../Widgets/basic-widget.md)
 
 Die gerenderte Liste sieht wie folgt aus:
 

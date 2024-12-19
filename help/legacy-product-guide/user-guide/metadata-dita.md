@@ -1,9 +1,10 @@
 ---
 title: Arbeiten mit Metadaten in AEM
-description: Erfahren Sie, wie Sie Assets erstellen und Metadaten mit Adobe Experience Manager Assets hinzufügen. Verwalten von Metadaten aus AEM Guides
+description: Erfahren Sie, wie Sie mit Adobe Experience Manager Assets Assets erstellen und Metadaten hinzufügen. Verwalten von Metadaten aus AEM Guides.
 feature: Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 578ea79c-cfb7-4902-b6d5-9d8a010fe26a
+source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 1%
@@ -12,8 +13,8 @@ ht-degree: 1%
 
 # Arbeiten mit Metadaten in AEM {#id21BJ00QD0XA}
 
-Adobe Experience Manager Assets bietet Ihnen die Funktion zum Erstellen von Assets und Hinzufügen von Metadaten. Sie können Metadaten für jedes Asset beibehalten. Sie können Metadaten mit Ihren Assets verwalten sowie Assets automatisch basierend auf ihren Metadaten organisieren und verarbeiten.
+Adobe Experience Manager Assets bietet die Funktion zum Erstellen von Assets und Hinzufügen von Metadaten zu Assets. Sie können Metadaten für jedes Asset speichern. Sie können Metadaten mit Ihren Assets verwalten und Assets basierend auf ihren Metadaten automatisch organisieren und verarbeiten.
 
-Weitere Informationen zur Metadatenverwaltung in AEM finden Sie unter [Verwalten von Metadaten Ihrer digitalen Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=de).
+Weitere Informationen zur Metadatenverwaltung in AEM finden Sie unter [Verwalten von Metadaten für digitale Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=de).
 
-**Übergeordnetes Thema:**[ Metadaten verwalten](manage-metadata.md)
+**Übergeordnetes Thema:**[ Verwalten von Metadaten](manage-metadata.md)

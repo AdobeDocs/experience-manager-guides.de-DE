@@ -1,6 +1,6 @@
 ---
 title: Anhang
-description: Erfahren Sie, wie Sie InDesign-Dateien für die Konvertierung vorbereiten.
+description: Erfahren Sie, wie Sie InDesign-Dateien für die Konvertierung vorbereiten
 exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
@@ -16,23 +16,23 @@ ht-degree: 0%
 
 ## Vorbereiten von InDesign-Dateien für die Konvertierung {#id195DBF0045Z}
 
-InDesign bietet Autoren eine Vielzahl von Funktionen zur Erstellung attraktiver und komplexer Dokumente. Häufig bedeutet dies, dass die verschiedenen Teile eines Dokuments visuell auf der Seite platziert werden, ohne dass versucht wird, einen Fluss zwischen diesen Textrahmen bereitzustellen. Wenn die &#39;*Leserichtung*&#39; der Textrahmen nicht definiert ist, enthält die IDML-Datei Meldungen, die möglicherweise keiner aussagekräftigen Reihenfolge folgen. Das Endergebnis ist ein oder mehrere DITA-Themen mit Absätzen, Tabellen und Grafiken in zufälliger Reihenfolge.
+InDesign bietet Autorinnen und Autoren umfangreiche Funktionen zum Erstellen ansprechender und komplexer Dokumente. Dies bedeutet häufig, dass die verschiedenen Teile eines Dokuments visuell auf der Seite platziert werden, jedoch ohne dass versucht wird, einen Fluss zwischen diesen Textrahmen bereitzustellen. Wenn die &quot;*-Reihenfolge* der Textrahmen nicht definiert ist, enthält die IDML-Datei Storys, die möglicherweise keiner sinnvollen Reihenfolge folgen. Das Endergebnis ist ein oder mehrere DITA-Themen mit Absätzen, Tabellen und Grafiken in zufälliger Reihenfolge.
 
-Es ist zwar möglich, den DITA-Inhalt in einer vernünftigen Reihenfolge in einem DITA-Editor zu bearbeiten, es ist jedoch viel einfacher, die InDesign-Datei zu reparieren, bevor die IDML-Datei erstellt wird. Dies kann ohne Änderung des Erscheinungsbilds des Quelldokuments erfolgen. Sie hat auch den Vorteil, dass das Quelldokument durch die ordnungsgemäße Definition der Leserichtung zugänglich gemacht wird.
+Es ist zwar möglich, den DITA-Inhalt in einem DITA-Editor in einer sinnvollen Reihenfolge zu bearbeiten, aber es ist viel einfacher, die InDesign-Datei zu reparieren, bevor die IDML-Datei erstellt wird. Dies kann ohne Änderung des Erscheinungsbildes des Quelldokuments erfolgen. Dies hat auch den Vorteil, dass das Quelldokument durch eine ordnungsgemäße Definition der Lesereihenfolge zugänglich wird.
 
-***Verschlüsseln von Textrahmen***
+***Threading von Textrahmen***
 
-InDesign verwendet den Begriff *&#39;threading&#39;*, um einen Frame mit einem anderen zu verknüpfen. Weitere Informationen zum Threading von Textrahmen finden Sie unter Thema *[Threading-Text](https://helpx.adobe.com/in/indesign/using/threading-text.html)* in der InDesign-Dokumentation.
+InDesign verwendet den Begriff *&#39;Threading&#39;* für den Prozess der Verknüpfung von einem Frame zu einem anderen. Weitere Informationen zum Einfädeln von Textrahmen finden Sie unter *[Einfädeln von Text](https://helpx.adobe.com/in/indesign/using/threading-text.html)* in der Dokumentation zum InDesign.
 
-***Überschneidende Frames***
+***Überlappende Frames***
 
-Einige InDesign-Dokumente verwenden aus Layoutgründen überlappende Rahmen ohne Thread. Es kann sehr schwierig sein, diesen Inhalt in den Haupt-Thread zusammenzuführen. Die beste Option kann sein, das Ergebnis in der DITA-Umgebung zu bearbeiten.
+Einige InDesign-Dokumente verwenden aus Layout-Gründen überlappende Rahmen ohne Thread. Es kann sehr schwierig sein, diesen Inhalt mit dem Haupt-Thread zusammenzuführen. Die beste Option ist möglicherweise, das Ergebnis in der DITA-Umgebung zu bearbeiten.
 
-***InDesign stories***
+***InDesign-Storys***
 
-Jeder mit einem Thread versehene Inhaltsfluss in einem InDesign-Dokument ist ein so genannter &quot;*story*&quot;. Um optimale Ergebnisse zu erzielen, wird empfohlen, die Anzahl der Meldungen zu begrenzen. Es gibt jedoch einige Teile Ihres Dokuments, die in der DITA-Ausgabe möglicherweise nicht benötigt werden. Seitenfußzeilen sind beispielsweise selten erforderlich, können jedoch in der Mitte eines Themas angezeigt werden, wenn sie nicht mit Vorsicht behandelt werden.
+Jeder Thread-Inhaltsfluss in einem InDesign-Dokument wird als „Story *bezeichnet*. Um die bestmöglichen Ergebnisse zu erzielen, wird empfohlen, die Anzahl der Stories begrenzt zu halten. Es gibt jedoch einige Teile Ihres Dokuments, die in der DITA-Ausgabe möglicherweise nicht benötigt werden. Beispielsweise werden Seitenfußzeilen selten benötigt, können jedoch in der Mitte eines Themas angezeigt werden, wenn sie nicht sorgfältig gehandhabt werden.
 
-Die einfachste Möglichkeit, Text auszuschließen, der im Dokument nicht erforderlich ist, besteht darin, ihm ein spezielles *Absatz-Tag* zu geben, das nur für unerwünschte Inhalte verwendet wird. Anstatt beispielsweise einen &quot;*\[einfachen Absatz\]*&quot;für die Fußzeile wiederzuverwenden, erstellen Sie ein dediziertes &quot;*Fußzeile*&quot;-Tag. Legen Sie dann in der MapStyle-Datei einfach die *Footer*-Absätze fest, die wie folgt abgelegt werden sollen:
+Die einfachste Möglichkeit, Text auszuschließen, der im Dokument nicht erforderlich ist, besteht darin, ihm ein spezielles *Absatz-Tag* zu geben, das nur für den unerwünschten Inhalt verwendet wird. Anstatt beispielsweise einen *\[einfachen Absatz\]* für die Fußzeile wiederzuverwenden, erstellen Sie ein dediziertes *Fußzeilen*-Tag. Legen Sie dann in der MapStyle-Datei einfach die *Footer*-Absätze fest, die wie folgt eingefügt werden sollen:
 
 ```XML
 <paraRule style="Footer" local="0" refactor="drop">
@@ -40,13 +40,13 @@ Die einfachste Möglichkeit, Text auszuschließen, der im Dokument nicht erforde
 </paraRule>
 ```
 
-***Mapping zu DITA-Doctypes***
+***Zuordnung zu DITA-Doctypes***
 
-Es ist wichtig, dass Ihr Quelldokument über mindestens einen Absatzstil oder ein Element verfügt, das bzw. das den Anfang eines Themas markieren kann. In Dokumenten wird üblicherweise *Überschrift1* als Name der Überschriften der obersten Ebene im Dokument verwendet. Anschließend können Sie eine Zuordnung von diesem Stil zu einem bestimmten DITA-Doctype erstellen. Wenn Ihr Dokument gut organisiert ist und die Verwendung von *Überschrift1* durchgängig konstant ist, erhalten Sie gute Ergebnisse.
+Es ist wichtig, dass Ihr Quelldokument mindestens einen Absatzstil oder ein Element enthält, der bzw. das den Beginn eines Themas markieren kann. Es ist üblich, dass Dokumente *Überschrift1* als Namen der Titel der obersten Ebene im Dokument verwenden. Anschließend können Sie eine Zuordnung von diesem Stil zu einem bestimmten DITA-Doctype erstellen. Wenn Ihr Dokument gut organisiert ist und die Verwendung von *Überschrift1* durchgängig konstant ist, erhalten Sie gute Ergebnisse.
 
 ***Mehrere DITA-Doctypes***
 
-Wenn einige der Absätze *Überschrift1* in verschiedene DITA-Doctypes konvertiert werden müssen, duplizieren Sie den Absatzstil im InDesign. Geben Sie diesen Stilen einen leicht zu erkennenden Namen, z. B. *Überschrift1\_genTask* oder *Überschrift1\_Fehlerbehebung*. Richten Sie dann die Datei &quot;mapStyle&quot;wie unten gezeigt ein:
+Wenn einige der *Überschrift1*-Absätze in verschiedene DITA-Doctypes konvertiert werden müssen, duplizieren Sie den Absatzstil im InDesign. Weisen Sie diesen Stilen einen leicht zu erkennenden Namen wie *Überschrift1\_genTask* oder *Überschrift1\_*) zu. Richten Sie dann die Datei „mapStyle“ wie unten gezeigt ein:
 
 ```XML
 <doctypes>
@@ -64,37 +64,37 @@ Wenn einige der Absätze *Überschrift1* in verschiedene DITA-Doctypes konvertie
 
 ***Strukturierte InDesign-Dokumente***
 
-InDesign hat eine lockere Beziehung zu XML. Während ein Dokument eine XML-DTD enthalten kann und die Hauptgeschichte möglicherweise für diese DTD gültig ist, ist es auch möglich, hybride Dokumente zu erstellen, in denen ein Teil des Inhalts XML ist, aber keine DTD enthalten ist. Dies sind die unerwünschten Fälle für eine erfolgreiche Konvertierung in DITA. Wenn ein Dokument XML-Teile enthält, versuchen Sie, die Ausgabe in XML zu speichern und zu prüfen, ob die Ergebnisse akzeptabel sind. Andernfalls enthalten DITA-Inhalte auch ungültige Inhalte oder können vollständig fehlschlagen.
+InDesign hat eine lose Beziehung zu XML. Während ein Dokument eine XML-DTD enthalten kann und die Hauptgeschichte für diese DTD gültig sein kann, ist es auch möglich, hybride Dokumente zu erstellen, bei denen ein Teil des Inhalts XML ist, aber keine DTD enthalten ist. Dies sind die unerwünschten Fälle für eine erfolgreiche Konvertierung in DITA. Wenn ein Dokument XML-Teile enthält, versuchen Sie, die Ausgabe in XML zu speichern und sehen Sie, ob die Ergebnisse akzeptabel sind. Ist dies nicht der Fall, enthält der DITA-Inhalt auch ungültige Inhalte oder kann vollständig fehlschlagen.
 
 ***Tabellenformatierung***
 
-Die Konvertierung von InDesign-Tabellenformatierungsregeln in die entsprechende Tabellenformatierung in DITA ist ein komplexer Vorgang. Dies liegt an den umfangreichen Formatierungsfunktionen, die in den Quelldateien verfügbar sind, verglichen mit den grundlegenden Optionen, die vom Oasis \(CALS\)-Tabellenmodell bereitgestellt werden, das in DITA verwendet wird. Eine vertikale und horizontale Textausrichtung wird bereitgestellt und liefert ähnliche Ergebnisse, obwohl Rechtetext immer entsprechend der Textrichtung ausgerichtet ist, während InDesign die Option Linker Rechtshinweis und Rechtshinweis erlaubt.
+Die Konvertierung von InDesign-Tabellenformatierungsregeln in die entsprechende Tabellenformatierung in DITA ist ein komplexer Prozess. Dies liegt an den umfangreichen Formatierungsfunktionen, die in den Quelldateien im Vergleich zu den grundlegenden Optionen verfügbar sind, die vom Oasis \(CALS\)-Tabellenmodell bereitgestellt werden, das in DITA verwendet wird. Die vertikale und horizontale Ausrichtung des Textes wird bereitgestellt und liefert ähnliche Ergebnisse, obwohl Blocktext immer entsprechend der Textrichtung ausgerichtet ist, während das InDesign-Verfahren „Linksbündig“ und „Rechtsbündig“ erlaubt.
 
-Die Handhabung von Spalten- und Zeilentrennzeichen durch InDesign ist wiederum wesentlich leistungsfähiger als die grundlegenden Optionen des Oasis-Tabellenmodells. InDesign bietet vier Zellenrahmen: Rahmentyp \(solide oder Muster\), Rahmenstärke, Rahmenfarbe, Rahmenfarbe, Rahmentint, Rahmenlückenfarbe und Rahmenlückentint. Alle diese Elemente müssen den Rahmen rechts und unten in jeder Zelle (Einstiegselement\) zugeordnet werden, wobei die einzigen Optionen 0 oder 1 sind - Rahmen ausblenden oder Rahmen anzeigen.
+Die Handhabung von Spalten- und Zeilentrennzeichen durch die InDesign ist wiederum weitaus leistungsfähiger als die grundlegenden Optionen des Oasis-Tabellenmodells. InDesign bietet vier Zellenrahmen: Rahmentyp \(einfarbig oder musterförmig\), Rahmenstärke, Rahmenfarbe, Rahmenfarbe, Rahmenspaltfarbe, Rahmenspaltfarbe und Rahmenspaltfarbe. All diese Elemente müssen nach unten auf Rahmen rechts und unten jeder Zelle \(Einstiegselement\) abgebildet werden, wobei die einzigen Optionen 0 oder 1 sind - Rahmen ausblenden oder anzeigen.
 
-Die Rahmenregelung in InDesign kann auf folgenden Ebenen angewendet werden:
+Die Rahmenregelung in InDesign kann auf den folgenden Ebenen angewendet werden:
 
 - Tabellenstile
-- Zellstile
-- Lokale Überschreibungen für jede Zelle
+- Zellenstile
+- Lokale Überschreibungen in jeder Zelle
 
-Der InDesign zu DITA-Konvertierungsprozess wendet die Rahmenregel wie folgt an:
+Beim Konvertierungsprozess von InDesign nach DITA wird die Grenzregel wie folgt angewendet:
 
-- Tabellenstile werden für vertikale Regeln dem Attribut `colspec/@colsep` zugeordnet. Horizontale Regeln werden dem Attribut `row/@rowsep` zugeordnet. Wenn der Rahmen nicht definiert ist, wird das Attribut in beiden Fällen nicht erstellt.
-- Zellstile werden den Attributen `entry/@colsep` und `entry/@rowsep` zugeordnet. Diese Werte überschreiben alle von Tabellenformat abgeleiteten Begrenzungslinien.
-- Lokale Überschreibungen wenden die Formatierung direkt auf die Zelle an und überschreiben Tabellenstile und Zellstile.
+- Tabellenstile werden dem `colspec/@colsep` für vertikale Regeln zugeordnet. Horizontale Regeln werden dem Attribut `row/@rowsep` zugeordnet. In beiden Fällen wird das Attribut nicht erstellt, wenn der Rahmen nicht definiert ist.
+- Zellenstile werden den `entry/@colsep`- und `entry/@rowsep` zugeordnet. Diese Werte überschreiben alle von Tabellenstilen abgeleiteten Rahmenregeln.
+- Lokale Überschreibungen wenden die Formatierung direkt auf die Zelle an und überschreiben Tabellenstile und Zellenstile.
 
 ***Wechselnde Muster***
 
-InDesign Tabellenstile ermöglichen es, dass Spalten- und Zellenausrichtung einem abwechselnden Muster folgen. Diese Funktion wird zwar für die Konvertierung unterstützt, die Ergebnisse sind jedoch nur dann offensichtlich, wenn eine Mustergruppe zugeordnet ist, um die Regel \(1\) anzuzeigen, und die andere Mustergruppe zugeordnet wird, um die Regel \(0\) auszublenden.
+InDesign-Tabellenstile ermöglichen es, Spalten- und Zellenregeln einem alternierenden Muster zu folgen. Diese Funktion wird zwar für die Konvertierung unterstützt, die Ergebnisse sind jedoch nur sichtbar, wenn eine Mustergruppe den Vorgangs-\(1\) anzeigt und die andere Mustergruppe den Vorgangs-\(0\) ausblendet.
 
-## Bereiten Sie die Zuordnungsdatei für die InDesign zu DITA-Migration vor. {#id194AF0003HT}
+## Zuordnungsdatei für die Migration von InDesign zu DITA vorbereiten {#id194AF0003HT}
 
-Für die korrekte DITA-Konvertierung ist eine Zuordnungsdatei erforderlich, die mit dem Inhalt des Quelldokuments übereinstimmt. Bei unstrukturierten InDesign-Dokumenten bedeutet dies, dass alle verfügbaren Absatzstile und Zeichenstile zugeordnet werden müssen. Bei XML-strukturierten InDesign-Dokumenten müssen alle Elemente in der zugehörigen DTD zugeordnet werden.
+Für die korrekte DITA-Konvertierung ist eine Zuordnungsdatei erforderlich, die mit dem Inhalt des Quelldokuments übereinstimmt. Für unstrukturierte InDesign-Dokumente bedeutet dies, dass alle verfügbaren Absatzformate und Zeichenstile zugeordnet werden müssen. Bei XML-strukturierten InDesign-Dokumenten müssen alle Elemente in der zugehörigen DTD zugeordnet werden.
 
-Die Zuordnungsdateien für unstrukturierte und strukturierte InDesign-Dokumente unterscheiden sich. Dies liegt an den komplexeren Verarbeitungsanforderungen für die Konvertierung von unstrukturierten Quellinhalten in DITA.
+Die Zuordnungsdateien für unstrukturierte und strukturierte InDesign-Dokumente unterscheiden sich. Dies liegt an den komplexeren Verarbeitungsanforderungen für die Konvertierung unstrukturierter Quellinhalte in DITA.
 
-Nachfolgend finden Sie ein Beispiel für die Zuordnungsdatei:
+Ein Beispiel für die Zuordnungsdatei finden Sie unten:
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -164,23 +164,23 @@ Nachfolgend finden Sie ein Beispiel für die Zuordnungsdatei:
 </styleMap>
 ```
 
-Die Zuordnungsdatei ist eine XML-Datei mit einer einfachen Struktur, die alle Quellabsatzstile und Zeichenstilcodes auflistet. Der Dateiinhalt wird nachfolgend erläutert:
+Die Zuordnungsdatei ist eine XML-Datei mit einer einfachen Struktur, die alle Absatzformate und Zeichenstil-Codes auflistet. Der Dateiinhalt wird im Folgenden erläutert:
 
 **Stilzuordnung**
 
-Im Element `styleMap` können Sie zwei optionale Attribute festlegen - `@map_date` und `@map_version` für die Aufzeichnung der Version der Zuordnungsdatei.
+Im `styleMap` können Sie zwei optionale Attribute angeben: `@map_date` und `@map_version` für die Aufzeichnung der Version der Zuordnungsdatei.
 
 **Dokumenttyp**
 
-Das Element `doctypes` listet die unterstützten DITA-Mappings und Themenzuordnungen auf.
+Im `doctypes` Element sind die unterstützten DITA-Zuordnungen und Themenzuordnungen aufgeführt.
 
 **Absatzregeln für Dokumenttyp zuordnen**
 
-Das Element `mapDoctypeParaRule` ist obligatorisch. Die Attribute dieses Elements dürfen nicht bearbeitet werden, da das Stammelement der Quell-XML immer dem Stamm-Element `map` der DITA-Map zugeordnet ist.
+Das `mapDoctypeParaRule` ist obligatorisch. Die Attribute dieses Elements dürfen nicht bearbeitet werden, da das Stammelement der Quell-XML immer dem `map` der DITA-Zuordnung zugeordnet ist.
 
-**Absatzregel für Dokumenttyp**
+**Absatzregel vom Typ Dokument**
 
-Das Element `doctypeParaRule` ist obligatorisch. Dadurch kann der Konvertierungsprozess den Beginn eines neuen Themas identifizieren. Normalerweise wird das Attribut `@style` allein verwendet, wobei das Attribut `@local` auf 0 gesetzt ist. Wenn jedoch immer lokale Formatierungsüberschreibungen für den ausgewählten Stil vorhanden sind, müssen Sie eine Regel für jeden Stil und dessen lokale Überschreibungen hinzufügen. Dies ist in der generierten Mapping-Datei einfach zu erkennen, wo dies oder Ähnliches gefunden werden könnte:
+Das `doctypeParaRule` ist obligatorisch. Dadurch kann der Konvertierungsprozess den Beginn eines neuen Themas identifizieren. Normalerweise wird das Attribut `@style` allein verwendet, wobei das Attribut `@local` auf 0 gesetzt ist. Wenn es jedoch immer lokale Formatierungsüberschreibungen für den ausgewählten Stil gibt, müssen Sie eine Regel für jeden Stil plus die lokalen Überschreibungen hinzufügen. Dies ist einfach in der generierten Zuordnungsdatei zu erkennen, wo es möglich wäre, dies oder Ähnliches zu finden:
 
 ```XML
 <paraRule style="Heading 1" local="0" mapTo="p">
@@ -191,27 +191,27 @@ Das Element `doctypeParaRule` ist obligatorisch. Dadurch kann der Konvertierungs
 </paraRule>
 ```
 
-Im obigen Beispiel gibt es zwei `paraRule` -Elemente für `@style` = &quot;Überschrift1&quot;. Erstellen Sie einfach ein äquivalentes `doctypeParaRule` -Element, wobei das `@mapToDoctype` -Attribut nach Bedarf festgelegt ist.
+Im obigen Beispiel gibt es zwei `paraRule` für `@style` = „Überschrift1“. Erstellen Sie einfach ein äquivalentes `doctypeParaRule`, wobei Sie das Attribut `@mapToDoctype` nach Bedarf festlegen.
 
-Die in `doctypeParaRule` verwendeten Attribute werden nachfolgend erläutert:
+Im Folgenden werden die in der `doctypeParaRule` verwendeten Attribute erläutert:
 
-- `@style`: Der Name eines Stils im InDesign-Quelldokument.
+- `@style`: Der Name eines Stils im Quell-InDesign-Dokument.
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapToDoctype`: Der Name eines DITA-Thementyps aus einer Aufzählungsliste aller gültigen `doctypes`.
 
-**Umbruchregeln für Elemente**
+**Regeln für Elementumbruch**
 
-Die Elementumbruchregeln definieren die Möglichkeiten, Elemente im eingehenden Dokument gemäß einem Satz von Attributwerten in ein vordefiniertes Element einzuschließen oder zu verschieben.
+Die Regeln für den Elementumbruch definieren die Möglichkeiten zum Umbrechen oder Verschieben von Elementen im eingehenden Dokument in ein vordefiniertes Element entsprechend einem Satz von Attributwerten.
 
-***`wrap`element***
+***`wrap`Element***
 
-Dies ist ein optionales Element. Das Element `wrap` listet die Elemente auf, die umschlossen oder verschoben werden. Umbruch wird normalerweise verwendet, wenn einer Reihe von Elementen ein gemeinsames übergeordnetes Element zugewiesen werden muss. Beispielsweise mehrere `li` -Elemente, die in ein `ol` -Element eingeschlossen sind. Außerdem kann `wrap` zum Verschieben von Elementen wie Titeln für Zahlen und Tabellen verwendet werden.
+Dies ist ein optionales Element. Das `wrap` Element listet die Elemente auf, die umschlossen oder verschoben werden. Der Umbruch wird normalerweise verwendet, wenn einer Reihe von Elementen ein gemeinsames übergeordnetes Element zugewiesen werden muss. Beispielsweise werden mehrere `li` Elemente in ein `ol` Element eingeschlossen. Darüber hinaus können `wrap` zum Verschieben von Elementen verwendet werden, z. B. Titel für Abbildungen und Tabellen.
 
-Die in `wrap` verwendeten Attribute werden nachfolgend erläutert:
+Im Folgenden werden die in der `wrap` verwendeten Attribute erläutert:
 
-- `@element`: Ein Pluszeichen nach einem Elementnamen zeigt, dass alle benachbarten Elemente mit demselben Namen in das Element mit dem Namen im Attribut `@wrapper` eingeschlossen werden.
-- `@wrapper`: Der Name des einschließenden Elements.
-- `@context`: Bietet eine Möglichkeit, die Art und Weise, wie ein bestimmtes Element umschlossen wird, weiter zu verfeinern. Das folgende Beispiel zeigt eine Möglichkeit, eine Reihe von `li` -Elementen entweder in einer geordneten Liste `ol` oder in einer ungeordneten Liste `ul` gemäß dem Wert `@context` zuzuordnen \(der Kontext wird für das Element `paraRule` definiert\):
+- `@element`: Ein Pluszeichen nach einem Elementnamen zeigt an, dass alle benachbarten Elemente mit demselben Namen in das Element mit dem Namen im `@wrapper`Attribut eingeschlossen werden.
+- `@wrapper`: Der Name des Wrapping-Elements.
+- `@context`: Bietet eine Möglichkeit, den Wrapper für ein bestimmtes Element weiter zu verfeinern. Im folgenden Beispiel wird gezeigt, wie eine Reihe von `li`-Elementen entweder in einer sortierten `ol` oder in einer nicht sortierten Liste `ul` dem `@context` \ (der Kontext wird im `paraRule` definiert\) zugeordnet werden kann:
 
   ```XML
   <wrap elements="li+" context="number" wrapper="ol">
@@ -223,11 +223,11 @@ Die in `wrap` verwendeten Attribute werden nachfolgend erläutert:
   ```
 
 
-Das folgende Beispiel zeigt, wie ein `fig` -Element aus einem `title` - und einem `image` -Element erstellt wird:
+Das folgende Beispiel zeigt, wie ein `fig`-Element aus einem `title` und einem `image`-Element erstellt wird:
 
-- `@elements`: Die Elemente, die aufgelistet und durch ein Komma getrennt sind, werden in das Element mit dem Namen im Attribut `@wrapper` eingeschlossen. Aufgrund der gängigen Praxis, Bildtitel unter das Bild zu setzen, ist der Titel das Element `title` unmittelbar nach dem Element `image`.
+- `@elements`: Die aufgelisteten und durch ein Komma getrennten Elemente werden in das Element namens im `@wrapper` eingeschlossen. Aufgrund der gängigen Praxis, Bildtitel unter dem Bild einzufügen, ist der Titel das `title` Element, das unmittelbar auf die `image` folgt.
 
-  Die folgende Umbruchregel:
+  Die folgende Wrap-Regel:
 
   ```XML
   <wrap elements="title, image" context="FigTitle" wrapper="fig">
@@ -235,14 +235,14 @@ Das folgende Beispiel zeigt, wie ein `fig` -Element aus einem `title` - und eine
   </wrap>
   ```
 
-  Konvertiert die folgende XML-Zwischendatei:
+  Konvertiert die folgende Zwischen-XML:
 
   ```XML
   <image href="Links/myImage.png" scale="59">
      <title>IDML2DITA workflow</title>
   ```
 
-  In die folgende gültige DITA-Zielleistenstruktur:
+  In die folgende gültige DITA-Figurenstruktur:
 
   ```XML
   <fig id="id397504">
@@ -251,14 +251,14 @@ Das folgende Beispiel zeigt, wie ein `fig` -Element aus einem `title` - und eine
   </fig>
   ```
 
-- `@wrapper`: Der Name des einschließenden Elements.
-- `@context`: Bietet eine Möglichkeit, weiter einzugrenzen, wie ein bestimmtes Element umschlossen wird \(der Kontext ist für das Element `paraRule` definiert\).
+- `@wrapper`: Der Name des Wrapping-Elements.
+- `@context`: Bietet eine Möglichkeit, die Art und Weise weiter zu verfeinern, wie ein bestimmtes Element umschlossen wird \(der Kontext wird im `paraRule` Element definiert\).
 
-Das folgende Beispiel zeigt, wie Sie einen `title` in einen `table` verschieben:
+Das folgende Beispiel zeigt, wie ein `title` in ein `table` verschoben wird:
 
-- `@elements`: Das Element `title`, das sich unmittelbar vor oder unmittelbar nach einer `table` befindet, wird in das Element mit dem Namen im Attribut `@wrapper` eingeschlossen. Ein XPath-Prädikat kann die Position des Titelelements als `[before]` oder `[after]` identifizieren.
+- `@elements`: Das `title` Element, das sich entweder unmittelbar vor oder unmittelbar nach einem `table` befindet, wird in das Element mit dem Namen im `@wrapper` eingeschlossen. Eine Eigenschaft im XPath-Stil kann die Position des title-Elements als `[before]` oder `[after]` identifizieren.
 
-  Beispiel: Die folgende Umbruchregel:
+  Beispiel: Die folgende Wrap-Regel:
 
   ```XML
   <wrap elements="title[before]" context="TableTitle" wrapper="table">
@@ -266,7 +266,7 @@ Das folgende Beispiel zeigt, wie Sie einen `title` in einen `table` verschieben:
   </wrap>
   ```
 
-  Konvertiert die folgende XML-Zwischendatei:
+  Konvertiert die folgende Zwischen-XML:
 
   ```XML
   <title>IDML2DITA workflow</title>
@@ -276,7 +276,7 @@ Das folgende Beispiel zeigt, wie Sie einen `title` in einen `table` verschieben:
            <colspec colname="1" colwidth="0.3*">
   ```
 
-  In diese gültige DITA-Ziffernstruktur:
+  In diese gültige DITA-Figurenstruktur:
 
   ```XML
   <table id="id289742" outputclass="BasicTable">
@@ -286,65 +286,65 @@ Das folgende Beispiel zeigt, wie Sie einen `title` in einen `table` verschieben:
            <colspec colname="1" colwidth="0.3*">
   ```
 
-- `@wrapper`: Der Name des einschließenden Elements.
+- `@wrapper`: Der Name des Wrapping-Elements.
 
-- `@context`: Bietet eine Möglichkeit, weiter einzugrenzen, wie ein bestimmtes Element umschlossen wird \(der Kontext ist für das Element `paraRule` definiert\).
+- `@context`: Bietet eine Möglichkeit, die Art und Weise weiter zu verfeinern, wie ein bestimmtes Element umschlossen wird \(der Kontext wird im `paraRule` Element definiert\).
 
 
 **Absatzstilregeln**
 
-Die `<paragraphStyleRule>` -Elemente werden im Folgenden beschrieben:
+Die `<paragraphStyleRule>` Elemente werden nachfolgend beschrieben:
 
-***`paraRule`element***
+***`paraRule`Element***
 
-Das Element `paraRule` ist obligatorisch. Dadurch werden die Zuordnungsregeln für alle Absatzstile festgelegt. In einem InDesign-Dokument ist der gesamte Text in der Unterstruktur von Absatzstilen enthalten, selbst Absätze ohne Stil haben den Namen `[No paragraph style]`. Die eckigen Klammern geben einen eingebauten InDesign-Stilnamen an.
+Das `paraRule` ist obligatorisch. Dies legt die Zuordnungsregeln für alle Absatzformate fest. In einem InDesign-Dokument ist der gesamte Text in der Unterstruktur von Absatzformaten enthalten, auch Absätze ohne Stil werden `[No paragraph style]` genannt. Die eckigen Klammern, diese zeigen einen integrierten InDesign-Stilnamen an.
 
 >[!NOTE]
 >
-> Die eckigen Klammern geben einen integrierten InDesign-Stilnamen an.
+> Die eckigen Klammern zeigen einen integrierten InDesign-Stilnamen an.
 
-Die in `paraRule` verwendeten Attribute werden nachfolgend erläutert:
+Im Folgenden werden die in der `paraRule` verwendeten Attribute erläutert:
 
-- `@style`: Der Name eines Stils im InDesign-Quelldokument.
+- `@style`: Der Name eines Stils im Quell-InDesign-Dokument.
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: Der Name eines DITA-Zielelements.
 
-- `@context`: Dieses Attribut wird verwendet, um eine Verknüpfung zu einer bestimmten **wrap** -Regel herzustellen, wenn mehr als eine Wrapper-Auswahl verfügbar ist. Beispiel: Das Element `li` kann entweder in ein Element `ol` oder in ein Element `ul` eingeschlossen sein. Um die verschiedenen Listentypen zu identifizieren, können Sie einen bestimmten Stilnamen oder das Attribut `@local` verwenden, das Folgendes anzeigen kann:
-   - `local="p[-|-|-|-|-|b|-|-]"` Wobei &quot;`b`&quot; in Feld 6 ein Listenelement mit Aufzählungszeichen angibt. Setzen Sie in diesem Fall `@context` auf &#39;`bullet`&#39;.
-   - `local="p[-|-|-|-|-|n|-|-]"` Wobei &quot;`n`&quot; in Feld 6 ein nummeriertes Listenelement angibt. Setzen Sie in diesem Fall `@context` auf &#39;`number`&#39;.
+- `@context`: Dieses Attribut wird verwendet, um eine Verknüpfung zu einer bestimmten **Wrap**-Regel herzustellen, wenn mehr als eine Wrapper-Auswahl verfügbar ist. Beispiel: Das `li` Element kann entweder in ein `ol` oder in ein `ul` Element eingeschlossen sein. Um die verschiedenen Listentypen zu identifizieren, können Sie einen bestimmten Stilnamen oder das `@local`-Attribut verwenden, das Folgendes anzeigen kann:
+   - `local="p[-|-|-|-|-|b|-|-]"` Wobei &quot;`b`&quot; in Feld 6 ein Aufzählungslistenelement anzeigt. Legen Sie in diesem Fall `@context` auf &quot;`bullet`&quot; fest.
+   - `local="p[-|-|-|-|-|n|-|-]"` Wobei &quot;`n`&quot; in Feld 6 ein nummeriertes Listenelement angibt. Legen Sie in diesem Fall `@context` auf &quot;`number`&quot; fest.
 
-- `@commentOut`: Dieses Attribut ermöglicht das Umbrechen des Zielelements in XML-Kommentare, sodass die Informationen nicht verloren gehen, sondern vom Benutzer manuell verarbeitet werden können. Dies ist nützlich, wenn der Quellinhalt nicht gezwungen werden kann, die DITA-Strukturregeln einzuhalten.
+- `@commentOut`: Dieses Attribut ermöglicht das Umschließen des Zielelements in XML-Kommentaren, sodass die Informationen nicht verloren gehen, sondern vom Benutzer manuell verarbeitet werden können. Dies ist nützlich, wenn der Quellinhalt nicht gezwungen werden kann, den DITA-Strukturregeln zu entsprechen.
 
-- `@refactor`: Dieses optionale Attribut hat zwei Werte:
+- `@refactor`: Für dieses optionale Attribut stehen zwei Werte zur Auswahl:
 
-- `unwrap`: Das übereinstimmende Element wird entfernt, während der Inhalt beibehalten wird.
+- `unwrap`: Das übereinstimmende Element wird entfernt, während sein Inhalt beibehalten wird.
 
-- `drop`: Das übereinstimmende Element und alle zugehörigen Inhalte werden entfernt.
+- `drop`: Das übereinstimmende Element und sein gesamter Inhalt werden entfernt.
 
 
 **Zeichenstilregeln**
 
-Die `charRule` -Elemente werden im Folgenden beschrieben:
+Die `charRule` Elemente werden nachfolgend beschrieben:
 
 >[!NOTE]
 >
-> Es gibt keine Zuordnung für den integrierten Zeichenstil `[No character style]` bei `local="0"`, da sie während der Vorverarbeitung entfernt werden.
+> Für die integrierte `[No character style]` gibt es bei der `local="0"` keine Zuordnung, da sie während der Vorverarbeitung entfernt werden.
 
-***`charRule`element***
+***`charRule`Element***
 
 Dies ist ein optionales Element.
 
-Dies sind die Zuordnungsregeln für alle Zeichenstile. In einem InDesign-Dokument ist der gesamte Text in untergeordneten Elementen von Zeichenstilen enthalten.
+Dies sind die Zuordnungsregeln für alle Zeichenstile. In einem InDesign-Dokument ist der gesamte Text in untergeordneten Elementen der Zeichenformate enthalten.
 
-Die in `charRule` verwendeten Attribute werden nachfolgend erläutert:
+Im Folgenden werden die in der `charRule` verwendeten Attribute erläutert:
 
-- `@style`: Der Name eines Stils im InDesign-Quelldokument.
+- `@style`: Der Name eines Stils im Quell-InDesign-Dokument.
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: Der Name eines DITA-Zielelements.
-- `@refactor`: Dieses optionale Attribut hat zwei Werte:
-   - `unwrap`: Das übereinstimmende Element wird entfernt, während der Inhalt beibehalten wird.
+- `@refactor`: Für dieses optionale Attribut stehen zwei Werte zur Auswahl:
+   - `unwrap`: Das übereinstimmende Element wird entfernt, während sein Inhalt beibehalten wird.
 
-   - `drop`: Das übereinstimmende Element und alle zugehörigen Inhalte werden entfernt.
+   - `drop`: Das übereinstimmende Element und sein gesamter Inhalt werden entfernt.
 
 
 **Attributregeln**
@@ -359,123 +359,123 @@ Dieses Element kann ein untergeordnetes Element der folgenden Elementkontexte se
 - `charRule`
 - `elementRule`
 
-Attributregeln dienen dazu, die Attribute für die übereinstimmenden Elemente zu verwalten.
+Attributregeln dienen zur Verwaltung der Attribute für die übereinstimmenden Elemente.
 
-Je nach Kontext sind die folgenden Attribute für das Element `attributeRules` verfügbar:
+Je nach Kontext sind die folgenden Attribute für das `attributeRules` verfügbar:
 
-- `@createID`: Generiert eine eindeutige ID für die entsprechenden Elemente. Zulässige Werte `true` oder `false`. In allen Kontexten verfügbar.
-- `@copyAll`: Kopiert alle Attribute nur aus dem XML-Quellinhalt für strukturierte Quelldateien. Zulässige Werte sind `true` oder `false`. Verfügbar für die Kontexte `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` und `elementRule`.
+- `@createID`: Generiert eine eindeutige ID für die übereinstimmenden Elemente. Zulässige Werte `true` oder `false`. In allen Kontexten verfügbar.
+- `@copyAll`: Kopiert alle Attribute aus dem Quell-XML-Inhalt nur für strukturierte Quelldateien. Zulässige Werte sind `true` oder `false`. Verfügbar für Kontexte `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` und `elementRule`.
 
 
-Die in `attributeRules` verwendeten Attribute werden nachfolgend erläutert:
+Im Folgenden werden die in der `attributeRules` verwendeten Attribute erläutert:
 
 >[!NOTE]
 >
 > Dieses Element kann mehrere untergeordnete Elemente enthalten.
 
-- `addNew`: Fügt dem übereinstimmenden Element ein neues Attribut hinzu. Verfügbar für alle Kontexte. Es hat zwei Attribute:
-   - `@name`: Muss ein offizieller XML-Name sein, vorzugsweise gültig für den DITA-Kontext.
-   - `@value`: Kann Literaltext oder ein einfacher XPath-Ausdruck sein.
-- `copyAtt`: Kopiert ein einzelnes Attribut in das Ziel, während es optional im Prozess umbenannt wird. Der Wert wird nicht geändert. Verfügbar für die Kontexte `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` und `elementRule`. Wenn dieses Element vorhanden ist, wird der Wert `@copyAllAtts` als `false` angenommen. Es hat zwei Attribute:
+- `addNew`: Fügt dem übereinstimmenden Element ein neues Attribut hinzu. Verfügbar für alle Kontexte. Sie weist zwei Attribute auf:
+   - `@name`: Muss ein gültiger XML-Name sein, vorzugsweise gültig für den DITA-Kontext.
+   - `@value`: Kann ein literaler Text oder ein einfacher XPath-Ausdruck sein.
+- `copyAtt`: Kopiert ein einzelnes Attribut in das Ziel, wobei es optional im Prozess umbenannt wird. Der Wert wird nicht geändert. Verfügbar für Kontexte `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` und `elementRule`. Wenn dieses Element vorhanden ist, wird davon ausgegangen, dass der `@copyAllAtts` Wert `false` ist. Sie weist zwei Attribute auf:
    - `@name`: Muss der Name eines Attributs sein, das im XML-Quellelement vorhanden ist.
-   - `@mapTo`: Muss ein offizieller XML-Name sein, vorzugsweise gültig für den DITA-Kontext.
+   - `@mapTo`: Muss ein gültiger XML-Name sein, vorzugsweise gültig für den DITA-Kontext.
 
 **Lokale Formatierungscodes**
 
-In jedem InDesign-Dokument ist es möglich, dass Absatzstile und Zeichenstile mehrere Hundert verschiedene Formatierungsüberschreibungen enthalten. Die meisten dieser Eigenschaften bieten keine nützliche Rolle im Konvertierungsprozess. Wir haben jedoch eine Reihe von Formatierungsfunktionen ermittelt, die sich auf die Semantik des Dokuments auswirken und den Konvertierungsprozess beeinflussen müssen.
+In jedem InDesign-Dokument ist es möglich, dass Absatzformate und Zeichenformate mehrere Hundert verschiedene Formatierungsüberschreibungen enthalten. Die meisten dieser Eigenschaften spielen keine nützliche Rolle im Konvertierungsprozess. Wir haben jedoch eine Reihe von Formatierungsfunktionen identifiziert, die sich auf die Semantik des Dokuments auswirken und den Konvertierungsprozess beeinflussen müssen.
 
-Die Attribute `@local` werden als spezielles, durch Trennzeichen getrenntes Format angezeigt, in dem acht Felder zusammen mit einem Präfix bereitgestellt werden, um die Art der Formatierung zu überschreiben. Die Felder für Formatierungscodes sind unten aufgeführt:
+Die `@local` Attribute werden als spezielles, durch Trennzeichen getrenntes Format angezeigt, bei dem acht Felder zusammen mit einem Präfix bereitgestellt werden, um den Typ der Formatierungsüberschreibungen anzuzeigen. Die Felder Formatierungscodes sind unten aufgeführt:
 
-- Präfix **p** für die lokale Überschreibung im para-Stil oder **c** für die lokale Überschreibung des Zeichenstils.
-- **Schriftstil**: Familienname und Eigenschaften wie &quot;***Fett Zusammengefasst Kursiv***&quot;.
-- **Schriftgröße** in Punkten.
-- **Zeichenposition** für Hochgestellt oder Tiefgestellt.
-- **Unter** für den Unterstrich.
+- Präfix **p** für lokale parastile Überschreibung oder **c** für lokale Überschreibung im Zeichenstil.
+- **Schriftstil** der Familienname und Eigenschaften wie &quot;***Bold Condensed Italic***&quot;.
+- **Schriftgröße** in Punkt.
+- **Zeichenposition** für hochgestellte oder tiefgestellte Zeichen.
+- **Unter** für Unterstrich.
 - **Strike** für Durchstreichen.
-- **Listencode** zur Identifizierung des Listentyps mit Aufzählungszeichen oder Nummeriert - wird nicht immer von InDesign verwendet.
-- Der Aufzählungscode **listet alle definierten Aufzählungstypen im Dokument auf.**
+- **Listencode** zur Identifizierung des Listentyps als Aufzählungszeichen oder Nummerierung - nicht immer vom InDesign verwendet.
+- **Aufzählungscode** listet alle definierten Aufzählungstypen im Dokument auf.
 - **Zahlencode** listet alle definierten Nummerierungsstile im Dokument auf.
 
-Eine sorgfältige Verwendung dieser Funktion ermöglicht andernfalls verloren gegangene lokale Formatierung und kann dazu beitragen, die Qualität einer Übertragung von formatierten Inhalten in DITA zu verbessern. Dieses Beispiel kann so aufgelöst werden, dass es kursiv 16 pt Text in einer Liste mit Aufzählungszeichen bedeutet: `p[Italic|16|-|-|-|b|-|-]`.
+Durch sorgfältige Verwendung dieser Funktion gehen ansonsten verloren gegangene lokale Formatierungen verloren. Dies kann dazu beitragen, die Qualität der Übertragung von formatierten Inhalten in DITA zu verbessern. Dieses Beispiel kann aufgelöst werden, sodass es kursiv, 16 pt Text in einer Aufzählungsliste bedeutet: `p[Italic|16|-|-|-|b|-|-]`.
 
 **Strukturzuordnung**
 
-Die Strukturzuordnungsdatei ähnelt der Stilzuordnungsdatei mit einer einfachen Struktur, die alle Quellelemente und relevanten Attributtypen auflistet. Für die Aufzeichnung der Version der zu verwendenden Zuordnungsdatei werden zwei Attribute bereitgestellt: `@map_date` und `@map_version`.
+Die Strukturzuordnungsdatei ähnelt der Stilzuordnungsdatei mit einer einfachen Struktur, die alle Quellelemente und relevanten Attributtypen auflistet. Für die Aufzeichnung der zu verwendenden Version der Zuordnungsdatei werden zwei Attribute, `@map_date` und `@map_version`, bereitgestellt.
 
 **Dokumenttyp**
 
-Das Element `doctypes` listet die unterstützten DITA-Mappings und Themenzuordnungen auf.
+Im `doctypes` Element sind die unterstützten DITA-Zuordnungen und Themenzuordnungen aufgeführt.
 
-**Zuordnen von Dokumenttyp-Elementregeln**
+**Elementregeln für Dokumenttyp zuordnen**
 
-Das Element `mapDoctypeElemRule` ist obligatorisch. Die Attribute dieses Elements dürfen nicht bearbeitet werden, da das Stammelement der Quell-XML immer dem Stamm-Element `map` der DITA-Map zugeordnet ist.
+Das `mapDoctypeElemRule` ist obligatorisch. Die Attribute dieses Elements dürfen nicht bearbeitet werden, da das Stammelement der Quell-XML immer dem `map` der DITA-Zuordnung zugeordnet ist.
 
-**Umbruchregeln für Elemente**
+**Regeln für Elementumbruch**
 
-**`elementRules`element** Diese Liste listet alle Elemente auf.
+**`elementRules`Element** Hier werden alle Elemente aufgelistet.
 
-**`elementRule`element** Das Element `elementRule` ist obligatorisch. Dies sind die Zuordnungsregeln für alle Quellelemente. Während ein InDesign-Dokument nicht strukturierte Stilelemente enthält, werden diese bei strukturierten-Inhalten ignoriert, es sei denn, die Verarbeitung des &#39;***Hybridmodus***&#39; ist aktiviert.
+**`elementRule`Element** Das `elementRule` Element ist obligatorisch. Dies sind die Zuordnungsregeln für alle Quellelemente. Ein InDesign-Dokument enthält zwar nicht strukturierte Stilelemente, diese werden jedoch für strukturierte Inhalte ignoriert, es sei denn, die Verarbeitung ***Hybridmodus*** ist aktiviert.
 
-Die in `elementRule` verwendeten Attribute werden nachfolgend erläutert:
+Im Folgenden werden die in der `elementRule` verwendeten Attribute erläutert:
 
-- `@elementName`: Der Name eines Elements im InDesign-Quelldokument.
+- `@elementName`: Der Name eines Elements im Quell-InDesign-Dokument.
 
-- `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z). \(Nur bei Hybriddokumenten nützlich\).
+- `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z). \(Nur für hybride Dokumente nützlich\).
 
 - `@mapTo`: Der Name eines DITA-Zielelements.
 
-- `@refactor`: Dieses optionale Attribut hat zwei Werte:
+- `@refactor`: Für dieses optionale Attribut stehen zwei Werte zur Auswahl:
 
-   - `unwrap`: Das übereinstimmende Element wird entfernt, während der Inhalt beibehalten wird.
+   - `unwrap`: Das übereinstimmende Element wird entfernt, während sein Inhalt beibehalten wird.
 
-   - `drop`: Das übereinstimmende Element und alle zugehörigen Inhalte werden entfernt.
+   - `drop`: Das übereinstimmende Element und sein gesamter Inhalt werden entfernt.
 
-- `@context`: Dieses Attribut wird verwendet, um eine Verknüpfung zu einer bestimmten Wrapper-Regel herzustellen, wenn mehr als eine Wrapper-Auswahl verfügbar ist. Beispiel: Das Element `li` kann entweder in ein Element `ol` oder in ein Element `ul` eingeschlossen sein.
+- `@context`: Dieses Attribut wird verwendet, um eine Verknüpfung zu einer bestimmten Wrapper-Regel herzustellen, wenn mehr als eine Wrapper-Auswahl verfügbar ist. Beispiel: Das `li` Element kann entweder in ein `ol` oder in ein `ul` Element eingeschlossen sein.
 
-- `@commentOut`: Dieses Attribut ermöglicht das Umbrechen des Zielelements in XML-Kommentare, sodass die Informationen nicht verloren gehen, sondern vom Benutzer manuell verarbeitet werden können. Dies ist nützlich, wenn der Quellinhalt nicht gezwungen werden kann, die DITA-Strukturregeln einzuhalten.
+- `@commentOut`: Dieses Attribut ermöglicht das Umschließen des Zielelements in XML-Kommentaren, sodass die Informationen nicht verloren gehen, sondern vom Benutzer manuell verarbeitet werden können. Dies ist nützlich, wenn der Quellinhalt nicht gezwungen werden kann, den DITA-Strukturregeln zu entsprechen.
 
 
-## Fehlerbehebung in AEM Guides
+## Fehlerbehebung bei AEM Guides
 
 Nachdem Sie AEM Guides installiert und konfiguriert haben, können Sie die Probleme beheben.
 
-## Validieren von Verweisen
+## Verweise validieren
 
-Sie können die angegebenen Skripte ausführen, um die Verweise zu überprüfen. Diese Skripte können Ihnen dabei helfen, die fehlerhaften Verweise zu identifizieren und sie dann zu patchen oder zu beheben.
+Sie können die angegebenen Skripte ausführen, um die Verweise zu überprüfen. Diese Skripte können Ihnen dabei helfen, die fehlerhaften Verweise zu identifizieren und sie dann zu korrigieren oder zu korrigieren.
 
-- `/bin/fmdita/validatebtree?operation=validate` - meldet fehlerhafte Inhaltsverweise, behebt sie jedoch nicht.
-- `/bin/fmdita/validatebtree?operation=patch` - listet die fehlerhaften Inhaltsreferenzen auf und behebt sie oder behebt sie.
+- `/bin/fmdita/validatebtree?operation=validate` - meldet alle fehlerhaften Inhaltsreferenzen, behebt sie jedoch nicht.
+- `/bin/fmdita/validatebtree?operation=patch`- Listet die fehlerhaften Inhaltsreferenzen auf und behebt sie oder behebt sie.
 
-**Skript überprüfen**
+**Skript validieren**
 
-Führen Sie die folgenden Schritte aus, um die Verweise mithilfe des im Produktpaket verfügbaren Überprüfungsskripts zu überprüfen:
+Führen Sie die folgenden Schritte aus, um die Verweise mithilfe des im Produktpaket verfügbaren Validierungsskripts zu überprüfen:
 
-1. Führen Sie das Überprüfungsskript \[`/bin/fmdita/validatebtree?operation=validate`\] aus, um zu überprüfen, ob neue fehlerhafte Verweise vorhanden sind.
-1. Falls das Überprüfungsskript Fehler meldet, können Sie diese mithilfe des Patch-Skripts patchen.
-1. Notieren Sie sich die unten aufgeführten Details und geben Sie sie bei Bedarf für Ihr Customer Success Team frei:
+1. Führen Sie das validate-Skript \[`/bin/fmdita/validatebtree?operation=validate`\] aus, um zu überprüfen, ob neue fehlerhafte Verweise vorhanden sind.
+1. Falls das Skript „validate“ Fehler meldet, können Sie es mit dem Patch-Skript patchen.
+1. Notieren Sie sich die unten angegebenen Details und teilen Sie sie bei Bedarf mit Ihrem Customer Success-Team:
 1. 
-   - Von Überprüfungsskript gedruckte Protokolle
+   - Durch Validierungsskript ausgedruckte Protokolle
 - Paket von &quot;`/content/fmdita/references`&quot;
-- Alle anderen erforderlichen Details, je nach gemeldetem Szenario
+- Alle anderen erforderlichen Details, abhängig vom gemeldeten Szenario
 
 **Patch-Skript**
 
-Führen Sie die folgenden Schritte aus, um fehlerhafte Verweise mithilfe des im Produktpaket verfügbaren Patch-Skripts zu patchen:
+Führen Sie die folgenden Schritte aus, um fehlerhafte Verweise mithilfe des im Produktpaket verfügbaren Patch-Skripts zu reparieren:
 
-1. Führen Sie das Patch-Skript `[/bin/fmdita/validatebtree?operation=patch]` aus, um die fehlerhaften Verweise zu beheben. Die Ausführung des Skripts dauert einige Minuten und druckt die Protokolle im Laufe des Prozesses. Sobald die Ausführung abgeschlossen ist, wird am Ende &quot;`Done`&quot; gedruckt.
+1. Führen Sie das Patch-Skript `[/bin/fmdita/validatebtree?operation=patch]` aus, um die fehlerhaften Verweise zu beheben. Die Skriptausführung dauert einige Minuten und druckt die Protokolle im Verlauf. Nach Abschluss der Ausführung wird am Ende &quot;`Done`&quot; gedruckt.
 
    **Hinweis:* Es wird empfohlen, die Protokolle zu Referenzzwecken zu kopieren und zu speichern.
 
 1. Nachdem das Patch-Skript erfolgreich ausgeführt wurde, können Sie die folgenden Prüfungen durchführen:
 1. 
-   - Überprüfen Sie, ob ein neuer Knoten &quot;`references_backup_<timestamp>"`&quot;unter `/content/fmdita` erstellt wurde.
+   - Überprüfen Sie, ob der neue Knoten &quot;`references_backup_<timestamp>"`&quot; unter `/content/fmdita` erstellt wurde.
 - Überprüfen, ob die Verweise korrigiert wurden
 
 **Logger**
 
-Sie können für diese Skriptausführung auch einen separaten Logger erstellen, wie im Folgenden beschrieben:
+Sie können auch einen separaten Logger für diese Skriptausführung erstellen, wie im Folgenden beschrieben:
 
-- Logger für Klasse &quot;`adobe.fmdita.common.BTreeReferenceValidator`&quot; hinzufügen
-- Setzen Sie es auf `DEBUG`
+- Logger zur Klasse &quot;`adobe.fmdita.common.BTreeReferenceValidator`&quot; hinzufügen
+- Setzen Sie ihn auf `DEBUG`
 
-Die erstellte Protokolldatei zeichnet alle Informationen auf, die mit der Skriptausführung zusammenhängen, und ist nützlich für den Fall, dass bei der Browsersitzung ein Timeout auftritt, während das Skript vom Browser ausgelöst wird.
+Die erstellte Protokolldatei zeichnet alle Informationen auf, die mit der Skriptausführung in Verbindung stehen. Sie ist nützlich, wenn im Browser Sitzungszeitüberschreitungen auftreten, während das Skript aus dem Browser ausgelöst wird.

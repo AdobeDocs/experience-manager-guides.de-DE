@@ -1,6 +1,6 @@
 ---
 title: Symbolleiste und Symbolleiste
-description: Symbolleiste und Symbolleiste anpassen
+description: Anpassen von Symbolleiste und Symbolleiste
 role: User, Admin
 exl-id: 7065c9b8-67ac-4f6d-8124-daa547f2dc3b
 source-git-commit: 4f41609368b64415993b93be27162b069e7b2e32
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Symbolleiste und Symbolleiste anpassen
+# Anpassen von Symbolleiste und Symbolleiste
 
-Um die `topbar` und `toolbar` anzupassen, verwenden wir die IDs: `topbar` oder `toolbar` und folgen derselben Ansicht, der Controller-Struktur.
+Um die `topbar` und `toolbar` anzupassen, verwenden wir die IDs: `topbar` oder `toolbar` und folgen derselben Ansicht, Controller-Struktur.
 
-Nachfolgend finden Sie ein triviales Beispiel für die Anpassung der Symbolleiste. In unserem Beispiel haben wir die Schaltfläche `Insert Numbered List` entfernt und die Schaltfläche `Insert Paragraph` mit unserer eigenen Komponente durch einen benutzerdefinierten Klick-Handler ersetzt.
+Nachfolgend finden Sie ein triviales Beispiel für die Anpassung von Symbolleisten. Hier haben wir die Schaltfläche `Insert Numbered List` entfernt und die Schaltfläche `Insert Paragraph` durch unsere eigene Komponente ersetzt, indem ein benutzerdefinierter On-Click-Handler verwendet wurde.
 
-Um auf Funktionen zugreifen zu können, die unter dem Objekt `proxy` verfügbar gemacht werden, müssen wir mit `this.proxy.getValue` beispielsweise zum Abrufen eines Werts darauf zugreifen.
+Um auf Funktionen zugreifen zu können, die unter `proxy` Objekt verfügbar gemacht werden, müssen wir darauf zugreifen, indem wir z. B. `this.proxy.getValue` einen Wert abrufen.
 
 ```js title = toolbar_customisation.js
 const toolbarExtend = {

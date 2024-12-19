@@ -1,6 +1,6 @@
 ---
-title: Schematron-Unterstützung für Wearditor
-description: Arbeiten mit Schematron im Wearditor
+title: Unterstützung von Schematronen im Web-Editor
+description: Arbeiten mit Schematron im Web-Editor
 exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
 feature: Web Editor
 role: User, Admin
@@ -11,53 +11,53 @@ ht-degree: 0%
 
 ---
 
-# Kontrollieren der Qualität von Inhalten im Web-Editor
+# Steuern der Inhaltsqualität im Web-Editor
 
-Dieser Artikel gibt einen Überblick über Validierungsmöglichkeiten im AEM Guides-Web-Editor.
-Der Design-Web-Editor nutzt das DITA-Schema-Setup im System, um Benutzer dazu zu zwingen, DITA-konforme Inhalte zu erstellen. Dadurch ist der gesamte im System gespeicherte Inhalt strukturiert, wiederverwendbar und gültig.
+Dieser Artikel bietet einen Überblick über die Validierungsmöglichkeiten innerhalb des AEM Guides-Web-Editors.
+Der Web-Editor nutzt standardmäßig das im System eingerichtete DITA-Schema, um Benutzer dazu zu zwingen, DITA-konforme Inhalte zu erstellen. Damit sind alle im System gespeicherten Inhalte strukturierte, wiederverwendbare und gültige DITA-Inhalte.
 
-Neben der Unterstützung für DITA-Regeln unterstützt der Web-Editor auch die Validierung von Inhalten, die auf &quot;*Schematron*&quot;-Regeln basieren.
+Neben der Unterstützung für DITA-Regeln unterstützt der Web-Editor auch die Validierung von Inhalten, die auf &quot;*&quot;-* basieren.
 
-&quot;*Schematron*&quot; bezieht sich auf eine regelbasierte Validierungssprache, mit der Tests für eine XML-Datei definiert werden. Sie können die Schemadateien importieren und sie auch im Web-Editor bearbeiten. Mithilfe einer Schematron-Datei können Sie bestimmte Regeln definieren und sie dann für ein DITA-Thema oder eine Zuordnung validieren. Schemaregeln können die Konsistenz der XML-Struktur sicherstellen, indem als Regeln definierte Einschränkungen auferlegt werden. Diese Beschränkungen werden von KMU getragen, die die Qualität und Konsistenz der Inhalte besitzen.
+&quot;*Schematron*&quot; bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Sie können die Schematron-Dateien importieren und auch im Web-Editor bearbeiten. Mithilfe einer „Schematron“-Datei können Sie bestimmte Regeln definieren und diese dann für ein DITA-Thema oder eine Zuordnung validieren. Schematronregeln können die Konsistenz der XML-Struktur sicherstellen, indem sie als Regeln definierte Einschränkungen auferlegen. Diese Einschränkungen werden von KMUs gesteuert, die für die Qualität und Konsistenz der Inhalte verantwortlich sind.
 
-    HINWEIS: Der Webeditor unterstützt ISO-Schemata.
-
-
-## Funktionsweise von &quot;Schema&quot;im Web-Editor
-
-### Konfigurieren von Schemaregeln
-
-Siehe Abschnitt &quot;Unterstützung für Schematron-Dateien&quot;im [Benutzerhandbuch](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+    HINWEIS: Der Web-Editor unterstützt ISO Schematron.
 
 
-### Validierungsregeln beim Speichern von Dateien durchsetzen
+## Wissen, wie „Schematron“ im Web-Editor funktioniert
 
-Mit den Webeditor-Einstellungen können Power-User Schemaregeln/-Dateien einrichten, die jedes Mal ausgeführt werden, wenn ein Benutzer den Inhalt aktualisiert. Weitere Informationen finden Sie im Abschnitt &quot;Validierung&quot;im [Benutzerhandbuch](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+### Konfigurieren von Schematron-Regeln
 
-![Festlegen von Regeln aus den Einstellungen des Web-Editors](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
+Siehe Abschnitt „Unterstützung für Schematron-Dateien“ im [Benutzerhandbuch](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
 
 
-### Können Sie die Validierung manuell ausführen?
+### Durchsetzen von Validierungsregeln beim Speichern von Dateien
 
-Ja, als Autor/Benutzer können Sie beim Erstellen von Inhalten das Bedienfeld &quot;Schematron&quot;im Webeditor verwenden, um eine Schematrator-Datei hochzuladen und Überprüfungen für die im Editor geöffnete Datei durchzuführen.
+Mit den WebEditor-Einstellungen können Power-User Schematron-Regeln/-Dateien einrichten, die jedes Mal ausgeführt werden, wenn ein Benutzer den Inhalt aktualisiert. Weitere Informationen finden Sie im Abschnitt „Validierung“ im [Benutzerhandbuch](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
-    Damit dies funktioniert, muss der Ordnerprofiladministrator allen Benutzern erlauben, Schemadateien im Überprüfungsbedienfeld hinzuzufügen. Siehe Editor-Einstellungen (Screenshot oben)
+![Regeln über Web-Editor-Einstellungen festlegen](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
-![Schematron-Datei auswählen](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
-![Ausführen der Validierung](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
+
+### Kann die Validierung manuell ausgeführt werden?
+
+Ja, als Autor/Benutzer können Sie beim Erstellen von Inhalten das Bedienfeld „Schematron“ im Web-Editor verwenden, um eine Schematron-Datei hochzuladen und Validierungen für die im Editor geöffnete Datei durchzuführen.
+
+    Dazu muss der Ordnerprofil-Administrator allen Benutzern erlauben, Schemtron-Dateien im Validierungsbereich hinzuzufügen. Siehe Editor-Einstellungen (Screenshot oben)
+
+![Wählen Sie die Schematron-Datei](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
+![Validierung ausführen](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
 
 
 ### Unterstützte Regeln
 
-Die aktuelle Version von AEM Guides unterstützt die Validierung nur mit auf &quot;Zusicherung&quot;basierenden Regeln. (siehe [Asset vs. Bericht](https://schematron.com/document/205.html))
-Auf &quot;Berichten&quot;basierende Regeln werden noch nicht unterstützt.
+Die aktuelle Version von AEM Guides unterstützt nur die Validierung mithilfe von auf „Assertion“ basierenden Regeln. (Siehe [Asset vs. Bericht](https://schematron.com/document/205.html))
+Regeln, die auf „Berichten“ basieren, werden noch nicht unterstützt.
 
 
-### Beispiele und weitere Hilfe zu Schemakontrollen-Regeln
+### Beispiele und weitere Hilfen zu Schematron-Regeln
 
-#### Anwendungsbeispiele
+#### Beispiele für Anwendungsfälle
 
-- Überprüfen Sie, ob ein Link extern ist und den Bereich &quot;extern&quot;aufweist.
+- Prüfen, ob ein Link extern ist und ob er den Bereich „extern“ hat
 
   ```
   <sch:pattern>
@@ -69,7 +69,7 @@ Auf &quot;Berichten&quot;basierende Regeln werden noch nicht unterstützt.
   </sch:pattern>
   ```
 
-- Überprüfen Sie, ob mindestens eine &quot;topicref&quot;in einer Zuordnung oder mindestens ein &quot;li&quot;unter einer &quot;ul&quot;vorhanden ist.
+- Überprüfen, ob mindestens eine „topicref“ in einer Karte oder mindestens eine „li“ unter einer „ul“ vorhanden ist
 
   ```
   <sch:pattern>
@@ -87,7 +87,7 @@ Auf &quot;Berichten&quot;basierende Regeln werden noch nicht unterstützt.
   </sch:pattern>
   ```
 
-- Das Element &quot;indexterm&quot;sollte immer in einem &quot;prolog&quot;vorhanden sein
+- Das Element „indexTerm“ sollte immer in einem „prolog“ vorhanden sein
 
   ```
   <sch:pattern>
@@ -101,6 +101,6 @@ Auf &quot;Berichten&quot;basierende Regeln werden noch nicht unterstützt.
 
 #### Ressourcen
 
-- Grundlegendes zu [Schematron-Grundlagen](https://da2022.xatapult.com/#what-is-schematron)
-- Weitere Informationen zu [Zuweisungsregeln in Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
-- [Beispielschema-Datei](../../../assets/authoring/sample_schematron.sch)
+- Grundlagen [ Schematron](https://da2022.xatapult.com/#what-is-schematron)
+- Weitere Informationen [Assertionsregeln im Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- [Beispieldatei für Schematron](../../../assets/authoring/sample_schematron.sch)

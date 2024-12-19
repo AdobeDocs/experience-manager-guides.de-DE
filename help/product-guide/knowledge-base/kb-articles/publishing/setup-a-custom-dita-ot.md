@@ -1,6 +1,6 @@
 ---
-title: Einrichten von benutzerdefiniertem DITA-OT in [!DNL AEM Guides]
-description: Erfahren Sie, wie Sie benutzerdefinierte DITA-OT in [!DNL Adobe Experience Manager Guides] einrichten.
+title: Einrichten eines benutzerdefinierten DITA-OT in [!DNL AEM Guides]
+description: Erfahren Sie, wie Sie in ein benutzerdefiniertes DITA-OT einrichten [!DNL Adobe Experience Manager Guides]
 role: Admin
 exl-id: f479c2cf-5b8b-4517-be97-81303468007a
 feature: DITA-OT Configuration
@@ -13,18 +13,18 @@ ht-degree: 0%
 
 # Einrichten von benutzerdefiniertem DITA-OT in [!DNL AEM Guides] für AEM
 
-Die Schritte zum Hinzufügen eines benutzerdefinierten DITA-OT werden im Abschnitt _Verwenden benutzerdefinierter DITA-OT-Plug-ins_ des _Installations- und Konfigurationshandbuchs_ beschrieben.
+Die Schritte zum Hinzufügen eines benutzerdefinierten DITA-OT werden im Abschnitt _Verwenden benutzerdefinierter DITA-OT_ des _Installations- und Konfigurationshandbuchs_ beschrieben.
 
-Auf hoher Ebene sind die Schritte:
+Die allgemeinen Schritte sind:
 
-+ Grundlegendes DITA-OT abrufen
-   + Wenn Sie eine Kopie des vordefinierten DITA-OT von [!DNL AEM Guides] erhalten möchten, laden Sie es aus dem Pfad `/etc/fmdita/dita_resources/DITA-OT.zip` herunter
-   + Wenn Sie eine andere Version erhalten möchten, können Sie sie von [dita-to repo](https://www.dita-ot.org/download) herunterladen.
-+ Nehmen Sie Änderungen an DITA-OT vor, z. B. das Hinzufügen eines neuen Plug-ins](https://www.dita-ot.org/dev/topics/plugins-installing.html) oder Anpassen vorhandener Plug-ins (siehe Beispiel im Abschnitt zu verwandten Links unten).[
-+ Laden Sie `DITA-OT.zip` in `/apps/<project-folder>/dita_resources` hoch (es wird empfohlen, einen benutzerdefinierten Projektordner zu erstellen).
-+ Fügen Sie das DITA-Profil über **[!UICONTROL Tools]** > **[!UICONTROL Handbücher]** > **[!UICONTROL DITA-Profile]** hinzu (verwenden Sie den DITA-OT-Pfad, in den das benutzerdefinierte DITA-OT hochgeladen wird, siehe Screenshot unten).
++ Abrufen der grundlegenden DITA-OT-Daten
+   + Wenn Sie eine Kopie des vordefinierten DITA-OT von [!DNL AEM Guides] erhalten möchten, laden Sie sie von Pfad `/etc/fmdita/dita_resources/DITA-OT.zip` herunter
+   + Wenn Sie eine andere Version erhalten möchten, können Sie sie von [dita-ot repo](https://www.dita-ot.org/download)
++ Nehmen Sie Änderungen am DITA-OT vor, z[ B. ](https://www.dita-ot.org/dev/topics/plugins-installing.html) Hinzufügen eines neuen Plug-ins oder Anpassen vorhandener Plug-ins (siehe Beispiel im Abschnitt „Verknüpfte Links“ unten)
++ Upload `DITA-OT.zip` empfangen in `/apps/<project-folder>/dita_resources` (Erstellen eines benutzerdefinierten Projektordners wird empfohlen)
++ Fügen Sie DITA-Profile über **[!UICONTROL Tools]** > **[!UICONTROL Handbücher]** > **[!UICONTROL DITA-Profile]** hinzu (verwenden Sie den DITA-OT-Pfad, in den das benutzerdefinierte DITA-OT hochgeladen wird, siehe Screenshot unten)
   ![DITA-Profile](assets/dita-profile.png)
 
 >[!MORELIKETHIS]
 >
->+ [DITA-OT-Plug-in-Beispiele anpassen](https://www.dita-ot.org/dev/topics/pdf-customization.html)
+>+ [Anpassen von DITA-OT-Plug-in-Beispielen](https://www.dita-ot.org/dev/topics/pdf-customization.html)

@@ -1,5 +1,5 @@
 ---
-title: Native PDF Publish-Funktion | Barcode hinzufügen
+title: Native PDF Publish-Funktion | Strichcode hinzufügen
 description: Erfahren Sie, wie Sie Barcodes hinzufügen.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
 source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
@@ -9,22 +9,22 @@ ht-degree: 1%
 
 ---
 
-# Barcode zur PDF-Ausgabe hinzufügen
+# Hinzufügen eines Barcodes zur PDF-Ausgabe
 
-Ein Barcode ist ein Datenmuster, das Maschinen lesen können. Kunden können Barcodes mit einem Barcode-Scanner oder ihrer Smartphone-Kamera scannen. Kodierungsinformationen wie Produktdetails, Inventarnummern oder Website-URLs können hilfreich sein. Das Hinzufügen von Barcodes hilft Ihnen, die Daten einfach zu erfassen, das Kundenerlebnis zu verbessern und ein besseres Datenmanagement und bessere Sicherheit zu gewährleisten.
+Ein Barcode ist ein Datenmuster, das Maschinen lesen können. Kunden können Barcodes mit einem Barcodescanner oder ihrer Smartphone-Kamera scannen. Kodierungsinformationen wie Produktdetails, Inventarnummern oder Website-URLs können hilfreich sein. Durch das Hinzufügen von Barcodes können Sie die Daten einfach erfassen, das Kundenerlebnis verbessern und ein besseres Daten-Management und mehr Sicherheit ermöglichen.
 
-Sie können einen Stil für den Barcode erstellen. und verwenden Sie ihn zum Einfügen eines Barcodes in ein Seitenlayout. Sie können den Stil auf einen Beispiel-Barcode im gewünschten Seitenlayout anwenden.
+Sie können einen Stil für den Barcode erstellen. und fügen Sie damit einen Barcode in ein Seiten-Layout ein. Sie können den Stil auf einen Beispiel-Barcode im gewünschten Seiten-Layout anwenden.
 
 
-Dieses Tutorial hilft Ihnen beim Hinzufügen von Barcodes in der PDF-Ausgabe.
+In diesem Tutorial erfahren Sie, wie Sie Barcodes in der PDF-Ausgabe hinzufügen.
 
 ## Schritte zum Generieren eines Barcodes
 
-Führen Sie die folgenden Schritte aus, um einen Barcode zu generieren:
+Um einen Barcode zu generieren, führen Sie die folgenden Schritte aus:
 
-### CSS der Vorlage aktualisieren, um einen Barcode-Wert zu rendern
+### Aktualisieren des CSS der Vorlage, um einen Barcodewert zu rendern
 
-Ändern Sie die Datei &quot;`layout.css`&quot;, um einen Barcode während der PDF-Erstellung wiederzugeben. Es werden verschiedene Barcode-Typen wie &quot;qrcode&quot;und &quot;pdf417&quot;unterstützt.  Weitere Informationen finden Sie unter [Barcodetypen](#barcode-types).
+Ändern Sie die `layout.css` Datei, um während der PDF-Generierung einen Barcode zu rendern. Es werden verschiedene Barcodetypen wie „qrcode“ und „pdf417“ unterstützt.  Weitere Informationen finden Sie unter [Barcodetypen](#barcode-types).
 
 
 
@@ -42,27 +42,27 @@ margin-top: 2mm;
 ...
 ```
 
-### Verwenden Sie den CSS-Stil, um den Barcode zu generieren
+### Verwenden des CSS-Stils zum Generieren des Barcodes
 
-Sie können den Barcode auf unterschiedliche Weise generieren. Einige der Beispiele sind:
+Sie können den Barcode auf verschiedene Arten generieren. Einige der Beispiele sind:
 
 **Beispiel 1**
 
 Fügen Sie einen Barcode-Platzhalter in der Vorlagenkopfzeile hinzu und wenden Sie den Stil an:
 
-1. Bearbeiten von **Vorlagen** > **Seitenlayouts**
-1. Wählen Sie ein Seitenlayout aus. Sie können beispielsweise das Seitenlayout &quot;BackCover&quot;auswählen, das die Kopf- oder Fußzeile enthält.
+1. Bearbeiten **Vorlagen** > **Seiten-Layouts**
+1. Wählen Sie ein Seiten-Layout aus. Sie können beispielsweise das Layout der Rückseite auswählen, das die Kopf- oder Fußzeile enthält.
 1. Fügen Sie den folgenden Bereich an der Stelle hinzu, an der Sie den Barcode einfügen möchten.
 
    `<span class="barcode">Sample barcode</span></p>`.
 
    >[!NOTE]
    >
-   > Verwenden Sie denselben Klassennamen, den Sie in `layout.css` definiert haben.
+   > Verwenden Sie denselben Klassennamen, den Sie im `layout.css` definiert haben.
 
 1. Ersetzen Sie `<Sample barcode>` durch den Wert, den der Barcode-Scanner lesen soll.
 
-Sie können den Barcode beim Generieren der Ausgabe-PDF mithilfe der Vorlage anzeigen, die das Seitenlayout enthält. Nachdem Sie die vorherigen Schritte ausgeführt haben, können Sie die PDF-Ausgabe mit einem Barcode generieren.
+Sie können den Barcode beim Generieren der Ausgabe-PDF mithilfe der Vorlage anzeigen, die das Seiten-Layout enthält. Nachdem Sie die vorherigen Schritte ausgeführt haben, können Sie die PDF-Ausgabe mit einem Barcode generieren.
 
 Der folgende Screenshot zeigt einen Beispiel-Barcode in einer PDF-Ausgabe.
 
@@ -70,7 +70,7 @@ Der folgende Screenshot zeigt einen Beispiel-Barcode in einer PDF-Ausgabe.
 
 **Beispiel 2**
 
-Ändern Sie die Datei `Common.plt` in der Vorlage **Einfach** , um einen Barcode nach dem Projekttitel hinzuzufügen.
+Ändern Sie die `Common.plt` in der **Basic**-Vorlage, um einen Barcode nach dem Projekttitel hinzuzufügen.
 
 Um einen Barcode für eine ISBN-Nummer zu erstellen, fügen Sie eine ISBN-Nummer hinzu. Verwenden Sie dann die ISBN-Nummer, um den Barcode zu generieren.
 
@@ -89,7 +89,7 @@ Um einen Barcode für eine ISBN-Nummer zu erstellen, fügen Sie eine ISBN-Nummer
 
 So erstellen Sie einen Barcode mit den Zuordnungsmetadaten:
 
-Verwenden Sie alle Metadaten, die im Element `<topicmeta>` einer DITA-Zuordnung vorhanden sind, um sie als Barcode anzuzeigen. Stellen Sie sicher, dass Sie den richtigen XPath verwenden. Sie können beispielsweise eine `<resourceid>` in der `<topicmeta>` einer DITA-Zuordnung hinzufügen.
+Verwenden Sie beliebige Metadaten, die im `<topicmeta>` Element einer DITA-Map vorhanden sind, um sie als Barcode anzuzeigen. Stellen Sie sicher, dass Sie den richtigen XPath verwenden. Sie können beispielsweise eine `<resourceid>` in der `<topicmeta>` einer DITA-Zuordnung hinzufügen.
 
 Im folgenden Beispiel dient die Ressourcen-ID als Haupteingabe zum Generieren des Barcodes.
 
@@ -109,7 +109,7 @@ Im folgenden Beispiel dient die Ressourcen-ID als Haupteingabe zum Generieren de
 
 
 
-Sie können die Ressourcen-ID wie folgt in einem Seitenlayout verwenden:
+Sie können die Ressourcen-ID in einem Seiten-Layout wie folgt verwenden:
 
 
 ```html
@@ -120,39 +120,39 @@ Sie können die Ressourcen-ID wie folgt in einem Seitenlayout verwenden:
 } 
 ```
 
-## Barcode-Typen {#barcode-types}
+## Strichcodetypen {#barcode-types}
 
-Einige der häufig verwendeten Barcodes sind wie folgt:
+Einige der häufig verwendeten Barcodes sind die folgenden:
 
-| Typ | -ro-barcode-type | Zusätzliche Details |
+| Typ | Pro-Barcode-Typ | Zusätzliche Details |
 | ---| --- | --- |
-| QR-Code | qrcode | Die QR-Code-Strichcode-Symbole nach ISO/IEC 18004:2015. |
-| Code 128 | code128 | Die Code 128-Barcode-Symbologie gemäß ISO/IEC 15417:2007. |
-| Code 32 | code32 | Code 32, auch als italienischer Armakode bezeichnet. |
-| Code 49 | code49 | Code 49 nach ANSI/AIM-BC6-2000. |
-| Code 11 | code11 |                            |
-| Code 93 | code93 |                            |
-| Code16k | code16k |                            |
-| PDF417 | pdf417 | Die Barcode-Symbole PDF417/MicroPDF417 gemäß ISO/IEC 15438:2006 und ISO/IEC 24728:2006. |
-| Code 3 von 9 | code39 | Code 3 von 9 Strichcode-Symbologien nach ISO/IEC 16388:2007. |
-| MSI Plessey | msiplessey |                            |
-| Kanalcode | channelcode | Kanalcode nach ANSI/AIM BC12-1998. |
-| Codabar | codabar | Codabar Barcode Symbologie nach BS EN 798:1996. |
-| EAN-8 | ean-8 | EAN-Strichcode-Symbole nach BS EN 797:1996. |
-| EAN-13 | ean-13 | EAN-Strichcode-Symbole nach BS EN 797:1996. |
-| UPC-A | upc-a | UPC-Strichcode-Symbole nach BS EN 797:1996. |
-| UPC-E | upc-e | UPC-Strichcode-Symbole nach BS EN 797:1996. |
-| Ean/UPC Addon | addon | EAN/UPC Add-On Barcode Symbologie nach BS EN 797:1996. |
-| Telepen | telepen | Wird auch als Telepen-Alpha bezeichnet. |
-| GS1 Datenbank/Datenbank 14 | Datenbank | GS1 DataBar nach ISO/IEC 24724:2011. |
-| GS1-Datenbank erweitert/Datenbank 14 erweitert | datenbankerweitert | GS1 DataBar erweitert gemäß ISO/IEC 24724:2011. |
-| GS1 Databar Limited | datenbankgebunden | GS1 DataBar Limited nach ISO/IEC 24724:2011. |
-| POSTNET (Postal Numeric Encoding Technique) | postnet | Die vom US Postal Service verwendeten Strichcodetypen POSTNET (Postal Numeric Encoding Technique). |
-| Pharmazie-Zentralnummer (PZN-8) | pzn8 | Eine auf Code 39 basierende Symbologie, die von der Pharmaindustrie in Deutschland verwendet wird. |
-| Pharmakovigilanz | Pharmakokinetik |                            |
-| Codablock F | codablockf | Symbole nach AIM Europe &quot;Uniform Symbology Specification Codablock F&quot;, 1995. |
-| Logmars | logmars | Der vom US-Verteidigungsministerium verwendete Standard LOGMARS (Logistics Applications of Automated Marking and Reading Symbols). |
-| Aztec Runes | aztec-runes | Aztec Runes-Strichcode-Symbole nach ISO/IEC 24778:2008 Anhang A. |
-| Aztec Code | aztec-code | Aztec Code Strichcode-Symbole gemäß ISO/IEC 24778:2008. |                            |
-| DataMatrix | data-matrix | Datenmatrix ECC 200 Strichcode-Symbologien nach ISO/IEC 16022:2006. |
-| Code 1 | code-one |                            |
+| QR-Code | qrcode | Die QR-Code-Strichcode-Symbologie gemäß ISO/IEC 18004:2015. |
+| Code 128 | code128 | Der Code 128 Barcode Symbologie gemäß ISO/IEC 15417:2007. |
+| Code 32 | code32 | Code 32, auch bekannt als italienischer Pharmakode. |
+| Code 49 | code49 | Code 49 gemäß ANSI/AIM-BC6-2000. |
+| Code 11 | Code11 |                            |
+| Code 93 | Code93 |                            |
+| Code16k | Code16K |                            |
+| PDF417 | PDF417 | Die Strichcode-Symbologien PDF417/MicroPDF417 nach ISO/IEC 15438:2006 und ISO/IEC 24728:2006. |
+| Code 3 von 9 | code39 | Der Code 3 der 9-Strichcode-Symbologie nach ISO/IEC 16388:2007. |
+| MSI Plessey | Einfaches Set |                            |
+| Kanalcode | channelCode | Kanalcode nach ANSI/AIM BC12-1998. |
+| Codabar | Codabar | Codabar Barcode Symbologie nach BS EN 798:1996. |
+| EAN-8 | EAN-8 | EAN-Barcode-Symbologie gemäß BS EN 797:1996. |
+| EAN-13 | EAN-13 | EAN-Barcode-Symbologie gemäß BS EN 797:1996. |
+| UPC-A | UPC-A | UPC-Strichcode-Symbologie nach BS EN 797:1996. |
+| UPC-E | UPC-E | UPC-Strichcode-Symbologie nach BS EN 797:1996. |
+| EAN/UPC-Add-on | Add-on | EAN/UPC-Add-on-Barcode-Symbologie gemäß BS EN 797:1996. |
+| Telepen | telepen | Auch als Telepen-Alpha bekannt. |
+| GS1-Datenbank / -Datenbank 14 | Datenbank | GS1 DataBar nach ISO/IEC 24724:2011. |
+| GS1-Datenbank erweitert/Datenbank 14 erweitert | datenleistenerweitert | GS1 DataBar Expanded nach ISO/IEC 24724:2011. |
+| GS1 DataBar Limited | datenbankbegrenzt | GS1 DataBar Limited nach ISO/IEC 24724:2011. |
+| POSTNET (Postal Numeric Encoding Technique) | Postnetz | Die POSTNET-Barcode-Symbologie (Postal Numeric Encoding Technique) wird vom United States Postal Service verwendet. |
+| Pharmazentralnummer (PZN-8) | pzn8 | Eine Code 39-basierte Symbologie, die von der Pharmaindustrie in Deutschland verwendet wird. |
+| Pharmakode | Pharmakode |                            |
+| Codablock F | Codablock | Symbologie nach AIM Europe „Uniform Symbology Specification Codablock F“, 1995. |
+| Logmars | Logmars | Der vom US-Verteidigungsministerium verwendete LOGMARS-Standard (Logistics Applications of Automated Marking and Reading Symbols). |
+| Aztec Runes | Azteken-Runen | Aztec Runes Strichcode Symbologie nach ISO/IEC 24778:2008 Anhang A. |
+| Aztec Code | aztec-code | Aztec Code Strichcode Symbologie Nach ISO/IEC 24778:2008. |                            |
+| DataMatrix | data-matrix | Data Matrix ECC 200 Barcode Symbologie Nach ISO/IEC 16022:2006. |
+| Code 1 | Code-Eins |                            |

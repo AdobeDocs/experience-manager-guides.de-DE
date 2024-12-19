@@ -1,6 +1,6 @@
 ---
-title: Benutzerdefiniertes Bedienfeld im linken Bereich konfigurieren
-description: Erfahren Sie, wie Sie ein benutzerdefiniertes Bedienfeld im linken Bedienfeld konfigurieren
+title: Konfigurieren eines benutzerdefinierten Bereichs im linken Bereich
+description: Erfahren Sie, wie Sie einen benutzerdefinierten Bereich im linken Bereich konfigurieren
 exl-id: 5c25efc1-0976-4554-a186-2ffd5e62f500
 feature: Web Editor Configuration
 role: Admin
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Benutzerdefiniertes Bedienfeld im linken Bereich konfigurieren {#id224JI200Y6F}
+# Konfigurieren eines benutzerdefinierten Bereichs im linken Bereich {#id224JI200Y6F}
 
-Führen Sie die folgenden Schritte aus, um ein benutzerdefiniertes Bedienfeld im linken Bereich des Web-Editors hinzuzufügen:
+Führen Sie die folgenden Schritte aus, um einen benutzerdefinierten Bereich im linken Bereich des Web-Editors hinzuzufügen:
 
-1. Erstellen Sie einen Ordner *clientlib* und fügen Sie Ihre JavaScript- und CSS-Datei in diesen Ordner ein.
-1. Aktualisieren Sie die categories-Eigenschaft des Ordners *clientlib* , indem Sie ihm den Wert *apps.fmdita.xml\_editor.page\_overrides* zuweisen.
+1. Erstellen Sie *Ordner &quot;*&quot; und fügen Sie Ihre JavaScript- und CSS-Datei in diesen Ordner ein.
+1. Aktualisieren Sie die Kategorieneigenschaft des Ordners *clientlib* durch Zuweisen des Werts &quot;*.fmdita.xml\_editor.page\_overrides*.
 
 Beispielcode zum Konfigurieren eines benutzerdefinierten Bedienfelds:
 
@@ -58,4 +58,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

@@ -1,6 +1,6 @@
 ---
-title: Migration von Nicht-UUID-zu-UUID-Inhalten
-description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte in UUID-Inhalte migrieren.
+title: Migration von Nicht-UUID zu UUID-Inhalt
+description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte zu UUID-Inhalten migrieren
 feature: Migration
 role: Admin
 level: Experienced
@@ -12,213 +12,213 @@ ht-degree: 2%
 
 ---
 
-# Migration von Nicht-UUID-zu-UUID-Inhalten {#id226TI0U20XA}
+# Migration von Nicht-UUID zu UUID-Inhalt {#id226TI0U20XA}
 
 
-Führen Sie diese Schritte aus, um Ihren Inhalt von Nicht-UUID-Version 4.3.1 auf UUID-Version 4.3.2 zu migrieren.
+Führen Sie diese Schritte aus, um Ihren Inhalt von der Nicht-UUID-Version 4.3.1 zur UUID-Version 4.3.2 zu migrieren.
 
 >[!IMPORTANT]
 >
-> * Bevor Sie den Migrationsprozess starten, stellen Sie Folgendes sicher:
+> * Bevor Sie mit dem Migrationsprozess beginnen, stellen Sie Folgendes sicher:
 >
 >   1. Alle aktiven Rezensionen wurden geschlossen.
->   1. Alle Übersetzungsaufgaben wurden geschlossen.
-> * Bevor Sie Inhalte auf den UUID-Server migrieren, stellen Sie sicher, dass auf dem Server ein Nicht-UUID-Server mit einer kompatiblen AEM Guides-Version installiert ist.
-> * Wenn Sie eine Version vor 4.3.1 verwenden, aktualisieren Sie auf Version 4.3.1. Befolgen Sie die [Upgrade-Anweisungen](./upgrade-xml-documentation.md) speziell für die lizenzierte Version Ihres Produkts.
-> * Derzeit werden Versionen, die älter als 4.3.1 sind, für die Migration nicht unterstützt.
+>   1. Alle Übersetzungsaufgaben geschlossen.
+> * Stellen Sie vor der Migration von Inhalten zum UUID-Server sicher, dass Sie einen Nicht-UUID-Server haben, auf dem eine kompatible AEM Guides-Version installiert ist.
+> * Wenn Sie eine Version vor 4.3.1 verwenden, aktualisieren Sie auf Version 4.3.1. Befolgen Sie die [Upgrade-](./upgrade-xml-documentation.md)), die für die lizenzierte Version Ihres Produkts gelten.
+> * Derzeit werden neuere Versionen als 4.3.1 für die Migration nicht unterstützt.
 
 
-## Paketinstallation
+## Package-Installation
 
-Laden Sie die erforderlichen Pakete von Adobe Software Distribution Portal herunter, je nach Version:
+Laden Sie basierend auf Ihrer Version die erforderlichen Pakete vom Adobe Software Distribution-Portal herunter:
 
 
-1. **Vormigration**: [com.adobe.guides.pre-uuid-migration-1.2.27.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip)
-1. **UUID-Version 4.3.2**: [com.adobe.fmdita-6.5-uuid-4.3.2.1977.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)
+1. **Vorab-Migration**: [com.adobe.guides.pre-uuid-migration-1.2.27.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip)
+1. **UUID-Version 4.3.2 herunterladen**: [com.adobe.fmdita-6.5-uuid-4.3.2.1977.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)
 1. **Migration**: [com.adobe.guides.uuid-upgrade-1.2.110.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.uuid-upgrade-1.2.110.zip)
 
-## Vorab-Prüfungen
+## Prüfungen vor der Migration
 
 Führen Sie die folgenden Prüfungen für Nicht-UUID-Version 4.3.1 durch:
 
-1. Installieren Sie das Vormigrationspaket [com.adobe.guides.pre-uuid-migration-1.2.27.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip) über Version 4.3.1.
+1. Installieren Sie das Paket vor der Migration [com.adobe.guides.pre-uuid-migration-1.2.27.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip) über Version 4.3.1.
 
    >[!NOTE]
    >
-   >* Sie benötigen Administratorrechte, um die Migration ausführen zu können.
+   >* Sie benötigen Administratorrechte, um die Migration auszuführen.
    >* Es wird empfohlen, die Dateien mit Fehlern zu beheben, bevor Sie mit der Migration fortfahren.
 
-1. Wenn mehr als 100.000 DITA-Dateien im System vorhanden sind, aktualisieren Sie die Konfigurationen für die Abfragebegrenzung, damit das Skript funktioniert:
+1. Wenn das System mehr als 100.000 DITA-Dateien enthält, aktualisieren Sie die Konfigurationen der Abfragegrenze, damit das Skript funktioniert:
 
    * Navigieren Sie zu `/system/console/configMgr and increase both the configs to more than number of assets - queryLimitInMemory` und `queryLimitReads under org.apache.jackrabbit.oak.query.QueryEngineSettingsService`
 
-1. Starten Sie `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
-1. Wählen Sie im linken Bereich die Option **Kompatibilitätsbewertung** aus und durchsuchen Sie den Ordnerpfad für alle Assets.`/content/dam`
-1. Überprüfen Sie die Kompatibilität, um die folgenden Informationen aufzulisten:
+1. `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` starten.
+1. Wählen Sie **Kompatibilitätsbewertung** aus dem linken Bedienfeld aus und durchsuchen Sie den `/content/dam` Ordnerpfad für alle Assets.
+1. Überprüfen Sie die Kompatibilität , um die folgenden Informationen aufzulisten:
    * Gesamtzahl der Dateien
    * Geschätzte Migrationszeit
-   * Fehlerfreie Dateien
+   * Anzahl fehlerhafter Dateien
    * Dateien mit GUID-Dateinamen
 
-   Registerkarte ![Kompatibilitätsbewertung bei Migration](assets/migration-compatibility-assessment.png)
+   ![Registerkarte „Kompatibilitätsbewertung“ in der Migration](assets/migration-compatibility-assessment.png)
 
 
 1. Wenn der Fehler auftritt, analysieren Sie die Protokolle und beheben Sie diese Fehler. Sie können die Kompatibilitätsmatrix erneut ausführen, nachdem Sie die Fehler behoben haben.
 
-1. Wählen Sie im linken Bereich **Überprüfungen konfigurieren** aus. Wählen Sie dann **map** und **preset** der Zuordnung aus, um sie zu konfigurieren. In der aktuellen Liste der Ausgabeprüfungen werden die vor der Migration vorhandenen Ausgabedateien angezeigt. Sie können anhand der Ausgabedateien validiert werden, die nach der Migration generiert wurden.
+1. Wählen **im linken Bedienfeld** Validierungen konfigurieren“ aus. Wählen Sie dann **Zuordnung auswählen** und **Voreinstellung auswählen** der Zuordnung aus, um sie zu konfigurieren. In der Liste Aktuelle Ausgabe-Validierung werden die vor der Migration vorhandenen Ausgabedateien angezeigt. Sie können auch anhand der Ausgabedateien validiert werden, die nach der Migration generiert werden.
 
-   Durch die Auswahl mehrerer und großer DITA-Maps können Sie überprüfen, ob der gesamte Inhalt ohne Probleme erfolgreich migriert wurde. Durch die Auswahl von Vorgaben mit Grundlinien wird außerdem sichergestellt, dass Grundlinien und Versionen erfolgreich migriert werden.
+   Durch die Auswahl mehrerer und großer DITA-Zuordnungen können Sie überprüfen, ob der gesamte Inhalt erfolgreich und ohne Probleme migriert wurde. Durch die Auswahl von Vorgaben mit Baselines wird außerdem sichergestellt, dass Baselines und Versionen erfolgreich migriert werden.
 
-   ![Registerkarte &quot;Überprüfungen konfigurieren&quot;bei der Migration](assets/migration-configure-validation.png)
+   ![Registerkarte „Validierungen“ in der Migration konfigurieren](assets/migration-configure-validation.png)
 
 
-1. (Optional) Führen Sie eine Versionsbereinigung für den Inhalt durch, um unnötige Versionen zu entfernen und den Migrationsprozess zu beschleunigen. Um die Versionsbereinigung durchzuführen, wählen Sie im Migrationsbildschirm die Option **Versionsbereinigung** aus und wechseln Sie mithilfe der URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` zur Benutzeroberfläche.
+1. (Optional) Führen Sie eine Versionsbereinigung für den Inhalt durch, um unnötige Versionen zu entfernen und den Migrationsprozess zu beschleunigen. Um eine Versionsbereinigung durchzuführen, wählen Sie im Migrationsbildschirm die Option **Versionsbereinigung** aus und navigieren Sie über die URL-`http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` zur -Benutzeroberfläche.
    >[!NOTE]
    >
-   >Dieses Dienstprogramm entfernt keine Versionen, die in Grundlinien- oder Rezensionen verwendet werden, oder hat Beschriftungen.
+   >Dieses Dienstprogramm entfernt keine Versionen, die in Baselines oder Reviews verwendet werden, und hat keine Kennzeichnungen.
 
-Weitere Informationen finden Sie unter [Löschen älterer Versionen](../install-guide/version-management.md#purge-older-versions-of-dita-files).
+Weitere Informationen finden Sie unter [Ältere Versionen ](../install-guide/version-management.md#purge-older-versions-of-dita-files).
 
 
-## Migrationsvoraussetzungen
+## Voraussetzungen für die Migration
 
 1. Führen Sie die UUID-Migration nur auf einer Autoreninstanz aus.
 1. Stellen Sie sicher, dass die folgende Infrastruktur bereit ist:
-   * Die Autoreninstanz wird in Bezug auf CPU und Speicher aktualisiert, um eine schnellere Verarbeitung und zusätzlichen Speicher zu unterstützen, der für Massenaktivitäten benötigt wird. Wenn die aktuell zugewiesene CPU und der Arbeitsspeicher beispielsweise 8 vCPU und 24 GB Heap sind, verwenden Sie für diese Aktivität die doppelte Größe.
-   * Der gesamte Festplattenspeicher und der temporäre Speicherplatz `(crx-quickstart directory)` sollten einen Puffer von 10-mal so viel haben, wie bereits belegt ist. Nachdem Sie die Migration abgeschlossen haben, können Sie den Großteil des Festplattenspeichers durch Ausführen der Komprimierung zurückgewinnen.
-   * Führen Sie **Offline-Tar-Verdichtung** aus, bevor Sie diese Aktivität starten.
-   * Stellen Sie sicher, dass während des Fensters dieser Migration keine Indizierung oder Systemwartung geplant ist.
+   * Die Autoreninstanz wird in Bezug auf CPU und Speicher vergrößert, um eine schnellere Verarbeitung und zusätzlichen Speicher zu unterstützen, der für Massenaktivitäten benötigt wird. Wenn beispielsweise der aktuell zugewiesene CPU und Speicher 8 vCPU und 24 GB Heap sind, verdoppeln Sie die Größe für diese Aktivität.
+   * Der gesamte Speicherplatz und der temporäre Speicherplatz `(crx-quickstart directory)` sollte einen Puffer haben, der 10-mal höher ist als der bereits belegte. Nach Abschluss der Migration können Sie den Großteil des Festplattenspeichers zurückgewinnen, indem Sie die Komprimierung ausführen.
+   * Führen Sie **Offline-Tar-Komprimierung** aus, bevor Sie diese Aktivität starten.
+   * Stellen Sie sicher, dass während des Zeitfensters dieser Migration keine Indizierung oder Systemwartung geplant ist.
 
-1. Installieren Sie die UUID-Version der unterstützten Version über die Nicht-UUID-Version. Wenn Sie z. B. den Nicht-UUID-Build 4.3.1 verwenden, müssen Sie die UUID-Version 4.3.2 [com.adobe.fmdita-6.5-uid-4.3.2.1977.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)) installieren und die Migration ausführen.
+1. Installieren Sie die UUID-Version der unterstützten Version gegenüber der Nicht-UUID-Version. Wenn Sie z. B. den Nicht-UUID-Build 4.3.1 verwenden, müssen Sie die UUID-Version 4.3.2 [com.adobe.fmdita-6.5-uuid-4.3.2.1977.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)) installieren und die Migration ausführen.
 
 
-1. Installieren Sie das uuid migration upgrade package [com.adobe.guides.uuid-upgrade-1.2.110.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.uuid-upgrade-1.2.110.zip).
+1. Installieren Sie das UUID-Migrations-Upgrade-Paket [com.adobe.guides.uuid-upgrade-1.2.110.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.uuid-upgrade-1.2.110.zip).
 1. Deaktivieren Sie Starter für die folgenden Workflows mithilfe der URL: `http://<server-name>/libs/cq/workflow/content/console.html`.
 
    * Workflow „DAM-Update-Asset“
-   * DAM-Metadaten-Writeback-Workflow
+   * Workflow „DAM-Metadaten-Writeback“
 
    >[!NOTE]
    >
-   >Idealerweise sollten alle Workflow-Starter, die auf einem beliebigen Pfad innerhalb von `content/dam` ausgeführt werden, deaktiviert werden.
+   >Idealerweise sollten alle Workflow-Starter deaktiviert werden, die unter einem beliebigen Pfad in `content/dam` ausgeführt werden.
 
 1. Aktualisieren Sie die folgenden Konfigurationen gemäß den vorgeschlagenen Änderungen:
 
    | Konfiguration | Eigenschaft | Wert |
    |---|---|---|
-   | `com.adobe.fmdita.config.ConfigManager` | Aktivieren von Workflow-Startern für Nachbearbeitung | Deaktivieren |
-   | `com.adobe.fmdita.config.ConfigManager` | uuid. regex | `^GUID-(?<id>.*)` |
-   | `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation` | Aktivieren der Versionspostverarbeitung | Deaktivieren |
+   | `com.adobe.fmdita.config.ConfigManager` | Aktivieren von Workflow-Startern nach der Verarbeitung | Deaktivieren |
+   | `com.adobe.fmdita.config.ConfigManager` | UUID. Regex | `^GUID-(?<id>.*)` |
+   | `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation` | Versionsnachbearbeitung aktivieren | Deaktivieren |
    | Day CQ Tagging Service | Validierung aktivieren (validation.enabled) | Deaktivieren |
 
-1. Fügen Sie eine separate Protokollfunktion für hinzu:
+1. Fügen Sie eine separate Protokollierung für hinzu:
    * `com.adobe.fmdita.uuid`
    * `com.adobe.guides.uuid`.
 
 
-1. (Wenn nicht bereits geschehen) Wenn mehr als 100.000 DITA-Dateien im System vorhanden sind, aktualisieren Sie die `queryLimitReads` unter `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` auf einen größeren Wert (ein beliebiger Wert, der größer ist als die Anzahl der vorhandenen Assets, z. B. 200.000).
+1. (Wenn dies nicht bereits früher geschehen ist) Wenn das System mehr als 100.000 DITA-Dateien enthält, aktualisieren Sie die `queryLimitReads` unter `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` auf einen größeren Wert (einen beliebigen Wert, der größer ist als die Anzahl der vorhandenen Assets, z. B. 200.000).
 
-   | PID | Eigenschaftenschlüssel | Eigenschaftswert |
+   | PID | Eigenschaftsschlüssel | Eigenschaftswert |
    |---|---|---|
-   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Wert: 200000 <br> Standardwert: 10000 |
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Wert: 200000 <br> Standardwert: 100000 |
 
 ## Migration
 
-1. Starten Sie `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` starten.
 
-   ![Registerkarte &quot;Systemaktualisierung&quot;bei der Migration](assets/migration-system-upgrade.png)
+   ![Registerkarte „System-Upgrade“ bei der Migration](assets/migration-system-upgrade.png)
    >[!NOTE]
    >
-   > Wenn Sie &quot;DITA-Asset-Sicherung aktivieren&quot;auswählen, werden die temporären Backup-Dateien unter &quot;`/content/uuid-upgrade`&quot;gespeichert und die DITA-Dateisicherungen werden gelöscht, wenn die Migration einer Datei abgeschlossen ist.
+   > Wenn Sie „DITA-Asset-Sicherung aktivieren“ wählen, werden die temporären Sicherungsdateien unter `/content/uuid-upgrade` gespeichert und die DITA-Dateisicherungen werden nach Abschluss der Migration einer Datei gelöscht.
 
 
-1. Wählen Sie im linken Bereich die Option **Systemaktualisierung** aus, um die Migration auszuführen. Es wird empfohlen, alle Daten gleichzeitig zu migrieren, da das System die Stapelverarbeitung intern optimal handhabt. Nur Dateien, die keine DITA-Assets sind und in keinen DITA-Assets verwendet werden, können zur Migration übersprungen werden.
+1. Wählen Sie **linken Bedienfeld** System-Upgrade“ aus, um die Migration auszuführen. Es wird empfohlen, alle Daten gleichzeitig zu migrieren, da das System die Batch-Verarbeitung intern optimal handhabt. Nur Dateien, die keine DITA-Assets sind und nicht in DITA-Assets verwendet werden, können für die Migration übersprungen werden.
 
-1. (Optional) Wählen Sie die Ordner aus, für die Sie die Migration überspringen möchten. Verwenden Sie diese Option, um diese Ordner später zu migrieren oder die Migration zu überspringen. Stellen Sie sicher, dass diese Ordner keine DITA-Assets aufweisen und nicht von DITA-Assets referenziert werden (und zukünftig nicht von referenziert werden). Zum Beispiel: `content/dam/projects`.
+1. (Optional) Wählen Sie die Ordner aus, für die Sie die Migration überspringen möchten. Verwenden Sie diese Option, um diese Ordner später zu migrieren, oder überspringen Sie die Migration. Stellen Sie sicher, dass diese Ordner keine DITA-Assets haben und nicht von DITA-Assets referenziert werden (und in Zukunft auch nicht von DITA-Assets referenziert werden). Zum Beispiel: `content/dam/projects`.
 
-1. Wählen Sie *Dia Asset-Sicherung aktivieren* aus, um vor der Migration eine Asset-Sicherung zu erstellen. Diese Sicherung wird für das Rollback verwendet, falls bei der Migration einer Datei ein Fehler auftritt. Die Sicherung wird gelöscht, wenn die Migration erfolgreich war. Dies verlangsamt jedoch den Migrationsprozess.
+1. Wählen Sie *DITA-Asset-Sicherung aktivieren* aus, um vor der Migration ein Asset-Backup zu erstellen. Diese Sicherung wird für das Rollback verwendet, falls beim Migrieren einer Datei ein Fehler auftritt. Die Sicherung wird gelöscht, wenn die Migration erfolgreich war. Dies verlangsamt jedoch den Migrationsprozess.
 
 1. Starten Sie die Migration.
    >[!NOTE]
    >
-   > Laden Sie die vollständigen Protokolle herunter und beobachten Sie, ob Fehler aufgetreten sind. Wenn ein Fehler oder eine Ausnahme gefunden wird *Fahren Sie nicht fort*, beheben Sie jedoch zuerst den Fehler. Häufige Fehler werden am Ende dieses Artikels aufgelistet.
+   > Laden Sie die vollständigen Protokolle herunter und überprüfen Sie, ob Fehler aufgetreten sind. Wenn ein Fehler oder eine Ausnahme gefunden wird *nicht fortfahren* beheben Sie aber zuerst den Fehler. Häufige Fehler werden am Ende dieses Artikels aufgeführt.
 
-1. Sobald die Migration abgeschlossen ist, steht der Bericht zum Herunterladen zur Verfügung und komplette Protokolle können ebenfalls heruntergeladen werden.
+1. Nach Abschluss der Migration kann der Bericht heruntergeladen werden, und es können auch ganze Protokolle heruntergeladen werden.
 
-1. Wählen Sie **Bericht herunterladen** , während die Migration ausgeführt wird, um zu überprüfen, ob alle Dateien im Ordner korrekt aktualisiert wurden und ob alle Funktionen nur für diesen Ordner funktionieren.
+1. Wählen Sie **Bericht herunterladen** während der Migration aus, um zu überprüfen, ob alle Dateien im Ordner korrekt aktualisiert wurden und ob alle Funktionen nur für diesen Ordner funktionieren.
 
 
    >[!NOTE]
    >
-   > Die Inhaltsmigration kann auf Ordnerebene, dem vollständigen Tag `/content/dam` oder im selben Ordner ausgeführt werden (Neuausführung der Migration).
+   > Die Inhaltsmigration kann auf Ordnerebene, auf der vollständigen `/content/dam` oder auf demselben Ordner ausgeführt werden (Migration erneut ausführen).
 
-   Außerdem muss sichergestellt werden, dass die Inhaltsmigration für alle Medien-Assets erfolgt, z. B. für Bilder und Grafiken, die Sie im DITA-Inhalt verwendet haben.
+   Außerdem müssen Sie sicherstellen, dass die Inhaltsmigration für alle Medien-Assets durchgeführt wird, z. B. für Bilder und Grafiken, die Sie im DITA-Inhalt verwendet haben.
 
-1. Nachdem alle Dateien migriert wurden, wählen Sie im linken Bereich die Option **Grundlinien-/Überprüfungsaktualisierung** aus, um die Grundlinien zu migrieren und auf Ordnerebene zu überprüfen.
+1. Nachdem alle Dateien migriert wurden, wählen Sie **Baseline/Review-Upgrade** im linken Bereich aus, um die Baselines zu migrieren und auf Ordnerebene zu überprüfen.
 
-![Registerkarte &quot;Grundlinie und Überprüfung&quot;in der Migration](assets/migration-baseline-review-upgrade.png)
+![Registerkarte „Baseline und Überprüfung“ bei der Migration](assets/migration-baseline-review-upgrade.png)
 
 >[!NOTE]
 >
->Wenn Sie das System neu starten oder die Migration abgebrochen wird, wird das Skript fortgesetzt, wenn Sie es mit denselben Parametern wie zuvor erneut ausführen. Wenden Sie sich an Ihr Customer Success Team, wenn Probleme aufgrund des Herunterfahrens auftreten.
+>Wenn Sie das System neu starten oder die Migration abgebrochen wird, wird das Skript fortgesetzt, wenn Sie es mit denselben Parametern wie zuvor erneut ausführen. Wenden Sie sich an Ihr Customer Success-Team, wenn beim Herunterfahren Probleme auftreten.
 
-## Berichte aus jedem Schritt analysieren
+## Berichte in jedem Schritt analysieren
 
-**Schritt: Systemaktualisierung**
+**Schritt: System-Upgrade**
 
-| Zusammenfassung nach Abschluss des Prozesses | Wie kann ich interpretieren? | Aktion |
+| Zusammenfassung nach Abschluss des Prozesses | Wie zu interpretieren? | Aktion |
 |---|---|---|
 | Gesamtzahl der Dateien: 345997 | Gesamtzahl der Dateien, die unter dem angegebenen Ordnersatz verarbeitet wurden. | nicht vorhanden |
-| Anzahl der erfolgreich aktualisierten Dateien: 344516 | Anzahl der erfolgreich in UUID migrierten Dateien. | nicht vorhanden |
-| Anzahl der fehlerhaften Dateien: 29 | In diesen Dateien sind Fehler aufgetreten und sollten mit denen im Vormigrationsschritt berichtet werden. | nicht vorhanden |
-| Anzahl der übersprungenen Dateien: 1452 | Einige Dateien im DAM-Repository verfügen möglicherweise über Teil-Assets, und diese Teil-Assets werden übersprungen, da sie nicht für die UUID-Migration infrage kommen. | nicht vorhanden |
-| Anzahl der Dateien, die nicht aktualisiert werden konnten: 0 | Wenn die Anzahl nicht 0 beträgt, müssen die Protokolle auf Probleme analysiert werden. | Überprüfen Sie die Ausnahme. Möglicherweise müssen Sie den Fehler beheben und die Migration erneut ausführen. |
-| Gesamtbesuchszeit: 2:40:06.157 |  |  |
+| Anzahl der erfolgreich aktualisierten Dateien: 344516 | Anzahl der erfolgreich zu UUID migrierten Dateien. | nicht vorhanden |
+| Anzahl der fehlerhaften Dateien: 29 | In diesen Dateien sind Fehler aufgetreten, die mit den im Vormigrationsschritt gemeldeten Fehlern übereinstimmen sollten. | nicht vorhanden |
+| Anzahl übersprungener Dateien: 1452 | Einige Dateien im DAM-Repository können Unter-Assets enthalten. Diese Unter-Assets werden übersprungen, da sie für die UUID-Migration nicht geeignet sind. | nicht vorhanden |
+| Anzahl der Dateien mit fehlgeschlagenem Upgrade: 0 | Wenn die Anzahl nicht 0 ist, müssen die Protokolle auf mögliche Probleme analysiert werden. | Überprüfen Sie die Ausnahme. Möglicherweise müssen Sie den Fehler beheben und die Migration erneut ausführen. |
+| Insgesamt benötigte Zeit: 2:40:06.157 |  |  |
 
-**Schritt: Upgrade der Grundlinien**
+**Schritt: Baselines-Upgrade**
 
-| Zusammenfassung nach Abschluss des Prozesses | Wie kann ich interpretieren? | Aktion |
+| Zusammenfassung nach Abschluss des Prozesses | Wie zu interpretieren? | Aktion |
 |---|---|---|
-| Gesamtzahl der Dateien: 4833 | Anzahl der DITA-Maps mit mindestens 1 Grundlinie. |
-| Anzahl der erfolgreich aktualisierten Dateien: 4705 | Anzahl der DITA-Maps, erfolgreich mit allen Grundlinien aktualisiert. |
-| Anzahl der fehlerhaften Dateien: 0 | Anzahl der DITA-Maps, deren Grundlinien nicht aktualisiert wurden. |
-| Anzahl der übersprungenen Dateien: 1647 | Anzahl der DITA-Maps ohne Grundlinie. |
-| Anzahl der Dateien, die nicht aktualisiert werden konnten: 128 | Die Anzahl der Grundlinien-Objekte, die nicht gültig waren (sie waren leer), wird im Bericht (Excel) aufgeführt. | Überprüfen Sie, ob andere Fehler als: `baselineObj not found on` vorliegen. |
+| Gesamtzahl der Dateien: 4833 | Anzahl der DITA-Zuordnungen mit mindestens 1 Baseline. |
+| Anzahl der erfolgreich aktualisierten Dateien: 4705 | Anzahl der DITA-Karten, die mit allen Baselines erfolgreich aktualisiert wurden. |
+| Anzahl der fehlerhaften Dateien: 0 | Anzahl der DITA-Zuordnungen, deren Baselines nicht aktualisiert wurden. |
+| Anzahl übersprungener Dateien: 1647 | Anzahl der DITA-Zuordnungen ohne Baseline. |
+| Anzahl der Dateien mit fehlgeschlagenem Upgrade: 128 | Die Anzahl der Baseline-Objekte, die nicht gültig waren (sie waren leer), wird im Bericht (Excel) aufgelistet. | Überprüfen, ob andere Fehler vorliegen als: `baselineObj not found on` |
 
 
-## Postmigration
+## Nach der Migration
 
-1. Nachdem die Migration abgeschlossen ist, wählen Sie im linken Bereich die Option **Systemaktualisierung überprüfen** aus und validieren Sie die Ausgabedateien vor und nach der Migration, um sicherzustellen, dass die Migration erfolgreich ist.
+1. Wählen Sie nach Abschluss der Migration im linken Bereich die **Systemaktualisierung validieren** und validieren Sie die Ausgabedateien vor und nach der Migration, um sicherzustellen, dass die Migration erfolgreich war.
 
-   ![Registerkarte &quot;Systemaktualisierung bei Migration überprüfen&quot;](assets/migration-validate-system-upgrade.png)
+   ![Registerkarte „Systemaktualisierung überprüfen“ bei der Migration](assets/migration-validate-system-upgrade.png)
 
-1. Nach der erfolgreichen Migration des Servers können Sie die folgenden Workflows und Konfigurationen (einschließlich aller anderen Workflows, die während der Migration ursprünglich deaktiviert wurden) aktivieren, um weiterhin auf dem Server zu arbeiten:
+1. Aktivieren Sie nach der erfolgreichen Migration des Servers die folgenden Workflows und Konfigurationen (einschließlich aller anderen Workflows, die ursprünglich während der Migration deaktiviert wurden), um weiterhin auf dem Server zu arbeiten:
 
    * Workflow „DAM-Update-Asset“
-   * DAM-Metadaten-Workflow
+   * Workflow „DAM-Metadaten“
 
    >[!NOTE]
    >
-   >Idealerweise alle Workflow-Starter, die auf einem beliebigen Pfad innerhalb von `content/dam` ausgeführt wurden, bevor die Migration aktiviert werden sollte.
+   >Idealerweise sollten alle Workflow-Starter aktiviert werden, die auf einem beliebigen Pfad innerhalb von `content/dam` vor der Migration ausgeführt wurden.
 
 1. Aktivieren Sie die folgenden Konfigurationen:
 
    | Konfiguration | Eigenschaft | Wert |
    |---|---|---|
-   | `com.adobe.fmdita.config.ConfigManager` | *Aktivieren der Workflow-Starter für die Nachbearbeitung* | Aktivieren |
-   | `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation` | *Aktivieren der Versionspostverarbeitung* | Aktivieren |
+   | `com.adobe.fmdita.config.ConfigManager` | *Workflow-Starter für Nachbearbeitung aktivieren* | Aktivieren |
+   | `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation` | *Versionsnachbearbeitung aktivieren* | Aktivieren |
    | Day CQ Tagging Service | *Validierung aktivieren (validation.enabled)* | Aktivieren |
 
-1. Assets-Eigenschaften zum Überprüfen der Post-Migration:
+1. Assets-Eigenschaften zur Überprüfung nach der Migration:
 
-   | Konfiguration | Eigenschaft | Vormigrationswert für Nicht-UUID | Wert nach der Migration auf UUID |
+   | Konfiguration | Eigenschaft | Wert vor der Migration auf Nicht-UUID | Wert nach der Migration auf UUID |
    |---|---|---|---|
-   | `com.adobe.fmdita.config.ConfigManager` | **Verwenden Sie den Titel für AEM Seitennamen der Site** | False (Standardwert) | True |
+   | `com.adobe.fmdita.config.ConfigManager` | **Titel für AEM-Site-Seitennamen verwenden** | False (Standardwert) | True |
 
    >[!NOTE]
    >
-   > Wenn vor der Migration die Eigenschaft **Titel für Seitennamen AEM Site verwenden** innerhalb von `com.adobe.fmdita.config.ConfigManager` auf *False* festgelegt ist, muss diese Eigenschaft nach der Migration aktualisiert werden.
+   > Wenn vor der Migration die Eigenschaft **Titel für AEM-Site-Seitennamen verwenden** innerhalb von `com.adobe.fmdita.config.ConfigManager` auf *false* festgelegt wird, muss diese Eigenschaft nach der Migration aktualisiert werden.
 
 
-1. Nach Abschluss der Validierung kann der Großteil des Festplattenspeichers durch Ausführen der Komprimierung zurückgewonnen werden (siehe `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. Nach Abschluss der Validierung kann der größte Teil des Speicherplatzes durch Ausführen der Komprimierung zurückgewonnen werden (siehe `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 

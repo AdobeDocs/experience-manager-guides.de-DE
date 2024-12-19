@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Einführung {#id1761C0007W7}
 
-Adobe Experience Manager Guides \(später als *AEM Guides*\) ist eine End-to-End-Unternehmenslösung, mit der Adobe Experience Manager \(AEM\) über Funktionen zur Komponenteninhaltsverwaltung \(CCMS\) für die DITA-basierte Inhaltserstellung und -bereitstellung verfügen kann. Kunden können über die AEM Guides-APIs programmgesteuert auf AEM Guides-Workflows zugreifen, um sie in andere Unternehmensanwendungen zu integrieren. Diese APIs können auch von Adobe-Partnern verwendet werden, um das Wertversprechen von AEM Guides zu verbessern, indem deren Funktionalität erweitert oder in andere Anwendungen oder Dienste integriert wird.
+Adobe Experience Manager Guides \(später als *AEM Guides*\ bezeichnet) ist eine End-to-End-Unternehmenslösung, mit der Adobe Experience Manager \(AEM\) über Funktionen der Komponenten-Content-Management-Lösung \(CCMS\) für die DITA-basierte Inhaltserstellung und -bereitstellung verfügen kann. Kunden können über die AEM Guides-APIs programmgesteuert auf AEM Guides-Workflows zugreifen, um sie in andere Unternehmensanwendungen zu integrieren. Diese APIs können auch von Adobe-Partnern verwendet werden, um das Wertversprechen von AEM Guides durch Erweitern der Funktionalität oder Integration mit anderen Anwendungen oder Services zu verbessern.
 
 ## AEM Guides-APIs
 
-Die AEM Guides-APIs sind in zwei Formaten verfügbar: HTTP und Java. Diese APIs stellen Anwendungsentwicklern wichtige Funktionen von AEM Guides zur Verfügung. Mit diesen Funktionen können Entwickler eigene Plug-ins erstellen, um die vordefinierten Workflows zu erweitern. Die APIs stehen zur Verwaltung von Ausgaben für DITA-Inhalte, zum Arbeiten mit DITA-Maps, zum Hinzufügen bedingter Attribute zu Profilen auf Ordnerebene und zum Konvertieren von HTML- und Words-Dokumenten in das DITA-Format zur Verfügung.
+Die AEM Guides-APIs sind in zwei Formaten verfügbar: HTTP und Java. Diese APIs stellen Anwendungsentwicklern Schlüsselfunktionen von AEM Guides zur Verfügung. Mithilfe dieser Funktionen können Entwickler ihre eigenen Plug-ins erstellen, um die vordefinierten Workflows zu erweitern. Die APIs sind für die Verwaltung von Ausgaben für DITA-Inhalte, die Arbeit mit DITA-Zuordnungen, das Hinzufügen bedingter Attribute zu Profilen auf Ordnerebene und das Konvertieren von HTML- und Word-Dokumenten in das DITA-Format verfügbar.
 
 ## Installieren der JARs auf Ihrem lokalen Apache Maven-Repository {#install-jar-local}
 
-Um die von AEM Guides bereitgestellten JAR-Dateien verwenden zu können, müssen Sie sie in Ihrem lokalen Apache Maven-Repository installieren. Führen Sie die folgenden Schritte aus, um die JARs auf Ihrem Maven-Repository zu installieren:
+Um die von AEM Guides bereitgestellten JAR-Dateien verwenden zu können, müssen Sie sie in Ihrem lokalen Apache Maven-Repository installieren. Führen Sie die folgenden Schritte aus, um die JARs in Ihrem Maven-Repository zu installieren:
 
 1. Extrahieren Sie den Inhalt der AEM Guides-Paketdatei \(.zip\) auf Ihrem lokalen System.
 
-2. Navigieren Sie in der Eingabeaufforderung zum folgenden Ordner im Pfad des extrahierten Inhalts:
+2. Wechseln Sie in der Eingabeaufforderung zum folgenden Ordner im Pfad des extrahierten Inhalts:
 
    ```
    \jcr_root\libs\fmdita\osgi-bundles\install
@@ -40,15 +40,15 @@ Um die von AEM Guides bereitgestellten JAR-Dateien verwenden zu können, müssen
 
    >[!NOTE]
    >
-   > Im obigen Befehl sollte X.x durch die tatsächliche Versionsnummer in den Dfile - und Dversion -Parametern ersetzt werden.
+   > Im obigen Befehl sollte X.x durch die tatsächliche Versionsnummer in den Parametern dfile und dversion ersetzt werden.
 
-4. \(*Optional*\) Installieren Sie die Abhängigkeit im Repository Ihres lokalen Maven-Projekts. Sie können dies erreichen, indem Sie einen Ordner in Ihrem Maven-Projekt erstellen und dann den im vorherigen Schritt angegebenen Befehl `mvn install` mit dem folgenden zusätzlichen Parameter ausführen:
+4. \(*Optional*\) Installieren Sie die Abhängigkeit im Repository Ihres lokalen Maven-Projekts. Sie können dies erreichen, indem Sie einen Ordner in Ihrem Maven-Projekt erstellen und dann den im vorherigen Schritt angegebenen `mvn install`-Befehl mit dem folgenden zusätzlichen Parameter ausführen:
 
    ```
    -DlocalRepositoryPath=<path_to_project_repository>
    ```
 
-   Um anschließend den lokalen Repository-Ordner des Projekts für den Maven-Build-Prozess verfügbar zu machen, fügen Sie ein `repository` -Element in die übergeordnete pom.xml-Datei hinzu, wie unten dargestellt:
+   Um anschließend den lokalen Repository-Ordner des Projekts für den Maven-Build-Prozess verfügbar zu machen, fügen Sie der übergeordneten pom.xml-Datei ein `repository`-Element hinzu, wie unten dargestellt:
 
    ```XML
    <repositories>
@@ -62,19 +62,19 @@ Um die von AEM Guides bereitgestellten JAR-Dateien verwenden zu können, müssen
 
 Durch diesen Prozess werden die API-JARs im lokalen Maven-Repository installiert.
 
-## Verwenden der Dienst-API-JAR-Datei in einem Maven-Projekt
+## Verwenden der Service-API-JAR-Datei in einem Maven-Projekt
 
-Führen Sie nach der Installation der API-JARs in Ihrem lokalen Maven-Repository die folgenden Schritte aus, um die JAR-Datei in Ihren Projekten zu verwenden:
+Nachdem Sie die API-JARs in Ihrem lokalen Maven-Repository installiert haben, führen Sie die folgenden Schritte aus, um die JAR-Datei in Ihren Projekten zu verwenden:
 
-1. Fügen Sie die JAR-Datei zu Ihrer Codebasis hinzu und übertragen Sie sie in das Code-Basis-Repository unter einem Ordner, z. B. &quot;Abhängigkeiten&quot;. Beachten Sie, dass der Ordnername von Ihrer Code-Basis-Hierarchie abhängt.
+1. Fügen Sie die JAR-Datei zu Ihrer Code-Basis hinzu und übertragen Sie sie in das Code-Basis-Repository in einem Ordner, z. B. „dependencies“. Beachten Sie, dass der Ordnername von Ihrer Code-Basis-Hierarchie abhängt.
 
-2. Konfigurieren Sie die Projektdateien &quot;pom.xml&quot;wie folgt:
+2. Konfigurieren Sie die pom.xml-Dateien des Projekts wie folgt:
 
-   Datei &quot;pom.xml&quot;des übergeordneten Projekts:
+   Die Datei „pom.xml“ des übergeordneten Projekts:
 
    >[!IMPORTANT]
    >
-   > Im folgenden Codefragment sollte X.x durch die tatsächliche Versionsnummer und den Dateinamen der API-JAR-Datei ersetzt werden. Diese Informationen entsprechen den Angaben in Schritt 3 des [Installationsprozesses](#install-jar-local).
+   > Im folgenden Code-Snippet sollte X.x durch die tatsächliche Versionsnummer und den Dateinamen der API-JAR ersetzt werden. Diese Informationen entsprechen denen, die in Schritt 3 des [Installationsprozesses“ angegeben ](#install-jar-local).
 
    ```XML
    <plugin>
@@ -121,7 +121,7 @@ Führen Sie nach der Installation der API-JARs in Ihrem lokalen Maven-Repository
    </plugin>
    ```
 
-   Datei pom.xml des untergeordneten Moduls:
+   Datei „pom.xml“ des untergeordneten Moduls:
 
    ```XML
    <plugin>
@@ -167,12 +167,12 @@ Führen Sie nach der Installation der API-JARs in Ihrem lokalen Maven-Repository
    ```
 
 
-## Dienst-API-JAR aus öffentlichem Maven-Repository konfigurieren und verwenden
+## Konfigurieren und Verwenden der Service-API-JAR-Datei aus dem öffentlichen Maven-Repository
 
 Führen Sie die folgenden Schritte aus, um die Service-API-JARs aus dem öffentlichen Maven-Repository in Ihren Projekten zu konfigurieren und zu verwenden:
 
-1. Um die Dienst-API-JAR in einem Projekt zu verwenden, konfigurieren Sie das öffentliche AEM Guides-Maven-Repository in Ihrer pom.xml-Datei.
-2. Konfigurieren Sie das öffentliche Maven-Repository in der Maven-Datei settings.xml wie folgt:
+1. Um die Service-API-JAR in einem Projekt zu verwenden, konfigurieren Sie das öffentliche AEM Guides-Maven-Repository in Ihrer pom.xml-Datei.
+2. Konfigurieren Sie das öffentliche Maven-Repository in der Datei settings.xml von Maven wie folgt:
 
    ```XML
    <repository>
@@ -182,13 +182,13 @@ Führen Sie die folgenden Schritte aus, um die Service-API-JARs aus dem öffentl
    </repository>
    ```
 
-3. Nachdem das Repository eingerichtet wurde, fügen Sie die JAR-Datei für die Dienst-API als Projektabhängigkeit in der Datei &quot;pom.xml&quot;des Projekts hinzu.
+3. Fügen Sie nach dem Einrichten des Repositorys die Service-API-JAR-Datei als Projektabhängigkeit in der Datei „pom.xml“ des Projekts hinzu.
 
    >[!NOTE]
    >
    > Verwenden Sie dieselbe Version der API-JAR-Datei wie das AEM Guides-Paket, das Sie auf dem Server installiert haben.
 
-4. Konfigurieren Sie die Maven-Abhängigkeit wie unten dargestellt:
+4. Konfigurieren Sie die Maven-Abhängigkeit wie unten gezeigt:
 
    ```XML
    <dependency>
@@ -199,17 +199,17 @@ Führen Sie die folgenden Schritte aus, um die Service-API-JARs aus dem öffentl
    ```
 
 
-Sobald die Service-API-JAR-Datei als Projektabhängigkeit in der Datei &quot;pom.xml&quot;des Projekts hinzugefügt wurde, können Sie AEM Guides-Java-APIs in Ihrem Projekt erstellen und verwenden.
+Sobald die Dienst-API-JAR-Datei als Projektabhängigkeit in der Datei „pom.xml“ des Projekts hinzugefügt wurde, können Sie AEM Guides Java-APIs in Ihrem Projekt erstellen und verwenden.
 
-## Verwenden von API JAR aus dem Maven Central Repository für AEM Guides as a Cloud Service
+## Verwenden der API JAR aus dem Maven Central Repository für AEM Guides as a Cloud Service
 
-Für AEM Guides as a Cloud Service wurde die API-JAR in Maven Central bereitgestellt. Sie können die API-JAR-Datei ohne Einrichtung verwenden.
+Für AEM Guides as a Cloud Service wurde die API-JAR-Datei in Maven Central bereitgestellt. Sie können die API-JAR-Datei ohne Setup verwenden.
 
 >[!NOTE]
 >
 > Die Namenskonvention der API-JAR-Datei wurde gemäß der Namenskonvention für Cloud-Add-ons aktualisiert.
 
-Um die API-JAR-Datei zu verwenden, müssen Sie die Abhängigkeit zur pom.xml Ihres Projekts hinzufügen, wie unten dargestellt:
+Um die API-JAR-Datei zu verwenden, müssen Sie der pom.xml Ihres Projekts die Abhängigkeit hinzufügen, wie unten dargestellt:
 
 ```XML
 <dependency>
@@ -221,11 +221,11 @@ Um die API-JAR-Datei zu verwenden, müssen Sie die Abhängigkeit zur pom.xml Ihr
 
 >[!NOTE]
 >
-> Da die Pakete innerhalb der API-JAR immer noch dieselben sind, ist keine Codeänderung erforderlich, um diese API-JAR in den vorhandenen Cloud-Projekten zu verwenden.
+> Da die Pakete in der API-JAR weiterhin identisch sind, ist keine Code-Änderung erforderlich, um diese API-JAR in den vorhandenen Cloud-Projekten zu verwenden.
 
 ### Java-basierte APIs
 
-Sie können in Experience Manager Guides verfügbare Java-basierte APIs verwenden, um benutzerdefinierte Plug-ins zu erstellen und native Workflows zu erweitern. Die aktuelle und detaillierte Dokumentation zur Verwendung der Java-basierten API finden Sie unter [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) .
+Sie können die in Experience Manager Guides verfügbaren Java-basierten APIs verwenden, um benutzerdefinierte Plug-ins zu erstellen und vordefinierte Workflows zu erweitern. In [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) finden Sie die neueste und detaillierte Dokumentation zur Verwendung der Java-basierten API.
 
 
 
@@ -234,6 +234,6 @@ Sie können in Experience Manager Guides verfügbare Java-basierte APIs verwende
 Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guides, die auf der Seite [Lernen und Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) verfügbar sind:
 
 - Benutzerhandbuch
-- Handbuch zur Installation und Konfiguration
+- Installations- und Konfigurationshandbuch
 - Schnellstartanleitung
 - [Hilfe-Archivierungsseite](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(Zugriff auf die ältere Versionsdokumentation\)

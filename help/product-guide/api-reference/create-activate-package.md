@@ -1,6 +1,6 @@
 ---
 title: REST-API zum Erstellen und Aktivieren von Paketen
-description: Erfahren Sie mehr über die REST-API zum Erstellen und Aktivieren von Paketen
+description: Informationen zur REST-API zum Erstellen und Aktivieren von Paketen
 exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Mit der folgenden REST-API können Sie CRX-Pakete erstellen und aktivieren.
 
-## Package erstellen und aktivieren
+## Paket erstellen und aktivieren
 
-Eine POST-Methode, die das CRX-Package erstellt und aktiviert.
+Eine Paketmethode, die ein CRX-POST erstellt und aktiviert.
 
-**Anforderungs-URL**:
+**Anfrage-URL**:
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/activate
 
 **Parameter**:
-Die Anfrage-Abfrage besteht aus der JSON-Regelzeichenfolge. Der Inhaltstyp der POST-Anforderung muss auf `application/json; charset=UTF-8` gesetzt sein.
+Die Anfrageabfrage besteht aus der JSON-Regelzeichenfolge. Der Content-Typ der POST-Anfrage muss auf `application/json; charset=UTF-8` festgelegt werden.
 
 **Beispiel**:
 Das folgende Beispiel zeigt den API-Aufruf mit dem curl-Befehl:
@@ -42,18 +42,18 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 `preview` oder `publish` für Cloud Service und `publish` für On-Premise-Software
 
-- Wenn zum Cloud Service der Parameter einen ungültigen Wert enthält, schlägt die Paketaktivierung fehl.
+- Wenn der -Parameter einen ungültigen Wert enthält, schlägt die Paketaktivierung bei einem Cloud Service fehl.
 
-- Wenn der Parameter für On-Premise-Software einen ungültigen Wert enthält, wird der Fehler protokolliert und die Veröffentlichung erfolgt mit dem Standardwert `publish`.
+- Wenn bei On-Premise-Software der Parameter einen ungültigen Wert enthält, wird der Fehler protokolliert und die Veröffentlichung erfolgt mit dem Standardwert `publish`.
 
-Wenn Sie den optionalen Parameter &quot;`activationTarget`&quot; nicht definieren, wird sowohl für Cloud Service- als auch für On-Premise-Software der standardmäßige Veröffentlichungsagent verwendet.
-
-
-
-Das folgende Beispiel zeigt den API-Aufruf mit dem Befehl curl mit dem optionalen Parameter :
+Wenn Sie `activationTarget` keinen optionalen Parameter definieren, wird er über den Standardagenten für die Veröffentlichung sowohl für Cloud Service- als auch für On-Premise-Software aktiviert.
 
 
-    &quot;XML
+
+Das folgende Beispiel zeigt den API-Aufruf mit dem curl-Befehl mit optionalem Parameter:
+
+
+    „XML
     
-    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=`&lt;validActivationTargetValue>`
-    &quot;
+    curl -u &lt;*username*>:&lt;*password*> -H „Content-Type: application/json; charset=UTF-8“ -k -X POST -d &quot;{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=`&lt;validActivationTargetValue>`
+     

@@ -1,6 +1,6 @@
 ---
 title: Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren
-description: Erfahren Sie, wie Sie die Aufforderung zum Einchecken einer Datei beim Schließen konfigurieren
+description: Erfahren Sie, wie Sie eine Eingabeaufforderung konfigurieren, um beim Schließen eine Datei einzuchecken
 exl-id: d184c97f-8405-4bcd-963d-635f17584897
 feature: Web Editor Configuration
 role: Admin
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren {#id222HC040PE8}
 
-Wenn der Benutzer versucht, eine Datei zu schließen, die im Web Editor mit der Schaltfläche **Schließen** auf der Registerkarte der Datei geöffnet ist, oder mit der Option **Schließen** im Menü &quot;Optionen&quot;wird ein Dialogfeld angezeigt, wenn die Datei nicht gespeicherte Daten oder eine nicht gespeicherte Version aufweist. Der Benutzer wird aufgefordert, die Datei zu entsperren, wenn sie gesperrt ist.
+Wenn der/die Benutzende versucht, eine Datei zu schließen, die im Web-Editor mit der Schaltfläche **Schließen** auf der Registerkarte der Datei oder der Option **Schließen** im Menü Optionen geöffnet wurde, wird ein Dialogfeld angezeigt, wenn die Datei ungespeicherte Daten oder eine ungespeicherte Version enthält. Der Benutzer wird aufgefordert, die Datei zu entsperren, wenn sie gesperrt ist.
 
-Das Kontrollkästchen **Datei entsperren** ist standardmäßig nicht aktiviert und Sie müssen dies über configMgr aktivieren. Führen Sie die folgenden Schritte aus, um die Option standardmäßig im Web-Editor zu aktivieren:
+Das **„Datei entsperren** ist nicht standardmäßig aktiviert und muss im configMgr aktiviert werden. Führen Sie die folgenden Schritte aus, um die Option im Web-Editor standardmäßig zu aktivieren:
 
-1. Öffnen Sie die Seite Adobe Experience Manager Web Console Configuration .
+1. Öffnen Sie die Seite Konfiguration der Adobe Experience Manager-Web-Konsole .
 
    Die Standard-URL für den Zugriff auf die Konfigurationsseite lautet:
 
@@ -26,15 +26,15 @@ Das Kontrollkästchen **Datei entsperren** ist standardmäßig nicht aktiviert u
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach dem Bundle **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** und klicken Sie darauf.
+1. Suchen Sie nach dem Bundle **com.adobe.fmdita.xmeditor.config.XmlEditorConfig** und klicken Sie darauf.
 
-1. Wählen Sie die Option **Beim Schließen nach Einchecken fragen** aus.
+1. Wählen Sie die Option **Beim Schließen um Einchecken**.
 
 1. Klicken Sie auf **Speichern**.
 
 
-Wenn diese Konfiguration aktiviert ist, ist im Dialogfeld standardmäßig das Kontrollkästchen **Datei entsperren** aktiviert.
+Wenn diese Konfiguration aktiviert ist **ist das Kontrollkästchen** Datei entsperren“ im Dialogfeld standardmäßig aktiviert.
 
-Weitere Informationen finden Sie im Abschnitt *Szenarien schließen und speichern* im Handbuch Verwenden von Adobe Experience Manager Guides as a Cloud Service .
+Weitere Informationen finden Sie *Abschnitt „Schließen und Speichern von Dateien* im Handbuch Verwenden von Adobe Experience Manager Guides as a Cloud Service .
 
-**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

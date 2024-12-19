@@ -1,6 +1,6 @@
 ---
-title: DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen
-description: Erfahren Sie, wie Sie DITA-Themen oder -Zuordnungsdateien auf derselben Registerkarte öffnen
+title: Öffnen von DITA-Themen oder Zuordnungsdateien in derselben Registerkarte
+description: Erfahren Sie, wie Sie DITA-Themen oder -Zuordnungsdateien in derselben Registerkarte öffnen.
 exl-id: 466cbea4-c75a-488e-bde2-465cf2c184d5
 feature: Web Editor Configuration
 role: Admin
@@ -12,27 +12,27 @@ ht-degree: 0%
 
 ---
 
-# DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen {#id223HH0301J3}
+# Öffnen von DITA-Themen oder Zuordnungsdateien in derselben Registerkarte {#id223HH0301J3}
 
-Wenn Sie in einigen Workflows auf einen Link eines Themas oder einer Zuordnungsdatei klicken, wird dieser in einer neuen Registerkarte geöffnet. Dies kann dazu führen, dass in Ihrem Browser viele Tabs geöffnet werden, was sich auf Ihre Produktivität auswirken könnte. Sie können dieses Verhalten beim Öffnen einer Themen- oder Zuordnungsdatei in einer neuen Registerkarte ändern und das Öffnen auf der aktuellen Registerkarte erzwingen.
+Wenn Sie in einigen Workflows auf einen Link eines Themas oder einer Zuordnungsdatei klicken, wird diese auf einer neuen Registerkarte geöffnet. Dies kann dazu führen, dass in Ihrem Browser viele Registerkarten geöffnet werden, was sich auf Ihre Produktivität auswirken kann. Sie können dieses Verhalten ändern, wenn Sie ein Thema oder eine Zuordnungsdatei in einer neuen Registerkarte öffnen und das Öffnen in der aktuellen Registerkarte erzwingen.
 
-Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden \(Eigenschaft\)-Details ein, um ein Thema oder eine Zuordnungsdatei in einer neuen Registerkarte zu öffnen:
+Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#), um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden \(Eigenschaft\)-Details ein, um eine Themen- oder Zuordnungsdatei in einer neuen Registerkarte zu öffnen:
 
-| PID | Eigenschaftenschlüssel | Eigenschaftswert |
+| PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinsametab` | Boolesch \(true/false\). <br> **Standardwert**: `false` |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinsametab` | Boolescher Wert \(true/false\). <br> **Standardwert**: `false` |
 
-Diese Einstellung wirkt sich auf die folgenden Stellen aus, an denen Sie auf die Themen- oder Zuordnungsdateien zugreifen können:
+Diese Einstellung wirkt sich auf die folgenden Orte aus, von denen aus Sie auf das Thema oder die Zuordnungsdateien zugreifen können:
 
-- DITA-Thema erstellen \(am Ende des Workflows, wenn Sie auf die Schaltfläche **Thema öffnen** klicken\)
+- DITA-Thema erstellen \(am Ende des Workflows, wenn Sie auf die Schaltfläche **Thema öffnen** klicken)
 
-- DITA-Map erstellen \(am Ende des Workflows, wenn Sie auf die Schaltfläche **Map öffnen** klicken\)
+- DITA-Map erstellen \(Klicken Sie am Ende des Workflows auf die Schaltfläche **Zuordnung öffnen**\)
 
-- Registerkarte &quot;Themen&quot;in der DITA-Map-Konsole
+- Registerkarte „Themen“ in der DITA-Zuordnungskonsole
 
-- Registerkarte &quot;Grundlinien&quot;in der DITA-Map-Konsole
+- Registerkarte „Baselines“ in der DITA-Zuordnungskonsole
 
-- Registerkarte &quot;Berichte&quot;in der DITA-Map-Konsole
+- Registerkarte „Berichte“ in der DITA-Zuordnungskonsole
 
 
-**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

@@ -1,5 +1,5 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version September 2022
+title: Versionshinweise zu | Adobe Experience Manager Guides as a Cloud Service, Version September 2022
 description: September-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
@@ -13,128 +13,128 @@ ht-degree: 0%
 
 # September-Version von Adobe Experience Manager Guides as a Cloud Service
 
-## Aktualisierung auf die September-Version
+## Upgrade auf die Version September
 
-Führen Sie die folgenden Schritte aus, um das aktuelle Adobe Experience Manager Guides-as a Cloud Service-Setup (später als *AEM Guides as a Cloud Service* bezeichnet) zu aktualisieren:
-1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren Sie die Eigenschaft `<dox.version>` in der Datei `/dox/dox.installer/pom.xml` Ihres Cloud Service-Git-Codes auf 2022.9.178.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die September-Version von AEM Guides as a Cloud Service zu aktualisieren.
+Führen Sie ein Upgrade Ihres aktuellen Adobe Experience Manager Guides as a Cloud Service-Setups (später als *AEM Guides as a Cloud Service* bezeichnet) durch, indem Sie die folgenden Schritte ausführen:
+1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf 2022.9.178.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die Version September von AEM Guides as a Cloud Service zu aktualisieren.
 
-## Schritte zum Indexieren des vorhandenen Inhalts
+## Schritte zum Indizieren des vorhandenen Inhalts
 
-Führen Sie die folgenden Schritte für die Indizierung des vorhandenen Inhalts aus und verwenden Sie den neuen Suchen- und Ersetzen-Text auf Zuordnungsebene:
-* Führen Sie eine POST-Anfrage an den Server aus (mit der richtigen Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexin`.
-(Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert ||  Beispiel :   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene zu verwenden:
+* Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexin`.
+(Optional) Sie können bestimmte Pfade der Karten übergeben, um sie zu indizieren. Standardmäßig werden alle Karten indiziert ||  Beispiel :   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 * Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Beispiel: `http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
-* Nach Abschluss des Auftrags antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Maps können über die Serverprotokolle bestätigt werden.
+* Sobald der Vorgang abgeschlossen ist, antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Zuordnungen können aus den Serverprotokollen bestätigt werden.
 
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von der AEM Guides as a Cloud Service-Version vom September 2022 unterstützt werden.
+In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwendungen, die von AEM Guides as a Cloud Service Version September 2022 unterstützt werden.
 
 ### FrameMaker und FrameMaker Publishing Server
 
 | FMPS | FrameMaker |
 | --- | --- |
-| Nicht kompatibel | Aktualisierung 4 und höher für 2020 |
+| Nicht kompatibel | Aktualisierung 2020 4 und höher |
 | | |
 
-*Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
+*Die in AEM erstellten Grundlinien und Bedingungen werden ab 2020.2 in FMPS-Versionen unterstützt.
 
 ### Sauerstoffanschluss
 
-| AEM Guides as a Cloud-Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2022.9.0 | 2,7,13 | 2,7,13 | 2,3 | 2,3 |
+| 2022.9.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
 ## Neue Funktionen und Verbesserungen
 
-AEM Guides as a Cloud Service bietet viele Verbesserungen und neue Funktionen in der Septemberversion:
+AEM Guides as a Cloud Service bietet in der September-Version viele Verbesserungen und neue Funktionen:
 
 
-### Dynamische Grundlinie basierend auf Bezeichnungen erstellen
+### Erstellen einer dynamischen Baseline basierend auf Kennzeichnungen
 
-Jetzt bietet Ihnen AEM Guides die Funktion, dynamische Grundlinien basierend auf Bezeichnungen zu erstellen. Wenn Sie eine Grundlinie erstellen, eine Grundlinie herunterladen oder ein Übersetzungsprojekt mit einer Grundlinie erstellen, werden die Dateien dynamisch anhand der aktualisierten Beschriftungen ausgewählt. Diese Funktion ist praktisch, da Sie die Grundlinie bei der Aktualisierung der Beschriftungen nicht ändern müssen.
-Sie können die Momentaufnahme der Grundlinie auch als CSV exportieren.
+Jetzt bietet AEM Guides die Funktion, dynamische Baselines basierend auf Beschriftungen zu erstellen. Wenn Sie eine Baseline generieren, eine Baseline herunterladen oder ein Übersetzungsprojekt mithilfe einer Baseline erstellen, werden die Dateien basierend auf den aktualisierten Beschriftungen dynamisch ausgewählt. Diese Funktion ist praktisch, da Sie die Grundlinie beim Aktualisieren der Kennzeichnungen nicht ändern müssen.
+Sie können auch den Snapshot der Baseline als CSV exportieren.
 
-![Erstellen von Grundlinien](assets/dynamic-baseline.png)
+![Baselines erstellen](assets/dynamic-baseline.png)
 
-### Suchen und Ersetzen von Text auf Zuordnungsebene
+### Suchen und Ersetzen des Textes auf Kartenebene
 
-Sie können jetzt nach Dateien in einer Zuordnung suchen, die bestimmten Text enthalten. Der gesuchte Text wird in den Dateien hervorgehoben. Sie können das gesuchte Wort oder die gesuchte Wortgruppe auch durch ein anderes Wort oder eine andere Wortgruppe in den Dateien ersetzen.
-Wählen Sie das Symbol **Ersetzen** , um das aktuelle Vorkommen zu ersetzen, und das Symbol **Alle in Datei ersetzen** , um alle Vorkommen in der ausgewählten Datei zu ersetzen.
+Sie können jetzt in einer Zuordnung nach Dateien suchen, die bestimmten Text enthalten. Der gesuchte Text wird in den Dateien hervorgehoben. Sie können das gesuchte Wort oder die gesuchte Wortgruppe in den Dateien auch durch ein anderes Wort oder eine andere Wortgruppe ersetzen.
+Wählen Sie das Symbol **Ersetzen**, um das aktuelle Vorkommen zu ersetzen, und das Symbol **Alle in Datei ersetzen**, um alle Vorkommen in der ausgewählten Datei zu ersetzen.
 
-![Ersetzen in map](assets/map-find-replace.png) suchen
+![Ersetzen in Karte suchen](assets/map-find-replace.png)
 
-Standardmäßig sind die Optionen **Datei vor dem Ersetzen** und **Neue Version nach Ersetzen erstellen** ausgewählt. Daher wird eine Datei ausgecheckt, bevor Sie den Text ersetzen. Nachdem der Text ersetzt wurde, wird eine neue Version erstellt.
+Standardmäßig sind die Optionen **Datei vor dem Ersetzen auschecken** und **Neue Version nach dem Ersetzen erstellen** ausgewählt, sodass eine Datei ausgecheckt wird, bevor Sie den Text ersetzen, und eine neue Version erstellt wird, nachdem der Text ersetzt wurde.
 
-### Versionsunterschied für nicht synchronisierte Dateien im Übersetzungs-Dashboard anzeigen
+### Anzeigen von Versionsunterschieden bei Dateien mit unzureichender Synchronisierung im Übersetzungs-Dashboard
 
-Sie können jetzt festlegen, dass die **Nicht synchronisierten** Dateien basierend auf den zwischen den beiden Versionen eines Themas vorgenommenen Änderungen übersetzt werden.\
+Sie können jetzt die **Nicht synchron)-Dateien** den Änderungen übersetzen, die zwischen den beiden Versionen eines Themas vorgenommen wurden.\
 ![Übersetzungs-Dashboard](assets/translation-version-diff.png)
 Im Übersetzungs-Dashboard können Sie die Unterschiede zwischen der zuletzt übersetzten Version und der aktuellen Version der ausgewählten Datei leicht erkennen.
 
-![Dialogfeld für Versionsunterschiede](assets/version-diff.png)
+![Dialogfeld Versionsunterschied](assets/version-diff.png)
 
-Je nach den Unterschieden können Sie entscheiden, ob Sie ein Thema übersetzen möchten oder nicht.
+Basierend auf den Unterschieden können Sie entscheiden, ob Sie ein Thema übersetzen möchten oder nicht.
 
-### Für PDF-Vorgaben verfügbare Metadaten-Benutzeroberfläche
+### Metadaten-Benutzeroberfläche für das PDF von Voreinstellungen verfügbar
 
-Sie können die Metadaten aus der Ausgabevorgabe einer DITA-Zuordnung festlegen. Sie können die Metadaten Titel, Autor, Betreff und Suchbegriffe festlegen. Diese Metadaten werden den Metadaten in den Dateieigenschaften Ihrer Ausgabe-PDF zugeordnet.
-Diese Metadaten setzen die auf Buchebene definierten Metadaten außer Kraft. Sie können die Metadaten in jeder Ausgabevorgabe spezifisch definieren und an die Ausgabe-PDF übergeben.
+Sie können die Metadaten aus der Ausgabevorgabe einer DITA-Zuordnung festlegen. Sie können die Metadaten für Titel, Autor, Betreff und Keywords festlegen. Diese Metadaten werden den Metadaten in den Dateieigenschaften der Ausgabe-PDF zugeordnet.
+Diese Metadaten setzen die auf Buchebene definierten Metadaten außer Kraft. Sie können die Metadaten in jeder Ausgabevorgabe spezifisch definieren und an die Ausgabe-PDF weitergeben.
 
-![Metadaten in der Vorgabe](assets/preset-metadata.png)
+![Metadaten in Voreinstellung](assets/preset-metadata.png)
 
 
 ## Behobene Probleme
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Web-Editor | Beim Verschieben von Elementen innerhalb eines Themas werden die zugewiesenen IDs für Elemente durch automatisch zugewiesene IDs überschrieben. (7895)
-* Änderungen verfolgen | Der Inhalt geht verloren, wenn mithilfe der Eingabetaste ein neues Element eingegeben wird. (10246)
-* Die auf die Hauptkarte in dita-templates verweisende Unterkarte wird nicht erstellt. (10231)
-* XML-Editor | Das Kopieren und Einfügen funktioniert nicht im Autorenmodus. (10309)
-* Nach Auswahl mehrerer Versionsbeschriftungen wird die Auswahl nicht aufgehoben. (9561)
-* Die automatische Navigation zum Pfad im Dialogfeld zum Durchsuchen der Site funktioniert nicht wie das Durchsuchen von Dateien. (9920)
-* Im Bedienfeld &quot;Umrisse&quot;werden keine Inhalte angezeigt, wenn von **Autor** in den Modus **Source** gewechselt wird. (10319)
-* Conref in einem neuen Thema, das mit einem Inhalt in der Themenvorlage erstellt wurde, funktioniert nicht. Die kopierte Hash-ID wird in der Inhaltskopie nicht aktualisiert. (9890)
-* Web-Editor | Beim Erstellen einer Zuordnung aus der Zuordnungsvorlage existiert kein Ladeprogramm. (9891)
-* Neuer Map-Editor | Fett oder kursiv hinzugefügter Text im Zuordnungstitel wird nicht beibehalten, wenn von der Ansicht **Autor** zur Ansicht **Layout** gewechselt wird. (10218)
-* Neuer Map-Editor | Bedingungen, die auf einen Verweis angewendet werden, können nicht aus der Ansicht &quot;Layout&quot;entfernt werden. (10213)
-* Neuer Map-Editor | Das Anwenden von Bedingungsverweisen funktioniert nicht in der Layout-Ansicht wie in der Autorenansicht. (10198)
-* Neuer Map-Editor | Durch das Verschieben nach links aus dem Kontextmenü wird der Verweis entfernt, wenn er nicht nach links verschoben werden kann. (10219)
-* Neuer Map-Editor |Das Symbol wird für die Verweise in einer mit der Layoutansicht erstellten Zuordnung falsch angezeigt. (10197)
-* Repository-Bereich | Wenn Sie mit der rechten Maustaste in das Repository-Bedienfeld klicken, wird ein Anwendungsfehler angezeigt. (10123)
-* Suchen und Ersetzen | Der Dunkelmodus ist für Suchergebnisse im Web Editor nicht lesbar. (9978)
+* Web-Editor | Beim Verschieben von Elementen innerhalb eines Themas werden die zugewiesenen IDs für Elemente durch automatisch zugewiesene IDs überschrieben. (7 895)
+* Änderungen verfolgen | Der Inhalt geht verloren, wenn ein neues Element mit der Eingabetaste eingegeben wird. 10246)
+* Die Unterzuordnung, die auf die Hauptzuordnung in „dita-templates“ verweist, wird nicht erstellt. 10231)
+* XML-Editor | Kopieren/Einfügen funktioniert nicht im Autorenmodus. 10309)
+* Wenn mehrere Versionsbezeichnungen ausgewählt sind, wird die Auswahl nicht aufgehoben. (9561)
+* Die automatische Navigation zum Pfad im Dialogfeld zum Durchsuchen der Site funktioniert nicht wie das Durchsuchen der Datei. (9920)
+* Das Gliederungsbedienfeld zeigt beim Wechsel vom **Author**- in den **Source** Modus keine Inhalte an. 10319)
+* Inhalte in einem neuen Thema, die mit einem Inhalt in der Themenvorlage erstellt wurden, funktionieren nicht. Die kopierte Hash-ID wird in der Inhaltskopie nicht aktualisiert. (9 890)
+* web-editor | Beim Erstellen einer Zuordnung aus der Zuordnungsvorlage ist kein Ladeprogramm vorhanden. (9891)
+* Neuer Karten-Editor | Der im Zuordnungstitel hinzugefügte fett- oder kursiv formatierte Text wird nicht beibehalten, wenn wir von **Autor** zur **Layout** Ansicht wechseln. 10218)
+* Neuer Karten-Editor | Bedingungen, die auf Verweise angewendet werden, können nicht aus der Layout-Ansicht entfernt werden. 10213)
+* Neuer Karten-Editor | Das Anwenden von Bedingungsreferenzen funktioniert in der Layout-Ansicht nicht wie in der Authoring-Ansicht. 10198)
+* Neuer Karten-Editor | Nach links aus dem Kontextmenü entfernen Sie den Verweis, wenn er nicht nach links verschoben werden kann. 10219)
+* Neuer Karten-Editor |Das Symbol wird für die Verweise in einer mithilfe der Layout-Ansicht erstellten Zuordnung falsch angezeigt. 10197)
+* Repository-Bedienfeld | Ein Rechtsklick im Repository-Bedienfeld gibt einen Anwendungsfehler zurück. 10123)
+* Suchen und Ersetzen | Der Dunkelmodus kann für Suchergebnisse im Web-Editor nicht gelesen werden. (9978)
 * Übersetzung | Metadaten und Tags werden nicht an die übersetzten Kopien weitergegeben. (4696)
-* Beim Kopieren des Einfügeinhalts (Strg+C/Strg+V) wird im Autorenmodus ein Fehler ausgegeben. (10304)
-* PDF-Vorlage | Beim Hinzufügen von Hintergrundbildern zu einem Seitenlayout wird der Bildpfad als absoluter Pfad angezeigt, und die Bilder werden nicht auf der PDF angezeigt. (10297)
-* Native PDF | Der Kapiteltitel und die Kapitelüberschrift funktionieren nicht bei der PDF-Veröffentlichung. (9947)
-* Native PDF | `xref` für ein Konzept für ein bestimmtes DITA-Thema nicht richtig aufgelöst. (10229)
-* Native PDF | Beschriftungstext für eine Tabelle kann in der generierten PDF-Ausgabe nicht angezeigt werden. (9827)
-* Native PDF | Verweise in Anhängen werden in der PDF-Ausgabe nicht als Anhänge angezeigt. (10182)
-* Native PDF | Das Framenattribut für eine Tabelle wird nicht an die temporäre HTML (als -Klasse) übertragen. (10353)
-* Native PDF | temporäre HTML-Dateien fügen die Klassen colsep und rowsep zu td hinzu und die , selbst wenn ihr Wert 0 in der Quell-DITA beträgt. (10352)
-* Native PDF |  Metadaten für im Seitenlayout hinzugefügte Kriterien werden nicht berücksichtigt. (10377)
-* Native PDF |  Die Erstellung von PDF schlägt bei bestimmten Inhalten fehl. (9927)
-* Native PDF | Der Inhalt über conkeyref wird nicht in der PDF-Ausgabe angezeigt. (9836)
-* Native PDF | Schlüsselverweise für Keydefs mit Bildern oder externen Links werden nicht aufgelöst. (10063)
-* Die Autorenansicht für eine Zuordnung zeigt keinen Platzhaltertext für die Tabellenliste und die Dateiliste an. (10330)
-* Wenn wir eine neue Grundlinie erstellen, wird der bereits ausgewählte Grundlinienfilter nicht angewendet. (9954)
-* Die Videodatei fehlt in der Grundlinie, wenn der Name des übergeordneten Ordners ein Leerzeichen hat. 10031)
-* Bei der Grundlagenerstellung wird nicht die neueste Version ausgewählt, wenn sich die Zeitzone des Benutzers von der Zeitzone des Servers unterscheidet. (10190)
-* Mit der Tastenkombination Strg + F wird das Browser-Suchmodul nach der Installation von AEM Guides 4.1 in AEM 6.5.12 nicht in der Assets-Konsole geöffnet. (10189)
+* Beim Kopieren und Einfügen (Strg+C/Strg+V) des Inhalts wird im Autorenmodus ein Fehler ausgegeben. 10304)
+* PDF-Vorlage | Beim Hinzufügen von Hintergrundbildern zu einem Seitenlayout wird der absolute Bildpfad angezeigt, und die Bilder werden nicht auf der Ausgabe-PDF angezeigt. 10297)
+* Native PDF | Kapiteltitel und Kapitelüberschrift funktionieren nicht beim PDF-Veröffentlichen. (9947)
+* Native PDF | `xref` für ein Konzept wurde für ein bestimmtes DITA-Thema nicht korrekt aufgelöst. 10229)
+* Native PDF | Beschriftungstext für eine Tabelle kann in der generierten PDF-Ausgabe nicht angezeigt werden. (9 827)
+* Native PDF | Verweise in Anhängen werden nicht als Anhänge in der PDF-Ausgabe angezeigt. 10182)
+* Native PDF | Das Frame-Attribut für eine Tabelle wird nicht auf die temporäre HTML übertragen (als Klasse). 10353)
+* Native PDF | Temporäre HTML-Dateien fügen die Klassen colsep und rowsep zu td und th hinzu, selbst wenn ihr Wert in der Quell-DITA 0 ist. 10352)
+* Native PDF |  Metadaten für im Seiten-Layout hinzugefügtes Zertifikat werden nicht berücksichtigt. 10377)
+* Native PDF |  Die Generierung von PDF schlägt für bestimmte Inhalte fehl. (9927)
+* Native PDF | Inhalte über conkeyref werden nicht in der PDF-Ausgabe angezeigt. (9 836)
+* Native PDF | Die wichtigsten Referenzen für Schlüssel mit Bildern oder externen Links werden nicht aufgelöst. 10063)
+* In der Autorenansicht für eine Zuordnung wird kein Platzhaltertext für die Tabellen- und Abbildliste angezeigt. 10330)
+* Beim Erstellen einer neuen Baseline wird der bereits ausgewählte Baseline-Filter nicht angewendet. (9954)
+* Videodatei fehlt in der Grundlinie, wenn der Name des übergeordneten Ordners ein Leerzeichen enthält. 10031)
+* Bei der Basiserstellung wird nicht die neueste Version ausgewählt, wenn sich die Zeitzone des Benutzers von der Zeitzone des Servers unterscheidet. 10190)
+* Die Tastenkombination Strg + F öffnet das Browser-Suchmodal in der Assets-Konsole nach der Installation von AEM Guides 4.1 auf AEM 6.5.12 nicht. 10189)
 
 
 ## Bekannte Probleme
 
-Adobe hat die folgenden bekannten Probleme in der AEM Guides as a Cloud Service-Version vom September 2022 identifiziert.
+Adobe hat die folgenden bekannten Probleme in AEM Guides as a Cloud Service Version September 2022 festgestellt.
 
 
-* Die dynamische Grundlinie ist nicht in die Knowledgebase-Veröffentlichung integriert.
+* Dynamische Baseline ist nicht in die Veröffentlichung der Wissensdatenbank integriert.
 
-* Übersetzung | Das Symbol Versionsunterschied wird für den Quellinhalt aufgrund einer Änderung des Zielinhalts angezeigt.
+* Übersetzung | Das Symbol für den Versionsunterschied wird für den Quellinhalt aufgrund einer Änderung am Zielinhalt angezeigt.

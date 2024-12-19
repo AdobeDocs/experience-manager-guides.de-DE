@@ -1,6 +1,6 @@
 ---
 title: Berichte in AEM Guides
-description: Erfahren Sie, welche Berichte in AEM zur Verfügung stehen, um Benutzer bei der Verbesserung der Inhaltsqualität zu unterstützen.
+description: Erfahren Sie, welche Berichte in AEM verfügbar sind, um Benutzende bei der Verbesserung der Inhaltsqualität zu unterstützen.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
 feature: Report Generation
 role: User, Admin
@@ -13,17 +13,17 @@ ht-degree: 1%
 
 # Berichte in AEM Guides
 
-Bei einer organisatorischen Einrichtung möchten Sie die Gesamtvollständigkeit Ihres Inhalts überprüfen, bevor Sie die Dokumente zur Verwendung durch Endbenutzer pushen. Eine solche Notwendigkeit wird in Umgebungen mit mehreren Benutzern und großen Umgebungen, in denen Inhalte in verschiedenen Kontexten wiederverwendet werden können, umso wichtiger, da die Validierung Ihres Inhalts oder Dokuments eine Notwendigkeit darstellt. Im Zusammenhang mit strukturierten Inhalten gibt es einige spezifische Berichtstypen, die häufig benötigt werden.
+In einer organisatorischen Einrichtung sollten Sie die Vollständigkeit Ihrer Inhalte insgesamt überprüfen, bevor Sie die Dokumente für die Verwendung durch Endbenutzer pushen. In Umgebungen mit mehreren Benutzern und großen Umgebungen, in denen Inhalte in verschiedenen Kontexten wiederverwendet werden können, ist dies umso wichtiger. Daher muss Ihr Inhalt oder Dokument validiert werden. Im Zusammenhang mit strukturierten Inhalten gibt es einige spezifische Berichtstypen, die häufig benötigt werden.
 
 
 ## Sitzungsübersicht
 
-In dieser Sitzung wurden native Berichte angezeigt, die Benutzern zur Verfügung standen. Wir haben im Großen und Ganzen Folgendes behandelt:
-- Dokument- (Zuordnung) und Themenberichte
-- Metadatenberichte und Optionen zur Massenverwaltung von Metadaten
-- Berichte zur Inhaltswiederverwendung
-- Richtigkeit des Inhaltsimports
-- Nutzung der Berichterstellungsfunktion von AEM Assets
+In dieser Sitzung haben wir vordefinierte Berichte angezeigt, die für Benutzer verfügbar sind. Wir haben im Wesentlichen Folgendes behandelt:
+- Dokument- (Karten-) und Themenberichte
+- Metadatenberichte und Optionen für die Massenverwaltung von Metadaten
+- Berichte zur Wiederverwendung von Inhalten
+- Korrektheit des Inhaltsimports
+- Nutzung der Reporting-Funktionen von AEM Assets
 
 
 ## Sitzungsaufzeichnung
@@ -41,30 +41,30 @@ In dieser Sitzung wurden native Berichte angezeigt, die Benutzern zur Verfügung
 
 ## Haupterkenntnisse
 
-In dieser Sitzung haben Sie Folgendes erfahren:
-- Bedeutung von Berichten in CCMS
-- Verfügbare native Berichte
-- Beispiele für die Berichterstellung über Inhalte
+In dieser Sitzung haben Sie Folgendes gelernt:
+- Bedeutung von Berichten im CCMS
+- Verfügbare vordefinierte Berichte
+- Beispiele für das Reporting zu Inhalten
 
 
 ## Verwandte Ressourcen
 
-- **[Handbuch für AEM Guides-Berichte herunterladen](./assets/aem-guides-expert-session-reports-documentation.pdf)** , um die Details der in der Sitzung demonstrierten Berichte zu verstehen.
+- **[Laden Sie das AEM Guides-](./assets/aem-guides-expert-session-reports-documentation.pdf)** herunter, um die Details der in der Sitzung demonstrierten Berichte zu verstehen.
 
 - **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **Benutzerhandbuch** - [Autoreninhalt](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **Benutzerhandbuch** - [Inhalt erstellen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Community-Forum** - Besuchen Sie für sitzungsspezifische Community-Interaktionen auf dem Experience League das [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
+> Die in dieser Sitzung gezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
 > - On-Premise: 4.2 oder höher
 > - Cloud Service: 2302 oder höher
 
 
-## Nächste Sachverständigensitzung
+## Nächste Expertensitzung
 
 - **Thema** - Einrichtung von Inhalten und Vorlagen
 - **Geplant am** - 27. April 2023
@@ -72,4 +72,4 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 ## Kontakt
 
-Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>
+Bei Fragen senden Sie uns bitte eine E-Mail an <techcomm@adobe.com>

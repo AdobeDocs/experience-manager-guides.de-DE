@@ -3,7 +3,8 @@ title: Über Adobe Experience Manager Guides
 description: Erfahren Sie mehr über Adobe Experience Manager Guides, eine DITA-basierte Content-Management-Lösung für Unternehmen. Machen Sie sich mit den Vorteilen von AEM Guides vertraut.
 feature: Introduction
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 629a7bd6-9f72-49ef-8fa5-923a729098f2
+source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 7%
@@ -12,26 +13,26 @@ ht-degree: 7%
 
 # Über Adobe Experience Manager Guides {#id1645E0A50MY}
 
-Adobe Experience Manager Guides \(später in diesem Handbuch als *AEM Guides* bezeichnet) ist eine leistungsstarke Inhaltsverwaltungslösung für Unternehmenskomponenten \(CCMS\). Es wird in zwei Varianten angeboten: On-Premise und Cloud Service. Sie ermöglicht native DITA-Unterstützung in Adobe Experience Manager und ermöglicht AEM die Bearbeitung der DITA-basierten Inhaltserstellung und -Bereitstellung. Sie ermöglicht es Autoren, Inhalte mithilfe eines benutzerfreundlichen integrierten Web-Editors zu erstellen.
+Adobe Experience Manager Guides \(in diesem Handbuch als *AEM Guides* bezeichnet) ist eine leistungsstarke Komponenten-Content-Management-Lösung (CCMS) auf Unternehmensniveau. Es gibt zwei Varianten - On-Premise und Cloud Service. Sie unterstützt native DITA-Unterstützung in Adobe Experience Manager und ermöglicht AEM die Verarbeitung der DITA-basierten Inhaltserstellung und -bereitstellung. Sie ermöglicht es Autoren, Inhalte mit einem benutzerfreundlichen integrierten Web-Editor zu erstellen.
 
-AEM Guides bietet alle zentralen CCMS-Funktionen wie Authoring, Zusammenarbeit, Überprüfung, Übersetzung, Suche, Berichte und Metadatenverwaltung für DITA-Inhalte, sodass Autoren durch effiziente Wiederverwendung von Inhalten und leistungsstarke Workflows mehr Zeit sparen können. Darüber hinaus können Benutzer die erstklassige Veröffentlichungsfunktion mit einem Klick nutzen, um DITA-basierte Ausgaben für die gängigsten Formate zu generieren - Adobe Experience Manager Sites, PDF, HTML5, EPUB und benutzerdefinierte Ausgaben über DITA-OT.
+AEM Guides bietet alle zentralen CCMS-Funktionen wie Authoring, Zusammenarbeit, Review, Übersetzung, Suche, Berichte und Metadatenverwaltung für DITA-Inhalte. Damit können Autoren durch effiziente Wiederverwendung von Inhalten und leistungsstarke Workflows in kürzerer Zeit mehr erledigen. Darüber hinaus können Anwender die erstklassige Single-Click-Publishing-Funktion nutzen, um DITA-basierte Ausgaben für die beliebtesten Formate - Adobe Experience Manager Sites, PDF, HTML5, EPUB und benutzerdefinierte Ausgaben über DITA-OT - zu generieren.
 
-Mit AEM Guides können Unternehmen nahtlose und personalisierte Erlebnisse für Endbenutzer bereitstellen und Konsistenz und Einheitlichkeit in Inhalten vor und nach dem Verkauf sicherstellen. Vollständige Kontrolle über die Inhaltsintegrität kann auf einfache Weise erreicht werden. Darüber hinaus reduzieren Lokalisierungszeit und -kosten auch erheblich.
+Mit AEM Guides können Unternehmen Endbenutzern nahtlose und personalisierte Erlebnisse bereitstellen und Konsistenz und Einheitlichkeit bei Pre- und Post-Sales-Inhalten sicherstellen. Die vollständige Kontrolle über die Inhaltsintegrität kann einfach erreicht werden. Darüber hinaus werden Zeit und Kosten für die Lokalisierung erheblich reduziert.
 
 ## Vorteile auf einen Blick
 
-- Einheitliches Inhaltserlebnis vor und nach dem Kauf für Endbenutzer
+- Einheitliches Content-Erlebnis für Endbenutzer vor und nach dem Kauf
 
-- Omnichannel-Publishing-Erlebnis in Experience Manager Sites, PDF, HTML5, EPUB und benutzerdefinierte Ausgabe über DITA-OT
+- Omni-Channel-Publishing-Erlebnis auf Experience Manager Sites, PDF, HTML5, EPUB und benutzerdefinierte Ausgabe über DITA-OT
 
-- Kenntnis der bestehenden Adobe-Tools/-Systeme und der Möglichkeit, sie mit einem Partner zu konsolidieren
+- Vertrautheit mit bestehenden Adobe-Tools/-Systemen und die Möglichkeit zur Konsolidierung mit einem Partner
 
-- Einzelne CMS für die Verwaltung von Marketing- und technischen Inhalten - durchgehend
+- Zentrale CMS für die durchgängige Verwaltung von Marketing- und technischen Inhalten
 
-- Schnellere Markteinführung mit effizienter Inhaltswiederverwendung
+- Schnellere Markteinführung mit effizienter Wiederverwendung von Inhalten
 
-- Leistungsstarke Analyse-, Kollaboration- und Übersetzungs-Workflows
+- Leistungsstarke Workflows für Überprüfung, Zusammenarbeit und Übersetzung
 
 - Geringere Lokalisierungszeiten und -kosten
 
-- Geringere Wartungskosten
+- Geringerer Wartungsaufwand

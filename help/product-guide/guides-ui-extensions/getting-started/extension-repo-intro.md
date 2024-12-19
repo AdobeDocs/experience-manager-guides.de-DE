@@ -41,11 +41,11 @@ ht-degree: 0%
 │   ├── index.ts
 ```
 
-Das Quellverzeichnis enthält die typescript- oder JavaScript-Dateien für Ihre Erweiterung. Die Datei index.ts ist der Einstiegspunkt für Ihre Erweiterung. Sie können alle Komponenten hier importieren und als ein Objekt exportieren. Dieses Objekt wird von der Erweiterung zum Rendern der Komponenten verwendet.
+Das Quellverzeichnis enthält die TypeScript- oder JavaScript-Dateien für Ihre Erweiterung. Die Datei index.ts ist der Einstiegspunkt für Ihre Erweiterung. Sie können hier alle Komponenten importieren und als einzelnes Objekt exportieren. Dieses -Objekt wird von der Erweiterung zum Rendern der Komponenten verwendet.
 
 ### /dist
 
-Dies ist das endgültige Build-Verzeichnis. Dies enthält das endgültige JS und CSS, die in den AEM kopiert werden müssen
+Dies ist der endgültige Build-Ordner. Diese enthält die endgültige JS- und CSS-Datei, die in die AEM kopiert werden muss.
 
 ```test
 ├── dist
@@ -56,7 +56,7 @@ Dies ist das endgültige Build-Verzeichnis. Dies enthält das endgültige JS und
 
 ## /jsons
 
-Dieser Ordner enthält die JSONs für die verschiedenen Ansichten. Sie können diese JSONs verwenden, um die Ziele zu identifizieren und die Ansicht anzupassen.
+Dieses Verzeichnis enthält die JSONs für die verschiedenen Ansichten. Sie können diese JSONs verwenden, um die Ziele zu identifizieren und die Ansicht anzupassen.
 
 ```text
 ├── jsons // jsons for the aem app

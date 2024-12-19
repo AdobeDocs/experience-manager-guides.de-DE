@@ -1,6 +1,6 @@
 ---
-title: Versionsverlauf wiederhergestellter Dateien - Bericht
-description: Zeigen Sie Berichte zum Versionsverlauf wiederhergestellter Dateien in AEM Guides an. Erfahren Sie, wie Sie über die Assets-Benutzeroberfläche, die Themenvorschau und die Auswahl der AEM Tools auf Protokolle mit rückgängig gemachten Versionen zugreifen können.
+title: Versionsverlaufsbericht für zurückgesetzte Dateien
+description: Anzeigen von zurückgesetzten Dateiversionsverlaufsberichten in AEM Guides. Erfahren Sie, wie Sie über die Benutzeroberfläche von Assets, die Themenvorschau und die Auswahl der AEM-Tools auf die Protokolle der zurückgesetzten Versionen zugreifen können.
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
@@ -11,50 +11,50 @@ ht-degree: 0%
 
 ---
 
-# Versionsverlauf wiederhergestellter Dateien - Bericht {#id205BBC00PRK}
+# Versionsverlaufsbericht für zurückgesetzte Dateien {#id205BBC00PRK}
 
-Wenn Sie an mehreren gleichzeitigen Versionen zusammen mit mehreren Autoren arbeiten, ist es erforderlich, dass Ihr Inhalt über mehrere Versionen verfügt. Es kann einige allgemeine Informationen über mehrere Versionen hinweg geben, die verschiedene Autoren in ihrem Projekt verwenden können. Um solche Arbeitszuweisungen zu verarbeiten, könnten Autoren mehrere Versionen von Dateien erhalten. Bei solchen Versionen kann es sich einfach um eine neuere Version einer Datei oder um eine frühere Version handeln. Es ist eine komplexe Aufgabe, zu ermitteln, wann und warum eine Datei zurückgesetzt wurde.
+Wenn Sie an mehreren gleichzeitigen Versionen zusammen mit mehreren Autoren arbeiten, müssen Ihre Inhalte mehrere Versionen haben. Es könnte einige gemeinsame Informationen in mehreren Versionen geben, die verschiedene Autoren in ihrem Projekt verwenden könnten. Bei solchen Arbeitsaufträgen könnten Autoren mehrere Versionen von Dateien erhalten. Bei diesen Versionen kann es sich einfach um eine neuere Version einer Datei oder um eine Wiederherstellung auf eine frühere Version handeln. Es ist eine komplexe Aufgabe, herauszufinden, wann und warum eine Datei zurückgesetzt wurde.
 
-Mit AEM Guides können Sie einen Versionsverlaufsbericht für eine einzelne Datei oder für alle Dateien in einem Ordner erstellen. Dieser Versionsverlauf gibt Ihnen einen Überblick über alle Versionen einer Datei, die zurückgesetzt wurden und die diese Versionen erstellt haben, sowie den Grund für die Erstellung dieser Versionen.
+Mit AEM Guides können Sie einen Versionsverlaufsbericht für eine einzelne Datei oder für alle Dateien in einem Ordner generieren. Dieser Versionsverlauf bietet Ihnen eine konsolidierte Ansicht aller Versionen einer Datei, die zurückgesetzt wurden, und der Personen, die diese Versionen erstellt haben, sowie den Grund für die Erstellung dieser Versionen.
 
-Der Zugriff auf diesen Bericht ist an folgenden Stellen möglich:
+Sie können auf diesen Bericht an den folgenden Stellen zugreifen:
 
-- **Assets UI**: Wählen Sie eine Datei aus und öffnen Sie in der linken Leiste den **Versionsverlauf**. Die Ansicht **Versionsverlauf** enthält den Link **Versionsprotokolle wiederherstellen** unten im Bedienfeld. Wenn Sie auf diesen Link klicken, wird der Verlauf der ausgewählten Datei mit den wiederhergestellten Versionen angezeigt.
+- **Benutzeroberfläche von Assets**: durch Auswahl einer Datei und Öffnen des **Versionsverlaufs** über die linke Leiste. Die **Versionsverlauf** enthält den Link **Versionslogs zurücksetzen** am unteren Rand des Bedienfelds. Wenn Sie auf diesen Link klicken, wird das Protokoll der ausgewählten Datei mit den zurückgesetzten Versionen angezeigt.
 
   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
-- **Themenvorschau**: Wenn Sie ein Thema in der Vorschau anzeigen, können Sie auch das Bedienfeld **Versionsverlauf** von der linken Leiste aus aufrufen. Sie erhalten ein Bedienfeld ähnlich der Benutzeroberfläche von Assets, von dem aus Sie auf den Link **Versionsprotokolle wiederherstellen** klicken können, um auf den wiederhergestellten Versionsverlauf des aktiven Dokuments zuzugreifen.
+- **Themenvorschau**: Wenn Sie ein Thema in der Vorschau anzeigen, können Sie auch das Bedienfeld **Versionsverlauf** in der linken Leiste aufrufen. Es wird ein der Assets-Benutzeroberfläche ähnliches Bedienfeld angezeigt, von dem aus Sie auf den Link **Versionslogs zurücksetzen** klicken können, um auf den zurückgesetzten Versionsverlauf des aktiven Dokuments zuzugreifen.
 
-- **AEM Tools-Abschnitt**: Sie können auch über den Abschnitt &quot;AEM Tools&quot;auf diesen Bericht zugreifen. Im folgenden Verfahren wird erläutert, wie Sie über den Abschnitt &quot;AEM Tools&quot;auf den Verlauf der Zurückkehrversion zugreifen können.
+- **Abschnitt &quot;AEM-Tools**: Sie können auf diesen Bericht auch über den Abschnitt &quot;AEM-Tools“ zugreifen. Im folgenden Verfahren wird erläutert, wie Sie im Abschnitt Tools von AEM auf den Versionsverlauf zurücksetzen können.
 
 
-Führen Sie die folgenden Schritte aus, um auf den Bericht Verlauf zurücksetzen zuzugreifen:
+Führen Sie die folgenden Schritte aus, um auf den Bericht „Verlauf zurücksetzen“ zuzugreifen:
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
 1. Wählen Sie **Guides** aus der Liste der Tools aus.
 
-1. Klicken Sie auf die Kachel **Versionsverlauf wiederherstellen** .
+1. Klicken Sie auf die Kachel **Versionsverlauf wiederherstellen**.
 
-   Es wird eine leere Seite Versionsverlauf wiederherstellen angezeigt, auf der Sie eine Datei oder einen Ordner durchsuchen und auswählen müssen, um den Bericht zu generieren.
+   Es wird eine leere Seite „Versionsverlauf zurücksetzen“ angezeigt, auf der Sie zu einer Datei oder einem Ordner navigieren und sie auswählen müssen, um den Bericht zu generieren.
 
-1. Klicken Sie auf **Protokolle anzeigen** , um den Bericht für die ausgewählte Datei oder den ausgewählten Ordner zu generieren.
+1. Klicken Sie **Protokolle anzeigen**, um den Bericht für die ausgewählte Datei oder den ausgewählten Ordner zu generieren.
 
    ![](images/revert-version-history-report.png){width="800" align="left"}
 
-   Der Bericht enthält folgende Details:
+   Der Bericht enthält folgende Einzelheiten:
 
-   - **Dateiname**: Der Titel des Themas. Durch Klicken auf den Titel-Link des Themas wird die Themenvorschau geöffnet.
+   - **Dateiname**: Der Titel des Themas. Wenn Sie auf den Link Titel des Themas klicken, wird die Themenvorschau geöffnet.
 
    - **Zeitstempel**: Datum und Uhrzeit, zu der das Thema auf eine frühere Version zurückgesetzt wurde.
 
-   - **Benutzer**: Name des Benutzers, der zu einer früheren Version zurückgekehrt ist.
+   - **Benutzer**: Name des Benutzers, der auf eine frühere Version zurückgesetzt wurde.
 
-   - **Aus** zurücksetzen: Die ursprüngliche Versionsnummer der Datei, von der sie zurückgesetzt wurde.
+   - **Wiederherstellen von**: Die ursprüngliche Versionsnummer der Datei, von der aus sie zurückgesetzt wurde.
 
-   - **Auf** zurücksetzen: Die Version, auf die die Datei zurückgesetzt wurde.
+   - **Wiederherstellen zu**: Die Version, auf die die Datei zurückgesetzt wurde.
 
-   - **Kommentar**: Jeder Kommentar des Benutzers, der die Datei zurückgesetzt hat.
+   - **Kommentar**: Jeder Kommentar, der von der Person abgegeben wurde, die die Datei zurückgesetzt hat.
 
 
-**Übergeordnetes Thema:**[ Berichte](reports-intro.md)
+**Übergeordnetes Thema:**[ Reports](reports-intro.md)

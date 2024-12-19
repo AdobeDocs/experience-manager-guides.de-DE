@@ -1,22 +1,23 @@
 ---
-title: Erstellen und Anzeigen einer Vorschau von Themen
+title: Erstellen und Vorschau von Themen
 description: Erfahren Sie, wie Sie DITA-Themen über die Assets-Benutzeroberfläche in AEM Guides erstellen und in der Vorschau anzeigen.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 71929e00-adda-4644-be4a-df9574cc8e46
+source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# Erstellen und Anzeigen einer Vorschau von Themen {#id21BQE0RJ042}
+# Erstellen und Vorschau von Themen {#id21BQE0RJ042}
 
-AEM Guides verfügt über eine leistungsstarke Funktion zum Erstellen von DITA-Themen über die Assets-Benutzeroberfläche. Sie können die Themen dann über die Assets-Benutzeroberfläche in der Vorschau anzeigen. Der Vorschaumodus bietet außerdem eine Vielzahl leistungsstarker Funktionen, mit denen Sie wichtige Vorgänge wie das Anzeigen von Metadaten, das Bearbeiten des Themas im Web Editor, das Öffnen der Quelle und das Finden des webbasierten Versionsunterschieds durchführen können.
+AEM Guides verfügt über eine leistungsstarke Funktion zum Erstellen von DITA-Themen über die Assets-Benutzeroberfläche. Sie können dann eine Vorschau der Themen über die Assets-Benutzeroberfläche anzeigen. Der Vorschaumodus bietet außerdem viele leistungsstarke Funktionen, mit denen Sie wichtige Vorgänge wie das Anzeigen von Metadaten, das Bearbeiten des Themas im Web-Editor, das Öffnen der Quelle und das Auffinden des Unterschieds zwischen den Web-basierten Versionen durchführen können.
 
 - **[Erstellen von Themen](web-editor-create-topics.md)**
 
-- **[Vorschau eines Themas anzeigen](web-editor-preview-topics.md)**
+- **[Vorschau eines Themas](web-editor-preview-topics.md)**
 
 
-**Übergeordnetes Thema:**[ Autoreninhalt](authoring-content.md)
+**Übergeordnetes Thema:**[ Inhalt erstellen](authoring-content.md)

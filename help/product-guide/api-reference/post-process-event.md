@@ -1,6 +1,6 @@
 ---
-title: Ereignishandler für die Nachbearbeitung
-description: Erfahren Sie mehr über den Ereignishandler für die Nachbearbeitung
+title: Ereignishandler nach der Verarbeitung
+description: Informationen zum Ereignis-Handler nach der Verarbeitung
 exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
@@ -12,22 +12,22 @@ ht-degree: 5%
 
 ---
 
-# Ereignishandler für die Nachbearbeitung {#id175UB30E05Z}
+# Ereignishandler nach der Verarbeitung {#id175UB30E05Z}
 
-AEM Guides stellt das com/adobe/fmdita/postprocess/complete-Ereignis bereit, das zur Durchführung von Nachbearbeitungsvorgängen verwendet wird. Dieses Ereignis wird ausgelöst, wenn ein Vorgang für eine DITA-Datei ausgeführt wird. Die folgenden Vorgänge auf einen DITA-Datei-Trigger verweisen auf dieses Ereignis:
+AEM Guides macht das com/adobe/fmdita/postprocess/complete-Ereignis verfügbar, das für die Durchführung von Nachbearbeitungsvorgängen verwendet wird. Dieses Ereignis wird ausgelöst, wenn ein Vorgang für eine DITA-Datei ausgeführt wird. Die folgenden Vorgänge auf einem DITA-Datei-Trigger bewirken dieses Ereignis:
 
 >[!NOTE]
 >
-> Dieses Ereignis wird für den Löschvorgang in AEM 6.1 nicht ausgelöst.
+> Dieses Ereignis wird nicht für den Löschvorgang in AEM 6.1 ausgelöst.
 
 - Hochladen
 - Kreation
 - Änderung
-- Löschen
+- Löschung
 
-Sie müssen einen AEM Ereignishandler erstellen, um die in diesem Ereignis verfügbaren Eigenschaften zu lesen und eine weitere Verarbeitung durchzuführen.
+Sie müssen einen AEM-Ereignishandler erstellen, um die in diesem Ereignis verfügbaren Eigenschaften zu lesen und die Verarbeitung fortzusetzen.
 
-Ereignisdetails werden nachfolgend erläutert:
+Details zum Ereignis werden unten erläutert:
 
 **Ereignisname**:
 
@@ -39,7 +39,7 @@ com/adobe/fmdita/postprocess/complete
 
 | Name | Typ | Beschreibung |
 |----|----|-----------|
-| `path` | Zeichenfolge | Der Pfad der Datei, die dieses Ereignis ausgelöst hat. Normalerweise handelt es sich hierbei um die Datei, für die ein Vorgang ausgeführt wurde. |
-| `status` | Zeichenfolge | Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: - <br> - SUCCESS: Die Nachbearbeitung wurde erfolgreich abgeschlossen. <br> - MIT FEHLERN ABGESCHLOSSEN: Der Nachbearbeitungsprozess ist abgeschlossen, allerdings mit einigen Fehlern. <br> - FEHLGESCHLAGEN: Die Nachbearbeitung schlug aufgrund eines tödlichen Fehlers fehl. |
-| `message` | Zeichenfolge | Wenn der Status MIT FEHLERN ODER FEHLGESCHLAGEN ABGESCHLOSSEN IST, enthält dieser Parameter die Details zum Fehler oder zum Grund des Fehlschlagens. |
-| `operation` | Zeichenfolge | Der an der Datei ausgeführte Nachbearbeitungsprozess. Die möglichen Optionen sind:<br> - Addition <br> - Updation <br> - Löschen |
+| `path` | Zeichenfolge | Pfad der Datei, die dieses Ereignis ausgelöst hat In der Regel ist dies die Datei, für die ein Vorgang ausgeführt wurde. |
+| `status` | Zeichenfolge | Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: - <br>- ERFOLG: Der Nachbearbeitungsvorgang wurde erfolgreich abgeschlossen. <br>- ABGESCHLOSSEN MIT FEHLERN: Der Nachbearbeitungsvorgang wurde abgeschlossen, jedoch mit einigen Fehlern. <br>- FEHLGESCHLAGEN: Der Nachbearbeitungsvorgang ist aufgrund eines schwerwiegenden Fehlers fehlgeschlagen. |
+| `message` | Zeichenfolge | Falls der Status MIT FEHLERN ABGESCHLOSSEN ODER FEHLGESCHLAGEN ist, enthält dieser Parameter Details zum Fehler oder zur Fehlerursache. |
+| `operation` | Zeichenfolge | Der für die Datei durchgeführte Nachbearbeitungsvorgang. Die möglichen Optionen sind: <br>- Hinzufügen <br>- Aktualisieren <br> Löschen |

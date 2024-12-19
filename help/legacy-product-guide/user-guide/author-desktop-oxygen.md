@@ -1,21 +1,22 @@
 ---
-title: Arbeiten mit Oxygen
-description: Erfahren Sie mehr über die Unterstützung des XML-Editors für Inhaltsbearbeitung und -veröffentlichung in AEM Guides.
+title: Arbeiten mit Sauerstoff
+description: Erfahren Sie mehr über die Unterstützung des Oxygen XML-Editors für das Erstellen und Veröffentlichen von Inhalten in AEM Guides.
 feature: Authoring, Desktop Tools
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: c6395d35-b8fd-446e-a17a-df7f5a432053
+source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
 
 ---
 
-# Arbeiten mit Oxygen {#id221BH0V0UE8}
+# Arbeiten mit Sauerstoff {#id221BH0V0UE8}
 
 Oxygen XML Author verfügt über benutzerfreundliche Authoring-Funktionen und bietet eine benutzerfreundliche Oberfläche.
 
-Sie können Ausgaben in PDF, ePub, HTML und vielen anderen Formaten erstellen, die dieselbe Quelle verwenden.
+Sie können Ausgaben in PDF, ePub, HTML und vielen anderen Formaten mit derselben Quelle erzeugen.
 
-*Wenden Sie sich an Ihr Customer Success Team, um diese Funktion in der Umgebung aktivieren zu lassen. Dies ist im Rahmen der nativen Unterstützung nicht aktiviert.*
+*Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion in der Umgebung aktivieren zu lassen. Dies ist nicht als Teil der vordefinierten -Unterstützung aktiviert.*
 
-**Übergeordnetes Thema:**[ Autoreninhalt mit Desktop-Tools](author-desktop-tools.md)
+**Übergeordnetes Thema:**[ Erstellen von Inhalten mit Desktop-Tools](author-desktop-tools.md)

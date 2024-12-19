@@ -1,6 +1,6 @@
 ---
-title: Themen oder Zuordnungen überprüfen
-description: Prüfen Sie Themen oder Maps in AEM Guides effizient für eine reibungslose Inhaltsbewertung. Machen Sie sich mit den Funktionen für Autoren und Prüfer in AEM Guides vertraut.
+title: Themen oder Karten überprüfen
+description: Effiziente Prüfung von Themen oder Karten in AEM Guides für eine reibungslose Inhaltsbewertung. Kenntnis der Funktionen für Autoren und Prüfer in AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
@@ -11,56 +11,56 @@ ht-degree: 0%
 
 ---
 
-# Themen oder Zuordnungen überprüfen {#id1645H6010Q5}
+# Themen oder Karten überprüfen {#id1645H6010Q5}
 
-Fast alle technischen Dokumente müssen mehrere Rezensionen durchlaufen. In den meisten Fällen umfasst ein Prüfungszyklus mehrere Prüfer. Das Ansprechen und Reagieren auf Kommentare von mehreren Validierern ist für Autoren immer eine Herausforderung. In einem Szenario mit mehreren Validierern ist es außerdem hilfreich, wenn einem Validierer auch die Kommentare anderer Validierer angezeigt werden.
+Fast alle technischen Dokumente müssen mehrere Überprüfungsrunden durchlaufen. In den meisten Fällen sind an einem Überprüfungszyklus mehr als ein Validierungsverantwortlicher beteiligt. Das Adressieren und Reagieren auf Kommentare mehrerer Prüfer ist für Autoren immer eine Herausforderung. In Szenarien mit mehreren Reviewern ist es außerdem hilfreich, wenn ein Reviewer auch die Kommentare anderer Reviewer sehen kann.
 
-Einige der Hauptfunktionen, die AEM Guides den *Initiatoren \(oder Autoren\)* anbietet, sind:
+Zu den Hauptfunktionen, die AEM Guides den Initiatoren (oder *) anbietet* gehören:
 
-- Erstellen Sie ein DITA-Projekt für den Review-Workflow.
-- Senden Sie ein oder mehrere Themen zur Überprüfung in einer einzelnen Prüfungsaufgabe.
+- Erstellen Sie ein DITA-Projekt für den Überprüfungs-Workflow.
+- Senden Sie ein oder mehrere Themen zur Überprüfung in einer einzigen Prüfungsaufgabe.
 
 - Senden Sie ein Thema zur Überprüfung in mehreren Prüfungsaufgaben.
 
-- Erstellen Sie eine Prüfungsaufgabe, indem Sie eine DITA-Zuordnung oder ein Thema basierend auf der neuesten Version, Version am Datum oder einer Bezeichnung \(für Themen\) und Baseline \(für Zuordnung\) auswählen.
+- Erstellen Sie eine Prüfungsaufgabe, indem Sie eine DITA-Zuordnung oder ein Thema basierend auf der neuesten Version, der aktuellen Version oder einer Beschriftung \(für Themen\) und der Grundlinie \(für Zuordnung\) auswählen.
 
-- Geben Sie eine aktualisierte Version des Themas für die Überprüfung über das Dashboard zur Überprüfung frei.
+- Geben Sie eine aktualisierte Version des Themas zur Überprüfung im Überprüfungs-Dashboard frei.
 
-- Greifen Sie auf Kommentare zu, die für verschiedene Versionen des Themas freigegeben wurden.
+- Zugreifen auf Kommentare, die in verschiedenen Versionen des Themas freigegeben wurden.
 
-- Gruppieren und Filtern von Kommentaren basierend auf der Themenversion.
+- Gruppieren und Filtern von Kommentaren nach Themenversion.
 
-- Siehe Nebeneinanderunterschiede zwischen verschiedenen Versionen von Themen, die zur Überprüfung freigegeben werden.
+- Siehe Unterschiede zwischen verschiedenen Versionen von Themen, die zur Überprüfung freigegeben wurden.
 
-- Importieren Sie \(gelöschte oder eingefügte\) Kommentare automatisch in die Version des Themas, das zur Überprüfung freigegeben wurde.
+- Kommentare (gelöscht oder eingefügt\) automatisch in die Version des Themas importieren, das zur Überprüfung freigegeben wurde.
 
 
-Für die *validierungsverantwortlichen* verfügbare Funktionen:
+Den *Prüfern“ zur Verfügung stehende*:
 
 - Erhalten Sie eine zusammengesetzte Ansicht der Themen, die zur Überprüfung freigegeben wurden.
-- Wechseln Sie zwischen der Composite-Ansicht und der individuellen Themenansicht.
-- Verwenden Sie die Kommentarwerkzeuge, wie z. B. das Einfügen, Löschen, Hervorheben und Notizen/Kommentar, um Feedback zu geben.
+- Zwischen zusammengesetzter Ansicht und einzelner Themenansicht wechseln.
+- Verwenden Sie die Kommentarwerkzeuge wie Texteinfügung, Löschen, Hervorhebung und Notiz/Kommentar, um Feedback zu geben.
 - Hängen Sie eine oder mehrere Dateien an einen Überprüfungskommentar an.
-- Laden Sie Anlagen aus einem Kommentar herunter.
-- Verwenden Sie das Überprüfungsbedienfeld, um Kommentare oder Kommentare anderer Benutzer hinzuzufügen.
-- Einfach die Version des Themas, das geprüft wird.
-- Erhalten Sie eine Benachrichtigung, wenn ihnen eine Aufgabe zur Überprüfung zugewiesen wird.
-- Siehe Unterschiede zwischen älterer und neuerer Version des Themas, das zur Überprüfung freigegeben wurde.
-- Sehen Sie sich Kommentare anderer Prüfer oder Antworten zu Kommentaren von Autoren in Echtzeit an.
-- Greifen Sie auf Kommentare zu älteren Themenversionen zu.
+- Herunterladen von Anhängen aus einem Kommentar.
+- Verwenden Sie das Review-Bedienfeld, um Kommentare hinzuzufügen oder auf Kommentare anderer Benutzer zu antworten.
+- Machen Sie sich mit der Version des zu überprüfenden Themas vertraut.
+- Sie erhalten eine Benachrichtigung, wenn ihnen eine Aufgabe zur Überprüfung zugewiesen wird.
+- Unterschiede zwischen älterer und neuerer Version des freigegebenen Themas anzeigen.
+- Hier finden Sie Kommentare anderer Prüfer oder Antworten auf Kommentare des Autors in Echtzeit.
+- Zugreifen auf Kommentare, die zu älteren Versionen des Themas gegeben wurden.
 
 >[!NOTE]
 >
-> Best Practices zur Erstellung von Prüfungsaufgaben finden Sie im Abschnitt *Überprüfen* des Leitfadens zu Best Practices .
+> Best *zum Erstellen von Prüfungsaufgaben finden Sie* Abschnitt „Überprüfen“ im Handbuch zu Best Practices.
 
-- **[DITA-Projekt erstellen](authoring-create-dita-project.md)**
+- **[Erstellen eines DITA-Projekts](authoring-create-dita-project.md)**
 
-- **[Themen zur Überprüfung senden](review-send-topics-for-review.md)**
+- **[Senden von Themen zur Überprüfung](review-send-topics-for-review.md)**
 
-- **[Zuweisen einer Prüfungsaufgabe mithilfe der Benachrichtigung](reassign-review-using-notification.md)**
+- **[Prüfungsaufgabe mithilfe einer Benachrichtigung neu zuweisen](reassign-review-using-notification.md)**
 
-- **[Prüfungsthemen](review-topics.md)**
+- **[Themen überprüfen](review-topics.md)**
 
-- **[Kommentare zur Adressprüfung](review-address-review-comments.md)**
+- **[Kommentare zur Adressenüberprüfung](review-address-review-comments.md)**
 
-- **[Verwalten von Prüfungsaufgaben mithilfe des Überprüfungs-Dashboards](review-manage-tasks-review-dashboard.md)**
+- **[Prüfungsaufgaben mit dem Überprüfungs-Dashboard verwalten](review-manage-tasks-review-dashboard.md)**

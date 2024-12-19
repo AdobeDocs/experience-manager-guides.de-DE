@@ -1,6 +1,6 @@
 ---
 title: Komponenten
-description: App-Komponenten überprüfen
+description: Überprüfen von App-Komponenten
 role: User, Admin
 exl-id: 78d626f9-9f96-4748-a268-39fa57aef495
 source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
@@ -10,37 +10,37 @@ ht-degree: 0%
 
 ---
 
-# Komponenten der Review-App
+# Komponenten der Überprüfungs-App
 
-Im Folgenden finden Sie die wichtigsten Komponenten der Überprüfungs-App:
+Im Folgenden finden Sie die Hauptkomponenten der Überprüfungs-App:
 
-- Inline-Prüfungsbereich: `id: inline_review_panel`
-   - Der rechte Bereich, in dem die Überprüfungskommentare auf der Seite des XML-Editors dargestellt werden.
+- Inline-Überprüfungsfeld: `id: inline_review_panel`
+   - Das rechte Bedienfeld, in dem die Überprüfungskommentare im XML-Editor gerendert werden.
 
-![Screenshot des Inline-Prüfungsbereichs](./imgs/inline_review.png)
+![Screenshot des Bedienfelds „Inline-Überprüfung“](./imgs/inline_review.png)
 
-- Themenüberprüfungen: `id: topic_reviews`
-   - Der rechte Bereich, in dem die Kommentare in der Überprüfungs-App gerendert werden.
+- Themen-Rezensionen: `id: topic_reviews`
+   - Das rechte Bedienfeld, in dem die Kommentare in der Überprüfungs-App gerendert werden.
 
-![Screenshot des Themenüberprüfungsbedienfelds](./imgs/topic_reviews.png)
+![Screenshot des Bedienfelds für die Themenüberprüfung](./imgs/topic_reviews.png)
 
-- Überprüfungskommentar: `id: review_comment`
-   - Das Widget für jeden Prüfungskommentar.
+- Kommentar überprüfen: `id: review_comment`
+   - Das Widget für jeden Überprüfungskommentar.
 
-Überprüfen Sie den Kommentar zur Überprüfungs-App:
-![Kommentar-Screenshot überprüfen](./imgs/review_comment.png)
+Kommentar zur Überprüfungs-App überprüfen:
+![Screenshot des Kommentars überprüfen](./imgs/review_comment.png)
 
-Überprüfen Sie den Kommentar auf der Seite des XML-Editors:
-![Kommentar-Screenshot überprüfen](./imgs/review_comment_xmleditor.png)
+Kommentar zur Seite des XML-Editors überprüfen:
+![Screenshot des Kommentars überprüfen](./imgs/review_comment_xmleditor.png)
 
-- Kommentar-Antwort überprüfen: `id: comment_reply`
-   - Das Widget für jede Reviewkommentar-Antwort.
-     ![Kommentar-Antwort-Screenshot prüfen](./imgs/reply.png)
+- Kommentar überprüfen Antwort: `id: comment_reply`
+   - Das Widget für jede Überprüfungskommentarantwort.
+     ![Screenshot zur Antwort auf Kommentar überprüfen](./imgs/reply.png)
 
-- Neue Überprüfungskommentantwort: `id: comment_new_reply`
-   - Das Widget für die Antwort auf neue Prüfungskommentare.
-     ![Screenshot der neuen Überprüfungskommentar-Antwort](./imgs/new_reply.png)
+- Antwort zum neuen Überprüfungskommentar: `id: comment_new_reply`
+   - Das Widget für eine neue Überprüfungskommentarantwort.
+     ![Screenshot mit Antwort auf neuen Kommentar](./imgs/new_reply.png)
 
 - Anmerkungs-Toolbox: `id: annotation_toolbox`
-   - Die obere rechte Symbolleiste der Überprüfungs-App.
-     ![Anmerkungs-Toolbox, Screenshot](./imgs/annotation_toolbox.png)
+   - Die Symbolleiste oben rechts in der Überprüfungs-App.
+     ![Screenshot der Anmerkungs-Toolbox](./imgs/annotation_toolbox.png)

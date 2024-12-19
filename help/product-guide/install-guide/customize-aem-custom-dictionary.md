@@ -1,6 +1,6 @@
 ---
-title: AEM Standardwörterbuch anpassen
-description: Erfahren Sie, wie Sie AEM Standardwörterbuch anpassen
+title: Anpassen des Standardwörterbuchs von AEM
+description: Erfahren Sie, wie Sie das Standardwörterbuch von AEM anpassen
 exl-id: 8bfd3ea7-0be8-4e7a-b389-5face043200b
 feature: Web Editor Configuration
 role: Admin
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 ---
 
-# AEM Standardwörterbuch anpassen {#id209SD8000WU}
+# Anpassen des Standardwörterbuchs von AEM {#id209SD8000WU}
 
-Der Web Editor kann so konfiguriert werden, dass er die Rechtschreibprüfung AEM oder die Rechtschreibprüfung des Browsers verwendet. Wenn Sie sich dafür entscheiden, mit AEM Rechtschreibprüfung zu arbeiten, erhalten Sie die Flexibilität, Ihre benutzerdefinierte Wortliste zu definieren. Diese benutzerdefinierten Wörter werden dann zum AEM Wörterbuch hinzugefügt und diese Wörter werden im Web Editor nicht als \(falsch\) gekennzeichnet.
+Der Web-Editor kann so konfiguriert werden, dass er die Rechtschreibprüfung von AEM oder die Rechtschreibprüfung des Browsers verwendet. Wenn Sie die Rechtschreibprüfung von AEM verwenden, können Sie die Liste der benutzerdefinierten Wörter definieren. Diese benutzerdefinierten Wörter werden dann dem AEM-Wörterbuch hinzugefügt, und diese Wörter werden im Web-Editor nicht als \(falsch\) gekennzeichnet.
 
-Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierte Wortliste zu erstellen, die AEM Wörterbuch hinzugefügt wird:
+Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierte Wortliste zu erstellen, die im AEM-Wörterbuch hinzugefügt werden:
 
 1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
@@ -26,15 +26,15 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierte Wortliste zu 
 
 1. Erstellen Sie eine neue Datei mit dem Namen user\_dictionary.txt.
 
-1. Öffnen Sie die Datei und fügen Sie eine Liste von Wörtern hinzu, die Sie in Ihrem benutzerdefinierten Wörterbuch definieren möchten.
+1. Öffnen Sie die Datei und fügen Sie eine Liste von Wörtern hinzu, die Sie im benutzerdefinierten Wörterbuch definieren möchten.
 
-   Der folgende Screenshot zeigt die Liste der benutzerdefinierten Wörter, die der Datei &quot;user\_dictionary.txt&quot;hinzugefügt wurden:
+   Der folgende Screenshot zeigt eine Liste mit benutzerdefinierten Wörtern, die der Datei user\_dictionary.txt hinzugefügt wurden:
 
    ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
 
 1. Speichern und schließen Sie die Datei.
 
 
-Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die benutzerdefinierte Wörterbuchliste im AEM Wörterbuch aktualisiert wird.
+Autorinnen und Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die Liste der benutzerdefinierten Wörter im AEM-Wörterbuch aktualisiert wird.
 
-**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

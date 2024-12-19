@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren des Titels für die Symbole Einchecken und Auschecken
-description: Erfahren Sie, wie Sie den Titel für die Symbole "Ein- und Auschecken"konfigurieren
+title: Konfigurieren des Titels für die Symbole „Einchecken“ und „Auschecken“
+description: Erfahren Sie, wie Sie den Titel für die Symbole zum Ein- und Auschecken konfigurieren
 exl-id: a8888a17-e819-4fa2-bb6f-cafe1002803a
 feature: Web Editor Configuration
 role: Admin
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# Konfigurieren des Titels für die Symbole &quot;Ein- und Auschecken&quot;
+# Konfigurieren des Titels für die Symbole Einchecken und Auschecken
 
-Mit AEM Guides können Sie den Titel für die Symbole &quot;Ein- und Auschecken&quot;im Web Editor konfigurieren. Führen Sie die folgenden Schritte aus, um den Titel für die Symbole Einchecken und Auschecken zu konfigurieren:
+Mit AEM Guides können Sie den Titel für die Ein- und Auschecksymbole im Web-Editor konfigurieren. Führen Sie die folgenden Schritte aus, um den Titel für die Symbole zum Ein- und Auschecken zu konfigurieren:
 
-1. Laden Sie die Konfigurationsdatei der Benutzeroberfläche herunter, indem Sie sich bei Adobe Experience Manager als Administrator anmelden.
+1. Laden Sie die Konfigurationsdatei für die Benutzeroberfläche herunter, indem Sie sich als Administrator bei Adobe Experience Manager anmelden.
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
-1. Wählen Sie **Handbücher** aus der Liste der Tools und klicken Sie auf **Ordnerprofile**.
-1. Klicken Sie auf die Kachel **Globales Profil** .
-1. Wählen Sie die Registerkarte **XML-Editor-Konfiguration** aus und klicken Sie oben auf das Symbol **Bearbeiten** .
-1. Klicken Sie im Abschnitt **Konfiguration der XML-Editor-Benutzeroberfläche** auf das Symbol **Download** , um die Datei `ui_config.json` auf Ihr lokales System herunterzuladen.
-1. Ändern Sie in der Datei `ui_config.json` den Titel im Abschnitt &quot;topbar&quot;. Sie können die folgenden Werte ändern:
+1. Wählen Sie **Guides** aus der Liste der Tools aus und klicken Sie auf **Ordnerprofile**.
+1. Klicken Sie auf die **Globales Profil**-Kachel.
+1. Wählen Sie die Registerkarte **XML** Editor-Konfiguration) aus und klicken Sie oben auf **Symbol** Bearbeiten“.
+1. Klicken Sie im Abschnitt **Konfiguration der Benutzeroberfläche des XML** Editors auf das **Herunterladen**-Symbol, um die `ui_config.json`-Datei auf Ihr lokales System herunterzuladen.
+1. Ändern Sie in der `ui_config.json`-Datei den Titel im Abschnitt „topbar“. Sie können die folgenden Werte ändern:
 
    ```json
    //Change title to "Check out" instead of "Lock"

@@ -1,6 +1,6 @@
 ---
-title: Ausgabevorgaben für Global- und Ordnerprofile verwalten
-description: Erfahren Sie, wie Sie in AEM Guides Ausgabevorgaben für globale Profile und Ordnerprofile erstellen, bearbeiten, umbenennen, duplizieren und löschen.
+title: Verwalten von globalen und Ordnerprofil-Ausgabevorgaben
+description: Erfahren Sie, wie Sie in AEM Guides globale Ausgabevorgaben und Ordnerprofile als Admin-Benutzerinnen und -Benutzer erstellen, bearbeiten, umbenennen, duplizieren und löschen.
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
 feature: Authoring, Features of Web Editor, Publishing
 role: User
@@ -11,46 +11,46 @@ ht-degree: 0%
 
 ---
 
-# Ausgabevorgaben für Global- und Ordnerprofile verwalten {#id22BLJ0D0V1U}
+# Verwalten von globalen und Ordnerprofil-Ausgabevorgaben {#id22BLJ0D0V1U}
 
-Die Vorgaben &quot;Global&quot;und &quot;Ordnerprofil&quot;stehen nur Administratoren auf Ordnerebene zur Verfügung.
+Die globalen Vorgaben und Ordnerprofilvorgaben sind nur für Benutzer mit Administratorrechten auf Ordnerebene verfügbar.
 
-Als Administrator können Sie mit AEM Guides Ausgabevorgaben für die globalen und Ordnerprofile erstellen und verwalten. Dann können Sie diese Ausgabevorgaben einfach verwenden, um Ausgaben für alle Maps zu generieren, die mit diesem globalen oder Ordnerprofil verbunden sind.
+Als Administrator können Sie mit AEM Guides Ausgabevorgaben für die globalen Profile und Ordnerprofile erstellen und verwalten. Anschließend können Sie diese Ausgabevorgaben einfach verwenden, um eine Ausgabe für alle Zuordnungen zu generieren, die mit diesem globalen Profil oder Ordnerprofil verknüpft sind.
 
-Führen Sie die folgenden Schritte aus, um eine Ausgabevorgabe für die Profile Global und Ordner zu erstellen:
+Führen Sie die folgenden Schritte aus, um eine Ausgabevorgabe für die globalen Profile und Ordnerprofile zu erstellen:
 
 1. Wählen Sie die DITA-Zuordnung aus, für die Sie eine Ausgabevorgabe erstellen möchten.
-1. Wählen Sie die Option **Themen bearbeiten** aus dem Menü **Optionen** der Zuordnungsdatei aus. Die Zuordnungsdatei wird zur Bearbeitung im Web-Editor geöffnet.
-1. Wählen Sie auf der Registerkarte **Ausgabe** das Symbol + aus, um eine Ausgabevorgabe für Ihre DITA-Zuordnung zu erstellen.
+1. Wählen Sie **Option** bearbeiten aus dem Menü **Optionen** der Zuordnungsdatei aus. Die Zuordnungsdatei wird zur Bearbeitung im Web-Editor geöffnet.
+1. Wählen **auf der Registerkarte** Ausgabe“ das Symbol + aus, um eine Ausgabevorgabe für Ihre DITA-Zuordnung zu erstellen.
 
    ![](images/add-global-output-preset.png){width="350" align="left"}
 
 1. Geben Sie die folgenden Details im Dialogfeld **Vorgabe hinzufügen** ein:
    - Typ
    - Name
-   - Ziel \(für die Knowledgebase-Vorgabe\)
-1. Aktivieren Sie das Kontrollkästchen **Zum Ordnerprofil hinzufügen** , um eine Ausgabevorgabe für das zugehörige Ordnerprofil zu erstellen, und klicken Sie dann auf **Hinzufügen**. Die Vorgabe wird erstellt und auf der Registerkarte **Ausgabe** aller zugehörigen Maps angezeigt. Das Symbol \( ![](images/global-preset-icon.svg)\) gibt eine Vorgabe auf Ordnerprofilebene an.
-1. Geben Sie die Konfigurationsdetails ein. Weitere Informationen zu Ausgabevorgaben finden Sie unter [Grundlegendes zu den Ausgabevorgaben](./generate-output-understand-presets.md).
+   - Target \(für Knowledgebase-Voreinstellung\)
+1. Aktivieren Sie **Kontrollkästchen** Zu Ordnerprofil hinzufügen“, um eine Ausgabevorgabe für das zugehörige Ordnerprofil zu erstellen, und klicken Sie dann auf **Hinzufügen**. Die Vorgabe wird erstellt und auf der Registerkarte **Ausgabe** aller zugehörigen Zuordnungen angezeigt. \( ![](images/global-preset-icon.svg)\) zeigt eine Vorgabe auf Ordnerprofilebene an.
+1. Geben Sie die Konfigurationsdetails ein. Weitere Informationen zu Ausgabevorgaben finden Sie unter [Grundlegendes zu Ausgabevorgaben](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >
-   > Diese Vorgaben, die zum Ordnerprofil hinzugefügt werden, sind unabhängig von den Karten, sodass die zuordnungsspezifischen Konfigurationen für diese Vorgaben nicht vorhanden sind.
+   > Diese dem Profilordner hinzugefügten Vorgaben sind unabhängig von den Zuordnungen, sodass die Zuordnungsspezifischen Konfigurationen für diese Vorgaben nicht vorhanden sind.
 
-1. Sie können oben das Symbol **Vorgabe generieren** auswählen, um die Ausgabe für die mit der erstellten Ausgabevorgabe verknüpften Zuordnungen zu generieren. Sie sehen den Status des Generierungsprozesses der Ausgabe. Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf **Ausgabe anzeigen**.
-
->[!NOTE]
->
-> AEM Guides bietet außerdem eine vordefinierte PDF-Ausgabevorgabe zum Generieren der Ausgabe für Ihre DITA-Maps.
-
-**Andere Vorgänge aus dem Menü &quot;Optionen&quot;**
-
-Sie können auch die folgenden Vorgänge für die Vorgabe im Menü Optionen ausführen:
-
-- Wählen Sie die Vorgabe als Standard-PDF-Vorgabe aus. Anschließend wird die ausgewählte Vorgabe als Standardvorgabe verwendet, um die PDF-Ausgabe mithilfe der Option **Als PDF herunterladen** für eine Zuordnung zu generieren.
-- **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** einer vorhandenen Ausgabevorgabe aus dem Menü **Optionen**.
+1. Sie können oben das Symbol **Vorgabe generieren** auswählen, um die Ausgabe für die Zuordnungen zu generieren, die sich auf die erstellte Ausgabevorgabe beziehen. Sie sehen den Status des Ausgabegenerierungsprozesses. Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf **Ausgabe anzeigen**.
 
 >[!NOTE]
 >
-> Wenn eine Ausgabevorgabe in den globalen und Ordnerprofilen gelöscht wird, wird sie in allen zugehörigen Maps angezeigt und nicht auf der Registerkarte **Ausgabe**.
+> AEM Guides bietet außerdem eine vordefinierte PDF-Ausgabevorgabe, um die Ausgabe für Ihre DITA-Zuordnungen zu generieren.
+
+**Andere Vorgänge über das Menü Optionen**
+
+Sie können die folgenden Vorgänge für die Voreinstellung auch über das Menü Optionen ausführen:
+
+- Wählen Sie die Vorgabe als Standard-PDF-Vorgabe aus. Dann wird die ausgewählte Voreinstellung als Standardvorgabe verwendet, um die PDF-Ausgabe mit der Option **Als PDF herunterladen** für eine Zuordnung zu generieren.
+- **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** eine vorhandene Ausgabevorgabe aus dem Menü **Optionen**.
+
+>[!NOTE]
+>
+> Wenn eine Ausgabevorgabe in globalen Profilen und Ordnerprofilen gelöscht wird, wird sie in allen zugehörigen Zuordnungen widergespiegelt und nicht auf der Registerkarte **Ausgabe** angezeigt.
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

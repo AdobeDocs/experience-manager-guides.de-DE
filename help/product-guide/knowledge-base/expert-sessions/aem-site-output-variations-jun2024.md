@@ -1,21 +1,21 @@
 ---
 title: Ausgabevarianten für AEM Sites
-description: Erfahren Sie, wie Sie verschiedene Varianten der AEM Sites-Ausgabe aus AEM Guides generieren.
-source-git-commit: e4873d61fce4a44cf77fadb2b1a4425252c71af8
+description: Erfahren Sie, wie Sie verschiedene Varianten der AEM Sites-Ausgabe aus AEM Guides generieren
+exl-id: 47881e72-b289-4bf0-8824-55825f1502b2
+source-git-commit: 9f85a92ad4c0749dd10a334d2f0c15906cd84099
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 3%
 
 ---
 
-
 # Sitzungsübersicht
 
-Ein klar definiertes Layout eines Web-Erlebnisses führt zu konsistentem Anwendungs-Branding
-und Design zusammen mit Einheitlichkeit und Kohärenz im gesamten digitalen Umfeld
-Erlebnis/Seiten der Plattform.
-All dies kann durch verschiedene Variationen der Site-Ausgabe erreicht werden, die von Adobe Experience Manager-Handbüchern angeboten wird.
-In dieser Sitzung erfahren Sie, wie Sie verschiedene Varianten der Ausgabe AEM Sites generieren.
+Ein klar definiertes Layout eines Web-Erlebnisses führt zu einem konsistenten Programm-Branding
+und Design zusammen mit Einheitlichkeit und Kohärenz in der gesamten digitalen
+Erfahrung/Seiten der Plattform.
+All dies kann durch verschiedene Variationen der AEM-Site-Ausgabe erreicht werden, die von Adobe Experience Manager Guides angeboten werden.
+In dieser Sitzung erfahren Sie, wie Sie verschiedene Varianten der AEM-Site-Ausgabe generieren.
 
 ## Sitzungsaufzeichnung
 
@@ -25,10 +25,10 @@ In dieser Sitzung erfahren Sie, wie Sie verschiedene Varianten der Ausgabe AEM S
 
 In dieser Sitzung erfahren Sie mehr über Folgendes:
 
-- Verschiedene Angebote vom Typ Vorlagen in AEM
-- Informationen zum Erstellen von Varianten basierend auf Vorlagen oder Veröffentlichungsmechanismen
+- Unterschiedliche Vorlagentypen für Angebote in AEM
+- Verstehen, wie Varianten basierend auf Vorlagen oder Veröffentlichungsmechanismen erstellt werden
 - Unterschiede bei der Verwendung der einzelnen Vorlagen/Mechanismen
-- Verwenden von bereits vorhandenen Sites-Vorlagen zum Erstellen AEM Sites-Ausgabe
+- Verwenden von bereits vorhandenen Sites-Vorlagen zum Erstellen der AEM-Site-Ausgabe
 
 ## Lichter
 
@@ -40,18 +40,18 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 ## Verwandte Ressourcen
 
 
-- [AEM Site-Ausgabe veröffentlichen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
+- Veröffentlichung der [AEM-Site-Ausgabe](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
 - [KB Output Publishing](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
-- [AEM Vorlagen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
+- [AEM-Vorlagen](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **Community-Forum** - Besuchen Sie für sitzungsspezifische Community-Interaktionen auf dem Experience League das [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Die in der Sitzung präsentierten Funktionen sind in der Cloud-Version 2406 von AEM Guides verfügbar.
+> Die in der Sitzung gezeigten Funktionen werden in der Cloud-Version 2406 von AEM Guides gezeigt.
 
 ## Kontakt
 
-Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>
+Bei Fragen senden Sie uns bitte eine E-Mail an <techcomm@adobe.com>

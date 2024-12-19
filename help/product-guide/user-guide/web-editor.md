@@ -1,6 +1,6 @@
 ---
 title: Arbeiten mit dem Web-Editor
-description: Erstellen und bearbeiten Sie strukturierte Dokumente mit dem Webeditor. Erfahren Sie, wie Sie mit dem Web-Editor nach den DITA-Standards in AEM Guides arbeiten.
+description: Erstellen und Bearbeiten strukturierter Dokumente mithilfe des Web-Editors. Erfahren Sie, wie Sie gemäß den DITA-Standards in AEM Guides mit dem Web-Editor arbeiten.
 exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
@@ -13,37 +13,37 @@ ht-degree: 0%
 
 # Arbeiten mit dem Web-Editor {#id181OD0QE05Z}
 
-AEM Guides verfügt über einen benutzerfreundlichen Web-basierten Web-Editor zum Erstellen und Bearbeiten strukturierter Dokumente. Der Editor blendet alle Komplexität der DITA-Struktur aus dem Autor aus. Der Editor bietet eine Liste von DITA-Elementen, die ein Benutzer normalerweise für die Arbeit in einem Dokument benötigen würde.
+AEM Guides verfügt über einen benutzerfreundlichen Web-basierten Web-Editor zum Erstellen und Bearbeiten strukturierter Dokumente. Der Editor verbirgt dem Autor alle Komplexitäten der DITA-Struktur. Der Editor stellt eine Liste der DITA-Elemente bereit, die ein Benutzer normalerweise in einem Dokument arbeiten muss.
 
-Außerdem unterstützt der Web Editor DITA-basiert und DITA 1.3, 1.2-Standards, leichtes DITA und auch spezialisierte DITA. Dies bedeutet, dass Sie nicht die Möglichkeit haben, Elemente an Orten zu platzieren, die nicht den DITA-Standards entsprechen. Mit dem Web Editor können Sie auch mit den am häufigsten verwendeten Block- und Inline-Elementen arbeiten.
+Außerdem ist der Web-Editor DITA-fähig und unterstützt die Standards DITA 1.3, 1.2, Lightweight DITA sowie spezielle DITA-Versionen. Dies bedeutet, dass Sie Elemente nicht an Stellen platzieren können, die nicht den DITA-Standards entsprechen. Mit dem Web-Editor können Sie auch mit den am häufigsten verwendeten Block- und Inline-Elementen arbeiten.
 
-- **[Starten des Web Editors](web-editor-launch-editor.md)**
+- **[Starten Sie den Web-Editor](web-editor-launch-editor.md)**
 
 - **[Bearbeiten von Themen im Web-Editor](web-editor-edit-topics.md)**
 
-- **[Die Funktionen des Web-Editors kennen](web-editor-features.md)**
+- **[Kennenlernen der Funktionen des Web-Editors](web-editor-features.md)**
 
 - **[Tastaturbefehle im Web-Editor](web-editor-keyboard-shortcuts.md)**
 
-- **[Andere Funktionen im Web-Editor](web-editor-other-features.md)**
+- **[Weitere Funktionen im Web-Editor](web-editor-other-features.md)**
 
-- **[Ansichten des Web-Editors](web-editor-views.md)**
+- **[Web-Editor-Ansichten](web-editor-views.md)**
 
-- **[Autor-Markdown-Dokumente aus dem Web-Editor](web-editor-markdown-topic.md)**
+- **[Erstellen Sie Markdown-Dokumente über den Web-Editor](web-editor-markdown-topic.md)**
 
-- **[Ausgabevorgaben für Global- und Ordnerprofil verwalten](web-editor-manage-output-presets.md)**
+- **[Globale Ausgabevorgaben und Ordnerprofile verwalten](web-editor-manage-output-presets.md)**
 
-- **[Artikelbasierte Veröffentlichung aus dem Web-Editor](web-editor-article-publishing.md)**
+- **[Artikelbasierte Veröffentlichung im Web-Editor](web-editor-article-publishing.md)**
 
-- **[Verwenden Sie den Bereich &quot;Schnellgenerierung&quot;, um Ausgabe zu generieren und anzuzeigen](web-editor-quick-generate-panel.md)**
+- **[Verwenden Sie das Bedienfeld „Schnellgenerierung“, um Ausgaben zu generieren und anzuzeigen](web-editor-quick-generate-panel.md)**
 
-- **[Dokumente aus dem Web-Editor übersetzen](translate-documents-web-editor.md)**
+- **[Übersetzen von Dokumenten aus dem Web-Editor](translate-documents-web-editor.md)**
 
-- **[Erstellen und Verwalten von Grundlinien im Web-Editor](web-editor-baseline.md)**
+- **[Erstellen und Verwalten von Baselines über den Web-Editor](web-editor-baseline.md)**
 
 - **[Dokumentstatus](web-editor-document-states.md)**
 
-- **[Bezeichnungen verwenden](web-editor-use-label.md)**
+- **[Kennzeichnungen verwenden](web-editor-use-label.md)**
 
 
-**Übergeordnetes Thema:**[ Autoreninhalt mit AEM Guides](authoring-content-xml-doc.md)
+**Übergeordnetes Thema:**[ Erstellen von Inhalten mit AEM Guides](authoring-content-xml-doc.md)

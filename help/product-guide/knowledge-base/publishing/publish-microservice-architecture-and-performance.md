@@ -1,6 +1,6 @@
 ---
-title: Architektur und Leistung von Cloud Publishing Microservice
-description: Erfahren Sie, wie der neue Microservice eine skalierbare Veröffentlichung auf AEMaaCS ermöglicht.
+title: Architektur und Leistung des Cloud-Publishing-Microservices
+description: Erfahren Sie, wie der neue Microservice skalierbare Veröffentlichungen in AEMaaCS ermöglicht.
 exl-id: 948fce3f-b989-48f0-9a85-e921717e2986
 feature: Microservice in AEM Guides
 role: User, Admin
@@ -11,73 +11,73 @@ ht-degree: 0%
 
 ---
 
-# Architektur und Leistungsanalyse von Cloud Publishing Microservice
+# Cloud Publishing Microservice-Architektur und Leistungsanalyse
 
-Dieser Artikel gibt einen Überblick über die Architektur und Leistungszahlen des neuen Cloud Publishing-Microservice.
+In diesem Artikel werden die Einblicke in die Architektur und die Leistungszahlen des neuen Cloud Publishing-Microservices vorgestellt.
 
 >[!NOTE]
 >
-> Microservice-basierte Veröffentlichung in AEM Guides unterstützt die Typen von PDF (nativ und DITA-OT-basiert), HTML5, JSON und benutzerdefinierten Ausgabevorgaben.
+> Die auf Microservices basierende Veröffentlichung in AEM Guides unterstützt PDF (sowohl nativ als auch DITA-OT-basiert), HTML5, JSON und BENUTZERDEFINIERTE Typen von Ausgabevorgaben.
 
 ## Probleme mit vorhandenen Veröffentlichungs-Workflows in der Cloud
 
-DITA Publishing ist ein ressourcenintensiver Prozess, der hauptsächlich von verfügbarem Systemspeicher und CPU abhängig ist. Der Bedarf an diesen Ressourcen steigt weiter, wenn Herausgeber große Maps mit vielen Themen veröffentlichen oder wenn mehrere parallele Veröffentlichungsanforderungen ausgelöst werden.
+DITA-Publishing ist ein ressourcenintensiver Prozess, der hauptsächlich vom verfügbaren Systemspeicher und CPU abhängt. Der Bedarf an diesen Ressourcen steigt weiter, wenn Publisher große Karten mit vielen Themen veröffentlichen oder wenn mehrere parallele Veröffentlichungsanfragen ausgelöst werden.
 
-Wenn Sie den neuen Dienst nicht verwenden, erfolgt die gesamte Veröffentlichung auf demselben Kubernetes(k8)-Pod, auf dem auch der AEM Cloud-Server ausgeführt wird. Ein typischer k8-Pod hat eine Beschränkung auf die Menge an Arbeitsspeicher und CPU, die er verwenden kann. Wenn AEM Guides-Benutzer große oder parallele Arbeitslasten veröffentlichen, kann diese Grenze schnell überschritten werden. K8 startet Pods neu, die versuchen, mehr Ressourcen als das konfigurierte Limit zu verwenden, was sich ernsthaft auf die AEM Cloud-Instanz selbst auswirken kann.
+Wenn Sie den neuen Service nicht verwenden, erfolgt die gesamte Veröffentlichung auf demselben Kubernetes(k8)-Pod, auf dem auch der AEM-Cloud-Server ausgeführt wird. Ein typischer K8-Pod hat eine Begrenzung für den Arbeitsspeicher und die CPU, die er verwenden kann. Wenn AEM Guides-Benutzende große oder parallele Arbeitslasten veröffentlichen, kann diese Grenze schnell überschritten werden. K8 startet Pods neu, die versuchen, mehr Ressourcen als das konfigurierte Limit zu verwenden, was schwerwiegende Auswirkungen auf die AEM-Cloud-Instanz selbst haben kann.
 
-Diese Ressourcenbegrenzung war die Hauptmotivation, einen dedizierten Dienst einzurichten, der es uns ermöglicht, mehrere gleichzeitige und große Veröffentlichungsarbeitslasten in der Cloud auszuführen.
+Diese Ressourcenbeschränkung war die Hauptmotivation, einen dedizierten Service zu entwickeln, der es uns ermöglicht, mehrere gleichzeitige und große Veröffentlichungs-Workloads in der Cloud auszuführen.
 
 ## Einführung in die neue Architektur
 
-Der Dienst verwendet Adobe-Edge-Cloud-Lösungen wie App Builder, IO Eventing und IMS, um ein Server-loses Angebot zu erstellen. Diese Dienstleistungen basieren selbst auf den allgemein anerkannten Industriestandards wie Kubernetes und Docker.
+Der Service verwendet hochmoderne Cloud-Lösungen wie App Builder, IO Eventing und IMS von Adobe, um ein Server-loses Angebot zu schaffen. Diese Dienste basieren selbst auf den weithin akzeptierten Industriestandards wie Kubernetes und Docker.
 
-Jede Anfrage an den neuen Veröffentlichungs-Microservice wird in einem isolierten Docker-Container ausgeführt, der jeweils nur eine Veröffentlichungsanforderung ausführt. Wenn neue Veröffentlichungsanforderungen empfangen werden, werden automatisch mehrere neue Container erstellt. Diese einzelne Container-Konfiguration pro Anfrage ermöglicht es dem Microservice, die beste Leistung für die Kunden bereitzustellen, ohne Sicherheitsrisiken einzuführen. Diese Container werden verworfen, sobald die Veröffentlichung beendet ist, sodass nicht verwendete Ressourcen frei werden.
+Jede Anfrage an den neuen Veröffentlichungs-Microservice wird in einem isolierten Docker-Container ausgeführt, der jeweils nur eine Veröffentlichungsanfrage ausführt. Es werden automatisch mehrere neue Container erstellt, falls neue Veröffentlichungsanfragen eingehen. Dieser einzelne Container pro Anforderungskonfiguration ermöglicht es dem Microservice, den Kunden die beste Leistung zu bieten, ohne Sicherheitsrisiken einzugehen. Diese Container werden verworfen, sobald die Veröffentlichung abgeschlossen ist, wodurch nicht verwendete Ressourcen freigegeben werden.
 
-Alle diese Nachrichten werden durch Adobe IMS mit JWT-basierter Authentifizierung und Autorisierung gesichert und über HTTPS ausgeführt.
+Alle diese Kommunikationen werden durch Adobe IMS mithilfe von JWT-basierter Authentifizierung und Autorisierung gesichert und über HTTPS ausgeführt.
 
-<img src="assets/architecture.png" alt="Projekt-Tab" width="600">
+<img src="assets/architecture.png" alt="Registerkarte Projekte" width="600">
 
 >[!NOTE]
 >
-> Durch den Veröffentlichungsprozess werden einige inhaltsabhängige Teile der Anforderung auf dem AEM-Server selbst ausgeführt, z. B. die Erstellung von Abhängigkeitslisten. Die umfangreichsten Teile des Veröffentlichungsprozesses, wie z. B. die Ausführung von DITA-OT oder der nativen Engine, wurden jedoch in den neuen Dienst abgeladen.
+> Der Veröffentlichungsprozess führt einige inhaltsabhängige Teile der Anfrage auf dem AEM-Server selbst aus, z. B. die Erstellung einer Abhängigkeitsliste. Die umfassendsten Teile des Publishing-Prozesses wie die Ausführung von DITA-OT oder die native Engine wurden jedoch auf den neuen Service abgeladen.
 
 
 ## Leistungsanalyse
 
-In diesem Abschnitt werden die Leistungszahlen des Microservice vorgestellt. Er vergleicht die Leistung des Microservice mit dem On-Premise-Angebot von AEM Guides, da die alte Cloud-Architektur Probleme bei gleichzeitiger Veröffentlichung oder der Veröffentlichung sehr großer Karten hatte.
+Dieser Abschnitt zeigt die Leistungsnummern des Microservices. Er vergleicht die Leistung des Microservices mit dem On-Premise-Angebot von AEM Guides, da die alte Cloud-Architektur Probleme bei der gleichzeitigen Veröffentlichung oder der Veröffentlichung sehr großer Karten hatte.
 
-Wenn Sie eine große Karte in On-Premise veröffentlichen, müssen Sie möglicherweise die Java-Heap-Parameter anpassen, da andernfalls Fehler wegen zu wenig Arbeitsspeicher auftreten können. In der Cloud ist der Microservice bereits profiliert und verfügt standardmäßig über optimale Java-Heap- und andere Konfigurationen.
+Wenn Sie eine große Karte On-Premise veröffentlichen, müssen Sie möglicherweise die Java-Heap-Parameter anpassen, da sonst Fehler wegen zu wenig Arbeitsspeicher auftreten können. In der Cloud ist der Microservice bereits profiliert und verfügt standardmäßig über optimalen Java-Heap und andere Konfigurationen.
 
-### Ausführen einer Veröffentlichung in Cloud im Vergleich zu On-Premise
-
-* Cloud
-
-  Wenn Sie mit dem neuen Dienst eine einzelne Veröffentlichung in Cloud ausführen, kann die Veröffentlichung im Vergleich zur einmaligen On-Premise-Veröffentlichung etwas länger dauern. Diese leichte Zeiterhöhung ist auf die verteilte Natur der neuen Cloud-Architektur zurückzuführen.
-
-  <img src="assets/cloud_single_publish.png" alt="Projekt-Tab" width="600">
-
-* On-Premise
-
-  Die Ergebnisse der Veröffentlichung mit einer einzigen Veröffentlichung sind in der alten Cloud-Architektur oder On-Premise besser, da die vollständige Veröffentlichung auf demselben Pod/Computer erfolgt, auf dem AEM ausgeführt wird.
-
-  <img src="assets/onprem_single_publish.png" alt="Projekt-Tab" width="600">
-
-### Mehrere Veröffentlichungen in Cloud und On-Premise durchführen
+### Ausführen einer Veröffentlichungsinstanz in der Cloud im Vergleich zu On-Premise
 
 * Cloud
 
-  Der neue Publishing-Microservice scheint in diesem Szenario. Wie Sie aus dem unten stehenden Bild sehen können, kann die Cloud mit der Zunahme an mehreren gleichzeitigen Veröffentlichungsaufträgen diese veröffentlichen, ohne dass die Veröffentlichungszeit erheblich verlängert wird.
+  Wenn Sie eine einzelne Veröffentlichung in der Cloud mit dem neuen Service ausführen, kann die Veröffentlichung im Vergleich zur einzigen On-Premise-Veröffentlichung etwas mehr Zeit in Anspruch nehmen. Diese leicht erhöhte Zeit ist auf die verteilte Natur der neuen Cloud-Architektur zurückzuführen.
 
-  <img src="assets/cloud_bulk_publish.png" alt="Projekt-Tab" width="600">
+  <img src="assets/cloud_single_publish.png" alt="Registerkarte Projekte" width="600">
 
 * On-Premise
 
-  Die gleichzeitige Veröffentlichung auf einem On-Premise-Server führt zu einer erheblichen Leistungsbeeinträchtigung. Dieser Leistungsabfall ist schlimmer, wenn Herausgeber noch mehr Karten gleichzeitig veröffentlichen.
+  Die Ergebnisse der einzelnen Veröffentlichungen sind in der alten Cloud-Architektur oder On-Premise besser, da die vollständige Veröffentlichung auf demselben Pod/Computer erfolgt, auf dem AEM ausgeführt wird.
 
-  <img src="assets/onprem_bulk_publish.png" alt="Projekt-Tab" width="600">
+  <img src="assets/onprem_single_publish.png" alt="Registerkarte Projekte" width="600">
+
+### Ausführen mehrerer Veröffentlichungen in der Cloud im Vergleich zu On-Premise
+
+* Cloud
+
+  In diesem Szenario glänzt der neue Veröffentlichungs-Microservice. Wie Sie in der folgenden Abbildung sehen können, ist Cloud in der Lage, mehrere gleichzeitige Veröffentlichungsaufträge zu veröffentlichen, ohne dass die Veröffentlichungszeit erheblich verlängert wird.
+
+  <img src="assets/cloud_bulk_publish.png" alt="Registerkarte Projekte" width="600">
+
+* On-Premise
+
+  Das gleichzeitige Veröffentlichen auf einem On-Premise-Server führt zu einer erheblichen Leistungsbeeinträchtigung. Dieser Leistungsabfall ist schwerwiegender, wenn Herausgeber noch mehr Karten gleichzeitig veröffentlichen.
+
+  <img src="assets/onprem_bulk_publish.png" alt="Registerkarte Projekte" width="600">
 
 ## Zusätzliche Vorteile
 
-Ein Teil jeder Veröffentlichungsanforderung muss auf der AEM ausgeführt werden, um den richtigen Veröffentlichungsinhalt abzurufen, der an den Microservice gesendet werden soll. Die neue Cloud-Architektur verwendet AEM Aufträge anstelle AEM Workflows, wie es in der alten Architektur der Fall war. Diese Änderung ermöglicht es AEM Guides-Administratoren, Cloud-Publishing-Warteschlangeneinstellungen individuell zu konfigurieren, ohne andere AEM Aufträge oder Workflow-Konfigurationen zu beeinträchtigen.
+Ein Teil jeder Veröffentlichungsanfrage muss auf der AEM-Instanz ausgeführt werden, um den richtigen Veröffentlichungsinhalt abzurufen, der an den Microservice gesendet werden soll. Die neue Cloud-Architektur verwendet AEM-Aufträge anstelle von AEM-Workflows, wie es in der alten Architektur der Fall war. Diese Änderung ermöglicht es AEM Guides-Administratoren, die Einstellungen für die Cloud-Publishing-Warteschlange individuell zu konfigurieren, ohne dass andere AEM-Aufträge oder Workflow-Konfigurationen betroffen sind.
 
-Details zur Konfiguration des neuen Veröffentlichungs-Microservice finden Sie hier: [Microservice konfigurieren](configure-microservices.md)
+Details zum Konfigurieren des neuen Veröffentlichungs-Microservice finden Sie hier: [Konfigurieren des Microservice](configure-microservices.md)

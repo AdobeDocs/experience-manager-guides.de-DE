@@ -1,5 +1,5 @@
 ---
-title: Benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren
+title: Konfigurieren einer benutzerdefinierten DITA-Zuordnungsvorlage
 description: Erfahren Sie, wie Sie eine benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren
 exl-id: ea8a6687-1a7b-45c7-8cbc-161f9e88a8be
 feature: Template Configuration
@@ -12,47 +12,47 @@ ht-degree: 1%
 
 ---
 
-# Benutzerdefinierte DITA-Zuordnungsvorlage konfigurieren {#id1774F04F05Z}
+# Konfigurieren einer benutzerdefinierten DITA-Zuordnungsvorlage {#id1774F04F05Z}
 
-AEM Guides verfügt über zwei vordefinierte Zuordnungsvorlagen - DITA Map und Bookmap. Sie können auf diesen Vorlagen basierende Karten erstellen oder eigene Zuordnungsvorlagen definieren, die dann zur Erstellung neuer Maps verwendet werden können.
+AEM Guides verfügt über zwei vordefinierte Kartenvorlagen - DITA Map und Bookmap. Sie können Karten basierend auf diesen Vorlagen erstellen oder eigene Karten-Vorlagen definieren, die dann zur Erstellung neuer Karten verwendet werden können.
 
 Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierten Zuordnungsvorlagen hinzuzufügen:
 
 1. Melden Sie sich bei Adobe Experience Manager als Administrator an.
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu dem Ordner, der zum Speichern der Zuordnungsvorlagendateien konfiguriert ist. Standardmäßig werden alle Zuordnungsvorlagen im Ordner /content/dam/dita-templates/maps gespeichert.
+1. Navigieren Sie in der Assets-Benutzeroberfläche zu dem Ordner, der zum Speichern der Zuordnungsvorlagendateien konfiguriert wurde. Standardmäßig werden alle Zuordnungsvorlagen im Ordner /content/dam/dita-templates/maps gespeichert.
 
    >[!NOTE]
    >
-   > Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts zum Speichern von Themen- oder Zuordnungsvorlagen finden Sie unter [Pfad des benutzerdefinierten DITA-Vorlagenordners konfigurieren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
+   > Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts für Themen- oder Zuordnungsvorlagen finden Sie unter [Konfigurieren eines benutzerdefinierten DITA-Vorlagenordnerpfads](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
 
-1. Klicken Sie auf **Erstellen** \> **DITA-Vorlage**.
+1. Klicken Sie **Erstellen** \> **DITA-Vorlage**.
 
-1. Wählen Sie auf der Blueprint-Seite den Typ der zu erstellenden Zuordnungsvorlage aus.
+1. Wählen Sie auf der Blueprint-Seite den Typ der Zuordnungsvorlage aus, die Sie erstellen möchten.
 
    >[!NOTE]
    >
-   > Sie können die Vorlage Map oder Bookmap als Basis für Ihre neue Vorlage verwenden.
+   > Sie können die Zuordnungs- oder Bookmap-Vorlage als Basis für Ihre neue Vorlage verwenden.
 
 1. Klicken Sie auf **Weiter**.
 
-1. Geben Sie auf der neuen Seite &quot;Vorlageneigenschaften&quot;einen **Titel** und einen **Namen** für die Vorlage ein.
+1. Geben Sie auf der Seite „Eigenschaften“ der neuen Vorlage **&quot;**&quot; und **Name** für die Vorlage ein.
 
    >[!NOTE]
    >
-   > Der Name wird basierend auf dem Titel der Vorlage automatisch vorgeschlagen. Wenn Sie den Namen manuell angeben möchten, stellen Sie sicher, dass der Name keine Leerzeichen, Apostroph oder Klammern enthält und mit .ditamap endet.
+   > Der Name wird automatisch auf Grundlage des Titels der Vorlage vorgeschlagen. Wenn Sie den Namen manuell angeben möchten, stellen Sie sicher, dass der Name keine Leerzeichen, Apostrophe oder geschweifte Klammern enthält und mit &quot;.ditamap“ endet.
 
 1. Klicken Sie auf **Erstellen**.
 
-   Die Meldung Zuordnungserstellung wird angezeigt.
+   Die Meldung Map Created wird angezeigt.
 
-   Sie können die Vorlage zum Bearbeiten im Map Editor öffnen oder die Vorlagendatei am Speicherort der Vorlage speichern. Nachdem die Vorlage erstellt wurde, können Sie den Map Editor verwenden, um die Vorlage entsprechend Ihren Authoring-Anforderungen anzupassen. Nachdem eine Vorlage erstellt wurde, stellen Sie sicher, dass Sie sie entweder mit einem globalen Profil oder einem Profil auf Ordnerebene verknüpfen.
+   Sie können die Vorlage zur Bearbeitung im Map-Editor öffnen oder die Vorlagendatei im Vorlagenspeicher speichern. Nachdem die Vorlage erstellt wurde, können Sie den Zuordnungs-Editor verwenden, um die Vorlage entsprechend Ihren Authoring-Anforderungen anzupassen. Nachdem Sie eine Vorlage eingerichtet haben, stellen Sie sicher, dass Sie sie entweder mit einem globalen Profil oder einem Profil auf Ordnerebene verknüpfen.
 
 
-Wenn Sie das nächste Mal eine neue Zuordnung erstellen, wird Ihre Vorlage auf der Blueprint-Seite angezeigt. Weitere Informationen zum Erstellen einer DITA-Zuordnung finden Sie unter *Verwenden von Adobe Experience Manager Guides*.
+Wenn Sie das nächste Mal eine neue Karte erstellen, wird Ihre Vorlage auf der Blueprint-Seite angezeigt. Weitere Informationen zum Erstellen einer DITA-Zuordnung finden Sie unter *Verwenden von Adobe Experience Manager Guides*.
 
 >[!TIP]
 >
-> Best Practices zur Verwendung von benutzerdefinierten Zuordnungsvorlagen finden Sie im Abschnitt *Benutzerdefinierte Vorlagen* im Best Practices-Handbuch.
+> Best *Practices zur Verwendung benutzerdefinierter Zuordnungsvorlagen finden Sie* Abschnitt Benutzerdefinierte Vorlagen im Handbuch zu Best Practices .
 
 **Übergeordnetes Thema:** [Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)

@@ -1,6 +1,6 @@
 ---
-title: Gültige Dateinamen für AEM Site-Ausgabe konfigurieren
-description: Erfahren Sie, wie Sie gültige Dateinamen für AEM Site-Ausgabe konfigurieren.
+title: Konfigurieren gültiger Dateinamen für die AEM-Site-Ausgabe
+description: Erfahren Sie, wie Sie gültige Dateinamen für die AEM-Site-Ausgabe konfigurieren
 exl-id: 1e69d6f8-7baf-4189-bbbd-34cd0fec6634
 feature: Filename Configuration
 role: Admin
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Gültige Dateinamen für AEM Site-Ausgabe konfigurieren {#id214GK0X0KXA}
+# Konfigurieren gültiger Dateinamen für die AEM-Site-Ausgabe {#id214GK0X0KXA}
 
-Ähnlich wie bei der Liste gültiger Dateinamenzeichen, die für DITA-Themen zulässig sind, können Sie auch eine Liste gültiger Dateinamenzeichen für AEM Site-Ausgabe konfigurieren. Einige der bekannten Zeichen, die in einer URL nicht zulässig sind, sind: ```'<>`@$```. Diese Zeichen werden so konfiguriert, dass sie automatisch in einen Unterstrich (_) umgewandelt werden, wenn sie beim Generieren AEM Site-Ausgabedateinamen gefunden werden. Die Konfiguration, mit der Sie gültige Zeichen in AEM Site-Ausgabe festlegen können, ist im Bundle `com.adobe.fmdita.common.SanitizeNodeNameImpl` vorhanden. **Setzen Sie die Einstellung &quot;Unzulässiger Zeichensatz für Veröffentlichung in AEM Sites**&quot;so, dass Zeichen, die Sie durch einen Unterstrich ersetzen möchten, in die Namen der Ausgabedateien der AEM Site aufgenommen werden.
+Ähnlich wie bei der Liste gültiger Dateinamenzeichen, die für DITA-Themen zulässig sind, können Sie auch eine Liste gültiger Dateinamenzeichen für die AEM-Site-Ausgabe konfigurieren. Zu den bekannten Zeichen, die in einer URL nicht zulässig sind, zählen: ```'<>`@$```. Diese Zeichen werden so konfiguriert, dass sie automatisch in einen Unterstrich „_“ konvertiert werden, wenn sie beim Generieren von AEM Site-Ausgabedateinamen gefunden werden. Die Konfiguration, mit der Sie gültige Zeichen in der AEM-Site-Ausgabe festlegen können, ist im `com.adobe.fmdita.common.SanitizeNodeNameImpl`-Bundle vorhanden. **Legen Sie die Einstellung Nicht zulässiger Zeichensatz für die Veröffentlichung in AEM Sites** fest, um Zeichen einzuschließen, die Sie in den Ausgabedateinamen der AEM-Site durch einen Unterstrich ersetzen möchten.
 
 **Übergeordnetes Thema:**[ Dateinamen konfigurieren](conf-file-names.md)

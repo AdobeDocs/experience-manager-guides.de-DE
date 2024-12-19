@@ -1,6 +1,6 @@
 ---
 title: Web-Editor-Ansichten
-description: Dokumente im Autoren-, Quell- und Vorschaumodus anzeigen. Erfahren Sie, wie Sie Inhalte basierend auf bedingten Filtern anzeigen, die Markierungen von Änderungen verfolgen und ein Thema als PDF in AEM Guides exportieren können.
+description: Dokumente im Autoren-, Quell- und Vorschaumodus anzeigen. Erfahren Sie, wie Sie Inhalte basierend auf bedingten Filtern anzeigen, Änderungen und Markierungen verfolgen und ein Thema als PDF in AEM Guides exportieren.
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
@@ -13,142 +13,142 @@ ht-degree: 0%
 
 # Web-Editor-Ansichten {#id204GK0D0V5Z}
 
-Der Web Editor von AEM Guides unterstützt das Anzeigen von Dokumenten in drei verschiedenen Modi oder Ansichten:
+Der Web-Editor von AEM Guides unterstützt die Anzeige von Dokumenten in drei verschiedenen Modi oder Ansichten:
 
 ## Author
 
-Dies ist eine typische Ansicht des Web-Editors, was Sie sehen, was Sie \(WYSISYG\) erhalten. Sie können das Thema wie in jedem normalen Rich-Text-Editor bearbeiten. In der Autorenansicht haben Sie die Möglichkeit, eine Revision des Dokuments zu speichern, Inhalte zu suchen und zu ersetzen, Elemente einzufügen, Hyperlinks einzufügen, Inhaltsreferenz einzufügen und vieles mehr.
+Dies ist eine typische Ansicht von What You See Is What You Get \(WYSISYG\) des Web-Editors. Sie können Themen wie in jedem normalen Rich-Text-Editor bearbeiten. In der Autorenansicht haben Sie die Möglichkeit, eine Revision des Dokuments zu speichern, Inhalte zu suchen und zu ersetzen, Elemente einzufügen, Hyperlinks einzufügen, Inhaltsreferenz einzufügen und vieles mehr.
 
 >[!NOTE]
 >
-> Wenn Sie den Inhaltsverweis verwenden, wird der referenzierte Inhalt auch in der Autorenansicht in blauer Farbe angezeigt. Der referenzierte Inhalt kann nicht bearbeitet werden.
+> Wenn Sie die Inhaltsreferenz verwenden, wird der referenzierte Inhalt auch in der Autorenansicht in blauer Farbe angezeigt. Der referenzierte Inhalt kann nicht bearbeitet werden.
 
 ## Quelle
 
-Die Source-Ansicht zeigt die zugrunde liegende XML-Datei an, aus der das Thema besteht. Wenn Sie sich mit der direkten Arbeit mit XML vertraut machen, sollten Sie die Source-Ansicht verwenden. Sie können in dieser Ansicht nicht nur reguläre Textänderungen vornehmen, sondern auch Elemente und Attribute mithilfe des Smart-Katalogs hinzufügen oder Text, Elemente oder Attribute suchen und ersetzen.
+Die Source-Ansicht zeigt die zugrunde liegende XML an, aus der das Thema besteht. Wenn Sie mit der direkten Arbeit mit XML vertraut sind, sollten Sie die Source-Ansicht verwenden. Zusätzlich zu den regulären Textbearbeitungen in dieser Ansicht können Sie mit dem Smart-Katalog auch Elemente und Attribute hinzufügen oder Text, Elemente oder Attribute suchen und ersetzen.
 
-- Um den Smart-Katalog aufzurufen, platzieren Sie den Cursor am Ende jedes Element-Tags, in das Sie das neue Element einfügen möchten, und geben Sie &quot;&lt;&quot;ein. Der Editor zeigt eine Liste aller gültigen XML-Elemente an, die Sie an diesem Speicherort einfügen können. Verwenden Sie die Pfeiltasten, um das einzufügende Element auszuwählen, und drücken Sie die Eingabetaste. Wenn Sie die schließende Klammer &quot;\> eingeben, wird das schließende Tag für das Element automatisch hinzugefügt.
+- Um den Smart-Katalog aufzurufen, platzieren Sie den Cursor an das Ende jedes Element-Tags, an dem Sie das neue Element einfügen möchten, und geben Sie &quot;&lt;&quot; ein. Der Editor zeigt eine Liste aller gültigen XML-Elemente an, die Sie an dieser Stelle einfügen können. Wählen Sie mit den Pfeiltasten das einzufügende Element aus und drücken Sie die Eingabetaste. Wenn Sie die schließende Klammer &quot;\> eingeben, wird automatisch das schließende Tag für das Element hinzugefügt.
 
   ![](images/smart-catalog-elements.png){width="400" align="left"}
 
-- Sie können ein Element auch einfach in der Source-Ansicht ändern. Wenn Sie beispielsweise das öffnende Tag eines `p` -Elements in `note` ändern, wird das schließende `p` -Tag automatisch in `/note` geändert. Wenn Sie ein Element durch ein falsches Element ersetzen, wird Ihnen sofort der Validierungsfehler angezeigt.
+- Sie können ein Element auch einfach über die Source-Ansicht ändern. Wenn Sie beispielsweise das öffnende Tag eines `p` Elements in `note` ändern, wird das schließende `p` Tag automatisch in `/note` geändert. Wenn Sie ein Element durch ein falsches Element ersetzen, wird Ihnen sofort der Validierungsfehler angezeigt.
 
-- Wenn Sie einem Element ein Attribut hinzufügen möchten, platzieren Sie den Cursor in das Element-Tag und drücken Sie die Leertaste. Eine Liste gültiger Attribute für dieses Element wird im Smart-Katalog angezeigt. Wählen Sie mithilfe der Pfeiltasten das gewünschte Element aus und drücken Sie die Eingabetaste , um das Element einzufügen. Um einen Wert für das Attribut anzugeben, geben Sie das Gleichheitszeichen \(=\) ein und der Editor gibt automatisch die öffnenden und schließenden Anführungszeichen &quot;&quot; ein, wobei Sie den Wert des Attributs angeben können.
+- Wenn Sie einem Element ein Attribut hinzufügen möchten, platzieren Sie den Cursor in das Element-Tag und drücken Sie die Leertaste. Eine Liste gültiger Attribute für dieses Element wird im Smart-Katalog angezeigt. Verwenden Sie die Pfeiltasten, um das gewünschte Element auszuwählen, und drücken Sie die Eingabetaste , um das Element einzufügen. Um einen Wert für das Attribut anzugeben, geben Sie das Gleichheitszeichen \(=\) ein, und der Editor gibt automatisch die Anfangs- und Schlussanführungszeichen &quot;&quot; ein, in denen Sie den Wert des Attributs angeben können.
 
   ![](images/smart-catalog-attribute.png){width="350" align="left"}
 
-- In der Source-Ansicht gibt es die Option &quot;Automatischer Einzug&quot;, mit der der XML-Code in einem lesbaren und darstellbaren Format neu organisiert wird. Wenn Sie einen Text auswählen und von der Autoren- zu Source- oder Source- zur Autorenansicht wechseln, wird der ausgewählte Text auch in der anderen Ansicht hervorgehoben.
-- Eine weitere leistungsstarke Funktion in der Source-Ansicht ist die XML-Validierung in Ihrem Dokument. Wenn Sie ein Dokument öffnen, das ungültiges XML enthält, wird es in der Source-Ansicht mit Informationen zu ungültigem XML geöffnet. Im folgenden Screenshot erhalten Sie beispielsweise im Popup Parse-Fehler die genauen Informationen zur fehlerhaften XML-Datei.
+- In der Source-Ansicht gibt es eine Option für das automatische Einziehen, die den XML-Code in einem darstellbaren und leicht lesbaren Format neu organisiert. Wenn Sie außerdem einen Text auswählen und von der Autoren- zur Source- oder von der Source- zur Autorenansicht wechseln, wird der ausgewählte Text auch in der anderen Ansicht hervorgehoben.
+- Eine weitere leistungsstarke Funktion in der Source-Ansicht ist die XML-Validierung in Ihrem Dokument. Wenn Sie ein Dokument öffnen, das ungültige XML enthält, wird es in der Source-Ansicht mit den Informationen zu ungültiger XML geöffnet. Im folgenden Screenshot sehen Sie beispielsweise die genauen Informationen über die fehlerhafte XML im Popup-Fenster „Fehler bei der Analyse“.
 
   ![](images/invalid-topic-xml.png){width="650" align="left"}
 
-  Im obigen Screenshot wird eine Kreuzmarkierung verwendet, um auf die Zeile zu verweisen, die fehlerhaftes XML enthält.
+  Im obigen Screenshot wird eine Kreuzhervorhebung verwendet, um die Zeile mit fehlerhafter XML darauf hinzuweisen.
 
-- Mit der Funktion &quot;Suchen und Ersetzen&quot;können Sie in der Source-Ansicht nach Text, Elementen oder Attributen suchen.
-Weitere Informationen finden Sie in der Beschreibung der Funktion **Suchen und Ersetzen** im Abschnitt [Hauptsymbolleiste](web-editor-features.md#id#id2051EA0G05Z) .
+- Mit der Funktion „Suchen und Ersetzen“ können Sie in der Source-Ansicht nach beliebigen Texten, Elementen oder Attributen suchen.
+Weitere Informationen finden Sie in der Beschreibung **Suchen und Ersetzen** im Abschnitt [Haupt-](web-editor-features.md#id#id2051EA0G05Z)).
 
-- Die Source-Ansicht bietet viele Tastaturbefehle, mit denen Sie schnell zu einem Dokument navigieren und daran arbeiten können. In der folgenden Tabelle sind die unterstützten Aktionen und ihre Tastaturbefehle aufgeführt:
+- Die Source-Ansicht bietet viele Tastaturbefehle, mit denen Sie schnell zu einem Dokument navigieren und es bearbeiten können. In der folgenden Tabelle sind die unterstützten Aktionen und ihre Tastaturbefehle aufgeführt:
 
-  | Gehen Sie dazu folgendermaßen vor | Verwenden Sie diesen Tastaturbefehl |
+  | Gehen Sie dazu folgendermaßen vor | Diese Tastenkombination verwenden |
   |----------|-----------------|
   | Mehrere Cursor hinzufügen | **Strg**+Linksklick |
-  | Mehrere nicht aufeinander folgende Textauswahlen | **Strg** + Klicken mit der linken Maustaste, um Text zu ziehen und auszuwählen |
-  | Text über und zwischen Zeilen auswählen | **Alt** + Klicken mit der linken Maustaste, um Text zu ziehen und auszuwählen |
-  | Mehrfachauswahl rückgängig machen oder Vollbildmodus beenden | **Esc** |
-  | Automatische Vervollständigung anzeigen | **Strg**+**Leerzeichen** |
-  | Navigieren Sie zum öffnenden oder schließenden -Tag des aktuellen Tags | **Strg**+**J** |
-  | Erweitern oder Reduzieren des aktuellen Tags und seines Inhalts | **Strg**+**Q** |
-  | Aktuelles Element und Inhalt auswählen | **Strg**+**L** |
-  | Aktuelles Element ausschließen | **Umschalt**+**Tab** |
-  | Aktuelles Element und Inhalt löschen | **Umschalt**+**Strg**+**K** |
-  | Cursor ein Wort nach links verschieben | **Alt**+**Linkspfeil** |
-  | Cursor ein Wort nach rechts verschieben | **ALT**+**Rechtspfeil** |
-  | Scrollen Sie eine Zeile nach oben, ohne die Cursorposition zu ändern. | **Strg**+**Aufwärtspfeil** |
-  | Scrollen Sie eine Zeile nach unten, ohne die Cursorposition zu ändern | **Strg**+**Nach-unten-Taste** |
+  | Mehrere nicht aufeinander folgende Textauswahlen | **Strg**+Linksklick zum Ziehen und Auswählen von Text |
+  | Text über und zwischen Zeilen auswählen | **Alt**+Linksklick zum Ziehen und Auswählen von Text |
+  | Mehrfachauswahl rückgängig machen oder Vollbildmodus beenden | **ESC** |
+  | Automatisch vervollständigen anzeigen | **Strg**+**Leertaste** |
+  | Zum öffnenden oder schließenden Tag des aktuellen Tags gehen | **Strg**+**J** |
+  | Das aktuelle Tag und seinen Inhalt erweitern oder reduzieren | **Strg**+**Q** |
+  | Aktuelles Element und seinen Inhalt auswählen | **Strg**+**L** |
+  | Ausrücken des aktuellen Elements | **Umschalt**+**Tab** |
+  | Löscht das aktuelle Element und seinen Inhalt | **Umschalt**+**Strg**+**K** |
+  | Cursor ein Wort nach links bewegen | **Alt**+**Nach-links-Taste** |
+  | Cursor ein Wort nach rechts bewegen | **Alt**+**Nach-rechts-Taste** |
+  | Eine Zeile nach oben scrollen, ohne die Cursorposition zu ändern | **Strg**+**Nach-oben-Taste** |
+  | Eine Zeile nach unten scrollen, ohne die Cursorposition zu ändern | **Strg**+**Abwärtspfeil** |
   | Vollbild ein/aus | **F11** |
-  | Fügen Sie eine neue Zeile nach dem aktuellen Element ein | **Strg**+**Enter** |
-  | Einfügen einer neuen Zeile vor dem aktuellen Element | **Umschalt**+**Strg**+**Eingabetaste** |
-  | Suchen und wählen Sie das nächste Vorkommen des aktuellen Wortes aus | **Strg**+**D** |
-  | Verschieben Sie das aktuelle Element und seinen Inhalt um ein Element nach oben | **Umschalt**+**Strg**+**Aufwärtspfeil** |
-  | Verschieben Sie das aktuelle Element und seinen Inhalt um ein Element nach unten | **Umschalt**+**Strg**+**Abwärtspfeil** |
-  | Umschließen des aktuellen Elements im Kommentar-Tag | **Strg**+**/** |
-  | Aktuelles Element und Inhalt duplizieren | **Umschalt**+**Strg**+**D** |
-  | Löschen Sie Text nach dem Cursor. Wenn der Cursor vor einem öffnenden Element steht, wird das gesamte Element gelöscht. | **Strg**+**K**+**K** |
-  | Löschen Sie Text links neben dem Cursor in der aktuellen Zeile. Wenn der Cursor hinter dem schließenden -Tag eines Elements steht, wird das gesamte Element gelöscht. | **Strg**+**K**+**Rücktaste** |
-  | Aktuellen Text in Großbuchstaben konvertieren | **Strg**+**K**+**U** |
-  | Aktuellen Text in Kleinbuchstaben konvertieren | **Strg**+**K**+**L** |
-  | Scrollen Sie im aktuellen Element zur Mitte des Editors | **Strg**+**K**+**C** |
-  | Cursor über der aktuellen Position hinzufügen | **Strg**+**Alt**+**Aufwärtspfeil** |
-  | Cursor unterhalb der aktuellen Position hinzufügen | **Strg**+**ALT**+**Nach-unten-Taste** |
-  | Suchen Sie rekursiv das aktuelle Wort \(in Vorwärtsrichtung\). | **Strg**+**F3** |
-  | Suchen Sie rekursiv das aktuelle Wort \(in Rückwärtsrichtung\). | **Umschalt**+**Strg**+**F3** |
+  | Fügt eine neue Zeile nach dem aktuellen Element ein | **Strg**+**Eingabetaste** |
+  | Fügt eine neue Zeile vor dem aktuellen Element ein | **Umschalt**+**Strg**+**Eingabe** |
+  | Sucht und wählt das nächste Vorkommen des aktuellen Wortes aus | **Strg**+**D** |
+  | Aktuelles Element und dessen Inhalt um ein Element nach oben verschieben | **Umschalt**+**Strg**+**Nach-oben-Taste** |
+  | Aktuelles Element und dessen Inhalt um ein Element nach unten verschieben | **Umschalt**+**Strg**+**Nach-unten-Taste** |
+  | Aktuelles Element in Kommentar-Tag einschließen | **Strg**+**/** |
+  | Aktuelles Element und seinen Inhalt duplizieren | **Umschalt**+**Strg**+**D** |
+  | Text nach dem Cursor löschen. Wenn sich der Cursor vor einem öffnenden Element befindet, wird das gesamte Element gelöscht. | **Strg**+**K**+**K** |
+  | Löscht den Text links vom Cursor in der aktuellen Zeile. Wenn sich der Cursor hinter dem schließenden -Tag eines Elements befindet, wird das gesamte Element gelöscht. | **Strg**+**K**+**Rücktaste** |
+  | Konvertiert den aktuellen Text in Großbuchstaben | **Strg**+**K**+**U** |
+  | Konvertiert den aktuellen Text in Kleinbuchstaben | **Strg**+**K**+**L** |
+  | Scrollen Sie das aktuelle Element zur Mitte des Editors | **Strg**+**K**+**C** |
+  | Einen Cursor über der aktuellen Position hinzufügen | **Strg**+**Alt**+**Nach-oben-Taste** |
+  | Einen Cursor unterhalb der aktuellen Position hinzufügen | **Strg**+**Alt**+**Abwärtspfeil** |
+  | Rekursives Auffinden des aktuellen Wortes \(in Vorwärtsrichtung\) | **Strg**+**F3** |
+  | Rekursives Auffinden des aktuellen Wortes \(in Rückwärtsrichtung\) | **Umschalt**+**Strg**+**F3** |
 
 
 ## Vorschau
 
-Beim Öffnen eines Themas im Vorschaumodus wird angezeigt, wie ein Thema angezeigt wird, wenn es von einem Benutzer in seinem Browser angezeigt wird. Bei einer DITA-Zuordnung wird eine Vorschau der Karte angezeigt, wobei ein einzelnes zusammengesetztes Dokument aller Themen innerhalb der Karte angezeigt wird.
+Beim Öffnen eines Themas im Vorschaumodus wird angezeigt, wie ein Thema angezeigt wird, wenn es von einem Benutzer im Browser angezeigt wird. Im Falle einer DITA-Karte wird eine Vorschau der Karte angezeigt, bei der ein einziges zusammengesetztes Dokument aller Themen innerhalb der Karte angezeigt wird.
 
-Im Vorschau -Modus stehen folgende Funktionen zur Verfügung:
+Der Vorschaumodus bietet die folgenden Funktionen:
 
-- [Anzeigen von Inhalten basierend auf bedingten Filtern](#id2114BI00VXA)
-- [Anzeigen der Markierungen von Änderungen](#id2114BJ00CE8)
+- [Inhalte basierend auf bedingten Filtern anzeigen](#id2114BI00VXA)
+- [Anzeigen der Markierungen zum Nachverfolgen von Änderungen](#id2114BJ00CE8)
 - [Thema als PDF exportieren](#id2114BL00B5U)
 
-### Anzeigen von Inhalten basierend auf bedingten Filtern {#id2114BI00VXA}
+### Inhalte basierend auf bedingten Filtern anzeigen {#id2114BI00VXA}
 
-Wenn Sie Bedingungen in Ihrem Thema oder Ihrer Zuordnung verwendet haben, werden diese Bedingungen im Bedienfeld Filter angezeigt. Standardmäßig werden alle Bedingungen ausgewählt und der gesamte Inhalt angezeigt. Wenn Sie die Auswahl einer Bedingung aufheben, wird der Inhalt mit dieser Bedingung aus der Ansicht entfernt. Sie können auch bedingte Inhalte hervorheben.
+Wenn Sie Bedingungen in Ihrem Thema oder Ihrer Karte verwendet haben, werden diese Bedingungen im Bedienfeld Filter angezeigt. Standardmäßig sind alle Bedingungen ausgewählt und der gesamte Inhalt wird angezeigt. Wenn Sie die Auswahl einer Bedingung aufheben, wird der Inhalt mit dieser Bedingung aus der Ansicht entfernt. Sie können auch bedingte Inhalte hervorheben.
 
-Die folgende Abbildung zeigt ein Thema, das zwei Bedingungen verwendet: `Audience` und `Product`. Der konditionalisierte Inhalt wird durch einen gelben Hintergrund hervorgehoben.
+Die folgende Abbildung zeigt ein Thema, das zwei Bedingungen verwendet - `Audience` und `Product`. Der bedingte Inhalt wird mit gelbem Hintergrund hervorgehoben.
 
 ![](images/preview-filters.png){width="800" align="left"}
 
-### Anzeigen der Markierungen von Änderungen {#id2114BJ00CE8}
+### Anzeigen der Markierungen zum Nachverfolgen von Änderungen {#id2114BJ00CE8}
 
-Wenn ein Dokument Änderungen verfolgen enthält \(oder visuelle Hinweise\), können Sie auch eine Vorschau des Dokuments mit oder ohne diese Markups anzeigen. Bei der Vorschau eines Dokuments enthält der rechte Bereich die Optionen Filter und Verfolgung .
+Wenn ein Dokument Markierungen enthält, die Änderungen verfolgen \(oder visuelle Hinweise\), können Sie das Dokument auch mit oder ohne diese Markierungen in der Vorschau anzeigen. Bei der Vorschau eines Dokuments enthält das rechte Bedienfeld die Filter und Tracking-Optionen.
 
 ![](images/preview-tracking_cs.png){width="400" align="left"}
 
-Es gibt drei **Tracking** -Optionen, aus denen Sie wählen können:
+Es gibt drei **Tracking**-Optionen, aus denen Sie wählen können:
 
-- **Kein Markup**: In dieser Ansicht werden alle Einfügungen und Löschungen akzeptiert und eine einfache Ansicht des Dokuments wird angezeigt. In dieser Ansicht werden keine Markups von Änderungen verfolgt.
-- **Original**: In dieser Ansicht werden alle Einfügungen zurückgewiesen und alle Löschungen wiederhergestellt. Anschließend wird eine Vorschau angezeigt. Einfach erhalten Sie die Originalform des Dokuments, bevor Sie den Modus Änderungen verfolgen aktiviert haben.
-- **Markup anzeigen**: In dieser Ansicht erhalten Sie alle Markups für eingefügten und gelöschten Inhalt.
+- **Kein Markup**: In dieser Ansicht werden alle Einfügungen und Löschungen akzeptiert, und eine einfache Ansicht des Dokuments wird angezeigt. In dieser Ansicht werden keine Markierungen zum Nachverfolgen von Änderungen angezeigt.
+- **Original**: In dieser Ansicht werden alle Einfügungen abgelehnt, alle Löschungen werden wiederhergestellt und eine Vorschau wird angezeigt. Einfach gesagt, Sie erhalten die Originalform des Dokuments, bevor Sie den Modus Änderungen nachverfolgen aktiviert haben.
+- **Markup anzeigen**: In dieser Ansicht erhalten Sie alle Markierungen für eingefügte und gelöschte Inhalte.
 
-  Die folgende Abbildung zeigt die Vorschau einer Map-Datei mit Markups:
+  Die folgende Abbildung zeigt die Vorschau einer Zuordnungsdatei mit Markierungen:
 
   ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
 
 
 ### Thema als PDF exportieren {#id2114BL00B5U}
 
-PDF ist eines der gängigsten Ausgabeformate, das in jeder Phase des Dokumententwicklungszyklus verwendet wird. AEM Guides bietet Ihnen die Flexibilität, die PDF eines einzelnen Themas oder einer gesamten Zuordnungsdatei zu generieren. Die Funktion &quot;Als PDF exportieren&quot;ermöglicht es dem Autor, Publisher oder einem Administrator, die PDF-Ausgabe für ein bestimmtes Thema einfach zu generieren. Es verwendet die im Ordnerprofil gespeicherten DITA-OT-Konfigurationen, um die PDF zu generieren.
+PDF ist eines der gängigsten Ausgabeformate, die in jeder möglichen Phase des Dokumentenentwicklungszyklus verwendet werden. AEM Guides bietet Ihnen die Flexibilität, die PDF eines einzelnen Themas oder einer gesamten Zuordnungsdatei zu generieren. Mit der Funktion „Als PDF exportieren“ können Autor, Publisher oder Admin einfach die PDF-Ausgabe für ein einzelnes Thema generieren. Sie verwendet die im Profil auf Ordnerebene gespeicherten DITA-OT-Konfigurationen, um die PDF zu generieren.
 
 Diese Funktion unterstützt die folgenden Funktionen:
 
-- Generieren Sie die PDF der derzeit aktiven Arbeitskopie eines Themas.
-- Akzeptieren Sie den DITA-OT-Transformationsnamen und die Befehlszeilenargumente, um die PDF zu generieren.
+- Erzeugt die PDF der aktuell aktiven Arbeitskopie eines Themas.
+- Akzeptieren Sie den DITA-OT-Umwandlungsnamen und die Befehlszeilenargumente, um die PDF zu generieren.
 - Speichern Sie die generierte Ausgabe auf dem lokalen System.
-- Lösen Sie die im Thema verwendeten Schlüssel- und Inhaltsreferenzen, bevor Sie die Ausgabe generieren.
+- Lösen Sie die im Thema verwendeten Schlüssel- und Inhaltsreferenzen auf, bevor Sie die Ausgabe generieren.
 
 Gehen Sie wie folgt vor, um ein Thema als PDF zu exportieren:
 
 1. Öffnen Sie das Thema im Vorschaumodus.
 
-1. Klicken Sie auf das Symbol **Als PDF exportieren** \(![](images/export-as-pdf-icon.svg)\).
+1. Klicken Sie auf **Als PDF exportieren** \(![](images/export-as-pdf-icon.svg)\) Symbol.
 
    Das Dialogfeld Als PDF exportieren wird angezeigt.
 
    ![](images/export-as-pdf-dialog.png){width="350" align="left"}
 
-1. *\(Optional\)* Geben Sie den DITA-OT-Transformationsnamen und alle Befehlszeilenargumente an, die Sie verwenden möchten.
+1. *\(Optional\)* Geben Sie den Namen der DITA-OT-Transformation und alle Befehlszeilenargumente an, die Sie verwenden möchten.
 
 1. Klicken Sie auf **Herunterladen**.
 
    >[!NOTE]
    >
-   > Vergewissern Sie sich, dass Sie das Popup-Fenster in der Browserkonfiguration aktiviert haben. Andernfalls wird die PDF nicht heruntergeladen.
+   > Vergewissern Sie sich, dass Sie das Popup-Fenster in der Browser-Konfiguration aktiviert haben, da die PDF sonst nicht heruntergeladen wird.
 
-   Die PDF wird in einer neuen Registerkarte generiert und geöffnet oder Sie erhalten ein Dialogfeld zum Speichern der PDF auf Ihrem lokalen System.
+   Die PDF wird generiert und in einer neuen Registerkarte geöffnet. Andernfalls wird ein Dialogfeld zum Speichern der PDF auf Ihrem lokalen System angezeigt.
 
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

@@ -1,6 +1,6 @@
 ---
-title: Weitere Funktionen im Map-Editor
-description: Entdecken Sie einige gängige Funktionen im Basic- und Advanced Map Editor. Erfahren Sie, wie Sie wichtige Verweise im Map-Editor auflösen.
+title: Weitere Funktionen in den Zuordnungs-Editoren
+description: Entdecken Sie einige allgemeine Funktionen im Standard- und im erweiterten Zuordnungs-Editor. Erfahren Sie, wie Sie wichtige Verweise im Zuordnungs-Editor auflösen.
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
@@ -11,34 +11,34 @@ ht-degree: 0%
 
 ---
 
-# Weitere Funktionen im Map-Editor {#id1942D0T0HUI}
+# Weitere Funktionen in den Zuordnungs-Editoren {#id1942D0T0HUI}
 
-Einige allgemeine Funktionen im Basic- und Advanced Map Editor sind:
+Zu den gebräuchlichen Funktionen im Standard- und im erweiterten Zuordnungs-Editor gehören:
 
-## Schlüsselverweise auflösen {#id176GD01H05Z}
+## Auflösen von Schlüsselverweisen {#id176GD01H05Z}
 
-Ein DITA-Inhaltsschlüsselverweis oder `conkeyref` ist ein Mechanismus zum Einfügen eines Inhaltsteils von einem Thema in ein anderes. Dieser Mechanismus verwendet den Schlüssel zum Auffinden des wiederzuverwendenden Inhalts anstelle des Mechanismus für die direkte Inhaltsreferenz. Weitere Informationen zu direkten und indirekten Verweisen in DITA finden Sie unter *DITA-Adressierung* in der OASIS DITA-Sprachspezifikation.
+Ein DITA-Inhaltsschlüssel-Verweis (oder `conkeyref`) ist ein Mechanismus zum Einfügen eines Teils des Inhalts von einem Thema in ein anderes. Dieser Mechanismus verwendet den Schlüssel zum Auffinden des wiederzuverwendenden Inhalts und nicht den direkten Inhaltsverweismechanismus. Weitere Informationen zum direkten und indirekten Verweisen in DITA finden Sie unter *DITA-Adressierung* in der DITA-Sprachspezifikation von OASIS.
 
-Wenn das DITA-Thema mit Schlüsselverweisen verknüpft ist, müssen diese vor der Vorschau, Bearbeitung oder Überprüfung eines Themas aufgelöst werden.
+Wenn mit dem DITA-Thema Schlüsselverweise verknüpft sind, müssen diese aufgelöst werden, bevor ein Thema in der Vorschau angezeigt, bearbeitet oder überprüft werden kann.
 
-Die Schlüsselreferenzen werden auf der Grundlage der in der folgenden Prioritätsreihenfolge festgelegten Stammzuordnung aufgelöst:
+Die Schlüsselverweise werden auf der Grundlage der Stammzuordnung aufgelöst, die in der folgenden Prioritätsreihenfolge festgelegt ist:
 
 1. Benutzereinstellungen
-1. Bedienfeld &quot;Landkartenansicht&quot;
+1. Kartenansichtsbereich
 1. Ordnerprofil
 
-Die in den Benutzereinstellungen ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen, gefolgt vom Bedienfeld Kartenansicht und der Stammzuordnung des Ordnerprofils. Wenn also in den Benutzereinstellungen keine Zuordnung festgelegt ist, wird die im Bedienfeld Kartenansicht geöffnete Karte verwendet. Wenn keine Zuordnung im Bereich &quot;Map View&quot;geöffnet ist, wird die in den Ordnerprofilen festgelegte Zuordnung verwendet, um die Schlüsselverweise aufzulösen.
+Die in den Benutzereinstellungen ausgewählte Stammzuordnung hat die höchste Priorität, um wichtige Verweise aufzulösen, gefolgt vom Bereich für die Zuordnungsansicht und der Stammzuordnung des Ordnerprofils. Wenn in den Benutzereinstellungen also keine Zuordnung festgelegt ist, wird die im Bereich „Kartenansicht“ geöffnete Zuordnung verwendet. Wenn im Bereich der Zuordnungsansicht keine Zuordnung geöffnet ist, wird der Zuordnungssatz im Ordner Profile verwendet, um die Schlüsselverweise aufzulösen.
 
-Die Schlüsselreferenzen können in einer DITA-Map-Datei oder einer separaten DITA-Datei gespeichert werden. In AEM Guides können Sie Schlüsselreferenzen entweder auf Projekt- oder Sitzungsebene angeben. Wenn bereits eine Stammzuordnung für die Benutzersitzung definiert ist, wird sie zum Auflösen der Schlüssel verwendet. Andernfalls wird die standardmäßige Stammzuordnung für diesen Ordner verwendet. Wenn keine standardmäßige Stammzuordnung konfiguriert ist, werden die fehlenden Schlüsselverweise für den Benutzer hervorgehoben.
+Die Schlüsselverweise können in einer DITA-Map-Datei oder einer separaten DITA-Datei gespeichert werden. In AEM Guides können Sie wichtige Verweise entweder auf Projekt- oder Sitzungsebene angeben. Wenn für die Benutzersitzung bereits eine Stammzuordnung definiert ist, wird diese zur Auflösung der Schlüssel verwendet. Andernfalls wird die Standard-Stammzuordnung für diesen Ordner verwendet. Wenn keine standardmäßige Stammzuordnung konfiguriert ist, werden die fehlenden Schlüsselverweise für den Benutzer hervorgehoben.
 
-Es gibt mehrere Möglichkeiten, wichtige Verweise in einem DITA-Thema zu beheben, indem die DITA-Zuordnung definiert wird, die an den folgenden Stellen verwendet werden soll:
+Es gibt mehrere Möglichkeiten, wichtige Verweise in einem DITA-Thema aufzulösen, indem Sie die DITA-Zuordnung definieren, die an den folgenden Stellen verwendet werden soll:
 
-**Projekteigenschaften** - Sie können eine Stammzuordnung zum Auflösen von Schlüsselverweisen beim Erstellen eines Projekts im Abschnitt &quot;Projekteigenschaften&quot;definieren.
+**Projekteigenschaften** - Sie können im Abschnitt Projekteigenschaften eine Stammzuordnung definieren, in der die wichtigsten Verweise beim Erstellen eines Projekts aufgelöst werden.
 
-Diese Stammzuordnung gilt für alle Assets \(Ordner und Unterordner\), die mit diesem Projekt verknüpft sind. Für Inhalte, die in mehreren Projekten referenziert werden, wird eine alphabetische Liste von Projekten verwaltet und die Standardstammkarte, die dem ersten Projekt zugeordnet ist, wird verwendet. Sie können auch die DITA-Zuordnung auswählen, die in der Liste zum Auflösen von Schlüsselverweisen verwendet werden soll.
+Diese Stammzuordnung gilt für alle mit diesem Projekt verknüpften Assets \(Ordner und Unterordner\). Für Inhalte, auf die in mehreren Projekten verwiesen wird, wird eine alphabetische Liste der Projekte beibehalten und die standardmäßige Stammzuordnung, die mit dem ersten Projekt verknüpft ist, wird verwendet. Sie können auch die DITA-Map auswählen, die für die Auflösung von Schlüsselverweisen in der Liste verwendet werden soll.
 
-**Themenvorschau** - Klicken Sie im Themenvorschaumodus in der Symbolleiste auf das Symbol Schlüsselauflösung und wählen Sie die DITA-Datei aus, die für Schlüsselverweise verwendet werden soll.
+**Themenvorschau** - Klicken Sie im Themenvorschau-Modus in der Symbolleiste auf das Symbol für die Tastenauflösung und wählen Sie die DITA-Datei aus, die für wichtige Verweise verwendet werden soll.
 
-**Ansicht zur Themenbearbeitung** - Klicken Sie beim Bearbeiten eines DITA-Themas auf das Symbol Schlüsselauflösung und wählen Sie die DITA-Datei aus, die zum Auflösen der Schlüsselverweise verwendet werden soll.
+**Themenbearbeitungsansicht** - Klicken Sie beim Bearbeiten eines DITA-Themas auf das Symbol für die Schlüsselauflösung und wählen Sie die DITA-Datei aus, die für die Auflösung der Schlüsselverweise verwendet werden soll.
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Map-Editor](map-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Zuordnungs-Editor](map-editor.md)

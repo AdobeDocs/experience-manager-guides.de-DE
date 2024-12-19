@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Konfiguration des Dispatchers {#id213BCM0M05U}
 
-Wenn Sie planen, eine Dispatcher in AEM -Autoreninstanz zusammen mit AEM Guides zu verwenden, müssen Sie die folgenden zusätzlichen Konfigurationen durchführen, um die Einrichtung abzuschließen:
+Wenn Sie beabsichtigen, eine Dispatcher in der AEM-Autoreninstanz zusammen mit AEM Guides zu verwenden, müssen Sie die folgenden zusätzlichen Konfigurationen vornehmen, um die Einrichtung abzuschließen:
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Wenn Sie planen, eine Dispatcher in AEM -Autoreninstanz zusammen mit AEM Guides 
 
 ## AllowEncodedSlashes in URLs aktivieren
 
-URLs mit kodierten Schrägstrichen sind bei AEM Dispatcher-Setup nicht standardmäßig aktiviert. Bei der Arbeit mit AEM Guides müssen Sie dies jedoch aktivieren. Dazu müssen Sie den Parameter AllowEncodedSlashes in der Apache-Konfiguration auf Ein setzen, wie im folgenden Snippet gezeigt:
+URLs mit kodierten Schrägstrichen sind im AEM-Dispatcher-Setup nicht standardmäßig aktiviert. Bei der Arbeit in AEM Guides müssen Sie dies jedoch aktivieren. Dazu müssen Sie den Parameter „AllowEncodedSlashes“ in der Apache-Konfiguration auf „On“ setzen, wie im folgenden Ausschnitt gezeigt:
 
 ```XML
 <VirtualHost *:80>
@@ -39,40 +39,40 @@ URLs mit kodierten Schrägstrichen sind bei AEM Dispatcher-Setup nicht standardm
             
 ```
 
-## Datei &quot;mime.types&quot;für DITA konfigurieren
+## Konfigurieren der Datei „mime.types“ für DITA
 
-Bei der Verwendung einer Dispatcher mit AEM Guides müssen Sie sicherstellen, dass die DITA-Zuordnungs- und Themendateien als HTML gerendert werden, damit Autoren den Inhalt erwartungsgemäß anzeigen können (anstelle des Rohtextformats\).
+Bei Verwendung einer Dispatcher mit AEM Guides müssen Sie sicherstellen, dass die DITA-Zuordnung und die Themendateien als HTML gerendert werden, damit Autorinnen und Autoren den Inhalt wie erwartet anzeigen können \(anstelle von Rohtextformat\).
 
-Führen Sie die folgenden Schritte aus, um die Datei &quot;mime.types&quot;zu aktualisieren:
+Führen Sie die folgenden Schritte aus, um die Datei „mime.types“ zu aktualisieren:
 
-1. Stellen Sie mithilfe von SSH eine Verbindung zum Dispatcher-Server her und navigieren Sie zur Datei &quot;httpd.conf&quot;.
+1. Stellen Sie mithilfe von SSH eine Verbindung zum Dispatcher-Server her und navigieren Sie zur Datei httpd.conf .
 
-1. Überprüfen Sie den Pfad der Datei &quot;mime.types&quot;.
+1. Überprüfen Sie den Pfad der Datei „mime.types“.
 
-1. Öffnen Sie die Datei &quot;mime.types&quot;und suchen Sie nach &quot;text/html&quot;. Die Standardzuordnung für &quot;text/html&quot;lautet:
+1. Öffnen Sie die Datei mime.types und suchen Sie nach „text/html“. Die Standardzuordnung für „text/html“ ist:
 
    `text/html html htm`
 
-1. Aktualisieren Sie die Zuordnung, indem Sie Ditamap- und Dia-Erweiterungen wie folgt hinzufügen:
+1. Aktualisieren Sie die Zuordnung, indem Sie ditamap- und dita-Erweiterungen wie folgt hinzufügen:
 
    `text/html html htm ditamap dita`
 
 1. Speichern und schließen Sie die Datei.
 
 
-Diese Konfigurationsaktualisierung stellt sicher, dass von Dispatcher gerenderte DITA-Zuordnungs- und Themendateien in der Assets-Benutzeroberfläche als HTML angezeigt werden.
+Durch dieses Konfigurationsupdate wird sichergestellt, dass die von Dispatcher gerenderten DITA-Zuordnungs- und Themendateien als HTML in der Assets-Benutzeroberfläche angezeigt werden.
 
-## URL der Anfrage &quot;Benutzereinstellungen zulassen&quot;
+## Anforderungs-URL für Benutzervoreinstellungen zulassen
 
-Wenn Sie eine Dispatcher mit AEM Guides verwenden und Ihre Autoreninstanz über einen Dispatcher verfügt, nehmen Sie die folgenden beiden Änderungen vor:
+Wenn Sie eine Dispatcher mit AEM Guides verwenden und Ihre Autoreninstanz über einen Dispatcher verfügt, nehmen Sie die beiden folgenden Änderungen vor:
 
-- Setzen Sie die URL der POST-Anfrage auf die Whitelist. Nachfolgend finden Sie eine Beispielregel &quot;`/filters`&quot;: Fügen Sie diese Regel zur Dispatcher-Konfigurationsdatei hinzu:
+- Setzen Sie die URL der POST-Anfrage auf die Whitelist. Nachfolgend finden Sie eine Beispielregel &quot;`/filters`&quot; - Fügen Sie diese Regel zur Dispatcher-Konfigurationsdatei hinzu:
 
 ```json
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}
 ```
 
-- Stellen Sie sicher, dass das URL-Muster &quot; /libs/cq/security/userinfo.json&quot;nicht im Autoren-Dispatcher zwischengespeichert ist. Fügen Sie daher eine Regel \(wie unten\) in author\_dispatcher.any hinzu.
+- Stellen Sie sicher, dass das URL-Muster &quot; /libs/cq/security/userinfo.json&quot; nicht im Autoren-Dispatcher zwischengespeichert wird. Fügen Sie daher eine Regel \(wie unten\) in „author\_dispatcher.any“ hinzu.
 
 ```json
 /xxxx {
@@ -81,4 +81,4 @@ Wenn Sie eine Dispatcher mit AEM Guides verwenden und Ihre Autoreninstanz über 
                 }
 ```
 
-**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

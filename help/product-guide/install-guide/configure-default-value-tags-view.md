@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Standardwert für die Tag-Ansicht konfigurieren {#id223GN0M0NDC}
 
-Mit AEM Guides können Sie den Standardstatus für die Tags-Ansicht im Web Editor konfigurieren. So können Sie die Tags-Ansicht standardmäßig für die Sitzung eines neuen Benutzers aktivieren oder deaktivieren. Führen Sie die folgenden Schritte aus, um den Standardwert für die Tag-Ansicht zu konfigurieren:
+Mit AEM Guides können Sie den Standardstatus für die Tag-Ansicht im Web-Editor konfigurieren, sodass die Tag-Ansicht für die Sitzung eines neuen Benutzers standardmäßig aktiviert oder deaktiviert bleibt. Führen Sie die folgenden Schritte aus, um den Standardwert für die Tag-Ansicht zu konfigurieren:
 
-1. Laden Sie die Konfigurationsdatei der Benutzeroberfläche herunter, indem Sie sich bei Adobe Experience Manager als Administrator anmelden.
+1. Laden Sie die Konfigurationsdatei für die Benutzeroberfläche herunter, indem Sie sich als Administrator bei Adobe Experience Manager anmelden.
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
-1. Wählen Sie **Handbücher** aus der Liste der Tools und klicken Sie auf **Ordnerprofile**.
-1. Klicken Sie auf die Kachel **Globales Profil** .
-1. Wählen Sie die Registerkarte **XML-Editor-Konfiguration** aus und klicken Sie oben auf das Symbol **Bearbeiten** .
-1. Klicken Sie im Abschnitt **Konfiguration der XML-Editor-Benutzeroberfläche** auf das Symbol **Download** , um die Datei `ui_config.json` auf Ihr lokales System herunterzuladen.
-1. Ändern Sie in der Datei &quot;`ui_config.json`&quot;den Status der standardmäßigen Tags-Ansicht, indem Sie den Abschnitt defaultValues wie unten gezeigt ändern:
+1. Wählen Sie **Guides** aus der Liste der Tools aus und klicken Sie auf **Ordnerprofile**.
+1. Klicken Sie auf die **Globales Profil**-Kachel.
+1. Wählen Sie die Registerkarte **XML** Editor-Konfiguration) aus und klicken Sie oben auf **Symbol** Bearbeiten“.
+1. Klicken Sie im Abschnitt **Konfiguration der Benutzeroberfläche des XML** Editors auf das **Herunterladen**-Symbol, um die `ui_config.json`-Datei auf Ihr lokales System herunterzuladen.
+1. Ändern Sie in der `ui_config.json`-Datei den Ansichtsstatus der Standard-Tags, indem Sie den Abschnitt defaultValues wie unten dargestellt ändern:
 
    ```json
    "defaultValues":
@@ -35,6 +35,6 @@ Mit AEM Guides können Sie den Standardstatus für die Tags-Ansicht im Web Edito
 
 >[!NOTE]
 >
-> Die Voreinstellung des Benutzers im Web Editor zum Aktivieren/Deaktivieren der Tags-Ansicht hat Vorrang vor diesem Standardwert. Wenn ein Benutzer also die Tag-Ansicht über den Web-Editor aktiviert, bleibt sie auch während der Sitzungen aktiviert.
+> Die Voreinstellung des Benutzers im Web-Editor zum Aktivieren/Deaktivieren der Tag-Ansicht hat Vorrang vor diesem Standardwert. Wenn ein Benutzer also die Tags-Ansicht im Web-Editor aktiviert, bleibt sie auch über die gesamten Sitzungen hinweg aktiviert.
 
-**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

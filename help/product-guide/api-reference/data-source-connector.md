@@ -1,6 +1,6 @@
 ---
-title: REST-API zur Registrierung eines Datenquellen-Connectors
-description: Erfahren Sie mehr über die REST-API zur Registrierung eines Datenquellen-Connectors.
+title: REST-API zum Registrieren eines Datenquellen-Connectors
+description: Erfahren Sie mehr über die REST-API zum Registrieren eines Datenquellen-Connectors
 exl-id: e2811892-c3cf-41f5-94d8-c2b37823a53a
 feature: Rest API Data Source
 role: Developer
@@ -12,15 +12,15 @@ ht-degree: 7%
 
 ---
 
-# REST-API zur Registrierung eines Datenquellen-Connectors {#id236LG0Y0CXA}
+# REST-API zum Registrieren eines Datenquellen-Connectors {#id236LG0Y0CXA}
 
 Mit der folgenden REST-API können Sie einen Datenquellen-Connector registrieren.
 
-## Datenquellen-Connector registrieren
+## Registrieren eines Datenquellen-Connectors
 
-Eine GET, die einen Datenquellen-Connector registriert.
+Eine GET-Methode, die einen Datenquellen-Connector registriert.
 
-**Anforderungs-URL**:
+**Anfrage-URL**:
 
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
@@ -28,7 +28,7 @@ Eine GET, die einen Datenquellen-Connector registriert.
 
 | Name | Typ | Erforderlich | Beschreibung |
 |----|----|--------|-----------|
-| `path` | Zeichenfolge | Ja | Eine Zeichenfolge, die auf einen Pfad im AEM Repository verweist. Es kann sich um einen Pfad im `/content/dam or /var/dxml` handeln. |
+| `path` | Zeichenfolge | Ja | Eine Zeichenfolge, die auf einen Pfad im AEM-Repository verweist. Es kann sich um einen Pfad im `/content/dam or /var/dxml` handeln. |
 
 **Beispiel**:
 

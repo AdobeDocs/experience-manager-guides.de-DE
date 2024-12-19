@@ -1,6 +1,6 @@
 ---
 title: Anpassen des Web-Editors
-description: Erfahren Sie, wie Sie den Web Editor anpassen
+description: Informationen zum Anpassen des Web-Editors
 exl-id: 9a52ba17-68c0-4552-aae6-e89bc5d3ac6f
 feature: Web Editor Configuration
 role: Admin
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Anpassen des Web-Editors {#id181AI0003PN}
 
-AEM Guides verfügt über einen leistungsstarken Web-Editor, mit dem Ihre Autoren DITA-Dokumente erstellen und bearbeiten können. Sie können die Symbolleiste des Web-Editors anpassen, um alle Funktionen hinzuzufügen oder zu entfernen, auf die Sie über die Symbolleiste zugreifen können. Außerdem können Sie die automatische Speicherung von Dateien konfigurieren, IDs für Elemente generieren, die in Ihre Dokumente eingefügt werden, und vieles mehr. Die folgenden Abschnitte behandeln die Funktionen, die Sie im Web Editor anpassen können:
+AEM Guides ist mit einem leistungsstarken Web-Editor ausgestattet, mit dem Ihre Autoren DITA-Dokumente erstellen und bearbeiten können. Sie können die Symbolleiste des Web-Editors anpassen, um alle Funktionen hinzuzufügen oder zu entfernen, auf die Sie über die Symbolleiste zugreifen können. Außerdem können Sie das automatische Speichern von Dateien konfigurieren, IDs für Elemente generieren, während sie in Ihre Dokumente eingefügt werden, und vieles mehr. In den folgenden Abschnitten werden die Funktionen beschrieben, die Sie im Web-Editor anpassen können:
 
 - [Symbolleiste anpassen](conf-web-editor-customize-toolbar.md#)
-- [Automatische Speicherung von Dateien im Web Editor konfigurieren](auto-save-in-editor.md#)
-- [AEM Standardwörterbuch anpassen](customize-aem-custom-dictionary.md#)
+- [Konfigurieren der automatischen Speicherung von Dateien im Web-Editor](auto-save-in-editor.md#)
+- [Anpassen des Standardwörterbuchs von AEM](customize-aem-custom-dictionary.md#)
 - [Element-IDs automatisch generieren](auto-generate-ids.md#)
-- [Zulässige Sonderzeichen konfigurieren](conf-special-chars.md#)
-- [Filter für Dialogfeld &quot;Dateisuche&quot;konfigurieren](conf-custom-file-filters.md#)
+- [Konfigurieren zulässiger Sonderzeichen](conf-special-chars.md#)
+- [Filter für das Dialogfeld zum Durchsuchen von Dateien konfigurieren](conf-custom-file-filters.md#)
 - [Anzeige von UUID-basierten Links konfigurieren](conf-uuid-based-links.md#)
 
 - **[Symbolleiste anpassen](conf-web-editor-customize-toolbar.md)**
@@ -30,32 +30,32 @@ AEM Guides verfügt über einen leistungsstarken Web-Editor, mit dem Ihre Autore
 
 - **[Anzeige von UUID-basierten Links konfigurieren](conf-uuid-based-links.md)**
 
-- **[DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen](open-dita-files-same-tab.md)**
+- **[Öffnen Sie DITA-Themen oder Zuordnungsdateien in derselben Registerkarte](open-dita-files-same-tab.md)**
 
-- **[Benutzerdefiniertes Bedienfeld im linken Bedienfeld konfigurieren](configure-custom-panel.md)**
+- **[Konfigurieren eines benutzerdefinierten Bedienfelds im linken Bedienfeld](configure-custom-panel.md)**
 
-- **[Automatische Speicherung der Datei im Web-Editor konfigurieren](auto-save-in-editor.md)**
+- **[Konfigurieren der automatischen Speicherung von Dateien im Web-Editor](auto-save-in-editor.md)**
 
-- **[Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren](conf-save-as-new-version-close.md)**
+- **[Eingabeaufforderung konfigurieren, um beim Schließen als neue Version zu speichern](conf-save-as-new-version-close.md)**
 
-- **[Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren](conf-checkin-file-close.md)**
+- **[Eingabeaufforderung konfigurieren, um beim Schließen eine Datei einzuchecken](conf-checkin-file-close.md)**
 
-- **[Zulässige Sonderzeichen konfigurieren](conf-special-chars.md)**
+- **[Konfigurieren zulässiger Sonderzeichen](conf-special-chars.md)**
 
 - **[Element-IDs automatisch generieren](auto-generate-ids.md)**
 
-- **[AEM Standardwörterbuch anpassen](customize-aem-custom-dictionary.md)**
+- **[Anpassen des Standardwörterbuchs von AEM](customize-aem-custom-dictionary.md)**
 
-- **[Textfilter konfigurieren](config-text-filters.md)**
+- **[Konfigurieren von Textfiltern](config-text-filters.md)**
 
-- **[Filter für Dialogfeld &quot;Dateisuche&quot;konfigurieren](conf-custom-file-filters.md)**
+- **[Konfigurieren von Filtern für das Dialogfeld zum Durchsuchen von Dateien](conf-custom-file-filters.md)**
 
 - **[Installieren von Paketen für die artikelbasierte Veröffentlichung](configure-article-based-publishing.md)**
 
-- **[PDF-Generierung eines einzelnen Themas konfigurieren](conf-pdf-generation-dita-ot.md)**
+- **[Konfigurieren der PDF-Generierung für ein einzelnes Thema](conf-pdf-generation-dita-ot.md)**
 
 - **[Konfigurieren der Übersetzungsfunktion im Web-Editor](conf-translation-web-editor.md)**
 
-- **[Legen Sie den erweiterten Map-Editor als Standard fest](conf-map-editor.md)**
+- **[Standard für den erweiterten Zuordnungs-Editor festlegen](conf-map-editor.md)**
 
-- **[Standardmäßig @navtitle-Attribut einschließen](auto-add-navtitle.md)**
+- **[Standardmäßig @navtitle Attribut einbeziehen](auto-add-navtitle.md)**

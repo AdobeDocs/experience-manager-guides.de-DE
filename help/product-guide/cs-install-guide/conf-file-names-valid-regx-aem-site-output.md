@@ -1,6 +1,6 @@
 ---
-title: Gültige Dateinamen für AEM Site-Ausgabe konfigurieren
-description: Erfahren Sie, wie Sie gültige Dateinamen für AEM Site-Ausgabe konfigurieren.
+title: Konfigurieren gültiger Dateinamen für die AEM-Site-Ausgabe
+description: Erfahren Sie, wie Sie gültige Dateinamen für die AEM-Site-Ausgabe konfigurieren
 exl-id: 05215bec-653b-4563-83c6-a1bb16200469
 feature: Filename Configuration
 role: Admin
@@ -12,14 +12,14 @@ ht-degree: 1%
 
 ---
 
-# Gültige Dateinamen für AEM Site-Ausgabe konfigurieren {#id214GK0X0KXA}
+# Konfigurieren gültiger Dateinamen für die AEM-Site-Ausgabe {#id214GK0X0KXA}
 
-Ähnlich wie bei der Liste gültiger Dateinamenzeichen, die für DITA-Themen zulässig sind, können Sie auch eine Liste gültiger Dateinamenzeichen für AEM Site-Ausgabe konfigurieren. Einige der bekannten Zeichen, die in einer URL nicht zulässig sind, sind: ``'<>`@$``. Diese Zeichen werden so konfiguriert, dass sie beim Generieren AEM Site-Ausgabedateinamen automatisch in einen Unterstrich &quot;`_`&quot;umgewandelt werden.
+Ähnlich wie bei der Liste gültiger Dateinamenzeichen, die für DITA-Themen zulässig sind, können Sie auch eine Liste gültiger Dateinamenzeichen für die AEM-Site-Ausgabe konfigurieren. Zu den bekannten Zeichen, die in einer URL nicht zulässig sind, zählen: ``'<>`@$``. Diese Zeichen werden so konfiguriert, dass sie automatisch in einen Unterstrich &quot;`_`&quot; konvertiert werden, wenn sie beim Generieren von AEM Site-Ausgabedateinamen gefunden werden.
 
-Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden \(Eigenschaft\)-Details an, um gültige Zeichen in AEM Site-Ausgabe festzulegen:
+Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#), um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden \(property\)-Details an, um gültige Zeichen in der AEM-Site-Ausgabe festzulegen:
 
-| PID | Eigenschaftenschlüssel | Eigenschaftswert |
+| PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Fügen Sie Zeichen hinzu, die Sie durch einen Unterstrich in den Namen der AEM Site-Ausgabedateien ersetzen möchten. <br> **Standardwert**: ``'<\>\`@$`` |
+| `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Fügen Sie in den Ausgabedateinamen der AEM-Site Zeichen hinzu, die Sie durch einen Unterstrich ersetzen möchten. <br> **Standardwert**: ``'<\>\`@$`` |
 
 **Übergeordnetes Thema:**[ Dateinamen konfigurieren](conf-file-names.md)

@@ -1,6 +1,6 @@
 ---
-title: Webbasierte Inhalte erstellen
-description: Erfahren Sie, wie Sie strukturierte Inhalte mit dem Web-Editor erstellen.
+title: Web-basierte Inhalte erstellen
+description: Erfahren Sie, wie Sie mit dem Web-Editor strukturierte Inhalte erstellen können.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -11,9 +11,9 @@ ht-degree: 2%
 
 ---
 
-# Webbasierte Inhalte erstellen
+# Web-basierte Inhalte erstellen
 
-AEM Guides verfügt über einen integrierten Webeditor zum Verfassen strukturierter Inhalte. Sie können mit einem vereinfachten webbasierten Authoring-Erlebnis arbeiten, aber dennoch leistungsstarke Funktionen wie bedingte Inhaltsvalidierung, Rechtschreibprüfung, Wiederverwendung von Inhalten, Referenzvalidierung, Anzeigenamen und Authoring-Mathematik-Gleichungen verwenden oder aktivieren.
+AEM Guides verfügt über einen integrierten Web-Editor zum Erstellen strukturierter Inhalte. Sie können mit einem vereinfachten Web-basierten Authoring-Erlebnis arbeiten, aber dennoch leistungsstarke Funktionen wie bedingte Inhaltsvalidierung, Rechtschreibprüfung, Wiederverwendung von Inhalten, Referenzvalidierung, Anzeigenamen und mathematische Formeln für Autoren verwenden oder aktivieren.
 
 ## Sitzungsübersicht
 
@@ -34,24 +34,24 @@ In dieser Sitzung erfahren Sie, wie Sie Inhalte mit dem Web-Editor erstellen, ve
 
 In dieser Sitzung erfahren Sie mehr über Folgendes:
 - Einstellungen für den Web-Editor konfigurieren
-- Verwenden der Funktionen des Web-Editors zur Verbesserung der Produktivität von Autoren
-- Erweiterung und Integration der verfügbaren Funktionen
-- Personalisieren des Web-Editors durch Anpassen von Stilen oder Branding
+- Verwenden von Web-Editor-Funktionen zur Verbesserung der Produktivität von Autoren
+- Erweitern und Integrieren der verfügbaren Funktionen
+- Web-Editor durch Anpassen von Stilen oder Branding personalisieren
 
 ## Verwandte Ressourcen
 
 - **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Benutzerhandbuch** - [Autoreninhalt](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
+- **Benutzerhandbuch** - [Inhalt erstellen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **Community-Forum** - Besuchen Sie für sitzungsspezifische Community-Interaktionen auf dem Experience League das [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
+> Die in dieser Sitzung gezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
 > - On-Premise 4.1.3 oder höher
 > - Cloud Service 2211 und höher
 
 ## Kontakt
 
-Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>
+Bei Fragen senden Sie uns bitte eine E-Mail an <techcomm@adobe.com>

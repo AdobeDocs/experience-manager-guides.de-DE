@@ -1,6 +1,6 @@
 ---
 title: Überprüfen der AEM Guides-Installation
-description: Erfahren Sie, wie Sie die Installation von AEM Guides überprüfen
+description: Erfahren Sie, wie Sie die AEM Guides-Installation überprüfen
 exl-id: 4e566c57-a522-4605-bc70-47155f20b429
 feature: Installation
 role: Admin
@@ -18,15 +18,15 @@ Nachdem Sie AEM Guides installiert haben, müssen Sie überprüfen, ob die Insta
 
 1. Greifen Sie auf die Developer Console Ihres Cloud Service zu.
 
-   Weitere Informationen zum Zugriff auf Developer Console finden Sie unter [Zugriff auf Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=de) in AEM Dokumentation.
+   Weitere Informationen zum Zugriff auf Developer Console finden Sie unter [Zugriff auf Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=de) in der AEM-Dokumentation.
 
-1. Rufen Sie die Liste der OSGi-Pakete in AEM auf.
+1. Rufen Sie die Liste der OSGi-Bundles in AEM auf.
 
-   Weitere Informationen zum Zugriff auf Bundles finden Sie unter [Bundles](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) in AEM Dokumentation.
+   Weitere Informationen zum Zugriff auf Bundles finden Sie unter [Bundles](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) in der AEM-Dokumentation.
 
-1. Suchen Sie in der Liste der Bundles nach &quot;format&quot;und überprüfen Sie den Status.
+1. Suchen Sie in der Liste der Bundles nach „fmdita“ und überprüfen Sie den Status.
 
-   Der Status sollte für erfolgreich bereitgestellte Bundles *Aktiv* anzeigen. Wenn eines der Bundles keinen Status &quot;Aktiv&quot;aufweist, überprüfen Sie die AEM, um das Installationsproblem zu beheben.
+   Der Status sollte für *erfolgreich bereitgestellte Bundles &quot;*&quot; anzeigen. Wenn eines der Bundles nicht den Status Aktiv hat, überprüfen Sie die AEM-Protokolle, um das Installationsproblem zu beheben.
 
 
-**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

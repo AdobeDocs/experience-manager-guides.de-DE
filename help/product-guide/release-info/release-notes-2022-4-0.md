@@ -1,5 +1,5 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version April 2022
+title: Versionshinweise zu | Adobe Experience Manager Guides as a Cloud Service, Version April 2022
 description: April-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
@@ -13,33 +13,33 @@ ht-degree: 0%
 
 # April-Version von Adobe Experience Manager Guides as a Cloud Service
 
-## Aktualisierung auf die Version vom April
+## Upgrade auf die April-Version
 
-Führen Sie die folgenden Schritte aus, um das aktuelle Setup für [!DNL Adobe Experience Manager Guides] as a Cloud Service (später als *[!DNL AEM Guides]as a Cloud Service* bezeichnet) zu aktualisieren:
-1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren Sie die Eigenschaft `<dox.version>` in der Datei `/dox/dox.installer/pom.xml` Ihres Cloud Service-Git-Codes auf 2022.4.133.
+Führen Sie ein Upgrade Ihres aktuellen [!DNL Adobe Experience Manager Guides] as a Cloud Service-Setups (später *[!DNL AEM Guides]as a Cloud Service*-Setup genannt) durch, indem Sie die folgenden Schritte ausführen:
+1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf Version 2022.4.133.
 1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die April-Version von [!DNL AEM Guides] as a Cloud Service zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die von der Version [!DNL AEM Guides] as a Cloud Service vom April 2022 unterstützten Softwareanwendungen aufgeführt.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von [!DNL AEM Guides] as a Cloud Service-Version April 2022 unterstützt werden.
 
 ### FrameMaker und FrameMaker Publishing Server
 
 | FMPS | FrameMaker |
 | --- | --- |
-| Nicht kompatibel | Aktualisierung 4 und höher für 2020 |
+| Nicht kompatibel | Aktualisierung 2020 4 und höher |
 | | |
 
 
 ### Sauerstoffanschluss
 
-| AEM Guides Cloud-Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac |
+| AEM Guides Cloud-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac |
 | --- | --- | --- |
 | 2022.4.0 | 2,5,6 | 2,5,6 |
 |  |  |  |
 
-*Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
+*Die in AEM erstellten Grundlinien und Bedingungen werden ab 2020.2 in FMPS-Versionen unterstützt.
 
 ## Neue Funktionen und Verbesserungen
 
@@ -47,31 +47,31 @@ Im Web-Editor wurden viele Verbesserungen und neue Funktionen hinzugefügt:
 
 ### Verbesserte Schlüsselauflösung
 
-Ein DITA-Inhaltsschlüsselverweis fügt einen Teil des Inhalts von einem Thema in ein anderes. Es verwendet einen Schlüssel zum Suchen des Inhalts. Die Schlüsselverweise, die mit einem DITA-Thema verknüpft sind, müssen aufgelöst werden. Die ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen.
+Ein DITA-Inhaltsschlüssel-Verweis fügt einen Teil des Inhalts von einem Thema in ein anderes ein. Sie verwendet eine -Taste, um den Inhalt zu finden. Die wichtigsten Referenzen, die mit einem DITA-Thema verbunden sind, müssen aufgelöst werden. Die ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen.
 
-![Dialogfeld &quot;Benutzereinstellungen&quot;](assets/user-preferences.png)
+![Dialogfeld „Benutzereinstellungen“](assets/user-preferences.png)
 
-Jetzt werden die Schlüsselverweise auf der Grundlage der in der folgenden Prioritätsreihenfolge festgelegten Stammzuordnung aufgelöst:
+Jetzt werden die Schlüsselverweise auf der Grundlage der Stammzuordnung aufgelöst, die in der folgenden Prioritätsreihenfolge festgelegt ist:
 
 1. Benutzereinstellungen
-1. Bedienfeld &quot;Landkartenansicht&quot;
+1. Kartenansichtsbereich
 1. Ordnerprofil
 
-Weitere Informationen finden Sie im Abschnitt *Schlüsselreferenzen auflösen* im Benutzerhandbuch.
+Weitere Informationen finden Sie *Abschnitt &quot;* auflösen“ im Benutzerhandbuch.
 
-### Hinzufügen eines benutzerdefinierten Bedienfelds im linken Bereich
+### Hinzufügen eines benutzerdefinierten Bereichs im linken Bereich
 
-Jetzt können Sie ein benutzerdefiniertes Bedienfeld im linken Bereich des Web-Editors hinzufügen. Sie können ein benutzerdefiniertes Bedienfeld für verschiedene Zwecke verwenden, z. B. Hilfe bereitstellen oder Tests für ein Projekt durchführen. Wenn ein benutzerdefiniertes Bedienfeld konfiguriert wurde, wird es auch in der Liste der Bedienfelder in den **Editor-Einstellungen** angezeigt. Sie können den Schalter umschalten, um das benutzerdefinierte Bedienfeld ein- oder auszublenden.
+Jetzt können Sie ein benutzerdefiniertes Bedienfeld im linken Bedienfeld des Web-Editors hinzufügen. Sie können ein benutzerdefiniertes Bedienfeld für verschiedene Zwecke verwenden, z. B. für die Bereitstellung von Hilfe oder für Tests für ein Projekt. Wenn ein benutzerdefiniertes Bedienfeld konfiguriert wurde, wird es auch in der Liste der Bedienfelder in den **Editor-Einstellungen** angezeigt. Sie können den Schalter umschalten, um das benutzerdefinierte Bedienfeld ein- oder auszublenden.
 
 ### Möglichkeit, den Dokumentstatus von Themen in einer DITA-Zuordnung zu ändern
 
-Jetzt können Sie den Dokumentstatus ausgewählter Themen in einer DITA-Zuordnung einfach ändern. Sie können die Eigenschaften ausgewählter Themen auch in einer DITA-Zuordnung über das Menü **Mehr Optionen** unten im Bereich &quot;Kartenansicht&quot;öffnen und bearbeiten.
+Jetzt können Sie den Dokumentstatus ausgewählter Themen innerhalb einer DITA-Karte einfach ändern. Sie können die Eigenschaften ausgewählter Themen in einer DITA-Karte auch über das Menü **Weitere Optionen** unten im Kartenansichtsfenster öffnen und bearbeiten.
 
-![ausgewählte Themeneigenschaften](assets/map-view-properties.png)
+![Ausgewählte Themeneigenschaften](assets/map-view-properties.png)
 
 ### Im Vorschaumodus angezeigte Versionsinformationen
 
-Der Web Editor hilft Ihnen bei der Verwaltung Ihrer Versionen. Jetzt können Sie auch die Version des aktiven Themas oder der DITA-Zuordnung oben rechts auf der Registerkarte &quot;Datei&quot;des Themas im Vorschaumodus eines Themas sehen.
+Der Web-Editor hilft Ihnen bei der Verwaltung Ihrer Versionen. Jetzt können Sie im Vorschaumodus eines Themas auch die Version des aktiven Themas oder die DITA-Map in der oberen rechten Ecke der Datei-Registerkarte des Themas sehen.
 
 ![Vorschauversion](assets/preview-version.png)
 
@@ -79,28 +79,28 @@ Der Web Editor hilft Ihnen bei der Verwaltung Ihrer Versionen. Jetzt können Sie
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Neue Beschriftungen werden nicht automatisch im Dropdown-Menü &quot;Beschriftung hinzufügen/entfernen&quot;angezeigt. Stattdessen muss die Grundlinie aktualisiert werden. (9249)
-* Der Grundlinientitel kann nicht bearbeitet werden, wenn eine Grundlinie durch Beschriftungskriterien erstellt wurde. (9171)
-* Veröffentlichungsaufträge mit einer Grundlinie werden im Status &quot;Warten&quot;festgehalten, wenn der Grundlinienstatus zu &quot;Fehlgeschlagen&quot;geändert wird. (9194)
-* Wenn Sie Beschriftungen für direkte Verweise entfernen, werden die Beschriftungen auch aus indirekten Verweisen entfernt. (9257)
+* Neue Beschriftungen werden nicht automatisch in der Dropdown-Liste Beschriftung hinzufügen/entfernen angezeigt. Stattdessen ist eine Aktualisierung der Grundlinie erforderlich. (9249)
+* Der Titel der Baseline kann nicht bearbeitet werden, wenn eine Baseline durch Kennzeichnungskriterien erstellt wird. (9171)
+* Der Veröffentlichungsauftrag mit einer Baseline bleibt im Status „Warten“ stecken, wenn sich der Baseline-Status in „Fehlgeschlagen“ ändert. (9194)
+* Durch das Entfernen von Beschriftungen von direkten Verweisen werden auch die Beschriftungen von indirekten Verweisen entfernt. (9257)
 * Die Suche während der Eingabe führt zu unerwünschten Suchanfragen in der Repository-Ansicht. (9307)
-* Probleme treten auf, wenn ein beliebiger Suchbegriff im Titel für die Registerkarte verwendet wird. (9318)
-* Die Grundlinie schlägt beim Hinzufügen einer Bezeichnung mit Leerzeichen fehl. (9362)
-* AEM Site-Ausgabe zeigt das Glossarverwendungselement nicht korrekt an. (8936)
-* Konsolenfehler tritt beim Öffnen der Registerkarte **Ausgabe** im Web Editor auf. (8715)
-* Die Fehlermeldung, die bei der Veröffentlichung eines manuellen Datensatztyps über Salesforce angezeigt wird, ist nicht intuitiv. (8952)
-* Die Einstellung Mit Bedingungsattributen validieren wird nicht sofort geöffnet. Stattdessen muss der Benutzer die Datei erneut öffnen, um die Validierungen anzuzeigen. (9300)
-* Metadaten können nicht entfernt werden, nachdem eine DITA-Zuordnung mit Metadaten veröffentlicht wurde.  (9178)
-* Das Übersetzungsfenster ist auch beim Öffnen der DITA-Karte im Map Editor sichtbar. (9053)
-* Benutzerdefinierte DTD, die vom Benutzer definiert wird, hat keinen Vorrang vor standardmäßiger DITA-DTD, die in DITA-OT eingebettet ist. 9104
-* In der Funktion Native PDF schlägt der Upload in die Vorlagen bei Nicht-DITA- und Nicht-Bilddateien fehl. (9070)
-* Der Autorisierungsmechanismus führt in einigen spezialisierten Szenarien zwei Abfragen anstelle einer aus. (9221)
-* Das Veröffentlichen der AEM Site-Ausgabe schlägt bei der Verwendung der benutzerdefinierten DTD fehl. (9243)
-* Die Fußnote &quot;Verwendung nach Referenz&quot;scrollt nicht zum Fußnote-Abschnitt in AEM Site-Ausgabe. 9234
+* Probleme treten auf, wenn ein beliebiges Keyword im Titel für eine Registerkarte verwendet wird. (9318)
+* Baseline schlägt beim Hinzufügen einer Beschriftung mit Leerzeichen fehl. (9362)
+* In der AEM-Site-Ausgabe wird das Glossusage-Element nicht korrekt angezeigt. (8 936)
+* Konsolenfehler beim Öffnen der Registerkarte **Ausgabe** im Web-Editor. (8715)
+* Die Fehlermeldung, die beim Veröffentlichen eines manuellen Datensatztyps über Salesforce angezeigt wird, ist nicht intuitiv. (8952)
+* Die Einstellung Mit Bedingungsattributen validieren wird nicht sofort geöffnet, sondern der Benutzer muss die Datei erneut öffnen, um die Validierungen sehen zu können. (9300)
+* Metadaten können nicht entfernt werden, sobald eine DITA-Zuordnung mit Metadaten veröffentlicht wurde.  (9178)
+* Das Übersetzungsbedienfeld ist selbst beim Öffnen der DITA-Karte im Karten-Editor sichtbar. (9053)
+* Die vom Benutzer definierte benutzerdefinierte DTD hat keinen Vorrang vor der in DITA-OT eingebetteten standardmäßigen DITA-DTD. (9104)
+* Bei der Native PDF-Funktion schlägt der Upload in den Vorlagen für Nicht-DITA- und Nicht-Bilddateien fehl. (9070)
+* Der Autorisierungsmechanismus führt in einigen spezialisierten Szenarien zwei Abfragen anstelle von einer aus. (9221)
+* Das Veröffentlichen der AEM-Site-Ausgabe schlägt bei der Verwendung der benutzerdefinierten DTD fehl. (9243)
+* In der Ausgabe der AEM-Site wird die Fußnote als Verweis verwendet, aber es wird nicht zum Fußnotenabschnitt gescrollt. (9234)
 
 ## Bekannte Probleme
 
-Adobe hat das folgende bekannte Problem in der Version [!DNL AEM Guides] as a Cloud Service April identifiziert.
+Adobe hat das folgende bekannte Problem in der Version [!DNL AEM Guides] as a Cloud Service April festgestellt.
 
-* Der Web Editor meldet keinen Fehler, wenn zwei oder mehr Grundlinien mit demselben Namen erstellt werden, jedoch Unterschiede bei Leerzeichen oder Groß-/Kleinschreibung bestehen. Beispiel: &quot;adobe&quot;und &quot;Adobe&quot;oder &quot;Adobe&quot;.
-* Der Sauerstoff-Connector hängt zwischenzeitlich beim häufigen Anmelden, Abmelden oder Wechseln zwischen verschiedenen Authentifizierungstypen.
+* Der Web-Editor meldet keinen Fehler, wenn zwei oder mehr Baselines mit demselben Namen erstellt werden, aber Unterschiede in Leerzeichen oder Groß-/Kleinschreibung aufweisen. Zum Beispiel „adobe“ und &quot;Adobe &quot; oder &quot;Adobe&quot;.
+* Der Oxygen-Connector hängt gelegentlich, während er häufige Anmelde- oder Abmeldevorgänge durchführt oder zwischen verschiedenen Authentifizierungstypen wechselt.

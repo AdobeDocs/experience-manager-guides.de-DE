@@ -17,7 +17,7 @@ AEM Guides bietet die ultimative Lösung für die Erstellung mehrsprachiger Inha
 
 ## Sitzungsübersicht
 
-In dieser Sitzung erfahren Sie mehr über den Übersetzungsprozess, den Integrationsmechanismus und die Kostenwirksamkeit von Übersetzungs-Workflows für Übersetzer und Maschinen.
+In dieser Sitzung erfahren Sie mehr über den Übersetzungsprozess, den Integrationsmechanismus und die Kosteneffizienz von Workflows für menschliche und maschinelle Übersetzungen.
 
 ## Sitzungsaufzeichnung
 
@@ -33,25 +33,25 @@ In dieser Sitzung erfahren Sie mehr über den Übersetzungsprozess, den Integrat
 ## Haupterkenntnisse
 
 In dieser Sitzung erfahren Sie mehr über Folgendes:
-- Gründe, warum Unternehmen in Übersetzung investieren, um ihr Geschäft zu verbessern
+- Gründe, warum Unternehmen zur Verbesserung ihrer Geschäftstätigkeit in Übersetzungen investieren
 - Verfügbarer Framework-Mechanismus und Übersetzungsprozess
-- Automatisierung von Übersetzungs-Workflows, APIs und Dashboards
+- Automatisierung von Übersetzungs-Workflow, APIs und Dashboard
 - Best Practices für die Übersetzung strukturierter Inhalte
 
 ## Verwandte Ressourcen
 
 - **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Benutzerhandbuch** - [Inhalt übersetzen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
+- **Benutzerhandbuch** - [Inhalte übersetzen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **Community-Forum** - Besuchen Sie für sitzungsspezifische Community-Interaktionen auf dem Experience League das [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
+> Die in dieser Sitzung gezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
 > - On-Premise 4.1 oder höher
 > - Cloud Service 2207 oder höher
 
 ## Kontakt
 
-Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>
+Bei Fragen senden Sie uns bitte eine E-Mail an <techcomm@adobe.com>

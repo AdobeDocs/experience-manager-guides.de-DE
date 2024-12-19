@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren der Bearbeitungsoption in Sauerstoff
-description: Erfahren Sie, wie Sie die Option zur Bearbeitung im Oxygen Connector-Plug-in konfigurieren.
+title: Konfigurieren Sie die Option zur Bearbeitung in Oxygen
+description: Erfahren Sie, wie Sie die Option zum Bearbeiten im Oxygen Connector-Plug-in konfigurieren.
 exl-id: 96081a6d-39cf-4697-8b43-6494543ea187
 feature: Web Editor Configuration
 role: Admin
@@ -12,20 +12,20 @@ ht-degree: 1%
 
 ---
 
-# Konfigurieren der Bearbeitungsoption in Sauerstoff
+# Konfigurieren Sie die Option zur Bearbeitung in Oxygen
 
-AEM Guides ermöglicht es Benutzern auch, ihre DITA-Themen und DITA-Maps im Oxygen-Connector-Plugin zu bearbeiten.
+AEM Guides ermöglicht es den Benutzenden auch, ihre DITA-Themen und DITA-Karten im Oxygen Connector-Plug-in zu bearbeiten.
 
-Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden (Eigenschaftsdetails) an, um die Option **In Sauerstoff bearbeiten** zu konfigurieren:
+Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#), um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden Details (Eigenschaft) zum Konfigurieren der Option **In Sauerstoff bearbeiten** an:
 
 
 
-| PID | Eigenschaftenschlüssel | Eigenschaftswert |
+| PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.editinoxygen` | Boolesch \(true/false\). **Standardwert**: false |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.editinoxygen` | Boolescher Wert \(true/false\). **Standardwert**: false |
 
 >[!NOTE]
 >
 > Diese Konfiguration ist standardmäßig deaktiviert und die Option ist im Web-Editor nicht verfügbar.
 
-**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

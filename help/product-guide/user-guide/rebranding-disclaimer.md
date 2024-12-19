@@ -1,6 +1,6 @@
 ---
 title: Haftungsausschluss
-description: Dies ist ein Haftungsausschluss zur Adressierung der Namensänderung von XML Documentation für Adobe Experience Manager in AEM Guides.
+description: Dies ist ein Haftungsausschluss, um die Änderung des Produktnamens von XML Documentation für Adobe Experience Manager in AEM Guides zu behandeln
 exl-id: 388fb8d9-a7d0-4bbb-b244-4ccf461eafdf
 feature: Disclaimer
 role: User, Leader, Admin, Developer
@@ -13,4 +13,4 @@ ht-degree: 3%
 
 # Haftungsausschluss {#id2263D0P0TYU}
 
-*Adobe Experience Manager Guides* wurde früher als *XML Documentation für Adobe Experience Manager* gekennzeichnet. Beachten Sie bitte, dass einige Verweise in der Dokumentation weiterhin auf das frühere Branding verweisen können, aber weiterhin auf das aktuelle Angebot anwendbar sind.
+*Adobe Experience Manager Guides* wurde zuvor als *XML Documentation für Adobe Experience Manager* gekennzeichnet. Beachten Sie, dass sich bestimmte Verweise in der Dokumentation weiterhin auf das vorherige Branding beziehen können, aber dennoch für das aktuelle Angebot gelten.

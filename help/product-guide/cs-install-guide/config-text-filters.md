@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Textfilter konfigurieren {#id21BPD0FK0XA}
 
-AEM Guides bietet die Funktion zum Suchen nach Text in den Dateien, die auf dem ausgewählten Pfad des AEM-Repositorys vorhanden sind. Sie können die Filtersuche verwenden, um Dateien aus dem Repository-Bereich zu suchen oder Dateien zu durchsuchen. Bei der Arbeit im Web Editor müssen Sie das Dialogfeld zum Durchsuchen von Dateien verwenden, um Elemente wie Bilder, Verweise oder wichtige Verweise einzufügen.
+AEM Guides bietet die Funktion, um in den Dateien, die sich im ausgewählten Pfad des AEM-Repositorys befinden, nach Text zu suchen. Sie können die Filtersuche verwenden, um Dateien im Repository-Bereich zu suchen oder Dateien zu durchsuchen. Beim Arbeiten im Web-Editor müssen Sie das Dialogfeld zum Durchsuchen von Dateien verwenden, um Elemente wie Bilder, Verweise oder Schlüsselverweise einzufügen.
 
-Standardmäßig können Sie einige erweiterte Filter verwenden, um die Dateien im AEM Repository zu durchsuchen. Sie können alle DITA-Dateien oder Nicht-DITA-Dateien filtern, die im ausgewählten Pfad vorhanden sind. Sie können auch nach bestimmten Werten in den Attributen von DITA-Elementen suchen. Sie können auch nach Dateien suchen, die vom angegebenen Benutzer ausgecheckt wurden.
+Standardmäßig können Sie einige erweiterte Filter verwenden, um die Dateien im AEM-Repository zu durchsuchen. Sie können alle DITA-Dateien oder Nicht-DITA-Dateien filtern, die im ausgewählten Pfad vorhanden sind. Sie können auch in den Attributen von DITA-Elementen nach bestimmten Werten suchen. Sie können auch nach Dateien suchen, die vom angegebenen Benutzer ausgecheckt wurden.
 
 >[!NOTE]
 >
@@ -26,14 +26,14 @@ Führen Sie die folgenden Schritte aus, um die Textfilter zu konfigurieren:
 
 1. Melden Sie sich bei Adobe Experience Manager als Administrator an.
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
-1. Wählen Sie **Handbücher** aus der Liste der Tools und klicken Sie auf **Ordnerprofile**.
-1. Klicken Sie auf die Kachel **Globales Profil** .
+1. Wählen Sie **Guides** aus der Liste der Tools aus und klicken Sie auf **Ordnerprofile**.
+1. Klicken Sie auf die **Globales Profil**-Kachel.
 1. Klicken Sie auf **XML-Editor-Konfiguration**.
-1. Klicken Sie oben auf das Symbol **Bearbeiten** .
-1. Klicken Sie auf das Symbol **Download** , um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
-   1. Konfigurieren Sie die Filter in der Datei. Sie können auch benutzerdefinierte Filter hinzufügen, wie im folgenden Beispiel gezeigt:
+1. Klicken Sie oben **auf** Bearbeiten“.
+1. Klicken Sie auf **Herunterladen**, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Anschließend können Sie Änderungen an der Datei vornehmen und diese dann hochladen.
+   1. Konfigurieren Sie die Filter in der Datei . Sie können auch benutzerdefinierte Filter hinzufügen, wie im folgenden Beispiel gezeigt:
 
-      Das folgende Codefragment zeigt, wie Sie Filteroptionen für DITA-Dateien, Nicht-DITA-, DITA-Elemente und Ausgecheckt von Dateien hinzufügen. Es enthält auch einen benutzerdefinierten Filter - Tags.
+      Das folgende Codefragment zeigt, wie Sie Filteroptionen für DITA-Dateien, Nicht-DITA- und DITA-Elemente hinzufügen und durch Dateien ausgecheckt werden. Es enthält auch einen benutzerdefinierten Filter - Tags.
 
       ```
        "operation":"like"
@@ -68,16 +68,16 @@ Führen Sie die folgenden Schritte aus, um die Textfilter zu konfigurieren:
                                       ]
       ```
 
-      Im obigen Codefragment ist der erste Filter für DITA-Dateien. Die Filterdefinition akzeptiert die folgenden Parameter:
+      Im obigen Code-Snippet ist der erste Filter für DITA-Dateien. Die Filterdefinition akzeptiert die folgenden Parameter:
 
       ****Titel****: Der Anzeigename des Filters. Dieser Titel wird als Filteroption im Dialogfeld zum Durchsuchen von Dateien angezeigt.
 
-      ****Eigenschaft****: Die Eigenschaft, die in den Metadaten der Datei übereinstimmt. Um beispielsweise nur Dateien zuzulassen, deren -Eigenschaft die dita\_class -Metadaten enthält, verwendet der Eigenschaftenfilter den Wert &quot;jcr:content/metadata/dita\_class&quot;.
+      ****Property****: Die Eigenschaft, die in den Metadaten der Datei abgeglichen werden soll. Um beispielsweise nur die Dateien zuzulassen, die die Metadaten „dita\_class“ in ihrer Eigenschaft enthalten, nimmt der Eigenschaftsfilter „jcr:content/metadata/dita\_class“ als Wert.
 
-      ****Vorgang **:**Geben Sie &quot;exists&quot;an, damit der im Eigenschaftsparameter angegebene Wert übereinstimmt.
+      ****Operation **:**Geben Sie „exists“ an, um mit dem Vorhandensein des im Eigenschaftenparameter angegebenen Werts abzugleichen
 
 1. Laden Sie die aktualisierte Datei ui\_config.json hoch, die die hinzugefügten Filter enthält.
 
-Die konfigurierten Filter sind im Filterbereich verfügbar.
+Die konfigurierten Filter sind im Bedienfeld Filter verfügbar.
 
-**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

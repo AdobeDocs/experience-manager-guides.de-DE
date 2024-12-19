@@ -1,9 +1,10 @@
 ---
 title: Unterstützung für Schematron-Dateien
-description: Erfahren Sie, wie Sie ein DITA-Thema importieren und validieren, Assert-Berichtanweisungen verwenden, um nach Regeln zu suchen, Regex-Ausdrücke zu verwenden und abstrakte Muster in Schemateien von AEM Guides zu definieren.
+description: Erfahren Sie, wie Sie ein DITA-Thema importieren und validieren, mithilfe von Assert-Berichtsanweisungen nach Regeln suchen, Regex-Ausdrücke verwenden und abstrakte Muster in Schematron-Dateien von AEM Guides definieren.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
+source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -12,57 +13,57 @@ ht-degree: 0%
 
 # Unterstützung für Schematron-Dateien
 
-&quot;Schematron&quot;bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Der Web Editor unterstützt Schematron-Dateien. Sie können die Schemadateien importieren und sie auch im Web-Editor bearbeiten. Mithilfe einer Schematron-Datei können Sie bestimmte Regeln definieren und sie dann für ein DITA-Thema oder eine Zuordnung validieren.
+„Schematron“ bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Der Web-Editor unterstützt Schematron-Dateien. Sie können die Schematron-Dateien importieren und auch im Web-Editor bearbeiten. Mithilfe einer Schematron-Datei können Sie bestimmte Regeln definieren und diese dann für ein DITA-Thema oder eine Zuordnung validieren.
 
 >[!NOTE]
 >
-> Der Webeditor unterstützt ISO-Schemata.
+> Web-Editor unterstützt ISO Schematron.
 
 
-## Schemateien importieren
+## Schematron-Dateien importieren
 
 Führen Sie die folgenden Schritte aus, um die Schematron-Dateien zu importieren:
 
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
-1. Navigieren Sie in der *Repository-Ansicht* zum gewünschten Ordner (in den Sie die Dateien hochladen möchten).
-1. Klicken Sie auf das Symbol **Optionen** , um das Kontextmenü zu öffnen und die Option **Assets hochladen** zu wählen.
+1. Navigieren Sie zum erforderlichen Ordner (in den Sie die Dateien hochladen möchten) in der *Repository-Ansicht*.
+1. Klicken Sie auf das **Optionen**-Symbol, um das Kontextmenü zu öffnen und **Assets hochladen**.
 1. Im Dialogfeld **Assets hochladen** können Sie den Zielordner im Feld **Asset-Ordner auswählen** ändern.
-1. Klicken Sie auf **Dateien auswählen** und wählen Sie die Schematrondateien aus. Sie können eine oder mehrere Schemadateien auswählen und dann auf **Hochladen** klicken.
+1. Klicken Sie **Dateien auswählen** und durchsuchen Sie die Schematron-Dateien, um sie auszuwählen. Sie können eine oder mehrere Schematron-Dateien auswählen und dann auf &quot;**&quot;**.
 
-## Validieren eines DITA-Themas oder -Map mit Schematron
+## Validieren eines DITA-Themas oder einer DITA-Zuordnung mit Schematron
 
 Nach dem Import von Schematron-Dateien können Sie diese im Web-Editor bearbeiten. Sie können die Schematron-Dateien verwenden, um die Themen oder eine DITA-Zuordnung zu validieren. Sie können beispielsweise die folgenden Regeln für eine DITA-Zuordnung oder ein Thema erstellen:
 
 * Ein Titel wird für eine DITA-Zuordnung definiert.
 * Eine kurze Beschreibung einer bestimmten Länge wurde hinzugefügt.
-* Es sollte mindestens eine topicref in der Karte vorhanden sein.
+* Es muss mindestens eine TopicRef in der Karte vorhanden sein.
 
-Wenn Sie ein Thema im Web Editor öffnen, wird rechts ein Bedienfeld zur Schemavalidierung angezeigt. Führen Sie die folgenden Schritte aus, um ein Thema oder eine Zuordnung mit einer Schematron-Datei hinzuzufügen und zu validieren:
+Wenn Sie ein Thema im Web-Editor öffnen, wird rechts ein Bedienfeld für die Schematronvalidierung angezeigt. Führen Sie die folgenden Schritte aus, um ein Thema oder eine Zuordnung mit einer Schematron-Datei hinzuzufügen und zu validieren:
 ![](images/schematron-validate.png){width="300" align="left"}
 
-1. Klicken Sie auf das Schematron -Symbol (), um das Bedienfeld &quot;Schematron&quot;zu öffnen.
-1. Verwenden Sie Schematron-Datei hinzufügen , um Schematron-Dateien hinzuzufügen.
-1. Wenn die Schematron-Datei keine Fehler aufweist, wird sie hinzugefügt und im Überprüfungsfenster aufgelistet. Für die Schematron-Datei mit Fehlern wird eine Fehlermeldung angezeigt.
+1. Klicken Sie auf das Schematron-Symbol (), um das Schematron-Bedienfeld zu öffnen.
+1. Verwenden Sie Schematrondatei hinzufügen , um Schematrondateien hinzuzufügen.
+1. Wenn die Schematron-Datei keine Fehler enthält, wird sie hinzugefügt und im Validierungsfenster aufgeführt. Für die Schematron-Datei mit Fehlern wird eine Fehlermeldung angezeigt.
    >[!NOTE]
    >
-   >Sie können das Kreuzsymbol neben dem Schematron-Dateinamen verwenden, um es zu entfernen.
-1. Klicken Sie auf Mit Schema validieren , um das Thema zu validieren.
+   >Sie können das Kreuz-Symbol neben dem Namen der Schematron-Datei verwenden, um sie zu entfernen.
+1. Klicken Sie auf Mit Schematron validieren , um das Thema zu validieren.
 
-   * Wenn das Thema keine Regeln unterbricht, wird die Validierungs-Erfolgsmeldung für die Datei angezeigt.
-   * Wenn das Thema eine Regel beschädigt, z. B. wenn es keinen Titel enthält und für das oben angegebene Schema validiert wird, wird ein Validierungsfehler angezeigt.
+   * Wenn beim Thema keine Regeln verletzt werden, wird die Erfolgsmeldung für die Datei angezeigt.
+   * Wenn das Thema eine Regel umgeht, z. B. wenn es keinen Titel enthält und für das oben angegebene Schematron validiert wurde, wird ein Validierungsfehler angezeigt.
 
-1. Klicken Sie auf die Fehlermeldung, um das Element, das den Fehler enthält, im geöffneten Thema/in der geöffneten Zuordnung zu markieren.
+1. Klicken Sie auf die Fehlermeldung, um das Element mit dem Fehler im geöffneten Thema/in der geöffneten Zuordnung hervorzuheben.
 
-Die Schemaunterstützung im Web Editor hilft Ihnen dabei, die Dateien anhand eines Regelsatzes zu validieren und Konsistenz und Korrektheit über die Themen hinweg zu gewährleisten.
+Die Unterstützung von Schematronen im Web-Editor hilft Ihnen bei der Validierung der Dateien anhand eines Regelsatzes und der Aufrechterhaltung der Konsistenz und Korrektheit über die Themen hinweg.
 
-## Verwenden Sie Assets und Berichtanweisungen, um nach Regeln zu suchen.{#schematron-assert-report}
+## Verwenden Sie Assert- und Report-Anweisungen, um auf Regeln zu prüfen{#schematron-assert-report}
 
-AEM Guides unterstützt auch die Assert- und Berichtanweisungen in Schematron. Diese Anweisungen helfen Ihnen bei der Validierung Ihrer DITA-Themen.
+AEM Guides unterstützt auch die Assert- und Report-Anweisungen in Schematron. Mithilfe dieser Anweisungen können Sie Ihre DITA-Themen überprüfen.
 
-### Assert-Anweisung
+### Bestätigung
 
-Eine Assert-Anweisung generiert eine Meldung, wenn eine Testanweisung als &quot;false&quot;ausgewertet wird. Wenn Ihr Titel beispielsweise fett sein soll, können Sie eine Assert-Anweisung dafür definieren.
+Eine Assert-Anweisung erzeugt eine Meldung, wenn eine Testanweisung als „false“ ausgewertet wird. Wenn Ihr Titel beispielsweise fett formatiert sein soll, können Sie eine Assert-Anweisung dafür definieren.
 
 ```XML
 <sch:rule context="title"> 
@@ -70,12 +71,12 @@ Eine Assert-Anweisung generiert eine Meldung, wenn eine Testanweisung als &quot;
   </sch:rule>
 ```
 
-Wenn Sie Ihre DITA-Themen mit dem Schema validieren, erhalten Sie eine Nachricht für die Themen, bei denen der Titel nicht fett dargestellt wird.
+Wenn Sie Ihre DITA-Themen mit dem Schematron überprüfen, erhalten Sie eine Meldung für die Themen, bei denen der Titel nicht fett gedruckt ist.
 
-### Berichtserklärung
+### Berichtsanweisung
 
-Eine Berichtanweisung generiert eine Meldung, wenn eine Testanweisung als &quot;true&quot;ausgewertet wird. Wenn Sie beispielsweise eine Kurzbeschreibung von 150 Zeichen oder weniger wünschen, können Sie eine Berichtanweisung definieren, um die Themen zu überprüfen, bei denen die Kurzbeschreibung mehr als 150 Zeichen umfasst.
-Wenn Sie Ihre DITA-Themen mit dem Schema validieren, erhalten Sie einen vollständigen Bericht der Regeln, für die die Berichtanweisung &quot;true&quot;ergibt. Sie erhalten also eine Nachricht für die Themen, bei denen die kurze Beschreibung mehr als 150 Zeichen umfasst.
+Eine Berichtsanweisung erzeugt eine Meldung, wenn eine Testanweisung als „true“ ausgewertet wird. Wenn Sie beispielsweise möchten, dass die Kurzbeschreibung maximal 150 Zeichen lang ist, können Sie eine Berichtsanweisung definieren, um die Themen zu überprüfen, bei denen die Kurzbeschreibung mehr als 150 Zeichen lang ist.
+Wenn Sie Ihre DITA-Themen mit dem Schematron überprüfen, erhalten Sie einen vollständigen Bericht der Regeln, in denen die Berichtsanweisung als „true“ ausgewertet wird. So erhalten Sie eine Nachricht für die Themen, bei denen die Kurzbeschreibung mehr als 150 Zeichen umfasst.
 
 
 ```XML
@@ -89,13 +90,13 @@ Wenn Sie Ihre DITA-Themen mit dem Schema validieren, erhalten Sie einen vollstä
 
 >[!NOTE]
 >
-> Verwenden Sie beim Schreiben der Schemaregeln nur Xpath 2.0-Ausdrücke.
+> Verwenden Sie beim Schreiben der Schematron-Regeln nur XPath 2.0-Ausdrücke.
 
 ## Verwenden von Regex-Ausdrücken{#schematron-regex-espressions}
 
-Sie können auch Regex-Ausdrücke verwenden, um eine Regel mit der Funktion matches() zu definieren und dann mithilfe der Schematron-Datei eine Validierung durchzuführen.
+Sie können auch Regex-Ausdrücke verwenden, um eine Regel mit matches()-Funktion zu definieren und dann eine Validierung mithilfe der Schematron-Datei durchzuführen.
 
-Beispielsweise können Sie damit eine Nachricht anzeigen, wenn der Titel nur ein Wort enthält.
+Beispielsweise können Sie damit eine Meldung anzeigen, wenn der Titel nur ein Wort enthält.
 
 ```XML
 <assert test="not(matches(.,'^\w+$'))"> 
@@ -106,13 +107,13 @@ No one word titles.
 
 ## Abstrakte Muster definieren{#schematron-abstract-patterns}
 
-AEM Guides unterstützt auch abstrakte Muster in Schematron. Sie können allgemeine abstrakte Muster definieren, um diese abstrakten Muster wiederzuverwenden.  Sie können Platzhalterparameter erstellen, die das tatsächliche Muster angeben.
+AEM Guides unterstützt auch abstrakte Muster in Schematron. Sie können generische abstrakte Muster definieren, um diese abstrakten Muster wiederzuverwenden.  Sie können Platzhalterparameter erstellen, die das tatsächliche Muster angeben.
 
 
-Die Verwendung abstrakter Muster kann das Schema vereinfachen, indem die Duplizierung von Regeln reduziert und die Verwaltung und Aktualisierung Ihrer Validierungslogik vereinfacht wird. Außerdem kann es das Verständnis Ihres Schemas vereinfachen, da Sie komplexe Validierungslogik in einem einzigen abstrakten Muster definieren können, das im gesamten Schema wiederverwendet werden kann.
+Die Verwendung abstrakter Muster kann Ihr Schematron-Schema vereinfachen, indem die Duplizierung von Regeln reduziert wird und die Verwaltung und Aktualisierung Ihrer Validierungslogik erleichtert wird. Dies kann auch Ihr Schema verständlicher machen, da Sie komplexe Validierungslogik in einem einzigen abstrakten Muster definieren können, das im gesamten Schema wiederverwendet werden kann.
 
 
-Beispielsweise erstellt der folgende XML-Code ein abstraktes Muster und das eigentliche Muster verweist mithilfe der ID auf dieses Muster.
+Beispielsweise erstellt der folgende XML-Code ein abstraktes Muster und das eigentliche Muster verweist dann mithilfe der ID darauf.
 
 ```XML
 <sch:pattern abstract="true" id="LimitNoOfWords"> 

@@ -1,6 +1,6 @@
 ---
 title: Wiederverwendung von DITA-Inhalten in AEM Guides
-description: In diesem kurzen Artikel erfahren Sie, wie Sie mit AEM Guides und DITA Zeit und Mühe sparen, wenn Sie die Wiederverwendbarkeit von Inhalten verwenden
+description: In diesem kurzen Artikel erfahren Sie, wie Sie mit AEM Guides und DITA Zeit und Mühe bei der Wiederverwendbarkeit von Inhalten sparen können
 role: User, Admin
 author: Pulkit Nagpal(punagpal)
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 Adobe AEM Guides nutzt die Stärken von DITA, um eine benutzerfreundliche Oberfläche für die Wiederverwendung von Inhalten bereitzustellen.
 
-In diesem Artikel wird Folgendes besprochen:
+In diesem Artikel wird Folgendes behandelt:
 
-1. [Wiederverwendbarkeit mithilfe der Themenreferenz (](#reusability-using-topic-referencestopicref)
+1. [Wiederverwendbarkeit mit Themenreferenz (](#reusability-using-topic-referencestopicref)
 2. [Wiederverwendbarkeit mithilfe der Inhaltsreferenz (](#reusability-using-content-reference-conref--conkeyref)
-3. [Bonustipp zur Wiederverwendung von Inhalten mit Drag &amp; Drop in AEM Guides](#reuse-content-with-a-single-click-in-aem-guides)
+3. [Bonustipp zur Wiederverwendung von Inhalten durch Drag-and-Drop in AEM Guides](#reuse-content-with-a-single-click-in-aem-guides)
 
-## Wiederverwendbarkeit mit Themenverweisen (topicref)
+## Wiederverwendbarkeit mithilfe von Themenreferenzen (topicref)
 
 
 
-Nehmen wir an, Sie sind ein Hersteller und haben allgemeine Themen für Sicherheitsvorkehrungen oder Fehlerbehebungstechniken.
+Nehmen wir an, Sie sind ein Produktionsunternehmen und haben allgemeine Themen zu Sicherheitsvorkehrungen oder Fehlerbehebungstechniken.
 
-Diese können in spezifischen Benutzerhandbüchern für jedes Maschinenmodell referenziert und angepasst werden, wodurch Redundanz reduziert und sichergestellt wird, dass die grundlegenden Sicherheitsinformationen konsistent bleiben.
+Diese können in spezifischen Benutzerhandbüchern für jedes Maschinenmodell referenziert und angepasst werden, um Redundanz zu reduzieren und sicherzustellen, dass die grundlegenden Sicherheitsinformationen konsistent bleiben.
 
 ```
 <map id="user_manual_model 100" title="ABC Model 100 User Manual ">
@@ -60,15 +60,15 @@ Diese können in spezifischen Benutzerhandbüchern für jedes Maschinenmodell re
 </map>
 ```
 
-## Wiederverwendbarkeit mithilfe der Inhaltsreferenz (conref &amp; conkeyref)
+## Wiederverwendbarkeit mit Inhaltsreferenz (conref und conkeyref)
 
-Mit dem Attribut content reference (conref) können Sie Links zu anderen Teilen Ihres Inhalts erstellen. Dies fördert die Wiederverwendbarkeit und reduziert die Redundanz.
+Mit dem Inhaltsreferenz-Attribut (conref) können Sie Links zu anderen Teilen Ihres Inhalts erstellen. Dies fördert die Wiederverwendbarkeit und reduziert Redundanz.
 
 Zum Beispiel:
 
-Nehmen wir einmal an, Sie sind ein Finanzunternehmen und haben ein allgemeines Thema für KYC, das KYC-Verfahren für Einzelpersonen, Unternehmen usw. enthält.
+Nehmen wir an, Sie sind ein Finanzunternehmen und haben ein generisches Thema für KYC, das KYC-Verfahren für Einzelpersonen, Unternehmen usw. enthält.
 
-Sie möchten ein einzelnes KYC-Fragment für Ihre Themen &quot;Konto speichern&quot;und &quot;Konto abrufen&quot;wiederverwenden.
+Sie möchten einzelne KYC-Fragmente für die Themen „Sparkonto“ und „Dematkonto“ wiederverwenden.
 
 ```
 <section id="kyc_requirements_saving_account">
@@ -78,23 +78,23 @@ Sie möchten ein einzelnes KYC-Fragment für Ihre Themen &quot;Konto speichern&q
 </section>
 ```
 
-Hier ist `conref=kyc_procedures.dita#indvidual_kyc` kyc_operations.dita die Dateikennung und #individuelle_kyc die Fragmentkennung.
+Hier ist `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedure.dita die Dateikennung und #individual_kyc die Fragmentkennung.
 
-Kyc_procedure.dita ist weiterhin die einzige Informationsquelle. Wenn regulatorische Änderungen Aktualisierungen des KYC-Prozesses erfordern, aktualisieren Sie den Themenpfad mit dem neuen. Die Änderungen werden automatisch in allen Themen übernommen, die darauf verweisen.
+KYC_Procedure.dita ist weiterhin die einzige Informationsquelle. Wenn Änderungen der Vorschriften Aktualisierungen des KYC-Prozesses erfordern, aktualisieren Sie den Themenpfad mit dem neuen. Die Änderungen werden automatisch in allen Themen übernommen, die darauf verweisen.
 
-Mit AEM Guides werden die beiden Klicks
+Die beiden Klicks von AEM Guides
 
-Schritt 1: Klicken Sie auf Wiederverwendbaren Inhalt einfügen
-![toolbar](../../assets/publishing/content-reusability_image1.png)
+Schritt 1: Klicken Sie auf Wiederverwendbaren Inhalt einfügen .
+![Symbolleiste](../../assets/publishing/content-reusability_image1.png)
 
 <br>
 
 Schritt 2: Wählen Sie die Datei und das Fragment aus, die wiederverwendet werden sollen.
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
-Ähnlich wie &quot;conref&quot;können Sie auch &quot;conkeyref&quot;verwenden, wobei Sie, anstatt einen Inhaltspfad anzugeben, auf Inhalte über Schlüssel verweisen.
+Ähnlich wie „conref“ können Sie auch „conkeyref“ verwenden, wenn Sie Inhalte über einen Schlüssel referenzieren, anstatt einen Inhaltspfad anzugeben
 
-Codebeispiel :
+Code-Beispiel :
 
 ```
 <section conkeyref="kyc_procedure/individual_kyc_procedure" id="individual_kyc_procedure"></section>
@@ -112,7 +112,7 @@ Die Schlüsseldefinition sieht wie folgt aus:
 </map>
 ```
 
-Schlüssel - &#39;Kyc_procedure&#39; ist weiterhin die einzige Informationsquelle. Wenn es Änderungen am KYC-Prozess gibt, wie es von Verordnungen gefordert wird, müssen Sie einfach einen Themenpfad mit einem neuen Themenpfad aktualisieren. Diese Änderungen werden automatisch in allen Themen übernommen, die darauf verweisen.
+Schlüssel - &#39;KYC_PROCEDURE&#39; ist weiterhin die zentrale Informationsquelle. Wenn es Änderungen am KYC-Prozess gibt, die durch Vorschriften erforderlich sind, müssen Sie einfach einen Themenpfad mit einem neuen Themenpfad aktualisieren, und diese Änderungen werden automatisch in allen Themen übernommen, die darauf verweisen.
 
 ```
 <map id="ABC_manual">
@@ -124,42 +124,42 @@ Schlüssel - &#39;Kyc_procedure&#39; ist weiterhin die einzige Informationsquell
 </map>
 ```
 
-Hier wird der Themenpfad aufgrund aktueller Änderungen der Verordnung von &quot;kyc_procedure_2020.dita&quot;zu &quot;kyc_procedure_2024.dita&quot;geändert.
+Hier wird der Themenpfad aufgrund kürzlich erfolgter Regeländerungen von „kyc_procedure_2020.dita“ zu „kyc_procedure_2024.dita“ geändert.
 
-Mit AEM Guides werden die beiden Klicks
+Die beiden Klicks von AEM Guides
 
-Schritt 1: Klicken Sie auf Wiederverwendbaren Inhalt einfügen
-![toolbar](../../assets/publishing/content-reusability_image1.png)
+Schritt 1: Klicken Sie auf Wiederverwendbaren Inhalt einfügen .
+![Symbolleiste](../../assets/publishing/content-reusability_image1.png)
 
-Schritt 2: Wählen Sie die Stammzuordnung (optional), den Schlüssel und das Fragment aus, die wiederverwendet werden sollen.
+Schritt 2: Wählen Sie Ihre Stammzuordnung (optional), Ihren Schlüssel und Ihr Fragment aus, die wiederverwendet werden müssen.
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
 
-Hier wurde die Stammzuordnung automatisch ausgewählt, da sie bereits in der Kartenansicht geöffnet war.
+Hier wurde die Stammzuordnung automatisch ausgewählt, da sie bereits in der Zuordnungsansicht geöffnet war.
 
 
-## Wiederverwenden von Inhalten mit nur einem Klick in AEM Guides
+## Wiederverwenden von Inhalten mit einem Klick in AEM Guides
 
-AEM Guides bietet die Funktion &quot;Wiederverwendbare Inhalte&quot;, mit der Inhaltsverweise durch einen Klick hinzugefügt werden können.
+AEM Guides bietet die Funktion „Wiederverwendbare Inhalte“, mit der Sie mit einem Klick Inhaltsreferenzen hinzufügen können.
 
 Schritt 1: Hinzufügen eines allgemeinen Themas zu wiederverwendbaren Inhalten
 
 ![Wiederverwendbaren Inhalt hinzufügen](../../assets/publishing/content-reusability_image4.png)
 
-Schritt 2: Ziehen Sie das Fragment, das Sie in einem Ihrer Zielthemen wiederverwenden möchten, nach dem Hinzufügen per Drag-and-Drop.
+Schritt 2: Ziehen Sie das Fragment, das Sie wiederverwenden möchten, nach dem Hinzufügen per Drag-and-Drop in eines Ihrer Zielthemen.
 
-![Hinzufügen wiederverwendbarer Inhaltsgif](../../assets/publishing/content-reusability_image5.gif)
+![Wiederverwendbare Inhalte hinzufügen - GIF](../../assets/publishing/content-reusability_image5.gif)
 
 
 
 ## Häufig gestellte Fragen
 
-- ### Nach Auswahl der Datei/des Schlüssels im Dialogfeld Inhalt wiederverwenden werden nicht alle Inhalte angezeigt
+- ### Nach Auswahl der Datei/des Schlüssels im Dialogfeld „Inhalt wiederverwenden“ wird kein Inhalt angezeigt
 
-Zuweisen von IDs zu Fragmenten (DITA-Elementen), die Sie in anderen Themen wiederverwenden möchten
+Weisen Sie Fragmenten (Ditelementen) IDs zu, die Sie in anderen Themen wiederverwenden möchten
 
-- ## Schlüssel werden im Dialogfeld &quot;Inhalt wiederverwenden&quot;nicht angezeigt
+- ## Schlüssel werden nicht im Dialogfeld Inhalt wiederverwenden angezeigt
 
-  Stellen Sie sicher, dass Sie die Stammzuordnung/die übergeordnete Zuordnung in der Zuordnungsansicht geöffnet haben, die über eine Schlüsseldefinition verfügt, oder fügen Sie den Pfad der Stammzuordnung manuell im selben Dialogfeld hinzu.
+  Vergewissern Sie sich, dass Sie die Stammzuordnung/übergeordnete Zuordnung in der Zuordnungsansicht geöffnet haben, die über eine Schlüsseldefinition verfügt, oder fügen Sie den Stammzuordnungspfad manuell im selben Dialogfeld hinzu.
 
 
 <br>
@@ -167,4 +167,4 @@ Zuweisen von IDs zu Fragmenten (DITA-Elementen), die Sie in anderen Themen wiede
 <br>
 
 
-Posten Sie für Abfragen im AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) .
+Posten Sie bei der AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) für alle Fragen.

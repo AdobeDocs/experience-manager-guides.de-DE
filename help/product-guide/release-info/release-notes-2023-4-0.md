@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version April 2023
-description: Adobe Experience Manager Guides as a Cloud Service-Version vom April 2023
+title: Versionshinweise zu | Adobe Experience Manager Guides as a Cloud Service, Version April 2023
+description: Version April 2023 von Adobe Experience Manager Guides as a Cloud Service
 exl-id: fa339eab-d3d0-4763-adbf-6411e39aa213
 feature: Release Notes
 role: Leader
@@ -11,49 +11,49 @@ ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guides as a Cloud Service-Version vom April 2023
+# Version April 2023 von Adobe Experience Manager Guides as a Cloud Service
 
-In diesem Versionshinweis werden die Aktualisierungsanweisungen, die Kompatibilitätsmatrix und die in der Version vom April 2023 von Adobe Experience Manager Guides behobenen Probleme (später als *AEM Guides as a Cloud Service* bezeichnet) beschrieben.
+Diese Versionshinweise enthalten die Upgrade-Anweisungen, die Kompatibilitätsmatrix und behobene Probleme in Version April 2023 von Adobe Experience Manager Guides (später als *AEM Guides as a Cloud Service* bezeichnet).
 
-Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in der AEM Guides as a Cloud Service-Version vom April 2023](whats-new-2023-4-0.md).
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in der Version April 2023 von AEM Guides as a Cloud Service](whats-new-2023-4-0.md).
 
-## Aktualisierung auf die Version vom April 2023
+## Upgrade auf die Version April 2023
 
-Führen Sie die folgenden Schritte aus, um Ihr aktuelles AEM Guides as a Cloud Service-Setup zu aktualisieren:
+Führen Sie ein Upgrade Ihres aktuellen AEM Guides as a Cloud Service-Setups durch, indem Sie die folgenden Schritte ausführen:
 
-1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-2. Aktualisieren Sie die Eigenschaft `<dox.version>` in der Datei `/dox/dox.installer/pom.xml` Ihres Cloud Service-Git-Codes auf 2023.4.249.
-3. Nehmen Sie die Änderungen vor und führen Sie die Cloud Service-Pipeline aus, um auf die AEM Guides as a Cloud Service-Version vom April 2023 zu aktualisieren.
+1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+2. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf 2023.4.249.
+3. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die Version April 2023 von AEM Guides as a Cloud Service zu aktualisieren.
 
-## Schritte zum Indexieren des vorhandenen Inhalts (nur, wenn Sie eine Version vor der September-Version von AEM Guides as a Cloud Service verwenden)
+## Schritte zum Indizieren des vorhandenen Inhalts (nur bei Versionen vor der AEM Guides as a Cloud Service-Version September)
 
-Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text auf Zuordnungsebene zu suchen und zu ersetzen:
+Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene zu verwenden:
 
-* Führen Sie eine POST-Anfrage an den Server aus (mit der richtigen Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`.
-(Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert || Beispiel : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+* Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`.
+(Optional) Sie können bestimmte Pfade der Karten übergeben, um sie zu indizieren. Standardmäßig werden alle Karten indiziert || Beispiel : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Beispiel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c183 79f11c42_678)
+(Beispiel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
-* Nach Abschluss des Auftrags antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Maps können über die Serverprotokolle bestätigt werden.
+* Sobald der Vorgang abgeschlossen ist, antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Zuordnungen können aus den Serverprotokollen bestätigt werden.
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von der AEM Guides as a Cloud Service-Version vom April 2023 unterstützt werden.
+In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwendungen, die von AEM Guides as a Cloud Service Version April 2023 unterstützt werden.
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| AEM Guides as a Cloud-Version | FMPS | FrameMaker |
+| AEM Guides as a Cloud Service-Version | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023,04,0 | Nicht kompatibel | 2022 oder höher |
+| 2 023,04,0 | Nicht kompatibel | 2022 oder höher |
 | | | |
 
 
 ### Sauerstoffanschluss
 
-| AEM Guides as a Cloud-Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2023,04,0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
+| 2 023,04,0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -62,18 +62,18 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Native PDF | Das Veröffentlichen von Inhalten mit einer Ausgabeklasse mit Klammern() führt zum Einfrieren der Veröffentlichung. (11596)
-* Problem tritt beim Verschieben (per Drag-and-Drop) anstelle eines vorhandenen Listenelements auf, bei dem &quot;Änderungen verfolgen&quot;aktiviert ist. (11570)
-* Beim Verschieben (per Drag &amp; Drop) als neues Listenelement mit aktivierter Option Änderungen verfolgen tritt ein Problem auf. (11569)
-* Einzug- oder Ausschlusslistenelemente funktionieren bei &quot;Änderungen verfolgen&quot;in nicht erwartungsgemäß. (11568)
-* Wenn Sie Inhalte in einer Zeile mit aktivierter Option &quot;Änderungen verfolgen&quot;hinzufügen und die Option &quot;Änderungen verfolgen&quot;dann deaktivieren, wird dies nicht deaktiviert. (11567)
-* Schwierigkeiten beim Ziehen und Ablegen eines Listenelements besteht darin, dass Text anstelle des Listenelements verschoben wird. (11566)
-* Die abgeschlossene Überprüfung wird nicht im schreibgeschützten Modus geöffnet. (11387)
-* Problem tritt bei AEM Site-Suche auf (funktioniert nicht über 2-3-Level-Knoten hinaus). (11352)
-* Beim Authoring im Element, das grün (Änderungen verfolgen) angezeigt wird, wird der neue Inhalt als Verfolgungsänderung angezeigt, auch wenn die Verfolgungsänderung deaktiviert ist. (7021)
+* Native PDF | Die Veröffentlichung von Inhalten mit einer Ausgabeklasse mit Brackets() führt zu einem Veröffentlichungsstopp. 11596)
+* Problem tritt beim Verschieben (Ziehen und Ablegen) anstelle eines vorhandenen Listenelements auf, bei dem Änderungen nachverfolgen aktiviert ist. 11570)
+* Problem beim Verschieben (Ziehen und Ablegen) als neues Listenelement mit aktiviertem „Änderungen verfolgen“. 11569)
+* Ein- oder Ausrücken von Listenelementen funktioniert nicht wie erwartet, wenn Änderungen nachverfolgt werden. 11568)
+* Beim Hinzufügen von Inhalten zu einer Zeile mit aktivierter Option „Änderungen verfolgen“ und beim Deaktivieren der Option „Änderungen verfolgen“ wird die Option nicht deaktiviert. 11567)
+* Schwierigkeiten beim Ziehen und Ablegen eines Listenelements, Text wird anstelle des Listenelements verschoben. 11566)
+* Abgeschlossene Überprüfung wird nicht im schreibgeschützten Modus geöffnet. 11387)
+* Das Problem tritt bei der AEM-Site-Suche auf (funktioniert nicht über zwei- bis dreistufige Knoten hinaus). 11352)
+* Beim Authoring im grün angezeigten Element (Änderungen verfolgen) wird der neue Inhalt als Tracking-Änderung angezeigt, obwohl die Track-Änderung deaktiviert ist. (7021)
 
 ### Bekanntes Problem mit Problemumgehung
 
-Adobe hat das folgende bekannte Problem für AEM Guides as a Cloud Service-Version vom April 2023 identifiziert.
+Adobe hat das folgende bekannte Problem in AEM Guides as a Cloud Service Version April 2023 festgestellt.
 
-* Native PDF | Die alten Metadaten werden erst gefüllt, wenn die Ausgabevorgabe explizit geöffnet wurde.
+* Native PDF | Die alten Metadaten werden erst ausgefüllt, wenn die Ausgabevorgabe explizit geöffnet wird.

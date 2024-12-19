@@ -1,9 +1,10 @@
 ---
 title: Dateien und Ordner verwalten
-description: Erfahren Sie, wie Sie Dateien und Ordner in AEM Guides verwalten. Kopieren Sie Dateien und Ordner in großen Mengen, ziehen Sie sie per Drag-and-Drop, löschen Sie sie, verschieben Sie sie und suchen Sie DITA-Inhalte.
+description: Erfahren Sie, wie Sie Dateien und Ordner in AEM Guides verwalten. Kopieren und Einfügen, Ziehen und Ablegen, Löschen, Verschieben von Dateien und Ordnern in großen Mengen und Suchen von DITA-Inhalten.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
+source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
@@ -12,121 +13,121 @@ ht-degree: 0%
 
 # Dateien und Ordner verwalten {#id2116G0L08XA}
 
-In diesem Abschnitt wird erläutert, wie AEM Guides mit grundlegenden Dateivorgängen wie dem Kopieren, Einfügen, Drag &amp; Drop und Löschen von Dateien umgeht. Die folgenden Szenarien sind möglich:
+In diesem Abschnitt wird erläutert, wie AEM Guides mit grundlegenden Dateivorgängen wie Kopieren, Einfügen, Drag-and-Drop und Löschen von Dateien umgeht. Die folgenden Szenarien sind möglich:
 
 ## Dateien kopieren und einfügen
 
-**Wenn die Datei einen lesbaren Dateinamen hat**
+**Wenn die Datei einen für Menschen lesbaren Dateinamen hat**
 
-- *Wenn die Datei mit demselben Namen nicht im Zielordner vorhanden ist*: Es wird eine neue Kopie der Datei erstellt und ihr auch eine UUID zugewiesen. Hier ist der Dateiname mit dem ursprünglichen Dateinamen identisch.
-- *Wenn die Datei mit demselben Namen bereits im Zielordner vorhanden ist*: Eine neue Kopie der Datei wird mit dem Suffix \(z. B. filename0.extension\) erstellt. Der neu erstellten Datei wird auch eine UUID zugewiesen.
+- *Wenn die Datei mit demselben Namen nicht im Zielordner vorhanden ist*: Es wird eine neue Kopie der Datei erstellt und ihr wird außerdem eine UUID zugewiesen. Hier entspricht der Dateiname dem ursprünglichen Dateinamen.
+- *Wenn die Datei mit demselben Namen bereits im Zielordner vorhanden ist*: Eine neue Kopie der Datei wird mit dem Suffix \(wie filename0.extension\) erstellt. Der neu erstellten Datei wird auch eine UUID zugewiesen.
 
 
 **Wenn der Dateiname auf einem UUID-Muster basiert**
 
-- *Wenn die Datei mit demselben Namen nicht im Zielordner vorhanden ist*: Eine neue Kopie der Datei wird erstellt und ihr am neuen Speicherort wird auch eine neue UUID zugewiesen. Hier ist der Dateiname mit der UUID identisch.
-- *Wenn die Datei mit demselben Namen bereits im Zielordner vorhanden ist*: Eine neue Kopie der Datei wird erstellt und ihr wird auch eine neue UUID zugewiesen. Der Dateiname entspricht der UUID.
+- *Wenn die Datei mit demselben Namen nicht im Zielordner vorhanden ist*: Es wird eine neue Kopie der Datei erstellt und ihr wird am neuen Speicherort ebenfalls eine neue UUID zugewiesen. Hier ist der Dateiname mit der UUID identisch.
+- *Wenn die Datei mit demselben Namen bereits im Zielordner vorhanden ist*: Es wird eine neue Kopie der Datei erstellt und ihr wird außerdem eine neue UUID zugewiesen. Der Dateiname ist mit der UUID identisch.
 
 
 ## Ordner kopieren und einfügen
 
-**Kopieren und Einfügen des Ordners am selben Speicherort**
+**Kopieren Sie den Ordner und fügen Sie ihn am selben Speicherort ein**
 
-- *Der Ordner enthält Dateien mit für Menschen lesbaren Dateinamen*: Eine neue Kopie des Ordners wird mit dem Suffix \(wie Ordnername0\) erstellt. Den Dateien im Ordner wird auch eine neue UUID zugewiesen. Die Dateinamen werden jedoch nicht geändert.
+- *Der Ordner enthält Dateien mit für Menschen lesbaren Dateinamen*: Eine neue Kopie des Ordners wird mit dem Suffix \(wie ordnername0\) erstellt. Eine neue UUID wird auch den Dateien im Ordner zugewiesen. Die Dateinamen ändern sich jedoch nicht.
 
-- *Der Ordner enthält Dateien mit Dateinamen, die auf einem UUID-Muster basieren*: Eine neue Kopie des Ordners wird mit dem Suffix \(wie Ordnername0\) erstellt. Eine neue UUID wird auch allen Dateien im neuen Ordner zugewiesen. Die Dateinamen werden ebenfalls geändert. Die Dateinamen sind mit der neuen UUID identisch.
+- *Der Ordner enthält Dateien mit Dateinamen, die auf einem UUID-Muster basieren*: Eine neue Kopie des Ordners wird mit dem Suffix \(wie ordnername0\) erstellt. Eine neue UUID wird auch allen Dateien im neuen Ordner zugewiesen. Die Dateinamen werden ebenfalls geändert. Die Dateinamen entsprechen der neuen UUID.
 
 
 **Kopieren und Einfügen des Ordners an einem anderen Speicherort**
 
-- *Der Ordner enthält Dateien mit für Menschen lesbaren Dateinamen*: Eine neue Kopie des Ordners wird erstellt und eine neue UUID wird auch allen Dateien im Ordner am neuen Speicherort zugewiesen. Hier gibt es keine Änderung an den Ordnern oder Dateinamen.
+- *Der Ordner enthält Dateien mit für Menschen lesbaren Dateinamen*: Es wird eine neue Kopie des Ordners erstellt und allen Dateien im Ordner am neuen Speicherort wird auch eine neue UUID zugewiesen. Hier gibt es keine Änderung am Ordner oder an den Dateinamen.
 
-- *Der Ordner enthält Dateien mit Dateinamen, die auf einem UUID-Muster basieren*: Eine neue Kopie des Ordners wird mit demselben Namen wie der ursprüngliche Ordner erstellt. Eine neue UUID wird auch allen Dateien im neuen Ordner zugewiesen. Die Dateinamen werden ebenfalls geändert. Die Dateinamen sind mit der neuen UUID identisch.
+- *Der Ordner enthält Dateien mit Dateinamen, die auf einem UUID-Muster basieren*: Eine neue Kopie des Ordners wird mit demselben Namen wie der ursprüngliche Ordner erstellt. Eine neue UUID wird auch allen Dateien im neuen Ordner zugewiesen. Die Dateinamen werden ebenfalls geändert. Die Dateinamen entsprechen der neuen UUID.
 
 
-## Drag &amp; Drop von Dateien
+## Drag-and-Drop-Dateien
 
-**Drag-and-Drop mit lesbaren Dateinamen**
+**Drag-and-Drop mit menschenlesbaren Dateinamen**
 
-- *Verschieben Sie per Drag-and-Drop an die gleiche Stelle*: Sie erhalten die Optionen für **Vorhandene Datei(en\) überschreiben**, **Beibehalten Beide Dateien\(s\)** und eine Option zum Erstellen einer Version der vorhandenen Arbeitskopie.
+- *Drag-and-Drop am selben Speicherort*: Sie haben die Optionen **Vorhandene Datei(en) überschreiben**, **Beide Dateien beibehalten\(s\)** und eine Option zum Erstellen einer Version der vorhandenen Arbeitskopie.
 
   ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
-  Wenn Sie die Option &quot;**Vorhandene Datei überschreiben\(n\)**&quot;wählen, ersetzt die hochgeladene Datei die aktuelle Arbeitsversion der vorhandenen Datei am ursprünglichen Speicherort. Die UUID wird weder erstellt noch geändert.
+  Wenn Sie die Option **Vorhandene Datei(en) überschreiben** auswählen, ersetzt die hochgeladene Datei die aktuelle Arbeitsversion der vorhandenen Datei am ursprünglichen Speicherort. Die UUID wird nicht erstellt oder geändert.
 
-  Wenn Sie die Option &quot;**Beides beibehalten\(s\)**&quot;wählen, wird eine neue Kopie der Datei mit dem Suffix &quot;\(z. B. filename0.extension\)&quot;erstellt. Eine neue UUID wird auch der neu kopierten Datei zugewiesen.
+  Wenn Sie die Option **Beide Dateien beibehalten\(s\)** wählen, wird eine neue Kopie der Datei mit dem Suffix \(wie filename0.extension\) erstellt. Der neu kopierten Datei wird auch eine neue UUID zugewiesen.
 
-  Wenn Sie mit der Option Vorhandene Datei überschreiben\(s\) die Option zum Erstellen einer Version aus der vorhandenen Arbeitskopie auswählen, wird auch eine neue Version aus der Arbeitskopie des Dokuments erstellt.
-
-  >[!NOTE]
-  >
-  > **Die Funktion &quot;Neue Version für hochgeladene Datei erstellen&quot;** muss von Ihrem Administrator aktiviert werden. Wenn diese Funktion aktiviert ist, wird eine neue Version für die hochgeladene Datei erstellt. Wenn die Option deaktiviert ist, wird keine Version der hochgeladenen Datei erstellt. Weitere Informationen finden Sie im Abschnitt *Neue Version für hochgeladene Datei erstellen* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service .
-
-  Wenn eine Datei bereits von einem anderen Benutzer zur Bearbeitung ausgecheckt wurde und Sie versuchen, die vorhandene Datei hochzuladen und zu überschreiben, schlägt sie fehl und zeigt einen Fehler an.
+  Mit der Option Vorhandene Datei(en) überschreiben wird, wenn Sie die Option wählen, eine Version aus der vorhandenen Arbeitskopie zu erstellen, auch eine neue Version aus der Arbeitskopie des Dokuments erstellt.
 
   >[!NOTE]
   >
-  >Die Funktion **Ausgecheckte Datei beim Hochladen überschreiben** muss von Ihrem Administrator deaktiviert werden. Wenn diese Funktion aktiviert ist, können Sie ausgecheckte Dateien überschreiben. Wenn die Funktion nicht aktiviert ist, kann eine ausgecheckte Datei nicht überschrieben werden. Weitere Informationen finden Sie im Abschnitt *Ausgecheckte Datei beim Hochladen überschreiben* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+  > **Neue Version für hochgeladene Datei erstellen** muss die Funktion von Ihrem Administrator aktiviert werden. Wenn diese Funktion aktiviert ist, wird eine neue Version für die hochgeladene Datei erstellt. Wenn die Option deaktiviert ist, wird keine Version der hochgeladenen Datei erstellt. Weitere Informationen finden Sie *Abschnitt „Neue Version für hochgeladene Datei erstellen* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+
+  Wenn eine Datei bereits von einem anderen Benutzer auf Bearbeitungen überprüft wurde und Sie versuchen, die vorhandene Datei hochzuladen und zu überschreiben, schlägt dies fehl und zeigt einen Fehler an.
+
+  >[!NOTE]
+  >
+  >Die **Ausgecheckte Datei beim Hochladen überschreiben** muss von Ihrem Administrator deaktiviert werden. Wenn diese Funktion aktiviert ist, können Sie ausgecheckte Dateien überschreiben. Wenn die Funktion nicht aktiviert ist, wird verhindert, dass eine ausgecheckte Datei überschrieben wird. Weitere Informationen finden Sie *Abschnitt „Ausgecheckte Datei beim Hochladen überschreiben* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 
-- *Drag-and-Drop von Dateien an einem anderen Speicherort*: Eine neue Kopie der Datei wird erstellt und ihr wird auch eine neue UUID am neuen Speicherort zugewiesen. Hier ist der Dateiname mit dem ursprünglichen Dateinamen identisch.
+- *Dateien per Drag-and-Drop an einen anderen Speicherort ziehen*: Es wird eine neue Kopie der Datei erstellt und ihr wird auch eine neue UUID am neuen Speicherort zugewiesen. Hier entspricht der Dateiname dem ursprünglichen Dateinamen.
 
 
-**Ziehen und Ablegen von Dateinamen basierend auf einem UUID-Muster**
+**Drag-and-Drop mit Dateinamen, die auf einem UUID-Muster basieren**
 
-*Datei per Drag &amp; Drop am selben Speicherort ablegen*: Sie erhalten die Optionen zum **Überschreiben vorhandener Dateien\(n\)** zusammen mit der Option, eine Version der vorhandenen Arbeitskopie zu erstellen.
+*Datei per Drag-and-Drop am selben Speicherort ablegen*: Sie haben die Möglichkeit, **Vorhandene Datei(en) überschreiben** und eine Version der vorhandenen Arbeitskopie zu erstellen.
 
 ![](images/uuid-drag-drop-same-location.PNG){width="650" align="center"}
 
-Wenn die Datei überschrieben wird, ändert sich weder der Dateiname noch die UUID.
+Wenn die Datei überschrieben wird, gibt es keine Änderung am Dateinamen oder an der UUID.
 
-Wenn Sie die Option &quot;**Version für vorhandene Arbeitskopie erstellen**&quot;auswählen, wird eine neue Version aus der Arbeitskopie des Dokuments erstellt. Die neue Datei wird hochgeladen, eine neue Version der Datei wird ebenfalls erstellt und als Arbeitskopie des Dokuments erstellt.
+Wenn Sie die Option **Version für die vorhandene Arbeitskopie erstellen** auswählen, wird eine neue Version aus der Arbeitskopie des Dokuments erstellt. Die neue Datei wird hochgeladen, es wird auch eine neue Version der Datei erstellt und sie wird als Arbeitskopie des Dokuments erstellt.
 
-**Die Funktion &quot;Neue Version für hochgeladene Datei erstellen&quot;** muss von Ihrem Administrator aktiviert werden. Wenn diese Funktion aktiviert ist, wird eine neue Version für die hochgeladene Datei erstellt. Wenn die Option deaktiviert ist, wird keine Version der hochgeladenen Datei erstellt. Weitere Informationen finden Sie im Abschnitt *Neue Version für hochgeladene Datei erstellen* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service .
+**Neue Version für hochgeladene Datei erstellen** muss die Funktion von Ihrem Administrator aktiviert werden. Wenn diese Funktion aktiviert ist, wird eine neue Version für die hochgeladene Datei erstellt. Wenn die Option deaktiviert ist, wird keine Version der hochgeladenen Datei erstellt. Weitere Informationen finden Sie *Abschnitt „Neue Version für hochgeladene Datei erstellen* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 
-*Datei an anderer Stelle per Drag &amp; Drop verschieben*: Sie erhalten die Optionen zum **Überschreiben vorhandener Dateien\(n\)**, zum **Verschieben von Dateien\(s\) an eine neue Position** und zur Option zum Erstellen einer Version der vorhandenen Arbeitskopie.
+*Datei per Drag-and-Drop an einen anderen Speicherort ziehen*: Sie haben die Optionen **Vorhandene Datei(en) überschreiben**, **Datei(en) an einen neuen Speicherort verschieben** und eine Option zum Erstellen einer Version der vorhandenen Arbeitskopie.
 
 ![](images/uuid-drag-drop-different-location.PNG){width="650" align="center"}
 
-Wenn Sie die Option &quot;**Vorhandene Datei überschreiben\(n\)**&quot;wählen, ersetzt die hochgeladene Datei die vorhandene Datei am ursprünglichen Speicherort. Die UUID wird weder erstellt noch geändert.
+Wenn Sie die Option **Vorhandene Datei(en) überschreiben** auswählen, ersetzt die hochgeladene Datei die vorhandene Datei am ursprünglichen Speicherort. Die UUID wird nicht erstellt oder geändert.
 
-Wenn Sie die Option **Datei verschieben\(en\) an neuen Speicherort** auswählen, wird die vorhandene Datei an den aktuellen Speicherort verschoben und dann mit der hochgeladenen Datei überschrieben. Wenn Sie eine Datei an den neuen Speicherort verschieben, werden vorhandene Verweise nicht von oder in die Datei beschädigt.
+Wenn Sie die Option **Datei(en) an neuen Speicherort verschieben** auswählen, wird die vorhandene Datei an den aktuellen Speicherort verschoben und dann mit der hochgeladenen Datei überschrieben. Durch das Verschieben einer Datei an den neuen Speicherort werden keine vorhandenen Verweise von oder auf die Datei beschädigt.
 
-Wenn Sie die Option zum Erstellen einer Version aus der vorhandenen Kopie auswählen und die Dateien ersetzen oder verschieben, wird eine neue Version aus der Arbeitskopie des Dokuments erstellt. Die neue Datei wird entweder an der vorhandenen Stelle ersetzt oder an die neue Position verschoben.
+Wenn Sie beim Ersetzen oder Verschieben der Dateien die Option zum Erstellen einer Version aus der vorhandenen Kopie auswählen, wird eine neue Version aus der Arbeitskopie des Dokuments erstellt. Die neue Datei wird entweder am vorhandenen Speicherort ersetzt oder an den neuen Speicherort verschoben.
 
 
-## Stapelweises Verschieben von Dateien {#move-files-bulk}
+## Dateien stapelweise verschieben {#move-files-bulk}
 
-AEM Guides verfügt über das Tool zum Verschieben von Stapeln, mit dem ein Administrator einen Ordner mit einer großen Anzahl von Dateien von einem Speicherort zum anderen verschieben kann. Mit diesem Tool können Sie Dateien in einem oder mehreren Ordnern einfach in einen anderen Ordner in Ihrem AEM-Repository verschieben. Eines der Hauptmerkmale dieses Tools ist, dass es nicht nur eine große Anzahl von Dateien verschiebt, sondern auch die Verweise auf und aus den verschobenen Dateien beibehält. Sie können die Anzahl der Dateien anpassen, die Sie in Stapeln verschieben können, ohne die Authoring- und Veröffentlichungsaufgaben zu beeinträchtigen.
+AEM Guides verfügt über das Tool zum Massenverschieben , mit dem ein Administrator einen Ordner mit einer großen Anzahl von Dateien von einem Speicherort an einen anderen verschieben kann. Mit diesem Tool können Dateien innerhalb eines oder mehrerer Ordner einfach in einen anderen Ordner in Ihrem AEM-Repository verschoben werden. Eines der Hauptmerkmale dieses Tools ist, dass es nicht nur eine große Anzahl von Dateien verschiebt, sondern auch die Verweise auf und von den Dateien, die verschoben werden. Sie können die Anzahl der Dateien, die Sie in Stapeln verschieben können, anpassen, ohne die Authoring- und Publishing-Aufgaben zu beeinträchtigen.
 
 >[!NOTE]
 >
-> Das Werkzeug zum Verschieben von Stapeln funktioniert nur auf Ordnerebene. Wenn Sie einzelne Themen- oder Zuordnungsdateien verschieben möchten, verwenden Sie das Werkzeug zum regulären Verschieben aus AEM Assets-Benutzeroberfläche.
+> Das Tool zum Massenverschieben funktioniert nur auf Ordnerebene. Wenn Sie einzelne Themen- oder Zuordnungsdateien verschieben möchten, verwenden Sie das reguläre Verschiebe-Tool von der Assets-Benutzeroberfläche von AEM aus.
 
-Im Folgenden finden Sie einige Funktionen des Tools zum Verschieben von Stapeln:
+Im Folgenden finden Sie einige der Funktionen, die das Tool für die Massenverschiebung bereitstellt:
 
-- Sie können die Anzahl der in jedem Batch zu verarbeitenden Dateien anpassen. Dies erfordert möglicherweise, dass Sie einige Tests durchführen, bevor Sie zu einer optimalen Nummer gelangen, die Ihr System leicht handhaben kann.
-- Autoren- und Veröffentlichungsdienste werden reibungslos und ohne Unterbrechung des Verschiebevorgangs ausgeführt.
-- Sie haben die vollständige Kontrolle über das Zeitintervall zwischen den nachfolgenden \(ausgeführten\) Batch-Prozessen. Dieses Zeitintervall stellt sicher, dass die Nachbearbeitung abgeschlossen ist, bevor der nächste Dateistapel gestartet wird.
+- Sie können die Anzahl der Dateien anpassen, die in jedem Batch verarbeitet werden sollen. Dazu müssen Sie möglicherweise einige Tests durchführen, bevor Sie eine optimale Zahl erhalten, die Ihr System problemlos verarbeiten kann.
+- Autoren- und Veröffentlichungs-Services funktionieren problemlos und ohne Unterbrechung des Verschiebevorgangs.
+- Vollständige Kontrolle über das Zeitintervall zwischen nachfolgenden \(Ausführung von\) Batch-Prozessen. Dieses Zeitintervall stellt sicher, dass der Nachbearbeitungsvorgang abgeschlossen ist, bevor der nächste Dateistapel gestartet wird.
 
-- Automatische Verarbeitung von Ordnern mit demselben Namen. Mit dieser Funktion wird sichergestellt, dass Ordner, die denselben Namen aufweisen, nicht überschrieben werden.
+- Automatische Verarbeitung von Ordnern mit demselben Namen. Mit dieser Funktion wird sichergestellt, dass Ordner mit demselben Namen, die verschoben werden, nicht überschrieben werden.
 
-- Automatische Verarbeitung von Verweisen auf und aus den zu verschiebenden Dateien.
+- Automatische Handhabung von Verweisen auf und von den Dateien, die verschoben werden.
 
 
 Beachten Sie die folgenden Punkte, bevor Sie den Batch-Prozess ausführen:
 
-- Wenn Sie Themen verschieben möchten, die derzeit geprüft werden, müssen Sie den Überprüfungsprozess für alle diese Themen schließen, bevor Sie sie verschieben. Wenn Sie die Überprüfungsaufgabe nicht schließen, wird der Überprüfungsprozess unterbrochen.
-- Sie dürfen jederzeit nur einen einzigen Massenverschiebungsvorgang auf dem System ausführen. Dadurch wird eine ordnungsgemäße Verarbeitung der Verweise auf und von den verschobenen Themen sichergestellt.
+- Wenn Sie Themen verschieben möchten, die derzeit überprüft werden, müssen Sie den Überprüfungsprozess für alle diese Themen schließen, bevor Sie sie verschieben können. Wenn Sie die Prüfungsaufgabe nicht schließen, wird der Überprüfungsprozess unterbrochen.
+- Sie dürfen auf dem System immer nur einen Massenverschiebevorgang ausführen. Dadurch wird eine ordnungsgemäße Handhabung von Verweisen auf und von den verschobenen Themen sichergestellt.
 
 
 Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 1. Wählen Sie **Guides** aus der Liste der Tools aus.
-1. Klicken Sie auf die Kachel **Bulk Move Tool** .
-1. Die Seite mit dem Werkzeug zum Verschieben von Stapeln wird je nach Einrichtung angezeigt. Geben Sie die folgenden Details auf der Seite **Bulk Move Tool** an:
+1. Klicken Sie auf die Kachel **Tool für Massenverschiebung**.
+1. Die Seite mit dem Tool für die Massenverschiebung wird je nach Einrichtung angezeigt. Geben Sie die folgenden Details auf der Seite **Tool für die Massenverschiebung** an:
 
    <details>
 
@@ -136,34 +137,34 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    >[!TIP]
    >
-   > Auswahl <img src="images/info-icon.svg" width="25">   in der Nähe eines Felds, um weitere Details dazu anzuzeigen.
+   > Auswahl <img src="images/info-icon.svg" width="25">   in der Nähe eines beliebigen Felds, um weitere Details dazu anzuzeigen.
 
 
-   - **Suffix zu duplizierten Ordnern hinzufügen**: Wenn Sie Ordner mit demselben Namen verschieben, müssen Sie diese Option auswählen. Im vorherigen Screenshot enthält der Pfad **Source** beispielsweise den Namen der zu verschiebenden Ordner. Der Ordner &quot;topic&quot;befindet sich an zwei verschiedenen Speicherorten - Test-A und Test-B. Wenn Sie diese Option auswählen, werden die Ordner erfolgreich verschoben. Der erste verschobene Ordner heißt &quot;topic&quot;, während der zweite Ordner &quot;topic0&quot;heißt. Beim Verschieben wird den Ordnern mit demselben Namen ein Suffix aus der sequenziellen Reihe \(0, 1, 2 usw.) hinzugefügt.
+   - **Suffix zu doppelten Ordnern hinzufügen**: Wenn Sie Ordner mit demselben Namen verschieben, müssen Sie diese Option auswählen. Im vorherigen Screenshot enthält beispielsweise der Pfad **Source** den Namen der zu verschiebenden Ordner. Der Ordner mit dem Namen „Topic“ ist an zwei verschiedenen Stellen vorhanden - Test-A und Test-B. Wenn Sie diese Option auswählen, werden die Ordner erfolgreich verschoben. Der erste verschobene Ordner erhält den Namen „topic“, der zweite den Namen „topic0“. Der Verschiebungsvorgang fügt den Ordnern mit demselben Namen ein Suffix in der sequenziellen Reihe \(0, 1, 2 usw.) hinzu.
 
-     Wenn Sie Ordner mit demselben Namen verschieben, ohne diese Option auszuwählen, wird der Vorgang mit einer Meldung abgebrochen.
+     Wenn Sie Ordner mit demselben Namen verschieben, ohne diese Option auszuwählen, wird der Vorgang mit einer Nachricht abgebrochen.
 
-   - **Source-Pfad\(s\)**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
+   - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen** aus  <img src="images/browse-folder-icon.svg" width="25">    , um das Dialogfeld Datei durchsuchen zu öffnen. Wählen Sie die Ordner aus, die Sie verschieben möchten, und klicken Sie auf **Auswählen** , um den Vorgang abzuschließen.
+      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">    , um das Dialogfeld Datei durchsuchen zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen.
 
       - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 
         Die ausgewählten Ordner werden zusammen mit ihrem Pfad aufgelistet. Bewegen Sie den Mauszeiger über das Ordner-Tag, um den vollständigen Pfad anzuzeigen.
-      - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners
+      - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners.
 
 
    - **Zielpfad**: Geben Sie den Speicherort an, an den Sie die Quellordner verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen** aus <img src="images/browse-folder-icon.svg" width="25"> , um das Dialogfeld &quot;Datei durchsuchen&quot;zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und klicken Sie auf Auswählen , um den Vorgang abzuschließen.
-      - Sie können auch den Zielpfad eingeben oder kopieren und einfügen.
+      - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und klicken Sie auf Auswählen , um den Vorgang abzuschließen.
+      - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
 
      Der ausgewählte Ordner wird zusammen mit seinem Pfad im Textfeld angezeigt.
 
 
-   - Klicken Sie auf **Massenverschiebung**.
+   - Klicken Sie **Massenverschieben**.
 
-     Das System startet das Verschieben von Dateien von der Quelle an den Zielspeicherort. Nach Abschluss des Prozesses wird rechts auf der Seite eine Zusammenfassung des Verschiebevorgangs angezeigt.
+     Das System beginnt mit dem Verschieben von Dateien vom Quell- zum Zielspeicherort. Nach Abschluss des Vorgangs wird rechts auf der Seite eine Zusammenfassung des Verschiebevorgangs angezeigt.
 
      ![](images/bulk-move-summary-uuid.png){width="650" align="center"}
 
@@ -171,149 +172,149 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    <details>
 
-   <summary> On-Premise-Nicht-UUID-basiertes Dateisystem </summary>
+   <summary> On-Premise, nicht-UUID-basiertes Dateisystem </summary>
 
    ![](images/bulk-move-tool-non-uuid.png){width="650" align="center"}
 
    >[!TIP]
    >
-   > Auswahl <img src="images/info-icon.svg" width="25">   in der Nähe eines Felds, um weitere Details dazu anzuzeigen.
+   > Auswahl <img src="images/info-icon.svg" width="25">   in der Nähe eines beliebigen Felds, um weitere Details dazu anzuzeigen.
 
-   - **Stapelgröße**: Geben Sie die Anzahl der Dateien an, die in einem Batch verschoben werden sollen. Die Standardwerte bei 50 Dateien.
-   - **Schlafintervall (Sekunden)**: Geben Sie die Zeit in Sekunden an, die der Prozess warten soll, bevor der nächste Batch gestartet wird. Während dieses Ruhezeitintervalls behebt das System die Verweise auf und aus den verschobenen Dateien. Das standardmäßige Schlafintervall beträgt 60 Sekunden.
-
-
-   - **Suffix zu duplizierten Ordnern hinzufügen**: Wenn Sie Ordner mit demselben Namen verschieben, müssen Sie diese Option auswählen. Im vorherigen Screenshot enthält der **Source-Pfad** beispielsweise den Namen der zu verschiebenden Ordner. Der Ordner &quot;topic&quot;befindet sich an zwei verschiedenen Speicherorten - Test-A und Test-B. Wenn Sie diese Option auswählen, werden die Ordner erfolgreich verschoben. Der erste verschobene Ordner heißt &quot;topic&quot;, während der zweite Ordner &quot;topic0&quot;heißt. Beim Verschieben wird den Ordnern mit demselben Namen ein Suffix aus der sequenziellen Reihe \(0, 1, 2 usw.) hinzugefügt.
-
-     Wenn Sie Ordner mit demselben Namen verschieben, ohne diese Option auszuwählen, wird der Vorgang mit einer Meldung abgebrochen.
-
-   - **Verweise auf ausgecheckte Dateien aktualisieren**: Wenn Sie Ordner verschieben, die ausgecheckte Dateien enthalten, wird empfohlen, diese Option auszuwählen. Wenn Sie diese Option auswählen, werden alle ausgecheckten Dateien gespeichert und mit einer neuen Revision eingecheckt. Diese neue Revision wird dann an den Zielort verschoben.
-
-     Wenn Sie diese Option nicht auswählen, werden die ausgecheckten Dateien in den Zielordner im gleichen ausgecheckten Status verschoben. In diesem sich bewegenden Prozess kann es jedoch zu Datenverlust kommen.
+   - **Stapelgröße**: Geben Sie die Anzahl der Dateien an, die in einem Stapel verschoben werden sollen. Die Standardwerte von 50 Dateien.
+   - **Ruheintervall (Sekunden)**: Geben Sie die Zeit in Sekunden an, die der Prozess warten soll, bevor der nächste Batch gestartet wird. Während dieses Ruhezeitintervalls werden die Verweise auf und von den verschobenen Dateien vom System korrigiert. Das standardmäßige Schlafintervall beträgt 60 Sekunden.
 
 
-   - **Source-Pfad\(s\)**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
+   - **Suffix zu doppelten Ordnern hinzufügen**: Wenn Sie Ordner mit demselben Namen verschieben, müssen Sie diese Option auswählen. Beispielsweise enthält im vorherigen Screenshot der **Source-Pfad** den Namen der zu verschiebenden Ordner. Der Ordner mit dem Namen „Topic“ ist an zwei verschiedenen Stellen vorhanden - Test-A und Test-B. Wenn Sie diese Option auswählen, werden die Ordner erfolgreich verschoben. Der erste verschobene Ordner erhält den Namen „topic“, der zweite den Namen „topic0“. Der Verschiebungsvorgang fügt den Ordnern mit demselben Namen ein Suffix in der sequenziellen Reihe \(0, 1, 2 usw.) hinzu.
 
-      - Wählen Sie **Ordner durchsuchen** aus  <img src="images/browse-folder-icon.svg" width="25">    , um das Dialogfeld Datei durchsuchen zu öffnen. Wählen Sie die Ordner aus, die Sie verschieben möchten, und klicken Sie auf **Auswählen** , um den Vorgang abzuschließen.
+     Wenn Sie Ordner mit demselben Namen verschieben, ohne diese Option auszuwählen, wird der Vorgang mit einer Nachricht abgebrochen.
+
+   - **Aktualisieren der Verweise ausgecheckter Dateien**: Wenn Sie Ordner verschieben, die ausgecheckte Dateien enthalten, wird empfohlen, diese Option auszuwählen. Wenn Sie diese Option auswählen, werden alle Dateien, die ausgecheckt wurden, gespeichert und mit einer neuen Revision eingecheckt. Diese neue Revision wird dann an den Zielspeicherort verschoben.
+
+     Wenn Sie diese Option nicht auswählen, werden die ausgecheckten Dateien im selben ausgecheckten Status in den Zielordner verschoben. In diesem sich bewegenden Prozess kann es jedoch zu Datenverlust kommen.
+
+
+   - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
+
+      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">    , um das Dialogfeld Datei durchsuchen zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen.
 
       - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 
         Die ausgewählten Ordner werden zusammen mit ihrem Pfad aufgelistet. Bewegen Sie den Mauszeiger über das Ordner-Tag, um den vollständigen Pfad anzuzeigen.
-      - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners
+      - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners.
 
 
    - **Zielpfad**: Geben Sie den Speicherort an, an den Sie die Quellordner verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen** aus <img src="images/browse-folder-icon.svg" width="25"> , um das Dialogfeld &quot;Datei durchsuchen&quot;zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und klicken Sie auf Auswählen , um den Vorgang abzuschließen.
-      - Sie können auch den Zielpfad eingeben oder kopieren und einfügen.
+      - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und klicken Sie auf Auswählen , um den Vorgang abzuschließen.
+      - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
 
         Der ausgewählte Ordner wird zusammen mit seinem Pfad im Textfeld angezeigt.
 
-   - Klicken Sie auf **Massenverschiebung**.
+   - Klicken Sie **Massenverschieben**.
 
-     Das System startet das Verschieben von Dateien von der Quelle an den Zielspeicherort. Nach Abschluss des Prozesses wird rechts auf der Seite eine Zusammenfassung des Verschiebevorgangs angezeigt.
+     Das System beginnt mit dem Verschieben von Dateien vom Quell- zum Zielspeicherort. Nach Abschluss des Vorgangs wird rechts auf der Seite eine Zusammenfassung des Verschiebevorgangs angezeigt.
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
 </details>
 
 ## DITA-Inhalt durchsuchen
 
-Standardmäßig erkennt AEM DITA-Inhalte nicht, bietet daher keinen Mechanismus zum Durchsuchen von DITA-Inhalten in seinem Repository. AEM Guides fügt eine Ebene über AEM hinzu, die es AEM ermöglicht, DITA-Inhalte zu verstehen und zu verarbeiten. Mit der Funktion &quot;DITA-Inhalt durchsuchen&quot;in AEM Guides können Sie in AEM Repository nach DITA-Inhalten suchen.
+Standardmäßig erkennt AEM DITA-Inhalte nicht und bietet daher keinen Mechanismus zum Durchsuchen von DITA-Inhalten in seinem Repository. AEM Guides fügt zusätzlich zu AEM eine Ebene hinzu, mit der AEM DITA-Inhalte verstehen und verarbeiten kann. Mit der DITA-Inhaltssuchfunktion in AEM Guides können Sie im AEM-Repository nach DITA-Inhalten suchen.
 
 >[!NOTE]
 >
->Ihr Systemadministrator kann die Suchkomponente **DITA Element** konfigurieren und dann die Funktion über die AEM Assets-Benutzeroberfläche verwenden. Weitere Informationen finden Sie im Abschnitt *DITA-Element-Suchkomponente in der Assets-Benutzeroberfläche hinzufügen* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service .
+>Ihre bzw. Ihr Systemadmin kann die Suchkomponente **DITA Element** konfigurieren und dann die Funktion über die AEM Assets-Benutzeroberfläche verwenden. Weitere Informationen finden Sie *Abschnitt „Hinzufügen der DITA-Elementsuchkomponente in der Assets* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
-Mithilfe der Suchfunktion haben Sie folgende Möglichkeiten:
+Mit der Suchfunktion haben Sie folgende Möglichkeiten:
 
-- Suche nach DITA-Inhalt basierend auf einem Elementwert, z. B. `author`= xml
-- Suche nach DITA-Inhalt basierend auf einem Attributwert, z. B. `@platform`= windows
+- Suchen nach DITA-Inhalten basierend auf einem Elementwert, z. B. `author`= xml
+- Suchen nach DITA-Inhalten anhand eines Attributwerts, z. B. `@platform`= windows
 - Verwenden Sie eine Kombination aus DITA-Element und Attributwert, z. B. `author`= xml `AND` `@platform`= windows
 
-Führen Sie die folgenden Schritte aus, um in AEM Repository nach DITA-Inhalten zu suchen:
+Führen Sie die folgenden Schritte aus, um im AEM-Repository nach DITA-Inhalten zu suchen:
 
 1. Öffnen Sie die Assets-Benutzeroberfläche.
 
-1. Wählen Sie in der linken Leiste **Filter** aus.
+1. Wählen Sie in der linken Leiste die Option **Filter**.
 
    ![](images/left-rail-filter.png){width="450" align="center"}
 
-   Die Inhaltsfilteroptionen werden in der linken Leiste angezeigt. Außerdem finden Sie die Filteroption - DITA-Element, das zum Filtern von DITA-Inhalten verwendet wird.
+   Die Optionen zum Filtern von Inhalten werden in der linken Leiste angezeigt. Außerdem finden Sie die Filteroption DITA-Element , mit der DITA-Inhalte gefiltert werden können.
 
    ![](images/dita-element-search.png){width="450" align="center"}
 
-1. *\(Optional\)* Suchen Sie im Feld **Suchverzeichnis auswählen** nach dem Ort, nach dem Sie suchen möchten.
+1. *\(Optional\)* Suchen Sie im Feld **Suchverzeichnis auswählen** nach dem Speicherort, in dem Sie suchen möchten.
 
-1. Geben Sie im Filter **DITA-Element** den **Elementnamen**, das **Attribut** und einen Wert an, nach dem Sie suchen möchten. Um beispielsweise nach Dokumenten zu suchen, deren Element `author` vom Ersteller `@type` ist, müssen Sie die Informationen wie im folgenden Screenshot gezeigt angeben:
+1. Geben Sie im **DITA** ElementFilter den **Elementnamen**, **Attribut** und einen Wert an, nach dem Sie suchen möchten. Um beispielsweise nach Dokumenten zu suchen, die `author` Element enthalten, das `@type` Ersteller ist, müssen Sie die Informationen angeben, wie im folgenden Screenshot gezeigt:
 
    ![](images/search-params.png){width="650" align="center"}
 
-   Die im Filter **DITA Element** eingegebenen Suchkriterien werden oben in der Suchleiste angezeigt. Die Dateien, die den Suchkriterien entsprechen, werden im Bereich **Suchergebnisse** angezeigt.
+   Die im Filter **DITA-Element** eingegebenen Suchkriterien werden oben in der Suchleiste angezeigt. Die Dateien, die den Suchkriterien entsprechen, werden im Bereich **Suchergebnisse** angezeigt.
 
    Beachten Sie beim Festlegen der Suchkriterien die folgenden Punkte:
 
-   - Um nach einer genauen Wortgruppe zu suchen, geben Sie die Wortgruppe in das Feld Wert in Anführungszeichen `"`Phrase suchen`"` ein.
+   - Um nach einer exakten Phrase zu suchen, geben Sie die Phrase in Anführungszeichen (`"`) in das Feld Wert `"`.
    - Sie können bis zu 3 DITA-Element-Suchkriterien hinzufügen.
-   - Wenn Sie mehrere Suchkriterien angeben, werden alle mit der UND-Logik kombiniert.
-   - Sie können in Ihren Suchkriterien keine Platzhalterzeichen verwenden. Um beispielsweise nach Plattform \(Attribut\) mit dem Wert Windows zu suchen, können Sie nicht \*Formular oder Windows?s angeben.
+   - Wenn Sie mehrere Suchkriterien angeben, werden alle mit der Logik UND kombiniert.
+   - Sie können in Ihren Suchkriterien kein Platzhalterzeichen verwenden. Um beispielsweise nach Plattform \(attribute\) mit dem Wert Windows zu suchen, können Sie weder **form noch Fenster angeben.
 
-**Checkout-Statusfilter in der Suche**
+**Checkout-Statusfilter bei der Suche**
 
-Zusätzlich zum DITA-Elementfilter können Sie mit AEM Guides auch nach Inhalten suchen, die auf ihrem Checkout-Status basieren. Dies ist hilfreich, wenn Sie Dateien schnell herausfiltern möchten, die derzeit von Ihnen ausgecheckt wurden und wieder einchecken möchten.
+Zusätzlich zum DITA-Elementfilter können Sie mit AEM Guides auch anhand des Checkout-Status nach Inhalten suchen. Dies ist hilfreich, wenn Sie Dateien, die derzeit von Ihnen ausgecheckt sind, schnell herausfiltern und wieder einchecken möchten.
 
-Führen Sie die folgenden Schritte aus, um nach Dateien basierend auf ihrem Checkout-Status zu suchen:
+Führen Sie die folgenden Schritte aus, um nach Dateien auf der Grundlage ihres Checkout-Status zu suchen:
 
 1. Öffnen Sie die Assets-Benutzeroberfläche.
 
-1. Klicken Sie in der linken Leiste auf **Filter** .
+1. Klicken Sie **der** Leiste auf „Filter“.
 1. Geben Sie Ihren Suchbegriff in die Suchleiste ein.
-1. Wenden Sie die erforderlichen Filter aus der linken Leiste an.
+1. Wenden Sie die erforderlichen Filter über die linke Leiste an.
 
-   Sie können beispielsweise den Filter **Checkout-Status** anwenden, um die ausgecheckten oder eingecheckten Themen anzuzeigen. Sie können diese Liste weiter verfeinern, indem Sie den Benutzer oder die Gruppe aus der Liste Ausgecheckt von auswählen.
+   Sie können beispielsweise den Filter **Checkout-Status** anwenden, um die ausgecheckten oder eingecheckten Themen anzuzeigen. Sie können diese Liste weiter verfeinern, indem Sie die Person oder Gruppe aus der Liste Ausgecheckt von auswählen.
 
    Ihr Suchergebnis wird angezeigt.
 
 
 ## Dateien löschen
 
-Das Löschen von Dateien aus AEM Repository ist eine eingeschränkte Funktion, die von Ihrem Systemadministrator gesteuert wird. Je nach Konfiguration kann das Löschen von Dateien eingeschränkt werden, wenn sie:
+Das Löschen von Dateien aus dem AEM-Repository ist eine eingeschränkte Funktion, die von Ihrem Systemadministrator gesteuert wird. Abhängig von den Konfigurationen kann das Löschen von Dateien eingeschränkt sein, wenn sie:
 
 - Ausgecheckt
-- Eingehende oder ausgehende Verweise haben
+- Eingehende oder ausgehende Referenzen haben
 
-Sie können Dateien auch nur löschen, wenn Sie einer bestimmten Benutzergruppe angehören, die zum Löschen von Dateien berechtigt ist.
+Sie können Dateien auch nur löschen, wenn Sie zu einer bestimmten Benutzergruppe gehören, die über die Berechtigung zum Löschen von Dateien verfügt.
 
 >[!NOTE]
 >
-> Weitere Informationen zu den Konfigurationen für die Dateiverwaltung finden Sie in den Abschnitten *Löschen ausgecheckter Dateien verhindern* und *Löschen referenzierter Dateien verhindern* in der as a Cloud Service Installieren und Konfigurieren von Adobe Experience Manager Guides .
+> Weitere Informationen zu den Konfigurationen für die Dateiverwaltung finden Sie in *Verhindern des Löschens ausgecheckter Dateien* und *Verhindern des Löschens referenzierter Dateien* in den Abschnitten Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
-Wenn Ihr Administrator allen Benutzern die Berechtigung zum Löschen der Datei erteilt hat, wird beim Löschen von Dateien mit Verweisen die folgende Meldung angezeigt:
+Wenn Ihr Administrator allen Benutzern die Berechtigung zum Löschen von Dateien erteilt hat, wird beim Löschen von Dateien mit Verweisen die folgende Meldung angezeigt:
 
 ![](images/allow_unsafe_delete-force-delete.PNG){width="650" align="center"}
 
-In diesem Szenario können Sie Dateien erzwungen löschen, ohne die eingehenden oder ausgehenden Verweise aus den Dateien zu entfernen.
+In diesem Szenario können Sie Dateien erzwingen, ohne die eingehenden oder ausgehenden Verweise aus den Dateien zu entfernen.
 
-Wenn die Löschberechtigungen einer bestimmten Benutzergruppe zugewiesen werden, wird auch die oben genannte Meldung für Benutzer dieser Gruppe angezeigt. Für andere Benutzer wird jedoch die folgende Meldung angezeigt:
+Wenn die Löschberechtigungen einer bestimmten Benutzergruppe zugewiesen sind, wird auch die obige Meldung für Benutzer angezeigt, die dieser Gruppe angehören. Für andere Benutzer wird jedoch die folgende Meldung angezeigt:
 
 ![](images/allow_unsafe_delete_for_delete_assets_group.PNG){width="650" align="center"}
 
-In diesem Szenario dürfen Benutzer Dateien erst löschen, nachdem alle eingehenden und ausgehenden Verweise entfernt wurden.
+In diesem Szenario dürfen Benutzer keine Dateien löschen, bis alle eingehenden und ausgehenden Verweise entfernt wurden.
 
 ## Arbeiten mit Mediendateien
 
-Mediendateien wie Bilder und Videos sind ein integraler Bestandteil Ihres Inhalts. Beim Hochladen und Verwalten Ihres Inhalts können Sie auch mit Mediendateien arbeiten.
+Mediendateien wie Bilder und Videos sind ein integraler Bestandteil Ihres Inhalts. Während Sie Ihre Inhalte hochladen und verwalten, können Sie auch mit Mediendateien arbeiten.
 
-Wenn sich Ihre Mediendatei geändert hat, können Sie die Dateien im **Versionsverlauf** finden und in der Vorschau anzeigen. So erhalten Sie Informationen zu den Änderungen in den verschiedenen Versionen einer Mediendatei:
+Wenn Ihre Mediendatei Änderungen erfahren hat, können Sie die Dateien im Abschnitt „Versionsverlauf“ suchen **in der Vorschau anzeigen** um Änderungen in den verschiedenen Versionen einer Mediendatei herauszufinden:
 
-1. Rufen Sie die Datei in der **Assets-Benutzeroberfläche** auf.
+1. Greifen Sie in der **Assets-Benutzeroberfläche auf die Datei**.
 1. Wählen Sie die Datei aus, für die Sie den Versionsverlauf anzeigen möchten.
-1. Klicken Sie in der linken Leiste auf **Versionsverlauf** und wählen Sie eine Version aus.
+1. Klicken Sie in der linken Leiste auf &quot;**&quot;** wählen Sie eine Version aus.
 1. Sie können auch die Miniaturansichten der verschiedenen Versionen unter Versionsverlauf anzeigen.
 
    ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1. Wählen Sie in den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und klicken Sie auf **Vorschau der Version anzeigen**. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
+1. Wählen Sie aus den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und klicken Sie auf **Vorschauversion**. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Übergeordnetes Thema:**[ Inhalt verwalten](authoring.md)
+**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)

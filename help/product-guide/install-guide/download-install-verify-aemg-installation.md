@@ -1,6 +1,6 @@
 ---
 title: Überprüfen der AEM Guides-Installation
-description: Erfahren Sie, wie Sie die Installation von AEM Guides überprüfen
+description: Erfahren Sie, wie Sie die AEM Guides-Installation überprüfen
 exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 feature: Installation
 role: Admin
@@ -16,23 +16,23 @@ ht-degree: 0%
 
 Nachdem Sie AEM Guides installiert haben, müssen Sie überprüfen, ob die Installation erfolgreich war oder nicht. Führen Sie die folgenden Schritte aus, um den Installationsprozess zu überprüfen:
 
-1. Melden Sie sich bei Ihrer AEM-Instanz an und navigieren Sie zur Seite AEM Web Console Bundles . Die Standard-URL für den Zugriff auf die Bundles-Seite lautet:
+1. Melden Sie sich bei Ihrer AEM-Instanz an und navigieren Sie zur Seite AEM Web Console Bundles . Die Standard-URL für den Zugriff auf die Seite „Bundles“ lautet:
 
    ```http
    http://<server name>:<port>/system/console/bundles
    ```
 
-   Eine Liste von Bundles wird angezeigt.
+   Eine Liste mit Bundles wird angezeigt.
 
-1. Filtern Sie die Liste der Bundles, indem Sie das Format in das Filtertextfeld eingeben und die Taste **Enter** drücken.
+1. Filtern Sie die Liste der Bundles, indem Sie fmdita in das Textfeld Filtern eingeben und die **Eingabetaste** drücken.
 
-   Die Liste der Bundles wird gefiltert, um die von AEM Guides installierten Bundles anzuzeigen. Wenn die Installation erfolgreich war, haben alle installierten Bundles den **Status** von **Aktiv**.
+   Die Liste der Bundles wird gefiltert, um die von AEM Guides installierten Bundles anzuzeigen. Wenn die Installation erfolgreich war, haben alle installierten Bundles den **Status** von **Active**.
 
-   Wenn eines der Bundles keinen Status **Aktiv** aufweist, überprüfen Sie die AEM, um das Installationsproblem zu beheben.
+   Wenn eines der Bundles nicht den Status **Aktiv** aufweist, überprüfen Sie die AEM-Protokolle, um das Installationsproblem zu beheben.
 
 
 >[!IMPORTANT]
 >
-> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden Sie unter [Recommendations zur Leistungsoptimierung](download-install-recommend-perf-optimiz.md#).
+> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden Sie unter [Recommendations ](download-install-recommend-perf-optimiz.md#) Leistungsoptimierung.
 
-**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

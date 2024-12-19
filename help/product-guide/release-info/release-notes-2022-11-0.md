@@ -1,5 +1,5 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version November 2022
+title: Versionshinweise zu | Adobe Experience Manager Guides as a Cloud Service, Version November 2022
 description: November-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
 feature: Release Notes
@@ -13,43 +13,43 @@ ht-degree: 0%
 
 # November-Version von Adobe Experience Manager Guides as a Cloud Service
 
-## Aktualisierung auf die November-Version
+## Upgrade auf die November-Version
 
-Führen Sie die folgenden Schritte aus, um das aktuelle Adobe Experience Manager Guides-as a Cloud Service-Setup (später als *AEM Guides as a Cloud Service* bezeichnet) zu aktualisieren:
-1. Sehen Sie sich den Git-Code des Cloud Service an und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline entsprechend der Umgebung konfiguriert ist, die Sie aktualisieren möchten.
-1. Aktualisieren Sie die Eigenschaft `<dox.version>` in der Datei `/dox/dox.installer/pom.xml` Ihres Cloud Service-Git-Codes auf 2022.11.198.
+Führen Sie ein Upgrade Ihres aktuellen Adobe Experience Manager Guides as a Cloud Service-Setups (später als *AEM Guides as a Cloud Service* bezeichnet) durch, indem Sie die folgenden Schritte ausführen:
+1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf 2022.11.198.
 1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die November-Version von AEM Guides as a Cloud Service zu aktualisieren.
 
-## Schritte zum Indexieren des vorhandenen Inhalts (nur, wenn Sie eine Version vor der September-Version von AEM Guides as a Cloud Service verwenden)
+## Schritte zum Indizieren des vorhandenen Inhalts (nur bei Versionen vor der AEM Guides as a Cloud Service-Version September)
 
-Führen Sie die folgenden Schritte für die Indizierung des vorhandenen Inhalts aus und verwenden Sie den neuen Suchen- und Ersetzen-Text auf Zuordnungsebene:
+Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene zu verwenden:
 
-* Führen Sie eine POST-Anfrage an den Server aus (mit der richtigen Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`.
-(Optional: Sie können bestimmte Pfade der Maps übergeben, um sie zu indizieren. Standardmäßig werden alle Maps indiziert || Beispiel : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+* Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`.
+(Optional) Sie können bestimmte Pfade der Karten übergeben, um sie zu indizieren. Standardmäßig werden alle Karten indiziert || Beispiel : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Beispiel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c183 79f11c42_678)
+(Beispiel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
-* Nach Abschluss des Auftrags antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Maps können über die Serverprotokolle bestätigt werden.
+* Sobald der Vorgang abgeschlossen ist, antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Zuordnungen können aus den Serverprotokollen bestätigt werden.
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von der AEM Guides as a Cloud Service-Version vom November 2022 unterstützt werden.
+In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwendungen, die von AEM Guides as a Cloud Service Version November 2022 unterstützt werden.
 
 ### FrameMaker und FrameMaker Publishing Server
 
 | FMPS | FrameMaker |
 | --- | --- |
-| Nicht kompatibel | Aktualisierung 4 und höher für 2020 |
+| Nicht kompatibel | Aktualisierung 2020 4 und höher |
 | | |
 
-*Die in AEM erstellten Grundlinien und Bedingungen werden in FMPS-Versionen ab 2020.2 unterstützt.
+*Die in AEM erstellten Grundlinien und Bedingungen werden ab 2020.2 in FMPS-Versionen unterstützt.
 
 ### Sauerstoffanschluss
 
-| AEM Guides as a Cloud-Version | Sauerstoff Connector Windows | Sauerstoff Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2022.11.0 | 2,7,13 | 2,7,13 | 2,3 | 2,3 |
+| 2022.11.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -58,97 +58,97 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 AEM Guides as a Cloud Service bietet in der November-Version Verbesserungen und neue Funktionen:
 
 
-### Löschen von Dateien aus dem Repository-Bereich
+### Löschen von Dateien aus dem Repository-Bedienfeld
 
-Jetzt können Sie Dateien (einzelne Datei) einfach aus dem Menü **Optionen** der ausgewählten Datei aus dem Repository-Bedienfeld löschen.
+Jetzt können Sie Dateien (jeweils nur eine Datei) einfach über das Menü **Optionen** der ausgewählten Datei im Repository-Bereich löschen.
 <img src="assets/repository-delete-file.png" alt="Aus Repository löschen" width="500">
 
-Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt. Wenn keine andere Datei auf die Datei verweist, wird sie gelöscht und es wird eine Erfolgsmeldung angezeigt.
+Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt. Wenn keine andere Datei auf die Datei verweist, wird sie gelöscht und eine Erfolgsmeldung wird angezeigt.
 
-Wenn die ausgewählte Datei ausgecheckt ist, kann sie nicht gelöscht werden. Eine Fehlermeldung wird angezeigt. Wenn die ausgewählte Datei zu einer Favoriten-Sammlung hinzugefügt oder aus einer anderen Datei referenziert wird, prüft AEM Guides, ob Sie Ihre Bestätigung erhalten haben, und gibt Ihnen die Möglichkeit, sie erzwungen zu löschen. Wenn Sie ein referenziertes Thema löschen und die Datei mit Verweisen zur Bearbeitung geöffnet haben, wird der fehlerhafte Link für die referenzierte Datei angezeigt.
+Wenn die ausgewählte Datei ausgecheckt ist, kann sie nicht gelöscht werden, und es wird eine Fehlermeldung angezeigt. Wenn die ausgewählte Datei zu einer Favoritensammlung hinzugefügt oder von einer anderen Datei referenziert wird, sucht AEM Guides nach Ihrer Bestätigung und gibt Ihnen die Möglichkeit, sie zwangsweise zu löschen. Wenn Sie ein referenziertes Thema löschen und die Datei mit Verweisen zur Bearbeitung geöffnet haben, wird der fehlerhafte Link für die referenzierte Datei angezeigt.
 
-**Hinweis**: Sie können die ausgewählte Datei auch mit der Entf-Taste der Tastatur löschen.
-
-
-### Ausgewählte Dateiversionen bereinigen
-
-Beim Erstellen und Verwalten Ihres Inhalts werden möglicherweise viele Versionen für Ihre DITA-Dateien in Ihrem Repository erstellt. Mit AEM Guides können Sie ältere Versionen Ihrer DITA-Dateien aus dem Repository löschen und Speicherplatz freigeben.
-
-<img src="assets/preview-purge-report.png" alt="Bereinigungsbericht in der Vorschau" width="500">
+**Hinweis**: Sie können die ausgewählte Datei auch mithilfe der Löschen -Taste der Tastatur löschen.
 
 
-AEM Guides löscht nicht die erste Dateiversion oder eine Version, die in einer Grundlinie enthalten ist, oder hat eine Beschriftung darauf angewendet. Der Bereinigungsvorgang löscht nicht einmal Dateien, die in einer Übersetzung oder einem Prüfungs-Workflow enthalten sind. Sie können die Anzahl der beizubehaltenden Versionen auswählen und auch die Dateien löschen, die älter als die definierte Anzahl von Tagen sind.
+### Bereinigen ausgewählter Versionen von Dateien
 
-Bevor Sie mit dem Bereinigungsvorgang beginnen, können Sie eine Vorschau des Berichts anzeigen, um die Versionen anzuzeigen, die bereinigt werden sollen. Anschließend können Sie den Bereinigungsvorgang starten oder abbrechen.
+Wenn Sie Ihre Inhalte erstellen und verwalten, werden möglicherweise viele Versionen für Ihre DITA-Dateien in Ihrem Repository erstellt. Mit AEM Guides können Sie ältere Versionen Ihrer DITA-Dateien aus dem Repository bereinigen und Speicherplatz freigeben.
+
+<img src="assets/preview-purge-report.png" alt="Vorschau des Bereinigungsberichts" width="500">
+
+
+AEM Guides löscht nicht die erste Version der Datei oder eine Version, die in einer Baseline enthalten ist, oder auf die eine Kennzeichnung angewendet wurde. Der Bereinigungsvorgang löscht nicht einmal Dateien, die in einer Übersetzung oder einem Überprüfungs-Workflow enthalten sind. Sie können die Anzahl der beizubehaltenden Versionen auswählen und auch die Dateien löschen, die älter als die definierte Anzahl von Tagen sind.
+
+Vor Beginn des Bereinigungsvorgangs können Sie eine Vorschau des Berichts anzeigen, um die Versionen anzuzeigen, die bereinigt werden sollen. Sie können dann den Bereinigungsvorgang starten oder abbrechen.
 
 <img src="assets/download-purge-report.png" alt="PDownload-Bereinigungsbericht" width="500">
 
-Nach Abschluss des Bereinigungsvorgangs können Sie den Bereinigungsbericht prüfen, um die bereinigten Dateien anzuzeigen.
+Sobald der Bereinigungsvorgang abgeschlossen ist, können Sie den Bereinigungsbericht überprüfen, um die bereinigten Dateien anzuzeigen.
 
-### Ausgabevorgaben für Global- und Ordnerprofile verwalten
+### Verwalten von globalen und Ordnerprofil-Ausgabevorgaben
 
-AEM Guides bietet Ihnen die Möglichkeit, Ausgabevorgaben für die globalen und Ordnerprofile zu erstellen und zu verwalten. Dann können Sie diese Ausgabevorgaben einfach verwenden, um die Ausgabe für alle Maps zu generieren, die mit diesem Global- oder Ordnerprofil verbunden sind.
+AEM Guides bietet die Funktion zum Erstellen und Verwalten von Ausgabevoreinstellungen für die globalen Profile und Ordnerprofile. Anschließend können Sie diese Ausgabevorgaben einfach verwenden, um eine Ausgabe für alle Zuordnungen zu generieren, die mit diesem globalen Profil oder Ordnerprofil verknüpft sind.
 
 <img src="assets/add-global-output-preset.png" alt="Globales Profil hinzufügen" width="400">
 
-**Hinweis** Nur Benutzer mit Administratorrechten auf Ordnerebene können Vorgaben für globale Ordner und Ordnerprofile erstellen.
+**Hinweis** Nur Benutzer mit Administratorrechten auf Ordnerebene können globale Vorgaben und Ordnerprofilvorgaben erstellen.
 
-Diese globalen Vorgaben werden auf der Registerkarte **Ausgabe** aller zugehörigen Maps angezeigt. Sie können sie verwenden, um die Ausgabe für alle zugehörigen Maps zu generieren. Sie können die Vorgabe als standardmäßige PDF-Vorgabe auswählen, um die PDF-Ausgabe zu generieren. Sie können eine vorhandene Ausgabevorgabe auch im Menü **Optionen** **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** umbenennen.
+Diese globalen Vorgaben werden auf der Registerkarte **Ausgabe** aller zugehörigen Zuordnungen angezeigt. Sie können sie verwenden, um die Ausgabe für alle zugehörigen Zuordnungen zu generieren. Sie können die Vorgabe als Standard-PDF-Vorgabe auswählen, um die PDF-Ausgabe zu generieren. Sie können auch **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** eine vorhandene Ausgabevorgabe aus dem Menü **Optionen**.
 
-### Spalte &quot;Versionsbezeichnung&quot;zum Übersetzungs-Dashboard hinzugefügt
+### Dem Übersetzungs-Dashboard hinzugefügte Spalte „Versionsbezeichnung“
 
-Im Übersetzungs-Dashboard wird auch die Spalte Versionsbezeichnung angezeigt. Dadurch wird der Titel der ausgewählten Version der Quelldatei angezeigt. Auf diese Weise können Sie alle Dateien mit einem bestimmten Titel auswählen und in einem Schritt übersetzen.
+Im Übersetzungs-Dashboard wird auch die Spalte Versionsbezeichnung angezeigt. Dadurch wird der Titel für die ausgewählte Version der Quelldatei angezeigt. Auf diese Weise können Sie alle Dateien mit einem bestimmten Titel auswählen und in einem Schritt übersetzen.
 
-<img src="assets/send-translation.png" alt="Übersetzen" width="600">
+<img src="assets/send-translation.png" alt="Zur Übersetzung senden" width="600">
 
 
 ### Native PDF | PDF mit Änderungsleiste, die den Unterschied zwischen Dokumentversionen anzeigt
 
-Jetzt können Sie eine PDF erstellen, die die Inhaltsunterschiede zwischen zwei Versionen mithilfe der Änderungsleiste anzeigt. Sie können die aktuelle Version mit einer Grundlinie der vorherigen Version vergleichen oder zwischen den beiden ausgewählten Grundversionen vergleichen.
+Jetzt können Sie mit der Änderungsleiste eine PDF erstellen, die die Inhaltsunterschiede zwischen zwei Versionen anzeigt. Sie können die aktuelle Version mit einer Baseline der vorherigen Version vergleichen oder zwischen den beiden ausgewählten Baseline-Versionen vergleichen.
 
 <img src="assets/pdf-change-version.png" alt="spdf-change-version" width="600">
 
-Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten, eingefügten oder gelöschten Inhalt angibt. Sie haben auch die folgenden Optionen:
-* Eingefügten Inhalt in grüner Farbe anzeigen und unterstrichen
-* Gelöschte Inhalte in roter Farbe anzeigen und mit einem Durchstreichen markieren
+Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten, eingefügten oder gelöschten Inhalt angibt. Sie haben außerdem die Möglichkeit, Folgendes durchzuführen:
+* Den eingefügten Inhalt grün und unterstrichen anzeigen
+* Gelöschte Inhalte in roter Farbe anzeigen und mit einem Durchgestrichen markieren
 
-### Native PDF | Variablenunterstützung für Output Path und PDF File Name
+### Native PDF | Variablenunterstützung für Ausgabepfad und PDF-Dateiname
 
-Jetzt können Sie auch die folgenden vordefinierten Variablen verwenden, um den Ausgabepfad und die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um die folgenden Optionen zu definieren:
+Jetzt können Sie auch die folgenden vordefinierten Variablen verwenden, um den Ausgabepfad und die PDF-Datei zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Optionen zu definieren:
 * `${map_filename}`
 * `${map_title}`
 * `${preset_name}`
 * `${language_code}`
-* `${map_parentpath}` (Nur für Ausgabepfad)
-* `${path_after_langfolder}` (Nur für Ausgabepfad)
+* `${map_parentpath}` (nur für Ausgabepfad)
+* `${path_after_langfolder}` (nur für Ausgabepfad)
 
 
-### Native PDF | Inhaltsverzeichnis für DITA-Maps generieren und Seitenlayouts neu anordnen
+### Native PDF | Inhaltsverzeichnis für DITA-Zuordnungen generieren und Seiten-Layouts neu anordnen
 
-Jetzt können Sie das Inhaltsverzeichnis auch in DITA-Maps generieren, indem Sie eine erweiterte PDF-Einstellung der Vorlage verwenden. Sie können die Anzeige der verschiedenen Seitenlayouts aktivieren oder deaktivieren und ihre Position neu anordnen.
+Jetzt können Sie das Inhaltsverzeichnis auch in DITA-Zuordnungen generieren, indem Sie eine erweiterte PDF-Einstellung der Vorlage verwenden. Sie können die Anzeige der verschiedenen Seiten-Layouts aktivieren oder deaktivieren und auch ihre Position neu anordnen.
 
 ## Behobene Probleme
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Native PDF | `conkeyref` wird in der generierten PDF-Ausgabe nicht aufgelöst. (10564)
-* Native PDF | Beim Zugriff auf Metadaten einer Zuordnung in der PDF-Ausgabe treten Probleme auf. (10556)
-* Native PDF | Inline-Stil wird zum Generieren von Tags anstelle von Klassennamen verwendet.  (10498)
-* Der Web Editor lädt zeitweise eine leere Seite. (10678)
-* Die PDF-Veröffentlichung schlägt fehl, wenn eine Vorgabe durch Duplizieren einer vorhandenen Vorgabe erstellt wird. (10584)
-* Die Schaltfläche **Protokoll anzeigen** funktioniert nicht, wenn die PDF-Generierung für eine Vorgabe fehlschlägt. (10576)
-* Hinweis innerhalb eines para-Tags, das eine conref ist, wird nicht in der Vorschau angezeigt. (10559)
-* Wenn Sie die Rücktaste am Ende eines Listenelements drücken, wird die gesamte Liste entfernt. (10540)
-* Bei Verwendung eines nativen PDF-Exports sind die verschachtelten `<indexterm>` nicht im Index verschachtelt. (10521)
-* Die Schaltfläche **Automatischer Einzug** in der Symbolleiste fehlt in der Source-Ansicht. (10448)
+* Native PDF | `conkeyref` wird in der erzeugten PDF-Ausgabe nicht aufgelöst. 10564)
+* Native PDF | Probleme treten beim Zugriff auf Metadaten einer Zuordnung in der PDF-Ausgabe auf. 10556)
+* Native PDF | Inline-Stile werden zum Generieren von Tags anstelle des Klassennamens verwendet.  10498)
+* Der Web-Editor lädt gelegentlich leere Seiten. 10678)
+* Das PDF-Veröffentlichen schlägt fehl, wenn eine Vorgabe durch Duplizieren einer vorhandenen Vorgabe erstellt wird. 10584)
+* **Protokoll anzeigen**-Taste funktioniert nicht, wenn die PDF-Generierung für eine Voreinstellung fehlschlägt. 10576)
+* Beachten Sie, dass in einem para-Tag, das ein conf ist, nicht in der Vorschau angezeigt wird. 10559)
+* Durch Drücken der Rücktaste am Ende eines Listenelements wird die gesamte Liste entfernt. 10540)
+* Bei der Verwendung eines nativen PDF-Exports werden die verschachtelten `<indexterm>` nicht im Index verschachtelt. 10521)
+* **Schaltfläche &quot;** Einrücken“ in der Symbolleiste fehlt in der Source-Ansicht. 10448)
 * Das erste Zeichen eines Listenelements geht verloren, während die Liste im Editor erstellt wird. 10447)
-* Es werden mehrere Popups angezeigt, wenn eine DITA-Asset-Version geändert und im Fenster der Basisbearbeitung gespeichert wird. (10399)
-* Anwendungsfehler tritt beim Klicken auf die Schaltfläche **Bearbeiten** auf, nachdem alle Ausgabevorgaben im Bereich &quot;Schnellgenerierung&quot;ausgewählt wurden. (10388)
-* Benutzerdefinierte Metadaten für DITA-Themen werden nicht beibehalten, wenn über die Assets-Benutzeroberfläche eine Aktion zum Kopieren und Einfügen ausgeführt wird. (10367)
-* Die Verarbeitung von Post ist für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. (10332)
-* Die Registerkarte &quot;Vorlage&quot;im XML-Editor ist für Ordnerprofiladministratoren nicht sichtbar. (10266)
-* Navigationsprobleme treten im Web Editor nach der Aktualisierung auf Version 4.0 auf. (10159)
-* SVG-Dateien werden nicht im Vorschaumodus angezeigt. (10010)
-* Wenn die Registerkarte &quot;Ausgabe&quot;des Editors mehr Vorgaben enthält, kann kein Bildlauf im Bereich &quot;Vorgaben&quot;durchgeführt werden und nicht alle Vorgaben werden angezeigt. (9787)
-* Die Optionen **Bearbeiten** und **Anmerken** für ein Bild funktionieren in der Spaltenansicht nicht ordnungsgemäß. (8758)
-* Peer-Link wird nicht aufgelöst und in der generierten Ausgabe als normaler Text angezeigt. (7774)
+* Wenn eine DITA-Asset-Version geändert und im Baseline-Bearbeitungsfenster gespeichert wird, werden mehrere Popup-Fenster angezeigt. 10399)
+* Der Anwendungsfehler tritt beim Klicken auf **Bearbeiten**-Schaltfläche auf, nachdem alle Ausgabevorgaben im Bedienfeld „Schnellgenerierung“ ausgewählt wurden. 10388)
+* Benutzerdefinierte Metadaten für DITA-Themen werden nicht beibehalten, wenn über die Assets-Benutzeroberfläche eine Einfügeaktion zum Kopieren ausgeführt wird. 10367)
+* Die Nachbearbeitung ist für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. 10332)
+* Die Registerkarte „Vorlage“ im XML-Editor ist für Ordnerprofiladministratoren nicht sichtbar. 10266)
+* Navigationsprobleme treten im Web-Editor nach dem Upgrade auf 4.0 auf. 10159)
+* SVG-Dateien werden im Vorschaumodus nicht angezeigt. 10010)
+* Wenn die Registerkarte „Ausgabe“ des Editors mehr Vorgaben enthält, kann der Abschnitt „Vorgaben“ nicht gescrollt werden und alle Vorgaben werden nicht angezeigt. (9 787)
+* **Bearbeiten** und **Anmerken**-Optionen für ein Bild funktionieren in der Spaltenansicht nicht ordnungsgemäß. (8 758)
+* Der Peer-Link wird nicht aufgelöst und in der generierten Ausgabe als normaler Text angezeigt. (7774)

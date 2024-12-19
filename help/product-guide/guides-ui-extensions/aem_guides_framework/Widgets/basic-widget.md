@@ -1,6 +1,6 @@
 ---
 title: Widgets
-description: Widgets
+description: Grundlegendes zu Widgets
 role: User, Admin
 exl-id: 96e960df-d595-4d58-8ad4-27057f857bac
 source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
@@ -13,11 +13,11 @@ ht-degree: 2%
 # Widgets
 
 Mehrere grundlegende Komponenten, wie im Abschnitt Komponenten beschrieben, können kombiniert werden, um ein Widget zu erstellen.
-Widgets können verwendet werden, um eine neue &quot;komplexere&quot;Komponente zu erstellen oder Elemente einer Komponente zu strukturieren.
+Widgets können verwendet werden, um eine neue „komplexere“ Komponente zu erstellen oder Elementen einer Komponente eine Struktur zu verleihen.
 
-Tauchen wir in das Konzept eines Widgets ein!
+Lassen Sie uns in das Konzept eines Widgets eintauchen!
 
-Zunächst erstellen wir ein einfaches Widget, um eine Liste von Sprachen anzuzeigen.
+Wir beginnen mit einem einfachen Widget, um eine Liste von Sprachen anzuzeigen.
 
 ```js title="basicWidget.js"
 const widgetJSON =  {
@@ -45,8 +45,8 @@ const widgetJSON =  {
 },
 ```
 
-Hier ist `@languages` ein Array, das im Modell von `widget_languages` definiert ist als: [&quot;English&quot;, &quot;French&quot;, &quot;Hindi&quot;, &quot;Spanisch&quot;, &quot;Urdu&quot;]
+`@languages` ist hier ein Array, das im Modell der `widget_languages` wie folgt definiert ist: [„Englisch“, „Französisch“, „Hindi“, „Spanisch“, „Urdu“]
 
 Das gerenderte grundlegende Widget sieht wie folgt aus:
 
-![basic_widget](imgs/basic_widget.png "Basic widget")
+![basic_widget](imgs/basic_widget.png "basic widget")

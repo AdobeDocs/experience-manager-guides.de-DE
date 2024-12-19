@@ -1,6 +1,6 @@
 ---
-title: Benutzerdefinierte DITA-Themenvorlage konfigurieren
-description: Erfahren Sie, wie Sie benutzerdefinierte DITA-Themenvorlagen konfigurieren
+title: Konfigurieren einer benutzerdefinierten DITA-Themenvorlage
+description: Erfahren Sie, wie Sie eine benutzerdefinierte DITA-Themenvorlage konfigurieren
 exl-id: 5a2f4897-9697-4c5c-b5be-8fdb3a211948
 feature: Template Configuration
 role: Admin
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# Benutzerdefinierte DITA-Themenvorlage konfigurieren {#id16A7G0O02TD}
+# Konfigurieren einer benutzerdefinierten DITA-Themenvorlage {#id16A7G0O02TD}
 
-Die AEM Guides enthält die folgenden DITA-Themenvorlagen:
+Im Lieferumfang von AEM Guides sind die folgenden DITA-Themenvorlagen enthalten:
 
 - Thema
 
@@ -31,37 +31,37 @@ Die AEM Guides enthält die folgenden DITA-Themenvorlagen:
 - Leer
 
 
-Sie können diese Vorlagen verwenden, um Themenvorlagen gemäß Ihren Authoring-Anforderungen zu erstellen. Die leere DITA-Vorlage enthält keine Struktur oder Elemente wie die anderen Vorlagen. Sie können die leere Vorlage als Grundlage verwenden, wenn Ihre Vorlage stark angepasst ist und nicht auf normalen DITA-Themenvorlagen basiert.
+Sie können jede dieser Vorlagen verwenden, um Themenvorlagen gemäß Ihren Authoring-Anforderungen zu erstellen. Die Vorlage Leere DITA enthält keine Struktur oder Elemente wie die anderen Vorlagen. Sie können die leere Vorlage als Grundlage verwenden, wenn Ihre Vorlage stark angepasst ist und nicht auf regulären DITA-Themenvorlagen basiert.
 
-Um die DITA-Themenvorlage anzupassen und sie für das Authoring zu verwenden, müssen Sie die folgenden drei Hauptaufgaben ausführen:
+Um die DITA-Themenvorlage anzupassen und für das Authoring zu verwenden, müssen Sie die folgenden drei Hauptaufgaben ausführen:
 
-1. *\(Optional\)* [Benutzerdefinierten Ordnerpfad der DITA-Vorlage konfigurieren](#id191LCF0095Z)
+1. *\(Optional\)* [Konfigurieren des benutzerdefinierten DITA-Vorlagenordnerpfads](#id191LCF0095Z)
 
-1. [Benutzerdefinierte Authoring-Vorlage erstellen](conf-folder-level.md#id1917D0EG0HJ)
+1. [Erstellen einer benutzerdefinierten Authoring-Vorlage](conf-folder-level.md#id1917D0EG0HJ)
 
-1. Fügen Sie eine benutzerdefinierte Vorlage zum Profil auf globaler Ebene oder Ordnerebene hinzu, wie im Abschnitt [Bearbeitungsvorlagen konfigurieren](conf-folder-level.md#id1889D0IL0Y4) beschrieben.
+1. Fügen Sie eine benutzerdefinierte Vorlage zum globalen Profil oder zum Profil auf Ordnerebene hinzu, wie im Abschnitt [Konfigurieren von Authoring-Vorlagen](conf-folder-level.md#id1889D0IL0Y4) beschrieben
 
 
-## Benutzerdefinierten DITA-Vorlagenordnerpfad konfigurieren {#id191LCF0095Z}
+## Konfigurieren des benutzerdefinierten DITA-Vorlagenordnerpfads {#id191LCF0095Z}
 
-Mit AEM Guides können Sie einen Ordner zum Speichern Ihrer benutzerdefinierten DITA-Map und -Vorlagen konfigurieren. Standardmäßig werden die Vorlagendateien im folgenden Ordner in DAM gespeichert:
+Mit AEM Guides können Sie einen Ordner konfigurieren, in dem Sie Ihre benutzerdefinierten DITA-Karten und -Vorlagen speichern können. Standardmäßig werden die Vorlagendateien im folgenden Ordner in DAM gespeichert:
 
 `/content/dam/dita-templates/`
 
-Zum Verwalten von Themen- und Zuordnungsvorlagendateien gibt es spezielle Ordner zum Speichern der Themen- und Zuordnungsvorlagen. Standardmäßig werden alle Themenvorlagen unter dem `/content/dam/dita-templates/topics` gespeichert.
+Um Themen- und Zuordnungsvorlagendateien zu verwalten, stehen dedizierte Ordner zum Speichern des Themas und Zuordnungsvorlagen zur Verfügung. Standardmäßig werden alle Themenvorlagen unter dem `/content/dam/dita-templates/topics` gespeichert
 
 Ordner. Alle Zuordnungsvorlagen werden im Ordner `/content/dam/dita-templates/maps` gespeichert.
 
-Als Administrator können Sie benutzerdefinierte Zuordnungs- oder Themenvorlagen im Standardordner erstellen oder einen eigenen Ordner zum Speichern benutzerdefinierter Vorlagen erstellen. Wenn Sie den Standardordner verwenden möchten, können Sie diesen Prozess überspringen.
+Als Administrator können Sie benutzerdefinierte Zuordnungs- oder Themenvorlagen im Standardordner erstellen oder Ihren eigenen Ordner erstellen, um benutzerdefinierte Vorlagen zu speichern. Wenn Sie planen, den Standardordner zu verwenden, können Sie diesen Prozess überspringen.
 
-Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden \(property\) Details an, um einen Ordner für Ihre benutzerdefinierten DITA-Themenvorlagen zu konfigurieren:
+Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#), um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden \(property\)-Details an, um einen Ordner für Ihre benutzerdefinierten DITA-Themenvorlagen zu konfigurieren:
 
 >[!IMPORTANT]
 >
 > Sie können diesen Prozess überspringen, wenn Sie den Standardordner zum Speichern benutzerdefinierter Vorlagen verwenden möchten.
 
-| PID | Eigenschaftenschlüssel | Eigenschaftswert |
+| PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Geben Sie einen Speicherort für benutzerdefinierte Vorlagen an.<br> Wenn der angegebene Speicherort in DAM vorhanden ist, werden alle standardmäßigen Zuordnungs- und Themenvorlagen in diesen Ordner kopiert. Wenn der Speicherort nicht vorhanden ist, wird der Ordner mit allen standardmäßigen Zuordnungs- und Themenvorlagen erstellt. |
+| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Speicherort für benutzerdefinierte Vorlagen angeben.<br> Wenn der angegebene Speicherort in DAM vorhanden ist, werden alle Standardzuordnungs- und Themenvorlagen in diesen Ordner kopiert. Wenn der Speicherort nicht vorhanden ist, wird der Ordner mit allen standardmäßigen Zuordnungs- und Themenvorlagen erstellt. |
 
 **Übergeordnetes Thema:**[ Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)

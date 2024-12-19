@@ -1,6 +1,6 @@
 ---
-title: Native PDF | JVM-Flags für native PDF-Veröffentlichung konfigurieren
-description: JVM-Flags für native PDF-Veröffentlichung konfigurieren
+title: Native PDF | Konfigurieren von JVM-Flags für die native PDF-Veröffentlichung
+description: Konfigurieren von JVM-Flags für die native PDF-Veröffentlichung
 exl-id: d5432913-4b5a-48e7-9467-7f6c6e0adbe4
 feature: Output Generation
 role: Admin
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 ---
 
-# JVM-Flags für native PDF-Veröffentlichung konfigurieren
+# Konfigurieren von JVM-Flags für die native PDF-Veröffentlichung
 
-Die native PDF-Veröffentlichung startet einen separaten JVM-Prozess zum Generieren einer PDF. Möglicherweise müssen Sie die Konfigurationen dieser JVM anpassen, um verschiedene Szenarien zu unterstützen. Um beispielsweise größere Workloads auszuführen, sollten Sie die maximale Heap-Größe erhöhen, die für den erzeugten JVM-Prozess verfügbar ist.
+Die native PDF-Veröffentlichung startet einen separaten JVM-Prozess zum Generieren einer PDF. Möglicherweise müssen Sie die Konfigurationen dieser JVM anpassen, um verschiedene Szenarien zu unterstützen. Um beispielsweise größere Arbeitslasten auszuführen, sollten Sie die maximale Heap-Größe erhöhen, die für den erstellten JVM-Prozess verfügbar ist.
 
-Führen Sie die folgenden Schritte aus, um die AEM Guides Native PDF Publishing JVM-Flags zu konfigurieren:
+Führen Sie die folgenden Schritte aus, um JVM-Flags für das native PDF-Publishing in AEM Guides zu konfigurieren:
 
-1. Öffnen Sie die Seite Adobe Experience Manager Web Console Configuration .
+1. Öffnen Sie die Seite Konfiguration der Adobe Experience Manager-Web-Konsole .
 
    Die Standard-URL für den Zugriff auf die Konfigurationsseite lautet:
 
@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um die AEM Guides Native PDF Publishing 
 
 1. Suchen Sie nach dem Bundle *com.adobe.fmdita.config.ConfigManager* und wählen Sie es aus.
 
-1. Aktualisieren Sie die Eigenschaft **Java-Befehlszeilenoptionen für natives PDF** (*native.pdf.java.opts*), um alle standardmäßigen JVM-Flags zu übergeben.
+1. Aktualisieren Sie die Eigenschaft **Java-Befehlszeilenoptionen für native PDF** (*native.pdf.java.opts*), um alle standardmäßigen JVM-Flags zu übergeben.
 
 
 

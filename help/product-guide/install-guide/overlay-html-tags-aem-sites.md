@@ -1,32 +1,32 @@
 ---
-title: Überlagern Sie die HTML-Tags in der nicht älteren AEM Sites-Ausgabe.
-description: Video- und Bildeinstellungen für die AEM Sites-Ausgabe basierend auf der Zuordnung der Kernkomponenten konfigurieren
+title: Überlagern der HTML-Tags in der nicht veralteten AEM Sites-Ausgabe
+description: Konfigurieren Sie die Video- und Bildeinstellungen für die AEM Sites-Ausgabe basierend auf der Zuordnung der Kernkomponenten.
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 8310ae8d2e2eeda0fcfba9ec50650c806263cd49
+exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
+source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-
 # Überlagern von HTML-Tags in der AEM Sites-Ausgabe
 
-Sie können HTML-Tags in der AEM Sites-Ausgabe hinzufügen und anpassen, die mithilfe der AEM Sites-Vorgabe basierend auf der Kernkomponenten-Zuordnung aus dem Web Editor generiert wurde. Um die HTML-Tags anzupassen, können Sie die `config.xml` -Datei überlagern. Sie können beispielsweise die Video- und Imagemaps in der AEM Sites-Ausgabe konfigurieren.
+Sie können mithilfe der AEM Sites-Voreinstellung generierte HTML-Tags in der AEM Sites-Ausgabe hinzufügen und anpassen, die auf der Zuordnung der Kernkomponenten aus dem Web-Editor basieren. Um die HTML-Tags anzupassen, können Sie die `config.xml`-Datei überlagern. Sie können beispielsweise die Video- und Imagemaps in der AEM Sites-Ausgabe konfigurieren.
 
-Führen Sie die folgenden Schritte aus, um die Datei `config.xml` zu überlagern und zu aktualisieren:
+Führen Sie die folgenden Schritte aus, um die `config.xml`-Datei zu überlagern und zu aktualisieren:
 
 1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
-1. Navigieren Sie zur Konfigurationsdatei, die unter folgendem Speicherort verfügbar ist:
+1. Navigieren Sie zu der Konfigurationsdatei, die am folgenden Speicherort verfügbar ist:
 
    `/libs/fmdita/cq/xssprotection/config.xml`
 
-1. Erstellen Sie einen Überlagerungsknoten des Ordners `xssprotection` im Anwendungsknoten.
+1. Erstellen Sie einen Überlagerungsknoten des `xssprotection` Ordners im Apps-Knoten.
 
-1. Navigieren Sie zur Konfigurationsdatei, die im Knoten `apps` verfügbar ist:
+1. Navigieren Sie zu der Konfigurationsdatei, die im Knoten `apps` verfügbar ist:
 
    `/apps/fmdita/config/config.xml`
 

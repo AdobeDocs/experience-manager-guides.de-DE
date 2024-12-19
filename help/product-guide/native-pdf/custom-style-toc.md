@@ -1,6 +1,6 @@
 ---
 title: Native PDF Publish-Funktion | Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte
-description: Erfahren Sie, wie Sie Stile für Ihren Inhalt erstellen und Stile erstellen.
+description: Erfahren Sie, wie Sie Stylesheets erstellen, verwenden und Stile für Ihre Inhalte erstellen.
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 # Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte
 
-Manchmal können Sie benutzerdefinierte Stile auf die TOC-Einträge oder ein bestimmtes Thema anwenden. Dies kann erreicht werden, indem ein `outputclass` -Attribut mit dem `<topicref>` -Element in Ihrer DITA-Zuordnung verknüpft wird. Wenn Sie ein benutzerdefiniertes Format auf ein ganzes Thema anwenden möchten, kann dies auch durch Erweitern der Stildefinition des Attributs in der CSS erreicht werden.
+Gelegentlich empfiehlt es sich, benutzerdefinierte Stile auf die Inhaltsverzeichniseinträge oder ein bestimmtes Thema anzuwenden. Dies kann erreicht werden, indem ein `outputclass`-Attribut mit dem `<topicref>`-Element in Ihrer DITA-Zuordnung verknüpft wird. Wenn Sie ein benutzerdefiniertes Format auf ein ganzes Thema anwenden möchten, kann dies auch durch Erweitern der Stildefinition des Attributs in CSS erreicht werden.
 
-Nehmen wir ein Beispiel für ein neues Thema, das Sie zur Überprüfung senden möchten. Zur einfachen Identifizierung des aktualisierten Themas müssen Sie dem Element `<topicref>` in Ihrer DITA-Zuordnung ein Attribut `outputclass` hinzufügen und dann in der CSS einen benutzerdefinierten Stil für dasselbe definieren.
+Nehmen wir ein Beispiel für ein neues Thema, das Sie zur Überprüfung senden möchten. Um das aktualisierte Thema leicht zu identifizieren, müssen Sie dem `<topicref>`-Element in Ihrer DITA-Zuordnung ein `outputclass`-Attribut hinzufügen und dann einen benutzerdefinierten Stil für dasselbe Element in CSS definieren.
 
-Im folgenden Beispiel wurde dem Thema *Verlauf der Flüge* das Attribut `outputclass` mit dem Wert `new-topic` zugewiesen.
+Im folgenden Beispiel wurde dem Thema *Verlauf von Flügen* ein `outputclass` mit dem Wert `new-topic` zugewiesen.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
-Mit der Klassendefinition von `new-topic` in einem CSS können Sie den Stil für die folgenden Elemente definieren:
+Mit der Klassendefinition des `new-topic` in einem CSS können Sie den Stil für die folgenden Elemente definieren:
 * Der Haupteintrag im Inhaltsverzeichnis oder im Mini-Inhaltsverzeichnis
 * Der Titel des Themas im Hauptinhalt
-* Der gesamte Inhalt des Themas, einschließlich des Titels
+* Gesamter Inhalt des Themas einschließlich Titel
 
-Sehen wir uns an, wie jedes dieser Szenarien in CSS definiert werden kann. In der folgenden CSS-Definition der Klasse `new-topic` wurde die Textfarbe geändert.
+Sehen wir uns an, wie jedes dieser Szenarien im CSS definiert werden kann. In der folgenden CSS-Definition der `new-topic` wurde die Textfarbe geändert.
 
 ```css
 …
@@ -37,15 +37,15 @@ Sehen wir uns an, wie jedes dieser Szenarien in CSS definiert werden kann. In de
 …
 ```
 
-Diese Definition steuert die Farbe des Texts im Inhaltsverzeichnis und den Titel des Themas. Die folgende PDF-Ausgabe zeigt die unterschiedliche Farbe, die auf den TOC-Eintrag angewendet wird:
+Diese Definition steuert die Textfarbe im Inhaltsverzeichnis und den Titel des Themas. Die folgende PDF-Ausgabe zeigt die verschiedenen Farben, die auf den Inhaltsverzeichniseintrag angewendet wurden:
 
 <img src="./assets/pdf-output-toc-entry.jpg" width="500">
 
-Der Titel des Themas wird ebenfalls mit derselben Farbe formatiert.
+Der Titel des Themas wird ebenfalls in derselben Farbe formatiert.
 
 <img src="./assets/pdf-output-topic-title.jpg" width="500">
 
-Wenn Sie möchten, dass der TOC-Eintrag und der Titel des Themas unterschiedliche Stile aufweisen, können Sie sie wie unten gezeigt separat definieren:
+Wenn Sie für den Inhaltsverzeichniseintrag und den Titel des Themas unterschiedliche Stile verwenden möchten, können Sie diese separat definieren, wie unten dargestellt:
 
 ```css
 ...
@@ -61,7 +61,7 @@ Wenn Sie möchten, dass der TOC-Eintrag und der Titel des Themas unterschiedlich
 ...
 ```
 
-Schließlich können Sie auch Stile auf den gesamten Inhalt innerhalb des Themas anwenden. Dazu müssen Sie dem Klassennamen das Suffix &quot;`-content`&quot; hinzufügen. Im folgenden Beispiel wurde eine Änderungsleiste für den gesamten Inhalt des Themas hinzugefügt:
+Schließlich können Sie auch Stile auf den gesamten Inhalt innerhalb des Themas anwenden. Dazu müssen Sie dem Klassennamen das Suffix &quot;`-content`&quot; hinzufügen. Im folgenden Beispiel wurde eine Änderungsleiste zum gesamten Inhalt des Themas hinzugefügt:
 
 ```css
 ...
@@ -72,15 +72,15 @@ Schließlich können Sie auch Stile auf den gesamten Inhalt innerhalb des Themas
 ...
 ```
 
-Unter Verwendung der oben genannten Stilattribute wird links neben dem Thema *Verlauf des Fluges* eine Änderungsleiste hinzugefügt, wie unten dargestellt:
+Unter Verwendung der oben genannten Stilattribute wird links neben dem Thema &quot;*des Fluges“ eine* hinzugefügt, wie unten dargestellt:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
 
 ## Leere Zeilen aus dem Inhaltsverzeichnis entfernen
 
-Wenn Sie den Titel für keine Themen definiert haben, werden im Inhaltsverzeichnis für diese Themen leere Zeilen angezeigt.
+Wenn Sie den Titel für keine Themen definiert haben, werden für diese Themen im Inhaltsverzeichnis leere Zeilen angezeigt.
 
-Um die leeren Zeilen aus dem Inhaltsverzeichnis und dem Mini-Inhaltsverzeichnis zu entfernen, fügen Sie den folgenden Stil in den `layout.css` hinzu:
+Um die leeren Zeilen aus dem Inhaltsverzeichnis und dem Mini-Inhaltsverzeichnis zu entfernen, fügen Sie dem `layout.css` den folgenden Stil hinzu:
 
 ```css
 .toc-body a:empty,

@@ -1,6 +1,6 @@
 ---
-title: KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten
-description: Erfahren Sie, wie Sie KI-gestützte intelligente Vorschläge im Web Editor anzeigen und nutzen können.
+title: KI-gestützte Smart Suggestions zum Erstellen von Inhalten
+description: Erfahren Sie, wie Sie KI-gestützte Smart-Vorschläge im Web-Editor anzeigen und verwenden können.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
 source-git-commit: 6cf65f70252e133cf8977ce925f0a103dc79c0ec
 workflow-type: tm+mt
@@ -13,54 +13,54 @@ ht-degree: 0%
 
 Experience Manager Guides bietet die intelligenten Vorschläge, mit denen Sie konsistente und genaue Inhalte erstellen können.
 
-Während Sie Inhalte erstellen, kann die Funktion **Wiederverwendbaren Inhalt vorschlagen** im AI-Assistenten-Tool mit AI suchen und den vorhandenen Inhalt anzeigen, der semantisch Ihrem Inhalt ähnlich ist. Sie können dann den am besten passenden Inhalt auswählen, den Sie in Ihr aktuelles Thema aufnehmen möchten.
+Während Sie Inhalte erstellen, kann die Funktion **Wiederverwendbare Inhalte vorschlagen** im Tool KI-Assistent mithilfe von KI suchen und die vorhandenen Inhalte anzeigen, die Ihren Inhalten semantisch ähnlich sind. Anschließend können Sie den am besten übereinstimmenden Inhalt auswählen, den Sie in Ihr aktuelles Thema als Referenz aufnehmen möchten.
 
-Auf diese Weise können Sie vorhandenen Inhalt aus Ihrem Dokumentations-Repository wiederverwenden und konsistente Inhalte erstellen. Sie erstellen beispielsweise ein Dokument mit Informationen zu **Adobe Firefly**, einschließlich eines Absatzes über **Adobe**. In diesem Fall können Sie den Inhaltsverweis schnell von einem anderen Thema wie **Adobe Photoshop** anzeigen und hinzufügen, das denselben Absatz enthält.
+Auf diese Weise können Sie vorhandene Inhalte aus Ihrem Dokumentations-Repository wiederverwenden und konsistente Inhalte erstellen. Sie erstellen beispielsweise ein Dokument, das Informationen zu **Adobe Firefly** enthält, einschließlich eines Absatzes über **Adobe**. In diesem Fall können Sie den Inhaltsverweis schnell aus einem anderen Thema anzeigen und hinzufügen, z. B. **Adobe Photoshop**, das denselben Absatz enthält.
 >[!NOTE]
 >
-> In den Profilen [global oder auf Ordnerebene](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions) muss Ihr Administrator die Dateien oder Ordner definieren, die für intelligente Vorschläge indiziert werden sollen, die Mindestanzahl der Zeichen, die Sie eingeben müssen, um die Vorschläge anzuzeigen, und die maximale Anzahl an Vorschlägen, die Sie in der Liste anzeigen können.
+> In den [globalen Profilen oder Profilen auf Ordnerebene](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions) muss Ihr Administrator die Dateien oder Ordner definieren, die für Smart-Vorschläge indiziert werden sollen, die Mindestanzahl von Zeichen, die Sie eingeben müssen, um die Vorschläge anzuzeigen, und die maximale Anzahl von Vorschlägen, die Sie in der Liste anzeigen können.
 
-Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hinzufügen entsprechender Inhaltsreferenzen zu Ihrem Thema anzuzeigen:
-
-
-1. Wählen Sie den Inhalt in Ihrem Thema aus, um die entsprechenden Vorschläge anzuzeigen. Stellen Sie sicher, dass die Zeichenlänge des Inhalts die vom Administrator im Ordnerprofil festgelegte Länge überschreitet, damit die Inhaltsvorschläge angezeigt werden.
-1. Wählen Sie im Bedienfeld &quot;KI-Assistent&quot;die Option **Vorschlagen wiederverwendbarer Inhalte** ![ai rät das Symbol für wiederverwendbaren Inhalt ](./images/ai-suggest-reusable-content-icon.svg) vor.
-
-1. Wählen Sie ein Tag aus, um die Bearbeitungsvorschläge für das aktuelle Tag anzuzeigen.  Die Vorschläge zum Anzeigen und Hinzufügen von Inhaltsverweisen aus den indizierten Dateien werden basierend auf dem Inhalt im aktuellen Tag angezeigt. Sie können auch mehrere Tags auswählen.
+Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hinzufügen geeigneter Inhaltsreferenzen zu Ihrem Thema anzuzeigen:
 
 
-1. Wählen Sie alle Tags aus, um die Vorschläge basierend auf dem Inhalt des vollständigen Dokuments anzuzeigen.  Das Symbol **Wiederverwendbaren Inhalt vorschlagen** ![ai schlägt vor, dass das Symbol für wiederverwendbaren Inhalt ](./images/ai-suggest-reusable-content-icon.svg) neben dem Inhalt angezeigt wird, bei dem eine passende Übereinstimmung gefunden wurde.
+1. Wählen Sie den Inhalt in Ihrem Thema aus, um die entsprechenden Vorschläge anzuzeigen. Stellen Sie sicher, dass die Zeichenlänge des Inhalts den Wert überschreitet, den Ihr Administrator im Ordnerprofil festgelegt hat, damit die Inhaltsvorschläge angezeigt werden.
+1. Wählen Sie im Bedienfeld des KI-Assistenten die Option **Wiederverwendbaren Inhalt vorschlagen** ![Symbol für wiederverwendbaren Inhalt vorschlagen ](./images/ai-suggest-reusable-content-icon.svg).
+
+1. Wählen Sie ein Tag aus, um die Authoring-Vorschläge für das aktuelle Tag anzuzeigen.  Die Vorschläge zum Anzeigen und Hinzufügen von Inhaltsreferenzen aus den indizierten Dateien werden basierend auf dem Inhalt des aktuellen Tags angezeigt. Sie können auch mehrere Tags auswählen.
+
+
+1. Wählen Sie alle Tags aus, um die Vorschläge basierend auf dem Inhalt des vollständigen Dokuments anzuzeigen.  Das Symbol **Wiederverwendbaren Inhalt vorschlagen** ![ai schlägt wiederverwendbaren Inhalt vor](./images/ai-suggest-reusable-content-icon.svg) wird neben dem Inhalt angezeigt, für den eine geeignete Übereinstimmung gefunden wurde.
 
 
 
    >[!NOTE]
    >
-   > Sie können nur die Vorschläge für den aktuellen Viewport (den auf dem Bildschirm sichtbaren Inhalt) anzeigen. Um Vorschläge für andere Inhalte im Dokument anzuzeigen, scrollen Sie nach oben oder unten, um sie im Viewport anzuzeigen, und wählen Sie dann **Wiederverwendbaren Inhalt vorschlagen** ![ai schlägt das Symbol für wiederverwendbaren Inhalt vor ](./images/ai-suggest-reusable-content-icon.svg).
+   > Sie können nur die Vorschläge für das aktuelle Darstellungsfeld (den auf dem Bildschirm sichtbaren Inhalt) anzeigen. Um Vorschläge für andere Inhalte im Dokument anzuzeigen, scrollen Sie nach oben oder unten, um sie im Ansichtsfenster anzuzeigen, und wählen Sie dann **Wiederverwendbaren Inhalt vorschlagen** ![ai Symbol für wiederverwendbaren Inhalt vorschlagen ](./images/ai-suggest-reusable-content-icon.svg).
 
 
-1. Sie können die intelligenten Vorschläge im Bereich &quot;Vorschläge&quot;anzeigen.  Experience Manager Guides bietet Vorschläge für Inhalte, die kontextuell ähnlich sind oder dieselbe Bedeutung haben. Sie können beispielsweise nach dem Thema suchen, das die exakte Versionsnummer enthält, z. B. &quot;Release version 2023.03.12&quot;. Sie können auch nach &quot;Adobe mit Hauptsitz in San Jose, Kalifornien&quot;suchen und ähnliche Inhalte wie &quot;San Jose hat die Quartale vieler Softwareunternehmen wie Adobe&quot; finden.
+1. Sie können die Smart-Vorschläge im Bedienfeld Vorschläge anzeigen.  Experience Manager Guides bietet Inhaltsvorschläge, die kontextuell ähnlich sind oder die gleiche Bedeutung haben. Sie können beispielsweise nach dem Thema suchen, das die genaue Versionsnummer enthält, z. B. „Version 2023.03.12“. Sie können auch nach &quot;Adobe hat seinen Hauptsitz in San Jose, Kalifornien“ suchen und ähnliche Inhalte finden wie „San Jose hat die Quartale vieler Software-Unternehmen wie Adobe.“
 1. Wählen Sie **Inhaltsinformationen** ![Inhaltsinformationen](images/smart-suggestions-content-info-icon.svg) aus, um die Details anzuzeigen.
 
-   ![Informationsbereich für Inhalte](images/smart-suggestions-content-information.png){width="300" align="left"}
+   ![Bedienfeld „Inhaltsinformationen“](images/smart-suggestions-content-information.png){width="300" align="left"}
 
-   *Zeigen Sie die detaillierten Informationen zum Inhaltsverweis an.*
+   *Anzeigen der detaillierten Informationen zur Inhaltsreferenz.*
 
    1. Der Titel des Themas, das die Inhaltsreferenz enthält, wird als Hyperlink angezeigt.
-   1. Der Pfad der Datei, die den Inhaltsverweis enthält.
-   1. Die Art der Referenz, auf die der Inhalt verwiesen wird.
-   1. Die Namen der DITA-Dateien, auf die das Thema verwiesen wird, werden als Hyperlinks angezeigt.
-1. Wählen Sie **Vorschau** ![Vorschausymbol](./images/expand-icon.svg) aus, um den aktuellen Inhalt mit dem vorgeschlagenen Inhalt zu vergleichen. Auf diese Weise können Sie die Unterschiede vergleichen und feststellen, ob Sie den Inhaltsverweis für den vorgeschlagenen Inhalt hinzufügen und ihn konsistent machen oder Ihren aktuellen Inhalt beibehalten möchten.
+   1. Der Pfad der Datei, die die Inhaltsreferenz enthält.
+   1. Der Referenztyp, auf den der Inhalt verweist.
+   1. Die Namen der DITA-Dateien, auf die das Thema verweist, werden als Hyperlinks angezeigt.
+1. Wählen Sie **Vorschau** ![Vorschausymbol](./images/expand-icon.svg) aus, um den aktuellen Inhalt mit dem vorgeschlagenen Inhalt zu vergleichen. Auf diese Weise können Sie die Unterschiede vergleichen und bestimmen, ob Sie die Inhaltsreferenz für den vorgeschlagenen Inhalt hinzufügen und konsistent machen oder Ihren aktuellen Inhalt beibehalten möchten.
 
    ![Vorschlagen einer wiederverwendbaren Inhaltsvorschau](images/ai-assistant-suggest-reusable-content.png)
 
-   *Sehen Sie sich den Vergleich zwischen dem aktuellen Inhalt und dem vorgeschlagenen Inhalt in der Vorschau an.*
+   *Vorschau des Vergleichs zwischen dem aktuellen Inhalt und den vorgeschlagenen Inhalten.*
 
-1. Klicken Sie auf **Akzeptieren** , um die vorgeschlagene Inhaltsreferenz zur Vorschau von **Wiederverwendbaren Inhalt vorschlagen** hinzuzufügen.
-1. Sie können auch **Akzeptieren** oder **Beenden** im Bereich &quot;Vorschläge&quot;für die entsprechenden Empfehlungen auswählen.
+1. Klicken Sie **Akzeptieren**, um die vorgeschlagene Inhaltsreferenz in der Vorschau **Wiederverwendbaren Inhalt vorschlagen** hinzuzufügen.
+1. Sie können für die entsprechenden Empfehlungen auch **Akzeptieren** oder **Verwerfen** im Bedienfeld „Vorschläge“ auswählen.
 
 
-Diese intelligente Funktion ist praktisch und minimiert den Aufwand für die manuelle Inhaltssuche, sodass Sie sich mehr auf die Erstellung neuer Inhalte konzentrieren können. Außerdem wird eine bessere Teamzusammenarbeit ermöglicht und die Konsistenz der von verschiedenen Autoren erstellten Inhalte wird gewahrt.
+Diese intelligente Funktion ist praktisch und minimiert den Aufwand für die manuelle Inhaltssuche, sodass Sie sich mehr auf die Erstellung neuer Inhalte konzentrieren können. Dies erleichtert auch eine bessere Zusammenarbeit im Team und hilft bei der Beibehaltung der Konsistenz der von verschiedenen Autoren erstellten Inhalte.
 
 >[!NOTE]
 >
->Intelligente Vorschläge behalten Ihre Daten nicht über die aktuelle Sitzung hinaus bei. Bei Antworten basieren intelligente Vorschläge ausschließlich auf dem Index, der für den in Ihrer internen Datenbank enthaltenen Inhalt erstellt wurde. Externe KI-Tools werden nicht verwendet, um sicherzustellen, dass Ihre Daten im System verbleiben.
+>Intelligente Vorschläge bewahren Ihre Daten nicht über die aktuelle Sitzung hinaus auf. Smart-Vorschläge basieren bei Antworten ausschließlich auf dem Index, der für den Inhalt erstellt wurde, der sich in Ihrer internen Datenbank befindet. Es werden keine externen KI-Tools verwendet, um sicherzustellen, dass Ihre Daten im System bleiben.

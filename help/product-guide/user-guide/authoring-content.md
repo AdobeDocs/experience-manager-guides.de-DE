@@ -1,6 +1,6 @@
 ---
 title: Autoreninhalt
-description: Inhaltserstellung in AEM Guides. Erfahren Sie, wie Sie die Version Ihres Dokuments erstellen, in der Vorschau anzeigen, bearbeiten, speichern und für Überprüfungen freigeben können.
+description: Erstellen von Inhalten in AEM Guides. Erfahren Sie, wie Sie die Version Ihres Dokuments erstellen, in der Vorschau anzeigen, bearbeiten, speichern und für Überprüfungen freigeben können.
 exl-id: 2696f315-7c27-4bac-a621-b8066cf5c96e
 feature: Authoring
 role: User
@@ -13,14 +13,14 @@ ht-degree: 2%
 
 # Autoreninhalt {#id221EAJ0A047}
 
-AEM Guides bietet die Plattform zum Erstellen von Inhalten über die benutzerfreundliche Benutzeroberfläche. Sie können Inhalte erstellen, eine Vorschau anzeigen, sie bearbeiten, die Version speichern und dann für Überprüfungen freigeben.
+AEM Guides bietet die Plattform zum Erstellen von Inhalten mithilfe der benutzerfreundlichen Benutzeroberfläche. Sie können Ihre Inhalte erstellen, in der Vorschau anzeigen, bearbeiten, die Version speichern und sie dann für Reviews freigeben.
 
-Um Inhalte zu erstellen, können Sie die integrierten Editoren oder die einfachen Desktop-Tools verwenden. Mit den integrierten Editoren können Sie strukturierte Dokumente, DITA-Maps und Buchzuordnungsdateien erstellen und bearbeiten. Sie können die Versionen Ihrer Dokumente verwalten und diese auch für Rezensionen freigeben.
+Zum Erstellen von Inhalten können Sie die integrierten Editoren oder die einfachen Desktop-Tools verwenden. Mit den integrierten Editoren können Sie strukturierte Dokumente, DITA-Karten und Buchkarten-Dateien erstellen und bearbeiten. Sie können die Versionen Ihrer Dokumente verwalten und sie auch für Reviews freigeben.
 
-Sie können auch Desktop-Tools verwenden, um Inhalte zu erstellen. Mithilfe dieser Tools können Sie Ihre Dokumente mithilfe der bequemen Benutzeroberfläche bearbeiten und die Dateien in verschiedenen Formaten veröffentlichen.
+Sie können Ihre Inhalte auch mit Desktop-Tools erstellen. Mit diesen Tools können Sie Ihre Dokumente über die praktische Benutzeroberfläche bearbeiten und die Dateien in verschiedenen Formaten veröffentlichen.
 
-- **[Erstellen und Anzeigen einer Vorschau von Themen](create-preview-topics.md)**
+- **[Themen erstellen und in der Vorschau anzeigen](create-preview-topics.md)**
 
-- **[Autoreninhalt mit AEM Guides](authoring-content-xml-doc.md)**
+- **[Erstellen von Inhalten mit AEM Guides](authoring-content-xml-doc.md)**
 
-- **[Autoreninhalt mit Desktop-Tools](author-desktop-tools.md)**
+- **[Erstellen von Inhalten mit Desktop-Tools](author-desktop-tools.md)**

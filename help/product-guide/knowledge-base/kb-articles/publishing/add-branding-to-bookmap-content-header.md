@@ -1,40 +1,41 @@
 ---
-title: Hinzufügen von Enterprise Branding zur ersten Seite einer DITA-PDF
-description: Erzielen Sie das Branding des Unternehmens durch Integration der Titelseite und der Kapitelseite, sodass die Identität des Unternehmens deutlich oben im Inhalt angezeigt wird.
+title: Hinzufügen von Unternehmens-Branding zur ersten Seite einer DITA-PDF
+description: Erzielen Sie das Unternehmens-Branding, indem Sie die Titelseite und die Kapitelseite integrieren und so sicherstellen, dass die Identität des Unternehmens oben im Inhalt klar angezeigt wird.
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: a9f8622dc5a2647bcff32c8895700d5c5933be4a
+exl-id: ab452529-3c7f-4057-a0f6-212b9f52a99d
+source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
 
 ---
 
-# Hinzufügen von Enterprise Branding zur ersten Seite einer DITA-PDF
+# Hinzufügen von Unternehmens-Branding zur ersten Seite einer DITA-PDF
 
-## Dieser Artikel behandelt:
+## Dieser Artikel behandelt Folgendes:
 
-Erreichen des Enterprise-Brandings durch nahtloses Zusammenführen der FrontCover-Seite mit der Kapitelseite, wodurch sichergestellt wird, dass die Unternehmensidentität ganz oben im Inhalt angezeigt wird.
+Erreichen des Unternehmens-Brandings durch die nahtlose Zusammenführung der FrontCover-Seite mit der Kapitelseite, um sicherzustellen, dass die Identität des Unternehmens oben im Inhalt gut sichtbar ist.
 
-- [Inhalt einrichten](#set-up-your-content)
-- [Nehmen Sie die erforderlichen Änderungen in der PDF-Vorlage vor.](#create-necessary-changes-in-pdf-template)
+- [Einrichten von Inhalten](#set-up-your-content)
+- [Nehmen Sie die erforderlichen Änderungen in der PDF-Vorlage vor](#create-necessary-changes-in-pdf-template)
 
-**Before:**
+**before:**
 
-![Vor der Behebung des Branding: Screenshot mit vordefiniertem PDF-Layout](../assets/publishing/branding-image1.png)
+![Vor der Behebung des Brandings: Screenshot mit dem Layout für vorgebrandete PDF](../assets/publishing/branding-image1.png)
 <br>
 <br>
 
-**Nach:**
+**after:**
 
-![Nach Beheben des Branding: Screenshot mit PDF-Layout nach dem Branding](../assets/publishing/branding-image2.png)
+![Nach dem Korrigieren des Brandings: Screenshot mit dem PDF-Layout nach dem Branding](../assets/publishing/branding-image2.png)
 
-## Inhalt einrichten
+## Einrichten von Inhalten
 
-Um Inhalte im PDF-Format zu veröffentlichen, müssen Sie eine Ditamap oder eine Lesekarte erstellen.
+Um Inhalte im PDF-Format zu veröffentlichen, müssen Sie eine Ditamap oder eine Bookmap erstellen.
 
-Beispielstruktur einer Lesekarte :
+Bookmap-Beispielstruktur :
 
 ```
 <bookmap>
@@ -59,7 +60,7 @@ Beispielstruktur einer Lesekarte :
 </bookmap>
 ```
 
-Ditamap-Beispielstruktur:
+Beispielstruktur für Ditamap:
 
 ```
 <map title="My map Title">
@@ -72,40 +73,40 @@ Ditamap-Beispielstruktur:
 </map>
 ```
 
-Der FrontCover von PDF wird automatisch generiert, wenn Bookmap `<frontmatter>` enthält.
+Das FrontCover von PDF wird automatisch generiert, wenn Bookmap `<frontmatter>` enthält.
 
 
-## Nehmen Sie die erforderlichen Änderungen in der PDF-Vorlage vor.
+## Nehmen Sie die erforderlichen Änderungen in der PDF-Vorlage vor
 
-In diesem Abschnitt werden wir unsere Vorlage einrichten. (Sie können die Hi-Tech-Vorlage verwenden oder duplizieren, um zu beginnen.)
+In diesem Abschnitt werden wir unsere Vorlage einrichten. (Sie können die High-Tech-Vorlage verwenden oder duplizieren, um zu beginnen.)
 
-### Einrichten der Vorlage :
+### Richten Sie Ihre Vorlage ein :
 
-- Gehen Sie zu Ihrer nativen PDF-Vorlage.
-- Gehen Sie zum Seitenlayout von FrontCover und bearbeiten Sie es.
+- Navigieren Sie zu Ihrer nativen PDF-Vorlage.
+- Öffnen Sie das Layout der Titelseite und bearbeiten Sie es.
 - Fügen Sie hier Ihr Branding-Bild in `data-region="content"` hinzu.
 - Fügen Sie bei Bedarf weitere erforderliche Änderungen in Ihrer Kapitelvorlage hinzu.
-- Gehen Sie nun entsprechend Ihrem Inhalt wie folgt vor:
+- Führen Sie nun je nach Inhalt die folgenden Schritte aus.
 
 
 #### Wenn Sie Ditamap für die PDF-Generierung verwenden:
 
-Beim Veröffentlichen eines DITAMAP bietet Native PDF die Möglichkeit, automatisch eine FrontCover-Seite zu erstellen. Die Option zur Aktivierung oder Deaktivierung der FrontCover-Seitenerstellung kann in der Vorlage Native PDF konfiguriert werden.
+Beim Veröffentlichen einer DITAMAP bietet Native PDF die Möglichkeit, automatisch eine FrontCover-Seite zu erstellen. Die Option zum Aktivieren oder Deaktivieren der Frontend-Seitenerstellung kann in der nativen PDF-Vorlage konfiguriert werden.
 
 Zusammenführen:
-- Navigieren Sie zu Ihren nativen PDF-Vorlageneinstellungen > Seitenlayoutreihenfolge .
-- Führen Sie nun FrontCover mit der nächsten Seite, d. h. Kapitel und Themen, zusammen.
-  ![Zusammenführen von FrontCover mit Kapitel: Screenshot mit Einstellungen der nativen PDF-Vorlage](../assets/publishing/branding-image3.png)
-- Vorlage speichern, Wählen Sie diese Vorlage für Ihre Vorgabe aus und veröffentlichen Sie sie!
+- Gehen Sie zu den Einstellungen Ihrer nativen PDF-Vorlage —> Seitenlayoutreihenfolge
+- Fusioniert nun FrontCover mit der nächsten Seite, d.h. Kapitel &amp; Themen.
+  ![Zusammenführen von FrontCover und Chapter: Screenshot mit nativen PDF-Vorlageneinstellungen](../assets/publishing/branding-image3.png)
+- Vorlage speichern, diese Vorlage für Voreinstellung auswählen und veröffentlichen!
 
 
-#### Wenn Sie Bookmap für die PDF-Generierung verwenden
+#### Wenn Sie Bookmap für die Erzeugung von PDF verwenden
 
-Im Fall einer Lesekarte wird die Sequenz der Seitenlayoutreihenfolge durch die Struktur der Lesekarte und nicht durch die Reihenfolge der Vorlage gesteuert.
+Bei einer Bookmap wird die Reihenfolge der Seitenlayoutreihenfolge durch die Struktur der Bookmap und nicht durch die Reihenfolge der Vorlage gesteuert.
 
-Um dies für Bookmap zu erreichen, nutzen wir die JavaScript-Funktion von NativePDF.
+Um dies für Bookmap zu erreichen, verwenden wir die JavaScript-Funktion von NativePDF.
 
-- Fügen Sie im Ressourcenordner Ihrer Vorlage unterhalb von JavaScript hinzu
+- Fügen Sie im Ressourcenordner Ihrer Vorlage unter JavaScript Folgendes hinzu
 
 ```
 window.addEventListener('DOMContentLoaded', function () {
@@ -126,22 +127,21 @@ window.addEventListener('DOMContentLoaded', function () {
 });
 ```
 
-- Schließen Sie diese JavaScript in Ihre Kapitelvorlage ein.
-  ![JavaScript in Kapitelvorlage einschließen: Screenshot mit Eintrag in PDF-Vorlage für Seitenlayout](../assets/publishing/branding-image4.png)
+- Fügen Sie diese JavaScript in Ihre Kapitelvorlage ein.
+  ![JavaScript in Kapitelvorlage einbeziehen: Screenshot, der den Eintrag in der Seitenlayout-PDF-Vorlage zeigt](../assets/publishing/branding-image4.png)
 
-- JavaScript über die Vorgabenoption aktivieren
-  ![JavaScript-Vorgabeneinstellung aktivieren: Screenshot mit Vorgabeneinstellung zur Aktivierung von JavaScript](../assets/publishing/branding-image5.png)
+- Aktivieren von JavaScript über die Option „Voreinstellung“
+  ![JavaScript-Vorgabeneinstellung aktivieren: Screenshot mit Vorgabeneinstellung zum Aktivieren von JavaScript](../assets/publishing/branding-image5.png)
 
 - Publish!
 
-## Anhänge :
+## Anlagen :
 
-- [Laden Sie das Beispielpaket für PDF-Vorlagen herunter, um die angewendeten Änderungen anzuzeigen.](../assets/publishing/NativePDF_DemoTemplate.zip)
-- [Laden Sie das PDF-Vorgabenpaket herunter, um die angewendeten Änderungen anzuzeigen.](../assets/publishing/Preset_Package.zip)
+- [Laden Sie das Beispiel-PDF-Vorlagenpaket herunter, um die angewendeten Änderungen anzuzeigen.](../assets/publishing/NativePDF_DemoTemplate.zip)
+- [Laden Sie das Beispiel-PDF-Vorgabenpaket herunter, um die angewendeten Änderungen anzuzeigen.](../assets/publishing/Preset_Package.zip)
 
 
 ## Weitere Ressourcen:
 
-- [Einbinden von DITA Bookmap-Token in PDF](./how-to-include-bookmap-toc-in-pdf-publishing.md)
-- [Video einer Expertensitzung zum nativen PDF](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
-
+- [Einbinden des Inhaltsverzeichnisses von DITA Bookmap in PDF](./how-to-include-bookmap-toc-in-pdf-publishing.md)
+- [Expertenvideo auf nativem PDF](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)

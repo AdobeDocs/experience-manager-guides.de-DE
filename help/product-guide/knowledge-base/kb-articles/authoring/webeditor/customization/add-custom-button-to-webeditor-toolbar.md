@@ -1,6 +1,6 @@
 ---
-title: Fügen Sie eine neue, benutzerdefiniert umsetzbare Schaltfläche in der Web-Beditor-Symbolleiste hinzu.
-description: Erfahren Sie, wie Sie eine neue benutzerdefinierte Schaltfläche in der WebBeditor-Symbolleiste hinzufügen und JavaScript aufrufen, um sie benutzerdefiniert zu bedienen.
+title: Neue benutzerdefinierte ausführbare Schaltfläche in der Web-Editor-Symbolleiste hinzufügen
+description: Erfahren Sie, wie Sie eine neue benutzerdefinierte Schaltfläche in der Web-Editor-Symbolleiste hinzufügen und JavaScript aufrufen, um sie benutzerdefiniert zu bedienen.
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
 feature: Web Editor
 role: User, Admin
@@ -11,41 +11,41 @@ ht-degree: 0%
 
 ---
 
-# Fügen Sie eine neue, benutzerdefiniert umsetzbare Schaltfläche in der Web-Beditor-Symbolleiste hinzu.
+# Neue benutzerdefinierte ausführbare Schaltfläche in der Web-Editor-Symbolleiste hinzufügen
 
-In diesem Artikel erfahren wir, wie Sie eine neue benutzerdefinierte Schaltfläche in der WebBeditor-Symbolleiste hinzufügen und JavaScript aufrufen, um den gewünschten benutzerdefinierten Vorgang auszuführen.
+In diesem Artikel erfahren Sie, wie Sie eine neue benutzerdefinierte Schaltfläche in der Web-Editor-Symbolleiste hinzufügen und JavaScript aufrufen, um den gewünschten benutzerdefinierten Vorgang auszuführen.
 
-Das Hinzufügen einer umsetzbaren Schaltfläche zum Webserver umfasst die folgenden Schritte:
+Das Hinzufügen einer ausführbaren Schaltfläche zum Web-Editor umfasst die folgenden Schritte:
 - Hinzufügen der Schaltfläche in der Datei *ui_config.json* an der Stelle, an der sie benötigt wird
-- Registrieren des Klick-Ereignis auf der Schaltfläche im Webserver, damit der Benutzer beim Klicken eine Aktion ausführen kann
+- Registrieren des Klickereignisses für die Schaltfläche im Web-Editor, damit Benutzer beim Klicken eine Aktion ausführen können
 
 
-## Implementieren anhand eines Beispiels
+## Beispielhafte Implementierung
 
-Sehen wir uns dazu ein Beispiel an, in dem ein Autor einen Jira-Verweis zu einem Themenprologabschnitt hinzufügen möchte. Der Prologabschnitt mit eingebetteter jira reference-id kann wie folgt aussehen:
-
-![Prologabschnitt mit JIRA-ID-Referenz](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
-
-Das Element &quot;change-request-id&quot;, das die JIRA-ID enthält, sollte aus der API abgerufen werden (beispielsweise basierend auf einer bestimmten JIRA-Abfrage, die von der Anwendung dargestellt wird). Wenn der Benutzer den Prologabschnitt bearbeitet, sollte der Benutzer auf eine Schaltfläche klicken und eine jira-Referenz-ID aus der Symbolleiste des Web-Editors einfügen können, z. B.:
-
-![Prolog-Abschnitt - JIRA-Referenz hinzufügen](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png)
-
-Wenn der Benutzer auf die Schaltfläche klickt, sollte ein Dialogfeld angezeigt werden, in dem die möglichen Optionen abgerufen werden und der Benutzer die gewünschte JIRA-ID auswählen kann, z. B.:
-
-![Prologue-Abschnitt JIRA-ID-Dialogfeld hinzufügen](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
-
-, das dann die &quot;change-request-id&quot;zum Prolog hinzufügen sollte:
+Lassen Sie uns dies anhand eines Beispiels verstehen, bei dem ein Autor einen Jira-Verweis zu einem Thema-Prolog-Abschnitt hinzufügen möchte. Der Prologabschnitt mit der eingebetteten Jira-Referenz-ID kann wie folgt aussehen:
 
 ![Prologabschnitt mit JIRA-ID-Referenz](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
 
+Das Element „change-request-id“, das die JIRA-ID enthält, sollte von der API abgerufen werden (beispielsweise auf der Grundlage einer bestimmten JIRA-Abfrage, die von der Anwendung dargestellt wird). Wenn der Benutzer den Abschnitt prolog erstellt, sollte er auf eine Schaltfläche klicken und eine Jira-Referenz-ID aus der Symbolleiste des Web-Editors einfügen können, z. B.:
+
+![Abschnitt „Prolog“ - JIRA-Referenz hinzufügen](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png)
+
+Wenn der Benutzer auf die Schaltfläche klickt, sollte ein Dialogfeld angezeigt werden, in dem die möglichen Optionen abgerufen werden können und der Benutzer die gewünschte JIRA-ID auswählen kann, z. B.:
+
+![Dialogfeld zum Hinzufügen der JIRA-ID im Prologabschnitt](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
+
+die dann die „change-request-id“ zum Prolog hinzufügen sollte:
+
+![Prologabschnitt mit JIRA-ID-Referenz](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
 
 
-## Implementieren
+
+## Implementieren von
 
 
-### Fügen Sie die Schaltfläche im Webserver hinzu, indem Sie sie in *ui_config.json* konfigurieren.
+### Fügen Sie die Schaltfläche im Web-Editor hinzu, indem Sie sie in &quot;*_config.json“*
 
-Verwenden Sie die Ordnerprofile, um die *ui_config.json* auf der Registerkarte &quot;XML Editor Configuration&quot;zu überprüfen und die Schaltflächenkonfiguration JSON zum gewünschten Abschnitt der Gruppe &quot;toolbar&quot;hinzuzufügen.
+Überprüfen Sie mithilfe der Ordnerprofile *ui_config.json* auf der Registerkarte „XML-Editor-Konfiguration“ und fügen Sie die JSON-Schaltflächenkonfiguration zum gewünschten Abschnitt der Gruppe „Symbolleiste“ hinzu
 
 ```
 {
@@ -57,35 +57,35 @@ Verwenden Sie die Ordnerprofile, um die *ui_config.json* auf der Registerkarte &
 }
 ```
 
-[Verwenden Sie diesen Link, um mehr über das Ordnerprofil zu erfahren und ui_config.json zu konfigurieren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[Verwenden Sie diesen Link, um mehr über das Ordnerprofil und die Konfiguration von ui_config.json zu erfahren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
-### Verarbeiten des On-Click-Ereignisses für die neue Schaltfläche
+### Verarbeiten des Klickereignisses für die neue Schaltfläche
 
-    HINWEIS: Die unten erwähnten Schritte sind als in diesem Beitrag angehängtes Paket verfügbar
+    HINWEIS: Die unten genannten Schritte sind als Paket in diesem Beitrag verfügbar
 
 
-- Erstellen Sie nach dem Speichern des Ordnerprofils einen &quot;cq:ClientLibraryFolder&quot;in einem Projektverzeichnis (möglicherweise unter */apps*) und fügen Sie Eigenschaften hinzu, wie im folgenden Screenshot gezeigt:
-  ![Client-Bibliothekseinstellungen für WebBeditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+- Erstellen Sie nach dem Speichern des Ordnerprofils einen „cq:ClientLibraryFolder“ unter einem Projektverzeichnis (möglicherweise unter */apps*) und fügen Sie Eigenschaften hinzu, wie im folgenden Screenshot gezeigt:
+  ![Client-Bibliothekseinstellungen für WebEditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.
 You may use different library of your choice.
 ```
 
-- Erstellen Sie unter diesem Client-Bibliotheksordner zwei Dateien, wie unten erwähnt:
-   - *overrides.js*: , der über den JavaScript-Code verfügt, der das On-Click-Ereignis für &quot;insertJIRARef&quot;verarbeitet (verwenden Sie das angehängte Paket, um den Inhalt dieses JavaScripts zu erhalten)
-   - *js.txt*: enthält die Datei &quot;overrides.js&quot;, um dieses JavaScript zu aktivieren
+- Erstellen Sie unter diesem Client-Bibliotheksordner zwei Dateien wie unten erwähnt:
+   - *overrides.js*: enthält den JavaScript-Code für das On-Click-Ereignis für „insertJIRARef“ (verwendet das angehängte Paket, um den Inhalt dieses JavaScripts abzurufen)
+   - *js.txt*: enthält „overrides.js“, um dieses JavaScript zu aktivieren
 
-- Speichern Sie die Änderungen und Sie sollten bereit zum Testen sein.
+- Speichern Sie die Änderungen, und Sie sollten bereit zum Testen sein.
 
 
 ### Testen
 
-- Öffnen Sie den Web-Editor
-- Wählen Sie in den Benutzereinstellungen das Ordnerprofil aus, in dem Sie die benutzerdefinierte Datei *ui_config.json* hinzugefügt haben. Wenn Sie es zum Profil Global hinzugefügt haben, verwenden Sie es wahrscheinlich bereits.
-- Öffnen Sie ein Thema. Sie werden feststellen, dass die Symbolleiste über eine neue Schaltfläche &quot;Jira-Referenz einfügen&quot;verfügt.
-- Sie können dann den Prologabschnitt wie unten angegeben zum Thema hinzufügen und versuchen, auf die Schaltfläche &quot;Jira-Referenz einfügen&quot;im Prologelement &quot;change-request-reference&quot;zu klicken
+- Web-Editor öffnen
+- Wählen Sie in den Benutzereinstellungen den Profilordner aus, dem Sie die benutzerdefinierte Datei *ui_config.json“ hinzugefügt*. Wenn Sie es zum globalen Profil hinzugefügt haben, verwenden Sie es wahrscheinlich bereits.
+- Öffnen Sie ein Thema, Sie werden feststellen, dass die Symbolleiste eine neue Schaltfläche „Jira-Referenz einfügen“ hat
+- Sie können dann einen Prologabschnitt wie unten angegeben zum Thema hinzufügen und versuchen, auf die Schaltfläche „Jira-Referenz einfügen“ innerhalb des Prologelements „change-request-reference“ zu klicken
 
 ```
 <prolog>
@@ -100,15 +100,15 @@ You may use different library of your choice.
 </prolog>
 ```
 
-Im folgenden Screenshot erfahren Sie, wie er aussehen wird:
+Siehe Screenshot unten, um zu erfahren, wie es aussehen wird:
 
-![Testen der neuen Schaltfläche](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
+![Neue Schaltfläche testen](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
 
 
 ### Anhänge
 
-- Beispiel-clientlibs-Paket, das die Webserver-Client-Bibliothek mit JavaScript-Code für die Symbolleisten-Schaltflächenaktion installiert: [Download mit diesem Link](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
-- Beispiel *ui_config.json* , das Sie in ein Ordnerprofil hochladen können: [Download-Beispiel ui_config.json](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json)
+- clientlibs-Beispielpaket, das die WebEditor-Client-Bibliothek mit JavaScript-Code für die Symbolleistenschaltflächen-Aktion installiert: [Laden Sie über diesen Link herunter](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
+- Beispiel *ui_config.json*, das Sie in einen Profilordner hochladen können: [Beispieldatei ui_config.json herunterladen](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json)
 
 ```
 Please note this is compatible to AEM 6.5 and AEM Guides version 4.2.

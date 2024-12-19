@@ -1,6 +1,6 @@
 ---
-title: Native PDF Publish-Funktion | Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil
-description: Erfahren Sie, wie Sie Stile für Ihren Inhalt erstellen und Stile erstellen.
+title: Native PDF Publish-Funktion | Verwenden von JavaScript zum Arbeiten mit Inhalten oder Stilen
+description: Erfahren Sie, wie Sie Stylesheets erstellen, verwenden und Stile für Ihre Inhalte erstellen.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
@@ -12,29 +12,29 @@ ht-degree: 1%
 
 ---
 
-# Verwenden von JavaScript zum Arbeiten mit Inhalt oder Stil
+# Verwenden von JavaScript zum Arbeiten mit Inhalten oder Stilen
 
-Mit der nativen PDF-Veröffentlichungsfunktion können Sie JavaScript ausführen, um Inhalte oder Stile zu bearbeiten, die auf Inhalte angewendet werden, bevor die endgültige PDF generiert wird. Diese Funktion gibt Ihnen die vollständige Kontrolle darüber, wie Ihre endgültige Ausgabe generiert wird. Beispielsweise können Sie der PDF-Ausgabe, die sich in einer anderen PDF befindet, rechtliche Hinweise hinzufügen. Mit JavaScript können Sie die rechtlichen Hinweise hinzufügen, sobald die PDF für den Basisinhalt erstellt wurde, aber bevor die endgültige PDF generiert wird.\
-Um die Ausführung von JavaScript zu unterstützen, bietet Ihnen die Funktion Native PDF Publishing die folgenden Callback-Funktionen:
+Mit der nativen PDF-Veröffentlichungsfunktion können Sie JavaScript ausführen, um Ihre Inhalte oder Ihren Stil, die auf Inhalte angewendet werden, zu bearbeiten, bevor die endgültige PDF generiert wird. Mit dieser Funktion haben Sie die vollständige Kontrolle darüber, wie Ihre endgültige Ausgabe generiert wird. Sie können beispielsweise Informationen zu rechtlichen Hinweisen zur PDF-Ausgabe hinzufügen, die sich auf einer anderen PDF befindet. Mit JavaScript können Sie die Informationen zum rechtlichen Hinweis hinzufügen, sobald die PDF für den Basisinhalt erstellt wurde, jedoch bevor die endgültige PDF generiert wird.\
+Um die Ausführung von JavaScript zu unterstützen, bietet die native PDF-Publishing-Funktion die folgenden Rückruffunktionen:
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`: Diese Rückruffunktion wird ausgeführt, bevor das Inhaltsverzeichnis generiert wird.
-* `window.pdfLayout.onBeforePagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis generiert wurde, aber bevor Seitenumbrüche zum PDF hinzugefügt werden.
-* `window.pdfLayout.onAfterPagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis und die Seitenumbrüche im PDF hinzugefügt wurden.
+* `window.pdfLayout.onBeforePagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis generiert wurde, jedoch bevor Seitenumbrüche auf der PDF hinzugefügt werden.
+* `window.pdfLayout.onAfterPagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis und die Seitenumbrüche auf der PDF hinzugefügt wurden.
 
 >[!NOTE]
 >
->Intern wird eine Ausführungssequenz für diese Aufruffunktionen beibehalten. Zunächst wird onBeforeCreateTOC, dann onBeforePagination und schließlich onAfterPagination ausgeführt.
+>Intern wird für diese Callout-Funktionen ein Ausführungsablauf beibehalten. Zuerst wird onBeforeCreateTOC ausgeführt, dann onBeforePagination und schließlich onAfterPagination.
 
-Je nach Art der Inhalts- oder Stiländerung, die Sie durchführen möchten, können Sie auswählen, welche Callback-Funktion verwendet werden soll. Wenn Sie beispielsweise Inhalte hinzufügen möchten, wird empfohlen, dies vor der Erstellung des Inhaltsverzeichnisses durchzuführen. Wenn Sie Stilaktualisierungen vornehmen möchten, können diese entweder vor oder nach der Paginierung durchgeführt werden.
+Je nach Typ des Inhalts oder der Stiländerung, den bzw. die Sie durchführen möchten, können Sie auswählen, welche Callback-Funktion verwendet werden soll. Wenn Sie beispielsweise Inhalte hinzufügen möchten, wird empfohlen, dies zu tun, bevor das Inhaltsverzeichnis generiert wird. Wenn Sie einige Stilaktualisierungen vornehmen möchten, können diese entweder vor oder nach der Paginierung vorgenommen werden.
 
-Im folgenden Beispiel wird die Position der Titel der Abbildung von über den Bildern in unterhalb der Bilder geändert. Dazu müssen Sie in der Vorgabe die Option JavaScript-Ausführung aktivieren. Führen Sie dazu die folgenden Schritte aus:
+Im folgenden Beispiel wird die Position der Abbildtitel von über den Bildern zu unter den Bildern geändert. Dazu müssen Sie die JavaScript-Ausführungsoption in der Voreinstellung aktivieren. Führen Sie dazu die folgenden Schritte aus:
 
-1. Öffnen Sie die Vorgabe zur Bearbeitung.
-1. Gehen Sie zur Registerkarte **Erweitert** .
+1. Öffnen Sie die Voreinstellung zur Bearbeitung.
+1. Wechseln Sie zur Registerkarte **Erweitert**.
 1. Wählen Sie die Option **JavaScript aktivieren** aus.
-1. Speichern und schließen Sie die Vorgabe.
+1. Speichern Sie die Voreinstellung und schließen Sie sie.
 
-Erstellen Sie anschließend eine JavaScript-Datei mit folgendem Code und speichern Sie sie im Ordner Ressourcen Ihrer Vorlage:
+Erstellen Sie anschließend eine JavaScript-Datei mit folgendem Code und speichern Sie sie im Ordner „Ressourcen“ Ihrer Vorlage:
 
 ```css
 ...
@@ -63,20 +63,20 @@ window.addEventListener('DOMContentLoaded', function () {
 
 >[!NOTE]
 >
->Die Funktion `window.addEventListener('DOMContentLoaded', function ()` muss aufgerufen werden, bevor die Callback-Funktionen verwendet werden.
+>Die `window.addEventListener('DOMContentLoaded', function ()` muss aufgerufen werden, bevor die Callback-Funktionen verwendet werden.
 
-Als Nächstes muss dieses Skript aus einer Vorlagendatei aufgerufen werden, die zum Generieren der PDF-Ausgabe verwendet wird. Für unser Beispiel fügen wir es der TOC-Vorlage hinzu. Stellen Sie sicher, dass das Tag `<script>` innerhalb eines vordefinierten `<div>` -Tags innerhalb des Tags `<body>` hinzugefügt wird. Wenn Sie sie im Tag `<head>` oder außerhalb des Tags `<body>` hinzufügen, wird das Skript nicht ausgeführt.
+Als Nächstes muss dieses Script aus einer Vorlagendatei aufgerufen werden, die zur Erzeugung der PDF-Ausgabe verwendet wird. In unserem Beispiel fügen wir es der Inhaltsverzeichnisvorlage hinzu. Stellen Sie sicher, dass das `<script>`-Tag innerhalb eines vordefinierten `<div>`-Tags im `<body>`-Tag hinzugefügt wird. Wenn Sie es im `<head>`-Tag oder außerhalb des `<body>`-Tags hinzufügen, wird das Skript nicht ausgeführt.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
-Die mithilfe dieses Codes generierte Ausgabe und die Vorlage zeigt den Titel der Abbildung unter dem Bild an:
+Die mit diesem Code generierte Ausgabe und die Vorlage zeigen den Abbildtitel unter dem Bild an:
 
 <img src="./assets/fig-title-below-image.png" width="500">
 
 ## Hinzufügen eines Wasserzeichens zur PDF-Ausgabe für Entwurfsdokumente {#watermark-draft-document}
 
 Sie können JavaScript auch verwenden, um bedingte Wasserzeichen hinzuzufügen. Diese Wasserzeichen werden Ihrem Dokument hinzugefügt, wenn die definierte Bedingung erfüllt ist.\
-Sie können beispielsweise eine JavaScript-Datei mit folgendem Code erstellen, um ein Wasserzeichen für die PDF-Ausgabe des Dokuments zu erstellen, das noch nicht genehmigt wurde. Dieses Wasserzeichen wird nicht angezeigt, wenn Sie die PDF für das Dokument im Dokumentstatus &quot;Genehmigt&quot;generieren.
+Sie können beispielsweise eine JavaScript-Datei mit folgendem Code erstellen, um ein Wasserzeichen für die PDF-Ausgabe des noch nicht genehmigten Dokuments zu erstellen. Dieses Wasserzeichen wird nicht angezeigt, wenn Sie die PDF für das Dokument im Dokumentstatus „Genehmigt“ generieren.
 
 ```css
 ...

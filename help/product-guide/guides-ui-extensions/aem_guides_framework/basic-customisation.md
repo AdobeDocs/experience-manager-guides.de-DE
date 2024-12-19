@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Anpassen der App
 
-## Verfügbare Funktionen im Erweiterungs-Framework
+## Funktionalität im Erweiterungs-Framework verfügbar gemacht
 
-Wir haben eine Reihe von Funktionen und Gettern unter einem `proxy` bereitgestellt, die für den Zugriff auf Daten, Konfigurationen und Trigger-Ereignisse verwendet werden können. Unten finden Sie eine Liste und wie Sie darauf zugreifen können.
+Wir haben eine Reihe von Funktionen und Gettern unter einem `proxy` verfügbar gemacht, mit dem auf Daten-, Konfigurations- und Trigger-Ereignisse zugegriffen werden kann. Nachstehend finden Sie eine Liste und wie Sie darauf zugreifen können.
 
 ```typescript
 interface EventData {
@@ -42,11 +42,11 @@ interface EventData {
 * args //getter
 ```
 
-Unsere App folgt einer MVC-Struktur (Modell, Ansicht, Controller)
+Unsere App folgt einer MVC-Struktur (Model, View, Controller)
 
 ## Modell
 
-Das Modell definiert die verschiedenen Attribute und speichert deren Werte. Auf die Werte der verschiedenen im Modell gespeicherten Attribute kann vom Controller mithilfe der Syntax zugegriffen werden
+Das Modell definiert die verschiedenen Attribute und speichert deren Werte. Die Werte der verschiedenen im Modell gespeicherten Attribute können vom Controller aus über die Syntax aufgerufen werden
 
 ```typescript
 this.getValue('attributeName')
@@ -60,7 +60,7 @@ Um ein neues Attribut im Modell festzulegen, verwenden wir die folgende Syntax i
 this.setValue('key', value)
 ```
 
-Um auf ein Attribut zuzugreifen, das dem Modell hinzugefügt wurde, verwenden wir die folgende Syntax:
+Um auf ein zum Modell hinzugefügtes Attribut zuzugreifen, verwenden wir die folgende Syntax:
 
 ```typescript
 const value = this.getValue("key")
@@ -68,15 +68,15 @@ const value = this.getValue("key")
 
 ## Anzeigen
 
-Die Ansicht definiert die Benutzeroberfläche der App. Wir verwenden JSON-Dateien, um die Ansicht unserer Dateien zu definieren. In unserem Beispiel definieren wir die Komponenten, den CSS (wie in der Extraklasse der Komponenten angegeben) und rendern die im Modell gespeicherten Werte.
-In unserer App wird jede Ansicht mithilfe einer JSON definiert. Auf die JSONs wird mit ihren eindeutigen IDs, die als `id` bezeichnet werden, verwiesen.
+Die Ansicht definiert die Benutzeroberfläche der App. Wir verwenden JSON-Dateien, um die Ansicht unserer Dateien zu definieren. Hier definieren wir die Komponenten, das CSS (wie in der zusätzlichen Klasse der Komponenten angegeben) und rendern die im Modell gespeicherten Werte.
+In unserer App wird jede Ansicht mithilfe einer JSON-Datei definiert. Auf die JSONs wird unter Verwendung ihrer eindeutigen IDs verwiesen, die als `id` bezeichnet werden.
 
 ## Controller
 
-Der Controller wird verwendet, um Ereignisse zu verarbeiten und die Daten zu verarbeiten. Der Controller wird verwendet, um Daten vom Server abzurufen und zu senden. Es ist die Schnittstelle zwischen dem, was auf der Benutzeroberfläche angezeigt und im Backend gespeichert wird.
+Der Controller dient zur Verarbeitung von Ereignissen und zur Verarbeitung der Daten. Der Controller dient zum Abrufen und Senden von Daten vom Server und ist die Schnittstelle zwischen dem, was auf der Benutzeroberfläche angezeigt und auf dem Backend gespeichert wird.
 
 - Zum Festlegen von Werten bei der Initialisierung verwenden wir die Funktion `init` .
-- Um eine Methode zum Controller hinzuzufügen, verwenden wir die folgende Syntax:
+- Um dem Controller eine Methode hinzuzufügen, verwenden wir die folgende Syntax:
 
 ```typescript
 methodName: function(args){
@@ -84,7 +84,7 @@ methodName: function(args){
 }
 ```
 
-Die `methodName` dient hier als `key`, um auf die Methode in der JSON (Ansicht) oder in anderen Funktionen zu verweisen
+Der `methodName` dient hier als `key`, um auf die Methode in der JSON-Ansicht (View) oder in anderen Funktionen zu verweisen
 
 - Um eine Methode im Controller aufzurufen, verwenden wir die Syntax
 
@@ -94,13 +94,13 @@ this.next('methodName', args)
 
 ## Beispiel
 
-Verwenden wir nun ein einfaches Beispiel, um zu zeigen, wie diese drei Komponenten miteinander interagieren.
-Wir fügen eine Schaltfläche hinzu, mit der der Beschriftungswert eines Klicks geändert wird.
+Lassen Sie uns nun anhand eines einfachen Beispiels zeigen, wie diese drei Komponenten miteinander interagieren.
+Wir fügen eine Schaltfläche hinzu, die den Beschriftungswert bei einem Klick ändert
 
 ### Beispiel anzeigen
 
-Unten definieren wir die JSON für eine Schaltfläche, die einen dynamischen Text anzeigt, der im Modell unter dem Variablennamen `buttonLabel` gespeichert ist.
-In diesem Beispiel ändert sich der Titel der Schaltfläche.
+Im Folgenden definieren wir die JSON für eine Schaltfläche, die einen dynamischen Text anzeigt, der im Modell unter dem Variablennamen `buttonLabel` gespeichert ist.
+In diesem Beispiel wird durch Klicken auf die Schaltfläche die Bezeichnung geändert.
 
 ```JSON
 {
@@ -111,11 +111,11 @@ In diesem Beispiel ändert sich der Titel der Schaltfläche.
 }
 ```
 
-### Modellbeispiel
+### Beispielmodell
 
-In diesem Fall enthält `extraProps.buttonLabel` den Titel der Schaltfläche
+In diesem Fall enthält `extraProps.buttonLabel` die Beschriftung der Schaltfläche
 
-### Controller-Beispiel
+### Beispiel für einen Controller
 
 ```typescript
   controller: {
@@ -130,13 +130,13 @@ In diesem Fall enthält `extraProps.buttonLabel` den Titel der Schaltfläche
   }
 ```
 
-Unter GIF wird der oben stehende Code in Aktion angezeigt.
-![basic_customization](imgs/basic_customisation.gif "Schaltfläche &quot;Grundlegende Anpassung&quot;")
+Die folgende GIF zeigt den obigen Code in Aktion
+![basic_customization](imgs/basic_customisation.gif "Basic customization-Schaltfläche")
 
 
 ### Konfigurationsbeispiel anzeigen
 
-In diesem Fall greifen wir mithilfe von `viewConfig` auf das Suchmodusereignis zu und führen einen Trigger durch, um es zu aktualisieren
+In diesem Fall greifen wir mithilfe von `viewConfig` auf das Suchmodusereignis zu und erstellen einen Trigger, um es zu aktualisieren
 
 ```typescript
   { 
@@ -150,9 +150,9 @@ In diesem Fall greifen wir mithilfe von `viewConfig` auf das Suchmodusereignis z
   }
 ```
 
-### Beispiel abonnieren
+### Abonnieren - Beispiel
 
-In diesem Fall wird das Abonnement für den Dateinamen zum Konsolenprotokoll hinzugefügt, wenn die Option zum Umbenennen der Datei angeklickt wird.
+In diesem Fall fügen wir ein Abonnement unter „Datei umbenennen“ zum Konsolenprotokoll hinzu, wenn die Option „Datei umbenennen“ angeklickt wird
 
 ```typescript
   { 
@@ -168,9 +168,9 @@ In diesem Fall wird das Abonnement für den Dateinamen zum Konsolenprotokoll hin
   }
 ```
 
-### Beispiel für ein App-Ereignis abonnieren
+### Anwendungsereignis-Beispiel abonnieren
 
-In diesem Fall protokollieren wir die Konsole über das geänderte aktive Dokument (Registerkarten in der Editor-Benutzeroberfläche ändern)
+In diesem Fall wurde die Anmeldung am aktiven Dokument der Konsole geändert (Registerkarten in der Editor-Benutzeroberfläche werden geändert)
 
 ```typescript
   { 
@@ -186,9 +186,9 @@ In diesem Fall protokollieren wir die Konsole über das geänderte aktive Dokume
   }
 ```
 
-### Beispiel für App-Modellereignisse abonnieren
+### Anwendungsmodellereignisse abonnieren - Beispiel
 
-Beispiel für das Abonnieren von App-Modellereignissen wie `app.mode`
+Beispiel für das Abonnieren von Mobile-App-Modellereignissen wie `app.mode`
 
 ```typescript
   { 
@@ -205,7 +205,7 @@ Beispiel für das Abonnieren von App-Modellereignissen wie `app.mode`
 
 ### Beispiel für übergeordnete Controller-Ereignisse
 
-In diesem Beispiel fügen wir ein Abonnement für das `tabChange`-Ereignis hinzu, das ein Ereignis des `left_panel_container`-Controllers ist, der handelt
+In diesem fügen wir ein Abonnement für `tabChange` Ereignis hinzu, das ein Ereignis `left_panel_container` Controllers ist, der agiert
 als übergeordneter Controller für `repository_panel`
 
 ```typescript
@@ -227,7 +227,7 @@ als übergeordneter Controller für `repository_panel`
 
 ### App-Modell und App-Controller als Nächstes
 
-Sie können direkt ausgelöst werden, indem Sie wissen, dass das richtige Ereignis ausgelöst wird und die zugehörigen Daten
+Sie können direkt ausgelöst werden, wenn Sie wissen, welches Ereignis ausgelöst werden soll und welche Daten es enthält
 
 ```typescript
   { 

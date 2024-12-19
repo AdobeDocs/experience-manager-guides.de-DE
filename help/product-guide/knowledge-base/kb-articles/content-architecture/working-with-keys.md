@@ -1,6 +1,6 @@
 ---
 title: Arbeiten mit Schlüsseln
-description: Erstellen von Schlüsseln zur Verwendung in unternehmensübergreifenden Inhalten
+description: Erstellen von Schlüsseln zur Verwendung in allen Unternehmensinhalten
 role: Admin
 exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 feature: Use Keys in AEM Guides
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Schlüssel erstellen
 
-Unternehmen sollten Schlüssel verwenden, wenn sie einen wiederverwendbaren und gemeinsamen Text haben, wie Produktname oder Produktplatzierung, der an vielen Stellen verwendet wird, sich aber ändern kann. Durch die Verwendung von Schlüsseln für diesen wiederverwendbaren Text können Sie eine Aktualisierung an mehreren Stellen senden, indem Sie die Änderung an einer einzigen Stelle vornehmen, z. B. im Schlüsselwert.
+Unternehmen sollten Schlüssel in Fällen verwenden, in denen sie wiederverwendbaren und gemeinsamen Text haben, z. B. Produktname oder Produktpräsentation, der an vielen Stellen verwendet wird, aber zu Änderungen neigt. Durch die Verwendung von Schlüsseln für diesen wiederverwendbaren Text können Sie eine Aktualisierung an mehreren Stellen pushen, indem Sie die Änderung an einer einzigen Stelle vornehmen, z. B. im Schlüsselwert.
 
-## Schritt 1: Erstellen einer globalen Zuordnung zum Speichern Ihrer Schlüssel
+## Schritt 1: Erstellen Sie eine globale Zuordnung zum Speichern Ihrer Schlüssel
 
-Erstellen Sie eine Zuordnung und fügen Sie ihr das Element [!UICONTROL keyref] hinzu.
+Erstellen Sie eine Zuordnung und fügen Sie das [!UICONTROL keyRef]-Element hinzu.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,9 +37,9 @@ Erstellen Sie eine Zuordnung und fügen Sie ihr das Element [!UICONTROL keyref] 
 </map>
 ```
 
-Hier haben Sie, wie oben gezeigt, zwei Definitionen definiert, die [!UICONTROL keyref] als _AEM_ für den Text _Adobe Experience Manager_ angegeben haben.
+Hier haben Sie, wie oben gezeigt, zwei Definitionen definiert und eine [!UICONTROL keyRef] als _AEM_ für den Text _Adobe Experience Manager_ bereitgestellt.
 
-## Schritt 2: Hinzufügen dieser Karte zu Ihrer Veröffentlichungskarte
+## Schritt 2: Diese Karte zur Veröffentlichungszuordnung hinzufügen
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -53,12 +53,12 @@ Hier haben Sie, wie oben gezeigt, zwei Definitionen definiert, die [!UICONTROL k
 </map>
 ```
 
-## Schritt 3: Verwenden Sie die Schlüssel, um auf die in der globalen Schlüsselzuordnung definierten Variablen zu verweisen.
+## Schritt 3: Verwenden Sie die Schlüssel, um auf die in der globalen Schlüsselzuordnung definierten Variablen zu verweisen
 
-+ Bearbeiten Sie das Thema und fügen Sie den Schlüsselwert mithilfe von [!UICONTROL keyref] hinzu.
-+ Wie im Screenshot gezeigt, wird ein kleines Fenster angezeigt, in dem Keywords ausgewählt werden können. Dies wird angezeigt, wenn Sie das Element &quot;keyword&quot;hinzufügen.
++ Bearbeiten Sie das Thema und fügen Sie den Schlüsselwert mit der [!UICONTROL keyref] hinzu.
++ Wie im Screenshot gezeigt, wird ein kleines Fenster angezeigt, in dem Schlüsselwörter ausgewählt werden können. Dies wird angezeigt, wenn Sie das Element „keyword“ hinzufügen.
   ![Element einfügen](assets/insert_element.png)
-  ![key ref](assets/key_ref.png)
+  ![Schlüssel-REF](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

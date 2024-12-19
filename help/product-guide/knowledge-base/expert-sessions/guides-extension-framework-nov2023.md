@@ -1,6 +1,6 @@
 ---
-title: Erweiterungs-Framework von AEM Guides - Anpassen der Web-Editor- und Überprüfungs-Benutzeroberfläche
-description: Mit dem Framework für die Guides-Erweiterung können Sie die gewünschten Abschnitte der Review-Benutzeroberfläche oder des Web-Editors anpassen, indem Sie einfach zu aktualisierende JSON-, CSS- und JavaScript-Dateien verwenden.
+title: Erweiterungs-Framework von AEM Guides - Anpassen des Web-Editors und der Überprüfungsbenutzeroberfläche
+description: Mit dem Erweiterungs-Framework Guides können Sie die gewünschten Abschnitte der Review-Benutzeroberfläche oder des Web-Editors anpassen, indem Sie einfach zu aktualisierende JSON-, CSS- und JavaScript-Dateien verwenden.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -11,11 +11,11 @@ ht-degree: 1%
 
 ---
 
-# Erweiterungs-Framework von AEM Guides: Anpassen der Web-Editor- und Überprüfungs-Benutzeroberfläche
+# Erweiterungs-Framework von AEM Guides: Anpassen des Web-Editors und der Überprüfungs-Benutzeroberfläche
 
-Bei der Arbeit in einem System ist es üblich, dass Unternehmen/Benutzer benutzerdefinierte Schaltflächen, Aktionen oder Informationen zur Erfüllung ihrer Vorgänge und zur Verbesserung ihrer Produktivität wünschen. Das Extension Framework bietet die Möglichkeit, benutzerdefinierte Pakete über AEM Guides zu erstellen, um die Benutzeroberfläche und ihr Verhalten zu erweitern. Diese benutzerdefinierten Pakete sind für Entwickler und Berater nützlich, um ihnen Erweiterbarkeit für die Komponenten in der Editor-/Überprüfungs-Benutzeroberfläche zu gewähren. Sie können Schaltflächen, Dialogfelder und Dropdown-Menüs auswählen und benutzerdefinierte JavaScript hinzufügen, die einfach mit der AEM Guides-Benutzeroberfläche interagieren können.
+Bei der Arbeit in einem System ist es üblich, dass Unternehmen/Anwender benutzerdefinierte Schaltflächen, Aktionen oder Informationen anzeigen möchten, um ihre Abläufe zu erfüllen und ihre Produktivität zu verbessern. Das Erweiterungs-Framework bietet die Möglichkeit, benutzerdefinierte Pakete zusätzlich zu AEM Guides zu erstellen, um die Benutzeroberfläche und ihr Verhalten zu erweitern. Diese benutzerdefinierten Pakete sind für Entwickler und Berater nützlich, um ihnen Erweiterbarkeit für die Komponenten in der Editor-/Prüfungsbenutzeroberfläche zu bieten. Sie können Schaltflächen, Dialogfelder und Dropdown-Listen auswählen und benutzerdefinierte JavaScript hinzufügen, die einfach mit der AEM Guides-Benutzeroberfläche interagieren können.
 
-In dieser Sitzung erfahren Sie mithilfe praktischer Szenarien, wie Sie die Benutzeroberfläche von AEM Guides für Review und Webeditor anpassen oder erweitern.
+In dieser Sitzung erfahren Sie anhand praktischer Szenarien, wie Sie die Benutzeroberfläche des Web-Editors von AEM Guides anpassen oder erweitern können.
 
 ## Sitzungsaufzeichnung
 
@@ -30,38 +30,38 @@ In dieser Sitzung erfahren Sie mithilfe praktischer Szenarien, wie Sie die Benut
 
 ## Haupterkenntnisse
 
-In dieser Sitzung erfahren Sie mehr über Folgendes:
-- Erfahren Sie, welche Schnittstellen mit diesem Erweiterungs-Framework erweitert werden können.
-- Grundlegendes zu den bereits verfügbaren Funktionen für die einfache Erstellung eigener benutzerdefinierter Funktionen
-- Lernanpassung anhand von Beispielen:
-   - Hinzufügen des Hilfe- und Supportabschnitts im Web-Editor
-   - Hinzufügen eines weiteren linken Bedienfelds, z. B. zur Ansicht der aktuellen Benutzeraufgaben
+In dieser Sitzung haben Sie Folgendes gelernt:
+- Verstehen, was alle Schnittstellen mit diesem Erweiterungs-Framework erweitert werden können
+- Wenn Sie verstehen, was bereits verfügbar ist, können Sie einfach mit der Erstellung Ihrer eigenen benutzerdefinierten Funktionen beginnen
+- Erfahren Sie anhand von Beispielen, wie Sie anpassen können:
+   - Hinzufügen des Abschnitts „Hilfe und Support“ im Web-Editor
+   - Hinzufügen eines weiteren linken Bedienfelds - beispielsweise zum Anzeigen der Aufgaben des aktuellen Benutzers
    - Hinzufügen einer weiteren Symbolleistenschaltfläche für Thema/Zuordnung mithilfe dieses Frameworks
-   - Erweitern der im Bereich für Inhaltseigenschaften im Webserver angezeigten Informationen - Hinzufügen von Nachbearbeitungs-Informationen, um anzugeben, ob die Nachbearbeitung in einer bestimmten Datei durchgeführt wird oder nicht
-   - Hinzufügen benutzerdefinierter Schaltflächen auf der Überprüfungs-Benutzeroberfläche - Öffnen Sie das Thema, um es im Webeditor zu bearbeiten
+   - Erweitern der im Bereich „Inhaltseigenschaften“ im Web-Editor angezeigten Informationen - Hinzufügen von Nachverarbeitungsinformationen, um anzugeben, ob eine Nachbearbeitung für eine bestimmte Datei durchgeführt wird oder nicht
+   - Hinzufügen einer benutzerdefinierten Schaltfläche in der Review-Benutzeroberfläche: Öffnen des Themas, um es im Web-Editor zu bearbeiten
    - Weitere Anpassungsoptionen für die Überprüfungs-Benutzeroberfläche
-- Wo finden Sie die Implementierung der oben genannten Beispiele, damit Sie damit beginnen können, daran zu arbeiten?
+- Wo finden Sie die Implementierung der oben genannten Beispiele, damit Sie sie bearbeiten können?
 
 
 ## Verwandte Ressourcen
 
-- **Basis-Repository des Erweiterungs-Frameworks** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **Basisrepository für Erweiterungs-Framework** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
 - **Dokumentation** - [auf Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Dokumentation häufiger Anwendungsfälle** - [auf Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Dokumentierte häufige Anwendungsfälle** - [auf Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
-- **Öffentliches Repository mit Beispielen** - [auf GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Siehe Verzweigung sc-experte-session
+- **Öffentliches Repository mit Beispielen** - [auf GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Verzweigung sc-expert-session verweisen
 
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in folgenden Versionen von AEM Guides verfügbar:
-> - Oktober 2023 (für Cloud)
-> - 4.3.x (für Nicht-Cloud)
+> Die in dieser Sitzung gezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
+> - Oktober 2023 (für Cloud Manager)
+> - 4.3.x (für Nicht-Cloud-Umgebungen)
 
 
 
 ## Kontakt
 
-Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>
+Bei Fragen senden Sie uns bitte eine E-Mail an <techcomm@adobe.com>

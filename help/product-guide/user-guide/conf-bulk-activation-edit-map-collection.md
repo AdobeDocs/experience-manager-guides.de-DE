@@ -1,6 +1,6 @@
 ---
-title: Massenaktivierungszuordnung bearbeiten
-description: Verwenden Sie das Bulk Publish-Dashboard in AEM Guides. Erfahren Sie, wie Sie eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie Zuordnungsdateien hinzufügen oder entfernen.
+title: Bearbeiten einer Massenaktivierungs-Zuordnungssammlung
+description: Verwenden des Dashboards zur Massenveröffentlichung in AEM Guides. Erfahren Sie, wie Sie eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie Zuordnungsdateien hinzufügen oder entfernen.
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
@@ -11,40 +11,40 @@ ht-degree: 2%
 
 ---
 
-# Massenaktivierungszuordnung bearbeiten {#id214GI40B0XA}
+# Bearbeiten einer Massenaktivierungs-Zuordnungssammlung {#id214GI40B0XA}
 
-Sie können eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie eine Zuordnungsdatei oder Vorgaben aus einer Sammlung hinzufügen oder daraus entfernen. Um eine Massen-Aktivierungszuordnung zu bearbeiten, führen Sie die folgenden Schritte aus:
+Sie können eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie Zuordnungsdatei oder Vorgaben zu einer Sammlung hinzufügen oder daraus entfernen. Um eine Massen-Aktivierungszuordnungssammlung zu bearbeiten, führen Sie die folgenden Schritte aus:
 
 1. Wählen Sie **Guides** aus der Liste der Tools aus.
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Klicken Sie auf die Kachel **Publish-Dashboard-Stapel** .
+1. Klicken Sie auf die Kachel **Publish-Dashboard** Massenverarbeitung“.
 
-   Eine Liste mit Massenaktivierungskarten-Sammlungen wird angezeigt.
+   Eine Liste der Massenaktivierungszuordnungssammlungen wird angezeigt.
 
-1. Wählen Sie die Sammlung aus, die Sie bearbeiten möchten, und klicken Sie auf **Öffnen**.
+1. Wählen Sie die zu bearbeitende Sammlung aus und klicken Sie auf **Öffnen**.
 
 1. Klicken Sie auf **Bearbeiten**.
 
-   Die Sammlungsseite für Massen-Aktivierungskarten wird angezeigt, auf der die Maps zusammen mit den vorkonfigurierten Vorgaben für jedes verfügbare Gebietsschema angezeigt werden.
-Sie können die verschiedenen Arten von Ausgabevorgaben zusammen mit ihren Symbolen wie AEM Site, PDF, natives PDF, HTML5, Benutzerdefiniert und JSON-Ausgabe anzeigen
+   Die Sammlungsseite der Massen-Aktivierungskarte wird angezeigt, auf der Sie die Karten zusammen mit den vorkonfigurierten Voreinstellungen für jedes verfügbare Gebietsschema sehen.
+Sie können die verschiedenen Arten von Ausgabevorgaben zusammen mit ihren Symbolen wie AEM Site-, PDF-, Native PDF-, HTML5-, benutzerdefinierte und JSON-Ausgabe anzeigen
 .
 
    >[!NOTE]
    >
-   > Das kleine ![](images/global-preset-icon.svg) -Symbol zeigt eine Vorgabe auf Ordnerprofilebene an.
+   > Das kleine ![](images/global-preset-icon.svg) zeigt eine Vorgabe auf Ordnerprofilebene an.
 
 
-1. Verwenden Sie den Schieberegler, um die gewünschte Ausgabevorgabe zu aktivieren bzw. zu deaktivieren.
+1. Schalten Sie mit dem Schieberegler die gewünschte Ausgabevorgabe ein, die Sie aktivieren oder deaktivieren möchten.
 
-1. Wenn Sie eine Zuordnung aus der Sammlung entfernen möchten, erweitern Sie die Zuordnung und wählen Sie die Option &quot;**Zum Entfernen auswählen**&quot;.
+1. Wenn Sie eine Zuordnung aus der Sammlung entfernen möchten, erweitern Sie die Zuordnung und wählen Sie die Option **Zum Entfernen auswählen** aus.
 
 1. Klicken Sie auf **Löschen**.
 
    ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
-   Die ausgewählte Zuordnung wird aus der Massen-Aktivierungszuordnung entfernt.
+   Die ausgewählte Zuordnung wird aus der Massen-Aktivierungszuordnungssammlung entfernt.
 
 1. Klicken Sie auf **Fertig**.
 

@@ -10,8 +10,8 @@ ht-degree: 1%
 ---
 
 
-# Überblick über veraltete Versionen
+# Übersicht zu Legacy
 
-Dieses Benutzerhandbuch richtet sich an Benutzer der alten Benutzeroberfläche von Experience Manager Guides. Wenn Sie die neue Benutzeroberfläche verwenden, lesen Sie bitte das aktualisierte Benutzerhandbuch für das neue Benutzererlebnis, das [hier](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro) verfügbar ist.
+Dieses Benutzerhandbuch richtet sich an Benutzer der alten Benutzeroberfläche von Experience Manager Guides. Wenn Sie die neue Benutzeroberfläche verwenden, lesen Sie bitte das aktualisierte Benutzerhandbuch für das neue Benutzererlebnis, das ([) ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro).
 
-Stellen Sie für eine nahtlose Transition sicher, dass Sie das Ihrer aktuellen Oberfläche entsprechende Handbuch verwenden.
+Für einen nahtlosen Übergang stellen Sie sicher, dass Sie das Handbuch verwenden, das Ihrer aktuellen Benutzeroberfläche entspricht.

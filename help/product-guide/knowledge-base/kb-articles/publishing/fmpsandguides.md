@@ -1,6 +1,6 @@
 ---
 title: Veröffentlichen mit FrameMaker Publishing Server (FMPS) in AEM Guides
-description: Veröffentlichen mit FMPS mit AEM Guides
+description: Veröffentlichen mit FMPS unter Verwendung von AEM Guides
 exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 feature: AEM Guides FrameMaker Publishing Server
 author: Pulkit Nagpal(punagpal)
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 # Veröffentlichen mit FrameMaker Publishing Server (FMPS) in AEM Guides
 
-Die Integration von AEM Guides mit FrameMaker Publishing Server könnte Ihre Lösung sein, wenn Sie nach einer qualitativ hochwertigen automatisierten Veröffentlichung suchen.\
-Artikel hilft Ihnen beim Einrichten und Ausführen von FMPS mit AEM Guides.
+Die Integration von AEM Guides mit FrameMaker Publishing Server könnte Ihre Lösung sein, wenn Sie qualitativ hochwertige automatisierte Veröffentlichungen suchen.\
+Dieser Artikel hilft Ihnen beim Einrichten und Ausführen von FMPS mit AEM Guides.
 
 ## Kompatibilität von FMPS mit AEM Guides
 
-- Kompatibilität mit 4.1 AEM Guides: Kompatibilitätsmatrix [4.1}](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
-- Kompatibilität mit 4.0 AEM Guides: [4.0 Kompatibilitätsmatrix](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Neueste Version: [Neueste Versionsinformationen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+- Kompatibilität mit AEM Guides 4.1: [4.1-Kompatibilitätsmatrix](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- Kompatibilität mit AEM Guides 4.0: [4.0-Kompatibilitätsmatrix](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
+- Neueste Version: [Aktuelle Versionsinformationen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installation
 
-Weitere Informationen zur Installation und Konfiguration von AEM Guides und FMPS finden Sie im Folgenden.
+Siehe Folgendes für die Installation und Konfiguration von AEM Guides und FMPS
 
 ### AEM-Handbücher
 
@@ -33,69 +33,69 @@ Installation und Konfiguration siehe: [4.1 Installation und Konfigurationen](htt
 
 ### FMPS
 
-Für FMPS-Installationen finden Sie unter [YouTube-Link](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t) oder [FMPS-Installation und -Konfiguration](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2) weitere Informationen.
+Für die FMPS-Installation können Sie den angegebenen [YouTube-Link](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t) oder [FMPS-Installation und -Konfiguration](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
 
 ## Erforderliche Konfigurationen
 
-Mit FrameMaker Publishing Server (FMPS) können Sie Ihren DITA-Inhalt generieren. FMPS unterstützt eine breite Palette von Ausgabeformaten. Ändern Sie die folgenden Eigenschaften des Bundles &quot;com.adobe.fmdita.config.ConfigManager&quot;in der Web-Konsole, um AEM Guides für die Verwendung von FMPS zu konfigurieren.
+FrameMaker Publishing Server (FMPS) kann verwendet werden, um DITA-Inhalte zu generieren. FMPS unterstützt eine Vielzahl von Ausgabeformaten. Ändern Sie die folgenden Eigenschaften des „com.adobe.fmdita.config.ConfigManager-Bundles“ in der Web-Konsole, um AEM Guides für die Verwendung von FMPS zu konfigurieren.
 
-Um die Web-Konsole zu öffnen, navigieren Sie zum URL-Zugriff http://\&lt;Servername\>:\&lt;Port\>/system/console/configMgr.
+Wechseln Sie zum Öffnen der Web-Konsole zur URL Zugriff http://\&lt;Server-Name>:\&lt;Port\>/system/console/configMgr.
 
 **Konfigurationseigenschaften und ihre Beschreibung** [4.1 Installation und Konfiguration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
-## Laufender Test:
+## Test wird ausgeführt:
 
-Mithilfe von FMPS können Sie für Ihre DITA- und FM-Assets automatisch **PDF, responsive HTML5** und **Epub** veröffentlichen.
+Mithilfe von FMPS können Sie automatisch **PDF, Responsive HTML5** und **Epub** für Ihre DITA- und FM-Assets veröffentlichen.
 
-Wählen Sie im Menü &quot;PDF mithilfe generieren&quot;die Option FrameMaker Publishing Server.
+Wählen Sie im Menü &quot;PDF generieren mit“ die Option FrameMaker Publishing Server.
 
-Der Benutzer kann &quot;settings File(.sts)&quot;und &quot;ditaval&quot;angeben. Das Filtern erfolgt mithilfe eines Ditavings, das auf den von Ihnen angegebenen Bedingungen basiert.
+Der Benutzer kann die Einstellungen „File(.sts)“ und „ditaval“ angeben. Die Filterung erfolgt mithilfe von ditaval auf der Grundlage der von Ihnen angegebenen Bedingungen.
 
-- **Datei festlegen**: Eine FrameMaker/FMPS Publish-Einstellungsdatei, die alle Einstellungen enthält, die FMPS bei der Veröffentlichung berücksichtigen soll. Erstellen Sie beispielsweise eine Ausgabe mit einer benutzerdefinierten Vorlage, erstellen Sie Markierungen und Anschnitte (PDF) und erstellen Sie PDF mit dem Inhaltsverzeichnis.
-- **FMPS-Vorgabe:** Es handelt sich um eine vordefinierte Kombination aus Ditaval und settings-Datei. Anstatt separate Ditaval- und Einstellungsdateien bereitzustellen, kann der Benutzer eine FMPS-Vorgabe erstellen, die für Veröffentlichungsanforderungen wiederverwendet werden kann.
+- **Einstellungsdatei**: Eine FrameMaker-/FMPS-Publish-Einstellungsdatei, die alle Einstellungen enthält, die FMPS beim Veröffentlichen berücksichtigen soll. Beispielsweise das Erstellen einer Ausgabe mit einer benutzerdefinierten Vorlage, das Erstellen von Markierungen und Anschnitten (PDF) und das Erstellen von PDF mit Inhaltsverzeichnis.
+- **FMPS-Voreinstellung** Es handelt sich um eine vordefinierte Kombination aus ditaval und Einstellungsdatei. Anstatt separate ditaval- und settings-Dateien bereitzustellen, kann der Benutzer eine FMPS-Voreinstellung vorab erstellen, die für Veröffentlichungsanforderungen wiederverwendet werden kann.
 
-**Hinweis:** Die standardmäßige Systemeinstellung wird von FMPS zur Veröffentlichung verwendet, wenn Sie keine der Einstellungen oder die FMPS-Vorgabe auswählen.
+**Hinweis:** Die Standardsystemeinstellung wird von FMPS zur Veröffentlichung verwendet, wenn Sie keine der Einstellungen oder die FMPS-Vorgabe auswählen.
 
-Es handelt sich um einen Konflikt, wenn Sie die FMPS-Vorgabe auswählen und auch benutzerdefinierte Einstellungen oder eine Ditaval-Datei aus AEM bereitgestellt haben. In diesem Fall hat die FMPS-Vorgabe Vorrang vor den benutzerdefinierten Einstellungen oder der Ditaval-Datei.
+Es ist ein Konflikt, wenn Sie die FMPS-Vorgabe auswählen und auch benutzerdefinierte Einstellungen oder eine ditaval-Datei aus AEM bereitgestellt haben. In diesem Fall hat die FMPS-Voreinstellung Vorrang vor den benutzerdefinierten Einstellungen oder der ditaval-Datei.
 
-### Grundlegende Veröffentlichung mit FMPS:
+### Grundlegende Veröffentlichung mithilfe von FMPS:
 
-Sie können Ihre bereits erstellten Grundlinien mit FMPS2020.0.2 oder höher veröffentlichen.
+Sie können Ihre bereits erstellten Baselines mit FMPS2020.0.2 oder einer höheren Version veröffentlichen.
 
-**Beispieldatei für FMPS-Einstellungen (.sts-Datei) für den Einstieg:** [Beispieldatei für FMPS-Einstellungen](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (Dekomprimieren Sie diese Datei)
+**Beispiel-FMPS-Einstellungsdatei (.sts-Datei) für die ersten Schritte:** [Beispiel-FMPS-Einstellungsdatei](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (diese Datei entpacken)
 
 ## Häufig gestellte Fragen und Fehlerbehebung:
 
-- ### FMPS-Veröffentlichung schlägt mit &quot;Timeout Exception&quot;fehl
+- ### Die FMPS-Veröffentlichung schlägt mit „Timeout-Ausnahme“ fehl
 
->Überprüfen und erhöhen Sie den Wert von &quot;FMPS timeout&quot;(Seconds) in /system/console/configMgr/com.adobe.fmdita.config.ConfigManager&quot;
+>Überprüfen und erhöhen Sie den Wert von „FMPS-Zeitüberschreitung“ (Sekunden) in /system/console/configMgr/com.adobe.fmdita.config.ConfigManager“
 
-- ### FMPS-Vorgabe kann nicht in der Dropdown-Liste abgerufen werden
+- ### FMPS-Vorgabe kann nicht im Dropdown-Menü abgerufen werden
 
->Stellen Sie sicher, dass auf dem Server eine vordefinierte FMPS-Vorgabe erstellt wurde und dass Ihre Verbindungseinstellungen korrekt sind.
+>Stellen Sie sicher, dass eine vordefinierte FMPS-Voreinstellung auf dem Server erstellt wurde und dass Ihre Verbindungseinstellungen korrekt sind.
 
 - ### Ich erhalte beim Veröffentlichen leere PDF
 
->Wenn Sie UUID verwenden, stellen Sie sicher, dass Sie in den FrameMaker-Bearbeitungseinstellungen die Option &quot;UUID-basierte Referenzierung verwenden&quot;aktiviert haben, und umgekehrt bei AEM Handbüchern ohne UUID.
+>Wenn Sie UUID verwenden, stellen Sie sicher, dass Sie „UUID-basierte Referenzierung verwenden“ in den FrameMaker-Bearbeitungsvoreinstellungen und umgekehrt für Nicht-UUID-AEM-Handbücher aktiviert haben.
 
-- ### Meine Einstellungen/Einstellungen werden in der endgültigen veröffentlichten Ausgabe nicht angewendet
+- ### Meine Einstellungen/Werte werden in der endgültigen veröffentlichten Ausgabe nicht angewendet
 
->Vergewissern Sie sich, dass Sie nicht gleichzeitig die FMPS-Vorgabe und die Einstellungen-/Diaval-Datei auswählen. Verwenden Sie FrameMaker, um die Ausgabe manuell zu überprüfen.
+>Stellen Sie sicher, dass Sie nicht gleichzeitig die FMPS-Voreinstellung und die Einstell-/Wähldatei wählen. Verwenden Sie FrameMaker, um die Ausgabe manuell zu überprüfen.
 
-- ### Die Grundlinie wird nicht über FMPS veröffentlicht
+- ### Die Baseline wird nicht aus FMPS veröffentlicht
 
->FMPS2020.0.2 oder neuere Versionen sind mit Grundlinien-Publishing kompatibel.
->Stellen Sie sicher, dass Ihre Grundlinie ordnungsgemäß erstellt wurde. Gehen Sie zur Prüfung zum Map-Dashboard - Themen - Herunterladen .  Ordnen Sie zu und wählen Sie &quot;Grundlinie verwenden&quot;.
+>FMPS2020.0.2 oder neuere Versionen sind mit der grundlegenden Veröffentlichung kompatibel.
+>Vergewissern Sie sich, dass Ihre Baseline ordnungsgemäß erstellt wurde. Um dies zu überprüfen, gehen Sie zum Karten-Dashboard > Themen > Herunterladen  Ordnen Sie Baseline zu und wählen Sie sie aus.
 - ### Publish-Aufgaben von FMPS benötigen mehr Zeit als andere Engines
 
->Bei der Veröffentlichung über FMPS beträgt die optimale feste Header-Zeit ca. 3-4 Minuten. Wenn Sie glauben, dass die Header länger ist, wenden Sie sich an Ihren FMPS-Administrator oder kontaktieren Sie den Adobe Support.
+>Bei der Veröffentlichung aus FMPS beträgt die ideale feste Header-Zeit etwa 3-4 Minuten. Wenn Sie glauben, dass sie länger ist, wenden Sie sich an Ihren FMPS-Administrator oder den Adobe-Support.
 
 ## Weitere Ressourcen:
 
-[FMPS-Schulung und -Support](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[FMPS: Lernen und Support](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
-[AEM Guides - Schulung und Support](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
+[AEM Guides: Lernen und Support](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMaker- und FMPS-Community](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
 
-[AEM Guides Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[AEM Guides-Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

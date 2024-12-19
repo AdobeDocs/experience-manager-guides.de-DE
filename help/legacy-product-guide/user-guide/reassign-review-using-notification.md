@@ -1,40 +1,41 @@
 ---
-title: Prüfungsaufgabe erneut zuweisen mithilfe von Benachrichtigungen
-description: Weisen Sie eine Prüfungsaufgabe mithilfe von Benachrichtigungen in AEM Guides erneut zu. Erfahren Sie, wie Sie eine Überprüferaufgabe aus der Benachrichtigung im Posteingang neu zuweisen.
+title: Prüfungsaufgabe mithilfe einer Benachrichtigung neu zuweisen
+description: Weisen Sie eine Prüfungsaufgabe mithilfe von Benachrichtigungen in AEM Guides neu zu. Wissen, wie Sie eine Reviewer-Aufgabe aus der Benachrichtigung im Posteingang neu zuweisen.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
+source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
-# Prüfungsaufgabe erneut zuweisen mithilfe von Benachrichtigungen {#id21BNH03M0KS}
+# Prüfungsaufgabe mithilfe einer Benachrichtigung neu zuweisen {#id21BNH03M0KS}
 
-Sie können eine Prüfungsaufgabe, die Ihnen zugewiesen ist, einem anderen Benutzer zuweisen, der zum selben Überprüfungsprojekt hinzugefügt wurde. Die Neuzuweisung der Prüfungsaufgabe kann einfach über die in Ihrem Posteingang gesendete Überprüfungsbenachrichtigung erfolgen. Als Validierer können Sie eine Prüfungsaufgabe jedoch nur einzelnen Benutzern und nicht Benutzergruppen über die Benachrichtigung erneut zuweisen.
+Sie können eine Prüfungsaufgabe, die Ihnen zugewiesen wurde, einem anderen Benutzer bzw. einer Benutzerin zuweisen, der bzw. die demselben Überprüfungsprojekt hinzugefügt wurde. Die Neuzuweisung der Prüfungsaufgabe kann einfach über die Überprüfungsbenachrichtigung erfolgen, die in Ihrem Posteingang bereitgestellt wird. Als Prüferin bzw. Prüfer können Sie eine Prüfungsaufgabe jedoch mithilfe einer Benachrichtigung nur einzelnen Benutzenden und nicht Benutzergruppen neu zuweisen.
 
-Beachten Sie, dass eine Neuzuweisung nur für Prüfer-Aufgaben und nicht für Eigentümeraufgaben durchgeführt werden kann.
+Beachten Sie, dass die Neuzuweisung nur für die Aufgaben des Prüfers und nicht für die Aufgaben des Verantwortlichen durchgeführt werden kann.
 
-1. **Überprüferaufgabe**: Jede Aufgabe, die einem Überprüfer für eine Überprüfung zugewiesen ist.
-1. **Owner task**: Eine Aufgabe, die nur für den Eigentümer erstellt wird. Wenn Sie eine Prüfungsaufgabe erstellen und einem Überprüfer zuweisen, erhält der Inhaber auch eine Eigentümeraufgabe mit dem Namen &quot;Close &lt; Prüfungsaufgabe\> \(z. B. close-reviewtask1\)&quot;, aber diese Eigentümeraufgabe kann niemandem neu zugewiesen werden.
+1. **Reviewer task**: Jede Aufgabe, die einem Reviewer zur Überprüfung zugewiesen ist.
+1. **Eigentümeraufgabe**: Eine Aufgabe, die nur für den Eigentümer erstellt wird. Wenn Sie eine Prüfungsaufgabe erstellen und einem Reviewer zuweisen, erhält der Eigentümer auch eine Eigentümeraufgabe mit dem Namen Close &lt; Name der Prüfungsaufgabe\> \(z. B. close-reviewtask1\), diese Eigentümeraufgabe kann jedoch keinem anderen Benutzer neu zugewiesen werden.
 
-Führen Sie die folgenden Schritte aus, um eine Prüfungsaufgabe aus der Posteingangsbenachrichtigung erneut zuzuweisen:
+Führen Sie die folgenden Schritte aus, um eine Prüfungsaufgabe aus der Benachrichtigung im Posteingang erneut zuzuweisen:
 
-1. Wählen Sie die Benachrichtigung zur Prüfungsaufgabe im Posteingang aus.
-1. Wählen Sie oben das Symbol **Neu zuweisen** aus.
+1. Wählen Sie die Benachrichtigung der Prüfungsaufgabe im Posteingang aus.
+1. Wählen **oben das Symbol** Neu zuweisen“ aus.
 1. Wählen Sie den Benutzernamen aus, dem Sie die Aufgabe erneut zuweisen möchten.
 
    >[!IMPORTANT]
    >
-   > Der Überprüfer muss über die Berechtigungen zum Neuzuweisen verfügen und Teil der Gruppe &quot;Benutzer-Administrator&quot;sein.
+   > Die Überprüfenden müssen über die Berechtigungen zum Neuzuweisen verfügen und sollten Teil der Benutzer-Administrator-Gruppe sein.
 
    ![](images/reassign-user-inbox.png){width="800" align="left"}
 
-1. Wählen Sie **Neu zuweisen** aus.
+1. Wählen **Neu zuweisen** aus.
 
-Nachdem die Prüfungsaufgabe neu zugewiesen wurde, zeigt die Spalte Bevollmächtigter den Namen des Validierers an, dem die Aufgabe neu zugewiesen wurde.
+Nachdem die Prüfungsaufgabe neu zugewiesen wurde, zeigt die Spalte Empfänger den Namen des Reviewers an, dem die Aufgabe neu zugewiesen wurde.
 
-Der zugewiesene Überprüfer erhält im Posteingang eine Benachrichtigung über die neu zugewiesene Überprüfungsaufgabe.
+Der zugewiesene Reviewer erhält eine Benachrichtigung im Posteingang für die neu zugewiesene Prüfungsaufgabe.
 
-**Übergeordnetes Thema:**[ Themen oder Zuordnungen überprüfen](review.md)
+**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)

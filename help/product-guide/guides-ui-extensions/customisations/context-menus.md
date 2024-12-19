@@ -17,20 +17,20 @@ Die folgenden Kontextmenüs können angepasst werden:
 - `file_options`
 Controller:
    - Kartenansicht: `ditamap_viewer_controller`
-   - Repository-Bereich: `repository_panel_controller`
-   - Favoriten-Bedienfeld: `collection_tree_controller`
-   - Dateieigenschaften-Referenzlinks: `file_references_links_controller`
+   - Repository-Bedienfeld: `repository_panel_controller`
+   - Bedienfeld „Favoriten“: `collection_tree_controller`
+   - Referenzlinks für Dateieigenschaften: `file_references_links_controller`
    - Repository-Suchbereich: `repository_search_controller`
-   - Betreff-Schema-Panel: `subject_scheme_tree_controller`
+   - Bedienfeld „Betreff-Schema“: `subject_scheme_tree_controller`
 
 - `folder_options`
 Controller:
-   - Repository-Bereich: `repository_panel_controller`
-   - Favoriten-Bedienfeld: `collection_tree_controller`
+   - Repository-Bedienfeld: `repository_panel_controller`
+   - Bedienfeld „Favoriten“: `collection_tree_controller`
 
 - `collection_options`
 Controller:
-   - Favoriten-Bedienfeld: `collection_tree_controller`
+   - Bedienfeld „Favoriten“: `collection_tree_controller`
 
 - `map_view_options`
 Controller:
@@ -38,17 +38,17 @@ Controller:
 
 - `baseline_panel_menu`
 Controller:
-   - Grundlinienbedienfeld: `baseline_panel`
+   - Baseline-Bedienfeld: `baseline_panel`
 
 - `preset_item_menu`
 Controller:
-   - Vorgabenbereich: `preset_panel`
+   - Voreinstellungsfenster: `preset_panel`
 
-Sie können auch Ihr eigenes Kontextmenü erstellen, indem Sie eine neue eindeutige ID definieren.
+Sie können auch ein eigenes Kontextmenü erstellen, indem Sie eine neue eindeutige ID definieren.
 
-Jetzt ist jedem Kontextmenü ein `controller id` zugeordnet. Dieser Controller verarbeitet die `on-event`-Funktionalität für die verschiedenen Kontextmenüoptionen.
+Nun ist jedem Kontextmenü ein `controller id` zugeordnet. Dieser Controller übernimmt die `on-event` Funktionen für die verschiedenen Kontextmenüoptionen
 
-Nehmen wir ein Beispiel, um
+Nehmen wir ein Beispiel, um das zu verstehen
 
 ```js title=customise_context_menu.js"
 const loadDitaFile = (filePath, uuid) =>{
@@ -131,7 +131,7 @@ const fileOptions = {
 
 Lassen Sie uns nun verstehen, was dieser Code tut.
 
-1. `id` wird verwendet, um das Kontextmenü zu identifizieren, das wir anpassen möchten.
-2. `contextMenuWidget` wird verwendet, um den `widget id` oder den `component` zu definieren, der das Kontextmenü aufruft und den `events` verarbeitet.
+1. `id` wird verwendet, um das Kontextmenü zu identifizieren, das angepasst werden soll.
+2. `contextMenuWidget` wird verwendet, um die `widget id` oder die `component` zu definieren, die das Kontextmenü aufruft und die `events` verarbeitet.
 
-Der Rest bleibt gleich, wobei `view` verwendet wird, um die Elemente zu definieren, `target` identifiziert, wo die Option ersetzt, angehängt oder vorangestellt werden soll, und der `contextMenuWidget` Controller verarbeitet die `on-click`-Ereignisse.
+Der Rest bleibt gleich, wobei `view` verwendet wird, um die Elemente zu definieren, `target` angibt, wo die Option ersetzt, angehängt oder vorangestellt werden soll, und der `contextMenuWidget`-Controller die `on-click` behandelt.

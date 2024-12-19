@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # Anpassen der Überprüfungs-App
 
-Um die Anpassung der Review-App zu erleichtern, haben wir einige der unten aufgeführten und erläuterten Erweiterungspunkte bereitgestellt:
+Um die Anpassung der Überprüfungs-App zu erleichtern, haben wir einige unten aufgeführte und erläuterte Erweiterungspunkte bereitgestellt:
 
-## Review-Comment
+## review-comment
 
-- id: `review_comment`
-- hook: `this.next('updateExtraProps')`:
+- ID: `review_comment`
+- Hook: `this.next('updateExtraProps')`:
 
-Wie [hier](../../aem_guides_framework/basic-customisation.md) erläutert, werden alle neuen Attribute, die bei der Anpassung hinzugefügt werden, unter `this.model.extraProps` gespeichert. Mit der Methode &quot;`updateExtraProps`&quot; können Sie einem Überprüfungskommentar Attribute hinzufügen und dabei auch die Aktualisierung und Speicherung des hinzugefügten Attributs auf dem Server durchführen.
+Wie [hier](../../aem_guides_framework/basic-customisation.md) erläutert, wird jedes neue Attribut, das während der Anpassung hinzugefügt wird, unter `this.model.extraProps`. Mit der Methode `updateExtraProps` können Sie Attribute zu einem Überprüfungskommentar hinzufügen und so die Aktualisierung und Speicherung des hinzugefügten Attributs auf dem Server durchführen.
 
-### Nutzungsbeispiel
+### Anwendungsbeispiel
 
-Angenommen, Sie möchten Ihren Kommentaren die Felder `commentRationale` und `severity` hinzufügen.
-Aktualisieren wir die `commentRationale` auf &quot;Dies ist ein wichtiger Satz&quot;. und die `severity` auf &quot;CRITICAL&quot;setzen.
-Dies kann mithilfe der folgenden Syntax erfolgen:
+Sie können beispielsweise Felder `commentRationale` und `severity` zu Ihren Kommentaren hinzufügen.
+Aktualisieren wir die `commentRationale` auf „Dies ist ein wichtiger Satz“. und die `severity` auf „KRITISCH“.
+Dies kann mit der Syntax erfolgen:
 
 ```typescript
   this.next('updateExtraProps', {
@@ -34,7 +34,7 @@ Dies kann mithilfe der folgenden Syntax erfolgen:
   })
 ```
 
-Das obige Codefragment verarbeitet die Aktualisierung und Speicherung der Werte. Die gespeicherten Werte können über die Benutzeroberfläche gerendert werden, indem die Ansicht definiert wird.
+Das obige Codefragment übernimmt die Aktualisierung und Speicherung der Werte. Die gespeicherten Werte können in der Benutzeroberfläche gerendert werden, indem die Ansicht definiert wird.
 
 ```JSON
 {
@@ -43,26 +43,26 @@ Das obige Codefragment verarbeitet die Aktualisierung und Speicherung der Werte.
 }
 ```
 
-## Bedienfeld für Inline-Überprüfung
+## Inline-Überprüfungsfeld
 
-- id: `inline_review_panel`
+- ID: `inline_review_panel`
 
-1. hook: `onNewCommentEvent`
-Mit dem Hook `onNewCommentEvent` können Sie ein Ereignis ausgeben oder eine Methode für ein neues Kommentar- oder Antwortereignis aufrufen.
-Die im `onNewCommentEvent` empfangenen Protokolle umfassen:
-   - events: das Kommentar-/Antwortereignis, das gesendet wurde.
-   - newComment: boolean
-Wenn das gesendete Ereignis ein neues Kommentar-Ereignis war, d. h. `highlight`, `insertion`, `deletion`, `sticky note comment`
-   - newReply: boolean
+1. Hook: `onNewCommentEvent`
+Mit dem Hook-`onNewCommentEvent` können Sie ein Ereignis auslösen oder eine Methode bei einem neuen Kommentar- oder Antwortereignis aufrufen.
+Zu den in der `onNewCommentEvent` empfangenen Argumenten gehören:
+   - Ereignisse: Das Kommentar-/Antwortereignis, das gesendet wurde.
+   - newComment: Boolesch
+Wenn das gesendete Ereignis ein neues Kommentarereignis war, d. h. `highlight`, `insertion`, `deletion`, `sticky note comment`
+   - newReply: Boolesch
 Wenn das gesendete Ereignis ein neues Antwortereignis war.
 
-2. hook: `sendExtraProps`
+2. Hook: `sendExtraProps`
 
-Dieser Erweiterungspunkt ist nützlich, wenn Sie einen `event` erweitern und `extraProps` aus dem Inline-Überprüfungsfenster senden möchten. Wir erklären Ihnen die Verwendung dieser beiden Haken unten.
+Dieser Hook ist nützlich, wenn Sie eine `event` erweitern und `extraProps` über das Inline-Prüfungsfenster senden möchten. Nachfolgend werden wir die Verwendung dieser beiden Erweiterungspunkte erläutern.
 
-### Beispiel für Inline-Prüfungsbereich
+### Beispiel für ein Inline-Prüfungsbedienfeld
 
-Angenommen, wir möchten bei jedem Versand eines neuen Kommentars oder einer neuen Antwort eine extraProp, `userInfo` senden. Nun erfolgt dies über das Inline-Überprüfungsfenster, aber wir haben nicht den Verweis auf die commentId des neu generierten Kommentars, daher können wir zu diesem Zweck den folgenden Code schreiben.
+Angenommen, wir möchten jedes Mal, wenn ein neuer Kommentar oder eine Antwort gesendet wird, eine extraProp, `userInfo` senden. Nun erfolgt dies über das Inline-Prüfungsfenster, jedoch haben wir nicht den Verweis auf die commentId des neu generierten Kommentars, daher können wir zu diesem Zweck den folgenden Code schreiben.
 
 ```typescript
     onNewCommentEvent(args){
@@ -77,7 +77,7 @@ Angenommen, wir möchten bei jedem Versand eines neuen Kommentars oder einer neu
     },
 ```
 
-Im obigen Codeausschnitt überprüfen wir, ob das gesendete Ereignis ein neuer Kommentar oder eine neue Antwort war. Im Falle eines neuen Kommentars oder einer neuen Antwort rufen wir die Methode `setUserInfo` auf
+Im obigen Code-Snippet überprüfen wir, ob das gesendete Ereignis ein neuer Kommentar oder eine neue Antwort war. Im Falle eines neuen Kommentars oder einer neuen Antwort rufen wir die Methode `setUserInfo` auf
 
 ```typescript
     const getUserInfo = (userId) => {
@@ -110,10 +110,10 @@ Im obigen Codeausschnitt überprüfen wir, ob das gesendete Ereignis ein neuer K
     },
 ```
 
-In der obigen Methode erweitern wir das Ereignis, um extraProps zu senden, die den Vornamen, die E-Mail-Adresse, den Titel usw. des Benutzers enthalten. Wenn Sie das Ereignis auf diese Weise erweitern, wird sichergestellt, dass die extraProps mit der richtigen commentId gesendet werden, sodass sie an den richtigen Kommentar angehängt werden.
+Bei der obigen Methode erweitern wir das Ereignis, um zusätzliche Props zu senden, die den Vornamen, die E-Mail-Adresse, den Titel usw. des Benutzers enthalten. Wenn Sie das Ereignis auf diese Weise erweitern, wird sichergestellt, dass die zusätzlichen Props mit der richtigen commentId gesendet werden, sodass sie an den richtigen Kommentar angehängt werden.
 
-Der Hook `updateExtraProps` nennt grundsätzlich den Hook `sendExtraProps`, also wann was zu verwenden ist?
+Der Hook ruft `updateExtraProps` von Natur aus den Hook `sendExtraProps` auf, wann soll er also verwendet werden?
 
-Wir verwenden `updateExtraProps` im `review_comment`-Controller, der bereits über die `id` des Kommentars verfügt, und deshalb müssen Sie nur die `extraProps.` erwähnen
+Wir verwenden `updateExtraProps` im `review_comment` Controller, der bereits die `id` des Kommentars hat und daher muss man nur die `extraProps.` erwähnen
 
-Die `inline_review_panel` hat jedoch keinen Zugriff auf die ID des Kommentars. Jedes Mal, wenn Sie ein Ereignis aus dem Inline-Überprüfungsfenster senden müssen, ist die `sendExtraProps` praktisch.
+Der `inline_review_panel` hat jedoch keinen Zugriff auf die ID des Kommentars. Daher ist die `sendExtraProps` praktisch, sobald Sie ein Ereignis aus dem Inline-Prüfungsfenster senden müssen.

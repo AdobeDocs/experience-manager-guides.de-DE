@@ -1,6 +1,6 @@
 ---
-title: Migration von Nicht-UUID-zu-UUID-Inhalten
-description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte in UUID-Inhalte migrieren.
+title: Migration von Nicht-UUID zu UUID-Inhalt
+description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte zu UUID-Inhalten migrieren
 exl-id: f8b723bf-84c0-4fe6-936e-63970fb3e417
 feature: Migration
 role: Admin
@@ -15,13 +15,13 @@ ht-degree: 0%
 # UUID-Inhaltsmigration {#id226TI0U20XA}
 
 
-Sie können Ihren Nicht-UUID-Inhalt in UUID migrieren.
+Sie können Nicht-UUID-Inhalte zu UUID migrieren.
 
 >[!IMPORTANT]
 >
-> Bevor Sie Inhalte auf den UUID-Server migrieren, stellen Sie sicher, dass auf dem Server ein Nicht-UUID-Server mit kompatibler AEM Guides-Version installiert ist.
+> Bevor Sie Inhalte zum UUID-Server migrieren, stellen Sie sicher, dass Sie einen Nicht-UUID-Server mit einer kompatiblen AEM Guides-Version darauf installiert haben.
 
 
-* [**Migration von Nicht-UUID-Inhalten zu UUID**](./migrate-non-uuid-uuid.md)
-* [**Migrieren von versioniertem Inhalt (alt)**](./migrate-non-uuid-uuid-with-versions-legacy.md)
+* [**Migration von Nicht-UUID zu UUID-Inhalt**](./migrate-non-uuid-uuid.md)
+* [**Migrieren von versionierten Inhalten (veraltet)**](./migrate-non-uuid-uuid-with-versions-legacy.md)
 

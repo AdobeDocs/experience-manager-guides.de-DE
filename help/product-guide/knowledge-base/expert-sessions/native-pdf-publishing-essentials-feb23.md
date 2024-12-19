@@ -1,5 +1,5 @@
 ---
-title: Grundlagen der nativen PDF-Veröffentlichung
+title: Native Grundlagen zur Veröffentlichung von PDF
 description: Erfahren Sie, wie Sie PDF mit der nativen PDF-Engine in AEM Guides veröffentlichen.
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
 feature: Native PDF Output
@@ -11,13 +11,13 @@ ht-degree: 2%
 
 ---
 
-# Grundlagen der nativen PDF-Veröffentlichung
+# Native Grundlagen zur Veröffentlichung von PDF
 
-AEM Guides verfügt über eine integrierte PDF-Publishing-Engine, mit der Anwender Inhalte im PDF-Format erstellen, entwickeln und veröffentlichen können. Die umfangreiche Palette an Funktionen ermöglicht die Erstellung verschiedener Seitenlayouts, die Anpassung von Stylesheets und das Design verschiedener PDF-Komponenten, die für eine nahtlose Inhaltsveröffentlichung erforderlich sind.
+AEM Guides verfügt über eine integrierte PDF-Publishing-Engine, die Benutzern die Möglichkeit bietet, Inhalte im PDF-Format zu erstellen, zu entwickeln und zu veröffentlichen. Seine vielfältigen Funktionen ermöglichen die Erstellung verschiedener Seiten-Layouts, die Anpassung von Stylesheets und das Design verschiedener PDF-Komponenten, die für die nahtlose Veröffentlichung von Inhalten erforderlich sind.
 
 ## Sitzungsübersicht
 
-In dieser Sitzung erfahren Sie, wie Sie PDF mithilfe der nativen PDF-Engine in AEM Guides veröffentlichen
+In dieser Sitzung erfahren Sie, wie Sie PDF mit der nativen PDF-Engine in AEM Guides veröffentlichen
 
 ## Sitzungsaufzeichnung
 
@@ -34,25 +34,25 @@ In dieser Sitzung erfahren Sie, wie Sie PDF mithilfe der nativen PDF-Engine in A
 
 In dieser Sitzung erfahren Sie mehr über Folgendes:
 - PDF Publishing Essentials
-- Erstellen und Anpassen verschiedener Komponenten der PDF-Vorlage
-- Inhaltsstrukturierung und -stil für die Veröffentlichung
-- Ausgabe über Skripte bearbeiten
+- Erstellen und Anpassen verschiedener Komponenten einer PDF-Vorlage
+- Strukturierung und Formatierung von Inhalten für die Veröffentlichung
+- Bearbeiten der Ausgabe mithilfe von Skripten
 - Erweiterte Konfigurationen, Sicherheit, Druck und Produktion
 
 ## Verwandte Ressourcen
 
 - **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Benutzerhandbuch** - [Natives PDF-Publishing](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+- **Benutzerhandbuch** - [Native PDF-Veröffentlichung](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **Community-Forum** - Besuchen Sie für sitzungsspezifische Community-Interaktionen auf dem Experience League das [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
+> Die in dieser Sitzung gezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
 > - On-Premise 4.2 oder höher
 > - Cloud Service 2211 und höher
 
 ## Kontakt
 
-Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>
+Bei Fragen senden Sie uns bitte eine E-Mail an <techcomm@adobe.com>

@@ -1,6 +1,6 @@
 ---
-title: AEM Standardwörterbuch anpassen
-description: Erfahren Sie, wie Sie AEM Standardwörterbuch anpassen
+title: Anpassen des Standardwörterbuchs von AEM
+description: Erfahren Sie, wie Sie das Standardwörterbuch von AEM anpassen
 exl-id: ecffcd14-6728-4938-a209-5c4b12af6fbb
 feature: Web Editor Configuration
 role: Admin
@@ -12,27 +12,27 @@ ht-degree: 1%
 
 ---
 
-# AEM Standardwörterbuch anpassen {#id209SD8000WU}
+# Anpassen des Standardwörterbuchs von AEM {#id209SD8000WU}
 
-Der Web Editor kann so konfiguriert werden, dass er die Rechtschreibprüfung AEM oder die Rechtschreibprüfung des Browsers verwendet. Wenn Sie sich dafür entscheiden, mit AEM Rechtschreibprüfung zu arbeiten, erhalten Sie die Flexibilität, Ihre benutzerdefinierte Wortliste zu definieren. Diese benutzerdefinierten Wörter werden dann zum AEM Wörterbuch hinzugefügt und diese Wörter werden im Web Editor nicht als \(falsch\) gekennzeichnet.
+Der Web-Editor kann so konfiguriert werden, dass er die Rechtschreibprüfung von AEM oder die Rechtschreibprüfung des Browsers verwendet. Wenn Sie die Rechtschreibprüfung von AEM verwenden, können Sie die Liste der benutzerdefinierten Wörter definieren. Diese benutzerdefinierten Wörter werden dann dem AEM-Wörterbuch hinzugefügt, und diese Wörter werden im Web-Editor nicht als \(falsch\) gekennzeichnet.
 
-Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierte Wortliste zu erstellen, die AEM Wörterbuch hinzugefügt wird:
+Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierte Wortliste zu erstellen, die im AEM-Wörterbuch hinzugefügt werden:
 
-1. Erstellen Sie die Datei &quot;user\_dictionary.txt&quot;mit einer Liste von Wörtern, die Sie in Ihrem benutzerdefinierten Wörterbuch definieren möchten.
+1. Erstellen Sie die Datei user\_dictionary.txt mit einer Liste von Wörtern, die Sie in Ihrem benutzerdefinierten Wörterbuch definieren möchten.
 
    >[!NOTE]
    >
    > Jedes benutzerdefinierte Wort muss in einer neuen Zeile definiert werden.
 
-1. Speichern Sie die Datei an folgendem Speicherort in Ihrem Cloud Manager-Git-Repository:
+1. Speichern Sie die Datei am folgenden Speicherort im Git-Repository Ihrer Cloud Manager:
 
    /apps/fmdita/config
 
 1. Speichern Sie die Datei.
 
-   Übertragen Sie die Änderungen und führen Sie die Cloud Manager- \(CI/CD\)-Pipeline aus, um Konfigurationsänderungen bereitzustellen.
+   Übertragen Sie die Änderungen und führen Sie die Cloud Manager \(CI/CD\)-Pipeline aus, um Konfigurationsänderungen bereitzustellen.
 
 
-Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die benutzerdefinierte Wörterbuchliste im AEM Wörterbuch aktualisiert wird.
+Autorinnen und Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die Liste der benutzerdefinierten Wörter im AEM-Wörterbuch aktualisiert wird.
 
-**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

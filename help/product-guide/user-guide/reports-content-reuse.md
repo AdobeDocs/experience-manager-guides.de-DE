@@ -1,5 +1,5 @@
 ---
-title: Bericht zur Inhaltswiederverwendung
+title: Bericht zur Wiederverwendung von Inhalt
 description: Erfahren Sie, wie Sie den Bericht zur Wiederverwendung von Inhalten in AEM Guides anzeigen. Erstellen Sie den Bericht, um den Prozentsatz der Wiederverwendung des Inhalts zu ermitteln.
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# Bericht zur Inhaltswiederverwendung {#id205BB900OQD}
+# Bericht zur Wiederverwendung von Inhalt {#id205BB900OQD}
 
-Ein weiterer nützlicher Bericht, den Sie generieren können, ist der Bericht zur Wiederverwendung von Inhalten. Dieser Bericht berechnet den durchschnittlichen Prozentsatz der Inhaltsnutzung, der für Projektmanager und Geschäftsinhaber sehr nützlich ist, um die Menge der wiederverwendeten Inhalte anzuzeigen.
+Ein weiterer nützlicher Bericht, den Sie generieren können, ist der Bericht zur Wiederverwendung von Inhalten. Dieser Bericht berechnet den durchschnittlichen Prozentsatz der Inhaltsnutzung, was für Projekt-Manager und Geschäftsinhaber sehr nützlich ist, um die Menge der wiederverwendeten Inhalte zu sehen.
 
 >[!TIP]
 >
-> Um eine ordnungsgemäße Funktionsweise des Berichts zur Inhaltswiederverwendung sicherzustellen, müssen Sie den Nachbearbeitungs-Workflow aktivieren. Wenden Sie sich an Ihren Systemadministrator, um Nachbearbeitungs-Workflows zu aktivieren.
+> Um das ordnungsgemäße Funktionieren des Berichts zur Wiederverwendung von Inhalten sicherzustellen, müssen Sie den Nachbearbeitungs-Workflow aktivieren. Wenden Sie sich an Ihren Systemadministrator, um Nachbearbeitungs-Workflows zu aktivieren.
 
 Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von Inhalten anzuzeigen:
 
@@ -25,41 +25,41 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 
 1. Wählen Sie **Guides** aus der Liste der Tools aus.
 
-1. Klicken Sie auf die Kachel **Bericht zur Inhaltswiederverwendung** .
+1. Klicken Sie auf die **Bericht zur Wiederverwendung von Inhalten**.
 
-1. Klicken Sie auf **Durchsuchen** , um einen Pfad auszuwählen, in dem sich Ihre Themen befinden, oder geben Sie den Pfad manuell ein.
+1. Klicken Sie **Durchsuchen**, um einen Pfad auszuwählen, in dem sich Ihre Themen befinden, oder geben Sie den Pfad manuell ein.
 
-   Der Bericht wird durch das Prüfen des Inhalts im übergeordneten Ordner und in allen untergeordneten Ordnern generiert.
+   Der Bericht wird durch Überprüfen des Inhalts in den übergeordneten und allen untergeordneten Ordnern erstellt.
 
-1. Klicken Sie auf **Bericht erstellen** , um den Bericht zur Wiederverwendung von Inhalten zu erhalten.
+1. Klicken Sie **Bericht generieren**, um den Bericht zur Wiederverwendung von Inhalten abzurufen.
 
    ![](images/content-reuse-uuid.png){width="800" align="left"}
 
-   Die Berichtsseite ist in zwei Teile unterteilt:
+   Die Berichtseite ist in zwei Teile unterteilt:
 
    - **Berichtszusammenfassung:**
 
-     Listet die durchschnittliche Wiederverwendung von Inhalten auf, die als Wiederverwendungsinstanzen für Inhalte/Gesamtzahl der Themenanzahl berechnet wird. Dieser Bericht berücksichtigt bei der Berechnung alle direkten Inhaltsreferenzen und Themenreferenzen der ersten Ebene. Die Inhaltswiederverwendungsinstanzen werden als Summe der Werte im Feld Anzahl der wiederverwendeten Male berechnet. Das Thema, das am häufigsten wiederverwendet wird, ist auch in der Berichtszusammenfassung aufgeführt. Durch Klicken auf den Link des Themas im am häufigsten wiederverwendeten Thema wird die Vorschau des Themas geöffnet.
+     Listet die durchschnittliche Wiederverwendung von Inhalten auf, die als Instanzen der Inhaltswiederverwendung/Gesamtzahl der Themen berechnet wird. Dieser Bericht berücksichtigt alle direkten Inhaltsreferenzen und Themenreferenzen der ersten Ebene für die Berechnung. Die Instanzen zur Wiederverwendung von Inhalten werden als Summe der Werte im Feld Anzahl der Wiederverwendungen berechnet. Das Thema, das am häufigsten wiederverwendet wird, wird auch in der Zusammenfassung des Berichts aufgeführt. Wenn Sie im am häufigsten wiederverwendeten Thema auf den Link zum Thema klicken, wird die Vorschau des Themas geöffnet.
 
    - **Details:**
 
-     Der Bereich Details enthält die folgenden Spalten:
+     Der Abschnitt Details enthält die folgenden Spalten:
 
-      - **Titel**: Der Titel des Themas. Durch Klicken auf den Titel-Link des Themas wird die Themenvorschau geöffnet.
+      - **Titel**: Der Titel des Themas. Wenn Sie auf den Link Titel des Themas klicken, wird die Themenvorschau geöffnet.
 
-      - **UUID**: Die universelle eindeutige Kennung \(UUID\) der Datei.
+      - **UUID**: Die universell eindeutige Kennung \(UUID\) der Datei.
 
-      - **Größe**: Dateigröße in Byte.
+      - **size**: Dateigröße in Byte.
 
       - **Status**: Der aktuelle Status des Dokuments - Entwurf, In Überprüfung oder Überarbeitet.
 
-      - **Anzahl der Wiederverwendungen**: Gibt an, wie oft das entsprechende Thema wiederverwendet wurde. Dies wird berechnet als Summe der Einträge in den Spalten &quot;Referenziert von&quot; minus 1.
+      - **Häufigkeit der Wiederverwendung**: Gibt an, wie oft das entsprechende Thema wiederverwendet wurde. Dies wird als Summe der Einträge in den Spalten „Referenziert von“ minus 1 berechnet.
 
-      - **Referenziert von**: Die Themen, in denen auf das entsprechende Thema verwiesen wurde. Hier werden nur die direkten \(ersten\) Verweise berücksichtigt. Mehrere Themen werden durch Kommas getrennt. Die UUID der referenzierten Datei wird auch in Klammern erwähnt. Durch Klicken auf den Titel-Link des Themas wird die Themenvorschau geöffnet.
+      - **Referenziert von**: Die Themen, in denen das entsprechende Thema referenziert wurde. Hier werden nur die direkten \(first level\)-Verweise berücksichtigt. Mehrere Themen werden durch Kommas getrennt. Die UUID der referenzierten Datei wird ebenfalls in Klammern aufgeführt. Wenn Sie auf den Titel-Link des Themas klicken, wird die Themenvorschau geöffnet.
 
 
 >[!NOTE]
 >
-> Sie können den Bericht zur Inhaltswiederverwendung auch im CSV-Format exportieren. Klicken Sie dazu oben links im Bildschirm auf den Link In CSV exportieren und wählen Sie einen Speicherort für die CSV-Datei aus. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
+> Sie können auch den Bericht zur Wiederverwendung von Inhalten im CSV-Format exportieren. Klicken Sie dazu auf den Link In CSV exportieren in der linken oberen Ecke des Bildschirms und wählen Sie einen Speicherort für die CSV-Datei aus. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
 
-**Übergeordnetes Thema:**[ Berichte](reports-intro.md)
+**Übergeordnetes Thema:**[ Reports](reports-intro.md)

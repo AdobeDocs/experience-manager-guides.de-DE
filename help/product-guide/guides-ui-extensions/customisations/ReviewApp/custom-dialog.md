@@ -2,19 +2,19 @@
 title: Benutzerdefiniertes Dialogfeld
 description: Hinzufügen eines benutzerdefinierten Dialogfelds
 role: User, Admin
-source-git-commit: 4f41609368b64415993b93be27162b069e7b2e32
+exl-id: 00ea7f6f-1130-433f-b557-c2ea552b17c7
+source-git-commit: 9f85a92ad4c0749dd10a334d2f0c15906cd84099
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
 
 ---
 
-
 # Hinzufügen eines benutzerdefinierten Dialogfelds
 
-Gehen Sie wie folgt vor, um einen Einblick in das Hinzufügen eines benutzerdefinierten Dialogfelds in der Überprüfungs-App zu erhalten:
+Gehen Sie wie folgt vor, um einen Einblick in das Hinzufügen eines benutzerdefinierten Dialogfelds zur Überprüfungs-App zu erhalten:
 
-## Nutzungsbeispiel
+## Anwendungsbeispiel
 
 ```typescript
 const acceptWithModification = {
@@ -115,10 +115,10 @@ const acceptWithModification = {
 ```
 
 
-## Benutzerdefiniertes Dialogfeld aufrufen
+## Aufrufen eines benutzerdefinierten Dialogfelds
 
-In diesem Beispiel werden die Informationen zum Hinzufügen einer Schaltfläche zum Öffnen eines benutzerdefinierten Dialogfelds gekürzt.
-Betrachten wir hierfür das Bedienfeld &quot;`review_comment`&quot;. Die vollständige Erweiterung finden Sie hier:
+In diesem Beispiel werden die Informationen zum Hinzufügen einer Schaltfläche zum Öffnen eines benutzerdefinierten Dialogfelds eingeschränkt.
+Betrachten wir dazu `review_comment` Bedienfeld. Die vollständige Erweiterung finden Sie hier:
 [Kommentar überprüfen](../../examples/review_app_examples/review_comment.ts)
 
 ```typescript
@@ -166,7 +166,7 @@ const reviewComment = {
 }
 ```
 
-## Übergeben von Argumenten an ein benutzerdefiniertes Dialogfeld
+## Übergeben von Args an ein benutzerdefiniertes Dialogfeld
 
-Hier können Sie sehen, dass wir `args` mit der Dialog-ID übergeben und einen onSuccess übergeben, um einen Callback im Erfolgsereignis zu verarbeiten.
-Wir können auch `onCancel` übergeben, wenn wir beim Klicken auf Abbrechen einige benutzerdefinierte Rückrufe bereitstellen und diese innerhalb Ihres Abbrechen-Ereignisses im Dialogfeld verarbeiten möchten.
+Hier können Sie sehen, dass wir `args` mit der Dialog-ID übergeben und einen onSuccess mit dieser ID übergeben, um im Falle eines Erfolgsereignisses einen Callback zu verarbeiten.
+Wir können auch `onCancel` übergeben, wenn wir einige benutzerdefinierte Callbacks beim Klicken auf „Abbrechen“ bereitstellen und sie innerhalb Ihres Cancel-Ereignisses im Dialogfeld behandeln möchten.

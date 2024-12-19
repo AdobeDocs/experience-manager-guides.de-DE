@@ -1,6 +1,6 @@
 ---
-title: Externe Datenquellenintegration für AEM Guides
-description: Integration von Inhaltsdatenquellen in AEM Guides .
+title: Integration externer Datenquellen für AEM Guides
+description: Integration von Inhaltsdatenquellen mit AEM Guides .
 role: User, Admin
 exl-id: 02a6c2ea-a550-49d5-ae54-1cc24ef35287
 source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
@@ -10,10 +10,10 @@ ht-degree: 1%
 
 ---
 
-# Externe Datenquellenintegration für AEM Guides: Wie funktioniert sie?
+# Integration externer Datenquellen für AEM Guides: Funktionsweise?
 
-Viele Unternehmenskunden verfügen über Daten, die über mehrere Datenbanken verteilt sind. Oft müssen die Daten jedoch in AEM Handbücher integriert werden, damit sie verarbeitet werden können.
-Adobe Experience Manager Guides verfügt jetzt über vordefinierte Connectoren für externe Datenquellen, einschließlich JIRA, PIMs, SQL Data Bases und PLMs, wodurch es zu einem echten Content Hub wird.
+Viele Unternehmenskunden verfügen über Daten, die über mehrere Datenbanken verteilt sind. Häufig müssen die Daten jedoch in AEM-Handbüchern als eine einzige Quelle integriert sein, aus der die Daten verarbeitet werden können.
+Adobe Experience Manager Guides umfasst jetzt vorkonfigurierte Connectoren für externe Datenquellen, einschließlich JIRA, PIMs, SQL-Datenbanken und PLMs, wodurch es zu einem echten Content Hub wird.
 
 
 ## Sitzungsaufzeichnung
@@ -29,22 +29,22 @@ Adobe Experience Manager Guides verfügt jetzt über vordefinierte Connectoren f
 
 ## Haupterkenntnisse
 
-In dieser Sitzung erfahren Sie mehr über Folgendes:
-- Eine Übersicht über Datenquellen und ihre Nutzung mit AEM Guides
+In dieser Sitzung haben Sie Folgendes gelernt:
+- Übersicht über Datenquellen und ihre Verwendung mit AEM Guides
 - Einrichten der Verbindung für verschiedene Datenquellen
-   - Verwendung von Velocity-Tools in den Datenquellenvorlagen
+   - Verwendung von Velocity-Tools in Datenquellenvorlagen
    - Arbeiten mit Zuordnungsvorlagen
-- Daten anzeigen, die über den Web-Editor aus dem Connector abgerufen wurden
-- Verwenden des abgerufenen Inhalts in erstellten Inhalten
-   - Erstellen eines Themas mit dem Themengenerator
-   - Inhaltsfragment aus Ihrer Datenquelle einfügen
-- End-to-End-Workingdemo zur Integration AEM Handbücher
-   - Aktualisierung der Versionshinweise auf der Website und PDF als in JIRA verfügbare Änderungen
+- Anzeigen der vom Connector über den Web-Editor abgerufenen Daten
+- Verwenden des gezogenen Inhalts in erstellten Inhalten
+   - Erstellen eines Themas mithilfe des Themengenerators
+   - Einfügen eines Inhaltsausschnitts aus Ihrer Datenquelle
+- End-to-End-Arbeitsdemo zur Integration von AEM-Handbüchern
+   - Aktualisieren Sie die Versionshinweise auf der Website und auf der PDF, sobald Änderungen in JIRA verfügbar sind.
 
 
 ## Verwandte Ressourcen
 
-- **Konfigurieren des Datenquellenanschlusses** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
+- **Konfigurieren des Datenquellen-Connectors** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
 
 - **Dokumentation** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
 
@@ -54,12 +54,12 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in folgenden Versionen von AEM Guides verfügbar:
-> - Dezember 2023 (für Cloud)
-> - 4.3.1 (für Nicht-Cloud)
+> Die in dieser Sitzung gezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
+> - Dezember 2023 (für Cloud Manager)
+> - 4.3.1 (für Nicht-Cloud-Umgebungen)
 
 
 
 ## Kontakt
 
-Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>
+Bei Fragen senden Sie uns bitte eine E-Mail an <techcomm@adobe.com>

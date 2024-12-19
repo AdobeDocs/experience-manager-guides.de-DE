@@ -13,7 +13,7 @@ ht-degree: 3%
 # Textfeld und Textbereich
 
 Um Text als Eingabe zu verwenden, verwenden wir die Komponenten, das Textfeld und den Textbereich.
-Die Textbereichskomponente in JUI stellt einen HTML-Code `<textarea/>` dar.
+Die Textbereichskomponente in der Benutzeroberfläche stellt eine HTML-`<textarea/>` dar.
 
 ```js title="textArea.js"
 const textAreaJSON =  {
@@ -31,9 +31,9 @@ const textAreaJSON =  {
 },
 ```
 
-Hier ist `on-keyup` die Syntax zum Aufrufen der Befehle in den Controllern.
-Dadurch wird ein textArea erzeugt, in dem durch Drücken der EINGABETASTE das Ereignis `submitName` aufgerufen wird.
+Hier `on-keyup` die Syntax zum Aufrufen der Befehle in den Controllern.
+Dadurch wird ein textArea erzeugt, in dem durch Drücken der EINGABETASTE die `submitName` aufgerufen wird.
 
 Der gerenderte Textbereich sieht wie folgt aus:
 
-![Textbereich](./imgs/text_area.png "Textbereich")
+![text-area](./imgs/text_area.png "text area")

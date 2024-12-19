@@ -1,6 +1,6 @@
 ---
-title: Konfigurationsüberschreibungen
-description: Erfahren Sie, wie Konfigurationsüberschreibungen
+title: Überschreibungen der Konfiguration
+description: Erfahren Sie, wie Sie Konfigurations-Überschreibungen vornehmen
 exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Konfigurationsüberschreibungen {#id216IFC003XA}
+# Überschreibungen der Konfiguration {#id216IFC003XA}
 
 Für Konfigurationsaktualisierungen sollte der folgende allgemeine Ansatz verwendet werden:
 
-1. Greifen Sie auf das Git-Repository von Cloud Manager zu.
+1. Greifen Sie auf das Git-Repository Ihrer Cloud Manager zu.
 
 1. Erstellen Sie eine neue JSON-Datei am folgenden Speicherort:
 
@@ -41,4 +41,4 @@ Für Konfigurationsaktualisierungen sollte der folgende allgemeine Ansatz verwen
 1. Übertragen Sie die Änderungen und führen Sie die Cloud Manager-Pipeline aus, um die aktualisierte Konfiguration bereitzustellen.
 
 
-**Übergeordnetes Thema:**[ Herunterladen und Installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

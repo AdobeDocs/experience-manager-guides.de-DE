@@ -1,6 +1,6 @@
 ---
-title: Einrichtung von Inhalten und Vorlagen
-description: Hier erfahren Sie, welche Überlegungen zum Einrichten von Inhalten und Vorlagen in AEM Guides erforderlich sind.
+title: Einrichten von Inhalten und Vorlagen
+description: Erfahren Sie, was bei der Einrichtung von Inhalten und Vorlagen in AEM Guides zu beachten ist.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
 feature: Template Configuration
 role: User, Admin
@@ -11,16 +11,16 @@ ht-degree: 1%
 
 ---
 
-# Einrichtung von Inhalten und Vorlagen in AEM Guides
+# Einrichten von Inhalten und Vorlagen in AEM Guides
 
-Die Menge an Inhalten, die Sie in einem System verwalten, um verschiedene Arten von Dokumenten zu unterstützen, die an Endbenutzer gesendet werden, erfordert, dass Autoren den Inhalt nicht nur kategorisieren, um ihn bei Bedarf einfach zu verfolgen und zu ändern, sondern auch, dass Autoren neue/ähnliche Dokumente erstellen können, ohne sie von Grund auf neu schreiben zu müssen.
+Die Menge an Inhalten, die Sie in einem System verwalten, um verschiedene Arten von Dokumenten zu unterstützen, die Endbenutzern bereitgestellt werden, erfordert, dass Autoren den Inhalt nicht nur kategorisieren, um ihn bei Bedarf einfach zu verfolgen und zu ändern, sondern auch, dass sie Autoren die Möglichkeit geben, neue/ähnliche Dokumente zu erstellen, ohne sie von Grund auf neu schreiben zu müssen.
 
 
 ## Sitzungsübersicht
 
-In dieser Sitzung haben wir im Großen und Ganzen Folgendes behandelt:
-- verschiedene Aspekte der Inhaltseinrichtung (Kategorisierung, Klassifizierung, Metadaten)
-- Einrichten von Inhaltsvorlagen (Themenvorlagen, Zuordnungsvorlagen, Snippets)
+In dieser Sitzung haben wir folgende Themen behandelt:
+- verschiedene Aspekte der Einrichtung von Inhalten (Kategorisierung, Klassifizierung, Metadaten)
+- Einrichten einer Inhaltsvorlage (Themenvorlagen, Zuordnungsvorlagen, Snippets)
 
 
 
@@ -39,13 +39,13 @@ In dieser Sitzung haben wir im Großen und Ganzen Folgendes behandelt:
 
 ## Haupterkenntnisse
 
-In dieser Sitzung haben Sie Folgendes erfahren:
-- Analysieren und Nachdenken vor dem Import/Erstellen von Inhalten
-- Klassifizieren und Kategorisieren des Inhalts für verschiedene Benutzersegmente (Endbenutzer oder Autor)
+In dieser Sitzung haben Sie Folgendes gelernt:
+- Zeit für Analyse und Nachdenken vor dem Importieren/Erstellen von Inhalten
+- Klassifizieren und Kategorisieren der Inhalte für verschiedene Benutzersegmente (Endbenutzer oder Autoren)
 - Nutzung von Metadatenfunktionen zur Steigerung der Benutzerproduktivität
-- Erstellen vordefinierter Authoring-Vorlagen so weit wie möglich, um Autoren ein geführtes Erlebnis zu bieten
-- Als KMU werden die Vorlagen angesprochen, mit denen Benutzergruppen arbeiten sollen
-- Optimale Anpassung des Authoring-Erlebnisses
+- Möglichst Erstellung vordefinierter Authoring-Vorlagen, um Autoren ein geführtes Erlebnis zu bieten
+- Als SME werden die Vorlagen ausgewählt, mit denen Benutzergruppen arbeiten sollen
+- Optimales Anpassen des Authoring-Erlebnisses
 
 
 
@@ -53,23 +53,23 @@ In dieser Sitzung haben Sie Folgendes erfahren:
 
 - **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **Benutzerhandbuch** - [Autoreninhalt](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **Benutzerhandbuch** - [Inhalt erstellen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Community-Forum** - Besuchen Sie für sitzungsspezifische Community-Interaktionen auf dem Experience League das [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Die in dieser Sitzung angezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
+> Die in dieser Sitzung gezeigten Funktionen sind in den folgenden Versionen von AEM Guides verfügbar:
 > - On-Premise: 4.2 oder höher
 > - Cloud Service: 2303 oder höher
 
 
-## Nächste Sachverständigensitzung
+## Nächste Expertensitzung
 
-- **Thema** - Native PDF-Veröffentlichung - Lernen nach Beispiel (Teil 1)
+- **Topic** - Natives PDF Publishing - Lernen nach Beispiel (Teil 1)
 - **Geplant am** - 1. Juni 2023
 
 
 ## Kontakt
 
-Bei Fragen senden Sie uns eine E-Mail an <techcomm@adobe.com>
+Bei Fragen senden Sie uns bitte eine E-Mail an <techcomm@adobe.com>

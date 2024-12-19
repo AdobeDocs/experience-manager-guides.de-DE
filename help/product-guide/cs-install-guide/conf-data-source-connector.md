@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Konfigurieren eines Datenquellen-Connectors
 
-AEM Guides bietet vordefinierte Connectoren für JIRA-, SQL-Datenbanken (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce- und Elasticsearch-Datenbanken. Sie können auch andere Connectoren hinzufügen, indem Sie die Standardschnittstellen erweitern. Die folgende Konfiguration hilft Ihnen, die verschiedenen Datenquellen einfach hinzuzufügen. Nach dem Hinzufügen können Sie die Datenquellen im Web Editor anzeigen.
+AEM Guides bietet vordefinierte Connectoren für JIRA-, SQL- (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce- und Elasticsearch-Datenbanken. Sie können auch andere Connectoren hinzufügen, indem Sie die Standardschnittstellen erweitern. Die folgende Konfiguration hilft Ihnen beim einfachen Hinzufügen der verschiedenen Datenquellen. Nach dem Hinzufügen können Sie die Datenquellen im Web-Editor anzeigen.
 
-Führen Sie die folgenden Schritte aus, um einen Datenquellen-Connector zu konfigurieren und ihn dann im Web Editor zu verwenden:
+Führen Sie die folgenden Schritte aus, um einen Datenquellen-Connector zu konfigurieren und ihn dann über den Web-Editor zu verwenden:
 
-## Connector konfigurieren
+## Konfigurieren eines Connectors
 
-Sie können einen vordefinierten Connector konfigurieren, indem Sie eine JSON-Datei hochladen. Sie können die folgenden Beispielkonfigurationsdateien verwenden, um Connectoren für JIRA-, SQL-Datenbanken (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce- und Elasticsearch-Datenbanken einzurichten.
+Sie können einen vorkonfigurierten Connector konfigurieren, indem Sie eine JSON-Datei hochladen. Sie können die folgenden Beispiel-Setup-Dateien verwenden, um Connectoren für JIRA-, SQL- (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce- und Elasticsearch-Datenbanken einzurichten.
 
-Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Jira mit Benutzername und Kennwort:
+Beispiel-Setup-Datei für die Jira-Standardauthentifizierung mit Benutzername und Kennwort:
 
 ```
 {
@@ -40,9 +40,9 @@ Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Jira mit Be
 }
 ```
 
-Speichern Sie beispielsweise als &quot;`jira.json`&quot;.
+Speichern Sie beispielsweise als `jira.json`.
 
-Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Jira mit Token:
+Beispiel-Setup-Datei für die einfache Authentifizierung von Jira mit Token:
 
 ```
 {
@@ -59,9 +59,9 @@ Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Jira mit To
 }
 ```
 
-Speichern Sie beispielsweise als &quot;`jira.json`&quot;.
+Speichern Sie beispielsweise als `jira.json`.
 
-Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Jira mit dem Token, in dem das Keyword &quot;Einfach&quot;enthalten ist:
+Beispiel-Setup-Datei für die einfache Authentifizierung von Jira mit dem Token, in dem das Keyword „Basic“ vorhanden ist:
 
 ```
 {
@@ -78,9 +78,9 @@ Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Jira mit de
 }
 ```
 
-Speichern Sie beispielsweise als &quot;`jira.json`&quot;.
+Speichern Sie beispielsweise als `jira.json`.
 
-Eine Beispielsetup-Datei für die einfache Authentifizierung von MySql:
+Beispiel-Setup-Datei für die Standardauthentifizierung von MySQL:
 
 ```
 {
@@ -99,9 +99,9 @@ Eine Beispielsetup-Datei für die einfache Authentifizierung von MySql:
 }
 ```
 
-Speichern Sie beispielsweise als &quot;`mysql.json`&quot;.
+Speichern Sie beispielsweise als `mysql.json`.
 
-Eine Beispielsetup-Datei für die einfache Authentifizierung von PostgreSQL:
+Beispiel-Setup-Datei für die Standardauthentifizierung von PostgreSQL:
 
 ```
 {
@@ -120,9 +120,9 @@ Eine Beispielsetup-Datei für die einfache Authentifizierung von PostgreSQL:
 }
 ```
 
-Speichern Sie beispielsweise als &quot;`postgres.json`&quot;.
+Speichern Sie beispielsweise als `postgres.json`.
 
-Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Microsoft SQL Server:
+Beispiel-Setup-Datei für die Standardauthentifizierung von Microsoft SQL Server:
 
 ```
 {
@@ -141,9 +141,9 @@ Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Microsoft S
 }
 ```
 
-Speichern Sie beispielsweise als &quot;`mssqlserver.json`&quot;.
+Speichern Sie beispielsweise als `mssqlserver.json`.
 
-Eine Beispielsetup-Datei für die grundlegende Authentifizierung von SQLite:
+Beispiel-Setup-Datei für die SQLite-Standardauthentifizierung:
 
 ```
 {
@@ -162,11 +162,11 @@ Eine Beispielsetup-Datei für die grundlegende Authentifizierung von SQLite:
 }
 ```
 
-Speichern Sie beispielsweise als &quot;`sqqlite.json`&quot;.
+Speichern Sie beispielsweise als `sqqlite.json`.
 
 
 
-Eine Beispielsetup-Datei für H2DB:
+Beispiel-Setup-Datei für H2DB:
 
 ```
 {
@@ -185,11 +185,11 @@ Eine Beispielsetup-Datei für H2DB:
 }
 ```
 
-Speichern Sie beispielsweise als &quot;`sqqlite.json`&quot;.
+Speichern Sie beispielsweise als `sqqlite.json`.
 
 
 
-Eine Beispielsetup-Datei für die grundlegende Authentifizierung von MariaDb:
+Beispiel-Setup-Datei für die einfache Authentifizierung von MariaDb:
 
 ```
 {
@@ -208,10 +208,10 @@ Eine Beispielsetup-Datei für die grundlegende Authentifizierung von MariaDb:
 }
 ```
 
-Speichern Sie beispielsweise als &quot;`mariadb.json`&quot;.
+Speichern Sie beispielsweise als `mariadb.json`.
 
 
-Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Elasticsearch:
+Eine Beispiel-Setup-Datei für die Standardauthentifizierung von Elasticsearch:
 
 ```
 {
@@ -228,9 +228,9 @@ Eine Beispielsetup-Datei für die grundlegende Authentifizierung von Elasticsear
 }
 ```
 
-Speichern Sie beispielsweise als &quot;`ES.json`&quot;.
+Speichern Sie beispielsweise als `ES.json`.
 
-Die Abfrage der Elastic Search sollte den Index und die Abfrage enthalten:
+Die Abfrage für die elastische Suche sollte den Index und die Abfrage enthalten:
 
 ```
 {
@@ -245,7 +245,7 @@ Die Abfrage der Elastic Search sollte den Index und die Abfrage enthalten:
 
 
 
-Eine Beispielsetup-Datei für AdobeCommerce NoAuth:
+Beispiel für eine Einrichtungsdatei für Adobe Commerce NoAuth:
 
 ```
 {
@@ -260,27 +260,27 @@ Eine Beispielsetup-Datei für AdobeCommerce NoAuth:
 }
 ```
 
-Speichern Sie beispielsweise als &quot;`commerce.json`&quot;.
+Speichern Sie beispielsweise als `commerce.json`.
 
-### Connector-Konfiguration anpassen
+### Anpassen einer Connector-Konfiguration
 
-Mit AEM Guides können Sie einige Werte in der Konfigurationsdatei an die Bedürfnisse des Benutzers anpassen.
+Mit AEM Guides können Sie einige Werte in der Konfigurationsdatei an die Anforderungen der Benutzenden anpassen.
 
 | Eigenschaftsname | Beschreibung |
 |---|---|
 | configName | Der Benutzer kann einen Konfigurationsnamen angeben, um den Connector zu identifizieren |
 | templateFolders | Liste der Ordner, aus denen Vorlagen abgerufen werden |
 
-Andere Felder werden basierend auf der Konfigurationsklasse angepasst, die zum Ausführen des Connectors ausgewählt wurde.
+Andere Felder werden je nach ausgewählter Konfigurationsklasse angepasst, um den Connector auszuführen.
 
-## Laden Sie die Datei an einen Speicherort in AEM hoch.
+## Laden Sie die Datei an einen Speicherort in AEM hoch
 
 Laden Sie die Datei an einen Speicherort in AEM Assets hoch.
 
 Beispiel: `/content/dam/jira.json`
 
-## Erstellen einer Konfiguration mithilfe der REST-API
+## Erstellen einer Konfiguration mit der REST-API
 
-Sie können die Konfiguration mithilfe der REST-API registrieren. Weitere Informationen finden Sie im Abschnitt *REST API to register a data source connector* in der API-Referenz für Adobe Experience Manager Guides.
+Sie können die Konfiguration mit der REST-API registrieren. Weitere Informationen finden Sie im Abschnitt *REST-API zum Registrieren eines Datenquellen-Connectors* in der API-Referenz für Adobe Experience Manager Guides.
 
-Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector im Web Editor im Bereich &quot;Data Sources&quot;aufgeführt. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Einfügen eines Inhaltsfragments aus Ihrer Datenquelle](../user-guide/web-editor-content-snippet.md).
+Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector im Web-Editor unter dem Bedienfeld „Datenquellen“ aufgelistet. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Einfügen eines Inhaltsausschnitts aus Ihrer Datenquelle](../user-guide/web-editor-content-snippet.md).

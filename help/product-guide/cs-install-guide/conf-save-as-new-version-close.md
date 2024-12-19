@@ -1,6 +1,6 @@
 ---
 title: Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren
-description: Erfahren Sie, wie Sie die Aufforderung zum Speichern als neue Version beim Schließen konfigurieren
+description: Erfahren Sie, wie Sie die Eingabeaufforderung konfigurieren, um beim Schließen als neue Version zu speichern
 exl-id: 9029b671-8ff8-45eb-b27e-ab89bd09e7ed
 feature: Web Editor Configuration
 role: Admin
@@ -14,16 +14,16 @@ ht-degree: 1%
 
 # Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren {#id222HBI00XXA}
 
-Wenn der Benutzer versucht, eine Datei zu schließen, die im Web Editor mithilfe der Schaltfläche **Schließen** auf der Registerkarte der Datei oder der Option **Schließen** im Menü &quot;Optionen&quot;geöffnet ist, wird ein Dialogfeld angezeigt, wenn die Datei nicht gespeicherte Daten oder eine nicht gespeicherte Version aufweist. Der Benutzer wird aufgefordert, die Datei als neue Version zu speichern, wenn die Version nicht gespeichert wird.
+Wenn der/die Benutzende versucht, eine Datei zu schließen, die im Web-Editor mit der Schaltfläche **Schließen** auf der Registerkarte der Datei oder der Option **Schließen** im Menü Optionen geöffnet wurde, wird ein Dialogfeld angezeigt, wenn die Datei ungespeicherte Daten oder eine ungespeicherte Version enthält. Der/die Benutzende wird aufgefordert, die Datei als neue Version zu speichern, wenn die Version nicht gespeichert wurde.
 
-Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#) , um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden \(Eigenschaft\)-Details an, um eine Eingabeaufforderung zum Speichern beim Schließen als neue Version zu konfigurieren:
+Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#), um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden \(property\)-Details ein, um beim Schließen eine Eingabeaufforderung zum Speichern als neue Version zu konfigurieren:
 
-| PID | Eigenschaftenschlüssel | Eigenschaftswert |
+| PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.savenewversion` | Boolesch \( true/false\). <br>  **Standardwert**: true |
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.savenewversion` | Boolescher Wert \( true/false\). <br>  **Standardwert**: true |
 
-Wenn diese Konfiguration aktiviert ist, ist das Kontrollkästchen **Als neue Version speichern** im Dialogfeld standardmäßig aktiviert.
+Wenn diese Konfiguration aktiviert ist **ist das Kontrollkästchen** Als neue Version speichern“ im Dialogfeld standardmäßig aktiviert.
 
-Weitere Informationen finden Sie im Abschnitt *Szenarien schließen und speichern* im Handbuch Verwenden von Adobe Experience Manager Guides as a Cloud Service .
+Weitere Informationen finden Sie *Abschnitt „Schließen und Speichern von Dateien* im Handbuch Verwenden von Adobe Experience Manager Guides as a Cloud Service .
 
-**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

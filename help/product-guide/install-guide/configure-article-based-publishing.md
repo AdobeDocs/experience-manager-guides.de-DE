@@ -1,6 +1,6 @@
 ---
-title: Pakete für die artikelbasierte Veröffentlichung installieren
-description: Erfahren Sie, wie Sie Pakete für eine artikelbasierte Veröffentlichung installieren.
+title: Installieren von Paketen für die artikelbasierte Veröffentlichung
+description: Erfahren Sie, wie Sie Pakete für die artikelbasierte Veröffentlichung installieren
 exl-id: 69f408da-602d-4541-94fa-6f058773502f
 feature: Web Editor Configuration
 role: Admin
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Pakete für die artikelbasierte Veröffentlichung installieren {#id21BNL02052Z}
+# Installieren von Paketen für die artikelbasierte Veröffentlichung {#id21BNL02052Z}
 
-AEM Guides bietet eine leistungsstarke artikelbasierte Veröffentlichungsfunktion, die in den Web Editor integriert ist. Mit dieser Funktion können Sie ein oder mehrere Themen gleichzeitig veröffentlichen. Nachdem Sie eine Zuordnung im Map Editor geöffnet haben, können Sie zur Registerkarte &quot;Ausgaben&quot;navigieren, um eine Vorgabe zu erstellen, und dann ein oder mehrere Themen auswählen, um die Ausgabe zu generieren. Sie können die Funktion zur artikelbasierten Veröffentlichung verwenden, um schrittweise die Ausgabe eines oder mehrerer Themen zu generieren oder Ihre Inhalte auf einer Knowledgebase-Plattform in Artikelform zu veröffentlichen. Weitere Informationen finden Sie unter *Artikelbasierte Veröffentlichung im Web-Editor-Abschnitt* im Benutzerhandbuch.
+AEM Guides bietet eine leistungsstarke Funktion zum Veröffentlichen auf Artikelbasis, die in den Web-Editor integriert ist. Mit dieser Funktion können Sie ein oder mehrere Themen gleichzeitig veröffentlichen. Nachdem Sie eine Zuordnung im Zuordnungs-Editor geöffnet haben, können Sie zur Registerkarte Ausgaben navigieren, um eine Vorgabe zu erstellen, und dann ein oder mehrere Themen auswählen, um die Ausgabe zu generieren. Sie können die Funktion zum artikelbasierten Veröffentlichen verwenden, um schrittweise Ausgaben für ein oder mehrere Themen zu generieren oder Ihre Inhalte Artikel für Artikel auf einer Wissensdatenbankplattform zu veröffentlichen. Weitere Informationen finden Sie *Abschnitt Artikelbasierte Veröffentlichung im Web-Editor* im Benutzerhandbuch.
 
-Um die artikelbasierte Veröffentlichung zu aktivieren, laden Sie die folgenden Pakete von Ihrem Adobe Software Distribution-Portal herunter und installieren Sie sie. Installieren Sie sie, um eine Tragopan-Site zu erstellen. \(Tragopan Website ist eine Beispiel-Knowledgebase AEM Website mit Vorlagen für Kategorien, Abschnitte und Artikelseiten.\) Aktualisieren Sie die Website Tragopan , um die Ausgabe der AEM mithilfe der Ausgabevorgaben aus dem Web Editor zu generieren.
+Um die artikelbasierte Veröffentlichung zu aktivieren, laden Sie die folgenden Pakete von Ihrem Adobe Software Distribution-Portal herunter und installieren Sie sie. Installieren Sie sie, um eine Tragopan-Site zu erstellen. \(Die Tragopan-Website ist eine Beispiel-AEM-Website der Wissensdatenbank mit Vorlagen für eine Kategorie, einen Abschnitt und Artikelseiten.\) Aktualisieren Sie die Tragopan-Site, um die AEM-Site-Ausgabe mithilfe der Ausgabevorgaben aus dem Web-Editor zu generieren.
 
-- Knowledgebase-Vorlage für artikelbasierte Veröffentlichung
-- Komponentenpaket für artikelbasierte Veröffentlichung
+- Wissensdatenbankvorlage für die artikelbasierte Veröffentlichung
+- Komponentenpaket für die artikelbasierte Veröffentlichung
 
-**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

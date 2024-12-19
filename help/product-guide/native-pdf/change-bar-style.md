@@ -1,6 +1,6 @@
 ---
-title: Native PDF Publish-Funktion | Arbeiten mit benutzerdefinierten Änderungsbalkenstilen
-description: Erfahren Sie, wie Sie Stile auf Änderungsleisten anwenden.
+title: Native PDF Publish-Funktion | Arbeiten mit benutzerdefinierten Änderungs-Balkenstilen
+description: Erfahren Sie, wie Sie Stile auf Änderungsbalken anwenden.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
 role: Admin
@@ -12,24 +12,24 @@ ht-degree: 0%
 
 ---
 
-# Arbeiten mit benutzerdefinierten Änderungsbalkenstilen
+# Arbeiten mit benutzerdefinierten Änderungs-Balkenstilen
 
-Ein Änderungsbalken ist eine vertikale Linie, die neue oder überarbeitete Inhalte visuell identifiziert. Mit AEM Guides können Sie links neben dem geänderten Inhalt innerhalb der Themen und auch die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe eine Änderungsleiste anzeigen.
+Eine Änderungsleiste ist eine vertikale Linie, die neue oder überarbeitete Inhalte visuell identifiziert. AEM Guides ermöglicht es Ihnen, links neben dem geänderten Inhalt innerhalb von Themen und auch den geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe eine Änderungsleiste anzuzeigen.
 
-Weitere Informationen zum Anzeigen der Änderungsleiste finden Sie unter der Einstellung *PDF mit Änderungsleiste zwischen veröffentlichten Versionen erstellen* in der Einstellung [Publish PDF Output](../web-editor/native-pdf-web-editor.md).
+Weitere Informationen zum Anzeigen der Änderungsleiste finden Sie unter *Erstellen von PDF mit Änderungsleiste zwischen veröffentlichten Versionen* in der [Publish PDF-Ausgabe](../web-editor/native-pdf-web-editor.md).
 
-## Inhalt innerhalb von Themen geändert
+## Geänderter Inhalt innerhalb von Themen
 
-Die Änderungsleiste wird links neben dem Inhalt in den Themen angezeigt, die eingefügt, geändert oder gelöscht wurden.
+Die Änderungsleiste wird auf der linken Seite des Inhalts in den Themen angezeigt, die eingefügt, geändert oder gelöscht wurden.
 
-Sie können die folgenden Stile ändern, um den geänderten Inhalt und darunter mit den Änderungsleisten anzuzeigen.
+Sie können die folgenden Stile ändern, um die geänderten Inhalte und zwischen den mit den Änderungsleisten anzuzeigen.
 
 
 >[!NOTE]
 >
->Diese Stile sind Teil der Datei &quot;`layout.css`&quot;, die Sie nach Bedarf bearbeiten können.
+>Diese Stile sind Teil `layout.css` Datei, und Sie können sie nach Bedarf bearbeiten.
 
-Beispielsweise können Sie mit dem Farbattribut im Stil `.inserted-block` festlegen, wie der eingefügte Inhalt in der veröffentlichten PDF-Ausgabe angezeigt wird.
+Sie können beispielsweise das Farbattribut im `.inserted-block`-Stil verwenden, um zu definieren, wie Ihr eingefügter Inhalt in der veröffentlichten PDF-Ausgabe angezeigt wird.
 
 
 ```css
@@ -46,7 +46,7 @@ Beispielsweise können Sie mit dem Farbattribut im Stil `.inserted-block` festle
 ...
 ```
 
-Auf ähnliche Weise können Sie den Stil `.deleted-block` verwenden, um festzulegen, wie der gelöschte Inhalt in der veröffentlichten PDF-Ausgabe angezeigt wird.
+Ebenso können Sie den `.deleted-block`-Stil verwenden, um zu definieren, wie der gelöschte Inhalt in der veröffentlichten PDF-Ausgabe angezeigt wird.
 
 ```css
 ...
@@ -63,9 +63,9 @@ Auf ähnliche Weise können Sie den Stil `.deleted-block` verwenden, um festzule
 ...
 ```
 
-Sie können den Stil `.inserted-change-bar` und `.deleted-change-bar` verwenden, um das Erscheinungsbild der Änderungsbalken zu ändern, die links neben dem aktualisierten Inhalt angezeigt werden.
+Sie können `.inserted-change-bar` und `.deleted-change-bar` Stil verwenden, um das Erscheinungsbild der Änderungsleisten zu ändern, die links neben dem aktualisierten Inhalt angezeigt werden.
 
-Beispielsweise können Sie das Attribut `-ro-change-bar-color` im Stil `.inserted-change-bar` verwenden, um die eingefügte Änderungsleiste in grüner Farbe anzuzeigen. Sie können auch das Attribut `-ro-change-bar-color` im Stil `.deleted-change-bar` verwenden, um die gelöschte Änderungsleiste in roter Farbe anzuzeigen.
+Beispielsweise können Sie `-ro-change-bar-color` -Attribut `.inserted-change-bar` Stil verwenden, um den eingefügten Änderungsbalken grün anzuzeigen. Sie können auch `-ro-change-bar-color` Attribut im `.deleted-change-bar`-Stil verwenden, um den gelöschten Änderungsbalken rot anzuzeigen.
 
 ```css
 ...
@@ -79,11 +79,11 @@ Beispielsweise können Sie das Attribut `-ro-change-bar-color` im Stil `.inserte
 ...
 ```
 
-<img src="./assets/changed-bar-content.png" alt="Geänderter Inhalt des Balkendiagramms" width="500">
+<img src="./assets/changed-bar-content.png" alt="Inhalt des geänderten Balkenthemas" width="500">
 
-## Geändertes Thema im Inhaltsverzeichnis (Inhaltsverzeichnis)
+## Geändertes Thema im Inhaltsverzeichnis (TOC)
 
-Sie können auch eine Änderungsleiste links von den geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe hinzufügen. Sie können das Attribut `-ro-change-bar-color` im Stil `.changed-topic` verwenden, um eine Änderungsleiste in der Farbe Ihrer Wahl für die aktualisierten Themen in der Liste &quot;Inhaltsverzeichnis&quot;hinzuzufügen.
+Sie können auch eine Änderungsleiste links neben den geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe hinzufügen. Sie können `-ro-change-bar-color` Attribut im `.changed-topic` verwenden, um eine Änderungsleiste in der Farbe Ihrer Wahl für die aktualisierten Themen in der Inhaltsverzeichnisliste hinzuzufügen.
 
 Sie können beispielsweise einen Änderungsbalken mit grüner Farbe hinzufügen.
 
@@ -96,6 +96,6 @@ Sie können beispielsweise einen Änderungsbalken mit grüner Farbe hinzufügen.
 ```
 
 
-Dies zeigt eine grüne Änderungsleiste für alle Themen im Inhaltsverzeichnis, an denen einige Änderungen vorgenommen wurden. Sie können auf das geänderte Thema im Inhaltsverzeichnis klicken und die detaillierten Änderungen anzeigen.
+Dies zeigt eine grüne Änderungsleiste für alle Themen im Inhaltsverzeichnis, bei denen einige Aktualisierungen vorgenommen wurden. Sie können auf das geänderte Thema im Inhaltsverzeichnis klicken und die detaillierten Änderungen anzeigen.
 
-<img src="./assets/changed-bar-TOC.png" alt="Inhaltsverzeichnis der geänderten Leiste" width="500">
+<img src="./assets/changed-bar-TOC.png" alt="Geändertes Balken-Inhaltsverzeichnis" width="500">

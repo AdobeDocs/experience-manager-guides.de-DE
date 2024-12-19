@@ -1,6 +1,6 @@
 ---
-title: Rendering-Widgets
-description: Funktionsweise des Renderings in JUI Widgets
+title: Rendern von Widgets
+description: Funktionsweise des Renderings in JUI-Widgets
 role: User, Admin
 exl-id: 381cc7b9-c957-40be-9db4-8347eefe2fa7
 source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Rendering-Widgets
+# Rendern von Widgets
 
-Wir können ein Widget rendern, indem wir es mit seinem `id` referenzieren
+Wir können ein Widget rendern, indem wir es mithilfe seiner `id` referenzieren
 
-Um das Widget `widget_languages` überall in der App zu rendern, können wir die einfache Syntax verwenden:
+Um das Widget an einer beliebigen Stelle in der App `widget_languages` zu rendern, können wir die einfache Syntax verwenden:
 
 ```json
 {
@@ -23,8 +23,8 @@ Um das Widget `widget_languages` überall in der App zu rendern, können wir die
 }
 ```
 
-Widgets können auch zum Rendern komplexer Elemente verwendet werden, z. B. zum Rendern der Liste der Mitwirkenden für jede Datei.
-Hier kann das Widget wie folgt erstellt werden:
+Widgets können auch verwendet werden, um komplexe Elemente zu rendern, z. B. um die Liste der Mitwirkenden für jede Datei zu rendern.
+Hier kann das Widget wie folgt aufgebaut werden:
 
 ```js title="fileContributorsWidget.js"
 const widgetJSON =  {
@@ -55,7 +55,7 @@ const widgetJSON =  {
 },
 ```
 
-Um nun eine Liste der Beitragenden für jede Datei zu rendern, schreiben wir die Liste wie folgt:
+Um nun für jede Datei eine Liste der Mitwirkenden zu rendern, schreiben wir die Liste wie folgt:
 
 ```js title="fileContributorsList.js"
 const listJSON = {
@@ -68,7 +68,7 @@ const listJSON = {
 }
 ```
 
-Hier ist `@files` eine Liste von Dateiobjekten mit Feldern
+Im Folgenden finden `@files` eine Liste von Dateiobjekten mit Feldern
 
 ```typescript
 - fileName: string

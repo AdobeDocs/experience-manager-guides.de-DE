@@ -12,8 +12,8 @@ ht-degree: 6%
 
 # Label
 
-Um Text oder Zeichenfolge anzuzeigen, verwenden wir die Komponente, Bezeichnung.
-Die Beschriftungskomponente in JUI steht für einen HTML-Code `<label/>`.
+Um einen beliebigen Text oder eine beliebige Zeichenfolge anzuzeigen, verwenden wir die Komponente Beschriftung .
+Die Beschriftungskomponente in der JUI stellt eine HTML-`<label/>` dar.
 
 Nachfolgend finden Sie ein Beispiel für das Hinzufügen einer statischen Beschriftung
 

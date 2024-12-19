@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # Dateinamen konfigurieren {#id214BD010GXA}
 
-In diesem Thema werden Informationen zum Arbeiten mit Dateinamen für Ihre DITA-Dateien behandelt. Bei UUID-basierten Systemen können Sie automatisch einen UUID-basierten Dateinamen definieren und für reguläre Systeme können Sie die Liste der zulässigen Zeichen in den Dateinamen steuern.
+Dieses Thema enthält Informationen zum Arbeiten mit Dateinamen für Ihre DITA-Dateien. Bei UUID-basierten Systemen können Sie den UUID-basierten Dateinamen automatisch definieren. Bei regulären Systemen können Sie die Liste der gültigen Zeichen in den Dateinamen steuern.
 
-- **[Konfigurieren von automatischen Dateinamen basierend auf der UUID](conf-auto-uuid-filenames.md)**
+- **[Konfigurieren von automatischen Dateinamen basierend auf UUID](conf-auto-uuid-filenames.md)**
 
-- **[Konfigurieren von Regx für gültige Dateinamenzeichen](conf-file-names-valid-regx.md)**
+- **[Konfigurieren von RegX für gültige Dateinamenzeichen](conf-file-names-valid-regx.md)**
 
-- **[Gültige Dateinamen für AEM Site-Ausgabe konfigurieren](conf-file-names-valid-regx-aem-site-output.md)**
+- **[Konfigurieren gültiger Dateinamen für die AEM-Site-Ausgabe](conf-file-names-valid-regx-aem-site-output.md)**

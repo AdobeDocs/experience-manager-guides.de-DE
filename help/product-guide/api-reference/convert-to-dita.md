@@ -1,6 +1,6 @@
 ---
-title: REST-APIs für Konversions-Workflow
-description: Erfahren Sie mehr über die REST-APIs für den Konversions-Workflow
+title: REST-APIs für Konvertierungs-Workflow
+description: Erfahren Sie mehr über die REST-APIs für Konvertierungs-Workflows
 exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
@@ -12,33 +12,33 @@ ht-degree: 9%
 
 ---
 
-# REST-APIs für Konversions-Workflow {#id175UB30E05Z}
+# REST-APIs für Konvertierungs-Workflow {#id175UB30E05Z}
 
 Mit den folgenden REST-APIs können Sie Word-, HTML- und InDesign-Dokumente in das DITA-Format konvertieren.
 
-## Konvertieren von Word-Dokumenten
+## Word-Dokumente konvertieren
 
-Eine GET, die Word-Dokumente in DITA-Format konvertiert.
+Eine GET-Methode, die Word-Dokumente in das DITA-Format konvertiert.
 
-**Anforderungs-URL**:
+**Anfrage-URL**:
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 | Name | Typ | Erforderlich | Beschreibung |
 |----|----|--------|-----------|
-| ``operation`` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist ``word2dita``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
-| `inputFile` | Zeichenfolge | Ja | Absoluter Pfad der Word-Quelldateien in AEM Repository. |
-| `destPath` | Zeichenfolge | Ja | Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden. |
+| ``operation`` | Zeichenfolge | Ja | Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist ``word2dita``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| `inputFile` | Zeichenfolge | Ja | Absoluter Pfad der Word-Quelldateien im AEM-Repository. |
+| `destPath` | Zeichenfolge | Ja | Absoluter Pfad des Zielspeicherorts, an dem die konvertierten DITA-Dateien gespeichert werden. |
 | `createRev` | Boolesch | Ja | Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält. |
 | `style2tagMap` | Zeichenfolge | Ja | Absoluter Pfad der Stilzuordnungsdatei, die für die Konvertierung verwendet wird. |
 
 **Antwortwerte**:
-Gibt eine HTTP-Antwort 200 \(Erfolgreich\) zurück.
+Gibt eine HTTP-Antwort 200 \(erfolgreich\) zurück.
 
-## Konvertieren von HTML-Dokumenten
+## HTML-Dokumente konvertieren
 
 Eine GET-Methode, die HTML-Dokumente in das DITA-Format konvertiert.
 
-**Anforderungs-URL**:
+**Anfrage-URL**:
 
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
@@ -46,30 +46,30 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 | Name | Typ | Erforderlich | Beschreibung |
 |----|----|--------|-----------|
-| `operation` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist ``html2dita``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
-| `inputFile` | Zeichenfolge | Ja | Absoluter Pfad der HTML-Quelldateien im AEM Repository. |
-| `destPath` | Zeichenfolge | Ja | Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden. |
+| `operation` | Zeichenfolge | Ja | Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist ``html2dita``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| `inputFile` | Zeichenfolge | Ja | Absoluter Pfad der Quell-HTML-Dateien im AEM-Repository |
+| `destPath` | Zeichenfolge | Ja | Absoluter Pfad des Zielspeicherorts, an dem die konvertierten DITA-Dateien gespeichert werden. |
 | `createRev` | Boolesch | Ja | Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält. |
 
 **Antwortwerte**:
 
-Gibt eine HTTP-Antwort 200 \(Erfolgreich\) zurück.
+Gibt eine HTTP-Antwort 200 \(erfolgreich\) zurück.
 
-## Konvertieren von InDesign-Dokumenten
+## InDesign-Dokumente konvertieren
 
 Eine GET-Methode, die InDesign-Dokumente in das DITA-Format konvertiert.
 
-**Anforderungs-URL**:
+**Anfrage-URL**:
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/conversion
 
 **Parameter**:
 
 | Name | Typ | Erforderlich | Beschreibung |
 |----|----|--------|-----------|
-| ``operation`` | Zeichenfolge | Ja | Name des aufgerufenen Vorgangs. Der Wert dieses Parameters ist ``idml2dita``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
-| `inputFile` | Zeichenfolge | Ja | Absoluter Pfad der InDesign-Quelldateien im AEM Repository. |
-| `destPath` | Zeichenfolge | Ja | Absoluter Pfad des Zielorts, an dem die konvertierten DITA-Dateien gespeichert werden. |
+| ``operation`` | Zeichenfolge | Ja | Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist ``idml2dita``. <br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
+| `inputFile` | Zeichenfolge | Ja | Absoluter Pfad der Quell-InDesign-Dateien im AEM-Repository |
+| `destPath` | Zeichenfolge | Ja | Absoluter Pfad des Zielspeicherorts, an dem die konvertierten DITA-Dateien gespeichert werden. |
 | `createRev` | Boolesch | Ja | Geben Sie an, ob eine Revision der Dateien \( `true`\) am angegebenen Ziel erstellt wird oder nicht \( `false`\). Dies wird nur berücksichtigt, wenn der Zielspeicherort eine vorhandene Version der konvertierten Dateien enthält. |
 
 **Antwortwerte**:
-Gibt eine HTTP-Antwort 200 \(Erfolgreich\) zurück.
+Gibt eine HTTP-Antwort 200 \(erfolgreich\) zurück.

@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version März 2023
-description: Version von Adobe Experience Manager Guides as a Cloud Service im März
+title: Versionshinweise zu | Adobe Experience Manager Guides as a Cloud Service, Version März 2023
+description: März-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
 feature: Release Notes
 role: Leader
@@ -12,16 +12,16 @@ ht-degree: 0%
 ---
 
 
-# Neue Funktionen in der Adobe Experience Manager Guides as a Cloud Service-Version vom März 2023
+# Neue Funktionen in der Version März 2023 von Adobe Experience Manager Guides as a Cloud Service
 
-In diesem Artikel werden die neuen und verbesserten Funktionen in der Adobe Experience Manager Guides-Version vom März 2023 (später als *AEM Guides as a Cloud Service* bezeichnet) behandelt.
+Dieser Artikel behandelt die neuen und erweiterten Funktionen in der Version März 2023 von Adobe Experience Manager Guides (später *AEM Guides as a Cloud Service*).
 
 Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie im Artikel [Versionshinweise](release-notes-2023-3-0.md) .
 
 
-## Öffnen und Abspielen von Video- oder Audiodateien im Web Editor
+## Öffnen und Wiedergeben von Video- oder Audiodateien im Web-Editor
 
-AEM Guides bietet jetzt die Funktion zum Öffnen und Abspielen der Audio- oder Videodateien im Web-Editor. Sie können die Lautstärke oder die Ansicht des Videos ändern. Im Kontextmenü haben Sie auch die Optionen zum **Herunterladen**, zum Ändern der **Rückspielgeschwindigkeit** oder zum Anzeigen des **Bild-im-Bild-Modus**.
+AEM Guides bietet jetzt die Funktion zum Öffnen und Wiedergeben der Audio- oder Videodateien im Web-Editor. Sie können die Lautstärke oder die Ansicht des Videos ändern. Im Kontextmenü haben Sie auch die Optionen **Herunterladen**, **Wiedergabegeschwindigkeit** oder Ansicht **Bild in Bild**.
 
-<img src="assets/video-web-editor.png" alt="Abspielvideo" width="600">
+<img src="assets/video-web-editor.png" alt="Video abspielen" width="600">
 

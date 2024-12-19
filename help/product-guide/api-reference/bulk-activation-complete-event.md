@@ -1,6 +1,6 @@
 ---
-title: Ereignis-Handler für Massenaktivierung
-description: Erfahren Sie mehr über den Massen-Aktivierungsabschließen-Ereignishandler
+title: Massenaktivierung - vollständiger Ereignishandler
+description: Informationen zum vollständigen Ereignis-Handler für die Massenaktivierung
 feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
@@ -12,13 +12,13 @@ ht-degree: 7%
 
 ---
 
-# Ereignis-Handler für Massenaktivierung
+# Massenaktivierung - vollständiger Ereignishandler
 
-Experience Manager Guides zeigt das `com/adobe/fmdita/replication/complete` -Ereignis an, das verwendet wird, um nach Abschluss eines Massenaktivierungsprozesses alle Vorgänge auszuführen. Dieses Ereignis wird ausgelöst, wenn ein Massenaktivierungsprozess abgeschlossen ist. Wenn Sie beispielsweise die Massenaktivierung einer AEM Site-Vorgabe einer Zuordnung ausführen, wird dieses Ereignis nach dem Ende des Aktivierungsprozesses aufgerufen.
+Experience Manager Guides stellt `com/adobe/fmdita/replication/complete` Ereignis bereit, mit dem alle Vorgänge nach Abschluss eines Massenaktivierungsprozesses ausgeführt werden. Dieses Ereignis wird ausgelöst, wenn ein Massenaktivierungsprozess abgeschlossen ist. Wenn Sie beispielsweise die Massenaktivierung einer AEM-Site-Voreinstellung einer Zuordnung ausführen, wird dieses Ereignis nach dem Ende des Aktivierungsprozesses aufgerufen.
 
-Sie müssen einen AEM Ereignishandler erstellen, um die in diesem Ereignis verfügbaren Eigenschaften zu lesen und eine weitere Verarbeitung durchzuführen.
+Sie müssen einen AEM-Ereignishandler erstellen, um die in diesem Ereignis verfügbaren Eigenschaften zu lesen und die Verarbeitung fortzusetzen.
 
-Ereignisdetails werden nachfolgend erläutert:
+Details zum Ereignis werden unten erläutert:
 
 **Ereignisname**:
 
@@ -30,13 +30,13 @@ com/adobe/fmdita/replication/complete
 
 | Name | Typ | Beschreibung |
 |----|----|-----------|
-| `path` | Zeichenfolge | Der Pfad der Datei, die dieses Ereignis ausgelöst hat. <br> Zum Beispiel `/content/output/sites/ditamap1-ditamap`. <br> Dies ist eine Liste von Pfaden, die als JSON-Array serialisiert wurden. |
-| `messageType` | Zeichenfolge | Der Typ einer Nachricht. <br>Mögliche Option : `REPLICATION` |
-| `action` | Zeichenfolge | Dies ist die ausgeführte Aktion. <br>Mögliche Option : `BulkReplicate` |
+| `path` | Zeichenfolge | Pfad der Datei, die dieses Ereignis ausgelöst hat <br> Zum Beispiel `/content/output/sites/ditamap1-ditamap`. <br> Es handelt sich um eine Liste von Pfaden, die als JSON-Array serialisiert wurden. |
+| `messageType` | Zeichenfolge | Der Typ einer Nachricht. <br>Mögliche Option: `REPLICATION` |
+| `action` | Zeichenfolge | Dies ist die durchgeführte Aktion. <br>Mögliche Option: `BulkReplicate` |
 | `user` | Zeichenfolge | Der Benutzer, der den Vorgang gestartet hat. |
-| `result` | Zeichenfolge | Das Ergebnis der Massenaktivierung. Dies ist ein serialisiertes JSON-Objekt: <br>`{"success":boolean,"code":integer,"message":"" }` |
-| `agentId` | Zeichenfolge | Die in der Replikation verwendete agentId. Zum Beispiel: `"publish"`. |
-| `importMode` | Zeichenfolge | In Activation verwendeter Importmodus. Die möglichen Optionen sind: <br>`REPLACE, MERGE, UPDATE`. |
+| `result` | Zeichenfolge | Das Ergebnis der Massenaktivierung. Es handelt sich um ein serialisiertes JSON-Objekt: <br>`{"success":boolean,"code":integer,"message":"" }` |
+| `agentId` | Zeichenfolge | Die bei der Replikation verwendete agentId. Zum Beispiel: `"publish"`. |
+| `importMode` | Zeichenfolge | Bei Aktivierung verwendeter Importmodus. Die möglichen Optionen sind: <br>`REPLACE, MERGE, UPDATE`. |
 
 
 **Beispiel-Ereignis-Listener**:

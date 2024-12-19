@@ -1,6 +1,6 @@
 ---
 title: Funktionsweise von AEM Guides
-description: Erfahren Sie, wie AEM Guides mit AEM und anderen DITA-Editoren zusammenarbeitet, um Content Management, Wiederverwendung, Übersetzung und Überprüfung in einem Unternehmensszenario zu ermöglichen.
+description: Erfahren Sie, wie AEM Guides mit AEM und anderen DITA-Editoren zusammenarbeitet, um Content-Management, Wiederverwendung, Übersetzung und Review in einem Unternehmensszenario zu ermöglichen.
 exl-id: 7c76fa01-63dc-4017-af15-c1e62b1849d1
 feature: Introduction
 role: User
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Funktionsweise von AEM Guides {#id167G9A00DO4}
 
-Das folgende Diagramm zeigt, wie AEM Guides mit AEM und beliebigen DITA-Editoren arbeitet, um die Inhaltsverwaltung, Wiederverwendung, Übersetzung und Überprüfung in einem Unternehmensszenario zu ermöglichen.
+Das folgende Diagramm veranschaulicht, wie AEM Guides mit AEM und einem beliebigen DITA-Editor zusammenarbeitet, um Content-Management, Wiederverwendung, Übersetzung und Überprüfung in einem Unternehmensszenario zu ermöglichen.
 
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 
 
-**Übergeordnetes Thema:**[ Info zu Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Übergeordnetes Thema:**[&#x200B;Über Adobe Experience Manager Guides as a Cloud Service](intro.md)

@@ -13,7 +13,7 @@ ht-degree: 6%
 # Symbol
 
 Um ein Symbol anzuzeigen, verwenden wir die Komponente, das Symbol .
-Die Textbereichskomponente in JUI stellt einen HTML-Code `<icon/>` dar.
+Die Textbereichskomponente in der Benutzeroberfläche stellt eine HTML-`<icon/>` dar.
 
 Die unter [Adobe Spectrum Icons](https://spectrum.adobe.com/page/icons/) verfügbaren Symbole sind mit unserer App kompatibel.
 
@@ -26,7 +26,7 @@ const iconJSON =  {
 },
 ```
 
-Schaltflächen können auch Symbole hinzugefügt werden.
+Symbole können auch zu Schaltflächen hinzugefügt werden.
 
 Das gerenderte Symbol sieht wie folgt aus:
 

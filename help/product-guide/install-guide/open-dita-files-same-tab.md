@@ -1,6 +1,6 @@
 ---
-title: DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen
-description: Erfahren Sie, wie Sie DITA-Themen oder -Zuordnungsdateien auf derselben Registerkarte öffnen
+title: Öffnen von DITA-Themen oder Zuordnungsdateien in derselben Registerkarte
+description: Erfahren Sie, wie Sie DITA-Themen oder -Zuordnungsdateien in derselben Registerkarte öffnen.
 exl-id: 81ad2e18-3ea7-4cc1-8387-d703d1038a18
 feature: Web Editor Configuration
 role: Admin
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# DITA-Themen- oder Zuordnungsdateien auf derselben Registerkarte öffnen {#id223HI0P202H}
+# Öffnen von DITA-Themen oder Zuordnungsdateien in derselben Registerkarte {#id223HI0P202H}
 
-Wenn Sie in einigen Workflows auf einen Link eines Themas oder einer Zuordnungsdatei klicken, wird dieser in einer neuen Registerkarte geöffnet. Dies kann dazu führen, dass in Ihrem Browser viele Tabs geöffnet werden, was sich auf Ihre Produktivität auswirken könnte. Sie können dieses Verhalten beim Öffnen einer Themen- oder Zuordnungsdatei in einer neuen Registerkarte ändern und das Öffnen auf der aktuellen Registerkarte erzwingen. Führen Sie dazu die folgenden Konfigurationsänderungen durch:
+Wenn Sie in einigen Workflows auf einen Link eines Themas oder einer Zuordnungsdatei klicken, wird diese auf einer neuen Registerkarte geöffnet. Dies kann dazu führen, dass in Ihrem Browser viele Registerkarten geöffnet werden, was sich auf Ihre Produktivität auswirken kann. Sie können dieses Verhalten ändern, wenn Sie ein Thema oder eine Zuordnungsdatei in einer neuen Registerkarte öffnen und das Öffnen in der aktuellen Registerkarte erzwingen. Führen Sie dazu die folgenden Konfigurationsänderungen durch:
 
-1. Öffnen Sie die Seite Adobe Experience Manager Web Console Configuration .
+1. Öffnen Sie die Seite Konfiguration der Adobe Experience Manager-Web-Konsole .
 
    Die Standard-URL für den Zugriff auf die Konfigurationsseite lautet:
 
@@ -24,24 +24,24 @@ Wenn Sie in einigen Workflows auf einen Link eines Themas oder einer Zuordnungsd
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Suchen Sie nach dem Bundle **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** und klicken Sie darauf.
+1. Suchen Sie nach dem Bundle **com.adobe.fmdita.xmeditor.config.XmlEditorConfig** und klicken Sie darauf.
 
-1. Wählen Sie die Option **DITA-Thema/Karte auf derselben Registerkarte öffnen** aus.
+1. Wählen Sie die **DITA-Thema/-Zuordnung auf derselben Registerkarte öffnen** aus.
 
 1. Klicken Sie auf **Speichern**.
 
 
-Diese Einstellung wirkt sich auf die folgenden Stellen aus, an denen Sie auf die Themen- oder Zuordnungsdateien zugreifen können:
+Diese Einstellung wirkt sich auf die folgenden Orte aus, von denen aus Sie auf das Thema oder die Zuordnungsdateien zugreifen können:
 
-- DITA-Thema erstellen \(am Ende des Workflows, wenn Sie auf die Schaltfläche **Thema öffnen** klicken\)
+- DITA-Thema erstellen \(am Ende des Workflows, wenn Sie auf die Schaltfläche **Thema öffnen** klicken)
 
-- DITA-Map erstellen \(am Ende des Workflows, wenn Sie auf die Schaltfläche **Map öffnen** klicken\)
+- DITA-Map erstellen \(Klicken Sie am Ende des Workflows auf die Schaltfläche **Zuordnung öffnen**\)
 
-- Registerkarte &quot;Themen&quot;in der DITA-Map-Konsole
+- Registerkarte „Themen“ in der DITA-Zuordnungskonsole
 
-- Registerkarte &quot;Grundlinien&quot;in der DITA-Map-Konsole
+- Registerkarte „Baselines“ in der DITA-Zuordnungskonsole
 
-- Registerkarte &quot;Berichte&quot;in der DITA-Map-Konsole
+- Registerkarte „Berichte“ in der DITA-Zuordnungskonsole
 
 
-**Übergeordnetes Thema:**[ Web-Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

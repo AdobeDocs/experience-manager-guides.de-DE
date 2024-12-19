@@ -5,8 +5,8 @@ source-wordcount: '15'
 ht-degree: 6%
 
 ---
-# Sauerstoff-Plugin für Adobe Experience Manager Guides
+# Oxygen-Plug-in für Adobe Experience Manager Guides
 
 - [Haftungsausschluss](rebranding-disclaimer.md)
-- [Sauerstoff-Plugin für Adobe Experience Manager Guides](use-aem-connector.md)
+- [Oxygen-Plug-in für Adobe Experience Manager Guides](use-aem-connector.md)
 

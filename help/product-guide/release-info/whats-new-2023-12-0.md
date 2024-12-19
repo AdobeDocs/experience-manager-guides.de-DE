@@ -1,6 +1,6 @@
 ---
-title: Versionshinweise | Neue Funktionen in der Adobe Experience Manager Guides-Version vom Dezember 2023
-description: Erfahren Sie mehr über die neuen und verbesserten Funktionen in der Adobe Experience Manager Guides as a Cloud Service-Version vom Dezember 2023.
+title: Versionshinweise zu | Neue Funktionen in der Adobe Experience Manager Guides, Version Dezember 2023
+description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version Dezember 2023 von Adobe Experience Manager Guides as a Cloud Service.
 feature: What's New
 role: Leader
 exl-id: bf8d98e9-97fe-4195-9286-60d8517ab19c
@@ -13,32 +13,32 @@ ht-degree: 0%
 
 # Neue Funktionen in der Adobe Experience Manager Guides as a Cloud Service-Version vom Dezember 2023
 
-Dieser Artikel behandelt die neuen und verbesserten Funktionen in der Version Dezember 2023 von Adobe Experience Manager Guides (später als *Experience Manager Guides as a Cloud Service* bezeichnet).
+Dieser Artikel behandelt die neuen und erweiterten Funktionen in der Version Dezember 2023 von Adobe Experience Manager Guides (später als *Experience Manager Guides as a Cloud Service* bezeichnet).
 
-Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie unter [Versionshinweise](release-notes-2023-12-0.md).
+Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie [ den Versionshinweisen ](release-notes-2023-12-0.md).
 
 
-## Variablen in der PDF-Ausgabe verwenden
+## Verwenden von Variablen in der PDF-Ausgabe
 
-Mithilfe von Variablen können Sie wiederverwendbare Informationen dynamisch einfügen und verwalten. Experience Manager Guides unterstützt Sie beim Erstellen, Bearbeiten und Anzeigen einer Vorschau von Variablen beim Generieren der PDF-Ausgabe. Sie können die Werte von Variablen schnell ändern und Ihre Dokumente portabel und einfach zu aktualisieren.
+Sie können Variablen verwenden, um wiederverwendbare Informationen dynamisch einzufügen und zu verwalten. Experience Manager Guides hilft Ihnen beim Erstellen, Bearbeiten und Anzeigen einer Vorschau von Variablen während der Erstellung der PDF-Ausgabe. Sie können die Werte von Variablen schnell ändern und Ihre Dokumente portabel und einfach zu aktualisieren machen.
 
-![native PDF-Variablen](assets/add-variable-default.png){width="800" align="left"}
+![Native PDF-Variablen](assets/add-variable-default.png){width="800" align="left"}
 
-*Erstellen und verwalten Sie Variablen im Web-Editor.*
+*Erstellen und Verwalten von Variablen im Web-Editor.*
 
-Sie können auch Variablensätze erstellen, die die Standardwerte außer Kraft setzen und Ihren Variablen alternative Werte zuweisen. Fügen Sie diese Variablen in das Seitenlayout ein und verwenden Sie dasselbe PDF-Layout. Sie müssen nicht für jeden Wertesatz separate Layouts erstellen. Sie können beispielsweise für jede Produktversion einen Variablensatz erstellen. Dieser Variablensatz kann aus Variablen für verschiedene Produktdetails wie Produktname, Versionsnummer und Veröffentlichungsdatum bestehen. Anschließend können Sie für diese Variablen unterschiedliche Werte hinzufügen.
+Sie können auch Variablensätze erstellen, die die Standardwerte überschreiben, und Ihren Variablen alternative Werte zuweisen. Fügen Sie diese Variablen in das Seiten-Layout ein und verwenden Sie dasselbe PDF-Layout. Sie müssen nicht für jeden Wertesatz separate Layouts erstellen. Sie können beispielsweise für jede Produktversion einen Variablensatz erstellen. Dieser Variablensatz kann aus Variablen für verschiedene Produktdetails wie Produktname, Versionsnummer und Veröffentlichungsdatum bestehen. Anschließend können Sie für diese Variablen unterschiedliche Werte hinzufügen.
 
-**Variable festgelegt 1: Adobe-set1**
+**Variablensatz 1: Adobe-Set1**
 
-* ProductName: Experience Manager Guides
-* VersionNumber: 2311
-* Releasedatum: 20.11.2023
+* Produktname: Experience Manager Guides
+* Versionsnummer: 2311
+* Veröffentlichungsdatum: 11/02/2023
 
-**Variable festgelegt 2: Adobe-set2**
+**Variablensatz 2: Adobe-Set2**
 
-* ProductName: Experience Manager Guides
-* VersionNumber: 2310
-* ReleaseDate: 27.09.2023
+* Produktname: Experience Manager Guides
+* Versionsnummer: 2310
+* Veröffentlichungsdatum: 09/27/2023
 
 
 
@@ -46,7 +46,7 @@ Sie können auch Variablensätze erstellen, die die Standardwerte außer Kraft s
 
 *Generieren Sie die PDF-Ausgabe mithilfe von Variablen im PDF-Layout.*
 
-Sie können Stile anwenden und HTML Markup verwenden, um die Variablen zu formatieren.  Sie können die Werte für alle Variablen bei Bedarf auch schnell aktualisieren und die Ausgabe neu generieren. Wenn Sie beispielsweise die Details für eine Version aktualisieren müssen, können Sie den Wert der Version in der Variablen VersionNumber bearbeiten und die Ausgabe neu generieren.
+Sie können Stile anwenden und HTML-Markup verwenden, um die Variablen zu formatieren.  Sie können bei Bedarf auch schnell die Werte für alle Variablen aktualisieren und die Ausgabe neu generieren. Wenn Sie beispielsweise die Details für eine Version aktualisieren müssen, können Sie den Wert der Version in der Variablen VersionNumber bearbeiten und die Ausgabe neu generieren.
 
 
 Erfahren Sie mehr über die Verwendung von [Variablen in der PDF-Ausgabe](../native-pdf/native-pdf-variables.md).
@@ -55,86 +55,86 @@ Erfahren Sie mehr über die Verwendung von [Variablen in der PDF-Ausgabe](../nat
 
 
 
-## Umgestaltetes Erlebnis zur Bearbeitung der Attribute
+## Neues Erlebnis zur Bearbeitung der Attribute
 
-Jetzt erhalten Sie ein überarbeitetes Erlebnis, um die Attribute für ein Element aus dem Bereich **Inhaltseigenschaften** im Web Editor hinzuzufügen oder zu bearbeiten.
+Jetzt verfügen Sie über ein überarbeitetes Erlebnis, um die Attribute für ein Element im Bedienfeld **Inhaltseigenschaften** im Web-Editor hinzuzufügen oder zu bearbeiten.
 
-![Bedienfeld &quot;Attribute&quot;](assets/attributes-multiple-properties.png){width="300" align="left"}
+![Attributbereich](assets/attributes-multiple-properties.png){width="300" align="left"}
 
-*Fügen Sie Attribute aus dem Bereich &quot;Inhaltseigenschaften&quot;hinzu.*
+*Attribute aus dem Bedienfeld „Inhaltseigenschaften“ hinzufügen.*
 
 Sie können die Attribute auch einfach bearbeiten und löschen.
 
-Weitere Informationen finden Sie in der Beschreibung der Funktion **Inhaltseigenschaften** im Abschnitt [Rechtes Bedienfeld](../user-guide/web-editor-features.md#id2051EB003YK) .
+Weitere Informationen finden Sie in der Beschreibung der Funktion **Inhaltseigenschaften** im Abschnitt [Bereich rechts](../user-guide/web-editor-features.md#id2051EB003YK).
 
 
 ## Bearbeiten von Metadaten beim Authoring
 
-Jetzt können Sie beim Authoring die Metadaten-Tags der Datei mithilfe des Dropdown-Menüs aus den **Dateieigenschaften** im rechten Bereich aktualisieren. Sie können auch &quot;**Weitere Eigenschaften bearbeiten**&quot;auswählen, um weitere Metadaten zu aktualisieren.
+Beim Authoring können Sie jetzt die Dateimetadaten-Tags mithilfe der Dropdown-Liste **Dateieigenschaften** im rechten Bedienfeld aktualisieren. Sie können auch **Weitere Eigenschaften bearbeiten** auswählen, um weitere Metadaten zu aktualisieren.
 
 ![file-properties](assets/file-properties-general.png){width="300" align="left"}
 
-*Aktualisieren Sie die Metadaten und bearbeiten Sie die Dateieigenschaften im rechten Bereich.*
+*Aktualisieren von Metadaten und Bearbeiten von Dateieigenschaften im rechten Bedienfeld.*
 
-Weitere Informationen finden Sie in der Beschreibung der Funktion **Dateieigenschaften** im Abschnitt [Rechtes Bedienfeld](../user-guide/web-editor-features.md#id2051EB003YK) .
+Weitere Informationen finden Sie in der **Dateieigenschaften** Funktionsbeschreibung im Abschnitt [Bereich rechts](../user-guide/web-editor-features.md#id2051EB003YK).
 
-## Möglichkeit der Veröffentlichung von Inhalten in der ServiceNow-Wissensdatenbank
+## Möglichkeit, Inhalte in der ServiceNow-Wissensdatenbank zu veröffentlichen
 
-Sie können Ihre Inhalte jetzt auch in der ServiceNow Knowledge Base-Plattform veröffentlichen.
+Sie können Ihre Inhalte jetzt auch auf der ServiceNow-Wissensdatenbankplattform veröffentlichen.
 
-Mit der Version von Dezember 2023 können Sie als Administrator ein Veröffentlichungsprofil für den ServiceNow Knowledge Base-Server erstellen. Als Autor oder Herausgeber können Sie dann dieses ServiceNow-Veröffentlichungsprofil in der Ausgabevorgabe auswählen, um die Ausgabe in der angegebenen Wissensdatenbank zu veröffentlichen.
+Mit der Version vom Dezember 2023 können Sie als Administrator ein Veröffentlichungsprofil für den ServiceNow-Wissensdatenbank-Server erstellen. Als Autor oder Herausgeber können Sie dann in der Ausgabevorgabe „ServiceNow-Veröffentlichungsprofil“ auswählen, um die Ausgabe in der angegebenen Wissensdatenbank zu veröffentlichen.
 
-Mit dieser Funktion können Sie Inhalte wie Text, Videos und Bilder in der ServiceNow Knowledge Base-Plattform veröffentlichen und ein umfassendes Repository verwalten.
+Mit dieser Funktion können Sie Inhalte wie Text, Videos und Bilder auf der ServiceNow-Knowledge-Base-Plattform veröffentlichen und ein umfassendes Repository verwalten.
 
 
-![service now Knowledge Base preset](assets/knowledgebase--output-preset.png){width="300" align="left"}
+![Jetzt Service-Wissensdatenbank-Voreinstellung](assets/knowledgebase--output-preset.png){width="300" align="left"}
 
 *Erstellen Sie eine Ausgabevorgabe für die ServiceNow-Wissensdatenbank.*
 
-Erfahren Sie mehr über die Ausgabevorgaben der [Wissensdatenbank](../user-guide/generate-output-knowledge-base.md).
+Weitere Informationen zu den Ausgabevorgaben [Wissensdatenbank](../user-guide/generate-output-knowledge-base.md).
 
-## Verbessertes Landkartenkollektions-Dashboard
+## Verbessertes Dashboard für Zuordnungssammlung
 
-Experience Manager Guides bietet ein erweitertes Dashboard für die Zuordnungserfassung. In einer Zuordnungssammlung können Sie die Metadateneigenschaften für die DITA-Maps schnell stapelweise konfigurieren. Diese Funktion ist praktisch, da Sie die Metadateneigenschaften nicht für jede DITA-Zuordnung einzeln aktualisieren müssen.
+Experience Manager Guides bietet ein erweitertes Dashboard für die Kartensammlung . In einer Zuordnungssammlung können Sie die Metadateneigenschaften für die DITA-Zuordnungen schnell stapelweise konfigurieren. Diese Funktion ist praktisch, da Sie die Metadateneigenschaften nicht für jede DITA-Zuordnung einzeln aktualisieren müssen.
 
-Jetzt können Sie den Dateinamen der DITA-Map anzeigen. Sie können auch die Grundlinien anzeigen. Auf diese Weise können Sie schnell die für eine Vorgabe verwendete Grundlinie finden.
+Jetzt können Sie den Dateinamen der DITA-Karte anzeigen. Sie können auch die Baselines anzeigen. Auf diese Weise können Sie die für eine Voreinstellung verwendete Baseline schnell finden.
 
-![Sammlungs-Dashboard zuordnen](assets/map-collection-dashboard.png){width="800" align="left"}
+![Dashboard der Zuordnungssammlung](assets/map-collection-dashboard.png){width="800" align="left"}
 
-*Anzeigen, Bearbeiten und Generieren der Ausgabe aus dem Dashboard der Zuordnungssammlung.*
+*Anzeigen, Bearbeiten und Generieren von Ausgaben im Zuordnungssammlungs-Dashboard.*
 
-Erfahren Sie, wie Sie [die Kartensammlung für die Ausgabegenerierung verwenden](../user-guide/generate-output-use-map-collection-output-generation.md).
+Erfahren Sie, wie [Zuordnungssammlung für die Ausgabegenerierung verwenden](../user-guide/generate-output-use-map-collection-output-generation.md).
 
-## Anzeigen von Schlüsselattributen in der Kartenansicht
+## Anzeigen von Schlüsselattributen in der Zuordnungsansicht
 
-Wenn Sie Schlüsselattribute für das Thema oder die Zuordnungsreferenzen definieren, können Sie auch den Titel, das entsprechende Symbol und den Schlüssel im linken Bereich anzeigen. Der Schlüssel wird als `key=<key-name>` angezeigt.
+Wenn Sie Schlüsselattribute für die Themen- oder Zuordnungsreferenzen definieren, können Sie auch den Titel, das entsprechende Symbol und den Schlüssel im linken Bereich anzeigen. Die Taste wird als `key=<key-name>` angezeigt.
 
-Weitere Informationen finden Sie in der Beschreibung der Funktion **Kartenansicht** im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS) .
+Weitere Informationen finden Sie in der Beschreibung der Funktion **Kartenansicht** im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ![Schlüssel in der Kartenansicht](assets/view-key-title-map-view.png) {width="300" align="left"}
 
-*Zeigen Sie das Schlüsselattribut in der Kartenansicht an.*
+*Anzeigen des Schlüsselattributs in der Zuordnungsansicht.*
 
-## Möglichkeit, eine Grundlinie basierend auf der Bezeichnung zu duplizieren
+## Möglichkeit, eine Baseline basierend auf der Bezeichnung zu duplizieren
 
-Experience Manager Guides bietet jetzt ein verbessertes Benutzererlebnis zum Erstellen der Grundlinien im Web-Editor.\
-![Erstellen neuer Grundlinien](assets/create-new-baseline.png) {width="300" align="left"}
-*Erstellen Sie eine Grundlinie aus dem Web-Editor.*
+Experience Manager Guides bietet jetzt ein verbessertes Benutzererlebnis zum Erstellen der Grundlinien aus dem Web-Editor.\
+![Neue Baseline erstellen](assets/create-new-baseline.png) {width="300" align="left"}
+*Erstellen einer Baseline aus dem Web-Editor.*
 
-Außerdem können Sie damit eine Grundlinie basierend auf der Bezeichnung duplizieren. Die Referenzversion wird beim Duplizieren anhand der angegebenen Bezeichnung ausgewählt (sofern vorhanden) oder wählt die Version aus der duplizierten Grundlinie aus.
-
-
-![Duplizieren einer Grundlinie ](assets/duplicate-baseline.png) {width="300" align="left"}
-
-*Duplizieren Sie eine Grundlinie basierend auf einer Bezeichnung oder erstellen Sie eine exakte Kopie.*
-
-Erfahren Sie mehr darüber, wie Sie mit dem Web Editor ](../user-guide/web-editor-baseline.md) Grundlinien erstellen und verwalten.[
-
-## Auflösen von Cross-Map-Links in der Ausgabe der AEM Site
-
-Cross-Map-Links (XREF mit Perimeter Peer), die in der AEM Site-Ausgabe gerendert werden, werden jetzt gemäß dem Dateinamen des Veröffentlichungskontexts aufgelöst, der für die generierte Zuordnung festgelegt wurde.
+Außerdem können Sie eine Baseline basierend auf der Bezeichnung duplizieren. Die Referenzversion wird basierend auf der angegebenen Beschriftung (falls vorhanden) beim Duplizieren ausgewählt, andernfalls wird die Version aus der duplizierten Baseline ausgewählt.
 
 
-## URL der Ausgabe der AEM Site zur Verwendung des Dokumenttitels konfigurieren
+![Duplizieren einer Baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
 
-Experience Manager Guides ermöglicht es Ihnen als Administrator, die URL der AEM Site-Ausgabe zu konfigurieren. Wenn der Dateiname nicht vorhanden ist oder alle Sonderzeichen enthält, können Sie konfigurieren, dass er in der URL der AEM Site-Ausgabe durch ein Trennzeichen ersetzt wird. Sie können sie auch durch den Namen des ersten untergeordneten Themas ersetzen. Erfahren Sie, wie Sie [die URL der AEM Site-Ausgabe für die Verwendung des Dokumenttitels konfigurieren](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
+*Duplizieren Sie eine Baseline basierend auf einer Beschriftung oder erstellen Sie eine exakte Kopie.*
+
+Erfahren Sie mehr über das [Erstellen und Verwalten von Baselines im Web-Editor](../user-guide/web-editor-baseline.md).
+
+## Auflösen von Kreuzzuordnungs-Links in der AEM-Site-Ausgabe
+
+Kreuzzuordnungs-Links (XREF mit Peer-Bereich), die in der AEM-Site-Ausgabe gerendert werden, werden jetzt gemäß dem Dateinamen des Veröffentlichungskontexts aufgelöst, der für die generierte Zuordnung festgelegt wurde.
+
+
+## Konfigurieren Sie die URL der AEM-Site-Ausgabe, um den Dokumenttitel zu verwenden
+
+Experience Manager Guides ermöglicht es Ihnen als Administrator, die URL der Ausgabe der AEM-Site zu konfigurieren. Wenn der Dateiname nicht vorhanden ist oder alle Sonderzeichen enthält, können Sie so konfigurieren, dass er sie durch ein Trennzeichen in der URL der AEM-Site-Ausgabe ersetzt. Sie können sie auch durch den Namen des ersten untergeordneten Themas ersetzen. Erfahren Sie, wie Sie [die URL der AEM-Site-Ausgabe konfigurieren, um den Dokumenttitel zu verwenden](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).

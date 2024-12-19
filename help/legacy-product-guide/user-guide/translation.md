@@ -1,9 +1,10 @@
 ---
-title: Erfahren Sie, wie Sie Inhalte übersetzen.
-description: Übersetzen Sie Ihre Inhalte in mehrere Sprachen in AEM Guides. Erfahren Sie mehr über die Workflows für die menschliche und maschinelle Übersetzung.
+title: Erfahren Sie, wie Sie Inhalte übersetzen
+description: Übersetzen Sie Ihre Inhalte in AEM Guides in mehrere Sprachen. Erfahren Sie mehr über die Workflows für menschliche und maschinelle Übersetzungen.
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: ca9c6150-adc5-4c0c-94c1-802d59db9079
+source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 1%
@@ -12,11 +13,11 @@ ht-degree: 1%
 
 # Inhalte übersetzen {#id1645H700L67}
 
-AEM Guides verfügt über leistungsstarke Funktionen, mit denen Sie Ihre Inhalte in mehrere Sprachen übersetzen können. Sowohl Übersetzungs-Workflows als auch Workflows für maschinelle Übersetzung werden von AEM Guides unterstützt.
+AEM Guides verfügt über leistungsstarke Funktionen, mit denen Sie Ihre Inhalte in mehrere Sprachen übersetzen können. Sowohl Workflows für menschliche als auch maschinelle Übersetzungen werden von AEM Guides unterstützt.
 
-- **Menschliche Übersetzung** - Assets wird an Ihren Übersetzungsanbieter gesendet und von professionellen Übersetzern übersetzt. Nach Abschluss werden die übersetzten Assets zurückgegeben und dann wieder in AEM importiert.
+- **Menschliche Übersetzung** - Assets werden an Ihren Übersetzungsdienstleister gesendet und von professionellen Übersetzern übersetzt. Nach Abschluss des Vorgangs werden die übersetzten Assets zurückgegeben und in AEM importiert.
 
-- **Maschinelle Übersetzung** - Dies ist der Standarddienst in AEM, bei dem der Inhalt sofort mithilfe der maschinellen Übersetzung in Echtzeit übersetzt wird. Native AEM bieten die Möglichkeit, eine Verbindung zum Microsoft Translator herzustellen.
+- **Maschinelle Übersetzung** - Dies ist der Standarddienst in AEM, bei dem die Inhalte mithilfe der maschinellen Übersetzung sofort in Echtzeit übersetzt werden. Vorkonfigurierte AEM bietet die Möglichkeit, eine Verbindung zu Microsoft Translator herzustellen.
 
   >[!NOTE]
   >

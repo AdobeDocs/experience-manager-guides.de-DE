@@ -1,6 +1,6 @@
 ---
-title: AEM Umgebung für native PDF-Veröffentlichung konfigurieren
-description: AEM Umgebung für native PDF-Veröffentlichung konfigurieren
+title: Konfigurieren der AEM-Umgebung für die native PDF-Veröffentlichung
+description: Konfigurieren der AEM-Umgebung für die native PDF-Veröffentlichung
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
@@ -11,37 +11,37 @@ ht-degree: 1%
 
 ---
 
-# AEM Umgebung für native PDF-Veröffentlichung konfigurieren
+# Konfigurieren der AEM-Umgebung für die native PDF-Veröffentlichung
 
-AEM Guides verfügt über eine native PDF-Publishing-Engine, mit der Benutzer Inhalte im PDF-Format entwerfen, entwickeln und veröffentlichen können.
+AEM Guides enthält eine native PDF-Publishing-Engine, mit der Benutzende den Inhalt im PDF-Format entwerfen, entwickeln und veröffentlichen können.
 
-Es bietet die Möglichkeit, verschiedene Seitenlayouts und CSS-Vorlagen zu erstellen und die PDF-Vorlagen in Verbindung mit den Seitenlayouts und CSS zu entwerfen.
+Es bietet die Möglichkeit, verschiedene Seiten-Layouts und CSS-Vorlagen zu erstellen und die PDF-Vorlagen in Verbindung mit den Seiten-Layouts und CSS zu entwerfen.
 
-Die Schritte zum Konfigurieren dieser nativen PDF in AEM Guides unterscheiden sich je nach Betriebssystem. Führen Sie die folgenden Konfigurationsschritte basierend auf dem Betriebssystem aus, auf dem AEM installiert ist.
+Die Schritte zum Konfigurieren dieser nativen PDF in AEM Guides unterscheiden sich je nach Betriebssystem. Führen Sie je nach Betriebssystem, auf dem AEM installiert ist, die folgenden Konfigurationsschritte aus.
 
 ## Voraussetzungen
 
-Mindestanforderungen für die Einrichtung der nativen PDF:
+Mindestanforderungen für die Einrichtung von nativem PDF:
 
-- Installierte Java Platform, Standard Edition 8 oder 11 JDK (Java SE Development Kit) und JRE (Java SE Runtime Environment)
+- Installierte Java-Plattform, Standard Edition 8 oder 11 JDK (Java SE Development Kit) und JRE (Java SE Runtime Environment)
 - AEM 6.5 SP13, SP12, SP11 oder SP10
-- Guides 4.1 und höher (UUID oder UUID)
+- Handbücher 4.1 und höher (Nicht-UUID oder UUID)
 
-Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im Ordner AEM crx-quickstart zu generieren. Standardmäßig werden die folgenden Betriebssysteme unterstützt:
+Die native PDF-Publishing-Engine benötigt Oracle-JDK, um die Knotenmodule im AEM-Ordner „crx-quickstart“ zu generieren. Es unterstützt standardmäßig die folgenden Betriebssysteme:
 
 - Windows 10, Windows 2019 Server und höher.
 - Linux - (RHEL 8 und höher, CentOS 7 und höher, Ubuntu 18 und höher)
-- Mac OS (Intel-basiert)
+- Mac-Betriebssystem (Intel-basiert)
 
 ## Konfigurationsschritte für Windows Server (JAVA 11/8)
 
-1. Stellen Sie sicher, dass AEM Server ausfällt.
-2. Klicken Sie in der Windows-Taskleiste mit der rechten Maustaste auf das Windows-Symbol und wählen Sie System.
-3. Klicken Sie im Fenster &quot;Einstellungen&quot;unter &quot;Verwandte Einstellungen&quot;auf Erweiterte Systemeinstellungen.
-4. Klicken Sie auf der Registerkarte Erweitert auf Umgebungsvariablen .
-5. Klicken Sie im Abschnitt &quot;Systemvariablen&quot;auf &quot;_Neu_&quot;, um eine neue Umgebungsvariable zu erstellen.
-6. Geben Sie als Variablennamen JAVA_HOME ein.
-7. Geben Sie im Wertefeld den Pfad zur Java-Installation an und klicken Sie auf OK.
+1. Stellen Sie sicher, dass der AEM-Server ausgefallen ist.
+2. Klicken Sie in der Windows-Taskleiste mit der rechten Maustaste auf das Windows-Symbol, und wählen Sie System.
+3. Klicken Sie im Fenster „Einstellungen“ unter „Verwandte Einstellungen“ auf Erweiterte Systemeinstellungen.
+4. Klicken Sie auf der Registerkarte Erweitert auf Umgebungsvariablen.
+5. Klicken Sie im Abschnitt „Systemvariablen“ auf _Neu_, um eine neue Umgebungsvariable zu erstellen.
+6. Geben Sie den Variablennamen als JAVA_HOME ein.
+7. Geben Sie im Feld Wert den Java-Installationspfad ein und klicken Sie auf OK.
 
    Zum Beispiel:
 
@@ -53,9 +53,9 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im Or
 
    C:\Program Files\JAVA\ jdk1.8.0_144
 
-8. Fügen Sie Pfad aus Systemvariablen hinzu und klicken Sie auf Bearbeiten.
+8. Fügen Sie einen aus Systemvariablen ausgewählten Pfad hinzu und klicken Sie auf Bearbeiten.
 
-9. Jetzt geben die Pfadvariablen den Wert des Serverpfads an und klicken auf OK.
+9. Geben Sie nun in den Pfadvariablen den Wert des Serverpfads ein und klicken Sie auf „OK“.
 
    Zum Beispiel:
 
@@ -67,122 +67,122 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im Or
 
    %JAVA_HOME%\jre\bin\server\
 
-10. Klicken Sie erneut im Dialogfeld Umgebungsvariablen auf &quot;OK&quot;.
-11. Klicken Sie erneut auf &quot;OK&quot;im Dialogfeld &quot;Systemeigenschaften&quot;.
+10. Klicken Sie im Dialogfeld „Umgebungsvariablen“ erneut auf „OK“.
+11. Klicken Sie im Dialogfeld Systemeigenschaften erneut auf „OK“.
 12. Starten Sie nun den AEM-Server.
-13. Erstellen Sie nativen PDF aus Vorgaben im Web-Editor.
+13. Generieren von nativem PDF aus Vorgaben im Web-Editor
 
-## Konfigurationsschritte für Linux-Server (RHEL7/centOS 7)
+## Konfigurationsschritte für Linux Server (RHEL7/centOS 7)
 
-1. Stellen Sie sicher, dass der AEM Server ausfällt.
-2. Überprüfen Sie die Variable JAVA_HOME , indem Sie echo $JAVA_HOME ausführen.
-3. Wenn die Variable JAVA_HOME nicht festgelegt ist, führen Sie Schritt 4 aus. Wechseln Sie andernfalls direkt zu Schritt 5.
-4. Variable JAVA_HOME mithilfe der folgenden Befehle festlegen, die auf der installierten Java-Version basieren
+1. Stellen Sie sicher, dass der AEM-Server ausgefallen ist
+2. Überprüfen Sie die Variable JAVA_HOME anhand von echo $JAVA_HOME
+3. Wenn die Variable JAVA_HOME nicht festgelegt ist, befolgen Sie Schritt 4. Gehen Sie andernfalls direkt zu Schritt 5.
+4. Legen Sie die Variable JAVA_HOME basierend auf der installierten Java-Version mit den folgenden Befehlen fest
 
    Zum Beispiel:
 
    JAVA 11
 
-   1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
+   1. JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1 exportieren
    2. export PATH=$PATH: $JAVA\_HOME/bin
    3. export LD\_LIBRARY\_PATH=/usr/lib/jvm/jdk-11.0.15.1/lib/server:/usr/java/jdk-11.0.15.1/lib/server
 
    JAVA 8
 
-   1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
+   1. JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1 exportieren
    2. export PATH=$PATH: $JAVA\_HOME/bin
 
-5. Starten Sie AEM Server neu und wechseln Sie zu Schritt 12, wenn Sie Guides der Version 4.2 und höher verwenden.
-6. Kopieren Sie den Ordner &quot;_node_modules.zip_&quot;, der unten in diesem Artikel angehängt ist, in den Ordner crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/ .
-7. Öffnen Sie das Terminal im Verzeichnis crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
-8. Löschen Sie den Ordner &quot;node_modules&quot;mithilfe des folgenden Befehls
+5. Starten Sie den AEM-Server neu und gehen Sie zu Schritt 12 über, wenn Sie Guides ab Version 4.2 verwenden.
+6. Kopieren Sie &quot;_node_modules.zip_&quot;, das am Ende dieses Artikels angehängt ist, in das Verzeichnis crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
+7. Öffnen Sie das Terminal in crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/ location.
+8. Löschen Sie node_modules mit dem folgenden Befehl
 
    **rm -rf node_modules**
 
-9. Entpacken Sie node_modules.zip mithilfe des folgenden Befehls
+9. Entpacken Sie node_modules.zip mit dem folgenden Befehl
 
    **unzip node_modules.zip**
 
-10. Wenn der Befehl &quot;Entpacken&quot;nicht installiert/erkannt wurde, kann er mit folgendem Befehl installiert werden
+10. Wenn der Befehl unzip nicht installiert/erkannt wird, kann er mit dem folgenden Befehl installiert werden
 
    **yum install unzip**
 
-11. Installieren Sie das Paket fontconfig .
+11. Installieren Sie das fontconfig-Paket.
 Befehl: yum install fontconfig
-12. Erstellen Sie nativen PDF aus Vorgaben im Web-Editor.
+12. Generieren von nativem PDF aus Vorgaben im Web-Editor
 
-**HINWEIS** : Das Paket node_modules.zip kann [hier](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) heruntergeladen werden.
+**HINWEIS** : Das Paket node_modules.zip kann ([) ](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) werden.
 
-Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssystem ist eine Problemumgehung für Benutzer, die sich in Guides 4.1 oder früheren Versionen befinden (Schritt 6-12).
+Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssystem ist eine Problemumgehung für Benutzende, die Guides 4.1 oder frühere Versionen verwenden (Schritte 6-12)
 
-## Konfigurationsschritte für den Mac-Computer (JAVA 11/8)
+## Konfigurationsschritte für Mac-Computer (JAVA 11/8)
 
 1. Installieren Sie Oracle JAVA 11 oder Oracle JAVA 8.
-2. Setzen Sie die Umgebungsvariable JAVA_HOME auf den installierten JAVA-Ordner.
+2. Setzen Sie die Umgebungsvariable JAVA_HOME auf das installierte JAVA-Verzeichnis.
 3. Öffnen Sie eine Unix-Shell.
-(Hier wird der Bash zum Einrichten der Konfiguration verwendet.)
+(Bash wird hier zum Einrichten der Konfiguration verwendet)
 
    Befehl: nano ~/.bashrc
 
-4. Variable JAVA_HOME mithilfe der folgenden Befehle festlegen, die auf der installierten Java-Version basieren
+4. Legen Sie die Variable JAVA_HOME basierend auf der installierten Java-Version mit den folgenden Befehlen fest
 
    Zum Beispiel:
 
    JAVA 11
 
-   export JAVA\_HOME= /Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home
+   export JAVA\_HOME= /library/java/javVirtualMachines/jdk-11.0.15.1.jdk/contents/Home
 
-5. Grundlinie neu laden
+5. Bashrc neu laden
 
    Befehl: source ~/.bashrc.
 
-6. Stellen Sie sicher, dass JAVA_HOME mit dem Befehl echo $JAVA_HOME eingestellt ist.
+6. Überprüfen Sie, ob JAVA_HOME mit dem Befehl echo $JAVA_HOME festgelegt wurde
 
-7. Führen Sie die folgenden drei Befehle aus AEM Installationspfad aus.
+7. Führen Sie die folgenden drei Befehle über den AEM-Installationspfad aus
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) Suchen Sie . -type d -exec chmod 0755 {} \;
-ii) finden Sie . -type f -exec chmod 0755 {} \;
-iii) .node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
+   i) Suchen . -type d -exec chmod 0755 {} \;
+ii) Suchen . -type f -exec chmod 0755 {} \;
+iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-predicate-node-path
 
-8. Überprüfen Sie mithilfe des folgenden Befehls, ob Java installiert ist.
+8. Überprüfen Sie mit dem folgenden Befehl, ob Java installiert ist
 
-   i) Führen Sie **aus.Befehl /node-darwin/bin/node** aus dem Ordner /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
+   i) **ausführen./node-darwin/bin/node** Befehl aus dem Ordner /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
    ![mac](../assets/publishing/mac.png)
 
-   ii) a = require(&#39;java&#39;)
+   ii) a = Require(&#39;java&#39;)
 
-9. Installieren Sie das Paket fontconfig .
+9. Installieren Sie das fontconfig-Paket.
 Befehl: apt install fontconfig
 
-10. Erstellen Sie nativen PDF aus Vorgaben im Web-Editor.
+10. Generieren von nativem PDF aus Vorgaben im Web-Editor
 
 ## Fehlerbehebung
 
-Im Folgenden finden Sie die häufigen Fehler, die während der PDF-Erstellung auftreten können, wenn Umgebungsvariablen nicht ordnungsgemäß festgelegt sind.
+Nachfolgend sind die häufigen Fehler aufgeführt, die bei der PDF-Generierung auftreten können, wenn Umgebungsvariablen nicht ordnungsgemäß festgelegt sind.
 
-### Nullzeiger-Ausnahme in Windows/Mac OS
+### Nullzeiger-Ausnahme unter Windows/Mac OS
 
-![null pointer exception](../assets/publishing/null-pointer-exception.png)
+![Nullzeiger-Ausnahme](../assets/publishing/null-pointer-exception.png)
 
-Wenn das Problem auch nach der Korrektur der Java-Umgebungseinstellungen weiter besteht, überprüfen Sie Folgendes erneut:
+Wenn das Problem auch nach der Korrektur der Java-Umgebungseinstellungen weiterhin besteht, überprüfen Sie Folgendes:
 
-1. Überprüfen Sie, ob die Ausgabevorgabe richtig definiert ist, oder erstellen Sie eine neue Ausgabevorgabe ohne Leerzeichen.
+1. Überprüfen, ob die Ausgabevorgabe korrekt definiert ist, oder eine neue Ausgabevorgabe ohne Leerzeichen erstellen.
 
-2. Überprüfen Sie das Verzeichnis der Knotenressourcen unter /libs/fmdta/node_resources , um sicherzustellen, dass alle erforderlichen Bibliotheken während der Installation installiert sind.
+2. Überprüfen Sie das Verzeichnis der Knotenressourcen unter /libs/fmdta/node_resources, um sicherzustellen, dass alle erforderlichen Bibliotheken während der Installation installiert sind.
 
 ### Fehlende Bibliotheken in RHEL 7 Linux OS
 
-![fehlende Bibliotheken](../assets/publishing/missing-libraries.png)
+![Fehlende Bibliotheken](../assets/publishing/missing-libraries.png)
 
-### Publish-Prozess-Timeout. Der Prozess wurde nicht in der angegebenen Zeit von 0ms abgeschlossen.
+### Publish-Prozess-Timeout. Prozess wurde nicht innerhalb von 0ms abgeschlossen
 
-![Timeout des Veröffentlichungsvorgangs](../assets/publishing/publish-process-timeout.png)
+![Zeitüberschreitung des Veröffentlichungsprozesses](../assets/publishing/publish-process-timeout.png)
 
-Überprüfen Sie den Wert der Zeitüberschreitungseigenschaft für den Knoten nodejs in /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs im CRX-Repository. Der Standardwert ist 300.
+Überprüfen Sie den Wert der Timeout-Eigenschaft für den NodeJS-Knoten in /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs im CRX-Repository. Der Standardwert ist 300.
 
 
 
-Wenn bei der Durchführung eines der oben genannten Schritte Probleme auftreten, posten Sie Ihre Frage auf dem AEM Guides Community-[Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation), um Unterstützung zu erhalten.
+Wenn Sie bei einem der oben genannten Schritte auf Probleme stoßen, stellen Sie Ihre Frage zur Unterstützung im AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation).

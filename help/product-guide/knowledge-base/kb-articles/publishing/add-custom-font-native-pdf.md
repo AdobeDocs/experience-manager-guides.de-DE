@@ -1,65 +1,66 @@
 ---
-title: Fügen Sie benutzerdefinierte Schriftarten zu Ihrer DITA-PDF hinzu
-description: Dank der Integration benutzerdefinierter Schriftarten können Sie die Markenidentität und die visuelle Konsistenz aller Inhalte in nativen DITA-PDF verbessern.
+title: Hinzufügen benutzerdefinierter Schriftarten zu DITA PDF
+description: Durch die Integration benutzerdefinierter Schriftarten können Sie die Markenidentität und visuelle Konsistenz Ihrer gesamten Inhalte in nativen DITA-PDF verbessern.
 feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 518bec870dc07e88a422d889a1c54be26c248799
+exl-id: 151e3b1c-6340-4ff2-84d4-246bc4b68065
+source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# Fügen Sie benutzerdefinierte Schriftarten zu Ihrer nativen DITA-PDF hinzu.
+# Hinzufügen benutzerdefinierter Schriftarten zu Ihrem nativen DITA-PDF
 
 ## Dieser Artikel behandelt:
 
-Hinzufügen der benutzerdefinierten Schriftart zur Stärkung der Markenidentität und visuellen Konsistenz aller Inhalte.
+Hinzufügen der benutzerdefinierten Schriftart, um die Markenidentität und visuelle Konsistenz aller Inhalte zu verbessern.
 
 Dieser Prozess umfasst drei Schritte:
 
-- [Hochladen der benutzerdefinierten Schriftart](#step-1--upload-the-custom-font-to-the-resource-folder-of-your-template)
-- [Nehmen Sie die erforderlichen Änderungen im Stylesheet der PDF-Vorlagen vor.](#step-2--make-necessary-changes-in-pdf-templatess-stylesheet)
+- [Benutzerdefinierte Schriftart hochladen](#step-1--upload-the-custom-font-to-the-resource-folder-of-your-template)
+- [Erforderliche Änderungen im Stylesheet der PDF-Vorlage vornehmen](#step-2--make-necessary-changes-in-pdf-templatess-stylesheet)
 
 - [Einbetten verwendeter Schriftarten (optional)](#step-3-optional--embed-used-font-in-pdf)
 
-## Schritt 1 : Laden Sie die benutzerdefinierte Schriftart in den Ordner der Vorlage hoch.
+## Schritt 1 : Laden Sie die benutzerdefinierte Schriftart in den Ressourcenordner Ihrer Vorlage hoch
 
-![Hochladen und Importieren benutzerdefinierter Schriftarten ](../assets/publishing/custom-font1.png)
+![](../assets/publishing/custom-font1.png) zum Hochladen und Importieren benutzerdefinierter Schriftarten
 
-## 2. Schritt : Vornehmen der erforderlichen Änderungen im Stylesheet von PDF-Vorlagen
+## Schritt 2 : Erforderliche Änderungen im Stylesheet der PDF-Vorlage vornehmen
 
-![Schriftbild im Stylesheet der PDF ](../assets/publishing/custom-font2.png)
+![Schriftart in der Stylesheet-](../assets/publishing/custom-font2.png) der PDF-Vorlage
 
-## Schritt 3 (Optional): Einbetten der verwendeten Schriftart in PDF
+## Schritt 3 (Optional) : Betten Sie die verwendete Schriftart in PDF ein
 
-![Einbetten benutzerdefinierter Schriftarten in DITA-PDF ](../assets/publishing/custom-font3.png)
+![Benutzerdefinierte Schrifteinbettung in DITA PDF-](../assets/publishing/custom-font3.png)
 
 ## Häufig gestellte Fragen
 
 - ### Kann ich Adobe Fonts verwenden?
 
-> Ja, gehen Sie zu fonts.adobe.com und klicken Sie auf &quot;Zum Webprojekt hinzufügen&quot;.
+> Ja, gehen Sie zu fonts.adobe.com und klicken Sie auf „Zum Web-Projekt hinzufügen“.
 > 
-> Kopieren Sie den Importcode wie `" @import url("https://use.typekit.net/xxxx.css")`;
+> Kopieren Sie Importcode wie `" @import url("https://use.typekit.net/xxxx.css")`.
 >
-> Fügen Sie in das CSS Ihres Inhalts ein und nehmen Sie die gewünschten Änderungen in Ihrer CSS-Datei vor.
+> Fügen Sie Ihren CSS-Inhalt ein und nehmen Sie die gewünschten Änderungen in Ihrer CSS-Datei vor.
 
-![Verwenden der Adobe-Schriftart in DITA-PDF](../assets/publishing/custom-font4.png)
+![Verwenden der Adobe-Schriftart in DITA PDF](../assets/publishing/custom-font4.png)
 
 
-- ### Meine Schriftart wird nicht auf dem PDF angezeigt
+- ### Meine Schriftart wird nicht auf PDF angezeigt
 
-> Rechtschreibprüfung für Schriftnamen (der häufigste Fehler)
+> Überprüfen Sie die Schreibweise des Schriftnamens (häufigster Fehler).
 >
-> Stellen Sie sicher, dass Sie die Schriftart einbetten, wenn Schriftarten nicht auf dem System verfügbar sind, auf dem PDF geöffnet ist.
+> Stellen Sie sicher, dass Sie Schriftarten einbetten, wenn auf dem System, auf dem die PDF geöffnet wird, keine Schriftarten verfügbar sind.
 
-- ## Bei allen anderen Abfragen wenden Sie sich an Ihre jeweiligen CSMs.
+- ## Für alle anderen Fragen wenden Sie sich bitte an Ihren jeweiligen CSM
 
 
 ## Weitere Ressourcen:
 
 - [Einbinden des Inhaltsverzeichnisses von DITA Bookmap in PDF](./how-to-include-bookmap-toc-in-pdf-publishing.md)
-- [Einbinden von TOC in die PDF-Veröffentlichung](./how-to-include-bookmap-toc-in-pdf-publishing.md)
-- [Video zur Expertensitzung zum nativen PDF](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
+- [Einbeziehen des Inhaltsverzeichnisses in PDF-Publishing](./how-to-include-bookmap-toc-in-pdf-publishing.md)
+- [Expertenvideo auf nativem PDF](../../expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
