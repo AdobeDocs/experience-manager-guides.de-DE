@@ -150,7 +150,7 @@ Sie können beispielsweise die folgenden Werte für die Variablensätze festlege
 
 **Variablensatz 1**: *Adobe-Set1*
 
-* Produktname: ProductA
+* ProductName: ProductA
 * Versionsnummer: 2311
 * Veröffentlichungsdatum: 11/02/2023
 
