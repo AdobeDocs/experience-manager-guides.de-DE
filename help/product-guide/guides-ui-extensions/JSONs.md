@@ -1,6 +1,6 @@
 ---
 title: Verfügbare JSONs
-description: Liste der angezeigten JSONs
+description: Liste der offen gelegten JSONs
 role: User, Admin
 exl-id: 7ad86795-d26b-464a-94f6-ffaf3376b252
 source-git-commit: 46ebda920ee1eb115eb03ca129578e41d2da57a2
@@ -10,31 +10,31 @@ ht-degree: 0%
 
 ---
 
-# Anpassbare JSON
+# Anpassbare JSON-Dateien
 
-Editor:
+Bearbeiter:
 
 - [`other_attribute_list_item`](./jsons/editor/other_attribute_list_item.json)
 
 Kontextmenüs:
 
 - [`file_options`](./jsons/context_menus/file_options.json)
-- [&quot;folder_options&quot;](./jsons/context_menus/folder_options.json)
-- [&quot;collection_options&quot;](./jsons/context_menus/collection_options.json)
-- [&quot;map_view_options&quot;](./jsons/context_menus/map_view_options.json)
-- [`baseline_panel_menu`](./jsons/context_menus/baseline_panel_menu.json)
-- [`preset_item_menu`](./jsons/context_menus/preset_item_menu.json)
+- [`folder_options`](./jsons/context_menus/folder_options.json)
+- [`collection_options`](./jsons/context_menus/collection_options.json)
+- [`map_view_options`](./jsons/context_menus/map_view_options.json)
+- [`BASELINE_PANEL_MENU`](./jsons/context_menus/baseline_panel_menu.json)
+- [`PRESET_ITEM_MENU`](./jsons/context_menus/preset_item_menu.json)
 
-Review-App:
+Programm überprüfen:
 
 - [`inline_review_panel`](./jsons/review_app/inline_review_panel.json)
 - [`annotation_toolbox`](./jsons/review_app/annotation_toolbox.json)
-- [&quot;review_comment&quot;](./jsons/review_app/review_comment.json)
-- [&quot;comment_response&quot;](./jsons/review_app/comment_reply.json)
-- [`comment_new_response`](./jsons/review_app/comment_new_reply.json)
-- [&quot;Prüfungssymbolleiste&quot;](./jsons/review_app/review_toolbar.json)
-- [&quot;review_left_panels_container&quot;](./jsons/review_app/review_left_panels_container.json)
-- [&quot;review_left_panel_topics&quot;](./jsons/review_app/review_left_panel_topics.json)
+- [`review_comment`](./jsons/review_app/review_comment.json)
+- [`comment_reply`](./jsons/review_app/comment_reply.json)
+- [`comment_new_reply`](./jsons/review_app/comment_new_reply.json)
+- [`review_toolbar`](./jsons/review_app/review_toolbar.json)
+- [`review_left_panels_container`](./jsons/review_app/review_left_panels_container.json)
+- [`review_left_panel_topics`](./jsons/review_app/review_left_panel_topics.json)
 - [`review_left_panel_item`](./jsons/review_app/review_left_panel_item.json)
 
 Dialogfelder:
