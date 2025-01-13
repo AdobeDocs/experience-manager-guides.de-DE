@@ -5,9 +5,9 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '773'
 ht-degree: 13%
 
 ---
@@ -72,16 +72,17 @@ Basierend auf dem in Ihrem Setup verwendeten Übersetzungs-Workflow sollte die O
 
 ## Konfigurieren des alten Übersetzungs-Workflows
 
-Es wird empfohlen, den neuesten Übersetzungs-Workflow zu verwenden, der eine verbesserte Leistung bietet. Wenn Sie jedoch den alten Übersetzungs-Workflow verwenden möchten, können Sie ihn konfigurieren.
+>[!IMPORTANT]
+>
+> Es wird empfohlen, für eine verbesserte Leistung den neuesten Übersetzungs-Workflow zu verwenden, der in AEM Guides 2024.06.0 und höher verfügbar ist. Wenn Sie jedoch eine Anpassung im Übersetzungsprozess aktiviert haben und dieser durch den neuen Workflow beeinflusst wird, sollten Sie zur Problemumgehung den alten Übersetzungs-Workflow wiederherstellen.
 
 Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#), um die Konfigurationsdatei zu erstellen. Geben Sie in der Konfigurationsdatei die folgenden Details (Eigenschaft) zum Konfigurieren des Legacy-Übersetzungs-Workflows an:
 
 
-
-
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Boolescher Wert: <br> - Wenn Sie den neuesten Übersetzungs-Workflow verwenden, wählen *Deaktivieren* \( `false`\) die Option **Legacy-Übersetzungs-Workflow ausführen** aus. Der letzte Übersetzungs-Workflow ist standardmäßig aktiviert. <br> -   Wenn Sie die alte Übersetzung verwenden, aktivieren *\( `true`\)* die Option **Legacy-Übersetzungs-Workflow**. |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Boolescher Wert: <br> - Wenn Sie den neuesten Übersetzungs-Workflow verwenden, wählen *Deaktivieren* \( `false`\) die Option **Legacy-Übersetzungs-Workflow ausführen** aus.  <br> -   Wenn Sie die alte Übersetzung verwenden, aktivieren *\( `true`\)* die Option **Legacy-Übersetzungs-Workflow**. <br> **Standardwert**: false |
+
 
 
 

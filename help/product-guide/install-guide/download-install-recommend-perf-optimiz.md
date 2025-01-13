@@ -5,9 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -114,17 +114,5 @@ Dies kann zur Laufzeit über die Felix-Konsole oder über die Code-Bereitstellun
 **Ergebnis dieser Änderung**
 Eine erhöhte Anzahl der Eigenschaft **AEM-Site-Seiten in Heap begrenzen** optimiert den Prozess der Erstellung von AEM-Site-Ausgaben.
 
-## Anzahl der Nachbearbeitungs-Threads optimieren \(obligatorisch, je nach Anwendungsfall\)
-
-**Was ist die Änderung?**
-Diese Änderung ist erforderlich, wenn Sie DITA-Inhalte stapelweise hochladen.
-
-Legen Sie die **Nachbearbeitungs-Threads**-Eigenschaft unter `com.adobe.fmdita.config.ConfigManager` auf `1` fest.
-
-**Wann konfigurieren?**
-Dies kann zur Laufzeit erfolgen.
-
-**Ergebnis dieser Änderung**
-Durch diese Änderung wird die Nachbearbeitungszeit beim Massen-Upload von DITA-Dateien reduziert.
 
 **Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

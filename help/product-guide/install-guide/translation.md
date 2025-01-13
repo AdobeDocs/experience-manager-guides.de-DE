@@ -5,9 +5,9 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '854'
 ht-degree: 12%
 
 ---
@@ -100,7 +100,9 @@ Je nach dem in Ihrem Setup verwendeten Übersetzungs-Workflow sollte die Option 
 
 >[!IMPORTANT]
 > 
-> Es wird empfohlen, den neuesten Übersetzungs-Workflow zu verwenden, der eine verbesserte Leistung bietet. Wenn in Ihrem aktuellen Übersetzungsprozess jedoch Anpassungen aktiviert sind, sollten Sie den Legacy-Übersetzungs-Workflow verwenden.
+> Es wird empfohlen, für eine verbesserte Leistung den neuesten Übersetzungs-Workflow zu verwenden, der in AEM Guides 4.6.0 und höher verfügbar ist. Wenn Sie jedoch eine Anpassung im Übersetzungsprozess aktiviert haben und dieser durch den neuen Workflow beeinflusst wird, sollten Sie zur Problemumgehung den alten Übersetzungs-Workflow wiederherstellen.
+
+
 
 Standardmäßig ist die Option Legacy-Übersetzungs-Workflow deaktiviert. Sie können diese Option konfigurieren, indem Sie die folgenden Schritte ausführen:
 
