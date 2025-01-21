@@ -1,7 +1,7 @@
 ---
 title: Verwenden des KI-Assistenten zur intelligenten Erstellung von Dokumenten "
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten Dokumente mit intelligenter Effizienz im Web-Editor erstellen können.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -109,12 +109,12 @@ Sie können beispielsweise die Systemanforderungen auflisten und entsprechend ei
 
 
 1. Inhalt auswählen.
-1. Wählen Sie **Kurzbeschreibung erstellen ![Symbol „Kurzbeschreibung erstellen“ aus](./images/ai-create-shortdesc-icon.svg)** um eine Kurzbeschreibung für das aktuelle Thema zu erstellen.
+1. Wählen Sie **Kurzbeschreibung erstellen** ![Symbol „Kurzbeschreibung erstellen“](./images/ai-create-shortdesc-icon.svg), um eine Kurzbeschreibung für das aktuelle Thema zu erstellen.
 1. Wählen **Akzeptieren**, um eine neue Kurzbeschreibung zu erstellen, falls die Kurzbeschreibung noch nicht vorhanden ist. Wenn eine Kurzbeschreibung vorhanden ist, müssen Sie sie bestätigen, bevor Sie sie durch die neue Kurzbeschreibung ersetzen.
 
 Sie können auch die folgenden Aktionen ausführen:
-- Wählen Sie **Regenerieren** aus, um eine weitere kurze Beschreibung für Ihr Thema zu generieren, z. B. die KI-Tools.
 
+- Wählen Sie **Regenerieren** aus, um eine weitere kurze Beschreibung für Ihr Thema zu generieren, z. B. die KI-Tools.
 - Wählen Sie **Erweitern** aus, um den **Shortdesc erstellen** zu öffnen.
 
 ![KI-Assistent zum Erstellen des Kurzbeschreibungseditors](./images/ai-assistant-create-short-desc.png)

@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit dem erweiterten Zuordnungs-Editor in AEM 
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -386,4 +386,4 @@ Sie können auf die Vorschau einer Karte zugreifen über:
    - Das aktuelle Thema in der Kartenvorschau ist auch in der Kartenstruktur hervorgehoben.
 
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Zuordnungs-Editor](map-editor.md)
+**Übergeordnetes Thema:** [Arbeiten mit dem Zuordnungs-Editor](map-editor.md)
