@@ -1,9 +1,10 @@
 ---
 title: Versionshinweise zu | Es wurden Probleme in der Version 2024.12.0 von Adobe Experience Manager Guides behoben
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2024.12.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f643a4a22151af2ff14288ab3885c1a6657a80ca
+exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
+source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '408'
 ht-degree: 1%
 
 ---
@@ -40,3 +41,30 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2024.12.0](./upgrade-ins
 ## Übersetzung
 
 - Die Zuordnungsübersetzung mithilfe der Grundlinie wird langsam und schlägt schließlich fehl, die Liste aller zugehörigen Themen und Zuordnungsdateien zu laden. 19733)
+
+## Bekannte Probleme mit Workaround
+
+Adobe hat die folgenden bekannten Probleme in der Version 2024.12.0 von Adobe Experience Manager Guides as a Cloud Service identifiziert.
+
+**Die Projekterstellung schlägt während der Verarbeitung der Inhaltsübersetzung fehl**
+
+Beim Senden von Inhalten für die Übersetzung schlägt die Projekterstellung mit den folgenden Protokollfehlern fehl:
+
+`com.adobe.cq.wcm.translation.impl.TranslationPrepareResource` bei der Verarbeitung des Übersetzungsprojekts
+
+`com.adobe.cq.projects.api.ProjectException`: Das Projekt kann nicht erstellt werden
+
+Ursache: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess0000`: Zugriff verweigert
+
+
+**Problemumgehung**: Führen Sie zur Behebung dieses Problems die folgenden Problemumgehungsschritte aus:
+
+1. Fügen Sie eine repoinit-Datei hinzu. Falls die Datei nicht vorhanden ist, erstellen Sie die Datei, indem Sie die [Erstellungsschritte für die repoinit-Beispielkonfiguration](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854) ausführen.
+2. Fügen Sie die folgende Zeile in der Datei hinzu und stellen Sie den Code bereit:
+
+   ```
+   { "scripts": [ "set principal ACL for translation-job-service\n allow jcr:all on /home/users/system/cq:services/internal/translation\nend" ] }
+   ```
+
+3. Testen Sie die Übersetzung nach der Bereitstellung.
+
