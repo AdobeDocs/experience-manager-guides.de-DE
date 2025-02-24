@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: ab7e91306d9a5253205e773f148d789141b9b0d1
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2040'
 ht-degree: 7%
 
 ---
@@ -126,7 +126,8 @@ ht-degree: 7%
       - [!DNL AEM Guides] und wichtige Funktionen {#aemg-works-features}
          - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
-   - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
+   - {#home-page} der Startseite
+      - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
    - Authoring von {#author-content}
       - [Authoring – Übersicht](./user-guide/authoring-content.md)
       - [Möglichkeiten zum Erstellen von Inhalten mit AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -158,7 +159,7 @@ ht-degree: 7%
          - [Verwenden des DITAVAL-Editors](./user-guide/ditaval-editor.md)
       - Desktop-Tools für die Inhaltserstellung {#author-using-desktop-tools}
          - [Erstellen von Inhalten mit Desktop-Tools](./user-guide/author-desktop-tools.md)
-   - Überprüfung {#review}
+   - {#review} überprüfen
       - [Einführung in die Überprüfung](./user-guide/review.md)
       - [Erstellen eines DITA-Projekts](./user-guide/authoring-create-dita-project.md)
       - [Senden von Themen zur Überprüfung](./user-guide/review-send-topics-for-review.md)
@@ -177,6 +178,19 @@ ht-degree: 7%
    - Zuordnungs- und Veröffentlichungs-{#map-management-publishing}
       - [Übersicht über die Zuordnungskonsole](./user-guide/map-console-overview.md)
       - [Dateien in der Zuordnungskonsole öffnen](./user-guide/open-files-map-console.md)
+      - Berichte {#reports-aem-guide}
+         - [Einführung in Berichte](./user-guide/reports-intro.md)
+         - [DITA-Zuordnungsbericht über die Zuordnungskonsole](./user-guide/reports-web-editor.md)
+         - [DITA-Map-Bericht über das Map-Dashboard](./user-guide/reports-ditamap.md)
+         - [Bericht zur Wiederverwendung von Inhalt](./user-guide/reports-content-reuse.md)
+         - [Bericht zum Konversionsstatus](./user-guide/reports-convertion-status.md)
+         - [Bericht zum Versionsverlauf für zurückgesetzte Dateien](./user-guide/reports-reverted-file-version-history.md)
+      - {#translate-content} der Inhaltsübersetzung
+         - [Übersicht über die Inhaltsübersetzung](./user-guide/translation.md)
+         - [Best Practices für die Übersetzung von Inhalten](./user-guide/translation-first-time.md)
+         - [Übersetzen von Dokumenten aus der Map-Konsole](./user-guide/translate-documents-web-editor.md)
+         - [Übersetzungsstatus anzeigen](./user-guide/translation-view-trans-state-6234.md)
+         - [Geänderte Themen übersetzen](./user-guide/translation-modified-topics-6234.md)
       - {#output-gen} der Ausgabenerstellung
          - [Grundlagen der Ausgabenerstellung](./user-guide/generate-output.md)
          - Ausgabevorgaben in AEM Guides {#output-presets-aemg}
@@ -203,19 +217,6 @@ ht-degree: 7%
          - [Verwalten von globalen und Ordnerprofil-Ausgabevorgaben](./user-guide/web-editor-manage-output-presets.md)
          - [Verwenden von Variablen zum Festlegen der Optionen Zielpfad, Site-Name oder Dateiname](./user-guide/generate-output-use-variables.md)
          - [Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT](./user-guide/pass-metadata-dita-ot.md)
-         - Berichte {#reports-aem-guide}
-            - [Einführung in Berichte](./user-guide/reports-intro.md)
-            - [DITA-Zuordnungsbericht über die Zuordnungskonsole](./user-guide/reports-web-editor.md)
-            - [DITA-Map-Bericht über das Map-Dashboard](./user-guide/reports-ditamap.md)
-            - [Bericht zur Wiederverwendung von Inhalt](./user-guide/reports-content-reuse.md)
-            - [Bericht zum Konversionsstatus](./user-guide/reports-convertion-status.md)
-            - [Bericht zum Versionsverlauf für zurückgesetzte Dateien](./user-guide/reports-reverted-file-version-history.md)
-         - {#translate-content} der Inhaltsübersetzung
-            - [Übersicht über die Inhaltsübersetzung](./user-guide/translation.md)
-            - [Best Practices für die Übersetzung von Inhalten](./user-guide/translation-first-time.md)
-            - [Übersetzen von Dokumenten aus der Map-Konsole](./user-guide/translate-documents-web-editor.md)
-            - [Übersetzungsstatus anzeigen](./user-guide/translation-view-trans-state-6234.md)
-            - [Geänderte Themen übersetzen](./user-guide/translation-modified-topics-6234.md)
          - {#generate-output} generieren
             - [Generieren einer Ausgabe für eine DITA-Zuordnung](./user-guide/generate-output-for-a-dita-map.md)
             - [Generieren einer Wissensdatenbankausgabe](./user-guide/web-editor-article-publishing.md)
@@ -228,12 +229,12 @@ ht-degree: 7%
          - [Output-Erzeugungsprozess verwalten](./user-guide/generate-output-manage-process.md)
          - [Verwalten von Veröffentlichungsaufgaben mit dem Dashboard „Veröffentlichen“](./user-guide/generate-output-publish-dashboard.md)
          - [Allgemeine Fehlerbehebung](./user-guide/generate-output-basic-troubleshooting.md)
-         - Massenaktivierung von {#bulk-activation}
-            - [Massenaktivierung von veröffentlichten Inhalten](./user-guide/conf-bulk-activation.md)
-            - [Erstellen einer Massenaktivierungs-Zuordnungssammlung](./user-guide/conf-bulk-activation-create-map-collection.md)
-            - [Ausgabe aktivieren](./user-guide/conf-bulk-activation-publish-map-collection.md)
-            - [Bearbeiten einer Massenaktivierungs-Zuordnungssammlung](./user-guide/conf-bulk-activation-edit-map-collection.md)
-            - [Massenaktivierungs-Zuordnungssammlung löschen](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - Massenaktivierung von {#bulk-activation}
+         - [Massenaktivierung von veröffentlichten Inhalten](./user-guide/conf-bulk-activation.md)
+         - [Erstellen einer Massenaktivierungs-Zuordnungssammlung](./user-guide/conf-bulk-activation-create-map-collection.md)
+         - [Ausgabe aktivieren](./user-guide/conf-bulk-activation-publish-map-collection.md)
+         - [Bearbeiten einer Massenaktivierungs-Zuordnungssammlung](./user-guide/conf-bulk-activation-edit-map-collection.md)
+         - [Massenaktivierungs-Zuordnungssammlung löschen](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Ausgabegenerierung von FrameMaker-Dokumenten {#generate-fm-output}
       - [Grundlagen zur Generierung von FrameMaker-Ausgaben](./user-guide/fm-output-generatation.md)
       - Unterstützte Voreinstellungen {#fm-docs-generating-presets}
@@ -256,7 +257,8 @@ ht-degree: 7%
          - [Hochladen von Dateien](./user-guide/authoring-upload-existing-files.md)
          - [Dateien und Ordner verwalten](./user-guide/authoring-file-management.md)
          - [Dateien herunterladen](./user-guide/authoring-download-assets.md)
-- [Benutzerhandbuch (alte Benutzeroberfläche)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
+   - [Übersicht über AEM Guides)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installations- und {#install-guide}
    - On-Premise {#on-prem-ig}
       - [On-Premise-Grundlagen](./install-guide/introduction.md)

@@ -4,18 +4,14 @@ description: Hier finden Sie Anleitungsvideos für Experience Manager Guides (fr
 feature: AEM Guides Tutorials
 role: User
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
 
 # Übersicht über AEM Guides
-
->[!NOTE]
->
->Dies ist ein Hinweis zum Legacy-Handbuch. Sie kann anstelle oder zusätzlich zum Metadaten-Badge verwendet werden.
 
 [!DNL Experience Manager Guides] (im Folgenden als &quot;_[!DNL AEM Guides]_&quot; bezeichnet) ist eine leistungsstarke, für Unternehmen geeignete Komponenten-Content-Management-Lösung (CCMS). Sie unterstützt native DITA-Unterstützung in Experience Manager und ermöglicht AEM die Verarbeitung der DITA-basierten Inhaltserstellung und -bereitstellung. Sie ermöglicht es Autoren, Inhalte mit einem beliebigen Offline-DITA-Authoring-Tool wie Adobe FrameMaker oder einem benutzerfreundlichen integrierten Web-Editor zu erstellen.
 
@@ -26,59 +22,6 @@ Mit [!DNL AEM Guides] Lösung können Unternehmen Endbenutzern nahtlose und pers
 >[!NOTE]
 > 
 > Adobe Experience Manager Guides wurde früher als _XML Documentation für Adobe Experience Manager_ bezeichnet. Beachten Sie, dass sich bestimmte Verweise in der Dokumentation weiterhin auf das vorherige Branding beziehen können, aber dennoch für das aktuelle Angebot gelten.
-
-<!--
-
-Dummy links cause validation to fail
-
-## Staff Picks
-
-<table>
-<tr>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-   <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-</tr>
-</table>
-
--->
-
 
 ## Zusätzliche Ressourcen
 
