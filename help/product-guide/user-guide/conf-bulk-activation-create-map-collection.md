@@ -4,9 +4,9 @@ description: In den AEM-Handbüchern erfahren Sie, wie Sie eine Massen-Aktivieru
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 1be8cddcbf58696a53bfccf887a04e5807f2198e
+source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -15,21 +15,24 @@ ht-degree: 0%
 
 Um eine Massen-Aktivierungszuordnungssammlung zu erstellen, führen Sie die folgenden Schritte aus:
 
-1. Wählen Sie **Guides** aus der Liste der Tools aus.
+1. Klicken Sie oben auf das Adobe Experience Manager-Logo und anschließend auf **Tools**.
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und anschließend auf **Tools**.
+1. Wählen Sie im **Tools**-Bedienfeld **Guides** aus.
 
-1. Wählen Sie die Kachel **Massen-Publish-Dashboard** aus.
+1. Wählen Sie die **Dashboard für Massenveröffentlichung** aus.
+
+   Das Dashboard für die Massenveröffentlichung wird angezeigt. Sie können auf dieses Dashboard auch über das linke Bedienfeld der Startseite von [Adobe Experience Manager Guides zugreifen](intro-home-page.md).
 
    Zum ersten Mal wird eine leere Sammlungsseite angezeigt. Wenn Sie zuvor Massenaktivierungssammlungen erstellt haben, werden diese auf dieser Seite angezeigt.
 
-1. Klicken Sie auf **Erstellen**.
 
-1. Geben Sie einen Titel für Ihre Massenaktivierungszuordnungssammlung ein und klicken Sie auf **Erstellen**.
+1. Wählen Sie **Erstellen** aus.
+
+1. Geben Sie einen Titel für Ihre Massenaktivierungszuordnungssammlung ein und wählen Sie **Erstellen** aus.
 
    Bei der Erstellung der Massen-Aktivierungszuordnungssammlung wird eine Erfolgsmeldung angezeigt.
 
-1. Klicken **auf** Erfolgsmeldung.
+1. Wählen **in** Erfolgsmeldung „Öffnen“ aus.
 
 1. Wählen Sie **Bearbeiten** und dann **Karten hinzufügen** aus.
 
@@ -41,7 +44,7 @@ Um eine Massen-Aktivierungszuordnungssammlung zu erstellen, führen Sie die folg
 
    Sie können mehrere Ausgabevorgaben für alle verfügbaren Gebietsschemata auswählen.
 
-1. Klicken Sie auf **Fertig**.
+1. Wählen Sie **Fertig**.
 
 Die DITA-Zuordnungsdateien werden Ihrer Massen-Aktivierungszuordnungssammlung hinzugefügt.
 
@@ -76,7 +79,7 @@ Die **Audit-Verlauf** enthält Informationen zu den aktivierten Zuordnungsausgab
 - **Language**: Zeigt den Sprach-Code der DITA-Karte an.
 - **Voreinstellung**: Zeigt den Titel der Ausgabevorgabe an, die in der Zuordnungsdatei konfiguriert ist. Außerdem wird das Symbol je nach Typ der Ausgabevorgabe angezeigt.
 - **Status**: Zeigt den Status der Aktivierung als erfolgreich oder nicht erfolgreich an.
-- **Ziel**: Wenn Sie die Ausgabe in Experience Manager Guides as a Cloud Service generieren, können Sie das Ziel der Ausgabe als Publish oder Vorschau anzeigen.
+- **Ziel**: Wenn Sie die Ausgabe in Experience Manager Guides as a Cloud Service generieren, können Sie das Ziel der Ausgabe als Veröffentlichung oder Vorschau anzeigen.
 
   >[!NOTE]
   >

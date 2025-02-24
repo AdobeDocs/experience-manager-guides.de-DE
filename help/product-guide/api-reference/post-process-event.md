@@ -5,16 +5,83 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
+source-git-commit: 8c992afc1cc56052e6c07ac3cea6e7d3412259b2
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '373'
 ht-degree: 5%
 
 ---
 
 # Ereignishandler nach der Verarbeitung {#id175UB30E05Z}
 
-AEM Guides macht das com/adobe/fmdita/postprocess/complete-Ereignis verfügbar, das für die Durchführung von Nachbearbeitungsvorgängen verwendet wird. Dieses Ereignis wird ausgelöst, wenn ein Vorgang für eine DITA-Datei ausgeführt wird. Die folgenden Vorgänge auf einem DITA-Datei-Trigger bewirken dieses Ereignis:
+## UUID und Cloud Service
+
+Adobe Experience Manager Guides stellt `com/adobe/guides/postprocess/complete` Ereignis bereit, das zum Ausführen von Nachbearbeitungsvorgängen verwendet wird. Dieses Ereignis wird ausgelöst, wenn ein Vorgang für eine DITA-Datei ausgeführt wird. Die folgenden Vorgänge auf einem DITA-Datei-Trigger bewirken dieses Ereignis:
+
+- Hochladen
+- Erstellen
+- Ändern
+
+
+Sie müssen einen Adobe Experience Manager-Ereignishandler erstellen, um die in diesem Ereignis verfügbaren Eigenschaften zu lesen und weitere Verarbeitungsschritte durchzuführen.
+
+Details zum Ereignis werden unten erläutert:
+
+**Ereignisname**:
+
+```
+com/adobe/guides/postprocess/complete 
+```
+
+**Parameter**:
+
+| Name | Typ | Beschreibung |
+|----|----|-----------|
+| `path` | Zeichenfolge | Pfad der Datei, die dieses Ereignis ausgelöst hat In der Regel ist dies die Datei, für die ein Vorgang ausgeführt wurde. |
+| `eventType` | Zeichenfolge | Der Ereignistyp, d. h. ERSTELLEN oder ÄNDERN. |
+| `status` | Zeichenfolge | Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: - <br>- ERFOLG: Der Nachbearbeitungsvorgang wurde erfolgreich abgeschlossen. <br>- FEHLGESCHLAGEN: Der Nachbearbeitungsvorgang ist aufgrund eines Fehlers fehlgeschlagen. |
+| `errorMsg` | Zeichenfolge | Die Fehlermeldung im Falle eines Fehlers beim Nachbearbeitungs-Vorgang. |
+| `uuid` | Zeichenfolge | Die UUID der Datei, die dieses Ereignis ausgelöst hat. In der Regel ist dies die Datei, für die ein Vorgang ausgeführt wurde. |
+
+**Beispiel-Ereignis-Listener**
+
+
+```
+@Component(service = EventHandler.class,
+        immediate = true,
+        property = {
+                EventConstants.EVENT_TOPIC + "=" + "com/adobe/guides/postprocess/complete",
+        })
+public class PostProcessCompleteEventHandler implements EventHandler {
+
+    protected final Logger log = LoggerFactory.getLogger(this.getClass());
+
+    @Override
+    public void handleEvent(final Event event) {
+        Set<String> propertyNames = new HashSet<>(Arrays.asList(event.getPropertyNames()));
+        Map<String, String> properties = new HashMap<>();
+        properties.put("path", (String) event.getProperty("path"));
+        properties.put("eventType", (String) event.getProperty("eventType"));
+        properties.put("status", (String) event.getProperty("status"));
+        if(propertyNames.contains("errorMsg")) {
+            properties.put("errorMsg", (String) event.getProperty("errorMsg"));
+        }
+        if (propertyNames.contains("uuid")) {
+            properties.put("uuid", (String) event.getProperty("uuid"));
+        }
+        String eventTopic = event.getTopic();
+        log.debug("eventTopic {}", eventTopic);
+        for(Map.Entry entry:properties.entrySet()) {
+            log.debug(entry.getKey() + " : " + entry.getValue());
+        }
+    }
+}
+```
+
+## Nicht-UUID
+
+
+Adobe Experience Manager Guides macht das com/adobe/fmdita/postprocess/complete-Ereignis verfügbar, das für die Durchführung von Nachbearbeitungsvorgängen verwendet wird. Dieses Ereignis wird ausgelöst, wenn ein Vorgang für eine DITA-Datei ausgeführt wird. Die folgenden Vorgänge auf einem DITA-Datei-Trigger bewirken dieses Ereignis:
 
 >[!NOTE]
 >
@@ -25,7 +92,7 @@ AEM Guides macht das com/adobe/fmdita/postprocess/complete-Ereignis verfügbar, 
 - Änderung
 - Löschung
 
-Sie müssen einen AEM-Ereignishandler erstellen, um die in diesem Ereignis verfügbaren Eigenschaften zu lesen und die Verarbeitung fortzusetzen.
+Sie müssen einen Adobe Experience Manager-Ereignishandler erstellen, um die in diesem Ereignis verfügbaren Eigenschaften zu lesen und weitere Verarbeitungsschritte durchzuführen.
 
 Details zum Ereignis werden unten erläutert:
 
@@ -40,6 +107,6 @@ com/adobe/fmdita/postprocess/complete
 | Name | Typ | Beschreibung |
 |----|----|-----------|
 | `path` | Zeichenfolge | Pfad der Datei, die dieses Ereignis ausgelöst hat In der Regel ist dies die Datei, für die ein Vorgang ausgeführt wurde. |
-| `status` | Zeichenfolge | Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: - <br>- ERFOLG: Der Nachbearbeitungsvorgang wurde erfolgreich abgeschlossen. <br>- ABGESCHLOSSEN MIT FEHLERN: Der Nachbearbeitungsvorgang wurde abgeschlossen, jedoch mit einigen Fehlern. <br>- FEHLGESCHLAGEN: Der Nachbearbeitungsvorgang ist aufgrund eines schwerwiegenden Fehlers fehlgeschlagen. |
+| `status` | Zeichenfolge | Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: - <br>- ERFOLG: Der Nachbearbeitungsvorgang wurde erfolgreich abgeschlossen. <br>- ABGESCHLOSSEN MIT FEHLERN: Der Nachbearbeitungsvorgang wurde abgeschlossen, jedoch mit einigen Fehlern. <br>- FEHLGESCHLAGEN: Der Nachbearbeitungsvorgang ist aufgrund eines Fehlers fehlgeschlagen. |
 | `message` | Zeichenfolge | Falls der Status MIT FEHLERN ABGESCHLOSSEN ODER FEHLGESCHLAGEN ist, enthält dieser Parameter Details zum Fehler oder zur Fehlerursache. |
 | `operation` | Zeichenfolge | Der für die Datei durchgeführte Nachbearbeitungsvorgang. Die möglichen Optionen sind: <br>- Hinzufügen <br>- Aktualisieren <br> Löschen |

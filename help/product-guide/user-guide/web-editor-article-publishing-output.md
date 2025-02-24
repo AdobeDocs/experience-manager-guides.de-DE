@@ -4,14 +4,18 @@ description: Generieren Sie eine Ausgabe aus dem Repository-Bereich oder dem Zuo
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # Generieren von Ausgaben aus dem Repository- oder dem Zuordnungsansichtsbereich {#id218CL6010AE}
+
+>[!NOTE]
+>
+> Das Bedienfeld „Schnellgenerierung“, das zuvor in Adobe Experience Manager Guides verfügbar war, wird seit Version 4.0 und 2502 nicht mehr unterstützt. Sie können nicht auf das Bedienfeld „Schnellgenerierung“ zugreifen, um eine Ausgabe aus dem Repository-Bedienfeld oder dem Zuordnungsansichtsbedienfeld zu generieren.
 
 Sie können auch die für Ihre DITA-Zuordnung erstellten Ausgabevorgaben verwenden, um Ausgaben aus dem Repository-Bedienfeld oder dem Kartenansichtsbedienfeld zu generieren.
 
@@ -23,7 +27,7 @@ Sie können auch die für Ihre DITA-Zuordnung erstellten Ausgabevorgaben verwend
 
 - Verwenden Sie die Funktion **Ausgabe generieren** im Bereich „Zuordnungsansicht“, um die Ausgabe für die ausgewählten mehreren Themen zu generieren.
 
-## Publish : Ein Thema, das in mindestens einer DITA-Zuordnung verwendet wird
+## Veröffentlichen eines Themas, das in einer oder mehreren DITA-Zuordnungen verwendet wird
 
 Führen Sie die folgenden Schritte aus, um eine Ausgabe für ein oder mehrere Themen in Ihrer DITA-Zuordnung zu generieren:
 

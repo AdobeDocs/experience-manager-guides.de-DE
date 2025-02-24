@@ -1,13 +1,13 @@
 ---
-title: Publish eines Themas zu einem Inhaltsfragment
-description: Publish eines Themas oder der Elemente innerhalb eines Themas zu einem Inhaltsfragment in AEM Guides.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Inhaltsfragmente anzeigen und erneut veröffentlichen.
+title: Veröffentlichen eines Themas in einem Inhaltsfragment
+description: Veröffentlichen Sie ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment in AEM Guides.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Inhaltsfragmente anzeigen und erneut veröffentlichen.
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: f86d8f2d2e6aa48941cf16526e608df4845420fd
+source-git-commit: 26aacde56e84c9f3a5ee5106b9271b4b12f8969a
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 0%
+source-wordcount: '938'
+ht-degree: 1%
 
 ---
 
@@ -33,14 +33,14 @@ Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration hinzu. Di
 
 1. Um ein Inhaltsfragment zu generieren, wählen Sie **Neue Ausgabe** ![neues Ausgabesymbol](./images/Add_icon.svg) aus dem Abschnitt **Ausgaben** im Abschnitt **Dateieigenschaften** eines Themas aus.
 1. Wählen Sie **Inhaltsfragment** aus.\
-   ![Registerkarte „Optionen“ der Dateieigenschaften](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   ![Registerkarte „Optionen“ der Dateieigenschaften](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
 
    *Ein neues Inhaltsfragment aus den Dateieigenschaften eines Themas hinzufügen*.
 
 1. Füllen **Dialogfeld „Inhaltsfragment**&quot; die folgenden Details auf den Registerkarten **Allgemein** und **Zuordnung** aus.
 
    **Allgemein** Registerkarte
-   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Publish als Inhaltsfragment hinzu](images/generate-content-fragment.png)
+   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Inhaltsfragment veröffentlichen hinzu](images/generate-content-fragment.png)
    *Fügen Sie den Pfad, den Namen, den Titel und die Bedingungsfilterung hinzu, um ein Thema oder seine Elemente als Inhaltsfragment zu veröffentlichen.*
 
 
@@ -64,7 +64,7 @@ Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration hinzu. Di
 
    Registerkarte **Zuordnung**
 
-   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Publish als Inhaltsfragment hinzu](images/content-fragment-mapping.png)
+   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Inhaltsfragment veröffentlichen hinzu](images/content-fragment-mapping.png)
 
    *Wählen Sie das Inhaltsfragmentmodell aus und fügen Sie die Zuordnungsdetails hinzu, um ein Thema oder seine Elemente als Inhaltsfragment zu veröffentlichen.*
 
@@ -77,11 +77,11 @@ Die rechte Seite wird im Falle eines vorhandenen Inhaltsfragments mit den veröf
      >
      > Wenn Sie Version 4.4 oder frühere Versionen verwenden, wählen Sie eine Zuordnung aus der Dropdown-Liste aus. Die Zuordnungen werden aus der Datei *contentFragmentMapping.json* ausgewählt.  Ihr Administrator kann die Zuordnungen in der Datei *contentFragmentMapping.json* hinzufügen. Weitere Informationen zum Erstellen [ Zuordnung zwischen einem Thema und einem Inhaltsfragment ](../cs-install-guide/conf-content-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
 
-1. Klicken Sie **Generieren**, um das Inhaltsfragment zu veröffentlichen.
+1. Wählen **Generieren**, um das Inhaltsfragment zu veröffentlichen.
 
 1. Sie können die Inhaltsfragmente für ein Thema im Abschnitt **Ausgaben** in den **Dateieigenschaften**.
 
-   ![Anzeigen der Inhaltsfragmente für ein Thema](images/outputs-options-menu.png){width="300" align="left"}
+   ![Anzeigen der Inhaltsfragmente für ein Thema](images/outputs-options-menu-new.png){width="300" align="left"}
 
    *Anzeigen der für ein Thema vorhandenen Inhaltsfragmente und erneutes Veröffentlichen.*
 
@@ -106,9 +106,3 @@ Sie können auch die folgenden Aktionen für ein Inhaltsfragment über das Menü
   > Durch diese Aktion wird kein Inhalt aus dem Inhaltsfragment gelöscht.
 
 * **Anzeigen**: Anzeigen des Inhaltsfragment-Editors. Sie können auch Änderungen vornehmen und speichern.
-
-## Verbesserte Migration von Nicht-UUID zu UUID-Inhalt
-
-Das neue UUID-Skript zur Inhaltsmigration wurde erheblich optimiert, sodass die Inhaltsmigration von Nicht-UUID zu UUID 30-mal schneller als das frühere Skript ist. Es umfasst Funktionen wie die Wiederaufnahme von Checkpoints, Live-Einblicke, geschätzte Abschlusszeit und detaillierte Berichte, um einen harmonischen Migrationsprozess sicherzustellen. Insbesondere behält der Migrationsprozess die Asset-Metadaten ohne Änderungen bei. Das Skript wurde für einen großen Datensatz mit 3 Millionen Assets getestet und verifiziert, was seine Effizienz und Zuverlässigkeit für umfangreiche Migrationen bestätigt.
-
-Erfahren Sie mehr über [Migration von Nicht-UUID zu UUID-Inhalten](../install-guide/migrate-non-uuid-uuid.md).

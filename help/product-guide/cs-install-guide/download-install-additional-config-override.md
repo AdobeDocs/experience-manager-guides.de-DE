@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,30 @@ Für Konfigurationsaktualisierungen sollte der folgende allgemeine Ansatz verwen
    ```
 
 1. Übertragen Sie die Änderungen und führen Sie die Cloud Manager-Pipeline aus, um die aktualisierte Konfiguration bereitzustellen.
+
+## Konfigurieren der Experience Manager Guides-Benutzeroberfläche
+
+Die Version 2025.02.0 von Adobe Experience Manager Guides bietet eine überarbeitete Benutzeroberfläche und erweiterte Funktionen, mit denen Sie schneller und effizienter als je zuvor arbeiten können. Dazu gehören eine völlig neue Startseite, eine übersichtlichere Editor-Symbolleiste, eine spezielle Kartenkonsole und erweiterte Funktionen.
+
+Um einen reibungslosen Übergang sicherzustellen und Unterbrechungen zu minimieren, bietet Experience Manager Guides eine Konfigurationsoption, mit der Sie bei Bedarf zurück zur alten Benutzeroberfläche wechseln können (und umgekehrt).
+
+>[!IMPORTANT]
+>
+> Diese Konfigurationsoption zum Wechseln zwischen der neuen und der alten Benutzeroberfläche ist bis zur Version 2025.4.0 verfügbar. Danach wird die neue Benutzeroberfläche zur Standardbenutzeroberfläche und die Option zum Zurückwechseln zur vorherigen Benutzeroberfläche wird nicht mehr unterstützt.
+
+Führen Sie die folgenden Schritte aus, um die Benutzeroberfläche von Experience Manager Guides zu konfigurieren:
+
+1. Öffnen Sie Adobe Experience Manager und wählen Sie dann Ihr Programm aus, das die Umgebung enthält, die Sie konfigurieren möchten.
+2. Wechseln Sie zur Registerkarte **Umgebungen**.
+3. Wählen Sie den Namen der Umgebung aus, die Sie konfigurieren möchten. Dadurch sollten Sie zur Seite **Umgebungsinformationen** gelangen.
+4. Wechseln Sie zur Registerkarte **Konfiguration** .
+5. Wählen Sie **Hinzufügen/Aktualisieren** aus.
+6. Fügen Sie die Konfigurationsdetails der Benutzeroberfläche hinzu. Stellen Sie sicher, dass Sie denselben Namen und dieselbe Konfiguration wie im folgenden Screenshot verwenden.
+
+   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+
+   Wenn Sie den Wert auf **true** setzen, wird die alte Benutzeroberfläche beibehalten, während **false** die neue Benutzeroberfläche aktiviert.
+
 
 
 **Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

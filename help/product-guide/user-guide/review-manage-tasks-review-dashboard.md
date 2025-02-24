@@ -4,9 +4,9 @@ description: Verwalten Sie Prüfungsaufgaben im Überprüfungs-Dashboard in AEM 
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 >
 > Prüfungsaufgaben können nur für die Projekte verwaltet werden, für die Sie Autor \(oder Initiator\) sind. Selbst wenn Sie ein Reviewer oder Publisher (Benutzer\) sind, haben Sie keinen Zugriff auf eine der Projektaufgaben.
 
-1. Klicken Sie in **Projekte**-Konsole auf das Überprüfungsprojekt, das Sie verwalten möchten.
+1. Wählen Sie in **Projekte**-Konsole das Überprüfungsprojekt aus, das Sie verwalten möchten.
 
    Ein Projektbedienfeld mit Aufgabenkacheln wird angezeigt.
 
    ![](images/review-management.png){width="800" align="left"}
 
-1. Klicken Sie auf die drei Punkte in der Kachel **Reviews**.
+1. Wählen Sie die drei Punkte in der Kachel **Reviews** aus.
 
    Das Überprüfungs-Dashboard wird angezeigt. Im Dashboard werden alle von Ihnen erstellten Prüfungsaufgaben aufgelistet.
 
@@ -37,13 +37,13 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 
    >[!NOTE]
    >
-   > Wenn Sie auf den Link Prüfungsaufgabe klicken, wird die zur Überprüfung gesendete Themen- oder Zuordnungsdatei geöffnet.
+   > Wenn Sie den Link Prüfungsaufgabe auswählen, wird die zur Überprüfung gesendete Themen- oder Zuordnungsdatei geöffnet.
 
 1. Eine Prüfungsaufgabe auswählen.
 
    In der Symbolleiste werden die Optionen Eigenschaften bearbeiten [Status](#check-review-status-id199RF0A0UHS) angezeigt.
 
-1. Wenn Sie auf **Eigenschaften bearbeiten** klicken, wird die Seite mit den Aufgabendetails angezeigt.
+1. Wenn Sie **Eigenschaften bearbeiten** auswählen, wird die Seite „Aufgabendetails“ angezeigt.
 
    Auf der Seite „Aufgabendetails“ gibt es drei Registerkarten: „Aufgabe“, „Inhalt“ und „Prüfer“. In den folgenden Abschnitten werden die verschiedenen Funktionen erläutert, die auf den einzelnen Registerkarten verfügbar sind.
 
@@ -59,15 +59,15 @@ Sie können die folgenden Aktionen auf der Registerkarte **Aufgabe** ausführen:
 - Aktualisieren Sie die Beschreibung der Aufgabe im Feld **Beschreibung** .
 - Ändern Sie das **Fälligkeitsdatum**. Sie können die Frist für den Abschluss der Aufgabe vorziehen oder verschieben.
 - Wählen Sie die Option aus, um Benutzer darauf zu beschränken, nur die Themen anzusehen, die ihnen zugewiesen sind.
-- Klicken Sie **Aktualisieren**, um die geänderten Details zu aktualisieren.
-- Klicken Sie **Abschließen**, um die Prüfungsaufgabe vor dem Fälligkeitsdatum als abgeschlossen zu markieren. Wenn die Aufgabe eines einzelnen Themas als Abgeschlossen markiert ist, wird die Überprüfung des ausgewählten Themas abgeschlossen. Bei Themen, die über eine DITA-Zuordnung zur Überprüfung freigegeben wurden, wird durch Markierung der DITA-Zuordnungsaufgabe als abgeschlossen jedoch die Überprüfung aller Themen innerhalb der Zuordnung geschlossen, die zur Überprüfung freigegeben wurden.
-- Klicken Sie **Duplizieren**, um eine Kopie der Prüfungsaufgabe zu erstellen. Der Prozess des Erstellens einer doppelten Prüfungsaufgabe ähnelt dem Erstellen einer neuen Prüfungsaufgabe. Nachdem Sie den Workflow für doppelte Aufgaben gestartet haben, wird die Seite Prüfungsaufgabe erstellen angezeigt. Sie müssen die neuen Aufgabendetails angeben, wie unter [Senden von Themen zur Überprüfung](review-send-topics-for-review.md#) beschrieben.
+- Wählen Sie **Aktualisieren** aus, um die geänderten Details zu aktualisieren.
+- Wählen Sie **Abschließen**, um die Prüfungsaufgabe als vor dem Fälligkeitsdatum abgeschlossen zu markieren. Wenn die Aufgabe eines einzelnen Themas als Abgeschlossen markiert ist, wird die Überprüfung des ausgewählten Themas abgeschlossen. Bei Themen, die über eine DITA-Zuordnung zur Überprüfung freigegeben wurden, wird durch Markierung der DITA-Zuordnungsaufgabe als abgeschlossen jedoch die Überprüfung aller Themen innerhalb der Zuordnung geschlossen, die zur Überprüfung freigegeben wurden.
+- Wählen Sie **Duplizieren**, um eine Kopie der Prüfungsaufgabe zu erstellen. Der Prozess des Erstellens einer doppelten Prüfungsaufgabe ähnelt dem Erstellen einer neuen Prüfungsaufgabe. Nachdem Sie den Workflow für doppelte Aufgaben gestartet haben, wird die Seite Prüfungsaufgabe erstellen angezeigt. Sie müssen die neuen Aufgabendetails angeben, wie unter [Senden von Themen zur Überprüfung](review-send-topics-for-review.md#) beschrieben.
 
   Wenn Sie eine Prüfungsaufgabe ausgewählt haben, die aus einer DITA-Map erstellt wurde, werden die Themen angezeigt, die Teil der Map sind. Anschließend können Sie die Themen auswählen, die Sie in die neue Prüfungsaufgabe aufnehmen möchten.
 
   Im Falle einer Prüfungsaufgabe, die aus einem oder mehreren Prüfungsthemen dupliziert wurde, werden nur diese Themen in der Prüfungsaufgabenliste angezeigt. Sie können diese Themen zur Überprüfung für eine andere Gruppe von Validierungsverantwortlichen freigeben.
 
-- Klicken Sie **Schließen**, um zur Seite „Posteingang“ zu wechseln.
+- Wählen Sie **Schließen** aus, um zur Seite „Posteingang“ zu wechseln.
 
 ## Registerkarte „Inhalt“
 
@@ -77,15 +77,15 @@ Sie können die folgenden Aktionen auf der Registerkarte **Inhalt** ausführen:
 
 - Ändern der Version des Themas, das zur Überprüfung gesendet wird. Sie können die neueste Version des Themas, die Version am Datum, die Version mit der spezifischen Beschriftung oder die Version mit der spezifischen Baseline \(für eine DITA-Zuordnung\) auswählen.
 
-- Klicken Sie **Aktualisieren**, um die aktualisierte Version des Themas für die Prüfer freizugeben. Die Reviewer erhalten eine E-Mail-Benachrichtigung, in der sie darauf hingewiesen werden, dass die neuere Version des Themas zur Überprüfung versendet wurde. Wenn ein Reviewer das nächste Mal ein Thema öffnet, wird ihm die aktualisierte Version des Themas angezeigt.
+- Wählen Sie **Aktualisieren** aus, um die aktualisierte Version des Themas für die Prüfer freizugeben. Die Reviewer erhalten eine E-Mail-Benachrichtigung, in der sie darauf hingewiesen werden, dass die neuere Version des Themas zur Überprüfung versendet wurde. Wenn ein Reviewer das nächste Mal ein Thema öffnet, zeigt er die aktualisierte Version des Themas an.
 
   >[!NOTE]
   >
-  > Bei einer aktualisierten Version eines Themas werden die alten Kommentare auch in der neueren Version beibehalten. Reviewer sehen außerdem die Unterschiede zwischen den beiden Versionen.
+  > Bei einer aktualisierten Version eines Themas werden die alten Kommentare auch in der neueren Version beibehalten. Reviewer können außerdem die Unterschiede zwischen den beiden Versionen anzeigen.
 
-- Klicken Sie **Abschließen**, um die Prüfungsaufgabe vor dem Fälligkeitsdatum als abgeschlossen zu markieren. Wenn die Aufgabe eines einzelnen Themas als Abgeschlossen markiert ist, wird die Überprüfung des ausgewählten Themas abgeschlossen. Bei Themen, die über eine DITA-Zuordnung zur Überprüfung freigegeben wurden, wird durch Markierung der DITA-Zuordnungsaufgabe als abgeschlossen jedoch die Überprüfung aller Themen innerhalb der Zuordnung geschlossen, die zur Überprüfung freigegeben wurden.
+- Wählen Sie **Abschließen**, um die Prüfungsaufgabe als vor dem Fälligkeitsdatum abgeschlossen zu markieren. Wenn die Aufgabe eines einzelnen Themas als Abgeschlossen markiert ist, wird die Überprüfung des ausgewählten Themas abgeschlossen. Bei Themen, die über eine DITA-Zuordnung zur Überprüfung freigegeben wurden, wird durch Markierung der DITA-Zuordnungsaufgabe als abgeschlossen jedoch die Überprüfung aller Themen innerhalb der Zuordnung geschlossen, die zur Überprüfung freigegeben wurden.
 
-- Klicken Sie **Duplizieren**, um eine neue Prüfungsaufgabe mit der aktuellen Aufgabe als Basis zu erstellen.
+- Wählen Sie **Duplizieren**, um eine neue Prüfungsaufgabe mit der aktuellen Aufgabe als Basis zu erstellen.
 
 
 ## Registerkarte „Validierungsverantwortliche“ {#reviewer-tab-id199RF0N0MUI}
@@ -99,17 +99,17 @@ Sie können die folgenden Aktionen auf der Registerkarte **Validierungsverantwor
 
   >[!NOTE]
   >
-  > Sie können ein Thema auch einzeln auswählen oder die Auswahl aufheben, indem Sie auf das Kontrollkästchen neben dem Thema klicken.
+  > Sie können ein Thema auch einzeln auswählen oder die Auswahl aufheben, indem Sie das Kontrollkästchen neben dem Thema aktivieren.
 
 - **Hinzufügen**: Zeigt das Dialogfeld „Reviewer hinzufügen“ an. Sie können den Namen eines Reviewers oder einer Benutzerrolle \(oder einer Gruppe\) eingeben, den bzw. die Sie als Reviewer zu den ausgewählten Themen hinzufügen möchten.
 - **Entfernen**: Zeigt das Dialogfeld „Reviewer entfernen“ an. Sie können den Namen eines Reviewers oder einer Benutzerrolle \(oder einer Gruppe\) eingeben, den bzw. die Sie als Reviewer aus den ausgewählten Themen entfernen möchten.
 - **Neu zuweisen**: Zeigt das Dialogfeld „Reviewer neu zuweisen“ an. Sie können den Namen eines Reviewers oder einer Benutzerrolle \(oder einer Gruppe\) eingeben, dem bzw. der die Überprüfungsaufgabe zugewiesen werden soll. Dadurch werden alle vorhandenen Reviewer aus den ausgewählten Themen entfernt und die neu ausgewählten Reviewer diesen Themen zugewiesen.
 - **Exportieren**: Ermöglicht den Export der Aufgabendetails für die Überprüfung in eine CSV-Datei. Die Datei enthält Details wie den Pfad und Titel des Themas, den Namen des Reviewers und die Version der Themen, die zur Überprüfung gesendet werden.
-- **Reviewer bearbeiten**: Wenn Sie in der Themenliste auf das ![](images/edit_pencil_icon.svg)Symbol klicken, wird das Dialogfeld „Reviewer bearbeiten“ angezeigt. Sie können Reviewer für ausgewählte Themen in diesem Dialogfeld hinzufügen oder entfernen.
+- **Reviewer bearbeiten**: Wenn Sie das ![](images/edit_pencil_icon.svg)Symbol in der Themenliste auswählen, wird das Dialogfeld „Reviewer bearbeiten“ angezeigt. Sie können Reviewer für ausgewählte Themen in diesem Dialogfeld hinzufügen oder entfernen.
 
 ## Überprüfen des Status einer Prüfungsaufgabe {#check-review-status-id199RF0A0UHS}
 
-Wenn Sie auf der Hauptseite des Überprüfungs-Dashboards eine Überprüfungsaufgabe auswählen und auf **Status** klicken, wird der Statusbericht der Überprüfungsaufgabe angezeigt:
+Wenn Sie auf der Hauptseite des Überprüfungs-Dashboards eine Überprüfungsaufgabe auswählen und **Status** wählen, wird der Statusbericht der Überprüfungsaufgabe angezeigt.
 
 ![](images/review-status-report.png){width="800" align="left"}
 
@@ -124,4 +124,4 @@ Der Statusbericht für die Prüfungsaufgabe enthält die folgenden Details:
 - Gesamtzahl der Kommentare zu allen Themen. Bei mehreren zu überprüfenden Themen wird die Anzahl der Kommentare für jedes Thema \(in Klammern\) gegenüber dem Themennamen angegeben.
 - Das Datum, an dem der Reviewer zuletzt auf ein Thema zugegriffen hat.
 
-**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

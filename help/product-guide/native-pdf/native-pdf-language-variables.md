@@ -1,26 +1,26 @@
 ---
 title: Native PDF | Unterstützung für Sprachvariablen
-description: Verwenden von Sprachvariablen in den PDF-Ausgabe- und -Ausgabevorlagen
+description: Verwenden von Sprachvariablen in den Ausgabe- und Ausgabevorlagen von PDF
 exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6e9c998aa5c36b7e0dbb9d594dbf223017164698
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
 
 # Unterstützung für Sprachvariablen
 
-AEM Guides bietet die Funktion zur Verwendung von Sprachvariablen. Sie können Sprachvariablen verwenden, um lokalisierte Zeichenfolgen in der PDF-Ausgabe zu definieren oder um statischen Text in den Ausgabevorlagen zu lokalisieren. Sie können CSS-Stile verwenden, um die Zeichenfolgen aus einer CSS-Datei zu lokalisieren.
+Adobe Experience Manager Guides bietet die Funktion zur Verwendung von Sprachvariablen. Sie können Sprachvariablen verwenden, um lokalisierte Zeichenfolgen in der PDF-Ausgabe zu definieren oder statischen Text in den Ausgabevorlagen zu lokalisieren. Sie können CSS-Stile verwenden, um die Zeichenfolgen aus einer CSS-Datei zu lokalisieren.
 
 ## Verwenden von Sprachvariablen in der PDF-Ausgabe
 
-Sie können Sprachvariablen verwenden, um eine lokalisierte Version der vordefinierten Kennzeichnungen wie „Hinweis“, „Vorsicht“ und „Warnung“ oder „Statischer Text“ in der PDF-Ausgabe zu definieren. Der Variablenname ist für alle Sprachen gleich, kann aber für die verschiedenen Sprachen unterschiedliche Werte aufweisen. Sie können den Wert für diese Variablen in einer oder mehreren Sprachen aktualisieren, und dann wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt.
+Sie können Sprachvariablen verwenden, um eine lokalisierte Version der standardmäßigen Kennzeichnungen wie „Hinweis“, „Vorsicht“ und „Warnung“ oder „Statischer Text“ in der PDF-Ausgabe zu definieren. Der Variablenname ist für alle Sprachen gleich, kann aber für die verschiedenen Sprachen unterschiedliche Werte aufweisen. Sie können den Wert für diese Variablen in einer oder mehreren Sprachen aktualisieren, und dann wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt.
 
-Beispielsweise können Sie die folgenden Möglichkeiten haben, den `Note` in der PDF-Ausgabe zu präsentieren:
+Beispielsweise können Sie die folgenden Möglichkeiten haben, den `Note` in der PDF-Ausgabe darzustellen:
 
 - Englisch: Hinweis
 
@@ -36,7 +36,7 @@ Beispielsweise können Sie die folgenden Möglichkeiten haben, den `Note` in der
 >
 > Wenn der Wert für eine Variable nicht in einer bestimmten Sprache definiert ist, wählt AEM Guides die Zeichenfolge aus der Sprache der Benutzeroberfläche (Benutzeroberfläche des Programms) als Ausweichmechanismus aus.
 >
-> Wenn Sie den Wert nicht in der Sprache der Benutzeroberfläche definiert haben, sucht er nach Englisch (`en_us`), oder er wählt den englischen Wert (`en`) aus und zeigt denselben Wert in der PDF-Ausgabe an.
+> Wenn Sie den Wert nicht in der Sprache der Benutzeroberfläche definiert haben, sucht er nach Englisch (`en_us`), oder er wählt den englischen Wert (`en`) aus und zeigt denselben in der PDF-Ausgabe an.
 
 ## Typen von Sprachvariablen
 
@@ -65,14 +65,13 @@ Sie können auch neue Sprachvariablen erstellen. Sie können beispielsweise eine
 
 ## Neue Sprachvariable hinzufügen
 
-1. Wechseln Sie im Web-Editor zur Registerkarte Ausgabe .
-1. Wählen Sie **Sprachvariablen** <img src="./assets/language-variables.svg" width="25"> im linken Bedienfeld.
+1. Navigieren Sie im Editor zum linken Bedienfeld und wählen Sie &quot;**&quot;**. Diese Option ist im Abschnitt Mehr verfügbar.
 1. Wählen Sie **Bearbeiten** aus, um das Fenster **Sprachvariablen** zu öffnen. Die Anwendung und die Benutzervariablen, die in der ausgewählten Sprache vorhanden sind, werden in alphabetischer Reihenfolge aufgeführt. Die Werte werden entsprechend der ausgewählten Sprache angezeigt. Wenn Sie beispielsweise die französische Sprache auswählen, wird „Tipp“ als „Conseil“ angezeigt.
 1. Wählen Sie **Dropdown-Menü** Sprache“ die gewünschte Sprache aus, in der Sie eine Variable bearbeiten möchten.
 
    >[!NOTE]
    >
-   > Wenn Sie die gewünschten Sprachen nicht anzeigen, aktivieren Sie die gewünschte Sprache in den **Sprachvariableneinstellungen**. Einstellungen auswählen <img src="./assets/settings-icon.svg" width="25"> Sie das Dialogfeld **Einstellungen für Sprachvariablen** öffnen.
+   > Wenn Sie die gewünschten Sprachen nicht sehen, aktivieren Sie die gewünschte Sprache in den Einstellungen **Sprachen konfigurieren**. Einstellungen auswählen <img src="./assets/settings-icon.svg" width="25"> das Dialogfeld **Sprachen konfigurieren** geöffnet werden.
 
 1. Geben Sie den Variablennamen in die Spalte **Name** und dessen Wert in die Spalte **Wert** ein.
 
@@ -138,7 +137,7 @@ Sie können auch **Benutzervariablen** oder **Duplizieren**. Wenn Sie eine Varia
 
 ### Bearbeiten oder Zurücksetzen der Anwendungsvariablen
 
-Sie können auch die Werte für eine Anwendungsvariable bearbeiten. Später können Sie eine Anwendungsvariable auf den ursprünglichen Wert zurücksetzen. **Variable zurücksetzen** <img src="./assets/application-variable-revert.svg" width="25"> wird für eine Anwendungsvariable mit einem geänderten Wert angezeigt.
+Sie können auch die Werte für eine Anwendungsvariable bearbeiten. Später können Sie eine Anwendungsvariable auf den ursprünglichen Wert zurücksetzen. **Zurücksetzen** <img src="./assets/application-variable-revert.svg" width="25"> wird für eine Anwendungsvariable mit einem geänderten Wert angezeigt.
 
 ## Verwenden von Sprachvariablen in den Ausgabevorlagen
 
@@ -149,7 +148,7 @@ Sie sollten Ihren lokalisierten Dokumenten Sprachvariablen hinzufügen. Sie kön
 <img alt="Seiten-Layout einer PDF-Datei" src="./assets/language-variable-page-layout.png" width="550">
 
 
-*Der Autor und der Markenname, die in der für die französische Sprache erstellten PDF-Ausgabe lokalisiert sind.*
+*Der Autor und der Markenname in der für Französisch generierten PDF-Ausgabe.*
 
 Um eine Sprachvariable wie Ihre `copyright-label` in den Kopfzeilenbereich einzufügen, führen Sie die folgenden Schritte aus:
 
@@ -216,7 +215,7 @@ h1:before {
 }
 ```
 
-Die folgenden Screenshots zeigen die lokalisierten Zeichenfolgen in deutscher und japanischer PDF-Ausgabe .
+Die folgenden Screenshots zeigen die in der deutschen und japanischen PDF-Ausgabe lokalisierten Zeichenfolgen.
 
 <img alt=" Japanische Ausgabe mit Sprachvariable" src="./assets/localize-chapter-german.png" width="550">
 
@@ -228,7 +227,7 @@ Die folgenden Screenshots zeigen die lokalisierten Zeichenfolgen in deutscher un
 
 ### Präfixe formatieren
 
-Mithilfe von CSS-Stilen können Sie auch die Präfixe formatieren. Beispielsweise können Sie die Bezeichnung `Note` formatieren, sodass sie in der PDF-Ausgabe verschiedener Sprachen rot angezeigt wird.
+Mithilfe von CSS-Stilen können Sie auch die Präfixe formatieren. Beispielsweise können Sie den `Note` so formatieren, dass er in der PDF-Ausgabe verschiedener Sprachen rot dargestellt wird.
 
 ```
 .note .prefix-content 

@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie Dateien und Ordner in AEM Guides verwalten. K
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
 
 # Dateien und Ordner verwalten {#id2116G0L08XA}
 
-In diesem Abschnitt wird erläutert, wie AEM Guides mit grundlegenden Dateivorgängen wie Kopieren, Einfügen, Drag-and-Drop und Löschen von Dateien umgeht. Die folgenden Szenarien sind möglich:
+In diesem Abschnitt wird erläutert, wie Adobe Experience Manager Guides mit grundlegenden Dateivorgängen wie Kopieren, Einfügen, Drag-and-Drop und Löschen von Dateien umgeht. Die folgenden Szenarien sind möglich:
 
 ## Dateien kopieren und einfügen
 
@@ -99,11 +99,11 @@ Wenn Sie beim Ersetzen oder Verschieben der Dateien die Option zum Erstellen ein
 
 ## Dateien stapelweise verschieben {#move-files-bulk}
 
-AEM Guides verfügt über das Tool zum Massenverschieben , mit dem ein Administrator einen Ordner mit einer großen Anzahl von Dateien von einem Speicherort an einen anderen verschieben kann. Mit diesem Tool können Dateien innerhalb eines oder mehrerer Ordner einfach in einen anderen Ordner in Ihrem AEM-Repository verschoben werden. Eines der Hauptmerkmale dieses Tools ist, dass es nicht nur eine große Anzahl von Dateien verschiebt, sondern auch die Verweise auf und von den Dateien, die verschoben werden. Sie können die Anzahl der Dateien, die Sie in Stapeln verschieben können, anpassen, ohne die Authoring- und Publishing-Aufgaben zu beeinträchtigen.
+Experience Manager Guides verfügt über das Tool zum Massenverschieben , mit dem ein Administrator einen Ordner mit einer großen Anzahl von Dateien von einem Speicherort an einen anderen verschieben kann. Mit diesem Tool können Dateien innerhalb eines oder mehrerer Ordner einfach in einen anderen Ordner in Ihrem Adobe Experience Manager-Repository verschoben werden. Eines der Hauptmerkmale dieses Tools ist, dass es nicht nur eine große Anzahl von Dateien verschiebt, sondern auch die Verweise auf und von den Dateien, die verschoben werden. Sie können die Anzahl der Dateien, die Sie in Stapeln verschieben können, anpassen, ohne die Authoring- und Publishing-Aufgaben zu beeinträchtigen.
 
 >[!NOTE]
 >
-> Das Tool zum Massenverschieben funktioniert nur auf Ordnerebene. Wenn Sie einzelne Themen- oder Zuordnungsdateien verschieben möchten, verwenden Sie das reguläre Verschiebe-Tool von der Assets-Benutzeroberfläche von AEM aus.
+> Das Tool zum Massenverschieben funktioniert nur auf Ordnerebene. Wenn Sie einzelne Themen- oder Zuordnungsdateien verschieben möchten, verwenden Sie das reguläre Verschiebe-Tool von der Assets-Benutzeroberfläche von Adobe Experience Manager aus.
 
 Im Folgenden finden Sie einige der Funktionen, die das Tool für die Massenverschiebung bereitstellt:
 
@@ -124,14 +124,14 @@ Beachten Sie die folgenden Punkte, bevor Sie den Batch-Prozess ausführen:
 
 Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
+1. Klicken Sie oben auf das Adobe Experience Manager-Logo und anschließend auf **Tools**.
 1. Wählen Sie **Guides** aus der Liste der Tools aus.
-1. Klicken Sie auf die Kachel **Tool für Massenverschiebung**.
+1. Wählen Sie die **Tool für Massenverschiebung** aus.
 1. Die Seite mit dem Tool für die Massenverschiebung wird je nach Einrichtung angezeigt. Geben Sie die folgenden Details auf der Seite **Tool für die Massenverschiebung** an:
 
    <details>
 
-   <summary> Cloud Service und On-Premise-UUID-basiertes Dateisystem </summary>
+   <summary> Cloud Services und On-Premise-UUID-basiertes Dateisystem </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -156,13 +156,13 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Zielpfad**: Geben Sie den Speicherort an, an den Sie die Quellordner verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und klicken Sie auf Auswählen , um den Vorgang abzuschließen.
+      - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und wählen Sie aus, um den Prozess abzuschließen.
       - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
 
      Der ausgewählte Ordner wird zusammen mit seinem Pfad im Textfeld angezeigt.
 
 
-   - Klicken Sie **Massenverschieben**.
+   - Wählen Sie **Massenverschiebung** aus.
 
      Das System beginnt mit dem Verschieben von Dateien vom Quell- zum Zielspeicherort. Nach Abschluss des Vorgangs wird rechts auf der Seite eine Zusammenfassung des Verschiebevorgangs angezeigt.
 
@@ -205,12 +205,12 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Zielpfad**: Geben Sie den Speicherort an, an den Sie die Quellordner verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und klicken Sie auf Auswählen , um den Vorgang abzuschließen.
+      - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und wählen Sie aus, um den Prozess abzuschließen.
       - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
 
         Der ausgewählte Ordner wird zusammen mit seinem Pfad im Textfeld angezeigt.
 
-   - Klicken Sie **Massenverschieben**.
+   - Wählen Sie **Massenverschiebung** aus.
 
      Das System beginnt mit dem Verschieben von Dateien vom Quell- zum Zielspeicherort. Nach Abschluss des Vorgangs wird rechts auf der Seite eine Zusammenfassung des Verschiebevorgangs angezeigt.
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
@@ -218,11 +218,11 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
 ## DITA-Inhalt durchsuchen
 
-Standardmäßig erkennt AEM DITA-Inhalte nicht und bietet daher keinen Mechanismus zum Durchsuchen von DITA-Inhalten in seinem Repository. AEM Guides fügt zusätzlich zu AEM eine Ebene hinzu, mit der AEM DITA-Inhalte verstehen und verarbeiten kann. Mit der DITA-Inhaltssuchfunktion in AEM Guides können Sie im AEM-Repository nach DITA-Inhalten suchen.
+Standardmäßig erkennt Adobe Experience Manager keine DITA-Inhalte und bietet daher keinen Mechanismus zum Durchsuchen von DITA-Inhalten in seinem Repository. Experience Manager Guides fügt zusätzlich zu Adobe Experience Manager eine Ebene hinzu, mit der Adobe Experience Manager DITA-Inhalte verstehen und verarbeiten kann. Mit der DITA-Inhaltssuchfunktion in Experience Manager Guides können Sie im Adobe Experience Manager-Repository nach DITA-Inhalten suchen.
 
 >[!NOTE]
 >
->Ihre bzw. Ihr Systemadmin kann die Suchkomponente **DITA Element** konfigurieren und dann die Funktion über die AEM Assets-Benutzeroberfläche verwenden. Weitere Informationen finden Sie *Abschnitt „Hinzufügen der DITA-Elementsuchkomponente in der Assets* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+>Ihre bzw. Ihr Systemadmin kann die Suchkomponente **DITA Element** konfigurieren und dann die Funktion über die Adobe Experience Manager Assets-Benutzeroberfläche verwenden. Weitere Details finden Sie im Abschnitt *Hinzufügen der DITA-Elementsuchkomponente in der Assets* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 Mit der Suchfunktion haben Sie folgende Möglichkeiten:
 
@@ -230,7 +230,7 @@ Mit der Suchfunktion haben Sie folgende Möglichkeiten:
 - Suchen nach DITA-Inhalten anhand eines Attributwerts, z. B. `@platform`= windows
 - Verwenden Sie eine Kombination aus DITA-Element und Attributwert, z. B. `author`= xml `AND` `@platform`= windows
 
-Führen Sie die folgenden Schritte aus, um im AEM-Repository nach DITA-Inhalten zu suchen:
+Führen Sie die folgenden Schritte aus, um im Adobe Experience Manager-Repository nach DITA-Inhalten zu suchen:
 
 1. Öffnen Sie die Assets-Benutzeroberfläche.
 
@@ -259,13 +259,13 @@ Führen Sie die folgenden Schritte aus, um im AEM-Repository nach DITA-Inhalten 
 
 **Checkout-Statusfilter bei der Suche**
 
-Zusätzlich zum DITA-Elementfilter können Sie mit AEM Guides auch anhand des Checkout-Status nach Inhalten suchen. Dies ist hilfreich, wenn Sie Dateien, die derzeit von Ihnen ausgecheckt sind, schnell herausfiltern und wieder einchecken möchten.
+Zusätzlich zum DITA-Elementfilter können Sie mit Experience Manager Guides auch anhand des Checkout-Status nach Inhalten suchen. Dies ist hilfreich, wenn Sie Dateien, die derzeit von Ihnen ausgecheckt sind, schnell herausfiltern und wieder einchecken möchten.
 
 Führen Sie die folgenden Schritte aus, um nach Dateien auf der Grundlage ihres Checkout-Status zu suchen:
 
 1. Öffnen Sie die Assets-Benutzeroberfläche.
 
-1. Klicken Sie **der** Leiste auf „Filter“.
+1. Wählen **Filter** in der linken Leiste aus.
 1. Geben Sie Ihren Suchbegriff in die Suchleiste ein.
 1. Wenden Sie die erforderlichen Filter über die linke Leiste an.
 
@@ -276,7 +276,7 @@ Führen Sie die folgenden Schritte aus, um nach Dateien auf der Grundlage ihres 
 
 ## Dateien löschen
 
-Das Löschen von Dateien aus dem AEM-Repository ist eine eingeschränkte Funktion, die von Ihrem Systemadministrator gesteuert wird. Abhängig von den Konfigurationen kann das Löschen von Dateien eingeschränkt sein, wenn sie:
+Das Löschen von Dateien aus dem Adobe Experience Manager-Repository ist eine eingeschränkte Funktion, die von Ihrem Systemadministrator gesteuert wird. Abhängig von den Konfigurationen kann das Löschen von Dateien eingeschränkt sein, wenn sie:
 
 - Ausgecheckt
 - Eingehende oder ausgehende Referenzen haben
@@ -285,7 +285,7 @@ Sie können Dateien auch nur löschen, wenn Sie zu einer bestimmten Benutzergrup
 
 >[!NOTE]
 >
-> Weitere Informationen zu den Konfigurationen für die Dateiverwaltung finden Sie in *Verhindern des Löschens ausgecheckter Dateien* und *Verhindern des Löschens referenzierter Dateien* in den Abschnitten Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+> Weitere Informationen zu den Konfigurationen für die Dateiverwaltung finden Sie in den Abschnitten *Verhindern des Löschens ausgecheckter Dateien* und *Verhindern des Löschens referenzierter Dateien* in Adobe Experience Manager Guides as a Cloud Service installieren und konfigurieren.
 
 Wenn Ihr Administrator allen Benutzern die Berechtigung zum Löschen von Dateien erteilt hat, wird beim Löschen von Dateien mit Verweisen die folgende Meldung angezeigt:
 
@@ -307,12 +307,12 @@ Wenn Ihre Mediendatei Änderungen erfahren hat, können Sie die Dateien im Absch
 
 1. Greifen Sie in der **Assets-Benutzeroberfläche auf die Datei**.
 1. Wählen Sie die Datei aus, für die Sie den Versionsverlauf anzeigen möchten.
-1. Klicken Sie in der linken Leiste auf &quot;**&quot;** wählen Sie eine Version aus.
+1. Wählen Sie in der linken Leiste **Versionsverlauf** und wählen Sie eine Version aus.
 1. Sie können auch die Miniaturansichten der verschiedenen Versionen unter Versionsverlauf anzeigen.
 
    ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1. Wählen Sie aus den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und klicken Sie auf **Vorschauversion**. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
+1. Wählen Sie aus den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und wählen Sie **Vorschauversion** aus. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 

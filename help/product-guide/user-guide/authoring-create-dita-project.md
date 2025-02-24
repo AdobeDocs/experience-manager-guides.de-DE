@@ -4,7 +4,7 @@ description: Erstellen Sie ein DITA-Projekt mithilfe einer Vorlage in AEM Guides
 exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Erstellen eines DITA-Projekts {#id1645HA00NM6}
 
-AEM Guides bietet eine DITA-Projektvorlage, mit der Sie Ihre Prüfungsaufgaben erstellen und verwalten können.
+Adobe Experience Manager Guides bietet eine DITA-Projektvorlage, mit der Sie Ihre Prüfungsaufgaben erstellen und verwalten können.
 
 Sie können ein DITA-Projekt erstellen und es dann verwenden, um Ihre Überprüfungen einzuleiten. Mit einem Projekt können Sie einen Termin definieren und die Aufgaben und die Zeit steuern, die zum Abschließen der Prüfungsaufgabe erforderlich sind, für die Sie das Projekt erstellt haben.
 
 Sie können Team-Mitglieder zu einem Projekt hinzufügen, denen dann verschiedene Rollen zugewiesen werden können - Autoren, Prüfer und Herausgeber.
 
-Nachdem Sie Ihr DITA-Projekt erstellt haben, können Sie Ihre Überprüfung über den Web-Editor oder die Assets-Benutzeroberfläche starten. Weitere Informationen finden Sie unter [Senden von Themen zur Überprüfung](review-send-topics-for-review.md#).
+Nachdem Sie Ihr DITA-Projekt erstellt haben, können Sie Ihre Überprüfung über den Editor oder die Assets-Benutzeroberfläche starten. Weitere Informationen finden Sie unter [Themen zur Überprüfung senden](review-send-topics-for-review.md#).
 
-Wenn ein Autor einen Prüfungs-Workflow initiiert, erhalten die ausgewählten Mitglieder des Projekts ebenfalls eine E-Mail-Benachrichtigung. Informationen zum Konfigurieren von E-Mail *Benachrichtigungen finden Sie unter „Anpassen von E-Mail* Vorlagen“ in „Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service&quot;.
+Wenn ein Autor einen Prüfungs-Workflow initiiert, erhalten die ausgewählten Mitglieder des Projekts ebenfalls eine E-Mail-Benachrichtigung. Um E-Mail-Benachrichtigungen zu konfigurieren, zeigen Sie *E-Mail-Vorlagen anpassen* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service an.
 
 Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
 
@@ -33,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
    http://<server name>:<port>/projects.html
    ```
 
-1. Klicken Sie **Erstellen** \> **Projekt**, um den Assistenten „Projekt erstellen“ zu starten.
+1. Wählen Sie **Erstellen** \> **Projekt**, um den Assistenten zum Erstellen eines Projekts zu starten.
 
    ![](images/project-console-63.png){width="650" align="left"}
 
@@ -57,23 +57,23 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
 
       >[!NOTE]
       >
-      >In dieser Dropdown-Liste werden andere Benutzertypen angezeigt. Bei einem DITA-Projekt sollten Sie jedoch nur aus den Benutzertypen „Autoren“, „Prüfer“ oder „Herausgeber“ auswählen. Selbst wenn Sie Benutzende eines anderen Typs hinzufügen, können diese nicht auf DITA-spezifische Funktionen zugreifen, die in AEM Guides verfügbar sind.
+      >In dieser Dropdown-Liste werden andere Benutzertypen angezeigt. Bei einem DITA-Projekt sollten Sie jedoch nur aus den Benutzertypen „Autoren“, „Prüfer“ oder „Herausgeber“ auswählen. Selbst wenn Sie Benutzende eines anderen Typs hinzufügen, können diese nicht auf DITA-spezifische Funktionen zugreifen, die in Experience Manager Guides verfügbar sind.
 
-   1. Klicken Sie auf **Hinzufügen**.
+   1. Wählen Sie **Hinzufügen** aus.
 
       >[!NOTE]
       >
-      >Wenn Sie AEM Guides Version 3.5 oder früher verwenden, wird eine Option zur Auswahl einer DITA-Zuordnungsdatei angezeigt, um die wichtigsten Verweise für Themenbearbeitung, Vorschau und Überprüfungs-Workflows aufzulösen. In 3.6 und höheren Versionen können Sie die Stammzuordnung über den Web-Editor festlegen. Weitere Informationen finden Sie unter [Benutzereinstellungen](web-editor-features.md#id2087G0P40SB) im Web-Editor. Eine andere Möglichkeit, die Stammzuordnung festzulegen, besteht darin, sie auf globaler oder Ordnerebene zu konfigurieren. Weitere Informationen finden Sie unter *Konfigurieren von globalen Profilen oder Profilen auf* im Installations- und Konfigurationshandbuch.
+      >Wenn Sie Experience Manager Guides Version 3.5 oder früher verwenden, wird eine Option zur Auswahl einer DITA-Zuordnungsdatei angezeigt, um die wichtigsten Verweise für Themenbearbeitung, Vorschau und Überprüfungs-Workflows aufzulösen. In Version 3.6 und höheren Versionen können Sie die Stammzuordnung über den Editor festlegen. Weitere Informationen finden Sie unter [ im ](web-editor-features.md#id2087G0P40SB). Eine andere Möglichkeit, die Stammzuordnung festzulegen, besteht darin, sie auf globaler oder Ordnerebene zu konfigurieren. Weitere Informationen finden Sie *Konfigurieren von globalen Profilen oder Profilen auf*) im Installations- und Konfigurationshandbuch.
 
    Informationen auf der Registerkarte **Erweitert**:
 
    - Geben Sie einen Namen für das Projekt ein. Dieser Name wird verwendet, um die URL für dieses Projekt zu erstellen.
 
-1. Klicken Sie auf **Erstellen**.
+1. Wählen Sie **Erstellen** aus.
 
    Das Dialogfeld Projekt erstellt wird angezeigt.
 
-1. Klicken Sie **Öffnen**, um Ihre Projektseite zu öffnen.
+1. Wählen Sie **Öffnen** aus, um Ihre Projektseite zu öffnen.
 
 
-**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

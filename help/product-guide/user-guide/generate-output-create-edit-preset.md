@@ -4,77 +4,33 @@ description: Erfahren Sie, wie Sie eine benutzerdefinierte Ausgabevorgabe in AEM
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: e6c14a478d8119c11b8541898c3314688e7fa51b
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
-# Erstellen, Bearbeiten, Duplizieren oder Entfernen einer Ausgabevorgabe {#id205BEH0K09Z}
+# Bearbeiten, Duplizieren oder Löschen einer Ausgabevorgabe {#id205BEH0K09Z}
 
-## Erstellen einer benutzerdefinierten Ausgabevorgabe
+Sie können Ausgabevorgaben über die Zuordnungskonsole und das Zuordnungs -Dashboard verwalten. In beiden Fällen stehen Optionen zum Bearbeiten, Duplizieren und Löschen einer Ausgabevorgabe zur Verfügung, wie im folgenden Abschnitt beschrieben.
 
-Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Ausgabevorgabe zu erstellen:
+## Verwenden der Map-Konsole
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu und klicken Sie auf eine beliebige DITA-Zuordnung, um die DITA-Zuordnungskonsole zu öffnen.
+Sie können die ausgewählte Ausgabevorgabe bearbeiten, indem Sie die erforderlichen Felder direkt in die erforderlichen Vorgabeneinstellungen ändern.
 
-1. Stellen Sie sicher, dass die Registerkarte Ausgabevorgaben ausgewählt ist. Klicken Sie in der Symbolleiste auf Erstellen .
-
-   Ein leeres Formular zur Erstellung einer Ausgabevorgabe wird angezeigt.
-
-1. Geben Sie die erforderlichen Details für den Vorgabetyp ein, den Sie erstellen möchten.
-
-1. Klicken Sie auf Fertig , um die Voreinstellungen zu speichern.
+Darüber hinaus können Sie eine Ausgabevorgabe mithilfe des Dropdown-Menüs **Optionen** wie unten dargestellt duplizieren oder löschen.
 
 
-## Bearbeiten einer Ausgabevorgabe
-
-Führen Sie die folgenden Schritte aus, um eine vorhandene Ausgabevorgabe zu bearbeiten:
-
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu und klicken Sie auf eine beliebige DITA-Zuordnung, um die DITA-Zuordnungskonsole zu öffnen.
-
-1. Stellen Sie sicher, dass die Registerkarte Ausgabevorgaben ausgewählt ist.
-
-1. Klicken Sie auf die Ausgabevorgabe, die Sie bearbeiten möchten. Klicken Sie in der Symbolleiste auf Bearbeiten .
-
-   Ein bearbeitbares Ausgabevorgabenformular wird mit den Werten der ausgewählten Ausgabevorgabe angezeigt.
-
-1. Ändern Sie die erforderlichen Details.
-
-1. Klicken Sie auf Fertig , um die bearbeiteten Voreinstellungen zu speichern.
+![](images/delete-preset-map-console.png){width="800" align="left"}
 
 
-## Duplizieren einer Ausgabevorgabe
+## Verwenden des Karten-Dashboards
 
-Führen Sie folgende Schritte aus, um eine vorhandene Ausgabevorgabe zu duplizieren:
+Sie können eine Ausgabevorgabe über das Zuordnungs -Dashboard bearbeiten, duplizieren und löschen, indem Sie die gewünschte Registerkarte wie unten dargestellt in der oberen Leiste auswählen.
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu und klicken Sie auf eine beliebige DITA-Zuordnung, um die DITA-Zuordnungskonsole zu öffnen.
+![](images/create-new-preset-map-dashboard-new.png){width="800" align="left"}
 
-1. Stellen Sie sicher, dass die Registerkarte Ausgabevorgaben ausgewählt ist.
-
-1. Klicken Sie auf die Ausgabevorgabe, die Sie duplizieren möchten. Klicken Sie in der Symbolleiste auf Duplizieren .
-
-   Ein bearbeitbares Ausgabevorgabenformular wird mit den Werten der ausgewählten Ausgabevorgabe angezeigt.
-
-1. Ändern Sie die erforderlichen Details.
-
-1. Klicken Sie auf Fertig , um die Voreinstellungen zu speichern.
-
-
-## Löschen einer Ausgabevorgabe
-
-Führen Sie folgende Schritte aus, um eine vorhandene Ausgabevorgabe zu löschen:
-
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu und klicken Sie auf eine beliebige DITA-Zuordnung, um die DITA-Zuordnungskonsole zu öffnen.
-
-1. Wählen Sie die zu löschende Ausgabevorgabe aus.
-
-1. Klicken Sie auf Voreinstellung löschen.
-
-1. Klicken Sie bei der Bestätigungsaufforderung auf Löschen .
-
-   Die Voreinstellung wird aus der Liste der Ausgabevorgaben entfernt.
 
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

@@ -4,24 +4,24 @@ description: Übersetzen Sie Ihre Inhalte aus dem Web-Editor in mehrere Sprachen
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 8b031dde7a91e47937395286dbc20300b76835d3
+source-git-commit: f29c1225fcb95dbe05a3fc8aa471c88dc7b8ffb2
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2365'
 ht-degree: 1%
 
 ---
 
-# Übersetzen von Dokumenten aus dem Web-Editor {#id21BKF0Z0YZF}
+# Übersetzen von Dokumenten aus der Map-Konsole {#id21BKF0Z0YZF}
 
 >[!TIP]
 >
-> Es wird empfohlen, diese Übersetzungsfunktion aus dem Web-Editor zu verwenden, wenn Sie ein Upgrade auf AEM Guides as a Cloud Service Version Februar 2022 oder höher durchgeführt haben.
+> Es wird empfohlen, diese Übersetzungsfunktion aus dem Editor zu verwenden, wenn Sie ein Upgrade auf Adobe Experience Manager Guides as a Cloud Service Version Februar 2022 oder höher durchgeführt haben.
 
-AEM Guides verfügt über eine leistungsstarke Funktion im Web-Editor, mit der Sie Ihre Inhalte in mehrere Sprachen übersetzen können. Sie können ein neues Übersetzungsprojekt erstellen und die Übersetzungsaufträge später zum vorhandenen Übersetzungsprojekt hinzufügen. Sie können auch ein mehrsprachiges Übersetzungsprojekt erstellen, das Übersetzungsaufträge für alle ausgewählten Sprachen enthält.
+Experience Manager Guides verfügt über eine leistungsstarke Funktion im Editor, mit der Sie Ihre Inhalte in mehrere Sprachen übersetzen können. Sie können ein neues Übersetzungsprojekt erstellen und die Übersetzungsaufträge später zum vorhandenen Übersetzungsprojekt hinzufügen. Sie können auch ein mehrsprachiges Übersetzungsprojekt erstellen, das Übersetzungsaufträge für alle ausgewählten Sprachen enthält.
 
 >[!NOTE]
 >
-> Ihre bzw. Ihr Admin kann die Registerkarte Verwalten (für die Übersetzung verwendet) im Web-Editor konfigurieren. Weitere Informationen finden Sie *Abschnitt „Konfigurieren der Übersetzungsfunktion im Web-Editor* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+> Ihre bzw. Ihr Admin kann die Registerkarte Verwalten (für die Übersetzung verwendet) im Editor konfigurieren. Weitere Informationen finden Sie *Abschnitt „Übersetzungsfunktion im Editor konfigurieren* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 ## Voraussetzungen
 
@@ -37,7 +37,8 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 ## Ein Übersetzungsprojekt erstellen
 
 1. Öffnen Sie **Bedienfeld** Repository“ die DITA-Zuordnungsdatei in der Zuordnungsansicht.
-1. Klicken Sie auf die **Verwalten**. Im **Übersetzungsbedienfeld** werden die verfügbaren Sprachgruppen angezeigt.
+1. Wählen Sie das Symbol **In Map-Konsole öffnen** aus.
+1. Navigieren Sie auf der Seite der Zuordnungskonsole zur Registerkarte **Übersetzung** . Im **Übersetzungsbedienfeld** werden die verfügbaren Sprachgruppen angezeigt.
 
 1. Als Benutzer können Sie die für Ihr Ordnerprofil konfigurierten Sprachgruppen anzeigen. Die Sprachgruppen zeigen die Sprachordner zusammen mit ihren Sprachcodes an. Beispielsweise enthält die Sprachgruppe G1 die Sprachordner Italienisch \(it\), Deutsch \(de\), Französisch \(fr\) und Englisch \(en\).
 
@@ -72,11 +73,11 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 
    **Keine** Wählen Sie diese Option, um die Standardversionen der Dateien zu übersetzen. Standardmäßig ist diese Option aktiviert.
 
-   **Baseline verwenden** Sie können für die Übersetzung Ihres Projekts eine Baseline auswählen. Klicken Sie auf Baseline verwenden und wählen Sie eine auf der Karte erstellte Baseline aus. Alle Dateien, die Teil der ausgewählten Baseline sind, werden auf der Seite Übersetzung angezeigt. Nach der Übersetzung Ihrer Inhalte können Sie die übersetzten Baselines exportieren. Weitere Informationen zum Exportieren der übersetzten Baseline finden Sie unter [Exportieren der übersetzten Baseline](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   **Baseline verwenden** Sie können für die Übersetzung Ihres Projekts eine Baseline auswählen. Wählen Sie **Baseline verwenden** und wählen Sie eine auf der Karte erstellte Baseline aus. Alle Dateien, die Teil der ausgewählten Baseline sind, werden auf der Seite Übersetzung angezeigt. Nach der Übersetzung Ihrer Inhalte können Sie die übersetzten Baselines exportieren. Weitere Informationen zum Exportieren der übersetzten Baseline finden Sie unter [Exportieren der übersetzten Baseline](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
    **Neueste Version verwenden als ein**: Wählen Sie diese Option, um die Version der Themen nach Erstellungsdatum und -uhrzeit zu filtern. Wenn Sie Datum und Uhrzeit auswählen, wird nur die neueste Version der Dateien angezeigt, die am oder vor dem ausgewählten Datum und der ausgewählten Uhrzeit erstellt wurden.
 
-1. Klicken Sie **Apply**. Eine Liste mit Details zu Themen und zugehörigen Assets wird angezeigt.
+1. Wählen Sie **Anwenden** aus. Eine Liste mit Details zu Themen und zugehörigen Assets wird angezeigt.
 1. Wählen Sie die Themen aus, die Sie zur Übersetzung senden möchten. Sie können auch die Themenfilteroptionen für die folgenden Spalten verwenden:
 
    - **Title**: Titel der Quelldatei.  Bewegen Sie den Mauszeiger über den Titel der Quelldatei, um den Titel der Zieldatei oder der übersetzten Datei anzuzeigen.
@@ -90,7 +91,7 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
    - **Zielsprache**: Die Sprache, in die die Quelldatei übersetzt werden soll
    - **Übersetzungsstatus**: Die verfügbaren Optionen sind: Nicht synchronisiert, Fehlende Kopie, In Bearbeitung und Synchronisiert.
    - **Target Label**: Bezeichnung für die ausgewählte Version der Zieldatei
-1. Klicken **oben rechts auf** Zur Übersetzung senden .
+1. Wählen **oben rechts** Zur Übersetzung senden“ aus.
 
    ![](images/translation-send.png){width="800" align="left"}
 
@@ -100,64 +101,63 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 
    Neben einem neuen Übersetzungsprojekt können Sie auch aus den folgenden Optionen auswählen:
 
-   - Sie können **Struktur erstellen** nur für das Übersetzungsprojekt auswählen.
-   - Sie können auch **Neues XLIFF-Übersetzungsprojekt erstellen** um den XML-Inhalt in das XML Localization Interchange File Format (XLIFF) zu konvertieren. XLIFF ist ein offenes XML-basiertes Format, das verwendet wird, um die Datenübertragung zwischen verschiedenen Tools zu standardisieren, die im Prozess der Inhaltsübersetzung verwendet werden. AEM Guides unterstützt XLIFF Version 1.2.
+   - Sie können für **Übersetzungsprojekt „Nur** erstellen“ auswählen.
+   - Sie können auch **Neues XLIFF-Übersetzungsprojekt erstellen** um den XML-Inhalt in das XML Localization Interchange File Format (XLIFF) zu konvertieren. XLIFF ist ein offenes XML-basiertes Format, das verwendet wird, um die Datenübertragung zwischen verschiedenen Tools zu standardisieren, die im Prozess der Inhaltsübersetzung verwendet werden. Experience Manager Guides unterstützt XLIFF Version 1.2.
 In einem XLIFF-Projekt werden die Inhalte in das dem Branchenstandard entsprechende XLIFF-Format exportiert, das Übersetzungsanbietern zur Verfügung gestellt werden kann. Das XLIFF-Format ermöglicht die potenzielle Wiederverwendung von Segmenten, die Sie bereits während der Übersetzungsphase übersetzt haben.\
-     Nachdem die XLIFF-Inhalte übersetzt wurden, können sie in AEM Guides importiert werden, wodurch eine übersetzte Version des Original-DITA-Projekts erstellt wird.
-
-     >[!NOTE]
-     >
-     > Der XLIFF-Export funktioniert nur mit der Konfiguration für menschliche Übersetzung.
-
-   - Sie können **Neues mehrsprachiges Übersetzungsprojekt erstellen** auswählen, das Übersetzungsaufträge für alle Sprachen enthält, die Sie für die Übersetzung ausgewählt haben. Wenn Sie beispielsweise Französisch, Deutsch und Spanisch ausgewählt haben, wird ein Projekt erstellt, das Übersetzungsaufträge für alle drei Sprachen enthält.
-   - Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Wählen Sie die Option Zu **vorhandenem Übersetzungsprojekt hinzufügen** aus der Projektliste aus und wählen Sie ein Projekt aus der Liste Vorhandenes Übersetzungsprojekt aus. Sie können diese Projekte nach aktueller, aufsteigender oder absteigender Reihenfolge sortieren.
-
-- Wenn Sie **Vorhandenes Übersetzungsprojekt** auswählen, aktualisiert dieser Vorgang den vorhandenen Asset-Eintrag im Projekt, wenn das Asset bereits hinzugefügt wurde und der Status des zugehörigen Übersetzungsauftrags sich im Status *Entwurf* befindet.
-   - Wenn die Zielsprache nicht im Projekt vorhanden ist, wird ein neues Projekt für das einsprachige Übersetzungsprojekt erstellt und ein neuer Auftrag für das mehrsprachige Übersetzungsprojekt erstellt.
-   - Wenn der Auftrag bereits für die Zielsprache vorhanden ist und der Auftragsstatus nicht den Status *Entwurf* aufweist, wird innerhalb desselben Projekts ein neuer Auftrag erstellt, um die Assets für die Übersetzung hinzuzufügen.
-
-  >[!NOTE]
-  >
-  > Wenn es sich bei Ihrem vorhandenen Projekt um ein Umfangsprojekt handelt, wird &quot;\(Scoping\)“ an den Namen angehängt.
-
-- Wenn Sie den Umfang für ein zu übersetzendes Projekt erstellen müssen, können Sie **Neues Scoping-Übersetzungsprojekt erstellen** auswählen. Dadurch werden die Kopien nicht zur Übersetzung gesendet und der ursprüngliche Übersetzungsstatus der Dateien wird beibehalten. Die Zielsprachkopie der referenzierten Themen, die zum Berechnen des Umfangs gesendet werden, hat keine Auswirkungen.
-1. Geben Sie im Feld **Projekttitel** einen Namen für das Projekt ein.
-1. Klicken Sie **Erstellen**, um ein neues Übersetzungsprojekt zu erstellen.
-
-   Ein neues Übersetzungsprojekt wird mit der ausgewählten Version der Themen erstellt. Zu diesem Zeitpunkt wird eine Popup-Meldung angezeigt, die bestätigt, dass das Übersetzungsprojekt erstellt wurde. Sobald alle Kopien der Zielsprache im Übersetzungsprojekt verfügbar sind, erhalten Sie eine Benachrichtigung im Posteingang. Sobald die Zielsprachenkopien im Übersetzungsprojekt verfügbar sind, können Sie mit dem Übersetzungsauftrag beginnen. Weitere Informationen finden Sie unter [Starten des Übersetzungsauftrags](translation-first-time.md#id225IK030OE8).
+     Nachdem die XLIFF-Inhalte übersetzt wurden, können sie in Experience Manager Guides importiert werden, wodurch eine übersetzte Version des Original-DITA-Projekts erstellt wird.
 
    >[!NOTE]
    >
-   > Wenn Sie die Übersetzung für ein oder mehrere Themen in einem Übersetzungsauftrag ablehnen, wird der **In Bearbeitung** Übersetzungsstatus aller abgelehnten Themen auf ihren ursprünglichen Status zurückgesetzt. Der Status der referenzierten Themen wird entsprechend dem aktuellen Übersetzungsstatus überprüft und zurückgesetzt. Außerdem werden die im Zielprojekt erstellten Übersetzungsdateien nicht gelöscht, selbst wenn die Übersetzung dafür abgelehnt wird.
+   > Der XLIFF-Export funktioniert nur mit der Konfiguration für menschliche Übersetzung.
+
+   - Sie können **Neues mehrsprachiges Übersetzungsprojekt erstellen** auswählen, das Übersetzungsaufträge für alle Sprachen enthält, die Sie für die Übersetzung ausgewählt haben. Wenn Sie beispielsweise Französisch, Deutsch und Spanisch ausgewählt haben, wird ein Projekt erstellt, das Übersetzungsaufträge für alle drei Sprachen enthält.
+   - Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Wählen Sie **Option „Zu vorhandenem Übersetzungsprojekt hinzufügen** aus der Projektliste aus und wählen Sie ein Projekt aus der Liste Vorhandenes Übersetzungsprojekt aus. Sie können diese Projekte nach aktueller, aufsteigender oder absteigender Reihenfolge sortieren.
+
+   - Wenn Sie **Zu vorhandenem Übersetzungsprojekt hinzufügen** auswählen, aktualisiert dieser Vorgang den vorhandenen Asset-Eintrag im Projekt, wenn das Asset bereits hinzugefügt wurde und der Status des zugehörigen Übersetzungsauftrags sich im Status *Entwurf* befindet.
+      - Wenn die Zielsprache nicht im Projekt vorhanden ist, wird ein neues Projekt für das einsprachige Übersetzungsprojekt erstellt und ein neuer Auftrag für das mehrsprachige Übersetzungsprojekt erstellt.
+
+      - Wenn der Auftrag bereits für die Zielsprache vorhanden ist und der Auftragsstatus nicht den Status *Entwurf* aufweist, wird innerhalb desselben Projekts ein neuer Auftrag erstellt, um die Assets für die Übersetzung hinzuzufügen.
+
+   >[!NOTE]
+   >
+   > Wenn es sich bei Ihrem vorhandenen Projekt um ein Umfangsprojekt handelt, wird &quot;\(Scoping\)“ an den Namen angehängt.
+
+   - Wenn Sie den Umfang für ein zu übersetzendes Projekt erstellen müssen, können Sie **Neues Scoping-Übersetzungsprojekt erstellen** auswählen. Dadurch werden die Kopien nicht zur Übersetzung gesendet und der ursprüngliche Übersetzungsstatus der Dateien wird beibehalten. Die Zielsprachkopie der referenzierten Themen, die zum Berechnen des Umfangs gesendet werden, hat keine Auswirkungen.
+
+1. Geben Sie im Feld **Projekttitel** einen Namen für das Projekt ein.
+1. Wählen **Senden** aus, um ein neues Übersetzungsprojekt zu erstellen.
+
+Ein neues Übersetzungsprojekt wird mit der ausgewählten Version der Themen erstellt. Zu diesem Zeitpunkt wird eine Popup-Meldung angezeigt, die bestätigt, dass das Übersetzungsprojekt erstellt wurde. Sobald alle Kopien der Zielsprache im Übersetzungsprojekt verfügbar sind, erhalten Sie eine Benachrichtigung im Posteingang. Sobald die Zielsprachenkopien im Übersetzungsprojekt verfügbar sind, können Sie mit dem Übersetzungsauftrag beginnen. Für die Detailansicht [Übersetzungsauftrag starten](translation-first-time.md#id225IK030OE8).
+
+>[!NOTE]
+>
+> Wenn Sie die Übersetzung für ein oder mehrere Themen in einem Übersetzungsauftrag ablehnen, wird der **In Bearbeitung** Übersetzungsstatus aller abgelehnten Themen auf ihren ursprünglichen Status zurückgesetzt. Der Status der referenzierten Themen wird entsprechend dem aktuellen Übersetzungsstatus überprüft und zurückgesetzt. Außerdem werden die im Zielprojekt erstellten Übersetzungsdateien nicht gelöscht, selbst wenn die Übersetzung dafür abgelehnt wird.
 
 ## Hinzufügen der Übersetzungsregeln
 
-Mit AEM Guides können Ihre Admins die Übersetzungsregeln konfigurieren. Das SRX-Format (Segmentation Rules eXchange) ist ein Standard für den Austausch von Segmentierungsregeln zwischen verschiedenen Benutzern und Übersetzungsumgebungen. Sie können einen Ordner erstellen und ihm Ihre benutzerdefinierten SRX-Dateien hinzufügen.
+Mit Experience Manager Guides können Ihre Admins die Übersetzungsregeln konfigurieren. Das SRX-Format (Segmentation Rules eXchange) ist ein Standard für den Austausch von Segmentierungsregeln zwischen verschiedenen Benutzern und Übersetzungsumgebungen. Sie können einen Ordner erstellen und ihm Ihre benutzerdefinierten SRX-Dateien hinzufügen.
 
 SRX-Dateien sollten wie `<language-code>.srx` benannt werden. Beispiel: en-US oder ar-AE.
 
 >[!NOTE]
->Beim Titel wird nicht zwischen Groß- und Kleinschreibung unterschieden. Daher kann „en-US“, „en-us“ oder „en-us“ verwendet werden. AEM-Handbücher können auch &quot;-&quot; (Bindestrich) oder „_“ (Unterstrich) auflösen. Sie können also „en-US“ oder „en_US“ verwenden.
+> 
+> Beim Titel wird nicht zwischen Groß- und Kleinschreibung unterschieden. Daher kann „en-US“, „en-us“ oder „en-us“ verwendet werden. Experience Manager Guides kann auch &quot;-&quot; (Bindestrich) oder „_“ (Unterstrich) auflösen. Sie können also „en-US“ oder „en_US“ verwenden.
 
-Außerdem können Sie diese Dateien in jedem Ordner unter dem Stammordner für AEM-Assets ablegen, der `./content/dam` ist.
-
-
+Außerdem können Sie diese Dateien in jedem Ordner unter dem `./content/dam` Adobe Experience Manager Assets-Stammordner ablegen.
 
 Nachdem Sie den Ordner erstellt haben, der die SRX-Dateien enthält, können Sie den Ordnerpfad in der Konfiguration des SRX-Speicherorts für Übersetzungen in Ihrem Ordnerprofil hinzufügen.
 
 Es wird empfohlen, für eine bessere Leistung nur SRX-Dateien in dem Ordner zu behalten, der im Profilordner konfiguriert ist.
 
+Experience Manager Guides wählt die SRX-Regeln entsprechend der Quellsprache des Übersetzungsprojekts aus. Es wird nach einer benutzerdefinierten SRX-Datei für eine Sprache gesucht. Wenn Sie keine benutzerdefinierte SRX-Datei definieren, werden die Regeln gemäß den vordefinierten Übersetzungsregeln ausgewählt.
 
-AEM Guides wählt die SRX-Regeln entsprechend der Quellsprache des Übersetzungsprojekts aus. Es wird nach einer benutzerdefinierten SRX-Datei für eine Sprache gesucht. Wenn Sie keine benutzerdefinierte SRX-Datei definieren, werden die Regeln gemäß den vordefinierten Übersetzungsregeln ausgewählt.
-
-
-Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnerebene finden Sie unter *Konfigurieren von Authoring-Vorlagen* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnerebene finden Sie im Abschnitt *Konfigurieren von Authoring* Vorlagen“ unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 ## Übergeben Sie die Versionsbezeichnung an die Zielversion
 
-Mit AEM Guides können Sie die Bezeichnung der Quelldatei an die Zieldatei übergeben. Auf diese Weise können Sie die Quellversion für die übersetzte Datei leicht identifizieren.
+Mit Experience Manager Guides können Sie die Bezeichnung der Quelldatei an die Zieldatei übergeben. Auf diese Weise können Sie die Quellversion für die übersetzte Datei leicht identifizieren.
 
-Um die Bezeichnung der Quellversion in der Zielkopie hinzuzufügen, muss der Systemadministrator die Option **Quellversionsbezeichnungen in die Zielversion übertragen** auf der Registerkarte **Übersetzung** in **Editor-Einstellungen** auswählen.
+Um die Bezeichnung der Quellversion in der Zielkopie hinzuzufügen, muss der Systemadministrator die Option **Quellversionsbezeichnungen in die Zielversion übertragen** auf der Registerkarte **Übersetzung** in **Einstellungen** aktivieren.
 
 Wenn Sie beispielsweise Quelldateien haben, auf die die Versionsbezeichnung `Release 1.0` angewendet wurde, können Sie auch die Quellbezeichnung \(`Release 1.0`\) an die übersetzte Datei übergeben.
 
@@ -169,7 +169,7 @@ Wenn Sie beispielsweise Quelldateien haben, auf die die Versionsbezeichnung `Rel
 
 ## Versionsunterschied für nicht synchronisierte Dateien anzeigen 
 
-AEM Guides bietet die Funktion, die Unterschiede zwischen der ausgewählten Version und der letzten übersetzten Quellversion der Themen zu überprüfen. Sie können die **nicht synchron)** basierend auf den vorgenommenen Änderungen übersetzen.
+Experience Manager Guides bietet die Funktion, die Unterschiede zwischen der ausgewählten Version und der letzten übersetzten Quellversion der Themen zu überprüfen. Sie können die **nicht synchron)** basierend auf den vorgenommenen Änderungen übersetzen.
 
 ![](images/translation-version-diff.png){width="650" align="left"}
 
@@ -194,7 +194,7 @@ Um den Status „Nicht synchronisiert“ zu schließen, führen Sie die folgende
 
    ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
-1. Klicken Sie **Synchronisierung erzwingen**. Für die ausgewählten nicht synchronisierten Assets wird der Status auf „Synchronisiert“ festgelegt.
+1. Wählen Sie **Synchronisierung erzwingen** aus. Für die ausgewählten nicht synchronisierten Assets wird der Status auf „Synchronisiert“ festgelegt.
 
 >[!NOTE]
 >
@@ -202,13 +202,13 @@ Um den Status „Nicht synchronisiert“ zu schließen, führen Sie die folgende
 
 ## Anzeigen laufender Übersetzungsprojekte für eine Karte oder ein Thema
 
-Einige der Verweise auf Ihrem Übersetzungs-Dashboard befinden sich möglicherweise im Status In Bearbeitung . Diese Verweise haben einen Link **In Bearbeitung** unter der Spalte **Übersetzungsstatus**. Wenn Sie auf den Link klicken, wird das Dialogfeld **In Bearbeitung** Projekte“ geöffnet. Im Dialogfeld wird eine Liste aller laufenden Übersetzungsprojekte (zusammen mit der Zielsprache\) angezeigt, die die ausgewählte Referenz enthalten.
+Einige der Verweise auf Ihrem Übersetzungs-Dashboard befinden sich möglicherweise im Status In Bearbeitung . Diese Verweise haben einen Link **In Bearbeitung** unter der Spalte **Übersetzungsstatus**. Wenn Sie den Link auswählen, wird das Dialogfeld **In Bearbeitung** Projekte“ geöffnet. Im Dialogfeld können Sie die Liste aller laufenden Übersetzungsprojekte (zusammen mit der Zielsprache\) anzeigen, die die ausgewählte Referenz enthalten.
 
 >[!NOTE]
 >
-> Sie können den Link In Bearbeitung für die übersetzten Projekte sehen, die in der AEM Guides as a Cloud Service-Version vom Februar 2023 oder höher erstellt wurden.
+> Sie können den Link In Bearbeitung für die übersetzten Projekte anzeigen, die in Adobe Experience Manager Guides as a Cloud Service ab Version Februar 2023 erstellt wurden.
 
-Klicken Sie im Dialogfeld auf den Namen der Referenz, um sie im Vorschaumodus zu öffnen. Sie können auch auf das Übersetzungsprojekt klicken, um die Übersetzung zu starten.
+Wählen Sie den Namen der Referenz im Dialogfeld aus, um sie im Vorschaumodus zu öffnen. Sie können auch das Übersetzungsprojekt auswählen, um die Übersetzung zu starten.
 
 ![](images/translation-in-progress.png){width="550" align="left"}
 
@@ -223,7 +223,7 @@ Ihr Administrator kann die Option **Bereinigung des Übersetzungsprojekts nach A
 
 Für die Dokumentverwaltung bietet Experience Manager Guides die Möglichkeit, die Übersetzungsprojekte nach Abschluss der Übersetzung zu löschen.
 
-Sie können die Übersetzungsprojekte auch deaktivieren, wenn Sie sie später verwenden möchten. Beim Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner gelöscht. Durch Deaktivieren eines Projekts wird es nicht gelöscht, sondern im Repository beibehalten. Ein deaktiviertes Projekt kann jedoch nicht aktualisiert oder bearbeitet werden.  Das Löschen oder Deaktivieren eines Projekts wirkt sich nicht auf den Übersetzungsstatus von Verweisen aus.
+Sie können die Übersetzungsprojekte auch deaktivieren, wenn Sie sie später verwenden möchten. Beim Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner gelöscht. Durch Deaktivieren eines Projekts wird es nicht gelöscht, sondern im Repository beibehalten. Sie können jedoch ein deaktiviertes Projekt nicht aktualisieren oder bearbeiten.  Das Löschen oder Deaktivieren eines Projekts wirkt sich nicht auf den Übersetzungsstatus von Verweisen aus.
 
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

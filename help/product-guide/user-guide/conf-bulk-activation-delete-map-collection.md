@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die Massen-Aktivierungszuordnungssammlung in 
 exl-id: 8e1f30e4-4b83-4282-97c9-7e6960c6ec19
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 0%
+source-wordcount: '139'
+ht-degree: 1%
 
 ---
 
@@ -15,19 +15,20 @@ ht-degree: 0%
 
 Sie können eine Massen-Aktivierungszuordnungssammlung löschen, wenn sie nicht mehr benötigt wird. Um eine Massenaktivierungszuordnungssammlung zu löschen, führen Sie die folgenden Schritte aus:
 
-1. Wählen Sie **Guides** aus der Liste der Tools aus.
+1. Klicken Sie oben auf das Adobe Experience Manager-Logo und anschließend auf **Tools**.
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
+1. Wählen Sie im **Tools**-Bedienfeld **Guides** aus.
 
-1. Klicken Sie auf die Kachel **Publish-Dashboard** Massenverarbeitung“.
+1. Wählen Sie die **Dashboard für Massenveröffentlichung** aus.
 
-   Eine Liste der Massenaktivierungszuordnungssammlungen wird angezeigt.
+   Das Dashboard für die Massenveröffentlichung wird mit einer Liste von Zuordnungssammlungen für die Massenaktivierung angezeigt. Sie können auf dieses Dashboard auch über das linke Bedienfeld der Startseite von [Adobe Experience Manager Guides zugreifen](intro-home-page.md).
 
-1. Wählen Sie die zu bearbeitende Sammlung aus und klicken Sie auf **Löschen**.
+
+1. Wählen Sie die Sammlung aus, die Sie bearbeiten möchten, und wählen Sie **Löschen**.
 
    Eine Löschbestätigungsmeldung wird angezeigt.
 
-1. Klicken Sie **Ja**.
+1. Wählen Sie **Ja** aus.
 
    Die Massen-Aktivierungszuordnungssammlung wird aus dem System gelöscht.
 

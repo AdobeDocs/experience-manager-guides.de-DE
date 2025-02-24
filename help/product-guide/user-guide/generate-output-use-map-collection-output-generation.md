@@ -4,56 +4,63 @@ description: Erfahren Sie, wie Sie eine Zuordnungssammlung erstellen und lösche
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
 
 # Verwenden der Zuordnungssammlung für die Ausgabegenerierung {#id1723F20G0HS}
 
-In jeder Organisation kann ein Produkt über mehrere Dokumentationstypen verfügen. Als Publishing-Spezialist möchten Sie steuern, welche Ausgabe Sie für welches Dokument generieren möchten. Außerdem sollte es eine Möglichkeit geben, mehrere Dokumente mit einem einzigen Klick im Batch zu veröffentlichen.
+In jeder Organisation kann ein Produkt über mehrere Dokumentationstypen verfügen. Als Publishing-Spezialist möchten Sie steuern, welche Ausgabe Sie für welches Dokument generieren möchten. Außerdem sollte es eine Möglichkeit geben, mehrere Dokumente in einem Batch zu veröffentlichen.
 
-AEM Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die Veröffentlichung mithilfe eines Dashboards namens „Kartensammlung“ zu organisieren. Mit einer Zuordnungssammlung können Sie alle verschiedenen Arten von Dokumenten in einer Einheit zusammenführen. Sie können auswählen, welche Art von Ausgabe Sie für jedes Dokument in Ihrer Zuordnungssammlung generieren möchten. Darüber hinaus können Sie auch eine Ausgabe generieren und den Fortschritt der Ausgabenerstellung über das Publishing-Dashboard anzeigen.
+Adobe Experience Manager Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die Veröffentlichung mithilfe eines Dashboards namens „Kartensammlung“ zu organisieren. Mit einer Zuordnungssammlung können Sie alle verschiedenen Arten von Dokumenten in einer Einheit zusammenführen. Sie können auswählen, welche Art von Ausgabe Sie für jedes Dokument in Ihrer Zuordnungssammlung generieren möchten. Darüber hinaus können Sie über das Publishing-Dashboard auch eine Ausgabe generieren und den Fortschritt der Ausgabenerstellung anzeigen.
 
-Mit Zuordnungssammlung können Sie anzeigen, ob sich eine Zuordnung seit der letzten Veröffentlichung geändert hat. Sie können die Details auf der Registerkarte Zuordnungen und Vorgaben Ihrer Zuordnungssammlung anzeigen und dann bei Bedarf die Ausgabe erneut veröffentlichen. Weitere Informationen finden Sie unter Hinzufügen einer Zuordnung zu einer Zuordnungssammlung.
+Mit Zuordnungssammlung können Sie anzeigen, ob sich eine Zuordnung seit der letzten Veröffentlichung geändert hat. Sie können die Details auf der Registerkarte Zuordnungen und Vorgaben Ihrer Zuordnungssammlung anzeigen und dann bei Bedarf die Ausgabe erneut veröffentlichen.
 
 ## Erstellen einer Kartensammlung und Hinzufügen von DITA-Karten
 
 Um eine Zuordnungssammlung zu erstellen und der Sammlung DITA-Zuordnungen hinzuzufügen, führen Sie die folgenden Schritte aus:
 
-1. Klicken Sie in der Benutzeroberfläche von Assets auf **Sammlungen zuordnen**.
+1. Öffnen Sie die Startseite von [Experience Manager Guides ](./intro-home-page.md#map-collections) wählen Sie **Sammlungen zuordnen** aus.
 
-   Wenn der Link Sammlungen zuordnen nicht verfügbar ist, wählen Sie die Option **Navigation** in der linken Leiste aus und klicken Sie dann auf **Sammlungen zuordnen**.
+   Die **Sammlungen zuordnen** wird auf einer neuen Registerkarte geöffnet.
 
-   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
+   ![](images/map-collections-page.png){width="350" align="left"}
 
-1. Geben Sie einen Titel für Ihre Kartensammlung ein.
-1. Klicken Sie auf **Erstellen**.
+   >[!NOTE]
+   >
+   > Sie können auch die Assets-Benutzeroberfläche öffnen und „Sammlungen **&quot;**. Wenn die Seite „Sammlungen zuordnen“ nicht verfügbar ist, wählen Sie die Option **Navigation** in der linken Leiste aus und klicken Sie dann auf **Sammlungen zuordnen**.
+
+1. Wählen Sie auf **Seite** oben rechts **Erstellen** und geben Sie einen **Sammlungstitel** für Ihre Zuordnungssammlung ein.
+1. Wählen Sie **Erstellen** aus.
 
    Bei der Erstellung der Zuordnungssammlung wird eine Erfolgsmeldung angezeigt.
 
-1. Klicken **auf** Erfolgsmeldung.
+1. Wählen **in** Erfolgsmeldung „Schließen“ aus.
 
    Die neu erstellte Zuordnungsdatei wird auf der Seite Zuordnungssammlungen angezeigt.
 
-1. Klicken Sie auf das graue Feld in der Kachel der Sammlung, die Sie bearbeiten möchten.
-1. Klicken Sie **Bearbeiten** und dann auf **Karten hinzufügen**.
+1. Aktivieren Sie das graue Feld in der Kachel der Sammlung, die Sie bearbeiten möchten.
+1. Die ausgewählte Zuordnungssammlung wird im Dashboard der Zuordnungssammlung geöffnet.
+1. Wählen Sie **Bearbeiten** und dann **Karten hinzufügen** aus.
 1. Suchen Sie die DITA-Karten, die Sie der Kartensammlung hinzufügen möchten, und fügen Sie sie hinzu.
 
    Standardmäßig werden alle der Zuordnung zugeordneten Vorgaben und Gebietsschemata automatisch hinzugefügt.
 
 1. Wählen Sie den gewünschten Ausgang, indem Sie die Schiebetaste ein- oder ausschalten.
-1. Klicken Sie auf **Fertig**.
+1. Wählen Sie **Fertig**.
 
    Die DITA-Zuordnungsdateien werden Ihrer Zuordnungssammlung hinzugefügt.
 
    ![Dashboard der Zuordnungssammlung](./images/map-collection-dashboard.png){width="800" align="left"}
 
+**Filteroptionen**
+
 Die folgenden Filteroptionen und Zuordnungsdetails werden auf der Sammlungsseite angezeigt:
 
-- **Filter:** Die letzte Leiste zeigt die folgenden Filter:
+- **Filter:** In der linken Leiste werden die folgenden Filter angezeigt:
    - **Geändert**: Sie können „Ja“ oder „Nein“ auswählen. Wenn Sie Ja auswählen, werden nur die geänderten DITA-Zuordnungen in der Tabelle Zuordnungen und Vorgaben angezeigt.
    - **Voreinstellung**: Wählen Sie eine Voreinstellung aus, für die Sie die Zuordnungsdateien herausfiltern möchten. Wenn Sie beispielsweise die Vorgabe *AEM-Site* auswählen, werden nur die Zuordnungen angezeigt, für die die Ausgabevorgabe *AEM-Site* konfiguriert ist.
    - **Sprache**: Sie können einen beliebigen der verfügbaren Sprach-Codes auswählen und nur die ausgewählte Sprache in der Tabelle Zuordnungen und Vorgaben anzeigen.
@@ -70,32 +77,32 @@ Die folgenden Filteroptionen und Zuordnungsdetails werden auf der Sammlungsseite
 
 Um die Ausgabe mithilfe einer Zuordnungssammlung zu konfigurieren und zu generieren, führen Sie die folgenden Schritte aus:
 
-1. Öffnen Sie die Zuordnungssammlung. Sie können die verschiedenen Ausgabevorgaben wie die AEM-Site, PDF (einschließlich nativer PDF), HTML5, EPUB und benutzerdefinierte Vorgaben anzeigen. Sie können auch die von Ihrem Administrator erstellten globalen Ordner- und Profilvorgaben anzeigen.
+1. Öffnen Sie die Zuordnungssammlung. Sie können die verschiedenen Ausgabevorgaben wie AEM Sites, PDF (einschließlich nativer PDF), HTML5, EPUB und benutzerdefinierte Vorgaben anzeigen. Sie können auch die von Ihrem Administrator erstellten globalen Ordner- und Profilvorgaben anzeigen.
 
    Das ![](images/global-preset-icon.svg) zeigt eine Vorgabe auf Ordnerprofilebene an.
 1. \(Optional\) Führen Sie je nach Ihren Anforderungen einen der folgenden Schritte aus:
    - Wenden Sie Filter aus der linken Leiste an, um die geänderten Zuordnungen, die Ausgabevorgabe oder die Sprache zu filtern.
-   - Klicken Sie bei Bedarf **Bearbeiten** und ändern Sie die gewünschte Ausgabe, indem Sie die Schiebetaste ein- oder ausschalten.
+   - Wählen Sie bei Bedarf **Bearbeiten** und ändern Sie die gewünschte Ausgabe, indem Sie die Schiebetaste ein- oder ausschalten.
 
 
-
-     >[!NOTE]
-     >  
-     > Standardmäßig ist jede neue Vorgabe deaktiviert.
+   >[!NOTE]
+   >  
+   > Standardmäßig ist jede neue Vorgabe deaktiviert.
 
 1. Sie können die Voreinstellungen für eine DITA-Zuordnung wie folgt aktivieren:
 
    - Aktivieren Sie eine beliebige Voreinstellung.
    - Aktivieren **Alle Vorgaben** für eine DITA-Map, um alle Vorgaben auf einmal auszuwählen. Diese Option ist standardmäßig deaktiviert.
    - Aktivieren **Ordnerprofilvorgaben** für eine DITA-Zuordnung, um alle Ordnerprofilvorgaben auszuwählen. Diese Option ist standardmäßig deaktiviert.
-     ![Bearbeiten einer Zuordnungssammlung in Cloud Services](images/edit-map-collection-cs.png){width="800" align="left"}
+
+![Bearbeiten einer Zuordnungssammlung in Cloud Services](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    - Um eine Ausgabe der ausgewählten Zuordnungen zu generieren, wählen Sie die Zuordnungsdateien aus und klicken Sie auf **Ausgewählte generieren**.
-   - Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Voreinstellungen zu generieren, klicken Sie auf **Alle generieren**.
+   - Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Voreinstellungen zu generieren, wählen Sie **Alle generieren** aus.
 
    >[!IMPORTANT]
    >
@@ -115,30 +122,30 @@ Führen Sie die folgenden Schritte aus, um die Metadateneigenschaften zu konfigu
 
 1. Aktualisieren Sie die Metadateneigenschaften.
 
-1. Klicken Sie **oben auf** Speichern und schließen“, um die Aktualisierungen zu speichern.
+1. Klicken Sie **oben auf „Speichern** schließen“, um die Aktualisierungen zu speichern.
 1. (Optional) Wenn Sie die Tags aktualisieren, können Sie auch in der Dropdown-Liste **Speichern und schließen** die Option Anhängen auswählen, um die neuen Tags an die vorhandene Liste anzuhängen.
-1. Klicken Sie **der Dropdown** Liste **Speichern und schließen** auf Senden .
+1. Wählen Sie **Senden** aus dem Dropdown **Speichern und schließen** aus.
 Die Metadateneigenschaften werden für die DITA-Zuordnungen aktualisiert, die Sie stapelweise aus der Zuordnungssammlung auswählen.
 
 >[!NOTE]
 > 
 >Für das **Dokumentstatus**-Dropdown können Sie nur die Dokumentstatus auswählen, die für alle ausgewählten DITA-Zuordnungen gemeinsam zulässig sind. Weitere Informationen finden Sie unter [**Dokumentstatus**](./web-editor-document-states.md).
 
-Die Metadateneigenschaften sind mit den Dateieigenschaften synchronisiert. Nachdem Sie sie aktualisiert haben, können Sie sie über das Bedienfeld **Dateieigenschaften** im Web-Editor anzeigen.
+Die Metadateneigenschaften sind mit den Dateieigenschaften synchronisiert. Nachdem Sie sie aktualisiert haben, können Sie sie über das Bedienfeld **Dateieigenschaften** im Editor anzeigen.
 
 
 
 ## Löschen einer Zuordnungssammlung oder einer DITA-Zuordnung aus der Zuordnungssammlung
 
-- Um eine Zuordnungssammlung zu löschen, wählen Sie eine Sammlung auf der Seite Zuordnungssammlung aus und klicken Sie auf **Löschen**.
-- Um eine DITA-Zuordnung aus einer Zuordnungssammlung zu löschen, öffnen Sie die Zuordnungssammlung im Bearbeitungsmodus, wählen Sie die DITA-Zuordnungsdatei aus und klicken Sie auf **Aus Sammlung entfernen**.
+- Um eine Zuordnungssammlung zu löschen, wählen Sie auf der Seite Zuordnungssammlung eine Sammlung aus und klicken Sie auf **Löschen**.
+- Um eine DITA-Zuordnung aus einer Zuordnungssammlung zu löschen, öffnen Sie die Zuordnungssammlung im Bearbeitungsmodus, wählen Sie die DITA-Zuordnungsdatei aus und wählen Sie **Aus Sammlung entfernen**.
 
 Dadurch werden auch alle Vorgaben oder Gebietsschemata entfernt, die mit der DITA-Zuordnung aus der Zuordnungssammlung verknüpft sind.
 
 
 ## Abbrechen einer Ausgabegenerierungsaufgabe aus einer Zuordnungssammlung
 
-Ähnlich wie beim Abbrechen einer Ausgabegenerierungsaufgabe über die [DITA Map Console](generate-output-for-a-dita-map.md#id2061H100T5Z) oder das [Publish Dashboard](generate-output-publish-dashboard.md#) können Sie eine Ausgabegenerierungsaufgabe über eine Zuordnungssammlung abbrechen. Rufen Sie die Registerkarte Ausgaben einer Zuordnungssammlung auf, wechseln Sie zur Veröffentlichungsaufgabe, die Sie abbrechen möchten, und klicken Sie auf das Symbol **Diesen Auftrag abbrechen**, um die Veröffentlichungsaufgabe abzubrechen.
+Ähnlich wie beim Abbrechen einer Aufgabe zur Ausgabegenerierung über die [DITA Map-Konsole](generate-output-for-a-dita-map.md#id2061H100T5Z) oder das [Dashboard veröffentlichen](generate-output-publish-dashboard.md#) können Sie eine Aufgabe zur Ausgabegenerierung über eine Zuordnungssammlung abbrechen. Rufen Sie die Registerkarte Ausgaben einer Zuordnungssammlung auf, wechseln Sie zur Veröffentlichungsaufgabe, die Sie abbrechen möchten, und wählen Sie das Symbol **Diesen Auftrag abbrechen** aus, um die Veröffentlichungsaufgabe abzubrechen.
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 

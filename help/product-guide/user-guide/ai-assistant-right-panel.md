@@ -1,29 +1,25 @@
 ---
 title: Verwenden des KI-Assistenten zur intelligenten Erstellung von Dokumenten "
-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Dokumente mit intelligenter Effizienz im Web-Editor erstellen können.
+description: Erfahren Sie, wie Sie mit dem KI-Assistenten Dokumente mit intelligenter Effizienz erstellen können.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
 
-# KI-Assistent zum Erstellen von Dokumenten mit intelligenter Effizienz
+# Intelligentes Erstellen von Dokumenten mit dem KI-Assistenten (Beta)
 
-Experience Manager Guides bietet ein KI-Assistenten-Tool, mit dem Sie Ihre Inhaltserstellung intelligenter und schneller gestalten können. Durch intelligente Vorschläge und Optimierung erleben Sie eine vereinfachte Dokumentverarbeitung. Zeigen Sie mit diesem Tool die intelligenten Vorschläge zur Wiederverwendung der Inhalte aus dem vorhandenen Inhalts-Repository an. Verwenden Sie die Textaufforderungsfunktion, um eine Eingabeaufforderung bereitzustellen und den Inhalt zu ändern oder eine Ausgabe gemäß Ihren Anforderungen zu generieren. Verwenden Sie den KI-Assistenten, um einen Absatz intelligent in eine Liste zu konvertieren. Sie können eine kurze Beschreibung für das aktuelle Thema erstellen. Mit dieser Funktion können Sie auch die ausgewählten Inhalte einfach verbessern und übersetzen.
-
+Adobe Experience Manager Guides bietet ein KI-Assistenten-Tool, mit dem Sie Ihre Inhaltserstellung intelligenter und schneller gestalten können. Zeigen Sie mit diesem Tool die intelligenten Vorschläge zur Wiederverwendung der Inhalte aus dem vorhandenen Inhalts-Repository an. Verwenden Sie die Textaufforderungsfunktion, um eine Eingabeaufforderung bereitzustellen und den Inhalt gemäß Ihren Anforderungen zu ändern. Verwenden Sie den KI-Assistenten, um einen Absatz intelligent in eine Liste zu konvertieren. Sie können für das aktuelle Thema eine kurze Beschreibung basierend auf dem ausgewählten Inhalt erstellen. Mit dieser Funktion können Sie auch die ausgewählten Inhalte einfach verbessern und übersetzen.
 
 >[!NOTE]
 >
-> Um die Funktion KI-Assistent im rechten Bedienfeld hinzuzufügen, muss Ihr Systemadministrator die Option **KI-Assistent** auf der Registerkarte **Bedienfelder** im Symbol **Editor-Einstellungen** ![Editor-Einstellungen](./images/editor_settings_icon.svg) auswählen.
-> Außerdem müssen Sie Ihr Dokument auschecken, um das Symbol für den KI-Assistenten anzuzeigen.
+> Diese Authoring-Funktion ist nur für DITA-Themen verfügbar und kann nur über die Editor-Oberfläche aufgerufen werden. Auf der Startseite und in der Kartenkonsole wird nur das Bedienfeld **Hilfe** angezeigt.
 
-Diese Funktion ist nur für DITA-Themen verfügbar. Nachdem Sie den Text in einem Thema ausgewählt haben, können Sie eine der KI-Assistentenaktionen ausführen:
+Nachdem Sie den Text in einem Thema ausgewählt haben, können Sie eine der KI-Assistentenaktionen ausführen:
 
-![KI-Assistent](./images/ai-assistant-panel.png)
-
-
+![KI-Assistent](./images/ai-assistant-panel.png){width="300" align="left"}
 
 ## Wiederverwendbaren Inhalt vorschlagen
 
@@ -32,19 +28,14 @@ Verwenden Sie das Symbol **Wiederverwendbaren Inhalt vorschlagen** ![ai schlägt
 Erfahren Sie mehr über die Verwendung von [KI-gestützten Smart-Vorschlägen zum Erstellen von Inhalten](authoring-ai-based-smart-suggestions.md).
 
 
-
-
-
 ## Textaufforderung verwenden
 
+Eine Textaufforderung ist eine Anweisung, eine Frage oder eine Anweisung, die den KI-Assistenten bei der Generierung einer bestimmten Antwort anleitet.
 
-Eine Textaufforderung ist eine Anweisung, eine Frage oder eine Anweisung, die den KI-Assistenten bei der Generierung einer bestimmten Antwort oder Ausgabe anleitet.
-
-Sie können eine Textaufforderung verwenden, um den Inhalt zu ändern und eine Ausgabe zu generieren.  Sie können beispielsweise eine Zusammenfassung der Funktionen eines Produkts erstellen und es in Ihrem Bericht zur Präsentation des Produkts verwenden. Sie können diese Funktion auch verwenden, um zwei Produkte zu vergleichen. Sie können beispielsweise auch eine Vergleichstabelle für die Funktionen zweier Produkte erstellen.
-
+Sie können eine Textaufforderung verwenden, um den Inhalt zu ändern. Sie können beispielsweise den Inhalt des aktuellen Themas auswählen und die Eingabeaufforderung *Text knapper gestalten* verwenden. Ebenso können Sie eine Textaufforderung verwenden, um dem Tag, das im ausgewählten Inhalt verwendet wird, ein Attribut hinzuzufügen.
 
 1. Wählen Sie den Text aus, für den Sie die Textaufforderung verwenden möchten.
-1. Wählen Sie **Textaufforderung verwenden** ![AI-Symbol „Textaufforderung verwenden](./images/ai-use-text-prompt.svg) im Bedienfeld **KI-Assistent** aus.
+1. Wählen **Textaufforderung verwenden**![ai-Symbol „Textaufforderung verwenden](./images/ai-use-text-prompt.svg) im Bedienfeld **Authoring** aus.
 1. Geben Sie eine Eingabeaufforderung auf eine der folgenden Arten ein:
 
    - Wählen Sie eine Eingabeaufforderung aus den vorgeschlagenen Eingabeaufforderungen aus.
@@ -57,9 +48,11 @@ Sie können eine Textaufforderung verwenden, um den Inhalt zu ändern und eine A
    - Geben Sie die Eingabeaufforderung in das Textfeld ein.
 
 
-1. Wählen Sie **Regenerieren** ![Symbol „Regenerieren](./images/refresh-icon.svg) für eine andere Antwort oder Ausgabe basierend auf Ihrer Eingabeaufforderung aus, z. B. die KI-Tools.
+1. Wählen Sie **Regenerieren** ![Symbol „Regenerieren](./images/refresh-icon.svg) für eine andere Antwort oder Ausgabe basierend auf Ihrer Eingabeaufforderung aus.
 
 1. (Optional) Wählen Sie **Erweitern** ![expandicon](./images/expand-icon.svg) aus, um den **Textaufforderung verwenden** zu öffnen. Es zeigt den aktuellen und den generierten Inhalt an. Sie können den Quell-Layout-Inhalt bearbeiten und die Vorschau überprüfen.
+
+   ![AI-Assistent-Textaufforderungs-Editor](./images/text-prompt.png)
 
 
    >[!NOTE]
@@ -70,21 +63,18 @@ Sie können eine Textaufforderung verwenden, um den Inhalt zu ändern und eine A
 
 1. Sie können die Eingabeaufforderung auch im Editor bearbeiten und die Antwort neu generieren. Sie können beispielsweise die Eingabeaufforderung ändern, um den Text auf etwa 40 Wörter zu verkürzen.
 
-   ![AI-Assistent-Textaufforderungs-Editor](./images/ai-assisstant-text-prompt.png)
-
 1. Sie können die Quelle des generierten Inhalts überprüfen und bei Bedarf bearbeiten.
 
 1. Wählen Sie **Akzeptieren** aus, um den ausgewählten Inhalt im Thema durch den generierten Inhalt zu ersetzen.
-1. **Abbrechen**: Bricht die Textaufforderungsaktion ab. Kehrt zum Anfangsstatus des Bedienfelds zurück.
+1. **Abbrechen**: Bricht die Textaufforderungsaktion ab. Kehrt zum Bearbeitungsfenster zurück.
 
    >[!NOTE]
    >
-   > Durch Auswahl des **Abbrechen**-Symbols im Funktionsbedienfeld werden Sie ebenfalls auf den Ausgangsstatus zurückgesetzt.
+   > Durch Auswahl **Symbols &quot;**&quot; im Authoring-Bedienfeld kehren Sie zum Ausgangsstatus des KI-Assistenten zurück.
 
 ## Inhalt verbessern
 
-
-Verbessert den ausgewählten Inhalt. Überprüfen Sie die Rechtschreibung, Sprache und grammatische Struktur und schlagen Sie eine bessere Version des Inhalts vor. Es verbessert auch die Qualität der Sätze.
+Verwenden Sie die **Inhalt verbessern**, um die Qualität des ausgewählten Inhalts des aktuellen Themas zu verbessern. Sie können den Inhalt auswählen, um Rechtschreibung, Sprache und grammatische Struktur zu überprüfen und eine bessere Version des Inhalts vorzuschlagen. Es verbessert auch die Qualität der Sätze.
 
 1. Inhalt auswählen.
 1. Wählen Sie **Inhalt verbessern** ![Symbol für KI-Verbesserung des Inhalts](./images/ai-improve-icon.svg) aus, um die Vorschläge für den verbesserten Inhalt zu finden.
@@ -94,9 +84,9 @@ Verbessert den ausgewählten Inhalt. Überprüfen Sie die Rechtschreibung, Sprac
 
 
 
-![KI-Assistent - Inhalt-Editor verbessern](./images/ai-assisstant-improve-content.png)
+   ![KI-Assistent - Inhalt-Editor verbessern](./images/ai-assisstant-improve-content.png)
 
-Akzeptieren Sie den Vorschlag, oder erstellen Sie eine neue Antwort oder brechen Sie die Aktion ab, um zum vorherigen Status zurückzukehren.
+Akzeptieren Sie den Vorschlag, bearbeiten Sie die Antwort in der Quellansicht, bevor Sie ihn akzeptieren, generieren Sie sie für eine andere Antwort neu oder brechen Sie die Aktion ab, um zum vorherigen Status zurückzukehren.
 
 
 
@@ -115,10 +105,10 @@ Sie können beispielsweise die Systemanforderungen auflisten und entsprechend ei
 
 Sie können auch die folgenden Aktionen ausführen:
 
-- Wählen Sie **Regenerieren** aus, um eine weitere kurze Beschreibung für Ihr Thema zu generieren, z. B. die KI-Tools.
+- Wählen Sie **Regenerieren**, um eine weitere kurze Beschreibung für Ihr Thema zu generieren.
 - Wählen Sie **Erweitern** aus, um den **Shortdesc erstellen** zu öffnen.
 
-![KI-Assistent zum Erstellen des Kurzbeschreibungseditors](./images/ai-assistant-create-short-desc.png)
+  ![KI-Assistent zum Erstellen des Kurzbeschreibungseditors](./images/ai-assistant-create-short-desc.png)
 
 
 
@@ -133,7 +123,7 @@ Diese Funktion wandelt einen ausgewählten Absatz intelligent in eine Liste um. 
 
 1. Inhalt auswählen.
 1. Wählen Sie **Inhalt** KI![Symbol für Inhalt ](./images/ai-itemize-icon.svg) aus, um den ausgewählten Inhalt in eine Liste zu konvertieren.
-Das Tool KI-Assistent konvertiert den Inhalt intelligent in eine Liste von Elementen.
+Das Authoring-Tool im Bedienfeld des KI-Assistenten konvertiert den Inhalt intelligent in eine Liste von Elementen.
 1. (Optional) Klicken Sie auf **Erweitern**, um den Editor **Inhalt auflisten** zu öffnen.
 1. Sobald Ihre Liste fertig ist, akzeptieren Sie die Änderungen am generierten Inhalt. Der generierte Inhalt ersetzt dann den ausgewählten Inhalt.
 
@@ -141,11 +131,12 @@ Das Tool KI-Assistent konvertiert den Inhalt intelligent in eine Liste von Eleme
 
 ## Inhalte übersetzen
 
-Verwenden Sie diese intelligente Funktion, um die ausgewählten Inhalte in die Zielsprache zu übersetzen. Sie können beispielsweise Inhalte auf Englisch hinzufügen und schnell ins Deutsche übersetzen.
+Verwenden Sie diese intelligente Funktion, um die ausgewählten Inhalte in die Zielsprache zu übersetzen. Dies ist besonders nützlich, wenn Sie Notizen in verschiedenen Sprachen hinzufügen. Sie können beispielsweise Inhalte auf Englisch hinzufügen und schnell ins Arabische übersetzen.
+
 Führen Sie die folgenden Schritte aus, um die Inhalte zu übersetzen:
 
 1. Wählen Sie die Inhalte aus, die Sie übersetzen möchten.
-1. Wählen Sie **Inhalt übersetzen** im ](./images/ai-translate-content-icon.svg)-Assistentenfeld ![Symbol „Inhalt übersetzen“ aus.
+1. Wählen Sie **Inhalt übersetzen** ![ai-Symbol „Inhalt übersetzen](./images/ai-translate-content-icon.svg) im Bedienfeld **Authoring** aus.
 1. Wählen Sie im Dropdown-Menü die Zielsprache aus. Die übersetzten Inhalte werden im Bedienfeld KI-Assistent angezeigt.
 
 1. (Optional) Wählen Sie **Erweitern** aus, um den Editor **Inhalte übersetzen** zu öffnen.

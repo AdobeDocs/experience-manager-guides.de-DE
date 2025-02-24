@@ -4,28 +4,28 @@ description: Generieren von DITA-Zuordnungsberichten über das Zuordnungs-Dashbo
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
 
 # DITA-Map-Bericht über das Map-Dashboard {#id205BB800EEN}
 
-AEM Guides bietet Ihren Admins die Reporting-Funktionen, um die Integrität der Dokumentation insgesamt zu überprüfen, bevor sie live geschaltet oder Endbenutzern zur Verfügung gestellt wird. Der DITA-Zuordnungsbericht im Zuordnungs-Dashboard in AEM Guides bietet wertvolle Informationen wie fehlende Themen, Themen mit fehlenden Elementen, UUID referenzierter Themen und Mediendateien sowie den Prüfungsstatus jedes Themas. Ein detaillierter Bericht auf individueller Themenebene enthält auch DITA-inhaltsbezogene Informationen wie Inhaltsreferenzen und fehlende Bilder oder Querverweise.
+Adobe Experience Manager Guides bietet Ihren Admins die Reporting-Funktionen, um die Integrität der Dokumentation insgesamt zu überprüfen, bevor sie live geschaltet oder Endbenutzern zur Verfügung gestellt wird. Der DITA-Zuordnungsbericht im Zuordnungs-Dashboard in Experience Manager Guides bietet wertvolle Informationen wie fehlende Themen, Themen mit fehlenden Elementen, UUID referenzierter Themen und Mediendateien sowie den Prüfungsstatus jedes Themas. Ein detaillierter Bericht auf individueller Themenebene enthält auch DITA-inhaltsbezogene Informationen wie Inhaltsreferenzen und fehlende Bilder oder Querverweise.
 
 >[!NOTE]
 >
-> AEM Guides aktualisiert diesen Bericht bei jedem Ereignis, das zu einer Änderung in Ihrer Zuordnungsdatei führt oder wenn ein Verweis in Ihrer Themendatei aktualisiert wird.
+>Experience Manager Guides aktualisiert diesen Bericht bei jedem Ereignis, das zu einer Änderung in Ihrer Zuordnungsdatei führt oder wenn ein Verweis in Ihrer Themendatei aktualisiert wird.
 
 Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu der DITA-Zuordnungsdatei, für die Sie den Bericht anzeigen möchten, und klicken Sie darauf.
+1. Navigieren Sie in der Assets-Benutzeroberfläche zu der DITA-Zuordnungsdatei, für die Sie den Bericht anzeigen möchten, und wählen Sie sie aus.
 
-1. Klicken Sie auf **Berichte**.
+1. Wählen Sie **Berichte** aus.
 
-   ![](images/reports-page-uuid.png){width="800" align="left"}
+   ![](images/reports-page-uuid-new.png){width="800" align="left"}
 
    Die Seite Berichte ist in zwei Teile unterteilt:
 
@@ -35,9 +35,9 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
    - **Details:**
 
-     Wenn Sie auf ein Thema klicken, wird ein detaillierter Bericht zum ausgewählten Thema angezeigt.
+     Wenn Sie ein Thema auswählen, wird ein detaillierter Bericht zum ausgewählten Thema angezeigt.
 
-     ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid-new.png){width="800" align="left"}
 
      Nachfolgend werden die unter **A**, **B**, **C** und **D** hervorgehobenen Punkte beschrieben:
 
@@ -51,26 +51,28 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
       - **Dokumentstatus**: Der aktuelle Status des Dokuments - Entwurf, In Überprüfung oder Überprüft.
 
-      - **Fehlende Themen \(B\)**: Wenn es Themen mit fehlerhaften Verweisen gibt, werden diese Themen unter der Liste „Fehlende Themen“ aufgeführt.
-
       - **Fehlende Elemente**: Listet die Anzahl fehlender Bilder oder beschädigter Querverweise auf, falls vorhanden.
 
-      - **Im Editor öffnen \(D\)**: Durch Klicken auf dieses Symbol wird das Thema im Web-Editor geöffnet.
+      - **Fehlende Themen \(B\)**: Wenn es Themen mit fehlerhaften Verweisen gibt, werden diese Themen unter der Liste „Fehlende Themen“ aufgeführt.
+
+      - **In FrameMaker öffnen \(C\)**: Listet die Anzahl der fehlenden Bilder oder beschädigten Querverweise auf, falls vorhanden.
+
+      - **Im Editor öffnen \(D\)**: Wenn Sie auf dieses Symbol klicken, wird das Thema im Editor geöffnet.
 
 
    Nachfolgend werden die unter **E** hervorgehobenen Elemente beschrieben:
 
-   - **Multimedia**: Der Pfad der im Thema verwendeten Bilder wird zusammen mit der UUID angezeigt. Wenn Sie auf den Bildpfad klicken, wird das entsprechende Bild in einem Popup-Fenster geöffnet. Beschädigte Bildverknüpfungen werden rot angezeigt.
+   - **Multimedia**: Der Pfad der im Thema verwendeten Bilder wird zusammen mit der UUID angezeigt. Wenn Sie den Bildpfad auswählen, wird das entsprechende Bild in einem Popup-Fenster geöffnet. Beschädigte Bildverknüpfungen werden rot angezeigt.
 
-   - **Inhaltsreferenzen**: Der Pfad des im Thema referenzierten Inhalts wird zusammen mit der UUID angezeigt. Wenn Sie auf den Titel des referenzierten Inhalts klicken, wird das entsprechende Thema im Vorschaumodus geöffnet.
+   - **Inhaltsreferenzen**: Der Pfad des im Thema referenzierten Inhalts wird zusammen mit der UUID angezeigt. Wenn Sie den Titel des referenzierten Inhalts auswählen, wird das entsprechende Thema im Vorschaumodus geöffnet.
 
-   - **Querverweis**: Der Pfad des referenzierten Inhalts wird zusammen mit der UUID angezeigt. Wenn Sie auf den Titel des referenzierten Inhalts klicken, wird das entsprechende Thema im Vorschaumodus geöffnet. Unterbrochene Querverweise werden rot angezeigt.
+   - **Querverweis**: Der Pfad des referenzierten Inhalts wird zusammen mit der UUID angezeigt. Wenn Sie den Titel des referenzierten Inhalts auswählen, wird das entsprechende Thema im Vorschaumodus geöffnet. Unterbrochene Querverweise werden rot angezeigt.
 
-   - **Überprüfen**: Zeigt den Status der Prüfungsaufgabe des Themas an. Sie können den Status \(Öffnen oder Schließen\), das Fälligkeitsdatum und den Verantwortlichen für das zu überprüfende Thema sehen. Wenn Sie auf den Themenlink klicken, wird das Thema im Prüfungsmodus geöffnet.
+   - **Überprüfen**: Zeigt den Status der Prüfungsaufgabe des Themas an. Sie können den Status \(Öffnen oder Schließen\), das Fälligkeitsdatum und den Verantwortlichen für das zu überprüfende Thema anzeigen. Wenn Sie auf den Themen-Link klicken, wird das Thema im Prüfungsmodus geöffnet.
 
    - **Verwendet in**: Zeigt eine Liste anderer Themen oder Karten an, in denen das Thema verwendet wird. Die UUID aller dieser Themen und Karten wird ebenfalls aufgelistet.
 
-Neben dem Bericht für jedes einzelne Thema haben Admins auch Zugriff auf Informationen wie den Veröffentlichungsverlauf einer DITA-Karte. Weitere Informationen zum Verlauf der generierten Ausgaben finden Sie unter [Anzeigen des Status der Ausgabenerstellungsaufgabe](generate-output-for-a-dita-map.md#viewing_output_history).
+Neben dem Bericht für jedes einzelne Thema haben Admins auch Zugriff auf Informationen wie den Veröffentlichungsverlauf einer DITA-Karte. Weitere Informationen zum Verlauf der generierten Ausgaben finden Sie im Abschnitt [Anzeigen des Status ](generate-output-for-a-dita-map.md#viewing_output_history) Ausgabenerstellungsaufgabe .
 
 ## CSV-Datei des DITA-Zuordnungsberichts erstellen
 
@@ -78,21 +80,21 @@ Sie können die CSV-Datei eines DITA-Zuordnungsberichts herunterladen und export
 
 Führen Sie die folgenden Schritte aus, um die CSV-Datei eines DITA-Zuordnungsberichts zu generieren:
 
-1. Klicken Sie **oben links** Bericht generieren“, um den DITA-Zuordnungsbericht zu generieren.
+1. Wählen **oben** die Option „Bericht generieren“ aus, um den DITA-Zuordnungsbericht zu generieren.
 
-   ![](images/generate-DITA-map-report.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report-new.png){width="800" align="left"}
 
-1. Sie erhalten eine Benachrichtigung, sobald der Bericht zum Herunterladen bereit ist. Klicken Sie **Herunterladen**, um die CSV-Datei des generierten Berichts herunterzuladen.
+1. Sie erhalten eine Benachrichtigung, sobald der Bericht zum Herunterladen bereit ist. Wählen Sie **Herunterladen**, um die CSV-Datei des generierten Berichts herunterzuladen.
 
-   ![](images/download-report-dialog.png){width="550" align="left"}
+   ![](images/download-report-dialog-new.png){width="550" align="left"}
 
 
-   Sie können die CSV-Datei des generierten Berichts auch später aus dem AEM-Benachrichtigungs-Posteingang herunterladen.
+   Sie können die CSV-Datei des generierten Berichts auch später aus dem Experience Manager-Benachrichtigungs-Posteingang herunterladen.
 
-   Klicken Sie auf den generierten Bericht im Posteingang, um den Bericht herunterzuladen.
+   Wählen Sie den generierten Bericht im Posteingang aus, um den Bericht herunterzuladen.
 
    ![](images/report-inbox--notification.png){width="300" align="left"}
 
 Sobald der Bericht in den Posteingang heruntergeladen wurde, können Sie auch den Bericht auswählen und das Symbol Öffnen oben verwenden, um den ausgewählten Bericht zu öffnen.
 
-**Übergeordnetes Thema:**[ Reports](reports-intro.md)
+**Übergeordnetes Thema:**[ Einführung in Berichte](reports-intro.md)

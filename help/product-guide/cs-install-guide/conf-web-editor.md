@@ -5,9 +5,9 @@ exl-id: 9a52ba17-68c0-4552-aae6-e89bc5d3ac6f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ede91932959b952a47c890269695a69a2edab523
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ AEM Guides ist mit einem leistungsstarken Web-Editor ausgestattet, mit dem Ihre 
 - **[Standardwert für die Tag-Ansicht konfigurieren](configure-default-value-tags-view.md)**
 
 - **[Anzeige von UUID-basierten Links konfigurieren](conf-uuid-based-links.md)**
+
+- **[Konfigurieren der Anzeige eingefügter Tabellen](conf-pasted-tables.md)**
 
 - **[Öffnen Sie DITA-Themen oder Zuordnungsdateien in derselben Registerkarte](open-dita-files-same-tab.md)**
 
@@ -59,3 +61,5 @@ AEM Guides ist mit einem leistungsstarken Web-Editor ausgestattet, mit dem Ihre 
 - **[Standard für den erweiterten Zuordnungs-Editor festlegen](conf-map-editor.md)**
 
 - **[Standardmäßig @navtitle Attribut einbeziehen](auto-add-navtitle.md)**
+
+

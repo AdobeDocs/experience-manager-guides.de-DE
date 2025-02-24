@@ -1,36 +1,38 @@
 ---
 title: Grundlegendes zu Ausgabevorgaben
-description: Grundlegendes zu den Ausgabevorgaben in AEM Guides. Erstellen Sie Ausgabevorgaben über den Web-Editor und das Zuordnungs-Dashboard für die Formate AEM-Site, PDF, HTML5, EPUB, benutzerdefiniert und JSON.
+description: Grundlegendes zu den Ausgabevorgaben in AEM Guides. Erstellen Sie Ausgabevorgaben über den Web-Editor und das Zuordnungs-Dashboard für die Formate AEM Site, PDF, HTML5, EPUB, Custom und JSON.
 exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 0%
+source-wordcount: '223'
+ht-degree: 1%
 
 ---
 
 # Grundlegendes zu Ausgabevorgaben {#understanding_output_settings}
 
-AEM Guides unterstützt die Erstellung von Ausgaben in den gängigsten Formaten wie AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON und benutzerdefinierte Ausgaben durch DITA-OT, Native PDF und FMPS. Mithilfe dieser Ausgabeformate können Sie verschiedene Ausgabevorgaben konfigurieren. Eine Ausgabevorgabe stellt ein benutzerdefiniertes Ausgabeformat dar, in dem der Inhalt veröffentlicht werden soll.
+Experience Manager Guides unterstützt die Erstellung von Ausgaben in den gängigsten Formaten wie AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON und benutzerdefinierte Ausgaben über DITA-OT, Native PDF und FMPS. Mithilfe dieser Ausgabeformate können Sie verschiedene Ausgabevorgaben konfigurieren. Hier stellt eine Ausgabevorgabe ein benutzerdefiniertes Ausgabeformat dar, in dem der Inhalt veröffentlicht werden soll.
 
-In den folgenden Abschnitten werden die Optionen erläutert, die für die unterstützten Ausgabeformate verfügbar sind.
+Sie können Ausgabevorgaben auf zwei Arten erstellen und verwalten:
 
-Voreinstellungen können auf zwei Arten erstellt werden:
+- **In der Zuordnungskonsole**: Sie können AEM Sites-, PDF-, Wissensdatenbank-, HTML5-, benutzerdefinierte und JSON-Ausgabevoreinstellungen erstellen und die entsprechenden Ausgaben generieren.
+- **Vom Zuordnungs-** aus: Sie können AEM Sites, PDF, HTML5, EPUB und benutzerdefinierte Ausgabevoreinstellungen erstellen und die entsprechenden Ausgaben generieren.
 
-- **Aus dem Web-Editor**: Sie können AEM-Site-, PDF-, Wissensdatenbank-, HTML5-, benutzerdefinierte und JSON-Ausgabevoreinstellungen erstellen und die entsprechenden Ausgaben generieren.
-- **Vom Zuordnungs-Dashboard**: Sie können eine AEM-Site, PDF, HTML5, EPUB und benutzerdefinierte Ausgabevoreinstellung erstellen und die entsprechenden Ausgaben generieren.
+Weitere Informationen finden Sie unter [Erstellen, Bearbeiten, Duplizieren oder Entfernen einer Ausgabevorgabe](./generate-output-create-edit-preset.md).
 
-In den folgenden Abschnitten werden die Optionen erläutert, die für die unterstützten Ausgabeformate verfügbar sind.
+## Unterstützte Ausgabevorgabentypen in Experience Manager Guides
 
-- **[AEM-Site](generate-output-aem-site.md)**
+Die folgenden Voreinstellungsoptionen sind für die unterstützten Ausgabeformate verfügbar.
+
+- **[AEM Sites](generate-output-aem-site.md)**
 
 - **[PDF](generate-output-pdf.md)**
 
 - **[Wissensdatenbank](generate-output-knowledge-base.md)**
 
-- **[HTML5](generate-output-html5.md)**
+- **[HTML](generate-output-html5.md)**
 
 - **[EPUB](generate-output-epub.md)**
 

@@ -4,22 +4,22 @@ description: Beheben Sie Probleme mit der grundlegenden Fehlerbehebung in AEM Gu
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
 # Allgemeine Fehlerbehebung {#id1821I0Y0G0A}
 
-Beim Arbeiten mit AEM Guides können Fehler auftreten, während Sie Ihr Dokument veröffentlichen oder öffnen. Solche Fehler können in der DITA-Zuordnung, im Thema oder im AEM Guides-Prozess selbst auftreten. Dieser Abschnitt enthält Informationen zum Zugriff auf und zum Analysieren von Informationen in der Protokolldatei für die Ausgabegenerierung. Wenn Ihr DITA-Thema zu groß ist, wird möglicherweise der JSP-Kompilierungsfehler angezeigt. Dieser Abschnitt enthält auch Informationen zum Beheben des JSP-Kompilierungsfehlers.
+Beim Arbeiten mit Adobe Experience Manager Guides können Fehler auftreten, während Sie Ihr Dokument veröffentlichen oder öffnen. Solche Fehler können in der DITA-Zuordnung, im Thema oder im Experience Manager Guides-Prozess selbst auftreten. Dieser Abschnitt enthält Informationen zum Zugriff auf und zum Analysieren von Informationen in der Protokolldatei für die Ausgabegenerierung. Wenn Ihr DITA-Thema zu groß ist, wird möglicherweise der JSP-Kompilierungsfehler angezeigt. Dieser Abschnitt enthält auch Informationen zum Beheben des JSP-Kompilierungsfehlers.
 
 ## Protokolldatei anzeigen und überprüfen {#id1822G0P0CHS}
 
 Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabegenerierung anzuzeigen und zu überprüfen:
 
-1. Nachdem Sie die Generierung der Ausgabe initiiert haben, klicken Sie in der DITA **Zuordnungskonsole auf** Ausgaben“.
+1. Nachdem Sie den Prozess zur Ausgabe-Generierung initiiert haben, wählen Sie **Ausgaben** in der DITA-Zuordnungskonsole aus.
 
    Die Spalte **Allgemein** der **Generierte Ausgaben** zeigt die Symbole, die einen visuellen Hinweis auf den Erfolg oder Misserfolg der Ausgabegenerierung geben.
 
@@ -27,7 +27,7 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabege
 
    Im obigen Screenshot zeigen die Symbole 1 und 3 eine fehlgeschlagene Ausgabegenerierung. Das zweite Symbol zeigt eine erfolgreiche Ausgabegenerierung an, jedoch mit Meldungen. Die letzte Variante ist eine erfolgreiche Ausgabegenerierung ohne Meldung.
 
-1. Klicken Sie auf den Link in der Spalte **Generiert unter** nachdem der Vorgang abgeschlossen ist.
+1. Wählen Sie nach Abschluss des Vorgangs den Link in **Spalte** Erstellt am“ aus.
 
    Die Protokolldatei wird auf einer neuen Registerkarte geöffnet.
 
@@ -48,28 +48,28 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabege
 
 Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabegenerierung in einen Texteditor zu kopieren und zu überprüfen:
 
-1. Nachdem Sie die Generierung der Ausgabe initiiert haben, klicken Sie in der DITA **Zuordnungskonsole auf** Ausgaben“.
+1. Nachdem Sie den Prozess zur Ausgabe-Generierung initiiert haben, wählen Sie **Ausgaben** in der DITA-Zuordnungskonsole aus.
 
-1. Klicken Sie auf den Link in der Spalte **Generiert unter** nachdem der Vorgang abgeschlossen ist.
+1. Wählen Sie nach Abschluss des Vorgangs den Link in **Spalte** Erstellt am“ aus.
 
    Die Protokolldatei wird auf einer neuen Registerkarte geöffnet.
 
-1. Klicken Sie auf **Schaltfläche** Protokoll kopieren“. Die Protokolldatei wird in die Zwischenablage kopiert.
+1. Klicken Sie **Schaltfläche „Protokoll**&quot;. Die Protokolldatei wird in die Zwischenablage kopiert.
 1. Öffnen Sie einen Texteditor und fügen Sie die Protokolldatei in den Editor ein.
 
 1. Scrollen Sie durch die Protokolldatei und suchen Sie nach Meldungen.
 
-   Anhand der folgenden Informationen können Sie feststellen, ob im DITA-Datei- oder AEM Guides-Prozess ein Fehler vorliegt:
+   Anhand der folgenden Informationen können Sie feststellen, ob im DITA-Datei- oder Experience Manager Guides-Prozess ein Fehler vorliegt:
 
    - *DITA-Zuordnungsdatei-bezogener Fehler*: Falls in der DITA-Zuordnungsdatei oder einer anderen in der DITA-Zuordnung enthaltenen Datei ein Fehler gefunden wird, enthält die Protokolldatei die Zeichenfolge „BUILD FAILED“ (BUILD FEHLGESCHLAGEN). Sie können die in der Protokolldatei angegebenen Informationen überprüfen, um die fehlerhafte Datei zu finden und das Problem zu beheben.
 
-   Im folgenden Beispiel-Protokolldatei-Snippet wird die `BUILD FAILED`-Meldung zusammen mit dem Grund für den Fehler angezeigt.
+   Im folgenden Beispiel-Protokolldatei-Snippet können Sie die `BUILD FAILED`-Meldung zusammen mit dem Grund für den Fehler anzeigen.
 
    ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-   - *AEM Guides-bezogener Fehler*: Die andere Fehlerart, die Sie in der Protokolldatei identifizieren können, ist mit dem AEM Guides-Prozess selbst verbunden. In diesem Fall wird die DITA-Zuordnungsdatei erfolgreich geparst, aber der Ausgabegenerierungsprozess schlägt aufgrund eines internen Fehlers in AEM Guides fehl. Bei Fehlern dieser Art müssen Sie Hilfe vom technischen Support-Team anfordern.
+   - *Experience Manager Guides-bezogener Fehler*: Die andere Fehlerart, die Sie in der Protokolldatei identifizieren können, ist mit dem Experience Manager Guides-Prozess selbst verbunden. In diesem Fall wird die DITA-Zuordnungsdatei erfolgreich geparst, aber der Ausgabegenerierungsprozess schlägt aufgrund eines internen Fehlers in Experience Manager Guides fehl. Bei Fehlern dieser Art müssen Sie Hilfe vom technischen Support-Team anfordern.
 
-   Im folgenden Beispiel-Protokolldatei-Snippet wird die `BUILD SUCCESSFUL` angezeigt, gefolgt von einem anderen technischen Fehler.
+   Im folgenden Beispiel-Protokolldatei-Snippet können Sie die `BUILD SUCCESSFUL` und anschließend weitere technische Fehler anzeigen.
 
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
@@ -84,7 +84,7 @@ Führen Sie zur Behebung dieses Problems folgende Schritte durch:
 
    Die Seite Konfiguration der Adobe Experience Manager-Web-Konsole wird angezeigt.
 
-1. Suchen Sie nach der Komponente *Apache Sling Main Servlet* und klicken Sie darauf.
+1. Suchen Sie nach der Komponente *Apache Sling Main Servlet* und wählen Sie sie aus.
 
    Die konfigurierbaren Optionen für das Apache Sling Main Servlet werden angezeigt.
 

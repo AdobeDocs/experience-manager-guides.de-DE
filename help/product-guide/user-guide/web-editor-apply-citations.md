@@ -4,9 +4,9 @@ description: Hinzufügen und Verwalten von Zitaten in AEM Guides. Erfahren Sie, 
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 Zitate sind Verweise auf die Quelle von Informationen, die Ihrem Inhalt hinzugefügt werden. Mithilfe von Zitaten können Sie den Autoren die Quellinformationen zuschreiben und den Lesern helfen, die Quellinformationen zu verfolgen. Das Hinzufügen von Zitaten macht Ihre Inhalte zuverlässiger und verhindert Plagiate. Sie ermöglichen es Ihnen auch, gut recherchierte Inhalte anzuzeigen.
 
-In AEM Guides können Sie Zitate hinzufügen, importieren und sie auf Ihre Inhalte anwenden. Sie können diese Zitate aus jeder Quelle von Büchern, Websites und Zeitschriften hinzufügen.
+In Adobe Experience Manager Guides können Sie Zitate hinzufügen, importieren und sie auf Ihre Inhalte anwenden. Sie können diese Zitate aus jeder Quelle von Büchern, Websites und Zeitschriften hinzufügen.
 
 
-Mit AEM Guides können Sie Ihre Zitate bearbeiten, in der Vorschau anzeigen und sortieren. Nachdem Sie Ihre Zitate zum Inhalt hinzugefügt haben, können Sie die Ausgabe mit dem nativen PDF generieren. Sie können die Bibliografie- oder Referenzseite auch in der nativen PDF-Ausgabe hinzufügen.
+Mit Experience Manager Guides können Sie Ihre Zitate bearbeiten, in der Vorschau anzeigen und sortieren. Nachdem Sie Ihre Zitate zum Inhalt hinzugefügt haben, können Sie die Ausgabe mit dem nativen PDF generieren. Sie können die Bibliografie- oder Verweisseite auch in der nativen PDF-Ausgabe hinzufügen.
 
-AEM Guides unterstützt verschiedene Zitatstile, wie die Modern Language Association (MLA), die American Psychological Association (APA), Chicago, das Institute for Electrical and Electronics Engineers (IEEE) und die American Heart Association (AHA). Es wird empfohlen, diese klar und konsequent anzuwenden.
+Experience Manager Guides unterstützt verschiedene Zitatstile, wie die Modern Language Association (MLA), die American Psychological Association (APA), Chicago, das Institute for Electrical and Electronics Engineers (IEEE) und die American Heart Association (AHA). Es wird empfohlen, diese klar und konsequent anzuwenden.
 
 
 >[!NOTE]
 >
->Derzeit unterstützt AEM Guides nur natives PDF für Zitate.
+>Derzeit unterstützt Experience Manager Guides nur native PDF für Zitate.
 
 
 ## Zitate hinzufügen
@@ -33,14 +33,16 @@ AEM Guides unterstützt verschiedene Zitatstile, wie die Modern Language Associa
 Gehen Sie wie folgt vor, um Zitate hinzuzufügen:
 
 1. Wählen Sie **linken Bedienfeld** Symbol ![Zitate](images/citations-icon.svg) aus.
-Das **Zitate**-Bedienfeld wird geöffnet.
 
-   ![](images/citation-panel.png){width="300" align="left"}
+   Das **Zitate**-Bedienfeld wird geöffnet.
+
+   ![](images/citation-panel.png){width="350" align="left"}
 
 1. Wählen Sie im **Zitate**-Bedienfeld ![Symbol hinzufügen](images/Add_icon.svg) aus. Aus dem Dropdown-Menü können Sie ein neues Zitat hinzufügen oder ein Zitat importieren.
 
 1. Wählen Sie **Neues Zitat** aus, um ein neues Zitat hinzuzufügen.
-Das **Zitat hinzufügen** wird geöffnet.
+
+   Das **Zitat hinzufügen** wird geöffnet.
 
    ![Zitationsbereich im Web-Editor](images/citation-add.png) {width="300" align="left"}
 
@@ -66,10 +68,6 @@ Das **Zitat hinzufügen** wird geöffnet.
    | **Serie** <br>Fügen Sie die Serie des Buches hinzu. |  | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für das Zitat hinzu. Eine eindeutige ID ist eine eindeutige Kennung für dieses Zitat. |
    | **URL** <br> Fügen Sie den Weblink zum Buch hinzu. |
    | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für die Zitierung hinzu. Eine eindeutige ID ist eine eindeutige Kennung für dieses Zitat. |
-
-
-
-
 
 1. Wählen Sie **Fertig**.
 
@@ -97,8 +95,8 @@ Gehen Sie wie folgt vor, um Zitate zu importieren:
    Nachdem die Datei erfolgreich importiert wurde, können Sie die Verweise im Bereich „Zitate“ anzeigen.
 
    >[!NOTE]
-   > <ol><li> AEM Guides importiert nur die Zitate, die eindeutig und noch nicht vorhanden sind.
-    &gt; <li> AEM Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
+   > <ol><li> Experience Manager Guides importiert nur die Zitate, die eindeutig und noch nicht vorhanden sind.
+    &gt; <li> Experience Manager Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
 
 ## Zitate verwalten
 
@@ -127,7 +125,7 @@ Das **Zitate**-Bedienfeld wird geöffnet.
 
 ### Zitatstil ändern {#change-citation-style}
 
-Ihre bzw. Ihr Systemadmin kann den Stil der Zitate über das Dropdown **Zitate** auf der Registerkarte **Allgemeine Einstellungen** im **Editor-Einstellungen** ändern.
+Ihr Systemadministrator kann den Stil der Zitate über das Dropdown **Zitate** auf der Registerkarte **Allgemein** in den **Einstellungen** ändern.
 Diese Stile bestimmen, wie Zitate im Vorschaubereich oder in der nativen PDF-Ausgabe angezeigt werden.
 
 Die folgenden Optionen sind in der Dropdown-Liste verfügbar:
@@ -166,15 +164,15 @@ Sie können den Inhalt und das Format des Zitats im Vorschaubereich in der Vorsc
 
    >[!NOTE]
    >
-   >Die Vorschau basiert auf dem Zitatstil, den Ihr Administrator in den **Editor-Einstellungen“ ausgewählt**.
+   >Die Vorschau basiert auf dem Zitatstil, den Ihr Administrator in den **Einstellungen** ausgewählt hat.
 
-1. Klicken Sie auf eine beliebige Stelle auf dem Bildschirm, um das Vorschaufeld zu schließen.
+1. Wählen Sie eine beliebige Stelle auf dem Bildschirm aus, um das Vorschaufeld zu schließen.
 
    ![](images/citation-preview.png){width="550" align="left"}
 
 >[!NOTE]
 >
-> Sie können ein in ein Thema eingefügtes Zitat auch über die Assets-Benutzeroberfläche oder die Registerkarte Vorschau des Web-Editors in der Vorschau anzeigen.
+> Sie können ein in ein Thema eingefügtes Zitat auch über die Assets-Benutzeroberfläche oder die Registerkarte Vorschau des Editors in der Vorschau anzeigen.
 
 ## Zitate einfügen
 
@@ -193,7 +191,7 @@ Sie können Zitate zum Thema aus der Hauptsymbolleiste oder dem linken Bereich e
    ![Zitierdialogfeld](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Sie können Zitate filtern, indem Sie die ersten Buchstaben in das Suchfeld des Dialogfelds **Zitat** eingeben.
 
-1. Klicken Sie **Fertig**.
+1. Wählen Sie **Fertig** aus.
 Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
 
 
@@ -201,7 +199,7 @@ Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
 
 >[!NOTE]
 > 
->Um das Symbol **Zitate** im linken Bereich anzuzeigen, muss Ihr Systemadministrator die Option **Zitate** auf der Registerkarte **Bedienfelder** in **Editor-Einstellungen** auswählen.
+>Um das Symbol **Zitate** im linken Bereich anzuzeigen, muss Ihr Systemadministrator die Option **Zitate** auf der Registerkarte **Panels** in **Settings** aktivieren.
 
 1. Wählen Sie **Zitate** ![Zitationssymbol ](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
 1. Ziehen Sie das Zitat aus dem Bedienfeld **Zitate** und legen Sie es an der entsprechenden Position im Thema ab.
@@ -213,7 +211,7 @@ Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
 1. Wählen Sie die Zitate, die Sie einfügen möchten, im Dialogfeld **Zitat** aus.
 1. Wählen Sie **Fertig** aus, um sie zum Thema hinzuzufügen.
 
-Nachdem Sie Zitate in das Thema eingefügt haben, können Sie sie im Web-Editor in der Vorschau anzeigen. Sie können auch Inhalte mit Zitaten veröffentlichen, indem Sie natives PDF verwenden.
+Nachdem Sie Zitate in das Thema eingefügt haben, können Sie sie im Web-Editor in der Vorschau anzeigen. Sie können auch Inhalte mit Zitaten veröffentlichen, indem Sie die native PDF verwenden.
 
 
 
@@ -256,13 +254,12 @@ Platzieren Sie im Thema den Cursor am Ende des Zitats.
 
 Nachdem Sie Zitate in das Thema eingefügt haben, können Sie Inhalte mit Zitaten mithilfe von nativem PDF veröffentlichen.
 
-In der nativen PDF-Ausgabe werden die Zitate innerhalb des Inhalts angezeigt, in den Sie sie eingefügt haben. Sie können auch eine Bibliografie-Seite erstellen. Wenn Sie auf ein Zitat klicken, werden Sie zur Seite „Bibliografie“ weitergeleitet.
+In der nativen PDF-Ausgabe werden die Zitate innerhalb des Inhalts angezeigt, in den Sie sie eingefügt haben. Sie können auch eine Bibliografie-Seite erstellen. Wenn Sie ein Zitat auswählen, werden Sie zur Seite „Bibliografie“ weitergeleitet.
 
-Erstellen Sie ein **Zitate**-Seitenlayout in den PDF-Vorlagen und fügen Sie es in Ihr Dokument ein. Alle im Buch verwendeten Zitate werden auf einer Seite aufgelistet, die in der PDF-Ausgabe erscheint. Weitere Informationen zum Erstellen eines Seiten-Layouts finden Sie unter [Erstellen eines Seiten-Layouts](../native-pdf/components-pdf-template.md#create-page-layout).
+Erstellen Sie ein **Zitate**-Seitenlayout in den PDF-Vorlagen und schließen Sie es in Ihr Dokument ein. Alle im Buch verwendeten Zitate werden auf einer Seite aufgelistet, die in der PDF-Ausgabe angezeigt wird. Weitere Informationen zum Erstellen eines Seiten-Layouts finden Sie unter [Erstellen eines Seiten-Layouts](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
 Um die Ansicht und das Erscheinungsbild der Zitatseite zu ändern, rufen Sie [PDF-Vorlagen anpassen](../native-pdf/pdf-template.md) auf.
-
 
 
 ### Anwenden eines Inhaltsstils auf ein Zitat

@@ -1,70 +1,61 @@
 ---
-title: Web-Editor starten
-description: Erfahren Sie, wie Sie den Web-Editor über die AEM-Navigationsseite, die AEM Assets-Benutzeroberfläche und die DITA-Zuordnungskonsole in AEM Guides starten.
+title: Editor starten
+description: Erfahren Sie, wie Sie den Editor über die AEM-Navigationsseite, die AEM Assets-Benutzeroberfläche und die Zuordnungskonsole in Adobe Experience Manager Guides starten.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# Web-Editor starten {#id2056B0140HS}
+# Editor starten {#id2056B0140HS}
 
-Sie können den Web-Editor an den folgenden Stellen starten:
+Sie können den Editor an den folgenden Stellen starten:
 
-- [AEM-Navigationsseite](#id2056BG00RZJ)
-- [AEM Assets-Benutzeroberfläche](#id2056BG0307U)
-- [DITA Map-Konsole](#id2056BG090BF)
+- [Adobe Experience Manager-Navigationsseite](#adobe-experience-manager-navigation-page)
+- [Adobe Experience Manager Assets-Benutzeroberfläche](#adobe-experience-manager-assets-ui)
+- [Kartenkonsole](#map-console)
 
-In den folgenden Abschnitten werden die Details beschrieben, wie Sie von verschiedenen Stellen aus auf den Web-Editor zugreifen und ihn starten können.
+In den folgenden Abschnitten wird beschrieben, wie Sie den Editor von verschiedenen Speicherorten aus aufrufen und starten können.
 
-## AEM-Navigationsseite {#id2056BG00RZJ}
+## Adobe Experience Manager-Navigationsseite
 
-Wenn Sie sich bei AEM anmelden, wird die Navigationsseite angezeigt:
+Wenn Sie sich bei Experience Manager anmelden, wird die Navigationsseite angezeigt:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Durch Klicken auf **Link** Guides“ gelangen Sie direkt zum Web-Editor.
+Wenn Sie den Link **Guides** auswählen, gelangen Sie zur Startseite von [Adobe Experience Manager Guides](./intro-home-page.md).
+
+![](images/aem-home-page.png){width="800" align="left"}
+
+Um den Editor zu starten, navigieren Sie zur Navigationsleiste und wählen Sie dann **Editor** aus dem Dropdown-Menü aus. Die Startseite ist standardmäßig ausgewählt.
+
+![](images/editor-home-page-dropdown.png){width="350" align="left"}
+
+Da Sie den Editor gestartet haben, ohne eine Datei auszuwählen, wird ein leerer Editor-Bildschirm angezeigt. Sie können eine Datei zur Bearbeitung aus Experience Manager (**)** Ihren **Sammlungen** öffnen.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-Da Sie den Web-Editor gestartet haben, ohne eine Datei auszuwählen, wird ein leerer Web-Editor-Bildschirm angezeigt. Sie können eine Datei zur Bearbeitung aus dem AEM-Repository oder Ihrer Favoritensammlung öffnen.
-
-- Klicken Sie auf **Guides**-Symbol (![](images/aem-guides-icon.png) ), um zur AEM-Navigationsseite zurückzukehren.
-
-- Die Schaltfläche **Schließen** bringt Sie je nach Einrichtung zu einem Ziel:
+Alternativ können Sie den Editor auch starten, indem Sie die vorhandenen Dateien im Widget **Aktuelle Dateien** und **Sammlungen** des [Adobe Experience Manager Guides-](./intro-home-page.md) öffnen.
 
 
+Um zur Experience Manager-Navigationsseite zurückzukehren, klicken Sie auf das Adobe Experience Manager-Logo oben links in der Kopfzeile.
 
-  <details>
 
-  <summary> Cloud Services </summary>
+## Adobe Experience Manager Assets-Benutzeroberfläche
 
-  Wenn Sie Cloud Service verwenden, klicken Sie auf die Schaltfläche **Schließen**, um zur AEM-Navigationsseite zurückzukehren.
-  </details>
+Ein weiterer Speicherort, von dem aus Sie den Editor starten können, ist die Experience Manager Assets-Benutzeroberfläche. Sie können ein oder mehrere Themen auswählen und direkt im Editor öffnen.
 
-  <details>
-
-  <summary> On-Premise Software</summary>
-
-  Wenn Sie AEM Guides On-Premise-Software (4.2.1 und höher) verwenden, klicken Sie auf die Schaltfläche **Schließen** auf der rechten Seite, um zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche zurückzukehren.
-
-  </details>
-
-## AEM Assets-Benutzeroberfläche {#id2056BG0307U}
-
-Ein weiterer Speicherort, von dem aus Sie den Web-Editor starten können, ist die AEM Assets-Benutzeroberfläche. Sie können ein oder mehrere Themen auswählen und direkt im Web-Editor öffnen. Gehen Sie wie folgt vor, um ein Thema im Web-Editor zu öffnen:
+Gehen Sie wie folgt vor, um ein Thema im Editor zu öffnen:
 
 1. Navigieren Sie in der Assets-Benutzeroberfläche zu dem Thema, das Sie bearbeiten möchten.
 
    >[!NOTE]
    >
-   > Außerdem wird die UUID des Themas angezeigt.
-
-   .
+   > Sie können auch die UUID des Themas anzeigen.
 
    ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
 
@@ -72,56 +63,74 @@ Ein weiterer Speicherort, von dem aus Sie den Web-Editor starten können, ist di
    >
    > Stellen Sie sicher, dass Sie über Lese- und Schreibberechtigungen für den Ordner verfügen, der das zu bearbeitende Thema enthält.
 
-1. Um eine exklusive Sperre für das Thema zu erhalten, wählen Sie das Thema aus und klicken Sie auf **Auschecken**.
+1. Um eine exklusive Sperre für das Thema zu erhalten, wählen Sie das Thema aus und klicken Sie auf **Checkout**.
 
    >[!IMPORTANT]
    >
-   > Wenn Ihr Administrator die Option **Bearbeitung ohne Auschecken deaktivieren** konfiguriert hat, müssen Sie die Datei vor der Bearbeitung auschecken. Wenn Sie die Datei nicht auschecken, wird die Option Bearbeiten nicht angezeigt.
+   > Wenn Ihr Administrator die Option **Bearbeitung deaktivieren, ohne die Datei zu sperren** konfiguriert hat, müssen Sie die Datei vor der Bearbeitung auschecken. Wenn Sie die Datei nicht auschecken, können Sie die Option Bearbeiten nicht anzeigen.
 
-1. Schließen Sie den Asset-Auswahlmodus und klicken Sie auf das Thema, das Sie bearbeiten möchten.
+1. Schließen Sie den Asset-Auswahlmodus und wählen Sie das Thema aus, das Sie bearbeiten möchten.
 
    Die Vorschau des Themas wird angezeigt.
 
-   Sie können den Web-Editor in der Listenansicht, Kartenansicht und im Vorschaumodus öffnen.
+   Sie können den Editor in der Listenansicht, Kartenansicht und im Vorschaumodus öffnen.
 
    >[!IMPORTANT]
    >
-   > Wenn Sie mehrere Themen zur Bearbeitung öffnen möchten, wählen Sie die gewünschten Themen in der Asset-Benutzeroberfläche aus und klicken Sie auf Bearbeiten. Vergewissern Sie sich, dass in Ihrem Browser die Popup-Blocker nicht aktiviert sind, da ansonsten nur das erste Thema in der ausgewählten Liste zur Bearbeitung geöffnet wird.
+   > Wenn Sie mehrere Themen zur Bearbeitung öffnen möchten, wählen Sie die gewünschten Themen in der Asset-Benutzeroberfläche aus und klicken Sie auf **Bearbeiten**. Vergewissern Sie sich, dass in Ihrem Browser kein Popup-Blocker aktiviert ist, da ansonsten nur das erste Thema in der ausgewählten Liste zur Bearbeitung geöffnet wird.
 
    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
-   Wenn Sie ein Thema nicht in der Vorschau anzeigen und es direkt im Web-Editor öffnen möchten, klicken Sie in der Kartenansicht im Schnellaktionsmenü auf das Symbol Bearbeiten :
+   Wenn Sie ein Thema nicht in der Vorschau anzeigen und es direkt im Editor öffnen möchten, wählen Sie **Bearbeiten** im Schnellaktionsmenü in der Kartenansicht aus:
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Klicken Sie **Bearbeiten**, um das Thema im Web-Editor zu öffnen.
+   Das Thema wird im Editor geöffnet.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
+Sie können auch eine Zuordnungsdatei in der Assets-Benutzeroberfläche öffnen und den Editor starten, um die Themen in der Zuordnungsdatei zu bearbeiten.
 
-## DITA Map-Konsole {#id2056BG090BF}
+Gehen Sie wie folgt vor, um eine Zuordnung im Editor zu öffnen:
 
-Gehen Sie wie folgt vor, um den Web-Editor über die DITA-Zuordnungskonsole zu öffnen:
-
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu der DITA-Zuordnungsdatei, die das zu bearbeitende Thema enthält, und klicken Sie darauf.
-
-   Die DITA-Zuordnungskonsole wird angezeigt.
-
-1. Klicken Sie auf **Themen**.
-
-   Eine Liste von Themen in der Zuordnungsdatei wird angezeigt. Die UUID der Themen wird unter dem Thementitel angezeigt.
-
+1. Navigieren Sie in der Assets-Benutzeroberfläche zu und wählen Sie die Zuordnungsdatei aus, die das zu bearbeitende Thema enthält.
+1. Navigieren Sie in der DITA-Zuordnungskonsole zur Registerkarte **Themen** . Eine Liste von Themen in der Zuordnungsdatei wird angezeigt.
 1. Wählen Sie die Themendatei aus, die Sie bearbeiten möchten.
-
-1. Klicken Sie **Thema bearbeiten**.
+1. Wählen Sie **Thema bearbeiten** aus.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
-1. Das Thema wird im Web-Editor geöffnet.
+1. Das Thema wird im Editor geöffnet.
 
    >[!IMPORTANT]
    >
-   > Wenn Ihr Administrator die Option **Bearbeitung ohne Auschecken deaktivieren** konfiguriert hat, müssen Sie die Datei vor der Bearbeitung auschecken. Wenn Sie die Datei nicht auschecken, wird das Dokument im Editor im schreibgeschützten Modus geöffnet.
+   > Wenn Ihr Administrator die Option **Bearbeitung deaktivieren, ohne die Datei zu sperren** konfiguriert hat, müssen Sie die Datei vor der Bearbeitung auschecken. Wenn Sie die Datei nicht auschecken, wird das Dokument im Editor im schreibgeschützten Modus geöffnet.
+
+## Kartenkonsole
+
+Gehen Sie wie folgt vor, um den Editor über die Zuordnungskonsole zu öffnen:
+
+1. Öffnen Sie die Startseite und starten Sie die Kartenkonsole.
+
+   ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+
+   Da Sie die Zuordnungskonsole gestartet haben, ohne eine Zuordnungsdatei auszuwählen, wird ein leerer Bildschirm der Zuordnungskonsole angezeigt. Sie können auch eine Zuordnungsdatei aus Experience Manager (**)** Ihren **Sammlungen** öffnen.
+
+   ![](images/launch-map-console.png){width="500" align="left"}
+
+1. Wählen Sie **Karte auswählen**, um eine Zuordnungsdatei mit den Themen zu öffnen, die Sie im Editor bearbeiten möchten.
+1. Wählen Sie den Pfad aus, in dem sich Ihre Zuordnungsdatei befindet. Die ausgewählte Zuordnungsdatei wird der Zuordnungskonsole hinzugefügt.
+1. Navigieren Sie zur Zuordnungsdatei und wählen Sie **Im Editor öffnen** aus dem Dropdown-Menü aus.
+
+   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+
+   Die Zuordnungsdatei mit den Themen ist im Editor zur Bearbeitung geöffnet.
+
+   ![](images/map-console-edit-topics.png){width="800" align="left"}
 
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
+
+
+
+
+**Übergeordnetes Thema**: [Einführung in den Editor](web-editor.md)

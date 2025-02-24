@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die wichtigsten Funktionen in AEM Guides, D
 feature: Introduction
 role: User
 exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Mit dem integrierten Web-basierten Editor können Sie DITA-Themen, -Karten und D
 
 Sie können Dateien auch über die neuen Optionen in der AEM-Symbolleiste und im Web-Editor ein- und auschecken.
 
-Wenn Ihr Unternehmen eine spezielle Form von DITA verwendet, kann der Web-Editor angepasst werden, um spezielle DITA-Dokumente zu erstellen und zu bearbeiten. Weitere Informationen zur Verwendung der DITA-Spezialisierung finden Sie unter *Verwenden benutzerdefinierter DITA-OT- und DITA-Spezialisierungen* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+Wenn Ihr Unternehmen eine spezielle Form von DITA verwendet, kann der Web-Editor angepasst werden, um spezielle DITA-Dokumente zu erstellen und zu bearbeiten. Weitere Informationen zur Verwendung der DITA-Spezialisierung finden Sie unter *Verwenden benutzerdefinierter DITA-OT- und DITA-Spezialisierungen* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service .
 
 Der integrierte Editor unterstützt derzeit die folgenden DITA-Standards:
 
@@ -48,7 +48,7 @@ Adobe Experience Manager verfügt über integrierte Connectoren für führende �
 **Erstklassige Mehrkanal-Veröffentlichung von DITA-Inhalten**
 Optimieren Sie die Veröffentlichung von Unternehmens-Content mit einem nahtlosen One-Touch-Ansatz, der die Markteinführungszeit beschleunigt.
 
-Wenn die native DITA-Unterstützung zum Experience Manager hinzugefügt wurde, generieren Sie über DITA-OT eine Ausgabe für Experience Manager Sites, PDF, HTML5, EPUBS oder eine benutzerdefinierte Ausgabe. Sie können die vollständig konfigurierbare Ausgabe nutzen, um Endbenutzern hochgradig personalisierte, relevante und beeindruckende Inhaltserlebnisse bereitzustellen. Sie können auch einfach eine Batch-Erstellung durchführen oder Baseline verwenden, um eine bestimmte Version Ihrer Dokumentation zu veröffentlichen.
+Wenn die native DITA-Unterstützung zu Experience Manager hinzugefügt wurde, generieren Sie über DITA-OT eine Ausgabe für Experience Manager Sites, PDF, HTML5, EPUBS oder eine benutzerdefinierte Ausgabe. Sie können die vollständig konfigurierbare Ausgabe nutzen, um Endbenutzern hochgradig personalisierte, relevante und beeindruckende Inhaltserlebnisse bereitzustellen. Sie können auch einfach eine Batch-Erstellung durchführen oder Baseline verwenden, um eine bestimmte Version Ihrer Dokumentation zu veröffentlichen.
 
 **Umfassende Such- und Inhaltsverwendungsdaten**
 Schnellere Suche und Auswahl relevanter Inhalte und Maximierung des ROI aus Inhalten bei jeder Wiederverwendung. Führen Sie einfache und erweiterte Suchen mithilfe von Inhaltsattributen und Themenmetadaten im gesamten Repository über eine einfache Benutzeroberfläche im DITA-Authoring-Tool durch. Die Ergebnisse werden mit Daten zur Inhaltsnutzung getaggt, damit Sie den richtigen Inhalt für eine optimale Wiederverwendung leicht identifizieren und auswählen können.
@@ -62,9 +62,9 @@ Fördern Sie die tiefere Interaktion mit Endbenutzern und die Akzeptanz von Inha
 **Native Integration mit Adobe FrameMaker**
 Profitieren Sie von einem schnellen und nahtlosen Erlebnis bei der Arbeit mit Experience Manager und FrameMaker (Version 2015) Update 4 oder höher.
 
-Die enge Integration von Experience Manager und FrameMaker über einen integrierten Connector hilft Ihnen, nahtlos mit dem Experience Manager-Content-Repository zu arbeiten. Nutzen Sie den -Connector, um schnell mit dem Verfassen, Überprüfen und Suchen von DITA-Inhalten zu beginnen.
+Die enge Integration von Experience Manager und FrameMaker über einen integrierten Connector hilft Ihnen, nahtlos mit dem Experience Manager Content Repository zu arbeiten. Nutzen Sie den -Connector, um schnell mit dem Verfassen, Überprüfen und Suchen von DITA-Inhalten zu beginnen.
 
-Mit dem AEM-Connector in FrameMaker können Sie Ihre FrameMaker-Dateien verwalten. Mit dem AEM-Connector können Sie DITA und andere FrameMaker-Dokumente (.book und .fm) einfach auf AEM hochladen. Mit AEM Guides können Sie FrameMaker-Dokumente auch direkt über AEM veröffentlichen. Falls Ihre FrameMaker-Buchdatei eine Kombination aus DITA- und .fm-Dateien enthält, kann AEM Guides solche Dokumente ebenfalls veröffentlichen. Derzeit können Sie FrameMaker-Buch- und FM-Dateien in den Formaten PDF, HTML5 und EPUB veröffentlichen.
+Mit dem AEM-Connector in FrameMaker können Sie Ihre FrameMaker-Dateien verwalten. Mit dem AEM-Connector können Sie DITA und andere FrameMaker-Dokumente (.book und .fm) einfach auf AEM hochladen. Mit AEM Guides können Sie FrameMaker-Dokumente auch direkt in AEM veröffentlichen. Falls Ihre FrameMaker-Buchdatei eine Kombination aus DITA- und FM-Dateien enthält, kann AEM Guides solche Dokumente ebenfalls veröffentlichen. Derzeit können Sie FrameMakers .book- und .fm-Dateien in den Formaten PDF, HTML5 und EPUB veröffentlichen.
 
 ## Zusätzliche Ressourcen
 
@@ -75,4 +75,4 @@ Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guide
 * Schnellstartanleitung
 * [Hilfe* Archivierungsseite](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (Zugriff auf die Dokumentation zu älteren Versionen)
 
-**Übergeordnetes Thema:**[&#x200B;Über Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Übergeordnetes Thema:**[&#x200B;Über Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

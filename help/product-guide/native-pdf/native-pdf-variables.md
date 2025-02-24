@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 594248c42b14c960d858a2e0e6994aa9bb4acd4e
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 # Variablen in der PDF-Ausgabe
 
 Ein Variable ist ein Name-Wert-Paar von Daten, das als wiederverwendbare Information dient. Dadurch ist Ihr Inhalte portabel und einfach zu aktualisieren. Wenn Sie eine Variable oder ihren Wert ändern, wird jeder Vorkommen dieser Variable oder dieses Werts aktualisiert.
-
-
 
 ## Neue Variable erstellen
 
@@ -27,14 +25,13 @@ Führen Sie die folgenden Schritte aus, um eine Variable zu erstellen:
 *Erstellen von Variablen und Definieren von Werten dafür.*
 
 
-1. Wechseln Sie im Web-Editor zur Registerkarte **Ausgabe** .
-1. Wählen Sie **Variablen** <img alt= "Variablensymbol" src="./assets/variables-icon.svg" width="25"> im linken Bedienfeld.
+1. Navigieren Sie im Editor zum linken Bedienfeld und wählen Sie &quot;**&quot;** <img alt= "Variablensymbol" src="./assets/variables-icon.svg" width="25">. Diese Option ist im Abschnitt Mehr verfügbar.
 1. Wählen Sie **Bearbeiten** aus <img alt= "Stiftsymbol bearbeiten" src="./assets/edit_pencil_icon.svg" width="25"> Sie den Editor **Variablen** öffnen.
-Die Variablen sind alphabetisch geordnet.
+Die Variablen werden alphabetisch aufgelistet.
 1. Geben Sie den Namen Variable in die **Spalte &quot;Name** &quot; und seinen Wert in die **Spalte &quot;Wert** &quot; ein.
    >[!TIP]
    >
-   >Sie können einen beliebigen HTML Inhalte als Variable Wert verwenden, um den Variable Wert in einer bestimmten Formatierung anzuzeigen. Sie können dem Wert Variable z. B. eine `<b>` Tag hinzufügen, um den Wert **Experience Manager Leitfäden** fett gedruckt anzuzeigen. Sie können auch Bilder aus dem Repository als Werte hinzufügen.
+   >Sie können einen beliebigen HTML Inhalte als Variable Wert verwenden, um den Variable Wert in einer bestimmten Formatierung anzuzeigen. Sie können beispielsweise dem Variablenwert ein `<b>`-Tag hinzufügen, um den Wert **Experience Manager Guides** fett zu formatieren. Sie können auch Bilder aus dem Repository als Werte hinzufügen.
 
 1. Wählen Sie **Variable hinzufügen** <img alt= "Symbol hinzufügen" src="./assets/add-icon.svg" width="25"> eine neue Variable hinzugefügt werden. Sie können keine Variable mit demselben Namen wie eine vorhandene Variable erstellen. Ein Fehler wird angezeigt.
 
@@ -57,12 +54,12 @@ Sie haben zwei Möglichkeiten, um eine Variable zu bearbeiten:
 1. Wählen Sie eine Variable im **Variablen** aus.
 1. Bewegen Sie den Mauszeiger über die Variable, um das Menü **Optionen** anzuzeigen, und wählen Sie dann die Option **Bearbeiten** aus.
 1. Im Dialogfeld **Variable bearbeiten** können Sie den Standardwert der ausgewählten Variablen bearbeiten.
-1. Klicken Sie auf **Fertig**.
+1. Wählen Sie **Fertig**.
 
 **Aus dem Variablen-Editor**
 
 1. Wählen Sie **Variablen** <img alt= "Variablensymbol" src="./assets/variables-icon.svg" width="25"> im linken Bedienfeld.
-1. Wählen Sie **Bearbeiten** aus <img alt= "Stiftsymbol bearbeiten" src="./assets/edit_pencil_icon.svg" width="25"> , um die **Variablen** Bearbeiter zu öffnen.
+1. Wählen Sie **Bearbeiten** aus <img alt= "Stiftsymbol bearbeiten" src="./assets/edit_pencil_icon.svg" width="25"> Sie den Editor **Variablen** öffnen.
 
 1. **Im Variablen** Bearbeiter können Sie den Wert der ausgewählten Variable bearbeiten.
 
@@ -85,7 +82,7 @@ Die Vorschau der Variablen zeigt den Standardwert an. Wenn Sie beispielsweise de
 1. Wählen Sie eine Variable im **Variablen** aus.
 1. Bewegen Sie den Mauszeiger über die Variable, um das Menü **Optionen** anzuzeigen, und wählen Sie dann die Option **Vorschau** aus.
 
-![Variablenvorschau im Variablenbedienfeld](assets/variables-panel-preview-default.png){width="550" align="left"}
+   ![Variablenvorschau im Variablenbedienfeld](assets/variables-panel-preview-default.png){width="550" align="left"}
 
 *Vorschau des Standardwerts für eine Variable anzeigen.*
 
@@ -94,18 +91,15 @@ Die Vorschau der Variablen zeigt den Standardwert an. Wenn Sie beispielsweise de
 1. Bewegen Sie den Mauszeiger über die Variable in der Liste, um das Menü **Optionen** anzuzeigen.
 1. Wählen Sie **Vorschau**.
 
-
-
-
 ### Duplizieren einer Variablen
 
-Sie können eine Variable duplizieren und den Wert entsprechend Ihren Anforderungen ändern.
+Sie können eine Variable Duplikat und den Wert entsprechend Ihren Anforderungen ändern.
 
 
 1. Bewegen Sie den Mauszeiger über die Variable im Liste, um das **Menü &quot;Optionen** &quot; zu Ansicht.
 1. Wählen Sie **Duplizieren**.
 
-Der Standardname der Variablen lautet `<selected variable name>` (z. B. „sample„). Sie können den Namen Ihren Anforderungen entsprechend ändern.
+Der Standardname der Variable lautet `<selected variable name>` (liken &quot;sample&quot;). Sie können den Namen Ihren Anforderungen entsprechend ändern.
 
 ### Löschen einer Variablen
 
@@ -125,13 +119,11 @@ Die Variable wird aus allen Variablensätzen gelöscht.
 
 ## Variablensätze für die Ausgabevorgaben
 
-Adobe Experience Manager Guides unterstützt auch Variable-Sets, mit denen Sie Ihren Variablen alternative Werte zuweisen können. Ein Firma kann beispielsweise zwei Produkte, A und B, verkaufen. Für jeden von ihnen gibt es unterschiedliche Spezifikationen. Zu diesen Spezifikationen können beispielsweise der Produktname, die Versionsnummer und das Veröffentlichungsdatum gehören. Es kann noch andere Unterschiede im Branding geben. Wenn Sie Variable definieren, definieren Sie unterschiedliche Werte für Ihre Variablen. Beim Generieren der Ausgabe wählen Sie den entsprechenden Variablensatz aus und erzeugen die gewünschte Ausgabe.
+Adobe Experience Manager Guides unterstützt auch Variable-Sets, mit denen Sie Ihren Variablen alternative Werte zuweisen können. Ein Firma kann beispielsweise zwei Produkte, A und B, verkaufen. Für jeden von ihnen gibt es unterschiedliche Spezifikationen. Zu diesen Spezifikationen können beispielsweise der Produktname, die Versionsnummer und das Veröffentlichungsdatum gehören. Es kann weitere Unterschiede in Branding geben. Mit Variablensätzen definieren Sie unterschiedliche Werte für Ihre Variablen. Beim Generieren der Ausgabe wählen Sie den entsprechenden Variablensatz aus und erzeugen die gewünschte Ausgabe.
 
 ### Konfigurieren von Variablensätzen
 
 Sie müssen Variablensätze konfigurieren, bevor Sie Variablen zu ihnen hinzufügen.
-
-
 
 1. Wählen Sie **Einstellungen** aus <img alt= "Einstellungssymbol" src="./assets/settings-icon.svg" width="25"> Sie das Dialogfeld **Variablensätze konfigurieren** öffnen.
    ![Variablensatz konfigurieren](assets/configure-variable-set.png){width="550" align="left"}
@@ -164,7 +156,7 @@ Sie können beispielsweise die folgenden Werte für die Variablensätze festlege
 Jede neue Variable wird allen Variablensätzen hinzugefügt. Wenn Sie eine Variable löschen oder duplizieren, wird sie für alle Variablensätze aktualisiert.
 
 Sie können auch eine Vorschau der Werte für einen Variablensatz anzeigen.
-Für den Variablensatz *Adobe-Set1* haben Sie beispielsweise den Wert der Variable ProductName als „ProductA“ definiert. Anschließend wird dieser Wert im Variableneditor in der Vorschau angezeigt.
+Für den Variablensatz *Adobe-Set1* haben Sie beispielsweise den Wert der Variable ProductName als „ProductA“ definiert. Anschließend wird dieser Wert in der Vorschau im Variableneditor angezeigt.
 
 ![Variablenvorschau im Variablen-Editor](assets/variables-editor-preview.png){width="550" align="left"}
 
@@ -199,13 +191,13 @@ Um eine Variable wie Ihren ProductName in den Kopfzeilenbereich einzufügen, fü
 
    **In der Symbolleiste**
 
-   1. Wählen Sie **Variable/Felder einfügen** <img alt= "Variablensymbol" src="./assets/variables-icon.svg" width="25">.
+   1. Wählen Sie **Variable/Felder einfügen** <img alt= "Symbol &quot;Variable&quot;" src="./assets/variables-icon.svg" width="25">.
    1. Wählen **im Dialogfeld** Variable“ den Namen der Variablen aus, um sie in den Kopfzeilenbereich einzufügen.
    1. Sie können die Suchzeichenfolge auch in das Textfeld eingeben. Die Variablennamen, die die angegebene Zeichenfolge enthalten, werden gefiltert und in der Liste angezeigt. Die ausgewählte Variable wird in den Kopfzeilenbereich eingefügt. Sie können den Standardwert der Variablen anzeigen.
    1. Um eine Variable zu ersetzen, doppelklicken Sie auf den Variablenwert und wählen Sie im Dialogfeld **Variable** eine andere Variable aus. Die Variable wird ersetzt.
 
 
-## Erzeugen einer PDF-Ausgabe mit Variablen
+## Generieren einer PDF-Ausgabe mit Variablen
 
 Sie können die PDF-Ausgabe mit den Werten verschiedener Variablen generieren. Wählen Sie vor dem Generieren des Layouts einen Variablensatz aus der Dropdown **Liste „Variablensatz“ einer** aus, um dessen Werte auszuwählen.
 

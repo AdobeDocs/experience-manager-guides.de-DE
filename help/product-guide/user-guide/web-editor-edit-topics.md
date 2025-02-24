@@ -1,39 +1,39 @@
 ---
-title: Bearbeiten von Themen im Web-Editor
-description: Erfahren Sie, wie Sie Themen im Web-Editor bearbeiten. Erfahren Sie mehr über verschiedene Bearbeitungsfunktionen zum Ändern Ihrer Themendateien in AEM Guides.
+title: Bearbeiten von Themen im Editor
+description: Erfahren Sie, wie Sie Themen im Editor bearbeiten. Erfahren Sie mehr über verschiedene Bearbeitungsfunktionen zum Ändern Ihrer Themendateien in AEM Guides.
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 2a22aa0746602f7ecd6b3d6cf616a68d45309bdf
+source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# Bearbeiten von Themen im Web-Editor {#id2056B040VUI}
+# Bearbeiten von Themen im Editor {#id2056B040VUI}
 
-Der Web-Editor verfügt über eine Reihe von Bearbeitungsfunktionen, mit denen Sie mühelos Themendateien erstellen oder ändern können. Allgemein würden Sie die folgenden Schritte ausführen, um ein Thema im Web-Editor zu bearbeiten.
+Der Editor verfügt über eine Reihe von Bearbeitungsfunktionen, mit denen Sie mühelos Themendateien erstellen oder ändern können. Allgemein würden Sie die folgenden Schritte ausführen, um ein Thema im Editor zu bearbeiten.
 
 >[!IMPORTANT]
 >
-> Wenn während der Arbeit im Web-Editor ein Anwendungsfehler auftritt, aktualisieren Sie die Seite, um weiter zu arbeiten.
+> Wenn während der Arbeit am Editor ein Anwendungsfehler auftritt, aktualisieren Sie die Seite, um weiter zu arbeiten.
 
 1. Um Änderungen an Ihrem Thema vorzunehmen, klicken Sie in den Textbereich des erforderlichen Elements und nehmen Sie Änderungen vor.
 
-1. Um ein bestimmtes Element einzufügen, klicken Sie auf das Ende des Elements, nach dem Sie das neue Element einfügen möchten, und klicken Sie auf das Symbol Erforderliches Element in der Symbolleiste. Sie können auch den Tastaturbefehl `Alt+Enter` verwenden, um das Popup **Element einfügen** aufzurufen.
+1. Um ein bestimmtes Element einzufügen, bewegen Sie den Cursor an das Ende des Elements, nach dem Sie das neue Element einfügen möchten, und wählen Sie das gewünschte Element in der Symbolleiste aus. Sie können auch den Tastaturbefehl `Alt+1` verwenden, um das Popup **Element einfügen** aufzurufen.
 
-   Es wird eine Liste der Elemente angezeigt, die im Thema verwendet werden können. AEM Guides platziert Elemente intelligent entsprechend ihrer gültigen Position im Thema.
+   Es wird eine Liste der Elemente angezeigt, die im Thema verwendet werden können. Experience Manager Guides platziert Elemente intelligent entsprechend ihrer gültigen Position im Thema.
 
    >[!NOTE]
    >
    > Sie können auch auswählen, welches Symbol in der Symbolleiste angezeigt werden soll, indem Sie die `ui_config.json` unter - `/etc/designs/fmdita/clientlibs/xmleditor/` konfigurieren. Weitere Informationen zum Anpassen von Funktionen erhalten Sie von Ihrem Systemadministrator.
 
-1. Nachdem Sie das Dokument bearbeitet haben, klicken Sie auf **Speichern**.
+1. Nachdem Sie die Bearbeitung des Dokuments abgeschlossen haben, klicken Sie auf **Alle speichern**.
 
    >[!NOTE]
    >
-   > Wenn Sie die Änderungen nicht in das AEM-Repository übernehmen möchten, klicken Sie auf **Schließen** und anschließend auf **Ohne Speichern schließen** im Dialogfeld Nicht gespeicherte Änderungen.
+   > Wenn Sie keine Änderungen in das Adobe Experience Manager-Repository übernehmen möchten, wählen Sie **Schließen** und dann **Ohne Speichern schließen** im Dialogfeld Nicht gespeicherte Änderungen aus.
 
 
 ## Teilweise Auswahl von Inhalten über Elemente hinweg
@@ -47,19 +47,20 @@ Wenn Sie den ausgewählten Inhalt löschen, wird der verbleibende Inhalt nach de
 - Den Inhalt mit einem gültigen Element umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element einzuschließen:
 
    - Wählen Sie den Inhalt in einem Element aus.
-   - Wählen Sie ![ Symbol ](images/Add_icon.svg)Hinzufügen“ in der sekundären Symbolleiste oben aus, um das Dialogfeld **Umschließen mit Element** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
+   - Wählen Sie ![ oben in der Symbolleiste das Symbol ](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
      >[!NOTE]
      >
-     > Sie können das Dialogfeld Umschließen mit Element auch anzeigen, indem Sie auf das Kontextmenü des ausgewählten Inhalts klicken.
+     > Sie können das Dialogfeld Element einfügen auch anzeigen, indem Sie auf das Kontextmenü des ausgewählten Inhalts klicken.
 
-   - Wählen Sie ein Element im Dialogfeld aus. Der ausgewählte Inhalt wird unter diesem Element umschlossen. Wenn Sie beispielsweise den Inhalt in einem Absatz auswählen und dann das `<note>` Element im Dialogfeld **Mit Element umgeben** auswählen, wird der ausgewählte Inhalt unter einer Anmerkung angezeigt.\
-     ![Dialogfeld „Element umschließen](./images/surround-element.png) {width="300" align="left"}
+   - Wählen Sie ein Element im Dialogfeld aus. Der ausgewählte Inhalt wird unter diesem Element umschlossen. Wenn Sie beispielsweise den Inhalt in einem Absatz auswählen und dann das `<note>` Element im Dialogfeld **Element einfügen** auswählen, wird der ausgewählte Inhalt unter einer Anmerkung angezeigt.
+
+     ![Dialogfeld Element einfügen](./images/insert-element-editor.png) {width="300" align="left"}
 
 ## Browser beim Bearbeiten der Dateien aktualisieren
 
-Experience Manager Guides bietet Unterstützung zum Aktualisieren des Browsers, während Sie Ihre Inhalte im Web-Editor bearbeiten. Mit dieser Funktion können Sie Inhalte weiter bearbeiten, falls während der Arbeit ein Anwendungsfehler auftritt. Wenn Sie auf die Browser-Aktualisierung klicken, während eine oder mehrere Dateien mit nicht gespeicherten Änderungen zur Bearbeitung geöffnet werden, werden Sie gewarnt, dass die nicht gespeicherten Änderungen verloren gehen können. Sie haben die Möglichkeit, den Aktualisierungsvorgang abzubrechen und Ihre Dateien zu speichern, um Ihre Änderungen beizubehalten.
+Experience Manager Guides bietet Unterstützung zum Aktualisieren des Browsers, während Sie Ihre Inhalte im Editor bearbeiten. Mit dieser Funktion können Sie Inhalte weiter bearbeiten, falls während der Arbeit ein Anwendungsfehler auftritt. Wenn Sie auf die Browser-Aktualisierung klicken, während eine oder mehrere Dateien mit nicht gespeicherten Änderungen zur Bearbeitung geöffnet werden, werden Sie gewarnt, dass die nicht gespeicherten Änderungen verloren gehen können. Sie haben die Möglichkeit, den Aktualisierungsvorgang abzubrechen und Ihre Dateien zu speichern, um Ihre Änderungen beizubehalten.
 
-Selbst beim Aktualisieren des Browsers werden die Ansichten des linken und rechten Bedienfelds im Web-Editor beibehalten. Experience Manager Guides stellt den letzten gespeicherten Status der im Web-Editor geöffneten Dateien wieder her, wenn Sie den Browser aktualisieren. Beispielsweise werden die im Repository-Bereich geöffneten Dateien erneut geöffnet. Das Kartenbedienfeld wird zusammen mit der zuvor geöffneten Karte beibehalten.
+Selbst nach Aktualisierung des Browsers werden die Ansichten des linken und rechten Bedienfelds im Editor beibehalten. Experience Manager Guides stellt den letzten gespeicherten Status der im Editor geöffneten Dateien wieder her, wenn Sie den Browser aktualisieren. Beispielsweise werden die im Repository-Bereich geöffneten Dateien erneut geöffnet. Das Kartenbedienfeld wird zusammen mit der zuvor geöffneten Karte beibehalten.
 
 Das aktive Thema oder die DITA-Karte wird im Inhaltsbearbeitungsbereich erneut geöffnet.
 
@@ -67,42 +68,50 @@ Das rechte Bedienfeld wird ebenfalls wieder geöffnet und zeigt dieselbe Ansicht
 
 ## Arbeitskopie-Anzeige
 
-AEM Guides stellt die Arbeitskopie-Anzeige bereit, die anzeigt, ob die aktuelle \(Arbeitskopie\) der Datei mit der gespeicherten Version synchronisiert ist oder nicht. Wenn Sie Änderungen an Ihrer aktuellen Kopie vorgenommen und Ihre Datei nicht gespeichert haben, wird auf der Registerkarte Datei des Themas ein \*-Zeichen zusammen mit dem Titel angezeigt. Diese Anzeige dient als Erinnerung zum Speichern Ihrer Änderungen und verschwindet, wenn Sie Ihre Datei speichern.
+Experience Manager Guides stellt die Arbeitskopie-Anzeige bereit, die anzeigt, ob die aktuelle \(Arbeitskopie\) der Datei mit der gespeicherten Version synchronisiert ist oder nicht. Wenn Sie Änderungen an Ihrer aktuellen Kopie vorgenommen und Ihre Datei nicht gespeichert haben, wird auf der Registerkarte Datei des Themas ein \*-Zeichen zusammen mit dem Titel angezeigt. Diese Anzeige dient als Erinnerung zum Speichern Ihrer Änderungen und verschwindet, wenn Sie Ihre Datei speichern.
 
 ![Arbeitskopie-Anzeige](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-AEM Guides gibt auch an, ob die zuletzt gespeicherte \(Working\)-Kopie der Datei mit der gespeicherten Version synchronisiert ist. Wenn Sie einige nicht gespeicherte Änderungen zwischen der Arbeitskopie und der zuletzt gespeicherten Version haben, wird ein \*-Zeichen zusammen mit den Versionsinformationen angezeigt, die in der rechten oberen Ecke der Registerkarte Datei des Themas angezeigt werden. Dieser Indikator dient als Erinnerung daran, eine Version aus Ihrer aktuellen \(Working\) Kopie der Datei zu speichern und zu erstellen.
+Experience Manager Guides gibt auch an, ob die zuletzt gespeicherte \(Working\)-Kopie der Datei mit der gespeicherten Version synchronisiert ist. Wenn Sie einige nicht gespeicherte Änderungen zwischen der Arbeitskopie und der zuletzt gespeicherten Version haben, wird ein \*-Zeichen zusammen mit den Versionsinformationen angezeigt, die in der rechten oberen Ecke der Registerkarte Datei des Themas angezeigt werden. Dieser Indikator dient als Erinnerung daran, eine Version aus Ihrer aktuellen \(Working\) Kopie der Datei zu speichern und zu erstellen.
 
 ![Versionsaktualisierungsanzeige](images/version-update-indicator.png){width="550" align="left"}
 
 
-## Öffnen gesperrter Dateien im Authoring- und Source-Modus
+## Zugriff auf gesperrte Dateien im Authoring- und Source-Modus
 
 Wenn eine DITA- oder Markdown-Datei von einem anderen Benutzer gesperrt oder ausgecheckt wird, ist das Bearbeiten oder Ändern des Inhalts nicht möglich. Sie können die Datei jedoch zusätzlich zum Vorschaumodus weiterhin im schreibgeschützten Format sowohl im **Author**- als auch **2** Source **-Modus anzeigen.**
 
 Im schreibgeschützten Modus können Sie den Inhalt, die Tags und die Attribute innerhalb des **author** oder **Source** Modus anzeigen. Sie können auch die Dateieigenschaften ändern.
 
-In der Symbolleiste werden die folgenden Symbole für schreibgeschützten Zugriff angezeigt:
+>[!NOTE]
+>
+> Als Administrator erhalten Sie Zugriff auf die Funktion **Entsperren erzwingen** mit der Sie eine Datei entsperren können, die von einer anderen Person gesperrt wurde.
 
-- Tag-Ansicht umschalten
-- Versionsverlauf
-- Versions-Label
+<!-- This is no more available -->
+<!--
+The toolbar displays the following icons for read-only access:
 
-Experience Manager Guides zeigt auch eine **Schreibgeschützter Zugriff** in der Nähe der Versionsnummer an.
+- Toggle Tags view
+- Version History
+- Version Label
 
-![Schreibgeschützte Datei im Autorenmodus anzeigen](images/locked-file-editor.png)
+Experience Manager Guides also displays a **Read only access** indicator near the version number.
+ 
+![view read only file in author mode](images/locked-file-editor.png)
 
-Sie können auf die **Layout**-Ansicht für schreibgeschützte DITA-Zuordnungen zugreifen. In dieser Ansicht werden die DITA-Karte und ihre Eigenschaften angezeigt, Änderungen werden jedoch verhindert.
+You can access the **Layout** view for read-only DITA maps. This view lets you see the DITA map and its properties but prevents edits.
 
 >[!NOTE]
 >
-> Administrierende Benutzer bzw. Benutzerinnen auf Ordnerebene müssen *ui_config.json* aktualisieren, damit sie im Autoren-, Source- und Layout-Modus harmonisch auf die schreibgeschützten Dateien zugreifen können.
+> Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the  Author, Source, and Layout modes.
+
+ -->
 
 ## Suchen einer geöffneten Datei in der Repository-Ansicht
 
-Beim Öffnen einer Datei im Web-Editor bietet Experience Manager Guides die Funktion zum Suchen der Datei in der Repository-Ansicht. Sie findet beispielsweise das aktuelle Thema, während Sie es bearbeiten.
+Beim Öffnen einer Datei im Editor bietet Experience Manager Guides die Funktion zum Suchen der Datei in der Repository-Ansicht. Sie findet beispielsweise das aktuelle Thema, während Sie es bearbeiten.
 
 Sie können die Funktion zum Suchen der Datei mit der Option **Dateien immer im Repository suchen** auf der Registerkarte **Erscheinungsbild** der **Benutzereinstellungen** deaktivieren.
 
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Editor](web-editor.md)

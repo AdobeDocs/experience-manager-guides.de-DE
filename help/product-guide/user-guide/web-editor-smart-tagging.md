@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Smart-Tags in AEM Guides hinzufügen. Extrahi
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > Die Smart-Tagging-Funktion ist nicht standardmäßig verfügbar und erfordert eine benutzerdefinierte Implementierung. Dazu müssen Sie sich an Ihren Systemadministrator wenden.
 
-AEM Guides verfügt über die Funktion zum Hinzufügen von Smart-Tags. Sie können das Tool zum Extrahieren von XML-Keywords verwenden, um Smart-Tags zu extrahieren. Dieses Tool nutzt künstliche Intelligenz, um den Inhalt zu verstehen und relevante Keywords bereitzustellen. Sie können Smart-Tags verwenden, um die Suchmaschinenoptimierung (SEO) zu verbessern und Benutzern dabei zu helfen, Ihre verwandten Inhalte zu finden.
+Adobe Experience Manager Guides verfügt über die Funktion zum Hinzufügen von Smart-Tags. Sie können das Tool zum Extrahieren von XML-Keywords verwenden, um Smart-Tags zu extrahieren. Dieses Tool nutzt künstliche Intelligenz, um den Inhalt zu verstehen und relevante Keywords bereitzustellen. Sie können Smart-Tags verwenden, um die Suchmaschinenoptimierung (SEO) zu verbessern und Benutzern dabei zu helfen, Ihre verwandten Inhalte zu finden.
 
 Führen Sie die folgenden Schritte aus, um Smart-Tags zu erstellen:
 

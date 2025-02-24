@@ -1,13 +1,13 @@
 ---
-title: Native PDF Publish-Funktion | Komponenten einer PDF-Vorlage
+title: Native PDF-Veröffentlichungsfunktion | Komponenten einer PDF-Vorlage
 description: Lernen Sie die verschiedenen Komponenten einer PDF-Vorlage kennen und erfahren Sie, wie Sie sie anpassen und konfigurieren können.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
 workflow-type: tm+mt
-source-wordcount: '4975'
+source-wordcount: '4716'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Eine PDF-Vorlage besteht aus vier Komponenten: Seitenlayouts, Stylesheets, Resso
 
 ## Seiten-Layouts erstellen und anpassen {#create-customize-page-layout}
 
-Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur einer Seite entwerfen, indem Sie die Kopfzeile, die Fußzeile und den Inhaltsbereich auf einer Seite definieren. Mit dem Seitenlayouteditor von WYSIWYG können Sie ein Seitenlayout für verschiedene Abschnitte in einer PDF erstellen, z. B. für die vorderen und hinteren Titelseiten, Kapitel, Tabelle von
-Inhalte (Inhaltsverzeichnis), Index, leere Seite, Themenvorderseiten, rückwärtige Seiten, Abbildungsverzeichnis (LOF), Tabellenverzeichnis (LOT), Glossar oder Erstellen eines Layouts für eine benutzerdefinierte Seite. In den PDF-Vorlageneinstellungen können Sie ein Seitenlayout mit verschiedenen Bereichen innerhalb einer PDF zuweisen, die dann zur Generierung der PDF-Ausgabe verwendet werden.
+Mit den Einstellungen in der Komponente Seitenlayouts können Sie die Struktur einer Seite entwerfen, indem Sie die Kopfzeile, die Fußzeile und den Inhaltsbereich auf einer Seite definieren. Mit dem Seitenlayout-Editor von WYSIWYG können Sie ein Seitenlayout für verschiedene Abschnitte in einer PDF erstellen, z. B. für die Titelseiten vorne und hinten, für Kapitel oder für Tabellen
+Inhalte (Inhaltsverzeichnis), Index, leere Seite, Themenvorderseiten, rückwärtige Seiten, Abbildungsverzeichnis (LOF), Tabellenverzeichnis (LOT), Glossar oder Erstellen eines Layouts für eine benutzerdefinierte Seite. In den PDF-Vorlageneinstellungen können Sie ein Seiten-Layout mit verschiedenen Abschnitten in einer PDF zuweisen, die dann zum Generieren der PDF-Ausgabe verwendet werden.
 
 ### Erstellen eines neuen Seiten-Layouts {#create-page-layout}
 
@@ -94,7 +94,6 @@ Mit den Einstellungen in der Stylesheets-Komponente können Sie die Seitenlayout
 Während CSS-Dateien für Inhalt und Layout bereitgestellt werden, können Sie ein neues Stylesheet erstellen, um mehrere Anpassungen auf einen bestimmten Stiltyp anzuwenden, die dann auf eine Zielkomponente angewendet werden können. Standardmäßig werden CSS-Beispieldateien im Produkt gebündelt. Diese CSS-Dateien sollen Ihnen dabei helfen, Ihre Formatierungsinformationen in allen Inhalten und Layouts zu organisieren. Sie können diese Stile in einer oder mehreren CSS-Dateien zusammenführen.
 
 Wenn Sie ein neues Seiten-Layout erstellen, wird die `layout.css` standardmäßig in das neue Seiten-Layout eingeschlossen. Wenn Sie möchten, dass das Seitenlayout Stile aus einer anderen CSS-Datei enthält, können Sie die gewünschte CSS-Datei einfach per Drag-and-Drop in den Inhaltsbearbeitungsbereich des neuen Seitenlayouts ziehen. Um zu überprüfen, ob die CSS-Datei in das Seiten-Layout eingebettet wurde, wechseln Sie zur Source-Ansicht und Sie finden im `<head>` einen Link zur CSS-Datei.
-
 
 Gehen Sie wie folgt vor, um ein Stylesheet zu erstellen:
 1. Führen **im Bedienfeld** Vorlagen“ eine der folgenden Aktionen aus:
@@ -196,8 +195,12 @@ Die ausgewählte Datei wird importiert und im Ordner Ressourcen aufgeführt.
 
 ## Erweiterte PDF-Einstellungen {#advanced-pdf-settings}
 
-Verwenden Sie den Abschnitt Einstellungen , um die erweiterten Einstellungen für das PDF-Seiten-Layout zu konfigurieren, beginnend mit dem PDF von ungeraden oder geraden Seitenformaten für die Querverweise und zum Aktivieren von Druckmarken auf der endgültigen PDF, die generiert wird
+Verwenden Sie den Abschnitt Einstellungen , um die erweiterten Einstellungen für das Seiten-Layout von PDF zu konfigurieren, beginnend mit PDF bei ungeraden oder geraden Seitenformaten für die Querverweise, und um die Druckmarken in der endgültigen PDF zu aktivieren, die generiert wurde
 mithilfe der Vorlage.
+
+>
+>
+> Ab Experience Manager Guides Version 5.0/2025.02.0 wurde der Abschnitt **Drucken** in den erweiterten PDF-Einstellungen in das Bedienfeld **Ausgabevorgaben** verschoben. Um die Druckeinstellungen zu konfigurieren, zeigen Sie [PDF-Ausgabe veröffentlichen](../web-editor/native-pdf-web-editor.md#print) an.
 
 Klicken Sie zum Konfigurieren **Bereich** Vorlagen **, um** folgenden Optionen anzuzeigen:
 
@@ -205,24 +208,24 @@ Klicken Sie zum Konfigurieren **Bereich** Vorlagen **, um** folgenden Optionen a
 
 Legen Sie die grundlegenden Konfigurationseinstellungen für den Start eines Kapitels von einer ungeraden oder geraden Seite sowie die Inhaltsverzeichnisstruktur fest und definieren Sie das Format der Führungslinie für die Inhaltsverzeichniseinträge. Sie können die folgenden Einstellungen definieren:
 
-* **Beginnen Sie jedes neue Kapitel ab**: Hiermit können Sie festlegen, wie jedes Kapitel auf der endgültigen PDF veröffentlicht wird. Sie können zwischen den Optionen **Neue Seite**, **Ungerade Seite**, **Gerade Seite** oder **Aktuelle Seite** wählen. Wenn Sie ein neues Kapitel auf einer ungeraden Seite beginnen möchten, wird nach einem Kapitel, das auf einer ungeraden Seite endet, eine leere Seite eingefügt. Wenn Ihr Kapitel beispielsweise mit der Seitenzahl 15 endet, fügt der Veröffentlichungsprozess eine leere 16. <sup>. </sup> ein, damit das neue Kapitel mit der 17. <sup>. </sup> beginnen kann.  Wenn Sie die Option **Aktuelle Seite** wählen, werden alle Kapitel in Fortsetzung ohne Seitenumbrüche veröffentlicht. Wenn beispielsweise ein Kapitel in der Mitte von Seite 15 endet, wird das nächste Kapitel ebenfalls von der 15. Seite selbst gestartet.
+* **Beginn jedes neuen Kapitels ab**: Hiermit können Sie festlegen, wie die einzelnen Kapitel im endgültigen PDF veröffentlicht werden. Sie können zwischen den Optionen **Neue Seite**, **Ungerade Seite**, **Gerade Seite** oder **Aktuelle Seite** wählen. Wenn Sie ein neues Kapitel auf einer ungeraden Seite beginnen möchten, wird nach einem Kapitel, das auf einer ungeraden Seite endet, eine leere Seite eingefügt. Wenn Ihr Kapitel beispielsweise mit der Seitenzahl 15 endet, fügt der Veröffentlichungsprozess eine leere 16. <sup>. </sup> ein, damit das neue Kapitel mit der 17. <sup>. </sup> beginnen kann.  Wenn Sie die Option **Aktuelle Seite** wählen, werden alle Kapitel in Fortsetzung ohne Seitenumbrüche veröffentlicht. Wenn beispielsweise ein Kapitel in der Mitte von Seite 15 endet, wird das nächste Kapitel ebenfalls von der 15. Seite selbst gestartet.
 
 * **Beginnen Sie jedes Thema von einer neuen Seite**: Wenn Sie möchten, dass jedes Thema in Ihrem Kapitel von einer neuen Seite beginnt, wählen Sie **Option „Jedes Thema von einer neuen Seite**. Wenn Sie Ihre Themen ohne Seitenlücken im weiteren Verlauf behalten möchten, deaktivieren Sie diese Option.
 
 * **Inhaltsstruktur**: Ermöglicht die Anpassung der Hierarchie des Inhaltsverzeichnisses. Es werden die folgenden zusätzlichen Einstellungen verwendet:
 
-   * **Überschriften bis zur Ebene verwenden**: Damit können Sie die Anzahl der Überschriftenebenen anpassen, die in der Inhaltsverzeichnisstruktur Ihres PDF angezeigt werden sollen.
+   * **Überschriften bis zur Ebene verwenden**: Damit können Sie die Anzahl der Überschriftenebenen anpassen, die in der Inhaltsverzeichnisstruktur Ihrer PDF angezeigt werden sollen.
    * **Seitenzahl für die erste Ebene im Inhaltsverzeichnis nicht anzeigen**: Wählen Sie diese Option, um die entsprechenden Seitenzahlen für alle Kapitel auszublenden, die verschachtelte oder untergeordnete Themen enthalten. Betrachten Sie das folgende Beispiel, bei dem eine Ausgabe erstellt wird, ohne diese Option auszuwählen.
 
   <img src="assets/page-number-in-toc.png" alt="Hochladen von Assets" width="250">
 
-  Im obigen Beispiel sind die erweiterten PDF-Einstellungen, der Anhang und die Rechtliche Ebene die ersten Themenüberschriften oder Kapiteltitel. Allen Überschriften wird eine Seitennummer zugewiesen.
+  Im obigen Beispiel sind die erweiterten PDF-Einstellungen, der Anhang und die Rechtstexte die Überschriften oder Kapiteltitel der ersten Ebene. Allen Überschriften wird eine Seitennummer zugewiesen.
 
   Wenn Sie jetzt diese Option auswählen und die Ausgabe generieren, erhalten Sie das folgende Inhaltsverzeichnis:
 
   <img src="assets/page-number-missing-in-toc.png" alt="Hochladen von Assets" width="250">
 
-  Hier können Sie sehen, dass das erste Kapitel Erweiterte PDF-Einstellungen keine Seitennummer hat, da es verschachtelte oder untergeordnete Themen hat. Eine Seitennummer wird hingegen Anhang und Legal zugewiesen, da es sich um eigenständige Themen ohne untergeordnetes Thema handelt.
+  Hier können Sie feststellen, dass das erste Kapitel „Erweiterte PDF-Einstellungen“ keine Seitenzahl erhält, da es verschachtelte oder untergeordnete Themen enthält. Eine Seitennummer wird hingegen Anhang und Legal zugewiesen, da es sich um eigenständige Themen ohne untergeordnetes Thema handelt.
 
 * **Kapitelnummer nicht im Inhaltsverzeichnis anzeigen** : Wählen Sie diese Option, um die Kapitelnamen ohne die Kapitelnummern im Inhaltsverzeichnis anzuzeigen.   Standardmäßig werden die Kapitelnummern im Inhaltsverzeichnis der PDF-Ausgabe angezeigt.
 * **Führungslinienformat**: Verwenden Sie die Dropdown-Liste, um gepunktete, durchgezogene oder Leerraum-Führungslinien auszuwählen und Überschriftenebenen mit den entsprechenden Seitenzahlen zu verbinden.
@@ -258,7 +261,7 @@ Die folgenden Einstellungen sind im Abschnitt Seiten-Layout verfügbar:
 <img src="assets/template-page-layout.png" alt="Seiten-Layouts" width="550">
 
 
-**Standardseitenlayout**: Wählen Sie ein Seitenlayout aus, das als Standardlayout für alle Seiten auf Ihrem PDF fungiert. Dies ist das Basisseiten-Layout, das auf die Abschnitte oder Themen angewendet wird, für die Sie kein eigenes Seiten-Layout erstellt haben.
+**Standardseitenlayout**: Wählen Sie ein Seitenlayout aus, das als Standardlayout für alle Seiten in Ihrer PDF dient. Dies ist das Basisseiten-Layout, das auf die Abschnitte oder Themen angewendet wird, für die Sie kein eigenes Seiten-Layout erstellt haben.
 
 **Seitenlayout für verschiedene Abschnitte**: Sie können ein Seitenlayout den folgenden Abschnitten Ihrer PDF-Ausgabe zuordnen. Wenn Sie ein Seiten-Layout für den entsprechenden Abschnitt entworfen haben, wählen Sie diesen aus der Dropdown-Liste aus. Wenn für bestimmte Abschnitte keine Seiten-Layouts erstellt wurden, wird das Standard-Seiten-Layout angewendet.
 
@@ -296,7 +299,7 @@ Weitere Informationen zu Seiten-Layouts finden Sie unter [Erstellen eines Seiten
 
 ### Seitenlayoutreihenfolge {#page-order}
 
-Sie können die folgenden Abschnitte auf Ihrem PDF ein- oder ausblenden und auch die Reihenfolge festlegen, in der sie in der endgültigen PDF-Ausgabe angezeigt werden sollen:
+Sie können die folgenden Abschnitte in Ihrer PDF ein- oder ausblenden und auch die Reihenfolge festlegen, in der sie in der endgültigen PDF-Ausgabe angezeigt werden sollen:
 
 
 
@@ -310,9 +313,9 @@ Sie können die folgenden Abschnitte auf Ihrem PDF ein- oder ausblenden und auch
 
   <img src="assets/page-order-advance-settings.png" alt="Seitenlayoutreihenfolge" width="550">
 
-  Wenn Sie einen bestimmten Abschnitt in Ihrer PDF-Ausgabe nicht anzeigen möchten, können Sie dies ausblenden, indem Sie den Umschalter ausschalten.
+  Wenn Sie einen bestimmten Abschnitt in Ihrer PDF-Ausgabe nicht anzeigen möchten, können Sie dies ausblenden, indem Sie den Umschalter deaktivieren.
 
-  Sie können auch die Reihenfolge festlegen, in der diese verschiedenen Abschnitte in Ihrem PDF generiert werden. Um die Standardreihenfolge dieser Abschnitte zu ändern, wählen Sie die gepunkteten Balken aus, um die Abschnitte per Drag-and-Drop an die gewünschte Position zu ziehen.
+  Sie können auch die Reihenfolge festlegen, in der diese verschiedenen Abschnitte in Ihrer PDF generiert werden. Um die Standardreihenfolge dieser Abschnitte zu ändern, wählen Sie die gepunkteten Balken aus, um die Abschnitte per Drag-and-Drop an die gewünschte Position zu ziehen.
 
   >[!NOTE]
   >
@@ -358,13 +361,13 @@ Sie können auch die folgenden Aktionen ausführen:
 
 * Sie können ein benutzerdefiniertes Layout auch mehrmals hinzufügen und sortieren. Auf diese Weise können Sie den statischen Inhalt entsprechend veröffentlichen.
 
-  Beispielsweise können Sie ein benutzerdefiniertes Layout verwenden, um eine statische Warnung mehrmals in der PDF-Ausgabe zu veröffentlichen.
+  Sie können beispielsweise ein benutzerdefiniertes Layout verwenden, um eine statische Warnung mehrmals in der PDF-Ausgabe zu veröffentlichen.
 
 
 
 ### Seitenorganisation
 
-Die Seiten in einem PDF-Dokument werden normalerweise entsprechend dem Inhalt veröffentlicht, der in der DITA-Map- oder Bookmap-Datei organisiert ist. Sie können jedoch auch die Reihenfolge der Seiten im Dokument PDF ändern. Sie können beispielsweise ein mehrseitiges Dokument als Broschüre drucken. Wenn Sie die Blätter zusammenstellen, falten und heften, ist das Ergebnis ein einzelnes Buch mit der richtigen Seitenreihenfolge.  Sie können die veröffentlichte Broschüre dann wie ein Buch lesen.
+Die Seiten in einem PDF-Dokument werden normalerweise entsprechend dem Inhalt veröffentlicht, der in der DITA-Map- oder Bookmap-Datei organisiert ist. Sie können jedoch auch die Reihenfolge der Seiten im PDF-Dokument ändern. Sie können beispielsweise ein mehrseitiges Dokument als Broschüre drucken. Wenn Sie die Blätter zusammenstellen, falten und heften, ist das Ergebnis ein einzelnes Buch mit der richtigen Seitenreihenfolge.  Sie können die veröffentlichte Broschüre dann wie ein Buch lesen.
 
 <img src="assets/template-page-organization.png" alt="Seitenorganisation" width="550">
 
@@ -389,7 +392,7 @@ Wählen Sie eine Seitenreihenfolge aus, die die Seitenreihenfolge in Ihrem PDF-D
    * „X“ — Alle Seiten des Dokuments. Gleiches Ergebnis wie „1..-1“.
 
 So können Sie beispielsweise eine benutzerdefinierte Bestellung wie „2,3,5*2,7..10,-1,-2.
-Die angegebene Seitenreihenfolge ergibt eine PDF mit den folgenden Seitennummern des Originaldokuments, vorausgesetzt, sie umfasst insgesamt 25 Seiten: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.
+Die angegebene Seitenreihenfolge führt zu einem PDF mit den folgenden Seitennummern aus dem Originaldokument, vorausgesetzt, es umfasst insgesamt 25 Seiten: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.
 
 #### Konfigurieren von mehr als einer Seite pro Blatt
 
@@ -397,33 +400,9 @@ Wählen Sie diese Option, um mehrere Seiten auf einem einzigen Blatt Papier zu v
 
 Definieren Sie die Zielblattgröße und die Ausrichtung, in der Sie das Blatt veröffentlichen möchten. Sie können auch die Margin-Eigenschaft und die Padding-Eigenschaft des Blatts angeben.
 
-
-
-
-### Druck
-
-Konfigurieren Sie die Druckproduktionseinstellungen, um Druckermarken zuzuweisen, Farbmodelle auszuwählen und Eigenschaften im Zusammenhang mit dem Drucken Ihrer PDF-Ausgabe anzugeben.
-
-* **Druckermarken**: Wenn Sie ein Dokument für die Druckproduktion vorbereiten, werden Druckermarken zu den Seitenbegrenzungen hinzugefügt, um die korrekte Ausrichtung, das Zuschneiden und die Farbauswahl beim Drucken zu unterstützen. Durch Auswahl einer Druckermarke wird die Seitenbegrenzung erweitert, um die Markierung aufzunehmen, die beim Drucken gekürzt wird. Sie können die folgenden Druckermarkierungen in Ihrer PDF-Ausgabe anzeigen:
-   * **Beschneidungsmarken**: Wählen Sie diese Option, um eine Markierung an jeder Ecke des Beschneidungsbereichs zu platzieren, um anzugeben, wo das Papier nach dem Drucken beschnitten werden soll.
-   * **Anschnittzeichen**: Aktivieren Sie diese Option, um eine Markierung an jeder Ecke des Anschnittrahmens zu platzieren und den Zuschnittbereich für das erweiterte Bild anzugeben.
-   * **Registrierungsmarken**: Wählen Sie diese Option, um eine Markierung außerhalb des Zuschnittsbereichs zu platzieren, um die verschiedenen Trennzeichen in einem Farbdokument auszurichten.
-   * **Farbbalken**: Wählen Sie diese Option, um einen Farbstreifen außerhalb des Endformatbereichs hinzuzufügen, um die Farbkonsistenz beizubehalten und die Tintendichte beim Drucken anzupassen.
-
-  Legen Sie die Abmessungen für die ausgewählten Druckermarkierungen mithilfe der Optionen **Linienbreite**, **Linienfarbe** und **Anschnittrahmenbreite** fest.
-
-* **Medienfeldgröße**: Dies ist die Gesamtgröße der Seite einschließlich des erweiterten Bereichs, der von Druckermarken belegt wird. Verwenden Sie die Dropdown-Option, um die Seitengröße für die PDF-Ausgabe auszuwählen oder eine eigene benutzerdefinierte Größe zu erstellen.
-
-* **Farbraum**: Sie haben die Möglichkeit, zum Drucken Ihres PDF-Dokuments zwischen RGB- oder CMYK-Farbräumen zu wählen. Wählen Sie RGB aus, um die generierte PDF digital anzuzeigen, und CMYK für den physischen Druck. Im Dokument definierte Farben werden in den ausgewählten Farbraum konvertiert.
-  >[!NOTE]
-  >
-  >Bei Verwendung von CMYK-Farbraum ist ein ICC-Farbprofil für die PDF/A-Erstellung erforderlich.
-
-  <!--For more information on applying these print settings, see *Printing preferences*.-->
-
 ### Querverweise {#cross-references}
 
-Verwenden Sie die **Querverweis**, um festzulegen, wie die Querverweise auf der PDF veröffentlicht werden. Sie können die Querverweise für Thementitel, Tabellen, Abbildungen usw. formatieren.
+Verwenden Sie die **Querverweis**, um festzulegen, wie die Querverweise in PDF veröffentlicht werden. Sie können die Querverweise für Thementitel, Tabellen, Abbildungen usw. formatieren.
 
 >[!NOTE]
 >

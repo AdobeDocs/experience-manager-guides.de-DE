@@ -1,36 +1,29 @@
 ---
-title: Publish eines Themas auf einer AEM Sites-Seite
-description: 'Publish : Ein Thema oder die Elemente innerhalb eines Themas in einer Adobe Experience Manager Sites-Ausgabe.  Erfahren Sie, wie Sie die für ein Thema vorhandene Experience Manager Sites-Seite anzeigen und erneut veröffentlichen.'
+title: Veröffentlichen eines Themas auf einer AEM Sites-Seite
+description: Veröffentlichen eines Themas oder der Elemente innerhalb eines Themas in einer Adobe Experience Manager Sites-Ausgabe.  Erfahren Sie, wie Sie die für ein Thema vorhandene Experience Manager Sites-Seite anzeigen und erneut veröffentlichen.
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
+source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
-# Publish Adobe Experience Manager Sites-Seiten
+# Adobe Experience Manager Sites-Seiten veröffentlichen
 
 
 Experience Manager Sites-Seite bezieht sich auf Inhalte, die auf der Adobe Experience Manager-Website veröffentlicht wurden. Mit Experience Manager Guides können Sie ein eigenständiges Thema auf einer Sites-Seite veröffentlichen.
 
 Mit dieser Funktion können Sie ein Thema und seine Elemente veröffentlichen, ohne eine DITA-Zuordnung und die Ausgabevorgaben zu erstellen. Sie können das Thema einfach aktualisieren, die Sites-Seite erneut veröffentlichen und über verschiedene Web-Seiten hinweg wiederverwenden. Mit dieser Funktion können Sie mühelos eigenständige Artikel oder Marketing-Inhalte veröffentlichen.
 
-
-
-
-
 Um eine Sites-Seite zu generieren, führen Sie die folgenden Schritte aus:
 
 
-
-
-1. Wählen Sie **Neue Ausgabe** ![Symbol „Neue Ausgabe](./images/Add_icon.svg) aus dem Abschnitt **Ausgaben** in der **Dateieigenschaften** eines Themas aus.
+1. Öffnen Sie das Thema im Editor und wählen Sie Dateieigenschaften im rechten Bedienfeld aus.
+1. Wählen Sie **Neue Ausgabe** icon![New output icon](./images/Add_icon.svg) aus dem Abschnitt **Ausgaben** aus.
 1. Wählen Sie **Sites-Seite** aus.
-
-
 1. Geben **im Dialogfeld &quot;** generieren“ die folgenden Details ein:
    ![Fügen Sie den Pfad und die Vorlagendetails auf der Seite „Sites generieren“ hinzu](images/aem-sites-page-generate.png){width="500" align="left"}
 
@@ -55,15 +48,12 @@ Um eine Sites-Seite zu generieren, führen Sie die folgenden Schritte aus:
 
 
 
-1. Klicken Sie **Generieren**, um die Sites-Seite zu veröffentlichen.
+1. Wählen Sie **Generieren** aus, um die Sites-Seite zu veröffentlichen.
 1. Sie können die Sites-Seite für ein Thema unter dem Abschnitt **Ausgaben** im Abschnitt **Dateieigenschaften** anzeigen. Die Sites-Seiten werden nach dem Datum und der Uhrzeit ihrer Veröffentlichung angezeigt, wobei die neueste als erste angezeigt wird.
 
-   ![Anzeigen der Sites-Seite für ein Thema](images/aem-sites-outputs.png){width=300 align=„left“}
+   ![Anzeigen der Sites-Seite für ein Thema](images/aem-sites-output-new.png){width=300 align=„left“}
 
    *Zeigen Sie die Sites-Seite für ein Thema an und veröffentlichen Sie sie erneut.*
-
-
-
 
 Nachdem Sie die Sites-Seite veröffentlicht haben, können Sie sie auch auf jeder beliebigen Adobe Experience Manager-Site verwenden.
 

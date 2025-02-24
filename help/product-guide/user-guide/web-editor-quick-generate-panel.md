@@ -4,14 +4,19 @@ description: Verwenden Sie das Bedienfeld „Schnellgenerierung“ in AEM Guides
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # Verwenden des Bedienfelds „Schnellgenerierung“ zum Generieren und Anzeigen der Ausgabe {#id22AKE050F5L}
+
+>[!NOTE]
+>
+> Das Bedienfeld „Schnellgenerierung“, das zuvor in Adobe Experience Manager Guides verfügbar war, wird seit Version 4.0 und 2502 nicht mehr unterstützt. Sie können nicht auf das Bedienfeld „Schnellgenerierung“ zugreifen, um Ausgaben zu generieren und anzuzeigen
+
 
 AEM Guides bietet ein **Quick Generate**-Bedienfeld, das in den Web-Editor integriert ist. In diesem Bedienfeld können Sie gleichzeitig die Ausgabe für die für eine DITA-Zuordnung erstellten Ausgabevorgaben generieren. Sie können die Ausgabe für eine oder mehrere Vorgaben oder alle für eine DITA-Zuordnung erstellten Vorgaben generieren. Sie können auch das Bedienfeld **Quick Generate** verwenden, um später die für die Voreinstellungen generierte Ausgabe anzuzeigen.
 

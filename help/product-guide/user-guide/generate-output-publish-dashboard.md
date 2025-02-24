@@ -1,25 +1,25 @@
 ---
-title: Verwalten von Veröffentlichungsaufgaben mit dem Publish-Dashboard
-description: Verwalten Sie Veröffentlichungsaufgaben mithilfe des Publish-Dashboards in AEM Guides. Wissen, wie man auf das Veröffentlichungs-Dashboard zugreift und eine Veröffentlichungsaufgabe abbricht.
+title: Verwalten von Veröffentlichungsaufgaben mit dem Dashboard „Veröffentlichen“
+description: Verwalten Sie Veröffentlichungsaufgaben mithilfe des Veröffentlichungs-Dashboards in AEM Guides. Wissen, wie man auf das Veröffentlichungs-Dashboard zugreift und eine Veröffentlichungsaufgabe abbricht.
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
 
-# Verwalten von Veröffentlichungsaufgaben mit dem Publish-Dashboard {#id205CC08305Z}
+# Verwalten von Veröffentlichungsaufgaben mit dem Dashboard „Veröffentlichen“ {#id205CC08305Z}
 
-Wenn auf Ihrem System eine große Anzahl von Veröffentlichungsaufgaben ausgeführt wird, ist es praktisch unmöglich, jede DITA-Map einzeln zu überprüfen, um die Veröffentlichungsaufgabe zu überwachen. AEM Guides bietet Admins und Herausgebern eine einheitliche Ansicht aller im System ausgeführten Veröffentlichungsaufgaben. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Publish-Dashboard verfügbar.
+Wenn auf Ihrem System eine große Anzahl von Veröffentlichungsaufgaben ausgeführt wird, ist es praktisch unmöglich, jede DITA-Map einzeln zu überprüfen, um die Veröffentlichungsaufgabe zu überwachen. Adobe Experience Manager Guides bietet Admins und Herausgebern eine einheitliche Ansicht aller im System ausgeführten Veröffentlichungsaufgaben. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Veröffentlichungs-Dashboard verfügbar.
 
-Das Publish-Dashboard bietet einen vollständigen Überblick über alle Veröffentlichungsaufgaben, die derzeit im System ausgeführt werden.
+Das Veröffentlichungs-Dashboard bietet einen vollständigen Überblick über alle Veröffentlichungsaufgaben, die derzeit im System ausgeführt werden.
 
 ![](images/publish-dashboard.png){width="800" align="left"}
 
-Das Publish-Dashboard enthält die folgenden Details:
+Das Veröffentlichungs-Dashboard enthält die folgenden Details:
 
 - **Zuordnungstitel** - Der Titel einer Zuordnungsdatei, die derzeit veröffentlicht wird oder sich in der Veröffentlichungswarteschlange befindet.
 
@@ -35,9 +35,9 @@ Das Publish-Dashboard enthält die folgenden Details:
 
 - **Löschsymbol** - Abbrechen oder Beenden einer Veröffentlichungsaufgabe.
 
-Das linke Bedienfeld im Publish-Dashboard bietet die folgenden Filteroptionen:
+Das linke Bedienfeld im Veröffentlichungs-Dashboard bietet die folgenden Filteroptionen:
 
-- **Ausgabevorgabe** - Wählen Sie eine oder mehrere Ausgabevorgaben aus, für die Sie die derzeit aktiven Veröffentlichungsaufgaben anzeigen möchten. Im folgenden Screenshot werden die Veröffentlichungsaufgaben gefiltert, um nur die Aufgaben anzuzeigen, die die AEM-Site-Ausgabevorgabe verwenden:
+- **Ausgabevorgabe**: Wählen Sie eine oder mehrere Ausgabevorgaben aus, für die Sie die derzeit aktiven Veröffentlichungsaufgaben anzeigen möchten. Im folgenden Screenshot werden die Veröffentlichungsaufgaben gefiltert, um nur die Aufgaben anzuzeigen, die die Ausgabevorgabe der AEM-Site verwenden:
 
   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
@@ -45,44 +45,46 @@ Das linke Bedienfeld im Publish-Dashboard bietet die folgenden Filteroptionen:
 
 - **Map** - Wählen Sie in der Liste eine Zuordnungsdatei aus, um die Veröffentlichungsaufgaben anzuzeigen, die für die ausgewählte Zuordnung ausgeführt werden.
 
-## Zugriff auf das Publish-Dashboard {#id205CC100DY4}
+## Zugriff auf das Veröffentlichungs-Dashboard
 
-Führen Sie die folgenden Schritte aus, um auf das Publish-Dashboard zuzugreifen:
+Sie können auf **Dashboard veröffentlichen** direkt über die [Experience Manager Guides-Startseite ](./intro-home-page.md). Öffnen Sie die Startseite und wählen Sie **linken Bedienfeld die Option** Veröffentlichungswarteschlange“ aus.
 
 >[!NOTE]
 >
-> Nur ein Administrator oder Publisher kann auf das Publish-Dashboard zugreifen.
+> Nur ein Administrator oder Herausgeber kann auf das Dashboard „Veröffentlichen“ zugreifen.
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
+Sie können auf **Dashboard veröffentlichen** auch über die Adobe Experience Manager-Seite **Tools** zugreifen. Um diese Methode zu verwenden, führen Sie die folgenden Schritte aus:
+
+1. Klicken Sie oben auf das Adobe Experience Manager-Logo und anschließend auf **Tools**.
 
 1. Wählen Sie **Guides** aus der Liste der Tools aus.
 
-1. Klicken Sie auf die Kachel **Publish Dashboard** .
+1. Wählen Sie die Kachel **Dashboard veröffentlichen** aus.
 
-   Das Publish-Dashboard wird mit einer Liste aller aktiven Veröffentlichungsaufgaben im System geöffnet.
+   Das Veröffentlichungs-Dashboard wird mit einer Liste aller aktiven Veröffentlichungsaufgaben im System geöffnet.
 
-   Wenn Sie auf den Dateinamen-Link klicken, wird die DITA-Zuordnungskonsole der ausgewählten Zuordnung angezeigt.
+   Wenn Sie auf den Link Dateiname klicken, wird das DITA-Zuordnungs-Dashboard der ausgewählten Zuordnung angezeigt.
 
    ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
-> Sie können auch über die Registerkarte Ausgaben auf das Publish-Dashboard zugreifen, während Sie über das Zuordnungs-Dashboard eine Ausgabe generieren. Weitere Informationen finden Sie unter [Anzeigen des Status der Aufgabe zur Ausgabenerstellung](generate-output-for-a-dita-map.md#viewing_output_history).
+> Sie können auf das Dashboard Veröffentlichen auch über die Registerkarte **Ausgaben** zugreifen, während Sie die Ausgabe über das Zuordnungs-Dashboard generieren. Weitere Informationen finden Sie unter [Anzeigen des Status der Aufgabe zur Ausgabenerstellung](generate-output-for-a-dita-map.md#viewing_output_history).
 
 ## Abbrechen einer Veröffentlichungsaufgabe
 
-Führen Sie folgende Schritte aus, um eine Ausgabegenerierungsaufgabe über das Publish-Dashboard abzubrechen:
+Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung über das Veröffentlichungs-Dashboard abzubrechen:
 
-1. [Zugriff auf das Publish-Dashboard](#id205CC100DY4).
+1. [Zugriff auf das Veröffentlichungs-Dashboard](#access-the-publish-dashboard).
 
-1. Klicken Sie in der Liste der aktiven Veröffentlichungsaufgaben auf das Löschsymbol einer Aufgabe, die Sie abbrechen möchten.
+1. Wählen Sie aus der Liste der aktiven Veröffentlichungsaufgaben das Löschsymbol einer Aufgabe aus, die Sie abbrechen möchten.
 
    ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
 
-1. Klicken Sie **der** Abbruchmeldung bestätigen auf „Ja“.
+1. Wählen **auf** Eingabeaufforderung **Abbruch bestätigen** die Option „Ja“.
 
-   Der Abbruchsbefehl wird akzeptiert, und der Abbruch wird versucht, solange die Aufgabe aktiv bleibt. Nachdem die Aufgabe erfolgreich beendet wurde, wird sie aus der aktuell aktiven Aufgabenliste entfernt. Der Status der Aufgabe wird auch in der DITA Map-Konsole als Abgebrochen aktualisiert. Im folgenden Screenshot wird die Aufgabe *HTML5* über das Publish-Dashboard abgebrochen und ihr Status wird auch in der DITA-Zuordnungskonsole geändert.
+   Der Abbruchsbefehl wird akzeptiert, und der Abbruch wird versucht, solange die Aufgabe aktiv bleibt. Nachdem die Aufgabe erfolgreich beendet wurde, wird sie aus der aktuell aktiven Aufgabenliste entfernt. Der Status der Aufgabe wird auch im DITA Map-Dashboard als Abgebrochen aktualisiert. Im folgenden Screenshot wird die Aufgabe *HTML5* über das Dashboard „Veröffentlichen“ abgebrochen und ihr Status wird auch im DITA-Zuordnungs-Dashboard geändert.
 
    ![](images/cancelled-output-task.png){width="800" align="left"}
 

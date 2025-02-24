@@ -1,21 +1,21 @@
 ---
-title: Themen oder Karten überprüfen
+title: Einführung in die Überprüfung
 description: Effiziente Prüfung von Themen oder Karten in AEM Guides für eine reibungslose Inhaltsbewertung. Kenntnis der Funktionen für Autoren und Prüfer in AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
-# Themen oder Karten überprüfen {#id1645H6010Q5}
+# Einführung in die Überprüfung {#id1645H6010Q5}
 
-Fast alle technischen Dokumente müssen mehrere Überprüfungsrunden durchlaufen. In den meisten Fällen sind an einem Überprüfungszyklus mehr als ein Validierungsverantwortlicher beteiligt. Das Adressieren und Reagieren auf Kommentare mehrerer Prüfer ist für Autoren immer eine Herausforderung. In Szenarien mit mehreren Reviewern ist es außerdem hilfreich, wenn ein Reviewer auch die Kommentare anderer Reviewer sehen kann.
+Fast alle technischen Dokumente müssen mehrere Überprüfungsrunden durchlaufen. In den meisten Fällen sind an einem Überprüfungszyklus mehr als ein Validierungsverantwortlicher beteiligt. Das Adressieren und Reagieren auf Kommentare mehrerer Prüfer ist für Autoren immer eine Herausforderung. In Szenarien mit mehreren Reviewern ist es außerdem hilfreich, wenn ein Reviewer auch die Kommentare anderer Reviewer einsehen kann.
 
-Zu den Hauptfunktionen, die AEM Guides den Initiatoren (oder *) anbietet* gehören:
+Zu den Hauptfunktionen, die Adobe Experience Manager Guides den Initiatoren (oder *) anbietet* gehören:
 
 - Erstellen Sie ein DITA-Projekt für den Überprüfungs-Workflow.
 - Senden Sie ein oder mehrere Themen zur Überprüfung in einer einzigen Prüfungsaufgabe.
@@ -30,7 +30,7 @@ Zu den Hauptfunktionen, die AEM Guides den Initiatoren (oder *) anbietet* gehör
 
 - Gruppieren und Filtern von Kommentaren nach Themenversion.
 
-- Siehe Unterschiede zwischen verschiedenen Versionen von Themen, die zur Überprüfung freigegeben wurden.
+- Anzeigen von Unterschieden zwischen verschiedenen Versionen von Themen, die zur Überprüfung freigegeben wurden.
 
 - Kommentare (gelöscht oder eingefügt\) automatisch in die Version des Themas importieren, das zur Überprüfung freigegeben wurde.
 
@@ -45,13 +45,13 @@ Den *Prüfern“ zur Verfügung stehende*:
 - Verwenden Sie das Review-Bedienfeld, um Kommentare hinzuzufügen oder auf Kommentare anderer Benutzer zu antworten.
 - Machen Sie sich mit der Version des zu überprüfenden Themas vertraut.
 - Sie erhalten eine Benachrichtigung, wenn ihnen eine Aufgabe zur Überprüfung zugewiesen wird.
-- Unterschiede zwischen älterer und neuerer Version des freigegebenen Themas anzeigen.
-- Hier finden Sie Kommentare anderer Prüfer oder Antworten auf Kommentare des Autors in Echtzeit.
+- Unterschiede zwischen älterer und neuerer Version des zur Überprüfung freigegebenen Themas anzeigen.
+- Anzeigen von Kommentaren anderer Prüfer oder Antworten auf Kommentare des Autors in Echtzeit.
 - Zugreifen auf Kommentare, die zu älteren Versionen des Themas gegeben wurden.
 
 >[!NOTE]
 >
-> Best *zum Erstellen von Prüfungsaufgaben finden Sie* Abschnitt „Überprüfen“ im Handbuch zu Best Practices.
+> Best Practices *Erstellen von Prüfungsaufgaben finden Sie* Abschnitt „Überprüfen“ im Handbuch zu Best Practices.
 
 - **[Erstellen eines DITA-Projekts](authoring-create-dita-project.md)**
 

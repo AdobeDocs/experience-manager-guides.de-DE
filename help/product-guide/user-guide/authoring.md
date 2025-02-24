@@ -4,24 +4,24 @@ description: Verwalten von Inhalten und Identifizieren Ihrer Rollen und Berechti
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '736'
 ht-degree: 10%
 
 ---
 
 # Inhalt verwalten {#id164JBG0M0T1}
 
-Bevor Sie mit der eigentlichen Inhaltserstellung beginnen, müssen Sie sich mit einigen Grundkonzepten des Content-Managements in AEM Guides vertraut machen. Erstellen Sie dann zunächst verschiedene Benutzergruppen und organisieren Sie Ihre Assets.
+Bevor Sie mit der eigentlichen Inhaltserstellung beginnen, müssen Sie sich mit einigen Grundkonzepten des Content-Managements in Adobe Experience Manager Guides vertraut machen. Erstellen Sie dann zunächst verschiedene Benutzergruppen und organisieren Sie Ihre Assets.
 
 ## Wichtige Konzepte
 
-Einige Schlüsselkonzepte des Content-Managements in AEM sind:
+Zu den wichtigsten Konzepten des Content-Managements in Adobe Experience Manager gehören:
 
 **Asset-Management**
 
-AEM Guides verwendet das Digital Asset Management \(DAM\) von AEM zur Verwaltung Ihrer DITA-Dateien. Die Dateien, die Sie in DAM hochladen oder einchecken, werden als digitale Assets gespeichert. Sie können Ihre Assets in AEM Assets verwalten und bearbeiten. Weitere Informationen zum Asset-Management finden Sie unter [Verwalten von Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=de).
+Experience Manager Guides verwendet das Digital Asset Management \(DAM\) von Adobe Experience Manager, um Ihre DITA-Dateien zu verwalten. Die Dateien, die Sie in DAM hochladen oder einchecken, werden als digitale Assets gespeichert. Sie können Ihre Assets in Adobe Experience Manager Assets verwalten und bearbeiten. Weitere Informationen zum Asset-Management finden Sie unter [Verwalten von Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=de).
 
 **Link-Verwaltung**
 
@@ -29,21 +29,21 @@ Verschieben oder Umbenennen von Dateien oder Ändern der Ordnerstruktur im Conte
 
 **Verwalten von Versionen**
 
-AEM Guides bietet Versionsverwaltung für digitale Assets. Sie können diese Funktion einfach über eine beliebige DITA-Authoring-Anwendung aktivieren. Sie ermöglichen es Ihren Autoren, die standardmäßigen Versionssteuerungsfunktionen wie Ein- und Auschecken auszuführen.
+Experience Manager Guides bietet Versionsverwaltung für digitale Assets. Sie können diese Funktion einfach über eine beliebige DITA-Authoring-Anwendung aktivieren. Sie ermöglichen es Ihren Autoren, die standardmäßigen Versionssteuerungsfunktionen wie Ein- und Auschecken auszuführen.
 
-Weitere Informationen zum Erstellen von Versionen oder zum Wiederherstellen einer bestimmten Version finden Sie unter [Verzweigung, Wiederherstellung und nachfolgende Versionierung](web-editor-preview-topics.md#id193PG0Y051X).
+Weitere Informationen zum Erstellen von Versionen oder zum Wiederherstellen einer bestimmten Version finden Sie unter [Verzweigung, Wiederherstellung und nachfolgende Versionierung](web-editor-preview-topics.md#branch-revert-and-subsequent-versioning).
 
 **Native DITA-Verarbeitung**
 
-AEM Guides behält zwar die Struktur Ihrer DITA-Dateien bei, ermöglicht es AEM aber auch, DITA nativ mithilfe der Elementzuordnung zu verarbeiten, um die DITA-Elemente AEM-Komponenten zuzuordnen. Die native DITA-Verarbeitung wird in Funktionen wie der Themenvorschau, der AEM Sites-Veröffentlichung und den Überprüfungs-Workflows verwendet.
+Experience Manager Guides behält zwar die Struktur Ihrer DITA-Dateien bei, ermöglicht Adobe Experience Manager aber auch die native Verarbeitung von DITA mithilfe der Elementzuordnung, um die DITA-Elemente Adobe Experience Manager-Komponenten zuzuordnen. Die native DITA-Verarbeitung wird in Funktionen wie der Themenvorschau, der Adobe Experience Manager Sites-Veröffentlichung und den Überprüfungs-Workflows verwendet.
 
 ## Identifizieren von Rolle und Berechtigungen {#id181TF0K0MHT}
 
-AEM Guides bietet drei vordefinierte Gruppen. Diese Gruppen sind: *Autoren*, *Prüfer* und *Herausgeber*. Je nach der Gruppe, der Sie zugeordnet sind, haben Sie die Berechtigung, bestimmte Aufgaben wie in der folgenden Tabelle aufgeführt auszuführen. Beispielsweise kann eine Veröffentlichungsaufgabe nur von einem Herausgeber, nicht aber von einem Autor oder einem Prüfer ausgeführt werden. Auf ähnliche Weise kann ein Autor ein neues Thema erstellen und ein Prüfer kann nur ein Thema überprüfen.
+Experience Manager Guides bietet drei vordefinierte Gruppen. Diese Gruppen sind: *Autoren*, *Prüfer* und *Herausgeber*. Je nach der Gruppe, der Sie zugeordnet sind, haben Sie die Berechtigung, bestimmte Aufgaben wie in der folgenden Tabelle aufgeführt auszuführen. Beispielsweise kann eine Veröffentlichungsaufgabe nur von einem Herausgeber, nicht aber von einem Autor oder einem Prüfer ausgeführt werden. Auf ähnliche Weise kann ein Autor ein neues Thema erstellen und ein Prüfer kann nur ein Thema überprüfen.
 
 >[!TIP]
 >
-> Best Practices *Festlegen von* finden Sie im Abschnitt „Berechtigungen“ im Handbuch zu Best Practices.
+> Im Abschnitt *Berechtigungen* des Best Practices-Handbuchs finden Sie Best Practices zum Festlegen von Benutzerberechtigungen.
 
 In der folgenden Tabelle sind verschiedene Aufgaben sowie die Gruppen aufgeführt, die diese Aufgaben ausführen können:
 
@@ -93,9 +93,9 @@ In der folgenden Tabelle sind verschiedene Aufgaben sowie die Gruppen aufgeführ
 
 **Arbeiten mit globalen Profilen oder Profilen auf Ordnerebene**
 
-In einem Unternehmen können verschiedene Gruppen oder Produkte unterschiedliche Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Web-Editor-Konfigurationen verwenden. Wenn Sie diese nur auf Enterprise-\(oder globaler\) Ebene konfigurieren, kann dies Autorinnen und Autoren Schwierigkeiten bereiten, da sie Vorlagen oder Profile sehen, die für sie nicht relevant sind.
+In einem Unternehmen können verschiedene Gruppen oder Produkte unterschiedliche Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Web-Editor-Konfigurationen verwenden. Wenn Sie diese nur auf Unternehmensebene \(oder global\) konfigurieren, kann dies Autorinnen und Autoren Schwierigkeiten bereiten, da sie Vorlagen oder Profile anzeigen, die für sie nicht relevant sind.
 
-Mit AEM Guides können Sie die Erstellung von \(topic oder map\) Vorlagen, Ausgabevorlagen, bedingten Attributen und Web-Editor-Konfigurationen auf Enterprise \(global\)-Ebene sowie auf Ordnerebene konfigurieren. Auf diese Weise können Sie die Konfigurationen für verschiedene Abteilungen oder Produkte in Ihrem Unternehmen trennen.
+Mit Experience Manager Guides können Sie die Erstellung von \(topic oder map\) Vorlagen, Ausgabevorlagen, bedingten Attributen und Web-Editor-Konfigurationen auf Enterprise \(global\)-Ebene sowie auf Ordnerebene konfigurieren. Auf diese Weise können Sie die Konfigurationen für verschiedene Abteilungen oder Produkte in Ihrem Unternehmen trennen.
 
 Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung oder Produktadministratoren delegieren, um die Administration zu dezentralisieren.
 

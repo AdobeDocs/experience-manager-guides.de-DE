@@ -4,9 +4,9 @@ description: Weisen Sie eine Prüfungsaufgabe mithilfe von Benachrichtigungen in
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Nachdem die Prüfungsaufgabe neu zugewiesen wurde, zeigt die Spalte Empfänger d
 
 Der zugewiesene Reviewer erhält eine Benachrichtigung im Posteingang für die neu zugewiesene Prüfungsaufgabe.
 
-**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

@@ -3,9 +3,9 @@ title: Installation und Einrichtung
 description: Installieren und Verwenden des AEM Guides-Erweiterungspakets
 role: User, Admin
 exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b4d6c1c8c2d413bb4137e58391554abf2fb68b8c
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -55,6 +55,11 @@ npx @adobe/create-guides-extension
 Name: `categories`
 Typ: `String []`
 Wert: `apps.fmdita.review_overrides`, `apps.fmdita.xml_editor.page_overrides`
+
+>[!NOTE]
+>
+> Für die vorletzte Benutzeroberfläche wären die Werte: `apps.fmdita.penultimate.xml_editor.page_overrides` und `apps.fmdita.review_overrides`
+
 
 ![Ordnereigenschaften](./../imgs/crxde_folder_properties.png)
 

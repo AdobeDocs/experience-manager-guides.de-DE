@@ -4,7 +4,7 @@ description: Erfahren Sie, wie AEM Guides mit AEM und anderen DITA-Editoren zusa
 feature: Introduction
 role: User
 exl-id: 531f7d2c-7b11-44b1-b4af-d3f660066643
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -18,4 +18,4 @@ Das folgende Diagramm veranschaulicht, wie AEM Guides mit AEM und einem beliebig
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 
 
-**Übergeordnetes Thema:**[&#x200B;Über Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Übergeordnetes Thema:**[&#x200B;Über Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

@@ -1,19 +1,19 @@
 ---
-title: Tastaturbefehle im Web-Editor
+title: Tastaturbefehle im Editor
 description: Entdecken Sie zeitsparende Tastaturbefehle im Web-Editor von AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
+source-git-commit: e5f4dc964a31d3bc23db166ee391e5e3550d8cbc
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '357'
 ht-degree: 2%
 
 ---
 
-# Tastaturbefehle im Web-Editor {#id2056B0A0WHT}
+# Tastaturbefehle im Editor {#id2056B0A0WHT}
 
-Im Web-Editor gibt es viele Vorgänge, die Sie über die Tastaturbefehle ausführen können. In der folgenden Tabelle sind diese Tastaturbefehle aufgeführt:
+Im Editor gibt es viele Vorgänge, die Sie über die Tastaturbefehle ausführen können. In der folgenden Tabelle sind diese Tastaturbefehle aufgeführt:
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Im Web-Editor gibt es viele Vorgänge, die Sie über die Tastaturbefehle ausfüh
 | Auf den aktuellen Editor fokussieren | **Strg***+**Umschalt**+***0*** | ***Befehl***+**Umschalt**+***0*** |
 | Dokument in der Autoren- oder Source-Ansicht speichern | ***Strg***+**Umschalt**+***S*** | ***Befehl***+**Umschalt**+***S*** |
 | Alle geöffneten Dokumente in der Autoren- oder Source-Ansicht speichern | ***Strg***+***S*** | ***Befehl***+***s*** |
-| Dialogfeld „Element einfügen“ anzeigen | ***Alt***+***Eingabetaste*** | ***Option***+***Enter*** |
+| Dialogfeld „Element einfügen“ anzeigen | ***Alt***+***1*** | ***Option***+***Enter*** |
 | Dialogfeld „Element einfügen“ anzeigen, um das Element vor dem ausgewählten Element einzufügen | ***Alt***+***Umschalt***+***Eingabe*** | ***Option***+***Umschalt***+***Eingabe*** |
 | Cursor ein Wort nach links bewegen | ***Strg***+***Linkspfeil*** | ***Option***+***Nach-links-Taste*** |
 | Cursor ein Wort nach rechts bewegen | ***Strg***+***Nach-rechts-Taste*** | ***Option***+***Nach-rechts-Taste*** |

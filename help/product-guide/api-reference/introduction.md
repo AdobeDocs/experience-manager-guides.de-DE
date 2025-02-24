@@ -5,7 +5,7 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 9024b552fd470344ba7b0068a147c37084ae0d13
+source-git-commit: 00a926e82f7d848e0c8041de758f20e79758b01b
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Einführung {#id1761C0007W7}
 
-Adobe Experience Manager Guides \(später als *AEM Guides*\ bezeichnet) ist eine End-to-End-Unternehmenslösung, mit der Adobe Experience Manager \(AEM\) über Funktionen der Komponenten-Content-Management-Lösung \(CCMS\) für die DITA-basierte Inhaltserstellung und -bereitstellung verfügen kann. Kunden können über die AEM Guides-APIs programmgesteuert auf AEM Guides-Workflows zugreifen, um sie in andere Unternehmensanwendungen zu integrieren. Diese APIs können auch von Adobe-Partnern verwendet werden, um das Wertversprechen von AEM Guides durch Erweitern der Funktionalität oder Integration mit anderen Anwendungen oder Services zu verbessern.
+Adobe Experience Manager Guides \(später als *AEM Guides*\ bezeichnet) ist eine End-to-End-Unternehmenslösung, mit der Adobe Experience Manager \(AEM\) über Funktionen der Komponenten-Content-Management-Lösung \(CCMS\) für die DITA-basierte Inhaltserstellung und -bereitstellung verfügen kann. Kunden können über die AEM Guides-APIs programmgesteuert auf AEM Guides-Workflows zugreifen, um sie in andere Unternehmensanwendungen zu integrieren. Diese APIs können auch von Adobe-Partnern verwendet werden, um das Wertversprechen von AEM Guides durch Erweitern der Funktionalität oder Integration in andere Programme oder Services zu verbessern.
 
 ## AEM Guides-APIs
 
@@ -214,8 +214,8 @@ Um die API-JAR-Datei zu verwenden, müssen Sie der pom.xml Ihres Projekts die Ab
 ```XML
 <dependency>
    <groupId>com.adobe.aem</groupId>
-   <artifactId>aem-guides-sdk-api</artifactId>
-   <version>2022.5</version>
+   <artifactId>aem-dox-sdk-api</artifactId>
+   <version>${RELEASE}</version>
 </dependency>
 ```
 

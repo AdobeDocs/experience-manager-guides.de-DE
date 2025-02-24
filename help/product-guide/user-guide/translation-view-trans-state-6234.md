@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie den Übersetzungsstatus und die übersetzten 
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,15 @@ Sie können den Übersetzungsstatus und die übersetzten Sprachkopien für jedes
 
 Führen Sie die folgenden Schritte aus, um den Übersetzungsstatus einer DITA-Zuordnung anzuzeigen:
 
-1. Navigieren Sie zur DITA-Zuordnungsdatei der Quellsprachkopie.
-1. Klicken Sie auf die **Übersetzung**.
-1. Wählen Sie im Bedienfeld **Filter** auf der linken Seite die **Übersetzungssprachen** aus, deren Status Sie überprüfen möchten, und klicken Sie auf **Fertig**.
+1. Navigieren Sie im Editor über die **Map-Konsole** zur gewünschten DITA-Zuordnungsdatei.
+1. Wählen Sie die **Übersetzung** aus.
+1. Checken **im Bedienfeld**&#x200B;Übersetzung“ auf der linken Seite die Sprache aus der Liste **Verfügbare Sprachen** ein, für die Sie den Status überprüfen möchten, und wählen Sie **Übernehmen**.
+1. Alle Themen mit der ausgewählten Zielsprache werden zusammen mit dem   Übersetzungsstatus.
 
    >[!NOTE]
    >
-   > Sie können den Inhalt außerdem nach Übersetzungsstatus \(fehlender Abgleich, Kopiervorgang läuft oder Synchronisierung\), Source-Typ \(alle, DITA, DITA-Zuordnung oder Ressource\), Änderungsdatum filtern. Sie können auch Keywords eingeben, um nach bestimmten Themen zu suchen.
+   > Sie können den Inhalt außerdem nach Übersetzungsstatus \(fehlender Abgleich, Kopiervorgang läuft oder Synchronisierung\), Source-Typ \(alle, DITA, DITA-Zuordnung oder Ressource\) und Änderungsdatum filtern. Darüber hinaus können Sie Keywords eingeben, um nach bestimmten Themen zu suchen. Sie können **Aktualisieren** verwenden, um den Status zu aktualisieren, wenn Änderungen vorgenommen wurden.
 
-**Übergeordnetes Thema:**[ Inhalte übersetzen](translation.md)
+   ![](images/translation-status-new.png){width="800" align="left"}
+
+**Übergeordnetes Thema:**[&#x200B;Übersicht über die Inhaltsübersetzung](translation.md)

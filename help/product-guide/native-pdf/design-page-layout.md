@@ -1,13 +1,13 @@
 ---
-title: Native PDF Publish-Funktion | Entwerfen eines Seiten-Layouts
+title: Native PDF-Veröffentlichungsfunktion | Entwerfen eines Seiten-Layouts
 description: Erfahren Sie, wie Sie Ihr Seiten-Layout entwerfen, um Informationen in verschiedenen Abschnitten Ihrer PDF-Ausgabe zu präsentieren.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
+source-git-commit: e8aecbdca448c321ac36804255416a4fb2561f79
 workflow-type: tm+mt
-source-wordcount: '4972'
+source-wordcount: '5017'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Entwerfen eines Seiten-Layouts {#design-page-layout}
 
-Beim Erstellen eines PDF-Dokuments gibt es verschiedene Bereiche für die Darstellung verschiedener Arten von Informationen. Ein PDF-Dokument würde beispielsweise von einer Titelseite aus beginnen, die das Logo, den Buchtitel oder die Versionsinformationen Ihres Unternehmens enthält. Dann gibt es Kapitel, Anhänge oder Glossarseiten. Jeder Abschnitt in einem PDF-Dokument sieht anders aus. Dies erreichen Sie, indem Sie das Seiten-Layout erstellen und anpassen.
+Beim Erstellen eines PDF-Dokuments hätten Sie verschiedene Abschnitte zur Darstellung verschiedener Arten von Informationen. Ein PDF-Dokument würde beispielsweise von einer Titelseite aus beginnen, die das Logo, den Buchtitel oder die Versionsinformationen Ihres Unternehmens enthält. Dann gibt es Kapitel, Anhänge oder Glossarseiten. Jeder Abschnitt in einem PDF-Dokument sieht anders aus. Dies wird durch Erstellen und Anpassen des Seiten-Layouts erreicht.
 
-Beim Entwerfen des Seiten-Layouts können Sie die verschiedenen Elemente definieren, aus denen eine Seite besteht. Sie können beispielsweise die Seitengröße, die Ränder, die Kopf- und Fußzeile, die Ausrichtung und andere Seitenspezifikationen auf einer Seite definieren. Mit der nativen PDF-Publishing-Funktion können Sie Ihre Seite gemäß den [Seitenmedienstandards](https://www.w3.org/TR/css-page-3/) gestalten. Die meisten Einstellungen, die unter den Paging-Medienstandards behandelt werden, können einfach über die Benutzeroberfläche der nativen PDF-Publishing-Funktion angepasst werden. Für einige andere erweiterte Formatierungen können Sie die Source-Ansicht verwenden, um Ihren eigenen CSS-Code zu schreiben.
+Beim Entwerfen des Seiten-Layouts können Sie die verschiedenen Elemente definieren, aus denen eine Seite besteht. Sie können beispielsweise die Seitengröße, die Ränder, die Kopf- und Fußzeile, die Ausrichtung und andere Seitenspezifikationen auf einer Seite definieren. Mit der nativen PDF-Veröffentlichungsfunktion können Sie Ihre Seite gemäß den [Seitenmedienstandards“ ](https://www.w3.org/TR/css-page-3/). Die meisten Einstellungen, die unter den Standards für ausgelagerte Medien behandelt werden, können einfach über die Benutzeroberfläche der nativen PDF-Veröffentlichungsfunktion angepasst werden. Für einige andere erweiterte Formatierungen können Sie die Source-Ansicht verwenden, um Ihren eigenen CSS-Code zu schreiben.
 
 Nachdem Sie die Seiten-Layouts entworfen haben, müssen Sie diese Layouts mit den entsprechenden Abschnitten in den PDF-Seitenlayouteinstellungen verknüpfen. Im Abschnitt [Erstellen und Anpassen von Seiten-Layouts](components-pdf-template.md#create-customize-page-layout) finden Sie Einzelheiten zum Erstellen und Öffnen eines Seiten-Layouts zur Anpassung.
 
@@ -36,7 +36,7 @@ Ein PDF-Dokument enthält in der Regel die folgenden Abschnitte:
 
 Für diese Abschnitte ist ein entsprechendes Seiten-Layout erforderlich, damit die Informationen in einem bestimmten Format angezeigt werden. Darüber hinaus können Sie auch eine leere Seite verwenden, die als Füller verwendet wird, um ein neues Kapitel von einer ungeraden oder geraden Seite aus zu beginnen. In diesem Fall können Sie entweder das standardmäßige Seiten-Layout verwenden oder ein Seiten-Layout für eine leere Seite erstellen. Weitere [ finden Sie unter „Erstellen ](components-pdf-template.md#create-page-layout) neuen Seiten-Layouts“.
 
-Mit den Seitenlayouteinstellungen im Abschnitt **Vorlage>Einstellungen** können Sie festlegen, welches Seitenlayout für verschiedene Abschnitte Ihres PDF verwendet werden soll. Jedes Seiten-Layout kann außerdem unterschiedliche Varianten der ersten, rechten oder linken Seite aufweisen.
+Mit den Seitenlayouteinstellungen im Abschnitt **Vorlage>Einstellungen** können Sie festlegen, welches Seitenlayout für verschiedene Bereiche Ihrer PDF verwendet werden soll. Jedes Seiten-Layout kann außerdem unterschiedliche Varianten der ersten, rechten oder linken Seite aufweisen.
 
 ### Erstellen der ersten, rechten oder linken Seiten-Layout-Varianten {#page-layout-variants}
 
@@ -88,7 +88,7 @@ Das ausgewählte Seiten-Layout wird mithilfe einer Kopie des Basiskapitel-Layout
 
 ## Arbeiten mit den Seiteneigenschaften eines Seiten-Layouts {#page-props-page-layout}
 
-Beim Entwerfen eines Seiten-Layouts ist es wichtig, die Kontrolle über verschiedene Seiteneigenschaften zu haben. Die Funktion Natives PDF Publishing kapselt alle wichtigen Seiteneigenschaften im Bedienfeld Seiteneigenschaften . Das Bedienfeld Seiteneigenschaften bietet Zugriff auf verschiedene Eigenschaften in den folgenden Abschnitten:
+Beim Entwerfen eines Seiten-Layouts ist es wichtig, die Kontrolle über verschiedene Seiteneigenschaften zu haben. Die native PDF-Veröffentlichungsfunktion kapselt alle wichtigen Seiteneigenschaften im Bedienfeld Seiteneigenschaften . Das Bedienfeld Seiteneigenschaften bietet Zugriff auf verschiedene Eigenschaften in den folgenden Abschnitten:
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Beim Entwerfen eines Seiten-Layouts ist es wichtig, die Kontrolle über verschie
 
 * **Drehung anzeigen** : Geben Sie die Seite oder Richtung an, in der die ursprüngliche Oberseite nach der Drehung dargestellt wird. Sie können zwischen 90° im Uhrzeigersinn, 90° gegen den Uhrzeigersinn oder 180° gegen den Uhrzeigersinn wählen. Dies ist besonders nützlich, wenn Sie für die Ausgabe eine Kombination aus Hoch- und Querformat verwenden möchten. Sie können beispielsweise „Hochformat“ als generisches Seiten-Layout verwenden und ein Querformat-Seiten-Layout für das Rendern breiter Tabellen festlegen. In diesem Fall können Sie festlegen, dass der Tabelleninhalt im Uhrzeigersinn um 90 Grad angezeigt wird. Auf diese Weise wird die Seite im Querformat ausgerichtet und der Inhalt wird um 90 Grad gedreht, um die Kontinuität im Blick zu erhalten. Wie dies erreicht wird, sehen wir als Beispiel weiter unten in diesem Abschnitt.
 
-* **Seitennummerierung** : Die Seitennummerierung ist standardmäßig fortlaufend auf einer PDF. Beispielsweise könnte eine PDF mit 100 Seiten fortlaufende Seitenzahlen von 1 bis 100 haben. Sie können für die Nummerierung auch die Nummerierung einer bestimmten Zahl in allen Abschnitten oder das erste Vorkommen eines Abschnitts neu starten.
+* **Seitennummerierung** : Die Seitennummerierung ist in einer PDF standardmäßig fortlaufend. Beispielsweise könnte ein PDF mit 100 Seiten fortlaufende Seitenzahlen von 1 bis 100 aufweisen. Sie können für die Nummerierung auch die Nummerierung einer bestimmten Zahl in allen Abschnitten oder das erste Vorkommen eines Abschnitts neu starten.
    * **Neu starten von** : Geben Sie die Seitennummer an, von der aus die Nummerierung für dieses Seiten-Layout beginnen soll. Sie können beispielsweise für jedes Kapitel die Seitenzahl festlegen, die neu gestartet werden soll. In diesem Fall müssen Sie die Eigenschaft Neustart von auf 1 für die Layout-Variante Erste Seite des Kapitelseiten-Layouts einstellen. Standardmäßig wird die Seitennummerierung von der vorherigen Seite fortgesetzt.
 
    * **Nur auf das erste Vorkommen anwenden**: Sie können auch beim ersten Vorkommen eines Abschnitts nur mit einer bestimmten Zahl beginnen. Sie können beispielsweise nur das erste Kapitel mit 1 beginnen und die Seitenzahlen für andere Kapitel fortsetzen.
@@ -136,7 +136,7 @@ Das allererste, was Sie in einem Seiten-Layout definieren müssen, ist die Seite
 
 ### Seitenausrichtung und Ansichtsrotation verwenden {#page-orientation-rotation}
 
-Sehen wir uns ein Beispiel an, bei dem eine Kombination aus Hoch- und Querformat, Seitenausrichtung und Ansichtsdrehungseigenschaften verwendet wird. In diesem Beispiel erstellen wir eine PDF mit standardmäßiger Hochformat-Ausrichtung, aber eine Tabelle wird im Querformat mit Inhalten in der 90-Grad-Ansicht im Uhrzeigersinn gerendert. Die endgültige Ausgabe sieht in etwa so aus:
+Sehen wir uns ein Beispiel an, bei dem eine Kombination aus Hoch- und Querformat, Seitenausrichtung und Ansichtsdrehungseigenschaften verwendet wird. In diesem Beispiel erstellen wir eine PDF mit standardmäßiger Hochformat-Ausrichtung, aber eine Tabelle wird in Querformat mit Inhalten in der 90-Grad-Ansicht im Uhrzeigersinn gerendert. Die endgültige Ausgabe sieht in etwa so aus:
 
 <img src="./assets/portrait-landscape-page-layouts.png" width="400">
 
@@ -214,9 +214,9 @@ Führen Sie die folgenden Schritte aus, um die oben genannten Aufgaben durchzuf�
       <img src="./assets/new-style-table-outputclass.png" width="300">
 
 1. Klicken Sie **Alle speichern** um die aktualisierte Datei zu speichern.
-1. Erzeugen Sie die PDF-Ausgabe.
+1. Generieren Sie die PDF-Ausgabe.
 
-Auf der endgültigen PDF wird der Tabelleninhalt im Querformat gerendert, wie am Anfang des Beispiels gezeigt.
+Im endgültigen PDF wird der Tabelleninhalt im Querformat gerendert, wie am Anfang des Beispiels gezeigt.
 
 ### Hinzufügen eines Hintergrundbilds {#add-bg-image}
 
@@ -366,12 +366,13 @@ Es gibt die folgenden Kategorien für Felder, die Sie in Ihr Seiten-Layout einf�
 Jede dieser Feldkategorien enthält verschiedene Varianten, in die die Feldinformationen eingefügt werden können. Ein Datumsfeld kann beispielsweise unterschiedliche Varianten wie `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` usw. aufweisen. Ebenso kann die Seitenzahl Varianten in Form von römischen, dezimalen oder sogar gebietsschemaspezifischen Formaten wie _Arabisch_, _Devanagari_, _Hebräisch_ und mehr aufweisen.
 
 
-Zusätzlich zu den vordefinierten Feldern können Sie auch Metadateninformationen als Variablen oder Felder in Ihrem Seiten-Layout hinzufügen. Diese Metadaten werden in Ihrem Quell-DITA **Zuordnungsinhalt** gespeichert oder können aus den DITA **Zuordnungsdateieigenschaften** oder den **Themendateieigenschaften** ausgewählt und einfach in Ihr Seitenlayout eingefügt werden.
+Zusätzlich zu den vordefinierten Feldern können Sie auch Metadateninformationen als Variablen oder Felder in Ihrem Seiten-Layout hinzufügen. Diese Metadaten können in Ihren Quell-DITA-**(**) oder **Themeninhalt** gespeichert oder aus den DITA-**Dateieigenschaften**, **Themendateieigenschaften** werden.
 
 Sie können die Metadaten aus den folgenden Optionen auswählen:
 
 * **Inhalt zuordnen** umfasst die Metadaten, die Sie im `<topicmeta>` der DITA-Zuordnung definiert haben.
 * **Dateieigenschaften zuordnen** enthält die Metadaten, auf die Sie über die Seite &quot;**&quot;** DITA-Zuordnung zugreifen können.
+* **Themeninhalt** umfasst Metadaten, die im `<prolog>` eines DITA-Themas definiert sind, z. B. Copyright, Autor und andere Details. Um einzelne `<prolog>` abzurufen, können Sie einfache XPath-Ausdrücke verwenden (z. B. //author für den Autorennamen). Fügen Sie für Attributmetadaten das `@` im XPath ein (z. B. //critdates/revidiert/@modified für das geänderte Datum).
 * **Themendateieigenschaften** enthält die Metadaten, auf die Sie über die Seite **Eigenschaften** eines Themas zugreifen können.
 
 
@@ -401,7 +402,7 @@ Im folgenden Beispiel fügen wir eine Seitennummer und einen Kapiteltitel in den
 
    Oder klicken Sie in den Fußzeilenbereich.
 
-1. Fügen Sie ein Absatzelement ein, indem Sie auf die Schaltfläche **HTML-Elemente einfügen** klicken.<img src="./assets/insert-html-element-2.svg" width="25">) und wählen Sie Absatz aus der Liste der Elemente aus.
+1. Fügen Sie ein Absatzelement ein, indem Sie auf die Schaltfläche **HTML-Elemente einfügen** (<img src="./assets/insert-html-element-2.svg" width="25">) und wählen Sie Absatz aus der Liste der Elemente aus.
 
 1. Klicken Sie auf das **Felder einfügen** (![](./assets/insert-fields-icon.svg)).
 
@@ -517,7 +518,7 @@ Das Erscheinungsbild des standardmäßigen Inhaltsverzeichnisses kann mithilfe d
 
 ### Arbeiten mit einem mehrspaltigen Seiten-Layout {#multi-column-layout}
 
-Mehrspaltige Seiten-Layouts sind sehr häufig bei der Veröffentlichung von Zeitschriften oder Indizes in einem Buch. Mit der nativen PDF-Publishing-Funktion können Sie Ihr Dokument einfach in mehrere Spalten aufteilen. Bei Verwendung verschiedener Seiten-Layouts können Sie festlegen, dass nur ein bestimmter Abschnitt in mehrere Spalten unterteilt bleibt, während die anderen Abschnitte in einem einzigen Spalten-Layout (oder normalen Layout) beibehalten werden.
+Mehrspaltige Seiten-Layouts sind sehr häufig bei der Veröffentlichung von Zeitschriften oder Indizes in einem Buch. Mit der nativen PDF-Veröffentlichungsfunktion können Sie Ihr Dokument einfach in mehrere Spalten aufteilen. Bei Verwendung verschiedener Seiten-Layouts können Sie festlegen, dass nur ein bestimmter Abschnitt in mehrere Spalten unterteilt bleibt, während die anderen Abschnitte in einem einzigen Spalten-Layout (oder normalen Layout) beibehalten werden.
 
 Um ein Seiten-Layout mit mehreren Spalten zu erstellen, führen Sie die folgenden Schritte aus:
 

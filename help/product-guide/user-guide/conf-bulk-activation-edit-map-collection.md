@@ -4,9 +4,9 @@ description: Verwenden des Dashboards zur Massenveröffentlichung in AEM Guides.
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 1350304943e86f4f9c5270eaedd36eacb25a6b0f
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
@@ -15,20 +15,20 @@ ht-degree: 2%
 
 Sie können eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie Zuordnungsdatei oder Vorgaben zu einer Sammlung hinzufügen oder daraus entfernen. Um eine Massen-Aktivierungszuordnungssammlung zu bearbeiten, führen Sie die folgenden Schritte aus:
 
-1. Wählen Sie **Guides** aus der Liste der Tools aus.
+1. Klicken Sie oben auf das Adobe Experience Manager-Logo und anschließend auf **Tools**.
 
-1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
+1. Wählen Sie im **Tools**-Bedienfeld **Guides** aus.
 
-1. Klicken Sie auf die Kachel **Publish-Dashboard** Massenverarbeitung“.
+1. Wählen Sie die **Dashboard für Massenveröffentlichung** aus.
 
-   Eine Liste der Massenaktivierungszuordnungssammlungen wird angezeigt.
+   Das Dashboard für die Massenveröffentlichung wird mit einer Liste von Zuordnungssammlungen für die Massenaktivierung angezeigt. Sie können auf dieses Dashboard auch über das linke Bedienfeld der Startseite von [Adobe Experience Manager Guides zugreifen](intro-home-page.md).
 
-1. Wählen Sie die zu bearbeitende Sammlung aus und klicken Sie auf **Öffnen**.
+1. Wählen Sie die Sammlung aus, die Sie bearbeiten möchten, und klicken Sie auf **Öffnen**.
 
-1. Klicken Sie auf **Bearbeiten**.
+1. Wählen Sie **Bearbeiten** aus.
 
    Die Sammlungsseite der Massen-Aktivierungskarte wird angezeigt, auf der Sie die Karten zusammen mit den vorkonfigurierten Voreinstellungen für jedes verfügbare Gebietsschema sehen.
-Sie können die verschiedenen Arten von Ausgabevorgaben zusammen mit ihren Symbolen wie AEM Site-, PDF-, Native PDF-, HTML5-, benutzerdefinierte und JSON-Ausgabe anzeigen
+Sie können die verschiedenen Arten von Ausgabevorgaben zusammen mit ihren Symbolen wie AEM Site, PDF, Native PDF, HTML5, Benutzerdefiniert und JSON-Ausgabe anzeigen
 .
 
    >[!NOTE]
@@ -40,13 +40,13 @@ Sie können die verschiedenen Arten von Ausgabevorgaben zusammen mit ihren Symbo
 
 1. Wenn Sie eine Zuordnung aus der Sammlung entfernen möchten, erweitern Sie die Zuordnung und wählen Sie die Option **Zum Entfernen auswählen** aus.
 
-1. Klicken Sie auf **Löschen**.
+1. Wählen Sie **Löschen** aus.
 
    ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    Die ausgewählte Zuordnung wird aus der Massen-Aktivierungszuordnungssammlung entfernt.
 
-1. Klicken Sie auf **Fertig**.
+1. Wählen Sie **Fertig**.
 
 
 **Übergeordnetes Thema:**[ Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

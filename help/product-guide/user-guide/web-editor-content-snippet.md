@@ -4,9 +4,9 @@ description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Guides. Erfahren S
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2386'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Sie können auch eine Verbindung zu JSON-Datendateien über einen Datei-Connecto
 
 ## Bedienfeld „Datenquellen“
 
-Wählen Sie **Datenquellen** ![Datenquelle](images/data-source-icon.svg) im linken Bereich aus, um die verbundenen Datenquellen anzuzeigen. Das Bedienfeld Datenquellen wird geöffnet und zeigt alle verbundenen Datenquellen an.
+Wählen Sie **Datenquellen** ![Datenquelle](images/data-sources-new-icon.svg) im linken Bereich aus, um die verbundenen Datenquellen anzuzeigen. Das Bedienfeld Datenquellen wird geöffnet und zeigt alle verbundenen Datenquellen an.
 
 Abhängig von Ihrem Setup kann Ihr Administrator einen Datenquellen-Connector konfigurieren:
 
@@ -27,9 +27,9 @@ Abhängig von Ihrem Setup kann Ihr Administrator einen Datenquellen-Connector ko
 <summary> Cloud Services </summary>
 
 
-- Wenn Sie die Version Oktober 2023 oder höher verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Service, wie [einen Datenquellen-Connector über ](../cs-install-guide/conf-data-source-connector-tools.md) Benutzeroberfläche konfigurieren).
+- Wenn Sie die Version vom Oktober 2023 oder höher verwenden, erfahren Sie, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md) im Installations- und Konfigurationshandbuch für Cloud Services finden.
 
-- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Service, wie [ einen Datenquellen-](../cs-install-guide/conf-data-source-connector.md) konfigurieren.
+- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Services, wie [ einen Datenquellen-Connector ](../cs-install-guide/conf-data-source-connector.md).
 
 </details>
 
@@ -44,7 +44,7 @@ Abhängig von Ihrem Setup kann Ihr Administrator einen Datenquellen-Connector ko
 
 >[!NOTE]
 >
-> Es werden die Datenquellen angezeigt, für die Ihr Administrator den Connector konfiguriert hat.
+> Sie sehen die Datenquellen, für die Ihr Administrator den Connector konfiguriert hat.
 
 
 ## Listenansicht oder Kachelansicht anzeigen
@@ -53,13 +53,13 @@ Sie können zwischen der Listen- oder Kachelansicht wechseln, um die verschieden
 
 Wählen Sie eine Datenquelle aus, um die Inhaltsfragmentgeneratoren und die Themengeneratoren anzuzeigen, die für die ausgewählte Datenquelle verfügbar sind.
 
-### ![](images/data-sources-list-view-icon.svg) der Listenansicht
+### Listenansicht
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 
 *Liste der verbundenen Datenquellen.*
 
-### Kachelansicht   ![](images/data-sources-tile-view-icon.svg)
+### Kachelansicht
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
@@ -70,14 +70,13 @@ Sie haben zwei Möglichkeiten, um Daten aus Datenquellen zu verwenden:
 - Thema erstellen
 
 
-
 ## Einfügen eines Inhaltsausschnitts aus Ihrer Datenquelle
 
-AEM Guides bietet die Funktion zum Verbinden mit Ihrer Datenquelle. Sie können Ihre Daten abrufen, in Ihre Themen einfügen und bearbeiten. Sie können ein Inhaltsfragment einfach mit dem Inhaltsfragment-Generator erstellen und es in Ihren Themen wiederverwenden.
+Adobe Experience Manager Guides bietet die Funktion zum Verbinden mit Ihrer Datenquelle. Sie können Ihre Daten abrufen, in Ihre Themen einfügen und bearbeiten. Sie können ein Inhaltsfragment einfach mit dem Inhaltsfragment-Generator erstellen und es in Ihren Themen wiederverwenden.
 
 Führen Sie die folgenden Schritte aus, um einen Inhaltsausschnitt mit dem Inhaltsausschnitt-Generator zu erstellen und in Ihr Thema einzufügen:
 
-1. Wählen Sie **Datenquellen** ![](images/data-source-icon.svg)   Im linken Bereich, um die verbundenen Datenquellen anzuzeigen.
+1. Wählen Sie **Datenquellen** ![](images/data-sources-new-icon.svg) im linken Bereich aus, um die verbundenen Datenquellen anzuzeigen.
 
 1. Wählen Sie eine Datenquelle aus, um die für die ausgewählte Datenquelle verfügbaren Inhaltsfragment-Generatoren anzuzeigen.
 
@@ -87,11 +86,13 @@ Führen Sie die folgenden Schritte aus, um einen Inhaltsausschnitt mit dem Inhal
 
 1. Wählen Sie **Hinzufügen**, um einen neuen Inhaltsausschnitt-Generator hinzuzufügen. Das Bedienfeld **Inhaltsfragmentgenerator hinzufügen** wird geöffnet.
 
+   ![](images/add-content-snippet-generator-empty-screen.png){width="500" align="left"}
+
 1. Geben Sie die Abfrage in das Textfeld **Datenabfrage** ein.  Wählen Sie **Beispielabfrage kopieren** aus, um eine Datenabfrage schnell zu kopieren. Anstatt die Abfrage manuell zu erstellen, können Sie die Beispielabfrage kopieren und in das Textfeld **Datenabfrage** einfügen. Bearbeiten Sie dann einfach die Abfrage gemäß Ihren Datenanforderungen.
 
    >[!NOTE]
    >
-   >Experience Manager bietet verschiedene Beispielabfragen für alle Ressourcen in den verschiedenen Datenquellen. Diese werden der Datenquelle zugeordnet, aus der Sie die Daten abrufen.
+   > Experience Manager bietet verschiedene Beispielabfragen für alle Ressourcen in den verschiedenen Datenquellen. Diese werden der Datenquelle zugeordnet, aus der Sie die Daten abrufen.
 
 1. Wenn Sie einen Datei-Connector verwenden, können Sie die JSON-Datei von Ihrem Computer hochladen oder eine JSON-Datei aus Adobe Experience Manager Assets durchsuchen.
 
@@ -114,7 +115,7 @@ Die vordefinierten Vorlagen für die ausgewählte Datenquelle werden in der Drop
    >
    > Ihr Administrator kann beim Konfigurieren der Datenquellen-Connectoren Standardressourcen konfigurieren oder Ressourcen für mehrere URLs hinzufügen.
 
-1. Klicken Sie **Abrufen**, um die Daten aus der Datenquelle abzurufen und die Vorlage auf die Daten anzuwenden, die aus der SQL-Abfrage resultieren.
+1. Wählen Sie **Abrufen** aus, um die Daten aus der Datenquelle abzurufen und die Vorlage auf die Daten anzuwenden, die aus der SQL-Abfrage resultieren.
 
 1. Sie können die Daten in der Vorschau oder in der DITA-Quellansicht anzeigen.
 
@@ -124,10 +125,11 @@ Zum Beispiel:
       - Wenn Sie die Vorlage Jira-ordered-list ausgewählt haben, können Sie eine geordnete Liste für die Jira-Probleme anzeigen.
 
    1. Die Quellansicht zeigt die Daten in der DITA-Quellansicht an.
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+
+      ![](images/add-content-snippet-generator-preview.png){width="500" align="left"}
       *Fügen Sie einen Inhaltsfragment-Generator hinzu. Zeigen Sie die Daten im Quell- oder Vorschaumodus an.*
 
-1. Geben Sie zum Speichern der Abfrageergebnisse den Namen des Generators ein und klicken Sie dann auf **HINZUFÜGEN**.   Der Liste wird ein neuer Inhaltsausschnitt-Generator hinzugefügt.
+1. Um die Ergebnisse der Abfrage zu speichern, geben Sie den Namen des Generators ein und wählen Sie dann **Hinzufügen**.   Der Liste wird ein neuer Inhaltsausschnitt-Generator hinzugefügt.
 
    >[!NOTE]
    >
@@ -138,7 +140,7 @@ Zum Beispiel:
 Klicken Sie mit der rechten Maustaste auf einen Inhaltsfragment-Generator, um die Optionen zu öffnen. Mit den Optionen können Sie die folgenden Vorgänge ausführen:
 
 - **Vorschau**: Verwenden Sie diese Option, um einen Bereich zu öffnen und einen kleinen Teil der Anzeige der Daten in der Ausgabe anzuzeigen.
-- **Einfügen**: Verwenden Sie diese Option, um das ausgewählte Inhaltsfragment in das im Web-Editor geöffnete Thema einzufügen. Da die Daten als Ausschnitt eingefügt werden, können Sie die Daten innerhalb Ihres Themas auch im Web-Editor bearbeiten.
+- **Einfügen**: Verwenden Sie diese Option, um das ausgewählte Inhaltsfragment in das im Editor geöffnete Thema einzufügen. Da die Daten als Ausschnitt eingefügt werden, können Sie die Daten innerhalb Ihres Themas auch im Editor bearbeiten.
 
   >[!NOTE]
   > 
@@ -148,11 +150,11 @@ Klicken Sie mit der rechten Maustaste auf einen Inhaltsfragment-Generator, um di
 - **Löschen**: Verwenden Sie diese Option, um den ausgewählten Inhaltsausschnitt-Generator zu löschen.
 - **Duplizieren**: Verwenden Sie diese Option, um ein Duplikat oder eine Kopie des ausgewählten Inhaltsfragment-Generators zu erstellen. Das Duplikat wird standardmäßig mit einem Suffix (wie generator_1) erstellt.
 
-### Einfügen eines Abfrageausschnitts
+### Einfügen von Abfragedaten
 
-Sie können auch den ![](images/data-source-icon.svg) **Abfragenausschnitt einfügen** verwenden   in der Hauptsymbolleiste aus, um das Datenfragment in die Themen einzufügen.  Sie können einen Generator aus dem Dropdown-Menü auswählen, Ihre Abfrage bearbeiten oder die Vorlage ändern und die Daten in Ihr Thema einfügen.
+Sie können auch den ![](images/data-sources-new-icon.svg) **Abfragedaten** von der Symbolleiste verwenden, um das Datenfragment in die Themen einzufügen.  Sie können einen Generator aus dem Dropdown-Menü auswählen, Ihre Abfrage bearbeiten oder die Vorlage ändern und die Daten in Ihr Thema einfügen.
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){width="800" align="left"}
 
 *Bearbeiten und Einfügen eines Datenausschnitts.*
 
@@ -184,7 +186,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
    **Konfiguration abrufen**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/fetch-configuration.png){width="300" align="left"}
 
    *Fügen Sie die Datenabfrage, die Datenzuordnungsvorlage und die Stammknotendetails für den Themengenerator hinzu und geben Sie ihm im Bedienfeld Konfiguration abrufen einen eindeutigen Namen.*
 
@@ -208,7 +210,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
    1. Geben Sie den **Stammknoten“**. Dies ist der Knoten, auf dem Sie auf Ihre Daten zugreifen möchten. Der Themengenerator erstellt dann jedes Thema auf der im Stammknoten definierten Ebene. Sie können beispielsweise „Probleme“ als Stammknoten in Jira hinzufügen. Wenn eine Abfrage also 13 Probleme zurückgibt, erhalten Sie 13 Themen, ein Thema für jedes Problem.
 
-   1. Klicken Sie **Abrufen**, um die Daten aus der Datenquelle abzurufen und die Vorlage auf die Daten anzuwenden, die aus der SQL-Abfrage resultieren. Die Vorschau zeigt einen kleinen Bruchteil des Themas im Format der ausgewählten Vorlage an. Sie können beispielsweise ein einzelnes Jira-Problem mit allen Feldern anzeigen, die aus der Abfrage resultieren.
+   1. Wählen Sie **Abrufen** aus, um die Daten aus der Datenquelle abzurufen und die Vorlage auf die Daten anzuwenden, die aus der SQL-Abfrage resultieren. Die Vorschau zeigt einen kleinen Bruchteil des Themas im Format der ausgewählten Vorlage an. Sie können beispielsweise ein einzelnes Jira-Problem mit allen Feldern anzeigen, die aus der Abfrage resultieren.
    1. Geben Sie den Namen des Themengenerators ein.
 
       >[!NOTE]
@@ -240,13 +242,13 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
    *Fügen Sie die Metadateneigenschaften im Bedienfeld „Metadaten“ hinzu, die an die Themen übergeben werden.*
 
-1. Geben Sie den Namen des Generators ein und klicken Sie auf **Speichern** um die Abfrageergebnisse zu speichern. Der Liste wird ein neuer Themengenerator hinzugefügt.
+1. Geben Sie den Namen des Generators ein und wählen Sie **Speichern**, um die Abfrageergebnisse zu speichern. Der Liste wird ein neuer Themengenerator hinzugefügt.
 
-1. Klicken Sie **Speichern und**), um den Themengenerator zu speichern und neue Themen aus dem Themengenerator zu generieren.
+1. Wählen Sie **Speichern und**), um den Themengenerator zu speichern und neue Themen aus dem Themengenerator zu generieren.
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/add-topic-generator.png){width="800" align="left"}
 
    *Generieren neuer Themen aus einem vorhandenen Themengenerator.*
 
@@ -283,7 +285,7 @@ Klicken Sie mit der rechten Maustaste auf einen Themengenerator, um die **Option
 Experience Manager-Vorlagen unterstützen auch die Velocity-Tools (Version 2.0). Mit diesen Tools können Sie verschiedene Funktionen auf die Daten anwenden, die Sie aus den Datenquellen abrufen. Erfahren Sie mehr über die Verwendung der [Velocity-Tools](https://velocity.apache.org/tools/2.0/generic.html) und die Funktionen, die Sie anwenden können.
 
 Führen Sie die folgenden Schritte aus, um ein Velocity-Tool in einer Vorlage zu verwenden:
-1. Bearbeiten Sie eine Velocity-Vorlage im Web-Editor.
+1. Bearbeiten Sie eine Velocity-Vorlage im Editor.
 1. Fügen Sie ein Tool und seine Funktion im `<tool.function>` hinzu. Zum Beispiel:
    - Verwenden Sie `$mathTool.random`, um mit dem mathematischen Tool eine zufällige Zahl zu generieren.
    - Um die Summe der Zahlen mithilfe des mathematischen Tools zu erzeugen, verwenden Sie `$mathTool.add(num1, num2)`.

@@ -1,48 +1,76 @@
 ---
 title: Vorschau eines Themas
-description: Erfahren Sie, wie Sie in AEM Guides eine Vorschau eines Themas anzeigen. Erfahren Sie mehr über die Funktionen, die im Vorschaumodus verfügbar sind. Verzweigung, Wiederherstellung und nachfolgende Versionierung in AEM-Handbüchern.
+description: Erfahren Sie, wie Sie in Adobe Experience Manager Guides eine Vorschau eines Themas anzeigen. Erfahren Sie mehr über die Funktionen, die im Vorschaumodus verfügbar sind. Verzweigen, Wiederherstellen und nachfolgende Versionierung in Experience Manager Guides.
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1988'
 ht-degree: 0%
 
 ---
 
 # Vorschau eines Themas {#id1696II000QR}
 
-Nachdem ein Thema erstellt wurde, generiert AEM Guides eine Vorschau des Themas. Der Vorschaumodus bietet verschiedene Funktionen, mit denen Sie mit Ihrem Dokument arbeiten können.
+Nachdem ein Thema erstellt wurde, generiert Adobe Experience Manager Guides eine Vorschau des Themas. Der Vorschaumodus bietet verschiedene Funktionen, mit denen Sie mit Ihrem Dokument arbeiten können.
+
+Es gibt zwei Möglichkeiten, ein Thema in Experience Manager Guides in der Vorschau anzuzeigen:
+
+- [Im Editor](#preview-topics-from-the-editor)
+- [Über die Assets-Benutzeroberfläche](#preview-topics-from-the-assets-ui)
+
+## Vorschau von Themen im Editor
+
+Führen Sie die folgenden Schritte aus, um ein Thema im Editor in der Vorschau anzuzeigen:
+
+1. Navigieren Sie im Repository-Bereich zu dem Thema, das Sie anzeigen möchten.
+1. Bewegen Sie den Mauszeiger über das Thema, das Sie in der Vorschau anzeigen möchten, und wählen Sie **Vorschau** aus dem Optionsmenü aus.
+
+   ![](images/preview-topic.png){width="600" align="left"}
+
+   Die Vorschau des Themas wird angezeigt.
+
+   ![](images/preview-pop-up.png){width="800" align="left"}
+
+**Vorschau von Themen im Vorschaumodus**
+
+Wenn Sie ein Thema im Editor öffnen und in den **Vorschau**-Modus wechseln, der sich in der rechten unteren Ecke des Inhaltsbearbeitungsbereichs befindet, können Sie eine Vorschau des aktuell geöffneten Themas anzeigen.
+
+Weitere Informationen finden Sie unter [Editor-Ansichten](./web-editor-views.md#preview).
+
+
+## Vorschau von Themen über die Assets-Benutzeroberfläche
 
 Führen Sie die folgenden Schritte aus, um eine Vorschau eines Themas anzuzeigen:
 
 1. Navigieren Sie in der Assets-Benutzeroberfläche zu dem Thema, das Sie anzeigen möchten.
-1. Klicken Sie auf das Thema, das Sie anzeigen möchten.
+1. Wählen Sie das Thema aus, das Sie anzeigen möchten.
 
    Eine Vorschau des Themas wird in der Benutzeroberfläche von Assets angezeigt.
 
    >[!NOTE]
    >
-   > Die Version des aktiven Themas oder der DITA-Zuordnung wird oben rechts auf der Registerkarte Datei des Themas angezeigt.
+   > Sie können die Version des aktiven Themas oder der DITA-Karte oben rechts in der Symbolleiste anzeigen.
 
    >[!IMPORTANT]
    >
-   > Die Positionierung der folgenden Funktionen in der Vorschau-Symbolleiste kann je nach Einrichtung Ihres AEM-Servers unterschiedlich sein. Einige der Funktionen sind möglicherweise in der Hauptsymbolleiste verfügbar, während andere möglicherweise im Menü Mehr verfügbar sind.
+   > Die Positionierung der folgenden Funktionen in der Vorschau-Symbolleiste kann je nach Einrichtung Ihres Adobe Experience Manager-Servers unterschiedlich sein. Einige der Funktionen sind möglicherweise in der Hauptsymbolleiste verfügbar, während andere möglicherweise im Menü Mehr verfügbar sind.
 
-## Im Vorschaumodus verfügbare Funktionen
+## In der Assets-Benutzeroberfläche verfügbare Funktionen für die Vorschau
+
+Wenn Sie die Vorschaufunktion der Assets-Benutzeroberfläche verwenden, stehen in der Symbolleiste die folgenden Vorgänge zur Verfügung:
 
 ![](images/preview-screen.png){width="800" align="left"}
 
-Im Vorschaumodus können Sie in der Symbolleiste die folgenden Vorgänge ausführen:
 
 **Eigenschaften**
 
-Zeigt die Eigenschaften des ausgewählten Themas an. Abhängig von Ihrer AEM-Version können Sie Eigenschaften wie Metadaten, Zeitplan \(de\)aktivierung, Verweise, Dokumentstatus und mehr sehen.
+Zeigt die Eigenschaften des ausgewählten Themas an. Abhängig von Ihrer Adobe Experience Manager-Version können Sie Eigenschaften wie Metadaten, Zeitplan \(de\)aktivierung, Verweise, Dokumentstatus und mehr anzeigen.
 
 >[!NOTE]
 >
-> Die title-Eigenschaft eines Themas wird automatisch aus dem `title`-Tag des DITA-Themas oder der DITA-Zuordnung ausgefüllt. Wenn Sie den Titel mithilfe des Eigenschaftenfensters ändern, geht diese Änderung verloren. Wenn Sie die title-Eigenschaft aktualisieren möchten, sollten Sie dies mit dem Web-Editor tun.
+> Die title-Eigenschaft eines Themas wird automatisch aus dem `title`-Tag des DITA-Themas oder der DITA-Zuordnung ausgefüllt. Wenn Sie den Titel mithilfe des Eigenschaftenfensters ändern, geht diese Änderung verloren. Wenn Sie die title-Eigenschaft aktualisieren möchten, sollten Sie dies mit dem Editor tun.
 
 Die Eigenschaftenseite enthält nützliche Informationen zu den Verweisen, z. B. wo eine Zuordnung oder ein Thema verwendet wird oder welche Verweise in einem Dokument enthalten sind. Auf der Seite „Eigenschaften“ werden zwei Arten von Verweisen für ein Dokument aufgelistet: **Verwendet in** und **Ausgehende Verweise**.
 
@@ -52,25 +80,25 @@ Mit dem Symbol \(+\) im Abschnitt **Verwendet in** Referenzen können Sie weiter
 
 ![](images/used-in-dialog_cs.png){width="800" align="left"}
 
-Durch Klicken auf ![](images/right-arrow-used-in-dialog.svg)Symbol neben einem Dokument werden die Zuordnungs- oder Themendateien angezeigt, in denen dieses Dokument weiter referenziert wird.
+Wenn Sie auf ![](images/right-arrow-used-in-dialog.svg)Symbol neben einem Dokument klicken, werden die Zuordnungs- oder Themendateien angezeigt, auf die das Dokument weiter verwiesen wird.
 
 **Bedingte Filterung \(a/b\)**
 
-Wenn Ihr Thema bedingte Inhalte hat, wird in der Symbolleiste das A/B-Symbol angezeigt. Durch Klicken auf dieses Symbol wird ein Popup geöffnet, in dem Sie den Inhalt gemäß den verfügbaren Bedingungen im Thema filtern können.
+Wenn Ihr Thema bedingte Inhalte hat, wird das A/B-Symbol in der Symbolleiste angezeigt. Wenn Sie auf dieses Symbol klicken, wird ein Popup geöffnet, in dem Sie den Inhalt gemäß den verfügbaren Bedingungen im Thema filtern können.
 
 >[!NOTE]
 >
-> Der bedingte Inhalt wird mit heller Hintergrundfarbe im Web-Editor hervorgehoben.
+> Der bedingte Inhalt wird im Editor durch eine helle Hintergrundfarbe hervorgehoben.
 
 ![](images/conditional-popup_cs.png){width="300" align="left"}
 
 **Bearbeiten**
 
-- Öffnen Sie das Thema zur Bearbeitung im Web-Editor. Die Option **Bearbeiten** ist nicht verfügbar, wenn Ihr Administrator die Option **Bearbeiten ohne Auschecken deaktivieren** aktiviert hat. Wenn die Option aktiviert ist, wird die Option **Bearbeiten** erst nach dem Auschecken einer Themendatei angezeigt.
+- Öffnen Sie das Thema zur Bearbeitung im Editor. Die Option **Bearbeiten** ist nicht verfügbar, wenn der Administrator die Option **Bearbeitung deaktivieren ohne die Datei zu sperren** aktiviert hat. Wenn die Option aktiviert ist, wird die Option **Bearbeiten** nur nach dem Sperren einer Themendatei angezeigt.
 
 **Schlüsselauflösung**
 
-- Wenn Sie eine Schlüsselraumdatei für das Thema verwenden möchten, klicken Sie auf das Symbol „Schlüsselauflösung“. Sie können dann im Popup-Fenster „Schlüsselauflösung“ einen Schlüsselbereich auswählen.
+- Wenn Sie eine Schlüsselraumdatei für das Thema verwenden möchten, klicken Sie auf das Symbol „Tastenauflösung“. Sie können dann im Popup-Fenster „Schlüsselauflösung“ einen Schlüsselbereich auswählen.
 
 **Quelle**
 
@@ -78,13 +106,13 @@ Wenn Ihr Thema bedingte Inhalte hat, wird in der Symbolleiste das A/B-Symbol ang
 
   >[!NOTE]
   >
-  > Um die Quell-Code-Ansicht einer DITA-Zuordnungsdatei abzurufen, wählen Sie die Datei in der Assets-Benutzeroberfläche aus und klicken Sie auf Source.
+  > Um die Quellcodeansicht einer DITA-Zuordnungsdatei abzurufen, wählen Sie die Datei in der Assets-Benutzeroberfläche und anschließend Source aus.
 
   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
 **UUID-Link freigeben**
 
-- Mit AEM Guides können Sie UUID-basierte Links für DITA-Karten, -Themen und -Bilddateien an den folgenden Stellen freigeben:
+- Mit Experience Manager Guides können Sie UUID-basierte Links für DITA-Karten, -Themen und -Bilddateien an den folgenden Stellen freigeben:
 
    - Assets-Benutzeroberfläche
    - DITA Map-Konsole
@@ -106,7 +134,7 @@ Wenn Sie den Link von der DITA-Zuordnungskonsole oder dem Vorschaumodus einer Da
 
 **Auschecken/Einchecken**
 
-- Aktiviert bzw. deaktiviert die Funktionen Auschecken und Einchecken . Wenn eine Datei ausgecheckt wird, erhält der aktuelle Benutzer eine exklusive Schreibberechtigung für die Datei. Eine ausgecheckte Datei kann im Web-Editor zur Bearbeitung geöffnet werden. Nachdem Sie die erforderlichen Änderungen vorgenommen haben, klicken Sie auf das Symbol Einchecken , um die Datei in DAM zu speichern.
+- Aktiviert bzw. deaktiviert die Auschecken- und Eincheckfunktionen. Wenn eine Datei ausgecheckt wird, erhält der aktuelle Benutzer eine exklusive Schreibberechtigung für die Datei. Eine ausgecheckte Datei kann im Editor zur Bearbeitung geöffnet werden. Nachdem Sie die erforderliche Änderung vorgenommen haben, klicken Sie auf das Symbol Einchecken , um die Datei in DAM zu speichern.
 
 Wenn Sie ein Thema auschecken, wird der Status der Datei in der Kartenansicht und in der Listenansicht als ausgecheckt angezeigt.
 
@@ -124,7 +152,7 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
 >[!TIP]
 >
-> Best Practices für die Arbeit am Auschecken und Einchecken von Dateien finden Sie im Abschnitt Versionierung von Inhalten im Best Practices-Handbuch.
+> Lesen Sie den Abschnitt Versionierung von Inhalten im Handbuch zu Best Practices für die Arbeit mit dem Auschecken und Einchecken von Dateien.
 
 **Web-basierter Versionsunterschied**
 
@@ -136,11 +164,11 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
    1. Öffnen Sie das Thema im Vorschaumodus.
 
-   1. Klicken Sie in der linken Leiste auf &quot;**&quot;** wählen Sie eine Version aus.
+   1. Wählen Sie in der linken Leiste **Versionsverlauf** und wählen Sie eine Version aus.
 
       ![](images/timeline-versions62_cs.png){width="800" align="left"}
 
-   1. Wählen Sie aus den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und klicken Sie auf **Vorschauversion**. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
+   1. Wählen Sie aus den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und wählen Sie **Vorschauversion** aus. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
 
    1. Wählen Sie aus **Liste** anzeigen die Version aus, mit der Sie die Basisversion vergleichen möchten.
 
@@ -151,9 +179,9 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
       ![](images/version-difference.png){width="800" align="left"}
 
 
-### Verzweigung, Wiederherstellung und nachfolgende Versionierung {#id193PG0Y051X}
+## Verzweigung, Wiederherstellung und nachfolgende Versionierung
 
-- In einer typischen Authoring-Umgebung müssen Sie einen neuen Zweig eines Themas erstellen, um eine bestimmte Version zu unterstützen. Wie bei jedem anderen Versionsverwaltungssystem können Sie mit AEM Guides eine Verzweigung aus einer bestehenden Themenversion erstellen oder zu einer älteren Themenversion zurückkehren. Mithilfe der von AEM Guides bereitgestellten Versionsverwaltungsfunktionen können Sie die folgenden Aufgaben ausführen:
+- In einer typischen Authoring-Umgebung müssen Sie einen neuen Zweig eines Themas erstellen, um eine bestimmte Version zu unterstützen. Wie bei jedem anderen Versionsverwaltungssystem können Sie mit Experience Manager Guides eine Verzweigung aus einer bestehenden Themenversion erstellen oder zu einer älteren Themenversion zurückkehren. Mithilfe der von Experience Manager Guides bereitgestellten Versionsverwaltungsfunktionen können Sie die folgenden Aufgaben ausführen:
 
    - Erstellen einer Verzweigung aus einer vorhandenen Version eines Themas
    - Erstellen nachfolgender Versionen in einer neuen Verzweigung
@@ -165,7 +193,7 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
   Für jedes neue Thema wird die erste Version als 1.0 nummeriert. Danach wird jede neue Version des Themas mit einer inkrementellen Zahl wie 1.1, 1.2 usw. gespeichert. Nachdem Sie eine Verzweigung eines Themas erstellt haben, wird eine neue Verzweigung erstellt. Dabei wird die Versionsnummer, von der aus die Verzweigung erstellt wird, übernommen und am Ende der Version wird eine 0 hinzugefügt. Wie in der Abbildung gezeigt, wird ab Version 1.1 eines Themas eine neue Verzweigung erstellt. Die neue Verzweigung ist als 1.1.0 versioniert. Jedes Mal, wenn Sie dann eine neue Version des Themas in dieser Verzweigung speichern, wird eine inkrementelle Versionsnummer wie 1.1.1, 1.1.2 usw. angezeigt.
 
-  Ähnlich wie bei einer Verzweigung können Sie auch Ihre aktuelle oder aktuelle Version auf eine beliebige Version zurücksetzen, die im Repository vorhanden ist. Um zu einer Version zurückzukehren, wählen Sie einfach die gewünschte Version des Themas aus und klicken Sie **Auf diese Version zurücksetzen** im Bedienfeld **Versionsverlauf**.
+  Ähnlich wie bei einer Verzweigung können Sie auch Ihre aktuelle oder aktuelle Version auf eine beliebige Version zurücksetzen, die im Repository vorhanden ist. Um zu einer Version zurückzukehren, wählen Sie einfach die gewünschte Version des Themas aus und wählen Sie **Auf diese Version zurücksetzen** im Bedienfeld **Versionsverlauf** aus.
 
   Führen Sie die folgenden Schritte aus, um eine Verzweigung zu erstellen, zu einer Version zurückzukehren und nachfolgende Versionen eines Themas beizubehalten:
 
@@ -181,7 +209,7 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
    1. Wählen Sie das Thema aus, für das Sie eine Verzweigung erstellen möchten.
 
-   1. Klicken Sie in der linken Leiste auf **Versionsverlauf**.
+   1. Wählen Sie in der linken Leiste die Option **Versionsverlauf**.
 
       >[!NOTE]
       >
@@ -195,7 +223,7 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
       >
       > Die aktuelle Version eines Themas enthält *\(Current\)* die neben der Versionsnummer erwähnt wird.
 
-   1. Klicken Sie **Auf diese Version zurücksetzen**.
+   1. Wählen Sie **Auf diese Version zurück** aus.
 
       Es wird eine Meldung angezeigt, in der Sie aufgefordert werden, die Erstellung einer neuen Verzweigung zu bestätigen.
 
@@ -213,7 +241,7 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
         ![](images/new_version_without_working_copy.png){width="300" align="left"}
 
-   1. Klicken Sie auf **OK**.
+   1. Wählen Sie **OK** aus.
 
 
   Aus der ausgewählten Version des Themas wird eine neue Verzweigung erstellt. Der obige Prozess gilt auch für die Wiederherstellung zu einer bestimmten Version eines Themas. Technisch gesehen bedeutet die Wiederherstellung zu einer bestimmten Version, dass Sie aus der ausgewählten Version eine neue Verzweigung erstellen und diese Version zur aktuellen Arbeitskopie des Themas machen. Sie können auch den Verlauf der Dateien anzeigen, die im Bericht Versionsrücksetzverlauf rückgängig gemacht wurden. Weitere Informationen zu diesem Bericht finden Sie unter [Versionsverlaufsbericht für zurückgesetzte Dateien](reports-reverted-file-version-history.md#).

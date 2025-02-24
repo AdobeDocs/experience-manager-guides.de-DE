@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4755'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
 - **Ausgabevorgabe**: Ähnlich wie Vorlagen gibt es fünf vorkonfigurierte Ausgabevorgaben:
 
-   - AEM-Site
+   - AEM Site
 
    - PDF
 
@@ -73,6 +73,8 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 - **XML-Editor-**: Auf dieser Registerkarte können Sie das Erscheinungsbild und verschiedene Funktionen des Web-Editors anpassen. Die folgenden konfigurierbaren Einstellungen sind für den Web-Editor verfügbar:
 
    - Konfiguration der Benutzeroberfläche des XML-Editors
+   - XML-Editor-Seitenlayout
+   - Konfiguration des XML-Editors
    - CSS-Vorlagenlayout
    - XML-Editor-Snippets
    - Titel der XML-Inhaltsversion
@@ -106,7 +108,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Informationen zum Konfigurieren **Ausgabevorgaben** finden Sie unter [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [ unter „Konfigurieren und Anpassen des XML-Web-Editors](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [ unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
 
 1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie **Globales Profil**.
 
@@ -230,9 +232,9 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
 
 ## Konfigurieren von Vorlagen {#id1889D0IL0Y4}
 
-AEM Guides verfügt über 7 vordefinierte Themenvorlagen, 2 DITA-Zuordnungsvorlagen und 3 PDF-Vorlagen. Sie können festlegen, dass nur wenige Vorlagen für Ihre Autoren und Herausgeber verfügbar sind. Wenn Sie eine benutzerdefinierte Vorlage verwenden, kann diese konfiguriert und für das Authoring und die Veröffentlichung verfügbar gemacht werden. Auf der Registerkarte **Vorlagen** in der Ordnerprofilkonfiguration können Sie Themenvorlagen, Zuordnungsvorlagen oder PDF-Vorlagen aus globalen Profilen oder Profilen auf Ordnerebene hinzufügen oder entfernen.
+AEM Guides verfügt über 7 vordefinierte Themenvorlagen, 2 DITA-Zuordnungsvorlagen und 3 PDF-Vorlagen. Sie können festlegen, dass nur wenige Vorlagen für Ihre Autoren und Herausgeber verfügbar sind. Wenn Sie eine benutzerdefinierte Vorlage verwenden, kann diese konfiguriert und für das Authoring und die Veröffentlichung verfügbar gemacht werden. Auf der Registerkarte **Vorlagen** in der Ordnerprofilkonfiguration können Sie Topic-, Zuordnungs- oder PDF-Vorlagen zu globalen Profilen oder Profilen auf Ordnerebene hinzufügen oder entfernen.
 
-Selbst vor dem Konfigurieren der Themen-, Zuordnungs- oder PDF-Vorlagen auf globaler oder Ordnerebene können Sie auch einen Speicherort für Ihre benutzerdefinierten Vorlagen definieren. Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts für die Vorlagen finden Sie unter [Konfigurieren des benutzerdefinierten DITA-Vorlagenordnerpfads](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Auch vor dem Konfigurieren der Themen-, Karten- oder PDF-Vorlagen auf globaler oder Ordnerebene können Sie einen Speicherort für Ihre benutzerdefinierten Vorlagen definieren. Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts für die Vorlagen finden Sie unter [Konfigurieren des benutzerdefinierten DITA-Vorlagenordnerpfads](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
 Führen Sie die folgenden Schritte aus, um die Themen-, Zuordnungs- oder PDF-Vorlagen einem Ordnerprofil hinzuzufügen:
 
@@ -259,7 +261,7 @@ Führen Sie die folgenden Schritte aus, um die Themen-, Zuordnungs- oder PDF-Vor
 
    ![](assets/search-author-temp.png){width="800" align="left"}
 
-1. Fügen Sie die erforderlichen Themen-, Zuordnungs- und PDF-Vorlagen zu Ihrem Profil hinzu.
+1. Fügen Sie Ihrem Profil die erforderlichen Themen-, Zuordnungs- und PDF-Vorlagen hinzu.
 
    Um eine Vorlage hinzuzufügen, führen Sie einen der folgenden Schritte aus:
 
@@ -355,7 +357,7 @@ Führen Sie die folgenden Schritte aus, um globale oder ordnerspezifische Ausgab
 
 1. Auf der Profilseite. Klicken Sie auf die Registerkarte **Ausgabevorgaben**.
 
-   Es wird eine Liste mit vordefinierten Ausgabevorgaben angezeigt, darunter AEM-Site, PDF, HTML5, EPUB und BENUTZERDEFINIERT.
+   Es wird eine Liste vordefinierter Ausgabevorgaben angezeigt, darunter AEM Site, PDF, HTML5, EPUB und CUSTOM.
 
 1. Führen Sie einen der folgenden Schritte aus, um eine Ausgabevorgabe zu erstellen oder zu bearbeiten:
 
@@ -391,7 +393,7 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 1. Auf der Profilseite. Klicken Sie auf die Registerkarte **Ausgabevorgaben**.
 
-   Es wird eine Liste mit vordefinierten Ausgabevorgaben angezeigt, darunter AEM-Site, PDF, HTML5, EPUB und BENUTZERDEFINIERT.
+   Es wird eine Liste vordefinierter Ausgabevorgaben angezeigt, darunter AEM Site, PDF, HTML5, EPUB und CUSTOM.
 
 1. Wählen Sie die Ausgabevorgabe aus, die Sie auf vorhandene DITA-Zuordnungen anwenden möchten.
 
@@ -407,9 +409,15 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 
 
-## Konfigurieren von KI-gestützten Smart-Vorschlägen im Web-Editor {#conf-ai-smart-suggestions}
+## Konfigurieren des KI-Assistenten für die intelligente Hilfe und das Authoring
 
 Für ![AEM Cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service .
+
+Der KI-Assistent in Adobe Experience Manager Guides ist ein leistungsstarkes, KI-gesteuertes Tool, mit dem Sie Ihre Inhalte durch intelligentes Authoring und die Wiederverwendung von Inhalten verbessern können. Es vereint zwei robuste KI-Funktionen - **Authoring** und **Help** - in der Experience Manager Guides-Oberfläche, sodass Sie Dokumente und Informationen schneller und effizienter erstellen und aufrufen können.
+
+Konfigurationsdetails finden Sie unter [KI-Assistenten-Konfiguration](./conf-smart-suggestions.md).
+
+**Konfigurieren von KI-gestützten Smart-Vorschlägen**
 
 Sie können die KI-gestützten intelligenten Vorschläge konfigurieren und den Autoren dabei helfen, den vorhandenen Inhalt wiederzuverwenden und einfach richtige und konsistente Inhaltsreferenzen zu erstellen. Auf der Registerkarte **KI** Konfiguration) können Sie die Einstellungen von **Wiederverwendbare Inhalte vorschlagen** über das Bedienfeld KI-Assistent im Web-Editor steuern.
 
@@ -424,9 +432,10 @@ Führen Sie die folgenden Schritte aus, um die Standard-KI-Konfiguration im glob
    >Sie können KI-basierte Smart-Vorschläge für das globale Profil oder ein Profil auf Ordnerebene konfigurieren.
 
 1. Wählen Sie auf der Profilseite die Registerkarte **KI-Konfiguration** aus.
+
    ![Registerkarte „KI-Konfiguration“ im globalen Profil](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
-1. Klicken Sie auf **Bearbeiten**.
+1. Wählen Sie **Bearbeiten** aus.
 1. Als Administrator können Sie die folgenden Einstellungen konfigurieren:
 
    **Mindestzeichen**: Geben Sie die Mindestanzahl von Zeichen ein, die Autorinnen und Autoren eingeben müssen, um die Vorschläge zu erhalten. Wenn diese Zahl beispielsweise 7 ist, muss der Autor mindestens 7 Zeichen hinzufügen, um einen Smart-Vorschlag anzuzeigen.
@@ -443,16 +452,13 @@ Führen Sie die folgenden Schritte aus, um die Standard-KI-Konfiguration im glob
 
 Erfahren Sie mehr darüber, wie Sie [KI-basierte Smart-Vorschläge](../user-guide/authoring-ai-based-smart-suggestions.md) zum Hinzufügen von Inhaltsreferenzen beim Authoring im Web-Editor anzeigen und hinzufügen können.
 
-
-
-
-## Konfigurieren der KI-gestützten Smart-Hilfe im Web-Editor {#conf-ai-guides-assistant}
+**Standardfragen für die intelligente Hilfe anpassen**
 
 Für ![AEM Cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-Sie können die KI-gestützte **Smart-Hilfe** konfigurieren, damit die Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-Auf der Registerkarte **XML** Editor-Konfiguration“ können Sie die Standardfragen des **Smart-Hilfebereichs** im Web-Editor konfigurieren.
+Auf der Registerkarte **XML** Editor-Konfiguration“ können Sie die Standardfragen des Bedienfelds **Hilfe** konfigurieren.
 
 >[!NOTE]
 >
@@ -494,13 +500,27 @@ Führen Sie die folgenden Schritte aus, um die Standardfragen zu konfigurieren:
 Erfahren Sie mehr über die Verwendung der [KI-gestützten Smart-Hilfe](../user-guide/ai-based-smart-help.md) um die erforderlichen Inhalte in der Experience Manager Guides-Dokumentation zu finden.
 
 
-## Konfigurieren und Anpassen des XML-Web-Editors {#id2065G300O5Z}
+## XML-Editor konfigurieren und anpassen {#id2065G300O5Z}
 
-Standardmäßig verfügt der XML-Web-Editor über viele Funktionen, die Ihre Autoren beim Erstellen von DITA-Dokumenten unterstützen. Wenn Sie in einer eingeschränkten Umgebung arbeiten, können Sie auswählen, welche Funktionen für Ihre Autoren verfügbar sein sollen. Auf der Registerkarte Konfiguration des XML-Editors können Sie die Funktionen einfach steuern und das Erscheinungsbild Ihres Web-Editors ändern. Als Admin können Sie die folgenden Komponenten des Web-Editors anpassen:
+Standardmäßig verfügt der XML-Editor über viele Funktionen, die Ihre Autoren beim Erstellen von DITA-Dokumenten unterstützen. Wenn Sie in einer eingeschränkten Umgebung arbeiten, können Sie auswählen, welche Funktionen für Ihre Autoren verfügbar sein sollen. Auf der Registerkarte Konfiguration des XML-Editors können Sie die Funktionen einfach steuern und das Erscheinungsbild Ihres Editors ändern. Als Admin können Sie die folgenden Komponenten des Editors anpassen:
 
 **Konfiguration der Benutzeroberfläche des XML-Editors**
 
-Diese Einstellung steuert die Symbolleiste und die anderen Elemente der Benutzeroberfläche des Web-Editors. Klicken Sie auf das Download-Symbol, um die Datei ui\_config.json auf Ihr lokales System herunterzuladen. Sie können dann Änderungen an der Datei vornehmen und die Datei auf die gleiche Weise hochladen. Je nachdem, wo Sie die Datei hochladen, ob global oder im Profil auf Ordnerebene, werden die Änderungen entsprechend angewendet. Weitere Informationen zum Anpassen des XML-Editors mithilfe der Datei ui\_config.json finden Sie unter [Symbolleiste anpassen](conf-web-editor-customize-toolbar.md#).
+Mit dieser Einstellung können Sie JSON-Erweiterungen erstellen, die die in der `ui_config.json`-Datei vorgenommenen Änderungen widerspiegeln. Sie können diese Erweiterungen unabhängig auf Ordnerprofilebene hochladen, was eine höhere Flexibilität und Anpassung bietet. Wenn Sie beispielsweise Änderungen an der Konfiguration des **XML-Editors** vornehmen, wie z. B. eine Schaltfläche aktualisieren, erkennt das System automatisch die Unterschiede. Durch Hochladen dieser Änderungen in die **Konfiguration der Benutzeroberfläche des XML-Editors** und Konvertieren in JSON-Erweiterungen mithilfe der Schaltfläche **UI-Konfiguration in JSON**&quot; generiert das System eine Erweiterung, die die neue Funktionalität enthält.
+
+Erfahren Sie mehr über **Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor**.
+
+**Seiten-Layout des XML-Editors**
+
+Mit dieser Funktion können Sie CSS-Dateien hochladen, um die neuen Erweiterungen zu gestalten, die unter der **XML Editor UI Configuration“ hochgeladen**. Das hochgeladene CSS wird konsistent auf alle relevanten Anwendungen angewendet, sodass Sie ein einheitliches und optimiertes Erscheinungsbild für Ihre Benutzeroberflächenanpassungen erhalten.
+
+**XML-Editor-Konfiguration**
+
+Mit dieser Einstellung werden die Symbolleiste und die anderen Elemente der Benutzeroberfläche des Editors gesteuert. Wählen Sie das **Herunterladen**-Symbol aus, um die `ui\_config.json`-Datei auf Ihr lokales System herunterzuladen. Sie können dann Änderungen an der Datei vornehmen und die Datei auf die gleiche Weise hochladen. Je nachdem, wo Sie die Datei hochladen, ob global oder im Profil auf Ordnerebene, werden die Änderungen entsprechend angewendet. Weitere Informationen zum Anpassen des XML-Editors mithilfe der `ui\_config.json file` finden Sie unter [Symbolleiste anpassen](conf-web-editor-customize-toolbar.md#).
+
+>[!NOTE]
+>
+> Für AEM Guides Version 2502 und neuere Versionen wird empfohlen, zur Anpassung Erweiterungs-JSON statt `ui_config.json` zu verwenden. Weitere Informationen finden Sie im Abschnitt **Konfiguration der Benutzeroberfläche des XML** Editors weiter oben.
 
 **CSS-Vorlagenlayout**
 
