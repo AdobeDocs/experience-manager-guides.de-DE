@@ -1,10 +1,11 @@
 ---
-title: AEM-Site
+title: AEM Site
 description: Erstellen und konfigurieren Sie die AEM-Sites-Voreinstellung in AEM Guides über das Zuordnungs-Dashboard. Verwenden Sie die AEM Sites-Unterstützung, um eine artikelbasierte Ausgabe zu generieren, verknüpfte Themen zu veröffentlichen , zu conref hinzuzufügen und eine Zeichenfolge innerhalb des Inhalts zu suchen.
 feature: Publishing
 role: User
+hide: true
 exl-id: 41c0d4d5-5c46-4d2b-90b3-8c441fee8e99
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Für die AEM Sites-Ausgabe stehen die folgenden Optionen zur Verfügung:
 | Vorhandene Ausgabeseiten | Wählen Sie die Option **Inhalt überschreiben**, um den Inhalt auf den vorhandenen Seiten zu überschreiben. Diese Option überschreibt nur den Inhalt, der unter den Inhalts- und Kopfknoten der Seite vorhanden ist. Diese Option ermöglicht die gemischte Veröffentlichung von Inhalten. Durch Auswahl dieser Option können Sie das Löschen verwaister Seiten aus der veröffentlichten Ausgabe auswählen. Dies ist auch die Option *Standard* zum Erstellen der AEM Sites-Ausgabe.<br><br>Wählen Sie die Option **Löschen und Erstellen**, um das Löschen vorhandener Seiten während der Veröffentlichung zu erzwingen. Diese Option löscht den Seitenknoten sowie den Inhalt und alle untergeordneten Seiten. Verwenden Sie diese Option, wenn Sie die Design-Vorlage Ihrer Ausgabevorgabe geändert haben oder wenn Sie möchten, dass zusätzliche Seiten, die bereits im Ziel vorhanden sind, entfernt werden. |
 | Verwaiste Seiten löschen | Wenn Sie in der Einstellung **Vorhandene Ausgabeseiten** die Option **Inhalt überschreiben** auswählen, wird diese Option angezeigt. Wenn Sie diese Option auswählen, werden alle verwaisten Seiten aus der veröffentlichten AEM-Site gelöscht. Damit diese Funktion erfolgreich ausgeführt werden kann, müssen Sie die gesamte DITA-Zuordnung veröffentlichen und nicht die inkrementelle Veröffentlichung verwenden.<br><br>Angenommen, Sie haben eine DITA-Karte veröffentlicht, die die Themen a.dita, b.dita und c.dita enthält. Bevor Sie die Karte erneut veröffentlichen, haben Sie das Thema b.dita aus der Karte entfernt. Wenn Sie diese Option jetzt ausgewählt haben, wird der gesamte Inhalt, der mit b.dita zusammenhängt, aus der AEM Sites-Ausgabe entfernt und nur a.dita und c.dita werden veröffentlicht.<br><br>Diese Funktion entfernt keine veröffentlichten untergeordneten Zuordnungen. Wenn Ihre übergeordnete Zuordnung beispielsweise eine untergeordnete Zuordnung enthält und Sie die gesamte untergeordnete Zuordnung entfernen, wird der Inhalt der untergeordneten Zuordnung nicht aus der veröffentlichten Ausgabe gelöscht. Wenn Sie jedoch ein Thema aus einer untergeordneten Zuordnung entfernen und erneut veröffentlichen, wird der Inhalt des entfernten Themas aus der Site-Ausgabe gelöscht.<br><br>Wenn referenzierte Inhalte vorhanden sind und diese Inhalte vor der erneuten Veröffentlichung entfernt werden, werden die Daten der referenzierten Inhalte nicht entfernt.<br><br>**Hinweis**: Informationen zu gelöschten verwaisten Seiten werden ebenfalls in den Ausgabegenerierungsprotokollen erfasst. Weitere Informationen zum Zugriff auf die Protokolldateien finden Sie unter [Protokolldatei anzeigen und überprüfen](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). |
 | Temporäre Dateien aufbewahren | Wählen Sie diese Option, um die von DITA-OT generierten temporären Dateien beizubehalten. Wenn beim Generieren der Ausgabe über DITA-OT Fehler auftreten, wählen Sie diese Option aus, um die temporären Dateien beizubehalten. Anschließend können Sie diese Dateien verwenden, um Fehler bei der Ausgabegenerierung zu beheben.<br> <br> Klicken Sie nach dem Generieren der Ausgabe auf das Symbol **Temporäre Dateien herunterladen** ![Symbol für temporäre Dateien herunterladen](images/download-temp-files-icon.png), um den ZIP-Ordner mit den temporären Dateien herunterzuladen. <br><br> **Hinweis**: Wenn Dateieigenschaften während der Generierung hinzugefügt werden, enthalten die temporären Ausgabedateien auch eine *metadata.xml*-Datei, die diese Eigenschaften enthält. |
-| Generieren eines separaten PDF für jedes Thema | Wenn diese Option aktiviert ist, wird für jedes Thema der DITA-Karte auch eine PDF erstellt. Wenn Sie diese Option wählen, wird eine neue Option &quot;PDF-Pfad aufteilen“ angezeigt.<br><br>Geben Sie im Feld Pfad für aufgeteilten PDF den Pfad zum Speichern der für jedes Thema generierten PDF an.<br><br>**Hinweis**: AEM Guides verwendet das DITA-OT-Plug-in „pdfx“, um für jedes Thema PDF zu generieren. Dieses Plug-in ist im Lieferumfang des DITA-OT-Pakets enthalten. Sie können dieses Plug-in anpassen, um PDF gemäß Ihren Anforderungen zu generieren. Wenn Sie ein benutzerdefiniertes DITA-OT-Plug-in verwenden, stellen Sie sicher, dass Sie das PDFX-Plug-in integrieren, um die Möglichkeit zur Erstellung von PDF auf Themenebene zu erhalten. |
+| Für jedes Thema separate PDF generieren | Wenn diese Option aktiviert ist, wird für jedes Thema in der DITA-Karte auch eine PDF erstellt. Wenn Sie diese Option wählen, wird die neue Option PDF-Pfad aufteilen angezeigt.<br><br>Geben Sie im Feld PDF-Pfad aufteilen den Pfad zum Speichern der für jedes Thema generierten PDF-Dateien an.<br><br>**Hinweis**: AEM Guides verwendet das DITA-OT-Plug-in „pdfx“, um für jedes Thema PDF zu generieren. Dieses Plug-in ist im Lieferumfang des DITA-OT-Pakets enthalten. Sie können dieses Plug-in anpassen, um PDF gemäß Ihren Anforderungen zu generieren. Wenn Sie ein benutzerdefiniertes DITA-OT-Plug-in verwenden, stellen Sie sicher, dass Sie das pdfx-Plug-in integrieren, um PDF-Generierungsfunktionen auf Themenebene zu erhalten. |
 | Nachgenerierungs-Workflow ausführen | Wenn Sie diese Option wählen, wird eine neue Dropdown-Liste für den Post-Generation-Workflow angezeigt, die alle in AEM konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, den Sie nach Abschluss des Workflows zur Ausgabegenerierung ausführen möchten. |
 | Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>**Wichtig**: Wenn Sie eine inkrementelle Ausgabe für die AEM-Site generieren, wird die Ausgabe anhand der aktuellen Dateiversion und nicht anhand der angehängten Baseline erstellt.<br><br>Weitere Informationen finden [ unter „Arbeiten mit ](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)&quot;. |
 | Eigenschaften | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite Eigenschaften der DITA-Map- oder Bookmap-Datei festgelegt. Die aus der Dropdown-Liste ausgewählten Eigenschaften werden unter dem Feld **Dateieigenschaften** angezeigt. Klicken Sie auf das Kreuzsymbol neben der Eigenschaft, um sie zu entfernen. <br><br>**Hinweis**: Bei den Metadateneigenschaften wird zwischen Groß- und Kleinschreibung unterschieden.<br><br>*Wenn Sie eine Baseline ausgewählt haben, basieren die Werte für die Eigenschaften auf der Version der ausgewählten Baseline.<br>* Wenn Sie keine Baseline ausgewählt haben, basieren die Werte für die Eigenschaften auf der neuesten Version.<br><br>Sie können die Metadaten auch mithilfe von DITA-OT-Publishing an die Ausgabe übergeben. Weitere Informationen finden Sie unter [Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Hinweis**: Wenn Sie die `cq:tags` nicht in der Option Eigenschaften definiert haben, werden die Werte für `cq:tags` aus der aktuellen Arbeitskopie ausgewählt, selbst wenn Sie eine Baseline für die Veröffentlichung ausgewählt haben. |
@@ -61,19 +62,19 @@ Führen Sie die folgenden Schritte aus, um den Veröffentlichungskontext für ve
 
 1. Öffnen Sie die **Ausgabevorgaben** der DITA-Zuordnung, die Sie veröffentlichen möchten.
 
-1. Wählen Sie die Ausgabevorgabe der **AEM** Site} aus.
+1. Wählen Sie die Ausgabevorgabe **AEM-Site** aus.
 
-   Sie erhalten die Registerkarten AEM-Voreinstellungen und Publish-Kontext .
+   Sie erhalten die Registerkarten AEM-Voreinstellungen und Veröffentlichungskontext .
 
    ![](images/aem-site-publish-settings.png){width="800" align="left"}
 
-1. Öffnen Sie die Registerkarte **Publish** Kontext.
+1. Öffnen Sie die Registerkarte **Veröffentlichungskontext**.
 
    Es wird eine Liste der abhängigen Themen angezeigt. Dies sind die Themen, die von einem Thema in der aktuellen Karte verlinkt sind, aber in einigen anderen DITA-Karten verfügbar sind.
 
    >[!NOTE]
    >
-   > Auf der Registerkarte Publish-Kontext werden Themen angezeigt, die nur über die `peer`-`@scope` verknüpft sind. Für Links mit `local` `@scope` müssen Sie den Veröffentlichungskontext nicht angeben.
+   > Auf der Registerkarte Veröffentlichungskontext werden Themen angezeigt, die nur über die `peer` `@scope` verknüpft sind. Für Links mit `local` `@scope` müssen Sie den Veröffentlichungskontext nicht angeben.
 
    Standardmäßig sind für alle verknüpften Themen die neueste Ausgabevorgabe und Zuordnung ausgewählt.
 

@@ -1,10 +1,11 @@
 ---
 title: Versionsverlaufsbericht für zurückgesetzte Dateien
-description: Anzeigen von zurückgesetzten Dateiversionsverlaufsberichten in AEM Guides. Erfahren Sie, wie Sie über die Benutzeroberfläche von Assets, die Themenvorschau und die Auswahl der AEM-Tools auf die Protokolle der zurückgesetzten Versionen zugreifen können.
+description: Anzeigen von zurückgesetzten Dateiversionsverlaufsberichten in AEM Guides. Erfahren Sie, wie Sie über die Benutzeroberfläche von Assets, die Themenvorschau und die Auswahl von AEM-Tools auf die Versionsprotokolle zurücksetzen können.
 feature: Report Generation
 role: User
+hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Sie können auf diesen Bericht an den folgenden Stellen zugreifen:
 
 - **Themenvorschau**: Wenn Sie ein Thema in der Vorschau anzeigen, können Sie auch das Bedienfeld **Versionsverlauf** in der linken Leiste aufrufen. Es wird ein der Assets-Benutzeroberfläche ähnliches Bedienfeld angezeigt, von dem aus Sie auf den Link **Versionslogs zurücksetzen** klicken können, um auf den zurückgesetzten Versionsverlauf des aktiven Dokuments zuzugreifen.
 
-- **Abschnitt &quot;AEM-Tools**: Sie können auf diesen Bericht auch über den Abschnitt &quot;AEM-Tools“ zugreifen. Im folgenden Verfahren wird erläutert, wie Sie im Abschnitt Tools von AEM auf den Versionsverlauf zurücksetzen können.
+- **Abschnitt „Tools“ von AEM**: Sie können auf diesen Bericht auch über den Abschnitt „Tools“ von AEM zugreifen. Im folgenden Verfahren wird erläutert, wie Sie im Abschnitt Tools von AEM auf den Versionsverlauf zurücksetzen können.
 
 
 Führen Sie die folgenden Schritte aus, um auf den Bericht „Verlauf zurücksetzen“ zuzugreifen:

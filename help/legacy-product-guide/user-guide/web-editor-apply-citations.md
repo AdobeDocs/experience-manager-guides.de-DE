@@ -3,8 +3,9 @@ title: Hinzufügen und Verwalten von Zitaten in Ihren Inhalten
 description: Hinzufügen und Verwalten von Zitaten in AEM Guides. Erfahren Sie, wie Sie Zitate anwenden, importieren, filtern, suchen, den Zitatstil ändern, bearbeiten, in der Vorschau anzeigen, einfügen, löschen und die Inhaltsausgabe mit Zitaten generieren können.
 feature: Authoring, Features of Web Editor
 role: User
+hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -18,14 +19,14 @@ Zitate sind Verweise auf die Quelle von Informationen, die Ihrem Inhalt hinzugef
 In AEM Guides können Sie Zitate hinzufügen, importieren und sie auf Ihre Inhalte anwenden. Sie können diese Zitate aus jeder Quelle von Büchern, Websites und Zeitschriften hinzufügen.
 
 
-Mit AEM Guides können Sie Ihre Zitate bearbeiten, in der Vorschau anzeigen und sortieren. Nachdem Sie Ihre Zitate zum Inhalt hinzugefügt haben, können Sie die Ausgabe mit dem nativen PDF generieren. Sie können die Bibliografie- oder Referenzseite auch in der nativen PDF-Ausgabe hinzufügen.
+Mit AEM Guides können Sie Ihre Zitate bearbeiten, in der Vorschau anzeigen und sortieren. Nachdem Sie Ihre Zitate zum Inhalt hinzugefügt haben, können Sie die Ausgabe mit dem nativen PDF generieren. Sie können die Bibliografie- oder Verweisseite auch in der nativen PDF-Ausgabe hinzufügen.
 
 AEM Guides unterstützt verschiedene Zitatstile, wie die Modern Language Association (MLA), die American Psychological Association (APA), Chicago, das Institute for Electrical and Electronics Engineers (IEEE) und die American Heart Association (AHA). Es wird empfohlen, diese klar und konsequent anzuwenden.
 
 
 >[!NOTE]
 >
->Derzeit unterstützt AEM Guides nur natives PDF für Zitate.
+>Derzeit unterstützt AEM Guides nur native PDF für Zitate.
 
 
 ## Zitate hinzufügen
@@ -213,7 +214,7 @@ Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
 1. Wählen Sie die Zitate, die Sie einfügen möchten, im Dialogfeld **Zitat** aus.
 1. Wählen Sie **Fertig** aus, um sie zum Thema hinzuzufügen.
 
-Nachdem Sie Zitate in das Thema eingefügt haben, können Sie sie im Web-Editor in der Vorschau anzeigen. Sie können auch Inhalte mit Zitaten veröffentlichen, indem Sie natives PDF verwenden.
+Nachdem Sie Zitate in das Thema eingefügt haben, können Sie sie im Web-Editor in der Vorschau anzeigen. Sie können auch Inhalte mit Zitaten veröffentlichen, indem Sie die native PDF verwenden.
 
 
 
@@ -258,7 +259,7 @@ Nachdem Sie Zitate in das Thema eingefügt haben, können Sie Inhalte mit Zitate
 
 In der nativen PDF-Ausgabe werden die Zitate innerhalb des Inhalts angezeigt, in den Sie sie eingefügt haben. Sie können auch eine Bibliografie-Seite erstellen. Wenn Sie auf ein Zitat klicken, werden Sie zur Seite „Bibliografie“ weitergeleitet.
 
-Erstellen Sie ein **Zitate**-Seitenlayout in den PDF-Vorlagen und fügen Sie es in Ihr Dokument ein. Alle im Buch verwendeten Zitate werden auf einer Seite aufgelistet, die in der PDF-Ausgabe erscheint. Weitere Informationen zum Erstellen eines Seiten-Layouts finden Sie unter [Erstellen eines Seiten-Layouts](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
+Erstellen Sie ein **Zitate**-Seitenlayout in den PDF-Vorlagen und schließen Sie es in Ihr Dokument ein. Alle im Buch verwendeten Zitate werden auf einer Seite aufgelistet, die in der PDF-Ausgabe angezeigt wird. Weitere Informationen zum Erstellen eines Seiten-Layouts finden Sie unter [Erstellen eines Seiten-Layouts](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
 Um die Ansicht und das Erscheinungsbild der Zitatseite zu ändern, rufen Sie [PDF-Vorlagen anpassen](/help/product-guide/native-pdf/pdf-template.md) auf.

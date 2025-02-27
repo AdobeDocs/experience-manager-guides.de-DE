@@ -3,8 +3,9 @@ title: Anzeigen einer abgeschlossenen Prüfungsaufgabe
 description: Wissen, wie Sie eine abgeschlossene Prüfungsaufgabe als Prüfer oder Autor in AEM Guides anzeigen können.
 feature: Reviewing
 role: User
+hide: true
 exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%

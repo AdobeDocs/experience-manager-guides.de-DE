@@ -3,8 +3,9 @@ title: Kennzeichnungen verwenden
 description: Hier erfahren Sie, wie Kennzeichnungen für verschiedene Versionen einer Datei in AEM Guides verwendet werden. Erfahren Sie, wie Sie einer Version eines Themas einen Titel hinzufügen oder ihn löschen.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
+hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%

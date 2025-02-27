@@ -1,10 +1,11 @@
 ---
 title: Massenaktivierung von veröffentlichten Inhalten
-description: Erfahren Sie mehr über die Massenaktivierung veröffentlichter Inhalte. Erfahren Sie in den AEM-Handbüchern mehr über die Vorteile der Massenaktivierungsfunktion.
+description: Erfahren Sie mehr über die Massenaktivierung veröffentlichter Inhalte. Erfahren Sie mehr über die Vorteile der Massenaktivierungsfunktion in den AEM-Handbüchern.
 feature: Publishing, Bulk Activation
 role: User
+hide: true
 exl-id: 4b60bf50-f6c2-4e87-8af6-fd1c26d4898f
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -17,7 +18,7 @@ In einem realen Szenario hätten Ihre Autorinnen und Autoren Zugriff auf die Aut
 
 >[!NOTE]
 >
-> Weitere Informationen zum Einrichten der Authoring- und Publishing-Instanz in AEM finden Sie unter [Überblick über die Authoring- und Publish-Architektur](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Weitere Informationen zum Einrichten der Autoren- und Veröffentlichungsinstanz in AEM finden Sie unter [Überblick über die Autoren- und Veröffentlichungsarchitektur](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
 Mit der Massenaktivierungsfunktion von AEM Guides können Sie Ihre Inhalte schnell und einfach von der Autoren- zur Veröffentlichungsinstanz aktivieren. Die Funktion für die Massenaktivierung bietet Ihnen folgende Flexibilität:
 

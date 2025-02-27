@@ -3,8 +3,9 @@ title: Erstellen von Themen
 description: Erfahren Sie, wie Sie DITA-Thementypen mithilfe von benutzerdefinierten Vorlagen im Web-Editor von AEM Guides erstellen.
 feature: Authoring
 role: User
+hide: true
 exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%

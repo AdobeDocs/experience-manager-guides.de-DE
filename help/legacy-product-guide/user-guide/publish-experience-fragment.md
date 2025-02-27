@@ -1,17 +1,18 @@
 ---
-title: Publish eines Themas zu einem Experience Fragment
-description: Publish eines Themas oder der Elemente innerhalb eines Themas zu einem Experience Fragment in AEM Guides.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Experience Fragments anzeigen und erneut veröffentlichen.
+title: Veröffentlichen eines Themas in einem Experience Fragment
+description: Veröffentlichen Sie ein Thema oder die Elemente innerhalb eines Themas in einem Experience Fragment in AEM Guides.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Experience Fragments anzeigen und erneut veröffentlichen.
 feature: Publishing
 role: User
+hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
 
 ---
 
-# Publish Experience Fragments
+# Veröffentlichen von Experience Fragments
 
 Experience Fragments sind modulare Inhalte in Adobe Experience Manager. Diese Inhaltsbausteine basieren auf Vorlagen und kapseln sowohl den Inhalt als auch sein Layout. Diese wiederverwendbaren Inhaltselemente ermöglichen es Inhaltserstellern, konsistente, skalierbare Erlebnisse über mehrere Kanäle hinweg zusammenzustellen und bereitzustellen, die von Experience Manager unterstützt werden. Mit dieser Funktion können Sie auf einfache Weise und effizient konsistente Marketing-Erlebnisse wie Newsletter, Werbebanner und Kundenbewertungen erstellen.
 
@@ -46,10 +47,10 @@ Zum Beispiel:
 
    >[!NOTE]
    >
-   > Sie können ein Experience Fragment auch über die „Repository **Ansicht“**. Wählen Sie das Thema aus, das Sie als Experience Fragment veröffentlichen möchten. Wählen Sie dann im Menü **Optionen** die Option **Publish as** > **Experience Fragment** aus.
+   > Sie können ein Experience Fragment auch über die „Repository **Ansicht“**. Wählen Sie das Thema aus, das Sie als Experience Fragment veröffentlichen möchten. Wählen Sie dann im Menü **Optionen** die Option **Veröffentlichen als** > **Experience Fragment**.
 
 1. Füllen Sie **Dialogfeld Experience Fragment** generieren die folgenden Details aus:
-   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld &quot;Publish als Experience Fragment“ hinzu](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Experience Fragment veröffentlichen hinzu](images/experience-fragment-generate.png){width="500" align="left"}
 
    *Fügen Sie den Pfad, die Vorlage und die Zuordnungsdetails hinzu, um ein Thema oder seine Elemente als Experience Fragment zu veröffentlichen. Sie können ein vorhandenes Experience Fragment überschreiben.*
 

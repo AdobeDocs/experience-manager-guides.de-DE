@@ -1,8 +1,9 @@
 ---
 title: KI-gestützte Smart Suggestions zum Erstellen von Inhalten
 description: Erfahren Sie, wie Sie KI-gestützte Smart-Vorschläge im Web-Editor anzeigen und verwenden können.
+hide: true
 exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -15,7 +16,7 @@ Experience Manager Guides bietet die intelligenten Vorschläge, mit denen Sie ko
 
 Während Sie Inhalte erstellen, kann die Funktion **Wiederverwendbare Inhalte vorschlagen** im Tool KI-Assistent mithilfe von KI suchen und die vorhandenen Inhalte anzeigen, die Ihren Inhalten semantisch ähnlich sind. Anschließend können Sie den am besten übereinstimmenden Inhalt auswählen, den Sie in Ihr aktuelles Thema als Referenz aufnehmen möchten.
 
-Auf diese Weise können Sie vorhandene Inhalte aus Ihrem Dokumentations-Repository wiederverwenden und konsistente Inhalte erstellen. Sie erstellen beispielsweise ein Dokument, das Informationen zu **Adobe Firefly** enthält, einschließlich eines Absatzes über **Adobe**. In diesem Fall können Sie den Inhaltsverweis schnell aus einem anderen Thema anzeigen und hinzufügen, z. B. **Adobe Photoshop**, das denselben Absatz enthält.
+Auf diese Weise können Sie vorhandene Inhalte aus Ihrem Dokumentations-Repository wiederverwenden und konsistente Inhalte erstellen. Sie erstellen beispielsweise ein Dokument, das Informationen zu **Adobe Firefly** enthält, einschließlich eines Absatzes zu **Adobe**. In diesem Fall können Sie den Inhaltsverweis schnell aus einem anderen Thema anzeigen und hinzufügen, z. B. **Adobe Photoshop**, das denselben Absatz enthält.
 >[!NOTE]
 >
 > In den [globalen Profilen oder Profilen auf Ordnerebene](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions) muss Ihr Administrator die Dateien oder Ordner definieren, die für Smart-Vorschläge indiziert werden sollen, die Mindestanzahl von Zeichen, die Sie eingeben müssen, um die Vorschläge anzuzeigen, und die maximale Anzahl von Vorschlägen, die Sie in der Liste anzeigen können.
@@ -38,7 +39,7 @@ Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hin
    > Sie können nur die Vorschläge für das aktuelle Darstellungsfeld (den auf dem Bildschirm sichtbaren Inhalt) anzeigen. Um Vorschläge für andere Inhalte im Dokument anzuzeigen, scrollen Sie nach oben oder unten, um sie im Ansichtsfenster anzuzeigen, und wählen Sie dann **Wiederverwendbaren Inhalt vorschlagen** ![ai Symbol für wiederverwendbaren Inhalt vorschlagen ](./images/ai-suggest-reusable-content-icon.svg).
 
 
-1. Sie können die Smart-Vorschläge im Bedienfeld Vorschläge anzeigen.  Experience Manager Guides bietet Inhaltsvorschläge, die kontextuell ähnlich sind oder die gleiche Bedeutung haben. Sie können beispielsweise nach dem Thema suchen, das die genaue Versionsnummer enthält, z. B. „Version 2023.03.12“. Sie können auch nach &quot;Adobe hat seinen Hauptsitz in San Jose, Kalifornien“ suchen und ähnliche Inhalte finden wie „San Jose hat die Quartale vieler Software-Unternehmen wie Adobe.“
+1. Sie können die Smart-Vorschläge im Bedienfeld Vorschläge anzeigen.  Experience Manager Guides bietet Inhaltsvorschläge, die kontextuell ähnlich sind oder die gleiche Bedeutung haben. Sie können beispielsweise nach dem Thema suchen, das die genaue Versionsnummer enthält, z. B. „Version 2023.03.12“. Sie können auch nach &quot;Adobe hat seinen Hauptsitz in San Jose, Kalifornien“ suchen und ähnliche Inhalte finden wie „San Jose hat die Quartiere von vielen Softwareunternehmen wie Adobe&quot;.
 1. Wählen Sie **Inhaltsinformationen** ![Inhaltsinformationen](images/smart-suggestions-content-info-icon.svg) aus, um die Details anzuzeigen.
 
    ![Bedienfeld „Inhaltsinformationen“](images/smart-suggestions-content-information.png){width="300" align="left"}

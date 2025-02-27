@@ -3,8 +3,9 @@ title: Erstellen, Bearbeiten, Duplizieren oder Entfernen einer Ausgabevorgabe
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Ausgabevorgabe in AEM Guides erstellen, bearbeiten, duplizieren und löschen.
 feature: Publishing
 role: User
+hide: true
 exl-id: f770dd7e-0c52-4a97-ba93-ddd12832d5ae
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%

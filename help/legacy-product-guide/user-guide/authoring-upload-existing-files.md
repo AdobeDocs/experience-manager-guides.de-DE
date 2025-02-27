@@ -1,10 +1,11 @@
 ---
 title: Hochladen von Dateien
-description: Erfahren Sie, wie Sie Ihre Dateien in das AEM-Repository hochladen und Fehler beheben können. Kennenlernen der Assets-Konsolen-Benutzeroberfläche, des AEM-Desktop-Programms, der Asset-Massenaufnahme und der Verwendung von FrameMaker für den Massen-Upload
+description: Erfahren Sie, wie Sie Ihre Dateien in das AEM-Repository hochladen und Fehler beheben können. Kennenlernen der Assets-Konsolen-Benutzeroberfläche, des AEM-Desktop-Programms und der Massenaufnahme von Assets und Verwenden von FrameMaker für den Massen-Upload
 feature: Content Management
 role: User
+hide: true
 exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 1%
@@ -31,7 +32,7 @@ Verwenden Sie das AEM-Desktop-Programm, wenn Sie ein Kreativprofi sind und die A
 
 Bei umfangreichen Migrationen und gelegentlichen Massenaufnahmen von Assets können Sie Ihre Inhalte mit dem Asset-Bulk-Ingest hochladen. Mit diesem Tool können Sie Masseninhalte aus unterstützten Datenspeichern wie Azure oder S3 hochladen. Weitere Informationen finden Sie unter [Asset-Massenaufnahme](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
-## FrameMaker für Massen-Upload verwenden
+## Verwenden von FrameMaker für den Massen-Upload
 
 Adobe FrameMaker verfügt über einen leistungsstarken AEM-Connector, mit dem Sie vorhandene DITA- und andere FrameMaker-Dokumente \(`.book` und `.fm`\) einfach in AEM hochladen können. Sie können verschiedene Datei-Upload-Funktionen verwenden, z. B. das Hochladen einer einzelnen Datei, das Hochladen eines vollständigen Ordners mit oder ohne Abhängigkeiten \(z. B. Inhaltsreferenzen, Querverweise und Grafiken\).
 

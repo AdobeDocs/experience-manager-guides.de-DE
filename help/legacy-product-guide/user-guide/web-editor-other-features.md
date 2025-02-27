@@ -3,8 +3,9 @@ title: Weitere Funktionen im Web-Editor
 description: Erkunden Sie andere Funktionen des Web-Editors in AEM Guides. Erfahren Sie, wie Sie diese Funktionen für ein verbessertes Authoring in AEM Guides verwenden.
 feature: Authoring, Web Editor
 role: User
+hide: true
 exl-id: 7639fa76-b319-44b5-9ff8-2b8c1a716b7b
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -76,7 +77,7 @@ Um eine neue Version der Datei zu erstellen, wählen Sie **Als neue Version spei
 
 ***Eigenschaften***
 
-Um die Seite mit den AEM-Eigenschaften der ausgewählten Datei anzuzeigen, klicken Sie auf **Eigenschaften**.
+Um die AEM-Eigenschaftsseite der ausgewählten Datei anzuzeigen, wählen Sie **Eigenschaften** aus.
 
 ***Aufspaltung***: Sie können aus den folgenden Optionen auswählen:
 

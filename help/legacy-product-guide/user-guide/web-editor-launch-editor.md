@@ -3,8 +3,9 @@ title: Web-Editor starten
 description: Erfahren Sie, wie Sie den Web-Editor über die AEM-Navigationsseite, die AEM Assets-Benutzeroberfläche und die DITA-Zuordnungskonsole in AEM Guides starten.
 feature: Authoring, Web Editor
 role: User
+hide: true
 exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -43,7 +44,7 @@ Da Sie den Web-Editor gestartet haben, ohne eine Datei auszuwählen, wird ein le
 
   <summary> Cloud Services </summary>
 
-  Wenn Sie Cloud Service verwenden, klicken Sie auf die Schaltfläche **Schließen**, um zur AEM-Navigationsseite zurückzukehren.
+  Wenn Sie Cloud-Services verwenden, klicken Sie auf die Schaltfläche **Schließen**, um zur AEM-Navigationsseite zurückzukehren.
   </details>
 
   <details>

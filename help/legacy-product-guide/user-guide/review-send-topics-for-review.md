@@ -3,8 +3,9 @@ title: Senden von Themen zur Überprüfung
 description: Erfahren Sie, wie Sie eine Prüfungsaufgabe erstellen und Themen zur Überprüfung in AEM Guides senden. Senden Sie ein oder mehrere Themen in einer DITA-Karte zur Überprüfung.
 feature: Reviewing
 role: User
+hide: true
 exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 0%

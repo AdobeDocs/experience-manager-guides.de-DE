@@ -3,8 +3,9 @@ title: Bearbeiten von Themen im Web-Editor
 description: Erfahren Sie, wie Sie Themen im Web-Editor bearbeiten. Erfahren Sie mehr über verschiedene Bearbeitungsfunktionen zum Ändern Ihrer Themendateien in AEM Guides.
 feature: Authoring, Web Editor
 role: User
+hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%

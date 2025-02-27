@@ -3,8 +3,9 @@ title: Inhalt verwalten
 description: Verwalten von Inhalten und Identifizieren Ihrer Rollen und Berechtigungen in AEM Guides. Lernen Sie die wichtigsten Konzepte des Content-Managements kennen und erfahren Sie, wie Sie mit den Profilen auf globaler oder Ordnerebene arbeiten.
 feature: Content Management
 role: User
+hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -17,11 +18,11 @@ Bevor Sie mit der eigentlichen Inhaltserstellung beginnen, müssen Sie sich mit 
 
 ## Wichtige Konzepte
 
-Einige Schlüsselkonzepte des Content-Managements in AEM sind:
+Zu den wichtigsten Konzepten des Content-Managements in AEM gehören:
 
 **Asset-Management**
 
-AEM Guides verwendet das Digital Asset Management \(DAM\) von AEM zur Verwaltung Ihrer DITA-Dateien. Die Dateien, die Sie in DAM hochladen oder einchecken, werden als digitale Assets gespeichert. Sie können Ihre Assets in AEM Assets verwalten und bearbeiten. Weitere Informationen zum Asset-Management finden Sie unter [Verwalten von Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=de).
+AEM Guides verwendet das Digital Asset Management \(DAM\) von AEM, um Ihre DITA-Dateien zu verwalten. Die Dateien, die Sie in DAM hochladen oder einchecken, werden als digitale Assets gespeichert. Sie können Ihre Assets in AEM Assets verwalten und bearbeiten. Weitere Informationen zum Asset-Management finden Sie unter [Verwalten von Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=de).
 
 **Link-Verwaltung**
 
@@ -35,7 +36,7 @@ Weitere Informationen zum Erstellen von Versionen oder zum Wiederherstellen eine
 
 **Native DITA-Verarbeitung**
 
-AEM Guides behält zwar die Struktur Ihrer DITA-Dateien bei, ermöglicht es AEM aber auch, DITA nativ mithilfe der Elementzuordnung zu verarbeiten, um die DITA-Elemente AEM-Komponenten zuzuordnen. Die native DITA-Verarbeitung wird in Funktionen wie der Themenvorschau, der AEM Sites-Veröffentlichung und den Überprüfungs-Workflows verwendet.
+AEM Guides behält zwar die Struktur Ihrer DITA-Dateien bei, ermöglicht AEM aber auch die native Verarbeitung von DITA mithilfe der Elementzuordnung, um die DITA-Elemente AEM-Komponenten zuzuordnen. Die native DITA-Verarbeitung wird in Funktionen wie der Themenvorschau, der AEM Sites-Veröffentlichung und den Überprüfungs-Workflows verwendet.
 
 ## Identifizieren von Rolle und Berechtigungen {#id181TF0K0MHT}
 

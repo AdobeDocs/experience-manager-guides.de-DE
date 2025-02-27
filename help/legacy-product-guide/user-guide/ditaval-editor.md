@@ -3,8 +3,9 @@ title: Verwenden des DITAVAL-Editors
 description: Erfahren Sie, wie Sie DITAVAL-Dateien mit dem DIVATAL-Editor in AEM Guides erstellen und bearbeiten. Erfahren Sie, wie der DITAVAL-Editor DITAVAL-Dateien in Autoren- und Quellansichten unterstützt.
 feature: Authoring, DITAVAL Editor
 role: User
+hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 DITAVAL-Dateien werden zur Erzeugung von bedingten Ausgaben verwendet. In einem einzelnen Thema können Sie Bedingungen mithilfe von Elementattributen hinzufügen, um Inhalte mit Bedingungen zu versehen. Anschließend erstellen Sie eine DITAVAL-Datei, in der Sie die Bedingungen angeben, die aufgenommen werden sollen, um Inhalte zu generieren, und welche Bedingung bei der endgültigen Ausgabe ausgeschlossen werden soll.
 
-Mit AEM Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die in Ihrem System definierten Attribute \(oder tags\) ab, mit denen Sie DITAVAL-Dateien erstellen oder bearbeiten können. Weitere Informationen zum Erstellen und Verwalten von Tags in AEM finden Sie [ Abschnitt „Verwalten von ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)&quot; in der AEM-Dokumentation.
+Mit AEM Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die in Ihrem System definierten Attribute \(oder tags\) ab, mit denen Sie DITAVAL-Dateien erstellen oder bearbeiten können. Weitere Informationen zum Erstellen und Verwalten von Tags in AEM finden Sie [ Abschnitt „Verwalten von ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)&quot; in der Dokumentation zu AEM.
 
 ## DITAVAL-Datei erstellen
 

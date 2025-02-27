@@ -3,8 +3,9 @@ title: Themen überprüfen
 description: Erfahren Sie, wie Sie Themen überprüfen und die Funktionen als Reviewer, Dokumentansicht, Themenansicht, kontextuelle Symbolleiste, Vorschaumodus, Hinzufügen von Anlagen zu Kommentaren und Bedienfeld „Bedingungen“ in AEM Guides verwenden.
 feature: Reviewing
 role: User
+hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
 
    >[!NOTE]
    >
-   > Sie können den Link zur Themenüberprüfung auch über den Bereich Benachrichtigungen im Posteingang in der AEM-Benutzeroberfläche aufrufen.
+   > Sie können den Link zur Themenüberprüfung auch über den Bereich Benachrichtigungen im Posteingang in der Benutzeroberfläche von AEM aufrufen.
 
 1. Je nachdem, wie die Themenüberprüfung eingeleitet wird, werden die beiden folgenden Bildschirme angezeigt:
 
@@ -31,7 +32,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
    >
    > Die Benutzeroberfläche sieht möglicherweise anders aus, wenn Sie die Überprüfung in erstellt haben:
    >
-   > - AEM Guides as a Cloud Service-Version November 2022 oder früher
+   > - AEM Guides as a Cloud Service Version November 2022 oder früher
    > - AEM Guides Version 4.1 oder früher
 
 

@@ -3,8 +3,9 @@ title: Output-Erzeugung
 description: Generieren von Ausgaben in AEM-Site, PDF, HTML5, EPUB, benutzerdefiniert und JSON über DITA-OT-Plug-ins, native PDF-Veröffentlichung und FMPS in AEM Guides.
 feature: Publishing
 role: User
+hide: true
 exl-id: 4fdea1c5-5f36-440a-8bab-6bc984498a61
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Als Publisher können Sie mit nur wenigen Klicks mehrere Ausgaben generieren. Si
 >
 > AEM Guides unterstützt auch die Generierung von Ausgaben für LwDITA-Zuordnungs- und Themendateien.
 
-Als Produktionsspezialist können Sie mit AEM Guides Ihren Veröffentlichungsprozess auch einfach automatisieren, indem Sie Ihr Publish-Dashboard erstellen und Nachveröffentlichungs-Workflows ausführen. Das Veröffentlichungs-Dashboard bietet Ihnen außerdem eine einheitliche Ansicht aller Veröffentlichungsaufgaben, die in der Warteschlange stehen und in Ihrem System ausgeführt werden. Sie können eine Veröffentlichungsaufgabe über das Publish-Dashboard beenden oder abbrechen. Sie können benutzerdefinierte Design-Vorlagen erstellen und verknüpfen, um Ausgaben in einem bestimmten Layout zu generieren. Außerdem können Sie mit AEM Guides benutzerdefinierte DITA-OT-Plug-ins verwenden, um Ihren bestehenden PDF-Generierungsprozess wiederzuverwenden.
+Als Produktionsspezialist können Sie mit AEM Guides Ihren Veröffentlichungsprozess auch einfach automatisieren, indem Sie Ihr Veröffentlichungs-Dashboard erstellen und Nachveröffentlichungs-Workflows ausführen. Das Veröffentlichungs-Dashboard bietet Ihnen außerdem eine einheitliche Ansicht aller Veröffentlichungsaufgaben, die in der Warteschlange stehen und in Ihrem System ausgeführt werden. Sie können eine Veröffentlichungsaufgabe über das Dashboard „Veröffentlichen“ beenden oder abbrechen. Sie können benutzerdefinierte Design-Vorlagen erstellen und verknüpfen, um Ausgaben in einem bestimmten Layout zu generieren. Außerdem können Sie mit AEM Guides benutzerdefinierte DITA-OT-Plug-ins verwenden, um Ihren bestehenden PDF-Generierungsprozess wiederzuverwenden.
 
 Sie können auch verschiedene Voreinstellungen erstellen und eine Ausgabe aus dem Web-Editor generieren.
 
@@ -37,7 +38,7 @@ Die Informationen in den folgenden Abschnitten richten sich an Herausgeber, die 
 
 - [Verwenden der Zuordnungssammlung für die Ausgabegenerierung](generate-output-use-map-collection-output-generation.md#)
 
-- [Verwalten von Veröffentlichungsaufgaben mit dem Publish-Dashboard](generate-output-publish-dashboard.md#)
+- [Verwalten von Veröffentlichungsaufgaben mit dem Dashboard „Veröffentlichen“](generate-output-publish-dashboard.md#)
 
 - [Allgemeine Fehlerbehebung](generate-output-basic-troubleshooting.md#)
 

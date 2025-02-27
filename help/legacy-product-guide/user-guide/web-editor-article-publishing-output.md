@@ -3,8 +3,9 @@ title: Ausgabe aus dem Repository-Bedienfeld generieren
 description: Generieren Sie eine Ausgabe aus dem Repository-Bereich oder dem Zuordnungsansichtsbereich in AEM Guides. Erfahren Sie, wie Sie ein Thema veröffentlichen, das in einer oder mehreren DITA-Zuordnungen verwendet wird, oder wie Sie eine Ausgabe für mehrere Themen generieren.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
+hide: true
 exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Sie können auch die für Ihre DITA-Zuordnung erstellten Ausgabevorgaben verwend
 
 - Verwenden Sie die Funktion **Ausgabe generieren** im Bereich „Zuordnungsansicht“, um die Ausgabe für die ausgewählten mehreren Themen zu generieren.
 
-## Publish : Ein Thema, das in mindestens einer DITA-Zuordnung verwendet wird
+## Veröffentlichen eines Themas, das in einer oder mehreren DITA-Zuordnungen verwendet wird
 
 Führen Sie die folgenden Schritte aus, um eine Ausgabe für ein oder mehrere Themen in Ihrer DITA-Zuordnung zu generieren:
 

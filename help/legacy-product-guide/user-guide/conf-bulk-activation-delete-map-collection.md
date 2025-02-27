@@ -3,8 +3,9 @@ title: Massenaktivierungs-Zuordnungssammlung löschen
 description: Erfahren Sie, wie Sie die Massen-Aktivierungszuordnungssammlung in AEM Guides löschen.
 feature: Publishing, Bulk Activation
 role: User
+hide: true
 exl-id: 374f8265-9aa0-4a08-8afa-ae9ce0cb33e6
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Sie können eine Massen-Aktivierungszuordnungssammlung löschen, wenn sie nicht 
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Klicken Sie auf die Kachel **Publish-Dashboard** Massenverarbeitung“.
+1. Klicken Sie auf die Kachel **Dashboard für Massenveröffentlichung**.
 
    Eine Liste der Massenaktivierungszuordnungssammlungen wird angezeigt.
 

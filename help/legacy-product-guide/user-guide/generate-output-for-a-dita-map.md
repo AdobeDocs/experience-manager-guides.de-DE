@@ -3,8 +3,9 @@ title: Generieren einer Ausgabe für eine DITA-Zuordnung über die Zuordnungskon
 description: Generieren einer Ausgabe für eine DITA-Zuordnung über die Zuordnungskonsole in AEM Guides. Erfahren Sie mehr über die inkrementelle Ausgabegenerierung und darüber, wie Sie den Status anzeigen, abbrechen und eine Ausgabeaufgabe löschen können.
 feature: Publishing
 role: User
+hide: true
 exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
@@ -44,7 +45,7 @@ Sie können auch die AEM-Site-Ausgabe für ein oder mehrere Themen oder die gesa
 
 >[!NOTE]
 >
-> Die inkrementelle Ausgabegenerierung ist nur für die AEM-Site-Ausgabe geeignet. Außerdem können Sie nur DITA \(.dita/.xml\)-Themen aus einer DITA-Zuordnung oder aus Unterzuordnungen neu generieren. Wenn Sie eine DITA-Zuordnung, eine Unterzuordnung, eine Themengruppe oder ein Thema mit `@processing-role="resource-only"` auswählen, ist die Option zum erneuten Generieren nicht verfügbar.
+> Die inkrementelle Ausgabegenerierung ist nur für die AEM Site-Ausgabe geeignet. Außerdem können Sie nur DITA \(.dita/.xml\)-Themen aus einer DITA-Zuordnung oder aus Unterzuordnungen neu generieren. Wenn Sie eine DITA-Zuordnung, eine Unterzuordnung, eine Themengruppe oder ein Thema mit `@processing-role="resource-only"` auswählen, ist die Option zum erneuten Generieren nicht verfügbar.
 
 Es kann eine Reihe von Fällen geben, in denen Sie nur einige Themen in Ihrer DITA-Karte aktualisieren und nur diese aktualisierten Themen live übertragen. Um solche Szenarien zu handhaben, können Sie mit AEM Guides inkrementelle Ausgaben erstellen. Wenn Sie einige Themen aktualisiert haben, müssen Sie nicht die gesamte DITA-Karte neu generieren. Sie können nur die aktualisierten Themen auswählen und neu generieren.
 
@@ -54,7 +55,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabe für ein bestimmtes Thema
 
 >[!IMPORTANT]
 >
-> Beim Regenerieren der AEM-Site-Ausgabe wird die Ausgabe anhand der aktuellen Dateiversion und nicht anhand der angehängten Baseline erstellt.
+> Wenn Sie die Ausgabe der AEM-Site neu generieren, wird die Ausgabe anhand der aktuellen Dateiversion und nicht anhand der angehängten Baseline erstellt.
 
 1. Navigieren Sie in der Assets-Benutzeroberfläche zu und klicken Sie auf die DITA-Zuordnungsdatei.
 
@@ -105,7 +106,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange 
 
      Listet die Ausgaben auf, die entweder auf die Generierung warten oder sich im Generierungsprozess befinden. Die Aufgaben in der Warteschlange oder in Bearbeitung werden mit einem blauen Farbsymbol vor dem Voreinstellungsnamen angezeigt. Sie finden auch die Einstellung für die Ausgabegenerierung oder die Voreinstellung für die Aufgabe in der Warteschlange, den Typ, den Benutzer, der die Aufgabe initiiert hat, den Zeitpunkt, seit dem die Aufgabe in die Warteschlange gestellt wird, und den aktuellen Status.
 
-     Klicken Sie auf den Link, um auf das **Publish-Dashboard zuzugreifen** den aktuellen Status „Wird ausgeführt“ anzuzeigen. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Publish-Dashboard verfügbar. Die **In Warteschlange gestellte Ausgaben** und der **Publish-Dashboard** Link werden nur angezeigt, wenn es Ausgaben gibt, die entweder darauf warten, generiert zu werden, oder sich im Generierungsprozess befinden. Sie werden nicht angezeigt, wenn die Ausgabeaufgaben abgeschlossen wurden. Weitere Informationen zum Publish-Dashboard finden Sie unter [Verwalten von Veröffentlichungsaufgaben mit dem Publish-Dashboard](generate-output-publish-dashboard.md#).
+     Klicken Sie auf den Link, um auf das **Dashboard veröffentlichen** zuzugreifen und den aktuellen Status „Wird ausgeführt“ anzuzeigen. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Veröffentlichungs-Dashboard verfügbar. Die **Eingereihte Ausgaben** und der **Veröffentlichungs-Dashboard** Link werden nur angezeigt, wenn es Ausgaben gibt, die entweder darauf warten, generiert zu werden, oder sich im Generierungsprozess befinden. Sie werden nicht angezeigt, wenn die Ausgabeaufgaben abgeschlossen wurden. Weitere Informationen zum Veröffentlichungs-Dashboard finden Sie unter [Veröffentlichungsaufgaben mit dem Veröffentlichungs-Dashboard verwalten](generate-output-publish-dashboard.md#).
 
    - **Erzeugte Ausgaben**
 
@@ -117,12 +118,12 @@ Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange 
 
      >[!NOTE]
      >
-     > Wenn Sie auf einen Link der erzeugten PDF-Ausgabe klicken, werden Sie aufgefordert, die PDF herunterzuladen. Dies ist das Standardverhalten in AEM 6.5 und 6.4.
+     > Wenn Sie auf einen Link der generierten PDF-Ausgabe klicken, werden Sie aufgefordert, die PDF herunterzuladen. Dies ist das Standardverhalten in AEM 6.5 und 6.4.
 
 
 ## Aufgabe zum Erzeugen einer Ausgabe abbrechen {#id2061H100T5Z}
 
-AEM Guides bietet Publishern eine einfache Möglichkeit, laufende Veröffentlichungsaufgaben abzubrechen. Als Publisher können Sie eine fortlaufende Veröffentlichungsaufgabe über die DITA Map-Konsole oder das [Publish-Dashboard](generate-output-publish-dashboard.md#) abbrechen.
+AEM Guides bietet Publishern eine einfache Möglichkeit, laufende Veröffentlichungsaufgaben abzubrechen. Als Herausgeber können Sie eine laufende Veröffentlichungsaufgabe über die DITA Map-Konsole oder das [Dashboard veröffentlichen“ ](generate-output-publish-dashboard.md#).
 
 Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung über die DITA-Zuordnungskonsole abzubrechen:
 

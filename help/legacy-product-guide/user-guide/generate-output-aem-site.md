@@ -1,10 +1,11 @@
 ---
 title: AEM Sites
-description: Erstellen und Konfigurieren von AEM-Site-Voreinstellungen in AEM Guides. Verwenden Sie die AEM-Site-Unterstützung, um artikelbasierte Ausgaben zu generieren, Verknüpfungsthemen auszugeben, conref zu veröffentlichen und eine Zeichenfolge innerhalb des Inhalts zu suchen.
+description: Erstellen und konfigurieren Sie die AEM-Site-Voreinstellung in AEM Guides. Verwenden Sie die AEM-Website-Unterstützung, um artikelbasierte Ausgaben zu generieren, Themen zur Verknüpfung auszugeben, conref zu veröffentlichen und eine Zeichenfolge innerhalb des Inhalts zu suchen.
 feature: Publishing
 role: User
+hide: true
 exl-id: b8e49fd3-1f98-471f-b285-572fd07df33a
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%
@@ -30,7 +31,7 @@ Weitere Informationen über [AEM Sites-Vorgaben im Web-Editor](generate-output-a
 
 
 1. Um Ausgabevorgaben für die AEM-Site zu öffnen, wählen Sie in der Assets-Benutzeroberfläche eine DITA-Zuordnungsdatei aus.
-1. Wählen Sie die Ausgabevorgaben und dann die Option AEM-Site-Ausgabe aus.
+1. Wählen Sie die Ausgabevorgaben aus und wählen Sie dann die Option AEM-Site-Ausgabe .
 1. Klicken Sie im Zuordnungs-Dashboard oben auf **Bearbeiten**, um die verschiedenen Konfigurationen zu aktualisieren, und klicken Sie dann auf **Speichern**.
 
 Erfahren Sie mehr über [AEM Sites-Vorgaben im Zuordnungs-Dashboard](generate-output-aem-site-map-dashboard.md).

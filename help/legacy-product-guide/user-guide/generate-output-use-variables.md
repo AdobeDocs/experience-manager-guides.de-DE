@@ -3,8 +3,9 @@ title: Verwenden von Variablen zum Festlegen der Optionen Zielpfad, Site-Name od
 description: Erfahren Sie, wie Sie Variablen zum Festlegen der Optionen „Zielpfad“, „Site-Name“ oder „Dateiname“ verwenden. Kenntnis der in AEM Guides unterstützten vordefinierten Variablen.
 feature: Publishing
 role: User
+hide: true
 exl-id: 19d9121f-6b72-445c-a7d9-07f00026b654
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 # Verwenden von Variablen zum Festlegen der Optionen Zielpfad, Site-Name oder Dateiname
 
 
-Beim Generieren von Ausgaben in AEM Site oder PDF können Sie Variablen verwenden, um die Optionen Zielpfad, AEM Site-Name oder PDF-Dateiname zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Optionen zu definieren.
+Beim Generieren von Ausgaben in AEM Site oder PDFs können Sie Variablen verwenden, um die Optionen Zielpfad, AEM Site-Name oder PDF-Dateiname zu definieren. Sie können eine einzelne oder eine Kombination von Variablen verwenden, um diese Optionen zu definieren.
 
 In der folgenden Tabelle sind die Variablen aufgeführt, die standardmäßig unterstützt werden:
 

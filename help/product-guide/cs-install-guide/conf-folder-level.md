@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
-source-wordcount: '4755'
+source-wordcount: '4756'
 ht-degree: 0%
 
 ---
@@ -508,7 +508,7 @@ Standardmäßig verfügt der XML-Editor über viele Funktionen, die Ihre Autoren
 
 Mit dieser Einstellung können Sie JSON-Erweiterungen erstellen, die die in der `ui_config.json`-Datei vorgenommenen Änderungen widerspiegeln. Sie können diese Erweiterungen unabhängig auf Ordnerprofilebene hochladen, was eine höhere Flexibilität und Anpassung bietet. Wenn Sie beispielsweise Änderungen an der Konfiguration des **XML-Editors** vornehmen, wie z. B. eine Schaltfläche aktualisieren, erkennt das System automatisch die Unterschiede. Durch Hochladen dieser Änderungen in die **Konfiguration der Benutzeroberfläche des XML-Editors** und Konvertieren in JSON-Erweiterungen mithilfe der Schaltfläche **UI-Konfiguration in JSON**&quot; generiert das System eine Erweiterung, die die neue Funktionalität enthält.
 
-Erfahren Sie mehr über **Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor**.
+Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 **Seiten-Layout des XML-Editors**
 

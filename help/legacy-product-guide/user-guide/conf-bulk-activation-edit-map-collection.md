@@ -3,8 +3,9 @@ title: Bearbeiten einer Massenaktivierungs-Zuordnungssammlung
 description: Verwenden des Dashboards zur Massenveröffentlichung in AEM Guides. Erfahren Sie, wie Sie eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie Zuordnungsdateien hinzufügen oder entfernen.
 feature: Publishing, Bulk Activation
 role: User
+hide: true
 exl-id: a15ee164-ec60-483e-8760-b1c290625415
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -19,7 +20,7 @@ Sie können eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie Zuo
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Klicken Sie auf die Kachel **Publish-Dashboard** Massenverarbeitung“.
+1. Klicken Sie auf die Kachel **Dashboard für Massenveröffentlichung**.
 
    Eine Liste der Massenaktivierungszuordnungssammlungen wird angezeigt.
 
@@ -28,7 +29,7 @@ Sie können eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie Zuo
 1. Klicken Sie auf **Bearbeiten**.
 
    Die Sammlungsseite der Massen-Aktivierungskarte wird angezeigt, auf der Sie die Karten zusammen mit den vorkonfigurierten Voreinstellungen für jedes verfügbare Gebietsschema sehen.
-Sie können die verschiedenen Arten von Ausgabevorgaben zusammen mit ihren Symbolen wie AEM Site-, PDF-, Native PDF-, HTML5-, benutzerdefinierte und JSON-Ausgabe anzeigen
+Sie können die verschiedenen Arten von Ausgabevorgaben zusammen mit ihren Symbolen wie AEM Site, PDF, Native PDF, HTML5, Benutzerdefiniert und JSON-Ausgabe anzeigen
 .
 
    >[!NOTE]

@@ -3,8 +3,9 @@ title: Massen-Tagging von DITA-Inhalten
 description: Verwenden Sie Bulk-Tagging von Inhalten in AEM Guides, um die Auffindbarkeit von DITA-Inhalten zu verbessern. Erfahren Sie, wie Sie Massen-Tags auf ein oder mehrere Themen anwenden, entfernen, anzeigen oder ausblenden.
 feature: Metadata Management
 role: User
+hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Mit Tags können Sie Inhalte innerhalb Ihres Inhalts-Repositorys und auch in der veröffentlichten Ausgabe gruppieren oder klassifizieren. Wenn Sie Tags auf Ihren Inhalt angewendet haben, können Sie mühelos verwandte Themen in einer DITA-Karte finden, die Ihnen beim Verfassen von Inhalten helfen können. Mit der veröffentlichten Ausgabe können Endbenutzende den richtigen Inhalt schneller finden, wenn korrekte Tags vorhanden sind.
 
-Mit AEM Guides können Sie DITA-Inhalte mit nur wenigen Klicks taggen. Sie können die Bulk-Tagging-Funktion verwenden, um mehrere Tags auf mehrere Themen, eine DITA-Zuordnung oder eine Unterzuordnung anzuwenden. Sie können Tags auch auf ein einzelnes Thema anwenden. Tagging ist die native Funktion von AEM. Weitere Informationen zum Erstellen und Verwalten von Tags finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in der AEM-Dokumentation.
+Mit AEM Guides können Sie DITA-Inhalte mit nur wenigen Klicks taggen. Sie können die Bulk-Tagging-Funktion verwenden, um mehrere Tags auf mehrere Themen, eine DITA-Zuordnung oder eine Unterzuordnung anzuwenden. Sie können Tags auch auf ein einzelnes Thema anwenden. Tagging ist die native Funktion in AEM. Weitere Informationen zum Erstellen und Verwalten von Tags finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in der Dokumentation zu AEM.
 
 Standardmäßig gewährt AEM Guides keinem Benutzer Lesezugriff auf den Ordner, in dem alle Tags im AEM-Repository gespeichert sind. Um im AEM-Repository definierte Tags zu verwenden, müssen Sie Ihren Systemadministrator bitten, Zugriff auf den Ordner zu gewähren, in dem die Tags gespeichert sind.
 

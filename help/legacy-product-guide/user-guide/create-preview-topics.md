@@ -3,8 +3,9 @@ title: Erstellen und Vorschau von Themen
 description: Erfahren Sie, wie Sie DITA-Themen über die Assets-Benutzeroberfläche in AEM Guides erstellen und in der Vorschau anzeigen.
 feature: Authoring
 role: User
+hide: true
 exl-id: 71929e00-adda-4644-be4a-df9574cc8e46
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%

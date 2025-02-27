@@ -1,10 +1,11 @@
 ---
 title: EPUB-Voreinstellung
-description: Erfahren Sie, wie Sie eine EPUB-Vorgabe über das Zuordnungs-Dashboard erstellen. Konfigurieren der EPUB-Ausgabevorgabe in AEM Guides.
+description: Erfahren Sie, wie Sie über das Zuordnungs-Dashboard eine EPUB-Vorgabe erstellen. Konfigurieren der EPUB-Ausgabevorgabe in AEM Guides.
 feature: Publishing
 role: User
+hide: true
 exl-id: 1d914a5f-df1f-45eb-86ac-72485fdf07fe
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 1%
@@ -19,11 +20,11 @@ Sie können die EPUB-Vorgabe über das Zuordnungs-Dashboard erstellen.
 >
 > Sie können die Methode zum Generieren von HTML5 mit dem DITA-OT oder FMPS \(wenn Ihr Systemadministrator es konfiguriert hat\) wählen.
 
-Um die Ausgabevorgaben für EPUB zu öffnen, klicken Sie auf eine DITA-Zuordnungsdatei, dann auf Ausgabevorgaben und anschließend auf die Option EPUB . Für die EPUB-Ausgabe stehen die folgenden Optionen zur Verfügung:
+Um Ausgabevorgaben für EPUB zu öffnen, klicken Sie auf eine DITA-Zuordnungsdatei, dann auf Ausgabevorgaben und anschließend auf die Option EPUB . Die folgenden Optionen sind für die EPUB-Ausgabe verfügbar:
 
 | EPUB-Optionen | Beschreibung |
 | --- | --- |
-| Ausgabetyp | Der Typ der Ausgabe, die Sie generieren möchten. Um die EPUB-Ausgabe zu generieren, wählen Sie die Option EPUB aus. |
+| Ausgabetyp | Der Typ der Ausgabe, die Sie generieren möchten. Um die EPUB-Ausgabe zu generieren, wählen Sie die Option EPUB . |
 | Einstellungsname | Geben Sie einen beschreibenden Namen für die EPUB-Ausgabeeinstellungen an, die Sie erstellen. Sie können beispielsweise &quot;_Kundenausgabe“_ „Endbenutzerausgabe _angeben_. |
 | DITA-OT-Befehlszeilenargumente | Geben Sie die zusätzlichen Argumente an, die DITA-OT beim Generieren der Ausgabe verarbeiten soll. Weitere Informationen zu den in DITA-OT unterstützten Befehlszeilenargumenten finden Sie unter [DITA-OT-Dokumentation](https://www.dita-ot.org/). |
 | EPub generieren mit | Wählen Sie DITA-OT aus, um die EPUB-Ausgabe zu generieren. |

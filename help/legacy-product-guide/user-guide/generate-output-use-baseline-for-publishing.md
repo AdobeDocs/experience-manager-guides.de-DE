@@ -3,8 +3,9 @@ title: Arbeiten mit Grundlinien
 description: Kenntnis der Verwendung von Baselines in AEM Guides Erfahren Sie, wie Sie Inhalte erstellen, anzeigen, bearbeiten, duplizieren, entfernen, Kennzeichnungen hinzufügen und übersetzte Baselines exportieren.
 feature: Publishing
 role: User
+hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 0%

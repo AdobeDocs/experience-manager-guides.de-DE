@@ -3,8 +3,9 @@ title: Arbeiten mit dem erweiterten Zuordnungs-Editor
 description: Erfahren Sie, wie Sie mit dem erweiterten Zuordnungs-Editor in AEM Guides arbeiten. Machen Sie sich mit den Funktionen des erweiterten Karten-Editors vertraut. Bearbeiten Sie Themen über eine DITA-Karte und verwenden Sie die Layout-Ansicht, die Autorenansicht und den Vorschaumodus.
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -65,7 +66,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
 1. Wechseln Sie im linken Bedienfeld zur **Repository-Ansicht**.
 
-1. Navigieren Sie im AEM-Repository zu dem Ordner, der die Themen oder Unterzuordnungen enthält, die Sie hinzufügen möchten.
+1. Navigieren Sie im AEM-Repository zum Ordner, der die Themen oder Unterzuordnungen enthält, die Sie hinzufügen möchten.
 
 1. Wählen Sie das Thema oder die Zuordnungsdatei in der **Repository-Ansicht** aus und ziehen Sie sie per Drag-and-Drop in den Bearbeitungsbereich für die \(mittlere\)-Zuordnungsinhalte.
 

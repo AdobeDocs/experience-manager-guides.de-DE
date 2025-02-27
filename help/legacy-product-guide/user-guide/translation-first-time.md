@@ -3,8 +3,9 @@ title: Best Practices für die Übersetzung von Inhalten
 description: Kenntnis der Best Practices für die Übersetzung von Inhalten in AEM Guides Erfahren Sie, wie Sie den Übersetzungs-Service konfigurieren, ein neues Übersetzungsprojekt erstellen und den Übersetzungsauftrag starten.
 feature: Translation
 role: User
+hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 2%
@@ -39,9 +40,9 @@ Führen Sie die folgenden Schritte aus, um den Service für menschliche oder mas
 
 1. Wählen Sie in der Benutzeroberfläche von Assets den Ordner für die Ausgangssprache aus.
 
-1. Öffnen Sie die Ordnereigenschaften und wechseln Sie zur Registerkarte **Cloud Service** .
+1. Öffnen Sie die Ordnereigenschaften und navigieren Sie zur Registerkarte **Cloud-Services** .
 
-1. Konfigurieren Sie auf der Registerkarte **0}Cloud Service&quot; den Übersetzungs-Service, den Sie verwenden möchten.**
+1. Konfigurieren **auf der Registerkarte** Cloud-Services“ den Übersetzungs-Service, den Sie verwenden möchten.
 
    Sie können maschinelle oder menschliche Übersetzung konfigurieren.
 
@@ -49,7 +50,7 @@ Führen Sie die folgenden Schritte aus, um den Service für menschliche oder mas
 
    >[!NOTE]
    >
-   > Siehe [Konfigurieren des Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in der AEM-Dokumentation für Details zur Integration mit Übersetzungsdiensten von Drittanbietern.
+   > Siehe [Konfigurieren des Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in der Dokumentation zu AEM für Details zur Integration mit Übersetzungsdiensten von Drittanbietern.
 
 1. Klicken Sie auf **Speichern und schließen** um die aktualisierten Ordnereigenschaften zu speichern.
 

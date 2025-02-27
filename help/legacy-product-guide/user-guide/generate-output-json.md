@@ -3,8 +3,9 @@ title: JSON
 description: Erfahren Sie, wie Sie eine JSON-Vorgabe aus dem Web-Editor und dem Zuordnungs-Dashboard erstellen. Konfigurieren der JSON-Ausgabevorgabe in AEM Guides.
 feature: Publishing
 role: User
+hide: true
 exl-id: dbc082e9-e75e-414d-a1d1-41f919b345af
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%

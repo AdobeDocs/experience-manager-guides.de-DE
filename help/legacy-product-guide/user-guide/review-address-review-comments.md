@@ -3,8 +3,9 @@ title: Kommentare zur Adressenüberprüfung
 description: Erfahren Sie, wie Sie als Autor oder Autorin in AEM Guides Kommentare überprüfen können. Erfahren Sie, wie Autoren Kommentare in einem Dokument bearbeiten, filtern, akzeptieren oder ablehnen können.
 feature: Reviewing
 role: User
+hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%

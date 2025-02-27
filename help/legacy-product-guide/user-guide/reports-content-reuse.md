@@ -3,8 +3,9 @@ title: Bericht zur Wiederverwendung von Inhalt
 description: Erfahren Sie, wie Sie den Bericht zur Wiederverwendung von Inhalten in AEM Guides anzeigen. Erstellen Sie den Bericht, um den Prozentsatz der Wiederverwendung des Inhalts zu ermitteln.
 feature: Report Generation
 role: User
+hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%

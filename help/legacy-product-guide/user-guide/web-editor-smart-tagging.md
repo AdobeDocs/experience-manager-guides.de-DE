@@ -3,8 +3,9 @@ title: Smart-Tagging
 description: Erfahren Sie, wie Sie Smart-Tags in AEM Guides hinzufügen. Extrahieren Sie relevante Schlüsselwörter mit dem Tool XML Keyword Extract .
 feature: Metadata Management
 role: User
+hide: true
 exl-id: dd5b2648-37e1-4737-bd9d-8618f735d11f
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%

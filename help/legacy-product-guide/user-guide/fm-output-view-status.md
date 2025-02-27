@@ -3,8 +3,9 @@ title: Anzeigen des Status der Ausgabegenerierungsaufgabe
 description: Anzeigen der Ausgabegenerierungswarteschlange von FrameMaker-Dokumenten. Erfahren Sie, wie Sie den Status einer Ausgabegenerierungsaufgabe anzeigen.
 feature: Publishing FrameMaker Documents
 role: User
+hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -17,7 +18,7 @@ Nachdem Sie die Ausgabegenerierungsaufgabe für ein FrameMaker-Dokument initiier
 
 Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange anzuzeigen:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu und klicken Sie auf FrameMaker-Dokument, für das Sie den Status der Ausgabegenerierung überprüfen möchten.
+1. Navigieren Sie in der Assets-Benutzeroberfläche zu dem FrameMaker-Dokument, für das Sie den Status der Ausgabegenerierung überprüfen möchten, und klicken Sie darauf.
 
 1. Klicken Sie auf Ausgaben.
 

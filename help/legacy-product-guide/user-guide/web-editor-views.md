@@ -3,8 +3,9 @@ title: Web-Editor-Ansichten
 description: Dokumente im Autoren-, Quell- und Vorschaumodus anzeigen. Erfahren Sie, wie Sie Inhalte basierend auf bedingten Filtern anzeigen, Änderungen und Markierungen verfolgen und ein Thema als PDF in AEM Guides exportieren.
 feature: Authoring, Features of Web Editor
 role: User
+hide: true
 exl-id: dbc27856-6903-4694-9875-77dc778c80bd
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -121,11 +122,11 @@ Es gibt drei **Tracking**-Optionen, aus denen Sie wählen können:
 
 ### Thema als PDF exportieren {#id2114BL00B5U}
 
-PDF ist eines der gängigsten Ausgabeformate, die in jeder möglichen Phase des Dokumentenentwicklungszyklus verwendet werden. AEM Guides bietet Ihnen die Flexibilität, die PDF eines einzelnen Themas oder einer gesamten Zuordnungsdatei zu generieren. Mit der Funktion „Als PDF exportieren“ können Autor, Publisher oder Admin einfach die PDF-Ausgabe für ein einzelnes Thema generieren. Sie verwendet die im Profil auf Ordnerebene gespeicherten DITA-OT-Konfigurationen, um die PDF zu generieren.
+PDF ist eines der gängigsten Ausgabeformate, die in jeder möglichen Phase des Dokumentenentwicklungszyklus verwendet werden. AEM Guides bietet Ihnen die Flexibilität, die PDF eines einzelnen Themas oder eine gesamte Zuordnungsdatei zu generieren. Mit der Funktion „Als PDF exportieren“ können Autor, Publisher oder Admin einfach die PDF-Ausgabe für ein einzelnes Thema generieren. Sie verwendet die im Profil auf Ordnerebene gespeicherten DITA-OT-Konfigurationen, um die PDF zu generieren.
 
 Diese Funktion unterstützt die folgenden Funktionen:
 
-- Erzeugt die PDF der aktuell aktiven Arbeitskopie eines Themas.
+- Erzeugt den PDF der aktuell aktiven Arbeitskopie eines Themas.
 - Akzeptieren Sie den DITA-OT-Umwandlungsnamen und die Befehlszeilenargumente, um die PDF zu generieren.
 - Speichern Sie die generierte Ausgabe auf dem lokalen System.
 - Lösen Sie die im Thema verwendeten Schlüssel- und Inhaltsreferenzen auf, bevor Sie die Ausgabe generieren.
@@ -146,7 +147,7 @@ Gehen Sie wie folgt vor, um ein Thema als PDF zu exportieren:
 
    >[!NOTE]
    >
-   > Vergewissern Sie sich, dass Sie das Popup-Fenster in der Browser-Konfiguration aktiviert haben, da die PDF sonst nicht heruntergeladen wird.
+   > Vergewissern Sie sich, dass Sie das Popup-Fenster in der Browser-Konfiguration aktiviert haben, da der PDF sonst nicht heruntergeladen wird.
 
    Die PDF wird generiert und in einer neuen Registerkarte geöffnet. Andernfalls wird ein Dialogfeld zum Speichern der PDF auf Ihrem lokalen System angezeigt.
 

@@ -3,8 +3,9 @@ title: Dateien herunterladen
 description: Erfahren Sie, wie Sie Dateien von der DITA-Zuordnungskonsole in AEM Guides herunterladen und eine DITA-Zuordnungsdatei in das AEM-Repository exportieren.
 feature: Content Management
 role: User
+hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 # Dateien herunterladen {#id216MC0H0BE8}
 
-Sie können Assets, einschließlich DITA- und Nicht-DITA-Dateien, herunterladen. Es gibt mehrere Möglichkeiten, Assets herunterzuladen. Einige Methoden sind nativ in AEM und andere werden von AEM Guides unterstützt. Informationen zum Herunterladen nativer AEM-Assets finden Sie unter [Herunterladen von Assets von Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in der AEM-Dokumentation. Im folgenden Abschnitt wird der Mechanismus zum Herunterladen von Dateien über die DITA-Zuordnungskonsole in AEM Guides erläutert.
+Sie können Assets, einschließlich DITA- und Nicht-DITA-Dateien, herunterladen. Es gibt mehrere Möglichkeiten, Assets herunterzuladen. Einige Methoden sind nativ in AEM und andere werden von AEM Guides unterstützt. Informationen zum nativen Herunterladen von AEM-Assets finden Sie unter [Herunterladen von Assets von Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in der AEM-Dokumentation. Im folgenden Abschnitt wird der Mechanismus zum Herunterladen von Dateien über die DITA-Zuordnungskonsole in AEM Guides erläutert.
 
 ## Exportieren einer DITA-Zuordnungsdatei
 
-Sobald Sie die DITA-Zuordnungsdatei im AEM-Repository haben, können Sie die Zuordnungsdatei zusammen mit den zugehörigen Komponenten herunterladen. Dadurch haben Sie die Möglichkeit, die gesamte Zuordnungsdatei für die Offline-Bearbeitung, Validierung, Überprüfung oder einfache Erstellung eines Backups freizugeben.
+Sobald Sie die DITA-Zuordnungsdatei im AEM-Repository haben, können Sie die Zuordnungsdatei zusammen mit den abhängigen Elementen herunterladen. Dadurch haben Sie die Möglichkeit, die gesamte Zuordnungsdatei für die Offline-Bearbeitung, Validierung, Überprüfung oder einfache Erstellung eines Backups freizugeben.
 
 Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei zusammen mit den abhängigen Dateien herunterzuladen:
 
@@ -47,7 +48,7 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei zusammen mi
 
    - Klicken Sie **Herunterladen**, um die Zuordnungsdatei im ZIP-Format herunterzuladen.
 
-   - Klicken Sie **Später herunterladen**, um die Zuordnungsdatei zu einem späteren Zeitpunkt herunterzuladen. Der Downloadlink kann über den AEM-Benachrichtigungs-Posteingang aufgerufen werden. Klicken Sie auf die generierte Zuordnungsbenachrichtigung im Posteingang, um die Zuordnung im ZIP-Format herunterzuladen.
+   - Klicken Sie **Später herunterladen**, um die Zuordnungsdatei zu einem späteren Zeitpunkt herunterzuladen. Der Download-Link kann über den AEM-Benachrichtigungs-Posteingang aufgerufen werden. Klicken Sie auf die generierte Zuordnungsbenachrichtigung im Posteingang, um die Zuordnung im ZIP-Format herunterzuladen.
 
    >[!NOTE]
    >

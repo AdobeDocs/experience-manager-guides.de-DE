@@ -3,8 +3,9 @@ title: Erstellen von Karten basierend auf benutzerdefinierten Vorlagen
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Vorlage erstellen, zum Erstellen neuer Zuordnungsdateien verwenden und den definierten Titel an eine DITA-Zuordnung in AEM Guides übergeben.
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -97,7 +98,7 @@ Erfahren Sie je nach Einrichtung, wie Sie den Ordnerpfad für benutzerdefinierte
 <details>
     <summary> Cloud Services </summary>
 
-Erfahren Sie, wie [benutzerdefinierten DITA-Vorlagenordnerpfad konfigurieren](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) im Cloud Service-Installations- und Konfigurationshandbuch beschrieben wird.
+Erfahren Sie, wie [benutzerdefinierten DITA-Vorlagenordnerpfad konfigurieren](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) im Installations- und Konfigurationshandbuch für Cloud Services beschrieben wird.
 </details>
 
 <details>

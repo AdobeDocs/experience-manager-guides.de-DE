@@ -3,8 +3,9 @@ title: Erstellen einer Massenaktivierungs-Zuordnungssammlung
 description: In den AEM-Handbüchern erfahren Sie, wie Sie eine Massen-Aktivierungszuordnungssammlung erstellen.
 feature: Publishing, Bulk Activation
 role: User
+hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Um eine Massen-Aktivierungszuordnungssammlung zu erstellen, führen Sie die folg
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und anschließend auf **Tools**.
 
-1. Wählen Sie die Kachel **Massen-Publish-Dashboard** aus.
+1. Wählen Sie die **Dashboard für Massenveröffentlichung** aus.
 
    Zum ersten Mal wird eine leere Sammlungsseite angezeigt. Wenn Sie zuvor Massenaktivierungssammlungen erstellt haben, werden diese auf dieser Seite angezeigt.
 
@@ -76,7 +77,7 @@ Die **Audit-Verlauf** enthält Informationen zu den aktivierten Zuordnungsausgab
 - **Language**: Zeigt den Sprach-Code der DITA-Karte an.
 - **Voreinstellung**: Zeigt den Titel der Ausgabevorgabe an, die in der Zuordnungsdatei konfiguriert ist. Außerdem wird das Symbol je nach Typ der Ausgabevorgabe angezeigt.
 - **Status**: Zeigt den Status der Aktivierung als erfolgreich oder nicht erfolgreich an.
-- **Ziel**: Wenn Sie die Ausgabe in Experience Manager Guides as a Cloud Service generieren, können Sie das Ziel der Ausgabe als Publish oder Vorschau anzeigen.
+- **Ziel**: Wenn Sie die Ausgabe in Experience Manager Guides as a Cloud Service generieren, können Sie das Ziel der Ausgabe als Veröffentlichung oder Vorschau anzeigen.
 
   >[!NOTE]
   >

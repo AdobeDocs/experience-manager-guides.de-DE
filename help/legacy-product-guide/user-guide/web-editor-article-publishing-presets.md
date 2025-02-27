@@ -3,8 +3,9 @@ title: Erstellen von Ausgabevorgaben aus dem Web-Editor
 description: Erstellen Sie Ausgabevorgaben aus dem Web-Editor. Erfahren Sie, wie Sie eine Ausgabevorgabe in AEM Guides bearbeiten, umbenennen, duplizieren und löschen können.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
+hide: true
 exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%

@@ -3,8 +3,9 @@ title: Übersetzungsstatus anzeigen
 description: Erfahren Sie, wie Sie den Übersetzungsstatus und die übersetzten Sprachkopien für jedes Thema in einer DITA-Karte in AEM Guides anzeigen.
 feature: Translation
 role: User
+hide: true
 exl-id: 261c24f2-be9e-4a6b-9b1f-0850d960d49e
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%

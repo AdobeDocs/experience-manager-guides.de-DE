@@ -3,8 +3,9 @@ title: Verwenden der Zuordnungssammlung für die Ausgabegenerierung
 description: Erfahren Sie, wie Sie eine Zuordnungssammlung erstellen und löschen und eine DITA-Zuordnung hinzufügen oder löschen. Konfigurieren, Generieren und Abbrechen einer Ausgabegenerierungsaufgabe aus einer Zuordnungssammlung in AEM Guides.
 feature: Publishing
 role: User
+hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
@@ -138,7 +139,7 @@ Dadurch werden auch alle Vorgaben oder Gebietsschemata entfernt, die mit der DIT
 
 ## Abbrechen einer Ausgabegenerierungsaufgabe aus einer Zuordnungssammlung
 
-Ähnlich wie beim Abbrechen einer Ausgabegenerierungsaufgabe über die [DITA Map Console](generate-output-for-a-dita-map.md#id2061H100T5Z) oder das [Publish Dashboard](generate-output-publish-dashboard.md#) können Sie eine Ausgabegenerierungsaufgabe über eine Zuordnungssammlung abbrechen. Rufen Sie die Registerkarte Ausgaben einer Zuordnungssammlung auf, wechseln Sie zur Veröffentlichungsaufgabe, die Sie abbrechen möchten, und klicken Sie auf das Symbol **Diesen Auftrag abbrechen**, um die Veröffentlichungsaufgabe abzubrechen.
+Ähnlich wie beim Abbrechen einer Aufgabe zur Ausgabegenerierung über die [DITA Map-Konsole](generate-output-for-a-dita-map.md#id2061H100T5Z) oder das [Dashboard veröffentlichen](generate-output-publish-dashboard.md#) können Sie eine Aufgabe zur Ausgabegenerierung über eine Zuordnungssammlung abbrechen. Rufen Sie die Registerkarte Ausgaben einer Zuordnungssammlung auf, wechseln Sie zur Veröffentlichungsaufgabe, die Sie abbrechen möchten, und klicken Sie auf das Symbol **Diesen Auftrag abbrechen**, um die Veröffentlichungsaufgabe abzubrechen.
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 

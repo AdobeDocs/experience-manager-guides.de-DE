@@ -3,8 +3,9 @@ title: Verwalten von Metadaten
 description: Erfahren Sie, wie Sie Metadaten in AEM Guides definieren und verwalten. Verwenden Sie Smart- und Bulk-Tagging, um verwandte Themen in einer DITA-Karte einfach zu finden.
 feature: Metadata Management
 role: User
+hide: true
 exl-id: 02f94238-2f45-4fc9-8586-6b96bb435013
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 2%

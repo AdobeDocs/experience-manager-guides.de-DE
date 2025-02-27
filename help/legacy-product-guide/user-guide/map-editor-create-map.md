@@ -3,8 +3,9 @@ title: Erstellen einer Zuordnung
 description: Erstellen Sie in AEM Guides eine Zuordnung mit dem Zuordnungs-Editor. Erfahren Sie, wie Sie eine Zuordnungsdatei basierend auf einer Zuordnungsvorlage erstellen.
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -47,11 +48,11 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnungsdatei zu erstellen:
 
    Die Versionsinformationen für eine neu erstellte Zuordnung werden als *Keine* angezeigt. Wenn Sie eine neue Version speichern, wird ihr eine Versionsnummer als 1.0 zugewiesen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version speichern](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-   Sie können die Zuordnung zur Bearbeitung im konfigurierten Zuordnungs-Editor öffnen oder die Zuordnungsdatei im AEM-Repository speichern.
+   Sie können die Zuordnung zur Bearbeitung im konfigurierten Zuordnungs-Editor öffnen oder im AEM-Repository speichern.
 
    >[!NOTE]
    >
-   > Um den erweiterten Zuordnungs-Editor zu verwenden, greifen Sie auf die Zuordnungsdatei im Web-Editor zu. Falls Ihr Administrator den erweiterten Zuordnungs-Editor als Standard-Editor in den Zuordnungsdateien konfiguriert hat, wird die Zuordnungsdatei direkt im erweiterten Zuordnungs-Editor zur Bearbeitung geöffnet. Siehe *Festlegen des erweiterten Zuordnungs-Editors als Standard* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+   > Um den erweiterten Zuordnungs-Editor zu verwenden, greifen Sie auf die Zuordnungsdatei im Web-Editor zu. Falls Ihr Administrator den erweiterten Zuordnungs-Editor als Standard-Editor in den Zuordnungsdateien konfiguriert hat, wird die Zuordnungsdatei direkt im erweiterten Zuordnungs-Editor zur Bearbeitung geöffnet. Siehe *Festlegen des erweiterten Zuordnungs-Editors als Standard* in Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 
 **Übergeordnetes Thema:**[ Arbeiten mit dem Zuordnungs-Editor](map-editor.md)

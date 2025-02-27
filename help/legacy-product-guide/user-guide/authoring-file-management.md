@@ -3,8 +3,9 @@ title: Dateien und Ordner verwalten
 description: Erfahren Sie, wie Sie Dateien und Ordner in AEM Guides verwalten. Kopieren und Einfügen, Ziehen und Ablegen, Löschen, Verschieben von Dateien und Ordnern in großen Mengen und Suchen von DITA-Inhalten.
 feature: Content Management
 role: User
+hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
@@ -131,7 +132,7 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    <details>
 
-   <summary> Cloud Service und On-Premise-UUID-basiertes Dateisystem </summary>
+   <summary> Cloud Services und On-Premise-UUID-basiertes Dateisystem </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -218,7 +219,7 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
 ## DITA-Inhalt durchsuchen
 
-Standardmäßig erkennt AEM DITA-Inhalte nicht und bietet daher keinen Mechanismus zum Durchsuchen von DITA-Inhalten in seinem Repository. AEM Guides fügt zusätzlich zu AEM eine Ebene hinzu, mit der AEM DITA-Inhalte verstehen und verarbeiten kann. Mit der DITA-Inhaltssuchfunktion in AEM Guides können Sie im AEM-Repository nach DITA-Inhalten suchen.
+Standardmäßig erkennt AEM keine DITA-Inhalte und bietet daher keinen Mechanismus zum Durchsuchen von DITA-Inhalten in seinem Repository. AEM Guides fügt zusätzlich zu AEM eine Ebene hinzu, mit der AEM DITA-Inhalte verstehen und verarbeiten kann. Mit der DITA-Inhaltssuchfunktion in AEM Guides können Sie im AEM-Repository nach DITA-Inhalten suchen.
 
 >[!NOTE]
 >
@@ -285,7 +286,7 @@ Sie können Dateien auch nur löschen, wenn Sie zu einer bestimmten Benutzergrup
 
 >[!NOTE]
 >
-> Weitere Informationen zu den Konfigurationen für die Dateiverwaltung finden Sie in *Verhindern des Löschens ausgecheckter Dateien* und *Verhindern des Löschens referenzierter Dateien* in den Abschnitten Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+> Weitere Informationen zu den Konfigurationen für die Dateiverwaltung finden Sie unter *Verhindern des Löschens ausgecheckter Dateien* und *Verhindern des Löschens referenzierter Dateien* in den Abschnitten Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 Wenn Ihr Administrator allen Benutzern die Berechtigung zum Löschen von Dateien erteilt hat, wird beim Löschen von Dateien mit Verweisen die folgende Meldung angezeigt:
 

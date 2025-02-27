@@ -3,8 +3,9 @@ title: Benutzerdefiniert
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Vorgabe über den Web-Editor und das Zuordnungs-Dashboard erstellen. Konfigurieren einer benutzerdefinierten Ausgabevorgabe in AEM Guides.
 feature: Publishing
 role: User
+hide: true
 exl-id: b96e6599-f8f3-491a-8b8f-fcb1e0f58aae
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 1%
@@ -44,7 +45,7 @@ Weitere Informationen finden Sie unter &quot;[ Konfiguration](#id231KJA00REJ).
 
 **Vom Zuordnungs-Dashboard**
 
-Um die Ausgabevorgaben für das PDF zu öffnen, klicken Sie in der Assets-Benutzeroberfläche auf eine DITA-Zuordnungsdatei, klicken Sie dann auf Ausgabevorgaben und dann auf die Option HTML5 . Klicken Sie im Zuordnungs-Dashboard oben auf **Bearbeiten**, um die verschiedenen Konfigurationen zu aktualisieren, und klicken Sie dann auf **Speichern**.
+Um Ausgabevorgaben für PDF zu öffnen, klicken Sie in der Assets-Benutzeroberfläche auf eine DITA-Zuordnungsdatei, klicken Sie dann auf Ausgabevorgaben und dann auf die Option HTML5 . Klicken Sie im Zuordnungs-Dashboard oben auf **Bearbeiten**, um die verschiedenen Konfigurationen zu aktualisieren, und klicken Sie dann auf **Speichern**.
 
 **Benutzerdefinierte Konfiguration**
 

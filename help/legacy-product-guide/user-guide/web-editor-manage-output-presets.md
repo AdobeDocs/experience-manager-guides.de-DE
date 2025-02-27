@@ -3,8 +3,9 @@ title: Verwalten von globalen und Ordnerprofil-Ausgabevorgaben
 description: Erfahren Sie, wie Sie in AEM Guides globale Ausgabevorgaben und Ordnerprofile als Admin-Benutzerinnen und -Benutzer erstellen, bearbeiten, umbenennen, duplizieren und löschen.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
+hide: true
 exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabevorgabe für die globalen
 
 Sie können die folgenden Vorgänge für die Voreinstellung auch über das Menü Optionen ausführen:
 
-- Wählen Sie die Vorgabe als Standard-PDF-Vorgabe aus. Dann wird die ausgewählte Voreinstellung als Standardvorgabe verwendet, um die PDF-Ausgabe mit der Option **Als PDF herunterladen** für eine Zuordnung zu generieren.
+- Wählen Sie die Vorgabe als Standard-PDF-Vorgabe aus. Dann würde die ausgewählte Vorgabe als Standardvorgabe verwendet, um die PDF-Ausgabe mit der Option **Als PDF herunterladen** für eine Zuordnung zu generieren.
 - **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** eine vorhandene Ausgabevorgabe aus dem Menü **Optionen**.
 
 >[!NOTE]

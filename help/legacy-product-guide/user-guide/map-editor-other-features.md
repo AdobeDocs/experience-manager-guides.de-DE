@@ -3,8 +3,9 @@ title: Weitere Funktionen in den Zuordnungs-Editoren
 description: Entdecken Sie einige allgemeine Funktionen im Standard- und im erweiterten Zuordnungs-Editor. Erfahren Sie, wie Sie wichtige Verweise im Zuordnungs-Editor auflösen.
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: d6e00884-e17c-499e-9568-0807a75051ad
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%

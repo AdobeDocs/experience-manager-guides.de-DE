@@ -3,8 +3,9 @@ title: Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT
 description: Erfahren Sie, wie Sie die Metadaten mithilfe der DITA-OT-Veröffentlichung in AEM Guides an die Ausgabe übergeben.
 feature: Publishing, Metadata Management
 role: User
+hide: true
 exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT {#id21BJ00QD0XA}
 
-Metadaten sind zusätzliche Informationen zur Ausgabe. In AEM Guides können Sie die vorhandenen Metadaten übergeben oder benutzerdefinierte Metadaten-Tags erstellen. Mit DITA-OT-Publishing können Sie Metadaten an AEM-, PDF-, HTML5-, EPUB- und benutzerdefinierte Formatausgaben übergeben.
+Metadaten sind zusätzliche Informationen zur Ausgabe. In AEM Guides können Sie die vorhandenen Metadaten übergeben oder benutzerdefinierte Metadaten-Tags erstellen. Mit der DITA-OT-Veröffentlichung können Sie Metadaten an AEM, PDF, HTML5, EPUB und benutzerdefinierte Formatausgaben übergeben.
 
 Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe von DITA-OT-Publishing an die Ausgabe zu übergeben:
 

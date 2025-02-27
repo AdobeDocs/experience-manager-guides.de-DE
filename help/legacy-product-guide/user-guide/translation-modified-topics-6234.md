@@ -3,8 +3,9 @@ title: Geänderte Themen übersetzen
 description: Erfahren Sie, wie Sie ein geändertes Thema in AEM Guides erneut übersetzen.
 feature: Translation
 role: User
+hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%

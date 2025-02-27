@@ -3,8 +3,9 @@ title: Erstellen und Verwalten von Grundlinien aus dem Web-Editor
 description: Erstellen und verwalten Sie Baselines aus dem Web-Editor in AEM Guides. Erfahren Sie, wie Sie Baselines auf der Grundlage von Kennzeichnungen erstellen und Filter auf die Baselines anwenden.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
+hide: true
 exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Es wird empfohlen, diese Baseline-Funktion aus dem Web-Editor zu verwenden, wenn Sie ein Upgrade auf AEM Guides as a Cloud Service March oder eine spätere Version durchgeführt haben.
+> Es wird empfohlen, diese Baseline-Funktion aus dem Web-Editor zu verwenden, wenn Sie ein Upgrade auf AEM Guides as a Cloud Service März oder höher durchgeführt haben.
 
 AEM Guides bietet die in den Web-Editor integrierte Funktion „Grundlinien“, mit der Benutzende Grundlinien erstellen und zur Veröffentlichung oder Übersetzung von Themen verschiedener Versionen verwenden können. Sie können auch mehrere Ausgabevorgaben derselben DITA-Zuordnung parallel veröffentlichen.
 

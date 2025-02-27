@@ -3,8 +3,9 @@ title: Erstellen eines DITA-Projekts
 description: Erstellen Sie ein DITA-Projekt mithilfe einer Vorlage in AEM Guides. Erfahren Sie, wie Sie mit einem DITA-Projekt die Überprüfungen einleiten können.
 feature: Reviewing
 role: User
+hide: true
 exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Sie können Team-Mitglieder zu einem Projekt hinzufügen, denen dann verschieden
 
 Nachdem Sie Ihr DITA-Projekt erstellt haben, können Sie Ihre Überprüfung über den Web-Editor oder die Assets-Benutzeroberfläche starten. Weitere Informationen finden Sie unter [Senden von Themen zur Überprüfung](review-send-topics-for-review.md#).
 
-Wenn ein Autor einen Prüfungs-Workflow initiiert, erhalten die ausgewählten Mitglieder des Projekts ebenfalls eine E-Mail-Benachrichtigung. Informationen zum Konfigurieren von E-Mail *Benachrichtigungen finden Sie unter „Anpassen von E-Mail* Vorlagen“ in „Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service&quot;.
+Wenn ein Autor einen Prüfungs-Workflow initiiert, erhalten die ausgewählten Mitglieder des Projekts ebenfalls eine E-Mail-Benachrichtigung. Informationen zum Konfigurieren von E-Mail *Benachrichtigungen finden Sie unter „Anpassen von E-Mail* Vorlagen“ unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
 

@@ -3,8 +3,9 @@ title: Profilerstellung für bedingte Attribute
 description: Erfahren Sie, wie Sie in AEM Guides bedingte Attribute erstellen. Verwenden Sie bedingte Attribute im Ordner und in globalen Profilen, um Ihre Inhalte mit Bedingungen zu versehen.
 feature: Publishing
 role: User
+hide: true
 exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 1%

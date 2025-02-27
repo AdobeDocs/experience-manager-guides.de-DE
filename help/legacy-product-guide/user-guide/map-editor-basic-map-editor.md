@@ -3,8 +3,9 @@ title: Arbeiten mit dem grundlegenden Zuordnungs-Editor
 description: Erfahren Sie, wie Sie mit dem grundlegenden Zuordnungs-Editor in AEM Guides arbeiten. Kennenlernen der Funktionen des grundlegenden Karten-Editors auf Karten- und Themenebene. Erstellen und Bearbeiten von Beziehungstabellen in einer DITA-Zuordnung.
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%

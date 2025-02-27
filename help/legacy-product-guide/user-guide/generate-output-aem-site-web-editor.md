@@ -3,8 +3,9 @@ title: AEM Sites
 description: Erstellen und konfigurieren Sie die AEM Sites-Vorgabe im Web-Editor und generieren Sie eine AEM Sites-Ausgabe für DITA-Zuordnungen, ausgewählte Themen und verknüpfte Themen.
 feature: Publishing
 role: User
+hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Führen Sie die folgenden Schritte aus, um die AEM Sites-Vorgaben aus dem Web-Ed
 >
 >Bevor Sie die AEM Sites-Vorgaben für Experience Manager Guides konfigurieren können, muss Ihr Administrator eine AEM Sites-Struktur mithilfe der Vorlagen erstellen.
 - **On-Premise-Software**: Erfahren Sie mehr über das [Herunterladen und Installieren von AEM Sites-Vorlagen](/help/product-guide/install-guide/download-install-aem-sites-templates.md) für On-Premise-Software.
-- **Cloud Service**: Erfahren Sie mehr darüber, wie Sie [AEM Sites-Vorlagen herunterladen und installieren](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) für den Cloud Service.
+- **Cloud Service**: Erfahren Sie mehr darüber, wie Sie [AEM Sites-Vorlagen herunterladen und installieren](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) für Cloud Service.
 
 
 
@@ -71,7 +72,7 @@ Die Registerkarte **Allgemein** enthält die folgenden Konfigurationen im Zusamm
 - Site-Pfad verwenden
 - Site-Pfad
 - Site
-- Publish-Pfad
+- Veröffentlichungspfad
 - Themenseitenvorlage
 - Seitennamen generieren basierend auf
    - Name der Themendatei
@@ -121,9 +122,9 @@ Für die AEM Sites-Ausgabe stehen die folgenden Optionen zur Verfügung:
 | AEM Sites-Optionen | Beschreibung |
 | --- | --- |
 | Site-Pfad verwenden | Verwenden Sie diese Option, um Ihre Inhalte auf einer Experience Manager-Site zu veröffentlichen. Wählen Sie diese Option aus, wenn Sie den genauen Site-Pfad kennen, unter dem die Ausgabe veröffentlicht werden soll. Geben Sie außerdem den vollständigen Pfad im Feld Site-Pfad an. |
-| Site-Pfad | Diese Option wird angezeigt, wenn Sie die Option **Site-Pfad verwenden** auswählen. Durchsuchen Sie den genauen Experience Manager-Site-Pfad, an dem die Ausgabe veröffentlicht werden soll. |
+| Site-Pfad | Diese Option wird angezeigt, wenn Sie die Option **Site-Pfad verwenden** auswählen. Durchsuchen Sie den genauen Pfad der Experience Manager-Site, an der die Ausgabe veröffentlicht werden soll. |
 | Site | Name der Experience Manager Sites, in der Sie Ihre Inhalte veröffentlichen möchten. Die Optionen in der Dropdown-Liste werden basierend auf der Liste der in AEM Sites verfügbaren Sites ausgefüllt. <br>Wählen Sie **Aktualisieren** ![Aktualisierungssymbol ](images/navtitle-refresh-icon.svg), um eine neue Liste von Optionen abzurufen und die aktualisierten Daten widerzuspiegeln. |
-| Publish-Pfad | Der Pfad innerhalb Ihres AEM-Repositorys, in dem die Ausgabe gespeichert wird. Der Publish-Pfad wird mit allen Pfaden gefüllt, die Seiten enthalten, die basierend auf der Startseitenvorlage erstellt wurden. Unter diesem Pfad wird die AEM Sites-Ausgabe der DITA-Zuordnung generiert.  Wenn Sie beispielsweise die Site als `AEMG-Docs` und den Publish-Pfad als `aemg-docs-en/docs/product-abc.` angeben, wird die AEM Sites-Ausgabe unter dem `aemg-docs-en/docs/product-abc/` in `crx/de` generiert. |
+| Veröffentlichungspfad | Der Pfad innerhalb Ihres AEM-Repositorys, in dem die Ausgabe gespeichert wird. Der Veröffentlichungspfad wird mit allen Pfaden gefüllt, die Seiten enthalten, die basierend auf der Startseitenvorlage erstellt wurden. Unter diesem Pfad wird die AEM Sites-Ausgabe der DITA-Zuordnung generiert.  Wenn Sie beispielsweise die Site als `AEMG-Docs` und den Veröffentlichungspfad als `aemg-docs-en/docs/product-abc.` angeben, wird die AEM Sites-Ausgabe unter dem `aemg-docs-en/docs/product-abc/` in `crx/de` generiert. |
 | Themenseitenvorlage | Strukturkomponenten, mit denen Sie Inhalte konsistent über mehrere Dokumente hinweg organisieren können. Diese Vorlagen sind in der Adobe Experience Manager-Site-Vorlage vordefiniert. Die Optionen werden mit allen Themenseitenvorlagen ausgefüllt, die für die ausgewählte Site verfügbar sind. Wählen Sie die Vorlage aus, die Sie auf alle Ausgabethemen anwenden möchten. |
 | Seitennamen generieren basierend auf | **Themendateiname**: Verwendet den Dateinamen des DITA-Themas, um die Website-URL zu erstellen. <br> **Thementitel**: Verwendet den Titel des DITA-Themas zum Erstellen der Experience Manager-Site-Namen. |
 | Bereinigen von zuvor generierten Seiten | - **Löschen Sie zuvor generierte Seiten für ein Thema, das aus der Zuordnung entfernt wurde**: Wenn sich die Struktur der DTIA-Zuordnung ändert, können Sie diese Option verwenden, um die zuvor generierten Seiten für die entfernten Themen zu entfernen. Diese Funktion ist nur für die vollständige Veröffentlichung von Karten verfügbar.<br><br>Angenommen, Sie haben eine DITA-Karte veröffentlicht, die die Themen a.dita, b.dita und c.dita enthält. Bevor Sie die Karte erneut veröffentlichen, haben Sie das Thema b.dita aus der Karte entfernt. Wenn Sie diese Option jetzt ausgewählt haben, wird der gesamte Inhalt, der mit b.dita zusammenhängt, aus der AEM Sites-Ausgabe entfernt und nur a.dita und c.dita werden veröffentlicht.<br><br>**Hinweis**: Informationen zu gelöschten Seiten werden ebenfalls in den Ausgabegenerierungsprotokollen erfasst. Weitere Informationen zum Zugriff auf die Protokolldateien finden Sie [Anzeigen und Überprüfen der Protokolldatei](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Achtung**: Beim Löschen der Themen sind die Seiten dann nicht mehr auf der veröffentlichten Site verfügbar. Bevor die Themen gelöscht werden, wird eine Warnung angezeigt. Sie müssen das Löschen bestätigen.<br><br>- **Löschen Sie alle Seiten, die von anderen Quellen unter diesem Pfad erstellt wurden**: Wenn Sie diese Option auswählen, werden alle Seiten, die unter diesem Pfad aus anderen Karten, einzelnen Themen oder einer anderen Quelle veröffentlicht wurden, gelöscht. Die Seiten werden auch auf der veröffentlichten Site nicht mehr verfügbar sein. Bevor die Themen gelöscht werden, wird eine Warnung angezeigt. Sie müssen das Löschen bestätigen. |
@@ -154,7 +155,7 @@ Führen Sie die folgenden Schritte aus, um eine AEM Sites-Vorgabe zu erstellen u
    1. Wählen Sie **Site** und dann den Veröffentlichungspfad und die Themenseitenvorlagen aus den ausgefüllten Optionen aus:
       1. Wählen Sie die Site aus.
       1. Wählen Sie **Site** aus. Zum Beispiel: `AEMG Docs`.
-      1. Die Optionen **Publish** Pfad und **Themenseitenvorlage** werden automatisch in der Dropdown-Liste festgelegt. Sie können auch die Optionen auswählen. Beispielsweise werden `AEMG-Docs-Site/en/docs/product1` bzw. `Topic page` festgelegt.
+      1. Die Optionen **Veröffentlichungspfad** und **Themenseitenvorlage** werden automatisch im Dropdown-Menü festgelegt. Sie können auch die Optionen auswählen. Beispielsweise werden `AEMG-Docs-Site/en/docs/product1` bzw. `Topic page` festgelegt.
    1. Wählen Sie den vollständigen Site-Pfad aus:
       1. Wählen Sie **Option „Site-Pfad**.
       1. Wählen Sie den vollständigen Site-Pfad aus. Zum Beispiel: `/content/AEMG-Docs-Site/en/docs/product1`.
@@ -168,11 +169,11 @@ Führen Sie die folgenden Schritte aus, um eine AEM Sites-Vorgabe zu erstellen u
 
    >[!NOTE]
    >
-   > Wenn Sie Inhalte zum ersten Mal auf einer AEM-Site veröffentlichen, wird empfohlen, die Seiten auf Site-Ebene zu veröffentlichen. Dadurch wird sichergestellt, dass die Ausgabe auf der **Publish**-Instanz ohne CSS-Unterbrechung korrekt angezeigt wird.
+   > Wenn Sie Inhalte zum ersten Mal auf einer AEM-Site veröffentlichen, wird empfohlen, die Seiten auf Site-Ebene zu veröffentlichen. Dadurch wird sichergestellt, dass die Ausgabe ohne CSS **Unterbrechung korrekt** der Veröffentlichungsinstanz angezeigt wird.
 
 
 
-### Verknüpfte Themen zu Publish
+### Veröffentlichen verknüpfter Themen
 
 Experience Manager Guides vereinfacht das Veröffentlichen komplexer Dokumente, indem es das Erstellen von Themenreferenzen mithilfe der `peer @scope` ermöglicht. Anschließend können Sie den Veröffentlichungskontext dieser Verweise über die AEM Sites-Vorgaben definieren und schließlich die Ausgabe der verknüpften Themen generieren.
 Weitere Informationen finden Sie unter [Generieren einer Ausgabe von verknüpfenden Themen aus anderen Karten](../user-guide/generate-output-aem-site.md#generate-output-linking-topics-from-other-maps).

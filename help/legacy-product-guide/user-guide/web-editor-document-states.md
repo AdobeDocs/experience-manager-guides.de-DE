@@ -3,8 +3,9 @@ title: Dokumentstatus
 description: Erfahren Sie mehr über die Arten von Dokumentstatus in AEM Guides. Wissen, wie Sie den Dokumentstatus ändern oder anzeigen und den Dokumentstatus in DDLC verwenden können.
 feature: Authoring, Features of Web Editor, Document State
 role: User
+hide: true
 exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Für ein Dokument kann jeder der im Dokumentstatusprofil definierten Dokumentsta
 
 Diese Status werden manuell oder automatisch entsprechend den Profileinstellungen des Dokumentstatus festgelegt. Beispiel: Das Dokumentstatusprofil ist mit dem Startstatus „Entwurf“ konfiguriert, und der Status „In Überprüfung“ wird für die zu überprüfenden Dokumente definiert. Wenn Sie dann ein Dokument erstellen, wird der Dokumentstatus auf &quot;*&quot;*. Wenn Sie eine Prüfungsaufgabe initiieren, wird der Status des Dokuments in „In Überprüfung“ geändert.
 
-Sie können den Dokumentstatus für ein einzelnes oder mehrere Dokumente auch manuell ändern. Wenn Sie sich jedoch dafür entscheiden, den Dokumentstatus für mehrere Dokumente zu ändern, wird der zulässige Status durch die allgemeinen Zustände bestimmt, die für die ausgewählten Dokumente zulässig sind. Angenommen, Sie haben die Dokumentstatus in der gleichen Reihenfolge als „Entwurf“, „In Überprüfung“, „Überprüft“ und „Bereit für Publish&quot; definiert. Bei Dokument 1.dita wird der Status auf *Entwurf* und bei Dokument 2.dita auf Überprüft gesetzt. Wenn Sie sowohl „one.dita“ als auch „two.dita“ auswählen, lautet der Status des zulässigen Dokuments *Bereit für Publish*. Da two.dita den Status *Überprüft* aufweist, ist der nächste mögliche Status für two.dita nur *Bereit für Publish*, der angezeigt wird, wenn beide Dokumente ausgewählt sind.
+Sie können den Dokumentstatus für ein einzelnes oder mehrere Dokumente auch manuell ändern. Wenn Sie sich jedoch dafür entscheiden, den Dokumentstatus für mehrere Dokumente zu ändern, wird der zulässige Status durch die allgemeinen Zustände bestimmt, die für die ausgewählten Dokumente zulässig sind. Angenommen, Sie haben die Dokumentstatus in der gleichen Reihenfolge als „Entwurf“, „In Überprüfung“, „Überprüft“ und „Bereit zur Veröffentlichung“ definiert. Bei Dokument 1.dita wird der Status auf *Entwurf* und bei Dokument 2.dita auf Überprüft gesetzt. Wenn Sie sowohl „one.dita“ als auch „two.dita“ auswählen, lautet der Status des zulässigen Dokuments *Bereit zur Veröffentlichung*. Da two.dita den Status *Überprüft* aufweist, ist der nächste mögliche Status für two.dita nur *Bereit zur Veröffentlichung*, der angezeigt wird, wenn beide Dokumente ausgewählt sind.
 
 >[!NOTE]
 >

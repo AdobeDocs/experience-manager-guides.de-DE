@@ -3,8 +3,9 @@ title: Ausgabe aktivieren
 description: Aktivieren der Ausgabe von DITA-Karten in AEM Guides. Erfahren Sie, wie Sie Ihre Inhalte auf der Veröffentlichungsinstanz aktivieren.
 feature: Publishing, Bulk Activation
 role: User
+hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 2%
@@ -19,7 +20,7 @@ Nachdem Sie eine Zuordnungssammlung für die Massenaktivierung erstellt haben, b
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Klicken Sie auf die Kachel **Publish-Dashboard** Massenverarbeitung“.
+1. Klicken Sie auf die Kachel **Dashboard für Massenveröffentlichung**.
 
    Eine Liste der Massenaktivierungszuordnungssammlungen wird angezeigt.
 
@@ -41,19 +42,19 @@ Sehen Sie sich die verschiedenen Möglichkeiten zur Aktivierung Ihrer Sammlung b
 
 ![bulk-collection-publish auf Cloud Service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
-Sie können die Ausgabe für die **Vorschau** oder **Publish-** aktivieren.
+Sie können die Ausgabe für die Instanzen **Vorschau** oder **Veröffentlichen** aktivieren.
 
 **Vorschau**
 
-* Um die Ausgabe ausgewählter Zuordnungen zu aktivieren, wählen Sie die vorgenerierte Zuordnungsausgabe aus und wählen Sie **Publish bis** > **Vorschau**.
-* Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Spalte **Map** und wählen Sie dann **Publish nach** > **Publish**.
+* Um die Ausgabe ausgewählter Zuordnungen zu aktivieren, wählen Sie die vorgenerierte Zuordnungsausgabe aus und klicken Sie auf **Veröffentlichen in** > **Vorschau**.
+* Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Spalte **Map** und wählen Sie dann **Veröffentlichen in** > **Veröffentlichen**.
 
 
 **Veröffentlichen**
 
-* Um die Ausgabe ausgewählter Zuordnungen zu aktivieren, wählen Sie die vorgenerierte Zuordnungsausgabe aus und wählen Sie **Publish zu** > **Publish**.
+* Um die Ausgabe ausgewählter Zuordnungen zu aktivieren, wählen Sie die vorgenerierte Zuordnungsausgabe aus und klicken Sie auf **Veröffentlichen in** > **Veröffentlichen**.
 
-* Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Zuordnung (Spalte) und wählen Sie dann **Publish zu** > **Publish**.
+* Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Zuordnung (Spalte) und wählen Sie dann **Veröffentlichen in** > **Veröffentlichen**.
 
 
 >[!NOTE]
@@ -72,7 +73,7 @@ Sobald die Ausgabe für die ausgewählten Zuordnungsdateien aktiviert wurde, wir
 
 Führen Sie einen der folgenden Schritte aus:
 
-* Um die Ausgabe ausgewählter Karten zu aktivieren, wählen Sie die vorgenerierte Kartenausgabe aus und klicken Sie auf **Quick Publish**.
+* Um die Ausgabe ausgewählter Zuordnungen zu aktivieren, wählen Sie die vorgenerierte Zuordnungsausgabe aus und klicken Sie auf **Quick Publish**.
 * Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Zuordnung (Spalte) und wählen Sie dann **Quick Publish.**
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 

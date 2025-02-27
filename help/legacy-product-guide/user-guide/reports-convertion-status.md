@@ -3,8 +3,9 @@ title: Bericht zum Konversionsstatus
 description: Konvertieren von Dokumenten verschiedener Formate in AEM Guides in DITA. Erfahren Sie, wie Sie Filter hinzufügen und einen Konversionsstatusbericht anzeigen.
 feature: Report Generation
 role: User
+hide: true
 exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -43,7 +44,7 @@ Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeig
 
       - **Dateiname**: Name der Quelldatei, für die der Konvertierungsprozess ausgeführt wurde. Durch Klicken auf den Link Dateiname gelangen Sie zum Speicherort des Quelldokuments.
 
-      - **Dateityp**: Typ des Quelldokuments, z. B. Word, strukturiertes HTML, XML und DocBook.
+      - **Dateityp**: Typ des Quelldokuments, bei dem es sich um Word, strukturierte HTML, XML und DocBook handeln kann.
 
       - **Hinzugefügt von**: Name des Benutzers, der die Konvertierungsaufgabe ausgeführt hat.
 

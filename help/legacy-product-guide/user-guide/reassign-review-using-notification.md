@@ -3,8 +3,9 @@ title: Prüfungsaufgabe mithilfe einer Benachrichtigung neu zuweisen
 description: Weisen Sie eine Prüfungsaufgabe mithilfe von Benachrichtigungen in AEM Guides neu zu. Wissen, wie Sie eine Reviewer-Aufgabe aus der Benachrichtigung im Posteingang neu zuweisen.
 feature: Reviewing
 role: User
+hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%

@@ -4,9 +4,9 @@ user-guide-description: Lesen Sie die Produktdokumentation für Adobe Experience
 breadcrumb-title: Dokumentation zu AEM Guides
 hide: true
 badgeAll: label="Handbuch zur alten Benutzeroberfläche - weitere Informationen" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Handbuch zur alten Benutzeroberfläche"
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 4%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 4%
                - [Web-Editor-Ansichten](./user-guide/web-editor-views.md)
                - [Unterstützung für Schematron-Dateien](./user-guide/support-schematron-file.md)
                - [KI-gestützte Smart Suggestions zum Erstellen von Inhalten](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [KI-gestützte Smart-Hilfe bei der Suche nach Inhalten](./user-guide/ai-based-smart-help.md)
+               - [KI-Assistent zum Erstellen von Dokumenten mit intelligenter Effizienz](./user-guide/ai-assistant-right-panel.md)
                - [Erstellen von Markdown-Dokumenten im Web-Editor](./user-guide/web-editor-markdown-topic.md)
                - [Hinzufügen von Zitaten zu Inhalten](./user-guide/web-editor-apply-citations.md)
                - [Verwenden von Daten aus Ihren Datenquellen](./user-guide/web-editor-content-snippet.md)
@@ -117,6 +119,7 @@ ht-degree: 4%
       - [Allgemeine Fehlerbehebung](./user-guide/generate-output-basic-troubleshooting.md)
       - [Veröffentlichen von Inhaltsfragmenten](./user-guide/publish-content-fragment.md)
       - [Veröffentlichen von Experience Fragments](./user-guide/publish-experience-fragment.md)
+      - [AEM Sites-Seiten veröffentlichen](./user-guide/publish-aem-sites.md)
       - Massenaktivierung von {#bulk-activation}
          - [Massenaktivierung von veröffentlichten Inhalten](./user-guide/conf-bulk-activation.md)
          - [Erstellen einer Massenaktivierungs-Zuordnungssammlung](./user-guide/conf-bulk-activation-create-map-collection.md)

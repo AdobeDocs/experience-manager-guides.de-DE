@@ -3,8 +3,9 @@ title: Die Funktionen des Web-Editors kennen
 description: Entdecken Sie die Funktionen des Web-Editors in AEM Guides. die Benutzeroberfläche des Web-Editors kennen, einschließlich der Haupt-Symbolleiste, der sekundären Symbolleiste, des linken Bedienfelds, des Inhaltsbearbeitungsbereichs und des rechten Bedienfelds.
 feature: Authoring, Features of Web Editor
 role: User
+hide: true
 exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -129,7 +130,7 @@ Die Editor-Einstellungen stehen nur Benutzenden mit Administratorrechten zur Ver
 
 >[!NOTE]
 >
-> Wenn ein benutzerdefiniertes Bedienfeld konfiguriert wurde, wird es auch in der Liste der Bedienfelder angezeigt. Sie können den Schalter umschalten, um das benutzerdefinierte Bedienfeld ein- oder auszublenden. Weitere Informationen zur Konfiguration finden Sie im Abschnitt *Konfigurieren eines benutzerdefinierten Bedienfelds im linken Bedienfeld* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+> Wenn ein benutzerdefiniertes Bedienfeld konfiguriert wurde, wird es auch in der Liste der Bedienfelder angezeigt. Sie können den Schalter umschalten, um das benutzerdefinierte Bedienfeld ein- oder auszublenden. Weitere Informationen zur Konfiguration finden Sie im Abschnitt *Konfigurieren eines benutzerdefinierten Bedienfelds im linken Bedienfeld* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 - **Elementliste**: Als Administrator können Sie die Liste der Elemente steuern, die ein Autor mithilfe des Popup-[Element einfügen](#id204SG30105Z) einfügen kann, und auch den Anzeigenamen für das Element definieren. Mit der Einstellung Elementliste können Sie den Namen des Elements gemäß DITA-Spezifikationen und eine Beschriftung angeben, die Sie anstelle des von DITA definierten Elementnamens verwenden möchten:
 
@@ -149,9 +150,9 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publish-Profil**: Dieses enthält die Publish-Profile, die zum Veröffentlichen der Ausgabe der **Wissensdatenbank** verwendet werden können. Sie können ein neues Profil für eine Ziel-Wissensdatenbank erstellen. Beispiel: Salesforce oder ServiceNow.
+- **Veröffentlichungsprofil**: Enthält die Veröffentlichungsprofile, die zum Veröffentlichen der Ausgabe der **Wissensdatenbank** verwendet werden können. Sie können ein neues Profil für eine Ziel-Wissensdatenbank erstellen. Beispiel: Salesforce oder ServiceNow.
 
-   - **Erstellen eines Salesforce Publish-Profils**
+   - **Erstellen eines Salesforce-Veröffentlichungsprofils**
 
      **Voraussetzungen**
 
@@ -169,10 +170,10 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
 
   Sobald die App konfiguriert ist, stellt Salesforce einen **Consumer Key** und **Consumer Secret** bereit.
 
-  Diese können zum Erstellen des Salesforce Publish-Profils verwendet werden.
+  Diese können zum Erstellen des Salesforce-Veröffentlichungsprofils verwendet werden.
 
 
-   - Um ein Salesforce Publish-Profil zu erstellen, wählen Sie die **Salesforce** Knowledge Base aus der Dropdown-Liste **Servertyp** aus. Geben Sie einen Profilnamen ein. Geben Sie **Site-URL** die Verbraucherwebsite ein, mit der Sie die Ausgabe veröffentlichen möchten, und fügen Sie dann den **Consumer Key** und **Consumer Secret** hinzu, die von der Salesforce-Verbraucherwebsite bereitgestellt werden. Wählen Sie dann **Validieren** und **Speichern** das neu erstellte Profil aus.
+   - Um ein Salesforce-Veröffentlichungsprofil zu erstellen, wählen Sie die **Salesforce** Knowledge Base aus der Dropdown-Liste **Server-Typ** aus. Geben Sie einen Profilnamen ein. Geben Sie **Site-URL** die Verbraucherwebsite ein, mit der Sie die Ausgabe veröffentlichen möchten, und fügen Sie dann den **Consumer Key** und **Consumer Secret** hinzu, die von der Salesforce-Verbraucherwebsite bereitgestellt werden. Wählen Sie dann **Validieren** und **Speichern** das neu erstellte Profil aus.
      ![Salesforce-Veröffentlichungsprofil in Editor-Einstellungen](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -180,7 +181,7 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
      >Verwenden Sie zum Konfigurieren eines Proxys für Salesforce in Experience Manager Guides die Apache-HTTP-Komponenten-Proxy-Konfiguration in AEM. Erfahren Sie, wie [Proxy für den AEM Link Checker konfigurieren](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-   - **Erstellen eines ServiceNow-Publish-Profils**
+   - **Erstellen eines ServiceNow-Veröffentlichungsprofils**
 
      **Voraussetzungen**
 
@@ -193,12 +194,12 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
 
       - Klicken Sie auf **Speichern**.
 
-     Nachdem Sie die App konfiguriert haben, erstellen Sie das **ServiceNow** Publish-Profil.
-   - Um ein Publish-Profil zu erstellen, wählen Sie die ServiceNow-Wissensdatenbank aus der Dropdown-Liste **Servertyp** aus. Geben Sie ein Profil **Name** ein. Geben Sie unter **ServiceNow** URL die Verbraucherwebsite ein, die Sie für die Veröffentlichung der Ausgabe verwenden möchten, und fügen Sie dann den **Benutzernamen** und das **Kennwort** hinzu, die von der ServiceNow-Verbraucherwebsite bereitgestellt werden. Wählen Sie dann **Validieren** und **Speichern** das neu erstellte Profil aus.
+     Nachdem Sie die App konfiguriert haben, erstellen Sie das **ServiceNow**-Veröffentlichungsprofil.
+   - Um ein Veröffentlichungsprofil zu erstellen, wählen Sie die ServiceNow-Wissensdatenbank aus der Dropdown-Liste **Servertyp** aus. Geben Sie ein Profil **Name** ein. Geben Sie unter **ServiceNow** URL die Verbraucherwebsite ein, die Sie für die Veröffentlichung der Ausgabe verwenden möchten, und fügen Sie dann den **Benutzernamen** und das **Kennwort** hinzu, die von der ServiceNow-Verbraucherwebsite bereitgestellt werden. Wählen Sie dann **Validieren** und **Speichern** das neu erstellte Profil aus.
 
      ![ServiceNow-Veröffentlichungsprofil](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Nach der Validierung können Sie das Publish-Profil in den Ausgabevorgaben einer DITA-Zuordnung auswählen und es zum Generieren der Ausgabe für den ausgewählten **Salesforce**- oder **ServiceNow**-Server.
+  Nach der Validierung können Sie das Veröffentlichungsprofil in den Ausgabevorgaben einer DITA-Zuordnung auswählen und es zum Generieren der Ausgabe für den ausgewählten **Salesforce**- oder **ServiceNow**-Server verwenden.
 
   Erfahren Sie mehr über die [Wissensdatenbank](../user-guide/generate-output-knowledge-base.md)-Ausgabevorgabe.
 
@@ -466,7 +467,7 @@ Bei Auswahl der Option Audio- oder Videodatei wird die Repository-Ansicht angeze
 
 >[!NOTE]
 >
-> Beim Hinzufügen eines YouTube-Video-Links müssen Sie die Zeichenfolge `watch?v=` durch `embed` in der URL ersetzen. Um beispielsweise einen YouTube-Video-Link hinzuzufügen: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, müssen Sie ihn wie folgt hinzufügen: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Durch diese Änderung wird sichergestellt, dass das Video in die AEM-Site- und PDF-Ausgabe eingebettet wird.
+> Beim Hinzufügen eines YouTube-Video-Links müssen Sie die Zeichenfolge `watch?v=` durch `embed` in der URL ersetzen. Um beispielsweise einen YouTube-Video-Link hinzuzufügen: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, müssen Sie ihn wie folgt hinzufügen: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Durch diese Änderung wird sichergestellt, dass das Video in die AEM-Site und die PDF-Ausgabe eingebettet wird.
 
 Sie können die Audio- oder Videodatei auch über das Dialogfeld „Multimedia einfügen“ hinzufügen. Wählen Sie die Option Audio-/Videodatei aus und klicken Sie auf das Symbol „Durchsuchen“, um die Repository-Ansicht zu starten. Wählen Sie die Audio- oder Videodatei aus dem Repository aus und klicken Sie auf Auswählen , um den Link der Datei in das Feld Audio-/Videodatei einzufügen. Wenn Sie eine Videodatei auswählen, wird auch eine Vorschau der Datei im Bereich Vorschau angezeigt. Sie können die Videodatei abspielen, um ihre Vorschau zu sehen.
 
@@ -518,7 +519,7 @@ Sie können im ausgewählten Pfad nach Nicht-DITA-Dateien wie Bilddateien, Multi
 
 >[!NOTE]
 >
-> Ihre bzw. Ihr Systemadmin kann auch die Textfilter konfigurieren und andere Filter ein- oder ausblenden. Weitere Informationen finden Sie im Abschnitt Konfigurieren von Textfiltern im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+> Ihre bzw. Ihr Systemadmin kann auch die Textfilter konfigurieren und andere Filter ein- oder ausblenden. Weitere Informationen finden Sie im Abschnitt Konfigurieren von Textfiltern im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service .
 
 Die Liste der gefilterten Dateien, die den gesuchten Text enthalten, wird angezeigt. Im obigen Screenshot werden beispielsweise die Dateien aufgelistet, die den Text „Allgemein“ enthalten. Sie können auch eine Vorschau des Inhalts der Datei anzeigen.
 
@@ -532,7 +533,7 @@ Wählen Sie im Dialogfeld Inhalt wiederverwenden die Option DITA-Datei für Date
 
 Zum Einfügen der Inhaltsreferenz können Sie auch die UUID der Datei eingeben. Der wiederverwendbare Inhalt dieser Datei wird dann im Abschnitt Vorschau aufgeführt.
 
-Je nach Einstellung für das Einfügen von Links können Sie entweder die UUID des eingefügten Inhalts oder den relativen Pfad im Bedienfeld Eigenschaften oder in der Source-Code-Ansicht sehen. Der Link wird immer mit der UUID des referenzierten Inhalts erstellt. Siehe Konfigurieren von UUID-basierten Links in der Adobe Experience Manager Guides as a Cloud Service-Installation und -Konfiguration.
+Je nach Einstellung für das Einfügen von Links können Sie entweder die UUID des eingefügten Inhalts oder den relativen Pfad im Bedienfeld Eigenschaften oder in der Source-Code-Ansicht sehen. Der Link wird immer mit der UUID des referenzierten Inhalts erstellt. Siehe Konfigurieren von UUID-basierten Links in der Datei Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 >[!NOTE]
 >
@@ -786,7 +787,7 @@ Wenn Sie zu einer früheren Version zurückkehren, wird ein visueller Hinweis an
 
 Beschriftungen helfen Ihnen bei der Identifizierung des Stadiums, in dem sich ein bestimmtes Thema im DDLC befindet (Document Development Life Cycle). Wenn Sie beispielsweise an einem Thema arbeiten, können Sie die Bezeichnung als „Genehmigt“ festlegen. Sobald ein Thema veröffentlicht und Kunden zur Verfügung gestellt wurde, können Sie diesem Thema die Bezeichnung „Freigegeben“ zuweisen.
 
-Mit AEM Guides können Sie Beschriftungen in einem Freiformtextformat angeben oder einen Satz vordefinierter Beschriftungen verwenden. Mit der benutzerdefinierten Beschriftung können alle Autorinnen und Autoren im System eine Beschriftung gemäß ihrer Auswahl angeben. Dies bietet Flexibilität, führt jedoch zu inkonsistenten Beschriftungen im System. Um dieses Problem zu beheben, können Admins einen Satz vordefinierter Kennzeichnungen konfigurieren. Weitere Informationen zum Konfigurieren vordefinierter Kennzeichnungen finden Sie unter *Konfigurieren und Anpassen des XML-Web-Editors* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+Mit AEM Guides können Sie Beschriftungen in einem Freiformtextformat angeben oder einen Satz vordefinierter Beschriftungen verwenden. Mit der benutzerdefinierten Beschriftung können alle Autorinnen und Autoren im System eine Beschriftung gemäß ihrer Auswahl angeben. Dies bietet Flexibilität, führt jedoch zu inkonsistenten Beschriftungen im System. Um dieses Problem zu beheben, können Admins einen Satz vordefinierter Kennzeichnungen konfigurieren. Weitere Informationen zum Konfigurieren vordefinierter Kennzeichnungen finden Sie unter *Konfigurieren und Anpassen des XML-Web* Editors in der Adobe Experience Manager Guides as a Cloud Service installieren und konfigurieren.
 
 Diese Beschriftungen werden Autoren in Form einer Dropdown-Liste angezeigt, wenn sie eine Beschriftung angeben müssen. Dadurch wird sichergestellt, dass im System nur vordefinierte, konsistente Kennzeichnungen verwendet werden.
 
@@ -1115,7 +1116,7 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
 
      >[!NOTE]
      >
-     > Wenn der Administrator die Berechtigung zum Löschen von Dateien erteilt hat, ist **Löschen erzwingen** aktiviert. Andernfalls ist **Löschen erzwingen** deaktiviert und es wird eine Meldung angezeigt, dass Sie nicht berechtigt sind, referenzierte Dateien zu löschen. Weitere Informationen finden Sie im Abschnitt *Verhindern des Löschens referenzierter Dateien* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+     > Wenn der Administrator die Berechtigung zum Löschen von Dateien erteilt hat, ist **Löschen erzwingen** aktiviert. Andernfalls ist **Löschen erzwingen** deaktiviert und es wird eine Meldung angezeigt, dass Sie nicht berechtigt sind, referenzierte Dateien zu löschen. Weitere Informationen finden Sie *Abschnitt „Verhindern des Löschens referenzierter*&quot; im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
    - Wenn Sie ein referenziertes Thema löschen und die Datei mit Verweisen zur Bearbeitung geöffnet haben, wird der fehlerhafte Link für die referenzierte Datei angezeigt.
 
@@ -1148,9 +1149,9 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
 
 - **In Assets-Benutzeroberfläche anzeigen**: Verwenden Sie diese Option, um eine Vorschau einer .dita/.xml-Datei in der Assets-Benutzeroberfläche anzuzeigen. Bei einer .ditamap/.bookmap-Datei werden alle Themendateien innerhalb der Karte in einer einzigen einheitlichen Seitenansicht angezeigt.
 
-- **Als PDF herunterladen**: Verwenden Sie diese Option, um die PDF-Ausgabe zu generieren und herunterzuladen.
+- **Als PDF herunterladen**: Verwenden Sie die Option, um die PDF-Ausgabe zu generieren und herunterzuladen.
 
-- **Publish as**: Verwenden Sie diese Option, um ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment zu veröffentlichen.
+- **Veröffentlichen als**: Verwenden Sie die Option, um ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment zu veröffentlichen.
 
 - **Schnellerstellung**: Generiert die Ausgabe für die ausgewählte Datei. Die Ausgabe kann nur für Dateien generiert werden, die Teil einer Ausgabevorgabe sind. Weitere Informationen finden Sie unter [Artikelbasierte Veröffentlichung im Web-Editor](web-editor-article-publishing.md#id218CK0U019I).
 

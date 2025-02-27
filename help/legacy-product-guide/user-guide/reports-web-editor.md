@@ -3,8 +3,9 @@ title: DITA Map-Bericht über den Web-Editor
 description: Generieren von DITA-Zuordnungsberichten im Web-Editor in AEM Guides. Erfahren Sie, wie Sie eine CSV für die Berichte Themenliste, Multimedia, Metadaten und fehlerhafte Links generieren.
 feature: Report Generation
 role: User
+hide: true
 exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 0%

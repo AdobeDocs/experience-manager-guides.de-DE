@@ -3,8 +3,9 @@ title: Übersetzen von Dokumenten aus dem Web-Editor
 description: Übersetzen Sie Ihre Inhalte aus dem Web-Editor in mehrere Sprachen. Erfahren Sie, wie Sie in AEM Guides ein Übersetzungsprojekt erstellen, Regeln hinzufügen, Versionen anzeigen und nicht synchronisierte Dateien schließen.
 feature: Authoring, Features of Web Editor, Translation
 role: User
+hide: true
 exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 1%
@@ -15,7 +16,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> Es wird empfohlen, diese Übersetzungsfunktion aus dem Web-Editor zu verwenden, wenn Sie ein Upgrade auf AEM Guides as a Cloud Service Version Februar 2022 oder höher durchgeführt haben.
+> Es wird empfohlen, diese Übersetzungsfunktion aus dem Web-Editor zu verwenden, wenn Sie auf AEM Guides as a Cloud Service Version Februar 2022 oder höher aktualisiert haben.
 
 AEM Guides verfügt über eine leistungsstarke Funktion im Web-Editor, mit der Sie Ihre Inhalte in mehrere Sprachen übersetzen können. Sie können ein neues Übersetzungsprojekt erstellen und die Übersetzungsaufträge später zum vorhandenen Übersetzungsprojekt hinzufügen. Sie können auch ein mehrsprachiges Übersetzungsprojekt erstellen, das Übersetzungsaufträge für alle ausgewählten Sprachen enthält.
 
@@ -139,7 +140,7 @@ SRX-Dateien sollten wie `<language-code>.srx` benannt werden. Beispiel: en-US od
 >[!NOTE]
 >Beim Titel wird nicht zwischen Groß- und Kleinschreibung unterschieden. Daher kann „en-US“, „en-us“ oder „en-us“ verwendet werden. AEM-Handbücher können auch &quot;-&quot; (Bindestrich) oder „_“ (Unterstrich) auflösen. Sie können also „en-US“ oder „en_US“ verwenden.
 
-Außerdem können Sie diese Dateien in jedem Ordner unter dem Stammordner für AEM-Assets ablegen, der `./content/dam` ist.
+Außerdem können Sie diese Dateien in jedem Ordner unter dem `./content/dam` AEM Assets-Stammordner ablegen.
 
 
 
@@ -206,7 +207,7 @@ Einige der Verweise auf Ihrem Übersetzungs-Dashboard befinden sich möglicherwe
 
 >[!NOTE]
 >
-> Sie können den Link In Bearbeitung für die übersetzten Projekte sehen, die in der AEM Guides as a Cloud Service-Version vom Februar 2023 oder höher erstellt wurden.
+> Sie können den Link In Bearbeitung für die übersetzten Projekte sehen, die in AEM Guides as a Cloud Service ab Version Februar 2023 erstellt wurden.
 
 Klicken Sie im Dialogfeld auf den Namen der Referenz, um sie im Vorschaumodus zu öffnen. Sie können auch auf das Übersetzungsprojekt klicken, um die Übersetzung zu starten.
 

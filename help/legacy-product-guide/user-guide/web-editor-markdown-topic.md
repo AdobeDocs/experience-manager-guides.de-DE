@@ -3,8 +3,9 @@ title: Autoren-Markdown-Dokumente
 description: Erstellen Sie Markdown-Dokumente aus dem Web-Editor. Erfahren Sie, wie Sie ein Markdown-Thema in AEM Guides erstellen, verfassen und in der Vorschau anzeigen.
 feature: Authoring, Features of Web Editor
 role: User
+hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%

@@ -1,10 +1,11 @@
 ---
-title: Publish eines Themas zu einem Inhaltsfragment
-description: Publish eines Themas oder der Elemente innerhalb eines Themas zu einem Inhaltsfragment in AEM Guides.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Inhaltsfragmente anzeigen und erneut veröffentlichen.
+title: Veröffentlichen eines Themas in einem Inhaltsfragment
+description: Veröffentlichen Sie ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment in AEM Guides.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Inhaltsfragmente anzeigen und erneut veröffentlichen.
 feature: Publishing
 role: User
+hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration hinzu. Di
 1. Füllen **Dialogfeld „Inhaltsfragment**&quot; die folgenden Details auf den Registerkarten **Allgemein** und **Zuordnung** aus.
 
    **Allgemein** Registerkarte
-   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Publish als Inhaltsfragment hinzu](images/generate-content-fragment.png)
+   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Inhaltsfragment veröffentlichen hinzu](images/generate-content-fragment.png)
    *Fügen Sie den Pfad, den Namen, den Titel und die Bedingungsfilterung hinzu, um ein Thema oder seine Elemente als Inhaltsfragment zu veröffentlichen.*
 
 
@@ -64,7 +65,7 @@ Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration hinzu. Di
 
    Registerkarte **Zuordnung**
 
-   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Publish als Inhaltsfragment hinzu](images/content-fragment-mapping.png)
+   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Inhaltsfragment veröffentlichen hinzu](images/content-fragment-mapping.png)
 
    *Wählen Sie das Inhaltsfragmentmodell aus und fügen Sie die Zuordnungsdetails hinzu, um ein Thema oder seine Elemente als Inhaltsfragment zu veröffentlichen.*
 

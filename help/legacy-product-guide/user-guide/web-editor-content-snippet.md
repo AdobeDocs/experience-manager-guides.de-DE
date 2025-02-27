@@ -3,8 +3,9 @@ title: Einfügen eines Inhaltsausschnitts aus Ihrer Datenquelle
 description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Guides. Erfahren Sie, wie Sie ein Inhaltsfragment aus Ihrer Datenquelle einfügen. Erstellen eines Themas mit dem Themengenerator.
 feature: Authoring, Features of Web Editor
 role: User
+hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -27,9 +28,9 @@ Abhängig von Ihrem Setup kann Ihr Administrator einen Datenquellen-Connector ko
 <summary> Cloud Services </summary>
 
 
-- Wenn Sie die Version Oktober 2023 oder höher verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Service, wie [einen Datenquellen-Connector über ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) Benutzeroberfläche konfigurieren).
+- Wenn Sie die Version vom Oktober 2023 oder höher verwenden, erfahren Sie, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) im Installations- und Konfigurationshandbuch für Cloud Services finden.
 
-- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Service, wie [ einen Datenquellen-](/help/product-guide/cs-install-guide/conf-data-source-connector.md) konfigurieren.
+- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Services, wie [ einen Datenquellen-Connector ](/help/product-guide/cs-install-guide/conf-data-source-connector.md).
 
 </details>
 

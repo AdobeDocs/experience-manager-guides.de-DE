@@ -3,8 +3,9 @@ title: Themen oder Karten überprüfen
 description: Effiziente Prüfung von Themen oder Karten in AEM Guides für eine reibungslose Inhaltsbewertung. Kenntnis der Funktionen für Autoren und Prüfer in AEM Guides.
 feature: Reviewing
 role: User
+hide: true
 exl-id: 21e444e5-28ae-49f0-9010-c8687da16371
-source-git-commit: 86fb9cc382689beb493847cb506c788199a2d3f4
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
