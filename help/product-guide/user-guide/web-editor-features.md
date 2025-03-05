@@ -4,9 +4,9 @@ description: Entdecken Sie die Funktionen des Editors in Adobe Experience Manage
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
+source-git-commit: 52b94c662f04499644f2806255521b3e68da1910
 workflow-type: tm+mt
-source-wordcount: '18661'
+source-wordcount: '18660'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelli
 
 >[!NOTE]
 >
-> Die Funktion KI-Assistent ist derzeit für Adobe Experience Manager Guides as a Cloud Service verfügbar.
+>Die Funktion KI-Assistent ist derzeit für Adobe Experience Manager Guides as a Cloud Service verfügbar.
 
 **Ansicht erweitern**: Ermöglicht das Erweitern der Seitenansicht mithilfe des Symbols **Erweitern**. In dieser Ansicht ist die Kopfzeilenleiste mit dem Adobe Experience Manager-Logo ausgeblendet. Dadurch wird der Inhaltsbereich für die Bearbeitung maximiert. Um zur Standardansicht zurückzukehren, verwenden Sie das Symbol **Erweiterte Ansicht beenden**.
 
@@ -190,6 +190,7 @@ Im folgenden Screenshot werden nur 3 von 4 konfigurierten Elementen aus dem vorh
       - Wählen Sie **Speichern** aus.
 
      Nachdem Sie die App konfiguriert haben, erstellen Sie das Profil **ServiceNow**.
+
    - Um ein Profil zu erstellen, wählen Sie die ServiceNow-Wissensdatenbank aus der Dropdown-Liste **Servertyp** aus. Geben Sie ein Profil **Name** ein. Geben Sie unter **ServiceNow** URL die Verbraucherwebsite ein, die Sie für die Veröffentlichung der Ausgabe verwenden möchten, und fügen Sie dann den **Benutzernamen** und das **Kennwort** hinzu, die von der ServiceNow-Verbraucherwebsite bereitgestellt werden. Wählen Sie dann **Validieren** und **Speichern** das neu erstellte Profil aus.
 
      ![ServiceNow-Veröffentlichungsprofil](./images/service-now-publish-profile.png){width="550" align="left"}
@@ -204,6 +205,7 @@ Im folgenden Screenshot werden nur 3 von 4 konfigurierten Elementen aus dem vorh
    - **Validierungsprüfung vor dem Speichern der Datei ausführen**: Wählen Sie diese Option, um vor einem Speichervorgang Schematron-Validierungen unter Verwendung der ausgewählten Schematron-Datei(en) auszuführen. Sie können eine Schematron-Datei hinzufügen, indem Sie auf das Symbol + klicken. Die ausgewählten Schematron-Dateien werden aufgelistet.
 
      >[!NOTE]
+     >
      >Die ausgewählte(n) Schematron-Datei(en) bleiben für das ausgewählte Ordnerprofil erhalten.
 
      ![Validierung in Editor-Einstellungen](./images/editor-setting-validation.png){width="550" align="left"}
@@ -223,18 +225,21 @@ Im folgenden Screenshot werden nur 3 von 4 konfigurierten Elementen aus dem vorh
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
-   - **Sprachgruppen**: Als Administrator können Sie eine Gruppe von Sprachen erstellen und sie als Gruppe verwenden, um die Inhalte zu übersetzen.\
+   - **Sprachgruppen**: Als Administrator können Sie eine Gruppe von Sprachen erstellen und sie als Gruppe verwenden, um die Inhalte zu übersetzen.
+
      Führen Sie die folgenden Schritte aus, um eine neue Sprachgruppe zu erstellen:
+
       1. Wählen Sie **Hinzufügen** aus.
       1. Geben Sie den Namen der Sprachgruppe ein. Jede Sprache sollte einen eindeutigen Namen haben. Sie können einen Fehler anzeigen, wenn das Namensfeld leer oder der Name nicht eindeutig ist.
       1. Wählen Sie die Sprachen aus dem Dropdown-Menü aus. Sie können mehrere Sprachen auswählen.
 
-     Geben Sie die ersten Zeichen der Sprache oder den Sprach-Code ein, um die gewünschten Sprachen zu filtern. Geben Sie beispielsweise „en“ ein, um alle Sprachen zu filtern, die „en“ am Anfang ihres Namens oder Codes enthalten.
+         Geben Sie die ersten Zeichen der Sprache oder den Sprach-Code ein, um die gewünschten Sprachen zu filtern. Geben Sie beispielsweise „en“ ein, um alle Sprachen zu filtern, die „en“ am Anfang ihres Namens oder Codes enthalten.
+
       1. Wählen Sie das Symbol Fertig aus, um der Gruppe die ausgewählten Sprachen hinzuzufügen. Die Sprachen werden angezeigt. Wenn Sie drei oder mehr Sprachen hinzufügen, wird **Option „Mehr anzeigen** angezeigt. Sie können auf **Mehr anzeigen** klicken, um alle in der Gruppe vorhandenen Sprachen anzuzeigen.
 
          >[!TIP]
          >
-         > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
+         >Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
       1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](images/Delete_icon.svg).
       1. Speichern Sie die **Einstellungen**.
@@ -296,7 +301,7 @@ Die Funktion **Suchen und Ersetzen** ist im Autoren- und Source-Ansichtsmodus ve
 
 ![](images/find-replace-bar.png){width="800" align="left"}
 
-Über das Einstellungssymbol \(![](images/settings-find-replace-icon.svg)\) können Sie die Suchoptionen **Groß-/Kleinschreibung ignorieren** und **Nur ganzes Wort** umschalten. Um die Suche ohne Berücksichtigung der Groß-/Kleinschreibung durchzuführen, aktivieren Sie die Option \(oder wählen Sie\) **Groß-/Kleinschreibung ignorieren**. Andernfalls müssen Sie, wenn Sie die Suche unter Berücksichtigung der Groß-/Kleinschreibung durchführen möchten, die Option \(oder deselect\) **Groß-/Kleinschreibung ignorieren** deaktivieren. Sie können auch ein ganzes Wort suchen.
+Über das Einstellungssymbol \(![](images/settings-find-replace-icon.svg)\) können Sie die Suchoptionen **Groß-/Kleinschreibung ignorieren** und **Nur ganzes Wort** umschalten. Um die Suche ohne Berücksichtigung der Groß-/Kleinschreibung durchzuführen, aktivieren (oder wählen) Sie die Option **Groß-/Kleinschreibung ignorieren**. Andernfalls müssen Sie, wenn Sie die Suche unter Berücksichtigung der Groß-/Kleinschreibung durchführen möchten, die Option **Groß-/Kleinschreibung ignorieren** deaktivieren (oder deren Auswahl aufheben). Sie können auch ein ganzes Wort suchen.
 
 Die Suche erfolgt sofort, d. h. wenn Sie den Suchbegriff oder das Wort in das Feld **Suchen** eingeben, wird der Begriff sofort durchsucht und im Thema ausgewählt. Um einen Text in Ihrem Thema zu ersetzen, geben Sie den Suchbegriff und seine Ersetzung in die entsprechenden Felder ein und wählen Sie die Schaltfläche **Ersetzen** oder **Alle ersetzen** aus.
 
@@ -364,7 +369,7 @@ Um auf den Versionsverlauf zuzugreifen und auf eine bestimmte Version Ihres Them
 
 **Versionsbezeichnungen**
 
-Beschriftungen helfen Ihnen bei der Identifizierung des Stadiums, in dem sich ein bestimmtes Thema im DDLC befindet (Document Development Life Cycle). Wenn Sie beispielsweise an einem Thema arbeiten, können Sie die Bezeichnung als „Genehmigt“ festlegen. Sobald ein Thema veröffentlicht und Kunden zur Verfügung gestellt wurde, können Sie diesem Thema die Bezeichnung „Freigegeben“ zuweisen.
+Mit Beschriftungen können Sie den Schritt identifizieren, in dem sich ein bestimmtes Thema im DDLC (Document Development Life Cycle) befindet. Wenn Sie beispielsweise an einem Thema arbeiten, können Sie die Bezeichnung als „Genehmigt“ festlegen. Sobald ein Thema veröffentlicht und Kunden zur Verfügung gestellt wurde, können Sie diesem Thema die Bezeichnung „Freigegeben“ zuweisen.
 
 Mit Experience Manager Guides können Sie Beschriftungen in einem Freiformtextformat angeben oder einen Satz vordefinierter Beschriftungen verwenden. Mit der benutzerdefinierten Beschriftung können alle Autorinnen und Autoren im System eine Beschriftung gemäß ihrer Auswahl angeben. Dies bietet Flexibilität, führt jedoch zu inkonsistenten Beschriftungen im System. Um dieses Problem zu beheben, können Admins einen Satz vordefinierter Kennzeichnungen konfigurieren. Weitere Informationen zum Konfigurieren vordefinierter Kennzeichnungen finden Sie unter *Konfigurieren und Anpassen des XML-Web* Editors in der Adobe Experience Manager Guides as a Cloud Service installieren und konfigurieren.
 
@@ -1865,9 +1870,9 @@ Um die globale Suche und Ersetzung durchzuführen, führen Sie die folgenden Sch
 
 Um das Symbol **Alle ersetzen** zu aktivieren, muss Ihr Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in **Einstellungen** auswählen.
 
-    >[!NOTE]
-    >
-    > Bewegen Sie den Mauszeiger über eine Datei in der Suchergebnisliste, um das Symbol „Alles in Datei ersetzen“ rechts neben der Datei anzuzeigen. Sie erhalten auch das Symbol Datei ignorieren , um die Datei aus dem Suchergebnis zu entfernen. Die Dateien, die Sie ignorieren, werden aus der Liste entfernt und der gesuchte Begriff wird in ihnen nicht ersetzt.
+>[!NOTE]
+>
+> Bewegen Sie den Mauszeiger über eine Datei in der Suchergebnisliste, um das Symbol Alle ersetzen in der Datei auf der rechten Seite anzuzeigen. Sie erhalten auch das Symbol Datei ignorieren , um die Datei aus dem Suchergebnis zu entfernen. Die Dateien, die Sie ignorieren, werden aus der Liste entfernt und der gesuchte Begriff wird in ihnen nicht ersetzt.
 
 Im gesamten System kann jeweils nur ein Vorgang zum Ersetzen aller Vorgänge ausgeführt werden. Bis zum Ausführen des Vorgangs wird der Status „Alle laufenden Vorgänge ersetzen“ angezeigt. Sie können auch den Vorgang „Alle ersetzen“ dazwischen abbrechen oder den Protokollbericht anzeigen. Wenn Sie den Vorgang abbrechen, erhalten Sie eine Benachrichtigung darüber in Ihrem Posteingang. Nachdem Sie alle Vorkommen in der ausgewählten Datei ersetzt haben, wird eine Erfolgsbenachrichtigung angezeigt.
 
