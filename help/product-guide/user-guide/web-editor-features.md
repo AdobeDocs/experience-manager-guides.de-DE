@@ -4,9 +4,9 @@ description: Entdecken Sie die Funktionen des Editors in Adobe Experience Manage
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
 workflow-type: tm+mt
-source-wordcount: '18656'
+source-wordcount: '18661'
 ht-degree: 0%
 
 ---
@@ -1265,7 +1265,7 @@ Die folgenden Optionen sind für eine Zuordnungsdatei in der Zuordnungsansicht v
 
 Mit dem Menü Optionen der Zuordnungsdatei können Sie die folgenden Aktionen ausführen:
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![Optionsmenü in der Kartenansicht](images/options-menu-map-view_cs.png){width="800" align="left"}
 
 - **Bearbeiten**: Öffnen Sie die Zuordnungsdatei zur Bearbeitung im Zuordnungs-Editor.
 
