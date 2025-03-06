@@ -1,21 +1,21 @@
 ---
-title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 2025.02.0 behoben
-description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2025.02.0 von Adobe Experience Manager Guides as a Cloud Service.
-exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 5.0.0 behoben
+description: Erfahren Sie mehr über die Fehlerbehebungen in Version 5.0.0 von Adobe Experience Manager Guides.
+source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1246'
 ht-degree: 1%
 
 ---
 
-# Es wurden Probleme in der Version 2025.02.0 behoben
+# Es wurden Probleme in Version 5.0.0 (März 2025) behoben
 
-Dieser Artikel behandelt die in verschiedenen Bereichen der Version 2025.02.0 von Adobe Experience Manager Guides as a Cloud Service behobenen Fehler.
+Dieser Artikel behandelt die in verschiedenen Bereichen von Version 5.0.0 von Adobe Experience Manager Guides behobenen Fehler.
 
-Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 2025.02.0](whats-new-2025-02-0.md).
 
-Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2025.02.0](upgrade-instructions-2025-02-0.md).
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 5.0.0](whats-new-5-0-0.md).
+
+Erfahren Sie mehr [Upgrade-Anweisungen für Version 5.0.0](upgrade-instructions-5-0-0.md).
 
 
 ## Erstellung
@@ -62,16 +62,13 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2025.02.0](upgrade-instr
 
 ## Verwaltung
 
-- Ressourcenlecks treten aufgrund nicht geschlossener Fehler **ResourceResolver** in Protokollen auf. 18488)
 - Titel und Symbol des Dialogfelds **Löschen erzwingen** sind in der Assets-Benutzeroberfläche falsch ausgerichtet. 21933)
 - Wenn JSON-Dateien im Profilordner für die XML-Editor-Konfiguration aktualisiert werden, wird die XML-Editor-Konfiguration durch den Speichervorgang unterbrochen. 22414)
 - Beim Duplizieren eines Ordnerprofils wird dessen Admin-Benutzerliste auch aus dem ursprünglichen Ordnerprofil kopiert. 19067)
 - Beim Verschieben großer Ordner (mit einer großen Menge an DITA-Inhalten bis zu 200.000 Elementen) aus der Assets-Benutzeroberfläche tritt ein Fehler auf. 20107)
-- Bei Verwendung des dynamischen Titels mit `<conkeyref>` wird er in der Berichtsthemenliste **Guides“ nicht ordnungsgemäß**. 20144)
 - Das Bearbeiten des **Ordner**-Profils mit aktivierter Unified Shell führt zu einer leeren Benutzeroberfläche. 22212)
 - Beim Löschen von Ordnern, die eine große Anzahl von Dateien enthalten, schlägt der Vorgang fehl. 17107)
 - Wenn Sie den Übersetzungsauftrag abbrechen/löschen oder das Projekt löschen, zeigt das Übersetzungs-Dashboard **Status „In Bearbeitung** an. 18417)
-- Wenn Sie Unified Shell für eine Cloud-Instanz aktivieren, wird die Themenvorschau nicht im Zuordnungs-Dashboard geöffnet. 18826)
 - Wenn Sie zwei Versionen eines nicht übersetzten Themas gleichzeitig mit einer nicht vorhandenen Übersetzung senden und die zweite Version vor der ersten genehmigen, wird das Übersetzungsprojekt mit der ersten Version unterbrochen. 22200)
 
 
@@ -87,18 +84,20 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2025.02.0](upgrade-instr
 
 ## Bekannte Probleme
 
-Adobe hat die folgenden bekannten Probleme in Version 2025.02.0 identifiziert:
+Adobe hat die folgenden bekannten Probleme in Version 5.0.0 identifiziert:
 
+- In einigen Fällen funktioniert die Sperrfunktion für CSS-Dateien nicht wie erwartet, sodass andere Benutzer die Dateien bearbeiten und speichern können, selbst wenn sie von einem anderen Benutzer gesperrt werden.
+- Die Ansicht der Zuordnungskonsole kann nicht beendet werden, wenn die Baseline bei aktivierter automatischer Speicherung beschädigt ist.
+- Das Anwenden von Änderungen der Vorgabeneinstellungen spiegelt nicht die Vorgaben wider, die bereits in der Zuordnung erstellt wurden, wenn der Vorgabenname ein Großbuchstabenzeichen enthält.
+- Die Position der Hintergrundfarbe ist in der Benutzeroberfläche des Bedienfelds **Bedingung“ falsch**.
+- Wenn Sie ein Bild als `<keyref>` verwenden, wird **„Referenztyp** des Bildes nicht im **Multimedia-Bericht“**.
 - Bei Verwendung von Bildern als Variablen in der PDF-Vorlage wird es in der Ausgabe nicht aufgelöst.
-- Die Funktion **Im Repository suchen** funktioniert beim erstmaligen Öffnen des Handbücher-Editors nicht, funktioniert aber nach der Aktualisierung des Browsers wie erwartet.
 - In **Themenliste** schlägt die Sortierung nach Titel bei Assets mit `<conref>` oder `<conkeyref>` im Titel fehl, sodass diese Einträge immer oben angezeigt werden.
 - Das Wechseln des Ordnerprofils spiegelt Änderungen nicht sofort in der Benutzeroberfläche wider, ohne dass der Browser aktualisiert wird.
-- Die Anpassungen des Erweiterungs-Frameworks, die vor Guides 2025.02.x.x vorgenommen wurden, funktionieren möglicherweise nicht wie beabsichtigt.
+- Die Anpassungen des Erweiterungs-Frameworks, die vor Guides 5.0.0 vorgenommen wurden, funktionieren möglicherweise nicht wie beabsichtigt.
 - Das vollständige Inhaltsverzeichnis der Karte wird nicht aktualisiert, wenn Themen aus der Karte selektiv veröffentlicht werden.
 - Das Veröffentlichen einer Zuordnung, die eine Markdown-Datei mit internen Bildverweisen enthält, schlägt auf Windows-Servern fehl.
 - Die Aufzählungsliste kann in Markdown nicht in eine nummerierte Liste konvertiert werden.
 - Das Veröffentlichen auf einer nativen AEM-Site schlägt fehl, wenn Markdown-Dateien in einer Zuordnung referenziert werden.
-- Die Position der Hintergrundfarbe ist in der Benutzeroberfläche des Bedienfelds **Bedingung“ falsch**.
-- Wenn Sie ein Bild als `<keyref>` verwenden, wird **„Referenztyp** des Bildes nicht im **Multimedia-Bericht“**.
-- In einigen Fällen funktioniert die Sperrfunktion für CSS-Dateien nicht wie erwartet, sodass andere Benutzer die Dateien bearbeiten und speichern können, selbst wenn sie von einem anderen Benutzer gesperrt werden.
-- Das Anwenden von Änderungen der Vorgabeneinstellungen spiegelt nicht die Vorgaben wider, die bereits in der Zuordnung erstellt wurden, wenn der Vorgabenname ein Großbuchstabenzeichen enthält.
+
+
