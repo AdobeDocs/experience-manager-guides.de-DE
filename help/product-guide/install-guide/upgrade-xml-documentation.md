@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: de79a2d63328fc6142b475a776dafd7e6d12f911
+source-git-commit: fec62d9c14acbbfc632f08af003f386aa2a6ab35
 workflow-type: tm+mt
-source-wordcount: '8018'
+source-wordcount: '8021'
 ht-degree: 0%
 
 ---
@@ -1298,7 +1298,7 @@ Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müsse
 
 ## Schritte zur Neuindizierung von damAssetLucene
 
-Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Lesen Sie https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460 , um die damAssetLucene nach der Aktualisierung auf Version 5.0.0 neu zu indizieren.
+Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [ Neuindizierung von damAssetLucene nach ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.0.0 finden Sie in diesem Artikel .
 
 >[!NOTE]
 >

@@ -2,7 +2,8 @@
 title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 5.0.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 5.0.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: a5c18c228f68db9a3282a004dc56c8a0735e4926
+exl-id: 523667d9-fed4-4798-9554-2a27033c8027
+source-git-commit: 14641e72c4b488251c10318f4661e31b5d811cef
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Die wichtigsten Highlights sind:
 
   Weitere Informationen finden Sie unter [Adobe Experience Manager Guides-Startseitenerlebnis](../user-guide/intro-home-page.md).
 
-  ![](assets/aem-home-page-new.png){width="800" align="left"}
+  ![](assets/aem-home-page-whats-new.png){width="800" align="left"}
 
 
 - **Neues Editor**-Erlebnis: Erleben Sie den Editor jetzt in einem neuen Look-and-Feel. Die überarbeitete Editor-Benutzeroberfläche bietet eine übersichtlichere und besser organisierte Symbolleiste, nahtlose Navigation und ein insgesamt intuitives Erlebnis, damit Dokumente schneller und effizienter erstellt werden können.
@@ -54,7 +55,7 @@ Die Integration bietet Ihnen auch die Möglichkeit, Ihre Arbeitswarteschlangen z
 
 Weitere Informationen finden Sie unter [Workfront-Integration](../user-guide/workfront-integration.md).
 
-![](assets/workfront-new-ui-whats-new.png){width="800" align="left"}
+![](assets/workfront-new.png){width="800" align="left"}
 
 
 ## Schnellere und skalierbare neue AEM Sites-Publishing-Engine
