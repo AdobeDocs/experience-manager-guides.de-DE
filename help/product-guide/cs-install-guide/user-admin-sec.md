@@ -5,9 +5,9 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: 6aaa5c1eeb9b74ababc7ebf427babfff101acc70
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '700'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Um auf Funktionen in der AEM Guides zuzugreifen und sie zu konfigurieren, müssen Sie Benutzende erstellen. Diesen Benutzern können dann Berechtigungen für den Zugriff auf alle oder bestimmte Funktionen in der AEM Guides zugewiesen werden. Erfahren Sie, wie Sie die Benutzerautorisierung konfigurieren und verwalten und wie die Authentifizierung und Autorisierung in AEM funktioniert.
 
-Die folgenden Themen in der AEM-Dokumentation helfen Ihnen, die Konzepte und Funktionen der Benutzerverwaltung und Sicherheit zu verstehen:
+Die folgenden Themen in der Dokumentation zu AEM helfen Ihnen, die Konzepte und Funktionen der Benutzerverwaltung und Sicherheit zu verstehen:
 
 - [AEM-Benutzer, -Gruppen und -Berechtigungen](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
@@ -25,7 +25,7 @@ Die folgenden Themen in der AEM-Dokumentation helfen Ihnen, die Konzepte und Fun
 
 ## Von AEM Guides erstellte Benutzergruppen {#id181TF0K0MHT}
 
-AEM Guides bietet drei vordefinierte Gruppen, um verschiedene Aufgaben in einem DITA-Projekt zu verwalten. Diese Gruppen sind: *Autoren*, *Prüfer* und *Herausgeber*. Je nach Gruppe, der eine Benutzerin oder ein Benutzer zugeordnet ist, können sie bzw. er bestimmte Aufgaben ausführen. Beispielsweise kann eine Veröffentlichungsaufgabe nur von einem Herausgeber, nicht aber von einem Autor oder einem Prüfer ausgeführt werden. Auf ähnliche Weise kann ein Autor ein neues Thema erstellen und ein Prüfer kann nur ein Thema überprüfen.
+AEM Guides bietet drei vordefinierte Gruppen. Diese Gruppen sind: *Autoren*, *Prüfer* und *Herausgeber*. Je nach Gruppe, der eine Benutzerin oder ein Benutzer zugeordnet ist, können sie bzw. er bestimmte Aufgaben ausführen. Beispielsweise kann eine Veröffentlichungsaufgabe nur von einem Herausgeber, nicht aber von einem Autor oder einem Prüfer ausgeführt werden. Auf ähnliche Weise kann ein Autor ein neues Thema erstellen und ein Prüfer kann nur ein Thema überprüfen.
 
 >[!TIP]
 >
@@ -99,7 +99,7 @@ Die folgende Liste enthält einige Empfehlungen und Punkte zu Benutzergruppen un
 
 - Wenn Sie möchten, dass Ihre Benutzerinnen und Benutzer Suchvorgänge für DAM durchführen können, sollten Sie Ihre Benutzerinnen und Benutzer zu einem Mitglied der Gruppe *dam-users* machen.
 
-- Wenn Sie einem Benutzer Administratorrechte erteilen möchten, können Sie dies tun, indem Sie ihm Zugriff über AEM-Standardgruppen wie *Administratoren*, *Projekte-Administratoren* oder OSGi-Konfiguration \(Felix Console\) gewähren.
+- Wenn Sie einem Benutzer Administratorrechte gewähren möchten, können Sie dies tun, indem Sie ihm Zugriff über AEM-Standardgruppen wie *Administratoren*, *Projekte-Administratoren* oder OSGi-Konfiguration \(Felix Console\) gewähren.
 
 - Wenn Sie einem Benutzer die Rechte zum Ändern eines Dokumentstatus erteilen möchten, stellen Sie sicher, dass Sie den Benutzer im Abschnitt „Statusübergang“ des Dokumentstatusprofils hinzufügen.
 
