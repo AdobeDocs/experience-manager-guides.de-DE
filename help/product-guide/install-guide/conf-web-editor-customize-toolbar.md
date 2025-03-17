@@ -5,9 +5,9 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Symbolleiste anpassen {#id172FB00L0V6}
 
 Standardmäßig werden im Lieferumfang des Web-Editors die gängigsten redaktionellen Funktionen enthalten sein, die von einem DITA-Editor benötigt werden. Funktionen wie das Einfügen von Elementen des Typs \(nummeriert oder mit Aufzählungszeichen\), Querverweis, Inhaltsreferenz, Tabelle, Absatz und Zeichenformatierung sind im Editor verfügbar. Zusätzlich zu diesen grundlegenden Elementen können Sie den Web-Editor so anpassen, dass Elemente eingefügt werden, die in Ihrer Autorenumgebung verwendet werden.
+
+>[!NOTE]
+>
+> Bei der Migration von der alten Benutzeroberfläche zur neuen AEM Guides-Benutzeroberfläche (anwendbar ab Version 2502 und 5.0 von AEM Guides) müssen Aktualisierungen an `ui_config` in flexiblere und modulare Benutzeroberflächenkonfigurationen konvertiert werden. Dieses Framework hilft bei der nahtlosen Übernahme von Änderungen in die editor_toolbar und ggf. andere Target-Widgets. Weitere Informationen finden Sie unter [Übersicht über die Konfiguration der Convert-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Es gibt zwei Möglichkeiten, die Symbolleiste des Web-Editors anzupassen:
 

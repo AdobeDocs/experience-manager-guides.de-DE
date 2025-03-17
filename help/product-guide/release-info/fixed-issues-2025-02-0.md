@@ -2,9 +2,9 @@
 title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 2025.02.0 behoben
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2025.02.0 von Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+source-git-commit: 71971c25094b842cb7a0bd1f5bd2acbca4212a66
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -102,3 +102,4 @@ Adobe hat die folgenden bekannten Probleme in Version 2025.02.0 identifiziert:
 - Wenn Sie ein Bild als `<keyref>` verwenden, wird **„Referenztyp** des Bildes nicht im **Multimedia-Bericht“**.
 - In einigen Fällen funktioniert die Sperrfunktion für CSS-Dateien nicht wie erwartet, sodass andere Benutzer die Dateien bearbeiten und speichern können, selbst wenn sie von einem anderen Benutzer gesperrt werden.
 - Das Anwenden von Änderungen der Vorgabeneinstellungen spiegelt nicht die Vorgaben wider, die bereits in der Zuordnung erstellt wurden, wenn der Vorgabenname ein Großbuchstabenzeichen enthält.
+- Beim Öffnen einer DITA-Zuordnung mit aktivierter Unified Shell wird der Editor gelegentlich aktualisiert.
