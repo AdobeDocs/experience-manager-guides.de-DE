@@ -5,7 +5,7 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Konfigurieren der Suche für die AEM Assets-Benutzeroberfläche {#id192SC800MY4}
 
-Standardmäßig erkennt AEM DITA-Inhalte nicht und bietet daher keinen Mechanismus zum Durchsuchen von DITA-Inhalten in seinem Repository. Außerdem gibt es keine OOTB-Funktion, um Inhalte basierend auf ihrer UUID zu durchsuchen. Mit AEM Guides können Sie die Funktionen für die DITA-Inhaltssuche und die UUID-basierte Suche im AEM-Repository hinzufügen.
+Standardmäßig erkennt AEM keine DITA-Inhalte und bietet daher keinen Mechanismus zum Durchsuchen von DITA-Inhalten in seinem Repository. Außerdem gibt es keine OOTB-Funktion, um Inhalte basierend auf ihrer UUID zu durchsuchen. Mit AEM Guides können Sie die Funktionen für die DITA-Inhaltssuche und die UUID-basierte Suche im AEM-Repository hinzufügen.
 
 Die Konfiguration der DITA-Inhaltssuche umfasst die folgenden Aufgaben:
 
@@ -132,8 +132,7 @@ Im Abschnitt Regelsatz können Sie Folgendes angeben:
 
 Eine Regel besteht aus Folgendem:
 
-XPath
-:   Dies ist die XPath-Abfrage, die die Elemente oder Attribute aus DITA-Dateien abruft. Die Standardkonfiguration für die Elementregel ruft alle `prolog` Elemente ab. Außerdem ruft die Standardkonfiguration für die Attributregel alle Attribute `prolog` Elemente ab. Sie können eine XPath-Abfrage angeben, um die zu suchenden Elemente oder Attribute zu serialisieren.
+**xpath** - Dies ist die XPath-Abfrage, die die Elemente oder Attribute aus DITA-Dateien abruft. Die Standardkonfiguration für die Elementregel ruft alle `prolog` Elemente ab. Außerdem ruft die Standardkonfiguration für die Attributregel alle Attribute `prolog` Elemente ab. Sie können eine XPath-Abfrage angeben, um die zu suchenden Elemente oder Attribute zu serialisieren.
 
 Die XPath-Abfrage enthält den Klassennamen des Dokumenttyps. Die `topic/topic`-Klasse wird für DITA-Dokumente vom Typ Thema verwendet. Wenn Sie eine Regel für andere DITA-Dokumente erstellen möchten, müssen Sie die folgenden Klassennamen verwenden:
 
@@ -145,19 +144,15 @@ Die XPath-Abfrage enthält den Klassennamen des Dokumenttyps. Die `topic/topic`-
 | Referenz | - Thema/Themenreferenz/Referenz |
 | Map | - Karte/Karte |
 
-Text
-:   Wenn Sie im angegebenen Element nach dem Text suchen möchten, geben Sie den Wert Ja an. Wenn Sie keinen als Wert angeben, werden nur die Attribute innerhalb des Elements serialisiert. Die Attribute, nach denen Sie suchen möchten, müssen im Abschnitt Attributsatz angegeben werden.
+**text** - Wenn Sie im angegebenen Element nach dem Text suchen möchten, geben Sie den Wert „yes“ an. Wenn Sie keinen als Wert angeben, werden nur die Attribute innerhalb des Elements serialisiert. Die Attribute, nach denen Sie suchen möchten, müssen im Abschnitt Attributsatz angegeben werden.
 
-attributeSet
-:   Geben Sie die ID des Attributsatzes an, den Sie mit dieser Regel verknüpfen möchten. Der Wert all-attrs ist ein Sonderfall, um anzugeben, dass alle Attribute für diese Regel serialisiert werden müssen.
+**attributeSet** - Geben Sie die ID des Attributsatzes an, den Sie mit dieser Regel verknüpfen möchten. Der Wert all-attrs ist ein Sonderfall, um anzugeben, dass alle Attribute für diese Regel serialisiert werden müssen.
 
 Ein Attributsatz enthält eine Liste von Attributen, nach denen Sie im DITA-Inhalt suchen möchten. Der Attributsatz enthält Folgendes:
 
-ID
-:   Eine eindeutige Kennung für den Attributsatz. Diese ID wird im attributeSet-Parameter eines Regelsatzes angegeben.
+**id** - Eine eindeutige Kennung für den Attributsatz. Diese ID wird im attributeSet-Parameter eines Regelsatzes angegeben.
 
-Attribut
-:   Eine Liste mit Attributen, die Sie durchsuchen möchten. Für jedes Attribut muss ein einzelner Eintrag im `attribute` erstellt werden.
+**attribute** - Eine Liste von Attributen, die Sie durchsuchen möchten. Für jedes Attribut muss ein einzelner Eintrag im `attribute` erstellt werden.
 
 Führen Sie die folgenden Schritte aus, um benutzerdefinierte DITA-Elemente oder -Attribute in die Serialisierungsdatei für die Suche einzufügen:
 

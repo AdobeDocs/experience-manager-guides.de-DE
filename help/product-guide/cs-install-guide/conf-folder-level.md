@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '4756'
 ht-degree: 0%
@@ -548,17 +548,13 @@ Mithilfe der Konfigurationsdatei in diesem Abschnitt können Sie einige Standard
 
 Die folgenden Details sind erforderlich, um einen Ausschnitt zu erstellen:
 
-snippetID
-:   Eine eindeutige ID für den Ausschnitt. Sie kann einen alphanumerischen Wert annehmen.
+**snippetID** - Eine eindeutige ID für den Ausschnitt. Sie kann einen alphanumerischen Wert annehmen.
 
--Name
-:   Ein beschreibender Name zur Identifizierung des Snippets. Dieser Name wird im Bedienfeld „Snippets“ angezeigt.
+**name** - Ein beschreibender Name zur Identifizierung des Ausschnitts. Dieser Name wird im Bedienfeld „Snippets“ angezeigt.
 
-Beschreibung
-:   Fügen Sie eine Beschreibung des Ausschnitts hinzu.
+**description** - Fügen Sie eine Beschreibung für den Ausschnitt hinzu.
 
-Wert
-:   Geben Sie den XML-Code des Ausschnitts an.
+**value** - Geben Sie den XML-Code des Ausschnitts an.
 
 >[!NOTE]
 >
