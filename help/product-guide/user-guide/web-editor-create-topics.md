@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit benutzerdefinierten Vorlagen in Adobe Exp
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: c6709ffb8e415c88931e732456e2f2a5e6b63729
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema im Editor zu erstellen:
 
 1. Wählen Sie im Repository-Bedienfeld das Symbol **Neue Datei** und wählen Sie dann **Thema** aus dem Dropdown-Menü aus.
 
-   ![](create-topic-option.png){width="500" align="left"}
+   ![](images/create-topic-option.png){width="500" align="left"}
 
    Sie können auf diese Option auch über die Startseite von [Experience Manager Guides ](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
 
@@ -49,7 +49,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema im Editor zu erstellen:
 
 Das Thema wird unter dem angegebenen Pfad erstellt. Außerdem wird das Thema im Editor zur Bearbeitung geöffnet.
 
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## Erstellen von Themen über die Assets-Benutzeroberfläche
 
@@ -61,7 +61,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema über die Assets-Benutzerob
 
 1. Wählen Sie auf der Blueprint-Seite den Typ des zu erstellenden DITA-Dokuments aus und klicken Sie auf **Weiter**.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){align="left"}
 
    Standardmäßig stellt Experience Manager Guides die am häufigsten verwendeten DITA-Themenvorlagen bereit. Sie können weitere Themenvorlagen entsprechend Ihren Unternehmensanforderungen konfigurieren. Sehen Sie sich *Authoring-Vorlagen konfigurieren* in Installieren und konfigurieren Sie Adobe Experience Manager Guides für Ihr Setup.
 
