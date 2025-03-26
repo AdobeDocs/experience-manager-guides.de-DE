@@ -3,7 +3,8 @@ title: Workfront-Integration
 description: Erfahren Sie, wie Sie Workfront mit Adobe Experience Manager Guides integrieren und mit der Erstellung von Aufgaben für Authoring-, Publishing-, Review- und Übersetzungs-Workflows beginnen.
 feature: Authoring
 role: User
-source-git-commit: aa50c63588f18f2aabc03d8b81edca4281258876
+exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
+source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
 workflow-type: tm+mt
 source-wordcount: '2436'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um auf Ihre Adobe Workfront-Aufgaben zuz
 
    Die Seite **Workfront** Aufgaben“ wird angezeigt.
 
-   ![](./images/workfront-sign-in.png){width="800" align="left"}
+   ![](./images/workfront-sign-in.png){align="left"}
 3. Wählen Sie **Anmelden** aus.
 
    Sie werden zur Anmeldeseite von Adobe Workfront weitergeleitet.
@@ -48,7 +49,7 @@ Führen Sie die folgenden Schritte aus, um auf Ihre Adobe Workfront-Aufgaben zuz
 
    Sie werden automatisch zur Seite **Workfront-Aufgaben** in Experience Manager Guides weitergeleitet.
 
-   ![](./images/workfront-tasks-page.png){width="800" align="left"}
+   ![](./images/workfront-tasks-page.png){align="left"}
 
 ## Auf der Workfront-Aufgabenseite verfügbare Funktionen
 
@@ -72,7 +73,7 @@ Führen Sie die folgenden Schritte aus, um eine neue Adobe Workfront-Aufgabe zu 
 
    Das **Aufgabe erstellen** wird angezeigt.
 
-   ![](./images/workfront-create-task.png){width="650" align="left"}
+   ![](./images/workfront-create-task.png){align="left"}
 2. Geben **auf der Registerkarte** Allgemein“ die folgenden Aufgabendetails ein:
 
    * **Aufgabentyp**: Wählen Sie den Aufgabentyp aus, den Sie erstellen möchten. Die verfügbaren Optionen sind: **Authoring**, **Überprüfen**, **Publishing** und **Übersetzung**.
@@ -83,20 +84,20 @@ Führen Sie die folgenden Schritte aus, um eine neue Adobe Workfront-Aufgabe zu 
    * **Verantwortlicher**: Wählen Sie einen Verantwortlichen für die Aufgabe aus.
 3. Assets Wählen Sie auf der Registerkarte **0} die Option** Hinzufügen **aus, um dieser Aufgabe ein Asset hinzuzufügen.**
 
-   ![](./images/workfront-create-tasks-asset.png){width="650" align="left"}
+   ![](./images/workfront-create-tasks-asset.png){align="left"}
 
    * Bei Aufgaben des Erstellens, Veröffentlichens und Übersetzens werden Sie aufgefordert, den Speicherort der erforderlichen Datei im Dialogfeld **Pfad auswählen** auszuwählen. Die ausgewählte Datei (ein Thema für die Bearbeitung und Zuordnung zur Veröffentlichung und Übersetzung) wird der Aufgabe hinzugefügt, sobald die Schaltfläche **Erstellen** ausgewählt wird.
 
-     ![](./images/attach-asset.png){width="650" align="left"}
+     ![](./images/attach-asset.png){align="left"}
 
    * Bei Prüfungsaufgaben werden Sie zunächst aufgefordert, den Asset-Typ (Zuordnung oder Themen) auszuwählen, und dann werden die ausgewählten Dateien wie folgt angezeigt:
 
 
-     ![Hinzufügen von Zuordnungen zu einer Prüfungsaufgabe](./images/attach-asset-topics.png){width="650" align="left"}
+     ![Hinzufügen von Zuordnungen zu einer Prüfungsaufgabe](./images/attach-asset-topics.png){align="left"}
 
      *Hinzufügen von Themen zu einer Prüfungsaufgabe*
 
-     ![Hinzufügen von Zuordnungen zu einer Prüfungsaufgabe](./images/attach-asset-maps.png){width="650" align="left"}
+     ![Hinzufügen von Zuordnungen zu einer Prüfungsaufgabe](./images/attach-asset-maps.png){align="left"}
 
      *Hinzufügen von Zuordnungen zu einer Prüfungsaufgabe*
 
@@ -125,7 +126,7 @@ Eine neue Aufgabe wird erstellt und auf der Registerkarte **Erstellt von Ihnen**
 
 Alle Aufgaben, die Sie erstellt haben und noch aktiv sind, werden auf der Seite &quot;Workfront-Aufgaben **auf der Registerkarte &quot;** erstellt“ angezeigt und geben Ihnen wichtige Aufgabendetails wie Projektname, Verantwortliche, Erstellungsdatum der Aufgabe, Abschlussdatum der Aufgabe und Aufgabenstatus.
 
-![](./images/workfront-tasks-created-by-you.png){width="800" align="left"}
+![](./images/workfront-tasks-created-by-you.png){align="left"}
 
 Die folgenden Optionen sind verfügbar, wenn Sie den Mauszeiger über eine Aufgabe bewegen, die auf der Registerkarte Erstellt von Ihnen vorhanden ist:
 
@@ -147,7 +148,7 @@ Zeigt die Aufgabeninformationen an, einschließlich der bei der Aufgabenerstellu
 
 Alle Aufgaben, die Ihnen zugewiesen sind und noch aktiv sind, werden auf der Seite Workfront-Aufgaben auf der Registerkarte **Ihnen zugewiesen** angezeigt. Dort finden Sie die wichtigsten Aufgabendetails wie Projektname, Beauftragte, Fälligkeitsdatum und Aufgabenstatus.
 
-![](./images/workfront-tasks-assigned-to-you.png){width="800" align="left"}
+![](./images/workfront-tasks-assigned-to-you.png){align="left"}
 
 Die folgenden Optionen sind verfügbar, wenn Sie den Mauszeiger über eine Aufgabe bewegen, die auf der Registerkarte Zugewiesen an Sie vorhanden ist:
 
@@ -159,7 +160,7 @@ Ermöglicht das Öffnen der Aufgabe. Je nach Aufgabentyp wird sie im Editor, in 
 
 Zeigt die Aufgabeninformationen an, einschließlich der bei der Aufgabenerstellung eingegebenen Details, des Aufgabenstatus und aller hinzugefügten Assets.
 
-![](images/task-details.png){width="800" align="left"}
+![](images/task-details.png){align="left"}
 
 #### Zugreifen auf zugewiesene Aufgaben über den Abschnitt „Übersicht“
 
@@ -167,7 +168,7 @@ Sie können auch über den Abschnitt „Übersicht“ auf [ zugewiesenen Aufgabe
 
 **Ihre Aufgaben** ist ein solches Widget, in dem eine Liste der Adobe Workfront-Aufgaben (die Ihnen zugewiesen sind und noch aktiv sind) zusammen mit den wichtigsten Aufgabendetails, einschließlich Name der Aufgabe, verknüpftes Projekt, Fälligkeitsdatum und aktueller Status, angezeigt wird.
 
-![](./images/workfront-your-tasks-widget.png){width="800" align="left"}
+![](./images/workfront-your-tasks-widget.png){align="left"}
 
 Ähnlich wie die Registerkarte Ihnen zugewiesen bietet das Widget Ihre Aufgaben auch Optionen zum **Öffnen** und Anzeigen **Aufgabendetails** wenn Sie den Mauszeiger über eine Aufgabe bewegen.
 
@@ -194,11 +195,11 @@ Führen Sie die folgenden Schritte aus, um eine Authoring-Aufgabe zu bearbeiten:
 
 1. Greifen Sie auf die Aufgabe entweder über den Abschnitt [Übersicht](#accessing-assigned-tasks-from-overview-section) oder [Ihnen zugewiesen](#managing-tasks-assigned-to-you) zu.
 
-   ![Authoring-Aufgaben auf der Registerkarte „Ihnen zugewiesen“](./images/authoring-task-access.png){width="650" align="left"}
+   ![Authoring-Aufgaben auf der Registerkarte „Ihnen zugewiesen“](./images/authoring-task-access.png){align="left"}
 
    *Bearbeitungsaufgabe auf der Registerkarte Zugewiesen an Sie*
 
-   ![Erstellen von Aufgaben im Widget „Ihre Aufgaben“](./images/authoring-task-access-your-tasks.png){width="650" align="left"}
+   ![Erstellen von Aufgaben im Widget „Ihre Aufgaben“](./images/authoring-task-access-your-tasks.png){align="left"}
 
    *Authoring-Aufgabe im Widget „Ihre Aufgaben“*
 2. Bewegen Sie den Mauszeiger über die Aufgabe, an der Sie arbeiten möchten, und wählen Sie sie aus.  ![](images/Smock_OpenIn_18_N.svg)  um es zu öffnen. Sie können die Aufgabe auch öffnen, indem Sie einfach die Aufgabe auswählen.
@@ -206,7 +207,7 @@ Führen Sie die folgenden Schritte aus, um eine Authoring-Aufgabe zu bearbeiten:
    Alle Bearbeitungsaufgaben werden im Editor geöffnet.
 3. Überprüfen Sie die Aufgabendetails auf der Registerkarte **Details** und wählen Sie die **Asset**-Datei aus, um sie zu öffnen.
 
-   ![](./images/authoring-task-review-details-editor.png){width="650" align="left"}
+   ![](./images/authoring-task-review-details-editor.png){align="left"}
 
 4. Nehmen Sie die erforderlichen Änderungen vor und wählen **Als erledigt markieren**.
 5. Wechseln Sie zur Registerkarte **Kommentare**, um dieser Aufgabe einen Kommentar hinzuzufügen. Diese Kommentare, die auf Aufgabenebene hinzugefügt werden, spiegeln auch das Adobe Workfront-Projekt-Dashboard wider.
@@ -223,18 +224,18 @@ Führen Sie die folgenden Schritte aus, um an einer Prüfungsaufgabe zu arbeiten
 
 1. Greifen Sie auf die Aufgabe entweder über den Abschnitt [Übersicht](#accessing-assigned-tasks-from-overview-section) oder [Ihnen zugewiesen](#managing-tasks-assigned-to-you) zu.
 
-   ![Aufgaben überprüfen auf der Registerkarte Zugewiesen an Sie](./images/review-task-access.png){width="650" align="left"}
+   ![Aufgaben überprüfen auf der Registerkarte Zugewiesen an Sie](./images/review-task-access.png){align="left"}
 
    *Prüfungsaufgabe auf der Registerkarte Zugewiesen an Sie*
 
-   ![Aufgaben im Widget „Ihre Aufgaben“ überprüfen](./images/review-task-access-your-tasks.png){width="650" align="left"}
+   ![Aufgaben im Widget „Ihre Aufgaben“ überprüfen](./images/review-task-access-your-tasks.png){align="left"}
 
    *Authoring-Aufgabe im Widget „Ihre Aufgaben“*
 2. Bewegen Sie den Mauszeiger über die Aufgabe, an der Sie arbeiten möchten, und wählen Sie sie aus.  ![](images/Smock_OpenIn_18_N.svg)  um es zu öffnen. Sie können die Aufgabe auch öffnen, indem Sie einfach die Aufgabe auswählen.
 
    Für Reviewer wird die Überprüfungsaufgabe in der **Überprüfungs-Benutzeroberfläche“**.
 
-   ![](./images/review-task-access-review-ui.png){width="650" align="left"}
+   ![](./images/review-task-access-review-ui.png){align="left"}
 
 3. Führen Sie die erforderliche Überprüfung durch. Weitere Informationen zum Überprüfen eines Themas finden Sie unter [Themen überprüfen](./review-topics.md).
 4. Nachdem die Überprüfung abgeschlossen ist, wählen Sie **Als abgeschlossen markieren** aus.
@@ -248,13 +249,13 @@ Wenn Sie die Aufgabe als von einem Validierungsverantwortlichen erledigt markier
 
 Prüfungsaufgaben, die dem Ersteller bzw. den Autoren zur Aufnahme in die Überprüfung neu zugewiesen wurden, sind im Abschnitt [Übersicht](#accessing-assigned-tasks-from-overview-section) oder auf der Registerkarte [Ihnen zugewiesen](#managing-tasks-assigned-to-you) verfügbar.
 
-![Prüfungsaufgaben im Autorenmodus](./images/review-task-author-mode.png){width="800" align="left"}
+![Prüfungsaufgaben im Autorenmodus](./images/review-task-author-mode.png){align="left"}
 
 *Prüfungsaufgabe wurde Autorinnen und Autoren zurückzugewiesen*
 
 Für solche Aufgaben ändert sich der Aufgabenstatus für den Verantwortlichen in **Authoring**, während der Aufgabentyp **Überprüfen** bleibt. Diese Statusänderung erfolgt, wenn die Überprüfung von allen Reviewern abgeschlossen wird.
 
-![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
+![](./images/review-tasks-with-authoring-doc-state.png){align="left"}
 
 
 Wenn Sie die Aufgabe oder das Symbol Öffnen auswählen, ![](images/Smock_OpenIn_18_N.svg) die Aufgabe im Editor geöffnet wird, in dem der Autor [Prüfungskommentare adressieren](../user-guide/review-address-review-comments.md) die Aufgabe bearbeiten, indem er die Version der Themen aktualisiert, und dann die Aufgabe bei Bedarf wieder dem Reviewer zuweisen kann.
@@ -271,21 +272,21 @@ Führen Sie die folgenden Schritte aus, um eine Übersetzungsaufgabe zu bearbeit
 
 1. Greifen Sie auf die Aufgabe entweder über den Abschnitt [Übersicht](#accessing-assigned-tasks-from-overview-section) oder [Ihnen zugewiesen](#managing-tasks-assigned-to-you) zu.
 
-   ![Übersetzungsaufgaben auf der Registerkarte „Ihnen zugewiesen“](./images/translation-tasks-access.png){width="650" align="left"}
+   ![Übersetzungsaufgaben auf der Registerkarte „Ihnen zugewiesen“](./images/translation-tasks-access.png){align="left"}
 
    *Übersetzungsaufgabe auf der Registerkarte „Ihnen zugewiesen“*
 
-   ![Übersetzungsaufgaben im Widget „Ihre Aufgaben“](./images/translation-tasks-access-your-tasks.png){width="650" align="left"}
+   ![Übersetzungsaufgaben im Widget „Ihre Aufgaben“](./images/translation-tasks-access-your-tasks.png){align="left"}
 
    *Übersetzungsaufgabe im Widget „Ihre Aufgaben“*
 
 2. Bewegen Sie den Mauszeiger über die Aufgabe, an der Sie arbeiten möchten, und wählen Sie sie aus.  ![](images/Smock_OpenIn_18_N.svg)  , um sie in der **Map-Konsole“**. Sie können die Aufgabe auch öffnen, indem Sie einfach die Aufgabe auswählen.
 3. Überprüfen Sie die Aufgabendetails und die zur Übersetzung hinzugefügte Datei.
 
-   ![](./images/translation-tasks-review-details.png){width="650" align="left"}
+   ![](./images/translation-tasks-review-details.png){align="left"}
 4. Navigieren Sie zur **Übersetzung** für die verschiedenen Übersetzungsoptionen. Erfahren Sie, wie [Inhalte übersetzen](../user-guide/translation.md) in Experience Manager Guides.
 5. Führen Sie die gewünschte Übersetzung aus und wählen Sie **Zur Übersetzung senden**.
-   ![](./images/translation-tasks-send-translation.png){width="650" align="left"}
+   ![](./images/translation-tasks-send-translation.png){align="left"}
 6. Navigieren Sie zum Abschnitt **Workfront** und wählen Sie **Als abgeschlossen markieren** aus, um anzugeben, dass die Aufgabe abgeschlossen ist.
 7. Wechseln Sie zur Registerkarte **Kommentare**, um dieser Aufgabe einen Kommentar hinzuzufügen. Diese Kommentare, die auf Aufgabenebene hinzugefügt werden, spiegeln das Adobe Workfront-Projekt-Dashboard wider.
 
@@ -301,17 +302,17 @@ Führen Sie die folgenden Schritte aus, um an einer Veröffentlichungsaufgabe zu
 
 1. Greifen Sie auf die Aufgabe entweder über den Abschnitt [Übersicht](#accessing-assigned-tasks-from-overview-section) oder [Ihnen zugewiesen](#managing-tasks-assigned-to-you) zu.
 
-   ![Veröffentlichen von Aufgaben auf der Registerkarte „Ihnen zugewiesen“](./images/publishing-tasks-access.png){width="650" align="left"}
+   ![Veröffentlichen von Aufgaben auf der Registerkarte „Ihnen zugewiesen“](./images/publishing-tasks-access.png){align="left"}
 
    *Veröffentlichungsaufgabe auf der Registerkarte „Ihnen zugewiesen“*
 
-   ![Veröffentlichen von Aufgaben im Widget „Ihre Aufgaben“](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
+   ![Veröffentlichen von Aufgaben im Widget „Ihre Aufgaben“](./images/publishing-tasks-access-your-tasks.png){align="left"}
 
    *Veröffentlichungsaufgabe im Widget „Ihre Aufgaben“*
 2. Bewegen Sie den Mauszeiger über die Aufgabe, an der Sie arbeiten möchten, und wählen Sie sie aus.  ![](images/Smock_OpenIn_18_N.svg)  , um sie in der **Map-Konsole“**. Sie können die Aufgabe auch öffnen, indem Sie einfach die Aufgabe auswählen.
 3. Überprüfen Sie die Aufgabendetails und die zur Veröffentlichung hinzugefügte Datei.
 
-   ![](./images/publishing-tasks-review-details.png){width="650" align="left"}
+   ![](./images/publishing-tasks-review-details.png){align="left"}
 4. Navigieren Sie zu **Ausgabevorgaben** und führen Sie die zum Veröffentlichen der Aufgabe erforderlichen Veröffentlichungsaktionen aus. Weitere Informationen finden Sie unter [Grundlegendes zu Ausgabevorgaben](../user-guide/generate-output-understand-presets.md/).
 5. Navigieren Sie nach Abschluss der Veröffentlichung zum Abschnitt **Workfront** und wählen Sie **Als abgeschlossen markieren** aus, um anzugeben, dass die Aufgabe abgeschlossen ist.
 6. Wechseln Sie zur Registerkarte **Kommentare**, um dieser Aufgabe einen Kommentar hinzuzufügen. Diese Kommentare, die auf Aufgabenebene hinzugefügt werden, spiegeln das Projekt-Dashboard von Workfront wider.
