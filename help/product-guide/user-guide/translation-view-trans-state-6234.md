@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie den Übersetzungsstatus und die übersetzten 
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -26,6 +26,6 @@ Führen Sie die folgenden Schritte aus, um den Übersetzungsstatus einer DITA-Zu
    >
    > Sie können den Inhalt außerdem nach Übersetzungsstatus \(fehlender Abgleich, Kopiervorgang läuft oder Synchronisierung\), Source-Typ \(alle, DITA, DITA-Zuordnung oder Ressource\) und Änderungsdatum filtern. Darüber hinaus können Sie Keywords eingeben, um nach bestimmten Themen zu suchen. Sie können **Aktualisieren** verwenden, um den Status zu aktualisieren, wenn Änderungen vorgenommen wurden.
 
-   ![](images/translation-status-new.png){width="800" align="left"}
+   ![](images/translation-status-new.png){align="left"}
 
 **Übergeordnetes Thema:**[&#x200B;Übersicht über die Inhaltsübersetzung](translation.md)

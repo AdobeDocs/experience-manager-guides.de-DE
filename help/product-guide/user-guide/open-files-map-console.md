@@ -3,7 +3,8 @@ title: Informationen zum Öffnen von Dateien in der Map-Konsole
 description: Erfahren Sie, wie Sie eine DITA-Zuordnungsdatei in der Benutzeroberfläche der Zuordnungskonsole von Adobe Experience Manager Guides öffnen.
 feature: Publishing
 role: User
-source-git-commit: 2e233a1bf061eba539a4af483f5f9ba32ff613c2
+exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
+source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -44,9 +45,4 @@ Sie können auch eine vorhandene Zuordnungsdatei über den Editor in der Zuordnu
 
    Die Zuordnungsdatei wird in der Zuordnungskonsole geöffnet.
 
-   ![Neue ](images/map-console.png){width="800" align="left"}
-
-
-
-
-
+   ![Neue ](images/map-console.png){align="left"}

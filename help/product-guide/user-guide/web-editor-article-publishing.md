@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie einen oder mehrere Artikel über die Zuordnun
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -27,16 +27,16 @@ Führen Sie die folgenden Schritte aus, um eine artikelbasierte Ausgabe zu gener
 1. Navigieren Sie zur Registerkarte **Artikel** und wählen Sie die Themen aus, für die Sie die Ausgabe generieren möchten.
 1. Wählen Sie **oben** Ausgabe generieren“ aus, um die Ausgabe zu generieren.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. Wählen Sie in **Eingabeaufforderung Dateien für** Veröffentlichung bestätigen die Dateien aus, die Sie veröffentlichen möchten, und bestätigen Sie Ihre Auswahl durch **Veröffentlichen**.
 
-   ![Neue ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![Neue ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    Sie sehen den Status des Ausgabegenerierungsprozesses. Die Spalte **Themen** listet die Themen auf, für die Ausgaben generiert werden, während die Spalte **Status** den Veröffentlichungsstatus jedes Themas anzeigt.
 
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){align="left"}
 
    Um die Ausgabe anzuzeigen, schließen Sie das Dialogfeld **Ausgabe generiert** und wählen Sie **Ausgabe anzeigen** auf der Seite „Voreinstellung“ aus.
 

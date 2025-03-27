@@ -4,7 +4,7 @@ description: Kenntnis der Verwendung von Bedingungsvorgaben in AEM Guides Erfahr
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Sie haben zwei Möglichkeiten, um Bedingungsvorgaben zu erstellen:
 
 Experience Manager Guides ermöglicht es Ihnen, Bedingungsvorgaben über die Zuordnungskonsole zu erstellen und zu verwalten und sie in den **Ausgabevorgaben** zu verwenden, um die endgültige bedingte Ausgabe zu generieren.
 
-<img src="images/manage-condtions-presets.png" alt= "Bedingungsvorgaben in der Zuordnungs-Konsole" width="800" border="1px">
+<img src="images/manage-condtions-presets.png" alt= "Bedingungsvorgaben in der Zuordnungs-Konsole" border="1px">
 
 ### Erstellen einer Bedingungsvorgabe
 

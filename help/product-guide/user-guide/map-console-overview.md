@@ -3,23 +3,23 @@ title: Map-Konsole in Adobe Experience Manager Guides
 description: Erfahren Sie mehr über die Kartenkonsole und die verschiedenen verfügbaren Funktionen, mit denen Sie Karten in Adobe Experience Manager Guides veröffentlichen und verwalten können.
 feature: Publishing
 role: User
-source-git-commit: 4c13d0dab23c19fe2340128aaa05803bb711a486
+exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # Übersicht über die Zuordnungskonsole
 
 Adobe Experience Manager Guides bietet eine dedizierte Konsole, die **Map-Konsole**, um alle Zuordnungsverwaltungs- und Veröffentlichungsaufgaben zu optimieren. Diese zentrale Benutzeroberfläche verbessert die Produktivität und Genauigkeit bei Ihren Zuordnungsaktivitäten, indem sie Optionen zum Generieren von Ausgaben, Übersetzen von Inhalten, Zugreifen auf Berichte und mehr bietet - alles an einem Ort.
 
-![Registerkarte „Optionen“ der Dateieigenschaften](./images/map-console-screen.png){width="800" align="left"}
+![Registerkarte „Optionen“ der Dateieigenschaften](./images/map-console-screen.png){align="left"}
 
 Die Benutzeroberfläche der Map-Konsole ist hauptsächlich in zwei Abschnitte unterteilt - **Navigationsleiste** und **Linkes Bedienfeld**.
 
-![Neu](images/map-console-sections.png){width="800" align="left"}
+![Neu](images/map-console-sections.png){align="left"}
 
 - (**A**) **Navigationsleiste**: Die Navigationsleiste zeigt Tools zum Umschalten der Navigation, Anpassen der Seitenansicht und Anzeigen des Namens der ausgewählten Zuordnungsdatei an.
 

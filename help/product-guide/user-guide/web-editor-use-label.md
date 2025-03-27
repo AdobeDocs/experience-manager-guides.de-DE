@@ -4,7 +4,7 @@ description: Hier erfahren Sie, wie Kennzeichnungen für verschiedene Versionen 
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema über den Editor einen Ti
 
 Um eine Versionsbeschriftung aus einem Thema zu löschen, verwenden Sie das Symbol **Entfernen**, das für jede im Dialogfeld Versionsbeschriftungsverwaltung hinzugefügte Beschriftung bereitgestellt wird.
 
-![](images/remove-version-label.png){width="800" align="left"}
+![](images/remove-version-label.png){align="left"}
 
 
 ## Arbeiten mit Kennzeichnungen über die Assets-Benutzeroberfläche

@@ -4,7 +4,7 @@ description: Erstellen und konfigurieren Sie die AEM-Sites-Voreinstellung in AEM
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Häufig wird eine umfangreiche Dokumentation in mehreren Ordnern und DITA-Zuordn
 
 Eine andere Möglichkeit, Inhalte zu verknüpfen, besteht darin, einen Link mithilfe der `peer`-`@scope` zu erstellen. Für solche Inhalte wird der Link zur Laufzeit aufgelöst, indem der Titel der Datei und der konfigurierte Kontext für das verknüpfte Thema aus dem Veröffentlichungskontext der DITA-Zuordnung ausgewählt werden. Der folgende Screenshot zeigt das Bedienfeld Eigenschaften für einen Link mit dem `peer` `@scope`:
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 Um die Veröffentlichung komplexer Zuordnungen und Themen zu vereinfachen, die mit anderen Themen in anderen Zuordnungen verknüpft sind, können Sie in Adobe Experience Manager Guides den Veröffentlichungskontext für jede Ausgabevorgabe festlegen.
 
@@ -65,7 +65,7 @@ Führen Sie die folgenden Schritte aus, um den Veröffentlichungskontext für ve
 
    Sie erhalten die Registerkarten AEM-Voreinstellungen und Veröffentlichungskontext .
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){align="left"}
 
 1. Öffnen Sie die Registerkarte **Veröffentlichungskontext**.
 
@@ -77,7 +77,7 @@ Führen Sie die folgenden Schritte aus, um den Veröffentlichungskontext für ve
 
    Standardmäßig sind für alle verknüpften Themen die neueste Ausgabevorgabe und Zuordnung ausgewählt.
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){align="left"}
 
 1. Um die Standardauswahl von DITA-Zuordnung und -Vorgabe zu ändern, wählen Sie **Bearbeiten** \(in der Haupt-Symbolleiste\) aus.
 

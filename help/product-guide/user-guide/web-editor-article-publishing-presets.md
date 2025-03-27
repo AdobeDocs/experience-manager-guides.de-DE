@@ -4,7 +4,7 @@ description: Erstellen Sie Ausgabevorgaben aus dem Web-Editor. Erfahren Sie, wie
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -41,21 +41,21 @@ Führen Sie die folgenden Schritte aus, um Ausgabevorgaben für Ihre DITA-Zuordn
    Die Voreinstellung für die Wissensdatenbank wird erstellt.
 
 
-   ![Neue ](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+   ![Neue ](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 Nachdem die Voreinstellung erstellt wurde, können Sie die Ausgabe für bestimmte Artikel in der Wissensdatenbank generieren. Navigieren Sie dazu zur Registerkarte **Artikel** und wählen Sie die Themen aus, für die Sie die Ausgabe generieren möchten.
 1. Wählen Sie **oben** Ausgabe generieren“ aus, um die Ausgabe zu generieren.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. Wählen Sie in **Eingabeaufforderung Dateien für** Veröffentlichung bestätigen die Dateien aus, die Sie veröffentlichen möchten, und bestätigen Sie Ihre Auswahl durch **Veröffentlichen**.
 
-   ![Neue ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![Neue ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 Sie sehen den Status des Ausgabegenerierungsprozesses. Die Spalte **Themen** listet die Themen auf, für die Ausgaben generiert werden, während die Spalte **Status** den Veröffentlichungsstatus jedes Themas anzeigt.
 
 
-![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+![](images/add-preset-output-generated_cs.png){align="left"}
 
 Um die Ausgabe anzuzeigen, schließen Sie das Dialogfeld „Ausgabe generiert“ und wählen **Ausgabe anzeigen** auf der Seite „Voreinstellung“ aus.
 

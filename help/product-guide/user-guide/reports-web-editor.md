@@ -4,7 +4,7 @@ description: Generieren von DITA-Zuordnungsberichten über die Zuordnungskonsole
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Sie können die Themenliste anzeigen, die Metadaten aller Verweise verwalten, di
 
 Sie können alle vier Berichte über das Bedienfeld **Berichte** finden. Je nach Bedarf können Sie einen der Berichte wie hier gezeigt auswählen.
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 Das Bedienfeld „Berichte“ bietet Zugriff auf vier verschiedene Berichtstypen. Jeder Bericht wird zusammen mit seiner Barrierefreiheit und seinen Funktionen im Folgenden detailliert erläutert.
 
@@ -44,7 +44,7 @@ Sie können den Themenlistenbericht einer Zuordnung anzeigen, indem Sie die folg
 
 1. Wählen **Themenliste** im Bedienfeld Berichte aus. Die Liste der in der DITA-Karte vorhandenen Themen wird angezeigt.
 
-   ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1. Im Bedienfeld **Filter** können Sie Ihre Themen nach **Verweistyp** \(direkt oder indirekt\), **Dokumentstatus** \(wenn sich Ihre Themen beispielsweise im Status Bearbeiten, In Überprüfung oder Überprüft befinden, werden diese aufgelistet\) oder **Autor** des Themas filtern.
 
@@ -78,7 +78,7 @@ Sie können den Metadatenbericht einer Zuordnung anzeigen, indem Sie die folgend
 1. Wählen **Metadaten** im Bedienfeld „Berichte“ aus. Die Liste aller Verweise einer Zuordnung wird zusammen mit den Metadaten wie Tags, dem Dokumentstatus und den benutzerdefinierten Metadaten angezeigt. Informationen zum Hinzufügen einer neuen benutzerdefinierten Metadatenspalte finden Sie [ Abschnitt Hinzufügen benutzerdefinierter ](#add-custom-metadata-columns) .
 
 
-   ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel-new.png){align="left"}
 
 
 1. Im Bedienfeld **Filter** können Sie Ihre Themen nach dem **Dokumentstatus** \(z. B. wenn Ihre Themen den Status „Bearbeiten“, „In Überprüfung“ oder „Überprüft“ aufweisen, werden diese aufgelistet\), **Verweise** \(direkt oder indirekt\), **Dateityp** \(Zuordnung, Thema, Dokument, Bild, Video und andere\) der Referenz.
@@ -127,7 +127,7 @@ Um Metadaten zu aktualisieren, führen Sie die folgenden Schritte aus:
    >
    > Sie können keine ausgecheckten Dateien auswählen. Ein ausgechecktes Symbol wird auch neben dem Titel einer ausgecheckten Datei angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen des Benutzers anzuzeigen.
 
-   ![](images/all-selection.png){width="800" align="left"}
+   ![](images/all-selection.png){align="left"}
 
 
 1. Wählen **oben** Verwalten“ aus.
@@ -225,13 +225,13 @@ Sie können den Bericht nach fehlerhaften Links anzeigen, indem Sie die folgende
    - Bei der Sortierung nach **Ungültiger Link** werden die Pfade der fehlerhaften Links in der ersten Spalte und anschließend die Namen aller Verweise, in denen sie verwendet wurden, in einer anderen Spalte in separaten Zeilen angezeigt. Wenn derselbe fehlerhafte Link in mehreren Dateien verwendet wird, werden sie in einer Zeile angezeigt und als gruppierte oder untergeordnete Zeilen angezeigt. Der folgende Screenshot zeigt beispielsweise zwei fehlerhafte Links in der ersten Spalte und die Referenz, in der sie verwendet werden, `m_ElectricalSpecs_900.ditamap` in der dritten Spalte in zwei separaten Zeilen angezeigt wird.
 
 
-   ![](images/broken-link-report-new.png){width="800" align="left"}
+   ![](images/broken-link-report-new.png){align="left"}
 
 
    - Bei Sortierung nach **Verwendet in** wird die transponierte Ansicht angezeigt, in der die Namen der Verweise, in denen die fehlerhaften Links verwendet wurden, in der ersten Spalte aufgeführt sind, während die fehlerhaften Links in einer anderen Spalte in derselben Zeile aufgeführt sind. Der folgende Screenshot zeigt beispielsweise den Verweis (in dem der fehlerhafte Link verwendet wird) `m_ElectricalSpecs_900.ditamap` in der ersten Spalte, während die fehlerhaften Links in der dritten Spalte in derselben Zeile angezeigt werden.
 
 
-   ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. Sie können Ihre fehlerhaften Links nach den **Dateityp** und **Verknüpfungstyp** filtern. Die Liste der fehlerhaften Links wird je nach Auswahl in der Dropdown-Liste angezeigt. Sie können beispielsweise festlegen, dass nur die Inhaltsreferenzen in Ihrer DITA-Karte angezeigt werden sollen und dass eine Datei nur die fehlerhaften Inhaltsreferenzen anzeigt, die darin verwendet werden.

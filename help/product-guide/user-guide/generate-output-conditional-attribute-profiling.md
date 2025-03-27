@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie in AEM Guides bedingte Attribute erstellen. V
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Um bedingte Attribute zu definieren, führen Sie die folgenden Schritte aus:
 
    Der folgende Screenshot zeigt die Definition für das Attribut `platform` mit dem Wert `unix` und der Kennzeichnung `Red Hat Linux`.
 
-   ![](images/add-profile-new.png){width="800" align="left"}
+   ![](images/add-profile-new.png){align="left"}
 
 1. Wenn Sie weitere Werte für dasselbe Attribut hinzufügen möchten, wählen Sie das Symbol **+** aus und geben Sie zusätzlichen Wert und eine Bezeichnung ein.
 

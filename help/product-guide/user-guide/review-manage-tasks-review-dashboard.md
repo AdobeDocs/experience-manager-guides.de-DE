@@ -4,7 +4,7 @@ description: Verwalten Sie Prüfungsaufgaben im Überprüfungs-Dashboard in AEM 
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 
    Ein Projektbedienfeld mit Aufgabenkacheln wird angezeigt.
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){align="left"}
 
 1. Wählen Sie die drei Punkte in der Kachel **Reviews** aus.
 
    Das Überprüfungs-Dashboard wird angezeigt. Im Dashboard werden alle von Ihnen erstellten Prüfungsaufgaben aufgelistet.
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){align="left"}
 
    Im Überprüfungs-Dashboard werden Details zur Überprüfungsaufgabe angezeigt, z. B. Name der Aufgabe, wer die Überprüfung gestartet hat, Datum, an dem die Überprüfung gestartet wurde, Fälligkeitsdatum, Status, Anzahl neuer Kommentare, die vom Autor nicht akzeptiert oder abgelehnt wurden, und Name der Validierungsverantwortlichen. Die Aufgaben werden in der Reihenfolge der neu erstellten Aufgaben zu den älteren Aufgaben aufgelistet.
 
@@ -50,7 +50,7 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 
 ## Registerkarte „Aufgabe“
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){align="left"}
 
 Sie können die folgenden Aktionen auf der Registerkarte **Aufgabe** ausführen:
 
@@ -71,7 +71,7 @@ Sie können die folgenden Aktionen auf der Registerkarte **Aufgabe** ausführen:
 
 ## Registerkarte „Inhalt“
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){align="left"}
 
 Sie können die folgenden Aktionen auf der Registerkarte **Inhalt** ausführen:
 
@@ -90,7 +90,7 @@ Sie können die folgenden Aktionen auf der Registerkarte **Inhalt** ausführen:
 
 ## Registerkarte „Validierungsverantwortliche“ {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){align="left"}
 
 Sie können die folgenden Aktionen auf der Registerkarte **Validierungsverantwortliche** ausführen:
 
@@ -111,7 +111,7 @@ Sie können die folgenden Aktionen auf der Registerkarte **Validierungsverantwor
 
 Wenn Sie auf der Hauptseite des Überprüfungs-Dashboards eine Überprüfungsaufgabe auswählen und **Status** wählen, wird der Statusbericht der Überprüfungsaufgabe angezeigt.
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){align="left"}
 
 Der Statusbericht für die Prüfungsaufgabe enthält die folgenden Details:
 

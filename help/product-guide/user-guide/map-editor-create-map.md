@@ -4,7 +4,7 @@ description: Erstellen Sie in Experience Manager Guides eine Zuordnung mit dem Z
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnung zu erstellen:
 
 1. Wählen Sie im Repository-Bedienfeld das Symbol **Neue Datei** und wählen Sie dann **DITA Map** aus dem Dropdown-Menü aus.
 
-   ![](images/create-map-options.png){width="800" align="left"}
+   ![](images/create-map-options.png){align="left"}
 
    Sie können auf diese Option auch über die Startseite von [Experience Manager Guides ](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
 
@@ -38,7 +38,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnung zu erstellen:
 
 Die Zuordnung wird unter dem angegebenen Pfad erstellt. Außerdem wird die Karte im Karten-Editor zur Bearbeitung geöffnet.
 
-![](images/map-file-in-map-editor.png){width="800" align="left"}
+![](images/map-file-in-map-editor.png){align="left"}
 
 ## Themen zu einer Zuordnungsdatei hinzufügen
 
@@ -53,7 +53,7 @@ Führen Sie die folgenden Schritte aus, um einer Zuordnungsdatei über die Zuord
 
 1. Die Zuordnungsdatei wird im Zuordnungs-Editor geöffnet. Wenn Sie eine neue Kartendatei geöffnet haben, wird nur der Titel der Karte im Editor angezeigt.
 
-   ![](images/new-map-file-in-editor.png){width="800" align="left"}
+   ![](images/new-map-file-in-editor.png){align="left"}
 
 
    - **A** - \(*Registerkartenleiste*\): Dies ähnelt der Registerkartenleiste des Editors. Weitere [ finden Sie ](./web-editor-features.md#tab-bar) der Registerkarte „Leiste“ im Editor.
@@ -76,7 +76,7 @@ Führen Sie die folgenden Schritte aus, um einer Zuordnungsdatei über die Zuord
 
    Das Thema wird der Karte hinzugefügt.
 
-   ![Map Editor Thema hinzufügen](images/map-editor-add-topic.png){width="800" align="left"}
+   ![Map Editor Thema hinzufügen](images/map-editor-add-topic.png){align="left"}
 
 1. Um weitere Themen oder eine Unterkarte hinzuzufügen, ziehen Sie das Thema oder die Unterkarte per Drag-and-Drop an die gewünschte Position in der Karte.
 
@@ -84,7 +84,7 @@ Führen Sie die folgenden Schritte aus, um einer Zuordnungsdatei über die Zuord
 
    - Die Datei wird an der Stelle hinzugefügt, an der die gestrichelte Rechteckleiste im Bereich für die Kartenbearbeitung angezeigt wird. Im folgenden Screenshot wird das Thema *Beispielthema* zwischen den Themen *Smart Suggest 1* und *Smart Suggest 2* hinzugefügt.
 
-     ![](images/horizontal-line-in-adv-map-editor.png){width="800" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){align="left"}
 
    - Um ein Thema zu ersetzen, ziehen Sie das neue Thema per Drag-and-Drop auf das Thema, das Sie ersetzen möchten. und sie ablegen bedeutet, dass sie durch das Thema ersetzt wird, das darauf abgelegt wird.
 
@@ -94,7 +94,7 @@ Führen Sie die folgenden Schritte aus, um einer Zuordnungsdatei über die Zuord
 
    - Um die Position eines Themas zu ändern, wählen Sie das Thema \(durch Auswahl des Themensymbols\) aus und ziehen Sie es dann per Drag-and-Drop an die gewünschte Position in der Zuordnungsdatei. Im folgenden Screenshot wird das Thema *Smart Suggest 1* nach dem Thema *Beispiel* verschoben.
 
-     ![](images/move-topic-adv-map-editor.png){width="800" align="left"}
+     ![](images/move-topic-adv-map-editor.png){align="left"}
 
    - Um die Eigenschaften Ihrer Zuordnungsdatei zu überprüfen, klicken Sie mit der rechten Maustaste auf eine beliebige Stelle im Bereich der Zuordnungsbearbeitung und wählen Sie **Eigenschaften** aus dem Kontextmenü aus. Abhängig von Ihrer Adobe Experience Manager-Version können Sie Eigenschaften wie Metadaten, Zeitplan \(de\)aktivierung, Verweise, Dokumentstatus und mehr anzeigen.
 
@@ -116,7 +116,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnung über die Assets-Benut
    >
    > Die Art und Weise, wie die Themen in einer Zuordnungsdatei referenziert werden, hängt von der Zuordnungsvorlage ab. Wenn Sie beispielsweise die Zuordnungsvorlage auswählen, werden die Themenreferenzen \(`topicref`\) verwendet, um auf Themen zu verweisen. Im Falle einer Bookmap werden Themenreferenzen mit dem `chapter` Element in DITA erstellt.
 
-   ![](images/map-template.png){width="800" align="left"}
+   ![](images/map-template.png){align="left"}
 
 1. Geben Sie auf der Seite Eigenschaften die Zuordnung (**)**.
 
@@ -132,7 +132,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnung über die Assets-Benut
 
    Jeder neuen Zuordnungsdatei, die Sie über die Assets-Benutzeroberfläche oder den Editor erstellen, wird eine eindeutige Zuordnungs-ID zugewiesen. Außerdem wird die neue Zuordnung als neueste Arbeitskopie in DAM gespeichert. Bis zum Speichern einer Revision einer neu erstellten Zuordnung wird im Versionsverlauf keine Versionsnummer angezeigt. Wenn Sie die Zuordnung zur Bearbeitung öffnen, werden die Versionsinformationen in der rechten oberen Ecke der Registerkarte der Zuordnungsdatei angezeigt:
 
-   ![](images/first-version-map-none.png){width="800" align="left"}
+   ![](images/first-version-map-none.png){align="left"}
 
    Die Versionsinformationen für eine neu erstellte Zuordnung werden als *Keine* angezeigt. Wenn Sie eine neue Version speichern, wird ihr eine Versionsnummer als 1.0 zugewiesen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version ](web-editor-features.md#save-as-new-version).
 
@@ -160,11 +160,11 @@ Führen Sie die folgenden Schritte aus, um über die Assets-Benutzeroberfläche 
 
 1. Wählen Sie bei ausgewählter Zuordnungsdatei **Themen bearbeiten**.
 
-   ![](images/edit-map-main-menu.png){width="800" align="left"}
+   ![](images/edit-map-main-menu.png){align="left"}
 
    Sie können auch die Option **Themen bearbeiten** aus dem Aktionsmenü in der Zuordnungsdatei auswählen:
 
-   ![](images/edit-map-action-menu.png){width="800" align="left"}
+   ![](images/edit-map-action-menu.png){align="left"}
 
    Die Zuordnungsdatei wird im Editor zur Bearbeitung geöffnet. Um der Zuordnungsdatei Themen hinzuzufügen, führen Sie die Schritte (4-8) in [Themen zu einer Zuordnungsdatei hinzufügen“ ](#add-topics-to-a-map-file).
 

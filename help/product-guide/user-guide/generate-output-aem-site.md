@@ -4,7 +4,7 @@ description: Erfahren Sie, wie die inkrementelle Ausgabegenerierung für AEM Sit
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe der Zuordnungskonsole eine i
 1. Wählen Sie die AEM Sites-Vorgabe aus, für die Sie eine inkrementelle Ausgabe generieren möchten.
 1. Wählen **auf** Registerkarte Themen die Themen aus, die Sie veröffentlichen möchten.
 
-   ![AEM Sites-Themenliste](images/aem-presets-topic-list.png) {width="800" align="left"}
+   ![AEM Sites-Themenliste](images/aem-presets-topic-list.png) {align="left"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Zuordnungs-Dashboards ei
    >
    > Wenn Sie neue Themen zur DITA-Karte hinzugefügt haben, können Sie diese neuen Themen von hier aus nicht erstellen. Sie müssen die neu hinzugefügten Themen zuerst veröffentlichen, indem Sie die Veröffentlichungsfunktion DITA-Zuordnung verwenden.
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){align="left"}
 
 1. Wählen Sie **Regenerieren** aus.
 

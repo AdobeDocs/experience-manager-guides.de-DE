@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die Arten von Dokumentstatus in Adobe Exper
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Um den Status eines Dokuments zu ändern, führen Sie die folgenden Schritte aus
 
 Die Kartenansicht der Assets-Benutzeroberfläche zeigt den aktuellen Status zusammen mit dem Erstellungsdatum und der Größe des jeweiligen DITA-Themas oder der DITA-Karte an.
 
-![](images/document_state.png){width="800" align="left"}
+![](images/document_state.png){align="left"}
 
 ## Dokumentstatus in DDLC verwenden
 

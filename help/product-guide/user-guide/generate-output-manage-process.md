@@ -3,7 +3,8 @@ title: Output-Erzeugung
 description: Verwalten Sie den Prozess der Ausgabenerstellung in AEM Sites, PDF, HTML5, EPUB, Custom und JSON über DITA-OT-Plug-ins, native PDF-Veröffentlichung und FMPS in AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Nachdem Sie die Ausgabegenerierungsaufgabe für eine Zuordnung initiiert oder au
 
 1. Wählen Sie **OUTPUTS** aus.
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){align="left"}
 
    Die Seite „Ausgaben“ ist in zwei Teile unterteilt:
 
@@ -63,17 +64,17 @@ Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung �
 
 1. Wählen Sie das Symbol **Diesen Auftrag abbrechen** aus.
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){align="left"}
 
 1. Wählen **auf** Eingabeaufforderung **Abbruch bestätigen** die Option „Ja“.
 
-   ![](images/confirm-cancel-output-map-console.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-console.png){align="left"}
 
    Wenn die Aufgabe noch nicht gestartet wurde, wird der Abbruchbefehl für die Aufgabe ausgeführt. Für eine Aufgabe, die abgebrochen wird, wird der Status auf Abbruch gesetzt.
 
    Nachdem die Aufgabe erfolgreich abgebrochen wurde, wird sie in die Liste **Erzeugte Ausgaben** mit dem Status **Abgebrochen** verschoben. Wenn Sie den Mauszeiger über die abgebrochene Aufgabe bewegen, wird der Name des Benutzers angezeigt, der die Aufgabe abgebrochen hat. Im folgenden Screenshot wird die Aufgabe *HTML* abgebrochen.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 ## Ausgabeaufgabe löschen
@@ -90,9 +91,8 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabeaufgabe aus der Liste Erz
 
 1. Wählen Sie das Löschsymbol aus.
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){align="left"}
 
 1. Wählen Sie **Ja** in der **Löschen bestätigen** aus.
 
    Die Aufgabe wird aus der Liste Erzeugte Ausgaben gelöscht.
-

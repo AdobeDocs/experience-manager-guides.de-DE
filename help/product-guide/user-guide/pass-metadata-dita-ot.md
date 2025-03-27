@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Metadaten mithilfe der DITA-OT-Veröffent
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe von DITA-OT-Pu
 1. Wählen Sie eine Ausgabevorgabe aus, an die Sie die Metadatenfelder übergeben möchten, und öffnen Sie sie. Wählen Sie beispielsweise die PDF-Ausgabevorgabe aus. Stellen Sie sicher, dass sie mit der Option **DITA-OT** erstellt wird.
 1. Wählen Sie **Dropdown-** „Dateieigenschaften“ die Metadaten aus, die Sie an die DITA-OT-Veröffentlichung übergeben möchten.
 
-   ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
+   ![](images/custom-metadata-output-preset-new.png){align="left"}
 
    Das Dropdown-Menü „Eigenschaften“ listet sowohl die benutzerdefinierten als auch die Standardeigenschaften auf. Im obigen `dc:description` sind beispielsweise `dc:language`, `dc:title` und `docstate` die Standardeigenschaften.
 
@@ -61,7 +61,7 @@ Wenn Sie an der **Assets-Benutzeroberfläche arbeiten** führen Sie die folgende
 1. Wählen Sie eine Ausgabevorgabe aus, an die Sie die Metadatenfelder übergeben möchten, und bearbeiten Sie sie. Wählen Sie beispielsweise die PDF-Ausgabevorgabe aus.
 1. Wählen Sie **Option „DITA-OT** in der ausgewählten Ausgabevorgabe aus.
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){align="left"}
 
 1. Wählen Sie aus der Dropdown-Liste Eigenschaften die Metadaten aus, die Sie an die DITA-OUT-Veröffentlichung übergeben möchten.
 

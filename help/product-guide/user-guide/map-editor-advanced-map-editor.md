@@ -4,7 +4,7 @@ description: Machen Sie sich mit den Funktionen des Karten-Editors in Adobe Expe
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2570'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Die folgenden Optionen sind in der Symbolleiste der Layout-Ansicht verfügbar:
 
 Zeigt den Dialog für die Themensuche an. Navigieren Sie zu der Themen-/Zuordnungsdatei, die Sie einfügen möchten, und wählen Sie **Auswählen** aus, um sie der Zuordnung hinzuzufügen.
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **Themengruppe** - ![](images/topic-group.svg)
@@ -140,7 +140,7 @@ Wenn Sie Bedingungen auf ein Thema angewendet haben, wird rechts neben dem Thema
 
 Die **Autor**-Ansicht ermöglicht es Ihnen, Ihre DITA-Karte im Editor zu bearbeiten. Hier wird die WYSIWYG-Ansicht des Karten-Editors angezeigt. Einige der in der Autorenansicht angezeigten Symbole sind mit der Layout-Ansicht identisch.
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 Darüber hinaus können Sie die folgenden Symbole anzeigen und die zugehörigen Aufgaben von der Autorenansicht aus ausführen:
 
@@ -243,7 +243,7 @@ Sie können eine Prüfungsaufgabe des aktuellen Themas oder der Zuordnungsdatei 
 
 Diese Ansicht ermöglicht die Bearbeitung von Inhalten im Rohformat und bietet vollständige Kontrolle über die Struktur und Formatierung.
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 In dieser Ansicht bietet die Symbolleiste grundlegende Optionen zum Bearbeiten und Einfügen von Inhalten, die im Dropdown-Menü **Menü** verfügbar sind, einschließlich Ausschneiden, Kopieren, Rückgängig, Wiederholen, Löschen, Suchen und Ersetzen, Versionsbezeichnung, Zusammenführen, Als neue Version speichern, Sperren und Entsperren.
@@ -254,7 +254,7 @@ Der Vorschaumodus rendert den Inhalt so, wie er in der endgültigen Ausgabe ange
 
 Um die Position jeder Themendatei innerhalb einer Karte anzeigen zu können, ist es wünschenswert, den Karteninhalt in einem aufeinander folgenden Fluss anzuzeigen. Mit der Kartenvorschau-Funktion können Sie den gesamten Inhalt der Kartendatei mit einem Klick anzeigen. Sie müssen keine Ausgabe der Zuordnungsdatei generieren, um zu sehen, wie die gesamte Zuordnung nach der Veröffentlichung aussieht. Sie können einfach auf die Vorschau der Karte zugreifen und alle Themen und Unterkarten werden in Form eines Buches gerendert.
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Um Themen über eine DITA-Zuordnung zu bearbeiten, führen Sie die folgenden Sch
 
    Sie können mehrere Themen im Editor öffnen, wobei jedes Thema auf einer neuen Registerkarte im Editor geöffnet wird. Selbst wenn Ihre DITA-Karte Unter-Maps enthält, werden Themen aus den Unter-Maps ebenfalls auf einer neuen Registerkarte zur Bearbeitung geöffnet. Wenn Sie die Themen unter einer Unterzuordnung anzeigen möchten, können Sie die Unterzuordnung auswählen und erweitern.
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){align="left"}
 
    Wenn Sie eine Zuordnungsdatei auswählen, wird die Zuordnung in einer neuen Registerkarte des Editors geöffnet.
 

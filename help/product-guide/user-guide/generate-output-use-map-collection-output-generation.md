@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine Zuordnungssammlung erstellen und lösche
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Um eine Zuordnungssammlung zu erstellen und der Sammlung DITA-Zuordnungen hinzuz
 
    Die DITA-Zuordnungsdateien werden Ihrer Zuordnungssammlung hinzugefügt.
 
-   ![Dashboard der Zuordnungssammlung](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![Dashboard der Zuordnungssammlung](./images/map-collection-dashboard.png){align="left"}
 
 **Filteroptionen**
 
@@ -95,7 +95,7 @@ Um die Ausgabe mithilfe einer Zuordnungssammlung zu konfigurieren und zu generie
    - Aktivieren **Alle Vorgaben** für eine DITA-Map, um alle Vorgaben auf einmal auszuwählen. Diese Option ist standardmäßig deaktiviert.
    - Aktivieren **Ordnerprofilvorgaben** für eine DITA-Zuordnung, um alle Ordnerprofilvorgaben auszuwählen. Diese Option ist standardmäßig deaktiviert.
 
-![Bearbeiten einer Zuordnungssammlung in Cloud Services](images/edit-map-collection-cs.png){width="800" align="left"}
+![Bearbeiten einer Zuordnungssammlung in Cloud Services](images/edit-map-collection-cs.png){align="left"}
 
 
 
@@ -112,7 +112,7 @@ Um die Ausgabe mithilfe einer Zuordnungssammlung zu konfigurieren und zu generie
 
 In der Zuordnungssammlung können Sie die Metadateneigenschaften für die DITA-Zuordnungen stapelweise konfigurieren. Wählen Sie **Metadaten konfigurieren** aus, um die Seite **Asset-Metadaten** zu öffnen. Auf der Seite **Asset-**&quot; werden alle in der Sammlung vorhandenen Zuordnungen auf der linken Seite aufgeführt.
 
-![Konfigurieren von Metadaten](images/map-collection-asset-metadata.png){width="800" align="left"}
+![Konfigurieren von Metadaten](images/map-collection-asset-metadata.png){align="left"}
 
 Führen Sie die folgenden Schritte aus, um die Metadateneigenschaften zu konfigurieren:
 
@@ -147,6 +147,6 @@ Dadurch werden auch alle Vorgaben oder Gebietsschemata entfernt, die mit der DIT
 
 Ähnlich wie beim Abbrechen einer Aufgabe zur Ausgabegenerierung über die [DITA Map-Konsole](generate-output-for-a-dita-map.md#id2061H100T5Z) oder das [Dashboard veröffentlichen](generate-output-publish-dashboard.md#) können Sie eine Aufgabe zur Ausgabegenerierung über eine Zuordnungssammlung abbrechen. Rufen Sie die Registerkarte Ausgaben einer Zuordnungssammlung auf, wechseln Sie zur Veröffentlichungsaufgabe, die Sie abbrechen möchten, und wählen Sie das Symbol **Diesen Auftrag abbrechen** aus, um die Veröffentlichungsaufgabe abzubrechen.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){align="left"}
 
 **Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

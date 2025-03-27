@@ -4,7 +4,7 @@ description: Kenntnis der Best Practices für die Übersetzung von Inhalten in A
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Beachten Sie den folgenden Punkt für die Übersetzung von Inhalten:
 
 Die folgende Abbildung zeigt ein Beispiel für eine Ordnerstruktur in Adobe Experience Manager, wenn Sie global Inhalte und drei Sprachkopien verwendet haben.
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){align="left"}
 
 ## Konfigurieren des Übersetzungsdienstes
 

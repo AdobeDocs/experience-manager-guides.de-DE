@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie über die Zuordnungskonsole und das Zuordnung
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Führen Sie die folgenden Schritte aus, um die benutzerdefinierte Vorgabe über 
 
 In der Zuordnungskonsole sind die Voreinstellungskonfigurationsoptionen auf den Registerkarten **Allgemein** und **Erweitert** organisiert.
 
-![](images/custom-preset-config.png){width="800" align="left"}
+![](images/custom-preset-config.png){align="left"}
 
 Die **Allgemein** enthält die folgenden Konfigurationsoptionen:
 

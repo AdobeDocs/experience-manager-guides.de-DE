@@ -4,7 +4,7 @@ description: Generieren von DITA-Zuordnungsberichten über das Zuordnungs-Dashbo
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
 1. Wählen Sie **Berichte** aus.
 
-   ![](images/reports-page-uuid-new.png){width="800" align="left"}
+   ![](images/reports-page-uuid-new.png){align="left"}
 
    Die Seite Berichte ist in zwei Teile unterteilt:
 
@@ -37,7 +37,7 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
      Wenn Sie ein Thema auswählen, wird ein detaillierter Bericht zum ausgewählten Thema angezeigt.
 
-     ![](images/detailed-report-uuid-new.png){width="800" align="left"}
+     ![](images/detailed-report-uuid-new.png){align="left"}
 
      Nachfolgend werden die unter **A**, **B**, **C** und **D** hervorgehobenen Punkte beschrieben:
 
@@ -82,7 +82,7 @@ Führen Sie die folgenden Schritte aus, um die CSV-Datei eines DITA-Zuordnungsbe
 
 1. Wählen **oben** die Option „Bericht generieren“ aus, um den DITA-Zuordnungsbericht zu generieren.
 
-   ![](images/generate-DITA-map-report-new.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report-new.png){align="left"}
 
 1. Sie erhalten eine Benachrichtigung, sobald der Bericht zum Herunterladen bereit ist. Wählen Sie **Herunterladen**, um die CSV-Datei des generierten Berichts herunterzuladen.
 

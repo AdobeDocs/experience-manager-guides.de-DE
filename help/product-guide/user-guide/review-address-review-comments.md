@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie als Autor oder Autorin in AEM Guides Kommenta
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Ein Autor kann im Web-Editor Kommentare in einem Dokument ansprechen. Es werden 
 >
 > Achten Sie beim Bearbeiten von Überprüfungskommentaren \(für ein aktives Überprüfungsdokument\) darauf, dass Sie - das zu überprüfende Thema wird nicht in mehreren Registerkarten mit aktivierter Ansicht „Vollständige Tags“ geöffnet - nicht zwischen dem Authoring- und dem Source-Ansichtsmodus wechseln.
 
-![](images/comments-page-web-editor_cs-new.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs-new.png){align="left"}
 
 Im Web-Editor-Modus enthält das rechte Bedienfeld die Symbole Überprüfen und Änderungen verfolgen . Im Bedienfeld Überprüfung werden alle Kommentare angezeigt, die von Prüfern in Ihrem Dokument vorgenommen wurden. Das **Änderungen verfolgen** zeigt den Status aller eingefügten und gelöschten Kommentare in Ihrem Dokument an.
 
@@ -54,11 +54,11 @@ Im Web-Editor-Modus enthält das rechte Bedienfeld die Symbole Überprüfen und 
 
   Wenn Sie die vorgeschlagene Änderung \(Einfügung oder Löschung\) einzeln übernehmen möchten, klicken Sie einfach mit der rechten Maustaste auf den Kommentar im Inhalt und wählen Sie Änderung akzeptieren oder ablehnen. Je nach Auswahl wird der Kommentar akzeptiert oder abgelehnt. Im Falle eines akzeptierten Kommentars wird der Inhalt zum Inhalt hinzugefügt und im Falle einer Ablehnung wird er aus dem Inhalt entfernt. Außerdem wird der Status des Kommentars im Überprüfungsfeld geändert.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
 
   Sie können auch das Bedienfeld Änderungen verfolgen verwenden, um Kommentare zu akzeptieren oder abzulehnen. Wenn Sie einen Kommentar auswählen, wird der Kommentar im Dokument hervorgehoben.
 
-  ![](images/changes-tab_cs-new.png){width="800" align="left"}
+  ![](images/changes-tab_cs-new.png){align="left"}
 
   >[!IMPORTANT]
   >

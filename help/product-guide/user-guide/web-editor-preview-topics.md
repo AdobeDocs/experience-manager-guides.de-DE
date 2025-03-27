@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie in Adobe Experience Manager Guides eine Vorsc
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema im Editor in der Vorschau a
 
    Die Vorschau des Themas wird angezeigt.
 
-   ![](images/preview-pop-up.png){width="800" align="left"}
+   ![](images/preview-pop-up.png){align="left"}
 
 **Vorschau von Themen im Vorschaumodus**
 
@@ -61,7 +61,7 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau eines Themas anzuzeigen
 
 Wenn Sie die Vorschaufunktion der Assets-Benutzeroberfläche verwenden, stehen in der Symbolleiste die folgenden Vorgänge zur Verfügung:
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **Eigenschaften**
@@ -78,7 +78,7 @@ Der **Verwendet in** verweist auf die Dokumente, auf die die aktuelle Datei verw
 
 Mit dem Symbol \(+\) im Abschnitt **Verwendet in** Referenzen können Sie weiter nach oben navigieren, um zu ermitteln, wo dieses Thema verwendet oder referenziert wird.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 Wenn Sie auf ![](images/right-arrow-used-in-dialog.svg)Symbol neben einem Dokument klicken, werden die Zuordnungs- oder Themendateien angezeigt, auf die das Dokument weiter verwiesen wird.
 
@@ -108,7 +108,7 @@ Wenn Ihr Thema bedingte Inhalte hat, wird das A/B-Symbol in der Symbolleiste ang
   >
   > Um die Quellcodeansicht einer DITA-Zuordnungsdatei abzurufen, wählen Sie die Datei in der Assets-Benutzeroberfläche und anschließend Source aus.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **UUID-Link freigeben**
 
@@ -120,7 +120,7 @@ Wenn Ihr Thema bedingte Inhalte hat, wird das A/B-Symbol in der Symbolleiste ang
 
 Eine neue Option **UUID-Link freigeben** wird in der Symbolleiste der oben genannten Bereiche angezeigt. Der folgende Screenshot zeigt die Option **UUID-Link freigeben** im Vorschaumodus eines Themas:
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 In der Asset-Benutzeroberfläche ist diese Option sichtbar, wenn Sie eine Datei auswählen. Im Vorschaumodus ist diese Option standardmäßig in der Hauptsymbolleiste verfügbar. In einer DITA-Zuordnungskonsole ist diese Option im Abschnitt „Ausgabevorgaben“ sichtbar.
 
@@ -148,7 +148,7 @@ Ausgecheckte Datei in der Listenansicht:
 
 Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellungen** unter **Listenansicht** und wählen Sie den **Ausgecheckt** im Dialogfeld **Spalten konfigurieren** aus.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
    1. Wählen Sie in der linken Leiste **Versionsverlauf** und wählen Sie eine Version aus.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){align="left"}
 
    1. Wählen Sie aus den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und wählen Sie **Vorschauversion** aus. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
 
    1. Wählen Sie aus **Liste** anzeigen die Version aus, mit der Sie die Basisversion vergleichen möchten.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){align="left"}
 
       Der geänderte Inhalt wird in der Themenvorschau hervorgehoben. Grün hervorgehobener Inhalt gibt den neu hinzugefügten Inhalt an und rot dargestellt den gelöschten Inhalt.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){align="left"}
 
 
 ## Verzweigung, Wiederherstellung und nachfolgende Versionierung

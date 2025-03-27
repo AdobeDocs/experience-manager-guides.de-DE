@@ -4,7 +4,7 @@ description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Guides. Erfahren S
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 0%
@@ -154,7 +154,7 @@ Klicken Sie mit der rechten Maustaste auf einen Inhaltsfragment-Generator, um di
 
 Sie können auch den ![](images/data-sources-new-icon.svg) **Abfragedaten** von der Symbolleiste verwenden, um das Datenfragment in die Themen einzufügen.  Sie können einen Generator aus dem Dropdown-Menü auswählen, Ihre Abfrage bearbeiten oder die Vorlage ändern und die Daten in Ihr Thema einfügen.
 
-![](images/add-content-snippet-generator.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){align="left"}
 
 *Bearbeiten und Einfügen eines Datenausschnitts.*
 
@@ -248,7 +248,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
 
 
-   ![](images/add-topic-generator.png){width="800" align="left"}
+   ![](images/add-topic-generator.png){align="left"}
 
    *Generieren neuer Themen aus einem vorhandenen Themengenerator.*
 
