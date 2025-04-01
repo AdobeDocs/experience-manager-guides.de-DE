@@ -1,7 +1,8 @@
 ---
 title: Verwenden des KI-Assistenten zur intelligenten Erstellung von Dokumenten "
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten Dokumente in Adobe Experience Manager Guides intelligent suchen und erstellen können.
-source-git-commit: d51b460610617cafec07124c4fdb091aa4e37a09
+exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
+source-git-commit: aab7bc0c79d3c98f062d230d1d21ec7f4e6a01c3
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -20,14 +21,14 @@ Die **Authoring**-Funktion im KI-Assistenten macht Ihren Authoring-Prozess intel
 
 Weitere Informationen finden Sie unter [Authoring](./ai-assistant-right-panel.md).
 
-![KI-Assistent](./images/ai-assistant-panel.png){width="300" align="left"}
+![KI-Assistent](./images/ai-assistant-panel.png){align="left"}
 
 Die **Hilfe**-Funktion im KI-Assistenten ist ein intuitives, chatbasiertes Tool, das Ihnen hilft, Experience Manager Guides besser zu verstehen, Probleme zu beheben und Informationen in der Adobe Experience Manager Guides-Dokumentation zu durchsuchen. Anstatt in Benutzerhandbüchern und Referenzdokumenten zu suchen, können Sie die Funktion **Hilfe** verwenden, um schnell relevante Antworten auf Ihre Fragen zu finden. Dies spart Zeit und ermöglicht es Ihnen, sich auf die Inhaltserstellung zu konzentrieren, was zu höherer Produktivität und Effizienz führt.
 
 Weitere Informationen finden Sie unter [Hilfe](./ai-based-smart-help.md).
 
 
-![Smartes Hilfebedienfeld](images/smart-help-panel.png){width="300" align="left"}
+![Smartes Hilfebedienfeld](images/smart-help-panel.png){align="left"}
 
 ## Erste Schritte mit dem KI-Assistenten
 
@@ -40,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu starten:
 
    Die Seite „KI-Assistent“ wird mit Hervorhebung ihrer wichtigsten Funktionen, des Links zu Benutzerrichtlinien und einer Schaltfläche **Erste Schritte** angezeigt.
 
-   ![Smartes Hilfebedienfeld](images/get-started-ai.png){width="300" align="left"}
+   ![Smartes Hilfebedienfeld](images/get-started-ai.png){align="left"}
 
 1. Lesen Sie die Benutzerrichtlinien sorgfältig durch und wählen Sie dann **Erste Schritte** aus, um den KI-Assistenten zu starten.
 
@@ -51,8 +52,3 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu starten:
 [Adobe Experience Manager Guides Generative AI-Offenlegungen](./adobe-generative-ai-disclosures.md)
 
 [Konfigurieren des KI-Assistenten für die intelligente Hilfe und das Authoring](../cs-install-guide/conf-smart-suggestions.md)
-
-
-
-
-
