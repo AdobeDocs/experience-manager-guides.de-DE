@@ -4,9 +4,9 @@ description: Erkunden Sie andere Funktionen des Editors in Adobe Experience Mana
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -213,9 +213,9 @@ Wenn Sie die Verpackung eines Elements aufheben, können Sie das Tag des Element
 
 In XML umfassen Leerzeichen Leerzeichen Leerzeichen, Tabulatoren, Zeilenumbrüche und Leerzeilen. Experience Manager Guides wandelt mehrere aufeinander folgende Leerzeichen in ein einziges Leerzeichen um. Auf diese Weise können Sie die WYSIWYG-Ansicht des Editors beibehalten.
 
-    >[!NOTE]
-    >
-    >In einigen Elementen, in denen Leerzeichen gemäß den DITA-Regeln beibehalten werden müssen, werden die mehreren aufeinander folgenden Leerzeichen beibehalten. Zum Beispiel die Elemente &quot;&lt;pre>&quot; und &quot;&lt;codeblock>&quot;.
+>[!NOTE]
+>
+> Bei einigen Elementen, bei denen Leerräume gemäß den DITA-Regeln beibehalten werden müssen, werden die mehreren aufeinander folgenden Leerräume beibehalten. Beispielsweise `<pre>` und `<codeblock>` Elemente.
 
 
 **Beibehalten von Zeilenumbrüchen und Einzügen**
