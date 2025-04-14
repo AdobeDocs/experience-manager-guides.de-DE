@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: c424466b2487879f091849c0f174772474331aac
+source-git-commit: 995cb28356fb087871225475e0d69fc96a9b5f98
 workflow-type: tm+mt
-source-wordcount: '2058'
-ht-degree: 9%
+source-wordcount: '2066'
+ht-degree: 7%
 
 ---
 
@@ -19,62 +19,62 @@ ht-degree: 9%
    - Versionshinweise {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
-         - Versionen 2025 {#2025-releases}
-            - Version 2025.02.0 {#2502-release}
+         - {#2025-releases} für 2025
+            - {#2502-release} zu Version 2025.02.0
                - [Neue Funktionen](./release-info/whats-new-2025-02-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2025-02-0.md)
                - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2025-02-0.md)
-         - Versionen 2024 {#2024-releases}
-            - Version 2024.12.0 {#2412-release}
+         - {#2024-releases} für 2024
+            - {#2412-release} zu Version 2024.12.0
                - [Behobene Probleme](./release-info/fixed-issues-2024-12-0.md)
                - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2024-12-0.md)
-            - SP1-Version 2024.10.0 {#2410-0-sp1-release}
+            - {#2410-0-sp1-release} 2024.10.0 SP1
                - [Behobene Probleme](./release-info/fixed-issues-2024-10-0-sp1.md)
-            - Version 2024.10.0 {#2410-0-release}
+            - {#2410-0-release} zu Version 2024.10.0
                - [Neue Funktionen](./release-info/whats-new-2024-10-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2024-10-0.md)
                - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2024-10-0.md)
-            - Version 2024.6.0 {#2406-release}
+            - {#2406-release} zu Version 2024.6.0
                - [Neue Funktionen](./release-info/whats-new-2024-06-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2024-06-0.md)
                - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2024-06-0.md)
-            - Version 2024.4.0 {#2404-release}
+            - {#2404-release} zu Version 2024.4.0
                - [Neue Funktionen](./release-info/whats-new-2024-04-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2024-04-0.md)
                - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2024-04-0.md)
-            - Version 2024.2.0 {#2402-release}
+            - {#2402-release} zu Version 2024.2.0
                - [Neue Funktionen](./release-info/whats-new-2024-2-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2024-2-0.md)
                - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2024-2-0.md)
-         - Versionen 2023 {#2023-releases}
-            - Version Dezember {#2312-release}
+         - {#2023-releases} für 2023
+            - {#2312-release} Dezember
                - [Neuerungen](./release-info/whats-new-2023-12-0.md)
                - [Versionshinweise](./release-info/release-notes-2023-12-0.md)
             - November-Version {#2311-release}
                - [Neuerungen](./release-info/whats-new-2023-11-0.md)
                - [Versionshinweise](./release-info/release-notes-2023-11-0.md)
-            - Oktober-Version {#2310-release}
+            - {#2310-release} Oktober
                - [Neuerungen](./release-info/whats-new-2023-10-0.md)
                - [Versionshinweise](./release-info/release-notes-2023-10-0.md)
-            - September-Version {#2309-release}
+            - {#2309-release} September
                - [Neuerungen](./release-info/whats-new-2023-9-0.md)
                - [Versionshinweise](./release-info/release-notes-2023-9-0.md)
-            - Version Juli {#2307-release}
+            - {#2307-release} Juli
                - [Neuerungen](./release-info/whats-new-2023-7-0.md)
                - [Versionshinweise](./release-info/release-notes-2023-7-0.md)
-            - Juni-Version {#2306-release}
+            - Juni-{#2306-release}
                - [Neuerungen](./release-info/whats-new-2023-6-0.md)
                - [Versionshinweise](./release-info/release-notes-2023-6-0.md)
-            - Aprilversion {#2304-release}
+            - {#2304-release} April
                - [Neuerungen](./release-info/whats-new-2023-4-0.md)
                - [Versionshinweise](./release-info/release-notes-2023-4-0.md)
             - März-Version {#2303-release}
                - [Neuerungen](./release-info/whats-new-2023-3-0.md)
                - [Versionshinweise](./release-info/release-notes-2023-3-0.md)
-            - Februarversion {#2302-release}
+            - Februar-{#2302-release}
                - [Neuerungen](./release-info/whats-new-2023-2-0.md)
                - [Versionshinweise](./release-info/release-notes-2023-2-0.md)
-         - Versionen 2022 {#2022-releases}
+         - {#2022-releases} für 2022
             - [Versionshinweise November](./release-info/release-notes-2022-11-0.md)
             - [Versionshinweise Oktober](./release-info/release-notes-2022-10-0.md)
             - [September - Versionshinweise](./release-info/release-notes-2022-9-0.md)
@@ -86,36 +86,39 @@ ht-degree: 9%
             - [Januar - Versionshinweise](./release-info/release-notes-2022-1-0.md)
       - On-Premise/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] Versionen](./release-info/latest-release-info.md)
-         - Version 5.0.0 {#500-release}
+         - {#500-release} zur Version 5.0.0
             - [Neue Funktionen](./release-info/whats-new-5-0-0.md)
             - [Behobene Probleme](./release-info/fixed-issues-5-0-0.md)
             - [Upgrade-Anweisungen](./release-info/upgrade-instructions-5-0-0.md)
-         - Version 4.6.0 SP3 {#460-sp3-release}
+         - {#460-sp4-release} zur Version 4.6.0 SP4
+            - [Behobene Probleme](./release-info/fixed-issues-4-6-0-sp4.md)
+            - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-6-0-sp4.md)
+         - {#460-sp3-release} zur Version 4.6.0 SP3
             - [Behobene Probleme](./release-info/fixed-issues-4-6-0-sp2.md)
             - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-6-0-sp2.md)
-         - Version 4.6.0 SP1 {#460-sp1-release}
+         - {#460-sp1-release} zur Version 4.6.0 SP1
             - [Behobene Probleme](./release-info/fixed-issues-4-6-0-sp1.md)
             - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-6-0-sp1.md)
-         - Version 4.6.0 {#460-release}
+         - {#460-release} zu Version 4.6.0
             - [Neue Funktionen](./release-info/whats-new-4-6.md)
             - [Behobene Probleme](./release-info/fixed-issues-4-6-0.md)
             - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-6-0.md)
-         - Version 4.4.0 {#440-release}
+         - {#440-release} zu Version 4.4.0
             - [Neue Funktionen](./release-info/whats-new-4-4.md)
             - [Behobene Probleme](./release-info/fixed-issues-4-4.md)
             - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-4.md)
-         - 4.3.1.5 {#4315-release}
+         - 4.3.1.5-{#4315-release}
             - [Behobene Probleme](./release-info/fixed-issues-4-3-1-5.md)
             - [Upgrade-Anweisungen](./release-info/upgrade-instructions-4-3-1-5.md)
-         - Version 4.3.0 {#43-release}
-            - Neue Funktionen {#43-whats-new}
+         - {#43-release} zu Version 4.3.0
+            - Neue {#43-whats-new}
                - [4.3.1 Neue Funktionen](./release-info/whats-new-4-3-1-release.md)
                - [4.3.0 Neue Funktionen](./release-info/whats-new-4-3-release.md)
             - Versionshinweise {#43-release-notes}
                - [Versionshinweise für 4.3.1](./release-info/release-notes-4-3-1.md)
                - [Versionshinweise für 4.3.0](./release-info/release-notes-4-3.md)
-         - Version 4.2 {#42-release}
-            - Neue Funktionen {#42-whats-new}
+         - 4.2-{#42-release}
+            - Neue {#42-whats-new}
                - [4.2.1 Neue Funktionen](./release-info/whats-new-4-2-1-release.md)
                - [4.2 Neue Funktionen](./release-info/whats-new-4-2-release.md)
             - Versionshinweise {#42-release-notes}
@@ -127,19 +130,19 @@ ht-degree: 9%
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
+      - [!DNL AEM Guides] und wichtige Funktionen {#aemg-works-features}
          - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
-   - Startseite {#home-page}
+   - {#home-page} der Startseite
       - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
-   - Autoreninhalt {#author-content}
+   - Authoring von {#author-content}
       - [Authoring – Übersicht](./user-guide/authoring-content.md)
       - [Möglichkeiten zum Erstellen von Inhalten mit AEM Guides](./user-guide/authoring-content-xml-doc.md)
-      - Editor {#work-with-editor}
+      - Editor-{#work-with-editor}
          - [Einführung in den Editor](./user-guide/web-editor.md)
          - [Editor starten](./user-guide/web-editor-launch-editor.md)
          - [Bearbeiten von Themen im Editor](./user-guide/web-editor-edit-topics.md)
-         - Themenerstellung und -vorschau {#create-preview-topics}
+         - Themenerstellung und {#create-preview-topics}
             - [Erstellen und Vorschau von Themen](./user-guide/create-preview-topics.md)
             - [Erstellen von Themen](./user-guide/web-editor-create-topics.md)
             - [Vorschau eines Themas](./user-guide/web-editor-preview-topics.md)
@@ -153,17 +156,17 @@ ht-degree: 9%
          - [Verwenden von Daten aus Ihren Datenquellen](./user-guide/web-editor-content-snippet.md)
          - [Dokumentstatus](./user-guide/web-editor-document-states.md)
          - [Kennzeichnungen verwenden](./user-guide/web-editor-use-label.md)
-      - Karteneditor {#map-editor}
+      - Karten-Editor {#map-editor}
          - [Einführung in den Zuordnungs-Editor](./user-guide/map-editor.md)
          - [Erstellen einer Zuordnung](./user-guide/map-editor-create-map.md)
          - [Erstellen von Karten basierend auf benutzerdefinierten Vorlagen](./user-guide/create-maps-customized-templates.md)
          - [Funktionen des Zuordnungs-Editors](./user-guide/map-editor-advanced-map-editor.md)
          - [Zusätzliche Funktionen im Karten-Editor](./user-guide/map-editor-other-features.md)
-      - DITAVAL-Editor {#ditaval-editor}
+      - DITAVAL Editor {#ditaval-editor}
          - [Verwenden des DITAVAL-Editors](./user-guide/ditaval-editor.md)
       - Desktop-Tools für die Inhaltserstellung {#author-using-desktop-tools}
          - [Erstellen von Inhalten mit Desktop-Tools](./user-guide/author-desktop-tools.md)
-   - Inhalt überprüfen {#review}
+   - {#review} überprüfen
       - [Einführung in die Überprüfung](./user-guide/review.md)
       - [Erstellen eines DITA-Projekts](./user-guide/authoring-create-dita-project.md)
       - [Senden von Themen zur Überprüfung](./user-guide/review-send-topics-for-review.md)
@@ -174,12 +177,12 @@ ht-degree: 9%
       - [Anzeigen einer abgeschlossenen Prüfungsaufgabe](./user-guide/review-view-completed-task.md)
    - Zusammenarbeiten mit Adobe Workfront {#workfront-integration}
       - [Integration von Workfront mit Experience Manager Guides](./user-guide/workfront-integration.md)
-   - Metadaten und Tagging {#manage-metadata}
+   - Metadaten und Tagging-{#manage-metadata}
       - [Verwalten von Metadaten](./user-guide/manage-metadata.md)
       - [Arbeiten mit Metadaten in AEM](./user-guide/metadata-dita.md)
       - [Smart-Tagging](./user-guide/web-editor-smart-tagging.md)
       - [Massen-Tagging von DITA-Inhalten](./user-guide/map-editor-bulk-tagging.md)
-   - Kartenverwaltung und -veröffentlichung {#map-management-publishing}
+   - Zuordnungs- und Veröffentlichungs-{#map-management-publishing}
       - [Übersicht über die Zuordnungskonsole](./user-guide/map-console-overview.md)
       - [Dateien in der Zuordnungskonsole öffnen](./user-guide/open-files-map-console.md)
       - Berichte {#reports-aem-guide}
@@ -189,13 +192,13 @@ ht-degree: 9%
          - [Bericht zur Wiederverwendung von Inhalt](./user-guide/reports-content-reuse.md)
          - [Bericht zum Konversionsstatus](./user-guide/reports-convertion-status.md)
          - [Bericht zum Versionsverlauf für zurückgesetzte Dateien](./user-guide/reports-reverted-file-version-history.md)
-      - Übersetzung von Inhalten {#translate-content}
+      - {#translate-content} der Inhaltsübersetzung
          - [Übersicht über die Inhaltsübersetzung](./user-guide/translation.md)
          - [Best Practices für die Übersetzung von Inhalten](./user-guide/translation-first-time.md)
          - [Übersetzen von Dokumenten aus der Map-Konsole](./user-guide/translate-documents-web-editor.md)
          - [Übersetzungsstatus anzeigen](./user-guide/translation-view-trans-state-6234.md)
          - [Geänderte Themen übersetzen](./user-guide/translation-modified-topics-6234.md)
-      - Ausgabegenerierung {#output-gen}
+      - {#output-gen} der Ausgabenerstellung
          - [Grundlagen der Ausgabenerstellung](./user-guide/generate-output.md)
          - Ausgabevorgaben in AEM Guides {#output-presets-aemg}
             - [Einführung in Ausgabevorgaben](./user-guide/generate-output-understand-presets.md)
@@ -212,19 +215,19 @@ ht-degree: 9%
             - [Benutzerdefiniert](./user-guide/generate-output-custom.md)
             - [JSON](./user-guide/generate-output-json.md)
          - [Bearbeiten, Duplizieren oder Löschen einer Ausgabevorgabe](./user-guide/generate-output-create-edit-preset.md)
-         - Bedingte Inhalte {#conditional-content}
+         - Bedingte {#conditional-content} von Inhalten
             - [Verwenden von Bedingungsvorgaben](./user-guide/generate-output-use-condition-presets.md)
             - [Profilerstellung für bedingte Attribute](./user-guide/generate-output-conditional-attribute-profiling.md)
-         - Baseline verwenden {#work-with-baseline}
+         - {#work-with-baseline} verwenden
             - [Baselines über die Map-Konsole erstellen und verwalten](./user-guide/web-editor-baseline.md)
             - [Erstellen und Verwalten von Baselines über das Karten-Dashboard](./user-guide/generate-output-use-baseline-for-publishing.md)
          - [Verwalten von globalen und Ordnerprofil-Ausgabevorgaben](./user-guide/web-editor-manage-output-presets.md)
          - [Verwenden von Variablen zum Festlegen der Optionen Zielpfad, Site-Name oder Dateiname](./user-guide/generate-output-use-variables.md)
          - [Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT](./user-guide/pass-metadata-dita-ot.md)
-         - Ausgabe generieren {#generate-output}
+         - {#generate-output} generieren
             - [Generieren einer Ausgabe für eine DITA-Zuordnung](./user-guide/generate-output-for-a-dita-map.md)
             - [Generieren einer Wissensdatenbankausgabe](./user-guide/web-editor-article-publishing.md)
-            - Einzelthema-Veröffentlichung {#single-topic-publishing}
+            - {#single-topic-publishing} zur Veröffentlichung einzelner Themen
                - [Veröffentlichen von Inhaltsfragmenten](./user-guide/publish-content-fragment.md)
                - [Veröffentlichen von Experience Fragments](./user-guide/publish-experience-fragment.md)
                - [AEM Sites-Seiten veröffentlichen](./user-guide/publish-aem-sites.md)
@@ -233,7 +236,7 @@ ht-degree: 9%
          - [Output-Erzeugungsprozess verwalten](./user-guide/generate-output-manage-process.md)
          - [Verwalten von Veröffentlichungsaufgaben mit dem Dashboard „Veröffentlichen“](./user-guide/generate-output-publish-dashboard.md)
          - [Allgemeine Fehlerbehebung](./user-guide/generate-output-basic-troubleshooting.md)
-      - Massenaktivierung von Inhalten {#bulk-activation}
+      - Massenaktivierung von {#bulk-activation}
          - [Massenaktivierung von veröffentlichten Inhalten](./user-guide/conf-bulk-activation.md)
          - [Erstellen einer Massenaktivierungs-Zuordnungssammlung](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Ausgabe aktivieren](./user-guide/conf-bulk-activation-publish-map-collection.md)
@@ -256,17 +259,17 @@ ht-degree: 9%
       - [KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Häufig gestellte Fragen](./user-guide/ai-assistant-faq.md)
    - Anhang {#appendix}
-      - Inhalt verwalten {#manage-content}
+      - Verwalten von {#manage-content}
          - [Wichtige Konzepte, Rollen und Berechtigungen sowie Voraussetzungen](./user-guide/authoring.md)
          - [Hochladen von Dateien](./user-guide/authoring-upload-existing-files.md)
          - [Dateien und Ordner verwalten](./user-guide/authoring-file-management.md)
          - [Dateien herunterladen](./user-guide/authoring-download-assets.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
    - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-- Installation und Konfiguration {#install-guide}
+- Installations- und {#install-guide}
    - On-Premise {#on-prem-ig}
       - [On-Premise-Grundlagen](./install-guide/introduction.md)
-      - Herunterladen, Installieren und Aktualisieren {#download-install-upgrade-aemg}
+      - Herunterladen, Installieren und Aktualisieren von {#download-install-upgrade-aemg}
          - [Download- und Installationsübersicht](./install-guide/download-install.md)
          - [Technische Anforderungen](./install-guide/download-install-technical-requirements.md)
          - [Installieren von Adobe Experience Manager](./install-guide/download-install-aem.md)
@@ -276,17 +279,17 @@ ht-degree: 9%
          - [AEM Guides aktualisieren](./install-guide/upgrade-xml-documentation.md)
          - [AEM Guides deinstallieren](./install-guide/download-install-unistall-aemg.md)
          - [Empfehlungen zur Leistungsoptimierung](./install-guide/download-install-recommend-perf-optimiz.md)
-      - Arbeiten mit Benutzergruppen und Sicherheit {#user-group-sec}
+      - Arbeiten mit Benutzergruppen und {#user-group-sec}
          - [Benutzerverwaltung und Sicherheit](./install-guide/user-admin-sec.md)
-      - Inhaltsmigration {#content-migration}
+      - {#content-migration} der Inhaltsmigration
          - [Migration von Nicht-UUID zu UUID-Inhalt](./install-guide/migrate-uuid-non-uuid.md)
-         - Migrationsprozess {#migration-process}
+         - {#migration-process} des Migrationsprozesses
             - [Migrieren von Nicht-UUID-Inhalten mit Versionen](./install-guide/migrate-non-uuid-uuid.md)
             - [Migrieren von Nicht-UUID-Inhalten mit Versionen (veraltet)](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
          - [Migrieren vorhandener Inhalte](./install-guide/migrate-content.md)
          - [Vorhandenen DITA-Inhalt hochladen](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Migrieren von Nicht-DITA-Inhalten](./install-guide/migrate-content-non-dita.md)
-      - Arbeiten mit benutzerdefiniertem DITA-OT und Spezialisierung {#custom-dita-ot-spec}
+      - Arbeiten mit benutzerdefinierten DITA-OT- und {#custom-dita-ot-spec}
          - [Verwenden benutzerdefinierter DITA-OT und DITA-Spezialisierung](./install-guide/dita-ot-specialization.md)
       - Konfigurieren von UUID- und nicht-UUID-basierten Dateinamen {#conf-non-uuid-filename}
       - [Konfigurieren der Nachbearbeitung für einen Ordner](./install-guide/conf-folder-post-processing.md)
@@ -298,7 +301,7 @@ ht-degree: 9%
          - [Konfigurieren von Themen- und Zuordnungsvorlagen](./install-guide/conf-template-tags.md)
          - [Konfigurieren einer benutzerdefinierten DITA-Themenvorlage](./install-guide/conf-template-tags-custom-dita-topic-template.md)
          - [Konfigurieren einer benutzerdefinierten DITA-Zuordnungsvorlage](./install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - Arbeiten mit Dokumentstatus {#doc-state}
+      - Arbeiten mit Dokumentstatus-{#doc-state}
          - [Status von Dokumenten konfigurieren](./install-guide/customize-doc-state.md)
       - Arbeiten mit den Web-Editor-Konfigurationen {#web-editor-configs}
          - [Anpassen des Web-Editors](./install-guide/conf-web-editor.md)
@@ -325,7 +328,7 @@ ht-degree: 9%
          - [Konfigurieren zusätzlicher Sonderzeichen](./web-editor/configure-additional-special-characters.md)
       - Arbeiten mit globalen Profilen und Profilen auf Ordnerebene {#global-folder-profiles}
          - [Konfigurieren von globalen Profilen oder Profilen auf Ordnerebene](./install-guide/conf-folder-level.md)
-      - Versionen konfigurieren {#version-mgt}
+      - Konfigurieren von Versionen {#version-mgt}
          - [Versionsverwaltung](./install-guide/version-management.md)
       - Arbeiten mit Desktop-basierten XML-Editoren {#desktop-xml-editor}
          - [Integrieren von Desktop-basierten XML-Editoren](./install-guide/integrate-desktop-editors.md)
@@ -333,7 +336,7 @@ ht-degree: 9%
          - [Einstellungen für die Ausgabegenerierung konfigurieren](./install-guide/conf-output-generation.md)
          - [Herunterladen und Installieren von AEM Sites-Vorlagen](./install-guide/download-install-aem-sites-templates.md)
          - [Überlagern von HTML-Tags in der AEM Sites-Ausgabe](./install-guide/overlay-html-tags-aem-sites.md)
-         - Native PDF-Veröffentlichung {#config-native-pdf-publish}
+         - Native PDF-{#config-native-pdf-publish}
             - [PDF-Vorlage](./native-pdf/pdf-template.md)
             - [Komponenten einer PDF-Vorlage](./native-pdf/components-pdf-template.md)
             - [Entwerfen eines Seiten-Layouts](./native-pdf/design-page-layout.md)
@@ -365,14 +368,14 @@ ht-degree: 9%
          - [AEM Guides aktualisieren](./cs-install-guide/download-install-upgrade-dxml.md)
          - [Überschreibungen der Konfiguration](./cs-install-guide/download-install-additional-config-override.md)
          - [Empfehlungen zur Leistungsoptimierung](./cs-install-guide/download-install-recommend-perf-optimiz.md)
-      - Arbeiten mit Benutzergruppen und Sicherheit {#user-group-sec-cs}
+      - Arbeiten mit Benutzergruppen und {#user-group-sec-cs}
          - [Benutzerverwaltung und Sicherheit](./cs-install-guide/user-admin-sec.md)
-      - Inhaltsmigration {#migrate-con-cs}
+      - {#migrate-con-cs} für Inhaltsmigration
          - [Migrieren vorhandener Inhalte](./cs-install-guide/migrate-content.md)
          - [Vorhandenen DITA-Inhalt hochladen](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
          - [Migrieren von Nicht-DITA-Inhalten](./cs-install-guide/migrate-content-non-dita.md)
          - [Migrieren von Inhalten von On-Premise zu Cloud Service](./cs-install-guide/migrate-on-premise-content-cloud.md)
-      - Arbeiten mit benutzerdefiniertem DITA-OT und Spezialisierung {#custom-dita-ot-spec-cs}
+      - Arbeiten mit benutzerdefinierten DITA-OT- und {#custom-dita-ot-spec-cs}
          - [Verwenden benutzerdefinierter DITA-OT und DITA-Spezialisierung](./cs-install-guide/dita-ot-specialization.md)
       - Konfigurieren von UUID- und nicht-UUID-basierten Dateinamen {#conf-non-uuid-filename-cs}
          - [Konfigurieren der Nachbearbeitung für einen Ordner](./cs-install-guide/conf-folder-post-processing.md)
@@ -384,7 +387,7 @@ ht-degree: 9%
          - [Konfigurieren von Themen- und Zuordnungsvorlagen](./cs-install-guide/conf-template-tags.md)
          - [Konfigurieren einer benutzerdefinierten DITA-Themenvorlage](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
          - [Konfigurieren einer benutzerdefinierten DITA-Zuordnungsvorlage](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
-      - Arbeiten mit Dokumentstatus {#doc-state-cs}
+      - Arbeiten mit Dokumentstatus-{#doc-state-cs}
          - [Status von Dokumenten konfigurieren](./cs-install-guide/customize-doc-state.md)
       - Arbeiten mit den Web-Editor-Konfigurationen {#web-editor-configs-cs}
          - [Anpassen des Web-Editors](./cs-install-guide/conf-web-editor.md)
@@ -413,7 +416,7 @@ ht-degree: 9%
          - [@navtitle standardmäßig einschließen](./cs-install-guide/auto-add-navtitle.md)
       - Arbeiten mit globalen Profilen und Profilen auf Ordnerebene {#global-folder-profiles-cs}
          - [Konfigurieren von globalen Profilen oder Profilen auf Ordnerebene](./cs-install-guide/conf-folder-level.md)
-      - Versionen konfigurieren {#version-mgt-cs}
+      - Konfigurieren von Versionen {#version-mgt-cs}
          - [Versionsverwaltung](./cs-install-guide/version-management.md)
       - Arbeiten mit Desktop-basierten XML-Editoren {#desktop-xml-editor}
          - [Integrieren von Desktop-basierten XML-Editoren](./cs-install-guide/integrate-desktop-editors-cs.md)
@@ -433,7 +436,7 @@ ht-degree: 9%
       - Arbeiten mit AEM Assets Search {#aem-asset-search-cs}
          - [Konfigurieren der Suche für die AEM Assets-Benutzeroberfläche](./cs-install-guide/conf-dita-search.md)
       - [Anhang](./cs-install-guide/appendix.md)
-- API-Referenz {#api-reference}
+- API-{#api-reference}
    - [Einführung](./api-reference/introduction.md)
    - [REST-APIs für die Ausgabeverwaltung](./api-reference/output-management.md)
    - [REST-API für DITA-Zuordnungen](./api-reference/dita-map-management.md)
@@ -450,7 +453,7 @@ ht-degree: 9%
    - [Ereignishandler nach der Verarbeitung](./api-reference/post-process-event.md)
    - [Massenaktivierung - vollständiger Ereignishandler](./api-reference/bulk-activation-complete-event.md)
    - [Ereignishandler für Konversionsprozess](./api-reference/conversion-complete-event.md)
-- Wissensdatenbank {#knowledge-base}
+- {#knowledge-base} der Wissensdatenbank
    - Expertensitzung {#expert-session}
       - [Expertensitzung - Übersicht](./knowledge-base/expert-sessions/expert-session.md)
       - [Inhalte übersetzen](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
@@ -471,22 +474,22 @@ ht-degree: 9%
       - [Delta-Inhaltsmigration](./knowledge-base/expert-sessions/migration-delta-content.md)
       - [Intelligentere PDF-Veröffentlichung mit nativem PDF](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
    - Artikel {#kb-articles}
-      - Erstellung {#authoring}
+      - Authoring {#authoring}
          - Web-Editor {#webeditor}
             - [Wiederverwendbarkeit von Inhalten in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [Verwenden von Markdown in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
-            - Anpassung {#customizing}
+            - {#customizing} anpassen
                - [Hinzufügen einer benutzerdefinierten Schaltfläche zur Symbolleiste](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Hinzufügen benutzerdefinierter Stile zum Web-Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [Anpassen des Ordnerkontextmenüs](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
                - [Anpassen des Datei-Kontextmenüs](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
-            - Ingenieur {#schematron}
+            - {#schematron}
                - [Validierung des Schematrons](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
          - Berichte {#reports}
             - [Verwalten von Metadaten für DITA-Inhalte](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - [Symbol für benutzerdefinierte Datentypen definieren](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
       - Handbücher zum Erweiterungs-Framework {#extention-framework}
-         - AEM Guides-Framework {#aem-guides-framework}
+         - AEM Guides Framework-{#aem-guides-framework}
             - [Grundlegende Anpassungen](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
             - [JUI-Framework](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
             - Komponenten {#framework-components}
@@ -512,11 +515,11 @@ ht-degree: 9%
                - [Komponenten](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Anpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Benutzerdefiniertes Dialogfeld](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
-      - Externe Datenquelle {#external-data-source}
+      - Externe {#external-data-source}
          - [Integrieren von Datenquellen](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
          - [Konfigurieren eines Datenquellen-Connectors](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - Veröffentlichung {#publishing}
-         - Native PDF {#native-pdf}
+         - Native PDF-{#native-pdf}
             - [Hinzufügen benutzerdefinierter Schriftarten zu Ihrer nativen DITA-PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
             - [Konfigurieren der AEM-Umgebung für die native Veröffentlichung von PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
             - [Hinzufügen von Unternehmens-Branding zur ersten Seite einer PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
