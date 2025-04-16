@@ -1,9 +1,10 @@
 ---
 title: Symbolleiste im Editor
-description: Die Symbolleiste im Editor kennenlernen. Erfahren Sie mehr über die Benutzeroberfläche und die Funktionen des Editors in Adobe Experience Manager Guides.
+description: Machen Sie sich mit der Symbolleiste im Editor vertraut. Erfahren Sie mehr über die Benutzeroberfläche und die Funktionen des Editors in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Symbolleiste im Editor
 
-Die Symbolleiste wird angezeigt, wenn Sie ein Thema oder eine Karte zur Bearbeitung im Editor öffnen. In der Symbolleiste stehen folgende Funktionen zur Verfügung:
+Die Symbolleiste wird angezeigt, wenn Sie ein Thema oder eine Map zur Bearbeitung im Editor öffnen. Folgende Funktionen sind in der Werkzeugleiste verfügbar:
 
 - [Menü-Dropdown](#menu-dropdown)
 - [Optionen zum Einfügen von Inhalten](#content-insertion-options)
@@ -25,20 +26,20 @@ Die Symbolleiste wird angezeigt, wenn Sie ein Thema oder eine Karte zur Bearbeit
 
 ## Menü-Dropdown
 
-Die Dropdown-Liste Menü bietet Zugriff auf die Funktionen zum Bearbeiten, Suchen und Ersetzen, Versionsverlauf, Versionsbezeichnung, Zusammenführen, Prüfungsaufgabe erstellen, Änderungen verfolgen und Tags .
+Das Dropdown-Menü bietet Zugriff auf die Bearbeitungsaktionen, Suchen und Ersetzen, Version Verlauf, Version Beschriftung, Zusammenführen, Erstellen Aufgabe überprüfen, Änderungen nachverfolgen und Tags Funktion.
 
-Diese Funktionen werden im Einzelnen wie folgt erläutert:
+Diese Funktionen werden im Detail erläutert:
 
-**Aktionen bearbeiten**
+**Bearbeiten von Aktionen**
 
-Greifen Sie beim Bearbeiten eines Themas im Editor auf die verschiedenen Bearbeitungsaktionen zu, z. B. **Ausschneiden** oder ***Strg***+***X*** , **Kopieren** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+Z ***,**Wiederholen**oder*** CtrlCtrlY ****** ****** **** Löschenim Dropdown-Menü.
+Wenn Sie ein Thema im Editor bearbeiten, greifen Sie auf die verschiedenen Bearbeitungsaktionen zu, z **. B. Ausschneiden** oder ***Strg***+***X*** , **Kopie** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+***Z ,**Wiederholen**oder*** Strg ***+*** Y ****** und **Löschen** im Dropdown-Menü vorhanden.
 
 
 **Suchen und Ersetzen**
 
-Die Funktion **Suchen und Ersetzen** ist im Autoren- und Source-Ansichtsmodus verfügbar. Wenn diese Option aktiviert ist, wird die Textleiste Suchen und Ersetzen unten im Themenbearbeitungsbereich angezeigt. Sie können die Tastaturbefehle (**+**+**F) verwenden** um die Leiste zum Suchen und Ersetzen aufzurufen.
+Die **Funktion zum Suchen und Ersetzen** ist in den Modi Autor und Quelle Ansicht verfügbar. Wenn diese Option aktiviert ist, wird die Textleiste Suchen und Ersetzen unten im Themenbearbeitungsbereich angezeigt. Sie können die Tastaturbefehle (**+**+**F) verwenden** um die Leiste zum Suchen und Ersetzen aufzurufen.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 Über das Einstellungssymbol \(![](images/settings-find-replace-icon.svg)\) können Sie die Suchoptionen **Groß-/Kleinschreibung ignorieren** und **Nur ganzes Wort** umschalten. Um die Suche ohne Berücksichtigung der Groß-/Kleinschreibung durchzuführen, aktivieren Sie die Option \(oder wählen Sie\) **Groß-/Kleinschreibung ignorieren**. Andernfalls müssen Sie, wenn Sie die Suche unter Berücksichtigung der Groß-/Kleinschreibung durchführen möchten, die Option \(oder deselect\) **Groß-/Kleinschreibung ignorieren** deaktivieren. Sie können auch ein ganzes Wort suchen.
 
@@ -87,43 +88,43 @@ Mit **Funktion „Versionsverlauf** im Editor können Sie die verfügbaren Versi
 
    >[!NOTE]
    >
-   > Ihr Systemadministrator kann die Metadaten, die angezeigt werden sollen, über die Registerkarte Metadaten unter &quot;**&quot;**. Weitere Informationen finden Sie im Abschnitt **Weitere Aktionen** der [Registerkartenleiste](#tab-bar).
+   > Ihr Systemadministrator kann die anzuzeigenden Metadaten über das Metadaten-Tab im **Einstellungen** ändern. Weitere Informationen finden Sie im **Abschnitt &quot;Mehr Aktionen** &quot; der [Tabulatortaste-Leiste](#tab-bar).
 
-   Sie können auch die Benutzer- und Zeitdetails der aktuellen und der verglichenen Version anzeigen.
+   Sie können auch die User- und Zeitdetails der aktuellen und der verglichenen Version Ansicht.
 
    Nachdem Sie eine Version aus der Dropdown-Liste ausgewählt haben, wird **Option „Auf ausgewählte Version**&quot; verfügbar gemacht. Im Vorschaufenster werden die Unterschiede zwischen der aktuellen Version und der ausgewählten Version des Themas angezeigt.
 
 1. Wählen Sie **Auf ausgewählte Version zurücksetzen** aus, um Ihre Arbeitskopie mit der ausgewählten Version des Themas wiederherzustellen.
 
-   Das Dialogfeld Version zurücksetzen wird angezeigt.
+   Das Dialogfeld Zurück zur letzten Version Version wird angezeigt.
 
    ![](images/version-history-revert-dialog-save-working-copy.png){width="550" align="left"}
 
-1. \(*Optional*\) Geben Sie einen Grund für die Rückkehr zu einer früheren Version an. Sie können auch eine neue Version der derzeit aktiven Arbeitskopie Ihres Themas erstellen.
+1. \(*Optional*\) Geben Sie einen Grund für die Wiederherstellung zu einer früheren Version an. Sie können auch eine neue Version der derzeit aktiven Arbeitskopie Ihres Themas erstellen.
 
-1. Wählen Sie **Bestätigen** aus.
+1. Wählen Sie **Bestätigen**.
 
-   Ihre Arbeitskopie der Datei wird auf die ausgewählte Version zurückgesetzt. Wenn Sie eine neue Version der derzeit aktiven Arbeitskopie erstellen, wird auch eine neue Version der Datei mit allen Arbeitsänderungen erstellt.
+   Ihre Arbeitskopie der Datei wird auf die ausgewählte Version zurückgesetzt. Wenn Sie sich dafür entscheiden, eine neue Version der derzeit aktiven Arbeitskopie zu erstellen, dann wird auch eine neue Version der Datei mit allen Arbeitsänderungen erstellt.
 
    Wenn Sie zu einer früheren Version zurückkehren, wird ein visueller Hinweis angezeigt, der angibt, dass die Version, an der Sie gerade arbeiten, nicht die neueste Version ist.
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 </details>
 
 
 **Versionsbezeichnungen**
 
-Beschriftungen helfen Ihnen bei der Identifizierung des Stadiums, in dem sich ein bestimmtes Thema im DDLC befindet (Document Development Life Cycle). Wenn Sie beispielsweise an einem Thema arbeiten, können Sie die Bezeichnung als „Genehmigt“ festlegen. Sobald ein Thema veröffentlicht und Kunden zur Verfügung gestellt wurde, können Sie diesem Thema die Bezeichnung „Freigegeben“ zuweisen.
+Beschriftungen helfen Ihnen bei der Identifizierung des Stadiums, in dem sich ein bestimmtes Thema im DDLC befindet (Document Development Life Cycle). Wenn Sie beispielsweise an einem Thema arbeiten, können Sie die Bezeichnung auf &quot;Genehmigt&quot; festlegen. Nachdem ein Thema veröffentlicht und für Kunden verfügbar gemacht wurde, können Sie diesem Thema die Bezeichnung &quot;Freigegeben&quot; zuweisen.
 
-Mit Experience Manager Guides können Sie Beschriftungen in einem Freiformtextformat angeben oder einen Satz vordefinierter Beschriftungen verwenden. Mit der benutzerdefinierten Beschriftung können alle Autorinnen und Autoren im System eine Beschriftung gemäß ihrer Auswahl angeben. Dies bietet Flexibilität, führt jedoch zu inkonsistenten Beschriftungen im System. Um dieses Problem zu beheben, können Admins einen Satz vordefinierter Kennzeichnungen konfigurieren. Weitere Informationen zum Konfigurieren vordefinierter Kennzeichnungen finden Sie unter *Konfigurieren und Anpassen des XML-Web* Editors in der Adobe Experience Manager Guides as a Cloud Service installieren und konfigurieren.
+Experience Manager Guides können Sie Beschriftungen in einem gratis-Formular-Textformat angeben oder einen Satz vordefinierter Beschriftungen verwenden. Mit der benutzerdefinierten Bezeichnung kann jeder Autor im System eine Bezeichnung nach seiner Wahl festlegen. Dies gibt Flexibilität; Es führt jedoch zu inkonsistenten Beschriftungen im System. Um dieses Problem zu umgehen, können Administratoren eine Reihe vordefinierter Bezeichnungen konfigurieren. Weitere Informationen zum Konfigurieren vordefinierter Kennzeichnungen finden Sie unter *Konfigurieren und Anpassen des XML-Web* Editors in der Adobe Experience Manager Guides as a Cloud Service installieren und konfigurieren.
 
 Diese Beschriftungen werden Autoren in Form einer Dropdown-Liste angezeigt, wenn sie eine Beschriftung angeben müssen. Dadurch wird sichergestellt, dass im System nur vordefinierte, konsistente Kennzeichnungen verwendet werden.
 
-Es gibt verschiedene Methoden, mit denen Sie Beschriftungen auf Ihre Themen anwenden können - [Versionsverlauf](web-editor-use-label.md) Bedienfeld in der Assets-Benutzeroberfläche, [Baselines](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)-Benutzeroberfläche und im Editor. Mit der Funktion „Versionsbezeichnung“ im Editor können Autoren ihren Themen schnell und einfach Beschriftungen zuweisen.
+Es gibt verschiedene Methoden, mit denen Sie Beschriftungen auf Ihre Themen anwenden können - [Versionsverlauf](web-editor-use-label.md) Bedienfeld in der Assets-Benutzeroberfläche, [Baselines](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)-Benutzeroberfläche und im Editor. Die Funktion Version Kennzeichnen im Editor bietet Autoren eine schnelle und einfache Möglichkeit, ihren Themen Bezeichnungen zuzuweisen.
 
 <details>
-    <summary> Schritte zum Hinzufügen von Beschriftungen zu Ihrem Thema über den Editor </summary>
+    <summary> Schritte zum Hinzufügen von Bezeichnungen zu Themen aus dem Editor </summary>
 
 1. Öffnen Sie ein Thema im Editor.
 
@@ -143,17 +144,17 @@ Es gibt verschiedene Methoden, mit denen Sie Beschriftungen auf Ihre Themen anwe
    >
    > Wenn eine Beschriftung bereits auf eine Version angewendet wird, wird sie neben der Versionsnummer in der Dropdown-Liste und unter der Liste Version auswählen angezeigt. Sie können eine vorhandene Beschriftung entfernen, indem Sie das Symbol \(**x**\) neben der Beschriftung auswählen.
 
-1. Wenn Ihr Administrator eine Liste von Kennzeichnungen definiert hat, wird eine Dropdown-Liste der Kennzeichnungen angezeigt, aus der Sie die Kennzeichnungen auswählen können, die Sie anwenden möchten. Sie können mehrere Bezeichnungen aus der Dropdown-Liste auswählen.
+1. Wenn Ihr Administrator eine Liste von Kennzeichnungen definiert hat, wird eine Dropdown-Liste der Kennzeichnungen angezeigt, aus der Sie die Kennzeichnungen auswählen können, die Sie anwenden möchten. Sie können mehrere Beschriftungen aus der Dropdown-Liste Liste.
 
-   Andernfalls wird ein Textfeld angezeigt, in das Sie die Beschriftungen eingeben können, die Sie zu Ihrem Thema hinzufügen möchten.
+   Andernfalls wird Ihnen ein Textfeld angezeigt, in das Sie die Beschriftungen eingeben können, die Sie Ihrem Thema hinzufügen möchten.
 
    >[!NOTE]
    >
-   > Eine Bezeichnung kann nicht auf mehrere Versionen eines Themas angewendet werden. Wenn Sie versuchen, eine vorhandene Beschriftung zu verknüpfen, erhalten Sie die Möglichkeit, sie aus der vorhandenen Version zu entfernen und auf die ausgewählte Version des Themas anzuwenden.
+   > Sie können nicht dieselbe Bezeichnung auf mehrere Versionen eines Themas anwenden. Wenn Sie versuchen, eine vorhandene Bezeichnung zuzuordnen, haben Sie die Möglichkeit, sie aus der vorhandenen Version zu entfernen und auf die ausgewählte Version des Themas anzuwenden.
 
-1. Wählen Sie **Bezeichnung hinzufügen** aus.
+1. Wählen Sie hinzufügen Kennzeichnen **aus**.
 
-1. Wählen Sie in der Bestätigungsmeldung Kennzeichnung anwenden die Option **Kennzeichnung verschieben (falls in einer anderen Version verwendet)**, um Kennzeichnungen von einer vorhandenen Version in die ausgewählte Version zu verschieben. Wenn Sie diese Option nicht auswählen und es Beschriftungen gibt, die einer anderen Version des Themas zugewiesen sind, werden diese nicht in die Version des ausgewählten Themas verschoben. Solche Kennzeichnungen werden beim Bezeichnungsantrag ignoriert.
+1. Wählen Sie in der Bestätigungsmeldung Kennzeichnung anwenden die Option **Kennzeichnung verschieben (falls in einer anderen Version verwendet)**, um Kennzeichnungen von einer vorhandenen Version in die ausgewählte Version zu verschieben. Wenn Sie diese Option nicht auswählen und Beschriftungen vorhanden sind, die einer anderen Version des Themas zugewiesen sind, werden sie nicht in die Version des ausgewählten Themas verschoben. Solche Kennzeichnungen werden beim Bezeichnungsantrag ignoriert.
 
 </details>
 
@@ -222,33 +223,33 @@ Um Änderungen in einer Zuordnungsdatei zusammenzuführen, führen Sie die folge
 
 </details>
 
-**Prüfungsaufgabe erstellen**
+**Erstellen Review Aufgabe**
 
-Sie können [eine Prüfungsaufgabe erstellen](./review-send-topics-for-review.md) des aktuellen Themas oder der Zuordnungsdatei direkt im Editor erstellen. Öffnen Sie die Datei, für die Sie die Prüfungsaufgabe erstellen möchten, und wählen Sie **Prüfungsaufgabe erstellen** aus dem Dropdown-Menü aus, um den Prozess zur Erstellung der Überprüfung zu starten.
+Sie können [ein Review-Aufgabe](./review-send-topics-for-review.md) des aktuellen Themas oder eine Map-Datei direkt im Editor erstellen. Öffnen Sie die Datei, für die Sie die Überprüfungs Aufgabe erstellen möchten, und wählen Sie **Erstellen Überprüfungs-Aufgabe** aus dem Dropdown-Menü aus, um den Erstellungsprozess der Bewertung zu starten.
 
-**Änderungen verfolgen**
+**Änderungen nachverfolgen**
 
-Sie können alle an einem Dokument vorgenommenen Aktualisierungen nachverfolgen, indem Sie den Modus Änderungen nachverfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen im Dokument erfasst. Der gesamte gelöschte Inhalt wird mithilfe von Durchgestrichen hervorgehoben, und alle Einfügungen werden in grünem Text hervorgehoben. Darüber hinaus werden die Änderungsleisten am Rand der Themenseite angezeigt. Auch hier wird ein roter Balken für gelöschte Inhalte und ein grüner Balken für hinzugefügte Inhalte angezeigt. Wenn sich eine Ergänzung und ein Löschvorgang in derselben Zeile befinden, werden sowohl grüne als auch rote Balken angezeigt.
+Sie können alle an einer Dokument vorgenommenen Aktualisierungen nachverfolgen, indem Sie den Modus Änderungen nachverfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen in der Dokument erfasst. Der gesamte gelöschte Inhalt wird mithilfe von Durchgestrichen hervorgehoben, und alle Einfügungen werden in grünem Text hervorgehoben. Darüber hinaus werden die Änderungsleisten am Rand der Themenseite angezeigt. Auch hier wird ein roter Balken für gelöschte Inhalte und ein grüner Balken für hinzugefügte Inhalte angezeigt. Wenn sich eine Ergänzung und ein Löschvorgang in derselben Zeile befinden, werden sowohl grüne als auch rote Balken angezeigt.
 
-Der folgende Screenshot zeigt den gelöschten und eingefügten Inhalt zusammen mit den Änderungsleisten:
+Im folgenden Screenshot werden die gelöschten und eingefügten Inhalte zusammen mit den Änderungsbalken hervorgehoben:
 
 ![](images/track-changes-content.png){width="650" align="left"}
 
-Ein typischer Anwendungsfall für das Tracking von Änderungen in einem Dokument kann die Durchführung einer Peer Review sein. Sie können Änderungen nachverfolgen und Ihr Dokument zur Überprüfung freigeben. Die Überprüfenden nehmen dann Änderungen vor, wenn die Nachverfolgung aktiviert ist. Wenn Sie das Dokument erhalten, sollten Sie über einen Mechanismus verfügen, mit dem Sie die vorgeschlagenen Aktualisierungen anzeigen können und bequem Änderungen akzeptieren oder ablehnen können.
+Ein typischer Anwendungsfall für Tracking Änderungen in einem Dokument kann die Durchführung von Peer-Reviews sein. Sie können die Nachverfolgung von Änderungen aktivieren und Ihre Dokument zur Überprüfung freigeben, und der Prüfer nimmt dann Änderungen mit aktivierter Option für die Nachverfolgung vor. Wenn Sie die Dokument erhalten, sollten Sie über einen Mechanismus verfügen, um die vorgeschlagenen Updates zu Ansicht, sowie über eine bequeme Möglichkeit, Änderungen zu akzeptieren oder abzulehnen.
 
-Experience Manager Guides stellt die Funktion „Getrackte Änderungen“ bereit, die Informationen zu den im Dokument vorgenommenen Aktualisierungen enthält. Die Funktion „Nachverfolgte Änderungen“ enthält Informationen dazu, welche Aktualisierungen vorgenommen wurden, wer sie vorgenommen hat und zu welchem Zeitpunkt. Mit der Funktion „Nachverfolgte Änderungen“ können Sie die vorgeschlagenen Aktualisierungen im Dokument auch einfach akzeptieren oder ablehnen.
+Experience Manager Guides bietet die Funktion &quot;Nachverfolgte Änderungen&quot;, die Informationen zu den in der Dokument vorgenommenen Aktualisierungen enthält. Die Funktion „Nachverfolgte Änderungen“ enthält Informationen dazu, welche Aktualisierungen vorgenommen wurden, wer sie vorgenommen hat und zu welchem Zeitpunkt. Mit der Funktion „Nachverfolgte Änderungen“ können Sie die vorgeschlagenen Aktualisierungen im Dokument auch einfach akzeptieren oder ablehnen.
 
 Um auf die Funktion zuzugreifen, wählen **im rechten Bedienfeld das Symbol**&#x200B;Änderungen verfolgen“ aus.
 
 ![](images/changes-panel_cs.png){width="300" align="left"}
 
-Durch Auswählen einer verfolgten Änderung wird der geänderte Inhalt im Dokument ausgewählt. Sie können eine Änderung annehmen, indem Sie auf das Symbol Änderung akzeptieren klicken, oder sie ablehnen, indem Sie die Änderung ablehnen auswählen.
+Durch Auswählen einer verfolgten Änderung wird der geänderte Inhalt im Dokument ausgewählt. Sie können eine Änderung akzeptieren, indem Sie das Symbol Akzeptieren ändern auswählen, oder sie ablehnen, indem Sie die ändern ablehnen auswählen.
 
-Wenn Sie alle Änderungen mit einem Klick akzeptieren oder ablehnen möchten, wählen Sie **Alle Änderungen akzeptieren** oder **Alle Änderungen ablehnen**.
+Wenn Sie alle Änderungen mit einem einzigen Klick akzeptieren oder ablehnen möchten, wählen Sie **Alle Änderungen** Akzeptieren oder **Alle Änderungen** ablehnen aus.
 
 >[!NOTE]
 >
-> Im Vorschaumodus können Sie das Dokument mit oder ohne Markierungen des geänderten Inhalts anzeigen. Weitere Informationen finden Sie im [Vorschau](web-editor-views.md#preview-mode-id19AAGL00163)-Modus.
+> Im Vorschau Modus können Sie die Dokument mit oder ohne die Markups der geänderten Inhalte Ansicht. Weitere Informationen finden Sie im [Vorschau](web-editor-views.md#preview-mode-id19AAGL00163)-Modus.
 
 **Tags**
 
@@ -262,16 +263,16 @@ Die folgenden Vorgänge können in einem Dokument mit Tags ausgeführt werden:
 
 - **Element auswählen**: Wählen Sie das öffnende oder schließende Tag eines Elements aus, um seinen Inhalt auszuwählen.
 
-- **Tags erweitern oder reduzieren**: Wählen Sie das + oder - Anmelden eines Tags aus, um es zu erweitern oder zu reduzieren.
+- **Tags** Erweitern oder reduzieren: Wähle in einer Tag das Zeichen &quot;+&quot; oder &quot;-&quot; aus, um sie ein- oder auszublenden.
 
-- **Kontextmenü verwenden**: Das Kontextmenü bietet Optionen zum Ausschneiden, Kopieren oder Einfügen des ausgewählten Elements. Sie können ein Element auch vor oder nach dem ausgewählten Element einfügen. Die anderen Optionen ermöglichen es Ihnen, für das ausgewählte Element eine ID zu generieren oder den Bereich „Eigenschaften“ zu öffnen.
+- **Verwenden Sie das Kontextmenü**: Das Kontextmenü bietet Optionen zum Ausschneiden, Kopieren oder Einfügen des ausgewählten Elements. Sie können auch ein Element vor oder nach dem ausgewählten Element einfügen. Mit den anderen Optionen können Sie eine ID generieren oder das Eigenschaften Bedienfeld für das ausgewählte Element öffnen.
 
-- **Elemente per Drag-and-Drop verschieben**: Wählen Sie das Tag eines Elements aus und ziehen Sie es einfach per Drag-and-Drop in Ihr Dokument. Wenn der Ablageort ein gültiger Ort ist, an dem das Element zulässig ist, wird das Element an dem abgelegten Ort platziert.
+- **Drag-and-Drop-Elemente**: Wählen Sie die Tag eines Elements aus und ziehen Sie sie einfach per Drag &amp; Drop auf Ihre Dokument. Wenn der Ablageort ein gültiger Speicherort ist, an dem das Element zulässig ist, wird das Element an der abgelegten Position platziert.
 
 
 >[!NOTE]
 >
-> Wenn ein(e) Benutzende(r) die Tag-Ansicht im Editor aktiviert, bleibt sie auch sitzungsübergreifend aktiviert. Das bedeutet, dass Sie die Tag-Ansicht nicht erneut aktivieren müssen, um später darauf zuzugreifen. Der Standardwert für die Tags-Ansicht für die Sitzung eines neuen Benutzers wird durch die `tagsView`-Eigenschaft in der `ui\_config.json` bestimmt. Weitere Informationen finden Sie im Abschnitt [Standardwert für die Tag-Ansicht konfigurieren](../cs-install-guide/configure-default-value-tags-view.md) unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+> Wenn ein User die Tags Ansicht im Editor aktiviert, bleibt sie Linear sitzungsübergreifend aktiviert. Das bedeutet, dass Sie die Tag-Ansicht nicht erneut aktivieren müssen, um später darauf zuzugreifen. Der Standardwert für die Tags-Ansicht für die Sitzung eines neuen Benutzers wird durch die `tagsView`-Eigenschaft in der `ui\_config.json` bestimmt. Weitere Informationen finden Sie im Abschnitt [Standardwert für die Tag-Ansicht konfigurieren](../cs-install-guide/configure-default-value-tags-view.md) unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 ## Optionen zum Einfügen von Inhalten
 
@@ -295,7 +296,7 @@ Sie können auch ein Zeichen oder eine Zeichenfolge in das Suchfeld eingeben und
 
 Wenn Sie wie ein `note` in einem Blockelement arbeiten, verwenden Sie das Symbol Element einfügen , um ein neues Element nach dem `note` Element einzufügen. Im folgenden Screenshot wurde ein Element NOTE in das Element p \(Absatz\) eingefügt:
 
-![Element in ein Blockelement einfügen](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![Element in ein Blockelement einfügen](images/note-in-para-insert-element_cs.png){align="left"}
 
 Wenn Sie im Notizelement die Eingabetaste drücken, wird ein neuer Absatz innerhalb des Notizelements selbst erstellt. Um ein neues Element außerhalb der Anmerkung einzufügen, wählen Sie das p-Element \(im Screenshot hervorgehoben\) im Breadcrumb für Elemente aus und wählen Sie dann das Symbol Element aus oder drücken Sie ***Alt***+***Eingabetaste***, um das Dialogfeld Element einfügen zu öffnen. Wählen Sie anschließend das gewünschte Element aus und drücken Sie die Eingabetaste, um das ausgewählte Element nach dem Element Notiz einzufügen.
 
@@ -328,15 +329,15 @@ Erstellt eine nummerierte Liste am aktuellen oder nächsten gültigen Speicheror
 
 **Tabelle** - ![](images/Table_icon.svg)
 
-Fügt eine Tabelle am aktuellen oder nächsten gültigen Speicherort ein. Wählen Sie das Symbol Tabelle aus, um das Dialogfeld Einfache Tabelle einfügen zu öffnen.
+Fügt eine Tabelle an der aktuellen oder der nächsten gültigen Position ein. Wählen Sie das Symbol &quot;Tabelle&quot; aus, um das Dialogfeld &quot;Einfügen Simple Tabelle&quot; zu öffnen.
 
 ![](images/table-properties.png){width="550" align="left"}
 
 >[!NOTE]
 >
-> Sie können auch eine Tabelle aus MS Word oder Excel kopieren und in die Experience Manager Guides-Themendatei einfügen. Die kopierte Tabelle wird je nach den in der XML-Editor-Konfiguration konfigurierten Einstellungen entweder als `<simpletable>` oder `<tgroup>` eingefügt. Weitere Informationen finden Sie unter [Konfigurieren der Anzeige eingefügter Tabellen](../cs-install-guide/conf-pasted-tables.md).
+> Sie können auch eine Tabelle aus MS Word oder Excel kopieren und in die Themendatei für Experience Manager Guides einfügen. Die kopierte Tabelle wird entweder oder abhängig `<simpletable>` `<tgroup>` von den in der XML-Editorkonfiguration konfigurierten Einstellungen eingefügt. Weitere Informationen finden Sie Ansicht [Konfigurieren Sie die Anzeige eingefügter Tabellen](../cs-install-guide/conf-pasted-tables.md).
 
-Sie können die Anzahl der Zeilen und Spalten angeben, die in der Tabelle erforderlich sind. Wenn Sie die erste Zeile als Tabellenüberschrift beibehalten möchten, wählen Sie die Option **Erste Zeile als Überschrift festlegen** aus. Um der Tabelle einen Titel hinzuzufügen, geben Sie ihn im Feld Titel ein.
+Sie können die Anzahl der für die Tabelle erforderlichen Zeilen und Spalten angeben. Wenn Sie die erste Zeile als Tabellenüberschrift beibehalten möchten, wählen Sie die **Option Festlegen erste Zeile als Kopfzeile** aus. Um der Tabelle einen Titel hinzuzufügen, geben Sie ihn im Feld Titel ein.
 
 Nachdem eine Tabelle eingefügt wurde, können Sie die Tabelle mit dem Kontextmenü ändern.
 
@@ -344,29 +345,29 @@ Nachdem eine Tabelle eingefügt wurde, können Sie die Tabelle mit dem Kontextme
 
 
 
-Über das Kontextmenü der Tabelle haben Sie folgende Möglichkeiten:
+Über das Kontextmenü der Tabelle können Sie:
 
-- Zellen, Zeilen oder Spalten einfügen
+- Einfügen von Zellen, Zeilen oder Spalten
 
-- Zusammenführen von Zellen in Rechts- und Abwärtsrichtung
+- Zellen in rechter und abwärts gerichteter Richtung verbinden
 
-- Zellen horizontal oder vertikal teilen
+- Zelle horizontal oder vertikal teilen
 
-- Zellen, Zeilen oder Spalten löschen
+- Löschen von Zellen, Zeilen oder Spalten
 
 - IDs generieren
 
 <details>
     <summary> Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren </summary>
 
-Sie können auch Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren. Um beispielsweise eine Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bedienfeld Inhaltseigenschaften (rechts) ändert sich die Eigenschaft **Typ** in **Eintrag**.
+Sie können auch Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren. Um beispielsweise die Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bedienfeld &quot;Content Eigenschaften&quot; (rechts) ändert sich der Eigenschaft-Typ **** in **&quot;Eintrag**&quot;.
 
-1. Wählen **Abschnitt „Attribute** die Option **+Hinzufügen**.
+1. Wählen Sie im **Abschnitt &quot;Attribute** &quot; die Option **&quot;+hinzufügen**&quot;.
 1. Wählen Sie das `@valign` Attribut aus der Dropdown **Liste „Attribut** aus.
 1. Wählen Sie aus der Dropdown-Liste Wert die gewünschte Textausrichtung aus, die Sie auf die ausgewählten Tabellenzellen anwenden möchten.
 1. Wählen Sie **Hinzufügen.**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 </details>
 
@@ -376,22 +377,22 @@ Fügt ein Bild am aktuellen oder nächsten gültigen Speicherort ein. Klicken Si
 
 >[!NOTE]
 >
-> Sie können auch ein Bild hinzufügen, indem Sie es aus Ihrem lokalen System auf Ihren Artikel ziehen und ablegen. In diesem Fall wird die Bilddatei mithilfe des Workflows **Assets hochladen** hinzugefügt.  Weitere Informationen finden Sie im Abschnitt **Workflow &quot;Assets hochladen** im [ Bereich](#left-panel).
+> Sie können auch ein Bild hinzufügen, indem Sie es aus Ihrem lokalen System auf Ihren Artikel ziehen und ablegen. In diesem Fall wird die Bilddatei mithilfe des Workflows **Assets hochladen** hinzugefügt.  Weitere Informationen Ansicht der arbeitsablauf zum **Hochladen Assets** im [linken Bereich](#left-panel) .
 
 
-![](images/insert-image.png){width="650" align="left"}
+![](images/insert-image.png){width="300" align="left"}
 
-Sie können einen Bild-/Figurtitel und alternativen Text für das Bild im Dialogfeld Bild einfügen hinzufügen.
+Sie können ein Bild/eine Abbildung Titel und eine alternative Text für das Bild im Dialogfeld Einfügen Bild hinzufügen.
 
+>[!NOTE]
 >
->
-> Wenn Sie ein Bild einfügen und einen alternativen Text für dasselbe angeben, wird es innerhalb des `<alt>` gemäß den neuesten DITA-Standards hinzugefügt. Die Verwendung des Attributs `@alt` für alternativen Text ist veraltet, wird aber in früheren DITA-Versionen weiterhin unterstützt.
+> Wenn Sie ein Bild einfügen und dafür einen alternativen Text angeben, wird dieser gemäß den neuesten DITA-Standards innerhalb des `<alt>` Elements hinzugefügt. Die Verwendung des Attributs `@alt` für alternativen Text ist veraltet, wird jedoch in früheren DITA-Versionen weiterhin unterstützt.
 
-Mit der Option **Datei auswählen** können Sie nach der gewünschten Bilddatei anhand des Dateinamens suchen. Sie können die Suchergebnisse auch nach Pfad \(zum Suchen in\), Sammlungen, Dateityp und Tags filtern. Nachdem Sie die gewünschte Bilddatei gefunden haben, wählen Sie die Datei aus und klicken Sie auf **Auswählen**, um das Bild in Ihr Dokument einzufügen. Sie können verschiedene Formate von Bilddateien einfügen, z. B. `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` und mehr.
+Mit der **Option &quot;Select Datei** &quot; können Sie die erforderlichen Grafikdatei nach Dateiname suchen. Sie können die suchen Ergebnisse auch nach Pfad \(zum suchen in\), Kollektionen, Datei Typ und Tags filtern. Wenn Sie die gewünschte Grafikdatei gefunden haben, wählen Sie die Datei aus und wählen Sie **Auswählen** , um das Bild in Ihre Dokument einzufügen. Sie können verschiedene Formate von Bilddateien einfügen, z. B`.png`. , `.svg`, `.gif`, `.jpg``.eps`, , `.ai`, `.psd`und mehr.
 
 Nachdem Sie ein Bild eingefügt haben, können Sie die Attribute für Höhe, Breite, Platzierung und Inhalt im Bedienfeld Inhaltseigenschaften ändern. Wählen Sie die Bilddatei aus und nehmen Sie dann Änderungen im Bedienfeld Inhaltseigenschaften im rechten Bedienfeld vor.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 Das Feld Source zeigt die UUID der eingefügten Bilddatei an. Sie können den vollständigen Pfad der eingefügten Bilddatei finden, indem Sie den Mauszeiger über das Source-Feld bewegen. Der Pfad wird in der QuickInfo angezeigt.
 
@@ -441,34 +442,34 @@ Bei Auswahl der Option Audio- oder Videodatei wird die Repository-Ansicht angeze
 
 >[!NOTE]
 >
-> Beim Hinzufügen eines YouTube-Video-Links müssen Sie die Zeichenfolge `watch?v=` durch `embed` in der URL ersetzen. Um beispielsweise einen YouTube-Video-Link hinzuzufügen: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, müssen Sie ihn wie folgt hinzufügen: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Durch diese Änderung wird sichergestellt, dass das Video in die AEM-Site und die PDF-Ausgabe eingebettet wird.
+> Beim Hinzufügen einer YouTube-Video-verknüpfen müssen Sie die Zeichenfolge `watch?v=` durch `embed` im URL ersetzen. Um beispielsweise ein YouTube-Video hinzuzufügen, verknüpfen: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, müssen Sie es wie folgt hinzufügen: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Durch diese Änderung wird sichergestellt, dass das Video in die AEM Site und in die PDF-Ausgabe eingebettet wird.
 
-Sie können die Audio- oder Videodatei auch über das Dialogfeld „Multimedia einfügen“ hinzufügen. Wählen Sie die Option Audio-/Videodatei und dann das Symbol „Durchsuchen“ aus, um die Repository-Ansicht zu starten. Wählen Sie die Audio- oder Videodatei aus dem Repository aus und klicken Sie auf **Auswählen**, um den Link der Datei in das Feld Audio-/Videodatei einzufügen. Wenn Sie eine Videodatei auswählen, wird auch eine Vorschau der Datei im Bereich Vorschau angezeigt. Sie können die Videodatei abspielen, um ihre Vorschau anzuzeigen.
+Sie können die Audio oder Video Datei auch über das Dialogfeld &quot;Einfügen Multimedia&quot; hinzufügen. Wählen Sie die Option Audio/Video Datei aus und klicken Sie anschließend auf das Symbol zum Durchsuchen, um den Repository Ansicht zu starten. Wählen Sie die Sound- oder Videodatei aus dem Repository aus und wählen Sie **Auswählen** , um die verknüpfen der Datei im Feld Audio/Video Datei hinzuzufügen. Wenn Sie eine Videodatei auswählen, wird auch eine Vorschau der Datei im Bereich Vorschau angezeigt. Sie können die Videodatei abspielen, um ihre Vorschau anzuzeigen.
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
 **Querverweis**
 
-Fügen Sie Verweise vom Typ ein - Inhaltsreferenz, Inhaltsschlüsselreferenz, Schlüsselreferenz, Dateireferenz, Weblink oder E-Mail-Link.
+Einfügen Referenzen des Typs: Inhaltsverweis, Inhaltsschlüsselverweis, Schlüsselverweis, Datei Verweis, Weblink oder E-Mail-Link.
 
-Wählen Sie das Symbol **Datei auswählen** \(für Inhaltsreferenz und Dateireferenz\) oder **Stammzuordnungssymbol auswählen** \(für Inhaltsschlüsselreferenz und Schlüsselreferenz\) aus und wählen Sie die gewünschte Datei oder den gewünschten Inhalt aus, zu der bzw. dem eine Verknüpfung hergestellt werden soll.
+Wählen Sie das **Symbol &quot;Select Datei** &quot; (für Content Reference und Datei Reference\) oder **das Symbol &quot;Select Root Map** &quot; (für Content Key Reference und Key Reference\) aus und wählen Sie die gewünschte Datei oder Inhalte aus, zu der Sie verknüpfen möchten.
 
 ![](images/insert-references.png){width="650" align="left"}
 
-Dem Dokument wird ein Link der ausgewählten Referenz hinzugefügt. Das Kontextmenü für den Link bietet die folgenden Optionen:
+Ein verknüpfen der ausgewählten Referenz wird im Dokument hinzugefügt. Im Kontextmenü der verknüpfen haben Sie folgende Optionen:
 
-- **Element einfügen**: Zeigt eine Liste gültiger Elemente an, die Sie im jeweiligen Kontext einfügen können.
+- **Einfügen Element**: Zeigt eine Liste gültiger Elemente an, die Sie im angegebenen Kontext einfügen können.
 - **UUID kopieren**: Kopiert die UUID der eingefügten Referenz.
 - **Pfad kopieren**: Kopiert den vollständigen Pfad der eingefügten Referenz.
-- **IDs generieren**: Generiert eine eindeutige ID für den eingefügten Verweis.
+- **IDs generieren: Generiert eine eindeutige ID für den eingefügten Verweis**.
 
-Sie können auch anhand der UUID der Datei suchen, auf die Sie verweisen möchten. Geben Sie für Links zu Inhalten und Schlüsselreferenzen die UUID der Datei ein, mit der Sie eine Verknüpfung herstellen möchten. Die Datei wird dann automatisch im Abschnitt Vorschau durchsucht und angezeigt. Wenn Sie die UUID der Datei angeben, müssen Sie die Dateierweiterung für XML-Dateien nicht explizit angeben. Die Erweiterung .xml wird automatisch an die UUID angehängt.
+Sie können auch mit der UUID der Datei suchen, die Sie referenzieren möchten. Geben Sie für Inhalts- und Schlüsselreferenzlinks die UUID der Datei ein, zu der Sie verknüpfen möchten, und die Datei wird automatisch durchsucht und im Abschnitt Vorschau angezeigt. Wenn Sie die UUID der Datei angeben, müssen Sie die Dateierweiterung für .xml Dateien nicht explizit erwähnen. Die .xml Erweiterung wird automatisch an die UUID angehängt.
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
 Wenn Ihr Admin die Option UUIDs in *XMLEditorConfig* aktiviert hat, wird die UUID des referenzierten Inhalts in der Eigenschaft **Link** angezeigt.
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -523,7 +524,7 @@ Fügt Sonderzeichen in das Thema ein. Wählen Sie das Symbol Symbol aus, um das 
 >
 > Experience Manager Guides bietet verschiebbare und in der Größe veränderbare Dialogfelder. Die Größe von Dialogfeldern mit zwei Querlinien in der rechten unteren Ecke kann geändert werden. Die Querlinien im Dialogfeld Sonderzeichen werden unten angezeigt.
 
-![](images/insert-special-char.png){width="550" align="left"}
+![](images/insert-special-char.png){width="350" align="left"}
 
 Im Dialogfeld Sonderzeichen einfügen können Sie anhand des Namens nach einem Sonderzeichen suchen. Alle Sonderzeichen werden in verschiedenen Kategorien gespeichert. Wählen Sie in der Dropdown-Liste Kategorie auswählen eine Kategorie aus. Die in der ausgewählten Kategorie verfügbaren Sonderzeichen werden angezeigt. Sie können mit den Pfeiltasten durch die Liste der Sonderzeichen navigieren oder das gewünschte Zeichen auswählen, das Sie einfügen möchten. Der Name und der Hexadezimalcode des ausgewählten Sonderzeichens werden unter der Liste angezeigt. Wählen Sie **Einfügen** aus, um das ausgewählte Zeichen in Ihr Dokument einzufügen.
 
@@ -543,7 +544,7 @@ Sie können die Attribute des Keywords ändern oder dem Keyword ein neues Attrib
 
 **Snippets** - ![](images/insert-snippet-icon.svg)
 
-Fügen Sie ein Snippet an der aktuellen oder der nächsten gültigen Position ein. Damit diese Funktion funktioniert, müssen Snippets in Ihrem System definiert sein. Weitere Informationen zum Hinzufügen eines Snippets finden Sie in der **Snippet**-Funktionsbeschreibung im Abschnitt [Linkes Bedienfeld](web-editor-features.md#left-panel).
+Fügen Sie ein Snippet an der aktuellen oder der nächsten gültigen Position ein. Damit diese Funktion funktioniert, müssen Snippets in Ihrem System definiert sein. Weitere Informationen zum Hinzufügen eines Snippets finden Sie in der **Snippet**-Funktionsbeschreibung im Abschnitt [Linkes Bedienfeld](./web-editor-left-panel.md).
 
 Wenn Sie die Option Snippets auswählen, wird der Katalog Snippet einfügen angezeigt. Der Katalog ist kontextsensitiv, was bedeutet, dass die Snippets nur angezeigt werden, wenn sie am aktuellen Speicherort zulässig sind.
 
@@ -551,13 +552,13 @@ Das folgende Beispiel zeigt zwei vorkonfigurierte Snippets - „Warnung“ und �
 
 ![](images/insert-snippet.png){width="300" align="left"}
 
-Wenn Sie einen Ausschnitt aus der Liste auswählen, wird er an der aktuellen oder nächsten gültigen Position im Dokument eingefügt. Der folgende Screenshot zeigt das in das Dokument eingefügte Fehler-Snippet:
+Wenn Sie ein Snippet aus dem Liste auswählen, wird es an der aktuellen oder der nächsten gültigen Position im Dokument eingefügt. Das folgende Screenshot zeigt den Fehler Ausschnitt, der in die Dokument eingefügt wurde:
 
 ![](images/error-snippet.png){width="400" align="left"}
 
 **Zitate** - ![](images/Citations_icon.svg)
 
-Erstellen Sie Zitate und fügen Sie sie zu Ihrem Inhalt hinzu. Erfahren Sie, wie Sie [Zitate in Ihren Inhalten hinzufügen und verwalten](./web-editor-apply-citations.md).
+Erstellen Zitate und füge sie zu deinem Inhalte hinzu. Erfahren Sie, wie Sie [Zitate in Ihren Inhalten hinzufügen und verwalten](./web-editor-apply-citations.md).
 
 **Abfragedaten** - ![](images/data-sources-new-icon.svg)
 
@@ -565,18 +566,18 @@ Stellen Sie eine Verbindung mit Ihrer Datenquelle her und verwenden Sie die Date
 
 ## Versionsinformationen und Als neue Version speichern
 
-Die Funktion **Versionsinformationen und Als neue Version speichern** kombiniert Versionsverfolgung und Inhaltsspeicherung in einer einzigen Funktion.
+Die **Funktion Version Information &amp; Speichern als neue Version** fasst Version Tracking und Inhalte Speichern in einer einzigen Funktionen zusammen.
 
 - Versionsinformationen zeigen die aktuelle Version des Themas oder der Zuordnung an. Ein Sternchen (*) wird neben der Versionsnummer angezeigt, um nicht gespeicherte Änderungen anzuzeigen.
 
   Die Versionsnummer ändert sich mit jeder neuen Version, die für das Thema oder die Zuordnungsdatei erstellt wird. Wenn Sie an einem neu erstellten Dokument arbeiten, werden die Versionsinformationen als &quot;**&quot;**.
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **Als neue Version speichern** ist eine Schaltfläche, mit der Sie die im Thema vorgenommenen Änderungen speichern und außerdem eine neue Version des Themas erstellen können.
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 Wenn Sie ein Thema oder eine Zuordnung mit „Als **Version speichern“**, wird das folgende Dialogfeld angezeigt:
@@ -597,7 +598,7 @@ Wenn Ihr Thema überprüft wird, erhalten Ihre Reviewer eine Benachrichtigung, d
 
 Wenn Sie den Mauszeiger über den Titel eines Themas bewegen, werden der Dateititel, der Dateipfad und die Versionsnummer angezeigt.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -607,7 +608,7 @@ Wenn Sie den Mauszeiger über den Titel eines Themas bewegen, werden der Dateiti
 
 Sperrt oder entsperrt die aktuelle Datei. Durch das Sperren einer Datei erhalten Sie exklusiven Schreibzugriff auf die Datei. Dadurch wird das Bearbeiten der Datei durch andere Benutzer eingeschränkt. Entsperren Sie die Datei , wenn andere Benutzer Bearbeitungszugriff haben sollen. Wenn die Datei entsperrt wird, werden die Änderungen in der aktuellen Version der Datei gespeichert.
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 Wenn Sie sich in der Kartenansicht befinden und die übergeordnete Karte erweitern, können Sie mit einem Klick alle Dateien in der Karte sperren. Erweitern Sie einfach die übergeordnete Zuordnungsdatei und wählen Sie die übergeordnete Datei aus. Dadurch werden alle Dateien in der Zuordnung ausgewählt. Dann können Sie auf **Sperren** ![](images/LockClosed_icon.svg) klicken, um alle Dateien innerhalb der Zuordnung zu sperren.
 

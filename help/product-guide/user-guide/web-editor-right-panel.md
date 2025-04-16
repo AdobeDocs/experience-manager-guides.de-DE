@@ -3,7 +3,8 @@ title: Rechtes Bedienfeld im Editor
 description: Lernen Sie das rechte Bedienfeld im Editor kennen. Erfahren Sie mehr über die Benutzeroberfläche und die Funktionen des Editors in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e7d600da4373cb046e6adad3c5afe3164c9d0fa
+exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -130,7 +131,7 @@ Mit der Funktion „Nachverfolgte Änderungen“ im rechten Bereich können Sie 
 
 >[!NOTE]
 >
-> Die Funktion „Nachverfolgte Änderungen“ zeigt alle Aktualisierungen an, die mit der Funktion „Änderungen nachverfolgen“ in der [-Leiste aktiviert/deaktiviert ](#tab-bar).
+> Die Funktion „Nachverfolgte Änderungen“ zeigt alle Aktualisierungen an, die mit der Funktion „Änderungen nachverfolgen“ in der [-Leiste aktiviert/deaktiviert ](./web-editor-tab-bar.md).
 
 ## Ingenieur
 
