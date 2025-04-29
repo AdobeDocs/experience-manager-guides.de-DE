@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Workfront mit Adobe Experience Manager Guides
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
+source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,8 @@ Führen Sie die folgenden Schritte aus, um eine neue Adobe Workfront-Aufgabe zu 
 3. Assets Wählen Sie auf der Registerkarte **0} die Option** Hinzufügen **aus, um dieser Aufgabe ein Asset hinzuzufügen.**
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
+
+   Das **Pfad auswählen** wird angezeigt. Wählen Sie einen Pfad zum gewünschten Asset aus. Sie können mehrere Assets hinzufügen, indem Sie die gültigen Pfade im Pfad-Browser auswählen. Die ausgewählten Pfade werden beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
 
    * Bei Aufgaben des Erstellens, Veröffentlichens und Übersetzens werden Sie aufgefordert, den Speicherort der erforderlichen Datei im Dialogfeld **Pfad auswählen** auszuwählen. Die ausgewählte Datei (ein Thema für die Bearbeitung und Zuordnung zur Veröffentlichung und Übersetzung) wird der Aufgabe hinzugefügt, sobald die Schaltfläche **Erstellen** ausgewählt wird.
 

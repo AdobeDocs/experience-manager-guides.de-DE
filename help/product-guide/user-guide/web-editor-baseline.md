@@ -4,9 +4,9 @@ description: Erstellen und verwalten Sie Baselines über die Zuordnungskonsole i
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Sie können eine Baseline duplizieren und entsprechend Ihren Anforderungen ände
   > Der Prozess zum Hinzufügen oder Entfernen von Kennzeichnungen erfolgt asynchron, sodass Sie weiterhin an anderen Dateien arbeiten können. Nachdem die Kennzeichnung hinzugefügt oder entfernt wurde, wird eine Popup-Meldung angezeigt, die bestätigt, dass die Kennzeichnung hinzugefügt oder entfernt wurde, und Sie erhalten auch eine Benachrichtigung im Posteingang für dieselbe Kennzeichnung.
 
 - **Eigenschaften bearbeiten** einer vorhandenen statischen Baseline, die Sie beim Erstellen der Baseline festgelegt haben.
-- Exportieren Sie den Snapshot einer Baseline in eine Microsoft Excel-Datei mit der Option **Baseline exportieren**.
+- **Baseline exportieren** exportiert einen Schnappschuss der Baseline in die Excel-Datei von Microsoft, einschließlich aller wichtigen Details wie Titel, Dateiname, Dateityp, Versionsnummer, Dokumentstatus und anderer relevanter Informationen.
 
 
 ### Beschriftungsliste {#labels-list}

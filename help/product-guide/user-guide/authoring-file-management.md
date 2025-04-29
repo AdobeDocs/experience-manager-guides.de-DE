@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Dateien und Ordner in AEM Guides verwalten. K
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">    , um das Dialogfeld Datei durchsuchen zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen.
+      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">    , um das Dialogfeld **Pfad auswählen** zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen. Sie können mehrere Ordner auswählen, die sich an verschiedenen Stellen im Pfad-Browser befinden. Der Pfad der ausgewählten Ordner wird beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
 
       - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 
@@ -195,7 +195,7 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">    , um das Dialogfeld Datei durchsuchen zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen.
+      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">    , um das Dialogfeld **Pfad auswählen** zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen. Sie können mehrere Ordner auswählen, die sich an verschiedenen Stellen im Pfad-Browser befinden. Der Pfad der ausgewählten Ordner wird beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
 
       - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 

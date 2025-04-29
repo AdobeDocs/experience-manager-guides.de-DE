@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in AEM Guides Ausgaben von Book- oder FM-Date
 exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Führen Sie die folgenden Schritte aus, um eine Ausgabe für FrameMaker-Dokumente zu generieren:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu und klicken Sie auf die `.book` oder `.fm` Datei, die Sie veröffentlichen möchten.
+1. Navigieren Sie in der Assets-Benutzeroberfläche zu und wählen Sie die `.book` oder `.fm` aus, die Sie veröffentlichen möchten.
 
    Die DITA-Zuordnungskonsole wird mit der Liste der für die Generierung der Ausgabe verfügbaren Ausgabevorgaben angezeigt.
 
@@ -23,11 +23,11 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabe für FrameMaker-Dokument
 
 1. Wählen Sie eine oder mehrere Ausgabevorgaben aus, die Sie zum Generieren der Ausgabe verwenden möchten.
 
-1. Klicken Sie auf das Symbol Erzeugen , um den Ausgabegenerierungsprozess zu starten.
+1. Wählen Sie das Symbol Erzeugen aus, um den Ausgabegenerierungsprozess zu starten.
 
 
 >[!NOTE]
 >
-> Sie können den aktuellen Status der Ausgabegenerierungsanfrage anzeigen, indem Sie auf „Ausgaben“ klicken. Weitere Informationen finden Sie unter [Anzeigen des Status der Aufgabe zur Ausgabenerstellung](fm-output-view-status.md).
+> Sie können den aktuellen Status der Ausgabegenerierungsanfrage anzeigen, indem Sie „Ausgaben“ auswählen. Weitere Informationen finden Sie unter [Anzeigen des Status der Aufgabe zur Ausgabenerstellung](fm-output-view-status.md).
 
 **Übergeordnetes Thema:**[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)

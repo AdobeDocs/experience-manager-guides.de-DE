@@ -4,9 +4,9 @@ description: Erkunden Sie andere Funktionen des Editors in Adobe Experience Mana
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Es gibt einige weitere nützliche Funktionen im Editor, die Sie nutzen können:
 
-**Kontextmenüfunktionen auf der Registerkarte einer Datei**
+## Kontextmenüfunktionen auf der Registerkarte einer Datei
 
 Wenn Sie eine Datei im Editor öffnen, können Sie verschiedene Aktionen über das Kontextmenü ausführen. Je nachdem, ob Sie eine Mediendatei, eine einzelne DITA-Datei oder mehrere Dateien öffnen, werden Ihnen möglicherweise unterschiedliche Optionen angezeigt.
 
@@ -142,19 +142,21 @@ Der Editor bietet ein Dialogfeld zum Durchsuchen von smarten Dateien. Der Editor
 >
 > Im Falle einer Bild-, Audio- oder Videodatei wird im Dialogfeld zum Durchsuchen der Datei standardmäßig der Speicherort der Datei und nicht der zuletzt verwendete Speicherort angezeigt.
 
-**Unterstützung für die artikelbasierte Veröffentlichung**
+## Unterstützung für die artikelbasierte Veröffentlichung
 
 Im Editor können Sie die Ausgabe für ein oder mehrere Themen oder die gesamte DITA-Zuordnung generieren. Sie müssen Ausgabevorgaben für Ihre DITA-Zuordnung erstellen und dann können Sie die Ausgabe einfach für ein oder mehrere Themen generieren. Wenn Sie einige Themen in Ihrer Zuordnung aktualisiert haben, können Sie im Editor auch die Ausgabe nur für diese Themen generieren. Weitere Informationen finden Sie unter [Artikelbasierte Veröffentlichung](web-editor-article-publishing.md#id218CK0U019I).
 
-**Unterstützung für Markdown-Dokumente**
+## Unterstützung für Markdown-Dokumente
 
 Mit dem Editor können Sie Markdown-Dokumente \(.md\) zusammen mit Ihren DITA-Dokumenten verwenden. Sie können im Editor einfach ein Markdown-Dokument erstellen und in der Vorschau anzeigen und es über den DITA-Karteneditor auch Ihrer Kartendatei hinzufügen. Weitere Informationen finden Sie unter [Autoren-Markdown-Dokumente im Editor](web-editor-markdown-topic.md#).
 
-**Unterstützung für DITA-Glossarbegriffsthema**
+## Unterstützung des DITA-Glossarbegriffthemas
 
 Der Editor unterstützt DITA-Glossarbegriffe, die Sie einfügen können, indem Sie `term` oder `abbreviated-form` Elemente hinzufügen.
 
-**Einfügen von MathML-Gleichungen**
+## Arbeiten mit MathML-Gleichungen
+
+### MathML-Gleichungen einfügen
 
 Experience Manager Guides bietet vorkonfigurierte Unterstützung zum Einfügen von MathML-Gleichungen durch Integration mit dem [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro)-Programm. Um eine MathML-Gleichung einzufügen, klicken Sie auf das Symbol **Element** und geben Sie „mathml“ ein. Wenn Sie ein mathml-Element aus der Liste auswählen, wird **Dialogfeld &quot;MathML einfügen** angezeigt:
 
@@ -164,22 +166,22 @@ Erstellen Sie mithilfe der MathML-Formel Ihre Formel und wählen Sie **Einfügen
 
 Sie können eine Formel jederzeit aktualisieren, indem Sie mit der rechten Maustaste auf eine vorhandene Gleichung klicken und **MathML bearbeiten** aus dem Kontextmenü auswählen.
 
-- **Validierung von Gleichungen im MathML-Editor**
+### Validieren von Gleichungen im MathML-Editor
 
-  Experience Manager Guides validiert MathML-Gleichungen, wenn Sie ein Thema speichern, das sie enthält.
+Experience Manager Guides validiert MathML-Gleichungen, wenn Sie ein Thema speichern, das sie enthält.
 Wenn Sie eine Gleichung mit dem MathML-Editor einfügen, markiert Experience Manager Guides die Gleichung rot, wenn Syntaxprobleme auftreten. Sie können sie vor dem Einfügen korrigieren. Wenn Sie keine Änderungen vornehmen, aber **Einfügen** auswählen, wird eine Warnung angezeigt.
 
-  ![Validieren einer MathML-Gleichung](images/validate-mathml-equation.png){width="400" align="left"}
+![Validieren einer MathML-Gleichung](images/validate-mathml-equation.png){width="400" align="left"}
 
-  Wenn Sie die MathML-Gleichung einfügen, die einen Syntaxfehler enthält, tritt beim Speichern des Themas ein Validierungsfehler auf.
+Wenn Sie die MathML-Gleichung einfügen, die einen Syntaxfehler enthält, tritt beim Speichern des Themas ein Validierungsfehler auf.
 
 
-**Fußnoten einfügen**
+## Einfügen von Fußnoten
 
 Fügen Sie eine Fußnote mithilfe des `fn` in Ihren Inhalt ein. Im Bearbeitungsmodus wird der Fußnotenwert inline mit dem Inhalt angezeigt. Wenn Sie jedoch in den Vorschaumodus wechseln oder Ihr Dokument veröffentlichen, wird die Fußnote am Ende des Themas angezeigt.
 
 
-**Umbenennen oder Ersetzen eines Elements**
+## Umbenennen oder Ersetzen eines Elements
 
 Der Editor zeigt den Breadcrumb des Elements unten links im Thema an. Wenn Sie ein Element durch ein anderes ersetzen möchten, können Sie dies im Kontextmenü des Breadcrumbs tun. Sie können beispielsweise `p` Element durch `note` oder ein anderes gültiges Element im Kontext austauschen.
 
@@ -195,9 +197,9 @@ Zusätzlich zum Kontextmenü des Breadcrumbs kann das Dialogfeld Element umbenen
 
 - Sie können auf das Dialogfeld Element umbenennen zugreifen, indem Sie das Menü Optionen eines Elements im Gliederungsfenster aufrufen.
 
+## Umschließen und Entpacken eines Elements
 
-
-**Element umschließen**
+### Element umschließen
 
 - Wenn Sie ein Element umschließen, können Sie dem ausgewählten Text ein Element-Tag hinzufügen. Sie können den Text in ein beliebiges untergeordnetes Element einschließen, das DITA-Standards entspricht. Wenn Sie beispielsweise Text unter einem `note` Element haben, können Sie den Text in ein `p` Element einschließen.
 
@@ -205,11 +207,11 @@ Zusätzlich zum Kontextmenü des Breadcrumbs kann das Dialogfeld Element umbenen
 
 - Sie können auch den Text oder das Element im Inhalt auswählen und dann die Option **Element umbrechen** aus dem Kontextmenü auswählen.
 
-**Element entpacken**
+### Entpacken eines Elements
 
 Wenn Sie die Verpackung eines Elements aufheben, können Sie das Tag des Elements aus dem markierten Text entfernen und es mit dem übergeordneten Element zusammenführen. Wenn Sie beispielsweise ein `p` in einem `note` haben, können Sie den Wrapper für das `p` Element aufheben, um den Text direkt im `note` Element zusammenzuführen. Die **Element entpacken**-Option ist im Kontextmenü des Breadcrumbs des Themas verfügbar. Um den Wrapper für ein Element aufzuheben, klicken Sie mit der rechten Maustaste auf das Element, um das Kontextmenü zu öffnen, und wählen Sie **Element aufheben**, um das Element zu entfernen und den Text des Elements mit seinem übergeordneten Element zusammenzuführen.
 
-**Umgang mit Leerzeichen für DITA-Elemente**
+## Umgang mit Leerzeichen für DITA-Elemente
 
 In XML umfassen Leerzeichen Leerzeichen Leerzeichen, Tabulatoren, Zeilenumbrüche und Leerzeilen. Experience Manager Guides wandelt mehrere aufeinander folgende Leerzeichen in ein einziges Leerzeichen um. Auf diese Weise können Sie die WYSIWYG-Ansicht des Editors beibehalten.
 
@@ -218,7 +220,7 @@ In XML umfassen Leerzeichen Leerzeichen Leerzeichen, Tabulatoren, Zeilenumbrüch
 > Bei einigen Elementen, bei denen Leerräume gemäß den DITA-Regeln beibehalten werden müssen, werden die mehreren aufeinander folgenden Leerräume beibehalten. Beispielsweise `<pre>` und `<codeblock>` Elemente.
 
 
-**Beibehalten von Zeilenumbrüchen und Einzügen**
+## Beibehalten von Zeilenumbrüchen und Einzügen
 
 DITA-Elemente, die Zeilenumbrüche und Leerzeichen enthalten, werden gemäß ihrer Definition im Author-, Source- oder Preview-Modus unterstützt und gerendert, sowie in der endgültigen veröffentlichten Ausgabe. Der folgende Screenshot zeigt den Inhalt innerhalb des `msgblock`, bei dem die Zeilenumbrüche und Leerzeichen \(Einzug\) beibehalten wurden:
 
@@ -226,7 +228,7 @@ DITA-Elemente, die Zeilenumbrüche und Leerzeichen enthalten, werden gemäß ihr
 
 
 
-**Umgang mit Leerzeichen ohne Unterbrechung im Editor**
+## Umgang mit geschützten Leerzeichen im Editor
 
 - Sie können Leerzeichen ohne Unterbrechung in Ihr Dokument einfügen, indem Sie das Symbol **Symbol** ![](images/symbol-icon.svg) oder die Tastenkombinationen **Alt** + **Leerzeichen** verwenden.  Diese geschützten Leerzeichen werden beim Bearbeiten eines Themas im Editor als Indikator angezeigt. Sie können die Anzeige der geschützten Leerzeichen mit der Option **Anzeige der geschützten Leerzeichen im Autorenmodus anzeigen** auf der Registerkarte **Erscheinungsbild** von [Benutzereinstellungen](./intro-home-page.md#user-preferences) deaktivieren.
 
@@ -234,7 +236,7 @@ DITA-Elemente, die Zeilenumbrüche und Leerzeichen enthalten, werden gemäß ihr
 Wenn Sie jedoch Inhalte mit einem Leerzeichen kopieren und einfügen, das nicht aus der **Autoren**-Ansicht stammt, bleiben diese erhalten.
 
 
-**Element-ID automatisch generieren**
+## Element-ID automatisch generieren
 
 Sie können automatisch IDs für die Elemente in Ihrem DITA-Thema generieren. Diese IDs sind innerhalb eines DITA-Themas eindeutig. Wenn Sie beispielsweise IDs für ein Absatzelement generieren, sind die IDs p\_1, p2, p\_3 usw. Sie können mehrere Elemente auswählen und für jedes ausgewählte Element IDs generieren.
 
@@ -246,5 +248,24 @@ Gehen Sie folgendermaßen vor, um automatisch eine ID für ein oder mehrere Elem
 
    Alternativ können Sie mit der rechten Maustaste in den Breadcrumb klicken und **IDs generieren** auswählen.
 
+
+
+## Umgang mit großen Dateien im Editor
+
+Die wichtigsten Funktionen zur Verbesserung der Handhabung großer Dateien werden wie folgt erwähnt:
+
+- Um die Leistung zu verbessern, werden bestimmte Funktionen wie Rückgängig machen, Wiederholen, der Gliederungsbereich und die Markierung „Verschmutzt“ deaktiviert. Es wird empfohlen, Themen in kleinere Themen zu unterteilen, um ein optimales Erlebnis zu erzielen.
+
+- Eine Warnmeldung wird oben für große Dateien angezeigt, wie im folgenden Ausschnitt dargestellt. Dieser Warnhinweis zeigt die Anzahl der Elemente basierend auf dem Wert an, der im Parameter **largeFileTagCount** der Datei uiconfig.json angegeben ist. Standardmäßig ist **largeFileTagCount** auf 2500 festgelegt.
+
+![](images/add-toast-notification.png){width="600" align="left"}
+
+
+- Darüber hinaus wird die Tag-Anzahl in der unteren Leiste der Benutzeroberfläche angezeigt. Wenn Sie den Mauszeiger über diesen Tag-Zählwert bewegen, wird eine QuickInfo angezeigt. Die Auswahl der Registerkarte **Weitere Informationen** enthält Details zum Umgang mit großen Dateien.
+
+![](images/add-toast-tag-count.png){width="600" align="left"}
+
+
+- Die Warnmeldung ist nur für DITA-Dateien verfügbar und in allen Ansichten sichtbar: Author, Source und Layout.
 
 **Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

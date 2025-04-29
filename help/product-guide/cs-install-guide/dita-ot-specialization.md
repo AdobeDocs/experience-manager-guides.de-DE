@@ -5,9 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 3119ef32a753afac9405af31a241ae508f922ea7
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Wenn Sie Ant-Parameter beim Veröffentlichen einer Ausgabe verarbeiten möchten,
 
 >[!NOTE]
 >
-> AEM Guides wird mit DITA-OT Version 3.3.2 ausgeliefert. AEM Guides unterstützt jedoch DITA-OT Version 1.7 und höher. Eine vollständige Liste der DITA-OT-Versionen finden Sie unter [DITA-OT-Versionen](http://www.dita-ot.org/download).
+> AEM Guides ist im Lieferumfang von DITA-OT Version 3.3.2 enthalten, unterstützt jedoch eine Reihe von Versionen von DITA-OT 1.7 bis DITA-OT 4.x. Eine umfassende Liste der DITA-OT-Versionen finden Sie unter [DITA-OT-Versionen](http://www.dita-ot.org/download).
 
 >[!TIP]
 >
@@ -71,8 +71,8 @@ Führen Sie die folgenden Schritte aus, um das benutzerdefinierte DITA-OT-Plug-i
    | Zugewiesener Pfad | \(*Optional*\) Geben Sie den Pfad in Ihrem Content-Repository an, für den dieses Profil gilt. Sie können mehrere Speicherorte angeben. |
    | **DITA-OT-Eigenschaften** |
    | DITA-OT-Timeout | \(*Optional*\) Geben Sie die Zeit \(in Sekunden\) an, für die die AEM Guides auf eine Antwort des DITA-OT-Plug-ins wartet. Wenn in der angegebenen Zeit keine Antwort eingeht, beendet AEM Guides die Veröffentlichungsaufgabe und die Aufgabe wird als fehlgeschlagen markiert. Außerdem werden die Fehlerprotokolle in der Protokolldatei für die Ausgabegenerierung zur Verfügung gestellt. <br> Standardwert: 300 Sekunden \(5 Minuten\) |
-   | DITA-OT-PDF-Argumente | Geben Sie die Befehlszeilenargumente an, die vom benutzerdefinierten DITA-OT-Plug-in zum Generieren der PDF-Ausgabe verarbeitet werden. Geben Sie für alle benutzerdefinierten DITA-OT-Profile das folgende Befehlszeilenargument an:`-lib plugins/org.dita.pdf2.fop/lib/` |
-   | DITA-OT-AEM-Argumente | \(*Optional*\) Geben Sie die benutzerdefinierten Befehlszeilenargumente an, die vom benutzerdefinierten DITA-OT-Plug-in zum Generieren der AEM-Site-Ausgabe verarbeitet werden. |
+   | DITA-OT PDF-Argumente | Geben Sie die Befehlszeilenargumente an, die vom benutzerdefinierten DITA-OT-Plug-in zum Generieren der PDF-Ausgabe verarbeitet werden. Geben Sie für alle benutzerdefinierten DITA-OT-Profile das folgende Befehlszeilenargument an:`-lib plugins/org.dita.pdf2.fop/lib/` |
+   | DITA-OT AEM-Argumente | \(*Optional*\) Geben Sie die benutzerdefinierten Befehlszeilenargumente an, die vom benutzerdefinierten DITA-OT-Plug-in zum Generieren der AEM Site-Ausgabe verarbeitet werden. |
    | DITA-OT-Bibliothekspfade | \(*Optional*\) Geben Sie die zusätzlichen Bibliothekspfade des DITA-OT-Plug-ins an. |
    | DITA-TO-Build-XML | \(*Optional*\) Geben Sie den Pfad des benutzerdefinierten Ant-Build-Skripts an, das mit dem benutzerdefinierten DITA-OT-Plug-in bereitgestellt wird. Dieser Pfad ist relativ zum DITA-OT-Verzeichnis auf Ihrem Dateisystem. |
    | DITA-OT-Ant-Skriptordner | \(Optional\) Geben Sie den Pfad des Skriptordners „DITA-OT Ant“ an. Dieser Pfad ist relativ zum DITA-OT-Verzeichnis auf Ihrem Dateisystem. |
@@ -109,7 +109,7 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
 
    >[!NOTE]
    >
-   > Bei DITA 1.3 lautet der Standardspeicherort für DTD-`catalog.xml` im AEM-Repository: `/libs/fmdita/dita_resources/DITA-1.3/dtd/catalog.xml`.
+   > Im Fall von DITA 1.3 lautet der Standardspeicherort für DTD-`catalog.xml` im AEM-Repository: `/libs/fmdita/dita_resources/DITA-1.3/dtd/catalog.xml`.
 
 1. Geben Sie die XSD-Details in der `catalog.xml` an, die auch im Spezialisierungsordner enthalten sein müssen.
 
