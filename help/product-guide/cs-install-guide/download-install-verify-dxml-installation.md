@@ -22,7 +22,7 @@ Nachdem Sie AEM Guides installiert haben, müssen Sie überprüfen, ob die Insta
 
 1. Rufen Sie die Liste der OSGi-Bundles in AEM auf.
 
-   Weitere Informationen zum Zugriff auf Bundles finden Sie unter [Bundles](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) in der AEM-Dokumentation.
+   Weitere Informationen zum Zugriff auf Bundles finden Sie unter [Bundles](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=de#bundles) in der AEM-Dokumentation.
 
 1. Suchen Sie in der Liste der Bundles nach „fmdita“ und überprüfen Sie den Status.
 

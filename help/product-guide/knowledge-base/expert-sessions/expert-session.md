@@ -17,7 +17,7 @@ Unsere monatlichen Expertensitzungen sollen unseren Kunden und Partnern dabei he
 
 In diesen Sitzungen besprechen unsere Experten ausführliche Funktionen, Funktionen und Vorteile unseres Produkts und geben praktische Tipps und Best Practices, die Ihnen helfen, das Beste aus unserem Produkt herauszuholen. Unabhängig davon, ob Sie ein neuer Anwender oder ein erfahrener Profi sind, erhalten Sie in diesen Sitzungen die Informationen, die Sie benötigen, um Ihre Nutzung von AEM Guides zu maximieren.
 
-Wir verstehen, dass Ihre Zeit wertvoll ist und deshalb haben wir diese Expertensitzungen für Sie einfach und zugänglich gemacht. Sie können sich für die bevorstehende Sitzung registrieren, indem Sie unser [Community-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) besuchen oder über die E-Mail schreiben, die Ihnen gesendet wurde.
+Wir verstehen, dass Ihre Zeit wertvoll ist und deshalb haben wir diese Expertensitzungen für Sie einfach und zugänglich gemacht. Sie können sich für die bevorstehende Sitzung registrieren, indem Sie unser [Community-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=de) besuchen oder über die E-Mail schreiben, die Ihnen gesendet wurde.
 
 Wenn Sie eine der vorherigen Sitzungen verpasst haben, können Sie auf die Aufzeichnungen in diesem Abschnitt zugreifen.
 

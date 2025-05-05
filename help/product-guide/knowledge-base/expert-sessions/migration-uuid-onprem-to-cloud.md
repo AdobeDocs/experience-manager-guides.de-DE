@@ -50,14 +50,14 @@ Und Schritte zum Verschieben von Handbüchern (uuid) in die Cloud:
 
 ### Dokumentation
 
-- [Wechseln zu AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Wechseln zu AEM Cloud](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: UUID-Inhalte von On-Premise/AMS in die Cloud verschieben](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Content Transfer Tool: Häufig gestellte Fragen](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
+- [Content Transfer Tool: Häufig gestellte Fragen](https://experienceleague.adobe.com/de/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
 - [AEM Guides: Migration von Nicht-UUID-Inhalten in die Cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Community-Forum
 
-- Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
 
 
 >[!NOTE]

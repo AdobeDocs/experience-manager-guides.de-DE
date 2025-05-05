@@ -166,7 +166,7 @@ Wenn der obige Befehl ausgeführt wird, können Sie die Ausgabe im Verzeichnis �
 
 ### Bereitstellung
 
-Sobald Sie das DITA-OT-Plug-in entwickelt haben, können Sie es mit dem Befehl _dita —install_ unter dem DITA-OT-Verzeichnis in das DITA-OT-Plug-in integrieren und auf dem AEM-Server bereitstellen [weitere Informationen finden Sie in diesem Artikel](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+Sobald Sie das DITA-OT-Plug-in entwickelt haben, können Sie es mit dem Befehl _dita —install_ unter dem DITA-OT-Verzeichnis in das DITA-OT-Plug-in integrieren und auf dem AEM-Server bereitstellen [weitere Informationen finden Sie in diesem Artikel](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=de)
 
 
 ## Ressourcen

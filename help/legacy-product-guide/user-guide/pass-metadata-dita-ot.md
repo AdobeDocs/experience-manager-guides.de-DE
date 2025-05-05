@@ -34,7 +34,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe von DITA-OT-Pu
 
    Diese Datei kann überlagert werden unter: `/apps/fmdita/config/metadataList`.
 
-   Informationen zum Übergeben einer benutzerdefinierten Eigenschaft, für die Sie bereits die Werte definiert haben, finden Sie unter [Verwenden von AEM-Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   Informationen zum Übergeben einer benutzerdefinierten Eigenschaft, für die Sie bereits die Werte definiert haben, finden Sie unter [Verwenden von AEM-Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=de).
 
 1. Wählen Sie **Dropdown-** „Eigenschaften“ die erforderlichen benutzerdefinierten und Standardeigenschaften aus. Wählen Sie beispielsweise `author`, `dc:title` und `dc:description`. Dies sind die `metadata/properties`, die erstellt werden, sobald wir eine Datei erstellen. Die ausgewählten Eigenschaften werden unter der Dropbox aufgelistet.
 

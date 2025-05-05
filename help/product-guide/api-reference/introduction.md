@@ -231,9 +231,9 @@ Sie können die in Experience Manager Guides verfügbaren Java-basierten APIs ve
 
 ## Zusätzliche Ressourcen
 
-Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guides, die auf der Seite [Lernen und Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) verfügbar sind:
+Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guides, die auf der Seite [Lernen und Support](https://helpx.adobe.com/de/support/xml-documentation-for-experience-manager.html) verfügbar sind:
 
 - Benutzerhandbuch
 - Installations- und Konfigurationshandbuch
 - Schnellstartanleitung
-- [Hilfe-Archivierungsseite](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(Zugriff auf die ältere Versionsdokumentation\)
+- [Hilfe-Archivierungsseite](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) \(Zugriff auf die ältere Versionsdokumentation\)

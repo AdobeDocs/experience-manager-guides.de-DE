@@ -19,9 +19,9 @@ Dieser Artikel hilft Ihnen beim Einrichten und Ausführen von FMPS mit AEM Guide
 
 ## Kompatibilität von FMPS mit AEM Guides
 
-- Kompatibilität mit AEM Guides 4.1: [4.1-Kompatibilitätsmatrix](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- Kompatibilität mit AEM Guides 4.1: [4.1-Kompatibilitätsmatrix](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=de/#compatibility-matrix)
 - Kompatibilität mit AEM Guides 4.0: [4.0-Kompatibilitätsmatrix](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Neueste Version: [Aktuelle Versionsinformationen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+- Neueste Version: [Aktuelle Versionsinformationen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=de)
 
 ## Installation
 
@@ -91,10 +91,10 @@ Sie können Ihre bereits erstellten Baselines mit FMPS2020.0.2 oder einer höher
 
 ## Weitere Ressourcen:
 
-[FMPS: Lernen und Support](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[FMPS: Lernen und Support](https://helpx.adobe.com/de/support/framemaker-publishing-server.html)
 
 [AEM Guides: Lernen und Support](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMaker- und FMPS-Community](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
 
-[AEM Guides-Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[AEM Guides-Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=de)

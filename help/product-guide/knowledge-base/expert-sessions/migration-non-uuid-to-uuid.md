@@ -47,14 +47,14 @@ Schritte zum Wechseln von nicht-uuid zu uuid
 
 ### Dokumentation
 
-- [Migrieren von Inhalten von Nicht-UUID zu UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [Migrieren von Inhalten von Nicht-UUID zu UUID](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: UUID-Inhalte von On-Premise/AMS in die Cloud verschieben](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Wechseln zu AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Wechseln zu AEM Cloud](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: Migration von Nicht-UUID-Inhalten in die Cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Community-Forum
 
-- Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
 
 
 >[!NOTE]

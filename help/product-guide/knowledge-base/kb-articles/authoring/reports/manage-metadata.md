@@ -46,7 +46,7 @@ Sie können auch vorhandene Tags entfernen, die in ausgewählten Dateien häufig
 
 ### Liste in manage->metadata ist leer oder unvollständig
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Upgrade-Anweisungen (Inhalt indizieren)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Upgrade-Anweisungen (Inhalt indizieren)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=de#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Benutzerdefinierte Metadaten werden nicht in der Liste angezeigt
 
@@ -59,7 +59,7 @@ Sie können auch vorhandene Tags entfernen, die in ausgewählten Dateien häufig
 
 - [Bulk-Tagging mit dem Zuordnungs-Dashboard (Assets-Benutzeroberfläche)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
 - [Ditamap-Berichte im Web-Editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
-- [Tagging in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
+- [Tagging in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=de)
 
 
 **Wenden Sie sich bei weiteren Fragen an Ihren jeweiligen CSM**

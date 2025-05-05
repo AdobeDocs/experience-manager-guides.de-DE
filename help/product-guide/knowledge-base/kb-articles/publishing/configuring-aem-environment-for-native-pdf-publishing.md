@@ -185,4 +185,4 @@ Wenn das Problem auch nach der Korrektur der Java-Umgebungseinstellungen weiterh
 
 
 
-Wenn Sie bei einem der oben genannten Schritte auf Probleme stoßen, stellen Sie Ihre Frage zur Unterstützung im AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation).
+Wenn Sie bei einem der oben genannten Schritte auf Probleme stoßen, stellen Sie Ihre Frage zur Unterstützung im AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=de).

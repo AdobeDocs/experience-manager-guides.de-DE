@@ -44,11 +44,11 @@ In dieser Sitzung haben Sie Folgendes gelernt:
 
 ## Verwandte Ressourcen
 
-- **Konfigurieren des Datenquellen-Connectors** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
+- **Konfigurieren des Datenquellen-Connectors** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=de)
 
-- **Dokumentation** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
+- **Dokumentation** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=de)
 
-- **Arbeiten mit Velocity-Tools für Vorlagen** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)
+- **Arbeiten mit Velocity-Tools für Vorlagen** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=de#use-velocity-tools)
 
 
 

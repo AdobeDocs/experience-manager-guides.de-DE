@@ -18,11 +18,11 @@ Wahrscheinlich hätten Sie ein Repository mit vorhandenen DITA-Inhalten, die Sie
 
 >[!IMPORTANT]
 >
-> Siehe [Hinzufügen digitaler Assets zu Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) für detaillierte Informationen zu den unterstützten Methoden zum Hochladen von Inhalten in AEM.
+> Siehe [Hinzufügen digitaler Assets zu Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=de) für detaillierte Informationen zu den unterstützten Methoden zum Hochladen von Inhalten in AEM.
 
 ## Benutzeroberfläche der Assets-Konsole
 
-Sie können Inhalte auf Ihrem Desktop auswählen und über die AEM-Benutzeroberfläche \(Webbrowser\) in den Zielordner ziehen. Weitere Informationen finden Sie unter [Hochladen von Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) in der AEM-Dokumentation.
+Sie können Inhalte auf Ihrem Desktop auswählen und über die AEM-Benutzeroberfläche \(Webbrowser\) in den Zielordner ziehen. Weitere Informationen finden Sie unter [Hochladen von Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=de#upload-assets) in der AEM-Dokumentation.
 
 ## AEM-Desktop-Programm
 
@@ -30,7 +30,7 @@ Verwenden Sie das AEM-Desktop-Programm, wenn Sie ein Kreativprofi sind und die A
 
 ## Asset-Massenaufnahme
 
-Bei umfangreichen Migrationen und gelegentlichen Massenaufnahmen von Assets können Sie Ihre Inhalte mit dem Asset-Bulk-Ingest hochladen. Mit diesem Tool können Sie Masseninhalte aus unterstützten Datenspeichern wie Azure oder S3 hochladen. Weitere Informationen finden Sie unter [Asset-Massenaufnahme](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
+Bei umfangreichen Migrationen und gelegentlichen Massenaufnahmen von Assets können Sie Ihre Inhalte mit dem Asset-Bulk-Ingest hochladen. Mit diesem Tool können Sie Masseninhalte aus unterstützten Datenspeichern wie Azure oder S3 hochladen. Weitere Informationen finden Sie unter [Asset-Massenaufnahme](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=de#asset-bulk-ingestor).
 
 ## Verwenden von FrameMaker für den Massen-Upload
 

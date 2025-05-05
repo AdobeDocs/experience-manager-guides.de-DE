@@ -40,17 +40,17 @@ In dieser Sitzung haben Sie Folgendes gelernt:
 
 ### Dokumentation
 
-- [Metadatenschemata](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
-- [Metadatenprofile](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
-- [Verwalten von Metadaten in DITA-Assets](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
-- [Extrahieren von DITA-Meta als Metadaten](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
-- [Verwenden von Metadaten in der DITA-OT-Ausgabe](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
+- [Metadatenschemata](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
+- [Metadatenprofile](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
+- [Verwalten von Metadaten in DITA-Assets](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
+- [Extrahieren von DITA-Meta als Metadaten](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
+- [Verwenden von Metadaten in der DITA-OT-Ausgabe](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
 - [Verwenden von Metadaten auf nativem PDF](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
 ### Community-Forum
 
-- Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
 
 
 >[!NOTE]

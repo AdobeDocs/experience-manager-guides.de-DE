@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Dateien herunterladen {#id216MC0H0BE8}
 
-Sie können Assets, einschließlich DITA- und Nicht-DITA-Dateien, herunterladen. Es gibt mehrere Möglichkeiten, Assets herunterzuladen. Einige Methoden sind nativ in Adobe Experience Manager und andere werden von Adobe Experience Manager Guides unterstützt. Informationen zum nativen Herunterladen von Adobe Experience Manager-Assets finden Sie unter [Herunterladen von Assets von Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in der Dokumentation zu Adobe Experience Manager. Im folgenden Abschnitt wird der Mechanismus zum Herunterladen von Dateien über die DITA-Zuordnungskonsole in Experience Manager Guides erläutert.
+Sie können Assets, einschließlich DITA- und Nicht-DITA-Dateien, herunterladen. Es gibt mehrere Möglichkeiten, Assets herunterzuladen. Einige Methoden sind nativ in Adobe Experience Manager und andere werden von Adobe Experience Manager Guides unterstützt. Informationen zum nativen Herunterladen von Adobe Experience Manager-Assets finden Sie unter [Herunterladen von Assets von Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=de) in der Dokumentation zu Adobe Experience Manager. Im folgenden Abschnitt wird der Mechanismus zum Herunterladen von Dateien über die DITA-Zuordnungskonsole in Experience Manager Guides erläutert.
 
 ## Exportieren einer DITA-Zuordnungsdatei
 

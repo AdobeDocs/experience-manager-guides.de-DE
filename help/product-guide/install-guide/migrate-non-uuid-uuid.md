@@ -220,5 +220,5 @@ Weitere Informationen finden Sie unter [Ältere Versionen ](../install-guide/ver
    > Wenn vor der Migration die Eigenschaft **Titel für AEM-Site-Seitennamen verwenden** innerhalb von `com.adobe.fmdita.config.ConfigManager` auf *false* festgelegt wird, muss diese Eigenschaft nach der Migration aktualisiert werden.
 
 
-1. Nach Abschluss der Validierung kann der größte Teil des Speicherplatzes durch Ausführen der Komprimierung zurückgewonnen werden (siehe `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. Nach Abschluss der Validierung kann der größte Teil des Speicherplatzes durch Ausführen der Komprimierung zurückgewonnen werden (siehe `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=de`).
 

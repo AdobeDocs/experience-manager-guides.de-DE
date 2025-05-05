@@ -42,7 +42,7 @@ Sie können das **Content Transfer Tool** als ZIP-Datei vom **Software Distribut
 
 ![Content Transfer Tool herunterladen](./assets/content-transfer-tool-software-portal.png)
 Installieren Sie dann das Paket über **Package Manager** auf Ihrer Adobe Experience Manager-Quellinstanz. Stellen Sie sicher, dass Sie die neueste Version herunterladen.
-Weitere Informationen zur neuesten Version finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
+Weitere Informationen zur neuesten Version finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=de).
 
 >[!NOTE]
 > 

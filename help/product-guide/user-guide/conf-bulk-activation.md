@@ -17,7 +17,7 @@ In einem realen Szenario hätten Ihre Autorinnen und Autoren Zugriff auf die Aut
 
 >[!NOTE]
 >
-> Weitere Informationen zum Einrichten der Autoren- und Veröffentlichungsinstanz in Adobe Experience Manager finden Sie unter [Überblick über die Autoren- und ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites)&quot;.
+> Weitere Informationen zum Einrichten der Autoren- und Veröffentlichungsinstanz in Adobe Experience Manager finden Sie unter [Überblick über die Autoren- und ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=de#prerequisites)&quot;.
 
 Mit der Massenaktivierungsfunktion von Experience Manager Guides können Sie Ihre Inhalte schnell und einfach von der Autoren- zur Veröffentlichungsinstanz aktivieren. Die Funktion für die Massenaktivierung bietet Ihnen folgende Flexibilität:
 

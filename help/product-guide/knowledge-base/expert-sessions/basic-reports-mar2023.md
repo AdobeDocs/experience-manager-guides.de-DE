@@ -51,11 +51,11 @@ In dieser Sitzung haben Sie Folgendes gelernt:
 
 - **[Laden Sie das AEM Guides-](./assets/aem-guides-expert-session-reports-documentation.pdf)** herunter, um die Details der in der Sitzung demonstrierten Berichte zu verstehen.
 
-- **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
+- **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=de)
 
 - **Benutzerhandbuch** - [Inhalt erstellen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
 
 >[!NOTE]
 >

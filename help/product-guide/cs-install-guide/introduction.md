@@ -66,16 +66,16 @@ Die Informationen in diesem Handbuch sind wie folgt aufgebaut:
 
 [Adobe Experience Manager \(AEM\)](https://business.adobe.com/de/products/experience-manager/adobe-experience-manager.html) ist eine umfassende Content-Management-Lösung zum Erstellen von Websites, Mobile Apps und Formularen. AEM unterstützt Sie bei der Verwaltung Ihrer Marketing-Inhalte und -Assets. AEM ist as a Cloud Service verfügbar. AEM as a Cloud Service hilft Ihnen, Ihren Kunden personalisierte, inhaltsgesteuerte Erlebnisse bereitzustellen, indem es die Leistungsfähigkeit des AEM Content Management Systems mit AEM Digital Asset Management kombiniert.Zu den wichtigsten Ressourcen, die Ihnen bei den ersten Schritten und der Bereitstellung für AEM as a Cloud Service helfen können, gehören die folgenden:
 
-- [Experience Manager as a Cloud Service - Überblick](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
-- [Erste Schritte mit der Migrations-Journey zu AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
-- [Starten Sie das Onboarding bei Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [Experience Manager as a Cloud Service - Überblick](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=de)
+- [Erste Schritte mit der Migrations-Journey zu AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=de)
+- [Starten Sie das Onboarding bei Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=dehttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [Implementieren von Programmen für AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=de)
 - [Bereitstellen in AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=de)
 - [Assets as a Cloud Service-Handbuch](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=de)
 
 ## Zusätzliche Ressourcen
 
-Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guides, die auf der Seite [Lernen und Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) verfügbar sind:
+Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guides, die auf der Seite [Lernen und Support](https://helpx.adobe.com/de/support/xml-documentation-for-experience-manager.html) verfügbar sind:
 
 - Benutzerhandbuch
 - API-Referenzhandbuch

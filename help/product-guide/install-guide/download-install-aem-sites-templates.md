@@ -52,7 +52,7 @@ Sobald die Pakete installiert sind, wird eine Site mit dem Namen **AEMG** in der
 
 
 **AEMG** enthält die folgenden Komponenten.
-- Im Ordner **AEMG) ist ein Ordner für die Sprache** vorhanden. Sie können ähnliche Sprachkopien gemäß Ihren Anforderungen erstellen. Eine mehrsprachige Website umfasst beispielsweise Sprachkopien in Englisch (en), Deutsch (de) und Französisch (fr).  Erfahren Sie mehr darüber, wie Sie mit dem [Sprachkopie-Assistenten“ eine Sprachkopie ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
+- Im Ordner **AEMG) ist ein Ordner für die Sprache** vorhanden. Sie können ähnliche Sprachkopien gemäß Ihren Anforderungen erstellen. Eine mehrsprachige Website umfasst beispielsweise Sprachkopien in Englisch (en), Deutsch (de) und Französisch (fr).  Erfahren Sie mehr darüber, wie Sie mit dem [Sprachkopie-Assistenten“ eine Sprachkopie ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
 - Innerhalb des englischen Sprachordners (en) bietet Experience Manager Guides viele vordefinierte Beispielseiten wie **Suche**, **Anmelden**, **Dokumente** und **Support**.
 
 - **Docs** ist die Startseite der Beispieldokumentation. Es dient als zentraler Ort für alle produktbezogenen Dokumentationen
@@ -97,7 +97,7 @@ Führen Sie die folgenden Schritte aus, um die Themenvorlagen zu bearbeiten:
 1. Wählen Sie die Vorlage aus, die Sie bearbeiten möchten.
 1. Wählen Sie **oben** Symbol „Bearbeiten“ aus.
 
-Der AEM-Vorlageneditor wird geöffnet. Sie können Ihre Themenvorlage bearbeiten. Weitere Informationen zum [ von Seitenvorlagen ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
+Der AEM-Vorlageneditor wird geöffnet. Sie können Ihre Themenvorlage bearbeiten. Weitere Informationen zum [ von Seitenvorlagen ](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
 
 
 ## Anpassen bestehender AEM Sites-Vorlagen

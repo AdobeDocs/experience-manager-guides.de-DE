@@ -39,7 +39,7 @@ In dieser Sitzung haben Sie Folgendes gelernt:
 
 - **Dokumentation** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
 
-- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
 
 
 >[!NOTE]

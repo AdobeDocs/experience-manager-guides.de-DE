@@ -74,7 +74,7 @@ Sie können Ihre aktuelle Version von Guides einfach auf Version 4.4.0 aktualisi
 - Wenn Sie Version 4.2, 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) aktualisieren, bevor Sie auf Version 4.4.0 aktualisieren.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das im PDF-Archiv für die Adobe Experience Manager Guides-Hilfe [verfügbar ist](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das im PDF-Archiv für die Adobe Experience Manager Guides-Hilfe [verfügbar ist](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html).
 
 
 

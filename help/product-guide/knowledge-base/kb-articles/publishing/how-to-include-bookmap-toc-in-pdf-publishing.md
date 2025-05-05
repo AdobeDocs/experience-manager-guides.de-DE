@@ -93,13 +93,13 @@ Wenn Sie Ditamap veröffentlichen, dann bietet Native PDF Funktionen zum automat
 
 ## Zusätzliche Ressourcen :
 
-- [Dokumentation zum Layout nativer PDF-Designseiten](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Native PDF Essentials-aufgezeichnete Expertensitzung](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Dokumentation zum Layout nativer PDF-Designseiten](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Native PDF Essentials-aufgezeichnete Expertensitzung](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Posten Sie bei der AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) für alle Fragen.
+Posten Sie bei der AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=de) für alle Fragen.
 
 
 

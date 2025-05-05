@@ -13,7 +13,7 @@ ht-degree: 0%
 
 
 
-Experience Manager Guides bietet die GenAI-basierte Smart-Hilfe, eine Funktion zur konversativen Suche, mit der Sie relevante Inhalte in der [Adobe Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Experience Manager Guides bietet die GenAI-basierte Smart-Hilfe, eine Funktion zur konversativen Suche, mit der Sie relevante Inhalte in der [Adobe Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview).
 Sie können Ihre Fragen stellen und Antworten auf informative Weise erhalten. Die Antwort auf Ihre Abfrage basiert auf dem Inhalt aus der Produktdokumentation. Diese Suche ist völlig dialogorientiert. Sie können Fragen stellen, und dann, basierend auf der Antwort, können Sie auch weitere Fragen stellen. Die Antwort enthält auch Links zu Quelldokumenten, auf die Sie für Details verweisen können.
 
 Sie können beispielsweise ein Thema in Experience Manager Guides für Ihre Dokumentation erstellen. Sie können fragen: *Wie erstelle ich ein Thema?* erhalten Sie eine Antwort und die Links für die entsprechenden Artikel. Wenn Sie dann erfahren möchten, wie Sie die PDF-Ausgabe für das Dokument generieren, können Sie Fragen dazu stellen. Beispiel: *Wie wird ein Thema in PDF veröffentlicht?* oder *Wie wird die PDF-Ausgabe für ein Thema generiert?*

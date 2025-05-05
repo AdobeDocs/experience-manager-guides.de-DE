@@ -34,7 +34,7 @@ Sehen wir uns dazu ein Beispiel an, in dem die Kurzbeschreibung und der Titel al
 
 Verwenden Sie die Ordnerprofile, um *css_layout.css* auf der Registerkarte „XML-Editor-Konfiguration“ zu überprüfen und das CSS mit benutzerdefinierten Stilen hinzuzufügen
 
-[Verwenden Sie diesen Link, um mehr über Ordnerprofile und das Konfigurieren des CSS-Vorlagenlayouts zu erfahren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[Verwenden Sie diesen Link, um mehr über Ordnerprofile und das Konfigurieren des CSS-Vorlagenlayouts zu erfahren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=de#customize-the-css-template-layout)
 
 Verwenden Sie Folgendes, um den oben genannten Stil in Ihrem Web-Editor einzurichten:
 - Verwenden Sie [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) und laden Sie es in den Profilordner Ihrer Wahl hoch
@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Verweise
 
-Vielleicht interessieren Sie sich auch für die Expertensitzung zu WebEditor-Konfigurationen und -Anpassungen, die unter [Expertensitzung auf WebEditor“ behandelt ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)
+Vielleicht interessieren Sie sich auch für die Expertensitzung zu WebEditor-Konfigurationen und -Anpassungen, die unter [Expertensitzung auf WebEditor“ behandelt ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=de)
