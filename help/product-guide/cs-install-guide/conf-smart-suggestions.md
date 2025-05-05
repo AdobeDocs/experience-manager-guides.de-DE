@@ -2,7 +2,7 @@
 title: Konfigurieren des KI-Assistenten für die intelligente Hilfe und das Authoring
 description: Erfahren Sie, wie Sie den KI-Assistenten in Experience Manager Guides konfigurieren
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 7b217cfd52dbf716b626e66373fffcc1b9eff695
+source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
 
 1. [Adobe Developer Console starten](https://developer.adobe.com/console).
 1. Nach erfolgreicher Anmeldung bei Developer Console wird der Bildschirm &quot;**&quot;**. Auf dem **Startseite**-Bildschirm finden Sie mühelos Informationen und Schnelllinks, einschließlich der oberen Navigationslinks zu Projekten und Downloads.
-1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**&#x200B;Links aus.
+1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**Links aus.
    ![Schnellstart-Links](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *Neues Projekt erstellen.*
 
@@ -84,7 +84,7 @@ Führen Sie die folgenden Schritte aus, um die IMS-Konfiguration zur Umgebung hi
 
 ## KI-Markierung in der Umgebung aktivieren
 
-Um die Funktion „KI-Assistent“ in der Experience Manager Guides-Benutzeroberfläche zu aktivieren, fügen Sie die `ENABLES_GUIDES_AI` in der Umgebung hinzu.
+Um die Funktion „KI-Assistent“ in der Experience Manager Guides-Benutzeroberfläche zu aktivieren, fügen Sie die `ENABLE_GUIDES_AI` in der Umgebung hinzu.
 
 Stellen Sie sicher, dass Sie denselben Namen und dieselbe Konfiguration wie im folgenden Screenshot verwenden.
 
