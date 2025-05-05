@@ -51,16 +51,16 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
    **items**:   Legen Sie die Definition aller Gruppen in der Symbolleiste fest. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole innerhalb einer Symbolleistengruppe zu definieren, müssen Sie erneut das `type` Attribut innerhalb der `items` definieren und deren Wert auf `buttonGroup` festlegen. Geben Sie einen oder mehrere Klassennamen in der `extraclass` Eigenschaft an. Geben Sie den Funktionsnamen in der Eigenschaft `label` an. Der folgende Ausschnitt aus der `ui_config.json` zeigt die Definition für den Haupt-Symbolleistenblock, gefolgt von der `buttonGroup` Definition:
 
        &quot;
-       „toolbar“: {
+       „toolbar“: &lbrace;
        „type“: „blockGroup“,
        „extraClass“:
        „Symbolleistenvorgänge“,
-       „items“: [
-       {
+       „items“: &lbrack;
+       &lbrace;
        „type“: „buttonGroup“,
        „extraClass“: „left-Controls“,
        „label“: „Left Controls“,
-       „items“: [
+       „items“: &lbrack;
        &quot;
    
    Innerhalb der `items` müssen Sie die Definition für ein oder mehrere Symbolleistensymbole angeben.
@@ -145,4 +145,4 @@ Führen Sie die folgenden Schritte aus, um unerwünschte Funktionen aus der Symb
 1. Speichern Sie die *ui\_config.json*-Datei und laden Sie den Web-Editor neu.
 
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)

@@ -41,4 +41,4 @@ Weitere Informationen zur Erstellung von nativen PDF-Vorgaben finden Sie unter [
 
 
 
-**Übergeordnetes Thema:**[ Verstehen der Ausgabevorgaben](generate-output-understand-presets.md)
+**Übergeordnetes Thema:**&#x200B;[ Verstehen der Ausgabevorgaben](generate-output-understand-presets.md)

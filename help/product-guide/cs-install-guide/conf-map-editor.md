@@ -33,4 +33,4 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 >
 > Wenn ein Autor eine Zuordnungsdatei erstellt und sie zur Bearbeitung öffnet, wird standardmäßig der grundlegende Zuordnungs-Editor gestartet. Wenn die Option Bearbeiten für eine Zuordnungsdatei über die Assets-Benutzeroberfläche ausgewählt wird, wird sie auch im grundlegenden Zuordnungs-Editor geöffnet.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)

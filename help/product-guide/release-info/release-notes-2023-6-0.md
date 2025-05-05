@@ -154,7 +154,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Native PDF | Xref druckt den Inhalt des href-Thementitels anstelle der Xref-Beschriftung. 11322)
 - Native PDF | Die PDF-Vorlageneinstellungen können nicht gespeichert werden. 10751)
 - Native PDF | Der Text überschreitet die Spaltenbreite, wenn mehrere XRefs eingeschlossen werden. 10876)
-- Native PDF | `<note>``</note>` Element erzeugt keinen zusätzlichen span-Titel seines Typs. 10549)
+- Native PDF | `<note>` `</note>` Element erzeugt keinen zusätzlichen span-Titel seines Typs. 10549)
 - Native PDF | Die Sprachmetadaten können auf der generierten PDF nicht gemäß WCAG 2.0 festgelegt werden. 12296)
 
 

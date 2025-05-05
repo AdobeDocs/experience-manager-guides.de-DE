@@ -255,6 +255,7 @@ Führen Sie die folgenden Schritte aus, um Profilattribute und Querverweise zu k
 1. Nehmen **auf** Registerkarte „Erweiterungen“ die folgenden Änderungen vor:
 
    - Klicken Sie **Auswählen** neben dem Bundle **Erweiterungen** und wählen Sie aus.   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` in der **Class**-Liste. Klicken Sie auf **OK**.
+
      ![Konfigurierte Erweiterung für DITA-Themen](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - Klicken Sie **Auswählen** neben dem **Author Extension State Listener** unter **Individuelle Erweiterungen** und wählen Sie `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` in der **Class**-Liste aus. Klicken Sie auf **OK**.
    - Klicken Sie **Auswählen** neben dem **Editor für benutzerdefinierte Attributwerte erstellen** unter **Individuelle Erweiterungen** und wählen Sie `CustomValueEditor - com.adobe.o2.framework.extn` in der Liste **Klasse** aus. Klicken Sie auf **OK**.

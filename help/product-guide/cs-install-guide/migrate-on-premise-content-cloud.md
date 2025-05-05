@@ -36,7 +36,7 @@ Dieses Tool überträgt auch Prinzipale (Benutzende oder Gruppen) automatisch.
 
 Sie können das **Content Transfer Tool** als ZIP-Datei vom **Software Distribution**-Portal herunterladen:
 
-1. Wählen Sie die **** AEM as a Cloud Service **im Portal** Software Distribution“ aus.
+1. Wählen Sie die **&#x200B;**&#x200B;AEM as a Cloud Service **im Portal** Software Distribution“ aus.
 1. Suchen Sie **Content Transfer Tool**.
 1. Wählen Sie **Content Transfer Tool** aus der Liste aus und laden Sie es herunter.
 
@@ -117,7 +117,7 @@ oder
 
    >[!NOTE]
    >
-   > Die folgenden Pfade müssen für Inhalte des Typs **Experience Manager Guides} zwingend** werden.
+   > Die folgenden Pfade müssen für Inhalte des Typs **Experience Manager Guides&rbrace; zwingend** werden.
 
    * `/content/dam`
    * `/var/dxml`

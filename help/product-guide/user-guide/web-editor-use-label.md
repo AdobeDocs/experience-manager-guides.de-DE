@@ -81,4 +81,4 @@ Um eine Versionsbeschriftung aus einem Thema zu löschen, verwenden Sie die Scha
 ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

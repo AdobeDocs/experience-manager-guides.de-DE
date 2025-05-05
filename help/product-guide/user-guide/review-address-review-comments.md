@@ -73,4 +73,4 @@ Im Web-Editor-Modus enthält das rechte Bedienfeld die Symbole Überprüfen und 
 - **I**: Einen Filter auf die Kommentare anwenden. Sie können nach Kommentaren filtern, und zwar auf der Grundlage von Überprüfungstyp \(alle, hervorgehoben, gelöscht, eingefügt oder Haftnotiz\), Überprüfungsstatus \(alle, akzeptiert, abgelehnt oder keine\), Reviewers \(alle oder bestimmte Reviewer\(s\)\) oder Themenversionen.
 
 
-**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)

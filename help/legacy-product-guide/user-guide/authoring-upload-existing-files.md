@@ -48,4 +48,4 @@ Weitere Informationen zu den verschiedenen Szenarien für den Datei-Upload finde
 
 Wenn Sie ein Tool wie das AEM-Desktop-Programm oder das Asset-Bulk-Ingest verwenden, wird die Aktion, die für eine doppelte Datei ausgeführt werden soll, durch eine Einstellung im AEM-Server gesteuert. Wenden Sie sich an Ihren Systemadministrator, um mehr über diese Konfiguration zu erfahren.
 
-**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)
+**Übergeordnetes Thema:**&#x200B;[ Inhalte verwalten](authoring.md)

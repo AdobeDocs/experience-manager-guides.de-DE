@@ -18,4 +18,4 @@ Das folgende Diagramm veranschaulicht, wie Experience Manager Guides mit AEM und
 ![](images/xml-add-on-how-it-works.png){align="center"}
 
 
-**Übergeordnetes Thema:**[&#x200B;Über Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B;Über Adobe Experience Manager Guides as a Cloud Service](intro.md)

@@ -105,7 +105,7 @@ Die native PDF-Publishing-Engine benötigt Oracle-JDK, um die Knotenmodule im AE
 
 10. Wenn der Befehl unzip nicht installiert/erkannt wird, kann er mit dem folgenden Befehl installiert werden
 
-   **yum install unzip**
+    **yum install unzip**
 
 11. Installieren Sie das fontconfig-Paket.
 Befehl: yum install fontconfig

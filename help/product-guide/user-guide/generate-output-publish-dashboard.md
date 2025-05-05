@@ -89,4 +89,4 @@ Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung �
    ![](images/cancelled-output-task.png){align="left"}
 
 
-**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)

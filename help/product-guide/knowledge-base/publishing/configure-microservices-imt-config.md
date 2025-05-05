@@ -40,7 +40,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in **Adobe Develo
 
    <img src="assets/projects-tab.png" alt="Registerkarte Projekte" width="500">
 
-   *Wählen Sie die Registerkarte **Projekte**in der **Adobe Developer Console aus***
+   *Wählen Sie die Registerkarte **Projekte**&#x200B;in der **Adobe Developer Console aus***
 
 1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Leeres Projekt** aus der Dropdown-Liste **Neues Projekt erstellen** aus.
 

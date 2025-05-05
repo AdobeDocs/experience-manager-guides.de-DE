@@ -74,12 +74,12 @@ ht-degree: 4%
             - [Erstellen von Inhalten mit Desktop-Tools](./user-guide/author-desktop-tools.md)
             - [Arbeiten mit FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Arbeiten mit Sauerstoff](./user-guide/author-desktop-oxygen.md)
-   - {#review-topic-maps} überprüfen
+   - überprüfen{#review-topic-maps}
       - [Themen oder Karten überprüfen](./user-guide/review.md)
       - [Erstellen eines DITA-Projekts](./user-guide/authoring-create-dita-project.md)
       - [Senden von Themen zur Überprüfung](./user-guide/review-send-topics-for-review.md)
       - [Prüfungsaufgabe mithilfe einer Benachrichtigung neu zuweisen](./user-guide/reassign-review-using-notification.md)
-      - {#review-topics} der Themenüberprüfung
+      - der Themenüberprüfung{#review-topics}
          - [Themen überprüfen](./user-guide/review-topics.md)
          - [Kommentare zur Adressenüberprüfung](./user-guide/review-address-review-comments.md)
       - [Verwalten von Prüfungsaufgaben mithilfe des Überprüfungs-Dashboards](./user-guide/review-manage-tasks-review-dashboard.md)
@@ -89,12 +89,12 @@ ht-degree: 4%
       - [Arbeiten mit Metadaten in AEM](./user-guide/metadata-dita.md)
       - [Smart-Tagging](./user-guide/web-editor-smart-tagging.md)
       - [Massen-Tagging von DITA-Inhalten](./user-guide/map-editor-bulk-tagging.md)
-   - {#translate-content} der Inhaltsübersetzung
+   - der Inhaltsübersetzung{#translate-content}
       - [Inhalte übersetzen](./user-guide/translation.md)
       - [Best Practices für die Übersetzung von Inhalten](./user-guide/translation-first-time.md)
       - [Übersetzungsstatus anzeigen](./user-guide/translation-view-trans-state-6234.md)
       - [Geänderte Themen übersetzen](./user-guide/translation-modified-topics-6234.md)
-   - {#output-gen} der Ausgabenerstellung
+   - der Ausgabenerstellung{#output-gen}
       - [Grundlagen der Ausgabenerstellung](./user-guide/generate-output.md)
       - [Einführung in Ausgabevorgaben](./user-guide/generate-output-understand-presets.md)
       - Ausgabevorgaben in AEM Guides {#output-presets-aemg}

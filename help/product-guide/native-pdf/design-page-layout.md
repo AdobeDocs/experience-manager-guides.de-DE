@@ -165,6 +165,7 @@ Führen Sie die folgenden Schritte aus, um die oben genannten Aufgaben durchzuf�
 1. Ändern Sie die Eigenschaft „Ansicht-Drehung“, um den Inhalt im 90.
 
    1. Wählen Sie **im Uhrzeigersinn 90°** aus der Dropdown-Liste Drehung anzeigen .
+
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Klicken Sie auf **Alle speichern**, um die aktualisierten Seitenlayouteigenschaften zu speichern.
@@ -179,9 +180,11 @@ Führen Sie die folgenden Schritte aus, um die oben genannten Aufgaben durchzuf�
       Die Layout-Formatvorlage wird zur Bearbeitung geöffnet.
 
    1. Klicken Sie mit der rechten Maustaste auf **Andere Stile** und wählen Sie **Neuer Stil**.
+
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. Geben Sie im Popup „Stil hinzufügen **im** &quot;**&quot;**.
+
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Klicken Sie auf **Fertig**.
@@ -437,6 +440,7 @@ Im folgenden Beispiel fügen wir eine Seitennummer und einen Kapiteltitel in den
    1. Klicken Sie im rechten Bedienfeld auf **Inhaltseigenschaften** (<img src="./assets/content-properties-icon.png" width="25">)-Symbol.
 
    1. Erweitern Sie den Abschnitt **Layout**-Eigenschaften und legen Sie den **Float**-Eigenschaftswert auf **right** fest.
+
       <img src="./assets/float-prop-html-content.png" width="400">
 
       Das Feld Kapiteltitel ist auf der rechten Seite der Fußzeile ausgerichtet.

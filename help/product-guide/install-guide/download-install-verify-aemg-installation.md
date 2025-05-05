@@ -35,4 +35,4 @@ Nachdem Sie AEM Guides installiert haben, müssen Sie überprüfen, ob die Insta
 >
 > Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden Sie unter [Recommendations ](download-install-recommend-perf-optimiz.md#) Leistungsoptimierung.
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**&#x200B;[ Herunterladen und installieren](download-install.md)

@@ -125,6 +125,7 @@ Zum Beispiel:
       - Wenn Sie die Vorlage Jira-ordered-list ausgewählt haben, können Sie eine geordnete Liste für die Jira-Probleme anzeigen.
 
    1. Die Quellansicht zeigt die Daten in der DITA-Quellansicht an.
+
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *Fügen Sie einen Inhaltsfragment-Generator hinzu. Zeigen Sie die Daten im Quell- oder Vorschaumodus an.*
 

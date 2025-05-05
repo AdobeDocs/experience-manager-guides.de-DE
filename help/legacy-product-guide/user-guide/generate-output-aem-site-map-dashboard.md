@@ -115,4 +115,4 @@ Sie können in der AEM Sites-Ausgabe nach einer Zeichenfolge suchen. Standardmä
 
 Weitere Informationen finden Sie *Abschnitt „Reduzieren der Knotenstruktur der AEM-Site konfigurieren* im Handbuch zum Installieren und Konfigurieren von Adobe Experience Manager Guides .
 
-**Übergeordnetes Thema:**[ Verstehen der Ausgabevorgaben](generate-output-understand-presets.md)
+**Übergeordnetes Thema:**&#x200B;[ Verstehen der Ausgabevorgaben](generate-output-understand-presets.md)

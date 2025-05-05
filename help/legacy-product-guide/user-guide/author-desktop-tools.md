@@ -20,4 +20,4 @@ AEM Guides unterstützt auch das Authoring mit Desktop-Tools wie Adobe FrameMake
 - **[Arbeiten mit Sauerstoff](author-desktop-oxygen.md)**
 
 
-**Übergeordnetes Thema:**[ Inhalt erstellen](authoring-content.md)
+**Übergeordnetes Thema:**&#x200B;[ Inhalt erstellen](authoring-content.md)

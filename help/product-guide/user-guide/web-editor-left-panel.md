@@ -54,7 +54,7 @@ Die Funktionen des linken Bedienfelds werden im Detail wie folgt erläutert:
 
 ## Sammlungen
 
-Wenn Sie an einer Reihe von Dateien oder Ordnern arbeiten, können Sie diese zu Ihrem bevorzugten Liste hinzufügen, um schnell darauf zugreifen zu können. **** Kollektionen die Liste von Dokumente, die Sie hinzugefügt haben, sowie andere öffentlich zugängliche Liste von Dokumente der anderen Benutzer anzeigen.
+Wenn Sie an einer Reihe von Dateien oder Ordnern arbeiten, können Sie diese zu Ihrem bevorzugten Liste hinzufügen, um schnell darauf zugreifen zu können. **&#x200B;**&#x200B;Kollektionen die Liste von Dokumente, die Sie hinzugefügt haben, sowie andere öffentlich zugängliche Liste von Dokumente der anderen Benutzer anzeigen.
 
 Standardmäßig können Sie die Dateien nach Titeln Ansicht. Wenn Sie den Mauszeiger über eine Datei bewegen, können Sie den Dateititel und die Pfad Datei als QuickInfo Ansicht.
 
@@ -153,7 +153,7 @@ Wählen Sie das **Symbol Filtern Search** \(![Search Filtersymbol](images/filter
 Sie haben die folgenden Optionen, um die Dateien zu filtern und Ihre suchen im Adobe Experience Manager Repository einzugrenzen:
 
 - **DITA-Dateien**: Sie können nach allen **DITA-Themen** und **DITA-Maps** suchen, die in der ausgewählten Pfad vorhanden sind. Diese sind standardmäßig ausgewählt.
-- **Nicht-DITA-Dateien**: Sie können in den ausgewählten Pfad für **Ditaval Dateien**, **Bild Dateien**, **Multimedia,** Dokumente **** und **JSON** suchen.
+- **Nicht-DITA-Dateien**: Sie können in den ausgewählten Pfad für **Ditaval Dateien**, **Bild Dateien**, **Multimedia,** Dokumente **&#x200B;**&#x200B;und **JSON** suchen.
 
   ![Filter für die schnelle Suche](images/repository-filter-search-quick.png) {width="300" align="left"}
 
@@ -210,7 +210,7 @@ Sie können die folgenden Aktionen mithilfe des Menüs Optionen ausführen, das 
     <summary> Schritte zum Erstellen eines neuen Themas </summary>
 
 Schritte zum Erstellen eines neuen Themas:
-1. Wählen Sie Neu **>****Thema aus**.
+1. Wählen Sie Neu **>**&#x200B;**Thema aus**.
 2. Das **Dialogfeld für Neu Thema** wird angezeigt.
 
    ![](images/create-topic-dialog.png){width="300" align="left"}
@@ -680,7 +680,7 @@ Sie können die folgenden Einstellungen des Hotspot-Tool konfigurieren:
    - **Nur die erste Instanz** konvertieren: Wenn mehrere Instanzen des gesuchten Begriffs in einem Thema vorhanden sind, wird nur die erste Instanz konvertiert.
    - **Datei vor Konversion** sperren: Die gesuchte Datei wird gesperrt, bevor die Begriffe konvertiert werden.
    - **Erstellen einer neuen Version nach Konversion**: Eine neue Version des Themas wird erstellt, nachdem die Konversion der Begriffe abgeschlossen ist.
-- **** Weiter Button wird angezeigt, wenn Sie für jedes Thema **die Option &quot;Manuell&quot; auswählen**. Wählen Sie **Weiter** aus, um die Begriffe für jedes Thema anhand der ausgewählten Einstellungen zu konvertieren. Es fordert Sie zur Konversion von Begriffen in jedem Thema auf und wechselt zur nächsten Datei. Sie können wählen, ob Sie ein Semester konvertieren oder es überspringen und zum nächsten Begriff wechseln möchten.
+- **&#x200B;**&#x200B;Weiter Button wird angezeigt, wenn Sie für jedes Thema **die Option &quot;Manuell&quot; auswählen**. Wählen Sie **Weiter** aus, um die Begriffe für jedes Thema anhand der ausgewählten Einstellungen zu konvertieren. Es fordert Sie zur Konversion von Begriffen in jedem Thema auf und wechselt zur nächsten Datei. Sie können wählen, ob Sie ein Semester konvertieren oder es überspringen und zum nächsten Begriff wechseln möchten.
 
   ![](images/manual-convert-skip.png){width="300" align="left"}
 
@@ -906,7 +906,7 @@ Verwenden Sie beispielsweise die folgende Auflistung, um das `@platform` Attribu
 </details>
 
 
-**** Dropdown-Liste Attribute
+**&#x200B;**&#x200B;Dropdown-Liste Attribute
 
 Sie können den Wert des Betreffschemas auch mithilfe des **Dropdown-Menüs Attribute** im **Bereich &quot;Inhaltseigenschaften** &quot; im **Autor** Ansicht ändern.
 
@@ -1122,4 +1122,4 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 
 </details>
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

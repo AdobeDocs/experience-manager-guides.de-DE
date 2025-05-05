@@ -65,6 +65,7 @@ Führen Sie die folgenden Schritte aus, um das benutzerdefinierte DITA-OT-Plug-i
    - Führen Sie den Integrator \(zum Installieren des benutzerdefinierten Plug-ins\) auf einem Mac/Linux-Betriebssystem aus, um Probleme mit Dateiseparatoren zu vermeiden. Da Windows- und Linux-Betriebssysteme unterschiedliche Dateiseparatoren haben, ist das in Mac/Linux-Betriebssystemen integrierte Plug-in mit Windows- und Linux-Setup kompatibel.
    - Stellen Sie sicher, dass die `DITA-OT.ZIP`-Datei einen Ordner mit dem Namen „DITA-OT“ enthält, der alle relevanten Plug-ins und Dateien enthält.
    - Überprüfen Sie, ob `DITA-OT.ZIP` erstellte Datei vom Typ „mimeType: „nt:file“ \(entspricht dem primären Typ der ZIP-Datei beim Hochladen in AEM\) ist. Verwenden Sie ein WebDAV-Tool oder eine Code-Bereitstellung, um diese ZIP-Datei in den gewünschten Pfad in AEM hochzuladen. \(Verwenden Sie den Package Manager von AEM nicht, um diese ZIP-Datei bereitzustellen, da diese ZIP-Datei kein AEM-Inhaltspaket, sondern nur eine Archivdatei ist.\)
+
    >[!NOTE]
    >
    > Es wird empfohlen, das standardmäßige DITA-OT-Paket nicht zu überschreiben. Sie sollten Ihr benutzerdefiniertes DITA-OT-Paket, das Ihr Plug-in enthält, an einen anderen Speicherort unter dem `apps` hochladen.

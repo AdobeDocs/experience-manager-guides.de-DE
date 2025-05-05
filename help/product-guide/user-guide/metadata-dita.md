@@ -17,4 +17,4 @@ Adobe Experience Manager Assets bietet die Funktion zum Erstellen von Assets und
 
 Weitere Informationen zur Metadatenverwaltung in Adobe Experience Manager finden Sie unter [Verwalten von Metadaten für digitale Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=de).
 
-**Übergeordnetes Thema:**[ Verwalten von Metadaten](manage-metadata.md)
+**Übergeordnetes Thema:**&#x200B;[ Verwalten von Metadaten](manage-metadata.md)

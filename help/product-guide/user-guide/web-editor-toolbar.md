@@ -32,7 +32,7 @@ Diese Funktionen werden im Detail erläutert:
 
 **Bearbeiten von Aktionen**
 
-Wenn Sie ein Thema im Editor bearbeiten, greifen Sie auf die verschiedenen Bearbeitungsaktionen zu, z **. B. Ausschneiden** oder ***Strg***+***X*** , **Kopie** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+***Z ,**Wiederholen**oder*** Strg ***+*** Y ****** und **Löschen** im Dropdown-Menü vorhanden.
+Wenn Sie ein Thema im Editor bearbeiten, greifen Sie auf die verschiedenen Bearbeitungsaktionen zu, z **. B. Ausschneiden** oder ***Strg***+***X*** , **Kopie** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+***Z ,**&#x200B;Wiederholen&#x200B;**oder*** Strg ***+*** Y **&#x200B;**&#x200B;**&#x200B; und &#x200B;** Löschen** im Dropdown-Menü vorhanden.
 
 
 **Suchen und Ersetzen**
@@ -360,7 +360,7 @@ Nachdem eine Tabelle eingefügt wurde, können Sie die Tabelle mit dem Kontextme
 <details>
     <summary> Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren </summary>
 
-Sie können auch Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren. Um beispielsweise die Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bedienfeld &quot;Content Eigenschaften&quot; (rechts) ändert sich der Eigenschaft-Typ **** in **&quot;Eintrag**&quot;.
+Sie können auch Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren. Um beispielsweise die Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bedienfeld &quot;Content Eigenschaften&quot; (rechts) ändert sich der Eigenschaft-Typ **&#x200B;**&#x200B;in **&quot;Eintrag**&quot;.
 
 1. Wählen Sie im **Abschnitt &quot;Attribute** &quot; die Option **&quot;+hinzufügen**&quot;.
 1. Wählen Sie das `@valign` Attribut aus der Dropdown **Liste „Attribut** aus.
@@ -388,7 +388,7 @@ Sie können ein Bild/eine Abbildung Titel und eine alternative Text für das Bil
 >
 > Wenn Sie ein Bild einfügen und dafür einen alternativen Text angeben, wird dieser gemäß den neuesten DITA-Standards innerhalb des `<alt>` Elements hinzugefügt. Die Verwendung des Attributs `@alt` für alternativen Text ist veraltet, wird jedoch in früheren DITA-Versionen weiterhin unterstützt.
 
-Mit der **Option &quot;Select Datei** &quot; können Sie die erforderlichen Grafikdatei nach Dateiname suchen. Sie können die suchen Ergebnisse auch nach Pfad \(zum suchen in\), Kollektionen, Datei Typ und Tags filtern. Wenn Sie die gewünschte Grafikdatei gefunden haben, wählen Sie die Datei aus und wählen Sie **Auswählen** , um das Bild in Ihre Dokument einzufügen. Sie können verschiedene Formate von Bilddateien einfügen, z. B`.png`. , `.svg`, `.gif`, `.jpg``.eps`, , `.ai`, `.psd`und mehr.
+Mit der **Option &quot;Select Datei** &quot; können Sie die erforderlichen Grafikdatei nach Dateiname suchen. Sie können die suchen Ergebnisse auch nach Pfad \(zum suchen in\), Kollektionen, Datei Typ und Tags filtern. Wenn Sie die gewünschte Grafikdatei gefunden haben, wählen Sie die Datei aus und wählen Sie **Auswählen** , um das Bild in Ihre Dokument einzufügen. Sie können verschiedene Formate von Bilddateien einfügen, z. B`.png`. , `.svg`, `.gif`, `.jpg` `.eps`, , `.ai`, `.psd`und mehr.
 
 Nachdem Sie ein Bild eingefügt haben, können Sie die Attribute für Höhe, Breite, Platzierung und Inhalt im Bedienfeld Inhaltseigenschaften ändern. Wählen Sie die Bilddatei aus und nehmen Sie dann Änderungen im Bedienfeld Inhaltseigenschaften im rechten Bedienfeld vor.
 
@@ -621,4 +621,4 @@ Wenn eine Datei von einem anderen Benutzer gesperrt wird, wird beim Bewegen des 
 Als Administrator erhalten Sie auch Zugriff auf die Funktion **Entsperren erzwingen** mit der Sie die von anderen Benutzern gesperrte Datei entsperren können. Verwenden Sie diese Funktion, um auf die Bearbeitungsrechte für eine Datei zuzugreifen, die von anderen Benutzern gesperrt wurde.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

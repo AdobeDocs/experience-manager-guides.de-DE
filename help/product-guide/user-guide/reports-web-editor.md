@@ -63,6 +63,7 @@ Sie können den Themenlistenbericht einer Zuordnung anzeigen, indem Sie die folg
    - **Dokumentstatus** Der Status des Themas.
    - **Autor** Der Benutzer, der zuletzt an dem Thema gearbeitet hat.
    - **Übergeordnete Zuordnung** Die Liste aller Zuordnungen, auf die das Thema direkt verwiesen wird.
+
    >[!NOTE]
    >
    > Wählen Sie **Aktualisieren**, um eine neue Themenliste zu erhalten und Änderungen in Ihrer Zuordnungsdatei oder Verweise in Ihrer Themendatei anzuzeigen.
@@ -206,6 +207,7 @@ Der Bericht **Multimedia** enthält detaillierte Informationen zu den in Ihrer Z
    - **Multimediatyp** \(standardmäßig ausgewählt) Typ des Multimediums. Die verfügbaren Optionen sind Audio, Video oder Bild.
    - **Verwendet in** \(standardmäßig ausgewählt\) Die Referenzen, in denen das Multimedia verwendet wurde. Sie können die Referenz auswählen, um sie zu bearbeiten.
    - **Referenztyp** \(standardmäßig ausgewählt\) Der Referenztyp - direkt oder indirekt.
+
    >[!NOTE]
    >
    > Wählen Sie **Aktualisieren**, um eine neue Multimedia-Liste zu erhalten und Änderungen in Ihrer Kartendatei oder Multimedia-Dateien in Ihrer DITA-Karte anzuzeigen.
@@ -266,4 +268,4 @@ Sie können den Bericht nach fehlerhaften Links anzeigen, indem Sie die folgende
 1. Wählen Sie **Herunterladen** aus, um den Schnappschuss aller fehlerhaften Links in der DITA-Karte herunterzuladen. Die Excel-Datei enthält die ausgewählten Spalten und die fehlerhaften Links, die in der Ansicht „Beschädigte Links“ gefiltert wurden.
 
 
-**Übergeordnetes Thema:**[ Einführung in Berichte](reports-intro.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in Berichte](reports-intro.md)

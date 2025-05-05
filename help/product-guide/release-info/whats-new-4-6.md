@@ -31,7 +31,7 @@ Ein Experience Fragment ist eine modulare Inhaltseinheit in Adobe Experience Man
 
 ![Registerkarte „Optionen“ der Dateieigenschaften](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
 
-*Publish und zeigen Sie die Experience Fragments eines Themas im Abschnitt **Ausgaben**unter **Dateieigenschaften**an.*
+*Publish und zeigen Sie die Experience Fragments eines Themas im Abschnitt **Ausgaben**&#x200B;unter **Dateieigenschaften**&#x200B;an.*
 
 Mit Experience Manager Guides können Sie jetzt ein Thema oder seine Elemente in einem Experience Fragment veröffentlichen. Sie können eine JSON-basierte Zuordnung zwischen einem Thema oder seinen Elementen und einer Experience Fragment-Vorlage erstellen. Sie können Varianten von Experience Fragments auch mithilfe der Bedingungsfilter erstellen.
 
@@ -82,7 +82,7 @@ Wenn dasselbe Thema mehrmals in einer Datei referenziert wird, können Sie für 
 
 ![Alte AEM Sites-Vorgabe](assets/aem-sites-legacy.png)
 
-*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**der Vorgabe **AEM Sites**den Veröffentlichungskontext für die verknüpften Themen an.*
+*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**&#x200B;der Vorgabe **AEM Sites**&#x200B;den Veröffentlichungskontext für die verknüpften Themen an.*
 
 
 

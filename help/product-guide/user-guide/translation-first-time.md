@@ -79,4 +79,4 @@ Nach Abschluss der Übersetzung ändert sich der Status des Übersetzungsauftrag
 >- Wenn Sie den Übersetzungsauftrag für ein Thema in mehreren Projekten (für eines der Projekte) ablehnen, löschen oder abbrechen, wird der **In Bearbeitung** Übersetzungsstatus des Themas nicht zurückgesetzt, dieses Projekt wird jedoch aus der Projektliste **In Bearbeitung** für dieses bestimmte Asset entfernt.
 >- Wenn Sie außerdem den Übersetzungsauftrag abbrechen oder löschen oder das gesamte Projekt löschen, wird der **In Bearbeitung** Übersetzungsstatus auf den ursprünglichen Status zurückgesetzt.
 
-**Übergeordnetes Thema:**[&#x200B;Übersicht über die Inhaltsübersetzung](translation.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B;Übersicht über die Inhaltsübersetzung](translation.md)

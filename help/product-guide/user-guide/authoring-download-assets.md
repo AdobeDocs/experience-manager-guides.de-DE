@@ -60,4 +60,4 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei zusammen mi
 
 Nachdem die Karte heruntergeladen wurde, können Sie die Karte auswählen und das Symbol Öffnen oben verwenden, um den ausgewählten Bericht zu öffnen.
 
-**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)
+**Übergeordnetes Thema:**&#x200B;[ Inhalte verwalten](authoring.md)

@@ -35,12 +35,15 @@ Kommentar zur Seite des XML-Editors überprüfen:
 
 - Kommentar überprüfen Antwort: `id: comment_reply`
    - Das Widget für jede Überprüfungskommentarantwort.
+
      ![Screenshot zur Antwort auf Kommentar überprüfen](./imgs/reply.png)
 
 - Antwort zum neuen Überprüfungskommentar: `id: comment_new_reply`
    - Das Widget für eine neue Überprüfungskommentarantwort.
+
      ![Screenshot mit Antwort auf neuen Kommentar](./imgs/new_reply.png)
 
 - Anmerkungs-Toolbox: `id: annotation_toolbox`
    - Die Symbolleiste oben rechts in der Überprüfungs-App.
+
      ![Screenshot der Anmerkungs-Toolbox](./imgs/annotation_toolbox.png)

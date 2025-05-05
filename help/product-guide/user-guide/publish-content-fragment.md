@@ -49,6 +49,7 @@ Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration hinzu. Di
    * **Name**: Geben Sie den Namen des Inhaltsfragments ein. Standardmäßig wird der Name mit dem Titel des Themas gefüllt und die Leerzeichen werden durch „_“ ersetzt. Beispiel: *sample_content_fragment*. Sie können ihn bearbeiten.  Dieser Name wird zum Generieren der URL für das Inhaltsfragment verwendet.
 
    * Sie können verschiedene Bedingungen auswählen, um Inhaltsfragmentvarianten zu erstellen. Wählen Sie eine der folgenden Optionen aus:
+
      >[!NOTE]
      > 
      > Bedingungen werden nur aktiviert, wenn im Thema Bedingungsattribute definiert sind.

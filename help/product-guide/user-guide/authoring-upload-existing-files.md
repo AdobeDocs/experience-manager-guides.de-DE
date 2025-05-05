@@ -47,4 +47,4 @@ Weitere Informationen zur Funktionsweise verschiedener Szenarien für den Datei-
 
 Wenn Sie ein Tool wie das Adobe Experience Manager-Desktop-Programm oder das Asset-Bulk-Ingest verwenden, wird die Aktion, die für eine doppelte Datei ausgeführt werden soll, durch eine Einstellung im Adobe Experience Manager-Server gesteuert. Wenden Sie sich an Ihren Systemadministrator, um mehr über diese Konfiguration zu erfahren.
 
-**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)
+**Übergeordnetes Thema:**&#x200B;[ Inhalte verwalten](authoring.md)

@@ -31,4 +31,4 @@ In der folgenden Tabelle sind die Variablen aufgeführt, die standardmäßig unt
 | `${system_time}` | Verwendet die aktuelle Serverzeit, um den Zielpfad zu erstellen. | **DITA Map Dateiname:** <br>`SampleDita.ditamap` <br> <br> **DITA Map-Dateipfad:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Zielpfad** konfiguriert als: <br> `/content/output/sites/${system_time}`<br><br>**Endgültiger Ausgabespeicherort:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 Darüber hinaus können Sie auch die für die DITA-Map- oder Bookmap-Datei definierten Metadaten als Variablen verwenden. Die Metadaten befinden sich unter dem Knoten `/jcr:content/metadata` der DITA-Map- oder Bookmap-Datei. Eine der im `/jcr:content/metadata` definierten Metadateneigenschaften ist beispielsweise `dc:title`. Sie können `${dc:title}` angeben, und der Wert des Titels wird in der endgültigen Ausgabe verwendet.
-**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)

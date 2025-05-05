@@ -178,4 +178,4 @@ Die folgenden Experience Manager Guides-Funktionen können derzeit nicht für da
 > Die Funktion **Suchen und Ersetzen** verarbeitet keine Markdown-Dateien auf Repository-Ebene. Dazu gehört die Suche nach einer Markdown-Datei innerhalb einer Zuordnung oder eines Ordners. Sie kann jedoch weiterhin im Markdown-Editor verwendet werden. Außerdem verarbeiten die **Suche** und **Filter** in der Repository-Ansicht keine Markdown-Dateien.
 
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

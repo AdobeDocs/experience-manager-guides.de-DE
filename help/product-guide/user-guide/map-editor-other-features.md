@@ -41,4 +41,4 @@ Diese Stammzuordnung gilt für alle mit diesem Projekt verknüpften Assets \(Ord
 
 **Themenbearbeitungsansicht** - Wählen Sie beim Bearbeiten eines DITA-Themas das Symbol für die Tastenauflösung und dann die DITA-Datei aus, die für die Auflösung der Schlüsselverweise verwendet werden soll.
 
-**Übergeordnetes Thema:**[ Einführung in den Zuordnungs-Editor](map-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Zuordnungs-Editor](map-editor.md)

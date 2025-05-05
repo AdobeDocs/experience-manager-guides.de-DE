@@ -196,4 +196,4 @@ Wenn Sie ein Thema aus Ihrer Tabelle löschen möchten, klicken Sie auf das Kreu
 
 Wenn Sie die Beziehungstabelle löschen möchten, klicken Sie auf eine beliebige Stelle außerhalb der Beziehungstabelle und klicken Sie auf Löschen.
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Zuordnungs-Editor](map-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Arbeiten mit dem Zuordnungs-Editor](map-editor.md)

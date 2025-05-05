@@ -33,4 +33,4 @@ Sie können eine Massen-Aktivierungszuordnungssammlung löschen, wenn sie nicht 
    Die Massen-Aktivierungszuordnungssammlung wird aus dem System gelöscht.
 
 
-**Übergeordnetes Thema:**[ Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
+**Übergeordnetes Thema:**&#x200B;[ Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

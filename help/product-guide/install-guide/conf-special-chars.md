@@ -48,4 +48,4 @@ Die Struktur der `symbols.json`-Datei wird nachfolgend erläutert:
   Sie können mehrere Definitionen von Sonderzeichen innerhalb einer Kategorie definieren.
 
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)

@@ -81,7 +81,7 @@ In diesem Beispiel passen wir die Überschriften von Ebene 1 bis Ebene 3 so an, 
 
 1. Erweitern Sie in der **Stile** die Liste **Überschriftenstile**.
 
-1. Wählen Sie in **Liste den Stil**h1) aus.
+1. Wählen Sie in **Liste den Stil**&#x200B;h1) aus.
 Die Eigenschaften für den Stil h1 werden im Bedienfeld Eigenschaften zusammen mit der Vorschau angezeigt.
 
    >[!NOTE]
@@ -159,7 +159,7 @@ Im folgenden Beispiel erstellen wir einen Drop-Cap-Stil:
 
    >[!NOTE]
    >
-   Siehe [Anpassen eines vordefinierten oder neuen Stils](components-pdf-template.md#customize-style) Abschnitt zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   >Siehe [Anpassen eines vordefinierten oder neuen Stils](components-pdf-template.md#customize-style) Abschnitt zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Erweitern Sie in **Liste** Stile“ den Eintrag **Absatzstile**.
 
@@ -195,7 +195,7 @@ Im folgenden Beispiel erstellen wir einen Inline-Zeichenstil:
 
    >[!NOTE]
    >
-   Siehe [Anpassen eines vordefinierten oder neuen Stils](components-pdf-template.md#customize-style) Abschnitt zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   >Siehe [Anpassen eines vordefinierten oder neuen Stils](components-pdf-template.md#customize-style) Abschnitt zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Erweitern Sie in **Liste** Formatvorlagen **den Eintrag Zeichenformate**.
 
@@ -215,7 +215,7 @@ Im folgenden Beispiel erstellen wir einen Inline-Zeichenstil:
 
      >[!NOTE]
      >
-     Sie können Ihrer Vorlage auch Schriftarten hinzufügen, die im Abschnitt Ressourcen Ihrer Vorlage gespeichert sind. Weitere Informationen zum Hinzufügen von Schriftarten und zum Arbeiten mit Ressourcen finden Sie unter [Arbeiten mit Ressourcen](components-pdf-template.md#work-with-resources).
+     >Sie können Ihrer Vorlage auch Schriftarten hinzufügen, die im Abschnitt Ressourcen Ihrer Vorlage gespeichert sind. Weitere Informationen zum Hinzufügen von Schriftarten und zum Arbeiten mit Ressourcen finden Sie unter [Arbeiten mit Ressourcen](components-pdf-template.md#work-with-resources).
 
    * **Layout**: Sie können die Layout-bezogenen Eigenschaften wie Höhe und Breite, Rand, Abstand, Ausrichtung und mehr festlegen.
 
@@ -239,7 +239,7 @@ Im folgenden Beispiel passen wir den Stil der nummerierten oder sortierten Liste
 
    >[!NOTE]
    >
-   Siehe [Anpassen eines vordefinierten oder neuen Stils](components-pdf-template.md#customize-style) Abschnitt zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   >Siehe [Anpassen eines vordefinierten oder neuen Stils](components-pdf-template.md#customize-style) Abschnitt zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Erweitern Sie in der **Stile** die Liste **Stile**.
 
@@ -277,7 +277,7 @@ Im folgenden Beispiel passen wir den Stil der nummerierten oder sortierten Liste
 
      >[!NOTE]
      >
-     Sie können den Wert in px (Pixel), pt (Punkte), rem, em, % (Prozentsatz) oder in Zoll (Einheiten) eingeben.
+     >Sie können den Wert in px (Pixel), pt (Punkte), rem, em, % (Prozentsatz) oder in Zoll (Einheiten) eingeben.
 
    * **Präfixbreite**: Dies ist der Bereich, der vom Zahlenformat belegt wird. Er wird automatisch auf eine Größe eingestellt, die das ausgewählte Format problemlos aufnehmen kann. Wenn Sie die Größe erhöhen möchten, können Sie den Standardwert ersetzen.
 
@@ -299,7 +299,7 @@ Im folgenden Beispiel sehen wir, wie Sie einen Tabellenstil erstellen und die ve
 
    >[!NOTE]
    >
-   Siehe [Anpassen eines vordefinierten oder neuen Stils](components-pdf-template.md#customize-style) Abschnitt zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   >Siehe [Anpassen eines vordefinierten oder neuen Stils](components-pdf-template.md#customize-style) Abschnitt zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Klicken Sie in der **Stile** mit der rechten Maustaste auf den **Tabellenstil** und wählen Sie **Neuer Stil**.
 
@@ -315,7 +315,7 @@ Im folgenden Beispiel sehen wir, wie Sie einen Tabellenstil erstellen und die ve
 
      >[!NOTE]
      >
-     Die folgenden Einstellungen sind im Abschnitt **Allgemein** verfügbar, wenn **Formatierung anwenden auf** auf &quot;**&quot;**.
+     >Die folgenden Einstellungen sind im Abschnitt **Allgemein** verfügbar, wenn **Formatierung anwenden auf** auf &quot;**&quot;**.
 
    * **Textumbruch**: Wählen Sie aus, wie Text um die Tabelle umgebrochen werden soll. Dies ist nützlich, wenn sich die Tabelle in einem anderen Blockelement befindet und die Tabelle zusammen mit anderen Inhalten im Blockelement gerendert werden muss. Die Umbruchoptionen sind *links* oder *rechts* ausgerichtet oder *keine*.
 
@@ -329,7 +329,7 @@ Im folgenden Beispiel sehen wir, wie Sie einen Tabellenstil erstellen und die ve
 
      >[!NOTE]
      >
-     Die folgenden Einstellungen sind im Abschnitt **Zelle** verfügbar, wenn **Formatierung anwenden auf** auf &quot;**&quot;**.
+     >Die folgenden Einstellungen sind im Abschnitt **Zelle** verfügbar, wenn **Formatierung anwenden auf** auf &quot;**&quot;**.
 
    * **Padding**: Geben Sie den Abstand zwischen den Tabellenzellen an. Sie können unterschiedliche Abstandswerte für die obere, untere, linke und rechte Seite angeben.
 
@@ -355,7 +355,7 @@ Im folgenden Beispiel erstellen wir den Stil Titel (`wintitle`) eines neuen Fens
 
    >[!NOTE]
    >
-   Siehe [Anpassen eines vordefinierten oder neuen Stils](components-pdf-template.md#customize-style) Abschnitt zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
+   >Siehe [Anpassen eines vordefinierten oder neuen Stils](components-pdf-template.md#customize-style) Abschnitt zum Öffnen eines Stylesheets zur Anpassung oder Bearbeitung.
 
 1. Erweitern Sie in **Liste** Stile“ **Andere Stile**.
 
@@ -406,7 +406,7 @@ Sie können beispielsweise die folgenden Stile definieren, um die Schriftgröße
 
 >[!NOTE]
 >
-Im vorherigen Beispiel sind „Front“ und „Back“ die Beispielnamen der Layout-Dateien, die Sie in den Vorlagen verwenden können.
+>Im vorherigen Beispiel sind „Front“ und „Back“ die Beispielnamen der Layout-Dateien, die Sie in den Vorlagen verwenden können.
 
 
 ## Definieren eines benutzerdefinierten CSS-Stils für Präfix- und Suffix-Inhalte

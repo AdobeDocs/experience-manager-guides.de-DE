@@ -86,8 +86,7 @@ Sie können Ihre bereits erstellten Baselines mit FMPS2020.0.2 oder einer höher
 
 >FMPS2020.0.2 oder neuere Versionen sind mit der grundlegenden Veröffentlichung kompatibel.
 >Vergewissern Sie sich, dass Ihre Baseline ordnungsgemäß erstellt wurde. Um dies zu überprüfen, gehen Sie zum Karten-Dashboard > Themen > Herunterladen  Ordnen Sie Baseline zu und wählen Sie sie aus.
-- ### Publish-Aufgaben von FMPS benötigen mehr Zeit als andere Engines
-
+>- ### Publish-Aufgaben von FMPS benötigen mehr Zeit als andere Engines
 >Bei der Veröffentlichung aus FMPS beträgt die ideale feste Header-Zeit etwa 3-4 Minuten. Wenn Sie glauben, dass sie länger ist, wenden Sie sich an Ihren FMPS-Administrator oder den Adobe-Support.
 
 ## Weitere Ressourcen:

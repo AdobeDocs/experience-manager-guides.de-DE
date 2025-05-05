@@ -78,4 +78,4 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 1. Navigieren Sie zurück zur DITA-Zuordnungsdatei im Ordner für die Ausgangssprache in der Assets-Benutzeroberfläche. Die neu übersetzten Themen sind jetzt synchronisiert.
 
 
-**Übergeordnetes Thema:**[&#x200B;Übersicht über die Inhaltsübersetzung](translation.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B;Übersicht über die Inhaltsübersetzung](translation.md)

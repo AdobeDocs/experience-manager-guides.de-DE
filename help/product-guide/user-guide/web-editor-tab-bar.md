@@ -52,4 +52,4 @@ Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelli
    - **On-Premise-Software**: Wenn Sie Adobe Experience Manager Guides (4.2.1 und höher) verwenden, gelangen Sie durch Auswahl der Option **Assets** zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche.
 - **Einstellungen**: Bringt Sie zum Dialogfeld „Editor-Einstellungen“. Weitere Informationen finden Sie unter [ mit Editor-Einstellungen](./web-editor-settings.md).
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

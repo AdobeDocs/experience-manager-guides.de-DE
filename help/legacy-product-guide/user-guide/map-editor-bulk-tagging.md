@@ -108,4 +108,4 @@ Führen Sie die folgenden Schritte aus, um alle Tags aus einem oder mehreren The
 
 Wenn Sie eine lange Liste von Tags auf Ihre Themen angewendet haben, kann die Navigation etwas mühsam sein. Sie können Tags in in der DITA-Zuordnungskonsole einfach ausblenden, indem Sie auf das Symbol Tags ausblenden klicken. Wenn die Tags nicht sichtbar sind, werden durch Klicken auf die Schaltfläche Tags anzeigen alle Tags angezeigt.
 
-**Übergeordnetes Thema:**[ Verwalten von Metadaten](manage-metadata.md)
+**Übergeordnetes Thema:**&#x200B;[ Verwalten von Metadaten](manage-metadata.md)

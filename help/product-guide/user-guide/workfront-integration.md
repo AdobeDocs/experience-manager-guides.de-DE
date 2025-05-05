@@ -82,7 +82,7 @@ Führen Sie die folgenden Schritte aus, um eine neue Adobe Workfront-Aufgabe zu 
    * **Beschreibung**: Geben Sie eine kurze Beschreibung der Aufgabe ein.
    * **Fällig am**: Legen Sie das Fälligkeitsdatum für den Abschluss der Aufgabe fest.
    * **Verantwortlicher**: Wählen Sie einen Verantwortlichen für die Aufgabe aus.
-3. Assets Wählen Sie auf der Registerkarte **0} die Option** Hinzufügen **aus, um dieser Aufgabe ein Asset hinzuzufügen.**
+3. Assets Wählen Sie auf der Registerkarte **0&rbrace; die Option** Hinzufügen **aus, um dieser Aufgabe ein Asset hinzuzufügen.**
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
 

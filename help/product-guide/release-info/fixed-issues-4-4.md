@@ -69,7 +69,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 4.4.0](../release-info/upgra
 - **AEM-Site**-Voreinstellung funktioniert nicht, da der Vorlagenpfad leer ist. 14804)
 - Die AEM-Site-Regenerierung schlägt für DITA-Zuordnungen mit Themen fehl, die MathML-Gleichungen enthalten. 14790)
 - Bei der nativen PDF-Veröffentlichung gibt die PDF-Generierung Fehler beim Abrufen von Abhängigkeiten für die `Node.js`-Veröffentlichung aus. 14445)
-- Die Vorgabe für **** AEM-Site`/content` erlaubt keine Auswahl einer Vorlage außerhalb der Vorlagenhierarchie im Web-Editor. 14260)
+- Die Vorgabe für **&#x200B;**&#x200B;AEM-Site`/content` erlaubt keine Auswahl einer Vorlage außerhalb der Vorlagenhierarchie im Web-Editor. 14260)
 - Die Funktion zum Veröffentlichen als Inhaltsfragment funktioniert nicht für Dateien, die in Suchergebnissen aufgelistet sind. 14090)
 - FMDITA-Komponenten haben einen hartcodierten Pfad von `delegator.jsp`, der die Überlagerung von AEM Sites-Komponenten verhindert. 13993)
 - Die getaggte Ansicht von PDF Reactor in der nativen PDF-Veröffentlichungsausgabe funktioniert nicht wie erwartet. 13622)

@@ -66,4 +66,4 @@ Um die Ausgabe anzuzeigen, schließen Sie das Dialogfeld „Ausgabe generiert“
 
 
 
-**Übergeordnetes Thema**[ Artikelbasierte Veröffentlichung im Editor](web-editor-article-publishing.md)
+**Übergeordnetes Thema**&#x200B;[ Artikelbasierte Veröffentlichung im Editor](web-editor-article-publishing.md)

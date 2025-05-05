@@ -145,7 +145,7 @@ Verwenden Sie diese intelligente Funktion, um die ausgewählten Inhalte in die Z
 Führen Sie die folgenden Schritte aus, um die Inhalte zu übersetzen:
 
 1. Wählen Sie die Inhalte aus, die Sie übersetzen möchten.
-1. Wählen Sie **Inhalt übersetzen** im ](./images/ai-translate-content-icon.svg)-Assistentenfeld ![Symbol „Inhalt übersetzen“ aus.
+1. Wählen Sie **Inhalt übersetzen** im ![&#128279;](./images/ai-translate-content-icon.svg)-Assistentenfeld Symbol „Inhalt übersetzen“ aus.
 1. Wählen Sie im Dropdown-Menü die Zielsprache aus. Die übersetzten Inhalte werden im Bedienfeld KI-Assistent angezeigt.
 
 1. (Optional) Wählen Sie **Erweitern** aus, um den Editor **Inhalte übersetzen** zu öffnen.

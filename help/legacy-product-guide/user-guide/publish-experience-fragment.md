@@ -37,6 +37,7 @@ Zum Beispiel:
 
      Wenn Sie keine zulässige Vorlage für einen Ordner definieren, werden die Vorlagen standardmäßig aus dem übergeordneten Ordner oder dem Vorlagenordner ausgewählt.
    * **Orderable**: Ermöglicht das Ändern der Reihenfolge der Assets innerhalb eines Ordners.
+
      ![Fügen Sie Cloud-Konfigurationsdetails in den Ordnereigenschaften hinzu](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *Fügen Sie die Cloud-Konfiguration in den Ordnereigenschaften hinzu, um sie mit den Fragmentvorlagen zu verbinden.*
 1. Um ein Experience Fragment zu generieren, wählen Sie **Neue Ausgabe** ![neues Ausgabesymbol](./images/Add_icon.svg) aus dem Abschnitt **Ausgaben** im Abschnitt **Dateieigenschaften** eines Themas aus.

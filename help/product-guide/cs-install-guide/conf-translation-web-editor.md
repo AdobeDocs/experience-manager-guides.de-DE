@@ -48,4 +48,4 @@ Um die Registerkarte **Verwalten** im Web-Editor auszublenden, führen Sie die f
 
 Beachten Sie, dass **Filter** Verwalten“ nicht mehr verfügbar ist.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)

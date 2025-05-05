@@ -114,4 +114,4 @@ Nachdem ein Dokument als genehmigt markiert wurde, ist es nicht mehr zur Bearbei
    Der Status des Dokuments wird in Entwurf geändert und das Dokument wird im Editor im Bearbeitungsmodus geöffnet.
 
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

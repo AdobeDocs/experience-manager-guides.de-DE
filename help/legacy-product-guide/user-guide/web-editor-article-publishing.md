@@ -33,4 +33,4 @@ Sie können auch die für Ihre DITA-Zuordnung erstellten Ausgabevorgaben verwend
 - **[Ausgabe aus dem Repository-Bedienfeld oder dem Bedienfeld „Zuordnungsansicht“ generieren](web-editor-article-publishing-output.md)**
 
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Arbeiten mit dem Web-Editor](web-editor.md)

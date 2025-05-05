@@ -56,4 +56,4 @@ Sie können die folgenden Vorgänge für die Voreinstellung auch über das Menü
 >
 > Wenn eine Ausgabevorgabe in globalen Profilen und Ordnerprofilen gelöscht wird, wird sie in allen zugehörigen Zuordnungen angezeigt und nicht auf der Registerkarte **Ausgabevorgaben** angezeigt.
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Arbeiten mit dem Web-Editor](web-editor.md)

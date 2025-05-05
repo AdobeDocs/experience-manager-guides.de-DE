@@ -24,4 +24,4 @@ Weitere Informationen zu den Editor-Ansichten, die für eine Themendatei im Inha
 >
 > Wenn Sie an einer Zuordnungsdatei arbeiten, werden im Inhaltsbearbeitungsbereich verschiedene Optionen oder Ansichten angezeigt, einschließlich einer **Layout**-Ansicht für die Zuordnungsdatei. Weitere Informationen finden Sie unter [Funktionen des Zuordnungs-Editors](./map-editor-advanced-map-editor.md).
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

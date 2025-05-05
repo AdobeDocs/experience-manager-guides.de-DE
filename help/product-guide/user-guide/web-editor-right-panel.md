@@ -141,4 +141,4 @@ Informationen zum Arbeiten mit Schematrondateien in Experience Manager Guides fi
 
 
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

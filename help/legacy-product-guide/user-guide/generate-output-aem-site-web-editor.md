@@ -42,8 +42,8 @@ Führen Sie die folgenden Schritte aus, um die AEM Sites-Vorgaben aus dem Web-Ed
 >[!NOTE]
 >
 >Bevor Sie die AEM Sites-Vorgaben für Experience Manager Guides konfigurieren können, muss Ihr Administrator eine AEM Sites-Struktur mithilfe der Vorlagen erstellen.
-- **On-Premise-Software**: Erfahren Sie mehr über das [Herunterladen und Installieren von AEM Sites-Vorlagen](/help/product-guide/install-guide/download-install-aem-sites-templates.md) für On-Premise-Software.
-- **Cloud Service**: Erfahren Sie mehr darüber, wie Sie [AEM Sites-Vorlagen herunterladen und installieren](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) für Cloud Service.
+>- **On-Premise-Software**: Erfahren Sie mehr über das [Herunterladen und Installieren von AEM Sites-Vorlagen](/help/product-guide/install-guide/download-install-aem-sites-templates.md) für On-Premise-Software.
+>- **Cloud Service**: Erfahren Sie mehr darüber, wie Sie [AEM Sites-Vorlagen herunterladen und installieren](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) für Cloud Service.
 
 
 

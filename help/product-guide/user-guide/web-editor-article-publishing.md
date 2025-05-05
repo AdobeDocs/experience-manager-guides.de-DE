@@ -46,4 +46,4 @@ Führen Sie die folgenden Schritte aus, um eine artikelbasierte Ausgabe zu gener
    > Sie können eine vorhandene Ausgabevorgabe auch über das Menü Optionen umbenennen, duplizieren oder löschen.
 
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Arbeiten mit dem Editor](web-editor.md)

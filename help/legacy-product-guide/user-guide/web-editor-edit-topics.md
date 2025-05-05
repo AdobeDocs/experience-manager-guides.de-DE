@@ -49,6 +49,7 @@ Wenn Sie den ausgewählten Inhalt löschen, wird der verbleibende Inhalt nach de
 
    - Wählen Sie den Inhalt in einem Element aus.
    - Wählen Sie ![ Symbol ](images/Add_icon.svg)Hinzufügen“ in der sekundären Symbolleiste oben aus, um das Dialogfeld **Umschließen mit Element** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
+
      >[!NOTE]
      >
      > Sie können das Dialogfeld Umschließen mit Element auch anzeigen, indem Sie auf das Kontextmenü des ausgewählten Inhalts klicken.
@@ -106,4 +107,4 @@ Beim Öffnen einer Datei im Web-Editor bietet Experience Manager Guides die Funk
 Sie können die Funktion zum Suchen der Datei mit der Option **Dateien immer im Repository suchen** auf der Registerkarte **Erscheinungsbild** der **Benutzereinstellungen** deaktivieren.
 
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Arbeiten mit dem Web-Editor](web-editor.md)

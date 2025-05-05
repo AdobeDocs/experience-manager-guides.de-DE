@@ -42,4 +42,4 @@ Die folgenden Voreinstellungsoptionen sind für die unterstützten Ausgabeformat
 
 Als Administrator können Sie mit Experience Manager Guides Ausgabevorgaben für die globalen Profile und Ordnerprofile erstellen und verwalten. Weitere Informationen finden Sie unter [Verwalten von globalen und Ordnerprofil-Ausgabevorgaben](./web-editor-manage-output-presets.md).
 
-**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)

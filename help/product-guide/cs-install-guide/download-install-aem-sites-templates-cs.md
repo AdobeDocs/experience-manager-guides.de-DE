@@ -113,8 +113,10 @@ Sie benötigen die folgenden beiden Vorlagentypen:
   ![Abschnittsseitenvorlage](assets/customize-existing-aem-templates-section.png)
    - Detailseite oder Themenseitenvorlage: Verwenden Sie diese Vorlage für den Inhalt von Themen einer Karte. Alle Sites-Seiten mit DITA/XML-Inhalten werden mithilfe von Themenseitenvorlagen erstellt. Um diese Vorlagen zu erstellen, sind zwei Voraussetzungen erforderlich:
       - Fügen Sie der Vorlage eine Textkomponente hinzu, die in einer Container-Komponente mit einer obligatorischen Eigenschaft enthalten ist. `text="$topic.content$"`.
+
         ![Container-Seitenvorlage](assets/customize-existing-aem-templates-container.png)
       - Spiegeln Sie denselben Container und dieselbe Textkomponente in der Struktur derselben Vorlage, wie im folgenden Screenshot gezeigt:
+
         ![Struktur der Container-Vorlage](assets/customize-existing-aem-templates-structure.png)
 
 ### Tag-Kategorieseite als Dokumentations-Container

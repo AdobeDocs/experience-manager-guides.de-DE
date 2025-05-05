@@ -40,4 +40,4 @@ Führen Sie die folgenden Schritte aus, um Smart-Tags zu erstellen:
 
 *Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion in der Umgebung aktivieren zu lassen. Dies ist nicht als Teil der vordefinierten -Unterstützung aktiviert.*
 
-**Übergeordnetes Thema:**[ Verwalten von Metadaten](manage-metadata.md)
+**Übergeordnetes Thema:**&#x200B;[ Verwalten von Metadaten](manage-metadata.md)

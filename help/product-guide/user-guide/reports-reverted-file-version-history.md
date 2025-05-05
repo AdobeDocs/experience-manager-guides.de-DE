@@ -57,4 +57,4 @@ Führen Sie die folgenden Schritte aus, um auf den Bericht „Verlauf zurückset
    - **Kommentar**: Jeder Kommentar, der von der Person abgegeben wurde, die die Datei zurückgesetzt hat.
 
 
-**Übergeordnetes Thema:**[ Einführung in Berichte](reports-intro.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in Berichte](reports-intro.md)

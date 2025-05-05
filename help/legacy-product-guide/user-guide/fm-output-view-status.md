@@ -37,4 +37,4 @@ Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange 
      In dieser Liste sind möglicherweise Aufgaben enthalten, die erfolgreich ausgeführt wurden, oder Aufgaben, bei denen ein Fehler aufgetreten ist. Für die erfolgreich abgeschlossenen Aufgaben erstellt der Veröffentlichungsprozess eine Protokolldatei \(logs.txt\), auf die Sie zugreifen können, indem Sie auf den Link in der Spalte Generiert unter klicken.
 
 
-**Übergeordnetes Thema:**[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
+**Übergeordnetes Thema:**&#x200B;[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)

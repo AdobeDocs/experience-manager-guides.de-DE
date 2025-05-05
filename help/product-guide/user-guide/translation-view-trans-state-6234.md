@@ -28,4 +28,4 @@ Führen Sie die folgenden Schritte aus, um den Übersetzungsstatus einer DITA-Zu
 
    ![](images/translation-status-new.png){align="left"}
 
-**Übergeordnetes Thema:**[&#x200B;Übersicht über die Inhaltsübersetzung](translation.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B;Übersicht über die Inhaltsübersetzung](translation.md)

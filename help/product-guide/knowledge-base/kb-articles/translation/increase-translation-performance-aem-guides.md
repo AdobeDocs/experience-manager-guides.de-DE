@@ -24,10 +24,12 @@ Bei jedem Übersetzungsprojekt werden mehrere Benutzergruppen für den Zugriff g
 
 - Markieren Sie alle Projekte als „inaktiv“, sobald die Übersetzung abgeschlossen und genehmigt ist. Das Projekt bleibt zur Überprüfung verfügbar und wird einfach als inaktiv markiert.
    - Die folgenden Schritte helfen, die Gesamtleistung der Übersetzung bei gutem Zustand zu erhalten.
+
      ![Inaktive Übersetzungsprojekt-](../assets/translation/translation-project-image1.png)
 
 - Bei älteren Projekten sollte der Ordner, der als inaktiv markiert, genehmigt und überprüft ist, gelöscht werden
    - Die folgenden Schritte helfen Ihnen, die Gesamtübersetzungsleistung in einem guten Zustand zu halten, indem sie temporäre Übersetzungsdateien und Benutzergruppen bereinigen, die mit diesem Projektordner verknüpft sind.
+
      ![Übersetzungsprojekt und Ordner löschen ](../assets/translation/translation-project-image2.png)
 
 

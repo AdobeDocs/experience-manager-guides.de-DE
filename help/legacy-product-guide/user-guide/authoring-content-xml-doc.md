@@ -27,4 +27,4 @@ AEM Guides verfügt über die drei vordefinierten Editoren. Sie können sie zum 
 - **[DITAVAL-Editor](ditaval-editor.md)**
 
 
-**Übergeordnetes Thema:**[ Inhalt erstellen](authoring-content.md)
+**Übergeordnetes Thema:**&#x200B;[ Inhalt erstellen](authoring-content.md)

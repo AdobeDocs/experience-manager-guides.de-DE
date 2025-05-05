@@ -25,4 +25,4 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | Boolescher Wert \(true/false\).<br> **Standardwert**: false |
 | `xmleditor.autosaveinterval` | Geben Sie das Zeitintervall in Sekunden an, in dem die Funktion für das automatische Speichern Trigger werden soll. |
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)

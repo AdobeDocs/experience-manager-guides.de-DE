@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um eine vorhandene PDF-Vorlage zu duplizieren:
 
    <img src="assets/duplicate-template.png" alt="PDF-Vorlage duplizieren" width="350">
 
-   *Wählen Sie eine zu duplizierende Vorlage aus, zeigen Sie die Miniaturansicht an und aktualisieren Sie den Titel im Dialogfeld **Duplizieren einer PDF**Vorlage*
+   *Wählen Sie eine zu duplizierende Vorlage aus, zeigen Sie die Miniaturansicht an und aktualisieren Sie den Titel im Dialogfeld **Duplizieren einer PDF**&#x200B;Vorlage*
 
 1. Geben Sie einen Titel für die Vorlage an.
 
@@ -81,7 +81,7 @@ Sie können über das Menü **Optionen“ auch die folgenden Vorgänge** Vorlage
 ### Löschen
 
 Wählen Sie die Option Löschen , um die ausgewählte Vorlage zu löschen. Wählen Sie dann bei der Bestätigungsaufforderung Ja .
-Die Vorgabe wird aus „Vorlagen**entfernt**.
+Die Vorgabe wird aus „Vorlagen&#x200B;**entfernt**.
 
 ### Eigenschaften{#properties-option}
 

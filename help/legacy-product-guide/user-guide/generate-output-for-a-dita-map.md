@@ -169,4 +169,4 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabeaufgabe aus der Liste Erz
    Die Aufgabe wird aus der Liste Erzeugte Ausgaben gelöscht.
 
 
-**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)

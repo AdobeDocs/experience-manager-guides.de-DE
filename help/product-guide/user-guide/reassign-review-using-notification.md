@@ -38,4 +38,4 @@ Nachdem die Prüfungsaufgabe neu zugewiesen wurde, zeigt die Spalte Empfänger d
 
 Der zugewiesene Reviewer erhält eine Benachrichtigung im Posteingang für die neu zugewiesene Prüfungsaufgabe.
 
-**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)

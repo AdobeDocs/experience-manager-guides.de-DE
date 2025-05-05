@@ -453,7 +453,7 @@ Führen Sie die folgenden Schritte aus, um die Verweise mithilfe des im Produktp
 1. Führen Sie das validate-Skript \[`/bin/fmdita/validatebtree?operation=validate`\] aus, um zu überprüfen, ob neue fehlerhafte Verweise vorhanden sind.
 1. Falls das Skript „validate“ Fehler meldet, können Sie es mit dem Patch-Skript patchen.
 1. Notieren Sie sich die unten angegebenen Details und teilen Sie sie bei Bedarf mit Ihrem Customer Success-Team:
-1. 
+1. &#x200B;
    - Durch Validierungsskript ausgedruckte Protokolle
 - Paket von &quot;`/content/fmdita/references`&quot;
 - Alle anderen erforderlichen Details, abhängig vom gemeldeten Szenario
@@ -467,7 +467,7 @@ Führen Sie die folgenden Schritte aus, um fehlerhafte Verweise mithilfe des im 
    **Hinweis:* Es wird empfohlen, die Protokolle zu Referenzzwecken zu kopieren und zu speichern.
 
 1. Nachdem das Patch-Skript erfolgreich ausgeführt wurde, können Sie die folgenden Prüfungen durchführen:
-1. 
+1. &#x200B;
    - Überprüfen Sie, ob der neue Knoten &quot;`references_backup_<timestamp>"`&quot; unter `/content/fmdita` erstellt wurde.
 - Überprüfen, ob die Verweise korrigiert wurden
 

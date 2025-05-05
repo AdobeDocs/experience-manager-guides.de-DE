@@ -93,4 +93,4 @@ Führen Sie die folgenden Schritte aus, um ein Thema über die Assets-Benutzerob
 
 4. Nachdem Sie Ihr DITA-Thema erstellt haben, speichern Sie die Änderungen in Ihrer Arbeitskopie weiter und erstellen Sie eine neue Version, sobald Sie die Aktualisierungen für Ihr Thema abgeschlossen haben.
 
-**Übergeordnetes Thema:**[ Erstellen und Vorschau von Themen](create-preview-topics.md)
+**Übergeordnetes Thema:**&#x200B;[ Erstellen und Vorschau von Themen](create-preview-topics.md)

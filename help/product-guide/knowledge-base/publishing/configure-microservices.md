@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Konfigurieren von auf Microservices basierender Veröffentlichung mit JWT-Authentifizierung
 
-[!BADGE Cloud Service ]{type=Informative}
+[!BADGE Cloud Service &#x200B;]{type=Informative}
 
 >[!NOTE]
 >

@@ -76,4 +76,4 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
 1. Wählen Sie **Öffnen** aus, um Ihre Projektseite zu öffnen.
 
 
-**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)

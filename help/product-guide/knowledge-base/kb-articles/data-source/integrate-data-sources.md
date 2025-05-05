@@ -54,6 +54,7 @@ Führen Sie die folgenden Schritte aus, um den Inhalt in Experience Manager Guid
 1. **Einrichten des Datenquellen-Connectors**
    - Der Datenquellen-Connector dient als Schnittstelle zum Herstellen der Verbindung mit den externen Datenquellen. Sie müssen den Connector konfigurieren, um die Verbindung herzustellen, und die Authentifizierungsmethoden wie `Basic Auth` oder `API key Auth` einschließen. Alle Konfigurationsdetails, einschließlich verschlüsselter Informationen, werden sicher in Adobe Experience Manager gespeichert.
    - Die Connector-Ebene ist erweiterbar, sodass Sie Ihre Implementierungen für die Verbindung mit verschiedenen Systemen erstellen können, die von Experience Manager Guides nicht vorkonfiguriert bereitgestellt werden.
+
      ![Connector-Ebene](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -99,8 +100,10 @@ Führen Sie die folgenden Schritte aus, um den Inhalt in Experience Manager Guid
         ```
 
       - Vorlagen
+
         ![Vorlagenmodul](assets/data-source-TemplatingEngine.png){width="800" align="left"}
       - Daten aus derselben Datenquelle, aber unterschiedlichen Vorlagen
+
         ![Daten generiert](assets/data-source-templates-topics.png){width="800" align="left"}
 
 1. **Generieren von Inhalten mithilfe von Vorlagen**

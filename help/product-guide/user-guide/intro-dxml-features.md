@@ -79,4 +79,4 @@ Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von Experienc
 * Schnellstartanleitung
 * [Hilfe* Archivierungsseite](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (Zugriff auf die Dokumentation zu älteren Versionen)
 
-**Übergeordnetes Thema:**[&#x200B;Über Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B;Über Adobe Experience Manager Guides as a Cloud Service](intro.md)

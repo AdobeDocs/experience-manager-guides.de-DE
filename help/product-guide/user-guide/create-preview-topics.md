@@ -20,4 +20,4 @@ Adobe Experience Manager Guides verfügt über eine leistungsstarke Funktion zum
 - **[Vorschau eines Themas](web-editor-preview-topics.md)**
 
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

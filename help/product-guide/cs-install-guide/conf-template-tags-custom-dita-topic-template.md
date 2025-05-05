@@ -64,4 +64,4 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Speicherort für benutzerdefinierte Vorlagen angeben.<br> Wenn der angegebene Speicherort in DAM vorhanden ist, werden alle Standardzuordnungs- und Themenvorlagen in diesen Ordner kopiert. Wenn der Speicherort nicht vorhanden ist, wird der Ordner mit allen standardmäßigen Zuordnungs- und Themenvorlagen erstellt. |
 
-**Übergeordnetes Thema:**[ Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)
+**Übergeordnetes Thema:**&#x200B;[ Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)
