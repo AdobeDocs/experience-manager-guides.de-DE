@@ -1,9 +1,10 @@
 ---
 title: Neue UX- und AI-Funktionen in AEM Guides
 description: Erfahren Sie, wie das neu gestaltete Benutzererlebnis und die KI-Assistenten in AEM Guides die Inhaltserstellung optimieren, die Navigation verbessern und in Echtzeit intelligente Funktionen in Ihre Inhalts-Workflows integrieren.
-source-git-commit: 87d1ff16daea5d40924ebb59669a3474ec5bafca
+exl-id: 26daaae5-1f10-42bf-91b5-93cdb6df6625
+source-git-commit: 1b41b2eb7e917c389c6f15ff73037f89353e8269
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '271'
 ht-degree: 1%
 
 ---
@@ -27,9 +28,9 @@ Auf der Inhaltserstellungs-Journey hängt die Bereitstellung konsistenter und qu
 ## Haupterkenntnisse
 
 In dieser Sitzung haben wir Folgendes behandelt:
-- Die neu gestaltete personalisierte Landingpage für schnellen Zugriff auf aktuelle Dateien, Sammlungen und Workfront.
+- Die neu gestaltete personalisierte Landingpage für schnellen Zugriff auf aktuelle Dateien, Sammlungen und Workfront-Aufgaben.
 - Vereinfachte Navigation für Übergänge zwischen Authoring, Publishing und Content-Management.
-- Dedizierte Zuordnungskonsole, die Veröffentlichungs-, Übersetzungs- und Berichtsaufgaben an einem Ort zusammenfasst.
+- Dedizierte Zuordnungskonsole, die Veröffentlichungs-, Übersetzungs- und Reporting-Funktionen an einem Ort konsolidiert.
 - Intelligentere Wiederverwendung von Inhalten durch KI-gesteuerte Vorschläge.
 - Inhaltsverbesserungen wie Übersetzungen, Zusammenfassungen und Echtzeit-Inhaltsverbesserungen beim Authoring.
 - KI-gesteuertes Hilfebedienfeld, das kontextbezogene Hilfe innerhalb der Authoring-Umgebung bietet.
@@ -37,11 +38,11 @@ In dieser Sitzung haben wir Folgendes behandelt:
 
 ## Verwandte Ressourcen
 
-- [Neues Startseiten-Erlebnis](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [Neues Startseiten-Erlebnis](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [KI-Funktionen](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [KI-Funktionen in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Neues Startseiten-Erlebnis](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [KI-Assistenten konfigurieren](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
@@ -54,7 +55,7 @@ In dieser Sitzung haben wir Folgendes behandelt:
 
 ### Community-Forum
 
-- Sitzungsspezifische Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
+- Sitzungsspezifische Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 ## Kontakt
