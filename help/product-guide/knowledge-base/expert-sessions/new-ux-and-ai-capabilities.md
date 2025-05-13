@@ -37,11 +37,11 @@ In dieser Sitzung haben wir Folgendes behandelt:
 
 ## Verwandte Ressourcen
 
-- [Neues Startseiten-Erlebnis](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [Neues Startseiten-Erlebnis](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [KI-Funktionen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [KI-Funktionen](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Neues Startseiten-Erlebnis](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Neues Startseiten-Erlebnis](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
@@ -54,7 +54,7 @@ In dieser Sitzung haben wir Folgendes behandelt:
 
 ### Community-Forum
 
-- Sitzungsspezifische Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Sitzungsspezifische Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
 
 
 ## Kontakt
