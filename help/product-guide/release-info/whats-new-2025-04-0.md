@@ -2,9 +2,10 @@
 title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2025.04.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2025.04.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2d0be1a3b3d4b625333e5b8c93e6b01f38e00b39
+exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
+source-git-commit: f4ed3c8b70c47beb1f97c6703ade4d4f49fa814e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '569'
 ht-degree: 2%
 
 ---
@@ -25,7 +26,7 @@ Adobe Experience Manager Guides fügt jetzt ein **format**-Attribut für Referen
 - Für Dateien mit der Erweiterung **.** wird das Format auf &quot;**&quot;**
 - Für Dateien mit den Dateien **.** oder **.** wird das Format auf **dita**
 
-Darüber hinaus ist das Format von Dateien mit der **&#x200B;**.xml **ebenfalls auf dita** festgelegt. Bei Dateien ohne Erweiterung bleibt das Format leer. Darüber hinaus wird für alle Referenz-Links mit dem Bereich **extern** das Format auf **html** festgelegt, unabhängig von der Dateierweiterung in den Referenz-Links.
+Darüber hinaus ist das Format von Dateien mit der ****.xml **ebenfalls auf dita** festgelegt. Bei Dateien ohne Erweiterung bleibt das Format leer. Darüber hinaus wird für alle Referenz-Links mit dem Bereich **extern** das Format auf **html** festgelegt, unabhängig von der Dateierweiterung in den Referenz-Links.
 
 
 ## Präzise Kommunikation für große Dateien im Editor
@@ -51,6 +52,6 @@ Experience Manager Guides bietet ein verbessertes Sucherlebnis im Bedienfeld „
 Weitere Informationen finden Sie unter [Wiederverwendbare Inhalte](../user-guide/web-editor-features.md#reusable-content).
 
 
-## DITA OT-Versionsaktualisierung für Microservice-Container
+## Java-Versionsaktualisierung für Microservice-Container
 
 Bei Cloud-Umgebungen, die für Microservices aktiviert sind, werden wir auf Java 21 umstellen, um sicherzustellen, dass die vorhandenen DITA-OT- und nativen PDF-Generierungsprozesse unbeeinflusst bleiben. Der vorhandene Workflow von DITA-OT 3 funktioniert weiterhin nahtlos mit Java 21.  Darüber hinaus ist DITA-OT 4 voll funktionsfähig, sodass Anwender PDFs mit DITA-OT und nativem PDF generieren sowie Ausgaben für native AEM-Sites und andere Formate erstellen können.
