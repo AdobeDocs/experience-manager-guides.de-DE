@@ -26,7 +26,7 @@ Adobe Experience Manager Guides fügt jetzt ein **format**-Attribut für Referen
 - Für Dateien mit der Erweiterung **.** wird das Format auf &quot;**&quot;**
 - Für Dateien mit den Dateien **.** oder **.** wird das Format auf **dita**
 
-Darüber hinaus ist das Format von Dateien mit der ****.xml **ebenfalls auf dita** festgelegt. Bei Dateien ohne Erweiterung bleibt das Format leer. Darüber hinaus wird für alle Referenz-Links mit dem Bereich **extern** das Format auf **html** festgelegt, unabhängig von der Dateierweiterung in den Referenz-Links.
+Darüber hinaus ist das Format von Dateien mit der **&#x200B;**.xml **ebenfalls auf dita** festgelegt. Bei Dateien ohne Erweiterung bleibt das Format leer. Darüber hinaus wird für alle Referenz-Links mit dem Bereich **extern** das Format auf **html** festgelegt, unabhängig von der Dateierweiterung in den Referenz-Links.
 
 ## Exportierte Baseline enthält jetzt den Dokumentstatus
 
