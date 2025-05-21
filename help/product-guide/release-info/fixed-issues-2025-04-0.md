@@ -1,9 +1,10 @@
 ---
 title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 2025.04.0 behoben
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2025.04.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9a943a26a22b64035b61c72c47268a0de2c23b7f
+exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
+source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '771'
 ht-degree: 3%
 
 ---
@@ -60,12 +61,10 @@ Adobe hat die folgenden bekannten Probleme in Version 2025.04.0 identifiziert:
 - Eine leere Zeile wird automatisch eingefügt, wenn neue Inhalte in eine neue Zeile innerhalb eines `codeblock` eingefügt werden.27842)
 - Beim Wechseln zwischen Voreinstellungen, die dieselbe Baseline verwenden, wird die Schaltfläche **Speichern** für die aktuelle Voreinstellung deaktiviert. 28025)
 - Ein Thema innerhalb einer DITA-Zuordnung kann nicht in der AEM Sites-Ausgabe veröffentlicht werden, wenn es sowohl als `keydef` als auch als `topicref` in seinen Unterzuordnungen verwendet wird. 22269)
-- In der AEM Sites-Ausgabe werden Bilder beschädigt, wenn die Grundlinie beim Veröffentlichen nicht angewendet wird. 28043)
 - Ein Programmfehler tritt auf, wenn mehrere Themen einer Zuordnung bearbeitet und dann mit der Option **Alle schließen** geschlossen werden und die Einstellung **Beim Speichern der Version beim Schließen**.27931)
 
+Adobe hat das folgende bekannte Problem mit einer Problemumgehung identifiziert:
 
-
-
-
-
-
++++In der AEM Sites-Ausgabe werden Bilder beschädigt, wenn die Grundlinie beim Veröffentlichen nicht angewendet wird. 28043)
+***Problemumgehung:*** Sie können solche Assets über die **Assets-Benutzeroberfläche** veröffentlichen, woraufhin der Link funktionsfähig wird.
++++
