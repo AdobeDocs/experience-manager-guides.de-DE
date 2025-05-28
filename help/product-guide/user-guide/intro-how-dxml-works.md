@@ -20,4 +20,4 @@ Das folgende Diagramm veranschaulicht, wie Experience Manager Guides mit AEM und
 Wenn während eines Workflows die Sitzung lange Zeit inaktiv bleibt, wird eine Zeitüberschreitungsaufforderung für die Sitzung ausgelöst, um einen Inhaltsverlust zu verhindern. Weitere Informationen finden Sie unter [Sitzungs-Timeout](./session-timeout-prompt.md).
 
 
-**Übergeordnetes Thema:**[&#x200B;Über Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B;Über Adobe Experience Manager Guides as a Cloud Service](intro.md)

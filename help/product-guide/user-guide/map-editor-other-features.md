@@ -72,4 +72,4 @@ Ein Navigationsverweis der ausgewählten Zuordnungsdatei wird am angegebenen Spe
 *Layout-Ansicht*
 
 
-**Übergeordnetes Thema:**[ Einführung in den Zuordnungs-Editor](map-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Zuordnungs-Editor](map-editor.md)
