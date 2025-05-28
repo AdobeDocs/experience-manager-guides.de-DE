@@ -1,12 +1,12 @@
 ---
-title: Weitere Funktionen in den Zuordnungs-Editoren
+title: Weitere Funktionen des Zuordnungs-Editors
 description: Entdecken Sie einige allgemeine Funktionen im Karteneditor. Erfahren Sie, wie Sie wichtige Verweise im Zuordnungs-Editor auflösen.
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: 41c6e4edb470038c4934c01f1c28539f1e4d4f86
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,35 @@ Diese Stammzuordnung gilt für alle mit diesem Projekt verknüpften Assets \(Ord
 
 **Themenbearbeitungsansicht** - Wählen Sie beim Bearbeiten eines DITA-Themas das Symbol für die Tastenauflösung und dann die DITA-Datei aus, die für die Auflösung der Schlüsselverweise verwendet werden soll.
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung in den Zuordnungs-Editor](map-editor.md)
+## Hinzufügen von Navigationsverweisen
+
+Das `navref`-Element wird in einer DITA-Zuordnung verwendet, um Navigationsverweise aus einer anderen DITA-Zuordnung einzuschließen. Dadurch können Autoren Navigationsstrukturen wie freigegebene Menüs oder Links wiederverwenden, ohne den tatsächlichen Inhalt der referenzierten Zuordnung mit der Ausgabe zusammenzuführen.
+
+>[!NOTE]
+>
+> Das `navref`-Element ist ausschließlich für Navigationszwecke innerhalb der Kartenstruktur vorgesehen. Es trägt nicht zur generierten DITA-Zuordnungsausgabe bei und wird von der Verarbeitung ausgeschlossen und in der Zuordnungsansicht, in Berichten, in der Grundlinie, in der Übersetzung und in der Vorschau angezeigt.
+
+Führen Sie die folgenden Schritte aus, um einer Zuordnung Navigationsverweise hinzuzufügen:
+
+1. Öffnen Sie die DITA-Zuordnungsdatei, der Sie einen Navigationsverweis hinzufügen möchten.
+
+   Die Zuordnungsdatei wird im Zuordnungs-Editor geöffnet.
+1. Wechseln Sie zur Autorenansicht und platzieren Sie den Cursor an einer gültigen Position für eine Navigationsreferenz.
+1. Wählen Sie die Option **Element** in der Symbolleiste aus.
+1. Wählen Sie im **Element einfügen** die Option **navref**.
+
+   ![](./images/select-navref-element.png)
+1. Das **Pfad auswählen** wird angezeigt. Wählen Sie eine Zuordnungsdatei aus, die Sie als Navigationsreferenz in Ihre Zuordnung aufnehmen möchten, und wählen Sie **Auswählen**.
+
+Ein Navigationsverweis der ausgewählten Zuordnungsdatei wird am angegebenen Speicherort hinzugefügt. Außerdem wird der Titel der referenzierten Zuordnung sowohl in der Autoren- als auch in der Layout-Ansicht angezeigt.
+
+![](./images/navref-added-author-view.png)
+
+*Autorenansicht*
+
+![](./images/navref-added-layout-view.png)
+
+*Layout-Ansicht*
+
+
+**Übergeordnetes Thema:**[ Einführung in den Zuordnungs-Editor](map-editor.md)

@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
+source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Um einen reibungslosen Übergang sicherzustellen und Unterbrechungen zu minimier
 
 >[!IMPORTANT]
 >
-> Diese Konfigurationsoption zum Wechseln zwischen der neuen und der alten Benutzeroberfläche ist bis zur Version 2025.4.0 verfügbar. Danach wird die neue Benutzeroberfläche zur Standardbenutzeroberfläche und die Option zum Zurückwechseln zur vorherigen Benutzeroberfläche wird nicht mehr unterstützt.
+> Diese Konfigurationsoption zum Wechseln zwischen der neuen und der alten Benutzeroberfläche wurde bis zur Version 2025.4.0 unterstützt. Mit der Version 2025.6.0 ist diese Einstellung veraltet und kann nicht mehr für die Wiederherstellung zur alten Benutzeroberfläche verwendet werden.
 
 Führen Sie die folgenden Schritte aus, um die Benutzeroberfläche von Experience Manager Guides zu konfigurieren:
 
@@ -65,4 +65,4 @@ Führen Sie die folgenden Schritte aus, um die Benutzeroberfläche von Experienc
 
 
 
-**Übergeordnetes Thema:**&#x200B;[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

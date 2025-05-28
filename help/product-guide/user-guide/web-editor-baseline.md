@@ -4,9 +4,9 @@ description: Erstellen und verwalten Sie Baselines über die Zuordnungskonsole i
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
+source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Wählen **in „Version basierend auf auswählen** eine der folgenden Optionen a
 
 - **Datum** : Wählt die Version der Themen zum angegebenen Zeitpunkt aus.
 - **Beschriftung**: Wählen Sie diese Option aus, um die Themen entsprechend der ihnen zugewiesenen Beschriftung auszuwählen. Wenn für die Themen Beschriftungen angegeben sind, werden die Beschriftungen in der Dropdown-Liste aufgelistet. Sie können einen Titel aus der Liste auswählen. Sie können dem Textfeld auch einen Titel hinzufügen.
+
+  >[!NOTE]
+  >
+  > Bei der Auswahl von Kennzeichnungen bleibt das Kennzeichnungsladeprogramm sichtbar, bis alle Kennzeichnungen erfolgreich abgerufen und vollständig geladen wurden. Nach dem Laden werden die Kennzeichnungen in alphabetischer Reihenfolge ohne Unterscheidung der Groß-/Kleinschreibung angezeigt. Sie werden in Stapeln von 20 abgerufen, wobei unendlicher Bildlauf in der Dropdown-Liste aktiviert ist, um beim Scrollen zusätzliche Stapel zu laden.
 
   Für die direkten Verweise in statischen Basislinien werden die Beschriftungen aus der zuletzt gespeicherten Version der Zuordnung abgerufen. Beispiel: Sie haben die Bezeichnungen `Label Release 1.0` und `Label Release 1.1` für die Versionen 1.0 und 1.1 von Thema A erstellt und anschließend Thema A zu der als Version 1.0 gespeicherten Zuordnung hinzugefügt. In diesem Fall können Sie die Beschriftungen `Label Release 1.0` und `Label Release 1.1` in der Dropdown-Liste für statische Baseline-Beschriftungen anzeigen.
 
@@ -164,5 +168,5 @@ Mithilfe des Symbols Filter im Bedienfeld **Baseline-Filter** können Sie Filter
 
 Nachdem Sie die Baseline bearbeitet haben, klicken Sie auf **Speichern**, um die Änderungen an der Baseline zu speichern. Sie können auf **Zurücksetzen** klicken, wenn Sie die Änderung nicht speichern und die Grundlinie zurücksetzen möchten. Bei Auswahl von **Zurücksetzen** wird eine Warnung angezeigt, dass Ihre nicht gespeicherten Änderungen verloren gehen.
 
-**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
 

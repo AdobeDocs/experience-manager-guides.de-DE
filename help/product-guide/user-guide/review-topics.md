@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Themen überprüfen und die Funktionen als Re
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2476'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
 
    - **G**: Anzahl der eingegangenen Kommentare zu einem Thema. Diese Zahl ändert sich je nach angewendetem Filter.
 
+
    Alle Themen in der Karte werden als einzelnes zusammengesetztes Dokument angezeigt. Die Themen, die der Reviewer überprüfen darf, werden normal angezeigt. Die Themen, die die Überprüfung nicht überprüfen darf, werden nicht angezeigt.
 
    ![](images/review-read-only.png){align="left"}
@@ -91,6 +92,12 @@ Das Kommentarfeld unterstützt mehrzeilige Einträge und ermöglicht es Benutzer
 **Dokumentansicht und Themenansicht** - Wenn mehrere Themen zur Überprüfung freigegeben werden, wird den Reviewern standardmäßig eine zusammengesetzte Dokumentansicht mit Themen angezeigt. Im Falle einer DITA-Kartenüberprüfung werden alle Themen in der Karte in Form eines einzigen Dokuments präsentiert, das einer Buchansicht ähnelt. Bei Bedarf können Sie auch ein bestimmtes Thema auswählen. Nur dieses Thema wird dann auf dem Überprüfungsbildschirm angezeigt.
 
 Wenn Sie ein einzelnes Thema anzeigen, erhalten Sie eine zusätzliche Option, um zur Dokumentansicht zurückzukehren. Im folgenden Screenshot wird ein bestimmtes Thema aus einer Zuordnungsdatei zur Überprüfung geöffnet. Mit der hervorgehobenen Option **Dokumentansicht anzeigen** können Benutzer zur Dokumentansicht der Zuordnungsdatei zurückkehren.
+
+>[!NOTE]
+>
+> Jede Bildschirmauflösung mit einer Breite von mehr als 1600 Pixel ist mit den Standardfeldbreiten (links und rechts) kompatibel, sodass keine horizontale Bildlaufleiste angezeigt wird und der Inhalt in der Dokumentansicht korrekt ausgerichtet bleibt. Außerdem können Sie die Größe des Bildschirms jederzeit ändern, um die entsprechende Dokumentansicht in der Überprüfungs-Benutzeroberfläche beizubehalten.
+
+
 
 ![](images/switch-document-view.png){align="left"}
 
@@ -250,4 +257,4 @@ Wählen Sie eine oder mehrere der folgenden Filteroptionen aus dem Dialogfeld **
 
 Um den Filter zu entfernen und alle Kommentare anzuzeigen, heben Sie die Auswahl aller Filter im Dialogfeld **Filtertyp** auf und wählen Sie **Anwenden** aus.
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

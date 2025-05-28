@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2122'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 9%
       - Cloud Services {#cloud-release-notes}
          - [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
          - Versionen 2025 {#2025-releases}
+            - Version 2025.06.0 {#2506-release}
+               - [Neue Funktionen](./release-info/whats-new-2025-06-0.md)
+               - [Behobene Probleme](./release-info/fixed-issues-2025-06-0.md)
+               - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2025-06-0.md)
             - Version 2025.04.0 {#2504-release}
                - [Neue Funktionen](./release-info/whats-new-2025-04-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2025-04-0.md)
@@ -129,8 +133,8 @@ ht-degree: 9%
                - [Versionshinweise für 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Versionshinweise zu 4.2](./release-info/release-notes-4-2.md)
          - [Versionshinweise zu 4.1.x](./release-info/release-notes-4-1.md)
-         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Versionshinweise zu [4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Versionshinweise zu [3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -173,6 +177,7 @@ ht-degree: 9%
          - [Erstellen einer Zuordnung](./user-guide/map-editor-create-map.md)
          - [Erstellen von Karten basierend auf benutzerdefinierten Vorlagen](./user-guide/create-maps-customized-templates.md)
          - [Funktionen des Zuordnungs-Editors](./user-guide/map-editor-advanced-map-editor.md)
+         - [Dateien herunterladen](./user-guide/authoring-download-assets.md)
          - [Zusätzliche Funktionen im Karten-Editor](./user-guide/map-editor-other-features.md)
       - DITAVAL-Editor {#ditaval-editor}
          - [Verwenden des DITAVAL-Editors](./user-guide/ditaval-editor.md)
@@ -275,9 +280,11 @@ ht-degree: 9%
          - [Wichtige Konzepte, Rollen und Berechtigungen sowie Voraussetzungen](./user-guide/authoring.md)
          - [Hochladen von Dateien](./user-guide/authoring-upload-existing-files.md)
          - [Dateien und Ordner verwalten](./user-guide/authoring-file-management.md)
-         - [Dateien herunterladen](./user-guide/authoring-download-assets.md)
+         - [Verarbeiten oder Erneutes Verarbeiten von Assets](./user-guide/asset-processor.md)
+      - Fehlerbehebung {#troubleshooting}
+         - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [On-Premise-Grundlagen](./install-guide/introduction.md)
@@ -531,7 +538,7 @@ ht-degree: 9%
       - Externe Datenquelle {#external-data-source}
          - [Integrieren von Datenquellen](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
          - [Konfigurieren eines Datenquellen-Connectors](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
-      - Veröffentlichung {#publishing}
+      - Publishing {#publishing}
          - Native PDF {#native-pdf}
             - [Hinzufügen benutzerdefinierter Schriftarten zu Ihrer nativen DITA-PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
             - [Konfigurieren der AEM-Umgebung für die native Veröffentlichung von PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)

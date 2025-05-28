@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+source-git-commit: 10c0a105c09f5a20b5bf2ef9b3201e7747048a8a
 workflow-type: tm+mt
-source-wordcount: '4756'
+source-wordcount: '4794'
 ht-degree: 0%
 
 ---
@@ -433,7 +433,7 @@ Führen Sie die folgenden Schritte aus, um die Standard-KI-Konfiguration im glob
 
 1. Wählen Sie auf der Profilseite die Registerkarte **KI-Konfiguration** aus.
 
-   ![Registerkarte „KI-Konfiguration“ im globalen Profil](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+   ![Registerkarte KI-Konfiguration im globalen Profil](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
 1. Wählen Sie **Bearbeiten** aus.
 1. Als Administrator können Sie die folgenden Einstellungen konfigurieren:
@@ -456,7 +456,7 @@ Erfahren Sie mehr darüber, wie Sie [KI-basierte Smart-Vorschläge](../user-guid
 
 Für ![AEM Cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview).
+Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 Auf der Registerkarte **XML** Editor-Konfiguration“ können Sie die Standardfragen des Bedienfelds **Hilfe** konfigurieren.
 
@@ -508,7 +508,11 @@ Standardmäßig verfügt der XML-Editor über viele Funktionen, die Ihre Autoren
 
 Mit dieser Einstellung können Sie JSON-Erweiterungen erstellen, die die in der `ui_config.json`-Datei vorgenommenen Änderungen widerspiegeln. Sie können diese Erweiterungen unabhängig auf Ordnerprofilebene hochladen, was eine höhere Flexibilität und Anpassung bietet. Wenn Sie beispielsweise Änderungen an der Konfiguration des **XML-Editors** vornehmen, wie z. B. eine Schaltfläche aktualisieren, erkennt das System automatisch die Unterschiede. Durch Hochladen dieser Änderungen in die **Konfiguration der Benutzeroberfläche des XML-Editors** und Konvertieren in JSON-Erweiterungen mithilfe der Schaltfläche **UI-Konfiguration in JSON**&quot; generiert das System eine Erweiterung, die die neue Funktionalität enthält.
 
-Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+
+>[!NOTE]
+>
+> Beim Anpassen der App mithilfe des Erweiterungs-Frameworks wird empfohlen, nur die unterstützten grundlegenden React Spectrum-Komponenten wie Tree, Table, Checkbox, Radio Button und Radio Group usw. zu verwenden, um Probleme während der Bereitstellung zu vermeiden.
 
 **Seiten-Layout des XML-Editors**
 
