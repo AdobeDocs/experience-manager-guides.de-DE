@@ -62,7 +62,7 @@ Vor Ausführung des Prozesses gibt es bestimmte Aufgaben, die Sie abschließen m
 
 
 
-****Voraussetzungen****
+**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
 
 Bevor Sie mit dem Experience Manager Guides-Upgrade-Prozess beginnen, stellen Sie sicher, dass die folgenden Punkte erfüllt sind:
 
@@ -135,7 +135,7 @@ Die Aktualisierung auf Version 4.2 hängt von der aktuellen Version von Experien
 
 Wenn Sie Version 4.0, 4.1 oder 4.1.x verwenden, können Sie direkt auf Version 4.2 aktualisieren.
 
-****Voraussetzungen****
+**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
 
 Bevor Sie mit dem Upgrade auf Experience Manager Guides 4.2 beginnen, stellen Sie Folgendes sicher:
 
@@ -311,7 +311,7 @@ Die Aktualisierung auf Version 4.2.1 hängt von der aktuellen Version von Experi
 >
 >Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-****Voraussetzungen****
+**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.2.1 Folgendes sicher:
 
@@ -488,7 +488,7 @@ Die Aktualisierung auf Version 4.3.0 hängt von der aktuellen Version von Experi
 >
 >Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-****Voraussetzungen****
+**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.3.0 Folgendes sicher:
 
@@ -546,7 +546,7 @@ Die Aktualisierung auf Version 4.3.1 hängt von der aktuellen Version von Experi
 >
 >Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-****Voraussetzungen****
+**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.3.1 Folgendes sicher:
 
@@ -787,7 +787,7 @@ Die Aktualisierung auf Version 4.4.0 hängt von der aktuellen Version von Experi
 >
 >Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-****Voraussetzungen****
+**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.4.0 Folgendes sicher:
 
@@ -980,7 +980,7 @@ Wenn Sie einen anderen benutzerdefinierten Sling Rewriter in Ihrer Codebasis hab
 Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müssen Sie den vorhandenen benutzerdefinierten Rewriter (sofern vorhanden) mit `'fmdita-rewriter'` zusammenführen.
 
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**&#x200B;[ Herunterladen und installieren](download-install.md)
 
 
 ## Aktualisieren auf Version 4.6.0
@@ -995,7 +995,7 @@ Die Aktualisierung auf Version 4.6.0 hängt von der aktuellen Version von Experi
 >
 > Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-****Voraussetzungen****
+**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.6.0 Folgendes sicher:
 
@@ -1150,7 +1150,7 @@ Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müsse
 >
 > Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-****Voraussetzungen****
+**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 5.0.0 Folgendes sicher:
 
