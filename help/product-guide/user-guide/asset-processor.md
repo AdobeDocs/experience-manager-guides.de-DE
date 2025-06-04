@@ -4,7 +4,8 @@ description: Erfahren Sie, wie Sie Assets verarbeiten
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0e744baeb6867bfc9e7d212ec53e581812d8f63
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
+source-git-commit: 851dafc1f17864bf6a295de7be12ffe513c3af57
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Gehen Sie wie folgt vor, um die Assets zu verarbeiten oder erneut zu verarbeiten
 1. Wählen Sie im Bedienfeld **Tools** die Option **Guides** aus.
 1. Wählen Sie die Kachel **Asset-Prozessor** aus.
 
-   ![flow-asset-processor](images/flow-asset-processor.png){width="550" align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
 
 1. Das Fenster Guides Asset-Prozessor wird mit den unten angezeigten Details geöffnet. Außerdem werden in diesem Fenster nur die Informationen zu den letzten fünf Migrationen angezeigt.
 
@@ -43,7 +44,7 @@ Gehen Sie wie folgt vor, um die Assets zu verarbeiten oder erneut zu verarbeiten
 
    - **Status**: verweist auf den Status der erneuten Verarbeitung als In Bearbeitung, Abgeschlossen oder Abgebrochen.
 
-   ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
+   ![Guides-asset-processor](images/guides-asset-processor.png){align="left"}
 
 1. Wählen Sie **Registerkarte** Neuer Prozess“ in der oberen rechten Ecke des Fensters, um eine neue Verarbeitungsaufgabe zu starten.
 
@@ -66,20 +67,16 @@ Zusätzliche Optionen stehen für die Verarbeitungsaufgabe zur Verfügung, sobal
 
 - **Neu starten** : Startet die zuvor erfolgreiche Asset-Verarbeitungsaufgabe neu.
 
-  ![restart-asset-processor](images/restart-asset-processor.png){width="550" align="left"}
+  ![restart-asset-processor](images/restart-asset-processor.png){align="left"}
 
 - **Fortsetzen** : Setzt die zuvor abgebrochene oder fehlgeschlagene Asset-Verarbeitungsaufgabe fort.
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="550" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){align="left"}
 
 - **Abbrechen** : Bricht die derzeit ausgeführte Asset-Verarbeitungsaufgabe ab.
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="550" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){align="left"}
 
 - **Protokolle anzeigen**: Zeigt die Protokolle für die Asset-Verarbeitungsaufgabe an. Für laufende Aufgaben zeigt das Protokoll detaillierte Verarbeitungsinformationen an, einschließlich der geschätzten verbleibenden Zeit und des Asset-Status. Diese Protokollliste zeigt die neuesten 500 Einträge an. Das vollständige Protokoll kann heruntergeladen werden.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-
+  ![logs-asset-processor](images/logs-asset-processor.png){align="left"}

@@ -5,10 +5,10 @@ exl-id: a5742082-cc0b-49d9-9921-d0da1b272ea5
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 026d75e69ef002607ac375cf1af7d055fcc22b38
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 1%
+source-wordcount: '1477'
+ht-degree: 2%
 
 ---
 
@@ -20,14 +20,14 @@ Weitere Informationen zu Workflows in AEM finden Sie unter:
 
 - [Verwalten von Workflow-Instanzen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=de)
 
-- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=de).
+- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
 
 Die Abschnitte in diesem Abschnitt erläutern verschiedene Anpassungen, die Sie in den in AEM Guides bereitgestellten Standard-Workflows vornehmen können.
 
 ## Anpassen des Workflow für Überprüfungen {#id176NE0C00HS}
 
-Das Inhaltserstellungs-Team jedes Unternehmens arbeitet auf eine bestimmte Weise, um seine Geschäftsanforderungen zu erfüllen. In einigen Organisationen gibt es einen dedizierten Editor, während andere Organisationen ein automatisiertes redaktionelles Überprüfungssystem haben könnten. In einer Organisation kann ein typischer Authoring- und Publishing-Workflow beispielsweise Aufgaben wie enthalten: Wenn ein Autor mit der Inhaltserstellung fertig ist, geht er automatisch an die Validierungsverantwortlichen. Nach Abschluss der Überprüfung wird er an den Publisher weitergeleitet, um die endgültige Ausgabe zu generieren. In AEM können Aktivitäten, die Sie für Ihre Inhalte und Assets ausführen, in Form eines Prozesses kombiniert und einem AEM-Workflow zugeordnet werden. Weitere Informationen zu Workflows in AEM finden Sie unter [Verwalten von Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=de) in der AEM-Dokumentation.
+Das Inhaltserstellungs-Team jedes Unternehmens arbeitet auf eine bestimmte Weise, um seine Geschäftsanforderungen zu erfüllen. In einigen Organisationen gibt es einen dedizierten Editor, während andere Organisationen ein automatisiertes redaktionelles Überprüfungssystem haben könnten. In einer Organisation kann ein typischer Authoring- und Publishing-Workflow beispielsweise Aufgaben wie enthalten: Wenn ein Autor mit der Inhaltserstellung fertig ist, geht er automatisch an die Validierungsverantwortlichen. Nach Abschluss der Überprüfung wird er an den Publisher weitergeleitet, um die endgültige Ausgabe zu generieren. In AEM können Aktivitäten, die Sie mit Ihren Inhalten und Assets durchführen, in Form eines Prozesses kombiniert und einem AEM-Workflow zugeordnet werden. Weitere Informationen zu Workflows in AEM finden Sie unter [Verwalten von Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=de) in der Dokumentation zu AEM.
 
 Mit AEM Guides können Sie den standardmäßigen Überprüfungs-Workflow anpassen. Sie können die folgenden vier benutzerdefinierten Überprüfungsprozesse mit Ihren anderen Authoring- oder Publishing-Workflows verwenden.
 
@@ -40,7 +40,9 @@ Mit AEM Guides können Sie den standardmäßigen Überprüfungs-Workflow anpasse
 - **Auftrag zum Schließen der Überprüfung planen**: Dieser Prozess stellt sicher, dass der Überprüfungsprozess beim Erreichen der Frist abgeschlossen wird.
 
 
-Beim Erstellen eines benutzerdefinierten Überprüfungs-Workflows besteht die erste Aufgabe darin, die erforderlichen Metadaten festzulegen, die für den Prozess „Überprüfung erstellen“ benötigt werden. Dazu können Sie ein ECMA-Skript erstellen. Ein Beispiel für das ECMA-Skript, das die Metadaten zuweist, finden Sie unten:
+Beim Erstellen eines benutzerdefinierten Überprüfungs-Workflows besteht die erste Aufgabe darin, die erforderlichen Metadaten festzulegen, die für den Prozess „Überprüfung erstellen“ benötigt werden. Dazu können Sie ein ECMA-Skript erstellen. Ein Beispiel für das ECMA-Skript, das die Metadaten zuweist, finden Sie unten sowohl für das Thema als auch für die Zuordnung.
+
+**für Thema**
 
 ```javascript
 var workflowdata=workItem.getWorkflowData();
@@ -55,9 +57,38 @@ workflowdata.getMetaDataMap().put("assignee","user-one", "user-two");
 workflowdata.getMetaDataMap().put("status","1");
 workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
+workflowdata.getMetaDataMap().put("reviewType", "AEM");
+workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
+workflowdata.getMetaDataMap().put("isDitamap","false");
 ```
 
-Sie können dieses Skript im Knoten `/etc/workflows/scripts` erstellen. In der folgenden Tabelle werden die Eigenschaften beschrieben, die von diesem ECMA-Skript zugewiesen werden:
+**Für Karte**
+
+```javascript
+var workflowdata = workItem.getWorkflowData();
+workflowdata.getMetaDataMap().put("initiator", "admin");
+workflowdata.getMetaDataMap().put("operation", "AEM_REVIEW");
+workflowdata.getMetaDataMap().put("orgTopics", "GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita|GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita|GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita|");
+var payloadJson = "{\"referrer\":\"\",\"rootMap\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"asset\":[\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\"],\"base\":\"/content/dam\"}";
+workflowdata.getMetaDataMap().put("payloadJson", payloadJson);
+workflowdata.getMetaDataMap().put("deadline", "2047-06-27T13:19:00.000+05:30");
+workflowdata.getMetaDataMap().put("title", "Review task via workflow with map");
+workflowdata.getMetaDataMap().put("description", "Review task via workflow with map Description");
+workflowdata.getMetaDataMap().put("assignee", "user-one");
+workflowdata.getMetaDataMap().put("status", "1");
+workflowdata.getMetaDataMap().put("projectPath", "/content/projects/review_project_via_workflow");
+workflowdata.getMetaDataMap().put("startTime", new Date().getTime());
+var versionJson = "[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]}]";
+workflowdata.getMetaDataMap().put("versionJson", versionJson);
+workflowdata.getMetaDataMap().put("notifyViaEmail", "true");
+workflowdata.getMetaDataMap().put("allowAllReviewers", "false");
+workflowdata.getMetaDataMap().put("isDitamap", "true");
+workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
+var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
+workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+```
+
+Sie können diese Skripte im Knoten `/etc/workflows/scripts` erstellen. In der folgenden Tabelle werden die Eigenschaften beschrieben, die von den beiden oben genannten ECMA-Skripten zugewiesen werden.
 
 | Eigenschaft | Typ | Beschreibung |
 |--------|----|-----------|
@@ -71,6 +102,15 @@ Sie können dieses Skript im Knoten `/etc/workflows/scripts` erstellen. In der f
 | `assignee` | Zeichenfolge | Benutzer-ID der Benutzer, an die Sie die Themen zur Überprüfung senden möchten. |
 | `status` | Ganzzahl | Ein statischer Wert, der auf 1 gesetzt ist. |
 | `startTime` | Long | Verwenden Sie die `System.currentTimeMillis()`, um die aktuelle Systemzeit abzurufen. |
+| `projectPath` | Zeichenfolge | Pfad des Überprüfungsprojekts, dem die Überprüfungsaufgabe zugewiesen wird, z. B.: /content/projects/samplereviewproject. |
+| `reviewType` | Zeichenfolge | Statischer Wert &quot;AEM&quot;. |
+| `versionJson` | JSON-Objekt | versionJson ist eine Liste von Themen, die in die Überprüfung aufgenommen werden und bei denen jedes Themenobjekt die folgende Struktur aufweist: { „path“: &quot;/content/dam/1-topic.dita&quot;, „version“: „1.1“, „review“: true, „reviewers“: [„projects-we_retail-editor“] } |
+| `isDitamap` | Boolesch | false/true |
+| `ditamapHierarchy` | JSON-Objekt | Falls die Karte zur Überprüfung gesendet wird, sollte der Wert hier wie folgt sein:[ { „path“: „GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap“, „items“: [ { „path“: „GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita“, „title“: &quot;&quot;, „items“: [] } ] } ]. |
+| `ditamap` | Zeichenfolge | Geben Sie den Pfad der Imagemap der Prüfungsaufgabe an |
+| `allowAllReviewers` | Boolesch | false/true |
+| `notifyViaEmail` | Boolesch | false/true |
+
 
 Nachdem Sie das Skript erstellt haben, rufen Sie es auf, bevor Sie den Prozess zum Erstellen einer Überprüfung in Ihrem Workflow aufrufen. Anschließend können Sie je nach Ihren Anforderungen die anderen Überprüfungs-Workflow-Prozesse aufrufen.
 
@@ -80,18 +120,18 @@ Um die Leistung der Workflow-Engine zu verbessern, können Sie regelmäßig abge
 
 Sie können verhindern, dass Überprüfungs-Workflows automatisch bereinigen, indem Sie das Modell des Überprüfungs-Workflows \(information\) aus der Konfiguration der automatischen Bereinigung entfernen. Sie müssen die **Adobe Granite Workflow-Bereinigungskonfiguration** verwenden, um die Workflow-Modelle für die Überprüfung aus der Liste für die automatische Bereinigung zu entfernen.
 
-Stellen Sie in der **Adobe Granite Workflow-** sicher, dass Sie mindestens einen Workflow auflisten, den Sie sicher bereinigen können. Sie können beispielsweise einen der folgenden von AEM Guides erstellten Workflows verwenden:
+Stellen Sie in der **Adobe Granite Workflow-Bereinigungskonfiguration** sicher, dass Sie mindestens einen Workflow auflisten, den Sie sicher bereinigen können. Sie können beispielsweise einen der folgenden von AEM Guides erstellten Workflows verwenden:
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
-Durch Hinzufügen eines Workflows in der **Adobe Granite Workflow-Bereinigungskonfiguration** sichergestellt, dass AEM nur die Workflows bereinigt, die in der Konfiguration aufgeführt sind. Dadurch wird verhindert, dass AEM die Informationen des Überprüfungs-Workflows bereinigt.
+Durch Hinzufügen eines Workflows in der **Adobe Granite Workflow-Bereinigungskonfiguration** wird sichergestellt, dass AEM nur die Workflows bereinigt, die in der Konfiguration aufgeführt sind. Dadurch wird verhindert, dass AEM die Informationen des Überprüfungs-Workflows bereinigt.
 
-Weitere Informationen zum Konfigurieren der **Adobe Granite Workflow-Bereinigungskonfiguration** finden Sie unter *Verwalten von Workflow-Instanzen* in der AEM-Dokumentation.
+Weitere Informationen zum Konfigurieren der **Adobe Granite Workflow-Bereinigungskonfiguration** finden Sie unter *Verwalten von Workflow-Instanzen* in der Dokumentation zu AEM.
 
 ### E-Mail-Vorlagen anpassen
 
-In einer Reihe von AEM Guides-Workflows werden E-Mail-Benachrichtigungen verwendet. Wenn Sie beispielsweise eine Prüfungsaufgabe initiieren, wird eine E-Mail-Benachrichtigung an die Validierungsverantwortlichen gesendet. Um jedoch sicherzustellen, dass die E-Mail-Benachrichtigung gesendet wird, müssen Sie diese Funktion in AEM aktivieren. Informationen zum Aktivieren der E-Mail-Benachrichtigung in AEM finden Sie im Artikel [Senden von E-Mail](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de#sending-email) in der AEM-Dokumentation.
+In einer Reihe von AEM Guides-Workflows werden E-Mail-Benachrichtigungen verwendet. Wenn Sie beispielsweise eine Prüfungsaufgabe initiieren, wird eine E-Mail-Benachrichtigung an die Validierungsverantwortlichen gesendet. Um jedoch sicherzustellen, dass die E-Mail-Benachrichtigung gesendet wird, müssen Sie diese Funktion in AEM aktivieren. Informationen zum Aktivieren der E-Mail-Benachrichtigung in AEM finden Sie im Artikel [Senden von E-Mails](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de#sending-email) in der Dokumentation zu AEM.
 
 Die AEM Guides enthält eine Reihe von E-Mail-Vorlagen, die Sie anpassen können. Führen Sie die folgenden Schritte aus, um diese Vorlagen anzupassen:
 
@@ -112,7 +152,7 @@ Die AEM Guides enthält eine Reihe von E-Mail-Vorlagen, die Sie anpassen können
 
 ## Anpassen des Workflows nach der Ausgabe {#id17A6GI004Y4}
 
-AEM Guides bietet Ihnen die Flexibilität, einen Workflow nach der Ausgabe anzugeben. Sie können einige Nachbearbeitungsaufgaben für die Ausgabe ausführen, die mithilfe der AEM Guides generiert wird. Beispielsweise können Sie einige CQ-Tags auf die generierte AEM-Site-Ausgabe anwenden oder bestimmte Eigenschaften auf die PDF-Ausgabe festlegen oder eine E-Mail an eine Benutzergruppe senden, sobald die Ausgabe generiert wurde.
+AEM Guides bietet Ihnen die Flexibilität, einen Workflow nach der Ausgabe anzugeben. Sie können einige Nachbearbeitungsaufgaben für die Ausgabe ausführen, die mithilfe der AEM Guides generiert wird. Beispielsweise können Sie einige CQ-Tags auf die generierte Ausgabe der AEM-Site anwenden oder bestimmte Eigenschaften auf die PDF-Ausgabe festlegen oder eine E-Mail an eine Benutzergruppe senden, sobald die Ausgabe generiert wurde.
 
 Sie können ein neues Workflow-Modell erstellen, das als Workflow nach der Generierung von Ausgaben verwendet werden kann. Wenn ein Workflow zur Erzeugung nach der Ausgabe ausgelöst wird, gibt der Workflow zur Erzeugung von Ausgaben kontextuelle Informationen über die Workflow-Metadatenzuordnung frei, mit denen Sie die Verarbeitung der generierten Ausgabe durchführen können. In der folgenden Tabelle werden die als Metadaten freigegebenen Kontextinformationen beschrieben:
 

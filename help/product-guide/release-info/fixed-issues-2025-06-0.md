@@ -1,7 +1,8 @@
 ---
 title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 2025.06.0 behoben
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2025.06.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 78d8896982ff73e954de6d6daa9832faf30ed3b3
+exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
+source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 4%
@@ -18,7 +19,6 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2025.06.0](upgrade-instr
 
 ## Authoring
 
-- Beim Öffnen einer DITA-Zuordnung mit aktivierter Unified Shell wird der Editor gelegentlich aktualisiert. (GUIDES-26919)
 - Wenn JCR-Sitzungsverbindungen beim Aktualisieren oder Erstellen von Themen nicht geschlossen werden, führt dies zu Speicherlecks und Service-Ausfallzeiten. (GUIDES-26282)
 - Durch Ziehen der Spalten wird deren Breite von Prozentsatz zu Pixelwerten geändert, was zu verzerrten oder falsch ausgerichteten Tabellen führt.(GUIDES-23128)
 - Wenn Inhalte in ein `code block` eingefügt werden oder Leerzeichen im `code block` hinzugefügt werden und die Ansicht gewechselt wird, gehen die Leerzeichen verloren. (GUIDES-27478)
@@ -47,6 +47,8 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2025.06.0](upgrade-instr
 Adobe hat das folgende bekannte Problem in Version 2025.06.0 identifiziert:
 
 - Wenn Sie die Option Suchen und Ersetzen verwenden, können nach dem Anwenden des Vorgangs Einmaliges Vorkommen ersetzen auf eine Datei im Bedienfeld Suchen und Ersetzen keine weiteren Aktionen ausgeführt werden. (GUIDES-28930)
+
+- Beim Öffnen einer DITA-Zuordnung mit aktivierter Unified Shell wird der Editor gelegentlich aktualisiert. (GUIDES-26919)
 
 - Wenn in einem Ordnerprofil ein bereits indiziertes Asset aus der Benutzeroberfläche gelöscht wird, wird der entsprechende indizierte Pfad nicht entfernt, und der Versuch einer Neuindizierung schlägt mit einer Fehlermeldung fehl. (GUIDES-29147) <br>**Problemumgehung:** Sie müssen den veralteten Pfad, der nicht mehr vorhanden ist, entfernen, bevor Sie die Neuindizierung starten.
 
