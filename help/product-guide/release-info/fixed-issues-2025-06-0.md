@@ -2,9 +2,9 @@
 title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 2025.06.0 behoben
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2025.06.0 von Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
+source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -50,6 +50,6 @@ Adobe hat das folgende bekannte Problem in Version 2025.06.0 identifiziert:
 
 - Beim Öffnen einer DITA-Zuordnung mit aktivierter Unified Shell wird der Editor gelegentlich aktualisiert. (GUIDES-26919)
 
-- Wenn in einem Ordnerprofil ein bereits indiziertes Asset aus der Benutzeroberfläche gelöscht wird, wird der entsprechende indizierte Pfad nicht entfernt, und der Versuch einer Neuindizierung schlägt mit einer Fehlermeldung fehl. (GUIDES-29147) <br>**Problemumgehung:** Sie müssen den veralteten Pfad, der nicht mehr vorhanden ist, entfernen, bevor Sie die Neuindizierung starten.
+- Wenn bei einer KI-Konfiguration unter dem Ordnerprofil ein bereits indiziertes Asset aus der Benutzeroberfläche gelöscht wird, wird der entsprechende indizierte Pfad nicht entfernt und der Versuch einer Neuindizierung schlägt mit einer Fehlermeldung fehl. (GUIDES-29147) <br>**Problemumgehung:** Sie müssen den veralteten Pfad, der nicht mehr vorhanden ist, entfernen, bevor Sie die Neuindizierung starten.
 
-- Wenn eine Zuordnung zyklische Abhängigkeiten enthält und Sie die Zuordnungsvorschau öffnen, ist der Zugriff auf die Ansichten Source, Author und Layout erst möglich, wenn die Seite aktualisiert wird. (GUIDES-28334) <br>**Problemumgehung:** Sie müssen die Seite aktualisieren, um den Zugriff auf diese Ansichten wiederherzustellen.
+- Wenn eine Zuordnung zyklische Abhängigkeiten enthält und Sie die Zuordnungsvorschau öffnen, sind die Ansichten &quot;Source&quot;, „Author“ und „Layout“ erst zugänglich, wenn der Browser aktualisiert wird. (GUIDES-28334) <br>**Problemumgehung:** Sie müssen den Browser aktualisieren, um den Zugriff auf diese Ansichten wiederherzustellen.
