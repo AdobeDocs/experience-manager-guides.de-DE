@@ -2,9 +2,10 @@
 title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2025.06.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2025.06.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 147bd8cce875178f94dae5742bc6573b51f24d3a
+exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
+source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -47,3 +48,13 @@ Weitere Informationen finden Sie unter [Dateien ](../user-guide/authoring-downlo
 Die neuesten Verbesserungen am Editor verbessern die Handhabung von `navref` in einer DITA-Zuordnung. Wenn Sie nun ein `navref` Element zu einer Karte hinzufügen, wird das Dialogfeld **Pfad auswählen** geöffnet, in dem Sie einfach die Kartenverweise auswählen können, die als Navigations-Links in Ihre Karte aufgenommen werden sollen. Nach dem Hinzufügen wird der Titel der hinzugefügten Zuordnung sowohl in der Autoren- als auch in der Layout-Ansicht angezeigt, wodurch die enthaltene Navigation beim Authoring besser sichtbar wird.  Darüber hinaus wird das hinzugefügte `navref` automatisch aufgelöst, um die referenzierte Zuordnung im Editor anzuzeigen.
 
 Weitere Informationen finden Sie unter [Navigationsverweise hinzufügen](../user-guide/map-editor-other-features.md#add-navigation-references).
+
+## Leistungsverbesserungen im KI-Assistenten
+
+Die Version führt Verbesserungen an der KI-Assistenten-Backend-Engine ein, die eine verbesserte Leistung und größere Stabilität bietet. So aktivieren Sie diese Aktualisierung und verwenden weiterhin die Hilfe des KI-Assistenten:
+
+- Aktualisieren Sie die `chat.url`, um die neue Endpunkt-URL widerzuspiegeln.
+- Fügen Sie in Cloud Manager eine neue `GUIDES_AI_SITE_ID` hinzu.
+
+Weitere Informationen finden Sie unter [Konfigurieren des KI-Assistenten](../cs-install-guide/conf-smart-suggestions.md).
+
