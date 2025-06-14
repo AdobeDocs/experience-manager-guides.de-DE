@@ -48,7 +48,7 @@ In dieser Sitzung haben Sie Folgendes über das native PDF-Publishing gelernt:
 
 ## Verwandte Ressourcen
 
-- **Native PDF-Setup-Schritte** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
+- **Native PDF-Setup-Schritte** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=de)
 
 - **Funktionsübersicht des nativen PDF-Publishing** - [auf Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=de)
 

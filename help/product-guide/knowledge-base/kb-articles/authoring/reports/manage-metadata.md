@@ -57,8 +57,8 @@ Sie können auch vorhandene Tags entfernen, die in ausgewählten Dateien häufig
 
 ## Weitere hilfreiche Ressourcen
 
-- [Bulk-Tagging mit dem Zuordnungs-Dashboard (Assets-Benutzeroberfläche)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- [Ditamap-Berichte im Web-Editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- [Bulk-Tagging mit dem Zuordnungs-Dashboard (Assets-Benutzeroberfläche)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=de)
+- [Ditamap-Berichte im Web-Editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=de)
 - [Tagging in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=de)
 
 
