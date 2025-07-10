@@ -4,9 +4,9 @@ description: Erstellen und konfigurieren Sie die AEM Sites-Vorgabe in der Zuordn
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 8f2658bd3a724ff375d6d1a9b4474a5cdd8ce270
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3534'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Auf **Registerkarte** Themenliste) wird die Liste der Themen angezeigt, die in d
 
 **Querverweise auf Zuordnungen**
 
-Diese Liste enthält Themen mit Querverweisen auf `scope =”peer”`. Sie können den Veröffentlichungskontext für eine Liste von Querverweiskarten mit `scope=”peer”` zu Themen angeben, die in anderen DITA-Zuordnungen verfügbar sind. Diese Registerkarte wird angezeigt, wenn Sie die Experience Manager Guides-Version (UUID) verwenden.
+Diese Liste enthält Themen mit Querverweisen auf `scope ="peer"`. Sie können den Veröffentlichungskontext für eine Liste von Querverweiskarten mit `scope="peer"` zu Themen angeben, die in anderen DITA-Zuordnungen verfügbar sind. Diese Registerkarte wird angezeigt, wenn Sie die Experience Manager Guides-Version (UUID) verwenden.
 
 Weitere Informationen finden Sie im Abschnitt [Arbeiten mit verknüpften Themen](#working-with-linked-topics) unten.
 
@@ -171,18 +171,20 @@ Die **Allgemein** enthält die folgenden Konfigurationsoptionen:
 
 **Inhalt**
 
+![Neue ](images/aem-sites-content-tab.png){width="650" align="left"}
+
 Die **Inhalt**-Registerkarte enthält die folgenden Konfigurationsoptionen:
 
 | AEM Sites-Optionen | Beschreibung |
 | --- | --- |
-| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [ „Arbeiten mit ](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)&quot;. |
+| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [ „Arbeiten mit ](./web-editor-baseline.md)&quot;. |
 | Bedingte Filterung | Eine der folgenden Optionen auswählen:<br><br>**None**: Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die veröffentlichte Ausgabe anwenden möchten.<br>**Verwenden von DITAVAL**: Wählen Sie DITAVal-Datei(en) aus, um bedingte Inhalte zu generieren. Sie können mehrere DITAVal-Dateien über das Dialogfeld „Durchsuchen“ oder durch Eingabe des Dateipfads auswählen. Verwenden Sie das Kreuz-Symbol neben dem Dateinamen, um ihn zu entfernen. DITAVal-Dateien werden in der angegebenen Reihenfolge ausgewertet, sodass die in der ersten Datei angegebenen Bedingungen Vorrang vor den in späteren Dateien angegebenen übereinstimmenden Bedingungen haben. Sie können die Dateireihenfolge durch Hinzufügen oder Löschen von Dateien beibehalten. Wenn die DITAVal-Datei an einen anderen Speicherort verschoben oder gelöscht wird, wird sie nicht automatisch aus dem Zuordnungs-Dashboard gelöscht. Sie müssen den Speicherort aktualisieren, falls Dateien verschoben oder gelöscht werden. Sie können den Mauszeiger über den Dateinamen bewegen, um den Pfad im AEM-Repository anzuzeigen, in dem die Datei gespeichert ist. Sie können nur DITAVal-Dateien auswählen. Wenn Sie einen anderen Dateityp auswählen, wird ein Fehler angezeigt.<br>**Bedingungsvorgabe**: Wählen Sie in der Dropdown-Liste eine Bedingungsvorgabe aus, um eine Bedingung beim Veröffentlichen der Ausgabe anzuwenden. Diese Option ist sichtbar, wenn Sie eine Bedingung für die DITA-Zuordnungsdatei hinzugefügt haben. Die bedingten Einstellungen sind auf der Registerkarte „Bedingungsvorgaben“ der DITA-Zuordnungskonsole verfügbar. Weitere Informationen zu Bedingungsvorgaben finden Sie unter [Verwenden von Bedingungsvorgaben](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Metadaten <br> <br>Dateieigenschaften (Assets) | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite Eigenschaften der DITA-Map- oder Bookmap-Datei festgelegt. Die aus der Dropdown-Liste ausgewählten Eigenschaften werden unter dem Feld **Dateieigenschaften** angezeigt. Klicken Sie auf das Kreuzsymbol neben der Eigenschaft, um sie zu entfernen. <br><br>**Hinweis**: Bei den Metadateneigenschaften wird zwischen Groß- und Kleinschreibung unterschieden.<br><br>*Wenn Sie eine Baseline ausgewählt haben, basieren die Werte für die Eigenschaften auf der Version der ausgewählten Baseline.<br>* Wenn Sie keine Baseline ausgewählt haben, basieren die Werte für die Eigenschaften auf der neuesten Version.<br><br>Sie können die Metadaten auch mithilfe von DITA-OT-Publishing an die Ausgabe übergeben. Für eine weitere Detailansicht ([ Sie die Metadaten mithilfe von DITA-OT an die Ausgabe ](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Hinweis**: Wenn Sie die `cq:tags` nicht in der Option Eigenschaften definiert haben, werden die Werte für `cq:tags` aus der aktuellen Arbeitskopie ausgewählt, selbst wenn Sie eine Baseline für die Veröffentlichung ausgewählt haben. |
 | Metadaten <br> <br>Verwenden von Zuordnungseigenschaften als Fallback | Wenn diese Option aktiviert ist, werden die für die Zuordnungsdatei definierten Eigenschaften auch in die Themen kopiert, in denen diese Eigenschaften nicht definiert sind. Beachten Sie bei Verwendung dieser Option die folgenden Punkte <br><br>*Nur Zeichenfolgen-, Datums- oder Lange-Eigenschaften (einzelne und mehrwertige Eigenschaften) können an die Seiten der AEM-Site übergeben werden.<br>* Die Metadatenwerte für eine Eigenschaft vom Typ Zeichenfolge unterstützen keine Sonderzeichen (z. B. `@, #, " "`).<br>* Diese Option sollte zusammen mit der Option `Properties` verwendet werden. |
 
 **Querverweise auf Zuordnungen**
 
-Diese Liste enthält Themen mit Querverweisen auf `scope =”peer”`. Sie können den Veröffentlichungskontext für eine Liste von Querverweiskarten mit `scope=”peer”` zu Themen angeben, die in anderen DITA-Zuordnungen verfügbar sind. Diese Registerkarte wird angezeigt, wenn Sie die Experience Manager Guides-Version (UUID) verwenden.
+Diese Liste enthält Themen mit Querverweisen auf `scope ="peer"`. Sie können den Veröffentlichungskontext für eine Liste von Querverweiskarten mit `scope="peer"` zu Themen angeben, die in anderen DITA-Zuordnungen verfügbar sind. Diese Registerkarte wird angezeigt, wenn Sie die Experience Manager Guides-Version (UUID) verwenden.
 
 Weitere Informationen finden Sie im Abschnitt [Arbeiten mit verknüpften Themen](#working-with-linked-topics) unten.
 
@@ -208,7 +210,7 @@ Führen Sie die folgenden Schritte aus, um den Veröffentlichungskontext für ve
 
    >[!NOTE]
    >
-   >Die Registerkarte **Querverweise** zeigt Themen an, die nur über die `scope=”peer”` verknüpft sind. Für Links mit `scope=”local”` müssen Sie den Veröffentlichungskontext nicht angeben.
+   >Die Registerkarte **Querverweise** zeigt Themen an, die nur über die `scope="peer"` verknüpft sind. Für Links mit `scope="local"` müssen Sie den Veröffentlichungskontext nicht angeben.
 
    Für alle verknüpften Themen ist die neueste Ausgabevorgabe und Zuordnung standardmäßig ausgewählt. Der Veröffentlichungskontext für alle verknüpften Themen ist standardmäßig auf `<Most recently generated>` Zuordnung festgelegt.
 

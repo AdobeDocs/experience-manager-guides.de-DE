@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie DITAVAL-Dateien mit dem DIVATAL-Editor in Ado
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL-Dateien werden zur Erzeugung von bedingten Ausgaben verwendet. In einem einzelnen Thema können Sie Bedingungen mithilfe von Elementattributen hinzufügen, um Inhalte mit Bedingungen zu versehen. Anschließend erstellen Sie eine DITAVAL-Datei, in der Sie die Bedingungen angeben, die aufgenommen werden sollen, um Inhalte zu generieren, und welche Bedingung bei der endgültigen Ausgabe ausgeschlossen werden soll.
 
-Mit Adobe Experience Manager Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die in Ihrem System definierten Attribute \(oder tags\) ab, mit denen Sie DITAVAL-Dateien erstellen oder bearbeiten können. Weitere Informationen zum Erstellen und Verwalten von Tags in Adobe Experience Manager finden Sie [ Abschnitt „Verwalten von ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=de)&quot; in der Dokumentation zu Adobe Experience Manager.
+Mit Adobe Experience Manager Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die Attribute (die als Bedingungen verwendet werden können) ab, die in Ihrem System definiert sind, und Sie können sie zum Erstellen oder Bearbeiten von DITAVAL-Dateien verwenden. Weitere Informationen zum Erstellen und Verwalten von Bedingungen in Adobe Experience Manager finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in der Dokumentation zu Adobe Experience Manager.
 
 In den folgenden Abschnitten werden die verfügbaren Optionen für eine DITAVAL-Datei in Experience Manager Guides beschrieben.
 
@@ -30,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um eine DITAVAL-Datei zu erstellen:
 
 1. Wählen Sie im Repository-Bedienfeld das Symbol **Neue Datei** und wählen Sie dann **Thema** aus dem Dropdown-Menü aus.
 
-   ![](images/new-file-option.png){align="left"}
+   ![](images/new-file-option.png){width="300" align="left"}
 
    Sie können auf diese Option auch über die Startseite von [Experience Manager Guides ](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
 
@@ -55,37 +55,109 @@ Das Thema wird unter dem angegebenen Pfad erstellt. Außerdem wird das Thema im 
 
 Wenn Sie ein DITAVAL-Thema erstellen, wird es im Editor zur Bearbeitung geöffnet. Um ein vorhandenes DITAVAL-Thema zu bearbeiten, navigieren Sie zu dem Ordner oder der Karte, in dem bzw. der sich das DITAVAL-Thema befindet, und wählen Sie **Bearbeiten** aus dem Menü **Optionen**.
 
-Mit dem DITAVAL-Editor können Sie die folgenden Aufgaben ausführen:
+Mit dem DITAVAL-Editor können Sie mehrere Aufgaben wie unten aufgeführt mithilfe der Optionen in der Editor-Symbolleiste ausführen.
 
-- Linkes Bedienfeld ein/aus
+### Symbolleistenoptionen im Editor
 
-  Linke Bereichsansicht umschalten. Wenn Sie die DITAVAL-Datei über DITA Map geöffnet haben, werden die Karte und das Repository in diesem Bedienfeld angezeigt. Weitere Informationen zum Öffnen einer Datei über DITA Map finden Sie unter [Themen über DITA Map bearbeiten](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+#### Menü-Dropdown
 
-- Speichern Sie.
+Die Dropdown-Liste Menü bietet Zugriff auf die Funktionen zum Bearbeiten, Suchen und Ersetzen, Versionsverlauf, Versionsbezeichnung, Zusammenführen, Prüfungsaufgabe erstellen, Änderungen verfolgen und Tags .
+Weitere Informationen finden Sie unter [Dropdown-Optionen im Menü](./web-editor-toolbar.md#menu-dropdown)
 
-  Speichert die in der Datei vorgenommenen Änderungen. Alle Ihre Änderungen werden in der aktuellen Version Ihrer Datei gespeichert.
+#### Eigenschaft hinzufügen
 
-- Eigenschaft hinzufügen
+Fügen Sie in Ihrer DITAVAL-Datei eine einzelne Eigenschaft hinzu.
 
-  Fügen Sie in Ihrer DITAVAL-Datei eine einzelne Eigenschaft hinzu.
+![](images/ditaval-editor-props-new.png){width="650" align="left"}
 
-  ![](images/ditaval-editor-props-new.png)
+In der ersten Dropdown-Liste werden die zulässigen DITA-Attribute aufgelistet, die Sie in der DITAVAL-Datei verwenden können.
 
-  In der ersten Dropdown-Liste werden die zulässigen DITA-Attribute aufgelistet, die Sie in der DITAVAL-Datei verwenden können. Es werden fünf Attribute unterstützt: `audience`, `platform`, `product`, `props` und `otherprops`.
+Die zweite Dropdown-Liste zeigt die für das ausgewählte Attribut konfigurierten Werte an. Anschließend werden in der nächsten Dropdown-Liste die Aktionen angezeigt, die Sie für das ausgewählte Attribut konfigurieren können. Die zulässigen Werte in der Dropdown-Liste Aktion sind `include`, `exclude`, `passthrough` und `flag`. Weitere Informationen zu diesen Werten finden Sie in der Definition des Elements [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) in der OASIS DITA-Dokumentation. Weitere Informationen zur Aktion der in den Attributen hinzugefügten Eigenschaften finden Sie unter [Aktionen für Eigenschaft](#actions-for-property).
 
-  Die zweite Dropdown-Liste zeigt die für das ausgewählte Attribut konfigurierten Werte an. Anschließend werden in der nächsten Dropdown-Liste die Aktionen angezeigt, die Sie für das ausgewählte Attribut konfigurieren können. Die zulässigen Werte in der Dropdown-Liste Aktion sind `include`, `exclude`, `passthrough` und `flag`. Weitere Informationen zu diesen Werten finden Sie unter Definition des Elements [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) in der OASIS DITA-Dokumentation
+#### Einnahmeneigenschaft hinzufügen
 
-- Alle Eigenschaften hinzufügen
+Um einem Tag in XML eine bestimmte Revisionsnummer hinzuzufügen, können Sie die Option Rev-Prop hinzufügen verwenden. Dadurch wird dem Tag ein Attribut rev hinzugefügt, dessen Wert im Feld Value definiert ist, zusammen mit der ausgewählten Aktion für die Eigenschaft. Dieses Revisionsattribut kann später verwendet werden, um beim Generieren der Ausgabe relevante XML-Inhalte basierend auf der angegebenen Revisionsnummer zu filtern.
 
-  Wenn Sie mit einem Klick alle in Ihrem System definierten bedingten Eigenschaften oder Attribute hinzufügen möchten, verwenden Sie die Funktion Alle Eigenschaften hinzufügen .
+![](images/ditaval-rev-props.png){width="650" align="left"}
 
-  >[!NOTE]
-  >
-  > Wenn alle definierten bedingten Eigenschaften bereits in der DITAVAL-Datei vorhanden sind, können Sie keine weiteren Eigenschaften hinzufügen. In diesem Szenario wird eine Fehlermeldung angezeigt.
+#### Alle Eigenschaften hinzufügen
 
-  ![](images/ditaval-all-props-new.png)
+Wenn Sie mit einem Klick alle in Ihrem System definierten bedingten Eigenschaften oder Attribute hinzufügen möchten, verwenden Sie die Funktion Alle Eigenschaften hinzufügen . Die zulässigen Werte in der Dropdown-Liste Aktion sind `include`, `exclude`, `passthrough` und `flag` . Die Einzelheiten zu diesen Aktionen sind unten aufgeführt.
 
-Nachdem Sie die Bearbeitung der DITAVAL-Datei abgeschlossen haben, klicken Sie auf **Speichern**.
+>[!NOTE]
+>
+> Wenn alle definierten bedingten Eigenschaften bereits in der DITAVAL-Datei vorhanden sind, können Sie keine weiteren Eigenschaften hinzufügen. In diesem Szenario wird eine Fehlermeldung angezeigt.
+
+
+![](images/ditaval-all-props-new.png){width="650" align="left"}
+
+
+
+##### Aktionen für Eigenschaft
+
+Für eine bestimmte Eigenschaft sind hauptsächlich vier Aktionen verfügbar, die wie folgt aufgeführt sind und verwendet werden können:
+
+**Einschließen** Den Inhalt in die Ausgabe einschließen. Dies ist das Standardverhalten, sofern nicht anders festgelegt.
+
+**Ausschließen** Schließen Sie den Inhalt aus der Ausgabe aus (wenn alle Werte im jeweiligen Attribut ausgeschlossen sind).
+
+**Passthrough:** Schließen Sie den Inhalt in die Ausgabe ein und behalten Sie den Attributwert als Teil des Ausgabestreams für die weitere Verarbeitung durch eine Laufzeitmaschine bei, z. B. die Laufzeitfilterung auf der Grundlage einzelner Benutzereinstellungen.
+
+**Flags hinzufügen:** Um Inhalte in der Ausgabe zu kennzeichnen, können Sie das Flag als Aktion für das gewünschte Attribut in der Datei festlegen. Sie können auch verschiedene Markierungsstile anwenden, indem Sie die Dropdown-Liste **Markierungsstil** verwenden, wie im folgenden Ausschnitt dargestellt.
+
+
+![](images/ditaval-flag-style.png){width="650" align="left"}
+
+
+- **Hintergrundfarbe** Wählen Sie den Farbton, die Sättigung und den Kontrast der Hintergrundfarbe aus. Der entsprechende HEX-Wert wird automatisch auf der Grundlage Ihrer Auswahl aktualisiert. Sie können auch das Farbraumformat über das Dropdown-Menü wechseln, um zwischen HEX, RGB und HSB zu wählen.
+
+
+![](images/ditaval-background-color.png){width="650" align="left"}
+
+
+
+- **Textfarbe** Wählen Sie den Farbton, die Sättigung und den Kontrast der Textfarbe aus. Der entsprechende HEX-Wert wird automatisch auf der Grundlage Ihrer Auswahl aktualisiert. Sie können auch das Farbraumformat über das Dropdown-Menü wechseln, um zwischen HEX, RGB und HSB zu wählen.
+
+
+![](images/ditaval-text-color.png){width="650" align="left"}
+
+
+
+- **Stiloptionen**: Sie können auch einige Stiloptionen hinzufügen, z. B. Fett, Kursiv, Unterstrichen, Überstrichen, Doppelt unterstrichen.
+
+
+![](images/ditaval-styling-option.png){width="650" align="left"}
+
+
+
+- **Start- und End-Flags**: Sie können Bilder mithilfe der Schaltfläche **Flag hinzufügen** als Start- und End-Flags einfügen. Um Bilder auszuwählen, verwenden Sie entweder **Assets durchsuchen**, um sie aus dem Handbücher-Repository auszuwählen, oder **Datei hinzufügen**, um sie von Ihrem lokalen System hochzuladen. Darüber hinaus können Sie alternativen Text für die Bilder angeben.
+
+
+![](images/ditaval-start-end-flags.png){width="650" align="left"}
+
+
+
+- **Stilkonflikt**: Es werden die Konflikte aufgelöst, die auftreten, wenn ein einzelnes Element mehrere Eigenschaften mit unterschiedlichen Flag-Stilen enthält. In solchen Fällen wird der in den Stilkonflikteigenschaften definierte Wert ausgewählt, was effektiv als Standardwertauswahl für Hintergrund- und Textfarben dient.
+
+
+![](images/ditaval-style-conflict.png){width="650" align="left"}
+
+
+#### Versionsinformationen und Als neue Version speichern
+
+Die Funktion Versionsinformationen und Als neue Version speichern kombiniert Versionsverfolgung und Inhaltsspeicherung in einer einzigen Funktion.
+Weitere Informationen finden Sie unter [Als neue Version speichern](./web-editor-toolbar.md#version-information-and-save-as-new-version)
+
+
+#### Sperren/Entsperren
+
+Sperrt oder entsperrt die aktuelle Datei. Durch das Sperren einer Datei erhalten Sie exklusiven Schreibzugriff auf die Datei.
+Weitere Informationen finden Sie unter [Datei entsperren](./web-editor-toolbar.md#lockunlock)
+
+
+### Inhalt speichern
+
+Nachdem Sie die Bearbeitung der DITAVAL-Datei abgeschlossen haben, klicken Sie in der **auf** Speichern.
 
 >[!NOTE]
 >

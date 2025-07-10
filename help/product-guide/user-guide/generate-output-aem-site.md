@@ -4,10 +4,10 @@ description: Erfahren Sie, wie die inkrementelle Ausgabegenerierung für AEM Sit
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 1%
+source-wordcount: '662'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +24,7 @@ Wenn Ihre Zuordnung aufgeteilt ist und Sie ein einzelnes Thema in dieser Zuordnu
 
 Führen Sie die folgenden Schritte aus, um die Ausgabe für ein bestimmtes Thema oder eine Gruppe von Themen neu zu generieren:
 
->[!IMPORTANT]
->
-> Beim Regenerieren der AEM Sites-Ausgabe wird die Ausgabe anhand der aktuellen Dateiversion und nicht anhand der angehängten Baseline erstellt.
-
-## Inkrementelle Ausgabe aus der Map-Konsole generieren
+## Inkrementelle Ausgabe über die Zuordnungskonsole generieren (für AEM-Sites mithilfe der Zuordnung zusammengesetzter Komponenten)
 
 Führen Sie die folgenden Schritte aus, um mithilfe der Zuordnungskonsole eine inkrementelle Ausgabe für AEM Sites zu generieren:
 
@@ -36,17 +32,24 @@ Führen Sie die folgenden Schritte aus, um mithilfe der Zuordnungskonsole eine i
 1. Wählen Sie die AEM Sites-Vorgabe aus, für die Sie eine inkrementelle Ausgabe generieren möchten.
 1. Wählen **auf** Registerkarte Themen die Themen aus, die Sie veröffentlichen möchten.
 
-   ![AEM Sites-Themenliste](images/aem-presets-topic-list.png) {align="left"}
+   - Ohne Grundlinie
+
+     ![AEM Sites-Themenliste](images/aem-presets-topic-list.png) {align="left"}
+
+   - Mit Grundlinie
+
+     ![AEM Sites-Themenliste mit Grundlinie](images/aem-presets-topic-list-new.png) {align="left"}
 
    >[!NOTE]
    >
    > Wenn auf der Registerkarte **Inhalt“ eine Baseline ausgewählt**, zeigt die Themenliste Themen und deren Versionen aus der angehängten Baseline an.<br><br>
    > Die inkrementelle Veröffentlichung über die Themenliste sollte nur verwendet werden, wenn sich die Struktur der Zuordnung nicht ändert. Wenn sich die Zuordnungsstruktur/das Inhaltsverzeichnis ändert, sollte die gesamte Zuordnung einmal veröffentlicht werden, um das Inhaltsverzeichnis zu aktualisieren.
+
 1. Wählen Sie **Speichern** aus, um die Änderungen zu speichern.
 1. Wählen Sie **Ausgabe generieren**, um die Ausgabe zu generieren.
 
 
-## Inkrementelle Ausgabe aus dem Zuordnungs-Dashboard generieren
+## Inkrementelle Ausgabe im Zuordnungs-Dashboard generieren (für AEM-Sites mit Legacy-Komponentenzuordnung)
 
 Führen Sie die folgenden Schritte aus, um mithilfe des Zuordnungs-Dashboards eine inkrementelle Ausgabe für AEM Sites zu generieren:
 
@@ -71,6 +74,9 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Zuordnungs-Dashboards ei
    Die **„Ausgewählte Themen neu**&quot; wird angezeigt.
 
 1. Wählen Sie die Ausgabevorgabe aus, die Sie zum Neugenerieren der ausgewählten Themen verwenden möchten.
+
+   Bei der AEM Sites-Ausgabevorgabe mit der Zuordnung veralteter Komponenten werden, wenn eine Baseline ausgewählt ist, die in der ausgewählten Baseline enthaltenen Themenversionen für die Ausgabegenerierung verwendet. Darüber hinaus sollte eine inkrementelle Veröffentlichung über die Themenliste nur verwendet werden, wenn keine Änderungen an der Zuordnungsstruktur vorhanden sind. Wenn sich die Zuordnungsstruktur/das Inhaltsverzeichnis ändert, sollte die gesamte Zuordnung einmal veröffentlicht werden, um das Inhaltsverzeichnis zu aktualisieren. Weitere Informationen zur Verwendung der AEM-Site-Vorgabe finden Sie unter [AEM Sites-Vorgaben im Zuordnungs-Dashboard](./generate-output-aem-site-map-dashboard.md).
+
 
 1. Wählen Sie **Regenerieren**, um den Ausgabegenerierungsprozess zu starten.
 
