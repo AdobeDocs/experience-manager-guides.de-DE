@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 0cbeef94aa1c2300feae33ad3bc53bef82ebec47
+source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2277'
 ht-degree: 9%
 
 ---
@@ -140,8 +140,8 @@ ht-degree: 9%
                - [Versionshinweise für 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Versionshinweise zu 4.2](./release-info/release-notes-4-2.md)
          - [Versionshinweise zu 4.1.x](./release-info/release-notes-4-1.md)
-         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Versionshinweise zu [4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Versionshinweise zu [3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -282,6 +282,47 @@ ht-degree: 9%
       - [KI-Assistent für das Authoring zur intelligenten Erstellung von Dokumenten](./user-guide/ai-assistant-right-panel.md)
       - [KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Häufig gestellte Fragen](./user-guide/ai-assistant-faq.md)
+   - Verwalten von Lerninhalten {#learning-training-content}
+      - Erste Schritte {#get-started}
+         - Einführung {#intro-lc}
+            - [Übersicht über die Lern- und Schulungsinhalte](./learning-content/intro.md)
+            - [Zugriff auf die Benutzeroberfläche für Lern- und Schulungsinhalte](./learning-content/access-lc-interface.md)
+         - Einrichten des Kurses {#setup-course}
+            - [Kursübersicht](./learning-content/course-overview.md)
+            - [Erstellen Ihres ersten Kurses](./learning-content/create-first-course.md)
+            - [Grundlagen zu COURSE Manager](./learning-content/course-manager-basics.md)
+            - [Verwalten von Kursen](./learning-content/manage-course.md)
+         - Erstellen und Anpassen von Lerninhalten {#customize-lc}
+            - [Übersicht über Lerninhalte](./learning-content/lc-overview.md)
+            - [Lerninhalte erstellen](./learning-content/create-content.md)
+            - [Lerninhalte bearbeiten](./learning-content/edit-content.md)
+            - [Hinzufügen grundlegender Bausteine](./learning-content/lc-basic-blocks.md)
+            - [Verwenden interaktiver Widgets](./learning-content/lc-widgets.md)
+            - [Verwenden von Inline-Stilen](./learning-content/lc-inline-styles.md)
+         - Quiz erstellen und verwalten {#quiz}
+            - [Quiz-Übersicht](./learning-content/quiz-overview.md)
+            - [Quiz erstellen](./learning-content/create-quiz.md)
+            - [Quiz bearbeiten](./learning-content/edit-quiz.md)
+            - [Einfügen von Fragen in ein Quiz](./learning-content/quiz-insert-questions.md)
+            - Fragebank {#question-bank}
+               - [Fragenbank erstellen](./learning-content/create-qb.md)
+               - [Fragen aus der Fragenbank einfügen](./learning-content/insert-questions.md)
+            - [Quiz-Eigenschaften](./learning-content/quiz-properties.md)
+         - Veröffentlichen des Kurses {#publish-course}
+            - [Über die Kursveröffentlichung](./learning-content/publish-overview.md)
+            - [Unterstützte Voreinstellungen](./learning-content/course-presets.md)
+            - Kurse im SCORM-Format veröffentlichen {#scorm-output}
+               - [SCORM-Ausgabevorgabe erstellen](./learning-content/create-scorm-preset.md)
+               - [Konfigurieren der SCORM-Ausgabevorgabe](./learning-content/config-scorm-preset.md)
+               - [SCORM-Ausgabe generieren](./learning-content/generate-scorm-output.md)
+            - Kurse im PDF-Format veröffentlichen {#pdf-output}
+               - [Erstellen einer PDF-Ausgabevorgabe](./learning-content/create-course-pdf-preset.md)
+               - [Konfigurieren der PDF-Ausgabevorgabe](./learning-content/config-course-pdf-preset.md)
+               - [Generieren einer PDF](./learning-content/generate-course-pdf.md)
+      - Konfigurationshandbuch {#config-lc}
+         - [Über dieses Handbuch](./lc-config-guide/introduction.md)
+         - [Ordnerprofile konfigurieren](./lc-config-guide/lc-folder-profile.md)
+         - [Konfigurieren anderer Einstellungen](./lc-config-guide/lc-other-settings.md)
    - Anhang {#appendix}
       - Inhalt verwalten {#manage-content}
          - [Wichtige Konzepte, Rollen und Berechtigungen sowie Voraussetzungen](./user-guide/authoring.md)
@@ -291,7 +332,7 @@ ht-degree: 9%
       - Fehlerbehebung {#troubleshooting}
          - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [On-Premise-Grundlagen](./install-guide/introduction.md)
@@ -462,7 +503,6 @@ ht-degree: 9%
       - Arbeiten mit AEM Assets Search {#aem-asset-search-cs}
          - [Konfigurieren der Suche für die AEM Assets-Benutzeroberfläche](./cs-install-guide/conf-dita-search.md)
       - [Anhang](./cs-install-guide/appendix.md)
-
 - API-Referenz {#api-reference}
    - [Einführung](./api-reference/introduction.md)
    - [REST-APIs für die Ausgabeverwaltung](./api-reference/output-management.md)
