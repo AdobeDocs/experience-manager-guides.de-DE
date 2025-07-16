@@ -3,7 +3,8 @@ title: Verwalten eines Kurses mit Lern- und Schulungsinhalten
 description: Erfahren Sie mehr über die verschiedenen Funktionen in Experience Manager Guides, mit denen Sie Ihren Kurs effizient verwalten können.
 feature: Authoring
 role: User
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -36,24 +37,24 @@ Sie können vorhandene Inhalte aus Ihrem Inhalts-Repository zu Ihrem Kurs hinzuf
 
 1. Wählen Sie das Menü **Optionen** > **Vorhandenes hinzufügen** aus.
 2. Wählen Sie den Typ des Kursinhalts aus, den Sie erstellen möchten.
-3. Navigieren Sie im Dialogfeld „Pfad auswählen“ zum Speicherort der Inhalte und wählen Sie die gewünschten Lerninhalte aus.
+3. Navigieren **im Dialogfeld &quot;** auswählen“ zum Speicherort der Inhalte und wählen Sie die gewünschten Lerninhalte aus.
 
    ![](assets/add-existing-learning-content.png)
 4. Wählen Sie **Auswählen** aus.
 
-Die ausgewählten Lerninhalte werden dem Kurs aus dem Repository hinzugefügt.
+Der ausgewählte Kursinhalt wird dem Kurs aus dem Repository hinzugefügt.
 
 ## Inhalt entfernen
 
 Sie können jedes Thema aus dem Kurs entfernen, indem Sie das Menü **Optionen** für dieses spezifische Thema auswählen und dann auf **Entfernen** klicken, wie unten dargestellt.
 
-![](assets/remove-learning-content.png){width="350" align="left"}
+![](assets/remove-learning-content.png)
 
 ## Kursversionen erstellen
 
 Sie können die Versionierung Ihres Kurses über das Menü **Optionen** > **Versionierung** steuern.
 
-![](assets/course-versioning.png){width="650" align="left"}
+![](assets/course-versioning.png)
 
 Sie erhalten die folgenden Optionen für die Versionierung eines Kurses:
 
@@ -70,7 +71,3 @@ Die **Anzeigen**-Option bestimmt, wie Themen angezeigt werden. Sie können sie m
 > Diese Anzeigeeinstellungen gelten nur für den Kurs-Manager und haben keine Auswirkungen auf die veröffentlichte Ausgabe.
 
 ![](assets/course-display-settings.png)
-
-
-
-

@@ -3,10 +3,11 @@ title: SCORM-Vorgabe erstellen
 description: Erfahren Sie, wie Sie im Lern- und Schulungsinhalt eine SCORM-Vorgabe erstellen.
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 4a433b9d-594d-42b5-8c59-f246eda7e631
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 0%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
@@ -18,15 +19,15 @@ Führen Sie die folgenden Schritte aus, um eine SCORM-Ausgabevorgabe zu erstelle
 
    ![](assets/open-in-map-console.png){width="350" align="left"}
 
-1. Klicken **auf der Registerkarte** Ausgabevorgaben“ auf das Symbol + , um eine Ausgabevorgabe zu erstellen.
+1. Wählen Sie **Bedienfeld &quot;**&quot; das Symbol + , um eine Ausgabevorgabe zu erstellen.
 1. Wählen Sie **SCORM** aus der **Typ** im Dialogfeld **Neue**) aus.
 
    ![](assets/scorm-preset.png){width="350" align="left"}
 
 1. Geben **im Feld** einen Namen für diese Voreinstellung ein.
+1. Wählen Sie die **Zum aktuellen Ordnerprofil hinzufügen**, um eine Ausgabevorgabe innerhalb des aktuellen Ordnerprofils zu erstellen.
 1. Wählen Sie **Hinzufügen** aus.
+
 Die SCORM-Vorgabe wird erstellt. Eine SCORM-Voreinstellungsseite wird geöffnet, auf der Sie die erforderlichen Konfigurationen vornehmen können.
 
-   ![](assets/scorm-output-preset.png){width="800" align="left"}
-
-
+![](assets/scorm-output-preset.png){width="800" align="left"}
