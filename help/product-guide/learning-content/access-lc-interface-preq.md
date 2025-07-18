@@ -3,7 +3,7 @@ title: Erkunden der Benutzeroberfläche und Voraussetzungen
 description: Erfahren Sie mehr über die Benutzeroberfläche und die Voraussetzungen für die Arbeit mit den Lern- und Schulungsinhalten in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um auf die Benutzeroberfläche zuzugreif
 
    Weitere Informationen finden Sie unter [Adobe Experience Manager Guides-Startseitenerlebnis](../user-guide/intro-home-page.md).
 
-   ![](assets/aem-navigation-switcher.png){width="300" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
 ## Voraussetzungen
 
