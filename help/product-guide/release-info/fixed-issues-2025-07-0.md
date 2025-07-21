@@ -1,9 +1,10 @@
 ---
 title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 2025.07.0 behoben
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2025.07.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: bf8b295444a1e21fc19bfbc04efaa20fe78f71bb
+exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
+source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '527'
 ht-degree: 4%
 
 ---
@@ -50,6 +51,6 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2025.07.0](upgrade-instr
 Adobe hat die folgenden bekannten Probleme in Version 2025.07.0 identifiziert:
 
 - Beim Arbeiten mit Markdown-Themen wird in **Editor-Symbolleiste eine Schaltfläche** Themenreferenz“ angezeigt, sie funktioniert jedoch nicht. (GUIDES-31038)
-- Wenn Ordner mit Namen in Großbuchstaben mit dem Adobe Experience Manager-Desktop-Programm hochgeladen werden, wird die Groß-/Kleinschreibung nicht beibehalten und die Namen werden im Editor in Kleinbuchstaben angezeigt. (GUIDES-30909)
+- Ordner-Knotennamen werden im Editor fälschlicherweise anstelle von Ordnertiteln angezeigt. (GUIDES-30909)
 - Im Dialogfeld **Zusammenführen** wird in der Dropdown-Liste fälschlicherweise **Hauptinhalt** angezeigt, anstatt die verfügbaren Versionen des ausgewählten Themas anzuzeigen. (GUIDES-30820)
 - Beim Öffnen einer DITA-Zuordnung mit aktivierter Unified Shell wird der Editor gelegentlich aktualisiert.(GUIDES-26919)
