@@ -175,4 +175,4 @@ Die folgenden Experience Manager Guides-Funktionen können derzeit nicht für da
 
 
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

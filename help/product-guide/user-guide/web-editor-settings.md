@@ -259,4 +259,4 @@ Wenn der Metadatenpfad leer ist, wird ein Fehler angezeigt. Wenn Sie das Feld le
 Sie können auch die Reihenfolge festlegen, in der diese Metadaten-Tags angezeigt werden. Um die Standardreihenfolge dieser Tags zu ändern, wählen Sie die gepunkteten Balken aus, um die Tags per Drag-and-Drop an die gewünschte Position zu ziehen.
 Die Metadatenbeschriftungen werden im Dialogfeld **Versionsverlauf** des Editors in derselben Reihenfolge angezeigt.
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

@@ -1130,4 +1130,4 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 
 </details>
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)

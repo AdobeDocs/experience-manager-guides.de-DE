@@ -90,4 +90,4 @@ Wenn Sie der Initiator oder Autor einer Prüfungsaufgabe sind und diese über di
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)

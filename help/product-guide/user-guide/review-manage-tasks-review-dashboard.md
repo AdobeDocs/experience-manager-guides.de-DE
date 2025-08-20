@@ -130,4 +130,4 @@ Der Statusbericht für die Prüfungsaufgabe enthält die folgenden Details:
 - Gesamtzahl der Kommentare zu allen Themen. Bei mehreren zu überprüfenden Themen wird die Anzahl der Kommentare für jedes Thema \(in Klammern\) gegenüber dem Themennamen angegeben.
 - Das Datum, an dem der Reviewer zuletzt auf ein Thema zugegriffen hat.
 
-**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)
