@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Themen überprüfen und die Funktionen als Re
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Themen überprüfen {#id2056B0W0FBI}
 
 Wenn Sie ein Prüfer sind, erhalten Sie eine E-Mail mit einer Prüfungsanfrage mit dem Link zu den Prüfthemen. Über diesen Link können Sie auf die Überprüfungsseite zugreifen, auf der Sie Ihr Feedback zu den freigegebenen Themen hinzufügen können.
+
+>[!NOTE]
+>
+> Beim Zugriff auf die Überprüfungsanfrage über die Benachrichtigung können Sie festlegen, dass sie einem anderen Benutzer zugewiesen wird, der Teil desselben Überprüfungsprojekts ist. Weitere Informationen finden Sie unter [Prüfungsaufgabe mithilfe einer Benachrichtigung neu zuweisen](./reassign-review-using-notification.md).
 
 Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
 
@@ -34,8 +38,6 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
    > - Adobe Experience Manager Guides as a Cloud Service Version November 2022 oder früher
    > - Adobe Experience Manager Guides Version 4.1 oder früher
 
-
-
    Der folgende Bildschirm wird angezeigt, wenn eine DITA-Zuordnung verwendet wird, um den Überprüfungs-Workflow zu starten:
 
    ![](images/multiple-topics-review.png){align="left"}
@@ -54,7 +56,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
 
      >[!NOTE]
      >
-     > Beim Anwenden der Filter werden im Kommentarbedienfeld nur die Kommentare angezeigt, die den ausgewählten Filtern entsprechen. Die Anzahl der gefilterten Kommentare wird auf der linken Seite im Themenbereich angezeigt.
+     > Beim Anwenden der Filter werden im Bedienfeld Kommentare nur die Kommentare angezeigt, die den ausgewählten Filtern entsprechen. Die Anzahl der gefilterten Kommentare wird auf der linken Seite im Themenbereich angezeigt.
 
    - **E**: Ein Thema, das dem aktuellen Reviewer zur Überprüfung zugewiesen ist, wird schwarz angezeigt und kann ausgewählt werden. Wenn der Validierungsverantwortliche ein Thema auswählt, wird dieses Thema an den Anfang des Bildschirms gebracht.
    - **F**: Ein Thema, das nicht zur Überprüfung verfügbar ist, wird ausgegraut. Das Thema wird im schreibgeschützten Modus angezeigt und Sie dürfen keine Prüfungskommentare zu diesen Themen hinzufügen.
@@ -162,6 +164,21 @@ Der folgende Screenshot zeigt den Inhalt im *-*:
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
+
+**Benutzer einer Aufgabe in einem Kommentar taggen**
+
+Wenn Sie an einer Prüfungsaufgabe mit mehreren Reviewern arbeiten, können Sie die Kommunikation verbessern, indem Sie bestimmte Benutzende sowohl in neuen Kommentaren als auch in Antworten taggen. Als Reviewer können Sie einen Kommentar einreichen oder auf einen vorhandenen antworten und dabei andere Benutzende taggen, die an derselben Prüfungsaufgabe beteiligt sind, um deren Aufmerksamkeit zu erregen oder Folgemaßnahmen zuzuweisen. Diese Funktion ist nur für aktive Prüfungsaufgaben verfügbar.
+
+>[!NOTE]
+>
+> Um die Liste der einer Prüfungsaufgabe zugewiesenen Benutzer anzuzeigen und sie in einem Kommentar zu taggen, benötigen Sie *Lesezugriff* auf `/home/users and /home/groups` Knoten. Weitere Informationen finden Sie unter [Benutzerverwaltung und Sicherheit](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Wenn das Tagging nach der Bestätigung des Zugriffs immer noch nicht verfügbar ist, muss Ihr Administrator möglicherweise eine `user-admin` Lizenz zuweisen, um diese Funktion zu aktivieren.
+
+![](images/tag-users-review-ui.png){width="350" align="left"}
+
+Getaggte Benutzende erhalten sowohl eine E-Mail- als auch eine AEM-Benachrichtigung, sodass sie umgehend informiert werden. Weitere Informationen zum Trigger von Prüfungsbenachrichtigungen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
+
+![](images/mentioned-in-tags-author.png){width="350" align="left"}
+
 **Anhänge zu Kommentaren hinzufügen** -   Wenn Sie Ihren Kommentar durch zusätzliche Informationen ergänzen möchten, die in einer anderen Datei verfügbar sind, können Sie dies tun, indem Sie ihn mit Ihrem Kommentar anhängen. Als Reviewer können Sie einfach eine oder mehrere Dateien aus Ihrem lokalen System zu Ihrem Kommentar hinzufügen. Sie können eine Datei zu allen unterstützten Kommentarformen hinzufügen - Hervorheben, Durchstreichen, Text einfügen oder Kommentar.
 
 Wenn Sie einen der Kommentare einfügen, wird das Kommentar-Popup angezeigt. Nachdem Sie im Popup-Fenster zusätzliche Kommentare oder Informationen eingegeben haben, können Sie diese mit der Eingabetaste übermitteln. Nachdem der Kommentar hinzugefügt wurde, haben Sie die Möglichkeit, diesem Kommentar einen Anhang hinzuzufügen.
@@ -257,4 +274,4 @@ Wählen Sie eine oder mehrere der folgenden Filteroptionen aus dem Dialogfeld **
 
 Um den Filter zu entfernen und alle Kommentare anzuzeigen, heben Sie die Auswahl aller Filter im Dialogfeld **Filtertyp** auf und wählen Sie **Anwenden** aus.
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

@@ -4,9 +4,9 @@ description: Machen Sie sich mit den Funktionen des Karten-Editors in Adobe Expe
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Darüber hinaus können Sie die folgenden Symbole anzeigen und die zugehörigen 
 
 **Einfügen vor/Einfügen nach** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Zeigt das Dialogfeld **Element vor oder &#x200B;** Element nach einfügen“ an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
+Zeigt das Dialogfeld **Element vor oder **Element nach einfügen“ an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -219,13 +219,11 @@ Zeigt das Dialogfeld **Inhalt wiederverwenden** an. Verwenden Sie dieses Dialogf
 
 **Navigationstitelattribut aktualisieren** - ![](images/refresh.svg)
 
-Synchronisiert das `title` einer referenzierten Datei in einer Zuordnung mit dem in ihrem `@navtitle` angegebenen Wert. Sie können einer Zuordnung verschiedene Arten von Referenzdateien hinzufügen, z. B. Themen-, Referenz-, Aufgaben-, \(Unter\)-Zuordnungen usw. Die meisten dieser Dateien unterstützen das `@navtitle`. Wenn eine Datei das Attribut `@navtitle` enthält, wird das Attribut `@navtitle` für dieselbe Datei in der Zuordnung aktualisiert. Falls das `@navtitle` nicht vorhanden ist, wird das `@navtitle`-Attribut zu dieser Referenzdatei hinzugefügt und seine `title` wird ebenfalls aktualisiert, um die `@navtitle` anzuzeigen.
+Ermöglicht die Synchronisierung des `@navtitle`-Attributs und des `title`-Elements einer referenzierten Datei. Sie können einer Zuordnung verschiedene Dateitypen hinzufügen, z. B. Themen, Aufgaben, Verweise oder Unterzuordnungen. Die meisten von ihnen unterstützen das Attribut `@navtitle` , das steuert, wie der Dateiname in der Zuordnung oder im Inhaltsverzeichnis angezeigt wird. Wenn eine Datei das Attribut `@navtitle` enthält, wird das Attribut `@navtitle` für dieselbe Datei in der Zuordnung aktualisiert. Falls das `@navtitle` nicht vorhanden ist, wird das `@navtitle`-Attribut zu dieser Referenzdatei hinzugefügt und seine `title` wird ebenfalls aktualisiert, um die `@navtitle` anzuzeigen.
 
 >[!NOTE]
 >
-> Ihr Administrator kann das automatische Hinzufügen `@navtitle` Attributs zu jeder Referenzdatei konfigurieren, die Sie einer Zuordnung hinzufügen. Weitere Informationen zum Konfigurieren des automatischen Hinzufügens `@navtitle` Attributs finden Sie unter *und Konfigurieren von Adobe Experience Manager Guides* as a Cloud Service unter (Attribut standardmäßig @navtitle einschließen).
-
-Wählen Sie das Symbol Navigationstitelattribut aktualisieren aus, um die Werte des `title`- und `@navtitle`-Attributs zu synchronisieren.
+> Ihr Administrator kann diese Schaltfläche in der Symbolleiste des Zuordnungs-Editors mithilfe einer Konfigurationseigenschaft ein- oder ausblenden. Sie können auch das automatische Hinzufügen des Attributs `@navtitle` aktivieren, wenn Dateien zu einer Zuordnung hinzugefügt werden. Weitere Informationen finden Sie unter [Standardmäßig @navtitle einschließen](../cs-install-guide/auto-add-navtitle.md) in Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 **Tags**
 

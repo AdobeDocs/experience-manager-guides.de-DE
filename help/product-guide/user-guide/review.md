@@ -4,9 +4,9 @@ description: Effiziente Prüfung von Themen oder Karten in AEM Guides für eine 
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Zu den Hauptfunktionen, die Adobe Experience Manager Guides den Initiatoren (ode
 - Geben Sie eine aktualisierte Version des Themas zur Überprüfung im Überprüfungs-Dashboard frei.
 
 - Zugreifen auf Kommentare, die in verschiedenen Versionen des Themas freigegeben wurden.
-
+- Einfaches Tagging von Benutzern bestimmter Prüfungsaufgaben in Kommentaren oder Antworten für schnelle Aktionen und Folgemaßnahmen. Getaggte Benutzende werden sofort über AEM und E-Mail-Benachrichtigungen benachrichtigt.
 - Gruppieren und Filtern von Kommentaren nach Themenversion.
 
 - Anzeigen von Unterschieden zwischen verschiedenen Versionen von Themen, die zur Überprüfung freigegeben wurden.
@@ -41,6 +41,7 @@ Den *Prüfern“ zur Verfügung stehende*:
 - Zwischen zusammengesetzter Ansicht und einzelner Themenansicht wechseln.
 - Verwenden Sie die Kommentarwerkzeuge wie Texteinfügung, Löschen, Hervorhebung und Notiz/Kommentar, um Feedback zu geben.
 - Hängen Sie eine oder mehrere Dateien an einen Überprüfungskommentar an.
+- Antworten auf einen Kommentar, indem Sie Benutzende taggen, die an derselben Prüfungsaufgabe beteiligt sind.
 - Herunterladen von Anhängen aus einem Kommentar.
 - Verwenden Sie das Review-Bedienfeld, um Kommentare hinzuzufügen oder auf Kommentare anderer Benutzer zu antworten.
 - Machen Sie sich mit der Version des zu überprüfenden Themas vertraut.
@@ -57,10 +58,18 @@ Den *Prüfern“ zur Verfügung stehende*:
 
 - **[Senden von Themen zur Überprüfung](review-send-topics-for-review.md)**
 
+- **[Themen überprüfen](review-topics.md)**
+
 - **[Prüfungsaufgabe mithilfe einer Benachrichtigung neu zuweisen](reassign-review-using-notification.md)**
 
-- **[Themen überprüfen](review-topics.md)**
+- **[Schließen Sie die Prüfungsaufgabe als Prüferin bzw. Prüfer ab](review-complete-review-tasks.md)**
 
 - **[Kommentare zur Adressenüberprüfung](review-address-review-comments.md)**
 
+- **[Schließen oder erneute Überprüfung für eine Prüfungsaufgabe anfordern](review-close-review-task.md)**
+
 - **[Prüfungsaufgaben mit dem Überprüfungs-Dashboard verwalten](review-manage-tasks-review-dashboard.md)**
+
+- **[Anzeigen einer abgeschlossenen Prüfungsaufgabe](review-view-completed-task.md)**
+
+- **[Grundlegendes zu Prüfungsbenachrichtigungen](review-understanding-review-notifications.md)**

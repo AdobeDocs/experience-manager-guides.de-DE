@@ -5,9 +5,9 @@ exl-id: a5742082-cc0b-49d9-9921-d0da1b272ea5
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 026d75e69ef002607ac375cf1af7d055fcc22b38
+source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1762'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Weitere Informationen zu Workflows in AEM finden Sie unter:
 
 - [Verwalten von Workflow-Instanzen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=de)
 
-- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=de).
+- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
 
 Die Abschnitte in diesem Abschnitt erläutern verschiedene Anpassungen, die Sie in den in AEM Guides bereitgestellten Standard-Workflows vornehmen können.
@@ -60,6 +60,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 **Für Karte**
@@ -86,6 +87,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 Sie können diese Skripte im Knoten `/etc/workflows/scripts` erstellen. In der folgenden Tabelle werden die Eigenschaften beschrieben, die von den beiden oben genannten ECMA-Skripten zugewiesen werden.
@@ -104,12 +106,13 @@ Sie können diese Skripte im Knoten `/etc/workflows/scripts` erstellen. In der f
 | `startTime` | Long | Verwenden Sie die `System.currentTimeMillis()`, um die aktuelle Systemzeit abzurufen. |
 | `projectPath` | Zeichenfolge | Pfad des Überprüfungsprojekts, dem die Überprüfungsaufgabe zugewiesen wird, z. B.: /content/projects/samplereviewproject. |
 | `reviewType` | Zeichenfolge | Statischer Wert &quot;AEM&quot;. |
-| `versionJson` | JSON-Objekt | versionJson ist eine Liste von Themen, die in die Überprüfung aufgenommen werden und bei denen jedes Themenobjekt die folgende Struktur aufweist: { „path“: &quot;/content/dam/1-topic.dita&quot;, „version“: „1.1“, „review“: true, „reviewers“: [„projects-we_retail-editor“] } |
+| `versionJson` | JSON-Objekt | versionJson ist eine Liste von Themen, die in die Überprüfung aufgenommen werden und bei denen jedes Themenobjekt die folgende Struktur aufweist [ { „Pfad“: &quot;/content/dam/1-topic.dita&quot;, „Version“: „1.1“, „Überprüfung“: true, „Validierungsverantwortliche“: [„projects-we_retail-editor“] } ] |
 | `isDitamap` | Boolesch | false/true |
 | `ditamapHierarchy` | JSON-Objekt | Falls die Karte zur Überprüfung gesendet wird, sollte der Wert hier wie folgt sein:[ { „path“: „GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap“, „items“: [ { „path“: „GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita“, „title“: &quot;&quot;, „items“: [] } ] } ]. |
 | `ditamap` | Zeichenfolge | Geben Sie den Pfad der Imagemap der Prüfungsaufgabe an |
 | `allowAllReviewers` | Boolesch | false/true |
 | `notifyViaEmail` | Boolesch | false/true |
+| `reviewVersion` | Zeichenfolge | Gibt die aktuelle Version des Überprüfungs-Workflows an. Der Standardwert ist auf `3.0` festgelegt.<br> Um die neuen Funktionen des Überprüfungs-Workflows für [Autoren](../user-guide/review-close-review-task.md) und [Prüfer](../user-guide/review-complete-review-tasks.md) zu aktivieren, stellen Sie sicher, dass die `reviewVersion` auf `3.0` eingestellt ist. |
 
 
 Nachdem Sie das Skript erstellt haben, rufen Sie es auf, bevor Sie den Prozess zum Erstellen einer Überprüfung in Ihrem Workflow aufrufen. Anschließend können Sie je nach Ihren Anforderungen die anderen Überprüfungs-Workflow-Prozesse aufrufen.
@@ -129,25 +132,58 @@ Durch Hinzufügen eines Workflows in der **Adobe Granite Workflow-Bereinigungsko
 
 Weitere Informationen zum Konfigurieren der **Adobe Granite Workflow-Bereinigungskonfiguration** finden Sie unter *Verwalten von Workflow-Instanzen* in der Dokumentation zu AEM.
 
-### E-Mail-Vorlagen anpassen
+### E-Mail- und AEM-Benachrichtigung anpassen
 
 In einer Reihe von AEM Guides-Workflows werden E-Mail-Benachrichtigungen verwendet. Wenn Sie beispielsweise eine Prüfungsaufgabe initiieren, wird eine E-Mail-Benachrichtigung an die Validierungsverantwortlichen gesendet. Um jedoch sicherzustellen, dass die E-Mail-Benachrichtigung gesendet wird, müssen Sie diese Funktion in AEM aktivieren. Informationen zum Aktivieren der E-Mail-Benachrichtigung in AEM finden Sie im Artikel [Senden von E-Mails](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=de#sending-email) in der Dokumentation zu AEM.
 
-Die AEM Guides enthält eine Reihe von E-Mail-Vorlagen, die Sie anpassen können. Führen Sie die folgenden Schritte aus, um diese Vorlagen anzupassen:
+Die AEM Guides enthält eine Reihe von E-Mail- und AEM-Benachrichtigungen, die im Überprüfungs-Workflow verwendet werden und die Sie anpassen können. Führen Sie die folgenden Schritte aus, um diese Benachrichtigungen anzupassen:
 
-1. Verwenden Sie den Package Manager, um `/libs/fmdita/mail` Datei herunterzuladen.
+1. Verwenden Sie den Package Manager, um `/libs/fmdita/mail/review` Ordner herunterzuladen.
 
    >[!NOTE]
    >
    > Nehmen Sie keine Anpassungen in den Standardkonfigurationsdateien im Knoten ``libs`` vor. Sie müssen eine Überlagerung des Knotens ``libs`` im Knoten ``apps`` erstellen und die erforderlichen Dateien nur im Knoten ``apps`` aktualisieren.
 
-1. Der E-Mail-Ordner enthält die folgenden anpassbaren Vorlagen:
+1. Der Ordner `review` enthält die folgenden Unterordner:
 
-   | Name der Vorlagendatei | Beschreibung |
+   - `aem-notification`
+   - `CSS`
+   - `email-notification`
+
+   Die detaillierte Beschreibung dieser Unterordner wird unten erläutert:
+
+   | Überprüfen von Unterordnern | Beschreibung |
    |-----------------|-----------|
-   | closereview.html | Diese E-Mail-Vorlage wird verwendet, wenn eine Prüfungsaufgabe geschlossen wird. |
-   | createreview.html | Diese E-Mail-Vorlage wird verwendet, wenn eine neue Prüfungsaufgabe erstellt wird. |
-   | reviewapproval.css | Diese CSS-Datei enthält den Stil der E-Mail-Vorlagen. |
+   | `aem-notification` | Enthält verschiedene AEM-Benachrichtigungstypen, die angepasst werden können. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> In diesen Unterordnern befinden sich `primary.vm`- und `secondary.vm`, mit denen Sie den Titel bzw. die Beschreibung der AEM-Benachrichtigung anpassen können. |
+   | `CSS` | Enthält die `email-notification.css` zum Anpassen des Stils von E-Mail-Benachrichtigungen. |
+   | `email-notification` | Enthält verschiedene E-Mail-Benachrichtigungstypen, die angepasst werden können. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> In diesen Unterordnern befinden sich `primary.vm`- und `secondary.vm`, mit denen Sie den Betreff bzw. Text der E-Mail-Benachrichtigung anpassen können. |
+
+Die Definition der einzelnen Benachrichtigungstypen ist unten beschrieben:
+
+- `closed`: Trigger beim Schließen einer Prüfungsaufgabe.
+- `content-updated`: Trigger, wenn ein Autor oder Initiator den Inhalt aktualisiert.
+- `feedback-addressed`: Trigger, wenn der Autor oder Initiator die Kommentare kommentiert und eine Überprüfung durch den Reviewer anfordert.
+- `feedback-provided` Trigger, wenn ein Reviewer die Aufgabe als abgeschlossen markiert, indem er dem Autor oder Initiator der Prüfungsaufgabe Kommentare auf Aufgabenebene bereitstellt.
+- `requested`: Trigger, wenn ein Autor oder Initiator eine Prüfungsaufgabe erstellt.
+- `reviewer-removed`: Trigger, bei denen die Zuweisung eines Reviewers zu einer Prüfungsaufgabe aufgehoben wird.
+- `tag-mention`: Trigger, wenn ein Benutzer in Überprüfungskommentaren erwähnt oder getaggt wird.
+
+Stellen Sie beim Anpassen einer E-Mail oder AEM-Benachrichtigung sicher, dass Sie nur den folgenden vordefinierten Variablensatz verwenden, der in `primary.vm`- und `secondary.vm`-Dateien verwendet wird.
+
+
+| **Variablenname** | **Beschreibung** | **Datentyp** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath` | Pfad zum Projekt mit der Prüfungsaufgabe | Zeichenfolge |
+| `reviewTitle` | Titel der Prüfungsaufgabe | Zeichenfolge |
+| `projectName` | Name des Projekts | Zeichenfolge |
+| `commentator` | Name des Benutzers, der einen Kommentar hinzugefügt hat | Zeichenfolge |
+| `commentExcerpt` | Fragment des hinzugefügten Kommentars | Zeichenfolge |
+| `taskLink` | Direkter Link zur Prüfungsaufgabe | URL |
+| `authorName` | Name des Autors, der die Prüfungsaufgabe erstellt oder aktualisiert hat | Zeichenfolge |
+| `dueDate` | Fälligkeitsdatum der Prüfungsaufgabe | Datum |
+| `reviewerName` | Name des der Aufgabe zugewiesenen Reviewers | Zeichenfolge |
+| `user` | Benutzer, der an der Prüfungsaufgabe beteiligt ist, z. B. Autor, Prüfer oder sogar Administrator. | Zeichenfolge |
+| `recipient` | Spezifischer Benutzer, der die Benachrichtigung erhält | Zeichenfolge |
 
 
 ## Anpassen des Workflows nach der Ausgabe {#id17A6GI004Y4}

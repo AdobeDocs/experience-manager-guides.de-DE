@@ -4,9 +4,9 @@ description: Verfassen Sie Markdown-Dokumente aus dem Editor. Erfahren Sie, wie 
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1197'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Markdown ist eine einfache Markup-Sprache, mit der Sie Formatierungselemente zu 
 Führen Sie die folgenden Schritte aus, um im Editor ein Markdown-Thema zu erstellen:
 
 1. Wählen Sie im Repository-Bereich die Option ![](images/Add_icon.svg) und dann **Thema** aus der Dropdown-Liste aus.
-1. Geben **im Dialogfeld** Neues Thema“ die folgenden Details an:
+2. Geben **im Dialogfeld** Neues Thema“ die folgenden Details an:
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -29,10 +29,10 @@ Führen Sie die folgenden Schritte aus, um im Editor ein Markdown-Thema zu erste
    * **Vorlage** Wählen Sie **Markdown** aus der Dropdown-Liste aus. Die Vorlage **Thema** ist standardmäßig ausgewählt.
    * **Path**: Durchsuchen Sie den Pfad, in dem Sie die Themendatei speichern möchten. Standardmäßig wird der Pfad des aktuell ausgewählten Ordners im Repository im Feld Pfad angezeigt.
 
-   >
+   >[!NOTE]
    >
    > Im Falle eines Upgrades müssen Sie die Markdown-Vorlage zum aktuell verwendeten Profilordner hinzufügen. Sie können [eine neue Markdown-Vorlage aus dem Editor erstellen](./web-editor-features.md#templates) oder eine vorhandene Vorlage für die Bearbeitung von Markdown-Inhalten verwenden. Weitere Informationen zum Hinzufügen von Authoring-Vorlagen in Experience Manager Guides finden Sie unter [Konfigurieren von globalen Profilen oder Profilen auf ](../cs-install-guide/conf-folder-level.md).
-1. Wählen Sie **Erstellen** aus.
+3. Wählen Sie **Erstellen** aus.
 
    Das Markdown-Thema wird unter dem ausgewählten Pfad erstellt und ist zur Bearbeitung geöffnet.
 
@@ -158,7 +158,7 @@ Der Abschnitt Verweise bietet Ihnen Zugriff auf die folgenden Funktionen:
 * **Verwendet in**: Die Option Verwendet in Verweisen listet die Dokumente auf, auf die die aktuelle Datei verwiesen oder verwendet wird.
 * **Ausgehende Links**: Unter Ausgehende Links werden die Dokumente aufgelistet, auf die im aktuellen Dokument verwiesen wird.
 
->
+>[!NOTE]
 >
 > Alle in und Outgoing-Links verwendeten Verweise sind mit den Dokumenten per Hyperlink verbunden. Sie können die verknüpften Dokumente einfach öffnen und bearbeiten.
 
@@ -170,12 +170,9 @@ Die folgenden Experience Manager Guides-Funktionen können derzeit nicht für da
 2. Zusammenführen
 3. KI-Assistent
 4. Änderungen verfolgen
-5. Suchen und Ersetzen
-6. Suchen und Filtern
-
->[!NOTE]
->
-> Die Funktion **Suchen und Ersetzen** verarbeitet keine Markdown-Dateien auf Repository-Ebene. Dazu gehört die Suche nach einer Markdown-Datei innerhalb einer Zuordnung oder eines Ordners. Sie kann jedoch weiterhin im Markdown-Editor verwendet werden. Außerdem verarbeiten die **Suche** und **Filter** in der Repository-Ansicht keine Markdown-Dateien.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)
+
+
+
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

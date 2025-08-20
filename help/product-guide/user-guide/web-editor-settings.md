@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die verschiedenen Einstellungen, die in der
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 84cc3db0e14217a7ba92143cb63b94329d5c26e1
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Die Option **Einstellungen** in der [Registerkartenleiste](./web-editor-tab-bar.
 - [Allgemein](#general)
 - [Bedienfelder](#panels)
 - [Liste der Elemente](#elements-list)
-- [Attribute Liste](#attributes-list)
+- [Attributliste](#attributes-list)
 - [Farben](#colors)
 - [Profile veröffentlichen](#publish-profiles)
 - [Validierung](#validation)
@@ -33,11 +33,34 @@ Die Option **Einstellungen** in der [Registerkartenleiste](./web-editor-tab-bar.
 
 ## Allgemein
 
-Mit den allgemeinen Einstellungen können Sie das Wörterbuch konfigurieren, das mit dem Editor verwendet werden soll. Diese Registerkarte enthält vier Abschnitte: **Rechtschreibprüfung**, **Bedingung**, **Authoring** und **Zitate** .
+Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren, dass der Editor verwendet wird. Diese Registerkarte enthält fünf Abschnitte: **KI-Assistent**, **Authoring**, **Zitate**, **Bedingung** und **Rechtschreibprüfung**.
 
-![](images/editor-setting-general.png){width="650" align="left"}
+![](images/editor-setting-general-new.png){width="350" align="left"}
 
-- **Rechtschreibprüfung**: Es gibt zwei Optionen: **Rechtschreibprüfung von AEM** Browser-**&#x200B;**. Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird. Sie können zur AEM-Rechtschreibprüfung wechseln, um das Adobe Experience Manager-Wörterbuch zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen des AEM-Wörterbuchs finden Sie [ Abschnitt „Anpassen des Standardwörterbuchs von AEM](../cs-install-guide/customize-aem-custom-dictionary.md) im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+- **KI-Assistent**
+Wählen Sie diese Option aus, um die Funktion [KI](./ai-assistant.md)Assistent“ in der Experience Manager Guides zu aktivieren. Deaktivieren Sie diese Option, um die Funktion zu deaktivieren.
+
+  Nach der Aktivierung des Umschalters **KI** Assistent) können Sie mithilfe des Menüs **Authoring-Schnellaktionen** konfigurieren, welche Optionen auf der Registerkarte **Authoring** für Autoren angezeigt werden.\
+  Diese Änderungen gelten für das jeweilige Ordnerprofil, mit dem Sie arbeiten. Wenn Sie ein neues Ordnerprofil erstellen, übernimmt es standardmäßig die Editor-Einstellungen, die im Ordnerprofil **Global** definiert sind. Sie können diese Einstellungen nach Bedarf mit den **Editor-Einstellungen** ändern und die aktualisierte Konfiguration speichern.\
+  Einen detaillierten Überblick über die verfügbaren Optionen für das Authoring mit dem KI-Assistenten finden Sie unter [Authoring von Dokumenten mit dem KI-Assistenten](./ai-assistant-right-panel.md).
+
+  Über das **Authoring-Schnellaktionen**-Menü haben Sie folgende Möglichkeiten:
+
+   - Verwenden Sie die Umschalter, um bestimmte Optionen zu aktivieren oder zu deaktivieren, auf die Autoren bei der Arbeit mit dem KI-Assistenten zugreifen können.
+
+   - Ändern Sie die Reihenfolge, in der die Optionen angezeigt werden, und ziehen Sie sie per Drag-and-Drop nach Bedarf.
+
+  ![](images/authoring-quick-actions.png){width="350" align="left"}
+
+
+
+- **Authoring**
+
+   - **Alle ersetzen aktivieren**: Wählen Sie diese Option aus, um das Symbol **Alle ersetzen** im Bedienfeld **Suchen und Ersetzen** anzuzeigen.
+
+- **Zitate**
+
+  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von ](./web-editor-apply-citations.md#change-citation-style).
 
 - **Bedingung**
 
@@ -51,16 +74,8 @@ Mit den allgemeinen Einstellungen können Sie das Wörterbuch konfigurieren, das
 
    - **Betreffschema im Bedienfeld Bedingungen anzeigen**: Wählen Sie diese Option, um ein Betreffschema im Bedienfeld Bedingungen anzuzeigen. Wenn Sie diese Option deaktivieren, werden die definierten Bedingungen im Bedienfeld Bedingungen angezeigt.
 
-- **Authoring**
-
-   - **Alle ersetzen aktivieren**: Wählen Sie diese Option aus, um das Symbol **Alle ersetzen** im Bedienfeld **Suchen und Ersetzen** anzuzeigen.
-
-- **Zitate**
-
-  ändern den Stil der Zitate. Wählen Sie den Zitierstil aus der Dropdown-Liste aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie Ansicht [ändern Zitierstile](./web-editor-apply-citations.md#change-citation-style).
-
-- **KI-Assistent**
-Wählen Sie diese Option aus, um die Funktion [KI](./ai-assistant.md)Assistent“ in der Experience Manager Guides zu aktivieren. Deaktivieren Sie diese Option, um die Funktion zu deaktivieren.
+- **Rechtschreibprüfung**
+Es gibt zwei Optionen: **AEM-** und **Browser-Rechtschreibprüfung**. Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird. Sie können zur AEM-Rechtschreibprüfung wechseln, um das Adobe Experience Manager-Wörterbuch zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen des AEM-Wörterbuchs finden Sie [ Abschnitt „Anpassen des Standardwörterbuchs von AEM](../cs-install-guide/customize-aem-custom-dictionary.md) im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 
 ## Bedienfelder
@@ -69,37 +84,37 @@ Mit dieser Einstellung werden die Bereiche gesteuert, die im linken und rechten 
 
 ![](images/editor-setting-panel.png){width="650" align="left"}
 
-Sie können auch die Reihenfolge festlegen, in der die in Bedienfeldern vorhandenen Funktionen angezeigt werden. Um die Standard bestellen der verfügbaren Features in den Bereichen zu ändern, wählen Sie die gepunkteten Balken aus, um die Feature-Registerkarten per Drag &amp; Drop an die gewünschte Position zu ziehen. Ein Feature kann je nach Anforderung auch vom **Mehr** Abschnitt in den Hauptabschnitt eines Bedienfelds verschoben werden und umgekehrt. Nach der Neuanordnung werden die Features im gleichen Sequenz im jeweiligen rechten und linken Bereich angezeigt.
+Sie können auch die Reihenfolge festlegen, in der die in Bedienfeldern vorhandenen Funktionen angezeigt werden. Um die Standardreihenfolge der verfügbaren Funktionen in den Bedienfeldern zu ändern, wählen Sie die gepunkteten Balken aus, um die Elementregisterkarten per Drag-and-Drop an die gewünschte Position zu ziehen. Ein Feature kann je nach Anforderung auch vom **Mehr**-Abschnitt in den Hauptabschnitt eines Bedienfelds und umgekehrt verschoben werden. Nach der Neuanordnung erscheinen die Funktionen im entsprechenden rechten und linken Bedienfeld in der gleichen Reihenfolge.
 
 ![](images/panels-screen.png){width="650" align="left"}
 
 
-Es können maximal acht Bereiche gleichzeitig angezeigt werden. Alle an den Bedienfeldeinstellungen vorgenommenen Änderungen werden sofort angewendet.
+Es können maximal acht Bedienfelder gleichzeitig angezeigt werden. Alle Änderungen an den Bedienfeldeinstellungen werden sofort übernommen.
 
 
 >[!NOTE]
 >
-> Wenn ein benutzerdefiniertes Bedienfeld konfiguriert wurde, wird es auch im Liste von Bedienfeldern angezeigt. Sie können den Schalter umschalten, um das benutzerdefinierte Bedienfeld anzuzeigen oder zu verstecken.
+> Wenn ein benutzerdefiniertes Bedienfeld konfiguriert wurde, wird es auch in der Liste der Bedienfelder angezeigt. Sie können den Schalter umschalten, um das benutzerdefinierte Bedienfeld ein- oder auszublenden.
 
-## Elemente Liste
+## Liste der Elemente
 
-Als Administrator können Sie die Liste von Elementen steuern, die ein Autor in eine Datei einfügen kann, und auch den Anzeigenamen für das Element definieren. Mit der Einstellung &quot;Elemente Liste&quot; können Sie den Namen des Elements gemäß den DITA-Spezifikationen und eine Beschriftung angeben, die Sie anstelle des von der DITA definierten Elementnamens verwenden möchten:
+Als Admin können Sie die Liste der Elemente steuern, die ein Autor in eine Datei einfügen kann, und auch den Anzeigenamen für das Element definieren. Mit der Einstellung Elementliste können Sie den Elementnamen gemäß DITA-Spezifikationen und eine Beschriftung angeben, die Sie anstelle des von DITA definierten Elementnamens verwenden möchten:
 
 ![](images/editor-setting-element-list.png){width="650" align="left"}
 
-In der obigen Screenshot hat das `p` Element die Beschriftung &quot;Absatz&quot; erhalten und `codeblock` erhält zusammen mit einigen anderen Elementen die Beschriftung &quot;Symbol Block&quot;. Wenn Sie die **Option Nur über Elementen** verwenden auswählen, werden nur die gültigen Elemente \(am aktuellen Einfügepunkt\) aus diesem Liste im **Dialogfeld Einfügen Element** angezeigt.
+Im obigen Screenshot wurde dem `p`-Element eine Beschriftung mit Absatz und `codeblock` neben einigen anderen Elementen eine Beschriftung mit Codeblock zugewiesen. Wenn Sie die Option **Nur Elemente oben verwenden** auswählen, werden nur die gültigen Elemente \(bei der aktuellen Einfügemarke\) aus dieser Liste im Dialogfeld **Element einfügen** angezeigt.
 
 Im folgenden Screenshot werden nur 3 von 4 konfigurierten Elementen aus dem vorherigen Screenshot im aktuellen Kontext angezeigt:
 
 ![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
 
-## Attribute Liste
+## Attributliste
 
-Ähnlich wie bei den Liste Elementen können Sie die Liste von Attributen und deren Anzeigenamen steuern, die in den Attributen Liste eines Elements angezeigt werden sollen. Im folgenden Screenshot wurden nur 3 Attribute für die Anzeige im Attribut eines Elements Liste konfiguriert:
+Ähnlich wie bei der Elementliste können Sie die Liste der Attribute und deren Anzeigenamen steuern, die in der Attributliste eines Elements angezeigt werden sollen. Im folgenden Screenshot wurden nur drei Attribute so konfiguriert, dass sie in der Attributliste eines Elements angezeigt werden:
 
 ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-Wenn Sie mit dieser Einstellung versuchen, einem Element ein Attribut hinzuzufügen, Ansicht Sie nur die Liste der im Liste konfigurierten Attribute.
+Bei dieser Einstellung wird beim Versuch, einem Element ein Attribut hinzuzufügen, nur die Liste der in der Liste konfigurierten Attribute angezeigt.
 
 ![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
 
@@ -110,17 +125,17 @@ Zeigt eine Liste der vorkonfigurierten Hintergrundfarben für (**)**. Benutzer k
 
 ## Profile veröffentlichen
 
-Enthält die Profile, mit denen die Ausgabe der **Wissensdatenbank** veröffentlicht werden kann. Sie können für eine Target-Komponente Knowledgebase eine neue Profil erstellen. Zum Beispiel Salesforce oder ServiceNow.
+Enthält die Profile, mit denen die Ausgabe der **Wissensdatenbank** veröffentlicht werden kann. Sie können ein neues Profil für eine Ziel-Wissensdatenbank erstellen. Beispiel: Salesforce oder ServiceNow.
 
-**Salesforce-Profil Erstellen**
+**Erstellen eines Salesforce-Profils**
 
 **Voraussetzungen**
 
-- Erstellen eine vernetzte Anwendung für Salesforce. Weitere Informationen finden Sie unter [Aktivieren der OAuth-Einstellungen für die API-Integration](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+- Erstellen Sie eine verbundene App für Salesforce. Weitere Informationen finden Sie unter [OAuth-Einstellungen für API-Integration aktivieren](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
-- Stellen Sie beim Konfigurieren der verbundenen Anwendung Folgendes sicher:
+- Stellen Sie beim Konfigurieren der verbundenen App Folgendes sicher:
 
-   - Geben Sie den Rückruf an.
+   - Geben Sie den Callback an.
 
      `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
@@ -131,7 +146,7 @@ Enthält die Profile, mit denen die Ausgabe der **Wissensdatenbank** veröffentl
      Sobald die App konfiguriert ist, stellt Salesforce einen **Consumer Key** und **Consumer Secret** bereit. Diese können zum Erstellen des Salesforce-Profils verwendet werden.
 
 
-   - Um eine Salesforce-Profil zu erstellen, wählen Sie die **Basis Salesforce-Wissen aus der** Dropdown-Liste &quot;Typ **Server**&quot; aus. Geben Sie einen Profilnamen ein. Geben Sie **Site-URL** die Verbraucherwebsite ein, mit der Sie die Ausgabe veröffentlichen möchten, und fügen Sie dann den **Consumer Key** und **Consumer Secret** hinzu, die von der Salesforce-Verbraucherwebsite bereitgestellt werden. Wählen Sie dann **Validieren** und **Speichern** das neu erstellte Profil aus.
+   - Um ein Salesforce-Profil zu erstellen, wählen Sie die **Salesforce** Knowledge Base aus der Dropdown-Liste **Servertyp** aus. Geben Sie einen Profilnamen ein. Geben Sie **Site-URL** die Verbraucherwebsite ein, mit der Sie die Ausgabe veröffentlichen möchten, und fügen Sie dann den **Consumer Key** und **Consumer Secret** hinzu, die von der Salesforce-Verbraucherwebsite bereitgestellt werden. Wählen Sie dann **Validieren** und **Speichern** das neu erstellte Profil aus.
 
      ![Salesforce-Veröffentlichungsprofil in Editor-Einstellungen](./images/salesforce-publish-profile.png){width="550" align="left"}
 
@@ -169,7 +184,7 @@ Konfigurieren Sie den ServiceNow-Server, um die Assets hochzuladen.
 
 Diese Registerkarte enthält Optionen zum Konfigurieren der Schematron-Validierungen im Editor. Sie können die folgenden Funktionen aktivieren:
 
-- **Vor dem Speichern der Datei** Tauglichkeitsprüfung Prüfung ausführen: Wählen Sie diese Option aus, um Schematron-Validierungen mit den ausgewählten Schematron-Dateien vor dem Speichern auszuführen. Sie können eine Schematron-Datei hinzufügen, indem Sie auf das Plus-Zeichen (+) klicken. Die ausgewählte(n) Schematron-Datei(en) werden aufgeführt.
+- **Validierungsprüfung vor dem Speichern der Datei ausführen**: Wählen Sie diese Option, um vor einem Speichervorgang Schematron-Validierungen unter Verwendung der ausgewählten Schematron-Datei(en) auszuführen. Sie können eine Schematron-Datei hinzufügen, indem Sie auf das Symbol + klicken. Die ausgewählten Schematron-Dateien werden aufgelistet.
 
   >[!NOTE]
   >
@@ -201,10 +216,10 @@ Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum �
   Führen Sie die folgenden Schritte aus, um eine neue Sprachgruppe zu erstellen:
 
    1. Wählen Sie **Hinzufügen** aus.
-   1. Geben Sie die Sprache Gruppe den Namen ein. Jede Sprache sollte einen eindeutigen Namen haben. Wenn das Feld &quot;Name&quot; leer ist oder der Name nicht eindeutig ist, können Sie einen Fehler Ansicht.
-   1. Wählen Sie die Sprachen aus der Dropdown-Liste aus. Sie können mehrere Sprachen auswählen.
+   1. Geben Sie den Namen der Sprachgruppe ein. Jede Sprache sollte einen eindeutigen Namen haben. Sie können einen Fehler anzeigen, wenn das Namensfeld leer oder der Name nicht eindeutig ist.
+   1. Wählen Sie die Sprachen aus dem Dropdown-Menü aus. Sie können mehrere Sprachen auswählen.
 
-      Geben Sie die ersten Zeichen der Sprache oder den Sprach-Code ein, um die gewünschten Sprachen zu filtern. Geben Sie beispielsweise &quot;en&quot; ein, um alle Sprachen zu filtern, die &quot;en&quot; am Anfang ihres Namens oder Codes enthalten.
+      Geben Sie die ersten Zeichen der Sprache oder den Sprach-Code ein, um die gewünschten Sprachen zu filtern. Geben Sie beispielsweise „en“ ein, um alle Sprachen zu filtern, die „en“ am Anfang ihres Namens oder Codes enthalten.
 
    1. Wählen Sie das Symbol Fertig aus, um der Gruppe die ausgewählten Sprachen hinzuzufügen. Die Sprachen werden angezeigt. Wenn Sie drei oder mehr Sprachen hinzufügen, wird **Option „Mehr anzeigen** angezeigt. Sie können auf **Mehr anzeigen** klicken, um alle in der Gruppe vorhandenen Sprachen anzuzeigen.
 
@@ -213,16 +228,16 @@ Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum �
       > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
    1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](images/Delete_icon.svg).
-   1. Speichern die **Einstellungen**.
+   1. Speichern Sie die **Einstellungen**.
 
       >[!NOTE]
       >
-      >Als User können Sie die für Ihren Ordner konfigurierten Sprachgruppen Profil Ansicht.
+      >Als Benutzer können Sie die für Ihr Ordnerprofil konfigurierten Sprachgruppen anzeigen.
 
-- **Quellversionsbezeichnungen an die Target-Komponente** Version weitergeben: Aktivieren Sie diese Option, um die Bezeichnung der Quelldateiversion an die übersetzte Datei zu übergeben. Standardmäßig ist diese Einstellung deaktiviert.
-- **Bereinigung von Übersetzungsprojekten nach Abschluss**: Wählen Sie diese Option aus, um die Übersetzungsprojekte so zu konfigurieren, dass sie nach der Übersetzung automatisch deaktiviert oder gelöscht werden. Standardmäßig ist &quot;Keine **&quot;** ausgewählt, sodass das Projekt nach der Übersetzung vorhanden ist.
+- **Beschriftungen der Quellversion an die Zielversion weitergeben**: Wählen Sie diese Option, um den Titel der Quelldateiversion an die übersetzte Datei weiterzugeben. Standardmäßig ist dies deaktiviert.
+- **Bereinigung des Übersetzungsprojekts nach Abschluss**: Wählen Sie diese Option, um die Übersetzungsprojekte so zu konfigurieren, dass sie nach der Übersetzung automatisch deaktiviert oder gelöscht werden. Standardmäßig ist **Keine** ausgewählt, sodass das Projekt nach der Übersetzung existiert.
 
-  Sie können die Übersetzungsprojekte deaktivieren, wenn Sie sie später verwenden möchten. Wenn Sie ein Projekt löschen, werden alle darin vorhandenen Dateien und Ordner dauerhaft gelöscht.
+  Sie können die Übersetzungsprojekte deaktivieren, wenn Sie sie später verwenden möchten. Durch das Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner endgültig gelöscht.
 
 
 ## Metadaten
@@ -232,7 +247,7 @@ Sie können die Versionsmetadaten des Themas und ihre Werte steuern, die im Dial
 Die Metadaten können aus jeder Eigenschaft unter dem `/jcr:content` des Assets ausgewählt werden, sodass Sie den Pfad der Eigenschaft als Metadatenpfad hinzufügen können.
 
 
-Ein Fehler wird angezeigt, wenn die Metadaten Pfad leer ist. Wenn Sie das Feld leer lassen, wird das letzte Element als Titel ausgewählt.
+Wenn der Metadatenpfad leer ist, wird ein Fehler angezeigt. Wenn Sie das Feld leer lassen, wird das letzte Element als Titel ausgewählt.
 
 
 ![Registerkarte „Metadaten“ in den Editor-Einstellungen](images/editor-setting-metadata.png){width="550" align="left"}
@@ -244,4 +259,4 @@ Ein Fehler wird angezeigt, wenn die Metadaten Pfad leer ist. Wenn Sie das Feld l
 Sie können auch die Reihenfolge festlegen, in der diese Metadaten-Tags angezeigt werden. Um die Standardreihenfolge dieser Tags zu ändern, wählen Sie die gepunkteten Balken aus, um die Tags per Drag-and-Drop an die gewünschte Position zu ziehen.
 Die Metadatenbeschriftungen werden im Dialogfeld **Versionsverlauf** des Editors in derselben Reihenfolge angezeigt.
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

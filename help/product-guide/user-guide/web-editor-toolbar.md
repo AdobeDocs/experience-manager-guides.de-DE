@@ -4,9 +4,9 @@ description: Die Symbolleiste im Editor kennenlernen. Erfahren Sie mehr über di
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: 3dee9b2c90515ff7681770247f215996dc2c8325
 workflow-type: tm+mt
-source-wordcount: '5909'
+source-wordcount: '5962'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,15 @@ Die Symbolleiste wird angezeigt, wenn Sie ein Thema oder eine Karte zur Bearbeit
 
 ## Menü-Dropdown
 
-Die Dropdown-Liste Menü bietet Zugriff auf die Funktionen zum Bearbeiten, Suchen und Ersetzen, Versionsverlauf, Versionsbezeichnung, Zusammenführen, Prüfungsaufgabe erstellen, Änderungen verfolgen und Tags .
+Die Dropdown-Liste Menü bietet Zugriff auf Bearbeitungsaktionen, Suchen und Ersetzen, Versionsverlauf, Versionsbezeichnung, Zusammenführen, Prüfungsaufgabe erstellen und Menü „Anzeigen“ (einschließlich Änderungen verfolgen, Tags, unterbrechungsfreien Leerzeichen).
+
+![Menü-Dropdown für Editor-Symbolleiste](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
 
 Diese Funktionen werden im Einzelnen wie folgt erläutert:
 
 **Aktionen bearbeiten**
 
-Greifen Sie beim Bearbeiten eines Themas im Editor auf die verschiedenen Bearbeitungsaktionen zu, z. B. **Ausschneiden** oder ***Strg***+***X*** , **Kopieren** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+Z ***,**&#x200B;Wiederholen&#x200B;**oder*** CtrlCtrlY **&#x200B;**&#x200B;**&#x200B; **&#x200B;**&#x200B;** **&#x200B;**&#x200B;Löschenim Dropdown-Menü.
+Greifen Sie beim Bearbeiten eines Themas im Editor auf die verschiedenen Bearbeitungsaktionen zu, z. B. **Ausschneiden** oder ***Strg***+***X*** , **Kopieren** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+Z ***,*** Wiederholen **oder** CtrlCtrlY ****** ****** **** Löschenim Dropdown-Menü.
 
 
 **Suchen und Ersetzen**
@@ -227,52 +229,52 @@ Um Änderungen in einer Zuordnungsdatei zusammenzuführen, führen Sie die folge
 
 Sie können [eine Prüfungsaufgabe erstellen](./review-send-topics-for-review.md) des aktuellen Themas oder der Zuordnungsdatei direkt im Editor erstellen. Öffnen Sie die Datei, für die Sie die Prüfungsaufgabe erstellen möchten, und wählen Sie **Prüfungsaufgabe erstellen** aus dem Dropdown-Menü aus, um den Prozess zur Erstellung der Überprüfung zu starten.
 
-**Änderungen verfolgen**
+**Menü anzeigen**
 
-Sie können alle an einem Dokument vorgenommenen Aktualisierungen nachverfolgen, indem Sie den Modus Änderungen nachverfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen im Dokument erfasst. Der gesamte gelöschte Inhalt wird mithilfe von Durchgestrichen hervorgehoben, und alle Einfügungen werden in grünem Text hervorgehoben. Darüber hinaus werden die Änderungsleisten am Rand der Themenseite angezeigt. Auch hier wird ein roter Balken für gelöschte Inhalte und ein grüner Balken für hinzugefügte Inhalte angezeigt. Wenn sich eine Ergänzung und ein Löschvorgang in derselben Zeile befinden, werden sowohl grüne als auch rote Balken angezeigt.
+Das Menü „Anzeigen“ umfasst die folgenden Funktionen:
 
+- **Änderungen verfolgen** Sie können alle Aktualisierungen eines Dokuments nachverfolgen, indem Sie den Modus Änderungen nachverfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen im Dokument erfasst. Der gesamte gelöschte Inhalt wird mithilfe von Durchgestrichen hervorgehoben, und alle Einfügungen werden in grünem Text hervorgehoben. Darüber hinaus werden die Änderungsleisten am Rand der Themenseite angezeigt. Auch hier wird ein roter Balken für gelöschte Inhalte und ein grüner Balken für hinzugefügte Inhalte angezeigt. Wenn sich eine Ergänzung und ein Löschvorgang in derselben Zeile befinden, werden sowohl grüne als auch rote Balken angezeigt.
 Der folgende Screenshot zeigt den gelöschten und eingefügten Inhalt zusammen mit den Änderungsleisten:
+  ![](images/track-changes-content.png){width="650" align="left"}
 
-![](images/track-changes-content.png){width="650" align="left"}
+  Ein typischer Anwendungsfall für das Tracking von Änderungen in einem Dokument kann die Durchführung einer Peer Review sein. Sie können Änderungen nachverfolgen und Ihr Dokument zur Überprüfung freigeben. Die Überprüfenden nehmen dann Änderungen vor, wenn die Nachverfolgung aktiviert ist. Wenn Sie das Dokument erhalten, sollten Sie über einen Mechanismus verfügen, mit dem Sie die vorgeschlagenen Aktualisierungen anzeigen können und bequem Änderungen akzeptieren oder ablehnen können.
 
-Ein typischer Anwendungsfall für das Tracking von Änderungen in einem Dokument kann die Durchführung einer Peer Review sein. Sie können Änderungen nachverfolgen und Ihr Dokument zur Überprüfung freigeben. Die Überprüfenden nehmen dann Änderungen vor, wenn die Nachverfolgung aktiviert ist. Wenn Sie das Dokument erhalten, sollten Sie über einen Mechanismus verfügen, mit dem Sie die vorgeschlagenen Aktualisierungen anzeigen können und bequem Änderungen akzeptieren oder ablehnen können.
+  Experience Manager Guides stellt die Funktion „Getrackte Änderungen“ bereit, die Informationen zu den im Dokument vorgenommenen Aktualisierungen enthält. Die Funktion „Nachverfolgte Änderungen“ enthält Informationen dazu, welche Aktualisierungen vorgenommen wurden, wer sie vorgenommen hat und zu welchem Zeitpunkt. Mit der Funktion „Nachverfolgte Änderungen“ können Sie die vorgeschlagenen Aktualisierungen im Dokument auch einfach akzeptieren oder ablehnen.
 
-Experience Manager Guides stellt die Funktion „Getrackte Änderungen“ bereit, die Informationen zu den im Dokument vorgenommenen Aktualisierungen enthält. Die Funktion „Nachverfolgte Änderungen“ enthält Informationen dazu, welche Aktualisierungen vorgenommen wurden, wer sie vorgenommen hat und zu welchem Zeitpunkt. Mit der Funktion „Nachverfolgte Änderungen“ können Sie die vorgeschlagenen Aktualisierungen im Dokument auch einfach akzeptieren oder ablehnen.
+  Um auf die Funktion zuzugreifen, wählen **im rechten Bedienfeld das Symbol**&#x200B;Änderungen verfolgen“ aus.
 
-Um auf die Funktion zuzugreifen, wählen **im rechten Bedienfeld das Symbol**&#x200B;Änderungen verfolgen“ aus.
+  ![](images/changes-panel_cs.png){width="300" align="left"}
 
-![](images/changes-panel_cs.png){width="300" align="left"}
+  Durch Auswählen einer verfolgten Änderung wird der geänderte Inhalt im Dokument ausgewählt. Sie können eine Änderung annehmen, indem Sie auf das Symbol Änderung akzeptieren klicken, oder sie ablehnen, indem Sie die Änderung ablehnen auswählen.
 
-Durch Auswählen einer verfolgten Änderung wird der geänderte Inhalt im Dokument ausgewählt. Sie können eine Änderung annehmen, indem Sie auf das Symbol Änderung akzeptieren klicken, oder sie ablehnen, indem Sie die Änderung ablehnen auswählen.
+  Wenn Sie alle Änderungen mit einem Klick akzeptieren oder ablehnen möchten, wählen Sie **Alle Änderungen akzeptieren** oder **Alle Änderungen ablehnen**.
 
-Wenn Sie alle Änderungen mit einem Klick akzeptieren oder ablehnen möchten, wählen Sie **Alle Änderungen akzeptieren** oder **Alle Änderungen ablehnen**.
+  >[!NOTE]
+  >
+  > Im Vorschaumodus können Sie das Dokument mit oder ohne Markierungen des geänderten Inhalts anzeigen. Weitere Informationen finden Sie im [Vorschau](web-editor-views.md#preview-mode)-Modus.
 
->[!NOTE]
->
-> Im Vorschaumodus können Sie das Dokument mit oder ohne Markierungen des geänderten Inhalts anzeigen. Weitere Informationen finden Sie im [Vorschau](web-editor-views.md#preview-mode)-Modus.
+- **Tags:** Die **Tags**-Funktion im Editor ist eine Umschalter-Schaltfläche, die die Sichtbarkeit von DITA-Elementen steuert. Wenn diese Option aktiviert ist, werden strukturelle Tags im Inhalt angezeigt, sodass Sie die zugrunde liegenden DITA-Elemente effektiver anzeigen und verwalten können. Wenn diese Option deaktiviert ist, blendet der Editor diese Tags aus und bietet so eine sauberere und fokussiertere Authoring-Umgebung.
 
-**Tags**
+  Der folgende Screenshot zeigt ein Dokument mit aktivierter Tag-Ansicht:
 
-Die **Tags**-Funktion im Editor ist eine Umschalter-Schaltfläche, die die Sichtbarkeit von DITA-Elementen steuert. Wenn diese Option aktiviert ist, werden strukturelle Tags im Inhalt angezeigt, sodass Sie die zugrunde liegenden DITA-Elemente effektiver anzeigen und verwalten können. Wenn diese Option deaktiviert ist, blendet der Editor diese Tags aus und bietet so eine sauberere und fokussiertere Authoring-Umgebung.
+  ![](images/tags-view.png){width="650" align="left"}
 
-Der folgende Screenshot zeigt ein Dokument mit aktivierter Tag-Ansicht:
+  Die folgenden Vorgänge können in einem Dokument mit Tags ausgeführt werden:
 
-![](images/tags-view.png){width="650" align="left"}
+   - **Element auswählen**: Wählen Sie das öffnende oder schließende Tag eines Elements aus, um seinen Inhalt auszuwählen.
 
-Die folgenden Vorgänge können in einem Dokument mit Tags ausgeführt werden:
+   - **Tags erweitern oder reduzieren**: Wählen Sie das + oder - Anmelden eines Tags aus, um es zu erweitern oder zu reduzieren.
 
-- **Element auswählen**: Wählen Sie das öffnende oder schließende Tag eines Elements aus, um seinen Inhalt auszuwählen.
+   - **Kontextmenü verwenden**: Das Kontextmenü bietet Optionen zum Ausschneiden, Kopieren oder Einfügen des ausgewählten Elements. Sie können ein Element auch vor oder nach dem ausgewählten Element einfügen. Die anderen Optionen ermöglichen es Ihnen, für das ausgewählte Element eine ID zu generieren oder den Bereich „Eigenschaften“ zu öffnen.
 
-- **Tags erweitern oder reduzieren**: Wählen Sie das + oder - Anmelden eines Tags aus, um es zu erweitern oder zu reduzieren.
-
-- **Kontextmenü verwenden**: Das Kontextmenü bietet Optionen zum Ausschneiden, Kopieren oder Einfügen des ausgewählten Elements. Sie können ein Element auch vor oder nach dem ausgewählten Element einfügen. Die anderen Optionen ermöglichen es Ihnen, für das ausgewählte Element eine ID zu generieren oder den Bereich „Eigenschaften“ zu öffnen.
-
-- **Elemente per Drag-and-Drop verschieben**: Wählen Sie das Tag eines Elements aus und ziehen Sie es einfach per Drag-and-Drop in Ihr Dokument. Wenn der Ablageort ein gültiger Ort ist, an dem das Element zulässig ist, wird das Element an dem abgelegten Ort platziert.
+   - **Elemente per Drag-and-Drop verschieben**: Wählen Sie das Tag eines Elements aus und ziehen Sie es einfach per Drag-and-Drop in Ihr Dokument. Wenn der Ablageort ein gültiger Ort ist, an dem das Element zulässig ist, wird das Element an dem abgelegten Ort platziert.
 
 
->[!NOTE]
->
-> Wenn ein(e) Benutzende(r) die Tag-Ansicht im Editor aktiviert, bleibt sie auch sitzungsübergreifend aktiviert. Das bedeutet, dass Sie die Tag-Ansicht nicht erneut aktivieren müssen, um später darauf zuzugreifen. Der Standardwert für die Tags-Ansicht für die Sitzung eines neuen Benutzers wird durch die `tagsView`-Eigenschaft in der `ui\_config.json` bestimmt. Weitere Informationen finden Sie im Abschnitt [Standardwert für die Tag-Ansicht konfigurieren](../cs-install-guide/configure-default-value-tags-view.md) unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+  >[!NOTE]
+  >
+  > Wenn ein(e) Benutzende(r) die Tag-Ansicht im Editor aktiviert, bleibt sie auch sitzungsübergreifend aktiviert. Das bedeutet, dass Sie die Tag-Ansicht nicht erneut aktivieren müssen, um später darauf zuzugreifen. Der Standardwert für die Tags-Ansicht für die Sitzung eines neuen Benutzers wird durch die `tagsView`-Eigenschaft in der `ui\_config.json` bestimmt. Weitere Informationen finden Sie im Abschnitt [Standardwert für die Tag-Ansicht konfigurieren](../cs-install-guide/configure-default-value-tags-view.md) unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+
+- **Leerzeichen ohne Unterbrechung:** Aktivieren Sie diese Option, um beim Bearbeiten im Editor einen Indikator für die Leerzeichen ohne Unterbrechung anzuzeigen. Er ist nur in der **Autoren**-Ansicht für DITA-Themen und DITA-Zuordnungen sichtbar.
 
 ## Optionen zum Einfügen von Inhalten
 
@@ -621,4 +623,4 @@ Wenn eine Datei von einem anderen Benutzer gesperrt wird, wird beim Bewegen des 
 Als Administrator erhalten Sie auch Zugriff auf die Funktion **Entsperren erzwingen** mit der Sie die von anderen Benutzern gesperrte Datei entsperren können. Verwenden Sie diese Funktion, um auf die Bearbeitungsrechte für eine Datei zuzugreifen, die von anderen Benutzern gesperrt wurde.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

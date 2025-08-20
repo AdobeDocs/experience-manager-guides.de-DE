@@ -4,29 +4,28 @@ description: Erfahren Sie, wie Sie als Autor oder Autorin in AEM Guides Kommenta
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # Kommentare zur Adressenüberprüfung {#id2056B0X0KBI}
 
+Als Autor können Sie Kommentare in einem Thema mit dem Editor bearbeiten. Die Kommentare werden auf der Grundlage der im Überprüfungsfeld ausgewählten Überprüfungsaufgabe geladen. Weitere Informationen finden Sie in der Beschreibung des Bedienfelds **Überprüfen** ![](images/active-review-tasklist-icon.svg) im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-Als Autor können Sie Kommentare in einem Thema mit dem Web-Editor bearbeiten. Die Kommentare werden auf der Grundlage der im Überprüfungsfeld ausgewählten Überprüfungsaufgabe geladen. Weitere Informationen finden Sie in der Beschreibung des Bedienfelds **Überprüfen** ![](images/active-review-tasklist-icon.svg) im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS).
+In den folgenden Abschnitten werden Möglichkeiten zum Bearbeiten von Kommentaren im Editor beschrieben.
 
-In den folgenden Abschnitten werden Möglichkeiten zum Bearbeiten von Kommentaren im Web-Editor beschrieben.
-
-Ein Autor kann im Web-Editor Kommentare in einem Dokument ansprechen. Es werden visuelle Indikatoren bereitgestellt, die angeben, ob Kommentare eingefügt \(text\), gelöscht oder hervorgehoben wurden. Auch die Art des Kommentars wird oben in jedem Kommentareintrag erwähnt.
+Ein Autor kann im Editor Kommentare in einem Dokument ansprechen. Es werden visuelle Indikatoren bereitgestellt, die angeben, ob Kommentare eingefügt \(text\), gelöscht oder hervorgehoben wurden. Auch die Art des Kommentars wird oben in jedem Kommentareintrag erwähnt.
 
 >[!NOTE]
 >
-> Achten Sie beim Bearbeiten von Überprüfungskommentaren \(für ein aktives Überprüfungsdokument\) darauf, dass Sie - das zu überprüfende Thema wird nicht in mehreren Registerkarten mit aktivierter Ansicht „Vollständige Tags“ geöffnet - nicht zwischen dem Authoring- und dem Source-Ansichtsmodus wechseln.
+> Achten Sie beim Bearbeiten von Überprüfungskommentaren \(für ein aktives Überprüfungsdokument\) darauf, dass Sie das zu überprüfende Thema nicht auf mehreren Registerkarten öffnen, wenn die Ansicht „Vollständige Tags“ aktiviert ist, und nicht zwischen dem Authoring- und dem Source-Ansichtsmodus wechseln.
 
 ![](images/comments-page-web-editor_cs-new.png){align="left"}
 
-Im Web-Editor-Modus enthält das rechte Bedienfeld die Symbole Überprüfen und Änderungen verfolgen . Im Bedienfeld Überprüfung werden alle Kommentare angezeigt, die von Prüfern in Ihrem Dokument vorgenommen wurden. Das **Änderungen verfolgen** zeigt den Status aller eingefügten und gelöschten Kommentare in Ihrem Dokument an.
+Im Editor enthält das rechte Bedienfeld die Symbole Überprüfen und Änderungen verfolgen . Im Bedienfeld Überprüfen werden alle Kommentare angezeigt, die von Prüfern in Ihrem Dokument vorgenommen wurden. Das **Änderungen verfolgen** zeigt den Status aller eingefügten und gelöschten Kommentare in Ihrem Dokument an.
 
 - **A**: Wählen Sie eine Prüfungsaufgabe aus, um Prüfungskommentare anzuzeigen. Wenn Ihr Thema für die Überprüfung in mehreren Prüfungsaufgaben freigegeben wurde, werden diese Aufgaben in dieser Dropdown-Liste angezeigt.
 
@@ -42,7 +41,7 @@ Im Web-Editor-Modus enthält das rechte Bedienfeld die Symbole Überprüfen und 
   >
   > Wenn sich die Stammzuordnung Ihrer Prüfungsaufgabe von der Stammzuordnung für die Bearbeitung unterscheidet, werden die zugehörigen Informationen angezeigt, um anzugeben, dass die Bearbeitung und die Stammzuordnung für die Überprüfung nicht übereinstimmen.
 
-- **C**: Wenn Sie Ihr Thema nach dem Initiieren der Überprüfung aktualisiert haben, wird Ihre Arbeitskopie durch Auswahl des Symbols Thema auf Überprüfung zurücksetzen auf die Version zurückgesetzt, die für die Überprüfung freigegeben wurde. Dies erleichtert Ihnen die direkte Integration des Review-Feedbacks in die Version, die zur Überprüfung freigegeben wurde. Nach der Einbindung des Feedbacks können Sie Änderungen in der zurückgesetzten Version speichern oder eine neue Revision des Themas erstellen. Wenn Sie eine neue Version Ihres Themas erstellen, wird aus der Themenversion, die zur Überprüfung freigegeben wurde, eine neue Verzweigung erstellt. Wenn Sie beispielsweise Version `1.2` eines Themas für eine Überprüfung freigegeben haben, während die aktuelle Autorenversion `1.3` ist, können Sie dieses Symbol verwenden, um zur Version `1.2` zurückzukehren und Überprüfungskommentare einzubinden. Wenn Sie sich dafür entscheiden, eine neue Revision zu erstellen, nachdem Sie Änderungen an Version `1.2` integriert haben, wird für das Thema eine neue Verzweigung mit Version `1.2.0` erstellt.
+- **C**: Wenn Sie Ihr Thema nach dem Initiieren der Überprüfung aktualisiert haben, wird Ihre Arbeitskopie durch Auswahl des Symbols **Thema auf Version** zurücksetzen auf die Version zurückgesetzt, die für die Überprüfung freigegeben wurde. Dies erleichtert Ihnen die direkte Integration des Review-Feedbacks in die Version, die zur Überprüfung freigegeben wurde. Nach der Einbindung des Feedbacks können Sie Änderungen in der zurückgesetzten Version speichern oder eine neue Revision des Themas erstellen. Wenn Sie eine neue Version Ihres Themas erstellen, wird aus der Themenversion, die zur Überprüfung freigegeben wurde, eine neue Verzweigung erstellt. Wenn Sie beispielsweise Version `1.2` eines Themas für eine Überprüfung freigegeben haben, während die aktuelle Autorenversion `1.3` ist, können Sie dieses Symbol verwenden, um zur Version `1.2` zurückzukehren und Überprüfungskommentare einzubinden. Wenn Sie sich dafür entscheiden, eine neue Revision zu erstellen, nachdem Sie Änderungen an Version `1.2` integriert haben, wird für das Thema eine neue Verzweigung mit Version `1.2.0` erstellt.
 
   Nach der Einbindung von Überprüfungsfeedback möchten Sie in der Regel Änderungen aus der neuesten Version des Themas zusammenführen. Verwenden Sie dazu die Funktion [Zusammenführen](web-editor-features.md#id205DF04E0HS), um alle Aktualisierungen abzurufen, die vorgenommen wurden, nachdem das Thema zur Überprüfung freigegeben wurde.
 
@@ -72,5 +71,23 @@ Im Web-Editor-Modus enthält das rechte Bedienfeld die Symbole Überprüfen und 
 
 - **I**: Einen Filter auf die Kommentare anwenden. Sie können nach Kommentaren filtern, und zwar auf der Grundlage von Überprüfungstyp \(alle, hervorgehoben, gelöscht, eingefügt oder Haftnotiz\), Überprüfungsstatus \(alle, akzeptiert, abgelehnt oder keine\), Reviewers \(alle oder bestimmte Reviewer\(s\)\) oder Themenversionen.
 
+**Antworten auf einen Kommentar, indem Sie andere Benutzer taggen**
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)
+Als Autor und Initiator der Prüfungsaufgabe können Sie auf Prüfungskommentare antworten und andere Benutzende, die an derselben Prüfungsaufgabe beteiligt sind, mit Tags versehen, um ihre Aufmerksamkeit zu lenken oder Folgemaßnahmen zuzuweisen. Diese Funktion ist nur für aktive Prüfungsaufgaben verfügbar.
+
+>[!NOTE]
+>
+> Um die Liste der einer Prüfungsaufgabe zugewiesenen Benutzer anzuzeigen und sie in einem Kommentar zu taggen, benötigen Sie *Lesezugriff* auf `/home/users and /home/groups` Knoten. Weitere Informationen finden Sie unter [Benutzerverwaltung und Sicherheit](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Wenn das Tagging nach der Bestätigung des Zugriffs immer noch nicht verfügbar ist, muss Ihr Administrator möglicherweise eine `user-admin` Lizenz zuweisen, um diese Funktion zu aktivieren.
+
+![](images/tag-users-review.png){width="350" align="left"}
+*Beschriftung:Tag Benutzer als Initiator/Autor*
+
+Getaggte Benutzende erhalten sowohl eine E-Mail- als auch eine AEM-Benachrichtigung, sodass sie umgehend informiert werden. Weitere Informationen zum Trigger von Prüfungsbenachrichtigungen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
+
+**Zugreifen auf Prüfungskommentare über die Überprüfungs-Benutzeroberfläche**
+
+Wenn Sie der Initiator oder Autor einer Prüfungsaufgabe sind und diese über die **Projektekonsole** öffnen, wird das Thema in der Prüfungsbenutzeroberfläche gestartet. Da Ihnen diese Aufgabe nicht zugewiesen ist, können Sie Kommentare anzeigen und beantworten, jedoch keine Überprüfungsaktionen durchführen. Die Kommentarsymbolleiste bleibt für Benutzende deaktiviert, die der Aufgabe nicht zugewiesen sind.
+
+![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

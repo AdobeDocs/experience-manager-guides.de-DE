@@ -4,9 +4,9 @@ description: Beheben Sie Probleme mit der grundlegenden Fehlerbehebung in AEM Gu
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -21,24 +21,32 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabege
 
 1. Nachdem Sie den Prozess zur Ausgabe-Generierung initiiert haben, wählen Sie **Ausgaben** in der DITA-Zuordnungskonsole aus.
 
-   Die Spalte **Allgemein** der **Generierte Ausgaben** zeigt die Symbole, die einen visuellen Hinweis auf den Erfolg oder Misserfolg der Ausgabegenerierung geben.
+   Die Spalte **Erzeugungseinstellung** der Spalte **Erzeugte Ausgaben** zeigt die Farbe an, die einen visuellen Hinweis auf den Erfolg oder Misserfolg der Ausgabegenerierung für verschiedene Ausgabevorgaben gibt.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300" align="left"}
 
-   Im obigen Screenshot zeigen die Symbole 1 und 3 eine fehlgeschlagene Ausgabegenerierung. Das zweite Symbol zeigt eine erfolgreiche Ausgabegenerierung an, jedoch mit Meldungen. Die letzte Variante ist eine erfolgreiche Ausgabegenerierung ohne Meldung.
+   Im obigen Screenshot:
+
+   - Rot bedeutet fehlgeschlagene Ausgabegenerierung.
+   - Grün zeigt eine erfolgreiche Ausgabegenerierung an.
+   - Gelb zeigt eine erfolgreiche Ausgabegenerierung mit Fehlern an.
+
+   >[!NOTE]
+   >
+   > Die Farben auf der Registerkarte **Ausgabe**, die den Status verschiedener Ausgabeergebnisse angeben, unterscheiden sich von den Farben, die zur Kategorisierung der verschiedenen Fehlertypen in den Protokolldateien verwendet werden.
 
 1. Wählen Sie nach Abschluss des Vorgangs den Link in **Spalte** Erstellt am“ aus.
 
    Die Protokolldatei wird auf einer neuen Registerkarte geöffnet.
 
-   ![](images/log-file.png){align="left"}
+   ![](images/log-file-new.png){align="left"}
 
 1. Verwenden Sie die folgenden Filter, um den Text in der Protokolldatei hervorzuheben:
-   - Schwerwiegend: Markiert schwerwiegende Fehler in der Protokolldatei in rosa.
-   - Fehler: Markiert die Fehler in der Protokolldatei in orangefarbener Farbe.
-   - Warnung: Markiert die Warnungen in der Protokolldatei in violetter Farbe.
-   - Info: Hebt die Informationsmeldungen in der Protokolldatei mit blauer Farbe hervor.
-   - Ausnahme: markiert die Ausnahmen in der Protokolldatei mit gelber Farbe.
+   - Schwerwiegend: Markiert die schwerwiegenden Fehler in der Protokolldatei mit dunkelroter Farbe.
+   - Fehler: Markiert die Fehler in der Protokolldatei rot. Ausnahmen werden als Fehler gewertet und entsprechend rot hervorgehoben.
+   - Warnung: Markiert die Warnungen in der Protokolldatei mit gelber Farbe.
+   - Info: Hebt die Informationsmeldungen in der Protokolldatei grün hervor.
+
 1. Verwenden Sie die Navigationsschaltflächen nach oben und unten, um zum hervorgehobenen Text in der Protokolldatei zu springen.
 
    Alternativ können Sie durch die Protokolldatei scrollen und die Meldungen überprüfen.
@@ -91,4 +99,4 @@ Führen Sie zur Behebung dieses Problems folgende Schritte durch:
 1. Erhöhen Sie den Wert für den Parameter *Anzahl der Aufrufe pro Anfrage* gemäß Ihren Anforderungen.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

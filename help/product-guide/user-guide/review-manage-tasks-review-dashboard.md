@@ -4,9 +4,9 @@ description: Verwalten Sie Prüfungsaufgaben im Überprüfungs-Dashboard in AEM 
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
    Ein Projektbedienfeld mit Aufgabenkacheln wird angezeigt.
 
    ![](images/review-management.png){align="left"}
+
+   >[!NOTE]
+   >
+   > Alternativ können Sie direkt über das linke Bedienfeld des Editors auf das Projekt-Dashboard zugreifen. Öffnen Sie das [Überprüfungsbedienfeld](./web-editor-left-panel.md#review) und verwenden Sie das Symbol **Öffnen des Projekt-Dashboards** , das für jedes im Überprüfungsbedienfeld aufgeführte Überprüfungsprojekt platziert ist.
 
 1. Wählen Sie die drei Punkte in der Kachel **Reviews** aus.
 
@@ -126,4 +130,4 @@ Der Statusbericht für die Prüfungsaufgabe enthält die folgenden Details:
 - Gesamtzahl der Kommentare zu allen Themen. Bei mehreren zu überprüfenden Themen wird die Anzahl der Kommentare für jedes Thema \(in Klammern\) gegenüber dem Themennamen angegeben.
 - Das Datum, an dem der Reviewer zuletzt auf ein Thema zugegriffen hat.
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

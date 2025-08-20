@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Dateien und Ordner in AEM Guides verwalten. K
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ In diesem Abschnitt wird erläutert, wie Adobe Experience Manager Guides mit gru
 - *Wenn die Datei mit demselben Namen nicht im Zielordner vorhanden ist*: Es wird eine neue Kopie der Datei erstellt und ihr wird am neuen Speicherort ebenfalls eine neue UUID zugewiesen. Hier ist der Dateiname mit der UUID identisch.
 - *Wenn die Datei mit demselben Namen bereits im Zielordner vorhanden ist*: Es wird eine neue Kopie der Datei erstellt und ihr wird außerdem eine neue UUID zugewiesen. Der Dateiname ist mit der UUID identisch.
 
-
 ## Ordner kopieren und einfügen
 
 **Kopieren Sie den Ordner und fügen Sie ihn am selben Speicherort ein**
@@ -43,6 +42,16 @@ In diesem Abschnitt wird erläutert, wie Adobe Experience Manager Guides mit gru
 - *Der Ordner enthält Dateien mit für Menschen lesbaren Dateinamen*: Es wird eine neue Kopie des Ordners erstellt und allen Dateien im Ordner am neuen Speicherort wird auch eine neue UUID zugewiesen. Hier gibt es keine Änderung am Ordner oder an den Dateinamen.
 
 - *Der Ordner enthält Dateien mit Dateinamen, die auf einem UUID-Muster basieren*: Eine neue Kopie des Ordners wird mit demselben Namen wie der ursprüngliche Ordner erstellt. Eine neue UUID wird auch allen Dateien im neuen Ordner zugewiesen. Die Dateinamen werden ebenfalls geändert. Die Dateinamen entsprechen der neuen UUID.
+
+**Erfolgsmeldung und Benachrichtigung**
+
+Der Kopiervorgang zum Einfügen von Ordnern in der Assets-Benutzeroberfläche wird asynchron im Hintergrund ausgeführt, sodass Sie weiterarbeiten können, während das System die Anfrage verarbeitet. Es wird eine Popup-Meldung angezeigt, die angibt, dass der Prozess gestartet wurde.
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+Nach Abschluss des Vorgangs wird eine Erfolgs- oder Fehlerbenachrichtigung ausgelöst, die angibt, ob der Vorgang erfolgreich war oder fehlgeschlagen ist.
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## Drag-and-Drop-Dateien
@@ -317,4 +326,4 @@ Wenn Ihre Mediendatei Änderungen erfahren hat, können Sie die Dateien im Absch
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Übergeordnetes Thema:**&#x200B;[ Inhalte verwalten](authoring.md)
+**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)

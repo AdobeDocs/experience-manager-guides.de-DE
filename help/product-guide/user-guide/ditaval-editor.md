@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie DITAVAL-Dateien mit dem DIVATAL-Editor in Ado
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
+source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL-Dateien werden zur Erzeugung von bedingten Ausgaben verwendet. In einem einzelnen Thema können Sie Bedingungen mithilfe von Elementattributen hinzufügen, um Inhalte mit Bedingungen zu versehen. Anschließend erstellen Sie eine DITAVAL-Datei, in der Sie die Bedingungen angeben, die aufgenommen werden sollen, um Inhalte zu generieren, und welche Bedingung bei der endgültigen Ausgabe ausgeschlossen werden soll.
 
-Mit Adobe Experience Manager Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die Attribute (die als Bedingungen verwendet werden können) ab, die in Ihrem System definiert sind, und Sie können sie zum Erstellen oder Bearbeiten von DITAVAL-Dateien verwenden. Weitere Informationen zum Erstellen und Verwalten von Bedingungen in Adobe Experience Manager finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=de) in der Dokumentation zu Adobe Experience Manager.
+Mit Adobe Experience Manager Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die Attribute (die als Bedingungen verwendet werden können) ab, die in Ihrem System definiert sind, und Sie können sie zum Erstellen oder Bearbeiten von DITAVAL-Dateien verwenden. Weitere Informationen zum Erstellen und Verwalten von Bedingungen in Adobe Experience Manager finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in der Dokumentation zu Adobe Experience Manager.
 
 In den folgenden Abschnitten werden die verfügbaren Optionen für eine DITAVAL-Datei in Experience Manager Guides beschrieben.
 
@@ -30,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um eine DITAVAL-Datei zu erstellen:
 
 1. Wählen Sie im Repository-Bedienfeld das Symbol **Neue Datei** und wählen Sie dann **Thema** aus dem Dropdown-Menü aus.
 
-   ![](images/new-file-option.png){width="300" align="left"}
+   ![](images/new-file-option.png){width="350" align="left"}
 
    Sie können auf diese Option auch über die Startseite von [Experience Manager Guides ](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
 
@@ -42,7 +42,7 @@ Führen Sie die folgenden Schritte aus, um eine DITAVAL-Datei zu erstellen:
    - Eine Vorlage, auf der das Thema basieren soll. Für eine DITAVAL-Datei wählen Sie **Ditaval** aus der Dropdown-Liste aus.
    - Pfad zum Speichern der Themendatei. Standardmäßig wird der Pfad des aktuell ausgewählten Ordners im Repository im Feld Pfad angezeigt.
 
-   ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
 
 
 4. Wählen Sie **Erstellen** aus.
@@ -112,35 +112,35 @@ Für eine bestimmte Eigenschaft sind hauptsächlich vier Aktionen verfügbar, di
 - **Hintergrundfarbe** Wählen Sie den Farbton, die Sättigung und den Kontrast der Hintergrundfarbe aus. Der entsprechende HEX-Wert wird automatisch auf der Grundlage Ihrer Auswahl aktualisiert. Sie können auch das Farbraumformat über das Dropdown-Menü wechseln, um zwischen HEX, RGB und HSB zu wählen.
 
 
-![](images/ditaval-background-color.png){width="650" align="left"}
+  ![](images/ditaval-background-color.png){width="350" align="left"}
 
 
 
 - **Textfarbe** Wählen Sie den Farbton, die Sättigung und den Kontrast der Textfarbe aus. Der entsprechende HEX-Wert wird automatisch auf der Grundlage Ihrer Auswahl aktualisiert. Sie können auch das Farbraumformat über das Dropdown-Menü wechseln, um zwischen HEX, RGB und HSB zu wählen.
 
 
-![](images/ditaval-text-color.png){width="650" align="left"}
+  ![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **Stiloptionen**: Sie können auch einige Stiloptionen hinzufügen, z. B. Fett, Kursiv, Unterstrichen, Überstrichen, Doppelt unterstrichen.
 
 
-![](images/ditaval-styling-option.png){width="650" align="left"}
+  ![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **Start- und End-Flags**: Sie können Bilder mithilfe der Schaltfläche **Flag hinzufügen** als Start- und End-Flags einfügen. Um Bilder auszuwählen, verwenden Sie entweder **Assets durchsuchen**, um sie aus dem Handbücher-Repository auszuwählen, oder **Datei hinzufügen**, um sie von Ihrem lokalen System hochzuladen. Darüber hinaus können Sie alternativen Text für die Bilder angeben.
 
 
-![](images/ditaval-start-end-flags.png){width="650" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
 
 
 
 - **Stilkonflikt**: Es werden die Konflikte aufgelöst, die auftreten, wenn ein einzelnes Element mehrere Eigenschaften mit unterschiedlichen Flag-Stilen enthält. In solchen Fällen wird der in den Stilkonflikteigenschaften definierte Wert ausgewählt, was effektiv als Standardwertauswahl für Hintergrund- und Textfarben dient.
 
 
-![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
 #### Versionsinformationen und Als neue Version speichern

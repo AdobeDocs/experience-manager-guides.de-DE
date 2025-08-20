@@ -5,10 +5,10 @@ exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a3c7973868549c72e868c05a3fc6ca8bdce9bce3
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -41,12 +41,13 @@ Um `@navtitle` Attribut standardmäßig in die Eigenschaften der Referenzdateien
                            },
    ```
 
-1. Ändern Sie den `required` wie folgt:
+1. Ändern Sie den `required` wie unten dargestellt:
 
    ```
    "required": {"navtitle": true}
    ```
 
+   Bei Festlegung auf `true` wird die Schaltfläche **Navigationstitelattribut aktualisieren** in der Editor-Symbolleiste angezeigt. Wenn sie auf `false` oder leer gelassen wird, bleibt die Schaltfläche im Editor ausgeblendet.
 1. Speichern Sie die Datei.
 
 1. Laden Sie die Datei in das entsprechende Profil hoch \(Global oder Ordner\).
@@ -54,4 +55,6 @@ Um `@navtitle` Attribut standardmäßig in die Eigenschaften der Referenzdateien
 
 Bei dieser Konfiguration enthält jede Referenzdatei, die Sie einer Zuordnung hinzufügen, standardmäßig das `@navtitle`.
 
-**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)
+
+
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

@@ -4,9 +4,9 @@ description: Lernen Sie die Startseite der Adobe Experience Manager Guides kenne
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -159,22 +159,22 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Über die Voreins
 
 - **Allgemein** Auf der Registerkarte Allgemein können Sie die folgenden Einstellungen konfigurieren:
 
-  ![](images/user_preference_editor.PNG){align="left"}
+  ![](images/user_preference_editor-new.png){align="left"}
 
    - **Ordnerprofil**: Das Ordnerprofil steuert verschiedene Konfigurationen im Zusammenhang mit bedingten Attributen, Autorenvorlagen, Ausgabevorgaben und Editor-Konfigurationen. Das globale Profil wird standardmäßig angezeigt. Wenn Ihr Administrator Ordnerprofile im System konfiguriert hat, werden diese Ordnerprofile außerdem in der Liste Ordnerprofile angezeigt.
    - **Basispfad**: Wenn Sie über den Editor auf das Experience Manager Guides-Repository zugreifen, werden Ihnen standardmäßig Assets über den Speicherort /content/dam angezeigt. Ihr Arbeitsordner würde höchstwahrscheinlich aus einigen Ordnern im Ordner /content/dam/ bestehen. Sie können den Basispfad zu Ihrem Arbeitsordner festlegen und die Repository-Ansicht zeigt Ihnen dann den Inhalt von diesem Speicherort im Voraus an. Dadurch wird die Zeit für den Zugriff auf den Arbeitsordner verkürzt. Wenn Sie einen Verweis oder eine Mediendatei in Ihr Thema einfügen, beginnt der Dateispeicherort außerdem mit dem Ordner, der im Basispfad festgelegt ist.
-      - **Stammzuordnung auswählen**: Wählen Sie eine DITA-Zuordnungsdatei aus, um Schlüsselverweise oder Glossareinträge aufzulösen. Die ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen. Weitere Informationen finden Sie unter [Schlüsselverweise auflösen](./map-editor-other-features.md).
-      - **Maximale Anzahl aktueller Dateien**: Verwenden Sie dieses Feld, um eine maximale Anzahl von Dateien festzulegen, die im Widget „Letzte Dateien“ angezeigt werden.
-      - **Standardverhalten beim Öffnen von Karten festlegen**: Hier können Sie das Standardverhalten auswählen, dem das System beim Öffnen einer DITA-Zuordnungsdatei folgen soll.
+   - **Stammzuordnung auswählen**: Wählen Sie eine DITA-Zuordnungsdatei aus, um Schlüsselverweise oder Glossareinträge aufzulösen. Die ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen. Weitere Informationen finden Sie unter [Schlüsselverweise auflösen](./map-editor-other-features.md).
+   - **Maximale Anzahl aktueller Dateien**: Verwenden Sie dieses Feld, um eine maximale Anzahl von Dateien festzulegen, die im Widget „Letzte Dateien“ angezeigt werden.
+   - **Öffnen der Voreinstellungen für**: Hier können Sie das Standardverhalten auswählen, dem das System beim Öffnen einer DITA-Zuordnungsdatei folgen soll.
 
 - **Erscheinungsbild**: Die Registerkarte Erscheinungsbild bietet Ihnen die Optionen zum Auswählen der Designs für die Anwendung und der Quellansicht des Inhaltsbearbeitungsbereichs. Verwenden Sie diese Registerkarte, um die folgenden Einstellungen zu konfigurieren:
 
-  ![](images/user_preference_editor_appearance.png){align="left"}
+  ![](images/user_preference_editor_appearance-new.png){align="left"}
 
-   - **Anzeigekonfiguration für Editor-Dateien**: Wählen Sie die Standardmethode zum Anzeigen der Dateien im Editor aus. Sie können die Liste der Dateien anhand der Titel oder Dateinamen aus den verschiedenen Bedienfeldern in der Autorenansicht anzeigen. Standardmäßig werden die Dateien nach Titel im Editor angezeigt.
    - **Anwendungsdesign und Source-Ansicht**: Sie können aus den Hell- oder Dunkeldesigns für die Anwendungs- und Quellansicht wählen. Beim Design „Licht“ verwenden die Symbolleisten und Bereiche einen hellgrauen Hintergrund. Beim dunklen Design verwenden die Symbolleisten und Bereiche einen schwarzen Hintergrund. Wählen Sie **Gerät verwenden** aus, damit Experience Manager Guides helle und dunkle Designs basierend auf dem Design Ihres Geräts auswählen kann.
 
      Bei allen Designs wird der Inhaltsbearbeitungsbereich in der Autorenansicht mit weißem Hintergrund angezeigt.
 
+   - **Anzeigekonfiguration für Editor-Dateien**: Wählen Sie die Standardmethode zum Anzeigen der Dateien im Editor aus. Sie können die Liste der Dateien anhand der Titel oder Dateinamen aus den verschiedenen Bedienfeldern in der Autorenansicht anzeigen. Standardmäßig werden die Dateien nach Titel im Editor angezeigt.
+
    - **Dateien immer im Repository suchen**: Wählen Sie diese Option, um den Speicherort einer Datei im Repository anzuzeigen, während sie im Editor bearbeitet wird.
-   - **Anzeige einer Leertaste ohne Unterbrechung im Autorenmodus anzeigen**: Wählen Sie diese Option, um einen Indikator für die Leerzeichen ohne Unterbrechung beim Bearbeiten im Editor anzuzeigen. Sie ist standardmäßig aktiviert.
