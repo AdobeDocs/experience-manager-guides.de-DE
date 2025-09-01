@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 3b306a873f3b71078256407d977e8bdd5af1180b
+source-git-commit: 9cdd4c94ccf71585ef2c630da8c7b3808f68bb3b
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2349'
 ht-degree: 9%
 
 ---
@@ -144,8 +144,8 @@ ht-degree: 9%
                - [Versionshinweise für 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Versionshinweise zu 4.2](./release-info/release-notes-4-2.md)
          - [Versionshinweise zu 4.1.x](./release-info/release-notes-4-1.md)
-         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Versionshinweise zu [4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Versionshinweise zu [3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -342,7 +342,7 @@ ht-degree: 9%
       - Fehlerbehebung {#troubleshooting}
          - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [On-Premise-Grundlagen](./install-guide/introduction.md)
@@ -607,6 +607,10 @@ ht-degree: 9%
          - DITA-OT {#dita-ot}
             - [Verwenden von AEM-Metadaten im Plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [Einrichten eines benutzerdefinierten DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+         - AEM Sites-Vorlagen {#aem-site-templates}
+            - [Herunterladen und Installieren von AEM Sites-Vorlagen für Cloud-Services](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
+            - [Herunterladen und Installieren von AEM Sites-Vorlagen für On-Premise-Services](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
+            - [Anpassen bestehender AEM Sites-Vorlagen](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
          - [FMPS und Handbücher](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice-Architektur und -Leistung](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Konfigurieren von auf Microservices basierender Veröffentlichung mit JWT-Authentifizierung](./knowledge-base/publishing/configure-microservices.md)
@@ -617,7 +621,7 @@ ht-degree: 9%
       - Übersetzung {#translation}
          - [Best Practices zur Steigerung der Übersetzungsleistung](./knowledge-base/kb-articles/translation/increase-translation-performance-aem-guides.md)
          - [Absätze von der Übersetzung ausschließen](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
-      - Anwendungsfälle {#use-cases}
+      - Anwendungsszenarien {#use-cases}
          - [Arbeiten mit bedingten Inhalten](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [Arbeiten mit Schlüsseln](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
          - [Aktivieren von kontextuellen Inhaltsvariablen (CCVAR) in von AEM Guides generierten AEM Sites-Seiten](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
