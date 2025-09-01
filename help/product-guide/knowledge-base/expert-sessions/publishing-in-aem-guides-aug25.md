@@ -1,7 +1,7 @@
 ---
 title: Veröffentlichen in AEM Guides
 description: Erfahren Sie mehr über die Veröffentlichungsformate in AEM Guides und darüber, wie Sie Inhalte über mehrere Kanäle hinweg bereitstellen können, einschließlich AEM Sites, PDFs, HTML5, Edge Delivery Services, JSON und mehr.
-source-git-commit: ace32569321747c53829c58f9daca7e5c7753f99
+source-git-commit: 95404f56afdf4527de80f39ed1633ed3806e4b8a
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 1%
@@ -39,9 +39,9 @@ In dieser Sitzung haben wir Folgendes behandelt:
 
 ## Verwandte Ressourcen
 
-- [Grundlagen der Ausgabegenerierung] (https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
+- [Grundlagen der Ausgabenerstellung](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
 
-- [Neue AEM Sites-Vorlagen installieren](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
+- [Neue AEM Sites-Vorlagen installieren](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
 
 - [Veröffentlichung einzelner Themen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output/single-topic-publishing/publish-content-fragment.html)
 
@@ -56,7 +56,7 @@ In dieser Sitzung haben wir Folgendes behandelt:
 
 ### Community-Forum
 
-- Sitzungsspezifische Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
+- Sitzungsspezifische Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 ## Kontakt
