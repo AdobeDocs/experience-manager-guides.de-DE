@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 9cdd4c94ccf71585ef2c630da8c7b3808f68bb3b
+source-git-commit: ace32569321747c53829c58f9daca7e5c7753f99
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2353'
 ht-degree: 9%
 
 ---
@@ -144,8 +144,8 @@ ht-degree: 9%
                - [Versionshinweise für 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Versionshinweise zu 4.2](./release-info/release-notes-4-2.md)
          - [Versionshinweise zu 4.1.x](./release-info/release-notes-4-1.md)
-         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Versionshinweise zu [4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Versionshinweise zu [3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -342,7 +342,7 @@ ht-degree: 9%
       - Fehlerbehebung {#troubleshooting}
          - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [On-Premise-Grundlagen](./install-guide/introduction.md)
@@ -553,6 +553,7 @@ ht-degree: 9%
       - [Delta-Inhaltsmigration](./knowledge-base/expert-sessions/migration-delta-content.md)
       - [Intelligentere PDF-Veröffentlichung mit nativem PDF](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
       - [Neue UX- und AI-Funktionen in AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
+      - [Veröffentlichen in AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
    - Artikel {#kb-articles}
       - Authoring {#authoring}
          - Web-Editor {#webeditor}
