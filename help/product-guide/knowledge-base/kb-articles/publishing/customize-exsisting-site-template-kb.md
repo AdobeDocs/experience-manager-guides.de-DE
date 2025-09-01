@@ -139,4 +139,4 @@ Standardmäßig werden die im AEM Guides-Komponentenpaket bereitgestellten Clien
 
 >[!NOTE]
 >
-> Stellen Sie sicher, dass die Vorlagen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktion bereitstellen.<br><br>Weitere Informationen finden Sie in der offiziellen [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)- und [AEM Sites](https://experienceleague.adobe.com/de/docs/experience-manager-core-components/using/get-started/authoring)-Dokumentation.
+> Stellen Sie sicher, dass die Vorlagen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktion bereitstellen.<br><br>Weitere Informationen finden Sie in der offiziellen [AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview)- und [AEM Sites](https://experienceleague.adobe.com/de/docs/experience-manager-core-components/using/get-started/authoring)-Dokumentation.
