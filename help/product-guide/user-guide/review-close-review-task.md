@@ -3,9 +3,10 @@ title: Anfordern einer erneuten Überprüfung oder Schließen einer Prüfungsauf
 description: Erfahren Sie mehr über den Workflow zum Schließen einer Prüfungsaufgabe oder zum erneuten Anfordern einer Überprüfung als Autor oder Autorin in Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,18 @@ Führen Sie die folgenden Schritte aus, um eine erneute Überprüfung oder das S
 4. Wählen Sie **Aufgabe aktualisieren** aus, um weitere Aktionen für die ausgewählte Prüfungsaufgabe durchzuführen.
 5. Wählen Sie **Dialogfeld** Aufgabe aktualisieren“ eine der folgenden Aktionen aus:
 
-   - **Erneute Überprüfung anfordern**: Startet eine weitere Überprüfungsrunde. Sie können eine andere Version des Themas zur Überprüfung auswählen. Standardmäßig wird die neueste (oder die zuletzt bearbeitete) Version des Themas oder der Zuordnungsdatei, die zur Überprüfung gesendet wird, ausgewählt. Prüfer, die die vorherige Überprüfung abgeschlossen haben, erhalten eine Benachrichtigung, um Feedback zur aktualisierten Version zu geben. Andere Reviewer, die die Überprüfungsaufgabe nicht als abgeschlossen markiert haben, werden über die Aktualisierung des Themas benachrichtigt.
+   - **Erneute Überprüfung anfordern**: Startet eine weitere Überprüfungsrunde. Sie können eine andere Version des Themas zur Überprüfung auswählen. Standardmäßig wird die neueste (oder die zuletzt bearbeitete) Version des Themas oder der Zuordnungsdatei, die zur Überprüfung gesendet wird, ausgewählt. Sie können auch die Option **Versionen bearbeiten** verwenden, um die Version ausgewählter Themen je nach Bedarf auf **Neueste Version**, **Version ein** und **Grundlinie** festzulegen.  Prüfer, die die vorherige Überprüfung abgeschlossen haben, erhalten eine Benachrichtigung, um Feedback zur aktualisierten Version zu geben. Andere Reviewer, die die Überprüfungsaufgabe nicht als abgeschlossen markiert haben, werden über die Aktualisierung des Themas benachrichtigt.
 
    - **Überprüfung schließen**: Schließt die Überprüfungsaufgabe. Die Schaltfläche **Aufgabe aktualisieren** am unteren Rand des Prüfungsbereichs ändert sich in **Geschlossen** und alle an der Prüfungsaufgabe beteiligten Benutzer erhalten eine Benachrichtigung, die den Abschluss angibt.
 
    Weitere Informationen zum Trigger von Prüfungsbenachrichtigungen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png).
+   ![](images/update-task-dialog.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   > Das **Aktualisierungsaufgabe** enthält auch eine Spalte **Dokumentstatus**, um den aktuellen Status der aufgelisteten Prüfungsthemen bei Verwendung von Experience Manager Guides as a Cloud Services anzugeben.
+
 
 6. Wählen Sie **Bestätigen** aus.
 

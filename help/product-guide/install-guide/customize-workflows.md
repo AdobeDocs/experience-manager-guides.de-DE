@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '2126'
 ht-degree: 4%
 
 ---
@@ -18,20 +18,20 @@ Workflows ermöglichen die Automatisierung von Aktivitäten des Typs Adobe Exper
 
 Weitere Informationen zu Workflows in AEM finden Sie unter:
 
-- [Verwalten von Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Verwalten von Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Das Erstellen von Workflow-Modellen und die Erweiterung der Workflow-Funktionalität: [Entwickeln und Erweitern von Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/workflows.html).
+- Das Erstellen von Workflow-Modellen und die Erweiterung der Workflow-Funktionalität: [Entwickeln und Erweitern von Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Verbesserung der Leistung von Workflows, die bedeutende Server-Ressourcen nutzen: [Gleichzeitige Verarbeitung von Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Verbesserung der Leistung von Workflows, die bedeutende Server-Ressourcen nutzen: [Gleichzeitige Verarbeitung von Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 Die Abschnitte in diesem Thema führen Sie durch verschiedene Anpassungen, die Sie in den in AEM Guides bereitgestellten Standard-Workflows vornehmen können.
 
 ## Anpassen des Workflow für Überprüfungen {#id176NE0C00HS}
 
-Das Inhaltserstellungs-Team jedes Unternehmens arbeitet auf eine bestimmte Weise, um seine Geschäftsanforderungen zu erfüllen. In einigen Organisationen gibt es einen dedizierten Editor, während andere Organisationen ein automatisiertes redaktionelles Überprüfungssystem haben könnten. In einer Organisation kann ein typischer Authoring- und Publishing-Workflow beispielsweise Aufgaben wie enthalten: Wenn ein Autor mit der Inhaltserstellung fertig ist, geht er automatisch an die Validierungsverantwortlichen. Nach Abschluss der Überprüfung wird er an den Publisher weitergeleitet, um die endgültige Ausgabe zu generieren. In AEM können Aktivitäten, die Sie mit Ihren Inhalten und Assets durchführen, in Form eines Prozesses kombiniert und einem AEM-Workflow zugeordnet werden. Weitere Informationen zu Workflows in AEM finden Sie unter [Verwalten von Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/workflows.html) in der Dokumentation zu AEM.
+Das Inhaltserstellungs-Team jedes Unternehmens arbeitet auf eine bestimmte Weise, um seine Geschäftsanforderungen zu erfüllen. In einigen Organisationen gibt es einen dedizierten Editor, während andere Organisationen ein automatisiertes redaktionelles Überprüfungssystem haben könnten. In einer Organisation kann ein typischer Authoring- und Publishing-Workflow beispielsweise Aufgaben wie enthalten: Wenn ein Autor mit der Inhaltserstellung fertig ist, geht er automatisch an die Validierungsverantwortlichen. Nach Abschluss der Überprüfung wird er an den Publisher weitergeleitet, um die endgültige Ausgabe zu generieren. In AEM können Aktivitäten, die Sie mit Ihren Inhalten und Assets durchführen, in Form eines Prozesses kombiniert und einem AEM-Workflow zugeordnet werden. Weitere Informationen zu Workflows in AEM finden Sie unter [Verwalten von Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) in der Dokumentation zu AEM.
 
 Mit AEM Guides können Sie den standardmäßigen Überprüfungs-Workflow anpassen. Sie können die folgenden vier benutzerdefinierten Überprüfungsprozesse mit Ihren anderen Authoring- oder Publishing-Workflows verwenden.
 
@@ -64,6 +64,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 **Für Karte**
@@ -90,6 +91,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 Sie können dieses Skript im Knoten `/etc/workflows/scripts` erstellen. In der folgenden Tabelle werden die Eigenschaften beschrieben, die von diesem ECMA-Skript zugewiesen werden:
@@ -114,6 +116,7 @@ Sie können dieses Skript im Knoten `/etc/workflows/scripts` erstellen. In der f
 | `ditamap` | Zeichenfolge | Geben Sie den Pfad der Imagemap der Prüfungsaufgabe an |
 | `allowAllReviewers` | Boolesch | false/true |
 | `notifyViaEmail` | Boolesch | false/true |
+| `reviewVersion` | Zeichenfolge | Gibt die aktuelle Version des Überprüfungs-Workflows an. Der Standardwert ist auf `3.0` festgelegt.<br> Um die neuen Funktionen des Überprüfungs-Workflows für [Autoren](../user-guide/review-close-review-task.md) und [Prüfer](../user-guide/review-complete-review-tasks.md) zu aktivieren, stellen Sie sicher, dass die `reviewVersion` auf `3.0` eingestellt ist. |
 
 
 Nachdem Sie das Skript erstellt haben, rufen Sie es auf, bevor Sie den Prozess zum Erstellen einer Überprüfung in Ihrem Workflow aufrufen. Anschließend können Sie je nach Ihren Anforderungen die anderen Überprüfungs-Workflow-Prozesse aufrufen.
@@ -133,29 +136,58 @@ Durch Hinzufügen eines Workflows in der **Adobe Granite Workflow-Bereinigungsko
 
 Weitere Informationen zum Konfigurieren der **Adobe Granite Workflow-Bereinigungskonfiguration** finden Sie unter *Verwalten von Workflow-Instanzen* in der Dokumentation zu AEM.
 
-### E-Mail-Vorlagen anpassen
+### E-Mail- und AEM-Benachrichtigung anpassen
 
 In einer Reihe von AEM Guides-Workflows werden E-Mail-Benachrichtigungen verwendet. Wenn Sie beispielsweise eine Prüfungsaufgabe initiieren, wird eine E-Mail-Benachrichtigung an die Validierungsverantwortlichen gesendet. Um jedoch sicherzustellen, dass die E-Mail-Benachrichtigung gesendet wird, müssen Sie diese Funktion in AEM aktivieren. Informationen zum Aktivieren der E-Mail-Benachrichtigung in AEM finden Sie im Artikel [Konfigurieren von E-Mail](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=de) in der Dokumentation zu AEM.
 
-AEM Guides enthält eine Reihe von E-Mail-Vorlagen, die Sie anpassen können. Führen Sie die folgenden Schritte aus, um diese Vorlagen anzupassen:
+AEM Guides enthält eine Reihe von E-Mail- und AEM-Benachrichtigungen, die Sie anpassen können. Führen Sie die folgenden Schritte aus, um diese Benachrichtigungen anzupassen:
 
-1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
-
-1. Navigieren Sie auf der Registerkarte Navigator zum folgenden Speicherort:
-
-   `/libs/fmdita/mail`
+1. Verwenden Sie den Package Manager, um `/libs/fmdita/mail/review` Ordner herunterzuladen.
 
    >[!NOTE]
    >
    > Nehmen Sie keine Anpassungen in den Standardkonfigurationsdateien im Knoten ``libs`` vor. Sie müssen eine Überlagerung des Knotens ``libs`` im Knoten ``apps`` erstellen und die erforderlichen Dateien nur im Knoten ``apps`` aktualisieren.
 
-1. Der E-Mail-Ordner enthält die folgenden anpassbaren Vorlagen:
+1. Der Ordner `review` enthält die folgenden Unterordner:
 
-   | Name der Vorlagendatei | Beschreibung |
+   - `aem-notification`
+   - `CSS`
+   - `email-notification`
+
+   Die detaillierte Beschreibung dieser Unterordner wird unten erläutert:
+
+   | Überprüfen von Unterordnern | Beschreibung |
    |-----------------|-----------|
-   | closereview.html | Diese E-Mail-Vorlage wird verwendet, wenn eine Prüfungsaufgabe geschlossen wird. |
-   | createreview.html | Diese E-Mail-Vorlage wird verwendet, wenn eine neue Prüfungsaufgabe erstellt wird. |
-   | reviewapproval.css | Diese CSS-Datei enthält den Stil der E-Mail-Vorlagen. |
+   | `aem-notification` | Enthält verschiedene AEM-Benachrichtigungstypen, die angepasst werden können. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> In diesen Unterordnern befinden sich `primary.vm`- und `secondary.vm`, mit denen Sie den Titel bzw. die Beschreibung der AEM-Benachrichtigung anpassen können. |
+   | `CSS` | Enthält die `email-notification.css` zum Anpassen des Stils von E-Mail-Benachrichtigungen. |
+   | `email-notification` | Enthält verschiedene E-Mail-Benachrichtigungstypen, die angepasst werden können. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> In diesen Unterordnern befinden sich `primary.vm`- und `secondary.vm`, mit denen Sie den Betreff bzw. Text der E-Mail-Benachrichtigung anpassen können. |
+
+Die Definition der einzelnen Benachrichtigungstypen ist unten beschrieben:
+
+- `closed`: Trigger beim Schließen einer Prüfungsaufgabe.
+- `content-updated`: Trigger, wenn ein Autor oder Initiator den Inhalt aktualisiert.
+- `feedback-addressed`: Trigger, wenn der Autor oder Initiator die Kommentare kommentiert und eine Überprüfung durch den Reviewer anfordert.
+- `feedback-provided` Trigger, wenn ein Reviewer die Aufgabe als abgeschlossen markiert, indem er dem Autor oder Initiator der Prüfungsaufgabe Kommentare auf Aufgabenebene bereitstellt.
+- `requested`: Trigger, wenn ein Autor oder Initiator eine Prüfungsaufgabe erstellt.
+- `reviewer-removed`: Trigger, bei denen die Zuweisung eines Reviewers zu einer Prüfungsaufgabe aufgehoben wird.
+- `tag-mention`: Trigger, wenn ein Benutzer in Überprüfungskommentaren erwähnt oder getaggt wird.
+
+Stellen Sie beim Anpassen einer E-Mail oder AEM-Benachrichtigung sicher, dass Sie nur den folgenden vordefinierten Variablensatz verwenden, der in `primary.vm`- und `secondary.vm`-Dateien verwendet wird.
+
+
+| **Variablenname** | **Beschreibung** | **Datentyp** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath` | Pfad zum Projekt mit der Prüfungsaufgabe | Zeichenfolge |
+| `reviewTitle` | Titel der Prüfungsaufgabe | Zeichenfolge |
+| `projectName` | Name des Projekts | Zeichenfolge |
+| `commentator` | Name des Benutzers, der einen Kommentar hinzugefügt hat | Zeichenfolge |
+| `commentExcerpt` | Fragment des hinzugefügten Kommentars | Zeichenfolge |
+| `taskLink` | Direkter Link zur Prüfungsaufgabe | URL |
+| `authorName` | Name des Autors, der die Prüfungsaufgabe erstellt oder aktualisiert hat | Zeichenfolge |
+| `dueDate` | Fälligkeitsdatum der Prüfungsaufgabe | Datum |
+| `reviewerName` | Name des der Aufgabe zugewiesenen Reviewers | Zeichenfolge |
+| `user` | Benutzer, der an der Prüfungsaufgabe beteiligt ist, z. B. Autor, Prüfer oder sogar Administrator. | Zeichenfolge |
+| `recipient` | Spezifischer Benutzer, der die Benachrichtigung erhält | Zeichenfolge |
 
 
 ## Anpassen des Workflows nach der Ausgabe {#id17A6GI004Y4}
