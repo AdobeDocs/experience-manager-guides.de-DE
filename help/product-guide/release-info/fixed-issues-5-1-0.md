@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 5.1.0 behoben
 description: Erfahren Sie mehr über die Fehlerbehebungen in Version 5.1.0 von Adobe Experience Manager Guides.
-source-git-commit: 64df76f371867469d738f59a174e7931176e8591
+source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,6 @@ Adobe hat die folgenden bekannten Probleme in Version 5.1.0 identifiziert:
 
 - Der letzte Kommentar auf Aufgabenebene wird in der E-Mail-Benachrichtigung an den Aufgabeninitiator angezeigt, wenn der Reviewer die Aufgabe abschließt, ohne einen Kommentar hinzuzufügen. (GUIDES-33590)
 - Im Dialogfeld „Zusammenführen“ wird in der Dropdown-Liste fälschlicherweise der Hauptinhalt angezeigt, anstatt die verfügbaren Versionen des ausgewählten Themas anzuzeigen. (GUIDES-30820)
-die die Verbindung in Betrieb nimmt. (GUIDES-30820)
 - Beim Wechseln zwischen Voreinstellungen, die dieselbe Baseline verwenden, wird die Schaltfläche Speichern für die aktuelle Voreinstellung deaktiviert. (GUIDES-28025)
 - Eine leere Zeile wird automatisch eingefügt, wenn neue Inhalte in eine neue Zeile innerhalb eines Codeblock-Elements eingefügt werden.(GUIDES-27842)
 - Ein Thema innerhalb einer DITA-Zuordnung kann nicht in der AEM Sites-Ausgabe veröffentlicht werden, wenn es sowohl als keydef als auch als topicref in seinen Unterzuordnungen verwendet wird. (GUIDES-22269)
