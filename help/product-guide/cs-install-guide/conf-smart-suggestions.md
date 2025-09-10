@@ -2,9 +2,9 @@
 title: Konfigurieren des KI-Assistenten für die intelligente Hilfe und das Authoring
 description: Erfahren Sie, wie Sie den KI-Assistenten in Experience Manager Guides konfigurieren
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: b5b4c5484593a2f7d9121da1c7bfb28dd2c36a57
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
 
 1. [Adobe Developer Console starten](https://developer.adobe.com/console).
 1. Nach erfolgreicher Anmeldung bei Developer Console wird der Bildschirm &quot;**&quot;**. Auf dem **Startseite**-Bildschirm finden Sie mühelos Informationen und Schnelllinks, einschließlich der oberen Navigationslinks zu Projekten und Downloads.
-1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**&#x200B;Links aus.
+1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**Links aus.
    ![Schnellstart-Links](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *Neues Projekt erstellen.*
 
@@ -79,7 +79,7 @@ Führen Sie die folgenden Schritte aus, um die IMS-Konfiguration zur Umgebung hi
 1. Wechseln Sie zur Registerkarte **Umgebungen**.
 1. Wählen Sie den Namen der Umgebung aus, die Sie konfigurieren möchten. Dadurch sollten Sie zur Seite **Umgebungsinformationen** gelangen.
 1. Wechseln Sie zur Registerkarte **Konfiguration** .
-1. Aktualisieren Sie das JSON-Feld SERVICE_ACCOUNT_DETAILS . Stellen Sie sicher, dass Sie denselben Namen und dieselbe Konfiguration wie im folgenden Screenshot verwenden.
+1. Aktualisieren Sie das JSON-Feld `SERVICE_ACCOUNT_DETAILS` . Stellen Sie sicher, dass Sie denselben Namen und dieselbe Konfiguration wie im folgenden Screenshot verwenden.
 
    ![Konfiguration des IMS-Dienstkontos](assets/ims-service-account-config.png){width="800" align="left"}
 
