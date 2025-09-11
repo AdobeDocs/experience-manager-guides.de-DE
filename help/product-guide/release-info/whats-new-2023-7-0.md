@@ -1,12 +1,12 @@
 ---
 title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides, Version Juli 2023
-description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version Juli 2023 von Adobe Experience Manager Guides as a Cloud Service
+description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version Juli 2023 von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -61,16 +61,16 @@ Diese Funktion bietet bessere Einblicke in den Generierungsprozess mit Zugriff a
 
 ![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
 
-Weitere Informationen finden Sie unter [Erstellen einer PDF-Ausgabevorgabe](../web-editor/native-pdf-web-editor.md#create-output-preset).
+Weitere Informationen finden Sie unter [Erstellen einer PDF-](../web-editor/native-pdf-web-editor.md#create-output-preset)&quot;.
 
-## Microservice-basierte Veröffentlichung zum Generieren von HTML5- und benutzerdefinierten Ausgaben
+## Microservice-basierte Veröffentlichung zur Generierung von HTML5- und benutzerdefinierten Ausgaben
 
-Der neue Publishing-Microservice ermöglicht es Ihnen, große Publishing-Workloads gleichzeitig auf AEM Guides as a Cloud Service auszuführen und die branchenführende Adobe I/O Runtime Server-lose Plattform zu nutzen. Mit dem Microservice können Sie jetzt auch die HTML5 und die benutzerdefinierte Ausgabe generieren.
+Der neue Publishing-Microservice ermöglicht es Ihnen, große Publishing-Workloads gleichzeitig auf AEM Guides as a Cloud Service auszuführen und die branchenführende Adobe I/O Runtime Server-lose Plattform zu nutzen. Jetzt können Sie mit dem Microservice auch die HTML5- und die benutzerdefinierte Ausgabe generieren.
 Sie können mehrere Veröffentlichungsanfragen ausführen und eine verbesserte Leistung erhalten, um diese Ausgabeformate zu generieren.
 Weitere Informationen finden Sie unter [Konfigurieren von Microservice-basierter Veröffentlichung für AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
 
 ## Anzeigen von AEM Guides-Versionsdetails in den Informationen zu
 
-Jetzt können Sie neben den AEM **Info**-Informationen auch die AEM Guides-Versionsdetails anzeigen. Sie können die aktuellen Versionsdetails in der Option **Info** der **Hilfe** auf der AEM-Navigationsseite anzeigen.
+Jetzt können Sie neben den Informationen **AEM** Info) auch die Versionsdetails von AEM Guides anzeigen. Sie können die aktuellen Versionsdetails in der Option **Info** der **Hilfe** auf der AEM-Navigationsseite anzeigen.
 
-![](assets/about-aem-help.png)(width=„800“ align=„left„)
+![](assets/about-aem-help.png){width="800" align="left"}
