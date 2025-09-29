@@ -73,5 +73,5 @@ Um Berechtigungen zuzuweisen, navigieren Sie zu **Tools** > **Sicherheit** > **B
 
 Diese Berechtigungen stellen sicher, dass Benutzer Inhalte nur in ihren festgelegten Ordnern erstellen oder ändern können.
 
-Weitere Informationen finden Sie unter [Berechtigungen in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem).
+Weitere Informationen finden Sie unter [Berechtigungen in AEM](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/security/security#permissions-in-aem).
 
