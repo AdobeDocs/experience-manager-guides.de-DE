@@ -1,20 +1,27 @@
 ---
-title: Hinzufügen von Grundbausteinen zu Ihren Lerninhalten
-description: Erfahren Sie mehr über die Grundbausteine, die Sie Ihren Lerninhalten im Lern- und Schulungsinhalt hinzufügen können
+title: Hinzufügen grundlegender Bausteine
+description: Erfahren Sie mehr über die Grundbausteine, die Sie Ihrem Thema oder Lerninhalten im Abschnitt Produktschulung und -lernen hinzufügen können
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# Hinzufügen von Grundbausteinen zu Ihren Lerninhalten
+# Hinzufügen grundlegender Bausteine zu einem Thema
 
-Sie können die grundlegenden Bearbeitungsfunktionen, die in der Symbolleiste für Lerninhalte verfügbar sind, wie unten beschrieben verwenden:
+Um ein klareres Verständnis dafür zu vermitteln, wie Sie ein Lernthema erstellen und ihm grundlegende Bausteine hinzufügen, bietet das folgende Video einen kurzen Überblick über die verfügbaren Funktionen.
 
-- **Widgets**: Fügen Sie Widgets wie Akkordeon, Karussell, Hotspots und mehr mithilfe des Menüs **Einfügen** wie unten dargestellt zu Ihren Lerninhalten hinzu. Weitere Informationen zu interaktiven Widgets finden Sie unter [Verwenden interaktiver Widgets](./lc-widgets.md).
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)
+
+
+Sie können die in der Editor-Symbolleiste verfügbaren grundlegenden Bearbeitungsfunktionen wie unten beschrieben verwenden:
+
+- **Widgets**: Fügen Sie Widgets wie Akkordeon, Karussell, Hotspots und mehr mithilfe des Menüs **Einfügen** zu Ihrem Thema oder Lerninhalt hinzu, wie unten dargestellt. Weitere Informationen zu interaktiven Widgets finden Sie unter [Verwenden interaktiver Widgets](./lc-widgets.md).
 
   ![](assets/widgets-learning-content.png){width="650" align="left"}
 
@@ -50,5 +57,3 @@ Sie können die grundlegenden Bearbeitungsfunktionen, die in der Symbolleiste f�
 - **Hyperlinks**: Fügt Hyperlinks an der erforderlichen Position in Ihrem Inhalt hinzu. Sie können ihn über das Menü **Mehr** in der Symbolleiste verwenden. Dabei kann es sich um eine Dateireferenz, eine Web-URL oder einen E-Mail-Link handeln, wie unten dargestellt.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
-
-

@@ -1,9 +1,10 @@
 ---
 title: COURSE Manager Basics
-description: die Grundlagen von Course Manager verstehen, wenn Sie mit Lern- und Schulungsinhalten in Adobe Experience Manager Guides arbeiten.
+description: Machen Sie sich mit den Grundlagen von Course Manager vertraut, wenn Sie in Adobe Experience Manager Guides mit Produktschulungen und -kursen arbeiten.
 feature: Authoring
 role: User
-source-git-commit: 33b6080ec0a98e85f96e0ccb46c91bbffb882d2a
+exl-id: 091cd47e-558b-49d7-ae47-b600fc8fe79d
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

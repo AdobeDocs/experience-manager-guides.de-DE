@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Ordnerprofile konfigurieren
 
 Ein Ordnerprofil ist erforderlich, um die Konfigurationen für verschiedene Abteilungen oder Produkte in Ihrem Unternehmen zu trennen. Für Lern- und Schulungsinhalte können Sie ein Profil auf Ordnerebene erstellen und konfigurieren, um Autorenvorlagen, Ausgabevorlagen, Ausgabevorgaben und andere Einstellungen auf Ordnerebene zu verwalten.
+
+Erfahren Sie mehr über [Best Practices zum Einrichten der Ordnerstruktur](best-practices-folder-structure.md).
 
 Um mit der Ordnerprofilkonfiguration für Lern- und Schulungsinhalte zu beginnen, müssen Sie Folgendes tun:
 
@@ -25,7 +27,6 @@ Um mit der Ordnerprofilkonfiguration für Lern- und Schulungsinhalte zu beginnen
    ![](assets/create-new-folder.png){width="350" align="left"}
 2. **Erstellen von Sprachordnern zur Verwaltung von Übersetzungen**: Wenn Sie Inhalte in verschiedene Sprachen übersetzen, müssen Sie Ordner erstellen, die den einzelnen Sprachen entsprechen. Jeder dieser Sprachordner enthält den Inhalt, der dieser Sprache entspricht.
 
-   Weitere Informationen finden Sie unter [Best Practices für die Übersetzung von Inhalten](../user-guide/translation-first-time.md).
 3. **Erstellen eines Ordners zur Verwaltung von Assets**: Ähnlich wie Ordner können Sie auch verschiedene Assets-Ordner erstellen, um die Anforderungen verschiedener Abteilungen zu erfüllen. Auf diese Weise stellen Sie auch sicher, dass Autoren und Herausgeber Zugriff auf das richtige CSS haben, das in ihren Vorlagen, Bildern und anderen Assets konfiguriert ist.
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}

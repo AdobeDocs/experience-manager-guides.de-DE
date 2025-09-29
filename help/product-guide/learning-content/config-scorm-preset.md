@@ -1,9 +1,10 @@
 ---
 title: Konfiguration der SCORM-Voreinstellung
-description: Erfahren Sie mehr über die verschiedenen SCORM-Vorgabenkonfigurationen im Lern- und Schulungsinhalt
+description: Erfahren Sie mehr über die verschiedenen SCORM-Vorgabenkonfigurationen im Abschnitt Produktschulung und -lernen
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: b3000708-6120-4725-bea1-0b8e58048948
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -27,5 +28,3 @@ Nachdem die Voreinstellung erstellt wurde, konfigurieren Sie die SCORM-Voreinste
   ![](assets/scorm-publish-tab.png){width="650" align="left"}
 
 Nachdem alle Änderungen konfiguriert wurden, speichern Sie die Änderungen für die SCORM-Vorgabe mit **Speichern** in der rechten Ecke der Symbolleiste der Seite „SCORM-Vorgabe“.
-
-

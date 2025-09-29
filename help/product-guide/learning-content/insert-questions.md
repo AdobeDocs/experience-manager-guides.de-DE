@@ -1,11 +1,12 @@
 ---
 title: Fragen aus der Fragenbank einfügen
-description: Erfahren Sie, wie Sie Fragen aus der Fragenbank in Quiz für Lern- und Schulungsinhalte einfügen
+description: Erfahren Sie, wie Sie Fragen aus der Fragenbank in Quiz für Produktschulung und -lernen einfügen können.
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -14,9 +15,11 @@ ht-degree: 0%
 
 Führen Sie die folgenden Schritte aus, um Fragen aus der Fragenbank in das Quiz einzufügen:
 
-1. Wählen Sie **Aus Fragenbank einfügen** Option aus dem Dropdown **Menü „Fragen** in der Symbolleiste aus, wie unten dargestellt. Der **Aus Fragenbank einfügen** wird geöffnet.
+1. Wählen Sie **Aus Fragenbank einfügen** Option aus dem Dropdown **Menü „Fragen** in der Symbolleiste aus, wie unten dargestellt.
 
    ![](assets/insert-from-question-bank.png){width="350" align="left"}
+
+   Der **Aus HTML-Fragenbank einfügen** wird angezeigt.
 
 1. Geben Sie den Pfad zur Fragenbank an, die in Ihrem Repository gespeichert ist, und wählen Sie die Fragen aus, die Sie in Ihr Quiz einfügen möchten, wie unten dargestellt. Sie können auch alle Fragen der Fragenbank mithilfe von **Alle auswählen** auswählen.
 
@@ -33,3 +36,5 @@ Führen Sie die folgenden Schritte aus, um Fragen aus der Fragenbank in das Quiz
    Die zufälligen Fragen werden im Quiz hinzugefügt, wie unten gezeigt.
 
    ![](assets/inserted-question.png){width="650" align="left"}
+
+Eine kurze Videoübersicht finden Sie unter [Mit Fragenbank](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).

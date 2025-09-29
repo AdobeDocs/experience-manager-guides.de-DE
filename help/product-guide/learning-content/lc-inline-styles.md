@@ -1,12 +1,13 @@
 ---
 title: Verwenden von Inline-Stilen
-description: Erfahren Sie, wie Sie verschiedene Inline-Stile beim Erstellen von Lerninhalten im Lern- und Schulungsinhalt verwenden
+description: Erfahren Sie, wie Sie verschiedene Inline-Stile beim Erstellen von Lerninhalten im Produkt „Schulung und Lernen“ verwenden.
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: '261'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +19,14 @@ Wenden Sie Inline-Stile an, um das Erscheinungsbild bestimmter Texte direkt in I
 >
 > Diese Stiloptionen werden nur angezeigt, wenn sie vom Administrator aktiviert wurden.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
+
+
+Die folgenden Optionen für Inline-Stile sind verfügbar.
+
 ![](assets/content-properties-learning-content.png){width="350" align="left"}
 
-Die folgenden Optionen sind verfügbar:
 
 - **Schriftart:** Ermöglicht die Anpassung des Erscheinungsbildes des Textes mithilfe verschiedener Optionen wie Schriftfamilie, Schriftstärke, Textdekoration, Schriftgröße und mehr. Diese Einstellungen helfen Ihnen, Ihren Inhalt wie im folgenden Beispiel zu gestalten.
 

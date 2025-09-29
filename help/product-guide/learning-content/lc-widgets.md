@@ -3,16 +3,22 @@ title: Verwenden interaktiver Widgets
 description: Erfahren Sie mehr über die interaktiven Widgets, die Sie im Lerninhalt verwenden können.
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # Verwenden interaktiver Widgets
 
-Sie können die Lerninhalte verbessern, indem Sie mehrere Widgets hinzufügen, um den Kurs interaktiver zu gestalten. Wählen Sie das **Einfügen**-Menü auf der Symbolleiste aus, um auf die Widgets zuzugreifen. Zu den verfügbaren Widgets gehören:
+Sie können die Lerninhalte verbessern, indem Sie mehrere Widgets hinzufügen, um den Kurs interaktiver zu gestalten. Im Folgenden finden Sie ein kurzes Video zu den verschiedenen verfügbaren Widgets.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides)
+
+
+Zu den verfügbaren Widgets zur Verbesserung des Benutzererlebnisses und zur Optimierung der Inhaltsbereitstellung gehören:
 
 - **Akkordeon:** Fügt dem Inhalt ein Akkordeon hinzu. Sie können geeigneten Text sowohl in die Akkordeon-Kopfzeile als auch in ihren Hauptteil einfügen. Die zugehörigen Eigenschaften können mithilfe des Bedienfelds **Inhaltseigenschaften** verwaltet werden. Dazu gehören Optionen, mit denen einzelne oder mehrere Akkordeons gleichzeitig geöffnet werden können, sowie das Hinzufügen oder Entfernen von Elementen.
 

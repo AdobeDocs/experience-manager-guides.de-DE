@@ -1,9 +1,10 @@
 ---
 title: SCORM-Ausgabe generieren
-description: Erfahren Sie, wie Sie im Lern- und Schulungsinhalt eine SCORM-Ausgabe generieren.
+description: Erfahren Sie, wie Sie eine SCORM-Ausgabe im Produkt „Schulung und Lernen“ generieren.
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 3de623d6-c547-42a5-9ce4-c3e09accb8b1
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -28,6 +29,3 @@ Führen Sie die folgenden Schritte aus, um eine SCORM-Ausgabe zu generieren:
    ![](assets/scorm-view-output.png){width="650" align="left"}
 
 Sie können die ZIP-Datei in Ihr LMS hochladen, um den Kurs für Ihre Teilnehmer verfügbar zu machen.
-
-
-

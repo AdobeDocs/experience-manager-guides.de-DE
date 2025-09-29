@@ -1,9 +1,10 @@
 ---
 title: Generieren einer PDF
-description: Erfahren Sie, wie Sie in Lern- und Schulungsinhalten eine PDF-Ausgabe generieren.
+description: Erfahren Sie, wie Sie PDF-Ergebnisse in Produktschulungen und -lernprogrammen generieren.
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 364aa6a4-4ef6-4f7d-b207-ee011b79183c
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
@@ -26,8 +27,3 @@ Führen Sie die folgenden Schritte aus, um eine PDF zu generieren:
 1. Sie können die PDF herunterladen, indem Sie **Ausgabe anzeigen** sowohl in der Erfolgsmeldung als auch in der Symbolleiste auswählen.
 
    ![](assets/view-output.png){width="650" align="left"}
-
-
-
-
-

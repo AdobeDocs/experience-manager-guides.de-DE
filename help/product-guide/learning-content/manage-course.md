@@ -1,13 +1,13 @@
 ---
-title: Verwalten eines Kurses mit Lern- und Schulungsinhalten
+title: Verwalten eines Kurses in Produktschulung und -lernen
 description: Erfahren Sie mehr über die verschiedenen Funktionen in Experience Manager Guides, mit denen Sie Ihren Kurs effizient verwalten können.
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 0%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -23,13 +23,15 @@ Führen Sie die folgenden Schritte aus, um neue Inhalte zu Ihrem Kurs hinzuzufü
 
    ![](assets/learning-course-content.png)
 2. Wählen Sie den Inhaltstyp aus, den Sie erstellen möchten. Folgende Optionen sind verfügbar:
-   - **Lerninhalte**: Das Hauptmaterial in einem Kurs besteht aus kurzen, fokussierten Elementen wie Schritten, Beispielen oder Erklärungen, die eine bestimmte Fähigkeit oder Idee lehren. Weitere Informationen finden Sie unter [Erstellen und Anpassen von Lerninhalten](./create-content.md).
-   - **Lernzusammenfassung**: Ein kurzer Überblick am Ende eines Kurskapitels, der die Lernenden an die wichtigsten Punkte erinnert, die sie gerade gelernt haben.
+   - **Überblick**: Das erste Thema Ihres Kurses, das eine kurze Einführung in das bietet, was der Kurs abdeckt.
+   - **Thema**: Das Hauptmaterial in einem Kurs besteht aus kurzen, fokussierten Elementen wie Schritten, Beispielen oder Erklärungen, die eine bestimmte Fähigkeit oder Idee lehren. Weitere Informationen finden Sie unter [Thema erstellen und anpassen](./create-content.md).
+   - **Zusammenfassung**: Ein kurzer Überblick am Ende eines Kurskapitels, der die Lernenden an die wichtigsten Punkte erinnert, die sie gerade gelernt haben.
    - **Quiz**: Eine Reihe von Fragen, mit denen überprüft wird, wie gut jemand versteht, was er gelernt hat. Weitere Informationen finden Sie unter [Quiz erstellen und verwalten](./create-quiz.md).
    - **Fragenbank**: Ein gemeinsam genutzter Pool wiederverwendbarer Fragen, mit denen sich schnell und konsistent Quiz erstellen lassen. Weitere Informationen finden Sie unter [Fragenbank](./create-qb.md).
-   - **Lerngruppe**: Eine Lerngruppe hilft Ihnen, verwandte Lerninhalte wie Kapitel, Themen und andere Module in einer logischen Reihenfolge zu organisieren und eine klare Hierarchie aufzubauen, die die Verwaltung und Wiederverwendung von Schulungsmaterial erleichtert.
+   - **Group**: Eine Lerngruppe hilft dabei, verwandte Themen wie Kapitel, Themen und andere Module in einer logischen Reihenfolge zu organisieren, indem eine klare Hierarchie erstellt wird, die die Verwaltung und Wiederverwendung von Schulungsmaterialien erleichtert.
 3. Wählen Sie **Erstellen** aus.
-Der ausgewählte Inhalt wird erstellt und dem Kurs hinzugefügt.
+
+Der ausgewählte Inhalt wird erstellt und dem Kurs hinzugefügt. Eine Videoübersicht finden Sie unter [Hinzufügen neuer Inhalte zu einem Kurs](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 
 ## Vorhandenen Inhalt hinzufügen
 
@@ -44,11 +46,19 @@ Sie können vorhandene Inhalte aus Ihrem Inhalts-Repository zu Ihrem Kurs hinzuf
 
 Der ausgewählte Kursinhalt wird dem Kurs aus dem Repository hinzugefügt.
 
+>[!NOTE]
+>
+>Sie können auch die Option **Add Existing**>**File (Resource only zip)** verwenden, um eine ZIP-Datei einzuschließen, die entpackt und in die Ordnerstruktur der endgültigen SCORM-Ausgabe integriert wird. Dies hilft, die Ressourcenverpackung während der Kursveröffentlichung zu optimieren.
+
+Eine Videoübersicht finden Sie unter [Hinzufügen vorhandener Inhalte zu Kursen](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+
 ## Inhalt entfernen
 
-Sie können jedes Thema aus dem Kurs entfernen, indem Sie das Menü **Optionen** für dieses spezifische Thema auswählen und dann auf **Entfernen** klicken, wie unten dargestellt.
+Sie können jedes Thema aus dem Kurs entfernen, indem Sie das Menü **Optionen** für dieses spezifische Thema auswählen und dann auf **Eintrag entfernen** klicken, wie unten dargestellt.
 
 ![](assets/remove-learning-content.png)
+
+Eine Videoübersicht finden Sie unter [Entfernen von Inhalten aus Kursen](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
 
 ## Kursversionen erstellen
 
@@ -71,3 +81,5 @@ Die **Anzeigen**-Option bestimmt, wie Themen angezeigt werden. Sie können sie m
 > Diese Anzeigeeinstellungen gelten nur für den Kurs-Manager und haben keine Auswirkungen auf die veröffentlichte Ausgabe.
 
 ![](assets/course-display-settings.png)
+
+Eine Videoübersicht finden Sie unter [Optionen anzeigen](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).

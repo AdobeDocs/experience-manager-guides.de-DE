@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über den Authoring-Workflow für Lern- und Schul
 feature: Authoring
 role: User
 exl-id: 18b7e018-287c-4e52-a05e-5472eedf1c54
-source-git-commit: 98a520a255c5587ac0de82685391c0fc153bc8d1
+source-git-commit: 2cb5d104c9a02feb2148018975ca51edda593634
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,10 @@ Diese Seite bietet schnellen Zugriff auf Videos, die wichtige Authoring-Workflow
 | Repository und Verwalten von Sammlungen | Eine Übersicht über die Navigation im Repository und die Verwaltung von Sammlungen in AEM Guides, einschließlich Dateiaktionen, Suche und Inhaltsorganisation. | [Video starten](https://video.tv.adobe.com/v/3469539/learning-content-aem-guides){target="_blank"} |
 | Kurserstellung in AEM Guides | Veranschaulicht das Erstellen und Verwalten von Kursen in AEM Guides, einschließlich Vorlagen, Inhaltshierarchie, Tests, Versionierung und Kursstruktur. | [Video starten](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content){target="_blank"} |
 | Erstellen und Bearbeiten von Lerninhalten | Eine praktische Anleitung zum Verfassen strukturierter Inhalte in AEM Guides, einschließlich Vorlagen, Formatierungen, Medien, Hyperlinks, Tabellen und Inhaltseigenschaften. | [Video starten](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides){target="_blank"} |
-| Erstellen und Bearbeiten von Quiz | Eine schrittweise Anleitung zum Erstellen von Quiz in AEM Guides, einschließlich Vorlagen, Fragetypen, Rich-Content, Feedback und Quiz-Eigenschaften. | [Video starten](https://video.tv.adobe.com/v/3469541/aem-guides-learning-content){target="_blank"} |
-| Verwenden von Fragebanken | Eine Übersicht darüber, wie Fragenbanken in AEM Guides erstellt und wiederverwendet werden, einschließlich Einfügen, Bearbeitungsverhalten, Randomisierung und Best Practices für eindeutige IDs. | [Video starten](https://video.tv.adobe.com/v/3469313/aem-guides-learning-content){target="_blank"} |
+| Lernthema hinzufügen | Ein Beispiel für das Hinzufügen eines neuen Themas zu Kursen in AEM Guides. | [Video starten](https://video.tv.adobe.com/v/3475211/learning-content-aem-guides){target="_blank"} |
+| Entfernen des Themas und Erkunden der Anzeigeeinstellungen | Ein Überblick über das Entfernen eines Themas aus einem Kurs und das Kennenlernen der Option „Einstellungen anzeigen“. | [Video starten](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides){target="_blank"} |
+| Erstellen und Bearbeiten von Quiz | Eine schrittweise Anleitung zum Erstellen von Quiz in AEM Guides, einschließlich Vorlagen, Fragetypen, Rich-Content, Feedback und Quiz-Eigenschaften. | [Video starten](https://video.tv.adobe.com/v/3475209/aem-guides-learning-content){target="_blank"} |
+| Verwenden von Fragebanken | Eine Übersicht darüber, wie Fragenbanken in AEM Guides erstellt und wiederverwendet werden, einschließlich Einfügen, Bearbeitungsverhalten, Randomisierung und Best Practices für eindeutige IDs. | [Video starten](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides){target="_blank"} |
 | Grundlegendes zu Dateieigenschaften | Eine Übersicht über Metadaten auf Dateiebene in AEM Guides, z. B. Dokumentstatus, Tags, Lerninhaltsattribute, Verweise und Inhaltseigenschaften. | [Video starten](https://video.tv.adobe.com/v/3469538/learning-content-aem-guides){target="_blank"} |
 | Formatieren von Lerninhalten und CSS-Verwaltung | Veranschaulicht, wie Inline- und bedienfeldbasierte Stile auf Lerninhalte angewendet, Einschränkungen von Quizstilen verwaltet und Stile mit dem CSS-Editor konfiguriert werden. | [Video starten](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content){target="_blank"} |
 | Erweiterte Inhaltsbearbeitung | Zeigt, wie Sie erweiterte Elemente in AEM Guides einfügen und konfigurieren, einschließlich Widgets (Akkordeon, Karussell, Hotspot), Multimedia, iFrames, Code-Blöcke und Blockanführungszeichen. | [Video starten](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides){target="_blank"} |

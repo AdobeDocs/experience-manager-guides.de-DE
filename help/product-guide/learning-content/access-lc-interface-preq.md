@@ -1,9 +1,10 @@
 ---
 title: Erkunden der Benutzeroberfläche und Voraussetzungen
-description: Erfahren Sie mehr über die Benutzeroberfläche und die Voraussetzungen für die Arbeit mit den Lern- und Schulungsinhalten in Adobe Experience Manager Guides.
+description: Erfahren Sie mehr über die Benutzeroberfläche und die Voraussetzungen für die Arbeit mit Produktschulungen und -kursen in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
+exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 2%
@@ -44,13 +45,3 @@ Die Seite mit den Benutzereinstellungen besteht aus zwei Registerkarten:
 - **Erscheinungsbild**: Bietet Ihnen die Optionen, die Themen für die Anwendung und die Quellansicht der Lerninhalte auszuwählen.
 
 Weitere Informationen finden Sie unter [Benutzereinstellungen](../user-guide/intro-home-page.md#user-preferences) in Experience Manager Guides.
-
-
-
-
-
-
-
-
-
-

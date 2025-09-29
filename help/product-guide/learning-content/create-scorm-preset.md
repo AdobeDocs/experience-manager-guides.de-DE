@@ -1,10 +1,10 @@
 ---
 title: SCORM-Vorgabe erstellen
-description: Erfahren Sie, wie Sie im Lern- und Schulungsinhalt eine SCORM-Vorgabe erstellen.
+description: Erfahren Sie, wie Sie eine SCORM-Vorgabe im Produkt „Schulung und Lernen“ erstellen.
 feature: Authoring
 role: User
 exl-id: 4a433b9d-594d-42b5-8c59-f246eda7e631
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 1%

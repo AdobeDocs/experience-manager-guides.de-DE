@@ -3,19 +3,26 @@ title: Erstellen Ihres ersten Kurses
 description: Erfahren Sie, wie Sie mit Ihrem ersten Lernkurs in Adobe Experience Manager Guides beginnen.
 feature: Authoring
 role: User
-source-git-commit: 33b6080ec0a98e85f96e0ccb46c91bbffb882d2a
+exl-id: 8680482d-5688-4bb5-890f-c5a7e4bfdba1
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
 
 # Erstellen Ihres ersten Kurses
 
+Kurse in Experience Manager Guides können so konzipiert werden, dass sie auf verschiedene Lernziele abgestimmt sind. Während ein regulärer Lernkurs Themen, Quiz und Zusammenfassungen enthalten kann, können Sie auch Kurse erstellen, die sich hauptsächlich auf Bewertungen konzentrieren. Sie können beispielsweise einen Kurs mit nur einem Quiz oder ein Quiz zusammen mit einem Übersichtsthema einrichten, um schnell zu prüfen, ob Sie den Kurs verstehen. Sie können auch einen strukturierten Pfad mit einem Quiz vor der Bewertung, dem Hauptkursinhalt und einem abschließenden Quiz erstellen. Mit diesen Optionen können Sie zielgerichtete Lernerfahrungen bereitstellen und gleichzeitig den Lernfortschritt effektiv messen.
+
+Bevor wir uns mit dem schrittweisen Prozess befassen, hier ein kurzes Video, das zeigt, wie Sie Ihren ersten Kurs erstellen und ihm Komponenten hinzufügen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on)
+
+
 Führen Sie die folgenden Schritte aus, um Ihren ersten Kurs zu erstellen:
 
 1. Navigieren Sie zu dem Ordner, in dem Sie einen Kurs erstellen möchten, und wählen Sie **Neu > Kurs** aus dem Menü **Optionen**.
-
    ![](assets/create-new-course.png)
 
    Das **Dialogfeld „Neuer Kurs** wird angezeigt.
@@ -33,6 +40,3 @@ Führen Sie die folgenden Schritte aus, um Ihren ersten Kurs zu erstellen:
 Der Kurs wird basierend auf der ausgewählten Vorlage unter dem angegebenen Pfad erstellt. Außerdem wird der Kurs im Kursmanager zur Bearbeitung geöffnet.
 
    ![](assets/course-manager-read-only-mode.png)
-
-
-
