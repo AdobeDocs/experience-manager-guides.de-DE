@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die verschiedenen Funktionen in Experience 
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Der ausgewählte Kursinhalt wird dem Kurs aus dem Repository hinzugefügt.
 
 >[!NOTE]
 >
->Sie können auch die Option **Add Existing**>**File (Resource only zip)** verwenden, um eine ZIP-Datei einzuschließen, die entpackt und in die Ordnerstruktur der endgültigen SCORM-Ausgabe integriert wird. Dies hilft, die Ressourcenverpackung während der Kursveröffentlichung zu optimieren.
+>Sie können auch die Option **Vorhandene hinzufügen** > **Datei (nur ZIP-Datei für Ressourcen)** verwenden, um eine ZIP-Datei einzuschließen, die entpackt und in die Ordnerstruktur der endgültigen SCORM-Ausgabe integriert wird. Dies hilft, die Ressourcenverpackung während der Kursveröffentlichung zu optimieren.
 
 Eine Videoübersicht finden Sie unter [Hinzufügen vorhandener Inhalte zu Kursen](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 

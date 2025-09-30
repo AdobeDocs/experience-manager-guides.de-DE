@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie verschiedene Inline-Stile beim Erstellen von 
 feature: Authoring
 role: User
 exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Verwenden von Inline-Stilen
 
 Wenden Sie Inline-Stile an, um das Erscheinungsbild bestimmter Texte direkt in Ihrem Kursinhalt anzupassen. Dies ermöglicht schnelle Formatierungsanpassungen wie Schriftgröße, Farbe, Ausrichtung und mehr. Sie können die Inline-Stile für den ausgewählten Text über das Bedienfeld **Inhaltseigenschaften** ändern.
+
+Im Folgenden finden Sie ein kurzes Video mit exemplarischen Vorgehensweisen zu verschiedenen verfügbaren Inline-Stilen.
 
 >[!NOTE]
 >
@@ -23,10 +25,7 @@ Wenden Sie Inline-Stile an, um das Erscheinungsbild bestimmter Texte direkt in I
 >[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
 
 
-Die folgenden Optionen für Inline-Stile sind verfügbar.
-
-![](assets/content-properties-learning-content.png){width="350" align="left"}
-
+Die verfügbaren Inline-Styling-Optionen werden wie folgt beschrieben:
 
 - **Schriftart:** Ermöglicht die Anpassung des Erscheinungsbildes des Textes mithilfe verschiedener Optionen wie Schriftfamilie, Schriftstärke, Textdekoration, Schriftgröße und mehr. Diese Einstellungen helfen Ihnen, Ihren Inhalt wie im folgenden Beispiel zu gestalten.
 
