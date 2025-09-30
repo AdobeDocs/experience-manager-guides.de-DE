@@ -4,9 +4,9 @@ description: Effiziente Prüfung von Themen oder Karten in AEM Guides für eine 
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+source-git-commit: 6f18b2e4b5cd095f5b446fa9a78badfcdbefc068
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ Den *Prüfern“ zur Verfügung stehende*:
 - Anzeigen von Kommentaren anderer Prüfer oder Antworten auf Kommentare des Autors in Echtzeit.
 - Zugreifen auf Kommentare, die zu älteren Versionen des Themas gegeben wurden.
 
->[!NOTE]
->
-> Best Practices *Erstellen von Prüfungsaufgaben finden Sie* Abschnitt „Überprüfen“ im Handbuch zu Best Practices.
 
 - **[Erstellen eines DITA-Projekts](authoring-create-dita-project.md)**
 
