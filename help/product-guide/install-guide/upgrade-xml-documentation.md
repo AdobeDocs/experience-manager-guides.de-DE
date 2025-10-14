@@ -25,7 +25,7 @@ Sie können Ihre aktuelle Version von Experience Manager Guides auf Version 5.1.
 - Wenn Sie Version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 oder 4.1.x verwenden, müssen Sie vor dem Upgrade auf Version 5.0.0 ein Upgrade auf Version 4.4 durchführen.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 
 >[!NOTE]
@@ -58,7 +58,7 @@ Vor Ausführung des Prozesses gibt es bestimmte Aufgaben, die Sie abschließen m
 
 >[!NOTE]
 >
-> Dieser Upgrade-Prozess gilt nur für die Versionen 3.8.5 bis 4.0. Informationen zum Upgrade von Version 3.4 oder höher auf 3.8.5 finden Sie im Abschnitt *Upgrade von Experience Manager Guides* im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+> Dieser Upgrade-Prozess gilt nur für die Versionen 3.8.5 bis 4.0. Informationen zum Upgrade von Version 3.4 oder höher auf 3.8.5 finden Sie im Abschnitt *Upgrade von Experience Manager Guides* im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 
 
@@ -1298,7 +1298,7 @@ Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müsse
 
 ## Schritte zur Neuindizierung von damAssetLucene
 
-Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [&#x200B; Neuindizierung von damAssetLucene nach &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.0.0 finden Sie in diesem Artikel .
+Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [&#x200B; Neuindizierung von damAssetLucene nach &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.0.0 finden Sie in diesem Artikel .
 
 >[!NOTE]
 >
@@ -1308,7 +1308,7 @@ Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Info
 
 >[!IMPORTANT]
 >
-> Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.1.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.1.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/de/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
 
@@ -1461,7 +1461,7 @@ Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müsse
 
 ## Schritte zur Neuindizierung von damAssetLucene
 
-Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [&#x200B; Neuindizierung von damAssetLucene nach &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.1.0 finden Sie in diesem Artikel .
+Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [&#x200B; Neuindizierung von damAssetLucene nach &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.1.0 finden Sie in diesem Artikel .
 
 >[!NOTE]
 >
