@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie als Autor oder Autorin in AEM Guides Kommenta
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
+source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,10 @@ Im Editor enthält das rechte Bedienfeld die Symbole Überprüfen und Änderunge
 - **G**: Suchen nach einem Text in Kommentaren.
 - **H**: Akzeptieren oder Ablehnen eines Kommentars.
 
-- **I**: Einen Filter auf die Kommentare anwenden. Sie können nach Kommentaren filtern, und zwar auf der Grundlage von Überprüfungstyp \(alle, hervorgehoben, gelöscht, eingefügt oder Haftnotiz\), Überprüfungsstatus \(alle, akzeptiert, abgelehnt oder keine\), Reviewers \(alle oder bestimmte Reviewer\(s\)\) oder Themenversionen.
+- **I**: Einen Filter auf die Kommentare anwenden. Sie können nach Kommentaren filtern, und zwar auf der Grundlage von Überprüfungstyp \(alle, hervorgehoben, gelöscht, eingefügt oder Haftnotiz\), Überprüfungsstatus \(alle, akzeptiert, abgelehnt oder keine\), Reviewers \(alle oder bestimmte Reviewer\(s\)\) oder Themenversionen. Standardmäßig ist keiner der Filter ausgewählt.
 
-**Antworten auf einen Kommentar, indem Sie andere Benutzer taggen**
+  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  **Antworten auf einen Kommentar, indem Sie andere Benutzer taggen**
 
 Als Autor und Initiator der Prüfungsaufgabe können Sie auf Prüfungskommentare antworten und andere Benutzende, die an derselben Prüfungsaufgabe beteiligt sind, mit Tags versehen, um ihre Aufmerksamkeit zu lenken oder Folgemaßnahmen zuzuweisen. Diese Funktion ist nur für aktive Prüfungsaufgaben verfügbar.
 
@@ -90,4 +91,4 @@ Wenn Sie der Initiator oder Autor einer Prüfungsaufgabe sind und diese über di
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

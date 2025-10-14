@@ -2,7 +2,7 @@
 title: Verwenden des KI-Assistenten zur intelligenten Erstellung von Dokumenten "
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten Dokumente mit intelligenter Effizienz erstellen können.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 3d344a1d1b8d51ddadd618db5296531f549dc70b
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Adobe Experience Manager Guides bietet ein KI-Assistenten-Tool, mit dem Sie Ihre
 
 >[!NOTE]
 >
-> Diese Authoring-Funktion ist nur für DITA-Themen verfügbar und kann nur über die Editor-Oberfläche aufgerufen werden. Auf der Startseite und in der Kartenkonsole wird nur das Bedienfeld **Hilfe** angezeigt. Die unter der Authoring-Funktion verfügbaren Optionen werden von den Admins mithilfe der Editor-Einstellungen auf Ordnerprofilebene konfiguriert.
+> Diese Authoring-Funktion ist nur für DITA-Themen verfügbar und kann nur über die Editor-Oberfläche aufgerufen werden. Auf der Startseite und in der Kartenkonsole wird nur das Bedienfeld **Hilfe** angezeigt. Die unter der Authoring-Funktion verfügbaren Optionen werden von den Administratoren mithilfe der Workspace-Einstellungen auf Ordnerprofilebene konfiguriert.
 
 Nachdem Sie den Text in einem Thema ausgewählt haben, können Sie eine der KI-Assistentenaktionen ausführen:
 

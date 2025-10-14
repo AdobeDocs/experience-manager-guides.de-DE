@@ -2,7 +2,8 @@
 title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2025.08.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2025.08.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: d418ffb254b11430509609b91e0174690815cf73
+exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
+source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 2%
@@ -39,7 +40,7 @@ Die neueste Aktualisierung führt eine erweiterte Konfiguration für **Authoring
 
 Sobald der Umschalter **KI** Assistent) aktiviert ist, können Admins selektiv auswählen, welche Schnellaktionen auf der Registerkarte **Authoring** angezeigt werden sollen, um die Autoreninteraktionen zu optimieren. Diese Sichtbarkeitseinstellungen sind für jedes Ordnerprofil spezifisch.
 
-Weitere Informationen zum [KI-Assistenten in den Editor-Einstellungen](../user-guide/web-editor-settings.md#general) in Experience Manager Guides.
+Weitere Informationen zum [KI-Assistenten in den Editor-Einstellungen](../cs-install-guide/workspace-settings.md#general) in Experience Manager Guides.
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -93,9 +94,3 @@ Mit dieser Version wurden die Einstellungen in **Benutzereinstellungen** auf der
 Darüber hinaus sind in der Editor-Symbolleiste einige Umschalter für den Schnellzugriff zum Aktivieren oder Deaktivieren von Änderungen, Tags und nicht umbrechenden Leerzeichen jetzt unter der Option **Anzeigen** im Dropdown-Menü gruppiert, um die Benutzerfreundlichkeit zu verbessern.
 
 Weitere Informationen finden Sie unter [Symbolleiste im Editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-

@@ -5,7 +5,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: bece5e257370f458de8878814da290086eea344e
+source-git-commit: a29c27a263a3e06e041ffb5e81892449e64323a3
 workflow-type: tm+mt
 source-wordcount: '9124'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Sie können Ihre aktuelle Version von Experience Manager Guides auf Version 5.1.
 - Wenn Sie Version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 oder 4.1.x verwenden, müssen Sie vor dem Upgrade auf Version 5.0.0 ein Upgrade auf Version 4.4 durchführen.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 
 >[!NOTE]
@@ -34,17 +34,16 @@ Sie können Ihre aktuelle Version von Experience Manager Guides auf Version 5.1.
 
 Weitere Informationen finden Sie in den folgenden Verfahren:
 
-- [Upgrade von 3.8.5 auf Version 4.0](#upgrade-from-version-385-to-version-40)
-- [Aktualisierung auf Version 4.2](#upgrade-to-version-42)
-- [Aktualisierung auf Version 4.2.1](#upgrade-to-version-421)
-- [Aktualisierung auf Version 4.3.0](#upgrade-to-version-430)
-- [Aktualisierung auf Version 4.3.1](#upgrade-to-version-431)
-- [Aktualisieren auf Version 4.3.1.5](#upgrade-to-version-4315)
-- [Aktualisierung auf Version 4.4.0](#upgrade-to-version-440)
-- [Aktualisieren auf Version 4.6.0](#upgrade-to-version-460)
-- [Aktualisieren auf Version 5.0.0](#upgrade-to-version-500)
 - [Aktualisierung auf Version 5.1.0](#upgrade-to-version-510)
-
+- [Aktualisieren auf Version 5.0.0](#upgrade-to-version-500)
+- [Aktualisieren auf Version 4.6.0](#upgrade-to-version-460)
+- [Aktualisierung auf Version 4.4.0](#upgrade-to-version-440)
+- [Aktualisieren auf Version 4.3.1.5](#upgrade-to-version-4315)
+- [Aktualisierung auf Version 4.3.1](#upgrade-to-version-431)
+- [Aktualisierung auf Version 4.3.0](#upgrade-to-version-430)
+- [Aktualisierung auf Version 4.2.1](#upgrade-to-version-421)
+- [Aktualisierung auf Version 4.2](#upgrade-to-version-42)
+- [Upgrade von 3.8.5 auf Version 4.0](#upgrade-from-version-385-to-version-40)
 
 
 >[!IMPORTANT]
@@ -59,11 +58,11 @@ Vor Ausführung des Prozesses gibt es bestimmte Aufgaben, die Sie abschließen m
 
 >[!NOTE]
 >
-> Dieser Upgrade-Prozess gilt nur für die Versionen 3.8.5 bis 4.0. Informationen zum Upgrade von Version 3.4 oder höher auf 3.8.5 finden Sie im Abschnitt *Upgrade von Experience Manager Guides* im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+> Dieser Upgrade-Prozess gilt nur für die Versionen 3.8.5 bis 4.0. Informationen zum Upgrade von Version 3.4 oder höher auf 3.8.5 finden Sie im Abschnitt *Upgrade von Experience Manager Guides* im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 
 
-**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
+****Voraussetzungen****
 
 Bevor Sie mit dem Experience Manager Guides-Upgrade-Prozess beginnen, stellen Sie sicher, dass die folgenden Punkte erfüllt sind:
 
@@ -77,7 +76,7 @@ Bevor Sie mit dem Experience Manager Guides-Upgrade-Prozess beginnen, stellen Si
 Führen Sie vor der Installation von Version 4.0 die folgenden Schritte aus:
 
 1. Stellen Sie sicher, dass Experience Manager Guides derzeit Version 3.8.5 verwendet.
-1. Laden Sie das Paket mit dem Upgrade-Skript herunter. Suchen Sie dazu im [&#x200B; Adobe Software Distribution-Portal nach &quot;XML Documentation-Lösungs-4.0-Upgrade](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)Paket“, wodurch eine ZIP-Datei heruntergeladen wird.
+1. Laden Sie das Paket mit dem Upgrade-Skript herunter. Suchen Sie dazu im [ Adobe Software Distribution-Portal nach &quot;XML Documentation-Lösungs-4.0-Upgrade](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)Paket“, wodurch eine ZIP-Datei heruntergeladen wird.
 1. Laden Sie dieses Paket über Package Manager in AEM hoch und installieren Sie es.
 1. Sobald das Upgrade-Paket installiert ist, führen Sie die folgenden Skripte in der gleichen Reihenfolge aus und befolgen Sie die angegebenen Anweisungen:
 
@@ -136,7 +135,7 @@ Die Aktualisierung auf Version 4.2 hängt von der aktuellen Version von Experien
 
 Wenn Sie Version 4.0, 4.1 oder 4.1.x verwenden, können Sie direkt auf Version 4.2 aktualisieren.
 
-**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
+****Voraussetzungen****
 
 Bevor Sie mit dem Upgrade auf Experience Manager Guides 4.2 beginnen, stellen Sie Folgendes sicher:
 
@@ -312,7 +311,7 @@ Die Aktualisierung auf Version 4.2.1 hängt von der aktuellen Version von Experi
 >
 >Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
+****Voraussetzungen****
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.2.1 Folgendes sicher:
 
@@ -489,7 +488,7 @@ Die Aktualisierung auf Version 4.3.0 hängt von der aktuellen Version von Experi
 >
 >Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
+****Voraussetzungen****
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.3.0 Folgendes sicher:
 
@@ -547,7 +546,7 @@ Die Aktualisierung auf Version 4.3.1 hängt von der aktuellen Version von Experi
 >
 >Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
+****Voraussetzungen****
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.3.1 Folgendes sicher:
 
@@ -788,7 +787,7 @@ Die Aktualisierung auf Version 4.4.0 hängt von der aktuellen Version von Experi
 >
 >Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
+****Voraussetzungen****
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.4.0 Folgendes sicher:
 
@@ -981,7 +980,7 @@ Wenn Sie einen anderen benutzerdefinierten Sling Rewriter in Ihrer Codebasis hab
 Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müssen Sie den vorhandenen benutzerdefinierten Rewriter (sofern vorhanden) mit `'fmdita-rewriter'` zusammenführen.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
 
 
 ## Aktualisieren auf Version 4.6.0
@@ -996,7 +995,7 @@ Die Aktualisierung auf Version 4.6.0 hängt von der aktuellen Version von Experi
 >
 > Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
+****Voraussetzungen****
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.6.0 Folgendes sicher:
 
@@ -1151,7 +1150,7 @@ Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müsse
 >
 > Die Nachbearbeitung und Indizierung kann einige Stunden dauern. Es wird empfohlen, den Upgrade-Prozess außerhalb der Spitzenzeiten zu starten.
 
-**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
+****Voraussetzungen****
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 5.0.0 Folgendes sicher:
 
@@ -1299,7 +1298,7 @@ Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müsse
 
 ## Schritte zur Neuindizierung von damAssetLucene
 
-Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [&#x200B; Neuindizierung von damAssetLucene nach &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.0.0 finden Sie in diesem Artikel .
+Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [ Neuindizierung von damAssetLucene nach ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.0.0 finden Sie in diesem Artikel .
 
 >[!NOTE]
 >
@@ -1309,9 +1308,9 @@ Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Info
 
 >[!IMPORTANT]
 >
-> Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.1.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/de/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.1.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
-**&#x200B;**&#x200B;Voraussetzungen&#x200B;**&#x200B;**
+****Voraussetzungen****
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 5.1.0 Folgendes sicher:
 
@@ -1462,7 +1461,7 @@ Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müsse
 
 ## Schritte zur Neuindizierung von damAssetLucene
 
-Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [&#x200B; Neuindizierung von damAssetLucene nach &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.1.0 finden Sie in diesem Artikel .
+Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [ Neuindizierung von damAssetLucene nach ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.1.0 finden Sie in diesem Artikel .
 
 >[!NOTE]
 >

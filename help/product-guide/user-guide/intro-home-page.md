@@ -4,9 +4,9 @@ description: Lernen Sie die Startseite der Adobe Experience Manager Guides kenne
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
+source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ In der Navigationsleiste verfügbare Funktionen werden wie folgt erläutert:
   Die Funktion [KI-](./ai-assistant.md)) ist derzeit nur für Adobe Experience Manager as a Cloud Service verfügbar.
 - **Übersichtsabschnitt anpassen**: Ermöglicht das Ausblenden oder Anzeigen der Widgets im Abschnitt Widgets .
 - **Ordnerprofil in Verwendung**: Zeigt das Ordnerprofil an, das derzeit verwendet wird.
+- **Weitere Aktionen**: Bietet Zugriff auf zusätzliche Optionen. Durch Klicken auf diese Schaltfläche wird ein Menü mit den folgenden Optionen geöffnet:
+
+   - **Assets**: Leitet Sie je nach Einrichtung zu einem Ziel.
+      - **Cloud Services**: Wenn Sie Cloud Services verwenden, gelangen Sie durch Auswahl der Option **Assets** zur Seite &quot;AEM-Navigation“.
+
+      - **On-Premise-Software**: Wenn Sie Adobe Experience Manager Guides (4.2.1 und höher) verwenden, gelangen Sie durch Auswahl der Option **Assets** zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche.
+   - **Workspace-Einstellungen**: Leitet Sie zum Dialogfeld **Workspace-Einstellungen**. Weitere Informationen finden Sie unter [Konfigurieren von Workspace-](../cs-install-guide/workspace-settings.md).
+
+     >[!NOTE]
+     >
+     > Auf der Startseite ist die Option Workspace-Einstellungen nur für das Einrichten von Cloud-Services verfügbar. Bei einem On-Premise-Setup ist die Option Mehr Aktionen auf der Startseite nicht verfügbar. Sie können jedoch weiterhin über die Editor-Oberfläche und die Zuordnungskonsole auf die relevanten Einstellungen zugreifen, indem Sie zu Weitere Optionen > Einstellungen navigieren.
+
 - **Ansicht erweitern**: Ermöglicht das Erweitern der Seitenansicht mithilfe des Symbols **Erweitern**. In dieser Ansicht ist die Kopfzeilenleiste ausgeblendet, was den Inhaltsbereich maximiert. Um zur Standardansicht zurückzukehren, verwenden Sie das Symbol **Erweiterte Ansicht beenden**.
 
 ## Linkes Bedienfeld
@@ -169,7 +181,7 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Über die Voreins
 
 - **Erscheinungsbild**: Die Registerkarte Erscheinungsbild bietet Ihnen die Optionen zum Auswählen der Designs für die Anwendung und der Quellansicht des Inhaltsbearbeitungsbereichs. Verwenden Sie diese Registerkarte, um die folgenden Einstellungen zu konfigurieren:
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **Anwendungsdesign und Source-Ansicht**: Sie können aus den Hell- oder Dunkeldesigns für die Anwendungs- und Quellansicht wählen. Beim Design „Licht“ verwenden die Symbolleisten und Bereiche einen hellgrauen Hintergrund. Beim dunklen Design verwenden die Symbolleisten und Bereiche einen schwarzen Hintergrund. Wählen Sie **Gerät verwenden** aus, damit Experience Manager Guides helle und dunkle Designs basierend auf dem Design Ihres Geräts auswählen kann.
 

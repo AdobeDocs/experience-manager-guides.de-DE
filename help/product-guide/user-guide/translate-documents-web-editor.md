@@ -4,9 +4,9 @@ description: Übersetzen Sie Ihre Inhalte aus dem Web-Editor in mehrere Sprachen
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2376'
 ht-degree: 1%
 
 ---
@@ -157,7 +157,7 @@ Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnereben
 
 Mit Experience Manager Guides können Sie die Bezeichnung der Quelldatei an die Zieldatei übergeben. Auf diese Weise können Sie die Quellversion für die übersetzte Datei leicht identifizieren.
 
-Um die Bezeichnung der Quellversion in der Zielkopie hinzuzufügen, muss der Systemadministrator die Option **Quellversionsbezeichnungen in die Zielversion übertragen** auf der Registerkarte **Übersetzung** in **Einstellungen** aktivieren.
+Um die Quellversionsbeschriftung in der Zielkopie hinzuzufügen, muss der Systemadministrator die Option **Quellversionsbeschriftungen in die Zielversion übertragen** auf der Registerkarte **Übersetzung** in **Workspace-** aktivieren (wird **Einstellungen** für **On-Prem**).
 
 Wenn Sie beispielsweise Quelldateien haben, auf die die Versionsbezeichnung `Release 1.0` angewendet wurde, können Sie auch die Quellbezeichnung \(`Release 1.0`\) an die übersetzte Datei übergeben.
 
@@ -219,11 +219,11 @@ Wählen Sie den Namen der Referenz im Dialogfeld aus, um sie im Vorschaumodus zu
 > 
 >Diese Funktion ist für neue Übersetzungsprojekte verfügbar, die Sie mit Experience Manager Guides Version 2404 oder höher erstellen.  Dies hat keine Auswirkungen auf bestehende Projekte.
 
-Ihr Administrator kann die Option **Bereinigung des Übersetzungsprojekts nach Abschluss** auf der Registerkarte **Übersetzung** in den **Editor-Einstellungen** konfigurieren, um die Übersetzungsprojekte automatisch zu deaktivieren oder zu löschen.
+Ihr Administrator kann die Option **Bereinigung des Übersetzungsprojekts nach Abschluss** auf der Registerkarte **Übersetzung** in den **Workspace-Einstellungen** konfigurieren (angezeigt als **Einstellungen** für **On-Prem**), um die Übersetzungsprojekte automatisch zu deaktivieren oder zu löschen.
 
 Für die Dokumentverwaltung bietet Experience Manager Guides die Möglichkeit, die Übersetzungsprojekte nach Abschluss der Übersetzung zu löschen.
 
 Sie können die Übersetzungsprojekte auch deaktivieren, wenn Sie sie später verwenden möchten. Beim Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner gelöscht. Durch Deaktivieren eines Projekts wird es nicht gelöscht, sondern im Repository beibehalten. Sie können jedoch ein deaktiviertes Projekt nicht aktualisieren oder bearbeiten.  Das Löschen oder Deaktivieren eines Projekts wirkt sich nicht auf den Übersetzungsstatus von Verweisen aus.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

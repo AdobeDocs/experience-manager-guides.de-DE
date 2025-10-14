@@ -2,7 +2,8 @@
 title: Verwenden des KI-Assistenten zur intelligenten Erstellung von Dokumenten "
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten Dokumente mit intelligenter Effizienz im Web-Editor erstellen können.
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: c7d37da8-e838-47a2-b469-287bcd841933
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -16,8 +17,8 @@ Experience Manager Guides bietet ein KI-Assistenten-Tool, mit dem Sie Ihre Inhal
 
 >[!NOTE]
 >
-> Um die Funktion KI-Assistent im rechten Bedienfeld hinzuzufügen, muss Ihr Systemadministrator die Option **KI-Assistent** auf der Registerkarte **Bedienfelder** im Symbol **Editor-Einstellungen** ![Editor-Einstellungen](./images/editor_settings_icon.svg) auswählen.
-> Außerdem müssen Sie Ihr Dokument auschecken, um das Symbol für den KI-Assistenten anzuzeigen.
+> Um die Funktion KI-Assistent im rechten Bedienfeld hinzuzufügen, muss Ihr Systemadministrator die Option **KI-Assistent** auf der Registerkarte **Bedienfelder** im Symbol **Workspace-Einstellungen** ![Workspace-Einstellungen auswählen](./images/editor_settings_icon.svg).
+> > Außerdem müssen Sie Ihr Dokument auschecken, um das Symbol für den KI-Assistenten anzuzeigen.
 
 Diese Funktion ist nur für DITA-Themen verfügbar. Nachdem Sie den Text in einem Thema ausgewählt haben, können Sie eine der KI-Assistentenaktionen ausführen:
 
@@ -145,7 +146,7 @@ Verwenden Sie diese intelligente Funktion, um die ausgewählten Inhalte in die Z
 Führen Sie die folgenden Schritte aus, um die Inhalte zu übersetzen:
 
 1. Wählen Sie die Inhalte aus, die Sie übersetzen möchten.
-1. Wählen Sie **Inhalt übersetzen** im ![&#128279;](./images/ai-translate-content-icon.svg)-Assistentenfeld Symbol „Inhalt übersetzen“ aus.
+1. Wählen Sie **Inhalt übersetzen** im ![-Assistentenfeld ](./images/ai-translate-content-icon.svg)Symbol „Inhalt übersetzen“ aus.
 1. Wählen Sie im Dropdown-Menü die Zielsprache aus. Die übersetzten Inhalte werden im Bedienfeld KI-Assistent angezeigt.
 
 1. (Optional) Wählen Sie **Erweitern** aus, um den Editor **Inhalte übersetzen** zu öffnen.

@@ -4,9 +4,9 @@ description: Machen Sie sich mit den Funktionen des Karten-Editors in Adobe Expe
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
+source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Darüber hinaus können Sie die folgenden Symbole anzeigen und die zugehörigen 
 
 **Einfügen vor/Einfügen nach** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Zeigt das Dialogfeld **Element vor oder &#x200B;** Element nach einfügen“ an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
+Zeigt das Dialogfeld **Element vor oder **Element nach einfügen“ an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -343,12 +343,12 @@ Im rechten Bedienfeld werden die Inhaltseigenschaften und die Zuordnungseigensch
 
 Das Bedienfeld Inhaltseigenschaften enthält Informationen zum Typ des aktuell in der Zuordnung ausgewählten Themas, zur zugehörigen Link-URL und zu den zugehörigen Attributen. Weitere Informationen finden Sie unter [Inhaltseigenschaften](web-editor-features.md#right-panel) im Editor.
 
-- **Andere Attribute** Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Im Bedienfeld Inhaltseigenschaften können Sie diese Attribute auswählen und sie relevanten Inhalten in Ihrem Thema zuweisen. Sie können auch Attribute zuweisen, die von Ihrem Administrator unter der Registerkarte **Attribute anzeigen** in den Editor-Einstellungen konfiguriert wurden. Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt. Dies hilft Ihnen, einen kurzen Blick auf alle Themen in einer Zuordnung zu werfen, für die ein bestimmtes Attribut definiert ist. Beispielsweise werden alle Themen mit dem Attribut `audience` als `US` definiert.
+- **Andere Attribute** Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Im Bedienfeld Inhaltseigenschaften können Sie diese Attribute auswählen und sie relevanten Inhalten in Ihrem Thema zuweisen. Sie können auch von Ihrem Administrator konfigurierte Attribute unter &quot;**&quot;**. Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt. Dies hilft Ihnen, einen kurzen Blick auf alle Themen in einer Zuordnung zu werfen, für die ein bestimmtes Attribut definiert ist. Beispielsweise werden alle Themen mit dem Attribut `audience` als `US` definiert.
 
   ![Layout-Ansicht](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  Weitere Informationen finden Sie unter *Attribute anzeigen* in der Funktionsbeschreibung *Einstellungen* im [-](web-editor-features.md#main-toolbar).
+  Weitere Informationen finden Sie unter [Attribute anzeigen](../cs-install-guide/workspace-settings.md#display-attributes).
 
 - **Metadaten** Mithilfe der Metadaten können Sie die Metadateninformationen festlegen. Sie können den Navigationstitel, den Link-Text, die Kurzbeschreibung und die Keywords definieren.
 

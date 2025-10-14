@@ -4,9 +4,9 @@ description: Erkunden Sie andere Funktionen des Editors in Adobe Experience Mana
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
+source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2652'
 ht-degree: 0%
 
 ---
@@ -246,8 +246,19 @@ Gehen Sie folgendermaßen vor, um automatisch eine ID für ein oder mehrere Elem
 1. Wählen Sie den Inhalt aus, dem Sie IDs zuweisen möchten.
 1. Klicken Sie mit der rechten Maustaste und wählen **Generate IDs** aus dem Kontextmenü.
 
-   Alternativ können Sie mit der rechten Maustaste in den Breadcrumb klicken und **IDs generieren** auswählen.
+Alternativ können Sie mit der rechten Maustaste in den Breadcrumb klicken und **IDs generieren** auswählen.
 
+## Ermitteln doppelter IDs für Elemente in einer Zuordnung oder einem Thema in der Autorenansicht
+
+Wenn ein bestimmtes Thema oder eine bestimmte Zuordnung Elemente mit doppelten IDs enthält **wird eine Schaltfläche** Duplizieren“ in der rechten unteren Ecke des Inhaltsbearbeitungsbereichs neben den Editor-Ansichten angezeigt.
+
+![](images/duplicate-element-IDs.png){width="350" align="left"}
+
+Wenn Sie **Duplizierte IDs** auswählen, wird ein Pop-up mit allen doppelten IDs geöffnet. Sie können die angezeigte ID im Pop-up auswählen, um zum entsprechenden Element zu navigieren und es mit einer eindeutigen ID zu aktualisieren.
+
+>[!NOTE]
+>
+> Die Schaltfläche **Duplizieren von** IDs) ist nur in der **Autoren** Ansicht verfügbar und ähnliche Element-IDs sind in verschiedenen verschachtelten Themen zulässig.
 
 
 ## Umgang mit großen Dateien im Editor
@@ -268,4 +279,4 @@ Die wichtigsten Funktionen zur Verbesserung der Handhabung großer Dateien werde
 
 - Die Warnmeldung ist nur für DITA-Dateien verfügbar und in allen Ansichten sichtbar: Author, Source und Layout.
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

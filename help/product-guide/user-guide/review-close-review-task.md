@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über den Workflow zum Schließen einer Prüfungs
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Die in diesem Artikel beschriebenen neuen Funktionen werden standardmäßig mit der Version 2508 von Experience Manager Guides as a Cloud Services aktiviert. Überprüfungen, die vor der Migration erstellt wurden, sind nicht betroffen und verwenden weiterhin den früheren Workflow. Wenn Sie es vorziehen, die vorhandenen Funktionen ohne diese Aktualisierungen weiterhin zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit die neuen Funktionen deaktiviert werden.
+> Die in diesem Artikel beschriebenen neuen Funktionen sind standardmäßig in der Version 2508 von Experience Manager Guides as a Cloud Service aktiviert. Überprüfungen, die vor der Migration erstellt wurden, sind nicht betroffen und verwenden weiterhin den früheren Workflow. Wenn Sie es vorziehen, die vorhandenen Funktionen ohne diese Aktualisierungen weiterhin zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit die neuen Funktionen deaktiviert werden.
 
 Wenn eine Prüfungsaufgabe von einem Reviewer als abgeschlossen markiert wird, wird eine Benachrichtigung an den Aufgabeninitiator ausgelöst, damit dieser auf die Aufgabe und die zugehörigen Kommentare auf Aufgabenebene zugreifen und diese überprüfen kann.
 
@@ -28,15 +28,15 @@ Als Initiator der Prüfungsaufgabe können Sie dann anhand des Feedbacks entsche
 
 Führen Sie die folgenden Schritte aus, um eine erneute Überprüfung oder das Schließen einer Prüfungsaufgabe anzufordern:
 
-1. Öffnen Sie die Prüfungsaufgabe im Editor.
-2. Wählen Sie im Prüfungsbedienfeld die Prüfungsaufgabe aus der Liste **Aktive Aufgaben** aus.
+1. Öffnen Sie **Überprüfungsbereich** über das linke Bedienfeld des Editors.
+2. Wählen Sie die Prüfungsaufgabe, die Sie schließen oder erneut zur Überprüfung übermitteln möchten, aus der Liste **Aktive Aufgaben** aus.
 
    >[!NOTE]
    >
    > Sie können die Aufgabe auch im Aufgaben-Dashboard öffnen, um eine umfassendere Ansicht zu erhalten. Wählen Sie dazu **Im Aufgaben-Dashboard öffnen** aus dem Menü Optionen einer beliebigen aktiven Prüfungsaufgabe aus. Dadurch werden die Aufgabendetails in der Projektekonsole geöffnet.
 
    ![](images/task-dashboard-selection-author-view.png)
-3. Wählen Sie das Dialogfeld **Aufgabenkommentare** aus, um auf die von den Überprüfenden hinzugefügten Kommentare auf Aufgabenebene zuzugreifen und sie zu überprüfen.
+3. Wählen Sie das Symbol **Aufgabenkommentare** aus, um auf die von den Überprüfenden hinzugefügten Kommentare auf Aufgabenebene zuzugreifen und sie zu überprüfen.
 
    ![](images/task-comments-selection-author-view.png).
 
@@ -46,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um eine erneute Überprüfung oder das S
 4. Wählen Sie **Aufgabe aktualisieren** aus, um weitere Aktionen für die ausgewählte Prüfungsaufgabe durchzuführen.
 5. Wählen Sie **Dialogfeld** Aufgabe aktualisieren“ eine der folgenden Aktionen aus:
 
-   - **Erneute Überprüfung anfordern**: Startet eine weitere Überprüfungsrunde. Sie können eine andere Version des Themas zur Überprüfung auswählen. Standardmäßig wird die neueste (oder die zuletzt bearbeitete) Version des Themas oder der Zuordnungsdatei, die zur Überprüfung gesendet wird, ausgewählt. Sie können auch die Option **Versionen bearbeiten** verwenden, um die Version ausgewählter Themen je nach Bedarf auf **Neueste Version**, **Version ein** und **Grundlinie** festzulegen.  Prüfer, die die vorherige Überprüfung abgeschlossen haben, erhalten eine Benachrichtigung, um Feedback zur aktualisierten Version zu geben. Andere Reviewer, die die Überprüfungsaufgabe nicht als abgeschlossen markiert haben, werden über die Aktualisierung des Themas benachrichtigt.
+   - **Erneute Überprüfung anfordern**: Startet eine weitere Überprüfungsrunde. Sie können eine andere Version des Themas zur Überprüfung auswählen. Standardmäßig wird die neueste (oder die zuletzt bearbeitete) Version des Themas oder der Zuordnungsdatei, die zur Überprüfung gesendet wird, ausgewählt. Sie können auch die Option **Versionen bearbeiten** verwenden, um die Version ausgewählter Themen je nach Bedarf auf **Neueste Version** oder **Grundlinie** festzulegen.  Prüfer, die die vorherige Überprüfung abgeschlossen haben, erhalten eine Benachrichtigung, um Feedback zur aktualisierten Version zu geben. Andere Reviewer, die die Überprüfungsaufgabe nicht als abgeschlossen markiert haben, werden über die Aktualisierung des Themas informiert.
 
    - **Überprüfung schließen**: Schließt die Überprüfungsaufgabe. Die Schaltfläche **Aufgabe aktualisieren** am unteren Rand des Prüfungsbereichs ändert sich in **Geschlossen** und alle an der Prüfungsaufgabe beteiligten Benutzer erhalten eine Benachrichtigung, die den Abschluss angibt.
 
@@ -54,10 +54,9 @@ Führen Sie die folgenden Schritte aus, um eine erneute Überprüfung oder das S
 
    ![](images/update-task-dialog.png){width="350" align="left"}
 
-   >[!NOTE]
-   >
-   > Das **Aktualisierungsaufgabe** enthält auch eine Spalte **Dokumentstatus**, um den aktuellen Status der aufgelisteten Prüfungsthemen bei Verwendung von Experience Manager Guides as a Cloud Services anzugeben.
+   Sie können den [ Ihrer Prüfungsaufgabe auch mithilfe der Option ](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task)Prüfungsstatus überprüfen **im Dialogfeld Aufgabe aktualisieren**. Durch Auswahl dieser Option gelangen Sie zum Überprüfungs-Dashboard, in dem der Statusbericht Ihrer Überprüfungsaufgabe angezeigt wird.
 
+   ![](images/check-review-status-icon.png){width="650" align="left"}
 
 6. Wählen Sie **Bestätigen** aus.
 
@@ -69,3 +68,7 @@ Wenn Sie als Autor oder Initiator einer Prüfungsaufgabe die Aufgabe schließen,
 Außerdem bleibt die Schaltfläche **Aufgabe aktualisieren** im Prüfungsbereich für die anderen Benutzer der Prüfungsaufgabe deaktiviert. Wenn Sie z. B. als einer der Validierungsverantwortlichen einer Prüfungsaufgabe die Aufgabe im Editor öffnen, wird die Schaltfläche Aufgabe aktualisieren mit einer Meldung deaktiviert **Sie sind nicht berechtigt, diese Aufgabe zu bearbeiten**. Nur der Initiator einer Prüfungsaufgabe hat die Berechtigung, die Aufgabe über den Editor zu aktualisieren.
 
 ![](images/update-task-button-disabled.png){width="350" align="left"}
+
+
+
+

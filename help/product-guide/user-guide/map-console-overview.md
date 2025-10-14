@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Kartenkonsole und die verschiedenen ver
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,12 @@ Die Benutzeroberfläche der Map-Konsole ist hauptsächlich in zwei Abschnitte un
 
    - **Navigationsumschalter**: Ermöglicht die nahtlose Navigation zu anderen Seiten - Editor oder Homepage:
    - **Ausgewählte Zuordnungsdatei**: Zeigt den Namen der aktuell ausgewählten Zuordnungsdatei an. Sie können sie im Editor öffnen oder eine andere Zuordnungsdatei für die Zuordnungskonsole auswählen.
-   - **Weitere Aktionen**: Bietet Optionen zum Navigieren zur **Assets-** und **Einstellungen**. Weitere Informationen finden Sie im Abschnitt **Weitere Aktionen** des Dokuments [Kennen der Editor](./web-editor-features.md#tab-bar)Funktionen.
+   - **Weitere Aktionen**: Bietet Optionen zum Navigieren zur **Assets-Benutzeroberfläche** zu den **Workspace-Einstellungen**. Weitere Informationen finden Sie in der [Registerkartenleiste](./web-editor-tab-bar.md).
+
+  >[!NOTE]
+  >
+  > Wenn Sie die Adobe Experience Manager Guides in einem On-Premise-Setup verwenden, wird die Option Workspace-Einstellungen weiterhin als **Einstellungen** im Menü Mehr Aktionen angezeigt.
+
    - **Ansicht erweitern**: Ermöglicht das Erweitern der Seitenansicht mithilfe des Symbols **Erweitern**. In dieser Ansicht ist die Kopfzeilenleiste ausgeblendet, was den Inhaltsbereich maximiert. Um zur Standardansicht zurückzukehren, verwenden Sie das Symbol **Erweiterte Ansicht beenden**.
 
   >[!NOTE]
@@ -50,7 +55,7 @@ Weitere Informationen finden Sie unter [Ausgabegenerierung](./generate-output.md
 
 **Berichterstellung und -verwaltung**
 
-In einem organisatorischen Setup sollten Sie die Vollständigkeit Ihrer technischen Dokumentation insgesamt überprüfen, bevor Sie mit der Arbeit daran beginnen oder die Dokumente live verschieben. Ein solcher Bedarf wird in Umgebungen mit mehreren Benutzern und großen Umgebungen noch wichtiger. Mit der Map-Konsole erhalten Sie Zugriff auf Experience Manager Guides-Berichte, die nützliche Einblicke in den Gesamtzustand des Inhalts in Ihrem Repository und die Verwendung von Inhalten im Dokumentationsprozess bieten.
+In einem organisatorischen Setup sollten Sie die Vollständigkeit Ihrer technischen Dokumentation insgesamt überprüfen, bevor Sie mit der Arbeit daran beginnen oder die Dokumente live verschieben. Ein solcher Bedarf wird in Umgebungen mit mehreren Benutzern und großen Umgebungen noch wichtiger. Mit der Zuordnungskonsole erhalten Sie Zugriff auf Experience Manager Guides-Berichte, die eine nützliche insight zum Gesamtzustand der Inhalte in Ihrem Repository und zur Verwendung von Inhalten im Dokumentationsprozess geben.
 
 Weitere Informationen finden Sie unter [Berichte in Experience Manager Guides](./reports-intro.md).
 

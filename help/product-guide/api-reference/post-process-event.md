@@ -5,9 +5,9 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8c992afc1cc56052e6c07ac3cea6e7d3412259b2
+source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '414'
 ht-degree: 5%
 
 ---
@@ -22,6 +22,9 @@ Adobe Experience Manager Guides stellt `com/adobe/guides/postprocess/complete` E
 - Erstellen
 - Ändern
 
+>[!NOTE]
+>
+> Das Nachbearbeitungs-Ereignis wird durch Aktivieren des `fire.processing.events`-Flags ausgelöst, das ein Konfigurationsparameter in der `fmdita config manager` ist. Bei Festlegung auf „true“ werden Ereignisse (com/adobe/guides/postprocess/complete) zum Tracking des Abschlusses der Nachbearbeitung Trigger. Standardmäßig ist dies auf „false“ (deaktiviert) festgelegt.
 
 Sie müssen einen Adobe Experience Manager-Ereignishandler erstellen, um die in diesem Ereignis verfügbaren Eigenschaften zu lesen und weitere Verarbeitungsschritte durchzuführen.
 

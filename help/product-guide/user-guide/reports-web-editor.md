@@ -4,9 +4,9 @@ description: Generieren von DITA-Zuordnungsberichten über die Zuordnungskonsole
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2614'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,8 @@ Sie können den Themenlistenbericht einer Zuordnung anzeigen, indem Sie die folg
    - **Dateispeicherort** Der vollständige Pfad des Themas.
    - **Referenztyp** Der Referenztyp - direkt oder indirekt.
    - **Dokumentstatus** Der Status des Themas.
-   - **Autor** Der Benutzer, der zuletzt an dem Thema gearbeitet hat.
+   - **Autor** Der Benutzer, der zuletzt an dem Thema gearbeitet hat. Die Liste wird paginiert und asynchron geladen, sodass nur eine begrenzte Anzahl von Benutzern gleichzeitig angezeigt wird und beim Scrollen oder Navigieren mehr abgerufen wird. Dies verbessert die Ladegeschwindigkeit und die Gesamtleistung, insbesondere bei der Arbeit mit einer großen Anzahl von Benutzern.
    - **Übergeordnete Zuordnung** Die Liste aller Zuordnungen, auf die das Thema direkt verwiesen wird.
-
    >[!NOTE]
    >
    > Wählen Sie **Aktualisieren**, um eine neue Themenliste zu erhalten und Änderungen in Ihrer Zuordnungsdatei oder Verweise in Ihrer Themendatei anzuzeigen.
@@ -149,7 +148,7 @@ Um Metadaten zu aktualisieren, führen Sie die folgenden Schritte aus:
 
 Mit dieser Funktion können Sie je nach Bedarf benutzerdefinierte Metadatenspalten hinzufügen, die dann in den Metadatenberichten angezeigt werden. Darüber hinaus bietet es eine größere Flexibilität beim Reporting von Metadaten. Um eine neue benutzerdefinierte Metadatenspalte hinzuzufügen, führen Sie die folgenden Schritte aus:
 
-1. Um eine benutzerdefinierte Metadatenspalte hinzuzufügen, wählen **Einstellungen** aus den drei Punkten oben rechts auf der Metadatenseite aus.
+1. Um eine benutzerdefinierte Metadatenspalte hinzuzufügen, wählen Sie **Workspace** (angezeigt als **Einstellungen** für **On-Premise**) aus den drei Punkten oben rechts auf der Metadatenseite.
 
    ![](images/custom-metadata-setting.png){width="600" align="left"}
 
@@ -207,7 +206,6 @@ Der Bericht **Multimedia** enthält detaillierte Informationen zu den in Ihrer Z
    - **Multimediatyp** \(standardmäßig ausgewählt) Typ des Multimediums. Die verfügbaren Optionen sind Audio, Video oder Bild.
    - **Verwendet in** \(standardmäßig ausgewählt\) Die Referenzen, in denen das Multimedia verwendet wurde. Sie können die Referenz auswählen, um sie zu bearbeiten.
    - **Referenztyp** \(standardmäßig ausgewählt\) Der Referenztyp - direkt oder indirekt.
-
    >[!NOTE]
    >
    > Wählen Sie **Aktualisieren**, um eine neue Multimedia-Liste zu erhalten und Änderungen in Ihrer Kartendatei oder Multimedia-Dateien in Ihrer DITA-Karte anzuzeigen.
@@ -268,4 +266,4 @@ Sie können den Bericht nach fehlerhaften Links anzeigen, indem Sie die folgende
 1. Wählen Sie **Herunterladen** aus, um den Schnappschuss aller fehlerhaften Links in der DITA-Karte herunterzuladen. Die Excel-Datei enthält die ausgewählten Spalten und die fehlerhaften Links, die in der Ansicht „Beschädigte Links“ gefiltert wurden.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung in Berichte](reports-intro.md)
+**Übergeordnetes Thema:**[ Einführung in Berichte](reports-intro.md)

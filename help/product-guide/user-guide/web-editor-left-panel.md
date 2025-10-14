@@ -4,9 +4,9 @@ description: Lernen Sie das linke Bedienfeld im Editor kennen. Erfahren Sie mehr
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 97e80f9115f84291a7190cf4c4cf25426b3a83bb
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '9390'
+source-wordcount: '9542'
 ht-degree: 0%
 
 ---
@@ -179,6 +179,15 @@ Sie können die folgenden Optionen auf den Registerkarten **Allgemein** und **Er
 Dies ist mit dem Suchfeld im Repository-Fenster synchronisiert. Wenn Sie beispielsweise `general purpose` in das Suchfeld im Repository-Bereich eingeben, wird es auch im Dialogfeld **Erweiterter Filter** angezeigt und umgekehrt.
 
 - **Suchen in**: Wählen Sie den Pfad aus, unter dem Sie die Dateien im Adobe Experience Manager-Repository suchen möchten.
+- **DITA-Dateien**: Sie können nach allen **DITA-Themen** und **DITA-Karten** suchen, die im ausgewählten Pfad vorhanden sind. Diese sind standardmäßig ausgewählt.
+- **Nicht-DITA-Dateien**: Sie können im ausgewählten Pfad nach **DITAVAL-**, **Image-**, **Multimedia**, **Documents** und **JSON** suchen.
+- **Gesperrt von**: Zeigt eine Liste von Benutzern an. Die Liste wird paginiert und asynchron geladen, sodass nur eine begrenzte Anzahl von Benutzern gleichzeitig angezeigt wird und beim Scrollen oder Navigieren mehr abgerufen wird. Dies verbessert die Ladegeschwindigkeit und die Gesamtleistung, insbesondere bei der Arbeit mit einer großen Anzahl von Benutzern.
+- **Geändert nach**/**Geändert vor**: Inhalt nach Änderungsdatum filtern. Wählen Sie einen Datumsbereich aus dem Kalender aus oder wählen Sie eine der folgenden Zeitrahmen-Optionen:
+   - In den letzten zwei Stunden
+   - In letzter Woche
+   - Im letzten Monat
+   - Im letzten Jahr
+- **Tags**: Filtern von Inhalten basierend auf Tags.
 
 **Erweitert**
 
@@ -635,10 +644,8 @@ Wenn ein Blockelement über einen eigenen Text verfügt, wird er zusammen mit di
 
 ![](images/outline-view-block-element.png){width="550" align="left"}
 
-Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Sie können auch von Ihrem Administrator konfigurierte Anzeigeattribute auf der Registerkarte **Anzeigeattribute** im Abschnitt **Einstellungen** zuweisen. Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt.
+Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Sie können auch von Ihrem Administrator konfigurierte Anzeigeattribute auf der Registerkarte **Anzeigeattribute** in den **Workspace-** zuweisen (die für **On-Premise** als **Einstellungen** angezeigt wird). Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt.
 
-
-Weitere Informationen finden Sie unter *Attribute anzeigen* in der Funktionsbeschreibung *Einstellungen* im linken Bereich.
 
 **Suchfunktion**
 
@@ -933,7 +940,7 @@ Sie können die Werte auch aus der Dropdown-Liste des Attributs in der Source-An
 
 Sie können das Betreffschema auch im Bedienfeld Bedingungen anzeigen und anwenden.
 
-Um das Betreffschema im Bedienfeld Bedingungen anzuzeigen, muss Ihr Systemadministrator die Option **Betreffschema im Bedienfeld Bedingungen anzeigen** auf der Registerkarte Allgemein in den Einstellungen auswählen. Weitere Informationen finden Sie im Abschnitt **Einstellungen** in der [Registerkartenleiste](./web-editor-tab-bar.md).
+Um das Betreffschema im Bedienfeld Bedingungen anzuzeigen, muss Ihr Systemadministrator die Option **Betreffschema im Bedienfeld Bedingungen anzeigen** auf der Registerkarte Allgemein in **Workspace-Einstellungen** auswählen (**Einstellungen** für **On-Premise**). Weitere Informationen finden Sie in der [Registerkartenleiste](./web-editor-tab-bar.md).
 
 Im Bedienfeld Bedingungen wird die flache vertikale Struktur der Objektdefinitionen innerhalb des Themenschemas angezeigt.
 
@@ -1056,7 +1063,7 @@ Um die globale Suche und Ersetzung durchzuführen, führen Sie die folgenden Sch
 1. Wählen Sie **Einzelnes Vorkommen ersetzen** \( ![](images/replace-icon.svg)\) aus, um den aktuell hervorgehobenen Suchbegriff im Thema zu ersetzen, oder wählen Sie Nächste Übereinstimmung ![](images/next-match-in-search.png) oder ![](images/previous-match-in-search.png) vorherige Übereinstimmung aus, um zum nächsten oder vorherigen Vorkommen des Textes zu wechseln.
 1. Wählen Sie **Alle ersetzen** \( ![](images/replace-all-in-file-icon.svg)\), um alle Vorkommen des gesuchten Begriffs in einer Datei mit einem einzigen Klick durch den Ersetzungsbegriff zu ersetzen. Nachdem Sie alle Vorkommen in der ausgewählten Datei ersetzt haben, wird eine Benachrichtigung angezeigt.
 
-Um das Symbol **Alle ersetzen** zu aktivieren, muss Ihr Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in **Einstellungen** auswählen.
+Um das Symbol **Alle ersetzen** zu aktivieren, muss Ihr Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in **Workspace-Einstellungen** (**Einstellungen** für **On-Prem**) auswählen.
 
     >[!NOTE]
     >
@@ -1110,7 +1117,12 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     Aktivieren Sie **Option „Von mir initiierte Aufgaben**, um nur die von Ihnen initiierten Aufgaben anzuzeigen. Der Umschaltstatus dieser Option wird auch nach dem Aktualisieren der Seite beibehalten. Aktivieren Sie die Option **Nur aktive Aufgaben anzeigen**, um die Projektliste so zu filtern, dass die derzeit aktiven Aufgaben angezeigt werden.
+     Das **Filter**-Dialogfeld enthält auch die folgenden Optionen, die mithilfe des Umschalters aktiviert oder deaktiviert werden können:
+
+      - **Von mir initiierte Aufgaben**: Zeigt bei Aktivierung nur die von Ihnen initiierten Aufgaben an.
+      - **Nur aktive Aufgaben anzeigen**: Wenn diese Option aktiviert ist, wird die Projektliste so gefiltert, dass nur die derzeit aktiven Aufgaben angezeigt werden.
+
+     Standardmäßig sind beide Optionen deaktiviert. Außerdem wird der ausgewählte Umschaltstatus auch nach dem Aktualisieren der Seite beibehalten.
 
 1. Standardmäßig werden Sie in Ihrem Überprüfungsprojekt eine flache Liste von Themen anzeigen, denen Kommentare zugeordnet sind. Wenden Sie die erforderlichen Filter in der linken Leiste an, um die Themen basierend auf den darin enthaltenen Überprüfungskommentaren zu filtern:
 
@@ -1130,4 +1142,4 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 
 </details>
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

@@ -3,7 +3,8 @@ title: Beenden der Prüfungsaufgabe als Prüferin bzw. Prüfer
 description: Wissen, wie Sie eine Aufgabe als abgeschlossen als Prüfer in AEM Guides markieren.
 feature: Reviewing
 role: User
-source-git-commit: 8e750fc6b20859ffd953c8c2b7a12cbe633ab02c
+exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Die in diesem Artikel beschriebenen neuen Funktionen werden standardmäßig mit der Version 2508 von Experience Manager Guides as a Cloud Services aktiviert. Überprüfungen, die vor der Migration erstellt wurden, sind nicht betroffen und verwenden weiterhin den früheren Workflow. Wenn Sie es vorziehen, die vorhandenen Funktionen ohne diese Aktualisierungen weiterhin zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit die neuen Funktionen deaktiviert werden.
+> Die in diesem Artikel beschriebenen neuen Funktionen sind standardmäßig in der Version 2508 von Experience Manager Guides as a Cloud Service aktiviert. Überprüfungen, die vor der Migration erstellt wurden, sind nicht betroffen und verwenden weiterhin den früheren Workflow. Wenn Sie es vorziehen, die vorhandenen Funktionen ohne diese Aktualisierungen weiterhin zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit die neuen Funktionen deaktiviert werden.
 
 Als Reviewer können Sie eine Prüfungsaufgabe als abgeschlossen markieren, sobald Sie alle Inhalte geprüft haben und den Autor benachrichtigen möchten. Sie können zu diesem Zeitpunkt auch abschließende Kommentare hinterlassen.
 
@@ -66,4 +67,3 @@ Die Kommentare innerhalb des Dialogfelds werden in chronologischer Reihenfolge a
 Das **Aufgabenkommentare** Dialogfeld ist für alle an der Prüfungsaufgabe beteiligten Benutzenden zugänglich, einschließlich des Autors oder Initiators der Prüfungsaufgabe und anderer Prüfer. Daher können die Kommentare von anderen Reviewern (falls beteiligt) auch im Dialogfeld Aufgabenkommentare angezeigt werden. Dies trägt dazu bei, eine klare und nachvollziehbare Kommunikation während des gesamten Überprüfungsprozesses sicherzustellen.
 
 Nach der Überprüfung des Feedbacks auf Aufgabenebene kann der Autor entweder eine erneute Überprüfung anfordern oder die Prüfungsaufgabe schließen. In beiden Fällen bleiben alle während des Überprüfungsprozesses erfassten Kommentare im Dialogfeld **Aufgabenkommentare** zur Referenz verfügbar.
-

@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -50,7 +50,6 @@ Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration hinzu. Di
    * **Name**: Geben Sie den Namen des Inhaltsfragments ein. Standardmäßig wird der Name mit dem Titel des Themas gefüllt und die Leerzeichen werden durch „_“ ersetzt. Beispiel: *sample_content_fragment*. Sie können ihn bearbeiten.  Dieser Name wird zum Generieren der URL für das Inhaltsfragment verwendet.
 
    * Sie können verschiedene Bedingungen auswählen, um Inhaltsfragmentvarianten zu erstellen. Wählen Sie eine der folgenden Optionen aus:
-
      >[!NOTE]
      > 
      > Bedingungen werden nur aktiviert, wenn im Thema Bedingungsattribute definiert sind.
@@ -113,4 +112,4 @@ Sie können auch die folgenden Aktionen für ein Inhaltsfragment über das Menü
 
 Das neue UUID-Skript zur Inhaltsmigration wurde erheblich optimiert, sodass die Inhaltsmigration von Nicht-UUID zu UUID 30-mal schneller als das frühere Skript ist. Es umfasst Funktionen wie die Wiederaufnahme von Checkpoints, Live-Einblicke, geschätzte Abschlusszeit und detaillierte Berichte, um einen harmonischen Migrationsprozess sicherzustellen. Insbesondere behält der Migrationsprozess die Asset-Metadaten ohne Änderungen bei. Das Skript wurde für einen großen Datensatz mit 3 Millionen Assets getestet und verifiziert, was seine Effizienz und Zuverlässigkeit für umfangreiche Migrationen bestätigt.
 
-Erfahren Sie mehr über [Migration von Nicht-UUID zu UUID-Inhalten](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).
+Erfahren Sie mehr über [Migration von Nicht-UUID zu UUID-Inhalten](/help/product-guide/install-guide/migrate-non-uuid-4-3.md).

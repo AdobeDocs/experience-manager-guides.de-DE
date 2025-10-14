@@ -3,9 +3,10 @@ title: Registerkartenleiste im Editor
 description: Machen Sie sich mit der Registerkartenleiste im Editor vertraut. Erfahren Sie mehr über die Benutzeroberfläche und die Funktionen des Editors in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b3597cac602cf5a22aff9d8db108e3652591d662
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -50,6 +51,10 @@ Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelli
    - **Cloud Services**: Wenn Sie Cloud Services verwenden, gelangen Sie durch Auswahl der Option **Assets** zur Seite &quot;AEM-Navigation“.
 
    - **On-Premise-Software**: Wenn Sie Adobe Experience Manager Guides (4.2.1 und höher) verwenden, gelangen Sie durch Auswahl der Option **Assets** zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche.
-- **Einstellungen**: Bringt Sie zum Dialogfeld „Editor-Einstellungen“. Weitere Informationen finden Sie unter [ mit Editor-Einstellungen](./web-editor-settings.md).
+- **Workspace-Einstellungen**: Leitet Sie zum Dialogfeld &quot;Workspace-Einstellungen“. Weitere Informationen finden Sie unter [Konfigurieren von Workspace-](../cs-install-guide/workspace-settings.md).
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)
+>[!NOTE]
+>
+> Wenn Sie die Adobe Experience Manager Guides in einem On-Premise-Setup verwenden, wird die Option Workspace-Einstellungen weiterhin als **Einstellungen** im Menü Mehr Aktionen angezeigt.
+
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
