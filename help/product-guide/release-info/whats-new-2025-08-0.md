@@ -60,7 +60,7 @@ Weitere Informationen finden Sie unter [Verwenden des DITAVAL-Editors](../user-g
 
   Darüber hinaus verbessert diese Aktualisierung die Erstellung von Ausgabevorgaben, indem bearbeitbare DITAVAL-Felder in allen Formaten aktiviert werden, sodass Benutzende DITAVAL-Pfade manuell angeben können.
 
-  Weitere Informationen finden Sie unter [ von Ausgabevorgaben ](../user-guide/generate-output-understand-presets.md) Experience Manager Guides.
+  Weitere Informationen finden Sie unter [&#x200B; von Ausgabevorgaben &#x200B;](../user-guide/generate-output-understand-presets.md) Experience Manager Guides.
 
 ## Verbesserte Protokollfilterung der Ausgabenerstellung
 
