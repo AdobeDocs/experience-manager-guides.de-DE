@@ -68,7 +68,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
    - Benutzerdefiniert
 
-  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden ](#id18AGD0K0OHS) Vorgabenänderungen“.
+  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden &#x200B;](#id18AGD0K0OHS) Vorgabenänderungen“.
 
 - **XML-Editor-**: Auf dieser Registerkarte können Sie das Erscheinungsbild und verschiedene Funktionen des Web-Editors anpassen. Die folgenden konfigurierbaren Einstellungen sind für den Web-Editor verfügbar:
 
@@ -108,7 +108,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Informationen zum Konfigurieren **Ausgabevorgaben** finden Sie unter [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [ unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [&#x200B; unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
 
 1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie **Globales Profil**.
 
@@ -411,7 +411,7 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 ## Konfigurieren des KI-Assistenten für die intelligente Hilfe und das Authoring
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
 
 Der KI-Assistent in Adobe Experience Manager Guides ist ein leistungsstarkes, KI-gesteuertes Tool, mit dem Sie Ihre Inhalte durch intelligentes Authoring und die Wiederverwendung von Inhalten verbessern können. Es vereint zwei robuste KI-Funktionen - **Authoring** und **Help** - in der Experience Manager Guides-Oberfläche, sodass Sie Dokumente und Informationen schneller und effizienter erstellen und aufrufen können.
 
@@ -454,9 +454,9 @@ Erfahren Sie mehr darüber, wie Sie [KI-basierte Smart-Vorschläge](../user-guid
 
 **Standardfragen für die intelligente Hilfe anpassen**
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
 
-Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview).
+Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview).
 
 Auf der Registerkarte **XML** Editor-Konfiguration“ können Sie die Standardfragen des Bedienfelds **Hilfe** konfigurieren.
 

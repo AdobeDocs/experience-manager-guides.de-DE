@@ -86,4 +86,4 @@ Die ausgewählten Metadateneigenschaften werden an die mit DITA-OT generierte Au
 
 
 
-**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

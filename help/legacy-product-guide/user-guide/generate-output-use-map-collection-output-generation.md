@@ -144,4 +144,4 @@ Dadurch werden auch alle Vorgaben oder Gebietsschemata entfernt, die mit der DIT
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

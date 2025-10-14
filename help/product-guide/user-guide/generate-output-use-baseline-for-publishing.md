@@ -171,4 +171,4 @@ Führen Sie die folgenden Schritte aus, um eine übersetzte Baseline zu exportie
 1. \(Optional\) Um eine bereits exportierte Baseline zu exportieren, wählen Sie **Vorhandene Baseline überschreiben** und wählen Sie dann **Baseline exportieren**.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

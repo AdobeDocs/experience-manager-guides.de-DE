@@ -122,7 +122,7 @@ Im Rahmen der neuen Version wurden die folgenden Verbesserungen vorgenommen:
 
 - In der Editor- und Überprüfungs-Benutzeroberfläche unterstützt das Feld **Antwort** jetzt mehrzeilige Einträge. Sie können **Umschalt**+**Eingabetaste** verwenden, um zur nächsten Zeile zu wechseln. Sie können das Kommentarfeld auch erweitern, während Sie den Kommentar schreiben.
 
-  Weitere Informationen finden Sie unter [Themen ](../user-guide/review-topics.md).
+  Weitere Informationen finden Sie unter [Themen &#x200B;](../user-guide/review-topics.md).
 
 - Jetzt können Autorinnen und Autoren auf die Überprüfungskommentare im Editor zugreifen, selbst wenn die Überprüfungsaufgabe als geschlossen markiert ist. Mit den neuesten Verbesserungen bietet das Überprüfungsbedienfeld sowohl aktive als auch geschlossene Überprüfungsaufgaben für jedes Projekt im Editor. Wenn Sie eine geschlossene Prüfungsaufgabe auswählen, werden die entsprechenden Kommentare im Kommentarbereich auf der rechten Seite angezeigt, sodass Sie auch nach dem Schließen einer Aufgabe kontinuierlich auf wichtige Prüfungskommentare zugreifen können.
 

@@ -32,7 +32,7 @@ Führen Sie die folgenden Schritte aus, um eine DITAVAL-Datei zu erstellen:
 
    ![](images/new-file-option.png){width="350" align="left"}
 
-   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides ](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
+   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides &#x200B;](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
 
 2. Das **Neues Thema** wird angezeigt.
 

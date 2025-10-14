@@ -41,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um Ausgabevorgaben für Ihre DITA-Zuordn
    Die Voreinstellung für die Wissensdatenbank wird erstellt.
 
 
-   ![Neue ](images/knowledge-base-preset-dialog-box.png){align="left"}
+   ![Neue &#x200B;](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 Nachdem die Voreinstellung erstellt wurde, können Sie die Ausgabe für bestimmte Artikel in der Wissensdatenbank generieren. Navigieren Sie dazu zur Registerkarte **Artikel** und wählen Sie die Themen aus, für die Sie die Ausgabe generieren möchten.
 1. Wählen Sie **oben** Ausgabe generieren“ aus, um die Ausgabe zu generieren.
@@ -50,7 +50,7 @@ Nachdem die Voreinstellung erstellt wurde, können Sie die Ausgabe für bestimmt
 
 1. Wählen Sie in **Eingabeaufforderung Dateien für** Veröffentlichung bestätigen die Dateien aus, die Sie veröffentlichen möchten, und bestätigen Sie Ihre Auswahl durch **Veröffentlichen**.
 
-   ![Neue ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Neue &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 Sie sehen den Status des Ausgabegenerierungsprozesses. Die Spalte **Themen** listet die Themen auf, für die Ausgaben generiert werden, während die Spalte **Status** den Veröffentlichungsstatus jedes Themas anzeigt.
 
@@ -66,4 +66,4 @@ Um die Ausgabe anzuzeigen, schließen Sie das Dialogfeld „Ausgabe generiert“
 
 
 
-**Übergeordnetes Thema**&#x200B;[ Artikelbasierte Veröffentlichung im Editor](web-editor-article-publishing.md)
+**Übergeordnetes Thema**&#x200B;[&#x200B; Artikelbasierte Veröffentlichung im Editor](web-editor-article-publishing.md)

@@ -166,7 +166,7 @@ Zeigt die Aufgabeninformationen an, einschließlich der bei der Aufgabenerstellu
 
 #### Zugreifen auf zugewiesene Aufgaben über den Abschnitt „Übersicht“
 
-Sie können auch über den Abschnitt „Übersicht“ auf [ zugewiesenen Aufgaben ](./intro-home-page.md#overview) Adobe Workfront zugreifen. Wenn der Abschnitt Übersicht ausgewählt ist, enthält er verschiedene Widgets, die Ihnen helfen, fokussiert und organisiert zu bleiben.
+Sie können auch über den Abschnitt „Übersicht“ auf [&#x200B; zugewiesenen Aufgaben &#x200B;](./intro-home-page.md#overview) Adobe Workfront zugreifen. Wenn der Abschnitt Übersicht ausgewählt ist, enthält er verschiedene Widgets, die Ihnen helfen, fokussiert und organisiert zu bleiben.
 
 **Ihre Aufgaben** ist ein solches Widget, in dem eine Liste der Adobe Workfront-Aufgaben (die Ihnen zugewiesen sind und noch aktiv sind) zusammen mit den wichtigsten Aufgabendetails, einschließlich Name der Aufgabe, verknüpftes Projekt, Fälligkeitsdatum und aktueller Status, angezeigt wird.
 

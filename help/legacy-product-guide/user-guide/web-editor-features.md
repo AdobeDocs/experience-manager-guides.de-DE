@@ -156,7 +156,7 @@ Im folgenden Screenshot werden im aktuellen Kontext nur 3 von 4 konfigurierten E
 
      **Voraussetzungen**
 
-      - Erstellen Sie eine verbundene App für Salesforce. Weitere Informationen finden Sie unter [OAuth-Einstellungen für API-Integration aktivieren](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+      - Erstellen Sie eine verbundene App für Salesforce. Weitere Informationen finden Sie unter [OAuth-Einstellungen für API-Integration aktivieren](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
       - Stellen Sie beim Konfigurieren der verbundenen App Folgendes sicher:
 
@@ -240,7 +240,7 @@ Dies verhindert, dass Benutzer eine Datei speichern, die gegen eine in der/den a
          >
          > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
-      1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](images/Delete_icon.svg).
+      1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![&#x200B; Sprachgruppen zu bearbeiten &#x200B;](images/edit_pencil_icon.svg)Bearbeiten-Symbol![&#x200B; oder zu löschen](images/Delete_icon.svg).
       1. Speichern Sie die **Editor-Einstellungen**.
 
          >[!NOTE]
@@ -445,7 +445,7 @@ Sie können auch andere Eigenschaften für eine Bilddatei hinzufügen, indem Sie
 
 >[!NOTE]
 >
->Sie können auch anklickbare Bereiche \(Imagemap\) in Ihrem Bild definieren. Weitere Informationen finden Sie in der Beschreibung **Funktion &quot;** einfügen/bearbeiten“ im Abschnitt [Linkes ](web-editor-features.md#id2051EA0M0HS)&quot;.
+>Sie können auch anklickbare Bereiche \(Imagemap\) in Ihrem Bild definieren. Weitere Informationen finden Sie in der Beschreibung **Funktion &quot;** einfügen/bearbeiten“ im Abschnitt [Linkes &#x200B;](web-editor-features.md#id2051EA0M0HS)&quot;.
 
 **Kontextmenü für Bild- oder Mediendateien**
 
@@ -753,7 +753,7 @@ Um auf den Versionsverlauf zuzugreifen und auf eine bestimmte Version Ihres Them
    **Vorschau**-Registerkarte: Der neu hinzugefügte Inhalt ist in grüner Schriftart, und der gelöschte Inhalt ist in roter Schriftart.
 
    Registerkarte **Metadaten**: Die neu hinzugefügten Metadaten sind in grüner Schrift, die gelöschten Metadaten in roter Schrift.
-   ![Metadatenunterschied für Versionen ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Metadatenunterschied für Versionen &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
    *Vergleichen der Metadaten verschiedener Versionen im Versionsverlauf.*
 
    >[!NOTE]
@@ -914,7 +914,7 @@ Geschwindigkeit oder Bild im Bild anzeigen.
 
 
 
-Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der **Kartenansicht** Funktionsbeschreibung im Abschnitt [Linkes ](web-editor-features.md#id2051EA0M0HS)). Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ ](#id2051EB000UI) öffnen. Die direkte Navigation und das Öffnen einer Datei über den Web-Editor spart Zeit und steigert die Produktivität.
+Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der **Kartenansicht** Funktionsbeschreibung im Abschnitt [Linkes &#x200B;](web-editor-features.md#id2051EA0M0HS)). Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ &#x200B;](#id2051EB000UI) öffnen. Die direkte Navigation und das Öffnen einer Datei über den Web-Editor spart Zeit und steigert die Produktivität.
 
 **Filtersuche**
 
@@ -937,7 +937,7 @@ Sie haben die folgenden Optionen, um die Dateien zu filtern und Ihre Suche im Ad
 - **DITA-Dateien**: Sie können nach allen **DITA-** und **DITA-Karten** suchen, die im ausgewählten Pfad vorhanden sind. Diese sind standardmäßig ausgewählt.
 - **Nicht-DITA-Dateien**: Sie können im ausgewählten Pfad nach **DITAVAL-**, **Image-**, **Multimedia**, **Documents** und **JSON** suchen.
 
-![Schnellsuchfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
+![Schnellsuchfilter &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Verwenden Sie die Filter für die schnelle Suche, um nach DITA- und Nicht-DITA-Dateien zu suchen.*
 
@@ -1971,7 +1971,7 @@ Sie können auf die Funktion **Inhaltseigenschaften** zugreifen, indem Sie im re
 
 1. Wählen **im Dropdown** Bedienfeld „Attribut“ das Attribut aus der Dropdown-Liste aus und geben Sie den Wert eines Attributs an.  Klicken Sie dann auf **Hinzufügen**.
 
-   ![Attributbedienfeld mit mehreren Attributen ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![Attributbedienfeld mit mehreren Attributen &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Um das Attribut zu bearbeiten, halten Sie den Mauszeiger darüber und wählen Sie **Bearbeiten** ![edit-icon](images/edit_pencil_icon.svg) aus.
    ![Attribute bearbeiten](images/edit-attributes-content-properties.png){width="300" align="left"}
@@ -2006,7 +2006,7 @@ Im Abschnitt Allgemein haben Sie Zugriff auf die folgenden Funktionen:
 - **Language**: Zeigt die Sprache des Themas an. Sie wird im Feld Sprache auf der Seite Eigenschaften festgelegt.
 - **Erstellt am**: Zeigt Datum und Uhrzeit der Erstellung des Themas an.
 - **Ausgecheckt von**: Zeigt den Benutzer an, der das Thema ausgecheckt hat.
-- **Dokumentstatus**: Sie können den Dokumentstatus des aktuell geöffneten Themas auswählen und aktualisieren. Weitere Informationen finden Sie unter [Dokumentstatus ](web-editor-document-states.md#)*.*
+- **Dokumentstatus**: Sie können den Dokumentstatus des aktuell geöffneten Themas auswählen und aktualisieren. Weitere Informationen finden Sie unter [Dokumentstatus &#x200B;](web-editor-document-states.md#)*.*
 
 **Hinweis** Sie können die Attributwerte der verschiedenen Felder in den Dateieigenschaften in die Zwischenablage kopieren.
 
@@ -2049,4 +2049,4 @@ Mit der Funktion „Nachverfolgte Änderungen“ im rechten Bereich können Sie 
 >
 > Die Funktion „Nachverfolgte Änderungen“ zeigt alle Aktualisierungen an, die mit der Funktion „Änderungen nachverfolgen“ in der Hauptsymbolleiste aktiviert/deaktiviert wurden. Weitere Informationen finden Sie unter [Änderungen verfolgen/deaktivieren](#id205DF0203Y4).
 
-**Übergeordnetes Thema:**&#x200B;[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)

@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Verweise
 
-Vielleicht interessieren Sie sich auch für die Expertensitzung zu WebEditor-Konfigurationen und -Anpassungen, die unter [Expertensitzung auf WebEditor“ behandelt ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=de)
+Vielleicht interessieren Sie sich auch für die Expertensitzung zu WebEditor-Konfigurationen und -Anpassungen, die unter [Expertensitzung auf WebEditor“ behandelt &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=de)

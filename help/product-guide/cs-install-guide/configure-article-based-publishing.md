@@ -18,7 +18,7 @@ AEM Guides bietet eine leistungsstarke Funktion zum Veröffentlichen auf Artikel
 
 Um eine AEM-Site zum Veröffentlichen der artikelbasierten Ausgabe zu erstellen, führen Sie die folgenden Schritte aus:
 
-1. Laden Sie das **XML Documentation-Komponenten-Inhaltspaket für den Cloud Service** von Ihrem [Adobe-Software-Verteilungsportal ](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+1. Laden Sie das **XML Documentation-Komponenten-Inhaltspaket für den Cloud Service** von Ihrem [Adobe-Software-Verteilungsportal &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 1. Öffnen Sie AEM Package Manager. Die Standard-URL für den Zugriff auf den Package Manager lautet: `https://<hostname>/crx/packmgr/index.jsp`
 1. Laden Sie das Inhaltspaket der XML Documentation-Komponenten für Cloud Service hoch und installieren Sie es dann.
 1. Laden Sie die `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` Datei vom [Adobe Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) herunter.
@@ -42,4 +42,4 @@ Um eine AEM-Site zum Veröffentlichen der artikelbasierten Ausgabe zu erstellen,
 
 Sie können die AEM-Site verwenden, um Ihren Artikel mithilfe der Ausgabevorgaben aus dem Web-Editor zu veröffentlichen.
 
-**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

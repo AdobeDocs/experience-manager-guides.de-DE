@@ -145,4 +145,4 @@ Führen Sie die folgenden Schritte aus, um unerwünschte Funktionen aus der Symb
 1. Speichern Sie die *ui\_config.json*-Datei und laden Sie den Web-Editor neu.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

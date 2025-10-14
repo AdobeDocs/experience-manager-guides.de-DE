@@ -68,4 +68,4 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierten Dateifiltero
    ![](assets/file-browse-custom-filters.png)
 
 
-**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

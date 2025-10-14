@@ -23,7 +23,7 @@ Beginnen wir nun mit der Anpassung des Ordnerkontextmenüs, um diese Option für
 
 Wie Sie im folgenden Ausschnitt sehen können, ist die Option „Create DitaMap“ für einen Autoren-Benutzer sichtbar.
 
-![Option „Create DitaMap“ ](../../../assets/authoring/ditamap-show-author.png)
+![Option „Create DitaMap“ &#x200B;](../../../assets/authoring/ditamap-show-author.png)
 
 Sehen wir uns nun an, wie wir diese Option mithilfe des Handbücher-Erweiterungs-Frameworks ausblenden können.
 

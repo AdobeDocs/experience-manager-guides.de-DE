@@ -26,4 +26,4 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 >
 > Wenn diese Option aktiviert ist, wird den Autoren beim Erstellen eines neuen Themas oder einer Zuordnungsdatei die Option zum Angeben des Dateinamens nicht angezeigt. Über die Assets-Benutzeroberfläche und den Web-Editor kann eine neue Themen- oder Zuordnungsdatei erstellt werden.
 
-**Übergeordnetes Thema:**&#x200B;[ Dateinamen konfigurieren](conf-file-names.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Dateinamen konfigurieren](conf-file-names.md)

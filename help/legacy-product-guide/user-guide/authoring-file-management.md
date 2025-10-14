@@ -318,4 +318,4 @@ Wenn Ihre Mediendatei Änderungen erfahren hat, können Sie die Dateien im Absch
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Übergeordnetes Thema:**&#x200B;[ Inhalte verwalten](authoring.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte verwalten](authoring.md)

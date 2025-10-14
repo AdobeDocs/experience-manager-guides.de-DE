@@ -32,7 +32,7 @@ Jetzt können Sie eine Datei auch über das Repository-Bedienfeld umbenennen ode
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
-Weitere Informationen zum Optionen-Menü einer Datei finden Sie in der **Repository-Ansicht** Funktionsbeschreibung im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zum Optionen-Menü einer Datei finden Sie in der **Repository-Ansicht** Funktionsbeschreibung im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).
 
 ## Native PDF-Verbesserungen
 
@@ -117,7 +117,7 @@ Weitere Informationen finden Sie unter [AEM-Navigationsseite](../user-guide/web-
 AEM Guides verfügt über die leistungsstarke Funktion zum Erstellen von Themenschemakarten, bei denen es sich um eine spezielle Form von DITA-Karten handelt, mit denen taxonomische Themen und kontrollierte Werte definiert werden. Jetzt können Sie in AEM Guides auch die Betreffdefinition in einer Zuordnung und die Auflistungsdefinitionen in einer anderen Zuordnung definieren. Anschließend können Sie die Zuordnungsreferenz hinzufügen und das Betreffschema verwenden.
 Die Verweise auf die Auflistung des Subjekts werden in derselben Zuordnung oder in der referenzierten Zuordnung aufgelöst.
 
-Weitere Informationen zum Umgang mit hierarchischen Definitionen von Betreffdefinitionen und Auflistungen finden Sie in der **Betreffschema** Funktionsbeschreibung im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zum Umgang mit hierarchischen Definitionen von Betreffdefinitionen und Auflistungen finden Sie in der **Betreffschema** Funktionsbeschreibung im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).
 
 ## Unterstützung des XLIFF-Formats bei der Übersetzung
 

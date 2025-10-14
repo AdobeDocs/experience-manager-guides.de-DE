@@ -35,4 +35,4 @@ Diese Einstellung wirkt sich auf die folgenden Orte aus, von denen aus Sie auf d
 - Registerkarte „Berichte“ in der DITA-Zuordnungskonsole
 
 
-**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

@@ -30,7 +30,7 @@ Weitere Informationen zur [Sitzungs-Zeitüberschreitungsaufforderung](../user-gu
 
 Experience Manager Guides führt eine neue Option **Verwenden tatsächlicher Dateinamen** im Dialogfeld **Karte herunterladen** ein. Wenn Sie jetzt Zuordnungsdateien herunterladen, können Sie die ursprünglichen Dateinamen anstelle der standardmäßigen UUIDs beibehalten, was die Erkennung und Verwaltung Ihrer Dateien erheblich erleichtert. Diese Option ist nur verfügbar, wenn Sie **Dateihierarchie beibehalten** auswählen. Sie ist deaktiviert, wenn Sie **Dateihierarchie reduzieren** auswählen, was Ihnen mehr Flexibilität bei der Organisation Ihrer heruntergeladenen Karten gibt.
 
-Weitere Informationen finden Sie unter [Dateien ](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
+Weitere Informationen finden Sie unter [Dateien &#x200B;](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
 ![](assets/download-map-dialog-new.png){width="300" align="left"}
 

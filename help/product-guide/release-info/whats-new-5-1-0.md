@@ -48,7 +48,7 @@ Weitere Informationen finden Sie unter [Verwenden des DITAVAL-Editors](../user-g
 
   Darüber hinaus verbessert diese Aktualisierung die Erstellung von Ausgabevorgaben, indem bearbeitbare DITAVAL-Felder in allen Formaten aktiviert werden, sodass Benutzende DITAVAL-Pfade manuell angeben können.
 
-  Weitere Informationen finden Sie unter [ von Ausgabevorgaben ](../user-guide/generate-output-understand-presets.md) Experience Manager Guides.
+  Weitere Informationen finden Sie unter [&#x200B; von Ausgabevorgaben &#x200B;](../user-guide/generate-output-understand-presets.md) Experience Manager Guides.
 
 ## Verbesserungen beim Veröffentlichen
 
@@ -115,7 +115,7 @@ Darüber hinaus ist das Format von Dateien mit der **&#x200B;**.xml **ebenfalls 
 
 Experience Manager Guides führt eine neue Option **Verwenden tatsächlicher Dateinamen** im Dialogfeld **Karte herunterladen** ein. Wenn Sie jetzt Zuordnungsdateien herunterladen, können Sie die ursprünglichen Dateinamen anstelle der standardmäßigen UUIDs beibehalten, was die Erkennung und Verwaltung Ihrer Dateien erheblich erleichtert. Diese Option ist nur verfügbar, wenn Sie **Dateihierarchie beibehalten** auswählen. Sie ist deaktiviert, wenn Sie **Dateihierarchie reduzieren** auswählen, was Ihnen mehr Flexibilität bei der Organisation Ihrer heruntergeladenen Karten gibt.
 
-Weitere Informationen finden Sie unter [Dateien ](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
+Weitere Informationen finden Sie unter [Dateien &#x200B;](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
 ![](assets/download-map-dialog-new.png){width="300" align="left"}
 

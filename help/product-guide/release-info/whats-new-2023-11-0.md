@@ -66,7 +66,7 @@ Sie können jetzt die Standardmethode zum Anzeigen der Dateien im Web-Editor aus
 
 Sie können Bedingungsattribute in Ihren DITA-Themen definieren. Verwenden Sie dann die Bedingungsattribute in der Bedingungsvorgabe, um den Inhalt in einer DITA-Zuordnung zu veröffentlichen. Mit Experience Manager Guides können Sie jetzt auch Bedingungsvorgaben über den Web-Editor erstellen und verwalten. Sie können sie auch einfach bearbeiten, duplizieren oder löschen.
 
-![Bedingungsvorgaben auf der Registerkarte Verwalten des Web-Editors ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Bedingungsvorgaben auf der Registerkarte Verwalten des Web-Editors &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Weitere Informationen finden Sie unter [Verwenden von Bedingungsvorgaben](../user-guide/generate-output-use-condition-presets.md).
 
@@ -77,7 +77,7 @@ Experience Manager Guides stellt den Status der geöffneten Dateiregisterkarten 
 ### Einfaches Entpacken eines Elements
 
 Jetzt können Sie ein Element mithilfe der Option aus dem Kontextmenü eines Elements im Web-Editor einfach entpacken. Auf diese Weise können Sie den Text des Elements einfach mit dem übergeordneten Element zusammenführen.
-Weitere Informationen finden Sie im Abschnitt **Element entpacken** unter &quot;[ Funktionen im Web-Editor](../user-guide/web-editor-other-features.md).
+Weitere Informationen finden Sie im Abschnitt **Element entpacken** unter &quot;[&#x200B; Funktionen im Web-Editor](../user-guide/web-editor-other-features.md).
 
 ### Tastaturbefehle zum Verschieben des Cursors
 

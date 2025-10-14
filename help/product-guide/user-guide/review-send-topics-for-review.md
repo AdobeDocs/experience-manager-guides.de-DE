@@ -75,7 +75,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
 
 1. Wählen Sie die Stammzuordnung aus dem **Stammzuordnungspfad**. Diese Rootmap wird verwendet, um alle wichtigen Verweise und Glossarbegriffe aufzulösen, die im Überprüfungsinhalt verwendet werden. Wenn Sie die Rootmap nicht auswählen, werden die wichtigsten Referenzen oder Glossarbegriffe, die mit dem DITA-Thema verknüpft sind, nicht aufgelöst, bevor das Thema zur Überprüfung gesendet wird.
 
@@ -202,7 +202,7 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
 
 1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
 
@@ -270,4 +270,4 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
 Alle validierungsverantwortlichen Personen werden per E-Mail darüber informiert, dass ihnen zu überprüfende Themen zugewiesen wurden. Die E-Mail enthält einen direkten Link, über den sie in einem Browser-Fenster auf das Thema zugreifen können. Die Themen werden zusammen mit der DITA-Karte im Review-Modus geöffnet.
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)

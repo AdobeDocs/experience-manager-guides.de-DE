@@ -42,4 +42,4 @@ JSON-Ausgabevorgaben.
 - **[Massenaktivierungs-Zuordnungssammlung löschen](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

@@ -62,4 +62,4 @@ Führen Sie die folgenden Schritte aus, um ein Markdown-Thema im Web-Editor zu e
 >
 > Wenn Sie keine Änderungen gespeichert haben, wird ein Popup angezeigt, und Sie werden aufgefordert, Ihr Thema zu speichern, bevor Sie es schließen.
 
-**Übergeordnetes Thema:**&#x200B;[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)

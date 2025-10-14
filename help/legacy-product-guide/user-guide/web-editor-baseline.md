@@ -114,7 +114,7 @@ Sie können eine Baseline duplizieren und entsprechend Ihren Anforderungen ände
    In **Version basierend auswählen** können Sie entweder die Option **Exakte Kopie** oder die Option **Beschriftung** auswählen:
 
    - **Exakte Kopie**: Experience Manager Guides wählt dieselbe Version aller Themen aus und erstellt eine exakte Kopie der duplizierten Baseline.
-   - **Beschriftung**: In der Dropdown-Liste können Sie eine der [ Beschriftungen ](#labels-list). Experience Manager Guides wählt die Versionen der Themen aus, für die die ausgewählte Beschriftung definiert ist, während für die übrigen Themen die Version aus der duplizierten Baseline ausgewählt wird. Sie wählen beispielsweise den Titel `Release 1.0` aus der Dropdown-Liste aus und wählen dann die Versionen der Themen aus, für die Sie diesen Titel definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Baseline ausgewählt.
+   - **Beschriftung**: In der Dropdown-Liste können Sie eine der [&#x200B; Beschriftungen &#x200B;](#labels-list). Experience Manager Guides wählt die Versionen der Themen aus, für die die ausgewählte Beschriftung definiert ist, während für die übrigen Themen die Version aus der duplizierten Baseline ausgewählt wird. Sie wählen beispielsweise den Titel `Release 1.0` aus der Dropdown-Liste aus und wählen dann die Versionen der Themen aus, für die Sie diesen Titel definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Baseline ausgewählt.
 1. Klicken Sie **Duplizieren**.
 
 - **Umbenennen** oder **Löschen** einer vorhandenen Baseline.
@@ -154,4 +154,4 @@ Mithilfe des Symbols Filter im Bedienfeld **Baseline-Filter** können Sie Filter
 
 Nachdem Sie die Baseline bearbeitet haben, können Sie auf die Schaltfläche **Speichern** oben klicken, um die Änderungen an der Baseline zu speichern. Sie können auf die **Zurücksetzen**-Schaltfläche klicken, wenn Sie die Änderung nicht speichern und die Baseline zurücksetzen möchten. Wenn Sie auf die **Zurücksetzen**-Schaltfläche klicken, wird eine Warnung angezeigt, dass Ihre nicht gespeicherten Änderungen verloren gehen.
 
-**Übergeordnetes Thema:**&#x200B;[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)

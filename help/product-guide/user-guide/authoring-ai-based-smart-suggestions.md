@@ -24,7 +24,7 @@ Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hin
 
 
 1. Wählen Sie den Inhalt in Ihrem Thema aus, um die entsprechenden Vorschläge anzuzeigen. Stellen Sie sicher, dass die Zeichenlänge des Inhalts den Wert überschreitet, den Ihr Administrator im Ordnerprofil festgelegt hat, damit die Inhaltsvorschläge angezeigt werden.
-1. Wählen Sie im **-Bedienfeld** KI-Assistenten die Option **Wiederverwendbaren Inhalt vorschlagen** ![Symbol für wiederverwendbaren Inhalt vorschlagen ](./images/ai-suggest-reusable-content-icon.svg).
+1. Wählen Sie im **-Bedienfeld** KI-Assistenten die Option **Wiederverwendbaren Inhalt vorschlagen** ![Symbol für wiederverwendbaren Inhalt vorschlagen &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Wählen Sie ein Tag aus, um die Authoring-Vorschläge für das aktuelle Tag anzuzeigen.  Die Vorschläge zum Anzeigen und Hinzufügen von Inhaltsreferenzen aus den indizierten Dateien werden basierend auf dem Inhalt des aktuellen Tags angezeigt. Sie können auch mehrere Tags auswählen.
 
@@ -35,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hin
 
    >[!NOTE]
    >
-   > Sie können nur die Vorschläge für das aktuelle Darstellungsfeld (den auf dem Bildschirm sichtbaren Inhalt) anzeigen. Um Vorschläge für andere Inhalte im Dokument anzuzeigen, scrollen Sie nach oben oder unten, um sie im Ansichtsfenster anzuzeigen, und wählen Sie dann **Wiederverwendbaren Inhalt vorschlagen** ![ai Symbol für wiederverwendbaren Inhalt vorschlagen ](./images/ai-suggest-reusable-content-icon.svg).
+   > Sie können nur die Vorschläge für das aktuelle Darstellungsfeld (den auf dem Bildschirm sichtbaren Inhalt) anzeigen. Um Vorschläge für andere Inhalte im Dokument anzuzeigen, scrollen Sie nach oben oder unten, um sie im Ansichtsfenster anzuzeigen, und wählen Sie dann **Wiederverwendbaren Inhalt vorschlagen** ![ai Symbol für wiederverwendbaren Inhalt vorschlagen &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
 
 
 1. Sie können die Smart-Vorschläge im Bedienfeld Vorschläge anzeigen.  Experience Manager Guides bietet Inhaltsvorschläge, die kontextuell ähnlich sind oder die gleiche Bedeutung haben. Sie können beispielsweise nach dem Thema suchen, das die genaue Versionsnummer enthält, z. B. „Version 2023.03.12“. Sie können auch nach &quot;Adobe hat seinen Hauptsitz in San Jose, Kalifornien“ suchen und ähnliche Inhalte finden wie „San Jose hat die Quartiere von vielen Softwareunternehmen wie Adobe&quot;.

@@ -74,7 +74,7 @@ Nachdem Sie die API-JARs in Ihrem lokalen Maven-Repository installiert haben, f�
 
    >[!IMPORTANT]
    >
-   > Im folgenden Code-Snippet sollte X.x durch die tatsächliche Versionsnummer und den Dateinamen der API-JAR ersetzt werden. Diese Informationen entsprechen denen, die in Schritt 3 des [Installationsprozesses“ angegeben ](#install-jar-local).
+   > Im folgenden Code-Snippet sollte X.x durch die tatsächliche Versionsnummer und den Dateinamen der API-JAR ersetzt werden. Diese Informationen entsprechen denen, die in Schritt 3 des [Installationsprozesses“ angegeben &#x200B;](#install-jar-local).
 
    ```XML
    <plugin>

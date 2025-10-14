@@ -63,7 +63,7 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
 
       >[!NOTE]
       >
-      >Wenn Sie Experience Manager Guides Version 3.5 oder früher verwenden, wird eine Option zur Auswahl einer DITA-Zuordnungsdatei angezeigt, um die wichtigsten Verweise für Themenbearbeitung, Vorschau und Überprüfungs-Workflows aufzulösen. In Version 3.6 und höheren Versionen können Sie die Stammzuordnung über den Editor festlegen. Weitere Informationen finden Sie unter [ im ](web-editor-features.md#id2087G0P40SB). Eine andere Möglichkeit, die Stammzuordnung festzulegen, besteht darin, sie auf globaler oder Ordnerebene zu konfigurieren. Weitere Informationen finden Sie *Konfigurieren von globalen Profilen oder Profilen auf*) im Installations- und Konfigurationshandbuch.
+      >Wenn Sie Experience Manager Guides Version 3.5 oder früher verwenden, wird eine Option zur Auswahl einer DITA-Zuordnungsdatei angezeigt, um die wichtigsten Verweise für Themenbearbeitung, Vorschau und Überprüfungs-Workflows aufzulösen. In Version 3.6 und höheren Versionen können Sie die Stammzuordnung über den Editor festlegen. Weitere Informationen finden Sie unter [&#x200B; im &#x200B;](web-editor-features.md#id2087G0P40SB). Eine andere Möglichkeit, die Stammzuordnung festzulegen, besteht darin, sie auf globaler oder Ordnerebene zu konfigurieren. Weitere Informationen finden Sie *Konfigurieren von globalen Profilen oder Profilen auf*) im Installations- und Konfigurationshandbuch.
 
    Informationen auf der Registerkarte **Erweitert**:
 
@@ -76,4 +76,4 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
 1. Wählen Sie **Öffnen** aus, um Ihre Projektseite zu öffnen.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)

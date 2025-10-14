@@ -33,7 +33,7 @@ Installation und Konfiguration siehe: [4.1 Installation und Konfigurationen](htt
 
 ### FMPS
 
-Für die FMPS-Installation können Sie den angegebenen [YouTube-Link](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t) oder [FMPS-Installation und -Konfiguration](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
+Für die FMPS-Installation können Sie den angegebenen [YouTube-Link](https://www.youtube.com/watch?v=2deelyM5VA8&t) oder [FMPS-Installation und -Konfiguration](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
 
 ## Erforderliche Konfigurationen
 
@@ -95,6 +95,6 @@ Sie können Ihre bereits erstellten Baselines mit FMPS2020.0.2 oder einer höher
 
 [AEM Guides: Lernen und Support](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-[FrameMaker- und FMPS-Community](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
+[FrameMaker- und FMPS-Community](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
 [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=de)

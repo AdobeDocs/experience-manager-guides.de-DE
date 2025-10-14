@@ -30,4 +30,4 @@ Führen Sie die folgenden Schritte aus, um die Ausgabe über das Bedienfeld **Sc
 1. Klicken Sie **Generieren**, um die Ausgabe für die ausgewählten Vorgaben zu generieren. Bei der Generierung der Ausgabe wird eine Erfolgsmeldung angezeigt. Wenn die Generierung fehlschlägt, wird eine Fehlermeldung angezeigt. Sie können auch das Fehlerprotokoll einsehen, um die Details des Fehlers anzuzeigen, der beim Generierungsprozess aufgetreten ist.
 1. Klicken Sie auf **Ausgabe anzeigen** \( ![](images/view-output-icon.svg)\)-Symbol einer bestimmten Vorgabe, um die für die Vorgabe generierte Ausgabe anzuzeigen.
 
-**Übergeordnetes Thema:**&#x200B;[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)

@@ -106,4 +106,4 @@ Sobald dies geschehen ist, sollten Sie in der Lage sein, die Funktion **Intellig
 
 
 Nach der Konfiguration wird das Symbol **Smart** Hilfe![Smart](assets/smart-help-icon.svg) im rechten Bereich des Web-Editors angezeigt. Wählen Sie das Symbol aus, um das Bedienfeld **Smart-Hilfe** anzuzeigen.
-Weitere Informationen finden Sie im Abschnitt [KI-gestützte Smart-Hilfe für die Suche ](../user-guide/ai-based-smart-help.md) Inhalten“ im Experience Manager-Benutzerhandbuch.
+Weitere Informationen finden Sie im Abschnitt [KI-gestützte Smart-Hilfe für die Suche &#x200B;](../user-guide/ai-based-smart-help.md) Inhalten“ im Experience Manager-Benutzerhandbuch.

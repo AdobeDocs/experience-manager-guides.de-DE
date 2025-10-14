@@ -61,4 +61,4 @@ Führen Sie die folgenden Schritte aus, um Ausgabevorgaben für Ihre DITA-Zuordn
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Übergeordnetes Thema**&#x200B;[ Artikelbasierte Veröffentlichung im Web-Editor](web-editor-article-publishing.md)
+**Übergeordnetes Thema**&#x200B;[&#x200B; Artikelbasierte Veröffentlichung im Web-Editor](web-editor-article-publishing.md)

@@ -31,4 +31,4 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabe für FrameMaker-Dokument
 >
 > Sie können den aktuellen Status der Ausgabegenerierungsanfrage anzeigen, indem Sie auf „Ausgaben“ klicken. Weitere Informationen finden Sie unter [Anzeigen des Status der Aufgabe zur Ausgabenerstellung](fm-output-view-status.md).
 
-**Übergeordnetes Thema:**&#x200B;[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)

@@ -96,4 +96,4 @@ Führen Sie die folgenden Schritte aus, um die CSV-Datei eines DITA-Zuordnungsbe
 
 Sobald der Bericht in den Posteingang heruntergeladen wurde, können Sie auch den Bericht auswählen und das Symbol Öffnen oben verwenden, um den ausgewählten Bericht zu öffnen.
 
-**Übergeordnetes Thema:**&#x200B;[ Reports](reports-intro.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)

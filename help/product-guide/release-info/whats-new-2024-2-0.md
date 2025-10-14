@@ -27,7 +27,7 @@ Jetzt können Sie Ihren Authoring-Journey mit Smart Suggestions verbessern, eine
 
 Um Ihre Inhalte korrekt und konsistent zu halten, sind die Suche und die Vorschläge auf die Inhalte Ihrer Organisation beschränkt und werden eng mit den Keywords abgeglichen, nach denen Sie suchen.
 
-![Bedienfeld „Intelligente Vorschläge“ im Web-Editor ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+![Bedienfeld „Intelligente Vorschläge“ im Web-Editor &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Zeigen Sie intelligente Vorschläge an, um passende Inhaltsreferenzen aus Ihrem Inhalts-Repository zu finden und hinzuzufügen.*
@@ -46,7 +46,7 @@ Jetzt bietet Experience Manager Guides eine erweiterte Funktion zum Versionsverl
 *Vorschau der Änderungen in den verschiedenen Versionen eines Themas.*
 
 
-Weitere Informationen zur Beschreibung der Funktion **Versionsverlauf** finden Sie [ Abschnitt ](../user-guide/web-editor-features.md#id2051EA0M0HS)Linkes Bedienfeld“.
+Weitere Informationen zur Beschreibung der Funktion **Versionsverlauf** finden Sie [&#x200B; Abschnitt &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)Linkes Bedienfeld“.
 
 ## Verbessertes Benutzererlebnis im Übersetzungs-Panel
 

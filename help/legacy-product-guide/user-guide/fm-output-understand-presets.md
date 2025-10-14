@@ -18,4 +18,4 @@ AEM Guides unterstützt die Erstellung von Ausgaben für FrameMaker-Dokumente in
 
 In den folgenden Abschnitten werden die Optionen erläutert, die für die unterstützten Ausgabeformate verfügbar sind.
 
-**Übergeordnetes Thema:**&#x200B;[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)

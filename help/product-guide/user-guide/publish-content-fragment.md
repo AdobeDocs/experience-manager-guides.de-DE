@@ -76,7 +76,7 @@ Die rechte Seite wird im Falle eines vorhandenen Inhaltsfragments mit den veröf
 
      >[!NOTE]
      >
-     > Wenn Sie Version 4.4 oder frühere Versionen verwenden, wählen Sie eine Zuordnung aus der Dropdown-Liste aus. Die Zuordnungen werden aus der Datei *contentFragmentMapping.json* ausgewählt.  Ihr Administrator kann die Zuordnungen in der Datei *contentFragmentMapping.json* hinzufügen. Weitere Informationen zum Erstellen [ Zuordnung zwischen einem Thema und einem Inhaltsfragment ](../cs-install-guide/conf-content-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
+     > Wenn Sie Version 4.4 oder frühere Versionen verwenden, wählen Sie eine Zuordnung aus der Dropdown-Liste aus. Die Zuordnungen werden aus der Datei *contentFragmentMapping.json* ausgewählt.  Ihr Administrator kann die Zuordnungen in der Datei *contentFragmentMapping.json* hinzufügen. Weitere Informationen zum Erstellen [&#x200B; Zuordnung zwischen einem Thema und einem Inhaltsfragment &#x200B;](../cs-install-guide/conf-content-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
 
 1. Wählen **Generieren**, um das Inhaltsfragment zu veröffentlichen.
 

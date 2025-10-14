@@ -26,4 +26,4 @@ Führen Sie die folgenden Schritte aus, um den Übersetzungsstatus einer DITA-Zu
    >
    > Sie können den Inhalt außerdem nach Übersetzungsstatus \(fehlender Abgleich, Kopiervorgang läuft oder Synchronisierung\), Source-Typ \(alle, DITA, DITA-Zuordnung oder Ressource\), Änderungsdatum filtern. Sie können auch Keywords eingeben, um nach bestimmten Themen zu suchen.
 
-**Übergeordnetes Thema:**&#x200B;[ Inhalte übersetzen](translation.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte übersetzen](translation.md)

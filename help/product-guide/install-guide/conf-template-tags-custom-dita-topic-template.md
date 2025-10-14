@@ -77,4 +77,4 @@ Führen Sie die folgenden Schritte aus, um einen Ordner für Ihre benutzerdefini
 
 Wenn der angegebene Speicherort in DAM vorhanden ist, werden alle standardmäßigen Zuordnungs- und Themenvorlagen in diesen Ordner kopiert. Wenn der Speicherort nicht vorhanden ist, wird der Ordner mit allen standardmäßigen Zuordnungs- und Themenvorlagen erstellt.
 
-**Übergeordnetes Thema:**&#x200B;[ Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)

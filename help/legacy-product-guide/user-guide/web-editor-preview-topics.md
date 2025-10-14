@@ -219,4 +219,4 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
   Aus der ausgewählten Version des Themas wird eine neue Verzweigung erstellt. Der obige Prozess gilt auch für die Wiederherstellung zu einer bestimmten Version eines Themas. Technisch gesehen bedeutet die Wiederherstellung zu einer bestimmten Version, dass Sie aus der ausgewählten Version eine neue Verzweigung erstellen und diese Version zur aktuellen Arbeitskopie des Themas machen. Sie können auch den Verlauf der Dateien anzeigen, die im Bericht Versionsrücksetzverlauf rückgängig gemacht wurden. Weitere Informationen zu diesem Bericht finden Sie unter [Versionsverlaufsbericht für zurückgesetzte Dateien](reports-reverted-file-version-history.md#).
 
-**Übergeordnetes Thema:**&#x200B;[ Erstellen und Vorschau von Themen](create-preview-topics.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen und Vorschau von Themen](create-preview-topics.md)

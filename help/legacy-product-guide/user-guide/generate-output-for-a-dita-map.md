@@ -123,7 +123,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange 
 
 ## Aufgabe zum Erzeugen einer Ausgabe abbrechen {#id2061H100T5Z}
 
-AEM Guides bietet Publishern eine einfache Möglichkeit, laufende Veröffentlichungsaufgaben abzubrechen. Als Herausgeber können Sie eine laufende Veröffentlichungsaufgabe über die DITA Map-Konsole oder das [Dashboard veröffentlichen“ ](generate-output-publish-dashboard.md#).
+AEM Guides bietet Publishern eine einfache Möglichkeit, laufende Veröffentlichungsaufgaben abzubrechen. Als Herausgeber können Sie eine laufende Veröffentlichungsaufgabe über die DITA Map-Konsole oder das [Dashboard veröffentlichen“ &#x200B;](generate-output-publish-dashboard.md#).
 
 Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung über die DITA-Zuordnungskonsole abzubrechen:
 
@@ -169,4 +169,4 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabeaufgabe aus der Liste Erz
    Die Aufgabe wird aus der Liste Erzeugte Ausgaben gelöscht.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

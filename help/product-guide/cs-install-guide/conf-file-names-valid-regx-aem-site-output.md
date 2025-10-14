@@ -22,4 +22,4 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Fügen Sie in den Ausgabedateinamen der AEM-Site Zeichen hinzu, die Sie durch einen Unterstrich ersetzen möchten. <br> **Standardwert**: ``'<\>\`@$`` |
 
-**Übergeordnetes Thema:**&#x200B;[ Dateinamen konfigurieren](conf-file-names.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Dateinamen konfigurieren](conf-file-names.md)

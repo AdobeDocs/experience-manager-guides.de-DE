@@ -72,7 +72,7 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
    - **Verwendet in**: Zeigt eine Liste anderer Themen oder Karten an, in denen das Thema verwendet wird. Die UUID aller dieser Themen und Karten wird ebenfalls aufgelistet.
 
-Neben dem Bericht für jedes einzelne Thema haben Admins auch Zugriff auf Informationen wie den Veröffentlichungsverlauf einer DITA-Karte. Weitere Informationen zum Verlauf der generierten Ausgaben finden Sie im Abschnitt [Anzeigen des Status ](generate-output-for-a-dita-map.md#viewing_output_history) Ausgabenerstellungsaufgabe .
+Neben dem Bericht für jedes einzelne Thema haben Admins auch Zugriff auf Informationen wie den Veröffentlichungsverlauf einer DITA-Karte. Weitere Informationen zum Verlauf der generierten Ausgaben finden Sie im Abschnitt [Anzeigen des Status &#x200B;](generate-output-for-a-dita-map.md#viewing_output_history) Ausgabenerstellungsaufgabe .
 
 ## CSV-Datei des DITA-Zuordnungsberichts erstellen
 
@@ -97,4 +97,4 @@ Führen Sie die folgenden Schritte aus, um die CSV-Datei eines DITA-Zuordnungsbe
 
 Sobald der Bericht in den Posteingang heruntergeladen wurde, können Sie auch den Bericht auswählen und das Symbol Öffnen oben verwenden, um den ausgewählten Bericht zu öffnen.
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung in Berichte](reports-intro.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in Berichte](reports-intro.md)

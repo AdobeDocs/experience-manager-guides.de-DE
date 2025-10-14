@@ -52,13 +52,13 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
    ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
-   - **A** - \(*Haupt-Symbolleiste*\): Dies ähnelt der Haupt-Symbolleiste des Web-Editors. Weitere Informationen [ Sie unter ](web-editor-features.md#id2051EA0G05Z) im Web-Editor.
+   - **A** - \(*Haupt-Symbolleiste*\): Dies ähnelt der Haupt-Symbolleiste des Web-Editors. Weitere Informationen [&#x200B; Sie unter &#x200B;](web-editor-features.md#id2051EA0G05Z) im Web-Editor.
 
    - **B** - \(*Sekundäre Symbolleiste*\) Dies ist die Sekundäre Symbolleiste, die Ihnen das Arbeiten mit Zuordnungsdateien ermöglicht. Weitere Informationen zu den in der Sekundären Symbolleiste verfügbaren Funktionen finden Sie unter [In der Symbolleiste des erweiterten Zuordnungs-Editors verfügbare Funktionen](#id205DEC0005Z).
 
    - **C** - \(*Kartenansichten*\): Ermöglicht es Ihnen, im Zuordnungs-Editor zwischen Layout, Autor, Source und Vorschau zu wechseln. Mit **Layout** Ansicht können Sie die Themen in einer DITA-Karte organisieren. Dadurch wird die Baumstruktur oder hierarchische Ansicht der Karte angezeigt. Die **Autor**-Ansicht ermöglicht die Bearbeitung der Themen im Zuordnungs-Editor. Dadurch erhält auch die WYSIWYG-Ansicht der Zuordnungsdatei. Die Ansicht **Source** ermöglicht es Ihnen, mit der zugrunde liegenden XML der Zuordnungsdatei zu arbeiten. Die Vorschau bietet Ihnen eine konsolidierte Ansicht aller Themen und Unterzuordnungen innerhalb der Zuordnungsdatei. Der **Schließen**-Link schließt die Zuordnungsdatei.
 
-   - **D** - \(*Linker Bereich*\): Ermöglicht den Zugriff auf den linken Bereich, in dem Sie Zugriff auf die Favoriten, das Repository, die Zuordnung, die Gliederung und andere Funktionen haben. Sie können sie erweitern oder reduzieren, indem Sie auf das Symbol Seitenleiste erweitern \(![](images/sidebar-expand-icon.svg)\) klicken. Weitere Informationen zu den im linken Bereich verfügbaren Funktionen finden Sie unter [Linkes ](web-editor-features.md#id2051EA0M0HS) im Web-Editor.
+   - **D** - \(*Linker Bereich*\): Ermöglicht den Zugriff auf den linken Bereich, in dem Sie Zugriff auf die Favoriten, das Repository, die Zuordnung, die Gliederung und andere Funktionen haben. Sie können sie erweitern oder reduzieren, indem Sie auf das Symbol Seitenleiste erweitern \(![](images/sidebar-expand-icon.svg)\) klicken. Weitere Informationen zu den im linken Bereich verfügbaren Funktionen finden Sie unter [Linkes &#x200B;](web-editor-features.md#id2051EA0M0HS) im Web-Editor.
 
    - **E** - \(*Middle Area*\): Inhaltsbearbeitungsbereich zuordnen.
 
@@ -105,7 +105,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
 ## In der Symbolleiste des erweiterten Zuordnungs-Editors verfügbare Funktionen {#id205DEC0005Z}
 
-Die Symbolleiste im erweiterten Zuordnungs-Editor ähnelt dem Themen-Web-Editor. Grundlegende Vorgänge wie das Umschalten des linken Bedienfelds, das Speichern der Zuordnung, das Erstellen einer neuen Version der Zuordnung, das Rückgängigmachen/Wiederholen des letzten Vorgangs und das Löschen der ausgewählten Elemente sind in beiden Editoren häufig. Weitere Informationen zur Funktionsweise dieser Vorgänge finden Sie [ Abschnitt „Kennen Sie die Funktionen ](web-editor-features.md#) Web-Editors“.
+Die Symbolleiste im erweiterten Zuordnungs-Editor ähnelt dem Themen-Web-Editor. Grundlegende Vorgänge wie das Umschalten des linken Bedienfelds, das Speichern der Zuordnung, das Erstellen einer neuen Version der Zuordnung, das Rückgängigmachen/Wiederholen des letzten Vorgangs und das Löschen der ausgewählten Elemente sind in beiden Editoren häufig. Weitere Informationen zur Funktionsweise dieser Vorgänge finden Sie [&#x200B; Abschnitt „Kennen Sie die Funktionen &#x200B;](web-editor-features.md#) Web-Editors“.
 
 Die folgenden zuordnungsspezifischen Vorgänge sind auch auf der Symbolleiste in den Ansichten Layout und Autor verfügbar:
 
@@ -261,7 +261,7 @@ Zeigt das Dialogfeld Element einfügen an. Wählen Sie das Element aus, das Sie 
 
 **Beziehungstabelle einfügen** - ![](images/relationship_table_icon.svg)
 
-Fügt eine Beziehungstabelle in die Zuordnung ein. Da das Konzept der Arbeit mit der Beziehungstabelle identisch ist, wie im Abschnitt Grundlegender Zuordnungs-Editor erläutert, finden [ unter „Arbeiten mit Beziehungstabellen im ](map-editor-basic-map-editor.md#id1944B0I0COB) Zuordnungs-Editor“ weitere Details.
+Fügt eine Beziehungstabelle in die Zuordnung ein. Da das Konzept der Arbeit mit der Beziehungstabelle identisch ist, wie im Abschnitt Grundlegender Zuordnungs-Editor erläutert, finden [&#x200B; unter „Arbeiten mit Beziehungstabellen im &#x200B;](map-editor-basic-map-editor.md#id1944B0I0COB) Zuordnungs-Editor“ weitere Details.
 
 **Wiederverwendbaren Inhalt einfügen** - ![](images/content-reuse-icon.png)
 
@@ -283,7 +283,7 @@ Blendet die XML-Tags ein oder aus. Die Tags dienen als visuelle Hinweise auf die
 
 **Änderungen verfolgen/deaktivieren** - ![](images/track-change-icon.svg)
 
-Sie können alle Aktualisierungen in der Zuordnungsdatei verfolgen, indem Sie den Modus Änderungen verfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen im Dokument erfasst. Weitere Informationen finden Sie unter &quot;[ aktivieren/deaktivieren](web-editor-features.md#id205DF0203Y4) im Web-Editor.
+Sie können alle Aktualisierungen in der Zuordnungsdatei verfolgen, indem Sie den Modus Änderungen verfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen im Dokument erfasst. Weitere Informationen finden Sie unter &quot;[&#x200B; aktivieren/deaktivieren](web-editor-features.md#id205DF0203Y4) im Web-Editor.
 
 **Prüfungsaufgabe erstellen** - ![](images/create-review-task-icon.svg)
 

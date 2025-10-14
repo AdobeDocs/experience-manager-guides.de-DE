@@ -124,7 +124,7 @@ Jetzt können Sie mit Experience Manager Guides die flache Ordnerhierarchie für
 Wenn Sie die Dateihierarchie nicht reduzieren möchten, wird die HTML5-Ausgabe in einer verschachtelten Ordnerhierarchie generiert. Dies bedeutet, dass die ursprüngliche Ordnerstruktur des Inhalts mit Dateien, die in Unterordnern organisiert sind, in der Ausgabe repliziert wird. Diese verschachtelte Ordnerhierarchie ermöglicht eine komplexere Organisation und Kategorisierung von Dateien, wodurch die Verwaltung und Navigation großer Datenmengen erleichtert wird.
 
 
-Weitere Informationen zum Generieren [ HTML5-Ausgabe](../user-guide/generate-output-html5.md)
+Weitere Informationen zum Generieren [&#x200B; HTML5-Ausgabe](../user-guide/generate-output-html5.md)
 
 
 ## Verbesserungen am Editor
@@ -145,7 +145,7 @@ Sie können auch auf die **Layout**-Ansicht für schreibgeschützte DITA-Zuordnu
 *Anzeigen der gesperrten Dateien im Authoring- und Source-Modus.*
 
 
-Erfahren Sie, wie [ Dateien im Authoring- und Source-Modus öffnen ](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
+Erfahren Sie, wie [&#x200B; Dateien im Authoring- und Source-Modus öffnen &#x200B;](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
 
 
 
@@ -174,7 +174,7 @@ Beim Bearbeiten eines Dokuments im Web-Editor können Sie jetzt eine getrennte L
 
 Diese geteilte Liste gültiger Elemente hilft Ihnen, die Inhaltsstruktur beizubehalten und die DITA-Standards zu befolgen.
 
-Weitere Informationen zur Funktion **Element einfügen** finden Sie im Abschnitt [Sekundäre ](../user-guide/web-editor-features.md#2051ea0j0y4).
+Weitere Informationen zur Funktion **Element einfügen** finden Sie im Abschnitt [Sekundäre &#x200B;](../user-guide/web-editor-features.md#2051ea0j0y4).
 
 
 ### Neues Erlebnis bei der Suche und Filterung von Dateien in der Repository-Ansicht
@@ -188,7 +188,7 @@ Das Filtern von Dateien wurde verbessert. Die überarbeitete Funktion zum Filter
 
 Profitieren Sie von Vorteilen wie einem schnelleren Zugriff auf relevante Dateien und einer intuitiveren Benutzeroberfläche für ein reibungsloseres und effizienteres Sucherlebnis.
 
-![Schnellsuchfilter ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![Schnellsuchfilter &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Verwenden Sie die Filter für die schnelle Suche, um nach DITA- und Nicht-DITA-Dateien zu suchen.*
 
@@ -205,7 +205,7 @@ Mit Experience Manager Guides können Sie jetzt Bedingungen gruppieren und in ei
 
 ![Bedingungen in einer verschachtelten Hierarchie organisiert](assets/conditions-nested-hierarchy.png){width="300" align="left"}
 
-Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).
 
 ### Anpassen des Web-Editor-Erlebnisses mit einer neuen Benutzeroberfläche mit Benutzereinstellungen
 
@@ -328,7 +328,7 @@ Als Administrator können Sie jetzt die Nachbearbeitung und Erstellung von UUIDs
 
 Die Deaktivierung der Nachbearbeitung für einen Ordner wirkt sich auch auf alle untergeordneten Ordner aus. Experience Manager Guides bietet jetzt jedoch die Möglichkeit, die Nachbearbeitung für einzelne untergeordnete Ordner innerhalb des ignorierten Ordners selektiv zu aktivieren.
 
-Erfahren Sie, wie [ Nachbearbeitung für einen Ordner deaktivieren ](../cs-install-guide/conf-folder-post-processing.md).
+Erfahren Sie, wie [&#x200B; Nachbearbeitung für einen Ordner deaktivieren &#x200B;](../cs-install-guide/conf-folder-post-processing.md).
 
 
 ## Verbesserungen bei den Datenquellen-Connectoren

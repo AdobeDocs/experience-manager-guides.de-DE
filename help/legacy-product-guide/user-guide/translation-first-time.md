@@ -141,4 +141,4 @@ Nach Abschluss der Übersetzung ändert sich der Status des Übersetzungsauftrag
 >
 > Wenn Sie die Übersetzung für ein oder mehrere Themen in einem Übersetzungsauftrag ablehnen, wird der **In Bearbeitung** Übersetzungsstatus aller abgelehnten Themen auf ihren ursprünglichen Status zurückgesetzt. Der Status der referenzierten Themen wird entsprechend dem aktuellen Übersetzungsstatus überprüft und zurückgesetzt. Außerdem werden die im Zielprojekt erstellten Übersetzungsdateien nicht gelöscht, selbst wenn die Übersetzung dafür abgelehnt wird.
 
-**Übergeordnetes Thema:**&#x200B;[ Inhalte übersetzen](translation.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte übersetzen](translation.md)

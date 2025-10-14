@@ -69,7 +69,7 @@ AEM Guides bietet jetzt eine verbesserte Überprüfungsfunktion mit den folgende
 ### Prüfungsthemen suchen
 
 Die Durchführung von Überprüfungen ist ein wichtiges Merkmal von AEM Guides. Dies hilft den Reviewern bei der Überprüfung der ihnen zugewiesenen Dokumente .
-Jetzt können Sie nach einem Thema suchen, indem Sie einen Teil des Textes des Titels oder Dateipfads in die Suchleiste der Themenansicht des Review-Panels eingeben. Sie können auch alle Themen anzeigen oder Themen mit Kommentaren anzeigen. Standardmäßig können Sie alle in der Prüfungsaufgabe vorhandenen Themen anzeigen. Weitere Informationen finden Sie unter [Themen ](../user-guide/review-topics.md).
+Jetzt können Sie nach einem Thema suchen, indem Sie einen Teil des Textes des Titels oder Dateipfads in die Suchleiste der Themenansicht des Review-Panels eingeben. Sie können auch alle Themen anzeigen oder Themen mit Kommentaren anzeigen. Standardmäßig können Sie alle in der Prüfungsaufgabe vorhandenen Themen anzeigen. Weitere Informationen finden Sie unter [Themen &#x200B;](../user-guide/review-topics.md).
 
 ![Suchen in einem Bedienfeld mit Prüfungsthemen](assets/review-search-topic.png){width="800" align="left"}
 
@@ -200,7 +200,7 @@ Verwenden Sie das Kontextmenü, um die Datei (.dita, .xml, Audio, Video oder Bil
 
 *Vorschau der Datei im Fensterbereich anzeigen.*
 
-Weitere Informationen zum Kontextmenü finden Sie in der **Optionen für eine Datei** Funktionsbeschreibung im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zum Kontextmenü finden Sie in der **Optionen für eine Datei** Funktionsbeschreibung im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).
 
 
 ## Verwenden von Variablen für aktuelles Datum und aktuelle Uhrzeit in den Optionen Zielpfad, Site-Name oder Dateiname .

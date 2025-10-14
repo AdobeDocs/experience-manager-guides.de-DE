@@ -77,7 +77,7 @@ Jetzt können Sie nach einem Thema suchen, indem Sie einen Teil des Textes des T
 
 ![Suchen in einem Bedienfeld mit Prüfungsthemen](assets/review-search-topic.png){width="800" align="left"}
 
-Weitere Informationen finden Sie unter [Themen ](../user-guide/review-topics.md).
+Weitere Informationen finden Sie unter [Themen &#x200B;](../user-guide/review-topics.md).
 
 ## Handbücher zum Erweiterungs-Framework
 

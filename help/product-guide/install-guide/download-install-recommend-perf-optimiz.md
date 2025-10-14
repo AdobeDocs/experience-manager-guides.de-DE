@@ -115,4 +115,4 @@ Dies kann zur Laufzeit über die Felix-Konsole oder über die Code-Bereitstellun
 Eine erhöhte Anzahl der Eigenschaft **AEM-Site-Seiten in Heap begrenzen** optimiert den Prozess der Erstellung von AEM-Site-Ausgaben.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)

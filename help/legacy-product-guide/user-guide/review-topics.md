@@ -250,4 +250,4 @@ Wählen Sie eine oder mehrere der folgenden Filteroptionen im Dialogfeld **Filte
 
 Um den Filter zu entfernen und alle Kommentare anzuzeigen, heben Sie die Auswahl aller Filter im Dialogfeld **Filtertyp** auf und klicken Sie auf **Anwenden**.
 
-**Übergeordnetes Thema:**&#x200B;[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Themen oder Karten überprüfen](review.md)

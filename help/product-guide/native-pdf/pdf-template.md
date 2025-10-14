@@ -103,7 +103,7 @@ Abhängig von Ihrem Setup kann Ihr Administrator die Vorlagen konfigurieren:
 
 +++ Cloud Services
 
-Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnerebene finden Sie [ Abschnitt &quot;](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) konfigurieren“ im Installations- und Konfigurationshandbuch für Cloud Service.
+Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnerebene finden Sie [&#x200B; Abschnitt &quot;](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) konfigurieren“ im Installations- und Konfigurationshandbuch für Cloud Service.
 
 +++
 

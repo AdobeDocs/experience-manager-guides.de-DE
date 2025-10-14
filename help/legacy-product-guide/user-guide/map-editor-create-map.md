@@ -55,4 +55,4 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnungsdatei zu erstellen:
    > Um den erweiterten Zuordnungs-Editor zu verwenden, greifen Sie auf die Zuordnungsdatei im Web-Editor zu. Falls Ihr Administrator den erweiterten Zuordnungs-Editor als Standard-Editor in den Zuordnungsdateien konfiguriert hat, wird die Zuordnungsdatei direkt im erweiterten Zuordnungs-Editor zur Bearbeitung geöffnet. Siehe *Festlegen des erweiterten Zuordnungs-Editors als Standard* in Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Arbeiten mit dem Zuordnungs-Editor](map-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Zuordnungs-Editor](map-editor.md)

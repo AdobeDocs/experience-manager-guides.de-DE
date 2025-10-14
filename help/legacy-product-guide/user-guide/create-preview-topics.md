@@ -21,4 +21,4 @@ AEM Guides verfügt über eine leistungsstarke Funktion zum Erstellen von DITA-T
 - **[Vorschau eines Themas](web-editor-preview-topics.md)**
 
 
-**Übergeordnetes Thema:**&#x200B;[ Inhalt erstellen](authoring-content.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalt erstellen](authoring-content.md)

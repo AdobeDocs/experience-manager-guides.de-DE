@@ -47,4 +47,4 @@ Außerdem ist der Web-Editor DITA-fähig und unterstützt die Standards DITA 1.3
 - **[Kennzeichnungen verwenden](web-editor-use-label.md)**
 
 
-**Übergeordnetes Thema:**&#x200B;[ Erstellen von Inhalten mit AEM Guides](authoring-content-xml-doc.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen von Inhalten mit AEM Guides](authoring-content-xml-doc.md)

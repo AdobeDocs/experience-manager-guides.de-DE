@@ -21,4 +21,4 @@ Um die artikelbasierte Veröffentlichung zu aktivieren, laden Sie die folgenden 
 - Wissensdatenbankvorlage für die artikelbasierte Veröffentlichung
 - Komponentenpaket für die artikelbasierte Veröffentlichung
 
-**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

@@ -230,4 +230,4 @@ Die Zuordnung generiert alle Assets, die im Vorlagenordner referenziert werden. 
 
 - Wenn eine andere Zuordnung oder ein anderes Thema auf derselben Ebene im Ordner erstellt wird, werden die Namen der neu erstellten Assets mit 0,1,2 angehängt, usw. Sie können die Zuordnung zur Bearbeitung öffnen oder die Zuordnungsdatei im Repository speichern.
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung in den Zuordnungs-Editor](map-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Zuordnungs-Editor](map-editor.md)

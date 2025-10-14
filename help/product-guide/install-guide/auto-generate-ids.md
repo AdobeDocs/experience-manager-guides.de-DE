@@ -45,4 +45,4 @@ Führen Sie die folgenden Schritte aus, um -Elemente so zu konfigurieren, dass s
 1. Klicken Sie auf **Speichern**.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

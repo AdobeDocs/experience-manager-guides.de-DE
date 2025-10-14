@@ -33,7 +33,7 @@ Weitere Informationen zur Beschreibung der Funktion **Versionsverlauf** finden S
 
 Sie können Bedingungsattribute in Ihren DITA-Themen definieren. Verwenden Sie dann die Bedingungsattribute in der Bedingungsvorgabe, um den Inhalt in einer DITA-Zuordnung zu veröffentlichen. Experience Manager Guides bietet jetzt auch ein angereichertes Erlebnis im Web-Editor, mit dem Sie Bedingungsvorgaben effizienter erstellen und verwalten können. Sie können sie auch einfach bearbeiten, duplizieren oder löschen.
 
-![Bedingungsvorgaben auf der Registerkarte Verwalten des Web-Editors ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Bedingungsvorgaben auf der Registerkarte Verwalten des Web-Editors &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Weitere Informationen finden Sie unter [Verwenden von Bedingungsvorgaben](../user-guide/generate-output-use-condition-presets.md).
 
@@ -80,7 +80,7 @@ Die Optionen **Manuelles Update** und **Automatisches Update** sind intuitiver u
 Außerdem können Sie eine Baseline basierend auf der Bezeichnung duplizieren. Die Referenzversion wird basierend auf der angegebenen Beschriftung (falls vorhanden) beim Duplizieren ausgewählt, andernfalls wird die Version aus der duplizierten Baseline ausgewählt.
 
 
-![Duplizieren einer Baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
+![Duplizieren einer Baseline &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplizieren Sie eine Baseline basierend auf einer Beschriftung oder erstellen Sie eine exakte Kopie.*
 
@@ -139,7 +139,7 @@ Weitere Informationen finden Sie in der **Liste einfügen** Funktionsbeschreibun
 ## DITA-Elemente einfach entpacken
 
 Jetzt können Sie ein Element mithilfe der Option aus dem Kontextmenü eines Elements im Web-Editor einfach entpacken. Auf diese Weise können Sie den Text des Elements einfach mit dem übergeordneten Element zusammenführen.
-Weitere Informationen finden Sie im Abschnitt **Element entpacken** unter &quot;[ Funktionen im Web-Editor](../user-guide/web-editor-other-features.md).
+Weitere Informationen finden Sie im Abschnitt **Element entpacken** unter &quot;[&#x200B; Funktionen im Web-Editor](../user-guide/web-editor-other-features.md).
 
 ## Zugreifen auf Dateieigenschaften im Quellmodus der Bearbeitung
 

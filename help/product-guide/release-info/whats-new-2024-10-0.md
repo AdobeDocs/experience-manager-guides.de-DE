@@ -108,7 +108,7 @@ Sie können auch auf die **Layout**-Ansicht für schreibgeschützte DITA-Zuordnu
 *Anzeigen der gesperrten Dateien im Authoring- und Source-Modus.*
 
 
-Erfahren Sie, wie [ Dateien im Authoring- und Source-Modus öffnen ](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
+Erfahren Sie, wie [&#x200B; Dateien im Authoring- und Source-Modus öffnen &#x200B;](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
 
 
 ### Gruppierte Bedingungen für die erweiterte Inhaltsorganisation
@@ -117,4 +117,4 @@ Mit Experience Manager Guides können Sie jetzt Bedingungen gruppieren und in ei
 
 ![Bedingungen in einer verschachtelten Hierarchie organisiert](assets/conditions-nested-hierarchy.png){width="300" align="left"}
 
-Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).

@@ -27,7 +27,7 @@ Weitere Informationen zum Erstellen einer PDF-Ausgabevorgabe mit der DITA-OT-Met
 >
 > Die Veröffentlichungsoption „FMPS“ ist nur im Zuordnungs-Dashboard verfügbar.
 
-Verwenden Sie diese Methode, um eine PDF-Ausgabe nicht nur aus dem DITA-Inhalt, sondern auch aus FrameMaker-Dokumenten (.book und .fm) zu generieren, die in Ihrem AEM-Repository verfügbar sind. Die PDF kann durch Konfigurieren einer Ausgabevorgabe erstellt und mithilfe von FrameMaker Publishing Server (FMPS) veröffentlicht werden. Sie können das Erscheinungsbild Ihrer Ausgabe für PDF und andere Formate entwerfen und konfigurieren und in einer Einstellungsdatei (.sts) speichern. Diese Einstellungsdatei wird dann von FMPS verwendet, um eine Ausgabe für eine DITA-Map- oder Buchdatei zu generieren. Um eine Ausgabevorgabe zu erstellen oder zu bearbeiten, rufen Sie [ Ansicht auf (Grundlegendes zu den Ausgabevorgaben](../user-guide/generate-output-understand-presets.md).
+Verwenden Sie diese Methode, um eine PDF-Ausgabe nicht nur aus dem DITA-Inhalt, sondern auch aus FrameMaker-Dokumenten (.book und .fm) zu generieren, die in Ihrem AEM-Repository verfügbar sind. Die PDF kann durch Konfigurieren einer Ausgabevorgabe erstellt und mithilfe von FrameMaker Publishing Server (FMPS) veröffentlicht werden. Sie können das Erscheinungsbild Ihrer Ausgabe für PDF und andere Formate entwerfen und konfigurieren und in einer Einstellungsdatei (.sts) speichern. Diese Einstellungsdatei wird dann von FMPS verwendet, um eine Ausgabe für eine DITA-Map- oder Buchdatei zu generieren. Um eine Ausgabevorgabe zu erstellen oder zu bearbeiten, rufen Sie [&#x200B; Ansicht auf (Grundlegendes zu den Ausgabevorgaben](../user-guide/generate-output-understand-presets.md).
 
 Weitere Informationen zum Konfigurieren von FMPS finden Sie unter [Generieren von Ausgaben aus FrameMaker-Dokumenten](../user-guide/fm-output-generatation.md).
 
@@ -41,4 +41,4 @@ Weitere Informationen zur Erstellung von nativen PDF-Vorgaben finden Sie unter [
 
 
 
-**Übergeordnetes Thema:**&#x200B;[ Verstehen der Ausgabevorgaben](generate-output-understand-presets.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Verstehen der Ausgabevorgaben](generate-output-understand-presets.md)

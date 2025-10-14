@@ -21,4 +21,4 @@ Experience Manager Guides verfügt über die drei vordefinierten Editoren. Sie k
 
 
 
-**Übergeordnetes Thema:**&#x200B;[ Inhalt erstellen](authoring-content.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalt erstellen](authoring-content.md)

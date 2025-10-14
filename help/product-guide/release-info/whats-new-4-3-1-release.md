@@ -51,7 +51,7 @@ Sie können jetzt auch die Protokolldatei für die Inhaltserstellung anzeigen. I
 
 Sie können jetzt die Velocity-Tools in den Experience Manager Guides-Vorlagen verwenden. Mit diesen Tools können Sie verschiedene Funktionen auf die Daten anwenden, die Sie aus den Datenquellen abrufen. Sie können die Vorlagen beim Erstellen eines Inhaltsausschnitts oder Themas verwenden. Mit dieser Funktion sparen Sie Zeit und Mühe bei der manuellen Anwendung derselben Funktion auf jeden Datensatz.  Außerdem werden präzise Ergebnisse erzielt.
 Beispielsweise können Sie das $mathTool verwenden, um mathematische Funktionen auszuführen.
-Erfahren Sie mehr über [ Verwendung von Velocity-Tools in den Datenquellenvorlagen](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
+Erfahren Sie mehr über [&#x200B; Verwendung von Velocity-Tools in den Datenquellenvorlagen](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
 
 
 ## Native PDF-Verbesserungen
@@ -98,7 +98,7 @@ Verwenden Sie das Kontextmenü, um die Datei (.dita, .xml, Audio, Video oder Bil
 
 *Vorschau der Datei im Fensterbereich anzeigen.*
 
-Weitere Informationen zum Kontextmenü finden Sie in der **Optionen für eine Datei** Funktionsbeschreibung im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zum Kontextmenü finden Sie in der **Optionen für eine Datei** Funktionsbeschreibung im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).
 
 ## Bearbeiten einer Datei im Oxygen Connector-Plug-in
 

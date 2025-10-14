@@ -33,7 +33,7 @@ Die Übersetzung der Inhalte umfasst die folgenden Schritte:
 
 1. Erstellen Sie [Übersetzungsprojekte](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) um die zu übersetzenden Inhalte zusammenzustellen und den Übersetzungsprozess vorzubereiten.
 
-1. Verwenden Sie die Übersetzungsprojekte, um [den Prozess zur Übersetzung der Inhalte ](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) verwalten.
+1. Verwenden Sie die Übersetzungsprojekte, um [den Prozess zur Übersetzung der Inhalte &#x200B;](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) verwalten.
 
 
 Wenn Ihr Übersetzungsdienstleister keinen Connector für die Integration mit AEM bereitstellt, unterstützt AEM den manuellen Export und Import übersetzter Inhalte im XML-Format.
@@ -88,7 +88,7 @@ Je nach dem in Ihrem Setup verwendeten Übersetzungs-Workflow sollte die Option 
 
    >[!NOTE]
    >
-   > Wenn Sie einen Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector konfiguriert haben, wie in *[AEM-Dokumentation unter „Konfigurieren ](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-tic.html)* Übersetzungsintegrations-Frameworks“ beschrieben.
+   > Wenn Sie einen Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector konfiguriert haben, wie in *[AEM-Dokumentation unter „Konfigurieren &#x200B;](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-tic.html)* Übersetzungsintegrations-Frameworks“ beschrieben.
 
 1. Klicken Sie auf **Speichern**.
 

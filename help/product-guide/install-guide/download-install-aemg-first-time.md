@@ -55,4 +55,4 @@ Führen Sie die folgenden Schritte aus, um AEM Guides zum ersten Mal auf einen C
 >
 > Führen Sie das Installationsverfahren auf allen Instanzen der AEM-Server in Ihrem Setup durch.
 
-**Übergeordnetes Thema:**&#x200B;[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)

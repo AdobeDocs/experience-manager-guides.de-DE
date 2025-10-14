@@ -133,4 +133,4 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
 
 >[!NOTE]
 >
-> Stellen Sie sicher, dass alle Konfigurationen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktion bereitstellen. <br><br> Informationen finden Sie in der offiziellen [Dokumentation ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/deploying/overview) Bereitstellung für AEM as a Cloud Service&quot;.
+> Stellen Sie sicher, dass alle Konfigurationen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktion bereitstellen. <br><br> Informationen finden Sie in der offiziellen [Dokumentation &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/deploying/overview) Bereitstellung für AEM as a Cloud Service&quot;.

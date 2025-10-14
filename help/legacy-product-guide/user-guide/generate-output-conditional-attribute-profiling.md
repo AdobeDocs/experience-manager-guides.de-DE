@@ -59,4 +59,4 @@ Das `platform` wird im System gespeichert. Wenn ein Autor sich entscheidet, das 
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

@@ -35,4 +35,4 @@ Die Funktion zum automatischen Speichern ist nicht standardmäßig aktiviert. Si
 1. Klicken Sie auf **Speichern**.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

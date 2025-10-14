@@ -49,4 +49,4 @@ Führen Sie die folgenden Schritte aus, um die restlichen Dateien nach der Deins
 1. Klicken Sie **Cache ungültig machen**.
 1. Löschen Sie den Cache des Browsers.
 
-**Übergeordnetes Thema:**&#x200B;[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)

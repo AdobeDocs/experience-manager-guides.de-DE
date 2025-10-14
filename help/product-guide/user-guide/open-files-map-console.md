@@ -17,7 +17,7 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei in der Zuor
 
 1. Öffnen Sie **Map-**&quot; auf der Startseite.
 
-   ![Neue ](images/map-console-home-page.png){width="800"align="left"}
+   ![Neue &#x200B;](images/map-console-home-page.png){width="800"align="left"}
 
 2. Da keine Zuordnungsdatei ausgewählt ist, werden Sie aufgefordert, eine Zuordnungsdatei auszuwählen, um die Funktionen zur Zuordnungsverwaltung und -veröffentlichung zu verwenden.
 
@@ -45,4 +45,4 @@ Sie können auch eine vorhandene Zuordnungsdatei über den Editor in der Zuordnu
 
    Die Zuordnungsdatei wird in der Zuordnungskonsole geöffnet.
 
-   ![Neue ](images/map-console.png){align="left"}
+   ![Neue &#x200B;](images/map-console.png){align="left"}

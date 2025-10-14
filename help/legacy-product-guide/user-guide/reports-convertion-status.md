@@ -57,4 +57,4 @@ Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeig
       - **Ausgabe**: Pfad des erfolgreich konvertierten Dokuments. Durch Klicken auf den Link Ausgabe gelangen Sie zu dem Speicherort, an dem die Ausgabe gespeichert wird.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Reports](reports-intro.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)

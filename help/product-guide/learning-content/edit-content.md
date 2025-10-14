@@ -20,7 +20,7 @@ Führen Sie die folgenden Schritte aus, um das Thema zu bearbeiten:
 
    ![](assets/lock-learning-content.png){width="650" align="left"}
 
-1. Um einem Thema Inhalte hinzuzufügen, können Sie [Grundbausteine wie ](./lc-basic-blocks.md), Multimedia zusammen mit verschiedenen (interaktiven [) ](./lc-widgets.md).
+1. Um einem Thema Inhalte hinzuzufügen, können Sie [Grundbausteine wie &#x200B;](./lc-basic-blocks.md), Multimedia zusammen mit verschiedenen (interaktiven [) &#x200B;](./lc-widgets.md).
 1. Verwenden Sie zum Speichern Ihrer Arbeit **Als neue Version speichern**, um eine neue Version zu erstellen, oder drücken Sie `Ctrl+S`, um die vorhandene Datei zu überschreiben.
 
    ![](assets/saving-learning-content.png){width="650" align="left"}

@@ -49,7 +49,7 @@ Führen Sie die folgenden Schritte aus, um den Service für menschliche oder mas
 
    >[!NOTE]
    >
-   > Weitere [ zur Integration mit Übersetzungs-Services von Drittanbietern finden Sie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=de) der Dokumentation zu Adobe Experience Manager unter „Konfigurieren des Frameworks für die Übersetzungsintegration“.
+   > Weitere [&#x200B; zur Integration mit Übersetzungs-Services von Drittanbietern finden Sie &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=de) der Dokumentation zu Adobe Experience Manager unter „Konfigurieren des Frameworks für die Übersetzungsintegration“.
 
 1. Wählen Sie **Speichern und schließen** um die aktualisierten Ordnereigenschaften zu speichern.
 

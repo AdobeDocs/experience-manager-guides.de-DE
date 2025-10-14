@@ -23,4 +23,4 @@ Verwenden Sie das Symbol **Erweitern** in der Symbolleiste, um die Kopfzeilenlei
 
 
 
-**Übergeordnetes Thema:**&#x200B;[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)

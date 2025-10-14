@@ -47,7 +47,7 @@ Wenn Sie den ausgewählten Inhalt löschen, wird der verbleibende Inhalt nach de
 - Den Inhalt mit einem gültigen Element umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element einzuschließen:
 
    - Wählen Sie den Inhalt in einem Element aus.
-   - Wählen Sie ![ oben in der Symbolleiste das Symbol ](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
+   - Wählen Sie ![&#x200B; oben in der Symbolleiste das Symbol &#x200B;](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
 
      >[!NOTE]
      >
@@ -115,4 +115,4 @@ Beim Öffnen einer Datei im Editor bietet Experience Manager Guides die Funktion
 Sie können die Funktion zum Suchen der Datei mit der Option **Dateien immer im Repository suchen** auf der Registerkarte **Erscheinungsbild** der **Benutzereinstellungen** deaktivieren.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Arbeiten mit dem Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Editor](web-editor.md)

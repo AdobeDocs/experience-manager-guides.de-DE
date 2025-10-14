@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dieser Artikel behandelt die neuen und erweiterten Funktionen in der Version Dezember 2023 von Adobe Experience Manager Guides (später als *Experience Manager Guides as a Cloud Service* bezeichnet).
 
-Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie [ den Versionshinweisen ](release-notes-2023-12-0.md).
+Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und den in dieser Version behobenen Problemen finden Sie [&#x200B; den Versionshinweisen &#x200B;](release-notes-2023-12-0.md).
 
 
 ## Verwenden von Variablen in der PDF-Ausgabe
@@ -124,7 +124,7 @@ Experience Manager Guides bietet jetzt ein verbessertes Benutzererlebnis zum Ers
 Außerdem können Sie eine Baseline basierend auf der Bezeichnung duplizieren. Die Referenzversion wird basierend auf der angegebenen Beschriftung (falls vorhanden) beim Duplizieren ausgewählt, andernfalls wird die Version aus der duplizierten Baseline ausgewählt.
 
 
-![Duplizieren einer Baseline ](assets/duplicate-baseline.png) {width="300" align="left"}
+![Duplizieren einer Baseline &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplizieren Sie eine Baseline basierend auf einer Beschriftung oder erstellen Sie eine exakte Kopie.*
 

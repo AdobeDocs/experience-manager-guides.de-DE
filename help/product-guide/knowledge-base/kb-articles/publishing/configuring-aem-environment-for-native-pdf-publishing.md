@@ -111,7 +111,7 @@ Die native PDF-Publishing-Engine benötigt Oracle-JDK, um die Knotenmodule im AE
 Befehl: yum install fontconfig
 12. Generieren von nativem PDF aus Vorgaben im Web-Editor
 
-**HINWEIS** : Das Paket node_modules.zip kann ([) ](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) werden.
+**HINWEIS** : Das Paket node_modules.zip kann ([) &#x200B;](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) werden.
 
 Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssystem ist eine Problemumgehung für Benutzende, die Guides 4.1 oder frühere Versionen verwenden (Schritte 6-12)
 

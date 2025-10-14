@@ -22,4 +22,4 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | Boolescher Wert \(true/false\). Wenn Sie den relativen Pfad des verknüpften Inhalts anzeigen möchten, legen Sie diese Eigenschaft auf „false“ fest. <br> **Standardwert**: true |
 
-**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

@@ -46,7 +46,7 @@ Um eine Massen-Aktivierungszuordnungssammlung zu erstellen, führen Sie die folg
 
 Die DITA-Zuordnungsdateien werden Ihrer Massen-Aktivierungszuordnungssammlung hinzugefügt.
 
-![ erstellte Massenaktivierungs-Sammlung](images/bulk-activation-collection-created.png){width="800" align="left"}
+![&#x200B; erstellte Massenaktivierungs-Sammlung](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 ## Registerkarte „Zuordnungen und Vorgaben“
 
@@ -85,7 +85,7 @@ Die **Audit-Verlauf** enthält Informationen zu den aktivierten Zuordnungsausgab
 
 - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wurde. Basierend auf diesen Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung aktivieren möchten.
 - **Veröffentlicht**: Zeigt Datum und Uhrzeit der letzten veröffentlichten (oder aktivierten) Ausgabe an. Wenn Sie auf den Link klicken, wird die Seite Aktivierungsergebnisse angezeigt, die die Protokolle mit Informationen zum Stammpfad enthält, in dem der Inhalt aktiviert wird.
-  ![ hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![&#x200B; hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](images/bulk-collection-audit-history.png){width="800" align="left"}
 
   *Informationen zu den aktivierten Zuordnungsausgaben finden Sie auf der Registerkarte **Prüfverlauf**.*
 

@@ -80,4 +80,4 @@ Führen Sie die folgenden Schritte aus, um die Textfilter zu konfigurieren:
 
 Die konfigurierten Filter sind im Bedienfeld Filter verfügbar.
 
-**Übergeordnetes Thema:**&#x200B;[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

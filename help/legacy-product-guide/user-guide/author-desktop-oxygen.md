@@ -20,4 +20,4 @@ Sie können Ausgaben in PDF, ePub, HTML und vielen anderen Formaten unter Verwen
 
 *Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion in der Umgebung aktivieren zu lassen. Dies ist nicht als Teil der vordefinierten -Unterstützung aktiviert.*
 
-**Übergeordnetes Thema:**&#x200B;[ Erstellen von Inhalten mit Desktop-Tools](author-desktop-tools.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen von Inhalten mit Desktop-Tools](author-desktop-tools.md)

@@ -198,4 +198,4 @@ Klicken Sie **Aktualisieren** um eine neue Liste fehlerhafter Links zu erhalten 
 1. Klicken Sie **CSV herunterladen**, um den aktuellen Schnappschuss der fehlerhaften Links in der DITA-Karte herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die fehlerhaften Links, die in der Ansicht Beschädigte Links gefiltert wurden. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen und anzeigen.
 
 
-**Übergeordnetes Thema:**&#x200B;[ Reports](reports-intro.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)

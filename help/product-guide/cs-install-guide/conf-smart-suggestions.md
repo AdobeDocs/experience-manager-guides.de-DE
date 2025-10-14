@@ -125,7 +125,7 @@ Weitere Informationen finden Sie unter [Die Editor-Funktionen kennen](../user-gu
 
 Konfigurieren Sie nach der Aktivierung der Funktion „KI-Assistent“ die Funktion „Intelligente Vorschläge“ im Ordnerprofil.
 
-Weitere Informationen finden Sie unter [Konfigurieren von Smart-Vorschlägen im ](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)&quot;.
+Weitere Informationen finden Sie unter [Konfigurieren von Smart-Vorschlägen im &#x200B;](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)&quot;.
 
 
 ## Anhang {#appendix}
@@ -166,4 +166,4 @@ Weitere Informationen finden Sie unter [Konfigurieren von Smart-Vorschlägen im 
 | chat.url | Endpunkt für den KI-Assistenten-Service | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | Typ der AEM-Instanz. Stellen Sie sicher, dass dies für jede AEM-Instanz, für die die Smart-Vorschläge konfiguriert sind, eindeutig ist. Ein Anwendungsfall bestünde darin, die Funktion in der Staging-Umgebung mit „instance.type“ = „stage“ zu testen, während die Funktion gleichzeitig auch in „prod“ konfiguriert ist. | Jeder eindeutige Schlüssel, der die Umgebung identifiziert. Nur *alphanumerische* Werte sind zulässig. „dev“/„stage“/„prod“/„test1“/„stage2“ | „prod“ |
 
-Nach der Konfiguration wird das Symbol für den KI-Assistenten auf der Startseite und im Editor der Experience Manager Guides angezeigt. Weitere Informationen finden Sie [ Abschnitt ](../user-guide/ai-assistant.md)KI-Assistent“ im Experience Manager-Benutzerhandbuch.
+Nach der Konfiguration wird das Symbol für den KI-Assistenten auf der Startseite und im Editor der Experience Manager Guides angezeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt &#x200B;](../user-guide/ai-assistant.md)KI-Assistent“ im Experience Manager-Benutzerhandbuch.

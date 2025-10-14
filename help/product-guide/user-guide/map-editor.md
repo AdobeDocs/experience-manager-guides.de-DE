@@ -38,4 +38,4 @@ Dieses Thema führt Sie durch den Prozess der Erstellung einer DITA-Karte und de
 - **[Zusätzliche Funktionen im Zuordnungs-Editor](map-editor-other-features.md)**
 
 
-**Übergeordnetes Thema:**&#x200B;[ Erstellen von Inhalten mit AEM Guides](authoring-content-xml-doc.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen von Inhalten mit AEM Guides](authoring-content-xml-doc.md)

@@ -62,7 +62,7 @@ Zum Beispiel:
 
 
 
-     Ihr Administrator kann die Zuordnungen in der Datei *experienceFragmentMapping.json* hinzufügen.  Weitere Informationen zum Erstellen [ Zuordnung zwischen einem Thema und einem Experience Fragment ](../cs-install-guide/conf-experience-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
+     Ihr Administrator kann die Zuordnungen in der Datei *experienceFragmentMapping.json* hinzufügen.  Weitere Informationen zum Erstellen [&#x200B; Zuordnung zwischen einem Thema und einem Experience Fragment &#x200B;](../cs-install-guide/conf-experience-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
 
    * Sie können auch verschiedene Bedingungen zum Veröffentlichen des Inhalts auswählen.  Wählen Sie eine der folgenden Optionen aus:
 

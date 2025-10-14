@@ -201,7 +201,7 @@ Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
 > 
 >Um das Symbol **Zitate** im linken Bereich anzuzeigen, muss Ihr Systemadministrator die Option **Zitate** auf der Registerkarte **Panels** in **Settings** aktivieren.
 
-1. Wählen Sie **Zitate** ![Zitationssymbol ](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
+1. Wählen Sie **Zitate** ![Zitationssymbol &#x200B;](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
 1. Ziehen Sie das Zitat aus dem Bedienfeld **Zitate** und legen Sie es an der entsprechenden Position im Thema ab.
 
    Sie können auch **Einfügen** unter ![](images/options.svg)**Optionen** auswählen, um ein Zitat einzufügen.

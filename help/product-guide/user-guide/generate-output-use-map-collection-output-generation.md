@@ -23,7 +23,7 @@ Mit Zuordnungssammlung können Sie anzeigen, ob sich eine Zuordnung seit der let
 
 Um eine Zuordnungssammlung zu erstellen und der Sammlung DITA-Zuordnungen hinzuzufügen, führen Sie die folgenden Schritte aus:
 
-1. Öffnen Sie die Startseite von [Experience Manager Guides ](./intro-home-page.md#map-collections) wählen Sie **Sammlungen zuordnen** aus.
+1. Öffnen Sie die Startseite von [Experience Manager Guides &#x200B;](./intro-home-page.md#map-collections) wählen Sie **Sammlungen zuordnen** aus.
 
    Die **Sammlungen zuordnen** wird auf einer neuen Registerkarte geöffnet.
 
@@ -149,4 +149,4 @@ Dadurch werden auch alle Vorgaben oder Gebietsschemata entfernt, die mit der DIT
 
 ![](images/cancel-publish-task-map-collection.png){align="left"}
 
-**Übergeordnetes Thema:**&#x200B;[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

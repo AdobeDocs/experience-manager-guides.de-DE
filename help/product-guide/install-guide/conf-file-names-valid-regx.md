@@ -47,4 +47,4 @@ So konfigurieren Sie einen RegX für gültige \(oder zulässige\) Zeichen in Dat
 >
 > Ähnlich wie bei der Liste der gültigen Dateinamenzeichen können Sie auch eine Liste gültiger Dateinamenzeichen für die AEM-Site-Ausgabe angeben. Weitere Informationen finden Sie unter [Konfigurieren gültiger Dateinamen für die AEM-Site-Ausgabe](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Übergeordnetes Thema:**&#x200B;[ Dateinamen konfigurieren](conf-file-names.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Dateinamen konfigurieren](conf-file-names.md)
