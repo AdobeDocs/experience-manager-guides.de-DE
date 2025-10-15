@@ -1,7 +1,8 @@
 ---
 title: Versionshinweise zu | Aktualisierungsanweisungen für Adobe Experience Manager Guides Version 5.0.0
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf Version 5.0.0 von Adobe Experience Manager Guides.
-source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
+exl-id: 763db247-133e-40c0-807a-2f965b1ddb2f
+source-git-commit: ef8de789f8d6cf0cabc55f4d12c72b164619231c
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 6%
@@ -18,7 +19,7 @@ Eine Liste der in dieser Version behobenen Probleme finden Sie unter [Behobene P
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die von Experience Manager Guides 4.6.0 unterstützten Softwareanwendungen aufgeführt.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die von Experience Manager Guides Version 5.0.0 unterstützten Softwareanwendungen aufgeführt.
 
 ### Adobe Experience Manager
 
@@ -62,7 +63,7 @@ Sie können Ihre aktuelle Version von Guides einfach auf Version 5.0.0 aktualisi
 - Wenn Sie Version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 oder 4.1.x verwenden, müssen Sie vor dem Upgrade auf Version 5.0.0 ein Upgrade auf Version 4.4 durchführen.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 >[!NOTE]
 >
