@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie im Abschnitt Produktschulung und -lernen eine
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: 6f0643ca4b43f88ead42bbeade4e3e7252263f32
+source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Bevor wir uns mit dem Schritt-für-Schritt-Prozess befassen, hier ein kurzes Vid
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
-Führen Sie die folgenden Schritte aus, um eine Fragenbank zu erstellen:
+**Schritte zum Erstellen einer Fragenbank**
 
->[!VIDEO](https://video.tv.adobe.com/v/3469321)
+Führen Sie die folgenden Schritte aus, um eine Fragenbank zu erstellen:
 
 1. Öffnen Sie einen Kurs im **Kursmanager** und wählen Sie **Neu hinzufügen** aus dem Menü **Optionen**.
 1. Wählen Sie **Fragenbank** aus.
