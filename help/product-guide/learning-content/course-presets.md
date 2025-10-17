@@ -4,9 +4,9 @@ description: Bietet eine Einführung in die unterstützten Vorgaben zum Veröffe
 feature: Authoring
 role: User
 exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ Bei der Veröffentlichung eines Kurses können Sie SCORM und PDF auswählen, um 
 
 - **PDF:** Mit der PDF-Ausgabevorgabe können Sie Kursinhalte in einem professionellen, druckfertigen Format veröffentlichen. Das PDF-Format eignet sich ideal für die Freigabe von Inhalten zu Überprüfungs- oder Archivierungszwecken.
 
-Eine Videoübersicht zum Erstellen, Konfigurieren und Generieren von Ausgaben für eine Voreinstellung finden Sie unter [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content).
+Eine Videoübersicht zum Erstellen, Konfigurieren und Generieren der Ausgabe für eine Vorgabe finden Sie unter [Unterstützte Vorgaben](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) ![](assets/Smock_VideoCheckedOut_18_N.svg).

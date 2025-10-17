@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die verschiedenen Funktionen in Experience 
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 17d71e65e2f4f79a764d822f6f1ada136a7379d7
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '569'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um neue Inhalte zu Ihrem Kurs hinzuzufü
    - **Group**: Eine Lerngruppe hilft dabei, verwandte Themen wie Kapitel, Themen und andere Module in einer logischen Reihenfolge zu organisieren, indem eine klare Hierarchie erstellt wird, die die Verwaltung und Wiederverwendung von Schulungsmaterialien erleichtert.
 3. Wählen Sie **Erstellen** aus.
 
-Der ausgewählte Inhalt wird erstellt und dem Kurs hinzugefügt. Eine Videoübersicht finden Sie unter [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+Der ausgewählte Inhalt wird erstellt und dem Kurs hinzugefügt. Eine Videoübersicht finden Sie unter [Hinzufügen neuer Inhalte zu einem Kurs](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) ![](assets/Smock_VideoCheckedOut_18_N.svg).
 
 ## Vorhandenen Inhalt hinzufügen
 
@@ -50,7 +50,7 @@ Der ausgewählte Kursinhalt wird dem Kurs aus dem Repository hinzugefügt.
 >
 >Sie können auch die Option **Vorhandene hinzufügen** > **Datei (nur ZIP-Datei für Ressourcen)** verwenden, um eine ZIP-Datei einzuschließen, die entpackt und in die Ordnerstruktur der endgültigen SCORM-Ausgabe integriert wird. Dies hilft, die Ressourcenverpackung während der Kursveröffentlichung zu optimieren.
 
-Eine Videoübersicht finden Sie unter [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+Eine Videoübersicht finden Sie unter [Hinzufügen vorhandener Inhalte zu einem Kurs](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) ![](assets/Smock_VideoCheckedOut_18_N.svg).
 
 ## Inhalt entfernen
 
@@ -58,7 +58,7 @@ Sie können jedes Thema aus dem Kurs entfernen, indem Sie das Menü **Optionen**
 
 ![](assets/remove-learning-content.png)
 
-Eine Videoübersicht finden Sie unter [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+Eine Videoübersicht finden Sie unter [Entfernen von Inhalten aus dem Kurs](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
 
 
 ## Kursversionen erstellen
@@ -83,4 +83,4 @@ Die **Anzeigen**-Option bestimmt, wie Themen angezeigt werden. Sie können sie m
 
 ![](assets/course-display-settings.png)
 
-Eine Videoübersicht finden Sie unter [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+Eine Videoübersicht finden Sie unter [Einstellungen anzeigen](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
