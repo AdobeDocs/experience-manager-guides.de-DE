@@ -20,4 +20,4 @@ Außerdem ist der Editor DITA-fähig und unterstützt die Standards DITA 1.3, 1.
 
 
 
-**Übergeordnetes Thema:**[ Erstellen von Inhalten mit Experience Manager Guides](authoring-content-xml-doc.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen von Inhalten mit Experience Manager Guides](authoring-content-xml-doc.md)
