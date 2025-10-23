@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie als Autor oder Autorin in AEM Guides Kommenta
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Kommentare zur Adressenüberprüfung {#id2056B0X0KBI}
 
-Als Autor können Sie Kommentare in einem Thema mit dem Editor bearbeiten. Die Kommentare werden auf der Grundlage der im Überprüfungsfeld ausgewählten Überprüfungsaufgabe geladen. Weitere Informationen finden Sie in der Beschreibung des Bedienfelds **Überprüfen** ![](images/active-review-tasklist-icon.svg) im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Als Autor können Sie Kommentare in einem Thema mit dem Editor bearbeiten. Die Kommentare werden auf der Grundlage der im Überprüfungsfeld ausgewählten Überprüfungsaufgabe geladen. Weitere Informationen finden Sie in der Beschreibung des Bedienfelds **Überprüfen** ![](images/active-review-tasklist-icon.svg) im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-left-panel.md).
 
 In den folgenden Abschnitten werden Möglichkeiten zum Bearbeiten von Kommentaren im Editor beschrieben.
 
@@ -91,4 +91,4 @@ Wenn Sie der Initiator oder Autor einer Prüfungsaufgabe sind und diese über di
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

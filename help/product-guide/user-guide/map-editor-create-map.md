@@ -4,7 +4,7 @@ description: Erstellen Sie in Experience Manager Guides eine Zuordnung mit dem Z
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnung zu erstellen:
 
    ![](images/create-map-options.png){align="left"}
 
-   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides &#x200B;](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
+   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides ](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
 
 2. Das **Neue Zuordnung** wird angezeigt.
 
@@ -56,17 +56,17 @@ Führen Sie die folgenden Schritte aus, um einer Zuordnungsdatei über die Zuord
    ![](images/new-map-file-in-editor.png){align="left"}
 
 
-   - **A** - \(*Registerkartenleiste*\): Dies ähnelt der Registerkartenleiste des Editors. Weitere [&#x200B; finden Sie &#x200B;](./web-editor-features.md#tab-bar) der Registerkarte „Leiste“ im Editor.
+   - **A** - \(*Registerkartenleiste*\): Dies ähnelt der Registerkartenleiste des Editors. Weitere [ finden Sie ](./web-editor-tab-bar.md) der Registerkarte „Leiste“ im Editor.
 
    - **B** - \(*Symbolleiste*\) Dies ist die Symbolleiste, die Ihnen das Arbeiten mit Zuordnungsdateien ermöglicht. Weitere Informationen zu den in der Symbolleiste verfügbaren Funktionen finden Sie unter [In der Symbolleiste des Zuordnungs-Editors verfügbare Funktionen](#features-available-in-the-map-editors-toolbar).
 
    - **C** - \(*Kartenansichten*\): Ermöglicht es Ihnen, im Zuordnungs-Editor zwischen Layout, Autor, Source und Vorschau zu wechseln. In **Layout**-Ansicht können Sie die Themen in einer DITA-Karte organisieren. Dadurch wird die Baumstruktur oder hierarchische Ansicht der Karte angezeigt. Die **Autor**-Ansicht ermöglicht die Bearbeitung der Themen im Zuordnungs-Editor. Dadurch erhält auch die WYSIWYG-Ansicht der Zuordnungsdatei. Die Ansicht **Source** ermöglicht es Ihnen, mit der zugrunde liegenden XML der Zuordnungsdatei zu arbeiten. Die Vorschau bietet Ihnen eine konsolidierte Ansicht aller Themen und Unterzuordnungen innerhalb der Zuordnungsdatei.
 
-   - **D** - \(*Linker Bereich*\): Ermöglicht den Zugriff auf den linken Bereich, in dem Sie Zugriff auf die Sammlungen, das Repository, die Zuordnung, die Gliederung und andere Funktionen haben. Sie können sie erweitern oder reduzieren, indem Sie auf das Symbol „Erweitern/Reduzieren“ klicken. Weitere Informationen zu den im linken Bereich verfügbaren Funktionen finden Sie unter [Linker Bereich](./web-editor-features.md#left-panel) im Editor.
+   - **D** - \(*Linker Bereich*\): Ermöglicht den Zugriff auf den linken Bereich, in dem Sie Zugriff auf die Sammlungen, das Repository, die Zuordnung, die Gliederung und andere Funktionen haben. Sie können sie erweitern oder reduzieren, indem Sie auf das Symbol „Erweitern/Reduzieren“ klicken. Weitere Informationen zu den im linken Bereich verfügbaren Funktionen finden Sie unter [Linker Bereich](./web-editor-left-panel.md) im Editor.
 
    - **E** - \(*Middle Area*\): Inhaltsbearbeitungsbereich zuordnen.
 
-   - **F** - \(*Bereich rechts*\): Ermöglicht den Zugriff auf den Bereich „Eigenschaften“. Sie können die Inhaltseigenschaften und die Zuordnungseigenschaften des ausgewählten Themas oder der ausgewählten Zuordnung anzeigen. Weitere Informationen zu den in diesem Bedienfeld verfügbaren Funktionen finden Sie unter &quot;[&#x200B; Bedienfeld](web-editor-features.md#right-panel) im Editor.
+   - **F** - \(*Bereich rechts*\): Ermöglicht den Zugriff auf den Bereich „Eigenschaften“. Sie können die Inhaltseigenschaften und die Zuordnungseigenschaften des ausgewählten Themas oder der ausgewählten Zuordnung anzeigen. Weitere Informationen zu den in diesem Bedienfeld verfügbaren Funktionen finden Sie unter &quot;[ Bedienfeld](web-editor-right-panel.md) im Editor.
 
 1. Wechseln Sie im linken Bedienfeld zur Ansicht **Repository** .
 
@@ -134,7 +134,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnung über die Assets-Benut
 
    ![](images/first-version-map-none.png){align="left"}
 
-   Die Versionsinformationen für eine neu erstellte Zuordnung werden als *Keine* angezeigt. Wenn Sie eine neue Version speichern, wird ihr eine Versionsnummer als 1.0 zugewiesen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version &#x200B;](web-editor-features.md#save-as-new-version).
+   Die Versionsinformationen für eine neu erstellte Zuordnung werden als *Keine* angezeigt. Wenn Sie eine neue Version speichern, wird ihr eine Versionsnummer als 1.0 zugewiesen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version ](web-editor-features.md#save-as-new-version).
 
    Sie können die Zuordnung zur Bearbeitung im konfigurierten Zuordnungs-Editor öffnen oder im Adobe Experience Manager-Repository speichern.
 
@@ -166,7 +166,7 @@ Führen Sie die folgenden Schritte aus, um über die Assets-Benutzeroberfläche 
 
    ![](images/edit-map-action-menu.png){align="left"}
 
-   Die Zuordnungsdatei wird im Editor zur Bearbeitung geöffnet. Um der Zuordnungsdatei Themen hinzuzufügen, führen Sie die Schritte (4-8) in [Themen zu einer Zuordnungsdatei hinzufügen“ &#x200B;](#add-topics-to-a-map-file).
+   Die Zuordnungsdatei wird im Editor zur Bearbeitung geöffnet. Um der Zuordnungsdatei Themen hinzuzufügen, führen Sie die Schritte (4-8) in [Themen zu einer Zuordnungsdatei hinzufügen“ ](#add-topics-to-a-map-file).
 
 
 

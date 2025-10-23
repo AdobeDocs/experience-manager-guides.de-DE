@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine Prüfungsaufgabe erstellen und Themen zu
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Da der Überprüfungs-Workflow projektspezifisch ist, muss der Initiator der Üb
 
 Sie können eine Prüfungsaufgabe aus folgenden Elementen erstellen:
 
-- **Editor**: Ermöglicht es Ihnen, ein einzelnes Thema oder eine DITA-Karte zur Überprüfung zu senden. Beachten Sie, dass der Workflow zum Erstellen einer Prüfungsaufgabe häufig im Editor und in der Assets-Benutzeroberfläche verwendet wird. Nur die Methode zum Starten des Überprüfungs-Workflows unterscheidet sich. Weitere Informationen zum Starten des Überprüfungs-Workflows aus dem Editor finden Sie unter [Überprüfungsaufgabe erstellen](web-editor-features.md#id215OCJ00JXA) im Editor.
+- **Editor**: Ermöglicht es Ihnen, ein einzelnes Thema oder eine DITA-Karte zur Überprüfung zu senden. Beachten Sie, dass der Workflow zum Erstellen einer Prüfungsaufgabe häufig im Editor und in der Assets-Benutzeroberfläche verwendet wird. Nur die Methode zum Starten des Überprüfungs-Workflows unterscheidet sich. Weitere Informationen zum Starten des Überprüfungs-Workflows aus dem Editor finden Sie unter [Überprüfungsaufgabe erstellen](web-editor-left-panel.md#review) im Editor.
 
 - **Assets-Benutzeroberfläche**: Ermöglicht es Ihnen, ein oder mehrere Themen und eine DITA-Karte zur Überprüfung zu senden. Die Freigabe von Dokumenten zur Überprüfung aus dem Workflow der Assets-Benutzeroberfläche wird in diesem Abschnitt behandelt.
 
@@ -75,7 +75,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Wählen Sie die Stammzuordnung aus dem **Stammzuordnungspfad**. Diese Rootmap wird verwendet, um alle wichtigen Verweise und Glossarbegriffe aufzulösen, die im Überprüfungsinhalt verwendet werden. Wenn Sie die Rootmap nicht auswählen, werden die wichtigsten Referenzen oder Glossarbegriffe, die mit dem DITA-Thema verknüpft sind, nicht aufgelöst, bevor das Thema zur Überprüfung gesendet wird.
 
@@ -202,7 +202,7 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
 
@@ -250,7 +250,6 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
    - **Neu zuweisen**: Zeigt das Dialogfeld „Reviewer neu zuweisen“ an. Sie können den Namen eines Reviewers oder einer Benutzerrolle \(oder einer Gruppe\) eingeben, dem bzw. der die Überprüfungsaufgabe zugewiesen werden soll. Dadurch werden alle vorhandenen Reviewer aus den ausgewählten Themen entfernt und die neu ausgewählten Reviewer diesen Themen zugewiesen.
    - **Exportieren**: Ermöglicht den Export der Aufgabendetails für die Überprüfung in eine CSV-Datei. Die Datei enthält Details wie den Pfad und Titel des Themas, den Namen des Reviewers und die Version der Themen, die zur Überprüfung gesendet werden.
    - **Reviewer bearbeiten**: Wenn Sie das ![](images/edit_pencil_icon.svg)Symbol in der Themenliste auswählen, wird das Dialogfeld „Reviewer bearbeiten“ angezeigt. Sie können Reviewer für ausgewählte Themen in diesem Dialogfeld hinzufügen oder entfernen.
-
    >[!IMPORTANT]
    >
    > Sie müssen mindestens einen Validierungsverantwortlichen zuweisen, um die Prüfungsaufgabe zu erstellen.
@@ -270,4 +269,4 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
 Alle validierungsverantwortlichen Personen werden per E-Mail darüber informiert, dass ihnen zu überprüfende Themen zugewiesen wurden. Die E-Mail enthält einen direkten Link, über den sie in einem Browser-Fenster auf das Thema zugreifen können. Die Themen werden zusammen mit der DITA-Karte im Review-Modus geöffnet.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

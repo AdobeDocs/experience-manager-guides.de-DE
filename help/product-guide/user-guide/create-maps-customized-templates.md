@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine benutzerdefinierte Vorlage erstellen, zu
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Sie können Zuordnungs- und Themenvorlagen wie folgt erstellen:
 
 ### Erstellen benutzerdefinierter Vorlagen im Editor
 
-Die **Vorlagen**-Funktion ist im [linken Bereich der Editor-](./web-editor-features.md#left-panel) vorhanden und nur für Administratoren verfügbar. Mithilfe dieses Bedienfelds können Admins mühelos Vorlagen erstellen und verwalten, die dann von den Autoren verwendet werden können. Standardmäßig werden die Vorlagen unter den Vorlagen vom Typ *Zuordnung* und *Thema* kategorisiert.
+Die **Vorlagen**-Funktion ist im [linken Bereich der Editor-](./web-editor-left-panel.md) vorhanden und nur für Administratoren verfügbar. Mithilfe dieses Bedienfelds können Admins mühelos Vorlagen erstellen und verwalten, die dann von den Autoren verwendet werden können. Standardmäßig werden die Vorlagen unter den Vorlagen vom Typ *Zuordnung* und *Thema* kategorisiert.
 
 ![](images/templates-panel_cs.png){width="300" align="left"}
 
@@ -230,4 +230,4 @@ Die Zuordnung generiert alle Assets, die im Vorlagenordner referenziert werden. 
 
 - Wenn eine andere Zuordnung oder ein anderes Thema auf derselben Ebene im Ordner erstellt wird, werden die Namen der neu erstellten Assets mit 0,1,2 angehängt, usw. Sie können die Zuordnung zur Bearbeitung öffnen oder die Zuordnungsdatei im Repository speichern.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Zuordnungs-Editor](map-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Zuordnungs-Editor](map-editor.md)

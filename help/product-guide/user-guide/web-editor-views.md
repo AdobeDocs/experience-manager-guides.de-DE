@@ -4,7 +4,7 @@ description: Themen im Autoren-, Quell- und Vorschaumodus anzeigen. Erfahren Sie
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Die Source-Ansicht zeigt die zugrunde liegende XML an, aus der das Thema besteht
   Im obigen Screenshot wird eine Kreuzhervorhebung verwendet, um die Zeile mit fehlerhafter XML darauf hinzuweisen.
 
 * Mit der Funktion „Suchen und Ersetzen“ können Sie in der Source-Ansicht nach beliebigen Texten, Elementen oder Attributen suchen.
-Weitere Informationen finden Sie in der Beschreibung der Funktion **Suchen und Ersetzen** im Abschnitt [Registerkartenleiste](web-editor-features.md#tab-bar).
+Weitere Informationen finden Sie in der Beschreibung der Funktion **Suchen und Ersetzen** im Abschnitt [Registerkartenleiste](web-editor-tab-bar.md).
 
 * Die Source-Ansicht bietet viele Tastaturbefehle, mit denen Sie schnell zu einem Dokument navigieren und es bearbeiten können. In der folgenden Tabelle sind die unterstützten Aktionen und ihre Tastaturbefehle aufgeführt:
 
@@ -149,4 +149,4 @@ Gehen Sie wie folgt vor, um ein Thema als PDF zu exportieren:
    Die PDF wird generiert und in einer neuen Registerkarte geöffnet. Andernfalls wird ein Dialogfeld zum Speichern der PDF auf Ihrem lokalen System angezeigt.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
