@@ -4,7 +4,7 @@ description: Machen Sie sich mit den Funktionen des Karten-Editors in Adobe Expe
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
+source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Funktionen des Zuordnungs-Editors {#id1942D0S0IHS}
 
-Die Symbolleiste im Zuordnungs-Editor ähnelt dem Themen-Editor. Grundlegende Vorgänge wie das Umschalten des linken Bedienfelds, das Speichern der Zuordnung, das Erstellen einer neuen Version der Zuordnung, das Rückgängigmachen/Wiederholen des letzten Vorgangs und das Löschen der ausgewählten Elemente sind in beiden Editoren häufig. Weitere Informationen zur Funktionsweise dieser Vorgänge finden Sie im Abschnitt [Kennen Sie die Editor](web-editor-features.md#)-Funktionen.
+Die Symbolleiste im Zuordnungs-Editor ähnelt dem Themen-Editor. Grundlegende Vorgänge wie das Umschalten des linken Bedienfelds, das Speichern der Zuordnung, das Erstellen einer neuen Version der Zuordnung, das Rückgängigmachen/Wiederholen des letzten Vorgangs und das Löschen der ausgewählten Elemente sind in beiden Editoren häufig. Weitere Informationen zur Funktionsweise dieser Vorgänge finden Sie [Symbolleiste im Editor](web-editor-toolbar.md#)-Abschnitt.
 
 Die Optionen, die Sie in der Editor-Symbolleiste anzeigen, basieren auf der Ansicht des Zuordnungs-Editors. Im Karten-Editor stehen vier Ansichten zur Verfügung:
 
@@ -146,7 +146,7 @@ Darüber hinaus können Sie die folgenden Symbole anzeigen und die zugehörigen 
 
 **Einfügen vor/Einfügen nach** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Zeigt das Dialogfeld **Element vor oder &#x200B;** Element nach einfügen“ an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
+Zeigt das Dialogfeld **Element vor oder **Element nach einfügen“ an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
 
 **Element** - ![](images/Add_icon.svg)
 
