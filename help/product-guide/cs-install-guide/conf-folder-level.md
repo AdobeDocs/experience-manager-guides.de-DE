@@ -499,7 +499,7 @@ Um sicherzustellen, dass intelligente Vorschläge effektiv funktionieren, sollte
 
 Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
 
-Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview).
 
 Auf der Registerkarte **XML** Editor-Konfiguration“ können Sie die Standardfragen des Bedienfelds **Hilfe** konfigurieren.
 
@@ -551,7 +551,7 @@ Standardmäßig verfügt der XML-Editor über viele Funktionen, die Ihre Autoren
 
 Mit dieser Einstellung können Sie JSON-Erweiterungen erstellen, die die in der `ui_config.json`-Datei vorgenommenen Änderungen widerspiegeln. Sie können diese Erweiterungen unabhängig auf Ordnerprofilebene hochladen, was eine höhere Flexibilität und Anpassung bietet. Wenn Sie beispielsweise Änderungen an der Konfiguration des **XML-Editors** vornehmen, wie z. B. eine Schaltfläche aktualisieren, erkennt das System automatisch die Unterschiede. Durch Hochladen dieser Änderungen in die **Konfiguration der Benutzeroberfläche des XML-Editors** und Konvertieren in JSON-Erweiterungen mithilfe der Schaltfläche **UI-Konfiguration in JSON**&quot; generiert das System eine Erweiterung, die die neue Funktionalität enthält.
 
-Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
