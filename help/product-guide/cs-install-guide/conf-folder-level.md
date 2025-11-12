@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 63e81b6213e293dd6b6e7e46b611b25d8cb6a815
+source-git-commit: 1ea27a0ca99e61049d08f89a0cf5e0584b38edae
 workflow-type: tm+mt
-source-wordcount: '4794'
+source-wordcount: '5127'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
    - Benutzerdefiniert
 
-  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden &#x200B;](#id18AGD0K0OHS) Vorgabenänderungen“.
+  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden ](#id18AGD0K0OHS) Vorgabenänderungen“.
 
 - **XML-Editor-**: Auf dieser Registerkarte können Sie das Erscheinungsbild und verschiedene Funktionen des Web-Editors anpassen. Die folgenden konfigurierbaren Einstellungen sind für den Web-Editor verfügbar:
 
@@ -94,7 +94,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
-1. Wählen Sie **Guides** aus der Liste der Tools aus und klicken Sie auf **Ordnerprofile**.
+1. Wählen Sie **Guides** aus der Liste der Tools aus und klicken Sie auf die Kachel **Ordnerprofile**.
 
    Die Seite „Ordnerprofile“ wird zum ersten Mal nur mit der Kachel „Globales Profil“ angezeigt.
 
@@ -108,7 +108,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Informationen zum Konfigurieren **Ausgabevorgaben** finden Sie unter [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [&#x200B; unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [ unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
 
 1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie **Globales Profil**.
 
@@ -232,7 +232,7 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
 
 ## Konfigurieren von Vorlagen {#id1889D0IL0Y4}
 
-AEM Guides verfügt über 7 vordefinierte Themenvorlagen, 2 DITA-Zuordnungsvorlagen und 3 PDF-Vorlagen. Sie können festlegen, dass nur wenige Vorlagen für Ihre Autoren und Herausgeber verfügbar sind. Wenn Sie eine benutzerdefinierte Vorlage verwenden, kann diese konfiguriert und für das Authoring und die Veröffentlichung verfügbar gemacht werden. Auf der Registerkarte **Vorlagen** in der Ordnerprofilkonfiguration können Sie Topic-, Zuordnungs- oder PDF-Vorlagen zu globalen Profilen oder Profilen auf Ordnerebene hinzufügen oder entfernen.
+AEM Guides verfügt über 7 vordefinierte Themenvorlagen, 2 DITA-Zuordnungsvorlagen und 3 PDF-Vorlagen. Sie können festlegen, dass nur wenige Vorlagen für Autoren und Herausgeber verfügbar sind. Wenn Sie eine benutzerdefinierte Vorlage verwenden, kann diese konfiguriert und für das Authoring und die Veröffentlichung verfügbar gemacht werden. Auf der Registerkarte **Vorlagen** in der Ordnerprofilkonfiguration können Sie Topic-, Zuordnungs- oder PDF-Vorlagen zu globalen Profilen oder Profilen auf Ordnerebene hinzufügen oder entfernen.
 
 Auch vor dem Konfigurieren der Themen-, Karten- oder PDF-Vorlagen auf globaler oder Ordnerebene können Sie einen Speicherort für Ihre benutzerdefinierten Vorlagen definieren. Informationen zum Konfigurieren eines benutzerdefinierten Speicherorts für die Vorlagen finden Sie unter [Konfigurieren des benutzerdefinierten DITA-Vorlagenordnerpfads](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
@@ -411,15 +411,15 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 ## Konfigurieren des KI-Assistenten für die intelligente Hilfe und das Authoring
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
 
-Der KI-Assistent in Adobe Experience Manager Guides ist ein leistungsstarkes, KI-gesteuertes Tool, mit dem Sie Ihre Inhalte durch intelligentes Authoring und die Wiederverwendung von Inhalten verbessern können. Es vereint zwei robuste KI-Funktionen - **Authoring** und **Help** - in der Experience Manager Guides-Oberfläche, sodass Sie Dokumente und Informationen schneller und effizienter erstellen und aufrufen können.
+Der KI-Assistent in Adobe Experience Manager Guides ist ein leistungsstarkes, KI-gesteuertes Tool, mit dem Sie Ihre Inhalte durch intelligentes Authoring und die Wiederverwendung von Inhalten verbessern können. Es vereint zwei robuste KI-Funktionen - **Authoring** und **Help** - in der Experience Manager Guides-Oberfläche, sodass Sie Dokumente schneller und effizienter erstellen und auf Informationen zugreifen können.
 
 Konfigurationsdetails finden Sie unter [KI-Assistenten-Konfiguration](./conf-smart-suggestions.md).
 
 **Konfigurieren von KI-gestützten Smart-Vorschlägen**
 
-Sie können die KI-gestützten intelligenten Vorschläge konfigurieren und den Autoren dabei helfen, den vorhandenen Inhalt wiederzuverwenden und einfach richtige und konsistente Inhaltsreferenzen zu erstellen. Auf der Registerkarte **KI** Konfiguration) können Sie die Einstellungen von **Wiederverwendbare Inhalte vorschlagen** über das Bedienfeld KI-Assistent im Web-Editor steuern.
+Sie können die KI-gestützten intelligenten Vorschläge konfigurieren und den Autoren dabei helfen, den vorhandenen Inhalt wiederzuverwenden und einfach richtige und konsistente Inhaltsreferenzen zu erstellen. Auf der Registerkarte **KI** Konfiguration“ können Sie die Einstellungen von **Wiederverwendbare Inhalte vorschlagen** über das Bedienfeld KI-Assistent im Editor steuern.
 
 Führen Sie die folgenden Schritte aus, um die Standard-KI-Konfiguration im globalen Profil oder im Profil auf Ordnerebene zu konfigurieren:
 1. Melden Sie sich bei Adobe Experience Manager als Administrator oder Benutzer mit Administratorrechten für ein Profil auf Ordnerebene an.
@@ -438,25 +438,68 @@ Führen Sie die folgenden Schritte aus, um die Standard-KI-Konfiguration im glob
 1. Wählen Sie **Bearbeiten** aus.
 1. Als Administrator können Sie die folgenden Einstellungen konfigurieren:
 
-   **Mindestzeichen**: Geben Sie die Mindestanzahl von Zeichen ein, die Autorinnen und Autoren eingeben müssen, um die Vorschläge zu erhalten. Wenn diese Zahl beispielsweise 7 ist, muss der Autor mindestens 7 Zeichen hinzufügen, um einen Smart-Vorschlag anzuzeigen.
+   **Mindestanzahl von Zeichen**: Geben Sie die Mindestanzahl von Zeichen ein, die die Autoren auswählen müssen, um die Vorschläge zu erhalten. Wenn diese Zahl z. B. 40 ist, muss der Autor mindestens 40 Zeichen auswählen, um einen Vorschlag für eine intelligente Komponente anzeigen zu können.
 
-   **Maximale**: Geben Sie die maximale Anzahl von Vorschlägen ein, die Autoren beim Verfassen des Inhalts erhalten können. Wenn diese Zahl beispielsweise 5 ist, kann der Autor fünf oder weniger smarte Vorschläge anzeigen.
+   Für Auswahlen, die die Mindestzeichenanforderung nicht erfüllen, wird die folgende Meldung im KI-Assistenten-Bedienfeld angezeigt:
 
-   **Dateien und Ordner**: Wählen Sie die Dateien oder Ordner aus, aus denen die Smart-Vorschläge angezeigt werden sollen. *Aus Gründen der Konsistenz des Inhalts wird empfohlen, dass nicht zwei Einträge in der Liste gemeinsame Dateien enthalten*. Sobald Sie die Dateien und Ordner ausgewählt haben, werden sie aufgelistet.
+   ![](assets/smart-suggestions-character-limit.png)
+
+   Für allgemeine Auswahlen, für die keine Vorschläge verfügbar sind, wird jedoch die folgende Meldung angezeigt:
+
+   ![](assets/smart-suggestions-select-another-text-message.png)
+
+   Dies hilft Autoren zu verstehen, ob Vorschläge aufgrund unzureichender Zeichenauswahl oder überhaupt nicht übereinstimmender Inhalte nicht verfügbar sind.
+
+   **Maximale**: Geben Sie die maximale Anzahl von Vorschlägen ein, die Autoren beim Verfassen des Inhalts erhalten können. Wenn diese Zahl beispielsweise 5 ist, kann der Autor fünf oder weniger intelligente Vorschläge anzeigen.
+
+   **Dateien und Ordner**: Wählen Sie die Ordner aus, aus denen die Smart-Vorschläge angezeigt werden sollen. Es können nur untergeordnete Ordner des angegebenen Ordnerpfads in einem Ordnerprofil ausgewählt werden. Weitere Informationen finden Sie unter [Ordnerprofilbeschränkungen](#folder-profile-restrictions).
+
+   *Um die Konsistenz der Inhalte zu wahren, wird empfohlen, dass keine zwei Einträge in der Liste gemeinsame Dateien enthalten*. Sobald Sie die Dateien und Ordner ausgewählt haben, werden sie aufgelistet.
 
 1. Klicken Sie auf **Speichern**.
 
    >[!NOTE]
    >
-   > Die zuletzt indizierten Statusdetails werden nach dem Speichern der Datei oben angezeigt.
+   > Der letzte indizierte Status des Ordnerprofils wird nach dem Speichern der Datei oben angezeigt.
 
 Erfahren Sie mehr darüber, wie Sie [KI-basierte Smart-Vorschläge](../user-guide/authoring-ai-based-smart-suggestions.md) zum Hinzufügen von Inhaltsreferenzen beim Authoring im Web-Editor anzeigen und hinzufügen können.
 
+### Ordnerprofilbeschränkungen
+
+Um sicherzustellen, dass intelligente Vorschläge effektiv funktionieren, sollten Sie bei der Indizierung von Ordnern die folgenden Punkte beachten:
+
+1. Inhalte müssen über Ordnerprofile indiziert werden, damit der KI-Assistent Autorinnen und Autoren intelligente Vorschläge bereitstellen kann.
+2. Wenn Sie einen Ordner für die Indizierung angeben, können nur Ordner hinzugefügt werden, die sich unter dem aktuellen Ordnerprofil befinden. Beim Versuch, Trigger außerhalb dieses Ordnerprofils hinzuzufügen, wird eine Warnung angezeigt.
+
+   ![](assets/warning-message-indexing.png)
+
+   Diese Einschränkung gilt nur für Profile auf Ordnerebene. Das globale Profil erzwingt keine Pfadbeschränkungen und kann Ordner indizieren, die nicht unter einem anderen Ordnerprofil liegen.
+3. Wenn ein übergeordneter Ordner zur Indizierung hinzugefügt wird, werden alle bereits aufgelisteten untergeordneten Ordner automatisch entfernt, um Duplizierungen zu vermeiden. Wenn Sie einen untergeordneten Ordner eines bereits indizierten übergeordneten Ordners hinzufügen, wird auch eine Warnung Trigger.
+
+   ![](assets/parent-child-warning-message-indexing.png)
+4. Jegliche Aktualisierungen, Verschiebungen oder Löschungen von Dateien in indizierten Ordnern werden automatisch neu indiziert oder aus dem Trigger entfernt.
+5. Für jeden Indizierungsversuch werden die folgenden Indizierungsstatus angezeigt:
+
+   - In Bearbeitung: Zeigt an, dass die Indizierung ausgeführt wird.
+   - Indizierung abgeschlossen: Gibt an, dass die Indizierung erfolgreich abgeschlossen wurde.
+   - Indizierung fehlgeschlagen: Gibt an, dass die Indizierung fehlgeschlagen ist.
+   - Nicht synchronisiert: Zeigt an, dass die Indizierung nicht synchronisiert ist, was normalerweise nach einem Upgrade oder einer Migration auftritt, wenn der aktuelle Indizierungsstatus nicht überprüft werden konnte. Sie können die Indizierung wiederholen, um den Status zu aktualisieren.
+
+   Wenn die Indizierung fehlschlägt, stehen Ihnen die Optionen **Anzeigen von Fehlerprotokollen** und **Indizierung wiederholen** zur Verfügung, um das Problem zu beheben.
+
+   ![](assets/indexing-failed-options.png)
+
+   Die Fehlerprotokolle werden wie folgt angezeigt:
+
+   ![Alt-Text](index-error-log.png)
+
+6. Für jedes Ordnerprofil wird ein Zeitstempel für die letzte Indexzeit angezeigt.
+
 **Standardfragen für die intelligente Hilfe anpassen**
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
 
-Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview).
+Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 Auf der Registerkarte **XML** Editor-Konfiguration“ können Sie die Standardfragen des Bedienfelds **Hilfe** konfigurieren.
 
@@ -508,7 +551,7 @@ Standardmäßig verfügt der XML-Editor über viele Funktionen, die Ihre Autoren
 
 Mit dieser Einstellung können Sie JSON-Erweiterungen erstellen, die die in der `ui_config.json`-Datei vorgenommenen Änderungen widerspiegeln. Sie können diese Erweiterungen unabhängig auf Ordnerprofilebene hochladen, was eine höhere Flexibilität und Anpassung bietet. Wenn Sie beispielsweise Änderungen an der Konfiguration des **XML-Editors** vornehmen, wie z. B. eine Schaltfläche aktualisieren, erkennt das System automatisch die Unterschiede. Durch Hochladen dieser Änderungen in die **Konfiguration der Benutzeroberfläche des XML-Editors** und Konvertieren in JSON-Erweiterungen mithilfe der Schaltfläche **UI-Konfiguration in JSON**&quot; generiert das System eine Erweiterung, die die neue Funktionalität enthält.
 
-Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -566,7 +609,7 @@ Die folgenden Details sind erforderlich, um einen Ausschnitt zu erstellen:
 
 **Beschriftungen für XML-Inhaltsversionen**
 
-Standardmäßig können Autoren Beschriftungen ihrer Wahl erstellen und sie mit ihren Themendateien verknüpfen. Dies kann jedoch zu vielen Varianten derselben Bezeichnung führen. Beispielsweise könnte es Beschriftungen für „Version 1.0“, „Version 1.0“ oder „Version 1“ geben, um denselben Themenabschnitt zu identifizieren. Um eine solche inkonsistente Beschriftung im System zu vermeiden, können Sie eine vordefinierte Liste von Beschriftungen erstellen, aus denen Autorinnen und Autoren dann auswählen können. Eine konsistente Beschriftung hilft bei der besseren Verwaltung von Dateien in Ihrem System.
+Standardmäßig können Autoren Beschriftungen ihrer Wahl erstellen und sie mit ihren Themendateien verknüpfen. Dies kann jedoch zu vielen Varianten derselben Bezeichnung führen. Beispielsweise könnte es Beschriftungen für „Version 1.0“, „Version 1.0“ oder „Version 1“ geben, um denselben Themenabschnitt zu identifizieren. Um solche inkonsistenten Kennzeichnungen im System zu vermeiden, können Sie eine vordefinierte Liste von Kennzeichnungen erstellen, aus denen Autoren dann auswählen können. Eine konsistente Beschriftung hilft bei der besseren Verwaltung von Dateien in Ihrem System.
 
 Mit der Konfiguration der Versionskennzeichnung können Sie eine Liste gültiger Kennzeichnungen für Ihre Organisation hochladen. Laden Sie die Standarddatei label.json herunter und ändern Sie sie wie unten dargestellt:
 

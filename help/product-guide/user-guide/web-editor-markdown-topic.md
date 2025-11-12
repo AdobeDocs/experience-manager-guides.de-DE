@@ -4,7 +4,7 @@ description: Verfassen Sie Markdown-Dokumente aus dem Editor. Erfahren Sie, wie 
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
+source-git-commit: 639cd235778f31b139889d615f93bde3334e4988
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Markdown ist eine einfache Markup-Sprache, mit der Sie Formatierungselemente zu 
 Führen Sie die folgenden Schritte aus, um im Editor ein Markdown-Thema zu erstellen:
 
 1. Wählen Sie im Repository-Bereich die Option ![](images/Add_icon.svg) und dann **Thema** aus der Dropdown-Liste aus.
-2. Geben **im Dialogfeld** Neues Thema“ die folgenden Details an:
+1. Geben **im Dialogfeld** Neues Thema“ die folgenden Details an:
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -31,8 +31,8 @@ Führen Sie die folgenden Schritte aus, um im Editor ein Markdown-Thema zu erste
 
    >[!NOTE]
    >
-   > Im Falle eines Upgrades müssen Sie die Markdown-Vorlage zum aktuell verwendeten Profilordner hinzufügen. Sie können [eine neue Markdown-Vorlage aus dem Editor erstellen](./web-editor-features.md#templates) oder eine vorhandene Vorlage für die Bearbeitung von Markdown-Inhalten verwenden. Weitere Informationen zum Hinzufügen von Authoring-Vorlagen in Experience Manager Guides finden Sie unter [Konfigurieren von globalen Profilen oder Profilen auf &#x200B;](../cs-install-guide/conf-folder-level.md).
-3. Wählen Sie **Erstellen** aus.
+   > Im Falle eines Upgrades müssen Sie die Markdown-Vorlage zum aktuell verwendeten Profilordner hinzufügen. Sie können [eine neue Markdown-Vorlage aus dem Editor erstellen](./web-editor-features.md#templates) oder eine vorhandene Vorlage für die Bearbeitung von Markdown-Inhalten verwenden. Weitere Informationen zum Hinzufügen von Authoring-Vorlagen in Experience Manager Guides finden Sie unter [Konfigurieren von globalen Profilen oder Profilen auf ](../cs-install-guide/conf-folder-level.md).
+1. Wählen Sie **Erstellen** aus.
 
    Das Markdown-Thema wird unter dem ausgewählten Pfad erstellt und ist zur Bearbeitung geöffnet.
 
@@ -175,4 +175,4 @@ Die folgenden Experience Manager Guides-Funktionen können derzeit nicht für da
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

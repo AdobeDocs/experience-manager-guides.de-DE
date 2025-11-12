@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: c0a75668d283458049d9b4a3bbc23335117ea660
+source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 9%
+source-wordcount: '2428'
+ht-degree: 10%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 9%
       - Cloud Services {#cloud-release-notes}
          - [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
          - Versionen 2025 {#2025-releases}
+            - Version 2025.11.0 {#2511-release}
+               - [Neue Funktionen](./release-info/whats-new-2025-11-0.md)
+               - [Behobene Probleme](./release-info/fixed-issues-2025-11-0.md)
+               - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2025-11-0.md)
             - Version 2025.10.0 {#2510-release}
                - [Neue Funktionen](./release-info/whats-new-2025-10-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2025-10-0.md)
@@ -158,16 +162,17 @@ ht-degree: 9%
                - [Versionshinweise für 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Versionshinweise zu 4.2](./release-info/release-notes-4-2.md)
          - [Versionshinweise zu 4.1.x](./release-info/release-notes-4-1.md)
-         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Versionshinweise zu [4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Versionshinweise zu [3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
-         - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Startseite {#home-page}
       - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
+      - [Repository-Schnittstelle](./user-guide/home-page-repository-view.md)
    - Autoreninhalt {#author-content}
       - [Authoring – Übersicht](./user-guide/authoring-content.md)
       - [Möglichkeiten zum Erstellen von Inhalten mit AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -181,12 +186,14 @@ ht-degree: 9%
             - [Vorschau eines Themas](./user-guide/web-editor-preview-topics.md)
          - [Die Editor-Funktionen kennen](./user-guide/web-editor-features.md)
          - Kennenlernen der Benutzeroberfläche und der Funktionen des Editors {#editor-interface-features}
+            - [Überblick](./user-guide/intro-editor-interface.md)
             - [Kopfzeilenleiste](./user-guide/web-editor-header-bar.md)
             - [Tabulatorleiste](./user-guide/web-editor-tab-bar.md)
             - [Symbolleiste](./user-guide/web-editor-toolbar.md)
             - [Linkes Bedienfeld](./user-guide/web-editor-left-panel.md)
             - [Inhaltsbearbeitungsbereich](./user-guide/web-editor-content-editing-area.md)
             - [Rechtes Bedienfeld](./user-guide/web-editor-right-panel.md)
+            - [Suchbereich](./user-guide/search-panel-explorer.md)
          - [Zusätzliche Funktionen im Editor](./user-guide/web-editor-other-features.md)
          - [Tastaturbefehle im Editor](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Editor-Ansichten](./user-guide/web-editor-views.md)
@@ -280,6 +287,7 @@ ht-degree: 9%
          - [Output-Erzeugungsprozess verwalten](./user-guide/generate-output-manage-process.md)
          - [Verwalten von Veröffentlichungsaufgaben mit dem Dashboard „Veröffentlichen“](./user-guide/generate-output-publish-dashboard.md)
          - [Allgemeine Fehlerbehebung](./user-guide/generate-output-basic-troubleshooting.md)
+         - [Häufig gestellte Fragen zu Veröffentlichungs-Workflows und Skalierbarkeit](./user-guide/publishing-scalability-faq.md)
       - Massenaktivierung von Inhalten {#bulk-activation}
          - [Massenaktivierung von veröffentlichten Inhalten](./user-guide/conf-bulk-activation.md)
          - [Erstellen einer Massenaktivierungs-Zuordnungssammlung](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -352,11 +360,11 @@ ht-degree: 9%
          - [Wichtige Konzepte, Rollen und Berechtigungen sowie Voraussetzungen](./user-guide/authoring.md)
          - [Hochladen von Dateien](./user-guide/authoring-upload-existing-files.md)
          - [Dateien und Ordner verwalten](./user-guide/authoring-file-management.md)
-         - [Verarbeiten oder Erneutes Verarbeiten von Assets](./user-guide/asset-processor.md)
+         - [Verarbeiten von Assets](./user-guide/asset-processor.md)
       - Fehlerbehebung {#troubleshooting}
          - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [On-Premise-Grundlagen](./install-guide/introduction.md)
@@ -451,6 +459,10 @@ ht-degree: 9%
          - [Inhalte übersetzen](./install-guide/translation.md)
       - Arbeiten mit AEM Assets Search {#aem-asset-search}
          - [Konfigurieren der Suche für die AEM Assets-Benutzeroberfläche](./install-guide/conf-dita-search.md)
+      - Arbeiten mit der Asset-Verarbeitung {#asset-processing-on-prem}
+         - [Asset-Verarbeitungsfunktion konfigurieren](./install-guide/configure-asset-processing.md)
+      - Arbeiten mit der B-Tree-Bereinigung{#btree-cleanup}
+         - [Konfigurieren der B-Tree-Bereinigung](./install-guide/configure-btree-clean-up-job.md)
       - [Anhang](./install-guide/appendix.md)
    - Cloud Services {#cs-ig}
       - [Über dieses Handbuch](./cs-install-guide/introduction.md)
@@ -532,6 +544,10 @@ ht-degree: 9%
          - [Inhalte übersetzen](./cs-install-guide/translation.md)
       - Arbeiten mit AEM Assets Search {#aem-asset-search-cs}
          - [Konfigurieren der Suche für die AEM Assets-Benutzeroberfläche](./cs-install-guide/conf-dita-search.md)
+      - Arbeiten mit der Asset-Verarbeitung {#asset-processing-cloud}
+         - [Asset-Verarbeitungsfunktion konfigurieren](./cs-install-guide/configure-asset-processing-cs.md)
+      - Arbeiten mit der B-Tree-Bereinigung{#btree-cleanup-cs}
+         - [Konfigurieren der B-Baumbereinigung](./cs-install-guide/configure-btree-cleanup-cs.md)
       - [Anhang](./cs-install-guide/appendix.md)
 - API-Referenz {#api-reference}
    - [Einführung](./api-reference/introduction.md)
@@ -541,14 +557,9 @@ ht-degree: 9%
    - [REST-API für die Arbeit mit bedingten Attributen](./api-reference/conditional-attribute.md)
    - [REST-APIs für Konvertierungs-Workflow](./api-reference/convert-to-dita.md)
    - [REST-API zum Erstellen und Aktivieren von Paketen](./api-reference/create-activate-package.md)
-   - [Java-basierte API für die Ausgabegenerierung](./api-reference/generate-output.md)
-   - [Java-basierte APIs für die Arbeit mit DITA-Zuordnungen](./api-reference/dita-map-management-java.md)
-   - [Java-basierte APIs für Konvertierungs-Workflows](./api-reference/convert-to-dita-java.md)
-   - [Java-basierte APIs für die Arbeit mit Grundlinien und Kennzeichnungen](./api-reference/create-baseline-label-java.md)
-   - [Java-basierte API zum Arbeiten mit Ordnerprofilen](./api-reference/folder-profile-java.md)
-   - [Java-basierte API zum Erstellen und Aktivieren von Paketen](./api-reference/create-activate-package-java.md)
    - [Ereignishandler nach der Verarbeitung](./api-reference/post-process-event.md)
    - [API zum Nachverfolgen des Verarbeitungsstatus für einen Ordner oder ein Asset](./api-reference/track-post-processing-status.md)
+   - [API zum Starten der Massenverarbeitung für Assets](./api-reference/bulk-assets-processing.md)
    - [Massenaktivierung - vollständiger Ereignishandler](./api-reference/bulk-activation-complete-event.md)
    - [Ereignishandler für Konversionsprozess](./api-reference/conversion-complete-event.md)
 - Wissensdatenbank {#knowledge-base}

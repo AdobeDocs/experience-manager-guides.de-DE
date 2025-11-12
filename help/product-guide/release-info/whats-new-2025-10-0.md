@@ -2,9 +2,9 @@
 title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2025.10.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2025.10.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: bf08a48cd00170bdbe8cde312aac9776f871dbf9
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,7 @@ Weitere Informationen finden Sie unter [Anfordern einer erneuten Überprüfung o
 
 Eine neue API ist jetzt verfügbar, um den Nachbearbeitungsstatus einzelner Assets und Ordner zu verfolgen. Dies ist besonders nützlich für Teams, die automatisierte Workflows verwenden, bei denen die Veröffentlichung erst erfolgen muss, nachdem die Inhalte vollständig verarbeitet wurden. Die -API bietet eine zuverlässige Möglichkeit, die Bereitschaft zu bestätigen, wodurch das Risiko von Veröffentlichungsfehlern, die durch eine unvollständige Verarbeitung verursacht werden, reduziert wird.
 
-Mit der Einführung dieser API werden die Asset-Nachbearbeitungs-Ereignisse auch nicht automatisch ausgelöst. Stattdessen können Administratoren dieses Ereignis jetzt über eine Einstellung in `fmdita config manager` aktivieren.
+Außerdem werden mit der Einführung dieser API die Asset-Nachbearbeitungs-Ereignisse nicht automatisch ausgelöst. Stattdessen können Administratoren dieses Ereignis jetzt über eine Einstellung in `fmdita config manager` aktivieren.
 
 Details finden Sie unter:
 

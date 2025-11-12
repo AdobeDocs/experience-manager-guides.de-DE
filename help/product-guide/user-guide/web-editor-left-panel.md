@@ -4,9 +4,9 @@ description: Lernen Sie das linke Bedienfeld im Editor kennen. Erfahren Sie mehr
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 565f7b9b8139bfa3e21c91c4b60b6c9757b67429
 workflow-type: tm+mt
-source-wordcount: '9542'
+source-wordcount: '9769'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,13 @@ Das linke Bedienfeld bietet schnellen Zugriff auf Sammlungen, Repository-Ansicht
 
 >[!NOTE]
 >
-> Die Größe des linken Bedienfelds kann geändert werden. Um die Größe des Bereichs zu ändern, bringen Sie den Cursor auf die Bereichsbegrenzung, der Cursor ändert sich in einen Doppelpfeil, wählen Sie und ziehen Sie, um die Größe des Bereichs zu ändern.
+>Die Größe des linken Bedienfelds kann geändert werden. Um die Größe des Bereichs zu ändern, bringen Sie den Cursor auf die Bereichsbegrenzung, der Cursor ändert sich in einen Doppelpfeil, wählen Sie und ziehen Sie, um die Größe des Bereichs zu ändern.
 
 Das linke Bedienfeld bietet Zugriff auf die folgenden Funktionen:
 
 - [Sammlungen](#collections)
 - [Repository](#repository)
+- [Explorer](#explorer)
 - [Map](#map)
 - [Wiederverwendbarer Inhalt](#reusable-content)
 - [umreißen](#outline)
@@ -118,6 +119,10 @@ Sie können auch viele Aktionen über das Menü Optionen ausführen, das für ei
 
 ## Repository
 
+>[!NOTE]
+>
+> Ab Version 2025.11.0 wird **Repository** im Editor veraltet sein und durch **Explorer** für **Cloud Service** ersetzt. Bei **On-Premise**-Setup können Sie Repository bis Version 5.1 von Experience Manager Guides weiterhin über die Editor-Oberfläche anzeigen und verwenden.
+
 Wenn Sie das Repository-Symbol auswählen, erhalten Sie eine Liste der in DAM verfügbaren Dateien und Ordner. Standardmäßig können Sie die Dateien nach Titeln anzeigen. Wenn Sie mit dem Mauszeiger auf eine Datei zeigen, können Sie den Dateititel und den Dateinamen als QuickInfo anzeigen.
 
 >[!NOTE]
@@ -132,9 +137,9 @@ Sie können auch eine Audio- oder Videodatei im Editor auswählen und wiedergebe
 Die Ansicht des Videos. Im Kontextmenü haben Sie auch die Optionen zum Herunterladen, Ändern der Wiedergabe
 Geschwindigkeit oder Bild im Bild anzeigen.
 
-Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der **Kartenansicht** Funktionsbeschreibung im linken Bereich. Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ &#x200B;](./web-editor-content-editing-area.md) öffnen. Die Möglichkeit, direkt im Editor in einer Datei zu navigieren und sie zu öffnen, spart Zeit und erhöht die Produktivität.
+Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der **Kartenansicht** Funktionsbeschreibung im linken Bereich. Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ ](./web-editor-content-editing-area.md) öffnen. Die Möglichkeit, direkt im Editor in einer Datei zu navigieren und sie zu öffnen, spart Zeit und erhöht die Produktivität.
 
-**Filtern der Suche im Repository**
+## Filtern der Suche im Repository
 
 Der Editor bietet erweiterte Filter für die Textsuche. Sie können in den Dateien im ausgewählten Pfad des Adobe Experience Manager-Repositorys nach einem Text suchen und filtern. Dabei werden Titel, Dateiname und Inhalt in den Dateien durchsucht.
 
@@ -206,7 +211,7 @@ Dies ist mit dem Suchfeld im Repository-Fenster synchronisiert. Wenn Sie beispie
   >
   >Die Liste der gefilterten Dateien, die den gesuchten Text enthalten, wird angezeigt. Beispielsweise werden die Dateien, die die `personal spaceship` enthalten, im vorherigen Screenshot aufgelistet. Sie können mehrere Dateien aus der gefilterten Liste auswählen, um sie per Drag-and-Drop auf eine Karte zu ziehen, die zur Bearbeitung geöffnet ist.
 
-**Menü „Optionen**
+### Menü „Optionen“
 
 Neben dem Öffnen von Dateien über den linken Bereich können Sie auch viele Aktionen über das Menü Optionen in der Repository-Ansicht ausführen. Je nachdem, ob Sie einen Ordner, eine Themendatei oder eine Mediendatei auswählen, werden unterschiedliche Optionen angezeigt.
 
@@ -427,6 +432,23 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
 
 - **Generieren**: Verwenden Sie die Option, um eine Karte oder Themen innerhalb einer Karte auf einer Sites-Seite, in einem Inhaltsfragment oder in einem Experience Fragment zu veröffentlichen.
 
+## Explorer
+
+>[!NOTE]
+>
+> Ab Version 2025.11.0 wird der Begriff „Repository“ im Editor durch &quot;**&quot;** Cloud Service-Einrichtung ersetzt. Bei der On-Premise-Einrichtung wird das Repository im Editor weiterhin angezeigt und aufgerufen.
+
+Explorer bietet die meisten Funktionen, die zuvor im Repository verfügbar waren, einschließlich:
+
+- Navigation durch Dateien und Ordner
+- Optionsmenü für Dateien und Ordner
+
+Aber es führt ein verbessertes Such- und Filtererlebnis ein, das die Benutzerfreundlichkeit und Effizienz verbessert.
+
+Ausführliche Informationen zum Kontextmenü für Dateien und Ordner finden Sie unter [Optionsmenü](#options-menu).
+
+Ausführliche Informationen zum Sucherlebnis finden Sie unter [Suchbereich](./search-panel-explorer.md).
+
 ## Map
 
 Wenn Sie das Symbol Kartenansicht auswählen, wird die Kartenansicht angezeigt, in der eine Liste von Themen in der Kartendatei angezeigt wird. Wenn Sie keine Zuordnungsdatei geöffnet haben, erscheint die Zuordnungsansicht leer. Ein Doppelklick auf eine Kartendatei öffnet die Kartendatei in dieser Ansicht. Sie können auf eine Datei innerhalb der Karte doppelklicken, um sie im Editor zu öffnen.
@@ -474,7 +496,7 @@ Mit dem Menü Optionen der Zuordnungsdatei können Sie die folgenden Aktionen au
    - **UUID kopieren**: Kopieren Sie die UUID der Zuordnungsdatei in die Zwischenablage.
    - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der Zuordnungsdatei in die Zwischenablage.
 
-- **Im Repository suchen**: Zeigt den Speicherort der Zuordnungsdatei im Repository \(oder DAM\) an.
+- **Im Explorer suchen**: Zeigt den Speicherort der Zuordnungsdatei im Explorer (oder DAM) an.
 
 - **Hinzufügen zu**: Sie können aus den folgenden Optionen auswählen:
    - **Sammlungen**: Fügt die Zuordnungsdatei zu Sammlungen hinzu. Sie können sie zu einer vorhandenen oder neuen Sammlung hinzufügen.
@@ -531,7 +553,7 @@ Mit dem Menü Optionen können Sie die folgenden Aktionen ausführen:
    - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der ausgewählten Datei in die Zwischenablage.
 
 
-- **Im Repository suchen**: Zeigt den Speicherort der ausgewählten Datei im Repository \(oder DAM\) an.
+- **Im Explorer suchen**: Zeigt den Speicherort der ausgewählten Datei im Explorer \(oder DAM\) an.
 - **Alle erweitern**: Alle Themen in den Zuordnungsdateien erweitern.
 
 - **Alle reduzieren**: Alle Themen ausblenden, die Teil der aktuellen Zuordnungsdatei sind.
@@ -956,26 +978,32 @@ Snippets sind kleine Inhaltsfragmente, die in verschiedenen Themen in Ihrem Doku
 
 ![](images/snippets-panel_cs.png){align="left"}
 
+**Erstellen eines Snippets**
+
 Um einen Ausschnitt hinzuzufügen, verwenden Sie eine der folgenden Methoden:
 
-- Wählen Sie das Symbol **+** neben Ausschnitte aus, um das Dialogfeld **Neues**&quot; zu öffnen.
+1. Wählen Sie das Symbol **+** neben Ausschnitte aus, um das Dialogfeld **Neues**&quot; zu öffnen.
 
-  ![](images/snippet-new-dialog.png){width="300" align="left"}
+   ![](images/snippet-new-dialog.png){width="300" align="left"}
 
-  Geben Sie im Dialogfeld Neues Snippet einen Titel, der im Snippets-Bereich angezeigt wird, eine Beschreibung und einen XML-Code für den Snippet-Inhalt an, den Sie erstellen möchten. Wählen Sie **Erstellen** aus, um das Snippet zu speichern und zu erstellen.
+   Geben Sie im Dialogfeld Neues Snippet einen Titel an, der im Snippet-Bedienfeld angezeigt wird, eine Beschreibung, wählen Sie ein Format (DITA oder HTML) für Ihren Inhalt aus und geben Sie einen Code für den Snippet-Inhalt an, den Sie erstellen möchten. Wählen Sie **Erstellen** aus, um das Snippet zu speichern und zu erstellen.
 
-- Klicken Sie im Inhaltsbearbeitungsbereich mit der rechten Maustaste auf den Breadcrumb des Elements, das Sie als Snippet verwenden möchten, und wählen Sie **Snippet erstellen** aus dem Kontextmenü. Das Dialogfeld Neues Snippet wird angezeigt, wobei der XML-Code des ausgewählten Elements im Feld **Inhalt** ausgefüllt wird. Geben Sie **Titel** und **Beschreibung** für den Ausschnitt ein und wählen Sie **Erstellen** aus, um den Ausschnitt zu speichern.
+2. Klicken Sie im Inhaltsbearbeitungsbereich mit der rechten Maustaste auf den Breadcrumb des Elements, das Sie als Snippet verwenden möchten, und wählen Sie **Snippet erstellen** aus dem Kontextmenü. Das Dialogfeld Neues Snippet wird angezeigt, wobei der XML-Code des ausgewählten Elements im Feld **Inhalt** ausgefüllt wird. Geben Sie **Titel** und **Beschreibung** für den Ausschnitt ein und wählen Sie **Erstellen** aus, um den Ausschnitt zu speichern.
 
-- Klicken Sie im Inhaltsbearbeitungsbereich mit der rechten Maustaste an eine beliebige Stelle auf den Inhalt, den Sie als Snippet verwenden möchten, und wählen Sie **Snippet erstellen** aus dem Kontextmenü. Das Dialogfeld Neues Snippet wird angezeigt, wobei der XML-Code des ausgewählten Elements im Feld **Inhalt** ausgefüllt wird. Geben Sie **Titel** und **Beschreibung** für den Ausschnitt ein und wählen Sie **Erstellen** aus, um den Ausschnitt zu speichern.
+3. Klicken Sie im Inhaltsbearbeitungsbereich mit der rechten Maustaste an eine beliebige Stelle auf den Inhalt, den Sie als Snippet verwenden möchten, und wählen Sie **Snippet erstellen** aus dem Kontextmenü. Das Dialogfeld Neues Snippet wird angezeigt, wobei der XML-Code des ausgewählten Elements im Feld **Inhalt** ausgefüllt wird. Geben Sie **Titel** und **Beschreibung** für den Ausschnitt ein und wählen Sie **Erstellen** aus, um den Ausschnitt zu speichern.
 
-  Im folgenden Screenshot werden der Breadcrumb und der Inhaltsbereich hervorgehoben, von dem aus Sie das Kontextmenü aufrufen können.
+   Im folgenden Screenshot werden der Breadcrumb und der Inhaltsbereich hervorgehoben, von dem aus Sie das Kontextmenü aufrufen können.
 
-  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
+**Einfügen eines Snippets**
 
 Verwenden Sie eine der folgenden Methoden, um einen Ausschnitt einzufügen:
 
-- Wählen Sie einen Ausschnitt aus dem Snippets -Bedienfeld aus und ziehen Sie ihn per Drag-and-Drop an die gewünschte Position im Thema.
+- Wählen Sie einen Ausschnitt aus dem Snippets -Bedienfeld aus und ziehen Sie ihn per Drag-and-Drop an die gewünschte Position im Thema. Sie können auch die Filteroptionen oben im Snippets-Bedienfeld verwenden, um Ihre Ansicht zu verfeinern:
+
+   - **Alle Snippets anzeigen**: Listet alle verfügbaren Snippets auf, einschließlich DITA- und HTML-Formaten.
+   - **Nur relevante Ausschnitte anzeigen**: Filtert die Liste, um nur die Ausschnitte anzuzeigen, die für Ihr aktuelles Thema oder Ihren Kontext relevant sind. Wenn Sie z. B. an einem DITA-Thema arbeiten, werden HTML-Ausschnitte aus der Liste ausgeschlossen, um die kontextbezogene Genauigkeit sicherzustellen.
 
 - Platzieren Sie die Einfügemarke an der Stelle, an der Sie den Ausschnitt einfügen möchten, und wählen Sie im Menü Optionen des gewünschten Ausschnitts die Option Ausschnitt einfügen aus.
 
@@ -1142,4 +1170,4 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 
 </details>
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie der neue Microservice skalierbare Veröffentlichu
 exl-id: 948fce3f-b989-48f0-9a85-e921717e2986
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: a860507b71f25a22aac7c09824f94c4e1a2b0f6b
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ In diesem Artikel werden die Einblicke in die Architektur und die Leistungszahle
 
 >[!NOTE]
 >
-> Die auf Microservices basierende Veröffentlichung in AEM Guides unterstützt PDF (sowohl nativ als auch DITA-OT-basiert), HTML5, JSON und BENUTZERDEFINIERTE Typen von Ausgabevorgaben.
+> Die auf Microservices basierende Veröffentlichung in AEM Guides unterstützt PDF (sowohl native als auch DITA-OT-basierte), AEM Site (Verwendung der Zuordnung zusammengesetzter Komponenten), HTML5, JSON und benutzerdefinierte Typen von Ausgabevorgaben.
 
 ## Probleme mit vorhandenen Veröffentlichungs-Workflows in der Cloud
 
@@ -27,9 +27,11 @@ Wenn Sie den neuen Service nicht verwenden, erfolgt die gesamte Veröffentlichun
 
 Diese Ressourcenbeschränkung war die Hauptmotivation, einen dedizierten Service zu entwickeln, der es uns ermöglicht, mehrere gleichzeitige und große Veröffentlichungs-Workloads in der Cloud auszuführen.
 
+Weitere Informationen zu Veröffentlichungs-Workflows in der Cloud finden Sie unter [Häufig gestellte Fragen zu Veröffentlichungs-Workflows und Skalierbarkeit](/help/product-guide/user-guide/publishing-scalability-faq.md).
+
 ## Einführung in die neue Architektur
 
-Der Service verwendet hochmoderne Cloud-Lösungen wie App Builder, IO Eventing und IMS von Adobe, um ein Server-loses Angebot zu schaffen. Diese Dienste basieren selbst auf den weithin akzeptierten Industriestandards wie Kubernetes und Docker.
+Der Service verwendet die hochmodernen Cloud-Lösungen von Adobe wie App Builder, IO Eventing und IMS, um ein Server-loses Angebot zu erstellen. Diese Dienste basieren selbst auf den weithin akzeptierten Industriestandards wie Kubernetes und Docker.
 
 Jede Anfrage an den neuen Veröffentlichungs-Microservice wird in einem isolierten Docker-Container ausgeführt, der jeweils nur eine Veröffentlichungsanfrage ausführt. Es werden automatisch mehrere neue Container erstellt, falls neue Veröffentlichungsanfragen eingehen. Dieser einzelne Container pro Anforderungskonfiguration ermöglicht es dem Microservice, den Kunden die beste Leistung zu bieten, ohne Sicherheitsrisiken einzugehen. Diese Container werden verworfen, sobald die Veröffentlichung abgeschlossen ist, wodurch nicht verwendete Ressourcen freigegeben werden.
 

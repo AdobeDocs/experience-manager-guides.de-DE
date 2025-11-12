@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie AEM Sites-Vorlagen für Cloud-Services herunt
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -45,7 +46,7 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
    3. Klonen Sie das Repository auf Ihrem lokalen System mit dem angegebenen Benutzernamen und Kennwort (generieren Sie ggf. ein Kennwort).
 2. **Paket zum Maven-Bundle hinzufügen:**
    1. Erstellen Sie in Ihrem lokal geklonten Repository ein neues Maven-Bundle oder fügen Sie es einem vorhandenen hinzu.
-   2. Stellen Sie sicher, dass die Struktur /jcr_root/apps/fmdita/install im Maven-Projekt vorhanden ist.
+   2. Stellen Sie sicher, dass die `/jcr_root/apps/fmdita/` installierende Struktur im Maven-Projekt vorhanden ist.
 
       ![Struktur im Maven-Projekt](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
 
@@ -54,8 +55,8 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
 
 3. **Filter.xml aktualisieren:**
 
-   1. Öffnen Sie die Datei „filters.xml“ im Ordner „META-INF“ des übergeordneten Inhaltsverzeichnisses.
-   2. Fügen Sie den folgenden Filter hinzu: filter root=&quot;/apps/fmdita“ mode=„merge“/
+   1. Öffnen Sie die Datei „filters.xml“ im Ordner &quot;META-INF“ des übergeordneten Inhaltsverzeichnisses.
+   2. Fügen Sie den folgenden Filter hinzu: filter root=`/apps/fmdita` mode=`merge`/
 
 
       ![Filter hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
@@ -98,14 +99,14 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
 
    1. Wählen Sie **Site** als die oben erstellte aus (z. B. AEMG Docs Site).
    2. Stellen Sie sicher **dass die Vorlagen „Veröffentlichungspfad** und **Themenseite** automatisch auf Folgendes festgelegt sind:
-      - Veröffentlichungspfad: /content/AEMG-Docs-Site/en/docs/product
+      - Veröffentlichungspfad: `/content/AEMG-Docs-Site/en/docs/product`
       - Themenseitenvorlage: Themenseite
 
       ![Verwenden Sie das Dropdown-Menü der Site, um die AEM-Site zu konfigurieren](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
 
    **Option 2: Verwenden des Site-Pfads**
 
-   1. Legen Sie **Site-Pfad** manuell als &quot;/content/AEMG-Docs-Site/en/docs/product“ fest.
+   1. Legen Sie **Site-Pfad** manuell als `/content/AEMG-Docs-Site/en/docs/product` fest.
    2. Stellen Sie sicher, **die Vorlage** Themenseite) automatisch auf Themenseite eingestellt ist.
 
       ![Verwenden Sie den Site-Pfad, um die AEM-Site zu konfigurieren](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
@@ -116,7 +117,7 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
 
 1. **Website generieren:**
    1. Generieren Sie bei konfigurierter Vorgabe die AEM-Site für die entsprechende DITA-Zuordnung.
-   2. Die generierte Site ist unter dem Pfad verfügbar: /content/AEMG-Docs-Site/en/docs/product.
+   2. Die generierte Site ist unter folgendem Pfad verfügbar: `/content/AEMG-Docs-Site/en/docs/product`.
 2. **Standardgenerierungspfad ändern (optional):** Wenn Sie den Standardpfad für die Site-Generierung ändern möchten, führen Sie die folgenden Schritte aus:
    1. Navigieren Sie zu **AEM Sites**.
    2. Erstellen Sie eine neue Produktseite unter der vorkonfigurierten Site-Struktur.
@@ -133,4 +134,4 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
 
 >[!NOTE]
 >
-> Stellen Sie sicher, dass alle Konfigurationen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktion bereitstellen. <br><br> Informationen finden Sie in der offiziellen [Dokumentation &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/deploying/overview) Bereitstellung für AEM as a Cloud Service&quot;.
+> Stellen Sie sicher, dass alle Konfigurationen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktion bereitstellen. <br><br> Informationen finden Sie in der offiziellen [Dokumentation ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) Bereitstellung für AEM as a Cloud Service&quot;.

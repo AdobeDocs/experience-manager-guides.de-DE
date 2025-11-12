@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie vorhandene AEM-Site-Vorlagen für AEM Guides 
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '919'
 ht-degree: 1%
 
 ---
@@ -32,9 +33,9 @@ Wenn Sie die vordefinierte Vorlage für AEM Guides (AEMG Docs) verwenden, sind d
 
 Vorlagennamen variieren je nach Projekt-Setup. Beispielsweise in der OOTB-Konfiguration für AEM-Dokumente:
 
-- Dokumentations-Container-Seite: /conf/AEMG-Docs-Site/settings/wcm/templates/kb-content
+- Dokumentations-Container-Seite: `/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content`
 
-- Themenseite: /conf/AEMG-Docs-Site/settings/wcm/templates/topic-content
+- Themenseite: `/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content`
 
 **Anpassung:** Der Anpassungsprozess umfasst zwei wichtige Schritte:
 
@@ -85,7 +86,7 @@ Wenn Sie ein DITA-Thema über „Installationsanweisungen“ haben, generiert di
 
 >[!NOTE]
 >
-> Stellen Sie sicher, dass Komponenten, :resourceType Sling unter wcm/foundation/components verwenden, in die entsprechenden Kern-/wcm/components migriert werden.
+> Stellen Sie sicher, dass Komponenten, :resourceType Sling unter `wcm/foundation/components` verwenden, zum entsprechenden `core/wcm/components` migriert werden.
 
 Fügen Sie dieselbe Komponente (Container- und Textkomponente) in die Struktur derselben Vorlage ein:
 
@@ -139,4 +140,4 @@ Standardmäßig werden die im AEM Guides-Komponentenpaket bereitgestellten Clien
 
 >[!NOTE]
 >
-> Stellen Sie sicher, dass die Vorlagen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktion bereitstellen.<br><br>Weitere Informationen finden Sie in der offiziellen [AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview)- und [AEM Sites](https://experienceleague.adobe.com/de/docs/experience-manager-core-components/using/get-started/authoring)-Dokumentation.
+> Stellen Sie sicher, dass die Vorlagen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktion bereitstellen.<br><br>Weitere Informationen finden Sie in der offiziellen [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)- und [AEM Sites](https://experienceleague.adobe.com/de/docs/experience-manager-core-components/using/get-started/authoring)-Dokumentation.

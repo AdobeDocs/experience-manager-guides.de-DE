@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie AEM Sites-Vorlagen für On-Premise-Services h
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 20ba7f4582f1d155e555c9ff3ac58e1e3c400765
+exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ Bevor Sie mit der Einrichtung fortfahren, stellen Sie sicher, dass die folgenden
 ## Paketinstallation mit CRX Package Manager
 
 1. **Installieren des Komponentenpakets:**
-   1. Navigieren Sie zu [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr).
+   1. Navigieren Sie zu [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
    2. Laden Sie das Paket on-preme-guides-components.all-1.x.0.zip hoch und installieren Sie es.
 
 2. **Installieren Sie das Sites-Paket:** Laden Sie das Paket aemg-docs.all-1.x.0.zip hoch und installieren Sie es mit dem CRX Package Manager.
@@ -60,14 +61,14 @@ Bevor Sie mit der Einrichtung fortfahren, stellen Sie sicher, dass die folgenden
 
    1. Wählen Sie **Site** als **AEMG Docs** aus.
    2. Stellen Sie sicher **dass „Veröffentlichungspfad** und **Themenseitenvorlage** automatisch auf Folgendes festgelegt sind:
-      - Veröffentlichungspfad: aemg-docs/en/docs/product1
+      - Veröffentlichungspfad: `aemg-docs/en/docs/product1`
       - Themenseitenvorlage: Themenseite.
 
       ![Site-Dropdown verwenden](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
 
    **Option 2: Verwenden des Site-Pfads**
 
-   1. Legen Sie **Site-Pfad** manuell als &quot;/content/aemg-docs/en/docs/product1“ fest.
+   1. Legen Sie **Site-Pfad** manuell als `/content/aemg-docs/en/docs/product1` fest.
    2. Stellen Sie sicher **dass „Themenseitenvorlage** automatisch auf Themenseite eingestellt ist.
 
       ![Site-Pfad verwenden](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
@@ -78,14 +79,14 @@ Bevor Sie mit der Einrichtung fortfahren, stellen Sie sicher, dass die folgenden
 
 1. **Website generieren:**
    1. Wenn die Vorgabe konfiguriert ist, können Sie jetzt die AEM-Site für die entsprechende DITA-Zuordnung generieren.
-   2. Die generierte Site ist unter dem Pfad verfügbar: /content/aemg-docs/en/docs/product1.
+   2. Die generierte Site ist unter folgendem Pfad verfügbar: `/content/aemg-docs/en/docs/product1`.
 2. **Standardgenerierungspfad ändern (optional):** Wenn Sie den Standardpfad für die Site-Generierung ändern möchten, führen Sie die folgenden Schritte aus:
 
    1. Navigieren Sie zu **AEM Sites**.
    2. Erstellen Sie eine neue Produktseite unter der vorkonfigurierten Site-Struktur.
    3. Navigieren Sie zu **AEMG-** > **Englisch** > **Docs**.
 
-      ![Seite in der AEM Site-Struktur erstellen &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Seite in der AEM Site-Struktur erstellen ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
 
    4. Wählen Sie die Kachel **Startseite** und dann **Weiter** aus.
 
@@ -93,4 +94,3 @@ Bevor Sie mit der Einrichtung fortfahren, stellen Sie sicher, dass die folgenden
 
    5. Geben Sie **(Titel** und **Name** für die Seite ein.
    6. Wählen Sie **Erstellen** aus.
-

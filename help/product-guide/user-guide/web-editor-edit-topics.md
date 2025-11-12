@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Themen im Editor bearbeiten. Erfahren Sie meh
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
+source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,7 @@ Wenn Sie den ausgewählten Inhalt löschen, wird der verbleibende Inhalt nach de
 - Den Inhalt mit einem gültigen Element umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element einzuschließen:
 
    - Wählen Sie den Inhalt in einem Element aus.
-   - Wählen Sie ![&#x200B; oben in der Symbolleiste das Symbol &#x200B;](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
-
+   - Wählen Sie ![ oben in der Symbolleiste das Symbol ](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
      >[!NOTE]
      >
      > Sie können das Dialogfeld Element einfügen auch anzeigen, indem Sie auf das Kontextmenü des ausgewählten Inhalts klicken.
@@ -108,11 +107,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
-## Suchen einer geöffneten Datei in der Repository-Ansicht
+## Suchen einer geöffneten Datei im Explorer
 
-Beim Öffnen einer Datei im Editor bietet Experience Manager Guides die Funktion zum Suchen der Datei in der Repository-Ansicht. Sie findet beispielsweise das aktuelle Thema, während Sie es bearbeiten.
+Wenn Sie eine Datei im Editor öffnen, bietet Experience Manager Guides die Funktion zum Suchen der Datei im Explorer. Sie findet beispielsweise das aktuelle Thema, während Sie es bearbeiten.
 
-Sie können die Funktion zum Suchen der Datei mit der Option **Dateien immer im Repository suchen** auf der Registerkarte **Erscheinungsbild** der **Benutzereinstellungen** deaktivieren.
+Sie können die Funktion zum Suchen der Datei mit der Option **Dateien immer im Explorer suchen** auf der Registerkarte **Erscheinungsbild** der Registerkarte **Benutzereinstellungen** deaktivieren.
 
+>[!NOTE]
+>
+>Ab Version 2025.11.0 wird die Einstellung **Dateien im Repository immer finden** in **Dateien immer im Explorer suchen** umbenannt. Bei On-Premise-Setups ist sie weiterhin verfügbar, da sie bis Version 5.1 von Experience Manager Guides immer Dateien im Repository finden.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Editor](web-editor.md)

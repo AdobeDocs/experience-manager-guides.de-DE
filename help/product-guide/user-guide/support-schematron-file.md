@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie ein DITA-Thema importieren und validieren, mi
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
+source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,19 @@ Wenn Sie ein Thema im Editor öffnen, wird rechts ein Bedienfeld für die Schema
 
 1. Wählen Sie das Schematron-Symbol () aus, um das Schematron-Bedienfeld zu öffnen.
 1. Verwenden **Schematrondatei hinzufügen** um Schematrondateien hinzuzufügen.
+
+   >[!NOTE]
+   >
+   > Wenn eine ungültige Schematron-Datei hinzugefügt wird, wird im Validierungsfenster eine Fehlermeldung angezeigt.
+
+   ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. Wenn die Schematron-Datei keine Fehler enthält, wird sie hinzugefügt und im Validierungsfenster aufgeführt. Für die Schematron-Datei mit Fehlern wird eine Fehlermeldung angezeigt.
+
    >[!NOTE]
    >
    >Sie können das Kreuz-Symbol neben dem Namen der Schematron-Datei verwenden, um sie zu entfernen.
+
 1. Wählen Sie **Mit Schematron validieren** aus, um das Thema zu validieren.
 
    * Wenn beim Thema keine Regeln verletzt werden, wird die Erfolgsmeldung für die Datei angezeigt.

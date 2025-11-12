@@ -5,7 +5,7 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 5%
@@ -42,7 +42,7 @@ com/adobe/guides/postprocess/complete
 |----|----|-----------|
 | `path` | Zeichenfolge | Pfad der Datei, die dieses Ereignis ausgelöst hat In der Regel ist dies die Datei, für die ein Vorgang ausgeführt wurde. |
 | `eventType` | Zeichenfolge | Der Ereignistyp, d. h. ERSTELLEN oder ÄNDERN. |
-| `status` | Zeichenfolge | Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: - <br>- ERFOLG: Der Nachbearbeitungsvorgang wurde erfolgreich abgeschlossen. <br>- FEHLGESCHLAGEN: Der Nachbearbeitungsvorgang ist aufgrund eines Fehlers fehlgeschlagen. |
+| `status` | Zeichenfolge | Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: <br>- ERFOLG: Der Nachbearbeitungsvorgang wurde erfolgreich abgeschlossen. <br>- FEHLGESCHLAGEN: Der Nachbearbeitungsvorgang ist aufgrund eines Fehlers fehlgeschlagen. |
 | `errorMsg` | Zeichenfolge | Die Fehlermeldung im Falle eines Fehlers beim Nachbearbeitungs-Vorgang. |
 | `uuid` | Zeichenfolge | Die UUID der Datei, die dieses Ereignis ausgelöst hat. In der Regel ist dies die Datei, für die ein Vorgang ausgeführt wurde. |
 
@@ -110,6 +110,6 @@ com/adobe/fmdita/postprocess/complete
 | Name | Typ | Beschreibung |
 |----|----|-----------|
 | `path` | Zeichenfolge | Pfad der Datei, die dieses Ereignis ausgelöst hat In der Regel ist dies die Datei, für die ein Vorgang ausgeführt wurde. |
-| `status` | Zeichenfolge | Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: - <br>- ERFOLG: Der Nachbearbeitungsvorgang wurde erfolgreich abgeschlossen. <br>- ABGESCHLOSSEN MIT FEHLERN: Der Nachbearbeitungsvorgang wurde abgeschlossen, jedoch mit einigen Fehlern. <br>- FEHLGESCHLAGEN: Der Nachbearbeitungsvorgang ist aufgrund eines Fehlers fehlgeschlagen. |
+| `status` | Zeichenfolge | Der Rückgabestatus für den ausgeführten Vorgang. Die möglichen Optionen sind: <br>- ERFOLG: Der Nachbearbeitungsvorgang wurde erfolgreich abgeschlossen. <br>- ABGESCHLOSSEN MIT FEHLERN: Der Nachbearbeitungsvorgang wurde abgeschlossen, jedoch mit einigen Fehlern. <br>- FEHLGESCHLAGEN: Der Nachbearbeitungsvorgang ist aufgrund eines Fehlers fehlgeschlagen. |
 | `message` | Zeichenfolge | Falls der Status MIT FEHLERN ABGESCHLOSSEN ODER FEHLGESCHLAGEN ist, enthält dieser Parameter Details zum Fehler oder zur Fehlerursache. |
 | `operation` | Zeichenfolge | Der für die Datei durchgeführte Nachbearbeitungsvorgang. Die möglichen Optionen sind: <br>- Hinzufügen <br>- Aktualisieren <br> Löschen |

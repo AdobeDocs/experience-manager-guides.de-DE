@@ -4,9 +4,9 @@ description: Lernen Sie die Startseite der Adobe Experience Manager Guides kenne
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Die Startseite ist der erste Bildschirm, der beim Anmelden bei Experience Manager Guides angezeigt wird. Es bietet Ihnen ein einheitliches und intuitives Willkommenserlebnis, einschließlich einer schnellen Ansicht der Dateien, auf die Sie zuletzt zugegriffen haben, Sammlungen und mehr.
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page-new.png){align="left"}
 
 Die Experience Manager Guides-Startseite ist in die folgenden Abschnitte unterteilt:
 
@@ -60,15 +60,19 @@ In der Navigationsleiste verfügbare Funktionen werden wie folgt erläutert:
 
      >[!NOTE]
      >
-     > Auf der Startseite ist die Option Workspace-Einstellungen nur für das Einrichten von Cloud-Services verfügbar. Bei einem On-Premise-Setup ist die Option Mehr Aktionen auf der Startseite nicht verfügbar. Sie können jedoch weiterhin über die Editor-Oberfläche und die Zuordnungskonsole auf die relevanten Einstellungen zugreifen, indem Sie zu Weitere Optionen > Einstellungen navigieren.
+     > Auf der Startseite ist die Option Workspace-Einstellungen nur für das Einrichten von Cloud Services verfügbar. Bei einem On-Premise-Setup ist die Option Mehr Aktionen auf der Startseite nicht verfügbar. Sie können jedoch weiterhin über die Editor-Oberfläche und die Zuordnungskonsole auf die relevanten Einstellungen zugreifen, indem Sie zu Weitere Optionen > Einstellungen navigieren.
 
 - **Ansicht erweitern**: Ermöglicht das Erweitern der Seitenansicht mithilfe des Symbols **Erweitern**. In dieser Ansicht ist die Kopfzeilenleiste ausgeblendet, was den Inhaltsbereich maximiert. Um zur Standardansicht zurückzukehren, verwenden Sie das Symbol **Erweiterte Ansicht beenden**.
 
 ## Linkes Bedienfeld
 
-Das linke Bedienfeld bietet schnellen Zugriff auf die Funktionen „Übersicht“, „Sammlungen zuordnen“, „Massenveröffentlichung“, „Veröffentlichungswarteschlange“ und „Benutzereinstellungen“. Sie können das Bedienfeld erweitern, indem Sie **Symbol &quot;**&quot; in der linken unteren Ecke der Benutzeroberfläche auswählen. Verwenden Sie nach dem Erweitern das Symbol **Reduzieren**, um das Bedienfeld zu reduzieren.
+>[!NOTE]
+>
+> Das Repository ist im linken Bedienfeld nur für die Einrichtung von Cloud Service ab Version 2025.11.0 verfügbar. Bei der On-Premise-Einrichtung erfolgt der Zugriff auf das Repository weiterhin über die Editor-Oberfläche.
 
-![](images/aem-home-left-panel.png){width="300" align="left"}
+Das linke Bedienfeld bietet schnellen Zugriff auf die Funktionen Übersicht, Repository, Zuordnen von Sammlungen, Massenveröffentlichung, Veröffentlichungswarteschlange und Benutzereinstellungen. Sie können das Bedienfeld erweitern, indem Sie **Symbol &quot;**&quot; in der linken unteren Ecke der Benutzeroberfläche auswählen. Verwenden Sie nach dem Erweitern das Symbol **Reduzieren**, um das Bedienfeld zu reduzieren.
+
+![](images/home-with-repository.png){width="300" align="left"}
 
 Was Sie in diesem Bedienfeld anzeigen, hängt von Ihrer Benutzerrolle ab. In der folgenden Tabelle sind die Rollen und die entsprechenden Abschnitte aufgeführt, die im linken Bereich angezeigt werden.
 
@@ -80,6 +84,7 @@ Was Sie in diesem Bedienfeld anzeigen, hängt von Ihrer Benutzerrolle ab. In der
 Die im linken Bedienfeld verfügbaren Funktionen werden wie folgt erläutert:
 
 - [Überblick](#overview)
+- [Repository](#repository)
 - [Sammlungen zuordnen](#map-collections)
 - [Massenveröffentlichung](#bulk-publish)
 - [Veröffentlichungswarteschlange](#publish-queue)
@@ -151,13 +156,17 @@ Die folgenden Widgets sind im Abschnitt Widgets vorhanden:
 >
 > Wenn Ihr Administrator die Adobe Workfront-Integration im System konfiguriert hat, wird **Widget „Ihre**&quot; auch im Abschnitt „Widgets“ angezeigt. Weitere Informationen zur Integration von [Adobe Workfront](./workfront-integration.md#working-with-the-your-tasks-widget) in Experience Manager Guides.
 
+### Repository
+
+Das Repository dient als zentralisierter Hub zur einfachen Erkennung von Ordnern und Dateien. Es bietet eine umfassende tabellarische Listenansicht aller Dateien und Ordner sowie deren kontextuelle Details. Über diese einheitliche Benutzeroberfläche können Sie Dateien nahtlos durchsuchen und Suchen mit robusten Filteroptionen durchführen, um Effizienz und ein verbessertes Erlebnis zu gewährleisten. Weitere Informationen zu [Repository](./home-page-repository-view.md).
+
 ### Zuordnen von Sammlungen
 
 Experience Manager Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die Veröffentlichung mithilfe eines Dashboards namens &quot;**&quot;** organisieren. Um diese Funktion zu verwenden, wählen **Sammlungen zuordnen** im linken Bereich aus. Dadurch gelangen Sie zur Seite „Zuordnungssammlungen“ in der **Assets-Benutzeroberfläche** wo Sie [Zuordnungssammlung für die Ausgabegenerierung verwenden können.](./generate-output-use-map-collection-output-generation.md)
 
 ### Massenveröffentlichung
 
-Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [&#x200B; veröffentlichten Inhalte“ erstellen und verwalten &#x200B;](./conf-bulk-activation.md).
+Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [ veröffentlichten Inhalte“ erstellen und verwalten ](./conf-bulk-activation.md).
 
 ### Veröffentlichungswarteschlange
 
@@ -189,4 +198,8 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Über die Voreins
 
    - **Anzeigekonfiguration für Editor-Dateien**: Wählen Sie die Standardmethode zum Anzeigen der Dateien im Editor aus. Sie können die Liste der Dateien anhand der Titel oder Dateinamen aus den verschiedenen Bedienfeldern in der Autorenansicht anzeigen. Standardmäßig werden die Dateien nach Titel im Editor angezeigt.
 
-   - **Dateien immer im Repository suchen**: Wählen Sie diese Option, um den Speicherort einer Datei im Repository anzuzeigen, während sie im Editor bearbeitet wird.
+   - **Dateien immer im Explorer suchen**: Wählen Sie diese Option, um den Speicherort einer Datei im Repository anzuzeigen, während sie im Editor bearbeitet wird.
+
+  >[!NOTE]
+  >
+  >Ab Version 2025.11.0 wird die Einstellung **Dateien im Repository immer finden** in **Dateien immer im Explorer suchen** umbenannt. Bei On-Premise-Setups ist sie weiterhin verfügbar, da sie bis Version 5.1 von Experience Manager Guides immer Dateien im Repository finden.

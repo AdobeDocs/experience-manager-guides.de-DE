@@ -4,9 +4,9 @@ description: Erkunden Sie andere Funktionen des Editors in Adobe Experience Mana
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2678'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,11 @@ Um eine neue Version der Datei zu erstellen, wählen Sie **Als neue Version spei
 
 - **Map**: Wenn Sie eine große DITA-Map geöffnet haben und den genauen Speicherort einer Datei in der Map finden möchten, wählen Sie **Locate In \> Map**. Wenn Sie die Option „In Zuordnung suchen“ auswählen, befindet sich die Datei \(von der aus die Option aufgerufen wird\) und wird in der Zuordnungshierarchie hervorgehoben. Um diese Funktion verwenden zu können, müssen Sie die Zuordnungsdatei im Editor öffnen. Wenn die Zuordnungsansicht ausgeblendet ist, wird beim Aufrufen dieser Funktion die Zuordnungsansicht angezeigt und die Datei wird in der Zuordnungshierarchie hervorgehoben.
 
-- **Repository**: Ähnlich wie „In Map suchen“ zeigt **In \> Repository** den Speicherort der Datei im Repository \(oder DAM\). Die Repository-Ansicht wird geöffnet und die ausgewählte Datei wird im Repository hervorgehoben. Wenn sich die Datei in einem Ordner befindet, wird dieser Ordner erweitert, um den Speicherort der ausgewählten Datei im Repository anzuzeigen.
+- **Explorer**: Ähnlich wie In Map suchen zeigt **In \> Explorer** den Speicherort der Datei im Explorer \(oder DAM\) an. Die Explorer-Ansicht wird geöffnet und die ausgewählte Datei wird im Explorer hervorgehoben. Wenn sich die Datei in einem Ordner befindet, wird dieser Ordner erweitert, um den Speicherort der ausgewählten Datei im Explorer anzuzeigen.
 
+  >[!NOTE]
+  >
+  >Ab Version 2025.11.0 wird **Repository** in &quot;**&quot;**. Bei On-Premise-Setups ist es bis Version 5.1 von Experience Manager Guides weiterhin als Repository verfügbar.
 
 ***Hinzufügen zu***: Sie können aus den folgenden Optionen auswählen:
 
@@ -114,7 +117,7 @@ Ihr Dateispeichererlebnis hängt von den folgenden drei Szenarien ab, in denen S
 Je nachdem, ob die Datei gesperrt/entsperrt ist und gespeicherte oder nicht gespeicherte Änderungen aufweist, können Sie die folgenden Optionen anzeigen:
 
 - **Entsperren und Schließen**: Die Sperre für die Datei wird aufgehoben, und die Datei wird geschlossen.
-- **Als neue Version speichern**: Dadurch werden die Änderungen gespeichert, die Sie am Inhalt vorgenommen haben, und eine neue Version der Datei erstellt. Sie können der neu gespeicherten Version auch Beschriftungen und Kommentare hinzufügen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version &#x200B;](web-editor-toolbar.md#version-information-and-save-as-new-version).
+- **Als neue Version speichern**: Dadurch werden die Änderungen gespeichert, die Sie am Inhalt vorgenommen haben, und eine neue Version der Datei erstellt. Sie können der neu gespeicherten Version auch Beschriftungen und Kommentare hinzufügen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version ](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 - **Datei entsperren**: Wenn Sie eine Datei entsperren, wird die Sperre für die Datei aufgehoben und die Änderungen werden in der aktuellen Version der Datei gespeichert.
 
@@ -279,4 +282,4 @@ Die wichtigsten Funktionen zur Verbesserung der Handhabung großer Dateien werde
 
 - Die Warnmeldung ist nur für DITA-Dateien verfügbar und in allen Ansichten sichtbar: Author, Source und Layout.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
