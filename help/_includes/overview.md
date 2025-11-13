@@ -25,6 +25,6 @@ Mit [!DNL AEM Guides] Lösung können Unternehmen Endbenutzern nahtlose und pers
 
 ## Zusätzliche Ressourcen
 
-* [[!DNL AEM Guides] Benutzerhandbuch (neue Benutzeroberfläche)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides] Lernen und Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [[!DNL AEM Guides] Benutzerhandbuch (neue Benutzeroberfläche)](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview)
+* [[!DNL AEM Guides] Lernen und Support](https://helpx.adobe.com/de/support/xml-documentation-for-experience-manager.html)
 * [Experience League – AEM-Erkundung](https://business.adobe.com/de/products/experience-manager/adobe-experience-manager.html)
