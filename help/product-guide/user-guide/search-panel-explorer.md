@@ -3,7 +3,7 @@ title: Suchbereich in der Editor-Benutzeroberfläche
 description: Erfahren Sie, wie Sie in der Editor-Benutzeroberfläche das Suchfeld verwenden.
 feature: Authoring
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Das Suchfeld ist über die folgende URL aufrufbar:
 
   ![](images/search-icon-editor.png){align="left"}
 
-- **Startseite**: Verwenden der Option **Im Suchbereich anzeigen** beim Navigieren von der Repository-Benutzeroberfläche auf der Startseite. Für die Detailansicht [Suche aus dem Repository](#search-from-repository-interface-on-the-home-page).
+- **Startseite**: Verwenden der Option **Im Suchbereich anzeigen** beim Navigieren von der Repository-Benutzeroberfläche auf der Startseite. Für die Detailansicht [Suche aus dem Repository](#search-from-the-repository-interface-on-the-home-page).
 
   ![](images/search-panel-repo.png){align="left"}
 
