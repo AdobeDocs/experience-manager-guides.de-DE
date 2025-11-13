@@ -61,4 +61,4 @@ Führen Sie die folgenden Schritte aus, um auf den Bericht „Verlauf zurückset
 
 
 
-**Übergeordnetes Thema:**[ Reports](reports-intro.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)
