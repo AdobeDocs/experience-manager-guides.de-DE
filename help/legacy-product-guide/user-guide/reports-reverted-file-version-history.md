@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
+source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 Wenn Sie an mehreren gleichzeitigen Versionen zusammen mit mehreren Autoren arbeiten, müssen Ihre Inhalte mehrere Versionen haben. Es könnte einige gemeinsame Informationen in mehreren Versionen geben, die verschiedene Autoren in ihrem Projekt verwenden könnten. Bei solchen Arbeitsaufträgen könnten Autoren mehrere Versionen von Dateien erhalten. Bei diesen Versionen kann es sich einfach um eine neuere Version einer Datei oder um eine Wiederherstellung auf eine frühere Version handeln. Es ist eine komplexe Aufgabe, herauszufinden, wann und warum eine Datei zurückgesetzt wurde.
 
 Mit AEM Guides können Sie einen Versionsverlaufsbericht für eine einzelne Datei oder für alle Dateien in einem Ordner generieren. Dieser Versionsverlauf bietet Ihnen eine konsolidierte Ansicht aller Versionen einer Datei, die zurückgesetzt wurden, und der Personen, die diese Versionen erstellt haben, sowie den Grund für die Erstellung dieser Versionen.
+
+{{$include /help/_includes/overview.md}}
 
 Sie können auf diesen Bericht an den folgenden Stellen zugreifen:
 
@@ -57,6 +59,6 @@ Führen Sie die folgenden Schritte aus, um auf den Bericht „Verlauf zurückset
 
    - **Kommentar**: Jeder Kommentar, der von der Person abgegeben wurde, die die Datei zurückgesetzt hat.
 
-{{$include /help/_includes/overview.md}}
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)
+
+**Übergeordnetes Thema:**[ Reports](reports-intro.md)
