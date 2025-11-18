@@ -5,14 +5,31 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 6261e1aa1966a81830fe8e5cf14337c8be4f81cb
+source-git-commit: f867f2deceddf46b5242163c6ea0b4cc1c4f1ca2
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 # Bericht zur Wiederverwendung von Inhalt {#id205BB900OQD}
+
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="width:150px; white-space: nowrap;">Gilt für:</td>
+    <td style="width:500px; white-space: nowrap;">Experience Manager Guides as a Cloud Service, Experience Manager Guides On-Premise</td>
+  </tr>
+  <tr>
+    <td style="width:150px; white-space: nowrap;">Version:</td>
+    <td style="width:500px; white-space: nowrap;">2025.11.0, 2025.12.0</td>
+  </tr>
+  <tr>
+    <td style="width:150px; white-space: nowrap;">Version:</td>
+    <td style="width:500px; white-space: nowrap;">4.6.0, 5.1.0</td>
+  </tr>
+</table>
+
+![](./images/test-version-info-table.svg)
 
 Ein weiterer nützlicher Bericht, den Sie generieren können, ist der Bericht zur Wiederverwendung von Inhalten. Dieser Bericht berechnet den durchschnittlichen Prozentsatz der Inhaltsnutzung, was für Projekt-Manager und Geschäftsinhaber sehr nützlich ist, um die Menge der wiederverwendeten Inhalte zu sehen.
 
@@ -63,4 +80,4 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 >
 > Sie können auch den Bericht zur Wiederverwendung von Inhalten im CSV-Format exportieren. Klicken Sie dazu auf den Link In CSV exportieren in der linken oberen Ecke des Bildschirms und wählen Sie einen Speicherort für die CSV-Datei aus. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)
+**Übergeordnetes Thema:**[ Reports](reports-intro.md)
