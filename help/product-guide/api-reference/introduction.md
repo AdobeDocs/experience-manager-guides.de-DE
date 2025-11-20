@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 67e844faece8b6bb8988bb0e67f357cda1db9a4d
+source-git-commit: bf7838690d7632cd74fef0db3aaf7bdc48a50a2c
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Sie können die in Experience Manager Guides verfügbaren Java-basierten APIs ve
 
 >[!INFO]
 >
->In [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) finden Sie die neueste und detaillierte Dokumentation zur Verwendung der Java-basierten API für Experience Manager Guides as a Cloud Service.
+>In [![javadoc](./images/javadoc-cs-icon.svg)](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) finden Sie die neueste und detaillierte Dokumentation zur Verwendung der Java-basierten API für Experience Manager Guides as a Cloud Service.
 
 Um die Service-API-JARs aus dem Maven-Repository in Ihren Projekten zu konfigurieren und zu verwenden, fügen Sie die API-SDK als Projektabhängigkeit in der `pom.xml` Ihres Projekts hinzu, wie unten dargestellt.
 
@@ -122,9 +122,9 @@ Ausführliche Informationen zur API-Nutzung, zu Parametern und Beispielanfragen 
 
 ## Zusätzliche Ressourcen
 
-Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guides, die auf der Seite [Lernen und Support](https://helpx.adobe.com/de/support/xml-documentation-for-experience-manager.html) verfügbar sind:
+Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guides, die auf der Seite [Lernen und Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) verfügbar sind:
 
 - Benutzerhandbuch
 - Installations- und Konfigurationshandbuch
 - Schnellstartanleitung
-- [Hilfe-Archivierungsseite](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) \(Zugriff auf die ältere Versionsdokumentation\)
+- [Hilfe-Archivierungsseite](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(Zugriff auf die ältere Versionsdokumentation\)
