@@ -34,7 +34,7 @@ Diese Funktionen werden im Einzelnen wie folgt erläutert:
 
 **Aktionen bearbeiten**
 
-Greifen Sie beim Bearbeiten eines Themas im Editor auf die verschiedenen Bearbeitungsaktionen zu, z. B. **Ausschneiden** oder ***Strg***+***X*** , **Kopieren** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+Z ***,*** Wiederholen **oder** CtrlCtrlY **&#x200B;**&#x200B;**&#x200B; **&#x200B;**&#x200B;** **&#x200B;**&#x200B;Löschenim Dropdown-Menü.
+Greifen Sie beim Bearbeiten eines Themas im Editor auf die verschiedenen Bearbeitungsaktionen zu, z. B. **Ausschneiden** oder ***Strg***+***X*** , **Kopieren** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+Z ***,*** Wiederholen **oder** CtrlCtrlY **&#x200B;**&#x200B;**&#x200B; &#x200B;**&#x200B;**&#x200B;** **&#x200B;**&#x200B;Löschenim Dropdown-Menü.
 
 
 **Suchen und Ersetzen**
