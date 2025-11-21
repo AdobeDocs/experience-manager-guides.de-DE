@@ -18,13 +18,13 @@ Um auf Funktionen in AEM Guides zuzugreifen und sie zu konfigurieren, müssen Si
 
 Die folgenden Themen in der Dokumentation zu AEM helfen Ihnen, die Konzepte und Funktionen der Benutzerverwaltung und Sicherheit zu verstehen:
 
-- [Benutzer und Gruppen in AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [Benutzer und Gruppen in AEM](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
 - [Berechtigungen in AEM](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [Verwalten von Benutzern und Gruppen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [Verwalten von Benutzern und Gruppen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [Verwalten von Berechtigungen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [Verwalten von Berechtigungen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Von AEM Guides erstellte Benutzergruppen {#id181TF0K0MHT}

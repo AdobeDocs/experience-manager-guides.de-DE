@@ -57,7 +57,7 @@ die dann die „change-request-id“ zum Prolog hinzufügen sollte:
 }
 ```
 
-[Verwenden Sie diesen Link, um mehr über das Ordnerprofil und die Konfiguration von ui_config.json zu erfahren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[Verwenden Sie diesen Link, um mehr über das Ordnerprofil und die Konfiguration von ui_config.json zu erfahren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=de)
 
 
 ### Verarbeiten des Klickereignisses für die neue Schaltfläche
