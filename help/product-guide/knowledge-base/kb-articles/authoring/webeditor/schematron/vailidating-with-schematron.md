@@ -101,6 +101,6 @@ Regeln, die auf „Berichten“ basieren, werden noch nicht unterstützt.
 
 #### Ressourcen
 
-- Grundlagen [ Schematron](https://da2022.xatapult.com/#what-is-schematron)
+- Grundlagen [&#x200B; Schematron](https://da2022.xatapult.com/#what-is-schematron)
 - Weitere Informationen [Assertionsregeln im Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
 - [Beispieldatei für Schematron](../../../assets/authoring/sample_schematron.sch)

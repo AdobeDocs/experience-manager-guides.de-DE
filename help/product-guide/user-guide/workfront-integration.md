@@ -82,7 +82,7 @@ Führen Sie die folgenden Schritte aus, um eine neue Adobe Workfront-Aufgabe zu 
    * **Beschreibung**: Geben Sie eine kurze Beschreibung der Aufgabe ein.
    * **Fällig am**: Legen Sie das Fälligkeitsdatum für den Abschluss der Aufgabe fest.
    * **Verantwortlicher**: Wählen Sie einen Verantwortlichen für die Aufgabe aus.
-3. Assets Wählen Sie auf der Registerkarte **0} die Option** Hinzufügen **aus, um dieser Aufgabe ein Asset hinzuzufügen.**
+3. Assets Wählen Sie auf der Registerkarte **0&rbrace; die Option** Hinzufügen **aus, um dieser Aufgabe ein Asset hinzuzufügen.**
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
 
@@ -166,7 +166,7 @@ Zeigt die Aufgabeninformationen an, einschließlich der bei der Aufgabenerstellu
 
 #### Zugreifen auf zugewiesene Aufgaben über den Abschnitt „Übersicht“
 
-Sie können auch über den Abschnitt „Übersicht“ auf [ zugewiesenen Aufgaben ](./intro-home-page.md#overview) Adobe Workfront zugreifen. Wenn der Abschnitt Übersicht ausgewählt ist, enthält er verschiedene Widgets, die Ihnen helfen, fokussiert und organisiert zu bleiben.
+Sie können auch über den Abschnitt „Übersicht“ auf [&#x200B; zugewiesenen Aufgaben &#x200B;](./intro-home-page.md#overview) Adobe Workfront zugreifen. Wenn der Abschnitt Übersicht ausgewählt ist, enthält er verschiedene Widgets, die Ihnen helfen, fokussiert und organisiert zu bleiben.
 
 **Ihre Aufgaben** ist ein solches Widget, in dem eine Liste der Adobe Workfront-Aufgaben (die Ihnen zugewiesen sind und noch aktiv sind) zusammen mit den wichtigsten Aufgabendetails, einschließlich Name der Aufgabe, verknüpftes Projekt, Fälligkeitsdatum und aktueller Status, angezeigt wird.
 

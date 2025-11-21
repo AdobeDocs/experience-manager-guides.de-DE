@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um im Editor ein Markdown-Thema zu erste
 
    >[!NOTE]
    >
-   > Im Falle eines Upgrades müssen Sie die Markdown-Vorlage zum aktuell verwendeten Profilordner hinzufügen. Sie können [eine neue Markdown-Vorlage aus dem Editor erstellen](./web-editor-features.md#templates) oder eine vorhandene Vorlage für die Bearbeitung von Markdown-Inhalten verwenden. Weitere Informationen zum Hinzufügen von Authoring-Vorlagen in Experience Manager Guides finden Sie unter [Konfigurieren von globalen Profilen oder Profilen auf ](../cs-install-guide/conf-folder-level.md).
+   > Im Falle eines Upgrades müssen Sie die Markdown-Vorlage zum aktuell verwendeten Profilordner hinzufügen. Sie können [eine neue Markdown-Vorlage aus dem Editor erstellen](./web-editor-features.md#templates) oder eine vorhandene Vorlage für die Bearbeitung von Markdown-Inhalten verwenden. Weitere Informationen zum Hinzufügen von Authoring-Vorlagen in Experience Manager Guides finden Sie unter [Konfigurieren von globalen Profilen oder Profilen auf &#x200B;](../cs-install-guide/conf-folder-level.md).
 1. Wählen Sie **Erstellen** aus.
 
    Das Markdown-Thema wird unter dem ausgewählten Pfad erstellt und ist zur Bearbeitung geöffnet.
@@ -175,4 +175,4 @@ Die folgenden Experience Manager Guides-Funktionen können derzeit nicht für da
 
 
 
-**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)

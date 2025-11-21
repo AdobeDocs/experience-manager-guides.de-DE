@@ -81,7 +81,7 @@ In diesem Beispiel passen wir die Überschriften von Ebene 1 bis Ebene 3 so an, 
 
 1. Erweitern Sie in der **Stile** die Liste **Überschriftenstile**.
 
-1. Wählen Sie in **Liste den Stil**h1) aus.
+1. Wählen Sie in **Liste den Stil**&#x200B;h1) aus.
 Die Eigenschaften für den Stil h1 werden im Bedienfeld Eigenschaften zusammen mit der Vorschau angezeigt.
 
    >[!NOTE]
