@@ -32,4 +32,4 @@ Bevor Sie mit dem Download- und Installationsprozess beginnen, müssen Sie siche
 
 - **[AEM Guides deinstallieren](download-install-unistall-aemg.md)**
 
-- **[Recommendations zur Leistungsoptimierung](download-install-recommend-perf-optimiz.md)**
+- **[Empfehlungen zur Leistungsoptimierung](download-install-recommend-perf-optimiz.md)**
