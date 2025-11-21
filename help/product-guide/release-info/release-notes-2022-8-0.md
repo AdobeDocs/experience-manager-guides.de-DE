@@ -4,7 +4,7 @@ description: August-Version von Adobe Experience Manager Guides as a Cloud Servi
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 ## Upgrade auf die August-Version
 
 Führen Sie ein Upgrade Ihres aktuellen Adobe Experience Manager Guides as a Cloud Service-Setups (später als *AEM Guides as a Cloud Service* bezeichnet) durch, indem Sie die folgenden Schritte ausführen:
-1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
-1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf Version 2022.8.167.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die August-Version von AEM Guides as a Cloud Service zu aktualisieren.
+1. Checken Sie den Git-Code der Cloud Services aus und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Services-Git-Codes auf 2022.8.167.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die August-Version von AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
@@ -97,10 +97,10 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Aktualisierte Node.js wird nicht für die Veröffentlichung verwendet. (9 835)
 * Das DITA-Thema wird nicht automatisch mit den Änderungen aktualisiert, die auf der Seite **Eigenschaften** vorgenommen wurden. (8 745)
 * Das Frontmatter-Element funktioniert beim Hinzufügen zu einer DITA-Lesekarte nicht ordnungsgemäß. (9507)
-* Native PDF | Eine leere PDF wird bei Verwendung von **Quick Generate** für mehrere Dateien erzeugt, wenn ein leeres Element ausgewählt wird. (9822)
+* Native PDF | Eine leere PDF wird bei Verwendung von **Quick Generate** für mehrere Dateien generiert, wenn ein leeres Element ausgewählt wird. (9822)
 * Native PDF | Der Anhang wird als Kapitel in der PDF-Ausgabe veröffentlicht. (9 829)
-* Native PDF | Wenn ein SVG-Bild bearbeitet wird, wird es im Seiten-Layout nicht aktualisiert angezeigt. (9069)
-* Ein regulärer Bindestrich wird eingefügt, wenn im Dialogfeld „Sonderzeichen einfügen **ein `Nonbreaking Hyphen` eingefügt**. (8919)
+* Native PDF | Wenn ein SVG-Bild bearbeitet wird, wird es im Seiten-Layout nicht angezeigt oder aktualisiert. (9069)
+* Ein regulärer Bindestrich wird eingefügt, wenn im Dialogfeld „Sonderzeichen einfügen`Nonbreaking Hyphen` ein **eingefügt**. (8919)
 * Der XML-Editor zeigt keine aktualisierten Bilder in den Themen an, wenn sie bearbeitet wurden. (9500)
 * Beim Veröffentlichen der Ausgabe über den Editor können die Vorgaben nicht aus der Registerkarte **Ausgabe** gelöscht werden. (9100)
 * Die Unterzuordnungen einer DITA-Zuordnung werden nicht mit der Option **Alle auswählen** aus dem Menü mit den Auslassungspunkten ausgecheckt. (9 814)
@@ -109,12 +109,12 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Es ist keine Option zum Durchsuchen der Themen oder Karten vorhanden, die in den Unterordnern einer Zuordnung oder Themenvorlage vorhanden sind. (9 889)
 * Wenn eine Schematrondatei aktualisiert und zusammen mit der DITA-Datei gespeichert wird, wird der rechte Bereich nicht angezeigt (wenn die DITA-Datei die in der Schematrondatei vorhandenen Validierungen beschädigt). (9986)
 * Es kann eine neue doppelte Ausgabevorgabe erstellt werden, wenn ihr Name mit dem einer vorhandenen Vorgabe übereinstimmt. (9997)
-* SVG-Images werden beim Generieren der HTML-Ausgabe beschädigt und werden nicht korrekt veröffentlicht. (9949)
+* SVG-Bilder werden beim Generieren der HTML-Ausgabe beschädigt und werden nicht korrekt veröffentlicht. (9949)
 
 
 ## Bekannte Probleme
 
-Adobe hat die folgenden bekannten Probleme in AEM Guides as a Cloud Service Version August 2022 festgestellt.
+Adobe hat die folgenden bekannten Probleme in AEM Guides as a Cloud Service Version August 2022 identifiziert.
 
 ### Bekannte Probleme mit Workaround
 

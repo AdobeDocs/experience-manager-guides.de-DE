@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine neue benutzerdefinierte Schaltfläche in
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -57,15 +57,15 @@ die dann die „change-request-id“ zum Prolog hinzufügen sollte:
 }
 ```
 
-[Verwenden Sie diesen Link, um mehr über das Ordnerprofil und die Konfiguration von ui_config.json zu erfahren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=de)
+[Verwenden Sie diesen Link, um mehr über das Ordnerprofil und die Konfiguration von ui_config.json zu erfahren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### Verarbeiten des Klickereignisses für die neue Schaltfläche
 
-    HINWEIS: Die unten genannten Schritte sind als Paket in diesem Beitrag verfügbar
+HINWEIS: Die unten genannten Schritte sind als angehängtes Paket in diesem Beitrag verfügbar
 
 
-- Erstellen Sie nach dem Speichern des Ordnerprofils einen „cq:ClientLibraryFolder“ unter einem Projektverzeichnis (möglicherweise unter */apps*) und fügen Sie Eigenschaften hinzu, wie im folgenden Screenshot gezeigt:
+- Erstellen Sie nach dem Speichern des Profilordners ein „cq:ClientLibraryFolder&quot; in einem Projektverzeichnis (möglicherweise unter */apps*) und fügen Sie Eigenschaften hinzu, wie im folgenden Screenshot gezeigt:
   ![Client-Bibliothekseinstellungen für WebEditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```

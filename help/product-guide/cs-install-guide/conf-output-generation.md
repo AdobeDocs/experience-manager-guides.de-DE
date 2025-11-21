@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '5620'
+source-wordcount: '5615'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene Design-Vorlage anzugeben,
 >
 > Nachdem Sie einen benutzerdefinierten Design-Vorlagenknoten erstellt haben, müssen Sie die Option Design in den AEM-Site-Ausgabevorgaben aktualisieren, um den benutzerdefinierten Design-Vorlagenknoten zu verwenden.
 
-Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager-Website](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de) und [Grundlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=de) Entwicklung einer eigenen Website in AEM.
+Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager-Website](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de) und [Grundlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) Entwicklung einer eigenen Website in AEM.
 
 ### Verwenden des Dokumenttitels zum Generieren der AEM-Site-Ausgabe
 
@@ -158,7 +158,7 @@ Um die Seitennamen zu konfigurieren, führen Sie die folgenden Schritte aus:
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Boolescher Wert (`true/false`). **Standardwert**: `false` |
 
-Wenn beispielsweise *@navtitle* in `<topichead>` alle Sonderzeichen enthält und Sie die `aemsite.pagetitle`-Eigenschaft auf „true“ setzen, wird standardmäßig ein Trennzeichen verwendet. Wenn Sie die `nodename.systemDefinedPageName`-Eigenschaft auf „true“ setzen, wird der Name des ersten untergeordneten Themas angezeigt.
+Wenn beispielsweise *@navtitle* in `<topichead>` alle Sonderzeichen enthält und Sie die `aemsite.pagetitle`-Eigenschaft auf „true“ setzen, wird standardmäßig ein Trennzeichen verwendet. Wenn Sie die `nodename.systemDefinedPageName` auf „true“ setzen, wird der Name des ersten untergeordneten Themas angezeigt.
 
 
 ### Konfigurieren von Regeln zur Bereinigung von Dateinamen zum Erstellen von Themen und Veröffentlichen von Ausgaben in AEM Sites und anderen Formaten {#id2164D0KD0XA}
@@ -269,7 +269,7 @@ Um das `table`-Element von der Reduzierung auszuschließen, fügen Sie die folge
 
 ### Konfigurieren der Versionierung für gelöschte Seiten in der AEM Site-Ausgabe
 
-Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und **&#x200B;**&#x200B;Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
+Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und ****Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
 
 Führen Sie die folgenden Schritte aus, um die Erstellung einer Version für die zu löschenden Seiten zu stoppen:
 
@@ -349,7 +349,7 @@ Als Nächstes müssen Sie die benutzerdefinierten Metadaten in der DITA-Zuordnun
 
    >[!NOTE]
    >
-   > Die Datei „metadataList“ enthält eine Liste mit Eigenschaften, die in der Dropdown-Liste **Eigenschaften** einer DITA-Zuordnung im Zuordnungs-Dashboard angezeigt werden. Standardmäßig werden in dieser Datei vier Eigenschaften aufgelistet: docState, dc:language, dc:description und dc:title.
+   > Die Datei „metadataList“ enthält eine Liste mit Eigenschaften, die in der Dropdown-Liste **Eigenschaften** einer DITA-Zuordnung im Zuordnungs-Dashboard angezeigt werden. Standardmäßig werden in dieser Datei vier Eigenschaften aufgelistet: docstate, dc:language, dc:description und dc:title.
 
 1. Fügen Sie die benutzerdefinierten Metadaten hinzu, die Sie auf der Seite Metadatenschema-Forms hinzugefügt haben. Für unser Beispiel fügen Sie den Zielgruppenparameter am Ende der Standardliste hinzu.
 
@@ -454,7 +454,7 @@ Sie können die vordefinierten DITA-Elementzuordnungen verwenden oder DITA-Eleme
 
 Im Folgenden wird ein allgemeiner Überblick über die `elementmapping.xml`-Struktur gegeben:
 
-1. Jedes DITA-Element wird zunächst anhand des Elementnamens nach einer entsprechenden Komponentenzuordnung durchsucht. Zum Beispiel:
+1. Jedes DITA-Element wird zunächst anhand des Elementnamens nach einer entsprechenden Komponentenzuordnung durchsucht. Beispiel:
 
    ```XML
    <ditaelement>     
@@ -468,7 +468,7 @@ Im Folgenden wird ein allgemeiner Überblick über die `elementmapping.xml`-Stru
 
    Im obigen Beispiel werden alle `substeps` DITA-Elemente mithilfe der `dita/components/ditaolist`-Komponente gerendert.
 
-1. Wenn ein DITA-Element keine Übereinstimmung basierend auf dem Namen findet, wird eine Übereinstimmung auf Grundlage der `class` durchgeführt. Zum Beispiel:
+1. Wenn ein DITA-Element keine Übereinstimmung basierend auf dem Namen findet, wird eine Übereinstimmung auf Grundlage der `class` durchgeführt. Beispiel:
 
    ```XML
    <ditaelement>  
@@ -485,7 +485,7 @@ Im Folgenden wird ein allgemeiner Überblick über die `elementmapping.xml`-Stru
 
    Wenn im obigen Beispiel keine Zuordnung für das `task` Element definiert ist, wird das `task` Element der obigen Komponente zugeordnet, da `task` von der `topic` übernommen wird.
 
-1. Wenn ein Element über eine entsprechende Komponentenzuordnung verfügt, wird die weitere Verarbeitung seiner untergeordneten Elemente durch `type` bestimmt. Zum Beispiel:
+1. Wenn ein Element über eine entsprechende Komponentenzuordnung verfügt, wird die weitere Verarbeitung seiner untergeordneten Elemente durch `type` bestimmt. Beispiel:
 
    ```XML
    <ditaelement>  
@@ -513,7 +513,7 @@ Im Folgenden wird ein allgemeiner Überblick über die `elementmapping.xml`-Stru
    Wenn es DITA-Elemente mit struktureller Spezialisierung gibt und eine Komponente für strukturelle Spezialisierung zugeordnet ist, wird dieser Komponente ebenfalls hohe Priorität eingeräumt.
 
 1. Sie können `<attributemap>` in der Elementzuordnung verwenden, um Attributwerte den entsprechenden Knoteneigenschaften zuzuordnen.
-1. `textprop` kann zum Serialisieren des Textinhalts eines DITA-Elements in eine Knoteneigenschaft verwendet werden. Darüber hinaus kann es mehrmals in einem -Element-Tag verwendet werden, um den Textinhalt an mehreren Stellen in der veröffentlichten Hierarchie zu serialisieren. Sie können auch den Speicherort und den Namen der Zieleigenschaft anpassen. Zum Beispiel:
+1. `textprop` kann zum Serialisieren des Textinhalts eines DITA-Elements in eine Knoteneigenschaft verwendet werden. Darüber hinaus kann es mehrmals in einem -Element-Tag verwendet werden, um den Textinhalt an mehreren Stellen in der veröffentlichten Hierarchie zu serialisieren. Sie können auch den Speicherort und den Namen der Zieleigenschaft anpassen. Beispiel:
 
    ```XML
    <ditaelement>
@@ -527,7 +527,7 @@ Im Folgenden wird ein allgemeiner Überblick über die `elementmapping.xml`-Stru
 
    Die obige Elementzuordnung gibt an, dass der Textinhalt `<title>` Elements als Wert einer Eigenschaft mit dem Namen &quot;`jcr:title`&quot; auf dem Ausgabeknoten gespeichert wird.
 
-1. `xmlprop` kann zum Serialisieren der gesamten XML für ein bestimmtes Element in eine Knoteneigenschaft verwendet werden. Die Komponente kann dann diese Knoteneigenschaft lesen und benutzerdefinierte Darstellungen durchführen. Zum Beispiel:
+1. `xmlprop` kann zum Serialisieren der gesamten XML für ein bestimmtes Element in eine Knoteneigenschaft verwendet werden. Die Komponente kann dann diese Knoteneigenschaft lesen und benutzerdefinierte Darstellungen durchführen. Beispiel:
 
    ```XML
    <ditaelement>
@@ -542,7 +542,7 @@ Im Folgenden wird ein allgemeiner Überblick über die `elementmapping.xml`-Stru
 
    Die obige Elementzuordnung gibt an, dass das gesamte XML-Markup für Element `<svg-container>` als Wert einer Eigenschaft mit dem Namen `data` im Ausgabeknoten gespeichert wird.
 
-1. Es gibt eine spezielle Attributzuordnung , um die Pfadauflösung beim Prozess der Ausgabegenerierung zu handhaben. Zum Beispiel:
+1. Es gibt eine spezielle Attributzuordnung , um die Pfadauflösung beim Prozess der Ausgabegenerierung zu handhaben. Beispiel:
 
    ```XML
    <attributemap>
@@ -603,7 +603,7 @@ In der folgenden Tabelle werden die Elemente im DITA-Elementschema beschrieben:
 | `<wrapelement>` | Das HTML-Element, in das der Inhalt eingeschlossen werden soll. |
 | `<wrapclass>` | Der Elementwert zur `wrapclass.` |
 | `<attributemap>` | Container-Knoten, der einen oder mehrere `<attribute>`-Knoten enthält. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Ordnet die DITA-Attribute AEM-Eigenschaften zu: <br> -   **`from`**: DITA-Attributname <br> -   **`to`**: Eigenschaftsname der AEM-Komponente <br> -   **`ispath`**: Wenn das Attribut ein Pfadwert ist \(z. B.: *image*\) <br> -   **`rel`**: Wenn der Pfad die Quell- oder <br> ist **Hinweis:** Wenn `attrname` mit `%` beginnt, dann ordnen Sie `attrname minus '%'` der Eigenschaft &#39; `propname`&#39; zu. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Ordnet die DITA-Attribute AEM-Eigenschaften zu: <br> -   **`from`**: DITA-Attributname <br> -   **`to`**: Eigenschaftsname der AEM-Komponente <br> -   **`ispath`**: Wenn das Attribut ein Pfadwert ist \(z. B.: *image*\) <br> -   **`rel`**: Wenn der Pfad die Quell- oder <br> ist **Hinweis:** Wenn `attrname` mit `%` beginnt, dann ordnen Sie `attrname minus '%'` der Eigenschaft &#39; `propname`&#39; zu. |
 
 **Zusätzliche Hinweise**
 
@@ -630,11 +630,11 @@ AEM Guides stellt die `apps.fmdita.dashboard-extn` zum Anpassen der Zuordnungsko
 
 >[!NOTE]
 >
-> Weitere Informationen zum Erstellen der AEM-Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de).
+> Weitere Informationen zum Erstellen der AEM-Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Verarbeiten der Bildausgabedarstellung während der Ausgabegenerierung {#id177BF0G0VY4}
 
-AEM enthält einen Satz von standardmäßigen Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Asset-Verarbeitung für die gängigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabedarstellungen desselben Bilds im Binärformat. Diese Ausgabedarstellungen können unterschiedlich groß sein, eine andere Auflösung, ein hinzugefügtes Wasserzeichen oder eine andere geänderte Eigenschaft aufweisen. Weitere Informationen zum Verarbeiten von Assets durch AEM finden Sie unter [Verarbeiten von Assets mit Medien-Handlern und Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=de) in der Dokumentation zu AEM.
+AEM enthält einen Satz von standardmäßigen Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Asset-Verarbeitung für die gängigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabedarstellungen desselben Bilds im Binärformat. Diese Ausgabedarstellungen können unterschiedlich groß sein, eine andere Auflösung, ein hinzugefügtes Wasserzeichen oder eine andere geänderte Eigenschaft aufweisen. Weitere Informationen zum Verarbeiten von Assets durch AEM finden Sie unter [Verarbeiten von Assets mit Medien-Handlern und Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) in der Dokumentation zu AEM.
 
 Mit AEM Guides können Sie konfigurieren, welche Bildausgabe zum Zeitpunkt der Generierung der Ausgabe für Ihre Dokumente verwendet werden soll. Sie können beispielsweise aus einer der standardmäßigen Bildausgabedarstellungen auswählen oder eine erstellen und dieselbe zum Veröffentlichen Ihrer Dokumente verwenden. Die Bildausgabedarstellungszuordnung zum Veröffentlichen Ihrer Dokumente wird in der `/libs/fmdita/config/ **renditionmap.xml**`-Datei gespeichert. Ein Ausschnitt `renditionmap.xml` Datei lautet wie folgt:
 
@@ -686,8 +686,8 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Geben Sie die Anzahl der Tage an, nach denen der Ausgabeverlauf zusammen mit den Ausgabeprotokollen bereinigt wird. Wenn Sie diese Funktion deaktivieren möchten, setzen Sie diese Eigenschaft auf 0. Täglich zum angegebenen Zeitpunkt, an dem der Bereinigungsvorgang für Ausgaben ausgeführt wird, die vor der in dieser Eigenschaft angegebenen Anzahl von Tagen generiert wurden. <br> **Standardwert**: 5 |
-| `output.history.purgetime` | Geben Sie den Zeitpunkt an, zu dem der Bereinigungsvorgang gestartet wird. <br> **Standardwert**: 0:00 \(oder 12:00 Uhr Mitternacht\) |
+| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | Geben Sie die Anzahl der Tage an, nach denen der Ausgabeverlauf zusammen mit den Ausgabeprotokollen bereinigt wird. Wenn Sie diese Funktion deaktivieren möchten, setzen Sie diese Eigenschaft auf 0. Täglich zum angegebenen Zeitpunkt, an dem der Bereinigungsvorgang für Ausgaben ausgeführt wird, die vor der in dieser Eigenschaft angegebenen Anzahl von Tagen generiert wurden. | **Standardwert**: 5 |
+| `output.history.purgetime` | Geben Sie den Zeitpunkt an, zu dem der Bereinigungsvorgang gestartet wird. | **Standardwert**: 0:00 \(oder 12:00 midnight\) |
 
 ## Ändern des Listenlimits für zuletzt generierte Ausgaben {#id1679JH0H0O2}
 

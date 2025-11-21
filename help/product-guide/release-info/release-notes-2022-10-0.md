@@ -4,7 +4,7 @@ description: Oktober-Version von Adobe Experience Manager Guides as a Cloud Serv
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -16,9 +16,9 @@ ht-degree: 1%
 ## Upgrade auf die Version Oktober
 
 Führen Sie ein Upgrade Ihres aktuellen Adobe Experience Manager Guides as a Cloud Service-Setups (später als *AEM Guides as a Cloud Service* bezeichnet) durch, indem Sie die folgenden Schritte ausführen:
-1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
-1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf 2022.10.183.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die Oktober-Version von AEM Guides as a Cloud Service zu aktualisieren.
+1. Checken Sie den Git-Code der Cloud Services aus und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Services-Git-Codes auf 2022.10.183.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Oktober-Version von AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
@@ -38,7 +38,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 | AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
 | 2022.10.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## Neue Funktionen und Verbesserungen
@@ -63,7 +63,7 @@ Wählen Sie eine oder mehrere Vorgaben aus und generieren Sie schnell die Ausgab
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Native PDF | Fehler beim Entfernen von Themen, die nur Ressourcen enthalten, aus der PDF-Ausgabe. 10554)
+* Native PDF | Beim Entfernen von Themen, die nur Ressourcen enthalten, aus der PDF-Ausgabe tritt ein Fehler auf. 10554)
 * Native PDF | Leere Keyrefs werden in der PDF-Ausgabe angezeigt. 10553)
 * Native PDF | `navtitle` für `topichead` wird nicht berücksichtigt. 10509)
 * Native PDF | Unterstützung für JDK-Varianten von amd64 erforderlich. 10465)

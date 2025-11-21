@@ -4,7 +4,7 @@ description: Mai-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 ## Upgrade auf die Version vom Mai
 
 Führen Sie ein Upgrade Ihres aktuellen Adobe Experience Manager Guides as a Cloud Service-Setups (später als *AEM Guides as a Cloud Service* bezeichnet) durch, indem Sie die folgenden Schritte ausführen:
-1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
-1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf Version 2022.5.144.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die Version vom Mai von AEM Guides as a Cloud Service zu aktualisieren.
+1. Checken Sie den Git-Code der Cloud Services aus und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Services-Git-Codes auf 2022.5.144.
+1. Übernehmen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Version vom Mai von AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
@@ -88,19 +88,19 @@ Wenn Sie nur den Umfang für ein zu übersetzendes Projekt erstellen müssen, k�
 
 * Beim Laden einer DITA-Zuordnung, die sich außerhalb des Sprachordners befindet, wird keine Ausnahme am Backend protokolliert.
 
-Weitere Informationen zur Übersetzung finden Sie im Abschnitt *Übersetzen von Dokumenten aus dem Web-Editor* unter Verwenden von Adobe Experience Manager Guides as a Cloud Service.
+Weitere Informationen zur Übersetzung finden Sie im Abschnitt *Übersetzen von Dokumenten aus dem Web-Editor* in Verwenden von Adobe Experience Manager Guides as a Cloud Service.
 
 
 ### Erweiterte Veröffentlichung
 
-* Sie können auch auf das **Publish-Dashboard** über die Registerkarte „Ausgaben“ zugreifen, während Sie die Ausgabe über das Zuordnungs-Dashboard generieren. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Publish-Dashboard verfügbar.
+* Sie können auch über die Registerkarte Ausgaben auf **Dashboard veröffentlichen** zugreifen, während Sie über das Zuordnungs-Dashboard eine Ausgabe generieren. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Veröffentlichungs-Dashboard verfügbar.
 
 ![Ausgaben in der Warteschlange](assets/queued-output.png)
 
 * Im Zuordnungs-Dashboard können Sie mehrere DITAVAL-Dateien auswählen, um bedingte Inhalte zu generieren. Sie können die Dateireihenfolge durch Hinzufügen oder Löschen von Dateien beibehalten. Sie können auch den Mauszeiger über den Dateinamen bewegen, um den Pfad im AEM-Repository anzuzeigen, in dem die Datei gespeichert ist.
 
 * **Veraltete Funktion**
-AEM as a Cloud Service unterstützt nicht mehr die Generierung des DITA-Ausgabeformats für FrameMaker-Dokumente. Diese DITA-Option wurde auch aus den Ausgabevorgaben des Zuordnungs -Dashboards entfernt.
+AEM as a Cloud Service unterstützt die Generierung des DITA-Ausgabeformats für FrameMaker-Dokumente nicht mehr. Diese DITA-Option wurde auch aus den Ausgabevorgaben des Zuordnungs -Dashboards entfernt.
 
 ### Verbesserte artikelbasierte Veröffentlichung
 
@@ -119,7 +119,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Die Anwendung wird leer, wenn Sie auf einen leeren Ordner klicken, nachdem Sie ihn über das Menü „Optionen“ aktualisiert haben. (9 639)
 * Eine neue Version wird erstellt, wenn wir **eingecheckte Datei speichern** schließen. (9 638)
 * Die Schaltfläche „Schließen“ wird nicht angezeigt, wenn **Kontrollkästchen „Als neue Version**&quot; aktiviert ist. (9 637)
-* Die richtige PDF wird nicht veröffentlicht, wenn sie zuerst auf einer separaten PDF für jedes Kapitel und dann auf einer einzigen PDF veröffentlicht wird (separate PDF-Dateien erstellen ist deaktiviert). (9632)
+* Der richtige PDF wird nicht veröffentlicht, wenn er zuerst über einen separaten PDF für jedes Kapitel und dann über eine einzelne PDF-Datei veröffentlicht wird (separate PDF-Dateien erstellen ist nicht aktiviert). (9632)
 * Das Zuordnungs-Dashboard verursacht ein Problem mit Metadaten für Benutzende ohne Administratorrechte. (9620)
 * Sobald eine Baseline erstellt wurde, wird der Status in der Benutzeroberfläche auf Fehlgeschlagen gesetzt (der Abrufen-Statusaufruf schlägt fehl), wenn der Server mehr als 10000 Dateien hat. (9608)
 * Das Speichern großer Datenmengen in -Eigenschaften führt zu einem Veröffentlichungsfehler, da der aufgeteilte Veröffentlichungs-Workflow fehlschlägt. (9586)
@@ -138,7 +138,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Im Versionsverlauf werden Versionsnummer und Titel für die aktuelle Version nicht angezeigt. (9446)
 * Editor friert ein, wenn bestimmte Inhaltsdateien im Editor geöffnet werden. (9443)
 * Die Suche im Repository-Bedienfeld und im Dialogfeld zum Durchsuchen von TopicRef friert den Bildschirm ein, wenn der Inhalt groß ist. (9432)
-* An die AEM-Site-Ausgabe übergebene Metadaten berücksichtigen nicht die Grundlinie des Inhalts. (9416)
+* An die Ausgabe der AEM-Site übergebene Metadaten berücksichtigen nicht die Grundlinie des Inhalts. (9416)
 * Oxygen überprüft eine falsche Version eines Themas, nachdem eine Version in AEM zurückgesetzt wurde. (9411)
 * Fehlgeschlagene Baseline deaktiviert die Bearbeitung auf der Registerkarte „Voreinstellung“ im Karten-Dashboard. (9403)
 * Bei der Erstellung neuer Inhalte wird immer ein Fehler protokolliert. (9388)
@@ -169,7 +169,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * `xref` ohne Text wird in der auf Artikeln basierenden Veröffentlichungsausgabe nicht angezeigt. (8 764)
 * Verweise werden bei Bewegtbildern oder Multimediadateien beschädigt, die in den Dateinamen ein Leerzeichen enthalten. (8 624)
 * Verweise werden beschädigt, wenn Sie `Select All` auswählen und die Multimediadateien oder DITA-Inhalte in einen anderen Ordner verschieben. (8622)
-* Ausgabeaufträge mit dem Status „Warten“ oder „Wird ausgeführt“ werden im Publish-Dashboard nicht bereinigt.  (8 569)
+* Ausgabeaufträge mit dem Status „Warten“ oder „Wird ausgeführt“ werden im Veröffentlichungs-Dashboard nicht bereinigt.  (8 569)
 * Die Ausgabe-Bereinigungsfunktion schlägt fehl, wenn eine große Anzahl von übrig gebliebenen Ausgabe-Verlaufsknoten vorhanden ist. (8568)
 * Das DITA Add-on-Paket verhindert die Erkennung von DAM-Duplikat-Assets. (8417)
 * Schaltfläche „Prüfungsaufgabe erstellen“ für Nicht-DITA-Dateien aktiviert. (8401)
@@ -177,13 +177,13 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * In jedem leeren `entry`-Element wurde unerwarteter Leerraum gefunden, wenn dem `tgroup`-Element das Attribut „outputClass“ hinzugefügt wird. (7532)
 * Das Repository-Bedienfeld zeigt keine Symbole für ein- oder ausgecheckte Dateisperren an, sobald die Aktion abgeschlossen ist. (5 817)
 * Das Sperrsymbol wird in der Repository-Ansicht angezeigt, auch wenn die Datei aus dem Editor eingecheckt wird.  (5 756)
-* Sites fehlen in den AEM-Voreinstellungen auf der Registerkarte „Ausgabe“. (9567)
+* Sites fehlen in den AEM-Vorgaben auf der Registerkarte „Ausgabe“. (9567)
 * Der XML-Editor reagiert nicht mehr auf den Versuch, einige DITA-Dateien zu bearbeiten. (9537)
 * Wenn Sie eine Suche im XML-Editor durchführen, friert die Seite ein. (9452)
 * Karte herunterladen mit Grundlinie funktioniert nicht, wenn der Inhalt in einen anderen Ordner verschoben wird. (9331)
-* Das erneute Hochladen schlägt in Oxygen fehl, wenn die Datei(en) bereits im AEM am selben Speicherort vorhanden sind. (9328)
+* Das erneute Hochladen schlägt in Oxygen fehl, wenn die Datei(en) bereits in AEM am selben Speicherort vorhanden sind. (9328)
 * Die Position der Hervorhebung ist in der Seitenansicht falsch. (9305)
-* Nach dem Einchecken eines Dokuments von Oxygen zu AEM wird der japanische Inhalt im Dokument durch Fragezeichen (???) ersetzt. (9276)
+* Nach dem Einchecken eines Dokuments von Oxygen nach AEM wird der japanische Inhalt im Dokument durch Fragezeichen (???) ersetzt. (9276)
 * Das Hochladen von Dateien von Oxygen auf AEM schlägt fehl. (9157)
 * Die E-Mail-Benachrichtigung wird nicht gesendet, wenn eine Prüfungsaufgabe im Posteingang erneut zugewiesen wird. (8 376)
 

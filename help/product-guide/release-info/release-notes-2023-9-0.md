@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Ve
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unte
 
 Führen Sie ein Upgrade Ihres aktuellen AEM Guides as a Cloud Service-Setups durch, indem Sie die folgenden Schritte ausführen:
 
-1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
-2. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf 2023.9.0.359.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die AEM Guides as a Cloud Service-Version vom September 2023 zu aktualisieren.
+1. Checken Sie den Git-Code der Cloud Services aus und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+2. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Services-Git-Codes auf 2023.9.0.359.
+3. Übernehmen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Version September 2023 von AEM Guides as a Cloud Service zu aktualisieren.
 
 ## Schritte zum Aktivieren des Triggers eines Skripts über ein Servlet
 
@@ -31,7 +31,7 @@ Führen Sie ein Upgrade Ihres aktuellen AEM Guides as a Cloud Service-Setups dur
 
 Nach Abschluss der Installation können Sie den Trigger drücken, um den Übersetzungsauftrag zu starten:
 
-POST:
+BEITRAG:
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -78,10 +78,10 @@ as a Cloud Service, um die Konfigurationsdatei zu erstellen.
 
 1. Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Sobald der Auftrag abgeschlossen ist, antwortet die vorherige GET-Anfrage erfolgreich. Wenn der Vorgang aus irgendeinem Grund fehlschlägt, kann der Fehler in den Serverprotokollen angezeigt werden.
+1. Sobald der Vorgang abgeschlossen ist, wird die vorherige GET-Anfrage erfolgreich beantwortet. Wenn der Vorgang aus irgendeinem Grund fehlschlägt, kann der Fehler in den Serverprotokollen angezeigt werden.
 
 1. Kehren Sie zum Standardwert oder vorherigen vorhandenen Wert von `queryLimitReads` zurück, wenn Sie ihn in Schritt 1 geändert haben.
 
@@ -91,11 +91,11 @@ as a Cloud Service, um die Konfigurationsdatei zu erstellen.
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene und in der Themenliste auf der Registerkarte „Berichte“ zu verwenden:
 
-1. Ausführen einer POST-Anfrage an den Server \(mit richtiger Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Optional) Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert \|\| Beispiel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Führen Sie eine POST-Anfrage an den Server \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing` aus. (Optional) Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert \|\| Beispiel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Zuordnungen eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
-1. Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. Die API gibt eine jobId zurück. Zur Überprüfung des Auftragsstatus können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
 1. Sobald der Vorgang abgeschlossen ist, wird die vorherige GET-Anfrage erfolgreich beantwortet und es wird angegeben, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Zuordnungen können aus den Serverprotokollen bestätigt werden.
@@ -117,7 +117,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 | AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
 | 2 023,09,0 | 3.1-uuid 17 | 3.1-uuid 17 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Version der Wissensdatenbankvorlage
@@ -157,24 +157,24 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Inhaltsreferenz ist fehlerhaft. Kopieren Sie DITA-Dateien, und fügen Sie sie ein, wenn die Themen-ID nicht mit der GUID übereinstimmt. 12614)
 - Bei dynamischen Baselines wird die Beschriftungsliste nicht aus den direkten Referenzen der Arbeitskopie einer DITA-Zuordnung abgerufen. 11917)
 
-### Veröffentlichung
+### Publishing
 
-- Das Veröffentlichen schlägt beim Umbenennen einer nativen PDF-Vorgabe fehl. 12564)
-- Das Duplizieren einer nativen PDF-Vorlage dupliziert sich an den Standardvorlagenspeicherort anstelle des bereitgestellten benutzerdefinierten Vorlagenspeicherorts. 12563)
+- Die Veröffentlichung schlägt beim Umbenennen einer nativen PDF-Vorgabe fehl. 12564)
+- Das Duplizieren einer nativen PDF-Vorlage wird am Standardvorlagenspeicherort anstelle des bereitgestellten benutzerdefinierten Vorlagenspeicherorts dupliziert. 12563)
 
 - Native PDF | Das Einschließen mehrerer XRefs erweitert den Text über die Spaltenbreite hinaus. 13004)
 - Native PDF | Wenn Thema und Titel dieselbe ID haben, führt dies zu einer fehlerhaften Generierung der PDF-Ausgabe. 12644)
 - Native PDF | Beim Hinzufügen einer Output-Klasse zu einem übergeordneten `<topicref>` in einer DITA-Zuordnung und beim Anwenden eines benutzerdefinierten Stils auf die Output-Klasse wird der Stil auf Elemente innerhalb des Themenkörpers angewendet, einschließlich Abschnittstiteln.12166)
 - Die inkrementelle Veröffentlichung funktioniert nicht, wenn eine DITA-Zuordnung mehrere ditavalrefs enthält. 12117)
-- AEM-Site | Beim Erstellen einer Zuordnung mit keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. 12099)
-- Wenn Assets aus dem DAM von AEM in einer anderen Ausgabe als der AEM-Site verwendet werden, spiegeln die Metadaten „jcr:createdBy“ weder den Namen des Herausgebers noch den Namen des Benutzers wider, der die DITA-Zuordnung oder das Thema zuletzt geändert hat. 12090)
+- AEM Site | Beim Erstellen einer Zuordnung mit keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. 12099)
+- Wenn Assets aus dem DAM von AEM in einer anderen Ausgabe als der AEM-Site verwendet werden, spiegeln die Metadaten „jcr:createdBy&quot; weder den Namen des Herausgebers noch den Namen des Benutzers wider, der die DITA-Zuordnung oder das Thema zuletzt geändert hat. 12090)
 - AEM Sites | DITA-Map mit topichead im navtitle (mit nicht unterstützten Zeichen) führt zu fehlerhaften Seiten-URLs. 11978)
 - Native PDF | Probleme treten bei der Unterstützung von topichead / topicmeta / navtitle in Frontmatter und Backmatter auf. 11969)
-- Native PDF | Das Generieren von PDF für große Dokumente ist zeitaufwendig. 11955)
+- Native PDF | Das Generieren von PDFs für große Dokumente ist zeitaufwendig. 11955)
 - Native PDF | Beim Umbenennen einer Vorgabe wird beim Generieren einer PDF-Ausgabe eine NullPointerException ausgelöst. 11889)
-- Der `<conref>` wird nicht in der PDF-Ausgabe angezeigt. 11131)
+- Der `<conref>` Inhalt wird nicht in der PDF-Ausgabe angezeigt. 11131)
 - In den `<div>` wird beim Umschalten zwischen der Authoring- und der Source-Ansicht im Seitenlayout-Editor ein zusätzlicher Leerraum hinzugefügt. 10750)
-- Der auf AEM Cloud Manager replizierte Inhalt ist auf der Publish-Instanz nicht sichtbar. (9564)
+- Der auf AEM Cloud Manager replizierte Inhalt ist auf der Veröffentlichungsinstanz nicht sichtbar. (9564)
 
 ### Übersetzung
 

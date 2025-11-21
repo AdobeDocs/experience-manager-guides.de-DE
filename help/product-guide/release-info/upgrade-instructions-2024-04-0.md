@@ -1,8 +1,8 @@
 ---
 title: Versionshinweise zu | Aktualisierungsanweisungen und behobene Probleme in Adobe Experience Manager Guides Version 2024.04.0
-description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf die Version 2024.04.0 von Adobe Experience Manager Guides as a Cloud Service.
+description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf Version 2024.04.0 von Adobe Experience Manager Guides as a Cloud Service.
 exl-id: deca46e5-12cc-497f-84af-61ee02da3d65
-source-git-commit: 989f1628adf417167525a068845203380573b077
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 4%
@@ -34,7 +34,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 | Experience Manager Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
 | 2 024,04,0 | 3.5-uuid 1 | 3.5-uuid 1 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Version der Wissensdatenbankvorlage
@@ -54,7 +54,7 @@ Experience Manager Guides wird nach dem Upgrade der aktuellen (neuesten) Version
 
 
 
-Führen Sie die folgenden Schritte für Experience Manager Guides as a Cloud Service durch, wenn Sie es nicht schon früher für Ihre bestehende Version getan haben:
+Führen Sie die folgenden Schritte für Experience Manager Guides as a Cloud Service aus, falls Sie dies noch nicht für Ihre bestehende Version getan haben:
 
 ### Schritte zum Aktivieren des Triggers eines Skripts über ein Servlet
 
@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte für Experience Manager Guides as a Cloud Ser
 
 Nach Abschluss der Installation können Sie den Trigger drücken, um den Übersetzungsauftrag zu starten:
 
-POST:
+BEITRAG:
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -99,7 +99,7 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzuverarbei
 
 1. (Optional) Wenn mehr als 100.000 DITA-Dateien im System vorhanden sind, aktualisieren Sie die `queryLimitReads` und `queryLimitInMemory` unter `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` auf einen größeren Wert (einen beliebigen Wert, der größer ist als die Anzahl der vorhandenen Assets, z. B. 200.000) und stellen Sie dann erneut bereit.
 
-   - Verwenden Sie die Anweisungen im Abschnitt *Konfigurationsüberschreibungen* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service, um die Konfigurationsdatei zu erstellen.
+   - Verwenden Sie die Anweisungen im Abschnitt *Konfigurationsüberschreibungen* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service , um die Konfigurationsdatei zu erstellen.
    - Geben Sie in der Konfigurationsdatei die folgenden Details (Eigenschaft) zum Konfigurieren der `queryLimitReads`- und `queryLimitInMemory` an:
 
      | PID | Eigenschaftsschlüssel | Eigenschaftswert |
@@ -109,10 +109,10 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzuverarbei
 
 1. Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Beispiel: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Sobald der Auftrag abgeschlossen ist, antwortet die vorherige GET-Anfrage mit Erfolg. Wenn der Vorgang aus irgendeinem Grund fehlschlägt, kann der Fehler in den Serverprotokollen angezeigt werden.
+1. Sobald der Auftrag abgeschlossen ist, antwortet die vorherige GET-Anfrage erfolgreich. Wenn der Vorgang aus irgendeinem Grund fehlschlägt, kann der Fehler in den Serverprotokollen angezeigt werden.
 
 1. Kehren Sie zum Standardwert oder vorherigen vorhandenen Wert von `queryLimitReads` zurück, wenn Sie ihn in Schritt 1 geändert haben.
 
@@ -126,9 +126,9 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren 
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Zuordnungen eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
-1. Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (Beispiel: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (Beispiel: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Sobald der Auftrag abgeschlossen ist, antwortet die vorherige GET-Anfrage mit Erfolg. Wenn der Vorgang aus irgendeinem Grund fehlschlägt, kann der Fehler in den Serverprotokollen angezeigt werden.
+1. Sobald der Auftrag abgeschlossen ist, antwortet die vorherige GET-Anfrage erfolgreich. Wenn der Vorgang aus irgendeinem Grund fehlschlägt, kann der Fehler in den Serverprotokollen angezeigt werden.
 
 ### Schritte zum Umgang mit dem `'fmdita rewriter'`
 

@@ -1,12 +1,12 @@
 ---
 title: Versionshinweise für [!DNL AEM Guides], Januar 2022
-description: Januar-Version von [!DNL Adobe Experience Manager Guides] as a Cloud Service
+description: Version Januar von  [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Upgrade auf die Version Januar
 
-Führen Sie ein Upgrade Ihres aktuellen [!DNL Adobe Experience Manager Guides] as a Cloud Service-Setups (später [!DNL AEM Guides] as a Cloud Service-Setup genannt) durch, indem Sie die folgenden Schritte ausführen:
-1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
-1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf Version 2022.1.78.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die Version Januar von [!DNL AEM Guides] as a Cloud Service zu aktualisieren.
+Führen Sie ein Upgrade Ihres aktuellen [!DNL Adobe Experience Manager Guides] as a Cloud Service-Setups (später [!DNL AEM Guides] as a Cloud Service bezeichnet) durch, indem Sie die folgenden Schritte ausführen:
+1. Checken Sie den Git-Code der Cloud Services aus und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Services-Git-Codes auf 2022.1.78.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Version Januar von [!DNL AEM Guides] as a Cloud Service zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von [!DNL AEM Guides] Version vom as a Cloud Service Januar 2022 unterstützt werden.
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von [!DNL AEM Guides] as a Cloud Service-Version Januar 2022 unterstützt werden.
 
 ### FrameMaker und FrameMaker Publishing Server
 
@@ -37,7 +37,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 | [!DNL AEM Guides] Cloud-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
-|  |  |  |  |  |
+|  |  |  |  |  |  |
 
 
 ## Neue Funktionen und Verbesserungen
@@ -50,7 +50,7 @@ Mit dieser Funktion können Benutzer die DITA-Karte additiv erstellen und Themen
 
 ![Artikelbasierte Veröffentlichung](assets/article-based-publishing.png)
 
-Zusätzlich zu AEM können Sie diese einzigartige Funktion verwenden, um Ihre Artikel auf allen Knowledgebase-Portalen wie Salesforce zu veröffentlichen. Diese Funktion enthält auch eine OOTB-Inhaltsvorlage, die auf den AEM-Kernkomponenten basiert und Ihnen die Erstellung eines wissensbasierten Repositorys für die technischen Inhalte ermöglicht. Das Tolle an dieser Vorlage ist, dass sie vollständig an Ihre Unternehmensanforderungen angepasst werden kann und auch Anwendungsfälle wie Unternehmens-Intranetportale unterstützen kann.
+Zusätzlich zu AEM können Sie diese einzigartige Funktion verwenden, um Ihre Artikel auf allen Knowledgebase-Portalen wie Salesforce zu veröffentlichen. Diese Funktion enthält auch eine OOTB-Inhaltsvorlage, die auf den AEM-Kernkomponenten basiert und Ihnen das Erstellen eines wissensbasierten Repositorys für die technischen Inhalte ermöglicht. Das Tolle an dieser Vorlage ist, dass sie vollständig an Ihre Unternehmensanforderungen angepasst werden kann und auch Anwendungsfälle wie Unternehmens-Intranetportale unterstützen kann.
 Sie können die Artikel auch nach Dokumentstatus und Änderungszeit filtern.
 
 Diese bedarfsorientierte Artikelveröffentlichung von unterwegs gibt Ihnen nicht nur vollständige Kontrolle über die Veröffentlichung Ihrer Inhalte, sondern reduziert auch die Gesamtzeit für die Veröffentlichung Ihrer aktualisierten Inhalte.
@@ -82,10 +82,10 @@ Es gibt viele Verbesserungen und neue Funktionen, die im Web-Editor eingeführt 
 
 ### Authoring mit FrameMaker
 
-Jetzt können Sie Ihre Dokumente in FrameMaker erstellen und veröffentlichen. FrameMaker wird mit einem vorkonfigurierten Anschluss für Adobe Experience Manager ausgeliefert. Beim FrameMaker erhalten Sie eine benutzerfreundliche Oberfläche, über die Sie Ihre Dokumente in einer verteilten und gemeinsamen Umgebung verwalten können.
+Jetzt können Sie Ihre Dokumente in FrameMaker erstellen und veröffentlichen. Im Lieferumfang von FrameMaker ist ein vorkonfigurierter Connector für Adobe Experience Manager enthalten. In FrameMaker erhalten Sie eine benutzerfreundliche Oberfläche, über die Sie Versionen Ihrer Dokumente in einer verteilten und gemeinsamen Umgebung verwalten können.
 
-Nachdem Sie Ihren Inhalt erstellt haben, können Sie mit FrameMaker Ihre Dokumente in verschiedenen Formaten veröffentlichen - PDF, HTML5, EPUB und DITA. Sie können auch die verschiedenen Dateiverwaltungsvorgänge wie Auschecken, Auschecken mit abhängigen Elementen, Einchecken, Aktualisieren usw. durchführen.
-Verwenden Sie zum Erstellen mit FrameMaker in [!DNL AEM Guides] as a Cloud Service die FrameMaker-Version 2020.4 und höher.
+Nachdem Sie Ihre Inhalte erstellt haben, können Sie mit FrameMaker Ihre Dokumente in verschiedenen Formaten veröffentlichen - PDF, HTML5, EPUB und DITA. Sie können auch die verschiedenen Dateiverwaltungsvorgänge wie Auschecken, Auschecken mit abhängigen Elementen, Einchecken, Aktualisieren usw. durchführen.
+Verwenden Sie zum Erstellen von Inhalten mit FrameMaker in [!DNL AEM Guides] as a Cloud Service die FrameMaker-Version 2020.4 und höher.
 
 ### Neues Übersetzungs-Dashboard
 
@@ -129,7 +129,7 @@ Berichte sind sehr nützlich, um den Zustand Ihrer Inhalte zu ermitteln. [!DNL A
 
 ### Verbessertes Aktualisierungserlebnis bei Oxygen DAM
 
-Wenn Sie Dateien vom AEM-Server in Oxygen aktualisieren, wird eine Warnmeldung angezeigt, wenn Sie nicht gespeicherte Dateien in Ihrer aktuellen Oxygen-Sitzung haben. Sie können den Aktualisierungsvorgang abbrechen, um nicht gespeicherte Dateien zu speichern. Ohne diese Funktion verloren die Benutzer alle nicht gespeicherten Informationen in ihren Dokumenten.
+Wenn Sie Dateien vom AEM-Server in Oxygen aktualisieren, wird eine Warnmeldung angezeigt, wenn Sie in Ihrer aktuellen Oxygen-Sitzung nicht gespeicherte Dateien haben. Sie können den Aktualisierungsvorgang abbrechen, um nicht gespeicherte Dateien zu speichern. Ohne diese Funktion verloren die Benutzer alle nicht gespeicherten Informationen in ihren Dokumenten.
 
 
 ### Weitere Funktionsverbesserungen
@@ -157,16 +157,16 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Titel mit Schlüssel werden in der Editor-Vorschau und im Repository-Bedienfeld nicht korrekt gerendert. (7909)
 * Ausschnitte mit Sonderzeichen werden nicht korrekt gespeichert. (7908)
 * Das Speichern eines Themas nach dem Formatieren von MathML-Gleichungen führt zu einem Fehler. (7954)
-* Keydef mit „tm“ werden im Editor nicht ordnungsgemäß gerendert und die AEM-Site-Ausgabe enthielt doppelte TM-Symbole. (7 859)
+* Keydef mit „tm“ werden im Editor nicht ordnungsgemäß gerendert und die AEM-Site-Ausgabe enthält doppelte TM-Symbole. (7 859)
 * Das Ziehen und Ablegen eines Snippets funktioniert nicht wie in den DTDs festgelegt. (7 758)
-* Beim HTML werden benutzerdefinierte Abmessungen für Grafiken ignoriert. (7 718)
+* HTML ignoriert benutzerdefinierte Abmessungen für Grafiken. (7 718)
 * Das Attribut conrefend wird beim Verschieben der Quelldatei nicht aktualisiert. (7698)
 * Die Arbeit mit Referenzdokumenten für Thementypen führt zu mehreren Problemen mit der Benutzeroberfläche. (7656)
 * DITAVAL-Dateien werden nicht angezeigt, wenn der Autor ditavalref in einer Karte hinzufügt. (7594)
 * Wenn dem Element das Attribut „outputClass“ hinzugefügt wird, wird in jedem leeren `<entry>`-Element unerwartetes Leerzeichen `<tgroup>`. (7532)
 * Die Schaltfläche &quot;Source&quot; funktioniert nicht für Themen, die über das Zuordnungs-Dashboard geöffnet werden. (7465)
-* Der schöne Druck fügt Leerzeilen und Leerzeichen ein, die beim Öffnen der Datei im FrameMaker oder Oxygen sichtbar sind. (7408)
-* Karten mit „href=&quot;/&quot; in Themen werden nicht auf AEM-Sites veröffentlicht. (7405)
+* Der schöne Druck fügt Leerzeilen und Leerzeichen ein, die beim Öffnen der Datei in FrameMaker oder Oxygen sichtbar sind. (7408)
+* Karten mit „href=&quot;/&quot; in einem der Themen werden nicht auf AEM Sites veröffentlicht. (7405)
 * Im Editor aufgetretene Leistungsprobleme, wenn die Stammzuordnung über eine große Anzahl von Schlüsselwörtern verfügt. (7400)
 * Dokumentstatus für eine Zuordnung mit benutzerdefinierter Vorlage wird nicht von dem entsprechenden Profilstatus übernommen. (7359)
 * `<tm>` Element wird fälschlicherweise als Blockelement gerendert. (7 286)
@@ -203,11 +203,11 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Falscher Bericht wird auf der Registerkarte „Berichte“ angezeigt, wenn ein Thema auf eine Datei verweist, deren Titel mit „conref“ beginnt. (4698)
 * Das Dialogfeld Beschriftungen anwenden auf der Registerkarte Baseline zeigt keine Beschriftungen in der Dropdown-Liste an. (8455)
 
-### Veröffentlichung
+### Publishing
 
-* Die PDF-Erstellung schlägt zum ersten Mal fehl, wenn „Versionierung aktivieren“ ausgewählt wird. (8 053, 8 294)
-* Leerzeichen werden nach einem „tm;“-Tag in der AEM-Site-Ausgabe automatisch hinzugefügt. (7964)
-* YouTube-Videos können nicht in der AEM-Site-Ausgabe angezeigt werden. (7401)
+* Die Erstellung von PDF schlägt zum ersten Mal fehl, wenn Versionierung aktivieren ausgewählt wird. (8 053, 8 294)
+* Leerzeichen werden nach einem „tm;“-Tag in der AEM Site-Ausgabe automatisch hinzugefügt. (7964)
+* YouTube-Videos können nicht in der AEM Site-Ausgabe angezeigt werden. (7401)
 * Die Filterung nach Kennzeichnung schlägt für referenzierte Inhalte fehl, nachdem der Benutzer auf Alle Themen in der Registerkarte „Baseline“ des Zuordnungs-Dashboards geklickt hat. (7388)
 * Veröffentlichungsthema mit Element `<tm>` mit dem Eigenschaftswert SM oder reg wird in der generierten Ausgabe falsch angezeigt. (7 239)
 * Bei der grundlegenden Veröffentlichung mit Bild wird nicht die neueste Version des Bildes in der veröffentlichten Ausgabe ausgewählt. (7231)
@@ -216,9 +216,9 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Der Seitentitel wird nicht für die Generierung der Ausgabe-URL verwendet, obwohl diese Einstellung aktiviert ist. (8 257)
 * Grundlegende Veröffentlichung : Auswahl der aktuellen Version der Bilder anstelle des eingefrorenen Knotens. Dies wird auch angezeigt, wenn ein Bild Leerzeichen oder Sonderzeichen im Dateinamen enthält. (8 274, 8 322)
 * Die inkrementelle Veröffentlichung schlägt für die DITA-Zuordnung mit dem Typ „Betreff“ und dem Schema „mapref“ fehl. (8218)
-* Null wird hinzugefügt, wenn dem Publish-Dashboard eine Zuordnung hinzugefügt wird. (8695)
+* Null wird hinzugefügt, wenn dem Dashboard für die Massenveröffentlichung eine Zuordnung hinzugefügt wird. (8695)
 * Bei Verwendung der grundlegenden Veröffentlichung mit dem Bild als Einschränkung im Thema wird das Bild nicht in der Ausgabe veröffentlicht. (8564)
-* Die Veröffentlichung schlägt mit einer Ausnahme fehl, wenn die in der AEM-Site-Veröffentlichung verwendete Grundlinie gelöscht wird. (8572)
+* Die Veröffentlichung schlägt mit einer Ausnahme fehl, wenn die in der AEM-Site-Veröffentlichung verwendete Baseline gelöscht wird. (8572)
 * Die Themenregenerierung funktioniert nicht. (8091)
 * Es bestehen Probleme beim Veröffentlichen von Fußnoten in Tabellen. (4709)
 
@@ -236,14 +236,14 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Content-Import
 
-* Konvertierung von HTML in DITA | Tabelle mit &#39;tr&#39; mit leeren &#39;td&#39;-Einträgen verursacht zusätzliche Zeilen in der Ausgabe. (8 132)
-* Konvertierung von HTML in DITA | HTML mit einer Tabelle mit mehreren TBODY schlägt mit Ausnahme fehl. (7940)
-* Konvertierung von HTML in DITA | gibt Fehler aus, wenn die Quell-HTML Kommentare enthält. (7 937)
+* Konvertierung von HTML nach DITA | Tabelle mit &#39;tr&#39; mit leeren &#39;td&#39;-Einträgen verursacht zusätzliche Zeilen in der Ausgabe. (8 132)
+* Konvertierung von HTML nach DITA | HTML schlägt mit Ausnahme fehl, wenn eine Tabelle mit mehreren TBODYs vorhanden ist. (7940)
+* Konvertierung von HTML nach DITA | Fehler bei Quell-HTML mit Kommentaren. (7 937)
 * Beim Importieren von DITA 1.3 DITA-Dateien werden einige href-Elemente in falsch formatierte Links umgewandelt. (8019)
 
 ## Bekannte Probleme
 
-Adobe hat die folgenden bekannten Probleme in [!DNL AEM Guides] Version vom as a Cloud Service Januar 2022 festgestellt.
+Adobe hat die folgenden bekannten Probleme in [!DNL AEM Guides] Version von as a Cloud Service vom Januar 2022 identifiziert.
 
 
 ### Bekannte Probleme mit Workaround

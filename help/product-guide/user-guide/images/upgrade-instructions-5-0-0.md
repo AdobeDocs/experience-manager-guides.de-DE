@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise zu | Aktualisierungsanweisungen für Adobe Experience Manager Guides Version 5.0.0
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf Version 5.0.0 von Adobe Experience Manager Guides.
-source-git-commit: 410d7c059ff1219b73f2dc6199690c77d1ba0e48
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 6%
@@ -62,7 +62,7 @@ Sie können Ihre aktuelle Version von Guides einfach auf Version 5.0.0 aktualisi
 - Wenn Sie Version 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.4 aktualisieren, bevor Sie auf Version 5.0.0 aktualisieren.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 >[!NOTE]
 >

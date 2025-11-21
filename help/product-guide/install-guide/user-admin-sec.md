@@ -5,7 +5,7 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 10%
@@ -18,13 +18,13 @@ Um auf Funktionen in AEM Guides zuzugreifen und sie zu konfigurieren, müssen Si
 
 Die folgenden Themen in der Dokumentation zu AEM helfen Ihnen, die Konzepte und Funktionen der Benutzerverwaltung und Sicherheit zu verstehen:
 
-- [Benutzer und Gruppen in AEM](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [Benutzer und Gruppen in AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
 - [Berechtigungen in AEM](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [Verwalten von Benutzern und Gruppen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [Verwalten von Benutzern und Gruppen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [Verwalten von Berechtigungen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [Verwalten von Berechtigungen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Von AEM Guides erstellte Benutzergruppen {#id181TF0K0MHT}
@@ -53,27 +53,27 @@ In der folgenden Tabelle sind verschiedene Aufgaben sowie die Gruppen aufgeführ
 | Kopieren | Ja |   | Ja |
 | Löschen | Ja |   | Ja |
 | Link freigeben | Ja |   | Ja |
-| **Dokumentstatus** |
+| **Dokumentstatus** |  |  |  |
 | Dokumentenstatusprofil erstellen/bearbeiten |   |   | Ja |
 | Dokumentstatus ändern[2](#fntarg_2) | Ja | Ja | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgabevorgaben“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgabevorgaben“\)** |  |  |  |
 | Generieren |   |   | Ja |
 | Bearbeiten |   |   | Ja |
 | Duplizieren |   |   | Ja |
 | Erstellen |   |   | Ja |
 | Vorgabe löschen |   |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgaben“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgaben“\)** |  |  |  |
 | Erzeugte Ausgabe anzeigen | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte Themen\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte Themen\)** |  |  |  |
 | Bewertungsaufgabe erstellen | Ja |   | Ja |
 | Bearbeiten | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Baselines“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Baselines“\)** |  |  |  |
 | Erstellen |   |   | Ja |
 | Bearbeiten |   |   | Ja |
 | Duplizieren |   |   | Ja |
 | Remove |   |   | Ja |
 | DITA Map Console \(Registerkarte „Berichte“\) | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Bedingungsvorgaben\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Bedingungsvorgaben\)** |  |  |  |
 | Erstellen/Bearbeiten einer Bedingungsvorgabe |   |   | Ja |
 
 ## Zusätzliche Hinweise zu Benutzergruppen

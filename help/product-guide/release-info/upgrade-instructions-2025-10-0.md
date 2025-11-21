@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise zu | Aktualisierungsanweisungen und behobene Probleme in Adobe Experience Manager Guides Version 2025.10.0
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf die Version 2025.10.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 25bfa20f469930b3b683e4753812227abdf36f24
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 3%

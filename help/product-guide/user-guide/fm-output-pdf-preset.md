@@ -4,7 +4,7 @@ description: Generieren und Konfigurieren der PDF-Ausgabe für FrameMaker-Dokume
 exl-id: df3d3cd8-2aa1-4d82-8756-c3f5555cb904
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -23,13 +23,13 @@ Die folgenden Optionen sind für die PDF-Ausgabe verfügbar:
 |-----------|-----------|
 | Ausgabetyp | Der Typ der Ausgabe, die Sie generieren möchten. Um die PDF-Ausgabe zu generieren, wählen Sie die Option PDF . |
 | Einstellungsname | Geben Sie einen beschreibenden Namen für die PDF-Ausgabeeinstellungen an, die Sie erstellen. Sie können beispielsweise &quot;*Kundenausgabe“* „Endbenutzerausgabe *angeben*. |
-| **Auftragseinstellungen** |
+| **Auftragseinstellungen** |  |
 | Optionen | Wählen Sie die PDF-Vorgabe aus, die Sie zum Generieren der PDF-Ausgabe verwenden möchten. |
 | Generieren von getaggten PDF | Wählen Sie diese Option aus, um PDF-Dokumente mit Tags zu generieren, die Informationen über Inhalt und Struktur des Dokuments enthalten. Diese Informationen werden von den Bildschirmlesehilfen verwendet. |
 | PDF für jede Datei im Buch generieren | Wenn Sie eine Ausgabe für eine Buchdatei generieren, wählen Sie diese Option, um für jede Datei im Buch eine separate PDF zu generieren. |
 | PDF nur zur Überprüfung generieren | Wählen Sie diese Option, um PDF mit aktivierter Kommentarfunktion zu generieren. |
 | Spezifisches Ziel für alle Elemente und Absätze erstellen | Wählen Sie diese Option aus, um benannte Ziele auf der Grundlage von Elementen und Absätzen zu erstellen. |
-| **Anzeigeeinstellungen** |
+| **Anzeigeeinstellungen** |  |
 | Dokument auf Seite öffnen | Geben Sie die Seitennummer an, die beim Öffnen der PDF angezeigt werden soll. |
 | Anfänglicher Zoom-Faktor | Wählen Sie den Zoom-Faktor für das Dokument aus. |
 | Eintragungszeichen | Um ein Dokument mit Schnittmarken und Registrierungsmarken zu drucken, wählen Sie eine Option aus der Dropdown-Liste Registrierungsmarken aus. |
@@ -40,4 +40,4 @@ Die folgenden Optionen sind für die PDF-Ausgabe verfügbar:
 | Zielpfad | Der Pfad innerhalb Ihres AEM-Repositorys, in dem die PDF-Ausgabe gespeichert wird. |
 | Nachgenerierungs-Workflow ausführen | Wenn Sie diese Option wählen, wird eine neue Dropdown-Liste für den Post-Generation-Workflow angezeigt, die alle in AEM konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, den Sie nach Abschluss des Workflows zur Ausgabegenerierung ausführen möchten. |
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
+**Übergeordnetes Thema:**[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)

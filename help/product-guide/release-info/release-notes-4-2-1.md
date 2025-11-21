@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Ve
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Weitere Informationen finden Sie im Abschnitt *Technische Anforderungen* im Hand
 | --- | --- | --- | --- | --- |
 | 4.2.1 (Nicht-UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.3 oder höher |
 | 4.2.1 (UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.4 oder höher |
-| | | | |
+| | | | |  |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden ab 2020.2 in FMPS-Versionen unterstützt.
 
@@ -63,7 +63,7 @@ Weitere Informationen finden Sie im Abschnitt *Technische Anforderungen* im Hand
 | --- | --- | --- |--- |--- |
 | 4.2.1 (Nicht-UUID) | 2.2-normal-3 | 2.2-normal-3 | 1,6 | 1,6 |
 | 4.2.1 (UUID) | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Behobene Probleme
 
@@ -94,17 +94,17 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Die Funktion Dateien hochladen , mit der auf die Schaltfläche „Dateien hochladen“ in der Assets-Benutzeroberfläche zugegriffen werden kann, funktioniert nicht mehr in Version 4.2. 11633)
 
 
-### Veröffentlichung
+### Publishing
 
 * Native PDF | Die Veröffentlichung von Inhalten mit einer Ausgabeklasse mit Brackets() führt zu einem Veröffentlichungsstopp. 11936)
 * JSON-Ausgabe | Zuordnen von Metadaten mit Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. 11933)
 * Das Problem tritt bei der AEM-Site-Suche auf (funktioniert nicht über zwei- bis dreistufige Knoten hinaus). 11352)
 * Web-Editor | Ausgabepfad und -vorlage können nicht in der AEM-Voreinstellung ausgewählt werden. 11530)
-* Beim Upgrade von Version 4.1.x auf Version 4.2 funktioniert die native PDF-Engine nicht und löst NullPointerException selbst für das unterstützte Betriebssystem aus.11526)
-* Der Download-PDF-Prozess funktioniert im Web-Editor nicht ordnungsgemäß. 11496)
+* Beim Upgrade von Version 4.1.x auf Version 4.2 funktioniert die native PDF-Engine nicht und löst sogar für das unterstützte Betriebssystem eine NullPointerException aus.11526)
+* Der PDF-Download-Prozess funktioniert im Web-Editor nicht ordnungsgemäß. 11496)
 * Native PDF | Kommentare zu Entwürfen sind in der generierten Ausgabe standardmäßig ausgeblendet. 10560)
 * Native PDF | Navtitle wird nicht für Topichead geehrt. 10509)
-* Native PDF | Beim Hinzufügen von `xref` zu einem Image wird das Image nicht auf der generierten PDF gerendert. 11346)
+* Native PDF | Beim Hinzufügen von `xref` zu einem Bild wird das Bild auf dem generierten PDF nicht gerendert. 11346)
 * Native PDF | Eine in der Tabellenkopfzeile vorhandene Fußnote führt zu fett und zentriert ausgerichtetem Text in der entsprechenden Seitenfußzeile in der PDF-Ausgabe. 10610)
 
 ### Übersetzung

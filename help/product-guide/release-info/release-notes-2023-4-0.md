@@ -4,9 +4,9 @@ description: Version April 2023 von Adobe Experience Manager Guides as a Cloud S
 exl-id: fa339eab-d3d0-4763-adbf-6411e39aa213
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -21,21 +21,21 @@ Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unte
 
 Führen Sie ein Upgrade Ihres aktuellen AEM Guides as a Cloud Service-Setups durch, indem Sie die folgenden Schritte ausführen:
 
-1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
-2. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf 2023.4.249.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die Version April 2023 von AEM Guides as a Cloud Service zu aktualisieren.
+1. Checken Sie den Git-Code der Cloud Services aus und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+2. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Services-Git-Codes auf 2023.4.249.
+3. Übernehmen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Version April 2023 von AEM Guides as a Cloud Service zu aktualisieren.
 
-## Schritte zum Indizieren des vorhandenen Inhalts (nur bei Versionen vor der AEM Guides as a Cloud Service-Version September)
+## Schritte zum Indizieren des vorhandenen Inhalts (nur, wenn Sie eine Version vor der September-Version von AEM Guides as a Cloud Service verwenden)
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene zu verwenden:
 
 * Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Optional) Sie können bestimmte Pfade der Karten übergeben, um sie zu indizieren. Standardmäßig werden alle Karten indiziert || Beispiel : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+* Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Beispiel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
-* Sobald der Vorgang abgeschlossen ist, antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Zuordnungen können aus den Serverprotokollen bestätigt werden.
+* Sobald der Vorgang abgeschlossen ist, wird die obige GET-Anfrage erfolgreich beantwortet und es wird angegeben, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Zuordnungen können aus den Serverprotokollen bestätigt werden.
 
 ## Kompatibilitätsmatrix
 
@@ -54,7 +54,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 | AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
 | 2 023,04,0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 
@@ -74,6 +74,6 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Bekanntes Problem mit Problemumgehung
 
-Adobe hat das folgende bekannte Problem in AEM Guides as a Cloud Service Version April 2023 festgestellt.
+Adobe hat das folgende bekannte Problem bei AEM Guides as a Cloud Service Version April 2023 identifiziert.
 
 * Native PDF | Die alten Metadaten werden erst ausgefüllt, wenn die Ausgabevorgabe explizit geöffnet wird.

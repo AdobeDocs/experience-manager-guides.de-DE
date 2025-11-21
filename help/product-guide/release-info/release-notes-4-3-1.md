@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Ve
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1307'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Weitere Informationen finden Sie im Abschnitt *Technische Anforderungen* im Hand
 | --- | --- | --- | --- | --- |
 | 4.3.1 (Nicht-UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.3 oder höher |
 | 4.3.1 (UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.4 oder höher |
-| | | | |
+| | | | | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden ab 2020.2 in FMPS-Versionen unterstützt.
 
@@ -67,7 +67,7 @@ Weitere Informationen finden Sie im Abschnitt *Technische Anforderungen* im Hand
 | --- | --- | --- |--- |--- |
 | 4.3.1 (Nicht-UUID) | 2.3-normal-5 | 2.3-normal-5 | 1,6 | 1,6 |
 | 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   | | |
 
 
 
@@ -105,27 +105,27 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Thema mit dem conref-Titel wird in der Repository- oder Zuordnungsansicht nicht aufgelöst.13304)
 
 
-### Veröffentlichung
+### Publishing
 
-- Native PDF | Die Reihenfolge der Themen ist nicht festgelegt, wenn die PDF-Ausgabe generiert wird. 13157)
-- Natives PDF| Für das Element `<p>` ist kein Standardstil-Tag verfügbar. 12559)
+- Native PDF | Die Reihenfolge der Themen wird beim Generieren der PDF-Ausgabe nicht festgelegt. 13157)
+- Native PDF| Für das Element `<p>` ist kein Standardstil-Tag verfügbar. 12559)
 - Native PDF | Inline-Stile, die auf den Inhaltsbereich angewendet werden, werden nicht auf die Themen in Vorder- und Rückseite angewendet. 13510)
 - Das `DeliveryTarget`-Attribut wird beim Generieren der AEM-Site-Ausgabe nicht weitergegeben.  13132)
-- Der Workflow **Publish** bleibt beim Generieren der AEM-Site-Ausgabe für Inhalte mit bestimmten Fehlern hängen. 12000)
+- Der **Veröffentlichen**-Workflow bleibt beim Generieren der AEM-Site-Ausgabe für Inhalte mit bestimmten Fehlern stecken. 12000)
 
 - Native PDF | Das Einschließen mehrerer XRefs erweitert den Text über die Spaltenbreite hinaus. 13004)
 - Native PDF | Wenn Thema und Titel dieselbe ID haben, führt dies zu einer fehlerhaften Generierung der PDF-Ausgabe. 12644)
 - Native PDF | Beim Hinzufügen einer Output-Klasse zu einem übergeordneten `<topicref>` in einer DITA-Zuordnung und beim Anwenden eines benutzerdefinierten Stils auf die Output-Klasse wird der Stil auf Elemente innerhalb des Themenkörpers angewendet, einschließlich Abschnittstiteln. 12166)
 - Die inkrementelle Veröffentlichung funktioniert nicht, wenn eine DITA-Zuordnung mehrere ditavalrefs enthält. 12117)
-- AEM-Site | Beim Erstellen einer Zuordnung mit keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. 12099)
-- Wenn Assets aus dem DAM von AEM in einer anderen Ausgabe als der AEM-Site verwendet werden, spiegeln die Metadaten „jcr:createdBy“ weder den Namen des Herausgebers noch den Namen des Benutzers wider, der die DITA-Zuordnung oder das Thema zuletzt geändert hat. 12090)
+- AEM Site | Beim Erstellen einer Zuordnung mit keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. 12099)
+- Wenn Assets aus dem DAM von AEM in einer anderen Ausgabe als der AEM-Site verwendet werden, spiegeln die Metadaten „jcr:createdBy&quot; weder den Namen des Herausgebers noch den Namen des Benutzers wider, der die DITA-Zuordnung oder das Thema zuletzt geändert hat. 12090)
 - AEM Sites | DITA-Map mit topichead im navtitle (mit nicht unterstützten Zeichen) führt zu fehlerhaften Seiten-URLs. 11978)
 - Native PDF | Probleme treten bei der Unterstützung von topichead / topicmeta / navtitle in Frontmatter und Backmatter auf. 11969)
-- Native PDF | Das Generieren von PDF für große Dokumente ist zeitaufwendig. 11955)
+- Native PDF | Das Generieren von PDFs für große Dokumente ist zeitaufwendig. 11955)
 - Native PDF | Beim Umbenennen einer Vorgabe wird beim Generieren einer PDF-Ausgabe eine NullPointerException ausgelöst. 11889)
-- Der `<conref>` wird nicht in der PDF-Ausgabe angezeigt. 11131)
+- Der `<conref>` Inhalt wird nicht in der PDF-Ausgabe angezeigt. 11131)
 - In den `<div>` wird beim Umschalten zwischen der Authoring- und der Source-Ansicht im Seitenlayout-Editor ein zusätzlicher Leerraum hinzugefügt. 10750)
-- Der auf AEM Cloud Manager replizierte Inhalt ist auf der Publish-Instanz nicht sichtbar. (9564)
+- Der auf AEM Cloud Manager replizierte Inhalt ist auf der Veröffentlichungsinstanz nicht sichtbar. (9564)
 
 
 ### Verwaltung

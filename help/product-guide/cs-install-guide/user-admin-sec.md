@@ -5,7 +5,7 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6aaa5c1eeb9b74ababc7ebf427babfff101acc70
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 10%
@@ -18,7 +18,7 @@ Um auf Funktionen in der AEM Guides zuzugreifen und sie zu konfigurieren, müsse
 
 Die folgenden Themen in der Dokumentation zu AEM helfen Ihnen, die Konzepte und Funktionen der Benutzerverwaltung und Sicherheit zu verstehen:
 
-- [AEM-Benutzer, -Gruppen und -Berechtigungen](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=de)
+- [AEM-Benutzer, -Gruppen und -Berechtigungen](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
 - [Benutzerverwaltung und Sicherheit](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=de)
 
@@ -48,27 +48,27 @@ In der folgenden Tabelle sind verschiedene Aufgaben sowie die Gruppen aufgeführ
 | Kopieren | Ja |   | Ja |
 | Löschen | Ja |   | Ja |
 | Link freigeben | Ja |   | Ja |
-| **Dokumentstatus** |
+| **Dokumentstatus** |  |  |  |
 | Dokumentenstatusprofil erstellen/bearbeiten |   |   | Ja |
 | Dokumentstatus ändern[2](#fntarg_2) | Ja | Ja | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgabevorgaben“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgabevorgaben“\)** |  |  |  |
 | Generieren |   |   | Ja |
 | Bearbeiten |   |   | Ja |
 | Duplizieren |   |   | Ja |
 | Erstellen |   |   | Ja |
 | Vorgabe löschen |   |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgaben“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgaben“\)** |  |  |  |
 | Erzeugte Ausgabe anzeigen | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte Themen\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte Themen\)** |  |  |  |
 | Bewertungsaufgabe erstellen | Ja |   | Ja |
 | Bearbeiten | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Baselines“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Baselines“\)** |  |  |  |
 | Erstellen |   |   | Ja |
 | Bearbeiten |   |   | Ja |
 | Duplizieren |   |   | Ja |
 | Remove |   |   | Ja |
 | DITA Map Console \(Registerkarte „Berichte“\) | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Bedingungsvorgaben\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Bedingungsvorgaben\)** |  |  |  |
 | Erstellen/Bearbeiten einer Bedingungsvorgabe |   |   | Ja |
 
 ## Zusätzliche Hinweise zu Benutzergruppen

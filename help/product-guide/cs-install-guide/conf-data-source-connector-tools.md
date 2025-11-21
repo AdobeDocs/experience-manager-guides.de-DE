@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 Experience Manager Guides enthält das Tool **Datenquellen** mit dem Sie vordefinierte Connectoren für Datenquellen konfigurieren können. Sie können die JIRA-, SQL- (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce-, Elasticsearch- und generischen REST-Client-Connectoren einrichten.
 
 
-Neben diesen vordefinierten Connectoren stellt Experience Manager Guides die Connectoren für die Datenquellen Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO) bereit. Sie können diese Open-Source-Connectoren aus dem [Maven Central Repository“ herunterladen und &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Die Benutzer können dann diese Connectoren konfigurieren.
+Neben diesen vordefinierten Connectoren stellt Experience Manager Guides die Connectoren für die Datenquellen Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO) bereit. Sie können diese Open-Source-Connectoren aus dem [Maven Central Repository“ herunterladen und ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Die Benutzer können dann diese Connectoren konfigurieren.
 Erfahren Sie, wie [einen Open-Source-Connector installieren](#install-open-source-connector).
 
 
@@ -35,8 +35,10 @@ Um einen Connector zu konfigurieren, führen Sie die folgenden Schritte aus:
    <img src="./assets/data-sources-create-window.png" alt= "Auf der Seite „Datenquellen“ aufgeführte Datenquellen" width="800">
 
    *Anzeigen oder Erstellen eines Datenquellen-Connectors.*
+
 1. Klicken Sie auf **Erstellen**.
 1. Wählen Sie die Datenbank aus, für die Sie den Connector erstellen möchten. Beispiel: der Elasticsearch-Connector.
+
    >[!NOTE]
    >
    >Alle verfügbaren vordefinierten Datenbanken werden aufgelistet.
@@ -47,7 +49,7 @@ Um einen Connector zu konfigurieren, führen Sie die folgenden Schritte aus:
    >[!TIP]
    >
    >* Bewegen Sie den Mauszeiger über <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> in der Nähe des Felds, um weitere Details dazu anzuzeigen.
-   > * Felder mit * sind Pflichtfelder. Sie können beispielsweise die folgenden Details für den Elasticsearch-Connector eingeben.
+   >* Felder mit * sind Pflichtfelder. Sie können beispielsweise die folgenden Details für den Elasticsearch-Connector eingeben.
 
    * **Name**: Geben Sie den Namen der Datenquelle ein.
    * **Authentifizierungstyp**: Wählen Sie in der Dropdown-Liste den Authentifizierungstyp aus. Beispiel: Einfache Benutzername-Kennwort-Authentifizierung
@@ -57,12 +59,7 @@ Um einen Connector zu konfigurieren, führen Sie die folgenden Schritte aus:
 
 
 1. Wählen Sie die Option **Werksvorlagen ausschließen**, um die Werksvorlagen von der Verwendung für die Erstellung von Themen und Ausschnitten auszuschließen. Sie werden nicht in der Dropdown **Liste Datenzuordnungsvorlage** im Dialogfeld **Inhaltsfragmentgenerator hinzufügen** oder **Themengenerator hinzufügen** angezeigt.
-
-
 1. Wählen Sie **Verbindung testen** aus. Sie können die Schaltfläche **Verbindung testen** erst anzeigen, nachdem Sie die erforderlichen Details hinzugefügt haben. Zeigt eine Erfolgsmeldung an, wenn die Verbindungsdetails korrekt sind. Andernfalls wird möglicherweise eine Fehlermeldung angezeigt.
-
-
-
 1. Wählen **oben** Speichern“ aus, um den Connector zu speichern.     Die Schaltfläche **Speichern** wird aktiviert, nachdem Sie alle Details ausgefüllt haben und die Verbindung erfolgreich hergestellt wurde.
 
 
@@ -77,8 +74,7 @@ Führen Sie die folgenden Schritte aus, um eine Ressource zu erstellen:
 1. Wählen Sie ![Symbol hinzufügen](assets/Add_icon.svg) im Abschnitt **URL-Ressource** aus, um für jede URL eine Ressource hinzuzufügen.
 1. Konfigurieren Sie alle Details im Dialogfeld **Ressource hinzufügen**.
 1. Klicken Sie auf **Hinzufügen**.
-1. Sie können ![Bearbeitungssymbol](assets/edit_pencil_icon.svg) bearbeiten oder ![&#x200B; Ressource aus &#x200B;](assets/Delete_icon.svg) URL-Ressourcenliste löschen.
-
+1. Sie können ![Bearbeitungssymbol](assets/edit_pencil_icon.svg) bearbeiten oder ![ Ressource aus ](assets/Delete_icon.svg) URL-Ressourcenliste löschen.
 1. Sie können auch die Standardressourcen verwenden, die für Datenquellen wie Salsify, Akeneo und Microsoft ADO verfügbar sind. Schalten Sie die Optionen für die Ressource aus, die Sie nicht für eine Datenquelle konfigurieren möchten.
 
 Auf diese Weise können Sie schnell Daten aus einer der Ressourcen für eine bestimmte Datenquelle in einem einzelnen Inhaltsfragment oder Thema abrufen.
@@ -87,7 +83,7 @@ Auf diese Weise können Sie schnell Daten aus einer der Ressourcen für eine bes
 
 ## Installieren eines Open-Source-Connectors{#install-open-source-connector}
 
-Um eine Abhängigkeit, die im [Maven Central Repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) vorhanden ist, in den Cloud Services zu veröffentlichen, müssen Sie die Abhängigkeit für einen Open-Source-Connector einschließen und einbetten.
+Um eine Abhängigkeit im [Maven Central Repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) in den Cloud-Services zu veröffentlichen, müssen Sie die Abhängigkeit für einen Open-Source-Connector einschließen und einbetten.
 
 1. Fügen Sie die Abhängigkeit in `all/pom.xml` in Ihrem Cloud Manager-Git-Projekt-Code hinzu. Sie können beispielsweise die folgende Abhängigkeit für den Microsoft Azure DevOps Boards-Datenquellen-Connector hinzufügen.
 
@@ -103,16 +99,16 @@ Um eine Abhängigkeit, die im [Maven Central Repository](https://central.sonatyp
 
 1. Betten Sie die hinzugefügte Abhängigkeit ein.
 
-       &quot;
-       &lt;embedded>
-       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
-       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
-       &lt;type>jar&lt;/type>
-       &lt;target>/apps/aemdoxonaemcsstageprogram-provider-packages/content/install&lt;/target>
-       &lt;/embedded>
-       &quot;
-   
-1. Führen Sie die Pipeline aus, um die Änderungen in den Cloud Services anzuwenden.
+   ```
+   <embedded>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <type>jar</type>
+       <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+   </embedded> 
+   ```
+
+1. Führen Sie die Pipeline aus, um die Änderungen in den Cloud-Services anzuwenden.
 Der Connector wird in Ihrer Umgebung installiert.
 
 

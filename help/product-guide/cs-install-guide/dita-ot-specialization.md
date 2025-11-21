@@ -5,9 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3119ef32a753afac9405af31a241ae508f922ea7
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Führen Sie die folgenden Schritte aus, um das benutzerdefinierte DITA-OT-Plug-i
 
    - Führen Sie den Integrator \(zum Installieren des benutzerdefinierten Plug-ins\) auf einem Mac/Linux-Betriebssystem aus, um Probleme mit Dateiseparatoren zu vermeiden. Da Windows- und Linux-Betriebssysteme unterschiedliche Dateiseparatoren haben, ist das in Mac/Linux-Betriebssystemen integrierte Plug-in mit Windows- und Linux-Setup kompatibel.
    - Stellen Sie sicher, dass die `DITA-OT.ZIP`-Datei einen Ordner mit dem Namen „DITA-OT“ enthält, der alle relevanten Plug-ins und Dateien enthält.
-   - Überprüfen Sie, ob `DITA-OT.ZIP` erstellte Datei vom Typ „mimeType: „nt:file“ \(entspricht dem primären Typ der ZIP-Datei beim Hochladen in AEM\) ist. Verwenden Sie ein WebDAV-Tool oder eine Code-Bereitstellung, um diese ZIP-Datei in den gewünschten Pfad in AEM hochzuladen. \(Verwenden Sie den Package Manager von AEM nicht, um diese ZIP-Datei bereitzustellen, da diese ZIP-Datei kein AEM-Inhaltspaket, sondern nur eine Archivdatei ist.\)
+   - Überprüfen Sie, ob `DITA-OT.ZIP` erstellte Datei vom Typ „mimeType: „nt:file&quot; \(dies entspricht dem primären Typ der ZIP-Datei beim Hochladen in AEM\) ist. Verwenden Sie ein WebDAV-Tool oder eine Code-Bereitstellung, um diese ZIP-Datei in den gewünschten Pfad in AEM hochzuladen. \(Verwenden Sie den Package Manager von AEM nicht, um diese ZIP-Datei bereitzustellen, da diese ZIP-Datei kein AEM-Inhaltspaket, sondern nur eine Archivdatei ist.\)
 
    >[!NOTE]
    >
@@ -64,12 +64,12 @@ Führen Sie die folgenden Schritte aus, um das benutzerdefinierte DITA-OT-Plug-i
 
    | Eigenschaftsname | Beschreibung |
    |-------------|-----------|
-   | **Profileigenschaften** |
+   | **Profileigenschaften** |  |
    | Profilname | Geben Sie einen eindeutigen Namen für dieses Profil an. |
    | Ausgabe wiederverwenden | *\(Optional\)* Wenn Ihr Profil auf einem vorhandenen Profil basiert, wählen Sie diese Option. Durch Auswahl dieser Option wird sichergestellt, dass AEM Guides den Inhalt des DITA-OT-Pakets nicht erneut extrahiert und das vorhandene DITA-OT-Paket wiederverwendet. |
-   | Pfad der Profilextraktion | *\(Optional\)* Geben Sie den Pfad an, unter dem DITA-OT auf der Festplatte gespeichert wird. Standardmäßig bündelt AEM Guides ein DITA-OT-Paket in seinem Repository und wird unter diesem Pfad auf der Festplatte extrahiert. <br> **HINWEIS** Sie können diesen Pfad mithilfe einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [&#x200B; Eigenschaft &#x200B;](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
+   | Pfad der Profilextraktion | *\(Optional\)* Geben Sie den Pfad an, unter dem DITA-OT auf der Festplatte gespeichert wird. Standardmäßig bündelt AEM Guides ein DITA-OT-Paket in seinem Repository und wird unter diesem Pfad auf der Festplatte extrahiert. <br> **HINWEIS** Sie können diesen Pfad mithilfe einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [ Eigenschaft ](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
    | Zugewiesener Pfad | \(*Optional*\) Geben Sie den Pfad in Ihrem Content-Repository an, für den dieses Profil gilt. Sie können mehrere Speicherorte angeben. |
-   | **DITA-OT-Eigenschaften** |
+   | **DITA-OT-Eigenschaften** |  |
    | DITA-OT-Timeout | \(*Optional*\) Geben Sie die Zeit \(in Sekunden\) an, für die die AEM Guides auf eine Antwort des DITA-OT-Plug-ins wartet. Wenn in der angegebenen Zeit keine Antwort eingeht, beendet AEM Guides die Veröffentlichungsaufgabe und die Aufgabe wird als fehlgeschlagen markiert. Außerdem werden die Fehlerprotokolle in der Protokolldatei für die Ausgabegenerierung zur Verfügung gestellt. <br> Standardwert: 300 Sekunden \(5 Minuten\) |
    | DITA-OT PDF-Argumente | Geben Sie die Befehlszeilenargumente an, die vom benutzerdefinierten DITA-OT-Plug-in zum Generieren der PDF-Ausgabe verarbeitet werden. Geben Sie für alle benutzerdefinierten DITA-OT-Profile das folgende Befehlszeilenargument an:`-lib plugins/org.dita.pdf2.fop/lib/` |
    | DITA-OT AEM-Argumente | \(*Optional*\) Geben Sie die benutzerdefinierten Befehlszeilenargumente an, die vom benutzerdefinierten DITA-OT-Plug-in zum Generieren der AEM Site-Ausgabe verarbeitet werden. |

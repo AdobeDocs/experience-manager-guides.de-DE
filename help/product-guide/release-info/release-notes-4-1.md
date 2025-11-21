@@ -4,7 +4,7 @@ description: Neueste Version von Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen des Handb
 | --- | --- | --- | --- | --- |
 | 4.1.3 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
 | 4.1.3 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
-| | | | |
+| | | | |  |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden ab 2020.2 in FMPS-Versionen unterstützt.
 
@@ -59,7 +59,7 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen des Handb
 | --- | --- | --- |--- |--- |
 | 4.1.3 (Nicht-UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1.3 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 
 ## Behobene Probleme
@@ -92,7 +92,7 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen des Handb
 | --- | --- | --- | --- | --- |
 | 4.1.2 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
 | 4.1.2 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
-| | | | |
+| | | | |  |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden ab 2020.2 in FMPS-Versionen unterstützt.
 
@@ -102,7 +102,7 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen des Handb
 | --- | --- | --- |--- |--- |
 | 4.1.2 (Nicht-UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 
 ## Behobene Probleme
@@ -149,7 +149,7 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen des Handb
 | --- | --- | --- | --- | --- |
 | 4.1 (Nicht-UUID) | 2020.2 oder höher* | 2019 | 2020.3 oder höher | 2019.8 (neueste Aktualisierung) |
 | 4.1 (UUID) | 2020.2 oder höher* | Nicht kompatibel | 2020.4 oder höher | Nicht kompatibel |
-| | | | |
+| | | | | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden ab 2020.2 in FMPS-Versionen unterstützt.
 
@@ -159,20 +159,21 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen des Handb
 | --- | --- | --- |--- |--- |
 | 4.1 (Nicht-UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
 | 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |  |
+|  |  |  | | |
 
 
 ## Neue Funktionen und Verbesserungen
 
 AEM Guides bietet in Version 4.1 viele Verbesserungen und neue Funktionen:
 
-### Natives PDF-Publishing
+### Native PDF-Veröffentlichung
 
-Die Erstellung einer nativen PDF wird jetzt auch in Version 4.1 von AEM Guides unterstützt. Eine neue Publishing-Engine wurde mit den folgenden Funktionen eingeführt:
+Die Erstellung eines nativen PDF wird jetzt auch in Version 4.1 von AEM Guides unterstützt. Eine neue Publishing-Engine wurde mit den folgenden Funktionen eingeführt:
+
 * Erstellen einer CSS-Vorlage
 * Erstellen verschiedener Seitenvorlagen
-* Entwerfen von PDF-Vorlagen mit CSS- und Seitenvorlagen
-* Publish Map- und Themeninhalte im PDF-Format
+* Entwerfen von PDF-Vorlagen, die CSS- und Seitenvorlagen enthalten
+* Veröffentlichen von Zuordnungs- und Themeninhalten im PDF-Format
 
 ### Unterstützung für den Knowledgebase-Site-Pfad in der artikelbasierten Veröffentlichung
 
@@ -300,7 +301,7 @@ Weitere Informationen zur Übersetzung finden Sie im Abschnitt *Übersetzen von 
 
 ### Erweiterte Veröffentlichung
 
-* Sie können auch auf das **Publish-Dashboard** über die Registerkarte „Ausgaben“ zugreifen, während Sie die Ausgabe über das Zuordnungs-Dashboard generieren. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Publish-Dashboard verfügbar.
+* Sie können auch über die Registerkarte Ausgaben auf **Dashboard veröffentlichen** zugreifen, während Sie über das Zuordnungs-Dashboard eine Ausgabe generieren. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Veröffentlichungs-Dashboard verfügbar.
 
 ![Ausgaben in der Warteschlange](assets/queued-output.png)
 
@@ -323,7 +324,7 @@ Wenn Sie sich dafür entscheiden, die DITA-Karte herunterzuladen, wird die Anfra
 
 ### Veraltete Funktion
 
-AEM Guides unterstützt nicht mehr die Generierung des DITA-Ausgabeformats für FrameMaker-Dokumente. Diese DITA-Option wurde auch aus den Ausgabevorgaben des Zuordnungs -Dashboards entfernt.
+AEM Guides unterstützt die Generierung des DITA-Ausgabeformats für FrameMaker-Dokumente nicht mehr. Diese DITA-Option wurde auch aus den Ausgabevorgaben des Zuordnungs -Dashboards entfernt.
 
 ## Behobene Probleme
 
@@ -331,12 +332,12 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 * Die Authoring-Unterstützung ist nicht als Alternative für die dateipfadbasierte Referenzierung für die Veröffentlichung verfügbar. (8076)
 * Das DITA Add-on-Paket verhindert die Erkennung von DAM-Duplikat-Assets. (8417)
-* Nach dem Einchecken eines Dokuments von Oxygen zu AEM wird der japanische Inhalt im Dokument durch Fragezeichen (???) ersetzt. (9124)
+* Nach dem Einchecken eines Dokuments von Oxygen nach AEM wird der japanische Inhalt im Dokument durch Fragezeichen (???) ersetzt. (9124)
 * Ausgecheckte Dateien aktualisieren funktioniert nicht bei der Protokollierung mit Webauthentifizierung in Oxygen. (9179)
 * Die Datei wird beim Öffnen mit Sauerstoff nicht ausgecheckt. (9192)
-* Nach dem Einchecken eines Dokuments von Oxygen zu AEM wird der japanische Inhalt im Dokument durch Fragezeichen (???) ersetzt. (9276)
+* Nach dem Einchecken eines Dokuments von Oxygen nach AEM wird der japanische Inhalt im Dokument durch Fragezeichen (???) ersetzt. (9276)
 * Web-Authentifizierung funktioniert nicht in Oxygen. (9296)
-* Das erneute Hochladen schlägt in Oxygen fehl, wenn die Datei(en) bereits im AEM am selben Speicherort vorhanden sind. (9328)
+* Das erneute Hochladen schlägt in Oxygen fehl, wenn die Datei(en) bereits in AEM am selben Speicherort vorhanden sind. (9328)
 * Option nicht verfügbar, um Inhalte zwischen AEM und dem lokalen System zwangsweise zu synchronisieren. (9439)
 * Die ID wird für Elemente, die mit dem Dialogfeld „Wiederverwendbaren Inhalt einfügen **in der sekundären Symbolleiste hinzugefügt**, nicht automatisch generiert. (5 826)
 * Beim Hochladen eines Bildes mit demselben Namen wie eine vorhandene Datei über den Editor wird kein Bestätigungsdialogfeld angezeigt. (6011)
@@ -361,14 +362,14 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Die Beschreibung der Prüfungsaufgabe wird nicht in der E-Mail-Benachrichtigung angezeigt, die gesendet wird, wenn eine neue Prüfungsaufgabe zugewiesen wird. (8507)
 * Map-API herunterladen | Temporäre Ordner werden nicht bereinigt, falls Fehler im Download-Prozess auftreten. (8523)
 * `columnpreview.jsp` ist von SP abhängig.  (8543)
-* Ausgabeaufträge mit dem Status „Warten“ oder „Wird ausgeführt“ werden im Publish-Dashboard nicht bereinigt.  (8 569)
+* Ausgabeaufträge mit dem Status „Warten“ oder „Wird ausgeführt“ werden im Veröffentlichungs-Dashboard nicht bereinigt.  (8 569)
 * Standardsymbol, das beim Generieren eines Berichts mit der Schaltfläche „Generieren“ ausgewählt wird, selbst wenn die Symboleigenschaft definiert ist. (8573)
 * Beim Aktualisieren von 3.8.x auf 4.0 treten während des Überprüfungsprozesses Probleme auf. (8 788)
 * Wenn ein Benutzername lang ist, werden im Überprüfungsfenster des Web-Editors die Symbole zum Akzeptieren/Ablehnen nicht deutlich angezeigt. (8793)
 * Nach dem Entfernen eines Themas und dem Ausführen eines Verschiebungsvorgangs wird die Referenzstruktur unterbrochen. (8804)
 * Die vom Benutzer definierte benutzerdefinierte DTD hat keinen Vorrang vor der in DITA-OT eingebetteten standardmäßigen DITA-DTD. (9104)
 * Die Position der Hervorhebung ist in der Seitenansicht falsch. (9305)
-* In der Ausgabe der AEM-Site wird die Fußnote als Verweis verwendet, aber es wird nicht zum Fußnotenabschnitt gescrollt. (9061)
+* In der Ausgabe der AEM-Site wird die Fußnote als Verweis verwendet, aber es wird nicht zum Abschnitt mit der Fußnote gescrollt. (9061)
 * Die Reihenfolge der Fußnoten ist in der Ausgabe der AEM-Site falsch. (9327)
 * Neu erstellte DITA-Assets werden immer von einem anderen Benutzer ausgecheckt. (9 387)
 * Bei der Erstellung neuer Inhalte wird immer ein Fehler protokolliert. (9388)
@@ -403,7 +404,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Attribute fehlen beim Hinzufügen eines Kapitels zu einer Bookmap mithilfe von Drag-and-Drop aus der Favoritenansicht. (8 746)
 * Das Dialogfeld „Keyword einfügen“ verfügt nicht über die Suchfunktion und Keywords werden nicht in sortierter Reihenfolge aufgelistet. (9094)
 * Wenn Sie eine Suche im XML-Editor durchführen, friert die Seite ein. (9452)
-* Sites fehlen in den AEM-Voreinstellungen auf der Registerkarte „Ausgabe“. (9567)
-* SVG von Bildern, die im Autorenmodus des XML-Editors nicht korrekt gerendert werden. (9426)
+* Sites fehlen in den AEM-Vorgaben auf der Registerkarte „Ausgabe“. (9567)
+* SVG-Bilder, die im Autorenmodus des XML-Editors nicht korrekt gerendert werden. (9426)
 * Baseline wird bei der Veröffentlichung über Salesforce nicht berücksichtigt. (8953)
 * Die Möglichkeit, die Rootmap aus den Benutzereinstellungen zu löschen, ist nicht vorhanden. (8534)

@@ -5,7 +5,7 @@ exl-id: a5742082-cc0b-49d9-9921-d0da1b272ea5
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1762'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Weitere Informationen zu Workflows in AEM finden Sie unter:
 
 - [Verwalten von Workflow-Instanzen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=de)
 
-- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=de).
+- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
 
 Die Abschnitte in diesem Abschnitt erläutern verschiedene Anpassungen, die Sie in den in AEM Guides bereitgestellten Standard-Workflows vornehmen können.
@@ -107,11 +107,11 @@ Sie können diese Skripte im Knoten `/etc/workflows/scripts` erstellen. In der f
 | `projectPath` | Zeichenfolge | Pfad des Überprüfungsprojekts, dem die Überprüfungsaufgabe zugewiesen wird, z. B.: /content/projects/samplereviewproject. |
 | `reviewType` | Zeichenfolge | Statischer Wert &quot;AEM&quot;. |
 | `versionJson` | JSON-Objekt | versionJson ist eine Liste von Themen, die in die Überprüfung aufgenommen werden und bei denen jedes Themenobjekt die folgende Struktur aufweist [ { „Pfad“: &quot;/content/dam/1-topic.dita&quot;, „Version“: „1.1“, „Überprüfung“: true, „Validierungsverantwortliche“: [„projects-we_retail-editor“] } ] |
-| `isDitamap` | Boolesch | false/true |
+| `isDitamap` | Boolescher Wert | false/true |
 | `ditamapHierarchy` | JSON-Objekt | Falls die Karte zur Überprüfung gesendet wird, sollte der Wert hier wie folgt sein:[ { „path“: „GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap“, „items“: [ { „path“: „GUID-9747e8ab-8cf1-45dd-9e20-d47d482f667d.dita“, „title“: &quot;&quot;, „items“: [] } ] } ]. |
 | `ditamap` | Zeichenfolge | Geben Sie den Pfad der Imagemap der Prüfungsaufgabe an |
-| `allowAllReviewers` | Boolesch | false/true |
-| `notifyViaEmail` | Boolesch | false/true |
+| `allowAllReviewers` | Boolescher Wert | false/true |
+| `notifyViaEmail` | Boolescher Wert | false/true |
 | `reviewVersion` | Zeichenfolge | Gibt die aktuelle Version des Überprüfungs-Workflows an. Der Standardwert ist auf `3.0` festgelegt.<br> Um die neuen Funktionen des Überprüfungs-Workflows für [Autoren](../user-guide/review-close-review-task.md) und [Prüfer](../user-guide/review-complete-review-tasks.md) zu aktivieren, stellen Sie sicher, dass die `reviewVersion` auf `3.0` eingestellt ist. |
 
 
@@ -199,7 +199,7 @@ Sie können ein neues Workflow-Modell erstellen, das als Workflow nach der Gener
 | `outputType` | com.adobe.fmdita.output.OutputType | Typ der Ausgabevorgabe. |
 | `outputTitle` | Zeichenfolge | Titel der Ausgabevorgabe. |
 | `outputHistoryPath` | Zeichenfolge | Repository-Pfad des Verlaufsknotens. |
-| `isSuccess` | Boolesch | Eine Markierung, die den endgültigen Status des Ausgabegenerierungsprozesses darstellt - Erfolg oder Fehler. |
+| `isSuccess` | Boolescher Wert | Eine Markierung, die den endgültigen Status des Ausgabegenerierungsprozesses darstellt - Erfolg oder Fehler. |
 | `logPath` | Zeichenfolge | Pfad in DAM, unter dem die Ausgabegenerierungsprotokolle gespeichert werden. |
 | `generatedTime` | Long | Zeitpunkt, zu dem der Ausgabenerstellungsprozess ausgelöst wurde. |
 | `initiator` | Zeichenfolge | Die Benutzer-ID des Benutzers, der den Workflow zur Ausgabegenerierung ausgelöst hat. |

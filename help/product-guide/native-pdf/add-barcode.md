@@ -1,10 +1,10 @@
 ---
-title: Native PDF Publish-Funktion | Strichcode hinzufügen
+title: Native PDF-Veröffentlichungsfunktion | Strichcode hinzufügen
 description: Erfahren Sie, wie Sie Barcodes hinzufügen.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '778'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Um einen Barcode zu generieren, führen Sie die folgenden Schritte aus:
 
 ### Aktualisieren des CSS der Vorlage, um einen Barcodewert zu rendern
 
-Ändern Sie die `layout.css` Datei, um während der PDF-Generierung einen Barcode zu rendern. Es werden verschiedene Barcodetypen wie „qrcode“ und „pdf417“ unterstützt.  Weitere Informationen finden Sie unter [Barcodetypen](#barcode-types).
+Ändern Sie die `layout.css`, um während der PDF-Generierung einen Barcode zu rendern. Es werden verschiedene Barcodetypen wie „qrcode“ und „pdf417“ unterstützt.  Weitere Informationen finden Sie unter [Barcodetypen](#barcode-types).
 
 
 
@@ -126,8 +126,8 @@ Einige der häufig verwendeten Barcodes sind die folgenden:
 
 | Typ | Pro-Barcode-Typ | Zusätzliche Details |
 | ---| --- | --- |
-| QR-Code | qrcode | Die QR-Code-Strichcode-Symbologie gemäß ISO/IEC 18004:2015. |
-| Code 128 | code128 | Der Code 128 Barcode Symbologie gemäß ISO/IEC 15417:2007. |
+| QR-Code | qrcode | Die QR-Code-Strichcode-Symbologie nach ISO/IEC 18004:2015. |
+| Code 128 | code128 | Die Code 128 Barcode Symbologie gemäß ISO/IEC 15417:2007. |
 | Code 32 | code32 | Code 32, auch bekannt als italienischer Pharmakode. |
 | Code 49 | code49 | Code 49 gemäß ANSI/AIM-BC6-2000. |
 | Code 11 | Code11 |                            |
@@ -138,12 +138,12 @@ Einige der häufig verwendeten Barcodes sind die folgenden:
 | MSI Plessey | Einfaches Set |                            |
 | Kanalcode | channelCode | Kanalcode nach ANSI/AIM BC12-1998. |
 | Codabar | Codabar | Codabar Barcode Symbologie nach BS EN 798:1996. |
-| EAN-8 | EAN-8 | EAN-Barcode-Symbologie gemäß BS EN 797:1996. |
-| EAN-13 | EAN-13 | EAN-Barcode-Symbologie gemäß BS EN 797:1996. |
+| EAN-8 | EAN-8 | EAN-Barcode-Symbologie nach BS EN 797:1996. |
+| EAN-13 | EAN-13 | EAN-Barcode-Symbologie nach BS EN 797:1996. |
 | UPC-A | UPC-A | UPC-Strichcode-Symbologie nach BS EN 797:1996. |
 | UPC-E | UPC-E | UPC-Strichcode-Symbologie nach BS EN 797:1996. |
-| EAN/UPC-Add-on | Add-on | EAN/UPC-Add-on-Barcode-Symbologie gemäß BS EN 797:1996. |
-| Telepen | telepen | Auch als Telepen-Alpha bekannt. |
+| EAN/UPC-Add-on | Add-on | EAN/UPC-Add-on-Barcode-Symbologie nach BS EN 797:1996. |
+| Telepen | telepen | Auch bekannt als Telepen Alpha. |
 | GS1-Datenbank / -Datenbank 14 | Datenbank | GS1 DataBar nach ISO/IEC 24724:2011. |
 | GS1-Datenbank erweitert/Datenbank 14 erweitert | datenleistenerweitert | GS1 DataBar Expanded nach ISO/IEC 24724:2011. |
 | GS1 DataBar Limited | datenbankbegrenzt | GS1 DataBar Limited nach ISO/IEC 24724:2011. |
@@ -152,7 +152,7 @@ Einige der häufig verwendeten Barcodes sind die folgenden:
 | Pharmakode | Pharmakode |                            |
 | Codablock F | Codablock | Symbologie nach AIM Europe „Uniform Symbology Specification Codablock F“, 1995. |
 | Logmars | Logmars | Der vom US-Verteidigungsministerium verwendete LOGMARS-Standard (Logistics Applications of Automated Marking and Reading Symbols). |
-| Aztec Runes | Azteken-Runen | Aztec Runes Strichcode Symbologie nach ISO/IEC 24778:2008 Anhang A. |
-| Aztec Code | aztec-code | Aztec Code Strichcode Symbologie Nach ISO/IEC 24778:2008. |                            |
-| DataMatrix | data-matrix | Data Matrix ECC 200 Barcode Symbologie Nach ISO/IEC 16022:2006. |
+| Aztec Runes | Azteken-Runen | Aztec Runes Strichcode-Symbologie nach ISO/IEC 24778:2008 Anhang A. |
+| Aztec Code | aztec-code | Aztec Code Strichcode Symbologie Nach ISO/IEC 24778:2008. |
+| DataMatrix | data-matrix | Data Matrix ECC 200 Barcode Symbologie nach ISO/IEC 16022:2006. |
 | Code 1 | Code-Eins |                            |

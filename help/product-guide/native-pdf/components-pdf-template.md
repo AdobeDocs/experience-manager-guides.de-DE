@@ -5,9 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4702'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Wenn Sie ein neues Seiten-Layout erstellen, wird die `layout.css` standardmäßi
 
 Gehen Sie wie folgt vor, um ein Stylesheet zu erstellen:
 1. Führen **im Bedienfeld** Vorlagen“ eine der folgenden Aktionen aus:
-   * Bewegen Sie den Mauszeiger über **Registerkarte** Stylesheets“, klicken Sie auf das **(*Optionen*-Symbol)…** und wählen Sie **Neues Stylesheet**.
+   * Bewegen Sie den Mauszeiger über **Registerkarte** Stylesheets“, klicken Sie auf das *(* Optionen **-Symbol)…** und wählen Sie **Neues Stylesheet**.
    * Klicken Sie auf das Symbol **+** neben **Vorlagen** und wählen Sie **Stylesheet** aus dem Kontextmenü.
 
    Dadurch wird das Dialogfeld Stylesheet hinzufügen geöffnet.
@@ -198,7 +198,7 @@ Die ausgewählte Datei wird importiert und im Ordner Ressourcen aufgeführt.
 Verwenden Sie den Abschnitt Einstellungen , um die erweiterten Einstellungen für das Seiten-Layout von PDF zu konfigurieren, beginnend mit PDF bei ungeraden oder geraden Seitenformaten für die Querverweise, und um die Druckmarken in der endgültigen PDF zu aktivieren, die generiert wurde
 mithilfe der Vorlage.
 
->
+>[!NOTE]
 >
 > Ab Experience Manager Guides Version 5.0/2025.02.0 wurde der Abschnitt **Drucken** in den erweiterten PDF-Einstellungen in das Bedienfeld **Ausgabevorgaben** verschoben. Um die Druckeinstellungen zu konfigurieren, zeigen Sie [PDF-Ausgabe veröffentlichen](../web-editor/native-pdf-web-editor.md#print) an.
 
@@ -457,13 +457,13 @@ Sie können beispielsweise eine Sprachvariable namens „reference-label“ hinz
 
 
 Wenn Sie `${lng:<variable name>}` zum Abschnitt Absatz hinzufügen, enthalten die Querverweise in den Absätzen der Ausgabe den lokalisierten Text und die Seitenzahl.\
-Die folgenden Screenshots zeigen zum Beispiel die Querverweise „Auf Seite 1 anzeigen“ in englischer Sprache und „Einzelheiten finden Sie auf der Seite 1“ in deutscher Sprache.
+Die folgenden Screenshots zeigen zum Beispiel die Querverweise „Auf Seite 1 anzeigen &quot; in englischer Sprache und „Einzelheiten finden Sie auf der Seite 1“ in deutscher Sprache.
 
-<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einem Absatz&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einem Absatz" width ="800" border="2px">
 
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in englischer Sprache.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Deutsche Ausgabe eines Querverweises in einem Absatz&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Deutsche Ausgabe eines Querverweises in einem Absatz" width ="800" border="2px">
 
 
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in deutscher Sprache.*

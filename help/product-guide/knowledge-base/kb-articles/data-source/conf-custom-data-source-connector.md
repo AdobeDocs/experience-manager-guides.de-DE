@@ -5,7 +5,7 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
-source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Implementieren Sie die folgenden wichtigen Funktionen:
 | getName | ja | <ul><li>Diese Methode bietet eine Möglichkeit, den eindeutigen Namen abzurufen, der einem Connector zugewiesen ist. <li>Der zurückgegebene Name ist wichtig, um den Connector in einem Benutzeroberflächen-Kontext zu identifizieren, insbesondere wenn in den Konfigurationseinstellungen des Connectors kein expliziter Name angegeben ist. <li>Dieser Name wird in verschiedenen UI-Komponenten verwendet, um Connectoren benutzerfreundlich anzuzeigen oder zu verwalten. |
 | getGroup | ja | <ul> <li>Diese Methode bietet eine Möglichkeit, den mit einem Connector verknüpften Gruppennamen abzurufen. <li>Gruppennamen werden normalerweise verwendet, um Connectoren basierend auf ihrer Funktionalität, ihrem Zweck oder ihrem Typ in logische Gruppen zu organisieren oder zu kategorisieren. <li> Dies ermöglicht eine einfachere Verwaltung und Darstellung von Connectoren in der Konfigurationsoberfläche. |
 | getDefaultTemplatePath |  | <ul><li> Diese Methode gibt den Standardpfad für die mit diesem Connector verknüpften Vorlagen zurück. <li> Standardmäßig wird eine leere Zeichenfolge zurückgegeben. Dies bedeutet, dass kein Standardpfad festgelegt wird, es sei denn, er wird überschrieben. |
-| getLogoSvg |  | <ul><li>Mit dieser Methode geben Sie die SVG-Darstellung des Connector-Logos zurück. <li> Standardmäßig wird eine leere Zeichenfolge zurückgegeben, was darauf hinweist, dass keine SVG-Daten bereitgestellt werden, es sei denn, sie werden überschrieben. |
+| getLogoSvg |  | <ul><li>Verwenden Sie diese Methode, um die SVG-Darstellung des Connector-Logos zurückzugeben. <li> Standardmäßig wird eine leere Zeichenfolge zurückgegeben, was darauf hinweist, dass keine SVG-Daten bereitgestellt werden, es sei denn, sie werden überschrieben. |
 | getMaxNoRowsForPreviewQuery | | <ul><li>Diese Methode gibt die maximale Anzahl von Zeilen zurück, die in der Vorschau der Benutzeroberfläche abgefragt oder angezeigt werden. <li> Standardmäßig wird der Wert von DEFAULT_LIMIT_PREVIEW zurückgegeben, eine Konstante, die das standardmäßige Limit für Vorschauzeilen darstellt. |
 | getConfigClass | ja | <ul><li>Diese Methode stellt Informationen über die Klassen bereit, die die Config-Schnittstelle implementieren und von diesem Connector unterstützt werden. <li> Dadurch kann das Programm oder Framework mit Konfigurationen, die mit dem Connector kompatibel sind, dynamisch suchen und arbeiten. |
 
@@ -121,6 +121,6 @@ Mit Experience Manager Guides können Sie auch benutzerdefinierte Ressourcen fü
 Damit sie vom Connector verwendet werden können, müssen die folgenden Connector-Funktionen implementiert werden:
 
 
-- `getLogoSvg` - Gibt die Logo-SVG als Zeichenfolge zurück.
+- `getLogoSvg` - Gibt das SVG-Logo als Zeichenfolge zurück.
 
 - `getTemplates` - Gibt die Liste der Vorlagen im angegebenen Format zurück.

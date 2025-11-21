@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Ve
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Weitere Informationen finden Sie im Abschnitt *Technische Anforderungen* im Hand
 | --- | --- | --- | --- | --- |
 | 4.3.0 (non-UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.3 oder höher |
 | 4.3.0 (UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.4 oder höher |
-| | | | |
+| | | | | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden ab 2020.2 in FMPS-Versionen unterstützt.
 
@@ -67,7 +67,7 @@ Weitere Informationen finden Sie im Abschnitt *Technische Anforderungen* im Hand
 | --- | --- | --- |--- |--- |
 | 4.3.0 (non-UUID) | 2.3-normal-5 | 2.3-normal-5 | 1,6 | 1,6 |
 | 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Behobene Probleme
 
@@ -109,19 +109,19 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 - Neue UI-Überprüfung | Die Bedingungen heben Arbeit in den Bereichen „Hervorheben“, „Anzeigen“ und „Ausblenden“ anders hervor als in der Funktionsweise im Web-Editor. 11628)
 
-### Veröffentlichung
+### Publishing
 
-- Das Veröffentlichen schlägt beim Umbenennen einer nativen PDF-Vorgabe fehl. 12564)
-- Das Duplizieren einer nativen PDF-Vorlage dupliziert sich an den Standardvorlagenspeicherort anstelle des bereitgestellten benutzerdefinierten Vorlagenspeicherorts. 12563)
-- Native PDF | Die Sprachmetadaten können auf der generierten PDF nicht gemäß WCAG 2.0 festgelegt werden. 12407)
+- Die Veröffentlichung schlägt beim Umbenennen einer nativen PDF-Vorgabe fehl. 12564)
+- Das Duplizieren einer nativen PDF-Vorlage wird am Standardvorlagenspeicherort anstelle des bereitgestellten benutzerdefinierten Vorlagenspeicherorts dupliziert. 12563)
+- Native PDF | Die Sprach-Metadaten können im generierten PDF nicht auf WCAG 2.0 eingestellt werden. 12407)
 - Das Veröffentlichen auf der AEM-Site schlägt fehl, wenn temporäre Dateien vom Pod gelesen werden, die möglicherweise aktualisiert oder neu gestartet wurden. 12113)
-- Native PDF | Benutzerdefinierte Attribute werden nicht an eine temporäre HTML- oder PDF-Engine weitergegeben. (DXML-12005)
+- Native PDF | Benutzerdefinierte Attribute werden nicht an die temporäre HTML- oder PDF-Engine weitergegeben. (DXML-12005)
 - Native PDF |  Java OutOfMemoryError tritt beim Veröffentlichen großer Inhalte auf. 11789)
 - Native PDF | Xref druckt den Inhalt des href-Thementitels anstelle der Xref-Beschriftung. 11322)
 - Native PDF | Die PDF-Vorlageneinstellungen können nicht gespeichert werden. 10751)
 - Native PDF | Der Text überschreitet die Spaltenbreite, wenn mehrere XRefs eingeschlossen werden. 10876)
-- Native PDF | `<note>` `</note>` Element erzeugt keinen zusätzlichen span-Titel seines Typs. 10549)
-- JSON-Ausgabe | Die `fmUuid` Eigenschaft im Knoten jcr:content von JSON unterscheidet sich von der „id“ in JSON. 11564)
+- Native PDF | `<note>``</note>` Element erzeugt keinen zusätzlichen span-Titel seines Typs. 10549)
+- JSON-Ausgabe | Die `fmUuid` Eigenschaft im jcr:content-Knoten von JSON unterscheidet sich von der „id“ in JSON. 11564)
 - JSON-Ausgabe | Wenn Zuordnung und Thema mit demselben Dateinamen vorhanden sind, wird JSON für die Zuordnung entfernt. 11524)
 
 ## Bekanntes Problem
@@ -132,7 +132,7 @@ Adobe hat das folgende bekannte Problem in AEM Guides Version 4.3.0 festgestellt
 
   Problemumgehung:
 Fügen Sie ein gemeinsames Seitenlayout als Vorder- und Rückseite hinzu, dann wird es für jede Seite angezeigt.
-- Problem bei der Site-Suche bei der Suche auf der AEM-Site-Ausgabeseite auf AEM Service Pack 16 oder 17.
+- Problem bei der Site-Suche bei der Suche auf der AEM-Site-Ausgabeseite in AEM Service Pack 16 oder 17.
 
   Problemumgehung:
 

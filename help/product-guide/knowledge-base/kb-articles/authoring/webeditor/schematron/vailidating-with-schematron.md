@@ -4,7 +4,7 @@ description: Arbeiten mit Schematron im Web-Editor
 exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Neben der Unterstützung für DITA-Regeln unterstützt der Web-Editor auch die V
 
 &quot;*Schematron*&quot; bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Sie können die Schematron-Dateien importieren und auch im Web-Editor bearbeiten. Mithilfe einer „Schematron“-Datei können Sie bestimmte Regeln definieren und diese dann für ein DITA-Thema oder eine Zuordnung validieren. Schematronregeln können die Konsistenz der XML-Struktur sicherstellen, indem sie als Regeln definierte Einschränkungen auferlegen. Diese Einschränkungen werden von KMUs gesteuert, die für die Qualität und Konsistenz der Inhalte verantwortlich sind.
 
-    HINWEIS: Der Web-Editor unterstützt ISO Schematron.
+HINWEIS: Der Web-Editor unterstützt ISO Schematron.
 
 
 ## Wissen, wie „Schematron“ im Web-Editor funktioniert
@@ -41,7 +41,7 @@ Mit den WebEditor-Einstellungen können Power-User Schematron-Regeln/-Dateien ei
 
 Ja, als Autor/Benutzer können Sie beim Erstellen von Inhalten das Bedienfeld „Schematron“ im Web-Editor verwenden, um eine Schematron-Datei hochzuladen und Validierungen für die im Editor geöffnete Datei durchzuführen.
 
-    Dazu muss der Ordnerprofil-Administrator allen Benutzern erlauben, Schemtron-Dateien im Validierungsbereich hinzuzufügen. Siehe Editor-Einstellungen (Screenshot oben)
+Damit dies funktioniert, muss der Ordnerprofiladministrator allen Benutzern erlauben, Schemtron-Dateien im Validierungsbereich hinzuzufügen. Siehe Editor-Einstellungen (Screenshot oben)
 
 ![Wählen Sie die Schematron-Datei](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![Validierung ausführen](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
@@ -101,6 +101,6 @@ Regeln, die auf „Berichten“ basieren, werden noch nicht unterstützt.
 
 #### Ressourcen
 
-- Grundlagen [&#x200B; Schematron](https://da2022.xatapult.com/#what-is-schematron)
+- Grundlagen [ Schematron](https://da2022.xatapult.com/#what-is-schematron)
 - Weitere Informationen [Assertionsregeln im Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
 - [Beispieldatei für Schematron](../../../assets/authoring/sample_schematron.sch)

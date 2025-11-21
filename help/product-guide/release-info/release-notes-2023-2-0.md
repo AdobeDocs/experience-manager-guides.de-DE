@@ -4,9 +4,9 @@ description: Februarversion von Adobe Experience Manager Guides as a Cloud Servi
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
@@ -20,21 +20,21 @@ Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unte
 ## Upgrade auf die Version Februar 2023
 
 Führen Sie ein Upgrade Ihres aktuellen AEM Guides as a Cloud Service-Setups durch, indem Sie die folgenden Schritte ausführen:
-1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
-2. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf 2023.2.235.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die AEM Guides as a Cloud Service-Version vom Februar 2023 zu aktualisieren.
+1. Checken Sie den Git-Code der Cloud Services aus und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+2. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Services-Git-Codes auf 2023.2.235.
+3. Übernehmen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Version vom Februar 2023 von AEM Guides as a Cloud Service zu aktualisieren.
 
-## Schritte zum Indizieren des vorhandenen Inhalts (nur bei Versionen vor der AEM Guides as a Cloud Service-Version September)
+## Schritte zum Indizieren des vorhandenen Inhalts (nur, wenn Sie eine Version vor der September-Version von AEM Guides as a Cloud Service verwenden)
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene zu verwenden:
 
 * Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Optional) Sie können bestimmte Pfade der Karten übergeben, um sie zu indizieren. Standardmäßig werden alle Karten indiziert || Beispiel : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+* Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Beispiel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
-* Sobald der Vorgang abgeschlossen ist, antwortet die obige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Zuordnungen können aus den Serverprotokollen bestätigt werden.
+* Sobald der Vorgang abgeschlossen ist, wird die obige GET-Anfrage erfolgreich beantwortet und es wird angegeben, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Zuordnungen können aus den Serverprotokollen bestätigt werden.
 
 ## Kompatibilitätsmatrix
 
@@ -54,7 +54,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 | AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
 | 2023.02.0 | 2.8-uuid-8 | 2.8-uuid-8 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 ## Behobene Probleme
 
@@ -64,7 +64,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 * Änderungen im HTML-Editor des Web-Editors führen zu Problemen mit `<dl>` und `<dlentry>`. 11024)
 * Einige Attribute werden nicht als bedingt behandelt und verursachen Probleme. 10895)
-* Drei oder mehr verschachtelte `<indexterm>` sind im nativen PDF-Export nicht verschachtelt. 10799)
+* Mindestens drei Ebenen verschachtelter `<indexterm>` sind nicht im nativen PDF-Export verschachtelt. 10799)
 * Der Inhalt verschwindet beim Wechsel von der Authoring- zur Source-Ansicht im Hauptteil einer Aufgabe. 10735)
 * Überprüfungskommentare werden in einer Überprüfungsaufgabe verlegt. 10625)
 * **Rückgängig** oder **Wiederholen** funktioniert bei einigen Dateien nicht ordnungsgemäß. 10373)
@@ -87,16 +87,16 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Für jedes Asset werden mehrere Popups angezeigt, wenn die Version geändert und im Baseline-Editor gespeichert wird. 10399)
 * Sitzungsleck am `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. 10279)
 
-### Veröffentlichung
+### Publishing
 
 * Die Themenregenerierung funktioniert in einigen Szenarien nicht. 10635)
 * PublishListener zeigt die angeforderten Daten nicht in Informationsprotokollen an und enthält auch einige Junk-Protokolle.( 10567)
 * Native PDF | Beim Erstellen einer Ausgabevorgabe mit der Option „Zu Ordnerprofil hinzufügen“ schlägt die PDF-Generierung mit einer Null Pointer-Ausnahme fehl. 10950)
 * Native PDF | Beim Drehen der Tabellenüberschrift treten Probleme auf. 10555)
-* Native PDF | Verschachtelte `<indexterm>` sind nicht im nativen PDF-Export verschachtelt. 10521)
+* Native PDF | Verschachtelte `<indexterm>` werden nicht im nativen PDF-Export verschachtelt. 10521)
 * Native PDF | Verschachtelte topicref in den Anhängen werden im temporären HTML alle in h1 umgewandelt. 10454)
-* Die Baseline-Veröffentlichung schlägt für mit FrameMaker Publishing Server 2020 generierte PDF fehl. 10551)
-* Native PDF | Beim Hinzufügen von `xref` zu einem Image wird das Image nicht auf der generierten PDF gerendert. 11346)
+* Die Baseline-Veröffentlichung schlägt für PDF fehl, das mit FrameMaker Publishing Server 2020 generiert wurde. 10551)
+* Native PDF | Beim Hinzufügen von `xref` zu einem Bild wird das Bild auf dem generierten PDF nicht gerendert. 11346)
 * Native PDF | Bild-Tag fügt allen Bildern das Attribut display-inline hinzu. 10653)
 * Native PDF | Kommentare zu Entwürfen sind in der generierten Ausgabe standardmäßig ausgeblendet. 10560)
 * Native PDF | Navtitle wird nicht für Topichead geehrt. 10509)

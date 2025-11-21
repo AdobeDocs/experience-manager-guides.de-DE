@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise für [!DNL AEM Guides], März 2022
-description: März-Version von [!DNL Adobe Experience Manager Guides] as a Cloud Service
+description: März-Version von  [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -15,10 +15,10 @@ ht-degree: 1%
 
 ## Upgrade auf die März-Version
 
-Führen Sie ein Upgrade Ihres aktuellen [!DNL Adobe Experience Manager Guides] as a Cloud Service-Setups (später *[!DNL AEM Guides]as a Cloud Service*-Setup genannt) durch, indem Sie die folgenden Schritte ausführen:
-1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
-1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf Version 2022.3.123.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die März-Version von [!DNL AEM Guides] as a Cloud Service zu aktualisieren.
+Führen Sie ein Upgrade Ihres aktuellen [!DNL Adobe Experience Manager Guides] as a Cloud Service-Setups (später *[!DNL AEM Guides]as a Cloud Service* bezeichnet) durch, indem Sie die folgenden Schritte ausführen:
+1. Checken Sie den Git-Code der Cloud Services aus und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Services-Git-Codes auf 2022.3.123.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die März-Version von [!DNL AEM Guides] as a Cloud Service zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
@@ -95,7 +95,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ## Bekannte Probleme
 
-Adobe hat das folgende bekannte Problem in der [!DNL AEM Guides] as a Cloud Service March-Version identifiziert.
+Adobe hat das folgende bekannte Problem in der [!DNL AEM Guides] as a Cloud Service-Version vom März erkannt.
 
 * Durch das Entfernen von Beschriftungen von direkten Verweisen werden auch die Beschriftungen von indirekten Verweisen entfernt.
 

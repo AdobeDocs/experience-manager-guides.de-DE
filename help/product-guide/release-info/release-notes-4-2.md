@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Ve
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Weitere Informationen finden Sie im Abschnitt *Technische Anforderungen* im Hand
 | --- | --- | --- | --- | --- |
 | 4.2 (Nicht-UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.3 oder höher |
 | 4.2 (UUID) | 2022 oder höher | 2020.2 oder höher* | 2022 oder höher | 2020.4 oder höher |
-| | | | |
+| | | | | |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden ab 2020.2 in FMPS-Versionen unterstützt.
 
@@ -60,7 +60,7 @@ Weitere Informationen finden Sie im Abschnitt *Technische Anforderungen* im Hand
 | --- | --- | --- |--- |--- |
 | 4.2 (Nicht-UUID) | 2.1-normal-4 | 2.1-normal-4 | 1,6 | 1,6 |
 | 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Behobene Probleme
 
@@ -71,7 +71,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Linker Bereich wird beim Hinzufügen einer Registerkarte unterbrochen. 11126)
 * Änderungen im HTML-Editor des Web-Editors führen zu Problemen mit `<dl>` und `<dlentry>`. 11024)
 * Einige Attribute werden nicht als bedingt behandelt und verursachen Probleme. 10895)
-* Drei oder mehr verschachtelte `<indexterm>` sind im nativen PDF-Export nicht verschachtelt. 10799)
+* Mindestens drei Ebenen verschachtelter `<indexterm>` sind nicht im nativen PDF-Export verschachtelt. 10799)
 * Der Inhalt verschwindet beim Wechsel von der Authoring- zur Source-Ansicht im Hauptteil einer Aufgabe. 10735)
 * Überprüfungskommentare werden in einer Überprüfungsaufgabe verlegt. 10625)
 * `<conref>` Hinweis in einem para-Tag wird im Vorschaumodus nicht angezeigt. 10559)
@@ -87,7 +87,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Navigationsprobleme treten im Web-Editor nach dem Upgrade auf 4.0 auf. 10159)
 * Die Option „Rückgängig machen“ im XML-Editor führt den Benutzer zum Seitenanfang. 10091)
 * Knoteneigenschaften werden nach dem Kopieren und Einfügen eines Assets entfernt. 10053)
-* SVG-Dateien, die zu DITA-Themen hinzugefügt wurden, werden im Vorschaumodus des Editors nicht angezeigt. 10010)
+* Zu DITA-Themen hinzugefügte SVG-Dateien werden im Vorschaumodus des Editors nicht angezeigt. 10010)
 * Suchergebnisse für Suchen und Ersetzen im Web-Editor können im Dunkelmodus nicht gelesen werden. (9978)
 * Beim Erstellen einer Zuordnung aus der Zuordnungsvorlage ist kein Ladeprogramm vorhanden. (9891)
 * Der Kontext in der Themenvorlage funktioniert nicht und die kopierte Hash-ID wird in der Inhaltskopie nicht aktualisiert. (9 890)
@@ -114,10 +114,10 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Sitzungsleck tritt unter com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210) auf. 10279)
 * Die Videodatei fehlt in der Grundlinie, wenn der übergeordnete Ordner im Namen Leerzeichen enthält. 10031)
 
-### Veröffentlichung
+### Publishing
 
 * Die Themenregenerierung funktioniert in einigen Szenarien nicht. 10635)
-* Beim PDF-Veröffentlichen schlägt die Ausgabe für eine doppelte Vorgabe (einer bestehenden Vorgabe) fehl. 10584)
+* Die PDF-Veröffentlichung schlägt beim Generieren der Ausgabe für eine doppelte Vorgabe (einer vorhandenen Vorgabe) fehl. 10584)
 * Die Schaltfläche Protokoll anzeigen funktioniert nicht, wenn die PDF-Generierung für eine Voreinstellung fehlschlägt. 10576)
 * PublishListener zeigt die angeforderten Daten nicht in Informationsprotokollen an und enthält auch einige Junk-Protokolle.( 10567)
 * Native PDF | Die PDF-Generierung schlägt mit einer Null Pointer-Ausnahme fehl. 10950)
@@ -126,17 +126,17 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Native PDF | Beim Drehen der Tabellenüberschrift treten Probleme auf. 10555)
 * Native PDF | Probleme treten beim Entfernen von Themen auf, die die Verarbeitungsrolle „nur Ressource“ aufweisen. 10554)
 * Native PDF | Leere Keyrefs werden in der PDF-Ausgabe angezeigt. 10553)
-* Native PDF | Verschachtelte `<indexterm>` sind nicht im nativen PDF-Export verschachtelt. 10521)
-* Native PDF | Der native PDF verwendet einen Inline-Stil anstelle eines Klassennamens für die generierten Tags. 10498)
+* Native PDF | Verschachtelte `<indexterm>` werden nicht im nativen PDF-Export verschachtelt. 10521)
+* Native PDF | Der native PDF verwendet für die generierten Tags einen Inline-Stil anstelle eines Klassennamens. 10498)
 * Native PDF | Verschachtelte topicref in den Anhängen werden im temporären HTML alle in h1 umgewandelt.( 10454)
 * Native PDF | Themen mit Textformatierung können nicht aus dem Inhaltsverzeichnis ausgeblendet werden. 10355)
-* Native PDF | Das Tabellenrahmenattribut wird nicht auf die temporäre HTML übertragen (als Klasse). 10353)
-* Native PDF | Temporäre HTML-Dateien fügen die Klassen closeSep und rowSep zu hinzu. <td> und <th> auch wenn ihr Wert in der Quell-DITA 0 ist. 10352)
+* Native PDF | Das Tabellenrahmenattribut wird nicht an den temporären HTML weitergegeben (als Klasse). 10353)
+* Native PDF | Temporäre HTML-Dateien fügen die Klassen closeSp und rowsep zu hinzu. <td> und <th> auch wenn ihr Wert in der Quell-DITA 0 ist. 10352)
 * Native PDF | Beim Neustarten der Seitenzahlen im Kapitellayout erfolgt die Nummerierung nach dem Zufallsprinzip am Ende des vorherigen Kapitels. 10154)
 * Native PDF | Die wichtigsten Referenzen für Schlüsselwörter mit Bild- oder externen Links werden nicht aufgelöst. 10063)
-* Native PDF | Der Anhang wird als Kapitel in der erzeugten PDF angezeigt. (9 829)
+* Native PDF | Der Anhang wird als Kapitel in der generierten PDF angezeigt. (9 829)
 * Die Registerkarte „Vorlage“ im XML-Editor wird den Ordnerprofiladministratoren nicht angezeigt. 10266)
-* Die Baseline-Veröffentlichung schlägt für mit FrameMaker Publishing Server 2020 generierte PDF fehl. 10551)
+* Die Baseline-Veröffentlichung schlägt für PDF fehl, das mit FrameMaker Publishing Server 2020 generiert wurde. 10551)
 * Der Anwendungsfehler tritt auf, wenn auf die Schaltfläche Bearbeiten geklickt wird, nachdem das Kontrollkästchen Alle Vorgaben über Ausgabevorgaben im Popup-Fenster „Schnellgenerierung“ ausgewählt wurde. 10388)
 * Wenn die Registerkarte „Ausgabe“ im Web-Editor über mehr Vorgaben verfügt, kann im Abschnitt „Vorgaben“ nicht vertikal gescrollt werden und es werden nicht alle verfügbaren Vorgaben angezeigt. (9 787)
 * Vorgaben können während der Veröffentlichung über den Editor nicht aus dem Ausgabe-Workflow gelöscht werden. (9100)

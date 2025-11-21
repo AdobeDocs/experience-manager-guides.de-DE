@@ -4,7 +4,7 @@ description: Hinzufügen und Verwalten von Zitaten in AEM Guides. Erfahren Sie, 
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 0%
@@ -66,10 +66,10 @@ Gehen Sie wie folgt vor, um Zitate hinzuzufügen:
    | **Year** <br> Fügen Sie das Jahr hinzu, in dem das Buch veröffentlicht wird. | **Aktualisierungsdatum** <br> Fügen Sie das Datum hinzu, an dem der Inhalt der Website aktualisiert wird. | **Seiten** <br> Fügen Sie die Seitennummer oder den Seitenbereich hinzu, in dem der Artikel gefunden wird. |
    | **Version** <br> Fügen Sie die Version des Buches hinzu. | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für die Zitierung hinzu. Eine eindeutige ID ist eine eindeutige Kennung für dieses Zitat. | **URL** <br>Fügen Sie den Weblink zum Protokoll hinzu. |
    | **Serie** <br>Fügen Sie die Serie des Buches hinzu. |  | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für das Zitat hinzu. Eine eindeutige ID ist eine eindeutige Kennung für dieses Zitat. |
-   | **URL** <br> Fügen Sie den Weblink zum Buch hinzu. |
-   | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für die Zitierung hinzu. Eine eindeutige ID ist eine eindeutige Kennung für dieses Zitat. |
+   | **URL** <br> Fügen Sie den Weblink zum Buch hinzu. |  |  |
+   | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für die Zitierung hinzu. Eine eindeutige ID ist eine eindeutige Kennung für dieses Zitat. |  |  |
 
-1. Wählen Sie **Fertig**.
+1. Wählen Sie **Fertig** aus.
 
    Dem Zitatbereich wird ein neues Zitat hinzugefügt.
 
@@ -96,7 +96,7 @@ Gehen Sie wie folgt vor, um Zitate zu importieren:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importiert nur die Zitate, die eindeutig und noch nicht vorhanden sind.
-   > &gt; <li> Experience Manager Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
+    &gt; <li> Experience Manager Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
 
 ## Zitate verwalten
 
@@ -187,7 +187,7 @@ Sie können Zitate zum Thema aus der Hauptsymbolleiste oder dem linken Bereich e
 ### In der Haupt-Symbolleiste
 
 1. Wählen Sie das Symbol **Zitate** ![Zitate](images/citations-icon.svg) in der Hauptsymbolleiste aus.
-1. Wählen Sie **Dialogfeld**&#x200B;Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
+1. Wählen Sie **Dialogfeld**Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
    ![Zitierdialogfeld](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Sie können Zitate filtern, indem Sie die ersten Buchstaben in das Suchfeld des Dialogfelds **Zitat** eingeben.
 
@@ -201,7 +201,7 @@ Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
 > 
 >Um das Symbol **Zitate** im linken Bereich anzuzeigen, muss Ihr Systemadministrator die Option **Zitate** auf der Registerkarte **Panels** in **Settings** aktivieren.
 
-1. Wählen Sie **Zitate** ![Zitationssymbol &#x200B;](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
+1. Wählen Sie **Zitate** ![Zitationssymbol ](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
 1. Ziehen Sie das Zitat aus dem Bedienfeld **Zitate** und legen Sie es an der entsprechenden Position im Thema ab.
 
    Sie können auch **Einfügen** unter ![](images/options.svg)**Optionen** auswählen, um ein Zitat einzufügen.
@@ -248,7 +248,7 @@ Platzieren Sie im Thema den Cursor am Ende des Zitats.
    >Die bereits im Thema verwendeten Zitate werden durch die Zitate ersetzt, die Sie im Dialogfeld auswählen.
 
 
-1. Wählen Sie **Fertig**.
+1. Wählen Sie **Fertig** aus.
 
 ## Generieren der Ausgabe von Inhalten mit Zitaten
 

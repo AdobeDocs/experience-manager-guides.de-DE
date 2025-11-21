@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise zu | Aktualisierungsanweisungen und behobene Probleme in Adobe Experience Manager Guides, Version vom November 2023
-description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Version November 2023 von Adobe Experience Manager Guides as a Cloud Service
+description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Version vom November 2023 von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 80839890-075f-4187-a167-444c73215496
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1673'
 ht-degree: 1%
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 Diese Versionshinweise enthalten die Upgrade-Anweisungen, die Kompatibilitätsmatrix und die behobenen Probleme in Version November 2023 von Adobe Experience Manager Guides as a Cloud Service (später als *Experience Manager Guides as a Cloud Service* bezeichnet).
 
-Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in der Experience Manager Guides as a Cloud Service-Version vom November 2023](whats-new-2023-11-0.md).
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in der Version vom November 2023 von Experience Manager Guides as a Cloud Service](whats-new-2023-11-0.md).
 
 ## Upgrade auf Version November 2023
 
 Führen Sie ein Upgrade Ihres aktuellen Experience Manager Guides as a Cloud Service-Setups durch, indem Sie die folgenden Schritte ausführen:
 
-1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
-2. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf 2023.11.0.406.
-3. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die Version vom November 2023 von Experience Manager Guides as a Cloud Service zu aktualisieren.
+1. Checken Sie den Git-Code der Cloud Services aus und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+2. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Services-Git-Codes auf 2023.11.0.406.
+3. Übernehmen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Version vom November 2023 von Experience Manager Guides as a Cloud Service zu aktualisieren.
 
 ## Schritte zum Aktivieren des Triggers eines Skripts über ein Servlet
 
@@ -31,7 +31,7 @@ Führen Sie ein Upgrade Ihres aktuellen Experience Manager Guides as a Cloud Ser
 
 Nach Abschluss der Installation können Sie den Trigger drücken, um den Übersetzungsauftrag zu starten:
 
-POST:
+BEITRAG:
 
 ```
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
@@ -68,7 +68,7 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzuverarbei
 
 1. (Optional) Wenn mehr als 100.000 DITA-Dateien im System vorhanden sind, aktualisieren Sie die `queryLimitReads` und `queryLimitInMemory` unter `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` auf einen größeren Wert (einen beliebigen Wert, der größer ist als die Anzahl der vorhandenen Assets, z. B. 200.000) und stellen Sie dann erneut bereit.
 
-   - Verwenden Sie die Anweisungen im Abschnitt *Konfigurationsüberschreibungen* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service, um die Konfigurationsdatei zu erstellen.
+   - Verwenden Sie die Anweisungen im Abschnitt *Konfigurationsüberschreibungen* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service , um die Konfigurationsdatei zu erstellen.
    - Geben Sie in der Konfigurationsdatei die folgenden Details (Eigenschaft) zum Konfigurieren der `queryLimitReads`- und `queryLimitInMemory` an:
 
      | PID | Eigenschaftsschlüssel | Eigenschaftswert |
@@ -78,10 +78,10 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzuverarbei
 
 1. Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Sobald der Auftrag abgeschlossen ist, antwortet die vorherige GET-Anfrage mit Erfolg. Wenn der Vorgang aus irgendeinem Grund fehlschlägt, kann der Fehler in den Serverprotokollen angezeigt werden.
+1. Sobald der Auftrag abgeschlossen ist, antwortet die vorherige GET-Anfrage erfolgreich. Wenn der Vorgang aus irgendeinem Grund fehlschlägt, kann der Fehler in den Serverprotokollen angezeigt werden.
 
 1. Setzen Sie den Standardwert oder den vorherigen vorhandenen Wert von `queryLimitReads` zurück, wenn Sie ihn in Schritt 1 geändert haben.
 
@@ -95,10 +95,10 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren 
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Zuordnungen eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
-1. Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`)
+1. Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}` (Beispiel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`)
 
 
-1. Nach Abschluss des Auftrags antwortet die vorherige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlschlagen. Die erfolgreich indizierten Zuordnungen können aus den Serverprotokollen bestätigt werden.
+1. Sobald der Auftrag abgeschlossen ist, antwortet die vorherige GET-Anfrage mit Erfolg und gibt an, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Zuordnungen können aus den Serverprotokollen bestätigt werden.
 
 ## Schritte zum Umgang mit dem `'fmdita rewriter'`
 
@@ -126,7 +126,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 | Experience Manager Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
 | 2023.11.0 | 3.2-uuid 5 | 3.2-uuid 5 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Version der Wissensdatenbankvorlage
@@ -160,18 +160,18 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Die Rootmap-Einstellung bleibt im Web-Editor erhalten, auch wenn sie nicht explizit in den Benutzereinstellungen festgelegt wurde. 11551)
 
 
-### Veröffentlichung
+### Publishing
 
-- Die Funktion &quot;Publish als Inhaltsfragment“ funktioniert nicht für Dateien, die in Suchergebnissen aufgelistet sind. 14090)
-- Bei der nativen PDF-Veröffentlichung ist für die Hintergrundfarbauswahl im Vorlagenlayout ein erneutes Laden der Seite erforderlich, wenn auf `None` zurückgekehrt wird. 13621)
+- Die Funktion „Als Inhaltsfragment veröffentlichen“ funktioniert nicht für Dateien, die in Suchergebnissen aufgelistet sind. 14090)
+- In der nativen PDF-Veröffentlichung erfordert die Hintergrundfarbauswahl im Vorlagen-Layout ein erneutes Laden der Seite, wenn auf `None` zurückgesetzt wird. 13621)
 - Problem beim Übertragen von Daten in den Datenspeicher für eine große DITA-Zuordnung mit Umfang und Peer-Links in der AEM-Site-Veröffentlichung. 13530)
-- In der nativen PDF-Veröffentlichung ist die Barrierefreiheit beeinträchtigt, da Bilder in Kopf- und Fußzeile keinen Alternativtext anzeigen. 12829)
+- In der nativen PDF-Veröffentlichung ist die Barrierefreiheit gefährdet, da Bilder in Kopf- und Fußzeile keinen Alternativtext anzeigen. 12829)
 - Das Duplizieren des Seiten-Layouts im nativen PDF funktioniert nicht, wenn automatisch keine Erweiterung hinzugefügt wird. 12534)
-- Beim Generieren der PDF-Ausgabe mit nativer PDF-Veröffentlichung wird der Dateiname nach einem bestimmten Zeitraum abgeschnitten. 13620)
-- In der Symbolleiste Seitenlayouts der Vorlagen für **native PDF-Veröffentlichung werden für die Option** Inhalt bearbeiten“ ein falsches Symbol und eine falsche QuickInfo angezeigt. 13492)
+- Beim Generieren der PDF-Ausgabe mit nativer PDF-Veröffentlichung wird der Dateiname nach einem Zeitraum abgeschnitten. 13620)
+- In der Symbolleiste Seitenlayouts der Vorlagen, **in der nativen Veröffentlichung von PDF verwendet werden, werden für die Option Inhalt bearbeiten** ein falsches Symbol und eine falsche QuickInfo angezeigt. 13492)
 - Benutzerdefinierte Metadaten sind in der endgültigen Ausgabe nicht verfügbar. 12116)
 - fmdita rewriter steht in Konflikt mit der Rewriter-Konfiguration des Benutzers und führt zur Anzeige langer URLs anstelle der Links. 12076)
-- In der AEM-Site-Voreinstellung ist die Option **Separate PDF für jedes Thema generieren** nicht funktionsfähig. 11555)
+- In der AEM-Site-Voreinstellung ist die Option **Für jedes Thema separate PDF generieren** nicht funktionsfähig. 11555)
 - Die native PDF-Veröffentlichung bietet keine Unterstützung für die CMYK-Farbraumkonvertierung. 10754)
 - Dynamische Baseline-Aufrufe verwenden den Namen anstelle des Titels, was dazu führt, dass die Export-DITA-Zuordnungs-API fehlschlägt. 14268)
 
@@ -179,13 +179,13 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 - Der Inhaltsverweis ist beim Kopieren und Einfügen der DITA-Dateien mit Selbstverweis-Links ohne GUID fehlerhaft. 13540)
 - Im Web-Editor zeigt die Grundlinie den Titel für die vorherige Version anstelle der ausgewählten Version der DITA-Datei an. 13444)
-- Die Registerkarte **Berichte** in der Benutzeroberfläche des Web-Editors zeigt nicht die Themenliste für alte DITA-Karten an, die vor dem Upgrade von Experience Manager Guides as a Cloud Service im Juli 2023 erstellt wurden. 11852)
+- Die Registerkarte **Berichte** in der Benutzeroberfläche des Web-Editors zeigt nicht die Themenliste für alte DITA-Zuordnungen an, die vor dem Upgrade von Experience Manager Guides as a Cloud Service im Juli 2023 erstellt wurden. 11852)
 - Bedingungsvorgaben für eine große DITA-Karte werden nicht erstellt. 10936)
 - Unter der Liste der fehlerhaften Links in Berichten wird ein Selbstverweis-Link angezeigt. 13539)
 
 ### Überprüfung
 
-- In der Experience Manager Guides as a Cloud Service-Version vom Oktober 2023 sind die Review-Bedienfelder, die sich nebeneinander im Web-Editor befinden, sowohl in der vorherigen als auch in der aktuellen Version nicht korrekt. 14156)
+- In der Experience Manager Guides as a Cloud Service-Version vom Oktober 2023 sind die Review-Bedienfelder, die im Web-Editor nebeneinander angezeigt werden, nicht korrekt. 14156)
 - Die Anpassung von E **Mail-Vorlagen für** Review) funktioniert nicht, wenn sich die Knoten überlagern. 13954)
 - Die Schaltfläche **Schließen** auf der Überprüfungsseite in der Experience Manager Guides bringt Benutzende zur AEM-Homepage. 13535)
 - Beim Erstellen der Snippets in koreanischer Sprache werden fehlerhafte Zeichen angezeigt. 13489)
@@ -199,6 +199,6 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ## Bekanntes Problem
 
-Adobe hat das folgende bekannte Problem in der Version vom November 2023 festgestellt.
+Adobe hat das folgende bekannte Problem für die Version vom November 2023 identifiziert.
 
 - Die selektive Themenregenerierung für die AEM-Site-Ausgabe schlägt fehl.

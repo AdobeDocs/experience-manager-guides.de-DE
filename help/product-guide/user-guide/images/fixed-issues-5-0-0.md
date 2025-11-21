@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 5.0.0 behoben
 description: Erfahren Sie mehr über die Fehlerbehebungen in Version 5.0.0 von Adobe Experience Manager Guides.
-source-git-commit: 410d7c059ff1219b73f2dc6199690c77d1ba0e48
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 1%
@@ -12,13 +12,12 @@ ht-degree: 1%
 
 Dieser Artikel behandelt die in verschiedenen Bereichen von Version 5.0.0 von Adobe Experience Manager Guides behobenen Fehler.
 
-
-Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 5.0.0](whats-new-5-0.md).
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 5.0.0](/help/product-guide/release-info/whats-new-5-0-0.md).
 
 Erfahren Sie mehr [Upgrade-Anweisungen für Version 5.0.0](upgrade-instructions-5-0-0.md).
 
 
-## Erstellung
+## Authoring
 
 - Beim Aktualisieren von Bedingungen über das Ordnerprofil gehen alle Bedingungsgruppen verloren und die Bedingungen werden reduziert. 23526)
 - Beim Ändern des Werts der Kopfzeilen für eine Tabelle im Bedienfeld **Inhaltseigenschaften** wird der aktualisierte Wert nicht angewendet. 23213)
@@ -39,7 +38,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 5.0.0](upgrade-instructions-
 - Beim erneuten Laden des Browsers wird die zuvor geschlossene Registerkarte Bild erneut geöffnet. 19267)
 - Das teilweise Auswählen von Text in einem Absatz- oder Listenelement und das Ziehen des Textes aus dem Element verursacht Inhaltsverlust beim Wechsel zwischen **Author** und **Source** Ansichten. 25790)
 
-## Veröffentlichung
+## Publishing
 
 - Das Veröffentlichen in Salesforce schlägt fehl, wenn Inhalte Leerzeichen ohne Unterbrechung enthalten. 23664)
 - Bei Karten mit fehlerhaften Links schlägt die Salesforce-Veröffentlichung fehl und die Fortschrittsleiste wird unbegrenzt angezeigt. 24963)

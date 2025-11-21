@@ -4,9 +4,9 @@ description: Lernen Sie das linke Bedienfeld im Editor kennen. Erfahren Sie mehr
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 565f7b9b8139bfa3e21c91c4b60b6c9757b67429
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '9769'
+source-wordcount: '9768'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Sie können auch eine Audio- oder Videodatei im Editor auswählen und wiedergebe
 Die Ansicht des Videos. Im Kontextmenü haben Sie auch die Optionen zum Herunterladen, Ändern der Wiedergabe
 Geschwindigkeit oder Bild im Bild anzeigen.
 
-Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der **Kartenansicht** Funktionsbeschreibung im linken Bereich. Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ &#x200B;](./web-editor-content-editing-area.md) öffnen. Die Möglichkeit, direkt im Editor in einer Datei zu navigieren und sie zu öffnen, spart Zeit und erhöht die Produktivität.
+Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der **Kartenansicht** Funktionsbeschreibung im linken Bereich. Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ ](./web-editor-content-editing-area.md) öffnen. Die Möglichkeit, direkt im Editor in einer Datei zu navigieren und sie zu öffnen, spart Zeit und erhöht die Produktivität.
 
 ## Filtern der Suche im Repository
 
@@ -1093,9 +1093,9 @@ Um die globale Suche und Ersetzung durchzuführen, führen Sie die folgenden Sch
 
 Um das Symbol **Alle ersetzen** zu aktivieren, muss Ihr Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in **Workspace-Einstellungen** (**Einstellungen** für **On-Prem**) auswählen.
 
-    >[!NOTE]
-    >
-    > Bewegen Sie den Mauszeiger über eine Datei in der Suchergebnisliste, um das Symbol „Alles in Datei ersetzen“ rechts neben der Datei anzuzeigen. Sie erhalten auch das Symbol Datei ignorieren , um die Datei aus dem Suchergebnis zu entfernen. Die Dateien, die Sie ignorieren, werden aus der Liste entfernt und der gesuchte Begriff wird in ihnen nicht ersetzt.
+>[!NOTE]
+>
+> Bewegen Sie den Mauszeiger über eine Datei in der Suchergebnisliste, um das Symbol Alle ersetzen in der Datei auf der rechten Seite anzuzeigen. Sie erhalten auch das Symbol Datei ignorieren , um die Datei aus dem Suchergebnis zu entfernen. Die Dateien, die Sie ignorieren, werden aus der Liste entfernt und der gesuchte Begriff wird in ihnen nicht ersetzt.
 
 Im gesamten System kann jeweils nur ein Vorgang zum Ersetzen aller Vorgänge ausgeführt werden. Bis zum Ausführen des Vorgangs wird der Status „Alle laufenden Vorgänge ersetzen“ angezeigt. Sie können auch den Vorgang „Alle ersetzen“ dazwischen abbrechen oder den Protokollbericht anzeigen. Wenn Sie den Vorgang abbrechen, erhalten Sie eine Benachrichtigung darüber in Ihrem Posteingang. Nachdem Sie alle Vorkommen in der ausgewählten Datei ersetzt haben, wird eine Erfolgsbenachrichtigung angezeigt.
 
@@ -1170,4 +1170,4 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 
 </details>
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

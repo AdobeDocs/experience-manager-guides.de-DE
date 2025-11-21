@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise für [!DNL AEM Guides], Februar 2022
-description: Februarversion von [!DNL Adobe Experience Manager Guides] as a Cloud Service
+description: Februarversion von  [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Upgrade auf die Februarversion
 
-Führen Sie ein Upgrade Ihres aktuellen [!DNL Adobe Experience Manager Guides] as a Cloud Service-Setups (später [!DNL AEM Guides] as a Cloud Service-Setup genannt) durch, indem Sie die folgenden Schritte ausführen:
-1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
-1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf Version 2022.2.114.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die Februarversion von [!DNL AEM Guides] as a Cloud Service zu aktualisieren.
+Führen Sie ein Upgrade Ihres aktuellen [!DNL Adobe Experience Manager Guides] as a Cloud Service-Setups (später [!DNL AEM Guides] as a Cloud Service bezeichnet) durch, indem Sie die folgenden Schritte ausführen:
+1. Checken Sie den Git-Code der Cloud Services aus und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Services-Git-Codes auf Version 2022.2.114.
+1. Übertragen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die Februarversion von [!DNL AEM Guides] as a Cloud Service zu aktualisieren.
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von [!DNL AEM Guides] as a Cloud Service-Version Februar 2022 unterstützt werden.
+In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwendungen, die von [!DNL AEM Guides] as a Cloud Service-Version Februar 2022 unterstützt werden.
 
 ### FrameMaker und FrameMaker Publishing Server
 
@@ -42,17 +42,17 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 ## Neue Funktionen und Verbesserungen
 
-### Natives PDF-Publishing
+### Native PDF-Veröffentlichung
 
-Die Erstellung einer nativen PDF wird seit der Februarversion von [!DNL AEM Guides] as a Cloud Service ebenfalls unterstützt. Eine neue Publishing-Engine wurde mit den folgenden Funktionen eingeführt:
+Die Erstellung eines nativen PDF wird seit der Februarversion von [!DNL AEM Guides] as a Cloud Service ebenfalls unterstützt. Eine neue Publishing-Engine wurde mit den folgenden Funktionen eingeführt:
 * Erstellen einer CSS-Vorlage
 * Erstellen verschiedener Seitenvorlagen
-* Entwerfen von PDF-Vorlagen mit CSS- und Seitenvorlagen
-* Publish Map- und Themeninhalte im PDF-Format
+* Entwerfen von PDF-Vorlagen, die CSS- und Seitenvorlagen enthalten
+* Veröffentlichen von Zuordnungs- und Themeninhalten im PDF-Format
 
 ### Unterstützung für den Knowledgebase-Site-Pfad in der artikelbasierten Veröffentlichung
 
-[!DNL AEM Guides] as a Cloud Service bietet die Funktion zur artikelbasierten Veröffentlichung, um schrittweise eine Ausgabe eines oder mehrerer Themen zu generieren oder Ihre Inhalte auf einer Knowledgebase-Plattform zu veröffentlichen. Mit der Februarversion haben Sie eine zusätzliche Option, den Pfad der Wissensdatenbank-Website auszuwählen, auf den das Thema/die Karte veröffentlicht werden soll. Nachdem Sie den Pfad ausgewählt haben, wird die Ausgabe unter dem angegebenen Pfad generiert.
+[!DNL AEM Guides] as a Cloud Service bietet die Funktion zur artikelbasierten Veröffentlichung, um schrittweise eine Ausgabe eines oder mehrerer Themen zu generieren oder Ihre Inhalte auf einer Wissensdatenbankplattform zu veröffentlichen. Mit der Februarversion haben Sie eine zusätzliche Option, den Pfad der Wissensdatenbank-Website auszuwählen, auf den das Thema/die Karte veröffentlicht werden soll. Nachdem Sie den Pfad ausgewählt haben, wird die Ausgabe unter dem angegebenen Pfad generiert.
 
 ### Verbesserungen am Web-Editor
 
@@ -68,7 +68,7 @@ Je nach Konfiguration haben Sie die Möglichkeit, die Änderungen zu speichern u
 
 Weitere Informationen finden Sie unter *Schließen und Speichern von Dateien* im Benutzerhandbuch.
 
-* Der Zeichenpalette wurde ein Leerzeichen ohne Unterbrechung hinzugefügt.  Ein **Leerzeichen verhindert** automatischen Zeilenumbruch an einer bestimmten Stelle in einem HTML-Dokument. Der Web-Editor unterstützt eine unterbrechungsfreie Platzierung für AEM Site- und HTML5-Ausgabe.
+* Der Zeichenpalette wurde ein Leerzeichen ohne Unterbrechung hinzugefügt.  Ein **Leerzeichen verhindert** automatischen Zeilenumbruch an einer bestimmten Stelle in einem HTML-Dokument. Der Web-Editor unterstützt eine unterbrechungsfreie Platzierung für die Ausgabe von AEM Site und HTML5.
 
 * Beim Hochladen eines Bildes aus dem Web-Editor wird ein Bestätigungsdialogfeld angezeigt, wenn bereits ein Bild mit demselben Namen vorhanden ist. Sie können entweder beide Dateien beibehalten - die vorhandene und die neue Datei - oder die vorhandene Datei überschreiben und nur die neue Datei speichern.
 

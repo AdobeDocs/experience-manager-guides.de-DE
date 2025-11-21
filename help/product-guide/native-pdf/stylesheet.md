@@ -1,11 +1,11 @@
 ---
-title: Native PDF Publish-Funktion | Arbeiten mit allgemeinen Inhaltsstilen
+title: Native PDF-Veröffentlichungsfunktion | Arbeiten mit allgemeinen Inhaltsstilen
 description: Erfahren Sie, wie Sie Stylesheets erstellen, verwenden und Stile für Ihre Inhalte erstellen.
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Die Überschriftenstile kapseln alle Basisstile für die Überschriften, die in 
 
 In einem Buch (oder einer Buchkarte) arbeiten Sie mit Kapiteln. Die Stile für die Basisüberschriften sind so konzipiert, dass sie ohne Anpassungen auf die Überschriften auf Kapitelebene angewendet werden. Wenn Sie jedoch spezielle Überschriften für Ihre Inhalte erstellen möchten, müssen Sie diese Überschriften erstellen. Beispielsweise wird die Standardüberschrift `h1.chapter` auf den Titel Ihres Kapitels angewendet. Wenn Sie möchten, dass Ihr Kapiteltitel in einem anderen Stil angezeigt wird, müssen Sie den `h1.chapter` anpassen. Ebenso können Sie benutzerdefinierte Stile für Unterüberschriften in Ihrem Kapitel erstellen. Wenn Sie beispielsweise einen benutzerdefinierten Stil für alle Überschriften der 2<sup>. </sup>. und <sup>. </sup> Ebene in Ihrem Kapitel erstellen möchten, müssen Sie einen neuen Stil als `h2.chatper` und `h3.chatper` erstellen.
 
-Da die native PDF-Publishing-Funktion die grundlegenden Stildefinitionen für die gängigsten Stile enthält, wird der Standardstil auf den Inhalt angewendet, auch wenn Sie einen Stil versehentlich löschen. Wenn beispielsweise in Ihrem Stylesheet keine Stildefinition für den H2-Stil vorhanden ist, wendet die Funktion Natives PDF Publishing einen Basisstil auf den H2-Inhalt an.
+Da die native PDF-Veröffentlichungsfunktion die grundlegenden Stildefinitionen für die gängigsten Stile enthält, wird der Standardstil auf den Inhalt angewendet, auch wenn Sie einen Stil versehentlich löschen. Wenn beispielsweise in Ihrem Stylesheet keine Stildefinition für den H2-Stil vorhanden ist, wendet die native PDF-Veröffentlichungsfunktion einen Basisstil auf den H2-Inhalt an.
 
 In diesem Beispiel erstellen wir einen Stil für Kapitelüberschriften der zweiten Ebene:
 
@@ -81,7 +81,7 @@ In diesem Beispiel passen wir die Überschriften von Ebene 1 bis Ebene 3 so an, 
 
 1. Erweitern Sie in der **Stile** die Liste **Überschriftenstile**.
 
-1. Wählen Sie in **Liste den Stil**&#x200B;h1) aus.
+1. Wählen Sie in **Liste den Stil**h1) aus.
 Die Eigenschaften für den Stil h1 werden im Bedienfeld Eigenschaften zusammen mit der Vorschau angezeigt.
 
    >[!NOTE]
@@ -93,7 +93,7 @@ Die Eigenschaften für den Stil h1 werden im Bedienfeld Eigenschaften zusammen m
    Die Stile, die Sie auf die AutoNumber-Liste anwenden können, werden unter der AutoNumber-Eigenschaft angezeigt.
 
 1. Legen Sie die folgenden Eigenschaften fest:
-   * **Style**: Wählen Sie aus einer Vielzahl von gebietsschemaspezifischen oder generischen Nummerierungsstilen. Sie können Stile wie Arabisch-Indisch, Devanagari, Georgisch, Dezimal, Niedriges Alpha und mehr auswählen. Wählen Sie für das aktuelle Beispiel `upper-alpha` aus.
+   * **Style**: Wählen Sie aus einer Vielzahl von gebietsschemaspezifischen oder generischen Nummerierungsstilen. Sie können Stile wie Arabisch-Indisch, Devanagari, Georgisch, Dezimal, Alpha (niedriger Wert) und mehr auswählen. Wählen Sie für das aktuelle Beispiel `upper-alpha` aus.
 
    * **Format**: Das Standardformat ist auf `<x>` festgelegt, wobei der `x` Wert durch den Nummerierungsstil ersetzt wird, den Sie in der Style-Eigenschaft ausgewählt haben. Wenn Sie beispielsweise `decimal` (1)-Stil ausgewählt haben, wird der Wert `x` automatisch für jede Instanz des `h1`-Stils inkrementiert und als 2, 3 usw. festgelegt. Sie können auch benutzerdefinierten Text in das Feld einfügen, um den Überschriftenstil zu formatieren. Wenn Sie beispielsweise möchten, dass alle h1-Überschriften das Präfix `Chapter` aufweisen, müssen Sie dieses Feld auf `Chapter <x>` setzen.
 
@@ -141,7 +141,6 @@ Die Eigenschaften für den Stil h1 werden im Bedienfeld Eigenschaften zusammen m
    |  | Format | `Section <2>.<x>:` |  |
    |  | Präfixbreite | 125 px |  |
    |  | Schriftart > Textausrichtung | Linksbündig | Stellen Sie sicher, dass Formatierung anwenden auf Nummerierung eingestellt ist |
-   |  |
 
    <img src="./assets/auto-number-output.png" width="500">
 
@@ -151,7 +150,7 @@ Ein Absatzstil kann erstellt werden, um eine spezielle Formatierung auf den gesa
 
 ### Erstellen des Drop-Cap-Stils {#drop-cap-style}
 
-Ein Drop Cap-Stil (oder Dropped Capital) wird in Magazinen und literarischen Dokumenten verwendet, bei denen das erste Zeichen eines Absatzes oder Abschnitts einen speziellen Stil erhält. Den gleichen Effekt können Sie mit der Funktion Natives PDF-Publishing erzielen.
+Ein Drop Cap-Stil (oder Dropped Capital) wird in Magazinen und literarischen Dokumenten verwendet, bei denen das erste Zeichen eines Absatzes oder Abschnitts einen speziellen Stil erhält. Den gleichen Effekt können Sie mit der nativen PDF-Veröffentlichungsfunktion erzielen.
 
 Im folgenden Beispiel erstellen wir einen Drop-Cap-Stil:
 
@@ -253,7 +252,7 @@ Im folgenden Beispiel passen wir den Stil der nummerierten oder sortierten Liste
 
    Eine Bestätigungsmeldung wird angezeigt.
 
-1. Klicken Sie **der Meldung *Bestätigung* auf „Ja**, um die Eigenschaften **Erweiterte Formatierung** zu öffnen.
+1. Klicken Sie **der Meldung** Bestätigung *auf „Ja*, um die Eigenschaften **Erweiterte Formatierung** zu öffnen.
 
    Die folgenden Eigenschaften sind standardmäßig verfügbar:
 
@@ -345,7 +344,7 @@ Im folgenden Beispiel sehen wir, wie Sie einen Tabellenstil erstellen und die ve
 
 ## Arbeiten mit anderen Stilen {#other-styles}
 
-Wenn Sie mit strukturierten Inhalten (DITA) arbeiten, werden Sie feststellen, dass fast alle DITA-Elemente im Standard-Stylesheet eine Stilzuordnung aufweisen. Beispielsweise wird der Stil eines `<shortdesc>` Elements unter der Stildefinition **Other Style** > **.** definiert. Sie können jeden dieser Stile einfach anpassen und sie werden automatisch auf die PDF-Ausgabe angewendet, die aus Ihren strukturierten Inhalten generiert wird. Dies bedeutet, dass Sie im Gegensatz zu anderen benutzerdefinierten Stilen kein `outputclass` Attribut zum Inhalt für diese Stile hinzufügen müssen.
+Wenn Sie mit strukturierten Inhalten (DITA) arbeiten, werden Sie feststellen, dass fast alle DITA-Elemente im Standard-Stylesheet eine Stilzuordnung aufweisen. Beispielsweise wird der Stil eines `<shortdesc>` Elements unter der Stildefinition **Other Style** > **.** definiert. Sie können jeden dieser Stile einfach anpassen und sie werden automatisch in der PDF-Ausgabe angewendet, die aus Ihren strukturierten Inhalten generiert wurde. Dies bedeutet, dass Sie im Gegensatz zu anderen benutzerdefinierten Stilen kein `outputclass` Attribut zum Inhalt für diese Stile hinzufügen müssen.
 
 Wenn Sie eine Stildefinition für ein Element erstellen möchten, das standardmäßig nicht verfügbar ist, oder ein benutzerdefiniertes Element haben, können Sie es einfach im Stylesheet erstellen. Der einzige Punkt, den Sie berücksichtigen müssen, ist die Erstellung des Stils mit demselben Namen wie der Name des strukturierten Elements.
 
@@ -378,7 +377,7 @@ Im folgenden Screenshot wird der Stil „wintitle“ dargestellt, der auf den Te
 
 ## Definieren eines eindeutigen Stils für ein Einzelseiten-Layout
 
-Beim Veröffentlichen der nativen PDF-Ausgabe werden alle Stile auf der endgültigen PDF zusammengeführt. Es ist wichtig, jeder Vorlage im CSS einen eigenen Stil zuzuweisen.
+Beim Veröffentlichen der nativen PDF-Ausgabe werden alle Stile in der endgültigen PDF zusammengeführt. Es ist wichtig, jeder Vorlage im CSS einen eigenen Stil zuzuweisen.
 Verwenden Sie unterschiedliche CSS-Stilnamen, um bestimmte Schriftarten und Stile auf verschiedene Abschnitte einer PDF anzuwenden. Sie können beispielsweise die gewünschte Schriftart für die Titelseite mithilfe des folgenden CSS definieren.
 
 ```css
@@ -406,7 +405,7 @@ Sie können beispielsweise die folgenden Stile definieren, um die Schriftgröße
 
 >[!NOTE]
 >
->Im vorherigen Beispiel sind „Front“ und „Back“ die Beispielnamen der Layout-Dateien, die Sie in den Vorlagen verwenden können.
+> Im vorherigen Beispiel sind „Front“ und „Back“ die Beispielnamen der Layout-Dateien, die Sie in den Vorlagen verwenden können.
 
 
 ## Definieren eines benutzerdefinierten CSS-Stils für Präfix- und Suffix-Inhalte

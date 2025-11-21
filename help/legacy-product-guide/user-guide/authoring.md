@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 10%
@@ -63,27 +63,27 @@ In der folgenden Tabelle sind verschiedene Aufgaben sowie die Gruppen aufgeführ
 | Kopieren | Ja |   | Ja |
 | Löschen | Ja |   | Ja |
 | Link freigeben | Ja |   | Ja |
-| **Dokumentstatus** |
+| **Dokumentstatus** |  |  |  |
 | Dokumentenstatusprofil erstellen/bearbeiten |   |   | Ja |
 | Dokumentstatus ändern[2](#fntarg_2) | Ja | Ja | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgabevorgaben“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgabevorgaben“\)** |  |  |  |
 | Generieren |   |   | Ja |
 | Bearbeiten |   |   | Ja |
 | Duplizieren |   |   | Ja |
 | Erstellen |   |   | Ja |
 | Vorgabe löschen |   |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgaben“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgaben“\)** |  |  |  |
 | Erzeugte Ausgabe anzeigen | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte Themen\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte Themen\)** |  |  |  |
 | Bewertungsaufgabe erstellen | Ja |   | Ja |
 | Bearbeiten | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Baselines“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Baselines“\)** |  |  |  |
 | Erstellen |   |   | Ja |
 | Bearbeiten |   |   | Ja |
 | Duplizieren |   |   | Ja |
 | Remove |   |   | Ja |
 | DITA Map Console \(Registerkarte „Berichte“\) | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Bedingungsvorgaben\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Bedingungsvorgaben\)** |  |  |  |
 | Erstellen/Bearbeiten einer Bedingungsvorgabe |   |   | Ja |
 
 [1](#fnsrc_1) Wenn *Autoren* und *Herausgeber* zu einer Überprüfung eingeladen werden.

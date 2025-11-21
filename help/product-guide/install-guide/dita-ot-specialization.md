@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,7 @@ Führen Sie die folgenden Schritte aus, um das benutzerdefinierte DITA-OT-Plug-i
 
    - Führen Sie den Integrator \(zum Installieren des benutzerdefinierten Plug-ins\) auf einem Mac/Linux-Betriebssystem aus, um Probleme mit Dateiseparatoren zu vermeiden. Da Windows- und Linux-Betriebssysteme unterschiedliche Dateiseparatoren haben, ist das in Mac/Linux-Betriebssystemen integrierte Plug-in mit Windows- und Linux-Setup kompatibel.
    - Stellen Sie sicher, dass die `DITA-OT.ZIP`-Datei einen Ordner mit dem Namen „DITA-OT“ enthält, der alle relevanten Plug-ins und Dateien enthält.
-   - Überprüfen Sie, ob `DITA-OT.ZIP` erstellte Datei vom Typ „mimeType: „nt:file“ \(entspricht dem primären Typ der ZIP-Datei beim Hochladen in AEM\) ist. Verwenden Sie ein WebDAV-Tool oder eine Code-Bereitstellung, um diese ZIP-Datei in den gewünschten Pfad in AEM hochzuladen. \(Verwenden Sie den Package Manager von AEM nicht, um diese ZIP-Datei bereitzustellen, da diese ZIP-Datei kein AEM-Inhaltspaket, sondern nur eine Archivdatei ist.\)
-
+   - Überprüfen Sie, ob `DITA-OT.ZIP` erstellte Datei vom Typ „mimeType: „nt:file&quot; \(dies entspricht dem primären Typ der ZIP-Datei beim Hochladen in AEM\) ist. Verwenden Sie ein WebDAV-Tool oder eine Code-Bereitstellung, um diese ZIP-Datei in den gewünschten Pfad in AEM hochzuladen. \(Verwenden Sie den Package Manager von AEM nicht, um diese ZIP-Datei bereitzustellen, da diese ZIP-Datei kein AEM-Inhaltspaket, sondern nur eine Archivdatei ist.\)
    >[!NOTE]
    >
    > Es wird empfohlen, das standardmäßige DITA-OT-Paket nicht zu überschreiben. Sie sollten Ihr benutzerdefiniertes DITA-OT-Paket, das Ihr Plug-in enthält, an einen anderen Speicherort unter dem `apps` hochladen.
@@ -101,25 +100,25 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
 
    | Eigenschaftsname | Beschreibung |
    |-------------|-----------|
-   | **Profileigenschaften** |
+   | **Profileigenschaften** |  |
    | Profilname | Geben Sie einen eindeutigen Namen für dieses Profil an. |
    | Ausgabe wiederverwenden | *\(Optional\)* Wenn Ihr Profil auf einem vorhandenen Profil basiert, wählen Sie diese Option. Durch Auswahl dieser Option wird sichergestellt, dass AEM Guides den Inhalt des DITA-OT-Pakets nicht erneut extrahiert und das vorhandene DITA-OT-Paket wiederverwendet. |
-   | Pfad der Profilextraktion | *\(Optional\)* Geben Sie den Pfad an, unter dem DITA-OT auf der Festplatte gespeichert wird. Standardmäßig bündelt AEM Guides ein DITA-OT-Paket in seinem Repository und wird unter diesem Pfad auf der Festplatte extrahiert.<br>**Hinweis** Sie können diesen Pfad mit einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [&#x200B; Eigenschaft &#x200B;](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
+   | Pfad der Profilextraktion | *\(Optional\)* Geben Sie den Pfad an, unter dem DITA-OT auf der Festplatte gespeichert wird. Standardmäßig bündelt AEM Guides ein DITA-OT-Paket in seinem Repository und wird unter diesem Pfad auf der Festplatte extrahiert.<br>**Hinweis** Sie können diesen Pfad mit einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [ Eigenschaft ](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
    | Zugewiesener Pfad | \(*Optional*\) Geben Sie den Pfad in Ihrem Content-Repository an, für den dieses Profil gilt. Sie können mehrere Speicherorte angeben. |
-   | **DITA-OT-Eigenschaften** |
+   | **DITA-OT-Eigenschaften** |  |
    | DITA-OT-Timeout | \(*Optional*\) Geben Sie die Zeit \(in Sekunden\) an, für die AEM Guides auf eine Antwort des DITA-OT-Plug-ins wartet. Wenn in der angegebenen Zeit keine Antwort eingeht, beendet AEM Guides die Veröffentlichungsaufgabe und die Aufgabe wird als fehlgeschlagen markiert. Außerdem werden die Fehlerprotokolle in der Protokolldatei für die Ausgabegenerierung zur Verfügung gestellt. <br>Standardwert: 300 Sekunden \(5 Minuten\) |
-   | DITA-OT-PDF-Argumente | Geben Sie die Befehlszeilenargumente an, die vom benutzerdefinierten DITA-OT-Plug-in zum Generieren der PDF-Ausgabe verarbeitet werden. Geben Sie für alle benutzerdefinierten DITA-OT-Profile das folgende Befehlszeilenargument an:`-lib plugins/org.dita.pdf2.fop/lib/` |
-   | DITA-OT-AEM-Argumente | \(*Optional*\) Geben Sie die benutzerdefinierten Befehlszeilenargumente an, die vom benutzerdefinierten DITA-OT-Plug-in zum Generieren der AEM-Site-Ausgabe verarbeitet werden. |
+   | DITA-OT PDF-Argumente | Geben Sie die Befehlszeilenargumente an, die vom benutzerdefinierten DITA-OT-Plug-in zum Generieren der PDF-Ausgabe verarbeitet werden. Geben Sie für alle benutzerdefinierten DITA-OT-Profile das folgende Befehlszeilenargument an:`-lib plugins/org.dita.pdf2.fop/lib/` |
+   | DITA-OT AEM-Argumente | \(*Optional*\) Geben Sie die benutzerdefinierten Befehlszeilenargumente an, die vom benutzerdefinierten DITA-OT-Plug-in zum Generieren der AEM Site-Ausgabe verarbeitet werden. |
    | DITA-OT-Bibliothekspfade | \(*Optional*\) Geben Sie die zusätzlichen Bibliothekspfade des DITA-OT-Plug-ins an. |
    | DITA-TO-Build-XML | \(*Optional*\) Geben Sie den Pfad des benutzerdefinierten Ant-Build-Skripts an, das mit dem benutzerdefinierten DITA-OT-Plug-in bereitgestellt wird. Dieser Pfad ist relativ zum DITA-OT-Verzeichnis auf Ihrem Dateisystem. |
    | DITA-OT-Ant-Skriptordner | \(Optional\) Geben Sie den Pfad des Skriptordners „DITA-OT Ant“ an. Dieser Pfad ist relativ zum DITA-OT-Verzeichnis auf Ihrem Dateisystem. |
    | DITA-OT-Umgebungsvariablen | *\(Optional\)* Geben Sie Umgebungsvariablen an, die an den DITA-OT-Prozess übergeben werden sollen. Standardmäßig fügt AEM Guides vier Variablen hinzu: `ANT_OPTS`, `ANT_HOME`, `PATH` und `CLASSPATH`. <br> Sie können jede der vorhandenen Systemumgebungsvariablen oder -eigenschaften zum Erstellen neuer Umgebungsvariablen wiederverwenden. Beispiel: Sie haben `JAVA_HOME` Systemvariable in Ihrem System definiert und möchten eine neue Umgebungsvariable mit dem Namen `JAVA_BIN` definieren, die mithilfe von `JAVA_HOME` erstellt wird. Anschließend können Sie die Definition von `JAVA_BIN` wie folgt hinzufügen<br> `JAVA_BIN= ${JAVA_HOME}/bin` <br> **Hinweis** Sie können auch Java-Systemeigenschaften zum Erstellen von Umgebungsvariablen verwenden. Wenn beispielsweise das AEM-Startskript eine Java-Systemeigenschaft definiert, die einem temporären Verzeichnis `java.io.tmpdir` ist, können Sie diese Eigenschaft verwenden, um eine neue Variable zu definieren als: `${java.io.tmpdir}/fmdita/dita_ot`. <br> **Wichtig** Um eine vorhandene Systemvariable oder -eigenschaft wiederzuverwenden, muss sie in `${}` eingeschlossen sein. |
    | DITA-OT-Ausgabe überschreiben | *\(Optional\)* Wenn diese Option aktiviert ist, können Sie das auf Ihrem lokalen System verfügbare DITA-OT-Paket angeben, um mithilfe von DITA-OT eine Ausgabe zu generieren. Diese Konfiguration wird bei Aktivierung des ConfigManagers festgelegt. <br> Wenn Sie den Pfad eines DITA-OT-Pakets angeben möchten, das auf dem AEM-Server gespeichert ist, deaktivieren Sie diese Option. |
-   | AEM-DITA-OT-ZIP-Pfad/lokaler DITA-OT-Ordnerpfad | Geben Sie abhängig von Ihrer Auswahl in der Ausgabe DITA-OT überschreiben den vollständigen Pfad an, unter dem die benutzerdefinierte Datei DITA-OT.zip gespeichert ist. Dies kann der Pfad in Ihrem AEM-Repository oder lokalen System sein. |
+   | AEM DITA-OT-ZIP-Pfad/lokaler DITA-OT-Ordnerpfad | Geben Sie abhängig von Ihrer Auswahl in der Ausgabe DITA-OT überschreiben den vollständigen Pfad an, unter dem die benutzerdefinierte Datei DITA-OT.zip gespeichert ist. Dies kann der Pfad in Ihrem AEM-Repository oder lokalen System sein. |
    | DITA-OT-Plug-in-Pfad | Pfad des benutzerdefinierten Plug-ins. Dieses Plug-in wird automatisch in das Haupt-DITA-OT-Paket integriert. |
    | Kataloge integrieren | \(*Optional*\) Pfad der benutzerdefinierten DTD- und XSD-catalog.xml-Dateien im AEM-Repository. Dies sollte nur bereitgestellt werden, wenn die Kataloge im DITA-OT-Paket fehlen. Diese Kataloge werden automatisch als Plug-In in das Haupt-DITA-OT integriert. |
    | System-ID-Katalog hinzufügen | \(*Optional*\) Wählen Sie diese Option nur, wenn im Katalog öffentliche ID-Einträge fehlen oder wenn die DITA-Dateien nur die System-IDs verwenden, die relativ zum Server-Pfad sind, von dem aus sie hochgeladen werden. |
-   | Temporärer DITA-OUT-Pfad | *\(Optional\)* Geben Sie einen temporären Speicherort an, an den DITA-Dateien zur Verarbeitung kopiert werden. Bevor DITA-OT Dateien verarbeitet, werden sie an diesen temporären Speicherort kopiert. Standardmäßig lautet der temporäre Speicherort: <br> **Hinweis** Sie können diesen Pfad mit einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [&#x200B; Eigenschaft &#x200B;](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
+   | Temporärer DITA-OUT-Pfad | *\(Optional\)* Geben Sie einen temporären Speicherort an, an den DITA-Dateien zur Verarbeitung kopiert werden. Bevor DITA-OT Dateien verarbeitet, werden sie an diesen temporären Speicherort kopiert. Standardmäßig lautet der temporäre Speicherort: <br> **Hinweis** Sie können diesen Pfad mit einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [ Eigenschaft ](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
 
    >[!NOTE]
    >
@@ -150,7 +149,7 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
 
    >[!NOTE]
    >
-   > Bei DITA 1.3 lautet der Standardspeicherort für DTD-`catalog.xml` im AEM-Repository: `/libs/fmdita/dita_resources/DITA-1.3/dtd/catalog.xml`.
+   > Im Fall von DITA 1.3 lautet der Standardspeicherort für DTD-`catalog.xml` im AEM-Repository: `/libs/fmdita/dita_resources/DITA-1.3/dtd/catalog.xml`.
 
 1. Geben Sie die XSD-Details in der `catalog.xml` an, die auch im Spezialisierungsordner enthalten sein müssen.
 
@@ -184,7 +183,7 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
 
    >[!NOTE]
    >
-   > Wenn Sie das benutzerdefinierte Schema verwenden, müssen Sie den Pfad der benutzerdefinierten DTD- und XSD-catalog.xml-Dateien im AEM-Repository in der Option **Integrationskataloge** definieren.
+   > Wenn Sie das benutzerdefinierte Schema verwenden, müssen Sie den Pfad der benutzerdefinierten DTD- und XSD-Datei catalog.xml-Dateien im AEM-Repository in der Option **Integrationskataloge** definieren.
 
 
 

@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte zu UUID-Inhalten migrieren
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 2%
@@ -74,7 +74,7 @@ Führen Sie die folgenden Prüfungen für die Nicht-UUID-Version 4.6.0 Service P
    >
    >Dieses Dienstprogramm entfernt keine Versionen, die in Baselines oder Reviews verwendet werden, und hat keine Kennzeichnungen.
 
-Weitere Informationen finden Sie unter [Ältere Versionen &#x200B;](../install-guide/version-management.md#purge-older-versions-of-dita-files).
+Weitere Informationen finden Sie unter [Ältere Versionen ](../install-guide/version-management.md#purge-older-versions-of-dita-files).
 
 
 ## Voraussetzungen für die Migration
@@ -178,9 +178,9 @@ Darüber hinaus kann eine Liste **Dateien, die während des Migrationsprozesses 
 
 | Zusammenfassung nach Abschluss des Prozesses | Wie zu interpretieren? | Aktion |
 |---|---|---|
-| Gesamtzahl der Dateien: 288 | Anzahl der DITA-Zuordnungen mit mindestens 1 Baseline. |
-| Anzahl der erfolgreich migrierten Dateien: 13 | Anzahl der DITA-Karten, die mit allen Baselines erfolgreich aktualisiert wurden. |
-| Anzahl übersprungener Dateien: 275 | Anzahl der DITA-Zuordnungen ohne Baseline. |
+| Gesamtzahl der Dateien: 288 | Anzahl der DITA-Zuordnungen mit mindestens 1 Baseline. |  |
+| Anzahl der erfolgreich migrierten Dateien: 13 | Anzahl der DITA-Karten, die mit allen Baselines erfolgreich aktualisiert wurden. |  |
+| Anzahl übersprungener Dateien: 275 | Anzahl der DITA-Zuordnungen ohne Baseline. |  |
 | Anzahl der Dateien mit fehlgeschlagenem Upgrade: 0 | Die Anzahl der Baseline-Objekte, die nicht gültig waren (sie waren leer), wird im Bericht (Excel) aufgelistet. | Überprüfen, ob andere Fehler vorliegen als: `baselineObj not found on` |
 
 Darüber hinaus kann eine Liste **Dateien, die während des Migrationsprozesses mit Fehlern aktualisiert wurden** und **Dateien fehlgeschlagen** unter der Zusammenfassungstabelle des Berichts aufgerufen werden.
@@ -219,5 +219,5 @@ Darüber hinaus kann eine Liste **Dateien, die während des Migrationsprozesses 
    > Wenn vor der Migration die Eigenschaft **Titel für AEM-Website-Seitennamen verwenden** innerhalb von `com.adobe.fmdita.config.ConfigManager` auf *false* festgelegt wird, muss diese Eigenschaft nach der Migration aktualisiert werden.
 
 
-1. Nach Abschluss der Validierung kann der größte Teil des Speicherplatzes durch Ausführen der Komprimierung zurückgewonnen werden (siehe `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=de`).
+1. Nach Abschluss der Validierung kann der größte Teil des Speicherplatzes durch Ausführen der Komprimierung zurückgewonnen werden (siehe `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 

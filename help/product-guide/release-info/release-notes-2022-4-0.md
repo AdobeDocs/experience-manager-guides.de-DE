@@ -4,7 +4,7 @@ description: April-Version von Adobe Experience Manager Guides as a Cloud Servic
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Upgrade auf die April-Version
 
-Führen Sie ein Upgrade Ihres aktuellen [!DNL Adobe Experience Manager Guides] as a Cloud Service-Setups (später *[!DNL AEM Guides]as a Cloud Service*-Setup genannt) durch, indem Sie die folgenden Schritte ausführen:
-1. Checken Sie den Git-Code der Cloud Service aus und wechseln Sie zu der Verzweigung, die in der Cloud Service-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
-1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Service-Git-Codes auf Version 2022.4.133.
-1. Übertragen Sie die Änderungen und führen Sie die Cloud Service-Pipeline aus, um auf die April-Version von [!DNL AEM Guides] as a Cloud Service zu aktualisieren.
+Führen Sie ein Upgrade Ihres aktuellen [!DNL Adobe Experience Manager Guides] as a Cloud Service-Setups (später *[!DNL AEM Guides]as a Cloud Service* bezeichnet) durch, indem Sie die folgenden Schritte ausführen:
+1. Checken Sie den Git-Code der Cloud Services aus und wechseln Sie zu der Verzweigung, die in der Cloud Services-Pipeline konfiguriert ist und der Umgebung entspricht, die Sie aktualisieren möchten.
+1. Aktualisieren Sie `<dox.version>` Eigenschaft in `/dox/dox.installer/pom.xml` Datei Ihres Cloud Services-Git-Codes auf 2022.4.133.
+1. Übernehmen Sie die Änderungen und führen Sie die Cloud Services-Pipeline aus, um auf die as a Cloud Service-Version April [!DNL AEM Guides] aktualisieren.
 
 ## Kompatibilitätsmatrix
 
-In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von [!DNL AEM Guides] as a Cloud Service-Version April 2022 unterstützt werden.
+In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwendungen, die von [!DNL AEM Guides] Version April 2022 von as a Cloud Service unterstützt werden.
 
 ### FrameMaker und FrameMaker Publishing Server
 
@@ -93,14 +93,14 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Metadaten können nicht entfernt werden, sobald eine DITA-Zuordnung mit Metadaten veröffentlicht wurde.  (9178)
 * Das Übersetzungsbedienfeld ist selbst beim Öffnen der DITA-Karte im Karten-Editor sichtbar. (9053)
 * Die vom Benutzer definierte benutzerdefinierte DTD hat keinen Vorrang vor der in DITA-OT eingebetteten standardmäßigen DITA-DTD. (9104)
-* Bei der Native PDF-Funktion schlägt der Upload in den Vorlagen für Nicht-DITA- und Nicht-Bilddateien fehl. (9070)
+* Bei der nativen PDF-Funktion schlägt der Upload in den Vorlagen für Nicht-DITA- und Nicht-Bilddateien fehl. (9070)
 * Der Autorisierungsmechanismus führt in einigen spezialisierten Szenarien zwei Abfragen anstelle von einer aus. (9221)
 * Das Veröffentlichen der AEM-Site-Ausgabe schlägt bei der Verwendung der benutzerdefinierten DTD fehl. (9243)
-* In der Ausgabe der AEM-Site wird die Fußnote als Verweis verwendet, aber es wird nicht zum Fußnotenabschnitt gescrollt. (9234)
+* In der Ausgabe der AEM-Site wird die Fußnote als Verweis verwendet, aber es wird nicht zum Abschnitt mit der Fußnote gescrollt. (9234)
 
 ## Bekannte Probleme
 
-Adobe hat das folgende bekannte Problem in der Version [!DNL AEM Guides] as a Cloud Service April festgestellt.
+Adobe hat das folgende bekannte Problem in der [!DNL AEM Guides] Version von as a Cloud Service im April erkannt.
 
-* Der Web-Editor meldet keinen Fehler, wenn zwei oder mehr Baselines mit demselben Namen erstellt werden, aber Unterschiede in Leerzeichen oder Groß-/Kleinschreibung aufweisen. Zum Beispiel „adobe“ und &quot;Adobe &quot; oder &quot;Adobe&quot;.
+* Der Web-Editor meldet keinen Fehler, wenn zwei oder mehr Baselines mit demselben Namen erstellt werden, aber Unterschiede in Leerzeichen oder Groß-/Kleinschreibung aufweisen. Zum Beispiel „adobe“ und &quot;Adobe&quot; oder &quot;Adobe&quot;.
 * Der Oxygen-Connector hängt gelegentlich, während er häufige Anmelde- oder Abmeldevorgänge durchführt oder zwischen verschiedenen Authentifizierungstypen wechselt.
