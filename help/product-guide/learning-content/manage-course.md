@@ -93,6 +93,6 @@ Als Autor eines Lernkurses oder Administrator können Sie eine Prüfungsaufgabe 
 
 Sie werden zur Seite **Prüfungsaufgabe erstellen** weitergeleitet, auf der Sie Aufgabendetails wie den Titel der Prüfungsaufgabe hinzufügen, das DITA-Projekt angeben, zu dem sie gehört, Aufgabenzeitpläne definieren, Validierungsverantwortliche zuweisen und vieles mehr. Sobald dies geschehen ist, erhalten die Reviewer eine Benachrichtigung über diese Aufgabe. Die ausgewählten Kursthemen werden in der Review-Benutzeroberfläche geöffnet. Dort können die Reviewer Kommentare hinzufügen und die Themen zur Aktualisierung zurücksenden.
 
-Um den Prüfungs-Workflow in Experience Manager Guides zu verstehen, [ Sie Themen anzeigen und zur Überprüfung ](../user-guide/review-send-topics-for-review.md).
+Um den Prüfungs-Workflow in Experience Manager Guides zu verstehen, [&#x200B; Sie Themen anzeigen und zur Überprüfung &#x200B;](../user-guide/review-send-topics-for-review.md).
 
 

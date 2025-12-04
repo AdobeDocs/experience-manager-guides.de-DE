@@ -37,7 +37,7 @@ Zu den weiteren Optionen, die im Menü Einfügen in der Editor-Symbolleiste verf
 
   ![](assets/insert-h5p-lc.png)
 
-  Wenn Sie lieber den H5P-Inhalt aus Ihrem System verwenden möchten, [ Sie zuerst die Datei in DAM ](../user-guide/authoring-upload-existing-files.md), indem Sie die Option **Assets hochladen** verwenden, und lassen Sie sie dann Teil der Repository-Ansicht/Assets.
+  Wenn Sie lieber den H5P-Inhalt aus Ihrem System verwenden möchten, [&#x200B; Sie zuerst die Datei in DAM &#x200B;](../user-guide/authoring-upload-existing-files.md), indem Sie die Option **Assets hochladen** verwenden, und lassen Sie sie dann Teil der Repository-Ansicht/Assets.
 
   ![](assets/upload-assets-option.png)
 
