@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die interaktiven Widgets, die Sie im Lernin
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: d4fd08c70c590496fef7a047745d4403546664fe
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -28,33 +28,22 @@ Zu den verfügbaren Widgets zur Verbesserung des Benutzererlebnisses und zur Opt
 
   ![](assets/carousal-learning-content.png){width="650" align="left"}
 
-- **Hotspots:** Fügen Sie Hotspots zu einem ausgewählten Bild hinzu. Wählen Sie zunächst ein Bild aus und navigieren Sie dann zu **Einfügen > Hotspot**. Dadurch wird das Hotspot-Dialogfeld geöffnet, in dem Sie verschiedene Optionen konfigurieren können, z. B. indem Sie verschiedene Hotspot-Größen festlegen, entsprechende Links hinzufügen und die Ebenen anpassen, indem Sie Bereiche vorwärts oder rückwärts verschieben.
+- **Hotspot:** Fügt einem ausgewählten Bild einen Hotspot hinzu. Wählen Sie zunächst ein Bild aus und navigieren Sie dann zu **Einfügen > Hotspot**. Dadurch wird das Hotspot-Dialogfeld geöffnet, in dem Sie verschiedene Optionen konfigurieren können, z. B. indem Sie verschiedene Hotspot-Größen festlegen, entsprechende Links hinzufügen und die Ebenen anpassen, indem Sie Bereiche vorwärts oder rückwärts verschieben.
 
   ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **Blockzitate:** Fügt Blockzitate zusammen mit Zitaten zu Ihrem Inhalt hinzu.
+- **Registerkarte** Ermöglicht die Organisation von Inhalten in interaktiven Abschnitten.  Jede Registerkarte kann ein bestimmtes Thema oder eine bestimmte Kategorie darstellen; Teilnehmer können auf die Registerkarten klicken oder tippen, um den entsprechenden Inhalt anzuzeigen. Platzieren Sie den Cursor an der Stelle, an der das Registerkarten-Widget im Inhalt angezeigt werden soll, und navigieren Sie dann zu **Einfügen > Widget > Registerkarte**. Dadurch wird ein Registerkarten-Container zu Ihrem Inhalt hinzugefügt. Fügen Sie nun der Registerkarte Inhalte hinzu, die einen Registerkartentitel und den entsprechenden Inhalt enthalten.
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/insert-tab-lc.png)
 
-- **Codeblöcke:** Fügt einen Codeblock zu Ihrem Inhalt hinzu.
+  Um das Registerkarten-Layout (vertikale oder horizontale Registerkarten) hinzuzufügen, zu löschen und zu wechseln, verwenden Sie den Abschnitt **Inhaltseigenschaften** im rechten Bedienfeld.
+- **Karte spiegeln:** Fügt eine interaktive Karte zu Ihrem Inhalt hinzu, die Sie spiegeln, um zusätzliche Informationen anzuzeigen. Jede Karte hat zwei Seiten - vorne und hinten, sodass die Lernenden Informationen auf ansprechende Weise erkunden können.  Um eine Flip-Karte einzufügen, platzieren Sie den Cursor an der gewünschten Position und navigieren Sie zu **Einfügen > Widget > Flip-Karte**. Dadurch wird ein Container mit einer Flip-Karte zu Ihrem Inhalt hinzugefügt. Anschließend können Sie einen Titel und ein optionales Bild auf der Vorderseite hinzufügen und den entsprechenden Inhalt auf der Rückseite eingeben.
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/insert-flip-card-lc.png)
 
-- **Iframes:** Fügen Sie einen iframe in den Inhalt ein, um externe Web-Seiten oder interaktive Ressourcen einzubetten. Sie können die iframe-Eigenschaften mithilfe des Bedienfelds **Inhaltseigenschaften** konfigurieren, einschließlich der Quell-URL, Breite, Höhe, Ausrichtung und Titel. Sie können die im iFrame hinzugefügten Inhalte anzeigen, indem Sie wie unten gezeigt in den **Vorschau**-Modus wechseln.
+  Um Karten hinzuzufügen oder zu löschen oder ihr Layout zu ändern, verwenden Sie den Abschnitt **Inhaltseigenschaften** im rechten Bedienfeld.
+- **Anklicken zum Einblenden:** Fügt ein interaktives Widget in Ihren Inhalt ein, mit dem Inhalte ausgeblendet werden, bis die Teilnehmer klicken, um sie anzuzeigen. Dies trägt dazu bei, das Durcheinander zu reduzieren und die Exploration zu fördern. Fügen Sie das Widget ein, indem Sie den Cursor an der gewünschten Position platzieren und **Einfügen > Widget > Klicken zum Einblenden** auswählen. Geben Sie nach dem Einfügen den Titel für die Widget-Kopfzeile an und definieren Sie den ausgeblendeten Inhalt, der angezeigt wird, wenn Teilnehmer interagieren.
 
-  **Autor** Ansicht:
+  ![](assets/insert-click-to-reveal-lc.png)
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
-
-
-  **Vorschau**-Modus:
-
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
-
-- **Eingabefeld** Fügen Sie Ihrem Inhalt ein Texteingabefeld mit einer Schaltfläche hinzu. Diese Kombination ermöglicht die Erfassung von Benutzereingaben und Trigger-spezifischen Aktionen. Dem Inhalt wird eine Wiedergabeschaltfläche hinzugefügt, wie unten dargestellt.
-
-  ![](assets/button-learning-content.png){width="650" align="left"}
-
-- **Weitere Optionen:** Sie haben zusätzliche Optionen, um Ihren Lerninhalt zu verbessern, einschließlich des Einfügens einer horizontalen Linie, eines Zeilenumbruchs, eines Textfelds, eines positionierten Textfelds und einer eingebetteten HTML.
-
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  Um das Widget hinzuzufügen oder zu löschen oder die Widget-Ausrichtung zu verwalten, verwenden Sie den Abschnitt **Inhaltseigenschaften** im rechten Bedienfeld.

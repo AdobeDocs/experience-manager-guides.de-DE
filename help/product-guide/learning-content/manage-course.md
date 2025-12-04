@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die verschiedenen Funktionen in Experience 
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 17d71e65e2f4f79a764d822f6f1ada136a7379d7
+source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: '708'
+ht-degree: 0%
 
 ---
 
@@ -84,3 +84,15 @@ Die **Anzeigen**-Option bestimmt, wie Themen angezeigt werden. Sie können sie m
 ![](assets/course-display-settings.png)
 
 Eine Videoübersicht finden Sie unter [Einstellungen anzeigen](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
+
+## Prüfungsaufgabe erstellen
+
+Als Autor eines Lernkurses oder Administrator können Sie eine Prüfungsaufgabe für den Kurs erstellen und sie einem Prüfer für Feedback zuweisen. Öffnen Sie zunächst Ihren Kurs im Bedienfeld **Kursmanager** und wählen Sie dann **Prüfungsaufgabe erstellen** aus dem Menü **Optionen** wie unten dargestellt:
+
+![](assets/create-review-task-lc.png)
+
+Sie werden zur Seite **Prüfungsaufgabe erstellen** weitergeleitet, auf der Sie Aufgabendetails wie den Titel der Prüfungsaufgabe hinzufügen, das DITA-Projekt angeben, zu dem sie gehört, Aufgabenzeitpläne definieren, Validierungsverantwortliche zuweisen und vieles mehr. Sobald dies geschehen ist, erhalten die Reviewer eine Benachrichtigung über diese Aufgabe. Die ausgewählten Kursthemen werden in der Review-Benutzeroberfläche geöffnet. Dort können die Reviewer Kommentare hinzufügen und die Themen zur Aktualisierung zurücksenden.
+
+Um den Prüfungs-Workflow in Experience Manager Guides zu verstehen, [ Sie Themen anzeigen und zur Überprüfung ](../user-guide/review-send-topics-for-review.md).
+
+

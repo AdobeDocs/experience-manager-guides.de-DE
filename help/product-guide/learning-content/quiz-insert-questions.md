@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie im Produktschulungs- und -lernprogramm Fragen
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 40c12185223cdc35c069d44ceb66a38cecacf84f
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Führen Sie die folgenden Schritte aus, um Fragen in ein Quiz einzufügen:
 
-1. Wählen Sie den gewünschten Fragetyp aus dem Dropdown **Menü &quot;**&quot; in der Symbolleiste aus. Je nach Ihren Anforderungen können Sie Fragen mithilfe eines der drei verfügbaren Formate hinzufügen: „True“ oder „False“, „Single Correct“ und „Multiple Correct“, wie unten dargestellt.
+1. Wählen Sie den gewünschten Fragetyp aus dem Dropdown **Menü &quot;**&quot; in der Symbolleiste aus. Je nach Ihren Anforderungen können Sie Fragen mithilfe eines der vier verfügbaren Formate hinzufügen: „true“ oder „false“, „single correct“, „multiple Correct“ und „match“ wie unten dargestellt. Weitere Informationen finden Sie unter [Fragetypen](#question-types).
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -48,3 +48,28 @@ Führen Sie folgende Schritte aus, um eine Frage oder eine bestimmte Option aus 
 1. Wählen Sie im Kontextmenü die Option **Frage löschen** (um die gesamte Frage zu entfernen) oder **Option Löschen** (um nur die ausgewählte Option zu entfernen) aus.
 
 ![](assets/delete-options-lc.png){width="650" align="left"}
+
+## Fragetypen
+
+Die folgenden Fragetypen werden in einem Quiz unterstützt:
+
+- **Einzel richtig**: Eine Frage mit mehreren Optionen, bei der nur eine Antwort richtig ist.
+
+  ![](assets/single-correct.png){width="650" align="left"}
+
+- **True/False**: Eine auf einer Anweisung basierende Frage, bei der die Lernenden auswählen, ob sie „True“ oder „False“ ist.
+
+  ![](assets/true-false.png){width="650" align="left"}
+
+
+- **Mehrere richtig**: Eine Frage mit mehreren Optionen, bei denen mehr als eine Antwort korrekt sein kann.
+
+  ![](assets/multi-correct.png){width="650" align="left"}
+
+- **Folgende zuordnen**: Ermöglicht es den Teilnehmern, Elemente aus zwei Listen abzugleichen, um korrekte Paare zu bilden. Sie können neue Optionssätze über das Bedienfeld **Inhaltseigenschaften** hinzufügen. Um die Komplexität zu erhöhen, können Sie eine Option aus der ersten Liste entfernen und eine zusätzliche Übereinstimmung in die Übereinstimmungsspalte aufnehmen. Dies schafft ein Element der Schwierigkeit, da die Lernenden kritisch darüber nachdenken müssen, welche Option kein direktes Paar hat.
+
+  ![](assets/match-the-following.png){width="650" align="left"}
+
+  In der veröffentlichten Ausgabe wird für jedes Element die **Übereinstimmung mit der folgenden** Frage mit einem Dropdown-Menü angezeigt, sodass Sie die richtige Übereinstimmung aus den verfügbaren Optionen auswählen können.
+
+  ![](assets/question-type-publishing.png){width="650" align="left"}
