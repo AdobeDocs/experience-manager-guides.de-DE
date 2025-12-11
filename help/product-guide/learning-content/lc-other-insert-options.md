@@ -3,9 +3,9 @@ title: Andere Optionen im Menü Einfügen
 description: Erfahren Sie mehr über die Optionen im Menü „Einfügen“, die Sie in den Lerninhalten verwenden können.
 feature: Authoring
 role: User
-source-git-commit: 1fe46636a82b87b65fb5b29e7282636e7dec2358
+source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Zu den weiteren Optionen, die im Menü Einfügen in der Editor-Symbolleiste verf
 
   ![](assets/insert-h5p-lc.png)
 
-  Wenn Sie lieber den H5P-Inhalt aus Ihrem System verwenden möchten, [&#x200B; Sie zuerst die Datei in DAM &#x200B;](../user-guide/authoring-upload-existing-files.md), indem Sie die Option **Assets hochladen** verwenden, und lassen Sie sie dann Teil der Repository-Ansicht/Assets.
+  Wenn Sie lieber den H5P-Inhalt aus Ihrem System verwenden möchten, [ Sie zuerst die Datei in DAM ](../user-guide/authoring-upload-existing-files.md), indem Sie die Option **Assets hochladen** verwenden, und lassen Sie sie dann Teil der Repository-Ansicht/Assets.
 
   ![](assets/upload-assets-option.png)
 
@@ -48,13 +48,13 @@ Zu den weiteren Optionen, die im Menü Einfügen in der Editor-Symbolleiste verf
   > Das Bearbeiten oder Erstellen von H5P-Inhalten wird in Adobe Experience Manager Guides nicht unterstützt. Bereiten Sie das H5P-Paket extern vor dem Hochladen vor.
 
 
-- **Mathematische Gleichung:** Fügt MathML-Gleichungen in Ihren Inhalt ein. Sie können eine MathML-Gleichung erstellen und auf **Einfügen** klicken, um sie zu Ihrem Dokument hinzuzufügen.
+- **MathML-Gleichung:** Fügt MathML-Gleichungen in Ihren Inhalt ein. Sie können eine MathML-Gleichung erstellen und auf **Einfügen** klicken, um sie zu Ihrem Dokument hinzuzufügen.
 
   ![](./assets/insert-mathml.png){width="350" align="left"}
 
   Die Gleichung wird mit hellgrauem Hintergrund eingefügt. Sie können eine Gleichung jederzeit aktualisieren, indem Sie mit der rechten Maustaste auf eine vorhandene Gleichung klicken und **Mathematische Gleichung bearbeiten** aus dem Kontextmenü auswählen. Details zum Validieren von MathML-Gleichungen in Experience Manager Guides finden Sie unter [Validierung von Gleichungen im MathML-Editor](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Wissenstest:** Ermöglicht das Hinzufügen von Fragen in verfügbaren Formaten (einzeln richtig, mehrfach korrekt, wahr/falsch, mit der folgenden übereinstimmen oder aus der Fragenbank einfügen) zu Ihrem Thema zur Überprüfung und zur Bestätigung des Verständnisses ohne Bewertung oder Reporting. Diese Fragen spiegeln Standardformate wider und schließen die Bewertung aus. Dadurch eignen sie sich ideal für die Selbstbewertung und eignen sich bei Bedarf als Teil des Kursinhalts oder eines Themas vor einem Quiz oder einer Bewertung später.
+- **Wissenstest:** Ermöglicht das Hinzufügen von Fragen in verfügbaren Formaten (einzeln richtig, mehrfach korrekt, wahr/falsch, mit der folgenden übereinstimmen oder aus der Fragenbank einfügen) zu Ihrem Thema zur Überprüfung und zur Bestätigung des Verständnisses ohne Bewertung. Diese Fragen spiegeln Standardformate wider und schließen die Bewertung aus. Dadurch eignen sie sich ideal für die Selbstbewertung und eignen sich als Teil des Kursinhalts oder eines Themas vor einem Quiz oder einer Bewertung später, falls verfügbar.
 
   ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
