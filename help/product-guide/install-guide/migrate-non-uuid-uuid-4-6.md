@@ -74,7 +74,7 @@ Führen Sie die folgenden Prüfungen für die Nicht-UUID-Version 4.6.0 Service P
    >
    >Dieses Dienstprogramm entfernt keine Versionen, die in Baselines oder Reviews verwendet werden, und hat keine Kennzeichnungen.
 
-Weitere Informationen finden Sie unter [Ältere Versionen ](../install-guide/version-management.md#purge-older-versions-of-dita-files).
+Weitere Informationen finden Sie unter [Ältere Versionen &#x200B;](../install-guide/version-management.md#purge-older-versions-of-dita-files).
 
 
 ## Voraussetzungen für die Migration
