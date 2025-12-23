@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise zu | Aktualisierungsanweisungen für Adobe Experience Manager Guides 5.1.0 Service Pack 3
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf Version 5.1.0 Service Pack 3 von Adobe Experience Manager Guides.
-source-git-commit: 7ecf29537ddfbfcff644c4f6e3dff32750868282
+source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,9 @@ Weitere Informationen finden Sie im Abschnitt [Technische Anforderungen](../inst
 |---|---|
 | guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
 
+## Voraussetzungen
+
+Gemäß dem standardmäßigen DITA-Verhalten darf das Attribut scope=`external` nicht auf interne Links angewendet werden, da es nur für Verweise auf externe Ressourcen vorgesehen ist. Die Anwendung dieses Attributs auf interne Links kann Workflows stören. Verwenden Sie für in Experience Manager Guides verwaltete Inhalte stattdessen den Standardbereich `local` oder schlüsselbasierte Verweise.
 
 ## Upgrade auf Version 5.1.0 Service Pack 3 von Experience Manager Guides
 
@@ -62,10 +65,10 @@ Sie können Ihre aktuelle Version von Guides einfach auf Version 5.1.0 Service P
 - Wenn Sie Version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 oder 4.1.x verwenden, müssen Sie vor dem Upgrade auf Version 5.0.0 ein Upgrade auf Version 4.4 durchführen.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 >[!NOTE]
 >
->Sie müssen das AEM Service Pack installieren, bevor Sie die Experience Manager Guides-Version aktualisieren.
+> Sie müssen das AEM Service Pack installieren, bevor Sie die Experience Manager Guides-Version aktualisieren.
 
 Weitere Informationen finden Sie unter [Upgrade-Anweisungen für On-Premise](../install-guide/upgrade-xml-documentation.md) von Experience Manager Guides.
