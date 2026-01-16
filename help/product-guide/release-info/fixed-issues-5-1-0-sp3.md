@@ -2,10 +2,10 @@
 title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides 5.1.0 Service Pack 3 behoben
 description: Erfahren Sie mehr über die Fehlerbehebungen in Version 5.1.0 Service Pack 3 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 64d7e4f8028ade36c4fee9bb3407e70b10da6869
+source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 2%
+source-wordcount: '302'
+ht-degree: 1%
 
 ---
 
@@ -40,6 +40,12 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 5.1.0 Service Pack 3](upgrad
 ## Platform
 
 - Wenn Sie `scope="external"` für einen Verweis auf DAM-Inhalte in einem Thema oder einer Zuordnung verwenden, wird der relative Pfad des Assets durch eine GUID ersetzt. (GUIDES-35605)
+
+## Bekanntes Problem
+
+Adobe hat das folgende bekannte Problem in Version 5.1.0 Service Pack 3 erkannt:
+
+- Wenn Sie eine Prüfungsaufgabe auf der Seite mit den Aufgabendetails als abgeschlossen markieren, wird die Aufgabe abgeschlossen und geschlossen. Ihr Status wird jedoch weiterhin als **In Bearbeitung** im Überprüfungs-Dashboard angezeigt. (GUIDES-39375)
 
 
 
