@@ -4,9 +4,9 @@ description: Generieren von DITA-Zuordnungsberichten über die Zuordnungskonsole
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 11b0082b160a35fee0fc9d6478f5fe896de80d31
 workflow-type: tm+mt
-source-wordcount: '2614'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Der **Metadatenbericht** liefert einen detaillierten Bericht Ihrer Referenzen in
 
 Sie können den Metadatenbericht einer Zuordnung anzeigen, indem Sie die folgenden Schritte ausführen:
 
-1. Wählen **Metadaten** im Bedienfeld „Berichte“ aus. Die Liste aller Verweise einer Zuordnung wird zusammen mit den Metadaten wie Tags, dem Dokumentstatus und den benutzerdefinierten Metadaten angezeigt. Informationen zum Hinzufügen einer neuen benutzerdefinierten Metadatenspalte finden Sie [&#x200B; Abschnitt Hinzufügen benutzerdefinierter &#x200B;](#add-custom-metadata-columns) .
+1. Wählen **Metadaten** im Bedienfeld „Berichte“ aus. Die Liste aller Verweise einer Zuordnung wird zusammen mit den Metadaten wie Tags, dem Dokumentstatus und den benutzerdefinierten Metadaten angezeigt. Informationen zum Hinzufügen einer neuen benutzerdefinierten Metadatenspalte finden Sie [ Abschnitt Hinzufügen benutzerdefinierter ](#add-custom-metadata-columns) .
 
 
    ![](images/web-editor-metadata-panel-new.png){align="left"}
@@ -121,11 +121,13 @@ Sie können Tags auf ein einzelnes Thema anwenden oder die Bulk-Tagging-Funktion
 
 Um Metadaten zu aktualisieren, führen Sie die folgenden Schritte aus:
 
-1. Um Metadaten zu aktualisieren, wählen Sie die Dateien aus, für die Sie sie aktualisieren möchten. Sie können die Dateien auswählen, die im Bedienfeld „Metadaten“ angezeigt werden, indem Sie das Kontrollkästchen neben &quot;**&quot;**. Wenn Sie alle Datensätze auswählen möchten, verwenden Sie die Registerkarte **Alle auswählen** über der Titelleiste, wie unten dargestellt.
+1. Um Metadaten zu aktualisieren, wählen Sie die Dateien aus, für die Sie aktualisieren möchten. Sie können die Dateien auswählen, die im Bedienfeld „Metadaten“ angezeigt werden, indem Sie das Kontrollkästchen neben &quot;**&quot;**.
+
+   Wenn Sie alle Datensätze auswählen möchten, verwenden Sie die Registerkarte **Alle auswählen** über der Titelleiste. Da Datensätze beim Bildlauf progressiv geladen werden, müssen Sie zum Ende der Liste scrollen, bevor Sie die Option **Alle auswählen** verwenden. Dadurch wird sichergestellt, dass Bearbeitungsberechtigungen und der Sperrstatus für alle Dateien ausgewertet werden, nicht nur für die derzeit sichtbaren Datensätze.
 
    >[!NOTE]
    >
-   > Sie können keine ausgecheckten Dateien auswählen. Ein ausgechecktes Symbol wird auch neben dem Titel einer ausgecheckten Datei angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen des Benutzers anzuzeigen.
+   > Wenn eine Datei von einem anderen Benutzer gesperrt wird, kann sie nicht zum Aktualisieren von Metadaten ausgewählt werden. Ein Sperrsymbol wird auch neben dem Titel einer gesperrten Datei angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen des Benutzers anzuzeigen.
 
    ![](images/all-selection.png){align="left"}
 
@@ -136,9 +138,7 @@ Um Metadaten zu aktualisieren, führen Sie die folgenden Schritte aus:
 
 1. Wenn Sie neue Tags hinzufügen möchten, wählen Sie in der Dropdown-Liste neue Tags aus, um sie auf alle ausgewählten Themen anzuwenden. Sie können auch jedes Tag löschen, indem Sie auf das Kreuz-Symbol neben dem Tag klicken.
 
-   >[!NOTE]
-   >
-   > Die allgemeinen Tags, die auf alle ausgewählten Themen angewendet werden, werden aufgelistet.
+
 
 1. Wählen Sie einen neuen Dokumentstatus aus, wenn Sie den Dokumentstatus aller ausgewählten Verweise ändern möchten. Die Dropdown-Liste zeigt den allgemeinen möglichen Status für alle ausgewählten Themen an. Wenn der aktuelle Status Ihrer Themen beispielsweise In Überprüfung ist, können Sie den Status Entwurf, Genehmigt oder Überprüft anzeigen.
 1. Wählen Sie **Aktualisieren** aus, um die Metadaten zu aktualisieren. Für die Metadaten wird eine Bestätigungsmeldung angezeigt, unabhängig davon, ob sie erfolgreich aktualisiert wurden oder ob Aktualisierungen fehlgeschlagen sind. Sie können auch **Bericht herunterladen** auswählen, um den Schnappschuss des Berichts herunterzuladen. Dieser Snapshot enthält die Details des aktualisierten Status für die ausgewählten Referenzen.
@@ -236,16 +236,16 @@ Sie können den Bericht nach fehlerhaften Links anzeigen, indem Sie die folgende
 
 1. Sie können Ihre fehlerhaften Links nach den **Dateityp** und **Verknüpfungstyp** filtern. Die Liste der fehlerhaften Links wird je nach Auswahl in der Dropdown-Liste angezeigt. Sie können beispielsweise festlegen, dass nur die Inhaltsreferenzen in Ihrer DITA-Karte angezeigt werden sollen und dass eine Datei nur die fehlerhaften Inhaltsreferenzen anzeigt, die darin verwendet werden.
 
-   DITA-Topic, DITA-Map, Dateireferenz, Schlüsselreferenz, Inhaltsreferenz, Inhaltsschlüsselreferenz, Bildreferenz, Multimedia-Dateireferenz und Multimedia-Schlüsselreferenz sind verfügbare Werte für die **Link-Typ**-Dropdown-Liste, und DITA-Topic, DITA-Map, Dokument, Bild, Video, Audio und andere sind verfügbare Werte für die **Dateityp**.
+   DITA-Topic, DITA-Map, Dateireferenz, Schlüsselreferenz, Inhaltsreferenz, Inhaltsschlüsselreferenz, Bildreferenz, Multimedia-Dateireferenz und Multimedia-Schlüsselreferenz sind verfügbare Werte für die **Link-Typ**-Dropdown-Liste, und Topic, Map, Document, Image, Video, Audio und andere sind verfügbare Werte für die **Dateityp**-Dropdown-Liste.
 1. Sie können auch die folgenden Filteroptionen verwenden, um die folgenden Spalten in der Liste anzuzeigen:
 
    - **Beschädigter Link** (standardmäßig ausgewählt) Der Pfad des beschädigten Links ist in der DITA-Zuordnung angegeben.
 
-   - **Verknüpfungstyp** (standardmäßig ausgewählt) Der Typ der Links. Die verfügbaren Optionen sind DITA Topic, DITA Map, Dateireferenz, Schlüsselreferenz, Inhaltsreferenz, Inhaltsschlüsselreferenz, Bildreferenz, Multimedia-Dateireferenz und Multimedia-Schlüsselreferenz.
+   - **Verknüpfungstyp** (standardmäßig ausgewählt) Der Typ der Links. Die verfügbaren Optionen sind „Topic“, „Map“, „File Reference“, „Key Reference“, „Content Key Reference“, „Image Reference“, „Multimedia File Reference“ und „Multimedia Key Reference“.
 
    - **Verwendet in** (standardmäßig ausgewählt) Die Referenzen, in denen der fehlerhafte Link verwendet wurde. Sie können die Referenz auswählen, um sie im Autorenmodus anzuzeigen.
 
-   - **Dateityp** (standardmäßig ausgewählt) Der Referenztyp - DITA-Thema, DITA-Karte, Dokument, Bild, Video, Audio und andere.
+   - **Dateityp** (standardmäßig ausgewählt) Der Referenztyp - Thema, Karte, Dokument, Bild, Video, Audio und andere.
 
    Wählen Sie **Aktualisieren**, um eine neue Liste fehlerhafter Links zu erhalten und Änderungen in Ihrer Zuordnungsdatei anzuzeigen oder festzustellen, ob ein fehlerhafter Link in Ihrer DITA-Zuordnung aktualisiert wurde.
 1. Sie können auf das Symbol **Link reparieren** (![](images/fix-broken-link.svg)) klicken, um den fehlerhaften Link zu beheben.
@@ -266,4 +266,4 @@ Sie können den Bericht nach fehlerhaften Links anzeigen, indem Sie die folgende
 1. Wählen Sie **Herunterladen** aus, um den Schnappschuss aller fehlerhaften Links in der DITA-Karte herunterzuladen. Die Excel-Datei enthält die ausgewählten Spalten und die fehlerhaften Links, die in der Ansicht „Beschädigte Links“ gefiltert wurden.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in Berichte](reports-intro.md)
+**Übergeordnetes Thema:**[ Einführung in Berichte](reports-intro.md)

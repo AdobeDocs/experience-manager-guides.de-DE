@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine Prüfungsaufgabe erstellen und Themen zu
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Wählen Sie die Stammzuordnung aus dem **Stammzuordnungspfad**. Diese Rootmap wird verwendet, um alle wichtigen Verweise und Glossarbegriffe aufzulösen, die im Überprüfungsinhalt verwendet werden. Wenn Sie die Rootmap nicht auswählen, werden die wichtigsten Referenzen oder Glossarbegriffe, die mit dem DITA-Thema verknüpft sind, nicht aufgelöst, bevor das Thema zur Überprüfung gesendet wird.
 
@@ -202,7 +202,7 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
 
@@ -269,4 +269,41 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
 Alle validierungsverantwortlichen Personen werden per E-Mail darüber informiert, dass ihnen zu überprüfende Themen zugewiesen wurden. Die E-Mail enthält einen direkten Link, über den sie in einem Browser-Fenster auf das Thema zugreifen können. Die Themen werden zusammen mit der DITA-Karte im Review-Modus geöffnet.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+## Themen zu einer laufenden Prüfungsaufgabe hinzufügen oder daraus entfernen
+
+Als Autor oder Initiator einer Prüfungsaufgabe können Sie einer laufenden Prüfungsaufgabe neue Themen hinzufügen (wenn diese noch nicht zur Überprüfung gesendet wurden) oder Themen aus einer laufenden Prüfungsaufgabe entfernen, ohne den Prüfungs-Workflow zu beeinträchtigen.
+
+Führen Sie die folgenden Schritte aus, um Themen zu einer laufenden Prüfungsaufgabe hinzuzufügen oder daraus zu entfernen:
+
+1. Navigieren Sie im Prüfungsbedienfeld zu der Prüfungsaufgabe, die Sie ändern möchten, und wählen Sie **Aufgabendetails öffnen** aus dem Kontextmenü aus.
+
+   Die **„Aufgabendetails** wird angezeigt.
+
+1. Wählen Sie die **CONTENT**, um die aktuell in der Prüfungsaufgabe enthaltenen Themen anzuzeigen.
+1. Überprüfen Sie die Themenliste und ändern Sie die Auswahl nach Bedarf.
+
+   - Wählen Sie neue Themen aus, die zuvor nicht zur Überprüfung gesendet wurden.
+   - Heben Sie die Auswahl der Themen auf, die Sie aus der Prüfungsaufgabe entfernen möchten.
+
+   >[!NOTE]
+   >
+   > Mindestens ein Thema muss ausgewählt bleiben, um eine laufende Prüfungsaufgabe zu aktualisieren.
+
+   ![](images/modify-review-topics.png)
+
+1. Nachdem Sie die Themenliste geändert haben, werden die entsprechenden Aktualisierungen automatisch auf die Registerkarte **VALIDIERUNGSVERANTWORTLICHE** der Seite Aufgabendetails übertragen.
+
+   ![](images/modify-reviewers.png)
+
+   Überprüfen Sie die aktualisierte Themenliste auf der Registerkarte Reviewer . Für neu hinzugefügte Themen müssen Sie Reviewer zuweisen, es sei denn, die Einstellung **Zulassen, dass Verantwortliche beliebige Themen überprüfen können** ist für Ihre Prüfungsaufgabe aktiviert.
+1. Wählen Sie **Aktualisieren** aus.
+
+Sobald die Prüfungsaufgabe aktualisiert wurde, erhalten die Validierungsverantwortlichen Benachrichtigungen (sowohl AEM als auch E-Mail) auf Grundlage ihres Prüfungsstatus:
+
+- **In Bearbeitung**: Prüfende, die noch an der Aufgabe arbeiten, werden darüber informiert, dass die Aufgabe aktualisiert wurde.
+- **Abgeschlossen**: Prüfer, die ihre Überprüfung abgeschlossen haben, erhalten eine Benachrichtigung, in der sie um eine Überprüfung gebeten werden.
+
+Weitere Informationen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
+
+
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

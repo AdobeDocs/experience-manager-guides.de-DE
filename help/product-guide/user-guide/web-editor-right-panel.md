@@ -4,10 +4,10 @@ description: Lernen Sie das rechte Bedienfeld im Editor kennen. Erfahren Sie meh
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 1%
+source-wordcount: '1095'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Sie können auf die Funktion **Inhaltseigenschaften** zugreifen, indem Sie im re
 
 1. Wählen **im Dropdown** Bedienfeld „Attribut“ das Attribut aus der Dropdown-Liste aus und geben Sie den Wert eines Attributs an.  Wählen Sie dann **Hinzufügen** aus.
 
-   ![Attributbedienfeld mit mehreren Attributen &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![Attributbedienfeld mit mehreren Attributen ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Um das Attribut zu bearbeiten, halten Sie den Mauszeiger darüber und wählen Sie **Bearbeiten** ![edit-icon](images/edit_pencil_icon.svg) aus.
 
@@ -76,8 +76,20 @@ Im Abschnitt Allgemein haben Sie Zugriff auf die folgenden Funktionen:
 
 - **Dateiname**: Zeigt den Dateinamen des ausgewählten Themas an. Der Dateiname ist mit der Eigenschaftenseite der ausgewählten Datei per Hyperlink verknüpft.
 - **ID**: Zeigt die ID des ausgewählten Themas an.
+- **Wortzahl**: Zeigt die Gesamtzahl der Wörter im entsprechenden DITA-Thema an. Wörter, die durch Leerzeichen getrennt sind, werden als einzelne Wörter gezählt. Die Anzahl wird jedes Mal aktualisiert, wenn Sie Änderungen am Thema speichern. Bei Querverweisen wird nur der Anzeigetext in die Zählung eingeschlossen, während Schlüssel ausgeschlossen werden.
+
+  >[!NOTE]
+  >
+  > Die Funktion **Wortzahl** wird mit der Version 2026.01.0 von Experience Manager Guides as a Cloud Service eingeführt. Alle neuen DITA-Themen, die Sie nach dem Upgrade auf diese Version erstellen, haben automatisch die berechnete Wortzahl im rechten Bedienfeld. Für bestehende Themen [eine erneute Verarbeitung der Assets](./asset-processor.md) erforderlich.
+
 - **Tags**: Dies sind die Metadaten-Tags des Themas. Sie werden über das Feld Tags auf der Seite Eigenschaften festgelegt. Sie können sie in der Dropdown-Liste eingeben oder auswählen.  Die Tags werden unter dem Dropdown-Menü angezeigt. Um ein Tag zu löschen, klicken Sie auf das Kreuzsymbol neben dem Tag.
-- **Weitere Eigenschaften bearbeiten**: Sie können auf der Seite mit den Dateieigenschaften weitere Eigenschaften bearbeiten.
+- **Weitere Eigenschaften bearbeiten**: Sie können weitere Eigenschaften ( für Dateien, die sich nicht im **-Modus befinden** über die Seite Dateieigenschaften bearbeiten.
+
+  >[!NOTE]
+  >
+  > Beim Hinzufügen, Löschen oder Ändern von Metadateneigenschaften (standardmäßig oder benutzerdefiniert) wird der Trigger [Arbeitskopie-Indikator](./web-editor-edit-topics.md#working-copy-indicator) in der Dokumentversion angezeigt.
+
+
 - **Language**: Zeigt die Sprache des Themas an. Sie wird im Feld Sprache auf der Seite Eigenschaften festgelegt.
 - **Erstellt am**: Zeigt Datum und Uhrzeit an, zu der das Thema erstellt wurde.
 - **Geändert am**: Zeigt das Datum und die Uhrzeit an, zu der das Thema geändert wurde.
@@ -131,7 +143,7 @@ Mit der Funktion „Nachverfolgte Änderungen“ im rechten Bereich können Sie 
 
 >[!NOTE]
 >
-> Die Funktion „Nachverfolgte Änderungen“ zeigt alle Aktualisierungen an, die mit der Funktion „Änderungen nachverfolgen“ in der [-Leiste aktiviert/deaktiviert &#x200B;](./web-editor-tab-bar.md).
+> Die Funktion „Nachverfolgte Änderungen“ zeigt alle Aktualisierungen an, die mit der Funktion „Änderungen nachverfolgen“ in der [-Leiste aktiviert/deaktiviert ](./web-editor-tab-bar.md).
 
 ## Ingenieur
 
@@ -141,4 +153,4 @@ Informationen zum Arbeiten mit Schematrondateien in Experience Manager Guides fi
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

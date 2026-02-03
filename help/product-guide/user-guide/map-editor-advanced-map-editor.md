@@ -4,9 +4,9 @@ description: Machen Sie sich mit den Funktionen des Karten-Editors in Adobe Expe
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2671'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Die folgenden Optionen sind in der Symbolleiste der Layout-Ansicht verfügbar:
 
 **Themenreferenz** - ![](images/topic-reference.svg)
 
-Zeigt den Dialog für die Themensuche an. Navigieren Sie zu der Themen-/Zuordnungsdatei, die Sie einfügen möchten, und wählen Sie **Auswählen** aus, um sie der Zuordnung hinzuzufügen.
+Zeigt das Dialogfeld Datei auswählen an. Navigieren Sie zu der Themen-/Zuordnungsdatei, die Sie einfügen möchten, und wählen Sie **Auswählen** aus, um sie der Zuordnung hinzuzufügen.
 
 ![](images/insert-topic-reference-dialog.png){align="left"}
 
@@ -146,7 +146,7 @@ Darüber hinaus können Sie die folgenden Symbole anzeigen und die zugehörigen 
 
 **Einfügen vor/Einfügen nach** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Zeigt das Dialogfeld **Element vor oder &#x200B;** Element nach einfügen“ an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
+Zeigt das Dialogfeld **Element vor oder **Element nach einfügen“ an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -260,15 +260,31 @@ Um die Position jeder Themendatei innerhalb einer Karte anzeigen zu können, ist
 
 Im Vorschaumodus können Sie die folgenden zusätzlichen Aufgaben ausführen:
 
+**Themen zur Bearbeitung öffnen**
+
 - Klicken Sie mit der rechten Maustaste auf ein Thema und wählen Sie **Bearbeiten**, um das Thema zur Bearbeitung in einer neuen Registerkarte zu öffnen.
 
   >[!NOTE]
   >
   > Wenn Sie keine Bearbeitungsrechte haben, wird das Thema im schreibgeschützten Modus geöffnet.
 
+  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+
 - Wechseln Sie zum gewünschten Thema, indem Sie den Thementitel in der Zuordnungsstruktur \(im linken Bereich\) auswählen.
 
 - Das aktuelle Thema in der Kartenvorschau ist auch in der Kartenstruktur hervorgehoben.
+
+**Themen oder Zuordnung aktualisieren**
+
+Wenn eine Karte im Vorschaumodus geöffnet wird und Sie von einer anderen Registerkarte im Editor zu ihr zurückkehren, wird die Vorschau nicht automatisch aktualisiert. Um die Kartenvorschau neu zu laden, ist eine manuelle Aktualisierung erforderlich.
+
+Sie können die Funktion „Aktualisieren“, die im Vorschaumodus der Zuordnung verfügbar ist, auf zwei Arten verwenden:
+
+- **Aktualisierung auf Kartenebene**: Durch Klicken auf die Schaltfläche **Aktualisieren** wird die Vorschau der gesamten Karte (einschließlich aller Themen) aktualisiert und Sie gelangen zur ersten Bildlaufposition, um eine übersichtliche Ansicht zu erhalten.
+  ![](images/refresh-map.png){width="650" align="left"}
+
+- **Aktualisierung auf Themenebene**: Durch Auswahl von **Thema aktualisieren** im Kontextmenü wird dieses spezifische Thema aktualisiert, wobei die Bildlaufposition unverändert bleibt.
+  ![](images/refresh-topic.png){width="650" align="left"}
 
 **Andere Möglichkeiten, eine Zuordnungsdatei in der Vorschau anzuzeigen**
 

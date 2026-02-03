@@ -4,9 +4,9 @@ description: Lernen Sie das linke Bedienfeld im Editor kennen. Erfahren Sie mehr
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '9768'
+source-wordcount: '10929'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Sie können auch eine Audio- oder Videodatei im Editor auswählen und wiedergebe
 Die Ansicht des Videos. Im Kontextmenü haben Sie auch die Optionen zum Herunterladen, Ändern der Wiedergabe
 Geschwindigkeit oder Bild im Bild anzeigen.
 
-Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der **Kartenansicht** Funktionsbeschreibung im linken Bereich. Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ &#x200B;](./web-editor-content-editing-area.md) öffnen. Die Möglichkeit, direkt im Editor in einer Datei zu navigieren und sie zu öffnen, spart Zeit und erhöht die Produktivität.
+Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der **Kartenansicht** Funktionsbeschreibung im linken Bereich. Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ ](./web-editor-content-editing-area.md) öffnen. Die Möglichkeit, direkt im Editor in einer Datei zu navigieren und sie zu öffnen, spart Zeit und erhöht die Produktivität.
 
 ## Filtern der Suche im Repository
 
@@ -228,18 +228,19 @@ Sie können die folgenden Aktionen mithilfe des Menüs Optionen ausführen, das 
     <summary> Schritte zum Erstellen eines neuen Themas </summary>
 
 Schritte zum Erstellen eines neuen Themas:
+
 1. Wählen Sie **Neu** > **Thema** aus.
-2. Das **Neues Thema** wird angezeigt.
+1. Das **Neues Thema** wird angezeigt.
 
    ![](images/create-topic-dialog.png){width="300" align="left"}
 
-3. Geben **im Dialogfeld** Neues Thema“ die folgenden Details an:
+1. Geben **im Dialogfeld** Neues Thema“ die folgenden Details an:
    - Ein Titel für das Thema.
    - \(Optional\)* Der Dateiname für das Thema. Der Dateiname wird basierend auf dem Thementitel automatisch vorgeschlagen. Wenn Ihr Administrator automatische Dateinamen basierend auf der UUID-Einstellung aktiviert hat, wird das Feld Name nicht angezeigt.
    - Eine Vorlage, auf der das Thema basieren soll. Bei einem vorkonfigurierten Setup können Sie beispielsweise aus den Vorlagen „Leer“, „Konzept“, „DIGITAL“, „Referenz“, „Aufgabe“, „Thema“, „Markdown“, „Glossar“ und „Fehlerbehebung“ wählen. Wenn für Ihren Ordner ein Ordnerprofil konfiguriert ist, zeigen Sie nur die Themenvorlagen an, die für das Ordnerprofil konfiguriert sind.
 
    - Pfad zum Speichern der Themendatei. Standardmäßig wird der Pfad des aktuell ausgewählten Ordners im Repository im Feld Pfad angezeigt.
-4. Wählen Sie **Erstellen**. Das Thema wird unter dem angegebenen Pfad erstellt. Außerdem wird das Thema im Editor zur Bearbeitung geöffnet.
+1. Wählen Sie **Erstellen**. Das Thema wird unter dem angegebenen Pfad erstellt. Außerdem wird das Thema im Editor zur Bearbeitung geöffnet.
 
 </details>
 
@@ -289,6 +290,35 @@ Schritte zum Erstellen eines neuen Ordners:
 
   ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
+  Nach erfolgreichem Hochladen wird das folgende Bestätigungsdialogfeld angezeigt:
+
+  ![](images/upload-successful.png)
+
+  <details>
+
+  <summary>Umgang mit ungültigen Zeichen in Dateinamen</summary>
+
+  Wenn der Dateiname des hochgeladenen Assets ungültige Zeichen enthält (z. B. * / : [\] | # % { } ?), können die folgenden Szenarien eintreten:
+
+   - **Partieller Upload**: Gibt an, dass ein oder mehrere Assets, die hochgeladen werden, ungültige Zeichen in ihren Dateinamen enthalten.
+
+     ![](images/partial-asset-upload.png)
+
+   - **Hochladen fehlgeschlagen** : Zeigt an, dass alle Assets, die hochgeladen werden, ungültige Zeichen in ihren Dateinamen enthalten.
+
+     ![](images/upload-asset-failed.png)
+
+  Um diese Konflikte zu beheben, entfernen Sie alle ungültigen Zeichen aus den Dateinamen der Assets und laden Sie sie dann erneut in das Repository hoch.
+
+  </details>
+
+- **Aktualisieren**: Erstellt eine neue Liste mit Dateien und Ordnern aus dem Repository.
+- **Reduzieren**: Reduziert den ausgewählten Ordner im Repository.
+
+  >[!NOTE]
+  >
+  > Erweitern Sie den Ordner mit dem Symbol **\>** neben einem Ordner.
+
 - **Dateien in Ordner suchen**: Versetzt den Fokus auf die Repository-Suche, in der Sie den Suchbegriff eingeben können. Die Suche wird unter dem ausgewählten Ordner im Repository durchgeführt. Sie können auch einen Filter anwenden, um DITA-Dateien, Bilddateien oder beides zurückzugeben.
 
   ![](images/find-files-in-folders-repo-view_cs.png){width="300" align="left"}
@@ -297,15 +327,9 @@ Schritte zum Erstellen eines neuen Ordners:
 
   ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
 
-- **Reduzieren**: Reduziert den ausgewählten Ordner im Repository.
-
-  >[!NOTE]
-  >
-  > Erweitern Sie den Ordner mit dem Symbol **\>** neben einem Ordner.
-
 - **Zu Sammlungen hinzufügen**: Fügt den ausgewählten Ordner zu den Favoriten hinzu. Sie können sie zu einer vorhandenen oder neuen Sammlung hinzufügen.
 
-- **Aktualisieren**: Erstellt eine neue Liste mit Dateien und Ordnern aus dem Repository.
+- **Assets erneut verarbeiten**: Trigger verarbeiten die Verarbeitung aller Assets für den Ordner.
 - **In Assets-Benutzeroberfläche anzeigen**: Zeigt den Ordnerinhalt in der Assets-Benutzeroberfläche an.
 
 **Optionen für eine Datei**
@@ -324,6 +348,7 @@ Sie erhalten Zugriff auf verschiedene Optionen im Menü Optionen , je nachdem, o
 - Als PDF herunterladen
 - Hinzufügen zu
 - Kopieren
+- Asset erneut verarbeiten
 - In der Assets-Benutzeroberfläche anzeigen
 - Eigenschaften
 
@@ -334,17 +359,24 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
 
 - **Bearbeiten**: Öffnen Sie die Datei zur Bearbeitung. Im Falle einer .ditamap/.bookmap-Datei wird diese zur Bearbeitung im [Map Editor](map-editor-advanced-map-editor.md#) geöffnet.
 
-- **Duplizieren**: Mit dieser Option erstellen Sie ein Duplikat oder eine Kopie der ausgewählten Datei. Sie haben außerdem die Möglichkeit, die doppelte Datei in der Aufforderung Asset duplizieren umzubenennen. Standardmäßig wird die Datei mit dem Suffix \ (wie Dateiname\_1.extension\) erstellt. Der Titel der Datei bleibt gleich wie der der Quelldatei, und die neue Datei beginnt mit Version 1.0. Alle Verweise, Tags und Metadaten werden kopiert, während die Baselines nicht in die doppelte Datei kopiert werden.
+- **In Sauerstoff bearbeiten**: Wählen Sie diese Option, um die ausgewählte Datei im Oxygen Connector-Plug-in zu bearbeiten. Die Datei wird zur Bearbeitung geöffnet.
+
+  >[!NOTE]
+  >
+  >Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion in der Umgebung aktivieren zu lassen. Dies ist nicht als Teil der vordefinierten Unterstützung aktiviert. Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Option zur Bearbeitung in Oxygen](../cs-install-guide/conf-edit-in-oxygen.md) im Installations- und Konfigurationshandbuch.
+
+- **Im Zuordnungs-Dashboard öffnen**: Wenn die ausgewählte Datei eine DITA-Zuordnung ist, wird durch diese Option das Zuordnungs-Dashboard geöffnet.
+
+- **In Map-Konsole öffnen**: Falls die ausgewählte Datei eine DITA-Map ist, wird mit dieser Option die Map-Konsole geöffnet.
+
 - **Sperren**: Sperrt die ausgewählte Datei, damit sie bearbeitet werden kann. Wenn die Datei gesperrt ist, wird durch Bewegen des Mauszeigers über dem Sperrsymbol **Gesperrt von Ihnen** angezeigt, wenn Sie sie gesperrt haben, oder **Gesperrt von [Benutzername]**, wenn ein anderer Benutzer sie gesperrt hat.
 
 - **Vorschau**: Erhalten Sie eine schnelle Vorschau der Datei (.dita, .xml, Audio, Video oder Bild), ohne sie zu öffnen. Sie können die Größe des Vorschaubereichs ändern. Wenn der Inhalt `<xref>` oder `<conref>` enthält, können Sie diese auswählen, um sie in einer neuen Registerkarte zu öffnen. Der Titel der Datei wird im Fenster angezeigt. Wenn kein Titel vorhanden ist, wird der Dateiname angezeigt. Um das Bedienfeld **Vorschau** zu schließen, können Sie entweder das Symbol zum Schließen auswählen oder eine beliebige Stelle außerhalb des Bereichs auswählen.
 
   ![](images/quick-preview_cs.png){align="left"}
 
-- **Umbenennen**: Verwenden Sie diese Option, um die ausgewählte Datei umzubenennen. Geben Sie den Namen der neuen Datei im Dialogfeld **Asset umbenennen** ein.
-   - Sie können eine Datei beliebigen Typs umbenennen.
-   - Die Dateierweiterung kann nicht geändert werden.
-   - Zwei Dateien dürfen nicht denselben Namen haben. Sie können also eine Datei nicht in einen bereits vorhandenen Namen umbenennen. Ein Fehler wird angezeigt.
+
+- **Duplizieren**: Mit dieser Option erstellen Sie ein Duplikat oder eine Kopie der ausgewählten Datei. Sie haben außerdem die Möglichkeit, die doppelte Datei in der Aufforderung Asset duplizieren umzubenennen. Standardmäßig wird die Datei mit dem Suffix \ (wie Dateiname\_1.extension\) erstellt. Der Titel der Datei bleibt gleich wie der der Quelldatei, und die neue Datei beginnt mit Version 1.0. Alle Verweise, Tags und Metadaten werden kopiert, während die Baselines nicht in die doppelte Datei kopiert werden.
 
 - **Verschieben nach**: Verwenden Sie diese Option, um die ausgewählte Datei in einen anderen Ordner zu verschieben.
    - Sie können entweder den Namen des Zielordners eingeben oder **Pfad auswählen** um den Zielordner auszuwählen.
@@ -377,6 +409,11 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
   Beim Umbenennen oder Verschieben einer Datei werden vorhandene Verweise von oder auf die Datei nicht beschädigt, da jede Datei eine eindeutige UUID hat.
   </details>
 
+- **Umbenennen**: Verwenden Sie diese Option, um die ausgewählte Datei umzubenennen. Geben Sie den Namen der neuen Datei im Dialogfeld **Asset umbenennen** ein.
+   - Sie können eine Datei beliebigen Typs umbenennen.
+   - Die Dateierweiterung kann nicht geändert werden.
+   - Zwei Dateien dürfen nicht denselben Namen haben. Sie können also eine Datei nicht in einen bereits vorhandenen Namen umbenennen. Ein Fehler wird angezeigt.
+
 - **Löschen**: Mit dieser Option können Sie die ausgewählte Datei löschen. Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt.
 
    - Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt.
@@ -402,35 +439,30 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
   >
   > Sie können die ausgewählte Datei auch auf ähnliche Weise mit der Löschen -Taste der Tastatur löschen.
 
-- **Kopieren**: Sie können aus den folgenden Optionen auswählen:
-
-   - **UUID kopieren**: Kopieren Sie die UUID der ausgewählten Datei in die Zwischenablage.
-
-   - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der ausgewählten Datei in die Zwischenablage.
+- **Generieren**: Verwenden Sie die Option, um eine Karte oder Themen innerhalb einer Karte auf einer Sites-Seite, in einem Inhaltsfragment oder in einem Experience Fragment zu veröffentlichen.
 
 - **Hinzufügen zu**: Sie können aus den folgenden Optionen auswählen:
    - **Sammlungen**: Fügt die ausgewählte Datei zu Sammlungen hinzu. Sie können sie zu einer vorhandenen oder neuen Sammlung hinzufügen.
 
    - **Wiederverwendbarer Inhalt**: Fügt die ausgewählte Datei der Liste Wiederverwendbarer Inhalt im linken Bereich hinzu.
 
-- **Eigenschaften**: Hiermit können Sie die Eigenschaftsseite der ausgewählten Datei öffnen. Sie können auf diese Eigenschaftenseite auch über die Assets-Benutzeroberfläche zugreifen, indem Sie eine Datei auswählen und dann in der Symbolleiste das Symbol Eigenschaften auswählen.
+- **Kopieren**: Sie können aus den folgenden Optionen auswählen:
 
-- **Im Zuordnungs-Dashboard öffnen**: Wenn die ausgewählte Datei eine DITA-Zuordnung ist, wird durch diese Option das Zuordnungs-Dashboard geöffnet.
+   - **UUID kopieren**: Kopieren Sie die UUID der ausgewählten Datei in die Zwischenablage.
 
-- **In Map-Konsole öffnen**: Falls die ausgewählte Datei eine DITA-Map ist, wird mit dieser Option die Map-Konsole geöffnet.
+   - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der ausgewählten Datei in die Zwischenablage.
 
-- **In Sauerstoff bearbeiten**: Wählen Sie diese Option, um die ausgewählte Datei im Oxygen Connector-Plug-in zu bearbeiten. Die Datei wird zur Bearbeitung geöffnet.
-
-  >[!NOTE]
-  >
-  >Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion in der Umgebung aktivieren zu lassen. Dies ist nicht als Teil der vordefinierten Unterstützung aktiviert. Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Option zur Bearbeitung in Oxygen](../cs-install-guide/conf-edit-in-oxygen.md) im Installations- und Konfigurationshandbuch.
-
+- **Asset erneut verarbeiten**: Führt Trigger bei der Verarbeitung des ausgewählten Assets aus.
 
 - **In Assets-Benutzeroberfläche anzeigen**: Verwenden Sie diese Option, um eine Vorschau einer .dita/.xml-Datei in der Assets-Benutzeroberfläche anzuzeigen. Bei einer .ditamap/.bookmap-Datei werden alle Themendateien innerhalb der Karte in einer einzigen einheitlichen Seitenansicht angezeigt.
 
-- **Als PDF herunterladen**: Verwenden Sie die Option, um die PDF-Ausgabe zu generieren und herunterzuladen.
+- **Eigenschaften**: Hiermit können Sie die Eigenschaftsseite der ausgewählten Datei öffnen.
 
-- **Generieren**: Verwenden Sie die Option, um eine Karte oder Themen innerhalb einer Karte auf einer Sites-Seite, in einem Inhaltsfragment oder in einem Experience Fragment zu veröffentlichen.
+  Beim Hinzufügen, Löschen oder Ändern von Metadateneigenschaften auf dieser Seite (standardmäßig oder benutzerdefiniert) wird der Trigger [Arbeitskopie-Indikator](./web-editor-edit-topics.md#working-copy-indicator) in der Dokumentversion angezeigt.
+
+  Sie können auf die Eigenschaftsseite auch über die Assets-Benutzeroberfläche zugreifen, indem Sie eine Datei auswählen und dann in der Symbolleiste auf das Symbol Eigenschaften klicken.
+
+- **Als PDF herunterladen**: Verwenden Sie die Option, um die PDF-Ausgabe zu generieren und herunterzuladen.
 
 ## Explorer
 
@@ -587,12 +619,19 @@ Standardmäßig können Sie die Dateien nach Titeln anzeigen. Wenn Sie mit dem M
 
 Um eine DITA-Datei zu Ihrem Bedienfeld „Wiederverwendbarer Inhalt“ hinzuzufügen, verwenden Sie eine der folgenden Methoden:
 
-- Wählen Sie das Symbol **+** neben Wiederverwendbarer Inhalt aus, um das Dialogfeld Datei durchsuchen zu öffnen. Wählen Sie die Datei aus, die Sie hinzufügen möchten, und wählen Sie dann **Hinzufügen** aus, um den Vorgang abzuschließen.
+- Wählen Sie das Symbol **+** neben Wiederverwendbarer Inhalt aus, um das Dialogfeld **Datei auswählen** zu öffnen.
+- Wählen Sie die Datei aus, die Sie hinzufügen möchten, und wählen Sie dann **Auswählen**. Sie können auch mithilfe der Filtersuchoption nach bestimmten Dateien suchen. Weitere Informationen finden Sie unter [Weitere Funktionen im Editor](./web-editor-other-features.md).
 
+
+
+  ![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+  Sie können auch das Symbol **Entfernen** verwenden, um die Auswahl einiger Dateien aus der Vorschau aufzuheben.
+
+  ![](images/resusable-content-remove-preview.png){width="650" align="left"}
 - Wählen Sie in der Repository-Ansicht das **Optionen**-Symbol der gewünschten Datei aus und wählen Sie **Hinzufügen zu** > **Wiederverwendbarer Inhalt** aus dem Kontextmenü.
 
 - Klicken Sie im Editor mit der rechten Maustaste auf die Registerkarte einer Datei, um das Kontextmenü zu öffnen, und wählen Sie **Hinzufügen zu** > **Wiederverwendbarer Inhalt**.
-
 
 Nachdem die Datei hinzugefügt wurde, können Sie alle wiederverwendbaren Inhaltselemente aus der Datei im Bedienfeld Wiederverwendbarer Inhalt anzeigen. Wiederverwendbare Inhalte werden mit ihren IDs und Elementnamen angezeigt.
 
@@ -1047,63 +1086,177 @@ Mit Experience Manager Guides können Sie Variablen für die native Veröffentli
 
 Das Symbol „Suchen und Ersetzen“ befindet sich unten im linken Bereich. Im Bedienfeld „Suchen und Ersetzen“ können Sie über Dateien in einer Zuordnung oder einem Ordner innerhalb Ihres Repositorys hinweg nach Text suchen und diesen ersetzen. Sie können Vorgänge zum Suchen und Ersetzen für alle Themen in einer Zuordnung ausführen, einschließlich Themen in Unterzuordnungen und Markdown-Dateien.
 
-![](images/map-find-replace.png){align="left"}
-
 Standardmäßig können Sie die Dateien nach Titeln anzeigen. Wenn Sie mit dem Mauszeiger auf eine Datei zeigen, können Sie den Dateititel und den Dateipfad als QuickInfo anzeigen.
 
 >[!NOTE]
 >
 > Als Administrator können Sie auch die Liste der Dateinamen im Editor anzeigen. Wählen Sie die **Dateiname** im Abschnitt **Konfiguration von Editor-Dateien** Benutzereinstellungen **aus**.
 
+Je nach Ihren Anforderungen können Sie die Funktion Suchen und Ersetzen in zwei verschiedenen Modi verwenden:
+
+- **Mit Source-Modus** Die Suche scannt nicht nur den sichtbaren Inhalt, sondern auch den zugrunde liegenden Quellinhalt (XML-Struktur, einschließlich Elemente, Tags und Attributwerte) für die gesuchte Zeichenfolge. Dieser Modus stellt eine umfassende Suche über den gesamten Inhalt hinweg sicher. Um diese Funktion verwenden zu können, müssen Sie die Option **Quellmodus verwenden** im Bedienfeld „Suchen und Ersetzen“ aktivieren.
+
+  >[!NOTE]
+  >
+  > Die Funktion **Quellmodus verwenden** ist in Experience Manager Guides as a Cloud Service mit Version 2026.01.0 und für On-Premise-Setups mit Version 5.2 verfügbar. Um diese Funktion verwenden zu können, müssen Sie zunächst Ihren Inhalt abhängig von der Einrichtung indizieren, die Sie verwenden.
+  > - **Für Cloud-**: Es muss eine benutzerdefinierte Indexbereitstellung durchgeführt werden. Weitere Informationen finden Sie unter [Bereitstellen eines benutzerdefinierten Index](/help/product-guide/cs-install-guide/custom-indexing.md). Wenden Sie sich nach Abschluss des Vorgangs an Ihr Customer Success-Team, um diese Funktion zu aktivieren.
+  > - **Bei On-Premise**: Eine Neuindizierung vorhandener Inhalte ist erforderlich, bevor die Funktion verwendet werden kann. Weitere Informationen finden Sie unter [Neuindizierung von Inhalten](/help/product-guide/install-guide/custom-indexing-prem.md). Wenden Sie sich nach Abschluss des Vorgangs an Ihr Customer Success-Team, um diese Funktion zu aktivieren.
+
+  ![](images/map-find-replace-with-source-mode.png){align="left"}
+
+<br>
+
 <details>
-    <summary> Durchführen der globalen Suche und Ersetzung </summary>
+    <summary> Durchführen einer globalen Suche und Ersetzen durch den Source-Modus</summary>
 
-
-Um die globale Suche und Ersetzung durchzuführen, führen Sie die folgenden Schritte aus:
+Um die globale Suche durchzuführen und durch den Source-Modus zu ersetzen, führen Sie die folgenden Schritte aus:
 
 1. Öffnen Sie das globale Bedienfeld **Suchen und Ersetzen**.
-1. Wählen Sie das **Suchen in** und wählen Sie eine der folgenden Optionen aus, um die Suche durchzuführen.
-
-   - **Aktuelle Karte**: Zum Suchen in der aktuell geöffneten Karte
-
-     >[!NOTE]
-     >
-     > Diese Option wird angezeigt, wenn Sie bereits eine Karte zur Bearbeitung geöffnet haben.
+1. Aktivieren Sie die **Verwenden des Quellmodus**.
+1. Wählen Sie das **Pfad**-Dropdown-Menü aus und wählen Sie eine der folgenden Optionen, um die Suche durchzuführen.
 
    - **Path**: Zum Suchen nach dem ausgewählten Pfad
-   - **Karte auswählen**: Zum Suchen in der ausgewählten Karte
+   - **Map**: Zum Suchen in einer bestimmten Zuordnung aus dem Repository oder den Sammlungen
+   - **Aktuelle Karte**: Zum Suchen in der aktuell geöffneten Karte
 
-1. Sie können das Dropdown-**„Optionen** verwenden und aus den folgenden Optionen auswählen:
+   ![](images/path-dropdown-source-mode.png){width="350" align="left"}
 
-   - **Datei vor Ersetzen sperren**: Wählen Sie diese Option, wenn Sie eine Datei vor dem Ersetzen des Suchbegriffs automatisch sperren möchten. Diese Einstellung ist relevanter, falls Ihr Administrator die Konfiguration so aktiviert hat, dass sie eine Datei vor der Bearbeitung sperrt. Wenn die Backend-Einstellung aktiviert ist, sollten Sie diese Option auswählen. Dadurch wird verhindert, dass das Dialogfeld Dateisperre Sie auffordert, jede Datei zu sperren, bevor Sie Änderungen vornehmen. Wenn Sie diese Option nicht auswählen, wird eine Eingabeaufforderung angezeigt, bevor eine Datei zur Bearbeitung geöffnet wird.
+
+1. Geben Sie die Suchzeichenfolge in das Feld **Suchen** ein. Um die Ergebnisse einzugrenzen, klicken Sie auf das **Filter**-Symbol neben dem Feld Suchen und wählen Sie die folgenden gewünschten Filter aus:
+
+   ![](images/find-filters-source-mode.png){width="350" align="left"}
+
+   - **Dateityp**: Wählen Sie den Dateityp; **Themen** und **Karten**, in denen Sie den Text suchen möchten
+   - **Dokumentstatus**: Sie können einen Dokumentstatus aus den verfügbaren Optionen auswählen. Die angezeigten Dokumentstatusoptionen werden aus den Ordnerprofilen abgeleitet. Sie stellen den kombinierten Satz aller möglichen Dokumentstatus in diesen Profilen dar. Zu den Standardstatus gehören „In Prüfung“, „Fertig“, „Entwurf“, „Genehmigt“, „Bearbeiten“ und „Überprüft“.
+   - **Zuletzt geändert**: Filtern Sie den Inhalt nach dem Änderungsdatum. Wählen Sie einen Datumsbereich aus dem Kalender aus oder wählen Sie eine der folgenden Zeitrahmen-Optionen:
+
+      - In den letzten 2 Stunden
+      - In letzter Woche
+      - Im letzten Monat
+      - Im letzten Jahr
+   - **Sonstige**: Sie können Folgendes konfigurieren:
+      - **Tags**: Filtern von Inhalten basierend auf Tags.
+      - **Suche unter Berücksichtigung der Groß**-/Kleinschreibung: Ermöglicht die Suche, um sicherzustellen, dass die Ergebnisse mit der angegebenen Groß-/Kleinschreibung übereinstimmen.
+      - **Von anderen gesperrte Dateien auflisten**: Zeigt Dateien an, die derzeit von anderen Benutzern gesperrt sind, und verhindert Bearbeitungen, bis die Sperre aufgehoben wird.
+
+1. Drücken Sie die Eingabetaste oder wählen Sie **Suchen**-Symbol aus, um die Suche durchzuführen.
+
+   ![](images/search-icon.png){width="350" align="left"}
+
+1. Wählen Sie eine Datei aus der Suchergebnisliste aus. Die Datei wird in der Source-Ansicht geöffnet, wobei der gesuchte Begriff im Inhalt hervorgehoben ist.
+
+1. Geben Sie den Begriff, den Sie als Ersatz verwenden möchten, in das Feld **Ersetzen durch** ein. Um anzupassen, wie Ersetzungen angewendet werden, klicken Sie auf das Symbol **Einstellungen** neben dem Feld und wählen Sie aus den verfügbaren Optionen aus.
+
+   - **Entsperrte Dateien ersetzen**: Wählen Sie diese Option, um das Ersetzen in den entsperrten Dateien zu ermöglichen.
+
+   - **Neue Version nach Ersetzen erstellen**: Wählen Sie diese Option aus, wenn Sie eine neue Version des Themas erstellen möchten, in dem Sie den Text ersetzen möchten. Sie können auch Versionskommentare angeben, die mit jeder aktualisierten Datei hinzugefügt werden. Wenn Sie diese Option nicht auswählen, werden die Änderungen in der aktuellen Version des Themas gespeichert und es wird keine neue Version erstellt.
+
+   ![](images/replace-settings-source-mode.png){width="350" align="left"}
+
+
+1. Wählen Sie **Vorkommen ersetzen** aus, um die aktuell hervorgehobene Suchzeichenfolge im Thema zu ersetzen, oder wählen Sie die Pfeile nach oben und unten aus, um zum nächsten oder vorherigen Vorkommen des Textes zu wechseln.
+
+   ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Wählen Sie **Alle ersetzen**, um alle Vorkommen der gesuchten Zeichenfolge in allen gesuchten Dateien in einem Schritt durch die angegebene Ersatzzeichenfolge zu ersetzen. Nachdem alle Vorkommen ersetzt wurden, wird eine Benachrichtigung angezeigt.
+
+   ![](images/replace-all.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   >Um die Schaltfläche **Alle ersetzen** zu aktivieren, muss der Administrator des Ordnerprofils oder der Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in **Workspace-Einstellungen** auswählen (**Einstellungen** für **On-Prem**).
+
+1. Sie können auch den Mauszeiger über eine Datei in der Suchergebnisliste bewegen, um das Symbol **Alles in Datei ersetzen** auf der rechten Seite anzuzeigen, mit dem Sie alle Vorkommen des Begriffs in einer Datei ersetzen können.
+
+   >[!NOTE]
+   >
+   > Sie erhalten auch das Symbol **Entfernen**, um die Datei aus dem Suchergebnis zu entfernen. Die Dateien, die Sie entfernen, werden aus der Liste entfernt, und der gesuchte Begriff wird in ihnen nicht ersetzt.
+
+   ![](images/replace-all-in-file.png){width="350" align="left"}
+
+1. Nach Abschluss des Vorgangs „Alle ersetzen“ wird ein herunterladbarer CSV-Bericht generiert, der einen Schnappschuss aller durchgeführten Ersetzungsaktionen enthält. Sie können den Bericht herunterladen, um detaillierte Informationen zu den Ersetzungsvorgängen anzuzeigen, einschließlich der Anzahl der erfolgreich ersetzten Vorfälle sowie Details zu jedem einzelnen Vorgang sowie zu Fehlern und den entsprechenden Gründen. Der Vorgang kann aus bestimmten Gründen fehlschlagen, z. B. weil die Datei von einem anderen Benutzer gesperrt wird, aufgrund von Validierungsfehlern, die durch Änderungen an der Datei während des Vorgangs verursacht werden, oder aus anderen ähnlichen Gründen.
+
+   ![](images/snapshot-replace-all.png){width="350" align="left"}
+
+Im gesamten System kann jeweils nur ein Vorgang zum Ersetzen aller Vorgänge ausgeführt werden. Bis zum Ausführen des Vorgangs wird der Status „Alle laufenden Vorgänge ersetzen“ angezeigt. Sie können auch den Vorgang „Alle ersetzen“ dazwischen abbrechen. Wenn Sie den Vorgang abbrechen, erhalten Sie eine Benachrichtigung darüber in Ihrem Posteingang.
+
+![](images/replace-all-in-progress-source-mode.png){width="350" align="left"}
+
+</details>
+
+<br>
+
+- **Ohne Source-Modus:** Die Suche ist auf den Text beschränkt, der in der Autorenansicht angezeigt wird, und konzentriert sich ausschließlich auf den sichtbaren Inhalt, wobei der Quellinhalt wie XML-Elemente oder -Attribute übersprungen wird. Dieser Modus ist ideal für schnelle, reine Inhaltssuchen.
+
+  ![](images/map-find-replace-without-source-mode.png){align="left"}
+
+<br>
+<details>
+    <summary> Durchführen einer globalen Suche und Ersetzen ohne Source-Modus</summary>
+
+
+Um die globale Suche und Ersetzung ohne Source-Modus durchzuführen, führen Sie die folgenden Schritte aus:
+
+1. Öffnen Sie das globale Bedienfeld **Suchen und Ersetzen**.
+1. Wählen Sie das **Pfad**-Dropdown-Menü aus und wählen Sie eine der folgenden Optionen, um die Suche durchzuführen.
+
+   - **Path**: Zum Suchen nach dem ausgewählten Pfad
+   - **Map**: Zum Suchen in einer bestimmten Zuordnung aus dem Repository oder den Sammlungen
+   - **Aktuelle Karte**: Zum Suchen in der aktuell geöffneten Karte
+
+   ![](images/path-dropdown.png){width="350" align="left"}
+
+1. Geben Sie die Suchzeichenfolge in das Feld **Suchen** ein. Um die Ergebnisse einzugrenzen, klicken Sie auf das **Filter**-Symbol neben dem Feld Suchen und wählen Sie die folgenden gewünschten Filter aus:
+
+
    - **Nur ganze Wörter**: Wählen Sie diese Option aus, wenn Sie nach der gesamten Suchzeichenfolge suchen möchten. Wenn Sie beispielsweise über in der Suchzeichenfolge eingeben, gibt das Suchergebnis alle Dateien zurück, die Wörter wie über und Überblick enthalten. Wählen Sie diese Option aus, wenn Sie die Suche auf den eingegebenen Begriff beschränken möchten.
-   - **Neue Version nach Ersetzen erstellen**: Wählen Sie diese Option aus, wenn Sie eine neue Version des Themas erstellen möchten, in dem Sie den Text ersetzen möchten. Sie können auch Versionskommentare angeben, die mit jeder aktualisierten Datei hinzugefügt werden.
-
-     Wenn Sie diese Option nicht auswählen, werden die Änderungen in der aktuellen Version des Themas gespeichert und es wird keine neue Version erstellt.
 
    - **Indirekte Verweise einschließen**: Wählen Sie diese Option aus, wenn Sie die Zeichenfolge in den indirekten Verweisen auch innerhalb der DITA-Zuordnung suchen möchten. Standardmäßig ist dies deaktiviert, sodass die Suche nur für die direkten Verweise durchgeführt wird.
 
-1. Geben Sie den Suchbegriff oder Text ein, den Sie suchen möchten.
-1. Geben Sie den Text ein, durch den Sie den Suchbegriff ersetzen möchten.
-1. Drücken Sie die Eingabetaste oder wählen Sie **Suchen** Symbol \( ![](images/search-icon.svg)\) aus, um die Suche durchzuführen.
-1. Wählen Sie eine Datei aus der Suchergebnisliste aus. Die Datei wird im Inhaltsbearbeitungsbereich geöffnet, wobei der gesuchte Begriff im Inhalt hervorgehoben wird.
+   ![](images/find-filters.png){width="350" align="left"}
 
-1. Wählen Sie **Einzelnes Vorkommen ersetzen** \( ![](images/replace-icon.svg)\) aus, um den aktuell hervorgehobenen Suchbegriff im Thema zu ersetzen, oder wählen Sie Nächste Übereinstimmung ![](images/next-match-in-search.png) oder ![](images/previous-match-in-search.png) vorherige Übereinstimmung aus, um zum nächsten oder vorherigen Vorkommen des Textes zu wechseln.
-1. Wählen Sie **Alle ersetzen** \( ![](images/replace-all-in-file-icon.svg)\), um alle Vorkommen des gesuchten Begriffs in einer Datei mit einem einzigen Klick durch den Ersetzungsbegriff zu ersetzen. Nachdem Sie alle Vorkommen in der ausgewählten Datei ersetzt haben, wird eine Benachrichtigung angezeigt.
+1. Drücken Sie die Eingabetaste oder wählen Sie **Suchen**-Symbol aus, um die Suche durchzuführen.
 
-Um das Symbol **Alle ersetzen** zu aktivieren, muss Ihr Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in **Workspace-Einstellungen** (**Einstellungen** für **On-Prem**) auswählen.
+   ![](images/search-icon.png){width="350" align="left"}
 
->[!NOTE]
->
-> Bewegen Sie den Mauszeiger über eine Datei in der Suchergebnisliste, um das Symbol Alle ersetzen in der Datei auf der rechten Seite anzuzeigen. Sie erhalten auch das Symbol Datei ignorieren , um die Datei aus dem Suchergebnis zu entfernen. Die Dateien, die Sie ignorieren, werden aus der Liste entfernt und der gesuchte Begriff wird in ihnen nicht ersetzt.
+1. Wählen Sie eine Datei aus der Suchergebnisliste aus. Die Datei wird in der Autorenansicht im Inhaltsbearbeitungsbereich geöffnet, wobei der gesuchte Begriff im Inhalt hervorgehoben ist.
+
+1. Geben Sie den Begriff, den Sie als Ersatz verwenden möchten, in das Feld **Ersetzen durch** ein. Um anzupassen, wie Ersetzungen angewendet werden, klicken Sie auf das Symbol **Einstellungen** neben dem Feld und wählen Sie aus den verfügbaren Optionen aus.
+
+   - **Datei vor Ersetzen sperren**: Wählen Sie diese Option, wenn Sie eine Datei automatisch vor dem Ersetzen der Suchzeichenfolge sperren möchten. Diese Einstellung ist relevanter, falls Ihr Administrator die Konfiguration so aktiviert hat, dass sie eine Datei vor der Bearbeitung sperrt. Wenn die Backend-Einstellung aktiviert ist, sollten Sie diese Option auswählen. Dadurch wird verhindert, dass das Dialogfeld Dateisperre Sie auffordert, jede Datei zu sperren, bevor Sie Änderungen vornehmen. Wenn Sie diese Option nicht auswählen, wird eine Eingabeaufforderung angezeigt, bevor eine Datei zur Bearbeitung geöffnet wird.
+
+   - **Neue Version nach Ersetzen erstellen**: Wählen Sie diese Option aus, wenn Sie eine neue Version des Themas erstellen möchten, in dem Sie den Text ersetzen möchten. Sie können auch Versionskommentare angeben, die mit jeder aktualisierten Datei hinzugefügt werden. Wenn Sie diese Option nicht auswählen, werden die Änderungen in der aktuellen Version des Themas gespeichert und es wird keine neue Version erstellt.
+
+   ![](images/replace-settings.png){width="350" align="left"}
+
+
+1. Wählen Sie **Vorkommen ersetzen** aus, um die aktuell hervorgehobene Suchzeichenfolge im Thema zu ersetzen, oder wählen Sie die Pfeile nach oben und unten aus, um zum nächsten oder vorherigen Vorkommen des Textes zu wechseln
+
+   ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Wählen Sie **Alle ersetzen**, um alle Vorkommen des gesuchten Begriffs in einer Datei in einem Schritt durch den ersetzten Begriff zu ersetzen. Nachdem Sie alle Vorkommen in der ausgewählten Datei ersetzt haben, wird eine Benachrichtigung angezeigt.
+
+   >[!NOTE]
+   >
+   > Um das Symbol **Alle ersetzen** zu aktivieren, muss der Administrator des Ordnerprofils oder der Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in den **Workspace-Einstellungen** auswählen (**Einstellungen** für **On-Prem**). Wenn während des Ersetzungsvorgangs Fehler auftreten, werden diese Dateien aufgrund von XML-Analyseproblemen oder DITA-bezogenen Fehlern übersprungen.
+
+   ![](images/replace-all.png){width="350" align="left"}
+
+1. Sie können auch den Mauszeiger über eine Datei in der Suchergebnisliste bewegen, um das Symbol **Alles in Datei ersetzen** auf der rechten Seite anzuzeigen, mit dem Sie alle Vorkommen des Begriffs in einer Datei ersetzen können.
+
+   >[!NOTE]
+   >
+   > Sie erhalten auch das Symbol **Entfernen**, um die Datei aus dem Suchergebnis zu entfernen. Die Dateien, die Sie entfernen, werden aus der Liste entfernt, und der gesuchte Begriff wird in ihnen nicht ersetzt.
+
+   ![](images/replace-all-in-file-no-source.png){width="350" align="left"}
 
 Im gesamten System kann jeweils nur ein Vorgang zum Ersetzen aller Vorgänge ausgeführt werden. Bis zum Ausführen des Vorgangs wird der Status „Alle laufenden Vorgänge ersetzen“ angezeigt. Sie können auch den Vorgang „Alle ersetzen“ dazwischen abbrechen oder den Protokollbericht anzeigen. Wenn Sie den Vorgang abbrechen, erhalten Sie eine Benachrichtigung darüber in Ihrem Posteingang. Nachdem Sie alle Vorkommen in der ausgewählten Datei ersetzt haben, wird eine Erfolgsbenachrichtigung angezeigt.
 
-![](images/replace-all-in-progress.png){width="300" align="left"}
+![](images/replace-all-in-progress.png){width="350" align="left"}
 
 Sie können auch die Option **In Karte suchen** im Menü **Optionen** einer Karte verwenden, um Text in einer Karte zu suchen und zu ersetzen. Diese Option wird für eine Zuordnung angezeigt, die im Repository-Bereich oder in der Zuordnungsansicht geöffnet ist.
 
-![](images/map-options-menu.png){width="550" align="left"}
+![](images/map-options-menu.png){width="650" align="left"}
 
 </details>
 
@@ -1170,4 +1323,4 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 
 </details>
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

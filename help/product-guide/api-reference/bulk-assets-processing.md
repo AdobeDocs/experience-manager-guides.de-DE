@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die API zum Starten der Massenverarbeitung 
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: e2eca63a5dd56e358aeea047b37f4b0f88dc720b
+source-git-commit: 8671a26bfee2d9e3b4e70a8f2615568c08c0a370
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 11%
+source-wordcount: '587'
+ht-degree: 12%
 
 ---
 
@@ -26,6 +26,15 @@ Eine POST-Methode, die die Massenverarbeitung von Assets für einen angegebenen 
 | `path` | Zeichenfolge | Ja | Absoluter Pfad des Ordners oder Assets im zu verarbeitenden AEM-Repository. |
 | `excludedPaths` | Zeichenfolge | Nein | Liste der von der Verarbeitung auszuschließenden Pfade |
 | `type` | Zeichenfolge | Ja | Art der durchzuführenden Verarbeitung. Beispiel: ASSET_PROCESSING. |
+| `filter` | Objekt | Nein | Auf die ausgewählten Assets angewendete Filter |
+
+**Objektfelder filtern**
+
+| Name | Typ | Beschreibung |
+|----|----|-----------|
+| fileTypes | Zeichenfolge | Zu verarbeitende Asset-Typen. Zulässige Werte: DITATOPIC, DITAMAP, MARKDOWN, HTML/CSS, DITAVAL, SONSTIGE. |
+| Anfangszeit | Ganzzahl | Untergrenze für die Erstellungszeit des Assets |
+| Endzeit | Ganzzahl | Obergrenze für die Erstellungszeit des Assets |
 
 **Beispiel für eine Anfrage**
 
@@ -35,7 +44,12 @@ Eine POST-Methode, die die Massenverarbeitung von Assets für einen angegebenen 
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1764932039000
+    }
 }
 ```
 

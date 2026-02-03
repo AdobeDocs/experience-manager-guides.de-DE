@@ -5,10 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 32ed6c47f8193f955df8a60fc8cdc931b28fa7a4
+source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 1%
+source-wordcount: '651'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ In datenintensiven Workflows wie der Veröffentlichung ist ein effizientes Asset
 >[!NOTE]
 >
 > - Bei großen Datensätzen ist es am besten, die Verarbeitung außerhalb der Spitzenzeiten auszuführen, um eine Beeinträchtigung der Systemleistung zu vermeiden. Nachdem die Verarbeitungsaufgabe abgeschlossen ist, können Sie die Details überprüfen, um die Ergebnisse zu analysieren.<br>
->- Die Asset-Verarbeitung für den `/content/dam`-Trigger erfolgt alle 15 Minuten. Während jedes Zyklus werden Assets aufgenommen, die innerhalb des letzten 15-Minuten-Intervalls neu hinzugefügt wurden oder unverarbeitet blieben, und erneut verarbeitet. Um die Ansicht der Funktion für die automatische Asset-Verarbeitung zu konfigurieren, [&#x200B; Sie „Asset-Verarbeitungsfunktion konfigurieren](../cs-install-guide/configure-asset-processing-cs.md).
+>- Die Asset-Verarbeitung für den `/content/dam`-Trigger erfolgt alle 15 Minuten. Während jedes Zyklus werden Assets aufgenommen, die innerhalb des letzten 15-Minuten-Intervalls neu hinzugefügt wurden oder unverarbeitet blieben, und erneut verarbeitet. Um die Ansicht der Funktion für die automatische Asset-Verarbeitung zu konfigurieren, [ Sie „Asset-Verarbeitungsfunktion konfigurieren](../cs-install-guide/configure-asset-processing-cs.md).
 
 ## Verarbeiten der Assets
 
@@ -53,20 +53,29 @@ Gehen Sie wie folgt vor, um die Assets zu verarbeiten:
 
 1. Wählen Sie **Registerkarte** Neuer Prozess“ in der oberen rechten Ecke des Fensters, um eine neue Verarbeitungsaufgabe zu starten.
 
+   Das **Neuer Prozess**-Dialogfeld wird geöffnet.
+
    ![New-process-asset-processor](images/new-asset-processor.png){width="350" align="left"}
 
-1. Wählen Sie den Ordner aus, den Sie verarbeiten möchten. Sie können auch die Ordner (innerhalb des übergeordneten ausgewählten Ordners) auswählen, die Sie ausschließen oder ignorieren möchten.
+1. Geben Sie die folgenden Details im Dialogfeld an:
+
+   1. **Funktionstyp**: Wählen Sie **Asset-Verarbeitung** aus der Dropdown-Liste aus.
+   1. **Ordner und Dateien auswählen**: Navigieren Sie zu und wählen Sie einen oder mehrere Ordner und Dateien aus, die verarbeitet werden sollen.
+   1. **Zu ignorierende Ordner auswählen** Wählen Sie optional Unterordner im ausgewählten übergeordneten Ordner aus, die von der Verarbeitung ausgeschlossen werden sollen.
+   1. **Asset-Typ**: Wählen Sie aus der Dropdown-Liste den spezifischen Asset-Typ aus, der verarbeitet werden soll (z. B. DITA Topic, DITA Map, Markdown, HTML/CSS, DITAVAL oder andere Dateien). Nur der ausgewählte Asset-Typ wird aus den zuvor angegebenen Ordnern verarbeitet.
+Beispiel: Durch Auswahl von DITA Topic werden nur DITA-Themen innerhalb des ausgewählten Ordners verarbeitet, was eine zielgerichtete Filterung ermöglicht.
+   1. **Erstellt nach/Erstellt vor**: Wenden Sie Datumsfilter an, um Assets zu verarbeiten, die innerhalb des angegebenen Zeitraums erstellt wurden.
 
    >[!NOTE]
    >
-   >Es kann jeweils nur ein Ordner für die Verarbeitung ausgewählt werden. Für bestimmte Vorgänge können Sie mehrere Ordner ausschließen.
+   > Wenn bereits ein Prozess für einen Ordner ausgeführt wird, können Sie für denselben Ordner erst dann einen neuen Prozess starten, wenn die aktuelle Aufgabe abgeschlossen ist.
 
-1. Wählen Sie **Erstellen**. Es erscheint ein Popup mit der Meldung **Erfolg und der Prozess wurde erfolgreich ausgelöst** wie im Ausschnitt dargestellt. Dasselbe spiegelt sich in der Liste wider. Im Fenster wird der Status der Verarbeitungsaufgabe angezeigt.
+1. Wählen Sie **Erstellen**. Es erscheint ein Popup mit der Meldung **Erfolg und der Prozess wurde erfolgreich ausgelöst**. Im Fenster wird der Status der Verarbeitungsaufgabe angezeigt.
 
    ![Message-Asset-Processor](images/message-asset-processor.png){width="350" align="left"}
 
 
-## Zusätzliche Optionen für die Verarbeitungsaufgaben
+## Zusätzliche Optionen für Asset-Verarbeitungsaufgaben
 
 Zusätzliche Optionen stehen für die Verarbeitungsaufgabe zur Verfügung, sobald sie initiiert wurde. Sie können auf diese Optionen zugreifen, indem Sie den Mauszeiger über die Ausführungs-ID Ihrer Aufgabe bewegen. Details zu diesen Optionen finden Sie unten:
 

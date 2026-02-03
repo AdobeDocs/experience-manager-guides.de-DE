@@ -3,9 +3,10 @@ title: Grundlegendes zu Prüfungsbenachrichtigungen
 description: Erfahren Sie mehr über die verschiedenen Arten von Prüfungsbenachrichtigungen und deren Trigger in den verschiedenen Phasen des Prüfungs-Workflows in Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
+source-git-commit: 16688221c35e0b24c51cbff27953a93892cd0944
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ Die nachstehende Tabelle bietet einen Überblick über die verschiedenen Arten v
 | Zuweisung von Reviewer aufgehoben | Zuweisung von der Prüfungsaufgabe aufgehoben **Homepage-Überprüfung** | Zuweisung von **author** aufgehoben | Zuweisung von der Prüfungsaufgabe aufgehoben **Homepage-Überprüfung** | Die Zuweisung von der Prüfungsaufgabe **Homepage Review** unter dem Projekt **WebDocs Revamp** wurde von **Author** aufgehoben. | **Prüfer** |
 | Erwähnung von Tags | Erwähnt im Kommentar zur Prüfungsaufgabe für **Homepage-Überprüfung** | Erwähnt von **author** | Erwähnt im Kommentar zur Prüfungsaufgabe für **Homepage-Überprüfung** | Sie wurden in einem Kommentar zu Aufgabe **Homepage Review** unter **WebDocs Revamp** von **Author** erwähnt. **Kommentarauszug:** *„Bitte die Überschriftenstruktur entsprechend den Richtlinien für Barrierefreiheit aktualisieren.“* | **Erwähnter Benutzer** |
 | Inhalt wurde während der Überprüfung aktualisiert | Thema in Prüfungsaufgabe aktualisiert **Homepage-Überprüfung** | Aktualisiert von **author** | Thema in Prüfungsaufgabe aktualisiert **Homepage-Überprüfung** | **Autor** hat die Themenversionen für die Prüfungsaufgabe (**)**. Bitte rechtzeitig vor Fälligkeitsdatum (15. **2025)**. | **Prüfer** |
+| Themen, die hinzugefügt oder entfernt wurden oder deren Version aktualisiert wurde, während eine Prüfungsaufgabe mit Prüfenden ausgeführt wird | Themen aktualisiert in Prüfungsaufgabe **Startseitenüberprüfung** | Aktualisiert von **author** | Themen aktualisiert in Prüfungsaufgabe **Startseitenüberprüfung** | **Autor** hat die Themenversionen für die Prüfungsaufgabe (**)**. Bitte rechtzeitig vor Fälligkeitsdatum (15. **2025)**. | **Prüfer** |
 
 
 In der obigen Tabelle stellt der **Text fett gedruckt** Beispielwerte dar und wird von vordefinierten Variablen gesteuert, die in Benachrichtigungen verwendet werden können.
@@ -59,4 +61,4 @@ Eine vollständige Liste der vordefinierten Variablen und die Anpassung der Übe
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

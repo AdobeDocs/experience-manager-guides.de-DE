@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 1524533c6ffcdfc8aed3cf53cf3467dcdd22369f
 workflow-type: tm+mt
-source-wordcount: '5615'
+source-wordcount: '5703'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene Design-Vorlage anzugeben,
 >
 > Nachdem Sie einen benutzerdefinierten Design-Vorlagenknoten erstellt haben, müssen Sie die Option Design in den AEM-Site-Ausgabevorgaben aktualisieren, um den benutzerdefinierten Design-Vorlagenknoten zu verwenden.
 
-Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager-Website](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de) und [Grundlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=de) Entwicklung einer eigenen Website in AEM.
+Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager-Website](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de) und [Grundlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) Entwicklung einer eigenen Website in AEM.
 
 ### Verwenden des Dokumenttitels zum Generieren der AEM-Site-Ausgabe
 
@@ -269,7 +269,7 @@ Um das `table`-Element von der Reduzierung auszuschließen, fügen Sie die folge
 
 ### Konfigurieren der Versionierung für gelöschte Seiten in der AEM Site-Ausgabe
 
-Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und **&#x200B;**&#x200B;Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
+Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und ****Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
 
 Führen Sie die folgenden Schritte aus, um die Erstellung einer Version für die zu löschenden Seiten zu stoppen:
 
@@ -630,11 +630,11 @@ AEM Guides stellt die `apps.fmdita.dashboard-extn` zum Anpassen der Zuordnungsko
 
 >[!NOTE]
 >
-> Weitere Informationen zum Erstellen der AEM-Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de).
+> Weitere Informationen zum Erstellen der AEM-Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Verarbeiten der Bildausgabedarstellung während der Ausgabegenerierung {#id177BF0G0VY4}
 
-AEM enthält einen Satz von standardmäßigen Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Asset-Verarbeitung für die gängigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabedarstellungen desselben Bilds im Binärformat. Diese Ausgabedarstellungen können unterschiedlich groß sein, eine andere Auflösung, ein hinzugefügtes Wasserzeichen oder eine andere geänderte Eigenschaft aufweisen. Weitere Informationen zum Verarbeiten von Assets durch AEM finden Sie unter [Verarbeiten von Assets mit Medien-Handlern und Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=de) in der Dokumentation zu AEM.
+AEM enthält einen Satz von standardmäßigen Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Asset-Verarbeitung für die gängigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabedarstellungen desselben Bilds im Binärformat. Diese Ausgabedarstellungen können unterschiedlich groß sein, eine andere Auflösung, ein hinzugefügtes Wasserzeichen oder eine andere geänderte Eigenschaft aufweisen. Weitere Informationen zum Verarbeiten von Assets durch AEM finden Sie unter [Verarbeiten von Assets mit Medien-Handlern und Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) in der Dokumentation zu AEM.
 
 Mit AEM Guides können Sie konfigurieren, welche Bildausgabe zum Zeitpunkt der Generierung der Ausgabe für Ihre Dokumente verwendet werden soll. Sie können beispielsweise aus einer der standardmäßigen Bildausgabedarstellungen auswählen oder eine erstellen und dieselbe zum Veröffentlichen Ihrer Dokumente verwenden. Die Bildausgabedarstellungszuordnung zum Veröffentlichen Ihrer Dokumente wird in der `/libs/fmdita/config/ **renditionmap.xml**`-Datei gespeichert. Ein Ausschnitt `renditionmap.xml` Datei lautet wie folgt:
 
@@ -649,6 +649,7 @@ Mit AEM Guides können Sie konfigurieren, welche Bildausgabe zum Zeitpunkt der G
       <rendition output="AEMSITE">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="PDF">original</rendition>
       <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
       <rendition output="EPUB">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="CUSTOM">cq5dam.web.1280.1280.jpeg</rendition>
    </mapelement>
@@ -657,6 +658,26 @@ Mit AEM Guides können Sie konfigurieren, welche Bildausgabe zum Zeitpunkt der G
 ```
 
 Das `mimetype` gibt den MIME-Typ des Dateiformats an. Das `rendition output`-Element gibt den Typ des Ausgabeformats und den Namen der Ausgabedarstellung \(z. B. `cq5dam.web.1280.1280.jpeg`\) an, die zum Veröffentlichen der angegebenen Ausgabe verwendet werden soll. Sie können die Bildausgabedarstellungen angeben, die für alle unterstützten Ausgabeformate verwendet werden sollen - AEMSITE, PDF, HTML5, EPUB und CUSTOM.
+
+Wenn Sie verschiedene Bildausgabedarstellungen für eine Ausgabevorgabe angeben möchten, können Sie das `outputName`-Attribut verwenden, dessen Wert auf den Titel der Vorgabe festgelegt ist, um benutzerdefinierte Ausgabedarstellungen für bestimmte Ausgabevorgaben unter demselben Ausgabetyp zu definieren. Dies ist nützlich, wenn Sie für verschiedene Veröffentlichungsszenarien unterschiedliche Bildgrößen oder Formate benötigen.
+
+Beispiel:
+
+
+```XML
+<renditionmap>
+   <mapelement>
+      <mimetype>image/png</mimetype>
+      
+      <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
+      
+   </mapelement>
+...
+</renditionmap>
+```
+
+Wenn in den oben genannten Ausgabedarstellungen das Attribut `outputName` auf `ditahtml5` (voreingestellter Titel) festgelegt ist, verwendet die `ditahtml5` die `cq5dam.thumbnail.319.319.png`. Wenn das `outputName` nicht angegeben ist, verwenden alle HTML5-Ausgaben die größere `cq5dam.web.1280.1280.jpeg`.
 
 Wenn die angegebene Ausgabedarstellung nicht vorhanden ist, sucht der AEM Guides-Veröffentlichungsprozess zunächst nach der Web-Ausgabedarstellung des angegebenen Bildes. Wenn selbst die Web-Ausgabedarstellung nicht gefunden wird, wird die ursprüngliche Ausgabedarstellung des Bildes verwendet.
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: d56c5d92a05e8652e9ce1e8b5d508c1441daf012
+source-git-commit: 34a9fcb414831c3a6437ea39fa3541ef7994dd1c
 workflow-type: tm+mt
-source-wordcount: '2452'
+source-wordcount: '2492'
 ht-degree: 10%
 
 ---
@@ -19,6 +19,11 @@ ht-degree: 10%
    - Versionshinweise {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - [Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
+         - Versionen 2026 {#2026-releases}
+            - Version 2026.01.0 {#2601-release}
+               - [Neue Funktionen](./release-info/whats-new-2026-01-0.md)
+               - [Behobene Probleme](./release-info/fixed-issues-2026-01-0.md)
+               - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2026-01-0.md)
          - Versionen 2025 {#2025-releases}
             - Version 2025.11.0 {#2511-release}
                - [Neue Funktionen](./release-info/whats-new-2025-11-0.md)
@@ -169,14 +174,14 @@ ht-degree: 10%
                - [Versionshinweise für 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Versionshinweise zu 4.2](./release-info/release-notes-4-2.md)
          - [Versionshinweise zu 4.1.x](./release-info/release-notes-4-1.md)
-         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - Versionshinweise zu [4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - Versionshinweise zu [3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
-         - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Startseite {#home-page}
       - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
       - [Repository-Schnittstelle](./user-guide/home-page-repository-view.md)
@@ -374,7 +379,7 @@ ht-degree: 10%
       - Fehlerbehebung {#troubleshooting}
          - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [On-Premise-Grundlagen](./install-guide/introduction.md)
@@ -471,6 +476,8 @@ ht-degree: 10%
          - [Asset-Verarbeitungsfunktion konfigurieren](./install-guide/configure-asset-processing.md)
       - Arbeiten mit der B-Tree-Bereinigung{#btree-cleanup}
          - [Konfigurieren der B-Tree-Bereinigung](./install-guide/configure-btree-clean-up-job.md)
+      - Benutzerdefinierte Indizierung{#custom-indexing}
+         - [Bereitstellen eines benutzerdefinierten Index für Suchen und Ersetzen (Source-Ansicht)](./install-guide/custom-indexing-prem.md)
       - [Anhang](./install-guide/appendix.md)
    - Cloud Services {#cs-ig}
       - [Über dieses Handbuch](./cs-install-guide/introduction.md)
@@ -503,6 +510,7 @@ ht-degree: 10%
          - [Konfigurieren einer benutzerdefinierten DITA-Zuordnungsvorlage](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - Arbeiten mit Dokumentstatus {#doc-state-cs}
          - [Status von Dokumenten konfigurieren](./cs-install-guide/customize-doc-state.md)
+         - [Konfigurieren von Dokumentenstatusfiltern](./cs-install-guide/config-doc-state-filters.md)
       - Konfigurieren von Workspace-Einstellungen {#workspace-configs}
          - [Workspace-Einstellungen](./cs-install-guide/workspace-settings.md)
       - Arbeiten mit den Web-Editor-Konfigurationen {#web-editor-configs-cs}
@@ -556,6 +564,8 @@ ht-degree: 10%
          - [Asset-Verarbeitungsfunktion konfigurieren](./cs-install-guide/configure-asset-processing-cs.md)
       - Arbeiten mit der B-Tree-Bereinigung{#btree-cleanup-cs}
          - [Konfigurieren der B-Baumbereinigung](./cs-install-guide/configure-btree-cleanup-cs.md)
+      - Benutzerdefinierte Indizierung{#custom-indexing-cs}
+         - [Bereitstellen eines benutzerdefinierten Index für Suchen und Ersetzen (Source-Ansicht)](./cs-install-guide/custom-indexing.md)
       - [Anhang](./cs-install-guide/appendix.md)
 - API-Referenz {#api-reference}
    - [Einführung](./api-reference/introduction.md)
@@ -570,6 +580,7 @@ ht-degree: 10%
    - [API zum Starten der Massenverarbeitung für Assets](./api-reference/bulk-assets-processing.md)
    - [Massenaktivierung - vollständiger Ereignishandler](./api-reference/bulk-activation-complete-event.md)
    - [Ereignishandler für Konversionsprozess](./api-reference/conversion-complete-event.md)
+   - [Erstellen eines Übersetzungsprojekts](./api-reference/translation-project.md)
 - Wissensdatenbank {#knowledge-base}
    - Expertensitzung {#expert-session}
       - [Expertensitzung - Übersicht](./knowledge-base/expert-sessions/expert-session.md)

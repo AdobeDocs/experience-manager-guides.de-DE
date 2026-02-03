@@ -4,9 +4,9 @@ description: Erkunden Sie andere Funktionen des Editors in Adobe Experience Mana
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Ihr Dateispeichererlebnis hängt von den folgenden drei Szenarien ab, in denen S
 Je nachdem, ob die Datei gesperrt/entsperrt ist und gespeicherte oder nicht gespeicherte Änderungen aufweist, können Sie die folgenden Optionen anzeigen:
 
 - **Entsperren und Schließen**: Die Sperre für die Datei wird aufgehoben, und die Datei wird geschlossen.
-- **Als neue Version speichern**: Dadurch werden die Änderungen gespeichert, die Sie am Inhalt vorgenommen haben, und eine neue Version der Datei erstellt. Sie können der neu gespeicherten Version auch Beschriftungen und Kommentare hinzufügen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version &#x200B;](web-editor-toolbar.md#version-information-and-save-as-new-version).
+- **Als neue Version speichern**: Dadurch werden die Änderungen gespeichert, die Sie am Inhalt vorgenommen haben, und eine neue Version der Datei erstellt. Sie können der neu gespeicherten Version auch Beschriftungen und Kommentare hinzufügen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version ](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 - **Datei entsperren**: Wenn Sie eine Datei entsperren, wird die Sperre für die Datei aufgehoben und die Änderungen werden in der aktuellen Version der Datei gespeichert.
 
@@ -144,6 +144,132 @@ Der Editor bietet ein Dialogfeld zum Durchsuchen von smarten Dateien. Der Editor
 >[!NOTE]
 >
 > Im Falle einer Bild-, Audio- oder Videodatei wird im Dialogfeld zum Durchsuchen der Datei standardmäßig der Speicherort der Datei und nicht der zuletzt verwendete Speicherort angezeigt.
+
+## Durchsuchen von Dateien und Ordnern in Experience Manager Guides
+
+Experience Manager Guides bietet intuitive Dialogfelder - **Datei auswählen** und **Pfad auswählen** -, mit denen Sie Dateien oder Ordner im Content-Repository effizient durchsuchen und auswählen können.
+
+>[!NOTE]
+>
+> Der Datei- und Ordnerpfadbrowser wurde mit einer überarbeiteten Benutzeroberfläche in der Version 2601 von Experience Manager Guides as a Cloud Service eingeführt. Die neue Benutzeroberfläche ist standardmäßig aktiviert. Wenn Sie es vorziehen, die vorhandene Benutzeroberfläche ohne diese Aktualisierungen weiter zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit diese neue Verbesserung deaktiviert wird.
+
+### Durchsuchen von Dateien in Experience Manager Guides
+
+Mit dem Dateipfad-Browser können Sie bestimmte Dateien im Content-Repository schnell finden und auswählen. Diese Funktion ist für Aufgaben verfügbar, z. B. zum Hinzufügen eines Themas zu einer Karte, zum Verknüpfen eines Bildes oder Querverweises, zum Erstellen wiederverwendbarer Inhalte und mehr.
+
+![](images/select-file-dialog-new.png){width="350" align="left"}
+
+Beim Starten des Datei-Browsers wird das Dialogfeld **Datei auswählen** geöffnet. Dieses Dialogfeld enthält zwei Registerkarten: **Repository** und **Sammlungen**. Standardmäßig ist die Registerkarte Repository ausgewählt.
+
+![](images/select-file.png){width="650" align="left"}
+
+**Auf der Registerkarte „Repository“ verfügbare Funktionen zum Durchsuchen von Dateien**
+
+**Tabellenansicht von Dateien und Ordnern**
+
+Die Registerkarte Repository bietet eine tabellarische Ansicht der Dateien und Ordner aus dem Inhalts-Repository, wodurch das Auffinden des richtigen Dateipfads erleichtert wird. Sie können auch die Breadcrumbs oben und das Navigationsfenster des Ordners links verwenden, um durch Ordner zu navigieren.
+
+![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+
+**Auswahl einzelner und mehrerer Dateien**
+
+Um eine Datei zu verwenden, wählen Sie einfach die Datei aus und klicken Sie auf **Auswählen**.
+
+![](images/select-file-single-file-selection.png){width="650" align="left"}
+
+In einigen Fällen können Sie in diesem Dialogfeld des Pfad-Browsers auch mehrere Dateien auswählen. Wenn Sie beispielsweise nach wiederverwendbaren Inhalten suchen, können Sie mehrere Dateien auswählen und sie zu einem Teil Ihres wiederverwendbaren Inhalts machen.
+
+![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+
+Für wiederverwendbare Inhalte, Themenreferenzen, Schematron, Ausgabevorgaben (mit DITAVAL) und Workfront ist derzeit die Auswahl mehrerer Dateien verfügbar.
+
+>[!NOTE]
+>
+> Bei der Auswahl von Dateien im Dialogfeld Pfad-Browser erscheinen einige Ordner möglicherweise deaktiviert. Durch dieses Verhalten wird der Zugriff auf bestimmte Dateitypen eingeschränkt, um eine gültige Auswahl sicherzustellen. Wenn Sie beispielsweise wiederverwendbare Inhalte erstellen, dürfen nur Themen- und Zuordnungsdateien verwendet werden. Um die Verwendung eines ungültigen Dateityps zu verhindern, z. B. eines Bildes, werden die entsprechenden Dateien entweder nicht angezeigt oder bleiben zur Auswahl im Pfad-Browser deaktiviert.
+
+**Vorschau ausgewählter Dateien**
+
+Sie können die ausgewählten Dateien mithilfe der Schaltfläche **Vorschau** in der Vorschau anzeigen, wie unten dargestellt:
+
+![](images/select-file-preview-button.png){width="650" align="left"}
+
+Die Vorschau der ausgewählten Datei wird auf der rechten Seite angezeigt.
+
+![](images/select-file-dialog-preview.png){width="650" align="left"}
+
+Bei mehreren Auswahlen wird eine Vorschau aller ausgewählten Dateien im Bedienfeld Vorschau angezeigt, damit Sie sie leicht überprüfen können.
+
+![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+Sie können auch das Symbol **Entfernen** verwenden, um die Auswahl einiger Dateien aus der Vorschau aufzuheben.
+
+![](images/resusable-content-remove-preview.png){width="650" align="left"}
+
+**Erlebnis suchen und filtern**
+
+Beim Durchsuchen von Dateien im Repository können Sie nach Dateien anhand des Namens, des Titels oder des Inhalts im ausgewählten Pfad suchen. Sie können ein beliebiges, zwei oder alle drei Kriterien für Ihre Suche verwenden. Wenn keines der Kriterien ausgewählt ist, umfassen die Ergebnisse alle drei Kriterien.
+
+![](images/select-file-search.png){width="650" align="left"}
+
+Wählen Sie das Symbol **Filtersuche** \(![Suchfiltersymbol](images/filter-search-icon.svg)\) aus, um den Filterbereich auf der rechten Seite zu öffnen.
+
+![](images/select-file-filters.png){align="left"}
+
+Sie haben die folgenden Optionen, um die Dateien zu filtern und Ihre Suche einzugrenzen:
+
+- **Suchen in**: Wählen Sie den Pfad aus, unter dem Sie die Dateien im Repository suchen möchten.
+
+- **Dateityp**: Filtern Sie Ihre Suche nach einem bestimmten Dateityp. Die verfügbaren Optionen sind: **Topic**, **Map**, **DITAVAL**, **Image**, **Multimedia**, **Document** und **andere**.
+
+  >[!NOTE]
+  >
+  > In einigen Fällen wird der **Dateityp**-Filter basierend auf der Aufgabe auf bestimmte Dateitypen vorab angewendet und kann nicht geändert werden. Wenn Sie beispielsweise nach einem Bild suchen, ist der Filter so eingestellt, dass nur Bilddateien angezeigt werden. Beim Erstellen wiederverwendbarer Inhalte ist er so eingestellt, dass nur Themen- und Zuordnungsdateien angezeigt werden. Sie können weiterhin andere Filter wie den Dokumentstatus, Tags oder das Datum der letzten Änderung anpassen, um Ihre Suchergebnisse zu verfeinern.
+
+- **Dokumentstatus**: Sie können Ihre Suche nach dem aktuellen Dokumentstatus der Dateien filtern. Die verfügbaren Filterwerte werden im Feld `repositoryFilters` des `ui_config.json file` definiert und sind mit dem aktuell verwendeten Ordnerprofil verknüpft.
+
+  Das bedeutet:
+
+   - Wenn Sie das globale Profil verwenden, werden die im globalen Profil konfigurierten Filterwerte angewendet.
+   - Wenn Sie ein bestimmtes Ordnerprofil auswählen, werden die in diesem Profil definierten Filterwerte abgerufen.
+
+  Die für den Dokumentstatus verfügbaren Standardfilterwerte sind: „Entwurf“, „Bearbeiten“, „In Überprüfung“, „Genehmigt“, „Überprüfen“ und „Fertig“. Details zum Anpassen von Filterwerten für Dokumentstatus finden Sie unter [Konfigurieren von Dokumentstatusfiltern](../cs-install-guide/config-doc-state-filters.md).
+
+- **Gesperrt von**: Zeigt eine Liste von Benutzern an. Die Liste wird paginiert und asynchron geladen, sodass nur eine begrenzte Anzahl von Benutzern gleichzeitig angezeigt wird und beim Scrollen oder Navigieren mehr abgerufen wird. Dies verbessert die Ladegeschwindigkeit und die Gesamtleistung, insbesondere bei der Arbeit mit einer großen Anzahl von Benutzern.
+
+- **Zuletzt geändert**: Filtern Sie den Inhalt nach dem Änderungsdatum. Wählen Sie einen Datumsbereich aus dem Kalender aus oder wählen Sie eine der folgenden Zeitrahmen-Optionen:
+   - In letzter Woche
+   - Im letzten Monat
+   - Im letzten Jahr
+
+- **Tags**: Filtern von Inhalten basierend auf Tags.
+
+- **DITA-Elemente**: Filtern von Inhalten basierend auf verschiedenen DITA-Elementen.
+
+Nachdem Sie alle erforderlichen Filter angewendet haben, wählen **Anwenden** in der rechten unteren Ecke des Bedienfelds „Filter“ aus.
+
+**Auf der Registerkarte „Sammlungen“ verfügbare Funktionen zum Durchsuchen von Dateien**
+
+Die Registerkarte **Sammlungen** bietet eine kuratierte Ansicht der in Ihren Sammlungen verfügbaren Dateien für den schnellen Zugriff und die Wiederverwendung. Im Gegensatz zur Registerkarte Repository, auf der die vollständige Ordnerhierarchie angezeigt wird, können Sie mit Sammlungen häufig verwendete Themen, Karten und Bilder auswählen, ohne mehrere Ordner durchsuchen zu müssen.
+
+![](images/select-file-collections.png)
+
+Auf der Registerkarte Sammlungen haben Sie folgende Möglichkeiten:
+
+- Verwenden Sie die Breadcrumbs im oberen Navigationsbereich und im Navigationsbereich des Ordners auf der rechten Seite, um einfach durch Ihre Sammlungen zu navigieren.
+
+  ![](images/collections-folder-navigation-panel.png)
+- Wählen Sie Dateien aus, die sich in einem bestimmten Sammlungspfad befinden, und zeigen Sie eine Vorschau im rechten Bedienfeld an.
+
+  ![](images/collections-file-preview.png)
+
+
+
+### Browser-Ordner im Repository
+
+Beim Durchsuchen von Ordnern mit dem **Ordner auswählen**-Dialogfeld wird der richtige Ordnerpfad innerhalb des Repositorys für Aufgaben wie das Erstellen neuer Themen oder das Angeben von Ausgabespeicherorten für veröffentlichte Inhalte ausgewählt. Es bietet eine klare, baumstrukturierte Ansicht von Ordnern, wodurch die Navigation intuitiv wird und sichergestellt wird, dass Inhalte an der richtigen Stelle platziert werden.
+
+![](images/select-path-dialog-new.png){width="300" align="left"}
+
 
 ## Unterstützung für die artikelbasierte Veröffentlichung
 
@@ -282,4 +408,4 @@ Die wichtigsten Funktionen zur Verbesserung der Handhabung großer Dateien werde
 
 - Die Warnmeldung ist nur für DITA-Dateien verfügbar und in allen Ansichten sichtbar: Author, Source und Layout.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

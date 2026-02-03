@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über den Workflow zum Schließen einer Prüfungs
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Führen Sie die folgenden Schritte aus, um eine erneute Überprüfung oder das S
 
    >[!NOTE]
    >
-   > Sie können die Aufgabe auch im Aufgaben-Dashboard öffnen, um eine umfassendere Ansicht zu erhalten. Wählen Sie dazu **Im Aufgaben-Dashboard öffnen** aus dem Menü Optionen einer beliebigen aktiven Prüfungsaufgabe aus. Dadurch werden die Aufgabendetails in der Projektekonsole geöffnet.
+   > Sie können auf die Seite **Aufgabendetails** zugreifen, um die Prüfungsaufgabe zu verwalten. Wählen Sie dazu **Aufgabendetails öffnen** aus dem Menü Optionen einer beliebigen aktiven Prüfungsaufgabe aus. Dadurch werden Aufgabendetails in der Projektekonsole geöffnet.
 
-   ![](images/task-dashboard-selection-author-view.png)
+   ![](images/task-details-selection-author-view.png)
 3. Wählen Sie das Symbol **Aufgabenkommentare** aus, um auf die von den Überprüfenden hinzugefügten Kommentare auf Aufgabenebene zuzugreifen und sie zu überprüfen.
 
    ![](images/task-comments-selection-author-view.png).
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um eine erneute Überprüfung oder das S
 
    ![](images/update-task-dialog.png){width="350" align="left"}
 
-   Sie können den [&#x200B; Ihrer Prüfungsaufgabe auch mithilfe der Option &#x200B;](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task)Prüfungsstatus überprüfen **im Dialogfeld Aufgabe aktualisieren**. Durch Auswahl dieser Option gelangen Sie zum Überprüfungs-Dashboard, in dem der Statusbericht Ihrer Überprüfungsaufgabe angezeigt wird.
+   Sie können den [ Ihrer Prüfungsaufgabe auch mithilfe der Option ](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task)Prüfungsstatus überprüfen **im Dialogfeld Aufgabe aktualisieren**. Durch Auswahl dieser Option gelangen Sie zum Überprüfungs-Dashboard, in dem der Statusbericht Ihrer Überprüfungsaufgabe angezeigt wird.
 
    ![](images/check-review-status-icon.png){width="650" align="left"}
 

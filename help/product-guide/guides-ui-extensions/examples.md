@@ -2,9 +2,9 @@
 title: Beispiele
 description: Liste der Anpassungsbeispiele
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
-source-git-commit: 9f85a92ad4c0749dd10a334d2f0c15906cd84099
+source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,9 @@ In diesem Beispiel haben wir die `right tab panel` so angepasst, dass sie eine w
 
 5. [Symbolleiste](./examples/toolbar.ts)
 In diesem Beispiel haben wir die Schaltflächen `Insert Element`, `Insert Paragraph`, `Insert Numbered List`, `Insert Bulleted List` durch eine einzige `More Insert Options` ersetzt, die alle diese Schaltflächen enthält.
+
+6. [Schaltfläche „Verwalten“ im Bedienfeld „Metadaten“](./examples/metadata_report_manage_button.ts)
+In diesem Beispiel haben wir die Schaltfläche **Verwalten** (im Bedienfeld „Metadaten“ auf der Seite „Berichte„) so angepasst, dass sie deaktiviert wird, wenn sich die ausgewählten Dateien im schreibgeschützten Modus befinden. Dadurch wird verhindert, dass Metadaten versehentlich in Dateien bearbeitet werden, die nicht zur Bearbeitung vorgesehen sind.
 
 [Anwendungsbeispiele überprüfen]
 

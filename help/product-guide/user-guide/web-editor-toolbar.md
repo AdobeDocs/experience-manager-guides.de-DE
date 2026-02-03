@@ -4,9 +4,9 @@ description: Die Symbolleiste im Editor kennenlernen. Erfahren Sie mehr über di
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
+source-git-commit: a17f9c5d5143de2ca8836ef6282a796abb766d78
 workflow-type: tm+mt
-source-wordcount: '6011'
+source-wordcount: '6173'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Die Symbolleiste wird angezeigt, wenn Sie ein Thema oder eine Karte zur Bearbeit
 
 >[!NOTE]
 >
-> Die oben aufgeführten Funktionen gelten nur für Themendateien. Beim Arbeiten mit einer Zuordnungsdatei werden basierend auf der aktuellen Ansicht des Zuordnungs-Editors verschiedene Optionen in der Symbolleiste angezeigt. Weitere Informationen zu den Symbolleistenoptionen des Zuordnungs-Editors [&#x200B; Sie im Dokument &#x200B;](./map-editor-advanced-map-editor.md)Funktionen des Zuordnungs-Editors“.
+> Die oben aufgeführten Funktionen gelten nur für Themendateien. Beim Arbeiten mit einer Zuordnungsdatei werden basierend auf der aktuellen Ansicht des Zuordnungs-Editors verschiedene Optionen in der Symbolleiste angezeigt. Weitere Informationen zu den Symbolleistenoptionen des Zuordnungs-Editors [ Sie im Dokument ](./map-editor-advanced-map-editor.md)Funktionen des Zuordnungs-Editors“.
 
 ## Menü-Dropdown
 
@@ -34,7 +34,7 @@ Diese Funktionen werden im Einzelnen wie folgt erläutert:
 
 **Aktionen bearbeiten**
 
-Greifen Sie beim Bearbeiten eines Themas im Editor auf die verschiedenen Bearbeitungsaktionen zu, z. B. **Ausschneiden** oder ***Strg***+***X*** , **Kopieren** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+Z ***,*** Wiederholen **oder** CtrlCtrlY **&#x200B;**&#x200B;**&#x200B; **&#x200B;**&#x200B;** **&#x200B;**&#x200B;Löschenim Dropdown-Menü.
+Greifen Sie beim Bearbeiten eines Themas im Editor auf die verschiedenen Bearbeitungsaktionen zu, z. B. **Ausschneiden** oder ***Strg***+***X*** , **Kopieren** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+Z ***,*** Wiederholen **oder** CtrlCtrlY ****** ****** **** Löschenim Dropdown-Menü.
 
 
 **Suchen und Ersetzen**
@@ -84,7 +84,7 @@ Mit **Funktion „Versionsverlauf** im Editor können Sie die verfügbaren Versi
 
    Registerkarte **Metadaten**: Die neu hinzugefügten Metadaten sind in grüner Schrift, die gelöschten Metadaten in roter Schrift.
 
-   ![Metadatenunterschied für Versionen &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Metadatenunterschied für Versionen ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Vergleichen der Metadaten verschiedener Versionen im Versionsverlauf.*
 
@@ -375,22 +375,39 @@ Sie können auch Attribute für mehrere Zellen, die gesamte Zeile oder Spalte ei
 
 **Bild** - ![](images/Image_icon.svg)
 
-Fügt ein Bild am aktuellen oder nächsten gültigen Speicherort ein. Klicken Sie auf das Bildsymbol, um das Dialogfeld Bild einfügen zu öffnen. Suchen Sie dann das Bild, das Sie einfügen möchten, und wählen Sie es aus.
+Fügt ein Bild am aktuellen oder nächsten gültigen Speicherort ein. Wählen Sie das Bildsymbol aus, um das Dialogfeld Bild einfügen zu öffnen, und suchen Sie dann das Bild, das Sie einfügen möchten, und wählen Sie es aus.
 
 >[!NOTE]
 >
-> Sie können auch ein Bild hinzufügen, indem Sie es aus Ihrem lokalen System auf Ihren Artikel ziehen und ablegen. In diesem Fall wird die Bilddatei mithilfe des Workflows **Assets hochladen** hinzugefügt.  Weitere Informationen finden Sie im Abschnitt **Workflow &quot;Assets hochladen** im [&#x200B; Bereich](./web-editor-left-panel.md).
+> Sie können auch ein Bild hinzufügen, indem Sie es aus Ihrem lokalen System auf Ihren Artikel ziehen und ablegen. In diesem Fall wird die Bilddatei mithilfe des Workflows **Assets hochladen** hinzugefügt.  Weitere Informationen finden Sie im Abschnitt **Workflow &quot;Assets hochladen** im [ Bereich](./web-editor-left-panel.md).
 
 
 ![](images/insert-image-new-dialog.png){width="300" align="left"}
 
-Sie können einen Bild-/Figurtitel und alternativen Text für das Bild im Dialogfeld Bild einfügen hinzufügen.
+
+Im Dialogfeld **Datei auswählen** können Sie die gewünschte Bilddatei aus &quot;**&quot;** &quot;**&quot;**.
+
+>[!NOTE]
+>
+> Der Datei- und Ordnerpfadbrowser wurde mit einer überarbeiteten Benutzeroberfläche in der Version 2601 von Experience Manager Guides as a Cloud Service eingeführt. Die neue Benutzeroberfläche ist standardmäßig aktiviert. Wenn Sie es vorziehen, die vorhandene Benutzeroberfläche ohne diese Aktualisierungen weiter zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit diese neue Verbesserung deaktiviert wird.
+
+![](images/select-file-browser-images.png)
+
+Verwenden Sie die Breadcrumbs oben und das Navigationsfenster des Ordners links, um einfach durch die Ordner zu navigieren.
+
+![](images/select-file-browser-file-navigation.png)
+
+Sie können nach der erforderlichen Bilddatei anhand des Dateinamens, des Dateititels und des Inhalts suchen. Sie können die Suchergebnisse auch nach Pfad \(zum Suchen in\), Dokumentstatus, Gesperrt nach , Zuletzt geändert und Tags filtern. Der Dateitypfilter wird vorab auf &quot;**&quot; angewendet** bleibt für andere Dateitypen deaktiviert, um eine gültige Dateiauswahl zu ermöglichen. Weitere Informationen zur Verwendung von Filtern in diesem Pfad-Browser finden Sie unter [Weitere Funktionen im Editor](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+Nachdem Sie die gewünschte Bilddatei gefunden haben, wählen Sie die Datei aus und klicken Sie auf **Auswählen**, um das Bild in Ihr Dokument einzufügen. Sie können verschiedene Formate von Bilddateien einfügen, z. B. `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` und mehr.
+
+Sie können auch einen Bild-/Figurtitel und Alternativtext für das Bild im Dialogfeld Bild einfügen hinzufügen.
 
 >[!NOTE]
 >
 > Wenn Sie ein Bild einfügen und einen alternativen Text für dasselbe angeben, wird es innerhalb des `<alt>` gemäß den neuesten DITA-Standards hinzugefügt. Die Verwendung des Attributs `@alt` für alternativen Text ist veraltet, wird aber in früheren DITA-Versionen weiterhin unterstützt.
-
-Mit der Option **Datei auswählen** können Sie nach der gewünschten Bilddatei anhand des Dateinamens suchen. Sie können die Suchergebnisse auch nach Pfad \(zum Suchen in\), Sammlungen, Dateityp und Tags filtern. Nachdem Sie die gewünschte Bilddatei gefunden haben, wählen Sie die Datei aus und klicken Sie auf **Auswählen**, um das Bild in Ihr Dokument einzufügen. Sie können verschiedene Formate von Bilddateien einfügen, z. B. `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` und mehr.
 
 Nachdem Sie ein Bild eingefügt haben, können Sie die Attribute für Höhe, Breite, Platzierung und Inhalt im Bedienfeld Inhaltseigenschaften ändern. Wählen Sie die Bilddatei aus und nehmen Sie dann Änderungen im Bedienfeld Inhaltseigenschaften im rechten Bedienfeld vor.
 
@@ -426,7 +443,7 @@ Wählen Sie ein Bild im aktuellen Thema aus und klicken Sie auf das Symbol Image
 
 Wählen Sie die bevorzugte Form aus ![](images/imagemap-rectangle-toolbar.png), ![](images/imagemap-circle-toolbar.png) oder Polygon-![](images/imagemap-polygon-toolbr.png), um einen Bereich über einem Bild zu definieren, den Sie als Link verwenden möchten. Nach der Definition eines Bereichs wird das Dialogfeld Referenz angezeigt, in dem Sie den Link zu internen oder externen Inhalten angeben müssen:
 
-![](images/reference-dialog.png){width="650" align="left"}
+![](images/reference-dialog.png){width="350" align="left"}
 
 Wenn sich Bereiche überschneiden, können Sie die Form nach vorne bringen oder durch Klicken auf das entsprechende Symbol in der Symbolleiste nach hinten senden. Sie können einen Bereich auch entfernen, indem Sie ihn auswählen und auf das Symbol Löschen klicken. Durch Doppelklicken auf einen Bereich wird das Dialogfeld Referenz geöffnet, in dem Sie den Ziel-Link ändern können. Nachdem Sie die erforderlichen Bereiche auf dem Bild markiert haben, speichern Sie die Änderungen, indem Sie **Fertig** auswählen.
 
@@ -440,13 +457,19 @@ Fügt verschiedene Arten von Multimediadateien ein. Wählen Sie das Symbol Multi
 - YouTube
 - Vimeo
 
-Bei Auswahl der Option Audio- oder Videodatei wird die Repository-Ansicht angezeigt, in der Sie die gewünschte Datei suchen und auswählen können. Wenn Sie YouTube oder Vimeo wählen, erhalten Sie den Dialog Multimedia einfügen. Fügen Sie den Link der Videodatei in das Feld Weblink ein und wählen Sie Einfügen aus, um das Video an der aktuellen oder nächsten gültigen Position in Ihrem Dokument hinzuzufügen.
+Bei Auswahl der Option Audio- oder Videodatei wird das Dialogfeld **Datei auswählen** angezeigt, in dem Sie die gewünschte Datei aus dem Repository oder den Sammlungen suchen und auswählen können.
+
+![](images/select-file-dialog-multimedia.png){width="650" align="left"}
+
+Wenn Sie YouTube oder Vimeo wählen, erhalten Sie den **Multimedia einfügen** Dialog. Fügen Sie den Link der Videodatei in das Feld Weblink ein und wählen Sie Einfügen aus, um das Video an der aktuellen oder nächsten gültigen Position in Ihrem Dokument hinzuzufügen.
+
+![](images/insert-multimedia-dialog.png){width="350" align="left"}
 
 >[!NOTE]
 >
 > Beim Hinzufügen eines YouTube-Video-Links müssen Sie die Zeichenfolge `watch?v=` durch `embed` in der URL ersetzen. Um beispielsweise einen YouTube-Video-Link hinzuzufügen: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs`, müssen Sie ihn wie folgt hinzufügen: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Durch diese Änderung wird sichergestellt, dass das Video in die AEM-Site und die PDF-Ausgabe eingebettet wird.
 
-Sie können die Audio- oder Videodatei auch über das Dialogfeld „Multimedia einfügen“ hinzufügen. Wählen Sie die Option Audio-/Videodatei und dann das Symbol „Durchsuchen“ aus, um die Repository-Ansicht zu starten. Wählen Sie die Audio- oder Videodatei aus dem Repository aus und klicken Sie auf **Auswählen**, um den Link der Datei in das Feld Audio-/Videodatei einzufügen. Wenn Sie eine Videodatei auswählen, wird auch eine Vorschau der Datei im Bereich Vorschau angezeigt. Sie können die Videodatei abspielen, um ihre Vorschau anzuzeigen.
+Sie können die Audio- oder Videodatei auch über das Dialogfeld **Multimedia einfügen** hinzufügen. Wählen Sie die Option Audio-/Videodatei und dann das Symbol „Durchsuchen“ aus, um die Repository-Ansicht zu starten. Wählen Sie die Audio- oder Videodatei aus dem Repository aus und klicken Sie auf **Auswählen**, um den Link der Datei in das Feld Audio-/Videodatei einzufügen. Wenn Sie eine Videodatei auswählen, wird auch eine Vorschau der Datei im Bereich Vorschau angezeigt. Sie können die Videodatei abspielen, um ihre Vorschau anzuzeigen.
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
@@ -489,20 +512,29 @@ Wenn Ihr Admin die Option UUIDs in *XMLEditorConfig* aktiviert hat, wird die UUI
 >
 > Im Abschnitt „Verweise“ des Best Practices-Handbuchs finden Sie Best Practices für das Verweisen auf Inhalte.
 
-**Filtersuche**
+**Filtern der Suche in der Repository-Ansicht**
 
-Sie können in den Dateien im ausgewählten Pfad des AEM-Repositorys nach Text suchen. Im folgenden Screenshot wird beispielsweise „Allgemein“ durchsucht. Sie können Ihre Suche auch mithilfe erweiterter Filter eingrenzen. Sie können nach allen DITA-Dateien wie DITA-Themen und DITA-Karten suchen, die im ausgewählten Pfad vorhanden sind.
+Im Dialogfeld **Datei auswählen** können Sie nach Text in den Dateien suchen, die im ausgewählten Pfad des **Repositorys“**. Im folgenden Screenshot wird beispielsweise *Breaking* durchsucht.
 
-Sie können im ausgewählten Pfad nach Nicht-DITA-Dateien wie Bilddateien, Multimedia und Dokumenten suchen. Sie können auch in den Attributen von DITA-Elementen nach bestimmten Werten suchen. Sie können auch nach Dateien suchen, die vom angegebenen Benutzer ausgecheckt wurden.
+>[!NOTE]
+>
+> Der Datei- und Pfad-Browser wurde mit einer überarbeiteten Benutzeroberfläche in der Version 2601 von Experience Manager Guides as a Cloud Service eingeführt. Die neue Benutzeroberfläche ist standardmäßig aktiviert. Wenn Sie es vorziehen, die vorhandene Benutzeroberfläche ohne diese Aktualisierungen weiter zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit diese neue Verbesserung deaktiviert wird.
 
 ![](images/reference-search-filters.png){width="650" align="left"}
+
+Sie können die Breadcrumbs oben und das Navigationsfenster auf der linken Seite verwenden, um einfach durch die Ordner zu navigieren.
+
+![](images/select-file-browser-file-navigation.png)
+
+Sie können nach der erforderlichen Datei anhand des Dateinamens, des Dateititels und des Inhalts suchen. Sie können Ihre Suche auch mithilfe der erweiterten Filter im rechten Bedienfeld eingrenzen. Weitere Informationen finden Sie unter [Weitere Funktionen im Editor](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+Die Liste der gefilterten Dateien, die den gesuchten Text enthalten, wird angezeigt. Sie können auch eine Vorschau des Inhalts der Datei anzeigen.
 
 >[!NOTE]
 >
 > Ihre bzw. Ihr Systemadmin kann auch die Textfilter konfigurieren und andere Filter ein- oder ausblenden. Weitere Informationen finden Sie *Abschnitt „Konfigurieren von Textfiltern* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
-
-Die Liste der gefilterten Dateien, die den gesuchten Text enthalten, wird angezeigt. Im obigen Screenshot werden beispielsweise die Dateien aufgelistet, die den Text „Allgemein“ enthalten. Sie können auch eine Vorschau des Inhalts der Datei anzeigen.
-
 
 **Wiederverwendbarer Inhalt** - ![](images/reusable-content.svg)
 
@@ -542,7 +574,7 @@ Fügen Sie das in Ihrer DITA-Karte definierte Keyword ein. Wählen Sie die Optio
 
 Die Suchbegriffe werden in alphabetischer Reihenfolge aufgelistet. Sie können auch nach einem oder mehreren Suchbegriffen suchen, indem Sie eine Suchzeichenfolge in das Suchfeld eingeben. Das Suchergebnis gibt die Keywords zurück, die die Zeichenfolge in der ID oder im Wert enthalten. Die in Ihrer DITA-Zuordnung definierten Keywords werden in diesem Dialogfeld aufgeführt. Wählen Sie das Keyword aus, das Sie einfügen möchten, und wählen Sie **Einfügen**.
 
-Sie können auch die Attribute des eingefügten Keywords ändern, indem Sie mit der rechten Maustaste auf das Keyword klicken und die Option Attribute auswählen. Das Dialogfeld **Attribute für Keyword“ wird geöffnet:
+Sie können auch die Attribute des eingefügten Keywords ändern, indem Sie mit der rechten Maustaste auf das Keyword klicken und die Option Attribute auswählen. Das **Attribute für Keyword** wird geöffnet:
 
 ![](images/attributes-for-keyword.png){width="550" align="left"}
 
@@ -627,4 +659,4 @@ Wenn eine Datei von einem anderen Benutzer gesperrt wird, wird beim Bewegen des 
 Als Administrator erhalten Sie auch Zugriff auf die Funktion **Entsperren erzwingen** mit der Sie die von anderen Benutzern gesperrte Datei entsperren können. Verwenden Sie diese Funktion, um auf die Bearbeitungsrechte für eine Datei zuzugreifen, die von anderen Benutzern gesperrt wurde.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

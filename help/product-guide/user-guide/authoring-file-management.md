@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Dateien und Ordner in AEM Guides verwalten. K
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
+source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
 workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 0%
@@ -104,7 +104,6 @@ Wenn Sie die Option **Vorhandene Datei(en) überschreiben** auswählen, ersetzt 
 Wenn Sie die Option **Datei(en) an neuen Speicherort verschieben** auswählen, wird die vorhandene Datei an den aktuellen Speicherort verschoben und dann mit der hochgeladenen Datei überschrieben. Durch das Verschieben einer Datei an den neuen Speicherort werden keine vorhandenen Verweise von oder auf die Datei beschädigt.
 
 Wenn Sie beim Ersetzen oder Verschieben der Dateien die Option zum Erstellen einer Version aus der vorhandenen Kopie auswählen, wird eine neue Version aus der Arbeitskopie des Dokuments erstellt. Die neue Datei wird entweder am vorhandenen Speicherort ersetzt oder an den neuen Speicherort verschoben.
-
 
 ## Dateien stapelweise verschieben {#move-files-bulk}
 
@@ -326,4 +325,4 @@ Wenn Ihre Mediendatei Änderungen erfahren hat, können Sie die Dateien im Absch
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte verwalten](authoring.md)
+**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)

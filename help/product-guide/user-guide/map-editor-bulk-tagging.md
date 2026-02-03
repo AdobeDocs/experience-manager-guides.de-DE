@@ -4,18 +4,21 @@ description: Verwenden Sie Bulk-Tagging von Inhalten in AEM Guides, um die Auffi
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
 
 ---
 
+
 # Massen-Tagging von DITA-Inhalten {#id179SG0TN05Z}
+
+![](images/test-version-info-table.svg){width="650" align="left"}
 
 Mit Tags können Sie Inhalte innerhalb Ihres Inhalts-Repositorys und auch in der veröffentlichten Ausgabe gruppieren oder klassifizieren. Wenn Sie Tags auf Ihren Inhalt angewendet haben, können Sie mühelos verwandte Themen in einer DITA-Karte finden, die Ihnen beim Verfassen von Inhalten helfen können. Mit der veröffentlichten Ausgabe können Endbenutzende den richtigen Inhalt schneller finden, wenn korrekte Tags vorhanden sind.
 
-Mit Adobe Experience Manager Guides können Sie DITA-Inhalte in wenigen Schritten taggen. Sie können die Bulk-Tagging-Funktion verwenden, um mehrere Tags auf mehrere Themen, eine DITA-Zuordnung oder eine Unterzuordnung anzuwenden. Sie können Tags auch auf ein einzelnes Thema anwenden. Tagging ist die native Funktion in Adobe Experience Manager. Weitere Informationen zum Erstellen und Verwalten von Tags finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=de) in der Dokumentation zu Adobe Experience Manager.
+Mit Adobe Experience Manager Guides können Sie DITA-Inhalte in wenigen Schritten taggen. Sie können die Bulk-Tagging-Funktion verwenden, um mehrere Tags auf mehrere Themen, eine DITA-Zuordnung oder eine Unterzuordnung anzuwenden. Sie können Tags auch auf ein einzelnes Thema anwenden. Tagging ist die native Funktion in Adobe Experience Manager. Weitere Informationen zum Erstellen und Verwalten von Tags finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in der Dokumentation zu Adobe Experience Manager.
 
 Standardmäßig gewährt Experience Manager Guides keinem Benutzer Lesezugriff auf den Ordner, in dem alle Tags im Adobe Experience Manager-Repository gespeichert sind. Um im Adobe Experience Manager-Repository definierte Tags zu verwenden, müssen Sie Ihren Systemadministrator bitten, Zugriff auf den Ordner zu gewähren, in dem die Tags gespeichert sind.
 
@@ -107,4 +110,4 @@ Führen Sie die folgenden Schritte aus, um alle Tags aus einem oder mehreren The
 
 Wenn Sie eine lange Liste von Tags auf Ihre Themen angewendet haben, kann die Navigation etwas mühsam sein. Sie können Tags in in der DITA-Zuordnungskonsolenansicht einfach ausblenden, indem Sie das Symbol Tags ausblenden auswählen. Wenn die Tags nicht sichtbar sind, werden bei Auswahl der Option Tags anzeigen alle Tags angezeigt.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Verwalten von Metadaten](manage-metadata.md)
+**Übergeordnetes Thema:**[ Verwalten von Metadaten](manage-metadata.md)

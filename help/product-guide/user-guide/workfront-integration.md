@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Workfront mit Adobe Experience Manager Guides
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2482'
+source-wordcount: '2481'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ Mit der Integration von Experience Manager Guides und Adobe Workfront können Si
 
 * Planen, zuweisen und verfolgen Sie den Fortschritt einzelner Aufgaben und Projekte, ohne sich auf mehrere, nicht integrierte Tools verlassen zu müssen.
 * Effizienteres Verwalten aller Experience Manager Guides-Workflows, einschließlich Inhaltserstellung, -überprüfung, -veröffentlichung und -übersetzung.
-* Sie erhalten bei jeder Zuweisung neuer Aufgaben E-Mail-Benachrichtigungen von Adobe Workfront. Weitere Informationen finden Sie unter [Benachrichtigungen - Übersicht](https://experienceleague.adobe.com/de/docs/workfront/using/basics/use-notifications/wf-notifications).
+* Sie erhalten bei jeder Zuweisung neuer Aufgaben E-Mail-Benachrichtigungen von Adobe Workfront. Weitere Informationen finden Sie unter [Benachrichtigungen - Übersicht](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
 * Überwachen Sie den Projektzustand mithilfe des intuitiven Dashboards von Adobe Workfront, das Echtzeit-Einblicke in die Projektleistung bietet.
 
-  Weitere Informationen zu den robusten Projektmanagement-Funktionen von Adobe Workfront für Projektmanager in Experience Manager Guides finden Sie unter [Projektübersicht planen](https://experienceleague.adobe.com/de/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
+  Weitere Informationen zu den robusten Projektmanagement-Funktionen von Adobe Workfront für Projektmanager in Experience Manager Guides finden Sie unter [Projektübersicht planen](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
 
 ## Erste Schritte
 
@@ -61,7 +61,7 @@ Die folgenden Funktionen sind auf der Seite Workfront-Aufgaben verfügbar:
 
 Die Workfront-Aufgabenseite enthält auch das Symbol Link out ![](./images/Smock_LinkOut_18_N.svg) , über das Sie, wenn Sie es auswählen, zur Adobe Workfront-Projektseite gelangen. Hier können Sie Aufgabendetails anzeigen, Kommentare anzeigen, Kommentare hinzufügen und basierend auf den Berechtigungen, die Ihrem Adobe Workfront-Konto zugeordnet sind, auf andere Funktionen zugreifen.
 
-Weitere Informationen finden Sie unter [Übersicht über die Projekt-, Aufgaben- und Problemdaten in Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/navigate/definitions-pti-dates).
+Weitere Informationen finden Sie unter [Übersicht über die Projekt-, Aufgaben- und Problemdaten in Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Workfront-Aufgaben erstellen
 
@@ -82,13 +82,13 @@ Führen Sie die folgenden Schritte aus, um eine neue Adobe Workfront-Aufgabe zu 
    * **Beschreibung**: Geben Sie eine kurze Beschreibung der Aufgabe ein.
    * **Fällig am**: Legen Sie das Fälligkeitsdatum für den Abschluss der Aufgabe fest.
    * **Verantwortlicher**: Wählen Sie einen Verantwortlichen für die Aufgabe aus.
-3. Assets Wählen Sie auf der Registerkarte **0&rbrace; die Option** Hinzufügen **aus, um dieser Aufgabe ein Asset hinzuzufügen.**
+3. Assets Wählen Sie auf der Registerkarte **0} die Option** Hinzufügen **aus, um dieser Aufgabe ein Asset hinzuzufügen.**
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
 
    Das **Pfad auswählen** wird angezeigt. Wählen Sie einen Pfad zum gewünschten Asset aus. Sie können mehrere Assets hinzufügen, indem Sie die gültigen Pfade im Pfad-Browser auswählen. Die ausgewählten Pfade werden beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
 
-   * Bei Aufgaben des Erstellens, Veröffentlichens und Übersetzens werden Sie aufgefordert, den Speicherort der erforderlichen Datei im Dialogfeld **Pfad auswählen** auszuwählen. Die ausgewählte Datei (ein Thema für die Bearbeitung und Zuordnung zur Veröffentlichung und Übersetzung) wird der Aufgabe hinzugefügt, sobald die Schaltfläche **Erstellen** ausgewählt wird.
+   * Bei Aufgaben des Verfassens, Veröffentlichens und Übersetzens werden Sie aufgefordert, den Speicherort der gewünschten Datei im Dialogfeld **Datei auswählen** auszuwählen. Die ausgewählte Datei (ein Thema für die Bearbeitung und Zuordnung zur Veröffentlichung und Übersetzung) wird der Aufgabe hinzugefügt, sobald die Schaltfläche **Erstellen** ausgewählt wird.
 
      ![](./images/attach-asset.png){align="left"}
 
@@ -122,7 +122,7 @@ Eine neue Aufgabe wird erstellt und auf der Registerkarte **Erstellt von Ihnen**
 
 >[!NOTE]
 >
-> Als Projekt-Manager können Sie diese neu erstellte Aufgabe zusammen mit anderen wichtigen Aufgabendetails in Ihrem Adobe Workfront-Dashboard anzeigen. Weitere Informationen finden Sie unter [Grundlegendes zu Dashboards](https://experienceleague.adobe.com/de/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> Als Projekt-Manager können Sie diese neu erstellte Aufgabe zusammen mit anderen wichtigen Aufgabendetails in Ihrem Adobe Workfront-Dashboard anzeigen. Weitere Informationen finden Sie unter [Grundlegendes zu Dashboards](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Verwalten der von Ihnen erstellten Aufgaben
 
@@ -166,7 +166,7 @@ Zeigt die Aufgabeninformationen an, einschließlich der bei der Aufgabenerstellu
 
 #### Zugreifen auf zugewiesene Aufgaben über den Abschnitt „Übersicht“
 
-Sie können auch über den Abschnitt „Übersicht“ auf [&#x200B; zugewiesenen Aufgaben &#x200B;](./intro-home-page.md#overview) Adobe Workfront zugreifen. Wenn der Abschnitt Übersicht ausgewählt ist, enthält er verschiedene Widgets, die Ihnen helfen, fokussiert und organisiert zu bleiben.
+Sie können auch über den Abschnitt „Übersicht“ auf [ zugewiesenen Aufgaben ](./intro-home-page.md#overview) Adobe Workfront zugreifen. Wenn der Abschnitt Übersicht ausgewählt ist, enthält er verschiedene Widgets, die Ihnen helfen, fokussiert und organisiert zu bleiben.
 
 **Ihre Aufgaben** ist ein solches Widget, in dem eine Liste der Adobe Workfront-Aufgaben (die Ihnen zugewiesen sind und noch aktiv sind) zusammen mit den wichtigsten Aufgabendetails, einschließlich Name der Aufgabe, verknüpftes Projekt, Fälligkeitsdatum und aktueller Status, angezeigt wird.
 

@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Edge Delivery Services (Beta) die Authoring- und 
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 5808d42c530e55e309f192c99a0e71334c888b57
+source-git-commit: 7ca2eeb0356f3c82a8d970f291006fc6d19aca23
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Um die Veröffentlichung von Experience Manager Guides in EDS (Beta) zu aktivier
 2. [Erstellen und Konfigurieren eines Veröffentlichungsprofils für EDS (Beta) in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Anpassen der Ausgabe mithilfe von EDS-Blöcken](#customize-output-using-eds-blocks)
 
-Eine kurze Videoanleitung finden Sie unter [Veröffentlichen in AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Eine kurze Videoanleitung finden Sie unter [Veröffentlichen in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -57,7 +57,7 @@ Führen Sie die folgenden Schritte aus, um die Anwendung *AEM Code Sync* zu inst
 1. Navigieren Sie zur Seite [AEM Code Sync](https://github.com/apps/aem-code-sync) und wählen Sie **Installieren**.
 2. *AEM Code Sync* überwacht Repository-Änderungen und stellt sicher, dass Aktualisierungen korrekt an GitHub gesendet werden.
 
-   >
+   >[!NOTE]
    >
    > Stellen Sie bei der Installation der Anwendung sicher, dass Sie dasselbe GitHub-Konto verwenden, dem das Repository gehört.
 
@@ -128,7 +128,7 @@ So konfigurieren Sie die Bereitstellungspunkt-URL in der `fstab.yaml`:
    - `your-user-name`
    - `your-repo-name`
 
-   >
+   >[!NOTE]
    >
    > In der Bereitstellungs-URL gibt `main` die Verzweigung an, in der Sie die Inhalte veröffentlichen möchten, und `docs` den Stammordner des EDS (Beta)-Repositorys, an dem Sie arbeiten. Wenn Sie es vorziehen, den Verzweigungsnamen auf GitHub zu ändern, müssen Sie denselben Verzweigungsnamen in der *mountpoint*-URL (in der `fstab.yaml`-Datei) und das entsprechende EDS-Veröffentlichungsprofil in Experience Manager Guides aktualisieren.
 
@@ -148,7 +148,7 @@ In den folgenden Abschnitten werden die einzelnen Schritte der Reihe nach beschr
 
 ### Erstellen des EDS (Beta)-Veröffentlichungsprofils
 
-1. Wechseln Sie zu **[Workspace]** Einstellungen **>** Profile **veröffentlichen**.
+1. Wechseln Sie zu **[Workspace](/help/product-guide/cs-install-guide/workspace-settings.md)** Einstellungen **>** Profile **veröffentlichen**.
 2. Wählen Sie das Symbol **+** aus, um ein neues Veröffentlichungsprofil zu erstellen, und geben Sie die folgenden Details an:
    - **Servertyp**: Wählen Sie **GitHub Edge Delivery Services (Beta)** aus der Dropdown-Liste aus.
    - **Name**: Geben Sie einen Namen für dieses Profil ein.
@@ -156,7 +156,7 @@ In den folgenden Abschnitten werden die einzelnen Schritte der Reihe nach beschr
    - **Benutzername**: Geben Sie Ihren GitHub-Benutzernamen ein.
    - **Verzweigung Main**: Auf Main (Standard) festlegen.
    - **Stammordner**: Auf „docs“ (Standard) festlegen.
-   - **Client-ID und Client-Geheimnis**: Rufen Sie diese aus Ihrer GitHub-App ab (weitere Informationen finden [&#x200B; im Abschnitt Erstellen einer neuen OAuth](#create-a-new-oauth-app)App).
+   - **Client-ID und Client-Geheimnis**: Rufen Sie diese aus Ihrer GitHub-App ab (weitere Informationen finden [ im Abschnitt Erstellen einer neuen OAuth](#create-a-new-oauth-app)App).
 3. Wählen Sie **Anmelden** aus, um sich zu authentifizieren.
 
    ![](assets/eds-publish-profile.png){width="650" align="left"}
@@ -184,7 +184,7 @@ Ihr EDS (Beta)-Veröffentlichungsprofil ist jetzt konfiguriert.
 
 6. Wählen Sie **Speichern** und dann **Ausgabe generieren**.
 
->
+>[!NOTE]
 >
 > Die generierte Ausgabe wird im Ordner **docs** des EDS (Beta)-Repositorys gespeichert.
 

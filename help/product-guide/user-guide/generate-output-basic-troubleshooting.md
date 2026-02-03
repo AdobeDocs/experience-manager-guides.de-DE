@@ -4,9 +4,9 @@ description: Beheben Sie Probleme mit der grundlegenden Fehlerbehebung in AEM Gu
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
+source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,17 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabege
    ![](images/log-file-new.png){align="left"}
 
 1. Verwenden Sie die folgenden Filter, um den Text in der Protokolldatei hervorzuheben:
-   - Schwerwiegend: Markiert die schwerwiegenden Fehler in der Protokolldatei mit dunkelroter Farbe.
-   - Fehler: Markiert die Fehler in der Protokolldatei rot. Ausnahmen werden als Fehler gewertet und entsprechend rot hervorgehoben.
-   - Warnung: Markiert die Warnungen in der Protokolldatei mit gelber Farbe.
-   - Info: Hebt die Informationsmeldungen in der Protokolldatei grün hervor.
+   - **Fatal**: Markiert die schwerwiegenden Fehler in der Protokolldatei in dunkelroter Farbe.
+   - **Error**: Markiert die Fehler in der Protokolldatei rot. Ausnahmen werden als Fehler gewertet und entsprechend rot hervorgehoben.
+   - **Warnung**: Hebt die Warnungen in der Protokolldatei mit gelber Farbe hervor.
+   - **Info**: Hebt die Informationsmeldungen in der Protokolldatei grün hervor.
 
-1. Verwenden Sie die Navigationsschaltflächen nach oben und unten, um zum hervorgehobenen Text in der Protokolldatei zu springen.
+1. Verwenden Sie die Navigationsschaltflächen nach oben und unten, um zum hervorgehobenen Text in der Protokolldatei zu springen. Alternativ können Sie durch die Protokolldatei scrollen und die Meldungen überprüfen.
 
-   Alternativ können Sie durch die Protokolldatei scrollen und die Meldungen überprüfen.
+1. Sie können die folgenden Aktionen für die Protokolldatei ausführen:
 
+   - **Protokoll herunterladen**: Wenn die Liste der Protokolle umfangreich ist, wählen Sie **Protokoll herunterladen** aus, um die Protokolldatei für einfacheren Zugriff und Überprüfung auf Ihr Gerät herunterzuladen.
+   - **Protokoll kopieren**: Kopiert die Liste der Protokolle in die Zwischenablage, sodass Sie sie schnell in einen Texteditor einfügen können.
 
 ## Kopieren und überprüfen Sie die Protokolldatei in einem Texteditor
 
@@ -82,6 +84,9 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabege
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
+
+
+
 ## JSP-Kompilierungsfehler beheben
 
 Wenn Ihr DITA-Thema zu groß ist, wird möglicherweise der JSP-Kompilierungsfehler \(`org.apache.sling.api.request.TooManyCallsException`\) in Ihrem Browser angezeigt. Dieser Fehler kann auftreten, wenn Sie ein Thema zum Bearbeiten, Überprüfen oder Veröffentlichen öffnen.
@@ -99,4 +104,4 @@ Führen Sie zur Behebung dieses Problems folgende Schritte durch:
 1. Erhöhen Sie den Wert für den Parameter *Anzahl der Aufrufe pro Anfrage* gemäß Ihren Anforderungen.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

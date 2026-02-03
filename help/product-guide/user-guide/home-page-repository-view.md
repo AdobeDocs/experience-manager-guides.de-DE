@@ -3,9 +3,9 @@ title: Repository auf Startseite
 description: Lernen Sie das Repository auf der Startseite kennen. Erfahren Sie auf der Startseite mehr über die Repository-Benutzeroberfläche und die Funktionen in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: 1919e622b1b148d16bcdb85f79e2a1cd706fe33e
+source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ Das Repository dient als zentraler Bereich mit einer tabellarischen Liste aller 
    - **Neu**: Erstellen Sie ein neues DITA-Thema, eine neue DITA-Karte oder einen neuen Ordner.
    - **Assets hochladen**: Laden Sie eine Datei aus Ihrem lokalen System in den ausgewählten Ordner im Repository hoch.
    - **Zu Sammlungen hinzufügen**: Fügt den ausgewählten Ordner zu den Favoriten hinzu. Sie können sie zu einer vorhandenen oder neuen Sammlung hinzufügen.
-   - **Assets erneut verarbeiten**: Führt einen Trigger bei der Verarbeitung aller neu erstellten und nicht verarbeiteten Assets aus.
+   - **Assets erneut verarbeiten**: Trigger verarbeiten die Verarbeitung für alle Assets im Ordner.
 
 - **Optionsmenü für Dateien**: Sie können die folgenden Aktionen mithilfe des **Optionen**-Menüs für eine Datei ausführen:
 
-  ![](images/options-file-repo.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350" align="left"}
 
    - **Bearbeiten**: Öffnen Sie die Datei zur Bearbeitung.
    - **In Sauerstoff bearbeiten**: Wählen Sie diese Option, um die ausgewählte Datei im Oxygen Connector-Plug-in zu bearbeiten.
@@ -99,6 +99,7 @@ Das Repository dient als zentraler Bereich mit einer tabellarischen Liste aller 
    - **Löschen**: Mit dieser Option können Sie die ausgewählte Datei löschen.
    - **Hinzufügen zu**: Wählen Sie diese Option, um zu Sammlungen oder wiederverwendbaren Inhalten hinzuzufügen.
    - **Kopieren**: Kopiert die UUID oder den vollständigen Pfad der Datei.
+   - **Asset erneut verarbeiten**: Führt Trigger bei der Verarbeitung des ausgewählten Assets aus.
    - **Eigenschaften**: Hiermit öffnen Sie die Seite „Eigenschaften“ der ausgewählten Datei.
    - **Als PDF herunterladen**: Verwenden Sie die Option, um die PDF-Ausgabe zu generieren und herunterzuladen.
 
@@ -116,7 +117,16 @@ Sie haben die folgenden Optionen, um die Dateien zu filtern und Ihre Suche einzu
 
 - **Suchen in**: Wählen Sie den Pfad aus, unter dem Sie die Dateien im Repository suchen möchten.
 
-- **Dateityp**: Sie können nach allen **DITA Topics**, **DITA Maps**, **DITAVAL Files**, **Image Files**, **Multimedia**, **Documents** und **JSON**.
+- **Dateityp**: Filtern Sie Ihre Suche nach einem bestimmten Dateityp. Die verfügbaren Optionen sind: **Topic**, **Map**, **DITAVAL**, **Image**, **Multimedia**, **Document** und **andere**.
+
+- **Dokumentstatus**: Sie können Ihre Suche nach dem aktuellen Dokumentstatus der Dateien filtern. Die verfügbaren Filterwerte werden im Feld `repositoryFilters` des `ui_config.json file` definiert und sind mit dem aktuell verwendeten Ordnerprofil verknüpft.
+
+  Das bedeutet:
+
+   - Wenn Sie das globale Profil verwenden, werden die im globalen Profil konfigurierten Filterwerte angewendet.
+   - Wenn Sie ein bestimmtes Ordnerprofil auswählen, werden die in diesem Profil definierten Filterwerte abgerufen.
+
+  Die für den Dokumentstatus verfügbaren Standardfilterwerte sind: „Entwurf“, „Bearbeiten“, „In Überprüfung“, „Genehmigt“, „Überprüfen“ und „Fertig“. Details zum Anpassen von Filterwerten für Dokumentstatus finden Sie unter [Konfigurieren von Dokumentstatusfiltern](../cs-install-guide/config-doc-state-filters.md).
 
 - **Gesperrt von**: Zeigt eine Liste von Benutzern an. Die Liste wird paginiert und asynchron geladen, sodass nur eine begrenzte Anzahl von Benutzern gleichzeitig angezeigt wird und beim Scrollen oder Navigieren mehr abgerufen wird. Dies verbessert die Ladegeschwindigkeit und die Gesamtleistung, insbesondere bei der Arbeit mit einer großen Anzahl von Benutzern.
 
@@ -127,7 +137,7 @@ Sie haben die folgenden Optionen, um die Dateien zu filtern und Ihre Suche einzu
 
 - **Tags**: Filtern von Inhalten basierend auf Tags.
 
-- **DITA-Element**: Filtern von Inhalten basierend auf verschiedenen DITA-Elementen.
+- **DITA-Elemente**: Filtern von Inhalten basierend auf verschiedenen DITA-Elementen.
 
 Nachdem Sie alle erforderlichen Filter angewendet haben, wählen **Anwenden** in der rechten unteren Ecke des Bedienfelds „Filter“ aus.
 
