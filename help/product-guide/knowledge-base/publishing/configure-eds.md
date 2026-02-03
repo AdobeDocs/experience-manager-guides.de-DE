@@ -156,7 +156,7 @@ In den folgenden Abschnitten werden die einzelnen Schritte der Reihe nach beschr
    - **Benutzername**: Geben Sie Ihren GitHub-Benutzernamen ein.
    - **Verzweigung Main**: Auf Main (Standard) festlegen.
    - **Stammordner**: Auf „docs“ (Standard) festlegen.
-   - **Client-ID und Client-Geheimnis**: Rufen Sie diese aus Ihrer GitHub-App ab (weitere Informationen finden [ im Abschnitt Erstellen einer neuen OAuth](#create-a-new-oauth-app)App).
+   - **Client-ID und Client-Geheimnis**: Rufen Sie diese aus Ihrer GitHub-App ab (weitere Informationen finden [&#x200B; im Abschnitt Erstellen einer neuen OAuth](#create-a-new-oauth-app)App).
 3. Wählen Sie **Anmelden** aus, um sich zu authentifizieren.
 
    ![](assets/eds-publish-profile.png){width="650" align="left"}

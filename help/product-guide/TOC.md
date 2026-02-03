@@ -169,14 +169,14 @@ ht-degree: 10%
                - [Versionshinweise für 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Versionshinweise zu 4.2](./release-info/release-notes-4-2.md)
          - [Versionshinweise zu 4.1.x](./release-info/release-notes-4-1.md)
-         - Versionshinweise zu [4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - Versionshinweise zu [3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
-         - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
-         - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
+         - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
    - Startseite {#home-page}
       - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
       - [Repository-Schnittstelle](./user-guide/home-page-repository-view.md)
