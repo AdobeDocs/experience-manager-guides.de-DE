@@ -213,5 +213,5 @@ Die primäre Verifizierung besteht darin, die Funktion zu testen:
 
 - [AEM as a Cloud Service-Indizierungsdokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak-Indizierungshandbuch](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Dokumentation zu AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [Dokumentation zu AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides)
 - [Dokumentation für Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
