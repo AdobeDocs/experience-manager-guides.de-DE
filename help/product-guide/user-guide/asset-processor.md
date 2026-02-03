@@ -19,7 +19,7 @@ In datenintensiven Workflows wie der Veröffentlichung ist ein effizientes Asset
 >[!NOTE]
 >
 > - Bei großen Datensätzen ist es am besten, die Verarbeitung außerhalb der Spitzenzeiten auszuführen, um eine Beeinträchtigung der Systemleistung zu vermeiden. Nachdem die Verarbeitungsaufgabe abgeschlossen ist, können Sie die Details überprüfen, um die Ergebnisse zu analysieren.<br>
->- Die Asset-Verarbeitung für den `/content/dam`-Trigger erfolgt alle 15 Minuten. Während jedes Zyklus werden Assets aufgenommen, die innerhalb des letzten 15-Minuten-Intervalls neu hinzugefügt wurden oder unverarbeitet blieben, und erneut verarbeitet. Um die Ansicht der Funktion für die automatische Asset-Verarbeitung zu konfigurieren, [ Sie „Asset-Verarbeitungsfunktion konfigurieren](../cs-install-guide/configure-asset-processing-cs.md).
+>- Die Asset-Verarbeitung für den `/content/dam`-Trigger erfolgt alle 15 Minuten. Während jedes Zyklus werden Assets aufgenommen, die innerhalb des letzten 15-Minuten-Intervalls neu hinzugefügt wurden oder unverarbeitet blieben, und erneut verarbeitet. Um die Ansicht der Funktion für die automatische Asset-Verarbeitung zu konfigurieren, [&#x200B; Sie „Asset-Verarbeitungsfunktion konfigurieren](../cs-install-guide/configure-asset-processing-cs.md).
 
 ## Verarbeiten der Assets
 
