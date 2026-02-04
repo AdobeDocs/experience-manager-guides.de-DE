@@ -54,7 +54,7 @@ Das **Pfad auswählen**-Dialogfeld bietet außerdem eine verbesserte baumstruktu
 
 ![](assets/select-path-dialog-new.png){width="350" align="left"}
 
-Experience Manager Guides Weitere Informationen finden Sie [ Abschnitt „Durchsuchen von Dateien und Ordnern in ](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides)&quot; unter _Weitere Funktionen im Editor_.
+Experience Manager Guides Weitere Informationen finden Sie [&#x200B; Abschnitt „Durchsuchen von Dateien und Ordnern in &#x200B;](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides)&quot; unter _Weitere Funktionen im Editor_.
 
 ## Verbesserungen bei der Repository-Suche und -Filterung
 
