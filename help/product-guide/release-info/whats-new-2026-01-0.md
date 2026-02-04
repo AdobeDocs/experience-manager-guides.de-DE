@@ -2,9 +2,9 @@
 title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2026.01.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version 2026.01.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
+source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Das **Pfad auswählen**-Dialogfeld bietet außerdem eine verbesserte baumstruktu
 
 ![](assets/select-path-dialog-new.png){width="350" align="left"}
 
-Experience Manager Guides Weitere Informationen finden Sie [&#x200B; Abschnitt „Durchsuchen von Dateien und Ordnern in &#x200B;](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides)&quot; unter _Weitere Funktionen im Editor_.
+Experience Manager Guides Weitere Informationen finden Sie [ Abschnitt „Durchsuchen von Dateien und Ordnern in ](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides)&quot; unter _Weitere Funktionen im Editor_.
 
 ## Verbesserungen bei der Repository-Suche und -Filterung
 
@@ -156,6 +156,8 @@ Weitere Informationen zur Konfiguration der nativen PDF-Ausgabevorgabe und der Q
 ### Unterstützung für die Komponentenzuordnung auf Elementebene in der Veröffentlichung von New AEM Sites (mit der Zuordnung zusammengesetzter Komponenten)
 
 Experience Manager Guides unterstützt jetzt die Komponentenzuordnung auf Elementebene in der AEM Sites-Ausgabe (unter Verwendung der zusammengesetzten Komponentenzuordnung), sodass Teams genau steuern können, wie DITA-Elemente mithilfe von `componentmapping.json` gerendert werden. Wenn Sie `topicref`, Titel, Bilder, Tabellen und mehr den entsprechenden AEM-Kernkomponenten zuordnen, erhalten Sie eine sauberere Struktur, anstatt dass alles standardmäßig auf die Textkomponente festgelegt wird. Dies führt zu einer besseren Leistung und erschließt umfassendere, modernere Sites-Erlebnisse.
+
+Weitere Informationen finden Sie unter [Komponentenzuordnung in AEM Sites](../cs-install-guide/component-mapping.md).
 
 ## Verbesserungen bei der Asset-Verarbeitung
 
