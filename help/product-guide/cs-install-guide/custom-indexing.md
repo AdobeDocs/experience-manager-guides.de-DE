@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie benutzerdefinierten Inhalt indizieren
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 7d2d0c21001cd53244588f6b700db184a73ffa77
+source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 3%
@@ -52,9 +52,6 @@ Erstellen Sie die folgende Indexdefinition in Ihrem Projekt unter:
           compatVersion="{Long}2"
           evaluatePathRestrictions="{Boolean}true"
           includedPaths="[/content/dam]"
-          reindex="{Boolean}false"
-          reindexCount="{Long}1"
-          seed="{Long}958982603885135223"
           selectionPolicy="tag"
           tags="[ditaSearch]"
           type="lucene">
@@ -213,5 +210,5 @@ Die primäre Verifizierung besteht darin, die Funktion zu testen:
 
 - [AEM as a Cloud Service-Indizierungsdokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak-Indizierungshandbuch](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Dokumentation zu AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides)
+- [Dokumentation zu AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Dokumentation für Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
