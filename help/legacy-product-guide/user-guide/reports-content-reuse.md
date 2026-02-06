@@ -5,14 +5,22 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
+source-git-commit: beb1ca15fdfb0e7ea30e6e685ac67a2a398cc064
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # Bericht zur Wiederverwendung von Inhalt {#id205BB900OQD}
+
+![](images/test-version-info-table-new.svg)
+
+![](images/test-version-info-table-original.svg)
+
+| Gilt für | Experience Manager Guides Cloud Service, <br> Experience Manager Guides On-Premise |
+| -------- | ---------------------------- |
+| **Version** | **,6** |
 
 Ein weiterer nützlicher Bericht, den Sie generieren können, ist der Bericht zur Wiederverwendung von Inhalten. Dieser Bericht berechnet den durchschnittlichen Prozentsatz der Inhaltsnutzung, was für Projekt-Manager und Geschäftsinhaber sehr nützlich ist, um die Menge der wiederverwendeten Inhalte zu sehen.
 
@@ -63,4 +71,4 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 >
 > Sie können auch den Bericht zur Wiederverwendung von Inhalten im CSV-Format exportieren. Klicken Sie dazu auf den Link In CSV exportieren in der linken oberen Ecke des Bildschirms und wählen Sie einen Speicherort für die CSV-Datei aus. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)
+**Übergeordnetes Thema:**[ Reports](reports-intro.md)
