@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 1644bfba3332b0f023aa8d70aefd2680d4220d8a
+source-git-commit: d3b156b8617cab8cf0702a483aef0fde7889e6a7
 workflow-type: tm+mt
-source-wordcount: '2802'
+source-wordcount: '2351'
 ht-degree: 0%
 
 ---
@@ -90,22 +90,22 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen Word-Dokumente in ei
      >
      > Weitere Informationen zur Struktur `word-builtin-styles-style2tagmap.xml` Datei und dazu, wie Sie sie anpassen können, finden Sie unter [Stil für Tag-](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html)&quot; im *DITA für Herausgeber-Benutzerhandbuch*.
 
-   - Geben Sie im props2propagate-Element die Eigenschaften an, die an die DITA-Zuordnung übergeben werden sollen. Diese Eigenschaft ist erforderlich, um die Standardmetadaten dc:title, dc:subject,dam:keywords,dam:category aus den Dokumentmetadaten in die konvertierten DITA-Assets zu übergeben.
+   - Geben Sie im props2propagate-Element die Eigenschaften an, die an die DITA-Zuordnung übergeben werden sollen. Diese Eigenschaft ist erforderlich, um die Standard-Metadaten wie dc:title,dc:subject,dam:keywords,dam:category von Dokumentmetadaten an konvertierte DITA-Assets zu übergeben.
 
 1. Speichern Sie die `w2d_io.xml`-Datei.
 
-1. Melden Sie sich nach dem Konfigurieren der erforderlichen Parameter in der `w2d_io.xml`-Datei bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
+1. Melden Sie sich nach dem Konfigurieren der erforderlichen Parameter in der `w2d_io.xml` bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 
 1. Navigieren Sie zum Speicherort des Eingabeordners \(`wordtodita`\).
 
 1. Laden Sie die Word-Quelldokumente in diesen Ordner hoch. Informationen zum Hochladen von Inhalten in DAM finden Sie unter [Vorhandenen DITA-Inhalt hochladen](migrate-content-upload-existing-dita-content.md#).
 
 
-Mit dem `/config` `config` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
+Mit dem `config` `/config` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
 
 ## Migrieren von Adobe InDesign-Dokumenten {#id195AD0B0K5Z}
 
-Mit AEM Guides können Sie InDesign-Dokumente konvertieren. InDesign ermöglicht ähnlich wie FrameMaker auch das Erstellen unstrukturierter und strukturierter Dokumente. Die unstrukturierten Dokumente verwenden die Absatz- und Zeichenstile zum Formatieren von Inhalten. Das strukturierte Dokument verwendet Elemente und die entsprechenden Attribute.
+Mit AEM Guides können Sie InDesign-Dokumente konvertieren. Ähnlich wie FrameMaker ermöglicht InDesign auch die Erstellung unstrukturierter und strukturierter Dokumente. Die unstrukturierten Dokumente verwenden die Absatz- und Zeichenstile zum Formatieren von Inhalten. Das strukturierte Dokument verwendet Elemente und die entsprechenden Attribute.
 
 Für den Konvertierungsprozess müssen die Absatz- und Zeichenformate den entsprechenden DITA-Elementen zugeordnet werden. Ebenso enthält die Zuordnungsdatei bei strukturierten Dokumenten eine Eins-zu-eins-Zuordnung von InDesign-Elementen und -Attributen zu DITA-Elementen und -Attributen.
 
@@ -122,7 +122,7 @@ Der Konvertierungsprozess umfasst die folgenden Aktionen im Backend:
 
 Im Allgemeinen erfordert der Konvertierungsprozess, dass Sie [InDesign-Dateien für die Konvertierung vorbereiten](appendix.md#id195DBF0045Z) und [die Zuordnungsdatei für die Migration von InDesign zu DITA vorbereiten](appendix.md#id194AF0003HT) dann müssen Sie das angegebene Verfahren zum Ausführen des Konvertierungsprozesses befolgen.
 
-Führen Sie die folgenden Schritte aus, um Ihre vorhandenen InDesign-Dokumente in ein DITA-Themendokument zu konvertieren:
+Führen Sie die folgenden Schritte aus, um Ihre bestehenden InDesign-Dokumente in ein Dokument vom Typ DITA-Thema zu konvertieren:
 
 1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
 
@@ -142,7 +142,7 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen InDesign-Dokumente i
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-1. Fügen Sie in der `idml2dita_io.xml`-Datei die Zuordnung der Konfigurationen hinzu, die im Ordner `idml12dita` vorhanden sind.
+1. Fügen Sie in der `idml12dita`-Datei die Zuordnung der Konfigurationen hinzu, die im Ordner `idml2dita_io.xml` vorhanden sind.
 1. Fügen Sie in `idml2dita_io.xml` Datei die folgenden Eigenschaften hinzu:
 
    ```
@@ -153,11 +153,11 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen InDesign-Dokumente i
 
 Konfigurieren Sie die folgenden Parameter in der `idml2dita_io.xml`:
 
-- Geben Sie im `inputDir` den Speicherort des Eingabeordners an, in dem Ihre Quell-InDesign-Dokumente verfügbar sind. Wenn Ihre InDesign-Dokumente beispielsweise in einem Ordner mit dem Namen &quot;`indesigntodita`&quot; `projects` Ordner gespeichert sind, geben Sie den Speicherort wie folgt an: `/content/dam/idmlfiles/indesigntodita/`
+- Geben Sie im `inputDir` den Speicherort des Eingabeordners an, in dem Ihre InDesign-Quelldokumente verfügbar sind. Wenn Ihre InDesign-Dokumente beispielsweise in einem Ordner mit dem Namen &quot;`indesigntodita`&quot; `projects` Ordner gespeichert sind, geben Sie den Speicherort wie folgt an: `/content/dam/idmlfiles/indesigntodita/`
 
 - Geben `outputDir` im Element den Speicherort des Ausgabeordners an oder behalten Sie den standardmäßigen Ausgabespeicherort bei, um das konvertierte DITA-Dokument zu speichern. Wenn der angegebene Ausgabeordner nicht in DAM vorhanden ist, erstellt der Konvertierungs-Workflow den Ausgabeordner.
 
-- Geben Sie im `mapStyle` den Speicherort der Zuordnungsdatei an, die Zuordnungen für das InDesign von Dokumentstilen zu DITA-Elementen enthält. Die Standardzuordnung wird in der Datei gespeichert, die sich unter befindet:
+- Geben Sie im `mapStyle` den Speicherort der Zuordnungsdatei an, die Zuordnungen von InDesign-Dokumentstilen zu DITA-Elementen enthält. Die Standardzuordnung wird in der Datei gespeichert, die sich unter befindet:
 
 ```XML
     /stmap.adobeidml.xml
@@ -165,15 +165,15 @@ Konfigurieren Sie die folgenden Parameter in der `idml2dita_io.xml`:
 
 >[!NOTE]
 >
-> Weitere Informationen zur Dateistruktur und dazu, wie Sie `stmap.adobeidml.xml` Datei anpassen können, finden Sie im Abschnitt [Vorbereiten der Zuordnungsdatei für das InDesign zur DITA-](appendix.md#id194AF0003HT) in *Anhang*.
+> Weitere Informationen zur Dateistruktur und `stmap.adobeidml.xml` Möglichkeit, sie anzupassen, finden Sie im Abschnitt [Vorbereiten der Zuordnungsdatei für die Migration von InDesign zu DITA](appendix.md#id194AF0003HT) in *Anhang*.
 
 1. Speichern Sie die `idml2dita_io.xml`-Datei.
 
-1. Melden Sie sich nach dem Konfigurieren der erforderlichen Parameter in der `idml2dita_io.xml`-Datei bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
+1. Melden Sie sich nach dem Konfigurieren der erforderlichen Parameter in der `idml2dita_io.xml` bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 
 1. Navigieren Sie zum Speicherort des Eingabeordners \(`indesigntodita`\).
 
-1. Laden Sie die Quell-InDesign-Dokumente in diesen Ordner hoch. Informationen zum Hochladen von Inhalten in DAM finden Sie unter [Vorhandenen DITA-Inhalt hochladen](migrate-content-upload-existing-dita-content.md#).
+1. Laden Sie die InDesign-Quelldokumente in diesen Ordner hoch. Informationen zum Hochladen von Inhalten in DAM finden Sie unter [Vorhandenen DITA-Inhalt hochladen](migrate-content-upload-existing-dita-content.md#).
 
 
 ## Migrieren von XHTML-Dokumenten {#id1949B04L0Y4}
@@ -181,7 +181,7 @@ Konfigurieren Sie die folgenden Parameter in der `idml2dita_io.xml`:
 Mit AEM Guides können Sie Ihre vorhandenen XHTML-Dokumente in Dokumente vom Typ „DITA-Thema“ konvertieren. Sie müssen die Speicherorte der Eingabe- und Ausgabeordner zusammen mit anderen Parametern angeben, und die Dokumente werden in das DITA-Format konvertiert. Es gibt zwei Methoden, mit denen Sie Ihre strukturierten HTML-Dokumente konvertieren können:
 
 - alle Dokumente in den Eingabeordner hochladen oder
-- Erstellen Sie eine ZIP-Datei aller Dokumente zusammen mit den Mediendateien und laden Sie sie in den Eingabeordner hoch. Dieser Ansatz wird im Allgemeinen für eine Reihe von HTML-Dateien verwendet, die miteinander verknüpft sind und es gibt ein Inhaltsverzeichnis \(index.html\). Die Datei index.html enthält Links zu allen HTML-Dateien im Set.
+- Erstellen Sie eine ZIP-Datei aller Dokumente zusammen mit den Mediendateien und laden Sie sie in den Eingabeordner hoch. Dieser Ansatz wird im Allgemeinen für eine Reihe von HTML-Dateien verwendet, die miteinander verknüpft sind und es eine Inhaltsverzeichnisdatei \(index.html\) gibt. Die Datei index.html enthält Links zu allen HTML-Dateien im Set.
 
 Unabhängig davon, ob Sie alle Dateien einzeln oder gebündelt in eine ZIP-Datei hochladen, erstellt der Konvertierungsprozess eine Eins-zu-eins-Zuordnung zwischen den HTML-Dateien und den resultierenden DITA-Dateien. Dies bedeutet, dass im Eingabeordner für jede HTML-Datei eine DITA-Datei erstellt wird.
 
@@ -224,11 +224,11 @@ Folgende Punkte müssen beim Hochladen Ihrer Dokumente in einer ZIP-Datei berüc
   </html>
   ```
 
-  Beachten Sie, dass für jedes `ul`-Tag das `class`-Attribut auf `book` festgelegt sein muss. Ebenso muss die `class` jedes `li`-Tags auf `topicref` gesetzt werden.
+  Beachten Sie, dass für jedes `ul`-Tag das `class`-Attribut auf `book` festgelegt sein muss. Ebenso muss die `li` jedes `class`-Tags auf `topicref` gesetzt werden.
 
 - Wenn Sie Inline-Stile verwenden, konvertieren Sie die Inline-Stile in Ihrer XHTML-Datei in CSS-basierte Stilklassen. Verwenden Sie dann die Stilattributzuordnung, um diese klassenbasierten Stile in der konvertierten DITA-Datei in das DITA-`outputclass`-Attribut zu konvertieren.
 
-  Beim Generieren von HTML- oder AEM Site-Ausgaben aus diesen DITA-Dateien können die `outputclass`-Attribute verwendet werden, um auf generierte HTML- oder AEM-Sites Stilklassen anzuwenden, die mit Ihren Quell-HTML-Inhalten übereinstimmen.
+  Beim Generieren der HTML- oder AEM-Site-Ausgabe aus diesen DITA-Dateien können die `outputclass`-Attribute verwendet werden, um auf generierte HTML- oder AEM-Site Stilklassen anzuwenden, die mit Ihren HTML-Quellinhalten übereinstimmen.
 
 
 Abgesehen von den Überlegungen zum Erstellen der ZIP-Datei muss Ihr XHTML-Dokument auch gut strukturiert sein. Ihr Dokument sollte beispielsweise über einen *Titel* gefolgt von *Überschrift 1*, *Überschrift 2* usw. verfügen. Jede der Überschriften sollte etwas Inhalt enthalten. Wenn Ihr Dokument nicht gut strukturiert ist, funktioniert der Migrationsprozess möglicherweise nicht wie erwartet.
@@ -257,7 +257,7 @@ Führen Sie die folgenden Schritte aus, um Ihr vorhandenes XHTML-Dokument in DIT
 
 1. Speichern Sie die `h2d_io.xml`-Datei.
 
-1. Melden Sie sich nach dem Konfigurieren der erforderlichen Parameter in der `h2d_io.xml`-Datei bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
+1. Melden Sie sich nach dem Konfigurieren der erforderlichen Parameter in der `h2d_io.xml` bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 
 1. *\(Optional\)* Sie können den Abschnitt „Verknüpfungen“ auch zu den konvertierten Dokumenten hinzufügen. Führen Sie die folgenden Schritte aus, um diese Funktion zu aktivieren:
 
@@ -284,68 +284,73 @@ Mit dem `<config> </config>` können Sie einen oder mehrere Konfigurationsblöck
 
 ## Migrieren von unstrukturierten FrameMaker-Dokumenten {#id1949B050VUI}
 
-Mit AEM Guides können Sie vorhandene unstrukturierte FrameMaker \(`.fm` und `.book`\)-Dokumente in DITA-Dokumente konvertieren. Der erste Schritt besteht darin, Stilzuordnungen mithilfe von FrameMaker zu erstellen und diese Einstellungen in einer STS-Datei zu speichern. Wenn Sie anschließend benutzerdefinierte DITA verwenden, können Sie Ihre benutzerdefinierten FrameMaker-Elemente den Quell-CD-Formaten in der `ditaElems.xml` zuordnen. Wenn Sie beispielsweise ein benutzerdefiniertes Element mit dem Namen `impnote` für alle wichtigen Notizen erstellt haben, können Sie dieses benutzerdefinierte Element in der `ditaElems.xml` definieren. Sobald dieses benutzerdefinierte Element definiert ist, würde AEM Guides beim Konvertieren eines FrameMaker-Dokuments, das `impnote` Element enthält, keinen Fehler mehr auslösen.
+Mit AEM Guides können Sie Ihre vorhandenen unstrukturierten Dokumente aus FrameMaker \(`.fm` und `.book`\) in DITA-Dokumente konvertieren. Umfassende Informationen zum Prozess finden Sie unter [Migration der technischen Dokumentation von unstrukturierten zu DITA in Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
 
-Wenn Sie außerdem einige zusätzliche Attribute mit Ihrem benutzerdefinierten oder gültigen DITA-Element angeben möchten, können Sie diese in der Datei style2attrMap.xml definieren. Sie können beispielsweise das Attribut `type` mit dem Wert `important` angeben, der mit dem `impnote`-Element übergeben werden soll. Diese zusätzlichen Informationen können in der Datei style2attrMap.xml angegeben werden.
+<!-- Deprecated information -
+ //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
 
-Zusätzlich zur Angabe von
+Also, If you want to specify some additional attributes with your custom or valid DITA element, you can define those in the style2attrMap.xml file. For example, you can specify the `type` attribute with the value of `important` to be passed on with the `impnote` element. This additional information can be specified in the style2attrMap.xml file.
 
-Führen Sie die folgenden Schritte aus, um Ihre vorhandenen unstrukturierten FrameMaker-Dokumente in das DITA-Format zu konvertieren:
+In addition to specifying
 
-1. Erstellen Sie Stilzuordnungen im FrameMaker und speichern Sie diese Einstellungen in einer STS-Datei.
+To convert your existing unstructured FrameMaker documents into DITA format, perform the following steps:
 
-1. Melden Sie sich bei AEM an und öffnen Sie den CRXDE Lite-Modus.
+1.  Create style mappings in FrameMaker and save those settings in a .sts file.
 
-1. Wenn Sie über benutzerdefinierte DITA-Elemente verfügen, definieren Sie diese in der `ditaElems.xml`-Datei, die am folgenden Speicherort verfügbar ist:
+1.  Log into AEM and open the CRXDE Lite mode.
 
-   `/libs/fmdita/config/ditaElems.xml`
+1.  If you have custom DITA elements, define those in the `ditaElems.xml` file available at the following location:
 
-1. Erstellen Sie einen Überlagerungsknoten des `config` Ordners im `apps`.
+    `/libs/fmdita/config/ditaElems.xml`
 
-1. Navigieren Sie zu der Konfigurationsdatei, die im Knoten `apps` verfügbar ist:
+1.  Create an overlay node of the `config` folder within the `apps` node.
 
-   `/apps/fmdita/config/ditaElems.xml`
+1.  Navigate to the configuration file available in the `apps` node:
 
-   Die `ditaElems.xml` enthält einen einzelnen konfigurierbaren Parameter:
+    `/apps/fmdita/config/ditaElems.xml`
 
-   - Geben Sie im `elem`-Parameter den Namen des benutzerdefinierten Elements an, das Sie in Ihren konvertierten DITA-Dokumenten verwenden möchten. Dieses Element wird so weitergegeben, wie es in den generierten DITA-Dokumenten vorhanden ist.
+    The `ditaElems.xml` file contains a single configurable parameter:
 
-1. Wenn Sie zusätzliche Attribute angeben möchten, definieren Sie diese in der `style2attrMap.xml`-Datei, die am folgenden Speicherort verfügbar ist:
+    -   In the `elem` parameter, specify the name of the custom element that you want to use in your converted DITA documents. This element would be passed on as is in the generated DITA documents.
 
-   `/libs/fmdita/config/style2attrMap.xml`
+1.  If you want to specify additional attributes, define those in the `style2attrMap.xml` file available at the following location:
 
-1. Erstellen Sie einen Überlagerungsknoten des `config` Ordners im `apps`.
+    `/libs/fmdita/config/style2attrMap.xml`
 
-1. Navigieren Sie zu der Konfigurationsdatei, die im Knoten `apps` verfügbar ist:
+1.  Create an overlay node of the `config` folder within the `apps` node.
 
-   `/apps/fmdita/config/style2attrMap.xml`
+1.  Navigate to the configuration file available in the `apps` node:
 
-   Die `style2attrMap.xml`-Datei enthält die folgenden konfigurierbaren Parameter:
+    `/apps/fmdita/config/style2attrMap.xml`
 
-   - Geben Sie im `fmStyle`-Parameter das Quellformat an, das in dem FrameMaker-Dokument verwendet wird, das Sie zuordnen möchten.
+    The `style2attrMap.xml` file contains the following configurable parameters:
 
-   - Geben `ditaAttr` im Element das DITA-Attribut an, das Sie dem Quellformat zuordnen möchten.
+    -   In the `fmStyle` parameter, specify the source format used in the FrameMaker document that you want to map.
 
-   - Geben Sie im `ditaVal`-Element den Wert für das zugeordnete Attribut an. Wenn Sie keinen Wert haben, können Sie diesen Eintrag leer lassen.
+    -   In the`ditaAttr` element, specify the DITA attribute that you want to map with the source format.
 
-1. Speichern Sie die `style2attrMap.xml`-Datei.
+    -   In the `ditaVal` element, specify the value for the mapped attribute. If you don't have any value, you can leave this entry blank.
 
-1. Melden Sie sich nach dem Konfigurieren der erforderlichen Parameter in der `style2attrMap.xml`-Datei bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
+1.  Save the `style2attrMap.xml` file.
 
-1. Navigieren Sie zu dem FrameMaker-Dokument, das Sie konvertieren möchten, und klicken Sie darauf.
+1. After configuring the required parameters in the `style2attrMap.xml` file, log into AEM and open the Assets UI.
 
-   Die DITA-Zuordnungskonsole wird mit der Liste der für die Generierung der Ausgabe verfügbaren Ausgabevorgaben angezeigt.
+1. Navigate to and click on the FrameMaker document that you want to convert.
 
-1. Wählen Sie das DITA-Ausgabeformat aus und konfigurieren Sie die erforderlichen Parameter.
+    The DITA map console appears showing the list of Output Presets available to generate output.
 
-   >[!NOTE]
-   >
-   > Sie müssen die Einstellungsdatei \(.sts\) verwenden, die Sie auf FrameMaker erstellt haben. Geben Sie außerdem den Einstellungsnamen und den Zielpfad an.
+1. Select DITA output format and configure the required parameters.
 
-1. Klicken Sie auf **Generieren**, um den Ausgabegenerierungsprozess zu starten.
+    >[!NOTE]
+    >
+    > You must use the same settings file \(.sts\) that you created in FrameMaker. Also, specify the Settings Name and Destination Path.
+
+1. Click the **Generate** icon to start the output generation process.
 
 
-Mit dem `<attrMap> </attrMap>` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Je nach Inhalt könnten Sie eine DITA-Datei und eine DITAMAP-Datei als konvertierte Dateien verwenden.
+Using the `<attrMap> </attrMap>` block, you can define one or multiple blocks of configurations for conversion. Depending on the content, you could have a .dita file and a .ditamap file as the converted files.
+
+-->
 
 ## Migrieren beliebiger anderer strukturierter Dokumente {#id1949B0590YK}
 
@@ -381,7 +386,7 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen strukturierten Dokum
 
 1. Speichern Sie die `XSLConfig.xml`-Datei.
 
-1. Melden Sie sich nach dem Konfigurieren der erforderlichen Parameter in der `XSLConfig.xml`-Datei bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
+1. Melden Sie sich nach dem Konfigurieren der erforderlichen Parameter in der `XSLConfig.xml` bei AEM an und öffnen Sie die Assets-Benutzeroberfläche.
 
 1. Navigieren Sie zum Speicherort des Eingabeordners \(`xsltodita`\).
 
@@ -390,4 +395,4 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen strukturierten Dokum
 
 Mit dem `<config> </config>` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Migrieren vorhandener Inhalte](migrate-content.md)
+**Übergeordnetes Thema:**[ Migrieren vorhandener Inhalte](migrate-content.md)
