@@ -2,9 +2,10 @@
 title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2026.01.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version 2026.01.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
+exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
+source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1591'
 ht-degree: 1%
 
 ---
@@ -54,7 +55,7 @@ Das **Pfad auswählen**-Dialogfeld bietet außerdem eine verbesserte baumstruktu
 
 ![](assets/select-path-dialog-new.png){width="350" align="left"}
 
-Experience Manager Guides Weitere Informationen finden Sie [&#x200B; Abschnitt „Durchsuchen von Dateien und Ordnern in &#x200B;](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides)&quot; unter _Weitere Funktionen im Editor_.
+Experience Manager Guides Weitere Informationen finden Sie [ Abschnitt „Durchsuchen von Dateien und Ordnern in ](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides)&quot; unter _Weitere Funktionen im Editor_.
 
 ## Verbesserungen bei der Repository-Suche und -Filterung
 
@@ -106,9 +107,18 @@ Sie können jetzt die Wortzahl in einer Zuordnungs- oder Themendatei verfolgen. 
 
 Weitere Informationen finden Sie unter [Rechtes Bedienfeld im Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
-### Verbesserte Handhabung für schreibgeschützte Dateien
+### Metadateneigenschaften für schreibgeschützte Dateien nicht mehr bearbeitbar
 
-Das Bearbeiten von Dateieigenschaften ist jetzt auf Dateien beschränkt, die sich im **Schreibgeschützt**-Modus befinden. Wenn eine Datei von einem anderen Benutzer gesperrt wird (im schreibgeschützten Modus verfügbar), können Sie keine Metadateneigenschaft ändern, weder über den [rechten Bereich](../user-guide/web-editor-right-panel.md#file-properties) noch über die Option **Eigenschaften** im [Kontextmenü einer Datei](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab) oder im [Metadatenbericht](../user-guide/reports-web-editor.md#metadata-report). Dadurch wird verhindert, dass Dateien versehentlich geändert werden.
+Mit dieser Version können Dateieigenschaften nicht mehr bearbeitet werden, wenn die `Disable Edit Without Checkout` aktiviert ist und sich eine Datei im schreibgeschützten **befindet**.
+
+Diese Einschränkung gilt für alle Einstiegspunkte, an denen Eigenschaften geändert werden können, darunter:
+
+- Das **rechte Bedienfeld** der Editor-Oberfläche
+- Die **Eigenschaften** im Dateikontextmenü
+- Der Metadatenbericht einer Zuordnung
+- Die Assets-Benutzeroberfläche
+
+Wenn eine Datei schreibgeschützt ist, müssen Sie die Datei zunächst auschecken, bevor Sie Änderungen an den Eigenschaften vornehmen. Diese Änderung erzwingt strengere Berechtigungskontrollen und stellt sicher, dass Eigenschaftenaktualisierungen denselben Auscheck- und Sperrregeln folgen wie Inhaltsbearbeitungen.
 
 ## Verbesserungen bei Überprüfungen
 
@@ -176,19 +186,3 @@ Im Rahmen dieser Version wurden die folgenden API-Verbesserungen vorgenommen:
 
 - Es werden neue APIs eingeführt, um ein neues Übersetzungsprojekt zu erstellen und dessen Status zu verfolgen. Diese APIs helfen bei der Automatisierung des Übersetzungsprozesses, reduzieren den manuellen Aufwand und verbessern die Effizienz. Weitere Informationen finden Sie unter [Übersetzungsprojekt erstellen](../api-reference/translation-project.md)
 - Verbesserte Asset-Verarbeitungs-APIs mit verbesserter Filterfunktion für Dateien und Ordner. Weitere Informationen finden Sie unter [Assets verarbeiten](../api-reference/bulk-assets-processing.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
