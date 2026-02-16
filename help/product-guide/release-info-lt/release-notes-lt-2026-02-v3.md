@@ -3,9 +3,9 @@ title: Versionshinweise zu | Neue Funktionen in der Version vom Februar 2026 mit
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version vom Februar 2026 der Produktschulungen und Lerninhalte
 role: Leader
 hidefromtoc: true
-source-git-commit: 5ba7ba00cbc9209aad9f17f0793d621f1f1838e2
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,14 @@ Die folgenden Funktionen werden in der Version vom Februar 2026 von Produktschul
 
   ![](assets/negative-scores-lc.png)
 
-- **Löschen von Widgets per Rechtsklick**: Zusätzlich zum Löschen von Quizfragen können Sie jetzt auch Widgets wie Akkordeons, Flip-Karten und Registerkarten mit **Rechtsklick > Element löschen** löschen. Diese Verbesserung erweitert die vorhandene Funktion *Frage löschen* auf Widgets, sodass Sie sie mit weniger Klicks und minimaler Navigation entfernen können.
+- **Löschen von Widgets per Rechtsklick**: Zusätzlich zum Löschen von Quizfragen können Sie jetzt auch Widgets wie Akkordeons, Flip-Karten und andere Widgets mit **Rechtsklick > Element löschen** löschen. Diese Verbesserung erweitert die vorhandene Funktion *Frage löschen* auf Widgets, sodass Sie sie mit weniger Klicks und minimaler Navigation entfernen können.
 
   Weitere Informationen über [Verwenden interaktiver Widgets](../learning-content/lc-widgets.md).
 
   ![](assets/delete-widget-items.png)
 - **Antworten festhalten**: Sie können jetzt bestimmte Antworten festhalten, sodass ihre Position unverändert bleibt, auch wenn Antworten während der SCORM-Ausgabegenerierung randomisiert werden. Dies ist besonders nützlich für Optionen wie *alle der oben genannten* oder *keine der oben genannten*.
+
+  Weitere Informationen über [Frageneigenschaften](../learning-content/quiz-insert-questions.md#question-properties).
 
   ![](assets/pin-question.png)
 - **Art der Kurzantwort**: Mit dem Fragetyp „Kurzantwort“ können Lernende kurze, beschreibende alphanumerische Antworten verwenden, anstatt vordefinierte Optionen auszuwählen. Dieser Fragetyp ermutigt Lernende, sich aktiv zu erinnern und ihr Verständnis in ihren eigenen Worten zu artikulieren, wodurch Bewertungen für Lernende ansprechender werden.
@@ -64,5 +66,5 @@ Die folgenden Probleme wurden in der Version vom Februar 2026 der Produktschulun
 - Wenn Sie Experience Manager Guides in Mozilla Firefox verwenden, zeigt die Flip-Karte nach dem Spiegeln den Vorderseitentext rückwärts auf der Rückseite an. (GUIDES-39983)
 - Wenn Sie auf das Inhaltsverzeichnis (TOC) im linken Bereich für den Kurs klicken, zeigt der Kurs weiterhin den Abschlussstatus an, auch wenn das Quiz fehlgeschlagen ist. (GUIDES-40398)
 - Der Versuch, den folgenden Fragetyp in einem Quiz in ALM falsch abzugleichen, führt dazu, dass die ausgewählten Optionen nicht im Bericht angezeigt werden. (GUIDES-38640)
-- Beim Generieren der PDF-Ausgabe werden die angewendeten Authoring-Stile nicht beibehalten, was zu Inkonsistenzen im Design führt.(GUIDES-38642)
+- Beim Generieren der PDF-Ausgabe werden die angewendeten Authoring-Stile nicht beibehalten, was zu Inkonsistenzen im Design führt. (GUIDES-38642)
 

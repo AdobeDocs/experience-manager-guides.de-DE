@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die Grundbausteine, die Sie Ihrem Thema ode
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 338213dd1e6f093a82bbf7d3283f81c3fdb96431
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -94,6 +94,7 @@ Führen Sie die folgenden Schritte aus, um Titel und Untertitel in Ihre Lerninha
    >[!NOTE]
    >
    > Wenn Sie die vorhandene Überschrift nicht als Titel verwenden möchten, fügen Sie zunächst mithilfe der Textkomponente in der Editor-Symbolleiste eine Überschrift ein und wählen Sie dann **Titel hinzufügen** aus. Dadurch wird ein Beispiel **Titel** zum Inhalt hinzugefügt, den Sie nach Bedarf bearbeiten können.
+
 1. Wählen Sie in den Dateieigenschaften **Untertitel hinzufügen** aus.
 Ein Beispiel **Untertitel** wird zum Inhalt hinzugefügt.
 
