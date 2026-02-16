@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Fragen aus der Fragenbank in Quiz für Produk
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: 757582f6bdcb64b004d430679eaf6e8a5fbdc807
+source-git-commit: cb8789b0ee0ebdfb864ecac8b00a22c62faf3823
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Führen Sie die folgenden Schritte aus, um Fragen aus der Fragenbank in das Quiz
 
 1. Wählen Sie **Aus Fragenbank einfügen** Option aus dem Dropdown **Menü „Fragen** in der Symbolleiste aus, wie unten dargestellt.
 
-   ![](assets/insert-from-question-bank.png){width="350" align="left"}
+   ![](assets/question-types.png){width="350" align="left"}
 
    Der **Aus HTML-Fragenbank einfügen** wird angezeigt.
 

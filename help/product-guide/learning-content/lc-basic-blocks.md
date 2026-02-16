@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Grundbausteine, die Sie Ihrem Thema ode
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 338213dd1e6f093a82bbf7d3283f81c3fdb96431
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ Sie können die in der Editor-Symbolleiste verfügbaren grundlegenden Bearbeitun
 
   ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
-- **Textkomponenten**: Fügt Überschriften/Titel, Absätze, Inline-Anführungszeichen, Hochgestellt, Tiefgestellt und Zitate zu Ihrem Inhalt hinzu.
+- **Textkomponenten**: Fügt Überschrift, Absatz, Inline-Zitat, Hochgestellt, Tiefgestellt und Zitat zu Ihrem Inhalt hinzu.
+
+  >[!NOTE]
+  >
+  > Sie können Ihren Lerninhalten auch einen Titel und Untertitel hinzufügen. Weitere Informationen zum Hinzufügen im Inhalt finden Sie unter [Hinzufügen von Titeln und Untertiteln zu Lerninhalten](#add-title-and-subtitle-to-learning-content).
 
   ![](assets/text-learning-content.png){width="650" align="left"}
 
@@ -75,3 +79,26 @@ Das **Wiederverwenden von Inhalten** wird geöffnet.
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
 
 Darüber hinaus bietet **Dropdown-** „Menü“ Zugriff auf die Bearbeitungsaktionen (Ausschneiden, Kopieren, Löschen), Suchen und Ersetzen sowie die Versionsbezeichnung.
+
+## Titel und Untertitel zu Lerninhalten hinzufügen
+
+Führen Sie die folgenden Schritte aus, um Titel und Untertitel in Ihre Lerninhalte aufzunehmen:
+
+1. Öffnen Sie den Lernkurs in der Kartenkonsole.
+1. Öffnen Sie das Thema, das Quiz oder eine andere Kurskomponente, zu der Sie einen Titel oder Untertitel hinzufügen möchten.
+1. Navigieren Sie zum Bedienfeld Dateieigenschaften und wählen Sie **Titel hinzufügen** aus.
+
+   ![](assets/add-title-lc.png)
+1. Wenn Sie dazu aufgefordert werden, wählen Sie aus, ob die vorhandene Überschrift als Titel verwendet werden soll.
+
+   >[!NOTE]
+   >
+   > Wenn Sie die vorhandene Überschrift nicht als Titel verwenden möchten, fügen Sie zunächst mithilfe der Textkomponente in der Editor-Symbolleiste eine Überschrift ein und wählen Sie dann **Titel hinzufügen** aus. Dadurch wird ein Beispiel **Titel** zum Inhalt hinzugefügt, den Sie nach Bedarf bearbeiten können.
+1. Wählen Sie in den Dateieigenschaften **Untertitel hinzufügen** aus.
+Ein Beispiel **Untertitel** wird zum Inhalt hinzugefügt.
+
+   ![](assets/add-subtitles-lc.png)
+
+Um einen Titel zu entfernen, deaktivieren Sie **Option „Titel hinzufügen** in den Dateieigenschaften. Durch Entfernen des Titels wird automatisch der zugehörige Untertitel entfernt.
+
+

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie im Produktschulungs- und -lernprogramm Fragen
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 1df47cf35590f10bdfe7fdbc3501d7c47137ed56
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Führen Sie die folgenden Schritte aus, um Fragen in ein Quiz einzufügen:
 
-1. Wählen Sie den gewünschten Fragetyp aus dem Dropdown **Menü &quot;**&quot; in der Symbolleiste aus. Je nach Ihren Anforderungen können Sie Fragen mithilfe eines der vier verfügbaren Formate hinzufügen: „true“ oder „false“, „single correct“, „multiple Correct“ und „match“ wie unten dargestellt. Weitere Informationen finden Sie unter [Fragetypen](#question-types).
+1. Wählen Sie den gewünschten Fragetyp aus dem Dropdown **Menü &quot;**&quot; in der Symbolleiste aus. Basierend auf Ihren Anforderungen können Sie Fragen mithilfe eines der vier verfügbaren Formate hinzufügen: „true“ oder „false“, „single correct“, „multiple correct“, „match the following“ und „short answer“, wie unten dargestellt. Weitere Informationen finden Sie unter [Fragetypen](#question-types).
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -25,11 +25,28 @@ Führen Sie die folgenden Schritte aus, um Fragen in ein Quiz einzufügen:
 
 1. Eine Frage wird im ausgewählten Format eingefügt. Anschließend können Sie die Frage entsprechend Ihren Anforderungen bearbeiten.
 
-1. Sie können eine beliebige Frage auswählen und ihre Eigenschaften mithilfe des Bedienfelds **Inhaltseigenschaften** konfigurieren. Sie können beispielsweise die richtige Antwort angeben, die zu vergebenden Noten festlegen und Sanktionen für falsche Antworten definieren.
+1. Sie können eine beliebige Frage auswählen und ihre Eigenschaften mithilfe des Bedienfelds **Inhaltseigenschaften** konfigurieren.
 
    ![](assets/question-properties.png){width="650" align="left"}
 
 1. Speichert alle Änderungen, die ihr im Quiz vorgenommen habt.
+
+
+## Frageeigenschaften
+
+Sie können die Fragen mithilfe der folgenden Frageneigenschaften im Bedienfeld **Inhaltseigenschaften** konfigurieren:
+
+![](assets/question-properties-new.png){width="350" align="left"}
+
+- **Optionen**: Geben Sie die richtige Antwort auf die Frage an
+- **Frage-ID**: Gibt die Frage-ID für jede Frage an. Wenn keine Frage-ID vorhanden ist, wird empfohlen, sie immer hinzuzufügen.
+- **Punkte für richtige Antwort**: Geben Sie die Punkte an, die für die richtige Antwort vergeben werden sollen.
+- **Strafe für falsche Antwort**: Geben Sie die Punkte an, die bei einer falschen Antwort abgezogen werden sollen.
+- **Fragebezeichnung**: Aktivieren Sie diese Option, um eine Fragebezeichnung hinzuzufügen.
+- **Feedback**: Ermöglicht es Ihnen, Feedback für eine korrekte oder falsche Antwort zu geben.
+- **Option an Position anheften**: Wenn eine bestimmte Option für eine Frage angeheftet wird, bleibt sie an der angegebenen Position in der Optionsliste fixiert, auch wenn **Zufallsbasierte Antwortauswahl für jeden Versuch** in der Konfiguration der SCORM-Voreinstellung aktiviert ist, was andernfalls die verfügbaren Optionen neu mischen würde. Sie können den Mauszeiger über die gewünschte Option einer Frage im Bedienfeld Inhaltseigenschaften bewegen und sie anheften.
+
+  ![](assets/pin-question.png){width="350" align="left"}
 
 ## Fügen Sie einen Absatz innerhalb des Quiz ein
 
@@ -73,3 +90,8 @@ Die folgenden Fragetypen werden in einem Quiz unterstützt:
   In der veröffentlichten Ausgabe wird für jedes Element die **Übereinstimmung mit der folgenden** Frage mit einem Dropdown-Menü angezeigt, sodass Sie die richtige Übereinstimmung aus den verfügbaren Optionen auswählen können.
 
   ![](assets/question-type-publishing.png){width="650" align="left"}
+
+
+- **Kurze Antwort**: Ermöglicht Teilnehmern, mit einer kurzen Texteingabe zu antworten. Er akzeptiert alphanumerische Antworten, gleicht Antworten ohne Unterscheidung der Groß-/Kleinschreibung ab und bietet für sehr lange Antworten einen horizontalen Bildlaufbalken.
+
+  ![](assets/short-answer.png){width="650" align="left"}

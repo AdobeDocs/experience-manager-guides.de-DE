@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die interaktiven Widgets, die Sie im Lernin
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: d4fd08c70c590496fef7a047745d4403546664fe
+source-git-commit: 781c6b6632c857f2130ef27751f66bfe1527f334
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -20,24 +20,24 @@ Sie können die Lerninhalte verbessern, indem Sie mehrere Widgets hinzufügen, u
 
 Zu den verfügbaren Widgets zur Verbesserung des Benutzererlebnisses und zur Optimierung der Inhaltsbereitstellung gehören:
 
-- **Akkordeon:** Fügt dem Inhalt ein Akkordeon hinzu. Sie können geeigneten Text sowohl in die Akkordeon-Kopfzeile als auch in ihren Hauptteil einfügen. Die zugehörigen Eigenschaften können mithilfe des Bedienfelds **Inhaltseigenschaften** verwaltet werden. Dazu gehören Optionen, mit denen einzelne oder mehrere Akkordeons gleichzeitig geöffnet werden können, sowie das Hinzufügen oder Entfernen von Elementen.
+- **Akkordeon:** Fügt dem Inhalt ein Akkordeon hinzu. Sie können geeigneten Text sowohl in die Akkordeon-Kopfzeile als auch in ihren Hauptteil einfügen. Die zugehörigen Eigenschaften können mithilfe des Bedienfelds **Inhaltseigenschaften** verwaltet werden. Dazu gehören Optionen, mit denen einzelne oder mehrere Akkordeons gleichzeitig geöffnet werden können, sowie das Hinzufügen oder Entfernen von Elementen. Um ein Element oder ein Element des Widgets zu löschen, können Sie auch **Rechtsklick > Element löschen** verwenden.
 
   ![](assets/accordion-learning-content.png){width="650" align="left"}
 
-- **Karussell:** Fügt dem Inhalt ein Karussell hinzu. Sie können geeigneten Text sowohl in den Kartentitel als auch in den Hauptteil einfügen. Die zugehörigen Eigenschaften können über das Bedienfeld **Inhaltseigenschaften** verwaltet werden, einschließlich der Optionen zum Hinzufügen oder Entfernen von Elementen.
+- **Karussell:** Fügt dem Inhalt ein Karussell hinzu. Sie können geeigneten Text sowohl in den Kartentitel als auch in den Hauptteil einfügen. Die zugehörigen Eigenschaften können über das Bedienfeld **Inhaltseigenschaften** verwaltet werden, einschließlich der Optionen zum Hinzufügen oder Entfernen von Elementen. Um ein Element oder ein Element des Widgets zu löschen, können Sie auch **Rechtsklick > Element löschen** verwenden.
 
   ![](assets/carousal-learning-content.png){width="650" align="left"}
 
-- **Hotspot:** Fügt einem ausgewählten Bild einen Hotspot hinzu. Wählen Sie zunächst ein Bild aus und navigieren Sie dann zu **Einfügen > Hotspot**. Dadurch wird das Hotspot-Dialogfeld geöffnet, in dem Sie verschiedene Optionen konfigurieren können, z. B. indem Sie verschiedene Hotspot-Größen festlegen, entsprechende Links hinzufügen und die Ebenen anpassen, indem Sie Bereiche vorwärts oder rückwärts verschieben.
+- **Hotspot:** Fügt einem ausgewählten Bild einen Hotspot hinzu. Wählen Sie zunächst ein Bild aus und navigieren Sie dann zu **Einfügen > Hotspot**. Dadurch wird das Hotspot-Dialogfeld geöffnet, in dem Sie verschiedene Optionen konfigurieren können, z. B. indem Sie verschiedene Hotspot-Größen festlegen, entsprechende Links hinzufügen und die Ebenen anpassen, indem Sie Bereiche vorwärts oder rückwärts verschieben. Um ein Element oder ein Element des Widgets zu löschen, können Sie auch **Rechtsklick > Element löschen** verwenden.
 
   ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **Registerkarte** Ermöglicht die Organisation von Inhalten in interaktiven Abschnitten.  Jede Registerkarte kann ein bestimmtes Thema oder eine bestimmte Kategorie darstellen; Teilnehmer können auf die Registerkarten klicken oder tippen, um den entsprechenden Inhalt anzuzeigen. Platzieren Sie den Cursor an der Stelle, an der das Registerkarten-Widget im Inhalt angezeigt werden soll, und navigieren Sie dann zu **Einfügen > Widget > Registerkarte**. Dadurch wird ein Registerkarten-Container zu Ihrem Inhalt hinzugefügt. Fügen Sie nun der Registerkarte Inhalte hinzu, die einen Registerkartentitel und den entsprechenden Inhalt enthalten.
+- **Registerkarte** Ermöglicht die Organisation von Inhalten in interaktiven Abschnitten.  Jede Registerkarte kann ein bestimmtes Thema oder eine bestimmte Kategorie darstellen; Teilnehmer können auf die Registerkarten klicken oder tippen, um den entsprechenden Inhalt anzuzeigen. Platzieren Sie den Cursor an der Stelle, an der das Registerkarten-Widget im Inhalt angezeigt werden soll, und navigieren Sie dann zu **Einfügen > Widget > Registerkarte**. Dadurch wird ein Registerkarten-Container zu Ihrem Inhalt hinzugefügt. Fügen Sie nun der Registerkarte Inhalte hinzu, die einen Registerkartentitel und den entsprechenden Inhalt enthalten.  Um ein Element oder ein Element des Widgets zu löschen, können Sie auch **Rechtsklick > Element löschen** verwenden.
 
   ![](assets/insert-tab-lc.png)
 
   Um das Registerkarten-Layout (vertikale oder horizontale Registerkarten) hinzuzufügen, zu löschen und zu wechseln, verwenden Sie den Abschnitt **Inhaltseigenschaften** im rechten Bedienfeld.
-- **Karte spiegeln:** Fügt eine interaktive Karte zu Ihrem Inhalt hinzu, die Sie spiegeln, um zusätzliche Informationen anzuzeigen. Jede Karte hat zwei Seiten - vorne und hinten, sodass die Lernenden Informationen auf ansprechende Weise erkunden können.  Um eine Flip-Karte einzufügen, platzieren Sie den Cursor an der gewünschten Position und navigieren Sie zu **Einfügen > Widget > Flip-Karte**. Dadurch wird ein Container mit einer Flip-Karte zu Ihrem Inhalt hinzugefügt. Anschließend können Sie einen Titel und ein optionales Bild auf der Vorderseite hinzufügen und den entsprechenden Inhalt auf der Rückseite eingeben.
+- **Karte spiegeln:** Fügt eine interaktive Karte zu Ihrem Inhalt hinzu, die Sie spiegeln, um zusätzliche Informationen anzuzeigen. Jede Karte hat zwei Seiten - vorne und hinten, sodass die Lernenden Informationen auf ansprechende Weise erkunden können.  Um eine Flip-Karte einzufügen, platzieren Sie den Cursor an der gewünschten Position und navigieren Sie zu **Einfügen > Widget > Flip-Karte**. Dadurch wird ein Container mit einer Flip-Karte zu Ihrem Inhalt hinzugefügt. Anschließend können Sie einen Titel und ein optionales Bild auf der Vorderseite hinzufügen und den entsprechenden Inhalt auf der Rückseite eingeben. Um ein Element oder ein Element des Widgets zu löschen, können Sie auch **Rechtsklick > Element löschen** verwenden.
 
   ![](assets/insert-flip-card-lc.png)
 
@@ -46,4 +46,4 @@ Zu den verfügbaren Widgets zur Verbesserung des Benutzererlebnisses und zur Opt
 
   ![](assets/insert-click-to-reveal-lc.png)
 
-  Um das Widget hinzuzufügen oder zu löschen oder die Widget-Ausrichtung zu verwalten, verwenden Sie den Abschnitt **Inhaltseigenschaften** im rechten Bedienfeld.
+  Um das Widget hinzuzufügen oder zu löschen oder die Widget-Ausrichtung zu verwalten, verwenden Sie den Abschnitt **Inhaltseigenschaften** im rechten Bedienfeld. Um ein Element oder ein Element des Widgets zu löschen, können Sie auch **Rechtsklick > Element löschen** verwenden.
