@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: e0b0df19b7ec691a894130eb42df827921b4890c
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Führen Sie die folgenden Schritte aus, um die `config.xml`-Datei zu überlagern
 
 1. Navigieren Sie zu der Konfigurationsdatei, die am folgenden Speicherort verfügbar ist:
 
-   `/libs/fmdita/cq/xssprotection/config.xml`
+   `/libs/cq/xssprotection/config.xml`
 
 1. Erstellen Sie einen Überlagerungsknoten des `xssprotection` Ordners im Apps-Knoten.
 
@@ -143,4 +143,4 @@ Imagemaps:
 
 
 
-Erfahren Sie mehr über die Best Practices für [Sicherheit](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/introduction/security).
+Erfahren Sie mehr über die Best Practices für [Sicherheit](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).
