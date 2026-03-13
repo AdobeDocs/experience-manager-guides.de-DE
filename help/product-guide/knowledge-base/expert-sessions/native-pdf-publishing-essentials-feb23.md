@@ -41,11 +41,11 @@ Themen:
 
 ## Verwandte Ressourcen
 
-- **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=de)
 
-- **Benutzerhandbuch** - [Native PDF-Veröffentlichung](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
+- **Benutzerhandbuch** - [Native PDF-Veröffentlichung](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
 
-- **Community-Forum** - Für sitzungsspezifische Community-Interaktionen auf dem Experience League besuchen Sie das [AEM-Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-Forum** - Für sitzungsspezifische Community-Interaktionen auf dem Experience League besuchen Sie das [AEM-Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
 
 >[!NOTE]
 >
