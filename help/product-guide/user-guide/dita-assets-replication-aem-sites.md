@@ -18,5 +18,5 @@ Wenn die aus DITA-Inhalten generierten Ausgaben mit **Quick Publish** oder **Ver
 
 Um die unbeabsichtigte Replikation von DITA-Inhalten in der Veröffentlichungsumgebung zu verhindern und Leistungsprobleme zu vermeiden, müssen Administratoren die DITA-Asset-Replikation explizit über den Configuration Manager verwalten. Diese Konfiguration ermöglicht es Admins, die Replikation unterstützter DITA-Asset-Typen zu steuern, einschließlich DITA-Zuordnungen, DITA-Themen, XML-Dateien und Markdown-Dateien (.md).
 
-Um die DITA-Asset-Replikationsfunktion zu konfigurieren, zeigen Sie je nach [ Konfiguration &quot;-Asset-Replikation für Cloud Service konfigurieren](../cs-install-guide/configure-dita-assets-replication.md) oder [DITA-Asset-Replikation für On-Premise konfigurieren](../install-guide/configure-dita-asset-replication.md) an
+Um die DITA-Asset-Replikationsfunktion zu konfigurieren, zeigen Sie je nach [&#x200B; Konfiguration &quot;-Asset-Replikation für Cloud Service konfigurieren](../cs-install-guide/configure-dita-assets-replication.md) oder [DITA-Asset-Replikation für On-Premise konfigurieren](../install-guide/configure-dita-asset-replication.md) an
 

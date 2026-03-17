@@ -118,7 +118,7 @@ Stellen Sie bei Lern- und Schulungsinhalten sicher, dass für den Editor und die
 >
 > Diese Einstellung ist nur verfügbar, wenn die Lerninhaltsfunktion in den **Workspace-Einstellungen** > **Allgemein** aktiviert ist.
 
-Mit dieser Einstellung können Sie die Authoring- und Publishing-Vorlagen verwalten, [ im linken Bereich des Editors ](../user-guide/web-editor-left-panel.md). Sie können Authoring- und Ausgabevorlagen hinzufügen, entfernen oder neu anordnen, auf die dann Autoren und Herausgeber zugreifen können.
+Mit dieser Einstellung können Sie die Authoring- und Publishing-Vorlagen verwalten, [&#x200B; im linken Bereich des Editors &#x200B;](../user-guide/web-editor-left-panel.md). Sie können Authoring- und Ausgabevorlagen hinzufügen, entfernen oder neu anordnen, auf die dann Autoren und Herausgeber zugreifen können.
 
 ![](assets/templates-settings.png){width="350" align="left"}
 
