@@ -4,9 +4,9 @@ description: Lernen Sie das rechte Bedienfeld im Editor kennen. Erfahren Sie meh
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
+source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Sie können auf die Funktion **Inhaltseigenschaften** zugreifen, indem Sie im re
 
 1. Wählen **im Dropdown** Bedienfeld „Attribut“ das Attribut aus der Dropdown-Liste aus und geben Sie den Wert eines Attributs an.  Wählen Sie dann **Hinzufügen** aus.
 
-   ![Attributbedienfeld mit mehreren Attributen &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![Attributbedienfeld mit mehreren Attributen ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Um das Attribut zu bearbeiten, halten Sie den Mauszeiger darüber und wählen Sie **Bearbeiten** ![edit-icon](images/edit_pencil_icon.svg) aus.
 
@@ -119,7 +119,23 @@ Standardmäßig können Sie die Dateien nach Titeln anzeigen. Wenn Sie mit dem M
 >
 > Alle in und ausgehenden Referenzen werden durch Hyperlinks mit den Dokumenten verbunden. Sie können die verknüpften Dokumente einfach öffnen und bearbeiten.
 
-Neben dem Öffnen von Dateien können Sie auch viele Aktionen über das Menü **Optionen** im Abschnitt Verweise durchführen. Einige der Aktionen, die Sie ausführen können, sind Bearbeiten, Vorschau, UUID kopieren, Pfad kopieren, Zu Sammlungen hinzufügen, Eigenschaften.
+Neben dem Öffnen von Dateien können Sie auch viele Aktionen über das Menü **Optionen** im Abschnitt Verweise durchführen. Zu den Aktionen, die Sie ausführen können, gehören Bearbeiten, Vorschau, UUID kopieren, Pfad kopieren, Zu Sammlungen hinzufügen und Eigenschaften.
+
+**Übersetzungen**
+
+In diesem Abschnitt werden alle verfügbaren Sprachkopien für das aktuell im Editor geöffnete Asset in alphabetischer Reihenfolge aufgelistet. Die Informationen werden in einer tabellarischen Ansicht angezeigt, wobei jeder Sprach-Code zusammen mit dem entsprechenden *Dateinamen* (oder *Dateiname* angezeigt wird, falls *Dateiname* nicht verfügbar ist) angezeigt wird.
+
+>[!INFO]
+>
+> Sprachkopien werden erstellt, wenn ein Asset zur Übersetzung versendet wird. Englisch (`en`) fungiert als Ausgangssprache, und übersetzte Kopien werden in den entsprechenden Zielsprachordnern generiert (z. B. `de` für Deutsch oder `fr` für Französisch). Wenn ein Asset nur im Ordner `en` vorhanden ist, werden keine zusätzlichen Sprachkopien angezeigt, bis die Übersetzung für die Zielsprachen eingeleitet und abgeschlossen ist. Wenn das Asset in keinem Sprachordner vorhanden ist, wird **Keine Übersetzungen verfügbar** angezeigt. Weitere Informationen finden Sie unter [Best Practices für die Übersetzung von Inhalten](./translation-first-time.md).
+
+![](images/translations-right-panel.png){width="300" align="left"}
+
+Für jede Sprachkopie können Sie den Mauszeiger über die Datei bewegen, um deren Pfad im Repository zu suchen, oder sie einfach auswählen, um sie im Editor zu öffnen. Neben dem Öffnen von Dateien können Sie auch viele Aktionen über das Menü **Optionen** im Abschnitt Übersetzungen durchführen. Zu den Aktionen, die Sie ausführen können, gehören Bearbeiten, Vorschau, UUID kopieren, Pfad kopieren, Zu Sammlungen hinzufügen und Eigenschaften.
+
+![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+
+
 
 ## Überprüfung
 
@@ -143,7 +159,7 @@ Mit der Funktion „Nachverfolgte Änderungen“ im rechten Bereich können Sie 
 
 >[!NOTE]
 >
-> Die Funktion „Nachverfolgte Änderungen“ zeigt alle Aktualisierungen an, die mit der Funktion „Änderungen nachverfolgen“ in der [-Leiste aktiviert/deaktiviert &#x200B;](./web-editor-tab-bar.md).
+> Die Funktion „Nachverfolgte Änderungen“ zeigt alle Aktualisierungen an, die mit der Funktion „Änderungen nachverfolgen“ in der [-Leiste aktiviert/deaktiviert ](./web-editor-tab-bar.md).
 
 ## Ingenieur
 
@@ -153,4 +169,4 @@ Informationen zum Arbeiten mit Schematrondateien in Experience Manager Guides fi
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
