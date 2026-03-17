@@ -4,14 +4,18 @@ description: Erstellen und verwalten Sie Baselines über die Zuordnungskonsole i
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: eb68e4583083ff209fd717049c6e50b996cba8e8
+source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
 
 # Erstellen und Verwalten von Baselines über die Map-Konsole {#id223MB0ZF043}
+
+>[!NOTE]
+>
+> Mit der Version Experience Manager Guides 2026.03.0 ist eine neue Baseline (Beta) verfügbar, die eine verbesserte Leistung und Stabilität bietet. Wenden Sie sich zur Verwendung dieser Grundlinie an das Customer Success-Team , um die Funktion aktivieren zu lassen. Erfahren Sie mehr über [Neue Baseline (Beta)](./web-editor-baseline-v2.md).
 
 Mit der Funktion „Grundeinstellungen“ können Sie eine Version Ihrer Themen und Assets erstellen, die dann zur Veröffentlichung oder Übersetzung verwendet werden können. Wenn Ihre DITA-Zuordnung beispielsweise über `topicA` und `imageA` verfügt, können Sie eine Grundlinie erstellen, die die 3. Version von `topicA`, aber die 4. Version von `ImageA` verwendet. Sobald Sie eine Grundlinie eingerichtet haben, können Sie Themen aus verschiedenen Versionen in einem einzigen Schritt veröffentlichen oder übersetzen.
 
@@ -22,7 +26,7 @@ Ebenso ist die Auswahl einer Baseline zur Übersetzung von Inhalten optional. We
 
 >[!TIP]
 >
-> Es wird empfohlen, diese Grundlinien-Funktion über die Zuordnungskonsole zu verwenden. Sie können jedoch auch &quot;[&#x200B; Dashboard verwenden, um Baselines zu erstellen und zu verwalten](./generate-output-use-baseline-for-publishing.md).
+> Es wird empfohlen, diese Grundlinien-Funktion über die Zuordnungskonsole zu verwenden. Sie können jedoch auch &quot;[ Dashboard verwenden, um Baselines zu erstellen und zu verwalten](./generate-output-use-baseline-for-publishing.md).
 
 Auf der Registerkarte **Baseline** können Sie die folgenden Aktionen ausführen:
 
@@ -130,7 +134,7 @@ Sie können eine Baseline duplizieren und entsprechend Ihren Anforderungen ände
    In **Version basierend auswählen** können Sie entweder die Option **Exakte Kopie** oder die Option **Beschriftung** auswählen:
 
    - **Exakte Kopie**: Experience Manager Guides wählt dieselbe Version aller Themen aus und erstellt eine exakte Kopie der duplizierten Baseline.
-   - **Beschriftung**: In der Dropdown-Liste können Sie eine der [&#x200B; Beschriftungen &#x200B;](#labels-list). Experience Manager Guides wählt die Versionen der Themen aus, für die die ausgewählte Beschriftung definiert ist, während für die übrigen Themen die Version aus der duplizierten Baseline ausgewählt wird. Sie wählen beispielsweise den Titel `Release 1.0` aus der Dropdown-Liste aus und wählen dann die Versionen der Themen aus, für die Sie diesen Titel definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Baseline ausgewählt.
+   - **Beschriftung**: In der Dropdown-Liste können Sie eine der [ Beschriftungen ](#labels-list). Experience Manager Guides wählt die Versionen der Themen aus, für die die ausgewählte Beschriftung definiert ist, während für die übrigen Themen die Version aus der duplizierten Baseline ausgewählt wird. Sie wählen beispielsweise den Titel `Release 1.0` aus der Dropdown-Liste aus und wählen dann die Versionen der Themen aus, für die Sie diesen Titel definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Baseline ausgewählt.
 1. Wählen Sie **Duplizieren** aus.
 
 - **Umbenennen** oder **Löschen** einer vorhandenen Baseline**.
@@ -168,5 +172,5 @@ Mithilfe des Symbols Filter im Bedienfeld **Baseline-Filter** können Sie Filter
 
 Nachdem Sie die Baseline bearbeitet haben, klicken Sie auf **Speichern**, um die Änderungen an der Baseline zu speichern. Sie können auf **Zurücksetzen** klicken, wenn Sie die Änderung nicht speichern und die Grundlinie zurücksetzen möchten. Bei Auswahl von **Zurücksetzen** wird eine Warnung angezeigt, dass Ihre nicht gespeicherten Änderungen verloren gehen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
 

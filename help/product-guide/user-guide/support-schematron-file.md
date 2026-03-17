@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie ein DITA-Thema importieren und validieren, mi
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
+source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 
 Führen Sie die folgenden Schritte aus, um die Schematron-Dateien zu importieren:
 
-![](images/schematron-panel.png){width="300" align="left"}
-
 1. Navigieren Sie zum erforderlichen Ordner (in den Sie die Dateien hochladen möchten) in *Repository*.
 1. Wählen Sie das Symbol **Optionen** aus, um das Kontextmenü zu öffnen, und wählen Sie **Assets hochladen**.
 1. Im Dialogfeld **Assets hochladen** können Sie den Zielordner im Feld **Asset-Ordner auswählen** ändern.
@@ -41,16 +39,16 @@ Nach dem Import von Schematron-Dateien können Sie diese im Editor bearbeiten. S
 
 Wenn Sie ein Thema im Editor öffnen, wird rechts ein Bedienfeld für die Schematronvalidierung angezeigt. Führen Sie die folgenden Schritte aus, um ein Thema oder eine Zuordnung mit einer Schematron-Datei hinzuzufügen und zu validieren:
 
-![](images/schematron-panel-file-validated.png){width="500" align="left"}
+![](images/schematron-panel.png){width="350" align="left"}
 
-1. Wählen Sie das Schematron-Symbol () aus, um das Schematron-Bedienfeld zu öffnen.
+1. Wählen Sie das Symbol Schematron aus, um das Bedienfeld Schematron zu öffnen.
 1. Verwenden **Schematrondatei hinzufügen** um Schematrondateien hinzuzufügen.
 
    >[!NOTE]
    >
    > Wenn eine ungültige Schematron-Datei hinzugefügt wird, wird im Validierungsfenster eine Fehlermeldung angezeigt.
 
-   ![](images/schematron-panel-error.png){width="300" align="left"}
+   ![](images/schematron-panel-error.png){width="350" align="left"}
 
 1. Wenn die Schematron-Datei keine Fehler enthält, wird sie hinzugefügt und im Validierungsfenster aufgeführt. Für die Schematron-Datei mit Fehlern wird eine Fehlermeldung angezeigt.
 
@@ -58,14 +56,42 @@ Wenn Sie ein Thema im Editor öffnen, wird rechts ein Bedienfeld für die Schema
    >
    >Sie können das Kreuz-Symbol neben dem Namen der Schematron-Datei verwenden, um sie zu entfernen.
 
-1. Wählen Sie **Mit Schematron validieren** aus, um das Thema zu validieren.
+1. Wählen Sie **Validieren** aus, um das Thema mit den hinzugefügten Schematron-Dateien zu validieren.
 
    * Wenn beim Thema keine Regeln verletzt werden, wird die Erfolgsmeldung für die Datei angezeigt.
    * Wenn das Thema eine Regel umgeht, z. B. wenn es keinen Titel enthält und für das oben angegebene Schematron validiert wurde, wird ein Validierungsfehler angezeigt.
 
+   >[!NOTE]
+   >
+   > Validierungsergebnisse werden basierend auf dem in der Schematron-Datei definierten Rollenattribut angezeigt. Weitere Informationen finden Sie unter [Validierungsergebnisse und Schweregrade](#understanding-validation-results-and-serverity-levels).
+
 1. Wählen Sie die Fehlermeldung aus, um das Element mit dem Fehler im geöffneten Thema/in der geöffneten Zuordnung hervorzuheben.
 
 Die Unterstützung von Schematronen im Editor hilft Ihnen bei der Validierung der Dateien anhand eines Regelsatzes und der Aufrechterhaltung der Konsistenz und Korrektheit über die Themen hinweg.
+
+## Validierungsergebnisse und Schweregrade
+
+Validierungsergebnisse werden basierend auf dem in der Schematron-Datei definierten Rollenattribut angezeigt. Probleme werden als `Fatal`, `Error`, `Warn` oder `Info` kategorisiert, wobei im Validierungsbereich für jede Kategorie eine sichtbare Anzahl vorhanden ist.
+
+![](images/schematron-validation-errors.png){width="350" align="left"}
+
+Um den Schweregrad eines Problems zu ermitteln, wird der Wert _Groß-/Kleinschreibung wird beachtet_ des Rollenattributs ausgewertet, das in der entsprechenden Schematron-Datei definiert ist.
+
+Der folgende Ausschnitt zeigt die unterstützten Rollenattributwerte, die in einer Schematronregel definiert sind:
+
+* `<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+* `<sch:report role="info" test="not(@alt)">Image should have an alt attribute.</sch:report>`
+* `<sch:assert role= "fatal" test="b"> Bold must be there in <sch:name/> element</sch:assert>`
+* `<sch:assert role= "warn" test="b"> Recommended formatting is missing in <sch:name/> element</sch:assert>`
+
+Wenn das Rollenattribut nicht angegeben ist oder ein nicht unterstützter Wert verwendet wird, wird das Problem im Validierungsbereich als `Error` kategorisiert. Dieses Verhalten gilt auch für bestehende Schematron-Dateien, die kein Rollenattribut definieren. In solchen Fällen werden alle Probleme unter `Error` gruppiert.
+
+**Dateispeicherszenarien**
+
+Das Speichern einer Datei hängt von der Einstellung **Validierungsprüfung vor dem Speichern der Datei ausführen** in den [Workspace-Einstellungen ab](../cs-install-guide/workspace-settings.md#validation):
+
+* Wenn diese Option aktiviert ist, dürfen Sie die Datei erst speichern, wenn die Probleme auf `Fatal`- oder `Error`-Ebene behoben wurden.
+* Wenn diese Option deaktiviert ist, werden keine Validierungsprüfungen durchgeführt und die Dateien können gespeichert werden, selbst wenn Probleme auf `Fatal`- oder `Error` vorliegen.
 
 ## Verwenden Sie Assert- und Report-Anweisungen, um auf Regeln zu prüfen{#schematron-assert-report}
 

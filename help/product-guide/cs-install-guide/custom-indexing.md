@@ -4,16 +4,17 @@ description: Erfahren Sie, wie Sie benutzerdefinierten Inhalt indizieren
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
+exl-id: 682d58df-7404-4e84-9b5f-ab40c46bef84
+source-git-commit: 1bffdade37658bd44128cac9226a349f828abd45
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 3%
 
 ---
 
 # Bereitstellen eines benutzerdefinierten Index für die Funktion Suchen und Ersetzen (Source-Ansicht)
 
-## Übersicht
+## Überblick
 
 Dieses Handbuch enthält Schritt-für-Schritt-Anweisungen für die Bereitstellung des `guidesAssetLucene‑1‑custom‑1` benutzerdefinierten Index auf Adobe Experience Manager (AEM) as a Cloud Service. Während die standardmäßige Funktion zum Suchen und Ersetzen in der Autorenansicht ohne diesen Index funktioniert, ist der benutzerdefinierte Index speziell erforderlich, um Suchen und Ersetzen in der Source-Ansicht zu aktivieren. Mit der Ansicht „Suchen und Ersetzen“ (Source-Ansicht) können Sie nicht nur den sichtbaren erstellten Inhalt durchsuchen, sondern auch die zugrunde liegende XML-Struktur, einschließlich Elemente, Tags und Attributwerte.
 
@@ -34,6 +35,10 @@ Um die Funktion zum Suchen und Ersetzen (Source-Ansicht) zu aktivieren, müssen 
 ```
 guidesAssetLucene-1-custom-1
 ```
+
+>[!NOTE]
+>
+> Erhöhen Sie die Indexnummer, wenn bereits ein benutzerdefinierter Index mit demselben Namen vorhanden ist.
 
 ### Indexdefinition (.content.xml)
 
@@ -153,6 +158,11 @@ Erstellen Sie die folgende Indexdefinition in Ihrem Projekt unter:
                         jcr:primaryType="nt:unstructured"
                         mappedType="text/markdown+source"/>
             </text>
+            <text jcr:primaryType="nt:unstructured">
+   <html
+        jcr:primaryType="nt:unstructured"
+        mappedType="text/html+source"/>
+</text>
         </mimeTypes>
     </tika>
 </jcr:root>
@@ -210,5 +220,5 @@ Die primäre Verifizierung besteht darin, die Funktion zu testen:
 
 - [AEM as a Cloud Service-Indizierungsdokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak-Indizierungshandbuch](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Dokumentation zu AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides)
+- [Dokumentation zu AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Dokumentation für Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

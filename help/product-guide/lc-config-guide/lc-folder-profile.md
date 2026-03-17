@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,28 @@ Um mit der Ordnerprofilkonfiguration für Lern- und Schulungsinhalte zu beginnen
    ![](assets/folder-profile.png){width="650" align="left"}
 
 6. **Konfigurieren von Ordnerprofileinstellungen**: Für Lern- und Schulungsinhalte können die folgenden Einstellungen auf Ordnerebene konfiguriert werden:
+   - [Allgemein](#general)
    - [Panels](#configure-panels)
-   - [Vorlagen](#configure-templates)
+   - [Inhaltsvorlagen](#configure-content-templates)
    - [Ausgabevoreinstellungen](#configure-output-presets)
    - [HTML-Editor](#html-editor-settings)
    - [Profile veröffentlichen](#manage-publish-profiles)
 
-Um auf diese Einstellungen zuzugreifen, wechseln Sie zur Editor-Ansicht und wählen **Einstellungen** aus dem Menü **Optionen** wie unten dargestellt:
+Um auf diese Einstellungen zuzugreifen, wechseln Sie zur Editor-Ansicht und wählen Sie **Workspace** aus dem Menü **Optionen** wie unten dargestellt:
 
 ![](assets/access-editor-settings.png)
+
+## Allgemein
+
+Auf der Registerkarte Allgemein können Sie die folgenden Einstellungen konfigurieren, die speziell für die Funktion Produktschulung und Lerninhalte gelten:
+
+![](assets/lc-config-settings-general.png){width="350" align="left"}
+
+- **Lerninhalte**: Verwenden Sie den Umschalter **Lerninhalte aktivieren**, um die Funktion auf Ordnerprofilebene zu aktivieren oder zu deaktivieren.
+- **HTML-Editor**: Mit dieser Einstellung können Sie den Editor für das HTML-basierte Authoring konfigurieren. Die wichtigsten Konfigurationsoptionen in dieser Einstellung sind:
+
+   - **Inline-Stil ausblenden**: Aktivieren Sie diese Option, um zu verhindern, dass Autoren bzw. Autorinnen eine Inline-Formatierung auf den Kursinhalt anwenden. Wenn diese Option aktiviert ist, bleiben alle Inline-Formatierungsoptionen wie Schriftarten, Rahmen, Layout, Hintergrund und Spalten im rechten Bereich des Editors für Autoren ausgeblendet. Autoren können jedoch weiterhin die globalen klassenbasierten Stiloptionen verwenden, die im Bedienfeld **Stile** verfügbar sind. Dies hilft, die Konsistenz mit den Stilrichtlinien Ihrer Organisation zu wahren.
+   - **Source-Ansicht für Autoren ausblenden**: Aktivieren Sie diese Option, um den Zugriff auf den HTML-Quell-Code zu beschränken. Dies ist nützlich, wenn Sie die Bearbeitung vereinfachen oder versehentliche Änderungen am zugrunde liegenden Code vermeiden möchten.
 
 ## Bedienfelder konfigurieren
 
@@ -60,15 +73,24 @@ Stellen Sie bei Lern- und Schulungsinhalten sicher, dass für den Editor und die
 **Linkes Bedienfeld**
 
 - **Sammlungen**: Ermöglicht das Organisieren und Speichern häufig verwendeter Dateien oder den schnellen Zugriff auf freigegebene Dateien.
-- **Repository**: Ermöglicht Ihnen die Anzeige und den Zugriff auf alle Karten, Themen, Bilder und andere im Content-Repository gespeicherte Assets.
+- **Explorer**: Ermöglicht Ihnen die Anzeige und den Zugriff auf alle Karten, Themen, Bilder und andere im Content-Repository gespeicherte Assets.
 - **Course Manager**: Bietet einen speziellen Arbeitsbereich zum Erstellen und Verwalten von Kursen.
+- **Map**: Stellt eine Kartenansicht der aktuell geöffneten Kartendatei bereit.
+- **Gliederung**: Zeigt die strukturelle Hierarchie des aktuell geöffneten Themas oder der aktuell geöffneten Zuordnung an und ermöglicht so eine schnelle Navigation und den Zugriff auf Elementebene.
+- **Workfront**: Bietet Zugriff auf zuverlässige Projektverwaltungsfunktionen zusätzlich zu den zentralen CCMS-Funktionen von Experience Manager Guides.
+- **Wiederverwendbarer Inhalt**: Ermöglicht das Verwalten und Einfügen wiederverwendbarer Elemente oder Themen, um Konsistenz zu gewährleisten und Duplizierungen im gesamten Inhalt zu reduzieren.
+- **Glossar**: Mit dieser Funktion können Sie Glossarbegriffe erstellen und verwalten und themenübergreifend einbinden, um eine konsistente Terminologie zu gewährleisten.
 - **Snippets**: ermöglichen es Ihnen, kleine Inhaltsfragmente in verschiedenen Themen in Ihren Lernkursen zu erstellen und wiederzuverwenden.
 - **Bedingungen**: Ermöglicht die Konfiguration bedingter Attribute auf globaler Ebene und Ordnerebene.
+- **Vorlagen**: Ermöglicht das Erstellen und Verwalten der Kursvorlagen.
+- **Zitate**: Ermöglicht das Hinzufügen und Verwalten von Zitaten in Inhalten mithilfe unterstützter Zitatstile.
+- **Sprachvariablen**: Hiermit können Sie Sprachvariablen für veröffentlichte Ausgaben definieren.
 - **Variablen**: Ermöglicht das Erstellen und Verwalten von Variablen, die in Ihren Lerninhalten verwendet werden können.
-- **Sprachvariablen**: Ermöglicht die Definition lokalisierter Zeichenfolgen für veröffentlichte Ausgaben oder statischen Text in Vorlagen.
-- **Vorlagen**: Ermöglicht das Erstellen und Verwalten von Vorlagen zur Verwendung durch Autorinnen und Autoren.
 - **Ausgabevorlagen**: Ermöglicht das Erstellen und Verwalten von Ausgabevorlagen, um Ausgaben in verschiedenen Formaten zu generieren.
 - **Suchen und Ersetzen**: Bietet Optionen zum Suchen und Ersetzen von Text in Dateien in einer Zuordnung oder einem Ordner innerhalb Ihres Repositorys. 
+- **Datenquellen**: Ermöglicht Ihnen, externe Datenquellen zu verbinden und Daten in Ihrem Inhalt wiederzuverwenden.
+- **Überprüfen**: Ermöglicht das Erstellen und Verwalten von Überprüfungs-Workflows in Experience Manager Guides.
+- **Systemberichte**: Ermöglicht die Erstellung und Verwaltung von Berichten.
 
 **Rechtes Bedienfeld**
 
@@ -90,9 +112,13 @@ Stellen Sie bei Lern- und Schulungsinhalten sicher, dass für den Editor und die
 
 - **Filter**: Ermöglicht die Verwendung von Filtern bei der Arbeit mit Berichten und Übersetzungen.
 
-## Konfigurieren von Vorlagen
+## Konfigurieren von Inhaltsvorlagen
 
-Mit dieser Einstellung können Sie die Authoring- und Publishing-Vorlagen verwalten, [&#x200B; im linken Bereich des Editors &#x200B;](../user-guide/web-editor-left-panel.md). Sie können Authoring- und Ausgabevorlagen hinzufügen, entfernen oder neu anordnen, auf die dann Autoren und Herausgeber zugreifen können.
+>[!NOTE]
+>
+> Diese Einstellung ist nur verfügbar, wenn die Lerninhaltsfunktion in den **Workspace-Einstellungen** > **Allgemein** aktiviert ist.
+
+Mit dieser Einstellung können Sie die Authoring- und Publishing-Vorlagen verwalten, [ im linken Bereich des Editors ](../user-guide/web-editor-left-panel.md). Sie können Authoring- und Ausgabevorlagen hinzufügen, entfernen oder neu anordnen, auf die dann Autoren und Herausgeber zugreifen können.
 
 ![](assets/templates-settings.png){width="350" align="left"}
 
@@ -180,6 +206,10 @@ Sie können auch die Reihenfolge festlegen, in der die in einer Kategorie vorhan
 
 ## Konfigurieren von Ausgabevorgaben
 
+>[!NOTE]
+>
+> Diese Einstellung ist nur verfügbar, wenn die Lerninhaltsfunktion in den **Workspace-Einstellungen** > **Allgemein** aktiviert ist.
+
 Auf der Registerkarte „Ausgabevorgaben“ können Sie festlegen, welche Ausgabeformate für die Veröffentlichung eines Kurses verfügbar sind. Es enthält zwei Abschnitte: **Zulässige** und **Allgemeine Ausgabevorgaben**.
 
 ![](assets/configure-course-output-presets.png){width="350" align="left"}
@@ -191,15 +221,6 @@ Auf der Registerkarte „Ausgabevorgaben“ können Sie festlegen, welche Ausgab
 - **Allgemeine Ausgabevorgaben**: In diesem Abschnitt werden die Ausgabevorgaben angezeigt, die normalerweise von Publishern erstellt und einem bestimmten Ordnerprofil hinzugefügt werden. Sie können auch alle nicht mehr benötigten Voreinstellungen entfernen.
 
   ![](assets/common-output-presets.png){width="350" align="left"}
-
-## HTML Editor-Einstellungen
-
-Mit dieser Einstellung können Sie den Editor für das HTML-basierte Authoring konfigurieren. Die wichtigsten Konfigurationsoptionen in dieser Einstellung sind:
-
-![](assets/configure-html-editor-setting.png){width="350" align="left"}
-
-- **Inline-Stil ausblenden**: Aktivieren Sie diese Option, um zu verhindern, dass Autoren bzw. Autorinnen eine Inline-Formatierung auf den Kursinhalt anwenden. Wenn diese Option aktiviert ist, bleiben alle Inline-Formatierungsoptionen wie Schriftarten, Rahmen, Layout, Hintergrund und Spalten im rechten Bereich des Editors für Autoren ausgeblendet. Autoren können jedoch weiterhin die globalen klassenbasierten Stiloptionen verwenden, die im Bedienfeld **Stile** verfügbar sind. Dies hilft, die Konsistenz mit den Stilrichtlinien Ihrer Organisation zu wahren.
-- **Source-Ansicht für Autoren ausblenden**: Aktivieren Sie diese Option, um den Zugriff auf den HTML-Quell-Code zu beschränken. Dies ist nützlich, wenn Sie die Bearbeitung vereinfachen oder versehentliche Änderungen am zugrunde liegenden Code vermeiden möchten.
 
 ## Profile der Veröffentlichung verwalten
 

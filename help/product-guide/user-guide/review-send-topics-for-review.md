@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine Prüfungsaufgabe erstellen und Themen zu
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
+source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
 workflow-type: tm+mt
-source-wordcount: '3055'
+source-wordcount: '3135'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,16 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
    >
    > Sie können eine Prüfungsaufgabe nur für Themen mit einer Revision erstellen. Wenn für das ausgewählte Thema keine Revision vorhanden ist, wird eine Eingabeaufforderung angezeigt.
 
-   ![](images/create-review-task-023.png){width="650" align="left"}
-
+   ![](images/create-review-task-023.png)
 1. Geben Sie einen **Titel** für die Aufgabe ein und wählen Sie ein DITA-Projekt aus.
 
 1. Wählen **in der Dropdown** Liste Projekt ein DITA-Projekt für diese Prüfungsaufgabe aus. Sie können auch den Projektnamen eingeben, um ihn schnell in der Dropdown-Liste zu finden.
 
-1. Wählen **in der Dropdown** Liste „Zuweisen an“ die Validierungsverantwortlichen aus, denen Sie die Themen zur Überprüfung senden möchten.
+1. Wählen **in der Dropdown** Liste „Zuweisen an“ die Validierungsverantwortlichen aus, denen Sie die Themen zur Überprüfung senden möchten. Sie können auch nach Abonnenten- oder Rollennamen innerhalb des ausgewählten Projekts suchen, wenn Sie eingeben.
 
-   Sie können einzelnen Benutzern des Projekts oder Benutzergruppen eine Prüfungsaufgabe zuweisen. Beachten Sie, dass Sie eine Prüfungsaufgabe nur dann einzelnen Benutzern zuweisen können, wenn Sie der Administratorgruppe des Projekts angehören. Andernfalls sehen Sie die Benutzergruppen nur im Feld Zuweisen an .
+   Das Feld *Zuweisen an* wird erst aktiviert, nachdem Sie ein aktives Projekt im Feld *Projekt* ausgewählt haben. Die Liste der Mitglieder oder Rollen wird basierend auf dem ausgewählten Projekt abgerufen. Wenn kein Projekt ausgewählt ist, bleibt das Feld *Zuweisen an* deaktiviert.
+
+   Sie können einzelnen Benutzern des Projekts oder Benutzergruppen eine Prüfungsaufgabe zuweisen. Beachten Sie, dass Sie eine Prüfungsaufgabe nur dann einzelnen Benutzern zuweisen können, wenn Sie der Administratorgruppe des Projekts angehören. Andernfalls sehen Sie die Benutzergruppen nur im Feld *Zuweisen zu*.
 
    >[!NOTE]
    >
@@ -75,7 +76,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Wählen Sie die Stammzuordnung aus dem **Stammzuordnungspfad**. Diese Rootmap wird verwendet, um alle wichtigen Verweise und Glossarbegriffe aufzulösen, die im Überprüfungsinhalt verwendet werden. Wenn Sie die Rootmap nicht auswählen, werden die wichtigsten Referenzen oder Glossarbegriffe, die mit dem DITA-Thema verknüpft sind, nicht aufgelöst, bevor das Thema zur Überprüfung gesendet wird.
 
@@ -92,6 +93,10 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
    Wenn Sie diese Option nicht auswählen, haben Prüfer, die im Feld **Zuweisen zu** hinzugefügt wurden, Zugriff, um nur die Themen zu überprüfen, die ihnen zugewiesen sind.
 
 1. Wählen Sie **Weiter** aus.
+
+   >[!NOTE]
+   >
+   > Die **Weiter**-Schaltfläche wird erst aktiviert, nachdem Sie Details für alle Pflichtfelder angegeben haben, einschließlich *Titel*, *Projekt*, *Zuweisen an* und *Fälligkeitsdatum*.
 
    Die Inhaltsseite wird angezeigt.
 
@@ -202,7 +207,7 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
 
@@ -306,4 +311,4 @@ Sobald die Prüfungsaufgabe aktualisiert wurde, erhalten die Validierungsverantw
 Weitere Informationen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

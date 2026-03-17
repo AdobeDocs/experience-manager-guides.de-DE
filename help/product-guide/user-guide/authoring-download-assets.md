@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie Dateien von der DITA-Zuordnungskonsole in AEM
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: e413a49a8ec5e2e129b86b50bc5750f41c101e5d
+source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Dateien herunterladen {#id216MC0H0BE8}
 
-Sie können Assets, einschließlich DITA- und Nicht-DITA-Dateien, herunterladen. Es gibt mehrere Möglichkeiten, Assets herunterzuladen. Einige Methoden sind nativ in Adobe Experience Manager und andere werden von Adobe Experience Manager Guides unterstützt. Informationen zum nativen Herunterladen von Adobe Experience Manager-Assets finden Sie unter [Herunterladen von Assets von Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=de) in der Dokumentation zu Adobe Experience Manager. Im folgenden Abschnitt wird der Mechanismus zum Herunterladen von Dateien in Experience Manager Guides erläutert.
+Sie können Assets, einschließlich DITA- und Nicht-DITA-Dateien, herunterladen. Es gibt mehrere Möglichkeiten, Assets herunterzuladen. Einige Methoden sind nativ in Adobe Experience Manager und andere werden von Adobe Experience Manager Guides unterstützt. Informationen zum nativen Herunterladen von Adobe Experience Manager-Assets finden Sie unter [Herunterladen von Assets von Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in der Dokumentation zu Adobe Experience Manager. Im folgenden Abschnitt wird der Mechanismus zum Herunterladen von Dateien in Experience Manager Guides erläutert.
 
 ## Herunterladen einer DITA-Map-Datei aus dem Editor
 
@@ -37,18 +37,17 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei aus dem Edi
    - **Dateihierarchieoptionen**: Sie können auch das Dropdown-Menü „Dateihierarchie“ verwenden, um festzulegen, wie die Ordnerstruktur für Ihre heruntergeladenen Zuordnungsdateien verarbeitet werden soll. Folgende Optionen sind verfügbar:
 
       - **Dateihierarchie beibehalten**: Wählen Sie diese Option aus der Dropdown-Liste, um die vorhandene Ordnerstruktur für die heruntergeladenen Dateien beizubehalten.
+      - **Dateihierarchie reduzieren**: Wählen Sie diese Option aus der Dropdown-Liste, um alle referenzierten Themen und Mediendateien in einen Ordner herunterzuladen.
 
-        Folgende Optionen stehen bei dieser Methode zur Verfügung:
+     Für jede Option können Sie außerdem angeben, wie Dateinamen für heruntergeladene Dateien verarbeitet werden. Die folgenden Dateinamenoptionen sind verfügbar:
 
-         - **GUID-Dateiname verwenden** - Lädt die Zuordnungsdatei mit GUID als Dateinamen herunter.
-
-         - **Tatsächlichen Dateinamen verwenden** - Lädt die Zuordnungsdatei mit dem ursprünglichen Dateinamen herunter.
-
-      - **Dateihierarchie reduzieren**: Wählen Sie diese Option aus der Dropdown-Liste, um alle referenzierten Themen und Mediendateien in einen Ordner herunterzuladen. Bei dieser Methode ist nur **Option „GUID** Dateiname verwenden“ für Zuordnungsdateien verfügbar.
+      - **GUID-Dateinamen verwenden**: Lädt die Zuordnungsdatei mit GUID als Dateinamen herunter.
+      - **Tatsächlichen Dateinamen verwenden**: Lädt die Zuordnungsdatei mit dem ursprünglichen Dateinamen herunter. Wenn diese Option mit Dateihierarchie reduzieren verwendet wird, werden alle doppelten Dateinamen in der Zuordnung automatisch durch Anhängen numerischer Suffixe (_2, _3 usw.) aufgelöst, um eindeutige Dateinamen sicherzustellen.
 
    >[!NOTE]
    >
    > Sie können die Zuordnungsdatei auch herunterladen, ohne eine Option auszuwählen. In diesem Fall wird die letzte persistierte Version der referenzierten Themen und Mediendateien heruntergeladen.
+
 
 1. Wählen Sie **Herunterladen** aus.
 
@@ -65,6 +64,8 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei aus dem Edi
    >[!NOTE]
    >
    > Standardmäßig bleiben die heruntergeladenen Zuordnungen fünf Tage lang im Adobe Experience Manager-Benachrichtigungs-Posteingang.
+
+Nachdem die Karte heruntergeladen wurde, können Sie die Karte auswählen und das Symbol Öffnen oben verwenden, um den heruntergeladenen Inhalt zu öffnen. Um die zugehörigen Metadaten der heruntergeladenen Zuordnung anzuzeigen, öffnen Sie die im heruntergeladenen Inhalt enthaltene `metdata.json`. Diese Datei ist für die beiden Optionen *Dateihierarchie* „Dateihierarchie reduzieren“ und „Dateihierarchie beibehalten“ verfügbar.
 
 ## Herunterladen einer DITA-Map-Datei vom Map-Dashboard
 
@@ -109,6 +110,6 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei zusammen mi
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 
-Nachdem die Karte heruntergeladen wurde, können Sie die Karte auswählen und das Symbol Öffnen oben verwenden, um den ausgewählten Bericht zu öffnen.
+Nachdem die Karte heruntergeladen wurde, können Sie die Karte auswählen und das Symbol Öffnen oben verwenden, um den heruntergeladenen Inhalt zu öffnen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte verwalten](authoring.md)
+**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)

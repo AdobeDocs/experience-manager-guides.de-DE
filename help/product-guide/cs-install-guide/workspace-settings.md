@@ -3,9 +3,10 @@ title: Workspace-Einstellungen in Experience Manager Guides
 description: Erfahren Sie mehr über die verschiedenen Einstellungen, die in der Editor-Benutzeroberfläche von Experience Manager Guides verfügbar sind.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
+exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
@@ -33,9 +34,9 @@ Die Option **Workspace** in der [Registerkartenleiste](../user-guide/web-editor-
 
 ## Allgemein
 
-Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren, dass der Editor verwendet wird. Diese Registerkarte enthält fünf Abschnitte: **KI-Assistent**, **Authoring**, **Zitate**, **Bedingung** und **Rechtschreibprüfung**.
+Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren, dass der Editor verwendet wird. Diese Registerkarte enthält sieben Abschnitte: **KI-Assistent**, **Authoring**, **Zitate**, **Bedingung**, **HTML-Editor**, **Lerninhalte** und **Rechtschreibprüfung**.
 
-![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
+![](assets/workspace-settings.png){width="350" align="left"}
 
 - **KI-Assistent**
 Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md)Assistent“ in der Experience Manager Guides zu aktivieren. Deaktivieren Sie diese Option, um die Funktion zu deaktivieren.
@@ -60,7 +61,7 @@ Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md
 
 - **Zitate**
 
-  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von &#x200B;](../user-guide/web-editor-apply-citations.md#change-citation-style).
+  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von ](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Bedingung**
 
@@ -75,8 +76,28 @@ Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md
    - **Betreffschema im Bedienfeld Bedingungen anzeigen**: Wählen Sie diese Option, um ein Betreffschema im Bedienfeld Bedingungen anzuzeigen. Wenn Sie diese Option deaktivieren, werden die definierten Bedingungen im Bedienfeld Bedingungen angezeigt.
 
 - **Rechtschreibprüfung**
-Es gibt zwei Optionen: **AEM-** und **Browser-Rechtschreibprüfung**. Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird. Sie können zur AEM-Rechtschreibprüfung wechseln, um das Adobe Experience Manager-Wörterbuch zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen des AEM-Wörterbuchs finden Sie [&#x200B; Abschnitt „Anpassen des Standardwörterbuchs von AEM](../cs-install-guide/customize-aem-custom-dictionary.md) im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+Es gibt zwei Optionen: **AEM-** und **Browser-Rechtschreibprüfung**. Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird. Sie können zur AEM-Rechtschreibprüfung wechseln, um das Adobe Experience Manager-Wörterbuch zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen des AEM-Wörterbuchs finden Sie [ Abschnitt „Anpassen des Standardwörterbuchs von AEM](../cs-install-guide/customize-aem-custom-dictionary.md) im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
+- **Lerninhalte**: Mit dieser Einstellung können Sie die Funktion „Produktschulungen und Lerninhalte“ für Ihre Experience Manager Guides-Instanz aktivieren oder deaktivieren. Verwenden Sie den **Lerninhalt aktivieren**, um die Funktion auf Ordnerprofilebene zu aktivieren oder zu deaktivieren. Standardmäßig bleibt diese Funktion für alle Instanzen deaktiviert.
+
+  Weitere Informationen zur Funktion [Produktschulung und Lerninhalte](../learning-content/intro.md).
+
+  Die folgenden Funktionen/Optionen sind nur verfügbar, wenn die Einstellung Lerninhalte aktiviert ist:
+
+   - **Kurserstellung**: Ermöglicht die Erstellung und Verwaltung von Kursen im Editor und auf der Startseite.
+   - **SCORM-Vorlagen**: Aktiviert die Option zum Erstellen von SCORM *Vorlagen* Editor.
+   - **Inhaltsvorlagen und Ausgabevorgaben**: Aktiviert die Konfigurationsoptionen für Inhaltsvorlagen und Ausgabevorgaben im Dialogfeld Workspace-Einstellungen.
+
+Wenn Lerninhalte deaktiviert sind, sind alle oben genannten Optionen auf der Experience Manager Guides-Benutzeroberfläche nicht mehr verfügbar.
+
+Weitere Informationen finden Sie unter [Konfigurieren von Ordnerprofilen](../lc-config-guide/lc-folder-profile.md).
+
+- **HTML-Editor**: Mit dieser Einstellung können Sie den Editor für das HTML-basierte Authoring konfigurieren. Die wichtigsten Konfigurationsoptionen in dieser Einstellung sind:
+
+   - **Inline-Stil ausblenden**: Aktivieren Sie diese Option, um zu verhindern, dass Autoren bzw. Autorinnen eine Inline-Formatierung auf den Kursinhalt anwenden. Wenn diese Option aktiviert ist, bleiben alle Inline-Formatierungsoptionen wie Schriftarten, Rahmen, Layout, Hintergrund und Spalten im rechten Bereich des Editors für Autoren ausgeblendet. Autoren können jedoch weiterhin die globalen klassenbasierten Stiloptionen verwenden, die im Bedienfeld **Stile** verfügbar sind. Dies hilft, die Konsistenz mit den Stilrichtlinien Ihrer Organisation zu wahren.
+   - **Source-Ansicht für Autoren ausblenden**: Aktivieren Sie diese Option, um den Zugriff auf den HTML-Quell-Code zu beschränken. Dies ist nützlich, wenn Sie die Bearbeitung vereinfachen oder versehentliche Änderungen am zugrunde liegenden Code vermeiden möchten.
+
+  Weitere Informationen finden Sie unter [Erstellen und Anpassen von Lerninhalten](../learning-content/lc-overview.md).
 
 ## Bedienfelder
 
@@ -230,7 +251,7 @@ Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum �
       >
       > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
-   1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![&#x200B; Sprachgruppen zu bearbeiten &#x200B;](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![&#x200B; oder zu löschen](../user-guide/images/Delete_icon.svg).
+   1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](../user-guide/images/Delete_icon.svg).
    1. Speichern Sie die **Einstellungen**.
 
       >[!NOTE]
@@ -261,5 +282,3 @@ Wenn der Metadatenpfad leer ist, wird ein Fehler angezeigt. Wenn Sie das Feld le
 
 Sie können auch die Reihenfolge festlegen, in der diese Metadaten-Tags angezeigt werden. Um die Standardreihenfolge dieser Tags zu ändern, wählen Sie die gepunkteten Balken aus, um die Tags per Drag-and-Drop an die gewünschte Position zu ziehen.
 Die Metadatenbeschriftungen werden im Dialogfeld **Versionsverlauf** des Editors in derselben Reihenfolge angezeigt.
-
-

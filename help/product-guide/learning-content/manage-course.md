@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die verschiedenen Funktionen in Experience 
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
+source-git-commit: f758ef6f2d238cbb71dc395add12fc7e30172871
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -93,6 +93,6 @@ Als Autor eines Lernkurses oder Administrator können Sie eine Prüfungsaufgabe 
 
 Sie werden zur Seite **Prüfungsaufgabe erstellen** weitergeleitet, auf der Sie Aufgabendetails wie den Titel der Prüfungsaufgabe hinzufügen, das DITA-Projekt angeben, zu dem sie gehört, Aufgabenzeitpläne definieren, Validierungsverantwortliche zuweisen und vieles mehr. Sobald dies geschehen ist, erhalten die Reviewer eine Benachrichtigung über diese Aufgabe. Die ausgewählten Kursthemen werden in der Review-Benutzeroberfläche geöffnet. Dort können die Reviewer Kommentare hinzufügen und die Themen zur Aktualisierung zurücksenden.
 
-Um den Prüfungs-Workflow in Experience Manager Guides zu verstehen, [&#x200B; Sie Themen anzeigen und zur Überprüfung &#x200B;](../user-guide/review-send-topics-for-review.md).
+Um den Prüfungs-Workflow in Experience Manager Guides zu verstehen, [ Sie Themen anzeigen und zur Überprüfung ](../user-guide/review-send-topics-for-review.md).
 
 

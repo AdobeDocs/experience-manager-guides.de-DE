@@ -4,9 +4,9 @@ description: Übersetzen Sie Ihre Inhalte aus dem Web-Editor in mehrere Sprachen
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
+source-git-commit: c619c518a3ae1629897eb90f5f15aa4742be5ef2
 workflow-type: tm+mt
-source-wordcount: '2446'
+source-wordcount: '2519'
 ht-degree: 1%
 
 ---
@@ -78,6 +78,11 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
    **Neueste Version verwenden als ein**: Wählen Sie diese Option, um die Version der Themen nach Erstellungsdatum und -uhrzeit zu filtern. Wenn Sie Datum und Uhrzeit auswählen, wird nur die neueste Version der Dateien angezeigt, die am oder vor dem ausgewählten Datum und der ausgewählten Uhrzeit erstellt wurden.
 
 1. Wählen Sie **Anwenden** aus. Eine Liste mit Details zu Themen und zugehörigen Assets wird angezeigt.
+
+   >[!NOTE]
+   >
+   > Bei der Übersetzung von Karten mit DITAVAL- und Markdown-Dateiverweisen und wenn die Übersetzung auf der Arbeitskopie basiert, werden Verweise wie Bilder und andere verknüpfte Assets einbezogen, sofern sie im Ordner der Ausgangssprache vorhanden sind. Diese Verweise werden in der Liste im Übersetzungs-Dashboard angezeigt, sodass Sie sie explizit für die Übersetzung auswählen können. Bei der Übersetzung werden referenzierte Assets in den Zielsprachordner kopiert und konsistent mit dem standardmäßigen Bildübersetzungsverhalten gehandhabt.
+
 1. Wählen Sie die Themen aus, die Sie zur Übersetzung senden möchten. Sie können auch die Themenfilteroptionen für die folgenden Spalten verwenden:
 
    - **Title**: Titel der Quelldatei.  Bewegen Sie den Mauszeiger über den Titel der Quelldatei, um den Titel der Zieldatei oder der übersetzten Datei anzuzeigen.
@@ -234,4 +239,4 @@ Für die Dokumentverwaltung bietet Experience Manager Guides die Möglichkeit, d
 Sie können die Übersetzungsprojekte auch deaktivieren, wenn Sie sie später verwenden möchten. Beim Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner gelöscht. Durch Deaktivieren eines Projekts wird es nicht gelöscht, sondern im Repository beibehalten. Sie können jedoch ein deaktiviertes Projekt nicht aktualisieren oder bearbeiten.  Das Löschen oder Deaktivieren eines Projekts wirkt sich nicht auf den Übersetzungsstatus von Verweisen aus.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
