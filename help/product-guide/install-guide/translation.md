@@ -5,10 +5,10 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
+source-git-commit: bbdf4763e8202891eec0259a5f08a7efa9afc668
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 12%
+source-wordcount: '985'
+ht-degree: 10%
 
 ---
 
@@ -23,17 +23,17 @@ Automatisieren Sie die Übersetzung von Seiteninhalten, Assets und benutzergener
 
 Die Übersetzung der Inhalte umfasst die folgenden Schritte:
 
-1. Verbinden Sie AEM mit Ihrem [Übersetzungsdienstleister](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) und erstellen Sie [Framework-Konfigurationen für die Übersetzungsintegration](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Verbinden Sie AEM mit Ihrem [Übersetzungsdienstleister](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) und erstellen Sie [Konfigurationen für die Übersetzungsintegration](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Verknüpfen Sie die Seiten Ihres Sprachstamms mit dem [Übersetzungsdienstleister und den Framework-Konfigurationen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Verknüpfen Sie die Seiten Ihres Sprachstamms mit dem [Übersetzungsdienstleister und den Framework-Konfigurationen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
 1. Identifizieren Sie den Typ des [zu übersetzenden Inhalts](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. [Bereiten Sie die Inhalte für die Übersetzung vor](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-prep.html), indem Sie den Sprachstamm und die Stammseiten der Sprachkopien erstellen.
+1. [Bereiten Sie die Inhalte für die Übersetzung vor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html), indem Sie den Sprachstamm und die Stammseiten der Sprachkopien erstellen.
 
 1. Erstellen Sie [Übersetzungsprojekte](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) um die zu übersetzenden Inhalte zusammenzustellen und den Übersetzungsprozess vorzubereiten.
 
-1. Verwenden Sie die Übersetzungsprojekte, um [den Prozess zur Übersetzung der Inhalte &#x200B;](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) verwalten.
+1. Verwenden Sie die Übersetzungsprojekte, um [den Prozess zur Übersetzung der Inhalte ](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) verwalten.
 
 
 Wenn Ihr Übersetzungsdienstleister keinen Connector für die Integration mit AEM bereitstellt, unterstützt AEM den manuellen Export und Import übersetzter Inhalte im XML-Format.
@@ -88,7 +88,7 @@ Je nach dem in Ihrem Setup verwendeten Übersetzungs-Workflow sollte die Option 
 
    >[!NOTE]
    >
-   > Wenn Sie einen Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector konfiguriert haben, wie in *[AEM-Dokumentation unter „Konfigurieren &#x200B;](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-tic.html)* Übersetzungsintegrations-Frameworks“ beschrieben.
+   > Wenn Sie einen Übersetzungs-Connector verwenden, stellen Sie sicher, dass Sie den Connector konfiguriert haben, wie in der Dokumentation *[Konfigurieren des Translation Integration Framework](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* beschrieben.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -123,6 +123,30 @@ Standardmäßig ist die Option Legacy-Übersetzungs-Workflow deaktiviert. Sie k�
 
 1. Klicken Sie auf **Speichern**.
 
+## Konfigurieren des Verhaltens bei der ersten Übersetzung
+
+Wenn Sie eine Übersetzung zum ersten Mal durchführen, werden standardmäßig leere XML-Dateien für die Zielsprache erstellt. Diese Dateien werden erst nach der Genehmigung übersetzt. Um dieses Verhalten zu steuern, können Sie die `Initialize destination language copy with source content` mithilfe der folgenden Schritte aktivieren:
+
+>[!NOTE]
+>
+> Diese Einstellung gilt nur, wenn der alte Übersetzungs-Workflow deaktiviert ist.
+
+1. Öffnen Sie die Seite Konfiguration der Adobe Experience Manager-Web-Konsole .
+
+   Die Standard-URL für den Zugriff auf die Konfigurationsseite lautet:
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. Suchen Sie nach dem Bundle **com.adobe.fmdita.config.ConfigManager** und klicken Sie darauf.
+
+1. Wählen Sie die `Initialize destination language copy with source content` aus.
+
+   - Wenn diese Option aktiviert ist, wird von der Arbeitskopie eine nicht versionierte Kopie mit dem Quellinhalt erstellt, anstatt bei der ersten Übersetzung leere XML-Dateien zu generieren.
+   - (*Standard*) Wenn diese Option deaktiviert ist, gilt das Standardverhalten und es werden bei der ersten Übersetzung leere XML-Dateien für die Zielsprache erstellt.
+
+1. Klicken Sie auf **Speichern**.
 
 
 
