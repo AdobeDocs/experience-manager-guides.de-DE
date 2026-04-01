@@ -1,0 +1,80 @@
+---
+title: Versionshinweise | Upgrade-Anweisungen für Adobe Experience Manager Guides 5.1.0 Service Pack 4
+description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf Version 5.1.0 Service Pack 4 von Adobe Experience Manager Guides.
+source-git-commit: acc063d149f52a457d4ce2447c8eafaff6296dac
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 3%
+
+---
+
+# Aktualisierungsanweisungen für die Version 5.1.0 Service Pack 4 (April 2026)
+
+Dieser Artikel enthält die Upgrade-Anweisungen und die Kompatibilitätsmatrix für Version 5.1.0 Service Pack 4 von Adobe Experience Manager Guides.
+
+Eine Liste der in dieser Version behobenen Probleme finden Sie unter [Behobene Probleme in Version 5.1.0 Service Pack 4](../release-info/fixed-issues-5-1-0-sp4.md).
+
+## Kompatibilitätsmatrix
+
+In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen aufgelistet, die von Experience Manager Guides 5.1.0 Service Pack 4 unterstützt werden.
+
+| AEM Guides | AEM-Version | Service Pack |
+| --- | --- | --- |
+| 5.1.0 Service Pack 4 (UUID) | 6.5 LTS | 1 |
+| 5.1.0 Service Pack 4 (UUID) | 6.5 | 23, 22, 21 |
+
+Weitere Informationen finden Sie im Abschnitt [Technische Anforderungen](../install-guide/download-install-technical-requirements.md) im On-Premise-Installations- und Konfigurationshandbuch.
+
+### FrameMaker und FrameMaker Publishing Server
+
+| Version | FMPS | FM |
+| --- | --- | --- |
+| 5.1.0 Service Pack 4 (UUID) | Unterstützt | 2022 oder höher |
+
+### Sauerstoffanschluss
+
+| Freigabe | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
+| --- | --- | --- |--- |--- |
+| 5.1.0 Service Pack 4 (UUID) | 3.8-uuid.1 | 3.8-uuid.1 | 2,3 | 2,3 |
+
+### Version der Wissensdatenbankvorlage
+
+| Paketname der Komponenten | Komponentenversion | Vorlagenversion |
+|---|---|---|
+| Experience Manager Guides-Komponenten-Inhaltspaket für Cloud Service | dxml-components.all-1.3.0 | aem-site-template-dxml.all-1.0.4 |
+
+### Neue AEM Site-Vorlagenversion
+
+| AEM Guides | AEM-Version | Komponentenversion | Site-Version |
+|---|---|---| ---|
+| 5.1.0 Service Pack 4 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-docs.all-1.2.0 |
+| 5.1.0 Service Pack 4 UUID | 6.5 | guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
+
+
+## Voraussetzungen
+
+Gemäß dem standardmäßigen DITA-Verhalten darf das Attribut scope=`external` nicht auf interne Links angewendet werden, da es nur für Verweise auf externe Ressourcen vorgesehen ist. Die Anwendung dieses Attributs auf interne Links kann Workflows stören. Verwenden Sie für in Experience Manager Guides verwaltete Inhalte stattdessen den Standardbereich `local` oder schlüsselbasierte Verweise.
+
+## Upgrade auf Version 5.1.0 Service Pack 4 von Experience Manager Guides
+
+Sie können Ihre aktuelle Version von Experience Manager Guides einfach auf Version 5.1.0 Service Pack 4 auf **AEM 6.5** oder **AEM 6.5 LTS** aktualisieren.
+
+>[!NOTE]
+>
+> Wenn Sie derzeit AEM 6.5 verwenden und planen, zu AEM 6.5 LTS zu wechseln, lesen Sie [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+
+Bevor Sie mit dem Upgrade auf Version 5.1.0 Service Pack 4 von Experience Manager Guides fortfahren, müssen Sie die folgenden Punkte berücksichtigen:
+
+- Wenn Sie Version 5.1.0 oder 5.1.x verwenden, können Sie direkt auf Version 5.1.0 Service Pack 4 aktualisieren.
+- Wenn Sie Version 4.6.0, 4.6.x, 5.0.0 oder 5.0.x verwenden, müssen Sie auf Version 5.1.0 aktualisieren.
+- Wenn Sie Version 4.6.3, 4.6.1, 4.6 oder 4.4 verwenden, müssen Sie auf Version 5.0.0 aktualisieren.
+- Wenn Sie Version 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 oder 4.1.x verwenden, müssen Sie vor dem Upgrade auf Version 5.0.0 ein Upgrade auf Version 4.4 durchführen.
+- Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
+- Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
+- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+
+>[!NOTE]
+>
+> Sie müssen das AEM Service Pack installieren, bevor Sie die Experience Manager Guides-Version aktualisieren.
+
+Weitere Informationen finden Sie unter [Upgrade-Anweisungen für On-Premise](../install-guide/upgrade-xml-documentation.md) von Experience Manager Guides.
