@@ -82,7 +82,7 @@ Wählen Sie aus den Ausgabevorgaben **PDF** > **Native-PDF** > **Metadaten** aus
 
 * **XMP-Datei bereitstellen**
 
-  Sie können die Metadatenfelder auch direkt ausfüllen, indem Sie die Datei [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) importieren. Hier können Sie eine Beispieldatei für XMP herunterladen.
+  Sie können die Metadatenfelder auch direkt ausfüllen, indem Sie die Datei [XMP](https://www.adobe.com/de/products/xmp.html) (Extensible Metadata Platform) importieren. Hier können Sie eine Beispieldatei für XMP herunterladen.
 
 [Herunterladen](assets/SampleXMP.xmp)
 
