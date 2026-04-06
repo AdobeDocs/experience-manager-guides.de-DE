@@ -4,9 +4,9 @@ description: Erstellen und verwalten Sie neue Baseline (Beta) über die Zuordnun
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 0%
 >
 > Dieser Artikel gilt für die neue Grundlinie , die derzeit als Funktion *Beta* verfügbar ist und eine verbesserte Leistung und Stabilität bietet, die mit der Version Experience Manager Guides 2026.03.0 verfügbar ist. Wenden Sie sich an das Customer Success-Team, um die neue Grundlinie-Funktion in Ihrem Setup zu aktivieren.
 
-Die neue Grundlinie behandelt wichtige Zuverlässigkeits- und Leistungsprobleme im Zusammenhang mit großen, komplexen Zuordnungen. Sie verfügt über eine neu gestaltete Basisarchitektur, die ein schnelleres, stabileres und konsistenteres Basiserlebnis bietet.
+Die neue Grundlinie behandelt wichtige Zuverlässigkeits- und Leistungsprobleme im Zusammenhang mit großen, komplexen Zuordnungen. Sie verfügt über eine neu gestaltete Basisarchitektur, die ein schnelleres, stabileres und konsistenteres Basiserlebnis bietet. Bevor wir in die Details eintauchen, hier ein kurzes Video, das die Funktionen der neuen Grundlinie hervorhebt.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483154/aem-guides)
 
 Das neue Baseline-Modell verbessert die Handhabung von Baseline, indem es die üblichen Probleme behebt:
 
@@ -105,7 +107,7 @@ Der Protokollbericht enthält Details zur Migration, einschließlich der Anzahl 
 
 ## Neue Baseline verwenden
 
-Das neue Baseline-Modell verwendet dieselben Workflows und dieselbe Benutzeroberfläche wie die vorhandene Baseline-Funktion in Experience Manager Guides. Sie können mit den verfügbaren Optionen [Baseline über die &#x200B;](./web-editor-baseline.md) erstellen und verwalten“ fortfahren.
+Das neue Baseline-Modell verwendet dieselben Workflows und dieselbe Benutzeroberfläche wie die vorhandene Baseline-Funktion in Experience Manager Guides. Sie können mit den verfügbaren Optionen [Baseline über die ](./web-editor-baseline.md) erstellen und verwalten“ fortfahren.
 
 >[!NOTE]
 >
