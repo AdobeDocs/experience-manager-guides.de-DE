@@ -107,7 +107,7 @@ Der Protokollbericht enthält Details zur Migration, einschließlich der Anzahl 
 
 ## Neue Baseline verwenden
 
-Das neue Baseline-Modell verwendet dieselben Workflows und dieselbe Benutzeroberfläche wie die vorhandene Baseline-Funktion in Experience Manager Guides. Sie können mit den verfügbaren Optionen [Baseline über die ](./web-editor-baseline.md) erstellen und verwalten“ fortfahren.
+Das neue Baseline-Modell verwendet dieselben Workflows und dieselbe Benutzeroberfläche wie die vorhandene Baseline-Funktion in Experience Manager Guides. Sie können mit den verfügbaren Optionen [Baseline über die &#x200B;](./web-editor-baseline.md) erstellen und verwalten“ fortfahren.
 
 >[!NOTE]
 >
