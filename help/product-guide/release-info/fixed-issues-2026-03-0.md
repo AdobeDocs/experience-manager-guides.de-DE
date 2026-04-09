@@ -1,7 +1,9 @@
 ---
-title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 2026.03.0 behoben
+title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 2026.03.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2026.03.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 764f6cc0b061020b78cd2808e08a5d05bd183c81
+exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 3%
@@ -60,13 +62,3 @@ Adobe hat die folgenden bekannten Probleme in Version 2026.03.0 identifiziert:
 - In der Assets-Benutzeroberfläche wird **Schaltfläche „Verschieben** beim ersten Versuch nicht aktiviert, wenn mehr als zwei Dateien oder Ordner ausgewählt sind. (GUIDES-42721) <br> **Problemumgehung**: Nachdem Sie mehr als zwei Dateien oder Ordner ausgewählt haben, warten Sie einige Sekunden, bevor Sie den Zielordner auswählen.
 - Wenn Sie im Editor zu **Benutzereinstellungen** navigieren und die Stammzuordnung aktualisieren, während der Vorschaumodus im Editor geöffnet ist, wird die Zuordnungsvorschau als leerer Bildschirm geladen, wenn Sie zum Editor zurückkehren. (GUIDES-42412) <br> **Problemumgehung**: Durch Aktualisieren der Vorschau mit dem Symbol **Aktualisieren** im Vorschaumodus wird das Problem behoben.
 - Beim Umbenennen einer vorhandenen Vorlage wird der Name im Bedienfeld **Ausgabevorlagen** erst aktualisiert, wenn die Seite manuell aktualisiert wird. (GUIDES-42528)<br> **Problemumgehung**: Aktualisieren Sie den Browser, um den aktualisierten Vorlagennamen im Bedienfeld „Ausgabevorlagen“ anzuzeigen.
-
-
-
-
-
-
-
-
-
-

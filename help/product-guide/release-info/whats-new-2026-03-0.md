@@ -1,8 +1,10 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2026.03.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2026.03.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2026.03.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+exl-id: ae26dd14-983e-4116-ac8d-729c1f4fad20
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 2%
@@ -77,7 +79,7 @@ Weitere Informationen finden Sie unter [Rechtes Bedienfeld im Editor](../user-gu
 
 Sie können jetzt Zitate in allen Journalfeldern wie *Titel*, *Journaltitel*, *Autor*, *Jahr*, *Volumen*, *Anzahl* und *Seiten* mithilfe der Option **Beliebiges Feld** im Dialogfeld **Zitat hinzufügen** durchsuchen. Die Suche gibt das Zitat zurück, das dem eingegebenen Text am nächsten kommt.
 
-Weitere Informationen zum Hinzufügen von Zitaten in Experience Manager Guides finden Sie unter [Hinzufügen und Verwalten von Zitaten in &#x200B;](../user-guide/web-editor-apply-citations.md).
+Weitere Informationen zum Hinzufügen von Zitaten in Experience Manager Guides finden Sie unter [Hinzufügen und Verwalten von Zitaten in ](../user-guide/web-editor-apply-citations.md).
 
 ![](assets/add-citations.png){width="350" align="left"}
 
@@ -112,7 +114,3 @@ Weitere Informationen zum Herunterladen von Dateien in Experience Manager Guides
 Sie können jetzt Regex verwenden, um die Nachbearbeitung für Ordner zu aktivieren oder zu deaktivieren. Diese Verbesserung ermöglicht es Admins, Nachbearbeitungsregeln zu definieren, die für mehrere Ordner oder ganze Ordnerhierarchien mit einer einzigen Konfiguration gelten, anstatt einzelne Ordnerpfade anzugeben.
 
 Weitere Informationen finden Sie unter [Verwenden von Regex zum Aktivieren oder Deaktivieren der Nachbearbeitung](../cs-install-guide/conf-folder-post-processing.md#use-regex-to-enable-or-disable-post-processing).
-
-
-
-

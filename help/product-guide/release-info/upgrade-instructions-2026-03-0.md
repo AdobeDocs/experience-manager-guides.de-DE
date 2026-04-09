@@ -1,7 +1,9 @@
 ---
-title: Versionshinweise zu | Aktualisierungsanweisungen und behobene Probleme in Adobe Experience Manager Guides Version 2026.03.0
+title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides Version 2026.03.0
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf Version 2026.03.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 91befea8c232cd487762ea71f522004e5ca63ee0
+exl-id: 5700e649-104d-4caf-a195-6e667a71faee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 11%
@@ -55,4 +57,3 @@ Experience Manager Guides wird beim Upgrade auf die neueste Version von Experien
 > Diese Version enthält Aktualisierungen der Ordnerprofileinstellungen (ui_config.json). Wenn Sie benutzerdefinierte Einstellungen verwenden, sollten Sie diese vor dem Upgrade sichern. Überprüfen und passen Sie Ihre Einstellungen nach der Aktualisierung entsprechend den Änderungen an, die in der neuesten Version eingeführt wurden.
 
 Überprüfen und validieren Sie Ihre Setup-Konfigurationen, um sicherzustellen, dass sie korrekt implementiert sind. Wenn Sie benutzerdefinierte Konfigurationsänderungen eingeführt haben, finden Sie unter [Zusätzliche Konfiguration für das Upgrade von Cloud Service](../cs-install-guide/additional-config-for-cloud-service.md) weitere Verfahren, die für die Version gelten, von der Sie ein Upgrade durchführen.
-
