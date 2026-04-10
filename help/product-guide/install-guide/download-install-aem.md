@@ -36,6 +36,6 @@ Wenn Sie ein Upgrade Ihrer AEM-Instanz durchführen möchten, müssen Sie die fo
 
 >[!IMPORTANT]
 >
-> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden [ unter „Empfehlungen ](download-install-recommend-perf-optimiz.md#) Leistungsoptimierung“.
+> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden [&#x200B; unter „Empfehlungen &#x200B;](download-install-recommend-perf-optimiz.md#) Leistungsoptimierung“.
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)

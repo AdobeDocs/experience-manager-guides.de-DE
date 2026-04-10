@@ -36,7 +36,7 @@ Die folgenden Registerkarten enthalten Anweisungen zur Übersetzung von Inhalten
 
 1. Erstellen Sie [Übersetzungsprojekte](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) um die zu übersetzenden Inhalte zusammenzustellen und den Übersetzungsprozess vorzubereiten.
 
-1. Verwenden Sie die Übersetzungsprojekte, um [den Prozess zur Übersetzung der Inhalte ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) verwalten.
+1. Verwenden Sie die Übersetzungsprojekte, um [den Prozess zur Übersetzung der Inhalte &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) verwalten.
 
 
 >[!TAB On-Premise]
@@ -51,7 +51,7 @@ Die folgenden Registerkarten enthalten Anweisungen zur Übersetzung von Inhalten
 
 1. Erstellen Sie [Übersetzungsprojekte](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) um die zu übersetzenden Inhalte zusammenzustellen und den Übersetzungsprozess vorzubereiten.
 
-1. Verwenden Sie die Übersetzungsprojekte, um [den Prozess zur Übersetzung der Inhalte ](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) verwalten.
+1. Verwenden Sie die Übersetzungsprojekte, um [den Prozess zur Übersetzung der Inhalte &#x200B;](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/tc-manage.html) verwalten.
 
 >[!ENDTABS]
 

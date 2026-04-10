@@ -24,7 +24,7 @@ Stellen Sie vor der Installation von Adobe Experience Manager Guides for On-Prem
 
 >[!NOTE]
 >
-> Erfahren Sie mehr über die [Experience Manager Guides-Versionen und laden Sie den Build ](../release-info/latest-release-info.md).
+> Erfahren Sie mehr über die [Experience Manager Guides-Versionen und laden Sie den Build &#x200B;](../release-info/latest-release-info.md).
 
 
 | [!DNL AEM Guides] | Technische Spezifikationen |

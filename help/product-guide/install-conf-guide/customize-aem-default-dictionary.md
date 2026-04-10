@@ -61,4 +61,4 @@ Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die Liste der benutze
 
 >[!ENDTABS]
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)

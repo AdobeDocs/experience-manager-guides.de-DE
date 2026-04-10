@@ -63,4 +63,4 @@ Um ein Muster für eine automatisch generierte ID zu konfigurieren, erstellen Si
 
 >[!ENDTABS]
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)

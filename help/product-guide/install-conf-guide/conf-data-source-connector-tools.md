@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Experience Manager Guides enthält das Tool **Datenquellen** mit dem Sie vordefinierte Connectoren für Datenquellen konfigurieren können. Sie können die JIRA-, SQL- (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce-, Elasticsearch- und generischen REST-Client-Connectoren einrichten.
 
-Für das Cloud Service-Setup stellt Experience Manager Guides neben diesen vordefinierten Connectoren auch die Connectoren für die Datenquellen Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO) bereit. Sie können diese Open-Source-Connectoren aus dem [Maven Central Repository“ herunterladen und ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Die Benutzer können dann diese Connectoren konfigurieren.
+Für das Cloud Service-Setup stellt Experience Manager Guides neben diesen vordefinierten Connectoren auch die Connectoren für die Datenquellen Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO) bereit. Sie können diese Open-Source-Connectoren aus dem [Maven Central Repository“ herunterladen und &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Die Benutzer können dann diese Connectoren konfigurieren.
 Erfahren Sie, wie [einen Open-Source-Connector installieren](#install-open-source-connector).
 
 Sie können auch eine Verbindung zu JSON-Datendateien über einen Datei-Connector herstellen. Laden Sie die JSON-Datei von Ihrem Computer hoch oder durchsuchen Sie sie über die Adobe Experience Manager-Assets. Erstellen Sie dann Inhaltsfragmente oder Themen mithilfe der Generatoren.
@@ -77,7 +77,7 @@ Führen Sie die folgenden Schritte aus, um eine Ressource zu erstellen:
 1. Wählen Sie ![Symbol hinzufügen](assets/Add_icon.svg) im Abschnitt **URL-Ressource** aus, um für jede URL eine Ressource hinzuzufügen.
 1. Konfigurieren Sie alle Details im Dialogfeld **Ressource hinzufügen**.
 1. Klicken Sie auf **Hinzufügen**.
-1. Sie können ![Bearbeitungssymbol](assets/edit_pencil_icon.svg) bearbeiten oder ![ Ressource aus ](assets/Delete_icon.svg) URL-Ressourcenliste löschen.
+1. Sie können ![Bearbeitungssymbol](assets/edit_pencil_icon.svg) bearbeiten oder ![&#x200B; Ressource aus &#x200B;](assets/Delete_icon.svg) URL-Ressourcenliste löschen.
 
 1. Sie können auch die Standardressourcen verwenden, die für Datenquellen wie Salsify, Akeneo und Microsoft ADO verfügbar sind. Schalten Sie die Optionen für die Ressource aus, die Sie nicht für eine Datenquelle konfigurieren möchten.
 

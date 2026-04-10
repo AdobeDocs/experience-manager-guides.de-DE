@@ -82,4 +82,4 @@ Wenn Sie eine Dispatcher mit AEM Guides verwenden und Ihre Autoreninstanz über 
                 }
 ```
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)

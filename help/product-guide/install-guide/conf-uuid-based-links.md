@@ -36,4 +36,4 @@ Führen Sie die folgenden Schritte aus, um den relativen Pfad oder die UUID des 
 1. Klicken Sie auf **Speichern**.
 
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

@@ -81,4 +81,4 @@ Sie können mehrere Definitionen von Sonderzeichen innerhalb einer Kategorie def
 
 >[!ENDTABS]
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)

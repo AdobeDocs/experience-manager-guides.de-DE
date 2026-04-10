@@ -58,4 +58,4 @@ Weitere Informationen finden Sie *Abschnitt „Schließen und Speichern von Date
 
 >[!ENDTABS]
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)

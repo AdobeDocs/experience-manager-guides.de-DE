@@ -98,7 +98,7 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
 >[!TAB On-Premise]
 
 1. **Installieren des Komponentenpakets:**
-   1. Navigieren Sie zu [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
+   1. Navigieren Sie zu [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr).
    2. Laden Sie das Paket on-preme-guides-components.all-1.x.0.zip hoch und installieren Sie es.
 
 2. **Installieren Sie das Sites-Paket:** Laden Sie das Paket aemg-docs.all-1.x.0.zip hoch und installieren Sie es mit dem CRX Package Manager.
@@ -178,4 +178,4 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
 
 >[!NOTE]
 >
-> Stellen Sie bei der Einrichtung von Cloud Service sicher, dass alle Konfigurationen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktionsumgebung bereitstellen. <br><br> Informationen finden Sie in der offiziellen [Dokumentation ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) Bereitstellung für AEM as a Cloud Service&quot;.
+> Stellen Sie bei der Einrichtung von Cloud Service sicher, dass alle Konfigurationen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktionsumgebung bereitstellen. <br><br> Informationen finden Sie in der offiziellen [Dokumentation &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) Bereitstellung für AEM as a Cloud Service&quot;.

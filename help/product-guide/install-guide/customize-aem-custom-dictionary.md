@@ -38,4 +38,4 @@ Führen Sie die folgenden Schritte aus, um Ihre Liste mit benutzerdefinierten W�
 
 Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die Liste der benutzerdefinierten Wörter im AEM-Wörterbuch aktualisiert wird.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

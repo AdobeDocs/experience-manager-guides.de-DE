@@ -58,4 +58,4 @@ Bei dieser Konfiguration enthält jede Referenzdatei, die Sie einer Zuordnung hi
 
 
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

@@ -26,4 +26,4 @@ Beachten Sie für die Leistungsoptimierung die folgenden Punkte:
   Durch diese Änderung wird die Veröffentlichungszeit und die Speicherauslastung beim Veröffentlichen von DITA-Karten mit einer großen Anzahl von Themen reduziert.
 
 
-**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)

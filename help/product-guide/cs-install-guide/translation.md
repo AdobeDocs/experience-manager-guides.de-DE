@@ -34,7 +34,7 @@ Die Übersetzung der Inhalte umfasst die folgenden Schritte:
 
 1. Erstellen Sie [Übersetzungsprojekte](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) um die zu übersetzenden Inhalte zusammenzustellen und den Übersetzungsprozess vorzubereiten.
 
-1. Verwenden Sie die Übersetzungsprojekte, um [den Prozess zur Übersetzung der Inhalte ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) verwalten.
+1. Verwenden Sie die Übersetzungsprojekte, um [den Prozess zur Übersetzung der Inhalte &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) verwalten.
 
 
 Wenn Ihr Übersetzungsdienstleister keinen Connector für die Integration mit AEM bereitstellt, unterstützt AEM den manuellen Export und Import übersetzter Inhalte im XML-Format.

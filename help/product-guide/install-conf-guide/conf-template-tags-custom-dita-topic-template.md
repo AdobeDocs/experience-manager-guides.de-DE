@@ -99,4 +99,4 @@ Wenn der angegebene Speicherort in DAM vorhanden ist, werden alle standardmäßi
 >[!ENDTABS]
 
 
-**Übergeordnetes Thema:**[ Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)

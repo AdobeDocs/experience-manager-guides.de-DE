@@ -54,16 +54,16 @@ Die folgenden Registerkarten enthalten Anweisungen basierend auf Ihrer Experienc
    **items**:   Legen Sie die Definition aller Gruppen in der Symbolleiste fest. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole innerhalb einer Symbolleistengruppe zu definieren, müssen Sie erneut das `type` Attribut innerhalb der `items` definieren und deren Wert auf `buttonGroup` festlegen. Geben Sie einen oder mehrere Klassennamen in der `extraclass` Eigenschaft an. Geben Sie den Funktionsnamen in der Eigenschaft `label` an. Der folgende Ausschnitt aus der `ui_config.json` zeigt die Definition für den Haupt-Symbolleistenblock, gefolgt von der `buttonGroup` Definition:
 
        &quot;
-       „toolbar“: {
+       „toolbar“: &lbrace;
        „type“: „blockGroup“,
        „extraClass“:
        „Symbolleistenvorgänge“,
-       „items“: [
-       {
+       „items“: &lbrack;
+       &lbrace;
        „type“: „buttonGroup“,
        „extraClass“: „left-Controls“,
        „label“: „Left Controls“,
-       „items“: [
+       „items“: &lbrack;
        &quot;
    
    Innerhalb der `items` müssen Sie die Definition für ein oder mehrere Symbolleistensymbole angeben.
@@ -132,7 +132,7 @@ Die folgenden Registerkarten enthalten Anweisungen basierend auf Ihrer Experienc
 
 1. Fügen Sie in der `ui_config.json`-Datei die Definition der neuen Funktion im Abschnitt Symbolleisten hinzu. In der Regel können Sie eine neue Gruppe von Symbolleistenschaltflächen erstellen und ihr eine oder mehrere Symbolleistenschaltflächen hinzufügen. Sie können auch eine neue Symbolleistenschaltfläche zu einer vorhandenen Symbolleistengruppe hinzufügen. Zum Erstellen einer neuen Symbolleistengruppe sind die folgenden Details erforderlich:
 
-   - **type:**Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
+   - **type:**&#x200B;Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
 
    - **extraClass:** Name der Klasse(n), durch Leerzeichen getrennt.
 

@@ -50,7 +50,7 @@ Die JVM-Startparameter sollten sorgfältig auf der Grundlage der Infrastruktur u
 
 : Setzen Sie die JVM-Heap-Größe auf ein Minimum von einem Viertel des insgesamt verfügbaren Speichers. Verwenden Sie den `-Xmx<size>`, um die Heap-Speichergröße festzulegen. Legen Sie für den Wert -`Xms` den Wert `-Xmx` fest.
 
-- Aktivieren Sie `-XX:+HeapDumpOnOutOfMemoryError` und legen Sie den Pfad für die `-XX:HeapDumpPath=</path/to/folder``>` fest.
+- Aktivieren Sie `-XX:+HeapDumpOnOutOfMemoryError` und legen Sie den Pfad für die `-XX:HeapDumpPath=</path/to/folder` `>` fest.
 
 - Aktivieren Sie das Java GC-Protokoll als:
 

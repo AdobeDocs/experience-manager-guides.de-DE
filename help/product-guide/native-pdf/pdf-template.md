@@ -82,7 +82,7 @@ Sie können über das Menü **Optionen“ auch die folgenden Vorgänge** Vorlage
 ### Löschen
 
 Wählen Sie die Option Löschen , um die ausgewählte Vorlage zu löschen. Wählen Sie dann bei der Bestätigungsaufforderung Ja .
-Die Vorgabe wird aus „Vorlagen**entfernt**.
+Die Vorgabe wird aus „Vorlagen&#x200B;**entfernt**.
 
 ### Eigenschaften{#properties-option}
 
@@ -104,7 +104,7 @@ Abhängig von Ihrem Setup kann Ihr Administrator die Vorlagen konfigurieren:
 
 +++ Cloud Services
 
-Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnerebene finden Sie [ Abschnitt &quot;](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) konfigurieren“ im Installations- und Konfigurationshandbuch für Cloud Services.
+Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnerebene finden Sie [&#x200B; Abschnitt &quot;](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) konfigurieren“ im Installations- und Konfigurationshandbuch für Cloud Services.
 
 +++
 

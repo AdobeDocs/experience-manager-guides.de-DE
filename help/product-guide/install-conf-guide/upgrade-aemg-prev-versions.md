@@ -201,7 +201,7 @@ Sie können direkt auf Version **4.2.1**, wenn Sie **4.1**, **4.1.x** oder **4.2
    - `Unable to port translation map from v1 to v2 for property`
 5. (Optional) Upgrade des Oxygen Connector-Plug-ins, das mit Version **4.2 veröffentlicht wurde**
 6. Browser-Cache löschen.
-7. Fahren Sie mit [Allgemeine Aufgaben nach einem Upgrade (alle Versionen) ](#common-postupgrade-tasks-all-versions).
+7. Fahren Sie mit [Allgemeine Aufgaben nach einem Upgrade (alle Versionen) &#x200B;](#common-postupgrade-tasks-all-versions).
 
 ### Nach der Installation von Version 4.2.1
 
@@ -343,7 +343,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.4.0 Folge
 7. Weiter mit:
 
    - [Häufige Aufgaben nach einem Upgrade (alle Versionen)](#common-ppostupgrade-tasks-all-versions)
-   - [Vorhandenen Inhalt für Map suchen und ersetzen ](#index-existing-content-for-map-find-and-replace)Nur falls zutreffend)
+   - [Vorhandenen Inhalt für Map suchen und ersetzen &#x200B;](#index-existing-content-for-map-find-and-replace)Nur falls zutreffend)
    - [Vorhandenen Inhalt für Bericht zu fehlerhaftem Link nachverarbeiten](#post-process-existing-content-for-broken-link-report) (Nur falls zutreffend)
    - [Upgrade der Übersetzungszuordnung (Servlet-Trigger)](#translation-map-upgrade-servlet-trigger) (Nur falls zutreffend)
 
