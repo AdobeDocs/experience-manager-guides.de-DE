@@ -16,7 +16,7 @@ ht-degree: 0%
 ## Konfigurieren des Datenspeichers \(obligatorisch\)
 
 **Was ist die Änderung?**
-Legen Sie die `minRecordLength`-Eigenschaft im `100` für die Konfiguration auf den Wert `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` fest. Weitere Informationen zum Dateidatumsspeicher und zum S3-Datenspeicher finden Sie im [Konfigurieren von Knotenspeichern und Datenspeichern in AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
+Legen Sie die `minRecordLength`-Eigenschaft im `100` für die Konfiguration auf den Wert `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` fest. Weitere Informationen zum Dateidatumsspeicher und zum S3-Datenspeicher finden Sie im [Konfigurieren von Knotenspeichern und Datenspeichern in AEM 6](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
 
 >[!NOTE]
 >

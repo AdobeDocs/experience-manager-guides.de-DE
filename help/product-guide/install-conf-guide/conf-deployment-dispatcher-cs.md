@@ -46,9 +46,9 @@ Sie haben Ihr Programm erfolgreich für die automatische Bereitstellung der Expe
 
 ## Konfiguration des Dispatchers
 
-Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich. Weitere Informationen finden Sie unter [Dispatcher in der Cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
+Dispatcher ist ein Tool von Adobe Experience Manager für das Zwischenspeichern und/oder den Lastenausgleich. Weitere Informationen finden Sie unter [Dispatcher in der Cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=de).
 
-1. Informationen zum Migrieren der Dispatcher-Konfiguration von AMS zu Cloud Service finden Sie unter [Migrieren der Dispatcher-Konfiguration von AMS zu AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en).
+1. Informationen zum Migrieren der Dispatcher-Konfiguration von AMS zu Cloud Service finden Sie unter [Migrieren der Dispatcher-Konfiguration von AMS zu AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=de).
 1. Weitere Informationen zum Konfigurieren des Dispatchers finden Sie unter [Konfigurieren von Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=de).
 
 >[!NOTE]

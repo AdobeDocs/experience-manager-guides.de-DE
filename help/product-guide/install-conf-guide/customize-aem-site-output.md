@@ -98,7 +98,7 @@ Die Eigenschaften der AEM Guides-Design-Vorlage werden in der folgenden Tabelle 
 >
 > Nachdem Sie einen benutzerdefinierten Design-Vorlagenknoten erstellt haben, müssen Sie die Option Design in den AEM-Site-Ausgabevorgaben aktualisieren, um den benutzerdefinierten Design-Vorlagenknoten zu verwenden.
 
-Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager-Website](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de) und [Grundlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) Entwicklung einer eigenen Website in AEM.
+Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager-Website](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de) und [Grundlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=de) Entwicklung einer eigenen Website in AEM.
 
 ## Verwenden des Dokumenttitels zum Generieren der AEM-Site-Ausgabe
 
