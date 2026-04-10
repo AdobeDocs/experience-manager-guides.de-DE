@@ -1,24 +1,25 @@
 ---
-title: Konfigurieren der Erstellung von Single Topic PDF
-description: Erfahren Sie, wie Sie die Erstellung von Single Topic PDF konfigurieren
+title: Konfigurieren der PDF-Generierung für ein einzelnes Thema
+description: Erfahren Sie, wie Sie die PDF-Generierung für einzelne Themen konfigurieren
 exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Konfigurieren der Erstellung von Single Topic PDF {#id22ADC70M0XA}
+# Konfigurieren der PDF-Generierung für ein einzelnes Thema {#id22ADC70M0XA}
 
-Mit der AEM Guides können Sie die PDF einzelner Themen oder eine ganze Kartendatei generieren. Sie können Ihre Themen in einem PDF-Format mit nativem PDF oder DITA-OT veröffentlichen. Verwenden Sie die native PDF-Methode, um eine funktionsreiche PDF-Ausgabe auf der Grundlage von W3C CSS3- und CSS-Paging-Medienstandards zu generieren. Sie können die DITA-OT-Methode verwenden, um eine PDF-Ausgabe für eine Zuordnung über das Zuordnungs-Dashboard zu generieren.
+Mit der AEM Guides können Sie die PDF einzelner Themen oder eine gesamte Zuordnungsdatei generieren. Sie können Ihre Themen im PDF-Format mit der nativen PDF- oder DITA-OT-Methode veröffentlichen. Verwenden Sie die native PDF-Methode , um eine funktionsreiche PDF-Ausgabe basierend auf W3C CSS3- und CSS-Seitenmedienstandards zu generieren. Sie können die DITA-OT-Methode verwenden, um eine PDF-Ausgabe für eine Zuordnung über das Zuordnungs-Dashboard zu generieren.
 
 >[!NOTE]
 >
-> Das native PDF ist die Standardmethode zum Generieren einer PDF in der aktuellen Version von AEM Guides.
+> Native PDF ist die Standardmethode zum Generieren einer PDF in der aktuellen Version von AEM Guides.
 
 Führen Sie die folgenden Schritte aus, um die alte PDF-Generierung über das DITA-OT im Themenvorschaumodus zu aktivieren:
 
@@ -57,6 +58,6 @@ Führen Sie die folgenden Schritte aus, um die alte PDF-Generierung über das DI
 
 1. Speichern Sie die Datei und laden Sie sie hoch.
 
-Wenn Sie nach dem Ausführen der oben genannten Schritte dasselbe Ordnerprofil aus den Benutzereinstellungen im Web-Editor auswählen, wird im Vorschaumodus eines Themas die Option zum Generieren von PDF angezeigt.
+Wenn Sie nach dem Ausführen der oben genannten Schritte dasselbe Ordnerprofil aus den Benutzereinstellungen im Web-Editor auswählen, wird im Vorschaumodus eines Themas die Option für die PDF-Generierung angezeigt.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

@@ -1,0 +1,181 @@
+---
+title: Herunterladen und Installieren von AEM Sites-Vorlagen für Cloud-Services
+description: Erfahren Sie, wie Sie AEM Sites-Vorlagen für Cloud-Services herunterladen und installieren
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 1%
+
+---
+
+# Herunterladen und Installieren von AEM Sites-Vorlagen
+
+Dieses Handbuch enthält Schritt-für-Schritt-Anweisungen zum Einrichten und Konfigurieren der neuesten AEM Guides-Vorlage für das Generieren von AEM Sites-Seiten in einer Cloud-Umgebung. Führen Sie diese Schritte aus, um die erforderlichen Pakete zu installieren, Voreinstellungen zu erstellen und zu konfigurieren und AEM Sites zu generieren.
+
+## Voraussetzungen
+
+Die folgenden Registerkarten bieten die erforderlichen Voraussetzungen basierend auf Ihrer Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
+
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
+
+- **Adobe Experience Manager (AEM) Cloud**: Eine laufende Instanz von **AEM as a Cloud Service** mit **AEM Guides 2502 oder höheren Versionen**.
+
+- **Erforderliche Berechtigungen**: Sie müssen über die folgenden Berechtigungen verfügen:
+
+   - Zugriff auf **Cloud Manager**, um Pakete bereitzustellen.
+   - Zugriff auf **Git-Repository** in Verbindung mit Ihrer Umgebung.
+   - Berechtigungen zum Erstellen und Ändern von Vorgaben in AEM Guides.
+
+- **Pakete herunterladen**: Laden Sie die folgenden Pakete vom Software Distribution-Portal herunter:
+
+   - Komponentenpaket: guides-components.all-1.x.0.zip
+   - Sites-Vorlage: aemg-docs-1.x.0.zip
+
+>[!TAB On-Premise]
+
+- **Adobe Experience Manager (AEM):** Eine laufende Instanz von **AEM 6.5** mit **Service Pack** 21, 20 und 19 und **AEM Guides 4.6.0** oder höheren Versionen.
+
+- **Erforderliche Berechtigungen**: Stellen Sie sicher, dass Sie über die folgenden Berechtigungen verfügen:
+
+   - Zugriff auf **Software Distribution-Portal** zum Herunterladen der erforderlichen Pakete
+   - Zugriff auf **CRX Package Manager**, um Pakete in AEM zu installieren.
+   - Berechtigungen zum Erstellen und Ändern von Vorgaben in AEM Guides.
+
+- **Pakete herunterladen**: Laden Sie die folgenden Pakete vom **Software Distribution-Portal** herunter:
+
+   - Komponentenpaket: on-prem-guides-components.all-1.x.0.zip
+   - Sites-Paket: aemg-docs.all-1.x.0.zip
+
+>[!ENDTABS]
+
+
+## Package-Installation
+
+Die folgenden Registerkarten enthalten Anweisungen für die Paketinstallation entsprechend Ihrer Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
+
+>[!BEGINTABS]
+
+>[!TAB Cloud Service]
+
+Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und führen Sie die folgenden Schritte aus
+
+1. **Git-Repository klonen:**
+   1. Navigieren Sie **linken Bedienfeld** Cloud Manager zu „Repositorys“.
+   2. Wählen Sie **Auf Repository-Informationen zugreifen** und kopieren Sie den Git-Klon-Befehl.
+
+      ![Auf Repository-Informationen zugreifen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+
+   3. Klonen Sie das Repository auf Ihrem lokalen System mit dem angegebenen Benutzernamen und Kennwort (generieren Sie ggf. ein Kennwort).
+2. **Paket zum Maven-Bundle hinzufügen:**
+   1. Erstellen Sie in Ihrem lokal geklonten Repository ein neues Maven-Bundle oder fügen Sie es einem vorhandenen hinzu.
+   2. Stellen Sie sicher, dass die `/jcr_root/apps/fmdita/` installierende Struktur im Maven-Projekt vorhanden ist.
+
+      ![Struktur im Maven-Projekt](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+
+
+   3. Platzieren Sie die heruntergeladene Datei „guides-components.all-1.x.x.zip“ im Installationsordner.
+
+3. **Filter.xml aktualisieren:**
+
+   1. Öffnen Sie die Datei „filters.xml“ im Ordner &quot;META-INF“ des übergeordneten Inhaltsverzeichnisses.
+   2. Fügen Sie den folgenden Filter hinzu: filter root=`/apps/fmdita` mode=`merge`/
+
+
+      ![Filter hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+
+
+4. **Konfigurieren Sie pom.xml:** Aktualisieren Sie die Datei „pom.xml“ entsprechend Ihren Umgebungsanforderungen.
+5. **Änderungen pushen und Pipeline ausführen:**
+   1. Übertragen Sie die Änderungen in das Git-Haupt-Repository.
+   2. Navigieren Sie zu **Pipelines** in Cloud Manager und führen Sie die Pipeline für die gewünschte Umgebung aus.
+6. **Installation überprüfen:** Sobald die Bereitstellung abgeschlossen ist, wird das Komponentenpaket in der AEM Cloud-Umgebung installiert.
+
+>[!TAB On-Premise]
+
+1. **Installieren des Komponentenpakets:**
+   1. Navigieren Sie zu [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
+   2. Laden Sie das Paket on-preme-guides-components.all-1.x.0.zip hoch und installieren Sie es.
+
+2. **Installieren Sie das Sites-Paket:** Laden Sie das Paket aemg-docs.all-1.x.0.zip hoch und installieren Sie es mit dem CRX Package Manager.
+
+>[!ENDTABS]
+
+## Erstellen einer Site mit installierten Vorlagen (für Cloud Service)
+
+1. **Site-Vorlage importieren:**
+   1. Navigieren Sie zur AEM Sites-Seite (servername/sites.html/content).
+   2. Wählen Sie **Vorlage** Erstellen > **Site** aus.
+   3. Importieren Sie die Sites-Vorlage aemg-docs-1.x.x.zip mit der Option **Importieren**.
+2. **Vorlage auswählen:** Wählen Sie **AEMG Docs 1.x.x** aus und klicken Sie dann auf **Weiter**.
+3. **Site-Details eingeben:** Geben Sie den **Site-Titel** und **Site-Name** ein.
+
+   ![Erstellen einer Website](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+
+4. Wählen Sie **Erstellen** aus.
+
+## Erstellen einer AEM-Site-Voreinstellung
+
+1. **Neue Vorgabe erstellen:**
+   1. Öffnen Sie eine DITA-Zuordnung in AEM Guides und navigieren Sie zum Bedienfeld **Ausgabe** .
+   2. Wählen Sie **Voreinstellung erstellen** aus.
+   3. Wählen Sie den Typ als **AEM Sites**.
+   4. Geben Sie einen Namen für die Voreinstellung ein.
+   5. Deaktivieren Sie die Einstellung **Veraltete Komponentenzuordnung verwenden**.
+   6. Wählen Sie **Hinzufügen** aus, um die Voreinstellung zu erstellen.
+
+      ![Neue AEM-Site-Voreinstellung erstellen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+
+
+2. **AEM-Site-Voreinstellung konfigurieren** Es gibt zwei Optionen, um die vordefinierte Site zu konfigurieren:
+
+   **Option 1: Verwenden Sie das Dropdown-Menü der Site**
+
+   1. Wählen Sie **Site** als die oben erstellte aus (z. B. AEMG Docs Site).
+   2. Stellen Sie sicher **dass die Vorlagen „Veröffentlichungspfad** und **Themenseite** automatisch auf Folgendes festgelegt sind:
+      - Veröffentlichungspfad: Cloud Service: `/content/AEMG-Docs-Site/en/docs/product` und On-Premise: `aemg-docs/en/docs/product1`
+      - Themenseitenvorlage: Themenseite
+
+      ![Verwenden Sie das Dropdown-Menü der Site, um die AEM-Site zu konfigurieren](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+
+   **Option 2: Verwenden des Site-Pfads**
+
+   1. Legen Sie **Site-Pfad** manuell als `/content/AEMG-Docs-Site/en/docs/product` für Cloud Service und `/content/aemg-docs/en/docs/product1` für On-Premise fest.
+   2. Stellen Sie sicher, **die Vorlage** Themenseite) automatisch auf Themenseite eingestellt ist.
+
+      Für Cloud Service:
+
+      ![Verwenden Sie den Site-Pfad, um die AEM-Site zu konfigurieren](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+
+      Für On-Premise:
+
+      ![Site-Pfad verwenden](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+
+3. **Voreinstellung speichern:** Speichern Sie die an der Voreinstellung vorgenommenen Änderungen.
+
+## AEM Sites generieren
+
+1. **Website generieren:**
+   1. Generieren Sie bei konfigurierter Vorgabe die AEM-Site für die entsprechende DITA-Zuordnung.
+   2. Die generierte Site ist unter dem Pfad verfügbar: `/content/AEMG-Docs-Site/en/docs/product` für Cloud Service und `/content/aemg-docs/en/docs/product1` für On-Premise.
+2. **Standardgenerierungspfad ändern (optional):** Wenn Sie den Standardpfad für die Site-Generierung ändern möchten, führen Sie die folgenden Schritte aus:
+   1. Navigieren Sie zu **AEM Sites**.
+   2. Erstellen Sie eine neue Produktseite unter der vorkonfigurierten Site-Struktur.
+   3. Navigieren Sie zu **AEMG-** > **Englisch** > **Docs**.
+
+      ![Seite erstellen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+
+   4. Wählen Sie die Kachel **Startseite** und dann **Weiter** aus.
+
+      ![Home-Kachel auswählen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+
+   5. Geben Sie **(Titel** und **Name** für die Seite ein.
+   6. Wählen Sie **Erstellen** aus.
+
+>[!NOTE]
+>
+> Stellen Sie bei der Einrichtung von Cloud Service sicher, dass alle Konfigurationen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktionsumgebung bereitstellen. <br><br> Informationen finden Sie in der offiziellen [Dokumentation ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) Bereitstellung für AEM as a Cloud Service&quot;.

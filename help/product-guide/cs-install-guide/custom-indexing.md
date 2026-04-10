@@ -5,7 +5,8 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 682d58df-7404-4e84-9b5f-ab40c46bef84
-source-git-commit: 1bffdade37658bd44128cac9226a349f828abd45
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 3%
@@ -14,7 +15,7 @@ ht-degree: 3%
 
 # Bereitstellen eines benutzerdefinierten Index für die Funktion Suchen und Ersetzen (Source-Ansicht)
 
-## Überblick
+## Übersicht
 
 Dieses Handbuch enthält Schritt-für-Schritt-Anweisungen für die Bereitstellung des `guidesAssetLucene‑1‑custom‑1` benutzerdefinierten Index auf Adobe Experience Manager (AEM) as a Cloud Service. Während die standardmäßige Funktion zum Suchen und Ersetzen in der Autorenansicht ohne diesen Index funktioniert, ist der benutzerdefinierte Index speziell erforderlich, um Suchen und Ersetzen in der Source-Ansicht zu aktivieren. Mit der Ansicht „Suchen und Ersetzen“ (Source-Ansicht) können Sie nicht nur den sichtbaren erstellten Inhalt durchsuchen, sondern auch die zugrunde liegende XML-Struktur, einschließlich Elemente, Tags und Attributwerte.
 
@@ -220,5 +221,5 @@ Die primäre Verifizierung besteht darin, die Funktion zu testen:
 
 - [AEM as a Cloud Service-Indizierungsdokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak-Indizierungshandbuch](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Dokumentation zu AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides)
+- [Dokumentation zu AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Dokumentation für Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

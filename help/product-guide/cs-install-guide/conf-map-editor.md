@@ -5,7 +5,8 @@ exl-id: 365264ab-f990-42c1-ab79-61a40ecea42f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -33,4 +34,4 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 >
 > Wenn ein Autor eine Zuordnungsdatei erstellt und sie zur Bearbeitung öffnet, wird standardmäßig der grundlegende Zuordnungs-Editor gestartet. Wenn die Option Bearbeiten für eine Zuordnungsdatei über die Assets-Benutzeroberfläche ausgewählt wird, wird sie auch im grundlegenden Zuordnungs-Editor geöffnet.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

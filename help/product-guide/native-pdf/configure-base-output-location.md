@@ -4,7 +4,9 @@ description: Konfigurieren des Speicherorts der Basisausgabe für die Veröffent
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ab6f1f09de2ef758d7f05ba0a49194ac9f387dea
+exl-id: ae1d805a-7b79-4b76-8be2-a19c5552530c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 1%
@@ -28,5 +30,3 @@ Führen Sie die folgenden Schritte aus, um den Basisausgabespeicherort zu konfig
 1. Aktualisieren Sie die Eigenschaft **Basisausgabespeicherort**, um den Standardpfad im AEM-Repository anzugeben, in dem die PDF nach der Veröffentlichung gespeichert wird. Wenn ein ungültiger Pfad eingegeben wird, wird außerdem automatisch zum Standardpfad zurückgesetzt: /content/dam/fmdita-output.
 
 1. Klicken Sie auf **Speichern**.
-
-

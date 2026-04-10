@@ -5,7 +5,8 @@ exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -33,13 +34,13 @@ Die Informationen in diesem Handbuch sind wie folgt aufgebaut:
 
 - [Herunterladen und Installieren](download-install.md#): In diesem Thema wird beschrieben, wie Sie AEM Guides herunterladen, installieren oder aktualisieren.
 
-- [Benutzerverwaltung und Sicherheit](user-admin-sec.md#): In diesem Thema werden das Kernkonzept der Benutzenden und die Authentifizierung in AEM sowie die von AEM Guides erstellten Standardbenutzergruppen beschrieben.
+- [Benutzerverwaltung und Sicherheit](user-admin-sec.md#): In diesem Thema werden das Kernkonzept der Benutzenden und der Authentifizierung in AEM sowie die von AEM Guides erstellten Standardbenutzergruppen beschrieben.
 
 - [Verwenden benutzerdefinierter DITA-OT- und DITA-](dita-ot-specialization.md#): In diesem Thema wird beschrieben, wie Sie benutzerdefinierte DITA-OT-Plug-ins konfigurieren und die DITA-Spezialisierung verwenden.
 
 - [Dokumentstatus konfigurieren](customize-doc-state.md#) In diesem Thema wird beschrieben, wie Sie benutzerdefinierte Status für Ihre DITA-Dokumente konfigurieren.
 
-- [Migrieren vorhandener Inhalte](migrate-content.md#) In diesem Thema wird beschrieben, wie Sie Ihre vorhandenen Inhalte in das AEM-Repository integrieren.
+- [Migrieren vorhandener Inhalte](migrate-content.md#): In diesem Thema wird beschrieben, wie Sie Ihre vorhandenen Inhalte in das AEM-Repository integrieren.
 
 - [Dateinamen konfigurieren](conf-file-names.md#) In diesem Thema wird erläutert, wie Sie eine Einstellung konfigurieren können, um automatisch Dateinamen zuzuweisen und Regex für gültige Dateinamenzeichen zu definieren.
 
@@ -68,9 +69,9 @@ Die Informationen in diesem Handbuch sind wie folgt aufgebaut:
 
 ## Zusätzliche Ressourcen
 
-Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guides, die auf der Seite [Lernen und Support](https://helpx.adobe.com/de/support/xml-documentation-for-experience-manager.html) verfügbar sind:
+Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guides, die auf der Seite [Lernen und Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) verfügbar sind:
 
 - Benutzerhandbuch
 - API-Referenzhandbuch
 - Schnellstartanleitung
-- [Hilfe-Archivierungsseite](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) \(Zugriff auf die ältere Versionsdokumentation\)
+- [Hilfe-Archivierungsseite](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(Zugriff auf die ältere Versionsdokumentation\)

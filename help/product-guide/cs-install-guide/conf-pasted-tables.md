@@ -4,7 +4,9 @@ description: Erfahren Sie, wie Sie die Anzeige eingefügter Tabellen im Editor a
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: d03ac6ba3ec8e5c52c31a3239e2043bbae79622e
+exl-id: 839128b4-4889-4c61-b1c0-214ba1d3165e
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -43,4 +45,3 @@ Um das Standardtabellenformat zu aktualisieren, führen Sie die folgenden Schrit
 
 
 Speichern Sie die Datei nach der Aktualisierung und laden Sie sie hoch.
-

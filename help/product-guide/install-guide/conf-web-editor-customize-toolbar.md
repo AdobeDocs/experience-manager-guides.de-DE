@@ -5,7 +5,8 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Standardmäßig werden im Lieferumfang des Web-Editors die gängigsten redaktion
 
 >[!NOTE]
 >
-> Bei der Migration von der alten Benutzeroberfläche zur neuen AEM Guides-Benutzeroberfläche (anwendbar ab Version 2502 und 5.0 von AEM Guides) müssen Aktualisierungen an `ui_config` in flexiblere und modulare Benutzeroberflächenkonfigurationen konvertiert werden. Dieses Framework hilft bei der nahtlosen Übernahme von Änderungen in die editor_toolbar und ggf. andere Target-Widgets. Weitere Informationen finden Sie unter [Übersicht über die Konfiguration der Convert-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Bei der Migration von der alten Benutzeroberfläche zur neuen AEM Guides-Benutzeroberfläche (anwendbar ab Version 2502 und 5.0 von AEM Guides) müssen Aktualisierungen an `ui_config` in flexiblere und modulare Benutzeroberflächenkonfigurationen konvertiert werden. Dieses Framework hilft bei der nahtlosen Übernahme von Änderungen in die editor_toolbar und ggf. andere Target-Widgets. Weitere Informationen finden Sie unter [Übersicht über die Konfiguration der Convert-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Es gibt zwei Möglichkeiten, die Symbolleiste des Web-Editors anzupassen:
 
@@ -49,7 +50,7 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
 
 1. Fügen Sie in der `ui_config.json`-Datei die Definition der neuen Funktion im Abschnitt Symbolleisten hinzu. In der Regel können Sie eine neue Gruppe von Symbolleistenschaltflächen erstellen und ihr eine oder mehrere Symbolleistenschaltflächen hinzufügen. Sie können auch eine neue Symbolleistenschaltfläche zu einer vorhandenen Symbolleistengruppe hinzufügen. Zum Erstellen einer neuen Symbolleistengruppe sind die folgenden Details erforderlich:
 
-   - **type:**&#x200B;Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
+   - **type:**Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
 
    - **extraClass:** Name der Klasse(n), durch Leerzeichen getrennt.
 
@@ -229,7 +230,7 @@ Die `ui_config.json`-Datei besteht aus drei Abschnitten:
 
 - **Tastaturbefehle:**   Dieser Abschnitt enthält die Definition der Tastaturbefehle, die einer bestimmten Funktion im Editor zugewiesen sind.
 
-- **templates:**   Dieser Abschnitt enthält die vordefinierte Struktur von DITA-Elementen, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt Vorlagen Vorlagendefinitionen für einen Absatz, einfache Tabellen-, Tabellen- und Textelemente. Sie können eine Vorlagendefinition für ein beliebiges Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise zu jedem neuen `li`-Element in einer Liste ein `p`-Element hinzufügen möchten, können Sie zu diesem Zweck den folgenden Code am Ende des Abschnitts „Vorlagen“ hinzufügen:
+- **templates:**   Dieser Abschnitt enthält die vordefinierte Struktur von DITA-Elementen, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt Vorlagen Vorlagendefinitionen für einen Absatz, einfache Tabellen-, Tabellen- und Textelemente. Sie können eine Vorlagendefinition für ein beliebiges Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise zu jedem neuen `p`-Element in einer Liste ein `li`-Element hinzufügen möchten, können Sie zu diesem Zweck den folgenden Code am Ende des Abschnitts „Vorlagen“ hinzufügen:
 
 ```HTML
 "li": "<li><p></p></li>"
@@ -240,4 +241,4 @@ Die `ui_config.json`-Datei besteht aus drei Abschnitten:
 1. Speichern Sie die *ui\_config.json*-Datei und laden Sie den Web-Editor neu.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

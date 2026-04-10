@@ -5,7 +5,8 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
-source-git-commit: 635206ca34db633a998b0156e2549d86a83f8131
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 >[!NOTE]
 >
-> Sie können auch reguläre Ausdrücke (Regex) verwenden, um Regeln zu definieren, die für mehrere Ordner oder eine gesamte Ordnerhierarchie gelten. Weitere Informationen finden Sie im Abschnitt [Verwenden von Regex zum Aktivieren oder Deaktivieren der &#x200B;](#use-regex-to-enable-or-disable-post-processing)&quot;.
+> Sie können auch reguläre Ausdrücke (Regex) verwenden, um Regeln zu definieren, die für mehrere Ordner oder eine gesamte Ordnerhierarchie gelten. Weitere Informationen finden Sie im Abschnitt [Verwenden von Regex zum Aktivieren oder Deaktivieren der ](#use-regex-to-enable-or-disable-post-processing)&quot;.
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|

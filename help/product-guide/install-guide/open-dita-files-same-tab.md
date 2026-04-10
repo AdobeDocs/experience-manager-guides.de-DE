@@ -5,7 +5,8 @@ exl-id: 81ad2e18-3ea7-4cc1-8387-d703d1038a18
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -44,4 +45,4 @@ Diese Einstellung wirkt sich auf die folgenden Orte aus, von denen aus Sie auf d
 - Registerkarte „Berichte“ in der DITA-Zuordnungskonsole
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

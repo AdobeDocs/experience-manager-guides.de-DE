@@ -5,9 +5,10 @@ exl-id: f7638cb3-faca-4170-9a8c-f6362e174c18
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ In einer Umgebung mit mehreren Verwendungszwecken muss außerdem sichergestellt 
 >
 > Diese Konfiguration gilt nur beim Hochladen von Dateien.
 
-Um die Option **Neue Version für hochgeladene Datei erstellen** zu aktivieren, führen Sie die folgenden Schritte aus:
+Die folgenden Registerkarten enthalten Anweisungen zum Aktivieren der Option **Neue Version für hochgeladene Datei erstellen** basierend auf Ihrer Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
 
 1. Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-install-additional-config-override.md#), um die Konfigurationsdatei zu erstellen.
 1. Geben Sie in der Konfigurationsdatei die folgenden \(property\)-Details an, um die Option **Neue Version für hochgeladene Datei erstellen** zu konfigurieren:
@@ -38,7 +39,7 @@ Um die Option **Neue Version für hochgeladene Datei erstellen** zu aktivieren, 
 
 >[!NOTE]
 >
-> Wenn die Option ausgewählt ist, wird ein neuer Versionsverwaltungsmechanismus ausgeführt, der das standardmäßige Upload-Verhalten überschreibt, das bei jedem nachfolgenden Upload gilt. Der Inhalt der hochgeladenen Datei wird als neue Version gespeichert. Wenn die Option deaktiviert ist, verwendet AEM Guides den standardmäßigen Versionsverwaltungsmechanismus der AEM.
+> Wenn die Option ausgewählt ist, wird ein neuer Versionsverwaltungsmechanismus ausgeführt, der das standardmäßige Upload-Verhalten überschreibt, das bei jedem nachfolgenden Upload gilt. Der Inhalt der hochgeladenen Datei wird als neue Version gespeichert. Wenn die Option deaktiviert ist, verwendet AEM Guides den standardmäßigen Versionsverwaltungsmechanismus von AEM.
 
 ## Einstellungen konfigurieren, um die Bearbeitung von ausgecheckten Dateien zu ermöglichen
 
@@ -142,7 +143,7 @@ Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
 
    ![](assets/preview-purge-report.png)
 
-1. &#x200B;
+1. 
    - **Anzahl der Versionen, die von der neuesten Version beibehalten werden sollen**: Geben Sie die Anzahl der Versionen ein, die beibehalten und nicht gelöscht werden sollen. Wenn Sie beispielsweise „5“ eingeben, werden die letzten 5 Versionen beibehalten und die Versionen davor werden gelöscht, wenn andere Bereinigungsbedingungen erfüllt sind.
 - **Innerhalb der Zeitspanne erstellte Versionen beibehalten \(in Tagen\)**: Geben Sie das maximale Alter einer Version in Tagen ein. Die Versionen, die älter als die angegebene Anzahl von Tagen sind, werden bereinigt, wenn andere Bereinigungsbedingungen erfüllt sind. Wenn wir beispielsweise „100“ eingeben, werden alle Versionen, die vor 100 Tagen erstellt wurden, gelöscht, falls andere Bereinigungsbedingungen erfüllt sind.
 - **Path**: Wählen Sie den Pfad der Datei oder des Ordners aus, deren Dateien Sie bereinigen möchten.

@@ -5,7 +5,8 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 0%
@@ -41,13 +42,13 @@ Führen Sie die folgenden Schritte aus, um WinSCP zum Hochladen von Dateien zu v
    Bei erfolgreicher Verbindung wird der Inhalt von AEM Assets in der WinSCP-Benutzeroberfläche angezeigt. Mit dem WinSCP-Datei-Explorer können Sie mühelos Inhalte durchsuchen, erstellen, aktualisieren oder löschen.
 
 
-## FrameMaker verwenden
+## Verwenden von FrameMaker
 
 Adobe FrameMaker verfügt über einen leistungsstarken AEM-Connector, mit dem Sie Ihre bestehenden DITA- und anderen FrameMaker-Dokumente \(.book und .fm\) einfach in AEM hochladen können. Sie können verschiedene Datei-Upload-Funktionen verwenden, z. B. das Hochladen einer einzelnen Datei, das Hochladen eines vollständigen Ordners mit oder ohne Abhängigkeiten \(z. B. Inhaltsreferenzen, Querverweise und Grafiken\).
 
-Führen Sie die folgenden Schritte aus, um den FrameMaker-AEM-Connector zum Hochladen von Inhalten zu verwenden:
+Führen Sie die folgenden Schritte aus, um den AEM-Connector von FrameMaker zum Hochladen von Inhalten zu verwenden:
 
-1. FrameMaker starten.
+1. Starten Sie FrameMaker.
 
 1. Öffnen Sie das **Verbindungs-Manager**-Dialogfeld.
 
@@ -106,7 +107,7 @@ Standardmäßig ist die Option **Alte Datei mit derselben UUID in neuen Ordner v
 
 **Zusätzliche Hinweise zum Arbeiten mit UUID-basierten Dateien**:
 
-Beim Verschieben oder Kopieren von Inhalten im AEM-Repository müssen die folgenden Punkte berücksichtigt werden:
+Beim Verschieben oder Kopieren von Inhalten innerhalb des AEM-Repositorys müssen die folgenden Punkte berücksichtigt werden:
 
 - Beim Kopieren einer oder mehrerer Dateien von einem Speicherort an einen anderen Speicherort wird für Dateien ohne UUID eine neue UUID generiert. Diese UUID wird den Metadaten der Datei hinzugefügt.
 
@@ -177,4 +178,4 @@ Geben Sie die folgenden Parameter an, um Metadateninformationen hinzuzufügen:
 - `<metadata node path>`: Vollständiger Ordnerpfad, einschließlich Dateiname und Metadatenknoten. Wenn Sie beispielsweise den Pfad als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` angeben, werden die angegebenen Metadateninformationen in `intro.xml` Datei festgelegt.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Migrieren vorhandener Inhalte](migrate-content.md)
+**Übergeordnetes Thema:**[ Migrieren vorhandener Inhalte](migrate-content.md)

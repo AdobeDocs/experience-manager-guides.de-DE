@@ -5,7 +5,8 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: dbcc625220c9ad1fa60942b2f43c38d3d6778541
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -32,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um AEM Guides zum ersten Mal auf einen C
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   Package Manager verwaltet die Pakete auf Ihrer lokalen AEM-Installation. Weitere Informationen zum Arbeiten mit dem Package Manager finden Sie unter [So arbeiten Sie mit Paketen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/package-manager.html) in der AEM-Dokumentation.
+   Package Manager verwaltet die Pakete in Ihrer lokalen AEM-Installation. Weitere Informationen zum Arbeiten mit dem Package Manager finden Sie unter [So arbeiten Sie mit Paketen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/package-manager.html) in der Dokumentation zu AEM.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -55,4 +56,4 @@ Führen Sie die folgenden Schritte aus, um AEM Guides zum ersten Mal auf einen C
 >
 > Führen Sie das Installationsverfahren auf allen Instanzen der AEM-Server in Ihrem Setup durch.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

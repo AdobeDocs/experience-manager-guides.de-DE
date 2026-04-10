@@ -5,7 +5,8 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '3896'
 ht-degree: 0%
@@ -58,7 +59,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
 - **Ausgabevorgabe**: Ähnlich wie bei Authoring-Vorlagen gibt es fünf vorkonfigurierte Ausgabevorgaben:
 
-   - AEM-Site
+   - AEM Site
 
    - PDF
 
@@ -68,7 +69,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
    - Benutzerdefiniert
 
-  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden &#x200B;](#id18AGD0K0OHS) Vorgabenänderungen“.
+  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden ](#id18AGD0K0OHS) Vorgabenänderungen“.
 
 - **XML-Editor-**: Auf dieser Registerkarte können Sie das Erscheinungsbild und verschiedene Funktionen des Web-Editors anpassen. Die folgenden konfigurierbaren Einstellungen sind für den Web-Editor verfügbar:
 
@@ -106,7 +107,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Informationen zum Konfigurieren **Ausgabevorgaben** finden Sie unter [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [&#x200B; unter „Konfigurieren und Anpassen des XML-Web-Editors](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [ unter „Konfigurieren und Anpassen des XML-Web-Editors](#id2065G300O5Z).
 
 1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie **Globales Profil**.
 
@@ -363,7 +364,7 @@ Führen Sie die folgenden Schritte aus, um globale oder ordnerspezifische Ausgab
 
 1. Auf der Profilseite. Klicken Sie auf die Registerkarte **Ausgabevorgaben**.
 
-   Es wird eine Liste mit vordefinierten Ausgabevorgaben angezeigt, darunter AEM-Site, PDF, HTML5, EPUB und BENUTZERDEFINIERT.
+   Es wird eine Liste vordefinierter Ausgabevorgaben angezeigt, darunter AEM Site, PDF, HTML5, EPUB und CUSTOM.
 
 1. Führen Sie einen der folgenden Schritte aus, um eine Ausgabevorgabe zu erstellen oder zu bearbeiten:
 
@@ -399,7 +400,7 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 1. Auf der Profilseite. Klicken Sie auf die Registerkarte **Ausgabevorgaben**.
 
-   Es wird eine Liste mit vordefinierten Ausgabevorgaben angezeigt, darunter AEM-Site, PDF, HTML5, EPUB und BENUTZERDEFINIERT.
+   Es wird eine Liste vordefinierter Ausgabevorgaben angezeigt, darunter AEM Site, PDF, HTML5, EPUB und CUSTOM.
 
 1. Wählen Sie die Ausgabevorgabe aus, die Sie auf vorhandene DITA-Zuordnungen anwenden möchten.
 

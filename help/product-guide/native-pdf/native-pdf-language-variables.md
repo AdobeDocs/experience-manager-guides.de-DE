@@ -5,7 +5,8 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e9c998aa5c36b7e0dbb9d594dbf223017164698
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 0%
@@ -34,7 +35,7 @@ Beispielsweise können Sie die folgenden Möglichkeiten haben, den `Note` in der
 
 >[!NOTE]
 >
-> Wenn der Wert für eine Variable nicht in einer bestimmten Sprache definiert ist, wählt AEM Guides die Zeichenfolge aus der Sprache der Benutzeroberfläche (Benutzeroberfläche des Programms) als Ausweichmechanismus aus.
+> Wenn der Wert für eine Variable nicht in einer bestimmten Sprache definiert ist, wählt AEM Guides die Zeichenfolge aus der Sprache der Benutzeroberfläche (Benutzeroberfläche des Programms) als Ausweichmechanismus.
 >
 > Wenn Sie den Wert nicht in der Sprache der Benutzeroberfläche definiert haben, sucht er nach Englisch (`en_us`), oder er wählt den englischen Wert (`en`) aus und zeigt denselben in der PDF-Ausgabe an.
 
@@ -122,7 +123,7 @@ Die Variablen mit derselben ID werden importiert, sobald Sie die Datei importier
 >[!NOTE]
 > 
 ><ul><li>Wenn es sich bei der Datei nicht um eine XML-Datei handelt oder die Datei ein falsches Format enthält, das nicht den Sprachvariablen zugeordnet ist, wird ein Fehler angezeigt, der besagt, dass ein Problem mit der XML-Datei vorliegt. 
->&gt;<li>Wenn die Datei keine Variablen mit derselben ID enthält, wird eine Warnung angezeigt, dass in der importierten Datei keine übereinstimmende Sprachvariable gefunden wird.
+&gt;<li>Wenn die Datei keine Variablen mit derselben ID enthält, wird eine Warnung angezeigt, dass in der importierten Datei keine übereinstimmende Sprachvariable gefunden wird.
 
 ### Optionen für eine Sprachvariable
 

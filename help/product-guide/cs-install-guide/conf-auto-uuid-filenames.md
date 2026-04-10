@@ -5,7 +5,8 @@ exl-id: bdbdf119-b928-4ed2-bab3-d99370da8aa9
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -26,4 +27,4 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 >
 > Wenn diese Option aktiviert ist, wird den Autoren beim Erstellen eines neuen Themas oder einer Zuordnungsdatei die Option zum Angeben des Dateinamens nicht angezeigt. Über die Assets-Benutzeroberfläche und den Web-Editor kann eine neue Themen- oder Zuordnungsdatei erstellt werden.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Dateinamen konfigurieren](conf-file-names.md)
+**Übergeordnetes Thema:**[ Dateinamen konfigurieren](conf-file-names.md)

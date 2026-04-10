@@ -5,7 +5,8 @@ exl-id: 5a2f4897-9697-4c5c-b5be-8fdb3a211948
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 2%
@@ -64,4 +65,4 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Speicherort für benutzerdefinierte Vorlagen angeben.<br> Wenn der angegebene Speicherort in DAM vorhanden ist, werden alle Standardzuordnungs- und Themenvorlagen in diesen Ordner kopiert. Wenn der Speicherort nicht vorhanden ist, wird der Ordner mit allen standardmäßigen Zuordnungs- und Themenvorlagen erstellt. |
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)
+**Übergeordnetes Thema:**[ Konfigurieren von Themen- und Zuordnungsvorlagen](conf-template-tags.md)

@@ -5,7 +5,8 @@ exl-id: 1ef2cec8-2e77-40c1-9ed2-324048bf65fb
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -68,4 +69,4 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierten Dateifiltero
    ![](assets/file-browse-custom-filters.png)
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

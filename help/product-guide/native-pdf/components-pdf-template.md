@@ -5,7 +5,8 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '4702'
 ht-degree: 0%
@@ -459,11 +460,11 @@ Sie können beispielsweise eine Sprachvariable namens „reference-label“ hinz
 Wenn Sie `${lng:<variable name>}` zum Abschnitt Absatz hinzufügen, enthalten die Querverweise in den Absätzen der Ausgabe den lokalisierten Text und die Seitenzahl.\
 Die folgenden Screenshots zeigen zum Beispiel die Querverweise „Auf Seite 1 anzeigen &quot; in englischer Sprache und „Einzelheiten finden Sie auf der Seite 1“ in deutscher Sprache.
 
-<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einem Absatz&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einem Absatz" width ="800" border="2px">
 
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in englischer Sprache.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Deutsche Ausgabe eines Querverweises in einem Absatz&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Deutsche Ausgabe eines Querverweises in einem Absatz" width ="800" border="2px">
 
 
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in deutscher Sprache.*

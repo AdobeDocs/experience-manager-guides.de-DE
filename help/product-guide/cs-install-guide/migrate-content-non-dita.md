@@ -5,7 +5,8 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '2521'
 ht-degree: 0%
@@ -128,7 +129,7 @@ Der Konvertierungsprozess umfasst die folgenden Aktionen im Backend:
 - Erstellung und Validierung einzelner DITA-Themen und DITA-Zuordnungsdateien.
 - Löschen temporärer Dateien.
 
-Im Großen und Ganzen erfordert der Konvertierungsprozess, dass Sie [InDesign-Dateien für die Konvertierung vorbereiten](appendix.md#id195DBF0045Z) [Appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) und [Zuordnungsdatei für die Migration von InDesign zu DITA vorbereiten](appendix.md#id194AF0003HT) [Appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), dann müssen Sie das angegebene Verfahren zum Ausführen des Konvertierungsprozesses befolgen.
+Im Großen und Ganzen erfordert der Konvertierungsprozess, dass Sie [InDesign-Dateien für die Konvertierung vorbereiten](appendix.md#id195DBF0045Z)[Appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) und [Zuordnungsdatei für die Migration von InDesign zu DITA vorbereiten](appendix.md#id194AF0003HT)[Appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), dann müssen Sie das angegebene Verfahren zum Ausführen des Konvertierungsprozesses befolgen.
 
 Führen Sie die folgenden Schritte aus, um Ihre bestehenden InDesign-Dokumente in ein Dokument vom Typ DITA-Thema zu konvertieren:
 
@@ -401,4 +402,4 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen strukturierten Dokum
 
 Mit dem `<config> </config>` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Migrieren vorhandener Inhalte](migrate-content.md)
+**Übergeordnetes Thema:**[ Migrieren vorhandener Inhalte](migrate-content.md)

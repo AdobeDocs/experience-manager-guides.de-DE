@@ -4,7 +4,9 @@ description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte zu UUID-Inhalten migrieren
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 56f1bd81e74ad9b479b2dcbcf04e1ee82e9a9041
+exl-id: f17a2e02-62de-4ed6-8d1f-4c72e7488437
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 2%
@@ -74,7 +76,7 @@ Führen Sie die folgenden Prüfungen für die Nicht-UUID-Version 4.6.0 Service P
    >
    >Dieses Dienstprogramm entfernt keine Versionen, die in Baselines oder Reviews verwendet werden, und hat keine Kennzeichnungen.
 
-Weitere Informationen finden Sie unter [Ältere Versionen &#x200B;](../install-guide/version-management.md#purge-older-versions-of-dita-files).
+Weitere Informationen finden Sie unter [Ältere Versionen ](../install-guide/version-management.md#purge-older-versions-of-dita-files).
 
 
 ## Voraussetzungen für die Migration
@@ -219,5 +221,4 @@ Darüber hinaus kann eine Liste **Dateien, die während des Migrationsprozesses 
    > Wenn vor der Migration die Eigenschaft **Titel für AEM-Website-Seitennamen verwenden** innerhalb von `com.adobe.fmdita.config.ConfigManager` auf *false* festgelegt wird, muss diese Eigenschaft nach der Migration aktualisiert werden.
 
 
-1. Nach Abschluss der Validierung kann der größte Teil des Speicherplatzes durch Ausführen der Komprimierung zurückgewonnen werden (siehe `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=de`).
-
+1. Nach Abschluss der Validierung kann der größte Teil des Speicherplatzes durch Ausführen der Komprimierung zurückgewonnen werden (siehe `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).

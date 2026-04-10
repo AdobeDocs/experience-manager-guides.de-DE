@@ -5,16 +5,17 @@ exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-# Natives PDF-Publishing
+# Native PDF-Veröffentlichung
 
-Mit AEM Guides können Sie PDF einzelner Themen oder eine Zuordnungsdatei mithilfe der Funktion zum Generieren nativer PDF-Ausgaben generieren. Sie können beim Generieren der PDF-Ausgabe PDF-Vorlagen anpassen und verwenden. Sie können Seiten-Layouts erstellen und gestalten, um die verschiedenen Abschnitte in der PDF-Ausgabe Ihren Anforderungen entsprechend darzustellen.
+Mit AEM Guides können Sie PDFs einzelner Themen oder eine Zuordnungsdatei mithilfe der Funktion zum Generieren nativer PDF-Ausgaben generieren. Sie können beim Generieren der PDF-Ausgabe PDF-Vorlagen anpassen und verwenden. Sie können Seiten-Layouts erstellen und gestalten, um die verschiedenen Abschnitte in der PDF-Ausgabe gemäß Ihren Anforderungen darzustellen.
 
 Darüber hinaus unterstützt AEM Guides auch Sprachvariablen, die Ihnen beim Definieren lokalisierter Zeichenfolgen helfen. Außerdem können Sie damit Stile für verschiedene Elemente definieren, die in Ihrer PDF-Ausgabe vorhanden sind. Wenn Sie ein erfahrener Benutzer sind, können Sie auch direkt mit CSS arbeiten, um erweiterte Seiten-Layouts zu erstellen.
 
@@ -24,7 +25,7 @@ Weitere Informationen finden Sie unter:
 * [Komponenten einer PDF-Vorlage](../native-pdf/components-pdf-template.md)
 * [Entwerfen eines Seiten-Layouts](../native-pdf/design-page-layout.md)
 * [Unterstützung für Sprachvariablen](../native-pdf/native-pdf-language-variables.md)
-* [PDF-Ausgabevariablen](../native-pdf/native-pdf-variables.md)
+* [Variablen in der PDF-Ausgabe](../native-pdf/native-pdf-variables.md)
 * [Hinzufügen eines Barcodes zur PDF-Ausgabe](../native-pdf/add-barcode.md)
 * Allgemeine Inhaltsstile {#content-styles}
    * [Arbeiten mit allgemeinen Inhaltsstilen](../native-pdf/stylesheet.md)

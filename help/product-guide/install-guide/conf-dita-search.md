@@ -5,9 +5,10 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1692'
 ht-degree: 1%
 
 ---
@@ -178,7 +179,7 @@ Führen Sie die folgenden Schritte aus, um benutzerdefinierte DITA-Elemente oder
 
 1. Öffnen Sie die Seite Konfiguration der Adobe Experience Manager-Web-Konsole . Die Standard-URL für den Zugriff auf die Konfigurationsseite lautet:
 
-   http://&lt;Server-Name\>:&lt;Port\>/system/console/configMgr
+   http://<Server-Name\>:<Port\>/system/console/configMgr
 
 1. Suchen Sie nach dem Bundle *com.adobe.fmdita.config.ConfigManager* und klicken Sie darauf.
 
@@ -202,7 +203,7 @@ Führen Sie die folgenden Schritte aus, um die Option „Metadatenextraktion“ 
 
 1. Öffnen Sie die Seite Konfiguration der Adobe Experience Manager-Web-Konsole . Die Standard-URL für den Zugriff auf die Konfigurationsseite lautet:
 
-   http://&lt;Server-Name\>:&lt;Port\>/system/console/configMgr
+   http://<Server-Name\>:<Port\>/system/console/configMgr
 
 1. Suchen Sie nach dem Bundle *com.adobe.fmdita.config.ConfigManager* und klicken Sie darauf.
 

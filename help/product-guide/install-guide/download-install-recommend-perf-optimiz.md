@@ -1,23 +1,24 @@
 ---
-title: Recommendations für Leistungsoptimierung
+title: Empfehlungen zur Leistungsoptimierung
 description: Erfahren Sie mehr über Recommendations zur Leistungsoptimierung
 exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
 
-# Recommendations für Leistungsoptimierung {#id213BD0JG0XA}
+# Empfehlungen zur Leistungsoptimierung {#id213BD0JG0XA}
 
 ## Konfigurieren des Datenspeichers \(obligatorisch\)
 
 **Was ist die Änderung?**
-Legen Sie die `minRecordLength`-Eigenschaft unter dem `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` auf den Wert `100` fest. Weitere Informationen zum Dateidatumsspeicher und zum S3-Datenspeicher finden Sie im [Konfigurieren von Knotenspeichern und Datenspeichern in AEM 6](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
+Legen Sie die `minRecordLength`-Eigenschaft im `100` für die Konfiguration auf den Wert `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` fest. Weitere Informationen zum Dateidatumsspeicher und zum S3-Datenspeicher finden Sie im [Konfigurieren von Knotenspeichern und Datenspeichern in AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
 
 >[!NOTE]
 >
@@ -32,14 +33,14 @@ Die DITA-Dateien werden im Datenspeicher und nicht im Segmentspeicher gespeicher
 ## Lucene-Index aktualisieren \(obligatorisch\)
 
 **Was ist die Änderung?**
-Schließen Sie /var/dxml aus oak:index/lucene aus.
+Schließen Sie /var/dxml aus oak/:index aus.
 
 >[!NOTE]
 >
 > AEM Guides verwendet keine Lucene-Indizes für die Suche nach Inhalten im Knoten /var/dxml.
 
 **Wann konfigurieren?**
-Wenn Sie diese Änderung auf einem neuen System vornehmen, bevor Sie Inhalte migrieren, ist nur eine Aktualisierung von oak:index/lucene erforderlich. Erstellen Sie andernfalls auf einem vorhandenen System, auf dem der Inhalt bereits migriert ist, nach der Änderung in oak:index/lucene die Indizes für Lucene \(*was einige Stunden dauern kann*\) neu.
+Wenn Sie diese Änderung auf einem neuen System vornehmen, bevor Sie Inhalte migrieren, ist nur eine Aktualisierung von Oak:index/Lucene erforderlich. Erstellen Sie andernfalls auf einem vorhandenen System, auf dem der Inhalt bereits migriert ist, nach der Änderung in oak:index/lucene die Indizes für Lucene \(*was einige Stunden dauern kann*\) neu.
 
 **Ergebnis dieser Änderung**
 Durch diese Änderung wird verhindert, dass der Knoten &quot;/var/dxml“ indiziert und im Segmentspeicher gespeichert wird.
@@ -51,7 +52,7 @@ Die JVM-Startparameter sollten sorgfältig auf der Grundlage der Infrastruktur u
 
 : Setzen Sie die JVM-Heap-Größe auf ein Minimum von einem Viertel des insgesamt verfügbaren Speichers. Verwenden Sie den `-Xmx<size>`, um die Heap-Speichergröße festzulegen. Legen Sie für den Wert -`Xms` den Wert `-Xmx` fest.
 
-- Aktivieren Sie `-XX:+HeapDumpOnOutOfMemoryError` und legen Sie den Pfad für die `-XX:HeapDumpPath=</path/to/folder` `>` fest.
+- Aktivieren Sie `-XX:+HeapDumpOnOutOfMemoryError` und legen Sie den Pfad für die `-XX:HeapDumpPath=</path/to/folder``>` fest.
 
 - Aktivieren Sie das Java GC-Protokoll als:
 
@@ -101,12 +102,12 @@ Dies kann zur Laufzeit über die Felix-Konsole oder über die Code-Bereitstellun
 **Ergebnis dieser Änderung**
 Durch diese Änderung wird sichergestellt, dass auf einer laufenden Autoreninstanz nicht alle Ressourcen für die Veröffentlichungsvorgänge zugewiesen werden. Dadurch bleiben die Systemressourcen auch für Autoren verfügbar, was zu einem besseren Benutzererlebnis führt.
 
-## Konfigurieren der Batch-Knotengröße für die Generierung der AEM-Site-Ausgabe \(obligatorisch, je nach Anwendungsfall\)
+## Konfigurieren der Batch-Größe von Knoten für die Erstellung von AEM-Site-Ausgaben \(obligatorisch, je nach Anwendungsfall\)
 
 **Was ist die Änderung?**
 Diese Änderung ist erforderlich, wenn Sie eine AEM Sites-Ausgabe generieren.
 
-Legen Sie die Eigenschaft **AEM-Site-Seiten in Heap** unter `com.adobe.fmdita.config.ConfigManager` auf eine Zahl fest, die auf der Konfiguration Ihres Systems basiert. Diese Eigenschaft definiert die Batch-Größe von Knoten, für die ein Commit ausgeführt werden soll, wenn die Site-Seiten generiert werden. Auf einem System mit einer größeren Anzahl von CPUs und Heap-Größe können Sie beispielsweise den Standardwert von `500` auf eine größere Anzahl erhöhen. Sie müssen den Testlauf mit dem geänderten Wert durchführen, um einen optimalen Wert für diese Eigenschaft zu erhalten.
+Legen Sie **Eigenschaft &quot;AEM-Site-Seiten in Heap** unter &quot;`com.adobe.fmdita.config.ConfigManager`&quot; auf eine Zahl fest, die auf der Konfiguration Ihres Systems basiert. Diese Eigenschaft definiert die Batch-Größe von Knoten, für die ein Commit ausgeführt werden soll, wenn die Site-Seiten generiert werden. Auf einem System mit einer größeren Anzahl von CPUs und Heap-Größe können Sie beispielsweise den Standardwert von `500` auf eine größere Anzahl erhöhen. Sie müssen den Testlauf mit dem geänderten Wert durchführen, um einen optimalen Wert für diese Eigenschaft zu erhalten.
 
 **Wann konfigurieren?**
 Dies kann zur Laufzeit über die Felix-Konsole oder über die Code-Bereitstellung erfolgen.
@@ -115,4 +116,4 @@ Dies kann zur Laufzeit über die Felix-Konsole oder über die Code-Bereitstellun
 Eine erhöhte Anzahl der Eigenschaft **AEM-Site-Seiten in Heap begrenzen** optimiert den Prozess der Erstellung von AEM-Site-Ausgaben.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

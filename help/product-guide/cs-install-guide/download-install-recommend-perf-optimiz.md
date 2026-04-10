@@ -1,22 +1,23 @@
 ---
-title: Recommendations für Leistungsoptimierung
-description: Recommendations für Leistungsoptimierung kennenlernen
+title: Empfehlungen zur Leistungsoptimierung
+description: Empfehlungen zur Leistungsoptimierung
 exl-id: 92ac1f81-2f51-44b0-82c3-56b39e8f3027
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
-# Recommendations für Leistungsoptimierung {#id213BD0JG0XA}
+# Empfehlungen zur Leistungsoptimierung {#id213BD0JG0XA}
 
 Beachten Sie für die Leistungsoptimierung die folgenden Punkte:
 
-- Informationen zur Optimierung von Inhalten und zur Indizierung finden Sie unter [Optimieren der Inhaltssuche und -indizierung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=de) in der AEM-Dokumentation.
+- Informationen zur Optimierung von Inhalten und zur Indizierung finden Sie unter [Optimieren der Inhaltssuche und -indizierung](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=de) in der Dokumentation zu AEM.
 
 - Patchen von Xerces-JAR bei Verwendung benutzerdefinierter DITA-OT-Dateien für die Veröffentlichung. Dies ist eine obligatorische Konfiguration, je nach Anwendungsfall. Diese Änderung ist nur erforderlich, wenn Sie benutzerdefinierte DITA-OT-Dateien für die Veröffentlichung der Ausgabe verwenden.
 
@@ -25,4 +26,4 @@ Beachten Sie für die Leistungsoptimierung die folgenden Punkte:
   Durch diese Änderung wird die Veröffentlichungszeit und die Speicherauslastung beim Veröffentlichen von DITA-Karten mit einer großen Anzahl von Themen reduziert.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

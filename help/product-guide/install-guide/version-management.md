@@ -5,7 +5,8 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Um eine neue Version der hochgeladenen Datei zu erstellen, führen Sie die folge
 
    Standardmäßig ist diese Option deaktiviert.
 
-   Wenn die Option ausgewählt ist, wird ein neuer Versionsverwaltungsmechanismus ausgeführt, der das standardmäßige Upload-Verhalten überschreibt, das bei jedem nachfolgenden Upload gilt. Der Inhalt der hochgeladenen Datei wird als neue Version gespeichert. Wenn die Option deaktiviert ist, verwendet AEM Guides den standardmäßigen Versionsverwaltungsmechanismus der AEM.
+   Wenn die Option ausgewählt ist, wird ein neuer Versionsverwaltungsmechanismus ausgeführt, der das standardmäßige Upload-Verhalten überschreibt, das bei jedem nachfolgenden Upload gilt. Der Inhalt der hochgeladenen Datei wird als neue Version gespeichert. Wenn die Option deaktiviert ist, verwendet AEM Guides den standardmäßigen Versionsverwaltungsmechanismus von AEM.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -130,7 +131,7 @@ Führen Sie die folgenden Schritte aus, um zu verhindern, dass Benutzer versehen
 1. Klicken Sie auf **Speichern**.
 
 
-Um diese Funktion zu unterstützen, wird in `oak:index` eine neue `drivelock` für die Indexeigenschaft hinzugefügt:
+Um diese Funktion zu unterstützen, wird in `drivelock` eine neue `oak:index` für die Indexeigenschaft hinzugefügt:
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
@@ -212,7 +213,7 @@ Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
 
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
-1. &#x200B;
+1. 
    - **Anzahl der Versionen, die von der neuesten Version beibehalten werden sollen**: Geben Sie die Anzahl der Versionen ein, die beibehalten und nicht gelöscht werden sollen. Wenn Sie beispielsweise „5“ eingeben, werden die letzten 5 Versionen beibehalten und die Versionen davor werden gelöscht, wenn andere Bereinigungsbedingungen erfüllt sind.
 - **Innerhalb der Zeitspanne erstellte Versionen beibehalten \(in Tagen\)**: Geben Sie das maximale Alter einer Version in Tagen ein. Die Versionen, die älter als die angegebene Anzahl von Tagen sind, werden bereinigt, wenn andere Bereinigungsbedingungen erfüllt sind. Wenn wir beispielsweise „100“ eingeben, werden alle Versionen, die vor 100 Tagen erstellt wurden, gelöscht, falls andere Bereinigungsbedingungen erfüllt sind.
 - **Path**: Wählen Sie den Pfad der Datei oder des Ordners aus, deren Dateien Sie bereinigen möchten.

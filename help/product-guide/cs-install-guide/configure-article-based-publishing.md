@@ -5,7 +5,8 @@ exl-id: d83fc1a9-0822-47f0-8099-22a74b9ced2a
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -18,10 +19,10 @@ AEM Guides bietet eine leistungsstarke Funktion zum Veröffentlichen auf Artikel
 
 Um eine AEM-Site zum Veröffentlichen der artikelbasierten Ausgabe zu erstellen, führen Sie die folgenden Schritte aus:
 
-1. Laden Sie das **XML Documentation-Komponenten-Inhaltspaket für den Cloud Service** von Ihrem [Adobe-Software-Verteilungsportal &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+1. Laden Sie **XML Documentation-Komponenten-Inhaltspaket für Cloud Service** von Ihrem [Adobe-Software-Verteilungsportal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) herunter.
 1. Öffnen Sie AEM Package Manager. Die Standard-URL für den Zugriff auf den Package Manager lautet: `https://<hostname>/crx/packmgr/index.jsp`
 1. Laden Sie das Inhaltspaket der XML Documentation-Komponenten für Cloud Service hoch und installieren Sie es dann.
-1. Laden Sie die `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` Datei vom [Adobe Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) herunter.
+1. Laden Sie die `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` Datei von Ihrem [Adobe Software Distribution-Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) herunter.
 1. Wählen Sie in der globalen Navigation **Sites** aus.
 1. Klicken Sie in der Sites **Benutzeroberfläche oben rechts auf** Schaltfläche „Erstellen“.
 1. Wählen Sie **Site aus Vorlage** aus der **Erstellen**.
@@ -33,7 +34,7 @@ Um eine AEM-Site zum Veröffentlichen der artikelbasierten Ausgabe zu erstellen,
 
    Wählen Sie **Knowledgebase-Vorlage für die artikelbasierte Veröffentlichung** aus, um die AEM-Site zu erstellen, und klicken **oben rechts** Weiter“.
 
-1. Geben Sie **Site-Titel** und den **Site-Namen** ein und klicken Sie **Erstellen** in der oberen rechten Ecke. Eine AEM-Site wird mithilfe der Tragopan-Site-Vorlage erstellt. \(Die Tragopan-Website ist eine Beispiel-AEM-Website der Wissensdatenbank mit Vorlagen für eine Kategorie, einen Abschnitt und Artikelseiten.\)
+1. Geben Sie **Site-Titel** und den **Site-Namen** ein und klicken Sie **Erstellen** in der oberen rechten Ecke. Eine AEM-Site wird mithilfe der Tragopan-Site-Vorlage erstellt. \(Die Tragopan-Website ist eine Beispiel-Wissensdatenbank der AEM-Website mit Vorlagen für eine Kategorie, einen Abschnitt und Artikelseiten.\)
 
    >[!NOTE]
    >
@@ -42,4 +43,4 @@ Um eine AEM-Site zum Veröffentlichen der artikelbasierten Ausgabe zu erstellen,
 
 Sie können die AEM-Site verwenden, um Ihren Artikel mithilfe der Ausgabevorgaben aus dem Web-Editor zu veröffentlichen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)

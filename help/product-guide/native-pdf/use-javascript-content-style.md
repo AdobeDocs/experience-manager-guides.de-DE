@@ -1,11 +1,12 @@
 ---
-title: Native PDF Publish-Funktion | Verwenden von JavaScript zum Arbeiten mit Inhalten oder Stilen
+title: Native PDF-Veröffentlichungsfunktion | Verwenden von JavaScript zum Arbeiten mit Inhalten oder Stilen
 description: Erfahren Sie, wie Sie Stylesheets erstellen, verwenden und Stile für Ihre Inhalte erstellen.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -14,12 +15,12 @@ ht-degree: 1%
 
 # Verwenden von JavaScript zum Arbeiten mit Inhalten oder Stilen
 
-Mit der nativen PDF-Veröffentlichungsfunktion können Sie JavaScript ausführen, um Ihre Inhalte oder Ihren Stil, die auf Inhalte angewendet werden, zu bearbeiten, bevor die endgültige PDF generiert wird. Mit dieser Funktion haben Sie die vollständige Kontrolle darüber, wie Ihre endgültige Ausgabe generiert wird. Sie können beispielsweise Informationen zu rechtlichen Hinweisen zur PDF-Ausgabe hinzufügen, die sich auf einer anderen PDF befindet. Mit JavaScript können Sie die Informationen zum rechtlichen Hinweis hinzufügen, sobald die PDF für den Basisinhalt erstellt wurde, jedoch bevor die endgültige PDF generiert wird.\
-Um die Ausführung von JavaScript zu unterstützen, bietet die native PDF-Publishing-Funktion die folgenden Rückruffunktionen:
+Mit der nativen PDF-Veröffentlichungsfunktion können Sie JavaScript ausführen, um Ihre Inhalte oder Ihren Stil, die auf Inhalte angewendet werden, zu bearbeiten, bevor die endgültige PDF generiert wird. Mit dieser Funktion haben Sie die vollständige Kontrolle darüber, wie Ihre endgültige Ausgabe generiert wird. Sie können beispielsweise Informationen zu rechtlichen Hinweisen zur PDF-Ausgabe hinzufügen, die sich in einer anderen PDF befindet. Mit JavaScript können Sie die Informationen zum rechtlichen Hinweis hinzufügen, sobald die PDF für den Basisinhalt erstellt wurde, jedoch bevor die endgültige PDF generiert wird.\
+Um die Ausführung von JavaScript zu unterstützen, bietet die native PDF-Veröffentlichungsfunktion die folgenden Rückruffunktionen:
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`: Diese Rückruffunktion wird ausgeführt, bevor das Inhaltsverzeichnis generiert wird.
-* `window.pdfLayout.onBeforePagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis generiert wurde, jedoch bevor Seitenumbrüche auf der PDF hinzugefügt werden.
-* `window.pdfLayout.onAfterPagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis und die Seitenumbrüche auf der PDF hinzugefügt wurden.
+* `window.pdfLayout.onBeforePagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis generiert wurde, jedoch bevor in der PDF Seitenumbrüche hinzugefügt werden.
+* `window.pdfLayout.onAfterPagination(callback)`: Diese Rückruffunktion wird ausgeführt, nachdem das Inhaltsverzeichnis und die Seitenumbrüche in der PDF hinzugefügt wurden.
 
 >[!NOTE]
 >
@@ -65,7 +66,7 @@ window.addEventListener('DOMContentLoaded', function () {
 >
 >Die `window.addEventListener('DOMContentLoaded', function ()` muss aufgerufen werden, bevor die Callback-Funktionen verwendet werden.
 
-Als Nächstes muss dieses Script aus einer Vorlagendatei aufgerufen werden, die zur Erzeugung der PDF-Ausgabe verwendet wird. In unserem Beispiel fügen wir es der Inhaltsverzeichnisvorlage hinzu. Stellen Sie sicher, dass das `<script>`-Tag innerhalb eines vordefinierten `<div>`-Tags im `<body>`-Tag hinzugefügt wird. Wenn Sie es im `<head>`-Tag oder außerhalb des `<body>`-Tags hinzufügen, wird das Skript nicht ausgeführt.
+Als Nächstes muss dieses Skript aus einer Vorlagendatei aufgerufen werden, die zum Generieren der PDF-Ausgabe verwendet wird. In unserem Beispiel fügen wir es der Inhaltsverzeichnisvorlage hinzu. Stellen Sie sicher, dass das `<script>`-Tag innerhalb eines vordefinierten `<div>`-Tags im `<body>`-Tag hinzugefügt wird. Wenn Sie es im `<head>`-Tag oder außerhalb des `<body>`-Tags hinzufügen, wird das Skript nicht ausgeführt.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 

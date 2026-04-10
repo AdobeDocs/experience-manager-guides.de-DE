@@ -5,7 +5,8 @@ exl-id: a5742082-cc0b-49d9-9921-d0da1b272ea5
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '1762'
 ht-degree: 2%
@@ -20,7 +21,7 @@ Weitere Informationen zu Workflows in AEM finden Sie unter:
 
 - [Verwalten von Workflow-Instanzen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=de)
 
-- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=de).
+- Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
 
 Die Abschnitte in diesem Abschnitt erläutern verschiedene Anpassungen, die Sie in den in AEM Guides bereitgestellten Standard-Workflows vornehmen können.

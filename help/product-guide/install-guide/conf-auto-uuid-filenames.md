@@ -5,7 +5,8 @@ exl-id: 2a599228-6d46-494f-a57a-96c3f30e073a
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -37,4 +38,4 @@ Führen Sie die folgenden Schritte aus, um den UUID-basierten Dateinamen automat
 >
 > Standardmäßig ist diese Option deaktiviert. Wenn diese Option aktiviert ist, wird den Autoren beim Erstellen eines neuen Themas oder einer Zuordnungsdatei die Option zum Angeben des Dateinamens nicht angezeigt. Über die Assets-Benutzeroberfläche und den Web-Editor kann eine neue Themen- oder Zuordnungsdatei erstellt werden.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Dateinamen konfigurieren](conf-file-names.md)
+**Übergeordnetes Thema:**[ Dateinamen konfigurieren](conf-file-names.md)

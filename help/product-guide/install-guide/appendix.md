@@ -5,7 +5,8 @@ exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 0%
@@ -18,11 +19,11 @@ ht-degree: 0%
 
 InDesign bietet Autorinnen und Autoren umfangreiche Funktionen zum Erstellen ansprechender und komplexer Dokumente. Dies bedeutet häufig, dass die verschiedenen Teile eines Dokuments visuell auf der Seite platziert werden, jedoch ohne dass versucht wird, einen Fluss zwischen diesen Textrahmen bereitzustellen. Wenn die &quot;*-Reihenfolge* der Textrahmen nicht definiert ist, enthält die IDML-Datei Storys, die möglicherweise keiner sinnvollen Reihenfolge folgen. Das Endergebnis ist ein oder mehrere DITA-Themen mit Absätzen, Tabellen und Grafiken in zufälliger Reihenfolge.
 
-Es ist zwar möglich, den DITA-Inhalt in einem DITA-Editor in einer sinnvollen Reihenfolge zu bearbeiten, aber es ist viel einfacher, die InDesign-Datei zu reparieren, bevor die IDML-Datei erstellt wird. Dies kann ohne Änderung des Erscheinungsbildes des Quelldokuments erfolgen. Dies hat auch den Vorteil, dass das Quelldokument durch eine ordnungsgemäße Definition der Lesereihenfolge zugänglich wird.
+Es ist zwar möglich, den DITA-Inhalt in einem DITA-Editor in einer sinnvollen Reihenfolge zu bearbeiten, es ist jedoch viel einfacher, die InDesign-Datei zu reparieren, bevor die IDML-Datei erstellt wird. Dies kann ohne Änderung des Erscheinungsbildes des Quelldokuments erfolgen. Dies hat auch den Vorteil, dass das Quelldokument durch eine ordnungsgemäße Definition der Lesereihenfolge zugänglich wird.
 
 ***Threading von Textrahmen***
 
-InDesign verwendet den Begriff *&#39;Threading&#39;* für den Prozess der Verknüpfung von einem Frame zu einem anderen. Weitere Informationen zum Einfädeln von Textrahmen finden Sie unter *[Einfädeln von Text](https://helpx.adobe.com/in/indesign/using/threading-text.html)* in der Dokumentation zum InDesign.
+InDesign verwendet den Begriff *&#39;Threading&#39;* für den Prozess der Verknüpfung von einem Frame zu einem anderen. Weitere Informationen zum Einfädeln von Textrahmen finden Sie unter *[Einfädeln von Text](https://helpx.adobe.com/in/indesign/using/threading-text.html)* in der InDesign-Dokumentation.
 
 ***Überlappende Frames***
 
@@ -30,7 +31,7 @@ Einige InDesign-Dokumente verwenden aus Layout-Gründen überlappende Rahmen ohn
 
 ***InDesign-Storys***
 
-Jeder Thread-Inhaltsfluss in einem InDesign-Dokument wird als „Story *bezeichnet*. Um die bestmöglichen Ergebnisse zu erzielen, wird empfohlen, die Anzahl der Stories begrenzt zu halten. Es gibt jedoch einige Teile Ihres Dokuments, die in der DITA-Ausgabe möglicherweise nicht benötigt werden. Beispielsweise werden Seitenfußzeilen selten benötigt, können jedoch in der Mitte eines Themas angezeigt werden, wenn sie nicht sorgfältig gehandhabt werden.
+Jeder Inhaltsfluss in einem InDesign-Dokument wird als „Story *bezeichnet*. Um die bestmöglichen Ergebnisse zu erzielen, wird empfohlen, die Anzahl der Stories begrenzt zu halten. Es gibt jedoch einige Teile Ihres Dokuments, die in der DITA-Ausgabe möglicherweise nicht benötigt werden. Beispielsweise werden Seitenfußzeilen selten benötigt, können jedoch in der Mitte eines Themas angezeigt werden, wenn sie nicht sorgfältig gehandhabt werden.
 
 Die einfachste Möglichkeit, Text auszuschließen, der im Dokument nicht erforderlich ist, besteht darin, ihm ein spezielles *Absatz-Tag* zu geben, das nur für den unerwünschten Inhalt verwendet wird. Anstatt beispielsweise einen *\[einfachen Absatz\]* für die Fußzeile wiederzuverwenden, erstellen Sie ein dediziertes *Fußzeilen*-Tag. Legen Sie dann in der MapStyle-Datei einfach die *Footer*-Absätze fest, die wie folgt eingefügt werden sollen:
 
@@ -46,7 +47,7 @@ Es ist wichtig, dass Ihr Quelldokument mindestens einen Absatzstil oder ein Elem
 
 ***Mehrere DITA-Doctypes***
 
-Wenn einige der *Überschrift1*-Absätze in verschiedene DITA-Doctypes konvertiert werden müssen, duplizieren Sie den Absatzstil im InDesign. Weisen Sie diesen Stilen einen leicht zu erkennenden Namen wie *Überschrift1\_genTask* oder *Überschrift1\_*) zu. Richten Sie dann die Datei „mapStyle“ wie unten gezeigt ein:
+Wenn einige der *Überschrift1*-Absätze in verschiedene DITA-Doctypes konvertiert werden müssen, duplizieren Sie den Absatzstil in InDesign. Weisen Sie diesen Stilen einen leicht zu erkennenden Namen wie *Überschrift1\_genTask* oder *Überschrift1\_*) zu. Richten Sie dann die Datei „mapStyle“ wie unten gezeigt ein:
 
 ```XML
 <doctypes>
@@ -64,21 +65,21 @@ Wenn einige der *Überschrift1*-Absätze in verschiedene DITA-Doctypes konvertie
 
 ***Strukturierte InDesign-Dokumente***
 
-InDesign hat eine lose Beziehung zu XML. Während ein Dokument eine XML-DTD enthalten kann und die Hauptgeschichte für diese DTD gültig sein kann, ist es auch möglich, hybride Dokumente zu erstellen, bei denen ein Teil des Inhalts XML ist, aber keine DTD enthalten ist. Dies sind die unerwünschten Fälle für eine erfolgreiche Konvertierung in DITA. Wenn ein Dokument XML-Teile enthält, versuchen Sie, die Ausgabe in XML zu speichern und sehen Sie, ob die Ergebnisse akzeptabel sind. Ist dies nicht der Fall, enthält der DITA-Inhalt auch ungültige Inhalte oder kann vollständig fehlschlagen.
+InDesign hat eine lockere Beziehung zu XML. Während ein Dokument eine XML-DTD enthalten kann und die Hauptgeschichte für diese DTD gültig sein kann, ist es auch möglich, hybride Dokumente zu erstellen, bei denen ein Teil des Inhalts XML ist, aber keine DTD enthalten ist. Dies sind die unerwünschten Fälle für eine erfolgreiche Konvertierung in DITA. Wenn ein Dokument XML-Teile enthält, versuchen Sie, die Ausgabe in XML zu speichern und sehen Sie, ob die Ergebnisse akzeptabel sind. Ist dies nicht der Fall, enthält der DITA-Inhalt auch ungültige Inhalte oder kann vollständig fehlschlagen.
 
 ***Tabellenformatierung***
 
-Die Konvertierung von InDesign-Tabellenformatierungsregeln in die entsprechende Tabellenformatierung in DITA ist ein komplexer Prozess. Dies liegt an den umfangreichen Formatierungsfunktionen, die in den Quelldateien im Vergleich zu den grundlegenden Optionen verfügbar sind, die vom Oasis \(CALS\)-Tabellenmodell bereitgestellt werden, das in DITA verwendet wird. Die vertikale und horizontale Ausrichtung des Textes wird bereitgestellt und liefert ähnliche Ergebnisse, obwohl Blocktext immer entsprechend der Textrichtung ausgerichtet ist, während das InDesign-Verfahren „Linksbündig“ und „Rechtsbündig“ erlaubt.
+Die Konvertierung von InDesign-Tabellenformatierungsregeln in die entsprechende Tabellenformatierung in DITA ist ein komplexer Prozess. Dies liegt an den umfangreichen Formatierungsfunktionen, die in den Quelldateien im Vergleich zu den grundlegenden Optionen verfügbar sind, die vom Oasis \(CALS\)-Tabellenmodell bereitgestellt werden, das in DITA verwendet wird. Die vertikale und horizontale Textausrichtung wird bereitgestellt und liefert ähnliche Ergebnisse, obwohl Blocktext immer entsprechend der Textrichtung ausgerichtet ist, während InDesign „Linksbündig“ und „Rechtsbündig“ zulässt.
 
-Die Handhabung von Spalten- und Zeilentrennzeichen durch die InDesign ist wiederum weitaus leistungsfähiger als die grundlegenden Optionen des Oasis-Tabellenmodells. InDesign bietet vier Zellenrahmen: Rahmentyp \(einfarbig oder musterförmig\), Rahmenstärke, Rahmenfarbe, Rahmenfarbe, Rahmenspaltfarbe, Rahmenspaltfarbe und Rahmenspaltfarbe. All diese Elemente müssen nach unten auf Rahmen rechts und unten jeder Zelle \(Einstiegselement\) abgebildet werden, wobei die einzigen Optionen 0 oder 1 sind - Rahmen ausblenden oder anzeigen.
+Die Handhabung von Spalten- und Zeilentrennzeichen durch InDesign ist wiederum weitaus leistungsfähiger als die grundlegenden Optionen des Oasis-Tabellenmodells. InDesign bietet vier Zellenrahmen: Rahmentyp \(einfarbig oder musterförmig\), Rahmenstärke, Rahmenfarbe, Rahmenfarbe, Rahmenabstandsfarbe, Rahmenabstandsfarbe und Rahmenabstandsfarbe. All diese Elemente müssen nach unten auf Rahmen rechts und unten jeder Zelle \(Einstiegselement\) abgebildet werden, wobei die einzigen Optionen 0 oder 1 sind - Rahmen ausblenden oder anzeigen.
 
-Die Rahmenregelung in InDesign kann auf den folgenden Ebenen angewendet werden:
+Der Grenzvorbescheid in InDesign kann auf folgenden Ebenen angewendet werden:
 
 - Tabellenstile
 - Zellenstile
 - Lokale Überschreibungen in jeder Zelle
 
-Beim Konvertierungsprozess von InDesign nach DITA wird die Grenzregel wie folgt angewendet:
+Der Konvertierungsprozess von InDesign nach DITA wendet den Grenzvorbescheid wie folgt an:
 
 - Tabellenstile werden dem `colspec/@colsep` für vertikale Regeln zugeordnet. Horizontale Regeln werden dem Attribut `row/@rowsep` zugeordnet. In beiden Fällen wird das Attribut nicht erstellt, wenn der Rahmen nicht definiert ist.
 - Zellenstile werden den `entry/@colsep`- und `entry/@rowsep` zugeordnet. Diese Werte überschreiben alle von Tabellenstilen abgeleiteten Rahmenregeln.
@@ -195,7 +196,7 @@ Im obigen Beispiel gibt es zwei `paraRule` für `@style` = „Überschrift1“. 
 
 Im Folgenden werden die in der `doctypeParaRule` verwendeten Attribute erläutert:
 
-- `@style`: Der Name eines Stils im Quell-InDesign-Dokument.
+- `@style`: Der Name eines Stils im InDesign-Quelldokument.
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapToDoctype`: Der Name eines DITA-Thementyps aus einer Aufzählungsliste aller gültigen `doctypes`.
 
@@ -297,15 +298,15 @@ Die `<paragraphStyleRule>` Elemente werden nachfolgend beschrieben:
 
 ***`paraRule`Element***
 
-Das `paraRule` ist obligatorisch. Dies legt die Zuordnungsregeln für alle Absatzformate fest. In einem InDesign-Dokument ist der gesamte Text in der Unterstruktur von Absatzformaten enthalten, auch Absätze ohne Stil werden `[No paragraph style]` genannt. Die eckigen Klammern, diese zeigen einen integrierten InDesign-Stilnamen an.
+Das `paraRule` ist obligatorisch. Dies legt die Zuordnungsregeln für alle Absatzformate fest. In einem InDesign-Dokument ist der gesamte Text in der Unterstruktur von Absatzformaten enthalten, auch Absätze ohne Stil werden `[No paragraph style]` genannt. Die eckigen Klammern, diese zeigen einen eingebauten Namen im InDesign-Stil an.
 
 >[!NOTE]
 >
-> Die eckigen Klammern zeigen einen integrierten InDesign-Stilnamen an.
+> Die eckigen Klammern zeigen einen integrierten Namen im InDesign-Stil an.
 
 Im Folgenden werden die in der `paraRule` verwendeten Attribute erläutert:
 
-- `@style`: Der Name eines Stils im Quell-InDesign-Dokument.
+- `@style`: Der Name eines Stils im InDesign-Quelldokument.
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: Der Name eines DITA-Zielelements.
 
@@ -338,7 +339,7 @@ Dies sind die Zuordnungsregeln für alle Zeichenstile. In einem InDesign-Dokumen
 
 Im Folgenden werden die in der `charRule` verwendeten Attribute erläutert:
 
-- `@style`: Der Name eines Stils im Quell-InDesign-Dokument.
+- `@style`: Der Name eines Stils im InDesign-Quelldokument.
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: Der Name eines DITA-Zielelements.
 - `@refactor`: Für dieses optionale Attribut stehen zwei Werte zur Auswahl:
@@ -382,7 +383,7 @@ Im Folgenden werden die in der `attributeRules` verwendeten Attribute erläutert
 
 **Lokale Formatierungscodes**
 
-In jedem InDesign-Dokument ist es möglich, dass Absatzformate und Zeichenformate mehrere Hundert verschiedene Formatierungsüberschreibungen enthalten. Die meisten dieser Eigenschaften spielen keine nützliche Rolle im Konvertierungsprozess. Wir haben jedoch eine Reihe von Formatierungsfunktionen identifiziert, die sich auf die Semantik des Dokuments auswirken und den Konvertierungsprozess beeinflussen müssen.
+In jedem InDesign-Dokument können Absatzformate und Zeichenstile mehrere Hundert verschiedene Formatierungsüberschreibungen enthalten. Die meisten dieser Eigenschaften spielen keine nützliche Rolle im Konvertierungsprozess. Wir haben jedoch eine Reihe von Formatierungsfunktionen identifiziert, die sich auf die Semantik des Dokuments auswirken und den Konvertierungsprozess beeinflussen müssen.
 
 Die `@local` Attribute werden als spezielles, durch Trennzeichen getrenntes Format angezeigt, bei dem acht Felder zusammen mit einem Präfix bereitgestellt werden, um den Typ der Formatierungsüberschreibungen anzuzeigen. Die Felder Formatierungscodes sind unten aufgeführt:
 
@@ -392,7 +393,7 @@ Die `@local` Attribute werden als spezielles, durch Trennzeichen getrenntes Form
 - **Zeichenposition** für hochgestellte oder tiefgestellte Zeichen.
 - **Unter** für Unterstrich.
 - **Strike** für Durchstreichen.
-- **Listencode** zur Identifizierung des Listentyps als Aufzählungszeichen oder Nummerierung - nicht immer vom InDesign verwendet.
+- **Listencode** zur Identifizierung des Listentyps als Aufzählungszeichen oder nummeriert - wird nicht immer von InDesign verwendet.
 - **Aufzählungscode** listet alle definierten Aufzählungstypen im Dokument auf.
 - **Zahlencode** listet alle definierten Nummerierungsstile im Dokument auf.
 
@@ -418,7 +419,7 @@ Das `mapDoctypeElemRule` ist obligatorisch. Die Attribute dieses Elements dürfe
 
 Im Folgenden werden die in der `elementRule` verwendeten Attribute erläutert:
 
-- `@elementName`: Der Name eines Elements im Quell-InDesign-Dokument.
+- `@elementName`: Der Name eines Elements im InDesign-Quelldokument.
 
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z). \(Nur für hybride Dokumente nützlich\).
 
@@ -453,7 +454,7 @@ Führen Sie die folgenden Schritte aus, um die Verweise mithilfe des im Produktp
 1. Führen Sie das validate-Skript \[`/bin/fmdita/validatebtree?operation=validate`\] aus, um zu überprüfen, ob neue fehlerhafte Verweise vorhanden sind.
 1. Falls das Skript „validate“ Fehler meldet, können Sie es mit dem Patch-Skript patchen.
 1. Notieren Sie sich die unten angegebenen Details und teilen Sie sie bei Bedarf mit Ihrem Customer Success-Team:
-1. &#x200B;
+1. 
    - Durch Validierungsskript ausgedruckte Protokolle
 - Paket von &quot;`/content/fmdita/references`&quot;
 - Alle anderen erforderlichen Details, abhängig vom gemeldeten Szenario
@@ -467,7 +468,7 @@ Führen Sie die folgenden Schritte aus, um fehlerhafte Verweise mithilfe des im 
    **Hinweis:* Es wird empfohlen, die Protokolle zu Referenzzwecken zu kopieren und zu speichern.
 
 1. Nachdem das Patch-Skript erfolgreich ausgeführt wurde, können Sie die folgenden Prüfungen durchführen:
-1. &#x200B;
+1. 
    - Überprüfen Sie, ob der neue Knoten &quot;`references_backup_<timestamp>"`&quot; unter `/content/fmdita` erstellt wurde.
 - Überprüfen, ob die Verweise korrigiert wurden
 

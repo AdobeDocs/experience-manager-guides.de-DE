@@ -5,7 +5,8 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '2392'
 ht-degree: 0%
@@ -397,4 +398,4 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen strukturierten Dokum
 
 Mit dem `<config> </config>` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Migrieren vorhandener Inhalte](migrate-content.md)
+**Übergeordnetes Thema:**[ Migrieren vorhandener Inhalte](migrate-content.md)

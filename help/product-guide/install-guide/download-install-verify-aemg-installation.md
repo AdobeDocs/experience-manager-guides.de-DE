@@ -5,7 +5,8 @@ exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -33,6 +34,6 @@ Nachdem Sie AEM Guides installiert haben, müssen Sie überprüfen, ob die Insta
 
 >[!IMPORTANT]
 >
-> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden Sie unter [Recommendations &#x200B;](download-install-recommend-perf-optimiz.md#) Leistungsoptimierung.
+> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden [ unter „Empfehlungen ](download-install-recommend-perf-optimiz.md#) Leistungsoptimierung“.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

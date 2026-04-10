@@ -1,7 +1,9 @@
 ---
 title: Zusätzliche Konfiguration für das Upgrade von Cloud Service
 description: Erfahren Sie mehr über die zusätzliche Konfiguration zum Aktualisieren von Cloud Service
-source-git-commit: 1ded80114aa25761fcca3f540d8b14ad7f5c4a31
+exl-id: 3d60d06b-ce50-4948-b50d-bd373051d055
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -81,7 +83,7 @@ Die folgenden Konfigurationen sind nur erforderlich, wenn Sie eine Version von E
 +++Schritte zum Indizieren des vorhandenen Inhalts, um die neue Themenliste „Suchen und Ersetzen“ auf der Registerkarte „Berichte“ zu verwenden
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene und in der Themenliste auf der Registerkarte „Berichte“ zu verwenden:
 
-1. Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert.|| Beispiel : `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig sind alle Zuordnungen indiziert.|| Beispiel: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Zuordnungen eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
@@ -148,15 +150,3 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 ```
 
 +++
-
-
-
-
-
-
-
-
-
-
-
-

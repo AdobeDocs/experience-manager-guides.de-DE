@@ -1,22 +1,22 @@
 ---
-title: Native PDF | Konfigurieren von JVM-Flags für die native PDF-Veröffentlichung
-description: Konfigurieren von JVM-Flags für die native PDF-Veröffentlichung
-exl-id: d5432913-4b5a-48e7-9467-7f6c6e0adbe4
+title: Native PDF | JVM-Flags für native PDF-Veröffentlichung konfigurieren
+description: Konfigurieren von JVM-Flags für native PDF-Veröffentlichung
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
 
-# Konfigurieren von JVM-Flags für die native PDF-Veröffentlichung
+# Konfigurieren von JVM-Flags für native PDF-Veröffentlichung für On-Premise
 
 Die native PDF-Veröffentlichung startet einen separaten JVM-Prozess zum Generieren einer PDF. Möglicherweise müssen Sie die Konfigurationen dieser JVM anpassen, um verschiedene Szenarien zu unterstützen. Um beispielsweise größere Arbeitslasten auszuführen, sollten Sie die maximale Heap-Größe erhöhen, die für den erstellten JVM-Prozess verfügbar ist.
 
-Führen Sie die folgenden Schritte aus, um JVM-Flags für das native PDF-Publishing in AEM Guides zu konfigurieren:
+Führen Sie die folgenden Schritte aus, um JVM-Flags für die native Veröffentlichung von AEM Guides in PDF zu konfigurieren:
 
 1. Öffnen Sie die Seite Konfiguration der Adobe Experience Manager-Web-Konsole .
 

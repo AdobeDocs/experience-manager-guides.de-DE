@@ -5,7 +5,8 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -46,8 +47,8 @@ Adobe Experience Manager Guides bietet die Funktion zum Erstellen einer JSON-bas
 
 1. Speichern Sie die Datei und laden Sie sie hoch.
 
-Experience Manager Guides konvertiert das gesamte Thema in HTML. Dieses kann dann den im Experience Fragment verwendeten Kernkomponenten zugeordnet werden. Beispielsweise kann der Inhalt in einem `<p>`-Tag zugeordnet werden, um eine Textkomponente im Experience Fragment zu erstellen.
-* `name`: Angabe des HTML-Elements. Zum Beispiel `<div>`, `<img>`
+Experience Manager Guides konvertiert das gesamte Thema in HTML, das dann den im Experience Fragment verwendeten Kernkomponenten zugeordnet werden kann. Beispielsweise kann der Inhalt in einem `<p>`-Tag zugeordnet werden, um eine Textkomponente im Experience Fragment zu erstellen.
+* `name`: Geben Sie das HTML-Element an. Zum Beispiel `<div>`, `<img>`
 * `class`: Geben Sie das DITA-Element-Tag an, das dem HTML-Element entspricht. Beispiel: `<p>` `<image>`
 * `resourceType`: Geben Sie den Ressourcentyp an, der für die in Experience Fragment verwendete Komponente gilt. Beispielsweise ist `wcm/foundation/components/text` der resourceType für die wcm-`text`.
 * `attributeMap`: Geben Sie zusätzliche Informationen für die Komponente an, z. B. ob eine Textkomponente als `RichText` gerendert werden soll oder die `fileReference` einer Bildkomponente enthält.
@@ -159,4 +160,4 @@ Beispieldatei:
 
 Wählen Sie beim Veröffentlichen der Experience Fragments über den Web-Editor die `Template` aus der Dropdown-Liste im Dialogfeld **Experience Fragment generieren** aus, um die für die Vorlage verfügbare Zuordnung im Feld **Zuordnung** anzuzeigen. Wenn für eine Vorlage keine benutzerdefinierte Zuordnung vorhanden ist, wird die Standardzuordnung aufgelistet. Sie können die Standardzuordnung verwenden, um das gesamte Thema als Experience Fragment zu veröffentlichen.
 
-Weitere Informationen finden Sie unter [Publish Experience Fragments](../user-guide/publish-experience-fragment.md).
+Weitere Informationen finden Sie unter [Veröffentlichen von Experience Fragments](../user-guide/publish-experience-fragment.md).

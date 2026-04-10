@@ -2,7 +2,8 @@
 title: Konfigurieren der Smart-Hilfe für die Inhaltssuche
 description: Erfahren Sie, wie Sie die Smart-Hilfe für die Inhaltssuche konfigurieren
 exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
-source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
 
 1. [Adobe Developer Console starten](https://developer.adobe.com/console).
 1. Nach erfolgreicher Anmeldung bei Developer Console wird der Bildschirm &quot;**&quot;**. Auf dem **Startseite**-Bildschirm finden Sie mühelos Informationen und Schnelllinks, einschließlich der oberen Navigationslinks zu Projekten und Downloads.
-1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**&#x200B;Links aus.
+1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**Links aus.
    ![Schnellstart-Links](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *Neues Projekt erstellen.*
 
@@ -63,7 +64,7 @@ Sie haben die OAuth-Authentifizierungsdetails konfiguriert und die JSON-Service-
 
 Führen Sie die folgenden Schritte aus, um die IMS-Konfiguration zur Umgebung hinzuzufügen:
 
-1. Öffnen Sie den Experience Manager und wählen Sie Ihr Programm aus, das die zu konfigurierende Umgebung enthält.
+1. Öffnen Sie Experience Manager und wählen Sie dann Ihr Programm aus, das die zu konfigurierende Umgebung enthält.
 1. Wechseln Sie zur Registerkarte **Umgebungen**.
 1. Wählen Sie den Umgebungsnamen aus, den Sie konfigurieren möchten. Dadurch sollten Sie zur Seite **Umgebungsinformationen** gelangen.
 1. Wechseln Sie zur Registerkarte **Konfiguration** .
@@ -106,4 +107,4 @@ Sobald dies geschehen ist, sollten Sie in der Lage sein, die Funktion **Intellig
 
 
 Nach der Konfiguration wird das Symbol **Smart** Hilfe![Smart](assets/smart-help-icon.svg) im rechten Bereich des Web-Editors angezeigt. Wählen Sie das Symbol aus, um das Bedienfeld **Smart-Hilfe** anzuzeigen.
-Weitere Informationen finden Sie im Abschnitt [KI-gestützte Smart-Hilfe für die Suche &#x200B;](../user-guide/ai-based-smart-help.md) Inhalten“ im Experience Manager-Benutzerhandbuch.
+Weitere Informationen finden Sie im Abschnitt [KI-gestützte Smart-Hilfe für die Inhaltssuche](../user-guide/ai-based-smart-help.md) im Experience Manager-Benutzerhandbuch.
