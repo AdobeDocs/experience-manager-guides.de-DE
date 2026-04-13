@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie die automatische Speicherung von Dateien im W
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
+source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ Eine der häufigsten Funktionen im Browser-basierten Editor ist die Möglichkeit
 
 Die Funktion zum automatischen Speichern ist nicht standardmäßig aktiviert. Sie müssen diese Funktion mithilfe der Konfigurationsdatei für Cloud Service und über die `configMgr` für On-Premise aktivieren.
 
-Die folgenden Registerkarten enthalten Anweisungen zum Aktivieren der Funktion für das automatische Speichern im Web-Editor je nach Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
+Die folgenden Registerkarten enthalten Anweisungen zum Aktivieren der Funktion für das automatische Speichern im Web-Editor basierend auf Ihrer Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
 
 >[!BEGINTABS]
 
