@@ -5,7 +5,7 @@ exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 feature: AEM Guides FrameMaker Publishing Server
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -19,9 +19,9 @@ Dieser Artikel hilft Ihnen beim Einrichten und Ausführen von FMPS mit AEM Guide
 
 ## Kompatibilität von FMPS mit AEM Guides
 
-- Kompatibilität mit AEM Guides 4.1: [4.1-Kompatibilitätsmatrix](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=de/#compatibility-matrix)
+- Kompatibilität mit AEM Guides 4.1: [4.1-Kompatibilitätsmatrix](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - Kompatibilität mit AEM Guides 4.0: [4.0-Kompatibilitätsmatrix](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Neueste Version: [Aktuelle Versionsinformationen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=de)
+- Neueste Version: [Aktuelle Versionsinformationen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installation
 
@@ -66,37 +66,37 @@ Sie können Ihre bereits erstellten Baselines mit FMPS2020.0.2 oder einer höher
 
 ## Häufig gestellte Fragen und Fehlerbehebung:
 
-- ### Die FMPS-Veröffentlichung schlägt mit „Timeout-Ausnahme“ fehl
+### Die FMPS-Veröffentlichung schlägt mit „Timeout-Ausnahme“ fehl
 
 >Überprüfen und erhöhen Sie den Wert von „FMPS-Zeitüberschreitung“ (Sekunden) in /system/console/configMgr/com.adobe.fmdita.config.ConfigManager“
 
-- ### FMPS-Vorgabe kann nicht im Dropdown-Menü abgerufen werden
+### FMPS-Vorgabe kann nicht im Dropdown-Menü abgerufen werden
 
 >Stellen Sie sicher, dass eine vordefinierte FMPS-Voreinstellung auf dem Server erstellt wurde und dass Ihre Verbindungseinstellungen korrekt sind.
 
-- ### Beim Veröffentlichen erhalte ich leere PDFs
+### Beim Veröffentlichen erhalte ich leere PDFs
 
 >Wenn Sie UUID verwenden, stellen Sie sicher, dass Sie „UUID-basierten Verweis verwenden“ in den FrameMaker-Bearbeitungsvoreinstellungen und umgekehrt für AEM-Handbücher ohne UUID aktiviert haben.
 
-- ### Meine Einstellungen/Werte werden in der endgültigen veröffentlichten Ausgabe nicht angewendet
+### Meine Einstellungen/Werte werden in der endgültigen veröffentlichten Ausgabe nicht angewendet
 
 >Stellen Sie sicher, dass Sie nicht gleichzeitig die FMPS-Voreinstellung und die Einstell-/Wähldatei wählen. Verwenden Sie FrameMaker, um die Ausgabe manuell zu überprüfen.
 
-- ### Die Baseline wird nicht aus FMPS veröffentlicht
+### Die Baseline wird nicht aus FMPS veröffentlicht
 
 >FMPS2020.0.2 oder neuere Versionen sind mit der grundlegenden Veröffentlichung kompatibel.
 >Vergewissern Sie sich, dass Ihre Baseline ordnungsgemäß erstellt wurde. Um dies zu überprüfen, gehen Sie zum Karten-Dashboard > Themen > Herunterladen  Ordnen Sie Baseline zu und wählen Sie sie aus.
 
-- ### Veröffentlichungsaufgaben aus FMPS dauern länger als andere Engines
+### Veröffentlichungsaufgaben aus FMPS dauern länger als andere Engines
 
 >Bei der Veröffentlichung aus FMPS beträgt die ideale feste Header-Zeit etwa 3-4 Minuten. Wenn Sie glauben, dass dies länger ist, wenden Sie sich an Ihren FMPS-Administrator oder den Adobe-Support.
 
 ## Weitere Ressourcen:
 
-[FMPS: Lernen und Support](https://helpx.adobe.com/de/support/framemaker-publishing-server.html)
+[FMPS: Lernen und Support](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
 [AEM Guides: Lernen und Support](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMaker- und FMPS-Community](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[AEM Guides-Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=de)
+[AEM Guides-Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

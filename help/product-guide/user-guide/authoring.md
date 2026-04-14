@@ -4,7 +4,7 @@ description: Verwalten von Inhalten und Identifizieren Ihrer Rollen und Berechti
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 13%
@@ -62,27 +62,27 @@ In der folgenden Tabelle sind verschiedene Aufgaben sowie die Gruppen aufgeführ
 | Kopieren | Ja |   | Ja |
 | Löschen | Ja |   | Ja |
 | Link freigeben | Ja |   | Ja |
-| **Dokumentstatus** |
+| **Dokumentstatus** |  |  |  |
 | Dokumentenstatusprofil erstellen/bearbeiten |   |   | Ja |
 | Dokumentstatus ändern[2](#fntarg_2) | Ja | Ja | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgabevorgaben“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgabevorgaben“\)** |  |  |  |
 | Generieren |   |   | Ja |
 | Bearbeiten |   |   | Ja |
 | Duplizieren |   |   | Ja |
 | Erstellen |   |   | Ja |
 | Vorgabe löschen |   |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgaben“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Ausgaben“\)** |  |  |  |
 | Erzeugte Ausgabe anzeigen | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte Themen\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte Themen\)** |  |  |  |
 | Bewertungsaufgabe erstellen | Ja |   | Ja |
 | Bearbeiten | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Baselines“\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Registerkarte „Baselines“\)** |  |  |  |
 | Erstellen |   |   | Ja |
 | Bearbeiten |   |   | Ja |
 | Duplizieren |   |   | Ja |
 | Remove |   |   | Ja |
 | DITA Map Console \(Registerkarte „Berichte“\) | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Bedingungsvorgaben\)** |
+| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Bedingungsvorgaben\)** |  |  |  |
 | Erstellen/Bearbeiten einer Bedingungsvorgabe |   |   | Ja |
 
 [1](#fnsrc_1) Wenn *Autoren* und *Herausgeber* zu einer Überprüfung eingeladen werden.

@@ -4,7 +4,7 @@ description: Version Januar von  [!DNL Adobe Experience Manager Guides] as a Clo
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 0%
@@ -37,8 +37,6 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 | [!DNL AEM Guides] Cloud-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
-|  |  |  |  |  |  |
-
 
 ## Neue Funktionen und Verbesserungen
 
@@ -197,7 +195,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 ### Zuordnungs-Dashboard
 
 * Konkreter Inhalt im Titel eines Themas wird auf der Registerkarte „Themen“ oder „Berichte“ des Zuordnungs-Dashboards nicht angezeigt. (8 263)
-* AEM Sites-Ausgabe | jcr:title der generierten Site-Seite wird nicht aktualisiert, wenn der DITA-Thementitel aktualisiert wird. (8 131)
+* AEM Sites-Ausgabe | jcr:title der generierten Siteseite wird nicht aktualisiert, wenn der DITA-Thementitel aktualisiert wird. (8 131)
 * Download MAP lädt die in den Themen verwendeten Videodateien nicht herunter. (8070)
 * Mediendateien werden nicht heruntergeladen, wenn das Objekt-Tag über die Download-Bookmap-API verwendet wird. (8057)
 * Falscher Bericht wird auf der Registerkarte „Berichte“ angezeigt, wenn ein Thema auf eine Datei verweist, deren Titel mit „conref“ beginnt. (4698)
@@ -236,9 +234,9 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Content-Import
 
-* Konvertierung von HTML nach DITA | Tabelle mit &#39;tr&#39; mit leeren &#39;td&#39;-Einträgen verursacht zusätzliche Zeilen in der Ausgabe. (8 132)
-* Konvertierung von HTML nach DITA | HTML schlägt mit Ausnahme fehl, wenn eine Tabelle mit mehreren TBODYs vorhanden ist. (7940)
-* Konvertierung von HTML nach DITA | Fehler bei Quell-HTML mit Kommentaren. (7 937)
+* Konvertierung von HTML in DITA | Tabelle mit &#39;tr&#39; mit leeren &#39;td&#39;-Einträgen führt zu zusätzlichen Zeilen in der Ausgabe. (8 132)
+* Konvertierung von HTML in DITA | HTML mit einer Tabelle mit mehreren tbody schlägt mit Ausnahme fehl. (7940)
+* Konvertierung von HTML in DITA | Fehler bei Verwendung von HTML als Quelle mit Kommentaren. (7 937)
 * Beim Importieren von DITA 1.3 DITA-Dateien werden einige href-Elemente in falsch formatierte Links umgewandelt. (8019)
 
 ## Bekannte Probleme

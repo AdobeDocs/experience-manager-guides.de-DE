@@ -1,7 +1,7 @@
 ---
-title: Versionshinweise zu | Aktualisierungsanweisungen für Adobe Experience Manager Guides Version 5.0.0
+title: Versionshinweise | Upgrade-Anweisungen für Adobe Experience Manager Guides Version 5.0.0
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf Version 5.0.0 von Adobe Experience Manager Guides.
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 6%
@@ -12,9 +12,9 @@ ht-degree: 6%
 
 Dieser Artikel behandelt die Upgrade-Anweisungen und die Kompatibilitätsmatrix für Version 5.0.0 von Adobe Experience Manager Guides.
 
-Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 5.0.0](../release-info/whats-new-5-0.md).
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 5.0.0](/help/product-guide/release-info/whats-new-5-0-0.md).
 
-Eine Liste der in dieser Version behobenen Probleme finden Sie unter [Behobene Probleme in Version 5.0.0](../release-info/fixed-issues-5-0-0.md).
+Eine Liste der in dieser Version behobenen Probleme finden Sie unter [Behobene Probleme in Version 5.0.0](/help/product-guide/release-info/fixed-issues-5-0-0.md).
 
 ## Kompatibilitätsmatrix
 
@@ -26,11 +26,11 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von Experience Mana
 
 Version 6.5 Service Pack 22, Service Pack 21 und Service Pack 20
 
-Weitere Informationen finden Sie im Abschnitt [Technische Anforderungen](../install-guide/download-install-technical-requirements.md) im On-Premise-Installations- und Konfigurationshandbuch.
+Weitere Informationen finden Sie im Abschnitt [Technische Anforderungen](/help/product-guide/install-guide/download-install-technical-requirements.md) im On-Premise-Installations- und Konfigurationshandbuch.
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Freigabe | FMPS | FM |
+| Version | FMPS | FM |
 | --- | --- | --- |
 | 5.0.0 (UUID) | Unterstützt | 2022 oder höher |
 
@@ -62,10 +62,10 @@ Sie können Ihre aktuelle Version von Guides einfach auf Version 5.0.0 aktualisi
 - Wenn Sie Version 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.4 aktualisieren, bevor Sie auf Version 5.0.0 aktualisieren.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 >[!NOTE]
 >
 >Sie müssen das AEM Service Pack installieren, bevor Sie die Experience Manager Guides-Version aktualisieren.
 
-Weitere Informationen finden Sie unter [Upgrade-Anweisungen für On-Premise](../install-guide/upgrade-xml-documentation.md) von Experience Manager Guides.
+Weitere Informationen finden Sie unter [Upgrade-Anweisungen für On-Premise](/help/product-guide/install-guide/upgrade-xml-documentation.md) von Experience Manager Guides.

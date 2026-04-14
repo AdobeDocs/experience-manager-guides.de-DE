@@ -4,7 +4,7 @@ description: In diesem kurzen Artikel erfahren Sie, wie Sie mit AEM Guides und D
 role: User, Admin
 author: Pulkit Nagpal(punagpal)
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Diese können in spezifischen Benutzerhandbüchern für jedes Maschinenmodell re
 
 Mit dem Inhaltsreferenz-Attribut (conref) können Sie Links zu anderen Teilen Ihres Inhalts erstellen. Dies fördert die Wiederverwendbarkeit und reduziert Redundanz.
 
-Zum Beispiel:
+Beispiel:
 
 Nehmen wir an, Sie sind ein Finanzunternehmen und haben ein generisches Thema für KYC, das KYC-Verfahren für Einzelpersonen, Unternehmen usw. enthält.
 
@@ -153,13 +153,13 @@ Schritt 2: Ziehen Sie das Fragment, das Sie wiederverwenden möchten, nach dem H
 
 ## Häufig gestellte Fragen
 
-- ### Nach Auswahl der Datei/des Schlüssels im Dialogfeld „Inhalt wiederverwenden“ wird kein Inhalt angezeigt
+### Nach Auswahl der Datei/des Schlüssels im Dialogfeld „Inhalt wiederverwenden“ wird kein Inhalt angezeigt
 
 Weisen Sie Fragmenten (Ditelementen) IDs zu, die Sie in anderen Themen wiederverwenden möchten
 
-- ## Schlüssel werden nicht im Dialogfeld Inhalt wiederverwenden angezeigt
+## Schlüssel werden nicht im Dialogfeld Inhalt wiederverwenden angezeigt
 
-  Vergewissern Sie sich, dass Sie die Stammzuordnung/übergeordnete Zuordnung in der Zuordnungsansicht geöffnet haben, die über eine Schlüsseldefinition verfügt, oder fügen Sie den Stammzuordnungspfad manuell im selben Dialogfeld hinzu.
+Vergewissern Sie sich, dass Sie die Stammzuordnung/übergeordnete Zuordnung in der Zuordnungsansicht geöffnet haben, die über eine Schlüsseldefinition verfügt, oder fügen Sie den Stammzuordnungspfad manuell im selben Dialogfeld hinzu.
 
 
 <br>
@@ -167,4 +167,4 @@ Weisen Sie Fragmenten (Ditelementen) IDs zu, die Sie in anderen Themen wiederver
 <br>
 
 
-Posten Sie bei der AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=de) für alle Fragen.
+Posten Sie bei der AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) für alle Fragen.

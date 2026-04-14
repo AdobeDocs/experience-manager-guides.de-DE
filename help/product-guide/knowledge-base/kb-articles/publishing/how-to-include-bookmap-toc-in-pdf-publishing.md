@@ -5,14 +5,14 @@ feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
-source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Generieren des Inhaltsverzeichnisses von Bookmap beim PDF-Veröffentlichen
+# Generieren des Inhaltsverzeichnisses von Bookmap in PDF Publishing
 
 ## Einrichten der Lesekarte
 
@@ -68,38 +68,38 @@ Beispielstruktur von Bookmap mit Inhaltsverzeichnis , Figurenliste und Tabellenl
 
 Das Inhaltsverzeichnis und die Leselisten werden automatisch basierend auf der in Ihrer Lesekarte definierten Struktur generiert.
 
-Nach dem Einrichten der Lesekarte verwenden Sie Native PDF, um die PDF-Ausgabe zu generieren. Es verarbeitet die Bookmap-Struktur und Referenzen, einschließlich Inhaltsverzeichnis und Leselisten.
+Nachdem Sie Ihre Lesekarte eingerichtet haben, verwenden Sie native PDF , um die PDF-Ausgabe zu generieren. Es verarbeitet die Bookmap-Struktur und Referenzen, einschließlich Inhaltsverzeichnis und Leselisten.
 
-## Inhaltsverzeichnisdesign und dessen Reihenfolge in PDF
+## Inhaltsverzeichnisdesign und -bestellung in PDF
 
 Die native PDF-Funktion bietet eine praktische Methode zur Anpassung des Layouts und Designs Ihres Inhaltsverzeichnisses.
 
 Sie können den Entwurf über ein separates Seiten-Layout für Inhaltsverzeichnisse und Stile über layout.css steuern.
 
-Das Inhaltsverzeichnis und andere Booklists, die in PDF geordnet werden, basieren nur auf der Bookmap-Struktur.
+Das Inhaltsverzeichnis und die Reihenfolge anderer Booklists in PDF basieren nur auf der Bookmap-Struktur.
 
 ![Inhaltsverzeichnis](../assets/publishing/toc.png)
 
 
 ## Häufig gestellte Fragen
 
-- ### Einbinden des Inhaltsverzeichnisses einer Ditamap in eine PDF
+### Einbinden des Inhaltsverzeichnisses einer Ditamap in eine PDF
 
 Ditamaps selbst haben kein direktes Inhaltsverzeichnis (Table of Contents, TOC) wie eine Bookmap. Allerdings spielen Diagramme eine entscheidende Rolle bei der Definition der Struktur für Ihre Inhalte und tragen indirekt zum Generierungsprozess des Inhaltsverzeichnisses bei.
 
-Wenn Sie Ditamap veröffentlichen, dann bietet Native PDF Funktionen zum automatischen Generieren des Inhaltsverzeichnisses und der Leseliste . Sie können die Generierung des Inhaltsverzeichnisses bei Ditamap in den nativen PDF-Einstellungen aktivieren/deaktivieren.
+Wenn Sie Ditamap veröffentlichen, bietet Native PDF Funktionen zum automatischen Generieren von Inhaltsverzeichnissen und Leselisten . Sie können die Generierung von Inhaltsverzeichnissen in Ditamap in den nativen Einstellungen von PDF aktivieren/deaktivieren.
 
 ![Inhaltsverzeichnis deaktivieren](../assets/publishing/pageorder.png)
 
 ## Zusätzliche Ressourcen :
 
-- [Dokumentation zum Layout nativer PDF-Designseiten](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Native PDF Essentials-aufgezeichnete Expertensitzung](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Native Dokumentation zum Seitenlayout für PDF-Designs](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Native PDF Essentials-aufgezeichnete Expertensitzung](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Posten Sie bei der AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=de) für alle Fragen.
+Posten Sie bei der AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) für alle Fragen.
 
 
 

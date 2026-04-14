@@ -4,7 +4,7 @@ description: Übersetzen Sie Ihre Inhalte aus dem Web-Editor in mehrere Sprachen
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: c619c518a3ae1629897eb90f5f15aa4742be5ef2
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2519'
 ht-degree: 1%
@@ -95,9 +95,10 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 
      ![](images/unversioned-changes-translation.png){width="650" align="left"}
 
-     >
+     >[!NOTE]
      >
      > Um nur Dateien mit nicht versionierten Änderungen anzuzeigen, aktivieren Sie die Einstellung **Nur Assets mit nicht versionierten Änderungen anzeigen** im Bedienfeld Filter . Darüber hinaus ist die Markierung für unversioniert nur sichtbar, wenn Dateien basierend auf ihren neuesten Versionen übersetzt werden.
+
    - **Versionsbezeichnung**: Bezeichnung für die ausgewählte Version der Quelldatei
    - **Target-Version**: Versionsnummer der Zieldatei
    - **Dokumentstatus**: Status der Quelldatei. Die verfügbaren Optionen sind „Entwurf“, „In Überprüfung“ und „Überprüft“.
@@ -239,4 +240,4 @@ Für die Dokumentverwaltung bietet Experience Manager Guides die Möglichkeit, d
 Sie können die Übersetzungsprojekte auch deaktivieren, wenn Sie sie später verwenden möchten. Beim Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner gelöscht. Durch Deaktivieren eines Projekts wird es nicht gelöscht, sondern im Repository beibehalten. Sie können jedoch ein deaktiviertes Projekt nicht aktualisieren oder bearbeiten.  Das Löschen oder Deaktivieren eines Projekts wirkt sich nicht auf den Übersetzungsstatus von Verweisen aus.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
