@@ -167,4 +167,4 @@ Vergewissern Sie sich, dass Sie die Stammzuordnung/übergeordnete Zuordnung in d
 <br>
 
 
-Posten Sie bei der AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) für alle Fragen.
+Posten Sie bei der AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=de) für alle Fragen.
