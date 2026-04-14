@@ -35,7 +35,7 @@ Dieser Prozess umfasst drei Schritte:
 
 ## Schritt 3 (Optional) : Betten Sie die verwendete Schriftart in PDF ein
 
-![Einbetten benutzerdefinierter Schriftarten in DITA PDF ](../assets/publishing/custom-font3.png)
+![Einbetten benutzerdefinierter Schriftarten in DITA PDF &#x200B;](../assets/publishing/custom-font3.png)
 
 ## Häufig gestellte Fragen
 
