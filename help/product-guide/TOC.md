@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 33f261cafedf505f6d67cdb32d7529d9bfdfe305
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '3233'
-ht-degree: 9%
+source-wordcount: '3316'
+ht-degree: 8%
 
 ---
 
@@ -188,14 +188,14 @@ ht-degree: 9%
                - [Versionshinweise für 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Versionshinweise zu 4.2](./release-info/release-notes-4-2.md)
          - [Versionshinweise zu 4.1.x](./release-info/release-notes-4-1.md)
-         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
-         - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Startseite {#home-page}
       - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
       - [Repository-Schnittstelle](./user-guide/home-page-repository-view.md)
@@ -286,7 +286,7 @@ ht-degree: 9%
                - [Übersicht über die PDF-Ausgabevorgabe](./user-guide/generate-output-pdf.md)
                - [DITA-OT-PDF-Ausgabevorgabe](./user-guide/generate-output-pdf-dita-ot.md)
                - [Native PDF-Ausgabevorgabe](./web-editor/native-pdf-web-editor.md)
-            - [Wissensdatenbank](./user-guide/generate-output-knowledge-base.md)
+            - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
             - [HTML5](./user-guide/generate-output-html5.md)
             - [EPUB](./user-guide/generate-output-epub.md)
             - [Benutzerdefiniert](./user-guide/generate-output-custom.md)
@@ -396,7 +396,7 @@ ht-degree: 9%
       - Fehlerbehebung {#troubleshooting}
          - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-guide}
    - On-Premise {#on-prem-ig}
       - [On-Premise-Grundlagen](./install-guide/introduction.md)
@@ -688,8 +688,8 @@ ht-degree: 9%
       - [Einstellungen für die Ausgabegenerierung konfigurieren](./install-conf-guide/conf-output-generation.md)
       - Konfigurieren der Ausgabeeinstellungen der AEM-Site {#conf-aem-sites-output}
          - [Herunterladen und Installieren von AEM Sites-Vorlagen](./install-conf-guide/download-install-aem-sites-templates.md)
-         - [Allgemeine Anweisungen zum Anpassen vorhandener AEM-Site-Vorlagen](./install-conf-guide/customize-existing-site-template.md)
-         - [Anpassen der neuen AEM Site-Ausgabe](./install-conf-guide/customize-aem-site-output.md)
+         - [Allgemeine Anweisungen zum Anpassen neuer AEM-Site-Vorlagen](./install-conf-guide/customize-existing-site-template.md)
+         - [Anpassen der vorhandenen AEM-Site-Ausgabe](./install-conf-guide/customize-aem-site-output.md)
          - [Passen Sie die DITA-Elementzuordnung mit AEM-Komponenten für die veraltete Ausgabe der AEM-Site an](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
          - [Überlagern von HTML-Tags in der AEM Sites-Ausgabe für On-Premise](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [Konfigurieren gültiger Dateinamen für die AEM Site-Ausgabe](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
@@ -727,7 +727,7 @@ ht-degree: 9%
    - [Massenaktivierung - vollständiger Ereignishandler](./api-reference/bulk-activation-complete-event.md)
    - [Ereignishandler für Konversionsprozess](./api-reference/conversion-complete-event.md)
    - [Erstellen eines Übersetzungsprojekts](./api-reference/translation-project.md)
-- Wissensdatenbank {#knowledge-base}
+- Knowledge Base {#knowledge-base}
    - Expertensitzung {#expert-session}
       - [Expertensitzung - Übersicht](./knowledge-base/expert-sessions/expert-session.md)
       - [Inhalte übersetzen](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)

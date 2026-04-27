@@ -4,14 +4,15 @@ description: Erfahren Sie, wie Sie vorhandene AEM-Site-Vorlagen für AEM Guides 
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 1%
+source-wordcount: '944'
+ht-degree: 2%
 
 ---
 
-# Anpassen vorhandener AEM-Site-Vorlagen
+# Anpassen neuer AEM-Site-Vorlagen
 
 Dieses Handbuch enthält schrittweise Anweisungen zum Anpassen vorhandener AEM-Site-Vorlagen für die Verwendung mit AEM Guides, um AEM Sites aus DITA-Zuordnungen und -Themen zu generieren.
 
@@ -139,4 +140,4 @@ Standardmäßig werden die im AEM Guides-Komponentenpaket bereitgestellten Clien
 
 >[!NOTE]
 >
-> Stellen Sie sicher, dass die Vorlagen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktion bereitstellen.<br><br>Weitere Informationen finden Sie in der offiziellen [AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview)- und [AEM Sites](https://experienceleague.adobe.com/de/docs/experience-manager-core-components/using/get-started/authoring)-Dokumentation.
+> Stellen Sie sicher, dass die Vorlagen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktion bereitstellen.<br><br>Weitere Informationen finden Sie in der offiziellen [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)- und [AEM Sites](https://experienceleague.adobe.com/de/docs/experience-manager-core-components/using/get-started/authoring)-Dokumentation.
