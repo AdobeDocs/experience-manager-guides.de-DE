@@ -5,10 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2581'
 ht-degree: 0%
 
 ---
@@ -98,7 +97,7 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen Word-Dokumente in ei
 1. Laden Sie die Word-Quelldokumente in diesen Ordner hoch. Informationen zum Hochladen von Inhalten in DAM finden Sie unter [Vorhandenen DITA-Inhalt hochladen](migrate-content-upload-existing-dita-content.md#).
 
 
-Mit dem `config` `/config` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
+Mit dem `/config` `config` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
 
 **Anpassungsaktualisierungen für bestehende Benutzer**
 
@@ -129,7 +128,7 @@ Der Konvertierungsprozess umfasst die folgenden Aktionen im Backend:
 - Erstellung und Validierung einzelner DITA-Themen und DITA-Zuordnungsdateien.
 - Löschen temporärer Dateien.
 
-Im Großen und Ganzen erfordert der Konvertierungsprozess, dass Sie [InDesign-Dateien für die Konvertierung vorbereiten](appendix.md#id195DBF0045Z) [Appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) und [Zuordnungsdatei für die Migration von InDesign zu DITA vorbereiten](appendix.md#id194AF0003HT) [Appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), dann müssen Sie das angegebene Verfahren zum Ausführen des Konvertierungsprozesses befolgen.
+Im Großen und Ganzen erfordert der Konvertierungsprozess, dass Sie [InDesign-Dateien für die Konvertierung vorbereiten](appendix.md#id195DBF0045Z)[Appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) und [Zuordnungsdatei für die Migration von InDesign zu DITA vorbereiten](appendix.md#id194AF0003HT)[Appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT), dann müssen Sie das angegebene Verfahren zum Ausführen des Konvertierungsprozesses befolgen.
 
 Führen Sie die folgenden Schritte aus, um Ihre bestehenden InDesign-Dokumente in ein Dokument vom Typ DITA-Thema zu konvertieren:
 
@@ -150,7 +149,7 @@ Führen Sie die folgenden Schritte aus, um Ihre bestehenden InDesign-Dokumente i
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-1. Fügen Sie in der `idml12dita`-Datei die Zuordnung der Konfigurationen hinzu, die im Ordner `idml2dita_io.xml` vorhanden sind.
+1. Fügen Sie in der `idml2dita_io.xml`-Datei die Zuordnung der Konfigurationen hinzu, die im Ordner `idml12dita` vorhanden sind.
 1. Fügen Sie in `idml2dita_io.xml` Datei die folgenden Eigenschaften hinzu:
 
    ```
@@ -235,7 +234,7 @@ Folgende Punkte müssen beim Hochladen Ihrer Dokumente in einer ZIP-Datei berüc
   </html>
   ```
 
-  Beachten Sie, dass für jedes `ul`-Tag das `class`-Attribut auf `book` festgelegt sein muss. Ebenso muss die `li` jedes `class`-Tags auf `topicref` gesetzt werden.
+  Beachten Sie, dass für jedes `ul`-Tag das `class`-Attribut auf `book` festgelegt sein muss. Ebenso muss die `class` jedes `li`-Tags auf `topicref` gesetzt werden.
 
 - Wenn Sie Inline-Stile verwenden, konvertieren Sie die Inline-Stile in Ihrer XHTML-Datei in CSS-basierte Stilklassen. Verwenden Sie dann die Stilattributzuordnung, um diese klassenbasierten Stile in der konvertierten DITA-Datei in das DITA-`outputclass`-Attribut zu konvertieren.
 
@@ -403,4 +402,4 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen strukturierten Dokum
 
 Mit dem `<config> </config>` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Migrieren vorhandener Inhalte](migrate-content.md)
+**Übergeordnetes Thema:**[ Migrieren vorhandener Inhalte](migrate-content.md)

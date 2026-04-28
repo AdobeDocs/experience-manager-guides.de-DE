@@ -1,11 +1,11 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in der Version vom Februar 2026 mit Produktschulungen und Lerninhalten
+title: Versionshinweise | Neue Funktionen in der Version Februar 2026 von Produktschulungen und Lerninhalten
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version vom Februar 2026 der Produktschulungen und Lerninhalte
 role: Leader
-hidefromtoc: true
-source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
+exl-id: aef24b0c-0cb8-4646-9d8b-92d3460a7faa
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -67,4 +67,3 @@ Die folgenden Probleme wurden in der Version vom Februar 2026 der Produktschulun
 - Wenn Sie auf das Inhaltsverzeichnis (TOC) im linken Bereich für den Kurs klicken, zeigt der Kurs weiterhin den Abschlussstatus an, auch wenn das Quiz fehlgeschlagen ist. (GUIDES-40398)
 - Der Versuch, den folgenden Fragetyp in einem Quiz in ALM falsch abzugleichen, führt dazu, dass die ausgewählten Optionen nicht im Bericht angezeigt werden. (GUIDES-38640)
 - Beim Generieren der PDF-Ausgabe werden die angewendeten Authoring-Stile nicht beibehalten, was zu Inkonsistenzen im Design führt. (GUIDES-38642)
-

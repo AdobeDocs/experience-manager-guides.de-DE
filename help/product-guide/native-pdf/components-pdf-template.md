@@ -5,10 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '4702'
+source-wordcount: '4767'
 ht-degree: 0%
 
 ---
@@ -69,7 +68,7 @@ Inhalte (Inhaltsverzeichnis), Index, leere Seite, Themenvorderseiten, rückwärt
 
 1. Geben _im Dialogfeld Layout duplizieren_ einen Namen für das Seiten-Layout ein.
 
-1. Klicken Sie **Fertig**.
+1. Klicken Sie auf **Fertig**.
 Eine Kopie des ausgewählten Seiten-Layouts wird erstellt und unter Seiten-Layouts hinzugefügt.
 
 ### Anpassen eines Seiten-Layouts {#customize-page-layout}
@@ -98,7 +97,7 @@ Wenn Sie ein neues Seiten-Layout erstellen, wird die `layout.css` standardmäßi
 
 Gehen Sie wie folgt vor, um ein Stylesheet zu erstellen:
 1. Führen **im Bedienfeld** Vorlagen“ eine der folgenden Aktionen aus:
-   * Bewegen Sie den Mauszeiger über **Registerkarte** Stylesheets“, klicken Sie auf das *(* Optionen **-Symbol)…** und wählen Sie **Neues Stylesheet**.
+   * Bewegen Sie den Mauszeiger über **Registerkarte** Stylesheets“, klicken Sie auf das **(*Optionen*-Symbol)…** und wählen Sie **Neues Stylesheet**.
    * Klicken Sie auf das Symbol **+** neben **Vorlagen** und wählen Sie **Stylesheet** aus dem Kontextmenü.
 
    Dadurch wird das Dialogfeld Stylesheet hinzufügen geöffnet.
@@ -191,7 +190,7 @@ Gehen Sie wie folgt vor, um eine Asset-Datei zum Ordner „Ressourcen“ hinzuzu
 
 1. Klicken Sie **Dateien auswählen**, um die Asset-Datei auf Ihrem lokalen Computer zu durchsuchen
 
-1. Klicken Sie **Hochladen**.
+1. Klicken Sie auf **Hochladen**.
 Die ausgewählte Datei wird importiert und im Ordner Ressourcen aufgeführt.
 
 ## Erweiterte PDF-Einstellungen {#advanced-pdf-settings}
@@ -290,7 +289,7 @@ Die folgenden Einstellungen sind im Abschnitt Seiten-Layout verfügbar:
 
   **Vordere Themenseiten** wird auch als Ausweich-Layout für das **Inhaltsverzeichnis**, **Abbildungs-** Tabellenliste) verwendet.  Auf ähnliche **wird** Zurück Matter Pages“ auch als Ausweich-Layout für die **Index** und **Glossar**-Layouts verwendet. Wenn Sie das Layout für diese Seiten nicht ausgewählt haben, wird das ausgewählte Layout für Vorder- oder Rückseite der Themenseiten angewendet.  Wenn Sie das Layout Vorder- oder Rückseite der Themenseiten nicht ausgewählt haben, wird das Standardseitenlayout darauf angewendet.
 
-* **Seiten-Layout für leere Seiten**:    Sie können auch das Seiten-Layout für leere Seiten angeben. Das ausgewählte Layout wird auf alle leeren Seiten angewendet. Wenn Sie beispielsweise ein Layout Leere Seite für alle leeren Seiten entworfen haben, wählen Sie **Leer** in der Dropdown-Liste aus. Alle leeren Seiten in Ihrem Dokument haben dann das Layout Leere Seite .
+* **Seiten-Layout für leere Seiten**: Sie können auch das Seiten-Layout für leere Seiten angeben. Das ausgewählte Layout wird auf alle leeren Seiten angewendet. Wenn Sie beispielsweise ein Layout Leere Seite für alle leeren Seiten entworfen haben, wählen Sie **Leer** in der Dropdown-Liste aus. Alle leeren Seiten in Ihrem Dokument haben dann das Layout Leere Seite .
 
 * **Titelseite und Rückseite**: Wenn Sie ein Titelseiten-Layout entworfen haben, ordnen Sie es der Option **Titelseite** zu. Wenn Sie über ein Layout für die Rückseite verfügen, ordnen Sie es der Option **Rückseite“**. Wenn keine Layouts für das Deckblatt oder die Rückseite erstellt wurden, wird das Standardseitenlayout angewendet.
 
@@ -332,7 +331,7 @@ Standardmäßig beginnen alle Abschnitte auf einer neuen Seite. Wählen Sie die 
 
 >[!NOTE]
 >
-> Diese Einstellung gilt nur für den Abschnitt und nicht für dessen Komponenten.  Wenn Sie beispielsweise die Option **Vorherige Seite** für **Kapitel und Themen** auswählen, wird der Abschnitt **Kapitel und Themen** mit der vorherigen Seite zusammengeführt. Die verschiedenen Kapitel und Themen werden gemäß den Einstellungen unter **Allgemein** veröffentlicht. Wenn Sie beispielsweise in **Neues Kapitel aus der Einstellung beginnen** die Option **Ungerade Seite** auswählen, wird nach einem Kapitel, das auf einer ungeraden Seite endet, eine leere Seite eingefügt.
+> Diese Einstellung gilt nur für den Abschnitt und nicht für dessen Komponenten.  Wenn Sie beispielsweise die Option **Vorherige Seite** für **Kapitel und Themen** auswählen, wird der Abschnitt **Kapitel und Themen** mit der vorherigen Seite zusammengeführt. Die verschiedenen Kapitel und Themen werden gemäß den Einstellungen unter **Allgemein** veröffentlicht.Wenn Sie z. B. in **Einstellung „Neues Kapitel beginnen** &quot;**Seite“**, wird nach einem Kapitel, das auf einer ungeraden Seite endet, eine leere Seite eingefügt.
 
 Wenn Sie einen Abschnitt mit der vorherigen oder nächsten Seite zusammenführen, wird der Inhalt zusammengeführt und der Stil des Zielabschnitts, in dem der Inhalt zusammengeführt wird, wird angewendet.
 
@@ -386,7 +385,7 @@ Wählen Sie eine Seitenreihenfolge aus, die die Seitenreihenfolge in Ihrem PDF-D
 * **Booklet**: Alle Seiten werden wie in einem Booklet bestellt.
 * **Right to Left Booklet**: Alle Seiten befinden sich in der Reihenfolge von rechts nach links.
 * **Benutzerdefiniert**: Definieren Sie eine benutzerdefinierte Reihenfolge der Seiten anstelle einer vordefinierten Reihenfolge.
-   * &quot; a..b“ — Alle aufeinander folgenden Seiten von a bis b.
+   * „a.b“ — Alle aufeinander folgenden Seiten von a bis b.
    * „a,b,c“ — Neue Seitenreihenfolge a, b, c.
    * „a*b“ - Die Seite a wird x-mal wiederholt.
    * &quot;-a“ - Negative Seitenzahlen werden ab der letzten Seite rückwärts gezählt und können mit anderen benutzerdefinierten Bestellungen kombiniert werden.
@@ -460,11 +459,11 @@ Sie können beispielsweise eine Sprachvariable namens „reference-label“ hinz
 Wenn Sie `${lng:<variable name>}` zum Abschnitt Absatz hinzufügen, enthalten die Querverweise in den Absätzen der Ausgabe den lokalisierten Text und die Seitenzahl.\
 Die folgenden Screenshots zeigen zum Beispiel die Querverweise „Auf Seite 1 anzeigen &quot; in englischer Sprache und „Einzelheiten finden Sie auf der Seite 1“ in deutscher Sprache.
 
-<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einem Absatz&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einem Absatz" width ="800" border="2px">
 
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in englischer Sprache.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Deutsche Ausgabe eines Querverweises in einem Absatz&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Deutsche Ausgabe eines Querverweises in einem Absatz" width ="800" border="2px">
 
 
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in deutscher Sprache.*

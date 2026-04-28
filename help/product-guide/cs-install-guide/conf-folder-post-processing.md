@@ -5,10 +5,9 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -23,15 +22,15 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 >[!NOTE]
 >
-> Sie können auch reguläre Ausdrücke (Regex) verwenden, um Regeln zu definieren, die für mehrere Ordner oder eine gesamte Ordnerhierarchie gelten. Weitere Informationen finden Sie im Abschnitt [Verwenden von Regex zum Aktivieren oder Deaktivieren der &#x200B;](#use-regex-to-enable-or-disable-post-processing)&quot;.
+> Sie können auch reguläre Ausdrücke (Regex) verwenden, um Regeln zu definieren, die für mehrere Ordner oder eine gesamte Ordnerhierarchie gelten. Weitere Informationen finden Sie im Abschnitt [Verwenden von Regex zum Aktivieren oder Deaktivieren der ](#use-regex-to-enable-or-disable-post-processing)&quot;.
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-`/` (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem <br> am Ende weggelassen werden oder Regex) **Standardwert**: `/content/dam/projects/translation_output` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-<br> (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem `/` am Ende weggelassen werden oder Regex) **Standardwert**: `/content/dam/projects/translation_output` |
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-`/` (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem <br> am Ende weggelassen werden oder Regex) **Standardwert**: `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-<br> (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem `/` am Ende weggelassen werden oder Regex) **Standardwert**: `/content/dam` |
 
 ## Regeln zum Aktivieren oder Deaktivieren der Nachbearbeitung
 

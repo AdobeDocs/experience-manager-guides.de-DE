@@ -5,11 +5,10 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 10%
+source-wordcount: '728'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +18,7 @@ Um auf Funktionen in der AEM Guides zuzugreifen und sie zu konfigurieren, müsse
 
 Die folgenden Themen in der Dokumentation zu AEM helfen Ihnen, die Konzepte und Funktionen der Benutzerverwaltung und Sicherheit zu verstehen:
 
-- [AEM-Benutzer, -Gruppen und -Berechtigungen](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=de)
+- [AEM-Benutzende, -Gruppen und -Berechtigungen](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
 - [Benutzerverwaltung und Sicherheit](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=de)
 
@@ -104,4 +103,4 @@ Die folgende Liste enthält einige Empfehlungen und Punkte zu Benutzergruppen un
 
 - Wenn Sie einem Benutzer die Rechte zum Ändern eines Dokumentstatus erteilen möchten, stellen Sie sicher, dass Sie den Benutzer im Abschnitt „Statusübergang“ des Dokumentstatusprofils hinzufügen.
 
-[1](#fnsrc_1) Wenn *Autoren* und *Herausgeber* zu einer Überprüfung eingeladen werden.[2](#fnsrc_2) Abhängig von den Berechtigungen, die dem Benutzer im Dokumentstatusprofil gewährt wurden.
+[1](#fnsrc_1) Wenn *Autoren* und *Herausgeber* zur Überprüfung eingeladen sind.[2](#fnsrc_2) Abhängig von den Rechten, die dem Benutzer im Dokumentstatusprofil gewährt wurden.

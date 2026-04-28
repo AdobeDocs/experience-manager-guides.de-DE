@@ -5,10 +5,9 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -58,7 +57,7 @@ Führen Sie die folgenden Schritte aus, um die Nachbearbeitung für einen bestim
 
 >[!NOTE]
 >
-> Neben den ignorierten und aktivierten Pfaden, die über die OSGi-Konfiguration konfiguriert werden, wird das Nachbearbeitungsverhalten auch durch einen Knoten auf Repository-Ebene unter `/var/dxml/postprocess/ignoredPaths` beeinflusst. <br> Wenn ein Ordner unerwartet von der Nachbearbeitung ausgeschlossen wird und nicht in der OSGi-Konfiguration aufgeführt ist, wird empfohlen, diesen Repository-Knoten zu überprüfen. Wenn der Pfad dort angezeigt wird und auf `true` festgelegt ist, wird er ignoriert. Um die Verarbeitung wieder zu aktivieren, können Sie die entsprechende Eigenschaft manuell aus dem Knoten entfernen.
+> Neben den ignorierten und aktivierten Pfaden, die über die OSGi-Konfiguration konfiguriert werden, wird das Nachbearbeitungsverhalten auch durch einen Knoten auf Repository-Ebene beeinflusst, der sich unter `/var/dxml/postprocess/ignoredPaths` befindet. <br> Wenn ein Ordner unerwartet von der Nachbearbeitung ausgeschlossen wird und in der OSGi-Konfiguration nicht aufgeführt ist, wird empfohlen, diesen Repository-Knoten zu überprüfen. Wenn der Pfad dort angezeigt wird und auf `true` festgelegt ist, wird er ignoriert. Um die Verarbeitung wieder zu aktivieren, können Sie die entsprechende Eigenschaft manuell aus dem Knoten entfernen.
 
 ## Regeln zum Aktivieren oder Deaktivieren der Nachbearbeitung
 

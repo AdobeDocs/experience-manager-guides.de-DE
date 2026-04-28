@@ -5,10 +5,9 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -82,7 +81,7 @@ Sie können über das Menü **Optionen“ auch die folgenden Vorgänge** Vorlage
 ### Löschen
 
 Wählen Sie die Option Löschen , um die ausgewählte Vorlage zu löschen. Wählen Sie dann bei der Bestätigungsaufforderung Ja .
-Die Vorgabe wird aus „Vorlagen&#x200B;**entfernt**.
+Die Vorgabe wird aus „Vorlagen**entfernt**.
 
 ### Eigenschaften{#properties-option}
 
@@ -94,7 +93,7 @@ Wählen Sie diese Option aus, um die Vorlage in der Assets-Benutzeroberfläche a
 
 Nachdem Sie die benutzerdefinierte Vorlage erstellt haben, können Sie sie aus den Seitenlayouts in der PDF-Ausgabevorgabe auswählen.
 
-Erfahren Sie, wie [eine PDF-Ausgabe veröffentlichen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=de).
+Erfahren Sie, wie [eine PDF-Ausgabe veröffentlichen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -104,7 +103,7 @@ Abhängig von Ihrem Setup kann Ihr Administrator die Vorlagen konfigurieren:
 
 +++ Cloud Services
 
-Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnerebene finden Sie [&#x200B; Abschnitt &quot;](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) konfigurieren“ im Installations- und Konfigurationshandbuch für Cloud Services.
+Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnerebene finden Sie [ Abschnitt &quot;](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) konfigurieren“ im Installations- und Konfigurationshandbuch für Cloud Services.
 
 +++
 

@@ -5,10 +5,9 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '3778'
+source-wordcount: '3818'
 ht-degree: 1%
 
 ---
@@ -82,7 +81,7 @@ In diesem Beispiel passen wir die Überschriften von Ebene 1 bis Ebene 3 so an, 
 
 1. Erweitern Sie in der **Stile** die Liste **Überschriftenstile**.
 
-1. Wählen Sie in **Liste den Stil**&#x200B;h1) aus.
+1. Wählen Sie in **Liste den Stil**h1) aus.
 Die Eigenschaften für den Stil h1 werden im Bedienfeld Eigenschaften zusammen mit der Vorschau angezeigt.
 
    >[!NOTE]
@@ -253,7 +252,7 @@ Im folgenden Beispiel passen wir den Stil der nummerierten oder sortierten Liste
 
    Eine Bestätigungsmeldung wird angezeigt.
 
-1. Klicken Sie **der Meldung** Bestätigung *auf „Ja*, um die Eigenschaften **Erweiterte Formatierung** zu öffnen.
+1. Klicken Sie **der Meldung *Bestätigung* auf „Ja**, um die Eigenschaften **Erweiterte Formatierung** zu öffnen.
 
    Die folgenden Eigenschaften sind standardmäßig verfügbar:
 

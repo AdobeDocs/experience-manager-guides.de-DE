@@ -5,10 +5,9 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 Gelegentlich empfiehlt es sich, benutzerdefinierte Stile auf die Inhaltsverzeichniseinträge oder ein bestimmtes Thema anzuwenden. Dies kann erreicht werden, indem ein `outputclass`-Attribut mit dem `<topicref>`-Element in Ihrer DITA-Zuordnung verknüpft wird. Wenn Sie ein benutzerdefiniertes Format auf ein ganzes Thema anwenden möchten, kann dies auch durch Erweitern der Stildefinition des Attributs in CSS erreicht werden.
 
-Nehmen wir ein Beispiel für ein neues Thema, das Sie zur Überprüfung senden möchten. Um das aktualisierte Thema leicht zu identifizieren, müssen Sie dem `outputclass`-Element in Ihrer DITA-Zuordnung ein `<topicref>`-Attribut hinzufügen und dann einen benutzerdefinierten Stil für dasselbe Element in CSS definieren.
+Nehmen wir ein Beispiel für ein neues Thema, das Sie zur Überprüfung senden möchten. Um das aktualisierte Thema leicht zu identifizieren, müssen Sie dem `<topicref>`-Element in Ihrer DITA-Zuordnung ein `outputclass`-Attribut hinzufügen und dann einen benutzerdefinierten Stil für dasselbe Element in CSS definieren.
 
 Im folgenden Beispiel wurde dem Thema *Verlauf von Flügen* ein `outputclass` mit dem Wert `new-topic` zugewiesen.
 

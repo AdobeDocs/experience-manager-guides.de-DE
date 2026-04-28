@@ -5,11 +5,10 @@ exl-id: 4693b102-b75a-4904-b2d5-914e774305f3
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 0%
+source-wordcount: '215'
+ht-degree: 5%
 
 ---
 
@@ -17,9 +16,9 @@ ht-degree: 0%
 
 AEM Guides ist ein Plug-in, das auf Adobe Experience Manager installiert wird. Für die Installation von AEM müssen Sie einige grundlegende AEM-Konzepte und empfohlene Bereitstellungsszenarien verstehen. Die folgenden Links helfen Ihnen bei den ersten Schritten mit der Installation von AEM:
 
-- [Grundlegende AEM-Konzepte](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [Grundlegende AEM-Konzepte](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [Empfohlene AEM-Bereitstellungen](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [Empfohlene AEM-Bereitstellungen](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]
@@ -36,6 +35,6 @@ Wenn Sie ein Upgrade Ihrer AEM-Instanz durchführen möchten, müssen Sie die fo
 
 >[!IMPORTANT]
 >
-> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden [&#x200B; unter „Empfehlungen &#x200B;](download-install-recommend-perf-optimiz.md#) Leistungsoptimierung“.
+> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden [ unter „Empfehlungen ](download-install-recommend-perf-optimiz.md#) Leistungsoptimierung“.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)
