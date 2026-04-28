@@ -18,11 +18,11 @@ Most likely you would have a repository of existing DITA content that you would 
 
 >[!IMPORTANT]
 >
-> See [Add digital assets to Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) for detailed information in the supported content upload methods in AEM.
+> See [Add digital assets to Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=de) for detailed information in the supported content upload methods in AEM.
 
 ## Assets Console user interface
 
-You can select content on your desktop and drag on the AEM user interface \(web browser\) to the destination folder. For more details, see [Upload assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) in AEM documentation.
+You can select content on your desktop and drag on the AEM user interface \(web browser\) to the destination folder. For more details, see [Upload assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=de#upload-assets) in AEM documentation.
 
 ## AEM-Desktop-Programm
 
@@ -30,7 +30,7 @@ Use AEM desktop app if you are a creative professional, and want to manage the a
 
 ## Asset bulk ingestor
 
-If you have large-scale migrations and occasional bulk ingestions, use Asset bulk ingestor to upload your content. Using this tool, you can upload bulk content from supported datastores like Azure or S3. For more details, see [Asset bulk ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
+If you have large-scale migrations and occasional bulk ingestions, use Asset bulk ingestor to upload your content. Using this tool, you can upload bulk content from supported datastores like Azure or S3. For more details, see [Asset bulk ingestor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=de#asset-bulk-ingestor).
 
 ## Use FrameMaker for bulk upload
 
