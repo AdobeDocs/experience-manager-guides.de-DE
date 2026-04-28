@@ -1,11 +1,11 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in der Version Dezember 2025 von Produktschulungen und Lerninhalten
+title: Versionshinweise | Neue Funktionen in der Version Dezember 2025 von Produktschulungen und Lerninhalten
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version vom Dezember 2025 der Schulungs- und Lerninhalte für Produkte
 role: Leader
-hidefromtoc: true
-source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
+exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,3 @@ Dieser Versionshinweis behandelt die neuen und erweiterten Funktionen, die mit d
   Weitere Informationen finden Sie unter [Grundlegende Bausteine hinzufügen](../learning-content/lc-basic-blocks.md).
 
   ![](assets/reusable-content.png){width="650" align="left"}
-
-
-
-

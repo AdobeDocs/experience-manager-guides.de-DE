@@ -5,8 +5,7 @@ exl-id: f8b723bf-84c0-4fe6-936e-63970fb3e417
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -58,7 +57,7 @@ Das Migrationsdienstprogramm verarbeitet Assets mit einer durchschnittlichen Rat
 Ausführliche Schritte zur Migration Ihrer Inhalte finden Sie in den folgenden Artikeln:
 
 - [**4.3.1 Migration von Nicht-UUID-zu-4.3.2-UUID-Inhalten**](./migrate-non-uuid-4-3.md)
-- [**4.6.0 Service Pack 4 Migration von Nicht-UUID-zu-4.6.1-UUID-Inhalten**](./migrate-non-uuid-uuid-4-6.md)
+- [Migration von **4.6.0 Service Pack 4 non-UUID zu 4.6.1 UUID-Inhalten**](./migrate-non-uuid-uuid-4-6.md)
 
 
 

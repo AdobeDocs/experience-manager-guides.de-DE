@@ -5,11 +5,10 @@ exl-id: a5742082-cc0b-49d9-9921-d0da1b272ea5
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1762'
-ht-degree: 2%
+source-wordcount: '1833'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +18,7 @@ Workflows ermöglichen die Automatisierung von Aktivitäten des Typs Adobe Exper
 
 Weitere Informationen zu Workflows in AEM finden Sie unter:
 
-- [Verwalten von Workflow-Instanzen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=de)
+- [Verwalten der Workflow-Instanzen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=de)
 
 - Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=de).
 
@@ -98,7 +97,7 @@ Sie können diese Skripte im Knoten `/etc/workflows/scripts` erstellen. In der f
 | `initiator` | Zeichenfolge | Benutzer-ID des Benutzers, der die Prüfungsaufgabe initiiert. |
 | `operation` | Zeichenfolge | Ein statischer Wert, der als `AEM_REVIEW` festgelegt ist. |
 | `orgTopics` | Zeichenfolge | Pfad der Themen, die zur Überprüfung freigegeben werden. Geben Sie mehrere Themen durch Kommata getrennt an. |
-| `payloadJson` | JSON-Objekt | Geben Sie die folgenden Werte an: -   `base`: Pfad des übergeordneten Ordners, der das zur Überprüfung gesendete Thema enthält. <br> -   `asset`: Pfad des zur Überprüfung gesendeten Themas. <br> -   `referrer`: Lassen Sie es leer. |
+| `payloadJson` | JSON-Objekt | Geben Sie die folgenden Werte an: - `base`: Pfad des übergeordneten Ordners, der das zur Überprüfung gesendete Thema enthält. <br> - `asset`: Pfad des zur Überprüfung gesendeten Themas. <br> - `referrer`: Lassen Sie es leer. |
 | `deadline` | Zeichenfolge | Geben Sie die Zeit im `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` an. |
 | `title` | Zeichenfolge | Geben Sie einen Titel für die Prüfungsaufgabe ein. |
 | `description` | Zeichenfolge | Geben Sie eine Beschreibung für die Prüfungsaufgabe ein. |
@@ -113,7 +112,7 @@ Sie können diese Skripte im Knoten `/etc/workflows/scripts` erstellen. In der f
 | `ditamap` | Zeichenfolge | Geben Sie den Pfad der Imagemap der Prüfungsaufgabe an |
 | `allowAllReviewers` | Boolescher Wert | false/true |
 | `notifyViaEmail` | Boolescher Wert | false/true |
-| `reviewVersion` | Zeichenfolge | Gibt die aktuelle Version des Überprüfungs-Workflows an. Der Standardwert ist auf `3.0` festgelegt.<br> Um die neuen Funktionen des Überprüfungs-Workflows für [Autoren](../user-guide/review-close-review-task.md) und [Prüfer](../user-guide/review-complete-review-tasks.md) zu aktivieren, stellen Sie sicher, dass die `reviewVersion` auf `3.0` eingestellt ist. |
+| `reviewVersion` | Zeichenfolge | Gibt die aktuelle Version des Überprüfungs-Workflows an. Der Standardwert ist auf `3.0` festgelegt<br> Um die neuen Funktionen des Überprüfungs-Workflows für [Autoren](../user-guide/review-close-review-task.md) und [Reviewer](../user-guide/review-complete-review-tasks.md) zu aktivieren, stellen Sie sicher, dass die `reviewVersion` auf `3.0` eingestellt ist. |
 
 
 Nachdem Sie das Skript erstellt haben, rufen Sie es auf, bevor Sie den Prozess zum Erstellen einer Überprüfung in Ihrem Workflow aufrufen. Anschließend können Sie je nach Ihren Anforderungen die anderen Überprüfungs-Workflow-Prozesse aufrufen.

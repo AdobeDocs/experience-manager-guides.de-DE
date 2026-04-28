@@ -5,10 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 4204b6fe9e56de09bd833007a36330a42b26b57a
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2448'
 ht-degree: 0%
 
 ---
@@ -102,7 +101,7 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen Word-Dokumente in ei
 1. Laden Sie die Word-Quelldokumente in diesen Ordner hoch. Informationen zum Hochladen von Inhalten in DAM finden Sie unter [Vorhandenen DITA-Inhalt hochladen](migrate-content-upload-existing-dita-content.md#).
 
 
-Mit dem `config` `/config` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
+Mit dem `/config` `config` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
 
 ## Migrieren von Adobe InDesign-Dokumenten {#id195AD0B0K5Z}
 
@@ -143,7 +142,7 @@ Führen Sie die folgenden Schritte aus, um Ihre bestehenden InDesign-Dokumente i
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-1. Fügen Sie in der `idml12dita`-Datei die Zuordnung der Konfigurationen hinzu, die im Ordner `idml2dita_io.xml` vorhanden sind.
+1. Fügen Sie in der `idml2dita_io.xml`-Datei die Zuordnung der Konfigurationen hinzu, die im Ordner `idml12dita` vorhanden sind.
 1. Fügen Sie in `idml2dita_io.xml` Datei die folgenden Eigenschaften hinzu:
 
    ```
@@ -225,7 +224,7 @@ Folgende Punkte müssen beim Hochladen Ihrer Dokumente in einer ZIP-Datei berüc
   </html>
   ```
 
-  Beachten Sie, dass für jedes `ul`-Tag das `class`-Attribut auf `book` festgelegt sein muss. Ebenso muss die `li` jedes `class`-Tags auf `topicref` gesetzt werden.
+  Beachten Sie, dass für jedes `ul`-Tag das `class`-Attribut auf `book` festgelegt sein muss. Ebenso muss die `class` jedes `li`-Tags auf `topicref` gesetzt werden.
 
 - Wenn Sie Inline-Stile verwenden, konvertieren Sie die Inline-Stile in Ihrer XHTML-Datei in CSS-basierte Stilklassen. Verwenden Sie dann die Stilattributzuordnung, um diese klassenbasierten Stile in der konvertierten DITA-Datei in das DITA-`outputclass`-Attribut zu konvertieren.
 

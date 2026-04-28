@@ -5,10 +5,9 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -226,11 +225,11 @@ Führen Sie die folgenden Schritte aus, um unerwünschte Funktionen aus der Symb
 1. Navigieren Sie zur `ui_config.json` und öffnen Sie sie im Knoten `apps` zur Bearbeitung.
 Die `ui_config.json`-Datei besteht aus drei Abschnitten:
 
-- **Symbolleisten:**   Dieser Abschnitt enthält die Definition aller in der Editor-Symbolleiste verfügbaren Funktionen wie Einfügen/Entfernen, Nummerierte Liste, \(Datei\) Schließen, Speichern, Kommentare und mehr.
+- **Symbolleisten:** Dieser Abschnitt enthält die Definition aller in der Symbolleiste des Editors verfügbaren Funktionen, z. B. Einfügen/Entfernen einer nummerierten Liste, \(Datei\) Schließen, Speichern, Kommentare und mehr.
 
-- **Tastaturbefehle:**   Dieser Abschnitt enthält die Definition der Tastaturbefehle, die einer bestimmten Funktion im Editor zugewiesen sind.
+- **Tastaturbefehle** In diesem Abschnitt werden die Tastaturbefehle definiert, die einer bestimmten Funktion im Editor zugewiesen sind.
 
-- **templates:**   Dieser Abschnitt enthält die vordefinierte Struktur von DITA-Elementen, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt Vorlagen Vorlagendefinitionen für einen Absatz, einfache Tabellen-, Tabellen- und Textelemente. Sie können eine Vorlagendefinition für ein beliebiges Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise zu jedem neuen `p`-Element in einer Liste ein `li`-Element hinzufügen möchten, können Sie zu diesem Zweck den folgenden Code am Ende des Abschnitts „Vorlagen“ hinzufügen:
+- **templates:** Dieser Abschnitt enthält die vordefinierte Struktur der DITA-Elemente, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt Vorlagen Vorlagendefinitionen für einen Absatz, einfache Tabellen-, Tabellen- und Textelemente. Sie können eine Vorlagendefinition für ein beliebiges Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise zu jedem neuen `li`-Element in einer Liste ein `p`-Element hinzufügen möchten, können Sie zu diesem Zweck den folgenden Code am Ende des Abschnitts „Vorlagen“ hinzufügen:
 
 ```HTML
 "li": "<li><p></p></li>"

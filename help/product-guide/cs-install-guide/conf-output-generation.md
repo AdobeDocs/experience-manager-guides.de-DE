@@ -5,10 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5703'
+source-wordcount: '5820'
 ht-degree: 1%
 
 ---
@@ -110,7 +109,7 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene Design-Vorlage anzugeben,
 
    | Eigenschaft | Beschreibung |
    |--------|-----------|
-   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Geben Sie den `cq:Template` Knoten für die entsprechenden Seiten an \(Landing, Search und Topic\). Standardmäßig befindet sich der `cq:Template` Knoten für diese Seiten `/libs/fmdita/templates/default/cqtemplates` Knoten . Dieser Knoten definiert die Struktur und Eigenschaften der Landingpage, Suche und Themenseite.<br> Die `shadowPageTemplate` wird zur Optimierung des segmentierten Inhalts verwendet. Sie müssen den Wert dieser Eigenschaft auf Folgendes setzen: `fmdita/templates/default/cqtemplates/shadowpage` <br> **Hinweis** Sie müssen einen Wert für die `topicPageTemplate` angeben. `landingPageTemplate` und `searchPageTemplate` sind optionale Eigenschaften. Wenn Sie nicht möchten, dass die Such- und Landingpages generiert werden, geben Sie diese Eigenschaften nicht an. |
+   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | Geben Sie den `cq:Template` Knoten für die entsprechenden Seiten an \(Landing, Search und Topic\). Standardmäßig befindet sich der `cq:Template` Knoten für diese Seiten `/libs/fmdita/templates/default/cqtemplates` Knoten . Dieser Knoten definiert die Struktur und Eigenschaften der Landingpage, Suche und Themenseite.<br> Der `shadowPageTemplate` wird zur Optimierung des segmentierten Inhalts verwendet. Sie müssen den Wert dieser Eigenschaft auf Folgendes setzen: `fmdita/templates/default/cqtemplates/shadowpage` <br> **Hinweis** Sie müssen einen Wert für die `topicPageTemplate` angeben. `landingPageTemplate` und `searchPageTemplate` sind optionale Eigenschaften. Wenn Sie nicht möchten, dass die Such- und Landingpages generiert werden, geben Sie diese Eigenschaften nicht an. |
    | `title` | Ein beschreibender Name Ihrer Design-Vorlage. |
    | `topicContentNode` | Der Speicherort des Knotens, der den DITA-Inhalt auf einer Themenseite enthalten wird. Der Pfad ist relativ zur Themenseite. |
    | `topicHeadNode` | Der Speicherort des Knotens, der die vom DITA-Inhalt abgeleiteten Kopfwerte \(oder Metadaten\) enthalten wird. Der Pfad ist relativ zur Themenseite. |
@@ -331,7 +330,7 @@ Um die erforderlichen Metadaten im System hinzuzufügen, führen Sie die folgend
 
    3. Geben **unter „Feldbezeichnung** den Metadatennamen - Zielgruppe ein.
 
-   4. Geben Sie in **Einstellung „Zu Eigenschaft**&quot; an./jcr:content/metadata/&lt;Name der Metadaten\>. Für unser Beispiel setzen wir es auf ./jcr:content/metadata/audience.
+   4. Geben **in der Einstellung** Zu Eigenschaft zuordnen“ an. /:content/metadata/&lt;Name der Metadaten\>. Für unser Beispiel setzen wir es auf ./jcr/:content/audience.
 
    Fügen Sie mithilfe dieser Schritte alle erforderlichen Metadatenparameter hinzu.
 
@@ -593,9 +592,9 @@ In der folgenden Tabelle werden die Elemente im DITA-Elementschema beschrieben:
 | Element | Beschreibung |
 |-------|-----------|
 | `<ditaelement>` | Der Knoten der obersten Ebene für jedes Zuordnungselement. |
-| `<class>` | Das Klassenattribut des Ziel-DITA-Elements, für das Sie die Komponente schreiben.<br> Das Klassenattribut für das DITA-Thema lautet beispielsweise: <br> `- topic/topic` |
+| `<class>` | Das Klassenattribut des DITA-Zielelements, für das Sie die Komponente schreiben.<br> Das Klassenattribut für das DITA-Thema lautet beispielsweise: <br> `- topic/topic` |
 | `<componentpath>` | Der CRXDE-Pfad der zugeordneten AEM-Komponente. |
-| `<type>` | Mögliche Werte:<br> -   **COMPOSITE**: Verarbeiten Sie auch untergeordnete Elemente <br> -   **STANDALONE**: Überspringt die Verarbeitung von untergeordneten Elementen |
+| `<type>` | Mögliche Werte: <br> - **COMPOSITE**: Verarbeiten Sie auch untergeordnete Elemente <br> - **STANDALONE**: Überspringt die Verarbeitung von untergeordneten Elementen |
 | `<attributeprop>` | Wird für die Zuordnung serialisierter DITA-Attribute und -Werte zu AEM-Knoten als Eigenschaft verwendet. Wenn Sie beispielsweise über `<note type="Caution">` Element verfügen und die Komponente, die für dieses Element zugeordnet ist, über `<attributeprop>attr_t</ attributeprop>` verfügt, werden das Attribut und der Wert des Knotens in `attr_t` Eigenschaft des entsprechenden AEM-Knotens \( `attr_t->type="caution"`\) serialisiert. |
 | `<textprop>propname_t</textprop>` | Speichern Sie die `getTextContent()` Ausgabe in der Eigenschaft, die durch `propname_t.` <br> definiert ist **Hinweis:** Dies ist eine optimierte Eigenschaft. |
 | `<xmlprop>propname_x </xmlprop>` | Speichern Sie die serialisierte XML dieses Knotens in der Eigenschaft `propname_x.<br> `**Hinweis:** Dies ist eine optimierte Eigenschaft. |
@@ -604,7 +603,7 @@ In der folgenden Tabelle werden die Elemente im DITA-Elementschema beschrieben:
 | `<wrapelement>` | Das HTML-Element, in das der Inhalt eingeschlossen werden soll. |
 | `<wrapclass>` | Der Elementwert zur `wrapclass.` |
 | `<attributemap>` | Container-Knoten, der einen oder mehrere `<attribute>`-Knoten enthält. |
-| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Ordnet die DITA-Attribute AEM-Eigenschaften zu: <br> -   **`from`**: DITA-Attributname <br> -   **`to`**: Eigenschaftsname der AEM-Komponente <br> -   **`ispath`**: Wenn das Attribut ein Pfadwert ist \(z. B.: *image*\) <br> -   **`rel`**: Wenn der Pfad die Quell- oder <br> ist **Hinweis:** Wenn `attrname` mit `%` beginnt, dann ordnen Sie `attrname minus '%'` der Eigenschaft &#39; `propname`&#39; zu. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Ordnet die DITA-Attribute AEM-Eigenschaften zu: <br> - **`from`**: DITA-Attributname <br> - **`to`**: Name der AEM-Komponenteneigenschaft <br> - **`ispath`**: Wenn das Attribut ein Pfadwert ist \(z. B.: *image*\) <br> - **`rel`**: Wenn der Pfad die Quell- oder <br> ist **Hinweis:** Wenn `attrname` mit `%` beginnt, dann ordnen Sie `attrname minus '%'` der Eigenschaft &#39; `propname`&#39; zu. |
 
 **Zusätzliche Hinweise**
 

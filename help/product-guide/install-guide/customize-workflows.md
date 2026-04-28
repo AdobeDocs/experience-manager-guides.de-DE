@@ -5,10 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2228'
 ht-degree: 4%
 
 ---
@@ -117,7 +116,7 @@ Sie können dieses Skript im Knoten `/etc/workflows/scripts` erstellen. In der f
 | `ditamap` | Zeichenfolge | Geben Sie den Pfad der Imagemap der Prüfungsaufgabe an |
 | `allowAllReviewers` | Boolescher Wert | false/true |
 | `notifyViaEmail` | Boolescher Wert | false/true |
-| `reviewVersion` | Zeichenfolge | Gibt die aktuelle Version des Überprüfungs-Workflows an. Der Standardwert ist auf `3.0` festgelegt.<br> Um die neuen Funktionen des Überprüfungs-Workflows für [Autoren](../user-guide/review-close-review-task.md) und [Prüfer](../user-guide/review-complete-review-tasks.md) zu aktivieren, stellen Sie sicher, dass die `reviewVersion` auf `3.0` eingestellt ist. |
+| `reviewVersion` | Zeichenfolge | Gibt die aktuelle Version des Überprüfungs-Workflows an. Der Standardwert ist auf `3.0` festgelegt<br> Um die neuen Funktionen des Überprüfungs-Workflows für [Autoren](../user-guide/review-close-review-task.md) und [Reviewer](../user-guide/review-complete-review-tasks.md) zu aktivieren, stellen Sie sicher, dass die `reviewVersion` auf `3.0` eingestellt ist. |
 
 
 Nachdem Sie das Skript erstellt haben, rufen Sie es auf, bevor Sie den Prozess zum Erstellen einer Überprüfung in Ihrem Workflow aufrufen. Anschließend können Sie je nach Ihren Anforderungen die anderen Überprüfungs-Workflow-Prozesse aufrufen.

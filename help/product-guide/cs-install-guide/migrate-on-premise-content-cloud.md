@@ -5,11 +5,10 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1034'
+ht-degree: 6%
 
 ---
 
@@ -42,7 +41,7 @@ Sie können das **Content Transfer Tool** als ZIP-Datei vom **Software Distribut
 1. Wählen Sie **Content Transfer Tool** aus der Liste aus und laden Sie es herunter.
 
 ![Content Transfer Tool herunterladen](./assets/content-transfer-tool-software-portal.png)
-Installieren Sie dann das Paket über **Package Manager** auf Ihrer Adobe Experience Manager-Quellinstanz. Stellen Sie sicher, dass Sie die neueste Version herunterladen.
+Installieren Sie dann das Paket über **Package Manager** auf Ihrer Adobe Experience Manager-Quellinstanz. Laden Sie unbedingt die neueste Version herunter.
 Weitere Informationen zur neuesten Version finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=de).
 
 >[!NOTE]
@@ -72,7 +71,7 @@ Führen Sie die folgenden Schritte aus, um Experience Manager Guides-Inhalte zu 
 
    ![Inhaltsübertragung überprüfen](./assets/migration-content-transfer-review.png)
 
-1. Klicken Sie **Migrationssatz erstellen**.
+1. Klicken Sie auf **Migrationssatz erstellen**.
 
 1. Geben Sie den Namen und die Beschreibung für den Migrationssatz an.
 
@@ -109,7 +108,7 @@ Führen Sie die folgenden Schritte aus, um Experience Manager Guides-Inhalte zu 
    ![](./assets/migration-create-migration-set.png)
 
 1. Geben Sie den zu migrierenden Pfad an und klicken Sie auf **Speichern**.
-Beispiel: `/content/sites`
+Beispiel:  `/content/sites`
 oder
    `/content/dam/tech-docs`
    ![Enthaltene Pfade](./assets/migration-included-paths.png)

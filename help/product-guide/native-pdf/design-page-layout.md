@@ -5,10 +5,9 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5016'
+source-wordcount: '5060'
 ht-degree: 0%
 
 ---
@@ -511,7 +510,7 @@ Im folgenden Beispiel fügen wir ein Kapitelverzeichnis in das erste Seitenlayou
    >
    >Auf der endgültigen veröffentlichten PDF werden nur die Inhaltsverzeichniseinträge angezeigt, die auf dem Inhalt der Kapitel basieren. Wenn Sie in einem Kapitel keine Überschriften der Stufe 5 haben, wird dies in der endgültigen Ausgabe nicht angezeigt.
 
-Das Erscheinungsbild des standardmäßigen Inhaltsverzeichnisses kann mithilfe der Stylesheets angepasst werden. Der Stil, der mit `chaptoc-level-#` beginnt (z. B. `chaptoc-level-1`, `chaptoc-level-2` usw.), wird verwendet, um die Stile für das Kapitel-Inhaltsverzeichnis anzupassen<!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
+Das Erscheinungsbild des standardmäßigen Inhaltsverzeichnisses kann mithilfe der Stylesheets angepasst werden. Der Stil, der mit `chaptoc-level-#` beginnt (z. B. `chaptoc-level-1`, `chaptoc-level-2` usw.), wird verwendet, um die Stile für das Kapitel-Inhaltsverzeichnis anzupassen. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >

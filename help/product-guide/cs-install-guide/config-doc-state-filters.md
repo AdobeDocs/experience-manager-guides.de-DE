@@ -5,10 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -29,40 +28,40 @@ Führen Sie die folgenden Schritte aus, um die Filter für den Dokumentstatus zu
 Informationen zur heruntergeladenen `ui\_config.json` finden Sie im folgenden Abschnitt:
 
        &quot;
-       „repositoryFilters“: &lbrack;
-       &lbrace;
-       „title“: „Document state“,
-       „property“: „jcr:content/metadata/docstate“,
-       „children“: &lbrack;
-       &lbrace;
-       „title“: „draft“,
-       „value“: „Entwurf“
-       &rbrace;,
-       &lbrace;
-       „title“: „Bearbeiten“,
-       „value“: „Bearbeiten“
-       &rbrace;,
-       &lbrace;
-       „title“: „In-Review“,
-       „value“: „In-Review“
-       &rbrace;,
-       &lbrace;
-       „title“: „Approved“,
-       „value“: „Approved“
-       &rbrace;,
-       &lbrace;
-       „title“: „Überprüft“,
-       „value“: „Überprüft“
-       &rbrace;,
-       &lbrace;
-       „title“: „Done“,
-       „value“: „Done“
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       &rbrack;
-       &quot;
-   Dieser Ausschnitt stellt die in Experience Manager Guides verfügbaren Standardfilter für den Dokumentstatus dar.
+     „repositoryFilters“: &lbrack;
+     &lbrace;
+     „title“: „Dokumentenstatus“,
+„property“: „jcr:content/metadata/docstate“,    „children“: &lbrack;    &lbrace;title“ 
+„title“: „Entwurf“,    „value“: &quot;     
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+&quot;: „Entwurf“ „Wert“: &quot;
+&quot;, &quot;
+&quot;, &quot;    &quot;, „Wert“: „Überprüft“, &quot;
+&quot;, &quot;    &quot;, „Fertig“, &quot;
+&quot;, „Fertig“, und „Fertig“, „Fertig“   Dieser Ausschnitt stellt die in Experience Manager Guides verfügbaren Standardfilter für den Dokumentstatus dar.
 
 1. Sie können die Filterwerte auf Grundlage des Workflows Ihrer Organisation anpassen. Um beispielsweise den benutzerdefinierten Dokumentstatus „Ausstehend **hinzuzufügen, fügen** den folgenden Eintrag unter `children` ein:
 

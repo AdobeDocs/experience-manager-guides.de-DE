@@ -5,11 +5,10 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 13%
+source-wordcount: '877'
+ht-degree: 11%
 
 ---
 
@@ -67,7 +66,7 @@ Basierend auf dem in Ihrem Setup verwendeten Übersetzungs-Workflow sollte die O
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Boolesch: <br> -   Wenn Sie die menschliche Übersetzung verwenden, *Sie die Option* Komponentenbasierter Übersetzungs`false`Workflow **auf \(**\). <br> -   Wenn Sie die maschinelle Übersetzung verwenden, aktivieren *\( `true`\)* die Option **Komponentenbasierter Übersetzungs-Workflow**. |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Boolescher Wert: <br> - Wenn Sie die menschliche Übersetzung verwenden, *Deaktivieren* \( `false`\) die Option **Komponentenbasierter Übersetzungs-Workflow**. <br> - Wenn Sie maschinelle Übersetzung verwenden, aktivieren *die Option \( `true`\* der **Komponentenbasierter Übersetzungs-Workflow**. |
 
 
 
@@ -82,7 +81,7 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Boolescher Wert: <br> - Wenn Sie den neuesten Übersetzungs-Workflow verwenden, wählen *Deaktivieren* \( `false`\) die Option **Legacy-Übersetzungs-Workflow ausführen** aus.  <br> -   Wenn Sie die alte Übersetzung verwenden, aktivieren *\( `true`\)* die Option **Legacy-Übersetzungs-Workflow**. <br> **Standardwert**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Boolescher Wert: <br> - Wenn Sie den neuesten Übersetzungs-Workflow verwenden, wählen *Deaktivieren* \( `false`\) die Option **Legacy-Übersetzungs-Workflow ausführen** aus.  <br> - Wenn Sie die alte Übersetzung verwenden, aktivieren *\( `true`\)* die Option **Legacy-Übersetzungs-Workflow ausführen**. <br> **Standardwert**: false |
 
 
 
@@ -103,5 +102,5 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Boolesch: <br> -   Wenn Sie den Nachbearbeitungsvorgang für die temporären Dateien nicht ausführen möchten, wählen Sie *Deaktivieren* \( false\) die Option **Sprachkopien nachverarbeiten**.<br> -   Wenn Sie den Nachbearbeitungsvorgang für die temporären Dateien ausführen möchten, wählen Sie *Aktivieren* \( true\) die Option **Sprachkopien nachverarbeiten** aus.<br> **Standardwert**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Boolescher Wert: <br> - Wenn Sie den Nachbearbeitungsvorgang für die temporären Dateien nicht ausführen möchten, wählen Sie *Deaktivieren* \( false\) die Option **Sprachkopien nachverarbeiten** aus.<br> - Wenn Sie den Nachbearbeitungsvorgang für die temporären Dateien ausführen möchten, wählen Sie *Aktivieren* \( true\) die Option **Sprachkopien nachverarbeiten** aus.<br> **Standardwert**: false |
 

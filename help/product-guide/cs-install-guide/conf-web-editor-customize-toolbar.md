@@ -5,10 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -44,11 +43,11 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
 
    In der Regel können Sie eine neue Gruppe von Symbolleistenschaltflächen erstellen und ihr eine oder mehrere Symbolleistenschaltflächen hinzufügen. Sie können auch eine neue Symbolleistenschaltfläche zu einer vorhandenen Symbolleistengruppe hinzufügen. Zum Erstellen einer neuen Symbolleistengruppe sind die folgenden Details erforderlich:
 
-   **type**:   Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
+   **type**: Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
 
-   **extraClass**:   Name der Klasse(n), durch Leerzeichen getrennt
+   **extraClass**: Name der Klasse(n), durch Leerzeichen getrennt.
 
-   **items**:   Legen Sie die Definition aller Gruppen in der Symbolleiste fest. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole innerhalb einer Symbolleistengruppe zu definieren, müssen Sie erneut das `type` Attribut innerhalb der `items` definieren und deren Wert auf `buttonGroup` festlegen. Geben Sie einen oder mehrere Klassennamen in der `extraclass` Eigenschaft an. Geben Sie den Funktionsnamen in der Eigenschaft `label` an. Der folgende Ausschnitt aus der `ui_config.json` zeigt die Definition für den Haupt-Symbolleistenblock, gefolgt von der `buttonGroup` Definition:
+   **Elemente**: Geben Sie die Definition aller Gruppen in der Symbolleiste an. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole innerhalb einer Symbolleistengruppe zu definieren, müssen Sie erneut das `type` Attribut innerhalb der `items` definieren und deren Wert auf `buttonGroup` festlegen. Geben Sie einen oder mehrere Klassennamen in der `extraclass` Eigenschaft an. Geben Sie den Funktionsnamen in der Eigenschaft `label` an. Der folgende Ausschnitt aus der `ui_config.json` zeigt die Definition für den Haupt-Symbolleistenblock, gefolgt von der `buttonGroup` Definition:
 
    ```
    "toolbar": {    
@@ -67,21 +66,21 @@ Führen Sie die folgenden Schritte aus, um der Symbolleiste des Web-Editors eine
 
    Sie müssen die folgenden Eigenschaften definieren, um ein Symbolleistensymbol hinzuzufügen:
 
-   **type**:   Geben Sie `button` als `type` an. Dieser Wert gibt an, dass Sie eine Symbolleistenschaltfläche hinzufügen.
+   **type**: Geben Sie `button` als `type` an. Dieser Wert gibt an, dass Sie eine Symbolleistenschaltfläche hinzufügen.
 
-   **Symbol**:   Geben Sie den Namen des Coral-Symbols an, das Sie in der Symbolleiste verwenden möchten.
+   **icon**: Geben Sie den Namen des Coral-Symbols an, das Sie in der Symbolleiste verwenden möchten.
 
-   **Variante**:   Geben Sie `quiet` als `variant` an.
+   **variant**: Geben Sie `quiet` als `variant` an.
 
-   **title**:   Geben Sie die QuickInfo für das Symbol an.
+   **title**: Geben Sie die QuickInfo für das Symbol an.
 
-   **on-click**:   Geben Sie den Befehlsnamen an, der für die Funktion in der JavaScript-Datei definiert ist. Wenn für den Befehl Eingabeparameter erforderlich sind, geben Sie den Befehlsnamen wie folgt an:
+   **on-click**: Geben Sie den Befehlsnamen an, der für die Funktion in der JavaScript-Datei definiert ist. Wenn für den Befehl Eingabeparameter erforderlich sind, geben Sie den Befehlsnamen wie folgt an:
 
    ```Javascript
    "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
    ```
 
-   **Einblenden oder ausblenden**:   Wenn Sie die `show`-Eigenschaft definieren, geben Sie die Modi an, in denen das Symbol angezeigt wird. Zu den möglichen Werten gehören - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(Anzeige in allen Modi\) oder `false` \(Ausblenden in allen Modi\).
+   **Anzeigen oder Ausblenden**: Wenn Sie die `show` Eigenschaft definieren, geben Sie die Modi an, in denen das Symbol angezeigt wird. Zu den möglichen Werten gehören - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(Anzeige in allen Modi\) oder `false` \(Ausblenden in allen Modi\).
 
    Anstelle von `show` können Sie auch die Eigenschaft `hide` definieren. Die möglichen Werte sind dieselben wie in `show` Eigenschaft, mit dem einzigen Unterschied, dass das Symbol für den angegebenen Modus nicht angezeigt wird.
 
@@ -130,11 +129,11 @@ Führen Sie die folgenden Schritte aus, um unerwünschte Funktionen aus der Symb
 
    Die `ui_config.json`-Datei besteht aus drei Abschnitten:
 
-   1. **Symbolleisten**:   Dieser Abschnitt enthält die Definition aller in der Editor-Symbolleiste verfügbaren Funktionen wie Einfügen/Entfernen, Nummerierte Liste, \(Datei\) Schließen, Speichern, Kommentare und mehr.
+   1. **Symbolleisten**: Dieser Abschnitt enthält die Definition aller in der Symbolleiste des Editors verfügbaren Funktionen, z. B. Einfügen/Entfernen einer nummerierten Liste, \(Datei\) Schließen, Speichern, Kommentare und mehr.
 
-   1. **Tastaturbefehle**:   Dieser Abschnitt enthält die Definition der Tastaturbefehle, die einer bestimmten Funktion im Editor zugewiesen sind.
+   1. **Tastaturbefehle** Dieser Abschnitt enthält die Definition von Tastaturbefehlen, die einer bestimmten Funktion im Editor zugewiesen sind.
 
-   1. **Vorlagen**:   Dieser Abschnitt enthält die vordefinierte Struktur von DITA-Elementen, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt Vorlagen Vorlagendefinitionen für einen Absatz, einfache Tabellen-, Tabellen- und Textelemente. Sie können eine Vorlagendefinition für ein beliebiges Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise zu jedem neuen `p`-Element in einer Liste ein `li`-Element hinzufügen möchten, können Sie zu diesem Zweck den folgenden Code am Ende des Abschnitts „Vorlagen“ hinzufügen:
+   1. **templates**: Dieser Abschnitt enthält die vordefinierte Struktur der DITA-Elemente, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt Vorlagen Vorlagendefinitionen für einen Absatz, einfache Tabellen-, Tabellen- und Textelemente. Sie können eine Vorlagendefinition für ein beliebiges Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise zu jedem neuen `li`-Element in einer Liste ein `p`-Element hinzufügen möchten, können Sie zu diesem Zweck den folgenden Code am Ende des Abschnitts „Vorlagen“ hinzufügen:
 
    ```css
    "li": "<li><p></p></li>"

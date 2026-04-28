@@ -5,10 +5,9 @@ exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2865'
 ht-degree: 0%
 
 ---
@@ -465,7 +464,7 @@ Führen Sie die folgenden Schritte aus, um fehlerhafte Verweise mithilfe des im 
 
 1. Führen Sie das Patch-Skript `[/bin/fmdita/validatebtree?operation=patch]` aus, um die fehlerhaften Verweise zu beheben. Die Skriptausführung dauert einige Minuten und druckt die Protokolle im Verlauf. Nach Abschluss der Ausführung wird am Ende &quot;`Done`&quot; gedruckt.
 
-   **Hinweis:* Es wird empfohlen, die Protokolle zu Referenzzwecken zu kopieren und zu speichern.
+   ** Hinweis:* Es wird empfohlen, die Protokolle zu Referenzzwecken zu kopieren und zu speichern.
 
 1. Nachdem das Patch-Skript erfolgreich ausgeführt wurde, können Sie die folgenden Prüfungen durchführen:
 1. &#x200B;

@@ -5,11 +5,10 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '9148'
-ht-degree: 0%
+source-wordcount: '9267'
+ht-degree: 2%
 
 ---
 
@@ -89,7 +88,7 @@ Diese API dient dazu, den aktuellen Systemstatus zu bewerten und Berichte zu ers
 | Endpunkt | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Abfragetyp | **GET** Sie können einen Webbrowser verwenden, in dem Sie bei der AEM-Instanz als Admin angemeldet sind. |
-| Erwartete Antwort | -   Wenn alle erforderlichen Knoten verschoben werden können, erhalten Sie eine bestandene Prüfung. <br>-   Wenn am Zielspeicherort ein Knoten vorhanden ist, wird ein relevanter Fehler angezeigt. Bereinigen Sie das Repository \(löschen Sie den Knoten /var/dxml\) und installieren Sie das Aktualisierungspaket erneut. Führen Sie dann erneut einen Trigger mit diesem Endpunkt durch. <br>**Hinweis:** Dies ist kein häufiger Fehler, da der Zielspeicherort von 3.x Experience Manager Guides nicht zuvor verwendet wird. <br> -   Wenn dieses Skript nicht erfolgreich ist, fahren Sie nicht fort und melden Sie es Ihrem Customer Success-Team. |
+| Erwartete Antwort | - Wenn alle erforderlichen Knoten verschoben werden können, erhalten Sie eine bestandene Prüfung. <br>- Wenn ein Knoten am Zielspeicherort vorhanden ist, wird ein relevanter Fehler angezeigt. Bereinigen Sie das Repository \(löschen Sie den Knoten /var/dxml\) und installieren Sie das Aktualisierungspaket erneut. Führen Sie dann erneut einen Trigger mit diesem Endpunkt durch. <br>**Hinweis:** Dies ist kein häufiger Fehler, da der Zielspeicherort von 3.x Experience Manager Guides nicht zuvor verwendet wird. <br> - Wenn dieses Skript nicht erfolgreich ist, fahren Sie nicht fort und melden Sie es Ihrem Customer Success-Team. |
 
 **Systemdatenmigrations-API**
 
@@ -101,7 +100,7 @@ Diese API dient zur Migration der Systemdaten, wie im Abschnitt **Migrationszuor
 | Endpunkt | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Abfragetyp | **POST** Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
-| Erwartete Antwort | -   Nach erfolgreicher Migration können Sie die XML Documentation-Lösung Version 4.0.<br>-   Wenn Fehler auftreten, stellen Sie den letzten Checkpoint wieder her und geben Sie die Fehlerprotokolle zusammen mit der API-Ausgabe an Ihr Customer Success-Team weiter. |
+| Erwartete Antwort | - Nach erfolgreicher Migration können Sie die XML Documentation-Lösung Version 4.0.<br> installieren.- Wenn Fehler auftreten, stellen Sie den letzten Checkpoint wieder her und geben Sie die Fehlerprotokolle zusammen mit der API-Ausgabe an Ihr Customer Success-Team weiter. |
 
 **Migrationszuordnung**: Die obige API migriert alle Daten unter dem Quellspeicherort zum Zielspeicherort.
 
@@ -143,7 +142,7 @@ Bevor Sie mit dem Upgrade auf Experience Manager Guides 4.2 beginnen, stellen Si
 
 1. Auf Experience Manager Guides Version 4.0, 4.1 oder 4.1.x aktualisiert.
 1. Alle Übersetzungsaufgaben geschlossen.
-1. Protokollebene für **Klasse in &quot;**&quot; `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log.`
+1. Protokollebene für `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` Klasse in &quot;**&quot;** und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
@@ -242,7 +241,7 @@ Nach der Installation von Experience Manager Guides können Sie die verschiedene
 1. Nachdem das Upgrade abgeschlossen ist, stellen Sie sicher, dass alle Anpassungen/Überlagerungen validiert und aktualisiert werden, damit sie dem neuen Anwendungs-Code entsprechen. Im Folgenden finden Sie einige Beispiele:
    - Alle Komponenten, die von /libs/fmdidator/libs überlagert sind, sollten mit dem neuen Produkt-Code verglichen werden und Aktualisierungen sollten in überlagerten Dateien unter /apps vorgenommen werden.
    - Alle Client-Bibliothekskategorien, die vom Produkt verwendet werden, sollten auf Änderungen überprüft werden. Alle überschriebenen Konfigurationen \(Beispiele unten\) sollten mit den neuesten verglichen werden, um die neuesten Funktionen zu erhalten:
-   - elementmapping.xml
+   - elementMapping.xml
    - ui\_config.json\(wurde möglicherweise in Ordnerprofilen festgelegt\)
    - geänderte `com.adobe.fmdita.config.ConfigManager`
    - Überprüfen Sie, ob einer der benutzerdefinierten Codes alte Pfade verwendet hat \(wie im Abschnitt [Migrationszuordnung](#id2244LE040XA)\) - sollte auf die neuen Pfade aktualisiert werden, damit die Anpassungen ebenfalls erwartungsgemäß funktionieren.
@@ -319,7 +318,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.2.1 Folge
 
 1. Auf Experience Manager Guides Version 4.1, 4.1.x oder 4.2 aktualisiert.
 1. Alle Übersetzungsaufgaben geschlossen.
-1. Protokollebene für **Klasse in &quot;**&quot; `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log.`
+1. Protokollebene für `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` Klasse in &quot;**&quot;** und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
@@ -459,7 +458,7 @@ Nach der Installation von Experience Manager Guides können Sie die verschiedene
 1. Nachdem das Upgrade abgeschlossen ist, stellen Sie sicher, dass alle Anpassungen/Überlagerungen validiert und aktualisiert werden, damit sie dem neuen Anwendungs-Code entsprechen. Im Folgenden finden Sie einige Beispiele:
    - Alle Komponenten, die von /libs/fmdidator/libs überlagert sind, sollten mit dem neuen Produkt-Code verglichen werden und Aktualisierungen sollten in überlagerten Dateien unter /apps vorgenommen werden.
    - Alle Client-Bibliothekskategorien, die vom Produkt verwendet werden, sollten auf Änderungen überprüft werden. Alle überschriebenen Konfigurationen \(Beispiele unten\) sollten mit den neuesten verglichen werden, um die neuesten Funktionen zu erhalten:
-   - elementmapping.xml
+   - elementMapping.xml
    - ui\_config.json\(wurde möglicherweise in Ordnerprofilen festgelegt\)
    - geänderte `com.adobe.fmdita.config.ConfigManager`
    - Überprüfen Sie, ob einer der benutzerdefinierten Codes alte Pfade verwendet hat \(wie im Abschnitt [Migrationszuordnung](#id2244LE040XA)\) - sollte auf die neuen Pfade aktualisiert werden, damit die Anpassungen ebenfalls erwartungsgemäß funktionieren.
@@ -554,7 +553,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.3.1 Folge
 
 1. auf Experience Manager Guides Version 4.3.0, 4.2 oder 4.2.1 aktualisiert und der entsprechende Installationsschritt abgeschlossen.
 1. (Optional) Alle Übersetzungsaufgaben wurden geschlossen.
-1. Protokollebene für **Klasse in &quot;**&quot; `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
+1. Protokollebene für `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` Klasse in &quot;**&quot;** und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
 
 
 ## Installieren von Version 4.3.1
@@ -687,7 +686,7 @@ Nach der Installation von Experience Manager Guides können Sie die verschiedene
 1. Nachdem das Upgrade abgeschlossen ist, stellen Sie sicher, dass alle Anpassungen/Überlagerungen validiert und aktualisiert werden, damit sie dem neuen Anwendungs-Code entsprechen. Im Folgenden finden Sie einige Beispiele:
    - Alle Komponenten, die von /libs/fmdidator/libs überlagert sind, sollten mit dem neuen Produkt-Code verglichen werden und Aktualisierungen sollten in überlagerten Dateien unter /apps vorgenommen werden.
    - Alle Client-Bibliothekskategorien, die vom Produkt verwendet werden, sollten auf Änderungen überprüft werden. Alle überschriebenen Konfigurationen \(Beispiele unten\) sollten mit den neuesten verglichen werden, um die neuesten Funktionen zu erhalten:
-   - elementmapping.xml
+   - elementMapping.xml
    - ui\_config.json\(wurde möglicherweise in Ordnerprofilen festgelegt\)
    - geänderte `com.adobe.fmdita.config.ConfigManager`
 
@@ -795,7 +794,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.4.0 Folge
 
 1. auf Experience Manager Guides Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) aktualisiert und der entsprechende Installationsschritt abgeschlossen.
 1. (Optional) Alle Übersetzungsaufgaben wurden geschlossen.
-1. Protokollebene für **Klasse in &quot;**&quot; `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
+1. Protokollebene für `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` Klasse in &quot;**&quot;** und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
 
 
 ## Installieren von Version 4.4.0
@@ -890,7 +889,7 @@ Nach der Installation von Experience Manager Guides können Sie die verschiedene
 1. Nachdem das Upgrade abgeschlossen ist, stellen Sie sicher, dass alle Anpassungen/Überlagerungen validiert und aktualisiert werden, damit sie dem neuen Anwendungs-Code entsprechen. Im Folgenden finden Sie einige Beispiele:
    - Alle Komponenten, die von /libs/fmdidator/libs überlagert sind, sollten mit dem neuen Produkt-Code verglichen werden und Aktualisierungen sollten in überlagerten Dateien unter /apps vorgenommen werden.
    - Alle Client-Bibliothekskategorien, die vom Produkt verwendet werden, sollten auf Änderungen überprüft werden. Alle überschriebenen Konfigurationen \(Beispiele unten\) sollten mit den neuesten verglichen werden, um die neuesten Funktionen zu erhalten:
-   - elementmapping.xml
+   - elementMapping.xml
    - ui\_config.json\(wurde möglicherweise in Ordnerprofilen festgelegt\)
    - geänderte `com.adobe.fmdita.config.ConfigManager`
 
@@ -1003,7 +1002,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.6.0 Folge
 
 1. auf Experience Manager Guides Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) aktualisiert und der entsprechende Installationsschritt abgeschlossen.
 1. (Optional) Alle Übersetzungsaufgaben wurden geschlossen.
-1. Protokollebene für **Klasse in &quot;**&quot; `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
+1. Protokollebene für `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` Klasse in &quot;**&quot;** und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
 
 
 ## Installieren von Version 4.6.0
@@ -1096,7 +1095,7 @@ Nach der Installation von Experience Manager Guides können Sie die verschiedene
 1. Nachdem das Upgrade abgeschlossen ist, stellen Sie sicher, dass alle Anpassungen/Überlagerungen validiert und aktualisiert werden, damit sie dem neuen Anwendungs-Code entsprechen. Im Folgenden finden Sie einige Beispiele:
    - Alle Komponenten, die von /libs/fmdidator/libs überlagert sind, sollten mit dem neuen Produkt-Code verglichen werden und Aktualisierungen sollten in überlagerten Dateien unter /apps vorgenommen werden.
    - Alle Client-Bibliothekskategorien, die vom Produkt verwendet werden, sollten auf Änderungen überprüft werden. Alle überschriebenen Konfigurationen \(Beispiele unten\) sollten mit den neuesten verglichen werden, um die neuesten Funktionen zu erhalten:
-   - elementmapping.xml
+   - elementMapping.xml
    - ui\_config.json\(wurde möglicherweise in Ordnerprofilen festgelegt\)
    - geänderte `com.adobe.fmdita.config.ConfigManager`
 
@@ -1158,7 +1157,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 5.0.0 Folge
 
 1. auf Experience Manager Guides Version 4.6.3, 4.6.1, 4.6.0 oder 4.4 aktualisiert und der entsprechende Installationsschritt abgeschlossen.
 1. (Optional) Alle Übersetzungsaufgaben wurden geschlossen.
-1. Protokollebene für **Klasse in &quot;**&quot; `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
+1. Protokollebene für `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` Klasse in &quot;**&quot;** und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
 
 
 ## Installieren von Version 5.0.0
@@ -1251,7 +1250,7 @@ Nach der Installation von Experience Manager Guides können Sie die verschiedene
 1. Nachdem das Upgrade abgeschlossen ist, stellen Sie sicher, dass alle Anpassungen/Überlagerungen validiert und aktualisiert werden, damit sie dem neuen Anwendungs-Code entsprechen. Im Folgenden finden Sie einige Beispiele:
    - Alle Komponenten, die von /libs/fmdidator/libs überlagert sind, sollten mit dem neuen Produkt-Code verglichen werden und Aktualisierungen sollten in überlagerten Dateien unter /apps vorgenommen werden.
    - Alle Client-Bibliothekskategorien, die vom Produkt verwendet werden, sollten auf Änderungen überprüft werden. Alle überschriebenen Konfigurationen \(Beispiele unten\) sollten mit den neuesten verglichen werden, um die neuesten Funktionen zu erhalten:
-   - elementmapping.xml
+   - elementMapping.xml
    - ui\_config.json\(wurde möglicherweise in Ordnerprofilen festgelegt\)
    - geänderte `com.adobe.fmdita.config.ConfigManager`
 
@@ -1322,7 +1321,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 5.1.0 Folge
 
 1. auf Experience Manager Guides Version 4.6.3, 4.6.4, 5.0.0 oder 5.0.0 Service Pack 1 aktualisiert und der entsprechende Installationsschritt abgeschlossen.
 1. (Optional) Alle Übersetzungsaufgaben wurden geschlossen.
-1. Protokollebene für **Klasse in &quot;**&quot; `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
+1. Protokollebene für `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` Klasse in &quot;**&quot;** und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
 
 >[!NOTE]
 >
@@ -1418,7 +1417,7 @@ Nach der Installation von Experience Manager Guides können Sie die verschiedene
 1. Nachdem das Upgrade abgeschlossen ist, stellen Sie sicher, dass alle Anpassungen/Überlagerungen validiert und aktualisiert werden, damit sie dem neuen Anwendungs-Code entsprechen. Im Folgenden finden Sie einige Beispiele:
    - Alle Komponenten, die von /libs/fmdidator/libs überlagert sind, sollten mit dem neuen Produkt-Code verglichen werden und Aktualisierungen sollten in überlagerten Dateien unter /apps vorgenommen werden.
    - Alle Client-Bibliothekskategorien, die vom Produkt verwendet werden, sollten auf Änderungen überprüft werden. Alle überschriebenen Konfigurationen \(Beispiele unten\) sollten mit den neuesten verglichen werden, um die neuesten Funktionen zu erhalten:
-   - elementmapping.xml
+   - elementMapping.xml
    - ui\_config.json\(wurde möglicherweise in Ordnerprofilen festgelegt\)
    - geänderte `com.adobe.fmdita.config.ConfigManager`
 

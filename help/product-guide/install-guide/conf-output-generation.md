@@ -5,10 +5,9 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '5824'
+source-wordcount: '5886'
 ht-degree: 1%
 
 ---
@@ -58,7 +57,7 @@ Um AEM Guides für die Verwendung von FMPS zu konfigurieren, aktualisieren Sie d
 
 | Eigenschaft | Beschreibung |
 |--------|-----------|
-| FrameMaker Publishing Server-Anmeldedomäne | Geben Sie den Domain-Namen oder den Arbeitsgruppennamen an, auf dem die FrameMaker Publishing Server gehostet wird. Geben Sie basierend auf der FMPS-Version den Domain-Namen wie folgt an:-   **FMPS 2020**: IP-Adresse als 192.168.1.101 <br>- **FMPS 2019 und früher**: IP-Adresse oder der Domain-Name |
+| FrameMaker Publishing Server-Anmeldedomäne | Geben Sie den Domain-Namen oder den Arbeitsgruppennamen an, auf dem die FrameMaker Publishing Server gehostet wird. Geben Sie basierend auf der FMPS-Version den Domain-Namen als:- **FMPS 2020** an: IP-Adresse als 192.168.1.101 <br>- **FMPS 2019 und früher**: IP-Adresse oder den Domain-Namen |
 | FrameMaker Publishing Server-URL | Geben Sie die URL der FrameMaker Publishing Server an. Geben Sie basierend auf der FMPS-Version die FMPS-URL als: <br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 und früher**: `http://<fmps_ip>:<port>/fmserver/v1/` |
 | FMPS-Version | Geben Sie die Versionsnummer der FrameMaker Publishing Server an. Geben Sie basierend auf der FMPS-Version die Versionsinformationen wie folgt an: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 und früher**: 2019 oder 2017 |
 | Benutzername und Kennwort für FrameMaker Publishing Server | Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf die FrameMaker Publishing Server an. |
@@ -137,7 +136,7 @@ Sie können auch benutzerdefinierte DITA Open Toolkit \(DITA-OT\)-Plug-ins mit A
 
 >[!TIP]
 >
-> Best Practices für die Erstellung von AEM *Site-Ausgaben finden Sie im Abschnitt* 0&rbrace;AEM-Site-Veröffentlichung[&#x200B; im Handbuch zu Best Practices..md\#.](appendix.md#)
+> Best Practices für die Erstellung von AEM *Site-Ausgaben finden Sie im Abschnitt [0&rbrace;AEM-Site-Veröffentlichung](appendix.md#) im Handbuch zu Best Practices..md\#.*
 
 ### Anpassen der Design-Vorlage für die Generierung von Ausgaben {#customize_xml-add-on}
 
@@ -394,7 +393,7 @@ Um die erforderlichen Metadaten im System hinzuzufügen, führen Sie die folgend
 
    1. Geben **unter „Feldbezeichnung** den Metadatennamen - Zielgruppe ein.
 
-   1. Geben Sie in **Einstellung „Zu Eigenschaft**&quot; an./jcr:content/metadata/&lt;Name der Metadaten\>. Für unser Beispiel setzen wir es auf ./jcr:content/metadata/audience.
+   1. Geben **in der Einstellung** Zu Eigenschaft zuordnen“ an. /:content/metadata/&lt;Name der Metadaten\>. Für unser Beispiel setzen wir es auf ./jcr/:content/audience.
 
    Fügen Sie mithilfe dieser Schritte alle erforderlichen Metadatenparameter hinzu.
 

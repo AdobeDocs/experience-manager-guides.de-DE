@@ -2,10 +2,9 @@
 title: Konfigurieren der Smart-Hilfe für die Inhaltssuche
 description: Erfahren Sie, wie Sie die Smart-Hilfe für die Inhaltssuche konfigurieren
 exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
-hidefromtoc: true
-source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
+source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -35,7 +34,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
    *Fügen Sie Ihrem Projekt die I/O-Management-API hinzu.*
 
 1. Erstellen Sie eine neue **OAuth-Berechtigung** und speichern Sie sie.
-   ![OAuth-Berechtigungskachel in API konfigurieren](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+   ![OAuth-Berechtigungskachel in der API konfigurieren](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
    *Konfigurieren von OAuth-Anmeldeinformationen für Ihre API.*
 
 1. Wählen Sie auf **Registerkarte** die Option **OAuth-Server zu Server** und wählen Sie dann die neu erstellten Anmeldeinformationen aus.
