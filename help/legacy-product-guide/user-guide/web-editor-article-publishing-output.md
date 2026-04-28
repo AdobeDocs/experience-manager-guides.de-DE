@@ -86,4 +86,4 @@ Perform the following steps to generate output for more than one topic in your D
 1. Sie sehen den Status des Ausgabegenerierungsprozesses.Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf Ausgabe anzeigen.
 
 
-**Parent topic:**[ Article-based publishing from the Web Editor](web-editor-article-publishing.md)
+**Parent topic:**&#x200B;[&#x200B; Article-based publishing from the Web Editor](web-editor-article-publishing.md)

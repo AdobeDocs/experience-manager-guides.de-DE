@@ -169,4 +169,4 @@ Perform the following steps to remove an output task from the Generated Output l
    The task is deleted from the Generated Outputs list.
 
 
-**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

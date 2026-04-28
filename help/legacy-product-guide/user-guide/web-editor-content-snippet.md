@@ -30,16 +30,16 @@ Abhängig von Ihrem Setup kann Ihr Administrator einen Datenquellen-Connector ko
 
 - Wenn Sie die Version vom Oktober 2023 oder höher verwenden, erfahren Sie, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) im Installations- und Konfigurationshandbuch für Cloud Services finden.
 
-- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Services, wie [ einen Datenquellen-Connector ](/help/product-guide/cs-install-guide/conf-data-source-connector.md).
+- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Services, wie [&#x200B; einen Datenquellen-Connector &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector.md).
 
 </details>
 
 <details>    
 <summary>  On-Premise Software </summary>
 
-- Wenn Sie Version 4.3.1 oder höher verwenden, erfahren Sie im On-Premise[Installations- und Konfigurationshandbuch , wie Sie einen Datenquellen-Connector über ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) Benutzeroberfläche konfigurieren.
+- Wenn Sie Version 4.3.1 oder höher verwenden, erfahren Sie im On-Premise[Installations- und Konfigurationshandbuch , wie Sie einen Datenquellen-Connector über &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) Benutzeroberfläche konfigurieren.
 
-- Wenn Sie Version 4.3 verwenden, erfahren Sie im On-[-Installations- und Konfigurationshandbuch , wie Sie ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) Datenquellen-Connector konfigurieren.
+- Wenn Sie Version 4.3 verwenden, erfahren Sie im On-[-Installations- und Konfigurationshandbuch , wie Sie &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector.md) Datenquellen-Connector konfigurieren.
 </details>
 
 
@@ -107,7 +107,7 @@ Die vordefinierten Vorlagen für die ausgewählte Datenquelle werden in der Drop
    >  
    > Wenn Ihr Administrator benutzerdefinierte Vorlagen konfiguriert hat, werden Ihnen diese Vorlagen auch in der Dropdown-Liste angezeigt (basierend auf den Vorlagenpfadkonfigurationen, die von Ihrem Administrator durchgeführt wurden).
    >   
-   >Sie können auch Velocity-Tools in den Vorlagen verwenden. Erfahren Sie mehr über die Verwendung [ Velocity-Tools](#use-velocity-tools).
+   >Sie können auch Velocity-Tools in den Vorlagen verwenden. Erfahren Sie mehr über die Verwendung [&#x200B; Velocity-Tools](#use-velocity-tools).
 
 1. Das **Ressource**-Dropdown wird für einige Connectoren wie REST-Client, Salsify, Akeneo und Microsoft ADO angezeigt.  Wählen Sie eine Ressource aus dem Dropdown-Menü aus und stellen Sie eine Verbindung mit ihr her, um ein Inhaltsfragment oder ein Thema mithilfe des Generators dafür zu erstellen.
 

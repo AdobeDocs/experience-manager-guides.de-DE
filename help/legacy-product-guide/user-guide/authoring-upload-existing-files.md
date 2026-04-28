@@ -48,4 +48,4 @@ For more details about how the various file uploading scenarios, see [Upload DIT
 
 In case you use a tool like AEM desktop app or Asset bulk ingestor, then the action to perform on a duplicate file is controlled by a setting in the AEM server. Contact your system administrator to know about this configuration.
 
-**Parent topic:**[ Manage content](authoring.md)
+**Parent topic:**&#x200B;[&#x200B; Manage content](authoring.md)

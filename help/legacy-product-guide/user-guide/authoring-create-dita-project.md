@@ -77,4 +77,4 @@ Perform the following steps to create a DITA project:
 1. Klicken Sie **Öffnen**, um Ihre Projektseite zu öffnen.
 
 
-**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Themen oder Karten überprüfen](review.md)

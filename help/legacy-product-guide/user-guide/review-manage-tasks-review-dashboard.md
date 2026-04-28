@@ -56,7 +56,7 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 Sie können die folgenden Aktionen auf der Registerkarte **Aufgabe** ausführen:
 
 - Ändern Sie den Titel der Aufgabe im Feld **Titel** .
-- Fügen Sie Standardbevollmächtigte in der Dropdown **Liste „Zuweisen an** hinzu. Die Reviewer, die Sie von hier hinzufügen, erhalten Zugriff, um alle Themen zu überprüfen, die Teil dieser Prüfungsaufgabe sind. Sie können auf der Registerkarte „Validierungsverantwortliche“ wählen, ob Sie zu bestimmten Themen [ oder selektiv weitere Validierungsverantwortliche ](#reviewer-tab-id199RF0N0MUI).
+- Fügen Sie Standardbevollmächtigte in der Dropdown **Liste „Zuweisen an** hinzu. Die Reviewer, die Sie von hier hinzufügen, erhalten Zugriff, um alle Themen zu überprüfen, die Teil dieser Prüfungsaufgabe sind. Sie können auf der Registerkarte „Validierungsverantwortliche“ wählen, ob Sie zu bestimmten Themen [&#x200B; oder selektiv weitere Validierungsverantwortliche &#x200B;](#reviewer-tab-id199RF0N0MUI).
 - Aktualisieren Sie die Beschreibung der Aufgabe im Feld **Beschreibung** .
 - Ändern Sie das **Fälligkeitsdatum**. Sie können die Frist für den Abschluss der Aufgabe vorziehen oder verschieben.
 - Wählen Sie die Option aus, um Benutzer darauf zu beschränken, nur die Themen anzusehen, die ihnen zugewiesen sind.
@@ -125,4 +125,4 @@ The status report for the review task contains the following details:
 - Total number of comments made on all topics. In case of multiple topics under review, the number of comments for each topic is mentioned \(in brackets\) against the topic name.
 - The date when any topic was last accessed by the reviewer.
 
-**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Themen oder Karten überprüfen](review.md)

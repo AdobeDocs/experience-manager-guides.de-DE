@@ -444,7 +444,7 @@ Sie können auch andere Eigenschaften für eine Bilddatei hinzufügen, indem Sie
 
 >[!NOTE]
 >
->Sie können auch anklickbare Bereiche \(Imagemap\) in Ihrem Bild definieren. Weitere Informationen finden Sie in der Beschreibung **Funktion &quot;** einfügen/bearbeiten“ im Abschnitt [Linkes ](web-editor-features.md#id2051EA0M0HS)&quot;.
+>Sie können auch anklickbare Bereiche \(Imagemap\) in Ihrem Bild definieren. Weitere Informationen finden Sie in der Beschreibung **Funktion &quot;** einfügen/bearbeiten“ im Abschnitt [Linkes &#x200B;](web-editor-features.md#id2051EA0M0HS)&quot;.
 
 **Kontextmenü für Bild- oder Mediendateien**
 
@@ -752,7 +752,7 @@ Um auf den Versionsverlauf zuzugreifen und auf eine bestimmte Version Ihres Them
    **Vorschau**-Registerkarte: Der neu hinzugefügte Inhalt ist in grüner Schriftart, und der gelöschte Inhalt ist in roter Schriftart.
 
    Registerkarte **Metadaten**: Die neu hinzugefügten Metadaten sind in grüner Schrift, die gelöschten Metadaten in roter Schrift.
-   ![Metadatenunterschied für Versionen ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Metadatenunterschied für Versionen &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
    *Vergleichen der Metadaten verschiedener Versionen im Versionsverlauf.*
 
    >[!NOTE]
@@ -1969,7 +1969,7 @@ Sie können auf die Funktion **Inhaltseigenschaften** zugreifen, indem Sie im re
 
 1. Wählen **im Dropdown** Bedienfeld „Attribut“ das Attribut aus der Dropdown-Liste aus und geben Sie den Wert eines Attributs an.  Klicken Sie dann auf **Hinzufügen**.
 
-   ![Attributbedienfeld mit mehreren Attributen ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![Attributbedienfeld mit mehreren Attributen &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Um das Attribut zu bearbeiten, halten Sie den Mauszeiger darüber und wählen Sie **Bearbeiten** ![edit-icon](images/edit_pencil_icon.svg) aus.
    ![Attribute bearbeiten](images/edit-attributes-content-properties.png){width="300" align="left"}
@@ -2004,7 +2004,7 @@ Im Abschnitt Allgemein haben Sie Zugriff auf die folgenden Funktionen:
 - **Language**: Zeigt die Sprache des Themas an. Sie wird im Feld Sprache auf der Seite Eigenschaften festgelegt.
 - **Erstellt am**: Zeigt Datum und Uhrzeit der Erstellung des Themas an.
 - **Ausgecheckt von**: Zeigt den Benutzer an, der das Thema ausgecheckt hat.
-- **Dokumentstatus**: Sie können den Dokumentstatus des aktuell geöffneten Themas auswählen und aktualisieren. Weitere Informationen finden Sie unter [Dokumentstatus ](web-editor-document-states.md#)*.*
+- **Dokumentstatus**: Sie können den Dokumentstatus des aktuell geöffneten Themas auswählen und aktualisieren. Weitere Informationen finden Sie unter [Dokumentstatus &#x200B;](web-editor-document-states.md#)*.*
 
 **Hinweis** Sie können die Attributwerte der verschiedenen Felder in den Dateieigenschaften in die Zwischenablage kopieren.
 
@@ -2047,4 +2047,4 @@ Mit der Funktion „Nachverfolgte Änderungen“ im rechten Bereich können Sie 
 >
 > Die Funktion „Nachverfolgte Änderungen“ zeigt alle Aktualisierungen an, die mit der Funktion „Änderungen nachverfolgen“ in der Hauptsymbolleiste aktiviert/deaktiviert wurden. Weitere Informationen finden Sie unter [Änderungen verfolgen/deaktivieren](#id205DF0203Y4).
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)

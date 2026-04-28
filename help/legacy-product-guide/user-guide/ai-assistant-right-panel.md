@@ -133,7 +133,7 @@ Diese Funktion wandelt einen ausgewählten Absatz intelligent in eine Liste um. 
 
 
 1. Inhalt auswählen.
-1. Wählen Sie **Inhalt** KI![Symbol für Inhalt ](./images/ai-itemize-icon.svg) aus, um den ausgewählten Inhalt in eine Liste zu konvertieren.
+1. Wählen Sie **Inhalt** KI![Symbol für Inhalt &#x200B;](./images/ai-itemize-icon.svg) aus, um den ausgewählten Inhalt in eine Liste zu konvertieren.
 Das Tool KI-Assistent konvertiert den Inhalt intelligent in eine Liste von Elementen.
 1. (Optional) Klicken Sie auf **Erweitern**, um den Editor **Inhalt auflisten** zu öffnen.
 1. Sobald Ihre Liste fertig ist, akzeptieren Sie die Änderungen am generierten Inhalt. Der generierte Inhalt ersetzt dann den ausgewählten Inhalt.
@@ -146,7 +146,7 @@ Verwenden Sie diese intelligente Funktion, um die ausgewählten Inhalte in die Z
 Führen Sie die folgenden Schritte aus, um die Inhalte zu übersetzen:
 
 1. Wählen Sie die Inhalte aus, die Sie übersetzen möchten.
-1. Wählen Sie **Inhalt übersetzen** im ](./images/ai-translate-content-icon.svg)-Assistentenfeld ![Symbol „Inhalt übersetzen“ aus.
+1. Wählen Sie **Inhalt übersetzen** im ![&#128279;](./images/ai-translate-content-icon.svg)-Assistentenfeld Symbol „Inhalt übersetzen“ aus.
 1. Wählen Sie im Dropdown-Menü die Zielsprache aus. Die übersetzten Inhalte werden im Bedienfeld KI-Assistent angezeigt.
 
 1. (Optional) Wählen Sie **Erweitern** aus, um den Editor **Inhalte übersetzen** zu öffnen.

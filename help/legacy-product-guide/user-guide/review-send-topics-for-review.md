@@ -199,7 +199,7 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
 
 1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
 
@@ -266,4 +266,4 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
 Alle validierungsverantwortlichen Personen werden per E-Mail darüber informiert, dass ihnen zu überprüfende Themen zugewiesen wurden. Die E-Mail enthält einen direkten Link, auf den sie klicken und auf das Thema in einem Browser-Fenster zugreifen können. Die Themen werden zusammen mit der DITA-Karte im Review-Modus geöffnet.
 
-**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Themen oder Karten überprüfen](review.md)

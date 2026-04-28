@@ -58,4 +58,4 @@ Gehen Sie wie folgt vor, um eine Kennzeichnung zu löschen:
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Parent topic:**[ Work with the Web Editor](web-editor.md)
+**Parent topic:**&#x200B;[&#x200B; Work with the Web Editor](web-editor.md)

@@ -61,4 +61,4 @@ Führen Sie die folgenden Schritte aus, um Ausgabevorgaben für Ihre DITA-Zuordn
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Parent topic:**[ Article-based publishing from the Web Editor](web-editor-article-publishing.md)
+**Parent topic:**&#x200B;[&#x200B; Article-based publishing from the Web Editor](web-editor-article-publishing.md)

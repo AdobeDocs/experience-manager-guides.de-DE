@@ -58,4 +58,4 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei zusammen mi
 
 Once the map is downloaded, you can select the map and use the Open icon on the top to open the selected report.
 
-**Parent topic:**[ Manage content](authoring.md)
+**Parent topic:**&#x200B;[&#x200B; Manage content](authoring.md)

@@ -209,7 +209,7 @@ Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Oxyge
 
 1. Klicken Sie im AEM Guides-Bedienfeld auf das Symbol Einstellungen und wählen Sie dann **Einstellungen** aus.
 
-   ![Verbindungseinstellungen ](images/settings.png){width="800" align="left"}
+   ![Verbindungseinstellungen &#x200B;](images/settings.png){width="800" align="left"}
 
 1. Geben Sie die folgenden Details an:
    - **Server URL**: URL des AEM-Servers, z. B.:

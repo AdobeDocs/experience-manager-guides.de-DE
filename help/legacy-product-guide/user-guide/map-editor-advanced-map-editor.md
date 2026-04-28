@@ -261,7 +261,7 @@ Zeigt das Dialogfeld Element einfügen an. Wählen Sie das Element aus, das Sie 
 
 **Beziehungstabelle einfügen** - ![](images/relationship_table_icon.svg)
 
-Fügt eine Beziehungstabelle in die Zuordnung ein. Da das Konzept der Arbeit mit der Beziehungstabelle identisch ist, wie im Abschnitt Grundlegender Zuordnungs-Editor erläutert, finden [ unter „Arbeiten mit Beziehungstabellen im ](map-editor-basic-map-editor.md#id1944B0I0COB) Zuordnungs-Editor“ weitere Details.
+Fügt eine Beziehungstabelle in die Zuordnung ein. Da das Konzept der Arbeit mit der Beziehungstabelle identisch ist, wie im Abschnitt Grundlegender Zuordnungs-Editor erläutert, finden [&#x200B; unter „Arbeiten mit Beziehungstabellen im &#x200B;](map-editor-basic-map-editor.md#id1944B0I0COB) Zuordnungs-Editor“ weitere Details.
 
 **Wiederverwendbaren Inhalt einfügen** - ![](images/content-reuse-icon.png)
 
@@ -283,7 +283,7 @@ Blendet die XML-Tags ein oder aus. Die Tags dienen als visuelle Hinweise auf die
 
 **Änderungen verfolgen/deaktivieren** - ![](images/track-change-icon.svg)
 
-Sie können alle Aktualisierungen in der Zuordnungsdatei verfolgen, indem Sie den Modus Änderungen verfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen im Dokument erfasst. Weitere Informationen finden Sie unter &quot;[ aktivieren/deaktivieren](web-editor-features.md#id205DF0203Y4) im Web-Editor.
+Sie können alle Aktualisierungen in der Zuordnungsdatei verfolgen, indem Sie den Modus Änderungen verfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen im Dokument erfasst. Weitere Informationen finden Sie unter &quot;[&#x200B; aktivieren/deaktivieren](web-editor-features.md#id205DF0203Y4) im Web-Editor.
 
 **Prüfungsaufgabe erstellen** - ![](images/create-review-task-icon.svg)
 

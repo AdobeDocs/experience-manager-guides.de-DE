@@ -74,4 +74,4 @@ In the Web Editor mode, the right panel contains the Review and Tracked Changes 
 - **I**: Einen Filter auf die Kommentare anwenden. Sie können nach Kommentaren filtern, indem Sie die folgenden Kategorien verwenden: Prüfungstyp \(alle, hervorgehoben, gelöscht, eingefügt oder Haftnotiz\), Prüfstatus \(alle, akzeptiert, abgelehnt oder keine\), Prüfer \(alle oder bestimmte Prüfer\(s\)\) oder Versionen des Themas.
 
 
-**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Themen oder Karten überprüfen](review.md)

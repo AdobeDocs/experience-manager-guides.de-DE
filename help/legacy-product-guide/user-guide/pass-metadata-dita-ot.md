@@ -45,4 +45,4 @@ Perform the following steps to pass on the metadata to the output using DITA-OT 
 
 The selected metadata properties will be passed to the output generated using DITA-OT.
 
-**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

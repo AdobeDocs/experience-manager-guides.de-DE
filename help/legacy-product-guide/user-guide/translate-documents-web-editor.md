@@ -227,4 +227,4 @@ Für die Dokumentverwaltung bietet Experience Manager Guides die Möglichkeit, d
 Sie können die Übersetzungsprojekte auch deaktivieren, wenn Sie sie später verwenden möchten. Beim Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner gelöscht. Disabling a project doesn&#39;t delete it but maintains it in the repository. But you can&#39;t update or edit a disabled project.  Deletion or disabling a project will not impact the translation status of any references.
 
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)

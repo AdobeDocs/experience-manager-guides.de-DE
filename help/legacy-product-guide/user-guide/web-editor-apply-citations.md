@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um Zitate zu importieren:
 
    >[!NOTE]
    > <ol><li> AEM Guides importiert nur die Zitate, die eindeutig und noch nicht vorhanden sind.
-    &gt; <li> AEM Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
+   > &gt; <li> AEM Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
 
 ## Zitate verwalten
 
@@ -190,7 +190,7 @@ Sie können Zitate zum Thema aus der Hauptsymbolleiste oder dem linken Bereich e
 ### In der Haupt-Symbolleiste
 
 1. Wählen Sie das Symbol **Zitate** ![Zitate](images/citations-icon.svg) in der Hauptsymbolleiste aus.
-1. Wählen Sie **Dialogfeld**Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
+1. Wählen Sie **Dialogfeld**&#x200B;Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
    ![Zitierdialogfeld](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. You can filter citations by typing the first few alphabets in the search panel of the **Citation** dialog box.
 
@@ -204,7 +204,7 @@ The selected citation is added at the cursor location in your topic.
 > 
 >To view the **Citations** icon from the left panel, your system administrator must select the **Citations** option in the **Panels** tab in **Editor Settings**.
 
-1. Select **Citations** ![citations icon ](images/citations-icon.svg) icon in the left panel.
+1. Select **Citations** ![citations icon &#x200B;](images/citations-icon.svg) icon in the left panel.
 1. Drag the citation from the **Citations** panel and drop it at the appropriate location in the topic.
 
    You can also select **Insert** from  ![](images/options.svg) **Options** to insert a citation.

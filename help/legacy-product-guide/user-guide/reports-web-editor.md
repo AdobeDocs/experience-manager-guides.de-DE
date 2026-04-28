@@ -115,7 +115,7 @@ Der **Multimedia** Bericht enthält detaillierte Informationen zu den in Ihrer Z
 1. Doppelklicken Sie auf **Multimedia** links. Die Liste der in der DITA-Karte vorhandenen Multimedia-Inhalte wird angezeigt.
 1. Im Bedienfeld **Filter** können Sie die Liste nach Multimedia oder nach den in Verweisen verwendeten Namen sortieren.
 
-   - Wenn Sie nach **Multimedia** sortieren, wird der ****-Name des Multimediums in der ersten Spalte angezeigt und dann werden die Namen aller Verweise, in denen sie verwendet wurden, in einer anderen Spalte in derselben Zeile angezeigt. Der folgende Screenshot zeigt beispielsweise die Multimedia-Datei „WarmCoolForC.gif“ in der ersten Spalte und drei Verweise, in denen sie verwendet wird, werden in der dritten Spalte in derselben Zeile angezeigt.
+   - Wenn Sie nach **Multimedia** sortieren, wird der **&#x200B;**-Name des Multimediums in der ersten Spalte angezeigt und dann werden die Namen aller Verweise, in denen sie verwendet wurden, in einer anderen Spalte in derselben Zeile angezeigt. Der folgende Screenshot zeigt beispielsweise die Multimedia-Datei „WarmCoolForC.gif“ in der ersten Spalte und drei Verweise, in denen sie verwendet wird, werden in der dritten Spalte in derselben Zeile angezeigt.
 
      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
@@ -194,4 +194,4 @@ Klicken Sie **Aktualisieren** um eine neue Liste fehlerhafter Links zu erhalten 
 1. Klicken Sie **CSV herunterladen**, um den aktuellen Schnappschuss der fehlerhaften Links in der DITA-Karte herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die fehlerhaften Links, die in der Ansicht Beschädigte Links gefiltert wurden. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen und anzeigen.
 
 
-**Übergeordnetes Thema:**[ Reports](reports-intro.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)

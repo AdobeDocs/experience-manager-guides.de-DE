@@ -62,4 +62,4 @@ Führen Sie die folgenden Schritte aus, um ein Markdown-Thema im Web-Editor zu e
 >
 > If you have not saved changes, a popup is displayed, and you are prompted to save your topic before you close it.
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
