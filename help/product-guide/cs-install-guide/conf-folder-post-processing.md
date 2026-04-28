@@ -22,7 +22,7 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 >[!NOTE]
 >
-> Sie können auch reguläre Ausdrücke (Regex) verwenden, um Regeln zu definieren, die für mehrere Ordner oder eine gesamte Ordnerhierarchie gelten. Weitere Informationen finden Sie im Abschnitt [Verwenden von Regex zum Aktivieren oder Deaktivieren der ](#use-regex-to-enable-or-disable-post-processing)&quot;.
+> Sie können auch reguläre Ausdrücke (Regex) verwenden, um Regeln zu definieren, die für mehrere Ordner oder eine gesamte Ordnerhierarchie gelten. Weitere Informationen finden Sie im Abschnitt [Verwenden von Regex zum Aktivieren oder Deaktivieren der &#x200B;](#use-regex-to-enable-or-disable-post-processing)&quot;.
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
