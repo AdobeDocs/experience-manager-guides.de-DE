@@ -5,7 +5,7 @@ feature: Publishing
 hide: true
 role: User
 exl-id: 682ca543-86f3-46b0-9e05-7e011a4cf7b8
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -41,4 +41,4 @@ In den folgenden Abschnitten werden die Optionen erläutert, die für die unters
 
 Als Administrator können Sie mit Experience Manager Guides Ausgabevorgaben für die globalen Profile und Ordnerprofile erstellen und verwalten. Weitere Informationen finden Sie unter [Verwalten von globalen und Ordnerprofil-Ausgabevorgaben](./web-editor-manage-output-presets.md).
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

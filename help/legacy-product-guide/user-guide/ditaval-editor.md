@@ -5,9 +5,9 @@ feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 DITAVAL-Dateien werden zur Erzeugung von bedingten Ausgaben verwendet. In einem einzelnen Thema können Sie Bedingungen mithilfe von Elementattributen hinzufügen, um Inhalte mit Bedingungen zu versehen. Anschließend erstellen Sie eine DITAVAL-Datei, in der Sie die Bedingungen angeben, die aufgenommen werden sollen, um Inhalte zu generieren, und welche Bedingung bei der endgültigen Ausgabe ausgeschlossen werden soll.
 
-Mit AEM Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die in Ihrem System definierten Attribute \(oder tags\) ab, mit denen Sie DITAVAL-Dateien erstellen oder bearbeiten können. Weitere Informationen zum Erstellen und Verwalten von Tags in AEM finden Sie [&#x200B; Abschnitt „Verwalten von &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=de)&quot; in der Dokumentation zu AEM.
+Mit AEM Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die in Ihrem System definierten Attribute \(oder tags\) ab, mit denen Sie DITAVAL-Dateien erstellen oder bearbeiten können. Weitere Informationen zum Erstellen und Verwalten von Tags in AEM finden Sie [ Abschnitt „Verwalten von ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)&quot; in der Dokumentation zu AEM.
 
 ## DITAVAL-Datei erstellen
 
@@ -82,16 +82,16 @@ Wenn Sie mit einem Klick alle in Ihrem System definierten bedingten Eigenschafte
    > Wenn Sie die Datei schließen, ohne zu speichern, gehen die Änderungen verloren. Wenn Sie die Änderungen nicht in das AEM-Repository übernehmen möchten, klicken Sie auf **Schließen** und anschließend **Ohne Speichern schließen** im Dialogfeld **Nicht gespeicherte Änderungen**.
 
 
-## DITAVAL Editor-Ansichten
+## DITAVAL editor views
 
-Der DITAVAL-Editor von AEM Guides unterstützt die Anzeige von DITAVAL-Dateien in zwei verschiedenen Modi oder Ansichten:
+AEM Guides&#39; DITAVAL editor supports viewing DITAVAL files in two different modes or views:
 
-**Autor**:   Dies ist eine typische Ansicht von What You See Is What You Get \(WYSISYG\) des DITAVAL-Editors. Sie können Eigenschaften über die einfache Benutzeroberfläche hinzufügen oder entfernen, über die die Eigenschaften, ihre Werte und Aktionen in der Dropdown-Liste angezeigt werden. In der Autorenansicht haben Sie die Möglichkeit, eine einzelne Eigenschaft einzufügen und alle Eigenschaften mit einem Klick einzufügen.
+**Author**:   This is a typical What You See is What You Get \(WYSISYG\) view of the DITAVAL editor. You can add or remove properties using the simple user interface, which presents the properties, its values, and actions in drop-down list. In the Author view, you have the options to insert an individual property and insert all properties with a single click.
 
-Sie können auch die Version der DITAVAL-Datei finden, an der Sie gerade arbeiten, indem Sie den Mauszeiger über den Dateinamen bewegen.
+You can also find the version of the DITAVAL file that you are currently working on by hovering your pointer over the filename.
 
-**Source**:   Die Source-Ansicht zeigt den zugrunde liegenden XML-Code an, aus dem die DITAVAL-Datei besteht. In dieser Ansicht können Autoren nicht nur reguläre Textbearbeitungen durchführen, sondern auch Eigenschaften mithilfe des Smart-Katalogs hinzufügen oder bearbeiten.
+**Source**:   The Source view displays the underlying XML that makes up the DITAVAL file. In addition to making regular text edits in this view, an author can also add or edit properties using the Smart Catalog.
 
-Um den Smart-Katalog aufzurufen, platzieren Sie den Cursor am Ende einer Eigenschaftendefinition und geben Sie &quot;&lt;&quot; ein. Der Editor zeigt eine Liste aller gültigen XML-Elemente an, die Sie an dieser Stelle einfügen können.
+To invoke the Smart Catalog, place the cursor at the end of any property definition and enter &quot;&lt;&quot;. The editor will show a list of all valid XML elements that you can insert at that location.
 
 ![](images/ditaval-source-view.png)

@@ -1,36 +1,36 @@
 ---
 title: Best Practices für die Übersetzung von Inhalten
-description: Kenntnis der Best Practices für die Übersetzung von Inhalten in AEM Guides Erfahren Sie, wie Sie den Übersetzungs-Service konfigurieren, ein neues Übersetzungsprojekt erstellen und den Übersetzungsauftrag starten.
+description: Know the best practices for content translation in AEM Guides. Learn how to configure the translation service, create a new translation project, and start the translation job.
 feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1315'
 ht-degree: 2%
 
 ---
 
 # Best Practices für die Übersetzung von Inhalten {#id1678G0S702F}
 
-Beachten Sie den folgenden Punkt für die Übersetzung von Inhalten:
+Consider the following point for translating content:
 
-- Ordner- und Dateinamen müssen den Dateibenennungsstandards entsprechen, z. B. - es sollten keine Leerzeichen, Apostrophe, geschweifte Klammern, Gleichheitszeichen, Sonderzeichen oder Nicht-ASCII-Zeichen vorhanden sein.
+- The folder and file names must comply with the file naming standards such as—there should be no spaces, apostrophe, braces, equals sign, special or non-ASCII characters.
 
-- Wenn Sie Inhalte in verschiedene Sprachen übersetzen, müssen Sie Ordner für jede Sprache erstellen. Jeder dieser Sprachordner enthält den Inhalt, der dieser Sprache entspricht. Sie können beispielsweise Ordner mit dem Sprach-Bezeichner erstellen, z. B. `de` für Deutsch, `fr` für Französisch usw. Alternativ können Sie Ordner mit den Sprach- und Regionskennzeichnungen erstellen, z. B. `fr-FR` für Französisch (wie in Frankreich verwendet) oder `fr-CA` für Französisch (wie in Kanada verwendet).
-- Für die Zielsprache sollten auch die tatsächlichen Gebietsschemata gemäß den Zielsprachordnern in ihrer Instanz ausgewählt sein.
-- Die Cloud-Konfiguration sollte mit der des Quellordners übereinstimmen und es sollte nur eine Cloud-Konfiguration in einem Ordner geben. Sie können unter /conf mehrere Ordner erstellen, wenn Sie mehrere Übersetzungs-Connectoren verwenden möchten.
-- Ein Ordner darf nicht mehr als 1000 Dateien enthalten.
-- Stellen Sie sicher, dass die Person, die mit dem Initiieren des Übersetzungsprozesses beauftragt ist, über Lese-, Änderungs-, Erstellungs- und Löschberechtigungen für die Ordner der Ausgangs- und Zielsprache verfügt.
-- Da für die Übersetzung von Inhalten ein Übersetzungsprojekt erstellt werden muss, muss der Benutzer Zugriff darauf haben, ein Projekt in AEM zu erstellen.
-- Wenn Sie bedingte Vorgaben mit Ihrer Zuordnung verwenden möchten, müssen Sie sie vor dem Initiieren des Übersetzungsprozesses erstellen. Da bedingte Vorgaben auch in der übersetzten Version der Zuordnung gebündelt sind, müssen Sie beim Erstellen der Vorgaben vor dem Initiieren des Übersetzungsprozesses sicherstellen, dass sie in der übersetzten Version verfügbar sind.
-- Die Übersetzung von Inhalten muss über die DITA-Zuordnungskonsole und nicht über die AEM Assets-Benutzeroberfläche gestartet werden.
-- Der komponentenbasierte DITA-Übersetzungs-Workflow darf nicht verwendet werden, wenn Sie Inhalte mit menschlicher Übersetzung übersetzen. Diese Option muss jedoch für maschinelle Übersetzung verwendet werden.
-- Die global verwendeten Inhalte und Medien, die nicht lokalisiert werden müssen, sollten nicht in die Sprachkopien übernommen werden.
-- Alle allgemeinen Inhalte, die lokalisiert werden müssen, sollten in einem gemeinsamen Ordner unter dem Sprachordner aufbewahrt werden.
+- If you translate content in different languages, you must create folders corresponding to each language. Each of these language folders will contain the content corresponding to that language. For example, you can create folders using the language designator like `de` for German, `fr` for French, and so on. Or, you can create folders using the language and region designators like `fr-FR` for French as used in France or `fr-CA` for French as used in Canada.
+- The target language should also have the actual locales selected as per the target language folders on their instance.
+- The cloud configuration should be same as that of the source folder and there should be only one cloud configuration in one folder. You can create multiple folders under /conf, if you want to use multiple translation connectors.
+- A folder should not have more than 1000 files in it.
+- Ensure that the user tasked with initiating the translation process has Read, Modify, Create, and Delete permissions on the source and target language folders.
+- As translating content requires creation of a translation project, the user must have access to create project in AEM.
+- If you want to use Conditional Presets with your map, you must create them before initiating the translation process. As Conditional Presets are also bundled in the translated version of the map, creating the presets before initiating the translation process ensure that they are available in the translated version.
+- Content translation process must be started from DITA map console and not the AEM Assets UI.
+- The Component-Based DITA Translation Workflow must not be used if you are translating content via human translation. However, this option must be used for machine translation.
+- The globally used content and media that don&#39;t require localization, should be kept out of the language copies.
+- All the common content that has to be localized, should be kept in a common folder under the language folder.
 
-Die folgende Abbildung zeigt ein Beispiel für eine Ordnerstruktur in AEM, wenn Sie global Inhalte und drei Sprachkopien verwendet haben.
+The following illustration shows an example of a folder structure in AEM when you have globally used content and three language copies.
 
 ![](images/aem-directory_structure.png){width="800" align="left"}
 
@@ -50,7 +50,7 @@ Führen Sie die folgenden Schritte aus, um den Service für menschliche oder mas
 
    >[!NOTE]
    >
-   > Siehe [Konfigurieren des Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=de) in der Dokumentation zu AEM für Details zur Integration mit Übersetzungsdiensten von Drittanbietern.
+   > Siehe [Konfigurieren des Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in der Dokumentation zu AEM für Details zur Integration mit Übersetzungsdiensten von Drittanbietern.
 
 1. Klicken Sie auf **Speichern und schließen** um die aktualisierten Ordnereigenschaften zu speichern.
 
@@ -141,4 +141,4 @@ Nach Abschluss der Übersetzung ändert sich der Status des Übersetzungsauftrag
 >
 > Wenn Sie die Übersetzung für ein oder mehrere Themen in einem Übersetzungsauftrag ablehnen, wird der **In Bearbeitung** Übersetzungsstatus aller abgelehnten Themen auf ihren ursprünglichen Status zurückgesetzt. Der Status der referenzierten Themen wird entsprechend dem aktuellen Übersetzungsstatus überprüft und zurückgesetzt. Außerdem werden die im Zielprojekt erstellten Übersetzungsdateien nicht gelöscht, selbst wenn die Übersetzung dafür abgelehnt wird.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte übersetzen](translation.md)
+**Übergeordnetes Thema:**[ Inhalte übersetzen](translation.md)

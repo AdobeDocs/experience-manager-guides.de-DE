@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Um eine Massen-Aktivierungszuordnungssammlung zu erstellen, führen Sie die folg
 
 Die DITA-Zuordnungsdateien werden Ihrer Massen-Aktivierungszuordnungssammlung hinzugefügt.
 
-![&#x200B; erstellte Massenaktivierungs-Sammlung](images/bulk-activation-collection-created.png){width="800" align="left"}
+![ erstellte Massenaktivierungs-Sammlung](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 ## Registerkarte „Zuordnungen und Vorgaben“
 
@@ -85,7 +85,7 @@ Die **Audit-Verlauf** enthält Informationen zu den aktivierten Zuordnungsausgab
 
 - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wurde. Basierend auf diesen Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung aktivieren möchten.
 - **Veröffentlicht**: Zeigt Datum und Uhrzeit der letzten veröffentlichten (oder aktivierten) Ausgabe an. Wenn Sie auf den Link klicken, wird die Seite Aktivierungsergebnisse angezeigt, die die Protokolle mit Informationen zum Stammpfad enthält, in dem der Inhalt aktiviert wird.
-  ![&#x200B; hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![ hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](images/bulk-collection-audit-history.png){width="800" align="left"}
 
   *Informationen zu den aktivierten Zuordnungsausgaben finden Sie auf der Registerkarte **Prüfverlauf**.*
 
@@ -106,4 +106,4 @@ Die folgenden Filteroptionen sind im linken Bedienfeld verfügbar:
 
 Die Filter werden aktualisiert, wenn Sie von der Registerkarte **Zuordnungen und Vorgaben** zur Registerkarte **Prüfverlauf** und umgekehrt wechseln.
 
-**Übergeordnetes Thema: &#x200B;** [Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
+**Übergeordnetes Thema: **[Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

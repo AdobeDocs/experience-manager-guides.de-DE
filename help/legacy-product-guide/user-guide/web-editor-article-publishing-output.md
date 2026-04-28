@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -58,32 +58,32 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabe für die gesamte DITA-Zu
 
 1. Wählen **auf der Registerkarte** Autor“ die zu veröffentlichende DITA-Zuordnung aus.
 
-1. Wählen Sie **Quick Generate** aus dem Menü Optionen Ihrer DITA-Karte aus.
+1. Select **Quick Generate** from the Options menu of your DITA map.
 
    ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
-1. Wählen Sie die Ausgabevorgaben Ihrer DITA-Zuordnung aus, die Sie veröffentlichen möchten, und klicken Sie auf **Generieren.**
+1. Select the output presets of your DITA map which you want to use to publish and click **Generate.**
 
 1. Sie sehen den Status des Ausgabegenerierungsprozesses. Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf Ausgabe anzeigen.
 
 
-## Generieren einer Ausgabe für mehr als ein Thema
+## Generate output for more than one topic
 
-Führen Sie die folgenden Schritte aus, um im Bereich „Kartenansicht“ eine Ausgabe für mehr als ein Thema in Ihrer DITA-Zuordnung zu generieren:
+Perform the following steps to generate output for more than one topic in your DITA map from the Map View panel:
 
-1. Wählen **auf der Registerkarte** Autor“ die Themen aus, die Sie veröffentlichen möchten.
+1. In the **Author** tab, select the topics which you want to publish.
 
-1. Wählen **Ausgabe generieren** aus dem Menü „Optionen“ unten aus.
+1. Select **Generate Output** from the Options menu at the bottom.
 
-1. Wählen Sie die Ausgabevorgabe Ihrer DITA-Zuordnung aus, die Sie zum Veröffentlichen verwenden möchten.
+1. Select the output preset of your DITA map which you want to use to publish.
 
    >[!NOTE]
    >
-   > Es werden nur die Ausgabevorgaben der aktuellen DITA-Map angezeigt, die alle ausgewählten Themen enthalten.
+   > You will see only those output presets of the current DITA map which contain all the selected topics.
 
    ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
 
-1. Daraufhin wird der Status des Ausgabegenerierungsprozesses angezeigt. Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf Ausgabe anzeigen.
+1. Sie sehen den Status des Ausgabegenerierungsprozesses.Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf Ausgabe anzeigen.
 
 
-**Übergeordnetes Thema**&#x200B;[&#x200B; Artikelbasierte Veröffentlichung im Web-Editor](web-editor-article-publishing.md)
+**Parent topic:**[ Article-based publishing from the Web Editor](web-editor-article-publishing.md)

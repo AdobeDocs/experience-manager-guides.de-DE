@@ -1,37 +1,37 @@
 ---
-title: Arbeiten mit dem grundlegenden Zuordnungs-Editor
-description: Erfahren Sie, wie Sie mit dem grundlegenden Zuordnungs-Editor in AEM Guides arbeiten. Kennenlernen der Funktionen des grundlegenden Karten-Editors auf Karten- und Themenebene. Erstellen und Bearbeiten von Beziehungstabellen in einer DITA-Zuordnung.
+title: Work with the Basic Map Editor
+description: Learn how to work with the Basic Map Editor in AEM Guides. Know the features of the basic map editor at map level and topic level. Create and edit relationship tables in  a DITA map.
 feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
 
-# Arbeiten mit dem grundlegenden Zuordnungs-Editor {#id1942CM005Y4}
+# Work with the Basic Map Editor {#id1942CM005Y4}
 
 >[!NOTE]
 >
-> Der grundlegende Zuordnungs-Editor, der zuvor in Experience Manager Guides verfügbar war, wird seit Version 4.3 und 2307 nicht mehr unterstützt. Sie können nicht auf den grundlegenden Karten-Editor zugreifen, um DITA-Karten zu erstellen und zu verwalten.
->Es wird empfohlen, den erweiterten Zuordnungs-Editor zu verwenden. Der erweiterte Zuordnungs-Editor bietet erweiterte Funktionen und bessere Anpassungsoptionen. Weitere Informationen zum Arbeiten mit dem [erweiterten Karten-Editor](../user-guide/map-editor-advanced-map-editor.md).
+> The Basic Map Editor, previously available in Experience Manager Guides, has been deprecated starting from version 4.3 and 2307. You can&#39;t access the Basic Map Editor to create and manage DITA maps.
+>You are recommended to use the Advanced Map Editor. The Advanced Map Editor offers enhanced features and better customization options. Explore more about how to work with the [Advanced Map Editor](../user-guide/map-editor-advanced-map-editor.md).
 
-Der einfache Karten-Editor bietet eine einfache Drag-and-Drop-Funktion zum Hinzufügen von Themen aus Ihrem AEM-Repository, um die DITA-Karte oder -Lesekarte zu erstellen. Sie können verschachtelte Themen, Beziehungstabellen \(reltable\), Attribute und Metadateninformationen hinzufügen und die Zuordnung auch auf Korrektheit überprüfen.
+The Basic Map Editor provides an easy drag-and-drop feature to add topics from your AEM repository to create the DITA map or bookmap. You can add nested topics, relationship tables \(reltable\), attributes and metadata information, and also validate the map for correctness.
 
 >[!NOTE]
 >
-> Wenn Ihr Admin die Option Erweiterter Zuordnungs-Editor aktiviert hat, haben Sie keinen Zugriff auf den einfachen Zuordnungs-Editor. Alle Zuordnungsdateien werden standardmäßig im erweiterten Zuordnungs-Editor geöffnet.
+> If your administrator has enabled the Advanced Map Editor option, then you will not have access to the Basic Map Editor. All map files will open in the Advanced Map Editor by default.
 
-In den folgenden Abschnitten werden die verschiedenen Funktionen beschrieben, die im grundlegenden Zuordnungs-Editor verfügbar sind.
+The following sections describe the various functions available in the Basic Map Editor.
 
 ## Themen zu einer Zuordnungsdatei hinzufügen {#id193CBL0505Z}
 
-Nachdem Sie eine Zuordnungsdatei erstellt haben, müssen Sie der Zuordnungsdatei Themen hinzufügen. Mit dem einfachen Zuordnungs-Editor können Sie Themen, Beziehungstabellen oder andere Zuordnungsdateien hinzufügen.
+Once a map file is created, you need to add topics to the map file. Using the Basic Map Editor, you can add topics, relationship tables, or other map files.
 
-Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei zu erstellen:
+Perform the following steps to build your map file:
 
 1. Navigieren Sie in der Assets-Benutzeroberfläche zu der Zuordnungsdatei, die Sie bearbeiten möchten.
 
@@ -196,4 +196,4 @@ Wenn Sie ein Thema aus Ihrer Tabelle löschen möchten, klicken Sie auf das Kreu
 
 Wenn Sie die Beziehungstabelle löschen möchten, klicken Sie auf eine beliebige Stelle außerhalb der Beziehungstabelle und klicken Sie auf Löschen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Zuordnungs-Editor](map-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Zuordnungs-Editor](map-editor.md)

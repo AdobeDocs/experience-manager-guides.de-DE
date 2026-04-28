@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Translation
 role: User
 hide: true
 exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2358'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ AEM Guides verfügt über eine leistungsstarke Funktion im Web-Editor, mit der S
 
 ## Voraussetzungen
 
-Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderlichen Sprachstamm- und Zielordner erstellt haben
+Before performing steps in this procedure, ensure that you have created the required language root and target folders
 
 1. Erstellen Sie einen Stammordner, um Ihre Quellinhalte zu speichern. Der Stammordner muss mit dem Namen der Sprache \(z. B. Englisch\) oder dem Sprach-Code \(en\) erstellt werden.
 1. Erstellen Sie die Zielordner, in die Sie Ihre Inhalte übersetzen möchten. Wenn Sie beispielsweise Ihre Inhalte in Deutsch oder Französisch übersetzen möchten, müssen Sie einen Ordner mit dem Namen -de \(für Deutsch\) oder -fr \(für Französisch\) erstellen.
@@ -38,7 +38,7 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 ## Ein Übersetzungsprojekt erstellen
 
 1. Öffnen Sie **Bedienfeld** Repository“ die DITA-Zuordnungsdatei in der Zuordnungsansicht.
-1. Klicken Sie auf die **Verwalten**. Im **Übersetzungsbedienfeld** werden die verfügbaren Sprachgruppen angezeigt.
+1. Klicken Sie auf die **Verwalten**. The **Translation panel** displays the available language groups.
 
 1. Als Benutzer können Sie die für Ihr Ordnerprofil konfigurierten Sprachgruppen anzeigen. Die Sprachgruppen zeigen die Sprachordner zusammen mit ihren Sprachcodes an. Beispielsweise enthält die Sprachgruppe G1 die Sprachordner Italienisch \(it\), Deutsch \(de\), Französisch \(fr\) und Englisch \(en\).
 
@@ -77,65 +77,65 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 
    **Neueste Version verwenden als ein**: Wählen Sie diese Option, um die Version der Themen nach Erstellungsdatum und -uhrzeit zu filtern. Wenn Sie Datum und Uhrzeit auswählen, wird nur die neueste Version der Dateien angezeigt, die am oder vor dem ausgewählten Datum und der ausgewählten Uhrzeit erstellt wurden.
 
-1. Klicken Sie **Apply**. Eine Liste mit Details zu Themen und zugehörigen Assets wird angezeigt.
+1. Klicken Sie auf **Übernehmen**. Eine Liste mit Details zu Themen und zugehörigen Assets wird angezeigt.
 1. Wählen Sie die Themen aus, die Sie zur Übersetzung senden möchten. Sie können auch die Themenfilteroptionen für die folgenden Spalten verwenden:
 
    - **Title**: Titel der Quelldatei.  Bewegen Sie den Mauszeiger über den Titel der Quelldatei, um den Titel der Zieldatei oder der übersetzten Datei anzuzeigen.
-   - **Dateiname**: Name der Quelldatei
-   - **Dateityp**: Typ der Quelldatei. Die verfügbaren Optionen sind „Zuordnung“, „Thema“ und „Bild“.
-   - **Verweistyp**: Direkte oder indirekte Verweise
-   - **Version**: Versionsnummer der Quelldatei
-   - **Versionsbezeichnung**: Bezeichnung für die ausgewählte Version der Quelldatei
-   - **Target-Version**: Versionsnummer der Zieldatei
-   - **Dokumentstatus**: Status der Quelldatei. Die verfügbaren Optionen sind „Entwurf“, „In Überprüfung“ und „Überprüft“.
-   - **Zielsprache**: Die Sprache, in die die Quelldatei übersetzt werden soll
-   - **Übersetzungsstatus**: Die verfügbaren Optionen sind: Nicht synchronisiert, Fehlende Kopie, In Bearbeitung und Synchronisiert.
-   - **Target Label**: Bezeichnung für die ausgewählte Version der Zieldatei
-1. Klicken **oben rechts auf** Zur Übersetzung senden .
+   - **File Name**: Name of the source file
+   - **File Type**: Type of the source file. Die verfügbaren Optionen sind „Zuordnung“, „Thema“ und „Bild“.
+   - **Reference Type**: Direct or Indirect references
+   - **Version**: Version number of the source file
+   - **Version Label**: Label for the selected version of the source file
+   - **Target Version**: Version number of the target file
+   - **Document State**: State of the source file. The available options are Draft, In-Review, and Reviewed.
+   - **Target Language**: The language to which you want to translate the source file
+   - **Translation Status**: The available options are: Out of Sync, Missing Copy, In Progress, and In Sync.
+   - **Target Label**: Label for the selected version of the target file
+1. Click **Send for Translation** on the top right corner.
 
    ![](images/translation-send.png){width="800" align="left"}
 
-1. Wählen Sie aus der Dropdown **Liste Neues Übersetzungsprojekt erstellen**.
+1. From the dropdown, select **Create a New Translation Project**.
 
    ![](images/translation-project-types.png){width="350" align="left"}
 
-   Neben einem neuen Übersetzungsprojekt können Sie auch aus den folgenden Optionen auswählen:
+   Besides a new translation project, you also can select from the following options:
 
-   - Sie können **Struktur erstellen** nur für das Übersetzungsprojekt auswählen.
-   - Sie können auch **Neues XLIFF-Übersetzungsprojekt erstellen** um den XML-Inhalt in das XML Localization Interchange File Format (XLIFF) zu konvertieren. XLIFF ist ein offenes XML-basiertes Format, das verwendet wird, um die Datenübertragung zwischen verschiedenen Tools zu standardisieren, die im Prozess der Inhaltsübersetzung verwendet werden. AEM Guides unterstützt XLIFF Version 1.2.
-In einem XLIFF-Projekt werden die Inhalte in das dem Branchenstandard entsprechende XLIFF-Format exportiert, das Übersetzungsanbietern zur Verfügung gestellt werden kann. Das XLIFF-Format ermöglicht die potenzielle Wiederverwendung von Segmenten, die Sie bereits während der Übersetzungsphase übersetzt haben.\
-     Nachdem die XLIFF-Inhalte übersetzt wurden, können sie in AEM Guides importiert werden, wodurch eine übersetzte Version des Original-DITA-Projekts erstellt wird.
+   - You can choose to **Create a structure** only for the translation project.
+   - You can choose to **Create a new XLIFF translation project** to convert the XML content into the XML Localization Interchange File Format (XLIFF). XLIFF is an open XML-based format that is used to standardize the data transfer between various tools used in the content translation process. AEM Guides supports XLIFF version 1.2.
+In an XLIFF project, the content is exported to the industry standard XLIFF format, which can be provided to Translation vendors. XLIFF format empowers potential reuse of segments that you have already translated during the translation phase.\
+     After the XLIFF content is translated, it can be imported into AEM Guides, creating a translated version of the original DITA project.
 
      >[!NOTE]
      >
-     > Der XLIFF-Export funktioniert nur mit der Konfiguration für menschliche Übersetzung.
+     > XLIFF export only works with human translation configuration.
 
-   - Sie können **Neues mehrsprachiges Übersetzungsprojekt erstellen** auswählen, das Übersetzungsaufträge für alle Sprachen enthält, die Sie für die Übersetzung ausgewählt haben. Wenn Sie beispielsweise Französisch, Deutsch und Spanisch ausgewählt haben, wird ein Projekt erstellt, das Übersetzungsaufträge für alle drei Sprachen enthält.
-   - Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Wählen Sie die Option Zu **vorhandenem Übersetzungsprojekt hinzufügen** aus der Projektliste aus und wählen Sie ein Projekt aus der Liste Vorhandenes Übersetzungsprojekt aus. Sie können diese Projekte nach aktueller, aufsteigender oder absteigender Reihenfolge sortieren.
+   - You can select **Create a new multi-lingual translation project** which will include translation jobs for all languages that you have selected for translation. For example, if you have selected French, German, and Spanish it will create a project which contains translation jobs for all three languages.
+   - Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Select Add to **Existing Translation Project** option from the Project list and choose a project from the Existing Translation Project list. You can sort these projects by most recent, ascending, or descending order.
 
-- Wenn Sie **Vorhandenes Übersetzungsprojekt** auswählen, aktualisiert dieser Vorgang den vorhandenen Asset-Eintrag im Projekt, wenn das Asset bereits hinzugefügt wurde und der Status des zugehörigen Übersetzungsauftrags sich im Status *Entwurf* befindet.
-   - Wenn die Zielsprache nicht im Projekt vorhanden ist, wird ein neues Projekt für das einsprachige Übersetzungsprojekt erstellt und ein neuer Auftrag für das mehrsprachige Übersetzungsprojekt erstellt.
-   - Wenn der Auftrag bereits für die Zielsprache vorhanden ist und der Auftragsstatus nicht den Status *Entwurf* aufweist, wird innerhalb desselben Projekts ein neuer Auftrag erstellt, um die Assets für die Übersetzung hinzuzufügen.
+- If you select **Existing Translation Project**, this operation updates the existing asset entry in the project if the asset is already added and the related translation job state is in the *Draft* state.
+   - If the destination language is not present in the project, a new project is created for the single-language translation project, and a new job is created for multi-language translation project.
+   - If the job is already present for the destination language and the job status isn&#39;t in the *Draft* state, a new job is created within the same project to add the assets for translation.
 
   >[!NOTE]
   >
-  > Wenn es sich bei Ihrem vorhandenen Projekt um ein Umfangsprojekt handelt, wird &quot;\(Scoping\)“ an den Namen angehängt.
+  > If your existing project is a scoping project, it has &#39;\(Scoping\)&#39; appended in its name.
 
-- Wenn Sie den Umfang für ein zu übersetzendes Projekt erstellen müssen, können Sie **Neues Scoping-Übersetzungsprojekt erstellen** auswählen. Dadurch werden die Kopien nicht zur Übersetzung gesendet und der ursprüngliche Übersetzungsstatus der Dateien wird beibehalten. Die Zielsprachkopie der referenzierten Themen, die zum Berechnen des Umfangs gesendet werden, hat keine Auswirkungen.
+- If you need to create the scope for a project to be translated, you can select **Create a new scoping translation project**. This will not send the copies for translation and the original translation status of the files is maintained. There is no impact on the destination language copy of the referred topics which are sent for scoping.
 1. Geben Sie im Feld **Projekttitel** einen Namen für das Projekt ein.
-1. Klicken Sie **Erstellen**, um ein neues Übersetzungsprojekt zu erstellen.
+1. Click **Create** to create a new translation project.
 
-   Ein neues Übersetzungsprojekt wird mit der ausgewählten Version der Themen erstellt. Zu diesem Zeitpunkt wird eine Popup-Meldung angezeigt, die bestätigt, dass das Übersetzungsprojekt erstellt wurde. Sobald alle Kopien der Zielsprache im Übersetzungsprojekt verfügbar sind, erhalten Sie eine Benachrichtigung im Posteingang. Sobald die Zielsprachenkopien im Übersetzungsprojekt verfügbar sind, können Sie mit dem Übersetzungsauftrag beginnen. Weitere Informationen finden Sie unter [Starten des Übersetzungsauftrags](translation-first-time.md#id225IK030OE8).
+   Ein neues Übersetzungsprojekt wird mit der ausgewählten Version der Themen erstellt. Zu diesem Zeitpunkt wird eine Popup-Meldung angezeigt, die bestätigt, dass das Übersetzungsprojekt erstellt wurde. Sobald alle Kopien der Zielsprache im Übersetzungsprojekt verfügbar sind, erhalten Sie eine Benachrichtigung im Posteingang. Once the target language copies are available in the translation project, you can then go ahead and start the translation job. For details see, [Start the translation job](translation-first-time.md#id225IK030OE8).
 
    >[!NOTE]
    >
    > Wenn Sie die Übersetzung für ein oder mehrere Themen in einem Übersetzungsauftrag ablehnen, wird der **In Bearbeitung** Übersetzungsstatus aller abgelehnten Themen auf ihren ursprünglichen Status zurückgesetzt. Der Status der referenzierten Themen wird entsprechend dem aktuellen Übersetzungsstatus überprüft und zurückgesetzt. Außerdem werden die im Zielprojekt erstellten Übersetzungsdateien nicht gelöscht, selbst wenn die Übersetzung dafür abgelehnt wird.
 
-## Hinzufügen der Übersetzungsregeln
+## Add the translation rules
 
-Mit AEM Guides können Ihre Admins die Übersetzungsregeln konfigurieren. Das SRX-Format (Segmentation Rules eXchange) ist ein Standard für den Austausch von Segmentierungsregeln zwischen verschiedenen Benutzern und Übersetzungsumgebungen. Sie können einen Ordner erstellen und ihm Ihre benutzerdefinierten SRX-Dateien hinzufügen.
+AEM Guides allows your administrators to configure the translation rules. The SRX (Segmentation Rules eXchange) format is a standard for exchanging segmentation rules between different users and different translation environments. You can create a folder and add your custom SRX files to it.
 
-SRX-Dateien sollten wie `<language-code>.srx` benannt werden. Beispiel: en-US oder ar-AE.
+SRX files should be named as `<language-code>.srx`. For example, en-US, or ar-AE.
 
 >[!NOTE]
 >Beim Titel wird nicht zwischen Groß- und Kleinschreibung unterschieden. Daher kann „en-US“, „en-us“ oder „en-us“ verwendet werden. AEM-Handbücher können auch &quot;-&quot; (Bindestrich) oder „_“ (Unterstrich) auflösen. Sie können also „en-US“ oder „en_US“ verwenden.
@@ -224,7 +224,7 @@ Ihr Administrator kann die Option **Bereinigung des Übersetzungsprojekts nach A
 
 Für die Dokumentverwaltung bietet Experience Manager Guides die Möglichkeit, die Übersetzungsprojekte nach Abschluss der Übersetzung zu löschen.
 
-Sie können die Übersetzungsprojekte auch deaktivieren, wenn Sie sie später verwenden möchten. Beim Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner gelöscht. Durch Deaktivieren eines Projekts wird es nicht gelöscht, sondern im Repository beibehalten. Sie können jedoch ein deaktiviertes Projekt nicht aktualisieren oder bearbeiten.  Das Löschen oder Deaktivieren eines Projekts wirkt sich nicht auf den Übersetzungsstatus von Verweisen aus.
+Sie können die Übersetzungsprojekte auch deaktivieren, wenn Sie sie später verwenden möchten. Beim Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner gelöscht. Disabling a project doesn&#39;t delete it but maintains it in the repository. But you can&#39;t update or edit a disabled project.  Deletion or disabling a project will not impact the translation status of any references.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

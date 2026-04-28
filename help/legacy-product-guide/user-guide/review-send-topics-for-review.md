@@ -1,137 +1,137 @@
 ---
-title: Senden von Themen zur Überprüfung
-description: Erfahren Sie, wie Sie eine Prüfungsaufgabe erstellen und Themen zur Überprüfung in AEM Guides senden. Senden Sie ein oder mehrere Themen in einer DITA-Karte zur Überprüfung.
+title: Send topics for review
+description: Learn how to create a review task and send topics for review in AEM Guides. Send one or more topics in a DITA map for review.
 feature: Reviewing
 role: User
 hide: true
 exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
 
-# Senden von Themen zur Überprüfung {#id199RD0S035Z}
+# Send topics for review {#id199RD0S035Z}
 
-Der Überprüfungs-Workflow erstellt eine Umgebung mit mehreren Reviewern, in der der Initiator eine Liste von zu überprüfenden Themen angibt, mehrere Reviewer hinzufügt und eine Zeitleiste für die Überprüfungsaufgabe zuweist. AEM Guides ermöglicht es Benutzenden, die den Gruppen „Autoren“ und „Herausgeber“ angehören, eine Überprüfung einzuleiten.
+The review workflow creates a multi-reviewer environment wherein the initiator specifies a list of topics for review, add multiple reviewers, and assigns a timeline for the review task. AEM Guides allows users belonging to the Authors and Publishers groups to initiate a review.
 
-Da der Überprüfungs-Workflow projektspezifisch ist, muss der Initiator der Überprüfung Teil des Projektteams sein oder über Rechte zum Erstellen eines Projekts verfügen. Zum Zeitpunkt der Erstellung eines Projekts definieren Sie die Team-Mitglieder für das Projekt und weisen ihnen verschiedene Rollen oder Gruppen zu. Weitere Informationen zu Projekten finden Sie unter [Erstellen eines DITA-Projekts](authoring-create-dita-project.md#).
+As the review workflow is project-specific, the initiator of review must be a part of the project team or have rights to create a project. At the time of creating a project, you define the team members for the project and assign them various roles or groups. For more information about projects, see [Create a DITA project](authoring-create-dita-project.md#).
 
-Sie können eine Prüfungsaufgabe aus folgenden Elementen erstellen:
+You can create a review task from:
 
-- **Web-Editor**: Ermöglicht es Ihnen, ein einzelnes Thema oder eine DITA-Karte zur Überprüfung zu senden. Beachten Sie, dass der Workflow zum Erstellen einer Prüfungsaufgabe häufig im Web-Editor und in der Assets-Benutzeroberfläche verwendet wird. Nur die Methode zum Starten des Überprüfungs-Workflows unterscheidet sich. Weitere Informationen zum Starten des Überprüfungs-Workflows über den Web-Editor finden Sie unter [Überprüfungsaufgabe erstellen](web-editor-features.md#id215OCJ00JXA) im Web-Editor.
+- **Web Editor**: Allows you to send an individual topic or DITA map for review. Note that the workflow for creating a review task is common across the Web Editor and Assets UI. Only the method of launching the review workflow differs. For information about launching the review workflow from the Web Editor, see the [Create Review Task](web-editor-features.md#id215OCJ00JXA) feature in the Web Editor.
 
-- **Assets-Benutzeroberfläche**: Ermöglicht es Ihnen, ein oder mehrere Themen und eine DITA-Karte zur Überprüfung zu senden. Die Freigabe von Dokumenten zur Überprüfung aus dem Workflow der Assets-Benutzeroberfläche wird in diesem Abschnitt behandelt.
+- **Assets UI**: Allows you to send one or multiple topics and DITA map for review. Sharing documents for review from Assets UI workflow is covered under this topic.
 
 
-In der Assets-Benutzeroberfläche gibt es zwei Möglichkeiten, wie ein Autor/Publisher eine Prüfungsaufgabe erstellen kann:
+From the Assets UI, there are two ways in which an Author/Publisher can create a review task:
 
-- Ein oder mehrere Themen zur Überprüfung senden
-- Senden mehrerer Themen aus einer DITA-Karte zur Überprüfung
+- Send one or more topics for review
+- Send multiple topics from a DITA map for review
 
-## Ein oder mehrere Themen zur Überprüfung senden {#id1721E600FY4}
+## Send one or more topics for review {#id1721E600FY4}
 
 >[!IMPORTANT]
 >
-> Bevor Sie eine Prüfungsaufgabe erstellen, stellen Sie sicher, dass Sie ein Projekt erstellt und diesem Projekt Reviewer hinzugefügt haben.
+> Before you create a review task, ensure that you have created a project and added reviewers to that project.
 
-So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
+To create a review task and send topics for review, perform the following steps:
 
 >[!NOTE]
 >
-> Sie können eine Prüfungsaufgabe nur erstellen, wenn Sie Autor oder Publisher eines DITA-Projekts sind.
+> You can create a review task only if you are an author or publisher in a DITA project.
 
-1. Navigieren Sie zum gewünschten Ordner in der Assets-Benutzeroberfläche.
+1. Navigate to the required folder in the Assets UI.
 
-1. Klicken Sie in der Schnellaktion auf das Symbol Auswählen und wählen Sie die Themen aus, die Sie zur Überprüfung senden möchten.
+1. Click the Select icon in the quick action and select the topics you want to send for review.
 
    ![](images/select-asset-62.png){width="300" align="left"}
 
-1. Klicken Sie in der Symbolleiste auf **Prüfungsaufgabe erstellen**. Die Seite zur Erstellung der Prüfungsaufgabe wird angezeigt.
+1. In the toolbar, click **Create Review Task**. The review task creation page is displayed.
 
    >[!NOTE]
    >
-   > Sie können eine Prüfungsaufgabe nur für Themen mit einer Revision erstellen. Wenn für das ausgewählte Thema keine Revision vorhanden ist, wird eine Eingabeaufforderung angezeigt.
+   > You can create a review task for only those topics that have a revision. In case the selected topic does not have a revision, you will be shown a prompt.
 
    ![](images/create-review-task-023.png){width="650" align="left"}
 
-1. Geben Sie einen **Titel** für die Aufgabe ein und wählen Sie ein **Projekt** aus der Dropdown-Liste aus.
+1. Enter a **Title** for the task and select a DITA **Project** from the drop-down list.
 
-1. Wählen **in der Dropdown** Liste „Zuweisen an“ die Validierungsverantwortlichen aus, denen Sie die Themen zur Überprüfung senden möchten.
+1. In the **Assign To** drop-down field, select the reviewers to whom you want to send the topics for review.
 
-   Sie können einzelnen Benutzern des Projekts oder Benutzergruppen eine Prüfungsaufgabe zuweisen. Beachten Sie, dass Sie eine Prüfungsaufgabe nur dann einzelnen Benutzern zuweisen können, wenn Sie der Administratorgruppe des Projekts angehören. Andernfalls sehen Sie nur die Benutzergruppen im Feld Zuweisen an .
-
-   >[!NOTE]
-   >
-   > Der Überprüfungs-Workflow ist projektspezifisch. Beim Erstellen von Projekten fügen Sie die Team-Mitglieder zum Projekt hinzu und weisen sie Gruppen zu. Wenn Sie also hier das Projekt auswählen, können Sie die Mitglieder auswählen, die Teil dieses Projekts sind. Weitere Informationen zu Projekten finden Sie unter [Erstellen eines DITA-Projekts](authoring-create-dita-project.md#).
-
-1. Geben Sie eine **Beschreibung** für die Aufgabe ein.
-
-   Diese Beschreibung wird als Text der Benachrichtigungs-E-Mail verwendet, die an die Validierungsverantwortlichen gesendet wird.
-
-1. Wählen Sie das **Fälligkeitsdatum** und die Uhrzeit aus, um den Termin für die Überprüfung festzulegen.
+   You can assign a review task to individual users of the project or to user groups. Note that you can assign a review task to individual users only when you are a part of the project&#39;s administrator group, else you will only see the user groups in the Assign To field.
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Review workflow is project-specific. When you create projects, you add the team members to the project and assign them to groups. So when you select the project here, you get to choose the members who are a part of that project. For more information about projects, see [Create a DITA project](authoring-create-dita-project.md#).
 
-1. Wählen Sie die Stammzuordnung aus dem **Stammzuordnungspfad**. Diese Rootmap wird verwendet, um alle wichtigen Verweise und Glossarbegriffe aufzulösen, die im Überprüfungsinhalt verwendet werden. Wenn Sie die Rootmap nicht auswählen, werden die wichtigsten Referenzen oder Glossarbegriffe, die mit dem DITA-Thema verknüpft sind, nicht aufgelöst, bevor das Thema zur Überprüfung gesendet wird.
+1. Enter a **Description** for the task.
 
-   Wenn Sie die Überprüfung für eine DITA-Zuordnung erstellen, wird **Rootmap-Pfad** standardmäßig auf den Pfad dieser Zuordnung festgelegt. Wenn Sie die Überprüfung für ein oder mehrere Themen erstellen, wird der **Stammordnungspfad** standardmäßig auf die in den Benutzereinstellungen definierte Zuordnung festgelegt.
+   This description is used as the body of the notification email sent to the reviewers.
+
+1. Select the **Due Date** and time to mark the deadline for the review.
 
    >[!NOTE]
    >
-   > Die ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen. Weitere Informationen finden Sie unter [Auflösen von Schlüsselverweisen](map-editor-other-features.md#id176GD01H05Z).
+   > On reaching the deadline, an email is sent to the initiator notifying that the review task has completed. The initiator can extend the deadline of the review task from the [Review Dashboard](review-manage-tasks-review-dashboard.md#).
 
-1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
+1. Select the root map from the **Rootmap path**. This rootmap is used to resolve all the key references and glossary terms used in the review content. If you do not select the rootmap then the key references or glossary terms associated with the DITA topic, are not resolved before sending the topic for review.
 
-   Wenn Sie allen Reviewern erlauben möchten, ein beliebiges Thema in der Prüfungsaufgabe zu überprüfen, wählen Sie **Zulassen, dass Verantwortliche ein beliebiges Thema überprüfen können**.
+   If you are creating the review for a DITA map, then by default **Rootmap path** is set to that map&#39;s path. If you are creating the review for a single or multiple topics, then by default the **Rootmap path** is set to the map defined in the User Preferences.
 
-   Wenn Sie diese Option nicht auswählen, haben Prüfer, die im Feld **Zuweisen zu** hinzugefügt wurden, Zugriff, um nur die Themen zu überprüfen, die ihnen zugewiesen sind.
+   >[!NOTE]
+   >
+   > The selected root map takes the highest precedence to resolve key references. For more details, see [Resolve key references](map-editor-other-features.md#id176GD01H05Z).
+
+1. As you can assign different reviewers to different topics, **Allow Assignees to Review Any Topic** option controls whether reviewers can review all topics in a review task or only those topics that they are assigned to review.
+
+   If you want to allow all reviewers to review any topic in the review task, select **Allow Assignees to Review Any Topic**.
+
+   If you do not select this option then reviewers added in the **Assign To** field will have access to review only those topics that are assigned to them.
 
 1. Klicken Sie auf **Weiter**.
 
-   Die Inhaltsseite wird angezeigt.
+   The Content page is displayed.
 
    ![](images/content_page_review.png){width="800" align="left"}
 
-1. Wählen Sie auf der Inhaltsseite eine Version des Themas aus, das Sie zur Überprüfung freigeben möchten.
+1. On the Content page, select a version of the topic that you want to share for review.
 
-   Sie können eine der folgenden Methoden verwenden, um eine Version auszuwählen:
+   You can use one of the following methods to select a version:
 
-   - *\(Standard\)* Wählen Sie die Option **Aktuelle Version**, um die zuletzt gespeicherte Revision der Themen auszuwählen.
-   - Wählen Sie die Option **Version ein** und geben Sie Datum und Uhrzeit an, um eine Version wie am angegebenen Datum und zur angegebenen Uhrzeit auszuwählen. Wenn am angegebenen Datum keine Version des Themas verfügbar ist, wird eine Version ausgewählt, die unmittelbar nach dem angegebenen Datum und der angegebenen Uhrzeit verfügbar ist.
-   - Wählen Sie die **Bezeichnung auswählen** und wählen Sie eine Bezeichnung aus der Dropdown-Liste aus.
-1. Nachdem Sie eine Version ausgewählt haben, klicken Sie auf **Anwenden**.
+   - *\(Default\)* Choose the option **Their Latest Version** to select the last saved revision of the topics.
+   - Choose the **Version On** option and specify the date and time to select a version as on the specified date and time. If there is no version of topic available on the specified date, then a version available immediately after the specified date and time is selected.
+   - Choose the **Select a Label** option and select a label from the drop-down list.
+1. After making your selection for choosing a version, click **Apply**.
 
-   Die auf der ausgewählten Option basierende Version wird für die Themen ausgewählt.
+   The version based on the selected option is chosen for the topics.
 
    >[!NOTE]
    >
-   > Sie können die gewünschte Version auch manuell aus der Dropdown-Liste **Version** jedes Themas auswählen.
+   > You can also manually select the desired version from the **Version** drop-down list of each topic.
 
 1. Klicken Sie auf **Weiter**.
 
-   Die Seite Reviewer wird angezeigt, auf der Sie Reviewer hinzufügen oder entfernen können. Standardmäßig werden die im Feld Zuweisen an hinzugefügten Reviewer automatisch zu jedem für die Überprüfung ausgewählten Thema hinzugefügt.
+   The Reviewers page is displayed wherein you can add or remove reviewers. By default, the reviewers added in the Assign To field are auto-added to each topic selected for the review.
 
    ![](images/add-reviewers-topics.png){width="650" align="left"}
 
-1. Auf der Seite „Validierungsverantwortliche“ können Sie Validierungsverantwortliche hinzufügen oder entfernen. Die folgenden Vorgänge sind auf der Seite Validierungsverantwortliche verfügbar:
+1. On the Reviewers page, you can add or remove reviewers. The following operations are available on the Reviewers page:
 
-   - **Alle auswählen**: Wählt alle Themen in der Themenliste aus. Nach Auswahl aller Themen können Sie ganz einfach einen Batch-Vorgang durchführen.
-   - **Auswahl aufheben**: Hebt die Auswahl der Themen in der Themenliste auf.
-
-     >[!NOTE]
-     >
-     > Sie können ein Thema auch einzeln auswählen oder die Auswahl aufheben, indem Sie auf das Kontrollkästchen neben dem Thema klicken.
-
-   - **Hinzufügen**: Zeigt das Dialogfeld „Reviewer hinzufügen“ an. Sie können den Namen eines Reviewers oder einer Benutzerrolle \(oder einer Gruppe\) eingeben, den bzw. die Sie als Reviewer zu den ausgewählten Themen hinzufügen möchten.
-   - **Entfernen**: Zeigt das Dialogfeld „Reviewer entfernen“ an. Sie können den Namen eines Reviewers oder einer Benutzerrolle \(oder einer Gruppe\) eingeben, den bzw. die Sie als Reviewer aus den ausgewählten Themen entfernen möchten.
+   - **Select All**: Selects all topics in the topic list. You can easily perform a batch operation after selecting all topics.
+   - **Clear Selection**: Deselects the topics selected in the topics list.
 
      >[!NOTE]
      >
-     > Sie können eine Überprüfung auch aus einem Thema entfernen, indem Sie im Feld des Überprüfers auf das Kreuzzeichen klicken.
+     > You can also individually select or deselect a topic by clicking on the checkbox next to the topic.
+
+   - **Add**: Displays the Add Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to add as a reviewer to the selected topics.
+   - **Remove**: Displays the Remove Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to remove as reviewer from the selected topics.
+
+     >[!NOTE]
+     >
+     > You can also remove a review from a topic by clicking the cross sign in the reviewer&#39;s box.
 
    - **Neu zuweisen**: Zeigt das Dialogfeld „Reviewer neu zuweisen“ an. Sie können den Namen eines Reviewers oder einer Benutzerrolle \(oder einer Gruppe\) eingeben, dem bzw. der die Überprüfungsaufgabe zugewiesen werden soll. Dadurch werden alle vorhandenen Reviewer aus den ausgewählten Themen entfernt und die neu ausgewählten Reviewer diesen Themen zugewiesen.
    - **Exportieren**: Ermöglicht den Export der Aufgabendetails für die Überprüfung in eine CSV-Datei. Die Datei enthält Details wie den Pfad und Titel des Themas, den Namen des Reviewers und die Version der Themen, die zur Überprüfung gesendet werden.
@@ -199,7 +199,7 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
 
@@ -247,7 +247,6 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
    - **Neu zuweisen**: Zeigt das Dialogfeld „Reviewer neu zuweisen“ an. Sie können den Namen eines Reviewers oder einer Benutzerrolle \(oder einer Gruppe\) eingeben, dem bzw. der die Überprüfungsaufgabe zugewiesen werden soll. Dadurch werden alle vorhandenen Reviewer aus den ausgewählten Themen entfernt und die neu ausgewählten Reviewer diesen Themen zugewiesen.
    - **Exportieren**: Ermöglicht den Export der Aufgabendetails für die Überprüfung in eine CSV-Datei. Die Datei enthält Details wie den Pfad und Titel des Themas, den Namen des Reviewers und die Version der Themen, die zur Überprüfung gesendet werden.
    - **Reviewer bearbeiten**: Wenn Sie in der Themenliste auf das ![](images/edit_pencil_icon.svg)Symbol klicken, wird das Dialogfeld „Reviewer bearbeiten“ angezeigt. Sie können Reviewer für ausgewählte Themen in diesem Dialogfeld hinzufügen oder entfernen.
-
    >[!IMPORTANT]
    >
    > Sie müssen mindestens einen Validierungsverantwortlichen zuweisen, um die Prüfungsaufgabe zu erstellen.
@@ -267,4 +266,4 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
 Alle validierungsverantwortlichen Personen werden per E-Mail darüber informiert, dass ihnen zu überprüfende Themen zugewiesen wurden. Die E-Mail enthält einen direkten Link, auf den sie klicken und auf das Thema in einem Browser-Fenster zugreifen können. Die Themen werden zusammen mit der DITA-Karte im Review-Modus geöffnet.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)

@@ -1,58 +1,58 @@
 ---
 title: Verwalten von Veröffentlichungsaufgaben mit dem Dashboard „Veröffentlichen“
-description: Verwalten Sie Veröffentlichungsaufgaben mithilfe des Veröffentlichungs-Dashboards in AEM Guides. Wissen, wie man auf das Veröffentlichungs-Dashboard zugreift und eine Veröffentlichungsaufgabe abbricht.
+description: Manage publish tasks using the Publish Dashboard in AEM Guides. Know how to access the publishing dashboard and cancel a publish task.
 feature: Publishing
 role: User
 hide: true
 exl-id: 9d311979-a7d7-47f5-945c-520eda99798f
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Veröffentlichungsaufgaben mit dem Dashboard „Veröffentlichen“ {#id205CC08305Z}
 
-Wenn auf Ihrem System eine große Anzahl von Veröffentlichungsaufgaben ausgeführt wird, ist es praktisch unmöglich, jede DITA-Map einzeln zu überprüfen, um die Veröffentlichungsaufgabe zu überwachen. AEM Guides bietet Admins und Herausgebern eine einheitliche Ansicht aller im System ausgeführten Veröffentlichungsaufgaben. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Veröffentlichungs-Dashboard verfügbar.
+When you have a large set of publishing tasks running on your system, it becomes practically impossible to check each DITA map individually to monitor its publishing task. AEM Guides gives the administrators and publishers one unified view of all publishing tasks running in the system. A list of all active publishing tasks is available in the Publish Dashboard.
 
-Das Veröffentlichungs-Dashboard bietet einen vollständigen Überblick über alle Veröffentlichungsaufgaben, die derzeit im System ausgeführt werden.
+The Publish Dashboard gives a complete overview of all publishing tasks currently running in the system.
 
 ![](images/publish-dashboard.png){width="800" align="left"}
 
-Das Veröffentlichungs-Dashboard enthält die folgenden Details:
+The Publish Dashboard contains the following details:
 
-- **Zuordnungstitel** - Der Titel einer Zuordnungsdatei, die derzeit veröffentlicht wird oder sich in der Veröffentlichungswarteschlange befindet.
+- **Map Title** - The title of a map file that is being currently published or is in the publish queue.
 
-- **Dateiname** - Der Dateiname der DITA-Zuordnung.
+- **File Name** - The file name of the DITA map.
 
-- **Ausgabevorgabe** - Name der Ausgabevorgabe, die zum Generieren der Ausgabe verwendet wird.
+- **Output Preset** - Name of the output preset that is used to generate the output.
 
-- **Initiiert von** - Benutzername der Person, die die Veröffentlichungsaufgabe initiiert hat.
+- **Initiated By** - Username of the user who initiated the publishing task.
 
-- **Gestartet am** - Datum und Uhrzeit des Starts der Veröffentlichungsaufgabe.
+- **Started On** - Date and time when the publishing task was started.
 
-- **Verstrichene Zeit** Zeit seit der Ausführung der Veröffentlichungsaufgabe im System.
+- **Elapsed Time** - Time since when the publishing task is running in the system.
 
-- **Löschsymbol** - Abbrechen oder Beenden einer Veröffentlichungsaufgabe.
+- **Delete icon** - Cancel or terminate a publishing task.
 
-Das linke Bedienfeld im Veröffentlichungs-Dashboard bietet die folgenden Filteroptionen:
+The left panel in the Publish Dashboard provides the following filtering options:
 
-- **Ausgabevorgabe** - Wählen Sie eine oder mehrere Ausgabevorgaben aus, für die Sie die derzeit aktiven Veröffentlichungsaufgaben anzeigen möchten. Im folgenden Screenshot werden die Veröffentlichungsaufgaben gefiltert, um nur die Aufgaben anzuzeigen, die die Ausgabevorgabe der AEM-Site verwenden:
+- **Output Preset** - Select one or more output presets for which you want to see the currently active publishing tasks. In the following screenshot, the publishing tasks are filtered to show only those tasks that use the AEM Site output preset:
 
   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
-- **Initiiert von** - Wählen Sie einen Benutzernamen aus der Liste aus, um die Veröffentlichungsaufgaben anzuzeigen, die vom ausgewählten Benutzer initiiert wurden.
+- **Initiated By** - Select a username from the list to show the publishing tasks initiated by the selected user.
 
-- **Map** - Wählen Sie in der Liste eine Zuordnungsdatei aus, um die Veröffentlichungsaufgaben anzuzeigen, die für die ausgewählte Zuordnung ausgeführt werden.
+- **Map** - Select a map file from the list to show the publishing tasks running for the selected map.
 
-## Zugriff auf das Veröffentlichungs-Dashboard {#id205CC100DY4}
+## Access the Publish Dashboard {#id205CC100DY4}
 
-Führen Sie die folgenden Schritte aus, um auf das Dashboard „Veröffentlichen“ zuzugreifen:
+Perform the following steps to access the Publish Dashboard:
 
 >[!NOTE]
 >
-> Nur ein Administrator oder Herausgeber kann auf das Dashboard „Veröffentlichen“ zugreifen.
+> Only an Administrator or Publisher can access the Publish Dashboard.
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
@@ -88,4 +88,4 @@ Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung �
    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

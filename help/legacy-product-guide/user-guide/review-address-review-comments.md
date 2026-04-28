@@ -1,13 +1,13 @@
 ---
 title: Kommentare zur Adressenüberprüfung
-description: Erfahren Sie, wie Sie als Autor oder Autorin in AEM Guides Kommentare überprüfen können. Erfahren Sie, wie Autoren Kommentare in einem Dokument bearbeiten, filtern, akzeptieren oder ablehnen können.
+description: Learn how to address review comments as an author in AEM Guides. Discover how an author can edit, filter, accept, or reject comments in a document.
 feature: Reviewing
 role: User
 hide: true
 exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -15,33 +15,33 @@ ht-degree: 0%
 # Kommentare zur Adressenüberprüfung {#id2056B0X0KBI}
 
 
-Als Autor können Sie Kommentare in einem Thema mit dem Web-Editor bearbeiten. Die Kommentare werden auf der Grundlage der im Überprüfungsfeld ausgewählten Überprüfungsaufgabe geladen. Weitere Informationen finden Sie in der Beschreibung des Bedienfelds **Überprüfen** ![](images/active-review-tasklist-icon.svg) im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS).
+As an author, you can address comments in a topic using the Web Editor. The comments are loaded based on the review task selected in the Review panel. For more details, view the **Review** panel ![](images/active-review-tasklist-icon.svg) feature description in the [Left Panel](../user-guide/web-editor-features.md#id2051EA0M0HS) section.
 
-In den folgenden Abschnitten werden Möglichkeiten zum Bearbeiten von Kommentaren im Web-Editor beschrieben.
+The following sections describe ways of editing comments in the Web Editor.
 
-Ein Autor kann im Web-Editor Kommentare in einem Dokument ansprechen. Es werden visuelle Indikatoren bereitgestellt, die angeben, ob Kommentare eingefügt \(text\), gelöscht oder hervorgehoben wurden. Auch die Art des Kommentars wird oben in jedem Kommentareintrag erwähnt.
+An author can address comments in a document from the Web Editor. Visual indicators are provided indicating whether comments that were inserted \(text\), deleted or highlighted. Also the type of comment is mentioned at the top of every comment entry.
 
 >[!NOTE]
 >
-> Achten Sie beim Bearbeiten von Überprüfungskommentaren \(für ein aktives Überprüfungsdokument\) darauf, dass Sie - das zu überprüfende Thema wird nicht in mehreren Registerkarten mit aktivierter Ansicht „Vollständige Tags“ geöffnet - nicht zwischen dem Authoring- und dem Source-Ansichtsmodus wechseln.
+> While addressing review comments \(for an active review document\), ensure that you—do not open the in-review topic in multiple tabs with full tags view enabled, do not switch between the Author and Source view modes.
 
 ![](images/comments-page-web-editor_cs.png){width="800" align="left"}
 
-Im Web-Editor-Modus enthält das rechte Bedienfeld die Symbole Überprüfen und Getrackte Änderungen . Im Bedienfeld Überprüfung werden alle Kommentare angezeigt, die von Prüfern in Ihrem Dokument vorgenommen wurden. Das **Getrackte Änderungen** zeigt den Status aller eingefügten und gelöschten Kommentare in Ihrem Dokument an.
+In the Web Editor mode, the right panel contains the Review and Tracked Changes icons. The Review panel shows all comments made in your document by reviewers. The **Tracked Changes** panel shows the status of all inserted and deleted comments in your document.
 
-- **A**: Wählen Sie eine Prüfungsaufgabe aus, um Überprüfungskommentare anzuzeigen. Wenn Ihr Thema für die Überprüfung in mehreren Prüfungsaufgaben freigegeben wurde, werden diese Aufgaben in dieser Dropdown-Liste angezeigt.
+- **A**: Select a review task to see review comments. If your topic has been shared for review in multiple review tasks, you will see those tasks listed in this drop-down.
 
-  Wenn Sie eine Prüfungsaufgabe aus der Liste auswählen, werden die Kommentare der Prüfer in dieser Aufgabe angezeigt. Sie können die Prüfungskommentare unabhängig in Aufgaben bearbeiten, was bedeutet, dass jede Aktualisierung eines Kommentars nur für Prüfer dieser jeweiligen Aufgabe sichtbar ist.
+  When you select a review task from the list, you get to see the comments made by reviewers in that task. You can address the review comments independently in tasks, which mean that any update on a comment is visible to reviewers of that respective task only.
 
-- **B:** Wählen Sie **Prüfungsdetails** ![](images/active-review-info-icon.svg) im Bedienfeld **Kommentare** aus, um weitere Informationen zur Prüfungsaufgabe anzuzeigen:
+- **B:**  Select **Review details** ![](images/active-review-info-icon.svg) in the **Comments** panel to view more information about the review task:
 
-   - **Name**: Name der Prüfungsaufgabe .
-   - **Prüfungsversion**: Zeigt die Version an, die der ausgewählten Prüfungsaufgabe zugeordnet ist. Auf diese Weise behalten Sie den Überblick über die Version, die Sie zur Überprüfung freigegeben haben
-   - **Status**: Aktueller Status der Prüfungsaufgabe.
+   - **Name**: Name of the review task .
+   - **Review Version**: Dispalys the version associated with the selected review task. This helps you to keep a track of the version that you had shared for review
+   - **Status**: Current status of the review task.
 
   >[!NOTE]
   >
-  > Wenn sich die Stammzuordnung Ihrer Prüfungsaufgabe von der Stammzuordnung für die Bearbeitung unterscheidet, werden die zugehörigen Informationen angezeigt, um anzugeben, dass die Bearbeitung und die Stammzuordnung für die Überprüfung nicht übereinstimmen.
+  > If the root map of your review task is different from the authoring root map, it displays the information about it to indicate that the authoring and the review root map don&#39;t match.
 
 - **C**: Wenn Sie Ihr Thema nach dem Initiieren der Überprüfung aktualisiert haben, wird Ihre Arbeitskopie durch Klicken auf das Symbol Thema zur Überprüfung der Version zurücksetzen auf die Version zurückgesetzt, die zur Überprüfung freigegeben wurde. Dies erleichtert Ihnen die direkte Integration des Review-Feedbacks in die Version, die zur Überprüfung freigegeben wurde. Nach der Einbindung des Feedbacks können Sie Änderungen in der zurückgesetzten Version speichern oder eine neue Revision des Themas erstellen. Wenn Sie eine neue Version Ihres Themas erstellen, wird aus der Themenversion, die zur Überprüfung freigegeben wurde, eine neue Verzweigung erstellt. Wenn Sie beispielsweise Version `1.2` eines Themas für eine Überprüfung freigegeben haben, während die aktuelle Autorenversion `1.3` ist, können Sie dieses Symbol verwenden, um zur Version `1.2` zurückzukehren und Überprüfungskommentare einzubinden. Wenn Sie sich dafür entscheiden, eine neue Revision zu erstellen, nachdem Sie Änderungen an Version `1.2` integriert haben, wird für das Thema eine neue Verzweigung mit Version `1.2.0` erstellt.
 
@@ -74,4 +74,4 @@ Im Web-Editor-Modus enthält das rechte Bedienfeld die Symbole Überprüfen und 
 - **I**: Einen Filter auf die Kommentare anwenden. Sie können nach Kommentaren filtern, indem Sie die folgenden Kategorien verwenden: Prüfungstyp \(alle, hervorgehoben, gelöscht, eingefügt oder Haftnotiz\), Prüfstatus \(alle, akzeptiert, abgelehnt oder keine\), Prüfer \(alle oder bestimmte Prüfer\(s\)\) oder Versionen des Themas.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)

@@ -1,60 +1,60 @@
 ---
 title: Erstellen eines DITA-Projekts
-description: Erstellen Sie ein DITA-Projekt mithilfe einer Vorlage in AEM Guides. Erfahren Sie, wie Sie mit einem DITA-Projekt die Überprüfungen einleiten können.
+description: Create a DITA project using a template in AEM Guides. Learn how to use a DITA project to initiate the reviews.
 feature: Reviewing
 role: User
 hide: true
 exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines DITA-Projekts {#id1645HA00NM6}
 
-AEM Guides bietet eine DITA-Projektvorlage, mit der Sie Ihre Prüfungsaufgaben erstellen und verwalten können.
+AEM Guides provides a DITA project template that you can use to create and manage your review tasks.
 
-Sie können ein DITA-Projekt erstellen und es dann verwenden, um Ihre Überprüfungen einzuleiten. Mit einem Projekt können Sie einen Termin definieren und die Aufgaben und die Zeit steuern, die zum Abschließen der Prüfungsaufgabe erforderlich sind, für die Sie das Projekt erstellt haben.
+You can create a DITA project and then use it to initiate your reviews. A project lets you define a deadline and control the tasks and time required to complete the review task for which you have created the project.
 
-Sie können Team-Mitglieder zu einem Projekt hinzufügen, denen dann verschiedene Rollen zugewiesen werden können - Autoren, Prüfer und Herausgeber.
+You can add team members to a project who could then be assigned various roles – Authors, Reviewers, and Publishers.
 
-Nachdem Sie Ihr DITA-Projekt erstellt haben, können Sie Ihre Überprüfung über den Web-Editor oder die Assets-Benutzeroberfläche starten. Weitere Informationen finden Sie unter [Senden von Themen zur Überprüfung](review-send-topics-for-review.md#).
+Once you have created your DITA project, you can initiate your review from the Web Editor or the Assets UI. For more details, see [Send topics for review](review-send-topics-for-review.md#).
 
-Wenn ein Autor einen Prüfungs-Workflow initiiert, erhalten die ausgewählten Mitglieder des Projekts ebenfalls eine E-Mail-Benachrichtigung. Informationen zum Konfigurieren von E-Mail *Benachrichtigungen finden Sie unter „Anpassen von E-Mail* Vorlagen“ unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+Similarly, whenever an author initiates any review workflow the selected members of the project get an email notification. To configure email notifications, see *Customize email templates* in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
+Perform the following steps to create a DITA project:
 
-1. Öffnen Sie die Projektekonsole.
+1. Open Projects console.
 
-   Sie können über die folgende URL auch auf die Projektekonsole zugreifen:
+   You can also access the Projects console using the following URL:
 
    ```http
    http://<server name>:<port>/projects.html
    ```
 
-1. Klicken Sie **Erstellen** \> **Projekt**, um den Assistenten „Projekt erstellen“ zu starten.
+1. Click **Create** \> **Project** to launch the Create Project wizard.
 
    ![](images/project-console-63.png){width="650" align="left"}
 
-1. Wählen Sie auf der Seite Projekt erstellen die Vorlage **DITA-Projekt** und klicken Sie auf **Weiter**.
+1. On the Create Project page, select the **DITA Project** template and click **Next**.
 
-1. Geben Sie auf der Seite Projekteigenschaften die folgenden Details ein:
+1. On the Project Properties page, enter the following details:
 
-   Informationen auf der Registerkarte **Standard**:
+   Information in the **Basic** tab:
 
    ![](images/create-project.png){width="650" align="left"}
 
-   - Geben Sie den **(Titel**, **Beschreibung** und **Fälligkeitsdatum** ein.
+   - Enter your project&#39;s **Title**, **Description**, and **Due Date**.
 
-   - Sie können optional eine Miniaturansicht für das Projekt auswählen.
+   - You can, optionally, choose a thumbnail for the project.
 
-   - Standardmäßig werden Sie zum Besitzer des Projekts gemacht. So fügen Sie diesem Projekt weitere Benutzer hinzu:
+   - By default, you are made the owner of the project. To add more users to this project:
 
-   1. Geben Sie einen Benutzer aus der Dropdown-Liste **Benutzer** ein oder wählen Sie einen aus.
+   1. Enter or choose a user from the **User** drop-down list.
 
-   1. Wählen Sie einen Benutzertyp aus: Autoren, Prüfer oder Herausgeber.
+   1. Choose a user type - Authors, Reviewers, or Publishers.
 
       >[!NOTE]
       >
@@ -77,4 +77,4 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
 1. Klicken Sie **Öffnen**, um Ihre Projektseite zu öffnen.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)

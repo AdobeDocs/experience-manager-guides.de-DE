@@ -4,9 +4,10 @@ description: Veröffentlichen eines Themas oder der Elemente innerhalb eines The
 feature: Publishing
 role: User
 hide: true
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+exl-id: 3e77747d-ff04-465c-9305-fd6f1c74df04
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -58,7 +59,7 @@ Um eine Sites-Seite zu generieren, führen Sie die folgenden Schritte aus:
 1. Klicken Sie **Generieren**, um die Sites-Seite zu veröffentlichen.
 1. Sie können die Sites-Seite für ein Thema unter dem Abschnitt **Ausgaben** im Abschnitt **Dateieigenschaften** anzeigen. Die Sites-Seiten werden nach dem Datum und der Uhrzeit ihrer Veröffentlichung angezeigt, wobei die neueste als erste angezeigt wird.
 
-   ![Anzeigen der Sites-Seite für ein Thema](images/aem-sites-outputs.png){width=300 align=„left“}
+   ![Anzeigen der Sites-Seite für ein Thema](images/aem-sites-outputs.png){width=300 align="left"}
 
    *Zeigen Sie die Sites-Seite für ein Thema an und veröffentlichen Sie sie erneut.*
 
@@ -76,6 +77,6 @@ Sie können auch die folgenden Aktionen für eine Experience Manager Sites über
 
 * **Duplizieren**: Duplizieren Sie eine Sites-Seite. Sie können den Pfad, den Namen, den Titel und die Vorlage ändern. Sie können auch andere Bedingungen auswählen, wenn Sie eine Sites-Seite duplizieren.
 
-* **Entfernen**: Eine Sites-Seite aus der Ausgabeliste entfernen. Eine Bestätigungsaufforderung wird angezeigt. Sobald Sie bestätigen, wird die Sites-Seite aus der Liste **Ausgaben** entfernt. Die Sites-Seite wird jedoch nicht dauerhaft gelöscht.
+* **Entfernen**: Eine Sites-Seite aus der Ausgabeliste entfernen. Eine Bestätigungsaufforderung wird angezeigt. Once you confirm, the Sites page is removed from the **Outputs** list. But the Sites page is not deleted permanently.
 
-* **Anzeigen**: Anzeigen des Sites-Seiteneditors. Sie können auch Änderungen vornehmen und speichern.
+* **View**: View the Sites page editor. Sie können auch Änderungen vornehmen und speichern.

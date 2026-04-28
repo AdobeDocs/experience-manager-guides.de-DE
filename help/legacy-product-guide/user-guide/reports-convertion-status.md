@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -57,4 +57,4 @@ Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeig
       - **Ausgabe**: Pfad des erfolgreich konvertierten Dokuments. Durch Klicken auf den Link Ausgabe gelangen Sie zu dem Speicherort, an dem die Ausgabe gespeichert wird.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)
+**Übergeordnetes Thema:**[ Reports](reports-intro.md)

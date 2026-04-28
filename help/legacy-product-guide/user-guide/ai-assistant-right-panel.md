@@ -3,9 +3,9 @@ title: Verwenden des KI-Assistenten zur intelligenten Erstellung von Dokumenten 
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten Dokumente mit intelligenter Effizienz im Web-Editor erstellen können.
 hide: true
 exl-id: c7d37da8-e838-47a2-b469-287bcd841933
-source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Experience Manager Guides bietet ein KI-Assistenten-Tool, mit dem Sie Ihre Inhal
 >[!NOTE]
 >
 > Um die Funktion KI-Assistent im rechten Bedienfeld hinzuzufügen, muss Ihr Systemadministrator die Option **KI-Assistent** auf der Registerkarte **Bedienfelder** im Symbol **Workspace-Einstellungen** ![Workspace-Einstellungen auswählen](./images/editor_settings_icon.svg).
-> &#x200B;> Außerdem müssen Sie Ihr Dokument auschecken, um das Symbol für den KI-Assistenten anzuzeigen.
+> Außerdem müssen Sie Ihr Dokument auschecken, um das Symbol für den KI-Assistenten anzuzeigen.
 
 Diese Funktion ist nur für DITA-Themen verfügbar. Nachdem Sie den Text in einem Thema ausgewählt haben, können Sie eine der KI-Assistentenaktionen ausführen:
 
@@ -133,7 +133,7 @@ Diese Funktion wandelt einen ausgewählten Absatz intelligent in eine Liste um. 
 
 
 1. Inhalt auswählen.
-1. Wählen Sie **Inhalt** KI![Symbol für Inhalt &#x200B;](./images/ai-itemize-icon.svg) aus, um den ausgewählten Inhalt in eine Liste zu konvertieren.
+1. Wählen Sie **Inhalt** KI![Symbol für Inhalt ](./images/ai-itemize-icon.svg) aus, um den ausgewählten Inhalt in eine Liste zu konvertieren.
 Das Tool KI-Assistent konvertiert den Inhalt intelligent in eine Liste von Elementen.
 1. (Optional) Klicken Sie auf **Erweitern**, um den Editor **Inhalt auflisten** zu öffnen.
 1. Sobald Ihre Liste fertig ist, akzeptieren Sie die Änderungen am generierten Inhalt. Der generierte Inhalt ersetzt dann den ausgewählten Inhalt.
@@ -146,7 +146,7 @@ Verwenden Sie diese intelligente Funktion, um die ausgewählten Inhalte in die Z
 Führen Sie die folgenden Schritte aus, um die Inhalte zu übersetzen:
 
 1. Wählen Sie die Inhalte aus, die Sie übersetzen möchten.
-1. Wählen Sie **Inhalt übersetzen** im ![-Assistentenfeld &#x200B;](./images/ai-translate-content-icon.svg)Symbol „Inhalt übersetzen“ aus.
+1. Wählen Sie **Inhalt übersetzen** im ](./images/ai-translate-content-icon.svg)-Assistentenfeld ![Symbol „Inhalt übersetzen“ aus.
 1. Wählen Sie im Dropdown-Menü die Zielsprache aus. Die übersetzten Inhalte werden im Bedienfeld KI-Assistent angezeigt.
 
 1. (Optional) Wählen Sie **Erweitern** aus, um den Editor **Inhalte übersetzen** zu öffnen.

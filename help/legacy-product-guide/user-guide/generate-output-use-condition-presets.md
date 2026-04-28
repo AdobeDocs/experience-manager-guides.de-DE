@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 991179c7-186e-4b23-b918-248f596644ec
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1213'
 ht-degree: 2%
 
 ---
@@ -47,33 +47,33 @@ Sie können eine Bedingungsvorgabe der Themen erstellen, indem Sie die folgenden
    > Eine Fehlermeldung wird angezeigt, wenn das Feld „Name“ leer ist oder Sie ein ungültiges Zeichen oder einen Namen eingeben, der mit einer vorhandenen Bedingungsvorgabe übereinstimmt. Sie können einen Bindestrich &quot;-&quot; oder Unterstrich „_“ als Trennzeichen verwenden.
 
 1. Wählen Sie **Erstellen** aus.
-Die neue Bedingungsvorgabe wird der Liste hinzugefügt.
-1. Doppelklicken Sie auf eine Bedingungsvorgabe, um die Attribute und Aktionen anzuzeigen.
-Das Bedienfeld **Attribute** zeigt alle Attribute an, die zu allen in der Zuordnung vorhandenen Verweisen hinzugefügt wurden. Im rechten Bedienfeld werden nur die Bedingungen angezeigt, die Sie den Bedingungsvorgaben hinzugefügt haben.
-1. Führen Sie einen der folgenden Schritte aus, um die Attribute hinzuzufügen:
-   * Wählen Sie ein oder mehrere Attribute aus, um alle darunter liegenden Werte zur Bedingungsvorgabe hinzuzufügen. Sie können beispielsweise das Attribut `platform` auswählen, um alle zugehörigen Werte hinzuzufügen.
-   * Wählen Sie einen oder mehrere Attributwerte aus, um sie zur Bedingungsvorgabe hinzuzufügen. Sie können beispielsweise die `Unix` und `Win` Werte des Platform-Attributs auswählen
-   * Wählen Sie ein beliebiges Attribut- und Wertepaar aus und ziehen Sie es in das mittlere Bedienfeld. Sie können beispielsweise den `Unix` des Platform-Attributs auswählen und ziehen.
-   * **Alle auswählen** um alle Attribute und deren Werte zur Bedingungsvorgabe hinzuzufügen.
-Standardmäßig ist die Aktion für ein Attribut `Include`.
+The new condition preset is added to the list.
+1. Double-click a condition preset to view the attributes and the actions.
+The **Attributes** panel shows all the attributes added to any references present in the map. The right panel shows only the conditions that you have added to the condition presets.
+1. Do any of the following to add the attributes:
+   * Select one or more attributes to add all the values under them to the condition preset. For example, you can select the `platform` attribute to add all its values.
+   * Select one or more attribute values to add them to the condition preset. For example, you can select the `Unix` and `Win` values of the platform attribute
+   * Select any attribute and value pair and drag it to the center panel. For example, you can select the `Unix` value of the platform attribute and drag it.
+   * **Select all** to add all the attributes and their values to the condition preset.
+By default, the action for an attribute is `Include`.
 
-1. Wählen Sie **Hinzufügen**. Sie können diesen Schritt wiederholen, um weitere Attribute hinzuzufügen. Die hinzugefügten Attribute werden aus dem mittleren in den rechten Bereich verschoben.
-1. Wählen Sie oben in der Aktionsleiste Entfernen aus, um die ausgewählten Attribute im rechten Bedienfeld zu entfernen.
-1. (Optional) Bei Bedarf können Sie die auf die Attribute angewendete Aktion überschreiben.
+1. Wählen Sie **Hinzufügen**. You can repeat this step to add more attributes. The attributes that you add move from the central to the right panel.
+1. Select Remove from the actions bar on the top to remove the selected attributes in the right panel.
+1. (Optional) If required, you can override the action applied to the attributes.
 Führen Sie einen der folgenden Schritte aus:
-   * Wählen Sie für ein Attribut eine der folgenden Aktionen aus der Dropdown-Liste Aktion aus.
+   * For any attribute, select one of the following actions from the Action drop-down.
       * Einschließen
       * Ausschließen
       * Passthrough
       * Kennzeichnung
-   * Wählen Sie mehrere Attributzeilen aus dem rechten Bedienfeld und wählen Sie oben in der Aktionsleiste eine Aktion aus. Sie können beispielsweise für die ausgewählten Attribute die Aktion Ausschließen auswählen.
-1. Klicken Sie **Speichern**, um die Bedingungsvorgabe zu speichern.
+   * Select multiple attribute rows from the right panel and choose an action from the actions bar on the top. For example, you can select Exclude action for the selected attributes.
+1. Select **Save** to save the condition preset.
 
    >[!NOTE]
    >
-   > Es wird eine Warnung angezeigt, wenn Sie eine andere Vorgabe auswählen oder die Vorgabe schließen, ohne sie zu speichern.
+   > You view a warning if you select another preset or close the preset without saving it.
 
-Nachdem Sie eine Bedingungsvorgabe erstellt haben, wird sie in der Dropdown **Liste &quot;**&quot; der Ausgabevorgaben angezeigt. Weitere Informationen zum Veröffentlichen [PDF-Ausgabe](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Once you create a condition preset, it appears under the **Condition Presets** dropdown of the Output presets. Learn more about how to [Publish PDF output](/help/product-guide/web-editor/native-pdf-web-editor.md).
 
 ### Umbenennen einer Bedingungsvorgabe
 
@@ -121,7 +121,7 @@ Führen Sie die folgenden Schritte aus, um eine Bedingungsvoreinstellung zu erst
    * Einschließen
    * Ausschließen
    * Passthrough
-   * Markierung
+   * Kennzeichnung
 Die Aktion wird als Standardaktion für alle Attribute festgelegt, unabhängig davon, ob sie zur Bedingungsvoreinstellung hinzugefügt werden oder nicht.
 
    Sie haben beispielsweise 15 Bedingungsattribute in Ihrem Dokument und vier davon in die Bedingungsvorgabe aufgenommen. Wenn Sie **Ausschließen** als Standardaktion auswählen, wird sie auf alle 15 Attribute angewendet.
@@ -168,4 +168,4 @@ Sie können eine oder mehrere Bedingungsvorgaben auf der Registerkarte **Bedingu
 1. Klicken Sie auf **Entfernen**-Schaltfläche.
 1. Klicken Sie **Entfernen**, um die Aktion zu bestätigen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

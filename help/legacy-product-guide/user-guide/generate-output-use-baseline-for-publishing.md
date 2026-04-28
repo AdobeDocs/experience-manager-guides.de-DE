@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1972'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Führen Sie die folgenden Schritte aus, um eine Baseline zu erstellen:
 
    Wenn Sie **Beschriftung** auswählen, erhalten Sie auch eine zusätzliche Option, um die neueste Version von Themen zu verwenden, auf die die angegebene Beschriftung nicht angewendet wurde. Wenn Sie diese Option nicht auswählen und es ein Thema oder eine Mediendatei gibt, das/die nicht die angegebene Bezeichnung enthält, schlägt der grundlegende Erstellungsprozess fehl. Weitere Informationen zum Hinzufügen von Beschriftungen finden Sie unter [Verwenden von Beschriftungen](web-editor-use-label.md#).
 
-   - **Version am** &lt;*Zeitstempel*>: Wählt die Themenversion zum angegebenen Zeitpunkt aus. Beachten Sie, dass die hier angegebene Zeit der Zeitzone Ihres AEM-Servers entspricht. Wenn sich Ihr Server in einer anderen Zeitzone befindet, werden die Themen gemäß der Zeitzone Ihres Servers und nicht gemäß Ihrer lokalen Zeitzone aufgenommen.
+   - **Version am** „ph id=&#39;16&#39;/>Zeitstempel *\>: Wählt die Version der Themen zum angegebenen Zeitpunkt aus.* Beachten Sie, dass die hier angegebene Zeit der Zeitzone Ihres AEM-Servers entspricht. Wenn sich Ihr Server in einer anderen Zeitzone befindet, werden die Themen gemäß der Zeitzone Ihres Servers und nicht gemäß Ihrer lokalen Zeitzone aufgenommen.
 
    Nachdem Sie eine Bezeichnung oder Version als Datum ausgewählt haben, werden alle referenzierten Themen und Mediendateien in der Zuordnung entsprechend ausgewählt. Diese Themenauswahl wird nicht auf der Benutzeroberfläche angezeigt, sondern im Backend gespeichert.
 
@@ -148,7 +148,7 @@ Führen Sie die folgenden Schritte aus, um mehreren Themen und referenzierten In
 
 1. Wenn Sie den Titel auf Themen anwenden möchten, auf die in den Unterzuordnungen verwiesen wird, wählen Sie **Option Titel auf untergeordnete Zuordnungen und abhängige Elemente**.
 
-   - Klicken Sie **Hinzufügen**.
+   - Klicken Sie auf **Hinzufügen**.
 Die angegebene Beschriftung wird der DITA-Zuordnung und den referenzierten Themen und Inhalten hinzugefügt.
 
      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
@@ -183,4 +183,4 @@ Führen Sie die folgenden Schritte aus, um eine übersetzte Baseline zu exportie
 1. \(Optional\) Um eine bereits exportierte Baseline zu exportieren, wählen Sie &quot;**Baseline überschreiben** und klicken Sie dann auf **Baseline exportieren**.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

@@ -1,14 +1,14 @@
 ---
 title: Tutorials für Experience Manager Guides
-description: Hier finden Sie Anleitungsvideos für Experience Manager Guides (früher XML Documentation für Adobe Experience Manager). Erfahren Sie mehr über die native DITA-Unterstützung und das strukturierte Authoring in Experience Manager.
+description: Hier finden Sie Anleitungsvideos für Experience Manager Guides (früher XML Documentation for Adobe Experience Manager). Erfahren Sie mehr über die native DITA-Unterstützung und das strukturierte Authoring in Experience Manager.
 feature: AEM Guides Tutorials
 role: User
 hide: true
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 2%
+source-wordcount: '269'
+ht-degree: 13%
 
 ---
 
@@ -26,6 +26,6 @@ Mit [!DNL AEM Guides] Lösung können Unternehmen Endbenutzern nahtlose und pers
 
 ## Zusätzliche Ressourcen
 
-* [[!DNL AEM Guides] Benutzerhandbuch (neue Benutzeroberfläche)](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides] Lernen und Support](https://helpx.adobe.com/de/support/xml-documentation-for-experience-manager.html)
-* [Experience League – AEM-Erkundung](https://business.adobe.com/de/products/experience-manager/adobe-experience-manager.html)
+* [[!DNL AEM Guides]-Benutzerhandbuch (neue Benutzeroberfläche)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)
+* [[!DNL AEM Guides] Lernen und Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [Experience League - AEM erkunden](https://business.adobe.com/de/products/experience-manager/adobe-experience-manager.html)

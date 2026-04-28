@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -96,4 +96,4 @@ Führen Sie die folgenden Schritte aus, um die CSV-Datei eines DITA-Zuordnungsbe
 
 Sobald der Bericht in den Posteingang heruntergeladen wurde, können Sie auch den Bericht auswählen und das Symbol Öffnen oben verwenden, um den ausgewählten Bericht zu öffnen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)
+**Übergeordnetes Thema:**[ Reports](reports-intro.md)

@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -79,4 +79,4 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 1. Navigieren Sie zurück zur DITA-Zuordnungsdatei im Ordner für die Ausgangssprache in der Assets-Benutzeroberfläche. Die neu übersetzten Themen sind jetzt synchronisiert.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte übersetzen](translation.md)
+**Übergeordnetes Thema:**[ Inhalte übersetzen](translation.md)

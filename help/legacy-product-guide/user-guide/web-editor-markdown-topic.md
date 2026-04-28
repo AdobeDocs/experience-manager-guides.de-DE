@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ Führen Sie die folgenden Schritte aus, um ein Markdown-Thema im Web-Editor zu e
 
 1. Verwenden Sie **Als neue Version speichern** in der Hauptsymbolleiste, um die im Thema vorgenommenen Änderungen zu speichern und eine neue Version des Themas zu erstellen. Sie können in der Hauptsymbolleiste auch **Alle speichern** verwenden, um Ihre Änderungen in allen geöffneten Themen zu speichern.
 
-1. Klicken **oben rechts** „Schließen“, um das Markdown-Thema zu schließen.
+1. Click **Close** on the top-right to close the Markdown topic.
 
 >[!NOTE]
 >
-> Wenn Sie keine Änderungen gespeichert haben, wird ein Popup angezeigt, und Sie werden aufgefordert, Ihr Thema zu speichern, bevor Sie es schließen.
+> If you have not saved changes, a popup is displayed, and you are prompted to save your topic before you close it.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

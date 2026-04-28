@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: dbc27856-6903-4694-9875-77dc778c80bd
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -122,34 +122,34 @@ Es gibt drei **Tracking**-Optionen, aus denen Sie wählen können:
 
 ### Thema als PDF exportieren {#id2114BL00B5U}
 
-PDF ist eines der gängigsten Ausgabeformate, die in jeder möglichen Phase des Dokumentenentwicklungszyklus verwendet werden. AEM Guides bietet Ihnen die Flexibilität, die PDF eines einzelnen Themas oder eine gesamte Zuordnungsdatei zu generieren. Mit der Funktion „Als PDF exportieren“ können Autor, Publisher oder Admin einfach die PDF-Ausgabe für ein einzelnes Thema generieren. Sie verwendet die im Profil auf Ordnerebene gespeicherten DITA-OT-Konfigurationen, um die PDF zu generieren.
+PDF ist eines der gängigsten Ausgabeformate, die in jeder möglichen Phase des Dokumentenentwicklungszyklus verwendet werden. AEM Guides provides you the flexibility to generate the PDF of an individual topic or an entire map file. Export as PDF feature allows the Author, Publisher, or an Administrator to easily generate the PDF output for an individual topic. It uses the DITA-OT configurations saved at the folder-level profile to generate the PDF.
 
-Diese Funktion unterstützt die folgenden Funktionen:
+This feature supports the following functionalities:
 
-- Erzeugt den PDF der aktuell aktiven Arbeitskopie eines Themas.
-- Akzeptieren Sie den DITA-OT-Umwandlungsnamen und die Befehlszeilenargumente, um die PDF zu generieren.
-- Speichern Sie die generierte Ausgabe auf dem lokalen System.
-- Lösen Sie die im Thema verwendeten Schlüssel- und Inhaltsreferenzen auf, bevor Sie die Ausgabe generieren.
+- Generate the PDF of the currently active working copy of a topic.
+- Accept the DITA-OT transformation name and command-line arguments to generate the PDF.
+- Save the generated output on local system.
+- Resolve key and content references used in the topic before generating the output.
 
-Gehen Sie wie folgt vor, um ein Thema als PDF zu exportieren:
+To export a topic as PDF, follow these steps:
 
-1. Öffnen Sie das Thema im Vorschaumodus.
+1. Open the topic in Preview mode.
 
-1. Klicken Sie auf **Als PDF exportieren** \(![](images/export-as-pdf-icon.svg)\) Symbol.
+1. Click the **Export as PDF** \(![](images/export-as-pdf-icon.svg)\) icon.
 
-   Das Dialogfeld Als PDF exportieren wird angezeigt.
+   The Export as PDF dialog is displayed.
 
    ![](images/export-as-pdf-dialog.png){width="350" align="left"}
 
-1. *\(Optional\)* Geben Sie den Namen der DITA-OT-Transformation und alle Befehlszeilenargumente an, die Sie verwenden möchten.
+1. *\(Optional\)* Specify the DITA-OT transformation name and any command-line arguments that you want to use.
 
 1. Klicken Sie auf **Herunterladen**.
 
    >[!NOTE]
    >
-   > Vergewissern Sie sich, dass Sie das Popup-Fenster in der Browser-Konfiguration aktiviert haben, da der PDF sonst nicht heruntergeladen wird.
+   > Ensure that you have enabled the pop-up window in the browser configuration, else the PDF will not get downloaded.
 
-   Die PDF wird generiert und in einer neuen Registerkarte geöffnet. Andernfalls wird ein Dialogfeld zum Speichern der PDF auf Ihrem lokalen System angezeigt.
+   The PDF is generated and opened in a new tab or you are shown a dialog to save the PDF on your local system.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Parent topic:**[ Work with the Web Editor](web-editor.md)

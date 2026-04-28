@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 3a8cb163-94ac-48b1-ae6b-1309179f462a
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 3%
 
 ---
@@ -34,11 +34,11 @@ Die folgenden Optionen sind für die PDF-Ausgabe verfügbar:
 | Dokument auf Seite öffnen | Geben Sie die Seitennummer an, die beim Öffnen der PDF angezeigt werden soll. |
 | Anfänglicher Zoom-Faktor | Wählen Sie den Zoom-Faktor für das Dokument aus. |
 | Eintragungszeichen | Um ein Dokument mit Schnittmarken und Registrierungsmarken zu drucken, wählen Sie eine Option aus der Dropdown-Liste Registrierungsmarken aus. |
-| Seitenbreite und Seitenhöhe | Geben Sie die Breite und Höhe der Seite an. |
+| Seitenbreite und Seitenhöhe | Specify the width and height of the page. |
 | Seitenbereich | Wählen Sie aus, ob Sie alle Seiten des Buches oder mehrere Seiten veröffentlichen möchten. Wenn Sie „Bereich“ auswählen, müssen Sie den Seitenbereich „Von“ und „Bis“ angeben. |
 | Konvertieren von CYMK in RGB | Wählen Sie diese Option aus, um CYMK-Farben in der generierten PDF in RGB zu konvertieren. |
 | PDF-Lesezeichen generieren | Erstellen Sie eine barrierefreie PDF, die Lesezeichen enthält. |
 | Zielpfad | Der Pfad innerhalb Ihres AEM-Repositorys, in dem die PDF-Ausgabe gespeichert wird. |
 | Nachgenerierungs-Workflow ausführen | Wenn Sie diese Option wählen, wird eine neue Dropdown-Liste für den Post-Generation-Workflow angezeigt, die alle in AEM konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, den Sie nach Abschluss des Workflows zur Ausgabegenerierung ausführen möchten. |
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
+**Übergeordnetes Thema:**[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)

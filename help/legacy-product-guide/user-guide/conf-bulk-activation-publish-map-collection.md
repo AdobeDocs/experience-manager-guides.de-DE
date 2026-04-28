@@ -5,9 +5,9 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '449'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ Sobald die Ausgabe für die ausgewählten Zuordnungsdateien aktiviert wurde, wir
 Führen Sie einen der folgenden Schritte aus:
 
 * Um die Ausgabe ausgewählter Zuordnungen zu aktivieren, wählen Sie die vorgenerierte Zuordnungsausgabe aus und klicken Sie auf **Quick Publish**.
-* Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Zuordnung (Spalte) und wählen Sie dann **Quick Publish.**
+* Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Zuordnung (Spalte) und wählen Sie dann **Quick Publish“ aus.**
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]
@@ -86,4 +86,4 @@ Eine Erfolgsmeldung wird angezeigt, wenn die Zuordnungsausgabe zur Veröffentlic
 
 Sobald die Ausgabe für die ausgewählten Zuordnungsdateien aktiviert wurde, wird die Registerkarte Prüfverlauf aktualisiert, und die zuletzt aktivierte Ausgabe wird oben angezeigt. Die Spalte **Veröffentlicht** wird mit dem Veröffentlichungsdatum und der Veröffentlichungszeit aktualisiert.
 
-**Übergeordnetes Thema: &#x200B;** [Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
+**Übergeordnetes Thema: **[Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

@@ -1,13 +1,13 @@
 ---
-user-guide-title: Alte Experience Manager Guides-Benutzeroberfläche
-user-guide-description: Lesen Sie die Produktdokumentation für Adobe Experience Manager Guides unter Verwendung der alten Benutzeroberfläche.
+user-guide-title: Experience Manager Guides Old UI
+user-guide-description: Read product documentation for Adobe Experience Manager Guides using the old user interface.
 breadcrumb-title: Dokumentation zu AEM Guides
 hide: true
-badgeAll: label="Handbuch zur alten Benutzeroberfläche - weitere Informationen" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Handbuch zur alten Benutzeroberfläche"
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+badgeAll: label="Old UI Guide - More Info" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Old UI Guide"
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 4%
+source-wordcount: '599'
+ht-degree: 8%
 
 ---
 
@@ -20,81 +20,81 @@ ht-degree: 4%
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aem-guide}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] und wichtige Funktionen {#aemg-works-features}
-         - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
-   - Verwalten von {#manage-content}
+      - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
+         - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
+   - Inhalt verwalten {#manage-content}
       - [Wichtige Konzepte, Rollen und Berechtigungen sowie Voraussetzungen](./user-guide/authoring.md)
       - [Hochladen von Dateien](./user-guide/authoring-upload-existing-files.md)
       - [Dateien und Ordner verwalten](./user-guide/authoring-file-management.md)
       - [Dateien herunterladen](./user-guide/authoring-download-assets.md)
-   - Authoring von {#author-content}
+   - Authoring von Inhalten {#author-content}
       - [Authoring – Übersicht](./user-guide/authoring-content.md)
-      - Themenerstellung und {#create-preview-topics}
+      - Themenerstellung und -vorschau {#create-preview-topics}
          - [Erstellen und Vorschau von Themen](./user-guide/create-preview-topics.md)
          - [Erstellen von Themen](./user-guide/web-editor-create-topics.md)
          - [Vorschau eines Themas](./user-guide/web-editor-preview-topics.md)
-         - Authoring von {#author-content-aem-guides}
-            - [Möglichkeit zum Erstellen von Inhalten mit AEM Guides](./user-guide/authoring-content-xml-doc.md)
+         - Autoreninhalt {#author-content-aem-guides}
+            - [Way to Author content using AEM Guides](./user-guide/authoring-content-xml-doc.md)
             - Web-Editor {#work-with-web-editor}
                - [Arbeiten mit dem Web-Editor](./user-guide/web-editor.md)
                - [Web-Editor starten](./user-guide/web-editor-launch-editor.md)
                - [Bearbeiten von Themen im Web-Editor](./user-guide/web-editor-edit-topics.md)
-               - [Die Funktionen des Web-Editors kennen](./user-guide/web-editor-features.md)
-               - [Tastaturbefehle im Web-Editor](./user-guide/web-editor-keyboard-shortcuts.md)
-               - [Weitere Funktionen im Web-Editor](./user-guide/web-editor-other-features.md)
+               - [Know the Web Editor features](./user-guide/web-editor-features.md)
+               - [Keyboard shortcuts in the Web Editor](./user-guide/web-editor-keyboard-shortcuts.md)
+               - [Other features in the Web Editor](./user-guide/web-editor-other-features.md)
                - [Web-Editor-Ansichten](./user-guide/web-editor-views.md)
                - [Unterstützung für Schematron-Dateien](./user-guide/support-schematron-file.md)
                - [KI-gestützte Smart Suggestions zum Erstellen von Inhalten](./user-guide/authoring-ai-based-smart-suggestions.md)
-               - [KI-gestützte Smart-Hilfe bei der Suche nach Inhalten](./user-guide/ai-based-smart-help.md)
+               - [AI-powered Smart Help to search content](./user-guide/ai-based-smart-help.md)
                - [KI-Assistent zum Erstellen von Dokumenten mit intelligenter Effizienz](./user-guide/ai-assistant-right-panel.md)
                - [Erstellen von Markdown-Dokumenten im Web-Editor](./user-guide/web-editor-markdown-topic.md)
                - [Hinzufügen von Zitaten zu Inhalten](./user-guide/web-editor-apply-citations.md)
-               - [Verwenden von Daten aus Ihren Datenquellen](./user-guide/web-editor-content-snippet.md)
+               - [Use data from your data sources](./user-guide/web-editor-content-snippet.md)
                - [Verwalten von globalen und Ordnerprofil-Ausgabevorgaben](./user-guide/web-editor-manage-output-presets.md)
-               - Artikel-basierte {#article-based-pub}
+               - Article-based publishing {#article-based-pub}
                   - [Artikelbasierte Veröffentlichung im Web-Editor](./user-guide/web-editor-article-publishing.md)
                   - [Erstellen von Ausgabevorgaben aus dem Web-Editor](./user-guide/web-editor-article-publishing-presets.md)
                   - [Generieren von Ausgaben aus dem Repository- oder dem Zuordnungsansichtsbereich](./user-guide/web-editor-article-publishing-output.md)
                   - [Verwenden des Bedienfelds „Schnellgenerierung“ zum Generieren und Anzeigen der Ausgabe](./user-guide/web-editor-quick-generate-panel.md)
-               - [Übersetzen von Dokumenten aus dem Web-Editor](./user-guide/translate-documents-web-editor.md)
+               - [Translate documents from the Web Editor](./user-guide/translate-documents-web-editor.md)
                - [Erstellen und Verwalten von Grundlinien aus dem Web-Editor](./user-guide/web-editor-baseline.md)
                - [Dokumentstatus](./user-guide/web-editor-document-states.md)
                - [Kennzeichnungen verwenden](./user-guide/web-editor-use-label.md)
-            - Karten-Editor {#work-with-map-editor}
+            - Karteneditor {#work-with-map-editor}
                - [Arbeiten mit dem Zuordnungs-Editor](./user-guide/map-editor.md)
                - [Erstellen einer Zuordnung](./user-guide/map-editor-create-map.md)
                - [Erstellen von Karten basierend auf benutzerdefinierten Vorlagen](./user-guide/create-maps-customized-templates.md)
                - [Arbeiten mit dem erweiterten Zuordnungs-Editor](./user-guide/map-editor-advanced-map-editor.md)
-               - [Arbeiten mit dem grundlegenden Zuordnungs-Editor](./user-guide/map-editor-basic-map-editor.md)
-               - [Weitere Funktionen in den Zuordnungs-Editoren](./user-guide/map-editor-other-features.md)
+               - [Work with the Basic Map Editor](./user-guide/map-editor-basic-map-editor.md)
+               - [Other features in the map editors](./user-guide/map-editor-other-features.md)
             - DITAVAL Editor {#ditaval-editor}
-               - [Arbeiten mit dem DITAVAL-Editor](./user-guide/ditaval-editor.md)
+               - [Work with the DITAVAL editor](./user-guide/ditaval-editor.md)
          - Desktop-Tools für die Inhaltserstellung {#author-using-desktop-tools}
             - [Erstellen von Inhalten mit Desktop-Tools](./user-guide/author-desktop-tools.md)
             - [Arbeiten mit FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Arbeiten mit Sauerstoff](./user-guide/author-desktop-oxygen.md)
-   - überprüfen{#review-topic-maps}
+   - Inhalt überprüfen {#review-topic-maps}
       - [Themen oder Karten überprüfen](./user-guide/review.md)
       - [Erstellen eines DITA-Projekts](./user-guide/authoring-create-dita-project.md)
-      - [Senden von Themen zur Überprüfung](./user-guide/review-send-topics-for-review.md)
+      - [Send topics for review](./user-guide/review-send-topics-for-review.md)
       - [Prüfungsaufgabe mithilfe einer Benachrichtigung neu zuweisen](./user-guide/reassign-review-using-notification.md)
-      - der Themenüberprüfung{#review-topics}
+      - Topic review {#review-topics}
          - [Themen überprüfen](./user-guide/review-topics.md)
          - [Kommentare zur Adressenüberprüfung](./user-guide/review-address-review-comments.md)
       - [Verwalten von Prüfungsaufgaben mithilfe des Überprüfungs-Dashboards](./user-guide/review-manage-tasks-review-dashboard.md)
       - [Anzeigen einer abgeschlossenen Prüfungsaufgabe](./user-guide/review-view-completed-task.md)
-   - Metadaten in AEM Guides {#manaege-metadata}
+   - Metadata in AEM Guides {#manaege-metadata}
       - [Verwalten von Metadaten](./user-guide/manage-metadata.md)
       - [Arbeiten mit Metadaten in AEM](./user-guide/metadata-dita.md)
       - [Smart-Tagging](./user-guide/web-editor-smart-tagging.md)
       - [Massen-Tagging von DITA-Inhalten](./user-guide/map-editor-bulk-tagging.md)
-   - der Inhaltsübersetzung{#translate-content}
+   - Übersetzung von Inhalten {#translate-content}
       - [Inhalte übersetzen](./user-guide/translation.md)
       - [Best Practices für die Übersetzung von Inhalten](./user-guide/translation-first-time.md)
       - [Übersetzungsstatus anzeigen](./user-guide/translation-view-trans-state-6234.md)
       - [Geänderte Themen übersetzen](./user-guide/translation-modified-topics-6234.md)
-   - der Ausgabenerstellung{#output-gen}
+   - Ausgabegenerierung {#output-gen}
       - [Grundlagen der Ausgabenerstellung](./user-guide/generate-output.md)
       - [Einführung in Ausgabevorgaben](./user-guide/generate-output-understand-presets.md)
       - Ausgabevorgaben in AEM Guides {#output-presets-aemg}
@@ -102,7 +102,7 @@ ht-degree: 4%
          - [AEM Sites-Vorgaben im Zuordnungs-Dashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [AEM Sites-Vorgaben im Web-Editor](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
-         - [Wissensdatenbank](./user-guide/generate-output-knowledge-base.md)
+         - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
          - [EPUB](./user-guide/generate-output-epub.md)
          - [Benutzerdefiniert](./user-guide/generate-output-custom.md)
@@ -120,7 +120,7 @@ ht-degree: 4%
       - [Veröffentlichen von Inhaltsfragmenten](./user-guide/publish-content-fragment.md)
       - [Veröffentlichen von Experience Fragments](./user-guide/publish-experience-fragment.md)
       - [AEM Sites-Seiten veröffentlichen](./user-guide/publish-aem-sites.md)
-      - Massenaktivierung von {#bulk-activation}
+      - Massenaktivierung von Inhalten {#bulk-activation}
          - [Massenaktivierung von veröffentlichten Inhalten](./user-guide/conf-bulk-activation.md)
          - [Erstellen einer Massenaktivierungs-Zuordnungssammlung](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Ausgabe aktivieren](./user-guide/conf-bulk-activation-publish-map-collection.md)
@@ -142,5 +142,5 @@ ht-degree: 4%
       - [Bericht zur Wiederverwendung von Inhalt](./user-guide/reports-content-reuse.md)
       - [Bericht zum Konversionsstatus](./user-guide/reports-convertion-status.md)
       - [Versionsverlaufsbericht für zurückgesetzte Dateien](./user-guide/reports-reverted-file-version-history.md)
-- [BENUTZERHANDBUCH (NEUE BENUTZEROBERFLÄCHE)](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [BENUTZERHANDBUCH (NEUE BENUTZEROBERFLÄCHE)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

@@ -1,48 +1,48 @@
 ---
 title: Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT
-description: Erfahren Sie, wie Sie die Metadaten mithilfe der DITA-OT-Veröffentlichung in AEM Guides an die Ausgabe übergeben.
+description: Learn how to pass on the metadata to the output using DITA-OT publishing in AEM Guides.
 feature: Publishing, Metadata Management
 role: User
 hide: true
 exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
 # Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT {#id21BJ00QD0XA}
 
-Metadaten sind zusätzliche Informationen zur Ausgabe. In AEM Guides können Sie die vorhandenen Metadaten übergeben oder benutzerdefinierte Metadaten-Tags erstellen. Mit der DITA-OT-Veröffentlichung können Sie Metadaten an AEM, PDF, HTML5, EPUB und benutzerdefinierte Formatausgaben übergeben.
+Metadata is additional information about the output. In AEM Guides you can pass on the existing metadata or create custom metadata tags. You can pass on metadata to AEM, PDF, HTML5, EPUB, and Custom format outputs using DITA-OT publishing.
 
-Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe von DITA-OT-Publishing an die Ausgabe zu übergeben:
+Perform the following steps to pass on the metadata to the output using DITA-OT publishing:
 
-1. Navigieren Sie in der **Assets**-Benutzeroberfläche zu der DITA-Zuordnungsdatei, für die Sie die Metadaten an das DITA-OT übergeben möchten, und klicken Sie darauf.
-1. Wählen Sie eine Ausgabevorgabe aus, an die Sie die Metadatenfelder übergeben möchten, und bearbeiten Sie sie. Wählen Sie beispielsweise die PDF-Ausgabevorgabe aus.
-1. Wählen Sie **DITA-OT** unter der Option &lt;output\> mit generieren in der ausgewählten Ausgabevorgabe aus.
+1. In the **Assets UI**, navigate to and click on the DITA map file for which you want to pass the metadata to the DITA-OT.
+1. Select and edit an output preset to which you want to pass the metadata fields. For example, select PDF output preset.
+1. Select **DITA-OT** under Generate &lt;output\> Using option in the selected output preset.
 
    ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
 
-1. Wählen Sie aus der Dropdown-Liste Eigenschaften die Metadaten aus, die Sie an die DITA-OUT-Veröffentlichung übergeben möchten.
+1. From the Properties drop down select the metadata that you want to pass to DITA-OT publishing.
 
-   Das Dropdown-Menü „Eigenschaften“ listet sowohl die benutzerdefinierten als auch die Standardeigenschaften auf. Im obigen Screenshot ist Autor beispielsweise die benutzerdefinierte Eigenschaft, während `dc:description`, `dc:language`, `dc:title` und `docstate` die Standardeigenschaften sind.
+   Properties dropdown lists both the custom and the default properties. For example, in the above screenshot author is the custom property while `dc:description`, `dc:language`, `dc:title`, and `docstate` are the default properties.
 
    >[!NOTE]
    >
-   > Diese Eigenschaften werden aus der Datei „metadataList“ ausgewählt, die unter dem folgenden Speicherort verfügbar ist:`/libs/fmdita/config/metadataList`. Standardmäßig werden in dieser Datei vier Eigenschaften aufgelistet: `dc:description`, `dc:language`, `dc:title` und `docstate`.
+   > These properties are picked from the metadataList file available at the following location:`/libs/fmdita/config/metadataList`. By default, there are four properties listed in this file- `dc:description`, `dc:language`, `dc:title`, and `docstate`.
 
-   Diese Datei kann überlagert werden unter: `/apps/fmdita/config/metadataList`.
+   This file can be overlaid at: `/apps/fmdita/config/metadataList`.
 
-   Informationen zum Übergeben einer benutzerdefinierten Eigenschaft, für die Sie bereits die Werte definiert haben, finden Sie unter [Verwenden von AEM-Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=de).
+   To pass a custom property for which you have already defined the values, see [Use AEM Metadata in DITA-OT PDF output](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
-1. Wählen Sie **Dropdown-** „Eigenschaften“ die erforderlichen benutzerdefinierten und Standardeigenschaften aus. Wählen Sie beispielsweise `author`, `dc:title` und `dc:description`. Dies sind die `metadata/properties`, die erstellt werden, sobald wir eine Datei erstellen. Die ausgewählten Eigenschaften werden unter der Dropbox aufgelistet.
+1. From the **Properties** dropdown, select the required custom and default properties. For example, select `author`, `dc:title`, and `dc:description`. These are the standard `metadata/properties` that gets created once we create a file. The selected properties are listed below the dropbox.
 
    ![](images/selected-metadata-properties.png){width="300" align="left"}
 
-1. Klicken **oben links** Fertig“, um die Änderungen zu speichern.
-1. Ausgabe generieren.
+1. Click **Done** on the top left to save the changes.
+1. Generate the output.
 
-Die ausgewählten Metadateneigenschaften werden an die mit DITA-OT generierte Ausgabe übergeben.
+The selected metadata properties will be passed to the output generated using DITA-OT.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

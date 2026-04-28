@@ -5,10 +5,10 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 0%
+source-wordcount: '1111'
+ht-degree: 1%
 
 ---
 
@@ -46,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um eine Themenvorlage zu erstellen:
 
    ![](images/dita-templates.png){width="800" align="left"}
 
-1. Klicken Sie auf **topics**-Ordner, um ihn zu öffnen.Klicken Sie **Erstellen \> DITA-Vorlage**.
+1. Klicken Sie auf **Themen** Ordner, um ihn zu öffnen.Klicken Sie **Erstellen \> DITA-Vorlage**.
 1. Wählen Sie auf der Blueprint-Seite die Option **Thema** aus und klicken Sie dann auf **Weiter.**
 1. Geben Sie auf der Seite Eigenschaften die Themenvorlage **Titel** an.
 1. Geben Sie die Datei **Name**
@@ -76,7 +76,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnungsvorlage zu erstellen:
    >
    > Der Dateiname muss die Erweiterung &quot;.ditamap“ aufweisen.
 
-1. (Optional\) Fügen Sie eine Beschreibung hinzu. Klicken Sie auf **Erstellen**. Die Meldung Zuordnungsvorlage erstellt wird angezeigt. Anschließend können Sie die Zuordnungsvorlage öffnen und bearbeiten. Sie können die Verweise für die Themenvorlagen, Zuordnungsvorlagen und auch andere Assets in der Zuordnungsvorlage hinzufügen.
+1. (Optional) Fügen Sie eine Beschreibung hinzu.Klicken Sie auf **Erstellen**. Die Meldung Zuordnungsvorlage erstellt wird angezeigt. Anschließend können Sie die Zuordnungsvorlage öffnen und bearbeiten. Sie können die Verweise für die Themenvorlagen, Zuordnungsvorlagen und auch andere Assets in der Zuordnungsvorlage hinzufügen.
 
 ### Menü „Optionen“ {#options-menu}
 
@@ -190,4 +190,4 @@ Die Zuordnung generiert alle Assets, die im Vorlagenordner referenziert werden. 
 
 - Wenn eine andere Zuordnung oder ein anderes Thema auf derselben Ebene im Ordner erstellt wird, werden die Namen der neu erstellten Assets mit 0,1,2 angehängt, usw. Sie können die Zuordnung zur Bearbeitung öffnen oder die Zuordnungsdatei im Repository speichern.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Zuordnungs-Editor](map-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Zuordnungs-Editor](map-editor.md)

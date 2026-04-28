@@ -5,10 +5,10 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 0%
+source-wordcount: '1896'
+ht-degree: 1%
 
 ---
 
@@ -61,7 +61,7 @@ Das **Zitat hinzufügen** wird geöffnet.
    | **Editor** <br> Fügen Sie den Editor des Buchs hinzu. | **Website-Name** <br> Fügen Sie den Namen der Website hinzu. | **Journaltitel** <br> Fügen Sie den Titel des Werks hinzu, in dem der Artikel gefunden wird. |
    | **Edition** <br> Fügen Sie die Ausgabe des Buches hinzu. | **URL** <br> Fügen Sie den Weblink der Website hinzu, um den Inhalt zu durchsuchen. | **Jahr** <br> Fügen Sie das Jahr hinzu, in dem der Artikel veröffentlicht wird. |
    | **Stadt** <br> Fügen Sie die Stadt der Veröffentlichung hinzu. | **Zugriffsdatum**<br> Fügen Sie das Datum hinzu, an dem der Inhalt der Website aufgerufen wird. | **Volumen** <br> Fügen Sie das Volumen der Arbeit in der Reihe hinzu. |
-   | **Publisher** <br> Fügen Sie den Namen des Herausgebers des Buchs hinzu. | **Veröffentlichungsdatum** <br> Fügen Sie das Datum hinzu, an dem der Inhalt der Website veröffentlicht wird. | **Number** <br> Fügen Sie die Nummer des Volumes innerhalb der Serie hinzu. |
+   | **Publisher** <br> Add the name of the publisher of the book. | **Veröffentlichungsdatum** <br> Fügen Sie das Datum hinzu, an dem der Inhalt der Website veröffentlicht wird. | **Number** <br> Fügen Sie die Nummer des Volumes innerhalb der Serie hinzu. |
    | **Year** <br> Fügen Sie das Jahr hinzu, in dem das Buch veröffentlicht wird. | **Aktualisierungsdatum** <br> Fügen Sie das Datum hinzu, an dem der Inhalt der Website aktualisiert wird. | **Seiten** <br> Fügen Sie die Seitennummer oder den Seitenbereich hinzu, in dem der Artikel gefunden wird. |
    | **Version** <br> Fügen Sie die Version des Buches hinzu. | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für die Zitierung hinzu. Eine eindeutige ID ist eine eindeutige Kennung für dieses Zitat. | **URL** <br>Fügen Sie den Weblink zum Protokoll hinzu. |
    | **Serie** <br>Fügen Sie die Serie des Buches hinzu. |  | **Eindeutige ID** <br> Fügen Sie eine eindeutige ID für das Zitat hinzu. Eine eindeutige ID ist eine eindeutige Kennung für dieses Zitat. |
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um Zitate zu importieren:
 
    >[!NOTE]
    > <ol><li> AEM Guides importiert nur die Zitate, die eindeutig und noch nicht vorhanden sind.
-   > &gt; <li> AEM Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
+    &gt; <li> AEM Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
 
 ## Zitate verwalten
 
@@ -136,7 +136,7 @@ Die folgenden Optionen sind in der Dropdown-Liste verfügbar:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Moderne <br> | American Psychological Association Stil | Chicago Manual of Style | Institut für Elektro- und Elektronikingenieure | American Heart Association-Stil |
-| Beispiel: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, Band 16, 2010, Amsterdam. | Beispiel: <br> Crawford, C., J., &amp; , C. (2010). *Emotional Content of Dark Memories* (505-16 ed.). 10.1080/ 09658210902067289 | Beispiel: <br> Crawford, Claire, et al. *Emotionaler Inhalt dunkler Erinnerungen*. 505-16, 2010. | Beispiel: <br> C. Crawford, J. und C. *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. | Beispiel: <br> C. Crawford, J. und C. *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. |
+| Beispiel: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, Band 16, 2010, Amsterdam. | Beispiel: <br> Crawford, C., J., &amp; , C. (2010). *Emotional Content of Dark Memories* (505-16 ed.). 10.1080/ 09658210902067289 | Beispiel: <br> Crawford, Claire, et al. *Emotionaler Inhalt dunkler Erinnerungen*. 505-16, 2010. | Beispiel: <br> C. Crawford, J. , und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. | Beispiel: <br> C. Crawford, J. , und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. |
 
 
 ## Zitat bearbeiten
@@ -149,7 +149,7 @@ Gehen Sie wie folgt vor, um das Zitat zu bearbeiten:
 
 Das **Zitat bearbeiten** wird geöffnet.
 
-1. Nehmen Sie die erforderlichen Änderungen vor. Wählen Sie **Fertig** aus.
+1. Nehmen Sie die erforderlichen Änderungen vor. Klicken Sie auf **Fertig**.
 Das ausgewählte Zitat wird bearbeitet.
 
 >[!NOTE]
@@ -162,7 +162,7 @@ Gehen Sie wie folgt vor, um eine Vorschau eines Zitats anzuzeigen:
 
 Bewegen Sie den Mauszeiger über den Namen des Zitats in der Liste. Auswählen     ![](images/options.svg) Symbol **Optionen**.
 
-1. Wählen Sie **Vorschau** aus.
+1. Wählen Sie **Vorschau**.
 Sie können den Inhalt und das Format des Zitats im Vorschaubereich in der Vorschau anzeigen.
 
    >[!NOTE]
@@ -190,88 +190,88 @@ Sie können Zitate zum Thema aus der Hauptsymbolleiste oder dem linken Bereich e
 ### In der Haupt-Symbolleiste
 
 1. Wählen Sie das Symbol **Zitate** ![Zitate](images/citations-icon.svg) in der Hauptsymbolleiste aus.
-1. Wählen Sie **Dialogfeld**&#x200B;Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
+1. Wählen Sie **Dialogfeld**Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
    ![Zitierdialogfeld](images/citation-dialog-main-toolbar.png){width="300" align="left"}
-1. Sie können Zitate filtern, indem Sie die ersten Buchstaben in das Suchfeld des Dialogfelds **Zitat** eingeben.
+1. You can filter citations by typing the first few alphabets in the search panel of the **Citation** dialog box.
 
-1. Klicken Sie **Fertig**.
-Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
+1. Klicken Sie auf **Fertig**.
+The selected citation is added at the cursor location in your topic.
 
 
-### Vom linken Bedienfeld
+### From the left panel
 
 >[!NOTE]
 > 
->Um das Symbol **Zitate** im linken Bereich anzuzeigen, muss Ihr Systemadministrator die Option **Zitate** auf der Registerkarte **Bedienfelder** in **Editor-Einstellungen** auswählen.
+>To view the **Citations** icon from the left panel, your system administrator must select the **Citations** option in the **Panels** tab in **Editor Settings**.
 
-1. Wählen Sie **Zitate** ![Zitationssymbol &#x200B;](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
-1. Ziehen Sie das Zitat aus dem Bedienfeld **Zitate** und legen Sie es an der entsprechenden Position im Thema ab.
+1. Select **Citations** ![citations icon ](images/citations-icon.svg) icon in the left panel.
+1. Drag the citation from the **Citations** panel and drop it at the appropriate location in the topic.
 
-   Sie können auch **Einfügen** unter ![](images/options.svg)**Optionen** auswählen, um ein Zitat einzufügen.
+   You can also select **Insert** from  ![](images/options.svg) **Options** to insert a citation.
 
-   ![Zitate einfügen](images/citation-panel-insert.png)
-1. Um mehrere Zitate auszuwählen, klicken Sie mit der rechten Maustaste auf ein Zitat im Thema und wählen **Zitat ändern** aus dem Kontextmenü aus.
-1. Wählen Sie die Zitate, die Sie einfügen möchten, im Dialogfeld **Zitat** aus.
-1. Wählen Sie **Fertig** aus, um sie zum Thema hinzuzufügen.
+   ![insert citations](images/citation-panel-insert.png)
+1. To select multiple citations, right-click a citation in the topic and select **Modify Citation** from the shortcut menu.
+1. Select the citations that you want to insert from the **Citation** dialog.
+1. Select **Done** to add them to the topic.
 
-Nachdem Sie Zitate in das Thema eingefügt haben, können Sie sie im Web-Editor in der Vorschau anzeigen. Sie können auch Inhalte mit Zitaten veröffentlichen, indem Sie die native PDF verwenden.
+Once you have inserted citations in the topic, you can preview them in the Web Editor. You can also publish content with citations using Native PDF.
 
 
 
-## Zitat löschen
+## Delete a citation
 
-Sie können Zitate aus dem Zitationsbedienfeld oder aus einem Thema löschen, in das Sie eingefügt haben.
+You can delete a citations from the Citaitons panel or from a topic where you have inserted.
 
-### Löschen eines Zitats aus dem Zitatbereich
+### Delete a Citation from Citations panel
 
-Gehen Sie wie folgt vor, um ein Zitat aus dem Zitationsbereich zu löschen:
+To delete a citation from the Citations panel, follow these steps:
 
 1. Bewegen Sie den Mauszeiger über den Namen des Zitats in der Liste.
-1. Wählen Sie das Symbol ![](images/options.svg) **Optionen** aus.
-1. Wählen Sie die   **Löschen** ![](images/Delete_icon.svg).
-Das Bestätigungsdialogfeld wird geöffnet.
+1. Select the ![](images/options.svg) **Options** icon.
+1. Select the   **Delete** ![](images/Delete_icon.svg).
+The confirmation dialog box opens.
 1. Wählen Sie **Ja** aus.
-Das ausgewählte Zitat wird aus dem Zitatbereich gelöscht.
+The selected citation is deleted from the citations panel.
 
 
 
-### Löschen eines Zitats aus einem Thema
+### Delete a Citation from a Topic
 
-Gehen Sie wie folgt vor, um ein bereits im Thema verwendetes Zitat zu löschen:
+To delete a citation that is already used in the topic, follow these steps:
 
-Platzieren Sie im Thema den Cursor am Ende des Zitats.
+In the topic, place your cursor at the end of the citation.
 
-1. Klicken Sie mit der rechten Maustaste auf ein Zitat im Thema und wählen **Zitat ändern** aus dem Kontextmenü. Das Dialogfeld „Zitat“ wird geöffnet.
-   ![Kontextmenü eines Zitats](./images/modify-citation.png)
+1. Right-click a citation in the topic and select **Modify Citation** from the shortcut menu. The Citation dialog opens.
+   ![shortcut menu of a citation](./images/modify-citation.png)
 
-1. Sie können die Zitate auswählen, die Sie in das Dokument einfügen möchten.
+1. You can choose the citations you want to insert into the document.
 
    >[!NOTE]
    >
-   >Die bereits im Thema verwendeten Zitate werden durch die Zitate ersetzt, die Sie im Dialogfeld auswählen.
+   >The citations that are already used in the topic are replaced with the ciations that you select from the dialog.
 
 
 1. Wählen Sie **Fertig** aus.
 
-## Generieren der Ausgabe von Inhalten mit Zitaten
+## Generate output of content with citations
 
-Nachdem Sie Zitate in das Thema eingefügt haben, können Sie Inhalte mit Zitaten mithilfe von nativem PDF veröffentlichen.
+Once you have inserted citations in the topic, you can publish content with citations using Native PDF.
 
-In der nativen PDF-Ausgabe werden die Zitate innerhalb des Inhalts angezeigt, in den Sie sie eingefügt haben. Sie können auch eine Bibliografie-Seite erstellen. Wenn Sie auf ein Zitat klicken, werden Sie zur Seite „Bibliografie“ weitergeleitet.
+In the Native PDF output, the citations appear within the content where you have inserted them. You can also create a Bibliography page. When you click any citation, you are redirected to the bibliography page.
 
-Erstellen Sie ein **Zitate**-Seitenlayout in den PDF-Vorlagen und schließen Sie es in Ihr Dokument ein. Alle im Buch verwendeten Zitate werden auf einer Seite aufgelistet, die in der PDF-Ausgabe angezeigt wird. Weitere Informationen zum Erstellen eines Seiten-Layouts finden Sie unter [Erstellen eines Seiten-Layouts](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
-
-
-Um die Ansicht und das Erscheinungsbild der Zitatseite zu ändern, rufen Sie [PDF-Vorlagen anpassen](/help/product-guide/native-pdf/pdf-template.md) auf.
+Create a **Citations** page layout in the PDF templates, and include it in your document. All the citations used in the book get listed on one page that appears in the PDF output. To learn more about creating a page layout, view [Create a page layout](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
+To change the view and feel of the citation page, view [Customize PDF templates](/help/product-guide/native-pdf/pdf-template.md).
 
-### Anwenden eines Inhaltsstils auf ein Zitat
 
-Formatieren Sie das Zitat, wenn Sie es zum Thema hinzufügen.
 
-1. Wählen Sie **Stylesheets** im **Vorlagen**-Bereich einer nativen PDF-Ausgabevorgabe aus.   Dadurch wird das **STYLES**-Bedienfeld geöffnet, das alle Stiloptionen enthält.
+### Apply content style to a citation
 
-1. Suchen Sie im Suchbereich nach `<cite>`.
+Apply formatting to the citation when added to the topic.
 
-Weitere Informationen zu Stilen finden Sie unter [Arbeiten mit den allgemeinen Inhaltsstilen](/help/product-guide/native-pdf/stylesheet.md).
+1. Select **Stylesheets** in the **Templates** panel of a Native PDF output preset.   It opens the **STYLES** panel that contains all the styling options.
+
+1. In the Search panel, search for `<cite>`.
+
+To learn more about styles, view [Work with the common content styles](/help/product-guide/native-pdf/stylesheet.md).

@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ddd6da80-d179-4da3-bff2-915c17bb6e5a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 AEM Guides verfügt über eine Funktion zum Veröffentlichen auf Artikelbasis, die in den Web-Editor integriert ist und es Benutzern ermöglicht, ein oder mehrere Themen gleichzeitig zu veröffentlichen.
 
-Diese Engine enthält auch eine OOTB-Inhaltsvorlage, die auf den AEM-Kernkomponenten basiert und es Benutzern ermöglicht, ein wissensbasiertes Repository für die technischen Inhalte zu erstellen. Diese Vorlage kann an die Bedürfnisse der Kundinnen und Kunden angepasst werden. Mit dieser Engine können die Benutzenden die DITA-Karte additiv erstellen und Themen veröffentlichen, sobald sie bereit sind. Sie können die Ausgabevorgaben für Ihre im Bereich „Kartenansicht“ geöffnete Karte einfach erstellen und schnell die Ausgabe für ein oder mehrere Themen derselben Karte generieren.
+Diese Engine enthält auch eine OOTB-Inhaltsvorlage, die auf den AEM-Kernkomponenten basiert und es Benutzern ermöglicht, ein wissensbasiertes Repository für die technischen Inhalte zu erstellen. Diese Vorlage kann an die Bedürfnisse der Kundinnen und Kunden angepasst werden.Diese Engine ermöglicht es den Benutzenden, die DITA-Karte additiv zu erstellen und Themen zu veröffentlichen, sobald sie bereit sind. Sie können die Ausgabevorgaben für Ihre im Bereich „Kartenansicht“ geöffnete Karte einfach erstellen und schnell die Ausgabe für ein oder mehrere Themen derselben Karte generieren.
 
 Wenn Sie den Inhalt nur für einige Themen in Ihrer DITA-Karte aktualisiert haben, müssen Sie nicht immer die gesamte Karte veröffentlichen. Sie können nur die aktualisierten Themen im Web-Editor auswählen und veröffentlichen.
 
@@ -33,4 +33,4 @@ Sie können auch die für Ihre DITA-Zuordnung erstellten Ausgabevorgaben verwend
 - **[Ausgabe aus dem Repository-Bedienfeld oder dem Bedienfeld „Zuordnungsansicht“ generieren](web-editor-article-publishing-output.md)**
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

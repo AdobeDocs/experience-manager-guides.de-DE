@@ -5,9 +5,9 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Mit Tags können Sie Inhalte innerhalb Ihres Inhalts-Repositorys und auch in der veröffentlichten Ausgabe gruppieren oder klassifizieren. Wenn Sie Tags auf Ihren Inhalt angewendet haben, können Sie mühelos verwandte Themen in einer DITA-Karte finden, die Ihnen beim Verfassen von Inhalten helfen können. Mit der veröffentlichten Ausgabe können Endbenutzende den richtigen Inhalt schneller finden, wenn korrekte Tags vorhanden sind.
 
-Mit AEM Guides können Sie DITA-Inhalte mit nur wenigen Klicks taggen. Sie können die Bulk-Tagging-Funktion verwenden, um mehrere Tags auf mehrere Themen, eine DITA-Zuordnung oder eine Unterzuordnung anzuwenden. Sie können Tags auch auf ein einzelnes Thema anwenden. Tagging ist die native Funktion in AEM. Weitere Informationen zum Erstellen und Verwalten von Tags finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=de) in der Dokumentation zu AEM.
+Mit AEM Guides können Sie DITA-Inhalte mit nur wenigen Klicks taggen. Sie können die Bulk-Tagging-Funktion verwenden, um mehrere Tags auf mehrere Themen, eine DITA-Zuordnung oder eine Unterzuordnung anzuwenden. Sie können Tags auch auf ein einzelnes Thema anwenden. Tagging ist die native Funktion in AEM. Weitere Informationen zum Erstellen und Verwalten von Tags finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in der Dokumentation zu AEM.
 
 Standardmäßig gewährt AEM Guides keinem Benutzer Lesezugriff auf den Ordner, in dem alle Tags im AEM-Repository gespeichert sind. Um im AEM-Repository definierte Tags zu verwenden, müssen Sie Ihren Systemadministrator bitten, Zugriff auf den Ordner zu gewähren, in dem die Tags gespeichert sind.
 
@@ -108,4 +108,4 @@ Führen Sie die folgenden Schritte aus, um alle Tags aus einem oder mehreren The
 
 Wenn Sie eine lange Liste von Tags auf Ihre Themen angewendet haben, kann die Navigation etwas mühsam sein. Sie können Tags in in der DITA-Zuordnungskonsole einfach ausblenden, indem Sie auf das Symbol Tags ausblenden klicken. Wenn die Tags nicht sichtbar sind, werden durch Klicken auf die Schaltfläche Tags anzeigen alle Tags angezeigt.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Verwalten von Metadaten](manage-metadata.md)
+**Übergeordnetes Thema:**[ Verwalten von Metadaten](manage-metadata.md)

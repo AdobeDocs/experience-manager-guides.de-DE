@@ -1,13 +1,13 @@
 ---
 title: Vorschau eines Themas
-description: Erfahren Sie, wie Sie in AEM Guides eine Vorschau eines Themas anzeigen. Erfahren Sie mehr über die Funktionen, die im Vorschaumodus verfügbar sind. Verzweigung, Wiederherstellung und nachfolgende Versionierung in AEM Handbüchern.
+description: Learn how to preview a topic in AEM Guides. Erfahren Sie mehr über die Funktionen, die im Vorschaumodus verfügbar sind. Verzweigung, Wiederherstellung und nachfolgende Versionierung in AEM Handbüchern.
 feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Wenn Sie den Link von der DITA-Zuordnungskonsole oder dem Vorschaumodus einer Da
 
 - Aktiviert bzw. deaktiviert die Funktionen Auschecken und Einchecken . Wenn eine Datei ausgecheckt wird, erhält der aktuelle Benutzer eine exklusive Schreibberechtigung für die Datei. Eine ausgecheckte Datei kann im Web-Editor zur Bearbeitung geöffnet werden. Nachdem Sie die erforderlichen Änderungen vorgenommen haben, klicken Sie auf das Symbol Einchecken , um die Datei in DAM zu speichern.
 
-Wenn Sie ein Thema auschecken, wird der Status der Datei in der Kartenansicht und in der Listenansicht als ausgecheckt angezeigt.
+When you check out a topic, the status of the file is shown as checked out in the card view and in the list view.
 
 Ausgecheckte Datei in der Kartenansicht:
 
@@ -164,7 +164,7 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
   ![](images/branching_illustration.png){width="550" align="center"}
 
-  Für jedes neue Thema wird die erste Version als 1.0 nummeriert. Danach wird jede neue Version des Themas mit einer inkrementellen Zahl wie 1.1, 1.2 usw. gespeichert. Nachdem Sie eine Verzweigung eines Themas erstellt haben, wird eine neue Verzweigung erstellt. Dabei wird die Versionsnummer, von der aus die Verzweigung erstellt wird, übernommen und am Ende der Version wird eine 0 hinzugefügt. Wie in der Abbildung gezeigt, wird ab Version 1.1 eines Themas eine neue Verzweigung erstellt. Die neue Verzweigung ist als 1.1.0 versioniert. Jedes Mal, wenn Sie dann eine neue Version des Themas in dieser Verzweigung speichern, wird eine inkrementelle Versionsnummer wie 1.1.1, 1.1.2 usw. angezeigt.
+  For any new topic, the first version is numbered as 1.0. Thereafter, every new version of the topic is saved with an incremental number such as 1.1, 1.2, and so on. Nachdem Sie eine Verzweigung eines Themas erstellt haben, wird eine neue Verzweigung erstellt. Dabei wird die Versionsnummer, von der aus die Verzweigung erstellt wird, übernommen und am Ende der Version wird eine 0 hinzugefügt. Wie in der Abbildung gezeigt, wird ab Version 1.1 eines Themas eine neue Verzweigung erstellt. The new branch is versioned as 1.1.0. Jedes Mal, wenn Sie dann eine neue Version des Themas in dieser Verzweigung speichern, wird eine inkrementelle Versionsnummer wie 1.1.1, 1.1.2 usw. angezeigt.
 
   Ähnlich wie bei einer Verzweigung können Sie auch Ihre aktuelle oder aktuelle Version auf eine beliebige Version zurücksetzen, die im Repository vorhanden ist. Um zu einer Version zurückzukehren, wählen Sie einfach die gewünschte Version des Themas aus und klicken Sie **Auf diese Version zurücksetzen** im Bedienfeld **Versionsverlauf**.
 
@@ -219,4 +219,4 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
   Aus der ausgewählten Version des Themas wird eine neue Verzweigung erstellt. Der obige Prozess gilt auch für die Wiederherstellung zu einer bestimmten Version eines Themas. Technisch gesehen bedeutet die Wiederherstellung zu einer bestimmten Version, dass Sie aus der ausgewählten Version eine neue Verzweigung erstellen und diese Version zur aktuellen Arbeitskopie des Themas machen. Sie können auch den Verlauf der Dateien anzeigen, die im Bericht Versionsrücksetzverlauf rückgängig gemacht wurden. Weitere Informationen zu diesem Bericht finden Sie unter [Versionsverlaufsbericht für zurückgesetzte Dateien](reports-reverted-file-version-history.md#).
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen und Vorschau von Themen](create-preview-topics.md)
+**Übergeordnetes Thema:**[ Erstellen und Vorschau von Themen](create-preview-topics.md)

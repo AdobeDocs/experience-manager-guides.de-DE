@@ -1,18 +1,18 @@
 ---
-title: Wissensdatenbank
+title: Knowledge Base
 description: Erfahren Sie, wie Sie eine Wissensdatenbankvorgabe aus dem Web-Editor und dem Zuordnungs-Dashboard erstellen. Konfigurieren der Knowledgebase-Ausgabevorgabe in AEM Guides.
 feature: Publishing
 role: User
 hide: true
 exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 1%
+source-wordcount: '1166'
+ht-degree: 2%
 
 ---
 
-# Wissensdatenbank {#knowledge-base}
+# Knowledge Base {#knowledge-base}
 
 Sie können die Voreinstellung **Wissensdatenbank** im Web-Editor erstellen:
 
@@ -31,16 +31,16 @@ Im Web-Editor wurden die folgenden Konfigurationen unter den Registerkarten **Al
 
 | Optionen in der Wissensdatenbank | Beschreibung |
 | --- | --- |
-| Bedingungen anwenden mit | Wählen Sie eine der folgenden Optionen aus:<br><br>* **Keine angewendet**: Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die veröffentlichte Ausgabe anwenden möchten.<br>* **DITAVAL-**: Wählen Sie DITAVAL-Datei(en), um personalisierte Inhalte zu generieren. Sie können mehrere DITAVAL-Dateien über das Dialogfeld „Durchsuchen“ oder durch Eingabe des Dateipfads auswählen. Verwenden Sie das Kreuz-Symbol neben dem Dateinamen, um ihn zu entfernen. DITAVAL-Dateien werden in der angegebenen Reihenfolge ausgewertet, sodass die in der ersten Datei angegebenen Bedingungen Vorrang vor den in späteren Dateien angegebenen übereinstimmenden Bedingungen haben. Sie können die Dateireihenfolge durch Hinzufügen oder Löschen von Dateien beibehalten. Wenn die DITAVAL-Datei an einen anderen Speicherort verschoben oder gelöscht wird, wird sie nicht automatisch aus der Voreinstellung gelöscht. Sie müssen den Speicherort aktualisieren, falls Dateien verschoben oder gelöscht werden. Sie können den Mauszeiger über den Dateinamen bewegen, um den Pfad im Adobe Experience Manager-Repository anzuzeigen, in dem die Datei gespeichert ist. Sie können nur DITAVAL-Dateien auswählen. Wenn Sie einen anderen Dateityp auswählen, wird ein Fehler angezeigt.<br>* **Bedingungsvorgabe**: Wählen Sie eine Bedingungsvorgabe aus der Dropdown-Liste aus, um eine Bedingung beim Veröffentlichen der Ausgabe anzuwenden. Die Option ist sichtbar, wenn Sie eine Bedingung auf der Registerkarte „Bedingungsvorgaben“ der DITA-Zuordnungskonsole hinzugefügt haben. Weitere Informationen zu Bedingungsvorgaben finden Sie unter [Verwenden von Bedingungsvorgaben](generate-output-use-condition-presets.md#id1825FL004PN). |
-| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [&#x200B; „Arbeiten mit &#x200B;](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)&quot;. |
-| Nachgenerierungs-Workflow | Wenn Sie diese Option wählen, wird eine neue Dropdown-Liste für den Post-Generation-Workflow angezeigt, die alle in Adobe Experience Manager konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, der nach Abschluss der Ausgabegenerierung ausgeführt werden soll.<br><br>**Hinweis**: Weitere Informationen zum [Anpassen des Workflows nach der Ausgabe](/help/product-guide/cs-install-guide/customize-workflows.md#id17A6GI004Y4) finden Sie im Installations- und Konfigurationshandbuch für Cloud Services. |
+| Bedingungen anwenden mit | Eine der folgenden Optionen auswählen:<br><br>* **Keine angewendet**: Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die veröffentlichte Ausgabe anwenden möchten.<br>* **DITAVAL-Datei**: Wählen Sie DITAVAL-Datei(en) aus, um personalisierte Inhalte zu generieren. Sie können mehrere DITAVAL-Dateien über das Dialogfeld „Durchsuchen“ oder durch Eingabe des Dateipfads auswählen. Verwenden Sie das Kreuz-Symbol neben dem Dateinamen, um ihn zu entfernen. DITAVAL-Dateien werden in der angegebenen Reihenfolge ausgewertet, sodass die in der ersten Datei angegebenen Bedingungen Vorrang vor den in späteren Dateien angegebenen übereinstimmenden Bedingungen haben. Sie können die Dateireihenfolge durch Hinzufügen oder Löschen von Dateien beibehalten. Wenn die DITAVAL-Datei an einen anderen Speicherort verschoben oder gelöscht wird, wird sie nicht automatisch aus der Voreinstellung gelöscht. Sie müssen den Speicherort aktualisieren, falls Dateien verschoben oder gelöscht werden. Sie können den Mauszeiger über den Dateinamen bewegen, um den Pfad im Adobe Experience Manager-Repository anzuzeigen, in dem die Datei gespeichert ist. Sie können nur DITAVAL-Dateien auswählen. Wenn Sie einen anderen Dateityp auswählen, wird ein Fehler angezeigt.<br>* **Bedingungsvorgabe**: Wählen Sie eine Bedingungsvorgabe aus der Dropdown-Liste aus, um eine Bedingung beim Veröffentlichen der Ausgabe anzuwenden. Die Option ist sichtbar, wenn Sie eine Bedingung auf der Registerkarte „Bedingungsvorgaben“ der DITA-Zuordnungskonsole hinzugefügt haben. Weitere Informationen zu Bedingungsvorgaben finden Sie unter [Verwenden von Bedingungsvorgaben](generate-output-use-condition-presets.md#id1825FL004PN). |
+| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [ „Arbeiten mit ](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)&quot;. |
+| Nachgenerierungs-Workflow | Wenn Sie diese Option wählen, wird eine neue Dropdown-Liste für den Post-Generation-Workflow angezeigt, die alle in Adobe Experience Manager konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, der ausgeführt werden soll, nachdem die Ausgabegenerierung abgeschlossen ist.<br><br>**Hinweis**: Weitere Informationen [ Abschnitt „Anpassen des Workflows nach der Ausgabegenerierung](/help/product-guide/cs-install-guide/customize-workflows.md#id17A6GI004Y4) im Installations- und Konfigurationshandbuch für Cloud Services. |
 
 ### ServiceNow
 
 | ServiceNow-Optionen | Beschreibung |
 | --- | --- |
 | Profil veröffentlichen | Verwenden Sie das Dropdown, um aus den von Ihrem Administrator konfigurierten ServiceNow-Verbindungsprofilen auszuwählen. Weitere Informationen dazu, wie Admins ein Veröffentlichungsprofil erstellen können, finden Sie in der **Editor-Einstellungen** Funktionsbeschreibung im Abschnitt [Linkes Bedienfeld](./web-editor-features.md#id2051EA0M0HS). |
-| Wissensdatenbank | Wählen Sie in diesem Feld die erforderliche ServiceNow-Wissensdatenbank aus. Sie können Wissensdatenbanken auf der ServiceNow-Website so konfigurieren, dass Inhalte basierend auf den Berechtigungen gespeichert werden. Die Artikel aus dieser DITA-Map können in diesen Wissensdatenbanken veröffentlicht werden. |
+| Knowledge Base | Wählen Sie in diesem Feld die erforderliche ServiceNow-Wissensdatenbank aus. Sie können Wissensdatenbanken auf der ServiceNow-Website so konfigurieren, dass Inhalte basierend auf den Berechtigungen gespeichert werden. Die Artikel aus dieser DITA-Map können in diesen Wissensdatenbanken veröffentlicht werden. |
 | Kategorie und Unterkategorie | Kategorien sind wie hierarchische Strukturen, mit denen ServiceNow-Wissensdatenbankartikel gesucht und klassifiziert werden. Fügen Sie eine Kategorie und eine Unterkategorie hinzu, um die Themen und Unterthemen des Inhaltsverzeichnisses in dieser Kategorie und Unterkategorie auf der ServiceNow-Website zu veröffentlichen. |
 
 ### Salesforce
@@ -65,7 +65,7 @@ Sie können auch die folgenden Optionen in den Salesforce- und ServiceNow-Vorgab
 
 >[!NOTE]
 >
->Sie können die Adobe Experience Manager-Knowledgebase-Voreinstellung verwenden, wenn sie von Ihrem Administrator konfiguriert wurde. Weitere Informationen finden Sie [&#x200B; Abschnitt „Artikelbasierte Veröffentlichung im Web](/help/product-guide/install-guide/configure-article-based-publishing.md)Editor“ im Installations- und Konfigurationshandbuch.
+>Sie können die Adobe Experience Manager-Knowledgebase-Voreinstellung verwenden, wenn sie von Ihrem Administrator konfiguriert wurde. Weitere Informationen finden Sie [ Abschnitt „Artikelbasierte Veröffentlichung im Web](/help/product-guide/install-guide/configure-article-based-publishing.md)Editor“ im Installations- und Konfigurationshandbuch.
 
 | Adobe Experience Manager-Optionen | Beschreibung |
 | --- | --- |

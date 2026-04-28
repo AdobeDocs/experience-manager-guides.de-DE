@@ -5,7 +5,7 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: ddb6b1ee-7993-479f-993c-d2ce686b10b3
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Generieren der Ausgabe von FrameMaker-Dokumenten {#id1645H8040HD}
 
-Ab AEM Guides 1.1 können Sie auch FrameMaker-Dokumente \(`.book` und `.fm`\) veröffentlichen, die in Ihrem AEM-Repository verfügbar sind. Wenn eine Buchdatei eine Kombination aus DITA- und FrameMaker-Dokumenten enthält, können Sie in AEM Guides auch diese Dokumente veröffentlichen. FrameMaker-Dokumente können in den folgenden Formaten veröffentlicht werden:
+Ab AEM Guides 1.1 können Sie auch FrameMaker-Dokumente \(`.book` und `.fm`\) veröffentlichen, die in Ihrem AEM-Repository verfügbar sind. If a book file contains a combination of DITA and FrameMaker documents, AEM Guides allows you to publish such documents as well. FrameMaker-Dokumente können in den folgenden Formaten veröffentlicht werden:
 
 - PDF
 

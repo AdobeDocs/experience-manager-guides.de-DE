@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2408'
 ht-degree: 0%
 
 ---
@@ -30,16 +30,16 @@ Abhängig von Ihrem Setup kann Ihr Administrator einen Datenquellen-Connector ko
 
 - Wenn Sie die Version vom Oktober 2023 oder höher verwenden, erfahren Sie, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) im Installations- und Konfigurationshandbuch für Cloud Services finden.
 
-- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Services, wie [&#x200B; einen Datenquellen-Connector &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector.md).
+- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Services, wie [ einen Datenquellen-Connector ](/help/product-guide/cs-install-guide/conf-data-source-connector.md).
 
 </details>
 
 <details>    
 <summary>  On-Premise Software </summary>
 
-- Wenn Sie Version 4.3.1 oder höher verwenden, erfahren Sie im On-Premise[Installations- und Konfigurationshandbuch , wie Sie einen Datenquellen-Connector über &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) Benutzeroberfläche konfigurieren.
+- Wenn Sie Version 4.3.1 oder höher verwenden, erfahren Sie im On-Premise[Installations- und Konfigurationshandbuch , wie Sie einen Datenquellen-Connector über ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) Benutzeroberfläche konfigurieren.
 
-- Wenn Sie Version 4.3 verwenden, erfahren Sie im On-[-Installations- und Konfigurationshandbuch , wie Sie &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector.md) Datenquellen-Connector konfigurieren.
+- Wenn Sie Version 4.3 verwenden, erfahren Sie im On-[-Installations- und Konfigurationshandbuch , wie Sie ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) Datenquellen-Connector konfigurieren.
 </details>
 
 
@@ -88,17 +88,17 @@ Führen Sie die folgenden Schritte aus, um einen Inhaltsausschnitt mit dem Inhal
 
 1. Wählen Sie **Hinzufügen**, um einen neuen Inhaltsausschnitt-Generator hinzuzufügen. Das Bedienfeld **Inhaltsfragmentgenerator hinzufügen** wird geöffnet.
 
-1. Geben Sie die Abfrage in das Textfeld **Datenabfrage** ein.  Wählen Sie **Beispielabfrage kopieren** aus, um eine Datenabfrage schnell zu kopieren. Anstatt die Abfrage manuell zu erstellen, können Sie die Beispielabfrage kopieren und in das Textfeld **Datenabfrage** einfügen. Bearbeiten Sie dann einfach die Abfrage gemäß Ihren Datenanforderungen.
+1. Geben Sie die Abfrage in das Textfeld **Datenabfrage** ein.  Select **Copy sample query** to quickly copy a data query. Instead of manually creating the query, you can copy and paste the sample query into the **Data query** text box. Bearbeiten Sie dann einfach die Abfrage gemäß Ihren Datenanforderungen.
 
    >[!NOTE]
    >
    >Experience Manager bietet verschiedene Beispielabfragen für alle Ressourcen in den verschiedenen Datenquellen. Diese werden der Datenquelle zugeordnet, aus der Sie die Daten abrufen.
 
-1. Wenn Sie einen Datei-Connector verwenden, können Sie die JSON-Datei von Ihrem Computer hochladen oder eine JSON-Datei aus Adobe Experience Manager Assets durchsuchen.
+1. If you use a file connector, you can upload the JSON file from your computer or browse a JSON file from Adobe Experience Manager assets.
 
    >[!NOTE]
    >
-   > Sie sehen die Optionen zum Hochladen oder Durchsuchen von Dateien anstelle einer Datenabfrage, wenn Sie einen Datei-Connector verwenden.
+   > You will view the options to upload or browse files in place of a data query if you use a file connector.
 
 1. Wählen Sie im Dropdown-Menü **Datenzuordnungsvorlage“ die Vorlage aus, die Ihrer Datenquelle**.
 Die vordefinierten Vorlagen für die ausgewählte Datenquelle werden in der Dropdown-Liste angezeigt. Sie können beispielsweise die Vorlage „sql-table“ für die Datenquelle „PostgreSQL“ anzeigen.
@@ -107,7 +107,7 @@ Die vordefinierten Vorlagen für die ausgewählte Datenquelle werden in der Drop
    >  
    > Wenn Ihr Administrator benutzerdefinierte Vorlagen konfiguriert hat, werden Ihnen diese Vorlagen auch in der Dropdown-Liste angezeigt (basierend auf den Vorlagenpfadkonfigurationen, die von Ihrem Administrator durchgeführt wurden).
    >   
-   >Sie können auch Velocity-Tools in den Vorlagen verwenden. Erfahren Sie mehr über die Verwendung [&#x200B; Velocity-Tools](#use-velocity-tools).
+   >Sie können auch Velocity-Tools in den Vorlagen verwenden. Erfahren Sie mehr über die Verwendung [ Velocity-Tools](#use-velocity-tools).
 
 1. Das **Ressource**-Dropdown wird für einige Connectoren wie REST-Client, Salsify, Akeneo und Microsoft ADO angezeigt.  Wählen Sie eine Ressource aus dem Dropdown-Menü aus und stellen Sie eine Verbindung mit ihr her, um ein Inhaltsfragment oder ein Thema mithilfe des Generators dafür zu erstellen.
 
@@ -120,12 +120,11 @@ Die vordefinierten Vorlagen für die ausgewählte Datenquelle werden in der Drop
 1. Sie können die Daten in der Vorschau oder in der DITA-Quellansicht anzeigen.
 
    1. Die Vorschau zeigt, wie die Daten angezeigt werden, wenn sie in den Inhalt eingefügt werden. Die Vorschau zeigt einen kleinen Bruchteil der Daten im Format der ausgewählten Vorlage an.
-Zum Beispiel:
+Beispiel:
       - Wenn Sie die SQL-Tabellenvorlage ausgewählt haben, können Sie die SQL-Daten im Tabellenformat anzeigen.
       - Wenn Sie die Vorlage Jira-ordered-list ausgewählt haben, können Sie eine geordnete Liste für die Jira-Probleme anzeigen.
 
    1. Die Quellansicht zeigt die Daten in der DITA-Quellansicht an.
-
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *Fügen Sie einen Inhaltsfragment-Generator hinzu. Zeigen Sie die Daten im Quell- oder Vorschaumodus an.*
 
@@ -190,7 +189,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
    *Fügen Sie die Datenabfrage, die Datenzuordnungsvorlage und die Stammknotendetails für den Themengenerator hinzu und geben Sie ihm im Bedienfeld Konfiguration abrufen einen eindeutigen Namen.*
 
-   1. Geben Sie die Abfrage in das Textfeld **Datenabfrage** ein. Wählen Sie **Beispielabfrage kopieren** aus, um eine Datenabfrage schnell zu kopieren. Anstatt die Abfrage manuell zu erstellen, können Sie die Beispielabfrage kopieren und in das Textfeld **Datenabfrage** einfügen. Bearbeiten Sie dann einfach die Abfrage gemäß Ihren Datenanforderungen.
+   1. Geben Sie die Abfrage in das Textfeld **Datenabfrage** ein. Select **Copy sample query** to quickly copy a data query. Instead of manually creating the query, you can copy and paste the sample query into the **Data query** text box. Bearbeiten Sie dann einfach die Abfrage gemäß Ihren Datenanforderungen.
 
       >[!NOTE]
       >
@@ -274,7 +273,7 @@ Klicken Sie mit der rechten Maustaste auf einen Themengenerator, um die **Option
 
 
 
-- **Bearbeiten**: Verwenden Sie diese Option, um den Themengenerator zu ändern und zu speichern. Diese Option ist beim Generieren des Inhalts deaktiviert.
+- **Edit**: Use this option to change and save the topic generator. This option is disabled while you&#39;re generating the content.
 - **Löschen**: Verwenden Sie diese Option, um den ausgewählten Themengenerator zu löschen. Diese Option ist beim Generieren des Inhalts deaktiviert.
 - **Duplizieren**: Mit dieser Option wird ein Duplikat oder eine Kopie des ausgewählten Themengenerators erstellt. Das Duplikat wird standardmäßig mit einem Suffix (wie `topic-sample_1`) erstellt.
 
@@ -286,7 +285,7 @@ Experience Manager-Vorlagen unterstützen auch die Velocity-Tools (Version 2.0).
 
 Führen Sie die folgenden Schritte aus, um ein Velocity-Tool in einer Vorlage zu verwenden:
 1. Bearbeiten Sie eine Velocity-Vorlage im Web-Editor.
-1. Fügen Sie ein Tool und seine Funktion im `<tool.function>` hinzu. Zum Beispiel:
+1. Fügen Sie ein Tool und seine Funktion im `<tool.function>` hinzu. Beispiel:
    - Verwenden Sie `$mathTool.random`, um mit dem mathematischen Tool eine zufällige Zahl zu generieren.
    - Um die Summe der Zahlen mithilfe des mathematischen Tools zu erzeugen, verwenden Sie `$mathTool.add(num1, num2)`.
 1. Verwenden Sie die Vorlage, um ein Inhaltsfragment oder Thema zu erstellen.

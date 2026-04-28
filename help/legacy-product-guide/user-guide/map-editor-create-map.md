@@ -1,58 +1,58 @@
 ---
 title: Erstellen einer Zuordnung
-description: Erstellen Sie in AEM Guides eine Zuordnung mit dem Zuordnungs-Editor. Erfahren Sie, wie Sie eine Zuordnungsdatei basierend auf einer Zuordnungsvorlage erstellen.
+description: Create a map with Map Editor in AEM Guides. Find the steps to create a map file based on a map template.
 feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Erstellen einer Zuordnung {#id176FEN0D05Z}
 
-AEM Guides bietet zwei vordefinierte Kartenvorlagen - DITA-Karte und Bookmap. Sie können auch eigene Zuordnungsvorlagen erstellen und diese für Ihre Autoren freigeben, um Zuordnungsdateien zu erstellen.
+AEM Guides provides two out-of-the-box map templates - DITA map and Bookmap. You can also create your own map templates and share those with your authors to create map files.
 
-Führen Sie die folgenden Schritte aus, um eine Zuordnungsdatei zu erstellen:
+Perform the following steps to create a map file:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu dem Speicherort, an dem Sie die Zuordnungsdatei erstellen möchten.
+1. In the Assets UI, navigate to the location where you want to create the map file.
 
-1. Klicken Sie **Erstellen** \> **DITA Map**.
+1. Click **Create** \> **DITA Map**.
 
-1. Wählen Sie auf der Blueprint-Seite den Typ der zu verwendenden Zuordnungsvorlagen aus und klicken Sie auf **Weiter**.
+1. On the Blueprint page, select the type of map templates you want to use and click **Next**.
 
    >[!NOTE]
    >
-   > Die Art und Weise, wie die Themen in einer Zuordnungsdatei referenziert werden, hängt von der Zuordnungsvorlage ab. Wenn Sie beispielsweise die Zuordnungsvorlage auswählen, werden die Themenreferenzen \(`topicref`\) verwendet, um auf Themen zu verweisen. Im Falle einer Bookmap werden Themenreferenzen mit dem `chapter` Element in DITA erstellt.
+   > The way the topics are referred in a map file depend on the map template. For example, if you select the Map template, then the topic references \(`topicref`\) are used to refer to topics. In case of a Bookmap, topic references are created using the `chapter` element in DITA.
 
    ![](images/map-template.png){width="650" align="left"}
 
-1. Geben Sie auf der Seite Eigenschaften die Zuordnung (**)**.
+1. On the Properties page, specify the map **Title**.
 
 1. \(Optional\) Geben Sie die Datei **Name** an.
 
    Wenn Ihr Admin einen automatischen Dateinamen basierend auf einer UUID-Einstellung konfiguriert hat, wird die Option zum Angeben des Dateinamens nicht angezeigt. Ein UUID-basierter Dateiname wird der Datei automatisch zugewiesen.
 
-   Wenn die Option zur Dateibenennung verfügbar ist, wird auch der Name basierend auf dem Titel Ihrer Zuordnung automatisch vorgeschlagen. Wenn Sie den Namen der Zuordnungsdatei manuell angeben möchten, stellen Sie sicher, dass der Dateiname keine Leerzeichen, Apostrophe oder geschweifte Klammern enthält und mit `.ditamap` endet.
+   If the file naming option is available, then also the name is automatically suggested based on the Title of your map. If you want to manually specify the map file name, then ensure that the file name does not contain any spaces, apostrophe, or braces and ends with `.ditamap`.
 
 1. Klicken Sie auf **Erstellen**.
 
-   Die Meldung Map Created wird angezeigt.
+   The Map Created message appears.
 
-   Jeder neuen Zuordnungsdatei, die Sie über die Assets-Benutzeroberfläche (**)**> **DITA Map** oder den Web-Editor erstellen, wird eine eindeutige Zuordnungs-ID zugewiesen. Außerdem wird die neue Zuordnung als neueste Arbeitskopie in DAM gespeichert. Bis zum Speichern einer Revision einer neu erstellten Zuordnung wird im Versionsverlauf keine Versionsnummer angezeigt. Wenn Sie die Zuordnung zur Bearbeitung öffnen, werden die Versionsinformationen in der rechten oberen Ecke der Registerkarte der Zuordnungsdatei angezeigt:
+   Every new map file that you create from the Assets UI **Create** \> **DITA Map** or the Web Editor is assigned a unique map ID. Also, the new map is saved as the latest working copy in DAM. Until you save a revision of a newly created map, you will not see any version number in the Version History. If you open the map for editing, the version information is shown in the right top corner of the map file&#39;s tab:
 
    ![](images/first-version-map-none.png){width="650" align="left"}
 
-   Die Versionsinformationen für eine neu erstellte Zuordnung werden als *Keine* angezeigt. Wenn Sie eine neue Version speichern, wird ihr eine Versionsnummer als 1.0 zugewiesen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version speichern](web-editor-features.md#save-as-new-version-id209ME400GXA).
+   The version information for a newly created map is shown as *none*. Wenn Sie eine neue Version speichern, wird ihr eine Versionsnummer als 1.0 zugewiesen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version speichern](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-   Sie können die Zuordnung zur Bearbeitung im konfigurierten Zuordnungs-Editor öffnen oder im AEM-Repository speichern.
+   You can choose to open the map for editing in the configured map editor, or save the map file in the AEM repository.
 
    >[!NOTE]
    >
-   > Um den erweiterten Zuordnungs-Editor zu verwenden, greifen Sie auf die Zuordnungsdatei im Web-Editor zu. Falls Ihr Administrator den erweiterten Zuordnungs-Editor als Standard-Editor in den Zuordnungsdateien konfiguriert hat, wird die Zuordnungsdatei direkt im erweiterten Zuordnungs-Editor zur Bearbeitung geöffnet. Siehe *Festlegen des erweiterten Zuordnungs-Editors als Standard* in Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+   > To use the Advanced Map Editor, access the map file in the Web Editor. In case your administrator has configured the Advanced Map Editor as the default editor in the map files, then the map file is opened directly in the Advanced Map Editor for editing. See *Set the Advanced Map Editor as default* section in Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Zuordnungs-Editor](map-editor.md)
+**Parent topic:**[ Work with the Map Editor](map-editor.md)

@@ -1,172 +1,172 @@
 ---
-title: Generieren einer Ausgabe für eine DITA-Zuordnung über die Zuordnungskonsole
-description: Generieren einer Ausgabe für eine DITA-Zuordnung über die Zuordnungskonsole in AEM Guides. Erfahren Sie mehr über die inkrementelle Ausgabegenerierung und darüber, wie Sie den Status anzeigen, abbrechen und eine Ausgabeaufgabe löschen können.
+title: Generate output for a DITA map from the map console
+description: Generate output for a DITA map from the map console in AEM Guides. Know about incremental output generation and how to view the status, cancel, and delete an output task.
 feature: Publishing
 role: User
 hide: true
 exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
 
-# Generieren einer Ausgabe für eine DITA-Zuordnung über die Zuordnungskonsole {#id1825FG00UHT}
+# Generate output for a DITA map from the map console {#id1825FG00UHT}
 
-Führen Sie die folgenden Schritte aus, um eine Ausgabe für eine DITA-Zuordnung zu generieren:
+Perform the following steps to generate output for a DITA map:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu der DITA-Zuordnungsdatei, die Sie veröffentlichen möchten, und klicken Sie darauf.
+1. In the Assets UI, navigate to and click on the DITA map file that you want to publish.
 
-   Die DITA-Zuordnungskonsole wird mit der Liste der verfügbaren Ausgabevorgaben angezeigt, um eine Ausgabe zu generieren.
+   The DITA map console appears with the list of Output Presets available to generate output.
 
-1. Wählen Sie eine oder mehrere Ausgabevorgaben aus, die Sie zum Generieren der Ausgabe verwenden möchten.
+1. Select one or multiple Output Presets that you want to use for generating the output.
 
    ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
 
    >[!NOTE]
    >
-   > Wenn Sie die AEM-Site-Ausgabe generieren, verwendet der Veröffentlichungsprozess die in der `.ditamap` definierte Struktur, um die AEM-Site-Struktur zu erstellen.
+   > If you are generating the AEM Site output, then the publishing process uses the structure defined in the `.ditamap` file to create AEM Site structure.
 
-1. Klicken Sie auf das Symbol Erzeugen , um den Ausgabegenerierungsprozess zu starten.
+1. Click the Generate icon to start the output generation process.
 
 
-Sie können den aktuellen Status der Ausgabegenerierungsanfrage anzeigen, indem Sie auf „Ausgaben“ klicken. Weitere Informationen finden Sie unter [Anzeigen des Status der Aufgabe zur Ausgabenerstellung](#viewing_output_history)
+You can view the current status of the output generation request by clicking on Outputs. For more information, see [View the status of the output generation task](#viewing_output_history)
 
 >[!IMPORTANT]
 >
-> Wenn sich ein Ausgabegenerierungsprozess für eine Voreinstellung entweder in der Warteschlange befindet oder in Bearbeitung ist, können Sie für dieselbe Voreinstellung keine andere Ausgabegenerierungsaufgabe starten.
+> If an output generation process for a preset is either in the queue or in progress, you cannot initiate another output generation task for the same preset.
 
-Sie können die PDF-Ausgabe für eine oder mehrere Ausgabevorgaben generieren, die für eine DITA-Zuordnung im Web-Editor erstellt wurden. Weitere Informationen finden Sie unter [Verwenden des Bedienfelds „Schnellgenerierung“, um eine Ausgabe für die Vorgaben zu generieren und anzuzeigen](web-editor-quick-generate-panel.md#).
+You can generate the PDF output for one or more output presets created for a DITA map from the Web Editor. For more details, see [Use Quick Generate panel to generate and view output for the presets](web-editor-quick-generate-panel.md#).
 
-Sie können auch die AEM-Site-Ausgabe für ein oder mehrere Themen oder die gesamte DITA-Zuordnung aus dem Web-Editor generieren. Weitere Informationen finden Sie unter [Artikelbasierte Veröffentlichung im Web-Editor](web-editor-article-publishing.md#id218CK0U019I).
+You can also generate the AEM Site output for one or more topics, or the entire DITA map from the Web Editor. For more details, see [Article-based publishing from the Web Editor](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Inkrementelle Ausgabegenerierung {#generating_standalone_topic}
 
 >[!NOTE]
 >
-> Die inkrementelle Ausgabegenerierung ist nur für die AEM Site-Ausgabe geeignet. Außerdem können Sie nur DITA \(.dita/.xml\)-Themen aus einer DITA-Zuordnung oder aus Unterzuordnungen neu generieren. Wenn Sie eine DITA-Zuordnung, eine Unterzuordnung, eine Themengruppe oder ein Thema mit `@processing-role="resource-only"` auswählen, ist die Option zum erneuten Generieren nicht verfügbar.
+> Incremental output generation is applicable only for AEM Site output. Also, you can only regenerate DITA \(.dita/.xml\) topics from a DITA map or sub-maps. If you select a DITA map, sub-map, topic group, or a topic with `@processing-role="resource-only"`, then the regenerate option is not available.
 
-Es kann eine Reihe von Fällen geben, in denen Sie nur einige Themen in Ihrer DITA-Karte aktualisieren und nur diese aktualisierten Themen live übertragen. Um solche Szenarien zu handhaben, können Sie mit AEM Guides inkrementelle Ausgaben erstellen. Wenn Sie einige Themen aktualisiert haben, müssen Sie nicht die gesamte DITA-Karte neu generieren. Sie können nur die aktualisierten Themen auswählen und neu generieren.
+There could be a number of instances where you would update only a few topics in your DITA map and push only those updated topics live. To handle such scenarios, AEM Guides allows you to create incremental outputs. If you have updated a few topics, you do not need to regenerate the entire DITA map. You can select only the updated topics and regenerate them.
 
-Wenn Ihre Zuordnung aufgeteilt ist und Sie ein einzelnes Thema in dieser Zuordnung aktualisiert haben, müssen Sie die gesamte Zuordnung neu generieren, damit das aktualisierte Thema oder der aktualisierte Inhalt in der Ausgabe widergespiegelt wird. Die Option zur Ausgaberegenerierung wird nicht auf Themenebene angezeigt, sondern nur auf der \(aufgeteilt\) Zuordnungsebene. Dies gilt für die übergeordnete Zuordnung und alle Unterzuordnungen.
+If your map is chunked and you have updated a single topic in that map, then you need to regenerate the entire map for the updated topic or content to reflect in the output. You will not get the output regeneration option at a topic level, it is only available at the \(chunked\) map level. This is applicable to the parent map and all sub-maps.
 
-Führen Sie die folgenden Schritte aus, um die Ausgabe für ein bestimmtes Thema oder eine Gruppe von Themen neu zu generieren:
+Perform the following steps to regenerate output for a specific topic or a group of topics:
 
 >[!IMPORTANT]
 >
-> Wenn Sie die Ausgabe der AEM-Site neu generieren, wird die Ausgabe anhand der aktuellen Dateiversion und nicht anhand der angehängten Baseline erstellt.
+> When you are regenerating the AEM Site output, then the output is created using the current version of the files and not the attached Baseline.
 
 1. Navigieren Sie in der Assets-Benutzeroberfläche zu und klicken Sie auf die DITA-Zuordnungsdatei.
 
-   Die DITA-Zuordnungskonsole wird mit der Liste der verfügbaren Ausgabevorgaben angezeigt, um eine Ausgabe zu generieren.
+   The DITA map console appears with the list of Output Presets available to generate output.
 
-1. Wählen Sie die **Themen** aus.
+1. Select the **Topics** tab.
 
-   Eine Liste der in der DITA-Karte verfügbaren Themen wird angezeigt.
+   A list of topics available in the DITA map is displayed.
 
-1. Wählen Sie die Themen aus, die Sie neu generieren möchten.
+1. Select the topics that you want to regenerate.
 
    >[!NOTE]
    >
-   > Wenn Sie neue Themen zur DITA-Karte hinzugefügt haben, können Sie diese neuen Themen von hier aus nicht erstellen. Sie müssen die neu hinzugefügten Themen zuerst veröffentlichen, indem Sie die Veröffentlichungsfunktion DITA-Zuordnung verwenden.
+   > If you have added new topics to the DITA map, you will not be able to generate those new topics from here. You must first publish the newly added topics by using the DITA map publish function.
 
    ![](images/regenerate-topics.png){width="800" align="left"}
 
-1. Klicken Sie **Regenerieren**.
+1. Click **Regenerate**.
 
-   Die Seite Ausgewählte Themen neu generieren wird angezeigt.
+   The Regenerate Selected Topics page appears.
 
-1. Wählen Sie die Ausgabevorgabe aus, die Sie zum Neugenerieren der ausgewählten Themen verwenden möchten.
+1. Select the output preset that you want to use to regenerate the selected topics.
 
-1. Klicken Sie **Regenerieren**, um den Ausgabegenerierungsprozess zu starten.
+1. Click **Regenerate** to start the output generation process.
 
 
 >[!IMPORTANT]
 >
-> Wenn Sie einen Thementitel umbenennen und das Thema neu generieren, wird der aktualisierte Thementitel nicht im Inhaltsverzeichnis der DITA-Karte angezeigt. Um den Thementitel im Inhaltsverzeichnis zu aktualisieren, müssen Sie die gesamte DITA-Zuordnung generieren.
+> If you rename a topic title and regenerate the topic, the updated topic title does not reflect in the DITA map table of contents. To update the topic title in the TOC, you must generate the entire DITA map.
 
-Sie können den aktuellen Status der Ausgabegenerierungsanfrage anzeigen, indem Sie auf „Ausgaben“ klicken. Weitere Informationen finden Sie unter [Anzeigen des Status der Aufgabe zur Ausgabenerstellung](#viewing_output_history).
+You can view the current status of the output generation request by clicking on Outputs. For more information, see [View the status of the output generation task](#viewing_output_history).
 
 ## Anzeigen des Status der Ausgabegenerierungsaufgabe {#viewing_output_history}
 
-Nachdem Sie die Ausgabegenerierungsaufgabe für eine Zuordnung initiiert oder ausgewählte Themen neu generiert haben, sendet AEM Guides diese Aufgabe an die Ausgabegenerierungswarteschlange. Diese Warteschlange wird in Echtzeit aktualisiert und zeigt den Status jeder Ausgabegenerierungsaufgabe in der Warteschlange an.
+Once you initiate the output generation task for a map or regenerate selected topics, AEM Guides sends this task to the output generation queue. This queue is updated in real time, showing the status of each output generation task in the queue.
 
-Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange anzuzeigen:
+Perform the following steps to view the output generation queue:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu der Zuordnungsdatei, für die Sie den Status der Ausgabegenerierung überprüfen möchten, und klicken Sie darauf.
+1. In the Assets UI, navigate to and click on the map file for which you want to check the output generation status.
 
-1. Klicken Sie auf **Ausgaben**.
+1. Click **Outputs**.
 
    ![](images/output-queued.png){width="800" align="left"}
 
-   Die Seite „Ausgaben“ ist in zwei Teile unterteilt:
+   The Outputs page is divided into two parts:
 
-   - **Ausgänge in der Warteschlange:**
+   - **Queued Outputs:**
 
-     Listet die Ausgaben auf, die entweder auf die Generierung warten oder sich im Generierungsprozess befinden. Die Aufgaben in der Warteschlange oder in Bearbeitung werden mit einem blauen Farbsymbol vor dem Voreinstellungsnamen angezeigt. Sie finden auch die Einstellung für die Ausgabegenerierung oder die Voreinstellung für die Aufgabe in der Warteschlange, den Typ, den Benutzer, der die Aufgabe initiiert hat, den Zeitpunkt, seit dem die Aufgabe in die Warteschlange gestellt wird, und den aktuellen Status.
+     Lists the outputs that are either waiting to be generated or are under generation process. The queued or in progress tasks are shown with a blue color icon before the preset name. You can also find the output generation setting or preset used for the queued task, the type, user who initiated the task, time since when the task is queued, and the current status.
 
-     Klicken Sie auf den Link, um auf das **Dashboard veröffentlichen** zuzugreifen und den aktuellen Status „Wird ausgeführt“ anzuzeigen. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Veröffentlichungs-Dashboard verfügbar. Die **Eingereihte Ausgaben** und der **Veröffentlichungs-Dashboard** Link werden nur angezeigt, wenn es Ausgaben gibt, die entweder darauf warten, generiert zu werden, oder sich im Generierungsprozess befinden. Sie werden nicht angezeigt, wenn die Ausgabeaufgaben abgeschlossen wurden. Weitere Informationen zum Veröffentlichungs-Dashboard finden Sie unter [Veröffentlichungsaufgaben mit dem Veröffentlichungs-Dashboard verwalten](generate-output-publish-dashboard.md#).
+     Click on the link to access the **Publish Dashboard** and view the current running status. A list of all active publishing tasks is available in the Publish Dashboard. The **Queued Outputs** and the **Publish Dashboard** link are displayed only when there are outputs that are either waiting to be generated or are under generation process. They don&#39;t appear when the output tasks have been completed.For more details on Publish Dashboard, see [Manage publish tasks using the Publish Dashboard](generate-output-publish-dashboard.md#).
 
-   - **Erzeugte Ausgaben**
+   - **Generated Outputs**
 
-     Listet die abgeschlossenen Ausgabeaufgaben auf. Auch hier sind die Informationen, die angezeigt werden, mit einigen Unterschieden ähnlich wie der Abschnitt „Gereihte Ausgaben“. Sie haben neue Informationen in Form des Ausgabeergebnissymbols und der Ausgabegenerierungszeit.
+     Lists the output tasks that have been completed. Again, the information shown here is similar to the Queued Outputs section with a few differences. You have new set of information in the form of output result icon and the output generation time.
 
-     In dieser Liste können Sie Aufgaben, die erfolgreich ausgeführt wurden, Aufgaben, die mit einer Nachricht ausgeführt wurden, oder fehlgeschlagene Aufgaben anzeigen. Die erfolgreichen Aufgaben werden mit einem grünen Farbsymbol angezeigt, die Aufgaben mit einer Nachricht haben ein orangefarbenes Farbsymbol und die fehlgeschlagenen Aufgaben werden mit einem roten Farbsymbol angezeigt.
+     In this list, you could have tasks that have executed successfully, tasks that have executed with message, or failed tasks. The successful tasks are shown with green color icon, the tasks with a message have an orange color icon, and the failed tasks are shown with red color icon.
 
-     Für alle Aufgaben erstellt der Veröffentlichungsprozess eine Protokolldatei \(logs.txt\), auf die durch Klicken auf den Link in der Spalte Generiert unter zugegriffen werden kann. Bei fehlgeschlagenen Aufgaben oder bei Meldungen können Sie die Protokolldatei überprüfen. Weitere Informationen hierzu finden Sie im Abschnitt [Anzeigen und Überprüfen der Protokolldatei](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     For all the tasks, the publishing process creates a log file \(logs.txt\) that can be accessed by clicking the link in the Generated At column. For tasks that have failed or have messages, you can check the log file, which is explained in the section [View and check the log file](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
      >[!NOTE]
      >
-     > Wenn Sie auf einen Link der generierten PDF-Ausgabe klicken, werden Sie aufgefordert, die PDF herunterzuladen. Dies ist das Standardverhalten in AEM 6.5 und 6.4.
+     > When you click on a link of the generated PDF output, you are asked to download the PDF. This is the default behavior in AEM 6.5 and 6.4.
 
 
-## Aufgabe zum Erzeugen einer Ausgabe abbrechen {#id2061H100T5Z}
+## Cancel an output generation task {#id2061H100T5Z}
 
-AEM Guides bietet Publishern eine einfache Möglichkeit, laufende Veröffentlichungsaufgaben abzubrechen. Als Herausgeber können Sie eine laufende Veröffentlichungsaufgabe über die DITA Map-Konsole oder das [Dashboard veröffentlichen“ &#x200B;](generate-output-publish-dashboard.md#).
+AEM Guides gives publishers a simple and easy way to cancel any ongoing publishing task. As a publisher, you can cancel an ongoing publishing task from the DITA map console or the [Publish Dashboard](generate-output-publish-dashboard.md#).
 
-Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung über die DITA-Zuordnungskonsole abzubrechen:
+Perform the following steps to cancel an output generation task from the DITA map console:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu der Zuordnungsdatei, für die Sie eine laufende Ausgabegenerierungsaufgabe abbrechen möchten, und klicken Sie darauf.
+1. In the Assets UI, navigate to and click on the map file for which you want to cancel an ongoing output generation task.
 
-1. Klicken Sie auf **Ausgaben**.
+1. Click **Outputs**.
 
-1. Bewegen Sie in der Liste „Ausgaben in der Warteschlange“ den Mauszeiger über eine Aufgabe, die Sie abbrechen möchten.
+1. In the Queued Outputs list, hover the pointer over a task that you want to cancel.
 
-1. Klicken Sie auf *Symbol &quot;* abbrechen“.
+1. Click the *Cancel This Job* icon.
 
    ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
 
-1. Klicken Sie **der** Abbruchmeldung bestätigen auf „Ja“.
+1. Click **Yes** on the Confirm Cancellation message prompt.
 
    ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
 
-   Wenn die Aufgabe noch nicht gestartet wurde, wird der Abbruchbefehl für die Aufgabe ausgeführt. Für eine Aufgabe, die abgebrochen wird, wird der Status auf Abbruch gesetzt.
+   If the task has not yet started, the cancel command is executed on the task. For a task that is being canceled, the Status is set to Canceling.
 
-   Nachdem die Aufgabe erfolgreich abgebrochen wurde, wird sie in die Liste **Erzeugte Ausgaben** mit dem Status **Abgebrochen** verschoben. Wenn Sie den Mauszeiger über die abgebrochene Aufgabe bewegen, wird der Name des Benutzers angezeigt, der die Aufgabe abgebrochen hat. Im folgenden Screenshot wird die Aufgabe *HTML* abgebrochen.
+   Once the task is successfully canceled, it is moved to the **Generated Outputs** list with a **Cancelled** status. When you hover over the canceled task, it shows the name of the user who has canceled the task. In the following screenshot, the *HTML5* task is canceled.
 
    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
-## Löschen einer Ausgabeaufgabe aus der DITA-Zuordnungskonsole
+## Delete an output task from DITA map console
 
-Wenn Sie mehrere Ausgaben für eine DITA-Zuordnung generieren, wird die Liste Erzeugte Ausgaben für eine solche Zuordnung über einen bestimmten Zeitraum sehr lang. Als Herausgeber können Sie den Ausgabehistorie jeder Zuordnungsdatei bereinigen, indem Sie die veralteten Aufgaben aus der Liste *Erzeugte Ausgaben* entfernen. Beachten Sie, dass die Ausgabe nicht aus dem System entfernt wird, sondern nur der Eintrag der generierten Ausgabe aus der Liste *Generierte Ausgaben* entfernt wird.
+When you generate multiple outputs for a DITA map, over a period of time the Generated Outputs list for such a map becomes very long. As a publisher you can clean the output history of any map file by removing the outdated tasks from the *Generated Outputs* list. Note that the output is not removed from the system, only the entry of the generated output is removed from the *Generated Outputs* list.
 
-Führen Sie die folgenden Schritte aus, um eine Ausgabeaufgabe aus der Liste Erzeugte Ausgabe zu entfernen:
+Perform the following steps to remove an output task from the Generated Output list:
 
-1. Navigieren Sie in der Assets-Benutzeroberfläche zu der Zuordnungsdatei, aus der Sie die Aufgaben löschen möchten, und klicken Sie darauf.
+1. In the Assets UI, navigate to and click on the map file from which you want to delete the tasks.
 
-1. Klicken Sie auf **Ausgaben**.
+1. Click **Outputs**.
 
-1. Bewegen Sie in der Liste Erzeugte Ausgaben den Mauszeiger über eine Aufgabe, die Sie löschen möchten.
+1. In the Generated Outputs list, hover the pointer over a task that you want to delete.
 
-1. Klicken Sie auf das Löschsymbol.
+1. Click the delete icon.
 
    ![](images/delete-output-task.png){width="800" align="left"}
 
-1. Klicken Sie **der Eingabeaufforderung Löschen** bestätigen auf „Ja“.
+1. Click **Yes** on the Confirm Delete message prompt.
 
-   Die Aufgabe wird aus der Liste Erzeugte Ausgaben gelöscht.
+   The task is deleted from the Generated Outputs list.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

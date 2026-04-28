@@ -5,10 +5,10 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 10%
+source-wordcount: '741'
+ht-degree: 12%
 
 ---
 
@@ -83,21 +83,21 @@ In der folgenden Tabelle sind verschiedene Aufgaben sowie die Gruppen aufgeführ
 | Duplizieren |   |   | Ja |
 | Remove |   |   | Ja |
 | DITA Map Console \(Registerkarte „Berichte“\) | Ja |   | Ja |
-| **In der DITA-Zuordnungskonsole verfügbare Funktionen \(Bedingungsvorgaben\)** |  |  |  |
-| Erstellen/Bearbeiten einer Bedingungsvorgabe |   |   | Ja |
+| **Features available in DITA map console \(Condition Presets\)** |  |  |  |
+| Create/edit condition preset |   |   | Ja |
 
-[1](#fnsrc_1) Wenn *Autoren* und *Herausgeber* zu einer Überprüfung eingeladen werden.
+[1](#fnsrc_1) If *Authors* and *Publishers* are invited for a review.
 
-[2](#fnsrc_2) Abhängig von den Berechtigungen, die dem Benutzer im Dokumentstatusprofil gewährt wurden.
+[2](#fnsrc_2) Depending on the rights given to the user in the document state profile.
 
-## Voraussetzungen für die Inhaltserstellung
+## Pre-requisites to content authoring
 
-**Arbeiten mit globalen Profilen oder Profilen auf Ordnerebene**
+**Work with global or folder-level profiles**
 
-In einem Unternehmen können verschiedene Gruppen oder Produkte unterschiedliche Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Web-Editor-Konfigurationen verwenden. Wenn Sie diese nur auf Enterprise-\(oder globaler\) Ebene konfigurieren, kann dies Autorinnen und Autoren Schwierigkeiten bereiten, da sie Vorlagen oder Profile sehen, die für sie nicht relevant sind.
+In an enterprise, different groups or products may use different authoring templates, output templates, conditional attribute profiles \(or subject schemes\), and Web Editor configurations. Configuring these only at an enterprise \(or global\) level can make authors experience difficult, as they will see templates or profiles that are not relevant to them.
 
-Mit AEM Guides können Sie die Erstellung von \(topic oder map\) Vorlagen, Ausgabevorlagen, bedingten Attributen und Web-Editor-Konfigurationen auf Enterprise \(global\)-Ebene sowie auf Ordnerebene konfigurieren. Auf diese Weise können Sie die Konfigurationen für verschiedene Abteilungen oder Produkte in Ihrem Unternehmen trennen.
+AEM Guides allows you to configure authoring \(topic or map\) templates, output templates, conditional attribute, and Web Editor configurations at an enterprise \(global\) level as well as at a folder level. This way, you can segregate the configurations for different departments or products in your enterprise.
 
-Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung oder Produktadministratoren delegieren, um die Administration zu dezentralisieren.
+Also, you can delegate the folder-specific configurations to a department or product administrators to decentralize the administration.
 
-Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnerebene finden Sie unter *Konfigurieren globaler Profile oder Profile auf Ordnerebene* unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+For details on setting up global and folder-level profiles, see *Configure global or folder-level profiles* in Install and configure Adobe Experience Manager Guides as a Cloud Service.

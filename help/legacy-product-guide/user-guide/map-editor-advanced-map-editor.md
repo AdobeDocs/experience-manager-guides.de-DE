@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3838'
 ht-degree: 0%
 
 ---
@@ -48,70 +48,70 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei mit dem erweiter
 
    ![](images/edit-map-icon.png){width="550" align="left"}
 
-   Die Zuordnung wird in der Benutzeroberfläche des erweiterten Zuordnungs-Editors geöffnet. Wenn Sie eine neue Kartendatei geöffnet haben, wird nur der Titel der Karte im Editor angezeigt.
+   Die Zuordnung wird in der Benutzeroberfläche des erweiterten Zuordnungs-Editors geöffnet. If you have opened a new map file, then only the title of the map is shown in the editor.
 
    ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
-   - **A** - \(*Haupt-Symbolleiste*\): Dies ähnelt der Haupt-Symbolleiste des Web-Editors. Weitere Informationen [&#x200B; Sie unter &#x200B;](web-editor-features.md#id2051EA0G05Z) im Web-Editor.
+   - **A** - \(*Main toolbar*\): This is similar to the Web Editor&#39;s main toolbar. See [Main toolbar](web-editor-features.md#id2051EA0G05Z) in the Web Editor for more details.
 
-   - **B** - \(*Sekundäre Symbolleiste*\) Dies ist die Sekundäre Symbolleiste, die Ihnen das Arbeiten mit Zuordnungsdateien ermöglicht. Weitere Informationen zu den in der Sekundären Symbolleiste verfügbaren Funktionen finden Sie unter [In der Symbolleiste des erweiterten Zuordnungs-Editors verfügbare Funktionen](#id205DEC0005Z).
+   - **B** - \(*Secondary toolbar*\) This is the Secondary toolbar that allows you to work with map files. For more information about the functionalities available through Secondary toolbar, see [Features available in the Advanced Map Editor&#39;s toolbar](#id205DEC0005Z).
 
-   - **C** - \(*Kartenansichten*\): Ermöglicht es Ihnen, im Zuordnungs-Editor zwischen Layout, Autor, Source und Vorschau zu wechseln. Mit **Layout** Ansicht können Sie die Themen in einer DITA-Karte organisieren. Dadurch wird die Baumstruktur oder hierarchische Ansicht der Karte angezeigt. Die **Autor**-Ansicht ermöglicht die Bearbeitung der Themen im Zuordnungs-Editor. Dadurch erhält auch die WYSIWYG-Ansicht der Zuordnungsdatei. Die Ansicht **Source** ermöglicht es Ihnen, mit der zugrunde liegenden XML der Zuordnungsdatei zu arbeiten. Die Vorschau bietet Ihnen eine konsolidierte Ansicht aller Themen und Unterzuordnungen innerhalb der Zuordnungsdatei. Der **Schließen**-Link schließt die Zuordnungsdatei.
+   - **C** - \(*Map views*\): Allows you to switch the Map Editor between the Layout, Author, Source and Preview. The **Layout** view allows you to organize the topics in a DITA map. This gives the tree or hierarchical view of the map. The **Author** view allows you to edit the topics in the Map Editor. This also gives the WYSIWYG view of the map file. The **Source** view allows you to work with the underlying XML of the map file. The Preview gives you a consolidated view of all topic and sub-maps within the map file. The **Close** link closes the map file.
 
-   - **D** - \(*Linker Bereich*\): Ermöglicht den Zugriff auf den linken Bereich, in dem Sie Zugriff auf die Favoriten, das Repository, die Zuordnung, die Gliederung und andere Funktionen haben. Sie können sie erweitern oder reduzieren, indem Sie auf das Symbol Seitenleiste erweitern \(![](images/sidebar-expand-icon.svg)\) klicken. Weitere Informationen zu den im linken Bereich verfügbaren Funktionen finden Sie unter [Linkes &#x200B;](web-editor-features.md#id2051EA0M0HS) im Web-Editor.
+   - **D** - \(*Left Panel*\): Gives access to the left panel which gives you access to the Favorites, Repository, Map, Outline and other features. Sie können sie erweitern oder reduzieren, indem Sie auf das Symbol Seitenleiste erweitern \(![](images/sidebar-expand-icon.svg)\) klicken. For more details about the features available in the left panel, see [Left panel](web-editor-features.md#id2051EA0M0HS) in the Web Editor.
 
-   - **E** - \(*Middle Area*\): Inhaltsbearbeitungsbereich zuordnen.
+   - **E** - \(*Middle Area*\): Map content editing area.
 
-   - **F** - \(*Bereich rechts*\): Ermöglicht den Zugriff auf den Bereich „Eigenschaften“. Sie können die Inhaltseigenschaften und die Zuordnungseigenschaften des ausgewählten Themas oder der ausgewählten Zuordnung anzeigen. Weitere Informationen zu den in diesem Bedienfeld verfügbaren Funktionen finden Sie unter [Rechtes Bedienfeld](web-editor-features.md#id2051EB003YK) im Web-Editor.
+   - **F** - \(*Right Panel*\): Gives access to the Properties panel. You can see the content properties and the map properties of the selected topic or map. For more details about the functionalities available in this panel, see [Right panel](web-editor-features.md#id2051EB003YK) in the Web Editor.
 
-1. Wechseln Sie im linken Bedienfeld zur **Repository-Ansicht**.
+1. In the Left Panel, switch to the **Repository View**.
 
-1. Navigieren Sie im AEM-Repository zum Ordner, der die Themen oder Unterzuordnungen enthält, die Sie hinzufügen möchten.
+1. In the AEM repository, navigate to the folder that contains the topics or sub-maps that you want to add.
 
-1. Wählen Sie das Thema oder die Zuordnungsdatei in der **Repository-Ansicht** aus und ziehen Sie sie per Drag-and-Drop in den Bearbeitungsbereich für die \(mittlere\)-Zuordnungsinhalte.
+1. Select the topic or map file in the **Repository View** and drag-and-drop it into the \(middle\) map content editing area.
 
-   Das Thema wird der Karte hinzugefügt.
+   The topic is added in the map.
 
-   ![Map Editor Thema hinzufügen](images/map-editor-add-topic.png){width="800" align="left"}
+   ![map editor add topic](images/map-editor-add-topic.png){width="800" align="left"}
 
-1. Um weitere Themen oder eine Unterkarte hinzuzufügen, ziehen Sie das Thema oder die Unterkarte per Drag-and-Drop an die gewünschte Position in der Karte.
+1. To add subsequent topics or a sub-map, drag-and-drop the topic or sub-map to the required location in the map.
 
-   Beachten Sie beim Erstellen Ihrer Zuordnungsdatei die folgenden Punkte:
+   Consider the following points while building your map file:
 
-   - Die Datei wird an der Stelle hinzugefügt, an der die horizontale Leiste im Bereich für die Kartenbearbeitung angezeigt wird. Im folgenden Screenshot wird das Thema *Übersicht* zwischen den Themen *Allgemeine Beschreibung* und *Launch und Landing Site* hinzugefügt.
+   - The file is added at a location where the horizontal bar appears in the map editing area. In the following screenshot, the *Overview* topic will get added in between the *General Description* and *Launch and Landing Site* topics.
 
      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
-   - Um ein Thema zu ersetzen, platzieren Sie das Thema oben, links oder rechts neben dem Thema, das Sie ersetzen möchten. Ein vertikaler Balken links oder rechts neben einem Thema zeigt an, dass dieses durch das Thema ersetzt wird, das darauf abgelegt wird.
+   - To replace a topic, place the topic on top, left, or right of the topic that you want to replace. A Vertical bar to the left or right of a topic indicates that it will get replaced with the topic being dropped on it.
 
      ![](images/vertical-bar-left-right.png){width="550" align="left"}
 
-     Bevor Sie jedoch ein Thema ersetzen, erhalten Sie eine Bestätigungsaufforderung. Das Thema wird erst nach der Bestätigung ersetzt.
+     However, before replacing a topic, you get a confirmation prompt. The topic is replaced only after you give the confirmation.
 
      ![](images/replace-topic-confirm.png){width="300" align="left"}
 
-   - Wenn Sie eine Unter-Map zu Ihrer DITA-Map hinzufügen, wird die Unter-Map als Link in der DITA-Map angezeigt. Um alle Themen der Unterzuordnung anzuzeigen, klicken Sie bei gedrückter Strg-Taste auf den Link der Unterzuordnung. Der Inhalt der Unter-Zuordnung wird auf einer neuen Registerkarte angezeigt. Um ein Thema über die DITA-Karte zu öffnen, klicken Sie bei gedrückter Strg-Taste auf den Themen-Link, um es in der neuen Registerkarte zu öffnen.
+   - If you add a sub-map to your DITA map, the sub-map is shown as a link in the DITA map. To view all the topics of the sub-map, Crtl+Click the sub-map link. The content of the sub-map are shown in a new tab. Similarly, to open a topic from the DITA map, Crtl+Click the topic link and it opens up in the new tab.
 
-   - Sie können die Tastaturbefehle Strg+Z und Strg+Y oder die entsprechenden Symbole in der Symbolleiste verwenden, um Änderungen in der Karte rückgängig zu machen oder wiederherzustellen.
+   - You can use shortcut keys CTRL+Z and CTRL+Y or their respective icons in the toolbar to undo or redo any change in the map.
 
-   - Um die Position eines Themas zu ändern, wählen Sie das Thema \(durch Klicken auf das Themensymbol\) aus und ziehen Sie es dann per Drag-and-Drop an die gewünschte Position in der Zuordnungsdatei. Stellen Sie sicher, dass die horizontale Leiste an der Stelle sichtbar ist, an der Sie das Thema platzieren möchten. Im folgenden Screenshot wird das Thema *Launch und Landing Site* nach dem Thema *Übersicht* verschoben.
+   - To change the position of a topic, select the topic \(by clicking on the topic icon\), then drag-and-drop it at the desired location in the map file. Ensure that the horizontal bar is visible at the location where you want to place the topic. In the following screenshot, the topic *Launch and Landing Site* is being moved after the *Overview* topic.
 
      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
-   - Um die Eigenschaften Ihrer Zuordnungsdatei zu überprüfen, klicken Sie mit der rechten Maustaste auf eine beliebige Stelle im Bereich der Zuordnungsbearbeitung und wählen Sie **Eigenschaften** aus dem Kontextmenü aus. Abhängig von Ihrer AEM-Version können Sie Eigenschaften wie Metadaten, Zeitplan \(de\)aktivierung, Verweise, Dokumentstatus und mehr sehen.
+   - To check the properties of your map file, right-click anywhere in the map editing area and choose **Properties** from the context menu. Based on your AEM version, you could see properties like metadata, schedule \(de\)activation, references, document state and more.
 
 1. Klicken Sie auf **Speichern**.
 
 
-## In der Symbolleiste des erweiterten Zuordnungs-Editors verfügbare Funktionen {#id205DEC0005Z}
+## Features available in the Advanced Map Editor&#39;s toolbar {#id205DEC0005Z}
 
-Die Symbolleiste im erweiterten Zuordnungs-Editor ähnelt dem Themen-Web-Editor. Grundlegende Vorgänge wie das Umschalten des linken Bedienfelds, das Speichern der Zuordnung, das Erstellen einer neuen Version der Zuordnung, das Rückgängigmachen/Wiederholen des letzten Vorgangs und das Löschen der ausgewählten Elemente sind in beiden Editoren häufig. Weitere Informationen zur Funktionsweise dieser Vorgänge finden Sie [&#x200B; Abschnitt „Kennen Sie die Funktionen &#x200B;](web-editor-features.md#) Web-Editors“.
+The toolbar in the Advanced Map Editor is similar to the topic Web Editor. The basic operations like toggling the left panel, saving map, creating a new version of map, undo/redo last operation, and delete the selected elements are common in both editors. For detail about how these operations work, see [Know the Web Editor features](web-editor-features.md#) section.
 
-Die folgenden zuordnungsspezifischen Vorgänge sind auch auf der Symbolleiste in den Ansichten Layout und Autor verfügbar:
+The following map-specific operations are also available on the toolbar in the Layout and Author views:
 
-## Layout-Ansicht {#id205DEC0005Z_layout_view}
+## Layout view {#id205DEC0005Z_layout_view}
 
-Wenn Sie eine Karte zur Bearbeitung öffnen, wird die Layout-Ansicht des Karten-Editors geöffnet. Die Layout-Ansicht zeigt die Kartenhierarchie in einer Baumansicht an und ermöglicht es Ihnen, die Themen in einer Karte zu organisieren.
+When you open a map for editing it opens the Layout view of the Map Editor.The Layout view displays the map hierarchy in a tree view and allows you to organize the topics in a map.
 
 >[!NOTE]
 >
@@ -149,43 +149,43 @@ Dieses Symbol wird angezeigt, wenn Sie eine Bookmap zur Bearbeitung öffnen. Sie
 
 **Ausgewähltes Element nach links/rechts verschieben** - ![](images/left-arrow-icon.png)/![](images/right-arrow-icon.png)
 
-Klicken Sie auf den Pfeil nach links, um das Thema in der Hierarchie nach links zu verschieben. Dadurch wird das jeweilige Thema in der Hierarchie wesentlich um eine Ebene nach oben gefördert. Wenn Sie beispielsweise auf den Pfeil nach links klicken, während ein untergeordnetes Thema ausgewählt ist, wird es zum gleichrangigen Thema über diesem. Wenn Sie auf den Pfeil nach rechts klicken, wird das Thema ebenfalls nach rechts verschoben, was es zum untergeordneten Thema des darüber liegenden Themas macht.
+Klicken Sie auf den Pfeil nach links, um das Thema in der Hierarchie nach links zu verschieben. Dadurch wird das jeweilige Thema in der Hierarchie wesentlich um eine Ebene nach oben gefördert. For example, clicking the left arrow while a child topic is selected make it the sibling of the topic above it. Similarly, if you click the right arrow, the topic is pushed towards the right side making it the child of the topic above it.
 
-**Ausgewähltes Element nach oben/unten verschieben![](images/arrowup.svg)** - / ![](images/arrowdown.svg)
+**Move the Selected Item Up/Down![](images/arrowup.svg)** - / ![](images/arrowdown.svg)
 
-Klicken Sie auf die Pfeile nach oben oder unten, um das Thema in der Hierarchie nach oben oder unten zu verschieben.
+Click the up or down arrow icons&#39; to move the topic up or down in the hierarchy.
 
 >[!NOTE]
 >
-> Sie können die Verweise auch per Drag-and-Drop in eine Karte verschieben.
+> You can also drag-and-drop the references to move them in a map.
 
-**Sperren/Entsperren** - ![](images/LockClosed_icon.svg)/![](images/LockOpen_icon.svg)
+**Lock/Unlock** - ![](images/LockClosed_icon.svg) / ![](images/LockOpen_icon.svg)
 
-Ruft eine Sperre für die Zuordnungsdatei ab und löst die Sperre. Wenn Sie ungespeicherte Änderungen in Ihrer Zuordnungsdatei haben, werden Sie zum Zeitpunkt der Aufhebung der Sperre aufgefordert, die Zuordnungsdatei zu speichern. Die Änderungen werden in der aktuellen Version der Zuordnungsdatei gespeichert.
+Gets a lock on the map file and release the lock. If you have unsaved changes in your map file, then at the time of releasing the lock, you are prompted to save the map file. The changes are saved in the current version of the map file.
 
-**Zusammenführen** - ![](images/merge-icon.svg)
+**Merge** - ![](images/merge-icon.svg)
 
-Weitere Informationen zum Zusammenführen von Inhalten aus einer anderen Version derselben oder einer anderen Datei finden Sie unter [Zusammenführen](web-editor-features.md#id205DF04E0HS) im Web-Editor.
+For more details about merging content from a different version of the same or a different file, see [Merge](web-editor-features.md#id205DF04E0HS) in the Web Editor.
 
 **Versionsverlauf** - ![](images/version-history-web-editor-ico.svg)
 
-Überprüfen Sie die verfügbaren Versionen und Beschriftungen für Ihr aktives Thema und stellen Sie eine Version aus dem Editor selbst wieder her.
+Check the available versions and labels on your active topic, and revert to any version from theeditor itself.
 
-**Versionsbezeichnung** - ![](images/version-label-icon.svg)
+**Version Label** - ![](images/version-label-icon.svg)
 
-Zeigt das Dialogfeld Versionsbezeichnung-Verwaltung an. Wählen Sie eine Version aus der Dropdown-Liste aus. Wählen Sie die Bezeichnung aus, die Sie auf die ausgewählte Version anwenden möchten, und klicken Sie auf **Bezeichnung hinzufügen**, um sie hinzuzufügen.
+Displays the version label management dialog. Select a version from the dropdown list. Choose the label you want to apply to the selected version and click **Add Label** to add it.
 
-**Anzeigeoptionen** - ![](images/view-options.svg)
+**View Options** - ![](images/view-options.svg)
 
-Zeigt eine Dropdown-Liste an, in der Sie die Optionen Zeilennummern, Kontrollkästchen anzeigen und Dateinamen anzeigen auswählen können.
+Displays a dropdown which gives you the option to Show Line Numbers, Show Check box, and Show FileName.
 
-- **Zeilennummern anzeigen**
+- **Show Line Numbers**
 
-Blendet die Zeilennummer für jedes Thema ein oder aus. Die Zeilennummern werden je nach Ebene in der Hierarchie angezeigt.
+Shows or hides the line number for each topic. The line numbers are shown depending on the level in the hierarchy.
 
-- **Kontrollkästchen anzeigen**
+- **Show Check Box**
 
-Blendet für jedes Thema ein Kontrollkästchen ein oder aus. Sie können das Kontrollkästchen verwenden, um das/die Thema(e) auszuwählen und mithilfe des Menüs Optionen verschiedene Aufgaben auszuführen. Weitere Informationen finden Sie im Menü [Optionen](#id228ID8006H8).
+Shows or hides a checkbox for each topic. You can use the checkbox to select the topic\(s\) and perform various tasks using the Options menu. Weitere Informationen finden Sie im Menü [Optionen](#id228ID8006H8).
 
 - **Dateinamen anzeigen**
 
@@ -207,7 +207,7 @@ Neben der Organisation von Themen in der Zuordnungsdatei können Sie auch die fo
 - **Hinzufügen**: Im Zuordnungs-Editor können Sie ein neues Thema oder eine leere Referenz hinzufügen:
    - **Leere Referenz**: Mit dieser Option können Sie eine leere Referenz in Ihre DITA-Zuordnung einfügen. Sie können später auf den eingefügten leeren Verweis doppelklicken und die Themendetails hinzufügen. Weitere Informationen finden Sie unter [Thema erstellen](web-editor-features.md#id228ICI0105U) im Web-Editor.
    - **Neues Thema**: Wenn Sie im Menü ein neues Thema erstellen, wird das Dialogfeld Neues Thema erstellen angezeigt. Geben Sie im Dialogfeld Neues Thema erstellen die erforderlichen Details ein und klicken Sie auf Erstellen . Weitere Informationen finden Sie unter [Thema erstellen](web-editor-features.md#id228ICI0105U) im Web-Editor.
-- **Verschieben**: Sie können ein Thema in der Hierarchie nach oben/unten/rechts/links verschieben. Sie können ein Thema oder eine Karte auch aus dem Repository-Bereich auf die im Karten-Editor geöffnete Karte ziehen und dort ablegen.
+- **Verschieben**: Sie können ein Thema in der Hierarchie nach oben/unten/rechts/links verschieben.Sie können auch ein Thema oder eine Karte aus dem Repository-Bereich auf die im Karten-Editor geöffnete Karte ziehen und dort ablegen.
 - **Rückgängig**: Macht den letzten Vorgang in der Layout-Ansicht rückgängig.
 - **Wiederholen**: Wiederholt den letzten Vorgang in der Layout-Ansicht.
 - **Kopieren**: Kopiert den ausgewählten Verweis aus der Zuordnungsdatei.
@@ -261,7 +261,7 @@ Zeigt das Dialogfeld Element einfügen an. Wählen Sie das Element aus, das Sie 
 
 **Beziehungstabelle einfügen** - ![](images/relationship_table_icon.svg)
 
-Fügt eine Beziehungstabelle in die Zuordnung ein. Da das Konzept der Arbeit mit der Beziehungstabelle identisch ist, wie im Abschnitt Grundlegender Zuordnungs-Editor erläutert, finden [&#x200B; unter „Arbeiten mit Beziehungstabellen im &#x200B;](map-editor-basic-map-editor.md#id1944B0I0COB) Zuordnungs-Editor“ weitere Details.
+Fügt eine Beziehungstabelle in die Zuordnung ein. Da das Konzept der Arbeit mit der Beziehungstabelle identisch ist, wie im Abschnitt Grundlegender Zuordnungs-Editor erläutert, finden [ unter „Arbeiten mit Beziehungstabellen im ](map-editor-basic-map-editor.md#id1944B0I0COB) Zuordnungs-Editor“ weitere Details.
 
 **Wiederverwendbaren Inhalt einfügen** - ![](images/content-reuse-icon.png)
 
@@ -283,7 +283,7 @@ Blendet die XML-Tags ein oder aus. Die Tags dienen als visuelle Hinweise auf die
 
 **Änderungen verfolgen/deaktivieren** - ![](images/track-change-icon.svg)
 
-Sie können alle Aktualisierungen in der Zuordnungsdatei verfolgen, indem Sie den Modus Änderungen verfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen im Dokument erfasst. Weitere Informationen finden Sie unter &quot;[&#x200B; aktivieren/deaktivieren](web-editor-features.md#id205DF0203Y4) im Web-Editor.
+Sie können alle Aktualisierungen in der Zuordnungsdatei verfolgen, indem Sie den Modus Änderungen verfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen im Dokument erfasst. Weitere Informationen finden Sie unter &quot;[ aktivieren/deaktivieren](web-editor-features.md#id205DF0203Y4) im Web-Editor.
 
 **Prüfungsaufgabe erstellen** - ![](images/create-review-task-icon.svg)
 

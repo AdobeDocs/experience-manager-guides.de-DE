@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -46,16 +46,16 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema einen Titel hinzuzufügen
 
 Gehen Sie wie folgt vor, um eine Kennzeichnung zu löschen:
 
-1. Wählen Sie in der Benutzeroberfläche von Assets ein Thema aus, dem eine Beschriftung hinzugefügt wurde.
+1. In the Assets UI, select a topic that has a label added to it.
 1. Klicken Sie auf das Auswahlsymbol in der linken Leiste und wählen Sie **Versionsverlauf**.
 
-   Im Versionsverlauf werden alle Versionen eines Themas und die mit ihnen verbundenen Beschriftungen angezeigt. Die folgende Abbildung zeigt ein Beispiel für verschiedene Versionen eines Themas, wobei einer Version Beschriftungen hinzugefügt wurden.
+   In the Version History, you will see all the versions of a topic and the labels attached to them. The following image shows an example of different versions of a topic and one version has labels added to it.
 
    ![](images/labels.png){width="300" align="left"}
 
-1. Klicken Sie auf die Schaltfläche Löschen \(**X**\), um die Bezeichnung zu löschen.
+1. Click the delete button \(**X**\) to delete the label.
 
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Parent topic:**[ Work with the Web Editor](web-editor.md)

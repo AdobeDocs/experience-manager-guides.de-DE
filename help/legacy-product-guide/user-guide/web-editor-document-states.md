@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Document State
 role: User
 hide: true
 exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -104,4 +104,4 @@ Nachdem ein Dokument als genehmigt markiert wurde, ist es nicht mehr zur Bearbei
    Der Status des Dokuments wird in Entwurf geändert und das Dokument wird im Web-Editor im Bearbeitungsmodus geöffnet.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

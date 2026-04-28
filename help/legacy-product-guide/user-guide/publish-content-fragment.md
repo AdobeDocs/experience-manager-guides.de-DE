@@ -5,10 +5,10 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 0%
+source-wordcount: '1052'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Um ein Inhaltsfragment zu erstellen, führen Sie die folgenden Schritte aus:
 1. Erstellen Sie einen Ordner, in dem Sie die Inhaltsfragmente speichern möchten, die Sie auf der Grundlage des Inhaltsfragmentmodells erstellen. Beispiel: „stock-content-fragments“.
 1. Bearbeiten Sie die Eigenschaften des Ordners (z. B. „stock-content-fragments„) und fügen Sie den Pfad des Ordners hinzu, der das Inhaltsfragmentmodell in der Cloud-Konfiguration enthält.
 Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration hinzu. Diese Konfiguration verbindet alle Inhaltsfragmentmodelle mit dem Ordner.\
-   ![Fügen Sie Cloud-Konfigurationsdetails in den Ordnereigenschaften hinzu](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
+   ![Hinzufügen von Cloud-Konfigurationsdetails in den Ordnereigenschaften](images/fragment-folder-cloud-configuration.png){width="650" align="left"}
    *Fügen Sie die Cloud-Konfiguration in den Ordnereigenschaften hinzu, um sie mit den Fragmentmodellen zu verbinden.*
 
 1. Um ein Inhaltsfragment zu generieren, wählen Sie **Neue Ausgabe** ![neues Ausgabesymbol](./images/Add_icon.svg) aus dem Abschnitt **Ausgaben** im Abschnitt **Dateieigenschaften** eines Themas aus.
@@ -41,15 +41,15 @@ Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration hinzu. Di
 1. Füllen **Dialogfeld „Inhaltsfragment**&quot; die folgenden Details auf den Registerkarten **Allgemein** und **Zuordnung** aus.
 
    **Allgemein** Registerkarte
-   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Inhaltsfragment veröffentlichen hinzu](images/generate-content-fragment.png)
+   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Inhaltsfragment veröffentlichen hinzu.](images/generate-content-fragment.png)
    *Fügen Sie den Pfad, den Namen, den Titel und die Bedingungsfilterung hinzu, um ein Thema oder seine Elemente als Inhaltsfragment zu veröffentlichen.*
 
 
-   * **Pfad**: Durchsuchen und wählen Sie den Pfad des Ordners aus, in dem Sie das Inhaltsfragment veröffentlichen möchten. Wenn Sie ein vorhandenes Inhaltsfragment auswählen, wird der Inhalt der zugeordneten Felder überschrieben.
+   * **Path**: Browse and select the path of the folder where you want to publish the Content Fragment. Wenn Sie ein vorhandenes Inhaltsfragment auswählen, wird der Inhalt der zugeordneten Felder überschrieben.
    * **Titel**: Geben Sie den Titel des Inhaltsfragments ein. Standardmäßig wird der Titel mit dem Titel des Themas gefüllt. Sie können ihn bearbeiten. Dieser Titel wird verwendet, um den Namen des Inhaltsfragments zu generieren.
    * **Name**: Geben Sie den Namen des Inhaltsfragments ein. Standardmäßig wird der Name mit dem Titel des Themas gefüllt und die Leerzeichen werden durch „_“ ersetzt. Beispiel: *sample_content_fragment*. Sie können ihn bearbeiten.  Dieser Name wird zum Generieren der URL für das Inhaltsfragment verwendet.
 
-   * Sie können verschiedene Bedingungen auswählen, um Inhaltsfragmentvarianten zu erstellen. Wählen Sie eine der folgenden Optionen aus:
+   * You can select different conditions to create content fragment variants. Wählen Sie eine der folgenden Optionen aus:
      >[!NOTE]
      > 
      > Bedingungen werden nur aktiviert, wenn im Thema Bedingungsattribute definiert sind.
@@ -65,7 +65,7 @@ Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration hinzu. Di
 
    Registerkarte **Zuordnung**
 
-   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Inhaltsfragment veröffentlichen hinzu](images/content-fragment-mapping.png)
+   ![Add the fragment model and mapping details in the Publish as Content Fragment dialog](images/content-fragment-mapping.png)
 
    *Wählen Sie das Inhaltsfragmentmodell aus und fügen Sie die Zuordnungsdetails hinzu, um ein Thema oder seine Elemente als Inhaltsfragment zu veröffentlichen.*
 
@@ -76,7 +76,7 @@ Die rechte Seite wird im Falle eines vorhandenen Inhaltsfragments mit den veröf
 
      >[!NOTE]
      >
-     > Wenn Sie Version 4.4 oder frühere Versionen verwenden, wählen Sie eine Zuordnung aus der Dropdown-Liste aus. Die Zuordnungen werden aus der Datei *contentFragmentMapping.json* ausgewählt.  Ihr Administrator kann die Zuordnungen in der Datei *contentFragmentMapping.json* hinzufügen. Weitere Informationen zum Erstellen [&#x200B; Zuordnung zwischen einem Thema und einem Inhaltsfragment &#x200B;](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
+     > Wenn Sie Version 4.4 oder frühere Versionen verwenden, wählen Sie eine Zuordnung aus der Dropdown-Liste aus. Die Zuordnungen werden aus der Datei *contentFragmentMapping.json* ausgewählt.  Ihr Administrator kann die Zuordnungen in der Datei *contentFragmentMapping.json* hinzufügen. Weitere Informationen zum Erstellen [ Zuordnung zwischen einem Thema und einem Inhaltsfragment ](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
 
 1. Klicken Sie **Generieren**, um das Inhaltsfragment zu veröffentlichen.
 
