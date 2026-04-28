@@ -4,10 +4,11 @@ description: Erfahren Sie, wie Sie benutzerdefinierten Inhalt indizieren
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 612f0be3-9f9d-4e30-ac57-65da227ea08f
+source-git-commit: 9dba92a79858ee8a182d833d09f9907ff895ec38
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 3%
+source-wordcount: '469'
+ht-degree: 8%
 
 ---
 
@@ -210,5 +211,6 @@ Die primäre Verifizierung besteht darin, die Funktion zu testen:
 
 - [AEM as a Cloud Service-Indizierungsdokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Apache Jackrabbit Oak-Indizierungshandbuch](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [Dokumentation zu AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides)
-- [Dokumentation für Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
+- [Dokumentation zu AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [Dokumentation zu Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
+
