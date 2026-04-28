@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Vorhandenen DITA-Inhalt hochladen {#id176FF000JUI}
 
-Wahrscheinlich hätten Sie ein Repository mit vorhandenen DITA-Inhalten, die Sie mit der AEM Guides verwenden möchten. Für solche vorhandenen Inhalte können Sie eine der unterstützten Methoden verwenden, die unter [Hinzufügen digitaler Assets zu Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) erläutert werden.
+Wahrscheinlich hätten Sie ein Repository mit vorhandenen DITA-Inhalten, die Sie mit der AEM Guides verwenden möchten. Für solche vorhandenen Inhalte können Sie eine der unterstützten Methoden verwenden, die unter [Hinzufügen digitaler Assets zu Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=de) erläutert werden.
 
 ## Konfigurieren des UUID-Dateinamenmusters
 
