@@ -5,7 +5,7 @@ feature: Publishing, Troubleshooting
 role: User
 hide: true
 exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabege
 
    Die Spalte **Allgemein** der **Generierte Ausgaben** zeigt die Symbole, die einen visuellen Hinweis auf den Erfolg oder Misserfolg der Ausgabegenerierung geben.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings.png){width="300"}
 
    Im obigen Screenshot zeigen die Symbole 1 und 3 eine fehlgeschlagene Ausgabegenerierung. Das zweite Symbol zeigt eine erfolgreiche Ausgabegenerierung an, jedoch mit Meldungen. Die letzte Variante ist eine erfolgreiche Ausgabegenerierung ohne Meldung.
 
@@ -32,7 +32,7 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabege
 
    Die Protokolldatei wird auf einer neuen Registerkarte geöffnet.
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){width="800"}
 
 1. Verwenden Sie die folgenden Filter, um den Text in der Protokolldatei hervorzuheben:
    - Schwerwiegend: Markiert schwerwiegende Fehler in der Protokolldatei in rosa.
@@ -66,13 +66,13 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabege
 
    Im folgenden Beispiel-Protokolldatei-Snippet wird die `BUILD FAILED`-Meldung zusammen mit dem Grund für den Fehler angezeigt.
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *AEM Guides-bezogener Fehler*: Die andere Fehlerart, die Sie in der Protokolldatei identifizieren können, ist mit dem AEM Guides-Prozess selbst verbunden. In diesem Fall wird die DITA-Zuordnungsdatei erfolgreich geparst, aber der Ausgabegenerierungsprozess schlägt aufgrund eines internen Fehlers in AEM Guides fehl. Bei Fehlern dieser Art müssen Sie Hilfe vom technischen Support-Team anfordern.
 
    Im folgenden Beispiel-Protokolldatei-Snippet wird die `BUILD SUCCESSFUL` angezeigt, gefolgt von einem anderen technischen Fehler.
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 ## JSP-Kompilierungsfehler beheben

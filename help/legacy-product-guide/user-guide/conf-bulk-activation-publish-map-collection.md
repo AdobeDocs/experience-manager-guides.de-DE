@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Nachdem Sie eine Zuordnungssammlung für die Massenaktivierung erstellt haben, b
 
 1. Wählen Sie die zu veröffentlichende Sammlung aus und klicken Sie auf **Öffnen**.
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){width="800"}
 
 1. \(*Optional*\) Wenden Sie die erforderlichen Filter in der linken Leiste an, um die Zuordnung anhand ihres geänderten \(Status\), ihrer Ausgabevorgabe oder ihrer Sprache zu filtern.
 
@@ -40,7 +40,7 @@ Sehen Sie sich die verschiedenen Möglichkeiten zur Aktivierung Ihrer Sammlung b
 <details>
 <summary> Cloud Services </summary>
 
-![bulk-collection-publish auf Cloud Service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![bulk-collection-publish auf Cloud Service](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 Sie können die Ausgabe für die Instanzen **Vorschau** oder **Veröffentlichen** aktivieren.
 
@@ -75,7 +75,7 @@ Führen Sie einen der folgenden Schritte aus:
 
 * Um die Ausgabe ausgewählter Zuordnungen zu aktivieren, wählen Sie die vorgenerierte Zuordnungsausgabe aus und klicken Sie auf **Quick Publish**.
 * Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Zuordnung (Spalte) und wählen Sie dann **Quick Publish“ aus.**
-  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 

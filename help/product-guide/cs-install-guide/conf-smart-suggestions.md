@@ -2,7 +2,7 @@
 title: Konfigurieren des KI-Assistenten für die intelligente Hilfe und das Authoring
 description: Erfahren Sie, wie Sie den KI-Assistenten in Experience Manager Guides konfigurieren
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
 1. [Adobe Developer Console starten](https://developer.adobe.com/console).
 1. Nach erfolgreicher Anmeldung bei Developer Console wird der Bildschirm &quot;**&quot;**. Auf dem **Startseite**-Bildschirm finden Sie mühelos Informationen und Schnelllinks, einschließlich der oberen Navigationslinks zu Projekten und Downloads.
 1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**&#x200B;Links aus.
-   ![Schnellstart-Links](assets/conf-ss-quick-start.png) {width="550" align="left"}
+   ![Schnellstart-Links](assets/conf-ss-quick-start.png) {width="550"}
    *Neues Projekt erstellen.*
 
 1. Wählen **API hinzufügen** auf dem Bildschirm **Projekte** aus.  Der **„API hinzufügen** wird angezeigt. Auf diesem Bildschirm werden alle verfügbaren APIs, Ereignisse und Services für Adobe-Produkte und -Technologien angezeigt, mit denen Sie Anwendungen entwickeln können.
@@ -53,7 +53,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
 
 1. Wählen Sie den **OAuth Server-zu-Server**-Link aus, um die Details der Anmeldeinformationen Ihres Projekts anzuzeigen.
 
-   ![Verbundene Anmeldedaten](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![Verbundene Anmeldedaten](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *Stellen Sie eine Verbindung zum Projekt her, um die Details der Berechtigung anzuzeigen.*
 
@@ -81,7 +81,7 @@ Führen Sie die folgenden Schritte aus, um die IMS-Konfiguration zur Umgebung hi
 1. Wechseln Sie zur Registerkarte **Konfiguration** .
 1. Fügen Sie die JSON-Service-Details (heruntergeladen im vorherigen Abschnitt) in das Feld **Wert** ein, das `SERVICE_ACCOUNT_DETAILS` entspricht. Stellen Sie sicher, dass Sie denselben Namen und dieselbe Konfiguration wie im folgenden Screenshot verwenden.
 
-   ![Konfiguration des IMS-Dienstkontos](assets/ims-service-account-config.png){width="800" align="left"}
+   ![Konfiguration des IMS-Dienstkontos](assets/ims-service-account-config.png){width="800"}
 
 ## KI-Markierung in der Umgebung aktivieren
 
@@ -89,7 +89,7 @@ Um die Funktion „KI-Assistent“ in der Experience Manager Guides-Benutzerober
 
 Stellen Sie sicher, dass Sie denselben Namen und dieselbe Konfiguration wie im folgenden Screenshot verwenden.
 
-![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
+![](assets/conf-folder-ai-assistant-enable.png){width="800"}
 
 Wenn Sie das Flag auf **true** setzen, wird die Funktion aktiviert, wenn Sie sie auf **false** setzen.
 
@@ -99,7 +99,7 @@ Fügen Sie die Variable `GUIDES_AI_SITE_ID` in Ihrer Umgebung (Cloud Manager) hi
 
 Stellen Sie sicher, dass Sie denselben Namen und dieselbe Konfiguration wie im folgenden Screenshot verwenden.
 
-![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+![](assets/conf-folder-guides-site-id.png){width="800"}
 
 ## Änderungen auf die Umgebung anwenden
 
@@ -119,7 +119,7 @@ Sobald die Konfigurationsänderungen angewendet wurden, aktivieren Sie die Funkt
 
 Weitere Informationen finden Sie unter [Die Editor-Funktionen kennen](../user-guide/web-editor-features.md).
 
-![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300"}
 
 ## Konfigurieren von Smart-Vorschlägen im Ordnerprofil
 

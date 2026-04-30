@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Eine Variable ist ein Name-Wert-Paar von Daten, das als wiederverwendbare Inform
 
 Führen Sie die folgenden Schritte aus, um eine Variable zu erstellen:
 
-![Neue Variable erstellen](assets/add-variable-default.png){width="800" align="left"}
+![Neue Variable erstellen](assets/add-variable-default.png){width="800"}
 
 *Erstellen von Variablen und Definieren von Werten dafür.*
 
@@ -82,7 +82,7 @@ Die Vorschau der Variablen zeigt den Standardwert an. Wenn Sie beispielsweise de
 1. Wählen Sie eine Variable im **Variablen** aus.
 1. Bewegen Sie den Mauszeiger über die Variable, um das Menü **Optionen** anzuzeigen, und wählen Sie dann die Option **Vorschau** aus.
 
-   ![Variablenvorschau im Variablenbedienfeld](assets/variables-panel-preview-default.png){width="550" align="left"}
+   ![Variablenvorschau im Variablenbedienfeld](assets/variables-panel-preview-default.png){width="550"}
 
 *Vorschau des Standardwerts für eine Variable anzeigen.*
 
@@ -126,7 +126,7 @@ Adobe Experience Manager Guides unterstützt auch Variablensätze, mit denen Sie
 Sie müssen Variablensätze konfigurieren, bevor Sie Variablen zu ihnen hinzufügen.
 
 1. Wählen Sie **Einstellungen** aus <img alt= "Einstellungssymbol" src="./assets/settings-icon.svg" width="25"> Sie das Dialogfeld **Variablensätze konfigurieren** öffnen.
-   ![Variablensatz konfigurieren](assets/configure-variable-set.png){width="550" align="left"}
+   ![Variablensatz konfigurieren](assets/configure-variable-set.png){width="550"}
 1. Geben Sie den Namen des Variablensatzes in die Spalte **Name** ein.
 1. Wählen Sie **Variable hinzufügen** <img alt= "Symbol hinzufügen" src="./assets/add-icon.svg" width="25"> zum Hinzufügen eines neuen Variablensatzes. Die Variablensätze werden alphabetisch aufgelistet.
 1. Sie können auf **Löschen** klicken, um einen Variablensatz zu entfernen.
@@ -158,7 +158,7 @@ Jede neue Variable wird allen Variablensätzen hinzugefügt. Wenn Sie eine Varia
 Sie können auch eine Vorschau der Werte für einen Variablensatz anzeigen.
 Für den Variablensatz *Adobe-Set1* haben Sie beispielsweise den Wert der Variable ProductName als „ProductA“ definiert. Anschließend wird dieser Wert in der Vorschau im Variableneditor angezeigt.
 
-![Variablenvorschau im Variablen-Editor](assets/variables-editor-preview.png){width="550" align="left"}
+![Variablenvorschau im Variablen-Editor](assets/variables-editor-preview.png){width="550"}
 
 *Vorschau des Werts anzeigen, den Sie im ausgewählten Variablensatz definiert haben.*
 
@@ -201,7 +201,7 @@ Um eine Variable wie Ihren ProductName in den Kopfzeilenbereich einzufügen, fü
 
 Sie können die PDF-Ausgabe mit den Werten verschiedener Variablen generieren. Wählen Sie vor dem Generieren des Layouts einen Variablensatz aus der Dropdown **Liste „Variablensatz“ einer** aus, um dessen Werte auszuwählen.
 
-![Dropdown „Variablensatz“](assets/output-preset-variable-dropdown.png){width="550" align="left"}
+![Dropdown „Variablensatz“](assets/output-preset-variable-dropdown.png){width="550"}
 
 *Wählen Sie einen Variablensatz aus der Dropdown-Liste in der Ausgabevorgabe aus, den Sie zum Generieren der PDF-Ausgabe verwenden möchten.*
 

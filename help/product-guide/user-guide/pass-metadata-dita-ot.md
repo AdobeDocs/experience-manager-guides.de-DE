@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Metadaten mithilfe der DITA-OT-Veröffent
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe von DITA-OT-Pu
 1. Wählen Sie eine Ausgabevorgabe aus, an die Sie die Metadatenfelder übergeben möchten, und öffnen Sie sie. Wählen Sie beispielsweise die PDF-Ausgabevorgabe aus. Stellen Sie sicher, dass sie mit der Option **DITA-OT** erstellt wird.
 1. Wählen Sie **Dropdown-** „Dateieigenschaften“ die Metadaten aus, die Sie an die DITA-OT-Veröffentlichung übergeben möchten.
 
-   ![](images/custom-metadata-output-preset-new.png){align="left"}
+   ![](images/custom-metadata-output-preset-new.png)
 
    Das Dropdown-Menü „Eigenschaften“ listet sowohl die benutzerdefinierten als auch die Standardeigenschaften auf. Im obigen `dc:description` sind beispielsweise `dc:language`, `dc:title` und `docstate` die Standardeigenschaften.
 
@@ -42,7 +42,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe von DITA-OT-Pu
 
 1. Die ausgewählten Eigenschaften werden unter dem Dropdown-Menü aufgelistet.
 
-   ![](images/metadata-added-dropdown.png){width="300" align="left"}
+   ![](images/metadata-added-dropdown.png){width="300"}
 
 1. Wählen **oben rechts** Speichern“ aus, um die Änderungen zu speichern.
 1. Wählen Sie **Ausgabe generieren** aus.
@@ -61,7 +61,7 @@ Wenn Sie an der **Assets-Benutzeroberfläche arbeiten** führen Sie die folgende
 1. Wählen Sie eine Ausgabevorgabe aus, an die Sie die Metadatenfelder übergeben möchten, und bearbeiten Sie sie. Wählen Sie beispielsweise die PDF-Ausgabevorgabe aus.
 1. Wählen Sie **Option „DITA-OT** in der ausgewählten Ausgabevorgabe aus.
 
-   ![](images/custom-meta-data-output-preset.png){align="left"}
+   ![](images/custom-meta-data-output-preset.png)
 
 1. Wählen Sie aus der Dropdown-Liste Eigenschaften die Metadaten aus, die Sie an die DITA-OUT-Veröffentlichung übergeben möchten.
 
@@ -77,7 +77,7 @@ Wenn Sie an der **Assets-Benutzeroberfläche arbeiten** führen Sie die folgende
 
 1. Wählen Sie **Dropdown-** „Eigenschaften“ die erforderlichen benutzerdefinierten und Standardeigenschaften aus. Wählen Sie beispielsweise `author`, `dc:title` und `dc:description`. Dies sind die `metadata/properties`, die erstellt werden, sobald wir eine Datei erstellen. Die ausgewählten Eigenschaften werden unter der Dropbox aufgelistet.
 
-   ![](images/selected-metadata-properties.png){width="300" align="left"}
+   ![](images/selected-metadata-properties.png){width="300"}
 
 1. Wählen **oben links** Fertig“ aus, um die Änderungen zu speichern.
 1. Ausgabe generieren.

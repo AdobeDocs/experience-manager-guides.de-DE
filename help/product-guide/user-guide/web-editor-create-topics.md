@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit benutzerdefinierten Vorlagen in Adobe Exp
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: c6709ffb8e415c88931e732456e2f2a5e6b63729
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema im Editor zu erstellen:
 
 1. Wählen Sie im Repository-Bedienfeld das Symbol **Neue Datei** und wählen Sie dann **Thema** aus dem Dropdown-Menü aus.
 
-   ![](images/create-topic-option.png){width="500" align="left"}
+   ![](images/create-topic-option.png){width="500"}
 
    Sie können auf diese Option auch über die Startseite von [Experience Manager Guides &#x200B;](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
 
@@ -45,11 +45,11 @@ Führen Sie die folgenden Schritte aus, um ein Thema im Editor zu erstellen:
 
 4. Wählen Sie **Erstellen** aus.
 
-   ![](images/create-topic-dialog-new.png){width="300" align="left"}
+   ![](images/create-topic-dialog-new.png){width="300"}
 
 Das Thema wird unter dem angegebenen Pfad erstellt. Außerdem wird das Thema im Editor zur Bearbeitung geöffnet.
 
-![](images/new-topic-editor.png){align="left"}
+![](images/new-topic-editor.png)
 
 ## Erstellen von Themen über die Assets-Benutzeroberfläche
 
@@ -61,7 +61,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema über die Assets-Benutzerob
 
 1. Wählen Sie auf der Blueprint-Seite den Typ des zu erstellenden DITA-Dokuments aus und klicken Sie auf **Weiter**.
 
-   ![](images/create_dita_topic.png){align="left"}
+   ![](images/create_dita_topic.png)
 
    Standardmäßig stellt Experience Manager Guides die am häufigsten verwendeten DITA-Themenvorlagen bereit. Sie können weitere Themenvorlagen entsprechend Ihren Unternehmensanforderungen konfigurieren. Sehen Sie sich *Authoring-Vorlagen konfigurieren* in Installieren und konfigurieren Sie Adobe Experience Manager Guides für Ihr Setup.
 
@@ -77,7 +77,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema über die Assets-Benutzerob
 
    Wenn die Option zur Dateibenennung verfügbar ist, wird auch der Name basierend auf dem **Titel** Ihres Dokuments automatisch vorgeschlagen. Wenn Sie den Dokumentnamen manuell angeben möchten, stellen Sie sicher, dass **Name** keine Leerzeichen, Apostrophe oder geschweifte Klammern enthält und mit .xml oder.dita endet. Standardmäßig ersetzt Experience Manager Guides alle Sonderzeichen durch Bindestriche. Im Abschnitt Dateinamen des Best Practices-Handbuchs finden Sie Best Practices für die Benennung von DITA-Dateien.
 
-1. Wählen Sie **Erstellen**. Die Meldung Thema erstellt wird angezeigt.
+1. Wählen Sie **Erstellen** aus. Die Meldung Thema erstellt wird angezeigt.
 
    Sie können das Thema zur Bearbeitung im Editor öffnen oder die Themendatei im Adobe Experience Manager-Repository speichern.
 
@@ -85,7 +85,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema über die Assets-Benutzerob
 
 1. Jedem neuen Thema, das Sie über die Assets-Benutzeroberfläche erstellen **Erstellen** \> **DITA-Thema** oder dem Editor wird eine eindeutige Themen-ID zugewiesen. Der Wert dieser ID ist der Dateiname selbst. Außerdem wird ein neues Dokument als neueste Arbeitskopie des Themas in DAM gespeichert. Bis zum Speichern einer Revision eines neu erstellten Themas wird im Versionsverlauf keine Versionsnummer angezeigt. Wenn Sie das Thema zur Bearbeitung öffnen, werden die Versionsinformationen in der rechten oberen Ecke der Symbolleiste angezeigt:
 
-   ![](images/topic-version-none_cs.png){width="550" align="left"}
+   ![](images/topic-version-none_cs.png){width="550"}
 
 2. Die Versionsinformationen für ein neu erstelltes Thema werden als *none* angezeigt. Wenn Sie eine neue Version speichern, wird ihr eine Versionsnummer als 1.0 zugewiesen.
 

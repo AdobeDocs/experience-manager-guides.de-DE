@@ -5,7 +5,7 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei zusammen mi
 
    Das Dialogfeld Zuordnung herunterladen wird angezeigt.
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. Klicken Sie auf **Herunterladen**. Im Dialogfeld Karte herunterladen können Sie die folgenden Optionen auswählen:
 
@@ -42,20 +42,20 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei zusammen mi
    >
    > Sie können die Zuordnungsdatei auch herunterladen, ohne eine Option auszuwählen. In diesem Fall wird die letzte persistierte Version der referenzierten Themen und Mediendateien heruntergeladen.
 
-1. Nachdem Sie auf die Schaltfläche **Herunterladen** geklickt haben, wird die Anfrage zum Herunterladen der Zuordnung in die Warteschlange gestellt. You will receive the following notification once the map is ready to download.
+1. Nachdem Sie auf die Schaltfläche **Herunterladen** geklickt haben, wird die Anfrage zum Herunterladen der Zuordnung in die Warteschlange gestellt. Sobald die Karte zum Herunterladen bereit ist, erhalten Sie die folgende Benachrichtigung.
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
-   - Click **Download** to download the map file in.zip format.
+   - Klicken Sie **Herunterladen**, um die Zuordnungsdatei im ZIP-Format herunterzuladen.
 
-   - Click **Download Later** to download the map file at a later time. The download link can be accessed from the AEM notification Inbox. Click the generated map notification in the Inbox to download the map in .zip format.
+   - Klicken Sie **Später herunterladen**, um die Zuordnungsdatei zu einem späteren Zeitpunkt herunterzuladen. Der Download-Link kann über den AEM-Benachrichtigungs-Posteingang aufgerufen werden. Klicken Sie auf die generierte Zuordnungsbenachrichtigung im Posteingang, um die Zuordnung im ZIP-Format herunterzuladen.
 
    >[!NOTE]
    >
    > Standardmäßig bleiben die heruntergeladenen Zuordnungen fünf Tage lang im AEM-Benachrichtigungs-Posteingang.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
-Once the map is downloaded, you can select the map and use the Open icon on the top to open the selected report.
+Nachdem die Karte heruntergeladen wurde, können Sie die Karte auswählen und das Symbol Öffnen oben verwenden, um den ausgewählten Bericht zu öffnen.
 
-**Parent topic:**&#x200B;[&#x200B; Manage content](authoring.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte verwalten](authoring.md)

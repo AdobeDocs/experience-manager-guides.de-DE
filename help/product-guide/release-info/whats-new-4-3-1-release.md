@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 4.3.1
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 4.3.1
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in Version 4.3.1 von Adobe Experience Manager Guides
 exl-id: 14db7453-ccc1-4709-903f-677f55c263b2
 feature: What's New
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Experience Manager Guides bietet jetzt auch ein **Datenquellen**-Tool, mit dem S
 
 Sie können einen Datenquellen-Connector auch einfach bearbeiten, erneut verbinden, duplizieren oder löschen. Erfahren Sie mehr darüber, wie [einfach einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../install-guide/conf-data-source-connector-tools.md).
 
-![Im Datenquellenbedienfeld aufgelistete Datenquellen-Connectoren](assets/data-sources-create-window.png){width="550" align="left"}
+![Im Datenquellenbedienfeld aufgelistete Datenquellen-Connectoren](assets/data-sources-create-window.png){width="550"}
 
 *Erstellen und Anzeigen der Datenquellen-Connectoren im Bedienfeld „Datenquellen“.*
 
@@ -56,7 +56,7 @@ Erfahren Sie mehr über [&#x200B; Verwendung von Velocity-Tools in den Datenquel
 
 ## Native PDF-Verbesserungen
 
-Die folgenden nativen PDF-Verbesserungen wurden in der Version vom Oktober 2023 vorgenommen:
+In der Version vom Oktober 2023 wurden die folgenden nativen PDF-Verbesserungen vorgenommen:
 
 ### Zurücksetzen der Seitennummer für die erste Seite eines Layouts
 
@@ -74,7 +74,7 @@ Jetzt können Sie eine Karte nicht nur in der Kartenansicht des Web-Editors bear
 
 Weitere Informationen finden Sie in der Beschreibung der Funktion **Kartenansicht** im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-![Optionsmenü einer Datei in der Repository-Ansicht](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
+![Optionsmenü einer Datei in der Repository-Ansicht](assets/options-menu-repo-view-file-level-2310.png){width="550"}
 
 *Wählen Sie eine Datei in der Repository-Ansicht aus und wählen Sie die Option aus, um eine Aktion mit der Datei durchzuführen.*
 
@@ -94,7 +94,7 @@ Weitere Informationen zum Umgang mit hierarchischen Definitionen von Betreffdefi
 
 Verwenden Sie das Kontextmenü, um die Datei (.dita, .xml, Audio, Video oder Bild) schnell in der Vorschau anzuzeigen, ohne sie zu öffnen. Sie können jetzt die Größe des Vorschaubereichs ändern. Wenn der Inhalt einen Verweis-Link enthält, können Sie ihn auswählen, um ihn in einer neuen Registerkarte zu öffnen.
 
-![Vorschau-](assets/quick-preview_cs.png){width="800" align="left"}
+![Vorschau-](assets/quick-preview_cs.png){width="800"}
 
 *Vorschau der Datei im Fensterbereich anzeigen.*
 
@@ -108,7 +108,7 @@ Weitere Informationen finden Sie in der **Optionen für eine Datei** Funktionsbe
 
 ## Verwenden von Variablen für aktuelles Datum und aktuelle Uhrzeit in den Optionen Zielpfad, Site-Name oder Dateiname .
 
-Beim Generieren von Ausgaben in AEM Site oder PDF können Sie Variablen verwenden, um die Optionen **Zielpfad**, **Site-Name** oder **Dateiname** festzulegen. Sie können jetzt auch die Variablen `${system_date}` und `${system_time}` verwenden. Mithilfe dieser Variablen können Sie das aktuelle Datum und die aktuelle Uhrzeit an diese Optionen anhängen.
+Beim Generieren von Ausgaben in AEM Site oder PDFs können Sie Variablen verwenden, um die Optionen **Zielpfad**, **Site-** oder **Dateiname** festzulegen. Sie können jetzt auch die Variablen `${system_date}` und `${system_time}` verwenden. Mithilfe dieser Variablen können Sie das aktuelle Datum und die aktuelle Uhrzeit an diese Optionen anhängen.
 
 Erfahren Sie, wie [Variablen zum Festlegen der Optionen Zielpfad, Site-Name oder Dateiname verwenden](../user-guide/generate-output-use-variables.md).
 

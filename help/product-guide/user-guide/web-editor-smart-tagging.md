@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Smart-Tags in AEM Guides hinzufügen. Extrahi
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Führen Sie die folgenden Schritte aus, um Smart-Tags zu erstellen:
 1. Öffnen Sie das Thema im Vorschaumodus und wählen Sie **Symbol &quot;Assets erneut verarbeiten** aus der Hauptsymbolleiste aus.
 1. Wählen Sie XML Keyword Extract , um relevante Keywords zu extrahieren.
 
-   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+   ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1. Wählen Sie die Option Nachbearbeitungsprozess ausführen aus. Bei erfolgreicher Initiierung des Tools wird eine Meldung angezeigt.
 1. Die Tags werden automatisch extrahiert und können auf der Seite Eigenschaften des ausgewählten Themas angezeigt werden.
 
-   ![](images/properties-smart-tags.png){align="left"}
+   ![](images/properties-smart-tags.png)
 
    >[!NOTE]
    >

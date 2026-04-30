@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 4.2.1
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 4.2.1
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in Version 4.2.1 von Adobe Experience Manager Guides
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,14 @@ Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und
 
 Jetzt können Sie einfach vom Web-Editor zur AEM-Navigationsseite navigieren.
 
-![](assets/web-editor-launch-page.png){width="800" align="left"}
+![](assets/web-editor-launch-page.png){width="800"}
 
 * Klicken Sie auf **Guides**-Symbol (![](assets/aem-guides-icon.png) ), um zur AEM-Navigationsseite zurückzukehren.
 
 
 Weitere Informationen finden Sie unter [AEM-Navigationsseite](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
-## Erweiterte Metadatenunterstützung beim PDF-Publishing
+## Erweiterte Metadatenunterstützung bei der Veröffentlichung in PDF
 
 AEM Guides bietet jetzt erweiterte Unterstützung für die Metadaten, die den Metadaten in Ihrer PDF-Ausgabe zugeordnet sind. Die Metadatenoptionen enthalten Informationen zum Dokument und dessen Inhalt, z. B. den Namen des Autors, den Dokumenttitel, Schlüsselwörter, Copyright-Informationen und andere Datenfelder.
 
@@ -65,7 +65,7 @@ Weitere Informationen finden Sie in der Beschreibung der Funktion zum Erzeugen e
 
 ## Native PDF | Ändern der Leiste, um geänderte Themen im Inhaltsverzeichnis anzuzeigen
 
-Mit AEM Guides können Sie nun die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe schnell identifizieren.  Links neben den geänderten Themen im Inhaltsverzeichnis wird eine Änderungsleiste angezeigt. Sie können auf das Thema im Inhaltsverzeichnis klicken und die detaillierten Änderungen anzeigen.
+Mit AEM Guides können Sie jetzt schnell die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe identifizieren.  Links neben den geänderten Themen im Inhaltsverzeichnis wird eine Änderungsleiste angezeigt. Sie können auf das Thema im Inhaltsverzeichnis klicken und die detaillierten Änderungen anzeigen.
 
 <img src="assets/change-marker-toc.png" alt="Marker im Inhaltsverzeichnis ändern " width="500">
 
@@ -73,7 +73,7 @@ Weitere Informationen finden Sie unter [Arbeiten mit benutzerdefinierten Formatv
 
 
 
-## Native PDF | Formatieren der Seitenmarkierung in der Fußnoten -Komponente
+## Native PDF | Formatieren der Seitenmarkierung in der Fußnotenkomponente
 
 Jetzt können Sie die Seitenmarkierung in den Fußnoten formatieren. Sie können beispielsweise Klammern hinzufügen oder deren Farbe ändern. Diese Stile helfen den Benutzenden, die Seitenmarkierungen im Dokument leicht zu identifizieren.
 

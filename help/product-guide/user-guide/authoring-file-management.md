@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Dateien und Ordner in AEM Guides verwalten. K
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3300'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ In diesem Abschnitt wird erläutert, wie Adobe Experience Manager Guides mit gru
 
 Der Kopiervorgang zum Einfügen von Ordnern in der Assets-Benutzeroberfläche wird asynchron im Hintergrund ausgeführt, sodass Sie weiterarbeiten können, während das System die Anfrage verarbeitet. Es wird eine Popup-Meldung angezeigt, die angibt, dass der Prozess gestartet wurde.
 
-![](images/copy-folders-success-popup.png){width="350" align="left"}
+![](images/copy-folders-success-popup.png){width="350"}
 
 Nach Abschluss des Vorgangs wird eine Erfolgs- oder Fehlerbenachrichtigung ausgelöst, die angibt, ob der Vorgang erfolgreich war oder fehlgeschlagen ist.
 
-![](images/copy-folders-success-notification.png){width="650" align="left"}
+![](images/copy-folders-success-notification.png){width="650"}
 
 
 ## Drag-and-Drop-Dateien
@@ -145,7 +145,7 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    >[!TIP]
    >
-   > Auswahl <img src="images/info-icon.svg" width="25">   in der Nähe eines beliebigen Felds, um weitere Details dazu anzuzeigen.
+   > Auswahl <img src="images/info-icon.svg" width="25"> in der Nähe eines beliebigen Felds, um weitere Details dazu anzuzeigen.
 
 
    - **Suffix zu doppelten Ordnern hinzufügen**: Wenn Sie Ordner mit demselben Namen verschieben, müssen Sie diese Option auswählen. Im vorherigen Screenshot enthält beispielsweise der Pfad **Source** den Namen der zu verschiebenden Ordner. Der Ordner mit dem Namen „Topic“ ist an zwei verschiedenen Stellen vorhanden - Test-A und Test-B. Wenn Sie diese Option auswählen, werden die Ordner erfolgreich verschoben. Der erste verschobene Ordner erhält den Namen „topic“, der zweite den Namen „topic0“. Der Verschiebungsvorgang fügt den Ordnern mit demselben Namen ein Suffix in der sequenziellen Reihe \(0, 1, 2 usw.) hinzu.
@@ -154,7 +154,7 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">    , um das Dialogfeld **Pfad auswählen** zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen. Sie können mehrere Ordner auswählen, die sich an verschiedenen Stellen im Pfad-Browser befinden. Der Pfad der ausgewählten Ordner wird beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
+      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25"> das Dialogfeld **Pfad auswählen** öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen. Sie können mehrere Ordner auswählen, die sich an verschiedenen Stellen im Pfad-Browser befinden. Der Pfad der ausgewählten Ordner wird beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
 
       - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 
@@ -186,7 +186,7 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    >[!TIP]
    >
-   > Auswahl <img src="images/info-icon.svg" width="25">   in der Nähe eines beliebigen Felds, um weitere Details dazu anzuzeigen.
+   > Auswahl <img src="images/info-icon.svg" width="25"> in der Nähe eines beliebigen Felds, um weitere Details dazu anzuzeigen.
 
    - **Stapelgröße**: Geben Sie die Anzahl der Dateien an, die in einem Stapel verschoben werden sollen. Die Standardwerte von 50 Dateien.
    - **Ruheintervall (Sekunden)**: Geben Sie die Zeit in Sekunden an, die der Prozess warten soll, bevor der nächste Batch gestartet wird. Während dieses Ruhezeitintervalls werden die Verweise auf und von den verschobenen Dateien vom System korrigiert. Das standardmäßige Schlafintervall beträgt 60 Sekunden.
@@ -203,7 +203,7 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">    , um das Dialogfeld **Pfad auswählen** zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen. Sie können mehrere Ordner auswählen, die sich an verschiedenen Stellen im Pfad-Browser befinden. Der Pfad der ausgewählten Ordner wird beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
+      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25"> das Dialogfeld **Pfad auswählen** öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen. Sie können mehrere Ordner auswählen, die sich an verschiedenen Stellen im Pfad-Browser befinden. Der Pfad der ausgewählten Ordner wird beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
 
       - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 

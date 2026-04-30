@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie Versionen verwalten
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -113,7 +114,7 @@ Darüber hinaus können Sie auch so konfigurieren, dass eine Warnmeldung angezei
 
 1. Wählen Sie die Option **Bearbeitung ohne Auschecken deaktivieren** aus.
 
-   ![](assets/xml-editor-config.png){width="650" align="left"}
+   ![](assets/xml-editor-config.png){width="650"}
 
    Bei dieser Option wird die Option Bearbeiten in der Symbolleiste erst angezeigt, wenn eine Datei ausgecheckt wurde.
 
@@ -205,11 +206,11 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 1. Klicken Sie auf **Speichern**.
 
 
-Um diese Funktion zu unterstützen, wird in `drivelock` eine neue `oak:index` für die Indexeigenschaft hinzugefügt:
+Um diese Funktion zu unterstützen, wird in `oak:index` eine neue `drivelock` für die Indexeigenschaft hinzugefügt:
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 Stellen Sie zusätzlich zur neuen Indexeigenschaft sicher, dass die folgenden Eigenschaften für `/oak:index/damAssetLucene` festgelegt sind:
 
@@ -247,7 +248,7 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Mögliche Werte sind: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Standardwert**: `allow_unsafe_delete_for_delete_assets_group` <br> Die Details dieser Konstanten werden unten angezeigt. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Mögliche Werte sind: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Standardwert**: `allow_unsafe_delete_for_delete_assets_group` <br> Die Details dieser Konstanten werden unten angezeigt. |
 
 Geben Sie je nachdem, wem Sie Zugriff zum Löschen gewähren möchten, eine der folgenden Konstanten an:
 
@@ -279,11 +280,11 @@ Geben Sie je nachdem, wem Sie Zugriff zum Löschen gewähren möchten, eine der 
 
    - allow\_unsafe\_delete\_for\_all: Erteilen Sie allen Benutzern die Berechtigung zum Löschen von Dateien. Wenn die Datei(en) Verweise enthält (enthalten) oder von anderen Dateien auf sie verwiesen wird, kann das Löschen der Datei(en) erzwungen werden. Vor dem Löschen der Datei wird eine Eingabeaufforderung mit den Verweisen angezeigt. Sie können den Löschvorgang abbrechen, die Verweise entfernen und schließlich die Datei(en) löschen. Alternativ können Sie die Datei(en) erzwingen löschen, ohne die Verweise zu entfernen.
 
-     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: Ein Administrator oder ein Benutzer, der zur Gruppe *delete-assets* gehört, darf Dateien löschen. Wenn andere Benutzer versuchen, Dateien mit Verweisen zu löschen, dürfen sie diese Dateien erst löschen, nachdem alle Verweise entfernt wurden. Der folgende Screenshot wird angezeigt, wenn ein Benutzer ohne Berechtigungen versucht, Dateien zu löschen.
 
-     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
    - block\_unsafe\_delete\_for\_all: Verhindern Sie, dass alle Benutzer \(einschließlich Administratoren\) Dateien löschen, bis die Verweise auf und von den Datei(en) entfernt wurden.
 

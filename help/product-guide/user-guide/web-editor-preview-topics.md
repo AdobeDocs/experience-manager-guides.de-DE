@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Adobe Experience Manager Guides eine Vorsc
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Führen Sie die folgenden Schritte aus, um ein Thema im Editor in der Vorschau a
 1. Navigieren Sie im Repository-Bereich zu dem Thema, das Sie anzeigen möchten.
 1. Bewegen Sie den Mauszeiger über das Thema, das Sie in der Vorschau anzeigen möchten, und wählen Sie **Vorschau** aus dem Optionsmenü aus.
 
-   ![](images/preview-topic.png){width="600" align="left"}
+   ![](images/preview-topic.png){width="600"}
 
    Die Vorschau des Themas wird angezeigt.
 
-   ![](images/preview-pop-up.png){align="left"}
+   ![](images/preview-pop-up.png)
 
 **Vorschau von Themen im Vorschaumodus**
 
@@ -61,7 +61,7 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau eines Themas anzuzeigen
 
 Wenn Sie die Vorschaufunktion der Assets-Benutzeroberfläche verwenden, stehen in der Symbolleiste die folgenden Vorgänge zur Verfügung:
 
-![](images/preview-screen.png){align="left"}
+![](images/preview-screen.png)
 
 
 **Eigenschaften**
@@ -78,7 +78,7 @@ Der **Verwendet in** verweist auf die Dokumente, auf die die aktuelle Datei verw
 
 Mit dem Symbol \(+\) im Abschnitt **Verwendet in** Referenzen können Sie weiter nach oben navigieren, um zu ermitteln, wo dieses Thema verwendet oder referenziert wird.
 
-![](images/used-in-dialog_cs.png){align="left"}
+![](images/used-in-dialog_cs.png)
 
 Wenn Sie auf ![](images/right-arrow-used-in-dialog.svg)Symbol neben einem Dokument klicken, werden die Zuordnungs- oder Themendateien angezeigt, auf die das Dokument weiter verwiesen wird.
 
@@ -90,7 +90,7 @@ Wenn Ihr Thema bedingte Inhalte hat, wird das A/B-Symbol in der Symbolleiste ang
 >
 > Der bedingte Inhalt wird im Editor durch eine helle Hintergrundfarbe hervorgehoben.
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **Bearbeiten**
 
@@ -108,7 +108,7 @@ Wenn Ihr Thema bedingte Inhalte hat, wird das A/B-Symbol in der Symbolleiste ang
   >
   > Um die Quellcodeansicht einer DITA-Zuordnungsdatei abzurufen, wählen Sie die Datei in der Assets-Benutzeroberfläche und anschließend Source aus.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png)
 
 **UUID-Link freigeben**
 
@@ -120,7 +120,7 @@ Wenn Ihr Thema bedingte Inhalte hat, wird das A/B-Symbol in der Symbolleiste ang
 
 Eine neue Option **UUID-Link freigeben** wird in der Symbolleiste der oben genannten Bereiche angezeigt. Der folgende Screenshot zeigt die Option **UUID-Link freigeben** im Vorschaumodus eines Themas:
 
-![](images/share-uuid-link_cs.png){align="left"}
+![](images/share-uuid-link_cs.png)
 
 In der Asset-Benutzeroberfläche ist diese Option sichtbar, wenn Sie eine Datei auswählen. Im Vorschaumodus ist diese Option standardmäßig in der Hauptsymbolleiste verfügbar. In einer DITA-Zuordnungskonsole ist diese Option im Abschnitt „Ausgabevorgaben“ sichtbar.
 
@@ -140,15 +140,15 @@ Wenn Sie ein Thema auschecken, wird der Status der Datei in der Kartenansicht un
 
 Ausgecheckte Datei in der Kartenansicht:
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 Ausgecheckte Datei in der Listenansicht:
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellungen** unter **Listenansicht** und wählen Sie den **Ausgecheckt** im Dialogfeld **Spalten konfigurieren** aus.
 
-![](images/list-view-settings-check-out_cs.png){align="left"}
+![](images/list-view-settings-check-out_cs.png)
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
    1. Wählen Sie in der linken Leiste **Versionsverlauf** und wählen Sie eine Version aus.
 
-      ![](images/timeline-versions62_cs.png){align="left"}
+      ![](images/timeline-versions62_cs.png)
 
    1. Wählen Sie aus den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und wählen Sie **Vorschauversion** aus. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
 
    1. Wählen Sie aus **Liste** anzeigen die Version aus, mit der Sie die Basisversion vergleichen möchten.
 
-      ![](images/show-diff-list-cropped.png){align="left"}
+      ![](images/show-diff-list-cropped.png)
 
       Der geänderte Inhalt wird in der Themenvorschau hervorgehoben. Grün hervorgehobener Inhalt gibt den neu hinzugefügten Inhalt an und rot dargestellt den gelöschten Inhalt.
 
-      ![](images/version-difference.png){align="left"}
+      ![](images/version-difference.png)
 
 
 ## Verzweigung, Wiederherstellung und nachfolgende Versionierung
@@ -217,7 +217,7 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
    1. Wählen Sie eine Version aus, aus der Sie eine Verzweigung erstellen möchten. Im folgenden Screenshot ist Version 1.2 zum Erstellen einer Verzweigung ausgewählt.
 
-      ![](images/branching.png){width="300" align="left"}
+      ![](images/branching.png){width="300"}
 
       >[!NOTE]
       >
@@ -231,15 +231,15 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
       - Wenn Sie diese Option auswählen, wird ab Version 1.1 eine Verzweigung erstellt. Außerdem wird eine neue Version des Themas aus der aktuellen Arbeitskopie des Themas erstellt und als nächste Version - 1.4 - gespeichert.
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
         Version 1.2 wird Ihre aktuelle Arbeitskopie des Themas. Jede danach gespeicherte Version wird unter der neuen Verzweigung von 1.1 erstellt. Beispielsweise wird die nachfolgende Version eines neuen Themas in dieser Verzweigung als 1.2.0 gespeichert.
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300"}
 
       - Wenn Sie diese Option nicht auswählen, wird keine neue Version aus der aktuellen Arbeitskopie des Themas erstellt. Ab Version 1.2 des Themas wird eine neue Verzweigung erstellt. Jede nachfolgende Version des Themas wird unter der Verzweigung 1.2 als 1.2.0, 1.2.1 usw. gespeichert.
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. Wählen Sie **OK** aus.
 

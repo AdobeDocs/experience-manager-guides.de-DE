@@ -4,9 +4,9 @@ description: Generieren von DITA-Zuordnungsberichten über das Zuordnungs-Dashbo
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
 1. Wählen Sie **Berichte** aus.
 
-   ![](images/reports-page-uuid-new.png){align="left"}
+   ![](images/reports-page-uuid-new.png)
 
    Die Seite Berichte ist in zwei Teile unterteilt:
 
@@ -37,7 +37,7 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
      Wenn Sie ein Thema auswählen, wird ein detaillierter Bericht zum ausgewählten Thema angezeigt.
 
-     ![](images/detailed-report-uuid-new.png){align="left"}
+     ![](images/detailed-report-uuid-new.png)
 
      Nachfolgend werden die unter **A**, **B**, **C** und **D** hervorgehobenen Punkte beschrieben:
 
@@ -82,18 +82,18 @@ Führen Sie die folgenden Schritte aus, um die CSV-Datei eines DITA-Zuordnungsbe
 
 1. Wählen **oben** die Option „Bericht generieren“ aus, um den DITA-Zuordnungsbericht zu generieren.
 
-   ![](images/generate-DITA-map-report-new.png){align="left"}
+   ![](images/generate-DITA-map-report-new.png)
 
 1. Sie erhalten eine Benachrichtigung, sobald der Bericht zum Herunterladen bereit ist. Wählen Sie **Herunterladen**, um die CSV-Datei des generierten Berichts herunterzuladen.
 
-   ![](images/download-report-dialog-new.png){width="550" align="left"}
+   ![](images/download-report-dialog-new.png){width="550"}
 
 
    Sie können die CSV-Datei des generierten Berichts auch später aus dem Experience Manager-Benachrichtigungs-Posteingang herunterladen.
 
    Wählen Sie den generierten Bericht im Posteingang aus, um den Bericht herunterzuladen.
 
-   ![](images/report-inbox--notification.png){width="300" align="left"}
+   ![](images/report-inbox--notification.png){width="300"}
 
 Sobald der Bericht in den Posteingang heruntergeladen wurde, können Sie auch den Bericht auswählen und das Symbol Öffnen oben verwenden, um den ausgewählten Bericht zu öffnen.
 

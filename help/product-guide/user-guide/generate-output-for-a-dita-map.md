@@ -4,7 +4,7 @@ description: Generieren Sie eine Ausgabe für eine DITA-Zuordnung über die Zuor
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Zuordnungs-Dashboards ei
 
 1. Wählen Sie eine oder mehrere Ausgabevorgaben aus, die Sie zum Generieren der Ausgabe verwenden möchten.
 
-   ![](images/generate-multiple-outputs-uuid.png){align="left"}
+   ![](images/generate-multiple-outputs-uuid.png)
 
 1. Wählen Sie das **Generieren**, um den Ausgabegenerierungsprozess zu starten.
 

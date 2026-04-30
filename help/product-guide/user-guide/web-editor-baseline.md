@@ -4,9 +4,9 @@ description: Erstellen und verwalten Sie Baselines über die Zuordnungskonsole i
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1929'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Sie können eine Baseline über die Zuordnungskonsole erstellen, indem Sie die f
 1. Navigieren Sie zur Registerkarte **Baseline** und wählen Sie oben rechts das Symbol + aus, um mit der Erstellung einer Baseline zu beginnen.
 1. Geben **im Dialogfeld &quot;** Baseline“ die folgenden Details an:
 
-   ![Baseline-Bedienfeld](images/baseline-manage.png){width="500" align="left"}
+   ![Baseline-Bedienfeld](images/baseline-manage.png){width="500"}
 
    - Geben Sie einen Namen für die Baseline in das Feld **Name** ein.
    - Wählen Sie **Konfiguration** die Option [Manuelles Update](#configuring-baseline-for-manual-update) oder [Automatisches Update](#configuring-baseline-for-automatic-update).
@@ -82,7 +82,7 @@ Wählen Sie diese Option für die Basiserstellung aus, um die Themen automatisch
 
 Baselines, die mithilfe der automatischen Aktualisierungskonfiguration erstellt wurden, werden dynamisch aktualisiert. Wenn Sie eine Baseline generieren, eine Baseline herunterladen oder ein Übersetzungsprojekt mithilfe einer Baseline erstellen, werden die Dateien basierend auf den aktualisierten Beschriftungen dynamisch ausgewählt. Wenn Sie beispielsweise Version 1.2 eines Themas mit der Bezeichnung Release 1.0 für die Grundlinie und Version 1.5 mit der Bezeichnung Release 1.0 aktualisiert haben, wird die Grundlinie dynamisch aktualisiert und Version 1.5 wird verwendet.
 
-![Erstellen einer Baseline](images/dynamic-baseline.png){width="300" align="left"}
+![Erstellen einer Baseline](images/dynamic-baseline.png){width="300"}
 
 - **Kennzeichnungen**: Wenn für die Themen Kennzeichnungen angegeben sind, verwenden Sie das **Kennzeichnungen** zur Auswahl aus den [aufgelisteten Kennzeichnungen](#labels-list).
 
@@ -92,7 +92,7 @@ Baselines, die mithilfe der automatischen Aktualisierungskonfiguration erstellt 
   >
   >Während die Beschriftungen abgerufen werden, wird ein Lader angezeigt und die Dropdown-Liste ist deaktiviert.
 
-  Bei dynamischen Baselines werden die Beschriftungen aus der zuletzt gespeicherten Version und der aktuellen Arbeitskopie der Zuordnung abgerufen. Wenn Sie beispielsweise Kennzeichnungen erstellt haben   `Label Release A.1.0 ` und `Label Release A.1.1` für die Versionen 1.0 und 1.1 von Thema A und Beschriftungen `Label Release B.1.0` und `Label Release B.1.1` für die Versionen 1.0 und 1.1 von Thema B . Anschließend können Sie Thema A zu Map A in Version 1.0 und Thema B zu Map A in 1.0* (Arbeitskopie) hinzufügen. In diesem Fall können Sie `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` und `Label Release B.1.1` in der Dropdown-Liste der dynamischen Baseline-Beschriftungen anzeigen.
+  Bei dynamischen Baselines werden die Beschriftungen aus der zuletzt gespeicherten Version und der aktuellen Arbeitskopie der Zuordnung abgerufen. Beispiel: Sie haben die Bezeichnungen `Label Release A.1.0 ` und `Label Release A.1.1` für die Versionen 1.0 und 1.1 von Thema A sowie die Bezeichnungen `Label Release B.1.0` und `Label Release B.1.1` für die Versionen 1.0 und 1.1 von Thema B erstellt. Anschließend können Sie Thema A zu Map A in Version 1.0 und Thema B zu Map A in 1.0* (Arbeitskopie) hinzufügen. In diesem Fall können Sie `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` und `Label Release B.1.1` in der Dropdown-Liste der dynamischen Baseline-Beschriftungen anzeigen.
 - **Indirekte Verweise**: Für indirekte Verweise innerhalb der DITA-Karte werden Ihnen die folgenden Optionen bereitgestellt:
 
    - **Automatisch auswählen**: Sie können für den referenzierten Inhalt **Automatisch auswählen** und das System wählt automatisch die Version des referenzierten Inhalts aus, die der Version des Inhalts entspricht, auf den verwiesen wird.
@@ -113,7 +113,7 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
   >
   >Der Bearbeitungsvorgang im Fall einer dynamischen Baseline ermöglicht es Ihnen, die Eigenschaften der Baseline zu bearbeiten, da die Referenzen für dynamische Baselines zur Laufzeit mithilfe der Kennzeichnungen generiert werden.
 
-  ![Optionen einer Baseline](images/baseline-options.png){align="left"}
+  ![Optionen einer Baseline](images/baseline-options.png){}
 
 ### Für eine vorhandene Baseline verfügbare Aktionen
 
@@ -123,7 +123,7 @@ Sie können auch die folgenden Vorgänge für die Grundlinie über das Menü Opt
 
 Sie können eine Baseline duplizieren und entsprechend Ihren Anforderungen ändern.
 
-![Duplizieren einer Baseline](images/baseline-duplicate.png){width="300" align="left"}
+![Duplizieren einer Baseline](images/baseline-duplicate.png){width="300"}
 *Duplizieren Sie eine Baseline basierend auf einer Beschriftung oder erstellen Sie eine exakte Kopie.*
 
 1. Wählen **Duplizieren** aus dem Menü Optionen einer Baseline. Das **Basislinie duplizieren** wird geöffnet.
@@ -158,7 +158,7 @@ Die im Dropdown-Menü aufgelisteten Bezeichnungen basieren auf den folgenden Kri
 
 Mithilfe des Symbols Filter im Bedienfeld **Baseline-Filter** können Sie Filter auf die Baseline anwenden, die im Baseline-Bearbeitungsfenster geöffnet ist:
 
-![Baseline-Filter](images/baseline-filter.png){width="300" align="left"}
+![Baseline-Filter](images/baseline-filter.png){width="300"}
 
 - Filtern Sie die Dateien nach Dateinamen oder Dateispeicherort.
 - Filtern Sie die Dateien anhand der Werte für verschiedene Spalten wie Dateityp, Referenztyp usw.

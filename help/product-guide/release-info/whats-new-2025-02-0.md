@@ -1,10 +1,11 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2025.02.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2025.02.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2025.02.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: b38cf2e45851caaf01aa9e1162cbbffc51fea9a8
+exl-id: 3e3177e8-cd29-4a86-b786-7c7a1d0047d9
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1778'
 ht-degree: 0%
 
 ---
@@ -23,20 +24,20 @@ Die wichtigsten Highlights sind:
 
   Weitere Informationen finden Sie unter [Adobe Experience Manager Guides-Startseitenerlebnis](../user-guide/intro-home-page.md).
 
-  ![](assets/aem-home-page.png){width="800" align="left"}
+  ![](assets/aem-home-page.png){width="800"}
 
 
 - **Neues Editor**-Erlebnis: Erleben Sie den Editor jetzt in einem neuen Look-and-Feel. Die überarbeitete Editor-Benutzeroberfläche bietet eine übersichtlichere und besser organisierte Symbolleiste, nahtlose Navigation und ein insgesamt intuitives Erlebnis, damit Dokumente schneller und effizienter erstellt werden können.
 
   Lernen Sie [Editor-Funktionen kennen](../user-guide/web-editor-features.md).
 
-  ![](assets/editor-new-ui.png){width="800" align="left"}
+  ![](assets/editor-new-ui.png){width="800"}
 
 - **Dedizierte Kartenkonsole**: Einführung in die Kartenkonsole, eine dedizierte Konsole, in der alle Funktionen zur Kartenverwaltung und -veröffentlichung zusammengefasst sind. Jetzt erhalten Sie Optionen zum Generieren von Ausgaben, Übersetzen von Inhalten, Erstellen von Berichten und mehr - alles in einer Benutzeroberfläche.
 
   Weitere Informationen zu [Kartenverwaltung und -veröffentlichung](../user-guide/map-console-overview.md).
 
-  ![](assets/map-console-new-ui.png){width="800" align="left"}
+  ![](assets/map-console-new-ui.png){width="800"}
 
 
 
@@ -50,7 +51,7 @@ Die Integration bietet Ihnen auch die Möglichkeit, Ihre Arbeitswarteschlangen z
 
 Weitere Informationen finden Sie unter [Workfront-Integration](../user-guide/workfront-integration.md).
 
-![](assets/workfront-integration-ui.png){width="800" align="left"}
+![](assets/workfront-integration-ui.png){width="800"}
 
 
 ## KI-Assistent (Beta) mit Funktionen für intelligentes Authoring und Hilfe für verbesserte Produktivität
@@ -59,7 +60,7 @@ Erleben Sie jetzt eine höhere Produktivität mit KI-gestützten Funktionen für
 
 Weitere Informationen finden Sie unter [KI-Assistent in Experience Manager Guides](../user-guide/ai-assistant.md).
 
-![](assets/ai-assistant-panel.png){width="300" align="left"}
+![](assets/ai-assistant-panel.png){width="300"}
 
 ## Schnellere und skalierbare neue AEM Sites-Publishing-Engine
 
@@ -67,7 +68,7 @@ Erleben Sie eine schnellere und skalierbare Veröffentlichung in AEM Sites mit d
 
 Weitere Informationen zur Veröffentlichung von [AEM Sites](../user-guide/generate-output-aem-site-web-editor.md).
 
-![](assets/new-aem-sites-preset.png){width="500" align="left"}
+![](assets/new-aem-sites-preset.png){width="500"}
 
 
 ## Nahtlose Veröffentlichung von eigenständigen Inhalten in AEM Sites mit Veröffentlichung einzelner Themen
@@ -76,7 +77,7 @@ Einführung der Veröffentlichung einzelner Themen auf AEM Sites-Seiten, mit der
 
 Weitere Informationen finden Sie unter [Veröffentlichen von AEM Sites-Seiten](../user-guide/publish-aem-sites.md).
 
-![](assets/aem-sites-page-generate.png){width="500" align="left"}
+![](assets/aem-sites-page-generate.png){width="500"}
 
 
 
@@ -86,7 +87,7 @@ Erleben Sie jetzt eine sauberere, effizientere und leistungsfähigere Möglichke
 
 Weitere Informationen finden Sie unter [Markdown-Authoring](../user-guide/web-editor-markdown-topic.md).
 
-![](assets/markdown-topic-side-by-side.png){width="800" align="left"}
+![](assets/markdown-topic-side-by-side.png){width="800"}
 
 ## Verbesserungen am Editor
 
@@ -141,14 +142,14 @@ Im Rahmen der neuen Version wurden die folgenden Veröffentlichungsverbesserunge
 
   Weitere Informationen finden Sie unter [Hinzufügen von Feldern und Metadaten im Seiten-Layout](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata).
 
-  ![](assets/metadata-topic-content.png){width="300" align="left"}
+  ![](assets/metadata-topic-content.png){width="300"}
 
 
 - Es wurde eine Option zum Aktivieren oder Deaktivieren der DITA-OT-Vorverarbeitung für die native PDF-Ausgabe eingeführt. Aktivieren Sie diese Option, wenn Ihr Inhalt während der Verarbeitung eine DITA-OT-basierte Normalisierung oder benutzerdefinierte DITA-OT-Plug-ins erfordert. Dadurch erhalten Sie mehr Kontrolle darüber, wie Inhalte für die PDF-Generierung verarbeitet werden. Standardmäßig ist die Einstellung auf &quot;**&quot;**.
 
   Weitere Informationen finden Sie unter [Arbeiten mit der PDF-Ausgabevorgabe](../user-guide/generate-output-pdf.md)
 
-  ![](assets/ditaot-setting-enabled.png){width="500" align="left"}
+  ![](assets/ditaot-setting-enabled.png){width="500"}
 
 - Die Druckeinstellungen für die native PDF-Ausgabegenerierung wurden aus der Einstellung **Vorlagen** in die **native PDF-**) verschoben, um die Benutzerfreundlichkeit zu verbessern. Sie können jetzt dieselbe Vorlage für Online- und Druck-PDFs mit verschiedenen Druckeinstellungen wie Farbprofil verwenden.
 
@@ -196,4 +197,3 @@ Die Möglichkeit, Metadatenargumente für die Stammzuordnung über die DITA-OT-B
 Um die Metadaten weiterhin in der DITA-OT-Befehlszeile zu übergeben, müssen Sie die `pass.metadata.args.cmd.line` im `Config.Manager` aktualisieren.
 
 Weitere Informationen finden Sie unter [Einstellungen für die Ausgabenerstellung konfigurieren](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-argument-field-to-accept-root-map-metadata).
-

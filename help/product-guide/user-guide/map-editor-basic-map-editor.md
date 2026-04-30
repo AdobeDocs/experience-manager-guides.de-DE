@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit dem grundlegenden Zuordnungs-Editor in AE
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei zu erstellen:
 
    Die Zuordnungsdatei wird zur Bearbeitung im Zuordnungs-Editor geöffnet. Mit dem Zuordnungs-Editor erstellen Sie eine Zuordnung anhand der derzeit verfügbaren Themen, die in der Leiste Verweise angezeigt werden.
 
-   ![](images/dita-map-01.png){align="left"}
+   ![](images/dita-map-01.png)
 
 1. Navigieren Sie mithilfe **Leiste** Verweise“ zu dem Ordner, der die Themen oder Unterzuordnungen enthält, die Sie hinzufügen möchten.
 
@@ -73,13 +73,13 @@ Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei zu erstellen:
 
 Die Hauptsymbolleiste im grundlegenden Zuordnungs-Editor ermöglicht die Durchführung der folgenden Aufgaben:
 
-![](images/ditamap-toolbar-actions.png){align="left"}
+![](images/ditamap-toolbar-actions.png)
 
 **A: Suche**
 
 Sie können die erforderlichen Themen aus DAM suchen und einbeziehen. Durch Klicken auf dieses Symbol wird der Suchdialog angezeigt:
 
-![](images/search-dita-map.png){align="left"}
+![](images/search-dita-map.png)
 
 Geben Sie die Keywords ein, nach denen Sie suchen möchten. Diese Keywords werden im Dateinamen, im Inhalt und sogar in den Attributwerten des Themas abgeglichen. Sobald die Suchergebnisse verfügbar sind, wählen Sie die gewünschten Themen aus und klicken Sie auf die Schaltfläche Überprüfen , um die ausgewählten Dateien am Ende Ihrer Zuordnungsstruktur hinzuzufügen. Sie können Ihre Suchergebnisse filtern, indem Sie die Parameter Datum ändern angeben.
 
@@ -107,19 +107,19 @@ Im **Standardmodus** wird durch Klicken auf einen Themen-Link die Vorschau des T
 **Hinweis:** Im Standardmodus können Sie die Tastaturbefehle verwenden, um \(`Ctrl+z`\) oder \(`Ctrl+y`\) die letzte Aktion rückgängig zu machen.
 
 
-![](images/dita-map-invalid-source.png){width="650" align="left"}
+![](images/dita-map-invalid-source.png){width="650"}
 
 **G: Eigenschaften zuordnen**
 
 Zeigt das Dialogfeld Zuordnungseigenschaften an, in dem Sie die Attribute und Metadateninformationen für die Zuordnung festlegen können. Um ein Attribut hinzuzufügen, klicken Sie auf **Hinzufügen** Schaltfläche unten links im Dialogfeld, um die **Attribut** Dropdown-Liste aufzurufen. Wählen Sie aus der Liste das Attribut aus, das Sie hinzufügen möchten. Wenn für das ausgewählte Attribut in der DTD vordefinierte Werte angegeben sind, werden diese Werte in einer neuen Dropdown-Liste angezeigt. Sie können den gewünschten Wert aus der Dropdown-Liste auswählen. Wenn kein vordefinierter Wert vorhanden ist, wird ein Textfeld zur Eingabe eines Werts für das ausgewählte Attribut angezeigt.
 
-![](images/map-properties.png){width="300" align="left"}
+![](images/map-properties.png){width="300"}
 
 ## Auf Themenebene verfügbare Funktionen im grundlegenden Zuordnungs-Editor
 
 Wenn Sie den Mauszeiger über ein Thema oder eine Unterzuordnungsdatei im Grundzuordnungs-Editor bewegen, können Sie die folgenden Aufgaben ausführen:
 
-![](images/ditamap-actions.png){width="650" align="left"}
+![](images/ditamap-actions.png){width="650"}
 
 **A: Nach links oder Nach rechts**
 
@@ -130,7 +130,7 @@ Klicken Sie auf die Pfeile nach links oder rechts, um das Thema nach links oder 
 Klicken Sie auf das Symbol Eigenschaften , um das Dialogfeld TopicRef-Eigenschaften zu öffnen. In diesem Dialogfeld können Sie die Themenattribute und Metadateninformationen festlegen. Weitere Informationen zu den Standardattributen und Metadaten für Themen finden Sie in der Dokumentation [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) in der OASIS DITA Language Specification.
 
 
-![](images/map-properties-metadata.png){width="350" align="left"}
+![](images/map-properties-metadata.png){width="350"}
 
 **c: Neue Referenz hinzufügen**
 
@@ -162,7 +162,7 @@ Führen Sie die folgenden Schritte aus, um mit Beziehungstabellen im grundlegend
 
 1. Wählen Sie **Reltable** in der Symbolleiste aus.
 
-   ![](images/reltable.png){width="650" align="left"}
+   ![](images/reltable.png){width="650"}
 
 1. Themen per Drag-and-Drop aus der Themenliste in den zuverlässigen Editor ziehen.
 
@@ -170,13 +170,13 @@ Führen Sie die folgenden Schritte aus, um mit Beziehungstabellen im grundlegend
    >
    > Sie können Themen aus jedem Ordner in der Leiste „Verweise“ hinzufügen.
 
-   ![](images/create-reltable.png){width="550" align="left"}
+   ![](images/create-reltable.png){width="550"}
 
 1. Um Ihrer Beziehungstabelle eine Kopfzeile hinzuzufügen, klicken Sie auf **Relheader hinzufügen**.
 
 1. Um eine Spalte zu Ihrer Beziehungstabelle hinzuzufügen, klicken Sie auf **Spalte hinzufügen**.
 
-   ![](images/complete-reltable.png){width="550" align="left"}
+   ![](images/complete-reltable.png){width="550"}
 
 1. Klicken Sie auf **Speichern**.
 

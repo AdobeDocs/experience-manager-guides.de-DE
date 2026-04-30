@@ -1,17 +1,17 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in der Adobe Experience Manager Guides, Version vom November 2023
-description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version November 2023 von Adobe Experience Manager Guides as a Cloud Service.
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides, Version vom November 2023
+description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version vom November 2023 von Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
 
-# Neue Funktionen in der Adobe Experience Manager Guides as a Cloud Service-Version vom November 2023
+# Neue Funktionen in der Version vom November 2023 von Adobe Experience Manager Guides as a Cloud Service
 
 Dieser Artikel behandelt die neuen und erweiterten Funktionen in der Version vom November 2023 von Adobe Experience Manager Guides (später als *Experience Manager Guides as a Cloud Service* bezeichnet).
 
@@ -19,23 +19,23 @@ Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und
 
 ## Native PDF-Verbesserungen
 
-Die folgenden nativen PDF-Verbesserungen wurden in der Version vom November 2023 vorgenommen:
+In der Version vom November 2023 wurden die folgenden nativen PDF-Verbesserungen vorgenommen:
 
 ### Verwenden und Duplizieren von vordefinierten PDF-Vorlagen
 
 Experience Manager Guides bietet vordefinierte oder werkseitige PDF-Vorlagen. Duplizieren Sie die werkseitigen PDF-Vorlagen, um die benutzerdefinierten PDF-Vorlagen zu erstellen.
 
 Jetzt können Sie beim Erstellen und Duplizieren einer Vorlage auch eine Vorschau des Miniaturbilds für eine Vorlage anzeigen. Sie können dieses Bild auch bearbeiten oder löschen. Diese Funktion ist nützlich, um Vorlagen mit ähnlichen Namen zu markieren oder zu unterscheiden.
-Weitere Informationen zur [PDF-Vorlage](../native-pdf/pdf-template.md).
+Weitere Informationen zur Vorlage [PDF](../native-pdf/pdf-template.md).
 
-![Dialogfeld &quot;PDF-Vorlage duplizieren“](assets/duplicate-template.png){width="550" align="left"}
+![Dialogfeld &quot;PDF-Vorlage duplizieren“](assets/duplicate-template.png){width="550"}
 
 *Duplizieren Sie eine vorhandene PDF-Vorlage.*
 
 
 ### Ändern der Reihenfolge von Seiten und Veröffentlichen mehrerer Seiten pro Blatt
 
-Neben der Veröffentlichung der Seiten gemäß dem Quelldokument können Sie beim Veröffentlichen eines mehrseitigen Dokuments auch die Seitenreihenfolge beim PDF ändern.  Dadurch haben Sie die Möglichkeit, die Seiten in verschiedenen Reihenfolgen zu veröffentlichen, z. B. alle ungeraden oder alle geraden Seiten zuerst. Sie können auch als Broschüre veröffentlichen und die Seiten wie ein Buch lesen. Sie können auch die Anzahl der Seiten festlegen, die Sie auf einem einzelnen Blatt Papier veröffentlichen möchten. Weitere Informationen finden Sie im Abschnitt [Seitenorganisation](../native-pdf/components-pdf-template.md#page-organization) .
+Neben der Veröffentlichung der Seiten gemäß dem Quelldokument können Sie auch die Seitenreihenfolge in PDF ändern, während Sie ein mehrseitiges Dokument veröffentlichen.  Dadurch haben Sie die Möglichkeit, die Seiten in verschiedenen Reihenfolgen zu veröffentlichen, z. B. alle ungeraden oder alle geraden Seiten zuerst. Sie können auch als Broschüre veröffentlichen und die Seiten wie ein Buch lesen. Sie können auch die Anzahl der Seiten festlegen, die Sie auf einem einzelnen Blatt Papier veröffentlichen möchten. Weitere Informationen finden Sie im Abschnitt [Seitenorganisation](../native-pdf/components-pdf-template.md#page-organization) .
 
 ### Sortieren von Glossarbegriffen basierend auf Sortierschlüsseln
 
@@ -57,7 +57,7 @@ In der Version vom November 2023 wurden die folgenden Verbesserungen am Web-Edit
 
 Sie können jetzt die Standardmethode zum Anzeigen der Dateien im Web-Editor auswählen. Sie können die Liste der Dateien anhand der Titel oder der Dateinamen aus den verschiedenen Bedienfeldern in der Autorenansicht anzeigen.
 
-![Dialogfeld „Benutzereinstellungen“](assets/user-preferences-2311.png){width="550" align="left"}
+![Dialogfeld „Benutzereinstellungen“](assets/user-preferences-2311.png){width="550"}
 
 *Ändern Sie die Standardeinstellung zum Anzeigen der Dateien im Dialogfeld **Benutzereinstellungen**.*
 
@@ -66,7 +66,7 @@ Sie können jetzt die Standardmethode zum Anzeigen der Dateien im Web-Editor aus
 
 Sie können Bedingungsattribute in Ihren DITA-Themen definieren. Verwenden Sie dann die Bedingungsattribute in der Bedingungsvorgabe, um den Inhalt in einer DITA-Zuordnung zu veröffentlichen. Mit Experience Manager Guides können Sie jetzt auch Bedingungsvorgaben über den Web-Editor erstellen und verwalten. Sie können sie auch einfach bearbeiten, duplizieren oder löschen.
 
-![Bedingungsvorgaben auf der Registerkarte Verwalten des Web-Editors &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Bedingungsvorgaben auf der Registerkarte Verwalten des Web-Editors &#x200B;](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Weitere Informationen finden Sie unter [Verwenden von Bedingungsvorgaben](../user-guide/generate-output-use-condition-presets.md).
 

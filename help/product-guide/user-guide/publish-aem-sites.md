@@ -4,9 +4,9 @@ description: Veröffentlichen eines Themas oder der Elemente innerhalb eines The
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: e1bac3680afda837393d86ee5f19d5877237ffe9
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Um eine Sites-Seite zu generieren, führen Sie die folgenden Schritte aus:
 1. Wählen Sie **Neue Ausgabe** icon![New output icon](./images/Add_icon.svg) aus dem Abschnitt **Ausgaben** aus.
 1. Wählen Sie **Sites-Seite** aus.
 1. Geben **im Dialogfeld &quot;** generieren“ die folgenden Details ein:
-   ![Fügen Sie den Pfad und die Vorlagendetails auf der Seite „Sites generieren“ hinzu](images/aem-sites-page-generate.png){width="500" align="left"}
+   ![Fügen Sie den Pfad und die Vorlagendetails auf der Seite „Sites generieren“ hinzu](images/aem-sites-page-generate.png){width="500"}
 
    * **Pfad**: Durchsuchen und wählen Sie den Pfad des Ordners aus, in dem Sie die Sites-Seite veröffentlichen möchten.
    * **Titel**: Geben Sie den Titel der Sites-Seite ein. Standardmäßig wird der Titel mit dem Titel des Themas gefüllt. Sie können ihn bearbeiten. Dieser Titel wird verwendet, um den Namen der Sites-Seite zu generieren.
@@ -49,7 +49,7 @@ Um eine Sites-Seite zu generieren, führen Sie die folgenden Schritte aus:
 1. Wählen Sie **Generieren** aus, um die Sites-Seite zu veröffentlichen.
 1. Sie können die Sites-Seite für ein Thema unter dem Abschnitt **Ausgaben** im Abschnitt **Dateieigenschaften** anzeigen. Die Sites-Seiten werden nach dem Datum und der Uhrzeit ihrer Veröffentlichung angezeigt, wobei die neueste als erste angezeigt wird.
 
-   ![Anzeigen der Sites-Seite für ein Thema](images/aem-sites-output-new.png){width=300 align="left"}
+   ![Anzeigen der Sites-Seite für ein Thema](images/aem-sites-output-new.png){width=300}
 
    *Zeigen Sie die Sites-Seite für ein Thema an und veröffentlichen Sie sie erneut.*
 

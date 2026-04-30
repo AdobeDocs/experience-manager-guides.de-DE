@@ -1,37 +1,37 @@
 ---
-title: Work with the Basic Map Editor
-description: Learn how to work with the Basic Map Editor in AEM Guides. Know the features of the basic map editor at map level and topic level. Create and edit relationship tables in  a DITA map.
+title: Arbeiten mit dem grundlegenden Zuordnungs-Editor
+description: Erfahren Sie, wie Sie mit dem grundlegenden Zuordnungs-Editor in AEM Guides arbeiten. Kennenlernen der Funktionen des grundlegenden Karten-Editors auf Karten- und Themenebene. Erstellen und Bearbeiten von Beziehungstabellen in einer DITA-Zuordnung.
 feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
 
 ---
 
-# Work with the Basic Map Editor {#id1942CM005Y4}
+# Arbeiten mit dem grundlegenden Zuordnungs-Editor {#id1942CM005Y4}
 
 >[!NOTE]
 >
-> The Basic Map Editor, previously available in Experience Manager Guides, has been deprecated starting from version 4.3 and 2307. You can&#39;t access the Basic Map Editor to create and manage DITA maps.
->You are recommended to use the Advanced Map Editor. The Advanced Map Editor offers enhanced features and better customization options. Explore more about how to work with the [Advanced Map Editor](../user-guide/map-editor-advanced-map-editor.md).
+> Der grundlegende Zuordnungs-Editor, der zuvor in Experience Manager Guides verfügbar war, wird seit Version 4.3 und 2307 nicht mehr unterstützt. Sie können nicht auf den grundlegenden Karten-Editor zugreifen, um DITA-Karten zu erstellen und zu verwalten.
+>Es wird empfohlen, den erweiterten Zuordnungs-Editor zu verwenden. Der erweiterte Zuordnungs-Editor bietet erweiterte Funktionen und bessere Anpassungsoptionen. Weitere Informationen zum Arbeiten mit dem [erweiterten Karten-Editor](../user-guide/map-editor-advanced-map-editor.md).
 
-The Basic Map Editor provides an easy drag-and-drop feature to add topics from your AEM repository to create the DITA map or bookmap. You can add nested topics, relationship tables \(reltable\), attributes and metadata information, and also validate the map for correctness.
+Der einfache Karten-Editor bietet eine einfache Drag-and-Drop-Funktion zum Hinzufügen von Themen aus Ihrem AEM-Repository, um die DITA-Karte oder -Lesekarte zu erstellen. Sie können verschachtelte Themen, Beziehungstabellen \(reltable\), Attribute und Metadateninformationen hinzufügen und die Zuordnung auch auf Korrektheit überprüfen.
 
 >[!NOTE]
 >
-> If your administrator has enabled the Advanced Map Editor option, then you will not have access to the Basic Map Editor. All map files will open in the Advanced Map Editor by default.
+> Wenn Ihr Admin die Option Erweiterter Zuordnungs-Editor aktiviert hat, haben Sie keinen Zugriff auf den einfachen Zuordnungs-Editor. Alle Zuordnungsdateien werden standardmäßig im erweiterten Zuordnungs-Editor geöffnet.
 
-The following sections describe the various functions available in the Basic Map Editor.
+In den folgenden Abschnitten werden die verschiedenen Funktionen beschrieben, die im grundlegenden Zuordnungs-Editor verfügbar sind.
 
 ## Themen zu einer Zuordnungsdatei hinzufügen {#id193CBL0505Z}
 
-Once a map file is created, you need to add topics to the map file. Using the Basic Map Editor, you can add topics, relationship tables, or other map files.
+Nachdem Sie eine Zuordnungsdatei erstellt haben, müssen Sie der Zuordnungsdatei Themen hinzufügen. Mit dem einfachen Zuordnungs-Editor können Sie Themen, Beziehungstabellen oder andere Zuordnungsdateien hinzufügen.
 
-Perform the following steps to build your map file:
+Führen Sie die folgenden Schritte aus, um Ihre Zuordnungsdatei zu erstellen:
 
 1. Navigieren Sie in der Assets-Benutzeroberfläche zu der Zuordnungsdatei, die Sie bearbeiten möchten.
 
@@ -45,7 +45,7 @@ Perform the following steps to build your map file:
 
    Die Zuordnungsdatei wird zur Bearbeitung im Zuordnungs-Editor geöffnet. Mit dem Zuordnungs-Editor erstellen Sie eine Zuordnung anhand der derzeit verfügbaren Themen, die in der Leiste Verweise angezeigt werden.
 
-   ![](images/dita-map-01.png){width="800" align="left"}
+   ![](images/dita-map-01.png){width="800"}
 
 1. Navigieren Sie mithilfe **Leiste** Verweise“ zu dem Ordner, der die Themen oder Unterzuordnungen enthält, die Sie hinzufügen möchten.
 
@@ -74,13 +74,13 @@ Perform the following steps to build your map file:
 
 Die Hauptsymbolleiste im grundlegenden Zuordnungs-Editor ermöglicht die Durchführung der folgenden Aufgaben:
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){width="800"}
 
 **A: Suche**
 
 Sie können die erforderlichen Themen aus DAM suchen und einbeziehen. Durch Klicken auf dieses Symbol wird der Suchdialog angezeigt:
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){width="800"}
 
 Geben Sie die Keywords ein, nach denen Sie suchen möchten. Diese Keywords werden im Dateinamen, im Inhalt und sogar in den Attributwerten des Themas abgeglichen. Sobald die Suchergebnisse verfügbar sind, wählen Sie die gewünschten Themen aus und klicken Sie auf die Schaltfläche Überprüfen , um die ausgewählten Dateien am Ende Ihrer Zuordnungsstruktur hinzuzufügen. Sie können Ihre Suchergebnisse filtern, indem Sie die Parameter Datum ändern angeben.
 
@@ -108,19 +108,19 @@ Im **Standardmodus** wird durch Klicken auf einen Themen-Link die Vorschau des T
 **Hinweis:** Im Standardmodus können Sie die Tastaturbefehle verwenden, um \(`Ctrl+z`\) oder \(`Ctrl+y`\) die letzte Aktion rückgängig zu machen.
 
 
-![](images/dita-map-invalid-source.png){width="650" align="left"}
+![](images/dita-map-invalid-source.png){width="650"}
 
 **G: Eigenschaften zuordnen**
 
 Zeigt das Dialogfeld Zuordnungseigenschaften an, in dem Sie die Attribute und Metadateninformationen für die Zuordnung festlegen können. Um ein Attribut hinzuzufügen, klicken Sie auf **Hinzufügen** Schaltfläche unten links im Dialogfeld, um die **Attribut** Dropdown-Liste aufzurufen. Wählen Sie aus der Liste das Attribut aus, das Sie hinzufügen möchten. Wenn für das ausgewählte Attribut in der DTD vordefinierte Werte angegeben sind, werden diese Werte in einer neuen Dropdown-Liste angezeigt. Sie können den gewünschten Wert aus der Dropdown-Liste auswählen. Wenn kein vordefinierter Wert vorhanden ist, wird ein Textfeld zur Eingabe eines Werts für das ausgewählte Attribut angezeigt.
 
-![](images/map-properties.png){width="300" align="left"}
+![](images/map-properties.png){width="300"}
 
 ## Auf Themenebene verfügbare Funktionen im grundlegenden Zuordnungs-Editor
 
 Wenn Sie den Mauszeiger über ein Thema oder eine Unterzuordnungsdatei im Grundzuordnungs-Editor bewegen, können Sie die folgenden Aufgaben ausführen:
 
-![](images/ditamap-actions.png){width="650" align="left"}
+![](images/ditamap-actions.png){width="650"}
 
 **A: Nach links oder Nach rechts**
 
@@ -131,7 +131,7 @@ Klicken Sie auf die Pfeile nach links oder rechts, um das Thema nach links oder 
 Klicken Sie auf das Symbol Eigenschaften , um das Dialogfeld TopicRef-Eigenschaften zu öffnen. In diesem Dialogfeld können Sie die Themenattribute und Metadateninformationen festlegen. Weitere Informationen zu den Standardattributen und Metadaten für Themen finden Sie in der Dokumentation [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) in der OASIS DITA Language Specification.
 
 
-![](images/map-properties-metadata.png){width="350" align="left"}
+![](images/map-properties-metadata.png){width="350"}
 
 **c: Neue Referenz hinzufügen**
 
@@ -163,7 +163,7 @@ Führen Sie die folgenden Schritte aus, um mit Beziehungstabellen im grundlegend
 
 1. Wählen Sie **Reltable** in der Symbolleiste aus.
 
-   ![](images/reltable.png){width="650" align="left"}
+   ![](images/reltable.png){width="650"}
 
 1. Themen per Drag-and-Drop aus der Themenliste in den zuverlässigen Editor ziehen.
 
@@ -171,13 +171,13 @@ Führen Sie die folgenden Schritte aus, um mit Beziehungstabellen im grundlegend
    >
    > Sie können Themen aus jedem Ordner in der Leiste „Verweise“ hinzufügen.
 
-   ![](images/create-reltable.png){width="550" align="left"}
+   ![](images/create-reltable.png){width="550"}
 
 1. Um Ihrer Beziehungstabelle eine Kopfzeile hinzuzufügen, klicken Sie auf **Relheader hinzufügen**.
 
 1. Um eine Spalte zu Ihrer Beziehungstabelle hinzuzufügen, klicken Sie auf **Spalte hinzufügen**.
 
-   ![](images/complete-reltable.png){width="550" align="left"}
+   ![](images/complete-reltable.png){width="550"}
 
 1. Klicken Sie auf **Speichern**.
 

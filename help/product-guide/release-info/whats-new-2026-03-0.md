@@ -3,7 +3,7 @@ title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Ver
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2026.03.0 von Adobe Experience Manager Guides
 role: Leader
 exl-id: ae26dd14-983e-4116-ac8d-729c1f4fad20
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -53,13 +53,13 @@ Die folgenden Verbesserungen der Schematron-Benutzeroberfläche wurden vorgenomm
 
 - Im Validierungsfenster wird eine Meldung mit leerem Status angezeigt, wenn keine Schematron-Datei hinzugefügt wird, was für eine bessere Klarheit und Richtung bei den nächsten Schritten sorgt.
 
-  ![](assets/schematron-panel.png){width="350" align="left"}
+  ![](assets/schematron-panel.png){width="350"}
 - Wenn mehrere Schematron-Dateien hinzugefügt werden, werden sie unter einem konsolidierten Akkordeon organisiert, was eine bessere Sichtbarkeit der konfigurierten Schematron-Dateien bietet.
 
-  ![](assets/schematron-panel-error.png){width="350" align="left"}
+  ![](assets/schematron-panel-error.png){width="350"}
 - Basierend auf dem in der Schematron-Datei definierten Rollenattribut werden die Validierungsergebnisse jetzt wie folgt kategorisiert: `Fatal`, `Error`, `Warn` oder `Info`. Jede Kategorie enthält eine sichtbare Anzahl sowie eine kontextuelle QuickInfo für eine klarere Interpretation.
 
-  ![](assets/schematron-validation-errors.png){width="350" align="left"}
+  ![](assets/schematron-validation-errors.png){width="350"}
 
 Weitere Informationen zur Verwendung von Schematrondateien in Experience Manager Guides finden Sie unter [Unterstützung für Schematrondateien](../user-guide/support-schematron-file.md).
 
@@ -67,7 +67,7 @@ Weitere Informationen zur Verwendung von Schematrondateien in Experience Manager
 
 Im rechten Bereich unter **Dateieigenschaften** *ist jetzt ein neuer Abschnitt*&#x200B;Übersetzungen“ verfügbar. Dieser Abschnitt bietet direkten Zugriff auf alle verfügbaren Sprachkopien für das aktuell geöffnete Asset (Karte, Thema, Bild usw.). Sie müssen nicht mehr zur Assets-Benutzeroberfläche navigieren, um diese Sprachkopien anzuzeigen oder darauf zuzugreifen.
 
-![](assets/translations-right-panel.png){width="350" align="left"}
+![](assets/translations-right-panel.png){width="350"}
 
 Für jede Sprachkopie können Sie den Mauszeiger über die Datei bewegen, um deren Pfad im Repository zu suchen, oder sie einfach auswählen, um sie im Editor zu öffnen. Neben dem Öffnen von Dateien können Sie auch viele Aktionen über das Menü **Optionen** ausführen. Zu den Aktionen, die Sie ausführen können, gehören Bearbeiten, Vorschau, UUID kopieren, Pfad kopieren, Zu Sammlungen hinzufügen und Eigenschaften.
 
@@ -80,7 +80,7 @@ Sie können jetzt Zitate in allen Journalfeldern wie *Titel*, *Journaltitel*, *A
 
 Weitere Informationen zum Hinzufügen von Zitaten in Experience Manager Guides finden Sie unter [Hinzufügen und Verwalten von Zitaten in &#x200B;](../user-guide/web-editor-apply-citations.md).
 
-![](assets/add-citations.png){width="350" align="left"}
+![](assets/add-citations.png){width="350"}
 
 
 

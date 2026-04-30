@@ -2,9 +2,9 @@
 title: KI-gestützte Smart Suggestions zum Erstellen von Inhalten
 description: Erfahren Sie, wie Sie KI-gestützte Smart-Vorschläge im Web-Editor anzeigen und verwenden können.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: dd6fae108ddca23d36615fe38d176723bc4cfe86
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hin
 1. Sie können die Smart-Vorschläge im Bedienfeld Vorschläge anzeigen.  Experience Manager Guides bietet Inhaltsvorschläge, die kontextuell ähnlich sind oder die gleiche Bedeutung haben. Sie können beispielsweise nach dem Thema suchen, das die genaue Versionsnummer enthält, z. B. „Version 2023.03.12“. Sie können auch nach &quot;Adobe hat seinen Hauptsitz in San Jose, Kalifornien“ suchen und ähnliche Inhalte finden wie „San Jose hat die Quartiere von vielen Softwareunternehmen wie Adobe&quot;.
 1. Wählen Sie **Inhaltsinformationen** ![Inhaltsinformationen](images/smart-suggestions-content-info-icon.svg) aus, um die Details anzuzeigen.
 
-   ![Bedienfeld „Inhaltsinformationen“](images/smart-suggestions-content-information.png){width="300" align="left"}
+   ![Bedienfeld „Inhaltsinformationen“](images/smart-suggestions-content-information.png){width="300"}
 
    *Anzeigen der detaillierten Informationen zur Inhaltsreferenz.*
 

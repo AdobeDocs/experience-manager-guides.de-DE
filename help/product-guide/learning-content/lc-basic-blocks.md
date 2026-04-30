@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Grundbausteine, die Sie Ihrem Thema ode
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Sie können die in der Editor-Symbolleiste verfügbaren grundlegenden Bearbeitun
 
 - **Einfügeoptionen**: Bietet Optionen zum Hinzufügen [Hinzufügen interaktiver Widgets](./lc-widgets.md) wie Akkordeon, Karussell, Hotspot, Registerkarten, Karteikarten und Klicken zum Anzeigen sowie [strukturelle Elemente](./lc-other-insert-options.md) wie Iframe, Blockanführungszeichen, Code-Block und mehr. Verwenden Sie dieses Menü, um Ihren Lerninhalten Funktionalität und Vielfalt hinzuzufügen, sodass sie ansprechend und gut strukturiert sind.
 
-  ![](assets/insert-menu-options-lc.png){width="650" align="left"}
+  ![](assets/insert-menu-options-lc.png){width="650"}
 
 - **Textkomponenten**: Fügt Überschrift, Absatz, Inline-Zitat, Hochgestellt, Tiefgestellt und Zitat zu Ihrem Inhalt hinzu.
 
@@ -31,27 +31,27 @@ Sie können die in der Editor-Symbolleiste verfügbaren grundlegenden Bearbeitun
   >
   > Sie können Ihren Lerninhalten auch einen Titel und Untertitel hinzufügen. Weitere Informationen zum Hinzufügen im Inhalt finden Sie unter [Hinzufügen von Titeln und Untertiteln zu Lerninhalten](#add-title-and-subtitle-to-learning-content).
 
-  ![](assets/text-learning-content.png){width="650" align="left"}
+  ![](assets/text-learning-content.png){width="650"}
 
 - **Ungeordnete Liste**: Fügt eine ungeordnete Liste innerhalb Ihres Inhalts hinzu.
 
-  ![](assets/unordered-list.png){width="650" align="left"}
+  ![](assets/unordered-list.png){width="650"}
 
 - **Sortierte Liste**: Hiermit wird eine nummerierte Liste in Ihren Inhalt eingefügt.
 
-  ![](assets/ordered-list.png){width="650" align="left"}
+  ![](assets/ordered-list.png){width="650"}
 
 - **Tabelle**: Fügt eine Tabelle mit den erforderlichen Abmessungen in den Inhalt ein. Sie können auch verschiedene Tabelleneigenschaften mithilfe des Bedienfelds **Inhaltseigenschaften** verwalten, wie unten dargestellt.
 
-  ![](assets/table-learning-content.png){width="650" align="left"}
+  ![](assets/table-learning-content.png){width="650"}
 
 - **Bild**: Fügen Sie Bilder zusammen mit Alternativtext und einer QuickInfo in den Inhalt ein. Bilder können aus dem Repository oder über eine externe URL hinzugefügt werden. Darüber hinaus können Bildeigenschaften mithilfe des Bedienfelds **Inhaltseigenschaften** geändert werden.
 
-  ![](assets/image-learning-content.png){width="650" align="left"}
+  ![](assets/image-learning-content.png){width="650"}
 
 - **Multimedia**: Fügt Video und Audio zum Inhalt hinzu. Sie können ihre Eigenschaften mithilfe des Bedienfelds **Inhaltseigenschaften** anpassen.
 
-  ![](assets/video-learning-content.png){width="650" align="left"}
+  ![](assets/video-learning-content.png){width="650"}
 
 - **Wiederverwendbarer Inhalt**: Ermöglicht die Integration vorhandener Inhalte aus Ihren Assets oder dem Repository zur Wiederverwendbarkeit. Führen Sie die folgenden Schritte aus, um einen wiederverwendbaren Inhalt einzufügen:
 
@@ -60,23 +60,23 @@ Das **Wiederverwenden von Inhalten** wird geöffnet.
    2. Navigieren Sie zum gewünschten Thema und wählen Sie es aus, um seinen Inhalt in den aktuellen Kurs aufzunehmen.
    3. Wählen Sie die ID des Inhalts aus, den Sie hinzufügen möchten. Daraufhin wird eine Vorschau angezeigt.
 
-      ![](assets/reuse-content-dialog.png){width="650" align="left"}
+      ![](assets/reuse-content-dialog.png){width="650"}
 
    4. Wählen Sie **Auswählen** aus.
 
   Der Inhalt wird eingefügt. Beispielsweise ist der Abschnitt Fahrzeugstruktur ein Inhaltselement, das wiederverwendet und zum Thema des Kurses hinzugefügt wird. Der Typ wird als **Referenz** angezeigt und seine **ID** wird im Bedienfeld **Inhaltseigenschaften** angezeigt.
 
-  ![](assets/reusable-content.png){width="650" align="left"}
+  ![](assets/reusable-content.png){width="650"}
 
 
 - **Symbole**: Fügt Symbole Ihrer Wahl zum Inhalt aus einer Liste hinzu, wie unten dargestellt.
 
-  ![](assets/symbol-learning-content.png){width="350" align="left"}
+  ![](assets/symbol-learning-content.png){width="350"}
 
 
 - **Hyperlinks**: Fügt Hyperlinks an der erforderlichen Position in Ihrem Inhalt hinzu. Dabei kann es sich um eine Dateireferenz, eine Web-URL oder einen E-Mail-Link handeln, wie unten dargestellt.
 
-  ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+  ![](assets/hyperlink-learning-content.png){width="650"}
 
 Darüber hinaus bietet **Dropdown-** „Menü“ Zugriff auf die Bearbeitungsaktionen (Ausschneiden, Kopieren, Löschen), Suchen und Ersetzen sowie die Versionsbezeichnung.
 

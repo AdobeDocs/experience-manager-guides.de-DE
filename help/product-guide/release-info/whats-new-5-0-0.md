@@ -1,11 +1,11 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 5.0.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 5.0.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 5.0.0 von Adobe Experience Manager Guides
 role: Leader
 exl-id: 523667d9-fed4-4798-9554-2a27033c8027
-source-git-commit: 14641e72c4b488251c10318f4661e31b5d811cef
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -28,20 +28,20 @@ Die wichtigsten Highlights sind:
 
   Weitere Informationen finden Sie unter [Adobe Experience Manager Guides-Startseitenerlebnis](../user-guide/intro-home-page.md).
 
-  ![](assets/aem-home-page-whats-new.png){width="800" align="left"}
+  ![](assets/aem-home-page-whats-new.png){width="800"}
 
 
 - **Neues Editor**-Erlebnis: Erleben Sie den Editor jetzt in einem neuen Look-and-Feel. Die überarbeitete Editor-Benutzeroberfläche bietet eine übersichtlichere und besser organisierte Symbolleiste, nahtlose Navigation und ein insgesamt intuitives Erlebnis, damit Dokumente schneller und effizienter erstellt werden können.
 
   Lernen Sie [Editor-Funktionen kennen](../user-guide/web-editor-features.md).
 
-  ![](assets/editor-new-ui-whats-new.png){width="800" align="left"}
+  ![](assets/editor-new-ui-whats-new.png){width="800"}
 
 - **Dedizierte Kartenkonsole**: Einführung in die Kartenkonsole, eine dedizierte Konsole, in der alle Funktionen zur Kartenverwaltung und -veröffentlichung zusammengefasst sind. Jetzt erhalten Sie Optionen zum Generieren von Ausgaben, Übersetzen von Inhalten, Erstellen von Berichten und mehr - alles in einer Benutzeroberfläche.
 
   Weitere Informationen zu [Kartenverwaltung und -veröffentlichung](../user-guide/map-console-overview.md).
 
-  ![](assets/map-console-new-ui-whats-new.png){width="800" align="left"}
+  ![](assets/map-console-new-ui-whats-new.png){width="800"}
 
 
 
@@ -55,7 +55,7 @@ Die Integration bietet Ihnen auch die Möglichkeit, Ihre Arbeitswarteschlangen z
 
 Weitere Informationen finden Sie unter [Workfront-Integration](../user-guide/workfront-integration.md).
 
-![](assets/workfront-new.png){width="800" align="left"}
+![](assets/workfront-new.png){width="800"}
 
 
 ## Schnellere und skalierbare neue AEM Sites-Publishing-Engine
@@ -64,7 +64,7 @@ Erleben Sie eine schnellere und skalierbare Veröffentlichung in AEM Sites mit d
 
 Weitere Informationen zur Veröffentlichung von [AEM Sites](../user-guide/generate-output-aem-site-web-editor.md).
 
-![](assets/new-aem-sites-preset.png){width="500" align="left"}
+![](assets/new-aem-sites-preset.png){width="500"}
 
 
 ## Nahtlose Veröffentlichung von eigenständigen Inhalten in AEM Sites mit Veröffentlichung einzelner Themen
@@ -73,7 +73,7 @@ Einführung der Veröffentlichung einzelner Themen auf AEM Sites-Seiten, mit der
 
 Weitere Informationen finden Sie unter [Veröffentlichen von AEM Sites-Seiten](../user-guide/publish-aem-sites.md).
 
-![](assets/aem-sites-page-generate.png){width="500" align="left"}
+![](assets/aem-sites-page-generate.png){width="500"}
 
 
 
@@ -83,7 +83,7 @@ Erleben Sie jetzt eine sauberere, effizientere und leistungsfähigere Möglichke
 
 Weitere Informationen finden Sie unter [Markdown-Authoring](../user-guide/web-editor-markdown-topic.md).
 
-![](assets/markdown-editor.png){width="800" align="left"}
+![](assets/markdown-editor.png){width="800"}
 
 ## Verbesserungen am Editor
 
@@ -138,14 +138,14 @@ Im Rahmen der neuen Version wurden die folgenden Veröffentlichungsverbesserunge
 
   Weitere Informationen finden Sie unter [Hinzufügen von Feldern und Metadaten im Seiten-Layout](../native-pdf/design-page-layout.md#add-fields-and-metadata-add-fields-metadata).
 
-  ![](assets/metadata-topic-content.png){width="300" align="left"}
+  ![](assets/metadata-topic-content.png){width="300"}
 
 
 - Es wurde eine Option zum Aktivieren oder Deaktivieren der DITA-OT-Vorverarbeitung für die native PDF-Ausgabe eingeführt. Aktivieren Sie diese Option, wenn Ihr Inhalt während der Verarbeitung eine DITA-OT-basierte Normalisierung oder benutzerdefinierte DITA-OT-Plug-ins erfordert. Dadurch erhalten Sie mehr Kontrolle darüber, wie Inhalte für die PDF-Generierung verarbeitet werden. Standardmäßig ist die Einstellung auf &quot;**&quot;**.
 
   Weitere Informationen finden Sie unter [Arbeiten mit der PDF-Ausgabevorgabe](../user-guide/generate-output-pdf.md)
 
-  ![](assets/ditaot-setting-enabled.png){width="500" align="left"}
+  ![](assets/ditaot-setting-enabled.png){width="500"}
 
 - Die Druckeinstellungen für die native PDF-Ausgabegenerierung wurden aus der Einstellung **Vorlagen** in die **native PDF-**) verschoben, um die Benutzerfreundlichkeit zu verbessern. Sie können jetzt dieselbe Vorlage für Online- und Druck-PDFs mit verschiedenen Druckeinstellungen wie Farbprofil verwenden.
 

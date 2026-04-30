@@ -2,9 +2,9 @@
 title: Verwenden des KI-Assistenten zur intelligenten Erstellung von Dokumenten "
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten Dokumente mit intelligenter Effizienz erstellen können.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Adobe Experience Manager Guides bietet ein KI-Assistenten-Tool, mit dem Sie Ihre
 
 Nachdem Sie den Text in einem Thema ausgewählt haben, können Sie eine der KI-Assistentenaktionen ausführen:
 
-![KI-Assistent](./images/ai-assistant-panel.png){width="300" align="left"}
+![KI-Assistent](./images/ai-assistant-panel.png){width="300"}
 
 ## Wiederverwendbaren Inhalt vorschlagen
 

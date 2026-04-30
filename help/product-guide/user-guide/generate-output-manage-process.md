@@ -4,9 +4,9 @@ description: Verwalten Sie den Prozess der Ausgabenerstellung in AEM Sites, PDF,
 feature: Publishing
 role: User
 exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Nachdem Sie die Ausgabegenerierungsaufgabe für eine Zuordnung initiiert oder au
 
 1. Wählen Sie **OUTPUTS** aus.
 
-   ![](images/output-queued.png){align="left"}
+   ![](images/output-queued.png)
 
    Die Seite „Ausgaben“ ist in zwei Teile unterteilt:
 
@@ -35,7 +35,7 @@ Nachdem Sie die Ausgabegenerierungsaufgabe für eine Zuordnung initiiert oder au
 
      Listet die Ausgaben auf, die entweder auf die Generierung warten oder sich im Generierungsprozess befinden. Die Aufgaben in der Warteschlange oder in Bearbeitung werden mit einem blauen Farbsymbol vor dem Voreinstellungsnamen angezeigt. Sie finden auch die Einstellung für die Ausgabegenerierung oder die Voreinstellung für die Aufgabe in der Warteschlange, den Typ, den Benutzer, der die Aufgabe initiiert hat, den Zeitpunkt, seit dem die Aufgabe in die Warteschlange gestellt wird, und den aktuellen Status.
 
-     Wählen Sie den Link aus, um auf das **Dashboard veröffentlichen** zuzugreifen und den aktuellen Status der Ausführung anzuzeigen. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Veröffentlichungs-Dashboard verfügbar. Die **Eingereihte Ausgaben** und der **Veröffentlichungs-Dashboard** Link werden nur angezeigt, wenn es Ausgaben gibt, die entweder darauf warten, generiert zu werden, oder sich im Generierungsprozess befinden. Sie werden nicht angezeigt, wenn die Ausgabeaufgaben abgeschlossen wurden. Weitere Informationen über das Dashboard „Veröffentlichen“ finden Sie unter [Verwalten von Veröffentlichungsaufgaben mithilfe des Dashboards „Veröffentlichen“](generate-output-publish-dashboard.md#).
+     Wählen Sie den Link aus, um auf das **Dashboard veröffentlichen** zuzugreifen und den aktuellen Status der Ausführung anzuzeigen. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Veröffentlichungs-Dashboard verfügbar. Die **Eingereihte Ausgaben** und der **Veröffentlichungs-Dashboard** Link werden nur angezeigt, wenn es Ausgaben gibt, die entweder darauf warten, generiert zu werden, oder sich im Generierungsprozess befinden. Sie werden nicht angezeigt, wenn die Ausgabeaufgaben abgeschlossen sind.Weitere Informationen zum Dashboard „Veröffentlichen“ finden Sie unter [Verwalten von Veröffentlichungsaufgaben mit dem Dashboard „Veröffentlichen“](generate-output-publish-dashboard.md#).
 
    - **Erzeugte Ausgaben**
 
@@ -64,17 +64,17 @@ Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung �
 
 1. Wählen Sie das Symbol **Diesen Auftrag abbrechen** aus.
 
-   ![](images/cancel-publish-task-map-console.png){align="left"}
+   ![](images/cancel-publish-task-map-console.png)
 
 1. Wählen **auf** Eingabeaufforderung **Abbruch bestätigen** die Option „Ja“.
 
-   ![](images/confirm-cancel-output-map-console.png){align="left"}
+   ![](images/confirm-cancel-output-map-console.png)
 
    Wenn die Aufgabe noch nicht gestartet wurde, wird der Abbruchbefehl für die Aufgabe ausgeführt. Für eine Aufgabe, die abgebrochen wird, wird der Status auf Abbruch gesetzt.
 
    Nachdem die Aufgabe erfolgreich abgebrochen wurde, wird sie in die Liste **Erzeugte Ausgaben** mit dem Status **Abgebrochen** verschoben. Wenn Sie den Mauszeiger über die abgebrochene Aufgabe bewegen, wird der Name des Benutzers angezeigt, der die Aufgabe abgebrochen hat. Im folgenden Screenshot wird die Aufgabe *HTML* abgebrochen.
 
-   ![](images/cancelled-output-task.png){align="left"}
+   ![](images/cancelled-output-task.png)
 
 
 ## Ausgabeaufgabe löschen
@@ -91,7 +91,7 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabeaufgabe aus der Liste Erz
 
 1. Wählen Sie das Löschsymbol aus.
 
-   ![](images/delete-output-task.png){align="left"}
+   ![](images/delete-output-task.png)
 
 1. Wählen Sie **Ja** in der **Löschen bestätigen** aus.
 

@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides, Version September 2023
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides, Version September 2023
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version September 2023 von Adobe Experience Manager Guides as a Cloud Service
 exl-id: d185d27f-0cbb-4ec6-ac65-cb69f7572c3f
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
@@ -39,28 +39,28 @@ Zitate sind Verweise auf die Quelle von Informationen, die Ihrem Inhalt hinzugef
 
 In AEM Guides können Sie Zitate hinzufügen oder Zitate importieren und sie auf Ihre Inhalte anwenden. Sie können diese Zitate aus jeder Quelle von Büchern, Websites und Zeitschriften hinzufügen.
 
-Nachdem Sie Ihre Zitate in Ihre Themen eingefügt haben, können Sie sie im Web-Editor in der Vorschau anzeigen. Sie können auch Inhalte mit Zitaten veröffentlichen, indem Sie natives PDF verwenden.
+Nachdem Sie Ihre Zitate in Ihre Themen eingefügt haben, können Sie sie im Web-Editor in der Vorschau anzeigen. Sie können auch Inhalte mit Zitaten veröffentlichen, indem Sie die native PDF verwenden.
 
-![In einem Bedienfeld aufgeführte Zitate](assets/citation-panel.png){width="300" align="left"}
+![In einem Bedienfeld aufgeführte Zitate](assets/citation-panel.png){width="300"}
 
 *Anzeigen der Liste der Zitate im Bereich „Zitate“.*
 
 Weitere Informationen finden Sie unter [Hinzufügen und Verwalten von Zitaten in Ihren Inhalten](../user-guide/web-editor-apply-citations.md).
 
 
-## Publish zu einem Inhaltsfragment
+## In einem Inhaltsfragment veröffentlichen
 
 Inhaltsfragmente sind separate Inhaltselemente in AEM. Es handelt sich um strukturierte Inhalte, die auf einem Inhaltsmodell basieren. Inhaltsfragmente sind reine Inhalte ohne Design- oder Layout-Informationen. Sie können unabhängig von den von AEM unterstützten Kanälen erstellt und verwaltet werden. Die Modularität und Wiederverwendbarkeit der Inhaltsfragmente führt zu mehr Flexibilität, Konsistenz, Effizienz und einfacherem Management.
 
 AEM Guides bietet jetzt die Möglichkeit, ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment zu veröffentlichen. Sie können eine JSON-basierte Zuordnung zwischen einem Thema und einem Inhaltsfragmentmodell erstellen. Verwenden Sie diese Zuordnung, um Inhalte, die in einigen oder allen Elementen innerhalb eines Themas vorhanden sind, in einem Inhaltsfragment zu veröffentlichen.
 
-Nutzen Sie die Leistungsfähigkeit von AEM Guides und Inhaltsfragmenten und verwenden Sie Inhaltsfragmente auf jeder AEM-Site. Sie können die Details auch über APIs extrahieren, die von Inhaltsfragmenten unterstützt werden.
+Nutzen Sie die Leistungsfähigkeit von AEM Guides und Inhaltsfragmenten und verwenden Sie Inhaltsfragmente in jeder AEM-Site. Sie können die Details auch über APIs extrahieren, die von Inhaltsfragmenten unterstützt werden.
 
-![Option zum Veröffentlichen des Inhaltsfragments](assets/content-fragment-publish.png){width="550" align="left"}
+![Option zum Veröffentlichen des Inhaltsfragments](assets/content-fragment-publish.png){width="550"}
 
-*Publish eines Themas zu einem Inhaltsfragment.*
+*Veröffentlichen eines Themas in einem Inhaltsfragment.*
 
-Weitere Informationen finden Sie unter [Publish in einem Inhaltsfragment](../user-guide//publish-content-fragment.md).
+Weitere Informationen finden Sie unter [In einem Inhaltsfragment veröffentlichen](../user-guide//publish-content-fragment.md).
 
 ## Verbesserungen bei Überprüfungen
 
@@ -71,7 +71,7 @@ AEM Guides bietet jetzt eine verbesserte Überprüfungsfunktion mit den folgende
 Die Durchführung von Überprüfungen ist ein wichtiges Merkmal von AEM Guides. Dies hilft den Reviewern bei der Überprüfung der ihnen zugewiesenen Dokumente .
 Jetzt können Sie nach einem Thema suchen, indem Sie einen Teil des Textes des Titels oder Dateipfads in die Suchleiste der Themenansicht des Review-Panels eingeben. Sie können auch alle Themen anzeigen oder Themen mit Kommentaren anzeigen. Standardmäßig können Sie alle in der Prüfungsaufgabe vorhandenen Themen anzeigen. Weitere Informationen finden Sie unter [Themen &#x200B;](../user-guide/review-topics.md).
 
-![Suchen in einem Bedienfeld mit Prüfungsthemen](assets/review-search-topic.png){width="800" align="left"}
+![Suchen in einem Bedienfeld mit Prüfungsthemen](assets/review-search-topic.png){width="800"}
 
 *Suchen eines Prüfungsthemas im Prüfungsbereich.*
 
@@ -85,13 +85,13 @@ Erstellen Sie benutzerdefinierte Pakete auf AEM Guides, um die Erweiterbarkeit m
 
 ## Native PDF-Verbesserungen
 
-Die folgenden nativen PDF-Verbesserungen wurden in der Version vom September 2023 vorgenommen, um AEM Guides zu einem robusteren Produkt zu machen:
+In der Version vom September 2023 wurden die folgenden nativen PDF-Verbesserungen vorgenommen, um AEM Guides zu einem robusteren Produkt zu machen:
 
 
 
 ### Sortieren von Seiten in der PDF-Ausgabe
 
-Sie können die folgenden Abschnitte auf Ihrem PDF ein- oder ausblenden und auch die Reihenfolge festlegen, in der sie in der endgültigen PDF-Ausgabe angezeigt werden sollen:
+Sie können die folgenden Abschnitte in Ihrer PDF ein- oder ausblenden und auch die Reihenfolge festlegen, in der sie in der endgültigen PDF-Ausgabe angezeigt werden sollen:
 
 * IHV
 * Kapitel und Themen
@@ -102,13 +102,13 @@ Sie können die folgenden Abschnitte auf Ihrem PDF ein- oder ausblenden und auch
 * Zitierung
 * Seiten-Layouts
 
-Wenn Sie einen bestimmten Abschnitt in Ihrer PDF-Ausgabe nicht anzeigen möchten, können Sie dies ausblenden, indem Sie den Umschalter ausschalten.
+Wenn Sie einen bestimmten Abschnitt in Ihrer PDF-Ausgabe nicht anzeigen möchten, können Sie dies ausblenden, indem Sie den Umschalter deaktivieren.
 
 Weitere Informationen finden Sie unter [Seitenreihenfolge](../native-pdf/components-pdf-template.md#page-order).
 
 ### Zusammenführen von Seiten
 
-Bei einer nativen PDF-Ausgabe beginnen standardmäßig alle Abschnitte auf einer neuen Seite. Jetzt können Sie einen Abschnitt mit seiner vorherigen Seite oder der nächsten Seite zusammenführen. Dadurch wird der Abschnitt in Fortsetzung mit der ausgewählten Seite in der PDF-Ausgabe veröffentlicht und es gibt keinen Seitenumbruch zwischen den Seiten.
+In einer nativen PDF-Ausgabe beginnen standardmäßig alle Abschnitte auf einer neuen Seite. Jetzt können Sie einen Abschnitt mit seiner vorherigen Seite oder der nächsten Seite zusammenführen. Dadurch wird der Abschnitt in Fortsetzung mit der ausgewählten Seite in der PDF-Ausgabe veröffentlicht und es gibt keinen Seitenumbruch zwischen den Seiten.
 
 Weitere Informationen finden Sie in der Beschreibung der Funktion **Seiten zusammenführen** im Abschnitt [Seitenreihenfolge](../native-pdf/components-pdf-template.md#page-order).
 
@@ -118,7 +118,7 @@ Sie können die grundlegenden Konfigurationseinstellungen für den Start eines K
 
 Jetzt können Sie auch ein Kapitel von der aktuellen Seite aus starten. Wenn Sie dies wählen, werden alle Kapitel in Fortsetzung ohne Seitenumbrüche veröffentlicht. Wenn beispielsweise ein Kapitel in der Mitte von Seite 15 endet, beginnt das nächste Kapitel ebenfalls von der 15. Seite selbst.
 
-Weitere Informationen finden Sie in der Beschreibung der **Allgemein**-Registerkarte unter [Erweiterte PDF-Einstellungen](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
+Weitere Informationen finden Sie in der Beschreibung der **Allgemein** Registerkarte unter [Erweiterte PDF-Einstellungen](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
 
 ### Statische Seiten
 
@@ -148,7 +148,7 @@ Jetzt wurde der CSS-Editor neu gestaltet, um das Benutzererlebnis mit Selektoren
 
 Sie können jetzt benutzerdefinierte Selektoren verwenden, um komplexe Stile hinzuzufügen. Mit dem neuen Selektorfeld können Sie neben der Kombination aus Klasse, Tag und Pseudoklasse auch benutzerdefinierte Selektoren hinzufügen. Sie können beispielsweise `table a.link` Stil für alle Hyperlinks in einer Tabelle erstellen.
 
-![Hinzufügen von Stilen in nativen PDF-Vorlagen](assets/add-styles-native-pdf.png){width="300" align="left"}
+![Hinzufügen von Stilen in nativen PDF-Vorlagen](assets/add-styles-native-pdf.png){width="300"}
 
 *Fügen Sie die Details für den neuen Stil hinzu.*
 
@@ -172,22 +172,22 @@ Weitere Informationen zum Umgang mit hierarchischen Definitionen von Betreffdefi
 ## Alle Vorgaben in einer Zuordnungssammlung auswählen
 
 Sie können nicht nur eine einzelne Vorgabe und alle Ordnerprofilvorgaben aktivieren, sondern auch alle Vorgaben für eine DITA-Zuordnung in einem Schritt aktivieren.
-![Bearbeiten einer Zuordnungssammlung](assets/edit-map-collection-cs.png){width="800" align="left"}\
+![Bearbeiten einer Zuordnungssammlung](assets/edit-map-collection-cs.png){width="800"}\
 *Wählen Sie alle Vorgaben in einer Zuordnungssammlung aus.*
 
 Weitere Informationen finden Sie unter [Zuordnungssammlung für die Ausgabegenerierung verwenden](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 
-## Native PDF-Unterstützung im Publish-Dashboard für Massenspeicher
+## Native PDF-Unterstützung im Dashboard zur Massenveröffentlichung
 
 
-Mit der Massenaktivierungsfunktion von AEM Guides können Sie Ihre Inhalte schnell und einfach von der Autoren- zur Veröffentlichungsinstanz aktivieren. In die Massenaktivierungszuordnung können die native PDF-Ausgabevorgabe, die AEM-Site-, PDF-, HTML5-, benutzerdefinierte und JSON-Ausgabe einbezogen werden.
+Mit der Massenaktivierungsfunktion von AEM Guides können Sie Ihre Inhalte schnell und einfach von der Autoren- zur Veröffentlichungsinstanz aktivieren. In die Massenaktivierungszuordnung können die native PDF-Ausgabevorgabe, die AEM-Site, PDF, HTML5, benutzerdefinierte und JSON-Ausgabe einbezogen werden.
 Weitere Informationen finden Sie unter [Massenaktivierung veröffentlichter Inhalte](../user-guide/conf-bulk-activation.md).
 
 ## Verbessertes Tool für Massenverschiebung
 
 Als Administrator können Sie jetzt das verbesserte Tool zum Verschieben von Massen verwenden, um Ordner mit vielen Dateien von einem Speicherort an einen anderen zu verschieben.
-Sie können das Dialogfeld Datei durchsuchen verwenden, um die Quellordner auszuwählen, die verschoben werden sollen. Sie können auch zum Zielspeicherort navigieren, um die Quellordner zu verschieben. Wählen Sie ![Informationssymbol](assets/info-icon.svg) {width="25" align="left"} neben einem Feld aus, um weitere Informationen dazu anzuzeigen.
+Sie können das Dialogfeld Datei durchsuchen verwenden, um die Quellordner auszuwählen, die verschoben werden sollen. Sie können auch zum Zielspeicherort navigieren, um die Quellordner zu verschieben. Wählen Sie ![Informationssymbol](assets/info-icon.svg) {width="25"} neben einem Feld aus, um weitere Informationen dazu anzuzeigen.
 
 Weitere Informationen finden Sie unter [Dateien stapelweise verschieben](../user-guide/authoring-file-management.md#move-files-bulk).
 
@@ -196,7 +196,7 @@ Weitere Informationen finden Sie unter [Dateien stapelweise verschieben](../user
 
 Verwenden Sie das Kontextmenü, um die Datei (.dita, .xml, Audio, Video oder Bild) schnell in der Vorschau anzuzeigen, ohne sie zu öffnen. Sie können jetzt die Größe des Vorschaubereichs ändern. Wenn der Inhalt einen Verweis-Link enthält, können Sie ihn auswählen, um ihn in einer neuen Registerkarte zu öffnen.
 
-![Vorschau-](assets/quick-preview_cs.png){width="800" align="left"}
+![Vorschau-](assets/quick-preview_cs.png){width="800"}
 
 *Vorschau der Datei im Fensterbereich anzeigen.*
 
@@ -205,6 +205,6 @@ Weitere Informationen zum Kontextmenü finden Sie in der **Optionen für eine Da
 
 ## Verwenden von Variablen für aktuelles Datum und aktuelle Uhrzeit in den Optionen Zielpfad, Site-Name oder Dateiname .
 
-Beim Generieren von Ausgaben in AEM Site oder PDF können Sie Variablen verwenden, um die Optionen **Zielpfad**, **Site-Name** oder **Dateiname** festzulegen. Sie können jetzt auch die Variablen `${system_date}` und `${system_time}` verwenden. Mithilfe dieser Variablen können Sie das aktuelle Datum und die aktuelle Uhrzeit an diese Optionen anhängen.
+Beim Generieren von Ausgaben in AEM Site oder PDFs können Sie Variablen verwenden, um die Optionen **Zielpfad**, **Site-** oder **Dateiname** festzulegen. Sie können jetzt auch die Variablen `${system_date}` und `${system_time}` verwenden. Mithilfe dieser Variablen können Sie das aktuelle Datum und die aktuelle Uhrzeit an diese Optionen anhängen.
 
 Erfahren Sie, wie [Variablen zum Festlegen der Optionen Zielpfad, Site-Name oder Dateiname verwenden](../user-guide/generate-output-use-variables.md).

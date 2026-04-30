@@ -5,10 +5,10 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 1%
+source-wordcount: '947'
+ht-degree: 2%
 
 ---
 
@@ -53,11 +53,11 @@ Die Vorlage Dokumentations-Container-Seite wird verwendet, um die Produktdokumen
 - Es dient als Einstiegspunkt oder Homepage für eine bestimmte Dokumentation (z. B. ein Produkthandbuch oder ein Handbuch).
 - Fügen Sie die Eigenschaft id=„category-page“ zum jcr:content des ursprünglichen Knotens der Vorlage hinzu. Dadurch wird sichergestellt, dass alle aus dieser Vorlage erstellten Seiten von AEM Guides automatisch als Dokumentations-Container behandelt werden.
 
-  ![Hinzufügen von id=„category-page“](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+  ![Hinzufügen von id=„category-page“](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650"}
 
 - Fügen Sie eine Text -Komponente mit der obligatorischen Eigenschaft hinzu: text=&quot;$category.html$&quot;.
 
-  ![Hinzufügen der Textkomponente](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![Hinzufügen der Textkomponente](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650"}
 
 - enthält in der Regel Navigationselemente wie Links zu Abschnitten oder Themen in der Dokumentation.
 - Sie kann angepasst werden, um Branding, Kopf- und Fußzeilen sowie andere Design-Elemente einzuschließen.
@@ -71,7 +71,7 @@ Wenn Sie eine DITA-Karte für ein Produkthandbuch haben, generiert die Dokumenta
 - Jedes Thema in einer DITA-Zuordnung wird mithilfe dieser Vorlage als separate Seite gerendert.
 - Enthält eine **Textkomponente** mit der obligatorischen Eigenschaft: text=&quot;$topic.content$&quot;.
 
-  ![Hinzufügen der Textkomponente mit der obligatorischen Eigenschaft](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![Hinzufügen der Textkomponente mit der obligatorischen Eigenschaft](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - Dieser Platzhalter wird während der Site-Erstellung durch den tatsächlichen Inhalt des DITA-Themas ersetzt.
    - Die Textkomponente wird normalerweise innerhalb einer **Container-Komponente“ platziert** um ein ordnungsgemäßes Layout und Formatieren sicherzustellen.
@@ -82,7 +82,7 @@ Wenn Sie ein DITA-Thema über „Installationsanweisungen“ haben, generiert di
 
 **Container-Komponente:**
 
-![Container-Komponente hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![Container-Komponente hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650"}
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Wenn Sie ein DITA-Thema über „Installationsanweisungen“ haben, generiert di
 
 Fügen Sie dieselbe Komponente (Container- und Textkomponente) in die Struktur derselben Vorlage ein:
 
-![Container- und Textkomponente hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![Container- und Textkomponente hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
 ## Wiedergeben von Handbüchern in Komponenten in benutzerdefinierten Vorlagen
 
@@ -124,7 +124,7 @@ Standardmäßig werden die im AEM Guides-Komponentenpaket bereitgestellten Clien
    1. Öffnen Sie die **Produktseite** im **Editor-Modus**.
    2. Wählen Sie **Vorlage bearbeiten** aus. Dadurch wird eine URL wie conf/settings/wcm/templates/structure.html geöffnet.
 
-      ![Vorlage bearbeiten](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"}
+      ![Vorlage bearbeiten](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
 
 2. **Seitenrichtlinie aktualisieren:**
 
@@ -135,7 +135,7 @@ Standardmäßig werden die im AEM Guides-Komponentenpaket bereitgestellten Clien
 
 3. **Änderungen speichern** Speichern Sie die Vorlage, nachdem Sie die erforderlichen Client-Bibliotheken hinzugefügt haben.
 
-   ![Client-Bibliotheken hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"}
+   ![Client-Bibliotheken hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650"}
 
 
 >[!NOTE]

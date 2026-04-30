@@ -1,10 +1,10 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2024.06.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2024.06.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2024.06.0 von Adobe Experience Manager Guides as a Cloud Service.
 exl-id: c885b8ba-5230-4d51-8f38-311b3a33fe0a
-source-git-commit: 2455307ef747b2f2574666ee773d931b302f58ca
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '649'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ Eine Liste der in dieser Version behobenen Probleme finden Sie im Artikel [Behob
 Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2024.06.0](upgrade-instructions-2024-06-0.md).
 
 
-## Publish eines Themas oder seiner Elemente in ein Experience Fragment
+## Veröffentlichen eines Themas oder seiner Elemente in einem Experience Fragment
 
 Ein Experience Fragment ist eine modulare Inhaltseinheit in Adobe Experience Manager, die Inhalte und Layout integriert. Experience Fragments sind entscheidend für die Erstellung konsistenter und ansprechender Erlebnisse, die über mehrere Kanäle hinweg weiter verwendet werden können.
 
@@ -28,7 +28,7 @@ Mit Experience Manager Guides können Sie jetzt ein Thema oder seine Elemente in
 
 
 
-Weitere Informationen finden Sie unter [Publish Experience Fragments](../user-guide/publish-experience-fragment.md).
+Weitere Informationen finden Sie unter [Veröffentlichen von Experience Fragments](../user-guide/publish-experience-fragment.md).
 
 
 ## Verbesserungen bei der Veröffentlichung von Inhaltsfragmenten
@@ -38,16 +38,16 @@ Experience Manager Guides bietet auch einige hilfreiche Verbesserungen bei Inhal
 - Sie können Inhalte bei der Veröffentlichung in einem Inhaltsfragment einfach mit Bedingungen filtern, indem Sie eine DITAVAL-Datei oder bedingte Attribute verwenden.
 - Sie können die Inhaltsfragmente eines Themas auch im Abschnitt **Ausgaben** der Seite **Dateieigenschaften** veröffentlichen und anzeigen.
 
-![Registerkarte „Optionen“ der Dateieigenschaften](./assets/file-properties-outputs-tab.png){width="300" align="left"}
+![Registerkarte „Optionen“ der Dateieigenschaften](./assets/file-properties-outputs-tab.png){width="300"}
 
-Weitere Informationen finden Sie unter [Publish-Inhaltsfragmente](../user-guide/publish-content-fragment.md).
+Weitere Informationen finden Sie unter [Inhaltsfragmente veröffentlichen](../user-guide/publish-content-fragment.md).
 
 
-## Übergeben von Metadaten aus Themendateieigenschaften an die native PDF-Ausgabe
+## Möglichkeit, Metadaten aus Themendateieigenschaften an native PDF-Ausgaben zu übergeben
 
-Jetzt können Sie mit Experience Manager Guides die Metadaten aus den Dateieigenschaften eines Themas zu den Seiten-Layouts hinzufügen, während Sie die native PDF-Ausgabe generieren. Verwenden Sie diese Funktion, um themenspezifische Metadaten wie Titel, Tags und Beschreibung zu den Seiten-Layouts hinzuzufügen. Sie können Ihre veröffentlichte PDF auch auf der Grundlage der Metadaten des Themas anpassen, z. B. indem Sie dem Hintergrund des Themas ein Wasserzeichen auf Grundlage des Dokumentstatus des Themas hinzufügen.
+Jetzt können Sie mit Experience Manager Guides die Metadaten aus den Dateieigenschaften eines Themas zu den Seitenlayouts hinzufügen und dabei die native PDF-Ausgabe generieren. Verwenden Sie diese Funktion, um themenspezifische Metadaten wie Titel, Tags und Beschreibung zu den Seiten-Layouts hinzuzufügen. Sie können Ihre veröffentlichte PDF auch auf der Grundlage der Metadaten des Themas anpassen, z. B. indem Sie dem Hintergrund des Themas ein Wasserzeichen auf Grundlage des Dokumentstatus des Themas hinzufügen.
 
-![Hinzufügen von Metadaten im nativen PDF](./assets/add-metadata-native-pdf.png) {width="300" align="left"}
+![Hinzufügen von Metadaten im nativen PDF-Format](./assets/add-metadata-native-pdf.png) {width="300"}
 
 *Fügen Sie den Feldern in Ihren Seiten-Layouts Metadaten hinzu.*
 
@@ -58,7 +58,7 @@ Erfahren Sie, wie Sie [Felder und Metadaten](../native-pdf/design-page-layout.md
 Experience Manager Guides verbessert das Benutzererlebnis bei der Auswahl der Inhalte über die Elemente hinweg im Web-Editor. Sie können mühelos Inhalte über verschiedene Elemente hinweg auswählen und Vorgänge wie fett, kursiv und unterstrichen ausführen. Mit dieser Funktion können Sie die Formatierung für teilweise ausgewählte Inhalte nahtlos anwenden oder entfernen. Sie können auch schnell die Inhalte löschen, die Sie über Elemente hinweg ausgewählt haben. Sobald der Inhalt gelöscht wurde, wird der verbleibende Inhalt ggf. automatisch unter einem einzigen gültigen Element zusammengeführt.
 
 Sie können auch teilweise Inhalte über Elemente hinweg auswählen und dann den Inhalt unter einem gültigen DITA-Element umgeben.
-![Dialogfeld „Element umschließen](./assets/surround-element.png) {width="300" align="left"}
+![Dialogfeld „Element umschließen“](./assets/surround-element.png) {width="300"}
 
 *Umschließen des ausgewählten Inhalts mit einem gültigen Element.*
 
@@ -68,7 +68,7 @@ Weitere Informationen finden Sie unter [Teilweise Auswahl von Inhalten über Ele
 
 ## Unterstützung für Markdown-Dokumente in der nativen PDF-Veröffentlichung
 
-Experience Manager Guides unterstützt auch Markdown-Dokumente in der nativen PDF-Veröffentlichung. Diese Funktion ist praktisch und hilft Ihnen beim Generieren von PDF für die Markdown-Dateien in Ihrer DITA-Zuordnung. Die Markdown-Unterstützung bei der nativen PDF-Veröffentlichung hilft Ihnen beim einfachen Erstellen, Verwalten und Freigeben Ihrer Dokumente.
+Experience Manager Guides unterstützt auch Markdown-Dokumente in der nativen PDF-Veröffentlichung. Diese Funktion ist praktisch und hilft Ihnen beim Generieren von PDFs für die Markdown-Dateien in Ihrer DITA-Karte. Die Markdown-Unterstützung in der nativen PDF-Veröffentlichung erleichtert Ihnen das einfache Erstellen, Verwalten und Freigeben von Dokumenten.
 
 Weitere Informationen finden Sie unter [Unterstützung für Markdown-Dokumente](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents).
 

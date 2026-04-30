@@ -4,9 +4,9 @@ description: Erstellen Sie ein DITA-Projekt mithilfe einer Vorlage in AEM Guides
 exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
 
 1. Wählen Sie **Erstellen** \> **Projekt**, um den Assistenten zum Erstellen eines Projekts zu starten.
 
-   ![](images/project-console-63.png){width="650" align="left"}
+   ![](images/project-console-63.png){width="650"}
 
 1. Wählen Sie auf der Seite Projekt erstellen die Vorlage **DITA-Projekt** und klicken Sie auf **Weiter**.
 
@@ -43,7 +43,7 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Projekt zu erstellen:
 
    Informationen auf der Registerkarte **Standard**:
 
-   ![](images/create-project.png){width="650" align="left"}
+   ![](images/create-project.png){width="650"}
 
    - Geben Sie den **(Titel**, **Beschreibung** und **Fälligkeitsdatum** ein.
 

@@ -1,10 +1,11 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2025.10.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2025.10.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2025.10.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
+exl-id: 5bc6f1f6-225b-46c0-a05a-099583e402d8
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -33,7 +34,7 @@ Experience Manager Guides enthält jetzt die Schaltfläche **Duplizierte IDs** i
 
 Weitere Informationen finden Sie unter [Zusätzliche Funktionen im Editor](../user-guide/web-editor-other-features.md).
 
-![](assets/duplicate-element-IDs.png){width="350" align="left"}
+![](assets/duplicate-element-IDs.png){width="350"}
 
 ## Verbesserungen der Repository- und Berichtsfilter
 
@@ -45,7 +46,7 @@ Als Initiator einer Prüfungsaufgabe können Sie jetzt den Status Ihrer Prüfung
 
 Weitere Informationen finden Sie unter [Anfordern einer erneuten Überprüfung oder Schließen einer Prüfungsaufgabe als Autor](../user-guide/review-close-review-task.md).
 
-![](assets/check-review-status-icon.png){width="350" align="left"}
+![](assets/check-review-status-icon.png){width="350"}
 
 
 
@@ -59,4 +60,3 @@ Details finden Sie unter:
 
 - [API zum Nachverfolgen des Verarbeitungsstatus einzelner Assets und Ordner](../api-reference/track-post-processing-status.md)
 - [Einstellung des Ereignishandlers nach der Verarbeitung in fmdita config manager](../api-reference/post-process-event.md)
-

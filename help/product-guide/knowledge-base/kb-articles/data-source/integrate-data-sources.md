@@ -2,9 +2,9 @@
 title: Architektur der Integration externer Datenquellen in AEM Guides
 description: Erfahren Sie mehr über die Architektur der Integration externer Datenquellen in AEM Guides.
 exl-id: ce99033a-0ce1-4696-9d4c-89187273b0bd
-source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Zu den Datenquellen, mit denen Sie über Experience Manager Guides eine Verbindu
 - Product Information Management (PIM) / Product Lifecycle Management (PLM)
    - Pimcore, Salsify, Akeneo und Informatica
 - Produktmanagementsysteme
-   - JIRA- und Microsoft Azure DevOps-Boards (ADO)
+   - JIRA und Microsoft Azure DevOps Boards (ADO)
 - OLAP- (Online Analytical Processing) und Analytics-Systeme
 
 ### Integration in Experience Manager Guides
@@ -54,7 +54,6 @@ Führen Sie die folgenden Schritte aus, um den Inhalt in Experience Manager Guid
 1. **Einrichten des Datenquellen-Connectors**
    - Der Datenquellen-Connector dient als Schnittstelle zum Herstellen der Verbindung mit den externen Datenquellen. Sie müssen den Connector konfigurieren, um die Verbindung herzustellen, und die Authentifizierungsmethoden wie `Basic Auth` oder `API key Auth` einschließen. Alle Konfigurationsdetails, einschließlich verschlüsselter Informationen, werden sicher in Adobe Experience Manager gespeichert.
    - Die Connector-Ebene ist erweiterbar, sodass Sie Ihre Implementierungen für die Verbindung mit verschiedenen Systemen erstellen können, die von Experience Manager Guides nicht vorkonfiguriert bereitgestellt werden.
-
      ![Connector-Ebene](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -100,11 +99,9 @@ Führen Sie die folgenden Schritte aus, um den Inhalt in Experience Manager Guid
         ```
 
       - Vorlagen
-
-        ![Vorlagenmodul](assets/data-source-TemplatingEngine.png){width="800" align="left"}
+        ![Vorlagenmodul](assets/data-source-TemplatingEngine.png){width="800"}
       - Daten aus derselben Datenquelle, aber unterschiedlichen Vorlagen
-
-        ![Daten generiert](assets/data-source-templates-topics.png){width="800" align="left"}
+        ![Daten generiert](assets/data-source-templates-topics.png){width="800"}
 
 1. **Generieren von Inhalten mithilfe von Vorlagen**
    - Sie können den Inhalt aus den von Ihnen erstellten Vorlagen generieren.
@@ -114,7 +111,7 @@ Führen Sie die folgenden Schritte aus, um den Inhalt in Experience Manager Guid
       - DITA Topic + Map: Sie können auch eine vollständige Zuordnung mit dem Thema generieren und dann die Daten direkt zur Veröffentlichung verwenden oder als *wiederverwendbare Komponente* in anderen Daten verwenden.
 
 
-1. **Publish der integrierte Inhalt**
+1. **Veröffentlichen Sie die integrierten Inhalte**
    - Publishing ist die vorkonfigurierte Funktion von Experience Manager Guides und Sie können alle vom externen System generierten Daten direkt als PDF- oder AEM Site-Ausgabe veröffentlichen.
 
 >[!MORELIKETHIS]

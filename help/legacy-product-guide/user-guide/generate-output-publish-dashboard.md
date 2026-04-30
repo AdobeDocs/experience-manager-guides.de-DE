@@ -1,11 +1,11 @@
 ---
 title: Verwalten von Veröffentlichungsaufgaben mit dem Dashboard „Veröffentlichen“
-description: Manage publish tasks using the Publish Dashboard in AEM Guides. Know how to access the publishing dashboard and cancel a publish task.
+description: Verwalten Sie Veröffentlichungsaufgaben mithilfe des Veröffentlichungs-Dashboards in AEM Guides. Wissen, wie man auf das Veröffentlichungs-Dashboard zugreift und eine Veröffentlichungsaufgabe abbricht.
 feature: Publishing
 role: User
 hide: true
 exl-id: 9d311979-a7d7-47f5-945c-520eda99798f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -14,45 +14,45 @@ ht-degree: 0%
 
 # Verwalten von Veröffentlichungsaufgaben mit dem Dashboard „Veröffentlichen“ {#id205CC08305Z}
 
-When you have a large set of publishing tasks running on your system, it becomes practically impossible to check each DITA map individually to monitor its publishing task. AEM Guides gives the administrators and publishers one unified view of all publishing tasks running in the system. A list of all active publishing tasks is available in the Publish Dashboard.
+Wenn auf Ihrem System eine große Anzahl von Veröffentlichungsaufgaben ausgeführt wird, ist es praktisch unmöglich, jede DITA-Map einzeln zu überprüfen, um die Veröffentlichungsaufgabe zu überwachen. AEM Guides bietet Admins und Herausgebern eine einheitliche Ansicht aller im System ausgeführten Veröffentlichungsaufgaben. Eine Liste aller aktiven Veröffentlichungsaufgaben ist im Veröffentlichungs-Dashboard verfügbar.
 
-The Publish Dashboard gives a complete overview of all publishing tasks currently running in the system.
+Das Veröffentlichungs-Dashboard bietet einen vollständigen Überblick über alle Veröffentlichungsaufgaben, die derzeit im System ausgeführt werden.
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){width="800"}
 
-The Publish Dashboard contains the following details:
+Das Veröffentlichungs-Dashboard enthält die folgenden Details:
 
-- **Map Title** - The title of a map file that is being currently published or is in the publish queue.
+- **Zuordnungstitel** - Der Titel einer Zuordnungsdatei, die derzeit veröffentlicht wird oder sich in der Veröffentlichungswarteschlange befindet.
 
-- **File Name** - The file name of the DITA map.
+- **Dateiname** - Der Dateiname der DITA-Zuordnung.
 
-- **Output Preset** - Name of the output preset that is used to generate the output.
+- **Ausgabevorgabe** - Name der Ausgabevorgabe, die zum Generieren der Ausgabe verwendet wird.
 
-- **Initiated By** - Username of the user who initiated the publishing task.
+- **Initiiert von** - Benutzername der Person, die die Veröffentlichungsaufgabe initiiert hat.
 
-- **Started On** - Date and time when the publishing task was started.
+- **Gestartet am** - Datum und Uhrzeit des Starts der Veröffentlichungsaufgabe.
 
-- **Elapsed Time** - Time since when the publishing task is running in the system.
+- **Verstrichene Zeit** Zeit seit der Ausführung der Veröffentlichungsaufgabe im System.
 
-- **Delete icon** - Cancel or terminate a publishing task.
+- **Löschsymbol** - Abbrechen oder Beenden einer Veröffentlichungsaufgabe.
 
-The left panel in the Publish Dashboard provides the following filtering options:
+Das linke Bedienfeld im Veröffentlichungs-Dashboard bietet die folgenden Filteroptionen:
 
-- **Output Preset** - Select one or more output presets for which you want to see the currently active publishing tasks. In the following screenshot, the publishing tasks are filtered to show only those tasks that use the AEM Site output preset:
+- **Ausgabevorgabe** - Wählen Sie eine oder mehrere Ausgabevorgaben aus, für die Sie die derzeit aktiven Veröffentlichungsaufgaben anzeigen möchten. Im folgenden Screenshot werden die Veröffentlichungsaufgaben gefiltert, um nur die Aufgaben anzuzeigen, die die Ausgabevorgabe der AEM-Site verwenden:
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){width="800"}
 
-- **Initiated By** - Select a username from the list to show the publishing tasks initiated by the selected user.
+- **Initiiert von** - Wählen Sie einen Benutzernamen aus der Liste aus, um die Veröffentlichungsaufgaben anzuzeigen, die vom ausgewählten Benutzer initiiert wurden.
 
-- **Map** - Select a map file from the list to show the publishing tasks running for the selected map.
+- **Map** - Wählen Sie in der Liste eine Zuordnungsdatei aus, um die Veröffentlichungsaufgaben anzuzeigen, die für die ausgewählte Zuordnung ausgeführt werden.
 
-## Access the Publish Dashboard {#id205CC100DY4}
+## Zugriff auf das Veröffentlichungs-Dashboard {#id205CC100DY4}
 
-Perform the following steps to access the Publish Dashboard:
+Führen Sie die folgenden Schritte aus, um auf das Dashboard „Veröffentlichen“ zuzugreifen:
 
 >[!NOTE]
 >
-> Only an Administrator or Publisher can access the Publish Dashboard.
+> Nur ein Administrator oder Herausgeber kann auf das Dashboard „Veröffentlichen“ zugreifen.
 
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
 
@@ -64,7 +64,7 @@ Perform the following steps to access the Publish Dashboard:
 
    Wenn Sie auf den Dateinamen-Link klicken, wird die DITA-Zuordnungskonsole der ausgewählten Zuordnung angezeigt.
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){width="800"}
 
 
 >[!NOTE]
@@ -79,13 +79,13 @@ Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung �
 
 1. Klicken Sie in der Liste der aktiven Veröffentlichungsaufgaben auf das Löschsymbol einer Aufgabe, die Sie abbrechen möchten.
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){width="800"}
 
 1. Klicken Sie **der** Abbruchmeldung bestätigen auf „Ja“.
 
    Der Abbruchsbefehl wird akzeptiert, und der Abbruch wird versucht, solange die Aufgabe aktiv bleibt. Nachdem die Aufgabe erfolgreich beendet wurde, wird sie aus der aktuell aktiven Aufgabenliste entfernt. Der Status der Aufgabe wird auch in der DITA Map-Konsole als Abgebrochen aktualisiert. Im folgenden Screenshot wird die Aufgabe *HTML5* über das Veröffentlichungs-Dashboard abgebrochen, und ihr Status wird auch in der DITA-Zuordnungskonsole geändert.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){width="800"}
 
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

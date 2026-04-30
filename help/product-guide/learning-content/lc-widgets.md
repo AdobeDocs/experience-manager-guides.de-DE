@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die interaktiven Widgets, die Sie im Lernin
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 781c6b6632c857f2130ef27751f66bfe1527f334
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Zu den verfügbaren Widgets zur Verbesserung des Benutzererlebnisses und zur Opt
 
 - **Akkordeon:** Fügt dem Inhalt ein Akkordeon hinzu. Sie können geeigneten Text sowohl in die Akkordeon-Kopfzeile als auch in ihren Hauptteil einfügen. Die zugehörigen Eigenschaften können mithilfe des Bedienfelds **Inhaltseigenschaften** verwaltet werden. Dazu gehören Optionen, mit denen einzelne oder mehrere Akkordeons gleichzeitig geöffnet werden können, sowie das Hinzufügen oder Entfernen von Elementen. Um ein Element oder ein Element des Widgets zu löschen, können Sie auch **Rechtsklick > Element löschen** verwenden.
 
-  ![](assets/accordion-learning-content.png){width="650" align="left"}
+  ![](assets/accordion-learning-content.png){width="650"}
 
 - **Karussell:** Fügt dem Inhalt ein Karussell hinzu. Sie können geeigneten Text sowohl in den Kartentitel als auch in den Hauptteil einfügen. Die zugehörigen Eigenschaften können über das Bedienfeld **Inhaltseigenschaften** verwaltet werden, einschließlich der Optionen zum Hinzufügen oder Entfernen von Elementen. Um ein Element oder ein Element des Widgets zu löschen, können Sie auch **Rechtsklick > Element löschen** verwenden.
 
-  ![](assets/carousal-learning-content.png){width="650" align="left"}
+  ![](assets/carousal-learning-content.png){width="650"}
 
 - **Hotspot:** Fügt einem ausgewählten Bild einen Hotspot hinzu. Wählen Sie zunächst ein Bild aus und navigieren Sie dann zu **Einfügen > Hotspot**. Dadurch wird das Hotspot-Dialogfeld geöffnet, in dem Sie verschiedene Optionen konfigurieren können, z. B. indem Sie verschiedene Hotspot-Größen festlegen, entsprechende Links hinzufügen und die Ebenen anpassen, indem Sie Bereiche vorwärts oder rückwärts verschieben. Um ein Element oder ein Element des Widgets zu löschen, können Sie auch **Rechtsklick > Element löschen** verwenden.
 
-  ![](assets/hotspot-learning-content.png){width="650" align="left"}
+  ![](assets/hotspot-learning-content.png){width="650"}
 
 - **Registerkarte** Ermöglicht die Organisation von Inhalten in interaktiven Abschnitten.  Jede Registerkarte kann ein bestimmtes Thema oder eine bestimmte Kategorie darstellen; Teilnehmer können auf die Registerkarten klicken oder tippen, um den entsprechenden Inhalt anzuzeigen. Platzieren Sie den Cursor an der Stelle, an der das Registerkarten-Widget im Inhalt angezeigt werden soll, und navigieren Sie dann zu **Einfügen > Widget > Registerkarte**. Dadurch wird ein Registerkarten-Container zu Ihrem Inhalt hinzugefügt. Fügen Sie nun der Registerkarte Inhalte hinzu, die einen Registerkartentitel und den entsprechenden Inhalt enthalten.  Um ein Element oder ein Element des Widgets zu löschen, können Sie auch **Rechtsklick > Element löschen** verwenden.
 

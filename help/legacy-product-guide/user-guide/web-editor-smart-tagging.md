@@ -5,7 +5,7 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: dd5b2648-37e1-4737-bd9d-8618f735d11f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -26,12 +26,12 @@ Führen Sie die folgenden Schritte aus, um Smart-Tags zu erstellen:
 1. Öffnen Sie das Thema im Vorschaumodus und wählen Sie **Symbol &quot;Assets erneut verarbeiten** aus der Hauptsymbolleiste aus.
 1. Wählen Sie XML Keyword Extract , um relevante Keywords zu extrahieren.
 
-   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
+   ![](images/smart-tag-reprocess-asset.png){width="300"}
 
 1. Wählen Sie die Option Nachbearbeitungsprozess ausführen aus. Bei erfolgreicher Initiierung des Tools wird eine Meldung angezeigt.
 1. Die Tags werden automatisch extrahiert und können auf der Seite Eigenschaften des ausgewählten Themas angezeigt werden.
 
-   ![](images/properties-smart-tags.png){width="800" align="left"}
+   ![](images/properties-smart-tags.png){width="800"}
 
    >[!NOTE]
    >

@@ -3,7 +3,7 @@ title: KI-gestützte Smart-Hilfe bei der Suche nach Inhalten
 description: Erfahren Sie, wie Sie die KI-gestützte Smart-Hilfe im Web-Editor anzeigen und verwenden können.
 hide: true
 exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Wenn Sie den Web-Editor öffnen, wird **Bedienfeld &quot;** Hilfe“ auf der rec
 >
 > Ihr Administrator muss die Funktion &quot;**Hilfe“**. Weitere Informationen finden Sie im Abschnitt [Konfigurieren der KI-gestützten Smart-Hilfe für die Suche &#x200B;](/help/product-guide/cs-install-guide/conf-smart-help.md) Inhalten“ im Installations- und Konfigurationshandbuch für Cloud Services.
 
-![Smartes Hilfebedienfeld](images/smart-help-panel.png){width="300" align="left"}
+![Smartes Hilfebedienfeld](images/smart-help-panel.png){width="300"}
 
 *Anzeigen des Bedienfelds **Smart-**-Hilfe*
 
@@ -49,7 +49,7 @@ Führen Sie die folgenden Schritte aus, um die Konversationssuche zu verwenden, 
 
    Abhängig von Ihrer Frage können Sie den Inhalt, die passenden Bilder und Links zu den Artikeln anzeigen.
 
-   ![Antwort des Smart-Hilfebereichs](images/smart-help-panel-response.png){width="300" align="left"}
+   ![Antwort des Smart-Hilfebereichs](images/smart-help-panel-response.png){width="300"}
 
 
    *Wählen Sie die Beispielfrage aus und zeigen Sie die Inhalte und Bilder als Antwort an.*

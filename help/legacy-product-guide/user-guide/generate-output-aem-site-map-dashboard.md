@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 41c0d4d5-5c46-4d2b-90b3-8c441fee8e99
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2421'
 ht-degree: 0%
@@ -48,13 +48,13 @@ Häufig wird eine umfangreiche Dokumentation in mehreren Ordnern und DITA-Zuordn
 
 Eine andere Möglichkeit, Inhalte zu verknüpfen, besteht darin, einen Link mithilfe der `peer`-`@scope` zu erstellen. Für solche Inhalte wird der Link zur Laufzeit aufgelöst, indem der Titel der Datei und der konfigurierte Kontext für das verknüpfte Thema aus dem Veröffentlichungskontext der DITA-Zuordnung ausgewählt werden. Der folgende Screenshot zeigt das Bedienfeld Eigenschaften für einen Link mit dem `peer` `@scope`:
 
-![](images/peer-link-scope-link.png){width="800" align="left"}
+![](images/peer-link-scope-link.png){width="800"}
 
 Um die Veröffentlichung komplexer Zuordnungen und Themen zu vereinfachen, die mit anderen Themen in anderen Zuordnungen verknüpft sind, können Sie in AEM Guides den Veröffentlichungskontext für jede Ausgabevorgabe festlegen.
 
 Im Veröffentlichungskontext können Sie angeben, welches Thema aus welcher Zuordnung für die Veröffentlichung einer bestimmten Ausgabe verwendet werden soll. Lassen Sie uns dies anhand eines Beispiels verstehen - nehmen wir an, Sie haben vier Ordner: Beispiel A, Beispiel B, Beispiel C und Beispiel D. Jeder Ordner enthält eine DITA-Karte - DITA-Karte A, DITA-Karte B, DITA-Karte C und DITA-Karte D. Eine Kreuzkartenverknüpfung erfolgt, wenn ein Thema in DITA-Karte A mit einem Thema in DITA-Karte B, C oder D verknüpft ist. Im folgenden Screenshot enthält ein Beispielkonzeptthema Links \(oder Verweise\) zu Dateien, die Teil anderer DITA-Zuordnungen sind.
 
-![](images/sample-concept-link-to-other.png){width="350" align="left"}
+![](images/sample-concept-link-to-other.png){width="350"}
 
 Wenn Sie jetzt die AEM Sites-Veröffentlichungseinstellungen für die Zuordnungsdatei konfigurieren, die dieses Thema enthält, können Sie auswählen, welcher Veröffentlichungskontext für den verknüpften Inhalt beim Veröffentlichen verwendet wird. Ein Veröffentlichungskontext ist eine Kombination aus DITA-Zuordnung und Ausgabevorgabe. Die Ausgabevorgabe wiederum enthält eine bestimmte Version des Inhalts und bedingte Vorgaben. Diese gesamte Kombination aus DITA-Zuordnung, Ausgabevorgabe, \(Dateien\)-Version und Bedingungen definiert den Veröffentlichungskontext für eine verknüpfte Zuordnung.
 
@@ -66,7 +66,7 @@ Führen Sie die folgenden Schritte aus, um den Veröffentlichungskontext für ve
 
    Sie erhalten die Registerkarten AEM-Voreinstellungen und Veröffentlichungskontext .
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){width="800"}
 
 1. Öffnen Sie die Registerkarte **Veröffentlichungskontext**.
 
@@ -78,7 +78,7 @@ Führen Sie die folgenden Schritte aus, um den Veröffentlichungskontext für ve
 
    Standardmäßig sind für alle verknüpften Themen die neueste Ausgabevorgabe und Zuordnung ausgewählt.
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){width="800"}
 
 1. Um die Standardauswahl von DITA-Zuordnung und -Vorgabe zu ändern, klicken Sie auf **Bearbeiten** \(in der Haupt-Symbolleiste\).
 
@@ -111,7 +111,7 @@ Wenn Sie `conref` in Ihrem Inhalt verwenden, wird dieser als normaler oder einge
 
 Sie können in der AEM Sites-Ausgabe nach einer Zeichenfolge suchen. Standardmäßig können Sie nur in den Titeln nach der Zeichenfolge suchen. Um nach der Zeichenfolge im Inhalt oder im Hauptteil der AEM Sites-Ausgabe zu suchen, wenden Sie sich an Ihren Systemadministrator, um die Flattling.enabled-Eigenschaft zu aktivieren.
 
-![AEM Sites-Ausgabe durchsuchen](images/aem-output-search.png){width="650" align="left"}
+![AEM Sites-Ausgabe durchsuchen](images/aem-output-search.png){width="650"}
 
 Weitere Informationen finden Sie *Abschnitt „Reduzieren der Knotenstruktur der AEM-Site konfigurieren* im Handbuch zum Installieren und Konfigurieren von Adobe Experience Manager Guides .
 

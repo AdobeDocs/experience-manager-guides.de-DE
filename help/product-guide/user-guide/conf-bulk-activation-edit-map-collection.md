@@ -4,7 +4,7 @@ description: Verwenden des Dashboards zur Massenveröffentlichung in AEM Guides.
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 1350304943e86f4f9c5270eaedd36eacb25a6b0f
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 2%
@@ -42,11 +42,11 @@ Sie können die verschiedenen Arten von Ausgabevorgaben zusammen mit ihren Symbo
 
 1. Wählen Sie **Löschen** aus.
 
-   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600"}
 
    Die ausgewählte Zuordnung wird aus der Massen-Aktivierungszuordnungssammlung entfernt.
 
-1. Wählen Sie **Fertig**.
+1. Wählen Sie **Fertig** aus.
 
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

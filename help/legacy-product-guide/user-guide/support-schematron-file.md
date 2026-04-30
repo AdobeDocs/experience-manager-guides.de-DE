@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Führen Sie die folgenden Schritte aus, um die Schematron-Dateien zu importieren:
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/scematron-panel-add.png){width="300"}
 
 1. Navigieren Sie zum erforderlichen Ordner (in den Sie die Dateien hochladen möchten) in der *Repository-Ansicht*.
 1. Klicken Sie auf das **Optionen**-Symbol, um das Kontextmenü zu öffnen und **Assets hochladen**.
@@ -41,7 +41,7 @@ Nach dem Import von Schematron-Dateien können Sie diese im Web-Editor bearbeite
 * Es muss mindestens eine TopicRef in der Karte vorhanden sein.
 
 Wenn Sie ein Thema im Web-Editor öffnen, wird rechts ein Bedienfeld für die Schematronvalidierung angezeigt. Führen Sie die folgenden Schritte aus, um ein Thema oder eine Zuordnung mit einer Schematron-Datei hinzuzufügen und zu validieren:
-![](images/schematron-validate.png){width="300" align="left"}
+![](images/schematron-validate.png){width="300"}
 
 1. Klicken Sie auf das Schematron-Symbol (), um das Schematron-Bedienfeld zu öffnen.
 1. Verwenden Sie Schematrondatei hinzufügen , um Schematrondateien hinzuzufügen.

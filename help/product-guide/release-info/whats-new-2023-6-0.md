@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides, Version Juni 2023
-description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version Juni 2023 von Adobe Experience Manager Guides as a Cloud Service
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides, Version Juni 2023
+description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version Juni 2023 von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 625f9702-2b91-4622-9fec-282f47f1d7a6
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Weitere Informationen zu den Upgrade-Anweisungen, der Kompatibilitätsmatrix und
 ## Bericht zu fehlerhaften Links im Web-Editor
 
 Mit AEM Guides können Sie die Vollständigkeit Ihrer technischen Dokumente überprüfen und Berichte über den Web-Editor generieren. Ab jetzt Version Juni 2023 bietet Ihnen AEM Guides die Funktion zum Anzeigen und Beheben von fehlerhaften Links. Dies ist ein nützlicher Bericht, der Ihnen bei der Verwaltung Ihrer fehlerhaften Links hilft. Sie können die beschädigten Links in Ihrer DITA-Karte einfach anzeigen und auch beheben.
-![](assets/broken-link-report.png){width="800" align="left"}
+![](assets/broken-link-report.png){width="800"}
 
 Nachdem Sie einen Link korrigiert haben, wird er nicht mehr unter der Liste der fehlerhaften Links angezeigt.
 
@@ -30,13 +30,13 @@ Weitere Informationen finden Sie unter [Anzeigen und Beheben von fehlerhaften Li
 
 Jetzt können Sie eine Datei auch über das Repository-Bedienfeld umbenennen oder verschieben. Diese Funktion ist praktisch und hilft bei der einfachen Verwaltung Ihrer Dateien über das Repository-Bedienfeld. Sie können eine Datei auswählen und sie über das Menü **Optionen** für die ausgewählte Datei umbenennen oder verschieben. AEM Guides zeigt eine Erfolgsmeldung an, wenn Sie eine Datei verschieben oder umbenennen.
 
-![](assets/rename-move-assets.png){width="650" align="left"}
+![](assets/rename-move-assets.png){width="650"}
 
 Weitere Informationen zum Optionen-Menü einer Datei finden Sie in der **Repository-Ansicht** Funktionsbeschreibung im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).
 
 ## Native PDF-Verbesserungen
 
-### Hinzufügen eines Wasserzeichens zum PDF der Ausgabe für Entwurfsdokumente
+### Hinzufügen eines Wasserzeichens zur PDF-Ausgabe für Entwurfsdokumente
 
 Jetzt können Sie der PDF-Ausgabe des noch nicht genehmigten Dokuments ein Wasserzeichen hinzufügen. Dieses Wasserzeichen wird nicht angezeigt, wenn Sie die PDF für das Dokument im Dokumentstatus „Genehmigt“ generieren. Sie können beispielsweise einen Wasserzeichenentwurf für Ihre PDF-Ausgabe hinzufügen.
 
@@ -44,7 +44,7 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Wasserzeichens zur PDF
 
 ### Unterstützung für Sprachvariablen
 
-AEM Guides unterstützt Sprachvariablen. Sie können Sprachvariablen verwenden, um eine lokalisierte Version der vordefinierten Kennzeichnungen wie „Hinweis“, „Vorsicht“ und „Warnung“ oder „Statischer Text“ in der PDF-Ausgabe zu definieren.
+AEM Guides unterstützt Sprachvariablen. Sie können Sprachvariablen verwenden, um eine lokalisierte Version der standardmäßigen Kennzeichnungen wie „Hinweis“, „Vorsicht“ und „Warnung“ oder „Statischer Text“ in der PDF-Ausgabe zu definieren.
 Sie können die Sprachvariablen oder die lokalisierte Version der Kennzeichnungen den entsprechenden Abschnitten in Ihrer PDF-Ausgabe und in den Ausgabevorlagen hinzufügen.
 
 #### Sprachvariablen in der PDF-Ausgabe
@@ -70,7 +70,7 @@ Metadaten sind die Beschreibung oder Definition Ihres Inhalts. Diese Metadaten w
 Jetzt können Sie in AEM Guides auch die Metadateneigenschaften Ihrer Assets auswählen und sie zum Seiten-Layout hinzufügen. AEM Guides wählt diese Metadateneigenschaften Ihrer Assets aus und veröffentlicht sie in Ihrer PDF-Ausgabe.
 
 
-![](assets/native-pdf-metadata-asset.png){width="550" align="left"}
+![](assets/native-pdf-metadata-asset.png){width="550"}
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Weitere Informationen finden Sie unter [Definieren abstrakter Muster](../user-gu
 
 Jetzt können Sie einfach vom Web-Editor zur AEM-Startseite navigieren.
 
-![](assets/web-editor-launch-page.png){width="800" align="left"}
+![](assets/web-editor-launch-page.png){width="800"}
 
 * Klicken Sie auf **Guides**-Symbol (![](assets/aem-guides-icon.png) ), um zur AEM-Navigationsseite zurückzukehren.
 
@@ -122,9 +122,9 @@ Weitere Informationen zum Umgang mit hierarchischen Definitionen von Betreffdefi
 ## Unterstützung des XLIFF-Formats bei der Übersetzung
 
 AEM Guides unterstützt auch das XLIFF-Format (XML Localization Interchange File Format) bei der Übersetzung. Jetzt können Sie auch wählen, **Neues XLIFF-Übersetzungsprojekt erstellen**, um den XML-Inhalt in das XLIFF-Format zu konvertieren.
-Mithilfe dieses Formats können Sie die Inhalte in das standardmäßige XLIFF-Format exportieren und sie dann den Übersetzungsdienstleistern bereitstellen. Weitere Informationen finden Sie unter [Übersetzungsprojekt erstellen](../user-guide/translate-documents-web-editor.md#create-translation-project).
+Mit diesem Format können Sie die Inhalte in das branchenübliche XLIFF-Format exportieren und sie dann den Übersetzungsdienstleistern bereitstellen. Weitere Informationen finden Sie unter [Erstellen eines Übersetzungsprojekts](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
-![](assets/translation-project-types.png){width="350" align="left"}
+![](assets/translation-project-types.png){width="350"}
 
 
 
@@ -132,7 +132,7 @@ Mithilfe dieses Formats können Sie die Inhalte in das standardmäßige XLIFF-Fo
 
 Mit AEM Guides können Sie eine Sammlung oder Favoritenliste Ihrer Dateien und Ordner erstellen und diese einfach verwenden. Das **„Optionen** ist jetzt auch im Bedienfeld &quot;**&quot;**. Sie können die ausgewählte Sammlung umbenennen oder sie aus dem Menü **Optionen** löschen. Sie können die Option **Aktualisieren** auswählen, um eine neue Liste der Dateien oder Ordner aus dem Repository abzurufen. Sie können die Ordnerinhalte auch in der Benutzeroberfläche von Assets anzeigen.
 
-![](assets/favorites-options.png){width="650" align="left"}
+![](assets/favorites-options.png){width="650"}
 
 >[!NOTE]
 >
@@ -144,6 +144,6 @@ Weitere Informationen zum Menü **Optionen** einer Favoritensammlung finden Sie 
 
 Sie können jetzt auch das Geräte-Design verwenden. Unter **Benutzereinstellungen** können Sie AEM Guides so konfigurieren, dass je nach Design Ihres Geräts automatisch zwischen hellen und dunklen Designs gewechselt wird.
 
-![](assets/device-theme-user-preferences.png){width="550" align="left"}
+![](assets/device-theme-user-preferences.png){width="550"}
 
 Weitere Informationen finden Sie in der Beschreibung der Funktion **Benutzereinstellungen** im Abschnitt [Hauptsymbolleiste](../user-guide/web-editor-features.md#id2051EA0G05Z).

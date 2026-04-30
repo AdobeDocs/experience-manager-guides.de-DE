@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über den Workflow zum Schließen einer Prüfungs
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Führen Sie die folgenden Schritte aus, um eine erneute Überprüfung oder das S
 
    Das **Aufgabenkommentare** wird auf der rechten Seite angezeigt.
 
-   ![](images/task-comments-dialog-editor.png){width="350" align="left"}.
+   ![](images/task-comments-dialog-editor.png){width="350"}.
 4. Wählen Sie **Aufgabe aktualisieren** aus, um weitere Aktionen für die ausgewählte Prüfungsaufgabe durchzuführen.
 5. Wählen Sie **Dialogfeld** Aufgabe aktualisieren“ eine der folgenden Aktionen aus:
 
@@ -52,22 +52,22 @@ Führen Sie die folgenden Schritte aus, um eine erneute Überprüfung oder das S
 
    Weitere Informationen zum Trigger von Prüfungsbenachrichtigungen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png){width="350" align="left"}
+   ![](images/update-task-dialog.png){width="350"}
 
-   Sie können den [&#x200B; Ihrer Prüfungsaufgabe auch mithilfe der Option &#x200B;](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task)Prüfungsstatus überprüfen **im Dialogfeld Aufgabe aktualisieren**. Durch Auswahl dieser Option gelangen Sie zum Überprüfungs-Dashboard, in dem der Statusbericht Ihrer Überprüfungsaufgabe angezeigt wird.
+   Sie können den [&#x200B; Ihrer Prüfungsaufgabe auch mithilfe der Option **Prüfungsstatus überprüfen** im Dialogfeld Aufgabe aktualisieren &#x200B;](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task). Durch Auswahl dieser Option gelangen Sie zum Überprüfungs-Dashboard, in dem der Statusbericht Ihrer Überprüfungsaufgabe angezeigt wird.
 
-   ![](images/check-review-status-icon.png){width="650" align="left"}
+   ![](images/check-review-status-icon.png){width="650"}
 
 6. Wählen Sie **Bestätigen** aus.
 
 
 Wenn Sie als Autor oder Initiator einer Prüfungsaufgabe die Aufgabe schließen, wird die Schaltfläche **Aufgabe aktualisieren** am unteren Rand des Prüfungsbereichs in **Geschlossen** geändert, was bedeutet, dass die Aufgabe nicht mehr aktiv ist.
 
-![](images/review-task-status-closed-review-panel.png){width="350" align="left"}
+![](images/review-task-status-closed-review-panel.png){width="350"}
 
 Außerdem bleibt die Schaltfläche **Aufgabe aktualisieren** im Prüfungsbereich für die anderen Benutzer der Prüfungsaufgabe deaktiviert. Wenn Sie z. B. als einer der Validierungsverantwortlichen einer Prüfungsaufgabe die Aufgabe im Editor öffnen, wird die Schaltfläche Aufgabe aktualisieren mit einer Meldung deaktiviert **Sie sind nicht berechtigt, diese Aufgabe zu bearbeiten**. Nur der Initiator einer Prüfungsaufgabe hat die Berechtigung, die Aufgabe über den Editor zu aktualisieren.
 
-![](images/update-task-button-disabled.png){width="350" align="left"}
+![](images/update-task-button-disabled.png){width="350"}
 
 
 

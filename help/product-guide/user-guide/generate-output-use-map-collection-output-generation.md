@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie eine Zuordnungssammlung erstellen und lösche
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Um eine Zuordnungssammlung zu erstellen und der Sammlung DITA-Zuordnungen hinzuz
 
    Die **Sammlungen zuordnen** wird auf einer neuen Registerkarte geöffnet.
 
-   ![](images/map-collections-page.png){width="350" align="left"}
+   ![](images/map-collections-page.png){width="350"}
 
    >[!NOTE]
    >
@@ -50,11 +50,11 @@ Um eine Zuordnungssammlung zu erstellen und der Sammlung DITA-Zuordnungen hinzuz
    Standardmäßig werden alle der Zuordnung zugeordneten Vorgaben und Gebietsschemata automatisch hinzugefügt.
 
 1. Wählen Sie den gewünschten Ausgang, indem Sie die Schiebetaste ein- oder ausschalten.
-1. Wählen Sie **Fertig**.
+1. Wählen Sie **Fertig** aus.
 
    Die DITA-Zuordnungsdateien werden Ihrer Zuordnungssammlung hinzugefügt.
 
-   ![Dashboard der Zuordnungssammlung](./images/map-collection-dashboard.png){align="left"}
+   ![Dashboard der Zuordnungssammlung](./images/map-collection-dashboard.png)
 
 **Filteroptionen**
 
@@ -92,10 +92,10 @@ Um die Ausgabe mithilfe einer Zuordnungssammlung zu konfigurieren und zu generie
 1. Sie können die Voreinstellungen für eine DITA-Zuordnung wie folgt aktivieren:
 
    - Aktivieren Sie eine beliebige Voreinstellung.
-   - Aktivieren **Alle Vorgaben** für eine DITA-Map, um alle Vorgaben auf einmal auszuwählen. Diese Option ist standardmäßig deaktiviert.
-   - Aktivieren **Ordnerprofilvorgaben** für eine DITA-Zuordnung, um alle Ordnerprofilvorgaben auszuwählen. Diese Option ist standardmäßig deaktiviert.
+   - Aktivieren **Alle Vorgaben** für eine DITA-Map, um alle Vorgaben auf einmal auszuwählen. Standardmäßig ist diese Option deaktiviert.
+   - Aktivieren **Ordnerprofilvorgaben** für eine DITA-Zuordnung, um alle Ordnerprofilvorgaben auszuwählen. Standardmäßig ist diese Option deaktiviert.
 
-![Bearbeiten einer Zuordnungssammlung in Cloud Services](images/edit-map-collection-cs.png){align="left"}
+![Bearbeiten einer Zuordnungssammlung in Cloud Services](images/edit-map-collection-cs.png)
 
 
 
@@ -112,7 +112,7 @@ Um die Ausgabe mithilfe einer Zuordnungssammlung zu konfigurieren und zu generie
 
 In der Zuordnungssammlung können Sie die Metadateneigenschaften für die DITA-Zuordnungen stapelweise konfigurieren. Wählen Sie **Metadaten konfigurieren** aus, um die Seite **Asset-Metadaten** zu öffnen. Auf der Seite **Asset-**&quot; werden alle in der Sammlung vorhandenen Zuordnungen auf der linken Seite aufgeführt.
 
-![Konfigurieren von Metadaten](images/map-collection-asset-metadata.png){align="left"}
+![Konfigurieren von Metadaten](images/map-collection-asset-metadata.png)
 
 Führen Sie die folgenden Schritte aus, um die Metadateneigenschaften zu konfigurieren:
 
@@ -147,6 +147,6 @@ Dadurch werden auch alle Vorgaben oder Gebietsschemata entfernt, die mit der DIT
 
 Ähnlich wie beim Abbrechen einer Aufgabe zur Ausgabegenerierung über die [DITA Map-Konsole](generate-output-for-a-dita-map.md#id2061H100T5Z) oder das [Dashboard veröffentlichen](generate-output-publish-dashboard.md#) können Sie eine Aufgabe zur Ausgabegenerierung über eine Zuordnungssammlung abbrechen. Rufen Sie die Registerkarte Ausgaben einer Zuordnungssammlung auf, wechseln Sie zur Veröffentlichungsaufgabe, die Sie abbrechen möchten, und wählen Sie das Symbol **Diesen Auftrag abbrechen** aus, um die Veröffentlichungsaufgabe abzubrechen.
 
-![](images/cancel-publish-task-map-collection.png){align="left"}
+![](images/cancel-publish-task-map-collection.png)
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie ein geändertes Thema in AEM Guides erneut ü
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
    Wenn Sie den Pfeil auswählen, um weitere Details anzuzeigen, können Sie die bestimmte Sprachkopie anzeigen, die nicht synchronisiert ist.
 
-   ![](images/out-of-sync-uuid-new.png){align="left"}
+   ![](images/out-of-sync-uuid-new.png)
 
 1. Aktivieren Sie das Kontrollkästchen, um die Themen auszuwählen, die zur erneuten Übersetzung gesendet werden sollen.
 
@@ -53,7 +53,7 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
 1. Navigieren Sie in der Projektkonsole zum Übersetzungsprojekt. Im Ordner wird eine neue Karte für Übersetzungsaufträge erstellt. Klicken Sie auf die Auslassungszeichen, um die Assets des Ordners anzuzeigen.
 
-   ![](images/incremental-job-new.png){width="300" align="left"}
+   ![](images/incremental-job-new.png){width="300"}
 
 1. Um die Übersetzung zu starten, klicken Sie auf der Karte Übersetzungsauftrag auf den Pfeil und wählen Sie **Starten** aus der Liste aus. Eine Meldung informiert Sie darüber, dass der Vorgang gestartet wurde.
 

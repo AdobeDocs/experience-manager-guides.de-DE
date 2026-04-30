@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine benutzerdefinierte Ausgabevorgabe in AEM
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,14 @@ Sie können die ausgewählte Ausgabevorgabe bearbeiten, indem Sie die erforderli
 Darüber hinaus können Sie eine Ausgabevorgabe mithilfe des Dropdown-Menüs **Optionen** wie unten dargestellt duplizieren oder löschen.
 
 
-![](images/delete-preset-map-console.png){align="left"}
+![](images/delete-preset-map-console.png)
 
 
 ## Verwenden des Karten-Dashboards
 
 Sie können eine Ausgabevorgabe über das Zuordnungs -Dashboard bearbeiten, duplizieren und löschen, indem Sie die gewünschte Registerkarte wie unten dargestellt in der oberen Leiste auswählen.
 
-![](images/create-new-preset-map-dashboard-new.png){align="left"}
+![](images/create-new-preset-map-dashboard-new.png)
 
 
 

@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides, Version Oktober 2023
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides, Version Oktober 2023
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version Oktober 2023 von Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 41bfed0d-5901-4ada-b6d7-a5be93b25ba8
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Experience Manager Guides bietet jetzt ein **Datenquellen**-Tool, mit dem Sie vo
 
 Sie können einen Datenquellen-Connector auch einfach bearbeiten, erneut verbinden, duplizieren oder löschen. Erfahren Sie, wie [einfach einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md).
 
-![Im Datenquellenbedienfeld aufgelistete Datenquellen-Connectoren](assets/data-sources-create-window.png){width="550" align="left"}
+![Im Datenquellenbedienfeld aufgelistete Datenquellen-Connectoren](assets/data-sources-create-window.png){width="550"}
 
 *Erstellen und Anzeigen der Datenquellen-Connectoren im Bedienfeld „Datenquellen“.*
 
@@ -41,7 +41,7 @@ Erfahren Sie mehr über [&#x200B; Verwendung von Velocity-Tools in den Datenquel
 
 ## Native PDF-Verbesserungen
 
-Die folgenden nativen PDF-Verbesserungen wurden in der Version vom Oktober 2023 vorgenommen:
+In der Version vom Oktober 2023 wurden die folgenden nativen PDF-Verbesserungen vorgenommen:
 
 ### Zurücksetzen der Seitennummer für die erste Seite eines Layouts
 
@@ -59,7 +59,7 @@ Jetzt können Sie eine Karte nicht nur in der Kartenansicht des Web-Editors bear
 
 Weitere Informationen finden Sie in der Beschreibung der Funktion **Kartenansicht** im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-![Optionsmenü einer Datei in der Repository-Ansicht](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
+![Optionsmenü einer Datei in der Repository-Ansicht](assets/options-menu-repo-view-file-level-2310.png){width="550"}
 
 *Wählen Sie eine Datei in der Repository-Ansicht aus und wählen Sie die Option aus, um eine Aktion mit der Datei durchzuführen.*
 

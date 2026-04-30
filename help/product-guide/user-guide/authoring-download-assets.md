@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Dateien von der DITA-Zuordnungskonsole in AEM
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei aus dem Edi
 
    Das **„Karte**&quot; wird angezeigt.
 
-   ![](images/download-map-dialog-new.png){width="300" align="left"}
+   ![](images/download-map-dialog-new.png){width="300"}
 
 1. Im Dialogfeld Karte herunterladen können Sie die folgenden Optionen auswählen:
 
@@ -57,7 +57,7 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei aus dem Edi
 
    Sobald die Karte zum Herunterladen bereit ist, erhalten Sie die folgende Benachrichtigung.
 
-   ![](images/download-map-success-message.png){width="550" align="left"}
+   ![](images/download-map-success-message.png){width="550"}
 
 1. Klicken Sie **Herunterladen**, um die Zuordnungsdatei im `.zip`-Format herunterzuladen. Oder laden Sie sie später aus dem AEM-Posteingang herunter.
 
@@ -83,7 +83,7 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei zusammen mi
 
    Das Dialogfeld Zuordnung herunterladen wird angezeigt.
 
-   ![](images/download-map.png){width="300" align="left"}
+   ![](images/download-map.png){width="300"}
 
 1. Wählen Sie **Herunterladen** aus. Im Dialogfeld Karte herunterladen können Sie die folgenden Optionen auswählen:
 
@@ -98,7 +98,7 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei zusammen mi
 
 1. Nachdem Sie auf die Schaltfläche **Herunterladen** geklickt haben, wird die Anfrage zum Herunterladen der Zuordnung in die Warteschlange gestellt. Sobald die Karte zum Herunterladen bereit ist, erhalten Sie die folgende Benachrichtigung.
 
-   ![](images/download-map-prompt.png){width="550" align="left"}
+   ![](images/download-map-prompt.png){width="550"}
 
    - Wählen Sie **Herunterladen** aus, um die Zuordnungsdatei im ZIP-Format herunterzuladen.
 
@@ -108,7 +108,7 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei zusammen mi
    >
    > Standardmäßig bleiben die heruntergeladenen Zuordnungen fünf Tage lang im Adobe Experience Manager-Benachrichtigungs-Posteingang.
 
-![](images/download-map-inbox.png){width="300" align="left"}
+![](images/download-map-inbox.png){width="300"}
 
 Nachdem die Karte heruntergeladen wurde, können Sie die Karte auswählen und das Symbol Öffnen oben verwenden, um den heruntergeladenen Inhalt zu öffnen.
 

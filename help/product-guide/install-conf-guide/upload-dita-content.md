@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie mithilfe des WebDAV-Tools und FrameMaker vorh
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 53eb863a-094f-4445-ab4b-d5fca2249c30
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -81,7 +82,7 @@ Führen Sie die folgenden Schritte aus, um den AEM-Connector von FrameMaker zum 
 
 1. Öffnen Sie das **Verbindungs-Manager**-Dialogfeld.
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. Geben Sie die folgenden Details ein, um eine Verbindung zum AEM-Repository herzustellen:
 
@@ -94,7 +95,7 @@ Führen Sie die folgenden Schritte aus, um den AEM-Connector von FrameMaker zum 
 
    Sobald die Verbindung erfolgreich hergestellt wurde, werden Assets aus dem AEM-Repository im Fenster „Repository Manager“ angezeigt.
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    Wenn Sie mit der rechten Maustaste auf eine Datei oder einen Ordner klicken, können Sie verwandte Vorgänge ausführen. Wenn Sie beispielsweise mit der rechten Maustaste auf einen Ordner klicken, erhalten Sie Optionen zum Hochladen einer Datei, zum Hochladen einer Datei mit Abhängigkeiten, zum Hochladen eines gesamten Ordners usw.
 

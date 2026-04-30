@@ -4,9 +4,9 @@ description: Lernen Sie das rechte Bedienfeld im Editor kennen. Erfahren Sie meh
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ Sie können auf die Funktion **Inhaltseigenschaften** zugreifen, indem Sie im re
 
 1. Wählen Sie **Hinzufügen** aus.
 
-   ![Attribute in den Inhaltseigenschaften](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   ![Attribute in den Inhaltseigenschaften](images/properties-tab-attributes_cs.png){width="300"}
 
 1. Wählen **im Dropdown** Bedienfeld „Attribut“ das Attribut aus der Dropdown-Liste aus und geben Sie den Wert eines Attributs an.  Wählen Sie dann **Hinzufügen** aus.
 
-   ![Attributbedienfeld mit mehreren Attributen &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![Attributbedienfeld mit mehreren Attributen &#x200B;](images/attributes-multiple-properties.png){width="300"}
 
 1. Um das Attribut zu bearbeiten, halten Sie den Mauszeiger darüber und wählen Sie **Bearbeiten** ![edit-icon](images/edit_pencil_icon.svg) aus.
 
@@ -72,7 +72,7 @@ Die Dateieigenschaften weisen die folgenden beiden Abschnitte auf:
 
 Im Abschnitt Allgemein haben Sie Zugriff auf die folgenden Funktionen:
 
-![file-properties](images/file-properties-general.png){width="300" align="left"}
+![file-properties](images/file-properties-general.png){width="300"}
 
 - **Dateiname**: Zeigt den Dateinamen des ausgewählten Themas an. Der Dateiname ist mit der Eigenschaftenseite der ausgewählten Datei per Hyperlink verknüpft.
 - **ID**: Zeigt die ID des ausgewählten Themas an.
@@ -104,7 +104,7 @@ Im Abschnitt Allgemein haben Sie Zugriff auf die folgenden Funktionen:
 
 Der Abschnitt Verweise bietet Ihnen Zugriff auf die folgenden Funktionen:
 
-![](images/file-properties-references.png){width="300" align="left"}
+![](images/file-properties-references.png){width="300"}
 
 - **Verwendet in**: Die Option Verwendet in Verweisen listet die Dokumente auf, auf die die aktuelle Datei verwiesen oder verwendet wird.
 - **Ausgehende Links:** Die ausgehenden Links listen die Dokumente auf, auf die im aktuellen Dokument verwiesen wird.
@@ -129,11 +129,11 @@ In diesem Abschnitt werden alle verfügbaren Sprachkopien für das aktuell im Ed
 >
 > Sprachkopien werden erstellt, wenn ein Asset zur Übersetzung versendet wird. Englisch (`en`) fungiert als Ausgangssprache, und übersetzte Kopien werden in den entsprechenden Zielsprachordnern generiert (z. B. `de` für Deutsch oder `fr` für Französisch). Wenn ein Asset nur im Ordner `en` vorhanden ist, werden keine zusätzlichen Sprachkopien angezeigt, bis die Übersetzung für die Zielsprachen eingeleitet und abgeschlossen ist. Wenn das Asset in keinem Sprachordner vorhanden ist, wird **Keine Übersetzungen verfügbar** angezeigt. Weitere Informationen finden Sie unter [Best Practices für die Übersetzung von Inhalten](./translation-first-time.md).
 
-![](images/translations-right-panel.png){width="300" align="left"}
+![](images/translations-right-panel.png){width="300"}
 
 Für jede Sprachkopie können Sie den Mauszeiger über die Datei bewegen, um deren Pfad im Repository zu suchen, oder sie einfach auswählen, um sie im Editor zu öffnen. Neben dem Öffnen von Dateien können Sie auch viele Aktionen über das Menü **Optionen** im Abschnitt Übersetzungen durchführen. Zu den Aktionen, die Sie ausführen können, gehören Bearbeiten, Vorschau, UUID kopieren, Pfad kopieren, Zu Sammlungen hinzufügen und Eigenschaften.
 
-![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+![](images/translations-right-panel-options-menu.png){width="300"}
 
 
 
@@ -141,7 +141,7 @@ Für jede Sprachkopie können Sie den Mauszeiger über die Datei bewegen, um der
 
 Wenn Sie auf das Symbol Überprüfen klicken, wird das Review-Bedienfeld geöffnet, in dem Sie eine Prüfungsaufgabe für das aktuell geöffnete Dokument auswählen und Kommentare anzeigen können.
 
-![](images/review-panel-before-opening.png){width="300" align="left"}
+![](images/review-panel-before-opening.png){width="300"}
 
 Wenn Sie mehrere Überprüfungsprojekte erstellt haben, können Sie eines aus der Dropdown-Liste auswählen und auf die Überprüfungskommentare zugreifen.
 

@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Sie können einen Bericht zu den Themen erstellen, indem Sie die folgenden Schri
 1. Klicken Sie auf die **Verwalten**.
 1. Doppelklicken Sie auf **Themenliste** links. Die Liste der in der DITA-Karte vorhandenen Themen wird angezeigt.
 
-   ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel.png){width="800"}
 
 1. Im Bedienfeld **Filter** können Sie Ihre Themen nach dem **Verweistyp** \(direkt oder indirekt\), **Dokumentstatus** \(dem aktuellen Status Ihrer Themen) filtern. Wenn sich Ihre Themen beispielsweise im Status Bearbeiten, In Überprüfung oder Überprüft befinden, werden diese aufgeführt\) oder der **Autor** des Themas.
 
@@ -60,7 +60,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten Ihrer Verweise in der a
 1. Klicken Sie auf die **Verwalten**.
 1. Doppelklicken Sie auf **Metadaten** links. Die Metadatenliste aller Verweise in der DITA-Zuordnung wird angezeigt. Dazu gehören auch die Medienverweise.
 
-   ![](images/web-editor-metadata-panel.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel.png){width="800"}
 
 1. Im Bedienfeld **Filter** können Sie Ihre Themen nach dem **Dokumentstatus** \(dem aktuellen Status Ihrer Themen) filtern. Wenn sich Ihre Themen beispielsweise im Status Bearbeiten, In-Überprüfung oder Überprüft befinden, werden diese aufgelistet\), **Verweise** \(direkt oder indirekt\), **Dateityp** \(Zuordnung, Thema und Bild\) der Referenz.
 1. Sie können auch festlegen, dass nur die **Dateien ohne Tags“ angezeigt werden**, oder auch bestimmte Tags aus dem Filter **Tags** auswählen, um die zugehörigen Dateien anzuzeigen.
@@ -95,7 +95,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten Ihrer Verweise in der a
 
 1. Wählen **oben** Verwalten“ aus.
 
-   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
+   ![](images/web-editor-manage-metadata.png){width="350"}
 
 1. Wenn Sie neue Tags hinzufügen möchten, wählen Sie in der Dropdown-Liste neue Tags aus, um sie auf alle ausgewählten Themen anzuwenden. Sie können auch jedes Tag löschen, indem Sie auf das Kreuz-Symbol neben dem Tag klicken.
 
@@ -117,11 +117,11 @@ Der **Multimedia** Bericht enthält detaillierte Informationen zu den in Ihrer Z
 
    - Wenn Sie nach **Multimedia** sortieren, wird der **&#x200B;**-Name des Multimediums in der ersten Spalte angezeigt und dann werden die Namen aller Verweise, in denen sie verwendet wurden, in einer anderen Spalte in derselben Zeile angezeigt. Der folgende Screenshot zeigt beispielsweise die Multimedia-Datei „WarmCoolForC.gif“ in der ersten Spalte und drei Verweise, in denen sie verwendet wird, werden in der dritten Spalte in derselben Zeile angezeigt.
 
-     ![](images/multimedia-report-file-order.png){width="650" align="left"}
+     ![](images/multimedia-report-file-order.png){width="650"}
 
    - Wenn Sie nach **Verwendet in** Spalte sortieren, sehen Sie die transponierte Ansicht, in der die Namen der Verweise, in denen Multimedia verwendet wurde, in der ersten Spalte aufgeführt sind, während die Multimedianamen in einer anderen Spalte in separaten Zeilen aufgeführt sind. Beispiel: Der folgende Screenshot zeigt die Namen von drei Verweisen \(Sitztemperatur anpassen, Sitztemperaturanzeige ändern und Besatzungsbereich\) in der ersten Spalte und die Multimedia-Datei WarmCoolForC.gif wird in der dritten Spalte in drei separaten Zeilen angezeigt.
 
-     ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
+     ![](images/multimedia-report-used-in-order.png){width="650"}
 
 1. Sie können Ihre Multimedia-Dateien nach **Multimediatyp** und **Verweistyp** filtern. Die Liste der Multimediadateien wird basierend auf Ihrer Auswahl in der Dropdown-Liste angezeigt. Beispielsweise können Sie festlegen, dass nur die Audioreferenzen in Ihrer DITA-Karte angezeigt werden sollen und dass eine Datei nur die darin verwendeten Audioreferenzen anzeigt.
 
@@ -143,7 +143,7 @@ Der **Multimedia** Bericht enthält detaillierte Informationen zu den in Ihrer Z
 
 1. Sie können auch auf eine Audio- oder Videodatei klicken und sie im Web-Editor wiedergeben. Sie können die Lautstärke oder die Ansicht des Videos ändern. Im Kontextmenü haben Sie außerdem die Möglichkeit, Bilder herunterzuladen, die Wiedergabegeschwindigkeit zu ändern oder sie in einem Bild anzuzeigen.
 
-   ![](images/video-web-editor.png){width="800" align="left"}
+   ![](images/video-web-editor.png){width="800"}
 
 1. Klicken Sie **CSV herunterladen**, um den aktuellen Schnappschuss des Multimedias in der DITA-Karte herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die Multimedia-Dateien, die in der Ansicht **Multimedia** gefiltert wurden. Sie können diese Multimedia-CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
 
@@ -159,16 +159,16 @@ Sie können den Bericht nach fehlerhaften Links anzeigen, indem Sie die folgende
 1. Im Bedienfeld **Filter** können Sie die Liste nach Links oder nach den in Verweisen verwendeten Namen sortieren.
 
    - Bei der Sortierung nach **Ungültiger Link** werden die Pfade der fehlerhaften Links in der ersten Spalte und anschließend die Namen aller Verweise, in denen sie verwendet wurden, in einer anderen Spalte in separaten Zeilen angezeigt. Wenn derselbe fehlerhafte Link in mehreren Dateien verwendet wird, werden sie in einer Zeile angezeigt und als gruppierte oder untergeordnete Zeilen angezeigt. Der folgende Screenshot zeigt beispielsweise drei fehlerhafte Links in der ersten Spalte und die Referenz, in der sie verwendet werden, `TestMap.ditamap` in der dritten Spalte in drei separaten Zeilen angezeigt wird.
-   ![](images/broken-link-report.png){width="800" align="left"}
+   ![](images/broken-link-report.png){width="800"}
 
    - Bei Sortierung nach Spalte **Verwendet in** wird die transponierte Ansicht angezeigt, in der die Namen der Verweise, in denen die fehlerhaften Links verwendet wurden, in der ersten Spalte aufgeführt sind, während die fehlerhaften Links in einer anderen Spalte in derselben Zeile aufgeführt sind. Der folgende Screenshot zeigt beispielsweise den Verweis (in dem der fehlerhafte Link verwendet wird) `TestMap.ditamap` in der ersten Spalte, während die fehlerhaften Links in der dritten Spalte in derselben Zeile angezeigt werden.
-   ![](images/broken-link-filter-usedin.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin.png){width="800"}
 1. Sie können Ihre fehlerhaften Links nach den **Dateityp** und **Verknüpfungstyp** filtern. Die Liste der fehlerhaften Links wird je nach Auswahl in der Dropdown-Liste angezeigt. Beispielsweise können Sie festlegen, dass nur die Inhaltsreferenzen in Ihrer DITA-Karte angezeigt werden sollen und dass eine Datei nur die darin verwendeten Inhaltsreferenzen anzeigt.
 
    Je nach dem in Ihrer Zuordnung verwendeten Verweistyp werden Dateiverweis, Schlüsselverweis, Inhaltsreferenz, Inhaltsschlüsselverweis, Bildverweis und Multimedia-Dateiverweis in der Dropdown-Liste **Link-Typ** aufgeführt. **DITA-Thema** oder **DITA-** werden im Dropdown-Menü **Dateityp** aufgeführt.
 1. Sie können auch die folgenden Filteroptionen verwenden, um die folgenden Spalten in der Liste anzuzeigen:
 
-   – **Broken Link** (selected by default) The path of the broken link is specified in the DITA map.
+   - **Beschädigter Link** (standardmäßig ausgewählt) Der Pfad des beschädigten Links ist in der DITA-Zuordnung angegeben.
 
    - **Verknüpfungstyp** (standardmäßig ausgewählt) Der Typ der Links. Die verfügbaren Optionen sind Content Key Reference, Content Reference, DITA Topic, File Reference, Image Reference, Key Reference und Multimedia File Reference.
 

@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 In jeder Organisation kann ein Produkt über mehrere Dokumentationstypen verfügen. Als Publishing-Spezialist möchten Sie steuern, welche Ausgabe Sie für welches Dokument generieren möchten. Außerdem sollte es eine Möglichkeit geben, mehrere Dokumente mit einem einzigen Klick im Batch zu veröffentlichen.
 
-AEM Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die Veröffentlichung mithilfe eines Dashboards namens „Kartensammlung“ zu organisieren. Mit einer Zuordnungssammlung können Sie alle verschiedenen Arten von Dokumenten in einer Einheit zusammenführen. You can choose what type of output you want to generate for each document in your Map Collection. In addition, you can also generate output and see the output generation progress from the publishing dashboard.
+AEM Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die Veröffentlichung mithilfe eines Dashboards namens „Kartensammlung“ zu organisieren. Mit einer Zuordnungssammlung können Sie alle verschiedenen Arten von Dokumenten in einer Einheit zusammenführen. Sie können auswählen, welche Art von Ausgabe Sie für jedes Dokument in Ihrer Zuordnungssammlung generieren möchten. Darüber hinaus können Sie auch eine Ausgabe generieren und den Fortschritt der Ausgabenerstellung über das Publishing-Dashboard anzeigen.
 
 Mit Zuordnungssammlung können Sie anzeigen, ob sich eine Zuordnung seit der letzten Veröffentlichung geändert hat. Sie können die Details auf der Registerkarte Zuordnungen und Vorgaben Ihrer Zuordnungssammlung anzeigen und dann bei Bedarf die Ausgabe erneut veröffentlichen. Weitere Informationen finden Sie unter Hinzufügen einer Zuordnung zu einer Zuordnungssammlung.
 
@@ -28,7 +28,7 @@ Um eine Zuordnungssammlung zu erstellen und der Sammlung DITA-Zuordnungen hinzuz
 
    Wenn der Link Sammlungen zuordnen nicht verfügbar ist, wählen Sie die Option **Navigation** in der linken Leiste aus und klicken Sie dann auf **Sammlungen zuordnen**.
 
-   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
+   ![](images/access-map-collection-left-rail.png){width="350"}
 
 1. Geben Sie einen Titel für Ihre Kartensammlung ein.
 1. Klicken Sie auf **Erstellen**.
@@ -50,7 +50,7 @@ Um eine Zuordnungssammlung zu erstellen und der Sammlung DITA-Zuordnungen hinzuz
 
    Die DITA-Zuordnungsdateien werden Ihrer Zuordnungssammlung hinzugefügt.
 
-   ![Dashboard der Zuordnungssammlung](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![Dashboard der Zuordnungssammlung](./images/map-collection-dashboard.png){width="800"}
 
 Die folgenden Filteroptionen und Zuordnungsdetails werden auf der Sammlungsseite angezeigt:
 
@@ -65,7 +65,7 @@ Die folgenden Filteroptionen und Zuordnungsdetails werden auf der Sammlungsseite
    - **Voreinstellung**: Zeigt den für die Zuordnungsdatei konfigurierten Vorgabetyp der Ausgabe an.
    - **Baseline**: Zeigt die Baseline an, die von der Ausgabevorgabe verwendet wird.  Wenn keine Grundlinie verwendet wird, wird ein Bindestrich &quot;-&quot; angezeigt.
    - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wird. Basierend auf diesen Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung erneut veröffentlichen möchten oder nicht.
-   - **Last Generated**: Shows the date and time of the last generated output.
+   - **Zuletzt generiert**: Zeigt Datum und Uhrzeit der letzten generierten Ausgabe an.
 
 ## Konfigurieren und Generieren der Ausgabe mithilfe einer Zuordnungssammlung
 
@@ -89,7 +89,7 @@ Um die Ausgabe mithilfe einer Zuordnungssammlung zu konfigurieren und zu generie
    - Aktivieren Sie eine beliebige Voreinstellung.
    - Aktivieren **Alle Vorgaben** für eine DITA-Map, um alle Vorgaben auf einmal auszuwählen. Standardmäßig ist diese Option deaktiviert.
    - Aktivieren **Ordnerprofilvorgaben** für eine DITA-Zuordnung, um alle Ordnerprofilvorgaben auszuwählen. Standardmäßig ist diese Option deaktiviert.
-     ![Bearbeiten einer Zuordnungssammlung in Cloud Services](images/edit-map-collection-cs.png){width="800" align="left"}
+     ![Bearbeiten einer Zuordnungssammlung in Cloud Services](images/edit-map-collection-cs.png){width="800"}
 
 
 
@@ -102,11 +102,11 @@ Um die Ausgabe mithilfe einer Zuordnungssammlung zu konfigurieren und zu generie
    >
    > Wenn sich ein Prozess zur Ausgabegenerierung für eine Voreinstellung oder DITA-Zuordnung entweder in der Warteschlange befindet oder in Bearbeitung ist, können Sie für dieselbe Voreinstellung oder Zuordnung keine andere Ausgabegenerierungsaufgabe initiieren.
 
-## Configure the metadata properties
+## Konfigurieren der Metadateneigenschaften
 
-In der Zuordnungssammlung können Sie die Metadateneigenschaften für die DITA-Zuordnungen stapelweise konfigurieren. Wählen Sie **Metadaten konfigurieren** aus, um die Seite **Asset-Metadaten** zu öffnen. On the **Asset Metadata** page, all the maps present in the collection are listed on the left.
+In der Zuordnungssammlung können Sie die Metadateneigenschaften für die DITA-Zuordnungen stapelweise konfigurieren. Wählen Sie **Metadaten konfigurieren** aus, um die Seite **Asset-Metadaten** zu öffnen. Auf der Seite **Asset-**&quot; werden alle in der Sammlung vorhandenen Zuordnungen auf der linken Seite aufgeführt.
 
-![Konfigurieren von Metadaten](images/map-collection-asset-metadata.png){width="800" align="left"}
+![Konfigurieren von Metadaten](images/map-collection-asset-metadata.png){width="800"}
 
 Führen Sie die folgenden Schritte aus, um die Metadateneigenschaften zu konfigurieren:
 
@@ -141,6 +141,6 @@ Dadurch werden auch alle Vorgaben oder Gebietsschemata entfernt, die mit der DIT
 
 Ähnlich wie beim Abbrechen einer Aufgabe zur Ausgabegenerierung über die [DITA Map-Konsole](generate-output-for-a-dita-map.md#id2061H100T5Z) oder das [Dashboard veröffentlichen](generate-output-publish-dashboard.md#) können Sie eine Aufgabe zur Ausgabegenerierung über eine Zuordnungssammlung abbrechen. Rufen Sie die Registerkarte Ausgaben einer Zuordnungssammlung auf, wechseln Sie zur Veröffentlichungsaufgabe, die Sie abbrechen möchten, und klicken Sie auf das Symbol **Diesen Auftrag abbrechen**, um die Veröffentlichungsaufgabe abzubrechen.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){width="800"}
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die verschiedenen SCORM-Vorgabenkonfigurati
 feature: Authoring
 role: User
 exl-id: b3000708-6120-4725-bea1-0b8e58048948
-source-git-commit: 3fdedee6e07908632bcf1b804805fcac7925c4e0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Nachdem die Voreinstellung erstellt wurde, konfigurieren Sie die SCORM-Voreinste
 
 - **Allgemein** Wird verwendet, um grundlegende Ausgabeeinstellungen anzugeben, wie etwa die unterstützte Version, den Ausgabepfad, den ZIP-Dateinamen, die Ausgabevorlage und andere Optionen im Zusammenhang mit dem Lernerlebnis.
 
-  ![](assets/scorm-general-tab-v3.png){width="650" align="left"}
+  ![](assets/scorm-general-tab-v3.png){width="650"}
 
   **Learner&#39;s experience**
 
@@ -30,10 +30,10 @@ Nachdem die Voreinstellung erstellt wurde, konfigurieren Sie die SCORM-Voreinste
 
 - **Inhalt:** Verwenden Sie diese Option, um die verfügbare bedingte Filterung (mithilfe von DITAVAL oder einer Bedingungsvorgabe) und den Variablensatz anzugeben.
 
-  ![](assets/scorm-content-tab.png){width="650" align="left"}
+  ![](assets/scorm-content-tab.png){width="650"}
 
 - **Veröffentlichen** Verwenden Sie diese Einstellung nur, wenn Sie die Ausgabe für den direkten Zugriff in der SCORM-Cloud veröffentlichen möchten.
 
-  ![](assets/scorm-publish-tab.png){width="650" align="left"}
+  ![](assets/scorm-publish-tab.png){width="650"}
 
 Nachdem alle Änderungen konfiguriert wurden, speichern Sie die Änderungen für die SCORM-Vorgabe mit **Speichern** in der rechten Ecke der Symbolleiste der Seite „SCORM-Vorgabe“.

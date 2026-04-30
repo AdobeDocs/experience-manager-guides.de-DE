@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine Prüfungsaufgabe erstellen und Themen zu
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3135'
+source-wordcount: '3161'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
 1. Wählen Sie das **Auswählen**-Symbol in der Schnellaktion und wählen Sie die Themen aus, die Sie zur Überprüfung senden möchten.
 
-   ![](images/select-asset-62.png){width="300" align="left"}
+   ![](images/select-asset-62.png){width="300"}
 
 1. Wählen Sie in der Symbolleiste **Prüfungsaufgabe erstellen** aus. Die Seite zur Erstellung der Prüfungsaufgabe wird angezeigt.
 
@@ -100,7 +100,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    Die Inhaltsseite wird angezeigt.
 
-   ![](images/content_page_review.png){align="left"}
+   ![](images/content_page_review.png)
 
 1. Wählen Sie auf der Inhaltsseite eine Version des Themas aus, das Sie zur Überprüfung freigeben möchten.
 
@@ -121,7 +121,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    Die Seite Reviewer wird angezeigt, auf der Sie Reviewer hinzufügen oder entfernen können. Standardmäßig werden die im Feld Zuweisen an hinzugefügten Reviewer automatisch zu jedem für die Überprüfung ausgewählten Thema hinzugefügt.
 
-   ![](images/add-reviewers-topics.png){width="650" align="left"}
+   ![](images/add-reviewers-topics.png){width="650"}
 
 1. Auf der Seite „Validierungsverantwortliche“ können Sie Validierungsverantwortliche hinzufügen oder entfernen. Die folgenden Vorgänge sind auf der Seite Validierungsverantwortliche verfügbar:
 
@@ -219,7 +219,7 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
    Die Inhaltsseite wird mit allen Themen angezeigt, auf die in der Zuordnungsdatei verwiesen wird. Wenn Ihre DITA-Karte verschachtelte Karten enthält, werden hier auch Themen aus den verschachtelten Karten aufgeführt.
 
-   ![](images/content-page-map-review.png){align="left"}
+   ![](images/content-page-map-review.png)
 
 1. Wählen Sie auf der Inhaltsseite eine Version des Themas aus, das Sie zur Überprüfung freigeben möchten.
 

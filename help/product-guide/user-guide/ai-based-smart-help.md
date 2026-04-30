@@ -2,9 +2,9 @@
 title: KI-gestützte Smart-Hilfe bei der Suche nach Inhalten
 description: Erfahren Sie, wie Sie die KI-gestützte Smart-Hilfe anzeigen und nutzen können.
 exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ Experience Manager Guides bietet die GenAI-basierte Smart-Hilfe, eine Funktion z
 
 Sie können Ihre Fragen stellen und Antworten auf informative Weise erhalten. Die Antwort auf Ihre Abfrage basiert auf dem Inhalt aus der Produktdokumentation. Diese Suche ist völlig dialogorientiert. Sie können Fragen zu den verschiedenen Funktionen von Experience Manager Guides stellen oder auch Fragen zur Fehlerbehebung stellen. Je nach Antwort können Sie auch weitere Fragen stellen. Die Antwort enthält auch Links zu Quelldokumenten, auf die Sie für Details verweisen können.
 
-Sie können zum Beispiel folgende Fragen stellen: &quot;*veröffentlicht eine Karte?* erhalten Sie eine Antwort und die Links für die entsprechenden Artikel. Wenn Sie dann erfahren möchten, wie Sie eine bestimmte Methode zum Veröffentlichen der Ausgabe verwenden, können Sie Fragen dazu stellen. Beispiel: *Wie veröffentliche ich eine Zuordnung zu PDF?*
+Sie können zum Beispiel folgende Fragen stellen: *Wie veröffentliche ich eine Karte?* Sie erhalten eine Antwort und die Links für die entsprechenden Artikel. Wenn Sie dann erfahren möchten, wie Sie eine bestimmte Methode zum Veröffentlichen der Ausgabe verwenden, können Sie Fragen dazu stellen. Beispiel: *Wie veröffentliche ich eine Zuordnung zu PDF?*
 
 Wenn Sie **KI-Assistent** auf der Startseite, in der Map-Konsole oder im Editor öffnen, wird das **Hilfe**-Bedienfeld auf der rechten Seite geöffnet. Im Fall des Editors wird auch das Authoring-Bedienfeld angezeigt, das Ihnen intelligente Authoring-Funktionen bietet. Weitere Informationen finden Sie unter [KI-Assistent zum intelligenten Verfassen von Dokumenten](./ai-assistant-right-panel.md)
 
-![Smartes Hilfebedienfeld](images/smart-help-panel.png){width="300" align="left"}
+![Smartes Hilfebedienfeld](images/smart-help-panel.png){width="300"}
 
 *Anzeigen des Bedienfelds **Hilfe**.*
 
@@ -37,7 +37,7 @@ Führen Sie die folgenden Schritte aus, um das Hilfebedienfeld zu verwenden, um 
 
    Abhängig von Ihrer Frage können Sie den Inhalt, die passenden Bilder und Links zu den Artikeln anzeigen.
 
-   ![Antwort des Smart-Hilfebereichs](images/smart-help-panel-response.png){width="300" align="left"}
+   ![Antwort des Smart-Hilfebereichs](images/smart-help-panel-response.png){width="300"}
 
 
    *Wählen Sie die Beispielfrage aus und zeigen Sie die Inhalte und Bilder als Antwort an.*
@@ -55,7 +55,7 @@ Wenn Sie eine Antwort vom KI-Assistenten im Bedienfeld **Hilfe** erhalten, könn
 
 Die folgenden Optionen stehen zur Verfügung, um mit den Antworten des KI-Assistenten (Hilfebereich) zu interagieren **Feedback** geben:
 
-![](images/ai-assistant-response-options.png){width="300" align="left"}
+![](images/ai-assistant-response-options.png){width="300"}
 
 - **Kopieren**: Kopieren Sie die Antwort zur Verwendung in Ihren Dokumenten.
 - **Like**: Gibt an, dass die Antwort hilfreich oder korrekt war. Wählen Sie das Symbol Gefällt mir , um die Antwort zu mögen, und verwenden Sie die Option **Weitere Informationen**, um detailliertes Feedback zu geben.

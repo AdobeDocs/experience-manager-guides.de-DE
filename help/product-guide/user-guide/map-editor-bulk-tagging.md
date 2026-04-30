@@ -4,9 +4,9 @@ description: Verwenden Sie Bulk-Tagging von Inhalten in AEM Guides, um die Auffi
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Massen-Tagging von DITA-Inhalten {#id179SG0TN05Z}
 
-![](images/test-version-info-table.svg){width="650" align="left"}
+![](images/test-version-info-table.svg){width="650"}
 
 Mit Tags können Sie Inhalte innerhalb Ihres Inhalts-Repositorys und auch in der veröffentlichten Ausgabe gruppieren oder klassifizieren. Wenn Sie Tags auf Ihren Inhalt angewendet haben, können Sie mühelos verwandte Themen in einer DITA-Karte finden, die Ihnen beim Verfassen von Inhalten helfen können. Mit der veröffentlichten Ausgabe können Endbenutzende den richtigen Inhalt schneller finden, wenn korrekte Tags vorhanden sind.
 
@@ -36,7 +36,7 @@ Verwenden Sie die Bulk-Tagging-Funktion, um mehrere Tags gleichzeitig anzuwenden
 
 1. Wählen Sie die Themen oder Unterkarten aus, auf die Sie Tags anwenden möchten.
 
-   ![](images/apply-tags-uuid.png){width="650" align="left"}
+   ![](images/apply-tags-uuid.png){width="650"}
 
 
    >[!NOTE]

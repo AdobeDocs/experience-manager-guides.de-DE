@@ -1,11 +1,11 @@
 ---
-title: Publish a topic to an Experience Fragment
-description: Publish a topic or the elements within a topic to an Experience Fragment in AEM Guides.  Learn how to view the Experience Fragments present for a topic and republish them.
+title: Veröffentlichen eines Themas in einem Experience Fragment
+description: Veröffentlichen Sie ein Thema oder die Elemente innerhalb eines Themas in einem Experience Fragment in AEM Guides.  Erfahren Sie, wie Sie die für ein Thema vorhandenen Experience Fragments anzeigen und erneut veröffentlichen.
 feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -14,34 +14,34 @@ ht-degree: 1%
 
 # Veröffentlichen von Experience Fragments
 
-Experience Fragments are pieces of modular content in Adobe Experience Manager. These content blocks are based on templates and encapsulate both the content and its layout. These reusable pieces of content allow content creators to assemble and deliver consistent, scalable experiences across multiple channels that Experience Manager supports. This feature helps you easily create consistent marketing experiences efficiently, such as newsletters, promotion banners, and customer testimonials.
+Experience Fragments sind modulare Inhalte in Adobe Experience Manager. Diese Inhaltsbausteine basieren auf Vorlagen und kapseln sowohl den Inhalt als auch sein Layout. Diese wiederverwendbaren Inhaltselemente ermöglichen es Inhaltserstellern, konsistente, skalierbare Erlebnisse über mehrere Kanäle hinweg zusammenzustellen und bereitzustellen, die von Experience Manager unterstützt werden. Mit dieser Funktion können Sie auf einfache Weise und effizient konsistente Marketing-Erlebnisse wie Newsletter, Werbebanner und Kundenbewertungen erstellen.
 
-Experience Manager Guides allow you to publish a topic or its elements to an Experience Fragment. You can create a JSON-based mapping between a topic and its elements in an Experience Fragment. Then, use the mapping to publish a topic or its elements to an Experience Fragment. You can then use Experience Fragments in any Experience Manager Site or extract the details via APIs supported by Experience Fragments.
-
-
+Mit Experience Manager Guides können Sie ein Thema oder seine Elemente in einem Experience Fragment veröffentlichen. Sie können eine JSON-basierte Zuordnung zwischen einem Thema und seinen Elementen in einem Experience Fragment erstellen. Verwenden Sie dann die Zuordnung, um ein Thema oder seine Elemente in einem Experience Fragment zu veröffentlichen. Anschließend können Sie Experience Fragments auf einer beliebigen Experience Manager-Site verwenden oder die Details über APIs extrahieren, die von Experience Fragments unterstützt werden.
 
 
-To generate an Experience Fragment, perform the following steps:
 
 
-1. Create a folder in the Experience Fragments. Use this folder to save the Experience Fragments that you create based on the Experience Fragment templates. For example, *sales-experience-fragments*.
-1. Select the folder and then select the **Properties** icon from the top.
-1. Edit the folder&#39;s properties (for example, *sales-experience-fragments*).
+Um ein Experience Fragment zu generieren, führen Sie die folgenden Schritte aus:
 
 
-   * **Title**: View or edit the title of the folder.
+1. Erstellen Sie einen Ordner in den Experience Fragments. Verwenden Sie diesen Ordner, um die Experience Fragments zu speichern, die Sie basierend auf den Experience Fragment-Vorlagen erstellen. Beispiel: *sales-experience-fragments*.
+1. Wählen Sie den Ordner aus und klicken Sie **oben auf** Symbol „Eigenschaften“.
+1. Bearbeiten Sie die Eigenschaften des Ordners (z. B *„sales-experience-fragments*).
 
-   * **Allowed Templates**: Contains the list of templates that can be added as child pages of the experiencefragment. To add the allowed template, specify the regular expression for retrieving the required templates in the **Allowed Templates** field.
+
+   * **Titel**: Den Titel des Ordners anzeigen oder bearbeiten.
+
+   * **Zulässige Vorlagen**: Enthält die Liste der Vorlagen, die als untergeordnete Seiten des Experience Fragments hinzugefügt werden können. Um die zulässige Vorlage hinzuzufügen, geben Sie den regulären Ausdruck zum Abrufen der erforderlichen Vorlagen im Feld **Zulässige Vorlagen** an.
 Beispiel:
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
-     If you do not define an allowed template for a folder, the templates are picked from the parent folder or the templates folder by default.
-   * **Orderable**: Allows you to change the order of the assets inside a folder.
-     ![add cloud configuration details in the folder properties](images/experience-fragment-folder-properties.png){width="650" align="left"}
-     *Add the cloud configuration in the folder properties to connect it with the fragment templates.*
+     Wenn Sie keine zulässige Vorlage für einen Ordner definieren, werden die Vorlagen standardmäßig aus dem übergeordneten Ordner oder dem Vorlagenordner ausgewählt.
+   * **Orderable**: Ermöglicht das Ändern der Reihenfolge der Assets innerhalb eines Ordners.
+     ![Hinzufügen von Cloud-Konfigurationsdetails in den Ordnereigenschaften](images/experience-fragment-folder-properties.png){width="650"}
+     *Fügen Sie die Cloud-Konfiguration in den Ordnereigenschaften hinzu, um sie mit den Fragmentvorlagen zu verbinden.*
 1. Um ein Experience Fragment zu generieren, wählen Sie **Neue Ausgabe** ![neues Ausgabesymbol](./images/Add_icon.svg) aus dem Abschnitt **Ausgaben** im Abschnitt **Dateieigenschaften** eines Themas aus.
 1. Wählen Sie **Experience Fragment** aus.\
-   ![Registerkarte „Optionen“ der Dateieigenschaften](./images/file-properties-outputs.png){width="300" align="left"}
+   ![Registerkarte „Optionen“ der Dateieigenschaften](./images/file-properties-outputs.png){width="300"}
 
    *Ein neues Experience Fragment aus den Dateieigenschaften eines Themas hinzufügen*.
 
@@ -50,7 +50,7 @@ Beispiel:
    > Sie können ein Experience Fragment auch über die „Repository **Ansicht“**. Wählen Sie das Thema aus, das Sie als Experience Fragment veröffentlichen möchten. Wählen Sie dann im Menü **Optionen** die Option **Veröffentlichen als** > **Experience Fragment**.
 
 1. Füllen Sie **Dialogfeld Experience Fragment** generieren die folgenden Details aus:
-   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Experience Fragment veröffentlichen hinzu](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Experience Fragment veröffentlichen hinzu](images/experience-fragment-generate.png){width="500"}
 
    *Fügen Sie den Pfad, die Vorlage und die Zuordnungsdetails hinzu, um ein Thema oder seine Elemente als Experience Fragment zu veröffentlichen. Sie können ein vorhandenes Experience Fragment überschreiben.*
 
@@ -62,42 +62,42 @@ Beispiel:
 
 
 
-     Ihr Administrator kann die Zuordnungen in der Datei *experienceFragmentMapping.json* hinzufügen.  Learn more about how to [create a mapping between a topic and an Experience Fragment](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) in the Installation and Configuration Guide.
+     Ihr Administrator kann die Zuordnungen in der Datei *experienceFragmentMapping.json* hinzufügen.  Weitere Informationen zum Erstellen [&#x200B; Zuordnung zwischen einem Thema und einem Experience Fragment &#x200B;](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
 
-   * You can also select different conditions to publish the content.  Wählen Sie eine der folgenden Optionen aus:
+   * Sie können auch verschiedene Bedingungen zum Veröffentlichen des Inhalts auswählen.  Wählen Sie eine der folgenden Optionen aus:
 
 
-      * **None**: Select this option if you don&#39;t want to apply any condition on the published output.
-      * **Using DITAVAL**: Select the DITAVAL file to generate personalized content. You can select the DITAVAL file using the browse dialog or by typing the file path.
-      * **Using attributes**: You can define condition attributes in your DITA topics. Then, select the condition attribute to publish the relevant content.
+      * **Keine**: Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die veröffentlichte Ausgabe anwenden möchten.
+      * **Verwenden von DITAVAL**: Wählen Sie die DITAVAL-Datei aus, um personalisierte Inhalte zu generieren. Sie können die DITAVAL-Datei über das Dialogfeld „Durchsuchen“ oder durch Eingabe des Dateipfads auswählen.
+      * **Verwendung von Attributen**: Sie können Bedingungsattribute in Ihren DITA-Themen definieren. Wählen Sie dann das Bedingungsattribut aus, um den relevanten Inhalt zu veröffentlichen.
 
      >[!NOTE]
      > 
-     >Conditions are enabled only if condition attributes are defined in the topic.
+     >Bedingungen werden nur aktiviert, wenn im Thema Bedingungsattribute definiert sind.
 
 
-   * Select the **Overwrite existing content** checkbox if your Experience Fragment already exists and you wish to overwrite it. Experience Manager Guides displays an error if you don&#39;t select the checkbox and your Experience Fragment already exists.
-1. Click **Generate** to publish the Experience Fragment.
-1. You can view the Experience Fragments for a topic under the **Outputs** section in the **File Properties**. The Experience Fragments appear according to the date and time of their publishing, with the latest as the first.
+   * Aktivieren Sie das **Vorhandenen Inhalt überschreiben**, wenn Ihr Experience Fragment bereits vorhanden ist und Sie es überschreiben möchten. Experience Manager Guides zeigt einen Fehler an, wenn Sie das Kontrollkästchen nicht aktivieren und Ihr Experience Fragment bereits vorhanden ist.
+1. Klicken Sie **Generieren**, um das Experience Fragment zu veröffentlichen.
+1. Sie können die Experience Fragments für ein Thema im Abschnitt **Ausgaben** in den **Dateieigenschaften**. Die Experience Fragments werden nach Datum und Uhrzeit der Veröffentlichung angezeigt. Die neueste Version ist die erste.
 
-   ![View the Experience Fragments for a topic](images/experience-fragment-outputs.png){width=300 align="left"}
+   ![Anzeigen der Experience Fragments für ein Thema](images/experience-fragment-outputs.png){width=300}
 
-   *View the Experience Fragments present for a topic and republish them.*
-
-
+   *Zeigen Sie die für ein Thema vorhandenen Experience Fragments an und veröffentlichen Sie sie erneut.*
 
 
-Once you&#39;ve published the Experience Fragments, you can also use them on any Adobe Experience Manager Site.
 
 
-## Options menu for an Experience Fragment
+Nachdem Sie die Experience Fragments veröffentlicht haben, können Sie sie auch auf jeder beliebigen Adobe Experience Manager-Site verwenden.
 
-You can also perform the following actions for an Experience Fragment from the **Options** menu:
 
-* **Generate**: Republish the Experience Fragment to update it with the latest content from the DITA topic. When you regenerate the output, you cannot change the path, name, title, and template of the Experience Fragment. However, you can select different conditions while regenerating the output.
+## Optionsmenü für ein Experience Fragment
 
-* **Duplicate**: Duplicate an Experience Fragment. You can change the path, name, title, and the template. You can also select different conditions when you duplicate an Experience Fragment.
+Sie können auch die folgenden Aktionen für ein Experience Fragment über das Menü **Optionen** ausführen:
 
-* **Remove**: Remove an Experience Fragment from the outputs list. Eine Bestätigungsaufforderung wird angezeigt. Sobald Sie bestätigen, wird das Experience Fragment aus der Liste **Ausgaben** entfernt. Das Experience Fragment wird jedoch nicht aus dem Ordner gelöscht.
+* **Generieren**: Veröffentlichen Sie das Experience Fragment erneut, um es mit dem neuesten Inhalt aus dem DITA-Thema zu aktualisieren. Beim Neugenerieren der Ausgabe können Sie den Pfad, den Namen, den Titel und die Vorlage des Experience Fragments nicht ändern. Sie können jedoch beim Regenerieren der Ausgabe andere Bedingungen auswählen.
+
+* **Duplizieren**: Duplizieren Sie ein Experience Fragment. Sie können den Pfad, den Namen, den Titel und die Vorlage ändern. Beim Duplizieren eines Experience Fragments können Sie auch andere Bedingungen auswählen.
+
+* **Entfernen**: Ein Experience Fragment aus der Ausgabeliste entfernen. Eine Bestätigungsaufforderung wird angezeigt. Sobald Sie bestätigen, wird das Experience Fragment aus der Liste **Ausgaben** entfernt. Das Experience Fragment wird jedoch nicht aus dem Ordner gelöscht.
 
 * **Anzeigen**: Anzeigen des Experience Fragment-Editors. Sie können auch Änderungen vornehmen und speichern.

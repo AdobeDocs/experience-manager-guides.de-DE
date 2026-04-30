@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine benutzerdefinierte Vorlage erstellen, zu
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Sie können Zuordnungs- und Themenvorlagen wie folgt erstellen:
 
 Die **Vorlagen**-Funktion ist im [linken Bereich der Editor-](./web-editor-left-panel.md) vorhanden und nur für Administratoren verfügbar. Mithilfe dieses Bedienfelds können Admins mühelos Vorlagen erstellen und verwalten, die dann von den Autoren verwendet werden können. Standardmäßig werden die Vorlagen unter den Vorlagen vom Typ *Zuordnung* und *Thema* kategorisiert.
 
-![](images/templates-panel_cs.png){width="300" align="left"}
+![](images/templates-panel_cs.png){width="300"}
 
 Standardmäßig können Sie die Dateien nach Titeln anzeigen. Wenn Sie mit dem Mauszeiger auf eine Vorlage zeigen, können Sie den Dateititel und den Dateinamen als QuickInfo anzeigen.
 
@@ -51,16 +51,16 @@ Führen Sie die folgenden Schritte aus, um ein Thema oder eine Zuordnungsvorlage
 
 1. Öffnen Sie das **Vorlagen** im Editor und wählen Sie das Symbol **DITA-Vorlage erstellen** aus.
 
-   ![](images/create-dita-template-option.png){width="500" align="left"}
+   ![](images/create-dita-template-option.png){width="500"}
 
 1. Wählen Sie **Themenvorlage** oder **Zuordnungsvorlage** aus dem Dropdown-Menü, je nach dem Typ der Vorlage, die Sie erstellen möchten.
 1. Wenn Sie **Themenvorlage** auswählen, wird das **Neue**) angezeigt.
 
-   ![](images/new-topic-template-dialog.png){width="300" align="left"}
+   ![](images/new-topic-template-dialog.png){width="300"}
 
    Wenn Sie **Zuordnungsvorlage** auswählen, wird das Dialogfeld **Neue Zuordnungsvorlage** angezeigt.
 
-   ![](images/map-template-dialog.png){width="300" align="left"}
+   ![](images/map-template-dialog.png){width="300"}
 
    Sie können auch **Ordner** aus der Dropdown-Liste auswählen, wenn Sie zunächst einen Ordner im Ordner **Thema** oder **Zuordnung** erstellen möchten.
 
@@ -77,7 +77,7 @@ Nachdem die Vorlage erstellt wurde, müssen Sie sie zu Ihrem globalen Profil ode
 
 Über das **Optionen**-Menü einer vorhandenen Vorlage können Sie **Vorlage Bearbeiten** oder **Duplizieren**. Im Falle einer Duplizierung werden Struktur und Typ \(des Dokuments\) der Vorlage beibehalten und Sie können sie wiederverwenden, um eine andere Vorlage daraus zu erstellen.
 
-![](images/template-options-menu-editor.png){width="500" align="left"}
+![](images/template-options-menu-editor.png){width="500"}
 
 ### Erstellen benutzerdefinierter Vorlagen über die Assets-Benutzeroberfläche
 
@@ -85,12 +85,12 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnung oder Themenvorlage üb
 
 1. Navigieren Sie in der **Assets** Benutzeroberfläche zum Ordner „dita-templates“.
 
-   ![](images/dita-templates.png){align="left"}
+   ![](images/dita-templates.png)
 
 1. Öffnen Sie **Ordner** Themen“, wenn Sie eine **Thema**-Vorlage erstellen möchten. Öffnen Sie **Ordner** maps“, wenn Sie eine **-** erstellen möchten.
 1. Wählen Sie **Erstellen \> DITA-Vorlage**.
 
-   ![](images/create-dita-template.png){width="300" align="left"}
+   ![](images/create-dita-template.png){width="300"}
 1. Klicken Sie auf der Blueprint-Seite auf **Thema \> Weiter**, um eine Themenvorlage zu erstellen. Wählen Sie andernfalls **Map \> Weiter**, um eine Zuordnungsvorlage zu erstellen.
 1. Geben Sie auf der Seite Eigenschaften die Vorlage **Titel** an.
 1. Geben Sie die Datei &quot;**&quot;**.
@@ -188,7 +188,7 @@ Führen **im** Editor) die folgenden Schritte aus, um eine Zuordnung mithilfe de
 1. Navigieren **im** zu dem Ordner, in dem Sie die Zuordnung erstellen möchten.
 1. Wählen Sie im Menü Optionen des Ordners die Option **Neu \> DITA-Map**.
 
-   ![](images/add-custom-template-dita-map.png){width="500" align="left"}
+   ![](images/add-custom-template-dita-map.png){width="500"}
 1. Das **Neue Zuordnung** wird angezeigt.
 1. Geben **im Dialogfeld** Neue Zuordnung **die Zuordnung (Titel**, **Name** an und wählen Sie die gewünschte Zuordnungsvorlage aus.
 

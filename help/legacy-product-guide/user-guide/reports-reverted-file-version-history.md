@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Sie können auf diesen Bericht an den folgenden Stellen zugreifen:
 
 - **Benutzeroberfläche von Assets**: durch Auswahl einer Datei und Öffnen des **Versionsverlaufs** über die linke Leiste. Die **Versionsverlauf** enthält den Link **Versionslogs zurücksetzen** am unteren Rand des Bedienfelds. Wenn Sie auf diesen Link klicken, wird das Protokoll der ausgewählten Datei mit den zurückgesetzten Versionen angezeigt.
 
-  ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
+  ![](images/revert-log-from-assets-ui.png){width="300"}
 
 - **Themenvorschau**: Wenn Sie ein Thema in der Vorschau anzeigen, können Sie auch das Bedienfeld **Versionsverlauf** in der linken Leiste aufrufen. Es wird ein der Assets-Benutzeroberfläche ähnliches Bedienfeld angezeigt, von dem aus Sie auf den Link **Versionslogs zurücksetzen** klicken können, um auf den zurückgesetzten Versionsverlauf des aktiven Dokuments zuzugreifen.
 
@@ -41,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um auf den Bericht „Verlauf zurückset
 
 1. Klicken Sie **Protokolle anzeigen**, um den Bericht für die ausgewählte Datei oder den ausgewählten Ordner zu generieren.
 
-   ![](images/revert-version-history-report.png){width="800" align="left"}
+   ![](images/revert-version-history-report.png){width="800"}
 
    Der Bericht enthält folgende Einzelheiten:
 

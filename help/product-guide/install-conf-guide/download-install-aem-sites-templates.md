@@ -4,10 +4,11 @@ description: Erfahren Sie, wie Sie AEM Sites-Vorlagen für Cloud-Services herunt
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 53a36126-2075-40c8-8882-f77ad6435715
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 1%
+source-wordcount: '908'
+ht-degree: 0%
 
 ---
 
@@ -68,14 +69,14 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
    1. Navigieren Sie **linken Bedienfeld** Cloud Manager zu „Repositorys“.
    2. Wählen Sie **Auf Repository-Informationen zugreifen** und kopieren Sie den Git-Klon-Befehl.
 
-      ![Auf Repository-Informationen zugreifen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+      ![Auf Repository-Informationen zugreifen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. Klonen Sie das Repository auf Ihrem lokalen System mit dem angegebenen Benutzernamen und Kennwort (generieren Sie ggf. ein Kennwort).
 2. **Paket zum Maven-Bundle hinzufügen:**
    1. Erstellen Sie in Ihrem lokal geklonten Repository ein neues Maven-Bundle oder fügen Sie es einem vorhandenen hinzu.
    2. Stellen Sie sicher, dass die `/jcr_root/apps/fmdita/` installierende Struktur im Maven-Projekt vorhanden ist.
 
-      ![Struktur im Maven-Projekt](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+      ![Struktur im Maven-Projekt](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
 
    3. Platzieren Sie die heruntergeladene Datei „guides-components.all-1.x.x.zip“ im Installationsordner.
@@ -86,7 +87,7 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
    2. Fügen Sie den folgenden Filter hinzu: filter root=`/apps/fmdita` mode=`merge`/
 
 
-      ![Filter hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
+      ![Filter hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 
 
 4. **Konfigurieren Sie pom.xml:** Aktualisieren Sie die Datei „pom.xml“ entsprechend Ihren Umgebungsanforderungen.
@@ -114,7 +115,7 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
 2. **Vorlage auswählen:** Wählen Sie **AEMG Docs 1.x.x** aus und klicken Sie dann auf **Weiter**.
 3. **Site-Details eingeben:** Geben Sie den **Site-Titel** und **Site-Name** ein.
 
-   ![Erstellen einer Website](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+   ![Erstellen einer Website](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350"}
 
 4. Wählen Sie **Erstellen** aus.
 
@@ -128,7 +129,7 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
    5. Deaktivieren Sie die Einstellung **Veraltete Komponentenzuordnung verwenden**.
    6. Wählen Sie **Hinzufügen** aus, um die Voreinstellung zu erstellen.
 
-      ![Neue AEM-Site-Voreinstellung erstellen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![Neue AEM-Site-Voreinstellung erstellen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **AEM-Site-Voreinstellung konfigurieren** Es gibt zwei Optionen, um die vordefinierte Site zu konfigurieren:
@@ -140,7 +141,7 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
       - Veröffentlichungspfad: Cloud Service: `/content/AEMG-Docs-Site/en/docs/product` und On-Premise: `aemg-docs/en/docs/product1`
       - Themenseitenvorlage: Themenseite
 
-      ![Verwenden Sie das Dropdown-Menü der Site, um die AEM-Site zu konfigurieren](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
+      ![Verwenden Sie das Dropdown-Menü der Site, um die AEM-Site zu konfigurieren](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350"}
 
    **Option 2: Verwenden des Site-Pfads**
 
@@ -149,11 +150,11 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
 
       Für Cloud Service:
 
-      ![Verwenden Sie den Site-Pfad, um die AEM-Site zu konfigurieren](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+      ![Verwenden Sie den Site-Pfad, um die AEM-Site zu konfigurieren](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650"}
 
       Für On-Premise:
 
-      ![Site-Pfad verwenden](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![Site-Pfad verwenden](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **Voreinstellung speichern:** Speichern Sie die an der Voreinstellung vorgenommenen Änderungen.
 
@@ -167,15 +168,15 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
    2. Erstellen Sie eine neue Produktseite unter der vorkonfigurierten Site-Struktur.
    3. Navigieren Sie zu **AEMG-** > **Englisch** > **Docs**.
 
-      ![Seite erstellen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+      ![Seite erstellen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650"}
 
    4. Wählen Sie die Kachel **Startseite** und dann **Weiter** aus.
 
-      ![Home-Kachel auswählen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+      ![Home-Kachel auswählen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650"}
 
    5. Geben Sie **(Titel** und **Name** für die Seite ein.
    6. Wählen Sie **Erstellen** aus.
 
 >[!NOTE]
 >
-> Stellen Sie bei der Einrichtung von Cloud Service sicher, dass alle Konfigurationen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktionsumgebung bereitstellen. <br><br> Informationen finden Sie in der offiziellen [Dokumentation &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/deploying/overview) Bereitstellung für AEM as a Cloud Service&quot;.
+> Stellen Sie bei der Einrichtung von Cloud Service sicher, dass alle Konfigurationen in einer Nicht-Produktionsumgebung getestet werden, bevor Sie sie in der Produktionsumgebung bereitstellen. <br><br> Weitere Informationen finden Sie in [&#x200B; offiziellen Dokumentation &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/deploying/overview) Bereitstellung für AEM as a Cloud Service .

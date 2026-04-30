@@ -4,9 +4,9 @@ description: Erstellen und verwalten Sie neue Baseline (Beta) über die Zuordnun
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Führen Sie die folgenden Schritte aus, um die vorhandene Baseline zur neuen Bas
 1. Wählen Sie im Bedienfeld **Tools** die Option **Guides** aus.
 1. Wählen Sie die Kachel **Massenprozessor** aus.
 
-   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png)
 
    Die Seite **Guides Bulk Processor** wird angezeigt.
 
@@ -87,7 +87,7 @@ Führen Sie die folgenden Schritte aus, um die vorhandene Baseline zur neuen Bas
    1. **Ordner und Datei(en) auswählen** Navigieren Sie zu und wählen Sie einen oder mehrere Ordner und Dateien aus, die verarbeitet werden sollen.
    1. **Zu ignorierende Ordner auswählen** Wählen Sie optional Unterordner innerhalb des ausgewählten übergeordneten Ordners aus, die von der Migration ausgeschlossen werden sollen.
 
-   ![new-process-baseline](images/new-process-baseline.png){align="left"}
+   ![new-process-baseline](images/new-process-baseline.png)
 
 1. Wählen Sie **Erstellen** aus.
 
@@ -95,11 +95,11 @@ Ein Popup-Fenster mit **Asset-Verarbeitung erfolgreich ausgelöst** wird angezei
 
 Sie können auch **Protokolle anzeigen** auswählen, um die Protokolle für die Migrationsaufgabe zu überprüfen und herunterzuladen.
 
-![view-logs-baseline](images/view-logs-baseline.png){align="left"}
+![view-logs-baseline](images/view-logs-baseline.png)
 
 Der Protokollbericht enthält Details zur Migration, einschließlich der Anzahl der migrierten Zuordnungen, der erfolgreich migrierten Baselines und der zugehörigen Details.
 
-![logs-detail-baseline](images/logs-detail-baseline.png){align="left"}
+![logs-detail-baseline](images/logs-detail-baseline.png)
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Beim Arbeiten mit Basislinien, die mit dem neuen Basismodell erstellt wurden **w
    - **Eigenschaften bearbeiten**: Ermöglicht die Bearbeitung der Eigenschaften einer vorhandenen Baseline.
    - **Neu erstellen**: Ermöglicht es Ihnen, eine dynamische Baseline bei jeder Änderung neu zu erstellen.
 
-     ![rebuild-baseline](images/rebuild-baseline.png){align="left"}
+     ![rebuild-baseline](images/rebuild-baseline.png)
 
 - Die **Download**-Aktion unterstützt paginierte Downloads. Der gesamte grundlegende Inhalt, der mit den angewendeten Filtern übereinstimmt, ist im Download enthalten, nicht nur der auf der aktuellen Seite sichtbare Inhalt.
 - Filtern Sie Dateien nach GUID zusätzlich zu Dateinamen oder Dateispeicherort. Eine zusätzliche Option zum **Filtern von Dateien ohne Kennzeichnungen** ist ebenfalls verfügbar.
@@ -150,13 +150,13 @@ Beim Arbeiten mit Basislinien, die mit dem neuen Basismodell erstellt wurden **w
    - Navigieren Sie zur Datei, die Sie bearbeiten möchten, und bewegen Sie den Mauszeiger über diese Datei.
    - Wählen Sie das Symbol **Bearbeiten** aus.
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png){align="left"}
+     ![edit-baseline-icon](images/edit-baseline-icon.png)
 
      Das **Version bearbeiten** wird angezeigt.
    - Wählen Sie die gewünschte Version aus dem Dropdown **Version** aus (ändern Sie beispielsweise von Version 1.0 zu 1.1).
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png){align="left"}
+     ![edit-version-baseline](images/edit-version-baseline.png)
 
      Hinzugefügte und entfernte Abhängigkeiten werden ausgewertet und als Vorschau angezeigt. Überprüfen Sie die Änderungen, bevor Sie sie anwenden.
 

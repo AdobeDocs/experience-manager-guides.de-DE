@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie ein DITA-Thema importieren und validieren, mi
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Nach dem Import von Schematron-Dateien können Sie diese im Editor bearbeiten. S
 
 Wenn Sie ein Thema im Editor öffnen, wird rechts ein Bedienfeld für die Schematronvalidierung angezeigt. Führen Sie die folgenden Schritte aus, um ein Thema oder eine Zuordnung mit einer Schematron-Datei hinzuzufügen und zu validieren:
 
-![](images/schematron-panel.png){width="350" align="left"}
+![](images/schematron-panel.png){width="350"}
 
 1. Wählen Sie das Symbol Schematron aus, um das Bedienfeld Schematron zu öffnen.
 1. Verwenden **Schematrondatei hinzufügen** um Schematrondateien hinzuzufügen.
@@ -48,7 +48,7 @@ Wenn Sie ein Thema im Editor öffnen, wird rechts ein Bedienfeld für die Schema
    >
    > Wenn eine ungültige Schematron-Datei hinzugefügt wird, wird im Validierungsfenster eine Fehlermeldung angezeigt.
 
-   ![](images/schematron-panel-error.png){width="350" align="left"}
+   ![](images/schematron-panel-error.png){width="350"}
 
 1. Wenn die Schematron-Datei keine Fehler enthält, wird sie hinzugefügt und im Validierungsfenster aufgeführt. Für die Schematron-Datei mit Fehlern wird eine Fehlermeldung angezeigt.
 
@@ -73,7 +73,7 @@ Die Unterstützung von Schematronen im Editor hilft Ihnen bei der Validierung de
 
 Validierungsergebnisse werden basierend auf dem in der Schematron-Datei definierten Rollenattribut angezeigt. Probleme werden als `Fatal`, `Error`, `Warn` oder `Info` kategorisiert, wobei im Validierungsbereich für jede Kategorie eine sichtbare Anzahl vorhanden ist.
 
-![](images/schematron-validation-errors.png){width="350" align="left"}
+![](images/schematron-validation-errors.png){width="350"}
 
 Um den Schweregrad eines Problems zu ermitteln, wird der Wert _Groß-/Kleinschreibung wird beachtet_ des Rollenattributs ausgewertet, das in der entsprechenden Schematron-Datei definiert ist.
 

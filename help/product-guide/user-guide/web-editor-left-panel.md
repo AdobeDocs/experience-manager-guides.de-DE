@@ -4,9 +4,9 @@ description: Lernen Sie das linke Bedienfeld im Editor kennen. Erfahren Sie mehr
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '10929'
+source-wordcount: '11002'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Standardmäßig können Sie die Dateien nach Titeln anzeigen. Wenn Sie mit dem M
 
 Um eine neue Sammlung zu erstellen, klicken Sie auf das Symbol &quot;+&quot; neben dem Bedienfeld „Sammlungen“, um das Dialogfeld **Neue Sammlung** aufzurufen:
 
-![](images/favorite-new-collection.PNG){width="300" align="left"}
+![](images/favorite-new-collection.PNG){width="300"}
 
 Geben Sie einen Titel und eine Beschreibung für die Sammlung ein, die Sie erstellen möchten. Wenn Sie **Öffentlich** auswählen, wird dieser Favorit auch anderen Benutzern angezeigt.
 
@@ -87,11 +87,11 @@ Um eine Datei zu Sammlungen hinzuzufügen, verwenden Sie eine der folgenden Meth
 
 - Navigieren Sie zur gewünschten Datei oder zum gewünschten Ordner in der Repository-Ansicht, wählen Sie das Symbol *Optionen* aus, um das Kontextmenü zu öffnen, und wählen Sie **Hinzufügen zu** > **Sammlungen**. Im Dialogfeld **Zu Sammlungen hinzufügen** können Sie die Datei/den Ordner zu einem vorhandenen Favoriten hinzufügen oder einen neuen erstellen.
 
-  ![](images/favorite-add-file-folder.png){width="300" align="left"}
+  ![](images/favorite-add-file-folder.png){width="300"}
 
 - Klicken Sie im Editor mit der rechten Maustaste auf die Registerkarte einer Datei, um das Kontextmenü zu öffnen. Wählen Sie **Hinzufügen zu** > **Sammlungen**, um die Datei Ihrer Favoritenliste hinzuzufügen.
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png)
 
 
 >[!NOTE]
@@ -105,7 +105,7 @@ Um eine Datei zu Sammlungen hinzuzufügen, verwenden Sie eine der folgenden Meth
 
 Sie können auch viele Aktionen über das Menü Optionen ausführen, das für eine Sammlung verfügbar ist:
 
-![](images/favorites-options.png){width="650" align="left"}
+![](images/favorites-options.png){width="650"}
 
 - **Umbenennen**: Umbenennen der ausgewählten Sammlung.
 - **Löschen**: Löscht die ausgewählte Sammlung.
@@ -144,7 +144,7 @@ Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken 
 Der Editor bietet erweiterte Filter für die Textsuche. Sie können in den Dateien im ausgewählten Pfad des Adobe Experience Manager-Repositorys nach einem Text suchen und filtern. Dabei werden Titel, Dateiname und Inhalt in den Dateien durchsucht.
 
 
-![Suchen von Dateien in der Repository-Ansicht](images/repository-filter-search.png){width="300" align="left"}
+![Suchen von Dateien in der Repository-Ansicht](images/repository-filter-search.png){width="300"}
 
 *Filter anwenden, um nach den Dateien zu suchen, die den`personal spaceship.`* enthalten
 
@@ -160,7 +160,7 @@ Sie haben die folgenden Optionen, um die Dateien zu filtern und Ihre Suche im Ad
 - **DITA-Dateien**: Sie können nach allen **DITA-Themen** und **DITA-Karten** suchen, die im ausgewählten Pfad vorhanden sind. Diese sind standardmäßig ausgewählt.
 - **Nicht-DITA-Dateien**: Sie können im ausgewählten Pfad nach **DITAVAL-**, **Image-**, **Multimedia**, **Documents** und **JSON** suchen.
 
-  ![Filter für die schnelle Suche](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![Filter für die schnelle Suche](images/repository-filter-search-quick.png) {width="300"}
 
   *Verwenden Sie die Filter für die schnelle Suche, um nach DITA- und Nicht-DITA-Dateien zu suchen.*
 
@@ -174,7 +174,7 @@ Wählen Sie das Symbol **Erweiterte**![Erweitertes Filtersymbol](images/advanced
 
 Sie können die folgenden Optionen auf den Registerkarten **Allgemein** und **Erweitert** anzeigen.
 
-![Dialogfeld „Erweiterter Filter“](images/repository-filter-search-advanced.png) {width="650" align="left"}
+![Dialogfeld „Erweiterter Filter“](images/repository-filter-search-advanced.png) {width="650"}
 
 
 **Allgemein**
@@ -219,7 +219,7 @@ Neben dem Öffnen von Dateien über den linken Bereich können Sie auch viele Ak
 
 Sie können die folgenden Aktionen mithilfe des Menüs Optionen ausführen, das für einen *Ordner* in der Repository-Ansicht verfügbar ist:
 
-![](images/options-menu-folder_cs.PNG){width="550" align="left"}
+![](images/options-menu-folder_cs.PNG){width="550"}
 
 
 - **Neu**: Erstellen Sie ein neues DITA-Thema, eine neue DITA-Karte oder einen neuen Ordner.
@@ -232,7 +232,7 @@ Schritte zum Erstellen eines neuen Themas:
 1. Wählen Sie **Neu** > **Thema** aus.
 1. Das **Neues Thema** wird angezeigt.
 
-   ![](images/create-topic-dialog.png){width="300" align="left"}
+   ![](images/create-topic-dialog.png){width="300"}
 
 1. Geben **im Dialogfeld** Neues Thema“ die folgenden Details an:
    - Ein Titel für das Thema.
@@ -240,7 +240,7 @@ Schritte zum Erstellen eines neuen Themas:
    - Eine Vorlage, auf der das Thema basieren soll. Bei einem vorkonfigurierten Setup können Sie beispielsweise aus den Vorlagen „Leer“, „Konzept“, „DIGITAL“, „Referenz“, „Aufgabe“, „Thema“, „Markdown“, „Glossar“ und „Fehlerbehebung“ wählen. Wenn für Ihren Ordner ein Ordnerprofil konfiguriert ist, zeigen Sie nur die Themenvorlagen an, die für das Ordnerprofil konfiguriert sind.
 
    - Pfad zum Speichern der Themendatei. Standardmäßig wird der Pfad des aktuell ausgewählten Ordners im Repository im Feld Pfad angezeigt.
-1. Wählen Sie **Erstellen**. Das Thema wird unter dem angegebenen Pfad erstellt. Außerdem wird das Thema im Editor zur Bearbeitung geöffnet.
+1. Wählen Sie **Erstellen** aus. Das Thema wird unter dem angegebenen Pfad erstellt. Außerdem wird das Thema im Editor zur Bearbeitung geöffnet.
 
 </details>
 
@@ -253,14 +253,14 @@ Schritte zum Erstellen einer neuen DITA-Zuordnung:
 1. Wählen Sie **Neu** > **DITA-Karte**.
 2. Das **Neue Zuordnung** wird angezeigt.
 
-   ![](images/create-map-dialog.png){width="300" align="left"}
+   ![](images/create-map-dialog.png){width="300"}
 
 3. Geben **im Dialogfeld** Neue Zuordnung“ die folgenden Details an:
    - Ein Titel für die Karte.
    - *\(Optional\)* Der Dateiname für die Zuordnung. Der Dateiname wird basierend auf dem Zuordnungstitel automatisch vorgeschlagen. Wenn Ihr Administrator automatische Dateinamen basierend auf der UUID-Einstellung aktiviert hat, wird das Feld Name nicht angezeigt.
    - Eine Vorlage, auf der die Zuordnung basieren soll. Für ein vorkonfiguriertes Setup können Sie beispielsweise aus den Vorlagen „Bookmap“ oder „DITA Map“ auswählen.
    - Pfad, in dem die Zuordnungsdatei gespeichert werden soll. Standardmäßig wird der Pfad des aktuell ausgewählten Ordners im Repository im Feld Pfad angezeigt.
-4. Wählen Sie **Erstellen**. Die Zuordnung wird innerhalb des im Feld Pfad angegebenen Ordners erstellt und hinzugefügt. Außerdem wird die Karte in der Kartenansicht geöffnet. Sie können die Zuordnungsdatei im Zuordnungs-Editor öffnen und ihr ein Thema hinzufügen. Weitere Informationen zum Hinzufügen von Themen zu einer Zuordnungsdatei finden Sie unter [Erstellen einer Zuordnung](map-editor-create-map.md#). Wählen Sie alternativ **In Map-Konsole öffnen** aus, um die Zuordnung in der Map-Konsole zu öffnen.
+4. Wählen Sie **Erstellen** aus. Die Zuordnung wird innerhalb des im Feld Pfad angegebenen Ordners erstellt und hinzugefügt. Außerdem wird die Karte in der Kartenansicht geöffnet. Sie können die Zuordnungsdatei im Zuordnungs-Editor öffnen und ihr ein Thema hinzufügen. Weitere Informationen zum Hinzufügen von Themen zu einer Zuordnungsdatei finden Sie unter [Erstellen einer Zuordnung](map-editor-create-map.md#). Wählen Sie alternativ **In Map-Konsole öffnen** aus, um die Zuordnung in der Map-Konsole zu öffnen.
 </details>
 
 <details>
@@ -271,24 +271,24 @@ Schritte zum Erstellen eines neuen Ordners:
 1. Wählen Sie **Neu** > **Ordner** aus.
 2. Das **Neuer Ordner**-Dialogfeld wird angezeigt.
 
-   ![](images/new-folder-dialog_cs.png){width="300" align="left"}
+   ![](images/new-folder-dialog_cs.png){width="300"}
 
 3. Geben **im Dialogfeld** Neuer Ordner“ die folgenden Details an:
    - Ein Titel für den Ordner, der automatisch in den Ordnernamen konvertiert wird.
    - Pfad, in dem der Ordner gespeichert werden soll. Standardmäßig wird der Pfad des aktuell ausgewählten Ordners im Repository im Feld Pfad angezeigt.
-4. Wählen Sie **Erstellen**. Der Ordner wird in dem Ordner erstellt und hinzugefügt, von dem aus die Option Ordner erstellen ausgeführt wurde.
+4. Wählen Sie **Erstellen** aus. Der Ordner wird in dem Ordner erstellt und hinzugefügt, von dem aus die Option Ordner erstellen ausgeführt wurde.
 
 </details>
 
 - **Assets hochladen**: Laden Sie eine Datei aus Ihrem lokalen System in den ausgewählten Ordner im Adobe Experience Manager-Repository hoch. Sie können auch Dateien aus Ihrem lokalen System per Drag-and-Drop auf das aktuelle Arbeitsthema ziehen. Dies ist sehr nützlich, wenn Sie Bilder aus Ihrem lokalen System in Ihr Thema einfügen möchten.
 
-  ![](images/upload-assets.png){width="300" align="left"}
+  ![](images/upload-assets.png){width="300"}
 
   Sie können einen Ordner auswählen, in den Sie die Datei hochladen möchten, und es wird auch eine Vorschau des Bildes angezeigt. Wenn Sie die Datei umbenennen möchten, können Sie dies im Textfeld Dateiname tun. Wählen Sie **Hochladen** aus, um den Datei-Upload abzuschließen. Wenn Sie eine Bilddatei per Drag-and-Drop auf ein Thema gezogen haben, wird die Bilddatei zum Artikel hinzugefügt und auch hochgeladen.
 
   Wenn Ihr Admin die Option UUIDs in *XMLEditorConfig* aktiviert hat, wird die UUID des hochgeladenen Bildes in der Eigenschaft **Source** angezeigt.
 
-  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){  }
 
   Nach erfolgreichem Hochladen wird das folgende Bestätigungsdialogfeld angezeigt:
 
@@ -321,11 +321,11 @@ Schritte zum Erstellen eines neuen Ordners:
 
 - **Dateien in Ordner suchen**: Versetzt den Fokus auf die Repository-Suche, in der Sie den Suchbegriff eingeben können. Die Suche wird unter dem ausgewählten Ordner im Repository durchgeführt. Sie können auch einen Filter anwenden, um DITA-Dateien, Bilddateien oder beides zurückzugeben.
 
-  ![](images/find-files-in-folders-repo-view_cs.png){width="300" align="left"}
+  ![](images/find-files-in-folders-repo-view_cs.png){width="300"}
 
   Sie können auch mit der UUID einer Datei suchen. In diesem Fall zeigen die Suchergebnisse den Titel der DITA/XML-Datei an. Wenn es sich bei der Datei um eine Bilddatei handelt, wird die UUID der Datei angezeigt. Im folgenden Suchbeispiel wird die UUID einer Bilddatei durchsucht und in den Suchergebnissen die UUID der Originalbilddatei sowie der Thementitel der Datei angezeigt, in der auf dieses Bild verwiesen wird.
 
-  ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
+  ![](images/uuid-repo-search-image-topic-file_cs.png){width="300"}
 
 - **Zu Sammlungen hinzufügen**: Fügt den ausgewählten Ordner zu den Favoriten hinzu. Sie können sie zu einer vorhandenen oder neuen Sammlung hinzufügen.
 
@@ -353,7 +353,7 @@ Sie erhalten Zugriff auf verschiedene Optionen im Menü Optionen , je nachdem, o
 - Eigenschaften
 
 
-![Optionsmenü einer Datei in der Repository-Ansicht](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![Optionsmenü einer Datei in der Repository-Ansicht](images/options-menu-repo-view-file-level.png){width="550"}
 
 Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert:
 
@@ -373,7 +373,7 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
 
 - **Vorschau**: Erhalten Sie eine schnelle Vorschau der Datei (.dita, .xml, Audio, Video oder Bild), ohne sie zu öffnen. Sie können die Größe des Vorschaubereichs ändern. Wenn der Inhalt `<xref>` oder `<conref>` enthält, können Sie diese auswählen, um sie in einer neuen Registerkarte zu öffnen. Der Titel der Datei wird im Fenster angezeigt. Wenn kein Titel vorhanden ist, wird der Dateiname angezeigt. Um das Bedienfeld **Vorschau** zu schließen, können Sie entweder das Symbol zum Schließen auswählen oder eine beliebige Stelle außerhalb des Bereichs auswählen.
 
-  ![](images/quick-preview_cs.png){align="left"}
+  ![](images/quick-preview_cs.png){  }
 
 
 - **Duplizieren**: Mit dieser Option erstellen Sie ein Duplikat oder eine Kopie der ausgewählten Datei. Sie haben außerdem die Möglichkeit, die doppelte Datei in der Aufforderung Asset duplizieren umzubenennen. Standardmäßig wird die Datei mit dem Suffix \ (wie Dateiname\_1.extension\) erstellt. Der Titel der Datei bleibt gleich wie der der Quelldatei, und die neue Datei beginnt mit Version 1.0. Alle Verweise, Tags und Metadaten werden kopiert, während die Baselines nicht in die doppelte Datei kopiert werden.
@@ -385,7 +385,7 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
 
   Wenn Sie versuchen, eine Datei in einen Ordner zu verschieben, in dem eine Datei mit demselben Namen, aber einem anderen Titel vorhanden ist, wird das Dialogfeld Umbenennen und Datei verschieben angezeigt, und Sie müssen die Datei vor dem Verschieben umbenennen. Die verschobene Datei im Zielordner hat den neuen Dateinamen.
 
-  ![](images/rename-move-asset.png){width="550" align="left"}
+  ![](images/rename-move-asset.png){width="550"}
 
   >[!NOTE]
   >
@@ -427,7 +427,7 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
    - Wenn die Datei einer Sammlung hinzugefügt wird, wird das **Löschen erzwingen** angezeigt, und Sie können das Löschen erzwingen.
    - Wenn die Datei von einer anderen Datei referenziert wird, wird **Löschen erzwingen** Dialogfeld mit der Bestätigungsmeldung angezeigt, und Sie können die Datei erzwingen:
 
-     ![](images/options-menu-force-delete.png){width="300" align="left"}
+     ![](images/options-menu-force-delete.png){width="300"}
 
      >[!NOTE]
      >
@@ -496,7 +496,7 @@ Wenn Sie eine Karte in der Kartenansicht öffnen, wird der Titel der aktuellen K
 
 Wenn Sie Schlüsselattribute für die Themen- oder Zuordnungsreferenzen definieren, können Sie den Titel, das entsprechende Symbol und den Schlüssel im linken Bereich anzeigen. Die Taste wird als `keys=<key-name>` angezeigt.
 
-![Schlüssel in der Kartenansicht](images/view-key-title-map-view.png){width="300" align="left"}
+![Schlüssel in der Kartenansicht](images/view-key-title-map-view.png){width="300"}
 
 Wenn Sie Bearbeitungsrechte für die Zuordnungsdateien haben, können Sie auch die Dateien bearbeiten. Weitere Informationen zum Öffnen und Bearbeiten eines Themas über DITA Map finden Sie unter [Themen über DITA Map bearbeiten](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
@@ -508,7 +508,7 @@ Die folgenden Optionen sind für eine Zuordnungsdatei in der Zuordnungsansicht v
 
 Mit dem Menü Optionen der Zuordnungsdatei können Sie die folgenden Aktionen ausführen:
 
-![](images/options-menu-map-view_cs.png){align="left"}
+![](images/options-menu-map-view_cs.png){  }
 
 - **Bearbeiten**: Öffnen Sie die Zuordnungsdatei zur Bearbeitung im Zuordnungs-Editor.
 
@@ -564,7 +564,7 @@ Mit dem Menü Optionen der Zuordnungsdatei können Sie die folgenden Aktionen au
 
 Der folgende Screenshot zeigt das Optionsmenü für eine Datei in der Kartenansicht:
 
-![](images/options-menu-file_cs.PNG){align="left"}
+![](images/options-menu-file_cs.PNG){  }
 
 Mit dem Menü Optionen können Sie die folgenden Aktionen ausführen:
 
@@ -624,11 +624,11 @@ Um eine DITA-Datei zu Ihrem Bedienfeld „Wiederverwendbarer Inhalt“ hinzuzuf�
 
 
 
-  ![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+  ![](images/reusable-content-selection-left-panel.png){width="650"}
 
   Sie können auch das Symbol **Entfernen** verwenden, um die Auswahl einiger Dateien aus der Vorschau aufzuheben.
 
-  ![](images/resusable-content-remove-preview.png){width="650" align="left"}
+  ![](images/resusable-content-remove-preview.png){width="650"}
 - Wählen Sie in der Repository-Ansicht das **Optionen**-Symbol der gewünschten Datei aus und wählen Sie **Hinzufügen zu** > **Wiederverwendbarer Inhalt** aus dem Kontextmenü.
 
 - Klicken Sie im Editor mit der rechten Maustaste auf die Registerkarte einer Datei, um das Kontextmenü zu öffnen, und wählen Sie **Hinzufügen zu** > **Wiederverwendbarer Inhalt**.
@@ -637,7 +637,7 @@ Nachdem die Datei hinzugefügt wurde, können Sie alle wiederverwendbaren Inhalt
 
 Wenn Sie eine Datei zur Liste wiederverwendbarer Inhalte hinzufügen, wird der Titel der Datei anstelle der UUID der Datei angezeigt. Um die UUID der Datei zu überprüfen, bewegen Sie den Mauszeiger über den Titel der Datei, und die UUID der Datei wird in der QuickInfo angezeigt.
 
-![](images/uuid-reusable-content-file-title_cs.png){width="400" align="left"}
+![](images/uuid-reusable-content-file-title_cs.png){width="400"}
 
 >[!NOTE]
 >
@@ -649,7 +649,7 @@ Verwenden Sie eine der folgenden Methoden, um Inhalte aus dem Bedienfeld „Wied
 
 - Bewegen Sie den Mauszeiger über ein Element, das Sie einfügen möchten, wählen Sie das Symbol **Optionen** und wählen Sie **Wiederverwendbaren Inhalt einfügen** aus der Dropdown-Liste aus.
 
-  ![](images/insert-reusable-content_cs.png){width="400" align="left"}
+  ![](images/insert-reusable-content_cs.png){width="400"}
 
   >[!NOTE]
   >
@@ -663,7 +663,7 @@ Verwenden Sie eine der folgenden Methoden, um Inhalte aus dem Bedienfeld „Wied
 
 Wenn Sie das Symbol **Gliederung** auswählen, erhalten Sie eine hierarchische Ansicht der im Dokument verwendeten Elemente.
 
-![](images/outline-view_cs.png){width="300" align="left"}
+![](images/outline-view_cs.png){width="300"}
 
 Die Gliederungsansicht bietet die folgenden Funktionen:
 
@@ -677,15 +677,15 @@ Die Gliederungsansicht bietet die folgenden Funktionen:
 
 - Wenn Sie ein Element in der Gliederungsansicht auswählen, wird der Inhalt des Elements in der Authoring- oder Source-Ansicht ausgewählt. Die Gliederungsansicht bleibt mit der Autoren- und der Source-Ansicht synchronisiert. Wenn Sie Änderungen in einer Ansicht vornehmen, können Sie diese in der Gliederungsansicht anzeigen. Wenn Sie beispielsweise einen Absatz hinzufügen oder ein Element in der Autorenansicht aktualisieren, wird dies in der Gliederungsansicht angezeigt.
 
-  ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
+  ![](images/select-element-content-outline-view_cs.png){width="650"}
 
 - Elemente per Drag-and-Drop verschieben. Sie können ein Element einfach ersetzen, indem Sie ein anderes Element darauf ablegen. Wenn Sie ein Element per Drag-and-Drop auf ein anderes Element ziehen und ein gestricheltes Rechteckfeld um das Element herum anzeigen, bedeutet dies, dass das Element ersetzt wird. Es ersetzt das Element, auf dem das Element abgelegt wird.
 
-  ![](images/replace-element-outline-view_cs.png){align="left"}
+  ![](images/replace-element-outline-view_cs.png){  }
 
   Wenn Sie ein Element per Drag-and-Drop ziehen, zeigt ein gestricheltes Rechteck an, dass das Element an der aktuellen Position platziert werden kann. Wenn Drag-and-Drop ungültig ist, wird eine Fehlermeldung angezeigt, die darauf hinweist, dass der Vorgang nicht zulässig ist.
 
-  ![](images/drop-element-outline-view_cs.png){align="left"}
+  ![](images/drop-element-outline-view_cs.png){  }
 
 - Das Menü **Optionen** in der Ansicht *Gliederung* ermöglicht die Durchführung allgemeiner Vorgänge wie Ausschneiden, Kopieren, Löschen, ID generieren, Element vor oder nach dem aktuellen Element einfügen, ein Element umbenennen oder ersetzen, Element einschließen, Element entpacken und ein Ausschnitt aus dem ausgewählten Element erstellen.
 
@@ -703,7 +703,7 @@ Mit der Option **Konfigurieren anzeigen** können Sie Folgendes anzeigen:
 
 Wenn ein Blockelement über einen eigenen Text verfügt, wird er zusammen mit diesem Blockelement angezeigt. Wenn er keinen eigenen Text hat, wird der Text des ersten untergeordneten Elements zusammen mit diesem Blockelement angezeigt.
 
-![](images/outline-view-block-element.png){width="550" align="left"}
+![](images/outline-view-block-element.png){width="550"}
 
 Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Sie können auch von Ihrem Administrator konfigurierte Anzeigeattribute auf der Registerkarte **Anzeigeattribute** in den **Workspace-** zuweisen (die für **On-Premise** als **Einstellungen** angezeigt wird). Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt.
 
@@ -720,7 +720,7 @@ Sie können im Element nach einer Zeichenfolge suchen, wenn diese in der Ansicht
 
 Experience Manager Guides ermöglicht die einfache Erstellung und Verwendung von Glossardokumenten. Sie können Glossarthemendateien erstellen und sie dann in eine gemeinsame Glossarzuordnung einbinden. Sobald diese Zuordnung als Stammzuordnung hinzugefügt wurde, werden die Glossareinträge im Glossar-Bedienfeld angezeigt.
 
-![](images/glossary-panel.png){width="650" align="left"}
+![](images/glossary-panel.png){width="650"}
 
 Um einen Begriff aus dem Glossar einzufügen, ziehen Sie den Eintrag einfach per Drag-and-Drop aus dem Bedienfeld an die gewünschte Position in Ihrem Thema. Das Menü Optionen eines Glossarbegriffs bietet einen schnellen Überblick **Vorschau** des Eintragsbegriffs, **Pfad kopieren** der Eintragsbegriffdatei oder Auffinden der Eintragsbegriffdatei im Repository.
 
@@ -738,7 +738,7 @@ Führen Sie die folgenden Schritte aus, um nach Textausdrücken zu suchen und si
 
 Sie können die folgenden Einstellungen des Hotspot-Tools konfigurieren:
 
-![](images/glossary-hotspot-tool.png){width="300" align="left"}
+![](images/glossary-hotspot-tool.png){width="300"}
 
 
 - **Glossarschlüssel**: Wählen Sie die Glossarschlüssel aus der DITA-Karte aus, die Sie für die Suche im ausgewählten Thema verwenden möchten. Die ausgewählten Tasten werden unten angezeigt. Sie können eine ausgewählte Taste entfernen, indem Sie auf das Symbol **Entfernen** klicken.
@@ -754,7 +754,7 @@ Sie können die folgenden Einstellungen des Hotspot-Tools konfigurieren:
    - **Neue Version nach Konvertierung erstellen**: Nach Abschluss der Konvertierung von Begriffen wird eine neue Version des Themas erstellt.
 - **Weiter** wird angezeigt, wenn Sie die Option **Manuell für jedes Thema** auswählen. Wählen Sie **Weiter**, um die Begriffe für jedes Thema basierend auf den ausgewählten Einstellungen zu konvertieren. Es fordert bei jedem Thema zur Konvertierung der Begriffe auf und wechselt zur nächsten Datei. Sie können einen Begriff konvertieren oder überspringen und zum nächsten Begriff wechseln.
 
-  ![](images/manual-convert-skip.png){width="300" align="left"}
+  ![](images/manual-convert-skip.png){width="300"}
 
 - **Konvertieren** wird angezeigt, wenn Sie die Option **Automatisch für alle Themen** auswählen. Wählen Sie **Konvertieren** aus, um alle im Dokument enthaltenen Begriffe in verknüpfte Glossarabkürzungen zu konvertieren.
 
@@ -770,7 +770,7 @@ Im Bedienfeld Bedingungen werden die von Ihrem Administrator definierten bedingt
 
 Sie können auch mehrere Bedingungen auf ein Element anwenden, indem Sie mehrere Bedingungen auf ein Element ziehen und dort ablegen. Wenn Sie mehrere Bedingungen auf ein Element anwenden, zeigt das Bedienfeld Eigenschaften die angewendeten Bedingungen getrennt durch ein Komma an.
 
-![](images/multiple-conditions-applied_cs.png){align="left"}
+![](images/multiple-conditions-applied_cs.png){  }
 
 In der Code-Ansicht werden die Bedingungen jedoch durch ein Leerzeichen getrennt. Wenn Sie eine Bedingung in der Code-Ansicht hinzufügen oder bearbeiten, stellen Sie sicher, dass mehrere Bedingungen durch ein Leerzeichen getrennt werden.
 
@@ -778,11 +778,11 @@ In der Code-Ansicht werden die Bedingungen jedoch durch ein Leerzeichen getrennt
 >
 > Der folgende Screenshot zeigt einen Benutzer mit Administratorrechten. Als Benutzer mit Administratorrechten können Sie Bedingungen hinzufügen, bearbeiten und löschen. Andernfalls haben Sie als normaler Autor nur die Möglichkeit, Bedingungen anzuwenden.
 
-![](images/conditional-content-through-panel_cs.png){align="left"}
+![](images/conditional-content-through-panel_cs.png){  }
 
 Um eine Bedingung hinzuzufügen oder zu definieren, klicken Sie auf das Symbol + neben dem Bedienfeld Bedingungen , um das Dialogfeld Bedingung definieren anzuzeigen:
 
-![](images/conditional-panel-create-cond.png){width="400" align="left"}
+![](images/conditional-panel-create-cond.png){width="400"}
 
 Wählen Sie aus der Liste Attribut das bedingte Attribut aus, das Sie definieren möchten, geben Sie einen Wert für die Bedingung ein und geben Sie dann die Bezeichnung an, die im Bedienfeld Bedingungen angezeigt wird. Definieren Sie eine Gruppe für die Bedingung. Sie können einer Gruppe mehrere Bedingungen hinzufügen. Sie können auch eine Farbe für die Bedingung definieren. Diese Farbe wird als Hintergrundfarbe des Inhalts festgelegt, auf den die Bedingung angewendet wird.
 
@@ -798,12 +798,12 @@ Sie können `/` verwenden und Untergruppen wie `AEM Guides/Cloud Service` defini
 
 
 
-![Bedingungen in einer verschachtelten Hierarchie organisiert](images/conditions-nested-hierarchy.png){width="300" align="left"}
+![Bedingungen in einer verschachtelten Hierarchie organisiert](images/conditions-nested-hierarchy.png){width="300"}
 
 
 Um eine Bedingung zu bearbeiten, wählen Sie **Bearbeiten** aus dem Menü „Optionen“. Das Dialogfeld Bedingung bearbeiten wird angezeigt:
 
-![](images/conditional-panel-edit-cond.png){width="400" align="left"}
+![](images/conditional-panel-edit-cond.png){width="400"}
 
 Geben Sie die Details auf die gleiche Weise an wie bei der Konfiguration bei der Definition einer neuen Bedingung.
 
@@ -850,7 +850,7 @@ Das folgende Beispiel zeigt die Verwendung des Betreffschemas in Experience Mana
    </subjectScheme>
    ```
 
-   ![](images/subject-scheme-panel-new.png){width="300" align="left"}
+   ![](images/subject-scheme-panel-new.png){width="300"}
 
 1. Speichern Sie die Datei mit der Erweiterung a.ditamap und laden Sie sie in einen beliebigen Ordner in DAM hoch.
 
@@ -858,11 +858,11 @@ Das folgende Beispiel zeigt die Verwendung des Betreffschemas in Experience Mana
    >
    > Sie können der Schemadatei einen Verweis in der übergeordneten DITA-Zuordnung hinzufügen.
 
-   ![](images/subject-scheme-root-map-new.png){width="550" align="left"}
+   ![](images/subject-scheme-root-map-new.png){width="550"}
 
 1. Legen Sie die übergeordnete Zuordnung als Stammzuordnung in „Benutzereinstellungen **fest**. Nachdem diese Zuordnung als Stammzuordnung hinzugefügt wurde, wird das Betreffschema im Bedienfeld „Betreffschema“ angezeigt.
 
-   ![](images/subject-scheme-user-preferences-new.png){width="650" align="left"}
+   ![](images/subject-scheme-user-preferences-new.png){width="650"}
 
 
 1. Öffnen Sie im Editor die Datei, in der Sie die Definitionen des Betreffschemas verwenden möchten.
@@ -919,7 +919,7 @@ Die Definitionen des Betreffs sind in `subject_scheme_map_1.ditamap` definiert.
     </subjectScheme>
 ```
 
-Die Definition der Auflistung ist vorhanden in    subject_scheme_map_2.ditamap.
+Die Definition der Auflistung ist in subject_scheme_map_2.ditamap vorhanden.
 
 ```XML
     ?xml version="1.0" encoding="UTF-8"?> 
@@ -995,7 +995,7 @@ Sie können auch Werte für ein Attribut anwenden, indem Sie mehrere Werte aus d
 
 Sie können die Werte auch aus der Dropdown-Liste des Attributs in der Source-Ansicht ändern. Die Source-Ansicht verhindert auch, dass Sie einen falschen Wert hinzufügen.
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+![](images/subject-scheme-code-error.png){width="550"}
 
 **Anzeigen und Anwenden des Betreffschemas im Bedienfeld „Bedingungen“**
 
@@ -1015,7 +1015,7 @@ Snippets sind kleine Inhaltsfragmente, die in verschiedenen Themen in Ihrem Doku
 >
 > Der folgende Screenshot zeigt einen Benutzer mit Administratorrechten. Als Benutzer mit Administratorrechten können Sie Snippets hinzufügen, bearbeiten und löschen. Andernfalls haben Sie als normaler Autor nur die Möglichkeit, ein Snippet in der Vorschau anzuzeigen und einzufügen.
 
-![](images/snippets-panel_cs.png){align="left"}
+![](images/snippets-panel_cs.png)
 
 **Erstellen eines Snippets**
 
@@ -1023,7 +1023,7 @@ Um einen Ausschnitt hinzuzufügen, verwenden Sie eine der folgenden Methoden:
 
 1. Wählen Sie das Symbol **+** neben Ausschnitte aus, um das Dialogfeld **Neues**&quot; zu öffnen.
 
-   ![](images/snippet-new-dialog.png){width="300" align="left"}
+   ![](images/snippet-new-dialog.png){width="300"}
 
    Geben Sie im Dialogfeld Neues Snippet einen Titel an, der im Snippet-Bedienfeld angezeigt wird, eine Beschreibung, wählen Sie ein Format (DITA oder HTML) für Ihren Inhalt aus und geben Sie einen Code für den Snippet-Inhalt an, den Sie erstellen möchten. Wählen Sie **Erstellen** aus, um das Snippet zu speichern und zu erstellen.
 
@@ -1033,7 +1033,7 @@ Um einen Ausschnitt hinzuzufügen, verwenden Sie eine der folgenden Methoden:
 
    Im folgenden Screenshot werden der Breadcrumb und der Inhaltsbereich hervorgehoben, von dem aus Sie das Kontextmenü aufrufen können.
 
-   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+   ![](images/snippet-create-from-breadcrumb-content.png){width="350"}
 
 **Einfügen eines Snippets**
 
@@ -1055,7 +1055,7 @@ Verwenden Sie eine der folgenden Methoden, um einen Ausschnitt einzufügen:
 
 Das Bedienfeld Vorlagen ist nur für Administratoren verfügbar. Mithilfe dieses Bedienfelds können Admins mühelos Vorlagen erstellen und verwalten, die dann von den Autoren verwendet werden können. Standardmäßig werden die Vorlagen unter den Vorlagen vom Typ *Zuordnung* und *Thema* kategorisiert.
 
-![](images/templates-panel_cs.png){width="300" align="left"}
+![](images/templates-panel_cs.png){width="300"}
 
 Standardmäßig können Sie die Dateien nach Titeln anzeigen. Wenn Sie mit dem Mauszeiger auf eine Vorlage zeigen, können Sie den Dateititel und den Dateinamen als QuickInfo anzeigen.
 
@@ -1102,7 +1102,7 @@ Je nach Ihren Anforderungen können Sie die Funktion Suchen und Ersetzen in zwei
   > - **Für Cloud-**: Es muss eine benutzerdefinierte Indexbereitstellung durchgeführt werden. Weitere Informationen finden Sie unter [Bereitstellen eines benutzerdefinierten Index](/help/product-guide/cs-install-guide/custom-indexing.md). Wenden Sie sich nach Abschluss des Vorgangs an Ihr Customer Success-Team, um diese Funktion zu aktivieren.
   > - **Bei On-Premise**: Eine Neuindizierung vorhandener Inhalte ist erforderlich, bevor die Funktion verwendet werden kann. Weitere Informationen finden Sie unter [Neuindizierung von Inhalten](/help/product-guide/install-guide/custom-indexing-prem.md). Wenden Sie sich nach Abschluss des Vorgangs an Ihr Customer Success-Team, um diese Funktion zu aktivieren.
 
-  ![](images/map-find-replace-with-source-mode.png){align="left"}
+  ![](images/map-find-replace-with-source-mode.png)
 
 <br>
 
@@ -1119,12 +1119,12 @@ Um die globale Suche durchzuführen und durch den Source-Modus zu ersetzen, füh
    - **Map**: Zum Suchen in einer bestimmten Zuordnung aus dem Repository oder den Sammlungen
    - **Aktuelle Karte**: Zum Suchen in der aktuell geöffneten Karte
 
-   ![](images/path-dropdown-source-mode.png){width="350" align="left"}
+   ![](images/path-dropdown-source-mode.png){width="350"}
 
 
 1. Geben Sie die Suchzeichenfolge in das Feld **Suchen** ein. Um die Ergebnisse einzugrenzen, klicken Sie auf das **Filter**-Symbol neben dem Feld Suchen und wählen Sie die folgenden gewünschten Filter aus:
 
-   ![](images/find-filters-source-mode.png){width="350" align="left"}
+   ![](images/find-filters-source-mode.png){width="350"}
 
    - **Dateityp**: Wählen Sie den Dateityp; **Themen** und **Karten**, in denen Sie den Text suchen möchten
    - **Dokumentstatus**: Sie können einen Dokumentstatus aus den verfügbaren Optionen auswählen. Die angezeigten Dokumentstatusoptionen werden aus den Ordnerprofilen abgeleitet. Sie stellen den kombinierten Satz aller möglichen Dokumentstatus in diesen Profilen dar. Zu den Standardstatus gehören „In Prüfung“, „Fertig“, „Entwurf“, „Genehmigt“, „Bearbeiten“ und „Überprüft“.
@@ -1141,7 +1141,7 @@ Um die globale Suche durchzuführen und durch den Source-Modus zu ersetzen, füh
 
 1. Drücken Sie die Eingabetaste oder wählen Sie **Suchen**-Symbol aus, um die Suche durchzuführen.
 
-   ![](images/search-icon.png){width="350" align="left"}
+   ![](images/search-icon.png){width="350"}
 
 1. Wählen Sie eine Datei aus der Suchergebnisliste aus. Die Datei wird in der Source-Ansicht geöffnet, wobei der gesuchte Begriff im Inhalt hervorgehoben ist.
 
@@ -1151,16 +1151,16 @@ Um die globale Suche durchzuführen und durch den Source-Modus zu ersetzen, füh
 
    - **Neue Version nach Ersetzen erstellen**: Wählen Sie diese Option aus, wenn Sie eine neue Version des Themas erstellen möchten, in dem Sie den Text ersetzen möchten. Sie können auch Versionskommentare angeben, die mit jeder aktualisierten Datei hinzugefügt werden. Wenn Sie diese Option nicht auswählen, werden die Änderungen in der aktuellen Version des Themas gespeichert und es wird keine neue Version erstellt.
 
-   ![](images/replace-settings-source-mode.png){width="350" align="left"}
+   ![](images/replace-settings-source-mode.png){width="350"}
 
 
 1. Wählen Sie **Vorkommen ersetzen** aus, um die aktuell hervorgehobene Suchzeichenfolge im Thema zu ersetzen, oder wählen Sie die Pfeile nach oben und unten aus, um zum nächsten oder vorherigen Vorkommen des Textes zu wechseln.
 
-   ![](images/replace-occurrence.png){width="350" align="left"}
+   ![](images/replace-occurrence.png){width="350"}
 
 1. Wählen Sie **Alle ersetzen**, um alle Vorkommen der gesuchten Zeichenfolge in allen gesuchten Dateien in einem Schritt durch die angegebene Ersatzzeichenfolge zu ersetzen. Nachdem alle Vorkommen ersetzt wurden, wird eine Benachrichtigung angezeigt.
 
-   ![](images/replace-all.png){width="350" align="left"}
+   ![](images/replace-all.png){width="350"}
 
    >[!NOTE]
    >
@@ -1172,15 +1172,15 @@ Um die globale Suche durchzuführen und durch den Source-Modus zu ersetzen, füh
    >
    > Sie erhalten auch das Symbol **Entfernen**, um die Datei aus dem Suchergebnis zu entfernen. Die Dateien, die Sie entfernen, werden aus der Liste entfernt, und der gesuchte Begriff wird in ihnen nicht ersetzt.
 
-   ![](images/replace-all-in-file.png){width="350" align="left"}
+   ![](images/replace-all-in-file.png){width="350"}
 
 1. Nach Abschluss des Vorgangs „Alle ersetzen“ wird ein herunterladbarer CSV-Bericht generiert, der einen Schnappschuss aller durchgeführten Ersetzungsaktionen enthält. Sie können den Bericht herunterladen, um detaillierte Informationen zu den Ersetzungsvorgängen anzuzeigen, einschließlich der Anzahl der erfolgreich ersetzten Vorfälle sowie Details zu jedem einzelnen Vorgang sowie zu Fehlern und den entsprechenden Gründen. Der Vorgang kann aus bestimmten Gründen fehlschlagen, z. B. weil die Datei von einem anderen Benutzer gesperrt wird, aufgrund von Validierungsfehlern, die durch Änderungen an der Datei während des Vorgangs verursacht werden, oder aus anderen ähnlichen Gründen.
 
-   ![](images/snapshot-replace-all.png){width="350" align="left"}
+   ![](images/snapshot-replace-all.png){width="350"}
 
 Im gesamten System kann jeweils nur ein Vorgang zum Ersetzen aller Vorgänge ausgeführt werden. Bis zum Ausführen des Vorgangs wird der Status „Alle laufenden Vorgänge ersetzen“ angezeigt. Sie können auch den Vorgang „Alle ersetzen“ dazwischen abbrechen. Wenn Sie den Vorgang abbrechen, erhalten Sie eine Benachrichtigung darüber in Ihrem Posteingang.
 
-![](images/replace-all-in-progress-source-mode.png){width="350" align="left"}
+![](images/replace-all-in-progress-source-mode.png){width="350"}
 
 </details>
 
@@ -1188,7 +1188,7 @@ Im gesamten System kann jeweils nur ein Vorgang zum Ersetzen aller Vorgänge aus
 
 - **Ohne Source-Modus:** Die Suche ist auf den Text beschränkt, der in der Autorenansicht angezeigt wird, und konzentriert sich ausschließlich auf den sichtbaren Inhalt, wobei der Quellinhalt wie XML-Elemente oder -Attribute übersprungen wird. Dieser Modus ist ideal für schnelle, reine Inhaltssuchen.
 
-  ![](images/map-find-replace-without-source-mode.png){align="left"}
+  ![](images/map-find-replace-without-source-mode.png)
 
 <br>
 <details>
@@ -1204,7 +1204,7 @@ Um die globale Suche und Ersetzung ohne Source-Modus durchzuführen, führen Sie
    - **Map**: Zum Suchen in einer bestimmten Zuordnung aus dem Repository oder den Sammlungen
    - **Aktuelle Karte**: Zum Suchen in der aktuell geöffneten Karte
 
-   ![](images/path-dropdown.png){width="350" align="left"}
+   ![](images/path-dropdown.png){width="350"}
 
 1. Geben Sie die Suchzeichenfolge in das Feld **Suchen** ein. Um die Ergebnisse einzugrenzen, klicken Sie auf das **Filter**-Symbol neben dem Feld Suchen und wählen Sie die folgenden gewünschten Filter aus:
 
@@ -1213,11 +1213,11 @@ Um die globale Suche und Ersetzung ohne Source-Modus durchzuführen, führen Sie
 
    - **Indirekte Verweise einschließen**: Wählen Sie diese Option aus, wenn Sie die Zeichenfolge in den indirekten Verweisen auch innerhalb der DITA-Zuordnung suchen möchten. Standardmäßig ist dies deaktiviert, sodass die Suche nur für die direkten Verweise durchgeführt wird.
 
-   ![](images/find-filters.png){width="350" align="left"}
+   ![](images/find-filters.png){width="350"}
 
 1. Drücken Sie die Eingabetaste oder wählen Sie **Suchen**-Symbol aus, um die Suche durchzuführen.
 
-   ![](images/search-icon.png){width="350" align="left"}
+   ![](images/search-icon.png){width="350"}
 
 1. Wählen Sie eine Datei aus der Suchergebnisliste aus. Die Datei wird in der Autorenansicht im Inhaltsbearbeitungsbereich geöffnet, wobei der gesuchte Begriff im Inhalt hervorgehoben ist.
 
@@ -1227,12 +1227,12 @@ Um die globale Suche und Ersetzung ohne Source-Modus durchzuführen, führen Sie
 
    - **Neue Version nach Ersetzen erstellen**: Wählen Sie diese Option aus, wenn Sie eine neue Version des Themas erstellen möchten, in dem Sie den Text ersetzen möchten. Sie können auch Versionskommentare angeben, die mit jeder aktualisierten Datei hinzugefügt werden. Wenn Sie diese Option nicht auswählen, werden die Änderungen in der aktuellen Version des Themas gespeichert und es wird keine neue Version erstellt.
 
-   ![](images/replace-settings.png){width="350" align="left"}
+   ![](images/replace-settings.png){width="350"}
 
 
 1. Wählen Sie **Vorkommen ersetzen** aus, um die aktuell hervorgehobene Suchzeichenfolge im Thema zu ersetzen, oder wählen Sie die Pfeile nach oben und unten aus, um zum nächsten oder vorherigen Vorkommen des Textes zu wechseln
 
-   ![](images/replace-occurrence.png){width="350" align="left"}
+   ![](images/replace-occurrence.png){width="350"}
 
 1. Wählen Sie **Alle ersetzen**, um alle Vorkommen des gesuchten Begriffs in einer Datei in einem Schritt durch den ersetzten Begriff zu ersetzen. Nachdem Sie alle Vorkommen in der ausgewählten Datei ersetzt haben, wird eine Benachrichtigung angezeigt.
 
@@ -1240,7 +1240,7 @@ Um die globale Suche und Ersetzung ohne Source-Modus durchzuführen, führen Sie
    >
    > Um das Symbol **Alle ersetzen** zu aktivieren, muss der Administrator des Ordnerprofils oder der Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in den **Workspace-Einstellungen** auswählen (**Einstellungen** für **On-Prem**). Wenn während des Ersetzungsvorgangs Fehler auftreten, werden diese Dateien aufgrund von XML-Analyseproblemen oder DITA-bezogenen Fehlern übersprungen.
 
-   ![](images/replace-all.png){width="350" align="left"}
+   ![](images/replace-all.png){width="350"}
 
 1. Sie können auch den Mauszeiger über eine Datei in der Suchergebnisliste bewegen, um das Symbol **Alles in Datei ersetzen** auf der rechten Seite anzuzeigen, mit dem Sie alle Vorkommen des Begriffs in einer Datei ersetzen können.
 
@@ -1248,15 +1248,15 @@ Um die globale Suche und Ersetzung ohne Source-Modus durchzuführen, führen Sie
    >
    > Sie erhalten auch das Symbol **Entfernen**, um die Datei aus dem Suchergebnis zu entfernen. Die Dateien, die Sie entfernen, werden aus der Liste entfernt, und der gesuchte Begriff wird in ihnen nicht ersetzt.
 
-   ![](images/replace-all-in-file-no-source.png){width="350" align="left"}
+   ![](images/replace-all-in-file-no-source.png){width="350"}
 
 Im gesamten System kann jeweils nur ein Vorgang zum Ersetzen aller Vorgänge ausgeführt werden. Bis zum Ausführen des Vorgangs wird der Status „Alle laufenden Vorgänge ersetzen“ angezeigt. Sie können auch den Vorgang „Alle ersetzen“ dazwischen abbrechen oder den Protokollbericht anzeigen. Wenn Sie den Vorgang abbrechen, erhalten Sie eine Benachrichtigung darüber in Ihrem Posteingang. Nachdem Sie alle Vorkommen in der ausgewählten Datei ersetzt haben, wird eine Erfolgsbenachrichtigung angezeigt.
 
-![](images/replace-all-in-progress.png){width="350" align="left"}
+![](images/replace-all-in-progress.png){width="350"}
 
 Sie können auch die Option **In Karte suchen** im Menü **Optionen** einer Karte verwenden, um Text in einer Karte zu suchen und zu ersetzen. Diese Option wird für eine Zuordnung angezeigt, die im Repository-Bereich oder in der Zuordnungsansicht geöffnet ist.
 
-![](images/map-options-menu.png){width="650" align="left"}
+![](images/map-options-menu.png){width="650"}
 
 </details>
 
@@ -1284,11 +1284,11 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 
 1. Wählen Sie im linken Bedienfeld Überprüfen aus. Das Bedienfeld **Überprüfen** wird geöffnet.  Alle Überprüfungsprojekte und die aktiven Überprüfungsaufgaben innerhalb der Überprüfungsprojekte, zu denen Sie gehören, werden angezeigt.
 
-   ![](images/web-editor-review-panel.png){width="300" align="left"}
+   ![](images/web-editor-review-panel.png){width="300"}
 1. Wählen Sie ein Überprüfungsprojekt aus und wählen Sie dann eine Überprüfungsaufgabe aus der Liste aus, um sie zu öffnen.
 1. Sie können das Symbol **Projekt-Dashboard öffnen** auswählen, um das Projekt in der **Projektekonsole** zu öffnen.
 
-   ![](images/web-editor-project-dashboard.png){width="300" align="left"}
+   ![](images/web-editor-project-dashboard.png){width="300"}
 
 1. Sie können Ihre Projekte auch wie folgt filtern:
 
@@ -1296,7 +1296,7 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 
    - Wählen Sie ![](images/filter-search-icon.svg) aus, um das Dialogfeld **Filter** zu öffnen. Sie können alle oder nur bestimmte Projekte auswählen. Die ausgewählten Projekte werden im Bedienfeld **Überprüfen** aufgelistet.
 
-     ![](images/active-review-select-project.png){width="300" align="left"}
+     ![](images/active-review-select-project.png){width="300"}
 
      Das **Filter**-Dialogfeld enthält auch die folgenden Optionen, die mithilfe des Umschalters aktiviert oder deaktiviert werden können:
 
@@ -1312,7 +1312,7 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 1. Sie können auch den Suchbegriff oder Text eingeben, den Sie im Titel oder Dateipfad des Themas finden möchten. Die Themen, die den Begriff im Titel oder im Dateipfad enthalten, werden aufgelistet.
 1. Doppelklicken Sie auf ein Thema, um es in der Autorenansicht zu öffnen. Sie können die Kommentare im Bedienfeld **Kommentare** anzeigen.
 
-   ![](images/active-review-task-comments.png){align="left"}
+   ![](images/active-review-task-comments.png){  }
 
    >[!NOTE]
    > 

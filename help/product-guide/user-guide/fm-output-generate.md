@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in AEM Guides Ausgaben von Book- oder FM-Date
 exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabe für FrameMaker-Dokument
 
    Die DITA-Zuordnungskonsole wird mit der Liste der für die Generierung der Ausgabe verfügbaren Ausgabevorgaben angezeigt.
 
-   ![](images/publish-fm-doc.png){align="left"}
+   ![](images/publish-fm-doc.png)
 
 1. Wählen Sie eine oder mehrere Ausgabevorgaben aus, die Sie zum Generieren der Ausgabe verwenden möchten.
 

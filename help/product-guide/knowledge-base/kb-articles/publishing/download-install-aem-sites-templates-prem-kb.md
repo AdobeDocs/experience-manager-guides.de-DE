@@ -5,9 +5,9 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Bevor Sie mit der Einrichtung fortfahren, stellen Sie sicher, dass die folgenden
    5. Deaktivieren Sie die Einstellung **Veraltete Komponentenzuordnung verwenden**.
    6. Wählen Sie **Hinzufügen** aus, um die Voreinstellung zu erstellen.
 
-      ![Dialogfeld „Neue Ausgabevorgabe“](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![Dialogfeld „Neue Ausgabevorgabe“](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350"}
 
 
 2. **AEM-Site-Voreinstellung konfigurieren** Es gibt zwei Optionen, um die vordefinierte Site zu konfigurieren:
@@ -64,14 +64,14 @@ Bevor Sie mit der Einrichtung fortfahren, stellen Sie sicher, dass die folgenden
       - Veröffentlichungspfad: `aemg-docs/en/docs/product1`
       - Themenseitenvorlage: Themenseite.
 
-      ![Site-Dropdown verwenden](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+      ![Site-Dropdown verwenden](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350"}
 
    **Option 2: Verwenden des Site-Pfads**
 
    1. Legen Sie **Site-Pfad** manuell als `/content/aemg-docs/en/docs/product1` fest.
    2. Stellen Sie sicher **dass „Themenseitenvorlage** automatisch auf Themenseite eingestellt ist.
 
-      ![Site-Pfad verwenden](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![Site-Pfad verwenden](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350"}
 
 3. **Voreinstellung speichern:** Speichern Sie die an der Voreinstellung vorgenommenen Änderungen.
 
@@ -86,11 +86,11 @@ Bevor Sie mit der Einrichtung fortfahren, stellen Sie sicher, dass die folgenden
    2. Erstellen Sie eine neue Produktseite unter der vorkonfigurierten Site-Struktur.
    3. Navigieren Sie zu **AEMG-** > **Englisch** > **Docs**.
 
-      ![Seite in der AEM Site-Struktur erstellen &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Seite in der AEM Site-Struktur erstellen &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
 
    4. Wählen Sie die Kachel **Startseite** und dann **Weiter** aus.
 
-      ![Startseitenkachel auswählen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+      ![Startseitenkachel auswählen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350"}
 
    5. Geben Sie **(Titel** und **Name** für die Seite ein.
    6. Wählen Sie **Erstellen** aus.

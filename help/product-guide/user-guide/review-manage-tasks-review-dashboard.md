@@ -4,9 +4,9 @@ description: Verwalten Sie Prüfungsaufgaben im Überprüfungs-Dashboard in AEM 
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 
    Ein Projektbedienfeld mit Aufgabenkacheln wird angezeigt.
 
-   ![](images/review-management.png){align="left"}
+   ![](images/review-management.png)
 
    >[!NOTE]
    >
@@ -35,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 
    Das Überprüfungs-Dashboard wird angezeigt. Im Dashboard werden alle von Ihnen erstellten Prüfungsaufgaben aufgelistet.
 
-   ![](images/review-dashboard.png){align="left"}
+   ![](images/review-dashboard.png)
 
    Im Überprüfungs-Dashboard werden Details zur Überprüfungsaufgabe angezeigt, z. B. Name der Aufgabe, wer die Überprüfung gestartet hat, Datum, an dem die Überprüfung gestartet wurde, Fälligkeitsdatum, Status, Anzahl neuer Kommentare, die vom Autor nicht akzeptiert oder abgelehnt wurden, und Name der Validierungsverantwortlichen. Die Aufgaben werden in der Reihenfolge der neu erstellten Aufgaben zu den älteren Aufgaben aufgelistet.
 
@@ -58,7 +58,7 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 
 ## Registerkarte „Aufgabe“
 
-![](images/review-task-page.png){align="left"}
+![](images/review-task-page.png)
 
 Sie können die folgenden Aktionen auf der Registerkarte **Aufgabe** ausführen:
 
@@ -81,7 +81,7 @@ Sie können die folgenden Aktionen auf der Registerkarte **Aufgabe** ausführen:
 
 ## Registerkarte „Inhalt“
 
-![](images/review-content-page.png){align="left"}
+![](images/review-content-page.png)
 
 Sie können die folgenden Aktionen auf der Registerkarte **Inhalt** ausführen:
 
@@ -100,7 +100,7 @@ Sie können die folgenden Aktionen auf der Registerkarte **Inhalt** ausführen:
 
 ## Registerkarte „Validierungsverantwortliche“ {#Reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){align="left"}
+![](images/reviewers-tab.png)
 
 Sie können die folgenden Aktionen auf der Registerkarte **Validierungsverantwortliche** ausführen:
 
@@ -121,11 +121,11 @@ Sie können die folgenden Aktionen auf der Registerkarte **Validierungsverantwor
 
 In Experience Manager Guides hat jede Prüfungsaufgabe einen Status, der ihrem aktuellen Status entspricht. Über das Überprüfungs-Dashboard können Sie auf diese Informationen zugreifen, indem Sie eine Aufgabe auswählen und die Option **Status** auswählen.
 
-![](images/review-dashboard-select-option.png){width="650" align="left"}
+![](images/review-dashboard-select-option.png){width="650"}
 
 Dadurch wird ein Statusbericht der Prüfungsaufgabe geöffnet, wie unten dargestellt:
 
-![](images/check-review-status-dashboard.png){width="650" align="left"}
+![](images/check-review-status-dashboard.png){width="650"}
 
 Alternativ können Sie auf den Statusbericht direkt über das Bedienfeld [Überprüfung](./web-editor-left-panel.md#review) im Editor zugreifen. Öffnen Sie eine aktive Prüfungsaufgabe im Bedienfeld Überprüfen , wählen Sie **Aufgabe aktualisieren** und wählen Sie **Prüfungsstatus**.
 

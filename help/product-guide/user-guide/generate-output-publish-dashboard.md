@@ -4,9 +4,9 @@ description: Verwalten Sie Veröffentlichungsaufgaben mithilfe des Veröffentlic
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Wenn auf Ihrem System eine große Anzahl von Veröffentlichungsaufgaben ausgefü
 
 Das Veröffentlichungs-Dashboard bietet einen vollständigen Überblick über alle Veröffentlichungsaufgaben, die derzeit im System ausgeführt werden.
 
-![](images/publish-dashboard.png){align="left"}
+![](images/publish-dashboard.png)
 
 Das Veröffentlichungs-Dashboard enthält die folgenden Details:
 
@@ -39,7 +39,7 @@ Das linke Bedienfeld im Veröffentlichungs-Dashboard bietet die folgenden Filter
 
 - **Ausgabevorgabe**: Wählen Sie eine oder mehrere Ausgabevorgaben aus, für die Sie die derzeit aktiven Veröffentlichungsaufgaben anzeigen möchten. Im folgenden Screenshot werden die Veröffentlichungsaufgaben gefiltert, um nur die Aufgaben anzuzeigen, die die Ausgabevorgabe der AEM-Site verwenden:
 
-  ![](images/publish-dashboard-preset-filter.png){align="left"}
+  ![](images/publish-dashboard-preset-filter.png)
 
 - **Initiiert von** - Wählen Sie einen Benutzernamen aus der Liste aus, um die Veröffentlichungsaufgaben anzuzeigen, die vom ausgewählten Benutzer initiiert wurden.
 
@@ -65,7 +65,7 @@ Sie können auf **Dashboard veröffentlichen** auch über die Adobe Experience M
 
    Wenn Sie auf den Link Dateiname klicken, wird das DITA-Zuordnungs-Dashboard der ausgewählten Zuordnung angezeigt.
 
-   ![](images/publish-dashboard-click-filename-link.png){align="left"}
+   ![](images/publish-dashboard-click-filename-link.png)
 
 
 >[!NOTE]
@@ -80,13 +80,13 @@ Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung �
 
 1. Wählen Sie aus der Liste der aktiven Veröffentlichungsaufgaben das Löschsymbol einer Aufgabe aus, die Sie abbrechen möchten.
 
-   ![](images/publish-dashboard-cancel-task.png){align="left"}
+   ![](images/publish-dashboard-cancel-task.png)
 
 1. Wählen **auf** Eingabeaufforderung **Abbruch bestätigen** die Option „Ja“.
 
    Der Abbruchsbefehl wird akzeptiert, und der Abbruch wird versucht, solange die Aufgabe aktiv bleibt. Nachdem die Aufgabe erfolgreich beendet wurde, wird sie aus der aktuell aktiven Aufgabenliste entfernt. Der Status der Aufgabe wird auch im DITA Map-Dashboard als Abgebrochen aktualisiert. Im folgenden Screenshot wird die Aufgabe *HTML5* über das Dashboard „Veröffentlichen“ abgebrochen und ihr Status wird auch im DITA-Zuordnungs-Dashboard geändert.
 
-   ![](images/cancelled-output-task.png){align="left"}
+   ![](images/cancelled-output-task.png)
 
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

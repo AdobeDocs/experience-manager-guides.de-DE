@@ -1,10 +1,10 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2024.2.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2024.2.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2024.2.0 von Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
-source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1063'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Jetzt können Sie Ihren Authoring-Journey mit Smart Suggestions verbessern, eine
 
 Um Ihre Inhalte korrekt und konsistent zu halten, sind die Suche und die Vorschläge auf die Inhalte Ihrer Organisation beschränkt und werden eng mit den Keywords abgeglichen, nach denen Sie suchen.
 
-![Bedienfeld „Intelligente Vorschläge“ im Web-Editor &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+![Bedienfeld „Intelligente Vorschläge“ im Web-Editor &#x200B;](assets/web-editor-smart-suggestion.png) {width="800"}
 
 
 *Zeigen Sie intelligente Vorschläge an, um passende Inhaltsreferenzen aus Ihrem Inhalts-Repository zu finden und hinzuzufügen.*
@@ -42,7 +42,7 @@ Erfahren Sie mehr über [KI-gestützte intelligente Vorschläge zum Erstellen vo
 
 Jetzt bietet Experience Manager Guides eine erweiterte Funktion zum Versionsverlauf, mit der Sie die an einem Dokument vorgenommenen Änderungen im Zeitverlauf vergleichen können. In der neuen Seitenansicht können Sie den Inhalt und die Metadaten der aktuellen Version einfach mit einer beliebigen früheren Version desselben Dokuments vergleichen. Sie können auch die Beschriftungen und Kommentare für die verglichenen Versionen anzeigen. Als Admin können Sie die Versionsmetadaten des Themas und deren Werte steuern, die im Dialogfeld **Versionsverlauf** angezeigt werden.
 
-![Dialogfeld „Versionsverlauf“](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![Dialogfeld „Versionsverlauf“](assets/version-history-dialog-web-editor.png){width="800"}
 *Vorschau der Änderungen in den verschiedenen Versionen eines Themas.*
 
 
@@ -52,7 +52,7 @@ Weitere Informationen zur Beschreibung der Funktion **Versionsverlauf** finden S
 
 Das Bedienfeld **Übersetzung** wurde verbessert.  Sie können die Liste **Verfügbare Sprachen** anzeigen und schnell das Gebietsschema auswählen, in das Sie Ihr Projekt übersetzen möchten. Mit einer einzigen Auswahl können Sie auch **Alle auswählen** um Ihr Projekt in alle verfügbaren Sprachen zu übersetzen.
 
-![Übersetzungsbedienfeld](assets/translation-languages-4.4.png){width="300" align="left"}
+![Übersetzungsbedienfeld](assets/translation-languages-4.4.png){width="300"}
 
 *Wählen Sie die Gebietsschemata aus, in die Sie Ihr Projekt übersetzen möchten. Wählen Sie die Standardversion, die Baseline oder die neueste Version der zu übersetzenden Dateien aus.*
 
@@ -67,7 +67,7 @@ Beispiel: Beim Bearbeiten eines Absatzes, für den Sie ein Element einfügen mö
 alle gültigen Elemente, die mit „t“ beginnen.
 
 
-![Dialogfeld „Einfügen](assets/insert-element.png){width="300" align="left"}
+![Dialogfeld „Einfügen](assets/insert-element.png){width="300"}
 
 *Geben Sie ein Zeichen ein, um nach allen gültigen Elementen zu suchen, die mit dem Zeichen beginnen.*
 
@@ -79,7 +79,7 @@ Weitere Informationen finden Sie in der Beschreibung **Element einfügen** im Ab
 
 Jetzt können Sie Ihre Liste im Web-Editor einfach aufteilen. Wählen Sie die **Liste teilen** aus dem Kontextmenü eines Listenelements aus, um die aktuelle Liste zu teilen. Eine neue Liste wird auf derselben Ebene erstellt, beginnend mit dem Listenelement, das Sie für die Aufspaltung ausgewählt haben.
 
-![Übersetzungsbedienfeld](assets/context-menu-split-list.png){width="300" align="left"}
+![Übersetzungsbedienfeld](assets/context-menu-split-list.png){width="300"}
 
 *Wählen Sie die Option aus, um die aktuelle Liste zu teilen.*
 
@@ -98,19 +98,19 @@ Experience Manager bietet die Funktion, Baselines zu erstellen, indem die Themen
 
 ## Native PDF-Verbesserungen
 
-In der Version 2024.2.0 wurden die folgenden nativen PDF-Verbesserungen vorgenommen:
+In der Version 2024.2.0 von wurden die folgenden nativen PDF-Verbesserungen vorgenommen:
 
 ### Übergeben von Asset-Metadaten an die PDF-Ausgabe
 
 Experience Manager bietet jetzt die Möglichkeit, die Metadateneigenschaften der Assets aus der DITA-Zuordnung an die PDF-Ausgabe zu übergeben.
-Über die native PDF-Ausgabevorgabe können Sie die Metadaten auswählen, die Sie an den PDF-Veröffentlichungsprozess übergeben möchten. Sie können sowohl die benutzerdefinierten als auch die Standardeigenschaften auswählen.  Die ausgewählten Metadateneigenschaften werden an die PDF-Datei übergeben, die mit dem nativen PDF generiert wurde.
+Aus der nativen PDF-Ausgabevorgabe können Sie die Metadaten auswählen, die Sie an den PDF-Veröffentlichungsprozess übergeben möchten. Sie können sowohl die benutzerdefinierten als auch die Standardeigenschaften auswählen.  Die ausgewählten Metadateneigenschaften werden an die PDF-Datei übergeben, die mit dem nativen PDF generiert wurde.
 
 Diese Funktion ist praktisch, da sie Ihnen dabei hilft, Ihre Asset-Eigenschaften wie Autor, Erstellungsdatum oder Dokumenttitel konsistent zu halten. Dies erleichtert die Organisation, Suche und Kategorisierung Ihrer Dokumente.
 
-Weitere Informationen finden Sie unter **Erweitert** in der Ausgabe [Publish PDF](../web-editor/native-pdf-web-editor.md).
+Weitere Informationen finden Sie unter **Erweitert** in der Ausgabe [PDF veröffentlichen](../web-editor/native-pdf-web-editor.md).
 
 
-### Verwenden der im `topicmeta` hinzugefügten Metadaten für die PDF-Ausgabe
+### Verwenden von im `topicmeta` hinzugefügten Metadaten für die PDF-Ausgabe
 
 Die Metadatenfunktion in der nativen PDF-Veröffentlichung hilft bei der Inhaltsverwaltung und bei der Suche nach Dateien im Internet.
 <img src="assets/pdf-metadata-4-4.png" alt="Registerkarte Metadaten" width="800">
@@ -121,4 +121,4 @@ Jetzt bietet Experience Manager Guides die Möglichkeit, die Metadaten zu verwen
 
 Diese Funktion trägt zu einer besseren Dokumentverwaltung bei, sorgt für Konsistenz und macht Ihre Dokumente durchsuchbar.
 
-Weitere Informationen finden Sie auf der Registerkarte **Metadaten** in der [Publish PDF-Ausgabe](../web-editor/native-pdf-web-editor.md).
+Weitere Informationen finden Sie auf der Registerkarte **Metadaten** in der Ausgabe [PDF veröffentlichen](../web-editor/native-pdf-web-editor.md).

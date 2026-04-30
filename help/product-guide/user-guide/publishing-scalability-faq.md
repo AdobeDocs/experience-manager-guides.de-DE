@@ -1,9 +1,10 @@
 ---
 title: Häufig gestellte Fragen zur Veröffentlichungsleistung und Skalierbarkeit in Adobe Experience Manager Guides
 description: Erfahren Sie mehr über die häufig gestellten Fragen zur Veröffentlichungsleistung und -skalierbarkeit in Adobe Experience Manager Guides.
-source-git-commit: d128860bdff78c100ba348b54a237b237171635f
+exl-id: d4cd7673-ba66-4e90-9908-b537217d7eb6
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 Im Folgenden finden Sie eine Liste von Antworten auf häufig gestellte Fragen, die detaillierte Einblicke in die Verwaltung von Veröffentlichungs-Workflows, Skalierungsverhalten und Infrastrukturleistung durch Adobe Experience Manager Guides bieten. Es richtet sich an Benutzer in Unternehmen, Administratoren und Dokumentations-Teams, die Experience Manager Guides für die Veröffentlichung in großem Maßstab verwenden. In der Abbildung wird der gesamte Workflow der Experience Manager Guides-Veröffentlichungsarchitektur erläutert.
 
-![](images/IO_runtime.drawio.png){align="left"}
+![](images/IO_runtime.drawio.png)
 
 
 ## Wie viele Veröffentlichungsanfragen kann Experience Manager Guides pro Tag ausführen?
@@ -123,7 +124,3 @@ Befolgen Sie die folgenden Best Practices, um eine optimale Veröffentlichungsge
 - Verwalten und Organisieren der DITA-Zuordnungshierarchien
 - Planen umfangreicher Veröffentlichungen außerhalb der Spitzenzeiten
 - Effektive Verwendung bedingter Filter zur Verringerung der Verarbeitungslast
-
-
-
-

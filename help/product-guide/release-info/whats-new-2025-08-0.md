@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2025.08.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2025.08.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2025.08.0 von Adobe Experience Manager Guides
 role: Leader
 exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
-source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 2%
+source-wordcount: '844'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Sobald der Umschalter **KI** Assistent) aktiviert ist, können Admins selektiv a
 
 Weitere Informationen zum [KI-Assistenten in den Editor-Einstellungen](../cs-install-guide/workspace-settings.md#general) in Experience Manager Guides.
 
-![](assets/authoring-quick-actions.png){width="350" align="left"}
+![](assets/authoring-quick-actions.png){width="350"}
 
 
 ## Verbessertes Erlebnis bei der Erstellung und Verwendung von DITAVAL-Dateien
@@ -54,7 +54,7 @@ Die wichtigsten Highlights sind:
 - **Verbesserte Unterstützung für das Markieren in der Bearbeitung von DITAVAL-Dateien:** Experience Manager Guides bietet neue Funktionen zum Anpassen der Inhaltsveröffentlichung durch verbesserte Unterstützung für das Markieren in DITAVAL-Dateien. Sie können jetzt Start- und End-Flags um bestimmte Inhalte, einschließlich Bildern, anwenden und markierte Abschnitte mit Formatierungsoptionen wie fett, kursiv und mehr anreichern. Um Bedingungsüberschneidungen zu handhaben, kann der **Stilkonflikt** konfiguriert werden. Dazu gehört das Festlegen einer standardmäßigen Hintergrund- und Textfarbe, um Klarheit und Konsistenz in der Ausgabe sicherzustellen. Diese Flags werden in der nativen PDF-Generierung vollständig unterstützt, und die resultierende Ausgabe spiegelt alle angewendeten Stilelemente genau und umfassend wider.
 Weitere Informationen finden Sie unter [Verwenden des DITAVAL-Editors](../user-guide/ditaval-editor.md).
 
-  ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
+  ![](assets/ditaval-flag-style-new.png){width="350"}
 
 - **Unterstützung mehrerer DITAVAL-Dateien für native PDF:** Für native PDF können jetzt mehrere DITAVAL-Dateien hinzugefügt werden, die jeweils als getaggter Eintrag angezeigt werden, um sie leicht zu identifizieren und zu entfernen. Dies bietet mehr Flexibilität und Kontrolle über bedingte Inhalte in PDF-Ausgaben
 
@@ -68,7 +68,7 @@ Diese Version bietet Verbesserungen an der Benutzeroberfläche für die Filterfu
 
 Weitere Informationen finden Sie unter [Allgemeine Fehlerbehebung](../user-guide/generate-output-basic-troubleshooting.md).
 
-![](./assets/log-file-new.png){align="left"}
+![](./assets/log-file-new.png)
 
 
 ## Temporäre Dateien für die veröffentlichte Ausgabe enthalten jetzt Autoren- und Veröffentlichungs-URLs in einer neuen Konfigurationsdatei

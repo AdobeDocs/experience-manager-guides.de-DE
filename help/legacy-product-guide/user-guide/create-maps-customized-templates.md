@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Führen Sie die folgenden Schritte aus, um eine Themenvorlage zu erstellen:
 
 1. Navigieren Sie in der **Assets** Benutzeroberfläche zum Ordner „dita-templates“.
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){width="800"}
 
 1. Klicken Sie auf **Themen** Ordner, um ihn zu öffnen.Klicken Sie **Erstellen \> DITA-Vorlage**.
 1. Wählen Sie auf der Blueprint-Seite die Option **Thema** aus und klicken Sie dann auf **Weiter.**
@@ -66,7 +66,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnungsvorlage zu erstellen:
 1. Klicken Sie auf **maps** Ordner, um ihn zu öffnen.
 1. Klicken Sie **Erstellen \> DITA-Vorlage.**
 
-   ![](images/create-dita-template.png){width="300" align="left"}
+   ![](images/create-dita-template.png){width="300"}
 
 1. Wählen Sie auf der Blueprint-Seite die Option **Map** aus und klicken Sie auf **Weiter**.
 1. Geben Sie auf der Seite Eigenschaften die Zuordnungsvorlage (**)**.

@@ -4,9 +4,9 @@ description: Verfassen Sie Markdown-Dokumente aus dem Editor. Erfahren Sie, wie 
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1211'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Führen Sie die folgenden Schritte aus, um im Editor ein Markdown-Thema zu erste
 1. Wählen Sie im Repository-Bereich die Option ![](images/Add_icon.svg) und dann **Thema** aus der Dropdown-Liste aus.
 1. Geben **im Dialogfeld** Neues Thema“ die folgenden Details an:
 
-   ![](images/create-markdown-dialog.png){width="300" align="left"}
+   ![](images/create-markdown-dialog.png){width="300"}
 
    * **Titel**: Geben Sie einen Titel für das Thema an.
    * **Name**: Der Dateiname wird basierend auf dem Thementitel automatisch vorgeschlagen. Wenn Ihr Admin automatische Dateinamen basierend auf der UUID-Einstellung aktiviert hat, wird das Feld Name nicht angezeigt.
@@ -36,7 +36,7 @@ Führen Sie die folgenden Schritte aus, um im Editor ein Markdown-Thema zu erste
 
    Das Markdown-Thema wird unter dem ausgewählten Pfad erstellt und ist zur Bearbeitung geöffnet.
 
-   ![](images/markdown-topic-author.png){width="650" align="left"}
+   ![](images/markdown-topic-author.png){width="650"}
 
 
 >[!NOTE]
@@ -60,7 +60,7 @@ The tab bar features the file tabs of the topics or maps that are currently open
 
 Features available in the tab bar are explained as follows:
 
- ![](images/markdown-header.png){width="550" align="left"}
+ ![](images/markdown-header.png){width="550"}
 
 
 
@@ -81,13 +81,13 @@ Features available in the tab bar are explained as follows:
 
 Die Symbolleiste befindet sich direkt unter der Registerkartenleiste. In der Symbolleiste verfügbare Funktionen werden wie folgt erläutert:
 
-![](images/markdown-main-toolbar.png){align="left"}
+![](images/markdown-main-toolbar.png)
 
 | Funktionen | Beschreibung |
 |----------------|----------------|
-| Bearbeiten von Aktionen | Bietet Zugriff auf verschiedene Funktionen zur Bearbeitung von Dokumenten, einschließlich **Ausschneiden**  ![](images/S_Cut_18_N.svg), **Rückgängig**  ![](images/S_Undo_18_N.svg), **Wiederholen**  ![](images/S_Redo_18_N.svg), **Kopieren**  ![](images/S_Copy_18_N.svg), **Löschen**  ![](images/S_Delete_18_N.svg) und **Suchen und Ersetzen**  ![](images/S_FindAndReplace_18_N.svg). Sie können auf die verfügbaren Optionen über das Dropdown-Menü **Menü** zugreifen. |
-| Optionen für die Textformatierung | Bietet Zugriff auf verschiedene Textformatierungsoptionen, einschließlich **Überschriften**  ![](images/S_DisplayHeading_18_N.svg), **fett**  ![](images/S_TextBold_18_N.svg), **Kursiv**  ![](images/S_TextItalic_18_N.svg), **Durchgestrichen**  ![](images/S_TextStrikethrough_18_N.svg), **Code**  ![](images/S_Code_18_N.svg) und **Blockzitat**  ![](images/S_BlockQuoteMultipleLines_18_N.svg). |
-| Optionen zum Einfügen von Inhalten | Bietet Optionen zum Einfügen einer **nummerierten Liste**  ![](images/S_TextNumbered_18_N.svg), **Sortierte Liste**  ![](images/S_TextBulleted_18_N.svg), **table**  ![](images/tableAdd.svg), **image** ![](images/S_ImageAdd_18_N.svg), **Querverweis**  ![](images/S_LinkGlobe_18_N.svg) und **Symbol**  In ein Dokument ![](images/S_SpecialCharacter_18_N.svg).<br><br> **Hinweis**: Sie können auch Bilder und andere Dateien per Drag-and-Drop in den Markdown-Editor ziehen. Dateien werden als Querverweis-Links hinzugefügt, während Bilder als Standardelemente des Bilds angezeigt werden. |
+| Bearbeiten von Aktionen | Ermöglicht den Zugriff auf verschiedene Funktionen zur Bearbeitung von Dokumenten **einschließlich** ![](images/S_Cut_18_N.svg), **Rückgängig** ![](images/S_Undo_18_N.svg), **&#x200B;**&#x200B;Wiederholen![](images/S_Redo_18_N.svg), **Kopieren** ![](images/S_Copy_18_N.svg), **&#x200B;**&#x200B;Löschen![](images/S_Delete_18_N.svg) und **&#x200B;**&#x200B;Suchen und Ersetzen![](images/S_FindAndReplace_18_N.svg). Sie können auf die verfügbaren Optionen über das Dropdown-Menü **Menü** zugreifen. |
+| Optionen für die Textformatierung | Bietet Zugriff auf verschiedene Textformatierungsoptionen, einschließlich **Überschriften** ![](images/S_DisplayHeading_18_N.svg), **Fett** ![](images/S_TextBold_18_N.svg), **Kursiv** ![](images/S_TextItalic_18_N.svg), **Durchgestrichen** ![](images/S_TextStrikethrough_18_N.svg), **Code** ![](images/S_Code_18_N.svg) und **&#x200B;**&#x200B;Blockzitat![](images/S_BlockQuoteMultipleLines_18_N.svg). |
+| Optionen zum Einfügen von Inhalten | Bietet Optionen zum Einfügen einer **nummerierten Liste** ![](images/S_TextNumbered_18_N.svg), **sortierten Liste** ![](images/S_TextBulleted_18_N.svg), **&#x200B;**&#x200B;Tabelle![](images/tableAdd.svg), **Image** ![](images/S_ImageAdd_18_N.svg), **&#x200B;**&#x200B;Querverweis![](images/S_LinkGlobe_18_N.svg) und **&#x200B;**&#x200B;Symbol![](images/S_SpecialCharacter_18_N.svg) in ein Dokument.<br><br> **Hinweis**: Sie können auch Bilder und andere Dateien per Drag-and-Drop in den Markdown-Editor ziehen. Dateien werden als Querverweis-Links hinzugefügt, während Bilder als Standardelemente des Bilds angezeigt werden. |
 | Versionsverlauf | Ermöglicht Ihnen, Versionen von Markdown-Dateien zu erstellen und den Änderungsverlauf anzuzeigen. Sie können verschiedene Versionen vergleichen und bei Bedarf zu vorherigen zurückkehren. Die Option Versionsverlauf ist in der Dropdown-Liste **Menü** vorhanden. |
 | Als neue Version speichern | Speichert die im Thema vorgenommenen Änderungen und erstellt außerdem eine neue Version des Themas. Wenn Sie an einem neu erstellten Thema arbeiten, werden die Versionsinformationen als „Ohne“ angezeigt. |
 | Sperren/Entsperren | Sperrt oder entsperrt die aktuelle Datei. Durch das Sperren einer Datei erhalten Sie exklusiven Schreibzugriff auf die Datei. Dadurch wird das Bearbeiten der Datei durch andere Benutzer eingeschränkt. Entsperren Sie die Datei , wenn andere Benutzer Bearbeitungszugriff haben sollen. Als Administrator erhalten Sie auch Zugriff auf die Funktion **Entsperren erzwingen** mit der Sie die von einer anderen Person gesperrte Datei entsperren können. |
@@ -104,7 +104,7 @@ Im Inhaltsbearbeitungsbereich wird die Markdown-Quelle Ihres Themas angezeigt, i
 
 Für das Markdown-Authoring unterstützt der Editor drei verschiedene Anzeigemodi, um die Inhaltserstellung und -formatierung zu unterstützen:
 
-![](images/markdown-footer.png){align="left"}
+![](images/markdown-footer.png)
 
 * Quelle
 * Nebeneinander
@@ -123,7 +123,7 @@ In diesem Modus wird der Editor in zwei Bereiche unterteilt:
 * Das Source-Bedienfeld, das das bearbeitete Markdown-Thema anzeigt.
 * Das Bedienfeld Vorschau , das die gerenderte Ausgabe des Markdown-Themas in Echtzeit anzeigt.
 
-![](images/markdown-topic-side-by-side.png){width="550" align="left"}
+![](images/markdown-topic-side-by-side.png){width="550"}
 
 Verwenden Sie diese Ansicht, wenn Sie die gerenderte Ausgabe bei der Bearbeitung von Markdown-Themen in Echtzeit anzeigen möchten.
 

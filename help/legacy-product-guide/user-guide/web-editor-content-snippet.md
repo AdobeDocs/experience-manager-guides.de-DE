@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -56,13 +56,13 @@ Wählen Sie eine Datenquelle aus, um die Inhaltsfragmentgeneratoren und die Them
 
 ### ![](images/data-sources-list-view-icon.svg) der Listenansicht
 
-![](images/data-sources-list-view.png){width="300" align="left"}
+![](images/data-sources-list-view.png){width="300"}
 
 *Liste der verbundenen Datenquellen.*
 
-### Kachelansicht   ![](images/data-sources-tile-view-icon.svg)
+### ![](images/data-sources-tile-view-icon.svg) der Kachelansicht
 
-![](images/data-sources-tile-view.png){width="300" align="left"}
+![](images/data-sources-tile-view.png){width="300"}
 
 *Anzeigen der verbundenen Datenquellen als Kacheln.*
 
@@ -78,27 +78,27 @@ AEM Guides bietet die Funktion zum Verbinden mit Ihrer Datenquelle. Sie können 
 
 Führen Sie die folgenden Schritte aus, um einen Inhaltsausschnitt mit dem Inhaltsausschnitt-Generator zu erstellen und in Ihr Thema einzufügen:
 
-1. Wählen Sie **Datenquellen** ![](images/data-source-icon.svg)   Im linken Bereich, um die verbundenen Datenquellen anzuzeigen.
+1. Wählen Sie **Datenquellen** ![](images/data-source-icon.svg) im linken Bereich aus, um die verbundenen Datenquellen anzuzeigen.
 
 1. Wählen Sie eine Datenquelle aus, um die für die ausgewählte Datenquelle verfügbaren Inhaltsfragment-Generatoren anzuzeigen.
 
-   ![](images/code-snippet-generator.png){width="300" align="left"}
+   ![](images/code-snippet-generator.png){width="300"}
 
    *Im Bedienfeld „Datenquellen“ werden die verfügbaren Inhaltsfragment-Generatoren aufgelistet.*
 
 1. Wählen Sie **Hinzufügen**, um einen neuen Inhaltsausschnitt-Generator hinzuzufügen. Das Bedienfeld **Inhaltsfragmentgenerator hinzufügen** wird geöffnet.
 
-1. Geben Sie die Abfrage in das Textfeld **Datenabfrage** ein.  Select **Copy sample query** to quickly copy a data query. Instead of manually creating the query, you can copy and paste the sample query into the **Data query** text box. Bearbeiten Sie dann einfach die Abfrage gemäß Ihren Datenanforderungen.
+1. Geben Sie die Abfrage in das Textfeld **Datenabfrage** ein.  Wählen Sie **Beispielabfrage kopieren** aus, um eine Datenabfrage schnell zu kopieren. Anstatt die Abfrage manuell zu erstellen, können Sie die Beispielabfrage kopieren und in das Textfeld **Datenabfrage** einfügen. Bearbeiten Sie dann einfach die Abfrage gemäß Ihren Datenanforderungen.
 
    >[!NOTE]
    >
    >Experience Manager bietet verschiedene Beispielabfragen für alle Ressourcen in den verschiedenen Datenquellen. Diese werden der Datenquelle zugeordnet, aus der Sie die Daten abrufen.
 
-1. If you use a file connector, you can upload the JSON file from your computer or browse a JSON file from Adobe Experience Manager assets.
+1. Wenn Sie einen Datei-Connector verwenden, können Sie die JSON-Datei von Ihrem Computer hochladen oder eine JSON-Datei aus Adobe Experience Manager Assets durchsuchen.
 
    >[!NOTE]
    >
-   > You will view the options to upload or browse files in place of a data query if you use a file connector.
+   > Sie sehen die Optionen zum Hochladen oder Durchsuchen von Dateien anstelle einer Datenabfrage, wenn Sie einen Datei-Connector verwenden.
 
 1. Wählen Sie im Dropdown-Menü **Datenzuordnungsvorlage“ die Vorlage aus, die Ihrer Datenquelle**.
 Die vordefinierten Vorlagen für die ausgewählte Datenquelle werden in der Dropdown-Liste angezeigt. Sie können beispielsweise die Vorlage „sql-table“ für die Datenquelle „PostgreSQL“ anzeigen.
@@ -125,7 +125,7 @@ Beispiel:
       - Wenn Sie die Vorlage Jira-ordered-list ausgewählt haben, können Sie eine geordnete Liste für die Jira-Probleme anzeigen.
 
    1. Die Quellansicht zeigt die Daten in der DITA-Quellansicht an.
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      ![](images/add-content-snippet-generator.png){width="800"}
       *Fügen Sie einen Inhaltsfragment-Generator hinzu. Zeigen Sie die Daten im Quell- oder Vorschaumodus an.*
 
 1. Geben Sie zum Speichern der Abfrageergebnisse den Namen des Generators ein und klicken Sie dann auf **HINZUFÜGEN**.   Der Liste wird ein neuer Inhaltsausschnitt-Generator hinzugefügt.
@@ -151,9 +151,9 @@ Klicken Sie mit der rechten Maustaste auf einen Inhaltsfragment-Generator, um di
 
 ### Einfügen eines Abfrageausschnitts
 
-Sie können auch den ![](images/data-source-icon.svg) **Abfragenausschnitt einfügen** verwenden   in der Hauptsymbolleiste aus, um das Datenfragment in die Themen einzufügen.  Sie können einen Generator aus dem Dropdown-Menü auswählen, Ihre Abfrage bearbeiten oder die Vorlage ändern und die Daten in Ihr Thema einfügen.
+Sie können auch den ![](images/data-source-icon.svg) **Abfragenausschnitt einfügen** von der Hauptsymbolleiste verwenden, um den Datenausschnitt in die Themen einzufügen.  Sie können einen Generator aus dem Dropdown-Menü auswählen, Ihre Abfrage bearbeiten oder die Vorlage ändern und die Daten in Ihr Thema einfügen.
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/insert-content-snippet.png){width="800"}
 
 *Bearbeiten und Einfügen eines Datenausschnitts.*
 
@@ -173,7 +173,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
 1. Wählen Sie eine Datenquelle aus, um die Inhaltsfragmentgeneratoren und die Themengeneratoren anzuzeigen, die für die ausgewählte Datenquelle verfügbar sind.
 
-   ![](images/data-sources.png){width="300" align="left"}
+   ![](images/data-sources.png){width="300"}
 
    *Hinzufügen eines Themengenerators für eine verbundene Datenquelle.*
 
@@ -185,11 +185,11 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
    **Konfiguration abrufen**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-fetch-configuration.png){width="300"}
 
    *Fügen Sie die Datenabfrage, die Datenzuordnungsvorlage und die Stammknotendetails für den Themengenerator hinzu und geben Sie ihm im Bedienfeld Konfiguration abrufen einen eindeutigen Namen.*
 
-   1. Geben Sie die Abfrage in das Textfeld **Datenabfrage** ein. Select **Copy sample query** to quickly copy a data query. Instead of manually creating the query, you can copy and paste the sample query into the **Data query** text box. Bearbeiten Sie dann einfach die Abfrage gemäß Ihren Datenanforderungen.
+   1. Geben Sie die Abfrage in das Textfeld **Datenabfrage** ein. Wählen Sie **Beispielabfrage kopieren** aus, um eine Datenabfrage schnell zu kopieren. Anstatt die Abfrage manuell zu erstellen, können Sie die Beispielabfrage kopieren und in das Textfeld **Datenabfrage** einfügen. Bearbeiten Sie dann einfach die Abfrage gemäß Ihren Datenanforderungen.
 
       >[!NOTE]
       >
@@ -218,7 +218,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
    **Ausgabekonfiguration**
 
-   ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-output-configuration.png){width="300"}
 
    *Geben Sie Details zum Ausgabepfad und zur Themenbenennungskonvention im Bedienfeld „Ausgabekonfiguration“ ein. DITA-Map erstellen und benennen.*
 
@@ -237,7 +237,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
    Im folgenden Screenshot sind beispielsweise `dc:description`, `dc:language`, `dc:title` und `docstate` die Standardeigenschaften, für die Sie die Werte definieren können. Sie können eine benutzerdefinierte Eigenschaft wie „author“ erstellen und ihren Wert definieren.
 
-   ![](images/topic-generator-metadata.png){width="300" align="left"}
+   ![](images/topic-generator-metadata.png){width="300"}
 
    *Fügen Sie die Metadateneigenschaften im Bedienfeld „Metadaten“ hinzu, die an die Themen übergeben werden.*
 
@@ -247,7 +247,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/edit-topic-generator.png){width="650"}
 
    *Generieren neuer Themen aus einem vorhandenen Themengenerator.*
 
@@ -273,7 +273,7 @@ Klicken Sie mit der rechten Maustaste auf einen Themengenerator, um die **Option
 
 
 
-- **Edit**: Use this option to change and save the topic generator. This option is disabled while you&#39;re generating the content.
+- **Bearbeiten**: Verwenden Sie diese Option, um den Themengenerator zu ändern und zu speichern. Diese Option ist beim Generieren des Inhalts deaktiviert.
 - **Löschen**: Verwenden Sie diese Option, um den ausgewählten Themengenerator zu löschen. Diese Option ist beim Generieren des Inhalts deaktiviert.
 - **Duplizieren**: Mit dieser Option wird ein Duplikat oder eine Kopie des ausgewählten Themengenerators erstellt. Das Duplikat wird standardmäßig mit einem Suffix (wie `topic-sample_1`) erstellt.
 

@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie Filter für das Dialogfeld zum Durchsuchen vo
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -53,14 +54,14 @@ Die folgenden Registerkarten enthalten Anweisungen zum Hinzufügen Ihrer benutze
 
    Im obigen Code-Snippet ist der erste Filter für DITA-Dateien. Die Filterdefinition akzeptiert die folgenden Parameter:
 
-   Anrede
-:   Der Anzeigename des Filters. Dieser Titel wird als Filteroption im Dialogfeld zum Durchsuchen von Dateien angezeigt.
+   title
+: Der Anzeigename des Filters. Dieser Titel wird als Filteroption im Dialogfeld zum Durchsuchen von Dateien angezeigt.
 
-   Eigenschaft
-:   Die Eigenschaft, die in den Metadaten der Datei abgeglichen werden soll. Um beispielsweise nur die Dateien zuzulassen, die die `dita_class` Metadaten in ihrer -Eigenschaft enthalten, nimmt der Eigenschaftsfilter &quot;`jcr:content/metadata/dita_class`&quot; als Wert.
+   property
+: Die Eigenschaft, die in den Metadaten der Datei abgeglichen werden soll. Um beispielsweise nur die Dateien zuzulassen, die die `dita_class` Metadaten in ihrer -Eigenschaft enthalten, nimmt der Eigenschaftsfilter &quot;`jcr:content/metadata/dita_class`&quot; als Wert.
 
-   Betrieb
-:   Geben Sie &quot;`exists`&quot; an, um eine Übereinstimmung mit dem im Eigenschaftsparameter angegebenen Wert zu erhalten.
+   Vorgang
+: Geben Sie &quot;`exists`&quot; an, damit es dem im Eigenschaftsparameter angegebenen Wert entspricht.
 
    Der zweite Filter betrifft Bilddateien. Die Parameter ähneln dem ersten Filter mit Ausnahme des `value`. Der `value`-Parameter akzeptiert ein Array von Bildtypen als Wert. Alle im Parameter value angegebenen Dateitypen werden gesucht und im Dialogfeld zum Durchsuchen von Dateien angezeigt. Alle anderen Dateitypen werden ignoriert.
 
@@ -109,11 +110,11 @@ Die folgenden Registerkarten enthalten Anweisungen zum Hinzufügen Ihrer benutze
 
    Im obigen Code-Snippet ist der erste Filter für DITA-Dateien. Die Filterdefinition akzeptiert die folgenden Parameter:
 
-   - **title:**   Der Anzeigename des Filters. Dieser Titel wird als Filteroption im Dialogfeld zum Durchsuchen von Dateien angezeigt.
+   - **title:** Der Anzeigename des Filters. Dieser Titel wird als Filteroption im Dialogfeld zum Durchsuchen von Dateien angezeigt.
 
-   - **property:**   Die Eigenschaft, die in den Metadaten der Datei abgeglichen werden soll. Um beispielsweise nur die Dateien zuzulassen, die die `dita_class` Metadaten in ihrer -Eigenschaft enthalten, nimmt der Eigenschaftsfilter &quot;`jcr:content/metadata/dita_class`&quot; als Wert.
+   - **property:** Die Eigenschaft, die in den Metadaten der Datei abgeglichen werden soll. Um beispielsweise nur die Dateien zuzulassen, die die `dita_class` Metadaten in ihrer -Eigenschaft enthalten, nimmt der Eigenschaftsfilter &quot;`jcr:content/metadata/dita_class`&quot; als Wert.
 
-   - **operation:**   Geben Sie &quot;`exists`&quot; an, um eine Übereinstimmung mit dem im Eigenschaftsparameter angegebenen Wert zu erhalten.
+   - **operation:** Geben Sie &quot;`exists`&quot; an, damit es mit dem im Eigenschaftsparameter angegebenen Wert übereinstimmt.
 
    Der zweite Filter betrifft Bilddateien. Die Parameter ähneln dem ersten Filter mit Ausnahme des `value`. Der `value`-Parameter akzeptiert ein Array von Bildtypen als Wert. Alle im Parameter value angegebenen Dateitypen werden gesucht und im Dialogfeld zum Durchsuchen von Dateien angezeigt. Alle anderen Dateitypen werden ignoriert.
 
@@ -121,7 +122,7 @@ Die folgenden Registerkarten enthalten Anweisungen zum Hinzufügen Ihrer benutze
 
    Wenn Sie das Dialogfeld zum Durchsuchen von Dateien aufrufen, werden die in der Datei ui\_config.json konfigurierten Filteroptionen angezeigt.
 
-   ![](assets/file-browse-custom-filters.png){width="300" align="left"}
+   ![](assets/file-browse-custom-filters.png){width="300"}
 
 >[!ENDTABS]
 

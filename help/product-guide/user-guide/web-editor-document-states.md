@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Arten von Dokumentstatus in Adobe Exper
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Um den Status eines Dokuments zu ändern, führen Sie die folgenden Schritte aus
 
 Die Kartenansicht der Assets-Benutzeroberfläche zeigt den aktuellen Status zusammen mit dem Erstellungsdatum und der Größe des jeweiligen DITA-Themas oder der DITA-Karte an.
 
-![](images/document_state.png){align="left"}
+![](images/document_state.png)
 
 ## Dokumentstatus in DDLC verwenden
 
@@ -82,11 +82,11 @@ Um die Dokumentgenehmigungsfunktion zu verwenden, führen Sie die folgenden Schr
 
 1. Wenn sich das Dokument in dem Status befindet, der als genehmigt markiert werden soll, wird das folgende Dialogfeld angezeigt:
 
-   ![](images/mark-approved-correct-state.png){width="300" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300"}
 
    Wenn Ihr Dokument nicht als genehmigt markiert werden kann, wird die folgende Meldung angezeigt:
 
-   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300"}
 
 1. Wenn Ihr Dokument bereit ist, als genehmigt gekennzeichnet zu werden, wählen Sie eine Kennzeichnung aus der Dropdown-Liste und wählen Sie **Genehmigen**.
 
@@ -96,7 +96,7 @@ Um die Dokumentgenehmigungsfunktion zu verwenden, führen Sie die folgenden Schr
 
 1. Nachdem das Dokument erfolgreich als genehmigt markiert wurde **wird eine** des Dokuments im schreibgeschützten Modus angezeigt. Alle Bearbeitungsoptionen werden aus allen drei Modi „Author“, &quot;Source&quot; und „Preview“ entfernt. Sie erhalten jedoch weiterhin Zugriff auf das Dropdown **Menü**, das die Optionen **Versionsverlauf** und **Tags** enthält.
 
-   ![](images/approved-doc-read-only.png){width="650" align="left"}
+   ![](images/approved-doc-read-only.png){width="650"}
 
    >[!NOTE]
    >

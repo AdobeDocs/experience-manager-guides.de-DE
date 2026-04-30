@@ -4,9 +4,9 @@ description: Hier erfahren Sie, wie Kennzeichnungen für verschiedene Versionen 
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema über den Editor einen Ti
 1. Navigieren Sie im Repository-Bereich zu einem Thema und öffnen Sie es im Editor.
 1. Wählen Sie **Versionsbezeichnung** aus der Dropdown-Liste **Menü** aus.
 
-   ![](images/version-label-option.png){width="400" align="left"}
+   ![](images/version-label-option.png){width="400"}
 
    Das **Versionskennzeichenverwaltung** wird angezeigt.
 
 1. Wählen **Dialogfeld „Versionsbeschriftungsverwaltung** eine Version aus, der Sie einen Titel hinzufügen möchten.
 1. Wählen Sie eine Bezeichnung für die ausgewählte Version aus und klicken Sie auf **Bezeichnung hinzufügen**.
 
-   ![](images/version-label-management-dialog-new.png){width="650" align="left"}
+   ![](images/version-label-management-dialog-new.png){width="650"}
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema über den Editor einen Ti
 
    Die Beschriftungen werden im Versionsverlauf des ausgewählten Themas angezeigt.
 
-   ![](images/label-comparison-version-history.png){width="650" align="left"}
+   ![](images/label-comparison-version-history.png){width="650"}
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema über den Editor einen Ti
 
 Um eine Versionsbeschriftung aus einem Thema zu löschen, verwenden Sie das Symbol **Entfernen**, das für jede im Dialogfeld Versionsbeschriftungsverwaltung hinzugefügte Beschriftung bereitgestellt wird.
 
-![](images/remove-version-label.png){align="left"}
+![](images/remove-version-label.png)
 
 
 ## Arbeiten mit Kennzeichnungen über die Assets-Benutzeroberfläche
@@ -70,7 +70,7 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema über die Assets-Benutzer
 
    Die Beschriftungen werden im Versionsverlauf des ausgewählten Themas angezeigt. Im folgenden Screenshot werden die Bezeichnungen *x.x-Version* und *Benutzerhandbuch* angezeigt, die der hervorgehobenen Version des Themas hinzugefügt wurden.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema über die Assets-Benutzer
 
 Um eine Versionsbeschriftung aus einem Thema zu löschen, verwenden Sie die Schaltfläche **Löschen**, die für jede Beschriftung im Bereich Versionsverlauf bereitgestellt wird.
 
-![](images/delete-labels.png){width="300" align="left"}
+![](images/delete-labels.png){width="300"}
 
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)

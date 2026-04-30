@@ -3,7 +3,7 @@ title: KI-gestützte Smart Suggestions zum Erstellen von Inhalten
 description: Erfahren Sie, wie Sie KI-gestützte Smart-Vorschläge im Web-Editor anzeigen und verwenden können.
 hide: true
 exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -40,28 +40,28 @@ Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hin
 
 
 1. Sie können die Smart-Vorschläge im Bedienfeld Vorschläge anzeigen.  Experience Manager Guides bietet Inhaltsvorschläge, die kontextuell ähnlich sind oder die gleiche Bedeutung haben. Sie können beispielsweise nach dem Thema suchen, das die genaue Versionsnummer enthält, z. B. „Version 2023.03.12“. Sie können auch nach &quot;Adobe hat seinen Hauptsitz in San Jose, Kalifornien“ suchen und ähnliche Inhalte finden wie „San Jose hat die Quartiere von vielen Softwareunternehmen wie Adobe&quot;.
-1. Select **Content Information** ![Content Information](images/smart-suggestions-content-info-icon.svg) to view the details.
+1. Wählen Sie **Inhaltsinformationen** ![Inhaltsinformationen](images/smart-suggestions-content-info-icon.svg) aus, um die Details anzuzeigen.
 
-   ![Content information panel](images/smart-suggestions-content-information.png){width="300" align="left"}
+   ![Bedienfeld „Inhaltsinformationen“](images/smart-suggestions-content-information.png){width="300"}
 
-   *View the detailed information about the content reference.*
+   *Anzeigen der detaillierten Informationen zur Inhaltsreferenz.*
 
-   1. The title of the topic that contains the content reference is displayed as a hyperlink.
-   1. The path of the file that contains the content reference.
-   1. The type of reference where the content is referred.
-   1. The names of DITA files where the topic is referred to are displayed as hyperlinks.
-1. Select **Preview** ![preview icon](./images/expand-icon.svg) to compare the current content with the suggested content. This helps you compare the differences and determine if you want to add the content reference for the suggested content and make it consistent or retain your current content.
+   1. Der Titel des Themas, das die Inhaltsreferenz enthält, wird als Hyperlink angezeigt.
+   1. Der Pfad der Datei, die die Inhaltsreferenz enthält.
+   1. Der Referenztyp, auf den der Inhalt verweist.
+   1. Die Namen der DITA-Dateien, auf die das Thema verweist, werden als Hyperlinks angezeigt.
+1. Wählen Sie **Vorschau** ![Vorschausymbol](./images/expand-icon.svg) aus, um den aktuellen Inhalt mit dem vorgeschlagenen Inhalt zu vergleichen. Auf diese Weise können Sie die Unterschiede vergleichen und bestimmen, ob Sie die Inhaltsreferenz für den vorgeschlagenen Inhalt hinzufügen und konsistent machen oder Ihren aktuellen Inhalt beibehalten möchten.
 
-   ![Suggest reusable content preview](images/ai-assistant-suggest-reusable-content.png)
+   ![Vorschlagen einer wiederverwendbaren Inhaltsvorschau](images/ai-assistant-suggest-reusable-content.png)
 
-   *Preview the comparison between the current content and the suggested content.*
+   *Vorschau des Vergleichs zwischen dem aktuellen Inhalt und den vorgeschlagenen Inhalten.*
 
-1. Click **Accept** to add the suggested content reference in the **Suggest reusable content** preview.
-1. You can also select **Accept** or **Dismiss** in the suggestions panel for the appropriate recommendations.
+1. Klicken Sie **Akzeptieren**, um die vorgeschlagene Inhaltsreferenz in der Vorschau **Wiederverwendbaren Inhalt vorschlagen** hinzuzufügen.
+1. Sie können für die entsprechenden Empfehlungen auch **Akzeptieren** oder **Verwerfen** im Bedienfeld „Vorschläge“ auswählen.
 
 
-This intelligent feature is handy and minimizes the effort of manual content searching, allowing you to concentrate more on generating new content. It also facilitates better team collaboration and helps maintain consistency in the content created by various authors.
+Diese intelligente Funktion ist praktisch und minimiert den Aufwand für die manuelle Inhaltssuche, sodass Sie sich mehr auf die Erstellung neuer Inhalte konzentrieren können. Dies erleichtert auch eine bessere Zusammenarbeit im Team und hilft bei der Beibehaltung der Konsistenz der von verschiedenen Autoren erstellten Inhalte.
 
 >[!NOTE]
 >
->Smart suggestions don&#39;t retain your data beyond the current session. For responses, smart suggestions rely solely upon the index created on the content residing within your internal database. External AI tools are not used, ensuring your data remains within the system.
+>Intelligente Vorschläge bewahren Ihre Daten nicht über die aktuelle Sitzung hinaus auf. Smart-Vorschläge basieren bei Antworten ausschließlich auf dem Index, der für den Inhalt erstellt wurde, der sich in Ihrer internen Datenbank befindet. Es werden keine externen KI-Tools verwendet, um sicherzustellen, dass Ihre Daten im System bleiben.

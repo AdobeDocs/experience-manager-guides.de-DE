@@ -1,10 +1,11 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 5.1.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 5.1.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 5.1.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f6617b727d385d31ba66d575ee48f29e77ac716f
+exl-id: 4f65cf99-3ea2-47aa-91fd-ce0c8d9eaa11
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ Die wichtigsten Highlights sind:
 - **Verbesserte Unterstützung für das Markieren in der Bearbeitung von DITAVAL-Dateien:** Experience Manager Guides bietet neue Funktionen zum Anpassen der Inhaltsveröffentlichung durch verbesserte Unterstützung für das Markieren in DITAVAL-Dateien. Sie können jetzt Start- und End-Flags um bestimmte Inhalte, einschließlich Bildern, anwenden und markierte Abschnitte mit Formatierungsoptionen wie fett, kursiv und mehr anreichern. Um Bedingungsüberschneidungen zu handhaben, kann der **Stilkonflikt** konfiguriert werden. Dazu gehört das Festlegen einer standardmäßigen Hintergrund- und Textfarbe, um Klarheit und Konsistenz in der Ausgabe sicherzustellen. Diese Flags werden in der nativen PDF-Generierung vollständig unterstützt, und die resultierende Ausgabe spiegelt alle angewendeten Stilelemente genau und umfassend wider.
 Weitere Informationen finden Sie unter [Verwenden des DITAVAL-Editors](../user-guide/ditaval-editor.md).
 
-  ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
+  ![](assets/ditaval-flag-style-new.png){width="350"}
 
 - **Unterstützung mehrerer DITAVAL-Dateien für native PDF:** Für native PDF können jetzt mehrere DITAVAL-Dateien hinzugefügt werden, die jeweils als getaggter Eintrag angezeigt werden, um sie leicht zu identifizieren und zu entfernen. Dies bietet mehr Flexibilität und Kontrolle über bedingte Inhalte in PDF-Ausgaben
 
@@ -60,7 +61,7 @@ Diese Version bietet Verbesserungen an der Benutzeroberfläche für die Filterfu
 
 Weitere Informationen finden Sie unter [Allgemeine Fehlerbehebung](../user-guide/generate-output-basic-troubleshooting.md).
 
-![](./assets/log-file-new.png){align="left"}
+![](./assets/log-file-new.png)
 
 
 ### Temporäre Dateien für die veröffentlichte Ausgabe enthalten jetzt Autoren- und Veröffentlichungs-URLs in einer neuen Konfigurationsdatei
@@ -117,7 +118,7 @@ Experience Manager Guides führt eine neue Option **Verwenden tatsächlicher Dat
 
 Weitere Informationen finden Sie unter [Dateien &#x200B;](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
-![](assets/download-map-dialog-new.png){width="300" align="left"}
+![](assets/download-map-dialog-new.png){width="300"}
 
 ### Eingabeaufforderung für Sitzungs-Timeout, um versehentlichen Inhaltsverlust zu verhindern
 
@@ -141,10 +142,3 @@ Mit dieser Version wurden die Einstellungen in **Benutzereinstellungen** auf der
 Darüber hinaus sind in der Editor-Symbolleiste einige Umschalter für den Schnellzugriff zum Aktivieren oder Deaktivieren von Änderungen, Tags und nicht umbrechenden Leerzeichen jetzt unter der Option **Anzeigen** im Dropdown-Menü gruppiert, um die Benutzerfreundlichkeit zu verbessern.
 
 Weitere Informationen finden Sie unter [Symbolleiste im Editor](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-
-

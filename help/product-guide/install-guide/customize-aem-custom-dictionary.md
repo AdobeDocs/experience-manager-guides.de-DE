@@ -5,7 +5,7 @@ exl-id: 8bfd3ea7-0be8-4e7a-b389-5face043200b
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 2%
@@ -30,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um Ihre Liste mit benutzerdefinierten W�
 
    Der folgende Screenshot zeigt eine Liste mit benutzerdefinierten Wörtern, die der Datei user\_dictionary.txt hinzugefügt wurden:
 
-   ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
+   ![](assets/custom-words-list-dictionary.png){width="650"}
 
 1. Speichern und schließen Sie die Datei.
 

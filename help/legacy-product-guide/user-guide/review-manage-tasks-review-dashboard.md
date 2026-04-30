@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -26,13 +26,13 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 
    Ein Projektbedienfeld mit Aufgabenkacheln wird angezeigt.
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){width="800"}
 
 1. Klicken Sie auf die drei Punkte in der Kachel **Reviews**.
 
    Das Überprüfungs-Dashboard wird angezeigt. Im Dashboard werden alle von Ihnen erstellten Prüfungsaufgaben aufgelistet.
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){width="800"}
 
    Im Überprüfungs-Dashboard werden Details zur Überprüfungsaufgabe angezeigt, z. B. Name der Aufgabe, wer die Überprüfung gestartet hat, Datum, an dem die Überprüfung gestartet wurde, Fälligkeitsdatum, Status, Anzahl neuer Kommentare, die vom Autor nicht akzeptiert oder abgelehnt wurden, und Name der Validierungsverantwortlichen. Die Aufgaben werden in der Reihenfolge der neu erstellten Aufgaben zu den älteren Aufgaben aufgelistet.
 
@@ -51,7 +51,7 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 
 ## Registerkarte „Aufgabe“
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){width="800"}
 
 Sie können die folgenden Aktionen auf der Registerkarte **Aufgabe** ausführen:
 
@@ -72,57 +72,57 @@ Sie können die folgenden Aktionen auf der Registerkarte **Aufgabe** ausführen:
 
 ## Registerkarte „Inhalt“
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){width="800"}
 
 Sie können die folgenden Aktionen auf der Registerkarte **Inhalt** ausführen:
 
-- Ändern der Version des Themas, das zur Überprüfung gesendet wird. You can choose the latest version of the topic, version as on date, version with specific label, or version with a specific baseline \(for a DITA map\).
+- Ändern der Version des Themas, das zur Überprüfung gesendet wird. Sie können die neueste Version des Themas, die Version am Datum, die Version mit der spezifischen Beschriftung oder die Version mit der spezifischen Baseline \(für eine DITA-Zuordnung\) auswählen.
 
-- Click **Update** to share the updated version of the topic with the reviewers. The reviewers get an email notification stating that the newer version of topic has been sent for review. The next time a reviewer opens the topic, they see the updated version of the topic.
+- Klicken Sie **Aktualisieren**, um die aktualisierte Version des Themas für die Prüfer freizugeben. Die Reviewer erhalten eine E-Mail-Benachrichtigung, in der sie darauf hingewiesen werden, dass die neuere Version des Themas zur Überprüfung versendet wurde. Wenn ein Reviewer das nächste Mal ein Thema öffnet, wird ihm die aktualisierte Version des Themas angezeigt.
 
   >[!NOTE]
   >
-  > In case of an updated version of a topic, the old comments are retained in the newer version as well. Reviewers can also see the differences between the two versions.
+  > Bei einer aktualisierten Version eines Themas werden die alten Kommentare auch in der neueren Version beibehalten. Reviewer sehen außerdem die Unterschiede zwischen den beiden Versionen.
 
 - Klicken Sie **Abschließen**, um die Prüfungsaufgabe vor dem Fälligkeitsdatum als abgeschlossen zu markieren. Wenn die Aufgabe eines einzelnen Themas als Abgeschlossen markiert ist, wird die Überprüfung des ausgewählten Themas abgeschlossen. Bei Themen, die über eine DITA-Zuordnung zur Überprüfung freigegeben wurden, wird durch Markierung der DITA-Zuordnungsaufgabe als abgeschlossen jedoch die Überprüfung aller Themen innerhalb der Zuordnung geschlossen, die zur Überprüfung freigegeben wurden.
 
-- Click **Duplicate** to create a new review task using the current task as the base.
+- Klicken Sie **Duplizieren**, um eine neue Prüfungsaufgabe mit der aktuellen Aufgabe als Basis zu erstellen.
 
 
-## Reviewers tab {#reviewer-tab-id199RF0N0MUI}
+## Registerkarte „Validierungsverantwortliche“ {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){width="800"}
 
-You can perform the following actions under the **Reviewers** tab:
+Sie können die folgenden Aktionen auf der Registerkarte **Validierungsverantwortliche** ausführen:
 
-- **Select All**: Selects all topics in the topic list. You can easily perform a batch operation after selecting all topics.
-- **Clear Selection**: Deselects the topics selected in the topics list.
+- **Alle auswählen**: Wählt alle Themen in der Themenliste aus. Nach Auswahl aller Themen können Sie ganz einfach einen Batch-Vorgang durchführen.
+- **Auswahl aufheben**: Hebt die Auswahl der Themen in der Themenliste auf.
 
   >[!NOTE]
   >
-  > You can also individually select or deselect a topic by clicking on the checkbox next to the topic.
+  > Sie können ein Thema auch einzeln auswählen oder die Auswahl aufheben, indem Sie auf das Kontrollkästchen neben dem Thema klicken.
 
-- **Add**: Displays the Add Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to add as a reviewer to the selected topics.
-- **Remove**: Displays the Remove Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to remove as reviewer from the selected topics.
-- **Re-Assign**: Displays the Re-Assign Reviewers dialog. You can type the name of a reviewer or user role \(or group\) that you want to assign the review task to. This removes all existing reviewers from the selected topics and assigns the newly selected reviewers to those topics.
-- **Export**: Allows you to export the review task details in a CSV file. The file contains details such as the path and title of the topic, name of reviewer, and version of topics sent for review.
-- **Edit Reviewers**: Clicking the ![](images/edit_pencil_icon.svg)icon in the topic list displays the Edit Reviewers dialog. You can add or remove reviewers for the selected topic from this dialog.
+- **Hinzufügen**: Zeigt das Dialogfeld „Reviewer hinzufügen“ an. Sie können den Namen eines Reviewers oder einer Benutzerrolle \(oder einer Gruppe\) eingeben, den bzw. die Sie als Reviewer zu den ausgewählten Themen hinzufügen möchten.
+- **Entfernen**: Zeigt das Dialogfeld „Reviewer entfernen“ an. Sie können den Namen eines Reviewers oder einer Benutzerrolle \(oder einer Gruppe\) eingeben, den bzw. die Sie als Reviewer aus den ausgewählten Themen entfernen möchten.
+- **Neu zuweisen**: Zeigt das Dialogfeld „Reviewer neu zuweisen“ an. Sie können den Namen eines Reviewers oder einer Benutzerrolle \(oder einer Gruppe\) eingeben, dem bzw. der die Überprüfungsaufgabe zugewiesen werden soll. Dadurch werden alle vorhandenen Reviewer aus den ausgewählten Themen entfernt und die neu ausgewählten Reviewer diesen Themen zugewiesen.
+- **Exportieren**: Ermöglicht den Export der Aufgabendetails für die Überprüfung in eine CSV-Datei. Die Datei enthält Details wie den Pfad und Titel des Themas, den Namen des Reviewers und die Version der Themen, die zur Überprüfung gesendet werden.
+- **Reviewer bearbeiten**: Wenn Sie in der Themenliste auf das ![](images/edit_pencil_icon.svg)Symbol klicken, wird das Dialogfeld „Reviewer bearbeiten“ angezeigt. Sie können Reviewer für ausgewählte Themen in diesem Dialogfeld hinzufügen oder entfernen.
 
-## Check the status of a review task {#check-review-status-id199RF0A0UHS}
+## Überprüfen des Status einer Prüfungsaufgabe {#check-review-status-id199RF0A0UHS}
 
-From the main Review Dashboard page, if you select a review task and click **Status**, the status report of the review task is shown:
+Wenn Sie auf der Hauptseite des Überprüfungs-Dashboards eine Überprüfungsaufgabe auswählen und auf **Status** klicken, wird der Statusbericht der Überprüfungsaufgabe angezeigt:
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){width="800"}
 
-The status report for the review task contains the following details:
+Der Statusbericht für die Prüfungsaufgabe enthält die folgenden Details:
 
-- Name\(s\) of the reviewer to whom the review task is assigned.
-- The Status column indicates the review status. The Status could be one of the following:
-   - **Not Started**: The reviewer has not yet opened the review link.
-   - **In Progress**: The reviewer has opened the review link and is in the process of reviewing the topic.
-   - **Complete**: The reviewer has completed the review by completing the review task assigned to them. The review task is in the AEM notification Inbox for each reviewer.
-- When a reviewer opens a review link and navigates to a particular topic that topic is added to the Topics Reviewed list. This helps authors to determine if the reviewers had opened their respective sections or not. If any comments are given, those are shown in brackets.
-- Total number of comments made on all topics. In case of multiple topics under review, the number of comments for each topic is mentioned \(in brackets\) against the topic name.
-- The date when any topic was last accessed by the reviewer.
+- Name des Reviewers, dem die Prüfungsaufgabe zugewiesen wurde.
+- Die Spalte Status gibt den Prüfungsstatus an. Der Status kann einer der folgenden sein:
+   - **Nicht gestartet**: Die Überprüfenden haben den Überprüfungs-Link noch nicht geöffnet.
+   - **In Bearbeitung**: Die Überprüfenden haben den Überprüfungs-Link geöffnet und sind dabei, das Thema zu überprüfen.
+   - **Abschließen**: Die Überprüfenden haben die Überprüfung abgeschlossen, indem sie die ihnen zugewiesene Überprüfungsaufgabe abgeschlossen haben. Die Überprüfungsaufgabe befindet sich für jeden Reviewer im AEM-Benachrichtigungs-Posteingang.
+- Wenn ein Reviewer einen Review-Link öffnet und zu einem bestimmten Thema navigiert, wird dieses der Liste „Überprüfte Themen“ hinzugefügt. Auf diese Weise können Autoren feststellen, ob die Reviewer ihre jeweiligen Abschnitte geöffnet haben. Wenn Kommentare abgegeben werden, werden diese in Klammern angezeigt.
+- Gesamtzahl der Kommentare zu allen Themen. Bei mehreren zu überprüfenden Themen wird die Anzahl der Kommentare für jedes Thema \(in Klammern\) gegenüber dem Themennamen angegeben.
+- Das Datum, an dem der Reviewer zuletzt auf ein Thema zugegriffen hat.
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Themen oder Karten überprüfen](review.md)

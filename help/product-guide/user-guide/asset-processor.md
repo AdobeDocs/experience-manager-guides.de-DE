@@ -5,9 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Gehen Sie wie folgt vor, um die Assets zu verarbeiten:
 1. Wählen Sie im Bedienfeld **Tools** die Option **Guides** aus.
 1. Wählen Sie die Kachel **Massenprozessor** aus.
 
-   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png)
 
 1. Das Fenster Guides Bulk Processor wird mit den unten angezeigten Details geöffnet. Außerdem werden in diesem Fenster nur die Informationen zu den letzten fünf Migrationen angezeigt.
 
@@ -49,13 +49,13 @@ Gehen Sie wie folgt vor, um die Assets zu verarbeiten:
 
    - **Status**: Zeigt den Status der Verarbeitung als In Bearbeitung, Abgeschlossen oder Abgebrochen an.
 
-   ![Guides-asset-processor](images/guides-asset-processor-new.png){align="left"}
+   ![Guides-asset-processor](images/guides-asset-processor-new.png)
 
 1. Wählen Sie **Registerkarte** Neuer Prozess“ in der oberen rechten Ecke des Fensters, um eine neue Verarbeitungsaufgabe zu starten.
 
    Das **Neuer Prozess**-Dialogfeld wird geöffnet.
 
-   ![New-process-asset-processor](images/new-asset-processor.png){width="350" align="left"}
+   ![New-process-asset-processor](images/new-asset-processor.png){width="350"}
 
 1. Geben Sie die folgenden Details im Dialogfeld an:
 
@@ -70,9 +70,9 @@ Beispiel: Durch Auswahl von DITA Topic werden nur DITA-Themen innerhalb des ausg
    >
    > Wenn bereits ein Prozess für einen Ordner ausgeführt wird, können Sie für denselben Ordner erst dann einen neuen Prozess starten, wenn die aktuelle Aufgabe abgeschlossen ist.
 
-1. Wählen Sie **Erstellen**. Es erscheint ein Popup mit der Meldung **Erfolg und der Prozess wurde erfolgreich ausgelöst**. Im Fenster wird der Status der Verarbeitungsaufgabe angezeigt.
+1. Wählen Sie **Erstellen** aus. Es erscheint ein Popup mit der Meldung **Erfolg und der Prozess wurde erfolgreich ausgelöst**. Im Fenster wird der Status der Verarbeitungsaufgabe angezeigt.
 
-   ![Message-Asset-Processor](images/message-asset-processor.png){width="350" align="left"}
+   ![Message-Asset-Processor](images/message-asset-processor.png){width="350"}
 
 
 ## Zusätzliche Optionen für Asset-Verarbeitungsaufgaben
@@ -81,16 +81,16 @@ Zusätzliche Optionen stehen für die Verarbeitungsaufgabe zur Verfügung, sobal
 
 - **Neu starten** : Startet die zuvor erfolgreiche Asset-Verarbeitungsaufgabe neu.
 
-  ![restart-asset-processor](images/restart-asset-processor.png){width="650" align="left"}
+  ![restart-asset-processor](images/restart-asset-processor.png){width="650"}
 
 - **Fortsetzen** : Setzt die zuvor abgebrochene oder fehlgeschlagene Asset-Verarbeitungsaufgabe fort.
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="650" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){width="650"}
 
 - **Abbrechen** : Bricht die derzeit ausgeführte Asset-Verarbeitungsaufgabe ab.
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){width="650"}
 
 - **Protokolle anzeigen**: Zeigt die Protokolle für die Asset-Verarbeitungsaufgabe an. Für laufende Aufgaben zeigt das Protokoll detaillierte Verarbeitungsinformationen an, einschließlich der geschätzten verbleibenden Zeit und des Asset-Status. Diese Protokollliste zeigt die neuesten 500 Einträge an. Das vollständige Protokoll kann heruntergeladen werden.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="650" align="left"}
+  ![logs-asset-processor](images/logs-asset-processor.png){width="650"}
