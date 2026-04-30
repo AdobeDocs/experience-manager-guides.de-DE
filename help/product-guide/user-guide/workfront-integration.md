@@ -25,10 +25,10 @@ Mit der Integration von Experience Manager Guides und Adobe Workfront können Si
 
 * Planen, zuweisen und verfolgen Sie den Fortschritt einzelner Aufgaben und Projekte, ohne sich auf mehrere, nicht integrierte Tools verlassen zu müssen.
 * Effizienteres Verwalten aller Experience Manager Guides-Workflows, einschließlich Inhaltserstellung, -überprüfung, -veröffentlichung und -übersetzung.
-* Sie erhalten bei jeder Zuweisung neuer Aufgaben E-Mail-Benachrichtigungen von Adobe Workfront. Weitere Informationen finden Sie unter [Benachrichtigungen - Übersicht](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
+* Sie erhalten bei jeder Zuweisung neuer Aufgaben E-Mail-Benachrichtigungen von Adobe Workfront. Weitere Informationen finden Sie unter [Benachrichtigungen - Übersicht](https://experienceleague.adobe.com/de/docs/workfront/using/basics/use-notifications/wf-notifications).
 * Überwachen Sie den Projektzustand mithilfe des intuitiven Dashboards von Adobe Workfront, das Echtzeit-Einblicke in die Projektleistung bietet.
 
-  Weitere Informationen zu den robusten Projektmanagement-Funktionen von Adobe Workfront für Projektmanager in Experience Manager Guides finden Sie unter [Projektübersicht planen](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
+  Weitere Informationen zu den robusten Projektmanagement-Funktionen von Adobe Workfront für Projektmanager in Experience Manager Guides finden Sie unter [Projektübersicht planen](https://experienceleague.adobe.com/de/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
 
 ## Erste Schritte
 
@@ -61,7 +61,7 @@ Die folgenden Funktionen sind auf der Seite Workfront-Aufgaben verfügbar:
 
 Die Workfront-Aufgabenseite enthält auch das Symbol Link out ![](./images/Smock_LinkOut_18_N.svg) , über das Sie, wenn Sie es auswählen, zur Adobe Workfront-Projektseite gelangen. Hier können Sie Aufgabendetails anzeigen, Kommentare anzeigen, Kommentare hinzufügen und basierend auf den Berechtigungen, die Ihrem Adobe Workfront-Konto zugeordnet sind, auf andere Funktionen zugreifen.
 
-Weitere Informationen finden Sie unter [Übersicht über die Projekt-, Aufgaben- und Problemdaten in Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
+Weitere Informationen finden Sie unter [Übersicht über die Projekt-, Aufgaben- und Problemdaten in Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Workfront-Aufgaben erstellen
 
@@ -122,7 +122,7 @@ Eine neue Aufgabe wird erstellt und auf der Registerkarte **Erstellt von Ihnen**
 
 >[!NOTE]
 >
-> Als Projekt-Manager können Sie diese neu erstellte Aufgabe zusammen mit anderen wichtigen Aufgabendetails in Ihrem Adobe Workfront-Dashboard anzeigen. Weitere Informationen finden Sie unter [Grundlegendes zu Dashboards](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> Als Projekt-Manager können Sie diese neu erstellte Aufgabe zusammen mit anderen wichtigen Aufgabendetails in Ihrem Adobe Workfront-Dashboard anzeigen. Weitere Informationen finden Sie unter [Grundlegendes zu Dashboards](https://experienceleague.adobe.com/de/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Verwalten der von Ihnen erstellten Aufgaben
 

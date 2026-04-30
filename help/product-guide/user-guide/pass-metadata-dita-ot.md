@@ -38,7 +38,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe von DITA-OT-Pu
 
    Diese Datei kann überlagert werden unter: `/apps/fmdita/config/metadataList`.
 
-   Um eine benutzerdefinierte Eigenschaft zu übergeben, für die Sie bereits die Werte definiert haben, rufen Sie [Verwenden von AEM-Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880) auf.
+   Um eine benutzerdefinierte Eigenschaft zu übergeben, für die Sie bereits die Werte definiert haben, rufen Sie [Verwenden von AEM-Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=de) auf.
 
 1. Die ausgewählten Eigenschaften werden unter dem Dropdown-Menü aufgelistet.
 
@@ -73,7 +73,7 @@ Wenn Sie an der **Assets-Benutzeroberfläche arbeiten** führen Sie die folgende
 
    Diese Datei kann überlagert werden unter: `/apps/fmdita/config/metadataList`.
 
-   Um eine benutzerdefinierte Eigenschaft zu übergeben, für die Sie bereits die Werte definiert haben, rufen Sie [Verwenden von AEM-Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880) auf.
+   Um eine benutzerdefinierte Eigenschaft zu übergeben, für die Sie bereits die Werte definiert haben, rufen Sie [Verwenden von AEM-Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=de) auf.
 
 1. Wählen Sie **Dropdown-** „Eigenschaften“ die erforderlichen benutzerdefinierten und Standardeigenschaften aus. Wählen Sie beispielsweise `author`, `dc:title` und `dc:description`. Dies sind die `metadata/properties`, die erstellt werden, sobald wir eine Datei erstellen. Die ausgewählten Eigenschaften werden unter der Dropbox aufgelistet.
 
