@@ -47,7 +47,7 @@ Wenn Sie den ausgewählten Inhalt löschen, wird der verbleibende Inhalt nach de
 - Den Inhalt mit einem gültigen Element umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element einzuschließen:
 
    - Wählen Sie den Inhalt in einem Element aus.
-   - Wählen Sie ![ oben in der Symbolleiste das Symbol ](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
+   - Wählen Sie ![&#x200B; oben in der Symbolleiste das Symbol &#x200B;](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
      >[!NOTE]
      >
      > Sie können das Dialogfeld Element einfügen auch anzeigen, indem Sie auf das Kontextmenü des ausgewählten Inhalts klicken.
@@ -120,4 +120,4 @@ Sie können die Funktion zum Suchen der Datei mit der Option **Dateien immer im 
 >
 >Ab Version 2025.11.0 wird die Einstellung **Dateien im Repository immer finden** in **Dateien immer im Explorer suchen** umbenannt. Bei On-Premise-Setups ist sie weiterhin verfügbar, da sie bis Version 5.1 von Experience Manager Guides immer Dateien im Repository finden.
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Editor](web-editor.md)

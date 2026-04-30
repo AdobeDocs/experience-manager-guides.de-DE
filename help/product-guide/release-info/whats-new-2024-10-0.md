@@ -50,7 +50,7 @@ Weitere Informationen finden Sie unter [Inhaltsfragmente veröffentlichen](../us
 
 Mit Experience Manager Guides können Sie ein Thema oder seine Elemente in einem Experience Fragment veröffentlichen. Jetzt können Sie Experience Fragment-Varianten auch mithilfe der Bedingungs- oder DITAVAL-Filter erstellen und über verschiedene Kanäle oder für verschiedene Zielgruppen hinweg wiederverwenden.
 
-Weitere Informationen zum Veröffentlichen [ Experience Fragments ](../user-guide/publish-experience-fragment.md).
+Weitere Informationen zum Veröffentlichen [&#x200B; Experience Fragments &#x200B;](../user-guide/publish-experience-fragment.md).
 
 
 ### AEM Sites-Voreinstellung neu angeordnet für einfache Verwendung
@@ -77,7 +77,7 @@ Wenn dasselbe Thema mehrmals in einer Datei referenziert wird, können Sie für 
 
 ![Alte AEM Sites-Vorgabe](assets/aem-sites-legacy.png)
 
-*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**der Vorgabe **AEM Sites**den Veröffentlichungskontext für die verknüpften Themen an.*
+*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**&#x200B;der Vorgabe **AEM Sites**&#x200B;den Veröffentlichungskontext für die verknüpften Themen an.*
 
 Weitere Informationen zu [AEM Sites-Vorgaben](../user-guide/generate-output-aem-site.md).
 
@@ -108,7 +108,7 @@ Sie können auch auf die **Layout**-Ansicht für schreibgeschützte DITA-Zuordnu
 *Anzeigen der gesperrten Dateien im Authoring- und Source-Modus.*
 
 
-Erfahren Sie, wie [ Dateien im Authoring- und Source-Modus öffnen ](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
+Erfahren Sie, wie [&#x200B; Dateien im Authoring- und Source-Modus öffnen &#x200B;](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
 
 
 ### Gruppierte Bedingungen für die erweiterte Inhaltsorganisation
@@ -117,4 +117,4 @@ Mit Experience Manager Guides können Sie jetzt Bedingungen gruppieren und in ei
 
 ![Bedingungen in einer verschachtelten Hierarchie organisiert](assets/conditions-nested-hierarchy.png){width="300"}
 
-Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).

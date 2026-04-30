@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um eine erneute Überprüfung oder das S
 
    ![](images/update-task-dialog.png){width="350"}
 
-   Sie können den [ Ihrer Prüfungsaufgabe auch mithilfe der Option **Prüfungsstatus überprüfen** im Dialogfeld Aufgabe aktualisieren ](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task). Durch Auswahl dieser Option gelangen Sie zum Überprüfungs-Dashboard, in dem der Statusbericht Ihrer Überprüfungsaufgabe angezeigt wird.
+   Sie können den [&#x200B; Ihrer Prüfungsaufgabe auch mithilfe der Option **Prüfungsstatus überprüfen** im Dialogfeld Aufgabe aktualisieren &#x200B;](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task). Durch Auswahl dieser Option gelangen Sie zum Überprüfungs-Dashboard, in dem der Statusbericht Ihrer Überprüfungsaufgabe angezeigt wird.
 
    ![](images/check-review-status-icon.png){width="650"}
 

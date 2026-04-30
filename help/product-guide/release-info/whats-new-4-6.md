@@ -31,11 +31,11 @@ Ein Experience Fragment ist eine modulare Inhaltseinheit in Adobe Experience Man
 
 ![Registerkarte „Optionen“ der Dateieigenschaften](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*Veröffentlichen Sie die Experience Fragments eines Themas und zeigen Sie sie im Abschnitt **Ausgaben**in **Dateieigenschaften**an.*
+*Veröffentlichen Sie die Experience Fragments eines Themas und zeigen Sie sie im Abschnitt **Ausgaben**&#x200B;in **Dateieigenschaften**&#x200B;an.*
 
 Mit Experience Manager Guides können Sie jetzt ein Thema oder seine Elemente in einem Experience Fragment veröffentlichen. Sie können eine JSON-basierte Zuordnung zwischen einem Thema oder seinen Elementen und einer Experience Fragment-Vorlage erstellen. Sie können Varianten von Experience Fragments auch mithilfe der Bedingungsfilter erstellen.
 
-Weitere Informationen zum Veröffentlichen [ Experience Fragments ](../user-guide/publish-experience-fragment.md).
+Weitere Informationen zum Veröffentlichen [&#x200B; Experience Fragments &#x200B;](../user-guide/publish-experience-fragment.md).
 
 
 
@@ -82,7 +82,7 @@ Wenn dasselbe Thema mehrmals in einer Datei referenziert wird, können Sie für 
 
 ![Alte AEM Sites-Vorgabe](assets/aem-sites-legacy.png)
 
-*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**der Vorgabe **AEM Sites**den Veröffentlichungskontext für die verknüpften Themen an.*
+*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**&#x200B;der Vorgabe **AEM Sites**&#x200B;den Veröffentlichungskontext für die verknüpften Themen an.*
 
 
 
@@ -145,7 +145,7 @@ Sie können auch auf die **Layout**-Ansicht für schreibgeschützte DITA-Zuordnu
 *Anzeigen der gesperrten Dateien im Authoring- und Source-Modus.*
 
 
-Erfahren Sie, wie [ Dateien im Authoring- und Source-Modus öffnen ](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
+Erfahren Sie, wie [&#x200B; Dateien im Authoring- und Source-Modus öffnen &#x200B;](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
 
 
 
@@ -174,7 +174,7 @@ Beim Bearbeiten eines Dokuments im Web-Editor können Sie jetzt eine getrennte L
 
 Diese geteilte Liste gültiger Elemente hilft Ihnen, die Inhaltsstruktur beizubehalten und die DITA-Standards zu befolgen.
 
-Weitere Informationen zur Funktion **Element einfügen** finden Sie im Abschnitt [Sekundäre ](../user-guide/web-editor-features.md#2051ea0j0y4).
+Weitere Informationen zur Funktion **Element einfügen** finden Sie im Abschnitt [Sekundäre &#x200B;](../user-guide/web-editor-features.md#2051ea0j0y4).
 
 
 ### Neues Erlebnis bei der Suche und Filterung von Dateien in der Repository-Ansicht
@@ -205,7 +205,7 @@ Mit Experience Manager Guides können Sie jetzt Bedingungen gruppieren und in ei
 
 ![Bedingungen in einer verschachtelten Hierarchie organisiert](assets/conditions-nested-hierarchy.png){width="300"}
 
-Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).
 
 ### Anpassen des Web-Editor-Erlebnisses mit einer neuen Benutzeroberfläche mit Benutzereinstellungen
 
@@ -328,7 +328,7 @@ Als Administrator können Sie jetzt die Nachbearbeitung und Erstellung von UUIDs
 
 Die Deaktivierung der Nachbearbeitung für einen Ordner wirkt sich auch auf alle untergeordneten Ordner aus. Experience Manager Guides bietet jetzt jedoch die Möglichkeit, die Nachbearbeitung für einzelne untergeordnete Ordner innerhalb des ignorierten Ordners selektiv zu aktivieren.
 
-Erfahren Sie, wie [ Nachbearbeitung für einen Ordner deaktivieren ](../cs-install-guide/conf-folder-post-processing.md).
+Erfahren Sie, wie [&#x200B; Nachbearbeitung für einen Ordner deaktivieren &#x200B;](../cs-install-guide/conf-folder-post-processing.md).
 
 
 ## Verbesserungen bei den Datenquellen-Connectoren

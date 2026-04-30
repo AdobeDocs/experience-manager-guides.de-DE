@@ -86,4 +86,4 @@ Führen Sie die folgenden Schritte aus, um im Bereich „Kartenansicht“ eine A
 1. Sie sehen den Status des Ausgabegenerierungsprozesses.Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf Ausgabe anzeigen.
 
 
-**Übergeordnetes Thema**[ Artikelbasierte Veröffentlichung im Web-Editor](web-editor-article-publishing.md)
+**Übergeordnetes Thema**&#x200B;[&#x200B; Artikelbasierte Veröffentlichung im Web-Editor](web-editor-article-publishing.md)

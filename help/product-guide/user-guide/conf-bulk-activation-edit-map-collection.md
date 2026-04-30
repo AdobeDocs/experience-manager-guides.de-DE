@@ -49,4 +49,4 @@ Sie können die verschiedenen Arten von Ausgabevorgaben zusammen mit ihren Symbo
 1. Wählen Sie **Fertig** aus.
 
 
-**Übergeordnetes Thema:**[ Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

@@ -52,7 +52,7 @@ Nachdem Sie die Ausgabegenerierungsaufgabe für eine Zuordnung initiiert oder au
 
 ## Aufgabe zum Erzeugen einer Ausgabe abbrechen
 
-Experience Manager Guides bietet Publishern eine einfache Möglichkeit, laufende Veröffentlichungsaufgaben abzubrechen. Als Herausgeber können Sie eine laufende Veröffentlichungsaufgabe über die DITA Map-Konsole oder das [Dashboard veröffentlichen“ ](generate-output-publish-dashboard.md#).
+Experience Manager Guides bietet Publishern eine einfache Möglichkeit, laufende Veröffentlichungsaufgaben abzubrechen. Als Herausgeber können Sie eine laufende Veröffentlichungsaufgabe über die DITA Map-Konsole oder das [Dashboard veröffentlichen“ &#x200B;](generate-output-publish-dashboard.md#).
 
 Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung über die DITA-Zuordnungskonsole abzubrechen:
 

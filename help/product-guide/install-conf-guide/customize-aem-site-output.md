@@ -28,7 +28,7 @@ Mit dem AEM Guides können Sie auch benutzerdefinierte DITA Open Toolkit \(DITA-
 
 >[!TIP]
 >
-> Best Practices für die Erstellung *AEM-Site-Ausgabe finden Sie im Abschnitt [Best ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)&quot; zur Veröffentlichung der AEM-Site.*
+> Best Practices für die Erstellung *AEM-Site-Ausgabe finden Sie im Abschnitt [Best &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)&quot; zur Veröffentlichung der AEM-Site.*
 
 
 ## Anpassen der Design-Vorlage für die Generierung von Ausgaben {#customize_xml-add-on}
@@ -363,7 +363,7 @@ Um das `table`-Element von der Reduzierung auszuschließen, fügen Sie die folge
 
 ## Konfigurieren der Versionierung für gelöschte Seiten in der AEM Site-Ausgabe
 
-Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und ****Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
+Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und **&#x200B;**&#x200B;Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
 
 Die folgenden Registerkarten enthalten Anweisungen, um die Erstellung einer Version für die Seite(n) zu stoppen, die auf der Grundlage Ihrer Experience Manager Guides-Einrichtung gelöscht wird: Cloud Service oder On-Premise.
 

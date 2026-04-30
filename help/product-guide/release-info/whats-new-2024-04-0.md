@@ -68,7 +68,7 @@ Zusätzlich zur Aktivierung der Ausgabe für Ihre Massenaktivierungssammlung in 
 Mit dieser Funktion können Sie Ihre Inhalte in einer Vorschauinstanz aktivieren, damit Sie überprüfen können, wie sie aussehen und funktionieren, bevor Sie sie in der **Veröffentlichungs**-Instanz aktivieren.
 
 
-![ hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](assets/bulk-collection-audit-history.png){width="800"}
+![&#x200B; hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](assets/bulk-collection-audit-history.png){width="800"}
 
 *Informationen zu den aktivierten Zuordnungsausgaben finden Sie auf der Registerkarte **Prüfverlauf**.*
 
@@ -147,7 +147,7 @@ Als Administrator können Sie jetzt die Nachbearbeitung und Erstellung von UUIDs
 
 Die Deaktivierung der Nachbearbeitung für einen Ordner wirkt sich auch auf alle untergeordneten Ordner aus. Experience Manager Guides bietet jetzt jedoch die Möglichkeit, die Nachbearbeitung für einzelne untergeordnete Ordner innerhalb des ignorierten Ordners selektiv zu aktivieren.
 
-Erfahren Sie, wie [ Nachbearbeitung für einen Ordner deaktivieren ](../cs-install-guide/conf-folder-post-processing.md).
+Erfahren Sie, wie [&#x200B; Nachbearbeitung für einen Ordner deaktivieren &#x200B;](../cs-install-guide/conf-folder-post-processing.md).
 
 ## Neues Erlebnis bei der Suche und Filterung von Dateien in der Repository-Ansicht
 
@@ -180,7 +180,7 @@ Beim Bearbeiten eines Dokuments im Web-Editor können Sie jetzt eine getrennte L
 
 Diese geteilte Liste gültiger Elemente hilft Ihnen, die Inhaltsstruktur beizubehalten und die DITA-Standards zu befolgen.
 
-Weitere Informationen zur Funktion **Element einfügen** finden Sie im Abschnitt [Sekundäre ](../user-guide/web-editor-features.md#2051ea0j0y4).
+Weitere Informationen zur Funktion **Element einfügen** finden Sie im Abschnitt [Sekundäre &#x200B;](../user-guide/web-editor-features.md#2051ea0j0y4).
 
 
 ## Der Inhaltstyp wird als Dropdown-Menü angezeigt
