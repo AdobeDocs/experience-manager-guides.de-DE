@@ -4,9 +4,9 @@ description: Generieren von DITA-Zuordnungsberichten über die Zuordnungskonsole
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 11b0082b160a35fee0fc9d6478f5fe896de80d31
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Sie können die Themenliste anzeigen, die Metadaten aller Verweise verwalten, di
 
 1. Wählen Sie das Symbol **In Map-Konsole öffnen** aus.
 
-   ![](images/map-console.png){width="600" align="left"}
+   ![](images/map-console.png){width="600"}
 
 1. Wählen **Berichte** im linken Bedienfeld aus.
 
 Sie können alle vier Berichte über das Bedienfeld **Berichte** finden. Je nach Bedarf können Sie einen der Berichte wie hier gezeigt auswählen.
 
-![](images/reports-demo.png){align="left"}
+![](images/reports-demo.png)
 
 Das Bedienfeld „Berichte“ bietet Zugriff auf vier verschiedene Berichtstypen. Jeder Bericht wird zusammen mit seiner Barrierefreiheit und seinen Funktionen im Folgenden detailliert erläutert.
 
@@ -44,7 +44,7 @@ Sie können den Themenlistenbericht einer Zuordnung anzeigen, indem Sie die folg
 
 1. Wählen **Themenliste** im Bedienfeld Berichte aus. Die Liste der in der DITA-Karte vorhandenen Themen wird angezeigt.
 
-   ![](images/web-editor-topiclist-panel-new.png){align="left"}
+   ![](images/web-editor-topiclist-panel-new.png)
 
 1. Im Bedienfeld **Filter** können Sie Ihre Themen nach **Verweistyp** \(direkt oder indirekt\), **Dokumentstatus** \(wenn sich Ihre Themen beispielsweise im Status Bearbeiten, In Überprüfung oder Überprüft befinden, werden diese aufgelistet\) oder **Autor** des Themas filtern.
 
@@ -75,10 +75,10 @@ Der **Metadatenbericht** liefert einen detaillierten Bericht Ihrer Referenzen in
 
 Sie können den Metadatenbericht einer Zuordnung anzeigen, indem Sie die folgenden Schritte ausführen:
 
-1. Wählen **Metadaten** im Bedienfeld „Berichte“ aus. Die Liste aller Verweise einer Zuordnung wird zusammen mit den Metadaten wie Tags, dem Dokumentstatus und den benutzerdefinierten Metadaten angezeigt. Informationen zum Hinzufügen einer neuen benutzerdefinierten Metadatenspalte finden Sie [&#x200B; Abschnitt Hinzufügen benutzerdefinierter &#x200B;](#add-custom-metadata-columns) .
+1. Wählen **Metadaten** im Bedienfeld „Berichte“ aus. Die Liste aller Verweise einer Zuordnung wird zusammen mit den Metadaten wie Tags, dem Dokumentstatus und den benutzerdefinierten Metadaten angezeigt. Informationen zum Hinzufügen einer neuen benutzerdefinierten Metadatenspalte finden Sie [ Abschnitt Hinzufügen benutzerdefinierter ](#add-custom-metadata-columns) .
 
 
-   ![](images/web-editor-metadata-panel-new.png){align="left"}
+   ![](images/web-editor-metadata-panel-new.png)
 
 
 1. Im Bedienfeld **Filter** können Sie Ihre Themen nach dem **Dokumentstatus** \(z. B. wenn Ihre Themen den Status „Bearbeiten“, „In Überprüfung“ oder „Überprüft“ aufweisen, werden diese aufgelistet\), **Verweise** \(direkt oder indirekt\), **Dateityp** \(Zuordnung, Thema, Dokument, Bild, Video und andere\) der Referenz.
@@ -129,12 +129,12 @@ Um Metadaten zu aktualisieren, führen Sie die folgenden Schritte aus:
    >
    > Wenn eine Datei von einem anderen Benutzer gesperrt wird, kann sie nicht zum Aktualisieren von Metadaten ausgewählt werden. Ein Sperrsymbol wird auch neben dem Titel einer gesperrten Datei angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen des Benutzers anzuzeigen.
 
-   ![](images/all-selection.png){align="left"}
+   ![](images/all-selection.png)
 
 
 1. Wählen **oben** Verwalten“ aus.
 
-   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
+   ![](images/web-editor-manage-metadata.png){width="350"}
 
 1. Wenn Sie neue Tags hinzufügen möchten, wählen Sie in der Dropdown-Liste neue Tags aus, um sie auf alle ausgewählten Themen anzuwenden. Sie können auch jedes Tag löschen, indem Sie auf das Kreuz-Symbol neben dem Tag klicken.
 
@@ -150,12 +150,12 @@ Mit dieser Funktion können Sie je nach Bedarf benutzerdefinierte Metadatenspalt
 
 1. Um eine benutzerdefinierte Metadatenspalte hinzuzufügen, wählen Sie **Workspace** (angezeigt als **Einstellungen** für **On-Premise**) aus den drei Punkten oben rechts auf der Metadatenseite.
 
-   ![](images/custom-metadata-setting.png){width="600" align="left"}
+   ![](images/custom-metadata-setting.png){width="600"}
 
 1. Wählen Sie **Metadaten** im linken Bereich des angezeigten Popup-Fensters aus.
 1. Fügen Sie ein neues benutzerdefiniertes Metadatenfeld gemäß der Anforderung mithilfe der Registerkarte **Hinzufügen** hinzu.
 
-   ![](images/add-custom-metadata.png){width="600" align="left"}
+   ![](images/add-custom-metadata.png){width="600"}
 
 1. Geben Sie einen bestimmten Metadatenpfad und einen entsprechenden Titel für denselben Pfad an, den Sie in den Spalten des Metadatenberichts hinzufügen möchten. Beispiel: Benutzerdefinierte Metadaten mit der Titelsprache und einem bestimmten Pfad werden hinzugefügt.
 
@@ -163,7 +163,7 @@ Mit dieser Funktion können Sie je nach Bedarf benutzerdefinierte Metadatenspalt
    >
    > Wenn Sie eine bestimmte Metadatenspalte entfernen möchten, können Sie sie aus der angezeigten Liste löschen. Darüber hinaus können Sie den **Titel** bearbeiten, um den Anzeigetitel der Spalte zu ändern.
 
-   ![](images/added-custom-field.png){width="600" align="left"}
+   ![](images/added-custom-field.png){width="600"}
 
 
 
@@ -174,7 +174,7 @@ Mit dieser Funktion können Sie je nach Bedarf benutzerdefinierte Metadatenspalt
    > Das Hinzufügen einer neuen Metadatenspalte wird auch im Bedienfeld **Versionsverlauf** im Editor angezeigt. Weitere Informationen finden Sie unter **[Metadaten](web-editor-features.md)**.
 
 
-   ![](images/updated-custom-field.png){width="600" align="left"}
+   ![](images/updated-custom-field.png){width="600"}
 
 
 Ebenso können Sie die oben genannten Schritte ausführen, um neue benutzerdefinierte Metadatenfelder hinzuzufügen, die basierend auf Ihrer Anforderung in den Metadatenberichten benötigt werden.
@@ -190,11 +190,11 @@ Der Bericht **Multimedia** enthält detaillierte Informationen zu den in Ihrer Z
 
    - Bei der Sortierung nach **Multimedia** wird der Name des Multimediums in der ersten Spalte angezeigt und dann werden die Namen aller Verweise, in denen sie verwendet wurden, in einer anderen Spalte in derselben Zeile angezeigt. Beispielsweise zeigt der folgende Screenshot die Multimedia-Datei testSong.mp3 in der ersten Spalte und zwei Verweise, in denen sie verwendet wird, werden in der dritten Spalte in derselben Zeile angezeigt.
 
-     ![](images/multimedia-report-file-order-new.png){width="650" align="left"}
+     ![](images/multimedia-report-file-order-new.png){width="650"}
 
    - Wenn Sie nach **Verwendet in** Spalte sortieren, sehen Sie die transponierte Ansicht, in der die Namen der Verweise, in denen Multimedia verwendet wurde, in der ersten Spalte aufgeführt sind, während die Multimedianamen in einer anderen Spalte in separaten Zeilen aufgeführt sind. Beispiel: Der folgende Screenshot zeigt die Namen zweier Verweise \(testing_direct und video content topic\) in der ersten Spalte und die multimedia testSong.mp3 wird in der dritten Spalte in zwei separaten Zeilen angezeigt.
 
-     ![](images/multimedia-report-used-in-order-new.png){width="650" align="left"}
+     ![](images/multimedia-report-used-in-order-new.png){width="650"}
 
 1. Sie können Ihre Multimedia-Dateien nach **Multimediatyp** und **Verweistyp** filtern. Die Liste der Multimediadateien wird basierend auf Ihrer Auswahl in der Dropdown-Liste angezeigt. Beispielsweise können Sie festlegen, dass nur die Audioreferenzen in Ihrer DITA-Karte angezeigt werden sollen und dass eine Datei nur die darin verwendeten Audioreferenzen anzeigt.
 
@@ -225,13 +225,13 @@ Sie können den Bericht nach fehlerhaften Links anzeigen, indem Sie die folgende
    - Bei der Sortierung nach **Ungültiger Link** werden die Pfade der fehlerhaften Links in der ersten Spalte und anschließend die Namen aller Verweise, in denen sie verwendet wurden, in einer anderen Spalte in separaten Zeilen angezeigt. Wenn derselbe fehlerhafte Link in mehreren Dateien verwendet wird, werden sie in einer Zeile angezeigt und als gruppierte oder untergeordnete Zeilen angezeigt. Der folgende Screenshot zeigt beispielsweise zwei fehlerhafte Links in der ersten Spalte und die Referenz, in der sie verwendet werden, `m_ElectricalSpecs_900.ditamap` in der dritten Spalte in zwei separaten Zeilen angezeigt wird.
 
 
-   ![](images/broken-link-report-new.png){align="left"}
+   ![](images/broken-link-report-new.png)
 
 
    - Bei Sortierung nach **Verwendet in** wird die transponierte Ansicht angezeigt, in der die Namen der Verweise, in denen die fehlerhaften Links verwendet wurden, in der ersten Spalte aufgeführt sind, während die fehlerhaften Links in einer anderen Spalte in derselben Zeile aufgeführt sind. Der folgende Screenshot zeigt beispielsweise den Verweis (in dem der fehlerhafte Link verwendet wird) `m_ElectricalSpecs_900.ditamap` in der ersten Spalte, während die fehlerhaften Links in der dritten Spalte in derselben Zeile angezeigt werden.
 
 
-   ![](images/broken-link-filter-usedin-new.png){align="left"}
+   ![](images/broken-link-filter-usedin-new.png)
 
 
 1. Sie können Ihre fehlerhaften Links nach den **Dateityp** und **Verknüpfungstyp** filtern. Die Liste der fehlerhaften Links wird je nach Auswahl in der Dropdown-Liste angezeigt. Sie können beispielsweise festlegen, dass nur die Inhaltsreferenzen in Ihrer DITA-Karte angezeigt werden sollen und dass eine Datei nur die fehlerhaften Inhaltsreferenzen anzeigt, die darin verwendet werden.
@@ -266,4 +266,4 @@ Sie können den Bericht nach fehlerhaften Links anzeigen, indem Sie die folgende
 1. Wählen Sie **Herunterladen** aus, um den Schnappschuss aller fehlerhaften Links in der DITA-Karte herunterzuladen. Die Excel-Datei enthält die ausgewählten Spalten und die fehlerhaften Links, die in der Ansicht „Beschädigte Links“ gefiltert wurden.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in Berichte](reports-intro.md)
+**Übergeordnetes Thema:**[ Einführung in Berichte](reports-intro.md)

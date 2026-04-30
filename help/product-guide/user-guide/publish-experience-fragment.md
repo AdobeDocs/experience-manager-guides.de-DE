@@ -4,7 +4,7 @@ description: Veröffentlichen Sie ein Thema oder die Elemente innerhalb eines Th
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 1%
@@ -31,17 +31,16 @@ Um ein Experience Fragment zu generieren, führen Sie die folgenden Schritte aus
    * **Titel**: Den Titel des Ordners anzeigen oder bearbeiten.
 
    * **Zulässige Vorlagen**: Enthält die Liste der Vorlagen, die als untergeordnete Seiten des Experience Fragments hinzugefügt werden können. Um die zulässige Vorlage hinzuzufügen, geben Sie den regulären Ausdruck zum Abrufen der erforderlichen Vorlagen im Feld **Zulässige Vorlagen** an.
-Zum Beispiel:
+Beispiel:
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
      Wenn Sie keine zulässige Vorlage für einen Ordner definieren, werden die Vorlagen standardmäßig aus dem übergeordneten Ordner oder dem Vorlagenordner ausgewählt.
    * **Orderable**: Ermöglicht das Ändern der Reihenfolge der Assets innerhalb eines Ordners.
-
-     ![Fügen Sie Cloud-Konfigurationsdetails in den Ordnereigenschaften hinzu](images/experience-fragment-folder-properties.png){width="650" align="left"}
+     ![Hinzufügen von Cloud-Konfigurationsdetails in den Ordnereigenschaften](images/experience-fragment-folder-properties.png){width="650"}
      *Fügen Sie die Cloud-Konfiguration in den Ordnereigenschaften hinzu, um sie mit den Fragmentvorlagen zu verbinden.*
 1. Um ein Experience Fragment zu generieren, wählen Sie **Neue Ausgabe** ![neues Ausgabesymbol](./images/Add_icon.svg) aus dem Abschnitt **Ausgaben** im Abschnitt **Dateieigenschaften** eines Themas aus.
 1. Wählen Sie **Experience Fragment** aus.\
-   ![Registerkarte „Optionen“ der Dateieigenschaften](./images/file-properties-outputs-new.png){width="300" align="left"}
+   ![Registerkarte „Optionen“ der Dateieigenschaften](./images/file-properties-outputs-new.png){width="300"}
 
    *Ein neues Experience Fragment aus den Dateieigenschaften eines Themas hinzufügen*.
 
@@ -50,7 +49,7 @@ Zum Beispiel:
    > Sie können ein Experience Fragment auch über die „Repository **Ansicht“**. Wählen Sie das Thema aus, das Sie als Experience Fragment veröffentlichen möchten. Wählen Sie dann im Menü **Optionen** die Option **Veröffentlichen als** > **Experience Fragment**.
 
 1. Füllen Sie **Dialogfeld Experience Fragment** generieren die folgenden Details aus:
-   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Experience Fragment veröffentlichen hinzu](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Experience Fragment veröffentlichen hinzu](images/experience-fragment-generate.png){width="500"}
 
    *Fügen Sie den Pfad, die Vorlage und die Zuordnungsdetails hinzu, um ein Thema oder seine Elemente als Experience Fragment zu veröffentlichen. Sie können ein vorhandenes Experience Fragment überschreiben.*
 
@@ -62,7 +61,7 @@ Zum Beispiel:
 
 
 
-     Ihr Administrator kann die Zuordnungen in der Datei *experienceFragmentMapping.json* hinzufügen.  Weitere Informationen zum Erstellen [&#x200B; Zuordnung zwischen einem Thema und einem Experience Fragment &#x200B;](../cs-install-guide/conf-experience-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
+     Ihr Administrator kann die Zuordnungen in der Datei *experienceFragmentMapping.json* hinzufügen.  Weitere Informationen zum Erstellen [ Zuordnung zwischen einem Thema und einem Experience Fragment ](../cs-install-guide/conf-experience-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
 
    * Sie können auch verschiedene Bedingungen zum Veröffentlichen des Inhalts auswählen.  Wählen Sie eine der folgenden Optionen aus:
 
@@ -80,7 +79,7 @@ Zum Beispiel:
 1. Wählen Sie **Generieren** aus, um das Experience Fragment zu veröffentlichen.
 1. Sie können die Experience Fragments für ein Thema im Abschnitt **Ausgaben** in den **Dateieigenschaften**. Die Experience Fragments werden nach Datum und Uhrzeit der Veröffentlichung angezeigt. Die neueste Version ist die erste.
 
-   ![Anzeigen der Experience Fragments für ein Thema](images/experience-fragment-outputs-new.png){width=300 align=„left“}
+   ![Anzeigen der Experience Fragments für ein Thema](images/experience-fragment-outputs-new.png){width=300}
 
    *Zeigen Sie die für ein Thema vorhandenen Experience Fragments an und veröffentlichen Sie sie erneut.*
 

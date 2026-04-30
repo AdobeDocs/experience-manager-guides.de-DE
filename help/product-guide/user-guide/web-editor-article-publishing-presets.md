@@ -4,9 +4,9 @@ description: Erstellen Sie Ausgabevorgaben aus dem Web-Editor. Erfahren Sie, wie
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -41,21 +41,21 @@ Führen Sie die folgenden Schritte aus, um Ausgabevorgaben für Ihre DITA-Zuordn
    Die Voreinstellung für die Wissensdatenbank wird erstellt.
 
 
-   ![Neue &#x200B;](images/knowledge-base-preset-dialog-box.png){align="left"}
+   ![Neue ](images/knowledge-base-preset-dialog-box.png)
 
 Nachdem die Voreinstellung erstellt wurde, können Sie die Ausgabe für bestimmte Artikel in der Wissensdatenbank generieren. Navigieren Sie dazu zur Registerkarte **Artikel** und wählen Sie die Themen aus, für die Sie die Ausgabe generieren möchten.
 1. Wählen Sie **oben** Ausgabe generieren“ aus, um die Ausgabe zu generieren.
 
-   ![](images/add-preset-articles-tab_cs.png){align="left"}
+   ![](images/add-preset-articles-tab_cs.png)
 
 1. Wählen Sie in **Eingabeaufforderung Dateien für** Veröffentlichung bestätigen die Dateien aus, die Sie veröffentlichen möchten, und bestätigen Sie Ihre Auswahl durch **Veröffentlichen**.
 
-   ![Neue &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Neue ](images/knowledge-base-confirm-files-for-publishing.png)
 
 Sie sehen den Status des Ausgabegenerierungsprozesses. Die Spalte **Themen** listet die Themen auf, für die Ausgaben generiert werden, während die Spalte **Status** den Veröffentlichungsstatus jedes Themas anzeigt.
 
 
-![](images/add-preset-output-generated_cs.png){align="left"}
+![](images/add-preset-output-generated_cs.png)
 
 Um die Ausgabe anzuzeigen, schließen Sie das Dialogfeld „Ausgabe generiert“ und wählen **Ausgabe anzeigen** auf der Seite „Voreinstellung“ aus.
 
@@ -66,4 +66,4 @@ Um die Ausgabe anzuzeigen, schließen Sie das Dialogfeld „Ausgabe generiert“
 
 
 
-**Übergeordnetes Thema**&#x200B;[&#x200B; Artikelbasierte Veröffentlichung im Editor](web-editor-article-publishing.md)
+**Übergeordnetes Thema**[ Artikelbasierte Veröffentlichung im Editor](web-editor-article-publishing.md)

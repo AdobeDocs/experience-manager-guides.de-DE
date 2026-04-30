@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie als Autor oder Autorin in AEM Guides Kommenta
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Ein Autor kann im Editor Kommentare in einem Dokument ansprechen. Es werden visu
 >
 > Achten Sie beim Bearbeiten von Überprüfungskommentaren \(für ein aktives Überprüfungsdokument\) darauf, dass Sie das zu überprüfende Thema nicht auf mehreren Registerkarten öffnen, wenn die Ansicht „Vollständige Tags“ aktiviert ist, und nicht zwischen dem Authoring- und dem Source-Ansichtsmodus wechseln.
 
-![](images/comments-page-web-editor_cs-new.png){align="left"}
+![](images/comments-page-web-editor_cs-new.png)
 
 Im Editor enthält das rechte Bedienfeld die Symbole Überprüfen und Änderungen verfolgen . Im Bedienfeld Überprüfen werden alle Kommentare angezeigt, die von Prüfern in Ihrem Dokument vorgenommen wurden. Das **Änderungen verfolgen** zeigt den Status aller eingefügten und gelöschten Kommentare in Ihrem Dokument an.
 
@@ -53,11 +53,11 @@ Im Editor enthält das rechte Bedienfeld die Symbole Überprüfen und Änderunge
 
   Wenn Sie die vorgeschlagene Änderung \(Einfügung oder Löschung\) einzeln übernehmen möchten, klicken Sie einfach mit der rechten Maustaste auf den Kommentar im Inhalt und wählen Sie Änderung akzeptieren oder ablehnen. Je nach Auswahl wird der Kommentar akzeptiert oder abgelehnt. Im Falle eines akzeptierten Kommentars wird der Inhalt zum Inhalt hinzugefügt und im Falle einer Ablehnung wird er aus dem Inhalt entfernt. Außerdem wird der Status des Kommentars im Überprüfungsfeld geändert.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png)
 
   Sie können auch das Bedienfeld Änderungen verfolgen verwenden, um Kommentare zu akzeptieren oder abzulehnen. Wenn Sie einen Kommentar auswählen, wird der Kommentar im Dokument hervorgehoben.
 
-  ![](images/changes-tab_cs-new.png){align="left"}
+  ![](images/changes-tab_cs-new.png)
 
   >[!IMPORTANT]
   >
@@ -71,16 +71,16 @@ Im Editor enthält das rechte Bedienfeld die Symbole Überprüfen und Änderunge
 
 - **I**: Einen Filter auf die Kommentare anwenden. Sie können nach Kommentaren filtern, und zwar auf der Grundlage von Überprüfungstyp \(alle, hervorgehoben, gelöscht, eingefügt oder Haftnotiz\), Überprüfungsstatus \(alle, akzeptiert, abgelehnt oder keine\), Reviewers \(alle oder bestimmte Reviewer\(s\)\) oder Themenversionen. Standardmäßig ist keiner der Filter ausgewählt.
 
-  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  ![](images/review-comments-author-filter.png){width="350"}
   **Antworten auf einen Kommentar, indem Sie andere Benutzer taggen**
 
 Als Autor und Initiator der Prüfungsaufgabe können Sie auf Prüfungskommentare antworten und andere Benutzende, die an derselben Prüfungsaufgabe beteiligt sind, mit Tags versehen, um ihre Aufmerksamkeit zu lenken oder Folgemaßnahmen zuzuweisen. Diese Funktion ist nur für aktive Prüfungsaufgaben verfügbar.
 
 >[!NOTE]
 >
-> Um die Liste der einer Prüfungsaufgabe zugewiesenen Benutzer anzuzeigen und sie in einem Kommentar zu taggen, benötigen Sie *Lesezugriff* auf `/home/users and /home/groups` Knoten. Weitere Informationen finden Sie unter [Benutzerverwaltung und Sicherheit](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Wenn das Tagging nach der Bestätigung des Zugriffs immer noch nicht verfügbar ist, muss Ihr Administrator möglicherweise eine `user-admin` Lizenz zuweisen, um diese Funktion zu aktivieren.
+> Um die Liste der einer Prüfungsaufgabe zugewiesenen Benutzer anzuzeigen und sie in einem Kommentar zu taggen, benötigen Sie *Lesezugriff* auf `/home/users and /home/groups` Knoten. Weitere Informationen finden Sie unter [Benutzerverwaltung und Sicherheit](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Wenn das Tagging nach der Bestätigung des Zugriffs immer noch nicht verfügbar ist, muss Ihr Administrator möglicherweise eine `user-admin`-Lizenz zuweisen, um diese Funktion zu aktivieren.
 
-![](images/tag-users-review.png){width="350" align="left"}
+![](images/tag-users-review.png){width="350"}
 *Beschriftung:Tag Benutzer als Initiator/Autor*
 
 Getaggte Benutzende erhalten sowohl eine E-Mail- als auch eine AEM-Benachrichtigung, sodass sie umgehend informiert werden. Weitere Informationen zum Trigger von Prüfungsbenachrichtigungen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
@@ -89,6 +89,6 @@ Getaggte Benutzende erhalten sowohl eine E-Mail- als auch eine AEM-Benachrichtig
 
 Wenn Sie der Initiator oder Autor einer Prüfungsaufgabe sind und diese über die **Projektekonsole** öffnen, wird das Thema in der Prüfungsbenutzeroberfläche gestartet. Da Ihnen diese Aufgabe nicht zugewiesen ist, können Sie Kommentare anzeigen und beantworten, jedoch keine Überprüfungsaktionen durchführen. Die Kommentarsymbolleiste bleibt für Benutzende deaktiviert, die der Aufgabe nicht zugewiesen sind.
 
-![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+![](images/review-comments-toolbar-disabled.png){width="350"}
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

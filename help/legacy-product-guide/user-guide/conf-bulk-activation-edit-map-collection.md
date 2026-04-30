@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a15ee164-ec60-483e-8760-b1c290625415
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 2%
@@ -43,11 +43,11 @@ Sie können die verschiedenen Arten von Ausgabevorgaben zusammen mit ihren Symbo
 
 1. Klicken Sie auf **Löschen**.
 
-   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600"}
 
    Die ausgewählte Zuordnung wird aus der Massen-Aktivierungszuordnungssammlung entfernt.
 
 1. Klicken Sie auf **Fertig**.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
+**Übergeordnetes Thema:**[ Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

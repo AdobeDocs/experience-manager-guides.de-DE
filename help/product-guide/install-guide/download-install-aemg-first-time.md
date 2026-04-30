@@ -5,7 +5,7 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 7%
@@ -34,7 +34,7 @@ Führen Sie die folgenden Schritte aus, um AEM Guides zum ersten Mal auf einen C
 
    Package Manager verwaltet die Pakete in Ihrer lokalen AEM-Installation. Weitere Informationen zum Arbeiten mit dem Package Manager finden Sie unter [So arbeiten Sie mit Paketen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/package-manager.html) in der Dokumentation zu AEM.
 
-   ![](assets/package-manager.png){width="650" align="left"}
+   ![](assets/package-manager.png){width="650"}
 
 1. Um das AEM Guides-Paket hochzuladen, klicken Sie auf **Paket hochladen**.
 
@@ -44,7 +44,7 @@ Führen Sie die folgenden Schritte aus, um AEM Guides zum ersten Mal auf einen C
 
 1. Klicken Sie auf „Installieren“, um **Paket** installieren.
 
-   ![](assets/install-package.png){width="650" align="left"}
+   ![](assets/install-package.png){width="650"}
 
 1. Klicken Sie im Dialogfeld Paket installieren auf **Installieren**.
 
@@ -55,4 +55,4 @@ Führen Sie die folgenden Schritte aus, um AEM Guides zum ersten Mal auf einen C
 >
 > Führen Sie das Installationsverfahren auf allen Instanzen der AEM-Server in Ihrem Setup durch.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

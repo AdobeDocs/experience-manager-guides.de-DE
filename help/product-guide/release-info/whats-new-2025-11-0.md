@@ -1,10 +1,11 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2025.11.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2025.11.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2025.11.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: a13fdb36efb5cfb548f8e128977469763836537a
+exl-id: 270a5faa-a16f-4939-900e-3c6c54660d2c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 3%
 
 ---
@@ -22,11 +23,11 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2025.11.0](../release-in
 
 Das Repository, auf das jetzt direkt über die Startseite zugegriffen werden kann, dient als zentralisierter Bereich für eine verbesserte Auffindbarkeit von Ordnern und Dateien. Es bietet einen speziellen **Ordner-Navigationsbereich** und eine anpassbare **Tabellenansicht des Repositorys**. Das überarbeitete Such- und Filtererlebnis erleichtert das Suchen und Auffinden von Dateien erheblich. Weitere Informationen finden Sie unter [Kennenlernen der Repository-Oberfläche](../user-guide/home-page-repository-view.md).
 
-![](assets/repository-view-home.png){align="left"}
+![](assets/repository-view-home.png)
 
 Im -Editor ist das Erlebnis Suchen und Filtern nach Dateien jetzt mit der Startseite konsistent. Ein neues [Suchfeld](../user-guide/search-panel-explorer.md), das sich unten in der Editor-Benutzeroberfläche befindet, wird eingeführt, um Suchergebnisse anzuzeigen. Darüber hinaus wird das Repository jetzt im Editor in **Explorer** umbenannt, sodass Sie Ordner und Dateien wie zuvor durchsuchen können.
 
-![](assets/search-panel-explorer.png){align="left"}
+![](assets/search-panel-explorer.png)
 
 
 ## Verbesserte Indizierung für Smart-Vorschläge im KI-Assistenten
@@ -56,7 +57,3 @@ Nach dem Build-Upgrade kann es zu einem temporären Anstieg der Auslastung des S
 Es wird ein automatisierter Prozess eingeführt, um Assets im `/content/dam` auf dem neuesten Stand zu halten. Alle 15 Minuten erfolgt eine erneute Verarbeitung des Asset-Trigger durch das System. In jedem Zyklus werden Assets aufgenommen, die innerhalb des letzten 15-Minuten-Intervalls neu hinzugefügt wurden oder unverarbeitet blieben, und erneut verarbeitet. Dies verbessert die Effizienz und Konsistenz in Ihrem gesamten Content-Repository.
 
 Weitere Informationen finden Sie unter [Assets verarbeiten](../user-guide/asset-processor.md).
-
-
-
-

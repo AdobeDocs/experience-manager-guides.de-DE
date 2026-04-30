@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie im Abschnitt Produktschulung und -lernen eine
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um eine Fragenbank zu erstellen:
 1. Wählen Sie **Fragenbank** aus.
 Der **Neue Fragenbank** Dialog öffnet sich. Sie können die Vorlage aus dem Dropdown-Menü auswählen, einen geeigneten Titel für die Fragenbank angeben und den Pfad angeben, unter dem diese Fragenbank in Ihrem Repository gespeichert werden soll.
 
-   ![](assets/question-bank-create.png){width="350" align="left"}
+   ![](assets/question-bank-create.png){width="350"}
 
 1. Wählen Sie **Erstellen** aus.
 Eine Fragenbank wird als Teil des Kurses hinzugefügt und im Kursmanager-Bedienfeld angezeigt.

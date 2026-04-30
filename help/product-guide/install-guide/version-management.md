@@ -5,7 +5,7 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1668'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Führen Sie die folgenden Schritte aus, um diese Funktionen zu aktivieren:
 
 1. Wählen Sie die Option **Bearbeitung ohne Auschecken deaktivieren** aus.
 
-   ![](assets/xml-editor-config.png){width="650" align="left"}
+   ![](assets/xml-editor-config.png){width="650"}
 
    Bei dieser Option wird die Option Bearbeiten in der Symbolleiste erst angezeigt, wenn eine Datei ausgecheckt wurde.
 
@@ -134,7 +134,7 @@ Um diese Funktion zu unterstützen, wird in `oak:index` eine neue `drivelock` f�
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
-![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
+![](assets/index-property-oak-index-drivelock.png){width="800"}
 
 Stellen Sie zusätzlich zur neuen Indexeigenschaft sicher, dass die folgenden Eigenschaften für `/oak:index/damAssetLucene` festgelegt sind:
 
@@ -179,11 +179,11 @@ Um festzulegen, wer eine Datei löschen kann, die Verweise enthält oder von and
 
    - allow\_unsafe\_delete\_for\_all: Erteilen Sie allen Benutzern die Berechtigung zum Löschen von Dateien. Wenn die Datei(en) Verweise enthält (enthalten) oder von anderen Dateien auf sie verwiesen wird, kann das Löschen der Datei(en) erzwungen werden. Vor dem Löschen der Datei wird eine Eingabeaufforderung mit den Verweisen angezeigt. Sie können den Löschvorgang abbrechen, die Verweise entfernen und schließlich die Datei(en) löschen. Alternativ können Sie die Datei(en) erzwingen löschen, ohne die Verweise zu entfernen.
 
-     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: Ein Administrator oder ein Benutzer, der zur Gruppe *delete-assets* gehört, darf Dateien löschen. Wenn andere Benutzer versuchen, Dateien mit Verweisen zu löschen, dürfen sie diese Dateien erst löschen, nachdem alle Verweise entfernt wurden. Der folgende Screenshot wird angezeigt, wenn ein Benutzer ohne Berechtigungen versucht, Dateien zu löschen.
 
-     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550"}
 
    - block\_unsafe\_delete\_for\_all: Verhindern Sie, dass alle Benutzer \(einschließlich Administratoren\) Dateien löschen, bis die Verweise auf und von den Datei(en) entfernt wurden.
 
@@ -210,9 +210,9 @@ Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
 
 1. Geben Sie die folgenden Details zu den Dateien ein, die Sie bereinigen möchten:
 
-   ![](assets/preview-purge-report.png){width="350" align="left"}
+   ![](assets/preview-purge-report.png){width="350"}
 
-1. &#x200B;
+1. 
    - **Anzahl der Versionen, die von der neuesten Version beibehalten werden sollen**: Geben Sie die Anzahl der Versionen ein, die beibehalten und nicht gelöscht werden sollen. Wenn Sie beispielsweise „5“ eingeben, werden die letzten 5 Versionen beibehalten und die Versionen davor werden gelöscht, wenn andere Bereinigungsbedingungen erfüllt sind.
 - **Innerhalb der Zeitspanne erstellte Versionen beibehalten \(in Tagen\)**: Geben Sie das maximale Alter einer Version in Tagen ein. Die Versionen, die älter als die angegebene Anzahl von Tagen sind, werden bereinigt, wenn andere Bereinigungsbedingungen erfüllt sind. Wenn wir beispielsweise „100“ eingeben, werden alle Versionen, die vor 100 Tagen erstellt wurden, gelöscht, falls andere Bereinigungsbedingungen erfüllt sind.
 - **Path**: Wählen Sie den Pfad der Datei oder des Ordners aus, deren Dateien Sie bereinigen möchten.
@@ -232,7 +232,7 @@ Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
 1. Laden Sie den Bericht zur Versionsbereinigung herunter und überprüfen Sie die Dateien und Versionen, die bereinigt werden sollen.
 1. Sie können **Bereinigung abbrechen** oder **Bereinigung starten**.
 
-   ![](assets/download-purge-report.png){width="350" align="left"}
+   ![](assets/download-purge-report.png){width="350"}
 
    Der Löschstatus wird angezeigt.
 

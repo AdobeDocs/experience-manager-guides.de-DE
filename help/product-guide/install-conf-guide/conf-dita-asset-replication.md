@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie die Replikation von DITA-Assets konfigurieren
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 8c551c37-2bfd-471b-bb72-514fabbc0bf2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '111'
 ht-degree: 3%
 
 ---
@@ -42,9 +43,9 @@ Die folgenden Registerkarten enthalten Anweisungen zur Konfiguration der DITA-As
 1. Konfigurieren Sie die `Replicate DITA assets` gemäß Ihren Anforderungen. Standardmäßig ist die Einstellung aktiviert.
 
 
-   ![](assets/dita-assets-replication.png){width="350" align="left"}
+   ![](assets/dita-assets-replication.png){width="350"}
 
 
-1. Wählen Sie **Speichern** aus.
+1. Klicken Sie auf **Speichern**.
 
 >[!ENDTABS]

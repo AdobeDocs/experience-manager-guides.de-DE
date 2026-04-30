@@ -1,11 +1,11 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2024.10.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2024.10.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2024.10.0 von Adobe Experience Manager Guides
 role: Leader
 exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
-source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1026'
 ht-degree: 1%
 
 ---
@@ -41,16 +41,16 @@ Experience Manager Guides bietet auch einige hilfreiche Verbesserungen bei Inhal
 
 Jetzt ersetzt die Veröffentlichung von Inhaltsfragmenten nur den zugeordneten Inhalt, anstatt das gesamte Inhaltsfragment zu überschreiben. Mit dieser Funktion kann ein Inhaltsfragment Daten aus mehreren Quellen enthalten, z. B. aus mehreren Themen oder aus dem Inhaltsfragment-Editor.
 
-![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Publish als Inhaltsfragment hinzu](assets/content-fragment-mapping.png)
+![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Inhaltsfragment veröffentlichen hinzu](assets/content-fragment-mapping.png)
 
-Weitere Informationen finden Sie unter [Publish-Inhaltsfragmente](../user-guide/publish-content-fragment.md).
+Weitere Informationen finden Sie unter [Inhaltsfragmente veröffentlichen](../user-guide/publish-content-fragment.md).
 
 
-### Varianten von Publish Experience Fragments basierend auf Bedingungsfiltern
+### Veröffentlichen von Experience Fragment-Varianten basierend auf Bedingungsfiltern
 
 Mit Experience Manager Guides können Sie ein Thema oder seine Elemente in einem Experience Fragment veröffentlichen. Jetzt können Sie Experience Fragment-Varianten auch mithilfe der Bedingungs- oder DITAVAL-Filter erstellen und über verschiedene Kanäle oder für verschiedene Zielgruppen hinweg wiederverwenden.
 
-Weitere Informationen zum [Erstellen von Publish Experience Fragments](../user-guide/publish-experience-fragment.md).
+Weitere Informationen zum Veröffentlichen [ Experience Fragments ](../user-guide/publish-experience-fragment.md).
 
 
 ### AEM Sites-Voreinstellung neu angeordnet für einfache Verwendung
@@ -77,14 +77,14 @@ Wenn dasselbe Thema mehrmals in einer Datei referenziert wird, können Sie für 
 
 ![Alte AEM Sites-Vorgabe](assets/aem-sites-legacy.png)
 
-*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**&#x200B;der Vorgabe **AEM Sites**&#x200B;den Veröffentlichungskontext für die verknüpften Themen an.*
+*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**der Vorgabe **AEM Sites**den Veröffentlichungskontext für die verknüpften Themen an.*
 
 Weitere Informationen zu [AEM Sites-Vorgaben](../user-guide/generate-output-aem-site.md).
 
 ### Option zur Auswahl einer flachen oder verschachtelten Dateihierarchie für die HTML5-Ausgabe
 
 Jetzt können Sie mit Experience Manager Guides die flache Ordnerhierarchie für die temporären Dateien beibehalten, bei denen der gesamte Inhalt im HTML5-Ausgabeformat veröffentlicht und in einem einzigen Ordner gespeichert wird.
-Wenn Sie die Dateihierarchie nicht reduzieren möchten, wird die HTML5-Ausgabe in einer verschachtelten Ordnerhierarchie generiert. Dies bedeutet, dass die ursprüngliche Ordnerstruktur des Inhalts mit Dateien, die in Unterordnern organisiert sind, in der Ausgabe repliziert wird. Diese verschachtelte Ordnerhierarchie ermöglicht eine komplexere Organisation und Kategorisierung von Dateien, wodurch die Verwaltung und Navigation großer Datenmengen erleichtert wird.
+Wenn Sie sich nicht dafür entscheiden, die Dateihierarchie zu reduzieren, wird die HTML5-Ausgabe in einer verschachtelten Ordnerhierarchie generiert. Dies bedeutet, dass die ursprüngliche Ordnerstruktur des Inhalts mit Dateien, die in Unterordnern organisiert sind, in der Ausgabe repliziert wird. Diese verschachtelte Ordnerhierarchie ermöglicht eine komplexere Organisation und Kategorisierung von Dateien, wodurch die Verwaltung und Navigation großer Datenmengen erleichtert wird.
 
 
 Erfahren Sie mehr über das [Generieren einer HTML5-Ausgabe](../user-guide/generate-output-html5.md).
@@ -104,17 +104,17 @@ Sie können auch auf die **Layout**-Ansicht für schreibgeschützte DITA-Zuordnu
 >
 > Ihre Ordnerprofiladministrierenden müssen *ui_config.json* aktualisieren, damit Sie im Autoren-, Source- und Layout-Modus einheitlich auf die schreibgeschützten Dateien zugreifen können.
 
-![Gesperrter Datei-Editor](./assets/locked-file-editor.png)
+![gesperrter Dateieditor](./assets/locked-file-editor.png)
 *Anzeigen der gesperrten Dateien im Authoring- und Source-Modus.*
 
 
-Erfahren Sie, wie [&#x200B; Dateien im Authoring- und Source-Modus öffnen &#x200B;](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
+Erfahren Sie, wie [ Dateien im Authoring- und Source-Modus öffnen ](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
 
 
 ### Gruppierte Bedingungen für die erweiterte Inhaltsorganisation
 
 Mit Experience Manager Guides können Sie jetzt Bedingungen gruppieren und in einer verschachtelten Hierarchie darstellen, sodass Sie einer einzigen Gruppe mehrere Bedingungen hinzufügen können. Durch Gruppieren von Bedingungen können Sie diese besser organisieren und auf Ihre gesamten Inhalte anwenden.
 
-![Bedingungen in einer verschachtelten Hierarchie organisiert](assets/conditions-nested-hierarchy.png){width="300" align="left"}
+![Bedingungen in einer verschachtelten Hierarchie organisiert](assets/conditions-nested-hierarchy.png){width="300"}
 
-Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).

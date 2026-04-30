@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie das Standardwörterbuch von AEM anpassen
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 51099b42-706f-42b4-993e-7d9577b5a4f0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
@@ -52,7 +53,7 @@ Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die Liste der benutze
 
    Der folgende Screenshot zeigt eine Liste mit benutzerdefinierten Wörtern, die der Datei user\_dictionary.txt hinzugefügt wurden:
 
-   ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
+   ![](assets/custom-words-list-dictionary.png){width="650"}
 
 1. Speichern und schließen Sie die Datei.
 
@@ -61,4 +62,4 @@ Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die Liste der benutze
 
 >[!ENDTABS]
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](customize-overview.md)

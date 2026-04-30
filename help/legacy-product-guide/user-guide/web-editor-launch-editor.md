@@ -5,7 +5,7 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -26,11 +26,11 @@ In den folgenden Abschnitten werden die Details beschrieben, wie Sie von verschi
 
 Wenn Sie sich bei AEM anmelden, wird die Navigationsseite angezeigt:
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800"}
 
 Durch Klicken auf **Link** Guides“ gelangen Sie direkt zum Web-Editor.
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){width="800"}
 
 Da Sie den Web-Editor gestartet haben, ohne eine Datei auszuwählen, wird ein leerer Web-Editor-Bildschirm angezeigt. Sie können eine Datei zur Bearbeitung aus dem AEM-Repository oder Ihrer Favoritensammlung öffnen.
 
@@ -67,7 +67,7 @@ Ein weiterer Speicherort, von dem aus Sie den Web-Editor starten können, ist di
 
    .
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){width="800"}
 
    >[!IMPORTANT]
    >
@@ -89,15 +89,15 @@ Ein weiterer Speicherort, von dem aus Sie den Web-Editor starten können, ist di
    >
    > Wenn Sie mehrere Themen zur Bearbeitung öffnen möchten, wählen Sie die gewünschten Themen in der Asset-Benutzeroberfläche aus und klicken Sie auf Bearbeiten. Vergewissern Sie sich, dass in Ihrem Browser die Popup-Blocker nicht aktiviert sind, da ansonsten nur das erste Thema in der ausgewählten Liste zur Bearbeitung geöffnet wird.
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){width="800"}
 
    Wenn Sie ein Thema nicht in der Vorschau anzeigen und es direkt im Web-Editor öffnen möchten, klicken Sie in der Kartenansicht im Schnellaktionsmenü auf das Symbol Bearbeiten :
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){width="800"}
 
 1. Klicken Sie **Bearbeiten**, um das Thema im Web-Editor zu öffnen.
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){width="800"}
 
 
 ## DITA Map-Konsole {#id2056BG090BF}
@@ -116,7 +116,7 @@ Gehen Sie wie folgt vor, um den Web-Editor über die DITA-Zuordnungskonsole zu �
 
 1. Klicken Sie **Thema bearbeiten**.
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){width="800"}
 
 1. Das Thema wird im Web-Editor geöffnet.
 
@@ -125,4 +125,4 @@ Gehen Sie wie folgt vor, um den Web-Editor über die DITA-Zuordnungskonsole zu �
    > Wenn Ihr Administrator die Option **Bearbeitung ohne Auschecken deaktivieren** konfiguriert hat, müssen Sie die Datei vor der Bearbeitung auschecken. Wenn Sie die Datei nicht auschecken, wird das Dokument im Editor im schreibgeschützten Modus geöffnet.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

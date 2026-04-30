@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: bd488298-57d7-46fb-9820-cec8d0db8bd5
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema einen Titel hinzuzufügen
 
    Die Beschriftungen werden im Versionsverlauf des ausgewählten Themas angezeigt. Im folgenden Screenshot werden die Bezeichnungen *x.x-Version* und *Benutzerhandbuch* angezeigt, die der hervorgehobenen Version des Themas hinzugefügt wurden.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
 >[!NOTE]
 >
@@ -46,16 +46,16 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema einen Titel hinzuzufügen
 
 Gehen Sie wie folgt vor, um eine Kennzeichnung zu löschen:
 
-1. In the Assets UI, select a topic that has a label added to it.
+1. Wählen Sie in der Benutzeroberfläche von Assets ein Thema aus, dem eine Beschriftung hinzugefügt wurde.
 1. Klicken Sie auf das Auswahlsymbol in der linken Leiste und wählen Sie **Versionsverlauf**.
 
-   In the Version History, you will see all the versions of a topic and the labels attached to them. The following image shows an example of different versions of a topic and one version has labels added to it.
+   Im Versionsverlauf werden alle Versionen eines Themas und die mit ihnen verbundenen Beschriftungen angezeigt. Die folgende Abbildung zeigt ein Beispiel für verschiedene Versionen eines Themas, wobei einer Version Beschriftungen hinzugefügt wurden.
 
-   ![](images/labels.png){width="300" align="left"}
+   ![](images/labels.png){width="300"}
 
-1. Click the delete button \(**X**\) to delete the label.
+1. Klicken Sie auf die Schaltfläche Löschen \(**X**\), um die Bezeichnung zu löschen.
 
-   ![](images/delete-labels.png){width="300" align="left"}
+   ![](images/delete-labels.png){width="300"}
 
 
-**Parent topic:**&#x200B;[&#x200B; Work with the Web Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

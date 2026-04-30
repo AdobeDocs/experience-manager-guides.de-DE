@@ -4,9 +4,9 @@ description: Erfahren Sie, wie die inkrementelle Ausgabegenerierung für AEM Sit
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Führen Sie die folgenden Schritte aus, um mithilfe der Zuordnungskonsole eine i
 
    - Ohne Grundlinie
 
-     ![AEM Sites-Themenliste](images/aem-presets-topic-list.png) {align="left"}
+     ![AEM Sites-Themenliste](images/aem-presets-topic-list.png)
 
    - Mit Grundlinie
 
-     ![AEM Sites-Themenliste mit Grundlinie](images/aem-presets-topic-list-new.png) {align="left"}
+     ![AEM Sites-Themenliste mit Grundlinie](images/aem-presets-topic-list-new.png)
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Zuordnungs-Dashboards ei
    >
    > Wenn Sie neue Themen zur DITA-Karte hinzugefügt haben, können Sie diese neuen Themen von hier aus nicht erstellen. Sie müssen die neu hinzugefügten Themen zuerst veröffentlichen, indem Sie die Veröffentlichungsfunktion DITA-Zuordnung verwenden.
 
-   ![](images/regenerate-topics.png){align="left"}
+   ![](images/regenerate-topics.png)
 
 1. Wählen Sie **Regenerieren** aus.
 

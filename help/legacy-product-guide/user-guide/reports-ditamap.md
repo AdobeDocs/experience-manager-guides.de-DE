@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
 1. Klicken Sie auf **Berichte**.
 
-   ![](images/reports-page-uuid.png){width="800" align="left"}
+   ![](images/reports-page-uuid.png){width="800"}
 
    Die Seite Berichte ist in zwei Teile unterteilt:
 
@@ -38,7 +38,7 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
      Wenn Sie auf ein Thema klicken, wird ein detaillierter Bericht zum ausgewählten Thema angezeigt.
 
-     ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid.png){width="800"}
 
      Nachfolgend werden die unter **A**, **B**, **C** und **D** hervorgehobenen Punkte beschrieben:
 
@@ -81,19 +81,19 @@ Führen Sie die folgenden Schritte aus, um die CSV-Datei eines DITA-Zuordnungsbe
 
 1. Klicken Sie **oben links** Bericht generieren“, um den DITA-Zuordnungsbericht zu generieren.
 
-   ![](images/generate-DITA-map-report.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report.png){width="800"}
 
 1. Sie erhalten eine Benachrichtigung, sobald der Bericht zum Herunterladen bereit ist. Klicken Sie **Herunterladen**, um die CSV-Datei des generierten Berichts herunterzuladen.
 
-   ![](images/download-report-dialog.png){width="550" align="left"}
+   ![](images/download-report-dialog.png){width="550"}
 
 
    Sie können die CSV-Datei des generierten Berichts auch später aus dem AEM-Benachrichtigungs-Posteingang herunterladen.
 
    Klicken Sie auf den generierten Bericht im Posteingang, um den Bericht herunterzuladen.
 
-   ![](images/report-inbox--notification.png){width="300" align="left"}
+   ![](images/report-inbox--notification.png){width="300"}
 
 Sobald der Bericht in den Posteingang heruntergeladen wurde, können Sie auch den Bericht auswählen und das Symbol Öffnen oben verwenden, um den ausgewählten Bericht zu öffnen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)
+**Übergeordnetes Thema:**[ Reports](reports-intro.md)

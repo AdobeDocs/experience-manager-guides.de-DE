@@ -4,9 +4,9 @@ description: Konvertieren von Dokumenten verschiedener Formate in AEM Guides in 
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeig
 
    Der Konversionsstatusbericht wird für alle im System ausgeführten Konvertierungsaufgaben angezeigt.
 
-   ![](images/conversion-status-report-new.png){align="left"}
+   ![](images/conversion-status-report-new.png)
 
 1. Die Berichtseite ist in zwei Teile unterteilt:
 
@@ -35,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeig
 
      Im folgenden Screenshot werden die Berichtsdaten für Konversionsaufgaben mit dem Status Erfolgreich angezeigt.
 
-     ![](images/conversion-report-failed-active-queued-new.png){align="left"}
+     ![](images/conversion-report-failed-active-queued-new.png)
 
    - **Berichtsdaten:**
 
@@ -56,4 +56,4 @@ Führen Sie die folgenden Schritte aus, um den Konversionsstatusbericht anzuzeig
       - **Ausgabe**: Pfad des erfolgreich konvertierten Dokuments. Wenn Sie auf den Link Ausgabe klicken, gelangen Sie an den Speicherort, an dem die Ausgabe gespeichert wird.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in Berichte](reports-intro.md)
+**Übergeordnetes Thema:**[ Einführung in Berichte](reports-intro.md)

@@ -4,9 +4,9 @@ description: Weisen Sie eine Prüfungsaufgabe mithilfe von Benachrichtigungen in
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um eine Prüfungsaufgabe aus der Benachr
    >
    > Die Überprüfenden müssen über die Berechtigungen zum Neuzuweisen verfügen und sollten Teil der Benutzer-Administrator-Gruppe sein.
 
-   ![](images/reassign-user-inbox.png){align="left"}
+   ![](images/reassign-user-inbox.png)
 
 1. Wählen **Neu zuweisen** aus.
 
@@ -38,4 +38,4 @@ Nachdem die Prüfungsaufgabe neu zugewiesen wurde, zeigt die Spalte Empfänger d
 
 Der zugewiesene Reviewer erhält eine Benachrichtigung im Posteingang für die neu zugewiesene Prüfungsaufgabe.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

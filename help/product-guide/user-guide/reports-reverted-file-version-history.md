@@ -4,9 +4,9 @@ description: Anzeigen von zurückgesetzten Dateiversionsverlaufsberichten in AEM
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Sie können auf diesen Bericht an den folgenden Stellen zugreifen:
 
 - **Benutzeroberfläche von Assets**: durch Auswahl einer Datei und Öffnen des **Versionsverlaufs** über die linke Leiste. Die **Versionsverlauf** enthält den Link **Versionslogs zurücksetzen** am unteren Rand des Bedienfelds. Wenn Sie diesen Link auswählen, wird das Protokoll der ausgewählten Datei mit den zurückgesetzten Versionen angezeigt.
 
-  ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
+  ![](images/revert-log-from-assets-ui.png){width="300"}
 
 - **Themenvorschau**: Wenn Sie ein Thema in der Vorschau anzeigen, können Sie auch das Bedienfeld **Versionsverlauf** in der linken Leiste aufrufen. Es wird ein der Assets-Benutzeroberfläche ähnliches Bedienfeld angezeigt, in dem Sie auf den Link **Versionslogs zurücksetzen** klicken können, um auf den zurückgesetzten Versionsverlauf des aktiven Dokuments zuzugreifen.
 
@@ -40,7 +40,7 @@ Führen Sie die folgenden Schritte aus, um auf den Bericht „Verlauf zurückset
 
 1. Wählen Sie **Protokolle anzeigen**, um den Bericht für die ausgewählte Datei oder den ausgewählten Ordner zu generieren.
 
-   ![](images/revert-version-history-report.png){align="left"}
+   ![](images/revert-version-history-report.png)
 
    Der Bericht enthält folgende Einzelheiten:
 
@@ -57,4 +57,4 @@ Führen Sie die folgenden Schritte aus, um auf den Bericht „Verlauf zurückset
    - **Kommentar**: Jeder Kommentar, der von der Person abgegeben wurde, die die Datei zurückgesetzt hat.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in Berichte](reports-intro.md)
+**Übergeordnetes Thema:**[ Einführung in Berichte](reports-intro.md)

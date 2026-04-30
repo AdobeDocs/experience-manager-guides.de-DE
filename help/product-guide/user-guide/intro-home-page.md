@@ -4,9 +4,9 @@ description: Lernen Sie die Startseite der Adobe Experience Manager Guides kenne
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2105'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Die Startseite ist der erste Bildschirm, der beim Anmelden bei Experience Manager Guides angezeigt wird. Es bietet Ihnen ein einheitliches und intuitives Willkommenserlebnis, einschließlich einer schnellen Ansicht der Dateien, auf die Sie zuletzt zugegriffen haben, Sammlungen und mehr.
 
-![](images/aem-home-page-new.png){align="left"}
+![](images/aem-home-page-new.png)
 
 Die Experience Manager Guides-Startseite ist in die folgenden Abschnitte unterteilt:
 
@@ -27,7 +27,7 @@ Die Experience Manager Guides-Startseite ist in die folgenden Abschnitte unterte
 
 Die Kopfzeilenleiste ist die obere Leiste der Startseite, auf der das Adobe Experience Manager-Logo angezeigt wird (oder eine Unified Shell, wenn Sie Unified Shell als Experience Manager Guides-Benutzeroberfläche verwenden). Wenn Sie das Logo auswählen, werden Sie zur Experience Manager-Navigationsseite weitergeleitet.
 
-![](images/aem-home-header.png){align="left"}
+![](images/aem-home-header.png)
 
 ## Navigationsleiste
 
@@ -37,7 +37,7 @@ Die Navigationsleiste enthält Tools zum Umschalten der Navigation, zum Anpassen
 >
 > Bei Verwendung der Adobe Experience Manager Guides as a Cloud Service wird eine zusätzliche Funktion mit der Bezeichnung **KI** Assistent) in der Navigationsleiste angezeigt.
 
-![](images/aem-home-nav-bar.png){align="left"}
+![](images/aem-home-nav-bar.png)
 
 In der Navigationsleiste verfügbare Funktionen werden wie folgt erläutert:
 
@@ -72,7 +72,7 @@ In der Navigationsleiste verfügbare Funktionen werden wie folgt erläutert:
 
 Das linke Bedienfeld bietet schnellen Zugriff auf die Funktionen Übersicht, Repository, Zuordnen von Sammlungen, Massenveröffentlichung, Veröffentlichungswarteschlange und Benutzereinstellungen. Sie können das Bedienfeld erweitern, indem Sie **Symbol &quot;**&quot; in der linken unteren Ecke der Benutzeroberfläche auswählen. Verwenden Sie nach dem Erweitern das Symbol **Reduzieren**, um das Bedienfeld zu reduzieren.
 
-![](images/home-with-repository.png){width="300" align="left"}
+![](images/home-with-repository.png){width="300"}
 
 Was Sie in diesem Bedienfeld anzeigen, hängt von Ihrer Benutzerrolle ab. In der folgenden Tabelle sind die Rollen und die entsprechenden Abschnitte aufgeführt, die im linken Bereich angezeigt werden.
 
@@ -106,11 +106,11 @@ Die folgenden Widgets sind im Abschnitt Widgets vorhanden:
 
 - **Letzte Dateien**: Das Widget bietet Ihnen einen Schnappschuss der zuletzt geöffneten Dateien (eine Liste der Dateien, auf die Sie im Editor zugegriffen haben) zusammen mit den wichtigsten Dateidetails, einschließlich Titel, Dateiname, Dateityp, Dateipfad und Datum, auf das zugegriffen wurde.
 
-  ![](images/aem-home-recent-files.png){align="left"}
+  ![](images/aem-home-recent-files.png)
 
   Sie können die Spalten sortieren und in der Größe ändern, indem Sie Optionen aus dem Dropdown-Menü Spalte auswählen. Standardmäßig werden die Daten nach Datum und Uhrzeit des letzten Zugriffs sortiert.
 
-  ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
+  ![](images/aem-home-recent-files-sort-resize-options.png)
 
 
   Unter [Benutzereinstellungen](#user-preferences) können Sie die maximale Anzahl von Dateien festlegen, die in diesem Widget angezeigt werden können. Standardmäßig ist dieser Grenzwert auf **20** festgelegt.
@@ -128,11 +128,11 @@ Die folgenden Widgets sind im Abschnitt Widgets vorhanden:
 - **Sammlungen**: Wenn Sie an einem Satz von Dateien oder Ordnern arbeiten, können Sie diese zu diesem Widget hinzufügen, um schnell darauf zuzugreifen. Nach dem Hinzufügen können Sie die Dateien nach Titel zusammen mit anderen wichtigen Details wie Inhaber und Erstellt am anzeigen. Wenn Sie das Dropdown-Menü für die Spalte auswählen, können Sie die Optionen zum Sortieren und Ändern der Größe der Spalte anzeigen.
 
 
-  ![](images/aem-home-collections.png){align="left"}
+  ![](images/aem-home-collections.png)
 
   Die Breadcrumbs der ausgewählten Sammlung werden oben im Sammlung -Widget angezeigt. Sie können ihn auswählen, um zu einem bestimmten Ordner in der Hierarchie zurückzukehren.
 
-  ![](images/aem-home-collections-breadcrumbs.png){align="left"}
+  ![](images/aem-home-collections-breadcrumbs.png)
 
   Die folgenden Optionen sind verfügbar, wenn Sie den Mauszeiger über eine Sammlung bewegen und auf das Symbol Mehr ![](images/Smock_MoreSmallList_18_N.svg):
 
@@ -166,7 +166,7 @@ Experience Manager Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die V
 
 ### Massenveröffentlichung
 
-Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [&#x200B; veröffentlichten Inhalte“ erstellen und verwalten &#x200B;](./conf-bulk-activation.md).
+Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [ veröffentlichten Inhalte“ erstellen und verwalten ](./conf-bulk-activation.md).
 
 ### Veröffentlichungswarteschlange
 
@@ -180,7 +180,7 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Über die Voreins
 
 - **Allgemein** Auf der Registerkarte Allgemein können Sie die folgenden Einstellungen konfigurieren:
 
-  ![](images/user_preference_editor-new.png){align="left"}
+  ![](images/user_preference_editor-new.png)
 
    - **Ordnerprofil**: Das Ordnerprofil steuert verschiedene Konfigurationen im Zusammenhang mit bedingten Attributen, Autorenvorlagen, Ausgabevorgaben und Editor-Konfigurationen. Das globale Profil wird standardmäßig angezeigt. Wenn Ihr Administrator Ordnerprofile im System konfiguriert hat, werden diese Ordnerprofile außerdem in der Liste Ordnerprofile angezeigt.
    - **Basispfad**: Wenn Sie über den Editor auf das Experience Manager Guides-Repository zugreifen, werden Ihnen standardmäßig Assets über den Speicherort /content/dam angezeigt. Ihr Arbeitsordner würde höchstwahrscheinlich aus einigen Ordnern im Ordner /content/dam/ bestehen. Sie können den Basispfad zu Ihrem Arbeitsordner festlegen und die Repository-Ansicht zeigt Ihnen dann den Inhalt von diesem Speicherort im Voraus an. Dadurch wird die Zeit für den Zugriff auf den Arbeitsordner verkürzt. Wenn Sie einen Verweis oder eine Mediendatei in Ihr Thema einfügen, beginnt der Dateispeicherort außerdem mit dem Ordner, der im Basispfad festgelegt ist.
@@ -190,7 +190,7 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Über die Voreins
 
 - **Erscheinungsbild**: Die Registerkarte Erscheinungsbild bietet Ihnen die Optionen zum Auswählen der Designs für die Anwendung und der Quellansicht des Inhaltsbearbeitungsbereichs. Verwenden Sie diese Registerkarte, um die folgenden Einstellungen zu konfigurieren:
 
-  ![](images/user_preference_editor_appearance.png){align="left"}
+  ![](images/user_preference_editor_appearance.png)
 
    - **Anwendungsdesign und Source-Ansicht**: Sie können aus den Hell- oder Dunkeldesigns für die Anwendungs- und Quellansicht wählen. Beim Design „Licht“ verwenden die Symbolleisten und Bereiche einen hellgrauen Hintergrund. Beim dunklen Design verwenden die Symbolleisten und Bereiche einen schwarzen Hintergrund. Wählen Sie **Gerät verwenden** aus, damit Experience Manager Guides helle und dunkle Designs basierend auf dem Design Ihres Geräts auswählen kann.
 

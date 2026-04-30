@@ -4,7 +4,7 @@ description: Beheben Sie Probleme mit der grundlegenden Fehlerbehebung in AEM Gu
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabege
 
    Die Spalte **Erzeugungseinstellung** der Spalte **Erzeugte Ausgaben** zeigt die Farbe an, die einen visuellen Hinweis auf den Erfolg oder Misserfolg der Ausgabegenerierung für verschiedene Ausgabevorgaben gibt.
 
-   ![](images/output-general-settings-new.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300"}
 
    Im obigen Screenshot:
 
@@ -39,7 +39,7 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabege
 
    Die Protokolldatei wird auf einer neuen Registerkarte geöffnet.
 
-   ![](images/log-file-new.png){align="left"}
+   ![](images/log-file-new.png)
 
 1. Verwenden Sie die folgenden Filter, um den Text in der Protokolldatei hervorzuheben:
    - **Fatal**: Markiert die schwerwiegenden Fehler in der Protokolldatei in dunkelroter Farbe.
@@ -75,13 +75,13 @@ Führen Sie die folgenden Schritte aus, um die Protokolldatei für die Ausgabege
 
    Im folgenden Beispiel-Protokolldatei-Snippet können Sie die `BUILD FAILED`-Meldung zusammen mit dem Grund für den Fehler anzeigen.
 
-   ![](images/dita-error-in-log-file.png){width="650" align="left"}
+   ![](images/dita-error-in-log-file.png){width="650"}
 
    - *Experience Manager Guides-bezogener Fehler*: Die andere Fehlerart, die Sie in der Protokolldatei identifizieren können, ist mit dem Experience Manager Guides-Prozess selbst verbunden. In diesem Fall wird die DITA-Zuordnungsdatei erfolgreich geparst, aber der Ausgabegenerierungsprozess schlägt aufgrund eines internen Fehlers in Experience Manager Guides fehl. Bei Fehlern dieser Art müssen Sie Hilfe vom technischen Support-Team anfordern.
 
    Im folgenden Beispiel-Protokolldatei-Snippet können Sie die `BUILD SUCCESSFUL` und anschließend weitere technische Fehler anzeigen.
 
-   ![](images/process-error-in-log-file.png){width="650" align="left"}
+   ![](images/process-error-in-log-file.png){width="650"}
 
 
 
@@ -104,4 +104,4 @@ Führen Sie zur Behebung dieses Problems folgende Schritte durch:
 1. Erhöhen Sie den Wert für den Parameter *Anzahl der Aufrufe pro Anfrage* gemäß Ihren Anforderungen.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

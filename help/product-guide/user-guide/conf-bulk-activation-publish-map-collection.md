@@ -4,9 +4,9 @@ description: Aktivieren der Ausgabe von DITA-Karten in AEM Guides. Erfahren Sie,
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Nachdem Sie eine Zuordnungssammlung für die Massenaktivierung erstellt haben, b
 
 1. Wählen Sie die Sammlung aus, die Sie veröffentlichen möchten, und wählen Sie **Öffnen**.
 
-   ![](images/bulk-activation-collection-open.png){align="left"}
+   ![](images/bulk-activation-collection-open.png)
 
 1. \(*Optional*\) Wenden Sie die erforderlichen Filter in der linken Leiste an, um die Zuordnung anhand ihres geänderten \(Status\), ihrer Ausgabevorgabe oder ihrer Sprache zu filtern.
 
@@ -39,7 +39,7 @@ Sehen Sie sich die verschiedenen Möglichkeiten zur Aktivierung Ihrer Sammlung b
 <details>
 <summary> Cloud Services </summary>
 
-![bulk-collection-publish auf Cloud Service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![bulk-collection-publish auf Cloud Service](images/bulk-activation-collection-quick-publish-CS.png){width="650"}
 
 Sie können die Ausgabe für die Instanzen **Vorschau** oder **Veröffentlichen** aktivieren.
 
@@ -73,8 +73,8 @@ Sobald die Ausgabe für die ausgewählten Zuordnungsdateien aktiviert wurde, wir
 Führen Sie einen der folgenden Schritte aus:
 
 * Um die Ausgabe ausgewählter Zuordnungen zu aktivieren, wählen Sie die vorgenerierte Zuordnungsausgabe aus und klicken Sie auf **Quick Publish**.
-* Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Zuordnung (Spalte) und wählen Sie dann **Quick Publish.**
-  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+* Um die Ausgabe aller DITA-Zuordnungen mit den konfigurierten Vorgaben zu aktivieren, aktivieren Sie das Kontrollkästchen neben der Zuordnung (Spalte) und wählen Sie dann **Quick Publish“ aus.**
+  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650"}
 
   >[!NOTE]
   > 
@@ -85,4 +85,4 @@ Eine Erfolgsmeldung wird angezeigt, wenn die Zuordnungsausgabe zur Veröffentlic
 
 Sobald die Ausgabe für die ausgewählten Zuordnungsdateien aktiviert wurde, wird die Registerkarte Prüfverlauf aktualisiert, und die zuletzt aktivierte Ausgabe wird oben angezeigt. Die Spalte **Veröffentlicht** wird mit dem Veröffentlichungsdatum und der Veröffentlichungszeit aktualisiert.
 
-**Übergeordnetes Thema: &#x200B;** [Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
+**Übergeordnetes Thema: **[Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

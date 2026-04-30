@@ -3,10 +3,11 @@ title: Workspace-Einstellungen in Experience Manager Guides
 description: Erfahren Sie mehr über die verschiedenen Einstellungen, die in der Editor-Benutzeroberfläche von Experience Manager Guides verfügbar sind.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 0%
+source-wordcount: '2220'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > Bei der On-Premise-Einrichtung wird **Option** Einstellungen“ in der Editor-Registerkartenleiste angezeigt. Im Cloud Service-Setup wurde diese Option in **Workspace-Einstellungen umbenannt**. Alle unter „Editor-Einstellungen **verfügbaren Konfigurationsoptionen** unverändert.
-> ![Editor-Einstellung für On-Premise](assets/editor-settings-on-prem.png){width="650" align="left"}
+> ![Editor-Einstellung für On-Premise](assets/editor-settings-on-prem.png){width="650"}
 
 
 Die Option **Workspace** in der [Registerkartenleiste](../user-guide/web-editor-tab-bar.md) des Editors ist nur für Administratoren und Ordnerprofiladministratoren verfügbar und ermöglicht die Konfiguration der folgenden Einstellungen:
@@ -41,7 +42,7 @@ Die Option **Workspace** in der [Registerkartenleiste](../user-guide/web-editor-
 
 Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren, dass der Editor verwendet wird. Diese Registerkarte enthält fünf Abschnitte: **KI-Assistent**, **Authoring**, **Zitate**, **Bedingung** und **Rechtschreibprüfung**.
 
-![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
+![](../user-guide/images/editor-setting-general.png){width="350"}
 
 - **KI-Assistent**
 Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md)Assistent“ in der Experience Manager Guides zu aktivieren. Deaktivieren Sie diese Option, um die Funktion zu deaktivieren.
@@ -56,7 +57,7 @@ Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md
 
    - Ändern Sie die Reihenfolge, in der die Optionen angezeigt werden, und ziehen Sie sie per Drag-and-Drop nach Bedarf.
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
 
 
@@ -66,7 +67,7 @@ Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md
 
 - **Zitate**
 
-  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von &#x200B;](../user-guide/web-editor-apply-citations.md#change-citation-style).
+  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von ](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Bedingung**
 
@@ -76,23 +77,23 @@ Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md
 
    - **Schlüssel mit Titel im Bedienfeld „Betreffschema“ anzeigen**: Wählen Sie diese Option, um die Schlüssel zusammen mit Titeln im Betreffschema anzuzeigen. Wenn Sie diese Option nicht auswählen, werden nur die Titel angezeigt. Hier werden beispielsweise die Schlüssel „os“, „audience“ und „other“ zusammen mit Titeln angezeigt.
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
    - **Betreffschema im Bedienfeld Bedingungen anzeigen**: Wählen Sie diese Option, um ein Betreffschema im Bedienfeld Bedingungen anzuzeigen. Wenn Sie diese Option deaktivieren, werden die definierten Bedingungen im Bedienfeld Bedingungen angezeigt.
 
 - **Rechtschreibprüfung**
-Es gibt zwei Optionen: **AEM-** und **Browser-Rechtschreibprüfung**. Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird. Sie können zur AEM-Rechtschreibprüfung wechseln, um das Adobe Experience Manager-Wörterbuch zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen des AEM-Wörterbuchs finden Sie [&#x200B; Abschnitt „Anpassen des Standardwörterbuchs von AEM](../install-conf-guide/customize-aem-default-dictionary.md) im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+Es gibt zwei Optionen: **AEM-** und **Browser-Rechtschreibprüfung**. Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird. Sie können zur AEM-Rechtschreibprüfung wechseln, um das Adobe Experience Manager-Wörterbuch zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen des AEM-Wörterbuchs finden Sie [ Abschnitt „Anpassen des Standardwörterbuchs von AEM](../install-conf-guide/customize-aem-default-dictionary.md) im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 
 ## Bedienfelder
 
 Mit dieser Einstellung werden die Bereiche gesteuert, die im linken und rechten Bereich der Editor- und Zuordnungskonsole angezeigt werden. Sie können die Schaltfläche umschalten, um das gewünschte Bedienfeld ein- oder auszublenden.
 
-![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650"}
 
 Sie können auch die Reihenfolge festlegen, in der die in Bedienfeldern vorhandenen Funktionen angezeigt werden. Um die Standardreihenfolge der verfügbaren Funktionen in den Bedienfeldern zu ändern, wählen Sie die gepunkteten Balken aus, um die Elementregisterkarten per Drag-and-Drop an die gewünschte Position zu ziehen. Ein Feature kann je nach Anforderung auch vom **Mehr**-Abschnitt in den Hauptabschnitt eines Bedienfelds und umgekehrt verschoben werden. Nach der Neuanordnung erscheinen die Funktionen im entsprechenden rechten und linken Bedienfeld in der gleichen Reihenfolge.
 
-![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650"}
 
 
 Es können maximal acht Bedienfelder gleichzeitig angezeigt werden. Alle Änderungen an den Bedienfeldeinstellungen werden sofort übernommen.
@@ -106,23 +107,23 @@ Es können maximal acht Bedienfelder gleichzeitig angezeigt werden. Alle Änderu
 
 Als Admin können Sie die Liste der Elemente steuern, die ein Autor in eine Datei einfügen kann, und auch den Anzeigenamen für das Element definieren. Mit der Einstellung Elementliste können Sie den Elementnamen gemäß DITA-Spezifikationen und eine Beschriftung angeben, die Sie anstelle des von DITA definierten Elementnamens verwenden möchten:
 
-![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650"}
 
 Im obigen Screenshot wurde dem `p`-Element eine Beschriftung mit Absatz und `codeblock` neben einigen anderen Elementen eine Beschriftung mit Codeblock zugewiesen. Wenn Sie die Option **Nur Elemente oben verwenden** auswählen, werden nur die gültigen Elemente \(bei der aktuellen Einfügemarke\) aus dieser Liste im Dialogfeld **Element einfügen** angezeigt.
 
 Im folgenden Screenshot werden nur 3 von 4 konfigurierten Elementen aus dem vorherigen Screenshot im aktuellen Kontext angezeigt:
 
-![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300"}
 
 ## Attributliste
 
 Ähnlich wie bei der Elementliste können Sie die Liste der Attribute und deren Anzeigenamen steuern, die in der Attributliste eines Elements angezeigt werden sollen. Im folgenden Screenshot wurden nur drei Attribute so konfiguriert, dass sie in der Attributliste eines Elements angezeigt werden:
 
-![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650"}
 
 Bei dieser Einstellung wird beim Versuch, einem Element ein Attribut hinzuzufügen, nur die Liste der in der Liste konfigurierten Attribute angezeigt.
 
-![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300"}
 
 
 ## Farben
@@ -154,7 +155,7 @@ Enthält die Profile, mit denen die Ausgabe der **Wissensdatenbank** veröffentl
 
    - Um ein Salesforce-Profil zu erstellen, wählen Sie die **Salesforce** Knowledge Base aus der Dropdown-Liste **Servertyp** aus. Geben Sie einen Profilnamen ein. Geben Sie **Site-URL** die Verbraucherwebsite ein, mit der Sie die Ausgabe veröffentlichen möchten, und fügen Sie dann den **Consumer Key** und **Consumer Secret** hinzu, die von der Salesforce-Verbraucherwebsite bereitgestellt werden. Wählen Sie dann **Validieren** und **Speichern** das neu erstellte Profil aus.
 
-     ![Salesforce-Veröffentlichungsprofil in Workspace-Einstellungen](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
+     ![Salesforce-Veröffentlichungsprofil in Workspace-Einstellungen](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
      >[!NOTE]
      >
@@ -179,7 +180,7 @@ Konfigurieren Sie den ServiceNow-Server, um die Assets hochzuladen.
 
 - Um ein Profil zu erstellen, wählen Sie die ServiceNow-Wissensdatenbank aus der Dropdown-Liste **Servertyp** aus. Geben Sie ein Profil **Name** ein. Geben Sie unter **ServiceNow** URL die Verbraucherwebsite ein, die Sie für die Veröffentlichung der Ausgabe verwenden möchten, und fügen Sie dann den **Benutzernamen** und das **Kennwort** hinzu, die von der ServiceNow-Verbraucherwebsite bereitgestellt werden. Wählen Sie dann **Validieren** und **Speichern** das neu erstellte Profil aus.
 
-  ![ServiceNow-Veröffentlichungsprofil](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
+  ![ServiceNow-Veröffentlichungsprofil](../user-guide/images/service-now-publish-profile.png){width="550"}
 
   Nach der Validierung können Sie das Veröffentlichungsprofil in den Ausgabevorgaben einer DITA-Zuordnung auswählen und es zum Generieren der Ausgabe für den ausgewählten **Salesforce**- oder **ServiceNow**-Server verwenden.
 
@@ -197,13 +198,13 @@ Diese Registerkarte enthält Optionen zum Konfigurieren der Schematron-Validieru
   >- Die ausgewählte(n) Schematron-Datei(en) bleiben für das ausgewählte Ordnerprofil erhalten.
   >- Wenn eine ungültige Schematron-Datei hinzugefügt wird, wird eine Fehlermeldung angezeigt, wie unten dargestellt.
 
-  ![Validierung in Workspace-Einstellungen](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
+  ![Validierung in Workspace-Einstellungen](../user-guide/images/editor-setting-validation-error.png){width="550"}
 
   Dies verhindert, dass Benutzer eine Datei speichern, die gegen eine in der/den ausgewählten Schematron-Datei(en) definierte Regel verstößt. Wenn diese Option nicht ausgewählt ist, wird die Datei vor dem Speichern der Änderungen nicht validiert.
 
 - **Zulassen, dass alle Benutzer Schematron-Dateien im Validierungsbereich hinzufügen**: Wählen Sie diese Option aus, damit die Benutzer im Validierungsbereich des Editors beliebige Schematron-Dateien hinzufügen können. Auf diese Weise können Benutzer Schematron-Dateien hinzufügen und dann die Themen anhand der Schematron-Datei validieren. Wenn diese Option nicht ausgewählt ist, steht die Schaltfläche zum Hinzufügen **Schematrondatei** Schematrondatei hinzufügen“ den Benutzenden im **Validierungsbereich** des Editors nicht zur Verfügung.
 
-  ![Validierung in Workspace-Einstellungen](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![Validierung in Workspace-Einstellungen](../user-guide/images/editor-setting-validation.png){width="550"}
 
 
 ## Attribute anzeigen
@@ -212,13 +213,13 @@ Wie bei der Attributliste können Sie die Liste der Attribute steuern, die in de
 
 Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt.
 
-![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550"}
 
 ## Übersetzung
 
 Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum Übertragen der Quellkennzeichnungen in die Zielversion und zum Bereinigen des Übersetzungsprojekts.
 
-![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550"}
 
 - **Sprachgruppen**: Als Administrator können Sie eine Gruppe von Sprachen erstellen und sie als Gruppe verwenden, um die Inhalte zu übersetzen.
 
@@ -236,7 +237,7 @@ Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum �
       >
       > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
-   1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![&#x200B; Sprachgruppen zu bearbeiten &#x200B;](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![&#x200B; oder zu löschen](../user-guide/images/Delete_icon.svg).
+   1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](../user-guide/images/Delete_icon.svg).
    1. Speichern Sie die **Einstellungen**.
 
       >[!NOTE]
@@ -259,7 +260,7 @@ Die Metadaten können aus jeder Eigenschaft unter dem `/jcr:content` des Assets 
 Wenn der Metadatenpfad leer ist, wird ein Fehler angezeigt. Wenn Sie das Feld leer lassen, wird das letzte Element als Titel ausgewählt.
 
 
-![Registerkarte „Metadaten“ in den Workspace-Einstellungen](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
+![Registerkarte „Metadaten“ in den Workspace-Einstellungen](../user-guide/images/editor-setting-metadata.png){width="550"}
 
 *Konfigurieren der Metadaten für das Dialogfeld **Versionsverlauf**.*
 

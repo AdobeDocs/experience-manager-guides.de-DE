@@ -1,11 +1,11 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2024.4.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2024.4.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2024.4.0 von Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e9db535a-5ad5-4ff0-94af-b4425594316a
-source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 28%
+source-wordcount: '1821'
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,7 @@ Wenn Sie beispielsweise Inhalte für einige Länder in Europa übersetzen müsse
 
 
 
-![Übersetzungsbedienfeld](assets/translation-languages-2404.png){width="300" align="left"}
+![Übersetzungsbedienfeld](assets/translation-languages-2404.png){width="300"}
 
 *Wählen Sie die Sprachgruppen oder Sprachen aus, die Sie für die Übersetzung Ihrer Dokumente verwenden möchten.*
 
@@ -51,7 +51,7 @@ Wenn Sie ein Projekt löschen, werden alle im Projekt vorhandenen Dateien und Or
 
 Sie können die Übersetzungsprojekte deaktivieren, wenn Sie sie später verwenden möchten.
 
-![](assets/editor-setting-translation.png){width="550" align="left"}
+![](assets/editor-setting-translation.png){width="550"}
 
 
 *Konfigurieren von Sprachgruppen und Bereinigungseinstellungen für Übersetzungsprojekte.*
@@ -62,13 +62,13 @@ Erfahren Sie mehr darüber, wie [das Übersetzungsprojekt automatisch löschen o
 
 ## Aktivieren der Ausgabe für Ihre Maps in der Massenaktivierungssammlung auf der Vorschauinstanz
 
-Zusätzlich zur Aktivierung der Ausgabe für Ihre Massenaktivierungssammlung in der Veröffentlichungsinstanz bietet Experience Manager-Handbücher als Cloud Service jetzt die Funktion, sie in der **-Instanz** aktivieren.
+Zusätzlich zur Aktivierung der Ausgabe für Ihre Massenaktivierungssammlung in der Veröffentlichungsinstanz bietet Experience Manager Guides as a Cloud Services jetzt auch die Funktion, sie in der **Vorschau**-Instanz zu aktivieren.
 
 
-Mit dieser Funktion können Sie Ihre Inhalte in einer Vorschauinstanz aktivieren, damit Sie überprüfen können, wie sie aussehen und funktionieren, bevor Sie sie für die **Publish**-Instanz aktivieren.
+Mit dieser Funktion können Sie Ihre Inhalte in einer Vorschauinstanz aktivieren, damit Sie überprüfen können, wie sie aussehen und funktionieren, bevor Sie sie in der **Veröffentlichungs**-Instanz aktivieren.
 
 
-![&#x200B; hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![ hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](assets/bulk-collection-audit-history.png){width="800"}
 
 *Informationen zu den aktivierten Zuordnungsausgaben finden Sie auf der Registerkarte **Prüfverlauf**.*
 
@@ -87,7 +87,7 @@ Zusätzlich zu den vorhandenen vordefinierten Connectoren bieten Experience Mana
 
 Sie können einfach eine Beispieldatenabfrage kopieren und in den Generator einfügen, um einen Inhaltsausschnitt oder ein Thema zu erstellen. Mit dieser Funktion müssen Sie sich nicht an die Syntax erinnern oder eine Abfrage manuell erstellen. Anstatt die Abfrage manuell einzugeben, können Sie eine Beispielabfrage kopieren und einfügen, sie bearbeiten und sie zum Abrufen der Daten nach Ihren Anforderungen verwenden.
 
-![Dialogfeld zum Einfügen eines Inhaltsausschnitts“](assets/insert-content-snippet.png){width="800" align="left"}
+![Dialogfeld zum Einfügen eines Inhaltsausschnitts“](assets/insert-content-snippet.png){width="800"}
 
 *Kopieren und bearbeiten Sie eine Beispielabfrage, um den Inhaltsausschnitt zu erstellen.*
 
@@ -100,11 +100,11 @@ Mit dieser Funktion können Sie die in Ihren JSON-Dateien gespeicherten Daten ve
 
 ### Konfigurieren mehrerer Ressourcen-URLs für einen Connector, um Inhaltsausschnitte oder Themen zu erstellen
 
-Als Administrator können Sie mehrere Ressourcen-URLs für einige Connectoren wie Generic REST Client, Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO) konfigurieren.
+Als Admin können Sie mehrere Ressourcen-URLs für einige Connectoren wie Generic REST Client, Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO) konfigurieren.
 
-Stellen Sie dann als Autorin bzw. Autor eine Verbindung mit den Datenquellen her, um mithilfe der Generatoren Inhaltsausschnitte oder Themen zu erstellen. Diese Funktion ist praktisch, da Sie nicht für jede URL eine Datenquelle erstellen müssen. So können Sie schnell Daten aus einer der Ressourcen für eine bestimmte Datenquelle in einem einzelnen Inhaltsfragment oder Thema abrufen.
+Stellen Sie dann als Autorin bzw. Autor eine Verbindung mit den Datenquellen her, um mithilfe der Generatoren Inhaltsausschnitte oder Themen zu erstellen. Diese Funktion ist praktisch, da Sie nicht für jede URL eine Datenquelle erstellen müssen. Dies unterstützt Sie dabei, Daten aus einer der Ressourcen für eine bestimmte Datenquelle als einzelnen Inhaltsausschnitt oder Thema schnell abzurufen.
 
-Erfahren Sie mehr über die Datenquellen-Connectoren und wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md).
+Weitere Informationen zu den Datenquellen-Connectoren und dazu, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md), finden Sie hier.
 
 Erfahren Sie, wie Sie [Daten aus Ihrer Datenquelle verwenden](../user-guide/web-editor-content-snippet.md).
 
@@ -114,7 +114,7 @@ Das **Benutzereinstellungen** im Web-Editor enthält jetzt eine neue Registerkar
 
 Sie können so konfigurieren, dass die Dateien nach Titel oder Dateinamen angezeigt werden, und das Design des Programms und die Quellansicht ändern. Außerdem können Sie die Einstellungen konfigurieren, um eine geöffnete Datei in der Repository-Ansicht zu finden und die Leerzeichen ohne Unterbrechung zu verarbeiten.
 
-![Registerkarte „Erscheinungsbild“ der Benutzereinstellungen](assets/user_preference_editor_appearance.png){width="550" align="left"}
+![Registerkarte „Erscheinungsbild“ der Benutzereinstellungen](assets/user_preference_editor_appearance.png){width="550"}
 
 *Passen Sie das Erscheinungsbild Ihren Vorlieben entsprechend an.*
 
@@ -147,20 +147,20 @@ Als Administrator können Sie jetzt die Nachbearbeitung und Erstellung von UUIDs
 
 Die Deaktivierung der Nachbearbeitung für einen Ordner wirkt sich auch auf alle untergeordneten Ordner aus. Experience Manager Guides bietet jetzt jedoch die Möglichkeit, die Nachbearbeitung für einzelne untergeordnete Ordner innerhalb des ignorierten Ordners selektiv zu aktivieren.
 
-Erfahren Sie, wie [&#x200B; Nachbearbeitung für einen Ordner deaktivieren &#x200B;](../cs-install-guide/conf-folder-post-processing.md).
+Erfahren Sie, wie [ Nachbearbeitung für einen Ordner deaktivieren ](../cs-install-guide/conf-folder-post-processing.md).
 
 ## Neues Erlebnis bei der Suche und Filterung von Dateien in der Repository-Ansicht
 
 Das Filtern von Dateien wurde verbessert. Die überarbeitete Funktion zum Filtern von Dateien bietet eine verbesserte Möglichkeit, Dateien mühelos zu suchen und durch Dateien zu navigieren.
 
 
-![Suchen von Dateien in der Repository-Ansicht](assets/repository-filter-search-2404.png){width="300" align="left"}
+![Suchen von Dateien in der Repository-Ansicht](assets/repository-filter-search-2404.png){width="300"}
 
 *Suchen nach Dateien, die den Text`general purpose.`* enthalten
 
 Profitieren Sie von Vorteilen wie einem schnelleren Zugriff auf relevante Dateien und einer intuitiveren Benutzeroberfläche für ein reibungsloseres und effizienteres Sucherlebnis.
 
-![Schnellsuchfilter &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![Filter für die schnelle Suche](assets/repository-filter-search-quick.png) {width="300"}
 
 *Verwenden Sie die Filter für die schnelle Suche, um nach DITA- und Nicht-DITA-Dateien zu suchen.*
 
@@ -173,14 +173,14 @@ Beim Bearbeiten eines Dokuments im Web-Editor können Sie jetzt eine getrennte L
 * **Gültige Elemente an der aktuellen Position** die Sie an der aktuellen Cursorposition selbst einfügen können.
 * **Gültige Elemente außerhalb des aktuellen Speicherorts** die Sie für das aktuelle Element innerhalb der Elementhierarchie nach einem der übergeordneten Elemente einfügen können.
 
-![Dialogfeld „Element einfügen](assets/insert-element-dialog.png){width="300" align="left"}
+![Dialogfeld „Element einfügen](assets/insert-element-dialog.png){width="300"}
 
 *Sehen Sie sich die getrennten Listen mit gültigen Elementen an, um ein Element am aktuellen Speicherort einzufügen.*
 
 
 Diese geteilte Liste gültiger Elemente hilft Ihnen, die Inhaltsstruktur beizubehalten und die DITA-Standards zu befolgen.
 
-Weitere Informationen zur Funktion **Element einfügen** finden Sie im Abschnitt [Sekundäre &#x200B;](../user-guide/web-editor-features.md#2051ea0j0y4).
+Weitere Informationen zur Funktion **Element einfügen** finden Sie im Abschnitt [Sekundäre ](../user-guide/web-editor-features.md#2051ea0j0y4).
 
 
 ## Der Inhaltstyp wird als Dropdown-Menü angezeigt
@@ -190,7 +190,7 @@ Jetzt werden die Inhaltseigenschaften **Typ** als Dropdown-Menü angezeigt. Sie 
 Dieses Dropdown-Menü hilft Ihnen, schnell auf die relevanten Tags innerhalb der hierarchischen Struktur zuzugreifen.
 
 
-![Dropdown-Menü Typ in den Inhaltseigenschaften](assets/content-properties-type.png){width="300" align="left"}
+![Dropdown-Menü Typ in den Inhaltseigenschaften](assets/content-properties-type.png){width="300"}
 
 *Wählen Sie ein Tag aus der Hierarchie für das aktuelle Tag aus.*
 
@@ -203,7 +203,7 @@ Weitere Informationen zur Funktion **Inhaltseigenschaften** finden Sie im Abschn
 Experience Manager Guides verbessert die Leistung und das Erlebnis der Funktion zum Einchecken von Massendateien im Zuordnungs-Editor. Durch diese Verbesserung können Sie Dateien schneller in Massen einchecken.
 Sie können den Fortschritt des Eincheckvorgangs für die Dateien auch im Dialogfeld **Als neue Version speichern und entsperren** anzeigen. Schließlich wird die Erfolgsmeldung angezeigt, nachdem der Vorgang abgeschlossen ist und alle ausgewählten ausgecheckten Dateien eingecheckt wurden.
 
-![Als neue Version speichern und Dialogfeld „Entsperren“](./assets/save-version-lock.png){width="300" align="left"}
+![Als neue Version speichern und Dialogfeld „Entsperren“](./assets/save-version-lock.png){width="300"}
 
 *Liste und Status der Dateien anzeigen, die im Zuordnungs-Editor stapelweise überprüft wurden.*
 

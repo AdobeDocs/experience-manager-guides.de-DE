@@ -2,7 +2,7 @@
 title: Konfigurieren der Smart-Hilfe für die Inhaltssuche
 description: Erfahren Sie, wie Sie die Smart-Hilfe für die Inhaltssuche konfigurieren
 exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -23,8 +23,8 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
 
 1. [Adobe Developer Console starten](https://developer.adobe.com/console).
 1. Nach erfolgreicher Anmeldung bei Developer Console wird der Bildschirm &quot;**&quot;**. Auf dem **Startseite**-Bildschirm finden Sie mühelos Informationen und Schnelllinks, einschließlich der oberen Navigationslinks zu Projekten und Downloads.
-1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**&#x200B;Links aus.
-   ![Schnellstart-Links](assets/conf-ss-quick-start.png) {width="550" align="left"}
+1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**Links aus.
+   ![Schnellstart-Links](assets/conf-ss-quick-start.png) {width="550"}
    *Neues Projekt erstellen.*
 
 1. Wählen **API hinzufügen** auf dem Bildschirm **Projekte** aus.  Der **„API hinzufügen** wird angezeigt. Auf diesem Bildschirm werden alle verfügbaren APIs, Ereignisse und Services für Adobe-Produkte und -Technologien angezeigt, mit denen Sie Anwendungen entwickeln können.
@@ -34,14 +34,14 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
    *Fügen Sie Ihrem Projekt die I/O-Management-API hinzu.*
 
 1. Erstellen Sie eine neue **OAuth-Berechtigung** und speichern Sie sie.
-   ![OAuth-Berechtigungskachel in der API konfigurieren](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+   ![OAuth-Berechtigungskachel in der API konfigurieren](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *Konfigurieren von OAuth-Anmeldeinformationen für Ihre API.*
 
 1. Wählen Sie auf **Registerkarte** die Option **OAuth-Server zu Server** und wählen Sie dann die neu erstellten Anmeldeinformationen aus.
 
 1. Wählen Sie den **OAuth Server-zu-Server**-Link aus, um die Details der Anmeldeinformationen Ihres Projekts anzuzeigen.
 
-   ![Verbundene Anmeldedaten](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+   ![Verbundene Anmeldedaten](assets/conf-ss-connected-credentials.png) {width="800"}
 
    *Stellen Sie eine Verbindung zum Projekt her, um die Details der Berechtigung anzuzeigen.*
 
@@ -69,7 +69,7 @@ Führen Sie die folgenden Schritte aus, um die IMS-Konfiguration zur Umgebung hi
 1. Wechseln Sie zur Registerkarte **Konfiguration** .
 1. Aktualisieren Sie das JSON-Feld SERVICE_ACCOUNT_DETAILS . Stellen Sie sicher, dass Sie denselben Namen und dieselbe Konfiguration wie im folgenden Screenshot verwenden.
 
-![Konfiguration des IMS-Dienstkontos](assets/ims-service-account-config.png){width="800" align="left"}
+![Konfiguration des IMS-Dienstkontos](assets/ims-service-account-config.png){width="800"}
 
 
 *Fügen Sie die Konfigurationsdetails der Umgebung hinzu.*

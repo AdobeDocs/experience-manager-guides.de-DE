@@ -4,9 +4,9 @@ description: Talks about creating a Topic in the Product Training and Learning.
 feature: Authoring
 role: User
 exl-id: a08a165d-801b-4b35-9626-b27471349327
-source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '130'
 ht-degree: 1%
 
 ---
@@ -23,17 +23,17 @@ Führen Sie die folgenden Schritte aus, um einem Kurs ein Thema hinzuzufügen:
 
 1. Öffnen Sie einen Kurs im **Kursmanager** und wählen Sie **Neu hinzufügen** aus dem Menü **Optionen**.
 
-   ![](assets/workflow-learning-content.png){width="650" align="left"}
+   ![](assets/workflow-learning-content.png){width="650"}
 
 1. Wählen Sie **Thema** aus.
 
    Das **Neues Lernthema** wird angezeigt.
 
-   ![](assets/new-learning-topic-dialog.png){width="350" align="left"}
+   ![](assets/new-learning-topic-dialog.png){width="350"}
 
 1. Wählen Sie im Dropdown-Menü die gewünschte Vorlage aus.
 
-   ![](assets/template-types-lc.png){width="350" align="left"}
+   ![](assets/template-types-lc.png){width="350"}
 
 1. Geben Sie einen geeigneten Titel für das Thema an.
 1. Wählen Sie **Erstellen** aus.

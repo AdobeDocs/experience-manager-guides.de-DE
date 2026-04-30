@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 3e43206b-c1a3-43ba-a4e5-c45c68c8b941
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um eine Prüfungsaufgabe aus der Benachr
    >
    > Die Überprüfenden müssen über die Berechtigungen zum Neuzuweisen verfügen und sollten Teil der Benutzer-Administrator-Gruppe sein.
 
-   ![](images/reassign-user-inbox.png){width="800" align="left"}
+   ![](images/reassign-user-inbox.png){width="800"}
 
 1. Wählen **Neu zuweisen** aus.
 
@@ -39,4 +39,4 @@ Nachdem die Prüfungsaufgabe neu zugewiesen wurde, zeigt die Spalte Empfänger d
 
 Der zugewiesene Reviewer erhält eine Benachrichtigung im Posteingang für die neu zugewiesene Prüfungsaufgabe.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)

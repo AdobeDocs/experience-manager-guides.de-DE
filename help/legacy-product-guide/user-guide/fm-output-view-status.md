@@ -5,7 +5,7 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange 
 
 1. Klicken Sie auf Ausgaben.
 
-   ![](images/output-queued-fm.png){width="800" align="left"}
+   ![](images/output-queued-fm.png){width="800"}
 
 1. Die Seite „Ausgaben“ ist in zwei Teile unterteilt:
 
@@ -37,4 +37,4 @@ Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange 
      In dieser Liste sind möglicherweise Aufgaben enthalten, die erfolgreich ausgeführt wurden, oder Aufgaben, bei denen ein Fehler aufgetreten ist. Für die erfolgreich abgeschlossenen Aufgaben erstellt der Veröffentlichungsprozess eine Protokolldatei \(logs.txt\), auf die Sie zugreifen können, indem Sie auf den Link in der Spalte Generiert unter klicken.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
+**Übergeordnetes Thema:**[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)

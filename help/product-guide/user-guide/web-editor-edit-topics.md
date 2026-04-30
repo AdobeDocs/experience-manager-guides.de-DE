@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Themen im Editor bearbeiten. Erfahren Sie meh
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -47,14 +47,14 @@ Wenn Sie den ausgewählten Inhalt löschen, wird der verbleibende Inhalt nach de
 - Den Inhalt mit einem gültigen Element umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element einzuschließen:
 
    - Wählen Sie den Inhalt in einem Element aus.
-   - Wählen Sie ![&#x200B; oben in der Symbolleiste das Symbol &#x200B;](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
+   - Wählen Sie ![ oben in der Symbolleiste das Symbol ](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
      >[!NOTE]
      >
      > Sie können das Dialogfeld Element einfügen auch anzeigen, indem Sie auf das Kontextmenü des ausgewählten Inhalts klicken.
 
    - Wählen Sie ein Element im Dialogfeld aus. Der ausgewählte Inhalt wird unter diesem Element umschlossen. Wenn Sie beispielsweise den Inhalt in einem Absatz auswählen und dann das `<note>` Element im Dialogfeld **Element einfügen** auswählen, wird der ausgewählte Inhalt unter einer Anmerkung angezeigt.
 
-     ![Dialogfeld Element einfügen](./images/insert-element-editor.png) {width="300" align="left"}
+     ![Dialogfeld Element einfügen](./images/insert-element-editor.png) {width="300"}
 
 ## Browser beim Bearbeiten der Dateien aktualisieren
 
@@ -70,7 +70,7 @@ Das rechte Bedienfeld wird ebenfalls wieder geöffnet und zeigt dieselbe Ansicht
 
 Experience Manager Guides stellt die Arbeitskopie-Anzeige bereit, die anzeigt, ob die aktuelle \(Arbeitskopie\) der Datei mit der gespeicherten Version synchronisiert ist oder nicht. Wenn Sie Änderungen an Ihrer aktuellen Kopie vorgenommen und Ihre Datei nicht gespeichert haben, wird auf der Registerkarte Datei des Themas ein \*-Zeichen zusammen mit dem Titel angezeigt. Diese Anzeige dient als Erinnerung zum Speichern Ihrer Änderungen und verschwindet, wenn Sie Ihre Datei speichern.
 
-![Arbeitskopie-Anzeige](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![Arbeitskopie-Anzeige](images/working-copy-text-update-indicator.png){width="550"}
 
 Experience Manager Guides gibt auch an, ob die zuletzt gespeicherte \(Working\)-Kopie der Datei mit der gespeicherten Version synchronisiert ist. Wenn Sie einige nicht gespeicherte Änderungen zwischen der Arbeitskopie und der zuletzt gespeicherten Version haben, wird ein \*-Zeichen zusammen mit den Versionsinformationen angezeigt, die in der rechten oberen Ecke der Registerkarte Datei des Themas angezeigt werden. Dieser Indikator dient als Erinnerung daran, eine Version aus Ihrer aktuellen \(Working\) Kopie der Datei zu speichern und zu erstellen.
 
@@ -78,7 +78,7 @@ Experience Manager Guides gibt auch an, ob die zuletzt gespeicherte \(Working\)-
 >
 > Bei allen Änderungen an den Metadatenfeldern, die unter [Dateieigenschaften](./web-editor-right-panel.md#file-properties) verfügbar sind, wird auch der Trigger Arbeitskopie in der Dokumentversion angezeigt.
 
-![Versionsaktualisierungsanzeige](images/version-update-indicator.png){width="550" align="left"}
+![Versionsaktualisierungsanzeige](images/version-update-indicator.png){width="550"}
 
 ## Zugriff auf gesperrte Dateien im Authoring- und Source-Modus
 
@@ -120,4 +120,4 @@ Sie können die Funktion zum Suchen der Datei mit der Option **Dateien immer im 
 >
 >Ab Version 2025.11.0 wird die Einstellung **Dateien im Repository immer finden** in **Dateien immer im Explorer suchen** umbenannt. Bei On-Premise-Setups ist sie weiterhin verfügbar, da sie bis Version 5.1 von Experience Manager Guides immer Dateien im Repository finden.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Editor](web-editor.md)

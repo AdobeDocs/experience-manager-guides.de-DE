@@ -5,7 +5,7 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabe für FrameMaker-Dokument
 
    Die DITA-Zuordnungskonsole wird mit der Liste der für die Generierung der Ausgabe verfügbaren Ausgabevorgaben angezeigt.
 
-   ![](images/publish-fm-doc.png){width="800" align="left"}
+   ![](images/publish-fm-doc.png){width="800"}
 
 1. Wählen Sie eine oder mehrere Ausgabevorgaben aus, die Sie zum Generieren der Ausgabe verwenden möchten.
 
@@ -31,4 +31,4 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabe für FrameMaker-Dokument
 >
 > Sie können den aktuellen Status der Ausgabegenerierungsanfrage anzeigen, indem Sie auf „Ausgaben“ klicken. Weitere Informationen finden Sie unter [Anzeigen des Status der Aufgabe zur Ausgabenerstellung](fm-output-view-status.md).
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
+**Übergeordnetes Thema:**[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)

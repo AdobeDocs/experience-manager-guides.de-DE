@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie globale Profile oder Profile auf Ordnerebene 
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '5943'
+source-wordcount: '6078'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
 Über die Kachel Ordnerprofile in den Einstellungen für Handbücher können Sie Einstellungen auf den folgenden Registerkarten konfigurieren:
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **Allgemein**: Die Registerkarte Allgemein ist nur bei der Konfiguration von Einstellungen auf Ordnerebene \(oder Projekt/Produkt\) verfügbar. Sie können Einstellungen konfigurieren, z. B. die Ordnerpfade, für die die Einstellungen gelten sollen, und Benutzer, die über Administratorrechte verfügen, um Konfigurationen zu erstellen oder zu aktualisieren.
 
@@ -67,7 +68,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
    - Benutzerdefiniert
 
-  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden &#x200B;](#id18AGD0K0OHS) Vorgabenänderungen“.
+  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden ](#id18AGD0K0OHS) Vorgabenänderungen“.
 
 - **XML-Editor-**: Auf dieser Registerkarte können Sie das Erscheinungsbild und verschiedene Funktionen des Web-Editors anpassen. Die folgenden konfigurierbaren Einstellungen sind für den Web-Editor verfügbar:
 
@@ -97,7 +98,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
    Die Seite „Ordnerprofile“ wird zum ersten Mal nur mit der Kachel „Globales Profil“ angezeigt.
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. Klicken Sie auf die **Globales Profil**-Kachel.
 
@@ -107,7 +108,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Informationen zum Konfigurieren **Ausgabevorgaben** finden Sie unter [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [&#x200B; unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [ unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
 
 1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie **Globales Profil**.
 
@@ -126,7 +127,7 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
 
 1. Klicken Sie auf **Erstellen**.
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. Geben Sie die folgenden Details in das Dialogfeld **Ordnerprofil erstellen** ein:
    - Name des Profilordners.
@@ -221,7 +222,7 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
 
    >[!IMPORTANT]
    >
-   > Die spezialisierte DTD-Datei sollte Teil der Bereitstellung von benutzerdefiniertem Code sein. DTDs unter /apps sind Teil der Produktbereitstellung und werden daher mit der Installation jeder neuen Version überschrieben. Es wird empfohlen, im Projektordner eine spezielle DTD unter /var/dxml/dita\_resources hinzuzufügen und den DTD/Katalogpfad in das DITA-Profil aufzunehmen. Weitere Informationen finden Sie unter [Integrieren der DITA-Spezialisierung](dita-ot-specialization.md#id211MB0E00XA).
+   > Die spezialisierte DTD-Datei sollte Teil der Bereitstellung von benutzerdefiniertem Code sein. DTDs unter /apps sind Teil der Produktbereitstellung und werden daher mit der Installation jeder neuen Version überschrieben. Es wird empfohlen, im Projektordner eine spezielle DTD unter /var/dxml/dita\_resources hinzuzufügen und den DTD/Katalogpfad in das DITA-Profil aufzunehmen.Weitere Informationen finden Sie unter [Integrieren der DITA-Spezialisierung](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Verwenden Sie den Package Manager, um die Datei /libs/fmdita/config/condAttrList.xml herunterzuladen:
 
@@ -241,7 +242,7 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
 
    >[!IMPORTANT]
    >
-   > Die spezialisierte DTD-Datei sollte Teil der Bereitstellung von benutzerdefiniertem Code sein. DTDs unter /etc sind Teil der Produktbereitstellung und werden daher mit der Installation jeder neuen Version überschrieben. Es wird empfohlen, im Projektordner unter /apps eine spezielle DTD hinzuzufügen und den DTD/Katalogpfad in das DITA-Profil aufzunehmen. Weitere Informationen finden Sie unter [Integrieren der DITA-Spezialisierung](dita-ot-specialization.md#id211MB0E00XA).
+   > Die spezialisierte DTD-Datei sollte Teil der Bereitstellung von benutzerdefiniertem Code sein. DTDs unter /etc sind Teil der Produktbereitstellung und werden daher mit der Installation jeder neuen Version überschrieben. Es wird empfohlen, im Projektordner eine spezielle DTD unter /apps hinzuzufügen und den DTD/Katalogpfad in das DITA-Profil aufzunehmen.Weitere Informationen finden Sie unter [Integrieren der DITA-Spezialisierung](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Öffnen Sie die Seite Konfiguration der Adobe Experience Manager-Web-Konsole .
 
@@ -303,7 +304,7 @@ Führen Sie die folgenden Schritte aus, um die Themen-, Zuordnungs- oder PDF-Vor
    >
    > Standardmäßig werden alle Vorlagen im Ordner /content/dam/dita-templates gespeichert. Der `dita-templates` enthält `topics`-, `maps`- und `PDF` Unterordner zum Speichern der Themen-, Zuordnungs- und PDF-Vorlagen. Sie können Ihre benutzerdefinierten Vorlagen (\.dita, .xml oder .ditamapfiles\) in den Standardvorlagenordnern hinzufügen. Nachdem Sie Ihre Vorlage zum Standardordner hinzugefügt haben, können Sie sie zum globalen Ordner oder zum Profilordner hinzufügen. Weitere Informationen zum Erstellen benutzerdefinierter Vorlagen mit dem Web-Editor finden Sie unter [Erstellen einer benutzerdefinierten Authoring-Vorlage](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="800" align="left"}
+   ![](assets/search-author-temp.png){width="800"}
 
 1. Fügen Sie Ihrem Profil die erforderlichen Themen-, Zuordnungs- und PDF-Vorlagen hinzu.
 
@@ -311,7 +312,7 @@ Führen Sie die folgenden Schritte aus, um die Themen-, Zuordnungs- oder PDF-Vor
 
    - Wählen Sie **Suchen oder**) und geben Sie den Namen einer Vorlage in der Dropdown-Liste ein, oder wählen Sie ihn aus. Die Dropdown-Liste besteht aus allen Standardvorlagen und allen neuen Vorlagen, die Sie erstellt haben.
 
-     ![](assets/default-template-list.png){width="800" align="left"}
+     ![](assets/default-template-list.png){width="800"}
 
    - Klicken Sie **Durchsuchen** und wählen Sie eine Vorlage aus DAM aus.
 
@@ -319,7 +320,7 @@ Führen Sie die folgenden Schritte aus, um die Themen-, Zuordnungs- oder PDF-Vor
 
    Die ausgewählten Vorlagen werden der Vorlagenliste hinzugefügt.
 
-   ![](assets/author-templ-added-list.png){width="800" align="left"}
+   ![](assets/author-templ-added-list.png){width="800"}
 
    >[!NOTE]
    >
@@ -365,7 +366,7 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
    >
    > Standardmäßig werden alle Authoring-Vorlagen im Ordner /content/dam/dita-templates gespeichert. Der Ordner `dita-templates` enthält `topics` und `maps` Unterordner zum Speichern des Themas und der Zuordnungsvorlagen. Sie können Ihre benutzerdefinierten Vorlagen (\.dita, .xml oder .ditamapfiles\) in den Standardvorlagenordnern hinzufügen. Nachdem Sie Ihre Vorlage zum Standardordner hinzugefügt haben, können Sie sie zum globalen Ordner oder zum Profilordner hinzufügen. Weitere Informationen zum Erstellen benutzerdefinierter Vorlagen mit dem Web-Editor finden Sie unter [Erstellen einer benutzerdefinierten Authoring-Vorlage](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="550" align="left"}
+   ![](assets/search-author-temp.png){width="550"}
 
 1. Fügen Sie das erforderliche Thema hinzu und ordnen Sie Vorlagen Ihrem Profil zu.
 
@@ -373,7 +374,7 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
 
    - Wählen Sie **Suchen oder**) und geben Sie den Namen einer Vorlage in der Dropdown-Liste ein, oder wählen Sie ihn aus. Die Dropdown-Liste besteht aus allen Standardvorlagen und allen neuen Vorlagen, die Sie erstellt haben.
 
-     ![](assets/default-template-list.png){width="350" align="left"}
+     ![](assets/default-template-list.png){width="350"}
 
    - Klicken Sie **Durchsuchen** und wählen Sie eine Vorlage aus DAM aus.
 
@@ -381,7 +382,7 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
 
    Die ausgewählten Vorlagen werden der Vorlagenliste hinzugefügt.
 
-   ![](assets/author-templ-added-list.png){width="550" align="left"}
+   ![](assets/author-templ-added-list.png){width="550"}
 
    >[!NOTE]
    >
@@ -514,7 +515,7 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 ## Konfigurieren des KI-Assistenten für intelligente Hilfe und Authoring (nur für Cloud Service)
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
 
 Der KI-Assistent in Adobe Experience Manager Guides ist ein leistungsstarkes, KI-gesteuertes Tool, mit dem Sie Ihre Inhalte durch intelligentes Authoring und die Wiederverwendung von Inhalten verbessern können. Es vereint zwei robuste KI-Funktionen - **Authoring** und **Help** - in der Experience Manager Guides-Oberfläche, sodass Sie Dokumente schneller und effizienter erstellen und auf Informationen zugreifen können.
 
@@ -536,7 +537,7 @@ Führen Sie die folgenden Schritte aus, um die Standard-KI-Konfiguration im glob
 
 1. Wählen Sie auf der Profilseite die Registerkarte **KI-Konfiguration** aus.
 
-   ![Registerkarte KI-Konfiguration im globalen Profil](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+   ![Registerkarte KI-Konfiguration im globalen Profil](assets/global-profile-AI-configuration-cs.png) {width="800"}
 
 1. Wählen Sie **Bearbeiten** aus.
 1. Als Administrator können Sie die folgenden Einstellungen konfigurieren:
@@ -600,9 +601,9 @@ Um sicherzustellen, dass intelligente Vorschläge effektiv funktionieren, sollte
 
 **Standardfragen für die intelligente Hilfe anpassen**
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
 
-Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview).
+Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 Auf der Registerkarte **XML** Editor-Konfiguration“ können Sie die Standardfragen des Bedienfelds **Hilfe** konfigurieren.
 
@@ -659,7 +660,7 @@ Die folgenden Registerkarten enthalten Informationen basierend auf Ihrer Experie
 
 Mit dieser Einstellung können Sie JSON-Erweiterungen erstellen, die die in der `ui_config.json`-Datei vorgenommenen Änderungen widerspiegeln. Sie können diese Erweiterungen unabhängig auf Ordnerprofilebene hochladen, was eine höhere Flexibilität und Anpassung bietet. Wenn Sie beispielsweise Änderungen an der Konfiguration des **XML-Editors** vornehmen, wie z. B. eine Schaltfläche aktualisieren, erkennt das System automatisch die Unterschiede. Durch Hochladen dieser Änderungen in die **Konfiguration der Benutzeroberfläche des XML-Editors** und Konvertieren in JSON-Erweiterungen mithilfe der Schaltfläche **UI-Konfiguration in JSON**&quot; generiert das System eine Erweiterung, die die neue Funktionalität enthält.
 
-Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -679,7 +680,7 @@ Mit dieser Einstellung werden die Symbolleiste und die anderen Elemente der Benu
 
 >[!TAB On-Premise]
 
-Diese Einstellung steuert die Symbolleiste und die anderen Elemente der Benutzeroberfläche des Web-Editors. Klicken Sie auf **Herunterladen**, um die neueste ui\_config.json-Datei auf Ihr lokales System herunterzuladen. Sie können dann Änderungen an der Datei vornehmen und die Datei auf die gleiche Weise hochladen. Klicken Sie auf **Standard herunterladen**, um die Standarddatei ui\_config.json auf Ihr lokales System herunterzuladen. Sie können die Standarddatei jederzeit herunterladen, ändern und hochladen. Je nachdem, wo Sie die Datei hochladen, ob global oder auf Ordnerebene, werden die Änderungen entsprechend angewendet. Weitere Informationen zum Anpassen des XML-Editors mithilfe der Datei ui\_config.json finden Sie unter [Symbolleiste anpassen](customize-toolbar.md#).
+Diese Einstellung steuert die Symbolleiste und die anderen Elemente der Benutzeroberfläche des Web-Editors. Klicken Sie auf **Herunterladen**, um die neueste ui\_config.json-Datei auf Ihr lokales System herunterzuladen. Sie können dann Änderungen an der Datei vornehmen und die Datei auf die gleiche Weise hochladen. Klicken Sie auf **Standard herunterladen**, um die Standarddatei ui\_config.json auf Ihr lokales System herunterzuladen. Sie können die Standarddatei jederzeit herunterladen, ändern und hochladen.Je nachdem, wo Sie die Datei hochladen, ob global oder im Profil auf Ordnerebene, werden die Änderungen entsprechend angewendet. Weitere Informationen zum Anpassen des XML-Editors mithilfe der Datei ui\_config.json finden Sie unter [Symbolleiste anpassen](customize-toolbar.md#).
 
 >[!ENDTABS]
 
@@ -747,8 +748,3 @@ Im obigen Beispiel ist „label1“ der Bezeichner für die Titelsequenz und wir
 **Rootmap**
 
 Wenn Ihre Autoren mit einer bestimmten Stammzuordnung arbeiten, können Sie zu navigieren und diese Stammzuordnung hier auswählen. Beachten Sie, dass Sie die Rootmap nur für ein Profil auf Ordnerebene definieren können.
-
-
-
-
-

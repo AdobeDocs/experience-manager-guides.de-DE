@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie verschiedene Inline-Stile beim Erstellen von 
 feature: Authoring
 role: User
 exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
-source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -29,20 +29,20 @@ Die verfügbaren Inline-Styling-Optionen werden wie folgt beschrieben:
 
 - **Schriftart:** Ermöglicht die Anpassung des Erscheinungsbildes des Textes mithilfe verschiedener Optionen wie Schriftfamilie, Schriftstärke, Textdekoration, Schriftgröße und mehr. Diese Einstellungen helfen Ihnen, Ihren Inhalt wie im folgenden Beispiel zu gestalten.
 
-  ![](assets/font-learning-content.png){width="350" align="left"}
+  ![](assets/font-learning-content.png){width="350"}
 
 - **Rahmen**: Ermöglicht die Definition und Anpassung des Rahmens eines Elements mithilfe von Optionen wie Rahmen, Seite, Breite, Stil (einfarbig, gestrichelt, gepunktet usw.), Farbe. Mit diesen Einstellungen können bestimmte Abschnitte des Inhalts visuell getrennt oder hervorgehoben werden.
 
-  ![](assets/border-learning-content.png){width="350" align="left"}
+  ![](assets/border-learning-content.png){width="350"}
 
 - **Layout**: Hiermit können Sie die Positionierung und den Abstand von Elementen im Inhalt steuern. Sie können Eigenschaften wie Rand, Abstand, Ausrichtung, Anzeigetyp und mehr anpassen. um Ihre Inhaltsstruktur effektiv zu organisieren.
 
-  ![](assets/layout-learning-content.png){width="350" align="left"}
+  ![](assets/layout-learning-content.png){width="350"}
 
 - **Hintergrund**: Ermöglicht die Anpassung des Hintergrunds eines Elements durch Festlegen von Optionen wie Hintergrundfarbe, Bild, Position und Wiederholungsstil. Diese Einstellungen tragen dazu bei, die visuelle Attraktivität und Klarheit Ihres Inhalts zu verbessern.
 
-  ![](assets/background-learning-content.png){width="350" align="left"}
+  ![](assets/background-learning-content.png){width="350"}
 
 - **Spalte**: Ermöglicht die Organisation von Inhalten in mehreren Spalten. Sie können die Anzahl der Spalten, den Abstand zwischen ihnen, die Spaltenbreite und mehr anpassen. um die Lesbarkeit und Layout-Struktur Ihrer Inhalte zu verbessern.
 
-  ![](assets/column-learning-content.png){width="350" align="left"}
+  ![](assets/column-learning-content.png){width="350"}

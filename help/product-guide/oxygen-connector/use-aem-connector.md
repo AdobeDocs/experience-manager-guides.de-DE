@@ -5,7 +5,7 @@ hide: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '6522'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Sobald Sie das Installationsprogramm haben, installieren Sie es auf Ihrem lokale
 
 >[!IMPORTANT]
 >
->Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Deinstallationsanweisungen finden Sie **Abschnitt** Deinstallieren von Paketen“ im [Arbeiten mit Paketen](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/package-manager.html).
+>Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Deinstallationsanweisungen finden Sie **Abschnitt** Deinstallieren von Paketen“ im [Arbeiten mit Paketen](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html).
 
 Führen Sie die folgenden Schritte auf dem System durch, auf dem Oxygen XML Author installiert ist:
 
@@ -66,7 +66,7 @@ Führen Sie die folgenden Schritte auf dem System durch, auf dem Oxygen XML Auth
 
    Das AEM Guides-Bedienfeld wird in der Oxygen XML-Autoreninstanz angezeigt.
 
-   ![AEM-Connector](images/oxygen-aem-connector.png){width="800" align="left"}
+   ![AEM-Connector](images/oxygen-aem-connector.png){width="800"}
 
    >[!NOTE]
    >
@@ -77,7 +77,7 @@ Führen Sie die folgenden Schritte auf dem System durch, auf dem Oxygen XML Auth
 
 >[!IMPORTANT]
 >
->Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe den **Deinstallieren von Paketen** im Abschnitt [So arbeiten Sie mit Paketen](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/package-manager.html) des Artikels Deinstallationsanweisungen.
+>Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe den **Deinstallieren von Paketen** im Abschnitt [So arbeiten Sie mit Paketen](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) des Artikels Deinstallationsanweisungen.
 
 Führen Sie die folgenden Schritte auf dem System durch, auf dem Oxygen XML Author installiert ist:
 
@@ -98,7 +98,7 @@ Führen Sie die folgenden Schritte auf dem System durch, auf dem Oxygen XML Auth
 
    Das AEM Guides-Bedienfeld wird in der Oxygen XML-Autoreninstanz angezeigt.
 
-   ![AEM Connector Mac](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
+   ![AEM Connector Mac](images/oxygen-aem-connector-mac.png) {width="800"}
 
    >[!NOTE]
    >
@@ -116,9 +116,9 @@ Führen Sie als AEM-Administrator die folgenden Schritte aus, um das Paket zu in
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   Package Manager verwaltet die Pakete in Ihrer lokalen AEM-Installation. Weitere Informationen zum Arbeiten mit dem Package Manager finden Sie unter [So arbeiten Sie mit Paketen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=de) in der Dokumentation zu AEM.
+   Package Manager verwaltet die Pakete in Ihrer lokalen AEM-Installation. Weitere Informationen zum Arbeiten mit dem Package Manager finden Sie unter [So arbeiten Sie mit Paketen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in der Dokumentation zu AEM.
 
-   ![Package Manager](images/package-manager.png) {width="650" align="left"}
+   ![Package Manager](images/package-manager.png) {width="650"}
 
 1. Um das Sauerstoffpaket hochzuladen, klicken Sie auf **Paket hochladen**.
 1. Navigieren Sie im Dialogfeld Paket hochladen zur Sauerstoffpaketdatei, die Sie in Schritt 1 heruntergeladen haben, und klicken Sie auf OK.
@@ -127,7 +127,7 @@ Führen Sie als AEM-Administrator die folgenden Schritte aus, um das Paket zu in
 
 1. Um den Installationsprozess zu starten, klicken Sie auf **Installieren**.
 
-   ![Sauerstoffverpackung](images/oxygen-package.png){width="650" align="left"}
+   ![Sauerstoffverpackung](images/oxygen-package.png){width="650"}
 
 1. Klicken Sie im Dialogfeld Paket installieren auf **Installieren**.
 1. Klicken Sie nach Abschluss der Installation oben links im CRX Package Manager auf die Schaltfläche „Startseite“.
@@ -208,7 +208,7 @@ Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Oxyge
 
 1. Klicken Sie im AEM Guides-Bedienfeld auf das Symbol Einstellungen und wählen Sie dann **Einstellungen** aus.
 
-   ![Verbindungseinstellungen &#x200B;](images/settings.png){width="800" align="left"}
+   ![Verbindungseinstellungen ](images/settings.png){width="800"}
 
 1. Geben Sie die folgenden Details an:
    - **Server URL**: URL des AEM-Servers, z. B.:
@@ -245,16 +245,16 @@ Führen Sie die folgenden Schritte aus, um Profilattribute und Querverweise zu k
 1. Klicken Sie in Oxygen XML Author auf **Optionen** \> **Voreinstellungen**.
 1. Wählen Sie auf der **Dokumenttypzuordnung** die Option **DITA** und klicken Sie dann auf **Erweitern**.
 
-   ![Dokumenttypzuordnung](images/document_type_association.png){width="650" align="left"}
+   ![Dokumenttypzuordnung](images/document_type_association.png){width="650"}
 
 1. Wählen Sie auf **Registerkarte** Klassenpfad`com.adobe.o2.connector` in der Dropdown **Verwenden des übergeordneten Klassenladers vom Plug-in mit ID** aus.
 
-   ![Registerkarte „Klassenpfad“](images/dita-extension.png){width="650" align="left"}
+   ![Registerkarte „Klassenpfad“](images/dita-extension.png){width="650"}
 
 1. Nehmen **auf** Registerkarte „Erweiterungen“ die folgenden Änderungen vor:
 
    - Klicken Sie **Auswählen** neben dem Bundle **Erweiterungen** und wählen Sie `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` in der Liste **Klasse** aus. Klicken Sie auf **OK**.
-     ![Konfigurieren Sie eine Erweiterung für DITA-Themen](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+     ![Konfigurieren Sie eine Erweiterung für DITA-Themen](images/dita-map-extenstion-link-resolve.png) {width="650"}
    - Klicken Sie **Auswählen** neben dem **Author Extension State Listener** unter **Individuelle Erweiterungen** und wählen Sie `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` in der **Class**-Liste aus. Klicken Sie auf **OK**.
    - Klicken Sie **Auswählen** neben dem **Editor für benutzerdefinierte Attributwerte erstellen** unter **Individuelle Erweiterungen** und wählen Sie `CustomValueEditor - com.adobe.o2.framework.extn` in der Liste **Klasse** aus. Klicken Sie auf **OK**.
    - Klicken Sie **Auswählen** neben dem **Author External Object Insertion Handler** unter **Individuelle Erweiterungen** und wählen Sie `CustomURLInsertionHandler - com.adobe.o2.ui ` in der Liste **Klasse** aus. Klicken Sie auf **OK**.
@@ -296,7 +296,7 @@ Führen Sie die folgenden Schritte aus, um die DITA Map-Erweiterung zu konfiguri
 
 Der folgende Bildschirm zeigt das Bedienfeld &quot;AEM Guides&quot;.
 
-![Anschlussfeld](images/connector-panel.png){width="550" align="left"}
+![Anschlussfeld](images/connector-panel.png){width="550"}
 
 **A**\) Zeigt die Suchleiste an.
 
@@ -349,7 +349,7 @@ Sobald Sie eine Verbindung zum AEM-Repository hergestellt haben, können Sie Dat
 
    Die Datei wird im Editor von Oxygen XML Author geöffnet.
 
-   ![GUID auf der Registerkarte „Datei“](images/guid-in-file-tab.png) {width="800" align="left"}
+   ![GUID auf der Registerkarte „Datei“](images/guid-in-file-tab.png) {width="800"}
 
    Wenn Sie den Mauszeiger über die Registerkarte einer Datei bewegen, wird Ihnen der Serverpfad zusammen mit der UUID angezeigt. Im obigen Screenshot ist die UUID des Dokuments hervorgehoben.
 
@@ -398,7 +398,7 @@ Wenn Sie die Option **Datei beim Öffnen automatisch auschecken** \(im Dialogfel
 
 Wenn eine Datei ausgecheckt wird, ändert sich das Symbol der Datei und zeigt den Status Gesperrt an.
 
-![Auschecken einer Datei](images/check-out-file.png){width="650" align="left"}
+![Auschecken einer Datei](images/check-out-file.png){width="650"}
 
 Im obigen Screenshot wird eine von einem anderen Benutzer ausgecheckte Datei mit einem schwarzen Sperrsymbol \(A\) angezeigt. Die vom aktuellen Benutzer ausgecheckte Datei wird mit einem grünen Häkchen \(B\) angezeigt.
 
@@ -425,7 +425,7 @@ Beim Einchecken einer Datei wird die lokale Kopie aus Ihrem System im AEM-Reposi
 
    Wenn Sie abhängige Dateien nicht ausgecheckt haben und dann diese Option wählen, werden nur die abhängigen Dateien eingecheckt, die Sie \(separat\) ausgecheckt haben. Ihnen wird eine Liste von Dateien angezeigt, die nicht eingecheckt werden konnten:
 
-   ![Fehler beim Einchecken](images/check-in-error.png){width="800" align="left"}
+   ![Fehler beim Einchecken](images/check-in-error.png){width="800"}
 
    Es wird dringend empfohlen, eine ausgecheckte Datei nicht zu verschieben. Wenn eine ausgecheckte Datei jedoch an einen anderen Speicherort verschoben wird, müssen Sie das Auschecken für diese Datei abbrechen. Wenn Sie Aktualisierungen an dieser Datei vornehmen möchten, checken Sie die Datei erneut aus, nehmen Sie Änderungen vor und checken Sie sie dann wieder ein. Wenn Sie versuchen, eine Datei einzuchecken, die von ihrem ursprünglichen Speicherort verschoben wurde, erhalten Sie einen Fehler.
 
@@ -443,7 +443,7 @@ Beim Einchecken einer Datei wird die lokale Kopie aus Ihrem System im AEM-Reposi
 
    Wenn Ihr Administrator eine vordefinierte Liste von Kennzeichnungen hat und diese in die `label.json` hochgeladen hat, werden diese Kennzeichnungen als Dropdown-Liste angezeigt. Sie können eine oder mehrere Beschriftungen aus dem Dropdown-Menü auswählen.
 
-   ![Dialogfeld „Einchecken“](images/checkin-dropdown-labels.png){width="550" align="left"}
+   ![Dialogfeld „Einchecken“](images/checkin-dropdown-labels.png){width="550"}
 
    Sie können derselben Version eines Themas mehrere Beschriftungen (durch Kommas getrennt) hinzufügen.  Beispiel: *Adobe*, *AEM*, *Guides*.
 Sie können jedoch nicht dieselbe Bezeichnung zu den verschiedenen Versionen eines Themas hinzufügen. Wenn Sie eine Beschriftung hinzufügen, die Sie bereits zu einer früheren Version hinzugefügt haben, wird sie zur neuesten Version hinzugefügt und von der früheren Version entfernt.
@@ -467,7 +467,7 @@ Wenn Sie sich in mehreren Ordnern befinden, ist es nicht einfach herauszufinden,
 
    Die in der AEM Guides-Ansicht ausgecheckten Dateien werden angezeigt.
 
-   ![Ausgecheckte Dateien](images/files-checkedout-view.png){width="550" align="left"}
+   ![Ausgecheckte Dateien](images/files-checkedout-view.png){width="550"}
 
 1. Klicken Sie mit der rechten Maustaste auf eine Datei in dieser Ansicht, um die folgenden Optionen anzuzeigen:
 
@@ -537,7 +537,7 @@ Führen Sie die folgenden Schritte aus, um den Versionsverlauf einer Datei anzuz
 
    Der Versionsverlauf der Datei wird im Dialogfeld Versionen angezeigt.
 
-   ![Versionsverlauf](images/version-history.png){width="550" align="left"}
+   ![Versionsverlauf](images/version-history.png){width="550"}
 
 
 ### Anzeigen der Metadaten einer Datei {#id195GHN0H05C}
@@ -550,7 +550,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten einer Datei anzuzeigen:
 
    Die Metadaten der Datei, wie die DITA-Klasse, der Dokumentstatus, das Änderungsdatum, die Größe, der Titel und die UUID werden im Metadaten-Dialogfeld angezeigt.
 
-   ![Anzeigen von Metadaten](images/metadata.png){width="550" align="left"}
+   ![Anzeigen von Metadaten](images/metadata.png){width="550"}
 
 
 ## Suchen eines Themas im AEM-Repository {#id1826J20405Z}
@@ -565,7 +565,7 @@ Führen Sie die folgenden Schritte aus, um nach Themen zu suchen:
 
    Das Ergebnis wird auf der Registerkarte Suchergebnisse als Liste mit dem Dateipfad angezeigt. Wenn für Ihre Suchanfrage kein übereinstimmendes Ergebnis vorliegt, werden keine Ergebnisse in der Meldung &lt;Pfad des ausgewählten Ordners> angezeigt.
 
-   ![Suchergebnisse](images/search.png){width="550" align="left"}
+   ![Suchergebnisse](images/search.png){width="550"}
 
 1. \(Optional\) Doppelklicken Sie im Suchergebnis auf eine Datei, um sie im Oxygen XML-Autorenknoten zu öffnen.
 1. Führen Sie einen der folgenden Schritte aus, um zur AEM-Repository-Ansicht zurückzukehren:
@@ -646,13 +646,13 @@ Führen Sie die folgenden Schritte aus, um Ihrem Inhalt in Oxygen XML Author bed
 1. Wählen Sie den Teil des Inhalts aus, auf den Sie die bedingten Attribute anwenden möchten.
 1. Doppelklicken Sie auf das bedingte Attribut im Bedienfeld „Attribute“ des Oxygen XML-Autors.
 
-   ![Attributbereich](images/attribute-panel.png){width="300" align="left"}
+   ![Attributbereich](images/attribute-panel.png){width="300"}
 
 1. Wählen Sie in **Spalte** Verfügbar“ des Dialogfelds Attribut bearbeiten die Attribute aus und klicken Sie auf **Hinzufügen**.
 
    Im folgenden Bildschirm werden `audience` Attribute angezeigt.
 
-   ![Dialogfeld „Attribute bearbeiten“](images/edit-attributes.png){width="550" align="left"}
+   ![Dialogfeld „Attribute bearbeiten“](images/edit-attributes.png){width="550"}
 
 1. Klicken Sie auf **OK**.
 
@@ -695,7 +695,7 @@ Lösung 3:
 
 **Problem** - Wenn Sie eine DITA-OT-Transformation für Dateien ausführen, die vom Plug-in verarbeitet werden, schlägt die Transformation mit dem folgenden Fehler fehl:
 
-![DITA-OT-Umwandlungsfehler](images/proxy-server-path-error-new.png){width="800" align="left"}
+![DITA-OT-Umwandlungsfehler](images/proxy-server-path-error-new.png){width="800"}
 
 **Lösung** - Dieses Problem wurde behoben, indem ein Proxy-Server zwischen DITA-OT und dem Plug-in hinzugefügt wurde. Dieser Proxy-Server verarbeitet und gibt alle von DITA-OT angeforderten Dateien für Umwandlungen frei. Der Standardport, auf dem dieser Server konfiguriert wurde, lautet: `5972`. Wenn Sie diesen Port für einen anderen Server verwenden, können Sie einen anderen Port für den Proxy-Server angeben.
 

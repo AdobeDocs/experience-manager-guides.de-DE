@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 4.4.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 4.4.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 4.4.0 von Adobe Experience Manager Guides
 role: Leader
 exl-id: 3e73d595-a574-4104-af46-6994685a2f4c
-source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3050'
-ht-degree: 15%
+source-wordcount: '3068'
+ht-degree: 17%
 
 ---
 
@@ -25,17 +25,17 @@ In Version 4.6.0 wurden die folgenden Inhaltsveröffentlichungsverbesserungen vo
 
 
 
-### Publish eines Themas oder seiner Elemente in ein Experience Fragment
+### Veröffentlichen eines Themas oder seiner Elemente in einem Experience Fragment
 
 Ein Experience Fragment ist eine modulare Inhaltseinheit in Adobe Experience Manager, die Inhalte und Layout integriert. Experience Fragments sind entscheidend für die Erstellung konsistenter und ansprechender Erlebnisse, die über mehrere Kanäle hinweg weiter verwendet werden können. Sie können beispielsweise Experience Fragments für Kopf- oder Fußzeilen mit Branding-Elementen, Werbebannern, Kundenreferenzen und Ereignispromotions erstellen.
 
-![Registerkarte „Optionen“ der Dateieigenschaften](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
+![Registerkarte „Optionen“ der Dateieigenschaften](./assets/file-properties-outputs-4-6.png) {width="300"}
 
-*Publish und zeigen Sie die Experience Fragments eines Themas im Abschnitt **Ausgaben**&#x200B;unter **Dateieigenschaften**&#x200B;an.*
+*Veröffentlichen Sie die Experience Fragments eines Themas und zeigen Sie sie im Abschnitt **Ausgaben**in **Dateieigenschaften**an.*
 
 Mit Experience Manager Guides können Sie jetzt ein Thema oder seine Elemente in einem Experience Fragment veröffentlichen. Sie können eine JSON-basierte Zuordnung zwischen einem Thema oder seinen Elementen und einer Experience Fragment-Vorlage erstellen. Sie können Varianten von Experience Fragments auch mithilfe der Bedingungsfilter erstellen.
 
-Weitere Informationen zum [Erstellen von Publish Experience Fragments](../user-guide/publish-experience-fragment.md).
+Weitere Informationen zum Veröffentlichen [ Experience Fragments ](../user-guide/publish-experience-fragment.md).
 
 
 
@@ -54,9 +54,9 @@ Experience Manager Guides bietet auch einige hilfreiche Verbesserungen bei Inhal
 
 Jetzt ersetzt die Veröffentlichung von Inhaltsfragmenten nur den zugeordneten Inhalt, anstatt das gesamte Inhaltsfragment zu überschreiben. Mit dieser Funktion kann ein Inhaltsfragment Daten aus mehreren Quellen enthalten, z. B. aus mehreren Themen oder aus dem Inhaltsfragment-Editor.
 
-![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Publish als Inhaltsfragment hinzu](assets/content-fragment-mapping.png)
+![Fügen Sie das Fragmentmodell und die Zuordnungsdetails im Dialogfeld Als Inhaltsfragment veröffentlichen hinzu](assets/content-fragment-mapping.png)
 
-Weitere Informationen finden Sie unter [Publish-Inhaltsfragmente](../user-guide/publish-content-fragment.md).
+Weitere Informationen finden Sie unter [Inhaltsfragmente veröffentlichen](../user-guide/publish-content-fragment.md).
 
 ### AEM Sites-Voreinstellung neu angeordnet für einfache Verwendung
 
@@ -82,18 +82,18 @@ Wenn dasselbe Thema mehrmals in einer Datei referenziert wird, können Sie für 
 
 ![Alte AEM Sites-Vorgabe](assets/aem-sites-legacy.png)
 
-*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**&#x200B;der Vorgabe **AEM Sites**&#x200B;den Veröffentlichungskontext für die verknüpften Themen an.*
+*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**der Vorgabe **AEM Sites**den Veröffentlichungskontext für die verknüpften Themen an.*
 
 
 
 
 
 
-### Übergeben von Metadaten aus Themendateieigenschaften an die native PDF-Ausgabe
+### Möglichkeit, Metadaten aus Themendateieigenschaften an native PDF-Ausgaben zu übergeben
 
-Jetzt können Sie mit Experience Manager Guides die Metadaten aus den Dateieigenschaften eines Themas zu den Seiten-Layouts hinzufügen, während Sie die native PDF-Ausgabe generieren. Verwenden Sie diese Funktion, um themenspezifische Metadaten wie Titel, Tags und Beschreibung zu den Seiten-Layouts hinzuzufügen. Sie können Ihre veröffentlichte PDF auch auf der Grundlage der Metadaten des Themas anpassen, z. B. indem Sie dem Hintergrund des Themas ein Wasserzeichen auf Grundlage des Dokumentstatus des Themas hinzufügen.
+Jetzt können Sie mit Experience Manager Guides die Metadaten aus den Dateieigenschaften eines Themas zu den Seitenlayouts hinzufügen und dabei die native PDF-Ausgabe generieren. Verwenden Sie diese Funktion, um themenspezifische Metadaten wie Titel, Tags und Beschreibung zu den Seiten-Layouts hinzuzufügen. Sie können Ihre veröffentlichte PDF auch auf der Grundlage der Metadaten des Themas anpassen, z. B. indem Sie dem Hintergrund des Themas ein Wasserzeichen auf Grundlage des Dokumentstatus des Themas hinzufügen.
 
-![Hinzufügen von Metadaten im nativen PDF](./assets/add-metadata-native-pdf.png) {width="300" align="left"}
+![Hinzufügen von Metadaten im nativen PDF-Format](./assets/add-metadata-native-pdf.png) {width="300"}
 
 *Fügen Sie den Feldern in Ihren Seiten-Layouts Metadaten hinzu.*
 
@@ -105,7 +105,7 @@ Erfahren Sie, wie Sie [Felder und Metadaten](../native-pdf/design-page-layout.md
 
 ### Unterstützung für Markdown-Dokumente in der nativen PDF-Veröffentlichung
 
-Experience Manager Guides unterstützt auch Markdown-Dokumente in der nativen PDF-Veröffentlichung. Diese Funktion ist praktisch und hilft Ihnen beim Generieren von PDF für die Markdown-Dateien in Ihrer DITA-Zuordnung.
+Experience Manager Guides unterstützt auch Markdown-Dokumente in der nativen PDF-Veröffentlichung. Diese Funktion ist praktisch und hilft Ihnen beim Generieren von PDFs für die Markdown-Dateien in Ihrer DITA-Karte.
 
 Weitere Informationen finden Sie unter [Unterstützung für Markdown-Dokumente](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents).
 
@@ -121,10 +121,10 @@ Weitere Informationen zu den Vorgaben finden Sie unter [Grundlegendes zu den Aus
 ### Option zur Auswahl einer flachen oder verschachtelten Dateihierarchie für die HTML5-Ausgabe
 
 Jetzt können Sie mit Experience Manager Guides die flache Ordnerhierarchie für die temporären Dateien beibehalten, bei denen der gesamte Inhalt im HTML5-Ausgabeformat veröffentlicht und in einem einzigen Ordner gespeichert wird.
-Wenn Sie die Dateihierarchie nicht reduzieren möchten, wird die HTML5-Ausgabe in einer verschachtelten Ordnerhierarchie generiert. Dies bedeutet, dass die ursprüngliche Ordnerstruktur des Inhalts mit Dateien, die in Unterordnern organisiert sind, in der Ausgabe repliziert wird. Diese verschachtelte Ordnerhierarchie ermöglicht eine komplexere Organisation und Kategorisierung von Dateien, wodurch die Verwaltung und Navigation großer Datenmengen erleichtert wird.
+Wenn Sie sich nicht dafür entscheiden, die Dateihierarchie zu reduzieren, wird die HTML5-Ausgabe in einer verschachtelten Ordnerhierarchie generiert. Dies bedeutet, dass die ursprüngliche Ordnerstruktur des Inhalts mit Dateien, die in Unterordnern organisiert sind, in der Ausgabe repliziert wird. Diese verschachtelte Ordnerhierarchie ermöglicht eine komplexere Organisation und Kategorisierung von Dateien, wodurch die Verwaltung und Navigation großer Datenmengen erleichtert wird.
 
 
-Weitere Informationen zum Generieren [&#x200B; HTML5-Ausgabe](../user-guide/generate-output-html5.md)
+Erfahren Sie mehr über das [Generieren einer HTML5-Ausgabe](../user-guide/generate-output-html5.md)
 
 
 ## Verbesserungen am Editor
@@ -141,11 +141,11 @@ Sie können auch auf die **Layout**-Ansicht für schreibgeschützte DITA-Zuordnu
 >
 > Ihre Ordnerprofiladministrierenden müssen *ui_config.json* aktualisieren, damit Sie im Autoren-, Source- und Layout-Modus einheitlich auf die schreibgeschützten Dateien zugreifen können.
 
-![Gesperrter Datei-Editor](./assets/locked-file-editor.png)
+![gesperrter Dateieditor](./assets/locked-file-editor.png)
 *Anzeigen der gesperrten Dateien im Authoring- und Source-Modus.*
 
 
-Erfahren Sie, wie [&#x200B; Dateien im Authoring- und Source-Modus öffnen &#x200B;](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
+Erfahren Sie, wie [ Dateien im Authoring- und Source-Modus öffnen ](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
 
 
 
@@ -167,14 +167,14 @@ Beim Bearbeiten eines Dokuments im Web-Editor können Sie jetzt eine getrennte L
 - **Gültige Elemente an der aktuellen Position** die Sie an der aktuellen Cursorposition selbst einfügen können.
 - **Gültige Elemente außerhalb des aktuellen Speicherorts** die Sie für das aktuelle Element innerhalb der Elementhierarchie nach einem der übergeordneten Elemente einfügen können.
 
-![Dialogfeld „Element einfügen](assets/insert-element-dialog.png){width="300" align="left"}
+![Dialogfeld „Element einfügen](assets/insert-element-dialog.png){width="300"}
 
 *Sehen Sie sich die getrennten Listen mit gültigen Elementen an, um ein Element am aktuellen Speicherort einzufügen.*
 
 
 Diese geteilte Liste gültiger Elemente hilft Ihnen, die Inhaltsstruktur beizubehalten und die DITA-Standards zu befolgen.
 
-Weitere Informationen zur Funktion **Element einfügen** finden Sie im Abschnitt [Sekundäre &#x200B;](../user-guide/web-editor-features.md#2051ea0j0y4).
+Weitere Informationen zur Funktion **Element einfügen** finden Sie im Abschnitt [Sekundäre ](../user-guide/web-editor-features.md#2051ea0j0y4).
 
 
 ### Neues Erlebnis bei der Suche und Filterung von Dateien in der Repository-Ansicht
@@ -182,13 +182,13 @@ Weitere Informationen zur Funktion **Element einfügen** finden Sie im Abschnitt
 Das Filtern von Dateien wurde verbessert. Die überarbeitete Funktion zum Filtern von Dateien bietet eine verbesserte Möglichkeit, Dateien mühelos zu suchen und durch Dateien zu navigieren.
 
 
-![Suchen von Dateien in der Repository-Ansicht](assets/repository-filter-search-2404.png){width="300" align="left"}
+![Suchen von Dateien in der Repository-Ansicht](assets/repository-filter-search-2404.png){width="300"}
 
 *Suchen nach Dateien, die den Text`general purpose.`* enthalten
 
 Profitieren Sie von Vorteilen wie einem schnelleren Zugriff auf relevante Dateien und einer intuitiveren Benutzeroberfläche für ein reibungsloseres und effizienteres Sucherlebnis.
 
-![Schnellsuchfilter &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![Filter für die schnelle Suche](assets/repository-filter-search-quick.png) {width="300"}
 
 *Verwenden Sie die Filter für die schnelle Suche, um nach DITA- und Nicht-DITA-Dateien zu suchen.*
 
@@ -203,9 +203,9 @@ Weitere Informationen zur Funktion **Suche filtern** im Abschnitt [Linkes Bedi
 
 Mit Experience Manager Guides können Sie jetzt Bedingungen gruppieren und in einer verschachtelten Hierarchie darstellen, sodass Sie einer einzigen Gruppe mehrere Bedingungen hinzufügen können. Durch Gruppieren von Bedingungen können Sie diese besser organisieren und auf Ihre gesamten Inhalte anwenden.
 
-![Bedingungen in einer verschachtelten Hierarchie organisiert](assets/conditions-nested-hierarchy.png){width="300" align="left"}
+![Bedingungen in einer verschachtelten Hierarchie organisiert](assets/conditions-nested-hierarchy.png){width="300"}
 
-Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).
 
 ### Anpassen des Web-Editor-Erlebnisses mit einer neuen Benutzeroberfläche mit Benutzereinstellungen
 
@@ -213,7 +213,7 @@ Das **Benutzereinstellungen** im Web-Editor enthält jetzt eine neue Registerkar
 
 Sie können so konfigurieren, dass die Dateien nach Titel oder Dateinamen angezeigt werden, und das Design des Programms und die Quellansicht ändern. Außerdem können Sie die Einstellungen konfigurieren, um eine geöffnete Datei in der Repository-Ansicht zu finden und die Leerzeichen ohne Unterbrechung zu verarbeiten.
 
-![Registerkarte „Erscheinungsbild“ der Benutzereinstellungen](assets/user_preference_editor_appearance.png){width="550" align="left"}
+![Registerkarte „Erscheinungsbild“ der Benutzereinstellungen](assets/user_preference_editor_appearance.png){width="550"}
 
 *Passen Sie das Erscheinungsbild Ihren Vorlieben entsprechend an.*
 
@@ -244,7 +244,7 @@ Jetzt werden die Inhaltseigenschaften **Typ** als Dropdown-Menü angezeigt. Sie 
 Dieses Dropdown-Menü hilft Ihnen beim schnellen Zugriff auf die Inhaltseigenschaften des ausgewählten Tags.
 
 
-![Dropdown-Menü Typ in den Inhaltseigenschaften](assets/content-properties-type.png){width="300" align="left"}
+![Dropdown-Menü Typ in den Inhaltseigenschaften](assets/content-properties-type.png){width="300"}
 
 *Wählen Sie ein Tag aus der Hierarchie für das aktuelle Tag aus.*
 
@@ -257,7 +257,7 @@ Weitere Informationen zur Funktion **Inhaltseigenschaften** finden Sie im Abschn
 Experience Manager Guides verbessert die Leistung und das Erlebnis der Funktion zum Einchecken von Massendateien im Zuordnungs-Editor. Durch diese Verbesserung können Sie Dateien schneller in Massen einchecken.
 Sie können den Fortschritt des Eincheckvorgangs für die Dateien auch im Dialogfeld **Als neue Version speichern und entsperren** anzeigen. Schließlich wird die Erfolgsmeldung angezeigt, nachdem der Vorgang abgeschlossen ist und alle ausgewählten ausgecheckten Dateien eingecheckt wurden.
 
-![Als neue Version speichern und Dialogfeld „Entsperren“](./assets/save-version-lock.png){width="300" align="left"}
+![Als neue Version speichern und Dialogfeld „Entsperren“](./assets/save-version-lock.png){width="300"}
 
 *Liste und Status der Dateien anzeigen, die im Zuordnungs-Editor stapelweise überprüft wurden.*
 
@@ -279,7 +279,7 @@ Wenn Sie beispielsweise Inhalte für einige Länder in Europa übersetzen müsse
 
 
 
-![Übersetzungsbedienfeld](assets/translation-languages-2404.png){width="300" align="left"}
+![Übersetzungsbedienfeld](assets/translation-languages-2404.png){width="300"}
 
 *Wählen Sie die Sprachgruppen oder Sprachen aus, die Sie Ihre Dokumente übersetzen möchten.*
 
@@ -312,7 +312,7 @@ Wenn Sie ein Projekt löschen, werden alle im Projekt vorhandenen Dateien und Or
 
 Sie können die Übersetzungsprojekte deaktivieren, wenn Sie sie später verwenden möchten.
 
-![](assets/editor-setting-translation.png){width="550" align="left"}
+![](assets/editor-setting-translation.png){width="550"}
 
 
 *Konfigurieren von Sprachgruppen und Bereinigungseinstellungen für Übersetzungsprojekte.*
@@ -328,7 +328,7 @@ Als Administrator können Sie jetzt die Nachbearbeitung und Erstellung von UUIDs
 
 Die Deaktivierung der Nachbearbeitung für einen Ordner wirkt sich auch auf alle untergeordneten Ordner aus. Experience Manager Guides bietet jetzt jedoch die Möglichkeit, die Nachbearbeitung für einzelne untergeordnete Ordner innerhalb des ignorierten Ordners selektiv zu aktivieren.
 
-Erfahren Sie, wie [&#x200B; Nachbearbeitung für einen Ordner deaktivieren &#x200B;](../cs-install-guide/conf-folder-post-processing.md).
+Erfahren Sie, wie [ Nachbearbeitung für einen Ordner deaktivieren ](../cs-install-guide/conf-folder-post-processing.md).
 
 
 ## Verbesserungen bei den Datenquellen-Connectoren
@@ -343,7 +343,7 @@ Zusätzlich zu den vorhandenen vordefinierten Connectoren bieten Experience Mana
 
 Sie können einfach eine Beispieldatenabfrage kopieren und in den Generator einfügen, um einen Inhaltsausschnitt oder ein Thema zu erstellen. Mit dieser Funktion müssen Sie sich nicht an die Syntax erinnern oder eine Abfrage manuell erstellen. Anstatt die Abfrage manuell einzugeben, können Sie eine Beispielabfrage kopieren und einfügen, sie bearbeiten und sie zum Abrufen der Daten nach Ihren Anforderungen verwenden.
 
-![Dialogfeld zum Einfügen eines Inhaltsausschnitts“](assets/insert-content-snippet.png){width="800" align="left"}
+![Dialogfeld zum Einfügen eines Inhaltsausschnitts“](assets/insert-content-snippet.png){width="800"}
 
 *Kopieren und bearbeiten Sie eine Beispielabfrage, um den Inhaltsausschnitt zu erstellen.*
 
@@ -356,10 +356,10 @@ Mit dieser Funktion können Sie die in Ihren JSON-Dateien gespeicherten Daten ve
 
 ### Konfigurieren mehrerer Ressourcen-URLs für einen Connector, um Inhaltsausschnitte oder Themen zu erstellen
 
-Als Administrator können Sie mehrere Ressourcen-URLs für einige Connectoren wie Generic REST Client, Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO) konfigurieren.
+Als Admin können Sie mehrere Ressourcen-URLs für einige Connectoren wie Generic REST Client, Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO) konfigurieren.
 
 Stellen Sie dann als Autorin bzw. Autor eine Verbindung mit den Datenquellen her, um mithilfe der Generatoren Inhaltsausschnitte oder Themen zu erstellen. Diese Funktion ist praktisch, da Sie nicht für jede URL eine Datenquelle erstellen müssen. So können Sie Daten schnell aus einer der Ressourcen für eine bestimmte Datenquelle in einem einzelnen Inhaltsfragment oder Thema abrufen.
 
-Erfahren Sie mehr über die Datenquellen-Connectoren und wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md).
+Weitere Informationen zu den Datenquellen-Connectoren und dazu, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md), finden Sie hier.
 
 Erfahren Sie, wie Sie [Daten aus Ihrer Datenquelle verwenden](../user-guide/web-editor-content-snippet.md).

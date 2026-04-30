@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 4.3.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 4.3.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 4.3.0 von Adobe Experience Manager Guides
 exl-id: 36decbf0-ec9d-43e2-99b7-85b0f9a87bc1
 feature: What's New
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2659'
 ht-degree: 0%
 
 ---
@@ -39,22 +39,22 @@ Zitate sind Verweise auf die Quelle von Informationen, die Ihrem Inhalt hinzugef
 
 In AEM Guides können Sie Zitate hinzufügen oder Zitate importieren und sie auf Ihre Inhalte anwenden. Sie können diese Zitate aus jeder Quelle von Büchern, Websites und Zeitschriften hinzufügen.
 
-Nachdem Sie Ihre Zitate in Ihre Themen eingefügt haben, können Sie sie im Web-Editor in der Vorschau anzeigen. Sie können auch Inhalte mit Zitaten veröffentlichen, indem Sie natives PDF verwenden.
+Nachdem Sie Ihre Zitate in Ihre Themen eingefügt haben, können Sie sie im Web-Editor in der Vorschau anzeigen. Sie können auch Inhalte mit Zitaten veröffentlichen, indem Sie die native PDF verwenden.
 
-![In einem Bedienfeld aufgeführte Zitate](assets/citation-panel.png){width="300" align="left"}
+![In einem Bedienfeld aufgeführte Zitate](assets/citation-panel.png){width="300"}
 
 
 Weitere Informationen finden Sie unter [Hinzufügen und Verwalten von Zitaten in Ihren Inhalten](../user-guide/web-editor-apply-citations.md).
 
-## Publish zu einem Inhaltsfragment
+## In einem Inhaltsfragment veröffentlichen
 
 Inhaltsfragmente sind separate Inhaltselemente in AEM. Es handelt sich um strukturierte Inhalte, die auf einem Inhaltsmodell basieren. Inhaltsfragmente sind reine Inhalte ohne Design- oder Layout-Informationen. Sie können unabhängig von den von AEM unterstützten Kanälen erstellt und verwaltet werden. Die Modularität und Wiederverwendbarkeit der Inhaltsfragmente führt zu mehr Flexibilität, Konsistenz, Effizienz und einfacherem Management.
 
 AEM Guides bietet jetzt die Möglichkeit, ein Thema oder die Elemente innerhalb eines Themas in einem Inhaltsfragment zu veröffentlichen. Sie können eine JSON-basierte Zuordnung zwischen einem Thema und einem Inhaltsfragmentmodell erstellen. Verwenden Sie diese Zuordnung, um Inhalte, die in einigen oder allen Elementen innerhalb eines Themas vorhanden sind, in einem Inhaltsfragment zu veröffentlichen.
 
-Nutzen Sie die Leistungsfähigkeit von AEM Guides und Inhaltsfragmenten und verwenden Sie Inhaltsfragmente auf jeder AEM-Site. Sie können die Details auch über APIs extrahieren, die von Inhaltsfragmenten unterstützt werden.
+Nutzen Sie die Leistungsfähigkeit von AEM Guides und Inhaltsfragmenten und verwenden Sie Inhaltsfragmente in jeder AEM-Site. Sie können die Details auch über APIs extrahieren, die von Inhaltsfragmenten unterstützt werden.
 
-![Option zum Veröffentlichen des Inhaltsfragments](assets/content-fragment-publish.png){width="550" align="left"}
+![Option zum Veröffentlichen des Inhaltsfragments](assets/content-fragment-publish.png){width="550"}
 
 
 ## Verbesserungen bei Überprüfungen
@@ -66,7 +66,7 @@ AEM Guides bietet jetzt eine verbesserte Überprüfungsfunktion mit den folgende
 Jetzt macht AEM Guides Ihre Rezensionen nahtloser. Sie enthält das Bedienfeld Überprüfungen im Web-Editor. Im Bedienfeld Überprüfungen werden alle Überprüfungsprojekte und die aktiven Überprüfungsaufgaben innerhalb der Überprüfungsprojekte angezeigt, an denen Sie beteiligt sind.
 
 Als Autor können Sie mit dieser Funktion die Prüfungsaufgaben einfach öffnen, die Kommentare anzeigen und die Kommentare schnell in einer zentralen Ansicht bearbeiten.
-![](assets/active-review-task-comments.png){width="800" align="left"}
+![](assets/active-review-task-comments.png){width="800"}
 Weitere Informationen finden Sie in der **Funktionsbeschreibung** im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ### Prüfungsthemen suchen
@@ -75,9 +75,9 @@ Die Durchführung von Überprüfungen ist ein wichtiges Merkmal von AEM Guides. 
 Jetzt können Sie nach einem Thema suchen, indem Sie einen Teil des Textes des Titels oder Dateipfads in die Suchleiste der Themenansicht des Review-Panels eingeben. Sie können auch alle Themen anzeigen oder Themen mit Kommentaren anzeigen. Standardmäßig können Sie alle in der Prüfungsaufgabe vorhandenen Themen anzeigen.
 
 
-![Suchen in einem Bedienfeld mit Prüfungsthemen](assets/review-search-topic.png){width="800" align="left"}
+![Suchen in einem Bedienfeld mit Prüfungsthemen](assets/review-search-topic.png){width="800"}
 
-Weitere Informationen finden Sie unter [Themen &#x200B;](../user-guide/review-topics.md).
+Weitere Informationen finden Sie unter [Themen ](../user-guide/review-topics.md).
 
 ## Handbücher zum Erweiterungs-Framework
 
@@ -87,11 +87,11 @@ Erstellen Sie benutzerdefinierte Pakete auf AEM Guides, um die Erweiterbarkeit m
 
 ## Native PDF-Verbesserungen
 
-Die folgenden nativen PDF-Verbesserungen wurden in Version 4.3.0 vorgenommen, um AEM Guides zu einem robusteren Produkt zu machen:
+In Version 4.3.0 wurden die folgenden nativen PDF-Verbesserungen vorgenommen, um AEM Guides zu einem robusteren Produkt zu machen:
 
 ### Unterstützung für Sprachvariablen
 
-AEM Guides unterstützt Sprachvariablen. Sie können Sprachvariablen verwenden, um eine lokalisierte Version der vordefinierten Kennzeichnungen wie „Hinweis“, „Vorsicht“ und „Warnung“ oder „Statischer Text“ in der PDF-Ausgabe zu definieren.
+AEM Guides unterstützt Sprachvariablen. Sie können Sprachvariablen verwenden, um eine lokalisierte Version der standardmäßigen Kennzeichnungen wie „Hinweis“, „Vorsicht“ und „Warnung“ oder „Statischer Text“ in der PDF-Ausgabe zu definieren.
 Sie können die Sprachvariablen oder die lokalisierte Version der Kennzeichnungen den entsprechenden Abschnitten in Ihrer PDF-Ausgabe und in den Ausgabevorlagen hinzufügen.
 
 #### Sprachvariablen in der PDF-Ausgabe
@@ -110,7 +110,7 @@ Sie können Sprachvariablen für längeren Text erstellen, z. B. einen ganzen Sa
 
 Weitere Informationen finden Sie unter [Unterstützung für Sprachvariablen](../native-pdf/native-pdf-language-variables.md).
 
-### Hinzufügen eines Wasserzeichens zum PDF der Ausgabe für Entwurfsdokumente
+### Hinzufügen eines Wasserzeichens zur PDF-Ausgabe für Entwurfsdokumente
 
 Jetzt können Sie der PDF-Ausgabe des noch nicht genehmigten Dokuments ein Wasserzeichen hinzufügen. Dieses Wasserzeichen wird nicht angezeigt, wenn Sie die PDF für das Dokument im Dokumentstatus „Genehmigt“ generieren. Sie können beispielsweise einen Wasserzeichenentwurf für Ihre PDF-Ausgabe hinzufügen.
 
@@ -123,7 +123,7 @@ Metadaten sind die Beschreibung oder Definition Ihres Inhalts. Diese Metadaten w
 Jetzt können Sie in AEM Guides auch die Metadateneigenschaften Ihrer Assets auswählen und sie zum Seiten-Layout hinzufügen. AEM Guides wählt diese Metadateneigenschaften Ihrer Assets aus und veröffentlicht sie in Ihrer PDF-Ausgabe.
 
 
-![Hinzufügen von Metadaten für native PDF](assets/native-pdf-metadata-asset.png){width="300" align="left"}
+![Hinzufügen von Metadaten für native PDF](assets/native-pdf-metadata-asset.png){width="300"}
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ Weitere Informationen finden Sie unter [Felder und Metadaten hinzufügen](../nat
 
 ### Sortieren von Seiten in der PDF-Ausgabe
 
-Sie können die folgenden Abschnitte auf Ihrem PDF ein- oder ausblenden und auch die Reihenfolge festlegen, in der sie in der endgültigen PDF-Ausgabe angezeigt werden sollen:
+Sie können die folgenden Abschnitte in Ihrer PDF ein- oder ausblenden und auch die Reihenfolge festlegen, in der sie in der endgültigen PDF-Ausgabe angezeigt werden sollen:
 
 * IHV
 * Kapitel und Themen
@@ -145,13 +145,13 @@ Sie können die folgenden Abschnitte auf Ihrem PDF ein- oder ausblenden und auch
 * Zitierung
 * Seiten-Layouts
 
-Wenn Sie einen bestimmten Abschnitt in Ihrer PDF-Ausgabe nicht anzeigen möchten, können Sie dies ausblenden, indem Sie den Umschalter ausschalten.
+Wenn Sie einen bestimmten Abschnitt in Ihrer PDF-Ausgabe nicht anzeigen möchten, können Sie dies ausblenden, indem Sie den Umschalter deaktivieren.
 
 Weitere Informationen finden Sie unter [Seitenreihenfolge](../native-pdf/components-pdf-template.md#page-order).
 
 ### Zusammenführen von Seiten
 
-Bei einer nativen PDF-Ausgabe beginnen standardmäßig alle Abschnitte auf einer neuen Seite. Jetzt können Sie einen Abschnitt mit seiner vorherigen Seite oder der nächsten Seite zusammenführen. Dadurch wird der Abschnitt in Fortsetzung mit der ausgewählten Seite in der PDF-Ausgabe veröffentlicht, und es gibt keinen Seitenumbruch dazwischen.
+In einer nativen PDF-Ausgabe beginnen standardmäßig alle Abschnitte auf einer neuen Seite. Jetzt können Sie einen Abschnitt mit seiner vorherigen Seite oder der nächsten Seite zusammenführen. Dadurch wird der Abschnitt in Fortsetzung mit der ausgewählten Seite in der PDF-Ausgabe veröffentlicht und es wird kein Seitenumbruch dazwischen vorhanden sein.
 
 Weitere Informationen finden Sie in der Beschreibung der Funktion „Seiten zusammenführen“ im Abschnitt [Seitenreihenfolge](../native-pdf/components-pdf-template.md#page-order).
 
@@ -186,9 +186,9 @@ Jetzt können Sie mit AEM Guides die temporären HTML-Dateien herunterladen, die
 
 Diese Funktion bietet bessere Einblicke in den Generierungsprozess mit Zugriff auf Zwischenstile und -Layouts und hilft Ihnen, Ihre CSS-Stile entsprechend Ihren Anforderungen zu korrigieren oder zu ändern.
 
-![Das Dialogfeld „Erweiterte Einstellungen“ der nativen PDF-Datei](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![Das Dialogfeld „Erweiterte Einstellungen“ der nativen PDF-Datei](assets/native-pdf-advanced-settings.png){width="800"}
 
-Weitere Informationen finden Sie unter [Erstellen einer PDF-Ausgabevorgabe](../web-editor/native-pdf-web-editor.md#create-output-preset).
+Weitere Informationen finden Sie unter [Erstellen einer PDF-](../web-editor/native-pdf-web-editor.md#create-output-preset)&quot;.
 
 
 ### Neugestaltung des CSS-Editors
@@ -199,7 +199,7 @@ Jetzt wurde der CSS-Editor neu gestaltet, um das Benutzererlebnis mit Selektoren
 
 Sie können jetzt benutzerdefinierte Selektoren verwenden, um komplexe Stile hinzuzufügen. Mit dem neuen Selektorfeld können Sie neben der Kombination aus Klasse, Tag und Pseudoklasse auch benutzerdefinierte Selektoren hinzufügen. Sie können beispielsweise `table a.link` Stil für alle Hyperlinks in einer Tabelle erstellen.
 
-![Hinzufügen von Stilen in nativen PDF-Vorlagen](assets/add-styles-native-pdf.png){width="300" align="left"}
+![Hinzufügen von Stilen in nativen PDF-Vorlagen](assets/add-styles-native-pdf.png){width="300"}
 
 #### Stileigenschaften anpassen
 
@@ -210,14 +210,14 @@ Jetzt führt AEM Guides Sie in ein neues Eigenschaftenbedienfeld unter dem Vorsc
 
 Jetzt können Sie eine Datei auch über das Repository-Bedienfeld umbenennen oder verschieben. Diese Funktion ist praktisch und hilft bei der einfachen Verwaltung Ihrer Dateien über das Repository-Bedienfeld. Sie können eine Datei auswählen und sie über das Menü **Optionen** für die ausgewählte Datei umbenennen oder verschieben. AEM Guides zeigt eine Erfolgsmeldung an, wenn Sie eine Datei verschieben oder umbenennen.
 
-![Optionsmenü einer Datei](assets/rename-move-assets.png){width="550" align="left"}
+![Optionsmenü einer Datei](assets/rename-move-assets.png){width="550"}
 
 Weitere Informationen zum Optionen-Menü einer Datei finden Sie in der **Repository-Ansicht** Funktionsbeschreibung im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Bericht zu fehlerhaften Links im Web-Editor
 
 Mit AEM Guides können Sie die Vollständigkeit Ihrer technischen Dokumente überprüfen und Berichte über den Web-Editor generieren. Ab jetzt Version Juni 2023 bietet Ihnen AEM Guides die Funktion zum Anzeigen und Beheben von fehlerhaften Links. Dies ist ein nützlicher Bericht, der Ihnen bei der Verwaltung Ihrer fehlerhaften Links hilft. Sie können die beschädigten Links in Ihrer DITA-Karte einfach anzeigen und auch beheben.
-![Bericht zu fehlerhaften Links](assets/broken-link-report.png){width="800" align="left"}
+![Bericht zu fehlerhaften Links](assets/broken-link-report.png){width="800"}
 
 Nachdem Sie einen Link korrigiert haben, wird er nicht mehr unter der Liste der fehlerhaften Links angezeigt.
 
@@ -249,32 +249,32 @@ Weitere Details finden Sie unter [Definieren abstrakter Muster](../user-guide/su
 
 AEM Guides unterstützt auch das XLIFF-Format (XML Localization Interchange File Format) bei der Übersetzung. Jetzt können Sie auch wählen, **Neues XLIFF-Übersetzungsprojekt erstellen**, um den XML-Inhalt in das XLIFF-Format zu konvertieren. AEM Guides unterstützt XLIFF Version 1.2.
 
-Mithilfe dieses Formats können Sie die Inhalte in das standardmäßige XLIFF-Format exportieren und sie dann den Übersetzungsdienstleistern bereitstellen. Weitere Informationen finden Sie unter [Übersetzungsprojekt erstellen](../user-guide/translate-documents-web-editor.md#create-translation-project).
+Mit diesem Format können Sie die Inhalte in das branchenübliche XLIFF-Format exportieren und sie dann den Übersetzungsdienstleistern bereitstellen. Weitere Details finden Sie unter [Übersetzungsprojekt erstellen](../user-guide/translate-documents-web-editor.md#create-translation-project).
 
-![Typen von Übersetzungsprojekten](assets/translation-project-types.png){width="350" align="left"}
+![Typen von Übersetzungsprojekten](assets/translation-project-types.png){width="350"}
 
 
 ## Verbesserungen der Zuordnungssammlung
 
 Mit einer Zuordnungssammlung können Sie mehrere Zuordnungen organisieren und stapelweise veröffentlichen. An der Zuordnungssammlung wurden viele neue Verbesserungen vorgenommen:
 
-* Jetzt können Sie einer Zuordnungssammlung native PDF-Ausgabevorgaben hinzufügen und diese zum Generieren der PDF-Ausgabe verwenden.
+* Jetzt können Sie native PDF-Ausgabevorgaben zu einer Zuordnungssammlung hinzufügen und sie zum Generieren der PDF-Ausgabe verwenden.
 * Sie können die von Ihrem Administrator erstellten globalen und Ordnerprofilvorgaben anzeigen und sie zum Generieren der PDF-Ausgabe verwenden.
 * Jetzt können Sie nicht nur eine einzelne Vorgabe auswählen, sondern auch alle Ordnerprofilvorgaben für eine DITA-Zuordnung in einem Schritt aktivieren.
-  ![Bearbeiten einer Zuordnungssammlung](assets/edit-map-collection.png){width="800" align="left"}
+  ![Bearbeiten einer Zuordnungssammlung](assets/edit-map-collection.png){width="800"}
 
 Weitere Informationen finden Sie unter [Zuordnungssammlung für die Ausgabegenerierung verwenden](../user-guide/generate-output-use-map-collection-output-generation.md).
 
-## Native PDF-Unterstützung im Publish-Dashboard für Massenspeicher
+## Native PDF-Unterstützung im Dashboard zur Massenveröffentlichung
 
 
-Mit der Massenaktivierungsfunktion von AEM Guides können Sie Ihre Inhalte schnell und einfach von der Autoren- zur Veröffentlichungsinstanz aktivieren. In die Massenaktivierungszuordnung können die native PDF-Ausgabevorgabe, die AEM-Site-, PDF-, HTML5-, benutzerdefinierte und JSON-Ausgabe einbezogen werden.
+Mit der Massenaktivierungsfunktion von AEM Guides können Sie Ihre Inhalte schnell und einfach von der Autoren- zur Veröffentlichungsinstanz aktivieren. In die Massenaktivierungszuordnung können die native PDF-Ausgabevorgabe, die AEM-Site, PDF, HTML5, benutzerdefinierte und JSON-Ausgabe einbezogen werden.
 Weitere Informationen finden Sie unter [Massenaktivierung veröffentlichter Inhalte](../user-guide/conf-bulk-activation.md).
 
 ## Verbessertes Tool für Massenverschiebung
 
 Als Administrator können Sie jetzt das verbesserte Tool zum Verschieben von Massen verwenden, um Ordner mit vielen Dateien von einem Speicherort an einen anderen zu verschieben.
-Sie können das Dialogfeld Datei durchsuchen verwenden, um die Quellordner auszuwählen, die verschoben werden sollen. Sie können auch zum Zielspeicherort navigieren, um die Quellordner zu verschieben. Wählen Sie ![Informationssymbol](assets/info-icon.svg) {width="25" align="left"} neben einem Feld aus, um weitere Informationen dazu anzuzeigen.
+Sie können das Dialogfeld Datei durchsuchen verwenden, um die Quellordner auszuwählen, die verschoben werden sollen. Sie können auch zum Zielspeicherort navigieren, um die Quellordner zu verschieben. Wählen Sie ![Informationssymbol](assets/info-icon.svg) {width="25"} neben einem Feld aus, um weitere Informationen dazu anzuzeigen.
 
 Weitere Informationen finden Sie unter [Dateien stapelweise verschieben](../user-guide/authoring-file-management.md#move-files-bulk).
 
@@ -282,7 +282,7 @@ Weitere Informationen finden Sie unter [Dateien stapelweise verschieben](../user
 
 Mit AEM Guides können Sie eine Sammlung oder Favoritenliste Ihrer Dateien und Ordner erstellen und diese einfach verwenden. Das **„Optionen** ist jetzt auch im Bedienfeld &quot;**&quot;**. Sie können die ausgewählte Sammlung umbenennen oder sie aus dem Menü **Optionen** löschen. Sie können die Option **Aktualisieren** auswählen, um eine neue Liste der Dateien oder Ordner aus dem Repository abzurufen. Sie können die Ordnerinhalte auch in der Benutzeroberfläche von Assets anzeigen.
 
-![Das Bedienfeld Favoriten](assets/favorites-options.png){width="650" align="left"}
+![Das Bedienfeld Favoriten](assets/favorites-options.png){width="650"}
 
 >[!NOTE]
 >
@@ -294,6 +294,6 @@ Weitere Informationen zum Menü **Optionen** einer Favoritensammlung finden Sie 
 
 Sie können jetzt auch das Geräte-Design verwenden. Unter **Benutzereinstellungen** können Sie AEM Guides so konfigurieren, dass je nach Design Ihres Geräts automatisch zwischen hellen und dunklen Designs gewechselt wird.
 
-![Benutzervoreinstellungen](assets/device-theme-user-preferences.png){width="550" align="left"}
+![Benutzervoreinstellungen](assets/device-theme-user-preferences.png){width="550"}
 
 Weitere Informationen finden Sie in der Beschreibung der Funktion **Benutzereinstellungen** im Abschnitt [Hauptsymbolleiste](../user-guide/web-editor-features.md#id2051EA0G05Z).

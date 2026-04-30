@@ -4,7 +4,7 @@ description: Erstellen einer PDF-Vorgabe im Abschnitt Produktschulung und -erler
 feature: Authoring
 role: User
 exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Führen Sie die folgenden Schritte aus, um eine PDF-Ausgabevorgabe zu erstellen:
 
 1. Öffnen Sie den Kurs in **Map-Konsole**.
 
-   ![](assets/open-in-map-console.png){width="350" align="left"}
+   ![](assets/open-in-map-console.png){width="350"}
 
 1. Wählen Sie **Bedienfeld &quot;**&quot; das Symbol + , um eine Ausgabevorgabe zu erstellen.
 1. Wählen Sie **PDF** aus der Dropdown **Liste „Typ** im Dialogfeld „Neue Ausgabevorgabe“ aus.
@@ -28,4 +28,4 @@ Führen Sie die folgenden Schritte aus, um eine PDF-Ausgabevorgabe zu erstellen:
 
 Die Seite &quot;PDF-Voreinstellung“ wird geöffnet. Dort können Sie die erforderlichen Konfigurationen vornehmen.
 
-![](assets/learning-pdf-preset.png){width="650" align="left"}
+![](assets/learning-pdf-preset.png){width="650"}

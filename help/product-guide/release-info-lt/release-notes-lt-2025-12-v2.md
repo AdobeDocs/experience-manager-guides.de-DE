@@ -3,7 +3,7 @@ title: Versionshinweise | Neue Funktionen in der Version Dezember 2025 von Produ
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version vom Dezember 2025 der Schulungs- und Lerninhalte für Produkte
 role: Leader
 exl-id: 72d4fd5c-194a-4671-bcec-35fc35ff3165
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 1%
@@ -24,19 +24,19 @@ Dieser Versionshinweis behandelt die neuen und erweiterten Funktionen, die mit d
 
   Weitere Informationen finden Sie unter [Weitere Optionen im Menü Einfügen](../learning-content/lc-other-insert-options.md).
 
-  ![](assets/knowledge-check-topic.png){width="650" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650"}
 
 - **Neue interaktive Widgets**: Sie können Lernende mit einigen neuen interaktiven Widgets ansprechen, die Inhalte eindrucksvoller gestalten: **Zum Anzeigen klicken**, **Karte wechseln** und **Tabulator**.
 
   Weitere Informationen finden Sie unter [Verwenden interaktiver Widgets](../learning-content/lc-widgets.md).
 
-  ![](assets/new-widgets-options.png){width="350" align="left"}
+  ![](assets/new-widgets-options.png){width="350"}
 
 - **Entsprechendes beachten**: Ein neuer Fragetyp, **Entsprechendes beachten**, ist für Quiz verfügbar. Lernende können Elemente aus zwei Listen abgleichen, um verwandte Ideen miteinander zu verbinden und kritisches Denken zu fördern.
 
   Weitere Informationen finden Sie unter [Quizfragetypen](../learning-content/quiz-insert-questions.md#question-types).
 
-  ![](assets/question-types.png){width="650" align="left"}
+  ![](assets/question-types.png){width="650"}
 
 ## Überprüfung
 
@@ -44,7 +44,7 @@ Dieser Versionshinweis behandelt die neuen und erweiterten Funktionen, die mit d
 
   Für Details siehe [Prüfungsaufgabe erstellen](../learning-content/manage-course.md#create-review-task).
 
-  ![](assets/create-review-task-lc.png){width="650" align="left"}
+  ![](assets/create-review-task-lc.png){width="650"}
 
 ## Content-Management
 
@@ -52,4 +52,4 @@ Dieser Versionshinweis behandelt die neuen und erweiterten Funktionen, die mit d
 
   Weitere Informationen finden Sie unter [Grundlegende Bausteine hinzufügen](../learning-content/lc-basic-blocks.md).
 
-  ![](assets/reusable-content.png){width="650" align="left"}
+  ![](assets/reusable-content.png){width="650"}

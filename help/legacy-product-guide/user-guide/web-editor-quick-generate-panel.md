@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -20,7 +20,7 @@ AEM Guides bietet ein **Quick Generate**-Bedienfeld, das in den Web-Editor integ
 >
 > Das **Quick Generate**-Bedienfeld wird für die DITA-Karte angezeigt, die im Bedienfeld „Kartenansicht“ geöffnet wurde.
 
-![](images/quick-generate-map-view.png){width="800" align="left"}
+![](images/quick-generate-map-view.png){width="800"}
 
 Führen Sie die folgenden Schritte aus, um die Ausgabe über das Bedienfeld **Schnellgenerierung** zu generieren:
 
@@ -30,4 +30,4 @@ Führen Sie die folgenden Schritte aus, um die Ausgabe über das Bedienfeld **Sc
 1. Klicken Sie **Generieren**, um die Ausgabe für die ausgewählten Vorgaben zu generieren. Bei der Generierung der Ausgabe wird eine Erfolgsmeldung angezeigt. Wenn die Generierung fehlschlägt, wird eine Fehlermeldung angezeigt. Sie können auch das Fehlerprotokoll einsehen, um die Details des Fehlers anzuzeigen, der beim Generierungsprozess aufgetreten ist.
 1. Klicken Sie auf **Ausgabe anzeigen** \( ![](images/view-output-icon.svg)\)-Symbol einer bestimmten Vorgabe, um die für die Vorgabe generierte Ausgabe anzuzeigen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

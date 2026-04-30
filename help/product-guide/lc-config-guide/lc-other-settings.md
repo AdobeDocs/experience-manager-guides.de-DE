@@ -5,7 +5,7 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -20,12 +20,12 @@ Als Administrator können Sie auch die folgenden Einstellungen für die Autoren 
 
   Sie können auf Snippets über das linke Bedienfeld im Editor zugreifen.
 
-  ![](assets/create-snippets.png){width="350" align="left"}
+  ![](assets/create-snippets.png){width="350"}
 - **Bedingungen**: Als Administrator können Sie standardmäßige DITA-unterstützte bedingte Attribute auf globaler Ebene oder Ordnerebene konfigurieren. Autoren verwenden dann konfigurierte Bedingungen, indem sie die gewünschte Bedingung einfach per Drag-and-Drop auf ihren Inhalt ziehen.
 
   Sie können auf Bedingungen über das linke Bedienfeld im Editor zugreifen.
 
-  ![](assets/create-conditions.png){width="350" align="left"}
+  ![](assets/create-conditions.png){width="350"}
 - **Variablen**: Sie können Variablen definieren, um Ihre Inhalte portabler, konsistenter und einfacher zu aktualisieren. Während der Ausgabegenerierung werden Variablen durch die Werte aus dem ausgewählten Variablensatz ersetzt, sodass Sie benutzerdefinierte Ausgaben effizient erstellen können.
 
   Weitere Informationen finden Sie unter [Neue Variable erstellen](../native-pdf/native-pdf-variables.md#create-a-new-variable)

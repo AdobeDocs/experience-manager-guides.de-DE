@@ -5,7 +5,7 @@ feature: Translation
 role: User
 hide: true
 exl-id: b623b109-8695-40e5-9e28-78f78cf57ad6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
    Wenn Sie auf den Pfeil klicken, um weitere Details anzuzeigen. Sie können die jeweilige Sprachkopie sehen, die veraltet ist.
 
-   ![](images/out-of-sync-uuid.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid.png){width="800"}
 
 1. Aktivieren Sie das Kontrollkästchen, um die Themen auszuwählen, die zur erneuten Übersetzung gesendet werden sollen.
 
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 
 1. Navigieren Sie in der Projektkonsole zum Übersetzungsprojekt. Im Ordner wird eine neue Karte für Übersetzungsaufträge erstellt. Klicken Sie auf die Auslassungszeichen, um die Assets des Ordners anzuzeigen.
 
-   ![](images/incremental-job.PNG){width="300" align="left"}
+   ![](images/incremental-job.PNG){width="300"}
 
 1. Um die Übersetzung zu starten, klicken Sie auf der Karte Übersetzungsauftrag auf den Pfeil und wählen Sie **Starten** aus der Liste aus. Eine Meldung informiert Sie darüber, dass der Vorgang gestartet wurde.
 
@@ -79,4 +79,4 @@ Führen Sie die folgenden Schritte aus, um ein geändertes Thema zur erneuten Ü
 1. Navigieren Sie zurück zur DITA-Zuordnungsdatei im Ordner für die Ausgangssprache in der Assets-Benutzeroberfläche. Die neu übersetzten Themen sind jetzt synchronisiert.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte übersetzen](translation.md)
+**Übergeordnetes Thema:**[ Inhalte übersetzen](translation.md)

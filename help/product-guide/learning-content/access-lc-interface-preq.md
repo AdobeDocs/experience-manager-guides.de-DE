@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Benutzeroberfläche und die Voraussetzu
 feature: Authoring
 role: User
 exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '306'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ In diesem Artikel wird erläutert, wie Sie auf die Benutzeroberfläche zugreifen
 
 Führen Sie die folgenden Schritte aus, um auf die Benutzeroberfläche zuzugreifen:
 
-1. Melden Sie sich bei Ihrer AEM-Instanz an. 
+1. Melden Sie sich bei Ihrer AEM-Instanz an.
 2. Wählen Sie auf der AEM-Navigationsseite die Option **Handbücher** aus.
 3. Sie befinden sich jetzt auf der Startseite von **Experience Manager Guides**. Verwenden Sie den Navigationsumschalter, um zu den folgenden Ansichten zu wechseln:
 
@@ -29,7 +29,7 @@ Führen Sie die folgenden Schritte aus, um auf die Benutzeroberfläche zuzugreif
 
    Weitere Informationen finden Sie unter [Adobe Experience Manager Guides-Startseitenerlebnis](../user-guide/intro-home-page.md).
 
-   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350"}
 
 ## Voraussetzungen
 

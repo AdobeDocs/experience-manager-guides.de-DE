@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2362'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
 
    Der folgende Bildschirm wird angezeigt, wenn eine DITA-Zuordnung verwendet wird, um den Überprüfungs-Workflow zu starten:
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){width="800"}
 
    Folgende Optionen sind auf diesem Bildschirm verfügbar:
 
@@ -64,13 +64,13 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
 
    Alle Themen in der Karte werden als einzelnes zusammengesetztes Dokument angezeigt. Die Themen, die der Reviewer überprüfen darf, werden normal angezeigt. Die Themen, die die Überprüfung nicht überprüfen darf, werden nicht angezeigt.
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){width="800"}
 
    Im obigen Screenshot wird das Thema Allgemeine Beschreibung für den aktuellen Reviewer freigegeben. Es wird normal angezeigt. Das nächste Thema, Verlauf des Fluginhalts , wird jedoch nicht zur Überprüfung freigegeben und es wird im schreibgeschützten Modus angezeigt. Das Thema, das derzeit im Fokus steht, wird auch im Inhaltsverzeichnis hervorgehoben.
 
    Der folgende Bildschirm wird angezeigt, wenn ein oder mehrere Themen ausgewählt und zur Überprüfung freigegeben werden:
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){width="800"}
 
    >[!NOTE]
    >
@@ -92,15 +92,15 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
 
 Wenn Sie ein einzelnes Thema anzeigen, erhalten Sie eine zusätzliche Option, um zur Dokumentansicht zurückzukehren. Im folgenden Screenshot wird ein bestimmtes Thema aus einer Zuordnungsdatei zur Überprüfung geöffnet. Mit der hervorgehobenen Option **Dokumentansicht anzeigen** können Benutzer zur Dokumentansicht der Zuordnungsdatei zurückkehren.
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){width="800"}
 
 **Arbeiten mit verschiedenen Arten von Kommentar-Tools** - Sie können Inline-Kommentare hinzufügen, indem Sie Text markieren, durch Text streichen, Text einfügen oder eine Kommentar-Anmerkung hinzufügen. Nachfolgend werden die verschiedenen Arten von Kommentar-Tools beschrieben, die in der Symbolleiste „Kommentare“ verfügbar sind:
 
-![](images/comments-toolbar.png){width="350" align="left"}
+![](images/comments-toolbar.png){width="350"}
 
 - **Hervorheben** \(![](images/review-highlight-icon.svg)\): Um einen Hervorhebungskommentar hinzuzufügen, wählen Sie den Text aus und klicken Sie auf das Symbol „Hervorheben“. Oder klicken Sie auf das Symbol Hervorheben und wählen Sie den gewünschten Text aus:
 
-  ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650"}
 
   Im Bedienfeld „Kommentare“ wird ein Popup angezeigt, in dem Sie Ihren Kommentar für den hervorgehobenen Inhalt hinzufügen können.
 
@@ -119,7 +119,7 @@ Mit der kontextuellen Symbolleiste können Sie Text auch schnell markieren oder 
 
 1. Wählen Sie den Text aus, den Sie markieren oder durchstreichen möchten. Die kontextuelle Symbolleiste wird angezeigt.
 
-   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
+   ![](images/review-quick-launch-toolbar.png){width="550"}
 
 1. Klicken Sie auf **Symbol** Hervorheben **oder Durchstreichen** .
 1. Sie können im Kommentarbereich Kommentare für die Hervorhebungs- oder Durchgestrichen-Aktion hinzufügen.
@@ -135,7 +135,7 @@ Nachfolgend werden die Aufgaben beschrieben, die Sie mit dem Bedienfeld „Komme
 - Sie können Ihren eigenen Kommentar bearbeiten, indem Sie im Kommentarbedienfeld auf Ihren kommentierten Text klicken und dann **Bearbeiten** aus dem Optionsmenü auswählen.
 - Sie können Ihre eigenen Kommentare löschen, indem Sie im Kommentarbereich auf den Kommentar klicken und dann im Menü „Optionen **die Option** Löschen“ auswählen.
 
-  ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300"}
 
   >[!NOTE]
   >
@@ -149,17 +149,17 @@ Nachfolgend werden die Aufgaben beschrieben, die Sie mit dem Bedienfeld „Komme
 
 - Der folgende Screenshot zeigt den Inhalt im *-*:
 
-![](images/review-author-mode.png){width="550" align="left"}
+![](images/review-author-mode.png){width="550"}
 
 Der folgende Screenshot zeigt den Inhalt im *-*:
 
-![](images/review-preview-mode.png){width="550" align="left"}
+![](images/review-preview-mode.png){width="550"}
 
-**Anhänge zu Kommentaren hinzufügen** -   Wenn Sie Ihren Kommentar durch zusätzliche Informationen ergänzen möchten, die in einer anderen Datei verfügbar sind, können Sie dies tun, indem Sie ihn mit Ihrem Kommentar anhängen. Als Reviewer können Sie einfach eine oder mehrere Dateien aus Ihrem lokalen System zu Ihrem Kommentar hinzufügen. Sie können eine Datei zu allen unterstützten Kommentarformen hinzufügen - Hervorheben, Durchstreichen, Text einfügen oder Kommentar.
+**Anhänge zu Kommentaren hinzufügen** - Wenn Sie Ihren Kommentar durch zusätzliche Informationen ergänzen möchten, die in einer anderen Datei verfügbar sind, können Sie dies tun, indem Sie ihn mit Ihrem Kommentar anhängen. Als Reviewer können Sie einfach eine oder mehrere Dateien aus Ihrem lokalen System zu Ihrem Kommentar hinzufügen. Sie können eine Datei zu allen unterstützten Kommentarformen hinzufügen - Hervorheben, Durchstreichen, Text einfügen oder Kommentar.
 
 Wenn Sie einen der Kommentare einfügen, wird das Kommentar-Popup angezeigt. Nachdem Sie im Popup-Fenster zusätzliche Kommentare oder Informationen eingegeben haben, können Sie diese mit der Eingabetaste übermitteln. Nachdem der Kommentar hinzugefügt wurde, haben Sie die Möglichkeit, diesem Kommentar einen Anhang hinzuzufügen.
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){width="800"}
 
 Im obigen Screenshot enthält das Dokument das Popup-Fenster des hervorgehobenen Kommentars, und der Kommentar wird auch im Bedienfeld Kommentare hinzugefügt. Das Dateianhang-Symbol ![](images/file-attach-review.svg)ist zusammen mit dem Kommentar an beiden Speicherorten verfügbar.
 
@@ -184,30 +184,30 @@ Führen Sie die folgenden Schritte aus, um Ihrem Kommentar einen Anhang hinzuzuf
 
 - Standardmäßig werden nur zwei Dateien angezeigt, die mit einem Kommentar versehen sind. Wenn es mehr Dateien gibt, zeigt **Schaltfläche „Anlage anzeigen** auf der rechten Seite die Anzahl aller Anlagen \(die mehr als zwei sind\), die mit dem Kommentar verbunden sind. Sie können auf die Zahl klicken, um alle Anhänge anzuzeigen. Wenn Sie beispielsweise vier Anhänge mit einem Kommentar haben, wird +2 auf der Schaltfläche angezeigt.
 
-![](images/review-view-attachment.png){width="550" align="left"}
+![](images/review-view-attachment.png){width="550"}
 
 - Wenn Sie den Mauszeiger über einen Anhang bewegen, erhalten Sie die Möglichkeit, den Anhang herunterzuladen oder zu entfernen. Das Entfernen des Anhangs ist nur verfügbar, wenn der aktuelle Reviewer diesen Kommentar hinzugefügt hat, wie im folgenden Screenshot gezeigt:
 
-![](images/current-user-comment-options.png){width="550" align="left"}
+![](images/current-user-comment-options.png){width="550"}
 
 Die anderen Reviewer oder Autoren erhalten nur die Option „Anlage herunterladen“.
 
-![](images/other-reviewer-download.png){width="550" align="left"}
+![](images/other-reviewer-download.png){width="550"}
 
 - Sie können alle Anlagen, die mit einem Kommentar verbunden sind, über das Dialogfeld **Anlagen anzeigen** herunterladen. Wählen Sie die Anhänge aus und klicken Sie auf **Kommentarebene auf** Symbol „Herunterladen“.
 
 - Sie können auch die Anlagen, die mit einem Kommentar verknüpft sind, im Dialogfeld **Anlagen anzeigen** löschen. Wählen Sie die Anlagen aus und klicken Sie auf **Löschen** Symbol.
 
-![](images/attach-files-comments-panel.png){width="550" align="left"}
+![](images/attach-files-comments-panel.png){width="550"}
 
 
-**Bedienfeld „Bedingungen** -   Wenn Ihr Thema bedingte Inhalte hat, wird auf der rechten Seite das **Bedingungen** \(![](images/conditions-icon.svg)\) angezeigt. Durch Klicken auf **Bedingungen** wird das Bedienfeld Bedingungen geöffnet, in dem Sie den Inhalt entsprechend den verfügbaren Bedingungen im Thema markieren können.
+**Bedienfeld Bedingungen** - Wenn Ihr Thema bedingte Inhalte hat, wird auf der rechten Seite das Symbol **Bedingungen** \(![](images/conditions-icon.svg)\) angezeigt. Durch Klicken auf **Bedingungen** wird das Bedienfeld Bedingungen geöffnet, in dem Sie den Inhalt entsprechend den verfügbaren Bedingungen im Thema markieren können.
 
-:   Standardmäßig ist **Option „Alle Bedingungen hervorheben** aktiviert, alle Bedingungen sind ausgewählt, der gesamte Inhalt wird angezeigt und der bedingte Inhalt wird sowohl im Vorschau- als auch im Vorschaumodus hervorgehoben angezeigt.
+: Standardmäßig ist **Option „Alle Bedingungen hervorheben** aktiviert, alle Bedingungen sind ausgewählt, der gesamte Inhalt wird angezeigt und der bedingte Inhalt wird sowohl im Vorschau- als auch im Vorschaumodus hervorgehoben angezeigt.
 
-:   Sie können die Option **Alle Bedingungen hervorheben** deaktivieren und den gesamten Inhalt des Themas als normalen Text ohne Hervorhebungen anzeigen.
+: Sie können die Option **Alle Bedingungen hervorheben** deaktivieren und den gesamten Inhalt des Themas als normalen Text ohne Hervorhebungen anzeigen.
 
-![](images/review-conditions-panel.png){width="350" align="left"}
+![](images/review-conditions-panel.png){width="350"}
 
 Sie können eine bestimmte Bedingung aus- oder einblenden.
 
@@ -215,11 +215,11 @@ Sie können eine bestimmte Bedingung aus- oder einblenden.
 - Wenn Sie eine Bedingung anzeigen, wird der bedingte Inhalt im Überprüfungsmodus hervorgehoben. Im folgenden Screenshot beispielsweise verwendet nur der Inhalt zwei Bedingungen - `win` und `mac` ist hervorgehoben.
 
 
-![](images/review-condition-normal-mode.png){width="650" align="left"}
+![](images/review-condition-normal-mode.png){width="650"}
 
 Im Vorschaumodus werden der nicht bedingte Inhalt und der bedingte Inhalt, der die beiden angezeigten Bedingungen verwendet - `win` und `mac` - angezeigt. Der verbleibende bedingte Inhalt, für den die Bedingungen ausgeblendet sind, wird nicht angezeigt.
 
-**Echtzeit-Überprüfung** -   Das Bedienfeld „Kommentare“ wird in Echtzeit mit Kommentaren und dem Feedback oder der Aktion des Autors zu den Kommentaren aktualisiert.
+**Echtzeitüberprüfung** - Das Bedienfeld „Kommentare“ wird in Echtzeit mit Kommentaren und dem Feedback oder der Aktion des Autors zu den Kommentaren aktualisiert.
 
 - Mehrere Reviewer können im selben Dokument Kommentare hinterlassen oder gleichzeitig auf Kommentare antworten. Um herauszufinden, wer das Dokument derzeit überprüft, bewegen Sie den Mauszeiger über das Benutzersymbol oben rechts im Bildschirm.
 
@@ -227,7 +227,7 @@ Im Vorschaumodus werden der nicht bedingte Inhalt und der bedingte Inhalt, der d
 
 - Durch Klicken auf das Symbol Veralteter Kommentar \(![](images/outdated-comment-icon.svg)\) werden die Unterschiede zwischen der neuesten und der kommentierten Version des Dokuments angezeigt. Die Versionsnummern \(der zu vergleichenden Versionen\) werden oben in den Dokumenten angezeigt.
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){width="800"}
 
   >[!NOTE]
   >
@@ -235,7 +235,7 @@ Im Vorschaumodus werden der nicht bedingte Inhalt und der bedingte Inhalt, der d
 
 - Wenn Sie auf einen veralteten Kommentar klicken, wird die Version dieses Kommentars im linken Bereich geöffnet. Die vorherige Version wird im linken Bereich angezeigt und die aktuelle Version wird im rechten Bereich angezeigt. Alle Kommentare zur veralteten Version werden auf der linken Seite importiert. Sie können die vorherige Version mit der aktuellen Version vergleichen.
 
-**Kommentare filtern** -   Sie können Kommentare in einem Dokument filtern, um bestimmte Kommentare nach Bedarf anzuzeigen. Um Kommentare zu filtern, klicken Sie auf **Filter**-Symbol \(![](images/filter-search-icon.svg)\), das im Menü rechts neben dem Textfeld „Kommentare durchsuchen“ im Bedienfeld „Kommentare“ angezeigt wird.
+**Kommentare filtern** - Sie können Kommentare in einem Dokument filtern, um bestimmte Kommentare nach Bedarf anzuzeigen. Um Kommentare zu filtern, klicken Sie auf **Filter**-Symbol \(![](images/filter-search-icon.svg)\), das im Menü rechts neben dem Textfeld „Kommentare durchsuchen“ im Bedienfeld „Kommentare“ angezeigt wird.
 
 Wählen Sie eine oder mehrere der folgenden Filteroptionen im Dialogfeld **Filtertyp** und klicken Sie auf **Anwenden**.
 
@@ -250,4 +250,4 @@ Wählen Sie eine oder mehrere der folgenden Filteroptionen im Dialogfeld **Filte
 
 Um den Filter zu entfernen und alle Kommentare anzuzeigen, heben Sie die Auswahl aller Filter im Dialogfeld **Filtertyp** auf und klicken Sie auf **Anwenden**.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Themen oder Karten überprüfen](review.md)
+**Übergeordnetes Thema:**[ Themen oder Karten überprüfen](review.md)

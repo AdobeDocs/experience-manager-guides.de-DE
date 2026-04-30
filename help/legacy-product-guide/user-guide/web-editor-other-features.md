@@ -5,7 +5,7 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 7639fa76-b319-44b5-9ff8-2b8c1a716b7b
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '2564'
 ht-degree: 0%
@@ -20,29 +20,29 @@ Es gibt einige andere nützliche Funktionen im Web-Editor, die Sie nutzen könne
 
 Wenn Sie eine Datei im Web-Editor öffnen, können Sie verschiedene Aktionen über das Kontextmenü ausführen. Je nachdem, ob Sie eine Mediendatei, eine einzelne DITA-Datei oder mehrere Dateien öffnen, werden Ihnen möglicherweise unterschiedliche Optionen angezeigt.
 
-**Media file**
+**Mediendatei**
 
 Die folgenden Funktionen finden Sie im Kontextmenü der Registerkarte einer geöffneten Mediendatei:
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 **Einzelne DITA-Datei**
 
 Die folgenden Funktionen finden Sie im Kontextmenü der Registerkarte einer geöffneten Datei:
 
-:   ![](images/single-file-context-menu.png){width="300" align="left"}
+:   ![](images/single-file-context-menu.png){width="300"}
 
 **Mehrere Dateien**
 
 Wenn mehrere Dateien geöffnet sind, stehen im Kontextmenü weitere Optionen zur Verfügung:
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 Nachfolgend werden die verschiedenen Optionen im Kontextmenü erläutert:
 
 ***Speichern***: Sie können aus den folgenden Optionen auswählen:
 
-- **Speichern**: Um eine Datei zu speichern, ohne eine neue Version zu erstellen, wählen Sie **Speichern**. Wenn Sie ein neues Thema erstellen, wird in DAM eine Arbeitskopie des Themas ohne Version erstellt. Durch Speichern des Dokuments wird die Arbeitskopie des Dokuments in DAM aktualisiert. Durch eine einfache Speicherung dieser Version wird keine neue Version eines Themas erstellt. If your topic is under review, saving a topic does not give your reviewers access to your changed topic content.
+- **Speichern**: Um eine Datei zu speichern, ohne eine neue Version zu erstellen, wählen Sie **Speichern**. Wenn Sie ein neues Thema erstellen, wird in DAM eine Arbeitskopie des Themas ohne Version erstellt. Durch Speichern des Dokuments wird die Arbeitskopie des Dokuments in DAM aktualisiert. Durch eine einfache Speicherung dieser Version wird keine neue Version eines Themas erstellt. Wenn Ihr Thema überprüft wird, erhalten Ihre Reviewer beim Speichern eines Themas keinen Zugriff auf den Inhalt Ihres geänderten Themas.
 
 - **Alle speichern**: Wenn mehrere Dokumente im Web-Editor geöffnet sind, erhalten Sie auch eine Option zum **Alle speichern** geöffneter Dokumente.
 
@@ -85,7 +85,7 @@ Um die AEM-Eigenschaftsseite der ausgewählten Datei anzuzeigen, wählen Sie **E
 
 Standardmäßig können Sie mit dem Web-Editor jeweils nur ein Thema anzeigen. Es kann Fälle geben, in denen Sie zwei oder mehr Themen gleichzeitig sehen möchten. Durch die Aufteilung des Bildschirms des Editors können Sie mehrere Themen gleichzeitig anzeigen. Beispiel: Zwei Themen - A und B - sind im Editor geöffnet. Wenn Sie mit der rechten Maustaste auf Thema B klicken und **Aufspaltung \> Nach** wählen, wird das Editor-Fenster in zwei Teile unterteilt. Thema B wird in der oberen Hälfte und Thema A in der unteren Hälfte angezeigt. Ebenso können Sie den Bildschirm auch horizontal aufteilen, indem Sie **Aufspaltung \> Links** oder **Aufspaltung \> Rechts** auswählen. Im folgenden Screenshot des Web-Editors werden Themen horizontal und vertikal geteilt angezeigt. In jeder Teilung können Sie eine andere Ansicht haben. Im folgenden Screenshot befindet sich beispielsweise der Bildschirm 1 im Source-Ansichtsmodus, Bildschirm 2 hat zwei Dokumente im Autorenmodus geöffnet und Bildschirm 3 ist im Vorschaumodus. Sie können Ihre Dokumente von einem Bildschirm auf den anderen verschieben, indem Sie die Registerkarte Datei ziehen und auf dem Bildschirm ablegen, auf dem Sie sie platzieren möchten. Ebenso können Sie die Dateiregisterkarten auch neu anordnen, indem Sie sie nach Ihren Wünschen ziehen und verschieben.
 
-![](images/split-editor.png){width="800" align="left"}
+![](images/split-editor.png){width="800"}
 
 ***Quick Generate***
 
@@ -116,7 +116,7 @@ Je nachdem, ob die Datei gesperrt/entsperrt ist und gespeicherte oder nicht gesp
 
 - **Entsperren und Schließen**: Die Sperre für die Datei wird aufgehoben, und die Datei wird geschlossen.
 
-  ![](images/file-close-unlock-file.png){width="400" align="left"}
+  ![](images/file-close-unlock-file.png){width="400"}
 
 - **Als neue Version speichern**: Speichert die Änderungen, die Sie am Inhalt vorgenommen haben, und erstellt eine neue Version der Datei. Sie können der neu gespeicherten Version auch Beschriftungen und Kommentare hinzufügen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version speichern](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -128,7 +128,7 @@ Je nachdem, ob die Datei gesperrt/entsperrt ist und gespeicherte oder nicht gesp
 
   Eine der Eingabeaufforderungen wird beispielsweise im folgenden Screenshot angezeigt:
 
-  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400"}
 
 **Visuelle Hinweise auf fehlerhafte Verweise**
 
@@ -162,11 +162,11 @@ Je nachdem, ob die Datei gesperrt/entsperrt ist und gespeicherte oder nicht gesp
 
 - Experience Manager Guides bietet vorkonfigurierte Unterstützung zum Einfügen von MathML-Gleichungen durch Integration mit dem [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro)-Programm. Um eine MathML-Gleichung einzufügen, klicken Sie auf das Symbol **Element einfügen** und geben Sie mathml ein. Wenn Sie ein mathml-Element aus der Liste auswählen, wird **Dialogfeld &quot;MathML einfügen** angezeigt:
 
-![Einfügen einer MathML-Gleichung im MathML-Editor](images/insert-mathml-equation.png){width="550" align="left"}
+![Einfügen einer MathML-Gleichung im MathML-Editor](images/insert-mathml-equation.png){width="550"}
 
 Erstellen Sie mithilfe der MathML-Formel Ihre Formel und klicken Sie auf **Einfügen**, um sie Ihrem Dokument hinzuzufügen. Die Gleichung wird mit hellgrauem Hintergrund eingefügt, wie unten dargestellt:
 
-![Beispiel-mathml-Gleichung](images/sample-mathml-equation.PNG){width="400" align="left"}
+![Beispiel-mathml-Gleichung](images/sample-mathml-equation.PNG){width="400"}
 
 Sie können eine Formel jederzeit aktualisieren, indem Sie mit der rechten Maustaste auf eine vorhandene Gleichung klicken und **MathML bearbeiten** aus dem Kontextmenü auswählen.
 
@@ -175,7 +175,7 @@ Sie können eine Formel jederzeit aktualisieren, indem Sie mit der rechten Maust
   Experience Manager Guides validiert MathML-Gleichungen, wenn Sie ein Thema speichern, das sie enthält.
 Wenn Sie eine Gleichung mit dem MathML-Editor einfügen, markiert Experience Manager Guides die Gleichung rot, wenn Syntaxprobleme auftreten. Sie können sie vor dem Einfügen korrigieren. Wenn Sie keine Änderungen vornehmen, aber **Einfügen** auswählen, wird eine Warnung angezeigt.
 
-  ![Validieren einer MathML-Gleichung](images/validate-mathml-equation.png){width="400" align="left"}
+  ![Validieren einer MathML-Gleichung](images/validate-mathml-equation.png){width="400"}
 
   Wenn Sie die MathML-Gleichung einfügen, die einen Syntaxfehler enthält, tritt beim Speichern des Themas ein Validierungsfehler auf.
 
@@ -189,7 +189,7 @@ Wenn Sie eine Gleichung mit dem MathML-Editor einfügen, markiert Experience Man
 
 - Der Web-Editor zeigt den Breadcrumb des Elements oben im Thema an. Wenn Sie ein Element durch ein anderes ersetzen möchten, können Sie dies im Kontextmenü des Breadcrumbs tun. Sie können beispielsweise `p` Element durch `note` oder ein anderes gültiges Element im Kontext austauschen.
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 Klicken Sie im Breadcrumb mit der rechten Maustaste auf den Namen eines Elements, das Sie ersetzen möchten, und wählen Sie dann im Kontextmenü Element umbenennen . Das Dialogfeld Element umbenennen zeigt alle gültigen Elemente an, die am aktuellen Speicherort zulässig sind. Wählen Sie im Dialogfeld Element umbenennen das Element aus, das Sie verwenden möchten. Das ursprüngliche Element wird durch das neue Element ersetzt.
 
@@ -228,7 +228,7 @@ Zusätzlich zum Kontextmenü des Breadcrumbs kann das Dialogfeld Element umbenen
 
 - DITA-Elemente, die Zeilenumbrüche und Leerzeichen enthalten, werden gemäß ihrer Definition im Author-, Source- oder Preview-Modus unterstützt und gerendert, sowie in der endgültigen veröffentlichten Ausgabe. Der folgende Screenshot zeigt den Inhalt innerhalb des `msgblock`, bei dem die Zeilenumbrüche und Leerzeichen \(Einzug\) beibehalten wurden:
 
-![](images/new-line-support_cs.png){width="500" align="left"}
+![](images/new-line-support_cs.png){width="500"}
 
 
 
@@ -253,4 +253,4 @@ Gehen Sie folgendermaßen vor, um automatisch eine ID für ein oder mehrere Elem
    Alternativ können Sie mit der rechten Maustaste in den Breadcrumb klicken und **IDs generieren** auswählen.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

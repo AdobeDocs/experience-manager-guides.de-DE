@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides, Version Juli 2023
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides, Version Juli 2023
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version Juli 2023 von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Jetzt ermöglicht AEM Guides Ihrem Administrator die Konfiguration der vorkonfig
 
 Nach dem Hinzufügen können Sie die konfigurierten Connectoren anzeigen, die unter dem Bedienfeld **Datenquellen** im Web-Editor aufgeführt sind.
 
-![](assets/code-snippet-generator.png){width="300" align="left"}
+![](assets/code-snippet-generator.png){width="300"}
 
 Sie können einen Inhaltsfragment-Generator erstellen, um die Daten aus einer verbundenen Datenquelle abzurufen. Anschließend können Sie die Daten in Ihre Themen einfügen und bearbeiten.
 
@@ -38,7 +38,7 @@ Nachdem Sie einen Inhaltsfragment-Generator erstellt haben, können Sie ihn wied
 Jetzt macht AEM Guides Ihre Rezensionen nahtloser. Sie enthält das Bedienfeld Überprüfungen im Web-Editor. Im Bedienfeld Überprüfungen werden alle Überprüfungsprojekte und die aktiven Überprüfungsaufgaben innerhalb der Überprüfungsprojekte angezeigt, an denen Sie beteiligt sind.
 
 Als Autor können Sie mit dieser Funktion die Prüfungsaufgaben einfach öffnen, die Kommentare anzeigen und die Kommentare schnell in einer zentralen Ansicht bearbeiten.
-![](assets/active-review-task-comments.png){width="800" align="left"}
+![](assets/active-review-task-comments.png){width="800"}
 Weitere Informationen finden Sie in der **Funktionsbeschreibung** im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 
@@ -49,7 +49,7 @@ Mit einer Zuordnungssammlung können Sie mehrere Zuordnungen organisieren und st
 - Jetzt können Sie auch native PDF-Ausgabevorgaben zu einer Zuordnungssammlung hinzufügen und sie zum Generieren der PDF-Ausgabe verwenden.
 - Sie können die von Ihrem Administrator erstellten globalen und Ordnerprofilvorgaben anzeigen und sie zum Generieren der PDF-Ausgabe verwenden.
 - Jetzt können Sie nicht nur eine einzelne Vorgabe auswählen, sondern auch alle Ordnerprofilvorgaben für eine DITA-Zuordnung in einem Schritt aktivieren.
-  ![](assets/edit-map-collection.png){width="800" align="left"}
+  ![](assets/edit-map-collection.png){width="800"}
 
 Weitere Informationen finden Sie unter [Zuordnungssammlung für die Ausgabegenerierung verwenden](../user-guide/generate-output-use-map-collection-output-generation.md).
 
@@ -59,7 +59,7 @@ Jetzt können Sie mit AEM Guides die temporären HTML-Dateien herunterladen, die
 
 Diese Funktion bietet bessere Einblicke in den Generierungsprozess mit Zugriff auf Zwischenstile und -Layouts und hilft Ihnen, Ihre CSS-Stile entsprechend Ihren Anforderungen zu korrigieren oder zu ändern.
 
-![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
+![](assets/native-pdf-advanced-settings.png){width="800"}
 
 Weitere Informationen finden Sie unter [Erstellen einer PDF-](../web-editor/native-pdf-web-editor.md#create-output-preset)&quot;.
 
@@ -73,4 +73,4 @@ Weitere Informationen finden Sie unter [Konfigurieren von Microservice-basierter
 
 Jetzt können Sie neben den Informationen **AEM** Info) auch die Versionsdetails von AEM Guides anzeigen. Sie können die aktuellen Versionsdetails in der Option **Info** der **Hilfe** auf der AEM-Navigationsseite anzeigen.
 
-![](assets/about-aem-help.png){width="800" align="left"}
+![](assets/about-aem-help.png){width="800"}

@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie in AEM Guides bedingte Attribute erstellen. V
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Um bedingte Attribute zu definieren, führen Sie die folgenden Schritte aus:
 
    Der folgende Screenshot zeigt die Definition für das Attribut `platform` mit dem Wert `unix` und der Kennzeichnung `Red Hat Linux`.
 
-   ![](images/add-profile-new.png){align="left"}
+   ![](images/add-profile-new.png)
 
 1. Wenn Sie weitere Werte für dasselbe Attribut hinzufügen möchten, wählen Sie das Symbol **+** aus und geben Sie zusätzlichen Wert und eine Bezeichnung ein.
 
@@ -56,6 +56,6 @@ Um bedingte Attribute zu definieren, führen Sie die folgenden Schritte aus:
 
 Das `platform` wird im System gespeichert. Wenn sich ein Autor dafür entscheidet, das `platform`-Attribut in einem DITA-Thema in einem Ordner zu verwenden, kann er die Werte auf der Registerkarte Eigenschaften im Editor anzeigen.
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

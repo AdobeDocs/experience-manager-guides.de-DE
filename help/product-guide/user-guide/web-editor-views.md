@@ -4,9 +4,9 @@ description: Themen im Autoren-, Quell- und Vorschaumodus anzeigen. Erfahren Sie
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Die Source-Ansicht zeigt die zugrunde liegende XML an, aus der das Thema besteht
 
 * Um den Smart-Katalog aufzurufen, platzieren Sie den Cursor an das Ende jedes Element-Tags, an dem Sie das neue Element einfügen möchten, und geben Sie &quot;&lt;&quot; ein. Der Editor zeigt eine Liste aller gültigen XML-Elemente an, die Sie an dieser Stelle einfügen können. Wählen Sie mit den Pfeiltasten das einzufügende Element aus und drücken Sie die Eingabetaste. Wenn Sie die schließende Klammer &quot;\> eingeben, wird automatisch das schließende Tag für das Element hinzugefügt.
 
-  ![](images/smart-catalog-elements.png){width="400" align="left"}
+  ![](images/smart-catalog-elements.png){width="400"}
 
 * Sie können ein Element auch einfach über die Source-Ansicht ändern. Wenn Sie beispielsweise das öffnende Tag eines `p` Elements in `note` ändern, wird das schließende `p` Tag automatisch in `/note` geändert. Wenn Sie ein Element durch ein falsches Element ersetzen, wird Ihnen sofort der Validierungsfehler angezeigt.
 
 * Wenn Sie einem Element ein Attribut hinzufügen möchten, platzieren Sie den Cursor in das Element-Tag und drücken Sie die Leertaste. Eine Liste gültiger Attribute für dieses Element wird im Smart-Katalog angezeigt. Verwenden Sie die Pfeiltasten, um das gewünschte Element auszuwählen, und drücken Sie die Eingabetaste , um das Element einzufügen. Um einen Wert für das Attribut anzugeben, geben Sie das Gleichheitszeichen \(=\) ein, und der Editor gibt automatisch die Anfangs- und Schlussanführungszeichen &quot;&quot; ein, in denen Sie den Wert des Attributs angeben können.
 
-  ![](images/smart-catalog-attribute.png){width="350" align="left"}
+  ![](images/smart-catalog-attribute.png){width="350"}
 
 * In der Source-Ansicht gibt es eine Option für das automatische Einziehen, die den XML-Code in einem darstellbaren und leicht lesbaren Format neu organisiert. Wenn Sie außerdem einen Text auswählen und von der Autoren- zur Source- oder von der Source- zur Autorenansicht wechseln, wird der ausgewählte Text auch in der anderen Ansicht hervorgehoben.
 * Eine weitere leistungsstarke Funktion in der Source-Ansicht ist die XML-Validierung in Ihrem Dokument. Wenn Sie ein Dokument öffnen, das ungültige XML enthält, wird es in der Source-Ansicht mit den Informationen zu ungültiger XML geöffnet. Im folgenden Screenshot sehen Sie beispielsweise die genauen Informationen über die fehlerhafte XML im Popup-Fenster „Fehler bei der Analyse“.
 
-  ![](images/invalid-topic-xml.png){width="650" align="left"}
+  ![](images/invalid-topic-xml.png){width="650"}
 
   Im obigen Screenshot wird eine Kreuzhervorhebung verwendet, um die Zeile mit fehlerhafter XML darauf hinzuweisen.
 
@@ -104,13 +104,13 @@ Wenn Sie Bedingungen in Ihrem Thema oder Ihrer Karte verwendet haben, werden die
 
 Die folgende Abbildung zeigt ein Thema, das zwei Bedingungen verwendet - `Audience` und `Product`. Der bedingte Inhalt wird mit gelbem Hintergrund hervorgehoben.
 
-![](images/preview-filters.png){align="left"}
+![](images/preview-filters.png)
 
 ### Anzeigen der Markierungen zum Nachverfolgen von Änderungen {#id2114BJ00CE8}
 
 Wenn ein Dokument Markierungen enthält, die Änderungen verfolgen \(oder visuelle Hinweise\), können Sie das Dokument auch mit oder ohne diese Markierungen in der Vorschau anzeigen. Bei der Vorschau eines Dokuments enthält das rechte Bedienfeld die Filter und Tracking-Optionen.
 
-![](images/preview-tracking_cs.png){width="400" align="left"}
+![](images/preview-tracking_cs.png){width="400"}
 
 Es gibt drei **Tracking**-Optionen, aus denen Sie wählen können:
 
@@ -120,7 +120,7 @@ Es gibt drei **Tracking**-Optionen, aus denen Sie wählen können:
 
   Die folgende Abbildung zeigt die Vorschau einer Zuordnungsdatei mit Markierungen:
 
-  ![](images/preview-map-with-track-changes.png){width="300" align="left"}
+  ![](images/preview-map-with-track-changes.png){width="300"}
 
 
 ### Thema als PDF exportieren {#id2114BL00B5U}
@@ -149,4 +149,4 @@ Gehen Sie wie folgt vor, um ein Thema als PDF zu exportieren:
    Die PDF wird generiert und in einer neuen Registerkarte geöffnet. Andernfalls wird ein Dialogfeld zum Speichern der PDF auf Ihrem lokalen System angezeigt.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

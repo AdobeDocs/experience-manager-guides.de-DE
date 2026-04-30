@@ -5,7 +5,7 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Führen Sie die folgenden Schritte aus, um den AEM-Connector von FrameMaker zum 
 
 1. Öffnen Sie das **Verbindungs-Manager**-Dialogfeld.
 
-   ![](assets/fm-aem-connector.png){width="550" align="left"}
+   ![](assets/fm-aem-connector.png){width="550"}
 
 1. Geben Sie die folgenden Details ein, um eine Verbindung zum AEM-Repository herzustellen:
 
@@ -64,7 +64,7 @@ Führen Sie die folgenden Schritte aus, um den AEM-Connector von FrameMaker zum 
 
    Sobald die Verbindung erfolgreich hergestellt wurde, werden Assets aus dem AEM-Repository im Fenster „Repository Manager“ angezeigt.
 
-   ![](assets/fm-repo-manager.png){width="550" align="left"}
+   ![](assets/fm-repo-manager.png){width="550"}
 
    Wenn Sie mit der rechten Maustaste auf eine Datei oder einen Ordner klicken, können Sie verwandte Vorgänge ausführen. Wenn Sie beispielsweise mit der rechten Maustaste auf einen Ordner klicken, erhalten Sie Optionen zum Hochladen einer Datei, zum Hochladen einer Datei mit Abhängigkeiten, zum Hochladen eines gesamten Ordners usw.
 
@@ -177,4 +177,4 @@ Geben Sie die folgenden Parameter an, um Metadateninformationen hinzuzufügen:
 - `<metadata node path>`: Vollständiger Ordnerpfad, einschließlich Dateiname und Metadatenknoten. Wenn Sie beispielsweise den Pfad als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` angeben, werden die angegebenen Metadateninformationen in `intro.xml` Datei festgelegt.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Migrieren vorhandener Inhalte](migrate-content.md)
+**Übergeordnetes Thema:**[ Migrieren vorhandener Inhalte](migrate-content.md)

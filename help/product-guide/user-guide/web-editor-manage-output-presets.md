@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in AEM Guides globale Ausgabevorgaben und Ord
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabevorgabe für die globalen
 1. Wählen Sie das **In Map-Konsole öffnen**, um die Map-Datei in der Map-Konsole zu öffnen.
 1. Navigieren Sie in der Zuordnungskonsole zur Registerkarte **Ausgabevorgaben** und wählen Sie dann das Symbol + aus, um eine Ausgabevorgabe für Ihre DITA-Zuordnung zu erstellen.
 
-   ![](images/add-global-output-preset.png){width="350" align="left"}
+   ![](images/add-global-output-preset.png){width="350"}
 
 1. Geben Sie die folgenden Details im Dialogfeld **Vorgabe hinzufügen** ein:
    - Typ
@@ -56,4 +56,4 @@ Sie können die folgenden Vorgänge für die Voreinstellung auch über das Menü
 >
 > Wenn eine Ausgabevorgabe in globalen Profilen und Ordnerprofilen gelöscht wird, wird sie in allen zugehörigen Zuordnungen angezeigt und nicht auf der Registerkarte **Ausgabevorgaben** angezeigt.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

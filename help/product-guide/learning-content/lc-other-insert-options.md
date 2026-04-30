@@ -3,9 +3,10 @@ title: Andere Optionen im Menü Einfügen
 description: Erfahren Sie mehr über die Optionen im Menü „Einfügen“, die Sie in den Lerninhalten verwenden können.
 feature: Authoring
 role: User
-source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
+exl-id: 8c12ed9b-6309-40bf-b264-a2323cd6f4b3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -16,28 +17,28 @@ Zu den weiteren Optionen, die im Menü Einfügen in der Editor-Symbolleiste verf
 
 - **Blockzitate:** Fügt Blockzitate zusammen mit Zitaten zu Ihrem Inhalt hinzu.
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/block-quote-learning-content.png){width="650"}
 
 - **Codeblöcke:** Fügt einen Codeblock zu Ihrem Inhalt hinzu.
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/code-block-learning-content.png){width="650"}
 
 - **iframes:** Fügt einen iframe in den Inhalt ein, um externe Web-Seiten oder interaktive Ressourcen einzubetten. Sie können die iframe-Eigenschaften mithilfe des Bedienfelds **Inhaltseigenschaften** konfigurieren, einschließlich der Quell-URL, Breite, Höhe, Ausrichtung und Titel. Sie können die im iFrame hinzugefügten Inhalte anzeigen, indem Sie wie unten gezeigt in den **Vorschau**-Modus wechseln.
 
   **Autor** Ansicht:
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
+  ![](assets/iframe-learning-content.png){width="650"}
 
 
   **Vorschau**-Modus:
 
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
+  ![](assets/iframe-learning-content-preview.png){width="650"}
 
 - **H5P:** Fügt ein interaktives H5P-Paket zu Ihren Lerninhalten hinzu. Um H5P-Inhalte hinzuzufügen, platzieren Sie den Cursor an der gewünschten Position und wählen Sie **H5P** aus dem Menü Einfügen aus. Geben Sie im Dialogfeld H5P einfügen einen Verweis auf die H5P-Datei an, die Sie zum Lerninhalt hinzufügen möchten.
 
   ![](assets/insert-h5p-lc.png)
 
-  Wenn Sie lieber den H5P-Inhalt aus Ihrem System verwenden möchten, [&#x200B; Sie zuerst die Datei in DAM &#x200B;](../user-guide/authoring-upload-existing-files.md), indem Sie die Option **Assets hochladen** verwenden, und lassen Sie sie dann Teil der Repository-Ansicht/Assets.
+  Wenn Sie lieber den H5P-Inhalt aus Ihrem System verwenden möchten, [ Sie zuerst die Datei in DAM ](../user-guide/authoring-upload-existing-files.md), indem Sie die Option **Assets hochladen** verwenden, und lassen Sie sie dann Teil der Repository-Ansicht/Assets.
 
   ![](assets/upload-assets-option.png)
 
@@ -50,23 +51,23 @@ Zu den weiteren Optionen, die im Menü Einfügen in der Editor-Symbolleiste verf
 
 - **MathML-Gleichung:** Fügt MathML-Gleichungen in Ihren Inhalt ein. Sie können eine MathML-Gleichung erstellen und auf **Einfügen** klicken, um sie zu Ihrem Dokument hinzuzufügen.
 
-  ![](./assets/insert-mathml.png){width="350" align="left"}
+  ![](./assets/insert-mathml.png){width="350"}
 
   Die Gleichung wird mit hellgrauem Hintergrund eingefügt. Sie können eine Gleichung jederzeit aktualisieren, indem Sie mit der rechten Maustaste auf eine vorhandene Gleichung klicken und **Mathematische Gleichung bearbeiten** aus dem Kontextmenü auswählen. Details zum Validieren von MathML-Gleichungen in Experience Manager Guides finden Sie unter [Validierung von Gleichungen im MathML-Editor](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
 - **Wissenstest:** Ermöglicht das Hinzufügen von Fragen in verfügbaren Formaten (einzeln richtig, mehrfach korrekt, wahr/falsch, mit der folgenden übereinstimmen oder aus der Fragenbank einfügen) zu Ihrem Thema zur Überprüfung und zur Bestätigung des Verständnisses ohne Bewertung. Diese Fragen spiegeln Standardformate wider und schließen die Bewertung aus. Dadurch eignen sie sich ideal für die Selbstbewertung und eignen sich als Teil des Kursinhalts oder eines Themas vor einem Quiz oder einer Bewertung später, falls verfügbar.
 
-  ![](assets/knowledge-check-topic.png){width="650" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650"}
 
 
   Sie können die richtigen Antworten und andere erforderliche Felder im Bedienfeld **Inhaltseigenschaften** konfigurieren. Weitere Informationen finden Sie unter [Fragetypen](./quiz-insert-questions.md). Sie können verschiedene Fragetypen mithilfe der Optionen zur Wissensüberprüfung hinzufügen, wie unten dargestellt.
 
-  ![](assets/knowledge-check-content-properties.png){width="650" align="left"}
+  ![](assets/knowledge-check-content-properties.png){width="650"}
 
 - **Eingabefeld** Fügt ein Textfeld zusammen mit einer Schaltfläche zu Ihrem Inhalt hinzu. Diese Kombination ermöglicht die Erfassung von Benutzereingaben und Trigger-spezifischen Aktionen. Dem Inhalt wird eine Wiedergabeschaltfläche hinzugefügt, wie unten dargestellt.
 
-  ![](assets/button-learning-content.png){width="650" align="left"}
+  ![](assets/button-learning-content.png){width="650"}
 
 - **Weitere Optionen:** Sie haben zusätzliche Optionen, um Ihren Lerninhalt zu verbessern, einschließlich des Einfügens einer horizontalen Linie, eines Zeilenumbruchs, eines Textfelds, eines positionierten Textfelds und einer eingebetteten HTML.
 
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  ![](assets/more-options-learning-content.png){width="650"}

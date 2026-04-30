@@ -5,7 +5,7 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -48,13 +48,13 @@ Wenn Sie den ausgewählten Inhalt löschen, wird der verbleibende Inhalt nach de
 - Den Inhalt mit einem gültigen Element umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element einzuschließen:
 
    - Wählen Sie den Inhalt in einem Element aus.
-   - Wählen Sie ![&#x200B; Symbol &#x200B;](images/Add_icon.svg)Hinzufügen“ in der sekundären Symbolleiste oben aus, um das Dialogfeld **Umschließen mit Element** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
+   - Wählen Sie ![ Symbol ](images/Add_icon.svg)Hinzufügen“ in der sekundären Symbolleiste oben aus, um das Dialogfeld **Umschließen mit Element** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
      >[!NOTE]
      >
      > Sie können das Dialogfeld Umschließen mit Element auch anzeigen, indem Sie auf das Kontextmenü des ausgewählten Inhalts klicken.
 
    - Wählen Sie ein Element im Dialogfeld aus. Der ausgewählte Inhalt wird unter diesem Element umschlossen. Wenn Sie beispielsweise den Inhalt in einem Absatz auswählen und dann das `<note>` Element im Dialogfeld **Mit Element umgeben** auswählen, wird der ausgewählte Inhalt unter einer Anmerkung angezeigt.\
-     ![Dialogfeld „Element umschließen“](./images/surround-element.png) {width="300" align="left"}
+     ![Dialogfeld „Element umschließen“](./images/surround-element.png) {width="300"}
 
 ## Browser beim Bearbeiten der Dateien aktualisieren
 
@@ -70,11 +70,11 @@ Das rechte Bedienfeld wird ebenfalls wieder geöffnet und zeigt dieselbe Ansicht
 
 AEM Guides stellt die Arbeitskopie-Anzeige bereit, die anzeigt, ob die aktuelle \(Arbeitskopie\) der Datei mit der gespeicherten Version synchronisiert ist oder nicht. Wenn Sie Änderungen an Ihrer aktuellen Kopie vorgenommen und Ihre Datei nicht gespeichert haben, wird auf der Registerkarte Datei des Themas ein \*-Zeichen zusammen mit dem Titel angezeigt. Diese Anzeige dient als Erinnerung zum Speichern Ihrer Änderungen und verschwindet, wenn Sie Ihre Datei speichern.
 
-![Arbeitskopie-Anzeige](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![Arbeitskopie-Anzeige](images/working-copy-text-update-indicator.png){width="550"}
 
 AEM Guides gibt auch an, ob die zuletzt gespeicherte \(Working\)-Kopie der Datei mit der gespeicherten Version synchronisiert ist. Wenn Sie einige nicht gespeicherte Änderungen zwischen der Arbeitskopie und der zuletzt gespeicherten Version haben, wird ein \*-Zeichen zusammen mit den Versionsinformationen angezeigt, die in der rechten oberen Ecke der Registerkarte Datei des Themas angezeigt werden. Dieser Indikator dient als Erinnerung daran, eine Version aus Ihrer aktuellen \(Working\) Kopie der Datei zu speichern und zu erstellen.
 
-![Versionsaktualisierungsanzeige](images/version-update-indicator.png){width="550" align="left"}
+![Versionsaktualisierungsanzeige](images/version-update-indicator.png){width="550"}
 
 
 ## Öffnen gesperrter Dateien im Authoring- und Source-Modus
@@ -106,4 +106,4 @@ Beim Öffnen einer Datei im Web-Editor bietet Experience Manager Guides die Funk
 Sie können die Funktion zum Suchen der Datei mit der Option **Dateien immer im Repository suchen** auf der Registerkarte **Erscheinungsbild** der **Benutzereinstellungen** deaktivieren.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

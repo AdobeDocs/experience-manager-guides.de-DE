@@ -4,7 +4,7 @@ description: In den AEM-Handbüchern erfahren Sie, wie Sie eine Massen-Aktivieru
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -44,11 +44,11 @@ Um eine Massen-Aktivierungszuordnungssammlung zu erstellen, führen Sie die folg
 
    Sie können mehrere Ausgabevorgaben für alle verfügbaren Gebietsschemata auswählen.
 
-1. Wählen Sie **Fertig**.
+1. Wählen Sie **Fertig** aus.
 
 Die DITA-Zuordnungsdateien werden Ihrer Massen-Aktivierungszuordnungssammlung hinzugefügt.
 
-![&#x200B; erstellte Massenaktivierungs-Sammlung](images/bulk-activation-collection-created.png){align="left"}
+![ erstellte Massenaktivierungs-Sammlung](images/bulk-activation-collection-created.png)
 
 ## Registerkarte „Zuordnungen und Vorgaben“
 
@@ -87,7 +87,7 @@ Die **Audit-Verlauf** enthält Informationen zu den aktivierten Zuordnungsausgab
 
 - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wurde. Basierend auf diesen Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung aktivieren möchten.
 - **Veröffentlicht**: Zeigt Datum und Uhrzeit der letzten veröffentlichten (oder aktivierten) Ausgabe an. Wenn Sie auf den Link klicken, wird die Seite Aktivierungsergebnisse angezeigt, die die Protokolle mit Informationen zum Stammpfad enthält, in dem der Inhalt aktiviert wird.
-  ![&#x200B; hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](images/bulk-collection-audit-history.png){align="left"}
+  ![ hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](images/bulk-collection-audit-history.png)
 
   *Informationen zu den aktivierten Zuordnungsausgaben finden Sie auf der Registerkarte **Prüfverlauf**.*
 
@@ -108,4 +108,4 @@ Die folgenden Filteroptionen sind im linken Bedienfeld verfügbar:
 
 Die Filter werden aktualisiert, wenn Sie von der Registerkarte **Zuordnungen und Vorgaben** zur Registerkarte **Prüfverlauf** und umgekehrt wechseln.
 
-**Übergeordnetes Thema: &#x200B;** [Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
+**Übergeordnetes Thema: **[Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

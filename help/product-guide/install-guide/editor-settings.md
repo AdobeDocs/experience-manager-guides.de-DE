@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die verschiedenen Einstellungen, die in der
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: c6767c75-0b53-4bde-9c7f-7ae1cd9b5076
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Bei der On-Premise-Einrichtung wird **Option** Einstellungen“ in der Editor-Re
 Alle unter „Editor-Einstellungen **verfügbaren Konfigurationsoptionen** unverändert.
 
 
-![Editor-Einstellung für On-Premise](assets/editor-settings-on-prem.png){width="650" align="left"}
+![Editor-Einstellung für On-Premise](assets/editor-settings-on-prem.png){width="650"}
 
 
 Weitere Informationen zu den verfügbaren Konfigurationsoptionen finden Sie unter [Konfigurieren von Workspace-Einstellungen](../cs-install-guide/workspace-settings.md).

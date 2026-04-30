@@ -4,9 +4,9 @@ description: Erkunden Sie andere Funktionen des Editors in Adobe Experience Mana
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3653'
+source-wordcount: '3690'
 ht-degree: 0%
 
 ---
@@ -23,20 +23,20 @@ Wenn Sie eine Datei im Editor öffnen, können Sie verschiedene Aktionen über d
 
 Die folgenden Funktionen finden Sie im Kontextmenü der Registerkarte einer geöffneten Mediendatei:
 
-![](images/media-file-context-menu.png){width="300" align="left"}
+![](images/media-file-context-menu.png){width="300"}
 
 
 **Einzelne DITA-Datei**
 
 Die folgenden Funktionen finden Sie im Kontextmenü der Registerkarte einer geöffneten Datei:
 
-![](images/single-file-context-menu.png){width="400" align="left"}
+![](images/single-file-context-menu.png){width="400"}
 
 **Mehrere Dateien**
 
 Wenn mehrere Dateien geöffnet sind, stehen im Kontextmenü weitere Optionen zur Verfügung:
 
-![](images/multiple-files-context-menu.png){width="550" align="left"}
+![](images/multiple-files-context-menu.png){width="550"}
 
 Nachfolgend werden die verschiedenen Optionen im Kontextmenü erläutert:
 
@@ -117,7 +117,7 @@ Ihr Dateispeichererlebnis hängt von den folgenden drei Szenarien ab, in denen S
 Je nachdem, ob die Datei gesperrt/entsperrt ist und gespeicherte oder nicht gespeicherte Änderungen aufweist, können Sie die folgenden Optionen anzeigen:
 
 - **Entsperren und Schließen**: Die Sperre für die Datei wird aufgehoben, und die Datei wird geschlossen.
-- **Als neue Version speichern**: Dadurch werden die Änderungen gespeichert, die Sie am Inhalt vorgenommen haben, und eine neue Version der Datei erstellt. Sie können der neu gespeicherten Version auch Beschriftungen und Kommentare hinzufügen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version &#x200B;](web-editor-toolbar.md#version-information-and-save-as-new-version).
+- **Als neue Version speichern**: Dadurch werden die Änderungen gespeichert, die Sie am Inhalt vorgenommen haben, und eine neue Version der Datei erstellt. Sie können der neu gespeicherten Version auch Beschriftungen und Kommentare hinzufügen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version ](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 - **Datei entsperren**: Wenn Sie eine Datei entsperren, wird die Sperre für die Datei aufgehoben und die Änderungen werden in der aktuellen Version der Datei gespeichert.
 
@@ -127,7 +127,7 @@ Je nachdem, ob die Datei gesperrt/entsperrt ist und gespeicherte oder nicht gesp
 
   Eine der Eingabeaufforderungen wird beispielsweise im folgenden Screenshot angezeigt:
 
-  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400"}
 
 **Visuelle Hinweise auf fehlerhafte Verweise**
 
@@ -157,11 +157,11 @@ Experience Manager Guides bietet intuitive Dialogfelder - **Datei auswählen** u
 
 Mit dem Dateipfad-Browser können Sie bestimmte Dateien im Content-Repository schnell finden und auswählen. Diese Funktion ist für Aufgaben verfügbar, z. B. zum Hinzufügen eines Themas zu einer Karte, zum Verknüpfen eines Bildes oder Querverweises, zum Erstellen wiederverwendbarer Inhalte und mehr.
 
-![](images/select-file-dialog-new.png){width="350" align="left"}
+![](images/select-file-dialog-new.png){width="350"}
 
 Beim Starten des Datei-Browsers wird das Dialogfeld **Datei auswählen** geöffnet. Dieses Dialogfeld enthält zwei Registerkarten: **Repository** und **Sammlungen**. Standardmäßig ist die Registerkarte Repository ausgewählt.
 
-![](images/select-file.png){width="650" align="left"}
+![](images/select-file.png){width="650"}
 
 **Auf der Registerkarte „Repository“ verfügbare Funktionen zum Durchsuchen von Dateien**
 
@@ -169,17 +169,17 @@ Beim Starten des Datei-Browsers wird das Dialogfeld **Datei auswählen** geöffn
 
 Die Registerkarte Repository bietet eine tabellarische Ansicht der Dateien und Ordner aus dem Inhalts-Repository, wodurch das Auffinden des richtigen Dateipfads erleichtert wird. Sie können auch die Breadcrumbs oben und das Navigationsfenster des Ordners links verwenden, um durch Ordner zu navigieren.
 
-![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+![](images/select-file-dialog-navigate-files.png){width="650"}
 
 **Auswahl einzelner und mehrerer Dateien**
 
 Um eine Datei zu verwenden, wählen Sie einfach die Datei aus und klicken Sie auf **Auswählen**.
 
-![](images/select-file-single-file-selection.png){width="650" align="left"}
+![](images/select-file-single-file-selection.png){width="650"}
 
 In einigen Fällen können Sie in diesem Dialogfeld des Pfad-Browsers auch mehrere Dateien auswählen. Wenn Sie beispielsweise nach wiederverwendbaren Inhalten suchen, können Sie mehrere Dateien auswählen und sie zu einem Teil Ihres wiederverwendbaren Inhalts machen.
 
-![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+![](images/select-file-multiple-file-selection.png){width="650"}
 
 Für wiederverwendbare Inhalte, Themenreferenzen, Schematron, Ausgabevorgaben (mit DITAVAL) und Workfront ist derzeit die Auswahl mehrerer Dateien verfügbar.
 
@@ -191,29 +191,29 @@ Für wiederverwendbare Inhalte, Themenreferenzen, Schematron, Ausgabevorgaben (m
 
 Sie können die ausgewählten Dateien mithilfe der Schaltfläche **Vorschau** in der Vorschau anzeigen, wie unten dargestellt:
 
-![](images/select-file-preview-button.png){width="650" align="left"}
+![](images/select-file-preview-button.png){width="650"}
 
 Die Vorschau der ausgewählten Datei wird auf der rechten Seite angezeigt.
 
-![](images/select-file-dialog-preview.png){width="650" align="left"}
+![](images/select-file-dialog-preview.png){width="650"}
 
 Bei mehreren Auswahlen wird eine Vorschau aller ausgewählten Dateien im Bedienfeld Vorschau angezeigt, damit Sie sie leicht überprüfen können.
 
-![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+![](images/reusable-content-selection-left-panel.png){width="650"}
 
 Sie können auch das Symbol **Entfernen** verwenden, um die Auswahl einiger Dateien aus der Vorschau aufzuheben.
 
-![](images/resusable-content-remove-preview.png){width="650" align="left"}
+![](images/resusable-content-remove-preview.png){width="650"}
 
 **Erlebnis suchen und filtern**
 
 Beim Durchsuchen von Dateien im Repository können Sie nach Dateien anhand des Namens, des Titels oder des Inhalts im ausgewählten Pfad suchen. Sie können ein beliebiges, zwei oder alle drei Kriterien für Ihre Suche verwenden. Wenn keines der Kriterien ausgewählt ist, umfassen die Ergebnisse alle drei Kriterien.
 
-![](images/select-file-search.png){width="650" align="left"}
+![](images/select-file-search.png){width="650"}
 
 Wählen Sie das Symbol **Filtersuche** \(![Suchfiltersymbol](images/filter-search-icon.svg)\) aus, um den Filterbereich auf der rechten Seite zu öffnen.
 
-![](images/select-file-filters.png){align="left"}
+![](images/select-file-filters.png)
 
 Sie haben die folgenden Optionen, um die Dateien zu filtern und Ihre Suche einzugrenzen:
 
@@ -268,7 +268,7 @@ Auf der Registerkarte Sammlungen haben Sie folgende Möglichkeiten:
 
 Beim Durchsuchen von Ordnern mit dem **Ordner auswählen**-Dialogfeld wird der richtige Ordnerpfad innerhalb des Repositorys für Aufgaben wie das Erstellen neuer Themen oder das Angeben von Ausgabespeicherorten für veröffentlichte Inhalte ausgewählt. Es bietet eine klare, baumstrukturierte Ansicht von Ordnern, wodurch die Navigation intuitiv wird und sichergestellt wird, dass Inhalte an der richtigen Stelle platziert werden.
 
-![](images/select-path-dialog-new.png){width="300" align="left"}
+![](images/select-path-dialog-new.png){width="300"}
 
 
 ## Unterstützung für die artikelbasierte Veröffentlichung
@@ -289,7 +289,7 @@ Der Editor unterstützt DITA-Glossarbegriffe, die Sie einfügen können, indem S
 
 Experience Manager Guides bietet vorkonfigurierte Unterstützung zum Einfügen von MathML-Gleichungen durch Integration mit dem [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro)-Programm. Um eine MathML-Gleichung einzufügen, klicken Sie auf das Symbol **Element** und geben Sie „mathml“ ein. Wenn Sie ein mathml-Element aus der Liste auswählen, wird **Dialogfeld &quot;MathML einfügen** angezeigt:
 
-![Einfügen einer MathML-Gleichung im MathML-Editor](images/insert-mathml-equation.png){width="550" align="left"}
+![Einfügen einer MathML-Gleichung im MathML-Editor](images/insert-mathml-equation.png){width="550"}
 
 Erstellen Sie mithilfe der MathML-Formel Ihre Formel und wählen Sie **Einfügen** aus, um sie Ihrem Dokument hinzuzufügen. Die Gleichung wird mit hellgrauem Hintergrund eingefügt.
 
@@ -300,7 +300,7 @@ Sie können eine Formel jederzeit aktualisieren, indem Sie mit der rechten Maust
 Experience Manager Guides validiert MathML-Gleichungen, wenn Sie ein Thema speichern, das sie enthält.
 Wenn Sie eine Gleichung mit dem MathML-Editor einfügen, markiert Experience Manager Guides die Gleichung rot, wenn Syntaxprobleme auftreten. Sie können sie vor dem Einfügen korrigieren. Wenn Sie keine Änderungen vornehmen, aber **Einfügen** auswählen, wird eine Warnung angezeigt.
 
-![Validieren einer MathML-Gleichung](images/validate-mathml-equation.png){width="400" align="left"}
+![Validieren einer MathML-Gleichung](images/validate-mathml-equation.png){width="400"}
 
 Wenn Sie die MathML-Gleichung einfügen, die einen Syntaxfehler enthält, tritt beim Speichern des Themas ein Validierungsfehler auf.
 
@@ -314,7 +314,7 @@ Fügen Sie eine Fußnote mithilfe des `fn` in Ihren Inhalt ein. Im Bearbeitungsm
 
 Der Editor zeigt den Breadcrumb des Elements unten links im Thema an. Wenn Sie ein Element durch ein anderes ersetzen möchten, können Sie dies im Kontextmenü des Breadcrumbs tun. Sie können beispielsweise `p` Element durch `note` oder ein anderes gültiges Element im Kontext austauschen.
 
-![](images/rename-element.png){width="400" align="left"}
+![](images/rename-element.png){width="400"}
 
 Klicken Sie im Breadcrumb mit der rechten Maustaste auf den Namen eines Elements, das Sie ersetzen möchten, und wählen Sie dann im Kontextmenü Element umbenennen . Das Dialogfeld Element umbenennen zeigt alle gültigen Elemente an, die am aktuellen Speicherort zulässig sind. Wählen Sie im Dialogfeld Element umbenennen das Element aus, das Sie verwenden möchten. Das ursprüngliche Element wird durch das neue Element ersetzt.
 
@@ -353,7 +353,7 @@ In XML umfassen Leerzeichen Leerzeichen Leerzeichen, Tabulatoren, Zeilenumbrüch
 
 DITA-Elemente, die Zeilenumbrüche und Leerzeichen enthalten, werden gemäß ihrer Definition im Author-, Source- oder Preview-Modus unterstützt und gerendert, sowie in der endgültigen veröffentlichten Ausgabe. Der folgende Screenshot zeigt den Inhalt innerhalb des `msgblock`, bei dem die Zeilenumbrüche und Leerzeichen \(Einzug\) beibehalten wurden:
 
-![](images/new-line-support_cs.png){align="left"}
+![](images/new-line-support_cs.png)
 
 
 
@@ -381,7 +381,7 @@ Alternativ können Sie mit der rechten Maustaste in den Breadcrumb klicken und *
 
 Wenn ein bestimmtes Thema oder eine bestimmte Zuordnung Elemente mit doppelten IDs enthält **wird eine Schaltfläche** Duplizieren“ in der rechten unteren Ecke des Inhaltsbearbeitungsbereichs neben den Editor-Ansichten angezeigt.
 
-![](images/duplicate-element-IDs.png){width="350" align="left"}
+![](images/duplicate-element-IDs.png){width="350"}
 
 Wenn Sie **Duplizierte IDs** auswählen, wird ein Pop-up mit allen doppelten IDs geöffnet. Sie können die angezeigte ID im Pop-up auswählen, um zum entsprechenden Element zu navigieren und es mit einer eindeutigen ID zu aktualisieren.
 
@@ -398,14 +398,14 @@ Die wichtigsten Funktionen zur Verbesserung der Handhabung großer Dateien werde
 
 - Eine Warnmeldung wird oben für große Dateien angezeigt, wie im folgenden Ausschnitt dargestellt. Dieser Warnhinweis zeigt die Anzahl der Elemente basierend auf dem Wert an, der im Parameter **largeFileTagCount** der Datei uiconfig.json angegeben ist. Standardmäßig ist **largeFileTagCount** auf 2500 festgelegt.
 
-![](images/add-toast-notification.png){width="600" align="left"}
+![](images/add-toast-notification.png){width="600"}
 
 
 - Darüber hinaus wird die Tag-Anzahl in der unteren Leiste der Benutzeroberfläche angezeigt. Wenn Sie den Mauszeiger über diesen Tag-Zählwert bewegen, wird eine QuickInfo angezeigt. Die Auswahl der Registerkarte **Weitere Informationen** enthält Details zum Umgang mit großen Dateien.
 
-![](images/add-toast-tag-count.png){width="600" align="left"}
+![](images/add-toast-tag-count.png){width="600"}
 
 
 - Die Warnmeldung ist nur für DITA-Dateien verfügbar und in allen Ansichten sichtbar: Author, Source und Layout.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

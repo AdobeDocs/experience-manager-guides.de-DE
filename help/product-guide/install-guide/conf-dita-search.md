@@ -5,7 +5,7 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 1%
@@ -45,13 +45,13 @@ Führen Sie die folgenden Schritte aus, um die DITA-Inhaltssuchkomponente in der
 
 1. Ziehen Sie **DITA Element Predicate** an die gewünschte Position im Suchformular.
 
-   ![](assets/drag-search-predicate.png){width="650" align="left"}
+   ![](assets/drag-search-predicate.png){width="650"}
 
 1. Klicken Sie **Fertig**, um Ihre Änderungen zu speichern.
 
    Beim Zugriff auf die Option „Filter“ in der Assets-Benutzeroberfläche wird die Filteroption „DITA-Element-Suche“ angezeigt.
 
-   ![](assets/search-filter-asset-console.png){width="350" align="left"}
+   ![](assets/search-filter-asset-console.png){width="350"}
 
 
 ## Hinzufügen einer UUID-basierten Suchkomponente in der Assets-Benutzeroberfläche {#id2034F04K05Z}
@@ -90,7 +90,7 @@ Führen Sie die folgenden Schritte aus, um Zugriff auf die DITA-Suchfunktion zu 
 
 1. Suchen Sie nach der Benutzergruppe oder einem einzelnen Benutzer, dem Sie Zugriff gewähren möchten. Um beispielsweise allen Benutzern in der Autorengruppe Zugriff zu gewähren, geben Sie Autoren in das Feld **Filterabfrage** ein und drücken Sie die **Eingabetaste**.
 
-   ![](assets/authors-group-permission.png){width="350" align="left"}
+   ![](assets/authors-group-permission.png){width="350"}
 
 1. Wählen Sie die Gruppe **Autoren** aus.
 
@@ -102,7 +102,7 @@ Führen Sie die folgenden Schritte aus, um Zugriff auf die DITA-Suchfunktion zu 
 
 1. Erteilen Sie **Berechtigung** Lesen für den Suchordner.
 
-   ![](assets/read-permission-authors.png){width="650" align="left"}
+   ![](assets/read-permission-authors.png){width="650"}
 
 1. Klicken Sie auf **Speichern**.
 

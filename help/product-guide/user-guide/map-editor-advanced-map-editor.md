@@ -4,9 +4,9 @@ description: Machen Sie sich mit den Funktionen des Karten-Editors in Adobe Expe
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2671'
+source-wordcount: '2703'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Die folgenden Optionen sind in der Symbolleiste der Layout-Ansicht verfügbar:
 
 Zeigt das Dialogfeld Datei auswählen an. Navigieren Sie zu der Themen-/Zuordnungsdatei, die Sie einfügen möchten, und wählen Sie **Auswählen** aus, um sie der Zuordnung hinzuzufügen.
 
-![](images/insert-topic-reference-dialog.png){align="left"}
+![](images/insert-topic-reference-dialog.png)
 
 
 **Themengruppe** - ![](images/topic-group.svg)
@@ -49,7 +49,7 @@ Fügen Sie das `topicgroup` ein. Weitere Informationen zur Gruppierung von Theme
 
 Zeigt das Dialogfeld Keydef einfügen an. Verwenden Sie dieses Dialogfeld, um eine beliebige Schlüsseldefinition zu definieren, die Sie in der Zuordnung verwenden möchten.
 
-![](images/insert-key-definition-dialog.png){width="300" align="left"}
+![](images/insert-key-definition-dialog.png){width="300"}
 
 **Einfügen vor/Einfügen nach** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
@@ -111,7 +111,7 @@ Blendet für jedes Thema ein Kontrollkästchen ein oder aus. Sie können das Kon
 
 Neben der Organisation von Themen in der Zuordnungsdatei können Sie auch die folgenden Aktionen über das Optionsmenü ausführen, das beim Bewegen des Mauszeigers über eine Datei oder beim Rechtsklicken im Editor in der Layout-Ansicht angezeigt wird:
 
-![](images/map-editor-options-menu.png){width="650" align="left"}
+![](images/map-editor-options-menu.png){width="650"}
 
 - **Hinzufügen**: Im Zuordnungs-Editor können Sie ein neues Thema oder eine leere Referenz hinzufügen:
    - **Leere Referenz**: Mit dieser Option können Sie eine leere Referenz in Ihre DITA-Zuordnung einfügen. Sie können später auf den eingefügten leeren Verweis doppelklicken und die Themendetails hinzufügen.
@@ -140,13 +140,13 @@ Wenn Sie Bedingungen auf ein Thema angewendet haben, wird rechts neben dem Thema
 
 Die **Autor**-Ansicht ermöglicht es Ihnen, Ihre DITA-Karte im Editor zu bearbeiten. Hier wird die WYSIWYG-Ansicht des Karten-Editors angezeigt. Einige der in der Autorenansicht angezeigten Symbole sind mit der Layout-Ansicht identisch.
 
-![](images/map-editor-author-view.png){align="left"}
+![](images/map-editor-author-view.png)
 
 Darüber hinaus können Sie die folgenden Symbole anzeigen und die zugehörigen Aufgaben von der Autorenansicht aus ausführen:
 
 **Einfügen vor/Einfügen nach** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Zeigt das Dialogfeld **Element vor oder &#x200B;** Element nach einfügen“ an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
+Zeigt das Dialogfeld **Element vor oder **Element nach einfügen“ an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -179,7 +179,7 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
 
 1.  Select **Reltable** from the toolbar.
 
-    ![](images/reltable.png){width="650" align="left"}
+    ![](images/reltable.png){width="650"}
 
 1.  Drag-and-drop topics from the topic list to the Reltable editor.
 
@@ -187,13 +187,13 @@ Perform the following steps to work with relationship tables in the Basic Map Ed
     >
     > You can add topics from any folder in the References rail.
 
-    ![](images/create-reltable.png){width="550" align="left"}
+    ![](images/create-reltable.png){width="550"}
 
 1.  To add a header to your relationship table, click **Add Relheader**.
 
 1.  To add a column to your relationship table, click **Add a Column**.
 
-    ![](images/complete-reltable.png){width="550" align="left"}
+    ![](images/complete-reltable.png){width="550"}
 
 1.  Click **Save**.
 
@@ -241,7 +241,7 @@ Sie können eine Prüfungsaufgabe des aktuellen Themas oder der Zuordnungsdatei 
 
 Diese Ansicht ermöglicht die Bearbeitung von Inhalten im Rohformat und bietet vollständige Kontrolle über die Struktur und Formatierung.
 
-![](images/map-editor-source-view.png){align="left"}
+![](images/map-editor-source-view.png)
 
 
 In dieser Ansicht bietet die Symbolleiste grundlegende Optionen zum Bearbeiten und Einfügen von Inhalten, die im Dropdown-Menü **Menü** verfügbar sind, einschließlich Ausschneiden, Kopieren, Rückgängig, Wiederholen, Löschen, Suchen und Ersetzen, Versionsbezeichnung, Zusammenführen, Als neue Version speichern, Sperren und Entsperren.
@@ -252,7 +252,7 @@ Der Vorschaumodus rendert den Inhalt so, wie er in der endgültigen Ausgabe ange
 
 Um die Position jeder Themendatei innerhalb einer Karte anzeigen zu können, ist es wünschenswert, den Karteninhalt in einem aufeinander folgenden Fluss anzuzeigen. Mit der Kartenvorschau-Funktion können Sie den gesamten Inhalt der Kartendatei mit einem Klick anzeigen. Sie müssen keine Ausgabe der Zuordnungsdatei generieren, um zu sehen, wie die gesamte Zuordnung nach der Veröffentlichung aussieht. Sie können einfach auf die Vorschau der Karte zugreifen und alle Themen und Unterkarten werden in Form eines Buches gerendert.
 
-![](images/map-editor-preview.png){align="left"}
+![](images/map-editor-preview.png)
 
 >[!NOTE]
 >
@@ -268,7 +268,7 @@ Im Vorschaumodus können Sie die folgenden zusätzlichen Aufgaben ausführen:
   >
   > Wenn Sie keine Bearbeitungsrechte haben, wird das Thema im schreibgeschützten Modus geöffnet.
 
-  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+  ![](images/edit-topic-preview-mode.png){width="650"}
 
 - Wechseln Sie zum gewünschten Thema, indem Sie den Thementitel in der Zuordnungsstruktur \(im linken Bereich\) auswählen.
 
@@ -281,10 +281,10 @@ Wenn eine Karte im Vorschaumodus geöffnet wird und Sie von einer anderen Regist
 Sie können die Funktion „Aktualisieren“, die im Vorschaumodus der Zuordnung verfügbar ist, auf zwei Arten verwenden:
 
 - **Aktualisierung auf Kartenebene**: Durch Klicken auf die Schaltfläche **Aktualisieren** wird die Vorschau der gesamten Karte (einschließlich aller Themen) aktualisiert und Sie gelangen zur ersten Bildlaufposition, um eine übersichtliche Ansicht zu erhalten.
-  ![](images/refresh-map.png){width="650" align="left"}
+  ![](images/refresh-map.png){width="650"}
 
 - **Aktualisierung auf Themenebene**: Durch Auswahl von **Thema aktualisieren** im Kontextmenü wird dieses spezifische Thema aktualisiert, wobei die Bildlaufposition unverändert bleibt.
-  ![](images/refresh-topic.png){width="650" align="left"}
+  ![](images/refresh-topic.png){width="650"}
 
 **Andere Möglichkeiten, eine Zuordnungsdatei in der Vorschau anzuzeigen**
 
@@ -298,11 +298,11 @@ Sie können auf die Vorschau einer Karte zugreifen über:
 
 - **Karten-Editor**: Wählen Sie im Karten-Editor **Vorschau** aus dem Menü „Optionen“ aus, um die Vorschau der aktuellen Karte anzuzeigen.
 
-  ![](images/map-preview-icon.png){width="650" align="left"}
+  ![](images/map-preview-icon.png){width="650"}
 
   Die Vorschau der Karte wird in einem Popup-Fenster angezeigt.
 
-  ![](images/map-editor-preview-pop-up.png){width="500" align="left"}
+  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **Eigenschaften zuordnen**
 
@@ -329,7 +329,7 @@ Um Themen über eine DITA-Zuordnung zu bearbeiten, führen Sie die folgenden Sch
 
    Sie können mehrere Themen im Editor öffnen, wobei jedes Thema auf einer neuen Registerkarte im Editor geöffnet wird. Selbst wenn Ihre DITA-Karte Unter-Maps enthält, werden Themen aus den Unter-Maps ebenfalls auf einer neuen Registerkarte zur Bearbeitung geöffnet. Wenn Sie die Themen unter einer Unterzuordnung anzeigen möchten, können Sie die Unterzuordnung auswählen und erweitern.
 
-   ![](images/web-editor-multiple-topics.png){align="left"}
+   ![](images/web-editor-multiple-topics.png)
 
    Wenn Sie eine Zuordnungsdatei auswählen, wird die Zuordnung in einer neuen Registerkarte des Editors geöffnet.
 
@@ -337,7 +337,7 @@ Um Themen über eine DITA-Zuordnung zu bearbeiten, führen Sie die folgenden Sch
 
    - Sie können sie einzeln speichern. Wenn Sie schließen, ohne Ihre Themen zu speichern, wird ein Dialogfeld angezeigt, in dem Sie aufgefordert werden, die nicht gespeicherten Themen zu speichern:
 
-     ![](images/save-multiple-topics-new.png){width="300" align="left"}
+     ![](images/save-multiple-topics-new.png){width="300"}
 
      Sie können alle ausgewählten Themen speichern oder die Auswahl der Themen aufheben, die Sie nicht speichern möchten.
 
@@ -349,7 +349,7 @@ Um Themen über eine DITA-Zuordnung zu bearbeiten, führen Sie die folgenden Sch
 
    - Wenn Ihr Administrator die Option zum Entsperren von Dateien beim Schließen aktiviert hat, wird eine Aufforderung zum Speichern von Dateien angezeigt, sobald die gesperrten Dateien geschlossen werden. Wenn diese Option aktiviert ist, wird beim Schließen des Editors mit geänderten Dateien die Liste der gesperrten Dateien angezeigt, die gespeichert werden müssen. Die gesperrten Dateien werden mit einem Sperrsymbol angezeigt:
 
-     ![](images/save-on-close-new.png){width="350" align="left"}
+     ![](images/save-on-close-new.png){width="350"}
 
 ## Rechtes Bedienfeld im Karten-Editor
 
@@ -361,7 +361,7 @@ Das Bedienfeld Inhaltseigenschaften enthält Informationen zum Typ des aktuell i
 
 - **Andere Attribute** Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Im Bedienfeld Inhaltseigenschaften können Sie diese Attribute auswählen und sie relevanten Inhalten in Ihrem Thema zuweisen. Sie können auch von Ihrem Administrator konfigurierte Attribute unter &quot;**&quot;**. Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt. Dies hilft Ihnen, einen kurzen Blick auf alle Themen in einer Zuordnung zu werfen, für die ein bestimmtes Attribut definiert ist. Beispielsweise werden alle Themen mit dem Attribut `audience` als `US` definiert.
 
-  ![Layout-Ansicht](images/layout-inline-attributes.png){width="650" align="left"}
+  ![Layout-Ansicht](images/layout-inline-attributes.png){width="650"}
 
 
   Weitere Informationen finden Sie unter [Attribute anzeigen](../cs-install-guide/workspace-settings.md#display-attributes).

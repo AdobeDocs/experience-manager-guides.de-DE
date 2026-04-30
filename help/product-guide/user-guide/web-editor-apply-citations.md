@@ -4,10 +4,10 @@ description: Hinzufügen und Verwalten von Zitaten in AEM Guides. Erfahren Sie, 
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 0%
+source-wordcount: '1932'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um Zitate hinzuzufügen:
 
    Das **Zitate**-Bedienfeld wird geöffnet.
 
-   ![](images/citation-panel.png){width="350" align="left"}
+   ![](images/citation-panel.png){width="350"}
 
 1. Wählen Sie im **Zitate**-Bedienfeld ![Symbol hinzufügen](images/Add_icon.svg) aus. Aus dem Dropdown-Menü können Sie ein neues Zitat hinzufügen oder ein Zitat importieren.
 
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um Zitate hinzuzufügen:
 
    Das **Zitat hinzufügen** wird geöffnet.
 
-   ![Zitationsbereich im Web-Editor](images/citation-add.png) {width="300" align="left"}
+   ![Zitationsbereich im Web-Editor](images/citation-add.png) {width="300"}
 
 
 1. Füllen Sie die Felder im Dialogfeld **Zitat hinzufügen** aus.
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um Zitate hinzuzufügen:
    | Buch | Website | Journal |
    | --- | ---|---|
    | **Source** <br> Wählen Sie aus der Dropdown-Liste die Quelle des Zitats als Buch aus. | **Source**<br> Wählen Sie in der Dropdown-Liste die Quelle des Zitats als Website aus. | **Source** <br> Wählen Sie in der Dropdown-Liste die Quelle des Zitats als Journal aus. |
-   | **Suchen nach** <br> Wählen Sie **ISBN** oder **DOI** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist.  <br> DOI: Digitale Objektkennung <br> ISBN: Eindeutige numerische Buchkennung | **Suchen nach** <br> Wählen Sie **DOI** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist. | **Suchen nach** <ul><li>Wählen Sie **DOI** oder **PubMed ID** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist.</li><li>Wählen Sie **Beliebiges Feld** aus dem Dropdown-Menü aus, um alle Journalfelder wie *Titel*, *Journaltitel*, *Autor*, *Jahr*, *Volumen*, *Anzahl* und *Seiten* zu durchsuchen. <br> Die Suche gibt das Zitat zurück, das dem eingegebenen Text am nächsten kommt.</li> |
+   | **Suchen nach** <br> Wählen Sie **ISBN** oder **DOI** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist.  <br> DOI: Digitale Objektkennung <br> ISBN: Eindeutige numerische Buchkennung | **Suchen nach** <br> Wählen Sie **DOI** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist. | **Suchen nach** <ul><li>Wählen Sie **DOI** oder **PubMed ID** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist.</li><li>Wählen Sie **Beliebiges Feld** aus dem Dropdown-Menü aus, um alle Journalfelder wie *Titel*, *Journaltitel*, *Autor*, *Jahr*, *Volumen*, *Zahl* und *Seiten* zu durchsuchen. <br> Die Suche gibt das Zitat zurück, das dem eingegebenen Text am nächsten kommt.</li> |
    | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors des Zitats hinzu. Wählen Sie ![](images/Add_icon.svg) aus, um weitere Namen hinzuzufügen. | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors des Zitats hinzu. Wählen Sie ![](images/Add_icon.svg) aus, um weitere Namen hinzuzufügen. | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors des Zitats hinzu. Wählen Sie ![](images/Add_icon.svg)aus, um weitere Namen hinzuzufügen. |
    | **Titel** <br> Fügen Sie den Titel des Buchs hinzu. | **Titel** <br> Fügen Sie den Titel der Web-Seite hinzu. | **Titel** <br> Fügen Sie den Titel des Artikels hinzu. |
    | **Editor** <br> Fügen Sie den Editor des Buchs hinzu. | **Website-Name** <br> Fügen Sie den Namen der Website hinzu. | **Journaltitel** <br> Fügen Sie den Titel des Werks hinzu, in dem der Artikel gefunden wird. |
@@ -96,7 +96,7 @@ Gehen Sie wie folgt vor, um Zitate zu importieren:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importiert nur die Zitate, die eindeutig und noch nicht vorhanden sind.
-   > &gt; <li> Experience Manager Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
+    &gt; <li> Experience Manager Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
 
 ## Zitate verwalten
 
@@ -133,7 +133,7 @@ Die folgenden Optionen sind in der Dropdown-Liste verfügbar:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Moderne <br> | American Psychological Association Stil | Chicago Manual of Style | Institut für Elektro- und Elektronikingenieure | American Heart Association-Stil |
-| Beispiel: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, Band 16, 2010, Amsterdam. | Beispiel: <br> Crawford, C., J., &amp; , C. (2010). *Emotional Content of Dark Memories* (505-16 ed.). 10.1080/ 09658210902067289 | Beispiel: <br> Crawford, Claire, et al. *Emotionaler Inhalt dunkler Erinnerungen*. 505-16, 2010. | Beispiel: <br> C. Crawford, J. und C. *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. | Beispiel: <br> C. Crawford, J. und C. *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. |
+| Beispiel: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, Band 16, 2010, Amsterdam. | Beispiel: <br> Crawford, C., J., &amp; , C. (2010). *Emotional Content of Dark Memories* (505-16 ed.). 10.1080/ 09658210902067289 | Beispiel: <br> Crawford, Claire, et al. *Emotionaler Inhalt dunkler Erinnerungen*. 505-16, 2010. | Beispiel: <br> C. Crawford, J. , und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. | Beispiel: <br> C. Crawford, J. , und C. , *Emotionaler Inhalt dunkler Erinnerungen*. Amsterdam, 2010. |
 
 
 ## Zitat bearbeiten
@@ -146,7 +146,7 @@ Gehen Sie wie folgt vor, um das Zitat zu bearbeiten:
 
 Das **Zitat bearbeiten** wird geöffnet.
 
-1. Nehmen Sie die erforderlichen Änderungen vor. Wählen Sie **Fertig** aus.
+1. Nehmen Sie die erforderlichen Änderungen vor. Klicken Sie auf **Fertig**.
 Das ausgewählte Zitat wird bearbeitet.
 
 >[!NOTE]
@@ -157,9 +157,9 @@ Das ausgewählte Zitat wird bearbeitet.
 
 Gehen Sie wie folgt vor, um eine Vorschau eines Zitats anzuzeigen:
 
-Bewegen Sie den Mauszeiger über den Namen des Zitats in der Liste. Auswählen     ![](images/options.svg) Symbol **Optionen**.
+Bewegen Sie den Mauszeiger über den Namen des Zitats in der Liste. Wählen Sie ![](images/options.svg) Symbol **Optionen** aus.
 
-1. Wählen Sie **Vorschau** aus.
+1. Wählen Sie **Vorschau**.
 Sie können den Inhalt und das Format des Zitats im Vorschaubereich in der Vorschau anzeigen.
 
    >[!NOTE]
@@ -168,7 +168,7 @@ Sie können den Inhalt und das Format des Zitats im Vorschaubereich in der Vorsc
 
 1. Wählen Sie eine beliebige Stelle auf dem Bildschirm aus, um das Vorschaufeld zu schließen.
 
-   ![](images/citation-preview.png){width="550" align="left"}
+   ![](images/citation-preview.png){width="550"}
 
 >[!NOTE]
 >
@@ -187,11 +187,11 @@ Sie können Zitate zum Thema aus der Hauptsymbolleiste oder dem linken Bereich e
 ### In der Haupt-Symbolleiste
 
 1. Wählen Sie das Symbol **Zitate** ![Zitate](images/citations-icon.svg) in der Hauptsymbolleiste aus.
-1. Wählen Sie **Dialogfeld**&#x200B;Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
-   ![Zitierdialogfeld](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+1. Wählen Sie **Dialogfeld**Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
+   ![Zitierdialogfeld](images/citation-dialog-main-toolbar.png){width="300"}
 1. Sie können Zitate filtern, indem Sie die ersten Buchstaben in das Suchfeld des Dialogfelds **Zitat** eingeben.
 
-1. Wählen Sie **Fertig** aus.
+1. Klicken Sie auf **Fertig**.
 Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
 
 
@@ -201,7 +201,7 @@ Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
 > 
 >Um das Symbol **Zitate** im linken Bereich anzuzeigen, muss Ihr Systemadministrator die Option **Zitate** auf der Registerkarte **Panels** in **Settings** aktivieren.
 
-1. Wählen Sie **Zitate** ![Zitationssymbol &#x200B;](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
+1. Wählen Sie **Zitate** ![Zitationssymbol ](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
 1. Ziehen Sie das Zitat aus dem Bedienfeld **Zitate** und legen Sie es an der entsprechenden Position im Thema ab.
 
    Sie können auch **Einfügen** unter ![](images/options.svg)**Optionen** auswählen, um ein Zitat einzufügen.
@@ -225,7 +225,7 @@ Gehen Sie wie folgt vor, um ein Zitat aus dem Zitationsbereich zu löschen:
 
 1. Bewegen Sie den Mauszeiger über den Namen des Zitats in der Liste.
 1. Wählen Sie das Symbol ![](images/options.svg) **Optionen** aus.
-1. Wählen Sie die   **Löschen** ![](images/Delete_icon.svg).
+1. Wählen Sie die ![](images/Delete_icon.svg) **Löschen** aus.
 Das Bestätigungsdialogfeld wird geöffnet.
 1. Wählen Sie **Ja** aus.
 Das ausgewählte Zitat wird aus dem Zitatbereich gelöscht.

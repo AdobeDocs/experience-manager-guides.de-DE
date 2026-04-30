@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Um bedingte Attribute zu definieren, führen Sie die folgenden Schritte aus:
 
    Der folgende Screenshot zeigt die Definition für das Attribut `platform` mit dem Wert `unix` und der Kennzeichnung `Red Hat Linux`.
 
-   ![](images/add-profile.png){width="800" align="left"}
+   ![](images/add-profile.png){width="800"}
 
 1. Wenn Sie weitere Werte für dasselbe Attribut hinzufügen möchten, klicken Sie auf das Symbol **+** und geben Sie zusätzlichen Wert und eine Bezeichnung ein.
 
@@ -57,6 +57,6 @@ Um bedingte Attribute zu definieren, führen Sie die folgenden Schritte aus:
 
 Das `platform` wird im System gespeichert. Wenn ein Autor sich entscheidet, das `platform`-Attribut in einem DITA-Thema in einem Ordner zu verwenden, werden die Werte auf der Registerkarte Eigenschaften im Web-Editor angezeigt.
 
-![](images/properties-tab.png){width="350" align="left"}
+![](images/properties-tab.png){width="350"}
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

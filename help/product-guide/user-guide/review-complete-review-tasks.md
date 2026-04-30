@@ -4,9 +4,9 @@ description: Wissen, wie Sie eine Aufgabe als abgeschlossen als Prüfer in AEM G
 feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Führen Sie die folgenden Schritte aus, um eine Prüfungsaufgabe abzuschließen:
 1. Öffnen Sie die Ihnen zugewiesene Prüfungsaufgabe.
 2. Wählen Sie **Als erledigt markieren** oben aus, wie unten dargestellt:
 
-   ![](images/review-task-mark-as-done.png){width="350" align="left"}
+   ![](images/review-task-mark-as-done.png){width="350"}
 
    Das **Aufgabe abschließen** wird angezeigt.
 3. Fügen Sie im Dialogfeld **Aufgabe abschließen** abschließende Kommentare für den Autor hinzu und wählen Sie **Abschließen**.
@@ -35,20 +35,20 @@ Führen Sie die folgenden Schritte aus, um eine Prüfungsaufgabe abzuschließen:
 
    Beispielsweise können Sie als Prüfer einen Kommentar als Folgemaßnahme für den Autor hinzufügen:
 
-   ![](images/complete-task-dialog-followup.png){width="350" align="left"}
+   ![](images/complete-task-dialog-followup.png){width="350"}
 
    Oder fügen Sie einen Kommentar hinzu, um den Abschluss der Aufgabe anzugeben, wie unten dargestellt:
 
-   ![](images/complete-task-dialog.png){width="350" align="left"}
+   ![](images/complete-task-dialog.png){width="350"}
 
 
 Sie haben die Aufgabe erfolgreich als abgeschlossen markiert und ihr Status ist jetzt auf &quot;**&quot;**. Sobald die Aufgabe als abgeschlossen markiert ist, sind keine weiteren Aktionen mehr zulässig. Der Autor oder Initiator der Überprüfungsaufgabe erhält eine Benachrichtigung, auf die er unverzüglich aufmerksam gemacht wird. Weitere Informationen zum Trigger von Prüfungsbenachrichtigungen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
 
-![](images/task-completed-status.png){width="350" align="left"}
+![](images/task-completed-status.png){width="350"}
 
 Wenn der Autor oder Initiator der Aufgabe anhand des Feedbacks [die Prüfungsaufgabe schließen](./review-close-review-task.md) wird der Aufgabenstatus in der Benutzeroberfläche „Überprüfen“ in &quot;**&quot;**.
 
-![](images/review-status-closed-review-ui.png){width="350" align="left"}
+![](images/review-status-closed-review-ui.png){width="350"}
 
 ## Anzeigen von Kommentaren auf Aufgabenebene
 
@@ -56,11 +56,11 @@ Alle Kommentare auf Aufgabenebene werden im Dialogfeld **Kommentare zu Aufgaben*
 
 Um über die Überprüfungs-Benutzeroberfläche auf Kommentare auf Aufgabenebene zuzugreifen, navigieren Sie zum linken Bedienfeld und wählen Sie das Symbol **Aufgabenkommentare** aus.
 
-![](images/task-comments-icon.png){width="350" align="left"}
+![](images/task-comments-icon.png){width="350"}
 
 Das **Aufgabenkommentare** wird auf der rechten Seite angezeigt.
 
-![](images/task-comments-reviewer.png){width="350" align="left"}
+![](images/task-comments-reviewer.png){width="350"}
 
 Die Kommentare innerhalb des Dialogfelds werden in chronologischer Reihenfolge angezeigt, wobei die jüngsten Kommentare zuerst und die ältesten Kommentare zuletzt angezeigt werden. Diese Reihenfolge hilft Ihnen, die Konversation im Laufe der Zeit zu verfolgen.
 

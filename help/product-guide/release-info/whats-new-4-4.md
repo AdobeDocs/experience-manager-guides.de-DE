@@ -1,11 +1,11 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 4.4.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 4.4.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in Version 4.4.0 von Adobe Experience Manager Guides
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2318'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 4.4.0](../release-info/upgra
 
 Jetzt bietet Experience Manager Guides eine erweiterte Funktion zum Versionsverlauf, mit der Sie die an einem Dokument vorgenommenen Änderungen im Zeitverlauf vergleichen können. In der neuen Seitenansicht können Sie den Inhalt und die Metadaten der aktuellen Version einfach mit einer beliebigen früheren Version desselben Dokuments vergleichen. Sie können auch die Beschriftungen und Kommentare für die verglichenen Versionen anzeigen. Als Admin können Sie die Versionsmetadaten des Themas und deren Werte steuern, die im Dialogfeld **Versionsverlauf** angezeigt werden.
 
-![Dialogfeld „Versionsverlauf“](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![Dialogfeld „Versionsverlauf“](assets/version-history-dialog-web-editor.png){width="800"}
 *Vorschau der Änderungen in den verschiedenen Versionen eines Themas.*
 
 Weitere Informationen zur Beschreibung der Funktion **Versionsverlauf** finden Sie im Abschnitt [Linkes Bedienfeld (alt)](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS).
@@ -33,7 +33,7 @@ Weitere Informationen zur Beschreibung der Funktion **Versionsverlauf** finden S
 
 Sie können Bedingungsattribute in Ihren DITA-Themen definieren. Verwenden Sie dann die Bedingungsattribute in der Bedingungsvorgabe, um den Inhalt in einer DITA-Zuordnung zu veröffentlichen. Experience Manager Guides bietet jetzt auch ein angereichertes Erlebnis im Web-Editor, mit dem Sie Bedingungsvorgaben effizienter erstellen und verwalten können. Sie können sie auch einfach bearbeiten, duplizieren oder löschen.
 
-![Bedingungsvorgaben auf der Registerkarte Verwalten des Web-Editors &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Bedingungsvorgaben auf der Registerkarte Verwalten des Web-Editors ](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Weitere Informationen finden Sie unter [Verwenden von Bedingungsvorgaben](../user-guide/generate-output-use-condition-presets.md).
 
@@ -41,7 +41,7 @@ Weitere Informationen finden Sie unter [Verwenden von Bedingungsvorgaben](../use
 
 Jetzt verfügen Sie über ein überarbeitetes Erlebnis, um die Attribute für ein Element im Bedienfeld **Inhaltseigenschaften** im Web-Editor hinzuzufügen oder zu bearbeiten.
 
-![Attributbereich](assets/attributes-multiple-properties.png){width="300" align="left"}
+![Attributbereich](assets/attributes-multiple-properties.png){width="300"}
 
 *Attribute aus dem Bedienfeld „Inhaltseigenschaften“ hinzufügen.*
 
@@ -52,7 +52,7 @@ Weitere Informationen finden Sie in der Beschreibung der Funktion **Inhaltseigen
 
 Beim Authoring können Sie jetzt die Dateimetadaten-Tags mithilfe der Dropdown-Liste **Dateieigenschaften** im rechten Bedienfeld aktualisieren. Sie können auch **Weitere Eigenschaften bearbeiten** auswählen, um weitere Metadaten zu aktualisieren.
 
-![file-properties](assets/file-properties-general.png){width="300" align="left"}
+![file-properties](assets/file-properties-general.png){width="300"}
 
 *Aktualisieren von Metadaten und Bearbeiten von Dateieigenschaften im rechten Bedienfeld.*
 
@@ -62,7 +62,7 @@ Weitere Informationen finden Sie in der **Dateieigenschaften** Funktionsbeschrei
 
 Wenn Sie Schlüsselattribute für die Themen- oder Zuordnungsreferenzen definieren, können Sie auch den Titel, das entsprechende Symbol und den Schlüssel im linken Bereich anzeigen. Die Taste wird als `key=<key-name>` angezeigt.
 
-![Schlüssel in der Kartenansicht](assets/view-key-title-map-view.png) {width="300" align="left"}
+![Schlüssel in der Kartenansicht](assets/view-key-title-map-view.png) {width="300"}
 
 *Anzeigen des Schlüsselattributs in der Zuordnungsansicht.*
 
@@ -74,13 +74,13 @@ Weitere Informationen finden Sie in der Beschreibung der Funktion **Kartenansich
 Experience Manager Guides bietet jetzt ein verbessertes Benutzererlebnis zum Erstellen der Grundlinien aus dem Web-Editor.
 Die Optionen **Manuelles Update** und **Automatisches Update** sind intuitiver und erleichtern Ihnen die Wahl zwischen der Erstellung einer statischen Grundlinie oder ihrer automatischen Aktualisierung entsprechend den Kennzeichnungen.
 
-![Neue Baseline erstellen](assets/dynamic-baseline-4-4.png) {width="300" align="left"}
+![Neue Baseline erstellen](assets/dynamic-baseline-4-4.png) {width="300"}
 *Erstellen einer Baseline aus dem Web-Editor.*
 
 Außerdem können Sie eine Baseline basierend auf der Bezeichnung duplizieren. Die Referenzversion wird basierend auf der angegebenen Beschriftung (falls vorhanden) beim Duplizieren ausgewählt, andernfalls wird die Version aus der duplizierten Baseline ausgewählt.
 
 
-![Duplizieren einer Baseline &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
+![Duplizieren einer ](assets/duplicate-baseline.png) {width="300"}
 
 *Duplizieren Sie eine Baseline basierend auf einer Beschriftung oder erstellen Sie eine exakte Kopie.*
 
@@ -92,7 +92,7 @@ Experience Manager Guides bietet ein erweitertes Dashboard für die Kartensammlu
 
 Jetzt können Sie den Dateinamen der DITA-Karte anzeigen. Sie können auch die Baselines anzeigen. Auf diese Weise können Sie die für eine Voreinstellung verwendete Baseline schnell finden.
 
-![Dashboard der Zuordnungssammlung](assets/map-collection-dashboard.png){width="800" align="left"}
+![Dashboard der Zuordnungssammlung](assets/map-collection-dashboard.png){width="800"}
 
 *Anzeigen, Bearbeiten und Generieren von Ausgaben im Zuordnungssammlungs-Dashboard.*
 
@@ -102,7 +102,7 @@ Erfahren Sie, wie [Zuordnungssammlung für die Ausgabegenerierung verwenden](../
 
 Das Bedienfeld **Übersetzung** wurde verbessert.  Sie können die Liste **Verfügbare Sprachen** anzeigen und schnell das Gebietsschema auswählen, in das Sie Ihr Projekt übersetzen möchten. Mit einer einzigen Auswahl können Sie auch **Alle auswählen** um Ihr Projekt in alle verfügbaren Sprachen zu übersetzen.
 
-![Übersetzungsbedienfeld](assets/translation-languages-4.4.png){width="300" align="left"}
+![Übersetzungsbedienfeld](assets/translation-languages-4.4.png){width="300"}
 
 
 
@@ -118,7 +118,7 @@ Beispiel: Beim Bearbeiten eines Absatzes, für den Sie ein Element einfügen mö
 Alle gültigen Elemente, die mit „t“ beginnen.
 
 
-![Dialogfeld „Einfügen](assets/insert-element.png){width="300" align="left"}
+![Dialogfeld „Einfügen](assets/insert-element.png){width="300"}
 
 *Geben Sie ein Zeichen ein, um nach allen gültigen Elementen zu suchen, die mit dem Zeichen beginnen.*
 
@@ -130,7 +130,7 @@ Weitere Informationen finden Sie in der Beschreibung **Element einfügen** im Ab
 
 Jetzt können Sie Ihre Liste im Web-Editor einfach aufteilen. Wählen Sie die **Liste teilen** aus dem Kontextmenü eines Listenelements aus, um die aktuelle Liste zu teilen. Eine neue Liste wird auf derselben Ebene erstellt, beginnend mit dem Listenelement, das Sie für die Aufspaltung ausgewählt haben.
 
-![Übersetzungsbedienfeld](assets/context-menu-split-list.png){width="300" align="left"}
+![Übersetzungsbedienfeld](assets/context-menu-split-list.png){width="300"}
 
 *Wählen Sie die Option aus, um die aktuelle Liste zu teilen.*
 
@@ -139,7 +139,7 @@ Weitere Informationen finden Sie in der **Liste einfügen** Funktionsbeschreibun
 ## DITA-Elemente einfach entpacken
 
 Jetzt können Sie ein Element mithilfe der Option aus dem Kontextmenü eines Elements im Web-Editor einfach entpacken. Auf diese Weise können Sie den Text des Elements einfach mit dem übergeordneten Element zusammenführen.
-Weitere Informationen finden Sie im Abschnitt **Element entpacken** unter &quot;[&#x200B; Funktionen im Web-Editor](../user-guide/web-editor-other-features.md).
+Weitere Informationen finden Sie im Abschnitt **Element entpacken** unter &quot;[ Funktionen im Web-Editor](../user-guide/web-editor-other-features.md).
 
 ## Zugreifen auf Dateieigenschaften im Quellmodus der Bearbeitung
 
@@ -152,7 +152,7 @@ Weitere Informationen finden Sie in der **Dateieigenschaften** Funktionsbeschrei
 
 Sie können jetzt die Standardmethode zum Anzeigen der Dateien im Web-Editor auswählen. Sie können die Liste der Dateien anhand der Titel oder der Dateinamen aus den verschiedenen Bedienfeldern in der Autorenansicht anzeigen.
 
-![Dialogfeld „Benutzereinstellungen“](assets/user-preferences-2311.png){width="550" align="left"}
+![Dialogfeld „Benutzereinstellungen“](assets/user-preferences-2311.png){width="550"}
 
 *Ändern Sie die Standardeinstellung zum Anzeigen der Dateien im Dialogfeld **Benutzereinstellungen**.*
 
@@ -174,12 +174,12 @@ Erfahren Sie mehr über [Tastaturbefehle im Web-Editor](../user-guide/web-editor
 Kreuzzuordnungs-Links (XREF mit Peer-Bereich), die in der AEM-Site-Ausgabe gerendert werden, werden jetzt gemäß dem Dateinamen des Veröffentlichungskontexts aufgelöst, der für die generierte Zuordnung festgelegt wurde.
 
 
-## Konfigurieren Sie die URL der AEM-Site-Ausgabe, um den Dokumenttitel zu verwenden
+## Konfigurieren Sie die URL der Ausgabe der AEM-Site, um den Dokumenttitel zu verwenden
 
-Experience Manager Guides ermöglicht es Ihnen als Administrator, die URL der Ausgabe der AEM-Site zu konfigurieren. Wenn der Dateiname nicht vorhanden ist oder alle Sonderzeichen enthält, können Sie so konfigurieren, dass er sie durch ein Trennzeichen in der URL der AEM-Site-Ausgabe ersetzt. Sie können sie auch durch den Namen des ersten untergeordneten Themas ersetzen. Erfahren Sie, wie Sie [die URL der AEM-Site-Ausgabe konfigurieren, um den Dokumenttitel zu verwenden](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
+Experience Manager Guides ermöglicht es Ihnen als Administrator, die URL der Ausgabe der AEM-Site zu konfigurieren. Wenn der Dateiname nicht vorhanden ist oder alle Sonderzeichen enthält, können Sie so konfigurieren, dass er sie durch ein Trennzeichen in der URL der AEM-Site-Ausgabe ersetzt. Sie können sie auch durch den Namen des ersten untergeordneten Themas ersetzen. Erfahren Sie, wie [die URL der AEM-Site-Ausgabe so konfigurieren, dass sie den Dokumenttitel verwendet](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
 
 
-## Mehrere parallele Publish-Ausgabevorgaben
+## Paralleles Veröffentlichen mehrerer Ausgabevorgaben
 
 Experience Manager bietet die Funktion, Baselines zu erstellen, indem die Themen automatisch entsprechend der ihnen zugewiesenen Beschriftung ausgewählt werden. Jetzt können Sie auch mehrere Ausgabevorgaben mit automatischen Baselines derselben DITA-Zuordnung nahtlos veröffentlichen. Sie müssen nicht nur eine Vorgabe gleichzeitig veröffentlichen, sondern können auch mehrere Ausgabevorgaben parallel veröffentlichen.
 
@@ -187,25 +187,25 @@ Erfahren Sie mehr über das [Erstellen und Verwalten von Baselines im Web-Editor
 
 ## Native PDF-Verbesserungen
 
-Die folgenden nativen PDF-Verbesserungen wurden in Version 4.4.0 vorgenommen:
+In Version 4.4.0 wurden die folgenden nativen PDF-Verbesserungen vorgenommen:
 
 ### Verwenden von Variablen in der PDF-Ausgabe
 
-Sie können Variablen verwenden, um wiederverwendbare Informationen dynamisch einzufügen und zu verwalten. Experience Manager Guides hilft Ihnen beim Erstellen, Bearbeiten und Anzeigen einer Vorschau von Variablen während der Erstellung der PDF-Ausgabe. Sie können die Werte von Variablen schnell ändern und Ihre Dokumente portabel und einfach zu aktualisieren machen.
+Sie können Variablen verwenden, um wiederverwendbare Informationen dynamisch einzufügen und zu verwalten. Mit Experience Manager Guides können Sie Variablen erstellen, bearbeiten und in der Vorschau anzeigen, während Sie die PDF-Ausgabe generieren. Sie können die Werte von Variablen schnell ändern und Ihre Dokumente portabel und einfach zu aktualisieren machen.
 
-![Native PDF-Variablen](assets/add-variable-default.png){width="800" align="left"}
+![Native PDF-Variablen](assets/add-variable-default.png){width="800"}
 
 *Erstellen und Verwalten von Variablen im Web-Editor.*
 
 Sie können auch Variablensätze erstellen, die die Standardwerte überschreiben, und Ihren Variablen alternative Werte zuweisen. Fügen Sie diese Variablen in das Seiten-Layout ein und verwenden Sie dasselbe PDF-Layout. Sie müssen nicht für jeden Wertesatz separate Layouts erstellen. Sie können beispielsweise für jede Produktversion einen Variablensatz erstellen. Dieser Variablensatz kann aus Variablen für verschiedene Produktdetails wie Produktname, Versionsnummer und Veröffentlichungsdatum bestehen. Anschließend können Sie für diese Variablen unterschiedliche Werte hinzufügen.
 
-**Variablensatz 1: Adobe-Set1**
+**Variablensatz 1: Adobe-set1**
 
 * Produktname: Experience Manager Guides
 * Versionsnummer: 2311
 * Veröffentlichungsdatum: 11/02/2023
 
-**Variablensatz 2: Adobe-Set2**
+**Variablensatz 2: Adobe-set2**
 
 * Produktname: Experience Manager Guides
 * Versionsnummer: 2310
@@ -213,7 +213,7 @@ Sie können auch Variablensätze erstellen, die die Standardwerte überschreiben
 
 
 
-<img src="./assets/native-pdf-variable-output.png" alt="Fußzeile in PDF-Ausgabe" width="500" border="2px">
+<img src="./assets/native-pdf-variable-output.png" alt="Fußzeile in der PDF-Ausgabe" width="500" border="2px">
 
 *Generieren Sie die PDF-Ausgabe mithilfe von Variablen im PDF-Layout.*
 
@@ -225,14 +225,14 @@ Erfahren Sie mehr über die Verwendung von [Variablen in der PDF-Ausgabe](../nat
 
 ### Übertragen von Asset-Metadaten an die PDF-Ausgabe
 
-Experience Manager bietet jetzt die Möglichkeit, die Metadateneigenschaften der Assets aus der DITA-Zuordnung auf die PDF-Ausgabe zu übertragen.
-Über die native PDF-Ausgabevorgabe können Sie die Metadaten auswählen, die Sie an den PDF-Veröffentlichungsprozess weitergeben möchten. Sie können sowohl die benutzerdefinierten als auch die Standardeigenschaften auswählen.  Die ausgewählten Metadateneigenschaften werden in die mit dem nativen PDF generierte PDF-Datei übertragen.
+Experience Manager bietet jetzt die Möglichkeit, die Metadateneigenschaften der Assets aus der DITA-Zuordnung in die PDF-Ausgabe zu übertragen.
+Aus der nativen PDF-Ausgabevorgabe können Sie die Metadaten auswählen, die Sie an den PDF-Veröffentlichungsprozess weitergeben möchten. Sie können sowohl die benutzerdefinierten als auch die Standardeigenschaften auswählen.  Die ausgewählten Metadateneigenschaften werden in die PDF-Datei übertragen, die mit dem nativen PDF generiert wurde.
 
 Diese Funktion ist praktisch, da sie Ihnen dabei hilft, Ihre Asset-Eigenschaften wie Autor, Erstellungsdatum oder Dokumenttitel konsistent zu halten. Dies erleichtert die Organisation, Suche und Kategorisierung Ihrer Dokumente.
 
-Weitere Informationen finden Sie unter **Erweitert** in der Ausgabe [Publish PDF](../web-editor/native-pdf-web-editor.md).
+Weitere Informationen finden Sie unter **Erweitert** in der Ausgabe [PDF veröffentlichen](../web-editor/native-pdf-web-editor.md).
 
-### Verwenden der im `topicmeta` hinzugefügten Metadaten für die PDF-Ausgabe
+### Verwenden von im `topicmeta` hinzugefügten Metadaten für die PDF-Ausgabe
 
 Die Metadatenfunktion in der nativen PDF-Veröffentlichung hilft bei der Inhaltsverwaltung und bei der Suche nach Dateien im Internet.
 <img src="assets/pdf-metadata-4-4.png" alt="Registerkarte Metadaten" width="800">
@@ -243,23 +243,23 @@ Jetzt bietet Experience Manager Guides die Möglichkeit, die Metadaten zu verwen
 
 Diese Funktion trägt zu einer besseren Dokumentverwaltung bei, sorgt für Konsistenz und macht Ihre Dokumente durchsuchbar.
 
-Weitere Informationen finden Sie auf der Registerkarte **Metadaten** in der [Publish PDF-Ausgabe](../web-editor/native-pdf-web-editor.md).
+Weitere Informationen finden Sie auf der Registerkarte **Metadaten** in der Ausgabe [PDF veröffentlichen](../web-editor/native-pdf-web-editor.md).
 
 ### Verwenden und Duplizieren von vordefinierten PDF-Vorlagen
 
 Experience Manager Guides bietet vordefinierte oder werkseitige PDF-Vorlagen. Duplizieren Sie die werkseitigen PDF-Vorlagen, um die benutzerdefinierten PDF-Vorlagen zu erstellen.
 
 Jetzt können Sie beim Erstellen und Duplizieren einer Vorlage auch eine Vorschau des Miniaturbilds für eine Vorlage anzeigen. Sie können dieses Bild auch bearbeiten oder löschen. Diese Funktion ist nützlich, um Vorlagen mit ähnlichen Namen zu markieren oder zu unterscheiden.
-Weitere Informationen zur [PDF-Vorlage](../native-pdf/pdf-template.md).
+Weitere Informationen zur Vorlage [PDF](../native-pdf/pdf-template.md).
 
-![Dialogfeld &quot;PDF-Vorlage duplizieren“](assets/duplicate-template.png){width="550" align="left"}
+![Dialogfeld &quot;PDF-Vorlage duplizieren“](assets/duplicate-template.png){width="550"}
 
 *Duplizieren Sie eine vorhandene PDF-Vorlage.*
 
 
 ### Ändern der Reihenfolge von Seiten und Veröffentlichen mehrerer Seiten pro Blatt
 
-Neben der Veröffentlichung der Seiten gemäß dem Quelldokument können Sie beim Veröffentlichen eines mehrseitigen Dokuments auch die Seitenreihenfolge beim PDF ändern.  Dadurch haben Sie die Möglichkeit, die Seiten in verschiedenen Reihenfolgen zu veröffentlichen, z. B. alle ungeraden oder alle geraden Seiten zuerst. Sie können auch als Broschüre veröffentlichen und die Seiten wie ein Buch lesen. Sie können auch die Anzahl der Seiten festlegen, die Sie auf einem einzelnen Blatt Papier veröffentlichen möchten. Weitere Informationen finden Sie im Abschnitt [Seitenorganisation](../native-pdf/components-pdf-template.md#page-organization) .
+Neben der Veröffentlichung der Seiten gemäß dem Quelldokument können Sie auch die Seitenreihenfolge in PDF ändern, während Sie ein mehrseitiges Dokument veröffentlichen.  Dadurch haben Sie die Möglichkeit, die Seiten in verschiedenen Reihenfolgen zu veröffentlichen, z. B. alle ungeraden oder alle geraden Seiten zuerst. Sie können auch als Broschüre veröffentlichen und die Seiten wie ein Buch lesen. Sie können auch die Anzahl der Seiten festlegen, die Sie auf einem einzelnen Blatt Papier veröffentlichen möchten. Weitere Informationen finden Sie im Abschnitt [Seitenorganisation](../native-pdf/components-pdf-template.md#page-organization) .
 
 ### Sortieren von Glossarbegriffen basierend auf Sortierschlüsseln
 

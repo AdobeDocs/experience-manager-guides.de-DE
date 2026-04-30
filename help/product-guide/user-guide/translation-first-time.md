@@ -4,9 +4,9 @@ description: Kenntnis der Best Practices für die Übersetzung von Inhalten in A
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Beachten Sie den folgenden Punkt für die Übersetzung von Inhalten:
 
 Die folgende Abbildung zeigt ein Beispiel für eine Ordnerstruktur in Adobe Experience Manager, wenn Sie global Inhalte und drei Sprachkopien verwendet haben.
 
-![](images/aem-directory_structure.png){align="left"}
+![](images/aem-directory_structure.png)
 
 ## Konfigurieren des Übersetzungsdienstes
 
@@ -49,7 +49,7 @@ Führen Sie die folgenden Schritte aus, um den Service für menschliche oder mas
 
    >[!NOTE]
    >
-   > Weitere [&#x200B; zur Integration mit Übersetzungs-Services von Drittanbietern finden Sie &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=de) der Dokumentation zu Adobe Experience Manager unter „Konfigurieren des Frameworks für die Übersetzungsintegration“.
+   > Weitere [ zur Integration mit Übersetzungs-Services von Drittanbietern finden Sie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) der Dokumentation zu Adobe Experience Manager unter „Konfigurieren des Frameworks für die Übersetzungsintegration“.
 
 1. Wählen Sie **Speichern und schließen** um die aktualisierten Ordnereigenschaften zu speichern.
 
@@ -79,4 +79,4 @@ Nach Abschluss der Übersetzung ändert sich der Status des Übersetzungsauftrag
 >- Wenn Sie den Übersetzungsauftrag für ein Thema in mehreren Projekten (für eines der Projekte) ablehnen, löschen oder abbrechen, wird der **In Bearbeitung** Übersetzungsstatus des Themas nicht zurückgesetzt, dieses Projekt wird jedoch aus der Projektliste **In Bearbeitung** für dieses bestimmte Asset entfernt.
 >- Wenn Sie außerdem den Übersetzungsauftrag abbrechen oder löschen oder das gesamte Projekt löschen, wird der **In Bearbeitung** Übersetzungsstatus auf den ursprünglichen Status zurückgesetzt.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B;Übersicht über die Inhaltsübersetzung](translation.md)
+**Übergeordnetes Thema:**[&#x200B;Übersicht über die Inhaltsübersetzung](translation.md)

@@ -4,9 +4,9 @@ description: Verwenden Sie Daten aus Ihrer Datenquelle in AEM Guides. Erfahren S
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2405'
 ht-degree: 0%
 
 ---
@@ -29,16 +29,16 @@ Abhängig von Ihrem Setup kann Ihr Administrator einen Datenquellen-Connector ko
 
 - Wenn Sie die Version vom Oktober 2023 oder höher verwenden, erfahren Sie, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](../cs-install-guide/conf-data-source-connector-tools.md) im Installations- und Konfigurationshandbuch für Cloud Services finden.
 
-- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Services, wie [&#x200B; einen Datenquellen-Connector &#x200B;](../cs-install-guide/conf-data-source-connector.md).
+- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Services, wie [ einen Datenquellen-Connector ](../cs-install-guide/conf-data-source-connector.md).
 
 </details>
 
 <details>    
 <summary>  On-Premise Software </summary>
 
-- Wenn Sie Version 4.3.1 oder höher verwenden, erfahren Sie im On-Premise[Installations- und Konfigurationshandbuch , wie Sie einen Datenquellen-Connector über &#x200B;](../cs-install-guide/conf-data-source-connector-tools.md) Benutzeroberfläche konfigurieren.
+- Wenn Sie Version 4.3.1 oder höher verwenden, erfahren Sie im On-Premise[Installations- und Konfigurationshandbuch , wie Sie einen Datenquellen-Connector über ](../cs-install-guide/conf-data-source-connector-tools.md) Benutzeroberfläche konfigurieren.
 
-- Wenn Sie Version 4.3 verwenden, erfahren Sie im On-[-Installations- und Konfigurationshandbuch , wie Sie &#x200B;](../cs-install-guide/conf-data-source-connector.md) Datenquellen-Connector konfigurieren.
+- Wenn Sie Version 4.3 verwenden, erfahren Sie im On-[-Installations- und Konfigurationshandbuch , wie Sie ](../cs-install-guide/conf-data-source-connector.md) Datenquellen-Connector konfigurieren.
 </details>
 
 
@@ -55,13 +55,13 @@ Wählen Sie eine Datenquelle aus, um die Inhaltsfragmentgeneratoren und die Them
 
 ### Listenansicht
 
-![](images/data-sources-list-view.png){width="300" align="left"}
+![](images/data-sources-list-view.png){width="300"}
 
 *Liste der verbundenen Datenquellen.*
 
 ### Kachelansicht
 
-![](images/data-sources-tile-view.png){width="300" align="left"}
+![](images/data-sources-tile-view.png){width="300"}
 
 *Anzeigen der verbundenen Datenquellen als Kacheln.*
 
@@ -80,13 +80,13 @@ Führen Sie die folgenden Schritte aus, um einen Inhaltsausschnitt mit dem Inhal
 
 1. Wählen Sie eine Datenquelle aus, um die für die ausgewählte Datenquelle verfügbaren Inhaltsfragment-Generatoren anzuzeigen.
 
-   ![](images/code-snippet-generator.png){width="300" align="left"}
+   ![](images/code-snippet-generator.png){width="300"}
 
    *Im Bedienfeld „Datenquellen“ werden die verfügbaren Inhaltsfragment-Generatoren aufgelistet.*
 
 1. Wählen Sie **Hinzufügen**, um einen neuen Inhaltsausschnitt-Generator hinzuzufügen. Das Bedienfeld **Inhaltsfragmentgenerator hinzufügen** wird geöffnet.
 
-   ![](images/add-content-snippet-generator-empty-screen.png){width="500" align="left"}
+   ![](images/add-content-snippet-generator-empty-screen.png){width="500"}
 
 1. Geben Sie die Abfrage in das Textfeld **Datenabfrage** ein.  Wählen Sie **Beispielabfrage kopieren** aus, um eine Datenabfrage schnell zu kopieren. Anstatt die Abfrage manuell zu erstellen, können Sie die Beispielabfrage kopieren und in das Textfeld **Datenabfrage** einfügen. Bearbeiten Sie dann einfach die Abfrage gemäß Ihren Datenanforderungen.
 
@@ -107,7 +107,7 @@ Die vordefinierten Vorlagen für die ausgewählte Datenquelle werden in der Drop
    >  
    > Wenn Ihr Administrator benutzerdefinierte Vorlagen konfiguriert hat, werden Ihnen diese Vorlagen auch in der Dropdown-Liste angezeigt (basierend auf den Vorlagenpfadkonfigurationen, die von Ihrem Administrator durchgeführt wurden).
    >   
-   >Sie können auch Velocity-Tools in den Vorlagen verwenden. Erfahren Sie mehr über die Verwendung [&#x200B; Velocity-Tools](#use-velocity-tools).
+   >Sie können auch Velocity-Tools in den Vorlagen verwenden. Erfahren Sie mehr über die Verwendung [ Velocity-Tools](#use-velocity-tools).
 
 1. Das **Ressource**-Dropdown wird für einige Connectoren wie REST-Client, Salsify, Akeneo und Microsoft ADO angezeigt.  Wählen Sie eine Ressource aus dem Dropdown-Menü aus und stellen Sie eine Verbindung mit ihr her, um ein Inhaltsfragment oder ein Thema mithilfe des Generators dafür zu erstellen.
 
@@ -120,13 +120,13 @@ Die vordefinierten Vorlagen für die ausgewählte Datenquelle werden in der Drop
 1. Sie können die Daten in der Vorschau oder in der DITA-Quellansicht anzeigen.
 
    1. Die Vorschau zeigt, wie die Daten angezeigt werden, wenn sie in den Inhalt eingefügt werden. Die Vorschau zeigt einen kleinen Bruchteil der Daten im Format der ausgewählten Vorlage an.
-Zum Beispiel:
+Beispiel:
       - Wenn Sie die SQL-Tabellenvorlage ausgewählt haben, können Sie die SQL-Daten im Tabellenformat anzeigen.
       - Wenn Sie die Vorlage Jira-ordered-list ausgewählt haben, können Sie eine geordnete Liste für die Jira-Probleme anzeigen.
 
    1. Die Quellansicht zeigt die Daten in der DITA-Quellansicht an.
 
-      ![](images/add-content-snippet-generator-preview.png){width="500" align="left"}
+      ![](images/add-content-snippet-generator-preview.png){width="500"}
       *Fügen Sie einen Inhaltsfragment-Generator hinzu. Zeigen Sie die Daten im Quell- oder Vorschaumodus an.*
 
 1. Um die Ergebnisse der Abfrage zu speichern, geben Sie den Namen des Generators ein und wählen Sie dann **Hinzufügen**.   Der Liste wird ein neuer Inhaltsausschnitt-Generator hinzugefügt.
@@ -154,7 +154,7 @@ Klicken Sie mit der rechten Maustaste auf einen Inhaltsfragment-Generator, um di
 
 Sie können auch den ![](images/data-sources-new-icon.svg) **Abfragedaten** von der Symbolleiste verwenden, um das Datenfragment in die Themen einzufügen.  Sie können einen Generator aus dem Dropdown-Menü auswählen, Ihre Abfrage bearbeiten oder die Vorlage ändern und die Daten in Ihr Thema einfügen.
 
-![](images/add-content-snippet-generator.png){align="left"}
+![](images/add-content-snippet-generator.png)
 
 *Bearbeiten und Einfügen eines Datenausschnitts.*
 
@@ -174,7 +174,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
 1. Wählen Sie eine Datenquelle aus, um die Inhaltsfragmentgeneratoren und die Themengeneratoren anzuzeigen, die für die ausgewählte Datenquelle verfügbar sind.
 
-   ![](images/data-sources.png){width="300" align="left"}
+   ![](images/data-sources.png){width="300"}
 
    *Hinzufügen eines Themengenerators für eine verbundene Datenquelle.*
 
@@ -186,7 +186,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
    **Konfiguration abrufen**
 
-   ![](images/fetch-configuration.png){width="300" align="left"}
+   ![](images/fetch-configuration.png){width="300"}
 
    *Fügen Sie die Datenabfrage, die Datenzuordnungsvorlage und die Stammknotendetails für den Themengenerator hinzu und geben Sie ihm im Bedienfeld Konfiguration abrufen einen eindeutigen Namen.*
 
@@ -219,7 +219,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
    **Ausgabekonfiguration**
 
-   ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+   ![](images/topic-generator-output-configuration.png){width="300"}
 
    *Geben Sie Details zum Ausgabepfad und zur Themenbenennungskonvention im Bedienfeld „Ausgabekonfiguration“ ein. DITA-Map erstellen und benennen.*
 
@@ -238,7 +238,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
    Im folgenden Screenshot sind beispielsweise `dc:description`, `dc:language`, `dc:title` und `docstate` die Standardeigenschaften, für die Sie die Werte definieren können. Sie können eine benutzerdefinierte Eigenschaft wie „author“ erstellen und ihren Wert definieren.
 
-   ![](images/topic-generator-metadata.png){width="300" align="left"}
+   ![](images/topic-generator-metadata.png){width="300"}
 
    *Fügen Sie die Metadateneigenschaften im Bedienfeld „Metadaten“ hinzu, die an die Themen übergeben werden.*
 
@@ -248,7 +248,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Themengenerators ein The
 
 
 
-   ![](images/add-topic-generator.png){align="left"}
+   ![](images/add-topic-generator.png)
 
    *Generieren neuer Themen aus einem vorhandenen Themengenerator.*
 
@@ -286,7 +286,7 @@ Experience Manager-Vorlagen unterstützen auch die Velocity-Tools (Version 2.0).
 
 Führen Sie die folgenden Schritte aus, um ein Velocity-Tool in einer Vorlage zu verwenden:
 1. Bearbeiten Sie eine Velocity-Vorlage im Editor.
-1. Fügen Sie ein Tool und seine Funktion im `<tool.function>` hinzu. Zum Beispiel:
+1. Fügen Sie ein Tool und seine Funktion im `<tool.function>` hinzu. Beispiel:
    - Verwenden Sie `$mathTool.random`, um mit dem mathematischen Tool eine zufällige Zahl zu generieren.
    - Um die Summe der Zahlen mithilfe des mathematischen Tools zu erzeugen, verwenden Sie `$mathTool.add(num1, num2)`.
 1. Verwenden Sie die Vorlage, um ein Inhaltsfragment oder Thema zu erstellen.

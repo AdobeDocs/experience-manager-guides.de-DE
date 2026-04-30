@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine DITA-Zuordnungsdatei in der Benutzerober
 feature: Publishing
 role: User
 exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
-source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei in der Zuor
 
 1. Öffnen Sie **Map-**&quot; auf der Startseite.
 
-   ![Neue &#x200B;](images/map-console-home-page.png){width="800"align="left"}
+   ![Neue ](images/map-console-home-page.png){width="800"}
 
 2. Da keine Zuordnungsdatei ausgewählt ist, werden Sie aufgefordert, eine Zuordnungsdatei auszuwählen, um die Funktionen zur Zuordnungsverwaltung und -veröffentlichung zu verwenden.
 
@@ -27,7 +27,7 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei in der Zuor
 
    Die Zuordnungsdatei wird in der Zuordnungskonsole geöffnet. Standardmäßig ist die Registerkarte **Ausgabevorgaben** ausgewählt.
 
-   ![Neu](images/map-console-screen.png){width="800"align="left"}
+   ![Neu](images/map-console-screen.png){width="800"}
 
    >[!NOTE]
    >
@@ -45,4 +45,4 @@ Sie können auch eine vorhandene Zuordnungsdatei über den Editor in der Zuordnu
 
    Die Zuordnungsdatei wird in der Zuordnungskonsole geöffnet.
 
-   ![Neue &#x200B;](images/map-console.png){align="left"}
+   ![Neue ](images/map-console.png)

@@ -3,9 +3,10 @@ title: Repository auf Startseite
 description: Lernen Sie das Repository auf der Startseite kennen. Erfahren Sie auf der Startseite mehr über die Repository-Benutzeroberfläche und die Funktionen in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
+exl-id: 1466c263-d24b-4653-8361-098831002f4e
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ Das Repository dient als zentralisierter Raum für eine verbesserte Auffindbarke
 
 Diese einheitliche Benutzeroberfläche optimiert mehrere Funktionen, einschließlich der Erstellung neuer Dateien oder Ordner, der Bearbeitung von Dateien, dem Hochladen von Assets und der Suche nach Dateien mit robusten Filteroptionen, wodurch Effizienz und Benutzerfreundlichkeit gewährleistet sind.
 
-![](images/repository-view-home.png){align="left"}
+![](images/repository-view-home.png)
 
 Die Repository-Oberfläche ist in die folgenden Abschnitte unterteilt:
 
@@ -27,16 +28,16 @@ Die Repository-Oberfläche ist in die folgenden Abschnitte unterteilt:
 
 Die Repository-Navigationsleiste oben in der Repository-Oberfläche bietet schnellen Zugriff auf die aufgelisteten grundlegenden Aktionen.
 
-![](images/tab-bar-repository-view.png){align="left"}
+![](images/tab-bar-repository-view.png)
 
 
 - **Navigationsbereich für Ordner**: Zeigt eine hierarchische Baumansicht von Ordnern im Repository an, was eine nahtlose Navigation ermöglicht. In diesem Bedienfeld werden nur Informationen auf Ordnerebene angezeigt. Wenn ein Ordner von hier aus ausgewählt wird, werden sein Inhalt, seine Dateien und Unterordner in der Repository-Ansicht angezeigt. Sie können dieses Bedienfeld über das unten hervorgehobene Symbol ein- oder ausblenden.
 
-  ![](images/folder-navigation-panel.png){align="left"}
+  ![](images/folder-navigation-panel.png)
 
 - **Breadcrumbs**: Gibt den aktuellen Pfad innerhalb des Repositorys an und zeigt die Hierarchie der Ordner an, die zu Ihrem aktuellen Ordner führen. Sie können ihn auswählen, um zu einem bestimmten Ordner in der Hierarchie zurückzukehren.
 
-  ![](images/breadcrumbs.png){width="650" align="left"}
+  ![](images/breadcrumbs.png){width="650"}
 
 - **Aktualisieren**: Aktualisiert das Repository, um die neuesten Änderungen zu berücksichtigen.
 - **Assets hochladen**: Ermöglicht das direkte Hochladen von Assets in den aktuellen Ordner, wie in den Breadcrumbs hervorgehoben.
@@ -55,7 +56,7 @@ Das Repository dient als zentraler Bereich mit einer tabellarischen Liste aller 
 
 - **Anpassen**: Sie können die angezeigten Spalten mithilfe der Option **Anpassen** ändern, die sich oben rechts in der Repository-Ansicht befindet. Mit dieser Option können Sie eine beliebige Spalte ein- oder ausblenden und die Spalten bei Bedarf neu anordnen. Die **Name** oder **Title** sind obligatorisch und können nicht zusammen deaktiviert werden. Andere Felder wie **Dateityp**, **UUID**, **Dokumentstatus**, **Gesperrt von**, **Erstellt am** und **Geändert am** können bei Bedarf aktiviert oder deaktiviert werden. Sie können sie einfach per Drag-and-Drop neu anordnen.
 
-  ![](images/customize-repo-view.png){width="350" align="left"}
+  ![](images/customize-repo-view.png){width="350"}
 
 - **Spaltengröße ändern**: Die Größe von Spalten kann durch Auswahl von Optionen aus dem Dropdown-Menü der Spalte geändert werden.
 
@@ -67,11 +68,11 @@ Das Repository dient als zentraler Bereich mit einer tabellarischen Liste aller 
    - Nachdem Sie die gewünschten Dateien mithilfe des Kontrollkästchens ausgewählt haben **wird die Option** Bearbeiten“ in der oberen rechten Ecke der Repository-Ansicht verfügbar.
    - Wenn Sie **Bearbeiten** auswählen, wird die ausgewählte(n) Datei(en) in der Editor-Benutzeroberfläche geöffnet, wo Sie mit der Bearbeitung der Datei beginnen können.
 
-     ![](images/edit-repo-view.png){align="left"}
+     ![](images/edit-repo-view.png)
 
 - **Optionsmenü für Ordner**: Sie können die folgenden Aktionen mit dem **Optionen** für einen Ordner ausführen:
 
-  ![](images/options-folder-repo.png){width="350" align="left"}
+  ![](images/options-folder-repo.png){width="350"}
 
    - **Neu**: Erstellen Sie ein neues DITA-Thema, eine neue DITA-Karte oder einen neuen Ordner.
    - **Assets hochladen**: Laden Sie eine Datei aus Ihrem lokalen System in den ausgewählten Ordner im Repository hoch.
@@ -80,7 +81,7 @@ Das Repository dient als zentraler Bereich mit einer tabellarischen Liste aller 
 
 - **Optionsmenü für Dateien**: Sie können die folgenden Aktionen mithilfe des **Optionen**-Menüs für eine Datei ausführen:
 
-  ![](images/options-file-repo-new.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350"}
 
    - **Bearbeiten**: Öffnen Sie die Datei zur Bearbeitung.
    - **In Sauerstoff bearbeiten**: Wählen Sie diese Option, um die ausgewählte Datei im Oxygen Connector-Plug-in zu bearbeiten.
@@ -107,11 +108,11 @@ Das Repository dient als zentraler Bereich mit einer tabellarischen Liste aller 
 
 Die **Suche** hilft bei der Suche nach den erforderlichen Dateien aus dem Repository hauptsächlich auf der Grundlage **Dateinamens**, **Dateinamens** und **Inhalts**. Sie können ein beliebiges, zwei oder alle drei Kriterien für Ihre Suche verwenden. Wenn keines der Kriterien ausgewählt ist, umfassen die Ergebnisse alle drei Kriterien.
 
-![](images/search-in-repository.png){align="left"}
+![](images/search-in-repository.png)
 
 Wählen Sie das Symbol **Filtersuche** \(![Suchfiltersymbol](images/filter-search-icon.svg)\) aus, um den Filterbereich auf der rechten Seite zu öffnen.
 
-![](images/Search-filters-repo.png){align="left"}
+![](images/Search-filters-repo.png)
 
 Sie haben die folgenden Optionen, um die Dateien zu filtern und Ihre Suche einzugrenzen:
 
@@ -143,15 +144,14 @@ Nachdem Sie alle erforderlichen Filter angewendet haben, wählen **Anwenden** in
 
 Die Suchergebnisse, die entsprechend dem ausgewählten Filter angepasst wurden, werden nur als **tabellarische Liste von Dateien“ angezeigt** Ordner werden nicht angezeigt). Sie können jeden Filter einzeln oder mehrere Filter gleichzeitig entfernen. Die Ergebnisse werden aktualisiert, um die aktualisierte Auswahl anzuzeigen.
 
-![](images/search-results-with-filters.png){align="left"}
+![](images/search-results-with-filters.png)
 
 Nachdem die Suchergebnisse angezeigt wurden, können Sie entweder mehrere Dateien auswählen und diese im Editor über das Symbol **Bearbeiten** öffnen oder mit allen Ergebnissen arbeiten, indem Sie Ihre Suchergebnisse über die Option **Im Suchbereich anzeigen** an den Editor senden.
 
-![](images/post-search-operation.png){align="left"}
+![](images/post-search-operation.png)
 
 **Im Suchbereich anzeigen**
 
 Die Option **Im Suchbereich anzeigen** wird verfügbar, nachdem eine Suche im Repository durchgeführt wurde. Mit dieser Funktion können Sie alle Suchergebnisse im **Suchbereich** im Editor anzeigen. Weitere Informationen finden Sie unter [Suchbereich](./search-panel-explorer.md).
 
-![](images/search-panel-repo.png){align="left"}
-
+![](images/search-panel-repo.png)

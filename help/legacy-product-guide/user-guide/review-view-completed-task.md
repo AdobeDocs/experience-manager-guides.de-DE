@@ -5,7 +5,7 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f74269fe-a7a9-4bb3-b476-f8214387ffd0
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Als Reviewer können Sie im Kommentarbereich einen Indikator sehen, der anzeigt,
 
 Sie können jedoch auch nach Kommentaren suchen oder diese filtern. Sie können auch Bedingungen ein- oder ausblenden und entsprechend bedingte Inhalte anzeigen. Sie können alle Anhänge herunterladen, aber keine Anhänge für die Kommentare hochladen oder löschen.
 
-![](images/complete-task-reviewer.png){width="800" align="left"}
+![](images/complete-task-reviewer.png){width="800"}
 
 
 ## Als Autor
@@ -31,6 +31,6 @@ Als Autor bzw. Autorin können Sie den Status im Review-Fenster als geschlossen 
 
 Sie können jedoch auch nach Kommentaren suchen oder diese filtern. Sie können alle Anhänge herunterladen, aber keine Anhänge für die Kommentare hochladen oder löschen.
 
-![](images/completed-task-author.png){width="800" align="left"}
+![](images/completed-task-author.png){width="800"}
 
 Daher können Sie sowohl als Prüfer als auch als Autor den überprüften Inhalt zusammen mit den Kommentaren anzeigen, jedoch keine Änderungen an einer abgeschlossenen Prüfungsaufgabe vornehmen.

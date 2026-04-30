@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um Ausgabevorgaben für Ihre DITA-Zuordn
 
 1. Wählen **auf der Registerkarte** Ausgabe“ das Symbol + aus, um eine Ausgabevorgabe für Ihre DITA-Zuordnung zu erstellen.
 
-   ![](images/output-tab-preset_cs.png){width="350" align="left"}
+   ![](images/output-tab-preset_cs.png){width="350"}
 
 1. Geben Sie den Namen der Vorgabe im Dialogfeld „Vorgabe hinzufügen“ ein und klicken Sie dann auf **Hinzufügen**.
 
@@ -46,19 +46,19 @@ Führen Sie die folgenden Schritte aus, um Ausgabevorgaben für Ihre DITA-Zuordn
    1. Wählen Sie auf der **Artikel**-Registerkarte die Themen aus, für die Sie die Ausgabe generieren möchten.
 1. Wählen Sie oben **das Symbol** Voreinstellung generieren) aus, um die Ausgabe zu generieren.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){width="800"}
 
-1. You will see the status of the output generation process. The **Topics** column lists the topics for which output is being generated while the **Status** column displays the publishing status of each topic.
+1. Sie sehen den Status des Ausgabegenerierungsprozesses. Die Spalte **Themen** listet die Themen auf, für die Ausgaben generiert werden, während die Spalte **Status** den Veröffentlichungsstatus jedes Themas anzeigt.
 
-   To view the output, hover the mouse pointer over the topic and click View Output.
+   Um die Ausgabe anzuzeigen, bewegen Sie den Mauszeiger über das Thema und klicken Sie auf Ausgabe anzeigen.
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){width="800"}
 
 
 >[!NOTE]
 >
-> You can also Edit, Rename, Duplicate, or Delete an existing output preset from the Options menu.
+> Sie können eine vorhandene Ausgabevorgabe auch über das Menü Optionen bearbeiten, umbenennen, duplizieren oder löschen.
 
-![](images/edit-preset_cs.png){width="550" align="left"}
+![](images/edit-preset_cs.png){width="550"}
 
-**Parent topic:**&#x200B;[&#x200B; Article-based publishing from the Web Editor](web-editor-article-publishing.md)
+**Übergeordnetes Thema**[ Artikelbasierte Veröffentlichung im Web-Editor](web-editor-article-publishing.md)

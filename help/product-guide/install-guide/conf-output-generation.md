@@ -5,7 +5,7 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '5886'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Um AEM Guides für die Verwendung von FMPS zu konfigurieren, aktualisieren Sie d
 
 Wenn Sie über eine AEM-Site verfügen, die DITA-Inhalte enthält, können Sie die Ausgabe Ihrer AEM-Site so konfigurieren, dass DITA-Inhalte an einem vordefinierten Speicherort innerhalb Ihrer Site veröffentlicht werden. Im folgenden Screenshot einer AEM Site-Seite ist beispielsweise der Knoten `ditacontent` für das Speichern von DITA-Inhalten reserviert:
 
-![](assets/publish-in-aem-site.png){width="300" align="left"}
+![](assets/publish-in-aem-site.png){width="300"}
 
 Die verbleibenden Knoten auf der Seite werden direkt aus dem AEM-Website-Editor erstellt. Das Konfigurieren der Veröffentlichungseinstellung zum Veröffentlichen von DITA-Inhalten an einem vordefinierten Speicherort stellt sicher, dass keiner Ihrer vorhandenen Nicht-DITA-Inhalte durch den AEM Guides-Veröffentlichungsprozess geändert wird.
 
@@ -103,7 +103,7 @@ Führen Sie die folgenden Schritte aus, um die Vorlageneigenschaften Ihrer vorha
 
 Der folgende Screenshot zeigt die Eigenschaften, die im Standardvorlagenknoten von AEM Guides hinzugefügt wurden:
 
-![](assets/add-content-node.png){width="800" align="left"}
+![](assets/add-content-node.png){width="800"}
 
 Wenn Sie das nächste Mal DITA-Inhalte mithilfe der Vorlagenkonfigurationen Ihrer Site veröffentlichen, werden die Inhalte in den Knoten veröffentlicht, die in den `topicContentNode`- und `topicHeadNode` angegeben sind.
 
@@ -136,7 +136,7 @@ Sie können auch benutzerdefinierte DITA Open Toolkit \(DITA-OT\)-Plug-ins mit A
 
 >[!TIP]
 >
-> Best Practices für die Erstellung von AEM *Site-Ausgaben finden Sie im Abschnitt [0&rbrace;AEM-Site-Veröffentlichung](appendix.md#) im Handbuch zu Best Practices..md\#.*
+> Best Practices für die Erstellung von AEM *Site-Ausgaben finden Sie im Abschnitt [0}AEM-Site-Veröffentlichung](appendix.md#) im Handbuch zu Best Practices..md\#.*
 
 ### Anpassen der Design-Vorlage für die Generierung von Ausgaben {#customize_xml-add-on}
 
@@ -154,7 +154,7 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene Design-Vorlage anzugeben,
 
    `/libs/fmdita/config/templates/`
 
-   ![](assets/templates-node.png){width="300" align="left"}
+   ![](assets/templates-node.png){width="300"}
 
    >[!NOTE]
    >
@@ -185,7 +185,7 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene Design-Vorlage anzugeben,
 >
 > Nachdem Sie einen benutzerdefinierten Design-Vorlagenknoten erstellt haben, müssen Sie die Option Design in den AEM-Site-Ausgabevorgaben aktualisieren, um den benutzerdefinierten Design-Vorlagenknoten zu verwenden.
 
-Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html)Website und [Grundlagen](https://helpx.adobe.com/de/experience-manager/6-3/sites/developing/using/the-basics.html) Entwicklung einer eigenen Website in AEM.
+Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager 6.3](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html)Website und [Grundlagen](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) Entwicklung einer eigenen Website in AEM.
 
 ### Verwenden des Dokumenttitels zum Generieren der AEM-Site-Ausgabe
 
@@ -265,13 +265,13 @@ Um die gültigen Sonderzeichen in Dateinamen und in der AEM-Site-Ausgabe zu konf
 
 Wenn Sie die Ausgabe der AEM-Site generieren, wird intern ein Knoten für jedes Element in den Themen erstellt. Bei einer DITA-Zuordnung mit Tausenden von Themen kann diese Knotenstruktur zu tief werden. Dieser Typ einer tief verschachtelten Knotenstruktur kann bei größeren Sites zu Leistungsproblemen führen. Der folgende Schnappschuss zeigt eine tief verschachtelte Knotenstruktur für eine AEM Site-Ausgabe:
 
-![](assets/deep-nested-aem-site-node-structure.png){width="300" align="left"}
+![](assets/deep-nested-aem-site-node-structure.png){width="300"}
 
 Beachten Sie, dass im obigen Schnappschuss für jedes `p` Element und seine nachfolgenden Unterelemente ein Knoten erstellt wird und für jedes andere Element, das im Thema verwendet wird, eine ähnliche Struktur erstellt wird.
 
 Mit AEM Guides können Sie konfigurieren, wie die Knotenstruktur der AEM-Site-Ausgabe intern erstellt wird. Sie können die Knotenstruktur an bestimmten Elementen reduzieren, was bedeutet, dass Sie ein Element definieren können, das als Hauptelement betrachtet wird, und alle darin enthaltenen Unterelemente mit dem Hauptelement zusammengeführt werden. Wenn Sie sich beispielsweise entscheiden, das `p` zu reduzieren, werden alle Elemente, die im `p` Element erscheinen, mit dem `p` zusammengeführt. Für kein Unterelement im `p` wird eine separate Anmerkung erstellt. Die folgende Momentaufnahme zeigt die an `p` Element reduzierte Knotenstruktur:
 
-![](assets/flattened-aem-site-node-structure.png){width="300" align="left"}
+![](assets/flattened-aem-site-node-structure.png){width="300"}
 
 Führen Sie die folgenden Schritte aus, um die Knotenstruktur der AEM-Site zu reduzieren:
 
@@ -320,7 +320,7 @@ Führen Sie die folgenden Schritte aus, um die Knotenstruktur der AEM-Site zu re
 
 Wenn Sie jetzt die Ausgabe der AEM-Site generieren, werden die Knoten im `p` reduziert und im `p` selbst gespeichert. Sie finden die neuen Reduzierungseigenschaften für das `p` in CRXDE.
 
-![](assets/flatten-aem-site-note-props-crxde.png){width="650" align="left"}
+![](assets/flatten-aem-site-note-props-crxde.png){width="650"}
 
 **Reduzieren der AEM-Site-Notizenstruktur verhindern**
 
@@ -332,7 +332,7 @@ Um das `table`-Element von der Reduzierung auszuschließen, fügen Sie die folge
 
 ### Konfigurieren der Versionierung für gelöschte Seiten in der AEM Site-Ausgabe
 
-Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und **&#x200B;**&#x200B;Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
+Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und ****Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
 
 Führen Sie die folgenden Schritte aus, um die Erstellung einer Version für die zu löschenden Seiten zu stoppen:
 
@@ -402,7 +402,7 @@ Um die erforderlichen Metadaten im System hinzuzufügen, führen Sie die folgend
 
 Der neue Parameter wird jetzt auf der Seite Eigenschaften für alle DITA-Zuordnungen angezeigt.
 
-![](assets/properties-page-custom-metadata.PNG){width="650" align="left"}
+![](assets/properties-page-custom-metadata.PNG){width="650"}
 
 Als Nächstes müssen Sie die benutzerdefinierten Metadaten in der DITA-Zuordnungskonsole verfügbar machen. Führen Sie die folgenden Schritte aus, um die benutzerdefinierten Metadaten auf dem DITA Map-Dashboard verfügbar zu machen:
 
@@ -431,7 +431,7 @@ Als Publisher müssen Sie schließlich die benutzerdefinierten Metadaten in die 
 
 1. Geben Sie auf der Seite Eigenschaften den Wert für die benutzerdefinierten Metadaten an. In unserem Beispiel haben wir für den Zielgruppen-Parameter den Wert Extern angegeben.
 
-   ![](assets/properties-page-custom-metadata-value.png){width="650" align="left"}
+   ![](assets/properties-page-custom-metadata-value.png){width="650"}
 
 1. Klicken Sie auf **Speichern und schließen**.
 
@@ -443,7 +443,7 @@ Als Publisher müssen Sie schließlich die benutzerdefinierten Metadaten in die 
 
 1. Wählen Sie aus **Dropdown** Liste „Eigenschaften“ die Eigenschaften aus, die Sie an den Veröffentlichungsprozess übergeben möchten.
 
-   ![](assets/props-in-publish-output.PNG){width="650" align="left"}
+   ![](assets/props-in-publish-output.PNG){width="650"}
 
 
 Die ausgewählten Eigenschaften/Metadaten werden an den Veröffentlichungsprozess übergeben und in der endgültigen Ausgabe verfügbar gemacht.
@@ -642,11 +642,11 @@ AEM Guides stellt die `apps.fmdita.dashboard-extn` zum Anpassen der Zuordnungsko
 
 >[!NOTE]
 >
-> Weitere Informationen zum Erstellen der AEM-Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://helpx.adobe.com/de/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Weitere Informationen zum Erstellen der AEM-Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Verarbeiten der Bildausgabedarstellung während der Ausgabegenerierung {#id177BF0G0VY4}
 
-AEM enthält einen Satz von standardmäßigen Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Asset-Verarbeitung für die gängigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabedarstellungen desselben Bilds im Binärformat. Diese Ausgabedarstellungen können unterschiedlich groß sein, eine andere Auflösung, ein hinzugefügtes Wasserzeichen oder eine andere geänderte Eigenschaft aufweisen. Weitere Informationen zum Verarbeiten von Assets durch AEM finden Sie unter [Verarbeiten von Assets mit Medien-Handlern und Workflows](https://helpx.adobe.com/de/experience-manager/6-5/assets/using/media-handlers.html) in der Dokumentation zu AEM.
+AEM enthält einen Satz von standardmäßigen Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Asset-Verarbeitung für die gängigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabedarstellungen desselben Bilds im Binärformat. Diese Ausgabedarstellungen können unterschiedlich groß sein, eine andere Auflösung, ein hinzugefügtes Wasserzeichen oder eine andere geänderte Eigenschaft aufweisen. Weitere Informationen zum Verarbeiten von Assets durch AEM finden Sie unter [Verarbeiten von Assets mit Medien-Handlern und Workflows](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) in der Dokumentation zu AEM.
 
 Mit AEM Guides können Sie konfigurieren, welche Bildausgabe zum Zeitpunkt der Generierung der Ausgabe für Ihre Dokumente verwendet werden soll. Sie können beispielsweise aus einer der standardmäßigen Bildausgabedarstellungen auswählen oder eine erstellen und dieselbe zum Veröffentlichen Ihrer Dokumente verwenden. Die Bildausgabedarstellungszuordnung zum Veröffentlichen Ihrer Dokumente wird in der `/libs/fmdita/config/ **renditionmap.xml**`-Datei gespeichert. Ein Ausschnitt `renditionmap.xml` Datei lautet wie folgt:
 

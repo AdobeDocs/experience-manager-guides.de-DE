@@ -5,7 +5,7 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -59,10 +59,10 @@ Führen Sie die folgenden Schritte aus, um die Benutzeroberfläche von Experienc
 5. Wählen Sie **Hinzufügen/Aktualisieren** aus.
 6. Fügen Sie die Konfigurationsdetails der Benutzeroberfläche hinzu. Stellen Sie sicher, dass Sie denselben Namen und dieselbe Konfiguration wie im folgenden Screenshot verwenden.
 
-   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+   ![](assets/enable-penultimate-ui.png){width="800"}
 
    Wenn Sie den Wert auf **true** setzen, wird die alte Benutzeroberfläche beibehalten, während **false** die neue Benutzeroberfläche aktiviert.
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Herunterladen und installieren](download-install.md)
+**Übergeordnetes Thema:**[ Herunterladen und installieren](download-install.md)

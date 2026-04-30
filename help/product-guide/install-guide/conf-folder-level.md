@@ -5,7 +5,7 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '3974'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
 Über die Kachel Ordnerprofile in den Einstellungen für Handbücher können Sie Einstellungen auf den folgenden Registerkarten konfigurieren:
 
-![](assets/folder-profile-tabs.png){width="800" align="left"}
+![](assets/folder-profile-tabs.png){width="800"}
 
 - **Allgemein**: Die Registerkarte Allgemein ist nur bei der Konfiguration von Einstellungen auf Ordnerebene \(oder Projekt/Produkt\) verfügbar. Sie können Einstellungen konfigurieren, z. B. die Ordnerpfade, für die die Einstellungen gelten sollen, und Benutzer, die über Administratorrechte verfügen, um Konfigurationen zu erstellen oder zu aktualisieren.
 
@@ -68,7 +68,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
    - Benutzerdefiniert
 
-  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden &#x200B;](#id18AGD0K0OHS) Vorgabenänderungen“.
+  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden ](#id18AGD0K0OHS) Vorgabenänderungen“.
 
 - **XML-Editor-**: Auf dieser Registerkarte können Sie das Erscheinungsbild und verschiedene Funktionen des Web-Editors anpassen. Die folgenden konfigurierbaren Einstellungen sind für den Web-Editor verfügbar:
 
@@ -96,7 +96,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
    Die Seite „Ordnerprofile“ wird zum ersten Mal nur mit der Kachel „Globales Profil“ angezeigt.
 
-   ![](assets/folder-profile-global.png){width="800" align="left"}
+   ![](assets/folder-profile-global.png){width="800"}
 
 1. Klicken Sie auf die **Globales Profil**-Kachel.
 
@@ -106,7 +106,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Informationen zum Konfigurieren **Ausgabevorgaben** finden Sie unter [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [&#x200B; unter „Konfigurieren und Anpassen des XML-Web-Editors](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [ unter „Konfigurieren und Anpassen des XML-Web-Editors](#id2065G300O5Z).
 
 1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie **Globales Profil**.
 
@@ -125,7 +125,7 @@ Führen Sie die folgenden Schritte aus, um ein Profil auf Ordnerebene zu konfigu
 
 1. Klicken Sie auf **Erstellen**.
 
-   ![](assets/create-folder-profile.png){width="300" align="left"}
+   ![](assets/create-folder-profile.png){width="300"}
 
 1. Geben Sie die folgenden Details in das Dialogfeld **Ordnerprofil erstellen** ein:
    - Name des Profilordners.
@@ -198,7 +198,7 @@ Führen Sie die folgenden Schritte aus, um standardmäßige DITA-unterstützte b
 
    Der folgende Screenshot zeigt die Definition für das Attribut `platform` mit möglichen Werten und Beschriftungen.
 
-   ![](assets/add_profile.png){width="650" align="left"}
+   ![](assets/add_profile.png){width="650"}
 
 1. Wenn Sie weitere Werte für dasselbe Attribut hinzufügen möchten, klicken Sie auf das Symbol **+** und geben Sie den zusätzlichen Wert und die Kennzeichnung ein.
 
@@ -271,7 +271,7 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
    >
    > Standardmäßig werden alle Authoring-Vorlagen im Ordner /content/dam/dita-templates gespeichert. Der Ordner `dita-templates` enthält `topics` und `maps` Unterordner zum Speichern des Themas und der Zuordnungsvorlagen. Sie können Ihre benutzerdefinierten Vorlagen (\.dita, .xml oder .ditamapfiles\) in den Standardvorlagenordnern hinzufügen. Nachdem Sie Ihre Vorlage zum Standardordner hinzugefügt haben, können Sie sie zum globalen Ordner oder zum Profilordner hinzufügen. Weitere Informationen zum Erstellen benutzerdefinierter Vorlagen mit dem Web-Editor finden Sie unter [Erstellen einer benutzerdefinierten Authoring-Vorlage](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png){width="550" align="left"}
+   ![](assets/search-author-temp.png){width="550"}
 
 1. Fügen Sie das erforderliche Thema hinzu und ordnen Sie Vorlagen Ihrem Profil zu.
 
@@ -279,7 +279,7 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
 
    - Wählen Sie **Suchen oder**) und geben Sie den Namen einer Vorlage in der Dropdown-Liste ein, oder wählen Sie ihn aus. Die Dropdown-Liste besteht aus allen Standardvorlagen und allen neuen Vorlagen, die Sie erstellt haben.
 
-     ![](assets/default-template-list.png){width="350" align="left"}
+     ![](assets/default-template-list.png){width="350"}
 
    - Klicken Sie **Durchsuchen** und wählen Sie eine Vorlage aus DAM aus.
 
@@ -287,7 +287,7 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
 
    Die ausgewählten Vorlagen werden der Vorlagenliste hinzugefügt.
 
-   ![](assets/author-templ-added-list.png){width="550" align="left"}
+   ![](assets/author-templ-added-list.png){width="550"}
 
    >[!NOTE]
    >

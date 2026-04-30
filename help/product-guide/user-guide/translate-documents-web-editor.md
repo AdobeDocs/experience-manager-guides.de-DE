@@ -4,9 +4,9 @@ description: Übersetzen Sie Ihre Inhalte aus dem Web-Editor in mehrere Sprachen
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '2519'
+source-wordcount: '2536'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 
 1. Als Benutzer können Sie die für Ihr Ordnerprofil konfigurierten Sprachgruppen anzeigen. Die Sprachgruppen zeigen die Sprachordner zusammen mit ihren Sprachcodes an. Beispielsweise enthält die Sprachgruppe G1 die Sprachordner Italienisch \(it\), Deutsch \(de\), Französisch \(fr\) und Englisch \(en\).
 
-   ![Übersetzungsbedienfeld](images/translation-languages.png){width="300" align="left"}
+   ![Übersetzungsbedienfeld](images/translation-languages.png){width="300"}
 
    *Wählen Sie die Sprachgruppen oder Sprachen aus, in die Sie Ihre Dokumente übersetzen möchten.*
 
@@ -93,7 +93,7 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 
      Wenn eine Datei Änderungen gespeichert hat, die noch nicht versioniert sind (d. h. die nicht als neue Version in Ihrer Zuordnung gespeichert wurden), wird neben der Datei ein Informationssymbol angezeigt, das das Vorhandensein nicht versionierter Änderungen angibt.
 
-     ![](images/unversioned-changes-translation.png){width="650" align="left"}
+     ![](images/unversioned-changes-translation.png){width="650"}
 
      >[!NOTE]
      >
@@ -107,11 +107,11 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
    - **Target Label**: Bezeichnung für die ausgewählte Version der Zieldatei
 1. Wählen **oben rechts** Zur Übersetzung senden“ aus.
 
-   ![](images/translation-send.png){align="left"}
+   ![](images/translation-send.png)
 
 1. Wählen Sie aus der Dropdown **Liste Neues Übersetzungsprojekt erstellen**.
 
-   ![](images/translation-project-types.png){width="350" align="left"}
+   ![](images/translation-project-types.png){width="350"}
 
    Neben einem neuen Übersetzungsprojekt können Sie auch aus den folgenden Optionen auswählen:
 
@@ -175,7 +175,7 @@ Um die Quellversionsbeschriftung in der Zielkopie hinzuzufügen, muss der System
 
 Wenn Sie beispielsweise Quelldateien haben, auf die die Versionsbezeichnung `Release 1.0` angewendet wurde, können Sie auch die Quellbezeichnung \(`Release 1.0`\) an die übersetzte Datei übergeben.
 
-![](images/translation-pass-source-label.png){width="650" align="left"}
+![](images/translation-pass-source-label.png){width="650"}
 
 >[!NOTE]
 >
@@ -185,7 +185,7 @@ Wenn Sie beispielsweise Quelldateien haben, auf die die Versionsbezeichnung `Rel
 
 Experience Manager Guides bietet die Funktion, die Unterschiede zwischen der ausgewählten Version und der letzten übersetzten Quellversion der Themen zu überprüfen. Sie können die **nicht synchron)** basierend auf den vorgenommenen Änderungen übersetzen.
 
-![](images/translation-version-diff.png){width="650" align="left"}
+![](images/translation-version-diff.png){width="650"}
 
 Klicken Sie auf **Unterschied anzeigen** Symbol \(![](images/show-difference-icon.svg)\) für ein Thema, um die Unterschiede zwischen der zuletzt übersetzten Version und der aktuellen Version der ausgewählten Datei anzuzeigen.
 
@@ -195,7 +195,7 @@ Klicken Sie auf **Unterschied anzeigen** Symbol \(![](images/show-difference-ico
 
 Das **Versionsunterschied** wird angezeigt. Hier werden die **Letzte übersetzte Version** und die **Ausgewählte Version** Nummer auf der linken Seite angezeigt. Im Vorschaufenster werden die Unterschiede zwischen der zuletzt übersetzten Version und der ausgewählten Themenversion angezeigt.
 
-![](images/version-diff.png){width="650" align="left"}
+![](images/version-diff.png){width="650"}
 
 ## Nicht synchronisierte Assets schließen
 
@@ -206,7 +206,7 @@ Um den Status „Nicht synchronisiert“ zu schließen, führen Sie die folgende
 1. Wählen Sie die Assets aus, für die Sie den Status ändern möchten.
 1. Klicken Sie **oben auf die Schaltfläche** Mark In Sync![](images/translation-mark-in-sync-icon.svg) \(\). Das **Als synchronisiert markieren** wird angezeigt.
 
-   ![](images/translation-mark-in-sync.png){width="550" align="left"}
+   ![](images/translation-mark-in-sync.png){width="550"}
 
 1. Wählen Sie **Synchronisierung erzwingen** aus. Für die ausgewählten nicht synchronisierten Assets wird der Status auf „Synchronisiert“ festgelegt.
 
@@ -224,7 +224,7 @@ Einige der Verweise auf Ihrem Übersetzungs-Dashboard befinden sich möglicherwe
 
 Wählen Sie den Namen der Referenz im Dialogfeld aus, um sie im Vorschaumodus zu öffnen. Sie können auch das Übersetzungsprojekt auswählen, um die Übersetzung zu starten.
 
-![](images/translation-in-progress.png){width="550" align="left"}
+![](images/translation-in-progress.png){width="550"}
 
 
 ## Abgeschlossenes Übersetzungsprojekt automatisch löschen oder deaktivieren
@@ -240,4 +240,4 @@ Für die Dokumentverwaltung bietet Experience Manager Guides die Möglichkeit, d
 Sie können die Übersetzungsprojekte auch deaktivieren, wenn Sie sie später verwenden möchten. Beim Löschen eines Projekts werden alle im Projekt vorhandenen Dateien und Ordner gelöscht. Durch Deaktivieren eines Projekts wird es nicht gelöscht, sondern im Repository beibehalten. Sie können jedoch ein deaktiviertes Projekt nicht aktualisieren oder bearbeiten.  Das Löschen oder Deaktivieren eines Projekts wirkt sich nicht auf den Übersetzungsstatus von Verweisen aus.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

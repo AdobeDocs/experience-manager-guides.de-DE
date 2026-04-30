@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie den Bericht zur Wiederverwendung von Inhalten
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 
 1. Wählen Sie **Bericht generieren**, um den Bericht zur Wiederverwendung von Inhalten abzurufen.
 
-   ![](images/content-reuse-uuid.png){align="left"}
+   ![](images/content-reuse-uuid.png)
 
    Die Berichtseite ist in zwei Teile unterteilt:
 
@@ -55,11 +55,11 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 
       - **Häufigkeit der Wiederverwendung**: Gibt an, wie oft das entsprechende Thema wiederverwendet wurde. Dies wird als Summe der Einträge in den Spalten „Referenziert von“ minus 1 berechnet.
 
-      - **Referenziert von**: Die Themen, in denen das entsprechende Thema referenziert wurde. Hier werden nur die direkten \(first level\)-Verweise berücksichtigt. Mehrere Themen werden durch Kommas getrennt. Die UUID der referenzierten Datei wird auch in Klammern aufgeführt. Wenn Sie auf den Titel-Link des Themas klicken, wird die Themenvorschau geöffnet.
+      - **Referenziert von**: Die Themen, in denen das entsprechende Thema referenziert wurde. Hier werden nur die direkten \(first level\)-Verweise berücksichtigt. Mehrere Themen werden durch Kommas getrennt. Die UUID der referenzierten Datei wird ebenfalls in Klammern aufgeführt.Wenn Sie auf den Link Titel des Themas klicken, wird die Themenvorschau geöffnet.
 
 
 >[!NOTE]
 >
 > Sie können auch den Bericht zur Wiederverwendung von Inhalten im CSV-Format exportieren. Klicken Sie dazu in der linken oberen Ecke des Bildschirms auf In CSV exportieren und wählen Sie einen Speicherort für die CSV-Datei aus. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in Berichte](reports-intro.md)
+**Übergeordnetes Thema:**[ Einführung in Berichte](reports-intro.md)

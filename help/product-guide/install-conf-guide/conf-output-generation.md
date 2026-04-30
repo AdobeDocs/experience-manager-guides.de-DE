@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie Einstellungen für die Ausgabenerstellung kon
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 6fff24d2-ec25-4654-837c-179e8688e2f4
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '3314'
+source-wordcount: '3397'
 ht-degree: 1%
 
 ---
@@ -116,7 +117,7 @@ Wenn Sie das nächste Mal DITA-Inhalte mithilfe der Vorlagenkonfigurationen Ihre
 
 Der folgende Screenshot zeigt die Eigenschaften, die im Standardvorlagenknoten von AEM Guides hinzugefügt wurden:
 
-![](assets/add-content-node.png){width="800" align="left"}
+![](assets/add-content-node.png){width="800"}
 
 Wenn Sie das nächste Mal DITA-Inhalte mithilfe der Vorlagenkonfigurationen Ihrer Site veröffentlichen, werden die Inhalte in den Knoten veröffentlicht, die in den `topicContentNode`- und `topicHeadNode` angegeben sind.
 
@@ -205,7 +206,7 @@ Um die erforderlichen Metadaten im System hinzuzufügen, führen Sie die folgend
 
    3. Geben **unter „Feldbezeichnung** den Metadatennamen - Zielgruppe ein.
 
-   4. Geben Sie in **Einstellung „Zu Eigenschaft**&quot; an./jcr:content/metadata/&lt;Name der Metadaten\>. Für unser Beispiel setzen wir es auf ./jcr:content/metadata/audience.
+   4. Geben **in der Einstellung** Zu Eigenschaft zuordnen“ an. /:content/metadata/&lt;Name der Metadaten\>. Für unser Beispiel setzen wir es auf ./jcr/:content/audience.
 
    Fügen Sie mithilfe dieser Schritte alle erforderlichen Metadatenparameter hinzu.
 
@@ -346,11 +347,11 @@ AEM Guides stellt die `apps.fmdita.dashboard-extn` zum Anpassen der Zuordnungsko
 
 >[!NOTE]
 >
-> Weitere Informationen zum Erstellen der AEM-Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de).
+> Weitere Informationen zum Erstellen der AEM-Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Verarbeiten der Bildausgabedarstellung während der Ausgabegenerierung {#id177BF0G0VY4}
 
-AEM enthält einen Satz von standardmäßigen Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Asset-Verarbeitung für die gängigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabedarstellungen desselben Bilds im Binärformat. Diese Ausgabedarstellungen können unterschiedlich groß sein, eine andere Auflösung, ein hinzugefügtes Wasserzeichen oder eine andere geänderte Eigenschaft aufweisen. Weitere Informationen zum Verarbeiten von Assets durch AEM finden Sie unter [Verarbeiten von Assets mit Medien-Handlern und Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=de) in der Dokumentation zu AEM.
+AEM enthält einen Satz von standardmäßigen Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Asset-Verarbeitung für die gängigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabedarstellungen desselben Bilds im Binärformat. Diese Ausgabedarstellungen können unterschiedlich groß sein, eine andere Auflösung, ein hinzugefügtes Wasserzeichen oder eine andere geänderte Eigenschaft aufweisen. Weitere Informationen zum Verarbeiten von Assets durch AEM finden Sie unter [Verarbeiten von Assets mit Medien-Handlern und Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) in der Dokumentation zu AEM.
 
 Mit AEM Guides können Sie konfigurieren, welche Bildausgabe zum Zeitpunkt der Generierung der Ausgabe für Ihre Dokumente verwendet werden soll. Sie können beispielsweise aus einer der standardmäßigen Bildausgabedarstellungen auswählen oder eine erstellen und dieselbe zum Veröffentlichen Ihrer Dokumente verwenden. Die Bildausgabedarstellungszuordnung zum Veröffentlichen Ihrer Dokumente wird in der `/libs/fmdita/config/ **renditionmap.xml**`-Datei gespeichert. Ein Ausschnitt `renditionmap.xml` Datei lautet wie folgt:
 
@@ -502,7 +503,7 @@ Um AEM Guides für die Verwendung von FMPS zu konfigurieren, aktualisieren Sie d
 
 | Eigenschaft | Beschreibung |
 |--------|-----------|
-| FrameMaker Publishing Server-Anmeldedomäne | Geben Sie den Domain-Namen oder den Arbeitsgruppennamen an, auf dem die FrameMaker Publishing Server gehostet wird. Geben Sie basierend auf der FMPS-Version den Domain-Namen wie folgt an:-   **FMPS 2020**: IP-Adresse als 192.168.1.101 <br>- **FMPS 2019 und früher**: IP-Adresse oder der Domain-Name |
+| FrameMaker Publishing Server-Anmeldedomäne | Geben Sie den Domain-Namen oder den Arbeitsgruppennamen an, auf dem die FrameMaker Publishing Server gehostet wird. Geben Sie basierend auf der FMPS-Version den Domain-Namen als:- **FMPS 2020** an: IP-Adresse als 192.168.1.101 <br>- **FMPS 2019 und früher**: IP-Adresse oder den Domain-Namen |
 | FrameMaker Publishing Server-URL | Geben Sie die URL der FrameMaker Publishing Server an. Geben Sie basierend auf der FMPS-Version die FMPS-URL als: <br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 und früher**: `http://<fmps_ip>:<port>/fmserver/v1/` |
 | FMPS-Version | Geben Sie die Versionsnummer der FrameMaker Publishing Server an. Geben Sie basierend auf der FMPS-Version die Versionsinformationen wie folgt an: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 und früher**: 2019 oder 2017 |
 | Benutzername und Kennwort für FrameMaker Publishing Server | Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf die FrameMaker Publishing Server an. |
@@ -510,5 +511,3 @@ Um AEM Guides für die Verwendung von FMPS zu konfigurieren, aktualisieren Sie d
 | External AEM URL | *\(Optional\)* Die AEM-URL, in der die generierten Ausgabedateien von FrameMaker Publishing Server platziert werden. Zum Beispiel: `http://<server-name>:<port>/`. |
 | AEM Admin-Benutzername und -Kennwort | *\(Optional\)* Benutzername und Kennwort eines Administrators Ihres AEM-Setups. Dieser wird von FrameMaker Publishing Server zur Kommunikation mit AEM verwendet. |
 | Wartezeit bei FMPS-Aufgabenausführung | Diese Einstellung gilt nur für FMPS 2020. Geben Sie die Zeit \(in Sekunden\) an, nach der FMPS nicht mehr auf die Ausführung dieses Prozesses wartet. |
-
-

@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Kartenkonsole und die verschiedenen ver
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Adobe Experience Manager Guides bietet eine dedizierte Konsole, die **Map-Konsole**, um alle Zuordnungsverwaltungs- und Veröffentlichungsaufgaben zu optimieren. Diese zentrale Benutzeroberfläche verbessert die Produktivität und Genauigkeit bei Ihren Zuordnungsaktivitäten, indem sie Optionen zum Generieren von Ausgaben, Übersetzen von Inhalten, Zugreifen auf Berichte und mehr bietet - alles an einem Ort.
 
-![Registerkarte „Optionen“ der Dateieigenschaften](./images/map-console-screen.png){align="left"}
+![Registerkarte „Optionen“ der Dateieigenschaften](./images/map-console-screen.png)
 
 Die Benutzeroberfläche der Map-Konsole ist hauptsächlich in zwei Abschnitte unterteilt - **Navigationsleiste** und **Linkes Bedienfeld**.
 
-![Neu](images/map-console-sections.png){align="left"}
+![Neu](images/map-console-sections.png)
 
 - (**A**) **Navigationsleiste**: Die Navigationsleiste zeigt Tools zum Umschalten der Navigation, Anpassen der Seitenansicht und Anzeigen des Namens der ausgewählten Zuordnungsdatei an.
 
@@ -41,7 +41,7 @@ Die Benutzeroberfläche der Map-Konsole ist hauptsächlich in zwei Abschnitte un
 
 - (**B**) **Linker Bereich**: Der linke Bereich bietet schnellen Zugriff auf die Funktionen „Ausgabegenerierung“, „Berichterstellung und -verwaltung“, „Baseline“, „Bedingungsvorgaben“, „Inhaltsübersetzung“ und &quot;Workfront (nur wenn konfiguriert)“.
 
-  Weitere Informationen finden Sie im folgenden Abschnitt [Funktionen der &#x200B;](#map-console-features) zuordnen“.
+  Weitere Informationen finden Sie im folgenden Abschnitt [Funktionen der ](#map-console-features) zuordnen“.
 
 ## Funktionen der Zuordnungskonsole
 
@@ -63,7 +63,7 @@ Weitere Informationen finden Sie unter [Berichte in Experience Manager Guides](.
 
 Experience Manager Guides bietet die Funktion „Grundlinien“, mit der Sie eine Version Ihrer Themen und Assets erstellen können, die dann zur Veröffentlichung oder Übersetzung verwendet werden können. Sie können auch mehrere Ausgabevorgaben derselben DITA-Zuordnung parallel veröffentlichen.
 
-Erfahren Sie, wie [&#x200B; Baselines in Experience Manager Guides erstellen und verwalten &#x200B;](./web-editor-baseline.md).
+Erfahren Sie, wie [ Baselines in Experience Manager Guides erstellen und verwalten ](./web-editor-baseline.md).
 
 **Bedingungsvorgaben**
 

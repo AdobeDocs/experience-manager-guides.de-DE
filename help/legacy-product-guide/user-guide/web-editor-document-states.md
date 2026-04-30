@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Document State
 role: User
 hide: true
 exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Um den Status eines Dokuments zu ändern, führen Sie die folgenden Schritte aus
 
 Die Kartenansicht der Assets-Benutzeroberfläche zeigt den aktuellen Status zusammen mit dem Erstellungsdatum und der Größe des jeweiligen DITA-Themas oder der DITA-Karte an.
 
-![](images/document_state.png){width="800" align="left"}
+![](images/document_state.png){width="800"}
 
 ## Dokumentstatus in DDLC verwenden
 
@@ -72,11 +72,11 @@ Um die Dokumentgenehmigungsfunktion zu verwenden, führen Sie die folgenden Schr
 
 1. Wenn sich das Dokument in dem Status befindet, der als genehmigt markiert werden soll, wird das folgende Dialogfeld angezeigt:
 
-   ![](images/mark-approved-correct-state.png){width="300" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300"}
 
    Wenn Ihr Dokument nicht als genehmigt markiert werden kann, wird die folgende Meldung angezeigt:
 
-   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300"}
 
 1. Wenn Ihr Dokument bereit ist, als genehmigt gekennzeichnet zu werden, wählen Sie eine Kennzeichnung aus der Dropdown-Liste und klicken Sie auf **Genehmigen**.
 
@@ -86,7 +86,7 @@ Um die Dokumentgenehmigungsfunktion zu verwenden, führen Sie die folgenden Schr
 
 1. Nachdem das Dokument erfolgreich als genehmigt markiert wurde **wird eine** des Dokuments im schreibgeschützten Modus angezeigt.
 
-   ![](images/approved-doc-read-only.png){width="650" align="left"}
+   ![](images/approved-doc-read-only.png){width="650"}
 
    >[!NOTE]
    >
@@ -104,4 +104,4 @@ Nachdem ein Dokument als genehmigt markiert wurde, ist es nicht mehr zur Bearbei
    Der Status des Dokuments wird in Entwurf geändert und das Dokument wird im Web-Editor im Bearbeitungsmodus geöffnet.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

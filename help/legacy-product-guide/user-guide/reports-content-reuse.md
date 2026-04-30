@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 
 1. Klicken Sie **Bericht generieren**, um den Bericht zur Wiederverwendung von Inhalten abzurufen.
 
-   ![](images/content-reuse-uuid.png){width="800" align="left"}
+   ![](images/content-reuse-uuid.png){width="800"}
 
    Die Berichtseite ist in zwei Teile unterteilt:
 
@@ -65,4 +65,4 @@ Führen Sie die folgenden Schritte aus, um den Bericht zur Wiederverwendung von 
 >
 > Sie können auch den Bericht zur Wiederverwendung von Inhalten im CSV-Format exportieren. Klicken Sie dazu auf den Link In CSV exportieren in der linken oberen Ecke des Bildschirms und wählen Sie einen Speicherort für die CSV-Datei aus. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)
+**Übergeordnetes Thema:**[ Reports](reports-intro.md)

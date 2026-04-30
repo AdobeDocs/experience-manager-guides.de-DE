@@ -2,10 +2,10 @@
 title: Verwenden des KI-Assistenten zur intelligenten Erstellung von Dokumenten "
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten Dokumente in Adobe Experience Manager Guides intelligent suchen und erstellen können.
 exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
-source-git-commit: aab7bc0c79d3c98f062d230d1d21ec7f4e6a01c3
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -21,14 +21,14 @@ Die **Authoring**-Funktion im KI-Assistenten macht Ihren Authoring-Prozess intel
 
 Weitere Informationen finden Sie unter [Authoring](./ai-assistant-right-panel.md).
 
-![KI-Assistent](./images/ai-assistant-panel.png){align="left"}
+![KI-Assistent](./images/ai-assistant-panel.png)
 
 Die **Hilfe**-Funktion im KI-Assistenten ist ein intuitives, chatbasiertes Tool, das Ihnen hilft, Experience Manager Guides besser zu verstehen, Probleme zu beheben und Informationen in der Adobe Experience Manager Guides-Dokumentation zu durchsuchen. Anstatt in Benutzerhandbüchern und Referenzdokumenten zu suchen, können Sie die Funktion **Hilfe** verwenden, um schnell relevante Antworten auf Ihre Fragen zu finden. Dies spart Zeit und ermöglicht es Ihnen, sich auf die Inhaltserstellung zu konzentrieren, was zu höherer Produktivität und Effizienz führt.
 
 Weitere Informationen finden Sie unter [Hilfe](./ai-based-smart-help.md).
 
 
-![Smartes Hilfebedienfeld](images/smart-help-panel.png){align="left"}
+![Smartes Hilfebedienfeld](images/smart-help-panel.png)
 
 ## Erste Schritte mit dem KI-Assistenten
 
@@ -41,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu starten:
 
    Die Seite „KI-Assistent“ wird mit Hervorhebung ihrer wichtigsten Funktionen, des Links zu Benutzerrichtlinien und einer Schaltfläche **Erste Schritte** angezeigt.
 
-   ![Smartes Hilfebedienfeld](images/get-started-ai.png){align="left"}
+   ![Smartes Hilfebedienfeld](images/get-started-ai.png)
 
 1. Lesen Sie die Benutzerrichtlinien sorgfältig durch und wählen Sie dann **Erste Schritte** aus, um den KI-Assistenten zu starten.
 

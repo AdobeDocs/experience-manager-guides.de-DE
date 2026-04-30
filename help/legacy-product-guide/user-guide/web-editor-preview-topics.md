@@ -1,11 +1,11 @@
 ---
 title: Vorschau eines Themas
-description: Learn how to preview a topic in AEM Guides. Erfahren Sie mehr über die Funktionen, die im Vorschaumodus verfügbar sind. Verzweigung, Wiederherstellung und nachfolgende Versionierung in AEM Handbüchern.
+description: Erfahren Sie, wie Sie in AEM Guides eine Vorschau eines Themas anzeigen. Erfahren Sie mehr über die Funktionen, die im Vorschaumodus verfügbar sind. Verzweigung, Wiederherstellung und nachfolgende Versionierung in AEM Handbüchern.
 feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um eine Vorschau eines Themas anzuzeigen
 
 ## Im Vorschaumodus verfügbare Funktionen
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){width="800"}
 
 Im Vorschaumodus können Sie in der Symbolleiste die folgenden Vorgänge ausführen:
 
@@ -51,7 +51,7 @@ Der **Verwendet in** verweist auf die Dokumente, auf die die aktuelle Datei verw
 
 Mit dem Symbol \(+\) im Abschnitt **Verwendet in** Referenzen können Sie weiter nach oben navigieren, um zu ermitteln, wo dieses Thema verwendet oder referenziert wird.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){width="800"}
 
 Durch Klicken auf ![](images/right-arrow-used-in-dialog.svg)Symbol neben einem Dokument werden die Zuordnungs- oder Themendateien angezeigt, in denen dieses Dokument weiter referenziert wird.
 
@@ -63,7 +63,7 @@ Wenn Ihr Thema bedingte Inhalte hat, wird in der Symbolleiste das A/B-Symbol ang
 >
 > Der bedingte Inhalt wird mit heller Hintergrundfarbe im Web-Editor hervorgehoben.
 
-![](images/conditional-popup_cs.png){width="300" align="left"}
+![](images/conditional-popup_cs.png){width="300"}
 
 **Bearbeiten**
 
@@ -81,7 +81,7 @@ Wenn Ihr Thema bedingte Inhalte hat, wird in der Symbolleiste das A/B-Symbol ang
   >
   > Um die Quell-Code-Ansicht einer DITA-Zuordnungsdatei abzurufen, wählen Sie die Datei in der Assets-Benutzeroberfläche aus und klicken Sie auf Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800"}
 
 **UUID-Link freigeben**
 
@@ -93,7 +93,7 @@ Wenn Ihr Thema bedingte Inhalte hat, wird in der Symbolleiste das A/B-Symbol ang
 
 Eine neue Option **UUID-Link freigeben** wird in der Symbolleiste der oben genannten Bereiche angezeigt. Der folgende Screenshot zeigt die Option **UUID-Link freigeben** im Vorschaumodus eines Themas:
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){width="800"}
 
 In der Asset-Benutzeroberfläche ist diese Option sichtbar, wenn Sie eine Datei auswählen. Im Vorschaumodus ist diese Option standardmäßig in der Hauptsymbolleiste verfügbar. In einer DITA-Zuordnungskonsole ist diese Option im Abschnitt „Ausgabevorgaben“ sichtbar.
 
@@ -109,19 +109,19 @@ Wenn Sie den Link von der DITA-Zuordnungskonsole oder dem Vorschaumodus einer Da
 
 - Aktiviert bzw. deaktiviert die Funktionen Auschecken und Einchecken . Wenn eine Datei ausgecheckt wird, erhält der aktuelle Benutzer eine exklusive Schreibberechtigung für die Datei. Eine ausgecheckte Datei kann im Web-Editor zur Bearbeitung geöffnet werden. Nachdem Sie die erforderlichen Änderungen vorgenommen haben, klicken Sie auf das Symbol Einchecken , um die Datei in DAM zu speichern.
 
-When you check out a topic, the status of the file is shown as checked out in the card view and in the list view.
+Wenn Sie ein Thema auschecken, wird der Status der Datei in der Kartenansicht und in der Listenansicht als ausgecheckt angezeigt.
 
 Ausgecheckte Datei in der Kartenansicht:
 
-![](images/checkout-card-62.png){width="300" align="left"}
+![](images/checkout-card-62.png){width="300"}
 
 Ausgecheckte Datei in der Listenansicht:
 
-![](images/checkout-list-62.png){width="550" align="left"}
+![](images/checkout-list-62.png){width="550"}
 
 Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellungen** unter **Listenansicht** und wählen Sie den **Ausgecheckt** im Dialogfeld **Spalten konfigurieren** aus.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){width="800"}
 
 >[!TIP]
 >
@@ -139,17 +139,17 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
    1. Klicken Sie in der linken Leiste auf &quot;**&quot;** wählen Sie eine Version aus.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){width="800"}
 
    1. Wählen Sie aus den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und klicken Sie auf **Vorschauversion**. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
 
    1. Wählen Sie aus **Liste** anzeigen die Version aus, mit der Sie die Basisversion vergleichen möchten.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){width="800"}
 
       Der geänderte Inhalt wird in der Themenvorschau hervorgehoben. Grün hervorgehobener Inhalt gibt den neu hinzugefügten Inhalt an und rot dargestellt den gelöschten Inhalt.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){width="800"}
 
 
 ### Verzweigung, Wiederherstellung und nachfolgende Versionierung {#id193PG0Y051X}
@@ -164,7 +164,7 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
   ![](images/branching_illustration.png){width="550" align="center"}
 
-  For any new topic, the first version is numbered as 1.0. Thereafter, every new version of the topic is saved with an incremental number such as 1.1, 1.2, and so on. Nachdem Sie eine Verzweigung eines Themas erstellt haben, wird eine neue Verzweigung erstellt. Dabei wird die Versionsnummer, von der aus die Verzweigung erstellt wird, übernommen und am Ende der Version wird eine 0 hinzugefügt. Wie in der Abbildung gezeigt, wird ab Version 1.1 eines Themas eine neue Verzweigung erstellt. The new branch is versioned as 1.1.0. Jedes Mal, wenn Sie dann eine neue Version des Themas in dieser Verzweigung speichern, wird eine inkrementelle Versionsnummer wie 1.1.1, 1.1.2 usw. angezeigt.
+  Für jedes neue Thema wird die erste Version als 1.0 nummeriert. Danach wird jede neue Version des Themas mit einer inkrementellen Zahl wie 1.1, 1.2 usw. gespeichert. Nachdem Sie eine Verzweigung eines Themas erstellt haben, wird eine neue Verzweigung erstellt. Dabei wird die Versionsnummer, von der aus die Verzweigung erstellt wird, übernommen und am Ende der Version wird eine 0 hinzugefügt. Wie in der Abbildung gezeigt, wird ab Version 1.1 eines Themas eine neue Verzweigung erstellt. Die neue Verzweigung ist als 1.1.0 versioniert. Jedes Mal, wenn Sie dann eine neue Version des Themas in dieser Verzweigung speichern, wird eine inkrementelle Versionsnummer wie 1.1.1, 1.1.2 usw. angezeigt.
 
   Ähnlich wie bei einer Verzweigung können Sie auch Ihre aktuelle oder aktuelle Version auf eine beliebige Version zurücksetzen, die im Repository vorhanden ist. Um zu einer Version zurückzukehren, wählen Sie einfach die gewünschte Version des Themas aus und klicken Sie **Auf diese Version zurücksetzen** im Bedienfeld **Versionsverlauf**.
 
@@ -190,7 +190,7 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
    1. Wählen Sie eine Version aus, aus der Sie eine Verzweigung erstellen möchten. Im folgenden Screenshot ist Version 1.2 zum Erstellen einer Verzweigung ausgewählt.
 
-      ![](images/branching.png){width="300" align="left"}
+      ![](images/branching.png){width="300"}
 
       >[!NOTE]
       >
@@ -204,19 +204,19 @@ Wenn die Spalte Ausgecheckt nicht sichtbar ist, wählen Sie **Anzeigeeinstellung
 
       - Wenn Sie diese Option auswählen, wird ab Version 1.1 eine Verzweigung erstellt. Außerdem wird eine neue Version des Themas aus der aktuellen Arbeitskopie des Themas erstellt und als nächste Version - 1.4 - gespeichert.
 
-        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300"}
 
         Version 1.2 wird Ihre aktuelle Arbeitskopie des Themas. Jede danach gespeicherte Version wird unter der neuen Verzweigung von 1.1 erstellt. Beispielsweise wird die nachfolgende Version eines neuen Themas in dieser Verzweigung als 1.2.0 gespeichert.
 
-        ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300"}
 
       - Wenn Sie diese Option nicht auswählen, wird keine neue Version aus der aktuellen Arbeitskopie des Themas erstellt. Ab Version 1.2 des Themas wird eine neue Verzweigung erstellt. Jede nachfolgende Version des Themas wird unter der Verzweigung 1.2 als 1.2.0, 1.2.1 usw. gespeichert.
 
-        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300"}
 
    1. Klicken Sie auf **OK**.
 
 
   Aus der ausgewählten Version des Themas wird eine neue Verzweigung erstellt. Der obige Prozess gilt auch für die Wiederherstellung zu einer bestimmten Version eines Themas. Technisch gesehen bedeutet die Wiederherstellung zu einer bestimmten Version, dass Sie aus der ausgewählten Version eine neue Verzweigung erstellen und diese Version zur aktuellen Arbeitskopie des Themas machen. Sie können auch den Verlauf der Dateien anzeigen, die im Bericht Versionsrücksetzverlauf rückgängig gemacht wurden. Weitere Informationen zu diesem Bericht finden Sie unter [Versionsverlaufsbericht für zurückgesetzte Dateien](reports-reverted-file-version-history.md#).
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen und Vorschau von Themen](create-preview-topics.md)
+**Übergeordnetes Thema:**[ Erstellen und Vorschau von Themen](create-preview-topics.md)

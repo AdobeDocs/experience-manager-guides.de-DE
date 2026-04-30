@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie einen oder mehrere Artikel über die Zuordnun
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Adobe Experience Manager Guides verfügt über eine Funktion zur artikelbasierten Veröffentlichung, mit der Benutzer einen oder mehrere Knowledge Base-Artikel gleichzeitig veröffentlichen können.
 
-Diese Engine enthält auch eine OOTB-Inhaltsvorlage, die auf den Adobe Experience Manager-Kernkomponenten basiert und es Benutzern ermöglicht, ein wissensbasiertes Repository für die technischen Inhalte zu erstellen. Diese Vorlage kann an die Bedürfnisse der Kundinnen und Kunden angepasst werden. Mit dieser Engine können die Benutzenden die DITA-Karte additiv erstellen und Themen veröffentlichen, sobald sie bereit sind.
+Diese Engine enthält auch eine OOTB-Inhaltsvorlage, die auf den Adobe Experience Manager-Kernkomponenten basiert und es Benutzern ermöglicht, ein wissensbasiertes Repository für die technischen Inhalte zu erstellen. Diese Vorlage kann an die Bedürfnisse der Kundinnen und Kunden angepasst werden.Diese Engine ermöglicht es den Benutzenden, die DITA-Karte additiv zu erstellen und Themen zu veröffentlichen, sobald sie bereit sind.
 
 Wenn Sie den Inhalt nur für einige Themen in Ihrer DITA-Karte aktualisiert haben, müssen Sie nicht immer die gesamte Karte veröffentlichen. Sie können nur die aktualisierten Themen auswählen und veröffentlichen.
 
@@ -27,16 +27,16 @@ Führen Sie die folgenden Schritte aus, um eine artikelbasierte Ausgabe zu gener
 1. Navigieren Sie zur Registerkarte **Artikel** und wählen Sie die Themen aus, für die Sie die Ausgabe generieren möchten.
 1. Wählen Sie **oben** Ausgabe generieren“ aus, um die Ausgabe zu generieren.
 
-   ![](images/add-preset-articles-tab_cs.png){align="left"}
+   ![](images/add-preset-articles-tab_cs.png)
 
 1. Wählen Sie in **Eingabeaufforderung Dateien für** Veröffentlichung bestätigen die Dateien aus, die Sie veröffentlichen möchten, und bestätigen Sie Ihre Auswahl durch **Veröffentlichen**.
 
-   ![Neue &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Neue ](images/knowledge-base-confirm-files-for-publishing.png)
 
    Sie sehen den Status des Ausgabegenerierungsprozesses. Die Spalte **Themen** listet die Themen auf, für die Ausgaben generiert werden, während die Spalte **Status** den Veröffentlichungsstatus jedes Themas anzeigt.
 
 
-   ![](images/add-preset-output-generated_cs.png){align="left"}
+   ![](images/add-preset-output-generated_cs.png)
 
    Um die Ausgabe anzuzeigen, schließen Sie das Dialogfeld **Ausgabe generiert** und wählen Sie **Ausgabe anzeigen** auf der Seite „Voreinstellung“ aus.
 
@@ -46,4 +46,4 @@ Führen Sie die folgenden Schritte aus, um eine artikelbasierte Ausgabe zu gener
    > Sie können eine vorhandene Ausgabevorgabe auch über das Menü Optionen umbenennen, duplizieren oder löschen.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Editor](web-editor.md)

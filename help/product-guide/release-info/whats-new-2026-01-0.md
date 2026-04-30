@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 2026.01.0
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2026.01.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version 2026.01.0 von Adobe Experience Manager Guides
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 1%
+source-wordcount: '1599'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Dieser Artikel behandelt die neuen und erweiterten Funktionen, die mit der Version 2026.01.0 von Adobe Experience Manager Guides as a Cloud Service eingeführt wurden.
 
-Eine Liste der in dieser Version behobenen Probleme finden Sie im Artikel [Behobene Probleme in Version 2026.01.0](fixed-issues-2026-01-0.md).
+Eine Liste der in dieser Version behobenen Probleme finden Sie unter [Behobene Probleme in Version 2026.01.0](fixed-issues-2026-01-0.md).
 
 Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2026.01.0](../release-info/upgrade-instructions-2026-01-0.md).
 
@@ -25,7 +25,7 @@ Experience Manager Guides hat verschiedene Verbesserungen an der Funktion Suchen
 
 Wenn dieser Modus aktiviert ist, können Sie eine globale Suche nicht nur nach dem sichtbaren Inhalt durchführen, sondern auch nach dem zugrunde liegenden Quellinhalt (XML-Struktur, einschließlich Elementen, Tags und Attributwerten) für die gesuchte Zeichenfolge. Dieser Modus stellt eine umfassende Suche über den gesamten Inhalt hinweg sicher.
 
-![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+![](assets/map-find-replace-with-source-mode.png){width="650"}
 
 In diesem Modus können Sie Filter anwenden, um Ihre Suche nach Dateityp, Dokumentstatus, Datum der letzten Änderung und mehr einzugrenzen. Sie haben außerdem die Möglichkeit, nach Durchführung des Vorgangs „Alle ersetzen“ einen detaillierten CSV-Bericht herunterzuladen, der einen Schnappschuss aller durchgeführten Ersetzungsaktionen zusammen mit ihrem Erfolgs- und Fehlerstatus enthält.
 
@@ -33,7 +33,7 @@ Weitere Informationen finden Sie im Abschnitt [Suchen und Ersetzen](../user-guid
 
 >[!NOTE]
 >
-> Für **Funktion „Quellmodus verwenden** im Bedienfeld „Suchen und Ersetzen“ muss zunächst eine benutzerdefinierte Indexbereitstellung abgeschlossen werden. Wenden Sie sich nach der Indizierung an Ihr Customer Success-Team, um diese Funktion zu aktivieren.
+>Für **Funktion „Quellmodus verwenden** im Bedienfeld „Suchen und Ersetzen“ muss zunächst eine benutzerdefinierte Indexbereitstellung abgeschlossen werden. Wenden Sie sich nach der Indizierung an Ihr Customer Success-Team, um diese Funktion zu aktivieren.
 
 ## Verbessertes Erlebnis beim Durchsuchen von Dateien und Ordnern
 
@@ -41,7 +41,7 @@ Diese Version bietet eine übersichtlichere, intuitivere Benutzeroberfläche zum
 
 Beim Durchsuchen von Dateien bietet das neu gestaltete Dialogfeld **Datei auswählen** jetzt ein Layout mit Registerkarten mit zwei Ansichten - **Repository** zum Navigieren im gesamten Inhalts-Repository in einem tabellarischen Format und **Sammlungen** für den schnellen Zugriff auf häufig verwendete Themen, Karten und Bilder.
 
-![](assets/select-file.png){width="650" align="left"}
+![](assets/select-file.png){width="650"}
 
 Zu den wichtigsten Verbesserungen gehören:
 
@@ -53,9 +53,9 @@ Zu den wichtigsten Verbesserungen gehören:
 
 Das **Pfad auswählen**-Dialogfeld bietet außerdem eine verbesserte baumstrukturierte Ansicht für die Ordnernavigation, die eine übersichtlichere und effizientere Methode zur Auswahl von Pfaden im gesamten Inhalts-Repository gewährleistet.
 
-![](assets/select-path-dialog-new.png){width="350" align="left"}
+![](assets/select-path-dialog-new.png){width="350"}
 
-Experience Manager Guides Weitere Informationen finden Sie [&#x200B; Abschnitt „Durchsuchen von Dateien und Ordnern in &#x200B;](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides)&quot; unter _Weitere Funktionen im Editor_.
+Weitere Informationen finden Sie [ Abschnitt „Durchsuchen von Dateien und Ordnern in ](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides)&quot; unter _Weitere Funktionen im Editor_.
 
 ## Verbesserungen bei der Repository-Suche und -Filterung
 
@@ -63,7 +63,7 @@ Experience Manager Guides Weitere Informationen finden Sie [&#x200B; Abschnitt �
 
 Filtern Sie jetzt Ihre Repository-Suchergebnisse basierend auf dem aktuellen Dokumentstatus der Dateien. Mit dem neuen Filter **Dokumentstatus** können Sie Ihre Suche mithilfe der verfügbaren Filterwerte eingrenzen, die in der `ui_config.json`-Datei in Ihrem Ordnerprofil definiert sind.
 
-![](assets/document-state-filter-repository.png){align="left"}
+![](assets/document-state-filter-repository.png)
 
 Die für den Status des Dokuments verfügbaren Standardfilterwerte sind: Entwurf, Bearbeiten, In-Überprüfung, Genehmigt, Überprüft und Fertig. Details zum Anpassen der Standardwerte für Dokumentstatusfilter finden Sie unter [Konfigurieren von Dokumentstatusfiltern](../cs-install-guide/config-doc-state-filters.md).
 
@@ -75,7 +75,7 @@ Die für den Status des Dokuments verfügbaren Standardfilterwerte sind: Entwurf
 
 Alle Multimediadateien werden jetzt mit Miniaturansichten angezeigt, wodurch die visuelle Identifizierung und Suche nach Bildern im **Repository)** wird. Diese Verbesserung gilt auch für die Suche nach Dateien im **Suchbereich**, sodass Sie Multimedia-Assets schnell von anderen Dateitypen unterscheiden können.
 
-![](assets/thumbnail-repository.png){align="left"}
+![](assets/thumbnail-repository.png)
 
 ## Verbesserungen am Editor
 
@@ -87,11 +87,11 @@ Einführung der neuen **Aktualisieren**-Funktion für Karten, die bereits im Vor
 
 - Um die gesamte Karte (einschließlich aller Themen) zu aktualisieren **wird oben links im Editor eine neue Schaltfläche** Aktualisieren“ angezeigt.
 
-  ![](assets/refresh-map.png){width="600" align="left"}
+  ![](assets/refresh-map.png){width="600"}
 
 - Um den Inhalt einzelner Themen zu aktualisieren, wird **neue Option** Thema aktualisieren“ im Kontextmenü eingeführt.
 
-  ![](assets/refresh-topic.png){width="600" align="left"}
+  ![](assets/refresh-topic.png){width="600"}
 
 Weitere Informationen finden Sie unter [Funktionen des Zuordnungs-Editors](../user-guide/map-editor-advanced-map-editor.md).
 
@@ -103,7 +103,7 @@ Bei allen Änderungen an den Metadatenfeldern, die unter **Dateieigenschaften** 
 
 Sie können jetzt die Wortzahl in einer Zuordnungs- oder Themendatei verfolgen. Das neue Feld **Wortzahl** im rechten Bereich würde die Gesamtzahl der Wörter innerhalb eines Themas (oder einer Karte) anzeigen, wobei Wörter, die durch Leerzeichen getrennt sind, als einzelne Wörter gezählt werden. Es wird jedes Mal automatisch aktualisiert, wenn Sie Änderungen speichern. Bei Querverweisen ist nur der Anzeigetext enthalten, während Schlüssel ausgeschlossen sind.
 
-![](assets/file-properties-new.png){width="350" align="left"}
+![](assets/file-properties-new.png){width="350"}
 
 Weitere Informationen finden Sie unter [Rechtes Bedienfeld im Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
@@ -128,7 +128,7 @@ Jetzt können Sie einer laufenden Prüfungsaufgabe neue Themen hinzufügen (wenn
 
 Auf der Seite **Aufgabendetails** können Sie einfach Themen auswählen oder die Auswahl aufheben, um die Themenliste zu ändern. Reviewer werden (über AEM und E-Mail) über Änderungen an ihren zugewiesenen Themen durch AEM- und E-Mail-Benachrichtigungen benachrichtigt. Weitere Informationen finden Sie unter [Themen zur Überprüfung senden](../user-guide/review-send-topics-for-review.md).
 
-![](assets/modify-review-topics.png){width="650" align="left"}
+![](assets/modify-review-topics.png){width="650"}
 
 ## Verbesserungen an der Übersetzung
 
@@ -140,7 +140,7 @@ Wenn eine Datei nicht versionierte Änderungen enthält (nicht als neue Version 
 
 Weitere Informationen finden Sie unter [Übersetzen von Dokumenten in der Zuordnungskonsole](../user-guide/translate-documents-web-editor.md).
 
-![](assets/unversioned-changes-translation.png){width="650" align="left"}
+![](assets/unversioned-changes-translation.png){width="650"}
 
 ## Verbesserungen beim Veröffentlichen
 

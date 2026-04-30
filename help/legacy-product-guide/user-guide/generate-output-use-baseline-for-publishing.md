@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1972'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um eine Baseline zu erstellen:
 
 1. Klicken Sie auf der Seite „Baselines“ auf **Erstellen**.
 1. Geben Sie in „Name der Baseline“ einen **für die Baseline**.
-   ![Erstellen einer Baseline](images/create-baseline.png){width="800" align="left"}
+   ![Erstellen einer Baseline](images/create-baseline.png){width="800"}
 1. Wählen **unter „Version festlegen auf** eine der folgenden Optionen aus:
 
    - **Beschriftung**: Wählen Sie diese Option aus, um die Themen entsprechend der ihnen zugewiesenen Beschriftung auszuwählen. Geben Sie einen Titel ein, um die Liste anhand der eingegebenen Zeichenfolge zu filtern. Aus der Liste Ausgefilterter Assets können Sie einen Titel auswählen, um Themen und andere Assets mit dem angegebenen Titel auszuwählen.
@@ -93,7 +93,7 @@ Führen Sie die folgenden Schritte aus, um eine vorhandene Baseline zu bearbeite
 1. Nehmen Sie die erforderlichen Änderungen an der Baseline vor. Sie können den Namen und die Version des Themas oder des referenzierten Inhalts ändern.
 1. Wenn Sie für ein oder mehrere Themen eine andere Version verwenden möchten, können Sie dies tun, indem Sie diese Themen manuell auswählen. Klicken Sie **Thema durchsuchen** und wählen Sie das Thema aus, für das Sie eine andere Version verwenden möchten. Wählen Sie aus der Dropdown-Liste Version auswählen für das ausgewählte Thema eine Version des Themas aus, das Sie in der Grundlinie verwenden möchten, und klicken Sie auf **OK**.
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){width="800"}
 
    Die Informationen über das Thema und seine ausgewählte Version werden im Backend gespeichert. Sie können diesen Schritt wiederholen, um die ausgewählte Version für mehrere Themen zu ändern.
 
@@ -140,7 +140,7 @@ Führen Sie die folgenden Schritte aus, um mehreren Themen und referenzierten In
 
 1. Klicken Sie **Kennzeichnungen hinzufügen**.
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){width="800"}
 
 1. Geben **im Dialogfeld „Bezeichnung hinzufügen** eine eindeutige Bezeichnung an, die mit dieser Grundlinie verknüpft werden soll.
 
@@ -151,7 +151,7 @@ Führen Sie die folgenden Schritte aus, um mehreren Themen und referenzierten In
    - Klicken Sie auf **Hinzufügen**.
 Die angegebene Beschriftung wird der DITA-Zuordnung und den referenzierten Themen und Inhalten hinzugefügt.
 
-     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650"}
 
 
 ## Exportieren übersetzter Baseline {#id196SE600GHS}
@@ -170,7 +170,7 @@ Führen Sie die folgenden Schritte aus, um eine übersetzte Baseline zu exportie
 
 1. Erweitern Sie auf **Registerkarte** die Option **Grundlinie**, die in der linken Leiste verfügbar ist.
 
-   ![](images/export-baseline.png){width="800" align="left"}
+   ![](images/export-baseline.png){width="800"}
 
 1. Wählen Sie die **Baseline verwenden** und wählen Sie die Baseline aus, die Sie exportieren möchten.
 
@@ -183,4 +183,4 @@ Führen Sie die folgenden Schritte aus, um eine übersetzte Baseline zu exportie
 1. \(Optional\) Um eine bereits exportierte Baseline zu exportieren, wählen Sie &quot;**Baseline überschreiben** und klicken Sie dann auf **Baseline exportieren**.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

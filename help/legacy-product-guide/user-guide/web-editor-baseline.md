@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Sie können eine Baseline aus dem Web-Editor erstellen, indem Sie die folgenden 
 1. Öffnen Sie im Repository-Bereich die DITA-Zuordnungsdatei in der Zuordnungsansicht.
 1. Klicken Sie auf die **Verwalten**. Das **Baseline**-Bedienfeld zeigt die Baselines der DITA-Map an.
 
-   ![Baseline-Bedienfeld](images/baseline-manage.png){width="800" align="left"}
+   ![Baseline-Bedienfeld](images/baseline-manage.png){width="800"}
 
 1. Wählen Sie **Bedienfeld &quot;**&quot; oben rechts das Symbol &quot;+&quot; aus, um mit der Erstellung einer Baseline zu beginnen.
 1. Geben Sie in „Name“ einen Namen für **Baseline**.
@@ -59,7 +59,7 @@ Sie können eine Baseline aus dem Web-Editor erstellen, indem Sie die folgenden 
 
    Baselines, die mithilfe der automatischen Aktualisierungskonfiguration erstellt wurden, werden dynamisch aktualisiert. Wenn Sie eine Baseline generieren, eine Baseline herunterladen oder ein Übersetzungsprojekt mithilfe einer Baseline erstellen, werden die Dateien basierend auf den aktualisierten Beschriftungen dynamisch ausgewählt. Wenn Sie beispielsweise Version 1.2 eines Themas mit der Bezeichnung Release 1.0 für die Grundlinie und Version 1.5 mit der Bezeichnung Release 1.0 aktualisiert haben, wird die Grundlinie dynamisch aktualisiert und Version 1.5 wird verwendet.
 
-   ![Erstellen einer Baseline](images/dynamic-baseline.png){width="300" align="left"}
+   ![Erstellen einer Baseline](images/dynamic-baseline.png){width="300"}
 
    - **Kennzeichnungen**: Wenn für die Themen Kennzeichnungen angegeben sind, verwenden Sie das **Kennzeichnungen** zur Auswahl aus den [aufgelisteten Kennzeichnungen](#labels-list).
 Die zuerst ausgewählten Bezeichnungen erhalten gegenüber den späteren eine höhere Priorität.
@@ -68,7 +68,7 @@ Die zuerst ausgewählten Bezeichnungen erhalten gegenüber den späteren eine h�
      >
      >Während die Beschriftungen abgerufen werden, wird ein Lader angezeigt und die Dropdown-Liste ist deaktiviert.
 
-     Bei dynamischen Baselines werden die Beschriftungen aus der zuletzt gespeicherten Version und der aktuellen Arbeitskopie der Zuordnung abgerufen. Wenn Sie beispielsweise Kennzeichnungen erstellt haben   `Label Release A.1.0 ` und `Label Release A.1.1` für die Versionen 1.0 und 1.1 von Thema A und Beschriftungen `Label Release B.1.0` und `Label Release B.1.1` für die Versionen 1.0 und 1.1 von Thema B . Anschließend können Sie Thema A zu Map A in Version 1.0 und Thema B zu Map A in 1.0* (Arbeitskopie) hinzufügen. In diesem Fall können Sie `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` und `Label Release B.1.1` in der Dropdown-Liste der dynamischen Baseline-Beschriftungen anzeigen.
+     Bei dynamischen Baselines werden die Beschriftungen aus der zuletzt gespeicherten Version und der aktuellen Arbeitskopie der Zuordnung abgerufen. Beispiel: Sie haben die Bezeichnungen `Label Release A.1.0 ` und `Label Release A.1.1` für die Versionen 1.0 und 1.1 von Thema A sowie die Bezeichnungen `Label Release B.1.0` und `Label Release B.1.1` für die Versionen 1.0 und 1.1 von Thema B erstellt. Anschließend können Sie Thema A zu Map A in Version 1.0 und Thema B zu Map A in 1.0* (Arbeitskopie) hinzufügen. In diesem Fall können Sie `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` und `Label Release B.1.1` in der Dropdown-Liste der dynamischen Baseline-Beschriftungen anzeigen.
 
 1. **Indirekte Verweise**: Für indirekte Verweise innerhalb der DITA-Karte werden Ihnen die folgenden Optionen bereitgestellt:
 
@@ -94,7 +94,7 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
   >
   >Der Bearbeitungsvorgang im Fall einer dynamischen Baseline ermöglicht es Ihnen, die Eigenschaften der Baseline zu bearbeiten, da die Referenzen für dynamische Baselines zur Laufzeit mithilfe der Kennzeichnungen generiert werden.
 
-  ![Optionen einer Baseline](images/baseline-options.png){width="800" align="left"}
+  ![Optionen einer Baseline](images/baseline-options.png){width="800"}
 
 
 
@@ -103,7 +103,7 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
 ### Duplizieren einer Baseline
 
 Sie können eine Baseline duplizieren und entsprechend Ihren Anforderungen ändern.
-![Duplizieren einer Baseline](images/baseline-duplicate.png){width="300" align="left"}
+![Duplizieren einer Baseline](images/baseline-duplicate.png){width="300"}
 *Duplizieren Sie eine Baseline basierend auf einer Beschriftung oder erstellen Sie eine exakte Kopie.*
 
 1. Wählen **Duplizieren** aus dem Menü Optionen einer Baseline. Das **Basislinie duplizieren** wird geöffnet.
@@ -114,7 +114,7 @@ Sie können eine Baseline duplizieren und entsprechend Ihren Anforderungen ände
    In **Version basierend auswählen** können Sie entweder die Option **Exakte Kopie** oder die Option **Beschriftung** auswählen:
 
    - **Exakte Kopie**: Experience Manager Guides wählt dieselbe Version aller Themen aus und erstellt eine exakte Kopie der duplizierten Baseline.
-   - **Beschriftung**: In der Dropdown-Liste können Sie eine der [&#x200B; Beschriftungen &#x200B;](#labels-list). Experience Manager Guides wählt die Versionen der Themen aus, für die die ausgewählte Beschriftung definiert ist, während für die übrigen Themen die Version aus der duplizierten Baseline ausgewählt wird. Sie wählen beispielsweise den Titel `Release 1.0` aus der Dropdown-Liste aus und wählen dann die Versionen der Themen aus, für die Sie diesen Titel definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Baseline ausgewählt.
+   - **Beschriftung**: In der Dropdown-Liste können Sie eine der [ Beschriftungen ](#labels-list). Experience Manager Guides wählt die Versionen der Themen aus, für die die ausgewählte Beschriftung definiert ist, während für die übrigen Themen die Version aus der duplizierten Baseline ausgewählt wird. Sie wählen beispielsweise den Titel `Release 1.0` aus der Dropdown-Liste aus und wählen dann die Versionen der Themen aus, für die Sie diesen Titel definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Baseline ausgewählt.
 1. Klicken Sie **Duplizieren**.
 
 - **Umbenennen** oder **Löschen** einer vorhandenen Baseline.
@@ -140,7 +140,7 @@ Die im Dropdown-Menü aufgelisteten Bezeichnungen basieren auf den folgenden Kri
 
 Mithilfe des Symbols Filter im Bedienfeld **Baseline-Filter** können Sie Filter auf die Baseline anwenden, die im Baseline-Bearbeitungsfenster geöffnet ist:
 
-![Baseline-Filter](images/baseline-filter.png){width="300" align="left"}
+![Baseline-Filter](images/baseline-filter.png){width="300"}
 
 - Filtern Sie die Dateien nach Dateinamen oder Dateispeicherort.
 - Filtern Sie die Dateien anhand der Werte für verschiedene Spalten wie Dateityp, Referenztyp usw.
@@ -154,4 +154,4 @@ Mithilfe des Symbols Filter im Bedienfeld **Baseline-Filter** können Sie Filter
 
 Nachdem Sie die Baseline bearbeitet haben, können Sie auf die Schaltfläche **Speichern** oben klicken, um die Änderungen an der Baseline zu speichern. Sie können auf die **Zurücksetzen**-Schaltfläche klicken, wenn Sie die Änderung nicht speichern und die Baseline zurücksetzen möchten. Wenn Sie auf die **Zurücksetzen**-Schaltfläche klicken, wird eine Warnung angezeigt, dass Ihre nicht gespeicherten Änderungen verloren gehen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

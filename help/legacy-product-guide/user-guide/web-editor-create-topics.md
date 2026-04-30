@@ -5,7 +5,7 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu erstellen:
 
 1. Wählen Sie auf der Blueprint-Seite den Typ des zu erstellenden DITA-Dokuments aus und klicken Sie auf **Weiter**.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){width="800"}
 
    Standardmäßig stellt AEM Guides die am häufigsten verwendeten DITA-Themenvorlagen bereit. Weitere Themenvorlagen können entsprechend Ihren Unternehmensanforderungen konfiguriert werden. Weitere Informationen finden Sie unter *Konfigurieren von Authoring* Vorlagen in „Installieren und Konfigurieren von Adobe Experience Manager Guides für Ihr Setup“.
 
@@ -48,7 +48,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu erstellen:
 
    Jedem neuen Thema, das Sie über die Assets-Benutzeroberfläche **Erstellen** \> **DITA-Thema** oder den Web-Editor erstellen, wird eine eindeutige Themen-ID zugewiesen. Der Wert dieser ID ist der Dateiname selbst. Außerdem wird ein neues Dokument als neueste Arbeitskopie des Themas in DAM gespeichert. Bis zum Speichern einer Revision eines neu erstellten Themas wird im Versionsverlauf keine Versionsnummer angezeigt. Wenn Sie das Thema zur Bearbeitung öffnen, werden die Versionsinformationen in der rechten oberen Ecke der Registerkarte der Themendatei angezeigt:
 
-   ![](images/topic-version-none_cs.png){width="550" align="left"}
+   ![](images/topic-version-none_cs.png){width="550"}
 
    Die Versionsinformationen für ein neu erstelltes Thema werden als *none* angezeigt. Wenn Sie eine neue Version speichern, wird ihr eine Versionsnummer als 1.0 zugewiesen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version speichern](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -61,4 +61,4 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu erstellen:
 >
 > Nachdem Sie Ihr DITA-Thema erstellt haben, speichern Sie die Änderungen in Ihrer Arbeitskopie weiter und erstellen Sie eine neue Version, sobald Sie die Aktualisierungen für Ihr Thema abgeschlossen haben.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen und Vorschau von Themen](create-preview-topics.md)
+**Übergeordnetes Thema:**[ Erstellen und Vorschau von Themen](create-preview-topics.md)
