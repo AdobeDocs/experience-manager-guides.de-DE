@@ -37,7 +37,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema im Editor zu erstellen:
 
    ![](images/create-topic-option.png){width="500"}
 
-   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides ](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
+   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides &#x200B;](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
 
 2. Das **Neues Thema** wird angezeigt.
 
@@ -115,4 +115,4 @@ _
 
 4. Nachdem Sie Ihr DITA-Thema erstellt haben, speichern Sie die Änderungen in Ihrer Arbeitskopie weiter und erstellen Sie eine neue Version, sobald Sie die Aktualisierungen für Ihr Thema abgeschlossen haben.
 
-**Übergeordnetes Thema:**[ Erstellen und Vorschau von Themen](create-preview-topics.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen und Vorschau von Themen](create-preview-topics.md)

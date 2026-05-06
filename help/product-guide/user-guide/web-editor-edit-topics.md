@@ -33,7 +33,7 @@ Der Editor verfügt über eine Reihe von Bearbeitungsfunktionen, mit denen Sie m
 
    ![Menü „Schnelleinfügung“](./images/quick-insert-menu-in-editor.png){width="650"}
 
-   Suchen Sie nach einem neuen Element oder wählen Sie über das Menü „Schnelleinfügung“ eines Ihrer Favoriten aus und fügen Sie es dann an der aktuellen Cursorposition ein. Zu den Favoriten gehören die am häufigsten verwendeten Elemente, es werden nur die für die aktuelle Cursorposition gültigen Elemente angezeigt. Sie können diese Funktion aktivieren oder deaktivieren und die Favoriten für das Einfügen über das Menü „Schnelleinfügung“ konfigurieren, das in den [Editor-Einstellungen“ verfügbar ](./config-editor-settings.md).
+   Suchen Sie nach einem neuen Element oder wählen Sie über das Menü „Schnelleinfügung“ eines Ihrer Favoriten aus und fügen Sie es dann an der aktuellen Cursorposition ein. Zu den Favoriten gehören die am häufigsten verwendeten Elemente, es werden nur die für die aktuelle Cursorposition gültigen Elemente angezeigt. Sie können diese Funktion aktivieren oder deaktivieren und die Favoriten für das Einfügen über das Menü „Schnelleinfügung“ konfigurieren, das in den [Editor-Einstellungen“ verfügbar &#x200B;](./config-editor-settings.md).
 
 
 >[!TAB Alter Editor]
@@ -81,7 +81,7 @@ Den ausgewählten Inhalt fett, kursiv und den ausgewählten Inhalt unterstreiche
 - Den Inhalt mit einem gültigen Element umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element einzuschließen:
 
    - Wählen Sie den Inhalt in einem Element aus.
-   - Wählen Sie ![ oben in der Symbolleiste das Symbol ](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
+   - Wählen Sie ![&#x200B; oben in der Symbolleiste das Symbol &#x200B;](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
 
      >[!NOTE]
      >
@@ -180,4 +180,4 @@ Sie können die Funktion zum Suchen der Datei mit der Option **Dateien immer im 
 >
 >Ab Version 2025.11.0 wird die Einstellung **Dateien im Repository immer finden** in **Dateien immer im Explorer suchen** umbenannt. Bei On-Premise-Setups ist sie weiterhin verfügbar, da sie bis Version 5.1 von Experience Manager Guides immer Dateien im Repository finden.
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Editor](web-editor.md)

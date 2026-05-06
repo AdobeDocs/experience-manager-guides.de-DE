@@ -285,4 +285,4 @@ Das Symbol **Versionsverlauf** des Themas wird angezeigt, sobald die Prüfungsau
 
 ![](images/version-history-dialog.png)
 
-**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
