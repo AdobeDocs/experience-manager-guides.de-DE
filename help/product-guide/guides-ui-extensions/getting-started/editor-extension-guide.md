@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die Änderungen im Erweiterungs-Framework f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 670a7557746baf16cf9786ba61a19448315ed59b
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 4%
@@ -607,7 +607,7 @@ Dekorationen werden durch eine `id` identifiziert, sodass sie jederzeit unabhän
 | CSS in das Schatten-DOM einfügen | `registerPlugin` mit `css` Feld |
 
 
-## ProseMirror Plugin Registrierung
+## Registrierung des ProseMirror-Plug-ins
 
 - `guides.editor.registerPlugin(factory)`: Registriert eine ProseMirror-Plug-in-Factory, die in jeder neuen Editor-Instanz enthalten sein soll. Nur Werksfunktionen werden akzeptiert, direkte Plug-in-Instanzen werden abgelehnt. Die Factory wird einmal pro Editor-Instanz aufgerufen, um einen isolierten Plug-in-Status sicherzustellen.
 
