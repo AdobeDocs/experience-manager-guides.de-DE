@@ -4,9 +4,9 @@ description: Lernen Sie das rechte Bedienfeld im Editor kennen. Erfahren Sie meh
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,21 @@ Das rechte Bedienfeld bietet Zugriff auf die folgenden Funktionen:
 
 Sie können auf die Funktion **Inhaltseigenschaften** zugreifen, indem Sie im rechten Bedienfeld auf **Inhaltseigenschaften** klicken. Das Bedienfeld **Inhaltseigenschaften** enthält Informationen zum Typ des aktuell im Dokument ausgewählten Elements und zu dessen Attributen.
 
-**Typ**: Sie können die Tags der vollständigen Hierarchie für das aktuelle Tag aus der Dropdown-Liste anzeigen und auswählen.
+Bei referenzierten Inhalten zeigt das Bedienfeld auch die Optionen **Link-Pfad** und **Link-UUID** an, mit denen Sie den ausgewählten Verweis identifizieren und kopieren können.
+
+>[!NOTE]
+>
+> Bei HTML-basierten Dateien sind die Optionen Verknüpfungspfad und Link-UUID nicht verfügbar. Diese Dateien verwenden weiterhin das vorhandene Verhalten **Link-URL**.
+
+![](images/web-editor-cross-ref-options.png)
+
+**Typ**: Zeigen Sie die Tags der vollständigen Hierarchie für das aktuelle Tag aus der Dropdown-Liste an und wählen Sie sie aus.
+
+**Verknüpfungspfad**: Zeigt den relativen Pfad der ausgewählten Referenz an. Verwenden **Pfad kopieren** um den absoluten Pfad zu kopieren.
+
+**Link UUID**: Zeigt die UUID der ausgewählten Referenz an. Kopieren Sie **UUID kopieren** die UUID.
+
+Wenn Sie eine gültige UUID direkt in das Feld Link-Pfad einfügen, wird sie automatisch auf den absoluten Dateipfad aufgelöst, und die entsprechende UUID wird im Feld Link-UUID angezeigt. Dies erleichtert das Identifizieren und Kopieren sowohl des Asset-Pfads als auch der UUID-basierten Referenz.
 
 **Attribute**: Das **Attribute** Dropdown-Menü ist in den Ansichten „Layout“, „Autor“ und &quot;Source&quot; verfügbar. Sie können die Attribute einfach hinzufügen, bearbeiten oder löschen.
 
@@ -66,6 +80,10 @@ Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie dies
 
 Zeigen Sie die Eigenschaften der ausgewählten Datei an, indem Sie im rechten Bereich auf das Symbol Dateieigenschaften klicken. Die Funktion Dateieigenschaften ist in allen vier Modi oder Ansichten verfügbar: Layout, Autor, Source und Vorschau.
 
+>[!NOTE]
+>
+> Das Bedienfeld Dateieigenschaften bietet Optionen zum Anzeigen und Ändern verschiedener mit einer Datei verknüpfter Metadateneigenschaften. Wenn sich eine Datei jedoch im schreibgeschützten Modus befindet, können diese Metadateneigenschaften nicht geändert werden. Diese Einschränkung gilt nur für DITA- und Markdown-Dateien. Bei nicht-DITA-Assets (z. B. Bildern und Multimedia) bleiben Metadateneigenschaften auch im schreibgeschützten Modus bearbeitbar.
+
 Die Dateieigenschaften weisen die folgenden beiden Abschnitte auf:
 
 **Allgemein**
@@ -83,7 +101,7 @@ Im Abschnitt Allgemein haben Sie Zugriff auf die folgenden Funktionen:
   > Die Funktion **Wortzahl** wird mit der Version 2026.01.0 von Experience Manager Guides as a Cloud Service eingeführt. Alle neuen DITA-Themen, die Sie nach dem Upgrade auf diese Version erstellen, haben automatisch die berechnete Wortzahl im rechten Bedienfeld. Für bestehende Themen [eine erneute Verarbeitung der Assets](./asset-processor.md) erforderlich.
 
 - **Tags**: Dies sind die Metadaten-Tags des Themas. Sie werden über das Feld Tags auf der Seite Eigenschaften festgelegt. Sie können sie in der Dropdown-Liste eingeben oder auswählen.  Die Tags werden unter dem Dropdown-Menü angezeigt. Um ein Tag zu löschen, klicken Sie auf das Kreuzsymbol neben dem Tag.
-- **Weitere Eigenschaften bearbeiten**: Sie können weitere Eigenschaften ( für Dateien, die sich nicht im **-Modus befinden** über die Seite Dateieigenschaften bearbeiten.
+- **Weitere Eigenschaften bearbeiten**: Ermöglicht das Anzeigen und Bearbeiten zusätzlicher Eigenschaften der aktuell geöffneten Datei.
 
   >[!NOTE]
   >

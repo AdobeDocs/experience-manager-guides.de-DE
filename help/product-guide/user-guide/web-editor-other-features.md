@@ -4,9 +4,9 @@ description: Erkunden Sie andere Funktionen des Editors in Adobe Experience Mana
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '3690'
+source-wordcount: '4271'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,34 @@ Die folgenden Funktionen finden Sie im Kontextmenü der Registerkarte einer geö
 
 Die folgenden Funktionen finden Sie im Kontextmenü der Registerkarte einer geöffneten Datei:
 
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](images/single-file-context-menu-editor-2-0.png){width="400"}
+
+>[!TAB Alter Editor]
+
 ![](images/single-file-context-menu.png){width="400"}
+
+>[!ENDTABS]
 
 **Mehrere Dateien**
 
 Wenn mehrere Dateien geöffnet sind, stehen im Kontextmenü weitere Optionen zur Verfügung:
 
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+
+![](images/multiple-files-context-menu-editor-2-0.png){width="550"}
+
+>[!TAB Alter Editor]
+
 ![](images/multiple-files-context-menu.png){width="550"}
+
+>[!ENDTABS]
 
 Nachfolgend werden die verschiedenen Optionen im Kontextmenü erläutert:
 
@@ -144,6 +165,90 @@ Der Editor bietet ein Dialogfeld zum Durchsuchen von smarten Dateien. Der Editor
 >[!NOTE]
 >
 > Im Falle einer Bild-, Audio- oder Videodatei wird im Dialogfeld zum Durchsuchen der Datei standardmäßig der Speicherort der Datei und nicht der zuletzt verwendete Speicherort angezeigt.
+
+## Arbeiten mit Tabellen im neuen Editor
+
+Mit dem neuen Editor können Sie mithilfe verschiedener kontextueller Aktionen Tabellen direkt in Ihren Inhalten erstellen, formatieren und organisieren.
+
+Dieser Abschnitt führt Sie durch die verschiedenen Funktionen zum Erstellen von Tabellen, die im neuen Editor verfügbar sind.
+
+**Ändern der Tabelle über das Kontextmenü**
+
+Das Kontextmenü wird angezeigt, wenn Sie mit der rechten Maustaste in eine Tabellenzelle klicken. Die folgenden Optionen sind je nach dem Tabellentyp, mit dem Sie arbeiten, verfügbar.
+
+![](images/table-context-menu.png){width="550"}
+
+- Zeilen, Spalten oder Zellen einfügen
+
+- Zellen horizontal oder vertikal teilen (nicht verfügbar für einfache Tabellen)
+
+- Zellen nach rechts oder unten verbinden (nicht verfügbar für einfache Tabellen)
+
+- Löschen von Zeilen oder Spalten
+
+**Textformatierung und -ausrichtung mithilfe der kontextuellen Symbolleiste festlegen**
+
+Die kontextuelle Symbolleiste wird angezeigt, wenn Sie Inhalte oder Zellen in einer Tabelle auswählen. Die Symbolleiste enthält Optionen, die für Ihre Auswahl relevant sind.
+
+- Wählen Sie den Zelleninhalt aus, um auf die folgenden Formatierungsoptionen zuzugreifen:
+
+  ![](images/text-formatting-options-table.png){width="550"}
+
+  Formatieren Sie den Text mit den Optionen Fett, Kursiv oder Unterstreichen.
+- Um auf die kontextuelle Symbolleiste für eine einzelne Zelle zuzugreifen, verwenden Sie `Ctrl+click` für Windows und `Command+click` für macOS.
+
+  ![](images/cell-selection-contextual-toolbar.png){width="550"}
+
+- Auf ähnliche Weise können Sie auch mehrere Zellen auswählen und die kontextuelle Symbolleiste verwenden, um Textformatierung und Ausrichtung gleichzeitig auf sie anzuwenden.
+
+  Verfügbare Optionen für die Auswahl einzelner oder mehrerer Zeilen:
+
+  ![](images/set-alignment-rows.png){width="550"}
+
+   - Horizontale Textausrichtung (nicht verfügbar für einfache Tabellen)
+   - Vertikale Textausrichtung (nicht verfügbar für einfache Tabellen)
+   - Zeile oberhalb einfügen
+   - Zeile unten einfügen
+   - Zeile entfernen
+   - Zellen verbinden (für einfache Tabellen nicht verfügbar)
+
+  Verfügbare Optionen für die Auswahl einer oder mehrerer Spalten:
+
+  ![](images/set-alignment-columns.png){width="550"}
+
+   - Horizontale Textausrichtung (nicht verfügbar für einfache Tabellen)
+   - Vertikale Textausrichtung (nicht verfügbar für einfache Tabellen)
+   - Zeile oberhalb einfügen
+   - Zeile unten einfügen
+   - Zeile entfernen
+   - Spalte oben einfügen
+   - Spalte unten einfügen
+   - Spalte entfernen
+   - Zellen verbinden (für einfache Tabellen nicht verfügbar)
+
+- Wählen Sie die Tabelle aus, um Textformatierung und Ausrichtung auf die gesamte Tabelle anzuwenden.
+
+  ![](images/text-alignment-table.png){width="550"}
+
+- Hinzufügen von Zeilen oder Spalten mithilfe einer interaktiven Plus-Schaltfläche
+
+  Um eine neue Zeile am Ende der Tabelle hinzuzufügen, bewegen Sie den Mauszeiger über die letzte Zeile und wählen Sie die Schaltfläche **+** aus. Unten in der Tabelle wird eine neue Zeile hinzugefügt.
+
+  ![](images/add-row.png){width="550"}
+
+  Bewegen Sie auf ähnliche Weise den Mauszeiger über die letzte Spalte und wählen Sie die Schaltfläche **+** aus, um eine neue Spalte ganz rechts in der Tabelle hinzuzufügen.
+
+  ![](images/add-column.png){width="550"}
+
+- Hinzufügen mehrerer Zeilen oder Spalten zu einer Tabelle mithilfe von Einfügeoptionen (nicht verfügbar für einfache Tabellen)
+
+  Um einer Tabelle mehrere Zeilen oder Spalten hinzuzufügen, wählen Sie zunächst die Anzahl der Zeilen oder Spalten aus, die Sie hinzufügen möchten, und wählen Sie dann die Optionen Zeile einfügen (über oder unter) oder Spalte einfügen (links oder rechts) aus. Je nach Auswahl wird der Tabelle dieselbe Anzahl von Zeilen oder Spalten hinzugefügt.
+
+- Zeilen und Spalten per Drag-and-Drop verschieben (für einfache Tabellen nicht verfügbar)
+
+  Verschieben Sie die Zeilen und Spalten innerhalb der Tabelle einfach per Drag-and-Drop. Wenn Sie eine Zeile oder Spalte ziehen, wird sie mit einem halbtransparenten Hintergrund angezeigt, um anzugeben, dass sie verschoben wird. Eine blaue Linie markiert die Zielposition, an der die Zeile oder Spalte bei der Freigabe platziert wird.
+
+  ![](images/drag-and-drop-table-rows.png){width="550"}
 
 ## Durchsuchen von Dateien und Ordnern in Experience Manager Guides
 
@@ -314,7 +419,19 @@ Fügen Sie eine Fußnote mithilfe des `fn` in Ihren Inhalt ein. Im Bearbeitungsm
 
 Der Editor zeigt den Breadcrumb des Elements unten links im Thema an. Wenn Sie ein Element durch ein anderes ersetzen möchten, können Sie dies im Kontextmenü des Breadcrumbs tun. Sie können beispielsweise `p` Element durch `note` oder ein anderes gültiges Element im Kontext austauschen.
 
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](images/rename-element-editor-2-0.png){width="400"}
+
+>[!TAB Alter Editor]
+
+
 ![](images/rename-element.png){width="400"}
+
+
+>[!ENDTABS]
 
 Klicken Sie im Breadcrumb mit der rechten Maustaste auf den Namen eines Elements, das Sie ersetzen möchten, und wählen Sie dann im Kontextmenü Element umbenennen . Das Dialogfeld Element umbenennen zeigt alle gültigen Elemente an, die am aktuellen Speicherort zulässig sind. Wählen Sie im Dialogfeld Element umbenennen das Element aus, das Sie verwenden möchten. Das ursprüngliche Element wird durch das neue Element ersetzt.
 
@@ -392,11 +509,19 @@ Wenn Sie **Duplizierte IDs** auswählen, wird ein Pop-up mit allen doppelten IDs
 
 ## Umgang mit großen Dateien im Editor
 
+>[!NOTE]
+>
+> Dieser Abschnitt gilt nur für den alten Editor. Mit dem neuen Editor wird die Bearbeitung großer und komplexer Themen durch schnelleres Laden und reaktionsschnellere Interaktionen sowie die Unterstützung von Rückgängig-/Wiederherstellen-Unterstützung und schmutziger Markierung verbessert.
+
 Die wichtigsten Funktionen zur Verbesserung der Handhabung großer Dateien werden wie folgt erwähnt:
 
 - Um die Leistung zu verbessern, werden bestimmte Funktionen wie Rückgängig machen, Wiederholen, der Gliederungsbereich und die Markierung „Verschmutzt“ deaktiviert. Es wird empfohlen, Themen in kleinere Themen zu unterteilen, um ein optimales Erlebnis zu erzielen.
 
 - Eine Warnmeldung wird oben für große Dateien angezeigt, wie im folgenden Ausschnitt dargestellt. Dieser Warnhinweis zeigt die Anzahl der Elemente basierend auf dem Wert an, der im Parameter **largeFileTagCount** der Datei uiconfig.json angegeben ist. Standardmäßig ist **largeFileTagCount** auf 2500 festgelegt.
+
+  >[!NOTE]
+  >
+  > Diese Warnmeldung gilt nur für den alten Editor, in dem sie basierend auf dem konfigurierten `largeFileTagCount` angezeigt wird. Im neuen Editor werden große Dateien nahtlos geladen, ohne dass Warnhinweise ausgelöst werden. Darüber hinaus funktionieren verwandte Funktionen, die im alten Editor nicht funktionieren, normalerweise im neuen Editor.
 
 ![](images/add-toast-notification.png){width="600"}
 
@@ -407,5 +532,6 @@ Die wichtigsten Funktionen zur Verbesserung der Handhabung großer Dateien werde
 
 
 - Die Warnmeldung ist nur für DITA-Dateien verfügbar und in allen Ansichten sichtbar: Author, Source und Layout.
+
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)

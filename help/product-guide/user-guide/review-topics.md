@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Themen überprüfen und die Funktionen als Re
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -273,5 +273,16 @@ Wählen Sie eine oder mehrere der folgenden Filteroptionen aus dem Dialogfeld **
 
 
 Um den Filter zu entfernen und alle Kommentare anzuzeigen, heben Sie die Auswahl aller Filter im Dialogfeld **Filtertyp** auf und wählen Sie **Anwenden** aus.
+
+
+## Versionsverlauf für den Reviewer
+
+Mit der Funktion „Versionsverlauf“ können Validierungsverantwortliche die aktuelle Version einer Überprüfungsaufgabe mit Versionen zuvor geschlossener Überprüfungsaufgaben vergleichen, an denen Validierungsverantwortliche gearbeitet haben. Auf diese Weise können Validierungsverantwortliche die seit der letzten abgeschlossenen Überprüfung vorgenommenen Änderungen validieren und über alle Prüfungszyklen hinweg Kontinuität wahren.
+
+![](images/version-history-icon.png)
+
+Das Symbol **Versionsverlauf** des Themas wird angezeigt, sobald die Prüfungsaufgabe vom Autor geschlossen wurde. Wenn der Reviewer die Aufgabe schließt, steht sie erst zur Verfügung, wenn der Autor sie auch schließt. Für jede abgeschlossene Prüfungsaufgabenversion können Validierungsverantwortliche über die Dropdown-Liste im Dialogfeld Versionsverlauf auf den Versionsverlauf zugreifen. Von dort aus können Validierungsverantwortliche verfolgte Änderungen, Beschriftungen, Kommentare und andere aufgabenbezogene Details in allen Versionen vergleichen.
+
+![](images/version-history-dialog.png)
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)

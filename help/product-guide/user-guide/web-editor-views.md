@@ -4,20 +4,25 @@ description: Themen im Autoren-, Quell- und Vorschaumodus anzeigen. Erfahren Sie
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
 
 # Editor-Ansichten für Themen {#id204GK0D0V5Z}
 
-Die Editor-Oberfläche in Adobe Experience Manager unterstützt die Anzeige von Themen in drei verschiedenen Modi oder Ansichten:
+>[!INFO]
+>
+>Dieses Thema gilt sowohl für den neuen als auch für den alten Editor. Während die Kernfunktionalität konsistent bleibt, werden Unterschiede in der Benutzeroberfläche, Terminologie und Interaktionen innerhalb des Inhalts ggf. durch Registerkarten und Hinweisen angezeigt.
+
+Die Editor-Oberfläche in Adobe Experience Manager unterstützt die Anzeige von Themen in vier verschiedenen Modi oder Ansichten:
 
 * [Author](#author)
 * [Quelle](#source)
 * [Vorschau](#preview)
+* [Nebeneinander](#side-by-side)
 
 ## Author
 
@@ -88,6 +93,17 @@ Weitere Informationen finden Sie in der Beschreibung der Funktion **Suchen und E
   | Rekursives Auffinden des aktuellen Wortes \(in Rückwärtsrichtung\) | **Umschalt**+**Strg**+**F3** |
 
 
+## Nebeneinander
+
+>[!NOTE]
+>
+>Diese Funktion ist nur im neuen Editor verfügbar.
+
+Mit der Seitenansicht können Sie die Authoring- und Source-Ansicht gleichzeitig auf demselben Bildschirm anzeigen und bearbeiten. Die WYSIWYG-Autorenansicht und die zugrunde liegende XML-Source-Ansicht werden nebeneinander angezeigt, sodass Inhalt und Struktur parallel bearbeitet werden können, ohne die Ansichten zu wechseln. Beide Ansichten bleiben in Echtzeit synchronisiert, sodass die Cursorposition und -auswahl in der Autorenansicht an der entsprechenden Position in der Source-Ansicht widergespiegelt werden. Dies bietet eine bessere Genauigkeit und Kontrolle beim Erstellen strukturierter Inhalte.
+
+![](images/side-by-side-editor-2-0.png){width="650"}
+
+
 ## Vorschau
 
 Beim Öffnen eines Themas im Vorschaumodus wird angezeigt, wie ein Thema angezeigt wird, wenn es von einem Benutzer im Browser angezeigt wird. Im Falle einer DITA-Karte wird eine Vorschau der Karte angezeigt, bei der ein einziges zusammengesetztes Dokument aller Themen innerhalb der Karte angezeigt wird.
@@ -102,9 +118,19 @@ Der Vorschaumodus bietet die folgenden Funktionen:
 
 Wenn Sie Bedingungen in Ihrem Thema oder Ihrer Karte verwendet haben, werden diese Bedingungen im Bedienfeld Filter angezeigt. Standardmäßig sind alle Bedingungen ausgewählt und der gesamte Inhalt wird angezeigt. Wenn Sie die Auswahl einer Bedingung aufheben, wird der Inhalt mit dieser Bedingung aus der Ansicht entfernt. Sie können auch bedingte Inhalte hervorheben.
 
-Die folgende Abbildung zeigt ein Thema, das zwei Bedingungen verwendet - `Audience` und `Product`. Der bedingte Inhalt wird mit gelbem Hintergrund hervorgehoben.
+Die folgende Abbildung zeigt ein Thema, das zwei Bedingungen verwendet: `Audience` und `Platfor`. Der bedingte Inhalt wird mit gelbem Hintergrund hervorgehoben.
 
-![](images/preview-filters.png)
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](images/preview-filters-editor-2-0.png){width="650"}
+
+>[!TAB Alter Editor]
+
+![](images/preview-filters.png){width="650"}
+
+>[!ENDTABS]
 
 ### Anzeigen der Markierungen zum Nachverfolgen von Änderungen {#id2114BJ00CE8}
 

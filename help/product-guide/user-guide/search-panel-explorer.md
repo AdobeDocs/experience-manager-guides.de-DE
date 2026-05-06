@@ -4,14 +4,18 @@ description: Erfahren Sie, wie Sie in der Editor-Benutzeroberfläche das Suchfel
 feature: Authoring
 role: User
 exl-id: cf3c03b5-383c-464c-8ef1-2f0f825c4e56
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # Suchbereich
+
+>[!INFO]
+>
+>Dieses Thema gilt sowohl für den neuen als auch für den alten Editor. Während die Kernfunktionalität konsistent bleibt, werden Unterschiede in der Benutzeroberfläche, Terminologie und Interaktionen innerhalb des Inhalts ggf. durch Registerkarten und Hinweisen angezeigt.
 
 Das Suchfeld im Editor steigert die Produktivität, indem es schnellen Zugriff auf eine Untergruppe von Dateien bietet, die basierend auf Suchbegriffen oder angewendeten Filtern beim Bearbeiten von Inhalten angezeigt wird. Damit können Sie ganz einfach eine oder mehrere gesuchte Dateien öffnen oder in einer vorhandenen Datei verwenden, indem Sie sie einfach per Drag-and-Drop in ein Thema oder eine Karte ziehen. Sie finden das **Suchfeld** unten im Editor.
 
@@ -55,7 +59,17 @@ Beim Arbeiten in der Editor-Benutzeroberfläche können Sie den Dateisatz filter
 
 Nachdem die Suchergebnisse im Suchbereich angezeigt wurden, können Sie sie verwenden, indem Sie entweder eine oder mehrere Dateien direkt im Suchbereich öffnen und bearbeiten oder ausgewählte Dateien per Drag-and-Drop in ein vorhandenes Thema oder eine vorhandene Karte ziehen, um Verweise hinzuzufügen.
 
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](images/edit-search-panel-editor-2-0.png)
+
+>[!TAB Alter Editor]
+
 ![](images/edit-search-panel.png)
+
+>[!ENDTABS]
 
 ## Suche in der Repository-Oberfläche auf der Startseite
 

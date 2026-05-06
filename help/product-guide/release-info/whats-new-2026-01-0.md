@@ -3,7 +3,7 @@ title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Ver
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version 2026.01.0 von Adobe Experience Manager Guides
 role: Leader
 exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Weitere Informationen finden Sie unter [Rechtes Bedienfeld im Editor](../user-gu
 
 ### Metadateneigenschaften für schreibgeschützte Dateien nicht mehr bearbeitbar
 
-Mit dieser Version können Dateieigenschaften nicht mehr bearbeitet werden, wenn die `Disable Edit Without Checkout` aktiviert ist und sich eine Datei im schreibgeschützten **befindet**.
+Mit dieser Version können Dateieigenschaften nicht mehr bearbeitet werden, wenn die `Disable edit without locking the file` aktiviert ist und sich eine Datei im schreibgeschützten **befindet**.
 
 Diese Einschränkung gilt für alle Einstiegspunkte, an denen Eigenschaften geändert werden können, darunter:
 

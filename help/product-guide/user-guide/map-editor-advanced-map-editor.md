@@ -4,27 +4,36 @@ description: Machen Sie sich mit den Funktionen des Karten-Editors in Adobe Expe
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: c882db84a263165d62dcc6fda9c22a5a643f6eff
 workflow-type: tm+mt
-source-wordcount: '2703'
+source-wordcount: '2918'
 ht-degree: 0%
 
 ---
 
 # Funktionen des Zuordnungs-Editors {#id1942D0S0IHS}
 
+>[!INFO]
+>
+> Dieses Thema gilt sowohl für den neuen als auch für den alten Editor. Während die Kernfunktionalität konsistent bleibt, werden Unterschiede in der Benutzeroberfläche, Terminologie und Interaktionen innerhalb des Inhalts ggf. durch Registerkarten und Hinweisen angezeigt.
+
 Die Symbolleiste im Zuordnungs-Editor ähnelt dem Themen-Editor. Grundlegende Vorgänge wie das Umschalten des linken Bedienfelds, das Speichern der Zuordnung, das Erstellen einer neuen Version der Zuordnung, das Rückgängigmachen/Wiederholen des letzten Vorgangs und das Löschen der ausgewählten Elemente sind in beiden Editoren häufig. Weitere Informationen zur Funktionsweise dieser Vorgänge finden Sie [Symbolleiste im Editor](web-editor-toolbar.md#)-Abschnitt.
 
-Die Optionen, die Sie in der Editor-Symbolleiste anzeigen, basieren auf der Ansicht des Zuordnungs-Editors. Im Karten-Editor stehen vier Ansichten zur Verfügung:
+Die Optionen, die Sie in der Editor-Symbolleiste anzeigen, basieren auf der Ansicht des Zuordnungs-Editors. Im Karten-Editor stehen fünf Ansichten zur Verfügung:
 
 - [Layout](#layout-view)
 - [Author](#author-view)
 - [Quelle](#source-view)
 - [Vorschau](#preview)
+- [Ansicht nebeneinander](#side-by-side-view-available-in-new-editor-only)
 
 In den folgenden Abschnitten werden die Symbolleistenoptionen beschrieben, die in den verschiedenen Ansichten des Zuordnungs-Editors verfügbar sind:
 
 ## Layout-Ansicht
+
+>[!NOTE]
+>
+> Im neuen Editor wird die Funktion **Layout** derzeit nicht unterstützt.
 
 Wenn Sie eine Karte zur Bearbeitung öffnen, wird die Layout-Ansicht des Karten-Editors geöffnet. Die Layout-Ansicht zeigt die Zuordnungshierarchie in einer Baumansicht an und ermöglicht es Ihnen, die Themen in einer Zuordnung zu organisieren.
 
@@ -32,7 +41,7 @@ Wenn Sie eine Karte zur Bearbeitung öffnen, wird die Layout-Ansicht des Karten-
 >
 > In der Layout-Ansicht werden nur die Verweise angezeigt, die in einer Zuordnung vorhanden sind. Wenn Referenzen beschädigt sind, wird links neben der Referenz ein kleines Kreuz-Symbol angezeigt
 
-Die folgenden Optionen sind in der Symbolleiste der Layout-Ansicht verfügbar:
+Die folgenden Optionen sind in der Symbolleiste in der Layout-Ansicht verfügbar:
 
 **Themenreferenz** - ![](images/topic-reference.svg)
 
@@ -138,15 +147,27 @@ Wenn Sie Bedingungen auf ein Thema angewendet haben, wird rechts neben dem Thema
 
 ## Autorenansicht
 
-Die **Autor**-Ansicht ermöglicht es Ihnen, Ihre DITA-Karte im Editor zu bearbeiten. Hier wird die WYSIWYG-Ansicht des Karten-Editors angezeigt. Einige der in der Autorenansicht angezeigten Symbole sind mit der Layout-Ansicht identisch.
+Die **Autor**-Ansicht ermöglicht es Ihnen, Ihre DITA-Karte im Editor zu bearbeiten. Zeigt die WYSIWYG-Ansicht des Karteneditors an.
+
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](images/map-editor-author-view-editor-2-0.png)
+
+>[!TAB Alter Editor]
 
 ![](images/map-editor-author-view.png)
+
+>[!ENDTABS]
+
+Die im Dropdown-Menü **Menü** verfügbaren Optionen entsprechen denen, die in der [Editor-Symbolleiste](./web-editor-toolbar.md#menu-dropdown) verfügbar sind.
 
 Darüber hinaus können Sie die folgenden Symbole anzeigen und die zugehörigen Aufgaben von der Autorenansicht aus ausführen:
 
 **Einfügen vor/Einfügen nach** - ![](images/insert_element_before_icon.svg)/![](images/insert_element_after_icon.svg)
 
-Zeigt das Dialogfeld **Element vor oder &#x200B;** Element nach einfügen“ an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
+Zeigt das Dialogfeld **Element einfügen** oder **Element einfügen nach** an. Wählen Sie das Element aus, das Sie in die Zuordnung einfügen möchten. Je nach Vorgang wird das neue Element vor oder nach dem aktuellen Element in der Zuordnung eingefügt.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -229,9 +250,17 @@ Ermöglicht die Synchronisierung des `@navtitle`-Attributs und des `title`-Eleme
 
 Blendet die XML-Tags ein oder aus. Die Tags dienen als visuelle Hinweise auf die Begrenzung eines Elements. Wenn Sie in diesem Modus einen Topic/Map-Verweis einfügen möchten, ziehen Sie die gewünschte Datei per Drag-and-Drop vor oder nach dem Tag. Die horizontale Leiste wird im Tag-Ansichtsmodus nicht angezeigt.
 
+>[!NOTE]
+>
+> Im neuen Editor stehen Optionen zum Hinzufügen oder Entfernen **Tags** unter den Editor-Einstellungen zur Verfügung. Weitere Informationen finden Sie unter [Editor-Einstellungen](./config-editor-settings.md).
+
 **Änderungen verfolgen** - ![](images/track-changes.svg)
 
 Sie können alle Aktualisierungen in der Zuordnungsdatei verfolgen, indem Sie den Modus Änderungen verfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen im Dokument erfasst. Weitere Informationen finden Sie unter [Änderungen verfolgen](web-editor-features.md#track-changes) im Editor.
+
+>[!NOTE]
+>
+> Im neuen Editor wird die Funktion **Änderungen nachverfolgen** derzeit nicht unterstützt.
 
 **Prüfungsaufgabe erstellen** - ![](images/create-review-task.svg)
 
@@ -276,6 +305,10 @@ Im Vorschaumodus können Sie die folgenden zusätzlichen Aufgaben ausführen:
 
 **Themen oder Zuordnung aktualisieren**
 
+>[!NOTE]
+>
+> Dieser Abschnitt gilt nur für den alten Editor. Im neuen Editor werden Karten und deren Themen automatisch aktualisiert.
+
 Wenn eine Karte im Vorschaumodus geöffnet wird und Sie von einer anderen Registerkarte im Editor zu ihr zurückkehren, wird die Vorschau nicht automatisch aktualisiert. Um die Kartenvorschau neu zu laden, ist eine manuelle Aktualisierung erforderlich.
 
 Sie können die Funktion „Aktualisieren“, die im Vorschaumodus der Zuordnung verfügbar ist, auf zwei Arten verwenden:
@@ -300,13 +333,18 @@ Sie können auf die Vorschau einer Karte zugreifen über:
 
   ![](images/map-preview-icon.png){width="650"}
 
-  Die Vorschau der Karte wird in einem Popup-Fenster angezeigt.
-
-  ![](images/map-editor-preview-pop-up.png){width="500"}
 
 **Eigenschaften zuordnen**
 
 Zeigt das Dialogfeld Zuordnungseigenschaften an, in dem Sie die Attribute und Metadateninformationen für die Zuordnung festlegen können.
+
+## Ansicht nebeneinander (nur im neuen Editor verfügbar)
+
+In der Ansicht „Nebeneinander“ im neuen Editor können Sie die Authoring- und Source-Ansichten nebeneinander anzeigen. Dies erleichtert das Verständnis darüber, wie Ihre Karte erstellt wird, und stellt sicher, dass alle vorgenommenen Änderungen an der beabsichtigten Struktur ausgerichtet sind.
+
+Wenn beispielsweise ein Thema nicht korrekt in der Ausgabe angezeigt wird, können Sie die Autorenansicht verwenden, um seine Platzierung in der Zuordnung zu überprüfen, während Sie gleichzeitig die Source-Ansicht überprüfen, um die Themenreferenz oder die Themenattribute zu überprüfen.
+
+![](images/map-editor-side-by-side-view.png)
 
 
 ## Themen über DITA-Map bearbeiten {#id17ACJ0F0FHS}
@@ -317,59 +355,84 @@ Mit Experience Manager Guides können Autorinnen und Autoren eine DITA-Karte im 
 
 Um Themen über eine DITA-Zuordnung zu bearbeiten, führen Sie die folgenden Schritte aus:
 
-1. Navigieren Sie im Repository-Bedienfeld zu der DITA-Zuordnungsdatei, die Sie bearbeiten möchten, und öffnen Sie sie.
+1. Navigieren Sie zum Explorer und öffnen Sie die Zuordnungsdatei, die Sie bearbeiten möchten.
 
    Die Zuordnungsdatei wird in der Zuordnungsansicht geöffnet.
 
->[!NOTE]
->
-> Sie können auch die Assets-Benutzeroberfläche verwenden, um eine DITA-Zuordnungsdatei zu öffnen. Navigieren Sie zu der DITA-Zuordnungsdatei, die die Themen enthält, die Sie bearbeiten möchten, und wählen Sie **Themen bearbeiten** in der Hauptsymbolleiste aus, um den Editor zu starten.
+   >[!NOTE]
+   >
+   > Sie können auch die Assets-Benutzeroberfläche verwenden, um eine Zuordnungsdatei zu öffnen. Navigieren Sie zu der DITA-Zuordnungsdatei, die die Themen enthält, die Sie bearbeiten möchten, und wählen Sie **Themen bearbeiten** in der Hauptsymbolleiste aus, um den Editor zu starten.
 
-1. Wählen Sie einen Link zum Thema aus, um es im Editor zur Bearbeitung zu öffnen.
+1. Wählen Sie ein Thema aus, um es im Editor zur Bearbeitung zu öffnen.
 
    Sie können mehrere Themen im Editor öffnen, wobei jedes Thema auf einer neuen Registerkarte im Editor geöffnet wird. Selbst wenn Ihre DITA-Karte Unter-Maps enthält, werden Themen aus den Unter-Maps ebenfalls auf einer neuen Registerkarte zur Bearbeitung geöffnet. Wenn Sie die Themen unter einer Unterzuordnung anzeigen möchten, können Sie die Unterzuordnung auswählen und erweitern.
 
-   ![](images/web-editor-multiple-topics.png)
-
    Wenn Sie eine Zuordnungsdatei auswählen, wird die Zuordnung in einer neuen Registerkarte des Editors geöffnet.
 
-1. Nachdem Sie die Bearbeitung der Themen abgeschlossen haben, können Sie Folgendes tun:
+>[!BEGINTABS]
 
-   - Sie können sie einzeln speichern. Wenn Sie schließen, ohne Ihre Themen zu speichern, wird ein Dialogfeld angezeigt, in dem Sie aufgefordert werden, die nicht gespeicherten Themen zu speichern:
+>[!TAB Neuer Editor]
 
-     ![](images/save-multiple-topics-new.png){width="300"}
+![](images/web-editor-multiple-topics-editor-2-0.png)
 
-     Sie können alle ausgewählten Themen speichern oder die Auswahl der Themen aufheben, die Sie nicht speichern möchten.
+>[!TAB Alter Editor]
 
-   - Sie können das Thema mit der Option **Als neue Version speichern** entsperren. Wenn Sie eine Version des Themas speichern, wird eine neue Version erstellt und die Sperre wird ebenfalls aufgehoben.
+![](images/web-editor-multiple-topics.png)
 
-     Es wird empfohlen, Ihre Änderungen zu speichern, bevor Sie die Dateien entsperren.  Beim Speichern der Änderungen wird die XML-Datei validiert.
+>[!ENDTABS]
 
-   - Sie können den Fortschritt der Themen auch über das Dialogfeld **Als neue Version speichern** anzeigen. Eine Erfolgsmeldung wird angezeigt, wenn die Dateien entsperrt werden.
+Nachdem Sie die Bearbeitung der Themen abgeschlossen haben, können Sie Folgendes tun:
 
-   - Wenn Ihr Administrator die Option zum Entsperren von Dateien beim Schließen aktiviert hat, wird eine Aufforderung zum Speichern von Dateien angezeigt, sobald die gesperrten Dateien geschlossen werden. Wenn diese Option aktiviert ist, wird beim Schließen des Editors mit geänderten Dateien die Liste der gesperrten Dateien angezeigt, die gespeichert werden müssen. Die gesperrten Dateien werden mit einem Sperrsymbol angezeigt:
+- Sie können sie einzeln speichern. Wenn Sie schließen, ohne Ihre Themen zu speichern, wird ein Dialogfeld angezeigt, in dem Sie aufgefordert werden, die nicht gespeicherten Themen zu speichern:
 
-     ![](images/save-on-close-new.png){width="350"}
+  ![](images/save-multiple-topics-new.png){width="300"}
+
+  Sie können alle ausgewählten Themen speichern oder die Auswahl der Themen aufheben, die Sie nicht speichern möchten.
+
+- Sie können das Thema mit der Option **Als neue Version speichern** entsperren. Wenn Sie eine Version des Themas speichern, wird eine neue Version erstellt und die Sperre wird ebenfalls aufgehoben.
+
+  Es wird empfohlen, Ihre Änderungen zu speichern, bevor Sie die Dateien entsperren.  Beim Speichern der Änderungen wird die XML-Datei validiert.
+
+- Sie können den Fortschritt der Themen auch über das Dialogfeld **Als neue Version speichern** anzeigen. Eine Erfolgsmeldung wird angezeigt, wenn die Dateien entsperrt werden.
+
+- Wenn Ihr Administrator die Option zum Entsperren von Dateien beim Schließen aktiviert hat, wird eine Aufforderung zum Speichern von Dateien angezeigt, sobald die gesperrten Dateien geschlossen werden. Wenn diese Option aktiviert ist, wird beim Schließen des Editors mit geänderten Dateien die Liste der gesperrten Dateien angezeigt, die gespeichert werden müssen. Die gesperrten Dateien werden mit einem Sperrsymbol angezeigt:
+
+  ![](images/save-on-close-new.png){width="350"}
 
 ## Rechtes Bedienfeld im Karten-Editor
 
-Im rechten Bedienfeld werden die Inhaltseigenschaften und die Zuordnungseigenschaften in der Layout-Ansicht des Zuordnungs-Editors angezeigt.
+Im rechten Bedienfeld werden die Eigenschaften Inhalt und Zuordnung in der Layout-Ansicht des Karten-Editors angezeigt.
 
 **Inhaltseigenschaften**
 
-Das Bedienfeld Inhaltseigenschaften enthält Informationen zum Typ des aktuell in der Zuordnung ausgewählten Themas, zur zugehörigen Link-URL und zu den zugehörigen Attributen. Weitere Informationen finden Sie unter [Inhaltseigenschaften](web-editor-features.md#right-panel) im Editor.
+Das Bedienfeld Inhaltseigenschaften enthält Informationen zum aktuell in der Zuordnung ausgewählten Thema, einschließlich des Typs, des Link-Pfads, der Link-UUID und der Attribute.
 
-- **Andere Attribute** Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Im Bedienfeld Inhaltseigenschaften können Sie diese Attribute auswählen und sie relevanten Inhalten in Ihrem Thema zuweisen. Sie können auch von Ihrem Administrator konfigurierte Attribute unter &quot;**&quot;**. Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt. Dies hilft Ihnen, einen kurzen Blick auf alle Themen in einer Zuordnung zu werfen, für die ein bestimmtes Attribut definiert ist. Beispielsweise werden alle Themen mit dem Attribut `audience` als `US` definiert.
+Weitere Informationen finden Sie unter [Inhaltseigenschaften](web-editor-features.md#right-panel) im Editor.
 
-  ![Layout-Ansicht](images/layout-inline-attributes.png){width="650"}
+**Andere Attribute** Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Im Bedienfeld Inhaltseigenschaften können Sie diese Attribute auswählen und sie relevanten Inhalten in Ihrem Thema zuweisen. Sie können auch von Ihrem Administrator konfigurierte Attribute unter &quot;**&quot;**. Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt. Dies hilft Ihnen, einen kurzen Blick auf alle Themen in einer Zuordnung zu werfen, für die ein bestimmtes Attribut definiert ist. Beispielsweise werden alle Themen mit dem Attribut `audience` als `US` definiert.
+
+![Layout-Ansicht](images/layout-inline-attributes.png){width="650"}
+
+Auf den folgenden Registerkarten können Sie vergleichen, wie Attribute in der Autorenansicht im neuen Editor und im alten Editor angezeigt werden.
+
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![Autorenansicht](images/author-inline-attributes-editor-2-0.png){width="650"}
+
+>[!TAB Alter Editor]
+
+![Autorenansicht](images/author-inline-attributes.png){width="650"}
+
+>[!ENDTABS]
 
 
-  Weitere Informationen finden Sie unter [Attribute anzeigen](../cs-install-guide/workspace-settings.md#display-attributes).
+Weitere Informationen finden Sie unter [Attribute anzeigen](../cs-install-guide/workspace-settings.md#display-attributes).
 
-- **Metadaten** Mithilfe der Metadaten können Sie die Metadateninformationen festlegen. Sie können den Navigationstitel, den Link-Text, die Kurzbeschreibung und die Keywords definieren.
+**Metadaten** Mithilfe der Metadaten können Sie die Metadateninformationen festlegen. Sie können den Navigationstitel, den Link-Text, die Kurzbeschreibung und die Keywords definieren.
 
 Weitere Informationen zu den Standardattributen und Metadaten für Themen finden Sie in der Dokumentation [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) in der OASIS DITA Language Specification.
-
 
 
 

@@ -4,7 +4,7 @@ description: Erstellen Sie in Experience Manager Guides eine Zuordnung mit dem Z
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte aus, um einer Zuordnungsdatei über die Zuord
 
    - **A** - \(*Registerkartenleiste*\): Dies ähnelt der Registerkartenleiste des Editors. Weitere [&#x200B; finden Sie &#x200B;](./web-editor-tab-bar.md) der Registerkarte „Leiste“ im Editor.
 
-   - **B** - \(*Symbolleiste*\) Dies ist die Symbolleiste, die Ihnen das Arbeiten mit Zuordnungsdateien ermöglicht. Weitere Informationen zu den in der Symbolleiste verfügbaren Funktionen finden Sie unter [In der Symbolleiste des Zuordnungs-Editors verfügbare Funktionen](#features-available-in-the-map-editors-toolbar).
+   - **B** - \(*Symbolleiste*\) Dies ist die Symbolleiste, die Ihnen das Arbeiten mit Zuordnungsdateien ermöglicht. Weitere Informationen zu den in der Symbolleiste verfügbaren Funktionen finden Sie unter [In der Symbolleiste des Zuordnungs-Editors verfügbare Funktionen](./map-editor-advanced-map-editor.md).
 
    - **C** - \(*Kartenansichten*\): Ermöglicht es Ihnen, im Zuordnungs-Editor zwischen Layout, Autor, Source und Vorschau zu wechseln. In **Layout**-Ansicht können Sie die Themen in einer DITA-Karte organisieren. Dadurch wird die Baumstruktur oder hierarchische Ansicht der Karte angezeigt. Die **Autor**-Ansicht ermöglicht die Bearbeitung der Themen im Zuordnungs-Editor. Dadurch erhält auch die WYSIWYG-Ansicht der Zuordnungsdatei. Die Ansicht **Source** ermöglicht es Ihnen, mit der zugrunde liegenden XML der Zuordnungsdatei zu arbeiten. Die Vorschau bietet Ihnen eine konsolidierte Ansicht aller Themen und Unterzuordnungen innerhalb der Zuordnungsdatei.
 

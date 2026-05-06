@@ -4,14 +4,18 @@ description: Die Symbolleiste im Editor kennenlernen. Erfahren Sie mehr über di
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: d369972ced74b8a66280c018fc7ab29b174da36e
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6443'
 ht-degree: 0%
 
 ---
 
 # Symbolleiste im Editor
+
+>[!INFO]
+>
+> Dieses Thema gilt sowohl für den neuen als auch für den alten Editor. Während die Kernfunktionalität konsistent bleibt, werden Unterschiede in der Benutzeroberfläche, Terminologie und Interaktionen innerhalb des Inhalts ggf. durch Registerkarten und Hinweisen angezeigt.
 
 Die Symbolleiste wird angezeigt, wenn Sie ein Thema oder eine Karte zur Bearbeitung im Editor öffnen. In der Symbolleiste stehen folgende Funktionen zur Verfügung:
 
@@ -26,9 +30,21 @@ Die Symbolleiste wird angezeigt, wenn Sie ein Thema oder eine Karte zur Bearbeit
 
 ## Menü-Dropdown
 
-Die Dropdown-Liste Menü bietet Zugriff auf Bearbeitungsaktionen, Suchen und Ersetzen, Versionsverlauf, Versionsbezeichnung, Zusammenführen, Prüfungsaufgabe erstellen und Menü „Anzeigen“ (einschließlich Änderungen verfolgen, Tags, unterbrechungsfreien Leerzeichen).
+Die Dropdown-Liste Menü bietet Zugriff auf die verschiedenen Bearbeitungsaktionen, wie unten dargestellt:
+
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![Menü-Dropdown für Editor-Symbolleiste](images/editor-toolbar-menu-dropdown-new-editor-2-0.png){width="350"}
+
+
+>[!TAB Alter Editor]
 
 ![Menü-Dropdown für Editor-Symbolleiste](images/editor-toolbar-menu-dropdown-new.png){width="350"}
+
+
+>[!ENDTABS]
 
 Diese Funktionen werden im Einzelnen wie folgt erläutert:
 
@@ -231,7 +247,11 @@ Sie können [eine Prüfungsaufgabe erstellen](./review-send-topics-for-review.md
 
 **Menü anzeigen**
 
-Das Menü „Anzeigen“ umfasst die folgenden Funktionen:
+>[!NOTE]
+>
+> Im neuen Editor ist das **Menü anzeigen** nicht mehr in der Dropdown-Liste Menü verfügbar. Um auf die verschiedenen Optionen zuzugreifen, die im Menü „Anzeigen“ verfügbar sind, navigieren Sie zu [Editor-Einstellungen](./config-editor-settings.md). Das Menü „Anzeigen“ ist weiterhin in der Dropdown-Liste „Menü“ im alten Editor verfügbar.
+
+Das Menü „Anzeigen“ im alten Editor umfasst die folgenden Funktionen:
 
 - **Änderungen verfolgen** Sie können alle Aktualisierungen eines Dokuments nachverfolgen, indem Sie den Modus Änderungen nachverfolgen aktivieren. Nach der Aktivierung der Tracking-Änderungen werden alle Einfügungen und Löschungen im Dokument erfasst. Der gesamte gelöschte Inhalt wird mithilfe von Durchgestrichen hervorgehoben, und alle Einfügungen werden in grünem Text hervorgehoben. Darüber hinaus werden die Änderungsleisten am Rand der Themenseite angezeigt. Auch hier wird ein roter Balken für gelöschte Inhalte und ein grüner Balken für hinzugefügte Inhalte angezeigt. Wenn sich eine Ergänzung und ein Löschvorgang in derselben Zeile befinden, werden sowohl grüne als auch rote Balken angezeigt.
 Der folgende Screenshot zeigt den gelöschten und eingefügten Inhalt zusammen mit den Änderungsleisten:
@@ -298,16 +318,25 @@ Sie können auch ein Zeichen oder eine Zeichenfolge in das Suchfeld eingeben und
 
 Wenn Sie wie ein `note` in einem Blockelement arbeiten, verwenden Sie das Symbol Element einfügen , um ein neues Element nach dem `note` Element einzufügen. Im folgenden Screenshot wurde ein Element NOTE in das Element p \(Absatz\) eingefügt:
 
-![Element in ein Blockelement einfügen](images/note-in-para-insert-element_cs.png){ }
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![Element in ein Blockelement einfügen](images/note-in-para-insert-element_cs-editor-2-0.png)
+
+>[!TAB Alter Editor]
+
+![Element in ein Blockelement einfügen](images/note-in-para-insert-element_cs.png)
+
+>[!ENDTABS]
 
 Wenn Sie im Notizelement die Eingabetaste drücken, wird ein neuer Absatz innerhalb des Notizelements selbst erstellt. Um ein neues Element außerhalb der Anmerkung einzufügen, wählen Sie das p-Element \(im Screenshot hervorgehoben\) im Breadcrumb für Elemente aus und wählen Sie dann das Symbol Element aus oder drücken Sie ***Alt***+***Eingabetaste***, um das Dialogfeld Element einfügen zu öffnen. Wählen Sie anschließend das gewünschte Element aus und drücken Sie die Eingabetaste, um das ausgewählte Element nach dem Element Notiz einzufügen.
 
-Sie können auch ein -Element zwischen zwei -Elementen hinzufügen, wenn ein blinkender Blockcursor angezeigt wird.
+Im neuen Editor können Sie ein neues Element zwischen vorhandenen Elementen einfügen, wenn ein horizontaler Cursor angezeigt wird. Dieser Cursor gibt an, dass der Cursor außerhalb eines Blockelements positioniert ist und an dieser Position ein neues Element hinzufügen kann.
 
+![](images/Block-cursor-editor-2-0.png){width="300"}
 
-![](images/Block-cursor.png){width="300"}
-
-Wenn Sie beispielsweise an einem DITA-Thema arbeiten und der Blockcursor zwischen der Kurzbeschreibung und dem Textkörper blinkt, können Sie `prolog` Element hinzufügen und dann Copyright, Autor und andere Details hinzufügen.
+Wenn beispielsweise in einem DITA-Thema der horizontale Cursor zwischen dem `short description` und dem `body` angezeigt wird, können Sie ein `prolog` einfügen. Anschließend können Sie mit dem `prolog` Metadaten wie `copyright`, `author` und andere Details hinzufügen.
 
 Eine andere Möglichkeit, ein neues Element einzugeben, ist die Verwendung des Kontextmenüs. Klicken Sie mit der rechten Maustaste auf eine beliebige Stelle in Ihrem Dokument, um das Kontextmenü aufzurufen. Wählen Sie in diesem Menü **Element einfügen**, um das Dialogfeld **Element einfügen** anzuzeigen, und wählen Sie das Element aus, das Sie einfügen möchten.
 
@@ -331,21 +360,23 @@ Erstellt eine nummerierte Liste am aktuellen oder nächsten gültigen Speicheror
 
 **Tabelle** - ![](images/Table_icon.svg)
 
-Fügt eine Tabelle am aktuellen oder nächsten gültigen Speicherort ein. Wählen Sie das Symbol Tabelle aus, um das Dialogfeld Einfache Tabelle einfügen zu öffnen.
+Fügt eine einfache Tabelle oder Tabelle an der aktuellen oder nächsten gültigen Position ein. Wählen Sie das Symbol Tabelle aus, um das Dialogfeld **Einfache Tabelle einfügen** zu öffnen.
 
 ![](images/table-properties.png){width="550"}
+
+Sie können die Anzahl der Zeilen und Spalten angeben, die in der Tabelle erforderlich sind. Wenn Sie die erste Zeile als Tabellenüberschrift beibehalten möchten, wählen Sie die Option **Erste Zeile als Überschrift festlegen** aus. Um der Tabelle einen Titel hinzuzufügen, geben Sie ihn im Feld Titel ein.
 
 >[!NOTE]
 >
 > Sie können auch eine Tabelle aus MS Word oder Excel kopieren und in die Experience Manager Guides-Themendatei einfügen. Die kopierte Tabelle wird je nach den in der XML-Editor-Konfiguration konfigurierten Einstellungen entweder als `<simpletable>` oder `<tgroup>` eingefügt. Weitere Informationen finden Sie unter [Konfigurieren der Anzeige eingefügter Tabellen](../cs-install-guide/conf-pasted-tables.md).
 
-Sie können die Anzahl der Zeilen und Spalten angeben, die in der Tabelle erforderlich sind. Wenn Sie die erste Zeile als Tabellenüberschrift beibehalten möchten, wählen Sie die Option **Erste Zeile als Überschrift festlegen** aus. Um der Tabelle einen Titel hinzuzufügen, geben Sie ihn im Feld Titel ein.
-
 Nachdem eine Tabelle eingefügt wurde, können Sie die Tabelle mit dem Kontextmenü ändern.
 
+>[!NOTE]
+>
+> Sie können auch zum neuen Editor wechseln, um die Tabellenbearbeitung zu verbessern. Weitere Informationen zu den im neuen Editor verfügbaren Funktionen zum Erstellen von Tabellen finden Sie unter [Arbeiten mit Tabellen im neuen Editor](./web-editor-other-features.md#work-with-tables-in-the-new-editor).
+
 ![](images/table-context-menu_cs.png){width="550"}
-
-
 
 Über das Kontextmenü der Tabelle haben Sie folgende Möglichkeiten:
 
@@ -359,8 +390,7 @@ Nachdem eine Tabelle eingefügt wurde, können Sie die Tabelle mit dem Kontextme
 
 - IDs generieren
 
-<details>
-    <summary> Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren </summary>
+**Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren**
 
 Sie können auch Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren. Um beispielsweise eine Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bedienfeld Inhaltseigenschaften (rechts) ändert sich die Eigenschaft **Typ** in **Eintrag**.
 
@@ -371,7 +401,6 @@ Sie können auch Attribute für mehrere Zellen, die gesamte Zeile oder Spalte ei
 
 ![](images/align-table-cell_cs.png){ }
 
-</details>
 
 **Bild** - ![](images/Image_icon.svg)
 
@@ -413,7 +442,9 @@ Nachdem Sie ein Bild eingefügt haben, können Sie die Attribute für Höhe, Bre
 
 ![](images/image-properties.png){ }
 
-Das Feld Source zeigt die UUID der eingefügten Bilddatei an. Sie können den vollständigen Pfad der eingefügten Bilddatei finden, indem Sie den Mauszeiger über das Source-Feld bewegen. Der Pfad wird in der QuickInfo angezeigt.
+Das Feld **Source** Pfad“ zeigt den relativen Pfad der ausgewählten Referenz an. Verwenden Sie die Schaltfläche **Pfad kopieren**, um den absoluten Pfad zu kopieren.
+
+Das Feld **Source UUID** zeigt die UUID der ausgewählten Referenz an. Verwenden Sie die Schaltfläche **UUID kopieren**, um die UUID zu kopieren.
 
 Sie können die Größe eines Bildes ändern, indem Sie entweder den Wert für Höhe oder Breite für die Bilddatei angeben. Das Seitenverhältnis des Bildes wird automatisch beibehalten. Sie können auch das Seitenverhältnis der Bilddatei nicht beibehalten, indem Sie das Schlosssymbol \(von Seitenverhältnis beibehalten\) auswählen und die Werte für Höhe und Breite angeben.
 
@@ -498,7 +529,18 @@ Wenn Ihr Admin die Option UUIDs in *XMLEditorConfig* aktiviert hat, wird die UUI
 >
 > Gemäß dem standardmäßigen DITA-Verhalten darf das Attribut scope=`external` nicht auf interne Links angewendet werden, da es nur für Verweise auf externe Ressourcen vorgesehen ist. Die Anwendung dieses Attributs auf interne Links kann Workflows stören. Verwenden Sie für in Experience Manager Guides verwaltete Inhalte stattdessen den Standardbereich `local` oder schlüsselbasierte Verweise.
 
-![](images/ref-link-uuid_cs.png){ }
+>[!BEGINTABS]
+
+
+>[!TAB Neuer Editor]
+
+![](images/ref-link-uuid_cs-editor-2-0.png)
+
+>[!TAB Alter Editor]
+
+![](images/ref-link-uuid_cs.png)
+
+>[!ENDTABS]
 
 >[!NOTE]
 >
@@ -506,7 +548,7 @@ Wenn Ihr Admin die Option UUIDs in *XMLEditorConfig* aktiviert hat, wird die UUI
 
 >[!IMPORTANT]
 >
-> Obwohl der relative Pfad des referenzierten Inhalts in der Eigenschaft **Link** angezeigt wird, wird der Link intern mithilfe der UUID des referenzierten Inhalts erstellt.
+> Obwohl der relative Pfad des referenzierten Inhalts in der Eigenschaft **Link-Pfad** angezeigt wird, wird der Link intern mithilfe der UUID des referenzierten Inhalts erstellt.
 
 >[!TIP]
 >
@@ -606,16 +648,41 @@ Stellen Sie eine Verbindung mit Ihrer Datenquelle her und verwenden Sie die Date
 
 Die Funktion **Versionsinformationen und Als neue Version speichern** kombiniert Versionsverfolgung und Inhaltsspeicherung in einer einzigen Funktion.
 
-- Versionsinformationen zeigen die aktuelle Version des Themas oder der Zuordnung an. Ein Sternchen (*) wird neben der Versionsnummer angezeigt, um nicht gespeicherte Änderungen anzuzeigen.
+Versionsinformationen zeigen die aktuelle Version des Themas oder der Zuordnung an. Ein Sternchen `(*)` neben der Versionsnummer zeigt an, dass die Änderungen im Dokument gespeichert, aber nicht versioniert wurden.
 
-  Die Versionsnummer ändert sich mit jeder neuen Version, die für das Thema oder die Zuordnungsdatei erstellt wird. Wenn Sie an einem neu erstellten Dokument arbeiten, werden die Versionsinformationen als &quot;**&quot;**.
+>[!NOTE]
+>
+> Bei allen Änderungen an den Metadatenfeldern, die unter [Dateieigenschaften](./web-editor-right-panel.md#file-properties) verfügbar sind oder auf das Backend angewendet werden, wird auch das Sternchen `(*)` der Dokumentversion Trigger.  Um zu verhindern, dass systemgenerierte Metadatenaktualisierungen diese Anzeige beeinflussen, können Admins eine Ignorieren-Liste für Metadateneigenschaften konfigurieren. Weitere Informationen zum Konfigurieren von Metadateneigenschaften finden Sie unter [Konfigurieren der Ignorieren-Liste von Metadateneigenschaften](../install-conf-guide/conf-metadata-prop.md).
 
-  ![](images/version-information.png){ }
+Die Versionsnummer ändert sich mit jeder neuen Version, die für das Thema oder die Zuordnungsdatei erstellt wird. Wenn Sie an einem neu erstellten Dokument arbeiten, werden die Versionsinformationen als &quot;**&quot;**.
+
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](images/version-information-editor-2-0.png)
+
+>[!TAB Alter Editor]
+
+![](images/version-information.png)
+
+>[!ENDTABS]
 
 
-- **Als neue Version speichern** ist eine Schaltfläche, mit der Sie die im Thema vorgenommenen Änderungen speichern und außerdem eine neue Version des Themas erstellen können.
+**Als neue Version speichern** ist eine Schaltfläche, mit der Sie die im Thema vorgenommenen Änderungen speichern und außerdem eine neue Version des Themas erstellen können.
 
-  ![](images/save-as-new-version.png){ }
+>[!BEGINTABS]
+
+
+>[!TAB Neuer Editor]
+
+![](images/save-as-new-version-editor-2-0.png)
+
+>[!TAB Alter Editor]
+
+![](images/save-as-new-version.png)
+
+>[!ENDTABS]
 
 
 Wenn Sie ein Thema oder eine Zuordnung mit „Als **Version speichern“**, wird das folgende Dialogfeld angezeigt:
@@ -636,7 +703,17 @@ Wenn Ihr Thema überprüft wird, erhalten Ihre Reviewer eine Benachrichtigung, d
 
 Wenn Sie den Mauszeiger über den Titel eines Themas bewegen, werden der Dateititel, der Dateipfad und die Versionsnummer angezeigt.
 
-![](images/mouse-hover-on-title_cs.png){ }
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](images/mouse-hover-on-title_cs-editor-2-0.png)
+
+>[!TAB Alter Editor]
+
+![](images/mouse-hover-on-title_cs.png)
+
+>[!ENDTABS]
 
 >[!NOTE]
 >
@@ -646,7 +723,17 @@ Wenn Sie den Mauszeiger über den Titel eines Themas bewegen, werden der Dateiti
 
 Sperrt oder entsperrt die aktuelle Datei. Durch das Sperren einer Datei erhalten Sie exklusiven Schreibzugriff auf die Datei. Dadurch wird das Bearbeiten der Datei durch andere Benutzer eingeschränkt. Entsperren Sie die Datei , wenn andere Benutzer Bearbeitungszugriff haben sollen. Wenn die Datei entsperrt wird, werden die Änderungen in der aktuellen Version der Datei gespeichert.
 
-![](images/web-editor-lock-button.png){ }
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](images/web-editor-lock-button-editor-2-0.png)
+
+>[!TAB Alter Editor]
+
+![](images/web-editor-lock-button.png)
+
+>[!ENDTABS]
 
 Wenn Sie sich in der Kartenansicht befinden und die übergeordnete Karte erweitern, können Sie mit einem Klick alle Dateien in der Karte sperren. Erweitern Sie einfach die übergeordnete Zuordnungsdatei und wählen Sie die übergeordnete Datei aus. Dadurch werden alle Dateien in der Zuordnung ausgewählt. Dann können Sie auf **Sperren** ![](images/LockClosed_icon.svg) klicken, um alle Dateien innerhalb der Zuordnung zu sperren.
 

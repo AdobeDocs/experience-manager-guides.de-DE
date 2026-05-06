@@ -4,14 +4,18 @@ description: Hinzufügen und Verwalten von Zitaten in AEM Guides. Erfahren Sie, 
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1962'
 ht-degree: 1%
 
 ---
 
 # Hinzufügen und Verwalten von Zitaten in Ihren Inhalten
+
+>[!NOTE]
+>
+> Zitate werden nur im alten Editor unterstützt und sind derzeit im neuen Editor nicht verfügbar. Die Informationen in diesem Artikel gelten nur, wenn Sie den alten Editor verwenden.
 
 Zitate sind Verweise auf die Quelle von Informationen, die Ihrem Inhalt hinzugefügt werden. Mithilfe von Zitaten können Sie den Autoren die Quellinformationen zuschreiben und den Lesern helfen, die Quellinformationen zu verfolgen. Das Hinzufügen von Zitaten macht Ihre Inhalte zuverlässiger und verhindert Plagiate. Sie ermöglichen es Ihnen auch, gut recherchierte Inhalte anzuzeigen.
 

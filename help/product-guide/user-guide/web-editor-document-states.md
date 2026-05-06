@@ -4,14 +4,18 @@ description: Erfahren Sie mehr über die Arten von Dokumentstatus in Adobe Exper
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # Dokumentstatus {#id1821HC00URO}
+
+>[!INFO]
+>
+> Dieses Thema gilt sowohl für den neuen als auch für den alten Editor. Während die Kernfunktionalität konsistent bleibt, werden Unterschiede in der Benutzeroberfläche, Terminologie und Interaktionen innerhalb des Inhalts ggf. durch Registerkarten und Hinweisen angezeigt.
 
 Um die Bereitschaft der Dokumente zu verwalten, stellt Adobe Experience Manager Guides die Dokumentenstatuseigenschaft bereit, die den aktuellen Status des Dokuments angibt. Dokumentstatus helfen Ihnen dabei, schnell herauszufinden, ob ein Dokument neu ist, sich im Status „Wird überprüft“ oder „Abgeschlossen“ befindet.
 
@@ -96,11 +100,23 @@ Um die Dokumentgenehmigungsfunktion zu verwenden, führen Sie die folgenden Schr
 
 1. Nachdem das Dokument erfolgreich als genehmigt markiert wurde **wird eine** des Dokuments im schreibgeschützten Modus angezeigt. Alle Bearbeitungsoptionen werden aus allen drei Modi „Author“, &quot;Source&quot; und „Preview“ entfernt. Sie erhalten jedoch weiterhin Zugriff auf das Dropdown **Menü**, das die Optionen **Versionsverlauf** und **Tags** enthält.
 
-   ![](images/approved-doc-read-only.png){width="650"}
+>[!BEGINTABS]
 
-   >[!NOTE]
-   >
-   > Im Vorschaumodus wird das Dropdown-Menü mit den Optionen Versionsverlauf und Tags aus der Symbolleiste entfernt.
+>[!TAB Neuer Editor]
+
+![](images/approved-doc-read-only-editor-2-0.png){width="650"}
+
+>[!TAB Alter Editor]
+
+![](images/approved-doc-read-only.png){width="650"}
+
+>[!ENDTABS]
+
+
+
+>[!NOTE]
+>
+> Im Vorschaumodus wird das Dropdown-Menü mit den Optionen Versionsverlauf und Tags aus der Symbolleiste entfernt.
 
 
 Nachdem ein Dokument als genehmigt markiert wurde, ist es nicht mehr zur Bearbeitung verfügbar. Wenn Sie das Dokument für die nächste Version verwenden möchten, müssen Sie es wieder in den Status *Entwurf* versetzen. Um den Dokumentstatus eines genehmigten Dokuments wieder in den Modus *Entwurf* zu ändern, führen Sie die folgenden Schritte aus:

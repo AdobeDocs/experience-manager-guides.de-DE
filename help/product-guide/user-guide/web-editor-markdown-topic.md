@@ -4,7 +4,7 @@ description: Verfassen Sie Markdown-Dokumente aus dem Editor. Erfahren Sie, wie 
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 2%
@@ -32,6 +32,7 @@ Führen Sie die folgenden Schritte aus, um im Editor ein Markdown-Thema zu erste
    >[!NOTE]
    >
    > Im Falle eines Upgrades müssen Sie die Markdown-Vorlage zum aktuell verwendeten Profilordner hinzufügen. Sie können [eine neue Markdown-Vorlage aus dem Editor erstellen](./web-editor-features.md#templates) oder eine vorhandene Vorlage für die Bearbeitung von Markdown-Inhalten verwenden. Weitere Informationen zum Hinzufügen von Authoring-Vorlagen in Experience Manager Guides finden Sie unter [Konfigurieren von globalen Profilen oder Profilen auf &#x200B;](../cs-install-guide/conf-folder-level.md).
+
 1. Wählen Sie **Erstellen** aus.
 
    Das Markdown-Thema wird unter dem ausgewählten Pfad erstellt und ist zur Bearbeitung geöffnet.

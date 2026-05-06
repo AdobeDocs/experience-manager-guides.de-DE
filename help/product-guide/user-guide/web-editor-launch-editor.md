@@ -4,14 +4,18 @@ description: Erfahren Sie, wie Sie den Editor über die AEM-Navigationsseite, di
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
 # Editor starten {#id2056B0140HS}
+
+>[!INFO]
+>
+> Dieses Thema gilt sowohl für den neuen als auch für den alten Editor. Während die Kernfunktionalität konsistent bleibt, werden Unterschiede in der Benutzeroberfläche, Terminologie und Interaktionen innerhalb des Inhalts ggf. durch Registerkarten und Hinweisen angezeigt.
 
 Sie können den Editor an den folgenden Stellen starten:
 
@@ -85,9 +89,23 @@ Gehen Sie wie folgt vor, um ein Thema im Editor zu öffnen:
 
    ![](images/edit-topic-from-quick-action_cs.png)
 
-   Das Thema wird im Editor geöffnet.
+Das Thema wird im Editor geöffnet.
 
-   ![](images/edit-mode.png)
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+Diese Ansicht zeigt an, wie der Inhalt im neuen Editor gerendert wird
+
+![](images/edit-mode-editor-2-0.png)
+
+>[!TAB Alter Editor]
+
+Diese Ansicht zeigt an, wie der Inhalt im alten Editor gerendert wird
+
+![](images/edit-mode.png)
+
+>[!ENDTABS]
 
 Sie können auch eine Zuordnungsdatei in der Assets-Benutzeroberfläche öffnen und den Editor starten, um die Themen in der Zuordnungsdatei zu bearbeiten.
 
@@ -124,13 +142,25 @@ Gehen Sie wie folgt vor, um den Editor über die Zuordnungskonsole zu öffnen:
 
    ![](images/map-console-open-in-editor.png)
 
-   Die Zuordnungsdatei mit den Themen ist im Editor zur Bearbeitung geöffnet.
-
-   ![](images/map-console-edit-topics.png)
+Die Zuordnungsdatei mit den Themen ist im Editor zur Bearbeitung geöffnet.
 
 
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+Map-Bearbeitungsmodus im neuen Editor:
+
+![](images/map-console-edit-topics-editor-2-0.png)
+
+>[!TAB Alter Editor]
+
+Map-Bearbeitungsmodus im alten Editor:
+
+![](images/map-console-edit-topics.png)
 
 
+>[!ENDTABS]
 
 
 **Übergeordnetes Thema**: [Einführung in den Editor](web-editor.md)

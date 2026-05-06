@@ -4,9 +4,9 @@ description: Generieren von DITA-Zuordnungsberichten über die Zuordnungskonsole
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,9 @@ Um Metadaten zu aktualisieren, führen Sie die folgenden Schritte aus:
 
    >[!NOTE]
    >
-   > Wenn eine Datei von einem anderen Benutzer gesperrt wird, kann sie nicht zum Aktualisieren von Metadaten ausgewählt werden. Ein Sperrsymbol wird auch neben dem Titel einer gesperrten Datei angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen des Benutzers anzuzeigen.
+   > Wenn eine Datei von einem anderen Benutzer gesperrt wird, kann sie nicht zum Aktualisieren von Metadaten ausgewählt werden. Ein Sperrsymbol wird auch neben dem Titel einer gesperrten Datei angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen des Benutzers anzuzeigen. Sie können die Schaltfläche **Verwalten** so konfigurieren, dass sie deaktiviert wird, wenn sich die ausgewählten Dateien im schreibgeschützten Modus befinden. Weitere Informationen finden Sie unter [Schaltfläche „Verwalten“ im Bedienfeld „Metadaten](../guides-ui-extensions/examples.md).
+   >
+   > <br>Diese Einschränkung gilt nur für DITA- und Markdown-Dateien. Bei nicht-DITA-Assets (z. B. Bildern und Multimedia) bleiben Metadateneigenschaften auch im schreibgeschützten Modus bearbeitbar.
 
    ![](images/all-selection.png)
 
