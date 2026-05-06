@@ -4,7 +4,7 @@ description: Generieren Sie eine Ausgabe für eine DITA-Zuordnung über die Zuor
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Um das Fehlerprotokoll anzuzeigen, wählen Sie **Verwerfen**, bewegen Sie den Ma
 
 >[!NOTE]
 >
-> Wenn Ihre Zuordnung eine DITAVAL-Datei verwendet, werden alle Flag-Bilder, die in der DITAVAL-Datei referenziert werden, an einen Speicherort kopiert, der mit der veröffentlichten Zuordnung in der Ausgabe zusammenhängt.  Wenn Sie mehrere DITAVAL-Dateien für die Filterung innerhalb derselben Zuordnung verwenden, stellen Sie außerdem sicher, dass Sie eindeutige `.ditaval`-Dateinamen verwenden, um Probleme mit doppelten Dateinamen beim Veröffentlichen zu vermeiden.
+> Wenn Ihre Zuordnung eine DITAVAL-Datei verwendet, werden alle gekennzeichneten Bilder, auf die in der DITAVAL-Datei verwiesen wird, an einen Speicherort kopiert, der sich auf die veröffentlichte Zuordnung in der Ausgabe bezieht.  Wenn Sie mehrere DITAVAL-Dateien für die Filterung innerhalb derselben Zuordnung verwenden, stellen Sie außerdem sicher, dass Sie eindeutige `.ditaval`-Dateinamen verwenden, um Probleme mit doppelten Dateinamen beim Veröffentlichen zu vermeiden.
 
 ## Generieren einer Ausgabe für eine DITA-Zuordnung über das Zuordnungs-Dashboard
 
