@@ -3,7 +3,7 @@ title: Handbücher zur Veröffentlichung von Benchmarks in AEMaaCS
 description: Machen Sie sich mit den Systembeschränkungen für die Veröffentlichung in der AEM Cloud vertraut.
 feature: Publishing
 role: User, Admin
-source-git-commit: 6e2577f04f1092ec9d8445ddbb97aa34be1e53a4
+source-git-commit: b6e4fd5051018ce6c60aadf66e6bf7375322aaa1
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 21%
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 Dieser Benchmark bewertet die Leistung der neuen Veröffentlichungs-APIs für verschiedene Ausgabevorgaben und die Steigerung der Zuordnungsgrößen in AEM Guides as a Cloud Service. Ziel ist es, das Skalierungsverhalten zu verstehen und Leistungsengpässe zu identifizieren.
 
-Der Publishing-Service verwendet eine [Microservice-basierte Architektur](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) mit automatischer Skalierung, die die Handhabung größerer Workloads durch zusätzliche Pods ermöglicht.
+Der Publishing-Service verwendet eine [Microservice-basierte Architektur](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) mit automatischer Skalierung, die die Handhabung größerer Workloads durch zusätzliche Pods ermöglicht.
 
 ## Ausführungsumgebung
 
