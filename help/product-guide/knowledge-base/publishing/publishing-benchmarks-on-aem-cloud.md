@@ -14,7 +14,7 @@ ht-degree: 21%
 
 Dieser Benchmark bewertet die Leistung der neuen Veröffentlichungs-APIs für verschiedene Ausgabevorgaben und die Steigerung der Zuordnungsgrößen in AEM Guides as a Cloud Service. Ziel ist es, das Skalierungsverhalten zu verstehen und Leistungsengpässe zu identifizieren.
 
-Der Publishing-Service verwendet eine [Microservice-basierte Architektur](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) mit automatischer Skalierung, die die Handhabung größerer Workloads durch zusätzliche Pods ermöglicht.
+Der Publishing-Service verwendet eine [Microservice-basierte Architektur](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/publish-microservice-architecture-and-performance) mit automatischer Skalierung, die die Handhabung größerer Workloads durch zusätzliche Pods ermöglicht.
 
 ## Ausführungsumgebung
 
