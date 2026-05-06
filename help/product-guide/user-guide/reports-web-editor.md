@@ -4,9 +4,9 @@ description: Generieren von DITA-Zuordnungsberichten über die Zuordnungskonsole
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Der **Metadatenbericht** liefert einen detaillierten Bericht Ihrer Referenzen in
 
 Sie können den Metadatenbericht einer Zuordnung anzeigen, indem Sie die folgenden Schritte ausführen:
 
-1. Wählen **Metadaten** im Bedienfeld „Berichte“ aus. Die Liste aller Verweise einer Zuordnung wird zusammen mit den Metadaten wie Tags, dem Dokumentstatus und den benutzerdefinierten Metadaten angezeigt. Informationen zum Hinzufügen einer neuen benutzerdefinierten Metadatenspalte finden Sie [&#x200B; Abschnitt Hinzufügen benutzerdefinierter &#x200B;](#add-custom-metadata-columns) .
+1. Wählen **Metadaten** im Bedienfeld „Berichte“ aus. Die Liste aller Verweise einer Zuordnung wird zusammen mit den Metadaten wie Tags, dem Dokumentstatus und den benutzerdefinierten Metadaten angezeigt. Informationen zum Hinzufügen einer neuen benutzerdefinierten Metadatenspalte finden Sie [ Abschnitt Hinzufügen benutzerdefinierter ](#add-custom-metadata-columns) .
 
 
    ![](images/web-editor-metadata-panel-new.png)
@@ -127,7 +127,9 @@ Um Metadaten zu aktualisieren, führen Sie die folgenden Schritte aus:
 
    >[!NOTE]
    >
-   > Wenn eine Datei von einem anderen Benutzer gesperrt wird, kann sie nicht zum Aktualisieren von Metadaten ausgewählt werden. Ein Sperrsymbol wird auch neben dem Titel einer gesperrten Datei angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen des Benutzers anzuzeigen.
+   > Wenn eine Datei von einem anderen Benutzer gesperrt wird, kann sie nicht zum Aktualisieren von Metadaten ausgewählt werden. Ein Sperrsymbol wird auch neben dem Titel einer gesperrten Datei angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen des Benutzers anzuzeigen. Sie können die Schaltfläche **Verwalten** so konfigurieren, dass sie deaktiviert wird, wenn sich die ausgewählten Dateien im schreibgeschützten Modus befinden. Weitere Informationen finden Sie unter [Schaltfläche „Verwalten“ im Bedienfeld „Metadaten](../guides-ui-extensions/examples.md).
+   >
+   > <br>Diese Einschränkung gilt nur für DITA- und Markdown-Dateien. Bei nicht-DITA-Assets (z. B. Bildern und Multimedia) bleiben Metadateneigenschaften auch im schreibgeschützten Modus bearbeitbar.
 
    ![](images/all-selection.png)
 
@@ -266,4 +268,4 @@ Sie können den Bericht nach fehlerhaften Links anzeigen, indem Sie die folgende
 1. Wählen Sie **Herunterladen** aus, um den Schnappschuss aller fehlerhaften Links in der DITA-Karte herunterzuladen. Die Excel-Datei enthält die ausgewählten Spalten und die fehlerhaften Links, die in der Ansicht „Beschädigte Links“ gefiltert wurden.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in Berichte](reports-intro.md)
+**Übergeordnetes Thema:**[ Einführung in Berichte](reports-intro.md)

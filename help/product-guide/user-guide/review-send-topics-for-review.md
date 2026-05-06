@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine Prüfungsaufgabe erstellen und Themen zu
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '3161'
+source-wordcount: '3343'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,19 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
+
+1. Aktivieren Sie **Automatische Erinnerung**, um geplante Erinnerungsbenachrichtigungen (und E-Mail-Erinnerungen) für Prüfer zu konfigurieren. Dies kann sowohl vor dem Fälligkeitsdatum einer Prüfungsaufgabe als auch nach deren Fälligkeit erfolgen.
+
+   >[!NOTE]
+   >
+   >Der Umschalter Automatische Erinnerungen bleibt deaktiviert, bis Sie ein Fälligkeitsdatum für die Prüfungsaufgabe auswählen.
+
+   - **Vor Fälligkeitsdatum - Erinnerungen** Sie können mehrere Erinnerungen (maximal 3) bis zu 60 Tage vor dem Fälligkeitsdatum konfigurieren, um die Validierungsverantwortlichen vorzeitig zu informieren. Erinnerung 1 kann auf die Anzahl der Tage eingestellt werden, die von heute bis zum Fälligkeitsdatum verbleiben, und die Erinnerungswerte müssen einer absteigenden Reihenfolge folgen, die die Anzahl der Tage vor dem Fälligkeitsdatum darstellt.
+
+   - **Erinnerungen nach Fälligkeitsdatum**: Sie können auch Erinnerungen (maximal 3) konfigurieren, die nach dem Fälligkeitsdatum gesendet werden, um Validierungsverantwortliche darüber zu informieren, dass die Aufgabe überfällig ist. Überfällige Erinnerungen können bis zu 30 Tage nach dem Fälligkeitsdatum konfiguriert werden. Die Erinnerungswerte müssen einer aufsteigenden Reihenfolge folgen, die der Anzahl der Tage nach dem Fälligkeitsdatum entspricht.
+
+   Basierend auf dem konfigurierten Zeitplan sendet das System zu den geplanten Erinnerungsdaten AEM-Benachrichtigungen und E-Mail-Erinnerungen an Validierungsverantwortliche.
 
 1. Wählen Sie die Stammzuordnung aus dem **Stammzuordnungspfad**. Diese Rootmap wird verwendet, um alle wichtigen Verweise und Glossarbegriffe aufzulösen, die im Überprüfungsinhalt verwendet werden. Wenn Sie die Rootmap nicht auswählen, werden die wichtigsten Referenzen oder Glossarbegriffe, die mit dem DITA-Thema verknüpft sind, nicht aufgelöst, bevor das Thema zur Überprüfung gesendet wird.
 
@@ -207,7 +219,7 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
 
@@ -311,4 +323,4 @@ Sobald die Prüfungsaufgabe aktualisiert wurde, erhalten die Validierungsverantw
 Weitere Informationen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

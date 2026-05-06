@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: 670a7557746baf16cf9786ba61a19448315ed59b
 workflow-type: tm+mt
-source-wordcount: '3316'
+source-wordcount: '3342'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 8%
       - Cloud Services {#cloud-release-notes}
          - {hide-from-toc}[Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
          - Versionen 2026 {#2026-releases}
+            - Version 2026.05.0 {#2605-release}
+               - [Neue Funktionen](./release-info/whats-new-2026-05-0.md)
+               - [Behobene Probleme](./release-info/fixed-issues-2026-05-0.md)
+               - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2026-05-0.md)
             - Version 2026.04.0 {#2604-release}
                - [Neue Funktionen](./release-info/whats-new-2026-04-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2026-04-0.md)
@@ -188,14 +192,14 @@ ht-degree: 8%
                - [Versionshinweise für 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Versionshinweise zu 4.2](./release-info/release-notes-4-2.md)
          - [Versionshinweise zu 4.1.x](./release-info/release-notes-4-1.md)
-         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
-         - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Startseite {#home-page}
       - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
       - [Repository-Schnittstelle](./user-guide/home-page-repository-view.md)
@@ -229,6 +233,7 @@ ht-degree: 8%
          - [Verwenden von Daten aus Ihren Datenquellen](./user-guide/web-editor-content-snippet.md)
          - [Dokumentstatus](./user-guide/web-editor-document-states.md)
          - [Kennzeichnungen verwenden](./user-guide/web-editor-use-label.md)
+         - [Editor-Einstellungen](./user-guide/config-editor-settings.md)
       - Karteneditor {#map-editor}
          - [Einführung in den Zuordnungs-Editor](./user-guide/map-editor.md)
          - [Erstellen einer Zuordnung](./user-guide/map-editor-create-map.md)
@@ -396,7 +401,7 @@ ht-degree: 8%
       - Fehlerbehebung {#troubleshooting}
          - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-guide}
    - On-Premise {#on-prem-ig}
       - {hide-from-toc}[On-Premise-Grundlagen](./install-guide/introduction.md)
@@ -664,6 +669,7 @@ ht-degree: 8%
          - [Konfigurieren der Anzeige eingefügter Tabellen für Cloud Service](./install-conf-guide/conf-pasted-tables.md)
          - [Konfigurieren der PDF-Generierung für ein einzelnes Thema für Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [Konfigurieren der Übersetzungsfunktion im Web-Editor für Cloud Service](./install-conf-guide/conf-translation-editor.md)
+         - [Konfigurieren der Ignorieren-Liste von Metadateneigenschaften für Cloud Service](./install-conf-guide/conf-metadata-prop.md)
       - Editor-Einstellung für On-Premise {#editor-on-prem-settings}
          - [Konfigurieren zusätzlicher Sonderzeichen für On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
          - [Konfigurieren des Titels für die Symbole zum Ein- und Auschecken für On-Premise](./install-conf-guide/conf-checkin-checkout-title.md)
@@ -778,6 +784,7 @@ ht-degree: 8%
             - Widgets {#framework-widgets}
                - [Rendering-Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [Grundlegende Widgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
+            - [Änderungen am Erweiterungs-Framework für Editor 2.0](./guides-ui-extensions/getting-started/editor-extension-guide.md)
          - Erste Schritte {#getting-started}
             - [Einführung](./guides-ui-extensions/getting-started/introduction.md)
             - [Installationshandbuch](./guides-ui-extensions/getting-started/integrating-customisations.md)

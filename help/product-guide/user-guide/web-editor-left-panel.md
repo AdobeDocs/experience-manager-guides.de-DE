@@ -4,14 +4,18 @@ description: Lernen Sie das linke Bedienfeld im Editor kennen. Erfahren Sie mehr
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: d369972ced74b8a66280c018fc7ab29b174da36e
 workflow-type: tm+mt
-source-wordcount: '11002'
+source-wordcount: '11080'
 ht-degree: 0%
 
 ---
 
 # Linkes Bedienfeld im Editor
+
+>[!INFO]
+>
+>Dieses Thema gilt sowohl für den neuen als auch für den alten Editor. Während die Kernfunktionalität konsistent bleibt, werden Unterschiede in der Benutzeroberfläche, Terminologie und Interaktionen innerhalb des Inhalts ggf. durch Registerkarten und Hinweisen angezeigt.
 
 Das linke Bedienfeld bietet schnellen Zugriff auf Sammlungen, Repository-Ansichten, Zuordnungsansichten und mehr Funktionen. Sie können das Bedienfeld erweitern, indem Sie **Symbol &quot;**&quot; in der linken unteren Ecke der Benutzeroberfläche auswählen. Verwenden Sie nach dem Erweitern das Symbol **Reduzieren**, um das Bedienfeld zu reduzieren. In der erweiterten Ansicht werden die Namen der Symbole angezeigt, die in der reduzierten Ansicht als QuickInfos angezeigt werden.
 
@@ -61,7 +65,7 @@ Standardmäßig können Sie die Dateien nach Titeln anzeigen. Wenn Sie mit dem M
 
 >[!NOTE]
 >
-> Als Administrator können Sie die Liste der Dateien nach Dateinamen im Editor anzeigen. Wählen Sie die **Dateiname** im Abschnitt **Konfiguration von Editor-Dateien** Benutzereinstellungen **aus**.
+> Als Administrator können Sie die Liste der Dateien nach Dateinamen im Editor anzeigen. Wählen Sie die Option **Dateiname** unter dem Abschnitt **Konfiguration von Editor-Dateien** Benutzereinstellungen **aus**.
 
 <details>
     <summary> Erstellen einer neuen Sammlung </summary>
@@ -127,7 +131,7 @@ Wenn Sie das Repository-Symbol auswählen, erhalten Sie eine Liste der in DAM ve
 
 >[!NOTE]
 >
-> Als Administrator können Sie die Liste der Dateien nach Dateinamen im Editor anzeigen. Wählen Sie die **Dateiname** im Abschnitt **Konfiguration von Editor-Dateien** Benutzereinstellungen **aus**.
+> Als Administrator können Sie die Liste der Dateien nach Dateinamen im Editor anzeigen. Wählen Sie die Option **Dateiname** unter dem Abschnitt **Konfiguration der Dateianzeige** Editor-Dateien) in **Benutzereinstellungen**.
 
 Es werden 75 Dateien gleichzeitig geladen. Jedes Mal, wenn Sie **Mehr laden**… auswählen, werden 75 Dateien geladen und die Schaltfläche wird nicht mehr angezeigt, wenn alle Dateien aufgelistet wurden. Dieses Laden im Batch ist effizient, und Sie können schneller auf die Dateien zugreifen als alle Dateien, die in einem Ordner vorhanden sind.
 
@@ -137,7 +141,9 @@ Sie können auch eine Audio- oder Videodatei im Editor auswählen und wiedergebe
 Die Ansicht des Videos. Im Kontextmenü haben Sie auch die Optionen zum Herunterladen, Ändern der Wiedergabe
 Geschwindigkeit oder Bild im Bild anzeigen.
 
-Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der **Kartenansicht** Funktionsbeschreibung im linken Bereich. Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ &#x200B;](./web-editor-content-editing-area.md) öffnen. Die Möglichkeit, direkt im Editor in einer Datei zu navigieren und sie zu öffnen, spart Zeit und erhöht die Produktivität.
+Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der **Kartenansicht** Funktionsbeschreibung im linken Bereich. Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ ](./web-editor-content-editing-area.md) öffnen. Die Möglichkeit, direkt im Editor in einer Datei zu navigieren und sie zu öffnen, spart Zeit und erhöht die Produktivität.
+
+
 
 ## Filtern der Suche im Repository
 
@@ -288,7 +294,7 @@ Schritte zum Erstellen eines neuen Ordners:
 
   Wenn Ihr Admin die Option UUIDs in *XMLEditorConfig* aktiviert hat, wird die UUID des hochgeladenen Bildes in der Eigenschaft **Source** angezeigt.
 
-  ![](images/uuid-in-source-upload-image_cs.png){  }
+  ![](images/image-properties.png)
 
   Nach erfolgreichem Hochladen wird das folgende Bestätigungsdialogfeld angezeigt:
 
@@ -770,7 +776,17 @@ Im Bedienfeld Bedingungen werden die von Ihrem Administrator definierten bedingt
 
 Sie können auch mehrere Bedingungen auf ein Element anwenden, indem Sie mehrere Bedingungen auf ein Element ziehen und dort ablegen. Wenn Sie mehrere Bedingungen auf ein Element anwenden, zeigt das Bedienfeld Eigenschaften die angewendeten Bedingungen getrennt durch ein Komma an.
 
-![](images/multiple-conditions-applied_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](images/multiple-conditions-applied_cs-editor-2-0.png){width="650"}
+
+>[!TAB Alter Editor]
+
+![](images/multiple-conditions-applied_cs.png){width="650"}
+
+>[!ENDTABS]
 
 In der Code-Ansicht werden die Bedingungen jedoch durch ein Leerzeichen getrennt. Wenn Sie eine Bedingung in der Code-Ansicht hinzufügen oder bearbeiten, stellen Sie sicher, dass mehrere Bedingungen durch ein Leerzeichen getrennt werden.
 
@@ -778,7 +794,18 @@ In der Code-Ansicht werden die Bedingungen jedoch durch ein Leerzeichen getrennt
 >
 > Der folgende Screenshot zeigt einen Benutzer mit Administratorrechten. Als Benutzer mit Administratorrechten können Sie Bedingungen hinzufügen, bearbeiten und löschen. Andernfalls haben Sie als normaler Autor nur die Möglichkeit, Bedingungen anzuwenden.
 
-![](images/conditional-content-through-panel_cs.png){  }
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](images/conditional-content-through-panel_cs-editor-2-0.png){width="650"}
+
+>[!TAB Alter Editor]
+
+![](images/conditional-content-through-panel_cs.png){width="650"}
+
+>[!ENDTABS]
+
 
 Um eine Bedingung hinzuzufügen oder zu definieren, klicken Sie auf das Symbol + neben dem Bedienfeld Bedingungen , um das Dialogfeld Bedingung definieren anzuzeigen:
 
@@ -852,7 +879,7 @@ Das folgende Beispiel zeigt die Verwendung des Betreffschemas in Experience Mana
 
    ![](images/subject-scheme-panel-new.png){width="300"}
 
-1. Speichern Sie die Datei mit der Erweiterung a.ditamap und laden Sie sie in einen beliebigen Ordner in DAM hoch.
+1. Speichern Sie die Datei mit der Erweiterung &quot;.ditamap“ und laden Sie sie in einen beliebigen Ordner in DAM hoch.
 
    >[!NOTE]
    >
@@ -991,6 +1018,19 @@ Führen Sie die folgenden Schritte aus, um den Wert zu ändern:
 
 Sie können auch Werte für ein Attribut anwenden, indem Sie mehrere Werte aus dem Dropdown-Menü auswählen.
 
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](images/subject-scheme-new.png){width="650"}
+
+>[!TAB Alter Editor]
+
+![](images/subject-scheme-right-panel.png){width="550"}
+
+>[!ENDTABS]
+
+
 **Source-Ansicht**
 
 Sie können die Werte auch aus der Dropdown-Liste des Attributs in der Source-Ansicht ändern. Die Source-Ansicht verhindert auch, dass Sie einen falschen Wert hinzufügen.
@@ -1015,7 +1055,8 @@ Snippets sind kleine Inhaltsfragmente, die in verschiedenen Themen in Ihrem Doku
 >
 > Der folgende Screenshot zeigt einen Benutzer mit Administratorrechten. Als Benutzer mit Administratorrechten können Sie Snippets hinzufügen, bearbeiten und löschen. Andernfalls haben Sie als normaler Autor nur die Möglichkeit, ein Snippet in der Vorschau anzuzeigen und einzufügen.
 
-![](images/snippets-panel_cs.png)
+
+![](images/snippets-panel_cs-editor-2-0.png){width="650"}
 
 **Erstellen eines Snippets**
 
@@ -1065,7 +1106,12 @@ Standardmäßig können Sie die Dateien nach Titeln anzeigen. Wenn Sie mit dem M
 
 Informationen zum Erstellen benutzerdefinierter Vorlagen finden Sie unter [Erstellen von Karten basierend auf benutzerdefinierten Vorlagen](./create-maps-customized-templates.md).
 
+
 ## Zitate
+
+>[!NOTE]
+>
+> Zitate werden nur im alten Editor unterstützt und sind derzeit im neuen Editor nicht verfügbar. Die Informationen in diesem Artikel gelten nur, wenn Sie den alten Editor verwenden.
 
 In Experience Manager Guides können Sie Zitate hinzufügen, importieren und sie auf Ihre Inhalte anwenden. Sie können diese Zitate aus jeder Quelle von Büchern, Websites und Zeitschriften hinzufügen.
 
@@ -1102,7 +1148,7 @@ Je nach Ihren Anforderungen können Sie die Funktion Suchen und Ersetzen in zwei
   > - **Für Cloud-**: Es muss eine benutzerdefinierte Indexbereitstellung durchgeführt werden. Weitere Informationen finden Sie unter [Bereitstellen eines benutzerdefinierten Index](/help/product-guide/cs-install-guide/custom-indexing.md). Wenden Sie sich nach Abschluss des Vorgangs an Ihr Customer Success-Team, um diese Funktion zu aktivieren.
   > - **Bei On-Premise**: Eine Neuindizierung vorhandener Inhalte ist erforderlich, bevor die Funktion verwendet werden kann. Weitere Informationen finden Sie unter [Neuindizierung von Inhalten](/help/product-guide/install-guide/custom-indexing-prem.md). Wenden Sie sich nach Abschluss des Vorgangs an Ihr Customer Success-Team, um diese Funktion zu aktivieren.
 
-  ![](images/map-find-replace-with-source-mode.png)
+  ![](images/find-replace-new.png)
 
 <br>
 
@@ -1323,4 +1369,4 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 
 </details>
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

@@ -4,18 +4,32 @@ description: Machen Sie sich mit der Registerkartenleiste im Editor vertraut. Er
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
-source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
+source-git-commit: 4d7daf0dc3c6c915701e60d6811822df9f6a64aa
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
 
 # Registerkartenleiste im Editor
 
-Die Registerkartenleiste befindet sich oben in der Benutzeroberfläche des Editors und bietet Zugriff auf die folgenden Funktionen:
+>[!INFO]
+>
+> Dieses Thema gilt sowohl für den neuen als auch für den alten Editor. Während die Kernfunktionalität konsistent bleibt, werden Unterschiede in der Benutzeroberfläche, Terminologie und Interaktionen innerhalb des Inhalts ggf. durch Registerkarten und Hinweisen angezeigt.
+
+Die Registerkartenleiste befindet sich oben in der Benutzeroberfläche des Editors und bietet Zugriff auf die verschiedenen Funktionen auf Dateiebene.
+
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![](./images/web-editor-tab-bar-editor-2-0.png)
+
+>[!TAB Alter Editor]
 
 ![](./images/web-editor-tab-bar.png)
+
+>[!ENDTABS]
 
 **Registerkarten**
 
@@ -23,7 +37,7 @@ Zeigt die aktuell geöffneten Themen im Editor als Datei-Registerkarten an. Sie 
 
 >[!NOTE]
 >
-> Als Administrator können Sie auch festlegen, dass die Liste der Dateien nach Dateinamen auf den Registerkarten angezeigt wird. Wählen Sie die **Dateiname** im Abschnitt **Konfiguration der Editor-Dateien** Benutzereinstellungen[&#x200B; aus](./intro-home-page.md#user-preferences).
+> Als Administrator können Sie auch festlegen, dass die Liste der Dateien nach Dateinamen auf den Registerkarten angezeigt wird. Wählen Sie die Option **Dateiname** im Abschnitt **Konfiguration der Editor-Dateien** Benutzereinstellungen[ aus](./intro-home-page.md#user-preferences).
 
 Wenn Sie die Registerkarte Datei auswählen, wird ein Kontextmenü mit den Optionen Als neue Version speichern, Kopieren, Suchen in, Zu hinzufügen, Eigenschaften, Aufspaltung, Als PDF herunterladen und Schließen geöffnet.
 
@@ -57,4 +71,6 @@ Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelli
 >
 > Wenn Sie die Adobe Experience Manager Guides in einem On-Premise-Setup verwenden, wird die Option Workspace-Einstellungen weiterhin als **Einstellungen** im Menü Mehr Aktionen angezeigt.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+- **Editor-Einstellungen**: Leitet Sie zum Dialogfeld Editor-Einstellungen, in dem Sie das Editor-Verhalten auf individueller Autorenebene anpassen können. Damit können Sie die Sichtbarkeit und das Verhalten von Tags, Kommentaren und anderen Einstellungen auf Editor-Ebene während des Authorings steuern. Weitere Informationen finden Sie unter [Editor-Einstellungen](./config-editor-settings.md).
+
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

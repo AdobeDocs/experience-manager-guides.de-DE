@@ -4,14 +4,18 @@ description: Erfahren Sie, wie Sie mit benutzerdefinierten Vorlagen in Adobe Exp
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
 
 # Erstellen von Themen {#id2056AL00O5Z}
+
+>[!INFO]
+>
+>Dieses Thema gilt sowohl für den neuen als auch für den alten Editor. Während die Kernfunktionalität konsistent bleibt, werden Unterschiede in der Benutzeroberfläche, Terminologie und Interaktionen innerhalb des Inhalts ggf. durch Registerkarten und Hinweisen angezeigt.
 
 Mit Adobe Experience Manager Guides können Sie DITA-Themen des Typs „Thema“, „Aufgabe“, „Konzept“, „Referenz“, „Glossar“, „DITAVAL“, „Markdown“ und mehr erstellen. Sie können nicht nur Themen auf der Grundlage von vordefinierten Vorlagen erstellen, sondern auch benutzerdefinierte Vorlagen definieren. Diese Vorlagen müssen dem Profilordner hinzugefügt werden, damit sie in der Blueprint zur Vorlagenauswahl und im Editor angezeigt werden.
 
@@ -33,7 +37,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema im Editor zu erstellen:
 
    ![](images/create-topic-option.png){width="500"}
 
-   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides &#x200B;](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
+   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides ](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
 
 2. Das **Neues Thema** wird angezeigt.
 
@@ -45,11 +49,25 @@ Führen Sie die folgenden Schritte aus, um ein Thema im Editor zu erstellen:
 
 4. Wählen Sie **Erstellen** aus.
 
-   ![](images/create-topic-dialog-new.png){width="300"}
+   ![](images/create-topic-dialog-new.png){width="350"}
 
 Das Thema wird unter dem angegebenen Pfad erstellt. Außerdem wird das Thema im Editor zur Bearbeitung geöffnet.
 
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+Diese Ansicht zeigt an, wie der Inhalt im neuen Editor gerendert wird.
+
+![](images/new-topic-editor-new-editor-2-0.png)
+
+>[!TAB Alter Editor]
+
+Diese Ansicht zeigt an, wie der Inhalt im alten Editor gerendert wird.
+
 ![](images/new-topic-editor.png)
+
+>[!ENDTABS]
 
 ## Erstellen von Themen über die Assets-Benutzeroberfläche
 
@@ -83,9 +101,13 @@ Führen Sie die folgenden Schritte aus, um ein Thema über die Assets-Benutzerob
 
 **Zusätzliche Informationen**
 
-1. Jedem neuen Thema, das Sie über die Assets-Benutzeroberfläche erstellen **Erstellen** \> **DITA-Thema** oder dem Editor wird eine eindeutige Themen-ID zugewiesen. Der Wert dieser ID ist der Dateiname selbst. Außerdem wird ein neues Dokument als neueste Arbeitskopie des Themas in DAM gespeichert. Bis zum Speichern einer Revision eines neu erstellten Themas wird im Versionsverlauf keine Versionsnummer angezeigt. Wenn Sie das Thema zur Bearbeitung öffnen, werden die Versionsinformationen in der rechten oberen Ecke der Symbolleiste angezeigt:
+>[!INFO]
+>
+> Die Benutzeroberfläche variiert je nach verwendetem Editor.
 
-   ![](images/topic-version-none_cs.png){width="550"}
+1. Jedem neuen Thema, das Sie über die Assets-Benutzeroberfläche erstellen **Erstellen** \> **DITA-Thema** oder dem Editor wird eine eindeutige Themen-ID zugewiesen. Der Wert dieser ID ist der Dateiname selbst. Außerdem wird ein neues Dokument als neueste Arbeitskopie des Themas in DAM gespeichert. Bis zum Speichern einer Revision eines neu erstellten Themas wird im Versionsverlauf keine Versionsnummer angezeigt. Wenn Sie das Thema zur Bearbeitung öffnen, werden die Versionsinformationen in der rechten oberen Ecke der Symbolleiste angezeigt:
+_
+   ![](images/version-none.png){width="550"}
 
 2. Die Versionsinformationen für ein neu erstelltes Thema werden als *none* angezeigt. Wenn Sie eine neue Version speichern, wird ihr eine Versionsnummer als 1.0 zugewiesen.
 
@@ -93,4 +115,4 @@ Führen Sie die folgenden Schritte aus, um ein Thema über die Assets-Benutzerob
 
 4. Nachdem Sie Ihr DITA-Thema erstellt haben, speichern Sie die Änderungen in Ihrer Arbeitskopie weiter und erstellen Sie eine neue Version, sobald Sie die Aktualisierungen für Ihr Thema abgeschlossen haben.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen und Vorschau von Themen](create-preview-topics.md)
+**Übergeordnetes Thema:**[ Erstellen und Vorschau von Themen](create-preview-topics.md)

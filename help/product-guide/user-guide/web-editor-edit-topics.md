@@ -4,20 +4,39 @@ description: Erfahren Sie, wie Sie Themen im Editor bearbeiten. Erfahren Sie meh
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
 
 # Bearbeiten von Themen im Editor {#id2056B040VUI}
 
+>[!INFO]
+>
+>Dieses Thema gilt sowohl für den neuen als auch für den alten Editor. Während die Kernfunktionalität konsistent bleibt, werden Unterschiede in der Benutzeroberfläche, Terminologie und Interaktionen innerhalb des Inhalts ggf. durch Registerkarten und Hinweisen angezeigt.
+
 Der Editor verfügt über eine Reihe von Bearbeitungsfunktionen, mit denen Sie mühelos Themendateien erstellen oder ändern können. Allgemein würden Sie die folgenden Schritte ausführen, um ein Thema im Editor zu bearbeiten.
 
 >[!IMPORTANT]
 >
 > Wenn während der Arbeit am Editor ein Anwendungsfehler auftritt, aktualisieren Sie die Seite, um weiter zu arbeiten.
+
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+1. Um ein Element in einem Thema zu bearbeiten oder einzufügen, klicken Sie innerhalb der Textgrenze des erforderlichen Elements, um Änderungen vorzunehmen, oder platzieren Sie den Cursor am Ende des Elements, nach dem Sie ein neues Element hinzufügen möchten, und wählen Sie das gewünschte Element in der Symbolleiste aus (oder drücken Sie Alt+1, um das Popup Element einfügen zu öffnen). Dadurch werden intelligent nur gültige Elemente für diese Position im Thema aufgelistet und eingefügt.
+
+1. Zusätzlich können Sie das Menü Quick Insert verwenden, um zulässige Elemente direkt an der Cursorposition einzufügen. Wählen Sie **Strg + /** für Windows oder **Befehl + /** für Mac aus, um auf die Elemente zuzugreifen.
+
+   ![Menü „Schnelleinfügung“](./images/quick-insert-menu-in-editor.png){width="650"}
+
+   Suchen Sie nach einem neuen Element oder wählen Sie über das Menü „Schnelleinfügung“ eines Ihrer Favoriten aus und fügen Sie es dann an der aktuellen Cursorposition ein. Zu den Favoriten gehören die am häufigsten verwendeten Elemente, es werden nur die für die aktuelle Cursorposition gültigen Elemente angezeigt. Sie können diese Funktion aktivieren oder deaktivieren und die Favoriten für das Einfügen über das Menü „Schnelleinfügung“ konfigurieren, das in den [Editor-Einstellungen“ verfügbar ](./config-editor-settings.md).
+
+
+>[!TAB Alter Editor]
 
 1. Um Änderungen an Ihrem Thema vorzunehmen, klicken Sie in den Textbereich des erforderlichen Elements und nehmen Sie Änderungen vor.
 
@@ -35,19 +54,35 @@ Der Editor verfügt über eine Reihe von Bearbeitungsfunktionen, mit denen Sie m
    >
    > Wenn Sie keine Änderungen in das Adobe Experience Manager-Repository übernehmen möchten, wählen Sie **Schließen** und dann **Ohne Speichern schließen** im Dialogfeld Nicht gespeicherte Änderungen aus.
 
+>[!ENDTABS]
 
 ## Teilweise Auswahl von Inhalten über Elemente hinweg
 
 Mit Experience Manager Guides können Sie auch Inhalte über Elemente hinweg auswählen. Nach Auswahl des Inhalts können Sie die folgenden Schritte ausführen:
 
-- Formatierung und Löschung: Formatieren und Kursiv formatieren, unterstreichen oder sogar löschen Sie ausgewählte Inhalte. Der Inhalt der gültigen offenen Tags wird dann zusammengeführt und unter einem einzigen Element angezeigt. Sie können beispielsweise den Inhalt innerhalb eines Absatzes auswählen und die Auswahl auf einen anderen Absatz erweitern. Wenn Sie dann den ausgewählten Inhalt fett formatieren, wird der gesamte fettgedruckte Inhalt aus den geöffneten Tags zusammengeführt und unter einem einzigen Absatzelement angezeigt.
+- Formatierung : Das Formatieren ausgewählter Inhalte ist im neuen Editor im Vergleich zu Editor 1.0 erheblich einfacher, wie unten dargestellt.
 
-Wenn Sie den ausgewählten Inhalt löschen, wird der verbleibende Inhalt nach dem Löschen in den geöffneten Tags zusammengeführt.
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+Sie können den ausgewählten Inhalt mithilfe der kontextuellen Symbolleiste fett, kursiv oder unterstreichen formatieren. Wählen Sie den Inhalt aus und klicken Sie dann im angezeigten Menü auf das entsprechende Formatierungssymbol. Den ausgewählten Inhalt fett, kursiv oder unterstreichen. Der Inhalt der gültigen offenen Tags wird dann zusammengeführt und unter einem einzigen Element angezeigt.
+
+![Formatierungsoptionen](./images/formatting-options.png){width="650"}
+
+>[!TAB Alter Editor]
+
+Den ausgewählten Inhalt fett, kursiv und den ausgewählten Inhalt unterstreichen. Der Inhalt der gültigen offenen Tags wird dann zusammengeführt und unter einem einzigen Element angezeigt. Sie können beispielsweise den Inhalt innerhalb eines Absatzes auswählen und die Auswahl auf einen anderen Absatz erweitern. Wenn Sie dann den ausgewählten Inhalt fett formatieren, wird der gesamte fettgedruckte Inhalt aus den geöffneten Tags zusammengeführt und unter einem einzigen Absatzelement angezeigt.
+
+>[!ENDTABS]
+
+- Löschen: Wenn Sie den ausgewählten Inhalt löschen, wird der verbleibende Inhalt nach dem Löschen in den geöffneten Tags zusammengeführt.
 
 - Den Inhalt mit einem gültigen Element umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element einzuschließen:
 
    - Wählen Sie den Inhalt in einem Element aus.
-   - Wählen Sie ![&#x200B; oben in der Symbolleiste das Symbol &#x200B;](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
+   - Wählen Sie ![ oben in der Symbolleiste das Symbol ](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
+
      >[!NOTE]
      >
      > Sie können das Dialogfeld Element einfügen auch anzeigen, indem Sie auf das Kontextmenü des ausgewählten Inhalts klicken.
@@ -70,15 +105,40 @@ Das rechte Bedienfeld wird ebenfalls wieder geöffnet und zeigt dieselbe Ansicht
 
 Experience Manager Guides stellt die Arbeitskopie-Anzeige bereit, die anzeigt, ob die aktuelle \(Arbeitskopie\) der Datei mit der gespeicherten Version synchronisiert ist oder nicht. Wenn Sie Änderungen an Ihrer aktuellen Kopie vorgenommen und Ihre Datei nicht gespeichert haben, wird auf der Registerkarte Datei des Themas ein \*-Zeichen zusammen mit dem Titel angezeigt. Diese Anzeige dient als Erinnerung zum Speichern Ihrer Änderungen und verschwindet, wenn Sie Ihre Datei speichern.
 
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+Diese Ansicht zeigt an, wie der Inhalt im neuen Editor gerendert wird.
+
+![Arbeitskopie-Anzeige](images/working-copy-text-update-indicator-new-editor-2-0.png){width="550"}
+
+>[!TAB Alter Editor]
+
+Diese Ansicht zeigt an, wie der Inhalt im alten Editor gerendert wird.
+
 ![Arbeitskopie-Anzeige](images/working-copy-text-update-indicator.png){width="550"}
+
+>[!ENDTABS]
 
 Experience Manager Guides gibt auch an, ob die zuletzt gespeicherte \(Working\)-Kopie der Datei mit der gespeicherten Version synchronisiert ist. Wenn Sie einige nicht gespeicherte Änderungen zwischen der Arbeitskopie und der zuletzt gespeicherten Version haben, wird ein \*-Zeichen zusammen mit den Versionsinformationen angezeigt, die in der rechten oberen Ecke der Registerkarte Datei des Themas angezeigt werden. Dieser Indikator dient als Erinnerung daran, eine Version aus Ihrer aktuellen \(Working\) Kopie der Datei zu speichern und zu erstellen.
 
 >[!NOTE]
 >
-> Bei allen Änderungen an den Metadatenfeldern, die unter [Dateieigenschaften](./web-editor-right-panel.md#file-properties) verfügbar sind, wird auch der Trigger Arbeitskopie in der Dokumentversion angezeigt.
+> Bei allen Änderungen an den Metadatenfeldern, die unter [Dateieigenschaften](./web-editor-right-panel.md#file-properties) verfügbar sind oder auf das Backend angewendet werden, wird auch das Sternchen `(*)` der Dokumentversion Trigger.  Um zu verhindern, dass systemgenerierte Metadatenaktualisierungen diese Anzeige beeinflussen, können Admins eine Ignorieren-Liste für Metadateneigenschaften konfigurieren. Weitere Informationen zum Konfigurieren von Metadateneigenschaften finden Sie unter [Konfigurieren der Ignorieren-Liste von Metadateneigenschaften](../install-conf-guide/conf-metadata-prop.md).
 
-![Versionsaktualisierungsanzeige](images/version-update-indicator.png){width="550"}
+>[!BEGINTABS]
+
+>[!TAB Neuer Editor]
+
+![Versionsaktualisierungsanzeige](images/version-update-indicator-editor-2-0.png){width="650"}
+
+>[!TAB Alter Editor]
+
+![Versionsaktualisierungsanzeige](images/version-update-indicator.png){width="650"}
+
+
+>[!ENDTABS]
 
 ## Zugriff auf gesperrte Dateien im Authoring- und Source-Modus
 
@@ -120,4 +180,4 @@ Sie können die Funktion zum Suchen der Datei mit der Option **Dateien immer im 
 >
 >Ab Version 2025.11.0 wird die Einstellung **Dateien im Repository immer finden** in **Dateien immer im Explorer suchen** umbenannt. Bei On-Premise-Setups ist sie weiterhin verfügbar, da sie bis Version 5.1 von Experience Manager Guides immer Dateien im Repository finden.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Editor](web-editor.md)

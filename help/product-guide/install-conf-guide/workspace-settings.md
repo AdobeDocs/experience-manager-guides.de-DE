@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die verschiedenen Einstellungen, die in der
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2275'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md
 
 - **Zitate**
 
-  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von &#x200B;](../user-guide/web-editor-apply-citations.md#change-citation-style).
+  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von ](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Bedingung**
 
@@ -82,7 +82,17 @@ Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md
    - **Betreffschema im Bedienfeld Bedingungen anzeigen**: Wählen Sie diese Option, um ein Betreffschema im Bedienfeld Bedingungen anzuzeigen. Wenn Sie diese Option deaktivieren, werden die definierten Bedingungen im Bedienfeld Bedingungen angezeigt.
 
 - **Rechtschreibprüfung**
-Es gibt zwei Optionen: **AEM-** und **Browser-Rechtschreibprüfung**. Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird. Sie können zur AEM-Rechtschreibprüfung wechseln, um das Adobe Experience Manager-Wörterbuch zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen des AEM-Wörterbuchs finden Sie [&#x200B; Abschnitt „Anpassen des Standardwörterbuchs von AEM](../install-conf-guide/customize-aem-default-dictionary.md) im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+
+  Es gibt zwei Möglichkeiten: AEM-Rechtschreibprüfung und Browser-Rechtschreibprüfung.
+
+   - **Rechtschreibprüfung des Browsers**: Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird.
+
+   - **AEM-Rechtschreibprüfung**: Sie können zur AEM-Rechtschreibprüfung wechseln, um das Wörterbuch von Adobe Experience Manager zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen von AEM-Wörterbüchern finden Sie unter [Anpassen des AEM-Standardwörterbuchs](../install-conf-guide/customize-aem-default-dictionary.md).
+
+     >[!NOTE]
+     >
+     > Die AEM-Rechtschreibprüfung verwendet die in der Spracheigenschaft der Datei ausgewählte Sprache. Wenn die Sprache für die Datei nicht angegeben ist, wird die Rechtschreibprüfung auf die AEM-Serversprache zurückgesetzt.
+     >Um präzise Ergebnisse der Rechtschreibprüfung sicherzustellen, muss das Wörterbuch für die ausgewählte Sprache in AEM verfügbar sein. Wenn das erforderliche Wörterbuch für die konfigurierte Sprache nicht verfügbar ist, wird für die Rechtschreibprüfung standardmäßig `en_us` festgelegt.
 
 
 ## Bedienfelder
@@ -237,7 +247,7 @@ Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum �
       >
       > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
-   1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![&#x200B; Sprachgruppen zu bearbeiten &#x200B;](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![&#x200B; oder zu löschen](../user-guide/images/Delete_icon.svg).
+   1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](../user-guide/images/Delete_icon.svg).
    1. Speichern Sie die **Einstellungen**.
 
       >[!NOTE]

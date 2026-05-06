@@ -4,7 +4,7 @@ description: Hier erfahren Sie, wie Kennzeichnungen für verschiedene Versionen 
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -25,8 +25,6 @@ Führen Sie die folgenden Schritte aus, um Ihrem Thema über den Editor einen Ti
 
 1. Navigieren Sie im Repository-Bereich zu einem Thema und öffnen Sie es im Editor.
 1. Wählen Sie **Versionsbezeichnung** aus der Dropdown-Liste **Menü** aus.
-
-   ![](images/version-label-option.png){width="400"}
 
    Das **Versionskennzeichenverwaltung** wird angezeigt.
 
@@ -81,4 +79,4 @@ Um eine Versionsbeschriftung aus einem Thema zu löschen, verwenden Sie die Scha
 ![](images/delete-labels.png){width="300"}
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
