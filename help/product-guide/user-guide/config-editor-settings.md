@@ -3,7 +3,7 @@ title: Editor-Einstellungen
 description: Erfahren Sie, wie Sie Editor-Einstellungen in AEM Guides konfigurieren.
 feature: Web Editor
 role: User
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Editor-Einstellungen
 
->[!INFO]
+>[!NOTE]
 >
-> Dieser Artikel gilt für den neuen Editor. Wenden Sie sich an das AEM Guides Customer Success-Team , um den neuen Editor in Ihrer Umgebung aktivieren zu lassen.
+> Dieser Artikel gilt nur für den neuen Editor. Wenden Sie sich an das AEM Guides Customer Success-Team, um diese Funktion in Ihrer Umgebung zu aktivieren.
 
 Die Editor-Einstellungen bieten ein zentralisiertes Konfigurationsbedienfeld, mit dem Sie das Editor-Verhalten auf individueller Autorenebene anpassen können. Sie bietet mehr Flexibilität, Konsistenz und Kontrolle während des Authoring-Prozesses.
 
