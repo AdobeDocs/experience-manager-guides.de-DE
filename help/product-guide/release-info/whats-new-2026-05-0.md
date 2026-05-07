@@ -2,9 +2,9 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2026.05.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2026.05.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Weitere Informationen finden Sie unter [Inhaltseigenschaften](../user-guide/web-
 
 Im Rahmen dieser Version wurden die folgenden Verbesserungen vorgenommen:
 
-- Sie können jetzt **automatische Erinnerungen** aktivieren, um AEM-Benachrichtigungen und E-Mail-Erinnerungen für Prüfer zu planen, und zwar sowohl vor als auch nach dem Fälligkeitsdatum einer Prüfungsaufgabe. Sie können jeweils mehrere Erinnerungen konfigurieren, wobei überfällige Erinnerungen in einer definierten Reihenfolge gesendet und überfällige Erinnerungen ausgelöst werden, nachdem die Aufgabe basierend auf dem konfigurierten Erinnerungszeitplan als überfällig markiert wurde. Weitere Informationen zum Konfigurieren der Erinnerungen für Prüfungsaufgaben finden Sie unter [Senden von Themen zur Überprüfung](../user-guide/review-send-topics-for-review.md#send-one-or-more-topics-for-review).
+- Sie können jetzt **automatische Erinnerungen** aktivieren, um AEM-Benachrichtigungen und E-Mail-Erinnerungen für Prüfer zu planen, und zwar sowohl vor als auch nach dem Fälligkeitsdatum einer Prüfungsaufgabe. Sie können jeweils mehrere Erinnerungen konfigurieren, wobei überfällige Erinnerungen in einer definierten Reihenfolge gesendet und überfällige Erinnerungen ausgelöst werden, nachdem die Aufgabe basierend auf dem konfigurierten Erinnerungszeitplan als überfällig markiert wurde. Weitere Informationen finden Sie unter [Senden von Themen zur Überprüfung](../user-guide/review-send-topics-for-review.md).
 
 - Reviewer können jetzt auf den Versionsverlauf für zu überprüfende Themen zugreifen, sodass sie zuvor überprüfte und aktualisierte Versionen desselben Themas in vorherigen Prüfungsaufgaben anzeigen und vergleichen können. Auf diese Weise können Validierungsverantwortliche Änderungen, die seit früheren Überprüfungszyklen vorgenommen wurden, validieren und die Kontinuität gewahrt werden, indem sie Kommentare, Beschriftungen und andere zugehörige Details im aktuellen Überprüfungskontext überprüfen. Weitere Informationen finden Sie unter [Versionsverlauf für den Reviewer](../user-guide/review-topics.md#version-history-for-the-reviewer).
 
