@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die Änderungen im Erweiterungs-Framework f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f38264b6ce09366d07cdd302c9c53e8abcf4b7c
+source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 4%
@@ -745,7 +745,7 @@ Dekorationen werden durch eine `id` identifiziert, sodass sie jederzeit unabhän
   };
   ```
 
-## Einfügen von CSS in den Editor
+## CSS in den Editor einfügen
 
 Der DITA-Editor für Handbücher lädt seine Inhaltsstile für den Autorenmodus aus einer Client-Bibliothek mit der Kategorie `apps.guides.dita_editor.content`. Diese Client-Bibliothek verfügt über eine `embed`-Deklaration, die automatisch alle unter der Kategorie registrierten Client-Bibliotheken abruft:
 
