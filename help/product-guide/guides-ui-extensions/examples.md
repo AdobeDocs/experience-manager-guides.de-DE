@@ -2,9 +2,15 @@
 title: Beispiele
 description: Liste der Anpassungsbeispiele
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
-source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
+TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -19,7 +25,7 @@ In diesem Beispiel haben wir das `file_options` Kontextmenü angepasst, um die O
 2. [Linkes Bedienfeld](./examples/left_panel_container.ts)
 In diesem Beispiel haben wir die `left tab panel` so angepasst, dass sie eine weitere `tab` mit dem Titel „TESTERWEITERUNG“ und einen entsprechenden `tab panel` mit der Bezeichnung `Test Tab Panel` enthält.
 
-3. [Rechtes Bedienfeld](./examples/right_panel_container.ts)
+3. [Bereich rechts](./examples/right_panel_container.ts)
 In diesem Beispiel haben wir die `right tab panel` so angepasst, dass sie eine weitere `tab` mit dem Titel „TESTERWEITERUNG“ und einen entsprechenden `tab panel` mit einer Kennzeichnung enthält: `New Tab Panel`
 
 4. [Repository-Bedienfeld](./examples/repository_panel.ts)
@@ -54,7 +60,7 @@ In dieser Datei berechnen und weisen wir die eindeutige Kommentar-ID zu, die in 
 
 5. [Bedienfeld „Topic Reviews](./examples/review_app_examples/topic_reviews.ts): Diese Datei erweitert [Inline-Überprüfungsfeld](./examples/review_app_examples/inline_review_panel.ts) so, dass hinzugefügte Anpassungen auch auf der Seite der Überprüfungsanwendung funktionieren.
 
-6. [Akzeptieren mit Dialogfeld „Änderung“](./examples/review_app_examples/accept_with_modification_dialog.ts)
+6. [Mit Modifizierung akzeptieren](./examples/review_app_examples/accept_with_modification_dialog.ts)
 Dies ist ein Beispiel für das Hinzufügen neuer Widgets zur App. Hier haben wir ein neues Dialogfeld erstellt, das zwei Eingabetextfelder enthält: `Revised Text` und `Adjudicator Comment Rationale`
 
 7. [Revision speichern](./examples/save_revision.ts)
@@ -64,5 +70,5 @@ Dies ist ein Beispiel für die Aktualisierung eines vorhandenen Dialogfelds. Wir
 
 Hier finden Sie das Überprüfungsfenster vor und nach der Anpassung:
 
-![Prüfungsbereich;](./imgs/review_panel.png)
+![Überprüfungsausschuss;](./imgs/review_panel.png)
 ![Akzeptieren mit Dialogfeld „Änderung“](./imgs/customised_review_panel.png)

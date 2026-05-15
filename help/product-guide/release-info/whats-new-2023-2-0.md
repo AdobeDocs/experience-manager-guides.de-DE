@@ -1,12 +1,23 @@
 ---
-title: Versionshinweise zu | Adobe Experience Manager Guides as a Cloud Service, Version Februar 2023
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version Februar 2023
 description: Februarversion von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/8alpUFz4njJtpUZrGcZ5wdrbmqSGOjSVqaHX1T4YeJ4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: 1445
 ht-degree: 0%
 
 ---
@@ -87,7 +98,7 @@ Einige der Verweise auf Ihrem Übersetzungs-Dashboard sind möglicherweise in Be
 
 ## Generieren von Ausgaben in verschiedenen Formaten aus dem Web-Editor
 
-Jetzt können Sie die Ausgabe für Ihre Themen oder DITA-Map einfach aus dem Web-Editor generieren. Sie können verschiedene Ausgabevorgaben wie AEM-Site, PDF, HTML5,
+Jetzt können Sie die Ausgabe für Ihre Themen oder DITA-Map einfach aus dem Web-Editor generieren. Sie können verschiedene Ausgabevoreinstellungen wie AEM Site, PDF, HTML5,
 JSON (ein Headless-Ausgabeformat) und benutzerdefinierte Ausgabe. Sie können diese dann verwenden, um die entsprechenden Ausgaben zu generieren.
 
 Sie können Attribute in Ihren DITA-Themen definieren und dann die Bedingungsvorgabe verwenden, um eine Bedingung beim Veröffentlichen der Ausgabe anzuwenden. Sie können die Funktion „Baseline-Veröffentlichung“ auch verwenden, um eine bestimmte Version Ihrer DITA-Karte oder Ihres Themas selektiv zu veröffentlichen.
@@ -122,27 +133,27 @@ Jetzt können Sie in AEM Guides die Option **Titel im Editor verwenden und Zuord
 
 ## Microservice-basierte Veröffentlichung für AEM Guides as a Cloud Service
 
-Der neue Publishing-Microservice ermöglicht es Ihnen, große Publishing-Workloads gleichzeitig auf AEM Guides as a Cloud Service auszuführen und die branchenführende Server-lose Adobe I/O Runtime-Plattform zu nutzen.
+Der neue Publishing-Microservice ermöglicht es Ihnen, große Publishing-Workloads gleichzeitig auf AEM Guides as a Cloud Service auszuführen und die branchenführende Adobe I/O Runtime Server-lose Plattform zu nutzen.
 
 Für jede Veröffentlichungsanfrage führt AEM Guides as a Cloud Service einen separaten Container aus, der gemäß den Benutzeranfragen horizontal skaliert werden kann. Dadurch können Sie mehrere Veröffentlichungsanfragen ausführen und eine verbesserte Leistung erzielen.
 
-Weitere Informationen finden Sie unter [Konfigurieren einer neuen, auf Microservices basierenden Veröffentlichung für AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
+Weitere Informationen finden Sie unter [Konfigurieren neuer Microservice-basierter Veröffentlichungen für AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
 ## Native PDF | Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe
 
-Jetzt können Sie ein benutzerdefiniertes Lesezeichen zu einem bestimmten Inhalt in Ihrer endgültigen PDF-Ausgabe hinzufügen, um die Navigation zu erleichtern. Dies wird dem Inhaltsverzeichnis hinzugefügt, das aus den Themen- oder Abschnittstiteln in Ihrer DITA-Karte erstellt wird.
+Jetzt können Sie ein benutzerdefiniertes Lesezeichen für einen bestimmten Inhalt in Ihrer endgültigen PDF-Ausgabe hinzufügen, um die Navigation zu erleichtern. Dies wird dem Inhaltsverzeichnis hinzugefügt, das aus den Themen- oder Abschnittstiteln in Ihrer DITA-Karte erstellt wird.
 
 ## Native PDF | Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte
 
 AEM Guides bietet die Funktion, benutzerdefinierte Stile auf Inhaltsverzeichniseinträge oder ein bestimmtes Thema in der PDF-Ausgabe anzuwenden. Sie können beispielsweise die Farbe des Textes im Inhaltsverzeichnis und den Titel des Themas ändern. Sie können auch Stile auf den gesamten Inhalt innerhalb des Themas anwenden.
 
 
-## Native PDF | Formatieren der Seitenmarkierung in der Fußnoten -Komponente
+## Native PDF | Formatieren der Seitenmarkierung in der Fußnotenkomponente
 
 Jetzt können Sie die Seitenmarkierung in den Fußnoten formatieren. Sie können beispielsweise Klammern hinzufügen oder deren Farbe ändern. Diese Stile helfen den Benutzenden, die Seitenmarkierungen im Dokument leicht zu identifizieren.
 
 ## Native PDF | Ändern der Leiste, um geänderte Themen im Inhaltsverzeichnis anzuzeigen
 
-Mit AEM Guides können Sie nun die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe schnell identifizieren.  Links neben den geänderten Themen im Inhaltsverzeichnis wird eine Änderungsleiste angezeigt. Sie können auf das Thema im Inhaltsverzeichnis klicken und die detaillierten Änderungen anzeigen.
+Mit AEM Guides können Sie jetzt schnell die geänderten Themen im Inhaltsverzeichnis der PDF-Ausgabe identifizieren.  Links neben den geänderten Themen im Inhaltsverzeichnis wird eine Änderungsleiste angezeigt. Sie können auf das Thema im Inhaltsverzeichnis klicken und die detaillierten Änderungen anzeigen.
 
 <img src="assets/change-marker-toc.png" alt="Marker im Inhaltsverzeichnis ändern " width="500">

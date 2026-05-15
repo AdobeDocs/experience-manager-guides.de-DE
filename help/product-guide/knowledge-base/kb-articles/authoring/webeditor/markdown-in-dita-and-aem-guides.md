@@ -3,9 +3,22 @@ title: Verwenden von Markdown in DITA AEM Guides
 description: Migrieren und Markdown in DITA AEM Guides verwenden
 author: Pulkit Nagpal(punagpal)
 exl-id: a94c0129-df40-4b61-ac60-679b2ffe7e86
-source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
+TQID: https://experienceleague.adobe.com/z41KjrBkAeDaH-iKXOFLH44qOQElziip1FqcRhnKaUI
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 281
 ht-degree: 0%
 
 ---
@@ -33,7 +46,7 @@ Beispieldatei : [Markdown-](https://acrobat.adobe.com/id/urn:aaid:sc:AP:da31137e
 ![Screenshot als Referenz](../../assets/authoring/markdown_map.png)
 
 
-#### Publish zu PDF und Web-Ausgabe
+#### In PDF veröffentlichen und Web-Ausgabe
 
 AEM Guides bietet sowohl Web (HTML5/AEM-Site) als auch PDF (Native-PDF/DITA-OT) die Möglichkeit, Ditamap mit Markdown-Inhalten zu veröffentlichen
 
@@ -50,7 +63,7 @@ Für DITA-OT siehe : [Markdown als Eingabe](https://www.dita-ot.org/dev/topics/m
 
 Beispieldatei, die mit Adobe FrameMaker konvertiert wurde : [Beispiel für Markdown in DITA](https://acrobat.adobe.com/id/urn:aaid:sc:AP:874881f3-ba43-410c-abc6-2df899536d79)
 
-#### Publish zu PDF und Web-Ausgabe
+#### In PDF veröffentlichen und Web-Ausgabe
 
 Sobald Markdown-Dateien in DITA konvertiert wurden, können Benutzerinnen und Benutzer die Ausgabe nahtlos in allen in AEM Guides verfügbaren Formaten veröffentlichen.
 

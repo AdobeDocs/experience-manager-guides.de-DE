@@ -1,19 +1,31 @@
 ---
-title: Konfigurieren der neuen auf Microservices basierenden Veröffentlichung für AEM Guides as a Cloud Service
+title: Konfigurieren der neuen Microservice-basierten Veröffentlichung für AEM Guides as a Cloud Service
 description: Erfahren Sie, wie Sie eine neue, auf Microservices basierende Veröffentlichung für AEM Guides konfigurieren.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
+TQID: https://experienceleague.adobe.com/1M-gDrJclVMkYHOo69FPmKqkJvzYaDHK0ljK5dIh-tA
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 2%
+source-wordcount: 740
+ht-degree: 3%
 
 ---
 
 # Konfigurieren von auf Microservices basierender Veröffentlichung mit JWT-Authentifizierung
 
-[!BADGE Cloud Service &#x200B;]{type=Informative}
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
@@ -21,11 +33,11 @@ ht-degree: 2%
 
 
 
-Microservice-basierte Veröffentlichung in für Adobe Experience Manager Guides as a Cloud Service unterstützt PDF (sowohl native als auch DITA-OT-basierte), HTML5, JSON und benutzerdefinierte Typen von Ausgabevorgaben.
+Die auf Microservices basierende Veröffentlichung in für Adobe Experience Manager Guides as a Cloud Service unterstützt sowohl native als auch DITA-OT-basierte PDF-, HTML5-, JSON- und BENUTZERDEFINIERTE Typen von Ausgabevorgaben.
 
 Da die Anmeldeinformationen für das Service-Konto (JWT) veraltet sind, wird empfohlen, die OAuth-basierte Authentifizierung für Adobe IMS zu verwenden. Erfahren Sie, wie [Microservice-basierte Veröffentlichung mit OAuth-Authentifizierung konfigurieren](configure-microservices-imt-config.md).
 
-Für den Cloud-Publishing-Service, der durch die JWT-basierte Authentifizierung von Adobe IMS gesichert ist, sollten Kunden die folgenden Schritte ausführen, um ihre Umgebungen mit sicheren Token-basierten Authentifizierungs-Workflows von Adobe zu integrieren, und mit der Verwendung der neuen Cloud-basierten skalierbaren Publishing-Lösung beginnen.
+Für den Cloud-Publishing-Service, der durch Adobe IMS JWT-basierte Authentifizierung gesichert ist, sollten Kunden die folgenden Schritte ausführen, um ihre Umgebungen mit den sicheren Token-basierten Authentifizierungs-Workflows von Adobe zu integrieren und mit der Verwendung der neuen Cloud-basierten skalierbaren Publishing-Lösung zu beginnen.
 
 
 ## Erstellen von IMS-Konfigurationen in Adobe Developer Console

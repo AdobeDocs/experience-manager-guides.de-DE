@@ -1,13 +1,34 @@
 ---
-title: Versionshinweise zu | Aktualisierungsanweisungen und behobene Probleme in Adobe Experience Manager Guides, Version vom November 2023
+title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides, Version November 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Version vom November 2023 von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 80839890-075f-4187-a167-444c73215496
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/LUI-d06rZGiDMXwm0x6m4LAkppl0O5ceCWFhaTiJff0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1673'
-ht-degree: 1%
+source-wordcount: 1694
+ht-degree: 3%
 
 ---
 
@@ -91,7 +112,7 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzuverarbei
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene und in der Themenliste auf der Registerkarte „Berichte“ zu verwenden:
 
-1. Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional) Sie können bestimmte Pfade der Karten übergeben, um sie zu indizieren. Standardmäßig werden alle Karten indiziert || Beispiel: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert. || Beispiel: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Zuordnungen eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
@@ -143,59 +164,59 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Authoring
 
-- Leerzeichen nach dem conref`<ph>`Element verschwindet beim Speichern des Themas. 13642)
-- Anwendungsfehler tritt auf, wenn versucht wird, DITA-Dateien zu speichern, bevor die Nachbearbeitung abgeschlossen ist. 13571)
-- Wenn der Titel eines Themas einen Schrägstrich `/`, werden auf der Registerkarte im Editor nur die nachfolgenden Briefe angezeigt. 13455)
-- Die Bildvorschau verschwindet nicht, nachdem die Vorschau im Editor angezeigt wurde. 13454)
-- Das Popup-Fenster zum Einfügen von Keywords wird nicht angezeigt, wenn in anderen Themen Schlüssel verwendet werden, die für die Stammzuordnung definiert sind. 12950)
-- Schließen-Symbole werden nicht angezeigt, wenn im Bedienfeld Versionsverlauf sehr hohe Grafiken in der Vorschau angezeigt werden. 12867)
-- Die Zeitzone der Spalte **Version erstellt am** für die Baselines kann nicht geändert werden. 12711)
-- Das **Versionsverlauf** in der Assets-Benutzeroberfläche zeigt einen falschen Zeitstempel für das Feld **Aktuell** an. 12624)
-- Das Erstellen einer DITA-Datei aus einer Vorlage mit einem Dateinamen, der mit numerischen Zeichen beginnt, führt zu einem Namespace-Fehler. 12188)
-- Im Web-Editor wird das Fenster **Schlüsselverweise** beim Einfügen des `varname`-Tags geöffnet. 10940)
-- Zip-Dateien werden im Web-Editor nicht erkannt und können nicht per Drag-and-Drop eingefügt werden. 12709)
-- Der Inhalt mit einigen darauf angewendeten Attributen wird im Autoren- oder Vorschaumodus nicht hervorgehoben. 11063)
-- Wenn Sie ein Thema nach der Bearbeitung schließen, werden Sie zur AEM-Startseite weitergeleitet, anstatt zur Ordneransicht zurückzukehren. 13306)
-- Eine Verzögerung tritt bei der Nachbearbeitung von Dateien auf, die kopiert und in die Cloud-Services eingefügt wurden. 12457)
-- Die Rootmap-Einstellung bleibt im Web-Editor erhalten, auch wenn sie nicht explizit in den Benutzereinstellungen festgelegt wurde. 11551)
+- Leerzeichen nach dem conref`<ph>`Element verschwindet beim Speichern des Themas. (13642)
+- Anwendungsfehler tritt auf, wenn versucht wird, DITA-Dateien zu speichern, bevor die Nachbearbeitung abgeschlossen ist. (13571)
+- Wenn der Titel eines Themas einen Schrägstrich `/`, werden auf der Registerkarte im Editor nur die nachfolgenden Briefe angezeigt. (13455)
+- Die Bildvorschau verschwindet nicht, nachdem die Vorschau im Editor angezeigt wurde. (13454)
+- Das Popup-Fenster zum Einfügen von Keywords wird nicht angezeigt, wenn in anderen Themen Schlüssel verwendet werden, die für die Stammzuordnung definiert sind. (12950)
+- Schließen-Symbole werden nicht angezeigt, wenn im Bedienfeld Versionsverlauf sehr hohe Grafiken in der Vorschau angezeigt werden. (12867)
+- Die Zeitzone der Spalte **Version erstellt am** für die Baselines kann nicht geändert werden. (12711)
+- Das **Versionsverlauf** in der Assets-Benutzeroberfläche zeigt einen falschen Zeitstempel für das Feld **Aktuell** an. (12624)
+- Das Erstellen einer DITA-Datei aus einer Vorlage mit einem Dateinamen, der mit numerischen Zeichen beginnt, führt zu einem Namespace-Fehler. (12188)
+- Im Web-Editor wird das Fenster **Schlüsselverweise** beim Einfügen des `varname`-Tags geöffnet. (10940)
+- Zip-Dateien werden im Web-Editor nicht erkannt und können nicht per Drag-and-Drop eingefügt werden. (12709)
+- Der Inhalt mit einigen darauf angewendeten Attributen wird im Autoren- oder Vorschaumodus nicht hervorgehoben. (11063)
+- Wenn Sie ein Thema nach der Bearbeitung schließen, werden Sie zur AEM-Startseite weitergeleitet, anstatt zur Ordneransicht zurückzukehren. (13306)
+- Eine Verzögerung tritt bei der Nachbearbeitung von Dateien auf, die kopiert und in die Cloud-Services eingefügt wurden. (12457)
+- Die Rootmap-Einstellung bleibt im Web-Editor erhalten, auch wenn sie nicht explizit in den Benutzereinstellungen festgelegt wurde. (11551)
 
 
 ### Publishing
 
-- Die Funktion „Als Inhaltsfragment veröffentlichen“ funktioniert nicht für Dateien, die in Suchergebnissen aufgelistet sind. 14090)
-- In der nativen PDF-Veröffentlichung erfordert die Hintergrundfarbauswahl im Vorlagen-Layout ein erneutes Laden der Seite, wenn auf `None` zurückgesetzt wird. 13621)
-- Problem beim Übertragen von Daten in den Datenspeicher für eine große DITA-Zuordnung mit Umfang und Peer-Links in der AEM-Site-Veröffentlichung. 13530)
-- In der nativen PDF-Veröffentlichung ist die Barrierefreiheit gefährdet, da Bilder in Kopf- und Fußzeile keinen Alternativtext anzeigen. 12829)
-- Das Duplizieren des Seiten-Layouts im nativen PDF funktioniert nicht, wenn automatisch keine Erweiterung hinzugefügt wird. 12534)
-- Beim Generieren der PDF-Ausgabe mit nativer PDF-Veröffentlichung wird der Dateiname nach einem Zeitraum abgeschnitten. 13620)
-- In der Symbolleiste Seitenlayouts der Vorlagen, **in der nativen Veröffentlichung von PDF verwendet werden, werden für die Option Inhalt bearbeiten** ein falsches Symbol und eine falsche QuickInfo angezeigt. 13492)
-- Benutzerdefinierte Metadaten sind in der endgültigen Ausgabe nicht verfügbar. 12116)
-- fmdita rewriter steht in Konflikt mit der Rewriter-Konfiguration des Benutzers und führt zur Anzeige langer URLs anstelle der Links. 12076)
-- In der AEM-Site-Voreinstellung ist die Option **Für jedes Thema separate PDF generieren** nicht funktionsfähig. 11555)
-- Die native PDF-Veröffentlichung bietet keine Unterstützung für die CMYK-Farbraumkonvertierung. 10754)
-- Dynamische Baseline-Aufrufe verwenden den Namen anstelle des Titels, was dazu führt, dass die Export-DITA-Zuordnungs-API fehlschlägt. 14268)
+- Die Funktion „Als Inhaltsfragment veröffentlichen“ funktioniert nicht für Dateien, die in Suchergebnissen aufgelistet sind. (14090)
+- In der nativen PDF-Veröffentlichung erfordert die Hintergrundfarbauswahl im Vorlagen-Layout ein erneutes Laden der Seite, wenn auf `None` zurückgesetzt wird. (13621)
+- Problem beim Übertragen von Daten in den Datenspeicher für eine große DITA-Zuordnung mit Umfang und Peer-Links in der AEM-Site-Veröffentlichung. (13530)
+- In der nativen PDF-Veröffentlichung ist die Barrierefreiheit gefährdet, da Bilder in Kopf- und Fußzeile keinen Alternativtext anzeigen. (12829)
+- Das Duplizieren des Seiten-Layouts im nativen PDF funktioniert nicht, wenn automatisch keine Erweiterung hinzugefügt wird. (12534)
+- Beim Generieren der PDF-Ausgabe mit nativer PDF-Veröffentlichung wird der Dateiname nach einem Zeitraum abgeschnitten. (13620)
+- In der Symbolleiste Seitenlayouts der Vorlagen, **in der nativen Veröffentlichung von PDF verwendet werden, werden für die Option Inhalt bearbeiten** ein falsches Symbol und eine falsche QuickInfo angezeigt. (13492)
+- Benutzerdefinierte Metadaten sind in der endgültigen Ausgabe nicht verfügbar. (12116)
+- fmdita rewriter steht in Konflikt mit der Rewriter-Konfiguration des Benutzers und führt zur Anzeige langer URLs anstelle der Links. (12076)
+- In der AEM-Site-Voreinstellung ist die Option **Für jedes Thema separate PDF generieren** nicht funktionsfähig. (11555)
+- Die native PDF-Veröffentlichung bietet keine Unterstützung für die CMYK-Farbraumkonvertierung. (10754)
+- Dynamische Baseline-Aufrufe verwenden den Namen anstelle des Titels, was dazu führt, dass die Export-DITA-Zuordnungs-API fehlschlägt. (14268)
 
 ### Verwaltung
 
-- Der Inhaltsverweis ist beim Kopieren und Einfügen der DITA-Dateien mit Selbstverweis-Links ohne GUID fehlerhaft. 13540)
-- Im Web-Editor zeigt die Grundlinie den Titel für die vorherige Version anstelle der ausgewählten Version der DITA-Datei an. 13444)
-- Die Registerkarte **Berichte** in der Benutzeroberfläche des Web-Editors zeigt nicht die Themenliste für alte DITA-Zuordnungen an, die vor dem Upgrade von Experience Manager Guides as a Cloud Service im Juli 2023 erstellt wurden. 11852)
-- Bedingungsvorgaben für eine große DITA-Karte werden nicht erstellt. 10936)
-- Unter der Liste der fehlerhaften Links in Berichten wird ein Selbstverweis-Link angezeigt. 13539)
+- Der Inhaltsverweis ist beim Kopieren und Einfügen der DITA-Dateien mit Selbstverweis-Links ohne GUID fehlerhaft. (13540)
+- Im Web-Editor zeigt die Grundlinie den Titel für die vorherige Version anstelle der ausgewählten Version der DITA-Datei an. (13444)
+- Die Registerkarte **Berichte** in der Benutzeroberfläche des Web-Editors zeigt nicht die Themenliste für alte DITA-Zuordnungen an, die vor dem Upgrade von Experience Manager Guides as a Cloud Service im Juli 2023 erstellt wurden. (11852)
+- Bedingungsvorgaben für eine große DITA-Karte werden nicht erstellt. (10936)
+- Unter der Liste der fehlerhaften Links in Berichten wird ein Selbstverweis-Link angezeigt. (13539)
 
 ### Überprüfung
 
-- In der Experience Manager Guides as a Cloud Service-Version vom Oktober 2023 sind die Review-Bedienfelder, die im Web-Editor nebeneinander angezeigt werden, nicht korrekt. 14156)
-- Die Anpassung von E **Mail-Vorlagen für** Review) funktioniert nicht, wenn sich die Knoten überlagern. 13954)
-- Die Schaltfläche **Schließen** auf der Überprüfungsseite in der Experience Manager Guides bringt Benutzende zur AEM-Homepage. 13535)
-- Beim Erstellen der Snippets in koreanischer Sprache werden fehlerhafte Zeichen angezeigt. 13489)
-- Koreanische Anhänge im Experience Manager Guides-Überprüfungsbildschirm sind nicht anklickbar. 13436)
-- Der Map-Titel wird im Bildschirm Überprüfung und Zusammenarbeit abgeschnitten, ohne Option zum Anzeigen des vollständigen Titels. 13012)
+- In der Experience Manager Guides as a Cloud Service-Version vom Oktober 2023 sind die Review-Bedienfelder, die im Web-Editor nebeneinander angezeigt werden, nicht korrekt. (14156)
+- Die Anpassung von E **Mail-Vorlagen für** Review) funktioniert nicht, wenn sich die Knoten überlagern. (13954)
+- Die Schaltfläche **Schließen** auf der Überprüfungsseite in der Experience Manager Guides bringt Benutzende zur AEM-Homepage. (13535)
+- Beim Erstellen der Snippets in koreanischer Sprache werden fehlerhafte Zeichen angezeigt. (13489)
+- Koreanische Anhänge im Experience Manager Guides-Überprüfungsbildschirm sind nicht anklickbar. (13436)
+- Der Map-Titel wird im Bildschirm Überprüfung und Zusammenarbeit abgeschnitten, ohne Option zum Anzeigen des vollständigen Titels. (13012)
 
 ### Übersetzung
 
-- Die automatische Genehmigung funktioniert manchmal nicht und es treten Ausnahmen auf, wenn ein falscher Wert für „Übersetzungsstatus **festgelegt**. 13607)
-- Die vom Übersetzungs-Dashboard exportierte Baseline schlägt fehl und wird nicht in der Zielsprache geöffnet. 12993)
+- Die automatische Genehmigung funktioniert manchmal nicht und es treten Ausnahmen auf, wenn ein falscher Wert für „Übersetzungsstatus **festgelegt**. (13607)
+- Die vom Übersetzungs-Dashboard exportierte Baseline schlägt fehl und wird nicht in der Zielsprache geöffnet. (12993)
 
 ## Bekanntes Problem
 

@@ -1,13 +1,33 @@
 ---
-title: Versionshinweise zu | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides, Version Dezember 2023
+title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides, Version Dezember 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Version Dezember 2023 von Adobe Experience Manager Guides as a Cloud Service.
 feature: Release Notes
 role: Leader
 exl-id: 63efe42a-b817-49df-8f76-df8d7acf9194
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/dswxcBt1RlZEgMOSEay8bmaQxtgb8kjeSHxKxnGp3g8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 1%
+source-wordcount: 1341
+ht-degree: 3%
 
 ---
 
@@ -91,7 +111,7 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzuverarbei
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene und in der Themenliste auf der Registerkarte „Berichte“ zu verwenden:
 
-1. Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert.|| Beispiel: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`. (Optional: Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert.|| Zum Beispiel: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Zuordnungen eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
@@ -143,41 +163,41 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Authoring
 
-- Der **Titel** auf der Registerkarte „Web-Editor“ wird nach einem Punkt (.) abgeschnitten. 14372)
-- Die Fehlermeldung für doppelte Zuordnungsnamen in der Assets-Benutzeroberfläche wird nicht aktualisiert. 14320)
-- Bei der Versionserstellungslogik tritt während des Drag-and-Drop von Assets ein Fehler auf. 14291)
-- Wiederverwendbarer Inhalt überspringt die Element-IDs. 14213)
-- Das Einstellungssteuerelement zum Ausblenden des **Sprachvariablen** Bedienfelds auf **Ausgabe**-Registerkarte fehlt. 14194)
-- Der Web-Editor gibt Anwendungsfehler aus, wenn ein neuer Verweis oder ein neues Thema mit einem speziellen Schema in der Layout-Ansicht hinzugefügt wird. 14094)
-- Ein Ankerlink zu `<dlentry>` oder `<dt>` Element zeigt den Link-Text nicht an. 13543)
-- Die **Favoriten**-Sammlung im Web-Editor kann nicht geladen werden. 13495)
-- Zitate zeigen nicht anklickbare Links an, wenn sie mit einer eindeutigen ID mit Leerzeichen erstellt wurden. 13447)
-- In der **Layout**-Ansicht für eine Bookmap funktioniert die Verwendung von **Nach rechts verschieben**, um ein ausgewähltes Kapitel zu einem Unterelement zu machen, nicht. 12567)
-- Das Vorschaufenster des XML-Editors ist in den Browsern Google Chrome und Microsoft Edge abgeschnitten. 10755)
+- Der **Titel** auf der Registerkarte „Web-Editor“ wird nach einem Punkt (.) abgeschnitten Zeichen. (14372)
+- Die Fehlermeldung für doppelte Zuordnungsnamen in der Assets-Benutzeroberfläche wird nicht aktualisiert. (14320)
+- Bei der Versionserstellungslogik tritt während des Drag-and-Drop von Assets ein Fehler auf. (14291)
+- Wiederverwendbarer Inhalt überspringt die Element-IDs. (14213)
+- Das Einstellungssteuerelement zum Ausblenden des **Sprachvariablen** Bedienfelds auf **Ausgabe**-Registerkarte fehlt. (14194)
+- Der Web-Editor gibt Anwendungsfehler aus, wenn ein neuer Verweis oder ein neues Thema mit einem speziellen Schema in der Layout-Ansicht hinzugefügt wird. (14094)
+- Ein Ankerlink zu `<dlentry>` oder `<dt>` Element zeigt den Link-Text nicht an. (13543)
+- Die **Favoriten**-Sammlung im Web-Editor kann nicht geladen werden. (13495)
+- Zitate zeigen nicht anklickbare Links an, wenn sie mit einer eindeutigen ID mit Leerzeichen erstellt wurden. (13447)
+- In der **Layout**-Ansicht für eine Bookmap funktioniert die Verwendung von **Nach rechts verschieben**, um ein ausgewähltes Kapitel zu einem Unterelement zu machen, nicht. (12567)
+- Das Vorschaufenster des XML-Editors ist in den Browsern Google Chrome und Microsoft Edge abgeschnitten. (10755)
 - Dem Web-Editor fehlt die Fähigkeit, ein Element in die möglichen übergeordneten Elemente einzuschließen. (8791)
 
 ### Publishing
 
-- FMDITA-Komponenten haben einen hartcodierten Pfad von `delegator.jsp`, der die Überlagerung von AEM Sites-Komponenten verhindert. 13993)
-- Die getaggte Ansicht von PDF Reactor in der nativen PDF-Veröffentlichungsausgabe funktioniert nicht wie erwartet. 13622)
-- Bei der AEM-Site-Veröffentlichung tritt beim Übertragen großer Zuordnungen mit Umfang und Peer-Links auf den Datenspeicher ein Problem auf. 13531)
-- Eine Site kann nicht über das Dashboard für die Massenveröffentlichung in Experience Manager Guides aktiviert werden. 13439)
-- Die Lokalisierung der Elementbeschriftungen funktioniert in der AEM Sites-Ausgabe nicht ordnungsgemäß. 12144)
-- Fehlende Option **ditaval** in den über die Benutzeroberfläche des Web-Editors erstellten Ausgabevorgaben auf Ordnerprofilebene. 11903)
+- FMDITA-Komponenten haben einen hartcodierten Pfad von `delegator.jsp`, der die Überlagerung von AEM Sites-Komponenten verhindert. (13993)
+- Die getaggte Ansicht von PDF Reactor in der nativen PDF-Veröffentlichungsausgabe funktioniert nicht wie erwartet. (13622)
+- Bei der AEM-Site-Veröffentlichung tritt beim Übertragen großer Zuordnungen mit Umfang und Peer-Links auf den Datenspeicher ein Problem auf. (13531)
+- Eine Site kann nicht über das Dashboard für die Massenveröffentlichung in Experience Manager Guides aktiviert werden. (13439)
+- Die Lokalisierung der Elementbeschriftungen funktioniert in der AEM Sites-Ausgabe nicht ordnungsgemäß. (12144)
+- Fehlende Option **ditaval** in den über die Benutzeroberfläche des Web-Editors erstellten Ausgabevorgaben auf Ordnerprofilebene. (11903)
 
 ### Verwaltung
 
-- In AEM-Cloud-Umgebungen tritt aufgrund großer Knoten eine MongoWrite-Ausnahme auf. 13509)
+- In AEM-Cloud-Umgebungen tritt aufgrund großer Knoten eine MongoWrite-Ausnahme auf. (13509)
 
 ### Übersetzung
 
-- Die Schaltflächen **Akzeptieren/Ablehnen** werden fälschlicherweise für die automatisch genehmigte menschliche Übersetzung angezeigt. 14318)
-- Bei der Umwandlung nichtenglischer DITA-Dateien in AEM-Seiten treten Internationalisierungsprobleme (i18n) auf. 14286)
+- Die Schaltflächen **Akzeptieren/Ablehnen** werden fälschlicherweise für die automatisch genehmigte menschliche Übersetzung angezeigt. (14318)
+- Bei der Umwandlung nichtenglischer DITA-Dateien in AEM-Seiten treten Internationalisierungsprobleme (i18n) auf. (14286)
 - Übersetzte Inhalte können nicht mit temporären Übersetzungsprojekten synchronisiert werden, und der DITA XML Editor-Übersetzungs-Assistent zeigt fälschlicherweise den Status **In Bearbeitung** für genehmigte Aufträge an. (9938)
 
 ### Barrierefreiheit
 
-- Die Navigation durch die Benutzeroberfläche der Authoring-Arbeitsfläche ist nicht möglich, da der Fokus im Themen-Editor gefangen ist. 13517)
+- Die Navigation durch die Benutzeroberfläche der Authoring-Arbeitsfläche ist nicht möglich, da der Fokus im Themen-Editor gefangen ist. (13517)
 
 ## Bekanntes Problem
 

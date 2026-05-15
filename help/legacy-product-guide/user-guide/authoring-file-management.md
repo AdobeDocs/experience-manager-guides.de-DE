@@ -5,9 +5,19 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: 3144
 ht-degree: 0%
 
 ---
@@ -138,7 +148,7 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    >[!TIP]
    >
-   > Auswahl <img src="images/info-icon.svg" width="25">   in der Nähe eines beliebigen Felds, um weitere Details dazu anzuzeigen.
+   > Auswahl <img src="images/info-icon.svg" width="25"> in der Nähe eines beliebigen Felds, um weitere Details dazu anzuzeigen.
 
 
    - **Suffix zu doppelten Ordnern hinzufügen**: Wenn Sie Ordner mit demselben Namen verschieben, müssen Sie diese Option auswählen. Im vorherigen Screenshot enthält beispielsweise der Pfad **Source** den Namen der zu verschiebenden Ordner. Der Ordner mit dem Namen „Topic“ ist an zwei verschiedenen Stellen vorhanden - Test-A und Test-B. Wenn Sie diese Option auswählen, werden die Ordner erfolgreich verschoben. Der erste verschobene Ordner erhält den Namen „topic“, der zweite den Namen „topic0“. Der Verschiebungsvorgang fügt den Ordnern mit demselben Namen ein Suffix in der sequenziellen Reihe \(0, 1, 2 usw.) hinzu.
@@ -147,25 +157,25 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
 
-      - Select  **Browse Folder**  <img src="images/browse-folder-icon.svg" width="25">    to open the browse file dialog. Select the folders you want to move and click **Select** to complete the process.
+      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen.
 
-      - You can also type or copy and paste the source location. Press Enter to add the folder to the list.
+      - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 
-        The selected folders are listed along with their path. Hover over the folder tag to view the complete path.
-      - You can also remove any folder by clicking **Remove** <img src="images/remove-folder.svg" width="25"> near the folder.
-
-
-   - **Destination path**: Specify the location where you want to move the source folders.
-
-      - Select  **Browse Folder** <img src="images/browse-folder-icon.svg" width="25"> to open the browse file dialog. Select the location where you want to move the source folders. and click Select to complete the process.
-      - You can also type or copy and paste the destination path.
-
-     The selected folder is displayed along with its path in the text box.
+        Die ausgewählten Ordner werden zusammen mit ihrem Pfad aufgelistet. Bewegen Sie den Mauszeiger über das Ordner-Tag, um den vollständigen Pfad anzuzeigen.
+      - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners.
 
 
-   - Click **Bulk move**.
+   - **Zielpfad**: Geben Sie den Speicherort an, an den Sie die Quellordner verschieben möchten.
 
-     The system starts moving files from the source to destination location. Once the process completes, a summary of the move process is shown at the right of the page.
+      - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und klicken Sie auf Auswählen , um den Vorgang abzuschließen.
+      - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
+
+     Der ausgewählte Ordner wird zusammen mit seinem Pfad im Textfeld angezeigt.
+
+
+   - Klicken Sie **Massenverschieben**.
+
+     Das System beginnt mit dem Verschieben von Dateien vom Quell- zum Zielspeicherort. Nach Abschluss des Vorgangs wird rechts auf der Seite eine Zusammenfassung des Verschiebevorgangs angezeigt.
 
      ![](images/bulk-move-summary-uuid.png){width="650" align="center"}
 
@@ -173,16 +183,16 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    <details>
 
-   <summary> On-premise non-UUID-based file system </summary>
+   <summary> On-Premise, nicht-UUID-basiertes Dateisystem </summary>
 
    ![](images/bulk-move-tool-non-uuid.png){width="650" align="center"}
 
    >[!TIP]
    >
-   > Auswahl <img src="images/info-icon.svg" width="25">   in der Nähe eines beliebigen Felds, um weitere Details dazu anzuzeigen.
+   > Auswahl <img src="images/info-icon.svg" width="25"> in der Nähe eines beliebigen Felds, um weitere Details dazu anzuzeigen.
 
-   - **Batch size**: Specify the number of files to move in a single batch. The default values if 50 files.
-   - **Sleep interval (seconds)**: Specify the time in seconds that the process will wait before starting the next batch. During this sleep time interval, the system fixes the references to and from the moved files. Das standardmäßige Schlafintervall beträgt 60 Sekunden.
+   - **Stapelgröße**: Geben Sie die Anzahl der Dateien an, die in einem Stapel verschoben werden sollen. Die Standardwerte von 50 Dateien.
+   - **Ruheintervall (Sekunden)**: Geben Sie die Zeit in Sekunden an, die der Prozess warten soll, bevor der nächste Batch gestartet wird. Während dieses Ruhezeitintervalls werden die Verweise auf und von den verschobenen Dateien vom System korrigiert. Das standardmäßige Schlafintervall beträgt 60 Sekunden.
 
 
    - **Suffix zu doppelten Ordnern hinzufügen**: Wenn Sie Ordner mit demselben Namen verschieben, müssen Sie diese Option auswählen. Beispielsweise enthält im vorherigen Screenshot der **Source-Pfad** den Namen der zu verschiebenden Ordner. Der Ordner mit dem Namen „Topic“ ist an zwei verschiedenen Stellen vorhanden - Test-A und Test-B. Wenn Sie diese Option auswählen, werden die Ordner erfolgreich verschoben. Der erste verschobene Ordner erhält den Namen „topic“, der zweite den Namen „topic0“. Der Verschiebungsvorgang fügt den Ordnern mit demselben Namen ein Suffix in der sequenziellen Reihe \(0, 1, 2 usw.) hinzu.
@@ -196,7 +206,7 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">    , um das Dialogfeld Datei durchsuchen zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen.
+      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen.
 
       - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 
@@ -286,36 +296,36 @@ Sie können Dateien auch nur löschen, wenn Sie zu einer bestimmten Benutzergrup
 
 >[!NOTE]
 >
-> For more details on the configurations on file management, see *Prevent deletion of checked out files* and *Prevent deletion of referenced files* sections in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
+> Weitere Informationen zu den Konfigurationen für die Dateiverwaltung finden Sie unter *Verhindern des Löschens ausgecheckter Dateien* und *Verhindern des Löschens referenzierter Dateien* in den Abschnitten Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
-If your administrator has given the file delete permission to all user, then the following message is displayed when you delete files containing references:
+Wenn Ihr Administrator allen Benutzern die Berechtigung zum Löschen von Dateien erteilt hat, wird beim Löschen von Dateien mit Verweisen die folgende Meldung angezeigt:
 
 ![](images/allow_unsafe_delete-force-delete.PNG){width="650" align="center"}
 
-In this scenario, you can forcefully delete files without removing the incoming or outgoing references from the files.
+In diesem Szenario können Sie Dateien erzwingen, ohne die eingehenden oder ausgehenden Verweise aus den Dateien zu entfernen.
 
-If the delete permissions are given to a specific user group, then also the above message will appear for users belonging to that group. However, for other users, the following message is displayed:
+Wenn die Löschberechtigungen einer bestimmten Benutzergruppe zugewiesen sind, wird auch die obige Meldung für Benutzer angezeigt, die dieser Gruppe angehören. Für andere Benutzer wird jedoch die folgende Meldung angezeigt:
 
 ![](images/allow_unsafe_delete_for_delete_assets_group.PNG){width="650" align="center"}
 
-In this scenario, users won&#39;t be allowed to delete files until all incoming and outgoing references have been removed.
+In diesem Szenario dürfen Benutzer keine Dateien löschen, bis alle eingehenden und ausgehenden Verweise entfernt wurden.
 
-## Work with media files
+## Arbeiten mit Mediendateien
 
-Media files like images and videos are an integral part of your content. While you upload and manage your content, you might also work with media files.
+Mediendateien wie Bilder und Videos sind ein integraler Bestandteil Ihres Inhalts. Während Sie Ihre Inhalte hochladen und verwalten, können Sie auch mit Mediendateien arbeiten.
 
-If your media file has undergone any changes, you can find and preview the files in the **Version History**.To find out changes in the different versions of a media file:
+Wenn Ihre Mediendatei Änderungen erfahren hat, können Sie die Dateien im Abschnitt „Versionsverlauf“ suchen **in der Vorschau anzeigen** um Änderungen in den verschiedenen Versionen einer Mediendatei herauszufinden:
 
-1. Access the file in **Assets UI**.
-1. Select the file for which you want to view the version history.
-1. In the left rail, click **Version History** and select a version.
-1. You can also see the thumbnails of the different versions under Version History.
+1. Greifen Sie in der **Assets-Benutzeroberfläche auf die Datei**.
+1. Wählen Sie die Datei aus, für die Sie den Versionsverlauf anzeigen möchten.
+1. Klicken Sie in der linken Leiste auf &quot;**&quot;** wählen Sie eine Version aus.
+1. Sie können auch die Miniaturansichten der verschiedenen Versionen unter Versionsverlauf anzeigen.
 
    ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1. From the listed versions, select the one that you want to use as the base version and click **Preview Version**. The preview of the selected version is shown in the Version Preview window.
+1. Wählen Sie aus den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und klicken Sie auf **Vorschauversion**. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Parent topic:**&#x200B;[&#x200B; Manage content](authoring.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte verwalten](authoring.md)

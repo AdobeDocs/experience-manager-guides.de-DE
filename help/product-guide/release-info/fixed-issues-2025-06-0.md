@@ -1,10 +1,25 @@
 ---
-title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 2025.06.0 behoben
+title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 2025.06.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2025.06.0 von Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
+TQID: https://experienceleague.adobe.com/kfgmTuMdfq1c1IUcTKiPef9ijJ0tG-fPUuoJlaQEhQA
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: 514
 ht-degree: 4%
 
 ---
@@ -20,7 +35,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2025.06.0](upgrade-instr
 ## Authoring
 
 - Wenn JCR-Sitzungsverbindungen beim Aktualisieren oder Erstellen von Themen nicht geschlossen werden, führt dies zu Speicherlecks und Service-Ausfallzeiten. (GUIDES-26282)
-- Durch Ziehen der Spalten wird deren Breite von Prozentsatz zu Pixelwerten geändert, was zu verzerrten oder falsch ausgerichteten Tabellen führt.(GUIDES-23128)
+- Durch Ziehen der Spalten ändert sich ihre Breite von Prozentsatz zu Pixelwerten, was zu verzerrten oder falsch ausgerichteten Tabellen führt. (GUIDES-23128)
 - Wenn Inhalte in ein `code block` eingefügt werden oder Leerzeichen im `code block` hinzugefügt werden und die Ansicht gewechselt wird, gehen die Leerzeichen verloren. (GUIDES-27478)
 - Beim Hinzufügen einer Zuordnung zum `bookmap` wird diese in `fmditatopicrefs` anstatt in `fmditamaprefs` gespeichert. (GUIDES-25480)
 - Das **„Bild einfügen** kann auf einem hochauflösenden oder auszoomten Bildschirm nicht korrekt gerendert werden, wodurch der Bildtitel und die alternativen Textfelder verschwinden. (GUIDES-26459)
@@ -34,7 +49,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2025.06.0](upgrade-instr
 - Beim Generieren von AEM Site-Seiten mit Titeln, die mehrere Wörter enthalten, die durch Leerzeichen getrennt sind, zeigt der Zuordnungstitel Bindestriche anstelle von Leerzeichen an. (GUIDES-27903)
 - Bei der nativen PDF wird ein ungültiger Metadaten-Eigenschaftsname nicht aufgelöst und wie `unresolved property name` in **Dokumenteigenschaften** angezeigt. (GUIDES-25680)
 - Mehrzeiliger Text in `codeblock` verursacht Probleme mit Textüberläufen während der PDF-Generierung. (GUIDES-15541)
-- Beim Hinzufügen von Zuordnungen zur Zuordnungssammlung werden andere Assets als Zuordnungen (z. B. Themen usw.) angezeigt und die übersetzten Zuordnungssprachen werden ebenfalls nicht ordnungsgemäß sortiert.(GUIDES-25085)
+- Beim Hinzufügen von Zuordnungen zur Zuordnungssammlung werden andere Assets als Zuordnungen (z. B. Themen) angezeigt werden, und die übersetzten Kartensprachen sind auch nicht ordnungsgemäß sortiert.(GUIDES-25085)
 
 
 ## Überprüfung

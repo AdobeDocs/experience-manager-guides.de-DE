@@ -1,13 +1,25 @@
 ---
-title: Versionshinweise zu | Adobe Experience Manager Guides as a Cloud Service, Version vom November 2022
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version vom November 2022
 description: November-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/pF4RttF7xMpqHgR70QgOh2dc2m99KCbL0KdYt1FvoPE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 0%
+source-wordcount: 1388
+ht-degree: 2%
 
 ---
 
@@ -25,10 +37,10 @@ Führen Sie ein Upgrade Ihres aktuellen Adobe Experience Manager Guides as a Clo
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene zu verwenden:
 
 * Ausführen einer POST-Anfrage an den Server (mit korrekter Authentifizierung) - `http://<server:port>/bin/guides/map-find/indexing`.
-(Optional) Sie können bestimmte Pfade der Karten übergeben, um sie zu indizieren. Standardmäßig werden alle Karten indiziert || Beispiel : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(Optional: Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert. | Beispiel: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Beispiel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(Beispiel: http://&lt;_localhost:8080_/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Sobald der Vorgang abgeschlossen ist, wird die obige GET-Anfrage erfolgreich beantwortet und es wird angegeben, ob Zuordnungen fehlgeschlagen sind. Die erfolgreich indizierten Zuordnungen können aus den Serverprotokollen bestätigt werden.
 
@@ -123,7 +135,7 @@ Jetzt können Sie auch die folgenden vordefinierten Variablen verwenden, um den 
 * `${path_after_langfolder}` (nur für Ausgabepfad)
 
 
-### Native PDF | Inhaltsverzeichnis für DITA-Zuordnungen generieren und Seiten-Layouts neu anordnen
+### Native PDF | Generieren des Inhaltsverzeichnisses für DITA-Zuordnungen und Neuanordnen von Seiten-Layouts
 
 Jetzt können Sie das Inhaltsverzeichnis in DITA-Zuordnungen auch mithilfe einer erweiterten PDF-Einstellung der Vorlage generieren. Sie können die Anzeige der verschiedenen Seiten-Layouts aktivieren oder deaktivieren und auch ihre Position neu anordnen.
 
@@ -131,24 +143,24 @@ Jetzt können Sie das Inhaltsverzeichnis in DITA-Zuordnungen auch mithilfe einer
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Native PDF | `conkeyref` wird in der generierten PDF-Ausgabe nicht aufgelöst. 10564)
-* Native PDF | Probleme treten beim Zugriff auf Metadaten einer Zuordnung in der PDF-Ausgabe auf. 10556)
-* Native PDF | Inline-Stile werden zum Generieren von Tags anstelle des Klassennamens verwendet.  10498)
-* Der Web-Editor lädt gelegentlich leere Seiten. 10678)
-* Die PDF-Veröffentlichung schlägt fehl, wenn eine Vorgabe durch Duplizieren einer vorhandenen Vorgabe erstellt wird. 10584)
-* **Protokoll anzeigen** funktioniert nicht, wenn die PDF-Generierung für eine Voreinstellung fehlschlägt. 10576)
-* Beachten Sie, dass in einem para-Tag, das ein conf ist, nicht in der Vorschau angezeigt wird. 10559)
-* Durch Drücken der Rücktaste am Ende eines Listenelements wird die gesamte Liste entfernt. 10540)
-* Bei Verwendung eines nativen PDF-Exports werden die verschachtelten `<indexterm>` nicht im Index verschachtelt. 10521)
-* **Schaltfläche &quot;** Einrücken“ in der Symbolleiste fehlt in der Source-Ansicht. 10448)
-* Das erste Zeichen eines Listenelements geht verloren, während die Liste im Editor erstellt wird. 10447)
-* Wenn eine DITA-Asset-Version geändert und im Baseline-Bearbeitungsfenster gespeichert wird, werden mehrere Popup-Fenster angezeigt. 10399)
-* Der Anwendungsfehler tritt beim Klicken auf **Bearbeiten**-Schaltfläche auf, nachdem alle Ausgabevorgaben im Bedienfeld „Schnellgenerierung“ ausgewählt wurden. 10388)
-* Benutzerdefinierte Metadaten für DITA-Themen werden nicht beibehalten, wenn über die Assets-Benutzeroberfläche eine Einfügeaktion zum Kopieren ausgeführt wird. 10367)
-* Die Nachbearbeitung ist für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. 10332)
-* Die Registerkarte „Vorlage“ im XML-Editor ist für Ordnerprofiladministratoren nicht sichtbar. 10266)
-* Navigationsprobleme treten im Web-Editor nach dem Upgrade auf 4.0 auf. 10159)
-* SVG-Dateien werden im Vorschaumodus nicht angezeigt. 10010)
-* Wenn die Registerkarte „Ausgabe“ des Editors mehr Vorgaben enthält, kann der Abschnitt „Vorgaben“ nicht gescrollt werden und alle Vorgaben werden nicht angezeigt. (9 787)
-* **Bearbeiten** und **Anmerken**-Optionen für ein Bild funktionieren in der Spaltenansicht nicht ordnungsgemäß. (8 758)
+* Das native PDF | `conkeyref` wird in der generierten PDF-Ausgabe nicht aufgelöst. (10564)
+* Nativer PDF | Probleme treten beim Zugriff auf Metadaten einer Zuordnung in der PDF-Ausgabe auf. (10556)
+* Der native PDF | Inline-Stil wird zum Generieren von Tags anstelle des Klassennamens verwendet.  (10498)
+* Der Web-Editor lädt gelegentlich leere Seiten. (10678)
+* Die PDF-Veröffentlichung schlägt fehl, wenn eine Vorgabe durch Duplizieren einer vorhandenen Vorgabe erstellt wird. (10584)
+* **Protokoll anzeigen** funktioniert nicht, wenn die PDF-Generierung für eine Voreinstellung fehlschlägt. (10576)
+* Beachten Sie, dass in einem para-Tag, das ein conf ist, nicht in der Vorschau angezeigt wird. (10559)
+* Durch Drücken der Rücktaste am Ende eines Listenelements wird die gesamte Liste entfernt. (10540)
+* Bei Verwendung eines nativen PDF-Exports werden die verschachtelten `<indexterm>` nicht im Index verschachtelt. (10521)
+* **Schaltfläche &quot;** Einrücken“ in der Symbolleiste fehlt in der Source-Ansicht. (10448)
+* Das erste Zeichen eines Listenelements geht verloren, während die Liste im Editor erstellt wird. (10447)
+* Wenn eine DITA-Asset-Version geändert und im Baseline-Bearbeitungsfenster gespeichert wird, werden mehrere Popup-Fenster angezeigt. (10399)
+* Der Anwendungsfehler tritt beim Klicken auf **Bearbeiten**-Schaltfläche auf, nachdem alle Ausgabevorgaben im Bedienfeld „Schnellgenerierung“ ausgewählt wurden. (10388)
+* Benutzerdefinierte Metadaten für DITA-Themen werden nicht beibehalten, wenn über die Assets-Benutzeroberfläche eine Einfügeaktion zum Kopieren ausgeführt wird. (10367)
+* Die Nachbearbeitung ist für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. (10332)
+* Die Registerkarte „Vorlage“ im XML-Editor ist für Ordnerprofiladministratoren nicht sichtbar. (10266)
+* Navigationsprobleme treten im Web-Editor nach dem Upgrade auf 4.0 auf. (10159)
+* SVG-Dateien werden im Vorschaumodus nicht angezeigt. (10010)
+* Wenn die Registerkarte „Ausgabe“ des Editors mehr Vorgaben enthält, kann der Abschnitt „Vorgaben“ nicht gescrollt werden und alle Vorgaben werden nicht angezeigt. (9787)
+* **Bearbeiten** und **Anmerken**-Optionen für ein Bild funktionieren in der Spaltenansicht nicht ordnungsgemäß. (8758)
 * Der Peer-Link wird nicht aufgelöst und in der generierten Ausgabe als normaler Text angezeigt. (7774)

@@ -1,13 +1,28 @@
 ---
-title: Versionshinweise zu | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides Version 4.3.0
+title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides Version 4.3.0
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.3.0 von Adobe Experience Manager Guides
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/tpIgdm6yEWAcTHYKOXC4d3xR6yTLpVF5M9BVxquyahw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 1%
+source-wordcount: 1075
+ht-degree: 4%
 
 ---
 
@@ -75,54 +90,54 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Authoring
 
-- Die Themendatei wird nicht im Web-Editor entsperrt, obwohl die Optionen Datei entsperren und Nicht speichern ausgewählt sind. 12558)
-- Eine Datei kann nicht im Web-Editor ausgecheckt werden, obwohl die Option NEIN ausgewählt wurde, um die Änderungen vor dem Einchecken zu verwerfen. 12557)
-- Die QuickInfos für die Dateisymbole „Sperren und Entsperren“ in der Hauptsymbolleiste im Web-Editor stimmen nicht mit den in der Repository-Ansicht angezeigten Symbolen überein.12555)
-- Die Option Auschecken abbrechen und Entsperren wird für eine Datei im Web-Editor angezeigt, die noch nicht in der Kartenansicht ausgecheckt wurde. 12556)
+- Die Themendatei wird nicht im Web-Editor entsperrt, obwohl die Optionen Datei entsperren und Nicht speichern ausgewählt sind. (12558)
+- Eine Datei kann nicht im Web-Editor ausgecheckt werden, obwohl die Option NEIN ausgewählt wurde, um die Änderungen vor dem Einchecken zu verwerfen. (12557)
+- Die QuickInfos für die Dateisymbole „Sperren und Entsperren“ in der Hauptsymbolleiste im Web-Editor stimmen nicht mit den in der Repository-Ansicht angezeigten Symbolen überein.(12555)
+- Die Option Auschecken abbrechen und Entsperren wird für eine Datei im Web-Editor angezeigt, die noch nicht in der Kartenansicht ausgecheckt wurde. (12556)
 - Die PDF-Assets in den vorhandenen Links „topicref“ können nicht ausgewählt werden. (12477).
-- Beim Zusammenführen und Aufteilen in den Tabellen generiert AEM Guides 4.2 zusätzliche Tabellenzellen. 11793)
-- In der Repository-Ansicht können die Themen oder Bilder nach Verwendung der Such-/Filterfunktion nicht verschoben werden. 12396)
-- Suchergebnisse werden im Bedienfeld Suchen und Ersetzen deaktiviert, nachdem eine durchsuchte Datei geöffnet wurde. 12142)
-- Die Zifferntaste „8“ auf der seitlichen Tastatur funktioniert im AEM Guides-Editor nicht. 12106)
-- Inline-/Anzeigeattribute werden in der Layout-Ansicht des Web-Editors nicht angezeigt. 12498)
-- Die Konfiguration der globalen Profilbenutzeroberfläche stimmt nicht mit der Konfiguration des Ordnerprofils überein. 11970)
-- Inhaltsreferenzen sind fehlerhaft, wenn DITA-Dateien kopiert und eingefügt werden. 11959)
+- Beim Zusammenführen und Aufteilen in den Tabellen generiert AEM Guides 4.2 zusätzliche Tabellenzellen. (11793)
+- In der Repository-Ansicht können die Themen oder Bilder nach Verwendung der Such-/Filterfunktion nicht verschoben werden. (12396)
+- Suchergebnisse werden im Bedienfeld Suchen und Ersetzen deaktiviert, nachdem eine durchsuchte Datei geöffnet wurde. (12142)
+- Die Zifferntaste „8“ auf der seitlichen Tastatur funktioniert im AEM Guides-Editor nicht. (12106)
+- Inline-/Anzeigeattribute werden in der Layout-Ansicht des Web-Editors nicht angezeigt. (12498)
+- Die Konfiguration der globalen Profilbenutzeroberfläche stimmt nicht mit der Konfiguration des Ordnerprofils überein. (11970)
+- Inhaltsreferenzen sind fehlerhaft, wenn DITA-Dateien kopiert und eingefügt werden. (11959)
 - Inhaltsfragment kann nicht in der Spaltenansicht bearbeitet werden, wenn AEM Guides installiert ist. (7342)
-- Der Inhalt geht verloren, wenn sich eine entpackte XRef unter einem Unterelement-Tag befindet. 12532)
-- Der Genehmigungs-Workflow funktioniert nicht, wenn der Dokumentstatus in den Dateieigenschaften des rechten Bedienfelds in den „Endstatus“ geändert wird. 11026)
-- Asset-Benutzeroberfläche | In der Listenansicht können die überlagerten verfügbaren Spalten nicht zusammengeführt werden. 11528)
-- Keyref wird in der Zuordnungsansicht nicht aufgelöst. 11490)
-- Beim Navigieren durch den XML-Editor wird das obere Menü nicht angezeigt. 10868)
-- `conref` in pH-Tag | Das angezeigte Dialogfeld zum Durchsuchen ist falsch. (9481)
+- Der Inhalt geht verloren, wenn sich eine entpackte XRef unter einem Unterelement-Tag befindet. (12532)
+- Der Genehmigungs-Workflow funktioniert nicht, wenn der Dokumentstatus in den Dateieigenschaften des rechten Bedienfelds in den „Endstatus“ geändert wird. (11026)
+- Asset-Benutzeroberfläche | In der Listenansicht können die überlagerten verfügbaren Spalten nicht zusammengeführt werden. (11528)
+- Keyref wird in der Zuordnungsansicht nicht aufgelöst. (11490)
+- Beim Navigieren durch den XML-Editor wird das obere Menü nicht angezeigt. (10868)
+- `conref` in PH-Tag | Das angezeigte Dialogfeld zum Durchsuchen ist falsch. (9481)
 - Lokale Links zu anderen Elementen werden im Web-Editor nicht aufgelöst. (8790)
-- Die Funktion Matches() funktioniert nicht in der Schematron-Funktion. 11224)
+- Die Funktion Matches() funktioniert nicht in der Schematron-Funktion. (11224)
 
 
 
 ### Verwaltung
 
-- Das Feld „Titel“ in den Metadateneigenschaften der DITA-Zuordnung wird durch `<title>` -Element für die Zuordnung überschrieben. 10702)
-- Beim Versuch, die Version der Themen in der Baseline zu öffnen oder zu aktualisieren, wird der Lader „Informationen vom Server abrufen“ unbegrenzt ausgeführt.12478)
+- Das Feld „Titel“ in den Metadateneigenschaften der DITA-Zuordnung wird durch `<title>` -Element für die Zuordnung überschrieben. (10702)
+- Beim Versuch, die Version der Themen in der Baseline zu öffnen oder zu aktualisieren, wird der Lader „Informationen vom Server abrufen“ unbegrenzt ausgeführt.(12478)
 
 
 ### Überprüfung
 
-- Neue UI-Überprüfung | Die Bedingungen heben Arbeit in den Bereichen „Hervorheben“, „Anzeigen“ und „Ausblenden“ anders hervor als in der Funktionsweise im Web-Editor. 11628)
+- Neue Überprüfungs-Benutzeroberfläche | Die Bedingungen heben Arbeit im Web-Editor hervor, zeigen und blenden sich anders aus als in der Funktionsweise. (11628)
 
 ### Publishing
 
-- Die Veröffentlichung schlägt beim Umbenennen einer nativen PDF-Vorgabe fehl. 12564)
-- Das Duplizieren einer nativen PDF-Vorlage wird am Standardvorlagenspeicherort anstelle des bereitgestellten benutzerdefinierten Vorlagenspeicherorts dupliziert. 12563)
-- Native PDF | Die Sprach-Metadaten können im generierten PDF nicht auf WCAG 2.0 eingestellt werden. 12407)
-- Das Veröffentlichen auf der AEM-Site schlägt fehl, wenn temporäre Dateien vom Pod gelesen werden, die möglicherweise aktualisiert oder neu gestartet wurden. 12113)
+- Die Veröffentlichung schlägt beim Umbenennen einer nativen PDF-Vorgabe fehl. (12564)
+- Das Duplizieren einer nativen PDF-Vorlage wird am Standardvorlagenspeicherort anstelle des bereitgestellten benutzerdefinierten Vorlagenspeicherorts dupliziert. (12563)
+- Nativer PDF | Die Sprach-Metadaten können in der generierten PDF nicht auf WCAG 2.0 eingestellt werden. (12407)
+- Das Veröffentlichen auf der AEM-Site schlägt fehl, wenn temporäre Dateien vom Pod gelesen werden, die möglicherweise aktualisiert oder neu gestartet wurden. (12113)
 - Native PDF | Benutzerdefinierte Attribute werden nicht an die temporäre HTML- oder PDF-Engine weitergegeben. (DXML-12005)
-- Native PDF |  Java OutOfMemoryError tritt beim Veröffentlichen großer Inhalte auf. 11789)
-- Native PDF | Xref druckt den Inhalt des href-Thementitels anstelle der Xref-Beschriftung. 11322)
-- Native PDF | Die PDF-Vorlageneinstellungen können nicht gespeichert werden. 10751)
-- Native PDF | Der Text überschreitet die Spaltenbreite, wenn mehrere XRefs eingeschlossen werden. 10876)
-- Native PDF | `<note>` `</note>` Element erzeugt keinen zusätzlichen span-Titel seines Typs. 10549)
-- JSON-Ausgabe | Die `fmUuid` Eigenschaft im jcr:content-Knoten von JSON unterscheidet sich von der „id“ in JSON. 11564)
-- JSON-Ausgabe | Wenn Zuordnung und Thema mit demselben Dateinamen vorhanden sind, wird JSON für die Zuordnung entfernt. 11524)
+- Der native PDF | Java OutOfMemoryError tritt beim Veröffentlichen großer Inhalte auf. (11789)
+- Native PDF | Xref druckt den Inhalt des href-Thementitels anstelle der Xref-Beschriftung. (11322)
+- Native PDF | Die PDF-Vorlageneinstellungen können nicht gespeichert werden. (10751)
+- Native PDF | Der Text überschreitet die Spaltenbreite, wenn mehrere XRefs eingeschlossen werden. (10876)
+- Das native PDF | `<note>` `</note>`-Element generiert keinen zusätzlichen span-Titel seines Typs. (10549)
+- JSON-Ausgabe | Die `fmUuid` Eigenschaft im jcr:content-Knoten von JSON unterscheidet sich von der „id“ in JSON. (11564)
+- JSON-Ausgabe | Wenn die Zuordnung und das Thema mit demselben Dateinamen vorhanden sind, wird JSON für die Zuordnung entfernt. (11524)
 
 ## Bekanntes Problem
 

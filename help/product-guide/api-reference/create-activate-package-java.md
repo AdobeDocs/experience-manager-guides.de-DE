@@ -5,9 +5,19 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: ed0b0e6124a8656e711a8e64b290b805569fbd48
+TQID: https://experienceleague.adobe.com/g5Mp7tMM9JaAYwNmMyPmaFEcI0fx66vrX8ry97lIUF8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: 618
 ht-degree: 1%
 
 ---
@@ -83,14 +93,14 @@ throws GuidesApiException
 | `json` | Zeichenfolge | JSON-String, der das zu erstellende CRX-Paket bestimmt. Verwenden Sie das folgende Format, um die JSON-Zeichenfolge zu erstellen: <br>- `activate`: Ist vom Typ Boolescher Wert \(`true`/`false`\). Bestimmt, ob das in der Autoreninstanz erstellte CRX-Paket auf der Veröffentlichungsinstanz repliziert wird. <br> - `rules`: Ist vom Typ JSON-Array. Ein Array von JSON-Regeln, die sequenziell verarbeitet werden, um das CRX-Paket zu erstellen. <br> - `rootPath`: Ist vom Typ Zeichenfolge. Der Basispfad, auf dem die Knoten-/Eigenschaftsabfragen ausgeführt werden. Wenn keine Knoten-/Eigenschaftsabfragen vorhanden sind, werden der Stammpfad und alle unter dem Stammpfad vorhandenen Knoten in das CRX-Paket aufgenommen. <br> - `nodeQueries`: Ist vom Typ Regex-Array. Ein Array von regulären Ausdrücken, die verwendet werden, um bestimmte Dateien unter dem Stammpfad einzuschließen. <br> - `propertyQueries`: Ist vom Typ JSON-Array. Ein Array von JSON-Objekten, wobei jedes JSON-Objekt aus einer XPath-Abfrage besteht, die auf dem Stammpfad ausgeführt werden soll, und dem Namen einer Eigenschaft, die in jedem JCR-Knoten nach der Ausführung der Abfrage vorhanden ist. Der Wert der -Eigenschaft in jedem JCR-Knoten sollte ein Pfad oder ein Array von Pfaden sein. Die in dieser Eigenschaft vorhandenen Pfade werden dem CRX-Paket hinzugefügt. |
 | `outputstream` | java.io.OutputStream | Dies wird verwendet, um das Ergebnis verschiedener Phasen zu schreiben, z. B. die Ausführung von Abfragen, die Dateieinbindung, die Erstellung von CRX-Paketen oder die Aktivierung. Alle Fehler, die während des Erstellungs- oder Aktivierungsprozesses auftreten, werden in die `outputstream` geschrieben. Dies ist für das Debugging nützlich. |
 | `session` | Zeichenfolge | Eine gültige JCR-Sitzung mit Aktivierungsberechtigung. |
-| `activationTarget` | Zeichenfolge | (*Optional*) `preview` oder `publish` für Cloud Service und `publish` für On-Premise-Software-<br> - Wenn der -Parameter einen ungültigen Wert enthält, schlägt die Paketaktivierung bei Cloud Service fehl. <br> : Wenn der Parameter für die On-Premise-Software einen ungültigen Wert enthält, wird der Fehler protokolliert und die Veröffentlichung erfolgt mit dem Standardwert `publish`. |
+| `activationTarget` | Zeichenfolge | (*Optional*) `preview` oder `publish` für Cloud Service und `publish` für On-Premise-Software-<br> - Wenn der Parameter einen ungültigen Wert enthält, schlägt die Paketaktivierung bei Cloud Service fehl. <br> : Wenn der Parameter für die On-Premise-Software einen ungültigen Wert enthält, wird der Fehler protokolliert und die Veröffentlichung erfolgt mit dem Standardwert `publish`. |
 
 **Ausnahme**:
 
 Löst `java.io.IOException` und `java.io.IllegalArgumentException` aus
 
 
-Wenn Sie `activationTarget` den optionalen Parameter nicht definieren, wird er über den standardmäßigen Veröffentlichungsagenten für Cloud Service- und On-Premise-Software aktiviert.
+Wenn Sie `activationTarget` den optionalen Parameter nicht definieren, wird er über den standardmäßigen Veröffentlichungsagenten für Cloud Service und On-Premise-Software aktiviert.
 
 
 **Beispiel**:

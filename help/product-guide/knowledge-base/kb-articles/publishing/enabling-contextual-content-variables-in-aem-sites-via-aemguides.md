@@ -4,10 +4,20 @@ description: Arbeiten mit kontextuellen Inhaltsvariablen (CCVAR) in AEM Sites-Se
 feature: Web Editor
 role: User, Admin
 exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
-source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
+TQID: https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 2%
+source-wordcount: 497
+ht-degree: 3%
 
 ---
 
@@ -23,7 +33,7 @@ Mit CCVAR können Autoren dynamische Variablen in ihren Inhalt einfügen, die zu
 
 ## Wie wird CCVAR in AEM Sites-Seiten aktiviert, die aus AEM Guides generiert wurden?
 
-Da AEM Guides als Quelle aller Inhalte (einschließlich AEM Sites, PDF oder HTML5) verwendet wird, müssen Sie zum Aktivieren von CCVARs auf aus AEM Guides generierten Seiten Schlüsselwörter verwenden, um den CCVAR-Namen zu definieren. Definieren Sie dazu in den Handbüchern **Keywords** in Ihrer DITA-Zuordnung mithilfe `<keydef>` Elemente. Diese Schlüsselwörter können dynamischen Werten (oder CCVAR-Namen) entsprechen, sodass Sie in Ihren DITA-Themen darauf verweisen können.
+Da AEM Guides als Quelle aller Inhalte verwendet wird (einschließlich AEM Sites, PDF oder HTML5), müssen Sie zum Aktivieren von CCVARs auf aus AEM Guides generierten Seiten Schlüsselwörter verwenden, um den CCVAR-Namen zu definieren. Definieren Sie dazu in den Handbüchern **Keywords** in Ihrer DITA-Zuordnung mithilfe `<keydef>` Elemente. Diese Schlüsselwörter können dynamischen Werten (oder CCVAR-Namen) entsprechen, sodass Sie in Ihren DITA-Themen darauf verweisen können.
 
 
 ## Voraussetzungen
@@ -31,22 +41,22 @@ Da AEM Guides als Quelle aller Inhalte (einschließlich AEM Sites, PDF oder HTML
 Bevor Sie fortfahren, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 1. **AEM ACS Commons installiert**:
-   - Stellen Sie sicher **dass „ACS AEM**&quot; auf Ihrer AEM-Instanz installiert ist. Dies ist für die Verwendung von CCVAR erforderlich.
+   - Stellen Sie sicher **dass ACS AEM** auf Ihrer AEM-Instanz installiert ist. Dies ist für die Verwendung von CCVAR erforderlich.
 
 2. **Konfiguration von kontextuellen Inhaltsvariablen**:
    - Schließen Sie die Einrichtung für **Kontextuelle Inhaltsvariablen** in AEM mithilfe der [offiziellen Dokumentation](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html) ab. Hierzu gehört Folgendes:
       - Aktivieren **Eigenschaftenaggregation**.
-      - Konfigurieren von **HTML-Neuschreibungen** (bei Verwendung der HTML-Ausgabe).
+      - Konfigurieren von **HTML Rewriting** (bei Verwendung der HTML-Ausgabe).
       - Konfigurieren von **JSON-Rewriting** (bei Verwendung der JSON-Ausgabe).
 
 
 
 ## Schritte zum Aktivieren von CCVAR in AEM Guides
 
-### 1. Definieren von Keywords in der DITA-Zuordnung
+### &#x200B;1. Definieren von Keywords in der DITA-Zuordnung
 
 - Definieren Sie in AEM Guides Schlüsselwörter mithilfe `<keydef>` Elemente in der DITA-Zuordnung, die der CCVAR entsprechen.
-- Zum Beispiel:
+- Beispiel:
 
 ```xml
   <keydef keys="product">
@@ -61,10 +71,10 @@ Bevor Sie fortfahren, stellen Sie sicher, dass die folgenden Voraussetzungen erf
 - Das `keys`-Attribut (in diesem Beispiel `product`) wird verwendet, um in Ihren DITA-Themen auf diese Variable zu verweisen.
 
 
-## 2. Verwenden von Keywords in DITA-Themen
+## &#x200B;2. Verwenden von Keywords in DITA-Themen
 
 - Verwenden Sie in diesem Thema das Keyword überall dort, wo die CCVar verwendet werden soll.
-- Zum Beispiel:
+- Beispiel:
 
 ```xml
   <p>This is the title of the product: <keyword keyref="product"/> </p>
@@ -74,10 +84,10 @@ Bevor Sie fortfahren, stellen Sie sicher, dass die folgenden Voraussetzungen erf
 - Während der Ausgabegenerierung wird das Keyword durch den entsprechenden CCVar-Wert ersetzt.
 
 
-## 3. Ausgabe generieren
+## &#x200B;3. Ausgabe generieren
 
 - Wenn Sie eine Ausgabe für AEM Sites generieren, werden die Schlüsselwortverweise in die entsprechenden dynamischen Werte aufgelöst.
-- Zum Beispiel:
+- Beispiel:
    - Wenn `((page_properties.pageTitle))` zu `My Product` aufgelöst wird, wird die Ausgabe angezeigt:
 
 ```xml

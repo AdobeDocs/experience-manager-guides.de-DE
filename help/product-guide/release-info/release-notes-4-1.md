@@ -1,13 +1,35 @@
 ---
-title: Versionshinweise zu | Adobe Experience Manager Guides Version 4.1
+title: Versionshinweise | Adobe Experience Manager Guides Version 4.1
 description: Neueste Version von Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7j-OqZiXh2jVJwQRVsnKkJJSzf614jjiaOJ8fUl8oQQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '3644'
-ht-degree: 1%
+source-wordcount: 3665
+ht-degree: 3%
 
 ---
 
@@ -26,7 +48,7 @@ Sie können Ihre aktuelle Version von AEM Guides einfach auf Version 4.1.3 aktua
 
 Weitere Informationen finden Sie unter [Upgrade-Anweisungen](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
-## 4,1,3 | Versionshinweise zu
+## 4.1.3 | Versionshinweise
 
 ## Kompatibilitätsmatrix
 
@@ -34,7 +56,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von AEM Guides Vers
 
 ### ADOBE EXPERIENCE MANAGER
 
-**NICHT-UUID**
+**Nicht-UUID**
 Version 6.5 Service Pack 13, 12, 11 oder 10
 
 **UUID**
@@ -66,10 +88,10 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen des Handb
 
 Der behobene Fehler ist unten aufgeführt:
 
-* Der Web-Editor lädt gelegentlich leere Seiten. 10678)
+* Der Web-Editor lädt gelegentlich leere Seiten. (10678)
 
 
-## 4,1,2 | Versionshinweise zu
+## 4.1.2 | Versionshinweise
 
 ## Kompatibilitätsmatrix
 
@@ -77,7 +99,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von AEM Guides Vers
 
 ### ADOBE EXPERIENCE MANAGER
 
-**NICHT-UUID**
+**Nicht-UUID**
 Version 6.5 Service Pack 13, 12, 11 oder 10
 
 **UUID**
@@ -109,12 +131,12 @@ Weitere Informationen finden Sie im Abschnitt Technische Anforderungen des Handb
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Bei der Auswahl aller Ordnerprofile wird ein unsichtbares Ordnerprofil angezeigt (was falsch ist). 10393)
-* Bei der Basiserstellung wird nicht die neueste Version ausgewählt, wenn sich die Zeitzone des Benutzers von der Zeitzone des Servers unterscheidet. 10336)
-* Die Tastenkombination Strg+F öffnet das Browser-Suchmodal in der Assets-Konsole nach der Installation von AEM Guides 4.1 nicht. 10339)
-* Bei der grundlegenden Erstellung tritt bei dem Thema auf, das den Verweis auf einen Ordner enthält. 10383)
-* Auf der Registerkarte „Ausgabevorgaben“ wird gelegentlich ein leerer Bildschirm angezeigt und in einigen Fällen werden nicht bearbeitbare Vorgaben angezeigt. 10390)
-* Die Verwaltung des Schlüsselraums führt zu Ausnahmen und Fehlern. 10449)
+* Bei der Auswahl aller Ordnerprofile wird ein unsichtbares Ordnerprofil angezeigt (was falsch ist). (10393)
+* Bei der Basiserstellung wird nicht die neueste Version ausgewählt, wenn sich die Zeitzone des Benutzers von der Zeitzone des Servers unterscheidet. (10336)
+* Die Tastenkombination Strg+F öffnet das Browser-Suchmodal in der Assets-Konsole nach der Installation von AEM Guides 4.1 nicht. (10339)
+* Bei der grundlegenden Erstellung tritt bei dem Thema auf, das den Verweis auf einen Ordner enthält. (10383)
+* Auf der Registerkarte „Ausgabevorgaben“ wird gelegentlich ein leerer Bildschirm angezeigt und in einigen Fällen werden nicht bearbeitbare Vorgaben angezeigt. (10390)
+* Die Verwaltung des Schlüsselraums führt zu Ausnahmen und Fehlern. (10449)
 
 ### Bekannte Probleme mit Workaround
 
@@ -122,7 +144,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
   **Problemumgehung**: Verwenden Sie die Registerkarte „Grundlinie“ des DITA-Zuordnungs-Dashboards.
 
-## 4,1 | Versionshinweise zu
+## 4.1 | Versionshinweise
 
 Diese Versionshinweise enthalten die Upgrade-Anweisungen, neue Funktionen und Erweiterungen in Version 4.1.x von Adobe Experience Manager Guides (später *AEM Guides*).
 
@@ -132,7 +154,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von AEM Guides Vers
 
 ### ADOBE EXPERIENCE MANAGER
 
-**NICHT-UUID**
+**Nicht-UUID**
 Version 6.5 Service Pack 13, 12, 10 oder 11
 
 **UUID**
@@ -249,7 +271,7 @@ Je nach Konfiguration haben Sie die Möglichkeit, die Änderungen zu speichern u
 
 ![Datei schließen](assets/file-close-save-changes-unlock.png)
 
-Weitere Informationen finden Sie *Abschnitt „Schließen und Speichern von Dateien* im Handbuch Verwenden von Adobe Experience Manager Guides .* Die Funktion **Keyword einfügen** wurde verbessert. Sie können jetzt ein einzufügendes Keyword leichter finden, da die Keywords in alphabetischer Reihenfolge aufgeführt werden. Sie können auch nach Keywords suchen, indem Sie eine Suchzeichenfolge in das Suchfeld eingeben.
+Weitere Informationen finden Sie *Abschnitt „Schließen und Speichern von Dateien* im Handbuch Verwenden von Adobe Experience Manager Guides.* Die Funktion **Keyword einfügen** wurde verbessert. Sie können jetzt ein einzufügendes Keyword leichter finden, da die Keywords in alphabetischer Reihenfolge aufgeführt werden. Sie können auch nach Keywords suchen, indem Sie eine Suchzeichenfolge in das Suchfeld eingeben.
 
 ![Keyword einfügen](assets/insert-keyword.png)
 
@@ -339,7 +361,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Web-Authentifizierung funktioniert nicht in Oxygen. (9296)
 * Das erneute Hochladen schlägt in Oxygen fehl, wenn die Datei(en) bereits in AEM am selben Speicherort vorhanden sind. (9328)
 * Option nicht verfügbar, um Inhalte zwischen AEM und dem lokalen System zwangsweise zu synchronisieren. (9439)
-* Die ID wird für Elemente, die mit dem Dialogfeld „Wiederverwendbaren Inhalt einfügen **in der sekundären Symbolleiste hinzugefügt**, nicht automatisch generiert. (5 826)
+* Die ID wird für Elemente, die mit dem Dialogfeld „Wiederverwendbaren Inhalt einfügen **in der sekundären Symbolleiste hinzugefügt**, nicht automatisch generiert. (5826)
 * Beim Hochladen eines Bildes mit demselben Namen wie eine vorhandene Datei über den Editor wird kein Bestätigungsdialogfeld angezeigt. (6011)
 * In der Zeichenpalette ist kein zerstörungsfreier Bereich verfügbar. (7523)
 * Die Elementliste (Alt+Eingabetaste) wird im dunkelsten/dunkelsten Design ausgegraut angezeigt. (7913)
@@ -350,7 +372,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Fehler beim Hinzufügen eines Benutzers als Administrator zum Profilordner, wenn die Benutzer-ID numerisch ist. (8908)
 * Das Übersetzungsbedienfeld ist selbst beim Öffnen der DITA-Karte im Karten-Editor sichtbar. (9053)
 * Der Sprach-Code wird nicht mit der Sprache im Bedienfeld Übersetzung angezeigt. (9108)
-* Die Registerkarten „Übersetzung“ und „Baseline“ sind einige Zeit lang im Zuordnungs-Dashboard sichtbar. (9 146)
+* Die Registerkarten „Übersetzung“ und „Baseline“ sind einige Zeit lang im Zuordnungs-Dashboard sichtbar. (9146)
 * Wenn die Übersetzung abgeschlossen ist, wird eine zusätzliche Version für das übersetzte Asset erstellt. (9310)
 * Die genehmigte Übersetzung integriert sich nicht in die Zielsprache, wenn der Code der Zielsprache fünf Zeichen wie `fr_ca` enthält. (9357)
 * Übersetzte Inhalte sind fehlerhaft, wenn der erstellte Code der Zielsprache als `fr-fr, `, `en-us` erwähnt wird. (9527)
@@ -360,28 +382,28 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * AEM Guides kopiert die nicht eindeutigen Eigenschaften eines Assets nicht, wenn ein Asset kopiert und eingefügt wird. (8241)
 * Der Name der DITA-Map wird bei der Erstellung nicht in Kleinbuchstaben konvertiert. (8383)
 * Die Beschreibung der Prüfungsaufgabe wird nicht in der E-Mail-Benachrichtigung angezeigt, die gesendet wird, wenn eine neue Prüfungsaufgabe zugewiesen wird. (8507)
-* Map-API herunterladen | Temporäre Ordner werden nicht bereinigt, falls Fehler im Download-Prozess auftreten. (8523)
+* Download Map API | Temporäre Ordner werden nicht bereinigt, falls Fehler im Download-Prozess auftreten. (8523)
 * `columnpreview.jsp` ist von SP abhängig.  (8543)
-* Ausgabeaufträge mit dem Status „Warten“ oder „Wird ausgeführt“ werden im Veröffentlichungs-Dashboard nicht bereinigt.  (8 569)
+* Ausgabeaufträge mit dem Status „Warten“ oder „Wird ausgeführt“ werden im Veröffentlichungs-Dashboard nicht bereinigt.  (8569)
 * Standardsymbol, das beim Generieren eines Berichts mit der Schaltfläche „Generieren“ ausgewählt wird, selbst wenn die Symboleigenschaft definiert ist. (8573)
-* Beim Aktualisieren von 3.8.x auf 4.0 treten während des Überprüfungsprozesses Probleme auf. (8 788)
+* Beim Aktualisieren von 3.8.x auf 4.0 treten während des Überprüfungsprozesses Probleme auf. (8788)
 * Wenn ein Benutzername lang ist, werden im Überprüfungsfenster des Web-Editors die Symbole zum Akzeptieren/Ablehnen nicht deutlich angezeigt. (8793)
 * Nach dem Entfernen eines Themas und dem Ausführen eines Verschiebungsvorgangs wird die Referenzstruktur unterbrochen. (8804)
 * Die vom Benutzer definierte benutzerdefinierte DTD hat keinen Vorrang vor der in DITA-OT eingebetteten standardmäßigen DITA-DTD. (9104)
 * Die Position der Hervorhebung ist in der Seitenansicht falsch. (9305)
 * In der Ausgabe der AEM-Site wird die Fußnote als Verweis verwendet, aber es wird nicht zum Abschnitt mit der Fußnote gescrollt. (9061)
 * Die Reihenfolge der Fußnoten ist in der Ausgabe der AEM-Site falsch. (9327)
-* Neu erstellte DITA-Assets werden immer von einem anderen Benutzer ausgecheckt. (9 387)
+* Neu erstellte DITA-Assets werden immer von einem anderen Benutzer ausgecheckt. (9387)
 * Bei der Erstellung neuer Inhalte wird immer ein Fehler protokolliert. (9388)
 * Im dritten Bildschirm des Erstellungsprozesses der Prüfungsaufgabe wird keine Liste der Glossare angezeigt. (4558)
-* Beim Hochladen mehrerer Dateien vom FrameMaker/Oxygen Connector wurden falsche UUID-Referenzen zugewiesen. (8 269)
-* Die E-Mail-Benachrichtigung wird nicht gesendet, wenn eine Prüfungsaufgabe im Posteingang erneut zugewiesen wird. (8 376)
+* Beim Hochladen mehrerer Dateien vom FrameMaker/Oxygen Connector wurden falsche UUID-Referenzen zugewiesen. (8269)
+* Die E-Mail-Benachrichtigung wird nicht gesendet, wenn eine Prüfungsaufgabe im Posteingang erneut zugewiesen wird. (8376)
 * Der zweite Administratorbenutzer kann nicht als der erste Administratorbenutzer einem Ordner hinzugefügt werden. (8430)
 * **Beschriftungen anwenden** zeigt das Dialogfeld auf der Registerkarte Baseline keine Beschriftungen im Dropdown-Menü an. (8455)
 * Bei Verwendung der grundlegenden Veröffentlichung mit dem Bild als Einschränkung im Thema wird das Bild nicht in der Ausgabe veröffentlicht. (8564)
 * Die Ausgabe-Bereinigungsfunktion schlägt fehl, wenn eine große Anzahl von übrig gebliebenen Ausgabe-Verlaufsknoten vorhanden ist. (8568)
-* Im Bereich Versionsverlauf wird im Abschnitt Aktuelle Version ein falscher Zeitstempel angezeigt und durch Informationen geändert. (8 765)
-* Baseline wird nicht auf Grundlage der definierten Bezeichnung aktualisiert. (8 799)
+* Im Bereich Versionsverlauf wird im Abschnitt Aktuelle Version ein falscher Zeitstempel angezeigt und durch Informationen geändert. (8765)
+* Baseline wird nicht auf Grundlage der definierten Bezeichnung aktualisiert. (8799)
 * Der Fehler tritt auf, wenn Dateien, deren übergeordneter Ordner Sonderzeichen im Dateinamen enthält, in Oxygen geöffnet werden (über die **Bearbeiten in Oxygen**). (8918)
 * Das Hochladen von Dateien von Oxygen auf AEM schlägt fehl. (9157)
 * Karte herunterladen mit Grundlinie funktioniert nicht, wenn der Inhalt in einen anderen Ordner verschoben wird. (9331)
@@ -390,18 +412,18 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Wenn die Einstellung **Neue Version für hochgeladene Datei erstellen** aktiviert ist, wird beim Zurücksetzen und Speichern auf einem eingefrorenen Knoten eine neue Version erstellt. (9473)
 * In der Assets-Benutzeroberfläche werden beim Zurücksetzen einer Dateiversion falsche Zeitstempelunterschiede angezeigt. (9480)
 * Dateien werden bei der Wiederherstellung auf eine beliebige Version automatisch ausgecheckt. (9482)
-* Das Sperrsymbol wird in der Repository-Ansicht angezeigt, auch wenn die Datei aus dem Editor eingecheckt wird.  (5 756)
+* Das Sperrsymbol wird in der Repository-Ansicht angezeigt, auch wenn die Datei aus dem Editor eingecheckt wird.  (5756)
 * Es ist nicht möglich, mit der Autorenansicht des Web-Editors Frontend- und Backmatter-Elemente in einer Lesekarte hinzuzufügen. (7652)
 * Der Vorschaumodus unterstützt `deliveryTarget` bedingtes Verarbeitungsattribut in DITA nicht. (7685)
 * Beim Öffnen eines Glossarthemas im XML-Editor erzwingt AEM das Speichern, selbst wenn es nicht geändert wurde. (8105)
 * Das Dialogfeld „Verweise einfügen“ wird beim Hinzufügen eines Betreffs zu einer Zuordnung über die Benutzeroberfläche geöffnet. (8212)
-* Das Bedienfeld „Inhalt wiederverwenden“ stürzt bei der Suche nach Sonderzeichen `[` oder `*` ab.(8 279)
-* Beim Erstellen eines Glossars zeigt der Web-Editor den Inhalt als Anmerkung an. (8 384)
+* Das Bedienfeld „Inhalt wiederverwenden“ stürzt bei der Suche nach Sonderzeichen `[` oder `*` ab. (8279)
+* Beim Erstellen eines Glossars zeigt der Web-Editor den Inhalt als Anmerkung an. (8384)
 * Der XML-Editor entfernt Zeilenumbruch im Codeblock. (8522)
-* Beim Wechseln zwischen Quell- und Autorenmodus wird das Thema als beschädigt markiert und der Inhalt muss erneut gespeichert werden.(8524)
+* Beim Wechseln zwischen Quell- und Autorenmodus wird das Thema als beschädigt markiert und der Inhalt muss erneut gespeichert werden. (8524)
 * Ein entsperrtes Thema kann nicht geschlossen werden. (8545)
-* Es gibt keine Option, um den Knowledgebase-Pfad in artikelbasierten Veröffentlichungsvorgaben auszuwählen. (8 636)
-* Attribute fehlen beim Hinzufügen eines Kapitels zu einer Bookmap mithilfe von Drag-and-Drop aus der Favoritenansicht. (8 746)
+* Es gibt keine Option, um den Knowledgebase-Pfad in artikelbasierten Veröffentlichungsvorgaben auszuwählen. (8636)
+* Attribute fehlen beim Hinzufügen eines Kapitels zu einer Bookmap mithilfe von Drag-and-Drop aus der Favoritenansicht. (8746)
 * Das Dialogfeld „Keyword einfügen“ verfügt nicht über die Suchfunktion und Keywords werden nicht in sortierter Reihenfolge aufgelistet. (9094)
 * Wenn Sie eine Suche im XML-Editor durchführen, friert die Seite ein. (9452)
 * Sites fehlen in den AEM-Vorgaben auf der Registerkarte „Ausgabe“. (9567)

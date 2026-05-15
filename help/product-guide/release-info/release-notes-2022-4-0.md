@@ -1,13 +1,25 @@
 ---
-title: Versionshinweise zu | Adobe Experience Manager Guides as a Cloud Service, Version April 2022
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version April 2022
 description: April-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/v2bcZpcgnJ3lrXbl0O7fSxunkkO1OM239NhOzGp45ao
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 0%
+source-wordcount: 810
+ht-degree: 3%
 
 ---
 
@@ -36,7 +48,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 
 | AEM Guides Cloud-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac |
 | --- | --- | --- |
-| 2022.4.0 | 2,5,6 | 2,5,6 |
+| 2022.4.0 | 2.5.6 | 2.5.6 |
 |  |  |  |
 
 *Die in AEM erstellten Grundlinien und Bedingungen werden ab 2020.2 in FMPS-Versionen unterstützt.
@@ -86,7 +98,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Die Suche während der Eingabe führt zu unerwünschten Suchanfragen in der Repository-Ansicht. (9307)
 * Probleme treten auf, wenn ein beliebiges Keyword im Titel für eine Registerkarte verwendet wird. (9318)
 * Baseline schlägt beim Hinzufügen einer Beschriftung mit Leerzeichen fehl. (9362)
-* In der AEM-Site-Ausgabe wird das Glossusage-Element nicht korrekt angezeigt. (8 936)
+* In der AEM-Site-Ausgabe wird das Glossusage-Element nicht korrekt angezeigt. (8936)
 * Konsolenfehler beim Öffnen der Registerkarte **Ausgabe** im Web-Editor. (8715)
 * Die Fehlermeldung, die beim Veröffentlichen eines manuellen Datensatztyps über Salesforce angezeigt wird, ist nicht intuitiv. (8952)
 * Die Einstellung Mit Bedingungsattributen validieren wird nicht sofort geöffnet, sondern der Benutzer muss die Datei erneut öffnen, um die Validierungen sehen zu können. (9300)

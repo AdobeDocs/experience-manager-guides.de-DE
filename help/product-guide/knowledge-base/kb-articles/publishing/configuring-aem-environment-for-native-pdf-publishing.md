@@ -1,33 +1,48 @@
 ---
-title: Konfigurieren der AEM-Umgebung für die native PDF-Veröffentlichung
-description: Konfigurieren der AEM-Umgebung für die native PDF-Veröffentlichung
+title: Konfigurieren der AEM-Umgebung für die native Veröffentlichung von PDF
+description: Konfigurieren der AEM-Umgebung für die native Veröffentlichung von PDF
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: 1baed01b2e573d79d4baaa6a551966ce59449136
+TQID: https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: 931
 ht-degree: 1%
 
 ---
 
-# Konfigurieren der AEM-Umgebung für die native PDF-Veröffentlichung
+# Konfigurieren der AEM-Umgebung für die native Veröffentlichung von PDF
 
-AEM Guides enthält eine native PDF-Publishing-Engine, mit der Benutzende den Inhalt im PDF-Format entwerfen, entwickeln und veröffentlichen können.
+AEM Guides enthält eine native PDF-Publishing-Engine, mit der Benutzende Inhalte im PDF-Format entwerfen, entwickeln und veröffentlichen können.
 
-Es bietet die Möglichkeit, verschiedene Seiten-Layouts und CSS-Vorlagen zu erstellen und die PDF-Vorlagen in Verbindung mit den Seiten-Layouts und CSS zu entwerfen.
+Sie bietet die Möglichkeit, verschiedene Seiten-Layouts und CSS-Vorlagen zu erstellen und die PDF-Vorlagen in Verbindung mit den Seiten-Layouts und CSS zu entwerfen.
 
-Die Schritte zum Konfigurieren dieser nativen PDF in AEM Guides unterscheiden sich je nach Betriebssystem. Führen Sie je nach Betriebssystem, auf dem AEM installiert ist, die folgenden Konfigurationsschritte aus.
+Die Schritte zum Konfigurieren dieses nativen PDF in AEM Guides unterscheiden sich je nach Betriebssystem. Führen Sie je nach Betriebssystem, auf dem AEM installiert ist, die folgenden Konfigurationsschritte aus.
 
 ## Voraussetzungen
 
-Mindestanforderungen für die Einrichtung von nativem PDF:
+Mindestanforderungen für die Einrichtung von Native PDF:
 
 - Installierte Java-Plattform, Standard Edition 8 oder 11 JDK (Java SE Development Kit) und JRE (Java SE Runtime Environment)
 - AEM 6.5 SP13, SP12, SP11 oder SP10
 - Handbücher 4.1 und höher (Nicht-UUID oder UUID)
 
-Die native PDF-Publishing-Engine benötigt Oracle-JDK, um die Knotenmodule im AEM-Ordner „crx-quickstart“ zu generieren. Es unterstützt standardmäßig die folgenden Betriebssysteme:
+Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im CRX-Schnellstartordner von AEM zu generieren. Es unterstützt standardmäßig die folgenden Betriebssysteme:
 
 - Windows 10, Windows 2019 Server und höher.
 - Linux - (RHEL 8 und höher, CentOS 7 und höher, Ubuntu 18 und höher)
@@ -43,7 +58,7 @@ Die native PDF-Publishing-Engine benötigt Oracle-JDK, um die Knotenmodule im AE
 6. Geben Sie den Variablennamen als JAVA_HOME ein.
 7. Geben Sie im Feld Wert den Java-Installationspfad ein und klicken Sie auf OK.
 
-   Zum Beispiel:
+   Beispiel:
 
    JAVA 11
 
@@ -57,7 +72,7 @@ Die native PDF-Publishing-Engine benötigt Oracle-JDK, um die Knotenmodule im AE
 
 9. Geben Sie nun in den Pfadvariablen den Wert des Serverpfads ein und klicken Sie auf „OK“.
 
-   Zum Beispiel:
+   Beispiel:
 
    JAVA 11
 
@@ -69,7 +84,7 @@ Die native PDF-Publishing-Engine benötigt Oracle-JDK, um die Knotenmodule im AE
 
 10. Klicken Sie im Dialogfeld „Umgebungsvariablen“ erneut auf „OK“.
 11. Klicken Sie im Dialogfeld Systemeigenschaften erneut auf „OK“.
-12. Starten Sie nun den AEM-Server.
+12. Starten Sie jetzt den AEM-Server.
 13. Generieren von nativem PDF aus Vorgaben im Web-Editor
 
 ## Konfigurationsschritte für Linux Server (RHEL7/centOS 7)
@@ -79,7 +94,7 @@ Die native PDF-Publishing-Engine benötigt Oracle-JDK, um die Knotenmodule im AE
 3. Wenn die Variable JAVA_HOME nicht festgelegt ist, befolgen Sie Schritt 4. Gehen Sie andernfalls direkt zu Schritt 5.
 4. Legen Sie die Variable JAVA_HOME basierend auf der installierten Java-Version mit den folgenden Befehlen fest
 
-   Zum Beispiel:
+   Beispiel:
 
    JAVA 11
 
@@ -92,8 +107,8 @@ Die native PDF-Publishing-Engine benötigt Oracle-JDK, um die Knotenmodule im AE
    1. JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1 exportieren
    2. export PATH=$PATH: $JAVA\_HOME/bin
 
-5. Starten Sie den AEM-Server neu und gehen Sie zu Schritt 12 über, wenn Sie Guides ab Version 4.2 verwenden.
-6. Kopieren Sie &quot;_node_modules.zip_&quot;, das am Ende dieses Artikels angehängt ist, in das Verzeichnis crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
+5. Starten Sie den AEM-Server neu und gehen Sie zu Schritt 12 über, wenn Sie Guides Version 4.2 oder höher verwenden.
+6. Kopieren Sie &quot;_node_ modules.zip_&quot;, das am Ende dieses Artikels angehängt ist, in das Verzeichnis crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 7. Öffnen Sie das Terminal in crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/ location.
 8. Löschen Sie node_modules mit dem folgenden Befehl
 
@@ -126,7 +141,7 @@ Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssy
 
 4. Legen Sie die Variable JAVA_HOME basierend auf der installierten Java-Version mit den folgenden Befehlen fest
 
-   Zum Beispiel:
+   Beispiel:
 
    JAVA 11
 
@@ -148,7 +163,7 @@ iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —p
 
 8. Überprüfen Sie mit dem folgenden Befehl, ob Java installiert ist
 
-   i) **ausführen./node-darwin/bin/node** Befehl aus dem Ordner /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
+   i) Führen Sie den Befehl **./node-darwin/bin/node** aus dem Ordner /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166 aus.
 
    ![mac](../assets/publishing/mac.png)
 
@@ -161,7 +176,7 @@ Befehl: apt install fontconfig
 
 ## Fehlerbehebung
 
-Nachfolgend sind die häufigen Fehler aufgeführt, die bei der PDF-Generierung auftreten können, wenn Umgebungsvariablen nicht ordnungsgemäß festgelegt sind.
+Im Folgenden finden Sie die häufigsten Fehler, die während der PDF-Generierung auftreten können, wenn Umgebungsvariablen nicht ordnungsgemäß festgelegt sind.
 
 ### Nullzeiger-Ausnahme unter Windows/Mac OS
 
@@ -177,7 +192,7 @@ Wenn das Problem auch nach der Korrektur der Java-Umgebungseinstellungen weiterh
 
 ![Fehlende Bibliotheken](../assets/publishing/missing-libraries.png)
 
-### Publish-Prozess-Timeout. Prozess wurde nicht innerhalb von 0ms abgeschlossen
+### Zeitüberschreitung des Veröffentlichungsprozesses. Prozess wurde nicht innerhalb von 0ms abgeschlossen
 
 ![Zeitüberschreitung des Veröffentlichungsprozesses](../assets/publishing/publish-process-timeout.png)
 

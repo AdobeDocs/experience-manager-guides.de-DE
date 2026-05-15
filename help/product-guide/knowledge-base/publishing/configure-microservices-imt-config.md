@@ -4,24 +4,36 @@ description: Erfahren Sie, wie Sie die Microservice-basierte Veröffentlichung m
 feature: Microservice in AEM Guides
 role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
+TQID: https://experienceleague.adobe.com/iAlQIB0z2bxI-BaOXp62M6YJjzS-RzGfJaJbl8BWNUc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: 850
 ht-degree: 0%
 
 ---
 
 # Konfigurieren von auf Microservices basierender Veröffentlichung mit OAuth-Authentifizierung
 
-Mit dem Publishing-Microservice können Sie große Publishing-Arbeitslasten gleichzeitig auf Experience Manager Guides as a Cloud Service ausführen und die branchenführende Adobe I/O Runtime-Server-lose Plattform nutzen.
+Mit dem Publishing-Microservice können Sie große Publishing-Workloads gleichzeitig auf Experience Manager Guides as a Cloud Service ausführen und die branchenführende Adobe I/O Runtime-Serverloseplattform nutzen.
 
 Für jede Veröffentlichungsanfrage führt Experience Manager Guides as a Cloud Service einen separaten Container aus, der entsprechend den Benutzeranfragen horizontal skaliert werden kann. Dies bietet die Möglichkeit, mehrere Veröffentlichungsanfragen auszuführen und eine bessere Leistung zu erzielen als ihre großen On-Premise-Adobe Experience Manager-Server.
 
 >[!NOTE]
 >
-> Die auf Microservices basierende Veröffentlichung in Experience Manager Guides unterstützt PDF (sowohl nativ als auch DITA-OT-basiert), HTML5, JSON und BENUTZERDEFINIERTE Typen von Ausgabevorgaben.
+> Die auf Microservices basierende Veröffentlichung in Experience Manager Guides unterstützt PDF (sowohl native als auch DITA-OT-basierte), HTML5, JSON und benutzerdefinierte Typen von Ausgabevorgaben.
 
-Adobe Da der Cloud-Publishing-Service durch Adobe IMS OAuth-basierte Authentifizierung gesichert ist, führen Sie die folgenden Schritte aus, um ihre Umgebungen mit sicheren Token-basierten Authentifizierungs-Workflows zu integrieren, und beginnen Sie mit der Verwendung der Cloud-basierten skalierbaren Publishing-Lösung.
+Da der Cloud-Publishing-Service durch Adobe IMS OAuth-basierte Authentifizierung gesichert ist, führen Sie die folgenden Schritte aus, um ihre Umgebungen in die sicheren Token-basierten Authentifizierungs-Workflows von Adobe zu integrieren und mit der Verwendung der Cloud-basierten skalierbaren Publishing-Lösung zu beginnen.
 
 
 ## Erstellen von IMS-Konfigurationen in Adobe Developer Console
@@ -86,7 +98,7 @@ Sie haben die OAuth-Authentifizierungsdetails konfiguriert und die JSON-Service-
 >
 >Wenn Sie bereits ein OAuth-Projekt für intelligente Vorschläge erstellt haben, können Sie dasselbe Projekt für Microservices wiederverwenden und die folgenden Schritte überspringen, um die IMS-Konfiguration zur Umgebung hinzuzufügen.
 
-### Aktualisieren der vorhandenen Konfiguration (JWT)   zur OAuth-Umschaltung )
+### Aktualisieren der vorhandenen Konfiguration (JWT zu OAuth-Verschiebung )
 
 Wenn Sie bereits einen Microservice für die Veröffentlichung mit JWT (veraltet) verwenden, führen Sie die folgenden Schritte aus, um die Konfigurationen zu aktualisieren:
 

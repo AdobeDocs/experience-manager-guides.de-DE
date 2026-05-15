@@ -4,9 +4,25 @@ description: Erfahren Sie mehr über die wichtigsten Funktionen in Experience Ma
 exl-id: 978d7027-08da-40f7-ae9e-bb4d559a84dc
 feature: Introduction
 role: User
-source-git-commit: afa77e42eec4ea900efff14f1ae5f79464591505
+TQID: https://experienceleague.adobe.com/qfne-WSiweRnvK-cGU8A9IJ0xh2yJ9pBHNWcRzDrBe8
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: 1116
 ht-degree: 0%
 
 ---
@@ -48,7 +64,7 @@ Optimieren Sie die Veröffentlichung von Unternehmens-Content mit einem nahtlose
 
 Wenn die native DITA-Unterstützung zu Experience Manager hinzugefügt wurde, generieren Sie über DITA-OT eine Ausgabe für Experience Manager Sites, PDF, HTML5, EPUBS oder eine benutzerdefinierte Ausgabe. Sie können die vollständig konfigurierbare Ausgabe nutzen, um Endbenutzern hochgradig personalisierte, relevante und beeindruckende Inhaltserlebnisse bereitzustellen. Sie können auch einfach eine Batch-Erstellung durchführen oder Baseline verwenden, um eine bestimmte Version Ihrer Dokumentation zu veröffentlichen.
 
-**Umfassende Such- und Inhaltsverwendungsdaten**
+**Umfassende Daten zur Suche und Nutzung von Inhalten**
 Schnellere Suche und Auswahl relevanter Inhalte und Maximierung des ROI aus Inhalten bei jeder Wiederverwendung. Führen Sie einfache und erweiterte Suchen mithilfe von Inhaltsattributen und Themenmetadaten im gesamten Repository über eine einfache Benutzeroberfläche im DITA-Authoring-Tool durch. Die Ergebnisse werden mit Daten zur Inhaltsnutzung getaggt, damit Sie den richtigen Inhalt für eine optimale Wiederverwendung leicht identifizieren und auswählen können.
 
 **Detaillierte Berichte zur Veröffentlichungsbereitschaft**
@@ -57,10 +73,10 @@ Machen Sie die Veröffentlichung fehlerfrei, indem Sie Inhalte einfach überprü
 **Umfassende Tag-Management-Unterstützung für personalisierte Ausgaben**\
 Fördern Sie die tiefere Interaktion mit Endbenutzern und die Akzeptanz von Inhalten durch hochrelevante Inhaltserlebnisse. Mit Experience Manager Guides können Sie die umfassende Tag-Management-Unterstützung in Experience Manager nutzen, um relevante Tags auf DITA-Quellinhalte anzuwenden. Verwenden Sie diese Tags, um Endbenutzern hochgradig personalisierte Inhaltserlebnisse bereitzustellen.
 
-**Von GenAI unterstützte intelligente Hilfe und Inhaltserstellung**
+**GenAI-gestützte intelligente Hilfe und Inhaltserstellung**
 Steigern Sie Ihre Produktivität mit KI-gestützten Funktionen für die intelligente Hilfe und die Wiederverwendung von Inhalten in Experience Manager Guides. Verwenden Sie die GenAI-basierte Smart-Hilfe, um schnell relevante Inhalte aus der Experience Manager Guides-Dokumentation zu finden. Verwenden Sie intelligente Vorschläge, um Inhalte aus dem vorhandenen Content-Repository wiederzuverwenden oder die Produktivität mit Funktionen zur Inhaltsverbesserung wie dem intelligenten Konvertieren eines Absatzes in eine Liste, dem Erstellen einer kurzen Beschreibung und dem Verbessern und Übersetzen der ausgewählten Inhalte zu steigern.
 
-**Nutzen Sie die native Integration mit Adobe Workfront für zuverlässige Work-Management-Funktionen**
+**Nutzen der nativen Integration mit Adobe Workfront für zuverlässige Work-Management-Funktionen**
 Entfesseln Sie die leistungsstarken Projektmanagement-Funktionen in Experience Manager Guides, mit denen Sie Aufgaben effizient planen, zuweisen und verfolgen können, ohne auf mehrere, nicht integrierte Tools angewiesen zu sein. Nahtlose Verwaltung aller Experience Manager Guides-Workflows, einschließlich Verfassen, Überprüfen, Veröffentlichen und Übersetzen von Inhalten, über eine einzige Oberfläche. Erleben Sie optimiertes Projektmanagement und erschließen Sie neue Ebenen der Effizienz und Produktivität.
 
 **Native Integration mit Adobe FrameMaker**

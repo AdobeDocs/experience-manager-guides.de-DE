@@ -1,13 +1,28 @@
 ---
-title: Versionshinweise zu | Adobe Experience Manager Guides Version 4.2
+title: Versionshinweise | Adobe Experience Manager Guides Version 4.2
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.2 von Adobe Experience Manager Guides
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/NYtiFRSNt197F9PWTh8q-CyhpZz4F8pSFIQgph0twKk
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 1%
+source-wordcount: 1409
+ht-degree: 5%
 
 ---
 
@@ -36,7 +51,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die von AEM Guides Vers
 
 ### Adobe Experience Manager
 
-**NICHT-UUID**
+**Nicht-UUID**
 Version 6.5 Service Pack 15, 14, 13 oder 12
 
 **UUID**
@@ -68,77 +83,77 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Authoring
 
-* Linker Bereich wird beim Hinzufügen einer Registerkarte unterbrochen. 11126)
-* Änderungen im HTML-Editor des Web-Editors führen zu Problemen mit `<dl>` und `<dlentry>`. 11024)
-* Einige Attribute werden nicht als bedingt behandelt und verursachen Probleme. 10895)
-* Mindestens drei Ebenen verschachtelter `<indexterm>` sind nicht im nativen PDF-Export verschachtelt. 10799)
-* Der Inhalt verschwindet beim Wechsel von der Authoring- zur Source-Ansicht im Hauptteil einer Aufgabe. 10735)
-* Überprüfungskommentare werden in einer Überprüfungsaufgabe verlegt. 10625)
-* `<conref>` Hinweis in einem para-Tag wird im Vorschaumodus nicht angezeigt. 10559)
-* Durch Drücken der Rücktaste am Ende eines Listenelements wird die gesamte Liste entfernt. 10540)
-* Der Bildschirm wird in Chrome v106 beim Ziehen und Ablegen eines Elements aus der Benutzeroberfläche (z. B. im Bedienfeld Bedingungen ) als leer angezeigt. 10524)
-* Die Schaltfläche zum automatischen Einrücken fehlt in der Symbolleiste in der Ansicht **Source**. 10448)
+* Linker Bereich wird beim Hinzufügen einer Registerkarte unterbrochen. (11126)
+* Änderungen im HTML-Editor des Web-Editors führen zu Problemen mit `<dl>` und `<dlentry>`. (11024)
+* Einige Attribute werden nicht als bedingt behandelt und verursachen Probleme. (10895)
+* Mindestens drei Ebenen verschachtelter `<indexterm>` sind nicht im nativen PDF-Export verschachtelt. (10799)
+* Der Inhalt verschwindet beim Wechsel von der Authoring- zur Source-Ansicht im Hauptteil einer Aufgabe. (10735)
+* Überprüfungskommentare werden in einer Überprüfungsaufgabe verlegt. (10625)
+* `<conref>` Hinweis in einem para-Tag wird im Vorschaumodus nicht angezeigt. (10559)
+* Durch Drücken der Rücktaste am Ende eines Listenelements wird die gesamte Liste entfernt. (10540)
+* Der Bildschirm wird in Chrome v106 beim Ziehen und Ablegen eines Elements aus der Benutzeroberfläche (z. B. im Bedienfeld Bedingungen ) als leer angezeigt. (10524)
+* Die Schaltfläche zum automatischen Einrücken fehlt in der Symbolleiste in der Ansicht **Source**. (10448)
 * Das erste Zeichen eines Listenelements geht manchmal verloren, wenn die Liste im Editor erstellt wird.( 10447)
-* **Rückgängig** oder **Wiederholen** funktioniert bei einigen Dateien nicht ordnungsgemäß. 10373)
-* Benutzerdefinierte Metadaten werden beim Kopieren und Einfügen nicht beibehalten. 10367)
-* Beim Kopieren (Strg+C) und Einfügen (Strg+V) von Inhalten tritt ein Fehler auf. 10304)
-* Das Gliederungsbedienfeld zeigt beim Wechsel vom Authoring- zum Source-Modus keine Inhalte an. 10296)
-* Eine Unterzuordnung wird nicht erstellt, wenn sie auf eine Hauptzuordnung in DITA-Vorlagen verweist. 10231)
-* Navigationsprobleme treten im Web-Editor nach dem Upgrade auf 4.0 auf. 10159)
-* Die Option „Rückgängig machen“ im XML-Editor führt den Benutzer zum Seitenanfang. 10091)
-* Knoteneigenschaften werden nach dem Kopieren und Einfügen eines Assets entfernt. 10053)
-* Zu DITA-Themen hinzugefügte SVG-Dateien werden im Vorschaumodus des Editors nicht angezeigt. 10010)
+* **Rückgängig** oder **Wiederholen** funktioniert bei einigen Dateien nicht ordnungsgemäß. (10373)
+* Benutzerdefinierte Metadaten werden beim Kopieren und Einfügen nicht beibehalten. (10367)
+* Beim Kopieren (Strg+C) und Einfügen (Strg+V) von Inhalten tritt ein Fehler auf. (10304)
+* Das Gliederungsbedienfeld zeigt beim Wechsel vom Authoring- zum Source-Modus keine Inhalte an. (10296)
+* Eine Unterzuordnung wird nicht erstellt, wenn sie auf eine Hauptzuordnung in DITA-Vorlagen verweist. (10231)
+* Navigationsprobleme treten im Web-Editor nach dem Upgrade auf 4.0 auf. (10159)
+* Die Option „Rückgängig machen“ im XML-Editor führt den Benutzer zum Seitenanfang. (10091)
+* Knoteneigenschaften werden nach dem Kopieren und Einfügen eines Assets entfernt. (10053)
+* Zu DITA-Themen hinzugefügte SVG-Dateien werden im Vorschaumodus des Editors nicht angezeigt. (10010)
 * Suchergebnisse für Suchen und Ersetzen im Web-Editor können im Dunkelmodus nicht gelesen werden. (9978)
 * Beim Erstellen einer Zuordnung aus der Zuordnungsvorlage ist kein Ladeprogramm vorhanden. (9891)
-* Der Kontext in der Themenvorlage funktioniert nicht und die kopierte Hash-ID wird in der Inhaltskopie nicht aktualisiert. (9 890)
-* Es wird keine Option zum Durchsuchen der Themen oder der Zuordnungsvorlage in den Unterordnern des Themas oder des Zuordnungsordners angezeigt. (9 889)
-* Keine Option zum Erstellen einer neuen Vorlage für die Unterordner von Themen oder Karten. (9 888)
+* Der Kontext in der Themenvorlage funktioniert nicht und die kopierte Hash-ID wird in der Inhaltskopie nicht aktualisiert. (9890)
+* Es wird keine Option zum Durchsuchen der Themen oder der Zuordnungsvorlage in den Unterordnern des Themas oder des Zuordnungsordners angezeigt. (9889)
+* Keine Option zum Erstellen einer neuen Vorlage für die Unterordner von Themen oder Karten. (9888)
 * Im XML-Editor werden die Bilder zu Themen nicht aktualisiert. (9500)
 * mimeType ist für die Erstellung und Aktualisierung von DITA-Assets hartcodiert. (8979)
 * Ein normaler Bindestrich wird eingefügt, wenn Sie im Dialogfeld **Sonderzeichen einfügen“ den** Bindestrich auswählen. (8919)
 * Der Name des Versionserstellers im Versionsverlauf lautet „fmdita-serviceuser“ für die Dateien, die über die Assets-Benutzeroberfläche hochgeladen wurden. (8910)
-* Die Option „Bearbeiten“ funktioniert nicht für Bilder, wenn sie in der Spaltenansicht der Assets-Benutzeroberfläche arbeiten. (8 758)
-* Das DITA-Thema wird nicht automatisch mit Änderungen aktualisiert, die auf der Seite **Eigenschaften** vorgenommen wurden. (8 745)
-* Beim Verschieben von Elementen innerhalb des Themas im Web-Editor werden die zugewiesenen IDs für Elemente durch automatisch zugewiesene IDs überschrieben. (7 895)
+* Die Option „Bearbeiten“ funktioniert nicht für Bilder, wenn sie in der Spaltenansicht der Assets-Benutzeroberfläche arbeiten. (8758)
+* Das DITA-Thema wird nicht automatisch mit Änderungen aktualisiert, die auf der Seite **Eigenschaften** vorgenommen wurden. (8745)
+* Beim Verschieben von Elementen innerhalb des Themas im Web-Editor werden die zugewiesenen IDs für Elemente durch automatisch zugewiesene IDs überschrieben. (7895)
 
 ### Verwaltung
 
-* Das Kopieren eines DITA Map-Assets (über die Asset-Benutzeroberfläche ) verursacht fehlerhafte Baselines im kopierten Asset. 11218)
-* Beim Hochladen einer Datei, die den in AEM zulässigen Grenzwert (standardmäßig 2 GB) überschreitet, wird keine Warnmeldung angezeigt. 10817)
-* Web-Editor-Baseline | Das Verhalten der letzten Spalte im neuen Baseline-Dashboard im Web-Editor ist anders. 10808)
-* Übersetzung | Der Übersetzungsauftrag wird aufgrund von ungültigem /libs/fmdita/i18n/ja.json nicht gestartet. 10543)
-* Übersetzung | In einem über das Übersetzungs-Dashboard (Menschliche Übersetzung) erstellten Projekt zur Berechnung des Umfangs tritt ein Fehler auf. 10526)
-* Übersetzung | Die Nachbearbeitung ist für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. 10332)
+* Das Kopieren eines DITA Map-Assets (über die Asset-Benutzeroberfläche ) verursacht fehlerhafte Baselines im kopierten Asset. (11218)
+* Beim Hochladen einer Datei, die den in AEM zulässigen Grenzwert (standardmäßig 2 GB) überschreitet, wird keine Warnmeldung angezeigt. (10817)
+* Web-Editor-Baseline | Das Verhalten der letzten Spalte im neuen Baseline-Dashboard im Web-Editor ist anders. (10808)
+* Übersetzung | Übersetzungsauftrag wird aufgrund von ungültigem /libs/fmdita/i18n/ja.json nicht gestartet. (10543)
+* Übersetzung | In einem Umfangübersetzungsprojekt, das über das Übersetzungs-Dashboard (Menschliche Übersetzung) erstellt wurde, tritt ein Fehler auf. (10526)
+* Übersetzung | Nachbearbeitung wird für den gesamten Sprachordner blockiert, dessen Assets in einem aktiven Übersetzungsprojekt vorhanden sind. (10332)
 * Übersetzung| Metadaten und Tags werden nicht an die übersetzten Kopien weitergegeben. (4696)
-* Für jedes Asset werden mehrere Popups angezeigt, wenn die Version geändert und im Baseline-Editor gespeichert wird. 10399)
-* Sitzungsleck tritt unter com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210) auf. 10279)
-* Die Videodatei fehlt in der Grundlinie, wenn der übergeordnete Ordner im Namen Leerzeichen enthält. 10031)
+* Für jedes Asset werden mehrere Popups angezeigt, wenn die Version geändert und im Baseline-Editor gespeichert wird. (10399)
+* Sitzungsleck tritt unter com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210) auf. (10279)
+* Die Videodatei fehlt in der Grundlinie, wenn der übergeordnete Ordner im Namen Leerzeichen enthält. (10031)
 
 ### Publishing
 
-* Die Themenregenerierung funktioniert in einigen Szenarien nicht. 10635)
-* Die PDF-Veröffentlichung schlägt beim Generieren der Ausgabe für eine doppelte Vorgabe (einer vorhandenen Vorgabe) fehl. 10584)
-* Die Schaltfläche Protokoll anzeigen funktioniert nicht, wenn die PDF-Generierung für eine Voreinstellung fehlschlägt. 10576)
-* PublishListener zeigt die angeforderten Daten nicht in Informationsprotokollen an und enthält auch einige Junk-Protokolle.( 10567)
-* Native PDF | Die PDF-Generierung schlägt mit einer Null Pointer-Ausnahme fehl. 10950)
-* Native PDF | conkeyref wird in der generierten Ausgabe nicht aufgelöst. 10564)
-* Native PDF | Probleme treten bei den Metadaten einer Zuordnung auf, auf die in der PDF-Ausgabe verwiesen werden muss.( 10556)
-* Native PDF | Beim Drehen der Tabellenüberschrift treten Probleme auf. 10555)
-* Native PDF | Probleme treten beim Entfernen von Themen auf, die die Verarbeitungsrolle „nur Ressource“ aufweisen. 10554)
-* Native PDF | Leere Keyrefs werden in der PDF-Ausgabe angezeigt. 10553)
-* Native PDF | Verschachtelte `<indexterm>` werden nicht im nativen PDF-Export verschachtelt. 10521)
-* Native PDF | Der native PDF verwendet für die generierten Tags einen Inline-Stil anstelle eines Klassennamens. 10498)
-* Native PDF | Verschachtelte topicref in den Anhängen werden im temporären HTML alle in h1 umgewandelt.( 10454)
-* Native PDF | Themen mit Textformatierung können nicht aus dem Inhaltsverzeichnis ausgeblendet werden. 10355)
-* Native PDF | Das Tabellenrahmenattribut wird nicht an den temporären HTML weitergegeben (als Klasse). 10353)
-* Native PDF | Temporäre HTML-Dateien fügen die Klassen closeSp und rowsep zu hinzu. <td> und <th> auch wenn ihr Wert in der Quell-DITA 0 ist. 10352)
-* Native PDF | Beim Neustarten der Seitenzahlen im Kapitellayout erfolgt die Nummerierung nach dem Zufallsprinzip am Ende des vorherigen Kapitels. 10154)
-* Native PDF | Die wichtigsten Referenzen für Schlüsselwörter mit Bild- oder externen Links werden nicht aufgelöst. 10063)
-* Native PDF | Der Anhang wird als Kapitel in der generierten PDF angezeigt. (9 829)
-* Die Registerkarte „Vorlage“ im XML-Editor wird den Ordnerprofiladministratoren nicht angezeigt. 10266)
-* Die Baseline-Veröffentlichung schlägt für PDF fehl, das mit FrameMaker Publishing Server 2020 generiert wurde. 10551)
-* Der Anwendungsfehler tritt auf, wenn auf die Schaltfläche Bearbeiten geklickt wird, nachdem das Kontrollkästchen Alle Vorgaben über Ausgabevorgaben im Popup-Fenster „Schnellgenerierung“ ausgewählt wurde. 10388)
-* Wenn die Registerkarte „Ausgabe“ im Web-Editor über mehr Vorgaben verfügt, kann im Abschnitt „Vorgaben“ nicht vertikal gescrollt werden und es werden nicht alle verfügbaren Vorgaben angezeigt. (9 787)
+* Die Themenregenerierung funktioniert in einigen Szenarien nicht. (10635)
+* Die PDF-Veröffentlichung schlägt beim Generieren der Ausgabe für eine doppelte Vorgabe (einer vorhandenen Vorgabe) fehl. (10584)
+* Die Schaltfläche Protokoll anzeigen funktioniert nicht, wenn die PDF-Generierung für eine Voreinstellung fehlschlägt. (10576)
+* Der PublishListener zeigt die angeforderten Daten nicht in Informationsprotokollen an und enthält auch einige Junk-Protokolle.( 10567)
+* Die native PDF | PDF-Generierung schlägt mit einer Null Pointer-Ausnahme fehl. (10950)
+* Das native PDF | conkeyref wird in der generierten Ausgabe nicht aufgelöst. (10564)
+* Natives PDF | Probleme mit den Metadaten einer Zuordnung, auf die in der PDF-Ausgabe verwiesen werden muss.( 10556)
+* Natives PDF | Probleme treten beim Drehen der Tabellenkopfzeile auf. (10555)
+* Native PDF | Probleme treten beim Entfernen von Themen auf, die Verarbeitungsrolle=&#39;nur Ressource&#39; aufweisen. (10554)
+* Native PDF | Leere Keyrefs werden in der PDF-Ausgabe angezeigt. (10553)
+* Native PDF | Verschachtelte `<indexterm>` werden nicht im nativen PDF-Export verschachtelt. (10521)
+* Native PDF | Native PDF verwendet für die generierten Tags einen Inline-Stil anstelle eines Klassennamens. (10498)
+* Native PDF | Verschachtelte TopicRef in Anhängen werden im temporären HTML in h1 umgewandelt.( 10454)
+* Natives PDF | Frontend-Themen können nicht aus dem Inhaltsverzeichnis ausgeblendet werden. (10355)
+* Natives PDF | Tabellenrahmenattribut nicht an die temporäre HTML weitergegeben (als Klasse). (10353)
+* Native PDF | Temporäre HTML-Dateien fügen die Klassen „closeSep“ und „rowsep“ zu hinzu. <td> und <th> auch wenn ihr Wert in der Quell-DITA 0 ist. (10352)
+* Native PDF | Durch das Neustarten der Seitenzahlen im Kapitellayout wird die Nummerierung nach dem Zufallsprinzip am Ende des vorherigen Kapitels gestartet. (10154)
+* Native PDF | Die wichtigsten Referenzen für Schlüsselwörter mit Bild- oder externen Links werden nicht aufgelöst. (10063)
+* Der native PDF | Anhang wird als Kapitel in der generierten PDF angezeigt. (9829)
+* Die Registerkarte „Vorlage“ im XML-Editor wird den Ordnerprofiladministratoren nicht angezeigt. (10266)
+* Die Baseline-Veröffentlichung schlägt für PDF fehl, das mit FrameMaker Publishing Server 2020 generiert wurde. (10551)
+* Der Anwendungsfehler tritt auf, wenn auf die Schaltfläche Bearbeiten geklickt wird, nachdem das Kontrollkästchen Alle Vorgaben über Ausgabevorgaben im Popup-Fenster „Schnellgenerierung“ ausgewählt wurde. (10388)
+* Wenn die Registerkarte „Ausgabe“ im Web-Editor über mehr Vorgaben verfügt, kann im Abschnitt „Vorgaben“ nicht vertikal gescrollt werden und es werden nicht alle verfügbaren Vorgaben angezeigt. (9787)
 * Vorgaben können während der Veröffentlichung über den Editor nicht aus dem Ausgabe-Workflow gelöscht werden. (9100)
 * Peer-Link wird auf der generierten Seite als normaler Text anstatt als Link gerendert. (7774)
 

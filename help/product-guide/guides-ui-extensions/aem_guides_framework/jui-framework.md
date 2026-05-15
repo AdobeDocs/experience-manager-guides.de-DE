@@ -3,9 +3,20 @@ title: JUI-Framework
 description: Grundlegendes zum UI-Framework
 role: User, Admin
 exl-id: c193cf90-5916-4d8c-88f1-be5014beca1c
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+TQID: https://experienceleague.adobe.com/AQFEy2bHTDHXq6QH8KTBOEzUvtA3Hf2ojhxvD0dsI7o
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: 268
 ht-degree: 1%
 
 ---
@@ -17,10 +28,10 @@ Damit wir es effektiv verlängern können.
 
 ## Einführung
 
-JUI ist ein MVC-Framework, das auf React- und Adobe-React-Spectrum-Komponenten aufbaut. JUI ist die JSON-Benutzeroberfläche. Es besteht aus mehreren Git-Repositorys.
+JUI ist ein MVC-Framework, das auf React- und Adobe React Spectrum-Komponenten aufbaut. JUI ist die JSON-Benutzeroberfläche. Es besteht aus mehreren Git-Repositorys.
 
 JUI-Core ist die Kernbibliothek mit der gesamten Logik zum Konvertieren der JSON-Konfiguration in funktionierende React-Komponenten und zum Verknüpfen mit einer relevanten Controller-Klasseninstanz.
-JUI-React-Spectrum  Die -Bibliothek verfügt über Wrapper-Widgets zum Adobe von React Spectrum-Komponenten
+Die JUI-React-Spectrum-Bibliothek verfügt über Wrapper-Widgets von Adobe React Spectrum-Komponenten
 
 ## JUI-Kerndesign
 
@@ -42,7 +53,7 @@ JUI-React-Spectrum  Die -Bibliothek verfügt über Wrapper-Widgets zum Adobe vo
 
 ### Element
 
-- ist eine HTML-/React-Komponente.
+- ist eine HTML/React-Komponente.
 - hat kein Modell, es verwendet das übergeordnete Widget-Modell.
 
 ### Ereignishandler
@@ -73,7 +84,7 @@ JUI-React-Spectrum  Die -Bibliothek verfügt über Wrapper-Widgets zum Adobe vo
 - RegistrierenBefehle
    - So registrieren Sie lokale, übergeordnete oder App-Ereignisse
 - Next(eventName, eventHandler)
-   - Trigger Zum Ereignisereignis des untergeordneten Widget-Ereignishandlers, des übergeordneten Widget-Ereignishandlers oder des App-Ereignishandlers
+   - Zum Ereignisereignis des untergeordneten Widget-Ereignishandlers, des übergeordneten Widget-Ereignishandlers oder des App-Ereignishandlers
 - Subscribe(callback, eventHandler)
 - SubscribeAppModel(callback)
 

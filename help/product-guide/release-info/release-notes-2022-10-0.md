@@ -1,13 +1,24 @@
 ---
-title: Versionshinweise zu | Adobe Experience Manager Guides as a Cloud Service, Version Oktober 2022
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version Oktober 2022
 description: Oktober-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/w-fw81jYGDRDrmn98Dzn-hYIkOZzT0B3-4-y-bcxdz4
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 1%
+source-wordcount: 489
+ht-degree: 3%
 
 ---
 
@@ -63,12 +74,12 @@ Wählen Sie eine oder mehrere Vorgaben aus und generieren Sie schnell die Ausgab
 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
-* Native PDF | Beim Entfernen von Themen, die nur Ressourcen enthalten, aus der PDF-Ausgabe tritt ein Fehler auf. 10554)
-* Native PDF | Leere Keyrefs werden in der PDF-Ausgabe angezeigt. 10553)
-* Native PDF | `navtitle` für `topichead` wird nicht berücksichtigt. 10509)
-* Native PDF | Unterstützung für JDK-Varianten von amd64 erforderlich. 10465)
-* Native PDF | Themen aus der Frontansicht können nicht im Inhaltsverzeichnis ausgeblendet werden. 10355)
-* Native PDF | Wenn Sie die Seitenzahl im Kapitellayout nach dem Zufallsprinzip neu starten, beginnt die Nummerierung am Ende des vorherigen Kapitels. 10154)
-* Chrome-Browser | Der Bildschirm wird leer, wenn ein beliebiges Element per Drag-and-Drop aus der Benutzeroberfläche gezogen wird. Beispiel: Beim Ziehen einer Bedingung aus dem Bedienfeld Bedingungen . 10524)
-* Knoteneigenschaften werden nach dem Kopieren und Einfügen eines Assets entfernt. 10053)
+* Native PDF | Fehler tritt beim Entfernen von Themen nur für Ressourcen aus der PDF-Ausgabe auf. (10554)
+* Native PDF | Leere Keyrefs werden in der PDF-Ausgabe angezeigt. (10553)
+* Native PDF | `navtitle` für `topichead` wird nicht berücksichtigt. (10509)
+* Native PDF | Unterstützung für AMD64-JDK-Varianten erforderlich. (10465)
+* Natives PDF | Frontend-Themen können nicht aus dem Inhaltsverzeichnis ausgeblendet werden. (10355)
+* Native PDF | Durch das Neustarten der Seitenzahl im Kapitellayout wird die Nummerierung nach dem Zufallsprinzip vom Ende des vorherigen Kapitels aus gestartet. (10154)
+* Chrome-Browser | Bildschirm wird beim Ziehen und Ablegen eines Elements aus der Benutzeroberfläche leer. Beispiel: Beim Ziehen einer Bedingung aus dem Bedienfeld Bedingungen . (10524)
+* Knoteneigenschaften werden nach dem Kopieren und Einfügen eines Assets entfernt. (10053)
 * Beim Klicken auf **Schließen** werden Benutzer zu Assets weitergeleitet - das Erlebnis wurde korrigiert, sodass Benutzer zur AEM-Homepage weitergeleitet werden. (9654)

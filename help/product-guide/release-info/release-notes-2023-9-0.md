@@ -1,13 +1,32 @@
 ---
-title: Versionshinweise zu | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides, Version September 2023
+title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides, Version September 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version September 2023 von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/CoWG1c1gE-wPrI90-qp0QJu-oOE4pDLcY6bIEN2QQpE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 0%
+source-wordcount: 1492
+ht-degree: 3%
 
 ---
 
@@ -91,7 +110,7 @@ as a Cloud Service, um die Konfigurationsdatei zu erstellen.
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene und in der Themenliste auf der Registerkarte „Berichte“ zu verwenden:
 
-1. Führen Sie eine POST-Anfrage an den Server \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing` aus. (Optional) Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert \|\| Beispiel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Führen Sie eine POST-Anfrage an den Server \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing` aus. (Optional: Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert \|\|, zum Beispiel : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Zuordnungen eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
@@ -108,7 +127,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 
 | AEM Guides as a Cloud Service-Version | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2 023,09,0 | Nicht kompatibel | 2022 oder höher |
+| 2023.09.0 | Nicht kompatibel | 2022 oder höher |
 | | | |
 
 
@@ -116,7 +135,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 
 | AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2 023,09,0 | 3.1-uuid 17 | 3.1-uuid 17 | 2,3 | 2,3 |
+| 2023.09.0 | 3.1-uuid 17 | 3.1-uuid 17 | 2,3 | 2,3 |
 |  |  |  |  |  |
 
 
@@ -132,51 +151,51 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Authoring
 
-- Die Themendatei wird nicht im Web-Editor entsperrt, obwohl die Optionen Datei entsperren und Nicht speichern ausgewählt sind. 12558)
-- Eine Datei kann nicht im Web-Editor ausgecheckt werden, obwohl die Option NEIN ausgewählt wurde, um die Änderungen vor dem Einchecken zu verwerfen. 12557)
-- Die QuickInfos für die Dateisymbole „Sperren und Entsperren“ in der Hauptsymbolleiste im Web-Editor stimmen nicht mit den in der Repository-Ansicht angezeigten Symbolen überein.12555)
-- Die Option Auschecken abbrechen und Entsperren wird für eine Datei im Web-Editor angezeigt, die noch nicht in der Kartenansicht ausgecheckt wurde. 12556)
+- Die Themendatei wird nicht im Web-Editor entsperrt, obwohl die Optionen Datei entsperren und Nicht speichern ausgewählt sind. (12558)
+- Eine Datei kann nicht im Web-Editor ausgecheckt werden, obwohl die Option NEIN ausgewählt wurde, um die Änderungen vor dem Einchecken zu verwerfen. (12557)
+- Die QuickInfos für die Dateisymbole „Sperren und Entsperren“ in der Hauptsymbolleiste im Web-Editor stimmen nicht mit den in der Repository-Ansicht angezeigten Symbolen überein.(12555)
+- Die Option Auschecken abbrechen und Entsperren wird für eine Datei im Web-Editor angezeigt, die noch nicht in der Kartenansicht ausgecheckt wurde. (12556)
 - Die PDF-Assets in den vorhandenen Links „topicref“ können nicht ausgewählt werden. (12477).
-- In der Repository-Ansicht können die Themen oder Bilder nach Verwendung der Such-/Filterfunktion nicht verschoben werden. 12396)
-- Suchergebnisse werden im Bedienfeld Suchen und Ersetzen deaktiviert, nachdem eine durchsuchte Datei geöffnet wurde. 12142)
-- Die Zifferntaste „8“ auf der seitlichen Tastatur funktioniert im AEM Guides-Editor nicht. 12106)
+- In der Repository-Ansicht können die Themen oder Bilder nach Verwendung der Such-/Filterfunktion nicht verschoben werden. (12396)
+- Suchergebnisse werden im Bedienfeld Suchen und Ersetzen deaktiviert, nachdem eine durchsuchte Datei geöffnet wurde. (12142)
+- Die Zifferntaste „8“ auf der seitlichen Tastatur funktioniert im AEM Guides-Editor nicht. (12106)
 
-- Das Präfix wird im Vorschaumodus des Web-Editors dupliziert. 13133)
-- `Choicetable` Zeilen werden nicht angezeigt oder können nicht ausgewählt werden. 12616)
-- Der Web-Editor gibt bei der Erstellung eines Themas mithilfe eines benutzerdefinierten Schemas Validierungsfehler in bestimmten Szenarien aus. 12576)
-- Die Verweise auf die ditavale Themenvorlage erstellen beim Erstellen einer Zuordnung aus der Zuordnungsvorlage keine Kopie im Inhaltsordner. 12150)
-- Das Suchfeld in DITA-Karten verfügt über keine Schaltfläche zum Schließen. 11867)
-- Beim Speichern langer Dateien im Web-Editor löst `DirtyChecker` eine Ausnahme mit einer langen Stapelablaufverfolgung aus und füllt die Protokolldateien. 11860)
-- Zum Erstellen von DITA-Themen ist die Berechtigung Löschen für den entsprechenden Ordnerknoten erforderlich, obwohl die Zuordnung mit der Schreibberechtigung erstellt werden kann. 11706)
-- Im Web-Editor wird ein falscher Titel angezeigt, wenn ein Schrägstrich vorhanden ist. 10949)
+- Das Präfix wird im Vorschaumodus des Web-Editors dupliziert. (13133)
+- `Choicetable` Zeilen werden nicht angezeigt oder können nicht ausgewählt werden. (12616)
+- Der Web-Editor gibt bei der Erstellung eines Themas mithilfe eines benutzerdefinierten Schemas Validierungsfehler in bestimmten Szenarien aus. (12576)
+- Die Verweise auf die ditavale Themenvorlage erstellen beim Erstellen einer Zuordnung aus der Zuordnungsvorlage keine Kopie im Inhaltsordner. (12150)
+- Das Suchfeld in DITA-Karten verfügt über keine Schaltfläche zum Schließen. (11867)
+- Beim Speichern langer Dateien im Web-Editor löst `DirtyChecker` eine Ausnahme mit einer langen Stapelablaufverfolgung aus und füllt die Protokolldateien. (11860)
+- Zum Erstellen von DITA-Themen ist die Berechtigung Löschen für den entsprechenden Ordnerknoten erforderlich, obwohl die Zuordnung mit der Schreibberechtigung erstellt werden kann. (11706)
+- Im Web-Editor wird ein falscher Titel angezeigt, wenn ein Schrägstrich vorhanden ist. (10949)
 
 
 ### Verwaltung
 
-- Das Feld „Titel“ in den Metadateneigenschaften der DITA-Zuordnung wird durch `<title>` -Element für die Zuordnung überschrieben. 10702)
-- Inhaltsreferenz ist fehlerhaft. Kopieren Sie DITA-Dateien, und fügen Sie sie ein, wenn die Themen-ID nicht mit der GUID übereinstimmt. 12614)
-- Bei dynamischen Baselines wird die Beschriftungsliste nicht aus den direkten Referenzen der Arbeitskopie einer DITA-Zuordnung abgerufen. 11917)
+- Das Feld „Titel“ in den Metadateneigenschaften der DITA-Zuordnung wird durch `<title>` -Element für die Zuordnung überschrieben. (10702)
+- Inhaltsreferenz ist fehlerhaft. Kopieren Sie DITA-Dateien, und fügen Sie sie ein, wenn die Themen-ID nicht mit der GUID übereinstimmt. (12614)
+- Bei dynamischen Baselines wird die Beschriftungsliste nicht aus den direkten Referenzen der Arbeitskopie einer DITA-Zuordnung abgerufen. (11917)
 
 ### Publishing
 
-- Die Veröffentlichung schlägt beim Umbenennen einer nativen PDF-Vorgabe fehl. 12564)
-- Das Duplizieren einer nativen PDF-Vorlage wird am Standardvorlagenspeicherort anstelle des bereitgestellten benutzerdefinierten Vorlagenspeicherorts dupliziert. 12563)
+- Die Veröffentlichung schlägt beim Umbenennen einer nativen PDF-Vorgabe fehl. (12564)
+- Das Duplizieren einer nativen PDF-Vorlage wird am Standardvorlagenspeicherort anstelle des bereitgestellten benutzerdefinierten Vorlagenspeicherorts dupliziert. (12563)
 
-- Native PDF | Das Einschließen mehrerer XRefs erweitert den Text über die Spaltenbreite hinaus. 13004)
-- Native PDF | Wenn Thema und Titel dieselbe ID haben, führt dies zu einer fehlerhaften Generierung der PDF-Ausgabe. 12644)
-- Native PDF | Beim Hinzufügen einer Output-Klasse zu einem übergeordneten `<topicref>` in einer DITA-Zuordnung und beim Anwenden eines benutzerdefinierten Stils auf die Output-Klasse wird der Stil auf Elemente innerhalb des Themenkörpers angewendet, einschließlich Abschnittstiteln.12166)
-- Die inkrementelle Veröffentlichung funktioniert nicht, wenn eine DITA-Zuordnung mehrere ditavalrefs enthält. 12117)
-- AEM Site | Beim Erstellen einer Zuordnung mit keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. 12099)
-- Wenn Assets aus dem DAM von AEM in einer anderen Ausgabe als der AEM-Site verwendet werden, spiegeln die Metadaten „jcr:createdBy&quot; weder den Namen des Herausgebers noch den Namen des Benutzers wider, der die DITA-Zuordnung oder das Thema zuletzt geändert hat. 12090)
-- AEM Sites | DITA-Map mit topichead im navtitle (mit nicht unterstützten Zeichen) führt zu fehlerhaften Seiten-URLs. 11978)
-- Native PDF | Probleme treten bei der Unterstützung von topichead / topicmeta / navtitle in Frontmatter und Backmatter auf. 11969)
-- Native PDF | Das Generieren von PDFs für große Dokumente ist zeitaufwendig. 11955)
-- Native PDF | Beim Umbenennen einer Vorgabe wird beim Generieren einer PDF-Ausgabe eine NullPointerException ausgelöst. 11889)
-- Der `<conref>` Inhalt wird nicht in der PDF-Ausgabe angezeigt. 11131)
-- In den `<div>` wird beim Umschalten zwischen der Authoring- und der Source-Ansicht im Seitenlayout-Editor ein zusätzlicher Leerraum hinzugefügt. 10750)
+- Native PDF | Durch die Einbeziehung mehrerer xrefs wird der Text über die Spaltenbreite hinaus erweitert. (13004)
+- Natives PDF | Wenn Thema und Titel dieselbe ID haben, führt dies zu einer fehlerhaften Generierung der PDF-Ausgabe. (12644)
+- Nativer PDF | Beim Hinzufügen einer Output-Klasse zu einem übergeordneten `<topicref>` in einer DITA-Zuordnung und beim Anwenden eines benutzerdefinierten Stils auf die Output-Klasse wird der Stil auf Elemente im Themenkörper angewendet, einschließlich Abschnittstiteln.(12166)
+- Die inkrementelle Veröffentlichung funktioniert nicht, wenn eine DITA-Zuordnung mehrere ditavalrefs enthält. (12117)
+- AEM-Site | Beim Erstellen einer Zuordnung mit keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. (12099)
+- Wenn Assets aus dem DAM von AEM in einer anderen Ausgabe als der AEM-Site verwendet werden, spiegeln die Metadaten „jcr:createdBy&quot; weder den Namen des Herausgebers noch den Namen des Benutzers wider, der die DITA-Zuordnung oder das Thema zuletzt geändert hat. (12090)
+- AEM Sites | DITA Map mit topichead im navtitle (mit nicht unterstützten Zeichen) führt zu fehlerhaften Seiten-URLs. (11978)
+- Native PDF | Probleme treten bei der Unterstützung von topichead / topicmeta / navtitle in Frontmatter und Backmatter auf. (11969)
+- Native PDF | Das Generieren von PDFs für große Dokumente ist zeitaufwendig. (11955)
+- Nativer PDF | Das Umbenennen einer Vorgabe löst beim Generieren einer PDF-Ausgabe eine NullPointerException aus. (11889)
+- Der `<conref>` Inhalt wird nicht in der PDF-Ausgabe angezeigt. (11131)
+- In den `<div>` wird beim Umschalten zwischen der Authoring- und der Source-Ansicht im Seitenlayout-Editor ein zusätzlicher Leerraum hinzugefügt. (10750)
 - Der auf AEM Cloud Manager replizierte Inhalt ist auf der Veröffentlichungsinstanz nicht sichtbar. (9564)
 
 ### Übersetzung
 
-- Der Prozess zum Exportieren einer umbenannten Baseline für eine Übersetzung schlägt fehl. 12993)
-- Der Titel der übersetzten Datei wird anstelle des Titels der Quelldatei angezeigt. 11630)
+- Der Prozess zum Exportieren einer umbenannten Baseline für eine Übersetzung schlägt fehl. (12993)
+- Der Titel der übersetzten Datei wird anstelle des Titels der Quelldatei angezeigt. (11630)

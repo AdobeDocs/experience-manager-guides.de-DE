@@ -5,9 +5,25 @@ feature: Introduction
 role: User
 hide: true
 exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/4k6k6IFZ9N5kdK5s5R7kdFam4WMXd1BwiMzKVtXYX8k
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: 985
 ht-degree: 0%
 
 ---
@@ -37,25 +53,25 @@ Der integrierte Editor unterstützt derzeit die folgenden DITA-Standards:
 **Zusammenarbeit der nächsten Generation durch webbasierte Überprüfung**
 Stellen Sie sicher, dass verteilte Teams mit mehreren Autoren und mit mehreren Reviewern über einen leistungsstarken, Web-basierten zusammengesetzten Überprüfungs-Workflow reibungslos zusammenarbeiten, wodurch der Umfang manueller Fehler im Prozess minimiert wird.
 
-AEM Guides bietet leistungsstarke und dennoch benutzerfreundliche webbasierte Überprüfungsfunktionen. Sie können mehrere DITA-Themen gleichzeitig zur Überprüfung senden. Die Überprüfungsfunktion trägt dazu bei, sicherzustellen, dass der Dokumentinhalt effizient überprüft wird. Autoren und Prüfer können bei Änderungen während laufender Prüfungen mühelos zusammenarbeiten. Reviewers can monitor the differences from previous versions to identify if feedback has been incorporated correctly. Administrators can track the review task history using the feature-rich management dashboard.
+AEM Guides bietet leistungsstarke und dennoch benutzerfreundliche webbasierte Überprüfungsfunktionen. Sie können mehrere DITA-Themen gleichzeitig zur Überprüfung senden. Die Überprüfungsfunktion trägt dazu bei, sicherzustellen, dass der Dokumentinhalt effizient überprüft wird. Autoren und Prüfer können bei Änderungen während laufender Prüfungen mühelos zusammenarbeiten. Reviewer können die Unterschiede zu früheren Versionen überwachen, um festzustellen, ob das Feedback korrekt integriert wurde. Administratoren können den Verlauf der Prüfungsaufgaben mithilfe des funktionsreichen Management-Dashboards verfolgen.
 
-Every document in your DAM now gets a document status. This document status helps you identify what state in the documentation process the document is. You as an administrator of the system can define the document states, default start and end states, and document state transition for your documents.
+Jedes Dokument in Ihrem DAM erhält jetzt einen Dokumentstatus. Dieser Dokumentstatus hilft Ihnen dabei, den Status des Dokuments im Dokumentationsprozess zu identifizieren. Als Administrator des Systems können Sie die Dokumentstatus, den standardmäßigen Start- und Endstatus sowie die Dokumentstatusübergabe für Ihre Dokumente definieren.
 
-**Industry-leading translation management and localization support**
-Get significant savings on translation time and costs, and ensure that published content is free of translation errors.
+**Branchenführende Unterstützung in den Bereichen Übersetzungsmanagement und Lokalisierung**
+Sie sparen erheblich Zeit und Kosten bei der Übersetzung und stellen sicher, dass die veröffentlichten Inhalte frei von Übersetzungsfehlern sind.
 
-Adobe Experience Manager comes with built-in connectors for leading translation providers. Leverage these connectors to manage locale-specific content. Make full use of the detailed out-of-the-box translation reports to identify untranslated content before publishing and take appropriate corrective actions. You can manage the status of translated content with respect to master language updates to carry out translation only for the updated DITA files. Time-consuming, manual identification of files to send for translation is not required.
+Adobe Experience Manager verfügt über integrierte Connectoren für führende Übersetzungsdienstleister. Nutzen Sie diese Connectoren, um gebietsschemaspezifische Inhalte zu verwalten. Nutzen Sie die detaillierten Übersetzungsberichte, um nicht übersetzte Inhalte vor der Veröffentlichung zu identifizieren, und ergreifen Sie geeignete Korrekturmaßnahmen. Sie können den Status der übersetzten Inhalte in Bezug auf Aktualisierungen der primären Sprache verwalten, um die Übersetzung nur für die aktualisierten DITA-Dateien durchzuführen. Eine zeitaufwendige manuelle Erkennung von Dateien, die zur Übersetzung gesendet werden sollen, ist nicht erforderlich.
 
-**Best-in-class multichannel publishing of DITA content**
-Streamline enterprise content publishing with a seamless, one-touch approach that accelerates time to market.
+**Erstklassige Mehrkanal-Veröffentlichung von DITA-Inhalten**
+Optimieren Sie die Veröffentlichung von Unternehmens-Content mit einem nahtlosen One-Touch-Ansatz, der die Markteinführungszeit beschleunigt.
 
-With the native DITA support added to Experience Manager, generate output for Experience Manager Sites, PDF, HTML5, EPUBS, or custom output through DITA-OT. You can leverage the fully configurable output to deliver highly personalized, relevant, and immersive content experiences for end users. You can also easily perform batch generation or use Baseline to publish a specific version of your documentation.
+Wenn die native DITA-Unterstützung zu Experience Manager hinzugefügt wurde, generieren Sie über DITA-OT eine Ausgabe für Experience Manager Sites, PDF, HTML5, EPUBS oder eine benutzerdefinierte Ausgabe. Sie können die vollständig konfigurierbare Ausgabe nutzen, um Endbenutzern hochgradig personalisierte, relevante und beeindruckende Inhaltserlebnisse bereitzustellen. Sie können auch einfach eine Batch-Erstellung durchführen oder Baseline verwenden, um eine bestimmte Version Ihrer Dokumentation zu veröffentlichen.
 
-**Comprehensive search and content usage data**
-Find and select relevant content faster, maximizing the ROI on content with every reuse. Perform basic and advanced searches using content attributes and topic metadata across the entire repository through a simple interface inside the DITA authoring tool. Results are tagged with content usage data to help you easily identify and select the right content for optimal reuse.
+**Umfassende Daten zur Suche und Nutzung von Inhalten**
+Schnellere Suche und Auswahl relevanter Inhalte und Maximierung des ROI aus Inhalten bei jeder Wiederverwendung. Führen Sie einfache und erweiterte Suchen mithilfe von Inhaltsattributen und Themenmetadaten im gesamten Repository über eine einfache Benutzeroberfläche im DITA-Authoring-Tool durch. Die Ergebnisse werden mit Daten zur Inhaltsnutzung getaggt, damit Sie den richtigen Inhalt für eine optimale Wiederverwendung leicht identifizieren und auswählen können.
 
-**In-depth publishing readiness reports**
-Make publishing error-free by easily checking and correcting content before it goes live. Keep a close watch on system health by easily accessing various reports at the DITA map level. You can check the number of missing topics, broken links or references, and the status of reviews, and translations for all topics. Sie können die Berichte auch verwenden, um umfassende Integritätsprüfungen in den letzten Phasen vor der Veröffentlichung durchzuführen.
+**Detaillierte Berichte zur Veröffentlichungsbereitschaft**
+Machen Sie die Veröffentlichung fehlerfrei, indem Sie Inhalte einfach überprüfen und korrigieren, bevor sie live gehen. Halten Sie die Systemintegrität genau im Auge, indem Sie auf DITA Map-Ebene einfach auf verschiedene Berichte zugreifen. Sie können die Anzahl der fehlenden Themen, fehlerhaften Links oder Verweise sowie den Status von Überprüfungen und Übersetzungen für alle Themen überprüfen. Sie können die Berichte auch verwenden, um umfassende Integritätsprüfungen in den letzten Phasen vor der Veröffentlichung durchzuführen.
 
 **Umfassende Tag-Management-Unterstützung für personalisierte Ausgaben**\
 Fördern Sie die tiefere Interaktion mit Endbenutzern und die Akzeptanz von Inhalten durch hochrelevante Inhaltserlebnisse. Mit AEM Guides können Sie die umfassende Tag-Management-Unterstützung in Experience Manager nutzen, um relevante Tags auf DITA-Quellinhalte anzuwenden. Verwenden Sie diese Tags, um Endbenutzern hochgradig personalisierte Inhaltserlebnisse bereitzustellen.

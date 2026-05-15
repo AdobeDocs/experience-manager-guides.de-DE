@@ -5,9 +5,25 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/QwfgJH1sqiJKtM3UfYDne0eOCS-y6-yoBZxSCED4umQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: 2755
 ht-degree: 0%
 
 ---
@@ -26,10 +42,10 @@ Experience Manager Guides bietet vordefinierte Vorlagen zum Erstellen von AEM Si
 
 ## Erstellen von AEM Sites-Vorgaben
 
-Perform the following steps to create the AEM Sites presets from the Web Editor:
+Führen Sie die folgenden Schritte aus, um die AEM Sites-Vorgaben aus dem Web-Editor zu erstellen:
 
 1. Öffnen Sie im Repository-Bereich die DITA-Zuordnungsdatei in der Zuordnungsansicht.
-1. In the **Output** tab, select the + icon to create an output preset.
+1. Wählen **auf der Registerkarte** Ausgabe“ das Symbol + aus, um eine Ausgabevorgabe zu erstellen.
 1. Wählen Sie **AEM Sites** aus der Dropdown **Liste „Typ** im Dialogfeld **Neue**) aus.
 1. Deaktivieren Sie die Option **Frühere Komponentenzuordnung verwenden** im Dialogfeld **Neue**&quot;.
 
@@ -41,7 +57,7 @@ Perform the following steps to create the AEM Sites presets from the Web Editor:
 
 >[!NOTE]
 >
->Before configuring the AEM Sites presets for Experience Manager Guides, your administrator needs to create an AEM Sites structure using the templates.
+>Bevor Sie die AEM Sites-Vorgaben für Experience Manager Guides konfigurieren können, muss Ihr Administrator eine AEM Sites-Struktur mithilfe der Vorlagen erstellen.
 >- **On-Premise-Software**: Erfahren Sie mehr über das [Herunterladen und Installieren von AEM Sites-Vorlagen](/help/product-guide/install-guide/download-install-aem-sites-templates.md) für On-Premise-Software.
 >- **Cloud Service**: Erfahren Sie mehr darüber, wie Sie [AEM Sites-Vorlagen herunterladen und installieren](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) für Cloud Service.
 

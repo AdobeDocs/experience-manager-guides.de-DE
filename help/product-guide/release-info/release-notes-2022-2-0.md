@@ -4,10 +4,24 @@ description: Februarversion von  [!DNL Adobe Experience Manager Guides] as a Clo
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/QdLQIO8X1Lkj3iwoJAUQ-ENujxT-n7y5gGlI-gQz-IE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 0%
+source-wordcount: 982
+ht-degree: 2%
 
 ---
 
@@ -97,21 +111,21 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Web-Editor
 
-* In DITA-Themen funktioniert das Ziehen und Ablegen einer Bedingung nicht. (8 761)
-* Attribute fehlen beim Hinzufügen eines Kapitels zu einer Bookmap mithilfe von Drag-and-Drop aus der Favoritenansicht. (8 746)
+* In DITA-Themen funktioniert das Ziehen und Ablegen einer Bedingung nicht. (8761)
+* Attribute fehlen beim Hinzufügen eines Kapitels zu einer Bookmap mithilfe von Drag-and-Drop aus der Favoritenansicht. (8746)
 * Das Bearbeiten der Eigenschaften eines Bildes (Höhe, Breite) führt zu einem Anwendungsfehler. (8722)
 * Beschädigte Links werden nicht im Gliederungsbereich in der Quellansicht angezeigt. (8590)
 * Der XML-Editor entfernt das Zeilenumbruch-Tag im Codeblock. (8522)
-* Die Verwendung des Glossars wird bei der Erstellung eines Glosseneintrags als Hinweis angezeigt. (8 384)
+* Die Verwendung des Glossars wird bei der Erstellung eines Glosseneintrags als Hinweis angezeigt. (8384)
 * xref kann auch an gültigen Speicherorten nicht eingefügt werden. (8354)
 * Die Elementliste (Alt+Eingabetaste) wird im dunkelsten/dunkelsten Design ausgegraut angezeigt. (7913)
 * Die Liste der Zuordnungsvorlagen in **Erstellen** Option (Menü mit Auslassungspunkten) im Repository-Bereich entspricht nicht dem **Ordnerprofil** in den Benutzereinstellungen. (5918)
-* Element-IDs werden nicht automatisch für Elemente generiert, die über die Funktion Inhalt wiederverwenden in der Hauptsymbolleiste hinzugefügt wurden. (5 826)
+* Element-IDs werden nicht automatisch für Elemente generiert, die über die Funktion Inhalt wiederverwenden in der Hauptsymbolleiste hinzugefügt wurden. (5826)
 
 ### Assets-Benutzeroberfläche
 
-* Die Bildbearbeitung funktioniert auf dem Cloud-Server nicht wie erwartet. (8 768)
-* Im Bereich Versionsverlauf wird im Abschnitt Aktuelle Version ein falscher Zeitstempel angezeigt und durch Informationen geändert. (8 765)
+* Die Bildbearbeitung funktioniert auf dem Cloud-Server nicht wie erwartet. (8768)
+* Im Bereich Versionsverlauf wird im Abschnitt Aktuelle Version ein falscher Zeitstempel angezeigt und durch Informationen geändert. (8765)
 * Der DITAVAL-Datei-Upload auf dem Cloud-Server schlägt fehl, wenn das AEM-Desktop-Tool verwendet wird. (8707)
 * Der zweite Administratorbenutzer kann nicht als der erste Administratorbenutzer einem Ordner hinzugefügt werden. (8430)
 * Nicht eindeutige Eigenschaften eines Assets werden nicht kopiert, wenn das Asset kopiert und eingefügt wird. (8241)
