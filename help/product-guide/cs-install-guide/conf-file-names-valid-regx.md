@@ -6,10 +6,15 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/fFZPer93bwekrR2a9mqGwLNm6CIpvGkuNn48xtExUv4
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 353
@@ -37,4 +42,4 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 >
 > Ähnlich wie bei der Liste der gültigen Dateinamenzeichen können Sie auch eine Liste gültiger Dateinamenzeichen für die AEM Site-Ausgabe angeben. Weitere Informationen finden Sie unter [Konfigurieren gültiger Dateinamen für die AEM Site-Ausgabe](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Übergeordnetes Thema:**[ Dateinamen konfigurieren](conf-file-names.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Dateinamen konfigurieren](conf-file-names.md)

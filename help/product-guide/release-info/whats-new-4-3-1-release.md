@@ -5,10 +5,15 @@ exl-id: 14db7453-ccc1-4709-903f-677f55c263b2
 feature: What's New
 role: Leader
 TQID: https://experienceleague.adobe.com/ARoAPa2b8DUCuRMbl4-8QwulfVtXMYnE9ixKVGlTJIg
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1136
@@ -56,7 +61,7 @@ Sie können jetzt auch die Protokolldatei für die Inhaltserstellung anzeigen. I
 
 Sie können jetzt die Velocity-Tools in den Experience Manager Guides-Vorlagen verwenden. Mit diesen Tools können Sie verschiedene Funktionen auf die Daten anwenden, die Sie aus den Datenquellen abrufen. Sie können die Vorlagen beim Erstellen eines Inhaltsausschnitts oder Themas verwenden. Mit dieser Funktion sparen Sie Zeit und Mühe bei der manuellen Anwendung derselben Funktion auf jeden Datensatz.  Außerdem werden präzise Ergebnisse erzielt.
 Beispielsweise können Sie das $mathTool verwenden, um mathematische Funktionen auszuführen.
-Erfahren Sie mehr über [ Verwendung von Velocity-Tools in den Datenquellenvorlagen](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
+Erfahren Sie mehr über [&#x200B; Verwendung von Velocity-Tools in den Datenquellenvorlagen](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
 
 
 ## Native PDF-Verbesserungen
@@ -103,7 +108,7 @@ Verwenden Sie das Kontextmenü, um die Datei (.dita, .xml, Audio, Video oder Bil
 
 *Vorschau der Datei im Fensterbereich anzeigen.*
 
-Weitere Informationen zum Kontextmenü finden Sie in der **Optionen für eine Datei** Funktionsbeschreibung im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zum Kontextmenü finden Sie in der **Optionen für eine Datei** Funktionsbeschreibung im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).
 
 ## Bearbeiten einer Datei im Oxygen Connector-Plug-in
 

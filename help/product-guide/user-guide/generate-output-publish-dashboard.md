@@ -5,11 +5,17 @@ exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/PK8-P0Mqn-MWI0Zz2RW27U0B6AXbIfWCIfYqoPmL3F0
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 562
@@ -53,7 +59,7 @@ Das linke Bedienfeld im Veröffentlichungs-Dashboard bietet die folgenden Filter
 
 ## Zugriff auf das Veröffentlichungs-Dashboard
 
-Sie können auf **Dashboard veröffentlichen** direkt über die [Experience Manager Guides-Startseite ](./intro-home-page.md). Öffnen Sie die Startseite und wählen Sie **linken Bedienfeld die Option** Veröffentlichungswarteschlange“ aus.
+Sie können auf **Dashboard veröffentlichen** direkt über die [Experience Manager Guides-Startseite &#x200B;](./intro-home-page.md). Öffnen Sie die Startseite und wählen Sie **linken Bedienfeld die Option** Veröffentlichungswarteschlange“ aus.
 
 >[!NOTE]
 >
@@ -95,4 +101,4 @@ Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung �
    ![](images/cancelled-output-task.png)
 
 
-**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

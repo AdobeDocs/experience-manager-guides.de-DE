@@ -3,11 +3,19 @@ title: Blenden Sie die Option „Create DataMap“ aus den Kontextmenüoptionen 
 description: Erfahren Sie, wie Sie den Web-Editor anpassen können, indem Sie die Option „DitaMap“ aus dem Ordnerkontextmenü für bestimmte Benutzer/Gruppen ausblenden
 exl-id: 796bfe3a-3950-4ade-9215-c33534791055
 TQID: https://experienceleague.adobe.com/fAMBEOKlPA4KHsE81zfI-6EJ6zwaQOgRfx0w-cx-mmw
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 571
@@ -29,7 +37,7 @@ Beginnen wir nun mit der Anpassung des Ordnerkontextmenüs, um diese Option für
 
 Wie Sie im folgenden Ausschnitt sehen können, ist die Option „Create DitaMap“ für einen Autoren-Benutzer sichtbar.
 
-![Option „Create DitaMap“ ](../../../assets/authoring/ditamap-show-author.png)
+![Option „Create DitaMap“ &#x200B;](../../../assets/authoring/ditamap-show-author.png)
 
 Sehen wir uns nun an, wie wir diese Option mithilfe des Handbücher-Erweiterungs-Frameworks ausblenden können.
 

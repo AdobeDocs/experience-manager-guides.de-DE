@@ -5,8 +5,11 @@ exl-id: 41bfed0d-5901-4ada-b6d7-a5be93b25ba8
 feature: What's New
 role: Leader
 TQID: https://experienceleague.adobe.com/rVBSIkzYdHd3fuPjRydggNpaf2zoTv8dlqTuaj2zibU
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 629
@@ -39,7 +42,7 @@ Sie können jetzt auch die Protokolldatei für die Inhaltserstellung anzeigen. I
 
 Sie können jetzt die Velocity-Tools in den Experience Manager Guides-Vorlagen verwenden. Mit diesen Tools können Sie verschiedene Funktionen auf die Daten anwenden, die Sie aus den Datenquellen abrufen. Sie können die Vorlagen beim Erstellen eines Inhaltsausschnitts oder Themas verwenden. Mit dieser Funktion sparen Sie Zeit und Mühe bei der manuellen Anwendung derselben Funktion auf jeden Datensatz.  Außerdem werden präzise Ergebnisse erzielt.
 Beispielsweise können Sie das $mathTool verwenden, um mathematische Funktionen auszuführen.
-Erfahren Sie mehr über [ Verwendung von Velocity-Tools in den Datenquellenvorlagen](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
+Erfahren Sie mehr über [&#x200B; Verwendung von Velocity-Tools in den Datenquellenvorlagen](../user-guide/web-editor-content-snippet.md#use-velocity-tools).
 
 
 ## Native PDF-Verbesserungen

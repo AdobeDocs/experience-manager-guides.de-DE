@@ -4,11 +4,19 @@ description: Erfahren Sie, wie Sie mit dem KI-Assistenten Dokumente mit intellig
 hide: true
 exl-id: c7d37da8-e838-47a2-b469-287bcd841933
 TQID: https://experienceleague.adobe.com/jlX-PtEmXNj4xiDQE-C5OG2OlgBzbjkDTK6hIGF3yQ4
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: bf7fca06-df97-4229-884f-76afcfade5ad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: bf7fca06-df97-4229-884f-76afcfade5ad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 1055
@@ -139,7 +147,7 @@ Diese Funktion wandelt einen ausgewählten Absatz intelligent in eine Liste um. 
 
 
 1. Inhalt auswählen.
-1. Wählen Sie **Inhalt** KI![Symbol für Inhalt ](./images/ai-itemize-icon.svg) aus, um den ausgewählten Inhalt in eine Liste zu konvertieren.
+1. Wählen Sie **Inhalt** KI![Symbol für Inhalt &#x200B;](./images/ai-itemize-icon.svg) aus, um den ausgewählten Inhalt in eine Liste zu konvertieren.
 Das Tool KI-Assistent konvertiert den Inhalt intelligent in eine Liste von Elementen.
 1. (Optional) Klicken Sie auf **Erweitern**, um den Editor **Inhalt auflisten** zu öffnen.
 1. Sobald Ihre Liste fertig ist, akzeptieren Sie die Änderungen am generierten Inhalt. Der generierte Inhalt ersetzt dann den ausgewählten Inhalt.
@@ -152,7 +160,7 @@ Verwenden Sie diese intelligente Funktion, um die ausgewählten Inhalte in die Z
 Führen Sie die folgenden Schritte aus, um die Inhalte zu übersetzen:
 
 1. Wählen Sie die Inhalte aus, die Sie übersetzen möchten.
-1. Wählen Sie **Inhalt übersetzen** im ](./images/ai-translate-content-icon.svg)-Assistentenfeld ![Symbol „Inhalt übersetzen“ aus.
+1. Wählen Sie **Inhalt übersetzen** im ![&#128279;](./images/ai-translate-content-icon.svg)-Assistentenfeld Symbol „Inhalt übersetzen“ aus.
 1. Wählen Sie im Dropdown-Menü die Zielsprache aus. Die übersetzten Inhalte werden im Bedienfeld KI-Assistent angezeigt.
 
 1. (Optional) Wählen Sie **Erweitern** aus, um den Editor **Inhalte übersetzen** zu öffnen.

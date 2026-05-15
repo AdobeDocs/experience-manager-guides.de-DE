@@ -5,11 +5,20 @@ feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
 TQID: https://experienceleague.adobe.com/o-vv28SWWNym2aSVCshJDbPTWkpwH-KNwES4M5MKKJ8
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 3616
@@ -55,7 +64,7 @@ Führen Sie die folgenden Schritte aus, um die AEM Sites-Vorgabe mithilfe der Zu
    Die Voreinstellung für AEM Sites wird erstellt.
 
 
-   ![Neue ](images/new-aem-sites-dialog-box.png){width="300"}
+   ![Neue &#x200B;](images/new-aem-sites-dialog-box.png){width="300"}
 
 <!--
 ### Generate the AEM Sites output using the templates
@@ -94,7 +103,7 @@ In der Zuordnungskonsole sind die voreingestellten Konfigurationsoptionen für d
 - Themenliste
 - Querverweise auf Zuordnungen
 
-![Neue ](images/aem-sites-new-config.png){width="650"}
+![Neue &#x200B;](images/aem-sites-new-config.png){width="650"}
 
 **Allgemein**
 
@@ -105,7 +114,7 @@ Die **Allgemein** enthält die folgenden Konfigurationsoptionen:
 | Site-Pfad verwenden | Verwenden Sie diese Option, um Ihre Inhalte auf einer Experience Manager-Site zu veröffentlichen. |
 | Site-Pfad | **Diese Option wird angezeigt, wenn Sie die Option** Site-Pfad verwenden **auswählen**. Durchsuchen Sie den vordefinierten Pfad der Experience Manager-Site oder geben Sie einen benutzerdefinierten Pfad an, unter dem die Ausgabe veröffentlicht werden soll. Mit **Option „Sites**&quot; können Sie den gesamten Veröffentlichungspfad angeben, auch wenn der angegebene Pfad nicht in der AEM Sites-Struktur vorab erstellt wurde. In solchen Fällen erstellt das System die notwendige Struktur während des Publishing-Prozesses, indem es die ausgewählte Map-Homepage-Vorlage verwendet.<br><br>Sie können beim Festlegen des Site-Pfads auch Variablen verwenden. Weitere Informationen finden Sie unter [Verwenden von Variablen zum Festlegen der Optionen Zielpfad, Site-Name oder Dateiname](./generate-output-use-variables.md) |
 | Seitenvorlage zuordnen | **Diese Option wird angezeigt, wenn Sie die Option** Site-Pfad verwenden **auswählen**. Wählen Sie eine Vorlage aus, die Sie für die Zuordnungs-Startseiten anwenden möchten. |
-| Site | Name der Experience Manager Sites, in der Sie Ihre Inhalte veröffentlichen möchten. Die Optionen in der Dropdown-Liste werden basierend auf der Liste der in AEM Sites verfügbaren Sites ausgefüllt. <br>Wählen Sie **Aktualisieren** ![Aktualisierungssymbol ](images/navtitle-refresh-icon.svg), um eine neue Liste von Optionen abzurufen und die aktualisierten Daten widerzuspiegeln. |
+| Site | Name der Experience Manager Sites, in der Sie Ihre Inhalte veröffentlichen möchten. Die Optionen in der Dropdown-Liste werden basierend auf der Liste der in AEM Sites verfügbaren Sites ausgefüllt. <br>Wählen Sie **Aktualisieren** ![Aktualisierungssymbol &#x200B;](images/navtitle-refresh-icon.svg), um eine neue Liste von Optionen abzurufen und die aktualisierten Daten widerzuspiegeln. |
 | Veröffentlichungspfad | Der Pfad innerhalb Ihres AEM-Repositorys, in dem die Ausgabe gespeichert wird. Der Veröffentlichungspfad wird mit allen Pfaden gefüllt, die Seiten enthalten, die basierend auf der Startseitenvorlage erstellt wurden. Unter diesem Pfad wird die AEM Sites-Ausgabe der DITA-Zuordnung generiert.  Wenn Sie beispielsweise die Site als `AEMG-Docs` und den Veröffentlichungspfad als `aemg-docs-en/docs/product-abc.` angeben, wird die AEM Sites-Ausgabe unter dem `aemg-docs-en/docs/product-abc/` in `crx/de` generiert. |
 | Themenseitenvorlage | Wählen Sie die Vorlage aus, die Sie auf alle Ausgabethemen anwenden möchten. |
 | Seitennamen generieren basierend auf | **Themendateiname**: Verwendet den Dateinamen des DITA-Themas, um die Website-URL zu erstellen. <br> **Thementitel**: Verwendet den Titel des DITA-Themas zum Erstellen der Experience Manager-Site-Namen. |
@@ -118,7 +127,7 @@ Die **Inhalt**-Registerkarte enthält die folgenden Konfigurationsoptionen:
 
 | AEM Sites-Optionen | Beschreibung |
 | --- | --- |
-| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [ „Arbeiten mit ](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)&quot;. |
+| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [&#x200B; „Arbeiten mit &#x200B;](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)&quot;. |
 | Bedingte Filterung | Eine der folgenden Optionen auswählen:<br><br>**None**: Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die veröffentlichte Ausgabe anwenden möchten.<br>**Verwenden von DITAVAL**: Wählen Sie DITAVal-Datei(en) aus, um bedingte Inhalte zu generieren. Sie können mehrere DITAVal-Dateien über das Dialogfeld „Durchsuchen“ oder durch Eingabe des Dateipfads auswählen. Verwenden Sie das Kreuz-Symbol neben dem Dateinamen, um ihn zu entfernen. DITAVal-Dateien werden in der angegebenen Reihenfolge ausgewertet, sodass die in der ersten Datei angegebenen Bedingungen Vorrang vor den in späteren Dateien angegebenen übereinstimmenden Bedingungen haben. Sie können die Dateireihenfolge durch Hinzufügen oder Löschen von Dateien beibehalten. Wenn die DITAVal-Datei an einen anderen Speicherort verschoben oder gelöscht wird, wird sie nicht automatisch aus dem Zuordnungs-Dashboard gelöscht. Sie müssen den Speicherort aktualisieren, falls Dateien verschoben oder gelöscht werden. Sie können den Mauszeiger über den Dateinamen bewegen, um den Pfad im AEM-Repository anzuzeigen, in dem die Datei gespeichert ist. Sie können nur DITAVal-Dateien auswählen. Wenn Sie einen anderen Dateityp auswählen, wird ein Fehler angezeigt.<br>**Bedingungsvorgabe**: Wählen Sie in der Dropdown-Liste eine Bedingungsvorgabe aus, um eine Bedingung beim Veröffentlichen der Ausgabe anzuwenden. Diese Option ist sichtbar, wenn Sie eine Bedingung für die DITA-Zuordnungsdatei hinzugefügt haben. Die bedingten Einstellungen sind auf der Registerkarte „Bedingungsvorgaben“ der DITA-Zuordnungskonsole verfügbar. Weitere Informationen zu Bedingungsvorgaben finden Sie unter [Verwenden von Bedingungsvorgaben](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Zusätzliche DITA-OT-Befehlszeilenargumente | Geben Sie die zusätzlichen Argumente an, die DITA-OT beim Generieren der Ausgabe verarbeiten soll. Weitere Informationen zu den in DITA-OT unterstützten Befehlszeilenargumenten finden Sie unter [DITA-OT-Dokumentation](https://www.dita-ot.org/). |
 | Metadaten <br> <br>Dateieigenschaften (Assets) | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite Eigenschaften der DITA-Map- oder Bookmap-Datei festgelegt. Die aus der Dropdown-Liste ausgewählten Eigenschaften werden unter dem Feld **Dateieigenschaften** angezeigt. Klicken Sie auf das Kreuzsymbol neben der Eigenschaft, um sie zu entfernen. <br><br>**Hinweis**: Bei den Metadateneigenschaften wird zwischen Groß- und Kleinschreibung unterschieden.<br><br>*Wenn Sie eine Baseline ausgewählt haben, basieren die Werte für die Eigenschaften auf der Version der ausgewählten Baseline.<br>* Wenn Sie keine Baseline ausgewählt haben, basieren die Werte für die Eigenschaften auf der neuesten Version.<br><br>Sie können die Metadaten auch mithilfe von DITA-OT-Publishing an die Ausgabe übergeben. Für die weitere Detailansicht [Übergeben Sie die Metadaten mithilfe von DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Hinweis** an die Ausgabe: Wenn Sie die `cq:tags` nicht in der Option Eigenschaften definiert haben, werden die Werte für `cq:tags` auch dann aus der aktuellen Arbeitskopie ausgewählt, wenn Sie eine Baseline für die Veröffentlichung ausgewählt haben. |
@@ -149,7 +158,7 @@ Speichern Sie nach der Konfiguration die vorgenommenen Änderungen an der Vorein
 
 ## Verwenden der Zuordnung veralteter Komponenten
 
-Die Schritte zum Erstellen der AEM Sites-Vorgabe mit der Zuordnung veralteter Komponenten sind mit denen identisch, die im Abschnitt [Zuordnung ](#use-composite-component-mapping) zusammengesetzten Komponenten“ oben beschrieben wurden. Stellen Sie jedoch beim Erstellen der Vorgabe sicher, dass Sie die Option **Alte Komponentenzuordnung verwenden** im Dialogfeld **Neue**&quot; auswählen.
+Die Schritte zum Erstellen der AEM Sites-Vorgabe mit der Zuordnung veralteter Komponenten sind mit denen identisch, die im Abschnitt [Zuordnung &#x200B;](#use-composite-component-mapping) zusammengesetzten Komponenten“ oben beschrieben wurden. Stellen Sie jedoch beim Erstellen der Vorgabe sicher, dass Sie die Option **Alte Komponentenzuordnung verwenden** im Dialogfeld **Neue**&quot; auswählen.
 
 ![](images/aem-sites-output-legacy.png) {width="300"}
 
@@ -159,7 +168,7 @@ In der Zuordnungskonsole sind die voreingestellten Konfigurationsoptionen für d
 - Inhalt
 - Querverweise auf Zuordnungen
 
-![Neue ](images/aem-sites-preset-legacy-config.png){width="500"}
+![Neue &#x200B;](images/aem-sites-preset-legacy-config.png){width="500"}
 
 **Allgemein**
 
@@ -177,13 +186,13 @@ Die **Allgemein** enthält die folgenden Konfigurationsoptionen:
 
 **Inhalt**
 
-![Neue ](images/aem-sites-content-tab.png){width="650"}
+![Neue &#x200B;](images/aem-sites-content-tab.png){width="650"}
 
 Die **Inhalt**-Registerkarte enthält die folgenden Konfigurationsoptionen:
 
 | AEM Sites-Optionen | Beschreibung |
 | --- | --- |
-| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [ „Arbeiten mit ](./web-editor-baseline.md)&quot;. |
+| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [&#x200B; „Arbeiten mit &#x200B;](./web-editor-baseline.md)&quot;. |
 | Bedingte Filterung | Eine der folgenden Optionen auswählen:<br><br>**None**: Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die veröffentlichte Ausgabe anwenden möchten.<br>**Verwenden von DITAVAL**: Wählen Sie DITAVal-Datei(en) aus, um bedingte Inhalte zu generieren. Sie können mehrere DITAVal-Dateien über das Dialogfeld „Durchsuchen“ oder durch Eingabe des Dateipfads auswählen. Verwenden Sie das Kreuz-Symbol neben dem Dateinamen, um ihn zu entfernen. DITAVal-Dateien werden in der angegebenen Reihenfolge ausgewertet, sodass die in der ersten Datei angegebenen Bedingungen Vorrang vor den in späteren Dateien angegebenen übereinstimmenden Bedingungen haben. Sie können die Dateireihenfolge durch Hinzufügen oder Löschen von Dateien beibehalten. Wenn die DITAVal-Datei an einen anderen Speicherort verschoben oder gelöscht wird, wird sie nicht automatisch aus dem Zuordnungs-Dashboard gelöscht. Sie müssen den Speicherort aktualisieren, falls Dateien verschoben oder gelöscht werden. Sie können den Mauszeiger über den Dateinamen bewegen, um den Pfad im AEM-Repository anzuzeigen, in dem die Datei gespeichert ist. Sie können nur DITAVal-Dateien auswählen. Wenn Sie einen anderen Dateityp auswählen, wird ein Fehler angezeigt.<br>**Bedingungsvorgabe**: Wählen Sie in der Dropdown-Liste eine Bedingungsvorgabe aus, um eine Bedingung beim Veröffentlichen der Ausgabe anzuwenden. Diese Option ist sichtbar, wenn Sie eine Bedingung für die DITA-Zuordnungsdatei hinzugefügt haben. Die bedingten Einstellungen sind auf der Registerkarte „Bedingungsvorgaben“ der DITA-Zuordnungskonsole verfügbar. Weitere Informationen zu Bedingungsvorgaben finden Sie unter [Verwenden von Bedingungsvorgaben](generate-output-use-condition-presets.md#id1825FL004PN). |
 | Metadaten <br> <br>Dateieigenschaften (Assets) | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite Eigenschaften der DITA-Map- oder Bookmap-Datei festgelegt. Die aus der Dropdown-Liste ausgewählten Eigenschaften werden unter dem Feld **Dateieigenschaften** angezeigt. Klicken Sie auf das Kreuzsymbol neben der Eigenschaft, um sie zu entfernen. <br><br>**Hinweis**: Bei den Metadateneigenschaften wird zwischen Groß- und Kleinschreibung unterschieden.<br><br>*Wenn Sie eine Baseline ausgewählt haben, basieren die Werte für die Eigenschaften auf der Version der ausgewählten Baseline.<br>* Wenn Sie keine Baseline ausgewählt haben, basieren die Werte für die Eigenschaften auf der neuesten Version.<br><br>Sie können die Metadaten auch mithilfe von DITA-OT-Publishing an die Ausgabe übergeben. Für die weitere Detailansicht [Übergeben Sie die Metadaten mithilfe von DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Hinweis** an die Ausgabe: Wenn Sie die `cq:tags` nicht in der Option Eigenschaften definiert haben, werden die Werte für `cq:tags` auch dann aus der aktuellen Arbeitskopie ausgewählt, wenn Sie eine Baseline für die Veröffentlichung ausgewählt haben. |
 | Metadaten <br> <br>Verwenden von Zuordnungseigenschaften als Fallback | Wenn diese Option aktiviert ist, werden die für die Zuordnungsdatei definierten Eigenschaften auch in die Themen kopiert, in denen diese Eigenschaften nicht definiert sind. Beachten Sie bei Verwendung dieser Option die folgenden Punkte <br><br>*Nur Zeichenfolgen-, Datums- oder Lange-Eigenschaften (einzelne und mehrwertige Eigenschaften) können an die Seiten der AEM-Site übergeben werden.<br>* Die Metadatenwerte für eine Eigenschaft vom Typ Zeichenfolge unterstützen keine Sonderzeichen (z. B. `@, #, " "`).<br>* Diese Option sollte zusammen mit der Option `Properties` verwendet werden. |
