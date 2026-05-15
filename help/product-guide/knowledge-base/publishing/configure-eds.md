@@ -5,7 +5,7 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: e4031aa4309a2c02ffb3a678586643f2a8bdc44b
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Um die Veröffentlichung von Experience Manager Guides in EDS (Beta) zu aktivier
 2. [Erstellen und Konfigurieren eines Veröffentlichungsprofils für EDS (Beta) in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Anpassen der Ausgabe mithilfe von EDS-Blöcken](#customize-output-using-eds-blocks)
 
-Eine kurze Videoanleitung finden Sie unter [Veröffentlichen in AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Eine kurze Videoanleitung finden Sie unter [Veröffentlichen in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -60,12 +60,14 @@ Führen Sie die folgenden Schritte aus, um die Anwendung *AEM Code Sync* zu inst
 
    >[!NOTE]
    >
-   > Stellen Sie bei der Installation der Anwendung sicher, dass Sie dasselbe GitHub-Konto verwenden, dem das Repository gehört.
+   >Stellen Sie bei der Installation der Anwendung sicher, dass Sie dasselbe GitHub-Konto verwenden, dem das Repository gehört.
 
    ![](assets/eds-aem-code-sync-page.png)
+
 3. Gewähren Sie auf der nächsten Seite Zugriff auf das von Ihnen erstellte Repository. Wählen Sie dazu die Option **Nur Repositorys auswählen** und wählen Sie dann Ihr Repository aus der Dropdown-Liste aus.
 
    ![](assets/eds-aem-code-sync-install-authorize.png){width="350"}
+
 4. Wählen Sie **Installieren und autorisieren** aus.
 
 Sie werden zur GitHub-Setup-Seite weitergeleitet, auf der die erfolgreiche Registrierung der Anwendung *AEM Code Sync* bestätigt wird. Auf dieser Seite können Sie auch die Vorschau- und Live-URLs für Ihre Website speichern.
@@ -79,7 +81,9 @@ Sie werden zur GitHub-Setup-Seite weitergeleitet, auf der die erfolgreiche Regis
 3. Wählen Sie **Neue GitHub-App** aus.
 
    ![](assets/eds-new-github-app.png){width="650"}
+
 4. Geben **auf der Seite „Neue GitHub** App registrieren“ die folgenden Details an:
+
    - **GitHub-App-Name**: Geben Sie einen Namen für Ihre App ein. `USERNAME-eds-app` Sie beispielsweise, wobei USERNAME Ihr GitHub-Benutzername ist.
    - **Homepage-URL**: Geben Sie die URL für die Experience Manager Guides-Instanz ein.
 
@@ -89,6 +93,7 @@ Sie werden zur GitHub-Setup-Seite weitergeleitet, auf der die erfolgreiche Regis
    - **Callback-URL**: Wie die Homepage-URL.
    - **Webhook-URL**: Deaktivieren Sie diese Option.
    - **Repository-Berechtigungen**: Legen Sie **Lese- und**) für *Aktionen, Administration und* fest.
+
 5. Wählen Sie **GitHub-App erstellen** aus.
 
 Ihre App ist jetzt bereit. Sie werden zur Seite **Einstellungen** Ihrer GitHub-App weitergeleitet.
@@ -157,7 +162,7 @@ In den folgenden Abschnitten werden die einzelnen Schritte der Reihe nach beschr
    - **Benutzername**: Geben Sie Ihren GitHub-Benutzernamen ein.
    - **Verzweigung Main**: Auf Main (Standard) festlegen.
    - **Stammordner**: Auf „docs“ (Standard) festlegen.
-   - **Client-ID und Client-Geheimnis**: Rufen Sie diese aus Ihrer GitHub-App ab (weitere Informationen finden [&#x200B; im Abschnitt Erstellen einer neuen OAuth](#create-a-new-oauth-app)App).
+   - **Client-ID und Client-Geheimnis**: Rufen Sie diese aus Ihrer GitHub-App ab (weitere Informationen finden [ im Abschnitt Erstellen einer neuen OAuth](#create-a-new-oauth-app)App).
 3. Wählen Sie **Anmelden** aus, um sich zu authentifizieren.
 
    ![](assets/eds-publish-profile.png){width="650"}
@@ -237,5 +242,6 @@ In einigen Fällen möchten Sie möglicherweise nur einen bestimmten Teil Ihres 
 6. Änderungen übernehmen und Ausgabe neu generieren.
 
 Der ausgewählte Inhalt zeigt jetzt die benutzerdefinierten Stile an, die in Ihrem Block definiert sind.
+
 
 ![](assets/eds-example-output.png){width="650"}
