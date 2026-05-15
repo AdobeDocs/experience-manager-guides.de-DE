@@ -56,7 +56,7 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 - **Benutzerhandbuch** - [Inhalte übersetzen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **Community-Forum** - Informationen zu sitzungsspezifischen Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de)
 
 >[!NOTE]
 >
