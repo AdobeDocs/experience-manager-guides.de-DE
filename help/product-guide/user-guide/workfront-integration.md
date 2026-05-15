@@ -4,9 +4,15 @@ description: Erfahren Sie, wie Sie Workfront mit Adobe Experience Manager Guides
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/I5rB66768VPerp3v8WZAdOKmF07VjAc4aoOsHnGC9JI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2531'
+source-wordcount: 2531
 ht-degree: 0%
 
 ---
@@ -25,10 +31,10 @@ Mit der Integration von Experience Manager Guides und Adobe Workfront können Si
 
 * Planen, zuweisen und verfolgen Sie den Fortschritt einzelner Aufgaben und Projekte, ohne sich auf mehrere, nicht integrierte Tools verlassen zu müssen.
 * Effizienteres Verwalten aller Experience Manager Guides-Workflows, einschließlich Inhaltserstellung, -überprüfung, -veröffentlichung und -übersetzung.
-* Sie erhalten bei jeder Zuweisung neuer Aufgaben E-Mail-Benachrichtigungen von Adobe Workfront. Weitere Informationen finden Sie unter [Benachrichtigungen - Übersicht](https://experienceleague.adobe.com/de/docs/workfront/using/basics/use-notifications/wf-notifications).
+* Sie erhalten bei jeder Zuweisung neuer Aufgaben E-Mail-Benachrichtigungen von Adobe Workfront. Weitere Informationen finden Sie unter [Benachrichtigungen - Übersicht](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
 * Überwachen Sie den Projektzustand mithilfe des intuitiven Dashboards von Adobe Workfront, das Echtzeit-Einblicke in die Projektleistung bietet.
 
-  Weitere Informationen zu den robusten Projektmanagement-Funktionen von Adobe Workfront für Projektmanager in Experience Manager Guides finden Sie unter [Projektübersicht planen](https://experienceleague.adobe.com/de/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
+  Weitere Informationen zu den robusten Projektmanagement-Funktionen von Adobe Workfront für Projektmanager in Experience Manager Guides finden Sie unter [Projektübersicht planen](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
 
 ## Erste Schritte
 
@@ -61,7 +67,7 @@ Die folgenden Funktionen sind auf der Seite Workfront-Aufgaben verfügbar:
 
 Die Workfront-Aufgabenseite enthält auch das Symbol Link out ![](./images/Smock_LinkOut_18_N.svg) , über das Sie, wenn Sie es auswählen, zur Adobe Workfront-Projektseite gelangen. Hier können Sie Aufgabendetails anzeigen, Kommentare anzeigen, Kommentare hinzufügen und basierend auf den Berechtigungen, die Ihrem Adobe Workfront-Konto zugeordnet sind, auf andere Funktionen zugreifen.
 
-Weitere Informationen finden Sie unter [Übersicht über die Projekt-, Aufgaben- und Problemdaten in Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/basics/navigate/definitions-pti-dates).
+Weitere Informationen finden Sie unter [Übersicht über die Projekt-, Aufgaben- und Problemdaten in Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Workfront-Aufgaben erstellen
 
@@ -82,7 +88,7 @@ Führen Sie die folgenden Schritte aus, um eine neue Adobe Workfront-Aufgabe zu 
    * **Beschreibung**: Geben Sie eine kurze Beschreibung der Aufgabe ein.
    * **Fällig am**: Legen Sie das Fälligkeitsdatum für den Abschluss der Aufgabe fest.
    * **Verantwortlicher**: Wählen Sie einen Verantwortlichen für die Aufgabe aus.
-3. Wählen Sie auf der Registerkarte **0&rbrace; die Option** Hinzufügen **aus, um dieser Aufgabe ein Asset hinzuzufügen.**
+3. Wählen Sie auf der Registerkarte **0} die Option** Hinzufügen **aus, um dieser Aufgabe ein Asset hinzuzufügen.**
 
    ![](./images/workfront-create-tasks-asset.png)
 
@@ -122,7 +128,7 @@ Eine neue Aufgabe wird erstellt und auf der Registerkarte **Erstellt von Ihnen**
 
 >[!NOTE]
 >
-> Als Projekt-Manager können Sie diese neu erstellte Aufgabe zusammen mit anderen wichtigen Aufgabendetails in Ihrem Adobe Workfront-Dashboard anzeigen. Weitere Informationen finden Sie unter [Grundlegendes zu Dashboards](https://experienceleague.adobe.com/de/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> Als Projekt-Manager können Sie diese neu erstellte Aufgabe zusammen mit anderen wichtigen Aufgabendetails in Ihrem Adobe Workfront-Dashboard anzeigen. Weitere Informationen finden Sie unter [Grundlegendes zu Dashboards](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Verwalten der von Ihnen erstellten Aufgaben
 
@@ -166,7 +172,7 @@ Zeigt die Aufgabeninformationen an, einschließlich der bei der Aufgabenerstellu
 
 #### Zugreifen auf zugewiesene Aufgaben über den Abschnitt „Übersicht“
 
-Sie können auch über den Abschnitt „Übersicht“ auf [&#x200B; zugewiesenen Aufgaben &#x200B;](./intro-home-page.md#overview) Adobe Workfront zugreifen. Wenn der Abschnitt Übersicht ausgewählt ist, enthält er verschiedene Widgets, die Ihnen helfen, fokussiert und organisiert zu bleiben.
+Sie können auch über den Abschnitt „Übersicht“ auf [ zugewiesenen Aufgaben ](./intro-home-page.md#overview) Adobe Workfront zugreifen. Wenn der Abschnitt Übersicht ausgewählt ist, enthält er verschiedene Widgets, die Ihnen helfen, fokussiert und organisiert zu bleiben.
 
 **Ihre Aufgaben** ist ein solches Widget, in dem eine Liste der Adobe Workfront-Aufgaben (die Ihnen zugewiesen sind und noch aktiv sind) zusammen mit den wichtigsten Aufgabendetails, einschließlich Name der Aufgabe, verknüpftes Projekt, Fälligkeitsdatum und aktueller Status, angezeigt wird.
 

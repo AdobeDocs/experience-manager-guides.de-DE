@@ -1,13 +1,19 @@
 ---
-title: Versionshinweise zu | Adobe Experience Manager Guides as a Cloud Service, Version Mai 2022
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version Mai 2022
 description: Mai-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/CK1iVvjaK0Tvv7LPTETFoH4aQqwMVbjeNbGUxHSYT4k
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 0%
+source-wordcount: 1895
+ht-degree: 4%
 
 ---
 
@@ -37,7 +43,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 
 | AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac |
 | --- | --- | --- |
-| 2022.5.0 | 2,6,9 | 2,6,9 |
+| 2022.5.0 | 2.6.9 | 2.6.9 |
 |  |  |  |
 
 
@@ -116,9 +122,9 @@ Der XML-Editor bietet die Möglichkeit, während der Veröffentlichung in einem 
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 * Im Überprüfungsfeld des Web-Editors kann der Benutzer nicht auf die Überprüfungskommentare antworten. (9667)
-* Die Anwendung wird leer, wenn Sie auf einen leeren Ordner klicken, nachdem Sie ihn über das Menü „Optionen“ aktualisiert haben. (9 639)
-* Eine neue Version wird erstellt, wenn wir **eingecheckte Datei speichern** schließen. (9 638)
-* Die Schaltfläche „Schließen“ wird nicht angezeigt, wenn **Kontrollkästchen „Als neue Version**&quot; aktiviert ist. (9 637)
+* Die Anwendung wird leer, wenn Sie auf einen leeren Ordner klicken, nachdem Sie ihn über das Menü „Optionen“ aktualisiert haben. (9639)
+* Eine neue Version wird erstellt, wenn wir **eingecheckte Datei speichern** schließen. (9638)
+* Die Schaltfläche „Schließen“ wird nicht angezeigt, wenn **Kontrollkästchen „Als neue Version**&quot; aktiviert ist. (9637)
 * Der richtige PDF wird nicht veröffentlicht, wenn er zuerst über einen separaten PDF für jedes Kapitel und dann über eine einzelne PDF-Datei veröffentlicht wird (separate PDF-Dateien erstellen ist nicht aktiviert). (9632)
 * Das Zuordnungs-Dashboard verursacht ein Problem mit Metadaten für Benutzende ohne Administratorrechte. (9620)
 * Sobald eine Baseline erstellt wurde, wird der Status in der Benutzeroberfläche auf Fehlgeschlagen gesetzt (der Abrufen-Statusaufruf schlägt fehl), wenn der Server mehr als 10000 Dateien hat. (9608)
@@ -142,7 +148,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Oxygen überprüft eine falsche Version eines Themas, nachdem eine Version in AEM zurückgesetzt wurde. (9411)
 * Fehlgeschlagene Baseline deaktiviert die Bearbeitung auf der Registerkarte „Voreinstellung“ im Karten-Dashboard. (9403)
 * Bei der Erstellung neuer Inhalte wird immer ein Fehler protokolliert. (9388)
-* Neu erstellte DITA-Assets werden immer von einem anderen Benutzer ausgecheckt. (9 387)
+* Neu erstellte DITA-Assets werden immer von einem anderen Benutzer ausgecheckt. (9387)
 * Das Umbenennen des Elements funktioniert beim Konvertieren von „topicRef“ in „glossref“ nicht ordnungsgemäß. (9380)
 * Versionsbezeichnung wird im Dialogfeld „Als neue Version **&quot; nicht** Dropdown angezeigt. (9379)
 * Bedingungen werden beim Wechseln zwischen verschiedenen Versionen aus dem Dropdown-Menü **Differenz anzeigen** nicht angewendet. (9366)
@@ -161,22 +167,22 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Weblinks mit kodierten Zeichen funktionieren nicht ordnungsgemäß. (9227)
 * Die Datei wird beim Öffnen mit Sauerstoff nicht ausgecheckt. (9217)
 * Ausgecheckte Dateien aktualisieren funktioniert nicht bei der Protokollierung mit Webauthentifizierung in Oxygen. (9179)
-* Die Registerkarten „Übersetzung“ und „Baseline“ sind einige Zeit lang im Zuordnungs-Dashboard sichtbar. (9 146)
+* Die Registerkarten „Übersetzung“ und „Baseline“ sind einige Zeit lang im Zuordnungs-Dashboard sichtbar. (9146)
 * Beim erneuten Laden des Ordnerprofils treten Erlebnis- oder Funktionsprobleme auf. (9103)
 * Beim Löschen des Seitenlayouteditors wird dieser nicht über den mittleren Bereich in der Autorenansicht geschlossen. (9087)
 * Im Web-Editor tritt ein Validierungsfehler auf, wenn ein Bild entfernt und dann die neue Version des Dokuments gespeichert wird. (8985)
-* Es können nicht alle `glossrefs` im Glossar-Bedienfeld angezeigt werden (inhaltsspezifisch). (8 886)
-* `xref` ohne Text wird in der auf Artikeln basierenden Veröffentlichungsausgabe nicht angezeigt. (8 764)
-* Verweise werden bei Bewegtbildern oder Multimediadateien beschädigt, die in den Dateinamen ein Leerzeichen enthalten. (8 624)
+* Es können nicht alle `glossrefs` im Glossar-Bedienfeld angezeigt werden (inhaltsspezifisch). (8886)
+* `xref` ohne Text wird in der auf Artikeln basierenden Veröffentlichungsausgabe nicht angezeigt. (8764)
+* Verweise werden bei Bewegtbildern oder Multimediadateien beschädigt, die in den Dateinamen ein Leerzeichen enthalten. (8624)
 * Verweise werden beschädigt, wenn Sie `Select All` auswählen und die Multimediadateien oder DITA-Inhalte in einen anderen Ordner verschieben. (8622)
-* Ausgabeaufträge mit dem Status „Warten“ oder „Wird ausgeführt“ werden im Veröffentlichungs-Dashboard nicht bereinigt.  (8 569)
+* Ausgabeaufträge mit dem Status „Warten“ oder „Wird ausgeführt“ werden im Veröffentlichungs-Dashboard nicht bereinigt.  (8569)
 * Die Ausgabe-Bereinigungsfunktion schlägt fehl, wenn eine große Anzahl von übrig gebliebenen Ausgabe-Verlaufsknoten vorhanden ist. (8568)
 * Das DITA Add-on-Paket verhindert die Erkennung von DAM-Duplikat-Assets. (8417)
 * Schaltfläche „Prüfungsaufgabe erstellen“ für Nicht-DITA-Dateien aktiviert. (8401)
 * Das Dialogfeld „Verweise einfügen“ wird beim Hinzufügen eines Betreffs zu einer Zuordnung über die Benutzeroberfläche geöffnet. (8212)
 * In jedem leeren `entry`-Element wurde unerwarteter Leerraum gefunden, wenn dem `tgroup`-Element das Attribut „outputClass“ hinzugefügt wird. (7532)
-* Das Repository-Bedienfeld zeigt keine Symbole für ein- oder ausgecheckte Dateisperren an, sobald die Aktion abgeschlossen ist. (5 817)
-* Das Sperrsymbol wird in der Repository-Ansicht angezeigt, auch wenn die Datei aus dem Editor eingecheckt wird.  (5 756)
+* Das Repository-Bedienfeld zeigt keine Symbole für ein- oder ausgecheckte Dateisperren an, sobald die Aktion abgeschlossen ist. (5817)
+* Das Sperrsymbol wird in der Repository-Ansicht angezeigt, auch wenn die Datei aus dem Editor eingecheckt wird.  (5756)
 * Sites fehlen in den AEM-Vorgaben auf der Registerkarte „Ausgabe“. (9567)
 * Der XML-Editor reagiert nicht mehr auf den Versuch, einige DITA-Dateien zu bearbeiten. (9537)
 * Wenn Sie eine Suche im XML-Editor durchführen, friert die Seite ein. (9452)
@@ -185,7 +191,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 * Die Position der Hervorhebung ist in der Seitenansicht falsch. (9305)
 * Nach dem Einchecken eines Dokuments von Oxygen nach AEM wird der japanische Inhalt im Dokument durch Fragezeichen (???) ersetzt. (9276)
 * Das Hochladen von Dateien von Oxygen auf AEM schlägt fehl. (9157)
-* Die E-Mail-Benachrichtigung wird nicht gesendet, wenn eine Prüfungsaufgabe im Posteingang erneut zugewiesen wird. (8 376)
+* Die E-Mail-Benachrichtigung wird nicht gesendet, wenn eine Prüfungsaufgabe im Posteingang erneut zugewiesen wird. (8376)
 
 ## Bekannte Probleme
 

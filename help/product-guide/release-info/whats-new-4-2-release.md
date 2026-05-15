@@ -1,12 +1,18 @@
 ---
-title: Versionshinweise zu | Neue Funktionen in Adobe Experience Manager Guides Version 4.2
+title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 4.2
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in Version 4.2 von Adobe Experience Manager Guides
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+TQID: https://experienceleague.adobe.com/Ig3Lc-OGmHe83U44eEebdfUwquPqskLorbUgGX4JHJ4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: 2435
 ht-degree: 0%
 
 ---
@@ -92,7 +98,7 @@ Weitere Informationen finden Sie im Abschnitt *Übersetzen von Dokumenten aus de
 
 ## Generieren von Ausgaben in verschiedenen Formaten aus dem Web-Editor
 
-Jetzt können Sie die Ausgabe für Ihre Themen oder DITA-Map einfach aus dem Web-Editor generieren. Sie können verschiedene Ausgabevorgaben wie AEM-Site, PDF, HTML5,
+Jetzt können Sie die Ausgabe für Ihre Themen oder DITA-Map einfach aus dem Web-Editor generieren. Sie können verschiedene Ausgabevoreinstellungen wie AEM Site, PDF, HTML5,
 JSON (ein Headless-Ausgabeformat) und benutzerdefinierte Ausgabe. Verwenden Sie diese, um die entsprechenden Ausgaben zu generieren. Sie können Attribute in Ihren DITA-Themen definieren und dann die Bedingungsvorgabe verwenden, um eine Bedingung beim Veröffentlichen der Ausgabe anzuwenden. Sie können die Funktion „Baseline-Veröffentlichung“ auch verwenden, um eine bestimmte Version Ihrer DITA-Karte oder Ihres Themas selektiv zu veröffentlichen.
 
 **Globale Ausgabevorgaben und Ordnerprofile verwalten**
@@ -102,7 +108,7 @@ AEM Guides bietet die Funktion zum Erstellen und Verwalten von Ausgabevoreinstel
 <img alt="Voreinstellung hinzufügen" src="assets/add-global-output-preset.png" width="400">
 
 
-Diese globalen Vorgaben werden auf der Registerkarte **Ausgabe** aller zugehörigen Zuordnungen angezeigt. Sie können sie verwenden, um die Ausgabe für alle zugehörigen Zuordnungen zu generieren. Sie können die Vorgabe als Standard-PDF-Vorgabe auswählen, um die PDF-Ausgabe zu generieren. Sie können auch **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** eine vorhandene Ausgabevorgabe aus dem Menü **Optionen**.
+Diese globalen Vorgaben werden auf der Registerkarte **Ausgabe** aller zugehörigen Zuordnungen angezeigt. Sie können sie verwenden, um die Ausgabe für alle zugehörigen Zuordnungen zu generieren. Sie können die Vorgabe als standardmäßige PDF-Vorgabe auswählen, um die PDF-Ausgabe zu generieren. Sie können auch **Bearbeiten**, **Umbenennen**, **Duplizieren** oder **Löschen** eine vorhandene Ausgabevorgabe aus dem Menü **Optionen**.
 
 >[!NOTE]
 >
@@ -190,17 +196,17 @@ Sobald der Bereinigungsvorgang abgeschlossen ist, können Sie den Bereinigungsbe
 
 Jetzt können Sie in AEM Guides die Option **Titel im Editor verwenden und Zuordnungs** Manager in den Einstellungen auswählen. Wenn Sie diese Option auswählen, wird der Titel der Datei auf der Registerkarte der Datei angezeigt, wenn sie im Editor oder DITA Maps Manager geöffnet wird. Wenn Sie diese Option nicht auswählen, wird die UUID der Datei auf der Registerkarte der Datei angezeigt.
 
-## Metadaten-Benutzeroberfläche für das PDF von Voreinstellungen verfügbar
+## Für PDF-Vorgaben verfügbare Metadaten-Benutzeroberfläche
 
-Sie können die Metadaten aus der Ausgabevorgabe einer DITA-Zuordnung festlegen. Sie können die Metadaten für Titel, Autor, Betreff und Keywords festlegen. Diese Metadaten werden den Metadaten in den Dateieigenschaften der Ausgabe-PDF zugeordnet. Diese Metadaten setzen die auf Buchebene definierten Metadaten außer Kraft. Sie können die Metadaten in jeder Ausgabevorgabe spezifisch definieren und an die Ausgabe-PDF weitergeben.
+Sie können die Metadaten aus der Ausgabevorgabe einer DITA-Zuordnung festlegen. Sie können die Metadaten für Titel, Autor, Betreff und Keywords festlegen. Diese Metadaten werden den Metadaten in den Dateieigenschaften Ihrer Ausgabe-PDF zugeordnet. Diese Metadaten setzen die auf Buchebene definierten Metadaten außer Kraft. Sie können die Metadaten in jeder Ausgabevorgabe spezifisch definieren und an die Ausgabe-PDF übergeben.
 
 ## Native PDF | PDF mit Änderungsleiste, die den Unterschied zwischen Dokumentversionen anzeigt
 
-Jetzt können Sie mit der Änderungsleiste eine PDF erstellen, die die Inhaltsunterschiede zwischen zwei Versionen anzeigt. Sie können die aktuelle Version mit einer Baseline der vorherigen Version vergleichen oder zwischen den beiden ausgewählten Baseline-Versionen vergleichen.
+Jetzt können Sie mithilfe der Änderungsleiste eine PDF erstellen, die die Inhaltsunterschiede zwischen zwei Versionen anzeigt. Sie können die aktuelle Version mit einer Baseline der vorherigen Version vergleichen oder zwischen den beiden ausgewählten Baseline-Versionen vergleichen.
 
 <img src="assets/pdf-change-version.png" alt="pdf-change-version" width="600">
 
-Auf der PDF wird eine Änderungsleiste angezeigt, die den geänderten, eingefügten oder gelöschten Inhalt angibt. Sie haben außerdem die Möglichkeit, Folgendes durchzuführen:
+In der PDF wird eine Änderungsleiste angezeigt, die den geänderten, eingefügten oder gelöschten Inhalt angibt. Sie haben außerdem die Möglichkeit, Folgendes durchzuführen:
 * Den eingefügten Inhalt grün und unterstrichen anzeigen
 * Gelöschte Inhalte in roter Farbe anzeigen und mit einem Durchgestrichen markieren
 
@@ -214,13 +220,13 @@ Jetzt können Sie auch die folgenden vordefinierten Variablen verwenden, um den 
 * `${map_parentpath}` (nur für Ausgabepfad)
 * `${path_after_langfolder}` (nur für Ausgabepfad)
 
-## Native PDF | Inhaltsverzeichnis für DITA-Zuordnungen generieren und Seiten-Layouts neu anordnen
+## Native PDF | Generieren des Inhaltsverzeichnisses für DITA-Zuordnungen und Neuanordnen von Seiten-Layouts
 
-Jetzt können Sie das Inhaltsverzeichnis auch in DITA-Zuordnungen generieren, indem Sie eine erweiterte PDF-Einstellung der Vorlage verwenden. Sie können die Anzeige der verschiedenen Seiten-Layouts aktivieren oder deaktivieren und auch ihre Position neu anordnen.
+Jetzt können Sie das Inhaltsverzeichnis in DITA-Zuordnungen auch mithilfe einer erweiterten PDF-Einstellung der Vorlage generieren. Sie können die Anzeige der verschiedenen Seiten-Layouts aktivieren oder deaktivieren und auch ihre Position neu anordnen.
 
 ## Native PDF | Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe
 
-Jetzt können Sie ein benutzerdefiniertes Lesezeichen zu einem bestimmten Inhalt in Ihrer endgültigen PDF-Ausgabe hinzufügen, um die Navigation zu erleichtern. Dies wird dem Inhaltsverzeichnis hinzugefügt, das aus den Themen- oder Abschnittstiteln in Ihrer DITA-Karte erstellt wird.
+Jetzt können Sie ein benutzerdefiniertes Lesezeichen für einen bestimmten Inhalt in Ihrer endgültigen PDF-Ausgabe hinzufügen, um die Navigation zu erleichtern. Dies wird dem Inhaltsverzeichnis hinzugefügt, das aus den Themen- oder Abschnittstiteln in Ihrer DITA-Karte erstellt wird.
 
 ## Native PDF | Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte
 

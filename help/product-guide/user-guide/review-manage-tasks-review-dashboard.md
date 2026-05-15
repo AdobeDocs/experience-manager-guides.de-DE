@@ -4,9 +4,12 @@ description: Verwalten Sie Prüfungsaufgaben im Überprüfungs-Dashboard in AEM 
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: 1440
 ht-degree: 0%
 
 ---
@@ -63,7 +66,7 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 Sie können die folgenden Aktionen auf der Registerkarte **Aufgabe** ausführen:
 
 - Ändern Sie den Titel der Aufgabe im Feld **Titel** .
-- Fügen Sie Standardbevollmächtigte in der Dropdown **Liste „Zuweisen an** hinzu. Die Reviewer, die Sie von hier hinzufügen, erhalten Zugriff, um alle Themen zu überprüfen, die Teil dieser Prüfungsaufgabe sind. Sie können auf der Registerkarte „Validierungsverantwortliche“ wählen, ob Sie zu bestimmten Themen [&#x200B; oder selektiv weitere Validierungsverantwortliche &#x200B;](#Reviewer-tab-id199RF0N0MUI).
+- Fügen Sie Standardbevollmächtigte in der Dropdown **Liste „Zuweisen an** hinzu. Die Reviewer, die Sie von hier hinzufügen, erhalten Zugriff, um alle Themen zu überprüfen, die Teil dieser Prüfungsaufgabe sind. Sie können auf der Registerkarte „Validierungsverantwortliche“ wählen, ob Sie zu bestimmten Themen [ oder selektiv weitere Validierungsverantwortliche ](#Reviewer-tab-id199RF0N0MUI).
 - Aktualisieren Sie die Beschreibung der Aufgabe im Feld **Beschreibung** .
 - Ändern Sie das **Fälligkeitsdatum**. Sie können die Frist für den Abschluss der Aufgabe vorziehen oder verschieben.
 - Wählen Sie die Option aus, um Benutzer darauf zu beschränken, nur die Themen anzusehen, die ihnen zugewiesen sind.
@@ -140,4 +143,4 @@ Der Statusbericht für die Prüfungsaufgabe enthält die folgenden Details:
 - Gesamtzahl der Kommentare zu allen Themen. Bei mehreren zu überprüfenden Themen wird die Anzahl der Kommentare für jedes Thema \(in Klammern\) gegenüber dem Themennamen angegeben.
 - Das Datum, an dem der Reviewer zuletzt auf ein Thema zugegriffen hat.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

@@ -1,10 +1,16 @@
 ---
-title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 2025.07.0 behoben
+title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 2025.07.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2025.07.0 von Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
-source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
+TQID: https://experienceleague.adobe.com/xzYzEvtyVvvIpq3tfLftkCDuiC08hahdNhr5ZXcQPo8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: 520
 ht-degree: 4%
 
 ---
@@ -44,7 +50,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2025.07.0](upgrade-instr
 ## Platform
 
 - Bei der Arbeit mit großen Sammlungen treten Leistungsprobleme wie längere Ladezeiten und zeitweise auftretende Zeitüberschreitungen auf. (GUIDES-29065, GUIDES-28793)
-- Schwachstellen im Zusammenhang mit der veralteten Guava-Bibliothek, die in auf Experience Manager Guides hochgeladenen AEM Guides-Komponenten verwendet wird.(GUIDES-27402)
+- Schwachstellen im Zusammenhang mit der veralteten Guava-Bibliothek, die in auf Experience Manager Guides hochgeladenen AEM Guides-Komponenten verwendet wird. (GUIDES-27402)
 
 ## Bekannte Probleme
 
@@ -53,4 +59,4 @@ Adobe hat die folgenden bekannten Probleme in Version 2025.07.0 identifiziert:
 - Beim Arbeiten mit Markdown-Themen wird in **Editor-Symbolleiste eine Schaltfläche** Themenreferenz“ angezeigt, sie funktioniert jedoch nicht. (GUIDES-31038)
 - Ordner-Knotennamen werden im Editor fälschlicherweise anstelle von Ordnertiteln angezeigt. (GUIDES-30909)
 - Im Dialogfeld **Zusammenführen** wird in der Dropdown-Liste fälschlicherweise **Hauptinhalt** angezeigt, anstatt die verfügbaren Versionen des ausgewählten Themas anzuzeigen. (GUIDES-30820)
-- Beim Öffnen einer DITA-Zuordnung mit aktivierter Unified Shell wird der Editor gelegentlich aktualisiert.(GUIDES-26919)
+- Beim Öffnen einer DITA-Map mit aktivierter Unified Shell wird der Editor gelegentlich aktualisiert. (GUIDES-26919)

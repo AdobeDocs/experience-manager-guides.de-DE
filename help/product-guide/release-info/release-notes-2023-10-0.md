@@ -1,13 +1,18 @@
 ---
-title: Versionshinweise zu | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides, Version Oktober 2023
+title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides, Version Oktober 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Version Oktober 2023 von Adobe Experience Manager Guides as a Cloud Service
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/z5F-Y7WSSnFSGU5n6obqNb9bOqp3WQvvpxaQJ9ksOLI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 1%
+source-wordcount: 1047
+ht-degree: 2%
 
 ---
 
@@ -90,7 +95,7 @@ Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt nachzuverarbei
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene und in der Themenliste auf der Registerkarte „Berichte“ zu verwenden:
 
-1. Führen Sie eine POST-Anfrage an den Server \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing` aus. (Optional) Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert \|\| Beispiel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Führen Sie eine POST-Anfrage an den Server \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing` aus. (Optional: Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert \|\|, zum Beispiel : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Zuordnungen eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
@@ -131,36 +136,36 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Authoring
 
-- Nachmittagsstunden sind in der **Datum) nicht** die Erstellung von Baselines festgelegt. 12712)
-- Der JSON-Code kann nicht in das `<codeblock>` des Web-Editors eingefügt werden. 12326)
-- Nicht gespeicherte Versionsänderungen und die zugehörigen Indikatoren werden bei großen Dateien nicht angezeigt. 11784)
-- Beim Bearbeiten in koreanischer Sprache wird das erste Zeichen in die Standardeinstellung geändert. 10049)
+- Nachmittagsstunden sind in der **Datum) nicht** die Erstellung von Baselines festgelegt. (12712)
+- Der JSON-Code kann nicht in das `<codeblock>` des Web-Editors eingefügt werden. (12326)
+- Nicht gespeicherte Versionsänderungen und die zugehörigen Indikatoren werden bei großen Dateien nicht angezeigt. (11784)
+- Beim Bearbeiten in koreanischer Sprache wird das erste Zeichen in die Standardeinstellung geändert. (10049)
 
 
 ### Publishing
 
-- Native PDF | Die Reihenfolge der Themen wird beim Generieren der PDF-Ausgabe nicht festgelegt. 13157)
-- Native PDF| Für das Element `<p>` ist kein Standardstil-Tag verfügbar. 12559)
-- Native PDF | Inline-Stile, die auf den Inhaltsbereich angewendet werden, werden nicht auf die Themen in Vorder- und Rückseite angewendet. 13510)
-- Das `DeliveryTarget`-Attribut wird beim Generieren der AEM-Site-Ausgabe nicht weitergegeben.  13132)
-- Der **Veröffentlichen**-Workflow bleibt beim Generieren der AEM-Site-Ausgabe für Inhalte mit bestimmten Fehlern stecken. 12000)
+- Native PDF | Die Reihenfolge der Themen ist nicht festgelegt, wenn die PDF-Ausgabe generiert wird. (13157)
+- Natives PDF| Für das Element `<p>` ist kein Standardstil-Tag verfügbar. (12559)
+- Native PDF | Inline-Stile, die auf den Inhaltsbereich angewendet werden, werden nicht auf die Themen in der Vorder- und Rückseite angewendet. (13510)
+- Das `DeliveryTarget`-Attribut wird beim Generieren der AEM-Site-Ausgabe nicht weitergegeben.  (13132)
+- Der **Veröffentlichen**-Workflow bleibt beim Generieren der AEM-Site-Ausgabe für Inhalte mit bestimmten Fehlern stecken. (12000)
 
 ### Verwaltung
 
-- Der Versionsverlauf wird nicht angezeigt, auch wenn die `dc:format`-Eigenschaft für ein Asset nicht vorhanden ist. 10463)
+- Der Versionsverlauf wird nicht angezeigt, auch wenn die `dc:format`-Eigenschaft für ein Asset nicht vorhanden ist. (10463)
 
 
 ### Überprüfung
 
-- Die Überprüfung eines Themas zeigt falsche Kommentare an. 13453)
+- Die Überprüfung eines Themas zeigt falsche Kommentare an. (13453)
 
 
 
 ### Übersetzung
 
-- Die vom Dashboard **Übersetzung** exportierte Baseline schlägt fehl und wird nicht in der Zielsprache geöffnet. 13466)
+- Die vom Dashboard **Übersetzung** exportierte Baseline schlägt fehl und wird nicht in der Zielsprache geöffnet. (13466)
 
-- Neue Übersetzungsprojekte werden erstellt, anstatt neue Aufträge zu den ausgewählten vorhandenen Übersetzungsprojekten hinzuzufügen.  10214)
+- Neue Übersetzungsprojekte werden erstellt, anstatt neue Aufträge zu den ausgewählten vorhandenen Übersetzungsprojekten hinzuzufügen.  (10214)
 
 ## Bekanntes Problem
 

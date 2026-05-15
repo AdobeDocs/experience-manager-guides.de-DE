@@ -1,13 +1,19 @@
 ---
-title: Versionshinweise zu | Adobe Experience Manager Guides as a Cloud Service, Version August 2022
+title: Versionshinweise | Adobe Experience Manager Guides as a Cloud Service, Version August 2022
 description: August-Version von Adobe Experience Manager Guides as a Cloud Service
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/ozowf4-i02AJDe40hzWHjuqYZ0Q-eIG3nnPpI9mvBqI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 0%
+source-wordcount: 1176
+ht-degree: 1%
 
 ---
 
@@ -37,7 +43,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 
 | AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac |
 | --- | --- | --- |
-| 2022.8.0 | 2,7,5 | 2,7,5 |
+| 2022.8.0 | 2.7.5 | 2.7.5 |
 |  |  |  |
 
 
@@ -94,19 +100,19 @@ Jetzt wurde die Filtersuche in der Repository-Ansicht leistungsfähiger. Es wurd
 Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 * Veralteter Lucene-Index wird in /core/article-publish/src/main/java/com/adobe/dxml/article/publish/util/DoxUtils.java (9291) verwendet
-* Aktualisierte Node.js wird nicht für die Veröffentlichung verwendet. (9 835)
-* Das DITA-Thema wird nicht automatisch mit den Änderungen aktualisiert, die auf der Seite **Eigenschaften** vorgenommen wurden. (8 745)
+* Aktualisierte Node.js wird nicht für die Veröffentlichung verwendet. (9835)
+* Das DITA-Thema wird nicht automatisch mit den Änderungen aktualisiert, die auf der Seite **Eigenschaften** vorgenommen wurden. (8745)
 * Das Frontmatter-Element funktioniert beim Hinzufügen zu einer DITA-Lesekarte nicht ordnungsgemäß. (9507)
 * Native PDF | Eine leere PDF wird bei Verwendung von **Quick Generate** für mehrere Dateien generiert, wenn ein leeres Element ausgewählt wird. (9822)
-* Native PDF | Der Anhang wird als Kapitel in der PDF-Ausgabe veröffentlicht. (9 829)
-* Native PDF | Wenn ein SVG-Bild bearbeitet wird, wird es im Seiten-Layout nicht angezeigt oder aktualisiert. (9069)
-* Ein regulärer Bindestrich wird eingefügt, wenn im Dialogfeld „Sonderzeichen einfügen`Nonbreaking Hyphen` ein **eingefügt**. (8919)
+* Native PDF | Anhang wird als Kapitel in der PDF-Ausgabe veröffentlicht. (9829)
+* Native PDF | Wenn ein SVG-Bild bearbeitet wird, wird es nicht im Seiten-Layout aktualisiert. (9069)
+* Ein regulärer Bindestrich wird eingefügt, wenn im Dialogfeld „Sonderzeichen einfügen **ein `Nonbreaking Hyphen` eingefügt**. (8919)
 * Der XML-Editor zeigt keine aktualisierten Bilder in den Themen an, wenn sie bearbeitet wurden. (9500)
 * Beim Veröffentlichen der Ausgabe über den Editor können die Vorgaben nicht aus der Registerkarte **Ausgabe** gelöscht werden. (9100)
-* Die Unterzuordnungen einer DITA-Zuordnung werden nicht mit der Option **Alle auswählen** aus dem Menü mit den Auslassungspunkten ausgecheckt. (9 814)
-* Zuordnung oder Themenvorlagen können nicht aus dem Menü **Vorlagen** auf die benutzerdefinierte Zuordnungsvorlage im Web-Editor gezogen werden. (9 846)
-* Es kann keine neue Themen- oder Zuordnungsvorlage im Unterordner einer Zuordnung oder Themenvorlage erstellt werden. (9 888)
-* Es ist keine Option zum Durchsuchen der Themen oder Karten vorhanden, die in den Unterordnern einer Zuordnung oder Themenvorlage vorhanden sind. (9 889)
+* Die Unterzuordnungen einer DITA-Zuordnung werden nicht mit der Option **Alle auswählen** aus dem Menü mit den Auslassungspunkten ausgecheckt. (9814)
+* Zuordnung oder Themenvorlagen können nicht aus dem Menü **Vorlagen** auf die benutzerdefinierte Zuordnungsvorlage im Web-Editor gezogen werden. (9846)
+* Es kann keine neue Themen- oder Zuordnungsvorlage im Unterordner einer Zuordnung oder Themenvorlage erstellt werden. (9888)
+* Es ist keine Option zum Durchsuchen der Themen oder Karten vorhanden, die in den Unterordnern einer Zuordnung oder Themenvorlage vorhanden sind. (9889)
 * Wenn eine Schematrondatei aktualisiert und zusammen mit der DITA-Datei gespeichert wird, wird der rechte Bereich nicht angezeigt (wenn die DITA-Datei die in der Schematrondatei vorhandenen Validierungen beschädigt). (9986)
 * Es kann eine neue doppelte Ausgabevorgabe erstellt werden, wenn ihr Name mit dem einer vorhandenen Vorgabe übereinstimmt. (9997)
 * SVG-Bilder werden beim Generieren der HTML-Ausgabe beschädigt und werden nicht korrekt veröffentlicht. (9949)

@@ -5,9 +5,15 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/Yua4Y6xsnec3O-hpTNhSmK4HvsCwaGYbLTxUxEeQAKY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: ae478996-b206-4712-9b0c-dc78a2644453id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: 600
 ht-degree: 2%
 
 ---
@@ -23,7 +29,7 @@ Weitere Informationen zur Integration von [Adobe Workfront](../user-guide/workfr
 Bevor Sie beginnen, stellen Sie Folgendes sicher:
 
 1. Sie haben Standardzugriff auf Adobe Workfront und Administratorzugriff auf Experience Manager Guides.
-2. Sie [ein neues benutzerdefiniertes Formular in Adobe Workfront erstellen](https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) das für Experience Manager Guides erforderlich ist, indem Sie speziell die folgenden Felder verwenden:
+2. Sie [ein neues benutzerdefiniertes Formular in Adobe Workfront erstellen](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) das für Experience Manager Guides erforderlich ist, indem Sie speziell die folgenden Felder verwenden:
 
    | Feldtyp | Label | Name | Wahlen (Werte anzeigen aktiviert) |
    |------------|------|------|-------------------------------|
@@ -57,7 +63,7 @@ Führen Sie die folgenden Schritte aus, um Adobe Workfront in Experience Manager
 
    Um auf den in **Adobe Workfront-Setup konfigurierten Schlüssel** Client-ID **und** Client-Geheimnis“ zuzugreifen, navigieren Sie zu `Setup >> Systems>> oAuth2 Applications`.
 
-   Weitere Informationen zum Konfigurieren Ihrer Adobe Workfront-Domain finden Sie im Abschnitt Autorisierungs-Code-Fluss in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
+   Weitere Informationen zum Konfigurieren Ihrer Adobe Workfront-Domain finden Sie im Abschnitt Autorisierungs-Code-Fluss in [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
 
 4. Wählen Sie **Anmelden und überprüfen** aus.
 
@@ -69,4 +75,4 @@ Führen Sie die folgenden Schritte aus, um Adobe Workfront in Experience Manager
 6. Wählen Sie in der Dropdown-Liste Benutzerdefiniertes Formular das benutzerdefinierte Adobe Workfront-Formular aus, das Sie für Experience Manager Guides erstellt haben. Ansicht [Voraussetzungen](#prerequisites).
 7. Wählen **Speichern und schließen** um die Konfigurationsänderungen von Workfront anzuwenden und zu speichern.
 
-Fügen Sie nach der Konfiguration [Benutzer zu Adobe Workfront hinzufügen](https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) und verwenden Sie dieselben E-Mail-Adressen wie in Experience Manager Guides.
+Fügen Sie nach der Konfiguration [Benutzer zu Adobe Workfront hinzufügen](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) und verwenden Sie dieselben E-Mail-Adressen wie in Experience Manager Guides.

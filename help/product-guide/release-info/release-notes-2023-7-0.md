@@ -1,13 +1,18 @@
 ---
-title: Versionshinweise zu | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides, Version Juli 2023
+title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides, Version Juli 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version Juli 2023 von Adobe Experience Manager Guides as a Cloud Service
 exl-id: f1765c6a-cb8e-4a06-a6f4-f5c225b6bc88
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/f69cfjH9sRM1AFE7od0cvU4VBNLYjbuidmrZ5-pSBBA
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: a44282cf-0adb-456f-8700-3ec7a3f89fd4id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 1%
+source-wordcount: 925
+ht-degree: 2%
 
 ---
 
@@ -91,7 +96,7 @@ as a Cloud Service, um die Konfigurationsdatei zu erstellen.
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene und in der Themenliste auf der Registerkarte „Berichte“ zu verwenden:
 
-1. Führen Sie eine POST-Anfrage an den Server \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing` aus. (Optional) Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert \|\| Beispiel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Führen Sie eine POST-Anfrage an den Server \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing` aus. (Optional: Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert \|\|, zum Beispiel : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Zuordnungen eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
@@ -108,7 +113,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 
 | AEM Guides as a Cloud Service-Version | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2 023,07,0 | Nicht kompatibel | 2022 oder höher |
+| 2023.07.0 | Nicht kompatibel | 2022 oder höher |
 | | | |
 
 
@@ -116,7 +121,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 
 | AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2 023,07,0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
+| 2023.07.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |  |
 
 
@@ -126,14 +131,14 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Authoring
 
-- Inline-/Anzeigeattribute werden in der Layout-Ansicht des Web-Editors nicht angezeigt. 12498)
-- Das Hochladen von Dateien im Oxygen Plugin für AEM Guides funktioniert nicht in Cloud Services, wenn Sie ! im Dateinamen. 12207)
-- DITA Map Publishing ist bei bearbeitbaren Vorlagen sehr langsam. 12075)
-- Die Konfiguration der globalen Profilbenutzeroberfläche stimmt nicht mit der Konfiguration des Ordnerprofils überein. 11970)
-- Inhaltsreferenzen sind fehlerhaft, wenn DITA-Dateien kopiert und eingefügt werden. 11959)
+- Inline-/Anzeigeattribute werden in der Layout-Ansicht des Web-Editors nicht angezeigt. (12498)
+- Das Hochladen von Dateien im Oxygen Plugin für AEM Guides funktioniert nicht in Cloud Services, wenn Sie ! im Dateinamen. (12207)
+- DITA Map Publishing ist bei bearbeitbaren Vorlagen sehr langsam. (12075)
+- Die Konfiguration der globalen Profilbenutzeroberfläche stimmt nicht mit der Konfiguration des Ordnerprofils überein. (11970)
+- Inhaltsreferenzen sind fehlerhaft, wenn DITA-Dateien kopiert und eingefügt werden. (11959)
 - Inhaltsfragment kann nicht in der Spaltenansicht bearbeitet werden, wenn AEM Guides installiert ist. (7342)
-- Der Inhalt geht verloren, wenn sich eine entpackte XRef unter einem Unterelement-Tag befindet. 12532)
+- Der Inhalt geht verloren, wenn sich eine entpackte XRef unter einem Unterelement-Tag befindet. (12532)
 
 ### Publishing
 
-- Der Genehmigungs-Workflow funktioniert nicht, wenn der Dokumentstatus in den Dateieigenschaften des rechten Bedienfelds in den „Endstatus“ geändert wird. 11026)
+- Der Genehmigungs-Workflow funktioniert nicht, wenn der Dokumentstatus in den Dateieigenschaften des rechten Bedienfelds in den „Endstatus“ geändert wird. (11026)

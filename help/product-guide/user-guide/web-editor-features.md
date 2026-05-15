@@ -5,9 +5,15 @@ exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
 hide: true
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/b4HsxgVJpLBqXXJ-uEddivoBiHdnJlyfp-S-aiJL3bQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086id: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: d6596f3f-92a7-43ec-b444-237db6adad05id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '18790'
+source-wordcount: 18790
 ht-degree: 0%
 
 ---
@@ -46,7 +52,7 @@ Zeigt die aktuell geöffneten Themen im Editor als Datei-Registerkarten an. Sie 
 
 >[!NOTE]
 >
-> Als Administrator können Sie auch festlegen, dass die Liste der Dateien nach Dateinamen auf den Registerkarten angezeigt wird. Wählen Sie die **Dateiname** im Abschnitt **Konfiguration der Editor-Dateien** Benutzereinstellungen[&#x200B; aus](./intro-home-page.md#user-preferences).
+> Als Administrator können Sie auch festlegen, dass die Liste der Dateien nach Dateinamen auf den Registerkarten angezeigt wird. Wählen Sie die **Dateiname** im Abschnitt **Konfiguration der Editor-Dateien** Benutzereinstellungen[ aus](./intro-home-page.md#user-preferences).
 
 Wenn Sie die Registerkarte Datei auswählen, wird ein Kontextmenü mit den Optionen Als neue Version speichern, Kopieren, Suchen in, Zu hinzufügen, Eigenschaften, Aufspaltung, Als PDF herunterladen und Schließen geöffnet.
 
@@ -87,7 +93,7 @@ Die Option **Einstellungen** ist nur für Administratoren und Ordnerprofiladmini
 
   ![](images/editor-setting-general.png){width="650"}
 
-   - **Rechtschreibprüfung**: Es gibt zwei Optionen: **Rechtschreibprüfung von AEM** Browser-**&#x200B;**. Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird. Sie können zur AEM-Rechtschreibprüfung wechseln, um das Adobe Experience Manager-Wörterbuch zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen des AEM-Wörterbuchs finden Sie [&#x200B; Abschnitt „Anpassen des Standardwörterbuchs von AEM](../cs-install-guide/customize-aem-custom-dictionary.md) im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+   - **Rechtschreibprüfung**: Es gibt zwei Optionen: **Rechtschreibprüfung von AEM** Browser-****. Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird. Sie können zur AEM-Rechtschreibprüfung wechseln, um das Adobe Experience Manager-Wörterbuch zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen des AEM-Wörterbuchs finden Sie [ Abschnitt „Anpassen des Standardwörterbuchs von AEM](../cs-install-guide/customize-aem-custom-dictionary.md) im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
    - **Bedingung**
 
@@ -106,7 +112,7 @@ Die Option **Einstellungen** ist nur für Administratoren und Ordnerprofiladmini
       - **Alle ersetzen aktivieren**: Wählen Sie diese Option aus, um das Symbol **Alle ersetzen** im Bedienfeld **Suchen und Ersetzen** anzuzeigen.
 
    - **Zitate**
-Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von &#x200B;](./web-editor-apply-citations.md#change-citation-style).
+Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von ](./web-editor-apply-citations.md#change-citation-style).
 
    - **KI-Assistent**
 Wählen Sie diese Option aus, um die Funktion [KI](./ai-assistant.md)Assistent“ in der Experience Manager Guides zu aktivieren. Deaktivieren Sie diese Option, um die Funktion zu deaktivieren.
@@ -242,7 +248,7 @@ Im folgenden Screenshot werden nur 3 von 4 konfigurierten Elementen aus dem vorh
          >
          >Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
-      1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![&#x200B; Sprachgruppen zu bearbeiten &#x200B;](images/edit_pencil_icon.svg)Bearbeiten-Symbol![&#x200B; oder zu löschen](images/Delete_icon.svg).
+      1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](images/Delete_icon.svg).
       1. Speichern Sie die **Einstellungen**.
 
          >[!NOTE]
@@ -283,7 +289,7 @@ Die Symbolleiste wird angezeigt, wenn Sie ein Thema oder eine Karte zur Bearbeit
 
 >[!NOTE]
 >
-> Die oben aufgeführten Funktionen gelten nur für Themendateien. Beim Arbeiten mit einer Zuordnungsdatei werden basierend auf der aktuellen Ansicht des Zuordnungs-Editors verschiedene Optionen in der Symbolleiste angezeigt. Weitere Informationen zu den Symbolleistenoptionen des Zuordnungs-Editors [&#x200B; Sie im Dokument &#x200B;](./map-editor-advanced-map-editor.md)Funktionen des Zuordnungs-Editors“.
+> Die oben aufgeführten Funktionen gelten nur für Themendateien. Beim Arbeiten mit einer Zuordnungsdatei werden basierend auf der aktuellen Ansicht des Zuordnungs-Editors verschiedene Optionen in der Symbolleiste angezeigt. Weitere Informationen zu den Symbolleistenoptionen des Zuordnungs-Editors [ Sie im Dokument ](./map-editor-advanced-map-editor.md)Funktionen des Zuordnungs-Editors“.
 
 ### Menü-Dropdown
 
@@ -293,7 +299,7 @@ Diese Funktionen werden im Einzelnen wie folgt erläutert:
 
 **Aktionen bearbeiten**
 
-Greifen Sie beim Bearbeiten eines Themas im Editor auf die verschiedenen Bearbeitungsaktionen zu, z. B. **Ausschneiden** oder ***Strg***+***X*** , **Kopieren** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+Z ***,**&#x200B;Wiederholen&#x200B;**oder*** CtrlCtrlY **&#x200B;**&#x200B;**&#x200B; **&#x200B;**&#x200B;** **&#x200B;**&#x200B;Löschenim Dropdown-Menü.
+Greifen Sie beim Bearbeiten eines Themas im Editor auf die verschiedenen Bearbeitungsaktionen zu, z. B. **Ausschneiden** oder ***Strg***+***X*** , **Kopieren** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+Z ***,**Wiederholen**oder*** CtrlCtrlY ****** ****** **** Löschenim Dropdown-Menü.
 
 
 **Suchen und Ersetzen**
@@ -340,7 +346,7 @@ Um auf den Versionsverlauf zuzugreifen und auf eine bestimmte Version Ihres Them
 
    Registerkarte **Metadaten**: Die neu hinzugefügten Metadaten sind in grüner Schrift, die gelöschten Metadaten in roter Schrift.
 
-   ![Metadatenunterschied für Versionen &#x200B;](images/metadata-version-diff.png){width="550"}
+   ![Metadatenunterschied für Versionen ](images/metadata-version-diff.png){width="550"}
 
    *Vergleichen der Metadaten verschiedener Versionen im Versionsverlauf.*
 
@@ -622,7 +628,7 @@ Fügt ein Bild am aktuellen oder nächsten gültigen Speicherort ein. Klicken Si
 
 >[!NOTE]
 >
-> Sie können auch ein Bild hinzufügen, indem Sie es aus Ihrem lokalen System auf Ihren Artikel ziehen und ablegen. In diesem Fall wird die Bilddatei mithilfe des Workflows **Assets hochladen** hinzugefügt.  Weitere Informationen finden Sie im Abschnitt **Workflow &quot;Assets hochladen** im [&#x200B; Bereich](#left-panel).
+> Sie können auch ein Bild hinzufügen, indem Sie es aus Ihrem lokalen System auf Ihren Artikel ziehen und ablegen. In diesem Fall wird die Bilddatei mithilfe des Workflows **Assets hochladen** hinzugefügt.  Weitere Informationen finden Sie im Abschnitt **Workflow &quot;Assets hochladen** im [ Bereich](#left-panel).
 
 
 ![](images/insert-image.png){width="650"}
@@ -976,7 +982,7 @@ Sie können auch eine Audio- oder Videodatei im Editor auswählen und wiedergebe
 Die Ansicht des Videos. Im Kontextmenü haben Sie auch die Optionen zum Herunterladen, Ändern der Wiedergabe
 Geschwindigkeit oder Bild im Bild anzeigen.
 
-Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der Beschreibung der Funktion **Kartenansicht** im Abschnitt [Linkes Bedienfeld](#left-panel). Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ &#x200B;](#content-editing-area) öffnen. Die Möglichkeit, direkt im Editor in einer Datei zu navigieren und sie zu öffnen, spart Zeit und erhöht die Produktivität.
+Wählen Sie eine Karte aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um sie in der **Kartenansicht“** öffnen. Weitere Informationen finden Sie in der Beschreibung der Funktion **Kartenansicht** im Abschnitt [Linkes Bedienfeld](#left-panel). Wählen Sie ein Thema aus und drücken Sie die Eingabetaste oder doppelklicken Sie, um es im [Inhaltsbearbeitungsbereich“ ](#content-editing-area) öffnen. Die Möglichkeit, direkt im Editor in einer Datei zu navigieren und sie zu öffnen, spart Zeit und erhöht die Produktivität.
 
 **Filtern der Suche im Repository**
 
@@ -1464,7 +1470,7 @@ Wenn ein Blockelement über einen eigenen Text verfügt, wird er zusammen mit di
 Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Sie können auch von Ihrem Administrator konfigurierte Anzeigeattribute auf der Registerkarte **Anzeigeattribute** im Abschnitt **Einstellungen** zuweisen. Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt.
 
 
-Weitere Informationen finden Sie unter *Attribute anzeigen* im Abschnitt *Einstellungen* im Bereich [Linkes &#x200B;](#left-panel)).
+Weitere Informationen finden Sie unter *Attribute anzeigen* im Abschnitt *Einstellungen* im Bereich [Linkes ](#left-panel)).
 
 **Suchfunktion**
 
@@ -1974,7 +1980,7 @@ Sie können auf die Funktion **Inhaltseigenschaften** zugreifen, indem Sie im re
 
 1. Wählen **im Dropdown** Bedienfeld „Attribut“ das Attribut aus der Dropdown-Liste aus und geben Sie den Wert eines Attributs an.  Wählen Sie dann **Hinzufügen** aus.
 
-   ![Attributbedienfeld mit mehreren Attributen &#x200B;](images/attributes-multiple-properties.png){width="300"}
+   ![Attributbedienfeld mit mehreren Attributen ](images/attributes-multiple-properties.png){width="300"}
 
 1. Um das Attribut zu bearbeiten, halten Sie den Mauszeiger darüber und wählen Sie **Bearbeiten** ![edit-icon](images/edit_pencil_icon.svg) aus.
 
@@ -2056,7 +2062,7 @@ Mit der Funktion „Nachverfolgte Änderungen“ im rechten Bereich können Sie 
 
 >[!NOTE]
 >
-> Die Funktion „Nachverfolgte Änderungen“ zeigt alle Aktualisierungen an, die mit der Funktion „Änderungen nachverfolgen“ in der [-Leiste aktiviert/deaktiviert &#x200B;](#tab-bar).
+> Die Funktion „Nachverfolgte Änderungen“ zeigt alle Aktualisierungen an, die mit der Funktion „Änderungen nachverfolgen“ in der [-Leiste aktiviert/deaktiviert ](#tab-bar).
 
 ### Ingenieur
 

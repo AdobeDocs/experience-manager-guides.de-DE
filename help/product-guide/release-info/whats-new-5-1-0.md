@@ -3,9 +3,15 @@ title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Ver
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 5.1.0 von Adobe Experience Manager Guides
 role: Leader
 exl-id: 4f65cf99-3ea2-47aa-91fd-ce0c8d9eaa11
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/gmsMzcQ72rLV538UWvg3iUi-cNi2mmgyTWo53VGVU-I
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f6b497f1-f8e0-42ce-8e95-56c28d94026eid: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: 1401
 ht-degree: 0%
 
 ---
@@ -49,7 +55,7 @@ Weitere Informationen finden Sie unter [Verwenden des DITAVAL-Editors](../user-g
 
   Darüber hinaus verbessert diese Aktualisierung die Erstellung von Ausgabevorgaben, indem bearbeitbare DITAVAL-Felder in allen Formaten aktiviert werden, sodass Benutzende DITAVAL-Pfade manuell angeben können.
 
-  Weitere Informationen finden Sie unter [&#x200B; von Ausgabevorgaben &#x200B;](../user-guide/generate-output-understand-presets.md) Experience Manager Guides.
+  Weitere Informationen finden Sie unter [ von Ausgabevorgaben ](../user-guide/generate-output-understand-presets.md) Experience Manager Guides.
 
 ## Verbesserungen beim Veröffentlichen
 
@@ -110,13 +116,13 @@ Adobe Experience Manager Guides fügt jetzt ein **format**-Attribut für Referen
 - Für Dateien mit der Erweiterung **.** wird das Format auf &quot;**&quot;**
 - Für Dateien mit den Dateien **.** oder **.** wird das Format auf **dita**
 
-Darüber hinaus ist das Format von Dateien mit der **&#x200B;**.xml **ebenfalls auf dita** festgelegt. Bei Dateien ohne Erweiterung bleibt das Format leer. Darüber hinaus wird für alle Referenz-Links mit dem Bereich **extern** das Format auf **html** festgelegt, unabhängig von der Dateierweiterung in den Referenz-Links.
+Darüber hinaus ist das Format von Dateien mit der ****.xml **ebenfalls auf dita** festgelegt. Bei Dateien ohne Erweiterung bleibt das Format leer. Darüber hinaus wird für alle Referenz-Links mit dem Bereich **extern** das Format auf **html** festgelegt, unabhängig von der Dateierweiterung in den Referenz-Links.
 
 ### Verbesserte Download-Optionen für Karten im Editor
 
 Experience Manager Guides führt eine neue Option **Verwenden tatsächlicher Dateinamen** im Dialogfeld **Karte herunterladen** ein. Wenn Sie jetzt Zuordnungsdateien herunterladen, können Sie die ursprünglichen Dateinamen anstelle der standardmäßigen UUIDs beibehalten, was die Erkennung und Verwaltung Ihrer Dateien erheblich erleichtert. Diese Option ist nur verfügbar, wenn Sie **Dateihierarchie beibehalten** auswählen. Sie ist deaktiviert, wenn Sie **Dateihierarchie reduzieren** auswählen, was Ihnen mehr Flexibilität bei der Organisation Ihrer heruntergeladenen Karten gibt.
 
-Weitere Informationen finden Sie unter [Dateien &#x200B;](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
+Weitere Informationen finden Sie unter [Dateien ](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
 ![](assets/download-map-dialog-new.png){width="300"}
 

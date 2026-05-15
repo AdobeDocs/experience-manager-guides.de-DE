@@ -2,9 +2,15 @@
 title: Übertragen von AEM Assets-Metadaten in eine vom DITA-OT-Plug-in generierte Ausgabe
 description: Konfigurieren des DITA-OT-Plug-ins und von Inhalten in AEM, um Metadaten an die generierte Ausgabe zu übertragen
 exl-id: ba9db5a1-f499-48d9-976c-528fe56fd619
-source-git-commit: 060eb2bc94cf98312728ef56e83bee24617ab615
+TQID: https://experienceleague.adobe.com/tK5b6Z1zdJVa7ghEx4CEYELjpSO2D1ZJVdWKd3NNxvg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: 971
 ht-degree: 0%
 
 ---
@@ -22,7 +28,7 @@ Im Folgenden finden Sie allgemeine Schritte, die Sie in diesem Artikel lernen we
 ## Hintergrund
 
 Mit AEM Guides können Sie DITA-OT-Plug-ins verwenden, um mithilfe der konfigurierten Plug-ins in Ausgabeformaten Ihrer Wahl zu veröffentlichen, und
-Sie können auch Metadaten der im AEM-DAM verwalteten Assets an den DITA-OT-Prozess übergeben, um sie in der generierten Ausgabe zu verwenden. Weitere Informationen finden Sie in der Dokumentation unter [Einrichten von DITA-Zuordnungen/Themen zum Übergeben von Metadaten über eine Ausgabevorgabe](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+Sie können auch Metadaten der im AEM-DAM verwalteten Assets an den DITA-OT-Prozess übergeben, um sie in der generierten Ausgabe zu verwenden. Weitere Informationen finden Sie in der Dokumentation unter [Einrichten von DITA-Zuordnungen/Themen zum Übergeben von Metadaten über eine Ausgabevorgabe](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Annahmen
@@ -45,9 +51,9 @@ Mit dem AEM Assets-Metadatenschema können Sie benutzerdefinierte Eigenschaftsfe
 Konfigurieren Sie eine Ausgabevorgabe Ihrer Wahl auf der Zuordnung, um Metadaten zu exportieren und an DITA-OT zu übergeben
 Angenommen, wir generieren die HTML5-Ausgabe mit einem DITA-OT-Plug-in, z. B_„adobe.html_.
 Im folgenden Screenshot erfahren Sie, wie Sie die Ausgabevorgabe für eine Zuordnung konfigurieren, um Metadaten an das DITA-OT-Plug-in zu übergeben.
-1. Öffnen Sie eine Karte und navigieren Sie zur Registerkarte _Ausgabe_ für diese Karte und öffnen Sie die HTML5-Vorgabe, und klicken Sie auf _Erweitert_ Registerkarte, auf der Sie den Umwandlungsnamen als _adobe.html_ festlegen (dies ist das Plug-in, das wir konfigurieren und für unser Beispiel verwenden werden. Sie können auch Ihr benutzerdefiniertes Plug-in definieren)
+1. Öffnen Sie eine Zuordnung und navigieren Sie zur Registerkarte _Ausgabe_ für diese Zuordnung, öffnen Sie die HTML5-Vorgabe und klicken Sie auf _Erweitert_, legen Sie auf dieser Registerkarte den Umwandlungsnamen als _adobe.html_ fest (dies ist das Plug-in, das wir konfigurieren und für unser Beispiel verwenden werden. Sie können auch Ihr benutzerdefiniertes Plug-in definieren)
 2. Legen Sie _Temporäre Dateien beibehalten_ fest, um die temporären Dateien herunterladen und überprüfen zu können, wie metadata.xml gebildet wird. Sie können dies für die Entwicklung verwenden
-3. Wählen Sie die Metadateneigenschaften aus, die Sie über „metadata.xml“ an DITA-OT übergeben möchten. In diesem Beispiel möchten wir „dc:title _und &quot;_&quot; __
+3. Wählen Sie die Metadateneigenschaften aus, die Sie über „metadata.xml“ an DITA-OT übergeben möchten. In diesem Beispiel sagen wir, wir wollen _dc:title_ und _customprop_ übergeben
 4. Speichern Sie die Vorgabe und generieren Sie die Ausgabe
 5. Herunterladen der temporären Datei über die in der Voreinstellung angezeigte Schaltfläche
 
@@ -166,7 +172,7 @@ Wenn der obige Befehl ausgeführt wird, können Sie die Ausgabe im Verzeichnis �
 
 ### Bereitstellung
 
-Sobald Sie das DITA-OT-Plug-in entwickelt haben, können Sie es mit dem Befehl _dita —install_ unter dem DITA-OT-Verzeichnis in das DITA-OT-Plug-in integrieren und auf dem AEM-Server bereitstellen [weitere Informationen finden Sie in diesem Artikel](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=de)
+Sobald Sie das DITA-OT-Plug-in entwickelt haben, können Sie es mit dem Befehl _dita —install_ unter dem DITA-OT-Verzeichnis in das DITA-OT-Plug-in integrieren und auf dem AEM-Server bereitstellen [weitere Informationen finden Sie in diesem Artikel](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
 
 
 ## Ressourcen

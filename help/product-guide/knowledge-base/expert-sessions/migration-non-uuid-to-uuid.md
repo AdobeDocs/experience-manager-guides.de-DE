@@ -2,9 +2,13 @@
 title: Migrieren von Inhalten von Nicht-UUID zu UUID
 description: AEM Guides migriert Nicht-UUID-Inhalte zu UUID
 exl-id: d5489fb4-ca3e-4057-a811-2c4ea79b5960
-source-git-commit: 682eaf6f4a3a158f49a8f2ea91ce9cd2de3ff772
+TQID: https://experienceleague.adobe.com/Hn61B4sorbwERrFcNNqCIxOfQvu2ViV5rma-pZl-bII
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: 288
 ht-degree: 2%
 
 ---
@@ -47,14 +51,14 @@ Schritte zum Wechseln von nicht-uuid zu uuid
 
 ### Dokumentation
 
-- [Migrieren von Inhalten von Nicht-UUID zu UUID](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [Migrieren von Inhalten von Nicht-UUID zu UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: UUID-Inhalte von On-Premise/AMS in die Cloud verschieben](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Wechseln zu AEM Cloud](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Wechseln zu AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: Migration von Nicht-UUID-Inhalten in die Cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Community-Forum
 
-- Sitzungsspezifische Community-Interaktionen auf Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
+- Sitzungsspezifische Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 >[!NOTE]

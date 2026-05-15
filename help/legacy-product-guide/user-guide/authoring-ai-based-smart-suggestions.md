@@ -3,9 +3,14 @@ title: KI-gestützte Smart Suggestions zum Erstellen von Inhalten
 description: Erfahren Sie, wie Sie KI-gestützte Smart-Vorschläge im Web-Editor anzeigen und verwenden können.
 hide: true
 exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/p0LDFeQYUGtlz70GKMLxw87uQVv5lhr0wCEd29HwVfo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: ac5ecfc1-cc78-4ecc-a90a-0362685062ce
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: bf7fca06-df97-4229-884f-76afcfade5adid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: 687
 ht-degree: 0%
 
 ---
@@ -25,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hin
 
 
 1. Wählen Sie den Inhalt in Ihrem Thema aus, um die entsprechenden Vorschläge anzuzeigen. Stellen Sie sicher, dass die Zeichenlänge des Inhalts den Wert überschreitet, den Ihr Administrator im Ordnerprofil festgelegt hat, damit die Inhaltsvorschläge angezeigt werden.
-1. Wählen Sie im Bedienfeld des KI-Assistenten die Option **Wiederverwendbaren Inhalt vorschlagen** ![Symbol für wiederverwendbaren Inhalt vorschlagen &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
+1. Wählen Sie im Bedienfeld des KI-Assistenten die Option **Wiederverwendbaren Inhalt vorschlagen** ![Symbol für wiederverwendbaren Inhalt vorschlagen ](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Wählen Sie ein Tag aus, um die Authoring-Vorschläge für das aktuelle Tag anzuzeigen.  Die Vorschläge zum Anzeigen und Hinzufügen von Inhaltsreferenzen aus den indizierten Dateien werden basierend auf dem Inhalt des aktuellen Tags angezeigt. Sie können auch mehrere Tags auswählen.
 
@@ -36,7 +41,7 @@ Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hin
 
    >[!NOTE]
    >
-   > Sie können nur die Vorschläge für das aktuelle Darstellungsfeld (den auf dem Bildschirm sichtbaren Inhalt) anzeigen. Um Vorschläge für andere Inhalte im Dokument anzuzeigen, scrollen Sie nach oben oder unten, um sie im Ansichtsfenster anzuzeigen, und wählen Sie dann **Wiederverwendbaren Inhalt vorschlagen** ![ai Symbol für wiederverwendbaren Inhalt vorschlagen &#x200B;](./images/ai-suggest-reusable-content-icon.svg).
+   > Sie können nur die Vorschläge für das aktuelle Darstellungsfeld (den auf dem Bildschirm sichtbaren Inhalt) anzeigen. Um Vorschläge für andere Inhalte im Dokument anzuzeigen, scrollen Sie nach oben oder unten, um sie im Ansichtsfenster anzuzeigen, und wählen Sie dann **Wiederverwendbaren Inhalt vorschlagen** ![ai Symbol für wiederverwendbaren Inhalt vorschlagen ](./images/ai-suggest-reusable-content-icon.svg).
 
 
 1. Sie können die Smart-Vorschläge im Bedienfeld Vorschläge anzeigen.  Experience Manager Guides bietet Inhaltsvorschläge, die kontextuell ähnlich sind oder die gleiche Bedeutung haben. Sie können beispielsweise nach dem Thema suchen, das die genaue Versionsnummer enthält, z. B. „Version 2023.03.12“. Sie können auch nach &quot;Adobe hat seinen Hauptsitz in San Jose, Kalifornien“ suchen und ähnliche Inhalte finden wie „San Jose hat die Quartiere von vielen Softwareunternehmen wie Adobe&quot;.

@@ -5,9 +5,14 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/7vLVD99129fILw0haQUZFlUn5y7pqMcTxakT6OeW3Uo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43
+subfeature_v2: id: ac94cb1b-ba77-439b-aa1f-2d8a6bec3dc3
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: 1204
 ht-degree: 6%
 
 ---
@@ -36,7 +41,7 @@ Gibt ein Array von JSON-Ausgabevoreinstellungsobjekten zurück, wobei jedes Obje
 | Element | Beschreibung |
 |-------|-----------|
 | `outputName` | Name der Ausgabevorgabe. Ausgabenamen sind im Gültigkeitsbereich der DITA-Zuordnung, in der sie definiert sind, eindeutig. |
-| `outputType` | Typ der Ausgabe, die mit dieser Vorgabe generiert wird, z. B. AEM Site, PDF, EPUB oder andere. Die verfügbaren Optionen sind: <br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   BENUTZERDEFINIERT |
+| `outputType` | Typ der Ausgabe, die mit dieser Vorgabe generiert wird, z. B. AEM Site, PDF, EPUB oder andere. Die verfügbaren Optionen sind: <br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- CUSTOM |
 | `outputTitle` | Ein beschreibender Name für die Ausgabevoreinstellungen. Damit wird der Wert für die Eigenschaft Name der Einstellung für die Ausgabevorgabe definiert. |
 | `ditaValPathList` | Array von DITAVAL-Dateipfaden, die zur Generierung der gewünschten Ausgabe verwendet werden sollen. |
 | `targetPath` | Pfad, in dem die Ausgabe veröffentlicht oder gespeichert wird |
@@ -46,7 +51,7 @@ Gibt ein Array von JSON-Ausgabevoreinstellungsobjekten zurück, wobei jedes Obje
 | `generateTOC` | *\(Für AEM-Site-Ausgabe\)* Geben Sie an, ob ein Inhaltsverzeichnis generiert wird \(true\) oder nicht \(false\). |
 | `generateBreadcrumbs` | *\(Für AEM-Site-Ausgabe\)* Geben Sie an, ob die Breadcrumbs generiert werden \(true\) oder nicht \(false\). |
 | `overwriteStrategy` | *\(Für AEM-Site-Ausgabe\)* Geben Sie an, ob Dateien am Ziel überschrieben werden \(true\) oder nicht \(false\). |
-| `pdfGenerator` | Geben Sie die zu verwendende PDF-Erzeugungsmaschine an. Die möglichen Werte sind: <br>-   DITAOT <br>-   FMPS |
+| `pdfGenerator` | Geben Sie die zu verwendende PDF-Erzeugungsmaschine an. Die möglichen Werte sind: <br>- DITAOT <br>- FMPS |
 
 >[!NOTE]
 >
@@ -66,7 +71,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 | `:operation` | Zeichenfolge | Ja | Name des aufzurufenden Vorgangs. Der Wert dieses Parameters ist ``createoutput``.<br> **Hinweis:** Beim Wert wird nicht zwischen Groß- und Kleinschreibung unterschieden. |
 | `sourcePath` | Zeichenfolge | Ja | Absoluter Pfad der DITA-Zuordnungsdatei. |
 | `outputTitle` | Zeichenfolge | Ja | Ein beschreibender Name für die Ausgabevoreinstellungen. Damit wird der Wert für die Eigenschaft Name der Einstellung für die Ausgabevorgabe definiert.<br> **Hinweis:** Wenn eine neue Ausgabevorgabe erstellt wird, steuert das Backend-System einen eindeutigen Namen für die Ausgabevorgabe aus dem angegebenen Titel. |
-| `outputType` | Zeichenfolge | Ja | Typ der Ausgabe, die mit dieser Vorgabe generiert wird, z. B. AEM Site, PDF, EPUB oder andere. Die verfügbaren Optionen sind: <br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   BENUTZERDEFINIERT |
+| `outputType` | Zeichenfolge | Ja | Typ der Ausgabe, die mit dieser Vorgabe generiert wird, z. B. AEM Site, PDF, EPUB oder andere. Die verfügbaren Optionen sind: <br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- CUSTOM |
 
 **Antwortwerte**:
 
@@ -112,7 +117,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 | Element | Beschreibung |
 |-------|-----------|
 | `outputName` | Name der Ausgabevorgabe. Ausgabenamen sind im Gültigkeitsbereich der DITA-Zuordnung, in der sie definiert sind, eindeutig. |
-| `outputType` | Typ der Ausgabe, die mit dieser Vorgabe generiert wird, z. B. AEM Site, PDF, EPUB oder andere. Die verfügbaren Optionen sind: <br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   BENUTZERDEFINIERTE <br> |
+| `outputType` | Typ der Ausgabe, die mit dieser Vorgabe generiert wird, z. B. AEM Site, PDF, EPUB oder andere. Die verfügbaren Optionen sind: <br>- AEMSITE <br>- PDF <br>- HTML5 <br>- EPUB <br>- CUSTOM <br> |
 | `outputTitle` | Ein beschreibender Name für die Ausgabevoreinstellungen. Damit wird der Wert für die Eigenschaft Name der Einstellung für die Ausgabevorgabe definiert. |
 | `ditaValPathList` | Array von DITAVAL-Dateipfaden, die zur Generierung der gewünschten Ausgabe verwendet werden sollen. |
 | `targetPath` | Pfad, in dem die Ausgabe veröffentlicht oder gespeichert wird |
@@ -123,7 +128,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 | `generateTOC` | \(Für AEM-Site-Ausgabe\) Geben Sie an, ob ein Inhaltsverzeichnis generiert wird \(true\) oder nicht \(false\). |
 | `generateBreadcrumbs` | \(Für die AEM-Site-Ausgabe\) Geben Sie an, ob die Breadcrumbs generiert werden \(true\) oder nicht \(false\). |
 | `overwriteFiles` | \(Für AEM Site-Ausgabe\) Geben Sie an, ob Dateien am Ziel überschrieben werden \(true\) oder nicht \(false\). |
-| `pdfGenerator` | Geben Sie die zu verwendende PDF-Erzeugungsmaschine an. Die möglichen Werte sind: <br>-   DITAOT <br>-   FMPS |
+| `pdfGenerator` | Geben Sie die zu verwendende PDF-Erzeugungsmaschine an. Die möglichen Werte sind: <br>- DITAOT <br>- FMPS |
 
 >[!NOTE]
 >

@@ -1,13 +1,19 @@
 ---
-title: Versionshinweise zu | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides, Version Juni 2023
+title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides, Version Juni 2023
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf die Version Juni 2023 von Adobe Experience Manager Guides as a Cloud Service
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/LIY9wVDmvusGD-K-kyjK-lmzpyxJELj0mWzn9YoP0vw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 1%
+source-wordcount: 1169
+ht-degree: 3%
 
 ---
 
@@ -89,7 +95,7 @@ as a Cloud Service, um die Konfigurationsdatei zu erstellen.
 
 Führen Sie die folgenden Schritte aus, um den vorhandenen Inhalt zu indizieren und den neuen Text „Suchen und Ersetzen“ auf Zuordnungsebene und in der Themenliste auf der Registerkarte „Berichte“ zu verwenden:
 
-1. Führen Sie eine POST-Anfrage an den Server \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing` aus. (Optional) Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert \|\| Beispiel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Führen Sie eine POST-Anfrage an den Server \(mit korrekter Authentifizierung\) - `http://<server:port\>/bin/guides/map-find/indexing` aus. (Optional: Sie können bestimmte Pfade der Zuordnungen übergeben, um sie zu indizieren. Standardmäßig werden alle Zuordnungen indiziert \|\|, zum Beispiel : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Sie können auch einen Stammordner übergeben, um die DITA-Zuordnungen eines bestimmten Ordners (und seiner Unterordner) zu indizieren. Beispiel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Beachten Sie, dass nur der Pfadparameter berücksichtigt wird, wenn sowohl der Pfadparameter als auch der Stammparameter übergeben werden.
 
@@ -106,7 +112,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 
 | AEM Guides as a Cloud Service-Version | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2 023,06,0 | Nicht kompatibel | 2022 oder höher |
+| 2023.06.0 | Nicht kompatibel | 2022 oder höher |
 | | | |
 
 
@@ -114,7 +120,7 @@ In diesem Abschnitt finden Sie die Kompatibilitätsmatrix für die Softwareanwen
 
 | AEM Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2 023,06,0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
+| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |  |
 
 
@@ -124,45 +130,45 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Authoring
 
-- Navtitle wird aus content33 entfernt, wenn von der Layout-Ansicht zur Autoren- oder Quellansicht gewechselt wird. 12174)
-- Manchmal tritt beim Klicken auf eine DITA-Zuordnung ein Anwendungsfehler auf. 11842)
-- Web-Editor | Beim Bearbeiten eines Themas wird im XML-Editor ein Leerzeichen ohne Unterbrechung hinzugefügt. 11786)
-- Asset-Benutzeroberfläche | In der Listenansicht können die überlagerten verfügbaren Spalten nicht zusammengeführt werden. 11528)
-- Keyref wird in der Zuordnungsansicht nicht aufgelöst. 11490)
-- Beim Navigieren durch den XML-Editor wird das obere Menü nicht angezeigt. 10868)
-- `conref` in pH-Tag | Das angezeigte Dialogfeld zum Durchsuchen ist falsch. (9481)
+- Navtitle wird aus content33 entfernt, wenn von der Layout-Ansicht zur Autoren- oder Quellansicht gewechselt wird. (12174)
+- Manchmal tritt beim Klicken auf eine DITA-Zuordnung ein Anwendungsfehler auf. (11842)
+- Webeditor | Im XML-Editor wird beim Bearbeiten eines Themas ein Leerzeichen ohne Unterbrechung hinzugefügt. (11786)
+- Asset-Benutzeroberfläche | In der Listenansicht können die überlagerten verfügbaren Spalten nicht zusammengeführt werden. (11528)
+- Keyref wird in der Zuordnungsansicht nicht aufgelöst. (11490)
+- Beim Navigieren durch den XML-Editor wird das obere Menü nicht angezeigt. (10868)
+- `conref` in PH-Tag | Das angezeigte Dialogfeld zum Durchsuchen ist falsch. (9481)
 - Lokale Links zu anderen Elementen werden im Web-Editor nicht aufgelöst. (8790)
-- Die Funktion Matches() funktioniert nicht in der Schematron-Funktion. 11224)
+- Die Funktion Matches() funktioniert nicht in der Schematron-Funktion. (11224)
 
 
 ### Verwaltung
 
-- Die Registerkarte „Berichte“ in der Benutzeroberfläche des Web-Editors zeigt nicht die Themenliste alter DITA-Zuordnungen an, die vor dem Upgrade auf 4.2 erstellt wurden. 11708)
+- Die Registerkarte „Berichte“ in der Benutzeroberfläche des Web-Editors zeigt nicht die Themenliste alter DITA-Zuordnungen an, die vor dem Upgrade auf 4.2 erstellt wurden. (11708)
 
-- Die Funktion Dateien hochladen , mit der auf die Schaltfläche „Dateien hochladen“ in der Assets-Benutzeroberfläche zugegriffen werden kann, funktioniert nicht mehr in Version 4.2. 11633)
+- Die Funktion Dateien hochladen , mit der auf die Schaltfläche „Dateien hochladen“ in der Assets-Benutzeroberfläche zugegriffen werden kann, funktioniert nicht mehr in Version 4.2. (11633)
 
 ### Publishing
 
-- Das Veröffentlichen auf der AEM-Site schlägt fehl, wenn temporäre Dateien vom Pod gelesen werden, die möglicherweise aktualisiert oder neu gestartet wurden. 12113)
-- Native PDF | Die Veröffentlichung von Inhalten mit einer Ausgabeklasse mit Brackets() führt zu einem Veröffentlichungsstopp. 11936)
-- JSON-Ausgabe | Zuordnen von Metadaten mit Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. 11933)
-- Web-Editor | Ausgabepfad und -vorlage können nicht in der AEM-Voreinstellung ausgewählt werden. 11530)
+- Das Veröffentlichen auf der AEM-Site schlägt fehl, wenn temporäre Dateien vom Pod gelesen werden, die möglicherweise aktualisiert oder neu gestartet wurden. (12113)
+- Native PDF | Veröffentlichung von Inhalten mit einer Ausgabeklasse mit Brackets() führt zu einem Veröffentlichungsstopp. (11936)
+- JSON-Ausgabe | Zuordnen von Metadaten mit Eigenschaftswert als `"value in spaces and double quotes"` führt zu einem Veröffentlichungsfehler. (11933)
+- Web-Editor | Ausgabepfad und Vorlage können in der AEM-Voreinstellung nicht ausgewählt werden. (11530)
 - Native PDF | Benutzerdefinierte Attribute werden nicht an die temporäre HTML- oder PDF-Engine weitergegeben. (DXML-12005)
-- Native PDF |  Java OutOfMemoryError tritt beim Veröffentlichen großer Inhalte auf. 11789)
-- JSON-Ausgabe | Die `fmUuid` Eigenschaft im jcr:content-Knoten von JSON unterscheidet sich von der „id“ in JSON. 11564)
-- JSON-Ausgabe | Wenn Zuordnung und Thema mit demselben Dateinamen vorhanden sind, wird JSON für die Zuordnung entfernt. 11524)
-- Native PDF | Xref druckt den Inhalt des href-Thementitels anstelle der Xref-Beschriftung. 11322)
-- Native PDF | Die PDF-Vorlageneinstellungen können nicht gespeichert werden. 10751)
-- Native PDF | Der Text überschreitet die Spaltenbreite, wenn mehrere XRefs eingeschlossen werden. 10876)
-- Native PDF | `<note>` `</note>` Element erzeugt keinen zusätzlichen span-Titel seines Typs. 10549)
-- Native PDF | Die Sprach-Metadaten können im generierten PDF nicht auf WCAG 2.0 eingestellt werden. 12296)
+- Der native PDF | Java OutOfMemoryError tritt beim Veröffentlichen großer Inhalte auf. (11789)
+- JSON-Ausgabe | Die `fmUuid` Eigenschaft im jcr:content-Knoten von JSON unterscheidet sich von der „id“ in JSON. (11564)
+- JSON-Ausgabe | Wenn die Zuordnung und das Thema mit demselben Dateinamen vorhanden sind, wird JSON für die Zuordnung entfernt. (11524)
+- Native PDF | Xref druckt den Inhalt des href-Thementitels anstelle der Xref-Beschriftung. (11322)
+- Native PDF | Die PDF-Vorlageneinstellungen können nicht gespeichert werden. (10751)
+- Native PDF | Der Text überschreitet die Spaltenbreite, wenn mehrere XRefs eingeschlossen werden. (10876)
+- Das native PDF | `<note>``</note>`-Element generiert keinen zusätzlichen span-Titel seines Typs. (10549)
+- Nativer PDF | Die Sprach-Metadaten können in der generierten PDF nicht auf WCAG 2.0 eingestellt werden. (12296)
 
 
 
 ### Übersetzung
 
-- Seit der Cloud-Version vom Februar (2302) werden alle Übersetzungsinhalte als nicht synchronisiert oder als fehlende Kopie angezeigt. 11834)
+- Seit der Cloud-Version vom Februar (2302) werden alle Übersetzungsinhalte als nicht synchronisiert oder als fehlende Kopie angezeigt. (11834)
 
 ### Überprüfung
 
-- Neue UI-Überprüfung | Die Bedingungen heben Arbeit in den Bereichen „Hervorheben“, „Anzeigen“ und „Ausblenden“ anders hervor als in der Funktionsweise im Web-Editor. 11628)
+- Neue Überprüfungs-Benutzeroberfläche | Die Bedingungen heben Arbeit im Web-Editor hervor, zeigen und blenden sich anders aus als in der Funktionsweise. (11628)

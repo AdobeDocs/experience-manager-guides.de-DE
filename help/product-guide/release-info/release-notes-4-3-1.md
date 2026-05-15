@@ -1,13 +1,19 @@
 ---
-title: Versionshinweise zu | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides Version 4.3.1
+title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides Version 4.3.1
 description: Erfahren Sie mehr über die Fehlerbehebungen und das Upgrade auf Version 4.3.1 von Adobe Experience Manager Guides
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/4JTSMRLeqxbaz3rBMzz43V76o1HtTfTMtjpdT6wW1LM
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: cda0baeb-996e-4aaa-92d1-41032e34fd68id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: 1302
+ht-degree: 4%
 
 ---
 
@@ -83,73 +89,73 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 
 ### Authoring
 
-- Nachmittagsstunden sind in der **Datum) nicht** die Erstellung von Baselines festgelegt. 12712)
-- Der JSON-Code kann nicht in das `<codeblock>` des Web-Editors eingefügt werden. 12326)
-- Nicht gespeicherte Versionsänderungen und die zugehörigen Indikatoren werden bei großen Dateien nicht angezeigt. 11784)
-- Beim Bearbeiten in koreanischer Sprache wird das erste Zeichen in die Standardeinstellung geändert. 10049)
+- Nachmittagsstunden sind in der **Datum) nicht** die Erstellung von Baselines festgelegt. (12712)
+- Der JSON-Code kann nicht in das `<codeblock>` des Web-Editors eingefügt werden. (12326)
+- Nicht gespeicherte Versionsänderungen und die zugehörigen Indikatoren werden bei großen Dateien nicht angezeigt. (11784)
+- Beim Bearbeiten in koreanischer Sprache wird das erste Zeichen in die Standardeinstellung geändert. (10049)
 
-- Das Präfix wird im Vorschaumodus des Web-Editors dupliziert. 13133)
-- `Choicetable` Zeilen werden nicht angezeigt oder können nicht ausgewählt werden. 12616)
-- Der Web-Editor gibt bei der Erstellung eines Themas mithilfe eines benutzerdefinierten Schemas Validierungsfehler in bestimmten Szenarien aus. 12576)
-- Die Verweise auf die ditavale Themenvorlage erstellen beim Erstellen einer Zuordnung aus der Zuordnungsvorlage keine Kopie im Inhaltsordner. 12150)
+- Das Präfix wird im Vorschaumodus des Web-Editors dupliziert. (13133)
+- `Choicetable` Zeilen werden nicht angezeigt oder können nicht ausgewählt werden. (12616)
+- Der Web-Editor gibt bei der Erstellung eines Themas mithilfe eines benutzerdefinierten Schemas Validierungsfehler in bestimmten Szenarien aus. (12576)
+- Die Verweise auf die ditavale Themenvorlage erstellen beim Erstellen einer Zuordnung aus der Zuordnungsvorlage keine Kopie im Inhaltsordner. (12150)
 
-- Das Suchfeld in DITA-Karten verfügt über keine Schaltfläche zum Schließen. 11867)
-- Beim Speichern langer Dateien im Web-Editor löst `DirtyChecker` eine Ausnahme mit einer langen Stapelablaufverfolgung aus und füllt die Protokolldateien. 11860)
-- Zum Erstellen von DITA-Themen ist die Berechtigung Löschen für den entsprechenden Ordnerknoten erforderlich, obwohl die Zuordnung mit der Schreibberechtigung erstellt werden kann. 11706)
-- Im Web-Editor wird ein falscher Titel angezeigt, wenn ein Schrägstrich vorhanden ist. 10949)
+- Das Suchfeld in DITA-Karten verfügt über keine Schaltfläche zum Schließen. (11867)
+- Beim Speichern langer Dateien im Web-Editor löst `DirtyChecker` eine Ausnahme mit einer langen Stapelablaufverfolgung aus und füllt die Protokolldateien. (11860)
+- Zum Erstellen von DITA-Themen ist die Berechtigung Löschen für den entsprechenden Ordnerknoten erforderlich, obwohl die Zuordnung mit der Schreibberechtigung erstellt werden kann. (11706)
+- Im Web-Editor wird ein falscher Titel angezeigt, wenn ein Schrägstrich vorhanden ist. (10949)
 
-- Wenn der Titel eines Themas einen Schrägstrich &quot;/&quot; enthält, werden auf der Registerkarte im Editor nur die nachfolgenden Briefe angezeigt. 13455)
-- Die Bildvorschau verschwindet nicht, nachdem die Vorschau im Editor angezeigt wurde. 13454)
-- Einige der vorhandenen Versionen oder deren Bezeichnungen werden nach dem Upgrade auf 4.x nicht im Versionsverlauf angezeigt. 13247)
-- Das Bedienfeld Versionsverlauf in der Assets-Benutzeroberfläche zeigt einen falschen Zeitstempel für das Feld **Aktuell** an. 12624)
-- Thema mit dem conref-Titel wird in der Repository- oder Zuordnungsansicht nicht aufgelöst.13304)
+- Wenn der Titel eines Themas einen Schrägstrich &quot;/&quot; enthält, werden auf der Registerkarte im Editor nur die nachfolgenden Briefe angezeigt. (13455)
+- Die Bildvorschau verschwindet nicht, nachdem die Vorschau im Editor angezeigt wurde. (13454)
+- Einige der vorhandenen Versionen oder deren Bezeichnungen werden nach dem Upgrade auf 4.x nicht im Versionsverlauf angezeigt. (13247)
+- Das Bedienfeld Versionsverlauf in der Assets-Benutzeroberfläche zeigt einen falschen Zeitstempel für das Feld **Aktuell** an. (12624)
+- Thema mit conref-Titel wird in der Repository- oder Zuordnungsansicht nicht aufgelöst.(13304)
 
 
 ### Publishing
 
-- Native PDF | Die Reihenfolge der Themen wird beim Generieren der PDF-Ausgabe nicht festgelegt. 13157)
-- Native PDF| Für das Element `<p>` ist kein Standardstil-Tag verfügbar. 12559)
-- Native PDF | Inline-Stile, die auf den Inhaltsbereich angewendet werden, werden nicht auf die Themen in Vorder- und Rückseite angewendet. 13510)
-- Das `DeliveryTarget`-Attribut wird beim Generieren der AEM-Site-Ausgabe nicht weitergegeben.  13132)
-- Der **Veröffentlichen**-Workflow bleibt beim Generieren der AEM-Site-Ausgabe für Inhalte mit bestimmten Fehlern stecken. 12000)
+- Native PDF | Die Reihenfolge der Themen ist nicht festgelegt, wenn die PDF-Ausgabe generiert wird. (13157)
+- Natives PDF| Für das Element `<p>` ist kein Standardstil-Tag verfügbar. (12559)
+- Native PDF | Inline-Stile, die auf den Inhaltsbereich angewendet werden, werden nicht auf die Themen in der Vorder- und Rückseite angewendet. (13510)
+- Das `DeliveryTarget`-Attribut wird beim Generieren der AEM-Site-Ausgabe nicht weitergegeben.  (13132)
+- Der **Veröffentlichen**-Workflow bleibt beim Generieren der AEM-Site-Ausgabe für Inhalte mit bestimmten Fehlern stecken. (12000)
 
-- Native PDF | Das Einschließen mehrerer XRefs erweitert den Text über die Spaltenbreite hinaus. 13004)
-- Native PDF | Wenn Thema und Titel dieselbe ID haben, führt dies zu einer fehlerhaften Generierung der PDF-Ausgabe. 12644)
-- Native PDF | Beim Hinzufügen einer Output-Klasse zu einem übergeordneten `<topicref>` in einer DITA-Zuordnung und beim Anwenden eines benutzerdefinierten Stils auf die Output-Klasse wird der Stil auf Elemente innerhalb des Themenkörpers angewendet, einschließlich Abschnittstiteln. 12166)
-- Die inkrementelle Veröffentlichung funktioniert nicht, wenn eine DITA-Zuordnung mehrere ditavalrefs enthält. 12117)
-- AEM Site | Beim Erstellen einer Zuordnung mit keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. 12099)
-- Wenn Assets aus dem DAM von AEM in einer anderen Ausgabe als der AEM-Site verwendet werden, spiegeln die Metadaten „jcr:createdBy&quot; weder den Namen des Herausgebers noch den Namen des Benutzers wider, der die DITA-Zuordnung oder das Thema zuletzt geändert hat. 12090)
-- AEM Sites | DITA-Map mit topichead im navtitle (mit nicht unterstützten Zeichen) führt zu fehlerhaften Seiten-URLs. 11978)
-- Native PDF | Probleme treten bei der Unterstützung von topichead / topicmeta / navtitle in Frontmatter und Backmatter auf. 11969)
-- Native PDF | Das Generieren von PDFs für große Dokumente ist zeitaufwendig. 11955)
-- Native PDF | Beim Umbenennen einer Vorgabe wird beim Generieren einer PDF-Ausgabe eine NullPointerException ausgelöst. 11889)
-- Der `<conref>` Inhalt wird nicht in der PDF-Ausgabe angezeigt. 11131)
-- In den `<div>` wird beim Umschalten zwischen der Authoring- und der Source-Ansicht im Seitenlayout-Editor ein zusätzlicher Leerraum hinzugefügt. 10750)
+- Native PDF | Durch die Einbeziehung mehrerer xrefs wird der Text über die Spaltenbreite hinaus erweitert. (13004)
+- Natives PDF | Wenn Thema und Titel dieselbe ID haben, führt dies zu einer fehlerhaften Generierung der PDF-Ausgabe. (12644)
+- Nativer PDF | Beim Hinzufügen einer Output-Klasse zu einem übergeordneten `<topicref>` in einer DITA-Zuordnung und beim Anwenden eines benutzerdefinierten Stils auf die Output-Klasse wird der Stil auf Elemente innerhalb des Themenkörpers angewendet, einschließlich Abschnittstiteln. (12166)
+- Die inkrementelle Veröffentlichung funktioniert nicht, wenn eine DITA-Zuordnung mehrere ditavalrefs enthält. (12117)
+- AEM-Site | Beim Erstellen einer Zuordnung mit keydef, die auf ein Thema als Variable verweist, und beim Hinzufügen von processing-role=resource-only werden einige unerwartete Seiten erstellt. (12099)
+- Wenn Assets aus dem DAM von AEM in einer anderen Ausgabe als der AEM-Site verwendet werden, spiegeln die Metadaten „jcr:createdBy&quot; weder den Namen des Herausgebers noch den Namen des Benutzers wider, der die DITA-Zuordnung oder das Thema zuletzt geändert hat. (12090)
+- AEM Sites | DITA Map mit topichead im navtitle (mit nicht unterstützten Zeichen) führt zu fehlerhaften Seiten-URLs. (11978)
+- Native PDF | Probleme treten bei der Unterstützung von topichead / topicmeta / navtitle in Frontmatter und Backmatter auf. (11969)
+- Native PDF | Das Generieren von PDFs für große Dokumente ist zeitaufwendig. (11955)
+- Nativer PDF | Das Umbenennen einer Vorgabe löst beim Generieren einer PDF-Ausgabe eine NullPointerException aus. (11889)
+- Der `<conref>` Inhalt wird nicht in der PDF-Ausgabe angezeigt. (11131)
+- In den `<div>` wird beim Umschalten zwischen der Authoring- und der Source-Ansicht im Seitenlayout-Editor ein zusätzlicher Leerraum hinzugefügt. (10750)
 - Der auf AEM Cloud Manager replizierte Inhalt ist auf der Veröffentlichungsinstanz nicht sichtbar. (9564)
 
 
 ### Verwaltung
 
-- Der Versionsverlauf wird nicht angezeigt, auch wenn die `dc:format`-Eigenschaft für ein Asset nicht vorhanden ist. 10463)
-- Inhaltsreferenz ist fehlerhaft. Kopieren Sie DITA-Dateien, und fügen Sie sie ein, wenn die Themen-ID nicht mit der GUID übereinstimmt. 12614)
-- Bei dynamischen Baselines wird die Beschriftungsliste nicht aus den direkten Referenzen der Arbeitskopie einer DITA-Zuordnung abgerufen. 11917)
-- Baseline zeigt die falsche Anzahl von Dateien im Zuordnungs-Dashboard an, wenn die Funktion Alle Themen durchsuchen verwendet wird. 13265)
-- Im Web-Editor zeigt die Grundlinie den Titel für die vorherige Version anstelle der ausgewählten Version der DITA-Datei an. 13444)
+- Der Versionsverlauf wird nicht angezeigt, auch wenn die `dc:format`-Eigenschaft für ein Asset nicht vorhanden ist. (10463)
+- Inhaltsreferenz ist fehlerhaft. Kopieren Sie DITA-Dateien, und fügen Sie sie ein, wenn die Themen-ID nicht mit der GUID übereinstimmt. (12614)
+- Bei dynamischen Baselines wird die Beschriftungsliste nicht aus den direkten Referenzen der Arbeitskopie einer DITA-Zuordnung abgerufen. (11917)
+- Baseline zeigt die falsche Anzahl von Dateien im Zuordnungs-Dashboard an, wenn die Funktion Alle Themen durchsuchen verwendet wird. (13265)
+- Im Web-Editor zeigt die Grundlinie den Titel für die vorherige Version anstelle der ausgewählten Version der DITA-Datei an. (13444)
 
 ### Überprüfung
 
-- Die Überprüfung eines Themas zeigt falsche Kommentare an. 13453)
-- Die Schaltfläche Schließen auf der Überprüfungsseite in der Experience Manager Guides führt Benutzende zur AEM-Homepage. 13535)
-- Anhänge werden für ein Thema in der Überprüfung nicht im rechten Bedienfeld des Editors angezeigt. 13011)
+- Die Überprüfung eines Themas zeigt falsche Kommentare an. (13453)
+- Die Schaltfläche Schließen auf der Überprüfungsseite in der Experience Manager Guides führt Benutzende zur AEM-Homepage. (13535)
+- Anhänge werden für ein Thema in der Überprüfung nicht im rechten Bedienfeld des Editors angezeigt. (13011)
 
 
 
 ### Übersetzung
 
-- Die vom Dashboard **Übersetzung** exportierte Baseline schlägt fehl und wird nicht in der Zielsprache geöffnet. 13466)
+- Die vom Dashboard **Übersetzung** exportierte Baseline schlägt fehl und wird nicht in der Zielsprache geöffnet. (13466)
 
-- Neue Übersetzungsprojekte werden erstellt, anstatt neue Aufträge zu den ausgewählten vorhandenen Übersetzungsprojekten hinzuzufügen.  10214)
-- Der Titel der übersetzten Datei wird anstelle des Titels der Quelldatei angezeigt. 11630)
-- Die automatische Genehmigung funktioniert manchmal nicht und es treten Ausnahmen auf, wenn für den Übersetzungsstatus ein falscher Wert festgelegt ist. 13607)
-- Die vom Übersetzungs-Dashboard exportierte Baseline schlägt fehl und wird nicht in der Zielsprache geöffnet. 12993)
-- Einige Dateien fehlen bei der Verwendung von Baselines in der Übersetzung. 13021)
+- Neue Übersetzungsprojekte werden erstellt, anstatt neue Aufträge zu den ausgewählten vorhandenen Übersetzungsprojekten hinzuzufügen.  (10214)
+- Der Titel der übersetzten Datei wird anstelle des Titels der Quelldatei angezeigt. (11630)
+- Die automatische Genehmigung funktioniert manchmal nicht und es treten Ausnahmen auf, wenn für den Übersetzungsstatus ein falscher Wert festgelegt ist. (13607)
+- Die vom Übersetzungs-Dashboard exportierte Baseline schlägt fehl und wird nicht in der Zielsprache geöffnet. (12993)
+- Einige Dateien fehlen bei der Verwendung von Baselines in der Übersetzung. (13021)

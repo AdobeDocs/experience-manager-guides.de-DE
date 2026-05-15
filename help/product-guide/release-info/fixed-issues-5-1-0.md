@@ -1,10 +1,17 @@
 ---
-title: Versionshinweise zu | Es wurden Probleme in Adobe Experience Manager Guides Version 5.1.0 behoben
+title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 5.1.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in Version 5.1.0 von Adobe Experience Manager Guides.
-source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
+exl-id: 08c35e97-10ca-4b75-892b-d95b79432158
+TQID: https://experienceleague.adobe.com/NPJCIq5JuyFf0E-Uf3GMxXmW6zxehES4f-iL9xeqEow
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 1%
+source-wordcount: 1790
+ht-degree: 3%
 
 ---
 
@@ -23,7 +30,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 5.1.0](upgrade-instructions-
 - **CSS**- und **Seitenlayout**-Dateien in nativen PDF-Vorlagen weisen ein inkonsistentes Dateisperrverhalten auf, sodass sie auch dann bearbeitet werden können, wenn die Dateien gesperrt sind. (GUIDES-26688)
 - Wenn Sie die Seite aktualisieren, nachdem Sie dem linken Bedienfeld benutzerdefinierte Schaltflächen hinzugefügt haben, werden doppelte Registerkarten erstellt. (GUIDES-30899)
 - Wenn XML-Inhalte mit eckigen Klammern (z. B. &lt;/ oder />) innerhalb eines `code block` Elements in einem Thema hinzugefügt werden, wird das Code-Blockelement in der endgültigen Ausgabe leer angezeigt. (GUIDES-31007)
-- Die Werte der globalen Variablen `canCheckIn` und `canCheckOut` werden nicht korrekt festgelegt, wenn eine Datei über die Editor-Symbolleiste aus- und eingecheckt wird.(GUIDES-29890)
+- Die Werte der globalen Variablen `canCheckIn` und `canCheckOut` werden nicht korrekt festgelegt, wenn eine Datei über die Editor-Symbolleiste aus- und eingecheckt wird. (GUIDES-29890)
 - Wenn eine DITA-Zuordnung in der Kartenansicht ausgewählt wird, wird die Auswahlanzahl zunächst falsch angezeigt, da die untergeordneten Knoten der Zuordnung nicht ausgewählt sind. Die korrekte Anzahl der Auswahlen und die Einbeziehung aller untergeordneten Knoten wird erst bei der nachfolgenden Auswahl angezeigt. (GUIDES-25663)
 - Markdown-Dateien werden nicht abgerufen, wenn im Repository-Bereich mit dem Filter **DITA-Thema** gesucht wird. Außerdem funktionieren **Suchen und Ersetzen** nicht für Markdown-Dateien und zugehörige Inhalte. (GUIDES-27133)
 - Das **Menü-Dropdown-Menü** der Editor-Symbolleiste kann nicht mit dem Erweiterungs-Framework angepasst werden. Daher können Sie im Dropdown-Menü „Menü“ keine vorhandenen Schaltflächen ausblenden oder anzeigen bzw. neue Schaltflächen hinzufügen. (GUIDES-28748)
@@ -32,7 +39,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 5.1.0](upgrade-instructions-
 - Beim Erstellen eines neuen Themas über die Assets-Benutzeroberfläche oder den Editor wird das Thema nicht automatisch im Editor geöffnet, wenn die `xmleditor.uniquefilenames` in `XMLEditorConfig` auf „true“ festgelegt ist. (GUIDES-28171)
 - Leerzeichen, die innerhalb einer MathML-Gleichung in der Source-Ansicht hinzugefügt werden, bleiben beim Wechseln der Editor-Ansichten nicht erhalten. (GUIDES-26111)
 - Wenn JCR-Sitzungsverbindungen beim Aktualisieren oder Erstellen von Themen nicht geschlossen werden, führt dies zu Speicherlecks und Service-Ausfallzeiten. (GUIDES-26282)
-- Durch Ziehen der Spalten wird deren Breite von Prozentsatz zu Pixelwerten geändert, was zu verzerrten oder falsch ausgerichteten Tabellen führt.(GUIDES-23128)
+- Durch Ziehen der Spalten ändert sich ihre Breite von Prozentsatz zu Pixelwerten, was zu verzerrten oder falsch ausgerichteten Tabellen führt. (GUIDES-23128)
 - Wenn Inhalte in ein `code block` eingefügt werden oder Leerzeichen im `code block` hinzugefügt werden und die Ansicht gewechselt wird, gehen die Leerzeichen verloren. (GUIDES-27478)
 - Beim Hinzufügen einer Zuordnung zum `bookmap` wird diese in `fmditatopicrefs` anstatt in `fmditamaprefs` gespeichert. (GUIDES-25480)
 - Das **„Bild einfügen** kann auf einem hochauflösenden oder auszoomten Bildschirm nicht korrekt gerendert werden, wodurch der Bildtitel und die alternativen Textfelder verschwinden. (GUIDES-26459)
@@ -49,7 +56,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 5.1.0](upgrade-instructions-
 
 ## Asset-Management
 
-- Das Kopieren eines Ordners mit einer großen Anzahl von Assets aus der Assets-Benutzeroberfläche führt zu einer API-Zeitüberschreitung. Der Vorgang wird weiterhin im Backend ausgeführt und nach einiger Zeit abgeschlossen, aber in der Benutzeroberfläche wird keine Erfolgs- oder Fehlermeldung oder Benachrichtigung angezeigt. (GUIDES-30900)
+- Das Kopieren eines Ordners mit einer großen Anzahl von Assets aus der Assets-Benutzeroberfläche führt zu einer API-Zeitüberschreitung. Der Vorgang wird weiterhin im Backend ausgeführt und nach einiger Zeit abgeschlossen, aber in der Benutzeroberfläche wird keine Erfolgs- oder Fehlermeldung bzw. keine Benachrichtigung angezeigt. (GUIDES-30900)
 - Ein Kopieren/Einfügen-Vorgang, der für einen Ordner in der Assets-Benutzeroberfläche ausgeführt wird, schlägt aufgrund von Nachbearbeitungsfehlern fehl. (GUIDES-30840)
 - Das Kopieren und Einfügen schlägt für Ordner mit ebenenübergreifenden Assets (Assets mit Unter-Assets) in der Assets-Benutzeroberfläche fehl. (GUIDES-28107)
 - Ordner mit einer großen Anzahl von Assets werden nicht ordnungsgemäß in das Repository geladen. (GUIDES-32500)
@@ -82,7 +89,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 5.1.0](upgrade-instructions-
 - Beim Generieren von AEM Site-Seiten mit Titeln, die mehrere Wörter enthalten, die durch Leerzeichen getrennt sind, zeigt der Zuordnungstitel Bindestriche anstelle von Leerzeichen an. (GUIDES-27903)
 - Bei der nativen PDF wird ein ungültiger Metadaten-Eigenschaftsname nicht aufgelöst und wie `unresolved property name` in **Dokumenteigenschaften** angezeigt. (GUIDES-25680)
 - Mehrzeiliger Text in `codeblock` verursacht Probleme mit Textüberläufen während der PDF-Generierung. (GUIDES-15541)
-- Beim Hinzufügen von Zuordnungen zur Zuordnungssammlung werden andere Assets als Zuordnungen (z. B. Themen usw.) angezeigt und die übersetzten Zuordnungssprachen werden ebenfalls nicht ordnungsgemäß sortiert.(GUIDES-25085)
+- Beim Hinzufügen von Zuordnungen zur Zuordnungssammlung werden andere Assets als Zuordnungen (z. B. Themen) angezeigt werden, und die übersetzten Kartensprachen sind auch nicht ordnungsgemäß sortiert.(GUIDES-25085)
 - Im alten AEM Sites-Output werden Abschnittslinks innerhalb verschachtelter Themen einer Zuordnung nicht korrekt aufgelöst, wenn sie manuell im Source-Modus festgelegt werden oder der Inhalt aus einer externen Quelle importiert wird. Anstatt zum vorgesehenen Abschnitt zu navigieren, leiten sie zum Hauptthema um, das das verschachtelte Thema enthält. (GUIDES-26103)
 - Wenn das `scope=external` Attribut in externen Links in einem DITA-Thema fehlt, schlägt die Veröffentlichung von HTML5 fehl, ohne dass die Dateien angegeben werden, in denen dieses Attribut in den Fehlerprotokollen fehlt. (GUIDES-25969)
 - Video-Links können nicht in natives PDF eingebettet werden, selbst wenn die Option **Multimediadateien einbetten** in der PDF-Vorgabe aktiviert ist. (GUIDES-9989)
@@ -100,7 +107,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 5.1.0](upgrade-instructions-
 ## Platform
 
 - Bei der Arbeit mit großen Sammlungen treten Leistungsprobleme wie längere Ladezeiten und zeitweise auftretende Zeitüberschreitungen auf. (GUIDES-29065, GUIDES-28793)
-- Schwachstellen im Zusammenhang mit der veralteten Guava-Bibliothek, die in auf Experience Manager Guides hochgeladenen AEM Guides-Komponenten verwendet wird.(GUIDES-27402)
+- Schwachstellen im Zusammenhang mit der veralteten Guava-Bibliothek, die in auf Experience Manager Guides hochgeladenen AEM Guides-Komponenten verwendet wird. (GUIDES-27402)
 
 ## Bekannte Probleme
 
@@ -110,6 +117,6 @@ Adobe hat die folgenden bekannten Probleme in Version 5.1.0 identifiziert:
 - Der letzte Kommentar auf Aufgabenebene wird in der E-Mail-Benachrichtigung an den Aufgabeninitiator angezeigt, wenn der Reviewer die Aufgabe abschließt, ohne einen Kommentar hinzuzufügen. (GUIDES-33590)
 - Im Dialogfeld „Zusammenführen“ wird in der Dropdown-Liste fälschlicherweise der Hauptinhalt angezeigt, anstatt die verfügbaren Versionen des ausgewählten Themas anzuzeigen. (GUIDES-30820)
 - Beim Wechseln zwischen Voreinstellungen, die dieselbe Baseline verwenden, wird die Schaltfläche Speichern für die aktuelle Voreinstellung deaktiviert. (GUIDES-28025)
-- Eine leere Zeile wird automatisch eingefügt, wenn neue Inhalte in eine neue Zeile innerhalb eines Codeblock-Elements eingefügt werden.(GUIDES-27842)
+- Beim Einfügen eines neuen Inhalts in eine neue Zeile in einem Codeblock-Element wird automatisch eine leere Zeile eingefügt. (GUIDES-27842)
 - Ein Thema innerhalb einer DITA-Zuordnung kann nicht in der AEM Sites-Ausgabe veröffentlicht werden, wenn es sowohl als keydef als auch als topicref in seinen Unterzuordnungen verwendet wird. (GUIDES-22269)
 - Im Bedienfeld Inhaltseigenschaften wird das Feld Attribute automatisch geschlossen, wenn Sie versuchen, einen Verweis im Dialogfeld Link aktualisieren zu aktualisieren, sodass der Link nicht aktualisiert wird. (GUIDES-17767)

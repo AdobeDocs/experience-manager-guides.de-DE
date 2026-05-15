@@ -5,9 +5,14 @@ exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/cfaAR6ieDyb5pmbXcAcxzXzHj0mGoJyX5QYg9O4InY8
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2865'
+source-wordcount: 2865
 ht-degree: 0%
 
 ---
@@ -453,7 +458,7 @@ Führen Sie die folgenden Schritte aus, um die Verweise mithilfe des im Produktp
 1. Führen Sie das validate-Skript \[`/bin/fmdita/validatebtree?operation=validate`\] aus, um zu überprüfen, ob neue fehlerhafte Verweise vorhanden sind.
 1. Falls das Skript „validate“ Fehler meldet, können Sie es mit dem Patch-Skript patchen.
 1. Notieren Sie sich die unten angegebenen Details und teilen Sie sie bei Bedarf mit Ihrem Customer Success-Team:
-1. &#x200B;
+1. 
    - Durch Validierungsskript ausgedruckte Protokolle
 - Paket von &quot;`/content/fmdita/references`&quot;
 - Alle anderen erforderlichen Details, abhängig vom gemeldeten Szenario
@@ -467,7 +472,7 @@ Führen Sie die folgenden Schritte aus, um fehlerhafte Verweise mithilfe des im 
    ** Hinweis:* Es wird empfohlen, die Protokolle zu Referenzzwecken zu kopieren und zu speichern.
 
 1. Nachdem das Patch-Skript erfolgreich ausgeführt wurde, können Sie die folgenden Prüfungen durchführen:
-1. &#x200B;
+1. 
    - Überprüfen Sie, ob der neue Knoten &quot;`references_backup_<timestamp>"`&quot; unter `/content/fmdita` erstellt wurde.
 - Überprüfen, ob die Verweise korrigiert wurden
 

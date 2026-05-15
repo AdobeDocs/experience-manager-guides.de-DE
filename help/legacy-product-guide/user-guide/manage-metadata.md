@@ -1,25 +1,29 @@
 ---
 title: Verwalten von Metadaten
-description: Learn how to define and manage metadata in AEM Guides. Use smart and bulk tagging to easily find related topics within a DITA map.
+description: Erfahren Sie, wie Sie Metadaten in AEM Guides definieren und verwalten. Verwenden Sie Smart- und Bulk-Tagging, um verwandte Themen in einer DITA-Karte einfach zu finden.
 feature: Metadata Management
 role: User
 hide: true
 exl-id: 02f94238-2f45-4fc9-8586-6b96bb435013
-source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
+TQID: https://experienceleague.adobe.com/N3VQuKgUk9sqOsJn264DeQUxXtQwMghv6-4EQWnWGMU
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: 165
 ht-degree: 2%
 
 ---
 
 # Verwalten von Metadaten {#id221EJ0500LI}
 
-Metadata is the description or definition of your content. This metadata is useful for defining your article or a map. For example, the PDF metadata may consist of the properties of a document like a title, author, subject, keywords, and language. AEM Guides provides various tools which can help you define metadata for your content.
+Metadaten sind die Beschreibung oder Definition Ihres Inhalts. Diese Metadaten sind für die Definition Ihres Artikels oder einer Zuordnung nützlich. Beispielsweise können die PDF-Metadaten aus den Eigenschaften eines Dokuments wie Titel, Autor, Thema, Schlüsselwörtern und Sprache bestehen. AEM Guides bietet verschiedene Tools, mit denen Sie Metadaten für Ihre Inhalte definieren können.
 
-Adobe Experience Manager Assets provide the support to add, edit, import, or export metadata for your assets. You can use XML Keyword Extract tool to extract smart tags with the help of relevant keywords. Smart tags can help you find your related content. You can also define metadata in bulk for a collection of files and folders. Bulk tagging can help you easily find related topics within a DITA map.
+Adobe Experience Manager Assets bietet Unterstützung zum Hinzufügen, Bearbeiten, Importieren oder Exportieren von Metadaten für Assets. Sie können das Tool zum Extrahieren von XML-Keywords verwenden, um Smart-Tags mithilfe der entsprechenden Keywords zu extrahieren. Smart-Tags können Ihnen dabei helfen, Ihre zugehörigen Inhalte zu finden. Sie können Metadaten auch stapelweise für eine Sammlung von Dateien und Ordnern definieren. Bulk-Tagging kann Ihnen dabei helfen, verwandte Themen in einer DITA-Karte einfach zu finden.
 
-- **[Work with metadata in AEM](metadata-dita.md)**
+- **[Arbeiten mit Metadaten in AEM](metadata-dita.md)**
 
-- **[Smart Tagging](web-editor-smart-tagging.md)**
+- **[Smart-Tagging](web-editor-smart-tagging.md)**
 
-- **[Bulk tagging of DITA content](map-editor-bulk-tagging.md)**
+- **[Massen-Tagging von DITA-Inhalten](map-editor-bulk-tagging.md)**

@@ -5,9 +5,15 @@ hide: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/3ZkAlpDfF7-v0biHN9N5aiospS63Kr9veXsBqKHevtY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: a44282cf-0adb-456f-8700-3ec7a3f89fd4id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: 6522
 ht-degree: 1%
 
 ---
@@ -43,7 +49,7 @@ Sobald Sie das Installationsprogramm haben, installieren Sie es auf Ihrem lokale
 
 >[!IMPORTANT]
 >
->Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Deinstallationsanweisungen finden Sie **Abschnitt** Deinstallieren von Paketen“ im [Arbeiten mit Paketen](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/package-manager.html).
+>Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Deinstallationsanweisungen finden Sie **Abschnitt** Deinstallieren von Paketen“ im [Arbeiten mit Paketen](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html).
 
 Führen Sie die folgenden Schritte auf dem System durch, auf dem Oxygen XML Author installiert ist:
 
@@ -77,7 +83,7 @@ Führen Sie die folgenden Schritte auf dem System durch, auf dem Oxygen XML Auth
 
 >[!IMPORTANT]
 >
->Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe den **Deinstallieren von Paketen** im Abschnitt [So arbeiten Sie mit Paketen](https://helpx.adobe.com/de/experience-manager/6-4/sites/administering/using/package-manager.html) des Artikels Deinstallationsanweisungen.
+>Wenn Sie eine ältere Version des Plug-ins auf Ihrem System installiert haben, stellen Sie sicher, dass Sie es deinstallieren, bevor Sie den Installationsprozess starten. Siehe den **Deinstallieren von Paketen** im Abschnitt [So arbeiten Sie mit Paketen](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) des Artikels Deinstallationsanweisungen.
 
 Führen Sie die folgenden Schritte auf dem System durch, auf dem Oxygen XML Author installiert ist:
 
@@ -116,7 +122,7 @@ Führen Sie als AEM-Administrator die folgenden Schritte aus, um das Paket zu in
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   Package Manager verwaltet die Pakete in Ihrer lokalen AEM-Installation. Weitere Informationen zum Arbeiten mit dem Package Manager finden Sie unter [So arbeiten Sie mit Paketen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=de) in der Dokumentation zu AEM.
+   Package Manager verwaltet die Pakete in Ihrer lokalen AEM-Installation. Weitere Informationen zum Arbeiten mit dem Package Manager finden Sie unter [So arbeiten Sie mit Paketen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in der Dokumentation zu AEM.
 
    ![Package Manager](images/package-manager.png) {width="650"}
 
@@ -208,7 +214,7 @@ Führen Sie die folgenden Schritte aus, um die Verbindungseinstellungen im Oxyge
 
 1. Klicken Sie im AEM Guides-Bedienfeld auf das Symbol Einstellungen und wählen Sie dann **Einstellungen** aus.
 
-   ![Verbindungseinstellungen &#x200B;](images/settings.png){width="800"}
+   ![Verbindungseinstellungen ](images/settings.png){width="800"}
 
 1. Geben Sie die folgenden Details an:
    - **Server URL**: URL des AEM-Servers, z. B.:
@@ -590,7 +596,7 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Thema in Oxygen XML Author z
    >
    >Wenn das Thema nicht ausgecheckt ist, wird es zunächst ausgecheckt und dann im Bearbeitungsmodus in Oxygen geöffnet.
 
-1. Wählen Sie Oxygen XML Author *&lt;version\>* im Meldungsfeld **Anwendung starten**. Sie können die Option **Meine Auswahl für AEM-Links speichern** auswählen, um Ihre Voreinstellung zu speichern.
+1. Wählen Sie Oxygen XML Author *&lt;version\>* im **Launch Application**-Meldungsfeld aus. Sie können die Option **Meine Auswahl für AEM-Links speichern** auswählen, um Ihre Voreinstellung zu speichern.
 
 **Bearbeiten eines DITA-Themas**
 
@@ -603,7 +609,7 @@ Führen Sie die folgenden Schritte aus, um ein DITA-Thema in der Oxygen XML-Auto
    >
    >Wenn das Thema nicht ausgecheckt ist, wird es zunächst ausgecheckt und dann im Bearbeitungsmodus in Oxygen geöffnet.
 
-1. Wählen Sie Oxygen XML Author *&lt;version\>* im Meldungsfeld **Anwendung starten**. Sie können die Option **Meine Auswahl für AEM-Links speichern** auswählen, um Ihre Voreinstellung zu speichern.
+1. Wählen Sie Oxygen XML Author *&lt;version\>* im **Launch Application**-Meldungsfeld aus. Sie können die Option **Meine Auswahl für AEM-Links speichern** auswählen, um Ihre Voreinstellung zu speichern.
 1. Bearbeiten Sie das Thema im Oxygen XML-Autorenknoten.
 1. Checken Sie das Thema vom Oxygen Plugin für AEM Guides ein.
 

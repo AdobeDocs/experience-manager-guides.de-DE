@@ -5,9 +5,15 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/JTfQ4wbTh1b3qZYT6I3L--AW2ZGkWIBKW2YOORW9zHE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: 2408
 ht-degree: 0%
 
 ---
@@ -30,16 +36,16 @@ Abhängig von Ihrem Setup kann Ihr Administrator einen Datenquellen-Connector ko
 
 - Wenn Sie die Version vom Oktober 2023 oder höher verwenden, erfahren Sie, wie Sie [einen Datenquellen-Connector über die Benutzeroberfläche konfigurieren](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) im Installations- und Konfigurationshandbuch für Cloud Services finden.
 
-- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Services, wie [&#x200B; einen Datenquellen-Connector &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector.md).
+- Wenn Sie die Version vom Juli 2023 oder September 2023 verwenden, erfahren Sie im Installations- und Konfigurationshandbuch für Cloud Services, wie [ einen Datenquellen-Connector ](/help/product-guide/cs-install-guide/conf-data-source-connector.md).
 
 </details>
 
 <details>    
 <summary>  On-Premise Software </summary>
 
-- Wenn Sie Version 4.3.1 oder höher verwenden, erfahren Sie im On-Premise[Installations- und Konfigurationshandbuch , wie Sie einen Datenquellen-Connector über &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) Benutzeroberfläche konfigurieren.
+- Wenn Sie Version 4.3.1 oder höher verwenden, erfahren Sie im On-Premise[Installations- und Konfigurationshandbuch , wie Sie einen Datenquellen-Connector über ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) Benutzeroberfläche konfigurieren.
 
-- Wenn Sie Version 4.3 verwenden, erfahren Sie im On-[-Installations- und Konfigurationshandbuch , wie Sie &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector.md) Datenquellen-Connector konfigurieren.
+- Wenn Sie Version 4.3 verwenden, erfahren Sie im On-[-Installations- und Konfigurationshandbuch , wie Sie ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) Datenquellen-Connector konfigurieren.
 </details>
 
 
@@ -107,7 +113,7 @@ Die vordefinierten Vorlagen für die ausgewählte Datenquelle werden in der Drop
    >  
    > Wenn Ihr Administrator benutzerdefinierte Vorlagen konfiguriert hat, werden Ihnen diese Vorlagen auch in der Dropdown-Liste angezeigt (basierend auf den Vorlagenpfadkonfigurationen, die von Ihrem Administrator durchgeführt wurden).
    >   
-   >Sie können auch Velocity-Tools in den Vorlagen verwenden. Erfahren Sie mehr über die Verwendung [&#x200B; Velocity-Tools](#use-velocity-tools).
+   >Sie können auch Velocity-Tools in den Vorlagen verwenden. Erfahren Sie mehr über die Verwendung [ Velocity-Tools](#use-velocity-tools).
 
 1. Das **Ressource**-Dropdown wird für einige Connectoren wie REST-Client, Salsify, Akeneo und Microsoft ADO angezeigt.  Wählen Sie eine Ressource aus dem Dropdown-Menü aus und stellen Sie eine Verbindung mit ihr her, um ein Inhaltsfragment oder ein Thema mithilfe des Generators dafür zu erstellen.
 

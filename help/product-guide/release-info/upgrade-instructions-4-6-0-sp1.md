@@ -1,11 +1,16 @@
 ---
-title: Versionshinweise zu | Aktualisierungsanweisungen für Adobe Experience Manager Guides 4.6.0 Service Pack 1
+title: Versionshinweise | Upgrade-Anweisungen für Adobe Experience Manager Guides 4.6.0 Service Pack 1
 description: Erfahren Sie, wie Sie auf Version 4.6.0 Service Pack 1 von Adobe Experience Manager Guides aktualisieren
 role: Leader
 exl-id: 26ac7ed8-2d3f-40f6-af72-7868b88e218c
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+TQID: https://experienceleague.adobe.com/aEtRdFT-H1kJDnLroH3XS1rNcmxJcGBkBXODQFQpfl4
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 525
 ht-degree: 1%
 
 ---
@@ -22,7 +27,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 ### Adobe Experience Manager
 
-**4.6.0 Service Pack 1 nicht-UUID**
+**4.6.0 Service Pack 1 - Nicht-UUID**
 Version 6.5 Service Pack 21, 20 und 19
 
 **4.6.0 Service Pack 1 UUID**
@@ -69,7 +74,7 @@ Sie können Ihre aktuelle Version von Guides einfach auf 4.6.0 Service Pack 1 ak
 - Wenn Sie Version 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.4 aktualisieren, bevor Sie auf Version 4.6.0 aktualisieren.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 >[!NOTE]
 >

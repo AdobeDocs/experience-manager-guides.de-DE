@@ -5,9 +5,14 @@ exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
 feature: Java-Based API Dita Map
 role: Developer
 level: Experienced
-source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
+TQID: https://experienceleague.adobe.com/XDVopMV3mqDipQ1P3FgfJPquykDrl1trrZYd2S-KLpw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: c6d09140-3c91-45d3-b7ed-b681af752f43id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: 1096
 ht-degree: 3%
 
 ---
@@ -71,7 +76,7 @@ public static void zipMapWithDependents(Session session,
 | `sourcePath` | Zeichenfolge | Pfad \(im AEM-Repository\) der DITA-Zuordnungsdatei, die heruntergeladen werden muss. |
 | `outputStream` | java.io.OutputStream | Der Stream, in den die ZIP geschrieben werden soll. |
 | `baseline` | Zeichenfolge | Der Titel der Baseline, die zum Abrufen des versionierten Inhalts verwendet wird. <br> **Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden. |
-| flatFS | Boolesch | \(Optional\) Wenn auf „true“ gesetzt, wird eine flache Struktur von Dateien in der ZIP-Datei zurückgegeben. Wenn sich Ihre DITA-Zuordnung beispielsweise auf Inhalte in mehreren Ordnern bezieht, werden alle referenzierten Dateien in einen einzelnen Ordner gezogen. Wenn es Dateien mit demselben Namen gibt, werden diese Dateien durch Hinzufügen eines numerischen Suffix umbenannt. Alle Verweise \(in DITA-Map und Themen\) werden automatisch verarbeitet, da sie auf der Grundlage des neuen Speicherorts der Dateien in der flachen Ordnerstruktur aktualisiert werden. Wenn dies auf „false“ festgelegt ist, wird die Ordnerstruktur in der ZIP-Datei unverändert beibehalten. Wenn sich die DITA-Zuordnung auf Dateien aus mehreren Speicherorten bezieht, werden alle diese Speicherorte ebenfalls in der ZIP-Datei erstellt. Wenn Sie die ZIP-Datei wiederherstellen, wird die exakte Ordnerstruktur am Zielspeicherort erstellt. <br> Der Standardwert für diesen Parameter ist „false“. |
+| flatFS | Boolescher Wert | \(Optional\) Wenn auf „true“ gesetzt, wird eine flache Struktur von Dateien in der ZIP-Datei zurückgegeben. Wenn sich Ihre DITA-Zuordnung beispielsweise auf Inhalte in mehreren Ordnern bezieht, werden alle referenzierten Dateien in einen einzelnen Ordner gezogen. Wenn es Dateien mit demselben Namen gibt, werden diese Dateien durch Hinzufügen eines numerischen Suffix umbenannt. Alle Verweise \(in DITA-Map und Themen\) werden automatisch verarbeitet, da sie auf der Grundlage des neuen Speicherorts der Dateien in der flachen Ordnerstruktur aktualisiert werden. Wenn dies auf „false“ festgelegt ist, wird die Ordnerstruktur in der ZIP-Datei unverändert beibehalten. Wenn sich die DITA-Zuordnung auf Dateien aus mehreren Speicherorten bezieht, werden alle diese Speicherorte ebenfalls in der ZIP-Datei erstellt. Wenn Sie die ZIP-Datei wiederherstellen, wird die exakte Ordnerstruktur am Zielspeicherort erstellt. <br> Der Standardwert für diesen Parameter ist „false“. |
 
 **Rückgabe**:
 Der Inhalt der ZIP-Datei wird in die `outputStream` geschrieben.
@@ -107,7 +112,7 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 | `session` | javax.jcr.Session | Eine gültige JCR-Sitzung. |
 | `sourcePath` | Zeichenfolge | Pfad \(im AEM-Repository\) der DITA-Zuordnungsdatei, die heruntergeladen werden muss. |
 | `baseline` | Zeichenfolge | Der Titel der Baseline, die zum Abrufen des versionierten Inhalts verwendet wird. <br> **Hinweis:** Beim Wert wird zwischen Groß- und Kleinschreibung unterschieden. |
-| flatFS | Boolesch | \(Optional\) Wenn auf „true“ gesetzt, wird eine flache Struktur von Dateien in der ZIP-Datei zurückgegeben. Wenn sich Ihre DITA-Zuordnung beispielsweise auf Inhalte in mehreren Ordnern bezieht, werden alle referenzierten Dateien in einen einzelnen Ordner gezogen. Wenn es Dateien mit demselben Namen gibt, werden diese Dateien durch Hinzufügen eines numerischen Suffix umbenannt. Alle Verweise \(in DITA-Map und Themen\) werden automatisch verarbeitet, da sie auf der Grundlage des neuen Speicherorts der Dateien in der flachen Ordnerstruktur aktualisiert werden. Wenn dies auf „false“ festgelegt ist, wird die Ordnerstruktur in der ZIP-Datei unverändert beibehalten. Wenn sich die DITA-Zuordnung auf Dateien aus mehreren Speicherorten bezieht, werden alle diese Speicherorte ebenfalls in der ZIP-Datei erstellt. Wenn Sie die ZIP-Datei wiederherstellen, wird die exakte Ordnerstruktur am Zielspeicherort erstellt.<br> Der Standardwert für diesen Parameter ist „false“. |
+| flatFS | Boolescher Wert | \(Optional\) Wenn auf „true“ gesetzt, wird eine flache Struktur von Dateien in der ZIP-Datei zurückgegeben. Wenn sich Ihre DITA-Zuordnung beispielsweise auf Inhalte in mehreren Ordnern bezieht, werden alle referenzierten Dateien in einen einzelnen Ordner gezogen. Wenn es Dateien mit demselben Namen gibt, werden diese Dateien durch Hinzufügen eines numerischen Suffix umbenannt. Alle Verweise \(in DITA-Map und Themen\) werden automatisch verarbeitet, da sie auf der Grundlage des neuen Speicherorts der Dateien in der flachen Ordnerstruktur aktualisiert werden. Wenn dies auf „false“ festgelegt ist, wird die Ordnerstruktur in der ZIP-Datei unverändert beibehalten. Wenn sich die DITA-Zuordnung auf Dateien aus mehreren Speicherorten bezieht, werden alle diese Speicherorte ebenfalls in der ZIP-Datei erstellt. Wenn Sie die ZIP-Datei wiederherstellen, wird die exakte Ordnerstruktur am Zielspeicherort erstellt.<br> Der Standardwert für diesen Parameter ist „false“. |
 
 **Rückgabe**:
 Der Knoten der ZIP-Datei wird in die Klasse `CompletableFuture`umschlossen. Der Benutzer kann die asynchrone Verarbeitung fortsetzen und den Thread mithilfe `.get()`Methode der Zukunft blockieren, wenn der Knoten benötigt wird. Der zurückgegebene Wert kann auch mit einem Fehler enden, der mit `.exceptionally()` Methode verarbeitet werden kann.

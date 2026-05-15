@@ -4,9 +4,15 @@ description: Erstellen Sie in Experience Manager Guides eine Zuordnung mit dem Z
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+TQID: https://experienceleague.adobe.com/hd0LxXHbISW1ppu4pE8Z1RzAhO8s6NGUV-0aYPfK5zQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: 1599
 ht-degree: 0%
 
 ---
@@ -25,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnung zu erstellen:
 
    ![](images/create-map-options.png)
 
-   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides &#x200B;](./intro-home-page.md) über das Menü „Optionen“ eines Ordners in der Explorer-Ansicht zugreifen.
+   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides ](./intro-home-page.md) über das Menü „Optionen“ eines Ordners in der Explorer-Ansicht zugreifen.
 
 2. Das **Neue Zuordnung** wird angezeigt.
 
@@ -60,7 +66,7 @@ Führen Sie die folgenden Schritte aus, um einer Zuordnungsdatei über die Zuord
    ![](images/new-map-file-in-editor.png)
 
 
-   - **A** - \(*Registerkartenleiste*\): Dies ähnelt der Registerkartenleiste des Editors. Weitere [&#x200B; finden Sie &#x200B;](./web-editor-tab-bar.md) der Registerkarte „Leiste“ im Editor.
+   - **A** - \(*Registerkartenleiste*\): Dies ähnelt der Registerkartenleiste des Editors. Weitere [ finden Sie ](./web-editor-tab-bar.md) der Registerkarte „Leiste“ im Editor.
 
    - **B** - \(*Symbolleiste*\) Dies ist die Symbolleiste, die Ihnen das Arbeiten mit Zuordnungsdateien ermöglicht. Weitere Informationen zu den in der Symbolleiste verfügbaren Funktionen finden Sie unter [In der Symbolleiste des Zuordnungs-Editors verfügbare Funktionen](./map-editor-advanced-map-editor.md).
 
@@ -70,7 +76,7 @@ Führen Sie die folgenden Schritte aus, um einer Zuordnungsdatei über die Zuord
 
    - **E** - \(*Middle Area*\): Inhaltsbearbeitungsbereich zuordnen.
 
-   - **F** - \(*Bereich rechts*\): Ermöglicht den Zugriff auf den Bereich „Eigenschaften“. Sie können die Inhaltseigenschaften und die Zuordnungseigenschaften des ausgewählten Themas oder der ausgewählten Zuordnung anzeigen. Weitere Informationen zu den in diesem Bedienfeld verfügbaren Funktionen finden Sie unter &quot;[&#x200B; Bedienfeld](web-editor-right-panel.md) im Editor.
+   - **F** - \(*Bereich rechts*\): Ermöglicht den Zugriff auf den Bereich „Eigenschaften“. Sie können die Inhaltseigenschaften und die Zuordnungseigenschaften des ausgewählten Themas oder der ausgewählten Zuordnung anzeigen. Weitere Informationen zu den in diesem Bedienfeld verfügbaren Funktionen finden Sie unter &quot;[ Bedienfeld](web-editor-right-panel.md) im Editor.
 
 1. Wechseln Sie im linken Bereich zur Ansicht **Explorer**.
 
@@ -138,7 +144,7 @@ Führen Sie die folgenden Schritte aus, um eine Zuordnung über die Assets-Benut
 
    ![](images/first-version-map-none.png)
 
-   Die Versionsinformationen für eine neu erstellte Zuordnung werden als *Keine* angezeigt. Wenn Sie eine neue Version speichern, wird ihr eine Versionsnummer als 1.0 zugewiesen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version &#x200B;](web-editor-features.md#save-as-new-version).
+   Die Versionsinformationen für eine neu erstellte Zuordnung werden als *Keine* angezeigt. Wenn Sie eine neue Version speichern, wird ihr eine Versionsnummer als 1.0 zugewiesen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version ](web-editor-features.md#save-as-new-version).
 
    Sie können die Karte zur Bearbeitung im konfigurierten Zuordnungs-Editor öffnen oder die Zuordnungsdatei im Explorer speichern.
 
@@ -170,7 +176,7 @@ Führen Sie die folgenden Schritte aus, um über die Assets-Benutzeroberfläche 
 
    ![](images/edit-map-action-menu.png)
 
-   Die Zuordnungsdatei wird im Editor zur Bearbeitung geöffnet. Um der Zuordnungsdatei Themen hinzuzufügen, führen Sie die Schritte (4-8) in [Themen zu einer Zuordnungsdatei hinzufügen“ &#x200B;](#add-topics-to-a-map-file).
+   Die Zuordnungsdatei wird im Editor zur Bearbeitung geöffnet. Um der Zuordnungsdatei Themen hinzuzufügen, führen Sie die Schritte (4-8) in [Themen zu einer Zuordnungsdatei hinzufügen“ ](#add-topics-to-a-map-file).
 
 
 

@@ -4,9 +4,14 @@ description: Erfahren Sie, wie Sie DITAVAL-Dateien mit dem DIVATAL-Editor in Ado
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/VkX-SA8LgL-O3Gws5pGoj9RIFgrcn7NADVIDzBagxeg
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: ca593223-d11a-4a52-b369-a8e081e71737
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: 1537
 ht-degree: 0%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 0%
 
 DITAVAL-Dateien werden zur Erzeugung von bedingten Ausgaben verwendet. In einem einzelnen Thema können Sie Bedingungen mithilfe von Elementattributen hinzufügen, um Inhalte mit Bedingungen zu versehen. Anschließend erstellen Sie eine DITAVAL-Datei, in der Sie die Bedingungen angeben, die aufgenommen werden sollen, um Inhalte zu generieren, und welche Bedingung bei der endgültigen Ausgabe ausgeschlossen werden soll.
 
-Mit Adobe Experience Manager Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die Attribute (die als Bedingungen verwendet werden können) ab, die in Ihrem System definiert sind, und Sie können sie zum Erstellen oder Bearbeiten von DITAVAL-Dateien verwenden. Weitere Informationen zum Erstellen und Verwalten von Bedingungen in Adobe Experience Manager finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=de) in der Dokumentation zu Adobe Experience Manager.
+Mit Adobe Experience Manager Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die Attribute (die als Bedingungen verwendet werden können) ab, die in Ihrem System definiert sind, und Sie können sie zum Erstellen oder Bearbeiten von DITAVAL-Dateien verwenden. Weitere Informationen zum Erstellen und Verwalten von Bedingungen in Adobe Experience Manager finden Sie im Abschnitt [Verwalten von Tags](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in der Dokumentation zu Adobe Experience Manager.
 
 In den folgenden Abschnitten werden die verfügbaren Optionen für eine DITAVAL-Datei in Experience Manager Guides beschrieben.
 
@@ -32,7 +37,7 @@ Führen Sie die folgenden Schritte aus, um eine DITAVAL-Datei zu erstellen:
 
    ![](images/new-file-option.png){width="350"}
 
-   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides &#x200B;](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
+   Sie können auf diese Option auch über die Startseite von [Experience Manager Guides ](./intro-home-page.md) über das Optionsmenü eines Ordners in der Repository-Ansicht zugreifen.
 
 2. Das **Neues Thema** wird angezeigt.
 

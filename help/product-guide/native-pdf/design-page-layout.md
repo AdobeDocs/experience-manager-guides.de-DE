@@ -5,19 +5,24 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+TQID: https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '5060'
+source-wordcount: 5060
 ht-degree: 0%
 
 ---
-
 
 # Entwerfen eines Seiten-Layouts {#design-page-layout}
 
 Beim Erstellen eines PDF-Dokuments hätten Sie verschiedene Abschnitte zur Darstellung verschiedener Arten von Informationen. Ein PDF-Dokument würde beispielsweise von einer Titelseite aus beginnen, die das Logo, den Buchtitel oder die Versionsinformationen Ihres Unternehmens enthält. Dann gibt es Kapitel, Anhänge oder Glossarseiten. Jeder Abschnitt in einem PDF-Dokument sieht anders aus. Dies wird durch Erstellen und Anpassen des Seiten-Layouts erreicht.
 
-Beim Entwerfen des Seiten-Layouts können Sie die verschiedenen Elemente definieren, aus denen eine Seite besteht. Sie können beispielsweise die Seitengröße, die Ränder, die Kopf- und Fußzeile, die Ausrichtung und andere Seitenspezifikationen auf einer Seite definieren. Mit der nativen PDF-Veröffentlichungsfunktion können Sie Ihre Seite gemäß den [Seitenmedienstandards“ &#x200B;](https://www.w3.org/TR/css-page-3/). Die meisten Einstellungen, die unter den Standards für ausgelagerte Medien behandelt werden, können einfach über die Benutzeroberfläche der nativen PDF-Veröffentlichungsfunktion angepasst werden. Für einige andere erweiterte Formatierungen können Sie die Source-Ansicht verwenden, um Ihren eigenen CSS-Code zu schreiben.
+Beim Entwerfen des Seiten-Layouts können Sie die verschiedenen Elemente definieren, aus denen eine Seite besteht. Sie können beispielsweise die Seitengröße, die Ränder, die Kopf- und Fußzeile, die Ausrichtung und andere Seitenspezifikationen auf einer Seite definieren. Mit der nativen PDF-Veröffentlichungsfunktion können Sie Ihre Seite gemäß den [Seitenmedienstandards“ ](https://www.w3.org/TR/css-page-3/). Die meisten Einstellungen, die unter den Standards für ausgelagerte Medien behandelt werden, können einfach über die Benutzeroberfläche der nativen PDF-Veröffentlichungsfunktion angepasst werden. Für einige andere erweiterte Formatierungen können Sie die Source-Ansicht verwenden, um Ihren eigenen CSS-Code zu schreiben.
 
 Nachdem Sie die Seiten-Layouts entworfen haben, müssen Sie diese Layouts mit den entsprechenden Abschnitten in den PDF-Seitenlayouteinstellungen verknüpfen. Im Abschnitt [Erstellen und Anpassen von Seiten-Layouts](components-pdf-template.md#create-customize-page-layout) finden Sie Einzelheiten zum Erstellen und Öffnen eines Seiten-Layouts zur Anpassung.
 
@@ -34,7 +39,7 @@ Ein PDF-Dokument enthält in der Regel die folgenden Abschnitte:
 * Index
 * Rückseite
 
-Für diese Abschnitte ist ein entsprechendes Seiten-Layout erforderlich, damit die Informationen in einem bestimmten Format angezeigt werden. Darüber hinaus können Sie auch eine leere Seite verwenden, die als Füller verwendet wird, um ein neues Kapitel von einer ungeraden oder geraden Seite aus zu beginnen. In diesem Fall können Sie entweder das standardmäßige Seiten-Layout verwenden oder ein Seiten-Layout für eine leere Seite erstellen. Weitere [&#x200B; finden Sie unter „Erstellen &#x200B;](components-pdf-template.md#create-page-layout) neuen Seiten-Layouts“.
+Für diese Abschnitte ist ein entsprechendes Seiten-Layout erforderlich, damit die Informationen in einem bestimmten Format angezeigt werden. Darüber hinaus können Sie auch eine leere Seite verwenden, die als Füller verwendet wird, um ein neues Kapitel von einer ungeraden oder geraden Seite aus zu beginnen. In diesem Fall können Sie entweder das standardmäßige Seiten-Layout verwenden oder ein Seiten-Layout für eine leere Seite erstellen. Weitere [ finden Sie unter „Erstellen ](components-pdf-template.md#create-page-layout) neuen Seiten-Layouts“.
 
 Mit den Seitenlayouteinstellungen im Abschnitt **Vorlage>Einstellungen** können Sie festlegen, welches Seitenlayout für verschiedene Bereiche Ihrer PDF verwendet werden soll. Jedes Seiten-Layout kann außerdem unterschiedliche Varianten der ersten, rechten oder linken Seite aufweisen.
 
@@ -92,9 +97,9 @@ Beim Entwerfen eines Seiten-Layouts ist es wichtig, die Kontrolle über verschie
 
 >[!NOTE]
 >
->Das Bedienfeld „Seiteneigenschaften“ kapselt die Eigenschaften und folgt den Regeln, die unter [Seitenmedienstandards“ definiert &#x200B;](https://www.w3.org/TR/css-page-3/).
+>Das Bedienfeld „Seiteneigenschaften“ kapselt die Eigenschaften und folgt den Regeln, die unter [Seitenmedienstandards“ definiert ](https://www.w3.org/TR/css-page-3/).
 
-* **Seitengröße** : Geben Sie die Seitengröße an, die Sie für das Seiten-Layout verwenden möchten. In der Dropdown-Liste Seitengröße können Sie aus über 15 Seitengrößen wählen. Sie können ein Seiten-Layout auch mit einer benutzerdefinierten Seitengröße erstellen. Weitere Informationen finden [&#x200B; unter „Festlegen der &#x200B;](#set-page-size)&quot;.
+* **Seitengröße** : Geben Sie die Seitengröße an, die Sie für das Seiten-Layout verwenden möchten. In der Dropdown-Liste Seitengröße können Sie aus über 15 Seitengrößen wählen. Sie können ein Seiten-Layout auch mit einer benutzerdefinierten Seitengröße erstellen. Weitere Informationen finden [ unter „Festlegen der ](#set-page-size)&quot;.
 
 * **Ausrichtung** : Geben Sie die Seitenausrichtung an, die für das Seiten-Layout verwendet werden soll. Sie können zwischen Hochformat- oder Querformat-Seitenausrichtungen wählen. Beachten Sie, dass Sie verschiedene Ausrichtungen auf verschiedene Seitenvarianten in einem Seiten-Layout anwenden können. Wenn Ihr Inhalt beispielsweise eine breite Tabelle oder ein großes Bild enthält, können Sie ein Querformat-Seiten-Layout erstellen und dieses Layout auf die breitere Tabelle oder das Bild anwenden.
 

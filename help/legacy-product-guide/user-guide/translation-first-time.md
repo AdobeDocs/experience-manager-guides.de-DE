@@ -5,9 +5,15 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+TQID: https://experienceleague.adobe.com/SwYb9OfbAPrK0iSbyfvAAJdEQG0ks5Ig871KBMLu2Fc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd456af4-cb12-4a34-8cc4-b74adf885626
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: 1315
 ht-degree: 2%
 
 ---
@@ -50,7 +56,7 @@ Führen Sie die folgenden Schritte aus, um den Service für menschliche oder mas
 
    >[!NOTE]
    >
-   > Siehe [Konfigurieren des Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=de) in der Dokumentation zu AEM für Details zur Integration mit Übersetzungsdiensten von Drittanbietern.
+   > Siehe [Konfigurieren des Translation Integration Framework](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in der Dokumentation zu AEM für Details zur Integration mit Übersetzungsdiensten von Drittanbietern.
 
 1. Klicken Sie auf **Speichern und schließen** um die aktualisierten Ordnereigenschaften zu speichern.
 
@@ -141,4 +147,4 @@ Nach Abschluss der Übersetzung ändert sich der Status des Übersetzungsauftrag
 >
 > Wenn Sie die Übersetzung für ein oder mehrere Themen in einem Übersetzungsauftrag ablehnen, wird der **In Bearbeitung** Übersetzungsstatus aller abgelehnten Themen auf ihren ursprünglichen Status zurückgesetzt. Der Status der referenzierten Themen wird entsprechend dem aktuellen Übersetzungsstatus überprüft und zurückgesetzt. Außerdem werden die im Zielprojekt erstellten Übersetzungsdateien nicht gelöscht, selbst wenn die Übersetzung dafür abgelehnt wird.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte übersetzen](translation.md)
+**Übergeordnetes Thema:**[ Inhalte übersetzen](translation.md)
