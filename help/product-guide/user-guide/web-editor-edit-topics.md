@@ -5,17 +5,11 @@ exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
 source-wordcount: 1409
 ht-degree: 0%
@@ -44,7 +38,7 @@ Der Editor verfügt über eine Reihe von Bearbeitungsfunktionen, mit denen Sie m
 
    ![Menü „Schnelleinfügung“](./images/quick-insert-menu-in-editor.png){width="650"}
 
-   Suchen Sie nach einem neuen Element oder wählen Sie über das Menü „Schnelleinfügung“ eines Ihrer Favoriten aus und fügen Sie es dann an der aktuellen Cursorposition ein. Zu den Favoriten gehören die am häufigsten verwendeten Elemente, es werden nur die für die aktuelle Cursorposition gültigen Elemente angezeigt. Sie können diese Funktion aktivieren oder deaktivieren und die Favoriten für das Einfügen über das Menü „Schnelleinfügung“ konfigurieren, das in den [Editor-Einstellungen“ verfügbar &#x200B;](./config-editor-settings.md).
+   Suchen Sie nach einem neuen Element oder wählen Sie über das Menü „Schnelleinfügung“ eines Ihrer Favoriten aus und fügen Sie es dann an der aktuellen Cursorposition ein. Zu den Favoriten gehören die am häufigsten verwendeten Elemente, es werden nur die für die aktuelle Cursorposition gültigen Elemente angezeigt. Sie können diese Funktion aktivieren oder deaktivieren und die Favoriten für das Einfügen über das Menü „Schnelleinfügung“ konfigurieren, das in den [Editor-Einstellungen“ verfügbar ](./config-editor-settings.md).
 
 
 >[!TAB Alter Editor]
@@ -92,7 +86,7 @@ Den ausgewählten Inhalt fett, kursiv und den ausgewählten Inhalt unterstreiche
 - Den Inhalt mit einem gültigen Element umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element einzuschließen:
 
    - Wählen Sie den Inhalt in einem Element aus.
-   - Wählen Sie ![&#x200B; oben in der Symbolleiste das Symbol &#x200B;](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
+   - Wählen Sie ![ oben in der Symbolleiste das Symbol ](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
 
      >[!NOTE]
      >
@@ -191,4 +185,4 @@ Sie können die Funktion zum Suchen der Datei mit der Option **Dateien immer im 
 >
 >Ab Version 2025.11.0 wird die Einstellung **Dateien im Repository immer finden** in **Dateien immer im Explorer suchen** umbenannt. Bei On-Premise-Setups ist sie weiterhin verfügbar, da sie bis Version 5.1 von Experience Manager Guides immer Dateien im Repository finden.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Editor](web-editor.md)

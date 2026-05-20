@@ -3,9 +3,9 @@ title: Editor-Einstellungen
 description: Erfahren Sie, wie Sie Editor-Einstellungen in AEM Guides konfigurieren.
 feature: Web Editor
 role: User
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Je nach Ihren Voreinstellungen können Sie die folgenden Optionen aktivieren ode
 
   Sie können nach Elementen suchen und diese zu Ihren Favoriten hinzufügen, zuvor hinzugefügte Elemente entfernen und sie mit einfachem Drag-and-Drop neu anordnen. Zu den Favoriten gehören die am häufigsten verwendeten Elemente. Die hier festgelegte Reihenfolge wird beim Zugriff über den Editor im Menü „Schnelleinfügung“ angezeigt.
 
+  Im Folgenden finden Sie ein kurzes Video zur Verwendung des Menüs Quick Insert im neuen Editor.
 
+  >[!VIDEO](https://video.tv.adobe.com/v/3491343)
 
 
