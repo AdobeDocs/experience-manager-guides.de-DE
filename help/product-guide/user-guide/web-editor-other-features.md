@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
 workflow-type: tm+mt
-source-wordcount: 4271
+source-wordcount: 4286
 ht-degree: 0%
 
 ---
@@ -181,9 +181,11 @@ Der Editor bietet ein Dialogfeld zum Durchsuchen von smarten Dateien. Der Editor
 
 ## Arbeiten mit Tabellen im neuen Editor
 
-Mit dem neuen Editor können Sie mithilfe verschiedener kontextueller Aktionen Tabellen direkt in Ihren Inhalten erstellen, formatieren und organisieren.
+Mit dem neuen Editor können Sie mithilfe verschiedener kontextueller Aktionen Tabellen direkt in Ihren Inhalten erstellen, formatieren und organisieren. Im Folgenden finden Sie ein kurzes Video zur Arbeit mit den verschiedenen Tabellenbearbeitungsfunktionen im neuen Editor.
 
-Dieser Abschnitt führt Sie durch die verschiedenen Funktionen zum Erstellen von Tabellen, die im neuen Editor verfügbar sind.
+>[!VIDEO](https://video.tv.adobe.com/v/3491344)
+
+Die folgenden Tabellenbearbeitungsfunktionen sind im neuen Editor verfügbar:
 
 **Ändern der Tabelle über das Kontextmenü**
 

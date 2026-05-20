@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: c3bab106d58565e70e9cd1a5974dd5580f2e09e6
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: 686
 ht-degree: 0%
 
 ---
@@ -131,6 +131,10 @@ Diese APIs eignen sich ideal für:
 - Erstellen benutzerdefinierter Programme und Erweiterungen
 
 Ausführliche Informationen zur API-Nutzung, zu Parametern und Beispielanfragen finden Sie in den entsprechenden Themen im Abschnitt **API-Referenz** der Dokumentation zu Experience Manager Guides.
+
+>[!NOTE]
+>
+> Informationen zu den öffentlich verfügbaren REST **APIs finden Sie auch in der** Swagger-Dokumentation“ unter `https://<aem-author-url>/libs/fmdita/clientlibs/xmleditor/page.html`. Derzeit sind in der Swagger-Dokumentation nur APIs verfügbar, die sich auf Assets, Baseline und Reporting beziehen.
 
 ## Zusätzliche Ressourcen
 
