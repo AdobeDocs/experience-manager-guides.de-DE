@@ -50,7 +50,7 @@ In dieser Sitzung haben wir Folgendes behandelt:
 
 ### Dokumentation
 
-- [Werkzeug zum Kopieren von Inhalten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
+- [Werkzeug zum Kopieren von Inhalten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
 - [Verwenden von Package Manager zur Inhaltsübertragung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager)
 - [Migrieren von Inhalten von Nicht-UUID zu UUID](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: UUID-Inhalte von On-Premise/AMS in die Cloud verschieben](../../cs-install-guide/migrate-on-premise-content-cloud.md)

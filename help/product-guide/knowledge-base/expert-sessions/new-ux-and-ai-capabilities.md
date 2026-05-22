@@ -57,9 +57,9 @@ In dieser Sitzung haben wir Folgendes behandelt:
 
 - [Neues Startseiten-Erlebnis](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [KI-Funktionen in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [KI-Funktionen in AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Konfigurieren des KI-Assistenten](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Konfigurieren des KI-Assistenten](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
