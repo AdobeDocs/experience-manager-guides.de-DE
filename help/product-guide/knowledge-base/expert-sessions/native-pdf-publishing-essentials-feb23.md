@@ -57,7 +57,7 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 
 ## Verwandte Ressourcen
 
-- **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Funktionsvideos** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=de)
 
 - **Benutzerhandbuch** - [Native PDF-Veröffentlichung](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
 

@@ -52,7 +52,7 @@ In dieser Sitzung erfahren Sie mehr über Folgendes:
 ## Verwandte Ressourcen
 
 
-- [Veröffentlichung der AEM-Site-Ausgabe](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
+- [Veröffentlichung der AEM-Site-Ausgabe](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
 - [KB Output Publishing](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 

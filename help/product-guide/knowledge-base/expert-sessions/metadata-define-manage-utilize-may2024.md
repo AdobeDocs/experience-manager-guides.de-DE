@@ -58,7 +58,7 @@ In dieser Sitzung haben Sie Folgendes gelernt:
 - [Metadatenschemata](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
 - [Metadatenprofile](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
 - [Verwalten von Metadaten in DITA-Assets](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
-- [Extrahieren von DITA-Metadaten als Metadaten](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
+- [Extrahieren von DITA-Metadaten als Metadaten](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
 - [Verwenden von Metadaten in der DITA-OT-Ausgabe](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
 - [Verwenden von Metadaten in nativem PDF](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 

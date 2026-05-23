@@ -26,7 +26,7 @@ AEM Guides ist ein Plug-in, das auf Adobe Experience Manager installiert wird. F
 
 - [Grundlegende AEM-Konzepte](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [Empfohlene AEM-Bereitstellungen](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [Empfohlene AEM-Bereitstellungen](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]

@@ -46,7 +46,7 @@ Mit [!DNL Experience Manager Guides] Lösung können Unternehmen Endbenutzern na
 
 ## Neue Funktionen
 
-* **[[!DNL Experience Manager Guides] Erste Schritte - Kurse](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
+* **[[!DNL Experience Manager Guides] Erste Schritte - Kurse](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=de){target="blank"}**
 
   _Erfahren Sie, wie Sie mit [!DNL Adobe Experience Manager Guides] Inhalte erstellen, organisieren, verfassen und veröffentlichen können._
 
