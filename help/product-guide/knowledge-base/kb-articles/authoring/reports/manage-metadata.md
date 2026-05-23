@@ -63,7 +63,7 @@ Sie können auch vorhandene Tags entfernen, die in ausgewählten Dateien häufig
 
 ### Liste in manage->metadata ist leer oder unvollständig
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Upgrade-Anweisungen (Inhalt indizieren)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Upgrade-Anweisungen (Inhalt indizieren)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=de#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Benutzerdefinierte Metadaten werden nicht in der Liste angezeigt
 
