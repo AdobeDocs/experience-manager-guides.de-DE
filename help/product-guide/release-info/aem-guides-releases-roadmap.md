@@ -12,7 +12,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2899fd2e20d62739adff67397b0ecf5a82cbff3f
+source-git-commit: 71ecdc269621cec04d03161e1a14018ce9e3fe86
 workflow-type: tm+mt
 source-wordcount: 790
 ht-degree: 38%
@@ -71,7 +71,6 @@ Folgende Produktaktualisierungen in Bezug auf neue Funktionen, Verbesserungen un
 
 | Freigabe | Ereignis | Zeitplan | Neue Funktionen | Upgrade-Anweisungen | Status |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.2.0 | Freigabe | Zweite Maiwoche 2026 | – | – | Ziel |
 | Adobe Experience Manager Guides 5.3.0 | Freigabe | Zweite Woche im Oktober 2026 | – | – | Ziel |
 
 
@@ -79,6 +78,7 @@ Folgende Produktaktualisierungen in Bezug auf neue Funktionen, Verbesserungen un
 
 | Freigabe | Ereignis | Zeitplan | Neue Funktionen | Upgrade-Anweisungen | Status |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 5.2.0 | Freigabe | &#x200B;29. Mai 2026 | [hier](whats-new-5-2-0.md) | [hier](upgrade-instructions-5-2-0.md) | Freigegeben |
 | Adobe Experience Manager Guides 5.1.0 | Service Pack 4 | &#x200B;1. April 2026 | – | [hier](upgrade-instructions-5-1-0-sp4.md) | Freigegeben |
 | Adobe Experience Manager Guides 5.0.0 | Service Pack 4 | &#x200B;1. April 2026 | – | [hier](upgrade-instructions-5-0-0-sp4.md) | Freigegeben |
 | Adobe Experience Manager Guides 5.0.0 | Service Pack 3 | &#x200B;2. Februar 2026 | – | [hier](upgrade-instructions-5-0-0-sp3.md) | Freigegeben |
