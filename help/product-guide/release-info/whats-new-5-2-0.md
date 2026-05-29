@@ -2,7 +2,7 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 5.2.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 5.2.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
 workflow-type: tm+mt
 source-wordcount: '4132'
 ht-degree: 0%
@@ -94,17 +94,17 @@ Der neue Editor verbessert das Erlebnis bei der Arbeit mit großen und komplexen
 
 Das Repository, auf das jetzt direkt über die Startseite zugegriffen werden kann, dient als zentralisierter Bereich für eine verbesserte Auffindbarkeit von Ordnern und Dateien. Es bietet einen speziellen **Ordner-Navigationsbereich** und eine anpassbare **Tabellenansicht des Repositorys**. Das überarbeitete Such- und Filtererlebnis erleichtert das Suchen und Auffinden von Dateien erheblich. Weitere Informationen finden Sie unter [Kennenlernen der Repository-Oberfläche](../user-guide/home-page-repository-view.md).
 
-![](assets/repository-view-home.png){align="left"}
+![](assets/repository-view-home.png)
 
 Im -Editor ist das Erlebnis Suchen und Filtern nach Dateien jetzt mit der Startseite konsistent. Ein neues [Suchfeld](../user-guide/search-panel-explorer.md), das sich unten in der Editor-Benutzeroberfläche befindet, wird eingeführt, um Suchergebnisse anzuzeigen. Darüber hinaus wird das Repository jetzt im Editor in **Explorer** umbenannt, sodass Sie Ordner und Dateien wie zuvor durchsuchen können.
 
-![](assets/search-panel-explorer.png){align="left"}
+![](assets/search-panel-explorer.png)
 
 ### Unterstützung für den Dokumentstatusfilter
 
 Sie können Ihre Repository-Suchergebnisse auch nach dem aktuellen Dokumentstatus der Dateien filtern. Mit dem Filter Dokumentstatus können Sie Ihre Suche mithilfe der verfügbaren Filterwerte eingrenzen, die in der `ui_config.json` in Ihrem Ordnerprofil definiert sind.
 
-![](assets/document-state-filter-repository.png){align="left"}
+![](assets/document-state-filter-repository.png)
 
 Die für den Status des Dokuments verfügbaren Standardfilterwerte sind: Entwurf, Bearbeiten, In-Überprüfung, Genehmigt, Überprüft und Fertig.
 
@@ -118,7 +118,7 @@ Die für den Status des Dokuments verfügbaren Standardfilterwerte sind: Entwurf
 
 Alle Multimedia-Dateien werden mit Miniaturansichtssymbolen angezeigt, wodurch die visuelle Identifizierung und Suche von Bildern im **Repository)** wird. Diese Verbesserung gilt auch für die Suche nach Dateien im **Suchbereich**, sodass Sie Multimedia-Assets schnell von anderen Dateitypen unterscheiden können.
 
-![](assets/thumbnail-repository.png){align="left"}
+![](assets/thumbnail-repository.png)
 
 ## Einführung in den Source-Suchmodus in Suchen und Ersetzen
 
@@ -126,7 +126,7 @@ Experience Manager Guides hat verschiedene Verbesserungen an der Funktion Suchen
 
 Wenn dieser Modus aktiviert ist, können Sie eine globale Suche nicht nur nach dem sichtbaren Inhalt durchführen, sondern auch nach dem zugrunde liegenden Quellinhalt (XML-Struktur, einschließlich Elementen, Tags und Attributwerten) für die gesuchte Zeichenfolge. Dieser Modus stellt eine umfassende Suche über den gesamten Inhalt hinweg sicher.
 
-![](assets/map-find-replace-with-source-mode.png){width="650" align="left"}
+![](assets/map-find-replace-with-source-mode.png){width="650"}
 
 In diesem Modus können Sie Filter anwenden, um Ihre Suche nach Dateityp, Dokumentstatus, Datum der letzten Änderung und mehr einzugrenzen. Sie haben außerdem die Möglichkeit, nach Durchführung des Vorgangs „Alle ersetzen“ einen detaillierten CSV-Bericht herunterzuladen, der einen Schnappschuss aller durchgeführten Ersetzungsaktionen zusammen mit ihrem Erfolgs- und Fehlerstatus enthält.
 
@@ -142,7 +142,7 @@ Diese Version bietet eine übersichtlichere, intuitivere Benutzeroberfläche zum
 
 Beim Durchsuchen von Dateien bietet das neu gestaltete Dialogfeld **Datei auswählen** jetzt ein Layout mit Registerkarten mit zwei Ansichten - **Repository** zum Navigieren im gesamten Inhalts-Repository in einem tabellarischen Format und **Sammlungen** für den schnellen Zugriff auf häufig verwendete Themen, Karten und Bilder.
 
-![](assets/select-file.png){width="650" align="left"}
+![](assets/select-file.png){width="650"}
 
 Zu den wichtigsten Verbesserungen gehören:
 
@@ -154,7 +154,7 @@ Zu den wichtigsten Verbesserungen gehören:
 
 Das **Pfad auswählen**-Dialogfeld bietet außerdem eine verbesserte baumstrukturierte Ansicht für die Ordnernavigation, die eine übersichtlichere und effizientere Methode zur Auswahl von Pfaden im gesamten Inhalts-Repository gewährleistet.
 
-![](assets/select-path-dialog-new.png){width="350" align="left"}
+![](assets/select-path-dialog-new.png){width="350"}
 
 Weitere Informationen finden Sie [&#x200B; Abschnitt „Durchsuchen von Dateien und Ordnern in &#x200B;](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides)&quot; unter _Weitere Funktionen im Editor_.
 
@@ -178,15 +178,15 @@ Die folgenden Verbesserungen der Schematron-Benutzeroberfläche wurden vorgenomm
 
 - Im Validierungsfenster wird eine Meldung mit leerem Status angezeigt, wenn keine Schematron-Datei hinzugefügt wird, was für eine bessere Klarheit und Richtung bei den nächsten Schritten sorgt.
 
-  ![](assets/schematron-panel.png){width="350" align="left"}
+  ![](assets/schematron-panel.png){width="350"}
 
 - Wenn mehrere Schematron-Dateien hinzugefügt werden, werden sie unter einem konsolidierten Akkordeon organisiert, was eine bessere Sichtbarkeit der konfigurierten Schematron-Dateien bietet.
 
-  ![](assets/schematron-panel-error.png){width="350" align="left"}
+  ![](assets/schematron-panel-error.png){width="350"}
 
 - Basierend auf dem in der Schematron-Datei definierten Rollenattribut werden die Validierungsergebnisse jetzt wie folgt kategorisiert: `Fatal`, `Error`, `Warn` oder `Info`. Jede Kategorie enthält eine sichtbare Anzahl sowie eine kontextuelle QuickInfo für eine klarere Interpretation.
 
-  ![](assets/schematron-validation-errors.png){width="350" align="left"}
+  ![](assets/schematron-validation-errors.png){width="350"}
 
 Weitere Informationen zur Verwendung von Schematrondateien in Experience Manager Guides finden Sie unter [Unterstützung für Schematrondateien](../user-guide/support-schematron-file.md).
 
@@ -194,7 +194,7 @@ Weitere Informationen zur Verwendung von Schematrondateien in Experience Manager
 
 Im rechten Bereich unter **Dateieigenschaften** *ist jetzt ein neuer Abschnitt*&#x200B;Übersetzungen“ verfügbar. Dieser Abschnitt bietet direkten Zugriff auf alle verfügbaren Sprachkopien für das aktuell geöffnete Asset (Karte, Thema, Bild usw.). Sie müssen nicht mehr zur Assets-Benutzeroberfläche navigieren, um diese Sprachkopien anzuzeigen oder darauf zuzugreifen.
 
-![](assets/translations-right-panel.png){width="350" align="left"}
+![](assets/translations-right-panel.png){width="350"}
 
 Für jede Sprachkopie können Sie den Mauszeiger über die Datei bewegen, um deren Pfad im Repository zu suchen, oder sie einfach auswählen, um sie im Editor zu öffnen. Neben dem Öffnen von Dateien können Sie auch viele Aktionen über das Menü **Optionen** ausführen. Zu den Aktionen, die Sie ausführen können, gehören Bearbeiten, Vorschau, UUID kopieren, Pfad kopieren, Zu Sammlungen hinzufügen und Eigenschaften.
 
@@ -210,11 +210,11 @@ Einführung der neuen **Aktualisieren**-Funktion für Karten, die bereits im Vor
 
 - Um die gesamte Karte (einschließlich aller Themen) zu aktualisieren **wird oben links im Editor eine neue Schaltfläche** Aktualisieren“ angezeigt.
 
-  ![](assets/refresh-map.png){width="600" align="left"}
+  ![](assets/refresh-map.png){width="600"}
 
 - Um den Inhalt einzelner Themen zu aktualisieren, wird **neue Option** Thema aktualisieren“ im Kontextmenü eingeführt.
 
-  ![](assets/refresh-topic.png){width="600" align="left"}
+  ![](assets/refresh-topic.png){width="600"}
 
 Weitere Informationen finden Sie unter [Funktionen des Zuordnungs-Editors](../user-guide/map-editor-advanced-map-editor.md).
 
@@ -222,7 +222,7 @@ Weitere Informationen finden Sie unter [Funktionen des Zuordnungs-Editors](../us
 
 Sie können jetzt die Wortzahl in einer Zuordnungs- oder Themendatei verfolgen. Das neue Feld **Wortzahl** im rechten Bereich würde die Gesamtzahl der Wörter innerhalb eines Themas (oder einer Karte) anzeigen, wobei Wörter, die durch Leerzeichen getrennt sind, als einzelne Wörter gezählt werden. Es wird jedes Mal automatisch aktualisiert, wenn Sie Änderungen speichern. Bei Querverweisen ist nur der Anzeigetext enthalten, während Schlüssel ausgeschlossen sind.
 
-![](assets/file-properties-new.png){width="350" align="left"}
+![](assets/file-properties-new.png){width="350"}
 
 Weitere Informationen finden Sie unter [Rechtes Bedienfeld im Editor](../user-guide/web-editor-right-panel.md#file-properties).
 
@@ -232,7 +232,7 @@ Experience Manager Guides enthält jetzt die Schaltfläche **Duplizierte IDs** i
 
 Weitere Informationen finden Sie unter [Zusätzliche Funktionen im Editor](../user-guide/web-editor-other-features.md).
 
-![](assets/duplicate-element-IDs.png){width="350" align="left"}
+![](assets/duplicate-element-IDs.png){width="350"}
 
 ### Verbesserungen der Repository- und Berichtsfilter
 
@@ -244,7 +244,7 @@ Sie können jetzt Zitate in allen Journalfeldern wie *Titel*, *Journaltitel*, *A
 
 Weitere Informationen zum Hinzufügen von Zitaten in Experience Manager Guides finden Sie unter [Hinzufügen und Verwalten von Zitaten in &#x200B;](../user-guide/web-editor-apply-citations.md).
 
-![](assets/add-citations.png){width="350" align="left"}
+![](assets/add-citations.png){width="350"}
 
 ### Settings wird jetzt in Workspace Settings umbenannt und kann von der Startseite aus aufgerufen werden
 
@@ -279,7 +279,7 @@ Als Initiator einer Prüfungsaufgabe können Sie jetzt den Status Ihrer Prüfung
 
 Weitere Informationen finden Sie unter [Anfordern einer erneuten Überprüfung oder Schließen einer Prüfungsaufgabe als Autor](../user-guide/review-close-review-task.md).
 
-![](assets/check-review-status-icon.png){width="350" align="left"}
+![](assets/check-review-status-icon.png){width="350"}
 
 ### Zuweisung an Prüfer basierend auf aktiver Projektauswahl
 
@@ -298,7 +298,7 @@ Weitere Informationen finden Sie unter [Themen zur Überprüfung senden](../user
 
 Sie können neue Themen zu einer laufenden Prüfungsaufgabe hinzufügen (wenn sie nicht zuvor zur Überprüfung gesendet wurden) oder Themen aus einer laufenden Prüfungsaufgabe entfernen, ohne den Prüfungs-Workflow zu beeinflussen. Auf der Seite **Aufgabendetails** können Sie einfach Themen auswählen oder die Auswahl aufheben, um die Themenliste zu ändern. Reviewer werden (über AEM und E-Mail) über Änderungen an ihren zugewiesenen Themen durch AEM- und E-Mail-Benachrichtigungen benachrichtigt. Weitere Informationen finden Sie unter [Themen zur Überprüfung senden](../user-guide/review-send-topics-for-review.md).
 
-![](assets/modify-review-topics.png){width="650" align="left"}
+![](assets/modify-review-topics.png){width="650"}
 
 ## Verbesserungen an der Übersetzung
 
@@ -312,7 +312,7 @@ Wenn eine Datei nicht versionierte Änderungen enthält (nicht als neue Version 
 
 Weitere Informationen finden Sie unter [Übersetzen von Dokumenten in der Zuordnungskonsole](../user-guide/translate-documents-web-editor.md).
 
-![](assets/unversioned-changes-translation.png){width="650" align="left"}
+![](assets/unversioned-changes-translation.png){width="650"}
 
 
 ## Verbesserungen beim Asset-Management
