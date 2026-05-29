@@ -20,9 +20,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 2716
+source-wordcount: 2649
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ Um Metadaten zu aktualisieren, führen Sie die folgenden Schritte aus:
 
 Mit dieser Funktion können Sie je nach Bedarf benutzerdefinierte Metadatenspalten hinzufügen, die dann in den Metadatenberichten angezeigt werden. Darüber hinaus bietet es eine größere Flexibilität beim Reporting von Metadaten. Um eine neue benutzerdefinierte Metadatenspalte hinzuzufügen, führen Sie die folgenden Schritte aus:
 
-1. Um eine benutzerdefinierte Metadatenspalte hinzuzufügen, wählen Sie **Workspace** (angezeigt als **Einstellungen** für **On-Premise**) aus den drei Punkten oben rechts auf der Metadatenseite.
+1. Um eine benutzerdefinierte Metadatenspalte hinzuzufügen, wählen Sie **Workspace-Einstellungen** (angezeigt als **Einstellungen** für **On-Premise-Einrichtung vor Version 5.2**) aus den drei Punkten oben rechts auf der Metadatenseite.
 
    ![](images/custom-metadata-setting.png){width="600"}
 

@@ -16,9 +16,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -77,12 +77,12 @@ Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelli
    - **Cloud Services**: Wenn Sie Cloud Services verwenden, gelangen Sie durch Auswahl der Option **Assets** zur Seite &quot;AEM-Navigation“.
 
    - **On-Premise-Software**: Wenn Sie Adobe Experience Manager Guides (4.2.1 und höher) verwenden, gelangen Sie durch Auswahl der Option **Assets** zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche.
-- **Workspace-Einstellungen**: Leitet Sie zum Dialogfeld &quot;Workspace-Einstellungen“. Weitere Informationen finden Sie unter [Konfigurieren von Workspace-](../cs-install-guide/workspace-settings.md).
+- **Workspace-Einstellungen**: Leitet Sie zum Dialogfeld &quot;Workspace-Einstellungen“. Weitere Informationen finden Sie unter [Konfigurieren von Workspace-](../install-conf-guide/workspace-settings.md).
 
 >[!NOTE]
 >
-> Wenn Sie die Adobe Experience Manager Guides in einem On-Premise-Setup verwenden, wird die Option Workspace-Einstellungen weiterhin als **Einstellungen** im Menü Mehr Aktionen angezeigt.
+>Wenn Sie Adobe Experience Manager Guides in einem On-Premise-Setup vor Version 5.2 verwenden, wird die Option Workspace-Einstellungen weiterhin als **Einstellungen** im Menü Mehr Aktionen angezeigt.
 
-- **Editor-Einstellungen**: Leitet Sie zum Dialogfeld Editor-Einstellungen, in dem Sie das Editor-Verhalten auf individueller Autorenebene anpassen können. Damit können Sie die Sichtbarkeit und das Verhalten von Tags, Kommentaren und anderen Einstellungen auf Editor-Ebene während des Authorings steuern. Weitere Informationen finden Sie unter [Editor-Einstellungen](./config-editor-settings.md).
+- **Editor-Einstellungen**: Leitet Sie zum Dialogfeld Editor-Einstellungen, in dem Sie das Editor-Verhalten auf individueller Autorenebene anpassen können. Damit können Sie die Sichtbarkeit und das Verhalten von Tags, Kommentaren und anderen Einstellungen auf Editor-Ebene während des Authorings steuern. Weitere Informationen finden Sie unter [Editor-Einstellungen](../install-conf-guide/workspace-settings.md).
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)

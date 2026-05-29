@@ -16,7 +16,7 @@ subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
 source-wordcount: 139
 ht-degree: 0%
@@ -25,6 +25,6 @@ ht-degree: 0%
 
 # Konfigurieren gültiger Dateinamen für die AEM Site-Ausgabe {#id214GK0X0KXA}
 
-Ähnlich wie bei der Liste der gültigen Dateinamenzeichen, die für DITA-Themen zulässig sind, können Sie auch eine Liste gültiger Dateinamenzeichen für die AEM Site-Ausgabe konfigurieren. Zu den bekannten Zeichen, die in einer URL nicht zulässig sind, zählen: ```'<>`@$```. Diese Zeichen sind so konfiguriert, dass sie automatisch in einen Unterstrich „_“ konvertiert werden, wenn sie beim Generieren von Ausgabedateinamen der AEM-Site gefunden werden. Die Konfiguration, mit der Sie gültige Zeichen in der AEM-Site-Ausgabe festlegen können, ist im `com.adobe.fmdita.common.SanitizeNodeNameImpl`-Bundle vorhanden. **Legen Sie die Einstellung Nicht zulässiger Zeichensatz für die Veröffentlichung in AEM Sites fest** um Zeichen einzuschließen, die Sie in den Ausgabedateinamen der AEM-Site durch einen Unterstrich ersetzen möchten.
+Ähnlich wie bei der Liste der gültigen Dateinamenzeichen, die für DITA-Themen zulässig sind, können Sie auch eine Liste gültiger Dateinamenzeichen für die AEM Site-Ausgabe konfigurieren. Zu den bekannten Zeichen, die in einer URL nicht zulässig sind, zählen: `<>` `@$`. Diese Zeichen sind so konfiguriert, dass sie automatisch in einen Unterstrich „_“ konvertiert werden, wenn sie beim Generieren von Ausgabedateinamen der AEM-Site gefunden werden. Die Konfiguration, mit der Sie gültige Zeichen in der AEM-Site-Ausgabe festlegen können, ist im `com.adobe.fmdita.common.SanitizeNodeNameImpl`-Bundle vorhanden. **Legen Sie die Einstellung Nicht zulässiger Zeichensatz für die Veröffentlichung in AEM Sites fest** um Zeichen einzuschließen, die Sie in den Ausgabedateinamen der AEM-Site durch einen Unterstrich ersetzen möchten.
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Dateinamen konfigurieren](conf-file-names.md)

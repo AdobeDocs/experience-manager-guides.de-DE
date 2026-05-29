@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 4286
+source-wordcount: 4232
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Um eine neue Version der Datei zu erstellen, wählen Sie **Als neue Version spei
 
   >[!NOTE]
   >
-  >Ab Version 2025.11.0 wird **Repository** in &quot;**&quot;**. Bei On-Premise-Setups ist es bis Version 5.1 von Experience Manager Guides weiterhin als Repository verfügbar.
+  >Ab Version 2025.11.0 für Cloud Service und ab Version 5.2 für On-Premise wird **Repository** in **Explorer** umbenannt. Bei On-Premise-Setups vor Version 5.2 ist sie weiterhin als Repository verfügbar.
 
 ***Hinzufügen zu***: Sie können aus den folgenden Optionen auswählen:
 

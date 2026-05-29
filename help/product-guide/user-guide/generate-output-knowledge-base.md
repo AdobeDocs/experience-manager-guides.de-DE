@@ -18,9 +18,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1333
+source-wordcount: 1343
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ Die folgenden Konfigurationsoptionen werden für „ServiceNow **als** angezeigt
 
 | ServiceNow-Optionen | Beschreibung |
 | --- | --- |
-| Profil veröffentlichen | Verwenden Sie das Dropdown, um aus den von Ihrem Administrator konfigurierten ServiceNow-Verbindungsprofilen auszuwählen. Weitere Informationen dazu, wie Ihr Administrator ein Veröffentlichungsprofil erstellen kann, finden Sie in der Beschreibung der Funktion **Workspace** (angezeigt als **Einstellungen** für **On-Premise**) im Abschnitt [Linkes Bedienfeld](./web-editor-features.md#id2051EA0M0HS). |
+| Profil veröffentlichen | Verwenden Sie das Dropdown, um aus den von Ihrem Administrator konfigurierten ServiceNow-Verbindungsprofilen auszuwählen. Weitere Informationen dazu, wie Ihr Administrator ein Veröffentlichungsprofil erstellen kann, finden Sie in der Beschreibung der Funktion **Workspace** (angezeigt als **Einstellungen** für **On-Premise-Einrichtung vor Version 5.**) im Abschnitt [Linkes Bedienfeld](./web-editor-features.md#id2051EA0M0HS). |
 | Knowledge Base | Wählen Sie in diesem Feld die erforderliche ServiceNow-Wissensdatenbank aus. Sie können Wissensdatenbanken auf der ServiceNow-Website so konfigurieren, dass Inhalte basierend auf den Berechtigungen gespeichert werden. Die Artikel aus dieser DITA-Map können in diesen Wissensdatenbanken veröffentlicht werden. |
 | Kategorie und Unterkategorie | Kategorien sind wie hierarchische Strukturen, mit denen ServiceNow-Wissensdatenbankartikel gesucht und klassifiziert werden. Fügen Sie eine Kategorie und eine Unterkategorie hinzu, um die Themen und Unterthemen des Inhaltsverzeichnisses in dieser Kategorie und Unterkategorie auf der ServiceNow-Website zu veröffentlichen. |
 
@@ -110,7 +110,7 @@ Die folgenden Konfigurationsoptionen werden für **Salesforce** als Ziel angezei
 
 | Salesforce-Optionen | Beschreibung |
 | --- | --- |
-| Profil veröffentlichen | Verwenden Sie die Dropdown-Liste, um aus den von Ihrem Administrator konfigurierten Salesforce-Verbindungsprofilen auszuwählen. Weitere Informationen dazu, wie Ihr Administrator ein Veröffentlichungsprofil erstellen kann, finden Sie unter **Workspace-** Einstellungen **(** für **On-Premise**) in der [Tabulatorleiste](./web-editor-tab-bar.md). |
+| Profil veröffentlichen | Verwenden Sie die Dropdown-Liste, um aus den von Ihrem Administrator konfigurierten Salesforce-Verbindungsprofilen auszuwählen. Weitere Informationen dazu, wie Ihr Administrator ein Veröffentlichungsprofil erstellen kann, finden Sie in der **Workspace-** Beschreibung (angezeigt als **Einstellungen** für **On-Premise-Setup vor Version 5.**) in [Tabulatorleiste](./web-editor-tab-bar.md). |
 | Datensatztyp | Verwenden Sie das Dropdown, um einen der in Salesforce eingerichteten Datensatztypen gemäß den Sichtbarkeitseinstellungen basierend auf Ihrem Benutzerprofil auszuwählen. Salesforce-Datensatztypen sind eine Möglichkeit, viele Datensätze eines Typs für dieses Objekt zu gruppieren. Sie definieren, wie Ihre Veröffentlichung organisiert ist. Sie können beispielsweise den Datensatztyp „Häufig gestellte Fragen“ auswählen und entsprechend dem Layout und den Feldern der häufig gestellten Fragen veröffentlichen. |
 | Feld für Artikelinhalt | Sie können für jede Datensatztypvorlage unterschiedliche Felder und ein eindeutiges Layout verwenden. Verwenden Sie diese Felder, um je nach Artikeltyp spezifische Informationen einzugeben. Sie können beispielsweise den Titel, die Antwort und die Gleichung eines FAQ-Artikels anzeigen. |
 | Kategorien | Wählen Sie eine Kategorie aus dem Dropdown-Menü aus, um die Themen des Inhaltsverzeichnisses in dieser Kategorie auf der Salesforce-Site zu veröffentlichen. |

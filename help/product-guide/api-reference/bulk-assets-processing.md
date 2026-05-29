@@ -11,14 +11,18 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 591
-ht-degree: 12%
+source-wordcount: 639
+ht-degree: 11%
 
 ---
 
 # API zum Starten der Massenverarbeitung für Assets
+
+>[!NOTE]
+>
+> Die neuesten REST-API-Endpunktdefinitionen und zugehörige Details finden Sie in der Swagger-Dokumentation unter `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` (ersetzen Sie `<aem-author-url>` durch Ihre AEM-Server-URL). Da dieser Artikel im Oktober 2026 archiviert werden soll, empfehlen wir, künftig die Swagger-Dokumentation zu verwenden, um die aktuellsten API-Informationen zu erhalten.
 
 Eine POST-Methode, die die Massenverarbeitung von Assets für einen angegebenen Pfad initiiert. Diese API unterstützt sowohl die JCR-basierte als auch die datenbankbasierte Asset-Verarbeitung. Dadurch wird ein asynchroner Auftrag gestartet, der alle Assets unter dem angegebenen Pfad und dessen Unterpfaden verarbeitet. Nach der Initiierung gibt die API eine eindeutige Verarbeitungs-ID zurück, mit der der Auftragsstatus verfolgt werden kann.
 
@@ -245,7 +249,7 @@ Eine POST-API, die eine zuvor abgebrochene oder fehlgeschlagene Massen-Asset-Ver
 
 ## Vorgangsverlauf anzeigen
 
-Eine GET-API, die die letzten N Ausführungen der Asset-Nachbearbeitung zurückgibt.
+Eine GET-API, die die letzten „N“ Ausführungen der Asset-Nachbearbeitung zurückgibt.
 
 **URL-Anforderung**
 

@@ -4,9 +4,9 @@ description: Lernen Sie die Startseite der Adobe Experience Manager Guides kenne
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ In der Navigationsleiste verfügbare Funktionen werden wie folgt erläutert:
 
      >[!NOTE]
      >
-     > Auf der Startseite ist die Option Workspace-Einstellungen nur für das Einrichten von Cloud Services verfügbar. Bei einem On-Premise-Setup ist die Option Mehr Aktionen auf der Startseite nicht verfügbar. Sie können jedoch weiterhin über die Editor-Oberfläche und die Zuordnungskonsole auf die relevanten Einstellungen zugreifen, indem Sie zu Weitere Optionen > Einstellungen navigieren.
+     > Auf der Startseite ist die Option Workspace-Einstellungen für Cloud Services und für On-Premise-Konfigurationen in Version 5.2 und höher verfügbar. Bei einem On-Premise-Setup vor Version 5.2 ist die Option Mehr Aktionen auf der Startseite nicht verfügbar. Sie können jedoch weiterhin über die Editor-Oberfläche und die Zuordnungskonsole auf die relevanten Einstellungen zugreifen, indem Sie zu Weitere Optionen > Einstellungen navigieren.
 
 - **Ansicht erweitern**: Ermöglicht das Erweitern der Seitenansicht mithilfe des Symbols **Erweitern**. In dieser Ansicht ist die Kopfzeilenleiste ausgeblendet, was den Inhaltsbereich maximiert. Um zur Standardansicht zurückzukehren, verwenden Sie das Symbol **Erweiterte Ansicht beenden**.
 
@@ -68,7 +68,7 @@ In der Navigationsleiste verfügbare Funktionen werden wie folgt erläutert:
 
 >[!NOTE]
 >
-> Das Repository ist im linken Bedienfeld nur für die Einrichtung von Cloud Service ab Version 2025.11.0 verfügbar. Bei der On-Premise-Einrichtung erfolgt der Zugriff auf das Repository weiterhin über die Editor-Oberfläche.
+> Das Repository ist im linken Bereich ab Version 2025.11.0 für das Cloud Service-Setup und ab Version 5.2 für das On-Premise-Setup verfügbar. Bei On-Premise-Setups vor Version 5.2 erfolgt der Zugriff auf das Repository weiterhin über die Editor-Oberfläche.
 
 Das linke Bedienfeld bietet schnellen Zugriff auf die Funktionen Übersicht, Repository, Zuordnen von Sammlungen, Massenveröffentlichung, Veröffentlichungswarteschlange und Benutzereinstellungen. Sie können das Bedienfeld erweitern, indem Sie **Symbol &quot;**&quot; in der linken unteren Ecke der Benutzeroberfläche auswählen. Verwenden Sie nach dem Erweitern das Symbol **Reduzieren**, um das Bedienfeld zu reduzieren.
 
@@ -202,4 +202,4 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Über die Voreins
 
   >[!NOTE]
   >
-  >Ab Version 2025.11.0 wird die Einstellung **Dateien im Repository immer finden** in **Dateien immer im Explorer suchen** umbenannt. Bei On-Premise-Setups ist sie weiterhin verfügbar, da sie bis Version 5.1 von Experience Manager Guides immer Dateien im Repository finden.
+  >Ab Version 2025.11.0 für Cloud Service und ab Version 5.2.0 für On-Premise wird die Einstellung **Dateien immer im Repository** in **Dateien immer im Explorer suchen** umbenannt. Bei On-Premise-Setups vor Version 5.2 ist sie weiterhin verfügbar, da Dateien immer im Repository zu finden sind.

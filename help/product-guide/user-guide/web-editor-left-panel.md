@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 11080
+source-wordcount: 11025
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Sie können auch viele Aktionen über das Menü Optionen ausführen, das für ei
 
 >[!NOTE]
 >
-> Ab Version 2025.11.0 wird **Repository** im Editor veraltet sein und durch **Explorer** für **Cloud Service** ersetzt. Bei **On-Premise**-Setup können Sie Repository bis Version 5.1 von Experience Manager Guides weiterhin über die Editor-Oberfläche anzeigen und verwenden.
+> Ab Version 2025.11.0 von Cloud Service und Version 5.2.0 von On-Premise wird **Repository** durch **Explorer** ersetzt. Bei On-Premise-Installationen vor Version 5.2 können Sie Repository weiterhin über die Editor-Oberfläche anzeigen und verwenden.
 
 Wenn Sie das Repository-Symbol auswählen, erhalten Sie eine Liste der in DAM verfügbaren Dateien und Ordner. Standardmäßig können Sie die Dateien nach Titeln anzeigen. Wenn Sie mit dem Mauszeiger auf eine Datei zeigen, können Sie den Dateititel und den Dateinamen als QuickInfo anzeigen.
 
@@ -493,7 +493,7 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
 
 >[!NOTE]
 >
-> Ab Version 2025.11.0 wird der Begriff „Repository“ im Editor durch &quot;**&quot;** Cloud Service-Einrichtung ersetzt. Bei der On-Premise-Einrichtung wird das Repository im Editor weiterhin angezeigt und aufgerufen.
+> Ab Version 2025.11.0 von Cloud Service und Version 5.2.0 von On-Premise wird **Repository** durch **Explorer** ersetzt. Bei On-Premise-Installationen vor Version 5.2 können Sie Repository weiterhin über die Editor-Oberfläche anzeigen und verwenden.
 
 Explorer bietet die meisten Funktionen, die zuvor im Repository verfügbar waren, einschließlich:
 
@@ -730,7 +730,7 @@ Wenn ein Blockelement über einen eigenen Text verfügt, wird er zusammen mit di
 
 ![](images/outline-view-block-element.png){width="550"}
 
-Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Sie können auch von Ihrem Administrator konfigurierte Anzeigeattribute auf der Registerkarte **Anzeigeattribute** in den **Workspace-** zuweisen (die für **On-Premise** als **Einstellungen** angezeigt wird). Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt.
+Wenn Ihr Administrator ein Profil für Attribute erstellt hat, erhalten Sie diese Attribute zusammen mit den konfigurierten Werten. Sie können auch von Ihrem Administrator konfigurierte Anzeigeattribute auf der Registerkarte **Anzeigeattribute** in den **Workspace-Einstellungen** zuweisen (**Einstellungen** für **On-Premise-Setup vor Version 5.2**). Die für ein Element definierten Attribute werden im Layout- und Gliederungsansicht angezeigt.
 
 
 **Suchfunktion**
@@ -1060,7 +1060,7 @@ Sie können die Werte auch aus der Dropdown-Liste des Attributs in der Source-An
 
 Sie können das Betreffschema auch im Bedienfeld Bedingungen anzeigen und anwenden.
 
-Um das Betreffschema im Bedienfeld Bedingungen anzuzeigen, muss Ihr Systemadministrator die Option **Betreffschema im Bedienfeld Bedingungen anzeigen** auf der Registerkarte Allgemein in **Workspace-Einstellungen** auswählen (**Einstellungen** für **On-Premise**). Weitere Informationen finden Sie in der [Registerkartenleiste](./web-editor-tab-bar.md).
+Um das Betreffschema im Bedienfeld Bedingungen anzuzeigen, muss Ihr Systemadministrator die Option **Betreffschema im Bedienfeld Bedingungen anzeigen** auf der Registerkarte Allgemein in den **Workspace-Einstellungen** auswählen (**Einstellungen** für **On-Premise-Setup vor Version 5.2**). Weitere Informationen finden Sie in der [Registerkartenleiste](./web-editor-tab-bar.md).
 
 Im Bedienfeld Bedingungen wird die flache vertikale Struktur der Objektdefinitionen innerhalb des Themenschemas angezeigt.
 
@@ -1229,7 +1229,7 @@ Um die globale Suche durchzuführen und durch den Source-Modus zu ersetzen, füh
 
    >[!NOTE]
    >
-   >Um die Schaltfläche **Alle ersetzen** zu aktivieren, muss der Administrator des Ordnerprofils oder der Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in **Workspace-Einstellungen** auswählen (**Einstellungen** für **On-Prem**).
+   >Um die Schaltfläche **Alle ersetzen** zu aktivieren, muss der Administrator des Ordnerprofils oder der Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in den **Workspace-Einstellungen** (die **Einstellungen** für **On-Premise-Setup vor Version 5.2** angezeigt wird) auswählen.
 
 1. Sie können auch den Mauszeiger über eine Datei in der Suchergebnisliste bewegen, um das Symbol **Alles in Datei ersetzen** auf der rechten Seite anzuzeigen, mit dem Sie alle Vorkommen des Begriffs in einer Datei ersetzen können.
 
@@ -1303,7 +1303,7 @@ Um die globale Suche und Ersetzung ohne Source-Modus durchzuführen, führen Sie
 
    >[!NOTE]
    >
-   > Um das Symbol **Alle ersetzen** zu aktivieren, muss der Administrator des Ordnerprofils oder der Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in den **Workspace-Einstellungen** auswählen (**Einstellungen** für **On-Prem**). Wenn während des Ersetzungsvorgangs Fehler auftreten, werden diese Dateien aufgrund von XML-Analyseproblemen oder DITA-bezogenen Fehlern übersprungen.
+   > Um das Symbol **Alle ersetzen** zu aktivieren, muss der Administrator des Ordnerprofils oder der Systemadministrator die Option **Alle ersetzen aktivieren** auf der Registerkarte **Allgemein** in den **Workspace-Einstellungen** (die **Einstellungen** für **On-Premise-Setup vor Version 5.2** angezeigt wird) auswählen. Wenn während des Ersetzungsvorgangs Fehler auftreten, werden diese Dateien aufgrund von XML-Analyseproblemen oder DITA-bezogenen Fehlern übersprungen.
 
    ![](images/replace-all.png){width="350"}
 

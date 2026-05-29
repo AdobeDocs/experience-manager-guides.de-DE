@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 8c551c37-2bfd-471b-bb72-514fabbc0bf2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ Die folgenden Registerkarten enthalten Anweisungen zur Konfiguration der DITA-As
 
 1. Suchen Sie nach dem Bundle *com.adobe.fmdita.config.ConfigManager* und wählen Sie es aus.
 
-1. Konfigurieren Sie die `Replicate DITA assets` gemäß Ihren Anforderungen. Standardmäßig ist die Einstellung aktiviert.
+1. Konfigurieren Sie die Einstellung **DITA-Assets replizieren** (`publish.replicate`) gemäß Ihren Anforderungen. Standardmäßig ist die Einstellung aktiviert.
 
 
    ![](assets/dita-assets-replication.png){width="350"}

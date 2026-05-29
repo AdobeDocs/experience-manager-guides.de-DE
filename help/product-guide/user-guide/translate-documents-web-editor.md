@@ -21,9 +21,9 @@ subfeature_v2:
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 2536
+source-wordcount: 2473
 ht-degree: 1%
 
 ---
@@ -188,7 +188,7 @@ Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnereben
 
 Mit Experience Manager Guides können Sie die Bezeichnung der Quelldatei an die Zieldatei übergeben. Auf diese Weise können Sie die Quellversion für die übersetzte Datei leicht identifizieren.
 
-Um die Quellversionsbeschriftung in der Zielkopie hinzuzufügen, muss der Systemadministrator die Option **Quellversionsbeschriftungen in die Zielversion übertragen** auf der Registerkarte **Übersetzung** in **Workspace-** aktivieren (wird **Einstellungen** für **On-Prem**).
+Um die Quellversionsbeschriftung in der Zielkopie hinzuzufügen, muss der Systemadministrator die Option **Quellversionsbeschriftungen an die Zielversion weitergeben** auf der Registerkarte **Übersetzung** in den **Workspace-** aktivieren (wird **Einstellungen** für **On-Premise-Setup vor Version 5.2** angezeigt).
 
 Wenn Sie beispielsweise Quelldateien haben, auf die die Versionsbezeichnung `Release 1.0` angewendet wurde, können Sie auch die Quellbezeichnung \(`Release 1.0`\) an die übersetzte Datei übergeben.
 

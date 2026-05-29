@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die verschiedenen Einstellungen, die in der
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> Bei der On-Premise-Einrichtung wird **Option** Einstellungen“ in der Editor-Registerkartenleiste angezeigt. Im Cloud Service-Setup wurde diese Option in **Workspace-Einstellungen umbenannt**. Alle unter „Editor-Einstellungen **verfügbaren Konfigurationsoptionen** unverändert.
+> Bei On-Premise-Setups vor Version 5.2 wird die **Einstellungen** in der Registerkartenleiste des Editors angezeigt. Für Cloud Service- und On-Premise-Konfigurationen ab Version 5.2 wurde diese Option in **Workspace-Einstellungen&#39;**. Alle unter „Editor-Einstellungen **verfügbaren Konfigurationsoptionen** unverändert.
 > ![Editor-Einstellung für On-Premise](assets/editor-settings-on-prem.png){width="650"}
 
 
