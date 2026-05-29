@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die verschiedenen Einstellungen, die in der
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5083554d5b2a7c3ad65e376e2c3468d790c44c0d
+source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> Bei der On-Premise-Einrichtung wird **Option** Einstellungen“ in der Editor-Registerkartenleiste angezeigt. Im Cloud Service-Setup wurde diese Option in **Workspace-Einstellungen umbenannt**. Alle unter „Editor-Einstellungen **verfügbaren Konfigurationsoptionen** unverändert.
+> Bei On-Premise-Setups vor Version 5.2 wird die **Einstellungen** in der Registerkartenleiste des Editors angezeigt. Für Cloud Service- und On-Premise-Konfigurationen ab Version 5.2 wurde diese Option in **Workspace-Einstellungen&#39;**. Alle unter „Editor-Einstellungen **verfügbaren Konfigurationsoptionen** unverändert.
 > ![Editor-Einstellung für On-Premise](assets/editor-settings-on-prem.png){width="650"}
 
 
@@ -67,7 +67,7 @@ Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md
 
 - **Zitate**
 
-  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von &#x200B;](../user-guide/web-editor-apply-citations.md#change-citation-style).
+  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von ](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Bedingung**
 
@@ -247,7 +247,7 @@ Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum �
       >
       > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
-   1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![&#x200B; Sprachgruppen zu bearbeiten &#x200B;](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![&#x200B; oder zu löschen](../user-guide/images/Delete_icon.svg).
+   1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](../user-guide/images/Delete_icon.svg).
    1. Speichern Sie die **Einstellungen**.
 
       >[!NOTE]

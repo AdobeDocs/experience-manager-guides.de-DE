@@ -5,22 +5,13 @@ feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
 TQID: https://experienceleague.adobe.com/7WV8Ey5ufs-tSPVc9sI-DMTLY9t31QASpv3pwDO8UcA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: afb45297-4313-4f67-818e-bc0b03abe086
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: afb45297-4313-4f67-818e-bc0b03abe086id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
 workflow-type: tm+mt
-source-wordcount: 1333
+source-wordcount: 1343
 ht-degree: 1%
 
 ---
@@ -60,8 +51,8 @@ Die folgenden Konfigurationsoptionen sind auf der Registerkarte **Allgemein** ve
 | Optionen in der Wissensdatenbank | Beschreibung |
 | --- | --- |
 | Bedingungen anwenden mit | Eine der folgenden Optionen auswählen:<br><br>* **Keine angewendet**: Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die veröffentlichte Ausgabe anwenden möchten.<br>* **DITAVAL-Datei**: Wählen Sie DITAVAL-Datei(en) aus, um personalisierte Inhalte zu generieren. Sie können mehrere DITAVAL-Dateien über das Dialogfeld „Durchsuchen“ oder durch Eingabe des Dateipfads auswählen. Verwenden Sie das Kreuz-Symbol neben dem Dateinamen, um ihn zu entfernen. DITAVAL-Dateien werden in der angegebenen Reihenfolge ausgewertet, sodass die in der ersten Datei angegebenen Bedingungen Vorrang vor den in späteren Dateien angegebenen übereinstimmenden Bedingungen haben. Sie können die Dateireihenfolge durch Hinzufügen oder Löschen von Dateien beibehalten. Wenn die DITAVAL-Datei an einen anderen Speicherort verschoben oder gelöscht wird, wird sie nicht automatisch aus der Voreinstellung gelöscht. Sie müssen den Speicherort aktualisieren, falls Dateien verschoben oder gelöscht werden. Sie können den Mauszeiger über den Dateinamen bewegen, um den Pfad im Adobe Experience Manager-Repository anzuzeigen, in dem die Datei gespeichert ist. Sie können nur DITAVAL-Dateien auswählen. Wenn Sie einen anderen Dateityp auswählen, wird ein Fehler angezeigt.<br><br> **Hinweis**: Beachten Sie bei Verwendung der DITAVAL-Filterung für die **Salesforce-** Folgendes: <br> - Für jede DITAVAL-Eigenschaft werden nur `Include`- und `Exclude` unterstützt.<br> - Das Markieren zum visuellen Markieren oder Hervorheben bedingter Inhalte in der Ausgabe wird nicht unterstützt.<br> - In den Ausgabevorgaben kann nur eine einzige DITAVAL-Datei zur Veröffentlichung ausgewählt werden. Mehrere DITAVAL-Dateiauswahlen werden für die Salesforce-Veröffentlichung nicht unterstützt. <br>- `ditavalref` Verweise im Inhalt werden nicht unterstützt. <br><br> **Bedingungsvorgabe**: Wählen Sie im Dropdown-Menü eine Bedingungsvorgabe aus, um eine Bedingung beim Veröffentlichen der Ausgabe anzuwenden. Die Option ist sichtbar, wenn Sie eine Bedingung auf der Registerkarte „Bedingungsvorgaben“ der DITA-Zuordnungskonsole hinzugefügt haben. Weitere Informationen zu Bedingungsvorgaben finden Sie unter [Verwenden von Bedingungsvorgaben](generate-output-use-condition-presets.md#id1825FL004PN). |
-| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [&#x200B; „Arbeiten mit &#x200B;](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)&quot;. |
-| Nachgenerierungs-Workflow | Wenn Sie diese Option wählen, wird eine neue Dropdown-Liste für den Post-Generation-Workflow angezeigt, die alle in Adobe Experience Manager konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, der ausgeführt werden soll, nachdem die Ausgabegenerierung abgeschlossen ist.<br><br>**Hinweis**: Weitere Informationen [&#x200B; Abschnitt „Anpassen des Workflows nach der Ausgabegenerierung](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) im Installations- und Konfigurationshandbuch für Cloud Services. |
+| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [ „Arbeiten mit ](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)&quot;. |
+| Nachgenerierungs-Workflow | Wenn Sie diese Option wählen, wird eine neue Dropdown-Liste für den Post-Generation-Workflow angezeigt, die alle in Adobe Experience Manager konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, der ausgeführt werden soll, nachdem die Ausgabegenerierung abgeschlossen ist.<br><br>**Hinweis**: Weitere Informationen [ Abschnitt „Anpassen des Workflows nach der Ausgabegenerierung](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) im Installations- und Konfigurationshandbuch für Cloud Services. |
 
 ### Artikel
 
@@ -100,7 +91,7 @@ Die folgenden Konfigurationsoptionen werden für „ServiceNow **als** angezeigt
 
 | ServiceNow-Optionen | Beschreibung |
 | --- | --- |
-| Profil veröffentlichen | Verwenden Sie das Dropdown, um aus den von Ihrem Administrator konfigurierten ServiceNow-Verbindungsprofilen auszuwählen. Weitere Informationen dazu, wie Ihr Administrator ein Veröffentlichungsprofil erstellen kann, finden Sie in der Beschreibung der Funktion **Workspace** (angezeigt als **Einstellungen** für **On-Premise**) im Abschnitt [Linkes Bedienfeld](./web-editor-features.md#id2051EA0M0HS). |
+| Profil veröffentlichen | Verwenden Sie das Dropdown, um aus den von Ihrem Administrator konfigurierten ServiceNow-Verbindungsprofilen auszuwählen. Weitere Informationen dazu, wie Ihr Administrator ein Veröffentlichungsprofil erstellen kann, finden Sie in der Beschreibung der Funktion **Workspace** (angezeigt als **Einstellungen** für **On-Premise-Einrichtung vor Version 5.**) im Abschnitt [Linkes Bedienfeld](./web-editor-features.md#id2051EA0M0HS). |
 | Knowledge Base | Wählen Sie in diesem Feld die erforderliche ServiceNow-Wissensdatenbank aus. Sie können Wissensdatenbanken auf der ServiceNow-Website so konfigurieren, dass Inhalte basierend auf den Berechtigungen gespeichert werden. Die Artikel aus dieser DITA-Map können in diesen Wissensdatenbanken veröffentlicht werden. |
 | Kategorie und Unterkategorie | Kategorien sind wie hierarchische Strukturen, mit denen ServiceNow-Wissensdatenbankartikel gesucht und klassifiziert werden. Fügen Sie eine Kategorie und eine Unterkategorie hinzu, um die Themen und Unterthemen des Inhaltsverzeichnisses in dieser Kategorie und Unterkategorie auf der ServiceNow-Website zu veröffentlichen. |
 
@@ -110,7 +101,7 @@ Die folgenden Konfigurationsoptionen werden für **Salesforce** als Ziel angezei
 
 | Salesforce-Optionen | Beschreibung |
 | --- | --- |
-| Profil veröffentlichen | Verwenden Sie die Dropdown-Liste, um aus den von Ihrem Administrator konfigurierten Salesforce-Verbindungsprofilen auszuwählen. Weitere Informationen dazu, wie Ihr Administrator ein Veröffentlichungsprofil erstellen kann, finden Sie unter **Workspace-** Einstellungen **(** für **On-Premise**) in der [Tabulatorleiste](./web-editor-tab-bar.md). |
+| Profil veröffentlichen | Verwenden Sie die Dropdown-Liste, um aus den von Ihrem Administrator konfigurierten Salesforce-Verbindungsprofilen auszuwählen. Weitere Informationen dazu, wie Ihr Administrator ein Veröffentlichungsprofil erstellen kann, finden Sie in der **Workspace-** Beschreibung (angezeigt als **Einstellungen** für **On-Premise-Setup vor Version 5.**) in [Tabulatorleiste](./web-editor-tab-bar.md). |
 | Datensatztyp | Verwenden Sie das Dropdown, um einen der in Salesforce eingerichteten Datensatztypen gemäß den Sichtbarkeitseinstellungen basierend auf Ihrem Benutzerprofil auszuwählen. Salesforce-Datensatztypen sind eine Möglichkeit, viele Datensätze eines Typs für dieses Objekt zu gruppieren. Sie definieren, wie Ihre Veröffentlichung organisiert ist. Sie können beispielsweise den Datensatztyp „Häufig gestellte Fragen“ auswählen und entsprechend dem Layout und den Feldern der häufig gestellten Fragen veröffentlichen. |
 | Feld für Artikelinhalt | Sie können für jede Datensatztypvorlage unterschiedliche Felder und ein eindeutiges Layout verwenden. Verwenden Sie diese Felder, um je nach Artikeltyp spezifische Informationen einzugeben. Sie können beispielsweise den Titel, die Antwort und die Gleichung eines FAQ-Artikels anzeigen. |
 | Kategorien | Wählen Sie eine Kategorie aus dem Dropdown-Menü aus, um die Themen des Inhaltsverzeichnisses in dieser Kategorie auf der Salesforce-Site zu veröffentlichen. |

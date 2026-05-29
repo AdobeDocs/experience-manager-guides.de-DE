@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie die Asset-Verarbeitung für Cloud Service kon
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0b66a515-d8f1-4ea6-913f-e152ae114698
+source-git-commit: 5af3356dff3c42b8a93ed97b5ee20b23976769a4
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
@@ -39,8 +40,8 @@ Die folgenden Registerkarten enthalten Anweisungen zur Konfiguration der Asset-V
 
 1. Suchen Sie nach dem Bundle *com.adobe.fmdita.config.ConfigManager* und wählen Sie es aus.
 
-1. Konfigurieren Sie die `Enable Guides asset processing scheduled job` gemäß Ihren Anforderungen. Standardmäßig ist die Einstellung aktiviert.
+1. Konfigurieren Sie die Einstellung **Handbücher zur Asset-Verarbeitung für geplanten Auftrag aktivieren** (`enable.asset.processing.scheduler`) nach Ihren Anforderungen. Standardmäßig ist die Einstellung aktiviert.
 
-1. Wählen Sie **Speichern** aus.
+1. Klicken Sie auf **Speichern**.
 
 >[!ENDTABS]
