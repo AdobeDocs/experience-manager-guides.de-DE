@@ -3,17 +3,15 @@ title: Beispiele
 description: Liste der Anpassungsbeispiele
 exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
 TQID: https://experienceleague.adobe.com/Fgry-byLX0-N5gxaBk2TiN9QyzSPTXLepzGiQ4w1hSU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18a1e586774da61e19055f8e4eb68a507192205c
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 82d95464acaa3d4d2c43a35197e40a606cd2cc49
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: 533
 ht-degree: 0%
 
 ---
+
 
 # Beispiele
 
@@ -379,7 +377,7 @@ const topbarExtend = {
 export default topbarExtend
 ```
 
-1. **Schaltfläche „Verwalten“ im** „Metadaten“: In diesem Beispiel haben wir die Schaltfläche **Verwalten** (im Bedienfeld „Metadaten“ auf der Seite „Berichte„) so angepasst, dass sie deaktiviert wird, wenn sich die ausgewählten Dateien im schreibgeschützten Modus befinden. Dadurch wird verhindert, dass Metadaten versehentlich in Dateien bearbeitet werden, die nicht zur Bearbeitung vorgesehen sind. Laden Sie das Codebeispiel für die Schaltfläche [Verwalten“ im Bedienfeld „Metadaten“ &#x200B;](./examples/metadata_report_manage_button.ts).
+1. **Schaltfläche „Verwalten“ im** „Metadaten“: In diesem Beispiel haben wir die Schaltfläche **Verwalten** (im Bedienfeld „Metadaten“ auf der Seite „Berichte„) so angepasst, dass sie deaktiviert wird, wenn sich die ausgewählten Dateien im schreibgeschützten Modus befinden. Dadurch wird verhindert, dass Metadaten versehentlich in Dateien bearbeitet werden, die nicht zur Bearbeitung vorgesehen sind. Laden Sie das Codebeispiel für die Schaltfläche [Verwalten“ im Bedienfeld „Metadaten“ ](./examples/metadata_report_manage_button.ts).
 
 ```typescript
 const mapConsoleActionBar = {
