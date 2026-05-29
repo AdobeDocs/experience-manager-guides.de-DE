@@ -70,4 +70,4 @@ AEM Guides enthält einen Standardsatz von Metadateneigenschaften in der Ignorie
 
 Nur die Metadateneigenschaften, die nicht in der Ignorieren-Liste enthalten sind, werden für das Markieren der Version eines Dokuments als falsch erachtet.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
