@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie InDesign-Dokumente für die Migration vorbere
 feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
+source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2866'
 ht-degree: 0%
 
 ---
@@ -44,9 +45,9 @@ Führen Sie die folgenden Schritte aus, um fehlerhafte Verweise mithilfe des im 
 
 1. Führen Sie das Patch-Skript `[/bin/fmdita/validatebtree?operation=patch]` aus, um die fehlerhaften Verweise zu beheben. Die Skriptausführung dauert einige Minuten und druckt die Protokolle im Verlauf. Nach Abschluss der Ausführung wird am Ende &quot;`Done`&quot; gedruckt.
 
->[!NOTE]
->
-> Es wird empfohlen, die Protokolle zu Referenzzwecken zu kopieren und zu speichern.
+   >[!NOTE]
+   >
+   > Es wird empfohlen, die Protokolle zu Referenzzwecken zu kopieren und zu speichern.
 
 1. Nachdem das Patch-Skript erfolgreich ausgeführt wurde, können Sie die folgenden Prüfungen durchführen:
 1. &#x200B;

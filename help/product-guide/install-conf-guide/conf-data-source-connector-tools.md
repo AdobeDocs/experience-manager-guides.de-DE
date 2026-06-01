@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie einen Datenquellen-Connector mithilfe der Too
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
+source-git-commit: d7d8ae300695fb6e637265766e7f44e0e0226e3a
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ Die folgenden Registerkarten enthalten Anweisungen zum Konfigurieren eines Conne
    *Anzeigen oder Erstellen eines Datenquellen-Connectors.*
 1. Klicken Sie auf **Erstellen**.
 1. Wählen Sie die Datenbank aus, für die Sie den Connector erstellen möchten. Beispiel: der Elasticsearch-Connector.
+
    >[!NOTE]
    >
    >Alle verfügbaren vordefinierten Datenbanken werden aufgelistet.
@@ -55,16 +57,11 @@ Die folgenden Registerkarten enthalten Anweisungen zum Konfigurieren eines Conne
    * **Kennwort**: Geben Sie Ihren Benutzernamen und Ihr Kennwort ein.
    * **URL**: API-URL hinzufügen.
 
-
 1. Wählen Sie die Option **Werksvorlagen ausschließen**, um die Werksvorlagen von der Verwendung für die Erstellung von Themen und Ausschnitten auszuschließen. Sie werden nicht in der Dropdown **Liste Datenzuordnungsvorlage** im Dialogfeld **Inhaltsfragmentgenerator hinzufügen** oder **Themengenerator hinzufügen** angezeigt.
-
 
 1. Wählen Sie **Verbindung testen** aus. Sie können die Schaltfläche **Verbindung testen** erst anzeigen, nachdem Sie die erforderlichen Details hinzugefügt haben. Zeigt eine Erfolgsmeldung an, wenn die Verbindungsdetails korrekt sind. Andernfalls wird möglicherweise eine Fehlermeldung angezeigt.
 
-
-
 1. Wählen **oben** Speichern“ aus, um den Connector zu speichern.     Die Schaltfläche **Speichern** wird aktiviert, nachdem Sie alle Details ausgefüllt haben und die Verbindung erfolgreich hergestellt wurde.
-
 
    Wenn der Connector erfolgreich gespeichert wurde, können Sie die verbundene Datenquelle auf der Seite anzeigen.
 
@@ -78,7 +75,6 @@ Führen Sie die folgenden Schritte aus, um eine Ressource zu erstellen:
 1. Konfigurieren Sie alle Details im Dialogfeld **Ressource hinzufügen**.
 1. Klicken Sie auf **Hinzufügen**.
 1. Sie können ![Bearbeitungssymbol](assets/edit_pencil_icon.svg) bearbeiten oder ![&#x200B; Ressource aus &#x200B;](assets/Delete_icon.svg) URL-Ressourcenliste löschen.
-
 1. Sie können auch die Standardressourcen verwenden, die für Datenquellen wie Salsify, Akeneo und Microsoft ADO verfügbar sind. Schalten Sie die Optionen für die Ressource aus, die Sie nicht für eine Datenquelle konfigurieren möchten.
 
 Auf diese Weise können Sie schnell Daten aus einer der Ressourcen für eine bestimmte Datenquelle in einem einzelnen Inhaltsfragment oder Thema abrufen.
@@ -88,7 +84,6 @@ Auf diese Weise können Sie schnell Daten aus einer der Ressourcen für eine bes
 Um eine Abhängigkeit im [Maven Central Repository](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) in den Cloud-Services zu veröffentlichen, müssen Sie die Abhängigkeit für einen Open-Source-Connector einschließen und einbetten.
 
 1. Fügen Sie die Abhängigkeit in `all/pom.xml` in Ihrem Cloud Manager-Git-Projekt-Code hinzu. Sie können beispielsweise die folgende Abhängigkeit für den Datenquellen-Connector für Microsoft Azure DevOps-Motherboards hinzufügen.
-
 
    ```
    <dependency>
@@ -101,15 +96,15 @@ Um eine Abhängigkeit im [Maven Central Repository](https://central.sonatype.com
 
 1. Betten Sie die hinzugefügte Abhängigkeit ein.
 
-       &quot;
-       &lt;embedded>
-       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
-       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
-       &lt;type>jar&lt;/type>
-       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
-       &lt;/embedded>
-       &quot;
-   
+   ```
+   <embedded>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <type>jar</type>
+       <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+   </embedded> 
+   ```
+
 1. Führen Sie die Pipeline aus, um die Änderungen in den Cloud-Services anzuwenden.
 Der Connector wird in Ihrer Umgebung installiert.
 
@@ -126,6 +121,7 @@ Der Connector wird in Ihrer Umgebung installiert.
    *Anzeigen oder Erstellen eines Datenquellen-Connectors.*
 1. Klicken Sie auf **Erstellen**.
 1. Wählen Sie die Datenbank aus, für die Sie den Connector erstellen möchten. Beispiel: der Elasticsearch-Connector.
+
    >[!NOTE]
    >
    >Alle verfügbaren vordefinierten Datenbanken werden aufgelistet.
@@ -146,7 +142,6 @@ Der Connector wird in Ihrer Umgebung installiert.
 1. Wählen Sie **Verbindung testen** aus. Sie können die Schaltfläche **Verbindung testen** erst anzeigen, nachdem Sie die erforderlichen Details hinzugefügt haben. Zeigt eine Erfolgsmeldung an, wenn die Verbindungsdetails korrekt sind. Andernfalls wird möglicherweise eine Fehlermeldung angezeigt.
 
 1. Wählen **oben** Speichern“ aus, um den Connector zu speichern.     Die Schaltfläche **Speichern** wird aktiviert, nachdem Sie alle Details ausgefüllt haben und die Verbindung erfolgreich hergestellt wurde.
-
 
    Wenn der Connector erfolgreich gespeichert wurde, können Sie die verbundene Datenquelle auf der Seite anzeigen.
 
@@ -171,7 +166,6 @@ Sie können die folgenden Funktionen für den Connector auf der Seite **Datenque
 Wenn der Connector mit demselben Namen vorhanden ist, wird ein Fehler angezeigt.
 
 * **Löschen**: Löscht den ausgewählten Connector.
-
 
 Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector unter dem **Datenquellenbedienfeld** im Web-Editor aufgeführt. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Einfügen eines Inhaltsausschnitts aus Ihrer Datenquelle](../user-guide/web-editor-content-snippet.md).
 
