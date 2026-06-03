@@ -5,19 +5,13 @@ exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/8heDTU9viOxhsg-Epvu6OZMrRyHoWRJ-584O6u9lut8
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 984
 ht-degree: 0%
 
 ---
@@ -28,8 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Editor unterstützt ISO Schematron.
-
+>Editor unterstützt ISO Schematron.
 
 ## Schematron-Dateien importieren
 
@@ -57,7 +50,7 @@ Wenn Sie ein Thema im Editor öffnen, wird rechts ein Bedienfeld für die Schema
 
    >[!NOTE]
    >
-   > Wenn eine ungültige Schematron-Datei hinzugefügt wird, wird im Validierungsfenster eine Fehlermeldung angezeigt.
+   >Wenn eine ungültige Schematron-Datei hinzugefügt wird, wird im Validierungsfenster eine Fehlermeldung angezeigt:
 
    ![](images/schematron-panel-error.png){width="350"}
 
@@ -123,8 +116,8 @@ Wenn Sie Ihre DITA-Themen mit dem Schematron überprüfen, erhalten Sie eine Mel
 ### Berichtsanweisung
 
 Eine Berichtsanweisung erzeugt eine Meldung, wenn eine Testanweisung als „true“ ausgewertet wird. Wenn Sie beispielsweise möchten, dass die Kurzbeschreibung maximal 150 Zeichen lang ist, können Sie eine Berichtsanweisung definieren, um die Themen zu überprüfen, bei denen die Kurzbeschreibung mehr als 150 Zeichen lang ist.
-Wenn Sie Ihre DITA-Themen mit dem Schematron überprüfen, erhalten Sie einen vollständigen Bericht der Regeln, in denen die Berichtsanweisung als „true“ ausgewertet wird. So erhalten Sie eine Nachricht für die Themen, bei denen die Kurzbeschreibung mehr als 150 Zeichen umfasst.
 
+Wenn Sie Ihre DITA-Themen mit dem Schematron überprüfen, erhalten Sie einen vollständigen Bericht der Regeln, in denen die Berichtsanweisung als „true“ ausgewertet wird. So erhalten Sie eine Nachricht für die Themen, bei denen die Kurzbeschreibung mehr als 150 Zeichen umfasst.
 
 ```XML
 <sch:rule context="shortdesc"> 
@@ -137,7 +130,7 @@ Wenn Sie Ihre DITA-Themen mit dem Schematron überprüfen, erhalten Sie einen vo
 
 >[!NOTE]
 >
-> Verwenden Sie beim Schreiben der Schematron-Regeln nur XPath 2.0-Ausdrücke.
+>Verwenden Sie beim Schreiben der Schematron-Regeln nur XPath 2.0-Ausdrücke.
 
 ## Verwenden von Regex-Ausdrücken{#schematron-regex-espressions}
 
@@ -155,9 +148,7 @@ No one word titles.
 
 Experience Manager Guides unterstützt auch abstrakte Muster in Schematron. Sie können generische abstrakte Muster definieren, um diese abstrakten Muster wiederzuverwenden.  Sie können Platzhalterparameter erstellen, die das tatsächliche Muster angeben.
 
-
 Die Verwendung abstrakter Muster kann Ihr Schematron-Schema vereinfachen, indem die Duplizierung von Regeln reduziert wird und die Verwaltung und Aktualisierung Ihrer Validierungslogik erleichtert wird. Dies kann auch Ihr Schema verständlicher machen, da Sie komplexe Validierungslogik in einem einzigen abstrakten Muster definieren können, das im gesamten Schema wiederverwendet werden kann.
-
 
 Beispielsweise erstellt der folgende XML-Code ein abstraktes Muster und das eigentliche Muster verweist dann mithilfe der ID darauf.
 
