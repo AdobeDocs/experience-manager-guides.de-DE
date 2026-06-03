@@ -6,19 +6,13 @@ role: User
 hide: true
 exl-id: c743baac-b6c1-4684-bbd1-8f9834ab272a
 TQID: https://experienceleague.adobe.com/RTjruUSe-4ZbghbPl3au1OjZd3D5-7VN3R4GP8UqsRM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9f5364625d113f2f1fd147b6df30b0ca3d439029
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 673
 ht-degree: 0%
 
 ---
@@ -57,6 +51,7 @@ Wenn Sie ein Thema im Web-Editor öffnen, wird rechts ein Bedienfeld für die Sc
 1. Klicken Sie auf das Schematron-Symbol (), um das Schematron-Bedienfeld zu öffnen.
 1. Verwenden Sie Schematrondatei hinzufügen , um Schematrondateien hinzuzufügen.
 1. Wenn die Schematron-Datei keine Fehler enthält, wird sie hinzugefügt und im Validierungsfenster aufgeführt. Für die Schematron-Datei mit Fehlern wird eine Fehlermeldung angezeigt.
+
    >[!NOTE]
    >
    >Sie können das Kreuz-Symbol neben dem Namen der Schematron-Datei verwenden, um sie zu entfernen.
@@ -115,7 +110,6 @@ Beispielsweise können Sie damit eine Meldung anzeigen, wenn der Titel nur ein W
 No one word titles.
 </assert>  
 ```
-
 
 ## Abstrakte Muster definieren{#schematron-abstract-patterns}
 
