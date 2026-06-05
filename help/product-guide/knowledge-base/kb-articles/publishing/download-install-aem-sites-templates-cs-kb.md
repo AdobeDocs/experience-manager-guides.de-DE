@@ -14,9 +14,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 6d10f55ace72536266723331313c73ce33cddcf1
 workflow-type: tm+mt
-source-wordcount: 705
+source-wordcount: 698
 ht-degree: 1%
 
 ---
@@ -53,9 +53,9 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
       ![Auf Repository-Informationen zugreifen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350"}
 
    3. Klonen Sie das Repository auf Ihrem lokalen System mit dem angegebenen Benutzernamen und Kennwort (generieren Sie ggf. ein Kennwort).
-2. **Paket zum Maven-Bundle hinzufügen:**
-   1. Erstellen Sie in Ihrem lokal geklonten Repository ein neues Maven-Bundle oder fügen Sie es einem vorhandenen hinzu.
-   2. Stellen Sie sicher, dass die `/jcr_root/apps/fmdita/` installierende Struktur im Maven-Projekt vorhanden ist.
+2. **Paket zum Projektmodul hinzufügen:**
+   1. Erstellen Sie in Ihrem lokal geklonten Repository ein neues Projektmodul oder fügen Sie es einem vorhandenen Modul hinzu.
+   2. Stellen Sie sicher, dass die Struktur `/jcr_root/apps/fmdita/` Installation vorhanden ist.
 
       ![Struktur im Maven-Projekt](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650"}
 
@@ -65,8 +65,7 @@ Installieren Sie das **Komponentenpaket (guides-components.all-1.x.x.zip)** und 
 3. **Filter.xml aktualisieren:**
 
    1. Öffnen Sie die Datei „filters.xml“ im Ordner &quot;META-INF“ des übergeordneten Inhaltsverzeichnisses.
-   2. Fügen Sie den folgenden Filter hinzu: filter root=`/apps/fmdita` mode=`merge`/
-
+   2. Fügen Sie den folgenden Filter hinzu: `<filter root=/apps/fmdita  mode=merge/>`.
 
       ![Filter hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650"}
 

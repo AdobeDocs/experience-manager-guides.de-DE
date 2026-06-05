@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
 workflow-type: tm+mt
-source-wordcount: 947
+source-wordcount: 951
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ Wenn Sie ein DITA-Thema über „Installationsanweisungen“ haben, generiert di
 >
 > Stellen Sie sicher, dass Komponenten, :resourceType Sling unter `wcm/foundation/components` verwenden, zum entsprechenden `core/wcm/components` migriert werden.
 
-Fügen Sie dieselbe Komponente (Container- und Textkomponente) in die Struktur derselben Vorlage ein:
+Fügen Sie dieselbe Container-Komponente in der Struktur derselben Vorlage hinzu:
 
 ![Container- und Textkomponente hinzufügen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650"}
 
@@ -114,7 +114,7 @@ In der folgenden Tabelle finden Sie die Liste der Komponenten und ihre Verwendun
 
 | Funktion | Komponentenname | Beschreibung | Empfohlene Vorlage |
 |---|---|---|---|
-| Inhaltsverzeichnis | guideSideNavigation | Rendert das vollständige Inhaltsverzeichnis aus der DITA-Zuordnung | Dokumentations-Container |
+| Inhaltsverzeichnis | guideSideNavigation | Rendert das vollständige Inhaltsverzeichnis aus der DITA-Zuordnung | Themenseite |
 | Seitenumleitung | childDirect | Leitet zur ersten Themenseite in der Karte weiter | Dokumentations-Container |
 | Mini-Inhaltsverzeichnis | Minitoc | Zeigt das Inhaltsverzeichnis für das aktuelle Thema an | Themenseite |
 | Zuletzt aktualisiert | pageProperty | Zeigt das Datum der letzten Änderung an | Themenseite |
@@ -135,7 +135,7 @@ Standardmäßig werden die im AEM Guides-Komponentenpaket bereitgestellten Clien
 
 1. **Bearbeiten Sie die Vorlage:**
 
-   1. Öffnen Sie die **Produktseite** im **Editor-Modus**.
+   1. Öffnen Sie **Container-Seitenvorlage** und die **Themenseitenvorlage** im Editor-Modus.
    2. Wählen Sie **Vorlage bearbeiten** aus. Dadurch wird eine URL wie conf/settings/wcm/templates/structure.html geöffnet.
 
       ![Vorlage bearbeiten](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650"}
