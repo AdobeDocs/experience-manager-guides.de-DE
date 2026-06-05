@@ -5,24 +5,18 @@ exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/SZs-Hc4QAGj6Mfdm-Rsaio-UEaIRpLQArxVP2FUydok
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 95496b7275fc8d94afb75703ff2ef5b7c5750644
 workflow-type: tm+mt
 source-wordcount: 481
 ht-degree: 0%
 
 ---
 
-# Einführung in die Redaktion {#id181OD0QE05Z}
+# Einführung in den Editor {#id181OD0QE05Z}
 
 Experience Manager Guides verfügt über einen benutzerfreundlichen Editor zum Erstellen und Bearbeiten strukturierter Dokumente. Der Editor verbirgt dem Autor alle Komplexitäten der DITA-Struktur. Der Editor stellt eine Liste der DITA-Elemente bereit, die ein Benutzer normalerweise in einem Dokument arbeiten muss.
 
@@ -62,4 +56,4 @@ Der neue Editor unterstützt derzeit nicht die folgenden Funktionen. Diese Funkt
 Der alte Editor in Experience Manager Guides bietet ein einfaches und zuverlässiges Authoring-Erlebnis für strukturierte Inhalte, indem er die Komplexität von DITA abstrahiert und gleichzeitig die Einhaltung unterstützter Standards wie DITA 1.2, 1.3, Lightweight DITA und spezialisiertes DITA sicherstellt. Es bietet wichtige Tools für die Arbeit mit gemeinsamen Block- und Inline-Elementen, wodurch es sich für die konsistente und kontrollierte Inhaltserstellung in einem strukturierten Framework eignet.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen von Inhalten mit Experience Manager Guides](authoring-content-xml-doc.md)
+**Übergeordnetes Thema:**[ Erstellen von Inhalten mit Experience Manager Guides](authoring-content-xml-doc.md)
