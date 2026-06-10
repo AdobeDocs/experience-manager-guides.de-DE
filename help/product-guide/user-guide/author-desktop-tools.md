@@ -31,7 +31,7 @@ Experience Manager Guides unterstützt auch das Authoring mit Desktop-Tools wie 
 
 **Arbeiten mit FrameMaker**
 
-FrameMaker unterstützt das Erstellen und Veröffentlichen von Inhalten in Experience Manager Guides. Im Lieferumfang von FrameMaker ist ein vorkonfigurierter Connector für Adobe Experience Manager enthalten. FrameMaker bietet außerdem eine benutzerfreundliche Oberfläche, über die Sie Ihre Dokumente in einer verteilten Umgebung verwalten können. Sie können Ihre Inhalte in FrameMaker erstellen und in verschiedenen Formaten veröffentlichen - PDF, HTML5, EPUB und DITA. Sie können auch die verschiedenen Dateiverwaltungsvorgänge wie Auschecken, Auschecken mit abhängigen Elementen, Einchecken, Aktualisieren usw. durchführen. Weitere Informationen finden Sie in der [FrameMaker-Hilfe](https://help.adobe.com/en_US/framemaker/using/index.html).
+FrameMaker unterstützt das Erstellen und Veröffentlichen von Inhalten in Experience Manager Guides. Im Lieferumfang von FrameMaker ist ein vorkonfigurierter Connector für Adobe Experience Manager enthalten. FrameMaker bietet außerdem eine benutzerfreundliche Oberfläche, über die Sie Ihre Dokumente in einer verteilten Umgebung verwalten können. Sie können Ihre Inhalte in FrameMaker erstellen und in verschiedenen Formaten veröffentlichen - PDF, HTML5, EPUB und DITA. Sie können auch die verschiedenen Dateiverwaltungsvorgänge wie Auschecken, Auschecken mit abhängigen Elementen, Einchecken, Aktualisieren usw. durchführen. Weitere Informationen finden Sie in der [FrameMaker-Hilfe](https://help.adobe.com/de_DE/framemaker/using/index.html).
 
 **Arbeiten mit Sauerstoff**
 
