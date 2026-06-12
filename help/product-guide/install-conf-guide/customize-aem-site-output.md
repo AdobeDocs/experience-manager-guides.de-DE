@@ -210,7 +210,7 @@ Sie können auch die anderen Eigenschaften konfigurieren, z. B. Kleinbuchstaben 
 
 1. Suchen Sie nach dem Bundle *com.adobe.fmdita.common.SanitizeNodeNameImpl* und klicken Sie darauf.
 
-1. Stellen Sie in der **Nicht zulässiger Zeichensatz für die Veröffentlichung in AEM Sites** sicher, dass die Eigenschaft auf `<>` `@$` festgelegt ist. Sie können dieser Liste weitere Sonderzeichen hinzufügen. Sie muss jedoch diese erforderlichen Sonderzeichen enthalten.
+1. Stellen Sie in der **Nicht zulässiger Zeichensatz für die Veröffentlichung in AEM Sites** sicher, dass die Eigenschaft auf `<>`&#x200B;`@$` festgelegt ist. Sie können dieser Liste weitere Sonderzeichen hinzufügen. Sie muss jedoch diese erforderlichen Sonderzeichen enthalten.
 
    >[!NOTE]
    >
