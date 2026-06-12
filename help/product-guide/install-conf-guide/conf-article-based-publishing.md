@@ -4,10 +4,11 @@ description: Erfahren Sie, wie Sie Pakete für die artikelbasierte Veröffentlic
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 24e47af6-8d81-4994-8d97-474f5029392b
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 0%
+source-wordcount: '464'
+ht-degree: 3%
 
 ---
 
@@ -47,7 +48,7 @@ Sie können die AEM-Site verwenden, um Ihren Artikel mithilfe der Ausgabevorgabe
 
 >[!TAB On-Premise]
 
-Um die artikelbasierte Veröffentlichung zu aktivieren, laden Sie die folgenden Pakete von Ihrem Adobe Software Distribution-Portal herunter und installieren Sie sie. Installieren Sie sie, um eine Tragopan-Site zu erstellen. \(Die Tragopan-Website ist eine Beispiel-Wissensdatenbank der AEM-Website mit Vorlagen für eine Kategorie, einen Abschnitt und Artikelseiten.\) Aktualisieren Sie die Tragopan-Site, um die AEM-Site-Ausgabe mithilfe der Ausgabevorgaben aus dem Web-Editor zu generieren.
+Um die artikelbasierte Veröffentlichung zu aktivieren, laden Sie die folgenden Pakete von Ihrem Adobe Software Distribution-Portal herunter und installieren Sie sie. Installieren Sie sie, um eine Tragopan-Site zu erstellen. \(Die Tragopan-Website ist eine Beispiel-Wissensdatenbank der AEM-Website mit Vorlagen für eine Kategorie-, Abschnitt- und Artikelseite.\) Aktualisieren Sie die Tragopan-Website, um die Ausgabe der AEM-Website mithilfe der Ausgabevorgaben des Web-Editors zu generieren.
 
 - Wissensdatenbankvorlage für die artikelbasierte Veröffentlichung
 - Komponentenpaket für die artikelbasierte Veröffentlichung

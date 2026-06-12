@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 267
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Mit Adobe Experience Manager Guides können Sie eine JSON-basierte Zuordnung zwi
 >[!NOTE]
 > 
 > Wenn Sie Version 4.6 oder höher verwenden, müssen Sie diese Zuordnung nicht erstellen. Sie können die Themenelemente auf die Felder im Inhaltsfragmentmodell ziehen.
-> Erfahren Sie mehr über [Veröffentlichen von Inhaltsfragmenten](../user-guide/publish-content-fragment.md).
+>  Erfahren Sie mehr über [Veröffentlichen von Inhaltsfragmenten](../user-guide/publish-content-fragment.md).
 
 
 1. Um die Datei *contentFragmentMapping.json* herunterzuladen, melden Sie sich bei Adobe Experience Manager als Administrator an.

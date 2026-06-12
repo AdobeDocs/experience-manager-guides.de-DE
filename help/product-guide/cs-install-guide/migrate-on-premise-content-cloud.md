@@ -20,8 +20,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 1034
-ht-degree: 6%
+source-wordcount: 844
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ Dieser Artikel bietet einen detaillierten, schrittweisen Prozess für die Migrat
 ## Migrationsprozess
 
 **Content Transfer Tool** ist ein von Adobe entwickeltes Tool, mit dem Sie die Migration vorhandener Inhalte von einer Adobe Experience Manager On-Premise- oder Managed Services-Quellinstanz zur Experience Manager Cloud Service-Zielinstanz initiieren können.
-Dieses Tool überträgt auch Prinzipale (Benutzende oder Gruppen) automatisch.
+Dieses Tool überträgt auch Prinzipale (Benutzer oder Gruppen) automatisch.
 
 Sie können das **Content Transfer Tool** als ZIP-Datei vom **Software Distribution**-Portal herunterladen:
 
@@ -54,7 +54,7 @@ Sie können das **Content Transfer Tool** als ZIP-Datei vom **Software Distribut
 1. Wählen Sie **Content Transfer Tool** aus der Liste aus und laden Sie es herunter.
 
 ![Content Transfer Tool herunterladen](./assets/content-transfer-tool-software-portal.png)
-Installieren Sie dann das Paket über **Package Manager** auf Ihrer Adobe Experience Manager-Quellinstanz. Laden Sie unbedingt die neueste Version herunter.
+Installieren Sie dann das Paket über **Package Manager** auf Ihrer Adobe Experience Manager-Quellinstanz. Stellen Sie sicher, dass Sie die neueste Version herunterladen.
 Weitere Informationen zur neuesten Version finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=de).
 
 >[!NOTE]
@@ -121,7 +121,7 @@ Führen Sie die folgenden Schritte aus, um Experience Manager Guides-Inhalte zu 
    ![](./assets/migration-create-migration-set.png)
 
 1. Geben Sie den zu migrierenden Pfad an und klicken Sie auf **Speichern**.
-Beispiel:  `/content/sites`
+Beispiel: `/content/sites`
 oder
    `/content/dam/tech-docs`
    ![Enthaltene Pfade](./assets/migration-included-paths.png)
