@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie die Symbolleiste anpassen
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5057f9935982d4b13c245453f15a93f48679f16b
+exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Standardmäßig werden im Lieferumfang des Web-Editors die gängigsten redaktion
 
 >[!NOTE]
 >
-> Bei der Migration von der alten Benutzeroberfläche zur neuen AEM Guides-Benutzeroberfläche (anwendbar ab Version 2502 und 5.0 von AEM Guides) müssen Aktualisierungen an `ui_config` in flexiblere und modulare Benutzeroberflächenkonfigurationen konvertiert werden. Dieses Framework hilft bei der nahtlosen Übernahme von Änderungen in die editor_toolbar und ggf. andere Target-Widgets. Weitere Informationen finden Sie unter [Übersicht über die Konfiguration der Convert-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Bei der Migration von der alten Benutzeroberfläche zur neuen AEM Guides-Benutzeroberfläche (anwendbar ab Version 2502 und 5.0 von AEM Guides) müssen Aktualisierungen an `ui_config` in flexiblere und modulare Benutzeroberflächenkonfigurationen konvertiert werden. Dieses Framework hilft bei der nahtlosen Übernahme von Änderungen in die editor_toolbar und ggf. andere Target-Widgets. Weitere Informationen finden Sie unter [Übersicht über die Konfiguration der Convert-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Es gibt zwei Möglichkeiten, die Symbolleiste des Web-Editors anzupassen:
 
@@ -47,44 +48,44 @@ Die folgenden Registerkarten enthalten Anweisungen basierend auf Ihrer Experienc
 
    In der Regel können Sie eine neue Gruppe von Symbolleistenschaltflächen erstellen und ihr eine oder mehrere Symbolleistenschaltflächen hinzufügen. Sie können auch eine neue Symbolleistenschaltfläche zu einer vorhandenen Symbolleistengruppe hinzufügen. Zum Erstellen einer neuen Symbolleistengruppe sind die folgenden Details erforderlich:
 
-   **type**:   Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
+   **type**: Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
 
-   **extraClass**:   Name der Klasse(n), durch Leerzeichen getrennt
+   **extraClass**: Name der Klasse(n), durch Leerzeichen getrennt.
 
-   **items**:   Legen Sie die Definition aller Gruppen in der Symbolleiste fest. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole innerhalb einer Symbolleistengruppe zu definieren, müssen Sie erneut das `type` Attribut innerhalb der `items` definieren und deren Wert auf `buttonGroup` festlegen. Geben Sie einen oder mehrere Klassennamen in der `extraclass` Eigenschaft an. Geben Sie den Funktionsnamen in der Eigenschaft `label` an. Der folgende Ausschnitt aus der `ui_config.json` zeigt die Definition für den Haupt-Symbolleistenblock, gefolgt von der `buttonGroup` Definition:
+   **Elemente**: Geben Sie die Definition aller Gruppen in der Symbolleiste an. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole innerhalb einer Symbolleistengruppe zu definieren, müssen Sie erneut das `type` Attribut innerhalb der `items` definieren und deren Wert auf `buttonGroup` festlegen. Geben Sie einen oder mehrere Klassennamen in der `extraclass` Eigenschaft an. Geben Sie den Funktionsnamen in der Eigenschaft `label` an. Der folgende Ausschnitt aus der `ui_config.json` zeigt die Definition für den Haupt-Symbolleistenblock, gefolgt von der `buttonGroup` Definition:
 
        &quot;
-       „toolbar“: &lbrace;
-       „type“: „blockGroup“,
-       „extraClass“:
-       „Symbolleistenvorgänge“,
-       „items“: &lbrack;
-       &lbrace;
-       „type“: „buttonGroup“,
-       „extraClass“: „left-Controls“,
-       „label“: „Left Controls“,
-       „items“: &lbrack;
-       &quot;
-   
+     „toolbar“: {
+     „type“: „blockGroup“,
+     „extraClass“:    „toolbar operations“,     
+„items“: [     
+{     
+„type“:     
+„buttonGroup“,
+„extraClass“: „left-Controls“,     
+      
+      
+„label“: „Left Controls“,
+„items“: [links]   
    Innerhalb der `items` müssen Sie die Definition für ein oder mehrere Symbolleistensymbole angeben.
 
    Sie müssen die folgenden Eigenschaften definieren, um ein Symbolleistensymbol hinzuzufügen:
 
-   **type**:   Geben Sie `button` als `type` an. Dieser Wert gibt an, dass Sie eine Symbolleistenschaltfläche hinzufügen.
+   **type**: Geben Sie `button` als `type` an. Dieser Wert gibt an, dass Sie eine Symbolleistenschaltfläche hinzufügen.
 
-   **Symbol**:   Geben Sie den Namen des Coral-Symbols an, das Sie in der Symbolleiste verwenden möchten.
+   **icon**: Geben Sie den Namen des Coral-Symbols an, das Sie in der Symbolleiste verwenden möchten.
 
-   **Variante**:   Geben Sie `quiet` als `variant` an.
+   **variant**: Geben Sie `quiet` als `variant` an.
 
-   **title**:   Geben Sie die QuickInfo für das Symbol an.
+   **title**: Geben Sie die QuickInfo für das Symbol an.
 
-   **on-click**:   Geben Sie den Befehlsnamen an, der für die Funktion in der JavaScript-Datei definiert ist. Wenn für den Befehl Eingabeparameter erforderlich sind, geben Sie den Befehlsnamen wie folgt an:
+   **on-click**: Geben Sie den Befehlsnamen an, der für die Funktion in der JavaScript-Datei definiert ist. Wenn für den Befehl Eingabeparameter erforderlich sind, geben Sie den Befehlsnamen wie folgt an:
 
        „JavaScript
-       „on-click“: {„name“: „AUTHOR_INSERT_ELEMENT“, „args“: „simpltable“}
-       &quot;
+     „on-click“: {„name“: „AUTHOR_INSERT_ELEMENT“, „args“: „simpltable“}
+    &quot;
    
-   **Einblenden oder ausblenden**:   Wenn Sie die `show`-Eigenschaft definieren, geben Sie die Modi an, in denen das Symbol angezeigt wird. Zu den möglichen Werten gehören - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(Anzeige in allen Modi\) oder `false` \(Ausblenden in allen Modi\).
+   **Anzeigen oder Ausblenden**: Wenn Sie die `show` Eigenschaft definieren, geben Sie die Modi an, in denen das Symbol angezeigt wird. Zu den möglichen Werten gehören - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(Anzeige in allen Modi\) oder `false` \(Ausblenden in allen Modi\).
 
    Anstelle von `show` können Sie auch die Eigenschaft `hide` definieren. Die möglichen Werte sind dieselben wie in `show` Eigenschaft, mit dem einzigen Unterschied, dass das Symbol für den angegebenen Modus nicht angezeigt wird.
 
@@ -132,7 +133,7 @@ Die folgenden Registerkarten enthalten Anweisungen basierend auf Ihrer Experienc
 
 1. Fügen Sie in der `ui_config.json`-Datei die Definition der neuen Funktion im Abschnitt Symbolleisten hinzu. In der Regel können Sie eine neue Gruppe von Symbolleistenschaltflächen erstellen und ihr eine oder mehrere Symbolleistenschaltflächen hinzufügen. Sie können auch eine neue Symbolleistenschaltfläche zu einer vorhandenen Symbolleistengruppe hinzufügen. Zum Erstellen einer neuen Symbolleistengruppe sind die folgenden Details erforderlich:
 
-   - **type:**&#x200B;Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
+   - **type:**Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
 
    - **extraClass:** Name der Klasse(n), durch Leerzeichen getrennt.
 
@@ -312,11 +313,11 @@ Die folgenden Registerkarten enthalten Anweisungen zum Entfernen unerwünschter 
 
    Die `ui_config.json`-Datei besteht aus drei Abschnitten:
 
-   1. **Symbolleisten**:   Dieser Abschnitt enthält die Definition aller in der Editor-Symbolleiste verfügbaren Funktionen wie Einfügen/Entfernen, Nummerierte Liste, \(Datei\) Schließen, Speichern, Kommentare und mehr.
+   1. **Symbolleisten**: Dieser Abschnitt enthält die Definition aller in der Symbolleiste des Editors verfügbaren Funktionen, z. B. Einfügen/Entfernen einer nummerierten Liste, \(Datei\) Schließen, Speichern, Kommentare und mehr.
 
-   1. **Tastaturbefehle**:   Dieser Abschnitt enthält die Definition der Tastaturbefehle, die einer bestimmten Funktion im Editor zugewiesen sind.
+   1. **Tastaturbefehle** Dieser Abschnitt enthält die Definition von Tastaturbefehlen, die einer bestimmten Funktion im Editor zugewiesen sind.
 
-   1. **Vorlagen**:   Dieser Abschnitt enthält die vordefinierte Struktur von DITA-Elementen, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt Vorlagen Vorlagendefinitionen für einen Absatz, einfache Tabellen-, Tabellen- und Textelemente. Sie können eine Vorlagendefinition für ein beliebiges Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise zu jedem neuen `p`-Element in einer Liste ein `li`-Element hinzufügen möchten, können Sie zu diesem Zweck den folgenden Code am Ende des Abschnitts „Vorlagen“ hinzufügen:
+   1. **templates**: Dieser Abschnitt enthält die vordefinierte Struktur der DITA-Elemente, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt Vorlagen Vorlagendefinitionen für einen Absatz, einfache Tabellen-, Tabellen- und Textelemente. Sie können eine Vorlagendefinition für ein beliebiges Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise zu jedem neuen `li`-Element in einer Liste ein `p`-Element hinzufügen möchten, können Sie zu diesem Zweck den folgenden Code am Ende des Abschnitts „Vorlagen“ hinzufügen:
 
    ```css
    "li": "<li><p></p></li>"
@@ -341,11 +342,11 @@ Die folgenden Registerkarten enthalten Anweisungen zum Entfernen unerwünschter 
 1. Navigieren Sie zur `ui_config.json` und öffnen Sie sie im Knoten `apps` zur Bearbeitung.
 Die `ui_config.json`-Datei besteht aus drei Abschnitten:
 
-- **Symbolleisten:**   Dieser Abschnitt enthält die Definition aller in der Editor-Symbolleiste verfügbaren Funktionen wie Einfügen/Entfernen, Nummerierte Liste, \(Datei\) Schließen, Speichern, Kommentare und mehr.
+- **Symbolleisten:** Dieser Abschnitt enthält die Definition aller in der Symbolleiste des Editors verfügbaren Funktionen, z. B. Einfügen/Entfernen einer nummerierten Liste, \(Datei\) Schließen, Speichern, Kommentare und mehr.
 
-- **Tastaturbefehle:**   Dieser Abschnitt enthält die Definition der Tastaturbefehle, die einer bestimmten Funktion im Editor zugewiesen sind.
+- **Tastaturbefehle** In diesem Abschnitt werden die Tastaturbefehle definiert, die einer bestimmten Funktion im Editor zugewiesen sind.
 
-- **templates:**   Dieser Abschnitt enthält die vordefinierte Struktur von DITA-Elementen, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt Vorlagen Vorlagendefinitionen für einen Absatz, einfache Tabellen-, Tabellen- und Textelemente. Sie können eine Vorlagendefinition für ein beliebiges Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise zu jedem neuen `p`-Element in einer Liste ein `li`-Element hinzufügen möchten, können Sie zu diesem Zweck den folgenden Code am Ende des Abschnitts „Vorlagen“ hinzufügen:
+- **templates:** Dieser Abschnitt enthält die vordefinierte Struktur der DITA-Elemente, die Sie in Ihrem Dokument verwenden können. Standardmäßig enthält der Abschnitt Vorlagen Vorlagendefinitionen für einen Absatz, einfache Tabellen-, Tabellen- und Textelemente. Sie können eine Vorlagendefinition für ein beliebiges Element erstellen, indem Sie eine gültige XML-Struktur für das gewünschte Element hinzufügen. Wenn Sie beispielsweise zu jedem neuen `li`-Element in einer Liste ein `p`-Element hinzufügen möchten, können Sie zu diesem Zweck den folgenden Code am Ende des Abschnitts „Vorlagen“ hinzufügen:
 
 ```HTML
 "li": "<li><p></p></li>"
