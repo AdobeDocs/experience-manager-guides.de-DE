@@ -6,11 +6,25 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/IkHZuSR5DLwAFy2ll9n0MN2syoqjScq7oUh7pRiQyjA
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: baa3aa24-d162-4a57-b73a-d27341145083id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3id: df6fa66f-4542-4a6d-90ca-9f146eb5d494id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: baa3aa24-d162-4a57-b73a-d27341145083
+  - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+  - id: d5ea0417-7932-4688-a3e2-4d3b2e7076a3
+  - id: df6fa66f-4542-4a6d-90ca-9f146eb5d494
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
 workflow-type: tm+mt
 source-wordcount: 5886
@@ -142,7 +156,7 @@ Sie können auch benutzerdefinierte DITA Open Toolkit \(DITA-OT\)-Plug-ins mit A
 
 >[!TIP]
 >
-> Best Practices für die Erstellung von AEM *Site-Ausgaben finden Sie im Abschnitt [0}AEM-Site-Veröffentlichung](appendix.md#) im Handbuch zu Best Practices..md\#.*
+> Best Practices für die Erstellung von AEM *Site-Ausgaben finden Sie im Abschnitt [0&rbrace;AEM-Site-Veröffentlichung](appendix.md#) im Handbuch zu Best Practices..md\#.*
 
 ### Anpassen der Design-Vorlage für die Generierung von Ausgaben {#customize_xml-add-on}
 
@@ -248,7 +262,7 @@ Um die gültigen Sonderzeichen in Dateinamen und in der AEM-Site-Ausgabe zu konf
 
 1. Suchen Sie nach dem Bundle *com.adobe.fmdita.common.SanitizeNodeNameImpl* und klicken Sie darauf.
 
-1. Stellen Sie in der **Nicht zulässiger Zeichensatz für die Veröffentlichung in AEM Sites** sicher, dass die Eigenschaft auf `<>``@$` festgelegt ist. Sie können dieser Liste weitere Sonderzeichen hinzufügen. Sie muss jedoch diese erforderlichen Sonderzeichen enthalten.
+1. Stellen Sie in der **Nicht zulässiger Zeichensatz für die Veröffentlichung in AEM Sites** sicher, dass die Eigenschaft auf `<>`&#x200B;`@$` festgelegt ist. Sie können dieser Liste weitere Sonderzeichen hinzufügen. Sie muss jedoch diese erforderlichen Sonderzeichen enthalten.
 
    >[!NOTE]
    >
@@ -338,7 +352,7 @@ Um das `table`-Element von der Reduzierung auszuschließen, fügen Sie die folge
 
 ### Konfigurieren der Versionierung für gelöschte Seiten in der AEM Site-Ausgabe
 
-Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und ****Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
+Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und **&#x200B;**&#x200B;Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
 
 Führen Sie die folgenden Schritte aus, um die Erstellung einer Version für die zu löschenden Seiten zu stoppen:
 
