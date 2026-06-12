@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Smart-Hilfe für die Inhaltssuche konfigu
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
 source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
 
 1. [Adobe Developer Console starten](https://developer.adobe.com/console).
 1. Nach erfolgreicher Anmeldung bei Developer Console wird der Bildschirm &quot;**&quot;**. Auf dem **Startseite**-Bildschirm finden Sie mühelos Informationen und Schnelllinks, einschließlich der oberen Navigationslinks zu Projekten und Downloads.
-1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**&#x200B;Links aus.
+1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**Links aus.
    ![Schnellstart-Links](assets/conf-ss-quick-start.png) {width="550"}
    *Neues Projekt erstellen.*
 
@@ -34,7 +34,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
    *Fügen Sie Ihrem Projekt die I/O-Management-API hinzu.*
 
 1. Erstellen Sie eine neue **OAuth-Berechtigung** und speichern Sie sie.
-   ![OAuth-Berechtigungskachel in der API konfigurieren](assets/conf-ss-OAuth-credential.png) {width="3000"}
+   ![OAuth-Berechtigungskachel in API konfigurieren](assets/conf-ss-OAuth-credential.png) {width="3000"}
    *Konfigurieren von OAuth-Anmeldeinformationen für Ihre API.*
 
 1. Wählen Sie auf **Registerkarte** die Option **OAuth-Server zu Server** und wählen Sie dann die neu erstellten Anmeldeinformationen aus.

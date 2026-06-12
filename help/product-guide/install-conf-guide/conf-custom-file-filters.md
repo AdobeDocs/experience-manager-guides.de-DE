@@ -127,4 +127,4 @@ Die folgenden Registerkarten enthalten Anweisungen zum Hinzufügen Ihrer benutze
 >[!ENDTABS]
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](customize-overview.md)

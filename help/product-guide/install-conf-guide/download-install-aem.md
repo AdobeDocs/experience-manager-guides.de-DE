@@ -4,10 +4,11 @@ description: Erfahren Sie, wie Sie Adobe Experience Manager installieren
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: d72b007c-9f0a-41be-bca2-2d6b54c30de1
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 0%
+source-wordcount: '213'
+ht-degree: 5%
 
 ---
 
@@ -15,9 +16,9 @@ ht-degree: 0%
 
 AEM Guides ist ein Plug-in, das auf Adobe Experience Manager installiert wird. Für die Installation von AEM müssen Sie einige grundlegende AEM-Konzepte und empfohlene Bereitstellungsszenarien verstehen. Die folgenden Link-Ressourcen helfen Ihnen bei den ersten Schritten bei der Installation von AEM:
 
-- [Grundlegende AEM-Konzepte](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [Grundlegende AEM-Konzepte](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [Empfohlene AEM-Bereitstellungen](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [Empfohlene AEM-Bereitstellungen](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 >[!IMPORTANT]
 >
@@ -33,4 +34,4 @@ Wenn Sie ein Upgrade Ihrer AEM-Instanz durchführen möchten, müssen Sie die fo
 
 >[!IMPORTANT]
 >
-> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden [&#x200B; unter „Empfehlungen &#x200B;](./perf-optimization-on-prem.md) Leistungsoptimierung“.
+> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden [ unter „Empfehlungen ](./perf-optimization-on-prem.md) Leistungsoptimierung“.

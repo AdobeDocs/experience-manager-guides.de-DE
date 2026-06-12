@@ -4,7 +4,8 @@ description: Erfahren Sie, wie Sie die Übersetzungsfunktion im Web-Editor konfi
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Um die Registerkarte **Verwalten** im Web-Editor auszublenden, führen Sie die f
 1. Klicken Sie auf die **Globales Profil**-Kachel.
 1. Klicken Sie auf **XML-Editor-Konfiguration**.
 1. Klicken Sie oben **auf** Bearbeiten“.
-1. Laden Sie die Datei `ui\_config.json` herunter. Entfernen Sie das folgende Codefragment aus der heruntergeladenen Datei:
+1. Laden Sie die `ui\_config.json` Datei herunter.Entfernen Sie das folgende Codefragment aus der heruntergeladenen Datei:
 
    ```json
    {
@@ -47,4 +48,4 @@ Um die Registerkarte **Verwalten** im Web-Editor auszublenden, führen Sie die f
 
 Beachten Sie, dass **Filter** Verwalten“ nicht mehr verfügbar ist.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](customize-overview.md)

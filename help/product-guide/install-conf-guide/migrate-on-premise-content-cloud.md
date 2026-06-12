@@ -4,10 +4,11 @@ description: Erfahren Sie, wie Sie Inhalte von On-Premise-Software zu Cloud Serv
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: c8348aae-224c-4419-845a-b8910629e5b3
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '844'
+ht-degree: 3%
 
 ---
 
@@ -31,17 +32,17 @@ Dieser Artikel bietet einen detaillierten, schrittweisen Prozess für die Migrat
 ## Migrationsprozess
 
 **Content Transfer Tool** ist ein von Adobe entwickeltes Tool, mit dem Sie die Migration vorhandener Inhalte von einer Adobe Experience Manager On-Premise- oder Managed Services-Quellinstanz zur Experience Manager Cloud Service-Zielinstanz initiieren können.
-Dieses Tool überträgt auch Prinzipale (Benutzende oder Gruppen) automatisch.
+Dieses Tool überträgt auch Prinzipale (Benutzer oder Gruppen) automatisch.
 
 Sie können das **Content Transfer Tool** als ZIP-Datei vom **Software Distribution**-Portal herunterladen:
 
-1. Wählen Sie die **&#x200B;**&#x200B;AEM as a Cloud Service **im Portal** Software Distribution“ aus.
+1. Wählen Sie die **** AEM as a Cloud Service **im Portal** Software Distribution“ aus.
 1. Suchen Sie **Content Transfer Tool**.
 1. Wählen Sie **Content Transfer Tool** aus der Liste aus und laden Sie es herunter.
 
 ![Content Transfer Tool herunterladen](./assets/content-transfer-tool-software-portal.png)
 Installieren Sie dann das Paket über **Package Manager** auf Ihrer Adobe Experience Manager-Quellinstanz. Stellen Sie sicher, dass Sie die neueste Version herunterladen.
-Weitere Informationen zur neuesten Version finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=de).
+Weitere Informationen zur neuesten Version finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
 
 >[!NOTE]
 > 
@@ -70,7 +71,7 @@ Führen Sie die folgenden Schritte aus, um Experience Manager Guides-Inhalte zu 
 
    ![Inhaltsübertragung überprüfen](./assets/migration-content-transfer-review.png)
 
-1. Klicken Sie **Migrationssatz erstellen**.
+1. Klicken Sie auf **Migrationssatz erstellen**.
 
 1. Geben Sie den Namen und die Beschreibung für den Migrationssatz an.
 
@@ -116,7 +117,7 @@ oder
 
    >[!NOTE]
    >
-   > Die folgenden Pfade müssen für Inhalte des Typs **Experience Manager Guides&rbrace; zwingend** werden.
+   > Die folgenden Pfade müssen für Inhalte des Typs **Experience Manager Guides} zwingend** werden.
 
    * `/content/dam`
    * `/var/dxml`

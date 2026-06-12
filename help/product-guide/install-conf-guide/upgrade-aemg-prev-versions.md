@@ -4,10 +4,11 @@ description: Erfahren Sie, wie Sie Adobe Experience Manager Guides aktualisieren
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 61a6a623-2f29-43b5-a053-7f1f925de6d6
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 0%
+source-wordcount: '3168'
+ht-degree: 2%
 
 ---
 
@@ -15,11 +16,11 @@ ht-degree: 0%
 
 Dieser Artikel enthält Anweisungen zum Aktualisieren von **Adobe Experience Manager Guides**-Versionen **vor 4.6.0** (bis einschließlich **4.4.0**).
 
-Wenn Sie eine Version **vor 3.8.5** verwenden, lesen Sie den Abschnitt **Upgrade von Experience Manager Guides** im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive verfügbar ist](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html).
+Wenn Sie eine Version **vor 3.8.5** verwenden, lesen Sie den Abschnitt **Upgrade von Experience Manager Guides** im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive verfügbar ist](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 Aktualisierungsanweisungen für neuere Versionen finden Sie unter [Adobe Experience Manager Guides für Version 4.6.0 und höher aktualisieren](./upgrade-aemg-latest-version.md).
 
-## Vorbereitung
+## Bevor Sie beginnen
 
 >[!NOTE]
 >
@@ -57,7 +58,7 @@ Bei einigen Upgrades ist es außerdem erforderlich, für eine Upgrade-Klasse fü
 
 >[!NOTE]
 >
-> Dieses Upgrade-Verfahren gilt **nur** von **3.8.5** auf **4.0**. Informationen zu Upgrades von **3.4 oder höher** auf **3.8.5** finden Sie im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+> Dieses Upgrade-Verfahren gilt **nur** von **3.8.5** auf **4.0**. Informationen zu Upgrades von **3.4 oder höher** auf **3.8.5** finden Sie im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 Wenn Sie Experience Manager Guides Version **3.8.5** verwenden, können Sie auf Version **4.0** aktualisieren, ohne die vorherige Version zu deinstallieren.
 
@@ -75,7 +76,7 @@ Diese API dient dazu, den aktuellen Systemstatus zu bewerten und Berichte zu ers
 | Endpunkt | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Abfragetyp | **GET** <br> **Hinweis**: Sie können einen Webbrowser verwenden, in dem Sie als Admin bei der AEM-Instanz angemeldet sind. |
-| Erwartete Antwort | -   Wenn alle erforderlichen Knoten verschoben werden können, erhalten Sie eine bestandene Prüfung. <br>-   Wenn am Zielspeicherort ein Knoten vorhanden ist, wird ein relevanter Fehler angezeigt. Bereinigen Sie das Repository \(löschen Sie den Knoten /var/dxml\) und installieren Sie das Aktualisierungspaket erneut. Führen Sie dann erneut einen Trigger mit diesem Endpunkt durch. <br>**Hinweis:** Dies ist kein häufiger Fehler, da der Zielspeicherort von 3.x Experience Manager Guides nicht zuvor verwendet wird. <br> -   Wenn dieses Skript nicht erfolgreich ist, fahren Sie nicht fort und melden Sie es Ihrem Customer Success-Team. |
+| Erwartete Antwort | - Wenn alle erforderlichen Knoten verschoben werden können, erhalten Sie eine bestandene Prüfung. <br>- Wenn ein Knoten am Zielspeicherort vorhanden ist, wird ein relevanter Fehler angezeigt. Bereinigen Sie das Repository \(löschen Sie den Knoten /var/dxml\) und installieren Sie das Aktualisierungspaket erneut. Führen Sie dann erneut einen Trigger mit diesem Endpunkt durch. <br>**Hinweis:** Dies ist kein häufiger Fehler, da der Zielspeicherort von 3.x Experience Manager Guides nicht zuvor verwendet wird. <br> - Wenn dieses Skript nicht erfolgreich ist, fahren Sie nicht fort und melden Sie es Ihrem Customer Success-Team. |
 
 **Systemdatenmigrations-API**
 
@@ -87,7 +88,7 @@ Diese API dient zur Migration der Systemdaten, wie im Abschnitt **Migrationszuor
 | Endpunkt | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Abfragetyp | **POST** <br>**Hinweis**: Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
-| Erwartete Antwort | -   Nach erfolgreicher Migration können Sie die XML Documentation-Lösung Version 4.0.<br>-   Wenn Fehler auftreten, stellen Sie den letzten Checkpoint wieder her und geben Sie die Fehlerprotokolle zusammen mit der API-Ausgabe an Ihr Customer Success-Team weiter. |
+| Erwartete Antwort | - Nach erfolgreicher Migration können Sie die XML Documentation-Lösung Version 4.0.<br> installieren.- Wenn Fehler auftreten, stellen Sie den letzten Checkpoint wieder her und geben Sie die Fehlerprotokolle zusammen mit der API-Ausgabe an Ihr Customer Success-Team weiter. |
 
 
 **Migrationszuordnung**
@@ -201,7 +202,7 @@ Sie können direkt auf Version **4.2.1**, wenn Sie **4.1**, **4.1.x** oder **4.2
    - `Unable to port translation map from v1 to v2 for property`
 5. (Optional) Upgrade des Oxygen Connector-Plug-ins, das mit Version **4.2 veröffentlicht wurde**
 6. Browser-Cache löschen.
-7. Fahren Sie mit [Allgemeine Aufgaben nach einem Upgrade (alle Versionen) &#x200B;](#common-postupgrade-tasks-all-versions).
+7. Fahren Sie mit [Allgemeine Aufgaben nach einem Upgrade (alle Versionen) ](#common-postupgrade-tasks-all-versions).
 
 ### Nach der Installation von Version 4.2.1
 
@@ -255,7 +256,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.3.1 Folge
 
 1. auf Experience Manager Guides Version 4.3.0, 4.2 oder 4.2.1 aktualisiert und der entsprechende Installationsschritt abgeschlossen.
 1. (Optional) Alle Übersetzungsaufgaben wurden geschlossen.
-1. Protokollebene für **Klasse in &quot;**&quot; `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
+1. Protokollebene für `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` Klasse in &quot;**&quot;** und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
 
 ### Installieren von Version 4.3.1
 
@@ -320,7 +321,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.4.0 Folge
 
 1. auf Experience Manager Guides Version 4.3.1, 4.3.0 oder 4.2.1 (Hotfix 4.2.1.3) aktualisiert und der entsprechende Installationsschritt abgeschlossen.
 1. (Optional) Alle Übersetzungsaufgaben wurden geschlossen.
-1. Protokollebene für **Klasse in &quot;**&quot; `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
+1. Protokollebene für `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` Klasse in &quot;**&quot;** und diese Protokolle in einer neuen Protokolldatei anhängen, z. B. `logs/translation_upgrade.log`.
 
 ### Installieren von Version 4.4.0
 
@@ -343,7 +344,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.4.0 Folge
 7. Weiter mit:
 
    - [Häufige Aufgaben nach einem Upgrade (alle Versionen)](#common-ppostupgrade-tasks-all-versions)
-   - [Vorhandenen Inhalt für Map suchen und ersetzen &#x200B;](#index-existing-content-for-map-find-and-replace)Nur falls zutreffend)
+   - [Vorhandenen Inhalt für Map suchen und ersetzen ](#index-existing-content-for-map-find-and-replace)Nur falls zutreffend)
    - [Vorhandenen Inhalt für Bericht zu fehlerhaftem Link nachverarbeiten](#post-process-existing-content-for-broken-link-report) (Nur falls zutreffend)
    - [Upgrade der Übersetzungszuordnung (Servlet-Trigger)](#translation-map-upgrade-servlet-trigger) (Nur falls zutreffend)
 
@@ -370,8 +371,8 @@ Nach der Installation von Experience Manager Guides müssen Sie möglicherweise 
 - Titel: `DXML Post Process Initiator`
 - Beschreibung: `DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset`
       **Registerkarte „Prozess“**
-- Prozess: `DXML Post Process Initiator` auswählen
-- `Handler Advance` auswählen
+- Prozess: auswählen `DXML Post Process Initiator`
+- Auswählen `Handler Advance`
 - `Done` auswählen
    3. Klicken Sie **rechts oben** den Änderungen auf „Synchronisieren“. Sie erhalten eine Erfolgsbenachrichtigung.
 
@@ -411,7 +412,7 @@ Nach Abschluss des Upgrades:
 1. Nachdem das Upgrade abgeschlossen ist, stellen Sie sicher, dass alle Anpassungen/Überlagerungen validiert und aktualisiert werden, damit sie dem neuen Anwendungs-Code entsprechen. Im Folgenden finden Sie einige Beispiele:
    - Alle Komponenten, die von /libs/fmdidator/libs überlagert sind, sollten mit dem neuen Produkt-Code verglichen werden und Aktualisierungen sollten in überlagerten Dateien unter /apps vorgenommen werden.
    - Alle Client-Bibliothekskategorien, die vom Produkt verwendet werden, sollten auf Änderungen überprüft werden. Alle überschriebenen Konfigurationen \(Beispiele unten\) sollten mit den neuesten verglichen werden, um die neuesten Funktionen zu erhalten:
-   - elementmapping.xml
+   - elementMapping.xml
    - ui\_config.json\(wurde möglicherweise in Ordnerprofilen festgelegt\)
    - geänderte `com.adobe.fmdita.config.ConfigManager`
 
@@ -515,7 +516,7 @@ Führen Sie die folgenden Schritte aus, um den Bericht „Beschädigter Link“ 
    |---|---|
    | Abfragetyp | **GET** |
    | Parameter | jobId: Übergeben Sie die jobId, die von der vorherigen POST-Anfrage erhalten wurde. |
-   | Erwartete Antwort | - Nachdem der Vorgang abgeschlossen ist, wird die GET-Anfrage erfolgreich beantwortet. <br> - Wenn Fehler auftreten, teilen Sie die Fehlerprotokolle zusammen mit der API-Ausgabe mit Ihrem Customer Success-Team.  <br>Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Erwartete Antwort | - Sobald der Auftrag abgeschlossen ist, antwortet die GET-Anfrage mit Erfolg. <br> - Wenn Fehler auftreten, teilen Sie die Fehlerprotokolle zusammen mit der API-Ausgabe mit Ihrem Customer Success-Team.  <br>Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 1. Kehren Sie zum Standardwert oder vorherigen vorhandenen Wert von `queryLimitReads` zurück, wenn Sie ihn in Schritt 1 geändert haben.
 
@@ -563,4 +564,3 @@ Wenn Sie einen anderen benutzerdefinierten Sling-Rewriter in Ihrer Codebasis hab
 
 - Verwenden Sie einen `order` Wert **größer als 50** da Guides `order=50` verwenden.
 - Während dieses Upgrades ändert sich der `order` von `1000` in `50`. Daher müssen Sie Ihren vorhandenen benutzerdefinierten Rewriter (falls vorhanden) mit `fmditarewriter` zusammenführen.
-

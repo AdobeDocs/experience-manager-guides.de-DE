@@ -77,4 +77,4 @@ Informationen zur heruntergeladenen `ui\_config.json` finden Sie im folgenden Ab
 
 Die konfigurierten Filter werden im Bedienfeld **Filter** im Repository auf der Startseite angezeigt.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](customize-overview.md)

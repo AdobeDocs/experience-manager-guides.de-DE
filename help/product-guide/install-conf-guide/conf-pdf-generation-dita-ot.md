@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie die PDF-Generierung für einzelne Themen konf
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: a456027a-56a4-48c0-a79b-2f423692abc2
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -58,4 +59,4 @@ Führen Sie die folgenden Schritte aus, um die alte PDF-Generierung über das DI
 
 Wenn Sie nach dem Ausführen der oben genannten Schritte dasselbe Ordnerprofil aus den Benutzereinstellungen im Web-Editor auswählen, wird im Vorschaumodus eines Themas die Option für die PDF-Generierung angezeigt.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](customize-overview.md)
