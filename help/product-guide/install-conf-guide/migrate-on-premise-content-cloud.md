@@ -4,10 +4,11 @@ description: Erfahren Sie, wie Sie Inhalte von On-Premise-Software zu Cloud Serv
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: c8348aae-224c-4419-845a-b8910629e5b3
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '844'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +32,7 @@ Dieser Artikel bietet einen detaillierten, schrittweisen Prozess für die Migrat
 ## Migrationsprozess
 
 **Content Transfer Tool** ist ein von Adobe entwickeltes Tool, mit dem Sie die Migration vorhandener Inhalte von einer Adobe Experience Manager On-Premise- oder Managed Services-Quellinstanz zur Experience Manager Cloud Service-Zielinstanz initiieren können.
-Dieses Tool überträgt auch Prinzipale (Benutzende oder Gruppen) automatisch.
+Dieses Tool überträgt auch Prinzipale (Benutzer oder Gruppen) automatisch.
 
 Sie können das **Content Transfer Tool** als ZIP-Datei vom **Software Distribution**-Portal herunterladen:
 
@@ -70,7 +71,7 @@ Führen Sie die folgenden Schritte aus, um Experience Manager Guides-Inhalte zu 
 
    ![Inhaltsübertragung überprüfen](./assets/migration-content-transfer-review.png)
 
-1. Klicken Sie **Migrationssatz erstellen**.
+1. Klicken Sie auf **Migrationssatz erstellen**.
 
 1. Geben Sie den Namen und die Beschreibung für den Migrationssatz an.
 

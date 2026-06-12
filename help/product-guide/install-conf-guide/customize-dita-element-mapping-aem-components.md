@@ -4,13 +4,13 @@ description: Erfahren Sie, wie Sie die DITA-Elementzuordnung mit AEM-Komponenten
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: b712223f-c7df-423c-9a46-6b3704f4bd26
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1272'
 ht-degree: 1%
 
 ---
-
 
 # Anpassen der DITA-Elementzuordnung mit AEM-Komponenten {#id1679J600HEL}
 
@@ -164,9 +164,9 @@ In der folgenden Tabelle werden die Elemente im DITA-Elementschema beschrieben:
 | Element | Beschreibung |
 |-------|-----------|
 | `<ditaelement>` | Der Knoten der obersten Ebene für jedes Zuordnungselement. |
-| `<class>` | Das Klassenattribut des Ziel-DITA-Elements, für das Sie die Komponente schreiben.<br> Das Klassenattribut für das DITA-Thema lautet beispielsweise: <br> `- topic/topic` |
+| `<class>` | Das Klassenattribut des DITA-Zielelements, für das Sie die Komponente schreiben.<br> Das Klassenattribut für das DITA-Thema lautet beispielsweise: <br> `- topic/topic` |
 | `<componentpath>` | Der CRXDE-Pfad der zugeordneten AEM-Komponente. |
-| `<type>` | Mögliche Werte:<br> -   **COMPOSITE**: Verarbeiten Sie auch untergeordnete Elemente <br> -   **STANDALONE**: Überspringt die Verarbeitung von untergeordneten Elementen |
+| `<type>` | Mögliche Werte: <br> - **COMPOSITE**: Verarbeiten Sie auch untergeordnete Elemente <br> - **STANDALONE**: Überspringt die Verarbeitung von untergeordneten Elementen |
 | `<attributeprop>` | Wird für die Zuordnung serialisierter DITA-Attribute und -Werte zu AEM-Knoten als Eigenschaft verwendet. Wenn Sie beispielsweise über `<note type="Caution">` Element verfügen und die Komponente, die für dieses Element zugeordnet ist, über `<attributeprop>attr_t</ attributeprop>` verfügt, werden das Attribut und der Wert des Knotens in `attr_t` Eigenschaft des entsprechenden AEM-Knotens \( `attr_t->type="caution"`\) serialisiert. |
 | `<textprop>propname_t</textprop>` | Speichern Sie die `getTextContent()` Ausgabe in der Eigenschaft, die durch `propname_t.` <br> definiert ist **Hinweis:** Dies ist eine optimierte Eigenschaft. |
 | `<xmlprop>propname_x </xmlprop>` | Speichern Sie die serialisierte XML dieses Knotens in der Eigenschaft `propname_x.<br> `**Hinweis:** Dies ist eine optimierte Eigenschaft. |
@@ -175,7 +175,7 @@ In der folgenden Tabelle werden die Elemente im DITA-Elementschema beschrieben:
 | `<wrapelement>` | Das HTML-Element, in das der Inhalt eingeschlossen werden soll. |
 | `<wrapclass>` | Der Elementwert zur `wrapclass.` |
 | `<attributemap>` | Container-Knoten, der einen oder mehrere `<attribute>`-Knoten enthält. |
-| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Ordnet die DITA-Attribute AEM-Eigenschaften zu: <br> -   **`from`**: DITA-Attributname <br> -   **`to`**: Eigenschaftsname der AEM-Komponente <br> -   **`ispath`**: Wenn das Attribut ein Pfadwert ist \(z. B.: *image*\) <br> -   **`rel`**: Wenn der Pfad die Quell- oder <br> ist **Hinweis:** Wenn `attrname` mit `%` beginnt, dann ordnen Sie `attrname minus '%'` der Eigenschaft &#39; `propname`&#39; zu. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Ordnet die DITA-Attribute AEM-Eigenschaften zu: <br> - **`from`**: DITA-Attributname <br> - **`to`**: Name der AEM-Komponenteneigenschaft <br> - **`ispath`**: Wenn das Attribut ein Pfadwert ist \(z. B.: *image*\) <br> - **`rel`**: Wenn der Pfad die Quell- oder <br> ist **Hinweis:** Wenn `attrname` mit `%` beginnt, dann ordnen Sie `attrname minus '%'` der Eigenschaft &#39; `propname`&#39; zu. |
 
 **Zusätzliche Hinweise**
 
@@ -188,5 +188,3 @@ In der folgenden Tabelle werden die Elemente im DITA-Elementschema beschrieben:
 - Wenn Sie planen, einige \(und nicht alle\) der Elementzuordnungen zu überschreiben, müssen Sie nicht die gesamte `elementmapping.xml` replizieren. Sie müssen eine neue XML-Zuordnungsdatei erstellen und nur die Elemente definieren, die Sie überschreiben.
 
 - Nachdem Sie die XML-Datei am benutzerdefinierten Speicherort erstellt haben, aktualisieren Sie die `Override Element Mapping` im `com.adobe.fmdita.config.ConfigManager`.
-
-
