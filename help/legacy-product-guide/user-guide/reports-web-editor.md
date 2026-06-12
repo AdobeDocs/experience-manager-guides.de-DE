@@ -6,20 +6,14 @@ role: User
 hide: true
 exl-id: d0fc902a-0b50-4af5-9e24-5564d216396c
 TQID: https://experienceleague.adobe.com/hhpFHjRAKTqhGfNNGNREL3-9-XXzCt7vFsbmPYnuLo0
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: cdab8659-8d50-4417-b6fd-762f347c13ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: cdab8659-8d50-4417-b6fd-762f347c13ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 2384
+source-wordcount: 2193
 ht-degree: 0%
 
 ---
@@ -127,7 +121,7 @@ Der **Multimedia** Bericht enthält detaillierte Informationen zu den in Ihrer Z
 1. Doppelklicken Sie auf **Multimedia** links. Die Liste der in der DITA-Karte vorhandenen Multimedia-Inhalte wird angezeigt.
 1. Im Bedienfeld **Filter** können Sie die Liste nach Multimedia oder nach den in Verweisen verwendeten Namen sortieren.
 
-   - Wenn Sie nach **Multimedia** sortieren, wird der **&#x200B;**-Name des Multimediums in der ersten Spalte angezeigt und dann werden die Namen aller Verweise, in denen sie verwendet wurden, in einer anderen Spalte in derselben Zeile angezeigt. Der folgende Screenshot zeigt beispielsweise die Multimedia-Datei „WarmCoolForC.gif“ in der ersten Spalte und drei Verweise, in denen sie verwendet wird, werden in der dritten Spalte in derselben Zeile angezeigt.
+   - Wenn Sie nach **Multimedia** sortieren, wird der ****-Name des Multimediums in der ersten Spalte angezeigt und dann werden die Namen aller Verweise, in denen sie verwendet wurden, in einer anderen Spalte in derselben Zeile angezeigt. Der folgende Screenshot zeigt beispielsweise die Multimedia-Datei „WarmCoolForC.gif“ in der ersten Spalte und drei Verweise, in denen sie verwendet wird, werden in der dritten Spalte in derselben Zeile angezeigt.
 
      ![](images/multimedia-report-file-order.png){width="650"}
 
@@ -206,4 +200,4 @@ Klicken Sie **Aktualisieren** um eine neue Liste fehlerhafter Links zu erhalten 
 1. Klicken Sie **CSV herunterladen**, um den aktuellen Schnappschuss der fehlerhaften Links in der DITA-Karte herunterzuladen. Die CSV-Datei enthält die ausgewählten Spalten und die fehlerhaften Links, die in der Ansicht Beschädigte Links gefiltert wurden. Sie können diese CSV-Datei dann in einem beliebigen CSV-Editor öffnen und anzeigen.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Reports](reports-intro.md)
+**Übergeordnetes Thema:**[ Reports](reports-intro.md)
