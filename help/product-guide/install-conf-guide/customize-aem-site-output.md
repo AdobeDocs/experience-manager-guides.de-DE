@@ -28,7 +28,7 @@ Mit dem AEM Guides können Sie auch benutzerdefinierte DITA Open Toolkit \(DITA-
 
 >[!TIP]
 >
-> Best Practices für die Erstellung *AEM-Site-Ausgabe finden Sie im Abschnitt [Best &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)&quot; zur Veröffentlichung der AEM-Site.*
+> Best Practices für die Erstellung *AEM-Site-Ausgabe finden Sie im Abschnitt [Best ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf)&quot; zur Veröffentlichung der AEM-Site.*
 
 
 ## Anpassen der Design-Vorlage für die Generierung von Ausgaben {#customize_xml-add-on}
@@ -98,7 +98,7 @@ Die Eigenschaften der AEM Guides-Design-Vorlage werden in der folgenden Tabelle 
 >
 > Nachdem Sie einen benutzerdefinierten Design-Vorlagenknoten erstellt haben, müssen Sie die Option Design in den AEM-Site-Ausgabevorgaben aktualisieren, um den benutzerdefinierten Design-Vorlagenknoten zu verwenden.
 
-Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager-Website](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de) und [Grundlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=de) Entwicklung einer eigenen Website in AEM.
+Weitere Informationen finden Sie unter [Erstellen der ersten Adobe Experience Manager-Website](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=de) und [Grundlagen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) Entwicklung einer eigenen Website in AEM.
 
 ## Verwenden des Dokumenttitels zum Generieren der AEM-Site-Ausgabe
 
@@ -210,7 +210,7 @@ Sie können auch die anderen Eigenschaften konfigurieren, z. B. Kleinbuchstaben 
 
 1. Suchen Sie nach dem Bundle *com.adobe.fmdita.common.SanitizeNodeNameImpl* und klicken Sie darauf.
 
-1. Stellen Sie in der **Nicht zulässiger Zeichensatz für die Veröffentlichung in AEM Sites** sicher, dass die Eigenschaft auf `<>` `@$` festgelegt ist. Sie können dieser Liste weitere Sonderzeichen hinzufügen. Sie muss jedoch diese erforderlichen Sonderzeichen enthalten.
+1. Stellen Sie in der **Nicht zulässiger Zeichensatz für die Veröffentlichung in AEM Sites** sicher, dass die Eigenschaft auf `<>``@$` festgelegt ist. Sie können dieser Liste weitere Sonderzeichen hinzufügen. Sie muss jedoch diese erforderlichen Sonderzeichen enthalten.
 
    >[!NOTE]
    >
@@ -363,7 +363,7 @@ Um das `table`-Element von der Reduzierung auszuschließen, fügen Sie die folge
 
 ## Konfigurieren der Versionierung für gelöschte Seiten in der AEM Site-Ausgabe
 
-Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und **&#x200B;**&#x200B;Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
+Beim Generieren der AEM-Site **Ausgabe mit der Option** Löschen und ****Erstellen) für die Einstellung Vorhandene Ausgabeseiten wird eine Version für die zu löschenden Seiten erstellt. Sie können das System so konfigurieren, dass die Erstellung einer Version vor dem Löschen gestoppt wird.
 
 Die folgenden Registerkarten enthalten Anweisungen, um die Erstellung einer Version für die Seite(n) zu stoppen, die auf der Grundlage Ihrer Experience Manager Guides-Einrichtung gelöscht wird: Cloud Service oder On-Premise.
 

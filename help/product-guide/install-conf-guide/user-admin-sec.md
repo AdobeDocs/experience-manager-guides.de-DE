@@ -7,8 +7,8 @@ level: Experienced
 exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
 source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 10%
+source-wordcount: '796'
+ht-degree: 12%
 
 ---
 
@@ -20,7 +20,7 @@ Die folgenden Themen in der Dokumentation zu Adobe Experience Manager helfen Ihn
 
 | Cloud Services | On-Premises |
 |---|---|
-| [AEM-Benutzer, -Gruppen und -Berechtigungen](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=de)<br>[Benutzerverwaltung und -Sicherheit](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=de) | [Benutzer und Gruppen in AEM](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Berechtigungen in AEM](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Verwalten von Benutzern und Gruppen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Verwalten von Berechtigungen](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [AEM-Benutzer, -Gruppen und -Berechtigungen](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[Benutzerverwaltung und -Sicherheit](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=de) | [Benutzer und Gruppen in AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Berechtigungen in AEM](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Verwalten von Benutzern und Gruppen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Verwalten von Berechtigungen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## Von AEM Guides erstellte Benutzergruppen {#id181TF0K0MHT}
@@ -103,4 +103,4 @@ Die folgende Liste enthält einige Empfehlungen und Punkte zu Benutzergruppen un
 
 - Wenn Sie einem Benutzer die Rechte zum Ändern eines Dokumentstatus erteilen möchten, stellen Sie sicher, dass Sie den Benutzer im Abschnitt „Statusübergang“ des Dokumentstatusprofils hinzufügen.
 
-[1](#fnsrc_1) Wenn *Autoren* und *Herausgeber* zu einer Überprüfung eingeladen werden.[2](#fnsrc_2) Abhängig von den Berechtigungen, die dem Benutzer im Dokumentstatusprofil gewährt wurden.
+[1](#fnsrc_1) Wenn *Autoren* und *Herausgeber* zur Überprüfung eingeladen sind.[2](#fnsrc_2) Abhängig von den Rechten, die dem Benutzer im Dokumentstatusprofil gewährt wurden.
