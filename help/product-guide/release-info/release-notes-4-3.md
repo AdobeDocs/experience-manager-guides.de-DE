@@ -135,7 +135,7 @@ Die in verschiedenen Bereichen behobenen Fehler sind unten aufgeführt:
 - Native PDF | Xref druckt den Inhalt des href-Thementitels anstelle der Xref-Beschriftung. (11322)
 - Native PDF | Die PDF-Vorlageneinstellungen können nicht gespeichert werden. (10751)
 - Native PDF | Der Text überschreitet die Spaltenbreite, wenn mehrere XRefs eingeschlossen werden. (10876)
-- Das native PDF | `<note>` `</note>`-Element generiert keinen zusätzlichen span-Titel seines Typs. (10549)
+- Das native PDF | `<note>`&#x200B;`</note>`-Element generiert keinen zusätzlichen span-Titel seines Typs. (10549)
 - JSON-Ausgabe | Die `fmUuid` Eigenschaft im jcr:content-Knoten von JSON unterscheidet sich von der „id“ in JSON. (11564)
 - JSON-Ausgabe | Wenn die Zuordnung und das Thema mit demselben Dateinamen vorhanden sind, wird JSON für die Zuordnung entfernt. (11524)
 
