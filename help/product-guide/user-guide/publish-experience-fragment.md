@@ -17,8 +17,8 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 996
-ht-degree: 1%
+source-wordcount: 975
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Beispiel:
 
      Wenn Sie keine zulässige Vorlage für einen Ordner definieren, werden die Vorlagen standardmäßig aus dem übergeordneten Ordner oder dem Vorlagenordner ausgewählt.
    * **Orderable**: Ermöglicht das Ändern der Reihenfolge der Assets innerhalb eines Ordners.
-     ![Hinzufügen von Cloud-Konfigurationsdetails in den Ordnereigenschaften](images/experience-fragment-folder-properties.png){width="650"}
+     ![Fügen Sie Cloud-Konfigurationsdetails in den Ordnereigenschaften hinzu](images/experience-fragment-folder-properties.png){width="650"}
      *Fügen Sie die Cloud-Konfiguration in den Ordnereigenschaften hinzu, um sie mit den Fragmentvorlagen zu verbinden.*
 1. Um ein Experience Fragment zu generieren, wählen Sie **Neue Ausgabe** ![neues Ausgabesymbol](./images/Add_icon.svg) aus dem Abschnitt **Ausgaben** im Abschnitt **Dateieigenschaften** eines Themas aus.
 1. Wählen Sie **Experience Fragment** aus.\
