@@ -6,16 +6,10 @@ feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/etvy4eVDOfc8wWTt4LDk-XtEbAvQxESduB3-N114X-0
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 2866
@@ -45,7 +39,7 @@ Führen Sie die folgenden Schritte aus, um die Verweise mithilfe des im Produktp
 1. Führen Sie das validate-Skript \[`/bin/fmdita/validatebtree?operation=validate`\] aus, um zu überprüfen, ob neue fehlerhafte Verweise vorhanden sind.
 1. Falls das Skript „validate“ Fehler meldet, können Sie es mit dem Patch-Skript patchen.
 1. Notieren Sie sich die unten angegebenen Details und teilen Sie sie bei Bedarf mit Ihrem Customer Success-Team:
-1. &#x200B;
+1. 
    - Durch Validierungsskript ausgedruckte Protokolle
 - Paket von &quot;`/content/fmdita/references`&quot;
 - Alle anderen erforderlichen Details, abhängig vom gemeldeten Szenario
@@ -61,7 +55,7 @@ Führen Sie die folgenden Schritte aus, um fehlerhafte Verweise mithilfe des im 
 > Es wird empfohlen, die Protokolle zu Referenzzwecken zu kopieren und zu speichern.
 
 1. Nachdem das Patch-Skript erfolgreich ausgeführt wurde, können Sie die folgenden Prüfungen durchführen:
-1. &#x200B;
+1. 
    - Überprüfen Sie, ob der neue Knoten &quot;`references_backup_<timestamp>"`&quot; unter `/content/fmdita` erstellt wurde.
 - Überprüfen, ob die Verweise korrigiert wurden
 
@@ -355,7 +349,7 @@ Das folgende Beispiel zeigt, wie ein `title` in ein `table` verschoben wird:
 
 Die `paragraphStyleRule` Elemente werden nachfolgend beschrieben:
 
-**&#x200B; `paraRule` Element**
+** `paraRule` Element**
 
 Das `paraRule` ist obligatorisch. Dies legt die Zuordnungsregeln für alle Absatzformate fest. In einem InDesign-Dokument ist der gesamte Text in der Unterstruktur von Absatzformaten enthalten, auch Absätze ohne Stil werden `\[No paragraph style\]` genannt. Die eckigen Klammern geben einen integrierten Namen im InDesign-Stil an.
 

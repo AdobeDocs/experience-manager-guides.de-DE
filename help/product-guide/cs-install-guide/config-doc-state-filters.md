@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
 source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,10 @@ Führen Sie die folgenden Schritte aus, um die Filter für den Dokumentstatus zu
 Informationen zur heruntergeladenen `ui\_config.json` finden Sie im folgenden Abschnitt:
 
        &quot;
-     „repositoryFilters“: &lbrack;
-     &lbrace;
+     „repositoryFilters“: [
+     {
      „title“: „Dokumentenstatus“,
-„property“: „jcr:content/metadata/docstate“,    „children“: &lbrack;    &lbrace;title“ 
+„property“: „jcr:content/metadata/docstate“,    „children“: [    {title“ 
 „title“: „Entwurf“,    „value“: &quot;     
       
       
@@ -76,4 +76,4 @@ Informationen zur heruntergeladenen `ui\_config.json` finden Sie im folgenden Ab
 
 Die konfigurierten Filter werden im Bedienfeld **Filter** im Repository auf der Startseite angezeigt.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
