@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 4767
+source-wordcount: 4602
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Inhalte (Inhaltsverzeichnis), Index, leere Seite, Themenvorderseiten, rückwärt
 
 1. Geben _im Dialogfeld Layout duplizieren_ einen Namen für das Seiten-Layout ein.
 
-1. Klicken Sie auf **Fertig**.
+1. Klicken Sie **Fertig**.
 Eine Kopie des ausgewählten Seiten-Layouts wird erstellt und unter Seiten-Layouts hinzugefügt.
 
 ### Anpassen eines Seiten-Layouts {#customize-page-layout}
@@ -199,7 +199,7 @@ Gehen Sie wie folgt vor, um eine Asset-Datei zum Ordner „Ressourcen“ hinzuzu
 
 1. Klicken Sie **Dateien auswählen**, um die Asset-Datei auf Ihrem lokalen Computer zu durchsuchen
 
-1. Klicken Sie auf **Hochladen**.
+1. Klicken Sie **Hochladen**.
 Die ausgewählte Datei wird importiert und im Ordner Ressourcen aufgeführt.
 
 ## Erweiterte PDF-Einstellungen {#advanced-pdf-settings}
@@ -245,7 +245,7 @@ Informationen zum Anwenden der Überschriftenebenen für Inhaltsverzeichnisse un
   >Wenn Sie CSS-Entwickler sind, können Sie das Leader-Format auch direkt in der CSS-Datei definieren.
 
 * **Fortsetzungsmarkierung für Tabelle verwenden**: Wählen Sie diese Option, um Markierungen für lange Tabellen zu definieren, die sich über mehrere Seiten erstrecken.
-Sie können festlegen, welcher Text vor und nach der Pause angezeigt werden soll. Beispiel: Auf Seite 5 wird eine Tabelle umgebrochen, und Sie definieren `<Continued on page %page-num%>` für &quot;**vor Umbruch**.  Der Text zeigt unten auf Seite 5 „Fortsetzung auf Seite 6“ an.
+Sie können festlegen, welcher Text vor und nach der Pause angezeigt werden soll. Beispiel: Auf Seite 5 wird eine Tabelle umgebrochen, und Sie definieren `<Continued on page %page-num%>` für **Text vor Umbruch**. Der Text zeigt unten auf Seite 5 „Weiter auf Seite 6“ an.
 
   Verwenden Sie Sprachvariablen, um den Text der Fortsetzungsmarkierung vor und nach der Pause zu definieren. Je nach Sprache wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt. Sie können `Continued on page %page-num%` beispielsweise als Text auf Englisch und `Fortsetzung auf Seite %page-num%` auf Deutsch veröffentlichen.
 

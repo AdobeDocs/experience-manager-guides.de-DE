@@ -3,7 +3,7 @@ title: Häufig gestellte Fragen zur Veröffentlichungsleistung und Skalierbarkei
 description: Erfahren Sie mehr über die häufig gestellten Fragen zur Veröffentlichungsleistung und -skalierbarkeit in Adobe Experience Manager Guides.
 source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1654'
 ht-degree: 1%
 
 ---
