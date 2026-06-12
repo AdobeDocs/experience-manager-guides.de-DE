@@ -28,10 +28,10 @@ Führen Sie die folgenden Schritte aus, um die Filter für den Dokumentstatus zu
 Informationen zur heruntergeladenen `ui\_config.json` finden Sie im folgenden Abschnitt:
 
        &quot;
-     „repositoryFilters“: [
-     {
+     „repositoryFilters“: &lbrack;
+     &lbrace;
      „title“: „Dokumentenstatus“,
-„property“: „jcr:content/metadata/docstate“,    „children“: [    {title“ 
+„property“: „jcr:content/metadata/docstate“,    „children“: &lbrack;    &lbrace;title“ 
 „title“: „Entwurf“,    „value“: &quot;     
       
       
@@ -76,4 +76,4 @@ Informationen zur heruntergeladenen `ui\_config.json` finden Sie im folgenden Ab
 
 Die konfigurierten Filter werden im Bedienfeld **Filter** im Repository auf der Startseite angezeigt.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

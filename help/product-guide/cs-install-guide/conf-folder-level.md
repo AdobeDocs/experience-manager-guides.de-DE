@@ -6,11 +6,29 @@ feature: Profiles
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/By8tpSe4XkfhYsfCbJMhlGqyi3asQfJa2QqlLF6zKDQ
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b0521e56-a0b2-40b6-bf47-ebc98751f9baid: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105id: e557051c-ff02-4ff8-9421-cf452af0edd5id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0efid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 5239
@@ -74,7 +92,7 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
    - Benutzerdefiniert
 
-  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden ](#id18AGD0K0OHS) Vorgabenänderungen“.
+  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden &#x200B;](#id18AGD0K0OHS) Vorgabenänderungen“.
 
 - **XML-Editor-**: Auf dieser Registerkarte können Sie das Erscheinungsbild und verschiedene Funktionen des Web-Editors anpassen. Die folgenden konfigurierbaren Einstellungen sind für den Web-Editor verfügbar:
 
@@ -114,7 +132,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Informationen zum Konfigurieren **Ausgabevorgaben** finden Sie unter [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [ unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [&#x200B; unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
 
 1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie **Globales Profil**.
 
@@ -417,7 +435,7 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 ## Konfigurieren des KI-Assistenten für die intelligente Hilfe und das Authoring
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
 
 Der KI-Assistent in Adobe Experience Manager Guides ist ein leistungsstarkes, KI-gesteuertes Tool, mit dem Sie Ihre Inhalte durch intelligentes Authoring und die Wiederverwendung von Inhalten verbessern können. Es vereint zwei robuste KI-Funktionen - **Authoring** und **Help** - in der Experience Manager Guides-Oberfläche, sodass Sie Dokumente schneller und effizienter erstellen und auf Informationen zugreifen können.
 
@@ -503,9 +521,9 @@ Um sicherzustellen, dass intelligente Vorschläge effektiv funktionieren, sollte
 
 **Standardfragen für die intelligente Hilfe anpassen**
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
 
-Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 Auf der Registerkarte **XML** Editor-Konfiguration“ können Sie die Standardfragen des Bedienfelds **Hilfe** konfigurieren.
 

@@ -6,11 +6,18 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/kni90T4QnDideo-hhxJZRje3H4WTEvBfwEaLa2zOzcg
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: b0521e56-a0b2-40b6-bf47-ebc98751f9baid: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 389
@@ -76,14 +83,14 @@ Führen Sie die folgenden Schritte aus, um die Textfilter zu konfigurieren:
 
       Im obigen Code-Snippet ist der erste Filter für DITA-Dateien. Die Filterdefinition akzeptiert die folgenden Parameter:
 
-      ****Titel****: Der Anzeigename des Filters. Dieser Titel wird als Filteroption im Dialogfeld zum Durchsuchen von Dateien angezeigt.
+      **&#x200B;**&#x200B;Titel&#x200B;**&#x200B;**: Der Anzeigename des Filters. Dieser Titel wird als Filteroption im Dialogfeld zum Durchsuchen von Dateien angezeigt.
 
-      ****Property****: Die Eigenschaft, die in den Metadaten der Datei abgeglichen werden soll. Um beispielsweise nur die Dateien zuzulassen, die die Metadaten „dita\_class“ in ihrer Eigenschaft enthalten, nimmt der Eigenschaftsfilter „jcr:content/metadata/dita\_class“ als Wert.
+      **&#x200B;**&#x200B;Property&#x200B;**&#x200B;**: Die Eigenschaft, die in den Metadaten der Datei abgeglichen werden soll. Um beispielsweise nur die Dateien zuzulassen, die die Metadaten „dita\_class“ in ihrer Eigenschaft enthalten, nimmt der Eigenschaftsfilter „jcr:content/metadata/dita\_class“ als Wert.
 
-      ****Operation **:**Geben Sie „exists“ an, um mit dem Vorhandensein des im Eigenschaftenparameter angegebenen Werts abzugleichen
+      **&#x200B;**&#x200B;Operation **:**&#x200B;Geben Sie „exists“ an, um mit dem Vorhandensein des im Eigenschaftenparameter angegebenen Werts abzugleichen
 
 1. Laden Sie die aktualisierte Datei ui\_config.json hoch, die die hinzugefügten Filter enthält.
 
 Die konfigurierten Filter sind im Bedienfeld Filter verfügbar.
 
-**Übergeordnetes Thema:**[ Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)

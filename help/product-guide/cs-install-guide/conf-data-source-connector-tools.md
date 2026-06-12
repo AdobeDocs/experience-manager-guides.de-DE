@@ -6,10 +6,15 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/tigE3HdrbQXr37-Xl7ueyoWlnycTKFz02SP-koF5XAY
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
 source-wordcount: 843
@@ -22,7 +27,7 @@ ht-degree: 0%
 Experience Manager Guides enthält das Tool **Datenquellen** mit dem Sie vordefinierte Connectoren für Datenquellen konfigurieren können. Sie können die JIRA-, SQL- (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce-, Elasticsearch- und generischen REST-Client-Connectoren einrichten.
 
 
-Neben diesen vordefinierten Connectoren stellt Experience Manager Guides die Connectoren für die Datenquellen Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO) bereit. Sie können diese Open-Source-Connectoren aus dem [Maven Central Repository“ herunterladen und ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Die Benutzer können dann diese Connectoren konfigurieren.
+Neben diesen vordefinierten Connectoren stellt Experience Manager Guides die Connectoren für die Datenquellen Salsify, Akeneo und Microsoft Azure DevOps Boards (ADO) bereit. Sie können diese Open-Source-Connectoren aus dem [Maven Central Repository“ herunterladen und &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Die Benutzer können dann diese Connectoren konfigurieren.
 Erfahren Sie, wie [einen Open-Source-Connector installieren](#install-open-source-connector).
 
 
@@ -79,7 +84,7 @@ Führen Sie die folgenden Schritte aus, um eine Ressource zu erstellen:
 1. Wählen Sie ![Symbol hinzufügen](assets/Add_icon.svg) im Abschnitt **URL-Ressource** aus, um für jede URL eine Ressource hinzuzufügen.
 1. Konfigurieren Sie alle Details im Dialogfeld **Ressource hinzufügen**.
 1. Klicken Sie auf **Hinzufügen**.
-1. Sie können ![Bearbeitungssymbol](assets/edit_pencil_icon.svg) bearbeiten oder ![ Ressource aus ](assets/Delete_icon.svg) URL-Ressourcenliste löschen.
+1. Sie können ![Bearbeitungssymbol](assets/edit_pencil_icon.svg) bearbeiten oder ![&#x200B; Ressource aus &#x200B;](assets/Delete_icon.svg) URL-Ressourcenliste löschen.
 1. Sie können auch die Standardressourcen verwenden, die für Datenquellen wie Salsify, Akeneo und Microsoft ADO verfügbar sind. Schalten Sie die Optionen für die Ressource aus, die Sie nicht für eine Datenquelle konfigurieren möchten.
 
 Auf diese Weise können Sie schnell Daten aus einer der Ressourcen für eine bestimmte Datenquelle in einem einzelnen Inhaltsfragment oder Thema abrufen.
