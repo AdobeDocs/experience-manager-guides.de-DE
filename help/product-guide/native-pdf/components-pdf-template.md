@@ -6,17 +6,12 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
 workflow-type: tm+mt
-source-wordcount: 4767
+source-wordcount: 4602
 ht-degree: 0%
 
 ---
@@ -77,7 +72,7 @@ Inhalte (Inhaltsverzeichnis), Index, leere Seite, Themenvorderseiten, rückwärt
 
 1. Geben _im Dialogfeld Layout duplizieren_ einen Namen für das Seiten-Layout ein.
 
-1. Klicken Sie auf **Fertig**.
+1. Klicken Sie **Fertig**.
 Eine Kopie des ausgewählten Seiten-Layouts wird erstellt und unter Seiten-Layouts hinzugefügt.
 
 ### Anpassen eines Seiten-Layouts {#customize-page-layout}
@@ -199,7 +194,7 @@ Gehen Sie wie folgt vor, um eine Asset-Datei zum Ordner „Ressourcen“ hinzuzu
 
 1. Klicken Sie **Dateien auswählen**, um die Asset-Datei auf Ihrem lokalen Computer zu durchsuchen
 
-1. Klicken Sie auf **Hochladen**.
+1. Klicken Sie **Hochladen**.
 Die ausgewählte Datei wird importiert und im Ordner Ressourcen aufgeführt.
 
 ## Erweiterte PDF-Einstellungen {#advanced-pdf-settings}
@@ -245,7 +240,7 @@ Informationen zum Anwenden der Überschriftenebenen für Inhaltsverzeichnisse un
   >Wenn Sie CSS-Entwickler sind, können Sie das Leader-Format auch direkt in der CSS-Datei definieren.
 
 * **Fortsetzungsmarkierung für Tabelle verwenden**: Wählen Sie diese Option, um Markierungen für lange Tabellen zu definieren, die sich über mehrere Seiten erstrecken.
-Sie können festlegen, welcher Text vor und nach der Pause angezeigt werden soll. Beispiel: Auf Seite 5 wird eine Tabelle umgebrochen, und Sie definieren `<Continued on page %page-num%>` für &quot;**vor Umbruch**.  Der Text zeigt unten auf Seite 5 „Fortsetzung auf Seite 6“ an.
+Sie können festlegen, welcher Text vor und nach der Pause angezeigt werden soll. Beispiel: Auf Seite 5 wird eine Tabelle umgebrochen, und Sie definieren `<Continued on page %page-num%>` für **Text vor Umbruch**. Der Text zeigt unten auf Seite 5 „Weiter auf Seite 6“ an.
 
   Verwenden Sie Sprachvariablen, um den Text der Fortsetzungsmarkierung vor und nach der Pause zu definieren. Je nach Sprache wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt. Sie können `Continued on page %page-num%` beispielsweise als Text auf Englisch und `Fortsetzung auf Seite %page-num%` auf Deutsch veröffentlichen.
 
@@ -468,11 +463,11 @@ Sie können beispielsweise eine Sprachvariable namens „reference-label“ hinz
 Wenn Sie `${lng:<variable name>}` zum Abschnitt Absatz hinzufügen, enthalten die Querverweise in den Absätzen der Ausgabe den lokalisierten Text und die Seitenzahl.\
 Die folgenden Screenshots zeigen zum Beispiel die Querverweise „Auf Seite 1 anzeigen &quot; in englischer Sprache und „Einzelheiten finden Sie auf der Seite 1“ in deutscher Sprache.
 
-<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einem Absatz&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einem Absatz" width ="800" border="2px">
 
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in englischer Sprache.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Deutsche Ausgabe eines Querverweises in einem Absatz&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Deutsche Ausgabe eines Querverweises in einem Absatz" width ="800" border="2px">
 
 
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in deutscher Sprache.*

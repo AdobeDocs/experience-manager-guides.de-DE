@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie Nicht-DITA-Inhalte migrieren
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b416334318a83e882c32318bc4769d24268cdd1c
+exl-id: e4afe8f8-6130-4c97-a3b8-f5963a79c534
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3599'
 ht-degree: 0%
 
 ---
@@ -104,7 +105,7 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen Word-Dokumente in ei
 1. Laden Sie die Word-Quelldokumente in diesen Ordner hoch. Informationen zum Hochladen von Inhalten in DAM finden Sie unter [Vorhandenen DITA-Inhalt hochladen](upload-dita-content.md#).
 
 
-Mit dem `config` `/config` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
+Mit dem `/config` `config` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
 
 **Anpassungsaktualisierungen für bestehende Benutzer**
 
@@ -163,7 +164,7 @@ Führen Sie die folgenden Schritte aus, um Ihre vorhandenen Word-Dokumente in ei
 1. Laden Sie die Word-Quelldokumente in diesen Ordner hoch. Informationen zum Hochladen von Inhalten in DAM finden Sie unter [Vorhandenen DITA-Inhalt hochladen](upload-dita-content.md#).
 
 
-Mit dem `config` `/config` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
+Mit dem `/config` `config` können Sie einen oder mehrere Konfigurationsblöcke für die Konvertierung definieren. Der Konvertierungs-Workflow wird ausgeführt und die endgültige Ausgabe in Form eines DITA-Themas wird an dem im `outputDir` angegebenen Speicherort gespeichert.
 
 >[!ENDTABS]
 
@@ -205,7 +206,7 @@ Führen Sie die folgenden Schritte aus, um Ihre bestehenden InDesign-Dokumente i
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-1. Fügen Sie in der `idml12dita`-Datei die Zuordnung der Konfigurationen hinzu, die im Ordner `idml2dita_io.xml` vorhanden sind.
+1. Fügen Sie in der `idml2dita_io.xml`-Datei die Zuordnung der Konfigurationen hinzu, die im Ordner `idml12dita` vorhanden sind.
 1. Fügen Sie in `idml2dita_io.xml` Datei die folgenden Eigenschaften hinzu:
 
    ```
@@ -290,7 +291,7 @@ Folgende Punkte müssen beim Hochladen Ihrer Dokumente in einer ZIP-Datei berüc
   </html>
   ```
 
-  Beachten Sie, dass für jedes `ul`-Tag das `class`-Attribut auf `book` festgelegt sein muss. Ebenso muss die `li` jedes `class`-Tags auf `topicref` gesetzt werden.
+  Beachten Sie, dass für jedes `ul`-Tag das `class`-Attribut auf `book` festgelegt sein muss. Ebenso muss die `class` jedes `li`-Tags auf `topicref` gesetzt werden.
 
 - Wenn Sie Inline-Stile verwenden, konvertieren Sie die Inline-Stile in Ihrer XHTML-Datei in CSS-basierte Stilklassen. Verwenden Sie dann die Stilattributzuordnung, um diese klassenbasierten Stile in der konvertierten DITA-Datei in das DITA-`outputclass`-Attribut zu konvertieren.
 
@@ -500,4 +501,4 @@ Mit dem `<config> </config>` können Sie einen oder mehrere Konfigurationsblöck
 
 >[!ENDTABS]
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Migrieren vorhandener Inhalte](migrate-content.md)
+**Übergeordnetes Thema:**[ Migrieren vorhandener Inhalte](migrate-content.md)
