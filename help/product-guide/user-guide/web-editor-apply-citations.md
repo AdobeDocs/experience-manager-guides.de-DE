@@ -5,42 +5,31 @@ exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/FHH8Sah-KUCBl7R3XRrKXgW3aNcaeTkzJnDqRBg6OWU
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4eddfbe75d7dba679c1a414369394827162706f9
 workflow-type: tm+mt
-source-wordcount: 1962
-ht-degree: 1%
+source-wordcount: 1890
+ht-degree: 0%
 
 ---
 
 # Hinzufügen und Verwalten von Zitaten in Ihren Inhalten
 
->[!NOTE]
->
-> Zitate werden nur im alten Editor unterstützt und sind derzeit im neuen Editor nicht verfügbar. Die Informationen in diesem Artikel gelten nur, wenn Sie den alten Editor verwenden.
-
 Zitate sind Verweise auf die Quelle von Informationen, die Ihrem Inhalt hinzugefügt werden. Mithilfe von Zitaten können Sie den Autoren die Quellinformationen zuschreiben und den Lesern helfen, die Quellinformationen zu verfolgen. Das Hinzufügen von Zitaten macht Ihre Inhalte zuverlässiger und verhindert Plagiate. Sie ermöglichen es Ihnen auch, gut recherchierte Inhalte anzuzeigen.
 
 In Adobe Experience Manager Guides können Sie Zitate hinzufügen, importieren und sie auf Ihre Inhalte anwenden. Sie können diese Zitate aus jeder Quelle von Büchern, Websites und Zeitschriften hinzufügen.
 
-
 Mit Experience Manager Guides können Sie Ihre Zitate bearbeiten, in der Vorschau anzeigen und sortieren. Nachdem Sie Ihre Zitate zum Inhalt hinzugefügt haben, können Sie die Ausgabe mit dem nativen PDF generieren. Sie können die Bibliografie- oder Verweisseite auch in der nativen PDF-Ausgabe hinzufügen.
 
-Experience Manager Guides unterstützt verschiedene Zitatstile, wie die Modern Language Association (MLA), die American Psychological Association (APA), Chicago, das Institute for Electrical and Electronics Engineers (IEEE) und die American Heart Association (AHA). Es wird empfohlen, diese klar und konsequent anzuwenden.
+Experience Manager Guides unterstützt verschiedene Zitatstile, wie z. B. die Modern Language Association (MLA), die American Psychological Association (APA), Chicago, das Institute for Electrical and Electronics Engineers (IEEE), die American Heart Association (AHA) und die American Medical Association (AMA). Es wird empfohlen, diese klar und konsequent anzuwenden.
 
 
 >[!NOTE]
 >
->Derzeit unterstützt Experience Manager Guides nur native PDF für Zitate.
+>Experience Manager Guides unterstützt alle Zitatstile bei der Veröffentlichung in nativem PDF. Für die AEM Sites-Ausgabe werden derzeit nur Zitate im AMA-Stil unterstützt.
 
 
 ## Zitate hinzufügen
@@ -71,7 +60,7 @@ Gehen Sie wie folgt vor, um Zitate hinzuzufügen:
    | Buch | Website | Journal |
    | --- | ---|---|
    | **Source** <br> Wählen Sie aus der Dropdown-Liste die Quelle des Zitats als Buch aus. | **Source**<br> Wählen Sie in der Dropdown-Liste die Quelle des Zitats als Website aus. | **Source** <br> Wählen Sie in der Dropdown-Liste die Quelle des Zitats als Journal aus. |
-   | **Suchen nach** <br> Wählen Sie **ISBN** oder **DOI** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist.  <br> DOI: Digitale Objektkennung <br> ISBN: Eindeutige numerische Buchkennung | **Suchen nach** <br> Wählen Sie **DOI** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist. | **Suchen nach** <ul><li>Wählen Sie **DOI** oder **PubMed ID** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist.</li><li>Wählen Sie **Beliebiges Feld** aus dem Dropdown-Menü aus, um alle Journalfelder wie *Titel*, *Journaltitel*, *Autor*, *Jahr*, *Volumen*, *Zahl* und *Seiten* zu durchsuchen. <br> Die Suche gibt das Zitat zurück, das dem eingegebenen Text am nächsten kommt.</li> |
+   | **Suchen nach** <br> Wählen Sie **ISBN** oder **DOI** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist.  <br> DOI: Digitale Objektkennung <br> ISBN: Eindeutige numerische Buchkennung | **Suchen nach** <br> Wählen Sie **DOI** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist. | **Suchen nach** <ul><li>Wählen Sie **DOI** oder **PubMed ID** aus der Dropdown-Liste aus, um nach der digitalen ID zu suchen, die mit dem Zitat verknüpft ist.</li><li>Wählen Sie **Beliebiges Feld** aus dem Dropdown-Menü aus, um alle Journalfelder wie *Titel*, *Journaltitel*, *Autor*, *Jahr*, *Volumen*, *Zahl* und *Seiten* zu durchsuchen. <br> Die Suche gibt das Zitat zurück, das dem eingegebenen Text am nächsten kommt.</li><li> Wählen Sie **Zitat analysieren** aus der Dropdown-Liste aus, um ein unterstütztes AMA-Zitat zu analysieren und die Zitatfelder automatisch zu füllen. |
    | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors des Zitats hinzu. Wählen Sie ![](images/Add_icon.svg) aus, um weitere Namen hinzuzufügen. | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors des Zitats hinzu. Wählen Sie ![](images/Add_icon.svg) aus, um weitere Namen hinzuzufügen. | **Autor** <br> Fügen Sie den Vor- und Nachnamen des Autors des Zitats hinzu. Wählen Sie ![](images/Add_icon.svg)aus, um weitere Namen hinzuzufügen. |
    | **Titel** <br> Fügen Sie den Titel des Buchs hinzu. | **Titel** <br> Fügen Sie den Titel der Web-Seite hinzu. | **Titel** <br> Fügen Sie den Titel des Artikels hinzu. |
    | **Editor** <br> Fügen Sie den Editor des Buchs hinzu. | **Website-Name** <br> Fügen Sie den Namen der Website hinzu. | **Journaltitel** <br> Fügen Sie den Titel des Werks hinzu, in dem der Artikel gefunden wird. |
@@ -111,7 +100,7 @@ Gehen Sie wie folgt vor, um Zitate zu importieren:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importiert nur die Zitate, die eindeutig und noch nicht vorhanden sind.
-   > &gt; <li> Experience Manager Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
+    &gt; <li> Experience Manager Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
 
 ## Zitate verwalten
 
@@ -161,7 +150,7 @@ Gehen Sie wie folgt vor, um das Zitat zu bearbeiten:
 
 Das **Zitat bearbeiten** wird geöffnet.
 
-1. Nehmen Sie die erforderlichen Änderungen vor. Klicken Sie auf **Fertig**.
+1. Nehmen Sie die erforderlichen Änderungen vor. Wählen Sie **Fertig** aus.
 Das ausgewählte Zitat wird bearbeitet.
 
 >[!NOTE]
@@ -174,7 +163,7 @@ Gehen Sie wie folgt vor, um eine Vorschau eines Zitats anzuzeigen:
 
 Bewegen Sie den Mauszeiger über den Namen des Zitats in der Liste. Wählen Sie ![](images/options.svg) Symbol **Optionen** aus.
 
-1. Wählen Sie **Vorschau**.
+1. Wählen Sie **Vorschau** aus.
 Sie können den Inhalt und das Format des Zitats im Vorschaubereich in der Vorschau anzeigen.
 
    >[!NOTE]
@@ -202,11 +191,11 @@ Sie können Zitate zum Thema aus der Hauptsymbolleiste oder dem linken Bereich e
 ### In der Haupt-Symbolleiste
 
 1. Wählen Sie das Symbol **Zitate** ![Zitate](images/citations-icon.svg) in der Hauptsymbolleiste aus.
-1. Wählen Sie **Dialogfeld**&#x200B;Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
+1. Wählen Sie **Dialogfeld**Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
    ![Zitierdialogfeld](images/citation-dialog-main-toolbar.png){width="300"}
 1. Sie können Zitate filtern, indem Sie die ersten Buchstaben in das Suchfeld des Dialogfelds **Zitat** eingeben.
 
-1. Klicken Sie auf **Fertig**.
+1. Wählen Sie **Fertig** aus.
 Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
 
 
@@ -216,7 +205,7 @@ Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
 > 
 >Um das Symbol **Zitate** im linken Bereich anzuzeigen, muss Ihr Systemadministrator die Option **Zitate** auf der Registerkarte **Panels** in **Settings** aktivieren.
 
-1. Wählen Sie **Zitate** ![Zitationssymbol &#x200B;](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
+1. Wählen Sie **Zitate** ![Zitationssymbol ](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
 1. Ziehen Sie das Zitat aus dem Bedienfeld **Zitate** und legen Sie es an der entsprechenden Position im Thema ab.
 
    Sie können auch **Einfügen** unter ![](images/options.svg)**Optionen** auswählen, um ein Zitat einzufügen.

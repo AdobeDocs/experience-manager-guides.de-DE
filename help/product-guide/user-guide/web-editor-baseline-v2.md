@@ -4,9 +4,9 @@ description: Erstellen und verwalten Sie neue Baseline (Beta) über die Zuordnun
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -57,13 +57,14 @@ Bevor Sie zum neuen Baseline-Modell migrieren, überprüfen Sie die folgenden Ve
 
 | Bereich | Änderung (Beschreibung) |
 |------|-------------|
-| **Referenzauflösung** | Direkte Zuordnungsverweise sind als &quot;**&quot;**. Ungültige Verweise werden übersprungen und Verweise aus `reltable` weiterhin ausgeschlossen. |
-| **Automatisch auswählen** | Die Versionsauswahl wird unmittelbar vor dem Auflösen direkter Verweise ausgewertet, wodurch eine genaue Versionsauflösung gewährleistet ist. |
+| **Referenzauflösung** | Direkte Zuordnungsverweise sind als &quot;**&quot;**. Ungültige Verweise werden übersprungen und Verweise aus `reltable` weiterhin ausgeschlossen. Dies wird in bearbeiteten und neuen Baselines unterstützt, jedoch nicht in Baselines, die nur migriert wurden. |
+| **Automatisch auswählen** | Die Versionsauswahl wird unmittelbar vor dem Auflösen direkter Verweise ausgewertet, um eine genaue Versionsauflösung sicherzustellen. Dies wird in bearbeiteten und neuen Baselines unterstützt, jedoch nicht in Baselines, die nur migriert wurden. |
 | **Grundlegende Erstellungsregeln** | Version **1.0** ist obligatorisch. Baselines mit fehlenden oder mehrdeutigen Versionen können nach der Migration anders aufgelöst werden. |
 | **Umgang mit Migrationen** | Ungültige Verweise werden übersprungen. **DIRECT**-Verweise haben Vorrang, nicht angeheftete Verweise werden auf die neueste Version verschoben, und ab Version **5.0** zusätzliche Metadaten hinzugefügt. |
 | **Baseline-Datenmodell** | Das neue diagrammbasierte Baseline-Modell entfernt veränderliche Felder und ist nicht mit dem vorherigen Baseline-Modell abwärtskompatibel. |
 | **API-Nutzung** | Grundlegende Vorgänge werden über REST-APIs und die Java-SDK unterstützt. Rohe Baseline-Objekte werden nicht mehr verfügbar gemacht. |
 | **Versionsbereinigung** | Nach der Migration berücksichtigt die Versionsbereinigung nur Baselines, die im neuen Baseline-Repository gespeichert sind. |
+| **UI** | Dynamische Baselines können angezeigt und die Bearbeitung von Referenzversionen optimiert werden. |
 
 ## Zu neuer Baseline migrieren
 
@@ -86,7 +87,12 @@ Führen Sie die folgenden Schritte aus, um die vorhandene Baseline zur neuen Bas
 1. Geben Sie die folgenden Details im Dialogfeld an:
 
    1. **Funktionstyp**: Wählen Sie **Grundlinie** aus der Dropdown-Liste aus.
-   1. **Ordner und Datei(en) auswählen** Navigieren Sie zu und wählen Sie einen oder mehrere Ordner und Dateien aus, die verarbeitet werden sollen.
+   1. **Ordner und Datei(en) auswählen** Navigieren Sie zu und wählen Sie einen oder mehrere Ordner und Dateien aus, die verarbeitet werden sollen. Sie können nur Ordner für die Baseline-Migration auswählen.
+
+      >[!NOTE]
+      >
+      > Wählen Sie den Ordner aus, der alle Handbuchinhalte und Zuordnungsdateien enthält. Wenn Zuordnungsdateien separat gespeichert werden, wählen Sie den Ordner aus, in dem sich die Zuordnungsdateien befinden.
+
    1. **Zu ignorierende Ordner auswählen** Wählen Sie optional Unterordner innerhalb des ausgewählten übergeordneten Ordners aus, die von der Migration ausgeschlossen werden sollen.
 
    ![new-process-baseline](images/new-process-baseline.png)
@@ -109,7 +115,7 @@ Der Protokollbericht enthält Details zur Migration, einschließlich der Anzahl 
 
 ## Neue Baseline verwenden
 
-Das neue Baseline-Modell verwendet dieselben Workflows und dieselbe Benutzeroberfläche wie die vorhandene Baseline-Funktion in Experience Manager Guides. Sie können mit den verfügbaren Optionen [Baseline über die &#x200B;](./web-editor-baseline.md) erstellen und verwalten“ fortfahren.
+Das neue Baseline-Modell verwendet dieselben Workflows und dieselbe Benutzeroberfläche wie die vorhandene Baseline-Funktion in Experience Manager Guides. Sie können mit den verfügbaren Optionen [Baseline über die ](./web-editor-baseline.md) erstellen und verwalten“ fortfahren.
 
 >[!NOTE]
 >

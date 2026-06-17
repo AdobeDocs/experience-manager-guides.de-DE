@@ -6,28 +6,14 @@ role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
 TQID: https://experienceleague.adobe.com/jp7oUSIZlnTfGnx58E9rPn6Tk4zE2lp-oZSTdjblbZ0
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-  - id: b89a36a9-95de-429b-adde-f901256d8f24
-  - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
-  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: b89a36a9-95de-429b-adde-f901256d8f24id: f7774ebe-aec9-42b6-97e4-5002acdc712eid: f9dbea21-a714-40dd-bc90-080d8046c93f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9132140a0305eb0507598a7caf5f704861879a93
 workflow-type: tm+mt
-source-wordcount: 1666
+source-wordcount: 1960
 ht-degree: 0%
 
 ---
@@ -138,7 +124,7 @@ Stellen Sie bei Lern- und Schulungsinhalten sicher, dass für den Editor und die
 >
 > Diese Einstellung ist nur verfügbar, wenn die Lerninhaltsfunktion in den **Workspace-Einstellungen** > **Allgemein** aktiviert ist.
 
-Mit dieser Einstellung können Sie die Authoring- und Publishing-Vorlagen verwalten, [&#x200B; im linken Bereich des Editors &#x200B;](../user-guide/web-editor-left-panel.md). Sie können Authoring- und Ausgabevorlagen hinzufügen, entfernen oder neu anordnen, auf die dann Autoren und Herausgeber zugreifen können.
+Mit dieser Einstellung können Sie die Authoring- und Publishing-Vorlagen verwalten, [ im linken Bereich des Editors ](../user-guide/web-editor-left-panel.md). Sie können Authoring- und Ausgabevorlagen hinzufügen, entfernen oder neu anordnen, auf die dann Autoren und Herausgeber zugreifen können.
 
 ![](assets/templates-settings.png){width="350"}
 
@@ -211,6 +197,41 @@ Führen Sie die folgenden Schritte aus, um eine neue Ausgabevorlage für die Ler
 
    ![](assets/scorm-template-added.png){width="350"}
 
+### Konfigurieren von Seiten-Layouts für SCORM-Ausgabevorlagen
+
+SCORM-Ausgabevorlagen ermöglichen es Ihnen, verschiedenen Thementypen innerhalb eines Kurses verschiedene Seiten-Layouts zuzuweisen. Auf diese Weise können Sie die Präsentation von Lektionen, Tests, Übersichtsseiten und anderen Inhaltstypen im generierten SCORM-Paket anpassen.
+
+Beispielsweise kann eine Lektionsseite ein Layout verwenden, das eine Kopfzeile, einen Inhaltsbereich und eine Fußzeile enthält, während eine Quizseite ein vereinfachtes Layout ohne eine Fußzeile verwenden kann. Sie können auch dedizierte Layouts für Übersichtsseiten oder andere Themenarten erstellen und sie entsprechend zuordnen.
+
+Layout-Zuweisungen werden auf der Ebene **Ausgabevorlage** konfiguriert. Jede SCORM-Vorgabe, die die konfigurierte Ausgabevorlage verwendet, wendet die ausgewählten Layout-Zuordnungen beim Generieren von Kursen an.
+Gehen Sie wie folgt vor, um das Seiten-Layout für die Vorlagen zu konfigurieren:
+
+1. Navigieren Sie zu **Ausgabevorlagen** und öffnen Sie die erforderliche **SCORM-Ausgabevorlage**.
+
+2. Wählen Sie die **Einstellungen** aus.
+
+3. Suchen Sie im Fenster **Seitenlayouts** die verfügbaren Thementypen.
+
+   ![](assets/page-layout-scorm.png){width="650"}
+
+4. Wählen Sie für jeden Thementyp das Seiten-Layout aus, das bei der Kurserstellung verwendet werden soll.
+
+   **Beispiel:**
+   - **Standardseitenlayout**: Lektion
+   - **Quiz**: Quiz
+   - **Übersicht**: Lektion
+
+5. Um ein neues Layout zu verwenden, erstellen Sie das erforderliche Seiten-Layout in der Ausgabevorlage mit der Option **Neues Seiten-Layout** aus dem Kontextmenü des Bedienfelds **Ausgabevorlagen**.
+
+   ![](assets/new-page-layout-scorm.png){width="650"}
+
+6. Kehren Sie zur Registerkarte **Einstellungen** zurück und weisen Sie das neu erstellte Layout dem entsprechenden Thementyp zu.
+
+7. Speichern Sie das Seiten-Layout für die Ausgabevorlage mithilfe des Symbols Speichern in der rechten Ecke der Registerkartenleiste .
+
+
+Wenn ein Kurs mit einer SCORM-Vorgabe generiert wird, die die konfigurierte Ausgabevorlage verwendet, wird jedes Thema mit dem Layout gerendert, das seinem Thementyp zugewiesen ist. Dadurch können verschiedene Inhaltstypen innerhalb desselben Kurses benutzerdefinierte Seitenstrukturen und visuelle Darstellungen erhalten.
+
 ### Vorlagen entfernen oder neu anordnen
 
 Nach dem Hinzufügen können Sie die Vorlagen aus dem Bedienfeld Einstellungen entfernen oder neu anordnen.
@@ -244,10 +265,10 @@ Auf der Registerkarte „Ausgabevorgaben“ können Sie festlegen, welche Ausgab
 
 ## Profile der Veröffentlichung verwalten
 
-In diesem Abschnitt können Sie Veröffentlichungsprofile anzeigen, erstellen und verwalten, die für die Veröffentlichung von Kursen in SCORM Cloud verwendet werden. Jedes Profil definiert die Verbindungseinstellungen und Konfigurationsdetails, die zum Veröffentlichen eines Lernkurses in einer bestimmten SCORM-Cloud-Umgebung erforderlich sind.
+In diesem Abschnitt können Sie Veröffentlichungsprofile anzeigen, erstellen und verwalten, die für die Veröffentlichung von Kursen in SCORM Cloud oder Adobe Learning Manager (ALM) verwendet werden. Jedes Profil definiert die Verbindungseinstellungen und Konfigurationsdetails, die zum Veröffentlichen eines Lernkurses auf einem ausgewählten Veröffentlichungsserver erforderlich sind.
 
-Sie können mehrere Profile erstellen, wenn Sie in verschiedenen SCORM-Cloud-Konten veröffentlichen müssen, um Flexibilität und Kontrolle über Ihren Veröffentlichungsprozess sicherzustellen.
+Sie können mehrere Profile erstellen, um Inhalte in verschiedenen SCORM-Cloud-Konten oder AEM-Instanzen zu veröffentlichen, was Flexibilität und Kontrolle über Ihren Veröffentlichungs-Workflow bietet.
 
-Geben Sie die Server-Details zusammen mit der Client-ID und dem Client-Geheimnis der zugehörigen SCORM-Cloud-Anwendung an, um das Veröffentlichungsprofil für SCORM-Cloud zu konfigurieren.
+Um ein Veröffentlichungsprofil zu konfigurieren, wählen Sie den gewünschten Veröffentlichungsserver (SCORM Cloud oder Adobe Learning Manager) aus und geben Sie die erforderlichen Verbindungsdetails an. Geben Sie für SCORM Cloud die Server-Informationen zusammen mit der Client-ID und dem Client-Geheimnis der zugehörigen SCORM Cloud-Anwendung ein. Geben Sie für Adobe Learning Manager die entsprechenden Server- und Authentifizierungsdetails an, die für Ihre ALM-Umgebung erforderlich sind.
 
 ![](assets/configure-publish-profiles.png){width="350"}

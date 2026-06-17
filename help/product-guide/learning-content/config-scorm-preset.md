@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: b3000708-6120-4725-bea1-0b8e58048948
 TQID: https://experienceleague.adobe.com/9WSwgksrX0fahrniOalbizWFXCqcW0QlGAHn707vm-k
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 331
 ht-degree: 0%
 
 ---
@@ -41,8 +36,13 @@ Nachdem die Voreinstellung erstellt wurde, konfigurieren Sie die SCORM-Voreinste
 
   ![](assets/scorm-content-tab.png){width="650"}
 
-- **Veröffentlichen** Verwenden Sie diese Einstellung nur, wenn Sie die Ausgabe für den direkten Zugriff in der SCORM-Cloud veröffentlichen möchten.
 
-  ![](assets/scorm-publish-tab.png){width="650"}
+- **In LMS veröffentlichen:** Verwenden Sie diese Einstellung, um Ihre Inhalte direkt in Adobe Learning Manager (ALM) zu veröffentlichen. Wählen Sie im Dropdown-Menü **Veröffentlichungsserver** die Option **Adobe Learning Manager** und wählen Sie dann das erforderliche **Veröffentlichungsprofil**, das zuvor in den Workspace-Einstellungen konfiguriert wurde. Das ausgewählte Profil wird verwendet, um die Verbindung herzustellen und den generierten Inhalt in ALM hochzuladen.
+
+  >[!NOTE]
+  >
+  > Bevor Sie Inhalte in AEM veröffentlichen, müssen Sie ein Adobe Learning Manager-Veröffentlichungsprofil konfigurieren. Weitere Informationen finden Sie unter [Profile veröffentlichen](../lc-config-guide/lc-folder-profile.md).
+
+  ![](assets/scorm-publish-lms.png){width="650"}
 
 Nachdem alle Änderungen konfiguriert wurden, speichern Sie die Änderungen für die SCORM-Vorgabe mit **Speichern** in der rechten Ecke der Symbolleiste der Seite „SCORM-Vorgabe“.
