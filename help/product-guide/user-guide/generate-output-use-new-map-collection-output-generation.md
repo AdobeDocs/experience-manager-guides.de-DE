@@ -4,11 +4,18 @@ description: Erfahren Sie, wie Sie eine neue Zuordnungssammlung erstellen und l�
 feature: Publishing
 role: User
 TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
-subfeature_v2: id: f9dbea21-a714-40dd-bc90-080d8046c93fid: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
 workflow-type: tm+mt
 source-wordcount: 1447
@@ -134,7 +141,7 @@ Um die Ausgabe mithilfe einer Zuordnungssammlung zu generieren, führen Sie die 
 
 1. Sie können die Aufgabe zur Ausgabegenerierung auch abbrechen, bis der Status der Aufgabe ausgeführt wird, indem Sie das Symbol **Generierung abbrechen** auswählen.
 
-   ![Erzeugung von ](./images/cancel-generation.png)
+   ![Erzeugung von &#x200B;](./images/cancel-generation.png)
 
 
 1. Darüber hinaus können Sie die generierte Ausgabe für Zuordnungen anzeigen, deren Ausgabegenerierung abgeschlossen wurde, indem Sie auf das Symbol **Ausgabe öffnen** klicken, das angezeigt wird, wenn Sie den Mauszeiger über den Zuordnungsnamen bewegen, oder die Generierungsprotokolle anzeigen, indem Sie das angrenzende Symbol **Protokolle** auswählen.
@@ -185,4 +192,4 @@ Die Metadateneigenschaften werden für die DITA-Zuordnungen, die Sie aus der Zuo
 Die Metadateneigenschaften sind mit den Dateieigenschaften synchronisiert. Nachdem Sie sie aktualisiert haben, können Sie sie über das Bedienfeld **Dateieigenschaften** im Editor anzeigen.
 
 
-**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

@@ -36,7 +36,7 @@ Eine neue Publishing-Engine *Native PDF Engine v2* ist jetzt für Native PDF in 
 
 Beispielsweise kann der Text in generierten PDF-Dateien aufgrund von Aktualisierungen in den von der (nativen PDF Engine v2 *verwendeten Kernschriftarten leicht* aussehen. Ebenso können Bilder aufgrund von Verbesserungen bei der Bildinterpolation und dem Rendering-Verhalten schärfer aussehen.
 
-Erfahren Sie, wie [ native PDF Engine v2 ](../native-pdf/conf-new-pdf-engine.md) Ihrer Umgebung aktivieren.
+Erfahren Sie, wie [&#x200B; native PDF Engine v2 &#x200B;](../native-pdf/conf-new-pdf-engine.md) Ihrer Umgebung aktivieren.
 
 Informationen zur **nativen PDF Engine v2** finden Sie unter [Arbeiten mit der nativen PDF Engine v2](../native-pdf/new-pdf-engine.md).
 
@@ -68,7 +68,7 @@ Autoren können konfigurierte externe Datenquellen weiter verwenden, während si
 
 Sie können jetzt den Abschluss der Prüfungsaufgabe zwischen der Überprüfungs-Benutzeroberfläche und dem AEM-Posteingang synchron halten. Wenn diese Funktion aktiviert ist, wird sie durch das Abschließen einer Aufgabe in der Überprüfungs-Benutzeroberfläche aus dem AEM-Posteingang entfernt, und durch das Abschließen aus dem AEM-Posteingang wird sie in der Überprüfungs-Benutzeroberfläche als abgeschlossen markiert. Dadurch wird vermieden, dass dieselbe Aufgabe zweimal ausgeführt wird, und der Überprüfungs-Workflow reibungsloser. Autoren und Aufgabeninitiatoren können weiterhin Feedback überprüfen und Aufgaben neu zuweisen, wenn eine zusätzliche Überprüfung erforderlich ist. Wenn eine Aufgabe neu zugewiesen wird, wird eine neue AEM-Posteingangsbenachrichtigung für den Reviewer generiert, sodass der Überprüfungszyklus nahtlos fortgesetzt werden kann.
 
-Weitere Informationen finden Sie unter [Prüfungsaufgabe als Prüferin bzw. Prüfer ](../user-guide/review-complete-review-tasks.md).
+Weitere Informationen finden Sie unter [Prüfungsaufgabe als Prüferin bzw. Prüfer &#x200B;](../user-guide/review-complete-review-tasks.md).
 
 ## Verbesserungen an Lerninhalten
 
