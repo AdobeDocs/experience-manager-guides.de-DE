@@ -12,7 +12,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: ffdbe52a0423941bd681b041ebbd070bf5e4b765
+source-git-commit: 39af88b1d4bd424a8e56f3a217bcd8ee79f4be15
 workflow-type: tm+mt
 source-wordcount: 820
 ht-degree: 38%
@@ -35,7 +35,7 @@ Die Versionen für Experience Manager Guides as a Cloud Service sind wie folgt g
 
 | Freigabe | Ereignis | Zeitplan | Neue Funktionen | Upgrade-Anweisungen | Behobene Probleme | Status |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.08.0 <br> | Automatisches Update | 03.-05. August 2026 | – | – | – | Ziel |
+| Adobe Experience Manager Guides 2026.08.0 <br> | Automatische Aktualisierung | 03.-05. August 2026 | – | – | – | Ziel |
 
 
 ### Live-Versionen

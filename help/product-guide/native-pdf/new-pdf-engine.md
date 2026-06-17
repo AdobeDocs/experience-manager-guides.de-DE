@@ -24,7 +24,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2b6a0f1a6ac03984286e9d3df40c197f28d52f8d
+source-git-commit: 39af88b1d4bd424a8e56f3a217bcd8ee79f4be15
 workflow-type: tm+mt
 source-wordcount: 844
 ht-degree: 0%
@@ -43,7 +43,7 @@ Weitere Informationen zum Aktivieren der nativen PDF Engine v2 in Ihrer Umgebung
 
 ## Empfohlene CSS-Aktualisierungen für die neue Publishing-Engine
 
-Wenn Sie das Erscheinungsbild der PDF-Ausgabe erhalten möchten, die von der nativen PDF-Engine v1 bei Verwendung der nativen PDF-Engine v2 generiert wurde, müssen Sie möglicherweise Ihr benutzerdefiniertes CSS aktualisieren. Die unten beschriebenen empfohlenen CSS-Änderungen können dazu beitragen, die Ausgabekonsistenz nach der Aktivierung der neuen Einstellung aufrechtzuerhalten.
+Wenn Sie das Erscheinungsbild der PDF-Ausgabe wiederherstellen möchten, die von der nativen PDF-Engine v1 unter Verwendung der nativen PDF-Engine v2 generiert wurde, müssen Sie möglicherweise Ihr benutzerdefiniertes CSS aktualisieren. Die unten beschriebenen empfohlenen CSS-Änderungen können dazu beitragen, die Ausgabekonsistenz nach der Aktivierung der neuen Einstellung aufrechtzuerhalten.
 
 | Beschreibung | Empfohlene CSS-Aktualisierung |
 |-------------|------------------------------------------------|
