@@ -11,36 +11,39 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: febac97b369bad427f0f650f2cdc69b0ca6c9f69
 workflow-type: tm+mt
-source-wordcount: 400
+source-wordcount: 460
 ht-degree: 0%
 
 ---
 
 # Anwenden eines benutzerdefinierten Stils auf Inhaltsverzeichniseinträge und Themeninhalte
 
-Gelegentlich empfiehlt es sich, benutzerdefinierte Stile auf die Inhaltsverzeichniseinträge oder ein bestimmtes Thema anzuwenden. Dies kann erreicht werden, indem ein `outputclass`-Attribut mit dem `<topicref>`-Element in Ihrer DITA-Zuordnung verknüpft wird. Wenn Sie ein benutzerdefiniertes Format auf ein ganzes Thema anwenden möchten, kann dies auch durch Erweitern der Stildefinition des Attributs in CSS erreicht werden.
+Sie können benutzerdefinierte Stile auf Inhaltsverzeichniseinträge, Themenüberschriften oder einzelne Themen anwenden, indem Sie das Attribut `outputclass` für unterstützte Zuordnungselemente wie `<topicref>` und `<topichead>` verwenden. Um eine benutzerdefinierte Formatierung auf ein ganzes Thema anzuwenden, erweitern Sie die Stildefinition des `outputclass` in Ihrem CSS.
 
-Nehmen wir ein Beispiel für ein neues Thema, das Sie zur Überprüfung senden möchten. Um das aktualisierte Thema leicht zu identifizieren, müssen Sie dem `<topicref>`-Element in Ihrer DITA-Zuordnung ein `outputclass`-Attribut hinzufügen und dann einen benutzerdefinierten Stil für dasselbe Element in CSS definieren.
+## Formatieren eines Themas, auf das über `<topicref>` verwiesen wird
+
+Sie können ein `outputclass` auf ein `<topicref>` anwenden, um den Inhaltsverzeichniseintrag, den Thementitel oder den gesamten Themeninhalt in der generierten PDF zu gestalten.
+
+Um beispielsweise ein Thema zu identifizieren, das überprüft werden muss, fügen Sie dem entsprechenden `<topicref>`-Element in Ihrer DITA-Zuordnung ein OutputClass-Attribut hinzu und definieren Sie die zugehörigen Stile in Ihrer CSS.
 
 Im folgenden Beispiel wurde dem Thema *Verlauf von Flügen* ein `outputclass` mit dem Wert `new-topic` zugewiesen.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
-Mit der Klassendefinition des `new-topic` in einem CSS können Sie den Stil für die folgenden Elemente definieren:
+Die `new-topic`-Klasse kann verwendet werden, um Stile für Folgendes zu definieren:
+
 * Der Haupteintrag im Inhaltsverzeichnis oder im Mini-Inhaltsverzeichnis
 * Der Titel des Themas im Hauptinhalt
 * Gesamter Inhalt des Themas einschließlich Titel
 
-Sehen wir uns an, wie jedes dieser Szenarien im CSS definiert werden kann. In der folgenden CSS-Definition der `new-topic` wurde die Textfarbe geändert.
+Die folgende CSS-Definition ändert die Textfarbe für den Inhaltsverzeichniseintrag und den Thementitel:
 
 ```css
-…
 .new-topic {
-  color: #CC5309
+  color:#CC5309
 }
-…
 ```
 
 Diese Definition steuert die Textfarbe im Inhaltsverzeichnis und den Titel des Themas. Die folgende PDF-Ausgabe zeigt die verschiedenen Farben, die auf den Inhaltsverzeichniseintrag angewendet wurden:
@@ -57,23 +60,23 @@ Wenn Sie für den Inhaltsverzeichniseintrag und den Titel des Themas unterschied
 ...
 /*for styling TOC entry */
 .new-topic {
-  color: #CC3509
+  color:#CC3509
 }
 
 /* for styling topic's title */
 .new-topic.title {
-  color: #092ACC
+  color:#092ACC
 }
 ...
 ```
 
-Schließlich können Sie auch Stile auf den gesamten Inhalt innerhalb des Themas anwenden. Dazu müssen Sie dem Klassennamen das Suffix &quot;`-content`&quot; hinzufügen. Im folgenden Beispiel wurde eine Änderungsleiste zum gesamten Inhalt des Themas hinzugefügt:
+Um Stile auf den gesamten Themeninhalt anzuwenden, hängen Sie das `-content` Suffix an den Klassennamen an. Im folgenden Beispiel wird eine Änderungsleiste zum Themeninhalt hinzugefügt:
 
 ```css
 ...
 /* for styling the topic's content */
 .new-topic-content {
-  -ro-change-bar-color: #A609CC;
+  -ro-change-bar-color:#A609CC;
 }
 ...
 ```
@@ -81,6 +84,46 @@ Schließlich können Sie auch Stile auf den gesamten Inhalt innerhalb des Themas
 Unter Verwendung der oben genannten Stilattribute wird links neben dem Thema &quot;*des Fluges“ eine* hinzugefügt, wie unten dargestellt:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
+
+## Anwenden von Stilen auf `topichead`
+
+Sie können das Attribut `outputclass` für ein `<topichead>`-Element verwenden, um verschiedene Stile auf den Inhaltsverzeichniseintrag und die für die `topichead` generierte Überschrift anzuwenden.
+
+Wenn Sie beispielsweise die folgenden `topichead` in Ihrer DITA-Zuordnung definieren:
+
+```xml
+<topichead navtitle="Getting Started" outputclass="new-topichead">
+    ...
+</topichead>
+```
+
+Die `new-topichead`-Klasse wird auf den Eintrag „topichead“ im Inhaltsverzeichnis und auf die für den „topichead“ generierte Überschrift angewendet.
+
+Wenn Sie einen anderen Stil auf die Überschrift anwenden möchten, definieren Sie eine separate Klasse dafür, ähnlich wie `<topicref>` separate Formatierung für den Inhaltsverzeichniseintrag und den Thementitel unterstützt:
+
+```css
+...
+/* Style for the topichead TOC entry */
+.new-topichead {
+  color: #CC5309;
+}
+
+/* Style for the topichead heading */
+.new-topichead.title {
+  color: #092ACC;
+}...
+```
+
+Wenn Sie den mit dem Topichead verknüpften Inhalt formatieren möchten, hängen Sie das `- content` Suffix an den Klassennamen an:
+
+```css
+.new-topichead-content {
+    border-left: 2px solid #cccccc;
+    padding-left: 8px;
+}
+```
+
+
 
 ## Leere Zeilen aus dem Inhaltsverzeichnis entfernen
 

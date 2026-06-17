@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -57,6 +57,17 @@ Sie haben die Aufgabe erfolgreich als abgeschlossen markiert und ihr Status ist 
 Wenn der Autor oder Initiator der Aufgabe anhand des Feedbacks [die Prüfungsaufgabe schließen](./review-close-review-task.md) wird der Aufgabenstatus in der Benutzeroberfläche „Überprüfen“ in &quot;**&quot;**.
 
 ![](images/review-status-closed-review-ui.png){width="350"}
+
+>[!NOTE]
+>
+>Wenn ein Reviewer eine Prüfungsaufgabe als „Abgeschlossen **markiert,** die Aufgabe standardmäßig im AEM-Posteingang des Reviewers, bis der Autor oder der Aufgabeninitiator das Feedback überprüft und die Prüfungsaufgabe schließt.
+>
+>Sie können jedoch die Aufgabensynchronisierung zwischen der Überprüfungs-Benutzeroberfläche und dem AEM-Posteingang aktivieren. Wenn diese Funktion aktiviert ist, wird durch das Markieren einer Prüfungsaufgabe als **Abgeschlossen** in der Überprüfungs-Benutzeroberfläche die entsprechende Aufgabe automatisch abgeschlossen und aus dem AEM-Posteingang des Reviewers entfernt. Gleichermaßen wird eine Aufgabe in der Überprüfungs-Benutzeroberfläche automatisch als abgeschlossen markiert, wenn sie über den AEM-Posteingang abgeschlossen wird.
+>
+>Der Autor oder Aufgabeninitiator kann das Feedback dennoch überprüfen und die Aufgabe neu zuweisen, wenn eine zusätzliche Überprüfung erforderlich ist. Wenn eine Aufgabe neu zugewiesen wird, wird für die Überprüfenden eine neue AEM-Posteingangsbenachrichtigung generiert, damit die Aufgabe erneut überprüft werden kann.
+>
+>Wenden Sie sich an Ihr Customer Success-Team, um diese Funktion in Ihrer Umgebung zu aktivieren.
+
 
 ## Anzeigen von Kommentaren auf Aufgabenebene
 

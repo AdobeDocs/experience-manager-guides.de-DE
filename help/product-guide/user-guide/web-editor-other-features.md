@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
 workflow-type: tm+mt
-source-wordcount: 4232
+source-wordcount: 4258
 ht-degree: 0%
 
 ---
@@ -414,6 +414,10 @@ Experience Manager Guides bietet vorkonfigurierte Unterstützung zum Einfügen v
 Erstellen Sie mithilfe der MathML-Formel Ihre Formel und wählen Sie **Einfügen** aus, um sie Ihrem Dokument hinzuzufügen. Die Gleichung wird mit hellgrauem Hintergrund eingefügt.
 
 Sie können eine Formel jederzeit aktualisieren, indem Sie mit der rechten Maustaste auf eine vorhandene Gleichung klicken und **MathML bearbeiten** aus dem Kontextmenü auswählen.
+
+>[!NOTE]
+>
+> Die MathML-Generierung propagiert die mit MathML-Gleichungen verknüpften `output-class`, sodass konfigurierte Stile wie Schriftarten, Farben, Hintergründe und andere Formatierungen in der generierten Ausgabe widergespiegelt werden können.
 
 ### Validieren von Gleichungen im MathML-Editor
 

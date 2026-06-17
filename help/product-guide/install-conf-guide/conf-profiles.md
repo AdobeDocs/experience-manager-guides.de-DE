@@ -5,9 +5,9 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cb82a816ac9513fcdf7a3ad32ed46f1e44c5a7f3
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6098'
 ht-degree: 0%
 
 ---
@@ -224,11 +224,11 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
    >
    > Die spezialisierte DTD-Datei sollte Teil der Bereitstellung von benutzerdefiniertem Code sein. DTDs unter /apps sind Teil der Produktbereitstellung und werden daher mit der Installation jeder neuen Version überschrieben. Es wird empfohlen, im Projektordner eine spezielle DTD unter /var/dxml/dita\_resources hinzuzufügen und den DTD/Katalogpfad in das DITA-Profil aufzunehmen.Weitere Informationen finden Sie unter [Integrieren der DITA-Spezialisierung](dita-ot-specialization.md#id211MB0E00XA).
 
-1. Verwenden Sie den Package Manager, um die Datei /libs/fmdita/config/condAttrList.xml herunterzuladen:
+1. Verwenden Sie den Package Manager, um `/libs/fmdita/config/condAttrList.csv` Datei herunterzuladen. Abhängig von der verwendeten Version kann die `libs/fmdita/config/condAttrList.xml`-Datei auch zum Herunterladen verfügbar sein.
 
-1. Erstellen Sie eine Kopie der Datei „condAttrList.xml“ am folgenden Speicherort im Git-Repository Ihres Cloud Managers:
+1. Erstellen Sie eine Kopie der `condAttrList.csv`-Datei am folgenden Speicherort im Git-Repository Ihrer Cloud Manager:
 
-   `/apps/fmdfmdita/config/condAttrList.xml`
+   `/apps/fmdfmdita/config/condAttrList.csv`
 
 1. Speichern Sie die Datei.
 
@@ -252,15 +252,17 @@ Wenn Sie ein benutzerdefiniertes Attribut verwenden, muss es sich um ein gültig
 
    Dadurch wird der Systemcache gelöscht.
 
-1. Navigieren Sie zur Datei „condAttrList.xml“, die am folgenden Speicherort verfügbar ist:
+1. Navigieren Sie zu der `condAttrList.csv` Datei, die am folgenden Speicherort verfügbar ist:
 
-   /libs/fmdita/config/condAttrList.xml
+   `/libs/fmdita/config/condAttrList.csv`
+
+   Je nach verwendeter Version kann die `libs/fmdita/config/condAttrList.xml`-Datei auch am selben Speicherort verfügbar sein.
 
 1. Erstellen Sie einen Überlagerungsknoten des `config` Ordners im `apps`.
 
 1. Navigieren Sie zu und fügen Sie die benutzerdefinierten Attribute zur Datei „condAttrList.xml“ im `apps` hinzu:
 
-   `/apps/fmdita/config/condAttrList.xml`
+   `/apps/fmdita/config/condAttrList.csv`
 
 1. Speichern Sie die Datei.
 

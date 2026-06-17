@@ -25,9 +25,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 2ec33566b72205a2c64510f38f588adf51b2175a
 workflow-type: tm+mt
-source-wordcount: 3311
+source-wordcount: 3403
 ht-degree: 1%
 
 ---
@@ -81,6 +81,7 @@ Verwenden Sie diese Option, um grundlegende Ausgabeeinstellungen anzugeben, z. B
 | **Baseline verwenden** | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten. Weitere [&#x200B; finden Sie unter „Arbeiten mit &#x200B;](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)&quot;. |
 | **Erstellen von PDF mit Änderungsleiste zwischen veröffentlichten Versionen** | Verwenden Sie die folgenden Optionen, um mithilfe von Änderungsleisten eine PDF zu erstellen, die die Inhaltsunterschiede zwischen zwei Versionen anzeigt: <br><ul><li> **Baseline der vorherigen Version** Wählen Sie die Baseline-Version aus, die Sie mit der aktuellen Version oder einer anderen Baseline vergleichen möchten. Eine Änderungsleiste wird in der PDF angezeigt, um den geänderten Inhalt anzuzeigen. Eine Änderungsleiste ist eine vertikale Linie, die neue oder überarbeitete Inhalte visuell identifiziert. Die Änderungsleiste wird auf der linken Seite des Inhalts angezeigt, der eingefügt, geändert oder gelöscht wurde. <br> **Hinweis**: Wenn Sie **Baseline verwenden** und eine Baseline zur Veröffentlichung auswählen, wird der Vergleich zwischen den beiden ausgewählten Baseline-Versionen durchgeführt. Wenn Sie beispielsweise Baseline Version 1.3 unter **Baseline verwenden** und Version 1.1 unter **Baseline der vorherigen Version** auswählen, wird der Vergleich zwischen der Baseline Version 1.1 und der Baseline Version 1.3 durchgeführt. <br><li> **Hinzugefügten Text anzeigen** Wählen Sie diese Option aus, um den eingefügten Text grün und unterstrichen anzuzeigen. Diese Option ist standardmäßig ausgewählt. <br> <li> **Gelöschten Text anzeigen** Wählen Sie diese Option aus, um den gelöschten Text rot und mit einem Durchgestrichen anzuzeigen. Standardmäßig ist diese Option aktiviert. <br>**Hinweis** Sie können auch den Stil der Änderungsleiste, des eingefügten Inhalts oder des gelöschten Inhalts mithilfe des Stylesheets anpassen.<br></ul> |
 | **Sprache** | Wählen Sie die Sprache aus, in der die Ausgabe übersetzt werden soll. <br> **Hinweis**: Querverweistexte wie „Siehe auf Kapitel“ oder „Siehe auf Seite“ werden durch eine Sprachvariable gesteuert. Die Variable verwendet die Sprache, die im Thema durch das Attribut `xml:lang` definiert ist. Wenn dort keine Sprache angegeben ist, wird die voreingestellte Sprache verwendet. Wenn beide fehlen, wird standardmäßig Englisch (en_US) verwendet. |
+| **DITA-OT-Befehlszeilenargumente** | Wenn Sie **DITA-OT-Vorverarbeitung aktivieren** wird das **DITA-OT-Befehlszeilenargumente**-Feld verfügbar. Hier können Sie die zusätzlichen Argumente angeben, die DITA-OT beim Generieren der Ausgabe verarbeiten soll. Weitere Informationen zu den in DITA-OT unterstützten Befehlszeilenargumenten finden Sie unter [DITA-OT-Dokumentation](https://www.dita-ot.org/).<br>**NOTE:** In DITA-Beziehungstabellen (`<reltable>`) definierte verwandte Links sind standardmäßig nicht in der nativen PDF-Ausgabe enthalten. Verwenden Sie dieses Feld, um die erforderlichen DITA-OT-Argumente zu übergeben und solche verwandten Links in die native PDF-Ausgabe aufzunehmen. |
 | **Workflow nach der Generierung** | Wählen Sie diese Option aus, um eine Dropdown-Liste anzuzeigen, die alle in AEM konfigurierten Workflows enthält. Sie können den Workflow auswählen, der nach Abschluss des PDF-Generierungs-Workflows ausgeführt werden soll. |
 
 **Metadaten**
@@ -96,6 +97,7 @@ Diese Metadaten werden den Metadaten auf der Registerkarte **Beschreibung** in d
 <img src="assets/pdf-metadata.png" alt="Registerkarte Metadaten" width="600">
 
 Wählen Sie aus den Ausgabevorgaben **PDF** > **Native-PDF** > **Metadaten** aus, um Metadatenoptionen hinzuzufügen und anzupassen.
+
 * **Verwenden von in TopicMeta hinzugefügten Metadaten**
 
   Standardmäßig ist diese Option aktiviert. Sie können die Metadaten verwenden, die Sie im TopicMeta-Element der DITA-Zuordnung hinzugefügt haben, um die Metadatenfelder der PDF-Ausgabe zu befüllen.
