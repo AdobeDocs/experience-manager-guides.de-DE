@@ -18,9 +18,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1099
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Sie können benutzerdefinierte PDF-Vorlagen mit bestimmten Seitenlayouts erstell
 
 Um eine neue PDF-Vorlage zu erstellen, führen Sie die folgenden Schritte aus:
 
-1. Wechseln Sie im Web-Editor zur Registerkarte **Ausgabe** .
+1. Wechseln Sie im Editor zur Registerkarte **Ausgabe**.
 1. Wählen Sie **Vorlagen** <img src="./assets/template.png" alt= "Vorlagensymbol" width="25"> im linken Bedienfeld.
 
    <img src="assets/create-pdf-template.png" alt="Erstellen einer PDF-Vorlage" width="400">
@@ -64,7 +64,7 @@ Wenn Sie eine neue Vorlage mit denselben Seitenlayouts und Formatierungen wie ei
 
 Gehen Sie wie folgt vor, um eine vorhandene PDF-Vorlage zu duplizieren:
 
-1. Wechseln Sie im Web-Editor zur Registerkarte **Ausgabe** .
+1. Wechseln Sie im Editor zur Registerkarte **Ausgabe**.
 1. Wählen Sie **Vorlagen** <img src="./assets/template.svg" alt= "Vorlagensymbol" width="25"> im linken Bedienfeld. Dadurch wird das Fenster **Vorlagen** geöffnet.
 1. Bewegen Sie den Mauszeiger über die Vorlage, die Sie duplizieren möchten, wählen Sie das Symbol **…** *Optionen* und wählen Sie **Duplizieren** aus dem Kontextmenü aus.
 
@@ -132,7 +132,7 @@ Sie können Vorlagen anpassen, indem Sie die Vorlagenkomponenten anpassen und St
 
 Um eine PDF-Vorlage anzupassen, führen Sie die folgenden Schritte aus:
 
-1. Wechseln Sie im Web-Editor zur Registerkarte **Ausgabe** .
+1. Wechseln Sie im Editor zur Registerkarte **Ausgabe**.
 1. Erweitern Sie die linke Seitenleiste und wählen Sie **Vorlagen**.
 
    Dadurch wird das Bedienfeld **Vorlagen** geöffnet.

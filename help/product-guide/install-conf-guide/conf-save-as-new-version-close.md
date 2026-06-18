@@ -4,16 +4,17 @@ description: Erfahren Sie, wie Sie die Eingabeaufforderung konfigurieren, um bei
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: da41044a-bab0-456b-9543-effc88d1a2ae
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
 
 # Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren {#id222HBI00XXA}
 
-Wenn der/die Benutzende versucht, eine Datei zu schließen, die im Web-Editor mit der Schaltfläche **Schließen** auf der Registerkarte der Datei oder der Option **Schließen** im Menü Optionen geöffnet wurde, wird ein Dialogfeld angezeigt, wenn die Datei ungespeicherte Daten oder eine ungespeicherte Version enthält. Der/die Benutzende wird aufgefordert, die Datei als neue Version zu speichern, wenn die Version nicht gespeichert wurde.
+Wenn der/die Benutzende versucht, eine Datei zu schließen, die im Editor mit der Schaltfläche **Schließen** auf der Registerkarte der Datei oder der Option **Schließen** im Menü Optionen geöffnet wurde, wird ein Dialogfeld angezeigt, wenn die Datei ungespeicherte Daten oder eine ungespeicherte Version enthält. Der/die Benutzende wird aufgefordert, die Datei als neue Version zu speichern, wenn die Version nicht gespeichert wurde.
 
 Die folgenden Registerkarten enthalten Anweisungen basierend auf Ihrer Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
 

@@ -1,6 +1,6 @@
 ---
 title: Web-basierte Inhalte erstellen
-description: Erfahren Sie, wie Sie mit dem Web-Editor strukturierte Inhalte erstellen können.
+description: Erfahren Sie, wie Sie mit dem Editor strukturierte Inhalte erstellen können.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -22,20 +22,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 238
 ht-degree: 2%
 
 ---
 
 # Web-basierte Inhalte erstellen
 
-AEM Guides verfügt über einen integrierten Web-Editor zum Erstellen strukturierter Inhalte. Sie können mit einem vereinfachten Web-basierten Authoring-Erlebnis arbeiten, aber dennoch leistungsstarke Funktionen wie bedingte Inhaltsvalidierung, Rechtschreibprüfung, Wiederverwendung von Inhalten, Referenzvalidierung, Anzeigenamen und mathematische Formeln für Autoren verwenden oder aktivieren.
+AEM Guides verfügt über einen integrierten Editor zum Erstellen strukturierter Inhalte. Sie können mit einem vereinfachten Web-basierten Authoring-Erlebnis arbeiten, aber dennoch leistungsstarke Funktionen wie bedingte Inhaltsvalidierung, Rechtschreibprüfung, Wiederverwendung von Inhalten, Referenzvalidierung, Anzeigenamen und mathematische Formeln für Autoren verwenden oder aktivieren.
 
 ## Sitzungsübersicht
 
-In dieser Sitzung erfahren Sie, wie Sie Inhalte mit dem Web-Editor erstellen, veröffentlichen und verwalten.
+In dieser Sitzung erfahren Sie, wie Sie Inhalte mit dem Editor erstellen, veröffentlichen und verwalten.
 
 ## Sitzungsaufzeichnung
 

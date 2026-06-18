@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie die Option zum Bearbeiten im Oxygen Connector
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+exl-id: 41ecbbb2-81c3-473d-b48b-7370a74a6474
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -25,6 +26,6 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 >[!NOTE]
 >
-> Diese Konfiguration ist standardmäßig deaktiviert und die Option ist im Web-Editor nicht verfügbar.
+> Diese Konfiguration ist standardmäßig deaktiviert und die Option ist im Editor nicht verfügbar.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

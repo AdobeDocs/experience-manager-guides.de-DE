@@ -4,10 +4,11 @@ description: Erfahren Sie, wie Sie die Anzahl der LimitReads für eine Abfrage k
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 53748636-f3d1-4b3b-a772-2730b78741cb
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
@@ -32,4 +33,4 @@ Um die Anzahl der Knoten zu erhöhen, die eine Abfrage gleichzeitig lesen kann, 
 
 Wenn Sie diesen Attributwert erhöhen, können Sie damit den Bericht für größere DITA-Zuordnungen erstellen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

@@ -5,9 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: ea09ea67-3051-4231-90e2-3b8a3ceb9270
-source-git-commit: d7d8ae300695fb6e637265766e7f44e0e0226e3a
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,6 @@ Wenn der Connector mit demselben Namen vorhanden ist, wird ein Fehler angezeigt.
 
 * **Löschen**: Löscht den ausgewählten Connector.
 
-Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector unter dem **Datenquellenbedienfeld** im Web-Editor aufgeführt. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Einfügen eines Inhaltsausschnitts aus Ihrer Datenquelle](../user-guide/web-editor-content-snippet.md).
+Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector unter dem **Datenquellenbedienfeld** im Editor aufgeführt. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Einfügen eines Inhaltsausschnitts aus Ihrer Datenquelle](../user-guide/web-editor-content-snippet.md).
 
 Nur für das On-Premise-Setup können Sie auch benutzerdefinierte Connectoren erstellen und mit den verschiedenen Datenquellen verwenden. Erfahren Sie, wie [benutzerdefinierte Connectoren konfigurieren](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).

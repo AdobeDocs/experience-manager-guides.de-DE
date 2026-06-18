@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 6522
+source-wordcount: 6471
 ht-degree: 1%
 
 ---
@@ -274,7 +274,7 @@ Führen Sie die folgenden Schritte aus, um Profilattribute und Querverweise zu k
 
 1. Nehmen **auf** Registerkarte „Erweiterungen“ die folgenden Änderungen vor:
 
-   - Klicken Sie **Auswählen** neben dem Bundle **Erweiterungen** und wählen Sie `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` in der Liste **Klasse** aus. Klicken Sie auf **OK**.
+   - Klicken Sie **Auswählen** neben dem Bundle **Erweiterungen** und wählen Sie `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` in der Liste **Klasse** aus. Klicken Sie **OK**.
      ![Konfigurieren Sie eine Erweiterung für DITA-Themen](images/dita-map-extenstion-link-resolve.png) {width="650"}
    - Klicken Sie **Auswählen** neben dem **Author Extension State Listener** unter **Individuelle Erweiterungen** und wählen Sie `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` in der **Class**-Liste aus. Klicken Sie auf **OK**.
    - Klicken Sie **Auswählen** neben dem **Editor für benutzerdefinierte Attributwerte erstellen** unter **Individuelle Erweiterungen** und wählen Sie `CustomValueEditor - com.adobe.o2.framework.extn` in der Liste **Klasse** aus. Klicken Sie auf **OK**.
@@ -342,7 +342,7 @@ Der folgende Bildschirm zeigt das Bedienfeld &quot;AEM Guides&quot;.
 Die Funktionen des Oxygen-Plugins für AEM Guides sind verfügbar, wenn Sie mit der rechten Maustaste auf einen Ordner oder eine Datei im AEM-Repository klicken. Die für die Ordner verfügbaren Funktionen unterscheiden sich von den Dateien. Im Folgenden finden Sie eine vollständige Liste der Funktionen im Kontextmenü des Oxygen-Plug-ins für AEM Guides:
 
 - **Öffnen**: Öffnet die ausgewählte Datei oder erweitert den ausgewählten Ordner.
-- **Öffnen in**: Sie können die ausgewählte Datei im Web-Editor von AEM Guides, im Zuordnungs-Dashboard oder im Zuordnungs-Editor öffnen. Weitere Informationen zu diesen Optionen finden Sie unter [Datei im AEM Guides-Editor öffnen](#id195GH0V30KX).
+- **Öffnen in**: Sie können die ausgewählte Datei im Editor von AEM Guides, im Zuordnungs-Dashboard oder im Zuordnungs-Editor öffnen. Weitere Informationen zu diesen Optionen finden Sie unter [Datei im AEM Guides-Editor öffnen](#id195GH0V30KX).
 - **Auschecken**: Checkt eine Datei aus dem AEM-Repository aus. Weitere Informationen finden Sie unter [Dateien auschecken](#id195HC020TS4).
 - **Auschecken bei abhängigen**: Checkt eine Datei mit ihren direkten Verweisen aus. Weitere Informationen finden Sie unter [Dateien auschecken](#id195HC020TS4).
 - **Mit schreibgeschützten abhängigen Elementen auschecken**: Checkt die ausgewählte Datei zusammen mit den abhängigen Elementen aus. Sie können keine Änderungen an den abhängigen Dateien vornehmen. Weitere Informationen finden Sie unter [Dateien auschecken](#id195HC020TS4).
@@ -391,7 +391,7 @@ Wenn Sie die in AEM Guides verfügbaren Editoren verwenden möchten, wählen Sie
 
 1. Wählen **Öffnen in** aus dem Kontextmenü und wählen Sie aus den folgenden Optionen aus:
 
-   - **Webthema-Editor**: Wenn es sich bei der Datei, die Sie öffnen möchten, um eine XML- oder DITA-Datei handelt, können Sie sie zur Bearbeitung im Webeditor öffnen. Wählen Sie die Option **Webthema-Editor**, um die ausgewählte Datei zur Bearbeitung im Web-Editor zu öffnen.
+   - **Webthema-Editor**: Wenn es sich bei der Datei, die Sie öffnen möchten, um eine XML- oder DITA-Datei handelt, können Sie sie zur Bearbeitung im Editor öffnen. Wählen Sie die Option **Webthema-Editor**, um die ausgewählte Datei zur Bearbeitung im Editor zu öffnen.
 
    - **Map Dashboard**: Sie können im Map Dashboard eine DITAMAP-Datei bearbeiten, in der Sie verschiedene Vorgänge mit der Map-Datei durchführen können. Diese Vorgänge hängen von der Rolle/Gruppe ab, der Sie angehören.
 

@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 931
+source-wordcount: 911
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im CR
 10. Klicken Sie im Dialogfeld „Umgebungsvariablen“ erneut auf „OK“.
 11. Klicken Sie im Dialogfeld Systemeigenschaften erneut auf „OK“.
 12. Starten Sie jetzt den AEM-Server.
-13. Generieren von nativem PDF aus Vorgaben im Web-Editor
+13. Generieren von nativem PDF aus Vorgaben im Editor
 
 ## Konfigurationsschritte für Linux Server (RHEL7/centOS 7)
 
@@ -124,7 +124,7 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im CR
 
 11. Installieren Sie das fontconfig-Paket.
 Befehl: yum install fontconfig
-12. Generieren von nativem PDF aus Vorgaben im Web-Editor
+12. Generieren von nativem PDF aus Vorgaben im Editor
 
 **HINWEIS** : Das Paket node_modules.zip kann ([) &#x200B;](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) werden.
 
@@ -172,7 +172,7 @@ iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —p
 9. Installieren Sie das fontconfig-Paket.
 Befehl: apt install fontconfig
 
-10. Generieren von nativem PDF aus Vorgaben im Web-Editor
+10. Generieren von nativem PDF aus Vorgaben im Editor
 
 ## Fehlerbehebung
 

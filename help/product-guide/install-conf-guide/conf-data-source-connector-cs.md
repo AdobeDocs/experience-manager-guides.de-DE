@@ -4,18 +4,19 @@ description: Erfahren Sie, wie Sie einen Datenquellen-Connector konfigurieren
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: bb70cca8-cfa5-455b-bc48-a8d26ec5326c
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren eines Datenquellen-Connectors für Cloud Service
 
-AEM Guides bietet vordefinierte Connectoren für JIRA-, SQL- (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce- und Elasticsearch-Datenbanken. Sie können auch andere Connectoren hinzufügen, indem Sie die Standardschnittstellen erweitern. Die folgende Konfiguration hilft Ihnen beim einfachen Hinzufügen der verschiedenen Datenquellen. Nach dem Hinzufügen können Sie die Datenquellen im Web-Editor anzeigen.
+AEM Guides bietet vordefinierte Connectoren für JIRA-, SQL- (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce- und Elasticsearch-Datenbanken. Sie können auch andere Connectoren hinzufügen, indem Sie die Standardschnittstellen erweitern. Die folgende Konfiguration hilft Ihnen beim einfachen Hinzufügen der verschiedenen Datenquellen. Nach dem Hinzufügen können Sie die Datenquellen im Editor anzeigen.
 
-Führen Sie die folgenden Schritte aus, um einen Datenquellen-Connector zu konfigurieren und ihn dann über den Web-Editor zu verwenden:
+Führen Sie die folgenden Schritte aus, um einen Datenquellen-Connector zu konfigurieren und ihn dann im Editor zu verwenden:
 
 ## Konfigurieren eines Connectors
 
@@ -282,4 +283,4 @@ Beispiel: `/content/dam/jira.json`
 
 Sie können die Konfiguration mit der REST-API registrieren. Weitere Informationen finden Sie im Abschnitt *REST-API zum Registrieren eines Datenquellen-Connectors* in der API-Referenz für Adobe Experience Manager Guides.
 
-Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector im Web-Editor unter dem Bedienfeld „Datenquellen“ aufgelistet. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Einfügen eines Inhaltsausschnitts aus Ihrer Datenquelle](../user-guide/web-editor-content-snippet.md).
+Nachdem Sie die Datenquelle konfiguriert haben, wird der Connector im Editor unter dem Bedienfeld „Datenquellen“ aufgelistet. Anschließend können Sie eine Verbindung zur Datenquelle herstellen und ein Inhaltsfragment in Ihre Themen einfügen. Weitere Informationen finden Sie unter [Einfügen eines Inhaltsausschnitts aus Ihrer Datenquelle](../user-guide/web-editor-content-snippet.md).

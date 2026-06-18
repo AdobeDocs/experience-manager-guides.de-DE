@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 312
+source-wordcount: 311
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Erfahren Sie mehr über [Upgrade-Anweisungen für die Version 4.6.0 Service Pack
 - Die Erstellung einer DITA-Zuordnung für eine UUID-Instanz schlägt fehl, wenn `xmleditor.uniquefilenames` in `XMLEditorConfig` aktiviert ist. (21201)
 - Beim Schließen einer Datei werden im Dialogfeld **Änderungen speichern und Datei entsperren** hinzugefügte Kommentare und Beschriftungen nicht mit der neuen Version im Versionsverlauf gespeichert. Dies gilt speziell für einen Anwendungsfall, bei dem **Beim Schließen nach Einchecken fragen** oder **Beim Schließen nach neuer Version** fragen) in `XMLEditorConfig` aktiviert ist. (20065)
 - Der als &quot;**&quot; markierte Dokumentstatus** vor dem Speichern einer neuen Version auf **Entwurf** zurück, was dazu führt, dass der **Fertig**-Status in keiner Dokumentversion bestehen bleibt. (20006)
-- Es ist nicht möglich, eine PDF-Datei als Bildreferenz zu einem Thema im Web-Editor hinzuzufügen. (21206)
+- Eine PDF-Datei kann nicht als Bildreferenz zu einem Thema im Editor hinzugefügt werden. (21206)
 - Wenn Sie in der Assets-Benutzeroberfläche eine DITA-Datei auswählen, wird die Option **In FrameMaker öffnen** angezeigt, auch wenn sie in der Konfiguration deaktiviert ist. (20082)
 
 

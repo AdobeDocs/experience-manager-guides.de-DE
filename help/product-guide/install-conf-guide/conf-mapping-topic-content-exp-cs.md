@@ -5,9 +5,9 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: f37cd341-aa8b-4af0-9a40-1d034eea3be6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,6 @@ Beispieldatei:
 
 
 
-Wählen Sie beim Veröffentlichen der Experience Fragments über den Web-Editor die `Template` aus der Dropdown-Liste im Dialogfeld **Experience Fragment generieren** aus, um die für die Vorlage verfügbare Zuordnung im Feld **Zuordnung** anzuzeigen. Wenn für eine Vorlage keine benutzerdefinierte Zuordnung vorhanden ist, wird die Standardzuordnung aufgelistet. Sie können die Standardzuordnung verwenden, um das gesamte Thema als Experience Fragment zu veröffentlichen.
+Wählen Sie beim Veröffentlichen der Experience Fragments im Editor die `Template` aus der Dropdown-Liste im Dialogfeld **Experience Fragment generieren** aus, um die für die Vorlage verfügbare Zuordnung im Feld **Zuordnung** anzuzeigen. Wenn für eine Vorlage keine benutzerdefinierte Zuordnung vorhanden ist, wird die Standardzuordnung aufgelistet. Sie können die Standardzuordnung verwenden, um das gesamte Thema als Experience Fragment zu veröffentlichen.
 
 Weitere Informationen finden Sie unter [Veröffentlichen von Experience Fragments](../user-guide/publish-experience-fragment.md).

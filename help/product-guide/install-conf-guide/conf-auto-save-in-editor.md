@@ -1,24 +1,24 @@
 ---
-title: Konfigurieren der automatischen Speicherung von Dateien im Web-Editor
-description: Erfahren Sie, wie Sie die automatische Speicherung von Dateien im Web-Editor konfigurieren
+title: Konfigurieren der automatischen Speicherung von Dateien im Editor
+description: Erfahren Sie, wie Sie die automatische Speicherung von Dateien im Editor konfigurieren
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
 
-# Konfigurieren der automatischen Speicherung von Dateien im Web-Editor {#id199CC0J0M5Z}
+# Konfigurieren der automatischen Speicherung von Dateien im Editor {#id199CC0J0M5Z}
 
-Eine der häufigsten Funktionen im Browser-basierten Editor ist die Möglichkeit, Daten nach einem bestimmten Zeitraum zu speichern. Der AEM Guides-Web-Editor unterstützt auch das automatische Speichern von Themen- und Zuordnungsdateien im angegebenen Zeitintervall. Wenn diese Funktion ausgelöst wird, wird die Arbeitskopie des Themas oder der Zuordnung gespeichert. Es wird keine neue Version des Themas oder der Zuordnung erstellt. Um eine neue Version zu erstellen, klicken Sie auf das Symbol Revision speichern in der Symbolleiste des Web-Editors.
+Eine der häufigsten Funktionen im Browser-basierten Editor ist die Möglichkeit, Daten nach einem bestimmten Zeitraum zu speichern. Der AEM Guides-Editor unterstützt auch das automatische Speichern von Themen- und Zuordnungsdateien im angegebenen Zeitintervall. Wenn diese Funktion ausgelöst wird, wird die Arbeitskopie des Themas oder der Zuordnung gespeichert. Es wird keine neue Version des Themas oder der Zuordnung erstellt. Um eine neue Version zu erstellen, klicken Sie auf das Symbol Revision speichern in der Symbolleiste des Editors.
 
 Die Funktion zum automatischen Speichern ist nicht standardmäßig aktiviert. Sie müssen diese Funktion mithilfe der Konfigurationsdatei für Cloud Service und über die `configMgr` für On-Premise aktivieren.
 
-Die folgenden Registerkarten enthalten Anweisungen zum Aktivieren der Funktion für das automatische Speichern im Web-Editor basierend auf Ihrer Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
+Die folgenden Registerkarten enthalten Anweisungen zum Aktivieren der Funktion für das automatische Speichern im Editor basierend auf Ihrer Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
 
 >[!BEGINTABS]
 

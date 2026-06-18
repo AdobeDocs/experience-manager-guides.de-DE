@@ -6,18 +6,18 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren eines Datenquellen-Connectors
 
-AEM Guides bietet vordefinierte Connectoren für JIRA- und SQL-Datenbanken (MySQL, PostgreSQL, SQL Server, SQLite). Sie können auch andere Connectoren hinzufügen, indem Sie die Standardschnittstellen erweitern. Die folgende Konfiguration hilft Ihnen beim einfachen Hinzufügen der verschiedenen Datenquellen. Nach dem Hinzufügen können Sie die Datenquellen im Web-Editor anzeigen.
+AEM Guides bietet vordefinierte Connectoren für JIRA- und SQL-Datenbanken (MySQL, PostgreSQL, SQL Server, SQLite). Sie können auch andere Connectoren hinzufügen, indem Sie die Standardschnittstellen erweitern. Die folgende Konfiguration hilft Ihnen beim einfachen Hinzufügen der verschiedenen Datenquellen. Nach dem Hinzufügen können Sie die Datenquellen im Editor anzeigen.
 
-Führen Sie die folgenden Schritte aus, um einen Datenquellen-Connector zu konfigurieren und ihn dann über den Web-Editor zu verwenden:
+Führen Sie die folgenden Schritte aus, um einen Datenquellen-Connector zu konfigurieren und ihn dann im Editor zu verwenden:
 
 ## Konfigurieren eines Connectors
 

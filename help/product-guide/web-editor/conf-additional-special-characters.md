@@ -1,17 +1,17 @@
 ---
-title: Konfigurieren zusätzlicher Sonderzeichen in der Symbolleiste des Web-Editors
-description: Erfahren Sie, wie Sie zusätzliche Sonderzeichen im Web-Editor von AEM Guides konfigurieren.
+title: Konfigurieren zusätzlicher Sonderzeichen in der Editor-Symbolleiste
+description: Erfahren Sie, wie Sie zusätzliche Sonderzeichen im Editor von AEM Guides konfigurieren.
 feature: Web Editor
 role: User
 exl-id: 4007eb03-c100-4892-b293-f22b3f0082e2
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# Konfigurieren zusätzlicher Sonderzeichen in der Symbolleiste des Web-Editors für On-Premise
+# Konfigurieren zusätzlicher Sonderzeichen in der Editor-Symbolleiste für On-Premise
 
 In der Symbolleiste des Web-Editors gibt es eine Verknüpfungsoption, mit der der Autor die Sonderzeichen bereits einfügen kann.
 Dasselbe kann im folgenden Screenshot gezeigt werden:

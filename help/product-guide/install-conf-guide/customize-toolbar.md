@@ -5,22 +5,22 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
 
 # Symbolleiste anpassen {#id172FB00L0V6}
 
-Standardmäßig werden im Lieferumfang des Web-Editors die gängigsten redaktionellen Funktionen enthalten sein, die von einem DITA-Editor benötigt werden. Funktionen wie das Einfügen von Elementen des Typs \(nummeriert oder mit Aufzählungszeichen\), Querverweis, Inhaltsreferenz, Tabelle, Absatz und Zeichenformatierung sind im Editor verfügbar. Zusätzlich zu diesen grundlegenden Elementen können Sie den Web-Editor so anpassen, dass Elemente eingefügt werden, die in Ihrer Autorenumgebung verwendet werden.
+Standardmäßig werden im Lieferumfang des Editors die gängigsten redaktionellen Funktionen enthalten sein, die für einen DITA-Editor erforderlich sind. Funktionen wie das Einfügen von Elementen des Typs \(nummeriert oder mit Aufzählungszeichen\), Querverweis, Inhaltsreferenz, Tabelle, Absatz und Zeichenformatierung sind im Editor verfügbar. Zusätzlich zu diesen grundlegenden Elementen können Sie den Editor so anpassen, dass Elemente eingefügt werden, die in Ihrer Autorenumgebung verwendet werden.
 
 >[!NOTE]
 >
 > Bei der Migration von der alten Benutzeroberfläche zur neuen AEM Guides-Benutzeroberfläche (anwendbar ab Version 2502 und 5.0 von AEM Guides) müssen Aktualisierungen an `ui_config` in flexiblere und modulare Benutzeroberflächenkonfigurationen konvertiert werden. Dieses Framework hilft bei der nahtlosen Übernahme von Änderungen in die editor_toolbar und ggf. andere Target-Widgets. Weitere Informationen finden Sie unter [Übersicht über die Konfiguration der Convert-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
-Es gibt zwei Möglichkeiten, die Symbolleiste des Web-Editors anzupassen:
+Es gibt zwei Möglichkeiten, die Symbolleiste des Editors anzupassen:
 
 - Hinzufügen einer neuen Funktion zur Symbolleiste
 
@@ -29,7 +29,7 @@ Es gibt zwei Möglichkeiten, die Symbolleiste des Web-Editors anzupassen:
 
 ## Funktion in der Symbolleiste hinzufügen
 
-Das Hinzufügen einer Funktion zum Web-Editor umfasst zwei Hauptaufgaben: Hinzufügen eines Symbols für die Funktion in der Datei *ui\_config.json* und Hinzufügen der Hintergrundfunktion in JavaScript.
+Das Hinzufügen einer Funktion zum Editor umfasst zwei Hauptaufgaben: Hinzufügen eines Symbols für die Funktion in der Datei *ui\_config.json* und Hinzufügen der Hintergrundfunktion in JavaScript.
 
 Die folgenden Registerkarten enthalten Anweisungen basierend auf Ihrer Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
 
@@ -115,7 +115,7 @@ Die folgenden Registerkarten enthalten Anweisungen basierend auf Ihrer Experienc
 
 1. Aktualisieren Sie die Kategorieneigenschaft des Ordners *clientlib* durch Zuweisen des Werts &quot;*.fmdita.xml\_editor.page\_overrides*.
 
-1. Speichern Sie die *ui\_config.json*-Datei und laden Sie den Web-Editor neu.
+1. Speichern Sie die Datei *ui\_config.json* und laden Sie den Editor neu.
 
 >[!TAB On-Premise]
 
@@ -177,7 +177,7 @@ Sie müssen die folgenden Eigenschaften definieren, um ein Symbolleistensymbol h
 
 1. Aktualisieren Sie die Kategorieneigenschaft des Ordners *clientlib* durch Zuweisen des Werts &quot;*.fmdita.xml\_editor.page\_overrides*.
 
-1. Speichern Sie die *ui\_config.json*-Datei und laden Sie den Web-Editor neu.
+1. Speichern Sie die Datei *ui\_config.json* und laden Sie den Editor neu.
 
 
 **JavaScript-Code-Beispiele**
@@ -193,7 +193,7 @@ Fügen Sie den folgenden Code zu einer JavaScript-Datei hinzu:
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -234,7 +234,7 @@ Das folgende Beispiel zeigt, wie der Status eines Dokuments in einer aktiven Dat
 * Step 1. Create a clientlib folder and add save a file with your *JavaScript code into this folder. A code sample is shared below.
 * Step 2: Update the categories property of the clientlib folder by *assigning it the value of 
 * "apps.fmdita.xml_editor.page_overrides".
-* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Web Editor
+* Step 3: Add the feature in the ui_config.json file as shown after the *sample code. Save the ui_config.json file and reload the Editor
  */
 
 (function (window) {
@@ -295,7 +295,7 @@ Fügen Sie die Funktion in der Datei ui\_config.json wie folgt hinzu:
 
 ## Funktion aus der Symbolleiste entfernen
 
-Manchmal möchten Sie vielleicht nicht alle derzeit im Web-Editor verfügbaren Funktionen bereitstellen. In diesem Fall können Sie die unerwünschte Funktion aus der Symbolleiste des Web-Editors entfernen.
+Manchmal möchten Sie vielleicht nicht alle Funktionen bereitstellen, die derzeit im Editor verfügbar sind. In diesem Fall können Sie die unerwünschte Funktion aus der Editor-Symbolleiste entfernen.
 
 Die folgenden Registerkarten enthalten Anweisungen zum Entfernen unerwünschter Funktionen aus der Symbolleiste, je nach Ihrer Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
 
@@ -325,7 +325,7 @@ Die folgenden Registerkarten enthalten Anweisungen zum Entfernen unerwünschter 
 
 1. Entfernen Sie aus dem Abschnitt Symbolleisten den Eintrag der Funktion, die Sie Ihren Benutzern nicht zur Verfügung stellen möchten.
 
-1. Speichern Sie die *ui\_config.json*-Datei und laden Sie den Web-Editor neu.
+1. Speichern Sie die Datei *ui\_config.json* und laden Sie den Editor neu.
 
 >[!TAB On-Premise]
 
@@ -354,6 +354,6 @@ Die `ui_config.json`-Datei besteht aus drei Abschnitten:
 
 1. Entfernen Sie aus dem Abschnitt Symbolleisten den Eintrag der Funktion, die Sie Ihren Benutzern nicht zur Verfügung stellen möchten.
 
-1. Speichern Sie die `*ui\_config.json*` und laden Sie den Web-Editor neu.
+1. Speichern Sie die `*ui\_config.json*` und laden Sie den Editor neu.
 
 >[!ENDTABS]

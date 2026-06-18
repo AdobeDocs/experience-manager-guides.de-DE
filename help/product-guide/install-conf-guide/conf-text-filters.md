@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 08502168-a995-44bc-9ce3-c3e562714c06
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
 # Textfilter konfigurieren {#id21BPD0FK0XA}
 
-AEM Guides bietet die Funktion, um nach Text in den Dateien zu suchen, die im ausgewählten Pfad des AEM-Repositorys vorhanden sind. Sie können die Filtersuche verwenden, um Dateien im Repository-Bereich zu suchen oder Dateien zu durchsuchen. Beim Arbeiten im Web-Editor müssen Sie das Dialogfeld zum Durchsuchen von Dateien verwenden, um Elemente wie Bilder, Verweise oder Schlüsselverweise einzufügen.
+AEM Guides bietet die Funktion, um nach Text in den Dateien zu suchen, die im ausgewählten Pfad des AEM-Repositorys vorhanden sind. Sie können die Filtersuche verwenden, um Dateien im Repository-Bereich zu suchen oder Dateien zu durchsuchen. Während Sie im Editor arbeiten, müssen Sie das Dialogfeld zum Durchsuchen von Dateien verwenden, um Elemente wie Bilder, Verweise oder Schlüsselverweise einzufügen.
 
 Standardmäßig können Sie einige erweiterte Filter verwenden, um die Dateien im AEM-Repository zu durchsuchen. Sie können alle DITA-Dateien oder Nicht-DITA-Dateien filtern, die im ausgewählten Pfad vorhanden sind. Sie können auch in den Attributen von DITA-Elementen nach bestimmten Werten suchen. Sie können auch nach Dateien suchen, die vom angegebenen Benutzer ausgecheckt wurden.
 
@@ -166,4 +166,4 @@ Die konfigurierten Filter sind im Bedienfeld Filter verfügbar.
 
 >[!ENDTABS]
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

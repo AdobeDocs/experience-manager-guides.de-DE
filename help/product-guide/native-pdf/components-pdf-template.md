@@ -14,9 +14,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 4602
+source-wordcount: 4601
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Inhalte (Inhaltsverzeichnis), Index, leere Seite, Themenvorderseiten, rückwärt
 >
 >Es gibt Beispiel-Seiten-Layouts, die im Lieferumfang enthalten sind. Sie können diese anpassen oder neue Seiten-Layouts erstellen.
 
-1. Wechseln Sie im Web-Editor zur Registerkarte **Ausgabe** .
+1. Wechseln Sie im Editor zur Registerkarte **Ausgabe**.
 1. Erweitern Sie die linke Seitenleiste und klicken Sie auf **Vorlagen**.
 1. Öffnen Sie die Vorlage, mit der Sie arbeiten möchten.
 

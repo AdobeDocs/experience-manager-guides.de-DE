@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: a1c07d0f60b7c37248bcf7ce72ce25d537e3fd57
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2528'
 ht-degree: 11%
 
 ---
@@ -474,7 +474,7 @@ ht-degree: 11%
       - [Anzeige von UUID-basierten Links konfigurieren](./install-conf-guide/conf-uuid-based-links.md)
       - [Öffnen von DITA-Themen oder Zuordnungsdateien in derselben Registerkarte](./install-conf-guide/open-dita-files-same-tab.md)
       - [Standard für den erweiterten Zuordnungs-Editor festlegen](./install-conf-guide/conf-default-map-editor.md)
-      - [Konfigurieren der automatischen Speicherung von Dateien im Web-Editor](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [Konfigurieren der automatischen Speicherung von Dateien im Editor](./install-conf-guide/conf-auto-save-in-editor.md)
       - [Eingabeaufforderung zum Speichern als neue Version beim Schließen konfigurieren](./install-conf-guide/conf-save-as-new-version-close.md)
       - [Eingabeaufforderung zum Einchecken einer Datei beim Schließen konfigurieren](./install-conf-guide/conf-checkin-file-close.md)
       - [Konfigurieren zulässiger Sonderzeichen](./install-conf-guide/conf-special-chars.md)
@@ -489,7 +489,7 @@ ht-degree: 11%
          - [Konfigurieren Sie die Option zum Bearbeiten in Oxygen für Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
          - [Konfigurieren der Anzeige eingefügter Tabellen für Cloud Service](./install-conf-guide/conf-pasted-tables.md)
          - [Konfigurieren der PDF-Generierung für ein einzelnes Thema für Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
-         - [Konfigurieren der Übersetzungsfunktion im Web-Editor für Cloud Service](./install-conf-guide/conf-translation-editor.md)
+         - [Konfigurieren der Übersetzungsfunktion im Editor für Cloud Service](./install-conf-guide/conf-translation-editor.md)
       - Editor-Einstellung für On-Premise {#editor-on-prem-settings}
          - [Neuen Editor konfigurieren](./install-conf-guide/conf-new-editor-on-prem.md)
          - [Konfigurieren zusätzlicher Sonderzeichen für On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -600,12 +600,12 @@ ht-degree: 11%
       - [Inhaltsüberprüfung in AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
    - Artikel {#kb-articles}
       - Authoring {#authoring}
-         - Web-Editor {#webeditor}
+         - Bearbeiter {#webeditor}
             - [Wiederverwendbarkeit von Inhalten in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [Verwenden von Markdown in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
             - Anpassung {#customizing}
                - [Hinzufügen einer benutzerdefinierten Schaltfläche zur Symbolleiste](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               - [Hinzufügen benutzerdefinierter Stile zum Web-Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+               - [Hinzufügen benutzerdefinierter Stile zum Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [Anpassen des Ordnerkontextmenüs](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
                - [Anpassen des Datei-Kontextmenüs](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - Ingenieur {#schematron}

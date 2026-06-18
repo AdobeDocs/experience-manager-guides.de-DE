@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren der automatischen Speicherung von Dateien im Web-Editor
-description: Erfahren Sie, wie Sie die automatische Speicherung von Dateien im Web-Editor konfigurieren
+title: Konfigurieren der automatischen Speicherung von Dateien im Editor
+description: Erfahren Sie, wie Sie die automatische Speicherung von Dateien im Editor konfigurieren
 exl-id: 23fe404c-c76d-43ba-9b28-c49ab1e524de
 feature: Web Editor Configuration
 role: Admin
@@ -15,18 +15,18 @@ subfeature_v2:
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 204
-ht-degree: 0%
+source-wordcount: 197
+ht-degree: 1%
 
 ---
 
-# Konfigurieren der automatischen Speicherung von Dateien im Web-Editor {#id199CC0J0M5Z}
+# Konfigurieren der automatischen Speicherung von Dateien im Editor {#id199CC0J0M5Z}
 
-Eine der häufigsten Funktionen im Browser-basierten Editor ist die Möglichkeit, Daten nach einem bestimmten Zeitraum zu speichern. Der Web-Editor von AEM Guides unterstützt auch das automatische Speichern von Themen- und Zuordnungsdateien im angegebenen Zeitintervall. Wenn diese Funktion ausgelöst wird, wird die Arbeitskopie des Themas oder der Zuordnung gespeichert. Es wird keine neue Version des Themas oder der Zuordnung erstellt. Um eine neue Version zu erstellen, klicken Sie auf das Symbol Revision speichern in der Symbolleiste des Web-Editors.
+Eine der häufigsten Funktionen im Browser-basierten Editor ist die Möglichkeit, Daten nach einem bestimmten Zeitraum zu speichern. Der AEM Guides-Editor unterstützt auch das automatische Speichern von Themen- und Zuordnungsdateien im angegebenen Zeitintervall. Wenn diese Funktion ausgelöst wird, wird die Arbeitskopie des Themas oder der Zuordnung gespeichert. Es wird keine neue Version des Themas oder der Zuordnung erstellt. Um eine neue Version zu erstellen, klicken Sie auf das Symbol Revision speichern in der Symbolleiste des Editors.
 
-Die Funktion zum automatischen Speichern ist nicht standardmäßig aktiviert. Sie müssen diese Funktion über den configMgr aktivieren. Führen Sie die folgenden Schritte aus, um die Funktion zum automatischen Speichern im Web-Editor zu aktivieren:
+Die Funktion zum automatischen Speichern ist nicht standardmäßig aktiviert. Sie müssen diese Funktion über den configMgr aktivieren. Führen Sie die folgenden Schritte aus, um die Funktion zum automatischen Speichern im Editor zu aktivieren:
 
 1. Öffnen Sie die Seite Konfiguration der Adobe Experience Manager-Web-Konsole .
 
@@ -45,4 +45,4 @@ Die Funktion zum automatischen Speichern ist nicht standardmäßig aktiviert. Si
 1. Klicken Sie auf **Speichern**.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](conf-web-editor.md)

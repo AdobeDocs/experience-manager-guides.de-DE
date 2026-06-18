@@ -15,16 +15,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 240
 ht-degree: 0%
 
 ---
 
 # Option „Löschen“ aus dem Datei-Kontextmenü im Web-Editor entfernen
 
-In diesem Artikel erfahren Sie, wie Sie die Option „Löschen“ im Dateikontextmenü im AEM Guides-Web-Editor für bestimmte Benutzende oder Gruppen ausblenden. Für andere Anpassungen der Optionen im Datei-Kontextmenü überprüfen Sie bitte das Handbuch-Erweiterungs-Framework. Weitere Informationen finden Sie [hier](https://github.com/adobe/guides-extension/tree/main).
+In diesem Artikel erfahren Sie, wie Sie die Option „Löschen“ im Dateikontextmenü im AEM Guides-Editor für bestimmte Benutzende oder Gruppen ausblenden. Für andere Anpassungen der Optionen im Datei-Kontextmenü überprüfen Sie bitte das Handbuch-Erweiterungs-Framework. Weitere Informationen finden Sie [hier](https://github.com/adobe/guides-extension/tree/main).
 
 Wie Sie im folgenden Ausschnitt sehen können, ist im Dateikontextmenü für diesen Benutzer die Option „Löschen“ verfügbar.
 
@@ -58,5 +58,5 @@ Das Datei-Kontextmenü sieht nun wie folgt aus:
 ![Datei-Kontextmenü ohne Löschen](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
-Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.
+Please note that these steps would also remove 'move' and 'rename' options from the Editor as they are also tied to delete process at the backend.
 ```

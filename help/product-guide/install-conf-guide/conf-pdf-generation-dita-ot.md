@@ -5,9 +5,9 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: a456027a-56a4-48c0-a79b-2f423692abc2
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,6 @@ Führen Sie die folgenden Schritte aus, um die alte PDF-Generierung über das DI
 
 1. Speichern Sie die Datei und laden Sie sie hoch.
 
-Wenn Sie nach dem Ausführen der oben genannten Schritte dasselbe Ordnerprofil aus den Benutzereinstellungen im Web-Editor auswählen, wird im Vorschaumodus eines Themas die Option für die PDF-Generierung angezeigt.
+Wenn Sie nach dem Ausführen der oben genannten Schritte dasselbe Ordnerprofil aus den Benutzereinstellungen im Editor auswählen, wird im Vorschaumodus eines Themas die Option für die PDF-Generierung angezeigt.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

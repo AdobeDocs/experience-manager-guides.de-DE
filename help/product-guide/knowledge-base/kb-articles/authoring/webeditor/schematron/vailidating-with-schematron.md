@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 399
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Der Web-Editor nutzt standardmäßig das im System eingerichtete DITA-Schema, um
 
 Neben der Unterstützung für DITA-Regeln unterstützt der Web-Editor auch die Validierung von Inhalten, die auf &quot;*&quot;-* basieren.
 
-&quot;*Schematron*&quot; bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Sie können die Schematron-Dateien importieren und auch im Web-Editor bearbeiten. Mithilfe einer „Schematron“-Datei können Sie bestimmte Regeln definieren und diese dann für ein DITA-Thema oder eine Zuordnung validieren. Schematronregeln können die Konsistenz der XML-Struktur sicherstellen, indem sie als Regeln definierte Einschränkungen auferlegen. Diese Einschränkungen werden von KMUs gesteuert, die für die Qualität und Konsistenz der Inhalte verantwortlich sind.
+&quot;*Schematron*&quot; bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Sie können die Schematron-Dateien importieren und auch im Editor bearbeiten. Mithilfe einer „Schematron“-Datei können Sie bestimmte Regeln definieren und diese dann für ein DITA-Thema oder eine Zuordnung validieren. Schematronregeln können die Konsistenz der XML-Struktur sicherstellen, indem sie als Regeln definierte Einschränkungen auferlegen. Diese Einschränkungen werden von KMUs gesteuert, die für die Qualität und Konsistenz der Inhalte verantwortlich sind.
 
-HINWEIS: Der Web-Editor unterstützt ISO Schematron.
+HINWEIS: Der Editor unterstützt ISO Schematron.
 
 
 ## Wissen, wie „Schematron“ im Web-Editor funktioniert

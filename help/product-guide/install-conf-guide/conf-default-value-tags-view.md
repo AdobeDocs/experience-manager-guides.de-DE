@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: d54e3a3c-9f61-43cf-a925-12e4ce948a55
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # Standardwert für die Tag-Ansicht konfigurieren {#id223GN0M0NDC}
 
-AEM Guides ermöglicht es Ihnen, den Standardstatus für die Tag-Ansicht im Web-Editor zu konfigurieren, sodass die Tag-Ansicht für die Sitzung eines neuen Benutzers standardmäßig aktiviert oder deaktiviert bleibt.Führen Sie die folgenden Schritte aus, um den Standardwert für die Tag-Ansicht zu konfigurieren:
+Mit AEM Guides können Sie den Standardstatus für die Tag-Ansicht im Editor konfigurieren, sodass die Tag-Ansicht für die Sitzung eines neuen Benutzers standardmäßig aktiviert oder deaktiviert bleibt.Führen Sie die folgenden Schritte aus, um den Standardwert für die Tag-Ansicht zu konfigurieren:
 
 1. Laden Sie die Konfigurationsdatei für die Benutzeroberfläche herunter, indem Sie sich als Administrator bei Adobe Experience Manager anmelden.
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.
@@ -35,6 +35,6 @@ AEM Guides ermöglicht es Ihnen, den Standardstatus für die Tag-Ansicht im Web-
 
 >[!NOTE]
 >
-> Die Voreinstellung des Benutzers im Web-Editor zum Aktivieren/Deaktivieren der Tag-Ansicht hat Vorrang vor diesem Standardwert. Wenn ein Benutzer also die Tags-Ansicht im Web-Editor aktiviert, bleibt sie auch über die gesamten Sitzungen hinweg aktiviert.
+> Die Voreinstellung des Benutzers im Editor zum Aktivieren/Deaktivieren der Tag-Ansicht hat Vorrang vor diesem Standardwert. Wenn ein Benutzer also die Tag-Ansicht im Editor aktiviert, bleibt sie auch über die gesamten Sitzungen hinweg aktiviert.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

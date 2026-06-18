@@ -2,16 +2,16 @@
 title: Konfigurieren der Smart-Hilfe für die Inhaltssuche
 description: Erfahren Sie, wie Sie die Smart-Hilfe für die Inhaltssuche konfigurieren
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren der KI-gestützten Smart-Hilfe für die Suche nach Inhalten für Cloud Service
 
-Als Administrator können Sie die Funktion der intelligenten Hilfe für die Autoren konfigurieren. Der Smart Help-Service wird durch die authentifizierungsbasierte Adobe IMS-Authentifizierung gesichert. Integrieren Sie Ihre Umgebung mit den sicheren Token-basierten Authentifizierungs-Workflows von Adobe und verwenden Sie die neue Funktion „Smart Help“. Mit den folgenden Konfigurationen können Sie die Registerkarte **KI-Konfiguration** zu einem Ordnerprofil hinzufügen. Nach dem Hinzufügen können Sie die Funktion „Smart-Hilfe“ im Web-Editor verwenden.
+Als Administrator können Sie die Funktion der intelligenten Hilfe für die Autoren konfigurieren. Der Smart Help-Service wird durch die authentifizierungsbasierte Adobe IMS-Authentifizierung gesichert. Integrieren Sie Ihre Umgebung mit den sicheren Token-basierten Authentifizierungs-Workflows von Adobe und verwenden Sie die neue Funktion „Smart Help“. Mit den folgenden Konfigurationen können Sie die Registerkarte **KI-Konfiguration** zu einem Ordnerprofil hinzufügen. Nach dem Hinzufügen können Sie die Funktion „Smart-Hilfe“ im Editor verwenden.
 
 ## Erstellen von IMS-Konfigurationen in Adobe Developer Console
 
@@ -105,5 +105,5 @@ Sobald dies geschehen ist, sollten Sie in der Lage sein, die Funktion **Intellig
 ```
 
 
-Nach der Konfiguration wird das Symbol **Smart** Hilfe![Smart](assets/smart-help-icon.svg) im rechten Bereich des Web-Editors angezeigt. Wählen Sie das Symbol aus, um das Bedienfeld **Smart-Hilfe** anzuzeigen.
+Nach der Konfiguration wird das Symbol **Smart** Hilfe![Smart](assets/smart-help-icon.svg) im rechten Bereich des Editors angezeigt. Wählen Sie das Symbol aus, um das Bedienfeld **Smart-Hilfe** anzuzeigen.
 Weitere Informationen finden Sie im Abschnitt [KI-gestützte Smart-Hilfe für die Inhaltssuche](../user-guide/ai-based-smart-help.md) im Experience Manager-Benutzerhandbuch.

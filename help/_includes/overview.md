@@ -4,16 +4,16 @@ description: Hier finden Sie Anleitungsvideos für Experience Manager Guides (fr
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: ccaf2ead1a9a24ab822298c6b9ef6866a1c32e8c
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 9%
 
 ---
 
 # Übersicht über Tests
 
-[!DNL Experience Manager Guides] (im Folgenden als &quot;_[!DNL AEM Guides]_&quot; bezeichnet) ist eine leistungsstarke, für Unternehmen geeignete Komponenten-Content-Management-Lösung (CCMS). Sie unterstützt native DITA-Unterstützung in Experience Manager und ermöglicht AEM die Verarbeitung der DITA-basierten Inhaltserstellung und -bereitstellung. Sie ermöglicht es Autoren, Inhalte mit einem beliebigen Offline-DITA-Authoring-Tool wie Adobe FrameMaker oder einem benutzerfreundlichen integrierten Web-Editor zu erstellen.
+[!DNL Experience Manager Guides] (im Folgenden als &quot;_[!DNL AEM Guides]_&quot; bezeichnet) ist eine leistungsstarke, für Unternehmen geeignete Komponenten-Content-Management-Lösung (CCMS). Sie unterstützt native DITA-Unterstützung in Experience Manager und ermöglicht AEM die Verarbeitung der DITA-basierten Inhaltserstellung und -bereitstellung. Sie ermöglicht es Autorinnen und Autoren, Inhalte mit einem beliebigen Offline-DITA-Authoring-Tool wie Adobe FrameMaker oder einem benutzerfreundlichen integrierten Editor zu erstellen.
 
 [!DNL AEM Guides] Lösung bietet alle zentralen CCMS-Funktionen, wie z. B. Zusammenarbeit, Überprüfung, Übersetzung, Suche und Berichte für DITA-Inhalte, sodass Autoren durch effiziente Wiederverwendung von Inhalten und leistungsstarke Workflows in kürzerer Zeit mehr erreichen können. Darüber hinaus können Anwender die erstklassige Veröffentlichungsfunktion mit einem Klick nutzen, um DITA-basierte Ausgaben für die beliebtesten Formate - Experience Manager Sites, PDF, HTML5, EPUB und benutzerdefinierte Ausgaben über DITA-OT - zu generieren.
 
@@ -31,7 +31,7 @@ Mit [!DNL AEM Guides] Lösung können Unternehmen Endbenutzern nahtlose und pers
 
 - **[[!DNL Experience Manager Guides] Authoring im integrierten Editor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=de){target="blank"}**
 
-  _Erfahren Sie, wie Sie in [!DNL Adobe Experience Manager Guides] Inhalte mit dem nativen Web-Editor erstellen. Verschaffen Sie sich ein umfassendes Verständnis von Benutzervoreinstellungen, Editor-Einstellungen, Konfiguration, Symbolleisten und mehr._
+  _Erfahren Sie, wie Sie in [!DNL Adobe Experience Manager Guides] Inhalte mit dem nativen Editor erstellen. Verschaffen Sie sich ein umfassendes Verständnis von Benutzervoreinstellungen, Editor-Einstellungen, Konfiguration, Symbolleisten und mehr._
 
 - **[Ausgabenerstellung mit [!DNL Experience Manager Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=de){target="blank"}**
 

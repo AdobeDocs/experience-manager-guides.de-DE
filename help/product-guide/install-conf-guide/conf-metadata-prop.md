@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Ignorieren-Liste für Metadateneigenschaf
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8e8b24bea8504ad9fcca1117bd9e7b400e757dff
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -70,4 +70,4 @@ AEM Guides enthält einen Standardsatz von Metadateneigenschaften in der Ignorie
 
 Nur die Metadateneigenschaften, die nicht in der Ignorieren-Liste enthalten sind, werden für das Markieren der Version eines Dokuments als falsch erachtet.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

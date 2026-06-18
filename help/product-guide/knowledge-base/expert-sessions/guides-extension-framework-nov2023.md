@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: 386
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ In dieser Sitzung haben Sie Folgendes gelernt:
 - Verstehen, was alle Schnittstellen mit diesem Erweiterungs-Framework erweitert werden können
 - Wenn Sie verstehen, was bereits verfügbar ist, können Sie einfach mit der Erstellung Ihrer eigenen benutzerdefinierten Funktionen beginnen
 - Erfahren Sie anhand von Beispielen, wie Sie anpassen können:
-   - Hinzufügen des Abschnitts „Hilfe und Support“ im Web-Editor
+   - Hinzufügen des Abschnitts „Hilfe und Support“ im Editor
    - Hinzufügen eines weiteren linken Bedienfelds - beispielsweise zum Anzeigen der Aufgaben des aktuellen Benutzers
    - Hinzufügen einer weiteren Symbolleistenschaltfläche für Thema/Zuordnung mithilfe dieses Frameworks
    - Erweitern der im Bereich „Inhaltseigenschaften“ im Web-Editor angezeigten Informationen - Hinzufügen von Nachverarbeitungsinformationen, um anzugeben, ob eine Nachbearbeitung für eine bestimmte Datei durchgeführt wird oder nicht

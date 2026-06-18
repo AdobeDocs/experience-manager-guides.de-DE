@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 51099b42-706f-42b4-993e-7d9577b5a4f0
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 2%
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
 # Anpassen des Standardwörterbuchs von AEM {#id209SD8000WU}
 
-Der Web-Editor kann so konfiguriert werden, dass er die Rechtschreibprüfung von AEM oder die Rechtschreibprüfung des Browsers verwendet. Wenn Sie mit der Rechtschreibprüfung von AEM arbeiten, können Sie Ihre Liste benutzerdefinierter Wörter definieren. Diese benutzerdefinierten Wörter werden dann dem Wörterbuch der AEM hinzugefügt, und diese Wörter werden im Web-Editor nicht als \(falsch\) gekennzeichnet.
+Der Editor kann so konfiguriert werden, dass er die Rechtschreibprüfung von AEM oder die Rechtschreibprüfung des Browsers verwendet. Wenn Sie mit der Rechtschreibprüfung von AEM arbeiten, können Sie Ihre Liste benutzerdefinierter Wörter definieren. Diese benutzerdefinierten Wörter werden dann zum Wörterbuch der AEM hinzugefügt. Im Editor werden diese Wörter nicht als \(falsch\) gekennzeichnet.
 
 Die folgenden Registerkarten enthalten Anweisungen zum Erstellen Ihrer Liste benutzerdefinierter Wörter, die je nach Experience Manager Guides-Einrichtung im Wörterbuch von AEM hinzugefügt werden: Cloud Service oder On-Premise.
 
@@ -37,7 +37,7 @@ Die folgenden Registerkarten enthalten Anweisungen zum Erstellen Ihrer Liste ben
    Übertragen Sie die Änderungen und führen Sie die Cloud Manager \(CI/CD\)-Pipeline aus, um Konfigurationsänderungen bereitzustellen.
 
 
-Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die Liste der benutzerdefinierten Wörter im AEM-Wörterbuch aktualisiert wird.
+Autorinnen und Autoren müssen ihre Editor-Sitzung neu starten, damit die Liste der benutzerdefinierten Wörter im AEM-Wörterbuch aktualisiert wird.
 
 >[!TAB On-Premise]
 
@@ -58,8 +58,8 @@ Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die Liste der benutze
 1. Speichern und schließen Sie die Datei.
 
 
-Autoren müssen ihre Web-Editor-Sitzung neu starten, damit die Liste der benutzerdefinierten Wörter im AEM-Wörterbuch aktualisiert wird.
+Autorinnen und Autoren müssen ihre Editor-Sitzung neu starten, damit die Liste der benutzerdefinierten Wörter im AEM-Wörterbuch aktualisiert wird.
 
 >[!ENDTABS]
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

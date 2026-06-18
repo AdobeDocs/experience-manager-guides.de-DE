@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: e3747a18-b6a1-46fd-a4d1-28a9c087e924
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren zulässiger Sonderzeichen {#id20CIL600035}
 
-Mit dem Web-Editor können Sie einige Sonderzeichen vorkonfiguriert einfügen. Sie können jedoch die Liste der Sonderzeichen anpassen, die Ihre Autoren in ihre Dokumente einfügen können. Wenn Sie die Liste der Sonderzeichen anpassen, wird der Standardsatz von Sonderzeichen überschrieben. Nur die Sonderzeichen, die Sie in Ihrer Konfiguration hinzufügen, werden den Autoren zur Verfügung gestellt.
+Mit dem Editor können Sie einige Sonderzeichen vorkonfiguriert einfügen. Sie können jedoch die Liste der Sonderzeichen anpassen, die Ihre Autoren in ihre Dokumente einfügen können. Wenn Sie die Liste der Sonderzeichen anpassen, wird der Standardsatz von Sonderzeichen überschrieben. Nur die Sonderzeichen, die Sie in Ihrer Konfiguration hinzufügen, werden den Autoren zur Verfügung gestellt.
 
 Die folgenden Registerkarten enthalten Anweisungen zum Überschreiben der Standardliste von Sonderzeichen basierend auf Ihrer Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
 
@@ -82,4 +82,4 @@ Sie können mehrere Definitionen von Sonderzeichen innerhalb einer Kategorie def
 
 >[!ENDTABS]
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

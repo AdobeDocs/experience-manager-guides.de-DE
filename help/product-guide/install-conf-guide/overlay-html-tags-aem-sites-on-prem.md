@@ -4,16 +4,17 @@ description: Konfigurieren Sie die Video- und Bildeinstellungen für die AEM Sit
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: af349df4-04bf-4b9b-885f-d8bca32a4484
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # Überlagern von HTML-Tags in der AEM Sites-Ausgabe für On-Premise
 
-Sie können HTML-Tags in der AEM Sites-Ausgabe hinzufügen und anpassen, die mithilfe der AEM Sites-Vorgabe generiert wurde, die auf der Zuordnung von Kernkomponenten aus dem Web-Editor basiert. Um die HTML-Tags anzupassen, können Sie die `config.xml`-Datei überlagern. Sie können beispielsweise die Video- und Imagemaps in der AEM Sites-Ausgabe konfigurieren.
+Sie können HTML-Tags in der AEM Sites-Ausgabe hinzufügen und anpassen, die mithilfe der AEM Sites-Vorgabe generiert wurde, die auf der Zuordnung von Kernkomponenten aus dem Editor basiert. Um die HTML-Tags anzupassen, können Sie die `config.xml`-Datei überlagern. Sie können beispielsweise die Video- und Imagemaps in der AEM Sites-Ausgabe konfigurieren.
 
 Führen Sie die folgenden Schritte aus, um die `config.xml`-Datei zu überlagern und zu aktualisieren:
 

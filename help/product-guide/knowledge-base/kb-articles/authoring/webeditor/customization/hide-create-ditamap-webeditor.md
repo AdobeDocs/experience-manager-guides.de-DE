@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: 444
 ht-degree: 1%
 
 ---
 
 # &#39;Create DitaMAP&#39; aus dem Ordnerkontextmenü im Web-Editor anzeigen/ausblenden
 
-In diesem Artikel erfahren Sie, wie Sie den Web-Editor für Handbücher so anpassen können, dass die Option „Ditmap erstellen“ im Kontextmenü des Ordners auf der Grundlage von Benutzer-/Gruppenberechtigungen ein- oder ausgeblendet wird.
+In diesem Artikel erfahren Sie, wie Sie den Editor für Handbücher so anpassen können, dass die Option „Create DitaMap“ im Ordnerkontextmenü auf der Grundlage von Benutzer-/Gruppenberechtigungen ein- oder ausgeblendet wird.
 In diesem Anwendungsfall blenden wir diese Option für alle Benutzer aus, die keine Autoren sind.
 
 ## Voraussetzungen

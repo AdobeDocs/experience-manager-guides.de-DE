@@ -5,9 +5,9 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Die folgenden Registerkarten enthalten Anweisungen zum Aktivieren der Option **N
 
 ## Einstellungen konfigurieren, um die Bearbeitung von ausgecheckten Dateien zu ermöglichen
 
-Mit dem AEM Guides-Web-Editor können Sie DITA-Themen erstellen und aktualisieren. Sie können den Web-Editor so konfigurieren, dass nur die Dokumente bearbeitet werden können, die aus dem Repository ausgecheckt wurden. Dadurch wird sichergestellt, dass kein anderer Autor versehentlich ein Thema überschreibt, das von einem anderen Autor zur Bearbeitung geöffnet wird. Sobald ein Thema zur Bearbeitung geöffnet wurde, kann ein Autor die Datei zum Zeitpunkt des Schließens der Datei einchecken.
+Mit dem AEM Guides-Editor können Sie DITA-Themen erstellen und aktualisieren. Sie können den Editor so konfigurieren, dass nur die Dokumente bearbeitet werden können, die aus dem Repository ausgecheckt wurden. Dadurch wird sichergestellt, dass kein anderer Autor versehentlich ein Thema überschreibt, das von einem anderen Autor zur Bearbeitung geöffnet wird. Sobald ein Thema zur Bearbeitung geöffnet wurde, kann ein Autor die Datei zum Zeitpunkt des Schließens der Datei einchecken.
 
 Eine weitere wichtige Regel besteht darin, sicherzustellen, dass Dateien, die ausgecheckt wurden, wieder in das System eingecheckt werden. Dadurch wird verhindert, dass Benutzer die Dateien versehentlich schließen, ohne sie wieder einzuchecken.
 
