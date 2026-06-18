@@ -62,4 +62,4 @@ Autorinnen und Autoren müssen ihre Editor-Sitzung neu starten, damit die Liste 
 
 >[!ENDTABS]
 
-**Übergeordnetes Thema:**[ Editor anpassen](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

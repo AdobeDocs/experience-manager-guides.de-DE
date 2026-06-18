@@ -33,4 +33,4 @@ Um die Anzahl der Knoten zu erhöhen, die eine Abfrage gleichzeitig lesen kann, 
 
 Wenn Sie diesen Attributwert erhöhen, können Sie damit den Bericht für größere DITA-Zuordnungen erstellen.
 
-**Übergeordnetes Thema:**[ Editor anpassen](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

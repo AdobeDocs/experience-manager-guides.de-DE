@@ -59,4 +59,4 @@ Führen Sie die folgenden Schritte aus, um die alte PDF-Generierung über das DI
 
 Wenn Sie nach dem Ausführen der oben genannten Schritte dasselbe Ordnerprofil aus den Benutzereinstellungen im Editor auswählen, wird im Vorschaumodus eines Themas die Option für die PDF-Generierung angezeigt.
 
-**Übergeordnetes Thema:**[ Editor anpassen](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

@@ -5,11 +5,20 @@ exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
 TQID: https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0id: d6596f3f-92a7-43ec-b444-237db6adad05
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+  - id: d6596f3f-92a7-43ec-b444-237db6adad05
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
 source-wordcount: 911
@@ -111,13 +120,13 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im CR
 
 10. Wenn der Befehl unzip nicht installiert/erkannt wird, kann er mit dem folgenden Befehl installiert werden
 
-   **yum install unzip**
+    **yum install unzip**
 
 11. Installieren Sie das fontconfig-Paket.
 Befehl: yum install fontconfig
 12. Generieren von nativem PDF aus Vorgaben im Editor
 
-**HINWEIS** : Das Paket node_modules.zip kann ([) ](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) werden.
+**HINWEIS** : Das Paket node_modules.zip kann ([) &#x200B;](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) werden.
 
 Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssystem ist eine Problemumgehung für Benutzende, die Guides 4.1 oder frühere Versionen verwenden (Schritte 6-12)
 

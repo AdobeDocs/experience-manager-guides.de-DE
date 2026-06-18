@@ -37,4 +37,4 @@ Mit AEM Guides können Sie den Standardstatus für die Tag-Ansicht im Editor kon
 >
 > Die Voreinstellung des Benutzers im Editor zum Aktivieren/Deaktivieren der Tag-Ansicht hat Vorrang vor diesem Standardwert. Wenn ein Benutzer also die Tag-Ansicht im Editor aktiviert, bleibt sie auch über die gesamten Sitzungen hinweg aktiviert.
 
-**Übergeordnetes Thema:**[ Editor anpassen](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

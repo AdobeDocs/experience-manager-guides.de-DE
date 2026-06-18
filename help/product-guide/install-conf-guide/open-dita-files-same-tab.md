@@ -58,4 +58,4 @@ Diese Einstellung wirkt sich auf die folgenden Orte aus, von denen aus Sie auf d
 
 - Registerkarte „Berichte“ in der DITA-Zuordnungskonsole
 
-**Übergeordnetes Thema:**[ Editor anpassen](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)
