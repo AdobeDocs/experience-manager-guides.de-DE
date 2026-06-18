@@ -143,4 +143,4 @@ Imagemaps:
 
 
 
-Erfahren Sie mehr über die Best Practices für [Sicherheit](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).
+Erfahren Sie mehr über die Best Practices für [Sicherheit](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/implementing/developing/introduction/security).
