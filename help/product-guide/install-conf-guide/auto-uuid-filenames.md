@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie automatische Dateinamen basierend auf der UUI
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 2b591ddc-173b-484a-995f-1b3322babbbd
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 >[!NOTE]
 >
-> Wenn diese Option aktiviert ist, wird den Autoren beim Erstellen eines neuen Themas oder einer Zuordnungsdatei die Option zum Angeben des Dateinamens nicht angezeigt. Über die Assets-Benutzeroberfläche und den Web-Editor kann eine neue Themen- oder Zuordnungsdatei erstellt werden.
+> Wenn diese Option aktiviert ist, wird den Autoren beim Erstellen eines neuen Themas oder einer Zuordnungsdatei die Option zum Angeben des Dateinamens nicht angezeigt. Über die Assets-Benutzeroberfläche und den Editor kann eine neue Themen- oder Zuordnungsdatei erstellt werden.
 
 >[!TAB On-Premise]
 
@@ -53,7 +54,6 @@ Führen Sie die folgenden Schritte aus, um den UUID-basierten Dateinamen automat
 
 >[!NOTE]
 >
-> Standardmäßig ist diese Option deaktiviert. Wenn diese Option aktiviert ist, wird den Autoren beim Erstellen eines neuen Themas oder einer Zuordnungsdatei die Option zum Angeben des Dateinamens nicht angezeigt. Über die Assets-Benutzeroberfläche und den Web-Editor kann eine neue Themen- oder Zuordnungsdatei erstellt werden.
+> Standardmäßig ist diese Option deaktiviert. Wenn diese Option aktiviert ist, wird den Autoren beim Erstellen eines neuen Themas oder einer Zuordnungsdatei die Option zum Angeben des Dateinamens nicht angezeigt. Über die Assets-Benutzeroberfläche und den Editor kann eine neue Themen- oder Zuordnungsdatei erstellt werden.
 
 >[!ENDTABS]
-

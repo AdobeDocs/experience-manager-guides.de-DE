@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 3032b49e-73d1-44d0-88b4-7e6e9444cac6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren des Titels für die Symbole zum Ein- und Auschecken für On-Premise
 
-Mit AEM Guides können Sie den Titel für die Ein- und Auschecksymbole im Web-Editor konfigurieren. Führen Sie die folgenden Schritte aus, um den Titel für die Symbole zum Ein- und Auschecken zu konfigurieren:
+Mit AEM Guides können Sie den Titel für die Symbole zum Ein- und Auschecken im Editor konfigurieren. Führen Sie die folgenden Schritte aus, um den Titel für die Symbole zum Ein- und Auschecken zu konfigurieren:
 
 1. Laden Sie die Konfigurationsdatei für die Benutzeroberfläche herunter, indem Sie sich als Administrator bei Adobe Experience Manager anmelden.
 1. Klicken Sie oben auf den Adobe Experience Manager-Link und wählen Sie **Tools** aus.

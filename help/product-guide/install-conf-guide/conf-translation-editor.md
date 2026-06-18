@@ -1,24 +1,24 @@
 ---
-title: Konfigurieren der Übersetzungsfunktion im Web-Editor
-description: Erfahren Sie, wie Sie die Übersetzungsfunktion im Web-Editor konfigurieren
+title: Konfigurieren der Übersetzungsfunktion im Editor
+description: Erfahren Sie, wie Sie die Übersetzungsfunktion im Editor konfigurieren
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 22d7e1c7-2059-43fb-b7aa-3ae4a6072678
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-# Konfigurieren der Übersetzungsfunktion im Web-Editor für Cloud Service
+# Konfigurieren der Übersetzungsfunktion im Editor für Cloud Service
 
-Der Web-Editor bietet eine leistungsstarke Übersetzungsfunktion, mit der Sie Ihre Inhalte in mehrere Sprachen übersetzen können.
+Der Editor bietet eine leistungsstarke Übersetzungsfunktion für die Übersetzung Ihrer Inhalte in mehrere Sprachen.
 
-Sie können die Registerkarte **Verwalten** im Web-Editor verwenden, um Ihre Inhalte zu übersetzen. Diese Registerkarte ist standardmäßig verfügbar.
+Sie können die Registerkarte **Verwalten** im Editor verwenden, um Ihre Inhalte zu übersetzen. Diese Registerkarte ist standardmäßig verfügbar.
 
-Um die Registerkarte **Verwalten** im Web-Editor auszublenden, führen Sie die folgenden Schritte aus:
+Um die Registerkarte **Verwalten** im Editor auszublenden, führen Sie die folgenden Schritte aus:
 
 1. Melden Sie sich bei **Adobe Experience Manager** als Admin an.
 1. Klicken Sie oben auf den Link **Adobe Experience Manager** und wählen Sie &quot;**&quot;**.
@@ -48,4 +48,4 @@ Um die Registerkarte **Verwalten** im Web-Editor auszublenden, führen Sie die f
 
 Beachten Sie, dass **Filter** Verwalten“ nicht mehr verfügbar ist.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**[ Editor anpassen](customize-overview.md)

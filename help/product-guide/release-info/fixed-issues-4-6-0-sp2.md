@@ -4,20 +4,13 @@ description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 4.6.0 S
 role: Leader
 exl-id: 8ff26c28-4a88-4eb2-b359-5b1b0138dd4b
 TQID: https://experienceleague.adobe.com/bsiTHK--FPkvfF4bdYUnL-HbAMuhtBKj7wT2eCmd7hM
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: 370
 ht-degree: 4%
 
 ---
@@ -43,7 +36,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 4.6.0 Service Pack 3](upgrad
 - Das Veröffentlichen in Salesforce schlägt fehl, wenn Inhalte Leerzeichen enthalten. (23664)
 - Bei Themen mit Fehlern wie fehlerhaften Links schlägt die Salesforce-Veröffentlichung fehl und die Fortschrittsleiste wird unbegrenzt angezeigt. (22985)
 - Bei Karten mit fehlerhaften Links schlägt die Salesforce-Veröffentlichung fehl und die Fortschrittsleiste wird unbegrenzt angezeigt. (24963)
-- Wenn ein externer Link eine UUID enthält, geht er in die Nachbearbeitung und konvertiert den externen Link in einen UUID-Link, wodurch der Link im Web-Editor und auch auf den Veröffentlichungsseiten unterbrochen wird. (22574)
+- Wenn ein externer Link eine UUID enthält, wird er in der Nachbearbeitung verwendet und der externe Link wird in den UUID-Link konvertiert, wodurch der Link im Editor und auch auf den Veröffentlichungs-Sites unterbrochen wird. (22574)
 - Die `xref` wird auch dann in einen relativen Link konvertiert, wenn **Umfang** des Links auf &quot;**&quot;**. (23059)
 - Die native PDF-Generierung schlägt für Inhalte fehl **wobei das Attribut** chunk“ auf &quot;**-content“**. (21772)
 - Das **Eigenschaften bearbeiten** für eine Baseline zeigt nicht die zuvor gespeicherten Kriterien für eine dynamische Baseline an. (23964)

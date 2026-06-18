@@ -5,16 +5,16 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 62195863-cbab-4c53-9cf0-b4a8d26d44f2
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
 # Filter für das Dialogfeld zum Durchsuchen von Dateien konfigurieren
 
-Beim Arbeiten im Web-Editor müssen Sie das Dialogfeld zum Durchsuchen von Dateien verwenden, um Elemente wie Bilder, Verweise oder Schlüsselverweise einzufügen. Das Standarddialogfeld zum Durchsuchen von Dateien bietet keine Dateifilteroption. Sie können eigene Filter hinzufügen, mit denen Sie einfach und schnell auf die erforderlichen Dateien zugreifen können.
+Während Sie im Editor arbeiten, müssen Sie das Dialogfeld zum Durchsuchen von Dateien verwenden, um Elemente wie Bilder, Verweise oder Schlüsselverweise einzufügen. Das Standarddialogfeld zum Durchsuchen von Dateien bietet keine Dateifilteroption. Sie können eigene Filter hinzufügen, mit denen Sie einfach und schnell auf die erforderlichen Dateien zugreifen können.
 
 Die folgenden Registerkarten enthalten Anweisungen zum Hinzufügen Ihrer benutzerdefinierten Dateifilteroptionen zum Dialogfeld zum Durchsuchen von Dateien, je nach Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
 
@@ -65,7 +65,7 @@ Die folgenden Registerkarten enthalten Anweisungen zum Hinzufügen Ihrer benutze
 
    Der zweite Filter betrifft Bilddateien. Die Parameter ähneln dem ersten Filter mit Ausnahme des `value`. Der `value`-Parameter akzeptiert ein Array von Bildtypen als Wert. Alle im Parameter value angegebenen Dateitypen werden gesucht und im Dialogfeld zum Durchsuchen von Dateien angezeigt. Alle anderen Dateitypen werden ignoriert.
 
-1. Speichern Sie die Datei *ui\_config.json* und laden Sie sie hoch. Laden Sie dann den Web-Editor neu.
+1. Speichern Sie die Datei *ui\_config.json* und laden Sie sie hoch. Laden Sie dann den Editor neu.
 
    Wenn Sie das Dialogfeld zum Durchsuchen von Dateien aufrufen, werden die in der Datei ui\_config.json konfigurierten Filteroptionen angezeigt.
 
@@ -118,7 +118,7 @@ Die folgenden Registerkarten enthalten Anweisungen zum Hinzufügen Ihrer benutze
 
    Der zweite Filter betrifft Bilddateien. Die Parameter ähneln dem ersten Filter mit Ausnahme des `value`. Der `value`-Parameter akzeptiert ein Array von Bildtypen als Wert. Alle im Parameter value angegebenen Dateitypen werden gesucht und im Dialogfeld zum Durchsuchen von Dateien angezeigt. Alle anderen Dateitypen werden ignoriert.
 
-1. Speichern Sie die *ui\_config.json*-Datei und laden Sie den Web-Editor neu.
+1. Speichern Sie die Datei *ui\_config.json* und laden Sie den Editor neu.
 
    Wenn Sie das Dialogfeld zum Durchsuchen von Dateien aufrufen, werden die in der Datei ui\_config.json konfigurierten Filteroptionen angezeigt.
 
@@ -127,4 +127,4 @@ Die folgenden Registerkarten enthalten Anweisungen zum Hinzufügen Ihrer benutze
 >[!ENDTABS]
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Anpassen des Web-Editors](customize-overview.md)
+**Übergeordnetes Thema:**[ Editor anpassen](customize-overview.md)

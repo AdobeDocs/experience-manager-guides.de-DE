@@ -6,17 +6,12 @@ feature: Output Generation
 role: Admin
 level: Experienced
 TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 4602
+source-wordcount: 4601
 ht-degree: 0%
 
 ---
@@ -37,7 +32,7 @@ Inhalte (Inhaltsverzeichnis), Index, leere Seite, Themenvorderseiten, rückwärt
 >
 >Es gibt Beispiel-Seiten-Layouts, die im Lieferumfang enthalten sind. Sie können diese anpassen oder neue Seiten-Layouts erstellen.
 
-1. Wechseln Sie im Web-Editor zur Registerkarte **Ausgabe** .
+1. Wechseln Sie im Editor zur Registerkarte **Ausgabe**.
 1. Erweitern Sie die linke Seitenleiste und klicken Sie auf **Vorlagen**.
 1. Öffnen Sie die Vorlage, mit der Sie arbeiten möchten.
 
@@ -468,11 +463,11 @@ Sie können beispielsweise eine Sprachvariable namens „reference-label“ hinz
 Wenn Sie `${lng:<variable name>}` zum Abschnitt Absatz hinzufügen, enthalten die Querverweise in den Absätzen der Ausgabe den lokalisierten Text und die Seitenzahl.\
 Die folgenden Screenshots zeigen zum Beispiel die Querverweise „Auf Seite 1 anzeigen &quot; in englischer Sprache und „Einzelheiten finden Sie auf der Seite 1“ in deutscher Sprache.
 
-<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einem Absatz&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Englische Ausgabe eines Querverweises in einem Absatz" width ="800" border="2px">
 
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in englischer Sprache.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Deutsche Ausgabe eines Querverweises in einem Absatz&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Deutsche Ausgabe eines Querverweises in einem Absatz" width ="800" border="2px">
 
 
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in deutscher Sprache.*

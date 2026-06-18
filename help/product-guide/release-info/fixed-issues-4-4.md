@@ -4,26 +4,15 @@ description: Erfahren Sie mehr über die Fehlerbehebungen in Version 4.4.0 von A
 role: Leader
 exl-id: ff3083d3-062b-4a79-875f-86991978a18e
 TQID: https://experienceleague.adobe.com/0mdTs2Pg1Zos-Y-jMaYUEasFRhyF2kzl6Sz8MBisJ5Q
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d6596f3f-92a7-43ec-b444-237db6adad05
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d6596f3f-92a7-43ec-b444-237db6adad05id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: 1439
-ht-degree: 5%
+source-wordcount: 1421
+ht-degree: 6%
 
 ---
 
@@ -41,37 +30,37 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 4.4.0](../release-info/upgra
 
 - Die Rechtschreibprüfung im Editor erlaubt keine Auswahl von Vorschlägen. (15045)
 - Die Schaltfläche für die globale Navigation funktioniert nicht und das Dashboard kann nicht geladen werden. (14968)
-- Im Web-Editor kann mit der Funktion „Zuordnung herunterladen“ keine Popup-Benachrichtigung Trigger werden, wenn sie zum Herunterladen bereit ist. (14626)
-- Im Web-Editor kann mit der Funktion „Karte herunterladen“ keine Karte mit Grundlinie heruntergeladen werden. (14622)
+- Im Editor kann mit der Funktion „Zuordnung herunterladen“ keine Popup-Benachrichtigung Trigger werden, wenn sie zum Herunterladen bereit ist. (14626)
+- Im Editor kann mit der Funktion „Karte herunterladen“ keine Karte mit Grundlinie heruntergeladen werden. (14622)
 - Ungültiger DTD-Fehler in der Experience Manager Guides. (14482)
-- Der Titel auf der Registerkarte „Webeditor“ wird nach einem Punkt (.) abgeschnitten. Zeichen. (14372)
+- Der Titel auf der Editor-Registerkarte wird nach einem Punkt (.) abgeschnitten. Zeichen. (14372)
 - Die Fehlermeldung für doppelte Zuordnungsnamen in der Assets-Benutzeroberfläche wird nicht aktualisiert. (14320)
 - Bei der Versionserstellungslogik tritt während des Drag-and-Drop von Assets ein Fehler auf. (14291)
 - Wiederverwendbarer Inhalt überspringt die Element-IDs. (14213)
 - Das Einstellungssteuerelement zum Ausblenden des **Sprachvariablen** Bedienfelds auf **Ausgabe**-Registerkarte fehlt. (14194)
-- Der Web-Editor gibt Anwendungsfehler aus, wenn ein neuer Verweis oder ein neues Thema mithilfe eines speziellen Schemas in der Layout **Ansicht hinzugefügt**. (14094)
+- Der Editor gibt Programmfehler aus, wenn ein neuer Verweis oder ein neues Thema mithilfe eines speziellen Schemas in der **Layout** Ansicht hinzugefügt wird. (14094)
 - Das Leerzeichen nach dem `<ph>` conref-Element verschwindet beim Speichern des Themas. (13642)
 - Beim Versuch, DITA-Dateien zu speichern, bevor die Nachbearbeitung abgeschlossen ist, tritt ein Anwendungsfehler auf. (13571)
 - Ein Ankerlink zu `<dlentry>` oder `<dt>` Element zeigt den Link-Text nicht an. (13543)
-- Die **Favoriten**-Sammlung im Web-Editor kann nicht geladen werden. (13495)
-- Wenn der Titel eines Themas einen Schrägstrich `/`, werden auf der Registerkarte im Web-Editor nur die nachfolgenden Briefe angezeigt. (13455)
-- Die Bildvorschau verschwindet nicht, nachdem die Vorschau im Web-Editor angezeigt wurde. (13454)
+- Die **Favoriten**-Sammlung im Editor kann nicht geladen werden. (13495)
+- Wenn der Titel eines Themas einen Schrägstrich `/`, werden auf der Registerkarte im Editor nur die nachfolgenden Briefe angezeigt. (13455)
+- Die Bildvorschau verschwindet nicht, nachdem die Vorschau im Editor angezeigt wurde. (13454)
 - Zitate zeigen nicht anklickbare Links an, wenn sie mit einer eindeutigen ID mit Leerzeichen erstellt wurden. (13447)
 - Wenn Sie ein Thema nach der Bearbeitung schließen, werden Sie zur AEM-Startseite weitergeleitet, anstatt zur Ordneransicht zurückzukehren. (13306)
 - Das Popup-Fenster zum Einfügen von Keywords wird nicht angezeigt, wenn in anderen Themen Schlüssel verwendet werden, die für die Stammzuordnung definiert sind. (12950)
 - Schließen-Symbole sind nicht sichtbar, wenn sehr hohe Grafiken im Bedienfeld **Versionsverlauf** in der Vorschau angezeigt werden. (12867)
 - Die Zeitzone der Spalte **Version erstellt am** für die Baselines kann nicht geändert werden. (12711)
-- Zip-Dateien werden im Web-Editor nicht erkannt und können nicht per Drag-and-Drop eingefügt werden. (12709)
+- Zip-Dateien werden im Editor nicht erkannt und können nicht per Drag-and-Drop verschoben werden. (12709)
 - Das **Versionsverlauf** in der Assets-Benutzeroberfläche zeigt einen falschen Zeitstempel für das Feld **Aktuell** an. (12624)
 - In der **Layout**-Ansicht für eine Bookmap funktioniert die Verwendung von **Nach rechts verschieben**, um ein ausgewähltes Kapitel zu einem Unterelement zu machen, nicht. (12567)
 - Das Erstellen einer DITA-Datei aus einer Vorlage mit einem Dateinamen, der mit numerischen Zeichen beginnt, führt zu einem Namespace-Fehler. (12188)
-- Die Rootmap-Einstellung bleibt im Web-Editor erhalten, auch wenn sie nicht explizit in den **Benutzereinstellungen“ festgelegt**. (11551)
+- Die Rootmap-Einstellung bleibt im Editor erhalten, auch wenn sie nicht explizit in den **Benutzereinstellungen“ festgelegt**. (11551)
 - Der Inhalt mit einigen angewendeten Attributen wird im **Autor** oder **Vorschau** nicht hervorgehoben. (11063)
-- Im Web-Editor wird das Fenster **Schlüsselverweise** beim Einfügen des `varname`-Tags geöffnet. (10940)
+- Im Editor wird das Fenster **Schlüsselverweise** beim Einfügen des `varname`-Tags geöffnet. (10940)
 - Wenn Sie ein Glossarthema aus dem Repository in eine Glossarzuordnung ziehen, wird `topicref` erstellt. (10767)
 - Das Vorschaufenster des XML-Editors ist in den Browsern Google Chrome und Microsoft Edge abgeschnitten. (10755)
-- Dem Web-Editor fehlt die Fähigkeit, ein Element in die möglichen übergeordneten Elemente einzuschließen. (8791)
-- Der Web-Editor wird nach der Neuinstallation von Adobe Experience Manager Guides Version 4.3.1 deinstalliert. (14519)
+- Dem Editor fehlt die Fähigkeit, ein Element in die möglichen übergeordneten Elemente einzuschließen. (8791)
+- Der Editor wird nach der Neuinstallation von Adobe Experience Manager Guides Version 4.3.1 deinstalliert. (14519)
 - Das Installationsprogramm von Version 4.3.1 stößt auf einen Filterkonflikt, der dazu führt, dass `apps/cq/core/content/projects/properties` überschrieben wird. (14517)
 - Unter der Liste der (fehlerhaften Links **in Berichten wird ein** angezeigt. (13539)
 - Der Vorschaubildschirm für Snippets ist eingefroren. (14840)
@@ -86,7 +75,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 4.4.0](../release-info/upgra
 - **AEM Site**-Voreinstellung funktioniert nicht, da der Vorlagenpfad leer ist. (14804)
 - Die AEM-Site-Regenerierung schlägt für DITA-Zuordnungen mit Themen fehl, die MathML-Gleichungen enthalten. (14790)
 - In der nativen PDF-Veröffentlichung gibt die PDF-Generierung Fehler beim Abrufen von Abhängigkeiten für die `Node.js`-Veröffentlichung aus. (14445)
-- **AEM Site**-Vorgabe lässt die Auswahl einer Vorlage außerhalb der `/content` im Web-Editor nicht zu. (14260)
+- **AEM-Site**-Vorgabe lässt die Auswahl einer Vorlage außerhalb der `/content` im Editor nicht zu. (14260)
 - Die Funktion zum Veröffentlichen als Inhaltsfragment funktioniert nicht für Dateien, die in Suchergebnissen aufgelistet sind. (14090)
 - FMDITA-Komponenten haben einen hartcodierten Pfad von `delegator.jsp`, der die Überlagerung von AEM Sites-Komponenten verhindert. (13993)
 - Die getaggte Ansicht von PDF Reactor in der nativen PDF-Veröffentlichungsausgabe funktioniert nicht wie erwartet. (13622)
@@ -101,7 +90,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 4.4.0](../release-info/upgra
 - Die Lokalisierung der Elementbeschriftungen funktioniert in der AEM Sites-Ausgabe nicht ordnungsgemäß. (12144)
 - Benutzerdefinierte Metadaten sind in der endgültigen Ausgabe nicht verfügbar. (12116)
 - `fmdita rewriter` steht im Konflikt mit der Rewriter-Konfiguration des Benutzers und führt zur Anzeige langer URLs anstelle der Links. (12076)
-- Fehlende Option **ditaval** in den über die Benutzeroberfläche des Web-Editors erstellten Ausgabevorgaben auf Ordnerprofilebene. (11903)
+- Fehlende Option **ditaval** in den über die Editor-Benutzeroberfläche erstellten Ausgabevorgaben auf Ordnerprofilebene. (11903)
 - In der Voreinstellung **AEM Site** ist die Option **Für jedes Thema separaten PDF generieren** nicht funktionsfähig. (11555)
 - Die native PDF-Veröffentlichung bietet keine Unterstützung für die CMYK-Farbraumkonvertierung. (10754)
 - Beim Upgrade auf Version 4.3.1 treten einige Ausnahmen im nativen PDF-Knoten auf. (14492)
@@ -111,19 +100,19 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 4.4.0](../release-info/upgra
 ## Verwaltung
 
 - Der Inhaltsverweis ist beim Kopieren und Einfügen der DITA-Dateien mit Selbstverweis-Links ohne GUID fehlerhaft. (13540)
-- **Grundlinienfilter**-Dateien funktionieren im Web-Editor nicht mit Dateinamen. (13486)
-- Im Web-Editor zeigt die Grundlinie den Titel für die vorherige Version anstelle der ausgewählten Version der DITA-Datei an. (13444)
+- **Grundlinienfilter**-Dateien funktionieren im Editor nicht mit dem Dateinamen. (13486)
+- Im Editor zeigt die Grundlinie den Titel für die vorherige Version anstelle der ausgewählten Version der DITA-Datei an. (13444)
 - Wenn Sie die Indizierung der übergeordneten DITA-Zuordnung deaktivieren, um eine bessere Leistung zu erzielen, kann dies Auswirkungen auf die Funktionalität bestimmter Funktionen haben.(12213)
 - Bedingungsvorgaben für große DITA-Zuordnungen werden nicht erstellt. (10936)
 - Die Voreinstellungen für die ersten Zuordnungen der Sammlung können beim Bearbeiten einer Zuordnungssammlung nicht bearbeitet werden. (10649)
-- Kennzeichnungen aus der `labels.json`-Datei werden im Web-Editor in zufälliger Reihenfolge angezeigt. (10508)
+- Kennzeichnungen aus der `labels.json`-Datei werden im Editor in zufälliger Reihenfolge angezeigt. (10508)
 - Dynamische Baseline-Aufrufe verwenden den Namen anstelle des Titels, was dazu führt, dass die Export-DITA-Zuordnungs-API fehlschlägt. (14268)
 
 ## Überprüfung
 
 - Das Kontextmenü mit der rechten Maustaste funktioniert nicht für **Akzeptieren** oder **Ablehnen** Tracking von Änderungen. (14607)
 - Der Umschalter zum Schließen von DITA-Themen im Überprüfungsbildschirm funktioniert in Version 4.3.1 von Adobe Experience Manager Guides nicht. (14537)
-- Symmetrieprobleme treten in den Seitenansichtsbereichen der vorherigen und aktuellen Versionen im Web-Editor auf. (14156)
+- Symmetrieprobleme treten in den Seitenansichtsbereichen der vorherigen und aktuellen Versionen im Editor auf. (14156)
 - Das Anpassen von E-Mail-Vorlagen für den Überprüfungs-Workflow funktioniert nicht mit Überlagerung. (13954)
 - Koreanische Anhänge im Experience Manager Guides-Überprüfungsbildschirm sind nicht anklickbar. (13436)
 - Der Map-Titel wird im Bildschirm Überprüfung und Zusammenarbeit abgeschnitten, ohne Option zum Anzeigen des vollständigen Titels. (13012)

@@ -5,18 +5,18 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cb82a816ac9513fcdf7a3ad32ed46f1e44c5a7f3
+source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
 workflow-type: tm+mt
-source-wordcount: '6098'
+source-wordcount: '6082'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren von globalen Profilen oder Profilen auf Ordnerebene {#id181AH2003PF}
 
-In einem Unternehmen können verschiedene Gruppen oder Produkte unterschiedliche Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Web-Editor-Konfigurationen verwenden. Wenn Sie diese nur auf Enterprise-\(oder globaler\) Ebene konfigurieren, kann dies Autorinnen und Autoren Schwierigkeiten bereiten, da sie Vorlagen oder Profile sehen, die für sie nicht relevant sind.
+In einem Unternehmen können verschiedene Gruppen oder Produkte unterschiedliche Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Editor-Konfigurationen verwenden. Wenn Sie diese nur auf Enterprise-\(oder globaler\) Ebene konfigurieren, kann dies Autorinnen und Autoren Schwierigkeiten bereiten, da sie Vorlagen oder Profile sehen, die für sie nicht relevant sind.
 
-Mit AEM Guides können Sie die Erstellung von \(topic oder map\) Vorlagen, Ausgabevorlagen, bedingten Attributen und Web-Editor-Konfigurationen auf Enterprise \(global\)-Ebene sowie auf Ordnerebene konfigurieren. Auf diese Weise können Sie die Konfigurationen für verschiedene Abteilungen oder Produkte in Ihrem Unternehmen trennen.
+Mit AEM Guides können Sie die Erstellung von \(topic oder map\) Vorlagen, Ausgabevorlagen, bedingten Attributen und Editor-Konfigurationen auf Enterprise \(global\)-Ebene sowie auf Ordnerebene konfigurieren. Auf diese Weise können Sie die Konfigurationen für verschiedene Abteilungen oder Produkte in Ihrem Unternehmen trennen.
 
 Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung oder Produktadministratoren delegieren, um die Administration zu dezentralisieren.
 
@@ -68,9 +68,9 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
    - Benutzerdefiniert
 
-  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden &#x200B;](#id18AGD0K0OHS) Vorgabenänderungen“.
+  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden ](#id18AGD0K0OHS) Vorgabenänderungen“.
 
-- **XML-Editor-**: Auf dieser Registerkarte können Sie das Erscheinungsbild und verschiedene Funktionen des Web-Editors anpassen. Die folgenden konfigurierbaren Einstellungen sind für den Web-Editor verfügbar:
+- **XML-Editor-**: Verwenden Sie diese Registerkarte, um das Erscheinungsbild und verschiedene Funktionen des Editors anzupassen. Die folgenden konfigurierbaren Einstellungen sind für den Editor verfügbar:
 
    - Konfiguration der Benutzeroberfläche des XML-Editors
    - XML-Editor-Seitenlayout nur für Cloud Service
@@ -108,7 +108,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Informationen zum Konfigurieren **Ausgabevorgaben** finden Sie unter [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [&#x200B; unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [ unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
 
 1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie **Globales Profil**.
 
@@ -196,7 +196,7 @@ Führen Sie die folgenden Schritte aus, um standardmäßige DITA-unterstützte b
 
 1. Geben Sie **Name**, **Value** und ein **Label** für das bedingte Attribut ein.
 
-   Sie können ein Profil nur mit dem Attributnamen speichern. Ein Attribut kann jedoch nur verwendet werden, wenn für es ein Wert angegeben wurde. Wenn Sie sowohl - Wert als auch Beschriftung für ein Attribut angeben, zeigt der Web-Editor die Beschriftung des bedingten Attributs an. Außerdem wird der Titel dem Veröffentlichungs-Admin zum Zeitpunkt der Erstellung einer bedingten Vorgabe angezeigt.
+   Sie können ein Profil nur mit dem Attributnamen speichern. Ein Attribut kann jedoch nur verwendet werden, wenn für es ein Wert angegeben wurde. Wenn Sie sowohl - Wert als auch Beschriftung für ein Attribut angeben, zeigt der Editor die Beschriftung des bedingten Attributs an. Außerdem wird der Titel dem Veröffentlichungs-Admin zum Zeitpunkt der Erstellung einer bedingten Vorgabe angezeigt.
 
    Der folgende Screenshot zeigt die Definition für das Attribut `platform` mit möglichen Werten und Beschriftungen.
 
@@ -304,7 +304,7 @@ Führen Sie die folgenden Schritte aus, um die Themen-, Zuordnungs- oder PDF-Vor
 
    >[!NOTE]
    >
-   > Standardmäßig werden alle Vorlagen im Ordner /content/dam/dita-templates gespeichert. Der `dita-templates` enthält `topics`-, `maps`- und `PDF` Unterordner zum Speichern der Themen-, Zuordnungs- und PDF-Vorlagen. Sie können Ihre benutzerdefinierten Vorlagen (\.dita, .xml oder .ditamapfiles\) in den Standardvorlagenordnern hinzufügen. Nachdem Sie Ihre Vorlage zum Standardordner hinzugefügt haben, können Sie sie zum globalen Ordner oder zum Profilordner hinzufügen. Weitere Informationen zum Erstellen benutzerdefinierter Vorlagen mit dem Web-Editor finden Sie unter [Erstellen einer benutzerdefinierten Authoring-Vorlage](#id1917D0EG0HJ).
+   > Standardmäßig werden alle Vorlagen im Ordner /content/dam/dita-templates gespeichert. Der `dita-templates` enthält `topics`-, `maps`- und `PDF` Unterordner zum Speichern der Themen-, Zuordnungs- und PDF-Vorlagen. Sie können Ihre benutzerdefinierten Vorlagen (\.dita, .xml oder .ditamapfiles\) in den Standardvorlagenordnern hinzufügen. Nachdem Sie Ihre Vorlage zum Standardordner hinzugefügt haben, können Sie sie zum globalen Ordner oder zum Profilordner hinzufügen. Weitere Informationen zum Erstellen benutzerdefinierter Vorlagen mithilfe des Editors finden Sie unter [Erstellen einer benutzerdefinierten Authoring-Vorlage](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="800"}
 
@@ -366,7 +366,7 @@ Führen Sie die folgenden Schritte aus, um das Thema oder die Zuordnungsvorlagen
 
    >[!NOTE]
    >
-   > Standardmäßig werden alle Authoring-Vorlagen im Ordner /content/dam/dita-templates gespeichert. Der Ordner `dita-templates` enthält `topics` und `maps` Unterordner zum Speichern des Themas und der Zuordnungsvorlagen. Sie können Ihre benutzerdefinierten Vorlagen (\.dita, .xml oder .ditamapfiles\) in den Standardvorlagenordnern hinzufügen. Nachdem Sie Ihre Vorlage zum Standardordner hinzugefügt haben, können Sie sie zum globalen Ordner oder zum Profilordner hinzufügen. Weitere Informationen zum Erstellen benutzerdefinierter Vorlagen mit dem Web-Editor finden Sie unter [Erstellen einer benutzerdefinierten Authoring-Vorlage](#id1917D0EG0HJ).
+   > Standardmäßig werden alle Authoring-Vorlagen im Ordner /content/dam/dita-templates gespeichert. Der Ordner `dita-templates` enthält `topics` und `maps` Unterordner zum Speichern des Themas und der Zuordnungsvorlagen. Sie können Ihre benutzerdefinierten Vorlagen (\.dita, .xml oder .ditamapfiles\) in den Standardvorlagenordnern hinzufügen. Nachdem Sie Ihre Vorlage zum Standardordner hinzugefügt haben, können Sie sie zum globalen Ordner oder zum Profilordner hinzufügen. Weitere Informationen zum Erstellen benutzerdefinierter Vorlagen mithilfe des Editors finden Sie unter [Erstellen einer benutzerdefinierten Authoring-Vorlage](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="550"}
 
@@ -400,7 +400,7 @@ Falls Sie die Vorlagen in einem Profil auf Ordnerebene konfiguriert haben, werde
 
 ## Erstellen einer benutzerdefinierten Authoring-Vorlage {#id1917D0EG0HJ}
 
-AEM Guides bietet eine einfache Möglichkeit zum Erstellen von Authoring-Vorlagen. Als Systemadministrator können Sie den Web-Editor verwenden, um neue Authoring-Vorlagen zu erstellen. Anschließend können Sie die neue Vorlage im globalen Profil hinzufügen oder sie mithilfe des ordnerspezifischen Profils einem bestimmten Ordner zuweisen.
+AEM Guides bietet eine einfache Möglichkeit zum Erstellen von Authoring-Vorlagen. Als Systemadministrator können Sie den Editor verwenden, um neue Authoring-Vorlagen zu erstellen. Anschließend können Sie die neue Vorlage im globalen Profil hinzufügen oder sie mithilfe des ordnerspezifischen Profils einem bestimmten Ordner zuweisen.
 
 Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Authoring-Vorlage zu erstellen:
 
@@ -434,7 +434,7 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Authoring-Vor
 
    Die Meldung Thema erstellt wird angezeigt.
 
-   Sie können die Vorlage zur Bearbeitung im Web-Editor öffnen oder die Vorlagendatei im Vorlagenspeicher speichern. Nachdem die Vorlage erstellt wurde, können Sie den Web-Editor verwenden, um die Vorlage gemäß Ihren Authoring-Anforderungen anzupassen. Nachdem Sie eine Vorlage eingerichtet haben, stellen Sie sicher, dass Sie sie entweder mit einem globalen Profil oder einem Profil auf Ordnerebene verknüpfen.
+   Sie können die Vorlage zur Bearbeitung im Editor öffnen oder die Vorlagendatei im Vorlagenspeicher speichern. Nachdem die Vorlage erstellt wurde, können Sie den Editor verwenden, um die Vorlage entsprechend Ihren Authoring-Anforderungen anzupassen. Nachdem Sie eine Vorlage eingerichtet haben, stellen Sie sicher, dass Sie sie entweder mit einem globalen Profil oder einem Profil auf Ordnerebene verknüpfen.
 
 
 ## Konfigurieren von Ausgabevorgaben {#id18AGD0IH0Y4}
@@ -517,7 +517,7 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 ## Konfigurieren des KI-Assistenten für intelligente Hilfe und Authoring (nur für Cloud Service)
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
 
 Der KI-Assistent in Adobe Experience Manager Guides ist ein leistungsstarkes, KI-gesteuertes Tool, mit dem Sie Ihre Inhalte durch intelligentes Authoring und die Wiederverwendung von Inhalten verbessern können. Es vereint zwei robuste KI-Funktionen - **Authoring** und **Help** - in der Experience Manager Guides-Oberfläche, sodass Sie Dokumente schneller und effizienter erstellen und auf Informationen zugreifen können.
 
@@ -568,7 +568,7 @@ Führen Sie die folgenden Schritte aus, um die Standard-KI-Konfiguration im glob
    >
    > Der letzte indizierte Status des Ordnerprofils wird nach dem Speichern der Datei oben angezeigt.
 
-Erfahren Sie mehr darüber, wie Sie [KI-basierte Smart-Vorschläge](../user-guide/authoring-ai-based-smart-suggestions.md) zum Hinzufügen von Inhaltsreferenzen beim Authoring im Web-Editor anzeigen und hinzufügen können.
+Erfahren Sie mehr darüber, wie Sie [KI-basierte Smart-Vorschläge](../user-guide/authoring-ai-based-smart-suggestions.md) zum Hinzufügen von Inhaltsreferenzen beim Authoring im Editor anzeigen und hinzufügen können.
 
 ### Ordnerprofilbeschränkungen
 
@@ -603,9 +603,9 @@ Um sicherzustellen, dass intelligente Vorschläge effektiv funktionieren, sollte
 
 **Standardfragen für die intelligente Hilfe anpassen**
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
 
-Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview).
+Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 Auf der Registerkarte **XML** Editor-Konfiguration“ können Sie die Standardfragen des Bedienfelds **Hilfe** konfigurieren.
 
@@ -662,7 +662,7 @@ Die folgenden Registerkarten enthalten Informationen basierend auf Ihrer Experie
 
 Mit dieser Einstellung können Sie JSON-Erweiterungen erstellen, die die in der `ui_config.json`-Datei vorgenommenen Änderungen widerspiegeln. Sie können diese Erweiterungen unabhängig auf Ordnerprofilebene hochladen, was eine höhere Flexibilität und Anpassung bietet. Wenn Sie beispielsweise Änderungen an der Konfiguration des **XML-Editors** vornehmen, wie z. B. eine Schaltfläche aktualisieren, erkennt das System automatisch die Unterschiede. Durch Hochladen dieser Änderungen in die **Konfiguration der Benutzeroberfläche des XML-Editors** und Konvertieren in JSON-Erweiterungen mithilfe der Schaltfläche **UI-Konfiguration in JSON**&quot; generiert das System eine Erweiterung, die die neue Funktionalität enthält.
 
-Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -682,19 +682,19 @@ Mit dieser Einstellung werden die Symbolleiste und die anderen Elemente der Benu
 
 >[!TAB On-Premise]
 
-Diese Einstellung steuert die Symbolleiste und die anderen Elemente der Benutzeroberfläche des Web-Editors. Klicken Sie auf **Herunterladen**, um die neueste ui\_config.json-Datei auf Ihr lokales System herunterzuladen. Sie können dann Änderungen an der Datei vornehmen und die Datei auf die gleiche Weise hochladen. Klicken Sie auf **Standard herunterladen**, um die Standarddatei ui\_config.json auf Ihr lokales System herunterzuladen. Sie können die Standarddatei jederzeit herunterladen, ändern und hochladen.Je nachdem, wo Sie die Datei hochladen, ob global oder im Profil auf Ordnerebene, werden die Änderungen entsprechend angewendet. Weitere Informationen zum Anpassen des XML-Editors mithilfe der Datei ui\_config.json finden Sie unter [Symbolleiste anpassen](customize-toolbar.md#).
+Mit dieser Einstellung werden die Symbolleiste und die anderen Elemente der Benutzeroberfläche des Editors gesteuert. Klicken Sie auf **Herunterladen**, um die neueste ui\_config.json-Datei auf Ihr lokales System herunterzuladen. Sie können dann Änderungen an der Datei vornehmen und die Datei auf die gleiche Weise hochladen. Klicken Sie auf **Standard herunterladen**, um die Standarddatei ui\_config.json auf Ihr lokales System herunterzuladen. Sie können die Standarddatei jederzeit herunterladen, ändern und hochladen.Je nachdem, wo Sie die Datei hochladen, ob global oder im Profil auf Ordnerebene, werden die Änderungen entsprechend angewendet. Weitere Informationen zum Anpassen des XML-Editors mithilfe der Datei ui\_config.json finden Sie unter [Symbolleiste anpassen](customize-toolbar.md#).
 
 >[!ENDTABS]
 
 **CSS-Vorlagenlayout**
 
-Laden Sie die in diesem Abschnitt verfügbare Datei herunter, um das Erscheinungsbild des Dokuments anzupassen, wenn es in der Vorschau angezeigt oder im Web-Editor zur Bearbeitung geöffnet wird. Die standardmäßig zum Herunterladen verfügbare CSS-Datei ist nur eine Testdatei, die nicht für die Anpassung verwendet werden sollte. Sie können eine CSS-Datei mit Anpassungen für den Web-Editor erstellen und diese hochladen. Sie können beispielsweise eine CSS-Datei mit folgendem Code erstellen:
+Laden Sie die in diesem Abschnitt verfügbare Datei herunter, um das Erscheinungsbild Ihres Dokuments anzupassen, wenn es in der Vorschau angezeigt oder im Editor zur Bearbeitung geöffnet wird. Die standardmäßig zum Herunterladen verfügbare CSS-Datei ist nur eine Testdatei, die nicht für die Anpassung verwendet werden sollte. Sie können eine CSS-Datei mit Anpassungen für den Editor erstellen und diese hochladen. Sie können beispielsweise eine CSS-Datei mit folgendem Code erstellen:
 
 ```
 .title {    font-size: 9em;}
 ```
 
-Speichern Sie diese Datei und laden Sie sie in den Abschnitt CSS-Vorlagenlayout hoch. Wenn Sie die Datei das nächste Mal herunterladen, erhalten Sie die neueste CSS-Datei, die im Web-Editor verwendet wird.
+Speichern Sie diese Datei und laden Sie sie in den Abschnitt CSS-Vorlagenlayout hoch. Wenn Sie die Datei das nächste Mal herunterladen, erhalten Sie die neueste CSS-Datei, die im Editor verwendet wird.
 
 **XML-Editor-Snippets**
 
@@ -745,7 +745,7 @@ Im obigen Beispiel ist „label1“ der Bezeichner für die Titelsequenz und wir
 
 >[!IMPORTANT]
 >
-> Damit Konfigurationen auf Ordnerebene wirksam werden, müssen Benutzerinnen und Benutzer das Profil unter ihren Benutzereinstellungen im Web-Editor auswählen.
+> Damit Konfigurationen auf Ordnerebene wirksam werden, müssen Benutzerinnen und Benutzer das Profil unter ihren Benutzereinstellungen im Editor auswählen.
 
 **Rootmap**
 
