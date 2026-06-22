@@ -2,9 +2,9 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 5.2.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 5.2.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: efd7ab95f0ed7f35e99587a2f47eaeac7a330221
+source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
 workflow-type: tm+mt
-source-wordcount: '4132'
+source-wordcount: '4052'
 ht-degree: 0%
 
 ---
@@ -345,13 +345,6 @@ Wenn eine Datei schreibgeschützt ist, müssen Sie die Datei zunächst auschecke
 Sie können jetzt Regex verwenden, um die Nachbearbeitung für Ordner zu aktivieren oder zu deaktivieren. Diese Verbesserung ermöglicht es Admins, Nachbearbeitungsregeln zu definieren, die für mehrere Ordner oder ganze Ordnerhierarchien mit einer einzigen Konfiguration gelten, anstatt einzelne Ordnerpfade anzugeben.
 
 Weitere Informationen finden Sie unter [Verwenden von Regex zum Aktivieren oder Deaktivieren der Nachbearbeitung](../install-conf-guide/conf-folder-post-processing.md).
-
-- Ausführen der Asset-Verarbeitung auf Ordner- und Einzeldateiebene
-- Filtern Sie Assets, indem Sie bestimmte Asset-Typen wie Themen, Karten, Markdown, HTML/CSS, DITAVAL oder andere unterstützte Dateien auswählen, um nur die benötigten Dateien zu verarbeiten.
-- Wenden Sie datumsbasierte Filter an, um den Verarbeitungsbereich für einen bestimmten Zeitrahmen zu begrenzen.
-- Verarbeiten Sie Assets erneut mit der neuen Option **Assets erneut verarbeiten** die im Kontextmenü von Dateien und Ordnern in der Repository-Ansicht und im Explorer-Bedienfeld verfügbar ist.
-
-Weitere Informationen zur Verarbeitung von Assets finden Sie unter [Assets verarbeiten](../user-guide/asset-processor.md).
 
 ### Automatisierte B-Tree-Bereinigung für optimale Leistung
 
