@@ -1,40 +1,40 @@
 ---
-title: Experience Manager Guides und Edge Delivery Services (Beta)
-description: Erfahren Sie, wie Edge Delivery Services (Beta) die Authoring- und Publishing-Möglichkeiten für Experience Manager Guides erweitert.
+title: Experience Manager Guides und Edge Delivery Services
+description: Erfahren Sie, wie Edge Delivery Services die Authoring- und Publishing-Möglichkeiten für Experience Manager Guides erweitert.
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: a4623088-a867-4079-80d6-20866c99683e
-source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
+source-git-commit: 7a207bd17946baaf1489a8aa5ca7caa07199be31
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1589'
 ht-degree: 1%
 
 ---
 
-# Experience Manager Guides und Edge Delivery Services (Beta)
+# Experience Manager Guides und Edge Delivery Services
 
 Mit Adobe Experience Manager Guides können Sie Ihre DITA-Inhalte direkt in Edge Delivery Services (EDS) veröffentlichen, das derzeit in *Beta* verfügbar ist, und zwar über ein dediziertes GitHub-basiertes Veröffentlichungsprofil. Mit dieser Funktion können Unternehmen hochleistungsfähige, responsive Dokumentationserlebnisse bereitstellen und gleichzeitig DITA-basierte Authoring-Workflows in Experience Manager Guides beibehalten.
 
 Weitere Informationen zur Verwendung von EDS in Adobe Experience Manager finden Sie in der [Übersicht über Edge Delivery Services](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/edge-delivery/overview).
 
-Um die Veröffentlichung von Experience Manager Guides in EDS (Beta) zu aktivieren, müssen Sie eine Reihe von Konfigurationsschritten für GitHub und Experience Manager Guides durchführen. In den folgenden Abschnitten werden die einzelnen Schritte der Reihe nach beschrieben und erläutert, wie sie im gesamten Veröffentlichungs-Workflow zusammenarbeiten.
+Um die Veröffentlichung von Experience Manager Guides in EDS zu aktivieren, müssen Sie eine Reihe von Konfigurationsschritten für GitHub und Experience Manager Guides durchführen. In den folgenden Abschnitten werden die einzelnen Schritte der Reihe nach beschrieben und erläutert, wie sie im gesamten Veröffentlichungs-Workflow zusammenarbeiten.
 
-1. [Einrichten und Konfigurieren von GitHub für EDS (Beta)](#set-up-and-configure-github-for-eds-beta)
-2. [Erstellen und Konfigurieren eines Veröffentlichungsprofils für EDS (Beta) in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
+1. [Einrichten und Konfigurieren von GitHub für EDS](#set-up-and-configure-github-for-eds-beta)
+2. [Erstellen und Konfigurieren eines Veröffentlichungsprofils für EDS in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Anpassen der Ausgabe mithilfe von EDS-Blöcken](#customize-output-using-eds-blocks)
 
 Eine kurze Videoanleitung finden Sie unter [Veröffentlichen in AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
-## Einrichten und Konfigurieren von GitHub für EDS (Beta)
+## Einrichten und Konfigurieren von GitHub für EDS
 
-In diesem Abschnitt wird beschrieben, wie Sie GitHub für die Verwendung mit EDS (Beta) einrichten und konfigurieren. Es behandelt das Erstellen eines Repositorys mit dem Adobe-Textbaustein, das Verbinden von GitHub mit Adobe Experience Manager über AEM Code Sync, das Konfigurieren der erforderlichen GitHub- und OAuth-Anwendungen und das Definieren des Repository-Bereitstellungspunkts, der für die Veröffentlichung von Inhalten verwendet wird.
+In diesem Abschnitt wird beschrieben, wie Sie GitHub für die Verwendung mit EDS einrichten und konfigurieren. Es behandelt das Erstellen eines Repositorys mit dem Adobe-Textbaustein, das Verbinden von GitHub mit Adobe Experience Manager über AEM Code Sync, das Konfigurieren der erforderlichen GitHub- und OAuth-Anwendungen und das Definieren des Repository-Bereitstellungspunkts, der für die Veröffentlichung von Inhalten verwendet wird.
 
-### Erstellen eines GitHub-Repositorys für EDS (Beta)
+### Erstellen eines GitHub-Repositorys für EDS
 
-EDS (Beta) erfordert ein GitHub-Repository mit einer vordefinierten Struktur. Adobe bietet ein offizielles Textbaustein-Repository, das speziell für Experience Manager Guides-Anwender entwickelt wurde.
+EDS erfordert ein GitHub-Repository mit einer vordefinierten Struktur. Adobe bietet ein offizielles Textbaustein-Repository, das speziell für Experience Manager Guides-Anwender entwickelt wurde.
 
 Führen Sie die folgenden Schritte aus, um Ihr Repository zu erstellen:
 
@@ -103,7 +103,7 @@ Ihre App ist jetzt bereit. Sie werden zur Seite **Einstellungen** Ihrer GitHub-A
 
 ### Erstellen einer neuen OAuth-App
 
-Zum Authentifizieren von Benutzern beim Erstellen eines EDS (Beta)-Veröffentlichungsprofils in Experience Manager Guides ist eine OAuth-App erforderlich. Dies ermöglicht einen sicheren Anmeldefluss mit einer *Client-ID* und *Client-Geheimnis*.
+Zum Authentifizieren von Benutzern beim Erstellen eines EDS-Veröffentlichungsprofils in Experience Manager Guides ist eine OAuth-App erforderlich. Dies ermöglicht einen sicheren Anmeldefluss mit einer *Client-ID* und *Client-Geheimnis*.
 
 Führen Sie die folgenden Schritte aus, um eine neue OAuth-App zu erstellen:
 
@@ -128,9 +128,9 @@ Ihre App ist jetzt bereit. Notieren Sie sich die *Client-ID*. Beim Konfigurieren
 ![](assets/eds-new-oauth-app-page.png)
 
 
-### Konfigurieren der Bereitstellungspunkt-URL im EDS-Repository (Beta)
+### Konfigurieren der Bereitstellungspunkt-URL im EDS-Repository
 
-EDS (Beta) liest Inhalte aus einem GitHub-Repository-Pfad, der als *Bereitstellungspunkt*-URL in der `fstab.yaml`-Datei definiert ist.
+EDS liest Inhalte aus einem GitHub-Repository-Pfad, der als *mountpoint*-URL in der `fstab.yaml`-Datei definiert ist.
 
 So konfigurieren Sie die Bereitstellungspunkt-URL in der `fstab.yaml`:
 
@@ -141,7 +141,7 @@ So konfigurieren Sie die Bereitstellungspunkt-URL in der `fstab.yaml`:
 
    >[!NOTE]
    >
-   > In der Bereitstellungs-URL gibt `main` die Verzweigung an, in der Sie die Inhalte veröffentlichen möchten, und `docs` den Stammordner des EDS (Beta)-Repositorys, an dem Sie arbeiten. Wenn Sie es vorziehen, den Verzweigungsnamen auf GitHub zu ändern, müssen Sie denselben Verzweigungsnamen in der *mountpoint*-URL (in der `fstab.yaml`-Datei) und das entsprechende EDS-Veröffentlichungsprofil in Experience Manager Guides aktualisieren.
+   > In der Bereitstellungspunkt-URL gibt `main` die Verzweigung an, in der Sie den Inhalt veröffentlichen möchten, und `docs` den Stammordner des EDS-Repositorys, an dem Sie arbeiten. Wenn Sie es vorziehen, den Verzweigungsnamen auf GitHub zu ändern, müssen Sie denselben Verzweigungsnamen in der *mountpoint*-URL (in der `fstab.yaml`-Datei) und das entsprechende EDS-Veröffentlichungsprofil in Experience Manager Guides aktualisieren.
 
    ![](assets/eds-fstab-yaml-file.png){width="650"}
 
@@ -156,16 +156,16 @@ So konfigurieren Sie die Bereitstellungspunkt-URL in der `fstab.yaml`:
 
 5. Wiederholen Sie die Schritte 2 und 3 aus dem Abschnitt [Verbinden von GitHub mit Adobe über AEM Code-](#connect-github-to-adobe-via-aem-code-sync)), um das Repository zu autorisieren.
 
-## Erstellen und Konfigurieren eines Veröffentlichungsprofils für EDS (Beta) in Experience Manager
+## Erstellen und Konfigurieren eines Veröffentlichungsprofils für EDS in Experience Manager
 
-In den folgenden Abschnitten werden die einzelnen Schritte der Reihe nach beschrieben und erläutert, wie Sie ein EDS (Beta)-Veröffentlichungsprofil einrichten, eine Ausgabevorgabe konfigurieren und mithilfe von EDS (Beta) in Experience Manager Guides eine Ausgabe generieren.
+In den folgenden Abschnitten werden die einzelnen Schritte nacheinander beschrieben und erläutert, wie Sie das EDS-Veröffentlichungsprofil einrichten, eine Ausgabevorgabe konfigurieren und mithilfe von EDS in Experience Manager Guides eine Ausgabe generieren.
 
-### Erstellen des EDS (Beta)-Veröffentlichungsprofils
+### Erstellen des EDS-Veröffentlichungsprofils
 
 1. Wechseln Sie zu **[Workspace](/help/product-guide/cs-install-guide/workspace-settings.md)** Einstellungen **>** Profile **veröffentlichen**.
 2. Wählen Sie das Symbol **+** aus, um ein neues Veröffentlichungsprofil zu erstellen, und geben Sie die folgenden Details an:
 
-   - **Servertyp**: Wählen Sie **GitHub Edge Delivery Services (Beta)** aus der Dropdown-Liste aus.
+   - **Servertyp**: Wählen Sie **GitHub-Edge Delivery Services** aus der Dropdown-Liste aus.
    - **Name**: Geben Sie einen Namen für dieses Profil ein.
    - **Repository-Name**: Verwenden Sie den aus dem Textbaustein erstellten GitHub-Repository-Namen.
    - **Benutzername**: Geben Sie Ihren GitHub-Benutzernamen ein.
@@ -179,19 +179,19 @@ In den folgenden Abschnitten werden die einzelnen Schritte der Reihe nach beschr
 
 4. Wählen Sie nach erfolgreicher Authentifizierung **Speichern** aus.
 
-Ihr EDS (Beta)-Veröffentlichungsprofil ist jetzt konfiguriert.
+Ihr EDS-Veröffentlichungsprofil ist jetzt konfiguriert.
 
-### Erstellen einer Ausgabevorgabe für EDS (Beta) und Generieren einer Ausgabe
+### Erstellen einer Ausgabevorgabe für EDS und Generieren einer Ausgabe
 
 1. Öffnen Sie Ihre Karte in der Kartenkonsole.
 2. Wählen Sie auf **Registerkarte** Ausgabevorgaben“ **+** aus, um eine neue Ausgabevorgabe zu erstellen.
 3. Geben Sie **Dialogfeld „Neue**&quot; die folgenden Details ein:
-   - **type**: **Edge Delivery-Service (Beta) auswählen**
+   - **type**: **Edge Delivery-Service auswählen**
    - **Name**: Geben Sie einen Namen für diese Voreinstellung an
 4. Wählen Sie **Hinzufügen** aus.
 
    ![](assets/eds-output-preset.png){width="650"}
-5. Öffnen Sie die neu erstellte EDS (Beta)-Ausgabevorgabe und navigieren Sie zur Registerkarte **Konfiguration** .
+5. Öffnen Sie die neu erstellte EDS-Ausgabevorgabe und navigieren Sie zur Registerkarte **Konfiguration** .
    - Wählen Sie das im vorherigen Schritt erstellte Veröffentlichungsprofil aus.
    - Aktivieren Sie **Push zur Live-Schaltung**.
 
@@ -203,9 +203,9 @@ Ihr EDS (Beta)-Veröffentlichungsprofil ist jetzt konfiguriert.
 
 >[!NOTE]
 >
->Die generierte Ausgabe wird im Ordner **docs** des EDS (Beta)-Repositorys gespeichert.
+>Die generierte Ausgabe wird im Ordner **docs** des EDS-Repositorys gespeichert.
 
-Die EDS (Beta)-Ausgabe wird jetzt generiert. Der Inhalt wird in einem sauberen, responsiven Layout präsentiert. Sie enthält reguläre Elemente wie den Seitentitel, Breadcrumbs, Textinhalte und alle im Thema verwendeten Blöcke. Das Inhaltsverzeichnis auf der linken Seite (generiert aus der Karte) hilft Ihnen, durch Themen zu navigieren, während ein Mini-Inhaltsverzeichnis auf der rechten Seite die Abschnitte innerhalb der aktuellen Seite hervorhebt. Die gesamte Ausgabe ist vollständig responsiv und sorgt für ein optimiertes, konsistentes Leseerlebnis auf allen Geräten.
+Die EDS-Ausgabe wird jetzt generiert. Der Inhalt wird in einem sauberen, responsiven Layout präsentiert. Sie enthält reguläre Elemente wie den Seitentitel, Breadcrumbs, Textinhalte und alle im Thema verwendeten Blöcke. Das Inhaltsverzeichnis auf der linken Seite (generiert aus der Karte) hilft Ihnen, durch Themen zu navigieren, während ein Mini-Inhaltsverzeichnis auf der rechten Seite die Abschnitte innerhalb der aktuellen Seite hervorhebt. Die gesamte Ausgabe ist vollständig responsiv und sorgt für ein optimiertes, konsistentes Leseerlebnis auf allen Geräten.
 
 ![](assets/eds-site-output.png)
 
@@ -213,7 +213,7 @@ Die EDS (Beta)-Ausgabe wird jetzt generiert. Der Inhalt wird in einem sauberen, 
 
 EDS verwendet `blocks`, um zu steuern, wie verschiedene Teile Ihres Inhalts formatiert und angezeigt werden. Sie können vorhandene Blöcke ändern oder benutzerdefinierte Blöcke erstellen.
 
-Die folgenden Beispiele führen Sie durch die Anpassung eines bestehenden Bausteins und die Erstellung eines neuen Bausteins, um die endgültige EDS (Beta)-Ausgabe in Experience Manager Guides zu gestalten.
+Die folgenden Beispiele führen Sie durch die Anpassung eines vorhandenen Bausteins und die Erstellung eines neuen Bausteins, um die endgültige EDS-Ausgabe in Experience Manager Guides zu gestalten.
 
 ### Anpassen eines Breadcrumb-Blocks, um seine Textfarbe zu aktualisieren
 
@@ -229,7 +229,7 @@ Führen Sie die folgenden Schritte aus, um einen Breadcrumb-Block anzupassen und
 4. Übertragen Sie die Änderungen an GitHub.
 5. Aktualisieren Sie die Live-Website, um die Aktualisierungen anzuzeigen.
 
-### Aktualisieren von EDS (Beta)-Skripten, um benutzerdefinierte Elemente in der veröffentlichten Ausgabe zu erstellen
+### Aktualisieren von EDS-Skripten zum Erstellen benutzerdefinierter Elemente in der veröffentlichten Ausgabe
 
 In einigen Fällen möchten Sie möglicherweise nur einen bestimmten Teil Ihres Inhalts formatieren. Führen Sie die folgenden Schritte aus, um dies mithilfe eines benutzerdefinierten Blocks zu erreichen.
 
