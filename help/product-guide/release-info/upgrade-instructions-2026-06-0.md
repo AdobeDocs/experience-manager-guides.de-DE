@@ -1,7 +1,7 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides Version 2026.06.0
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf die Version 2026.06.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 5024db37ab19dbc5979745857153cf26ea6580c2
+source-git-commit: 343fdd0afbab62a2764fcee0a1f8e0f3c08a0033
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -52,6 +52,6 @@ Experience Manager Guides wird beim Upgrade auf die neueste Version von Experien
 
 >[!IMPORTANT]
 >
-> Diese Version enthält Aktualisierungen der Ordnerprofileinstellungen (ui_config.json). Wenn Sie benutzerdefinierte Einstellungen verwenden, sollten Sie diese vor dem Upgrade sichern. Überprüfen und passen Sie Ihre Einstellungen nach der Aktualisierung entsprechend den Änderungen an, die in der neuesten Version eingeführt wurden.
+> Die Version enthält Aktualisierungen der Ordnerprofileinstellungen (ui_config.json). Wenn Sie benutzerdefinierte Einstellungen verwenden, sollten Sie diese vor dem Upgrade sichern. Überprüfen und passen Sie Ihre Einstellungen nach der Aktualisierung entsprechend den Änderungen an, die in der neuesten Version eingeführt wurden.
 
-Überprüfen und validieren Sie Ihre Setup-Konfigurationen, um sicherzustellen, dass sie korrekt implementiert sind. Wenn Sie benutzerdefinierte Konfigurationsänderungen eingeführt haben, finden Sie unter [Zusätzliche Konfiguration für das Upgrade von Cloud Service](../cs-install-guide/additional-config-for-cloud-service.md) weitere Verfahren, die für die Version gelten, von der Sie ein Upgrade durchführen.
+Überprüfen und validieren Sie Ihre Setup-Konfigurationen, um sicherzustellen, dass sie korrekt implementiert sind. Wenn Sie benutzerdefinierte Konfigurationsänderungen eingeführt haben, finden Sie unter [Zusätzliche Konfiguration für das Upgrade von Cloud Service](../install-conf-guide/additional-config-for-upgrade.md) weitere Verfahren, die für die Version gelten, von der Sie ein Upgrade durchführen.
