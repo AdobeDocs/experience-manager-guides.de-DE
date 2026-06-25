@@ -6,10 +6,17 @@ role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
 TQID: https://experienceleague.adobe.com/FP5RxNtyWcdS-xpw2Atttt3x6DHx73Ljv-Ym91IxY5s
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: bf79f6d3-0ad0-4d82-99e4-42ce98324d60
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: c1b7d852b148187cb5d33256223d5e0f5498aa7e
 workflow-type: tm+mt
 source-wordcount: 449
@@ -46,7 +53,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange 
 > Sie können Attribute auf Zellen-, Zeilen- oder Spaltenebene definieren
 >
 > <details>
-&gt; <summary>Schritte anzeigen</summary>
+>&gt; <summary>Schritte anzeigen</summary>
 >
 > Sie können auch Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren. Um beispielsweise eine Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bedienfeld Inhaltseigenschaften (rechts) ändert sich die Eigenschaft **Typ** in **Eintrag**.
 >
@@ -64,7 +71,7 @@ Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange 
 Sie können Attribute auf Zellen-, Zeilen- oder Spaltenebene definieren.
 
 > <details>
-&gt; <summary>Schritte anzeigen</summary>
+>&gt; <summary>Schritte anzeigen</summary>
 >
 > Sie können auch Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren. Um beispielsweise eine Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bedienfeld Inhaltseigenschaften (rechts) ändert sich die Eigenschaft **Typ** in **Eintrag**.
 >
@@ -77,4 +84,4 @@ Sie können Attribute auf Zellen-, Zeilen- oder Spaltenebene definieren.
 >
 > </details>
 
-**Übergeordnetes Thema:**[ Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
