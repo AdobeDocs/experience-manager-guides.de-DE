@@ -17,9 +17,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c1b7d852b148187cb5d33256223d5e0f5498aa7e
+source-git-commit: 7ba2ad081f90fcbd38c7b34524a9ed1378e64f0d
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: 544
 ht-degree: 0%
 
 ---
@@ -66,22 +66,50 @@ Führen Sie die folgenden Schritte aus, um die Ausgabegenerierungswarteschlange 
 >
 > </details>
 
-## Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren
+
+
+**Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren**
 
 Sie können Attribute auf Zellen-, Zeilen- oder Spaltenebene definieren.
 
+<details>
+<summary>Schritte anzeigen</summary>
+
+Sie können auch Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren. Um beispielsweise eine Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bedienfeld Inhaltseigenschaften (rechts) ändert sich die Eigenschaft **Typ** in **Eintrag**.
+
+1. Wählen **Abschnitt „Attribute** die Option **+Hinzufügen**.
+1. Wählen Sie das `@valign` Attribut aus der Dropdown **Liste „Attribut** aus.
+1. Wählen Sie aus der Dropdown-Liste Wert die gewünschte Textausrichtung aus, die Sie auf die ausgewählten Tabellenzellen anwenden möchten.
+1. Wählen Sie **Hinzufügen.**
+
+   ![](images/align-table-cell_cs.png)
+
+   </details>
+
+>[!BEGINSHADEBOX]
+>
+> **Definieren von Attributen für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle**
+>
+> Sie können Attribute auf Zellen-, Zeilen- oder Spaltenebene definieren.
+>
 > <details>
 >&gt; <summary>Schritte anzeigen</summary>
 >
-> Sie können auch Attribute für mehrere Zellen, die gesamte Zeile oder Spalte einer Tabelle definieren. Um beispielsweise eine Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bedienfeld Inhaltseigenschaften (rechts) ändert sich die Eigenschaft **Typ** in **Eintrag**.
+> Sie können auch Attribute für mehrere Zellen, eine ganze Zeile oder eine Spalte einer Tabelle definieren. Um beispielsweise eine Tabellenzelle auszurichten, ziehen Sie die gewünschte Zelle und wählen Sie sie aus. Im Bedienfeld Inhaltseigenschaften (rechts) ändert sich die Eigenschaft **Typ** in **Eintrag**.
 >
 > 1. Wählen **Abschnitt „Attribute** die Option **+Hinzufügen**.
-> 1. Wählen Sie das `@valign` Attribut aus der Dropdown **Liste „Attribut** aus.
-> 1. Wählen Sie aus der Dropdown-Liste Wert die gewünschte Textausrichtung aus, die Sie auf die ausgewählten Tabellenzellen anwenden möchten.
-> 1. Wählen Sie **Hinzufügen.**
+> 1. Wählen Sie das `@valign` Attribut aus der Dropdown **Attribut** aus.
+> 1. Wählen Sie im **Wert** die gewünschte Textausrichtung aus.
+> 1. Wählen Sie **Hinzufügen** aus.
 >
 > ![](images/align-table-cell_cs.png)
 >
 > </details>
+>
+>[!ENDSHADEBOX]
+
+
+
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabe von FrameMaker-Dokumenten generieren](fm-output-generatation.md)
+
