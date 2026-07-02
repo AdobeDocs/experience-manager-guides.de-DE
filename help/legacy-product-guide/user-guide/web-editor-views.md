@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e8cdb1fe05d839d9167e834577f46e17f9ed28b5
 workflow-type: tm+mt
-source-wordcount: 1460
+source-wordcount: 1470
 ht-degree: 0%
 
 ---
@@ -57,8 +57,7 @@ Die Source-Ansicht zeigt die zugrunde liegende XML an, aus der das Thema besteht
 
   Im obigen Screenshot wird eine Kreuzhervorhebung verwendet, um die Zeile mit fehlerhafter XML darauf hinzuweisen.
 
-- Mit der Funktion „Suchen und Ersetzen“ können Sie in der Source-Ansicht nach beliebigen Texten, Elementen oder Attributen suchen.
-Weitere Informationen finden Sie in der Beschreibung **Suchen und Ersetzen** im Abschnitt [Haupt-](web-editor-features.md#id#id2051EA0G05Z)).
+- Mit der Funktion „Suchen und Ersetzen“ können Sie in der Source-Ansicht nach beliebigen Texten, Elementen oder Attributen suchen.Weitere Informationen finden Sie in der Beschreibung **Suchen und Ersetzen** im Abschnitt [Haupt-](web-editor-features.md#id#id2051EA0G05Z)).
 
 - Die Source-Ansicht bietet viele Tastaturbefehle, mit denen Sie schnell zu einem Dokument navigieren und es bearbeiten können. In der folgenden Tabelle sind die unterstützten Aktionen und ihre Tastaturbefehle aufgeführt:
 
@@ -162,6 +161,8 @@ Gehen Sie wie folgt vor, um ein Thema als PDF zu exportieren:
    > Vergewissern Sie sich, dass Sie das Popup-Fenster in der Browser-Konfiguration aktiviert haben, da der PDF sonst nicht heruntergeladen wird.
 
    Die PDF wird generiert und in einer neuen Registerkarte geöffnet. Andernfalls wird ein Dialogfeld zum Speichern der PDF auf Ihrem lokalen System angezeigt.
+
+   Weitere Informationen finden Sie [PDF anzeigen](./images/best-practices-guide.pdf)
 
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
