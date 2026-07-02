@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 1aea696b5f5eba9027a71246f7bff0d0fef93221
+source-git-commit: 31ea563a6878c340bba73dfa549fae7cd399720f
 workflow-type: tm+mt
-source-wordcount: '2527'
+source-wordcount: '2537'
 ht-degree: 11%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 11%
       - Cloud Services {#cloud-release-notes}
          - {hide-from-toc}[Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
          - Versionen 2026 {#2026-releases}
+            - Version 2026.07.0 {#2607-release}
+               - [Behobene Probleme](./release-info/fixed-issues-2026-07-0.md)
+               - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2026-07-0.md)
             - Version 2026.06.0 {#2606-release}
                - [Neue Funktionen](./release-info/whats-new-2026-06-0.md)
                - [Behobene Probleme](./release-info/fixed-issues-2026-06-0.md)
@@ -202,14 +205,14 @@ ht-degree: 11%
                - [Versionshinweise für 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Versionshinweise zu 4.2](./release-info/release-notes-4-2.md)
          - [Versionshinweise zu 4.1.x](./release-info/release-notes-4-1.md)
-         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
-         - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-         - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+         - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
    - Startseite {#home-page}
       - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
       - [Repository-Schnittstelle](./user-guide/home-page-repository-view.md)
@@ -401,6 +404,7 @@ ht-degree: 11%
          - [Ordnerprofile konfigurieren](./lc-config-guide/lc-folder-profile.md)
          - [Best Practices zum Einrichten der Ordnerstruktur](./lc-config-guide/best-practices-folder-structure.md)
          - [Konfigurieren anderer Einstellungen](./lc-config-guide/lc-other-settings.md)
+         - [SCORM-Vorschaufilter konfigurieren](./lc-config-guide/conf-scorm-preview-filters.md)
          - [SCORM-Schlüsselmetriken](./lc-config-guide/learning-course-parameters.md)
       - Videoschulungen {#lc-video}
          - [Autoren-Workflow](./lc-video-tutorials/author-workflow.md)
@@ -414,7 +418,7 @@ ht-degree: 11%
       - Fehlerbehebung {#troubleshooting}
          - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-conf-guide}
    - [Herunterladen, Installieren und Aktualisieren](./install-conf-guide/introduction.md)
    - Installationsprozess für Cloud Service {#deploy-conf-aemg-cs}
