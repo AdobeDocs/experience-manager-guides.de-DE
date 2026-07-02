@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 2026.06.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2026.06.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 010a11e20d518064549ce7d66648586f49f572ec
+source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Adobe hat die folgenden bekannten Probleme in Version 2026.06.0 identifiziert:
 
 - Das Wechseln zwischen Source- und Autorenmodus führt zu Inhaltsinkonsistenzen, wobei Teile des Themas verschwinden oder nicht in allen Modi angezeigt werden. (GUIDES-47432)
 
-- Wenn Sie in der Gliederungsansicht mit **Änderungen verfolgen** arbeiten, wird bei Ablehnung einer Änderung der gesamte Inhalt innerhalb des Tags entfernt, anstatt nur den spezifischen geänderten Inhalt abzulehnen. (GUIDES-48319)
+- Bei der Arbeit mit Änderungen nachverfolgen werden bei Ablehnung einer importierten Texteinfügung alle Inhalte innerhalb des Tags entfernt, anstatt nur die spezifischen eingefügten Inhalte zurückzuweisen. (GUIDES-48319)
 
 - Die **Als PDF exportieren** Schaltfläche im Vorschaumodus führt keine Aktion aus, wenn die Editor-Symbolleiste mithilfe von `editor_toolbar.json` in einem Ordnerprofil angepasst wird. (GUIDES-47525)
 
