@@ -12,9 +12,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+source-git-commit: 4433d28a41c3d9d797b38dbf732119fc3ea69f36
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: 124
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Führen Sie die folgenden Schritte aus, um eine SCORM-Ausgabe zu generieren:
 
    ![](assets/scorm-generate-output-new.png){width="650"}
 
-1. Nach Abschluss der Generierung wird eine Erfolgsmeldung angezeigt, die bestätigt, **die Datei &quot;**.zip“ erstellt wurde. Sie können die Ausgabe in der Erfolgsmeldung mit **Ausgabe anzeigen** anzeigen.
+1. Nach Abschluss der Generierung wird eine Erfolgsmeldung angezeigt, die bestätigt, **die Datei &quot;**.zip“ erstellt wurde. Sie können die Ausgabe mit der Option **Ausgabe anzeigen** der Erfolgsmeldung in der Vorschau anzeigen.
 
    ![](assets/scorm-success-message.png){width="350"}
 
@@ -36,5 +36,5 @@ Führen Sie die folgenden Schritte aus, um eine SCORM-Ausgabe zu generieren:
 
    ![](assets/scorm-view-output-new.png){width="650"}
 
-Sie können die ZIP-Datei in Ihr LMS hochladen, um den Kurs für Ihre Teilnehmer verfügbar zu machen, indem Sie die Option **Hochladen** auf der Registerkarte **In LMS veröffentlichen** für SCORM-Voreinstellung verwenden.
+Sie können die ZIP-Datei in LMS hochladen, um Ihren Kurs für die Teilnehmer verfügbar zu machen, indem Sie die Option **Hochladen** auf der Registerkarte **In LMS veröffentlichen** für die SCORM-Voreinstellung verwenden.
 
