@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 944f0c06731cec941f72581a1e47aba25c451c6a
+source-git-commit: 5dd840e3286511dff9eccc17b048bb7701f4ac9c
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: '2499'
 ht-degree: 11%
 
 ---
@@ -205,8 +205,8 @@ ht-degree: 11%
                - [Versionshinweise für 4.2.1](./release-info/release-notes-4-2-1.md)
                - [Versionshinweise zu 4.2](./release-info/release-notes-4-2.md)
          - [Versionshinweise zu 4.1.x](./release-info/release-notes-4-1.md)
-         - [Versionshinweise zu 4.0.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [Versionshinweise zu 3.8.x](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionshinweise zu 4.0.x](./release-info/release-notes-4-0.md)
+         - [Versionshinweise zu 3.8.x](./release-info/release-notes-3-8.md)
 - Benutzerhandbuch (neue Benutzeroberfläche) {#user-guide}
    - Einführung {#about-aemg}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
