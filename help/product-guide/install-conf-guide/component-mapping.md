@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie eine Komponentenzuordnung für AEM Sites vorn
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,7 @@ Verwenden Sie ein JSON-Array von Regeln (Ihre `componentmapping.json`), um HTML 
 ### Targeting des HTML-Elements und seiner Klasse
 
 - Schreiben Sie den HTML-Tag-Namen in `name`.
-- Schließen Sie die CSS-Klasse ein, die auf dieses Element in `class` angewendet wird, falls die Klasse vorhanden ist.
-Zum Beispiel:
+- Schließen Sie die CSS-Klasse ein, die auf dieses Element in `class` angewendet wird, falls die Klasse vorhanden ist.Zum Beispiel:
 
   ```html
   <div class ="sample-class">
@@ -48,8 +48,7 @@ Stellen Sie beim Definieren der oben genannten Elemente Folgendes sicher:
 
 ### Verwenden Sie attributeMap, um Eigenschaften auf dem JCR-Knoten zu speichern
 
-Fügen Sie `attributeMap` Einträge hinzu, um Eigenschaften auf dem Ausgabeknoten festzulegen. Jeder Eintrag erzeugt `attrs[to] = value`.
-Häufige Muster:
+Fügen Sie `attributeMap` Einträge hinzu, um Eigenschaften auf dem Ausgabeknoten festzulegen. Jeder Eintrag erzeugt `attrs[to] = value`.Häufige Muster:
 
 ```json
 // copy an attribute
@@ -165,8 +164,7 @@ Erfahren Sie, wie Sie eine benutzerdefinierte Tabellenkomponente erstellen, die 
 
 ### Was Sie bauen werden
 
-Eine benutzerdefinierte Tabellenkomponente, die HTML-Tabelleninhalte akzeptiert und alle darin enthaltenen `<img>` durch die Ausgabe der AEM-Kernbildkomponente ersetzt. Auf diese Weise können Sie die Funktionen des Kernbilds (responsive Bilder, Alt-Handhabung, Barrierefreiheit) wiederverwenden und gleichzeitig die volle Kontrolle über das Tabellen-Markup behalten.
-Mit diesem Ansatz können Sie andere benutzerdefinierte Komponenten für Ihre AEM-Site erstellen (mithilfe der Zuordnung zusammengesetzter Komponenten).
+Eine benutzerdefinierte Tabellenkomponente, die HTML-Tabelleninhalte akzeptiert und alle darin enthaltenen `<img>` durch die Ausgabe der AEM-Kernbildkomponente ersetzt. Auf diese Weise können Sie die Funktionen des Kernbilds (responsive Bilder, Alt-Handhabung, Barrierefreiheit) wiederverwenden und gleichzeitig die volle Kontrolle über das Tabellen-Markup behalten.Mit diesem Ansatz können Sie andere benutzerdefinierte Komponenten für Ihre AEM-Site erstellen (mithilfe der Zuordnung zusammengesetzter Komponenten).
 
 ### Gründe für diesen Ansatz
 
