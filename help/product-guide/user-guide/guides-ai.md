@@ -1,7 +1,7 @@
 ---
 title: Handbücher zur KI für Smart-Tagging-Funktionen
 description: Erfahren Sie, wie Sie KI-Handbücher für Smart-Tagging-Funktionen für Themen und Karten in einem einzigen Vorgang verwenden.
-source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Die folgenden Komponenten der Handbücher-KI helfen Ihnen beim Hinzufügen von D
 
 - **(D)** Antwortraum: Überprüfen Sie die KI-generierten Tag-Empfehlungen und wählen Sie sie an, abzulehnen oder zu ändern, bevor Sie die Tags anwenden.
 - **(E)** Platzierung auffordern: Geben Sie eine Eingabeaufforderung ein, um Tag-Empfehlungen für den ausgewählten Inhalt zu generieren.
-- **(F)** Dateien anhängen oder Kontext hinzufügen: Fügen Sie Themen, Karten oder externe Dateien aus Ihrem lokalen System hinzu, um den Inhalt bereitzustellen, der von KI für Tag-Empfehlungen analysiert werden soll.
+- **(F)** Dateien anhängen oder Kontext hinzufügen: Fügt Themen, Karten oder externe Dateien aus Ihrem lokalen System hinzu, um den Inhalt bereitzustellen, der von KI für Tag-Empfehlungen analysiert werden soll.
 - **(G)**-Modell: Zeigt das KI-Modell an, das zur Analyse von Inhalten und Generierung von Tag-Empfehlungen verwendet wird. Mehrere OpenAI- und Anthropic-Claude-Modelle stehen zur Auswahl. Standardmäßig ist die Option **Standardmanifest verwenden** ausgewählt, die das für den ausgewählten Assistenten konfigurierte Modell verwendet.
 - **(H)** Senden: Senden Sie Ihre Eingabeaufforderung und den angehängten Inhalt, um KI-gestützte Tag-Empfehlungen zu generieren.
 

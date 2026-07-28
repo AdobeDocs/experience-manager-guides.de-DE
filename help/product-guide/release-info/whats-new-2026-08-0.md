@@ -2,7 +2,7 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2026.08.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2026.08.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2108fea9ba6d35a9439f672b66e5d25aeb19f0ca
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 0%
@@ -60,7 +60,6 @@ Reviewer können die Aufgabenbeschreibung jetzt direkt in der Überprüfung anze
 Dadurch erhalten Validierungsverantwortliche während der gesamten Überprüfung Zugriff auf Anweisungen, Umfang und Schwerpunkte. Weitere Informationen finden Sie unter [Themen zur Überprüfung senden](../user-guide/review-send-topics-for-review.md).
 
 ![](assets/review-details.png){width="350"}
-
 
 ### Benutzeridentifizierung in der Tagging-Liste während der Überprüfung
 

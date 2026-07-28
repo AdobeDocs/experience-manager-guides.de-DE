@@ -4,7 +4,7 @@ description: Lernen Sie die Startseite der Adobe Experience Manager Guides kenne
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -50,6 +50,7 @@ In der Navigationsleiste verfügbare Funktionen werden wie folgt erläutert:
   Die Funktion [KI-](./ai-assistant.md)) ist derzeit nur für Adobe Experience Manager as a Cloud Service verfügbar.
 
 - **Guides AI**: Bringt intelligente, agentische Smart-Tagging-Kenntnisse von Adobe CX Enterprise Coworker in den Editor und ermöglicht natürliches, konversatives Tagging von Inhalten. Es analysiert Ihre Inhalte, empfiehlt relevante Tags und hilft Ihnen bei der Anwendung konsistenter und genauer Metadaten mit minimalem Aufwand. Sie können die vorgeschlagenen Tags überprüfen und sie anwenden oder ablehnen, bevor Sie Ihre Auswahl bestätigen. [Guides AI](../user-guide/guides-ai.md) optimiert den Tagging-Prozess und verbessert die Organisation und Auffindbarkeit von Inhalten.
+
 
   >[!NOTE]
   >
@@ -173,7 +174,7 @@ Experience Manager Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die V
 
 ### Massenveröffentlichung
 
-Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [&#x200B; veröffentlichten Inhalte“ erstellen und verwalten &#x200B;](./conf-bulk-activation.md).
+Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [ veröffentlichten Inhalte“ erstellen und verwalten ](./conf-bulk-activation.md).
 
 ### Veröffentlichungswarteschlange
 
