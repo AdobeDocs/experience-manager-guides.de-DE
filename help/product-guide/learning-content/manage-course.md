@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
 TQID: https://experienceleague.adobe.com/Ffg1tESMpsZU71BF5UcWu-bSBTekVGiv-dv24jD-tjA
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -47,11 +42,16 @@ Der ausgewählte Inhalt wird erstellt und dem Kurs hinzugefügt. Eine Videoüber
 Sie können vorhandene Inhalte aus Ihrem Inhalts-Repository zu Ihrem Kurs hinzufügen. Führen Sie die folgenden Schritte aus, um vorhandenen Inhalt hinzuzufügen:
 
 1. Wählen Sie das Menü **Optionen** > **Vorhandenes hinzufügen** aus.
-2. Wählen Sie den Typ des Kursinhalts aus, den Sie erstellen möchten.
-3. Navigieren **im Dialogfeld &quot;** auswählen“ zum Speicherort der Inhalte und wählen Sie die gewünschten Lerninhalte aus.
+1. Wählen Sie den Typ des Kursinhalts aus, den Sie erstellen möchten.
+1. Navigieren **im Dialogfeld &quot;** auswählen“ zum Speicherort der Inhalte und wählen Sie die gewünschten Lerninhalte aus.
 
-   ![](assets/add-existing-learning-content.png)
-4. Wählen Sie **Auswählen** aus.
+>[!NOTE]
+>
+> Wenn Sie ein HTML-Thema zu einer Lerngruppenzuordnung hinzufügen, wird das `format="html"` automatisch zum entsprechenden `topicref` in der Zuordnung hinzugefügt. Dadurch wird sichergestellt, dass das Thema korrekt verarbeitet und veröffentlicht wird.
+
+![](assets/add-existing-learning-content.png)
+
+1. Wählen Sie **Auswählen** aus.
 
 Der ausgewählte Kursinhalt wird dem Kurs aus dem Repository hinzugefügt.
 
@@ -102,6 +102,6 @@ Als Autor eines Lernkurses oder Administrator können Sie eine Prüfungsaufgabe 
 
 Sie werden zur Seite **Prüfungsaufgabe erstellen** weitergeleitet, auf der Sie Aufgabendetails wie den Titel der Prüfungsaufgabe hinzufügen, das DITA-Projekt angeben, zu dem sie gehört, Aufgabenzeitpläne definieren, Validierungsverantwortliche zuweisen und vieles mehr. Sobald dies geschehen ist, erhalten die Reviewer eine Benachrichtigung über diese Aufgabe. Die ausgewählten Kursthemen werden in der Review-Benutzeroberfläche geöffnet. Dort können die Reviewer Kommentare hinzufügen und die Themen zur Aktualisierung zurücksenden.
 
-Um den Prüfungs-Workflow in Experience Manager Guides zu verstehen, [&#x200B; Sie Themen anzeigen und zur Überprüfung &#x200B;](../user-guide/review-send-topics-for-review.md).
+Um den Prüfungs-Workflow in Experience Manager Guides zu verstehen, [ Sie Themen anzeigen und zur Überprüfung ](../user-guide/review-send-topics-for-review.md).
 
 

@@ -5,25 +5,17 @@ feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
 TQID: https://experienceleague.adobe.com/uuaP85TjYQvFzKfFRLfYj8xkOiIzpIVB-6Vj34wipHI
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
 # Anfordern einer erneuten Überprüfung oder Schließen einer Prüfungsaufgabe als Autor
-
->[!IMPORTANT]
->
-> Die in diesem Artikel beschriebenen neuen Funktionen sind standardmäßig in der Version 2508 von Experience Manager Guides as a Cloud Service aktiviert. Überprüfungen, die vor der Migration erstellt wurden, sind nicht betroffen und verwenden weiterhin den früheren Workflow. Wenn Sie es vorziehen, die vorhandenen Funktionen ohne diese Aktualisierungen weiterhin zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit die neuen Funktionen deaktiviert werden.
 
 Wenn eine Prüfungsaufgabe von einem Reviewer als abgeschlossen markiert wird, wird eine Benachrichtigung an den Aufgabeninitiator ausgelöst, damit dieser auf die Aufgabe und die zugehörigen Kommentare auf Aufgabenebene zugreifen und diese überprüfen kann.
 
@@ -31,6 +23,10 @@ Als Initiator der Prüfungsaufgabe können Sie dann anhand des Feedbacks entsche
 
 - Erneute Überprüfung anfordern
 - Prüfungsaufgabe schließen
+
+>[!NOTE]
+>
+> Wenn die Funktion „Delegieren“ für Ihre Umgebung aktiviert ist, kann ein Reviewer auch anfordern, [einen weiteren Reviewer zur Überprüfungsaufgabe hinzuzufügen](./review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer). Solche Anfragen werden in Form von Benachrichtigungen in Ihrem AEM-Posteingang angezeigt. Wenn der empfohlene Validierungsverantwortliche nicht Teil des zugehörigen Projekts ist, haben Sie die Möglichkeit, diese Elemente zuerst zum Projekt hinzuzufügen. Andernfalls werden Sie zur Registerkarte **VALIDIERUNGSVERANTWORTLICHE** auf der Seite **Aufgabendetails** weitergeleitet, um den empfohlenen Validierungsverantwortlichen zur Überprüfungsaufgabe hinzuzufügen. Die Entscheidung, den empfohlenen Validierungsverantwortlichen hinzuzufügen, liegt immer bei Ihnen als Initiator der Prüfungsaufgabe.
 
 ## Anfordern einer erneuten Überprüfung oder Schließen einer Prüfungsaufgabe
 
@@ -62,7 +58,7 @@ Führen Sie die folgenden Schritte aus, um eine erneute Überprüfung oder das S
 
    ![](images/update-task-dialog.png){width="350"}
 
-   Sie können den [&#x200B; Ihrer Prüfungsaufgabe auch mithilfe der Option **Prüfungsstatus überprüfen** im Dialogfeld Aufgabe aktualisieren &#x200B;](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task). Durch Auswahl dieser Option gelangen Sie zum Überprüfungs-Dashboard, in dem der Statusbericht Ihrer Überprüfungsaufgabe angezeigt wird.
+   Sie können den [ Ihrer Prüfungsaufgabe auch mithilfe der Option **Prüfungsstatus überprüfen** im Dialogfeld Aufgabe aktualisieren ](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task). Durch Auswahl dieser Option gelangen Sie zum Überprüfungs-Dashboard, in dem der Statusbericht Ihrer Überprüfungsaufgabe angezeigt wird.
 
    ![](images/check-review-status-icon.png){width="650"}
 

@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die verschiedenen Einstellungen, die in der
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
+source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2304'
 ht-degree: 1%
 
 ---
@@ -53,46 +53,56 @@ Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md
 
   Über das **Authoring-Schnellaktionen**-Menü haben Sie folgende Möglichkeiten:
 
-   - Verwenden Sie die Umschalter, um bestimmte Optionen zu aktivieren oder zu deaktivieren, auf die Autoren bei der Arbeit mit dem KI-Assistenten zugreifen können.
+  - Verwenden Sie die Umschalter, um bestimmte Optionen zu aktivieren oder zu deaktivieren, auf die Autoren bei der Arbeit mit dem KI-Assistenten zugreifen können.
 
-   - Ändern Sie die Reihenfolge, in der die Optionen angezeigt werden, und ziehen Sie sie per Drag-and-Drop nach Bedarf.
+  - Ändern Sie die Reihenfolge, in der die Optionen angezeigt werden, und ziehen Sie sie per Drag-and-Drop nach Bedarf.
 
   ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
 
+- **Handbücher KI**
 
+  >[!NOTE]
+  >
+  > Wenden Sie sich zur Verwendung der Guides-KI-Funktion in Ihrer Umgebung an das Customer Success-Team . Es kann jeweils nur ein KI-Erlebnis aktiviert werden, entweder KI-Handbücher oder KI-Assistent.
+
+  Wählen Sie **Umschalter** Guides AI) aus, um diese Funktion in der Experience Manager Guides zu aktivieren. Deaktivieren Sie diese Option, um die Funktion zu deaktivieren.
+
+  Nach Aktivierung dieser Option können Sie über die Navigationsleiste auf der Startseite und die Registerkartenleiste auf der Editor-Benutzeroberfläche auf die Funktion Guides-KI zugreifen. Weitere Informationen zum Generieren von von von KI vorgeschlagenen Tags für Themen finden Sie unter [Erste Schritte mit KI-Handbüchern](../user-guide/guides-ai.md).
+
+  ![](assets/guides-ai-workspace.png){width="350"}
 
 - **Authoring**
 
-   - **Alle ersetzen aktivieren**: Wählen Sie diese Option aus, um das Symbol **Alle ersetzen** im Bedienfeld **Suchen und Ersetzen** anzuzeigen.
+  - **Alle ersetzen aktivieren**: Wählen Sie diese Option aus, um das Symbol **Alle ersetzen** im Bedienfeld **Suchen und Ersetzen** anzuzeigen.
 
 - **Zitate**
 
-  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von &#x200B;](../user-guide/web-editor-apply-citations.md#change-citation-style).
+  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von ](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Bedingung**
 
-   - **Bedingten Text in der Autorenansicht hervorheben**: Wählen Sie diese Option, um den bedingten Text in der Autorenansicht hervorzuheben. Der bedingte Inhalt wird mit der für die Bedingung definierten Farbe hervorgehoben.
+  - **Bedingten Text in der Autorenansicht hervorheben**: Wählen Sie diese Option, um den bedingten Text in der Autorenansicht hervorzuheben. Der bedingte Inhalt wird mit der für die Bedingung definierten Farbe hervorgehoben.
 
-   - **Mit Bedingungsattributen validieren**: Wählen Sie diese Option, um die Validierung der für die Attribute definierten Werte zu ermöglichen. Dadurch wird verhindert, dass Sie einen falschen Wert hinzufügen.
+  - **Mit Bedingungsattributen validieren**: Wählen Sie diese Option, um die Validierung der für die Attribute definierten Werte zu ermöglichen. Dadurch wird verhindert, dass Sie einen falschen Wert hinzufügen.
 
-   - **Schlüssel mit Titel im Bedienfeld „Betreffschema“ anzeigen**: Wählen Sie diese Option, um die Schlüssel zusammen mit Titeln im Betreffschema anzuzeigen. Wenn Sie diese Option nicht auswählen, werden nur die Titel angezeigt. Hier werden beispielsweise die Schlüssel „os“, „audience“ und „other“ zusammen mit Titeln angezeigt.
+  - **Schlüssel mit Titel im Bedienfeld „Betreffschema“ anzeigen**: Wählen Sie diese Option, um die Schlüssel zusammen mit Titeln im Betreffschema anzuzeigen. Wenn Sie diese Option nicht auswählen, werden nur die Titel angezeigt. Hier werden beispielsweise die Schlüssel „os“, „audience“ und „other“ zusammen mit Titeln angezeigt.
 
-     ![](../user-guide/images/subject-scheme-title.png){width="550"}
+    ![](../user-guide/images/subject-scheme-title.png){width="550"}
 
-   - **Betreffschema im Bedienfeld Bedingungen anzeigen**: Wählen Sie diese Option, um ein Betreffschema im Bedienfeld Bedingungen anzuzeigen. Wenn Sie diese Option deaktivieren, werden die definierten Bedingungen im Bedienfeld Bedingungen angezeigt.
+  - **Betreffschema im Bedienfeld Bedingungen anzeigen**: Wählen Sie diese Option, um ein Betreffschema im Bedienfeld Bedingungen anzuzeigen. Wenn Sie diese Option deaktivieren, werden die definierten Bedingungen im Bedienfeld Bedingungen angezeigt.
 
 - **Rechtschreibprüfung**
 
   Es gibt zwei Möglichkeiten: AEM-Rechtschreibprüfung und Browser-Rechtschreibprüfung.
 
-   - **Rechtschreibprüfung des Browsers**: Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird.
+  - **Rechtschreibprüfung des Browsers**: Standardmäßig verwendet der Editor die Rechtschreibprüfung des Browsers, wobei die Rechtschreibprüfung mit dem integrierten Wörterbuch des Browsers durchgeführt wird.
 
-   - **AEM-Rechtschreibprüfung**: Sie können zur AEM-Rechtschreibprüfung wechseln, um das Wörterbuch von Adobe Experience Manager zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen von AEM-Wörterbüchern finden Sie unter [Anpassen des AEM-Standardwörterbuchs](../install-conf-guide/customize-aem-default-dictionary.md).
+  - **AEM-Rechtschreibprüfung**: Sie können zur AEM-Rechtschreibprüfung wechseln, um das Wörterbuch von Adobe Experience Manager zu verwenden, das auch angepasst werden kann, um Ihre benutzerdefinierte Wortliste hinzuzufügen. Weitere Informationen zum Anpassen von AEM-Wörterbüchern finden Sie unter [Anpassen des AEM-Standardwörterbuchs](../install-conf-guide/customize-aem-default-dictionary.md).
 
-     >[!NOTE]
-     >
-     > Die AEM-Rechtschreibprüfung verwendet die in der Spracheigenschaft der Datei ausgewählte Sprache. Wenn die Sprache für die Datei nicht angegeben ist, wird die Rechtschreibprüfung auf die AEM-Serversprache zurückgesetzt.
-     >Um präzise Ergebnisse der Rechtschreibprüfung sicherzustellen, muss das Wörterbuch für die ausgewählte Sprache in AEM verfügbar sein. Wenn das erforderliche Wörterbuch für die konfigurierte Sprache nicht verfügbar ist, wird für die Rechtschreibprüfung standardmäßig `en_us` festgelegt.
+    >[!NOTE]
+    >
+    > Die AEM-Rechtschreibprüfung verwendet die in der Spracheigenschaft der Datei ausgewählte Sprache. Wenn die Sprache für die Datei nicht angegeben ist, wird die Rechtschreibprüfung auf die AEM-Serversprache zurückgesetzt.
+    >Um präzise Ergebnisse der Rechtschreibprüfung sicherzustellen, muss das Wörterbuch für die ausgewählte Sprache in AEM verfügbar sein. Wenn das erforderliche Wörterbuch für die konfigurierte Sprache nicht verfügbar ist, wird für die Rechtschreibprüfung standardmäßig `en_us` festgelegt.
 
 
 ## Bedienfelder
@@ -152,24 +162,24 @@ Enthält die Profile, mit denen die Ausgabe der **Wissensdatenbank** veröffentl
 
 - Stellen Sie beim Konfigurieren der verbundenen App Folgendes sicher:
 
-   - Geben Sie den Callback an.
+  - Geben Sie den Callback an.
 
-     `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+    `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
-   - Wählen Sie die folgenden OAuth-Bereiche aus:
-      - Vollständiger Zugriff (vollständig)
-      - Wählen Sie Benutzerdaten über APIs verwalten (API) aus
+  - Wählen Sie die folgenden OAuth-Bereiche aus:
+    - Vollständiger Zugriff (vollständig)
+    - Wählen Sie Benutzerdaten über APIs verwalten (API) aus
 
-     Sobald die App konfiguriert ist, stellt Salesforce einen **Consumer Key** und **Consumer Secret** bereit. Diese können zum Erstellen des Salesforce-Profils verwendet werden.
+    Sobald die App konfiguriert ist, stellt Salesforce einen **Consumer Key** und **Consumer Secret** bereit. Diese können zum Erstellen des Salesforce-Profils verwendet werden.
 
 
-   - Um ein Salesforce-Profil zu erstellen, wählen Sie die **Salesforce** Knowledge Base aus der Dropdown-Liste **Servertyp** aus. Geben Sie einen Profilnamen ein. Geben Sie **Site-URL** die Verbraucherwebsite ein, mit der Sie die Ausgabe veröffentlichen möchten, und fügen Sie dann den **Consumer Key** und **Consumer Secret** hinzu, die von der Salesforce-Verbraucherwebsite bereitgestellt werden. Wählen Sie dann **Validieren** und **Speichern** das neu erstellte Profil aus.
+  - Um ein Salesforce-Profil zu erstellen, wählen Sie die **Salesforce** Knowledge Base aus der Dropdown-Liste **Servertyp** aus. Geben Sie einen Profilnamen ein. Geben Sie **Site-URL** die Verbraucherwebsite ein, mit der Sie die Ausgabe veröffentlichen möchten, und fügen Sie dann den **Consumer Key** und **Consumer Secret** hinzu, die von der Salesforce-Verbraucherwebsite bereitgestellt werden. Wählen Sie dann **Validieren** und **Speichern** das neu erstellte Profil aus.
 
-     ![Salesforce-Veröffentlichungsprofil in Workspace-Einstellungen](../user-guide/images/salesforce-publish-profile.png){width="550"}
+    ![Salesforce-Veröffentlichungsprofil in Workspace-Einstellungen](../user-guide/images/salesforce-publish-profile.png){width="550"}
 
-     >[!NOTE]
-     >
-     >Verwenden Sie zum Konfigurieren eines Proxys für Salesforce in Experience Manager Guides die Apache-HTTP-Komponenten-Proxy-Konfiguration in AEM. Erfahren Sie, wie [Proxy für den AEM Link Checker konfigurieren](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+    >[!NOTE]
+    >
+    >Verwenden Sie zum Konfigurieren eines Proxys für Salesforce in Experience Manager Guides die Apache-HTTP-Komponenten-Proxy-Konfiguration in AEM. Erfahren Sie, wie [Proxy für den AEM Link Checker konfigurieren](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
 **Erstellen eines ServiceNow-Profils**
@@ -235,24 +245,24 @@ Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum �
 
   Führen Sie die folgenden Schritte aus, um eine neue Sprachgruppe zu erstellen:
 
-   1. Wählen Sie **Hinzufügen** aus.
-   1. Geben Sie den Namen der Sprachgruppe ein. Jede Sprache sollte einen eindeutigen Namen haben. Sie können einen Fehler anzeigen, wenn das Namensfeld leer oder der Name nicht eindeutig ist.
-   1. Wählen Sie die Sprachen aus dem Dropdown-Menü aus. Sie können mehrere Sprachen auswählen.
+  1. Wählen Sie **Hinzufügen** aus.
+  1. Geben Sie den Namen der Sprachgruppe ein. Jede Sprache sollte einen eindeutigen Namen haben. Sie können einen Fehler anzeigen, wenn das Namensfeld leer oder der Name nicht eindeutig ist.
+  1. Wählen Sie die Sprachen aus dem Dropdown-Menü aus. Sie können mehrere Sprachen auswählen.
 
-      Geben Sie die ersten Zeichen der Sprache oder den Sprach-Code ein, um die gewünschten Sprachen zu filtern. Geben Sie beispielsweise „en“ ein, um alle Sprachen zu filtern, die „en“ am Anfang ihres Namens oder Codes enthalten.
+     Geben Sie die ersten Zeichen der Sprache oder den Sprach-Code ein, um die gewünschten Sprachen zu filtern. Geben Sie beispielsweise „en“ ein, um alle Sprachen zu filtern, die „en“ am Anfang ihres Namens oder Codes enthalten.
 
-   1. Wählen Sie das Symbol Fertig aus, um der Gruppe die ausgewählten Sprachen hinzuzufügen. Die Sprachen werden angezeigt. Wenn Sie drei oder mehr Sprachen hinzufügen, wird **Option „Mehr anzeigen** angezeigt. Sie können auf **Mehr anzeigen** klicken, um alle in der Gruppe vorhandenen Sprachen anzuzeigen.
+  1. Wählen Sie das Symbol Fertig aus, um der Gruppe die ausgewählten Sprachen hinzuzufügen. Die Sprachen werden angezeigt. Wenn Sie drei oder mehr Sprachen hinzufügen, wird **Option „Mehr anzeigen** angezeigt. Sie können auf **Mehr anzeigen** klicken, um alle in der Gruppe vorhandenen Sprachen anzuzeigen.
 
-      >[!TIP]
-      >
-      > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
+     >[!TIP]
+     >
+     > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
-   1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![&#x200B; Sprachgruppen zu bearbeiten &#x200B;](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![&#x200B; oder zu löschen](../user-guide/images/Delete_icon.svg).
-   1. Speichern Sie die **Einstellungen**.
+  1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](../user-guide/images/Delete_icon.svg).
+  1. Speichern Sie die **Einstellungen**.
 
-      >[!NOTE]
-      >
-      >Als Benutzer können Sie die für Ihr Ordnerprofil konfigurierten Sprachgruppen anzeigen.
+     >[!NOTE]
+     >
+     >Als Benutzer können Sie die für Ihr Ordnerprofil konfigurierten Sprachgruppen anzeigen.
 
 - **Beschriftungen der Quellversion an die Zielversion weitergeben**: Wählen Sie diese Option, um den Titel der Quelldateiversion an die übersetzte Datei weiterzugeben. Standardmäßig ist dies deaktiviert.
 - **Bereinigung des Übersetzungsprojekts nach Abschluss**: Wählen Sie diese Option, um die Übersetzungsprojekte so zu konfigurieren, dass sie nach der Übersetzung automatisch deaktiviert oder gelöscht werden. Standardmäßig ist **Keine** ausgewählt, sodass das Projekt nach der Übersetzung existiert.

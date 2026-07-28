@@ -5,19 +5,13 @@ exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
 workflow-type: tm+mt
-source-wordcount: 3343
+source-wordcount: 3663
 ht-degree: 0%
 
 ---
@@ -81,13 +75,15 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
 1. Geben Sie eine **Beschreibung** für die Aufgabe ein.
 
-   Diese Beschreibung wird als Text der Benachrichtigungs-E-Mail verwendet, die an die Validierungsverantwortlichen gesendet wird.
+   Die Beschreibung wird als Text der Benachrichtigungs-E-Mail verwendet, die an die Validierungsverantwortlichen gesendet wird. Er wird auch im Dialogfeld **Details überprüfen** angezeigt, auf das über das *Info*-Symbol neben der Überschrift **Kommentare** sowohl in der Benutzeroberfläche von Review als auch in der Benutzeroberfläche des Editors zugegriffen werden kann.
+
+   ![](images/review-details.png)
 
 1. Wählen Sie das **Fälligkeitsdatum** und die Uhrzeit aus, um den Termin für die Überprüfung festzulegen.
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Aktivieren Sie **Automatische Erinnerung**, um geplante Erinnerungsbenachrichtigungen (und E-Mail-Erinnerungen) für Prüfer zu konfigurieren. Dies kann sowohl vor dem Fälligkeitsdatum einer Prüfungsaufgabe als auch nach deren Fälligkeit erfolgen.
 
@@ -108,6 +104,35 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
    >[!NOTE]
    >
    > Die ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen. Weitere Informationen finden Sie unter [Schlüsselverweise auflösen](map-editor-other-features.md#id176GD01H05Z).
+
+1. DITAVAL-Dateien anhängen (nur verfügbar, wenn für Ihre Umgebung aktiviert)
+
+   >[!NOTE]
+   >
+   > Die Funktion zum Anhängen von DITAVAL-Dateien an eine Prüfungsaufgabe ist standardmäßig aktiviert. Wenn Sie diese Funktion lieber nicht in Ihrer Umgebung verwenden möchten, wenden Sie sich an Ihr Customer Success-Team.
+
+   Wenn das Thema, das Sie zur Überprüfung senden, Bedingungen verwendet, können Sie eine oder mehrere DITAVAL-Dateien an die Überprüfungsaufgabe anhängen.
+
+   ![](./images/attach-ditaval-review-task.png)
+
+   >[!NOTE]
+   >
+   > Der Dateiselektor akzeptiert nur DITAVAL-Dateien. Wenn Sie einen anderen Dateityp auswählen, z. B. ein Thema oder eine Karte, werden Sie durch eine Fehlermeldung aufgefordert, stattdessen eine DITAVAL-Datei auszuwählen.
+
+   Die in den angehängten DITAVAL-Dateien definierten Bedingungen werden verwendet, um die Umschalter im Bedienfeld Bedingungen des Reviewers vorauszuwählen. Reviewer haben somit Zugriff auf dieselben Bedingungen, die Sie als Initiator für diese Überprüfung beabsichtigen.
+
+   Sie haben außerdem das **Änderungen der Reviewer-Bedingungen zulassen**, das steuert, ob Reviewer die voreingestellten Umschalter ändern können:
+
+   ![](./images/reviewer-conditions.png)
+
+   - Wenn diese Option aktiviert ist, können Überprüfende die Ein- und Ausschaltfunktionen einer Bedingung während der Überprüfung aktivieren und dabei die von den DITAVAL-Dateien festgelegten Werte überschreiben.
+   - Wenn diese Option deaktiviert ist, bleiben die Umschalter für Reviewer deaktiviert und sie können den Inhalt nur so überprüfen, wie er durch die angehängten DITAVAL-Dateien gefiltert wurde.
+
+   **Zusätzliche Hinweise**:
+
+   - Sie können mehrere DITAVAL-Dateien an eine Überprüfungsaufgabe anhängen. Wenn zwei oder mehr angehängte Dateien widersprüchliche Werte für dieselbe Bedingung definieren, hat die Datei, die zuerst (in der Einfügereihenfolge) hinzugefügt wurde, Vorrang.
+   - Bedingungen, die von keiner angehängten DITAVAL-Datei abgedeckt werden, sind nicht betroffen; sie behalten das standardmäßige (ungefilterte) Verhalten in der Überprüfungs-Benutzeroberfläche bei.
+   - Nachdem die Prüfungsaufgabe erstellt wurde, können Sie die Prüfungsaufgabe auf der Aufgabendetailseite aktualisieren, um die angehängten DITAVAL-Dateien hinzuzufügen, zu entfernen oder zu ersetzen und die Einstellung **Änderungen an Überprüfungsbedingungen zulassen** zu ändern.
 
 1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
 
@@ -230,7 +255,7 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
 
@@ -334,4 +359,4 @@ Sobald die Prüfungsaufgabe aktualisiert wurde, erhalten die Validierungsverantw
 Weitere Informationen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

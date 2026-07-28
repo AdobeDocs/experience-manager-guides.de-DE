@@ -5,25 +5,17 @@ feature: Reviewing
 role: User
 exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
 TQID: https://experienceleague.adobe.com/Ttty7SNmwHvrs-Ma5SN0JqjQRR3Y6yM-W-ozgQ3Vcyg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
 workflow-type: tm+mt
-source-wordcount: 691
+source-wordcount: 854
 ht-degree: 0%
 
 ---
 
 # Beenden der Prüfungsaufgabe als Prüferin bzw. Prüfer
-
->[!IMPORTANT]
->
-> Die in diesem Artikel beschriebenen neuen Funktionen sind standardmäßig in der Version 2508 von Experience Manager Guides as a Cloud Service aktiviert. Überprüfungen, die vor der Migration erstellt wurden, sind nicht betroffen und verwenden weiterhin den früheren Workflow. Wenn Sie es vorziehen, die vorhandenen Funktionen ohne diese Aktualisierungen weiterhin zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit die neuen Funktionen deaktiviert werden.
 
 Als Reviewer können Sie eine Prüfungsaufgabe als abgeschlossen markieren, sobald Sie alle Inhalte geprüft haben und den Autor benachrichtigen möchten. Sie können zu diesem Zeitpunkt auch abschließende Kommentare hinterlassen.
 
@@ -60,13 +52,12 @@ Wenn der Autor oder Initiator der Aufgabe anhand des Feedbacks [die Prüfungsauf
 
 >[!NOTE]
 >
->Wenn ein Reviewer eine Prüfungsaufgabe als „Abgeschlossen **markiert,** die Aufgabe standardmäßig im AEM-Posteingang des Reviewers, bis der Autor oder der Aufgabeninitiator das Feedback überprüft und die Prüfungsaufgabe schließt.
+> Die Aufgabensynchronisierung zwischen der Überprüfungs-Benutzeroberfläche und dem AEM-Posteingang ist verfügbar und standardmäßig aktiviert. Wenn ein Validierungsverantwortlicher eine Überprüfungsaufgabe in der **-Benutzeroberfläche** Abgeschlossen“ kennzeichnet, wird die entsprechende Aufgabe automatisch abgeschlossen und aus dem AEM-Posteingang des Validierungsverantwortlichen entfernt. Gleichermaßen wird eine Aufgabe in der Überprüfungs-Benutzeroberfläche automatisch als abgeschlossen markiert, wenn sie über den AEM-Posteingang abgeschlossen wird.
 >
->Sie können jedoch die Aufgabensynchronisierung zwischen der Überprüfungs-Benutzeroberfläche und dem AEM-Posteingang aktivieren. Wenn diese Funktion aktiviert ist, wird durch das Markieren einer Prüfungsaufgabe als **Abgeschlossen** in der Überprüfungs-Benutzeroberfläche die entsprechende Aufgabe automatisch abgeschlossen und aus dem AEM-Posteingang des Reviewers entfernt. Gleichermaßen wird eine Aufgabe in der Überprüfungs-Benutzeroberfläche automatisch als abgeschlossen markiert, wenn sie über den AEM-Posteingang abgeschlossen wird.
+> Der Autor oder Aufgabeninitiator kann das Feedback dennoch überprüfen und die Aufgabe neu zuweisen, wenn eine zusätzliche Überprüfung erforderlich ist. Wenn eine Aufgabe neu zugewiesen wird, wird für die Überprüfenden eine neue AEM-Posteingangsbenachrichtigung generiert, damit die Aufgabe erneut überprüft werden kann.
 >
->Der Autor oder Aufgabeninitiator kann das Feedback dennoch überprüfen und die Aufgabe neu zuweisen, wenn eine zusätzliche Überprüfung erforderlich ist. Wenn eine Aufgabe neu zugewiesen wird, wird für die Überprüfenden eine neue AEM-Posteingangsbenachrichtigung generiert, damit die Aufgabe erneut überprüft werden kann.
->
->Wenden Sie sich an Ihr Customer Success-Team, um diese Funktion in Ihrer Umgebung zu aktivieren.
+> Wenn Sie das vorherige Verhalten verwenden möchten, bei dem abgeschlossene Prüfungsaufgaben im AEM-Posteingang des Reviewers verbleiben, bis der Autor oder Aufgabeninitiator das Feedback überprüft und die Prüfungsaufgabe geschlossen hat, wenden Sie sich an Ihr Customer Success-Team, um die Aufgabensynchronisierung zu deaktivieren.
+
 
 
 ## Anzeigen von Kommentaren auf Aufgabenebene
@@ -86,3 +77,30 @@ Die Kommentare innerhalb des Dialogfelds werden in chronologischer Reihenfolge a
 Das **Aufgabenkommentare** Dialogfeld ist für alle an der Prüfungsaufgabe beteiligten Benutzenden zugänglich, einschließlich des Autors oder Initiators der Prüfungsaufgabe und anderer Prüfer. Daher können die Kommentare von anderen Reviewern (falls beteiligt) auch im Dialogfeld Aufgabenkommentare angezeigt werden. Dies trägt dazu bei, eine klare und nachvollziehbare Kommunikation während des gesamten Überprüfungsprozesses sicherzustellen.
 
 Nach der Überprüfung des Feedbacks auf Aufgabenebene kann der Autor entweder eine erneute Überprüfung anfordern oder die Prüfungsaufgabe schließen. In beiden Fällen bleiben alle während des Überprüfungsprozesses erfassten Kommentare im Dialogfeld **Aufgabenkommentare** zur Referenz verfügbar.
+
+## Delegieren einer Prüfungsaufgabe an einen anderen Prüfer
+
+>[!IMPORTANT]
+>
+> Diese Funktion ist standardmäßig aktiviert. Wenn Sie diese Funktion lieber nicht in Ihrer Umgebung verwenden möchten, wenden Sie sich an Ihr Customer Success-Team.
+
+Als Prüfer möchten Sie manchmal, dass sich ein anderer Benutzer an einer Überprüfung beteiligt, bevor sie an den Autor zurückgegeben wird. Wenn beispielsweise ein Teil des Inhalts außerhalb Ihres Fachwissens liegt oder Sie eine zweite Meinung einholen möchten, bevor Sie die Aufgabe als &quot;**&quot;**. Anstatt dies über einen Projektadministrator weiterzuleiten, können Sie einem Reviewer direkt aus der Prüfungsaufgabe heraus die Option **Delegieren** empfehlen.
+
+Wenn Sie **Delegieren** auswählen, wird die Prüfungsaufgabe in Ihrem Auftrag nicht abgeschlossen. Sie sendet Ihre Empfehlung an den Autor (Initiator der Aufgabe), der entscheidet, ob der empfohlene Reviewer zur Aufgabe hinzugefügt werden soll.
+
+Führen Sie die folgenden Schritte aus, um eine Prüfungsaufgabe zu delegieren:
+
+1. Öffnen Sie die Ihnen zugewiesene Prüfungsaufgabe.
+2. Nachdem Sie den Inhalt überprüft haben, wählen Sie **Delegieren** neben **Als erledigt markieren**.
+
+   ![](./images/review-delegate-option.png){width="350"}
+
+3. Das Dialogfeld **Reviewer empfehlen** wird angezeigt. Wählen Sie einen Benutzer aus der Dropdown-Liste aus, der als Prüfer für diese Aufgabe empfohlen werden soll.
+
+   ![](./images/recommend-reviewer-dialog.png){width="350"}
+
+4. *(Optional)* Fügen Sie für den Kontext einen Kommentar für den Autor hinzu.
+5. Wählen Sie **Delegieren** aus.
+
+Der Autor erhält eine Benachrichtigung, die angibt, dass Sie einen Reviewer zu der Aufgabe hinzufügen möchten. Weitere Informationen darüber, wie der Autor auf diese Anfrage reagiert, finden Sie unter [Anfordern einer erneuten Überprüfung oder Schließen einer Prüfungsaufgabe als Autor](./review-close-review-task.md).
+

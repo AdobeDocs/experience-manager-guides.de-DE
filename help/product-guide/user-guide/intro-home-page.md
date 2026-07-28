@@ -4,9 +4,9 @@ description: Lernen Sie die Startseite der Adobe Experience Manager Guides kenne
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: e41cf263f42e91bc384aa09fd1135b46e429c86a
+source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
@@ -42,25 +42,32 @@ Die Navigationsleiste enthält Tools zum Umschalten der Navigation, zum Anpassen
 In der Navigationsleiste verfügbare Funktionen werden wie folgt erläutert:
 
 - **Navigationsumschalter**: Ermöglicht die nahtlose Navigation zu anderen Seiten:
-   - **Startseite**: Die Standardseite, die Sie beim Anmelden bei Experience Manager Guides anzeigen.
-   - **Editor**: Ein benutzerfreundlicher Web-basierter Editor, mit dem Sie strukturierte Dokumente in Experience Manager Guides erstellen und verwalten können. [Erfahren Sie mehr über die Benutzeroberfläche des Editors](./web-editor.md).
-   - **Map-Konsole**: Bietet einen dedizierten Arbeitsbereich für alle Aspekte der Kartenverwaltung und -veröffentlichung. [Kennenlernen der Benutzeroberfläche der Map-Konsole](./map-console-overview.md).
+  - **Startseite**: Die Standardseite, die Sie beim Anmelden bei Experience Manager Guides anzeigen.
+  - **Editor**: Ein benutzerfreundlicher Web-basierter Editor, mit dem Sie strukturierte Dokumente in Experience Manager Guides erstellen und verwalten können. [Erfahren Sie mehr über die Benutzeroberfläche des Editors](./web-editor.md).
+  - **Map-Konsole**: Bietet einen dedizierten Arbeitsbereich für alle Aspekte der Kartenverwaltung und -veröffentlichung. [Kennenlernen der Benutzeroberfläche der Map-Konsole](./map-console-overview.md).
 - **KI-Assistent**: Ein leistungsstarkes, von KI gesteuertes Tool, das Ihre Produktivität durch intelligente Hilfefunktionen steigert. Darüber hinaus können Sie beim Arbeiten in der Editor-Benutzeroberfläche die intelligenten Authoring-Funktionen des KI-Assistenten nutzen, die Ihren Authoring-Prozess durch intelligente Vorschläge für die Wiederverwendung und Optimierung von Inhalten intelligenter und schneller machen.
 
   Die Funktion [KI-](./ai-assistant.md)) ist derzeit nur für Adobe Experience Manager as a Cloud Service verfügbar.
+
+- **Guides AI**: Bringt intelligente, agentische Smart-Tagging-Kenntnisse von Adobe CX Enterprise Coworker in den Editor und ermöglicht natürliches, konversatives Tagging von Inhalten. Es analysiert Ihre Inhalte, empfiehlt relevante Tags und hilft Ihnen bei der Anwendung konsistenter und genauer Metadaten mit minimalem Aufwand. Sie können die vorgeschlagenen Tags überprüfen und sie anwenden oder ablehnen, bevor Sie Ihre Auswahl bestätigen. [Guides AI](../user-guide/guides-ai.md) optimiert den Tagging-Prozess und verbessert die Organisation und Auffindbarkeit von Inhalten.
+
+  >[!NOTE]
+  >
+  > Wenden Sie sich zur Verwendung der Guides-KI-Funktion in Ihrer Umgebung an das Customer Success-Team . Nachdem die Funktion aktiviert wurde, können Administratoren sie in den Workspace-Einstellungen aktivieren oder deaktivieren. Es kann jeweils nur ein KI-Erlebnis aktiviert werden, entweder KI-Handbücher oder KI-Assistent.
+
 - **Übersichtsabschnitt anpassen**: Ermöglicht das Ausblenden oder Anzeigen der Widgets im Abschnitt Widgets .
 - **Ordnerprofil in Verwendung**: Zeigt das Ordnerprofil an, das derzeit verwendet wird.
 - **Weitere Aktionen**: Bietet Zugriff auf zusätzliche Optionen. Durch Klicken auf diese Schaltfläche wird ein Menü mit den folgenden Optionen geöffnet:
 
-   - **Assets**: Leitet Sie je nach Einrichtung zu einem Ziel.
-      - **Cloud Services**: Wenn Sie Cloud Services verwenden, gelangen Sie durch Auswahl der Option **Assets** zur Seite &quot;AEM-Navigation“.
+  - **Assets**: Leitet Sie je nach Einrichtung zu einem Ziel.
+    - **Cloud Services**: Wenn Sie Cloud Services verwenden, gelangen Sie durch Auswahl der Option **Assets** zur Seite &quot;AEM-Navigation“.
 
-      - **On-Premise-Software**: Wenn Sie Adobe Experience Manager Guides (4.2.1 und höher) verwenden, gelangen Sie durch Auswahl der Option **Assets** zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche.
-   - **Workspace-Einstellungen**: Leitet Sie zum Dialogfeld **Workspace-Einstellungen**. Weitere Informationen finden Sie unter [Konfigurieren von Workspace-](../cs-install-guide/workspace-settings.md).
+    - **On-Premise-Software**: Wenn Sie Adobe Experience Manager Guides (4.2.1 und höher) verwenden, gelangen Sie durch Auswahl der Option **Assets** zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche.
+  - **Workspace-Einstellungen**: Leitet Sie zum Dialogfeld **Workspace-Einstellungen**. Weitere Informationen finden Sie unter [Konfigurieren von Workspace-](../cs-install-guide/workspace-settings.md).
 
-     >[!NOTE]
-     >
-     > Auf der Startseite ist die Option Workspace-Einstellungen für Cloud Services und für On-Premise-Konfigurationen in Version 5.2 und höher verfügbar. Bei einem On-Premise-Setup vor Version 5.2 ist die Option Mehr Aktionen auf der Startseite nicht verfügbar. Sie können jedoch weiterhin über die Editor-Oberfläche und die Zuordnungskonsole auf die relevanten Einstellungen zugreifen, indem Sie zu Weitere Optionen > Einstellungen navigieren.
+    >[!NOTE]
+    >
+    > Auf der Startseite ist die Option Workspace-Einstellungen für Cloud Services und für On-Premise-Konfigurationen in Version 5.2 und höher verfügbar. Bei einem On-Premise-Setup vor Version 5.2 ist die Option Mehr Aktionen auf der Startseite nicht verfügbar. Sie können jedoch weiterhin über die Editor-Oberfläche und die Zuordnungskonsole auf die relevanten Einstellungen zugreifen, indem Sie zu Weitere Optionen > Einstellungen navigieren.
 
 - **Ansicht erweitern**: Ermöglicht das Erweitern der Seitenansicht mithilfe des Symbols **Erweitern**. In dieser Ansicht ist die Kopfzeilenleiste ausgeblendet, was den Inhaltsbereich maximiert. Um zur Standardansicht zurückzukehren, verwenden Sie das Symbol **Erweiterte Ansicht beenden**.
 
@@ -117,9 +124,9 @@ Die folgenden Widgets sind im Abschnitt Widgets vorhanden:
 
   Die folgenden Optionen sind verfügbar, wenn Sie den Mauszeiger über eine Datei bewegen:
 
-   - **Im Editor öffnen**: Ermöglicht das Öffnen der Datei im Editor. Sie können eine Datei auch öffnen, indem Sie sie einfach auswählen.
-   - **Anheften/Entfernen**: Ermöglicht das Anheften einer oder mehrerer Dateien an das Widget Letzte Dateien. Angeheftete Dateien werden oben in der Widget-Liste angezeigt. Um eine Datei zu lösen, verwenden Sie die Option **Loslösen**.
-   - **Entfernen**: Ermöglicht das Entfernen der Datei aus dem Widget Letzte Dateien.
+  - **Im Editor öffnen**: Ermöglicht das Öffnen der Datei im Editor. Sie können eine Datei auch öffnen, indem Sie sie einfach auswählen.
+  - **Anheften/Entfernen**: Ermöglicht das Anheften einer oder mehrerer Dateien an das Widget Letzte Dateien. Angeheftete Dateien werden oben in der Widget-Liste angezeigt. Um eine Datei zu lösen, verwenden Sie die Option **Loslösen**.
+  - **Entfernen**: Ermöglicht das Entfernen der Datei aus dem Widget Letzte Dateien.
 
   **Erstellen einer neuen Datei aus dem Dropdown-Menü „Neue Datei“**
 
@@ -136,17 +143,17 @@ Die folgenden Widgets sind im Abschnitt Widgets vorhanden:
 
   Die folgenden Optionen sind verfügbar, wenn Sie den Mauszeiger über eine Sammlung bewegen und auf das Symbol Mehr ![](images/Smock_MoreSmallList_18_N.svg):
 
-   - **Umbenennen**: Ermöglicht das Umbenennen der Sammlung.
-   - **Löschen**: Hiermit können Sie die Sammlung löschen.
-   - **In Assets-Benutzeroberfläche anzeigen**: Ermöglicht das Öffnen der Sammlung in der Assets-Benutzeroberfläche.
+  - **Umbenennen**: Ermöglicht das Umbenennen der Sammlung.
+  - **Löschen**: Hiermit können Sie die Sammlung löschen.
+  - **In Assets-Benutzeroberfläche anzeigen**: Ermöglicht das Öffnen der Sammlung in der Assets-Benutzeroberfläche.
 
   Sie können eine Sammlung öffnen, indem Sie auf den Sammlungstitel klicken. Die folgenden Optionen sind verfügbar, wenn Sie den Mauszeiger über eine Sammlungsdatei bewegen und auf das Symbol Mehr ![](images/Smock_MoreSmallList_18_N.svg):
 
-   - **Im Editor öffnen**: Ermöglicht das Öffnen der Datei im Editor. Alternativ können Sie den Dateititel auswählen, um die Datei zu öffnen.
-   - **In Map-Konsole öffnen**: Ermöglicht das Öffnen der Map-Datei in der Map-Konsole. (Nur für DITA-Zuordnungsdateien verfügbar).
-   - **Zu Sammlungen hinzufügen**: Ermöglicht das Hinzufügen der Datei zu einer neuen oder vorhandenen Sammlung.
-   - **Aus Sammlungen entfernen**: Ermöglicht das Entfernen der Datei aus der Sammlungsliste.
-   - **In Assets-Benutzeroberfläche anzeigen**: Ermöglicht es Ihnen, die Datei in der Assets-Benutzeroberfläche zu finden.
+  - **Im Editor öffnen**: Ermöglicht das Öffnen der Datei im Editor. Alternativ können Sie den Dateititel auswählen, um die Datei zu öffnen.
+  - **In Map-Konsole öffnen**: Ermöglicht das Öffnen der Map-Datei in der Map-Konsole. (Nur für DITA-Zuordnungsdateien verfügbar).
+  - **Zu Sammlungen hinzufügen**: Ermöglicht das Hinzufügen der Datei zu einer neuen oder vorhandenen Sammlung.
+  - **Aus Sammlungen entfernen**: Ermöglicht das Entfernen der Datei aus der Sammlungsliste.
+  - **In Assets-Benutzeroberfläche anzeigen**: Ermöglicht es Ihnen, die Datei in der Assets-Benutzeroberfläche zu finden.
 
   **Erstellen einer neuen Sammlung über das Dropdown-Menü „Neue Sammlung“**
 
@@ -166,7 +173,7 @@ Experience Manager Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die V
 
 ### Massenveröffentlichung
 
-Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [&#x200B; veröffentlichten Inhalte“ erstellen und verwalten &#x200B;](./conf-bulk-activation.md).
+Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [ veröffentlichten Inhalte“ erstellen und verwalten ](./conf-bulk-activation.md).
 
 ### Veröffentlichungswarteschlange
 
@@ -182,23 +189,23 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Über die Voreins
 
   ![](images/user_preference_editor-new.png)
 
-   - **Ordnerprofil**: Das Ordnerprofil steuert verschiedene Konfigurationen im Zusammenhang mit bedingten Attributen, Autorenvorlagen, Ausgabevorgaben und Editor-Konfigurationen. Das globale Profil wird standardmäßig angezeigt. Wenn Ihr Administrator Ordnerprofile im System konfiguriert hat, werden diese Ordnerprofile außerdem in der Liste Ordnerprofile angezeigt.
-   - **Basispfad**: Wenn Sie über den Editor auf das Experience Manager Guides-Repository zugreifen, werden Ihnen standardmäßig Assets über den Speicherort /content/dam angezeigt. Ihr Arbeitsordner würde höchstwahrscheinlich aus einigen Ordnern im Ordner /content/dam/ bestehen. Sie können den Basispfad zu Ihrem Arbeitsordner festlegen und die Repository-Ansicht zeigt Ihnen dann den Inhalt von diesem Speicherort im Voraus an. Dadurch wird die Zeit für den Zugriff auf den Arbeitsordner verkürzt. Wenn Sie einen Verweis oder eine Mediendatei in Ihr Thema einfügen, beginnt der Dateispeicherort außerdem mit dem Ordner, der im Basispfad festgelegt ist.
-   - **Stammzuordnung auswählen**: Wählen Sie eine DITA-Zuordnungsdatei aus, um Schlüsselverweise oder Glossareinträge aufzulösen. Die ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen. Weitere Informationen finden Sie unter [Schlüsselverweise auflösen](./map-editor-other-features.md).
-   - **Maximale Anzahl aktueller Dateien**: Verwenden Sie dieses Feld, um eine maximale Anzahl von Dateien festzulegen, die im Widget „Letzte Dateien“ angezeigt werden.
-   - **Öffnen der Voreinstellungen für**: Hier können Sie das Standardverhalten auswählen, dem das System beim Öffnen einer DITA-Zuordnungsdatei folgen soll.
+  - **Ordnerprofil**: Das Ordnerprofil steuert verschiedene Konfigurationen im Zusammenhang mit bedingten Attributen, Autorenvorlagen, Ausgabevorgaben und Editor-Konfigurationen. Das globale Profil wird standardmäßig angezeigt. Wenn Ihr Administrator Ordnerprofile im System konfiguriert hat, werden diese Ordnerprofile außerdem in der Liste Ordnerprofile angezeigt.
+  - **Basispfad**: Wenn Sie über den Editor auf das Experience Manager Guides-Repository zugreifen, werden Ihnen standardmäßig Assets über den Speicherort /content/dam angezeigt. Ihr Arbeitsordner würde höchstwahrscheinlich aus einigen Ordnern im Ordner /content/dam/ bestehen. Sie können den Basispfad zu Ihrem Arbeitsordner festlegen und die Repository-Ansicht zeigt Ihnen dann den Inhalt von diesem Speicherort im Voraus an. Dadurch wird die Zeit für den Zugriff auf den Arbeitsordner verkürzt. Wenn Sie einen Verweis oder eine Mediendatei in Ihr Thema einfügen, beginnt der Dateispeicherort außerdem mit dem Ordner, der im Basispfad festgelegt ist.
+  - **Stammzuordnung auswählen**: Wählen Sie eine DITA-Zuordnungsdatei aus, um Schlüsselverweise oder Glossareinträge aufzulösen. Die ausgewählte Stammzuordnung hat die höchste Priorität, um Schlüsselverweise aufzulösen. Weitere Informationen finden Sie unter [Schlüsselverweise auflösen](./map-editor-other-features.md).
+  - **Maximale Anzahl aktueller Dateien**: Verwenden Sie dieses Feld, um eine maximale Anzahl von Dateien festzulegen, die im Widget „Letzte Dateien“ angezeigt werden.
+  - **Öffnen der Voreinstellungen für**: Hier können Sie das Standardverhalten auswählen, dem das System beim Öffnen einer DITA-Zuordnungsdatei folgen soll.
 
 - **Erscheinungsbild**: Die Registerkarte Erscheinungsbild bietet Ihnen die Optionen zum Auswählen der Designs für die Anwendung und der Quellansicht des Inhaltsbearbeitungsbereichs. Verwenden Sie diese Registerkarte, um die folgenden Einstellungen zu konfigurieren:
 
   ![](images/user_preference_editor_appearance.png)
 
-   - **Anwendungsdesign und Source-Ansicht**: Sie können aus den Hell- oder Dunkeldesigns für die Anwendungs- und Quellansicht wählen. Beim Design „Licht“ verwenden die Symbolleisten und Bereiche einen hellgrauen Hintergrund. Beim dunklen Design verwenden die Symbolleisten und Bereiche einen schwarzen Hintergrund. Wählen Sie **Gerät verwenden** aus, damit Experience Manager Guides helle und dunkle Designs basierend auf dem Design Ihres Geräts auswählen kann.
+  - **Anwendungsdesign und Source-Ansicht**: Sie können aus den Hell- oder Dunkeldesigns für die Anwendungs- und Quellansicht wählen. Beim Design „Licht“ verwenden die Symbolleisten und Bereiche einen hellgrauen Hintergrund. Beim dunklen Design verwenden die Symbolleisten und Bereiche einen schwarzen Hintergrund. Wählen Sie **Gerät verwenden** aus, damit Experience Manager Guides helle und dunkle Designs basierend auf dem Design Ihres Geräts auswählen kann.
 
-     Bei allen Designs wird der Inhaltsbearbeitungsbereich in der Autorenansicht mit weißem Hintergrund angezeigt.
+    Bei allen Designs wird der Inhaltsbearbeitungsbereich in der Autorenansicht mit weißem Hintergrund angezeigt.
 
-   - **Anzeigekonfiguration für Editor-Dateien**: Wählen Sie die Standardmethode zum Anzeigen der Dateien im Editor aus. Sie können die Liste der Dateien anhand der Titel oder Dateinamen aus den verschiedenen Bedienfeldern in der Autorenansicht anzeigen. Standardmäßig werden die Dateien nach Titel im Editor angezeigt.
+  - **Anzeigekonfiguration für Editor-Dateien**: Wählen Sie die Standardmethode zum Anzeigen der Dateien im Editor aus. Sie können die Liste der Dateien anhand der Titel oder Dateinamen aus den verschiedenen Bedienfeldern in der Autorenansicht anzeigen. Standardmäßig werden die Dateien nach Titel im Editor angezeigt.
 
-   - **Dateien immer im Explorer suchen**: Wählen Sie diese Option, um den Speicherort einer Datei im Repository anzuzeigen, während sie im Editor bearbeitet wird.
+  - **Dateien immer im Explorer suchen**: Wählen Sie diese Option, um den Speicherort einer Datei im Repository anzuzeigen, während sie im Editor bearbeitet wird.
 
   >[!NOTE]
   >

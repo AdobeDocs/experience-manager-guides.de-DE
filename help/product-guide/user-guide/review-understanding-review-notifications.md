@@ -5,26 +5,17 @@ feature: Reviewing
 role: User
 exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
 TQID: https://experienceleague.adobe.com/qM0Vx84EClSsT6ACLJxUmX5RsDl4n6QM5mSp-l5cGGs
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 675
 ht-degree: 0%
 
 ---
 
 # Grundlegendes zu Prüfungsbenachrichtigungen
-
->[!IMPORTANT]
->
-> Die in diesem Artikel beschriebenen neuen Funktionen werden standardmäßig mit der Version 2508 von Experience Manager Guides as a Cloud Services aktiviert. Überprüfungen, die vor der Migration erstellt wurden, sind nicht betroffen und verwenden weiterhin den früheren Workflow. Wenn Sie es vorziehen, die vorhandenen Funktionen ohne diese Aktualisierungen weiterhin zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit die neuen Funktionen deaktiviert werden.
 
 Experience Manager Guides optimiert die Zusammenarbeit zwischen Autoren und Reviewern durch einen strukturierten Prüfungs-Workflow. Im Rahmen dieses Workflows spielen Benachrichtigungen eine wichtige Rolle dabei, alle Teilnehmer einer Prüfungsaufgabe auf dem Laufenden zu halten und auf Änderungen zu reagieren.
 
@@ -70,4 +61,4 @@ Eine vollständige Liste der vordefinierten Variablen und die Anpassung der Übe
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

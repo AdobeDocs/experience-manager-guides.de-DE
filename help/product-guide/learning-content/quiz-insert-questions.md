@@ -5,17 +5,12 @@ feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
 TQID: https://experienceleague.adobe.com/2VGxq0TrCbvFXYL44fOo5xIjP6GBLi9aKfVSTfLD3jg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: ab01a588-7dea-43f2-a699-0b3f128465d6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff08b63bf8668fddc89c43391b3264a733a824e7
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -53,6 +48,13 @@ Sie können die Fragen mithilfe der folgenden Frageneigenschaften im Bedienfeld 
 - **Strafe für falsche Antwort**: Geben Sie die Punkte an, die bei einer falschen Antwort abgezogen werden sollen.
 - **Fragebezeichnung**: Aktivieren Sie diese Option, um eine Fragebezeichnung hinzuzufügen.
 - **Feedback**: Ermöglicht es Ihnen, Feedback für eine korrekte oder falsche Antwort zu geben.
+
+  >[!NOTE]
+  >
+  > In der veröffentlichten Ausgabe des Kurses können Teilnehmer nach dem Versuch, alle Fragen in einem Quiz zu beantworten, die Option **Antworten überprüfen** verwenden, um ihre gesendeten Antworten erneut zu überprüfen und zu sehen, welche Antworten richtig oder falsch waren. Dies erfordert keine zusätzliche Einrichtung oder Konfiguration.
+
+  ![](assets/review-answer-quiz.png){width="350"}
+
 - **Option an Position anheften**: Wenn eine bestimmte Option für eine Frage angeheftet wird, bleibt sie an der angegebenen Position in der Optionsliste fixiert, auch wenn **Zufallsbasierte Antwortauswahl für jeden Versuch** in der Konfiguration der SCORM-Voreinstellung aktiviert ist, was andernfalls die verfügbaren Optionen neu mischen würde. Sie können den Mauszeiger über die gewünschte Option einer Frage im Bedienfeld Inhaltseigenschaften bewegen und sie anheften.
 
   ![](assets/pin-question.png){width="350"}

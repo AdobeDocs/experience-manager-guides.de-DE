@@ -5,18 +5,13 @@ exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
 TQID: https://experienceleague.adobe.com/GG5Bx2yyJz2GaQFmMsDZ6wq6xzb4XUAsSBxEkRNvEVE
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d1a4b75ef3acd3d02cce2225f03e1f9b3a086ef7
 workflow-type: tm+mt
-source-wordcount: 536
-ht-degree: 3%
+source-wordcount: 695
+ht-degree: 2%
 
 ---
 
@@ -26,13 +21,26 @@ Wahrscheinlich hätten Sie ein Repository mit vorhandenen DITA-Inhalten, die Sie
 
 >[!IMPORTANT]
 >
-> Unter [Hinzufügen digitaler Assets zu Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=de) finden Sie detaillierte Informationen zu den unterstützten Methoden zum Hochladen von Inhalten in Adobe Experience Manager.
+> Unter [Hinzufügen digitaler Assets zu Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) finden Sie detaillierte Informationen zu den unterstützten Methoden zum Hochladen von Inhalten in Adobe Experience Manager.
 
 ## Benutzeroberfläche der Assets-Konsole
 
-Um [digitale Assets mithilfe der Benutzeroberfläche der Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=de#filename-handling #upload-assets)Konsole zu Adobe Experience Manager as a Cloud Service Assets hinzuzufügen, wählen Sie das gewünschte Asset auf Ihrem Desktop aus und ziehen Sie es über die Adobe Experience Manager-Benutzeroberfläche \(Webbrowser\) in den Zielordner. Stellen Sie beim Hochladen von Assets sicher, dass die Dateinamen keine nicht unterstützten oder unzulässigen Zeichen enthalten.
+Um [digitale Assets mithilfe der Benutzeroberfläche der Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling #upload-assets)Konsole zu Adobe Experience Manager as a Cloud Service Assets hinzuzufügen, wählen Sie das gewünschte Asset auf Ihrem Desktop aus und ziehen Sie es über die Adobe Experience Manager-Benutzeroberfläche \(Webbrowser\) in den Zielordner. Stellen Sie beim Hochladen von Assets sicher, dass die Dateinamen keine nicht unterstützten oder unzulässigen Zeichen enthalten.
 
-Weitere Informationen finden Sie im Abschnitt [Behandlung von Dateinamen und unzulässige Zeichen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=de#filename-handling) in der Dokumentation zu Adobe Experience Manager.
+Weitere Informationen finden Sie im Abschnitt [Behandlung von Dateinamen und unzulässige Zeichen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#filename-handling) in der Dokumentation zu Adobe Experience Manager.
+
+### Hochladen von Dateien über die Benutzeroberfläche von Assets
+
+Wenn Sie Dateien mithilfe von **Erstellen** > **Dateien** hochladen und eine Datei aus dem System auswählen, wird **Assets hochladen** angezeigt. In diesem Dialogfeld können Sie die Datei überprüfen und optional umbenennen, bevor Sie den Upload starten. Sie können entweder den ursprünglichen Dateinamen beibehalten oder einen neuen Namen angeben, der Ihren Anforderungen entspricht.
+
+![](images/upload-file.png){width="350"}
+
+Nachdem Sie den Upload gestartet haben, wird der Status im Dialogfeld **Assets hochladen** angezeigt, in dem der Upload-Fortschritt für jede hochgeladene Datei angezeigt wird. Wenn Sie den Vorgang vor Abschluss anhalten müssen, können Sie den Upload jederzeit abbrechen, indem Sie die Option **Abbrechen** auswählen oder das Symbol Abbrechen auswählen. Durch Abbrechen des Vorgangs wird der Upload beendet und die Datei wird nicht zum Repository hinzugefügt.
+
+![](images/upload-status.png){width="350"}
+
+Nachdem der Upload erfolgreich abgeschlossen wurde, zeigt das System eine Bestätigungsmeldung an, die angibt, dass die Datei erfolgreich hochgeladen wurde. Diese Meldung bestätigt, dass die Datei jetzt am ausgewählten Speicherort im Assets-Repository verfügbar ist.
+
 
 ## Adobe Experience Manager-Desktop-Programm
 
@@ -40,7 +48,7 @@ Verwenden Sie das Adobe Experience Manager-Desktop-Programm, wenn Sie ein Kreati
 
 ## Asset-Massenaufnahme
 
-Bei umfangreichen Migrationen und gelegentlichen Massenaufnahmen von Assets können Sie Ihre Inhalte mit dem Asset-Bulk-Ingest hochladen. Mit diesem Tool können Sie Masseninhalte aus unterstützten Datenspeichern wie Azure oder S3 hochladen. Weitere Informationen finden Sie unter [Asset-Massenaufnahme](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=de#asset-bulk-ingestor).
+Bei umfangreichen Migrationen und gelegentlichen Massenaufnahmen von Assets können Sie Ihre Inhalte mit dem Asset-Bulk-Ingest hochladen. Mit diesem Tool können Sie Masseninhalte aus unterstützten Datenspeichern wie Azure oder S3 hochladen. Weitere Informationen finden Sie unter [Asset-Massenaufnahme](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
 ## Verwenden von FrameMaker für den Massen-Upload
 
@@ -58,4 +66,7 @@ Weitere Informationen zur Funktionsweise verschiedener Szenarien für den Datei-
 
 Wenn Sie ein Tool wie das Adobe Experience Manager-Desktop-Programm oder das Asset-Bulk-Ingest verwenden, wird die Aktion, die für eine doppelte Datei ausgeführt werden soll, durch eine Einstellung im Adobe Experience Manager-Server gesteuert. Wenden Sie sich an Ihren Systemadministrator, um mehr über diese Konfiguration zu erfahren.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte verwalten](authoring.md)
+
+
+
+**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)
