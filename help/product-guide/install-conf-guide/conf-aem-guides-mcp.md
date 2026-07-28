@@ -79,7 +79,7 @@ Sie installieren keine lokalen Komponenten. Sie verweisen Ihren Client auf die S
 
 ### Claude Anthropica
 
-Folgen Sie der offiziellen Anleitung: [Einrichten von Claude für AEM MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Verwenden Sie beim Hinzufügen des benutzerdefinierten Connectors den Experience Manager Guides-Endpunkt:
+Folgen Sie der offiziellen Anleitung: [Einrichten von Claude für AEM MCP](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Verwenden Sie beim Hinzufügen des benutzerdefinierten Connectors den Experience Manager Guides-Endpunkt:
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides

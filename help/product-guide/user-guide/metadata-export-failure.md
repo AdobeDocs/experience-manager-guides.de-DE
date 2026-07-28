@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Warum schlägt der Metadatenexport für einen Ordner mit der Ausnahme „Zeichenfolge ist zu lang“ fehl?
 
-Wenn Sie [Metadaten exportieren](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/metadata#export-metadata) für einen Ordner über die Assets-Benutzeroberfläche, kann der Exportvorgang mit `String is too long` Ausnahme fehlschlagen. Dies geschieht normalerweise, wenn der Ordner Experience Manager Guides-spezifische Eigenschaften enthält, die nicht Zeichenfolgenwerte speichern, z. B. `baselineObj`.
+Wenn Sie [Metadaten exportieren](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/using/metadata#export-metadata) für einen Ordner über die Assets-Benutzeroberfläche, kann der Exportvorgang mit `String is too long` Ausnahme fehlschlagen. Dies geschieht normalerweise, wenn der Ordner Experience Manager Guides-spezifische Eigenschaften enthält, die nicht Zeichenfolgenwerte speichern, z. B. `baselineObj`.
 
 **Warum passiert das?**
 

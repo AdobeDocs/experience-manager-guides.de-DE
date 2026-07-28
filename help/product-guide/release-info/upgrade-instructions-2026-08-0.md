@@ -28,7 +28,7 @@ Verwenden Sie die folgenden Ressourcen, wenn Sie benutzerdefinierte Java-Plug-in
 |---|---|---|----|
 | 2026.08.0 | 2026.8.0 | [AEM Guides SDK API 2026.8.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.8.0) | [Javadoc 2026.8.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-Weitere Informationen finden Sie unter [Konfigurieren und Verwenden der API-JAR-Datei aus dem Maven Central Repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+Weitere Informationen finden Sie unter [Konfigurieren und Verwenden der API-JAR-Datei aus dem Maven Central Repository](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/api-reference/introduction).
 
 ### FrameMaker und FrameMaker Publishing Server
 

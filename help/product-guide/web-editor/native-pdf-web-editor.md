@@ -113,7 +113,7 @@ Wählen Sie aus den Ausgabevorgaben **PDF** > **Native-PDF** > **Metadaten** aus
 
 * **XMP-Datei bereitstellen**
 
-  Sie können die Metadatenfelder auch direkt ausfüllen, indem Sie die Datei [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform) importieren. Hier können Sie eine Beispieldatei für XMP herunterladen.
+  Sie können die Metadatenfelder auch direkt ausfüllen, indem Sie die Datei [XMP](https://www.adobe.com/de/products/xmp.html) (Extensible Metadata Platform) importieren. Hier können Sie eine Beispieldatei für XMP herunterladen.
 
   [Herunterladen](assets/SampleXMP.xmp)
 
@@ -217,7 +217,7 @@ Verwenden Sie die folgenden Optionen, um erweiterte Einstellungen zum Zusammenf�
 | **Erstellen eines interaktiven PDF-Formulars** | Wählen Sie diese Option aus, wenn Sie interaktive und anpassbare PDF-Formularfelder für eine erweiterte Benutzereingabe in generierte PDF-Ausgaben aufnehmen möchten. |
 | **Änderungen nachverfolgen** | Wählen Sie diese Option aus, wenn Sie verfolgte Änderungen in die generierte PDF aufnehmen möchten, um sie leicht überprüfen und vergleichen zu können. |
 | **Temporäre Dateien beibehalten** | Wählen Sie diese Option aus, wenn Sie die beim Generieren der nativen PDF-Ausgabe erstellten HTML-Zwischendateien beibehalten möchten. Sie können die temporären Dateien später herunterladen, nachdem Sie die Ausgabe generiert haben. Die heruntergeladenen Dateien enthalten auch `system_config.xml` Datei mit Informationen zur Autoren-URL, lokalen URL und Veröffentlichungs-URL. Diese URLs werden in den AEM-Externalisierungseinstellungen konfiguriert und in der `system_config.xml`-Datei angezeigt. |
-| **PDF-Konformität** | Dies ist der Standard, nach dem Sie Ihre PDF speichern möchten, um sicherzustellen, dass sie konform ist. Wählen Sie aus dem Dropdown-Menü aus, um aus der Liste der verfügbaren PDF-Standards auszuwählen. Weitere Informationen zu den unterstützten Standards finden Sie unter [Über PDF-](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **PDF-Konformität** | Dies ist der Standard, nach dem Sie Ihre PDF speichern möchten, um sicherzustellen, dass sie konform ist. Wählen Sie aus dem Dropdown-Menü aus, um aus der Liste der verfügbaren PDF-Standards auszuwählen. Weitere Informationen zu den unterstützten Standards finden Sie unter [Über PDF-](https://helpx.adobe.com/de/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Dateieigenschaften** | Wählen Sie die Metadaten aus, die Sie an die native PDF-Veröffentlichung übergeben möchten. Die Dropdown-Liste listet sowohl die benutzerdefinierten als auch die Standardeigenschaften auf. Beispielsweise sind `dc:description`, `dc:language`, `dc:title` und `docstate` die Standardeigenschaften, während Sie `author` als benutzerdefinierte Eigenschaft verwenden können. Die ausgewählten Metadateneigenschaften werden an die PDF-Datei übergeben, die mit dem nativen PDF generiert wurde. <br> Diese Eigenschaften werden aus der `metadataList` Datei ausgewählt, die unter verfügbar ist:`/libs/fmdita/config/metadataList`. <br>Diese Datei kann überlagert werden unter: `/apps/fmdita/config/metadataList`. |
 
 
