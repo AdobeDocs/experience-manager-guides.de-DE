@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 2108fea9ba6d35a9439f672b66e5d25aeb19f0ca
+source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
-source-wordcount: '2548'
+source-wordcount: '2568'
 ht-degree: 11%
 
 ---
@@ -216,8 +216,8 @@ ht-degree: 11%
   - Einführung {#about-aemg}
     - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
-      - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Startseite {#home-page}
     - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
     - [Repository-Schnittstelle](./user-guide/home-page-repository-view.md)
@@ -423,8 +423,9 @@ ht-degree: 11%
       - [Verarbeiten von Assets](./user-guide/asset-processor.md)
     - Fehlerbehebung {#troubleshooting}
       - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
+      - [Zeichenfolge ist eine zu lange Ausnahme beim Metadatenexport](./user-guide/metadata-export-failure.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-conf-guide}
   - [Herunterladen, Installieren und Aktualisieren](./install-conf-guide/introduction.md)
   - Installationsprozess für Cloud Service {#deploy-conf-aemg-cs}
@@ -500,6 +501,7 @@ ht-degree: 11%
       - [Konfigurieren der Anzeige eingefügter Tabellen für Cloud Service](./install-conf-guide/conf-pasted-tables.md)
       - [Konfigurieren der PDF-Generierung für ein einzelnes Thema für Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
       - [Konfigurieren der Übersetzungsfunktion im Editor für Cloud Service](./install-conf-guide/conf-translation-editor.md)
+      - [Erstellen und Verwalten von Vorgaben für Konsistenzprüfungen](./install-conf-guide/conf-health-check-preset.md)
     - Editor-Einstellung für On-Premise {#editor-on-prem-settings}
       - [Neuen Editor konfigurieren](./install-conf-guide/conf-new-editor-on-prem.md)
       - [Konfigurieren zusätzlicher Sonderzeichen für On-Premise](/help/product-guide/web-editor/conf-additional-special-characters.md)
@@ -568,6 +570,7 @@ ht-degree: 11%
     - [Bereitstellen eines benutzerdefinierten Index für die Funktion zum Suchen und Ersetzen für Cloud Service](./install-conf-guide/custom-indexing-cs.md)
     - [Neuindizieren für die Funktion „Suchen und Ersetzen“ für On-Premise](./install-conf-guide/custom-indexing-on-prem.md)
     - [Konfigurieren der Funktion zum Suchen und Ersetzen für On-Premise](./install-conf-guide/conf-find-replace-on-prem.md)
+    - [Indizieren von Themen in einer Prüfungsaufgabe](./install-conf-guide/index-review-tasks.md)
     - [Komponentenzuordnung für AEM Sites](./install-conf-guide/component-mapping.md)
     - [Konfigurieren von Vorlagenvoreinstellungen für die Ausgabegenerierung](./install-conf-guide/template-presets-output-generation.md)
   - Anhang {#appendix}
