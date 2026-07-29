@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
+source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3089
 ht-degree: 0%
 
 ---
@@ -158,6 +158,10 @@ Das Bedienfeld Kommentare zeigt eine Liste von Kommentaren zum aktuellen Thema a
 Die Kommentare werden in der Reihenfolge des kommentierten Texts im Dokument angezeigt. Es gibt beispielsweise einen Hervorhebungskommentar für den ersten Satz und einen Textkommentar für den zweiten Satz im ersten Absatz. Dann wird der Textkommentar vor dem eingefügten Textkommentar angezeigt.
 
 Nachfolgend werden die Aufgaben beschrieben, die Sie mit dem Bedienfeld „Kommentare“ ausführen können:
+
+- Über das Informationssymbol ![](./images/info-icon.svg) können Sie die Details der Prüfungsaufgabe anzeigen, einschließlich des Namens der Prüfungsaufgabe, der Prüfungsversion, des Status und der Aufgabenbeschreibung.
+
+  ![](./images/review-details-review-ui.png)
 
 - Wenn Sie einen Kommentar auswählen, wird der entsprechende Kommentar hervorgehoben und seine Position im Dokument angezeigt.
 - Sie können Antworten auf Kommentare hinzufügen.
