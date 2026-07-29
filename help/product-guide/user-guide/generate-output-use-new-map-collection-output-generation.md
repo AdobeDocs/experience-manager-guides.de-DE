@@ -16,18 +16,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+source-git-commit: 56c9710820f790ed64e58521dd0d0f9ac343825f
 workflow-type: tm+mt
-source-wordcount: 1447
+source-wordcount: 1548
 ht-degree: 0%
 
 ---
 
-# Neue Zuordnungssammlung für die Ausgabegenerierung verwenden (Beta)
+# Neue Zuordnungssammlung für die Ausgabegenerierung verwenden
 
 >[!IMPORTANT]
 >
-> In Experience Manager Guides as a Cloud Service ist ab Version 2026.06.0 eine neue Zuordnungssammlung verfügbar. Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion zu aktivieren.
+> In Experience Manager Guides as a Cloud Service ist ab Version 2026.08.0 eine neue Zuordnungssammlung verfügbar. Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion zu aktivieren.
 
 Mit der Zuordnungssammlung in Adobe Experience Manager Guides können Veröffentlichungsspezialisten mehrere Dokumente in einer Sammlung organisieren, die für jedes Dokument generierte Ausgabe steuern und über ein zentralisiertes Dashboard effizient Ausgaben in Stapeln generieren und veröffentlichen. Darüber hinaus bietet es Einblicke in den Fortschritt der Ausgabenerstellung, hebt Änderungen hervor, die seit der letzten Veröffentlichung der Zuordnungen vorgenommen wurden, und ermöglicht bei Bedarf das erneute Veröffentlichen von Inhalten.
 
@@ -37,14 +37,14 @@ Die neue Zuordnungssammlung konsolidiert die Funktionalität, die zuvor über di
 
 Um eine Zuordnungssammlung zu erstellen und ihr Zuordnungen hinzuzufügen, führen Sie die folgenden Schritte aus:
 
-1. Öffnen Sie die Experience Manager Guides-Startseite und wählen Sie **Neue Zuordnungssammlungen** aus.
+1. Öffnen Sie die Experience Manager Guides-Startseite und wählen Sie **Sammlungen zuordnen**.
 
    Die **Sammlungen zuordnen** wird geöffnet.
 
    ![](images/new-maps-collection.png){width="650"}
 
 
-1. Wählen Sie auf der **Zuordnungssammlungen** oben rechts **Erstellen** aus und geben Sie einen **Namen** für Ihre neue Zuordnungssammlung ein.
+1. Wählen Sie auf **Seite** Zuordnungssammlungen **oben rechts** Erstellen“ aus und geben Sie einen **Namen** für Ihre Zuordnungssammlung ein.
 
    ![](images/create-new-map-collection.png){width="350"}
 
@@ -90,6 +90,10 @@ Um eine Zuordnungssammlung zu erstellen und ihr Zuordnungen hinzuzufügen, führ
 
 Sie erhalten eine Liste aller gewünschten Zuordnungen mit dem Zuordnungstitel, dem entsprechenden Dateinamen, der Sprache, in der sie verfügbar sind, und den konfigurierten Voreinstellungen.
 
+>[!NOTE]
+>
+> Wenn einer Zuordnungssammlung eine große Anzahl von Zuordnungen hinzugefügt wird, werden auf den Registerkarten Zuordnungen und Vorgaben maximal vier Zuordnungen gleichzeitig zusammen mit den zugehörigen Vorgaben angezeigt. Am unteren Bildschirmrand wird eine paginierte Ansicht angezeigt, mit der Benutzende zwischen Seiten navigieren und auf zusätzliche Karten und Voreinstellungen zugreifen können. Wenn Sie eine Zuordnung oder Vorgabe auswählen, wird die Auswahl beim Navigieren durch die verbleibenden Zuordnungen und Vorgaben auf verschiedenen Seiten beibehalten.
+
 ![Registerkarten „Zuordnungen“ und „Voreinstellungen“](./images/maps-presets-tab.png)
 
 Die **Karten und Vorgaben** enthält Informationen auf der Grundlage der ausgewählten Karten für eine bestimmte Sprache in den folgenden Spalten:
@@ -107,7 +111,7 @@ Die folgenden Filteroptionen sind im rechten Bedienfeld auf der Seite „Zuordnu
 
 - **Geändert seit Generierung**: Sie können „Ja“, „Nein“ oder „Noch nicht generiert“ auswählen. Wenn Sie Ja auswählen, werden nur die Zuordnungen, die seit der Erstellung geändert wurden, auf der Registerkarte Zuordnungen und Vorgaben angezeigt.
 - **Geändert seit der Veröffentlichung**: Sie können „Ja“, „Nein“ oder „Noch nicht generiert“ auswählen. Wenn Sie Ja auswählen, werden nur die Karten, die seit der Veröffentlichung geändert wurden, auf der Registerkarte Karten und Vorgaben angezeigt.
-- **Vorgaben**: Wählen Sie eine Vorgabe aus, für die Sie die Zuordnungsdateien herausfiltern möchten. Wenn Sie beispielsweise die Vorgabe *AEM-Site* auswählen, werden nur die Zuordnungen angezeigt, für die die Ausgabevorgabe *AEM-Site* konfiguriert ist.
+- **Vorgabetypen**: Wählen Sie eine Vorgabe aus, für die Sie die Zuordnungsdateien herausfiltern möchten. Wenn Sie beispielsweise die Vorgabe *AEM-Site* auswählen, werden nur die Zuordnungen angezeigt, für die die Ausgabevorgabe *AEM-Site* konfiguriert ist.
 - **Sprache**: Sie können einen beliebigen der verfügbaren Sprach-Codes auswählen und nur die ausgewählte Sprache auf der Registerkarte Zuordnungen und Vorgaben anzeigen.
 
   ![Filter auf den Registerkarten „Zuordnungen“ und „Vorgaben“](./images/filters-maps-presets.png)
@@ -136,6 +140,9 @@ Um die Ausgabe mithilfe einer Zuordnungssammlung zu generieren, führen Sie die 
    - **Beendet (Grün)**: Generierung erfolgreich abgeschlossen.
    - **Beendet (Rot)**: Generierung mit Fehlern abgeschlossen. Fehlerdetails können in den Protokollen eingesehen werden.
    - **Wird ausgeführt (blau)**: Die Generierung ist derzeit in Bearbeitung.
+   - **Fehlgeschlagen (Rot)**: Die Generierung ist fehlgeschlagen.
+   - **Warten (blau)**: Die Generierung befindet sich in der Warteschlange.
+
 
    ![Statustypen](./images/status-types.png)
 
@@ -150,6 +157,10 @@ Um die Ausgabe mithilfe einer Zuordnungssammlung zu generieren, führen Sie die 
 
 
 ## Veröffentlichen der Ausgabe mithilfe einer Zuordnungssammlung
+
+>[!NOTE]
+>
+> Bei der Veröffentlichung im Generierungsverlauf wird immer die neueste Ausgabe einer Vorgabe anstelle der ausgewählten Generation veröffentlicht.
 
 Um die Ausgabe mithilfe einer Zuordnungssammlung zu veröffentlichen (falls konfiguriert), führen Sie die folgenden Schritte aus:
 

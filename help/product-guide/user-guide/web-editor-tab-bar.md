@@ -16,9 +16,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 671
 ht-degree: 0%
 
 ---
@@ -69,14 +69,22 @@ Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelli
 >
 > Die Funktion KI-Assistent ist derzeit für Adobe Experience Manager Guides as a Cloud Service verfügbar.
 
+**Handbücher KI**
+
+Bringt intelligente, agentische Smart-Tagging-Kenntnisse von Adobe CX Enterprise Coworker in den Editor und ermöglicht natürliches, konversatives Tagging von Inhalten. Es analysiert Ihre Inhalte, empfiehlt relevante Tags und hilft Ihnen bei der Anwendung konsistenter und genauer Metadaten mit minimalem Aufwand. Sie können die vorgeschlagenen Tags überprüfen und sie anwenden oder ablehnen, bevor Sie Ihre Auswahl bestätigen, um die Inhaltsorganisation und Auffindbarkeit zu verbessern.
+
+>[!NOTE]
+>
+> Wenden Sie sich zur Verwendung der Guides-KI-Funktion in Ihrer Umgebung an das Customer Success-Team . Nachdem die Funktion aktiviert wurde, können Administratoren sie in den Workspace-Einstellungen aktivieren oder deaktivieren. Es kann jeweils nur ein KI-Erlebnis aktiviert werden, entweder KI-Handbücher oder KI-Assistent.
+
 **Ansicht erweitern**: Ermöglicht das Erweitern der Seitenansicht mithilfe des Symbols **Erweitern**. In dieser Ansicht ist die Kopfzeilenleiste mit dem Adobe Experience Manager-Logo ausgeblendet. Dadurch wird der Inhaltsbereich für die Bearbeitung maximiert. Um zur Standardansicht zurückzukehren, verwenden Sie das Symbol **Erweiterte Ansicht beenden**.
 
 **Weitere Aktionen**: Bietet Zugriff auf zusätzliche Optionen. Durch Klicken auf diese Schaltfläche wird ein Menü mit den folgenden Optionen geöffnet:
 
 - **Assets**: Leitet Sie je nach Einrichtung zu einem Ziel.
-   - **Cloud Services**: Wenn Sie Cloud Services verwenden, gelangen Sie durch Auswahl der Option **Assets** zur Seite &quot;AEM-Navigation“.
+  - **Cloud Services**: Wenn Sie Cloud Services verwenden, gelangen Sie durch Auswahl der Option **Assets** zur Seite &quot;AEM-Navigation“.
 
-   - **On-Premise-Software**: Wenn Sie Adobe Experience Manager Guides (4.2.1 und höher) verwenden, gelangen Sie durch Auswahl der Option **Assets** zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche.
+  - **On-Premise-Software**: Wenn Sie Adobe Experience Manager Guides (4.2.1 und höher) verwenden, gelangen Sie durch Auswahl der Option **Assets** zu Ihrem aktuellen Dateipfad in der Assets-Benutzeroberfläche.
 - **Workspace-Einstellungen**: Leitet Sie zum Dialogfeld &quot;Workspace-Einstellungen“. Weitere Informationen finden Sie unter [Konfigurieren von Workspace-](../install-conf-guide/workspace-settings.md).
 
 >[!NOTE]

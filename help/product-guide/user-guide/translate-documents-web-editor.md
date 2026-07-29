@@ -21,9 +21,9 @@ subfeature_v2:
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
 workflow-type: tm+mt
-source-wordcount: 2473
+source-wordcount: 2562
 ht-degree: 1%
 
 ---
@@ -134,7 +134,7 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 
    - Sie können für **Übersetzungsprojekt „Nur** erstellen“ auswählen.
    - Sie können auch **Neues XLIFF-Übersetzungsprojekt erstellen** um den XML-Inhalt in das XML Localization Interchange File Format (XLIFF) zu konvertieren. XLIFF ist ein offenes XML-basiertes Format, das verwendet wird, um die Datenübertragung zwischen verschiedenen Tools zu standardisieren, die im Prozess der Inhaltsübersetzung verwendet werden. Experience Manager Guides unterstützt XLIFF Version 1.2.
-In einem XLIFF-Projekt werden die Inhalte in das dem Branchenstandard entsprechende XLIFF-Format exportiert, das Übersetzungsanbietern zur Verfügung gestellt werden kann. Das XLIFF-Format ermöglicht die potenzielle Wiederverwendung von Segmenten, die Sie bereits während der Übersetzungsphase übersetzt haben.\
+     In einem XLIFF-Projekt werden die Inhalte in das dem Branchenstandard entsprechende XLIFF-Format exportiert, das Übersetzungsanbietern zur Verfügung gestellt werden kann. Das XLIFF-Format ermöglicht die potenzielle Wiederverwendung von Segmenten, die Sie bereits während der Übersetzungsphase übersetzt haben.\
      Nachdem die XLIFF-Inhalte übersetzt wurden, können sie in Experience Manager Guides importiert werden, wodurch eine übersetzte Version des Original-DITA-Projekts erstellt wird.
 
    >[!NOTE]
@@ -145,15 +145,24 @@ In einem XLIFF-Projekt werden die Inhalte in das dem Branchenstandard entspreche
    - Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Wählen Sie **Option „Zu vorhandenem Übersetzungsprojekt hinzufügen** aus der Projektliste aus und wählen Sie ein Projekt aus der Liste Vorhandenes Übersetzungsprojekt aus. Sie können diese Projekte nach aktueller, aufsteigender oder absteigender Reihenfolge sortieren.
 
    - Wenn Sie **Zu vorhandenem Übersetzungsprojekt hinzufügen** auswählen, aktualisiert dieser Vorgang den vorhandenen Asset-Eintrag im Projekt, wenn das Asset bereits hinzugefügt wurde und der Status des zugehörigen Übersetzungsauftrags sich im Status *Entwurf* befindet.
-      - Wenn die Zielsprache nicht im Projekt vorhanden ist, wird ein neues Projekt für das einsprachige Übersetzungsprojekt erstellt und ein neuer Auftrag für das mehrsprachige Übersetzungsprojekt erstellt.
+     - Wenn die Zielsprache nicht im Projekt vorhanden ist, wird ein neues Projekt für das einsprachige Übersetzungsprojekt erstellt und ein neuer Auftrag für das mehrsprachige Übersetzungsprojekt erstellt.
 
-      - Wenn der Auftrag bereits für die Zielsprache vorhanden ist und der Auftragsstatus nicht den Status *Entwurf* aufweist, wird innerhalb desselben Projekts ein neuer Auftrag erstellt, um die Assets für die Übersetzung hinzuzufügen.
+     - Wenn der Auftrag bereits für die Zielsprache vorhanden ist und der Auftragsstatus nicht den Status *Entwurf* aufweist, wird innerhalb desselben Projekts ein neuer Auftrag erstellt, um die Assets für die Übersetzung hinzuzufügen.
 
    >[!NOTE]
    >
    > Wenn es sich bei Ihrem vorhandenen Projekt um ein Umfangsprojekt handelt, wird &quot;\(Scoping\)“ an den Namen angehängt.
 
    - Wenn Sie den Umfang für ein zu übersetzendes Projekt erstellen müssen, können Sie **Neues Scoping-Übersetzungsprojekt erstellen** auswählen. Dadurch werden die Kopien nicht zur Übersetzung gesendet und der ursprüngliche Übersetzungsstatus der Dateien wird beibehalten. Die Zielsprachkopie der referenzierten Themen, die zum Berechnen des Umfangs gesendet werden, hat keine Auswirkungen.
+1. Wählen **im Feld** den Ort aus, an dem das neue Übersetzungsprojekt erstellt werden soll:
+
+   - Wenn Sie ein neues Übersetzungsprojekt erstellen, wählen Sie den Ordner aus, in dem Sie das Projekt erstellen möchten.
+
+     ![Geben Sie den Projektpfad ein](images/project-path.png){width="650"}
+
+   - Wenn Sie zu einem vorhandenen Übersetzungsprojekt hinzufügen, wählen Sie den Pfad aus, in dem das Projekt bereits vorhanden ist. Wählen Sie dann aus der Liste **Vorhandenes Übersetzungsprojekt** das Projekt aus, dem Sie die aktuelle Übersetzungsaufgabe hinzufügen möchten. Sie können auch **Filter** verwenden, um die Liste einzugrenzen.
+
+     ![Geben Sie den vorhandenen Projektpfad ein](images/existing-project-path.png){width="650"}
 
 1. Geben Sie im Feld **Projekttitel** einen Namen für das Projekt ein.
 1. Wählen **Senden** aus, um ein neues Übersetzungsprojekt zu erstellen.

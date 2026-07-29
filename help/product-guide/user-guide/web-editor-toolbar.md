@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 550ca219c5664b33e5a4a3db74ff3cade05e0c68
 workflow-type: tm+mt
-source-wordcount: 6346
+source-wordcount: 6454
 ht-degree: 0%
 
 ---
@@ -297,13 +297,13 @@ Der folgende Screenshot zeigt den gelöschten und eingefügten Inhalt zusammen m
 
   Die folgenden Vorgänge können in einem Dokument mit Tags ausgeführt werden:
 
-   - **Element auswählen**: Wählen Sie das öffnende oder schließende Tag eines Elements aus, um seinen Inhalt auszuwählen.
+  - **Element auswählen**: Wählen Sie das öffnende oder schließende Tag eines Elements aus, um seinen Inhalt auszuwählen.
 
-   - **Tags erweitern oder reduzieren**: Wählen Sie das + oder - Anmelden eines Tags aus, um es zu erweitern oder zu reduzieren.
+  - **Tags erweitern oder reduzieren**: Wählen Sie das + oder - Anmelden eines Tags aus, um es zu erweitern oder zu reduzieren.
 
-   - **Kontextmenü verwenden**: Das Kontextmenü bietet Optionen zum Ausschneiden, Kopieren oder Einfügen des ausgewählten Elements. Sie können ein Element auch vor oder nach dem ausgewählten Element einfügen. Die anderen Optionen ermöglichen es Ihnen, für das ausgewählte Element eine ID zu generieren oder den Bereich „Eigenschaften“ zu öffnen.
+  - **Kontextmenü verwenden**: Das Kontextmenü bietet Optionen zum Ausschneiden, Kopieren oder Einfügen des ausgewählten Elements. Sie können ein Element auch vor oder nach dem ausgewählten Element einfügen. Die anderen Optionen ermöglichen es Ihnen, für das ausgewählte Element eine ID zu generieren oder den Bereich „Eigenschaften“ zu öffnen.
 
-   - **Elemente per Drag-and-Drop verschieben**: Wählen Sie das Tag eines Elements aus und ziehen Sie es einfach per Drag-and-Drop in Ihr Dokument. Wenn der Ablageort ein gültiger Ort ist, an dem das Element zulässig ist, wird das Element an dem abgelegten Ort platziert.
+  - **Elemente per Drag-and-Drop verschieben**: Wählen Sie das Tag eines Elements aus und ziehen Sie es einfach per Drag-and-Drop in Ihr Dokument. Wenn der Ablageort ein gültiger Ort ist, an dem das Element zulässig ist, wird das Element an dem abgelegten Ort platziert.
 
 
   >[!NOTE]
@@ -463,6 +463,18 @@ Das Feld **Source** Pfad“ zeigt den relativen Pfad der ausgewählten Referenz 
 Das Feld **Source UUID** zeigt die UUID der ausgewählten Referenz an. Verwenden Sie die Schaltfläche **UUID kopieren**, um die UUID zu kopieren.
 
 Sie können die Größe eines Bildes ändern, indem Sie entweder den Wert für Höhe oder Breite für die Bilddatei angeben. Das Seitenverhältnis des Bildes wird automatisch beibehalten. Sie können auch das Seitenverhältnis der Bilddatei nicht beibehalten, indem Sie das Schlosssymbol \(von Seitenverhältnis beibehalten\) auswählen und die Werte für Höhe und Breite angeben.
+
+Im neuen Editor können Sie die Größe eines Bildes auch ändern, indem Sie seine Handles im Autorenmodus ziehen:
+
+- **Eckgriffe**: Durch Ziehen der Eckgriffe wird die Größe des Bildes unter Beibehaltung des Seitenverhältnisses geändert.
+
+  ![](images/resize-corner-handles.png)
+
+- **Mittlere Griffe**: Drücken Sie **Umschalt**, um zusätzliche mittlere Griffe anzuzeigen. Durch Ziehen dieser Elemente wird die Bildgröße ohne Beibehaltung des Seitenverhältnisses geändert, sodass Sie die Höhe oder Breite unabhängig erhöhen oder verringern können.
+
+  ![](images/resize-middle-handles.png)
+
+Beim Ziehen werden die Werte für Höhe und Breite im Bedienfeld **Inhaltseigenschaften** automatisch aktualisiert, um die neuen Abmessungen widerzuspiegeln. Diese Größenanpassung wird auch im **nebeneinander** und im **Vorschau**-Modus angezeigt, sodass Sie vor der Veröffentlichung überprüfen können, wie das skalierte Bild angezeigt wird.
 
 Sie können die Platzierungseinstellung für das Bild auch als Inline- oder Break-Einstellung festlegen. Wenn Sie die Option Platzierung aufheben verwenden, können Sie anschließend auswählen, wo das Bild ausgerichtet werden soll (links, zentriert oder rechts).
 

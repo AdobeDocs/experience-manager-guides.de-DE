@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
-source-wordcount: 2753
+source-wordcount: 3064
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
 1. Öffnen Sie das Bedienfeld „Kommentare **durch Auswahl** Symbols „Kommentare“ in der oberen rechten Ecke der Symbolleiste.
 
    Geben Sie Kommentare zur Überprüfung ein, indem Sie den entsprechenden Kommentartyp in der Symbolleiste auswählen und die Eingabetaste drücken, um Ihren Kommentar zu übermitteln.
-Das Kommentarfeld unterstützt mehrzeilige Einträge und ermöglicht es Benutzern, es nach Bedarf zu erweitern, um detailliertes Feedback zu geben. Sie können **Umschalt** + **Eingabetaste** verwenden, um beim Schreiben des Kommentars in die nächste Zeile zu wechseln.
+   Das Kommentarfeld unterstützt mehrzeilige Einträge und ermöglicht es Benutzern, es nach Bedarf zu erweitern, um detailliertes Feedback zu geben. Sie können **Umschalt** + **Eingabetaste** verwenden, um beim Schreiben des Kommentars in die nächste Zeile zu wechseln.
 
    >[!NOTE]
    >
@@ -107,7 +107,9 @@ Das Kommentarfeld unterstützt mehrzeilige Einträge und ermöglicht es Benutzer
 
 ## Zusätzliche Funktionen auf dem Überprüfungsbildschirm
 
-**Dokumentansicht und Themenansicht** - Wenn mehrere Themen zur Überprüfung freigegeben werden, wird den Reviewern standardmäßig eine zusammengesetzte Dokumentansicht mit Themen angezeigt. Im Falle einer DITA-Kartenüberprüfung werden alle Themen in der Karte in Form eines einzigen Dokuments präsentiert, das einer Buchansicht ähnelt. Bei Bedarf können Sie auch ein bestimmtes Thema auswählen. Nur dieses Thema wird dann auf dem Überprüfungsbildschirm angezeigt.
+### Dokumentansicht und Themenansicht
+
+Wenn mehrere Themen zur Überprüfung freigegeben werden, wird den Reviewern standardmäßig eine zusammengesetzte Dokumentansicht mit Themen angezeigt. Im Falle einer DITA-Kartenüberprüfung werden alle Themen in der Karte in Form eines einzigen Dokuments präsentiert, das einer Buchansicht ähnelt. Bei Bedarf können Sie auch ein bestimmtes Thema auswählen. Nur dieses Thema wird dann auf dem Überprüfungsbildschirm angezeigt.
 
 Wenn Sie ein einzelnes Thema anzeigen, erhalten Sie eine zusätzliche Option, um zur Dokumentansicht zurückzukehren. Im folgenden Screenshot wird ein bestimmtes Thema aus einer Zuordnungsdatei zur Überprüfung geöffnet. Mit der hervorgehobenen Option **Dokumentansicht anzeigen** können Benutzer zur Dokumentansicht der Zuordnungsdatei zurückkehren.
 
@@ -115,11 +117,11 @@ Wenn Sie ein einzelnes Thema anzeigen, erhalten Sie eine zusätzliche Option, um
 >
 > Jede Bildschirmauflösung mit einer Breite von mehr als 1600 Pixel ist mit den Standardfeldbreiten (links und rechts) kompatibel, sodass keine horizontale Bildlaufleiste angezeigt wird und der Inhalt in der Dokumentansicht korrekt ausgerichtet bleibt. Außerdem können Sie die Größe des Bildschirms jederzeit ändern, um die entsprechende Dokumentansicht in der Überprüfungs-Benutzeroberfläche beizubehalten.
 
-
-
 ![](images/switch-document-view.png)
 
-**Arbeiten mit verschiedenen Arten von Kommentar-Tools** - Sie können Inline-Kommentare hinzufügen, indem Sie Text markieren, durch Text streichen, Text einfügen oder eine Kommentar-Anmerkung hinzufügen. Nachfolgend werden die verschiedenen Arten von Kommentar-Tools beschrieben, die in der Symbolleiste „Kommentare“ verfügbar sind:
+### Arbeiten mit verschiedenen Arten von Kommentar-Tools
+
+Sie können Inline-Kommentare hinzufügen, indem Sie Text markieren, durch Text streichen, Text einfügen oder eine Kommentar-Anmerkung hinzufügen. Nachfolgend werden die verschiedenen Arten von Kommentar-Tools beschrieben, die in der Symbolleiste „Kommentare“ verfügbar sind:
 
 ![](images/comments-toolbar.png){width="350"}
 
@@ -138,7 +140,7 @@ Wenn Sie ein einzelnes Thema anzeigen, erhalten Sie eine zusätzliche Option, um
 - **Kommentar hinzufügen**\(![](images/review-comment-icon.svg)\): Wenn Sie einen Kommentar vom Typ Haftnotiz hinzufügen möchten, klicken Sie auf das Symbol Kommentar hinzufügen und geben Sie den Kommentar in das Popup-Fenster ein.
 
 
-**Kontextuelle Symbolleiste**
+### Kontextuelle Symbolleiste
 
 Mit der kontextuellen Symbolleiste können Sie Text auch schnell markieren oder durchstreichen. Führen Sie die folgenden Schritte aus, um mithilfe der kontextuellen Symbolleiste einen Kommentar abzugeben:
 
@@ -149,7 +151,9 @@ Mit der kontextuellen Symbolleiste können Sie Text auch schnell markieren oder 
 1. Wählen Sie das Symbol **Hervorheben** oder **Durchstreichen** aus.
 1. Sie können im Kommentarbereich Kommentare für die Hervorhebungs- oder Durchgestrichen-Aktion hinzufügen.
 
-**Überprüfen mithilfe des Bedienfelds &quot;**&quot; - Das Bedienfeld „Kommentare“ zeigt eine Liste der Kommentare an, die zum aktuellen Thema abgegeben wurden. In diesem Bedienfeld werden auch Kommentare anderer Validierungsverantwortlicher aufgelistet, wenn das Thema an mehrere Validierungsverantwortliche gesendet wird. Jeder Kommentar im Kommentarbereich ist mit dem entsprechenden Text im aktuellen Thema verknüpft. Damit können Sie den kommentierten Text leichter identifizieren. Bei jedem Kommentar wird der Name des Reviewers angezeigt, der den Kommentar hinzugefügt hat, zusammen mit dem Zeitstempel.
+### Überprüfen mithilfe des Bedienfelds „Kommentare“
+
+Das Bedienfeld Kommentare zeigt eine Liste von Kommentaren zum aktuellen Thema an. In diesem Bedienfeld werden auch Kommentare anderer Validierungsverantwortlicher aufgelistet, wenn das Thema an mehrere Validierungsverantwortliche gesendet wird. Jeder Kommentar im Kommentarbereich ist mit dem entsprechenden Text im aktuellen Thema verknüpft. Damit können Sie den kommentierten Text leichter identifizieren. Bei jedem Kommentar wird der Name des Reviewers angezeigt, der den Kommentar hinzugefügt hat, zusammen mit dem Zeitstempel.
 
 Die Kommentare werden in der Reihenfolge des kommentierten Texts im Dokument angezeigt. Es gibt beispielsweise einen Hervorhebungskommentar für den ersten Satz und einen Textkommentar für den zweiten Satz im ersten Absatz. Dann wird der Textkommentar vor dem eingefügten Textkommentar angezeigt.
 
@@ -168,9 +172,9 @@ Nachfolgend werden die Aufgaben beschrieben, die Sie mit dem Bedienfeld „Komme
 
 - Alle teilnehmenden Benutzer können auf Kommentare anderer Benutzer antworten. Wählen Sie bei einem Kommentar **Antworten** und drücken Sie die Eingabetaste , um eine Antwort zu senden. Das Antwortfeld ist mehrzeilig und erweiterbar, sodass Benutzende detaillierte Antworten auf Kommentare bereitstellen können. Sie können **Umschalt** + **Eingabetaste** verwenden, um beim Schreiben der Antwort in die nächste Zeile zu wechseln.
 
-**Vorschaumodus**
+### Vorschaumodus
 
-- Beim Öffnen eines Themas im Vorschaumodus wird angezeigt, wie ein Thema angezeigt wird, wenn es von einem Autor angezeigt wird, nachdem alle Änderungen angewendet wurden. Beispielsweise wird der gesamte eingefügte Text als normaler Text angezeigt und der gesamte gestrichelte \(gelöschte\) Text wird aus dem Inhalt entfernt.
+Beim Öffnen eines Themas im Vorschaumodus wird angezeigt, wie ein Thema angezeigt wird, wenn es von einem Autor angezeigt wird, nachdem alle Änderungen angewendet wurden. Beispielsweise wird der gesamte eingefügte Text als normaler Text angezeigt und der gesamte gestrichelte \(gelöschte\) Text wird aus dem Inhalt entfernt.
 
 - Der folgende Screenshot zeigt den Inhalt im *-*:
 
@@ -181,7 +185,7 @@ Der folgende Screenshot zeigt den Inhalt im *-*:
 ![](images/review-preview-mode.png){width="550"}
 
 
-**Benutzer einer Aufgabe in einem Kommentar taggen**
+### Benutzer einer Aufgabe in einem Kommentar taggen
 
 Wenn Sie an einer Prüfungsaufgabe mit mehreren Reviewern arbeiten, können Sie die Kommunikation verbessern, indem Sie bestimmte Benutzende sowohl in neuen Kommentaren als auch in Antworten taggen. Als Reviewer können Sie einen Kommentar einreichen oder auf einen vorhandenen antworten und dabei andere Benutzende taggen, die an derselben Prüfungsaufgabe beteiligt sind, um deren Aufmerksamkeit zu erregen oder Folgemaßnahmen zuzuweisen. Diese Funktion ist nur für aktive Prüfungsaufgaben verfügbar.
 
@@ -191,11 +195,17 @@ Wenn Sie an einer Prüfungsaufgabe mit mehreren Reviewern arbeiten, können Sie 
 
 ![](images/tag-users-review-ui.png){width="350"}
 
+Um einen Benutzer zu taggen, geben Sie `@` in einen Kommentar oder eine Antwort ein und wählen Sie einen Benutzer aus der Liste der Reviewer aus. Der Anzeigename wird zusammen mit einer E-Mail-Adresse des Benutzers angezeigt, um die Identifizierung zu erleichtern. Wenn keine E-Mail-Adresse verfügbar ist, wird stattdessen die Benutzer-ID angezeigt.
+
+![](images/tagged-users-with-email.png)
+
 Getaggte Benutzende erhalten sowohl eine E-Mail- als auch eine AEM-Benachrichtigung, sodass sie umgehend informiert werden. Weitere Informationen zum Trigger von Prüfungsbenachrichtigungen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
 
 ![](images/mentioned-in-tags-author.png){width="350"}
 
-**Anhänge zu Kommentaren hinzufügen** - Wenn Sie Ihren Kommentar durch zusätzliche Informationen ergänzen möchten, die in einer anderen Datei verfügbar sind, können Sie dies tun, indem Sie ihn mit Ihrem Kommentar anhängen. Als Reviewer können Sie einfach eine oder mehrere Dateien aus Ihrem lokalen System zu Ihrem Kommentar hinzufügen. Sie können eine Datei zu allen unterstützten Kommentarformen hinzufügen - Hervorheben, Durchstreichen, Text einfügen oder Kommentar.
+### Hinzufügen von Anhängen zu Kommentaren
+
+Wenn Sie Ihren Kommentar durch zusätzliche Informationen ergänzen möchten, die in einer anderen Datei verfügbar sind, können Sie dies tun, indem Sie ihn mit Ihrem Kommentar anhängen. Als Reviewer können Sie einfach eine oder mehrere Dateien aus Ihrem lokalen System zu Ihrem Kommentar hinzufügen. Sie können eine Datei zu allen unterstützten Kommentarformen hinzufügen - Hervorheben, Durchstreichen, Text einfügen oder Kommentar.
 
 Wenn Sie einen der Kommentare einfügen, wird das Kommentar-Popup angezeigt. Nachdem Sie im Popup-Fenster zusätzliche Kommentare oder Informationen eingegeben haben, können Sie diese mit der Eingabetaste übermitteln. Nachdem der Kommentar hinzugefügt wurde, haben Sie die Möglichkeit, diesem Kommentar einen Anhang hinzuzufügen.
 
@@ -241,25 +251,64 @@ Die anderen Reviewer oder Autoren erhalten nur die Option „Anlage herunterlade
 ![](images/attach-files-comments-panel.png){width="550"}
 
 
-**Bedienfeld Bedingungen** - Wenn Ihr Thema bedingte Inhalte hat, wird auf der rechten Seite das Symbol **Bedingungen** \(![](images/conditions-icon.svg)\) angezeigt. Wenn Sie **Symbol** Bedingungen“ auswählen, wird das Bedienfeld Bedingungen geöffnet, in dem Sie den Inhalt entsprechend den verfügbaren Bedingungen im Thema markieren können.
+### Arbeiten mit dem Bedienfeld Bedingungen
 
-: Standardmäßig ist **Option „Alle Bedingungen hervorheben** aktiviert, alle Bedingungen sind ausgewählt, der gesamte Inhalt wird angezeigt und der bedingte Inhalt wird sowohl im Vorschau- als auch im Vorschaumodus hervorgehoben angezeigt.
+Wenn Ihr Thema bedingte Inhalte hat, sehen Sie auf der rechten Seite das **Bedingungen** \(![](images/conditions-icon.svg)\). Wenn Sie **Symbol** Bedingungen“ auswählen, wird das Bedienfeld Bedingungen geöffnet, in dem Sie den Inhalt entsprechend den verfügbaren Bedingungen im Thema markieren können.
 
-: Sie können die Option **Alle Bedingungen hervorheben** deaktivieren und alle im Thema vorhandenen Inhalte als normalen Text ohne Hervorhebungen anzeigen.
+- Standardmäßig ist **Option „Alle Bedingungen hervorheben** aktiviert, alle Bedingungen sind ausgewählt, der gesamte Inhalt wird angezeigt und der bedingte Inhalt wird sowohl im Vorschau- als auch im Vorschaumodus hervorgehoben angezeigt.
 
-![](images/review-conditions-panel.png){width="350"}
+- Sie können die Option **Alle Bedingungen hervorheben** deaktivieren und alle im Thema vorhandenen Inhalte als normalen Text ohne Hervorhebungen anzeigen.
+
+  ![](images/review-conditions-panel.png){width="350"}
 
 Sie können eine bestimmte Bedingung aus- oder einblenden.
 
 - Wenn Sie eine Bedingung ausblenden, wird der Inhalt mit dieser Bedingung im Überprüfungsmodus nicht hervorgehoben.
 - Wenn Sie eine Bedingung anzeigen, wird der bedingte Inhalt im Überprüfungsmodus hervorgehoben. Im folgenden Screenshot beispielsweise verwendet nur der Inhalt zwei Bedingungen - `win` und `mac` ist hervorgehoben.
 
-
-![](images/review-condition-normal-mode.png){width="650"}
+  ![](images/review-condition-normal-mode.png){width="650"}
 
 Im Vorschaumodus werden der nicht bedingte Inhalt und der bedingte Inhalt, der die beiden angezeigten Bedingungen verwendet - `win` und `mac` - angezeigt. Der verbleibende bedingte Inhalt, für den die Bedingungen ausgeblendet sind, wird nicht angezeigt.
 
-**Echtzeitüberprüfung** - Das Bedienfeld „Kommentare“ wird in Echtzeit mit Kommentaren und dem Feedback oder der Aktion des Autors zu den Kommentaren aktualisiert.
+### Bedienfeld „Bedingungen“ mit DITAVAL-basierten Bedingungen
+
+>[!NOTE]
+>
+>Diese Funktion ist standardmäßig aktiviert. Wenn Sie diese Funktion lieber nicht in Ihrer Umgebung verwenden möchten, wenden Sie sich an Ihr Customer Success-Team.
+
+Wenn die Prüfungsaufgabe mit einer oder mehreren angehängten DITAVAL-Dateien erstellt wird, zeigt das Bedienfeld Bedingungen andere Bedingungen an als im Abschnitt [Arbeiten mit Bedingungen](#work-with-conditions-panel) beschrieben. Jede Bedingung wird durch einen Umschalter anstelle eines Augensymbols gesteuert und die Umschalter sind so voreingestellt, dass sie die in der/den angehängten DITAVAL-Datei(en) definierten Bedingungen widerspiegeln, sodass Sie den Inhalt so überprüfen können, wie es der Initiator der Überprüfung beabsichtigt hat.
+
+>[!BEGINTABS]
+
+>[!TAB Bedienfeld „Bedingungen“ (ohne DITAVAL)]
+
+![](./images/review-conditions-panel.png){width="350"}
+
+>[!TAB Bedienfeld „Bedingungen“ (mit DITAVAL)]
+
+![](./images/review-condition-panel-ditaval.png)
+
+>[!ENDTABS]
+
+Im Gegensatz zum Augensymbol, das nur Hervorhebungen für bedingte Inhalte hinzufügt oder entfernt, wird beim Deaktivieren eines Umschalters im Bedienfeld Bedingungen dieser Inhalt in der Überprüfungs-Benutzeroberfläche ausgeblendet, sodass der Inhalt überhaupt nicht im Dokument angezeigt wird. Wenn Sie den Umschalter wieder aktivieren, wird der Inhalt erneut angezeigt.
+
+Der Vorschaumodus spiegelt dieselben Umschaltstatus wider wie im Abschnitt [Arbeiten mit einem bedingten Bedienfeld](#work-with-conditions-panel) beschrieben.
+
+Je nachdem, wie der Initiator der Überprüfung die Prüfungsaufgabe konfiguriert hat, können Sie diese Umschalter ändern oder nicht:
+
+- Wenn der Initiator Änderungen zugelassen hat, können Sie jeden Umschalter aktivieren oder deaktivieren, um den Inhalt unter anderen Bedingungen zu überprüfen.
+
+  ![](./images/review-conditions-enabled.png)
+
+- Wenn der Initiator keine Änderungen zugelassen hat, sind die Umschalter deaktiviert und spiegeln nur die Einstellungen des Initiators wider.
+
+  ![](./images/review-conditions-disabled.png)
+
+Alle Änderungen, die Sie an den Umschaltern vornehmen, gelten nur für Ihre aktuelle Sitzung. Durch Aktualisieren der Seite werden die Umschalter auf den Status zurückgesetzt, der durch die angehängten DITAVAL-Dateien definiert ist.
+
+### Echtzeit-Überprüfung
+
+Das Bedienfeld „Kommentare“ wird in Echtzeit mit Kommentaren und dem Feedback oder der Aktion des Autors zu den Kommentaren aktualisiert.
 
 - Mehrere Reviewer können im selben Dokument Kommentare hinterlassen oder gleichzeitig auf Kommentare antworten. Um herauszufinden, wer das Dokument derzeit überprüft, bewegen Sie den Mauszeiger über das Benutzersymbol oben rechts im Bildschirm.
 
@@ -275,7 +324,9 @@ Im Vorschaumodus werden der nicht bedingte Inhalt und der bedingte Inhalt, der d
 
 - Wenn Sie einen veralteten Kommentar auswählen, wird die Version dieses Kommentars im linken Bereich geöffnet. Die vorherige Version wird im linken Bereich angezeigt und die aktuelle Version wird im rechten Bereich angezeigt. Alle Kommentare zur veralteten Version werden auf der linken Seite importiert. Sie können die vorherige Version mit der aktuellen Version vergleichen.
 
-**Kommentare filtern** - Sie können Kommentare in einem Dokument filtern, um bestimmte Kommentare nach Bedarf anzuzeigen. Um Kommentare zu filtern, wählen **das Symbol** Filter) \(![](images/filter-search-icon.svg)\) aus, das im Menü rechts neben dem Textfeld Kommentare suchen im Bedienfeld Kommentare angezeigt wird.
+### Kommentare filtern
+
+Sie können Kommentare in einem Dokument filtern, um bestimmte Kommentare nach Bedarf anzuzeigen. Um Kommentare zu filtern, wählen **das Symbol** Filter) \(![](images/filter-search-icon.svg)\) aus, das im Menü rechts neben dem Textfeld Kommentare suchen im Bedienfeld Kommentare angezeigt wird.
 
 Wählen Sie eine oder mehrere der folgenden Filteroptionen aus dem Dialogfeld **Filtertyp** und wählen Sie **Anwenden**.
 
@@ -289,7 +340,6 @@ Wählen Sie eine oder mehrere der folgenden Filteroptionen aus dem Dialogfeld **
 
 
 Um den Filter zu entfernen und alle Kommentare anzuzeigen, heben Sie die Auswahl aller Filter im Dialogfeld **Filtertyp** auf und wählen Sie **Anwenden** aus.
-
 
 ## Versionsverlauf für den Reviewer
 

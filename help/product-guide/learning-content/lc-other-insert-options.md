@@ -14,9 +14,9 @@ subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0763896c75767d8a4bffc019d42c129e2e34f4be
+source-git-commit: 7989955248054571a569ad34d92ae7e26fe70ffd
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 577
 ht-degree: 0%
 
 ---
@@ -65,12 +65,14 @@ Zu den weiteren Optionen, die im Menü Einfügen in der Editor-Symbolleiste verf
 
   Die Gleichung wird mit hellgrauem Hintergrund eingefügt. Sie können eine Gleichung jederzeit aktualisieren, indem Sie mit der rechten Maustaste auf eine vorhandene Gleichung klicken und **Mathematische Gleichung bearbeiten** aus dem Kontextmenü auswählen. Details zum Validieren von MathML-Gleichungen in Experience Manager Guides finden Sie unter [Validierung von Gleichungen im MathML-Editor](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Wissenstest:** Ermöglicht das Hinzufügen von Fragen in verfügbaren Formaten (einzeln richtig, mehrfach korrekt, wahr/falsch, mit der folgenden übereinstimmen oder aus der Fragenbank einfügen) zu Ihrem Thema zur Überprüfung und zur Bestätigung des Verständnisses ohne Bewertung. Diese Fragen spiegeln Standardformate wider und schließen die Bewertung aus. Dadurch eignen sie sich ideal für die Selbstbewertung und eignen sich als Teil des Kursinhalts oder eines Themas vor einem Quiz oder einer Bewertung später, falls verfügbar.
+- **Wissenstest:** Ermöglicht das Hinzufügen von Fragen in verfügbaren Formaten (einzeln richtig, mehrfach korrekt, wahr/falsch, mit der folgenden übereinstimmen oder aus der Fragenbank einfügen) zu Ihrem Thema zur Überprüfung und zur Bestätigung des Verständnisses ohne Bewertung. Diese Fragen spiegeln Standardformate wider und schließen die Bewertung aus. Dadurch eignen sie sich ideal für die Selbstbewertung und eignen sich als Teil des Kursinhalts oder eines Themas vor einem Quiz oder einer Bewertung später, falls verfügbar. Sie können die richtigen Antworten und andere erforderliche Felder im Bedienfeld **Inhaltseigenschaften** konfigurieren. Weitere Informationen finden Sie unter [Fragetypen](./quiz-insert-questions.md).
 
   ![](assets/knowledge-check-topic.png){width="650"}
 
 
-  Sie können die richtigen Antworten und andere erforderliche Felder im Bedienfeld **Inhaltseigenschaften** konfigurieren. Weitere Informationen finden Sie unter [Fragetypen](./quiz-insert-questions.md). Sie können verschiedene Fragetypen mithilfe der Optionen zur Wissensüberprüfung hinzufügen, wie unten dargestellt.
+  Wenn ein Teilnehmer eine falsche Antwort auf eine Frage zur Wissensüberprüfung sendet, werden die Antwortfelder zusammen mit einer Fehlermeldung hervorgehoben, sodass der Teilnehmer **Erneut versuchen** auswählen kann, um dieselbe Frage erneut zu stellen.
+
+  ![](assets/knowledge-check-try-again.png){width="650"}
 
   Darüber hinaus können Sie die Option **Wissenstest erforderlich, um fortzufahren** aktivieren, um sicherzustellen, dass die Teilnehmer eine spezielle Wissenstest versuchen, bevor sie mit den nachfolgenden Kursinhalten fortfahren. Diese Funktion trägt zur Stärkung wichtiger Lernziele bei, indem sie verhindert, dass Teilnehmer kritische Bewertungsprüfpunkte überspringen. Die Funktion wird unterstützt, wenn **Einstellung „Lernende müssen Inhalte in einer sequenziellen Reihenfolge durchlaufen** bei der Konfiguration der Ausgabe der SCORM-Vorgabe aktiviert ist, um sicherzustellen, dass der Kursverlauf dem beabsichtigten Lernpfad folgt.
 

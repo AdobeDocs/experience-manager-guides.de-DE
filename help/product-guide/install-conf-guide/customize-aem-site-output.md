@@ -5,10 +5,10 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
-source-git-commit: 179e9016b12edb14c09ce9352a318e06a4fc628a
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '3190'
-ht-degree: 2%
+source-wordcount: '3264'
+ht-degree: 1%
 
 ---
 
@@ -122,6 +122,9 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Boolescher Wert \(true/false\). Falls Sie eine Ausgabe mithilfe des Seitentitels generieren möchten, setzen Sie diese Eigenschaft auf „true“. Standardmäßig ist festgelegt, dass der Dateiname verwendet wird.<br> **Standardwert**: false |
 
+>[!NOTE]
+>
+> Die `aemsite.pagetitle`-Eigenschaft definiert das Standardverhalten auf Ordnerebene für AEM Site-Seitentitel. Wenn die Option zum Auswählen von `Topic filename` oder `Topic title` in der AEM Sites-Voreinstellung für Ihre Umgebung verfügbar ist, hat die Auswahl auf Voreinstellungsebene Vorrang und überschreibt die Konfiguration auf `aemsite.pagetitle` für diese Ausgabe. Wenn `aemsite.pagetitle=true` beispielsweise in der Ausgabevorgabe *Themendateiname)*, aber der Benutzer auswählt, wird der Themendateiname verwendet. Wenn `aemsite.pagetitle=false`, der/die Benutzende jedoch *Thementitel* auswählt, wird der Thementitel verwendet.
 
 >[!TAB On-Premise]
 

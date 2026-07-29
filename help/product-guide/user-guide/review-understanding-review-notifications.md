@@ -13,18 +13,14 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 675
 ht-degree: 0%
 
 ---
 
 # Grundlegendes zu Prüfungsbenachrichtigungen
-
->[!IMPORTANT]
->
-> Die in diesem Artikel beschriebenen neuen Funktionen werden standardmäßig mit der Version 2508 von Experience Manager Guides as a Cloud Services aktiviert. Überprüfungen, die vor der Migration erstellt wurden, sind nicht betroffen und verwenden weiterhin den früheren Workflow. Wenn Sie es vorziehen, die vorhandenen Funktionen ohne diese Aktualisierungen weiterhin zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit die neuen Funktionen deaktiviert werden.
 
 Experience Manager Guides optimiert die Zusammenarbeit zwischen Autoren und Reviewern durch einen strukturierten Prüfungs-Workflow. Im Rahmen dieses Workflows spielen Benachrichtigungen eine wichtige Rolle dabei, alle Teilnehmer einer Prüfungsaufgabe auf dem Laufenden zu halten und auf Änderungen zu reagieren.
 

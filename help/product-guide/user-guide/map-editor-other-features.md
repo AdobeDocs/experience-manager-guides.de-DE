@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: c3a30c22dd49ab8af898ecd2ff032101d2f9d93f
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: 1285
 ht-degree: 0%
 
 ---
@@ -81,6 +81,90 @@ Ein Navigationsverweis der ausgewählten Zuordnungsdatei wird am angegebenen Spe
 ![](./images/navref-added-layout-view.png)
 
 *Layout-Ansicht*
+
+## Ausführen einer Konsistenzprüfung für eine Zuordnung
+
+Mit der Option Konsistenzprüfung ausführen im Kontextmenü können Sie eine Konsistenzprüfung für die ausgewählte Zuordnung ausführen, um Probleme wie fehlerhafte Links, doppelte IDs und Schematron-Validierungsfehler vor der Veröffentlichung zu erfassen.
+
+>[!NOTE]
+>
+> Diese Funktion ist standardmäßig aktiviert. Wenn Sie diese Funktion lieber nicht in Ihrer Umgebung verwenden möchten, wenden Sie sich an Ihr Customer Success-Team.
+
+Welche Prüfungen ausgeführt werden können, wird durch eine Konsistenzprüfungsvorgabe definiert, die von einem Administrator auf Ordnerprofilebene erstellt und verwaltet wird. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Vorgaben für Konsistenzprüfungen](../install-conf-guide/conf-health-check-preset.md).
+
+Führen Sie die folgenden Schritte aus, um eine Konsistenzprüfung einer Zuordnung durchzuführen:
+
+1. Öffnen Sie eine Karte im Editor.
+1. Wählen Sie im Menü Optionen die Option **Konsistenzprüfung ausführen** aus.
+   ![](./images/run-health-check-option.png)
+1. Das Dialogfeld Konsistenzprüfung ausführen wird angezeigt. Wählen Sie eine Konsistenzprüfungs-Vorgabe aus, die Sie ausführen möchten. Nur die für Ihr Ordnerprofil konfigurierten Vorgaben sind zur Auswahl verfügbar.
+
+   Wenn Sie eine Vorgabe auswählen, werden die definierten Prüfungen in das Dialogfeld geladen.
+
+   ![](./images/health-check-selected-checks.png)
+1. *Optional* Baseline auswählen. Wenn Sie keine Grundlinie verwenden möchten, wählen Sie **Keine** aus.
+1. Wählen Sie **Ausführen** aus.
+
+Sie können auch eine Konsistenzprüfung für eine Zuordnung über das Bedienfeld **Konsistenzprüfungsbericht** ausführen. Öffnen Sie dazu eine Karte in der Kartenansicht und wählen Sie das Symbol **Konsistenzprüfungsbericht** aus.
+
+![](./images/health-check-report-icon.png)
+
+>[!NOTE]
+>
+>Diese Option wird nur für eine Karte angezeigt, auf der noch keine Konsistenzprüfung ausgeführt wurde. Wenn auf der Karte bereits eine Konsistenzprüfung ausgeführt wurde, wird durch Klicken auf das Symbol **Konsistenzprüfungsbericht** stattdessen der vorhandene Bericht geöffnet.
+
+Wählen Sie im Bedienfeld **Konsistenzprüfung ausführen** aus.
+
+![](./images/run-health-check-report-panel.png)
+
+Dadurch wird dasselbe Dialogfeld **Konsistenzprüfung ausführen** in dem Sie eine Konsistenzprüfungsvorgabe und eine Grundlinie auswählen können, um eine Konsistenzprüfung für die Zuordnung auszuführen, wie in den obigen Schritten beschrieben.
+
+## Verwenden des Konsistenzprüfungsberichts im Editor
+
+Wenn Sie eine Konsistenzprüfung für eine Zuordnung ausführen, wird der Bericht im Bedienfeld **Konsistenzprüfungsbericht** geöffnet, wie unten dargestellt:
+
+![](./images/health-check-report-panel-editor.png)
+
+### Bereichsoptionen für Konsistenzprüfungen
+
+Die folgenden Optionen sind im Bedienfeld Konsistenzprüfungsbericht verfügbar:
+
+- **Map name**: Der Name der Zuordnung, für die der Bericht generiert wurde.
+- **Infosymbol**: Wählen Sie diese Option aus, um den Vorgabennamen, die Zuordnungsversion und Baseline (falls vorhanden) anzuzeigen, die zum Generieren des Berichts verwendet werden.
+- **Filter**: Engt den Bericht auf eine bestimmte Regel ein, z. B. um nur die Ergebnisse der fehlerhaften Links anzuzeigen. Der Filter listet nur die Regeltypen auf, die im aktuellen Bericht zu Ergebnissen geführt haben.
+- **Bericht herunterladen**: Lädt den Bericht herunter.
+- **Regenerieren**: Führt die Konsistenzprüfung erneut aus.
+
+### Ergebnisse der Konsistenzprüfung
+
+Jedes Ergebnis der ausgewählten Prüfungen wird mit den folgenden Details aufgelistet:
+- **Severity**: Der Schweregrad des Ergebnisses, z. B. Fehler, Warnung, Info oder Schweregrad „Schwerwiegend“.
+- **Name der Konsistenzprüfungsvorgabe**: Name der Konsistenzprüfungsvorgabe, die zum Generieren des Berichts verwendet wird
+- **Regelname**: Die Regel, die das Ergebnis generiert hat, z. B. fehlerhafte Links oder doppelte ID.
+- **Zeilennummer**: Die Zeile in der Datei, in der das Problem auftritt.
+- **Asset**: Die Datei, in der das Problem gefunden wurde.
+
+Wählen Sie ein Ergebnis aus, um die entsprechende Datei genau in der Zeile zu öffnen, in der das Problem weiterhin besteht.
+
+![](./images/health-check-preset-report-selected.png)
+
+>[!NOTE]
+>
+>Die Ergebnisse der fehlerhaften Verknüpfung öffnen die Datei im Autorenmodus. Doppelte ID- und Schematron-Validierungsergebnisse öffnen die Datei im Source-Modus.
+
+### Bericht neu generieren
+
+Nachdem Sie ein Problem behoben haben, wählen **in** Symbolleiste die Option „Erneut generieren“ aus, um die Konsistenzprüfung erneut auszuführen und zu bestätigen, dass das Problem behoben ist. Wählen **im angezeigten** Erneut generieren“ die Prüfungen aus, die Sie in den neu generierten Bericht aufnehmen möchten.
+
+![](./images/health-check-preset-report-regenerate.png)
+
+>[!NOTE]
+>
+> Konsistenzprüfungsberichte sind spezifisch für den Benutzer, der sie erstellt hat. Wenn mehrere Benutzer einen Bericht für dieselbe Zuordnung generieren, zeigt jeder Benutzer seine eigenen Ergebnisse an. Administratoren haben jedoch immer Zugriff auf den neuesten für die Zuordnung generierten Bericht.
+
+### Bericht herunterladen
+
+Wählen Sie **Bericht herunterladen** aus, um den Bericht im XLS-Format mit detaillierten Informationen für jedes Ergebnis herunterzuladen.
 
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Zuordnungs-Editor](map-editor.md)

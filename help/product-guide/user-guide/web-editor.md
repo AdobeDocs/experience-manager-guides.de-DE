@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c003b524d168d0c1826f6af44278223e2fa4bf0b
+source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ Der neue Editor bietet eine signifikante Weiterentwicklung des Authoring-Erlebni
 Der neue Editor unterstützt derzeit nicht die folgenden Funktionen. Diese Funktionen sollen in kommenden Versionen eingeführt werden.
 
 - Authoring mit aktivierter Option „Änderungen verfolgen“ (alle vorhandenen verfolgten Änderungen werden beibehalten und als regulärer Inhalt behandelt)
-- Bildgröße in der Autorenansicht
 
 
 >[!NOTE]

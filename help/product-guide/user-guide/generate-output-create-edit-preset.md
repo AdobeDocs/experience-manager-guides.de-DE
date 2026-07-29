@@ -15,9 +15,9 @@ subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: a99aa6be404fb5f4675f50aad8c4f282520d605f
 workflow-type: tm+mt
-source-wordcount: 129
+source-wordcount: 153
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Sie können Ausgabevorgaben über die Zuordnungskonsole und das Zuordnungs -Dash
 Sie können die ausgewählte Ausgabevorgabe bearbeiten, indem Sie die erforderlichen Felder direkt in die erforderlichen Vorgabeneinstellungen ändern.
 
 Darüber hinaus können Sie eine Ausgabevorgabe mithilfe des Dropdown-Menüs **Optionen** wie unten dargestellt duplizieren oder löschen.
+
+>[!NOTE]
+>
+>Vorlagenvorgaben können nicht bearbeitet, dupliziert oder gelöscht werden. Diese Aktionen sind auf Administratoren beschränkt. Weitere Informationen zu Vorlagenvorgaben finden Sie unter [Vorlagenvorgaben](../install-conf-guide/template-presets-output-generation.md).
 
 
 ![](images/delete-preset-map-console.png)

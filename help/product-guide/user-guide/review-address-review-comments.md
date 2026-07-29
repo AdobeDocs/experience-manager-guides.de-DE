@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
 workflow-type: tm+mt
-source-wordcount: 1233
+source-wordcount: 1526
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Im Editor enthält das rechte Bedienfeld die Symbole Überprüfen und Änderunge
 
 - **B:** Wählen Sie **Prüfungsdetails** ![](images/active-review-info-icon.svg) im Bedienfeld **Kommentare** aus, um weitere Informationen zur Prüfungsaufgabe anzuzeigen:
 
-   - **Name**: Name der Prüfungsaufgabe .
-   - **Prüfungsversion**: Zeigt die Version an, die der ausgewählten Prüfungsaufgabe zugeordnet ist. Auf diese Weise behalten Sie den Überblick über die Version, die Sie zur Überprüfung freigegeben haben
-   - **Status**: Aktueller Status der Prüfungsaufgabe.
+  - **Name**: Name der Prüfungsaufgabe .
+  - **Prüfungsversion**: Zeigt die Version an, die der ausgewählten Prüfungsaufgabe zugeordnet ist. Auf diese Weise behalten Sie den Überblick über die Version, die Sie zur Überprüfung freigegeben haben
+  - **Status**: Aktueller Status der Prüfungsaufgabe.
 
   >[!NOTE]
   >
@@ -90,7 +90,8 @@ Im Editor enthält das rechte Bedienfeld die Symbole Überprüfen und Änderunge
 - **I**: Einen Filter auf die Kommentare anwenden. Sie können nach Kommentaren filtern, und zwar auf der Grundlage von Überprüfungstyp \(alle, hervorgehoben, gelöscht, eingefügt oder Haftnotiz\), Überprüfungsstatus \(alle, akzeptiert, abgelehnt oder keine\), Reviewers \(alle oder bestimmte Reviewer\(s\)\) oder Themenversionen. Standardmäßig ist keiner der Filter ausgewählt.
 
   ![](images/review-comments-author-filter.png){width="350"}
-  **Antworten auf einen Kommentar, indem Sie andere Benutzer taggen**
+
+**Antworten auf einen Kommentar, indem Sie andere Benutzer taggen**
 
 Als Autor und Initiator der Prüfungsaufgabe können Sie auf Prüfungskommentare antworten und andere Benutzende, die an derselben Prüfungsaufgabe beteiligt sind, mit Tags versehen, um ihre Aufmerksamkeit zu lenken oder Folgemaßnahmen zuzuweisen. Diese Funktion ist nur für aktive Prüfungsaufgaben verfügbar.
 
@@ -108,5 +109,28 @@ Getaggte Benutzende erhalten sowohl eine E-Mail- als auch eine AEM-Benachrichtig
 Wenn Sie der Initiator oder Autor einer Prüfungsaufgabe sind und diese über die **Projektekonsole** öffnen, wird das Thema in der Prüfungsbenutzeroberfläche gestartet. Da Ihnen diese Aufgabe nicht zugewiesen ist, können Sie Kommentare anzeigen und beantworten, jedoch keine Überprüfungsaktionen durchführen. Die Kommentarsymbolleiste bleibt für Benutzende deaktiviert, die der Aufgabe nicht zugewiesen sind.
 
 ![](images/review-comments-toolbar-disabled.png){width="350"}
+
+## Alle Prüfungsaufgaben für ein Thema anzeigen
+
+>[!NOTE]
+>
+> Diese Funktion ist standardmäßig aktiviert. Wenn Sie diese Funktion lieber nicht in Ihrer Umgebung verwenden möchten, wenden Sie sich an Ihr Customer Success-Team.
+
+Mit dieser Funktion können Sie eine Prüfungsaufgabe (offen oder geschlossen) auswählen, die mit dem aktuell geöffneten Thema verknüpft ist, und zwar über das Bedienfeld Kommentare . Wenn diese Option aktiviert ist, enthält das Bedienfeld „Kommentare“ in der Benutzeroberfläche „Überprüfen“ eine Dropdown-Liste für jede Prüfungsaufgabe, der das Thema angehört, sowie den Status jeder Aufgabe (aktiv oder geschlossen) und das Projekt, zu dem sie gehört. Die Aufgabe, an der Sie gerade arbeiten, ist standardmäßig mit einem **Current**-Tag gekennzeichnet.
+
+![](./images/review-task-selection-dropdpwn.png){width="350"}
+
+Über das Dropdown-Menü Prüfungsaufgabe können Sie eine dieser Aufgaben auswählen und die zugehörigen Kommentare durchgehen, ohne die Prüfungsprojekte zu wechseln. Sie können auch das Symbol **(i)** neben einer Aufgabe in der Dropdown-Liste auswählen, um die Aufgabendetails anzuzeigen.
+
+>[!NOTE]
+>
+> Wenn eine Prüfungsaufgabe, die Sie erwarten, nicht in der Dropdown-Liste angezeigt wird, kann dies daran liegen, dass die Aufgabe erstellt wurde, bevor diese Funktion auf Ihrer Instanz aktiviert wurde. Wenden Sie sich an Ihren Administrator, um das Problem zu beheben, indem Sie [Indizierung durchführen, um alle Prüfungsaufgaben für ein Thema in das Kommentarbedienfeld aufzunehmen](../install-conf-guide/index-review-tasks.md).
+
+Beachten Sie bei Verwendung dieser Funktion Folgendes:
+
+- Wenn Sie im Editor zu einem anderen Thema wechseln, wird das Bedienfeld in den Kommentaren wieder auf die aktuelle Aufgabe zurückgesetzt
+- Wenn Sie eine andere Aufgabe als die aktuelle auswählen, wird die Themenversion dieser Aufgabe und ihre Kommentare im schreibgeschützten Modus geöffnet. Sie können die Kommentare anzeigen, sie jedoch nicht bearbeiten, akzeptieren oder ablehnen, und die Option **Importieren** ist deaktiviert. Nur Kommentare aus der aktuellen Aufgabe können in Ihre Arbeitskopie importiert werden.
+- Filter und Suche gelten nur für die Kommentare der ausgewählten Aufgabe. Kommentare von anderen, nicht ausgewählten Aufgaben sind nicht betroffen.
+
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)

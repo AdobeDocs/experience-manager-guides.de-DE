@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f3645292-50bd-4f4a-ac6a-29dcecdf8abe
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: b0e39e78724e6d47e47648cd8c3a36aef307caf8
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 0%
 
 ---
@@ -134,14 +134,13 @@ Ausführliche Informationen zur API-Nutzung, zu Parametern und Beispielanfragen 
 
 >[!NOTE]
 >
-> Informationen zu den öffentlich verfügbaren REST **APIs finden Sie auch in der** Swagger-Dokumentation“ unter `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html`. Derzeit sind in der Swagger-Dokumentation nur APIs verfügbar, die sich auf Assets, Baseline und Reporting beziehen.
-
+> Sie können auch die **Swagger-Dokumentation** für die öffentlich verfügbaren REST-APIs unter `https://<aem-author-url>/libs/fmdita/clientlibs/api-docs/index.html` konsultieren oder über die AEM-Benutzeroberfläche darauf zugreifen, indem Sie zu **Tools** > **Guides** > **API Swagger**. Derzeit sind in der Swagger-Dokumentation nur APIs für Assets, Baseline, Reporting, Übersetzung und Publishing verfügbar.
 
 ## Zusätzliche Ressourcen
 
-Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guides, die auf der Seite [Lernen und Support](https://helpx.adobe.com/de/support/xml-documentation-for-experience-manager.html) verfügbar sind:
+Im Folgenden finden Sie eine Liste weiterer hilfreicher Ressourcen von AEM Guides, die auf der Seite [Lernen und Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) verfügbar sind:
 
 - Benutzerhandbuch
 - Installations- und Konfigurationshandbuch
 - Schnellstartanleitung
-- [Hilfe-Archivierungsseite](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) \(Zugriff auf die ältere Versionsdokumentation\)
+- [Hilfe-Archivierungsseite](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(Zugriff auf die ältere Versionsdokumentation\)

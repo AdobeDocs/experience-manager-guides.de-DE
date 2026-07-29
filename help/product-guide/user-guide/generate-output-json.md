@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: 1016
 ht-degree: 0%
 
 ---
@@ -56,6 +56,10 @@ Nachdem die Voreinstellung erstellt wurde, können Sie die folgenden Voreinstell
 - Nachgenerierungs-Workflow
 
 Weitere Informationen finden Sie unter [JSON-](#json-configuration).
+
+>[!NOTE]
+>
+>Wenn die [Konsistenzprüfungsfunktion](../install-conf-guide/conf-health-check-preset.md) für Ihr Ordnerprofil konfiguriert ist, wird auf der Registerkarte Allgemein ein ein zusätzlicher Umschalter **Konsistenzprüfung vor** der Ausgabegenerierung ausführen) angezeigt. Damit wird bei jeder Generierung einer Ausgabe mit dieser Vorgabe automatisch eine Konsistenzprüfung ausgeführt, sodass Sie sie nicht manuell aus der Zuordnung heraus Trigger haben müssen. Der Bericht wird an das Veröffentlichungsprotokoll angehängt und dient nur zu Informationszwecken. Die Ausgabe wird nicht blockiert oder verzögert, auch wenn die Prüfung nicht gelöste Fehler oder Warnungen findet. Weitere Informationen über [Verwenden der Konsistenzprüfungsfunktion in Experience Manager Guides](./map-editor-other-features.md#run-health-check-on-a-map).
 
 ![](images/json-preset-config-new.png)
 

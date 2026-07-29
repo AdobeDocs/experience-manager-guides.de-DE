@@ -14,9 +14,9 @@ feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: c6cc5b187f72c1da1dc6f28186047989c3c1faa1
 workflow-type: tm+mt
-source-wordcount: 3282
+source-wordcount: 3195
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Nach Abschluss des Vorgangs wird eine Erfolgs- oder Fehlerbenachrichtigung ausge
 
 **Drag-and-Drop mit menschenlesbaren Dateinamen**
 
-- *Drag-and-Drop am selben Speicherort*: Sie haben die Optionen **Vorhandene Datei(en) überschreiben**, **Beide Dateien beibehalten\(s\)** und eine Option zum Erstellen einer Version der vorhandenen Arbeitskopie.
+- *Drag-and-Drop an derselben Position*: Sie haben die Möglichkeit, **vorhandene Datei(en) zu überschreiben**, **beide Datei(en) beibehalten**.
 
   ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
@@ -94,18 +94,16 @@ Nach Abschluss des Vorgangs wird eine Erfolgs- oder Fehlerbenachrichtigung ausge
 
 **Drag-and-Drop mit Dateinamen, die auf einem UUID-Muster basieren**
 
-*Datei per Drag-and-Drop am selben Speicherort ablegen*: Sie haben die Möglichkeit, **Vorhandene Datei(en) überschreiben** und eine Version der vorhandenen Arbeitskopie zu erstellen.
+*Datei per Drag-and-Drop am selben Speicherort ablegen*: Sie haben die Möglichkeit, **vorhandene Datei(en) zu überschreiben**.
 
 ![](images/uuid-drag-drop-same-location.PNG){width="650" align="center"}
 
 Wenn die Datei überschrieben wird, gibt es keine Änderung am Dateinamen oder an der UUID.
 
-Wenn Sie die Option **Version für die vorhandene Arbeitskopie erstellen** auswählen, wird eine neue Version aus der Arbeitskopie des Dokuments erstellt. Die neue Datei wird hochgeladen, es wird auch eine neue Version der Datei erstellt und sie wird als Arbeitskopie des Dokuments erstellt.
-
 **Neue Version für hochgeladene Datei erstellen** muss die Funktion von Ihrem Administrator aktiviert werden. Wenn diese Funktion aktiviert ist, wird eine neue Version für die hochgeladene Datei erstellt. Wenn die Option deaktiviert ist, wird keine Version der hochgeladenen Datei erstellt. Weitere Informationen finden Sie *Abschnitt „Neue Version für hochgeladene Datei erstellen* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
 
-*Datei per Drag-and-Drop an einen anderen Speicherort ziehen*: Sie haben die Optionen **Vorhandene Datei(en) überschreiben**, **Datei(en) an einen neuen Speicherort verschieben** und eine Option zum Erstellen einer Version der vorhandenen Arbeitskopie.
+*Datei per Drag-and-Drop an einen anderen Speicherort ziehen*: Sie haben die Möglichkeit, **vorhandene Datei(en) zu überschreiben**, **Datei(en) an einen neuen Speicherort zu verschieben**.
 
 ![](images/uuid-drag-drop-different-location.PNG){width="650" align="center"}
 
@@ -164,18 +162,18 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25"> das Dialogfeld **Pfad auswählen** öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen. Sie können mehrere Ordner auswählen, die sich an verschiedenen Stellen im Pfad-Browser befinden. Der Pfad der ausgewählten Ordner wird beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
+     - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25"> das Dialogfeld **Pfad auswählen** öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen. Sie können mehrere Ordner auswählen, die sich an verschiedenen Stellen im Pfad-Browser befinden. Der Pfad der ausgewählten Ordner wird beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
 
-      - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
+     - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 
-        Die ausgewählten Ordner werden zusammen mit ihrem Pfad aufgelistet. Bewegen Sie den Mauszeiger über das Ordner-Tag, um den vollständigen Pfad anzuzeigen.
-      - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners.
+       Die ausgewählten Ordner werden zusammen mit ihrem Pfad aufgelistet. Bewegen Sie den Mauszeiger über das Ordner-Tag, um den vollständigen Pfad anzuzeigen.
+     - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners.
 
 
    - **Zielpfad**: Geben Sie den Speicherort an, an den Sie die Quellordner verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und wählen Sie aus, um den Prozess abzuschließen.
-      - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
+     - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und wählen Sie aus, um den Prozess abzuschließen.
+     - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
 
      Der ausgewählte Ordner wird zusammen mit seinem Pfad im Textfeld angezeigt.
 
@@ -213,20 +211,20 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25"> das Dialogfeld **Pfad auswählen** öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen. Sie können mehrere Ordner auswählen, die sich an verschiedenen Stellen im Pfad-Browser befinden. Der Pfad der ausgewählten Ordner wird beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
+     - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25"> das Dialogfeld **Pfad auswählen** öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen. Sie können mehrere Ordner auswählen, die sich an verschiedenen Stellen im Pfad-Browser befinden. Der Pfad der ausgewählten Ordner wird beibehalten, sodass Sie sie beim erneuten Öffnen des Dialogfelds einfach überprüfen oder ändern können.
 
-      - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
+     - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 
-        Die ausgewählten Ordner werden zusammen mit ihrem Pfad aufgelistet. Bewegen Sie den Mauszeiger über das Ordner-Tag, um den vollständigen Pfad anzuzeigen.
-      - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners.
+       Die ausgewählten Ordner werden zusammen mit ihrem Pfad aufgelistet. Bewegen Sie den Mauszeiger über das Ordner-Tag, um den vollständigen Pfad anzuzeigen.
+     - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners.
 
 
    - **Zielpfad**: Geben Sie den Speicherort an, an den Sie die Quellordner verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und wählen Sie aus, um den Prozess abzuschließen.
-      - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
+     - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und wählen Sie aus, um den Prozess abzuschließen.
+     - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
 
-        Der ausgewählte Ordner wird zusammen mit seinem Pfad im Textfeld angezeigt.
+       Der ausgewählte Ordner wird zusammen mit seinem Pfad im Textfeld angezeigt.
 
    - Wählen Sie **Massenverschiebung** aus.
 

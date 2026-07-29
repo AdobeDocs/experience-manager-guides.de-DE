@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a13143053c75ab65cbcd20a52c8ca3fb953edecf
+source-git-commit: fd5e1e85933eb2785b0a74b0fa49fec1da4ca0c2
 workflow-type: tm+mt
-source-wordcount: 11025
+source-wordcount: 11073
 ht-degree: 0%
 
 ---
@@ -213,17 +213,17 @@ Dies ist mit dem Suchfeld im Repository-Fenster synchronisiert. Wenn Sie beispie
 - **Nicht-DITA-Dateien**: Sie können im ausgewählten Pfad nach **DITAVAL-**, **Image-**, **Multimedia**, **Documents** und **JSON** suchen.
 - **Gesperrt von**: Zeigt eine Liste von Benutzern an. Die Liste wird paginiert und asynchron geladen, sodass nur eine begrenzte Anzahl von Benutzern gleichzeitig angezeigt wird und beim Scrollen oder Navigieren mehr abgerufen wird. Dies verbessert die Ladegeschwindigkeit und die Gesamtleistung, insbesondere bei der Arbeit mit einer großen Anzahl von Benutzern.
 - **Geändert nach**/**Geändert vor**: Inhalt nach Änderungsdatum filtern. Wählen Sie einen Datumsbereich aus dem Kalender aus oder wählen Sie eine der folgenden Zeitrahmen-Optionen:
-   - In den letzten zwei Stunden
-   - In letzter Woche
-   - Im letzten Monat
-   - Im letzten Jahr
+  - In den letzten zwei Stunden
+  - In letzter Woche
+  - Im letzten Monat
+  - Im letzten Jahr
 - **Tags**: Filtern von Inhalten basierend auf Tags.
 
 **Erweitert**
 
 - **DITA-Elemente**: Sie können auch in den Attributen der angegebenen DITA-Elemente nach bestimmten Werten suchen.
-   - Wählen Sie **Element hinzufügen** aus, um die Elemente, Attribute und Werte hinzuzufügen.
-   - Wenden Sie die ausgewählten Filter an.
+  - Wählen Sie **Element hinzufügen** aus, um die Elemente, Attribute und Werte hinzuzufügen.
+  - Wenden Sie die ausgewählten Filter an.
 
 - Wählen Sie **Alle löschen**, um alle angewendeten Filter zu löschen.
 
@@ -325,13 +325,13 @@ Schritte zum Erstellen eines neuen Ordners:
 
   Wenn der Dateiname des hochgeladenen Assets ungültige Zeichen enthält (z. B. * / : [\] | # % { } ?), können die folgenden Szenarien eintreten:
 
-   - **Partieller Upload**: Gibt an, dass ein oder mehrere Assets, die hochgeladen werden, ungültige Zeichen in ihren Dateinamen enthalten.
+  - **Partieller Upload**: Gibt an, dass ein oder mehrere Assets, die hochgeladen werden, ungültige Zeichen in ihren Dateinamen enthalten.
 
-     ![](images/partial-asset-upload.png)
+    ![](images/partial-asset-upload.png)
 
-   - **Hochladen fehlgeschlagen** : Zeigt an, dass alle Assets, die hochgeladen werden, ungültige Zeichen in ihren Dateinamen enthalten.
+  - **Hochladen fehlgeschlagen** : Zeigt an, dass alle Assets, die hochgeladen werden, ungültige Zeichen in ihren Dateinamen enthalten.
 
-     ![](images/upload-asset-failed.png)
+    ![](images/upload-asset-failed.png)
 
   Um diese Konflikte zu beheben, entfernen Sie alle ungültigen Zeichen aus den Dateinamen der Assets und laden Sie sie dann erneut in das Repository hoch.
 
@@ -404,9 +404,9 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
 - **Duplizieren**: Mit dieser Option erstellen Sie ein Duplikat oder eine Kopie der ausgewählten Datei. Sie haben außerdem die Möglichkeit, die doppelte Datei in der Aufforderung Asset duplizieren umzubenennen. Standardmäßig wird die Datei mit dem Suffix \ (wie Dateiname\_1.extension\) erstellt. Der Titel der Datei bleibt gleich wie der der Quelldatei, und die neue Datei beginnt mit Version 1.0. Alle Verweise, Tags und Metadaten werden kopiert, während die Baselines nicht in die doppelte Datei kopiert werden.
 
 - **Verschieben nach**: Verwenden Sie diese Option, um die ausgewählte Datei in einen anderen Ordner zu verschieben.
-   - Sie können entweder den Namen des Zielordners eingeben oder **Pfad auswählen** um den Zielordner auszuwählen.
-   - Sie können eine Datei beliebigen Typs an ein beliebiges Ziel im Inhaltsordner verschieben.
-   - Zwei Dateien dürfen nicht denselben Namen haben. Daher können Sie eine Datei nicht in einen Ordner verschieben, in dem bereits eine Datei mit demselben Namen vorhanden ist.
+  - Sie können entweder den Namen des Zielordners eingeben oder **Pfad auswählen** um den Zielordner auszuwählen.
+  - Sie können eine Datei beliebigen Typs an ein beliebiges Ziel im Inhaltsordner verschieben.
+  - Zwei Dateien dürfen nicht denselben Namen haben. Daher können Sie eine Datei nicht in einen Ordner verschieben, in dem bereits eine Datei mit demselben Namen vorhanden ist.
 
   Wenn Sie versuchen, eine Datei in einen Ordner zu verschieben, in dem eine Datei mit demselben Namen, aber einem anderen Titel vorhanden ist, wird das Dialogfeld Umbenennen und Datei verschieben angezeigt, und Sie müssen die Datei vor dem Verschieben umbenennen. Die verschobene Datei im Zielordner hat den neuen Dateinamen.
 
@@ -420,9 +420,9 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
 
   In Experience Manager Guides ist es in den folgenden Szenarien nicht zulässig, eine Datei umzubenennen oder zu verschieben:
 
-   - Sie können eine Datei nicht verschieben oder umbenennen, wenn sie Teil eines Überprüfungs- oder Übersetzungs-Workflows ist.
+  - Sie können eine Datei nicht verschieben oder umbenennen, wenn sie Teil eines Überprüfungs- oder Übersetzungs-Workflows ist.
 
-   - Wenn die Datei von einem anderen Benutzer gesperrt wird, ist ein Umbenennen oder Verschieben der Datei nicht möglich. Die Optionen Umbenennen oder Verschieben nach für die Datei werden nicht angezeigt.
+  - Wenn die Datei von einem anderen Benutzer gesperrt wird, ist ein Umbenennen oder Verschieben der Datei nicht möglich. Die Optionen Umbenennen oder Verschieben nach für die Datei werden nicht angezeigt.
 
   >[!NOTE]
   >
@@ -435,30 +435,30 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
   </details>
 
 - **Umbenennen**: Verwenden Sie diese Option, um die ausgewählte Datei umzubenennen. Geben Sie den Namen der neuen Datei im Dialogfeld **Asset umbenennen** ein.
-   - Sie können eine Datei beliebigen Typs umbenennen.
-   - Die Dateierweiterung kann nicht geändert werden.
-   - Zwei Dateien dürfen nicht denselben Namen haben. Sie können also eine Datei nicht in einen bereits vorhandenen Namen umbenennen. Ein Fehler wird angezeigt.
+  - Sie können eine Datei beliebigen Typs umbenennen.
+  - Die Dateierweiterung kann nicht geändert werden.
+  - Zwei Dateien dürfen nicht denselben Namen haben. Sie können also eine Datei nicht in einen bereits vorhandenen Namen umbenennen. Ein Fehler wird angezeigt.
 
 - **Löschen**: Mit dieser Option können Sie die ausgewählte Datei löschen. Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt.
 
-   - Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt.
-   - Wenn keine andere Datei auf die Datei verweist, wird sie gelöscht und eine Erfolgsmeldung wird angezeigt.
-   - Wenn die Datei gesperrt ist, können Sie sie nicht löschen, und es wird eine Fehlermeldung angezeigt.
+  - Vor dem Löschen der Datei wird eine Bestätigungsaufforderung angezeigt.
+  - Wenn keine andere Datei auf die Datei verweist, wird sie gelöscht und eine Erfolgsmeldung wird angezeigt.
+  - Wenn die Datei gesperrt ist, können Sie sie nicht löschen, und es wird eine Fehlermeldung angezeigt.
 
-     >[!NOTE]
-     >
-     > Wenn Ihr Administrator das Löschen gesperrter Dateien verhindert hat, wird nur die Fehlermeldung angezeigt. Weitere Informationen finden Sie *Abschnitt „Löschen von ausgecheckten Dateien verhindern* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Wenn Ihr Administrator das Löschen gesperrter Dateien verhindert hat, wird nur die Fehlermeldung angezeigt. Weitere Informationen finden Sie *Abschnitt „Löschen von ausgecheckten Dateien verhindern* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
-   - Wenn die Datei einer Sammlung hinzugefügt wird, wird das **Löschen erzwingen** angezeigt, und Sie können das Löschen erzwingen.
-   - Wenn die Datei von einer anderen Datei referenziert wird, wird **Löschen erzwingen** Dialogfeld mit der Bestätigungsmeldung angezeigt, und Sie können die Datei erzwingen:
+  - Wenn die Datei einer Sammlung hinzugefügt wird, wird das **Löschen erzwingen** angezeigt, und Sie können das Löschen erzwingen.
+  - Wenn die Datei von einer anderen Datei referenziert wird, wird **Löschen erzwingen** Dialogfeld mit der Bestätigungsmeldung angezeigt, und Sie können die Datei erzwingen:
 
-     ![](images/options-menu-force-delete.png){width="300"}
+    ![](images/options-menu-force-delete.png){width="300"}
 
-     >[!NOTE]
-     >
-     > Wenn der Administrator die Berechtigung zum Löschen von Dateien erteilt hat, ist **Löschen erzwingen** aktiviert. Andernfalls ist **Löschen erzwingen** deaktiviert und es wird eine Meldung angezeigt, dass Sie nicht berechtigt sind, referenzierte Dateien zu löschen. Weitere Informationen finden Sie im Abschnitt *Verhindern des Löschens referenzierter Dateien* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
+    >[!NOTE]
+    >
+    > Wenn der Administrator die Berechtigung zum Löschen von Dateien erteilt hat, ist **Löschen erzwingen** aktiviert. Andernfalls ist **Löschen erzwingen** deaktiviert und es wird eine Meldung angezeigt, dass Sie nicht berechtigt sind, referenzierte Dateien zu löschen. Weitere Informationen finden Sie im Abschnitt *Verhindern des Löschens referenzierter Dateien* im Abschnitt Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service.
 
-   - Wenn Sie ein referenziertes Thema löschen und die Datei mit Verweisen zur Bearbeitung geöffnet haben, wird der fehlerhafte Link für die referenzierte Datei angezeigt.
+  - Wenn Sie ein referenziertes Thema löschen und die Datei mit Verweisen zur Bearbeitung geöffnet haben, wird der fehlerhafte Link für die referenzierte Datei angezeigt.
 
   >[!NOTE]
   >
@@ -467,15 +467,15 @@ Die verschiedenen Optionen im Menü „Optionen“ werden nachfolgend erläutert
 - **Generieren**: Verwenden Sie die Option, um eine Karte oder Themen innerhalb einer Karte auf einer Sites-Seite, in einem Inhaltsfragment oder in einem Experience Fragment zu veröffentlichen.
 
 - **Hinzufügen zu**: Sie können aus den folgenden Optionen auswählen:
-   - **Sammlungen**: Fügt die ausgewählte Datei zu Sammlungen hinzu. Sie können sie zu einer vorhandenen oder neuen Sammlung hinzufügen.
+  - **Sammlungen**: Fügt die ausgewählte Datei zu Sammlungen hinzu. Sie können sie zu einer vorhandenen oder neuen Sammlung hinzufügen.
 
-   - **Wiederverwendbarer Inhalt**: Fügt die ausgewählte Datei der Liste Wiederverwendbarer Inhalt im linken Bereich hinzu.
+  - **Wiederverwendbarer Inhalt**: Fügt die ausgewählte Datei der Liste Wiederverwendbarer Inhalt im linken Bereich hinzu.
 
 - **Kopieren**: Sie können aus den folgenden Optionen auswählen:
 
-   - **UUID kopieren**: Kopieren Sie die UUID der ausgewählten Datei in die Zwischenablage.
+  - **UUID kopieren**: Kopieren Sie die UUID der ausgewählten Datei in die Zwischenablage.
 
-   - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der ausgewählten Datei in die Zwischenablage.
+  - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der ausgewählten Datei in die Zwischenablage.
 
 - **Asset erneut verarbeiten**: Führt Trigger bei der Verarbeitung des ausgewählten Assets aus.
 
@@ -533,7 +533,7 @@ Die folgenden Optionen sind für eine Zuordnungsdatei in der Zuordnungsansicht v
 
 Mit dem Menü Optionen der Zuordnungsdatei können Sie die folgenden Aktionen ausführen:
 
-![](images/options-menu-map-view_cs.png){  }
+![](images/options-menu-map-view_cs.png)
 
 - **Bearbeiten**: Öffnen Sie die Zuordnungsdatei zur Bearbeitung im Zuordnungs-Editor.
 
@@ -550,21 +550,25 @@ Mit dem Menü Optionen der Zuordnungsdatei können Sie die folgenden Aktionen au
 - **Vorschau**: Öffnet eine Vorschau der Zuordnungsdatei. In dieser Ansicht werden alle Themendateien innerhalb der Zuordnung in einer einzigen, einheitlichen Seitenansicht angezeigt.
 
 - **Kopieren**: Sie können aus den folgenden Optionen auswählen:
-   - **UUID kopieren**: Kopieren Sie die UUID der Zuordnungsdatei in die Zwischenablage.
-   - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der Zuordnungsdatei in die Zwischenablage.
+  - **UUID kopieren**: Kopieren Sie die UUID der Zuordnungsdatei in die Zwischenablage.
+  - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der Zuordnungsdatei in die Zwischenablage.
 
 - **Im Explorer suchen**: Zeigt den Speicherort der Zuordnungsdatei im Explorer (oder DAM) an.
 
 - **Hinzufügen zu**: Sie können aus den folgenden Optionen auswählen:
-   - **Sammlungen**: Fügt die Zuordnungsdatei zu Sammlungen hinzu. Sie können sie zu einer vorhandenen oder neuen Sammlung hinzufügen.
+  - **Sammlungen**: Fügt die Zuordnungsdatei zu Sammlungen hinzu. Sie können sie zu einer vorhandenen oder neuen Sammlung hinzufügen.
 
-   - **Wiederverwendbarer Inhalt**: Fügt die Zuordnungsdatei zur Liste der wiederverwendbaren Inhalte im linken Bereich hinzu.
+  - **Wiederverwendbarer Inhalt**: Fügt die Zuordnungsdatei zur Liste der wiederverwendbaren Inhalte im linken Bereich hinzu.
 
 - **Eigenschaften**: Verwenden Sie diese Option, um die Eigenschaftenseite der Zuordnungsdatei zu öffnen. Sie können auf diese Eigenschaftsseite auch über die Assets-Benutzeroberfläche zugreifen, indem Sie eine Datei auswählen und in der Symbolleiste auf das Symbol Eigenschaften klicken.
 
 - **Karten-Dashboard öffnen**: Öffnet das Karten-Dashboard.
 
 - **In Assets-Benutzeroberfläche anzeigen**: Verwenden Sie diese Option, um eine Vorschau der Zuordnungsdatei in der Assets-Benutzeroberfläche anzuzeigen. In dieser Ansicht werden alle Themendateien innerhalb der Zuordnung in einer einzigen, einheitlichen Seitenansicht angezeigt.
+- **Konsistenzprüfung ausführen**: Aktivieren Sie diese Option, um Konsistenzprüfungen für die ausgewählte Zuordnung auszuführen. Weitere Informationen zu dieser Funktion finden Sie unter [Zusätzliche Funktionen im Karteneditor](./map-editor-other-features.md#run-health-check-on-a-map).
+  >[!NOTE]
+  >
+  > Diese Funktion ist standardmäßig aktiviert. Wenn Sie diese Funktion lieber nicht in Ihrer Umgebung verwenden möchten, wenden Sie sich an Ihr Customer Success-Team.
 - **Karte herunterladen**: Wählen Sie diese Option, um das Dialogfeld **Karte herunterladen** zu öffnen.
 
   Im **Karte herunterladen** können Sie die folgenden Optionen auswählen:
@@ -584,7 +588,6 @@ Mit dem Menü Optionen der Zuordnungsdatei können Sie die folgenden Aktionen au
   >[!NOTE]
   >
   >  Standardmäßig bleiben die heruntergeladenen Zuordnungen fünf Tage lang im Adobe Experience Manager-Benachrichtigungs-Posteingang.
-
 - **Zuordnungskontext schließen**: Schließt die Zuordnungsdatei.
 
 Der folgende Screenshot zeigt das Optionsmenü für eine Datei in der Kartenansicht:
@@ -606,8 +609,8 @@ Mit dem Menü Optionen können Sie die folgenden Aktionen ausführen:
 
 - **Vorschau**: Erhalten Sie eine schnelle Vorschau der Datei (.dita, .xml, Audio, Video oder Bild), ohne sie zu öffnen. Sie können die Größe des Vorschaubereichs ändern. Wenn der Inhalt `<xref>` oder `<conref>` enthält, können Sie diese auswählen, um sie in einer neuen Registerkarte zu öffnen.  Der Titel der Datei wird im Fenster angezeigt. Wenn kein Titel vorhanden ist, wird der Dateiname angezeigt. Um den Bereich **Vorschau** zu schließen, können Sie entweder das Symbol zum Schließen auswählen oder eine beliebige Stelle außerhalb des Bereichs auswählen.
 - **Kopieren**: Sie können aus den folgenden Optionen auswählen:
-   - **UUID kopieren**: Kopieren Sie die UUID der ausgewählten Datei in die Zwischenablage.
-   - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der ausgewählten Datei in die Zwischenablage.
+  - **UUID kopieren**: Kopieren Sie die UUID der ausgewählten Datei in die Zwischenablage.
+  - **Pfad kopieren**: Kopieren Sie den vollständigen Pfad der ausgewählten Datei in die Zwischenablage.
 
 
 - **Im Explorer suchen**: Zeigt den Speicherort der ausgewählten Datei im Explorer \(oder DAM\) an.
@@ -616,9 +619,9 @@ Mit dem Menü Optionen können Sie die folgenden Aktionen ausführen:
 - **Alle reduzieren**: Alle Themen ausblenden, die Teil der aktuellen Zuordnungsdatei sind.
 
 - **Hinzufügen zu**: Sie können aus den folgenden Optionen auswählen:
-   - **Sammlungen**: Fügt die ausgewählte Datei zu Sammlungen hinzu. Sie können sie zu einer vorhandenen oder neuen Sammlung hinzufügen.
+  - **Sammlungen**: Fügt die ausgewählte Datei zu Sammlungen hinzu. Sie können sie zu einer vorhandenen oder neuen Sammlung hinzufügen.
 
-   - **Wiederverwendbarer Inhalt**: Fügt die ausgewählte Datei der Liste Wiederverwendbarer Inhalt im linken Bereich hinzu.
+  - **Wiederverwendbarer Inhalt**: Fügt die ausgewählte Datei der Liste Wiederverwendbarer Inhalt im linken Bereich hinzu.
 
 - **Eigenschaften**: Hiermit können Sie die Eigenschaftsseite der ausgewählten Datei öffnen. Sie können auf diese Eigenschaftsseite auch über die Assets-Benutzeroberfläche zugreifen, indem Sie eine Datei auswählen und in der Symbolleiste auf das Symbol Eigenschaften klicken.
 
@@ -773,10 +776,10 @@ Sie können die folgenden Einstellungen des Hotspot-Tools konfigurieren:
 - **Aktion**: Sie können entweder die Glossarschlüssel (**für jedes Thema manuell)** &quot;**für alle Themen“**. Wenn Sie **Manuell für jedes Thema** auswählen, werden Sie aufgefordert, dies zu bestätigen, bevor Sie jeden Begriff in jedem Thema konvertieren. Wenn Sie **Automatisch für alle Themen** auswählen, werden alle Begriffe in allen Themen automatisch konvertiert.
 - **Konvertieren**: Sie können entweder einen gesuchten **Text in Glossarbegriff** oder **Glossarbegriff in Text konvertieren.**
 - **Optionen**: Sie können aus den folgenden Optionen auswählen:
-   - **Übereinstimmung unter Berücksichtigung von Groß**- und Kleinschreibung: Sucht nach einem Begriff, um die Übereinstimmung mit derselben Groß-/Kleinschreibung zu finden. „USB“ entspricht beispielsweise nicht „USB“.
-   - **Nur die erste Instanz konvertieren**: Wenn mehrere Instanzen des gesuchten Begriffs in einem Thema vorhanden sind, wird nur die erste Instanz konvertiert.
-   - **Datei vor Konvertierung sperren**: Die gesuchte Datei wird gesperrt, bevor die Begriffe konvertiert werden.
-   - **Neue Version nach Konvertierung erstellen**: Nach Abschluss der Konvertierung von Begriffen wird eine neue Version des Themas erstellt.
+  - **Übereinstimmung unter Berücksichtigung von Groß**- und Kleinschreibung: Sucht nach einem Begriff, um die Übereinstimmung mit derselben Groß-/Kleinschreibung zu finden. „USB“ entspricht beispielsweise nicht „USB“.
+  - **Nur die erste Instanz konvertieren**: Wenn mehrere Instanzen des gesuchten Begriffs in einem Thema vorhanden sind, wird nur die erste Instanz konvertiert.
+  - **Datei vor Konvertierung sperren**: Die gesuchte Datei wird gesperrt, bevor die Begriffe konvertiert werden.
+  - **Neue Version nach Konvertierung erstellen**: Nach Abschluss der Konvertierung von Begriffen wird eine neue Version des Themas erstellt.
 - **Weiter** wird angezeigt, wenn Sie die Option **Manuell für jedes Thema** auswählen. Wählen Sie **Weiter**, um die Begriffe für jedes Thema basierend auf den ausgewählten Einstellungen zu konvertieren. Es fordert bei jedem Thema zur Konvertierung der Begriffe auf und wechselt zur nächsten Datei. Sie können einen Begriff konvertieren oder überspringen und zum nächsten Begriff wechseln.
 
   ![](images/manual-convert-skip.png){width="300"}
@@ -1101,8 +1104,8 @@ Verwenden Sie eine der folgenden Methoden, um einen Ausschnitt einzufügen:
 
 - Wählen Sie einen Ausschnitt aus dem Snippets -Bedienfeld aus und ziehen Sie ihn per Drag-and-Drop an die gewünschte Position im Thema. Sie können auch die Filteroptionen oben im Snippets-Bedienfeld verwenden, um Ihre Ansicht zu verfeinern:
 
-   - **Alle Snippets anzeigen**: Listet alle verfügbaren Snippets auf, einschließlich DITA- und HTML-Formaten.
-   - **Nur relevante Ausschnitte anzeigen**: Filtert die Liste, um nur die Ausschnitte anzuzeigen, die für Ihr aktuelles Thema oder Ihren Kontext relevant sind. Wenn Sie z. B. an einem DITA-Thema arbeiten, werden HTML-Ausschnitte aus der Liste ausgeschlossen, um die kontextbezogene Genauigkeit sicherzustellen.
+  - **Alle Snippets anzeigen**: Listet alle verfügbaren Snippets auf, einschließlich DITA- und HTML-Formaten.
+  - **Nur relevante Ausschnitte anzeigen**: Filtert die Liste, um nur die Ausschnitte anzuzeigen, die für Ihr aktuelles Thema oder Ihren Kontext relevant sind. Wenn Sie z. B. an einem DITA-Thema arbeiten, werden HTML-Ausschnitte aus der Liste ausgeschlossen, um die kontextbezogene Genauigkeit sicherzustellen.
 
 - Platzieren Sie die Einfügemarke an der Stelle, an der Sie den Ausschnitt einfügen möchten, und wählen Sie im Menü Optionen des gewünschten Ausschnitts die Option Ausschnitt einfügen aus.
 
@@ -1195,14 +1198,14 @@ Um die globale Suche durchzuführen und durch den Source-Modus zu ersetzen, füh
    - **Dokumentstatus**: Sie können einen Dokumentstatus aus den verfügbaren Optionen auswählen. Die angezeigten Dokumentstatusoptionen werden aus den Ordnerprofilen abgeleitet. Sie stellen den kombinierten Satz aller möglichen Dokumentstatus in diesen Profilen dar. Zu den Standardstatus gehören „In Prüfung“, „Fertig“, „Entwurf“, „Genehmigt“, „Bearbeiten“ und „Überprüft“.
    - **Zuletzt geändert**: Filtern Sie den Inhalt nach dem Änderungsdatum. Wählen Sie einen Datumsbereich aus dem Kalender aus oder wählen Sie eine der folgenden Zeitrahmen-Optionen:
 
-      - In den letzten 2 Stunden
-      - In letzter Woche
-      - Im letzten Monat
-      - Im letzten Jahr
+     - In den letzten 2 Stunden
+     - In letzter Woche
+     - Im letzten Monat
+     - Im letzten Jahr
    - **Sonstige**: Sie können Folgendes konfigurieren:
-      - **Tags**: Filtern von Inhalten basierend auf Tags.
-      - **Suche unter Berücksichtigung der Groß**-/Kleinschreibung: Ermöglicht die Suche, um sicherzustellen, dass die Ergebnisse mit der angegebenen Groß-/Kleinschreibung übereinstimmen.
-      - **Von anderen gesperrte Dateien auflisten**: Zeigt Dateien an, die derzeit von anderen Benutzern gesperrt sind, und verhindert Bearbeitungen, bis die Sperre aufgehoben wird.
+     - **Tags**: Filtern von Inhalten basierend auf Tags.
+     - **Suche unter Berücksichtigung der Groß**-/Kleinschreibung: Ermöglicht die Suche, um sicherzustellen, dass die Ergebnisse mit der angegebenen Groß-/Kleinschreibung übereinstimmen.
+     - **Von anderen gesperrte Dateien auflisten**: Zeigt Dateien an, die derzeit von anderen Benutzern gesperrt sind, und verhindert Bearbeitungen, bis die Sperre aufgehoben wird.
 
 1. Drücken Sie die Eingabetaste oder wählen Sie **Suchen**-Symbol aus, um die Suche durchzuführen.
 
@@ -1365,8 +1368,8 @@ Führen Sie die folgenden Schritte aus, um die Prüfungskommentare in den aktive
 
      Das **Filter**-Dialogfeld enthält auch die folgenden Optionen, die mithilfe des Umschalters aktiviert oder deaktiviert werden können:
 
-      - **Von mir initiierte Aufgaben**: Zeigt bei Aktivierung nur die von Ihnen initiierten Aufgaben an.
-      - **Nur aktive Aufgaben anzeigen**: Wenn diese Option aktiviert ist, wird die Projektliste so gefiltert, dass nur die derzeit aktiven Aufgaben angezeigt werden.
+     - **Von mir initiierte Aufgaben**: Zeigt bei Aktivierung nur die von Ihnen initiierten Aufgaben an.
+     - **Nur aktive Aufgaben anzeigen**: Wenn diese Option aktiviert ist, wird die Projektliste so gefiltert, dass nur die derzeit aktiven Aufgaben angezeigt werden.
 
      Standardmäßig sind beide Optionen deaktiviert. Außerdem wird der ausgewählte Umschaltstatus auch nach dem Aktualisieren der Seite beibehalten.
 

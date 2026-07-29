@@ -12,18 +12,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f6b42924258ff1092eb492dfdcc348f9247886f7
+source-git-commit: 7d0c757b647a2e6c5e563f0ed7db6a7225769033
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
 # Anfordern einer erneuten Überprüfung oder Schließen einer Prüfungsaufgabe als Autor
-
->[!IMPORTANT]
->
-> Die in diesem Artikel beschriebenen neuen Funktionen sind standardmäßig in der Version 2508 von Experience Manager Guides as a Cloud Service aktiviert. Überprüfungen, die vor der Migration erstellt wurden, sind nicht betroffen und verwenden weiterhin den früheren Workflow. Wenn Sie es vorziehen, die vorhandenen Funktionen ohne diese Aktualisierungen weiterhin zu verwenden, wenden Sie sich an Ihr Customer Success-Team, damit die neuen Funktionen deaktiviert werden.
 
 Wenn eine Prüfungsaufgabe von einem Reviewer als abgeschlossen markiert wird, wird eine Benachrichtigung an den Aufgabeninitiator ausgelöst, damit dieser auf die Aufgabe und die zugehörigen Kommentare auf Aufgabenebene zugreifen und diese überprüfen kann.
 
@@ -31,6 +27,10 @@ Als Initiator der Prüfungsaufgabe können Sie dann anhand des Feedbacks entsche
 
 - Erneute Überprüfung anfordern
 - Prüfungsaufgabe schließen
+
+>[!NOTE]
+>
+> Wenn die Funktion „Delegieren“ für Ihre Umgebung aktiviert ist, kann ein Reviewer auch anfordern, [einen weiteren Reviewer zur Überprüfungsaufgabe hinzuzufügen](./review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer). Solche Anfragen werden in Form von Benachrichtigungen in Ihrem AEM-Posteingang angezeigt. Wenn der empfohlene Validierungsverantwortliche nicht Teil des zugehörigen Projekts ist, haben Sie die Möglichkeit, diese Elemente zuerst zum Projekt hinzuzufügen. Andernfalls werden Sie zur Registerkarte **VALIDIERUNGSVERANTWORTLICHE** auf der Seite **Aufgabendetails** weitergeleitet, um den empfohlenen Validierungsverantwortlichen zur Überprüfungsaufgabe hinzuzufügen. Die Entscheidung, den empfohlenen Validierungsverantwortlichen hinzuzufügen, liegt immer bei Ihnen als Initiator der Prüfungsaufgabe.
 
 ## Anfordern einer erneuten Überprüfung oder Schließen einer Prüfungsaufgabe
 

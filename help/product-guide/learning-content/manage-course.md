@@ -13,9 +13,9 @@ feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -47,11 +47,16 @@ Der ausgewählte Inhalt wird erstellt und dem Kurs hinzugefügt. Eine Videoüber
 Sie können vorhandene Inhalte aus Ihrem Inhalts-Repository zu Ihrem Kurs hinzufügen. Führen Sie die folgenden Schritte aus, um vorhandenen Inhalt hinzuzufügen:
 
 1. Wählen Sie das Menü **Optionen** > **Vorhandenes hinzufügen** aus.
-2. Wählen Sie den Typ des Kursinhalts aus, den Sie erstellen möchten.
-3. Navigieren **im Dialogfeld &quot;** auswählen“ zum Speicherort der Inhalte und wählen Sie die gewünschten Lerninhalte aus.
+1. Wählen Sie den Typ des Kursinhalts aus, den Sie erstellen möchten.
+1. Navigieren **im Dialogfeld &quot;** auswählen“ zum Speicherort der Inhalte und wählen Sie die gewünschten Lerninhalte aus.
 
-   ![](assets/add-existing-learning-content.png)
-4. Wählen Sie **Auswählen** aus.
+>[!NOTE]
+>
+> Wenn Sie ein HTML-Thema zu einer Lerngruppenzuordnung hinzufügen, wird das `format="html"` automatisch zum entsprechenden `topicref` in der Zuordnung hinzugefügt. Dadurch wird sichergestellt, dass das Thema korrekt verarbeitet und veröffentlicht wird.
+
+![](assets/add-existing-learning-content.png)
+
+1. Wählen Sie **Auswählen** aus.
 
 Der ausgewählte Kursinhalt wird dem Kurs aus dem Repository hinzugefügt.
 
