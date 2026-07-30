@@ -2,7 +2,7 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 5.2.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 5.2.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 166dd4eec428d81bfe3db92ebc5a54f1760fe7dc
+source-git-commit: 5da6c5239a4118d00f3a40707759950483aafdd8
 workflow-type: tm+mt
 source-wordcount: '4052'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Eine aktualisierte Benutzeroberfläche verbessert die allgemeine Benutzerfreundl
 
 - **Konsolidierte Editor-Einstellungen auf Benutzerebene**: Ein neues zentralisiertes Einstellungsbedienfeld, das Autorinnen und Autoren eine bessere Kontrolle über das Editor-Verhalten bietet, sodass Benutzerinnen und Benutzer Voreinstellungen leichter von einem einzigen Ort aus verwalten können. Zu den Konfigurationsoptionen gehören die Möglichkeit, Folgendes zu aktivieren/deaktivieren:
 
-   - Geschützte Leerzeichen im Autorenmodus
-   - Einstellungen für die Tag-Sichtbarkeit mit oder ohne Attribute
-   - XML-Kommentare im Autorenmodus
-   - Menü „Schnelleinfügung“ zum Einfügen von Elementen im Editor
+  - Geschützte Leerzeichen im Autorenmodus
+  - Einstellungen für die Tag-Sichtbarkeit mit oder ohne Attribute
+  - XML-Kommentare im Autorenmodus
+  - Menü „Schnelleinfügung“ zum Einfügen von Elementen im Editor
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -78,9 +78,9 @@ Bietet verbesserte Tools und Flexibilität, um die Erstellung und Bearbeitung vo
 
 - **Verbessertes Tabellen-Authoring**: Verbessert das allgemeine Erlebnis beim Erstellen von Tabellen durch intuitivere und effizientere Interaktionen beim Erstellen und Verwalten von Tabellen.
 
-   - Fließende und intuitive Interaktionen: Einfaches Einfügen von Zeilen und Spalten sowie Drag-and-Drop-Unterstützung für die Neuanordnung von Zeilen und Spalten.
-   - Kontextuelle Symbolleiste : Greifen Sie auf tabellenspezifische Aktionen wie Formatierung, Ausrichtung, Zusammenführung und andere zusätzliche Aktionen direkt in der Tabelle zu.
-   - Konfigurieren von Tabellen: Mehrere Zeilen oder Spalten in einer Aktion hinzufügen, wodurch sich wiederholende Schritte reduzieren und die Effizienz verbessert wird.
+  - Fließende und intuitive Interaktionen: Einfaches Einfügen von Zeilen und Spalten sowie Drag-and-Drop-Unterstützung für die Neuanordnung von Zeilen und Spalten.
+  - Kontextuelle Symbolleiste : Greifen Sie auf tabellenspezifische Aktionen wie Formatierung, Ausrichtung, Zusammenführung und andere zusätzliche Aktionen direkt in der Tabelle zu.
+  - Konfigurieren von Tabellen: Mehrere Zeilen oder Spalten in einer Aktion hinzufügen, wodurch sich wiederholende Schritte reduzieren und die Effizienz verbessert wird.
 
   ![](assets/config-table.png){width="650"}
 
@@ -415,7 +415,7 @@ Weitere Informationen finden Sie unter [Neues Baseline-Erlebnis (Beta) in Experi
 
 Im Rahmen dieser Version wurden die folgenden API-Verbesserungen vorgenommen:
 
-- Es werden neue APIs eingeführt, um ein neues Übersetzungsprojekt zu erstellen und dessen Status zu verfolgen. Diese APIs helfen bei der Automatisierung des Übersetzungsprozesses, reduzieren den manuellen Aufwand und verbessern die Effizienz. Weitere Informationen finden Sie unter [Übersetzungsprojekt erstellen](../api-reference/translation-project.md)
+- Es werden neue APIs eingeführt, um ein neues Übersetzungsprojekt zu erstellen und dessen Status zu verfolgen. Diese APIs helfen bei der Automatisierung des Übersetzungsprozesses, reduzieren den manuellen Aufwand und verbessern die Effizienz. Weitere Informationen finden Sie unter [Übersetzungsprojekt erstellen](../api-reference/api-update-swagger.md).
 - Verbesserte Asset-Verarbeitungs-APIs mit verbesserter Filterfunktion für Dateien und Ordner. Weitere Informationen finden Sie unter [Assets verarbeiten](../api-reference/bulk-assets-processing.md).
 - Eine neue API ist verfügbar, um den Nachbearbeitungsstatus einzelner Assets und Ordner zu verfolgen. Dies ist besonders nützlich für Teams, die automatisierte Workflows verwenden, bei denen die Veröffentlichung erst erfolgen muss, nachdem die Inhalte vollständig verarbeitet wurden. Die -API bietet eine zuverlässige Möglichkeit, die Bereitschaft zu bestätigen, wodurch das Risiko von Veröffentlichungsfehlern, die durch eine unvollständige Verarbeitung verursacht werden, reduziert wird. Außerdem werden mit der Einführung dieser API die Asset-Nachbearbeitungs-Ereignisse nicht automatisch ausgelöst. Stattdessen können Administratoren dieses Ereignis jetzt über eine Einstellung in `fmdita config manager` aktivieren.
 Weitere Informationen finden Sie unter [API zum Nachverfolgen des Nachbearbeitungsstatus einzelner Assets und Ordner](../api-reference/track-post-processing-status.md) und [Einstellung des Nachbearbeitungs-Ereignishandlers im fmdita-Konfigurations-Manager](../api-reference/post-process-event.md)
