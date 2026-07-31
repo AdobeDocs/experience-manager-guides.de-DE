@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 4788cae8de3b93a008b83f8be6a42fd675b21906
+source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2578'
 ht-degree: 11%
 
 ---
@@ -591,7 +591,8 @@ ht-degree: 11%
   - [API zum Nachverfolgen des Verarbeitungsstatus für einen Ordner oder ein Asset](./api-reference/track-post-processing-status.md)
   - [API zum Starten der Massenverarbeitung für Assets](./api-reference/bulk-assets-processing.md)
   - [Massenaktivierung - vollständiger Ereignishandler](./api-reference/bulk-activation-complete-event.md)
-  - [Konversionsprozess-Ereignishandler](./api-reference/conversion-complete-event.md)
+  - [Ereignishandler für Konversionsprozess](./api-reference/conversion-complete-event.md)
+  - [Übersetzungsprojekt erstellen](./api-reference/create-translation-project.md)
 - Knowledge Base {#knowledge-base}
   - Expertensitzung {#expert-session}
     - [Expertensitzung - Übersicht](./knowledge-base/expert-sessions/expert-session.md)
