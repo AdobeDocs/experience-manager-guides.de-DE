@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 source-git-commit: 75954eab3ac1738705fe2a7280973af39b9214df
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 0%
+source-wordcount: '2006'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Dieses Handbuch hilft Erweiterungsautoren zu verstehen, was beim Verschieben ihr
 ## Überblick
 
 - **Ihre Registrierung ändert sich nicht**: Verwenden Sie weiterhin `window.extension` / `tcx.extension.register`.
-- **Die Arbeitsfläche des Editors ist eine neue Oberfläche.** Kontextmenüelemente müssen die neue Widget-ID deklarieren.
+- **Die Arbeitsfläche des Editors ist eine neue Oberfläche.** Kontextmenüelemente müssen die neue Widget-ID deklarieren
   `markup_editor_menu`; Das Verhalten im Editor muss aufhören, das DOM zu berühren.
 - **Lesen/Schreiben des DOM beenden**: Ersetzen Sie `tcx.curEditor.*` DOM-Zugriff durch
   `guides.editor`-API: [Lesen mit `runUtil(...)`](#migrate-reads-dom-runutil), [Schreiben mit `runCommand(...)`](#migrate-writes-dom-mutation-runcommand), [Stil mit Dekorationen](#migrate-rendering-only-logic-dom-paint-decorations) und [Ausführen globaler Aktionen (Speichern) durch App-Ereignisse](#migrate-global-actions-savefocus-app-events) .
