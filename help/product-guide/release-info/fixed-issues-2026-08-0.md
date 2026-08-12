@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 2026.08.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2026.08.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 11d5db19cc352a3750754099a11290e4c0da0846
+source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1218'
 ht-degree: 1%
 
 ---
@@ -95,6 +95,7 @@ Adobe hat die folgenden bekannten Probleme in Version 2026.08.0 identifiziert:
 - Eine MathML-Gleichung, die in einen `foreign`- und `equation`-Block eingeschlossen ist, führt zu unerwünschten Abständen, und die Eingabe in die Gleichung verursacht Probleme, selbst wenn die Einrückung angepasst wird. (GUIDES-46606)
 - Es ist nicht möglich, einen Cursor innerhalb eines `topicref` innerhalb eines `reltable` zu platzieren, wenn die Option **Tags anzeigen** aktiviert ist und die Option **Attribute anzeigen** in den Editor-Einstellungen deaktiviert ist. (GUIDES-46565)
 - Durch Ziehen und Ablegen eines Verweises in eine leere `keydef` wird ein `topicref`-Element hinzugefügt, anstatt den Verweis zu aktualisieren. (GUIDES-45068)
+- Leerzeichen, die unmittelbar vor dem Löschen eines Inline-Tags in einer Tabellenzelle eingegeben `<entry>`. (GUIDES-49144)
 
 ## Publishing
 
