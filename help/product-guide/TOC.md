@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+source-git-commit: 40ec0c4ba2bb7fae03dfae32c555f03311f1de64
 workflow-type: tm+mt
 source-wordcount: '2578'
 ht-degree: 11%
@@ -216,8 +216,8 @@ ht-degree: 11%
   - Einführung {#about-aemg}
     - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
-      - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Startseite {#home-page}
     - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
     - [Repository-Schnittstelle](./user-guide/home-page-repository-view.md)
@@ -427,7 +427,7 @@ ht-degree: 11%
       - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
       - [Zeichenfolge ist eine zu lange Ausnahme beim Metadatenexport](./user-guide/metadata-export-failure.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-conf-guide}
   - [Herunterladen, Installieren und Aktualisieren](./install-conf-guide/introduction.md)
   - Installationsprozess für Cloud Service {#deploy-conf-aemg-cs}
@@ -550,7 +550,7 @@ ht-degree: 11%
         - [Hinzufügen eines benutzerdefinierten Lesezeichens in der PDF-Ausgabe](./native-pdf/add-custom-bookmark.md)
         - [Verwenden von JavaScript zum Arbeiten mit Inhalten oder Stilen](./native-pdf/use-javascript-content-style.md)
         - [Anwenden von Stilen auf Fußnoten](./native-pdf/footnote-number-style.md)
-      - [Konfigurieren der neuen Veröffentlichungs-Engine für Native PDF](./native-pdf/conf-new-pdf-engine.md)
+        - [Konfigurieren der neuen Veröffentlichungs-Engine für Native PDF](./native-pdf/conf-new-pdf-engine.md)
       - [Arbeiten mit der nativen PDF-Engine v2](./native-pdf/new-pdf-engine.md)
       - [Konfigurieren des Knotenprozesses für die native PDF-Veröffentlichung für Cloud Service](./native-pdf/conf-node-options-cs.md)
       - [Konfigurieren von JVM-Flags für native PDF-Veröffentlichung für On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
@@ -619,7 +619,7 @@ ht-degree: 11%
   - Artikel {#kb-articles}
     - [Überblick](./knowledge-base/kb-articles/introduction.md)
     - Authoring {#authoring}
-      - Bearbeiter {#webeditor}
+      - Editor {#webeditor}
         - [Wiederverwendbarkeit von Inhalten in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
         - [Verwenden von Markdown in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
         - Anpassung {#customizing}
