@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 2026.08.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2026.08.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9e4af58e571659d9ed92308d3629a193d5558417
+source-git-commit: 6872e4298df8e51a3c46845793d4dad23f92eddb
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1200'
 ht-degree: 1%
 
 ---
@@ -85,16 +85,16 @@ Adobe hat die folgenden bekannten Probleme in Version 2026.08.0 identifiziert:
 ## Authoring
 
 - Das Schließen einer DITAVAL-Datei, die an einen anderen Speicherort verschoben wurde, führt zu einer `ERROR IN FETCHING VERSION DETAILS`. (GUIDES-51420)
+- Die Konflikt-API schlägt fehl und führt zu einem Anwendungsfehler, wenn der Repository-Ordnerpfad mit einem Schrägstrich endet. (GUIDES-51006)
 
 ## Editor 2.0
 
 
-- Die Konflikt-API schlägt fehl und führt zu einem Anwendungsfehler, wenn der Repository-Ordnerpfad mit einem Schrägstrich endet. (GUIDES-51006)
 - Wenn Sie in der Gliederungsansicht ein Verarbeitungsanweisungselement auswählen, wird das gesamte übergeordnete Tag anstelle des ausgewählten Elements hervorgehoben. (GUIDES-48318)
 - Beim Bearbeiten eines Keywords innerhalb eines `keyref` in der Quellansicht wird das Keyword unterbrochen, wenn die Ansicht zu einer anderen Ansicht gewechselt wird. (GUIDES-49998)
 - Eine MathML-Gleichung, die in einen `foreign`- und `equation`-Block eingeschlossen ist, führt zu unerwünschten Abständen, und die Eingabe in die Gleichung verursacht Probleme, selbst wenn die Einrückung angepasst wird. (GUIDES-46606)
 - Es ist nicht möglich, einen Cursor innerhalb eines `topicref` innerhalb eines `reltable` zu platzieren, wenn die Option **Tags anzeigen** aktiviert ist und die Option **Attribute anzeigen** in den Editor-Einstellungen deaktiviert ist. (GUIDES-46565)
-- Durch Ziehen und Ablegen eines Verweises in eine leere `keydef` wird ein `topicref`-Element hinzugefügt, anstatt den Verweis zu aktualisieren. (GUIDES-45068)
+
 - Leerzeichen, die unmittelbar vor dem Löschen eines Inline-Tags in einer Tabellenzelle eingegeben `<entry>`. (GUIDES-49144)
 
 ## Publishing
