@@ -42,17 +42,17 @@ Verwenden Sie das Datenquellen-Tool in Experience Manager Guides, um einen Git-C
    >* Bewegen Sie den Mauszeiger über <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> in der Nähe des Felds, um weitere Details dazu anzuzeigen.
    >* Felder mit * sind Pflichtfelder. Sie können beispielsweise die folgenden Details für den Git-Connector eingeben.
 
-   - **Name**: Geben Sie den Namen der Datenquelle ein.
-   - **Target AEM-Stammverzeichnis**: Geben Sie den Pfad im AEM-Repository ein, in dem aus Git importierte Inhalte gespeichert werden sollen.
-   - **Dateitypfilter (Einbeziehung)**: Geben Sie die Dateitypen an, die beim Import einbezogen werden sollen.
-   - **Ausgeschlossener Pfad (Regex)**: Geben Sie Pfadmuster an, die vom Import ausgeschlossen werden sollen.
-   - **Authentifizierungstyp**: Wählen Sie in der Dropdown-Liste den Authentifizierungstyp aus. Derzeit ist **Personal Access Token (PAT)** die einzige unterstützte Authentifizierungsmethode. Geben Sie den Pfad während der Connector-Einrichtung ein, um sich zu authentifizieren und auf das Git-Repository zuzugreifen.
+   &#x200B;- **Name**: Geben Sie den Namen der Datenquelle ein.
+   &#x200B;- **Target AEM-Stammverzeichnis**: Geben Sie den Pfad im AEM-Repository ein, in dem aus Git importierte Inhalte gespeichert werden sollen.
+   &#x200B;- **Dateitypfilter (Einbeziehung)**: Geben Sie die Dateitypen an, die beim Import einbezogen werden sollen.
+   &#x200B;- **Ausgeschlossener Pfad (Regex)**: Geben Sie Pfadmuster an, die vom Import ausgeschlossen werden sollen.
+   &#x200B;- **Authentifizierungstyp**: Wählen Sie in der Dropdown-Liste den Authentifizierungstyp aus. Derzeit ist **Personal Access Token (PAT)** die einzige unterstützte Authentifizierungsmethode. Geben Sie den Pfad während der Connector-Einrichtung ein, um sich zu authentifizieren und auf das Git-Repository zuzugreifen.
 
      Erfahren Sie, wie Sie [ein persönliches GitHub-Zugriffstoken generieren](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
      Stellen Sie beim Auswählen von Bereichen während der PAT-Generierung auf GitHub sicher, dass Sie die folgenden Bereiche aktivieren:
-     - **repo**: Aktivieren Sie das Kontrollkästchen der obersten Ebene. Alle Unterbereiche werden automatisch ausgewählt und gewähren Zugriff auf Repository-Inhalte, Commit-Status und Bereitstellungen.
-     - **admin:org**: Wählen Sie nur **lesen:org**. Dies ist erforderlich, um die Organisation und die Team-Mitgliedschaft zu klären.
+     &#x200B;- **repo**: Aktivieren Sie das Kontrollkästchen der obersten Ebene. Alle Unterbereiche werden automatisch ausgewählt und gewähren Zugriff auf Repository-Inhalte, Commit-Status und Bereitstellungen.
+     &#x200B;- **admin:org**: Wählen Sie nur **lesen:org**. Dies ist erforderlich, um die Organisation und die Team-Mitgliedschaft zu klären.
    * **Repository-URL**: Geben Sie die Git-Repository-URL ein, aus der Inhalte importiert werden sollen.
    * **Verzweigung**: Geben Sie die Verzweigung ein, die für den Inhaltsimport verwendet werden soll.
 
