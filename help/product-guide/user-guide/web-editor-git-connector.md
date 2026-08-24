@@ -4,23 +4,14 @@ description: Erfahren Sie, was der Git-Connector in Experience Manager Guides tu
 feature: Authoring, Features of Web Editor
 role: User
 TQID: https://experienceleague.adobe.com/DDAXW8cUFjvHUeJIbtL6FaHYSU7NW5fkzTai-7n90ms
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-subfeature_v2:
-  - id: ad602516-aca3-4247-9ae8-f393d958efa9
-  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
-  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f8123b54fae2aa209efda73abb333e63cf722708
 workflow-type: tm+mt
-source-wordcount: 1352
+source-wordcount: 1409
 ht-degree: 0%
 
 ---
@@ -115,7 +106,9 @@ Führen Sie die folgenden Schritte aus, um Inhalte aus einem Git-Repository zu i
 
    >[!NOTE]
    >
-   > Sie können **Automatische Synchronisierung** aktivieren, um Inhalte aus Ihrem Git-Repository automatisch zu synchronisieren und in Experience Manager Guides zu importieren. Wenn Fehler erkannt werden, wird die automatische Synchronisierung nicht ausgelöst und der Autor muss den Inhalt manuell importieren, indem er **Alle importieren)**. Nach der Aktivierung kann die automatische Synchronisierung für das Import-Tool nicht mehr deaktiviert werden.
+   > Wenn Sie eine Git-Connector-Version vor 1.0.1 verwenden, kann der Import eines Repositorys, das Git-Untermodule enthält, während des Abrufvorgangs fehlschlagen. Aktualisieren Sie auf Git-Connector Version 1.0.1 oder höher, um dieses Problem zu vermeiden. Ab Version 1.0.1 werden Git-Untermodule beim Klonen und Importieren übersprungen. Es werden nur Inhalte aus dem Haupt-Repository importiert.
+
+1. *(Optional)* Sie können **Automatische Synchronisierung** aktivieren, um Inhalte aus Ihrem Git-Repository automatisch zu synchronisieren und in Experience Manager Guides zu importieren. Wenn Fehler erkannt werden, wird die automatische Synchronisierung nicht ausgelöst und der Autor muss den Inhalt manuell importieren, indem er **Alle importieren)**. Nach der Aktivierung kann die automatische Synchronisierung für das Import-Tool nicht mehr deaktiviert werden.
 
 Nachdem der Inhalt importiert wurde, wird er beim Einrichten **Git-Connectors unter dem konfigurierten** Target-AEM-Stammverzeichnis“ gespeichert.
 
