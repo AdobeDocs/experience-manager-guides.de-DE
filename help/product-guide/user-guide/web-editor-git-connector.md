@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: f8123b54fae2aa209efda73abb333e63cf722708
 workflow-type: tm+mt
-source-wordcount: 1352
+source-wordcount: 1409
 ht-degree: 0%
 
 ---
@@ -115,7 +115,9 @@ Führen Sie die folgenden Schritte aus, um Inhalte aus einem Git-Repository zu i
 
    >[!NOTE]
    >
-   > Sie können **Automatische Synchronisierung** aktivieren, um Inhalte aus Ihrem Git-Repository automatisch zu synchronisieren und in Experience Manager Guides zu importieren. Wenn Fehler erkannt werden, wird die automatische Synchronisierung nicht ausgelöst und der Autor muss den Inhalt manuell importieren, indem er **Alle importieren)**. Nach der Aktivierung kann die automatische Synchronisierung für das Import-Tool nicht mehr deaktiviert werden.
+   > Wenn Sie eine Git-Connector-Version vor 1.0.1 verwenden, kann der Import eines Repositorys, das Git-Untermodule enthält, während des Abrufvorgangs fehlschlagen. Aktualisieren Sie auf Git-Connector Version 1.0.1 oder höher, um dieses Problem zu vermeiden. Ab Version 1.0.1 werden Git-Untermodule beim Klonen und Importieren übersprungen. Es werden nur Inhalte aus dem Haupt-Repository importiert.
+
+1. *(Optional)* Sie können **Automatische Synchronisierung** aktivieren, um Inhalte aus Ihrem Git-Repository automatisch zu synchronisieren und in Experience Manager Guides zu importieren. Wenn Fehler erkannt werden, wird die automatische Synchronisierung nicht ausgelöst und der Autor muss den Inhalt manuell importieren, indem er **Alle importieren)**. Nach der Aktivierung kann die automatische Synchronisierung für das Import-Tool nicht mehr deaktiviert werden.
 
 Nachdem der Inhalt importiert wurde, wird er beim Einrichten **Git-Connectors unter dem konfigurierten** Target-AEM-Stammverzeichnis“ gespeichert.
 

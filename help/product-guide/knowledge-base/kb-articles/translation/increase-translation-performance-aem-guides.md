@@ -12,9 +12,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: 4f263fb5c60be66c1ec2d30d57dfb8f5be06eb92
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: 289
 ht-degree: 0%
 
 ---
@@ -30,18 +30,18 @@ Bei jedem Übersetzungsprojekt werden mehrere Benutzergruppen für den Zugriff g
 ## Wenn Sie einen älteren Build als 4.6 (On-Premise) oder 2404 (Cloud) verwenden:
 
 - Markieren Sie alle Projekte als „inaktiv“, sobald die Übersetzung abgeschlossen und genehmigt ist.Das Projekt steht weiterhin zur Überprüfung zur Verfügung und wird einfach als inaktiv markiert.
-   - Die folgenden Schritte helfen, die Gesamtleistung der Übersetzung bei gutem Zustand zu erhalten.
-     ![Inaktive Übersetzungsprojekt-](../assets/translation/translation-project-image1.png)
+  - Die folgenden Schritte helfen, die Gesamtleistung der Übersetzung bei gutem Zustand zu erhalten.
+    ![Inaktive Übersetzungsprojekt-](./assets/translation-project-image1.png)
 
 - Bei älteren Projekten sollte der Ordner, der als inaktiv markiert, genehmigt und überprüft ist, gelöscht werden
-   - Die folgenden Schritte helfen Ihnen, die Gesamtübersetzungsleistung in einem guten Zustand zu halten, indem sie temporäre Übersetzungsdateien und Benutzergruppen bereinigen, die mit diesem Projektordner verknüpft sind.
-     ![Übersetzungsprojekt und Ordner löschen &#x200B;](../assets/translation/translation-project-image2.png)
+  - Die folgenden Schritte helfen Ihnen, die Gesamtübersetzungsleistung in einem guten Zustand zu halten, indem sie temporäre Übersetzungsdateien und Benutzergruppen bereinigen, die mit diesem Projektordner verknüpft sind.
+    ![Übersetzungsprojekt und Ordner löschen &#x200B;](./assets/translation-project-image2.png)
 
 
 ## Wenn Sie eingeschaltet sind, erstellen Sie 4.6 oder 2404 oder höher:
 
 Sie können weiterhin die oben genannten Schritte ausführen. Ab Version 4.6/2404 führt AEM Guides eine Editor-Einstellung für Admins ein, um das automatische Löschen von Übersetzungsprojekten zu deaktivieren.
 
-Verweis : [Ein abgeschlossenes Übersetzungsprojekt automatisch löschen oder deaktivieren](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project)
+Verweis : [Ein abgeschlossenes Übersetzungsprojekt automatisch löschen oder deaktivieren](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![Automatisierte Einstellungen zum Löschen und Deaktivieren von Übersetzungsprojekten in AEM Guides &#x200B;](../assets/translation/translation-project-image3.png)
+![Automatisierte Einstellungen zum Löschen und Deaktivieren von Übersetzungsprojekten in AEM Guides &#x200B;](./assets/translation-project-image3.png)

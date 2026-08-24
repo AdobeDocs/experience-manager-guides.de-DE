@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Experience Manager Guides ein Git konfigur
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: eb30be6342a50ba52e8afd8b4a31148b3ad9c340
+source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Verwenden Sie das Datenquellen-Tool in Experience Manager Guides, um einen Git-C
    >[!TIP]
    >
    >* Bewegen Sie den Mauszeiger über <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> in der Nähe des Felds, um weitere Details dazu anzuzeigen.
-   >* Felder mit * sind Pflichtfelder. Sie können beispielsweise die folgenden Details für den Elasticsearch-Connector eingeben.
+   >* Felder mit * sind Pflichtfelder. Sie können beispielsweise die folgenden Details für den Git-Connector eingeben.
 
    &#x200B;- **Name**: Geben Sie den Namen der Datenquelle ein.
    &#x200B;- **Target AEM-Stammverzeichnis**: Geben Sie den Pfad im AEM-Repository ein, in dem aus Git importierte Inhalte gespeichert werden sollen.
@@ -70,13 +70,17 @@ Verwenden Sie das Datenquellen-Tool in Experience Manager Guides, um einen Git-C
 
 Bevor der Git-Connector auf der Seite **Datenquellen“ konfiguriert** kann, muss er als Abhängigkeit in Ihr AEM-Projekt eingebettet werden. Führen Sie die folgenden Schritte aus, um die Abhängigkeit hinzuzufügen:
 
+>[!NOTE]
+>
+> Um die verfügbaren Git-Connector-Versionen anzuzeigen, rufen Sie [Maven Central Repository](https://central.sonatype.com/artifact/com.adobe.aem.addon.guides/konnect-github) auf.
+
 1. Fügen Sie in der `all/pom.xml` Ihres AEM-Projekts den Git-Connector als Abhängigkeit unter `<dependencies>` hinzu:
 
    ```xml
    <dependency>
        <groupId>com.adobe.aem.addon.guides</groupId>
        <artifactId>konnect-github</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
    ```
 
