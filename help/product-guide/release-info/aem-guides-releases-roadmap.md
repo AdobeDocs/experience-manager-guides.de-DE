@@ -12,9 +12,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 029e68ca746583f2e3d30918f6785333beb3d01c
+source-git-commit: adb7c873e590d1886288bf23847b7740b502913f
 workflow-type: tm+mt
-source-wordcount: 929
+source-wordcount: 931
 ht-degree: 37%
 
 ---
@@ -76,7 +76,7 @@ Folgende Produktaktualisierungen in Bezug auf neue Funktionen, Verbesserungen un
 
 | Freigabe | Ereignis | Zeitplan | Neue Funktionen | Upgrade-Anweisungen | Status |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.2.0 | Service Pack 1 | &#x200B;1. September 2026 | – | – | Ziel |
+| Adobe Experience Manager Guides 5.2.0 | Service Pack 1 | ~ 3. September-Woche 2026 | – | – | Ziel |
 | Adobe Experience Manager Guides 5.2.0 | Service Pack 3 | &#x200B;17. November 2026 | – | – | Ziel |
 | Adobe Experience Manager Guides 5.3.0 | Freigabe | &#x200B;20. Januar 2027 | – | – | Ziel |
 
