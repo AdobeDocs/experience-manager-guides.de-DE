@@ -6,19 +6,23 @@ exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
 TQID: https://experienceleague.adobe.com/wlMdLsi-ssGu3iOQjq64vwgPg3c-kEfG6-W6hawzQE4
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 64a36067e35da78972ae275b49f536a910ad8644
+    internal-label: Developer
+source-git-commit: 244642e60f489789379feeba34f0d5fc80e18ce1
 workflow-type: tm+mt
-source-wordcount: 929
+source-wordcount: '929'
 ht-degree: 38%
-
 ---
-
 # [!DNL Experience Manager Guides] Versionsinformationen {#aem-guides-releases-roadmap}
 
 [!DNL Adobe Experience Manager Guides] bietet Benutzenden, die [!DNL Cloud Service]- und On-Premise-Angebote (oder Managed Services) des Produkts nutzen, kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. In diesem Artikel werden die kommenden Versionen von [!DNL Experience Manager Guides] aufgeführt.
@@ -35,8 +39,8 @@ Die Versionen für Experience Manager Guides as a Cloud Service sind wie folgt g
 
 | Freigabe | Ereignis | Zeitplan | Neue Funktionen | Upgrade-Anweisungen | Behobene Probleme | Status |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2026.09.0 | Automatische Aktualisierung | &#x200B;14. bis 16. September 2026 | – | – | – | Ziel |
-| Adobe Experience Manager Guides 2026.10.0 | Automatische Aktualisierung | &#x200B;26. bis 28. Oktober 2026 | – | – | – | Ziel |
+| Adobe Experience Manager Guides 2026.09.0 | Automatische Aktualisierung | &#x200B;28. bis 30. September 2026 | – | – | – | Ziel |
+| Adobe Experience Manager Guides 2026.11.0 | Automatische Aktualisierung | &#x200B;8. bis 10. November 2026 | – | – | – | Ziel |
 | Adobe Experience Manager Guides 2026.12.0 | Automatische Aktualisierung | &#x200B;7. bis 9. Dezember 2026 | – | – | – | Ziel |
 
 
