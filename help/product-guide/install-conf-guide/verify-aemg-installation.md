@@ -55,6 +55,6 @@ Führen Sie die folgenden Schritte aus, um die Installation zu überprüfen:
 
 >[!IMPORTANT]
 >
-> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden [ unter „Empfehlungen ](perf-optimization-on-prem.md#) Leistungsoptimierung“.
+> Es gibt eine Reihe von Empfehlungen zur Leistungsoptimierung, die Sie zur Verbesserung der Systemleistung in Betracht ziehen können. Weitere Informationen finden [&#x200B; unter „Empfehlungen &#x200B;](perf-optimization-on-prem.md#) Leistungsoptimierung“.
 
 >[!ENDTABS]
