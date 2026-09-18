@@ -1,0 +1,202 @@
+---
+title: Dokumentation zu Experience Manager Guides
+description: Hier finden Sie die Dokumentation zu Adobe Experience Manager Guides. Erfahren Sie mehr über die native DITA-Unterstützung, strukturiertes Authoring und Multi-Channel-Publishing in Experience Manager.
+feature: AEM Guides Tutorials
+role: User
+TQID: https://experienceleague.adobe.com/S4wTM-7gfU7D-JfKVbb9nK3qoQIG6PdiY7jtpsc6kDs
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+    internal-label: Reports
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: aad65a09-20cc-4780-ad44-329d14dc8481
+    internal-label: Workflows
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+    internal-label: Content reuse
+source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 6%
+---
+# Dokumentation zu Experience Manager Guides
+
+Experience Manager Guides ist ein CCMS im Unternehmensmaßstab mit nativer DITA-Unterstützung für strukturiertes Authoring, Multi-Channel-Publishing und Content Lifecycle Management.
+
+**Bereitstellung:** [!BADGE Cloud Service]{type=Informative} [!BADGE On-Premise]{type=Informative} [!BADGE Managed Services]{type=Informative}
+
+## Beginnen mit Ihrer Rolle
+
+<!-- Author note: The landing-cards-container component is in beta with known display issues in preview and review environments. Verify rendering in production before publishing. Update icon paths below once confirmed against the ExL CDN icon library. Role card links point to the first topic in each role's section of the left nav — update paths to match the actual repo structure. -->
+
+::::landing-cards-container
+
+:::card
+![Symbol „Autoren“](./user-guide/images/author.png)
+
+Autoren
+
+Erstellen und verwalten Sie DITA-Themen, Karten, die Wiederverwendung von Inhalten und Überprüfungs-Workflows.
+
+[Authoring – Übersicht](./user-guide/authoring-content.md)
+:::
+
+:::card
+![Symbol für Administratoren](./user-guide/images/admin.png)
+
+Administratoren
+
+Konfigurieren Sie Ordnerprofile, Berechtigungen, Workflow-Einstellungen und Ausgabevorlagen.
+
+[Administrationshandbuch](./install-conf-guide/introduction.md)
+:::
+
+:::card
+![Symbol „Publisher“](./user-guide/images/publish.png)
+
+Herausgeber
+
+Ausgabevorgaben einrichten, Baselines verwalten und Ausgaben kanalübergreifend generieren.
+
+[Kartenverwaltung und -veröffentlichung](./user-guide/map-console-overview.md)
+:::
+
+<!--
+:::card
+![Architects icon](./user-guide/images/architect.svg)
+
+Architects
+
+Design DITA specializations, schemas, and content architecture for your implementation.
+
+[DITA specialization](./install-conf-guide/dita-ot-specialization.md)
+:::
+-->
+::::
+
+## Nach Funktionsbereich suchen
+
+<!-- Author note: Six cards will wrap to two rows of three in production. Same beta caveat as the role cards above applies here. -->
+
+::::landing-cards-container
+
+:::card
+![Authoring-Symbol](./user-guide/images/author.svg)
+
+Authoring
+
+Web-Editor, FrameMaker-Integration, wiederverwendbare Inhalte und Überprüfungszyklen.
+
+[Erstellen von Inhalten](./user-guide/web-editor.md)
+:::
+
+:::card
+![Überprüfungssymbol](./user-guide/images/review.svg)
+
+Überprüfung
+
+Themen überprüfen, Prüfungsaufgaben verwalten und Benachrichtigungen überprüfen.
+
+[Einführung in die Überprüfung](./user-guide/review.md)
+:::
+
+:::card
+![Veröffentlichungssymbol](./user-guide/images/publish.svg)
+
+Publishing
+
+Ausgabetypen von PDF, AEM Sites, HTML5, EPUB und JSON.
+
+[Veröffentlichen von Inhalten](./user-guide/generate-output.md)
+:::
+
+:::card
+![Übersetzungs-Symbol](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+
+Übersetzung
+
+Workflows für menschliche und maschinelle Übersetzung mehrsprachiger Inhalte.
+
+[Inhalte übersetzen](./user-guide/translation.md)
+:::
+
+:::card
+![Berichtssymbol](./user-guide/images/Smock_Report_18_N.svg)
+
+Berichte
+
+Themenliste, Multimedia, fehlerhafte Links und Metadatenberichte.
+
+[Erzeugen von Berichten](./user-guide/reports-intro.md)
+:::
+
+:::card
+![Konfigurationssymbol](./user-guide/images/config.svg)
+
+Konfiguration
+
+Ordnerprofile, DITA-OT-Anpassung und Ausgabevorlagen.
+
+[Ordnerprofile konfigurieren](./install-conf-guide/conf-profiles.md)
+:::
+
+::::
+
+## Neue Funktionen
+
+<!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
+
+
+<table>
+<tr>
+<td>
+
+[!BADGE Feature]{type=Neutral} <br> [**Inhalt mit Git-Connector importieren**](./user-guide/web-editor-git-connector.md)<br> Importieren Sie Inhalte direkt aus Git-Repositorys in Handbücher.
+
+</td>
+<td>
+
+[!BADGE Feature]{type=Neutral} <br> [**Neue Zuordnungssammlung**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Einheitliche Schnittstelle zum Verwalten von Zuordnungen und Veröffentlichen von Ausgaben
+
+</td>
+<td>
+
+[!BADGE Verbesserung]{type=Neutral} <br> [**Prüfungsaufgabe delegieren**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Prüfer können eine Prüfungsaufgabe an einen anderen Prüfer delegieren
+
+</td>
+</tr>
+</table>
+
+## Zusätzliche Ressourcen
+
+* [Versionshinweise für Cloud Service](./release-info/latest-release-info-cs.md)
+* [Versionshinweise für On-Premise](./release-info/latest-release-info.md)
+* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de){target="_blank"}
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
