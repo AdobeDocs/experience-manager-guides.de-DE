@@ -4,13 +4,12 @@ description: Informationen zum Migrieren vorhandener Inhalte
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: d3d24119-8a3c-40f2-994f-3c0e5ee37f59
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '155'
 ht-degree: 2%
-
 ---
-
 # Migrieren vorhandener Inhalte {#id181AGB000Y4}
 
 Mit AEM Guides können Sie eine Vielzahl strukturierter und unstrukturierter Dokumente in das DITA-Format konvertieren. In diesem Abschnitt werden die Informationen zum Hochladen von DITA-Inhalten in das AEM-Repository und zum Konvertieren von nicht-DITA-Inhalten in das DITA-Format behandelt.
@@ -24,5 +23,3 @@ In der folgenden Tabelle sind die verschiedenen Migrationsmethoden zum Hochladen
 | Cloud Service | On-Premise |
 |-------------|------------|
 | <ul><li>[Verwenden Sie den cURL-Befehl, um DITA-Inhalte hochzuladen](./use-curl-command.md)</li><li>[Konfigurieren des UUID-Dateimusters](./conf-uuid-filename-pattern.md)</li><li>[Migrieren von Nicht-DITA-Inhalten](./non-dita-content.md)</li><li>[Migrieren von Inhalten von On-Premise zu Cloud Service](./migrate-on-premise-content-cloud.md)</li></ul> | <ul><li>[Hochladen vorhandener DITA-Inhalte mit FrameMaker und WebDav-Tool (On-Premise)](upload-dita-content.md)</li><li>[Verwenden Sie den cURL-Befehl, um DITA-Inhalte hochzuladen](./use-curl-command.md)</li><li>[Konfigurieren des UUID-Dateimusters](./conf-uuid-filename-pattern.md)</li><li>[Migrieren von Nicht-DITA-Inhalten](./non-dita-content.md)</li></ul> |
-
-

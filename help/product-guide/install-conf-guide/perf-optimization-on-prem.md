@@ -4,19 +4,18 @@ description: Erfahren Sie mehr über Recommendations zur Leistungsoptimierung
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 0f289f7c-8300-427a-a4d9-9c2f31608240
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # Empfehlungen zur Leistungsoptimierung für On-Premise {#id213BD0JG0XA}
 
 ## Konfigurieren des Datenspeichers \(obligatorisch\)
 
 **Was ist die Änderung?**
-Legen Sie die `minRecordLength`-Eigenschaft im `100` für die Konfiguration auf den Wert `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` fest. Weitere Informationen zum Dateidatumsspeicher und zum S3-Datenspeicher finden Sie im [Konfigurieren von Knotenspeichern und Datenspeichern in AEM 6](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
+Legen Sie die `minRecordLength`-Eigenschaft im `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` für die Konfiguration auf den Wert `100` fest. Weitere Informationen zum Dateidatumsspeicher und zum S3-Datenspeicher finden Sie im [Konfigurieren von Knotenspeichern und Datenspeichern in AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
 
 >[!NOTE]
 >
@@ -50,7 +49,7 @@ Die JVM-Startparameter sollten sorgfältig auf der Grundlage der Infrastruktur u
 
 : Setzen Sie die JVM-Heap-Größe auf ein Minimum von einem Viertel des insgesamt verfügbaren Speichers. Verwenden Sie den `-Xmx<size>`, um die Heap-Speichergröße festzulegen. Legen Sie für den Wert -`Xms` den Wert `-Xmx` fest.
 
-- Aktivieren Sie `-XX:+HeapDumpOnOutOfMemoryError` und legen Sie den Pfad für die `-XX:HeapDumpPath=</path/to/folder` `>` fest.
+- Aktivieren Sie `-XX:+HeapDumpOnOutOfMemoryError` und legen Sie den Pfad für die `-XX:HeapDumpPath=</path/to/folder``>` fest.
 
 - Aktivieren Sie das Java GC-Protokoll als:
 
@@ -112,4 +111,3 @@ Dies kann zur Laufzeit über die Felix-Konsole oder über die Code-Bereitstellun
 
 **Ergebnis dieser Änderung**
 Eine erhöhte Anzahl der Eigenschaft **AEM-Site-Seiten in Heap begrenzen** optimiert den Prozess der Erstellung von AEM-Site-Ausgaben.
-

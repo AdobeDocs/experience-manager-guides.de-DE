@@ -4,13 +4,12 @@ description: Erfahren Sie, wie Sie Workflows konfigurieren und anpassen
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 169d6e01-7ab2-4f0a-bd70-a3aee39cee8e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '2158'
-ht-degree: 2%
-
+source-wordcount: '2280'
+ht-degree: 4%
 ---
-
 # Konfigurieren und Anpassen von Workflows {#id181AI0OJ0RO}
 
 Workflows ermöglichen die Automatisierung von Aktivitäten des Typs Adobe Experience Manager \(AEM\). Ein Workflow besteht aus einer Reihe von Schritten, die in einer bestimmten Reihenfolge ausgeführt werden. Sie können für jeden Schritt eine eigene Aktivität definieren. Sie können beispielsweise eine E-Mail-Benachrichtigung an alle Reviewer in einer Gruppe senden, wenn eine Themenüberprüfung erstellt wird. Sie können auch eine Benachrichtigung an den Herausgeber senden, wenn eine Aufgabe zur Ausgabegenerierung abgeschlossen ist.
@@ -19,7 +18,7 @@ Weitere Informationen zu Workflows in AEM finden Sie unter
 
 | Cloud Service | On-Premise |
 |-------------|------------|
-| <ul><li>[Verwalten von Workflow-Instanzen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=de)</li><li>Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=de)</li></ul> | <ul><li>[Verwalten von Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>Erstellen von Workflow-Modellen und Erweitern der Workflow-Funktionalität: [Entwickeln und Erweitern von Workflows](https://helpx.adobe.com/de/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>Verbessern der Leistung von Workflows, die erhebliche Serverressourcen verwenden: [Gleichzeitige Workflow-Verarbeitung](https://helpx.adobe.com/de/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
+| <ul><li>[Verwalten von Workflow-Instanzen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=de)</li><li>Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Projekt-Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html)</li></ul> | <ul><li>[Verwalten von Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)</li><li>Anwenden von und Teilnehmen an Workflows: [Arbeiten mit Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html)</li><li>Erstellen von Workflow-Modellen und Erweitern der Workflow-Funktionalität: [Entwickeln und Erweitern von Workflows](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html)</li><li>Verbessern der Leistung von Workflows, die erhebliche Serverressourcen verwenden: [Gleichzeitige Workflow-Verarbeitung](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance)</li></ul> |
 
 Die Abschnitte in diesem Abschnitt erläutern verschiedene Anpassungen, die Sie in den in AEM Guides bereitgestellten Standard-Workflows vornehmen können.
 
@@ -95,7 +94,7 @@ Sie können diese Skripte im Knoten `/etc/workflows/scripts` erstellen. In der f
 | `initiator` | Zeichenfolge | Benutzer-ID des Benutzers, der die Prüfungsaufgabe initiiert. |
 | `operation` | Zeichenfolge | Ein statischer Wert, der als `AEM_REVIEW` festgelegt ist. |
 | `orgTopics` | Zeichenfolge | Pfad der Themen, die zur Überprüfung freigegeben werden. Geben Sie mehrere Themen durch Kommata getrennt an. |
-| `payloadJson` | JSON-Objekt | Geben Sie die folgenden Werte an: -   `base`: Pfad des übergeordneten Ordners, der das zur Überprüfung gesendete Thema enthält. <br> -   `asset`: Pfad des zur Überprüfung gesendeten Themas. <br> -   `referrer`: Lassen Sie es leer. |
+| `payloadJson` | JSON-Objekt | Geben Sie die folgenden Werte an: - `base`: Pfad des übergeordneten Ordners, der das zur Überprüfung gesendete Thema enthält. <br> - `asset`: Pfad des zur Überprüfung gesendeten Themas. <br> - `referrer`: Lassen Sie es leer. |
 | `deadline` | Zeichenfolge | Geben Sie die Zeit im `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` an. |
 | `title` | Zeichenfolge | Geben Sie einen Titel für die Prüfungsaufgabe ein. |
 | `description` | Zeichenfolge | Geben Sie eine Beschreibung für die Prüfungsaufgabe ein. |
@@ -110,7 +109,7 @@ Sie können diese Skripte im Knoten `/etc/workflows/scripts` erstellen. In der f
 | `ditamap` | Zeichenfolge | Geben Sie den Pfad der Imagemap der Prüfungsaufgabe an |
 | `allowAllReviewers` | Boolescher Wert | false/true |
 | `notifyViaEmail` | Boolescher Wert | false/true |
-| `reviewVersion` | Zeichenfolge | Gibt die aktuelle Version des Überprüfungs-Workflows an. Der Standardwert ist auf `3.0` festgelegt.<br> Um die neuen Funktionen des Überprüfungs-Workflows für [Autoren](../user-guide/review-close-review-task.md) und [Prüfer](../user-guide/review-complete-review-tasks.md) zu aktivieren, stellen Sie sicher, dass die `reviewVersion` auf `3.0` eingestellt ist. |
+| `reviewVersion` | Zeichenfolge | Gibt die aktuelle Version des Überprüfungs-Workflows an. Der Standardwert ist auf `3.0` festgelegt<br> Um die neuen Funktionen des Überprüfungs-Workflows für [Autoren](../user-guide/review-close-review-task.md) und [Reviewer](../user-guide/review-complete-review-tasks.md) zu aktivieren, stellen Sie sicher, dass die `reviewVersion` auf `3.0` eingestellt ist. |
 
 
 Nachdem Sie das Skript erstellt haben, rufen Sie es auf, bevor Sie den Prozess zum Erstellen einer Überprüfung in Ihrem Workflow aufrufen. Anschließend können Sie je nach Ihren Anforderungen die anderen Überprüfungs-Workflow-Prozesse aufrufen.
@@ -271,7 +270,7 @@ Die folgenden Eigenschaften steuern, wie AEM Guides die Nachbearbeitungs-Workflo
 >
 > Auf die folgenden Eigenschaften kann über die Web-Konsole zugegriffen werden: http://&lt;Server-Name>:&lt;Port>/system/console/configMgr.
 
-| Eigenschaft | Bundle-Name | Beschreibung |
+| Eigenschaft | Paketname | Beschreibung |
 |--------|-----------|-----------|
 | Dynamische Ausblicke | `com.adobe.fmdita.postprocess.PostProcessObservation` | Für alle Dateien, für die die Nachbearbeitung nicht durchgeführt wurde, ruft sie die ausgehenden Referenzen ab, indem sie die Themendateien analysiert. Es wird empfohlen, diese Option deaktiviert zu lassen, da sie die Möglichkeit bietet, das System zu überlasten, wenn die Anzahl der zu verarbeitenden Dateien groß ist. |
 | Nachbearbeitungs-Threads | `com.adobe.fmdita.config.ConfigManager` | Legt die Anzahl der Nachbearbeitungs-Threads fest, die für den Nachbearbeitungs-Workflow verwendet werden sollen. <br>Der Standardwert ist 1. |

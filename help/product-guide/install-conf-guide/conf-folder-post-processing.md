@@ -4,13 +4,12 @@ description: Erfahren Sie, wie Sie die Nachbearbeitung für einen auf Adobe Expe
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: eaf974f4-c804-4392-b1f3-f4f24dd441f7
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 0%
-
 ---
-
 # Deaktivieren der Nachbearbeitung für einen Ordner
 
 Standardmäßig werden alle hochgeladenen Assets mit dem Workflow DAM-Update-Asset verarbeitet. Experience Manager Guides führt im Rahmen dieses Workflows eine zusätzliche Verarbeitung, die so genannte Nachbearbeitung, aus. Dies hilft auch beim Generieren der UUIDs
@@ -27,8 +26,8 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-Werte (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem `/` am Ende weggelassen werden) <br> **Standardwert**: `/content/dam/projects/translation_output` |
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-Werte (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem `/` am Ende weggelassen werden) <br> **Standardwert**: `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-<br> (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem am Ende `/` weggelassen werden) **Standardwert**: `/content/dam/projects/translation_output` |
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-<br> (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem am Ende `/` weggelassen werden) **Standardwert**: `/content/dam` |
 
 >[!TAB On-Premise]
 
@@ -47,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um die Nachbearbeitung für einen bestim
 
 1. Wählen Sie die Option **Ignorierte Pfade für Nachbearbeitung** aus, um einen Ordner für die Nachbearbeitung zu ignorieren.
 
-   Zeichenfolgenwert zum Festlegen eines beliebigen standardmäßigen NODE_OPTIONS (Eigenschaft mit mehreren Werten, Zeichenfolgen mit einem Pfad, bei dem am Ende `/` weggelassen werden)
+   Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS (Eigenschaft mit mehreren Werten, Zeichenfolgen mit einem Pfad, bei dem am Ende `/` weggelassen werden)
 
    **Standardwert**: `/content/dam/projects/translation_output`
 
@@ -57,7 +56,7 @@ Führen Sie die folgenden Schritte aus, um die Nachbearbeitung für einen bestim
 
 1. Wählen Sie die Option **Aktivierte Pfade für die Nachbearbeitung** aus, um einen Pfad für die Nachbearbeitung zu aktivieren.
 
-   Zeichenfolgenwert zum Festlegen eines beliebigen standardmäßigen NODE_OPTIONS (Eigenschaft mit mehreren Werten, Zeichenfolgen mit einem Pfad, bei dem am Ende `/` weggelassen werden)
+   Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS (Eigenschaft mit mehreren Werten, Zeichenfolgen mit einem Pfad, bei dem am Ende `/` weggelassen werden)
 
    **Standardwert**: `/content/dam/`
 
@@ -77,4 +76,3 @@ Standardmäßig erfolgt die Nachbearbeitung für jeden Ordnerpfad unter dem Expe
 * Wenn das übergeordnete Element für die Nachbearbeitung ignoriert wird, aber der untergeordnete Ordner aktiviert ist, werden das untergeordnete Element und alle seine Nachfolger als aktiviert betrachtet.
 * Wenn das übergeordnete Element für die Nachbearbeitung aktiviert ist, das untergeordnete Element jedoch ignoriert wird, werden das untergeordnete Element und alle seine Nachfolger als ignoriert betrachtet.
 * Wenn derselbe Ordnerpfad sowohl in den Konfigurationen „ignore.post.processing.Paths“ als auch in den Konfigurationen „enabled.post.processing.Paths“ vorhanden ist, wird er bei der Nachbearbeitung als ignoriert betrachtet.
-
