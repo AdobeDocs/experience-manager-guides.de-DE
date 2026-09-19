@@ -39,35 +39,22 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6ec4546ab632167e8e49baacc8e771a44563f394
+source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '289'
 ht-degree: 6%
 ---
 # Dokumentation zu Experience Manager Guides
 
 Experience Manager Guides ist ein CCMS im Unternehmensmaßstab mit nativer DITA-Unterstützung für strukturiertes Authoring, Multi-Channel-Publishing und Content Lifecycle Management.
 
-**Bereitstellung:** [!BADGE Cloud Service]{type=Informative} [!BADGE On-Premise]{type=Informative} [!BADGE Managed Services]{type=Informative}
+**Bereitstellung:** [!BADGE Cloud Service]{type=Positive} [!BADGE On-Premise]{type=Informative}
 
 ## Beginnen mit Ihrer Rolle
 
-<!-- Author note: The landing-cards-container component is in beta with known display issues in preview and review environments. Verify rendering in production before publishing. Update icon paths below once confirmed against the ExL CDN icon library. Role card links point to the first topic in each role's section of the left nav — update paths to match the actual repo structure. -->
-
 ::::landing-cards-container
-
 :::card
-![Symbol „Autoren“](./user-guide/images/author.png)
-
-Autoren
-
-Erstellen und verwalten Sie DITA-Themen, Karten, die Wiederverwendung von Inhalten und Überprüfungs-Workflows.
-
-[Authoring – Übersicht](./user-guide/authoring-content.md)
-:::
-
-:::card
-![Symbol für Administratoren](./user-guide/images/admin.png)
+![Symbol für Administratoren](../assets/admin.png)
 
 Administratoren
 
@@ -77,7 +64,17 @@ Konfigurieren Sie Ordnerprofile, Berechtigungen, Workflow-Einstellungen und Ausg
 :::
 
 :::card
-![Symbol „Publisher“](./user-guide/images/publish.png)
+![Symbol „Autoren“](../assets/author.png)
+
+Autoren
+
+Erstellen und verwalten Sie DITA-Themen, Karten, die Wiederverwendung von Inhalten und Überprüfungs-Workflows.
+
+[Authoring – Übersicht](./user-guide/authoring-content.md)
+:::
+
+:::card
+![Symbol „Publisher“](../assets/publisher.png)
 
 Herausgeber
 
@@ -85,6 +82,8 @@ Ausgabevorgaben einrichten, Baselines verwalten und Ausgaben kanalübergreifend 
 
 [Kartenverwaltung und -veröffentlichung](./user-guide/map-console-overview.md)
 :::
+
+::::
 
 <!--
 :::card
@@ -96,17 +95,18 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 [DITA specialization](./install-conf-guide/dita-ot-specialization.md)
 :::
--->
+
 ::::
+-->
 
 ## Nach Funktionsbereich suchen
 
-<!-- Author note: Six cards will wrap to two rows of three in production. Same beta caveat as the role cards above applies here. -->
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
 
 ::::landing-cards-container
 
 :::card
-![Authoring-Symbol](./user-guide/images/author.svg)
+![Authoring-Symbol](../assets/authoring.png)
 
 Authoring
 
@@ -116,7 +116,7 @@ Web-Editor, FrameMaker-Integration, wiederverwendbare Inhalte und Überprüfungs
 :::
 
 :::card
-![Überprüfungssymbol](./user-guide/images/review.svg)
+![Überprüfungssymbol](../assets/review.png)
 
 Überprüfung
 
@@ -126,7 +126,7 @@ Themen überprüfen, Prüfungsaufgaben verwalten und Benachrichtigungen überpr�
 :::
 
 :::card
-![Veröffentlichungssymbol](./user-guide/images/publish.svg)
+![Veröffentlichungssymbol](../assets/publishing.png)
 
 Publishing
 
@@ -136,7 +136,7 @@ Ausgabetypen von PDF, AEM Sites, HTML5, EPUB und JSON.
 :::
 
 :::card
-![Übersetzungs-Symbol](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![Übersetzungs-Symbol](../assets/translation.png)
 
 Übersetzung
 
@@ -146,7 +146,7 @@ Workflows für menschliche und maschinelle Übersetzung mehrsprachiger Inhalte.
 :::
 
 :::card
-![Berichtssymbol](./user-guide/images/Smock_Report_18_N.svg)
+![Berichtssymbol](../assets/reports.png)
 
 Berichte
 
@@ -156,7 +156,7 @@ Themenliste, Multimedia, fehlerhafte Links und Metadatenberichte.
 :::
 
 :::card
-![Konfigurationssymbol](./user-guide/images/config.svg)
+![Konfigurationssymbol](../assets/configure.png)
 
 Konfiguration
 
@@ -169,28 +169,43 @@ Ordnerprofile, DITA-OT-Anpassung und Ausgabevorlagen.
 
 ## Neue Funktionen
 
-<!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
+<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
 
+>[!BEGINSHADEBOX]
 
 <table>
-<tr>
+<tr style="border: 0;">
 <td>
 
-[!BADGE Feature]{type=Neutral} <br> [**Inhalt mit Git-Connector importieren**](./user-guide/web-editor-git-connector.md)<br> Importieren Sie Inhalte direkt aus Git-Repositorys in Handbücher.
+![Git-Connector](../assets/whats-new-git-connector.svg)
+
+**[Importieren von Inhalten mit dem Git-Connector](./user-guide/web-editor-git-connector.md)**
+
+Importieren Sie Inhalte direkt aus Git-Repositorys in Handbücher.
 
 </td>
 <td>
 
-[!BADGE Feature]{type=Neutral} <br> [**Neue Zuordnungssammlung**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Einheitliche Schnittstelle zum Verwalten von Zuordnungen und Veröffentlichen von Ausgaben
+![Zuordnungssammlung](../assets/whats-new-map-collection.svg)
+
+**[Neue Zuordnungssammlung](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
+
+Einheitliche Schnittstelle zum Verwalten von Zuordnungen und Veröffentlichen von Ausgaben.
 
 </td>
 <td>
 
-[!BADGE Verbesserung]{type=Neutral} <br> [**Prüfungsaufgabe delegieren**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Prüfer können eine Prüfungsaufgabe an einen anderen Prüfer delegieren
+![Überprüfung delegieren](../assets/whats-new-delegate-review.svg)
+
+**[Delegieren einer Prüfungsaufgabe](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
+
+Reviewer können eine Prüfungsaufgabe an einen anderen Reviewer delegieren.
 
 </td>
 </tr>
 </table>
+
+>[!ENDSHADEBOX]
 
 ## Zusätzliche Ressourcen
 
