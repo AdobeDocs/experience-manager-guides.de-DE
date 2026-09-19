@@ -4,13 +4,12 @@ description: Erfahren Sie, wie Sie eine benutzerdefinierte DITA-Zuordnungsvorlag
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 467cc4be-5fe7-466e-887b-eccc63acae8a
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '676'
 ht-degree: 1%
-
 ---
-
 # Konfigurieren einer benutzerdefinierten DITA-Zuordnungsvorlage {#id1774F04F05Z}
 
 AEM Guides verfügt über zwei vordefinierte Kartenvorlagen - DITA Map und Bookmap. Sie können Karten basierend auf diesen Vorlagen erstellen oder eigene Karten-Vorlagen definieren, die dann zur Erstellung neuer Karten verwendet werden können.
@@ -102,7 +101,7 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **Standardwert**: 5 |
+| com.adobe.fmdita.xmlEditor.config.XmlEditorConfig | xmlEditor.asyncMapCreation | > 0 <br> **Standardwert**: 5 |
 
 Beim Erstellen einer DITA-Zuordnung mit großen Themenverweisen mithilfe einer benutzerdefinierten Vorlage schlägt die Zuordnungserstellung auf dem Cloud-Server fehl, wenn die Gesamtverarbeitungszeit 60 Sekunden überschreitet.
 

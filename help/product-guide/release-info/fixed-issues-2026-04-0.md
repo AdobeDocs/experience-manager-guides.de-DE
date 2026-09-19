@@ -1,18 +1,17 @@
 ---
 title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 2026.04.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2026.04.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: ce2c9da0d9beb05a15f7cefcf9483e0c93abbf37
+exl-id: 2861db0f-2086-445a-8b1d-27393f5b101d
+source-git-commit: 97512e5459540f57703bc99ec9a29a9d35786f01
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 3%
-
+ht-degree: 0%
 ---
-
 # Es wurden Probleme in der Version 2026.04.0 behoben
 
 Dieser Artikel behandelt die in verschiedenen Bereichen der Version 2026.04.0 von Adobe Experience Manager Guides as a Cloud Service behobenen Fehler.
 
-Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 2026.04.0](whats-new-2026-04-0.md).
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie [Neue Funktionen in der Version 2026.04.0](whats-new-2026-04-0.md).
 
 Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2026.04.0](upgrade-instructions-2026-04-0.md).
 
@@ -20,7 +19,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2026.04.0](upgrade-instr
 
 - Beim Bearbeiten einer Schematron-Datei (`*.sch`) und bei Verwendung der Funktion zum Suchen und Ersetzen wird das Bedienfeld „Suchen und Ersetzen“ unten teilweise außerhalb des Bildschirms angezeigt, wodurch der Zugriff auf die Eingabefelder und Steuerelemente verhindert wird. (GUIDES-38412)
 
-## Veröffentlichung
+## Publishing
 
 - Wenn dasselbe Thema in mehreren Zuordnungen mit unterschiedlichen bedingten Voreinstellungen wiederverwendet wird, überschreibt die Veröffentlichung der neuesten Zuordnung in Salesforce den Themeninhalt, was dazu führt, dass Benutzenden zuvor veröffentlichter Zuordnungen falsche Daten angezeigt werden. (GUIDES-37806)
 - Beim Veröffentlichen eines nativen PDF für eine Zuordnung, die eine bedingte Verarbeitung oder bestimmte verschachtelte Zuordnungen enthält, wird die in der Zuordnung definierte `dc:title` nicht auf dem PDF-Cover angezeigt, was zu einem fehlenden Cover-Titel führt. (GUIDES-37733)

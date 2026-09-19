@@ -4,13 +4,12 @@ description: Erfahren Sie, wie Sie benutzerdefinierte Indexinhalte für die On-P
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: 87c0519d-120a-4bb7-b70f-7d217bcd7580
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '135'
 ht-degree: 0%
-
 ---
-
 # Neuindizierung für die Funktion „Suchen und Ersetzen“ (Source-Ansicht) für On-Premise
 
 Die Neuindizierung ist erforderlich, um die Funktion **Suchen und Ersetzen (Source-Ansicht)** zu aktivieren, mit der Sie den gesamten in der Autorenansicht sichtbaren Inhalt sowie den zugrunde liegenden Source-Inhalt (XML-Struktur, einschließlich Elemente, Tags und Attributwerte) für die gesuchte Zeichenfolge überprüfen können.

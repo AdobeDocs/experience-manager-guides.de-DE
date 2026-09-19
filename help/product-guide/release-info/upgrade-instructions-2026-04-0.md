@@ -1,20 +1,19 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides Version 2026.04.0
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf die Version 2026.04.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: ce2c9da0d9beb05a15f7cefcf9483e0c93abbf37
+exl-id: 897d70d4-7f35-41e3-95ff-6cabeeacb1ac
+source-git-commit: 97512e5459540f57703bc99ec9a29a9d35786f01
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 11%
-
+source-wordcount: '325'
+ht-degree: 1%
 ---
-
 # Aktualisierungsanweisungen für die Version 2026.04.0
 
 Dieser Artikel behandelt die Upgrade-Anweisungen und die Kompatibilitätsmatrix für die Version 2026.04.0 von Adobe Experience Manager Guides as a Cloud Service.
 
-Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie unter [Neue Funktionen in Version 2026.04.0](whats-new-2026-04-0.md).
+Weitere Informationen zu den neuen Funktionen und Verbesserungen finden Sie [Neue Funktionen in der Version 2026.04.0](whats-new-2026-04-0.md).
 
-Eine Liste der in dieser Version behobenen Probleme finden Sie im Artikel [Behobene Probleme in Version 2026.04.0](fixed-issues-2026-04-0.md).
+Eine Liste der in dieser Version behobenen Probleme finden Sie unter [Behobene Probleme in Version 2026.04.0](fixed-issues-2026-04-0.md).
 
 ## Kompatibilitätsmatrix
 
@@ -24,14 +23,14 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 
 | Experience Manager Guides as a Cloud Service-Version | FMPS | FrameMaker | Sauerstoff-Autor |
 | --- | --- | --- | --- |
-| 2 026,04,0 | Nicht kompatibel | 2022 oder höher | 26,1 |
+| 2026.04.0 | Nicht kompatibel | 2022 oder höher | 26.1 |
 
 
 ### Sauerstoffanschluss
 
 | Experience Manager Guides as a Cloud Service-Version | Fenster des Sauerstoffanschlusses | Oxygen Connector Mac | In Oxygen Windows bearbeiten | In Oxygen Mac bearbeiten |
 | --- | --- | --- | --- | --- |
-| 2 026,04,0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2,3 | 2,3 |
+| 2026.04.0 | 3.8 -uuid 1 | 3.8 -uuid 1 | 2,3 | 2,3 |
 
 
 ### AEM Site-Vorlagenversion

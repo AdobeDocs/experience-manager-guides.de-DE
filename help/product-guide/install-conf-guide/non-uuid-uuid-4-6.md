@@ -4,13 +4,12 @@ description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte zu UUID-Inhalten migrieren
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 0ce73a2a-e1a4-43b6-a918-75d1c537a87c
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1753'
 ht-degree: 2%
-
 ---
-
 # Migration von 4.6.0 Service Pack 4 non-UUID zu 4.6.1 UUID-Inhalten
 
 Führen Sie diese Schritte aus, um Ihren Inhalt von nicht-UUID Version 4.6.0 Service Pack 4 zu UUID Version 4.6.1 zu migrieren.

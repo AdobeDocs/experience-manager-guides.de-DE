@@ -4,13 +4,12 @@ description: Erfahren Sie, wie Sie gültige Dateinamen für die AEM Site-Ausgabe
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: b2bc5159-2144-4683-970d-738949ac9662
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren gültiger Dateinamen für die AEM Site-Ausgabe {#id214GK0X0KXA}
 
 Ähnlich wie bei der Liste der gültigen Dateinamenzeichen, die für DITA-Themen zulässig sind, können Sie auch eine Liste gültiger Dateinamenzeichen für die AEM Site-Ausgabe konfigurieren. Zu den bekannten Zeichen, die in einer URL nicht zulässig sind, zählen: ``'<>`@$``. Diese Zeichen werden so konfiguriert, dass sie beim Generieren von AEM Site-Ausgabedateinamen automatisch in einen Unterstrich &quot;`_`&quot; konvertiert werden.

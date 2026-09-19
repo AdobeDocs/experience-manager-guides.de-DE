@@ -4,13 +4,12 @@ description: Erfahren Sie, wie Sie Nicht-UUID-Inhalte zu UUID-Inhalten migrieren
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 453da51a42984b912547570f2e1de70806b41171
+exl-id: 313208e4-4403-4ba8-8e97-c5a95475b87e
+source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1697'
 ht-degree: 2%
-
 ---
-
 # 4.3.1 Migration von Nicht-UUID zu 4.3.2 UUID-Inhalten
 
 
@@ -220,4 +219,3 @@ Weitere Informationen finden Sie unter [Ältere Versionen &#x200B;](../install-c
 
 
 1. Nach Abschluss der Validierung kann der größte Teil des Speicherplatzes durch Ausführen der Komprimierung zurückgewonnen werden (siehe `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=de`).
-
