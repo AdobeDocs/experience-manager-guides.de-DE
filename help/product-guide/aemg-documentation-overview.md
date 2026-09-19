@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 411756129e6ce756f8674d6d3feb27a1cd9a2f19
+source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '289'
 ht-degree: 6%
 ---
 # Dokumentation zu Experience Manager Guides
@@ -54,7 +54,7 @@ Experience Manager Guides ist ein CCMS im Unternehmensmaßstab mit nativer DITA-
 
 ::::landing-cards-container
 :::card
-![Symbol für Administratoren](./user-guide/images/admin.png)
+![Symbol für Administratoren](../assets/admin.png)
 
 Administratoren
 
@@ -64,7 +64,7 @@ Konfigurieren Sie Ordnerprofile, Berechtigungen, Workflow-Einstellungen und Ausg
 :::
 
 :::card
-![Symbol „Autoren“](./user-guide/images/author.png)
+![Symbol „Autoren“](../assets/author.png)
 
 Autoren
 
@@ -74,7 +74,7 @@ Erstellen und verwalten Sie DITA-Themen, Karten, die Wiederverwendung von Inhalt
 :::
 
 :::card
-![Symbol „Publisher“](./user-guide/images/publish.png)
+![Symbol „Publisher“](../assets/publisher.png)
 
 Herausgeber
 
@@ -84,7 +84,6 @@ Ausgabevorgaben einrichten, Baselines verwalten und Ausgaben kanalübergreifend 
 :::
 
 ::::
-
 
 <!--
 :::card
@@ -102,12 +101,12 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 ## Nach Funktionsbereich suchen
 
-<!-- Author note: Six cards will wrap to two rows of three in production. Same beta caveat as the role cards above applies here. -->
+<!-- Author note: Six cards wrap to two rows of three in production. The landing-cards-container component is in beta — verify rendering in production before publishing. -->
 
 ::::landing-cards-container
 
 :::card
-![Authoring-Symbol](./user-guide/images/author.svg)
+![Authoring-Symbol](../assets/authoring.png)
 
 Authoring
 
@@ -117,7 +116,7 @@ Web-Editor, FrameMaker-Integration, wiederverwendbare Inhalte und Überprüfungs
 :::
 
 :::card
-![Überprüfungssymbol](./user-guide/images/review.svg)
+![Überprüfungssymbol](../assets/review.png)
 
 Überprüfung
 
@@ -127,7 +126,7 @@ Themen überprüfen, Prüfungsaufgaben verwalten und Benachrichtigungen überpr�
 :::
 
 :::card
-![Veröffentlichungssymbol](./user-guide/images/publish.svg)
+![Veröffentlichungssymbol](../assets/publishing.png)
 
 Publishing
 
@@ -137,7 +136,7 @@ Ausgabetypen von PDF, AEM Sites, HTML5, EPUB und JSON.
 :::
 
 :::card
-![Übersetzungs-Symbol](./user-guide/images/Smock_GlobeGrid_18_N.svg)
+![Übersetzungs-Symbol](../assets/translation.png)
 
 Übersetzung
 
@@ -147,7 +146,7 @@ Workflows für menschliche und maschinelle Übersetzung mehrsprachiger Inhalte.
 :::
 
 :::card
-![Berichtssymbol](./user-guide/images/Smock_Report_18_N.svg)
+![Berichtssymbol](../assets/reports.png)
 
 Berichte
 
@@ -157,7 +156,7 @@ Themenliste, Multimedia, fehlerhafte Links und Metadatenberichte.
 :::
 
 :::card
-![Konfigurationssymbol](./user-guide/images/config.svg)
+![Konfigurationssymbol](../assets/configure.png)
 
 Konfiguration
 
@@ -170,69 +169,49 @@ Ordnerprofile, DITA-OT-Anpassung und Ausgabevorlagen.
 
 ## Neue Funktionen
 
-<!-- Author note: Badges render correctly in markdown table cells per ExL spec. <br> is supported within cells. Update release version, links, and descriptions each release cycle. The What's new table is the primary update touchpoint on this page — aim to refresh it within one week of each cloud service release. -->
-::::landing-cards-container
+<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
 
-:::card
-![Administrator-Symbol](https://cdn.experienceleague.adobe.com/icons/admin.svg)
+>[!BEGINSHADEBOX]
 
-Git-Connector
+<table>
+<tr style="border: 0;">
+<td>
+
+![Git-Connector](../assets/whats-new-git-connector.svg)
+
+**[Importieren von Inhalten mit dem Git-Connector](./user-guide/web-editor-git-connector.md)**
 
 Importieren Sie Inhalte direkt aus Git-Repositorys in Handbücher.
 
-[Importieren von Inhalten mit dem Git-Connector](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![Fehlerbehebung für Symbol](https://cdn.experienceleague.adobe.com/icons/atomic-search-troubleshoot.svg)
+![Zuordnungssammlung](../assets/whats-new-map-collection.svg)
 
-Neue Zuordnungssammlung
+**[Neue Zuordnungssammlung](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
 
 Einheitliche Schnittstelle zum Verwalten von Zuordnungen und Veröffentlichen von Ausgaben.
 
-[Neue Zuordnungssammlung](./user-guide/web-editor-git-connector.md)
-:::
+</td>
+<td>
 
-:::card
-![Buchsymbol](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=de)
+![Überprüfung delegieren](../assets/whats-new-delegate-review.svg)
 
-Prüfungsaufgabe delegieren
+**[Delegieren einer Prüfungsaufgabe](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
 
 Reviewer können eine Prüfungsaufgabe an einen anderen Reviewer delegieren.
-
-[Delegieren einer Prüfungsaufgabe](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)
-:::
-
-::::
-
-<!--
-<table>
-<tr>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**Import content using Git Connector**](./user-guide/web-editor-git-connector.md)<br> Import content into Guides directly from Git repositories.
-
-</td>
-<td>
-
-[!BADGE Feature]{type=Neutral} <br> [**New map collection**](./user-guide/generate-output-use-new-map-collection-output-generation.md)<br> Unified interface for managing maps and publishing outputs
-
-</td>
-<td>
-
-[!BADGE Enhancement]{type=Neutral} <br> [**Delegate a review task**](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer) <br> Reviewers can delegate a review task to another reviewer
 
 </td>
 </tr>
 </table>
--->
 
+>[!ENDSHADEBOX]
 
 ## Zusätzliche Ressourcen
 
 * [Versionshinweise für Cloud Service](./release-info/latest-release-info-cs.md)
 * [Versionshinweise für On-Premise](./release-info/latest-release-info.md)
-* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de){target="_blank"}
-* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
-* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
-* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
