@@ -3,9 +3,9 @@ title: Verwenden von MCP mit Adobe Experience Manager Guides
 description: Erfahren Sie, wie Sie das Model Context Protocol (MCP) mit AEM Guides verwenden, um über einen KI-Assistenten mit Themen, Karten, Baselines und Berichten zu arbeiten
 feature: Authoring
 role: User
-source-git-commit: 864884f26389d256b0e054e3c0b7400b89f6d6ce
+source-git-commit: 20e5b1099b3d9a7230a40415495ba8e77f438b2a
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '790'
 ht-degree: 0%
 ---
 
@@ -40,10 +40,6 @@ Experience Manager Guides stellt MCP-Funktionen für die Arbeit mit Experience M
 * **System**: Verstehen Sie den Status Ihres Systems, indem Sie Paketversionen, den Paketzustand und die Umgebungsdiagnose überprüfen.
 
 Wenn Sie nicht über die Berechtigung zum Ausführen einer Aktion in AEM verfügen, können Sie dieselbe Aktion nicht über MCP durchführen.
-
-Die exakten verfügbaren Tools können sich im Laufe der Zeit ändern. Anstatt sich auf eine feste Liste zu verlassen, bitten Sie Ihren Assistenten, Ihnen zu zeigen, was verfügbar ist:
-
-`List all Experience Manager Guides tools available and describe what they do.`
 
 
 ## Unterstützte Anwendungen
