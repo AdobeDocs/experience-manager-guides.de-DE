@@ -141,7 +141,7 @@ Wenden Sie sich an Ihren AEM-Administrator, um die folgende Konfiguration zu üb
 
 Claude Desktop unterstützt Desktop-Erweiterungen (`.mcpb`). Die Experience Manager Guides MCP-Erweiterung packt die Verbindungskonfiguration, sodass Sie eine MCP-JSON-Konfiguration nicht manuell bearbeiten müssen.
 
-1. Extrahieren Sie die .mcpb-ZIP-Datei {](./mcpbfile.zip)}AEM Guides und rufen Sie die `aem-guides-mcp.mcpb` ab.[
+1. Extrahieren Sie die .mcpb-ZIP-Datei {[&#128279;](./mcpbfile.zip)}AEM Guides und rufen Sie die `aem-guides-mcp.mcpb` ab.
 
 2. Öffnen Sie **Claude Desktop** und navigieren Sie zu **Einstellungen > Erweiterungen**.
 
