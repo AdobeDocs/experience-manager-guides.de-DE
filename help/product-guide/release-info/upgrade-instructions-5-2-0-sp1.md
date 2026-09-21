@@ -34,7 +34,7 @@ Verwenden Sie die folgenden Ressourcen, wenn Sie benutzerdefinierte Java-Plug-in
 |---|---|---|----|
 | 5.2.0 Service Pack 1 (UUID) | 5.2.2 | [AEM Guides SDK-API 5.2.2](https://central.sonatype.com/artifact/com.adobe.aem/aem-guides-sdk-api/5.2.2/) | [Javadoc 5.2.2](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) |
 
-Weitere Informationen finden Sie unter [Konfigurieren und Verwenden der API-JAR-Datei aus dem Maven Central Repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
+Weitere Informationen finden Sie unter [Konfigurieren und Verwenden der API-JAR-Datei aus dem Maven Central Repository](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/api-reference/introduction).
 
 
 ### FrameMaker und FrameMaker Publishing Server
@@ -79,7 +79,7 @@ Sie können Ihre aktuelle Version von Experience Manager Guides einfach auf Vers
 >
 > - **Für AEM 6.5 LTS**: Experience Manager Guides 5.2.0 Service Pack 1 wird nur mit AEM 6.5 LTS Service Pack 2 unterstützt.
 > - **Für AEM 6.5**: Experience Manager Guides 5.2.0 Service Pack 1 wird nur mit AEM 6.5 Service Pack 24, 23 und 22 unterstützt.
-> - Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.2.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> - Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.2.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/de/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Bevor Sie mit dem Upgrade auf Version 5.2.0 Service Pack 1 von Experience Manager Guides fortfahren, müssen Sie die folgenden Punkte berücksichtigen:
 
