@@ -5,13 +5,11 @@ feature: Version Management
 role: Admin
 level: Experienced
 exl-id: 4ca4292a-a97a-4b54-ab9d-17f73e4a100f
-source-git-commit: 84be6501066dae623e057c15ac79b748d3e631f1
+source-git-commit: 3574ed5fe856a1ceb6f8c933ba084b092589b544
 workflow-type: tm+mt
-source-wordcount: '2277'
-ht-degree: 0%
-
+source-wordcount: '2299'
+ht-degree: 1%
 ---
-
 # Versionsverwaltung {#id181GB000XY4}
 
 Die Versionierung ist ein wichtiger Aspekt jedes Content-Management-Systems. Damit können Sie einen Schnappschuss Ihres digitalen Assets zu einem bestimmten Zeitpunkt erstellen. Wenn eine Version eines digitalen Assets vorhanden ist, können Sie die erforderliche Version des Assets wiederherstellen und aktualisieren. Beim Erstellen einer Version eines Assets checken Sie normalerweise das gewünschte Asset aus und ein.
@@ -287,15 +285,15 @@ Geben Sie je nachdem, wem Sie Zugriff zum Löschen gewähren möchten, eine der 
 
 >[!ENDTABS]
 
-## Bereinigen älterer Versionen von DITA-Dateien
+## Bereinigen älterer Versionen von Dateien
 
-Wenn Sie Inhalte aktualisieren und neue Versionen erstellen, werden die vorherigen Versionen der DITA-Dateien im Repository gepflegt. Es kann vorkommen, dass über einen bestimmten Zeitraum viele Versionen für Ihre DITA-Dateien erstellt werden, die zusammen viel Speicherplatz in Ihrem Repository belegen. Mit AEM Guides können Sie die älteren Versionen konfigurieren, die aus dem Repository gelöscht werden sollen.
+Wenn Sie Inhalte aktualisieren und neue Versionen erstellen, werden die vorherigen Versionen der Dateien im Repository gepflegt. Viele Versionen werden möglicherweise über einen bestimmten Zeitraum für Ihre Dateien erstellt und können zusammen viel Speicherplatz in Ihrem Repository belegen. Mit AEM Guides können Sie die älteren Versionen konfigurieren, die aus dem Repository gelöscht werden sollen.
 
-Wenn Sie über Administratorrechte verfügen, können Sie über die angegebene URL auf dieses Dienstprogramm zugreifen:
+>[!NOTE]
+>
+> Sie können DITA- und Nicht-DITA-Dateien bereinigen.
 
-`<server folder path> /libs/fmdita/clientlibs/xmleditor_version_purge/page.html`
-
-Die Version einer DITA-Datei, die eines der angegebenen Kriterien erfüllt, wird beibehalten und nicht bereinigt:
+Die Version einer Datei, die eines der angegebenen Kriterien erfüllt, wird beibehalten und nicht bereinigt:
 
 - Ist die erste Version einer Datei
 - Ist in einer Baseline enthalten
@@ -305,20 +303,21 @@ Die Version einer DITA-Datei, die eines der angegebenen Kriterien erfüllt, wird
 
 Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
 
+1. Klicken Sie oben auf das Adobe Experience Manager-Logo und anschließend auf **Tools**.
+1. Wählen **Guides** im Bedienfeld Tools aus.
+1. Wählen Sie die **Versionsbereinigung** aus.
+
+   ![](assets/version-purge.png)
+
 1. Geben Sie die folgenden Details zu den Dateien ein, die Sie bereinigen möchten:
 
-   ![](assets/preview-purge-report.png)
-
-1. &#x200B;
    - **Anzahl der Versionen, die von der neuesten Version beibehalten werden sollen**: Geben Sie die Anzahl der Versionen ein, die beibehalten und nicht gelöscht werden sollen. Wenn Sie beispielsweise „5“ eingeben, werden die letzten 5 Versionen beibehalten und die Versionen davor werden gelöscht, wenn andere Bereinigungsbedingungen erfüllt sind.
    - **Innerhalb der Zeitspanne erstellte Versionen beibehalten \(in Tagen\)**: Geben Sie das maximale Alter einer Version in Tagen ein. Die Versionen, die älter als die angegebene Anzahl von Tagen sind, werden bereinigt, wenn andere Bereinigungsbedingungen erfüllt sind. Wenn wir beispielsweise „100“ eingeben, werden alle Versionen, die vor 100 Tagen erstellt wurden, gelöscht, falls andere Bereinigungsbedingungen erfüllt sind.
    - **Path**: Wählen Sie den Pfad der Datei oder des Ordners aus, deren Dateien Sie bereinigen möchten.
 
-     >[!NOTE]
-     >
-     > Sie können nur DITA-Dateien bereinigen.
+     ![](assets/preview-purge-report.png)
 
-1. Klicken Sie auf **Vorschau des Bereinigungsberichts**.
+1. Wählen Sie **Vorschau des Bereinigungsberichts**.
 
    >[!NOTE]
    >
@@ -333,7 +332,7 @@ Führen Sie die folgenden Schritte aus, um die älteren Versionen zu bereinigen:
 
    Der Löschstatus wird angezeigt.
 
-   Klicken Sie **Versionsbereinigungsbericht herunterladen**, um die bereinigten Versionen anzuzeigen. Dieser Bericht enthält den Bereinigungsstatus für alle Versionen sowie die Gründe, warum eine bestimmte Version beibehalten wurde oder warum sie gelöscht wurde.
+   Wählen Sie **Versionsbereinigungsbericht herunterladen**, um die bereinigten Versionen anzuzeigen. Dieser Bericht enthält den Bereinigungsstatus für alle Versionen sowie die Gründe, warum eine bestimmte Version beibehalten wurde oder warum sie gelöscht wurde.
 
 
 >[!NOTE]
