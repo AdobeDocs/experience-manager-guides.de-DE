@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Wenn Sie ein Thema im Editor öffnen, wird rechts ein Bedienfeld für die Schema
 
    >[!NOTE]
    >
-   > Validierungsergebnisse werden basierend auf dem in der Schematron-Datei definierten Rollenattribut angezeigt. Weitere Informationen finden Sie unter [Validierungsergebnisse und Schweregrade](#understanding-validation-results-and-serverity-levels).
+   > Validierungsergebnisse werden basierend auf dem in der Schematron-Datei definierten Rollenattribut angezeigt. Weitere Informationen finden Sie unter [Validierungsergebnisse und Schweregrade](#understanding-validation-results-and-severity-levels).
 
 1. Wählen Sie die Fehlermeldung aus, um das Element mit dem Fehler im geöffneten Thema/in der geöffneten Zuordnung hervorzuheben.
 

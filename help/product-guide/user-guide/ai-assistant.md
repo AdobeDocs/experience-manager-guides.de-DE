@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Der **KI-Assistent** in Adobe Experience Manager Guides ist ein leistungsstarkes
 
 >[!NOTE]
 >
->Wenden Sie sich an das Customer Success-Team, um den KI-Assistenten für Ihre Umgebung im Agentenmodus zu aktivieren.
+>Wenden Sie sich an das Customer Success-Team , um den KI-Assistenten für Ihre Umgebung im Agentenmodus zu aktivieren.
 
 Der KI-Assistent ist in zwei Modi verfügbar: **Agent** und **Standard**. Administratoren können zwischen den beiden Modi im Abschnitt **KI-Assistent** der Registerkarte **Allgemein** in den **Workspace-Einstellungen**. Das Bedienfeld des KI-Assistenten bleibt in beiden Modi im Editor gleich, aber die darin verfügbaren Funktionen unterscheiden sich:
 
@@ -79,7 +79,7 @@ Weitere Informationen finden Sie unter [Hilfe](./ai-based-smart-help.md).
 
 ## Erste Schritte mit dem KI-Assistenten im Standardmodus
 
-Wenn Sie den **KI** Assistenten zum ersten Mal im Standardmodus verwenden, werden Sie aufgefordert, Ihr Einverständnis einzureichen, bevor Sie die Funktionen der generativen KI von Experience Manager Guides verwenden.
+Wenn Sie den **KI** Assistenten im Standardmodus zum ersten Mal verwenden, werden Sie aufgefordert, Ihr Einverständnis einzureichen, bevor Sie die Funktionen der generativen KI von Experience Manager Guides verwenden.
 
 Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu starten:
 
