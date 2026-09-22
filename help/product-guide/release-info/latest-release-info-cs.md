@@ -79,12 +79,12 @@ Dieser Artikel enthält die neuesten Versionsinformationen zu Adobe Experience M
 |---|---|
 | **AEM Guides 2022.11.0** | [2022.11.0 - Versionshinweise](./release-notes-2022-11-0.md) |
 | **AEM Guides 2022.10.0** | [2022.10.0 - Versionshinweise](./release-notes-2022-10-0.md) |
-| **AEM Guides 2022.09.0** | [ Versionshinweise zu 2022.09.0 ](./release-notes-2022-9-0.md) |
+| **AEM Guides 2022.09.0** | [&#x200B; Versionshinweise zu 2022.09.0 &#x200B;](./release-notes-2022-9-0.md) |
 | **AEM Guides 2022.08.0** | [2022.08.0 - Versionshinweise](./release-notes-2022-8-0.md) |
-| **AEM Guides 2022.05.0** | [ Versionshinweise zu 2022.05.0 ](./release-notes-2022-5-0.md) |
+| **AEM Guides 2022.05.0** | [&#x200B; Versionshinweise zu 2022.05.0 &#x200B;](./release-notes-2022-5-0.md) |
 | **AEM Guides 2022.04.0** | [2022.04.0 - Versionshinweise](./release-notes-2022-4-0.md) |
 | **AEM Guides 2022.03.0** | [2022.03.0 - Versionshinweise](./release-notes-2022-3-0.md) |
-| **AEM Guides 2022.02.0** | [ Versionshinweise zu 2022.02.0 ](./release-notes-2022-2-0.md) |
+| **AEM Guides 2022.02.0** | [&#x200B; Versionshinweise zu 2022.02.0 &#x200B;](./release-notes-2022-2-0.md) |
 | **AEM Guides 2022.01.0** | [2022.01.0 - Versionshinweise](./release-notes-2022-1-0.md) |
 
 
