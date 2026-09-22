@@ -56,7 +56,7 @@ Experience Manager Guides führt eine Fortschrittsverfolgung auf Themenebene fü
 
 Um dies zu unterstützen, sind Themen in der Dokumentansicht der Überprüfungs-Benutzeroberfläche in Akkordeons mit dem Kontrollkästchen **Thema als erledigt markieren** unterteilt. Die Themen, die Sie mithilfe des Kontrollkästchens als geprüft markieren, werden im Bereich **Themen** angezeigt, während **Zähler Themen überprüft** oben den Fortschritt bei den Ihnen zugewiesenen Themen anzeigt. Zusammen geben diese einen klaren Überblick darüber, was Sie behandelt haben und was noch verbleibt, auch wenn Sie nach einer Pause zu einer längeren Prüfungsaufgabe zurückkehren.
 
-Weitere Informationen finden Sie unter [Themen ](../user-guide/review-topics.md#mark-individual-topics-as-done-in-a-review-task).
+Weitere Informationen finden Sie unter [Themen &#x200B;](../user-guide/review-topics.md#mark-individual-topics-as-done-in-a-review-task).
 
 
 ### Identifizieren von Benutzern mit Rollen beim Taggen in Kommentaren
