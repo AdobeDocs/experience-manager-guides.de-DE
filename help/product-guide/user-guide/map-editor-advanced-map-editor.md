@@ -7,25 +7,32 @@ role: User
 TQID: https://experienceleague.adobe.com/EPnCDG2eSljhIm-DrPk9uMBrTyK9-mT1J8N8bAQVrQ8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 47ad7c824c35735c82b51390acd1404ba6274c9a
 workflow-type: tm+mt
-source-wordcount: 2918
+source-wordcount: '2987'
 ht-degree: 0%
-
 ---
-
 # Funktionen des Zuordnungs-Editors {#id1942D0S0IHS}
 
 >[!INFO]
@@ -54,7 +61,7 @@ Wenn Sie eine Karte zur Bearbeitung öffnen, wird die Layout-Ansicht des Karten-
 
 >[!NOTE]
 >
-> In der Layout-Ansicht werden nur die Verweise angezeigt, die in einer Zuordnung vorhanden sind. Wenn Referenzen beschädigt sind, wird links neben der Referenz ein kleines Kreuz-Symbol angezeigt
+> In der Layout-Ansicht werden nur die Verweise angezeigt, die in einer Zuordnung vorhanden sind. Wenn Referenzen beschädigt sind, wird links neben der Referenz ein kleines Kreuz-Symbol angezeigt.
 
 Die folgenden Optionen sind in der Symbolleiste in der Layout-Ansicht verfügbar:
 
@@ -97,7 +104,7 @@ Wählen Sie die Pfeile nach oben oder unten aus, um das Thema in der Hierarchie 
 
 >[!NOTE]
 >
-> Sie können die Verweise auch per Drag-and-Drop in eine Karte verschieben.
+>Sie können die Verweise auch per Drag-and-Drop in eine Karte verschieben. Wie Verweise nach dem Ziehen und Ablegen gehandhabt werden, hängt vom verwendeten Editor ab. Wenn Sie im Editor 2.0 einen Verweis (z. B. ein Thema, eine Unterzuordnung oder eine Schlüsseldefinition) auf einen vorhandenen Verweis in einer Zuordnung ziehen, wird er als untergeordnetes Element hinzugefügt, anstatt den vorhandenen Verweis zu ersetzen. Im alten Editor aktualisiert dieselbe Aktion die URL des Verweises, anstatt ihn als untergeordnetes Element hinzuzufügen.
 
 **Sperren/Entsperren**
 
@@ -138,8 +145,8 @@ Neben der Organisation von Themen in der Zuordnungsdatei können Sie auch die fo
 ![](images/map-editor-options-menu.png){width="650"}
 
 - **Hinzufügen**: Im Zuordnungs-Editor können Sie ein neues Thema oder eine leere Referenz hinzufügen:
-   - **Leere Referenz**: Mit dieser Option können Sie eine leere Referenz in Ihre DITA-Zuordnung einfügen. Sie können später auf den eingefügten leeren Verweis doppelklicken und die Themendetails hinzufügen.
-   - **Neues Thema**: Wenn Sie im Menü ein neues Thema erstellen, wird das Dialogfeld **Neues Thema** angezeigt. Geben Sie im Dialogfeld **Neues Thema** die erforderlichen Details ein und wählen Sie **Erstellen**.
+  - **Leere Referenz**: Mit dieser Option können Sie eine leere Referenz in Ihre DITA-Zuordnung einfügen. Sie können später auf den eingefügten leeren Verweis doppelklicken und die Themendetails hinzufügen.
+  - **Neues Thema**: Wenn Sie im Menü ein neues Thema erstellen, wird das Dialogfeld **Neues Thema** angezeigt. Geben Sie im Dialogfeld **Neues Thema** die erforderlichen Details ein und wählen Sie **Erstellen**.
 - **Verschieben**: Sie können ein Thema in der Hierarchie nach oben/unten/rechts/links verschieben. Sie können auch ein Thema oder eine Karte aus dem Repository-Bereich auf die im Karten-Editor geöffnete Karte ziehen und dort ablegen.
 - **Rückgängig**: Macht den letzten Vorgang in der Layout-Ansicht rückgängig.
 - **Wiederholen**: Wiederholt den letzten Vorgang in der Layout-Ansicht.

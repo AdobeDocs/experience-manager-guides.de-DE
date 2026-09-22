@@ -8,18 +8,20 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/Tl18qyeww079p8XGKwbKTN8TvoZLb-q9mPQ-8q660Dc
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 1417
+source-wordcount: '1891'
 ht-degree: 0%
-
 ---
-
 # Unterstützung für Sprachvariablen
 
 Adobe Experience Manager Guides bietet die Funktion zur Verwendung von Sprachvariablen. Sie können Sprachvariablen verwenden, um lokalisierte Zeichenfolgen in der PDF-Ausgabe zu definieren oder statischen Text in den Ausgabevorlagen zu lokalisieren. Sie können CSS-Stile verwenden, um die Zeichenfolgen aus einer CSS-Datei zu lokalisieren.
@@ -130,7 +132,7 @@ Die Variablen mit derselben ID werden importiert, sobald Sie die Datei importier
 >[!NOTE]
 > 
 ><ul><li>Wenn es sich bei der Datei nicht um eine XML-Datei handelt oder die Datei ein falsches Format enthält, das nicht den Sprachvariablen zugeordnet ist, wird ein Fehler angezeigt, der besagt, dass ein Problem mit der XML-Datei vorliegt. 
->&gt;<li>Wenn die Datei keine Variablen mit derselben ID enthält, wird eine Warnung angezeigt, dass in der importierten Datei keine übereinstimmende Sprachvariable gefunden wird.
+&gt;<li>Wenn die Datei keine Variablen mit derselben ID enthält, wird eine Warnung angezeigt, dass in der importierten Datei keine übereinstimmende Sprachvariable gefunden wird.
 
 ### Optionen für eine Sprachvariable
 
@@ -150,8 +152,6 @@ Sie können auch die Werte für eine Anwendungsvariable bearbeiten. Später kön
 ## Verwenden von Sprachvariablen in den Ausgabevorlagen
 
 Sie sollten Ihren lokalisierten Dokumenten Sprachvariablen hinzufügen. Sie können diese Sprachvariablen in das Seiten-Layout einfügen, das auf verschiedenen Seiten in Ihren lokalisierten Dokumenten angezeigt wird. Sie können beispielsweise die Sprachvariable für die `author-name` hinzufügen, die im Kopfzeilenbereich des Seitenlayouts (oder in einem anderen Teil wie der Fußzeile oder dem Hauptteil) angezeigt wird.
-
-
 
 <img alt="Seiten-Layout einer PDF-Datei" src="./assets/language-variable-page-layout.png" width="550">
 
@@ -180,6 +180,21 @@ Um eine Sprachvariable wie Ihre `copyright-label` in den Kopfzeilenbereich einzu
 <img alt="Variable in den Kopfzeilenbereich einfügen" src="./assets/language-variable-header.png" width="550">
 
 *Die im Kopfzeilenbereich hinzugefügte `copyright-label`.*
+
+Nach dem Einfügen hängt der Wert einer Sprachvariablen in der generierten Ausgabe von der in der Ausgabevorgabe konfigurierten Sprache ab. Wenn für Ihre Zuordnung bereits eine Sprache mit dem Attribut `xml:lang` definiert ist und Sie möchten, dass die Vorlage dieselbe Sprache verwendet, stellen Sie sicher, dass die Option **Zuordnungssprache verwenden** in der Ausgabevorgabe ausgewählt ist, anstatt eine Sprache explizit auszuwählen. Sehen Sie sich [Sprachauflösung für DITA-Inhalte vs. Ausgabevorlagenvariablen an](#language-resolution-for-dita-content-vs-output-template-variables) um zu erfahren, wie eine Sprache basierend auf ihrem Inhaltstyp aufgelöst wird.
+
+### Sprachauflösung für DITA-Inhalte vs. Ausgabevorlagenvariablen
+
+Ihr Dokument kann zwei Arten von Inhalten enthalten, die übersetzt werden müssen: DITA-Inhalte wie Querverweise und Tabellenfortsetzungs-Markierungen sowie Inhalte in Ausgabevorlagen wie Vorder-, Hintergrund-, Kopf- und Fußzeilen, die Sie mithilfe von Sprachvariablen einfügen.
+
+In der folgenden Tabelle erfahren Sie, wie jeder Inhaltstyp seine Sprache auflöst.
+
+| Inhaltstyp | Beispiele | Sprachauflösungsreihenfolge |
+|---|---|---|
+| DITA-Inhalt | Querverweise (z. B. „Siehe Kapitel“ oder „Siehe Seite„), Tabellenfortsetzungsmarken | &#x200B;1. `xml:lang` Attribut auf das nächstgelegene Thema oder die nächstgelegene Zuordnung <br> 2. Sprache der Ausgabevoreinstellung, wenn kein `xml:lang` festgelegt ist |
+| Sprachvariablen der Ausgabevorlage | Vordere Materie, hintere Materie, Kopfzeilen, Fußzeilen, laufende Köpfe und generierte Beschriftungen (Hinweis, Vorsicht, Warnung) | &#x200B;1. In der Ausgabevorgabe <br> 2 ausgewählte Sprache. Die `xml:lang` der Stammzuordnung, wenn **Zuordnungssprache verwenden** <br> 3 ausgewählt ist. Englisch (en_US), wenn keines von beiden verfügbar ist |
+
+Wenn Ihre DITA-Inhalte einer bestimmten Sprache entsprechen sollen, legen Sie das `xml:lang` Attribut zum Thema fest oder ordnen Sie sie am nächsten zu diesem Inhalt zu. Sprachvariablen arbeiten anders. Da sie nicht Teil der DITA-Quelle sind, können sie nicht vererbt werden, sodass Sie die Sprache stattdessen über die Ausgabevorgabe steuern `xml:lang`.
 
 ### Anwenden eines Inhaltsstils auf Sprachvariablen
 

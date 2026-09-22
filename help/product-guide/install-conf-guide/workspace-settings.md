@@ -4,18 +4,16 @@ description: Erfahren Sie mehr über die verschiedenen Einstellungen, die in der
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 2386f02cf0752ca6c97ca1e3697bfbd03e6ca4d5
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2378'
 ht-degree: 1%
-
 ---
-
 # Workspace-Einstellungen
 
 >[!NOTE]
 >
-> Bei On-Premise-Setups vor Version 5.2 wird die **Einstellungen** in der Registerkartenleiste des Editors angezeigt. Für Cloud Service- und On-Premise-Konfigurationen ab Version 5.2 wurde diese Option in **Workspace-Einstellungen&#39;**. Alle unter „Editor-Einstellungen **verfügbaren Konfigurationsoptionen** unverändert.
+> Bei On-Premise-Setups vor Version 5.2 wird die **Einstellungen** in der Registerkartenleiste des Editors angezeigt. Für Cloud Service- und On-Premise-Konfigurationen ab Version 5.2 wurde diese Option in **Workspace-Einstellungen umbenannt**. Alle unter „Editor-Einstellungen **verfügbaren Konfigurationsoptionen** unverändert.
 > ![Editor-Einstellung für On-Premise](assets/editor-settings-on-prem.png){width="650"}
 
 
@@ -42,14 +40,27 @@ Die Option **Workspace** in der [Registerkartenleiste](../user-guide/web-editor-
 
 Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren, dass der Editor verwendet wird. Diese Registerkarte enthält fünf Abschnitte: **KI-Assistent**, **Authoring**, **Zitate**, **Bedingung** und **Rechtschreibprüfung**.
 
-![](../user-guide/images/editor-setting-general.png){width="350"}
+![](assets/editor-setting-general-agentic.png){width="350"}
 
 - **KI-Assistent**
-Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md)Assistent“ in der Experience Manager Guides zu aktivieren. Deaktivieren Sie diese Option, um die Funktion zu deaktivieren.
 
-  Nach der Aktivierung des Umschalters **KI** Assistent) können Sie mithilfe des Menüs **Authoring-Schnellaktionen** konfigurieren, welche Optionen auf der Registerkarte **Authoring** für Autoren angezeigt werden.\
-  Diese Änderungen gelten für das jeweilige Ordnerprofil, mit dem Sie arbeiten. Wenn Sie ein neues Ordnerprofil erstellen, übernimmt es standardmäßig die Workspace-Einstellungen, die im Ordnerprofil **Global** definiert sind. Sie können diese Einstellungen nach Bedarf mit den **Workspace-Einstellungen ändern** die aktualisierte Konfiguration speichern.\
-  Einen detaillierten Überblick über die verfügbaren Optionen für das Authoring mit dem KI-Assistenten finden Sie unter [Authoring von Dokumenten mit dem KI-Assistenten](../user-guide/ai-assistant-right-panel.md).
+  >[!NOTE]
+  >
+  > Wenden Sie sich an das Customer Success-Team, wenn Sie den Agentenmodus der KI-Assistentenfunktion in Ihrer Umgebung verwenden möchten.
+
+  Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md)Assistent“ in der Experience Manager Guides zu aktivieren. Deaktivieren Sie diese Option, um die Funktion zu deaktivieren.
+
+  Der KI-Assistent ist in zwei Modi verfügbar: **Agent** und **Standard**. Sie können zwischen den beiden Modi wählen, indem Sie die entsprechenden Umschalter aktivieren.
+
+  - **Agent**: Nach Aktivierung dieser Option können Sie über die Navigationsleiste auf der Startseite und die Registerkartenleiste auf der Editor-Benutzeroberfläche auf die Funktion „Agent-KI-Assistent“ zugreifen. Weitere Informationen zum Generieren der von KI vorgeschlagenen Tags für Themen finden Sie unter [Verwenden des KI-Assistenten im Agentenmodus](../user-guide/ai-assistant-agentic.md).
+
+  ![](assets/agentic-ai-workspace.png){width="350"}
+
+  - **Standard**: Nachdem Sie den **Standard**-Umschalter aktiviert haben, können Sie mithilfe des Menüs **Authoring-Schnellaktionen** konfigurieren, welche Optionen auf der **Authoring-Registerkarte** für Autoren angezeigt werden.
+
+    Diese Änderungen gelten für das jeweilige Ordnerprofil, mit dem Sie arbeiten. Wenn Sie ein neues Ordnerprofil erstellen, übernimmt es standardmäßig die Workspace-Einstellungen, die im Ordnerprofil **Global** definiert sind. Sie können diese Einstellungen nach Bedarf mit den **Workspace-Einstellungen ändern** die aktualisierte Konfiguration speichern.
+
+    Einen detaillierten Überblick über die verfügbaren Optionen für das Authoring mit dem KI-Assistenten finden Sie unter [Authoring von Dokumenten mit dem KI-Assistenten](../user-guide/ai-assistant-right-panel.md).
 
   Über das **Authoring-Schnellaktionen**-Menü haben Sie folgende Möglichkeiten:
 
@@ -57,19 +68,7 @@ Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md
 
   - Ändern Sie die Reihenfolge, in der die Optionen angezeigt werden, und ziehen Sie sie per Drag-and-Drop nach Bedarf.
 
-  ![](../user-guide/images/authoring-quick-actions-new.png){width="350"}
-
-- **Handbücher KI**
-
-  >[!NOTE]
-  >
-  > Wenden Sie sich zur Verwendung der Guides-KI-Funktion in Ihrer Umgebung an das Customer Success-Team . Es kann jeweils nur ein KI-Erlebnis aktiviert werden, entweder KI-Handbücher oder KI-Assistent.
-
-  Wählen Sie **Umschalter** Guides AI) aus, um diese Funktion in der Experience Manager Guides zu aktivieren. Deaktivieren Sie diese Option, um die Funktion zu deaktivieren.
-
-  Nach Aktivierung dieser Option können Sie über die Navigationsleiste auf der Startseite und die Registerkartenleiste auf der Editor-Benutzeroberfläche auf die Funktion Guides-KI zugreifen. Weitere Informationen zum Generieren von von von KI vorgeschlagenen Tags für Themen finden Sie unter [Erste Schritte mit KI-Handbüchern](../user-guide/guides-ai.md).
-
-  ![](assets/guides-ai-workspace.png){width="350"}
+  ![](assets/authoring-quick-actions-standard.png){width="350"}
 
 - **Authoring**
 
@@ -77,7 +76,7 @@ Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md
 
 - **Zitate**
 
-  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von &#x200B;](../user-guide/web-editor-apply-citations.md#change-citation-style).
+  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von ](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Bedingung**
 
@@ -257,7 +256,7 @@ Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum �
      >
      > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
-  1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![&#x200B; Sprachgruppen zu bearbeiten &#x200B;](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![&#x200B; oder zu löschen](../user-guide/images/Delete_icon.svg).
+  1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](../user-guide/images/Delete_icon.svg).
   1. Speichern Sie die **Einstellungen**.
 
      >[!NOTE]

@@ -7,26 +7,34 @@ role: User
 TQID: https://experienceleague.adobe.com/FKASAXcwI6A5iGO8n758bBCNzjMitcz2zgnJWrNfM8U
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06126f77ee4db22865895739ad9af4efa787a7df
+    internal-label: Administration
+source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3753'
 ht-degree: 0%
-
 ---
-
 # Themen überprüfen {#id2056B0W0FBI}
 
 Wenn Sie ein Prüfer sind, erhalten Sie eine E-Mail mit einer Prüfungsanfrage mit dem Link zu den Prüfthemen. Über diesen Link können Sie auf die Überprüfungsseite zugreifen, auf der Sie Ihr Feedback zu den freigegebenen Themen hinzufügen können.
@@ -68,7 +76,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
      Wählen Sie ![](images/view-options.svg) in der Nähe der Suchleiste aus, um alle Themen oder Themen mit Kommentaren anzuzeigen. Standardmäßig können Sie alle in der Prüfungsaufgabe vorhandenen Themen anzeigen.
 
 
-   - **D**: Die durch ***F*** hervorgehobenen Zahlen können gefiltert werden, indem die gewünschte Filteroption hier ausgewählt wird. Kommentare können nach Typ, Status, Prüfer oder Version gefiltert werden. Wenn Sie beispielsweise anzeigen möchten, wie viele durchgestrichene Kommentare in jedem der zu überprüfenden Themen vorgenommen wurden, wählen Sie das Filtersymbol aus und wählen Sie dann **Überprüfungstyp** \> **Löschen**.
+   - **D**: Die durch ***E*** hervorgehobenen Zahlen können gefiltert werden, indem die gewünschte Filteroption hier ausgewählt wird. Kommentare können nach Typ, Status, Prüfer oder Version gefiltert werden. Wenn Sie beispielsweise anzeigen möchten, wie viele durchgestrichene Kommentare in jedem der zu überprüfenden Themen vorgenommen wurden, wählen Sie das Filtersymbol aus und wählen Sie dann **Überprüfungstyp** \> **Löschen**.
 
      >[!NOTE]
      >
@@ -80,7 +88,7 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
    - **G**: Anzahl der eingegangenen Kommentare zu einem Thema. Diese Zahl ändert sich je nach angewendetem Filter.
 
 
-   Alle Themen in der Karte werden als einzelnes zusammengesetztes Dokument angezeigt. Die Themen, die der Reviewer überprüfen darf, werden normal angezeigt. Die Themen, die die Überprüfung nicht überprüfen darf, werden nicht angezeigt.
+   Alle Themen in der Karte werden als einzelnes zusammengesetztes Dokument angezeigt. Die Themen, die der Reviewer überprüfen darf, werden normal angezeigt. Die Themen, die der Reviewer nicht überprüfen darf, werden als deaktiviert angezeigt.
 
    ![](images/review-read-only.png)
 
@@ -104,6 +112,76 @@ Führen Sie die folgenden Schritte aus, um ein Thema zu überprüfen:
    > Im Bedienfeld Kommentare werden nur die Kommentare zu den aktuellen Themen angezeigt. Wenn Sie den Fokus auf ein anderes Thema verschieben, werden die Kommentare zum anderen Thema angezeigt.
 
 1. Klicken Sie **die Schaltfläche** Schließen“, nachdem Sie die Überprüfung des Themas abgeschlossen haben. Durch Klicken auf **Schließen** werden Sie zu der Seite weitergeleitet, von der aus Sie auf das Prüfungsthema zugegriffen haben.
+
+## Markieren einzelner Themen als „Erledigt“ bei einer Prüfungsaufgabe
+
+>[!NOTE]
+>
+> Diese Funktion ist ab Version 2026.09.0 von Experience Manager Guides as a Cloud Service standardmäßig aktiviert. Wenn Sie lieber zum vorherigen Verhalten wechseln möchten, wenden Sie sich an Ihr Customer Success-Team, um diese Funktion für Ihre Umgebung zu deaktivieren.
+
+Wenn eine Prüfungsaufgabe eine große Anzahl von Themen enthält, können Sie möglicherweise nicht alle in einer Sitzung überprüfen. Wenn Ihnen beispielsweise eine Prüfungsaufgabe mit etwa 50 Themen zugewiesen ist, kann es schwierig werden, die bereits überprüften Themen und die Themen, die noch Ihrer Aufmerksamkeit bedürfen, im Auge zu behalten, wenn Sie zur Aufgabe zurückkehren.
+
+Mit **Funktion „Thema als erledigt**&quot; können Sie einzelne Themen bei der Überprüfung als erledigt markieren. Dies erleichtert die Identifizierung der bereits behandelten Themen und die Konzentration auf die noch ausstehenden Themen.
+
+Führen Sie die folgenden Schritte aus, um einzelne Themen als in einer Prüfungsaufgabe erledigt zu markieren:
+
+1. Öffnen Sie die Ihnen zugewiesene Prüfungsaufgabe.
+
+1. Öffnen Sie in der Überprüfungs-Benutzeroberfläche die Themen, die Ihnen im Bedienfeld **Themen** zugewiesen wurden, oder wechseln Sie zur **Dokumentansicht**, um alle Themen zusammen als zusammengesetztes Dokument anzuzeigen.
+
+1. Jedes Thema wird in einem Akkordeon mit einem Kontrollkästchen **Thema als erledigt markieren** angezeigt, wie unten dargestellt.
+
+   >[!NOTE]
+   >
+   >Themen, die in der Prüfungsaufgabe enthalten, aber Ihnen nicht zugewiesen sind, sind deaktiviert und können nicht als erledigt markiert werden.
+
+   **Ansicht des Bedienfelds „Themen“**
+
+   ![](images/topics-panel-view-mark-topic-as-done.png)
+
+   **Dokumentansicht:**
+
+   ![](images/document-view-mark-topic-as-done.png)
+
+1. Überprüfen Sie ein Thema und fügen Sie bei Bedarf Kommentare oder Feedback hinzu.
+
+1. Nachdem Sie die Überprüfung des Themas abgeschlossen haben, aktivieren Sie **Kontrollkästchen** Thema als erledigt markieren“.
+
+   Das Thema-Akkordeon wird automatisch ausgeblendet. Sie können das Akkordeon jederzeit erneut öffnen, bevor Sie die Prüfungsaufgabe abschließen. Wenn Sie weitere Kommentare hinzufügen müssen, erweitern Sie einfach das Themenakkordeon und fügen Sie Ihre Kommentare hinzu.
+
+   >[!NOTE]
+   >
+   >Ob das Kontrollkästchen **Thema als erledigt markieren** aktiviert oder deaktiviert ist, hängt davon ab, wer das Thema und die Version überprüft:
+   >
+   > - **Wenn mehrere Reviewer zugewiesen sind:** Kontrollkästchen-Auswahl gilt nur für Sie. Wenn Sie **Thema als erledigt markieren** bleibt das Kontrollkästchen für andere Reviewer, die demselben Thema zugewiesen sind, unverändert.
+   > - **Wenn sich die Themenversion ändert** gilt Ihre Checkbox-Auswahl nur für die von Ihnen überprüfte Version. Wenn Sie für Version 1.0 **Thema als erledigt** und der Autor das Thema in Version 1.1 ändert, wird das Kontrollkästchen für Sie zurückgesetzt. Wenn der Autor später zu Version 1.0 zurückkehrt, bleibt das Kontrollkästchen deaktiviert.
+
+1. Wiederholen Sie die vorherigen Schritte für die anderen Themen, die Sie überprüft haben.
+
+   >[!NOTE]
+   >
+   > Wenn Sie einzelne Themen als erledigt markieren, können Sie Ihren Prüfungsfortschritt verfolgen, und es ist nicht erforderlich, die Prüfungsaufgabe abzuschließen. Sie können die Prüfungsaufgabe auch dann abschließen, wenn einige Themen nicht als erledigt markiert sind.
+
+   ![](images/mark-topics-done-all.png)
+
+   Die folgenden visuellen Indikatoren in der Überprüfungs-Benutzeroberfläche helfen Ihnen, Ihren Fortschritt zu verfolgen:
+
+   - Ein **grüner Punkt** wird neben einem Thema im Bedienfeld **Themen** angezeigt, wenn Sie es als erledigt markiert haben.
+
+     ![](images/topics-done-green-dot-topics-panel.png)
+
+   - Der Indikator **Themen geprüft** zeigt die Anzahl der Themen an, die Sie im Verhältnis zur Gesamtzahl der Ihnen zugewiesenen Themen als erledigt markiert haben.
+
+     ![](images/topics-reviewed-count-review-ui.png)
+
+   >[!NOTE]
+   >
+   > Das **Thema als erledigt markieren** Kontrollkästchen, die grüne Punktanzeige und **Themen** geprüft) sind nur für Benutzer sichtbar, die Themen markieren oder Aufgaben als erledigt überprüfen können. Autoren und Administratoren mit schreibgeschütztem Zugriff auf die Prüfungsaufgabe sehen diese Optionen oder Indikatoren nicht.
+
+1. Nachdem Sie die Themen gelesen haben, die Sie an den Autor oder Aufgabeninitiator senden möchten, wählen Sie **Prüfungsaufgabe abschließen**.
+
+1. Fügen Sie im Dialogfeld **Prüfungsaufgabe abschließen** einen Kommentar hinzu und wählen Sie **Abschließen** aus, um die Aktion zu bestätigen.
+
 
 ## Zusätzliche Funktionen auf dem Überprüfungsbildschirm
 
@@ -199,9 +277,17 @@ Wenn Sie an einer Prüfungsaufgabe mit mehreren Reviewern arbeiten, können Sie 
 
 ![](images/tag-users-review-ui.png){width="350"}
 
-Um einen Benutzer zu taggen, geben Sie `@` in einen Kommentar oder eine Antwort ein und wählen Sie einen Benutzer aus der Liste der Reviewer aus. Der Anzeigename wird zusammen mit einer E-Mail-Adresse des Benutzers angezeigt, um die Identifizierung zu erleichtern. Wenn keine E-Mail-Adresse verfügbar ist, wird stattdessen die Benutzer-ID angezeigt.
+Um einen Benutzer zu taggen, geben Sie `@` in einen Kommentar oder eine Antwort ein und wählen Sie einen Benutzer aus der Liste der mit diesem Projekt verknüpften Benutzer aus. Die Liste zeigt den Namen des Benutzers zusammen mit zusätzlichen Details an, die Ihnen dabei helfen, den richtigen Benutzer zu identifizieren.
 
-![](images/tagged-users-with-email.png)
+Benutzerdetails werden in der folgenden Reihenfolge angezeigt:
+
+`<Role>` | `<User name>` | `<Email address>`
+
+Wenn die E-Mail-Adresse nicht verfügbar ist, werden nur die Rolle und der Name des Benutzers angezeigt.
+
+Sie können auch den Mauszeiger über einen Benutzer in der Liste bewegen, um dessen Benutzernamen, Rolle und E-Mail-Adresse in einer QuickInfo anzuzeigen.
+
+![](images/tagged-users-in-review-ui.png)
 
 Getaggte Benutzende erhalten sowohl eine E-Mail- als auch eine AEM-Benachrichtigung, sodass sie umgehend informiert werden. Weitere Informationen zum Trigger von Prüfungsbenachrichtigungen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
 
@@ -355,4 +441,4 @@ Das Symbol **Versionsverlauf** des Themas wird angezeigt, sobald die Prüfungsau
 
 ![](images/version-history-dialog.png)
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

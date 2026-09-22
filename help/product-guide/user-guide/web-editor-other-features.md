@@ -7,23 +7,29 @@ role: User
 TQID: https://experienceleague.adobe.com/r6gZE2a3lXtL0mFWxurEjna8mUTJIMEQdz2eLw2OWcQ
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1833481e1801fa171901abafe5eb256baaa10b8f
+    internal-label: User
+source-git-commit: 811743900fefe761f10254ff13c741a7d8f41d27
 workflow-type: tm+mt
-source-wordcount: 4258
+source-wordcount: '4329'
 ht-degree: 0%
-
 ---
-
 # Zusätzliche Funktionen im Editor {#id2056B0B0YPF}
 
 Es gibt einige weitere nützliche Funktionen im Editor, die Sie nutzen können:
@@ -151,7 +157,7 @@ Ihr Dateispeichererlebnis hängt von den folgenden drei Szenarien ab, in denen S
 Je nachdem, ob die Datei gesperrt/entsperrt ist und gespeicherte oder nicht gespeicherte Änderungen aufweist, können Sie die folgenden Optionen anzeigen:
 
 - **Entsperren und Schließen**: Die Sperre für die Datei wird aufgehoben, und die Datei wird geschlossen.
-- **Als neue Version speichern**: Dadurch werden die Änderungen gespeichert, die Sie am Inhalt vorgenommen haben, und eine neue Version der Datei erstellt. Sie können der neu gespeicherten Version auch Beschriftungen und Kommentare hinzufügen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version &#x200B;](web-editor-toolbar.md#version-information-and-save-as-new-version).
+- **Als neue Version speichern**: Dadurch werden die Änderungen gespeichert, die Sie am Inhalt vorgenommen haben, und eine neue Version der Datei erstellt. Sie können der neu gespeicherten Version auch Beschriftungen und Kommentare hinzufügen. Weitere Informationen zum Speichern einer neuen Version finden Sie unter [Als neue Version ](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 - **Datei entsperren**: Wenn Sie eine Datei entsperren, wird die Sperre für die Datei aufgehoben und die Änderungen werden in der aktuellen Version der Datei gespeichert.
 
@@ -220,26 +226,26 @@ Die kontextuelle Symbolleiste wird angezeigt, wenn Sie Inhalte oder Zellen in ei
 
   ![](images/set-alignment-rows.png){width="550"}
 
-   - Horizontale Textausrichtung (nicht verfügbar für einfache Tabellen)
-   - Vertikale Textausrichtung (nicht verfügbar für einfache Tabellen)
-   - Zeile oberhalb einfügen
-   - Zeile unten einfügen
-   - Zeile entfernen
-   - Zellen verbinden (für einfache Tabellen nicht verfügbar)
+  - Horizontale Textausrichtung (nicht verfügbar für einfache Tabellen)
+  - Vertikale Textausrichtung (nicht verfügbar für einfache Tabellen)
+  - Zeile oberhalb einfügen
+  - Zeile unten einfügen
+  - Zeile entfernen
+  - Zellen verbinden (für einfache Tabellen nicht verfügbar)
 
   Verfügbare Optionen für die Auswahl einer oder mehrerer Spalten:
 
   ![](images/set-alignment-columns.png){width="550"}
 
-   - Horizontale Textausrichtung (nicht verfügbar für einfache Tabellen)
-   - Vertikale Textausrichtung (nicht verfügbar für einfache Tabellen)
-   - Zeile oberhalb einfügen
-   - Zeile unten einfügen
-   - Zeile entfernen
-   - Spalte oben einfügen
-   - Spalte unten einfügen
-   - Spalte entfernen
-   - Zellen verbinden (für einfache Tabellen nicht verfügbar)
+  - Horizontale Textausrichtung (nicht verfügbar für einfache Tabellen)
+  - Vertikale Textausrichtung (nicht verfügbar für einfache Tabellen)
+  - Zeile oberhalb einfügen
+  - Zeile unten einfügen
+  - Zeile entfernen
+  - Spalte oben einfügen
+  - Spalte unten einfügen
+  - Spalte entfernen
+  - Zellen verbinden (für einfache Tabellen nicht verfügbar)
 
 - Wählen Sie die Tabelle aus, um Textformatierung und Ausrichtung auf die gesamte Tabelle anzuwenden.
 
@@ -349,17 +355,17 @@ Sie haben die folgenden Optionen, um die Dateien zu filtern und Ihre Suche einzu
 
   Das bedeutet:
 
-   - Wenn Sie das globale Profil verwenden, werden die im globalen Profil konfigurierten Filterwerte angewendet.
-   - Wenn Sie ein bestimmtes Ordnerprofil auswählen, werden die in diesem Profil definierten Filterwerte abgerufen.
+  - Wenn Sie das globale Profil verwenden, werden die im globalen Profil konfigurierten Filterwerte angewendet.
+  - Wenn Sie ein bestimmtes Ordnerprofil auswählen, werden die in diesem Profil definierten Filterwerte abgerufen.
 
   Die für den Dokumentstatus verfügbaren Standardfilterwerte sind: „Entwurf“, „Bearbeiten“, „In Überprüfung“, „Genehmigt“, „Überprüfen“ und „Fertig“. Details zum Anpassen von Filterwerten für Dokumentstatus finden Sie unter [Konfigurieren von Dokumentstatusfiltern](../cs-install-guide/config-doc-state-filters.md).
 
 - **Gesperrt von**: Zeigt eine Liste von Benutzern an. Die Liste wird paginiert und asynchron geladen, sodass nur eine begrenzte Anzahl von Benutzern gleichzeitig angezeigt wird und beim Scrollen oder Navigieren mehr abgerufen wird. Dies verbessert die Ladegeschwindigkeit und die Gesamtleistung, insbesondere bei der Arbeit mit einer großen Anzahl von Benutzern.
 
 - **Zuletzt geändert**: Filtern Sie den Inhalt nach dem Änderungsdatum. Wählen Sie einen Datumsbereich aus dem Kalender aus oder wählen Sie eine der folgenden Zeitrahmen-Optionen:
-   - In letzter Woche
-   - Im letzten Monat
-   - Im letzten Jahr
+  - In letzter Woche
+  - Im letzten Monat
+  - Im letzten Jahr
 
 - **Tags**: Filtern von Inhalten basierend auf Tags.
 
@@ -552,5 +558,4 @@ Die wichtigsten Funktionen zur Verbesserung der Handhabung großer Dateien werde
 
 - Die Warnmeldung ist nur für DITA-Dateien verfügbar und in allen Ansichten sichtbar: Author, Source und Layout.
 
-
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

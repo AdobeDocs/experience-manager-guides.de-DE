@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/mrpBKOZcVm1XHdkEy9PBFOt-cbjfmyjqhT-BRbg3Swo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a668e1b862702ae1154b05d974414b54b43559ea
+    internal-label: User
+source-git-commit: 279cf0605427042290a7bbf179636f022d4bfd46
 workflow-type: tm+mt
-source-wordcount: 3663
+source-wordcount: '4036'
 ht-degree: 0%
-
 ---
-
 # Senden von Themen zur Überprüfung {#id199RD0S035Z}
 
 Der Überprüfungs-Workflow erstellt eine Umgebung mit mehreren Reviewern, in der der Initiator eine Liste von zu überprüfenden Themen angibt, mehrere Reviewer hinzufügt und eine Zeitleiste für die Überprüfungsaufgabe zuweist. Adobe Experience Manager Guides ermöglicht es Benutzenden, die den Gruppen „Autoren“ und „Herausgeber“ angehören, eine Überprüfung einzuleiten.
@@ -89,7 +93,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Aktivieren Sie **Automatische Erinnerung**, um geplante Erinnerungsbenachrichtigungen (und E-Mail-Erinnerungen) für Prüfer zu konfigurieren. Dies kann sowohl vor dem Fälligkeitsdatum einer Prüfungsaufgabe als auch nach deren Fälligkeit erfolgen.
 
@@ -261,7 +265,7 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
 
@@ -274,6 +278,10 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
    Die Inhaltsseite wird mit allen Themen angezeigt, auf die in der Zuordnungsdatei verwiesen wird. Wenn Ihre DITA-Karte verschachtelte Karten enthält, werden hier auch Themen aus den verschachtelten Karten aufgeführt.
 
    ![](images/content-page-map-review.png)
+
+   >[!NOTE]
+   >
+   > Wie der Inhalt auf dieser Seite organisiert wird, hängt davon ab, ob die Funktion „Zuordnungshierarchie“ für Ihre Umgebung aktiviert ist. Wenn diese Option aktiviert ist, werden die Zuordnung und ihre Unterzuordnungen in einer hierarchischen Ansicht anstelle einer flachen Themenliste angezeigt. Weitere Informationen finden Sie unter [Anzeigen der Zuordnungshierarchie bei Auswahl der zu überprüfenden Themen](#view-the-map-hierarchy-while-selecting-topics-for-review).
 
 1. Wählen Sie auf der Inhaltsseite eine Version des Themas aus, das Sie zur Überprüfung freigeben möchten.
 
@@ -328,6 +336,33 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
 Alle validierungsverantwortlichen Personen werden per E-Mail darüber informiert, dass ihnen zu überprüfende Themen zugewiesen wurden. Die E-Mail enthält einen direkten Link, über den sie in einem Browser-Fenster auf das Thema zugreifen können. Die Themen werden zusammen mit der DITA-Karte im Review-Modus geöffnet.
 
+### Anzeigen der Zuordnungshierarchie bei der Auswahl der zu überprüfenden Themen
+
+>[!NOTE]
+>
+> Diese Funktion ist standardmäßig deaktiviert. Um sie in Ihrer Umgebung zu aktivieren, wenden Sie sich an Ihr Customer Success-Team.
+
+Mit dieser Funktion wird die vorhandene Struktur oder Hierarchie des Zuordnungsinhalts auf der Seite **Inhalt** angezeigt. Anstatt alle Themen in einer Karte als flache Liste anzuzeigen, werden die Karte und ihre Unterzuordnungen in ihrer tatsächlichen Hierarchie angezeigt, um eine bessere Referenz zu erhalten, wenn Inhalte zur Überprüfung ausgewählt werden.
+
+![](./images/review-map-hierarchy.png)
+
+>[!NOTE]
+>
+> - Wenn eine Karte nur Themen und keine Unterzuordnungen enthält, wird wie gewohnt eine flache Liste von Themen angezeigt.
+> - In der Hierarchie werden nur Inhaltstypen angezeigt, die in eine Überprüfung aufgenommen werden können. Dazu gehören Konzepte, Aufgaben, Referenzen und allgemeine Themen sowie DITA Map, BookMap und Learning Content Map. Nicht überprüfbare Elemente wie Glossarreferenzen, Schlüsseldefinitionen und Glossarlisten werden nicht in der Zuordnungshierarchie angezeigt.
+
+Standardmäßig werden alle Zuordnungen, Unterzuordnungen und Themen in der Hierarchie ausgewählt. Als Autor oder Initiator der Prüfungsaufgabe können Sie einzelne Themen auswählen oder die Auswahl aufheben oder Unterzuordnungen abschließen, je nach dem Inhalt, den Sie zur Überprüfung senden möchten. Durch Aufheben der Auswahl einer Unterzuordnung werden auch alle darin enthaltenen Themen deaktiviert.
+
+Wenn nur einige Themen innerhalb einer Unterzuordnung ausgewählt sind, ändert sich das Kontrollkästchen für die Unterzuordnung in einen unbestimmten Status, um eine teilweise Auswahl anzuzeigen. Dieser Auswahlstatus wird sowohl auf den Seiten **Inhalt** als auch **Reviewer** angezeigt, sodass die ausgewählten Inhalte über den gesamten Prüfungs-Workflow hinweg konsistent bleiben.
+
+![](./images/review-partial-selection-submap.png)
+
+Wenn alle Themen innerhalb einer Unterzuordnung ausgewählt oder deaktiviert sind, wird der Auswahlstatus der Unterzuordnung automatisch entsprechend angepasst.
+
+Wenn dasselbe Thema mehrmals in der Zuordnungshierarchie referenziert wird, wird jedes Vorkommen nach dem ersten mit einer Beschriftung **Duplizieren** gekennzeichnet, um die Identifizierung zu erleichtern. Die Option zum Auswählen, Aufheben der Auswahl oder Ändern der Version dieser doppelten Themen ist deaktiviert. Jede Auswahl oder Versionsänderung muss vom ersten Auftreten des Themas an vorgenommen werden.
+
+![](./images/review-duplicate-topics-in-map.png)
+
 ## Themen zu einer laufenden Prüfungsaufgabe hinzufügen oder daraus entfernen
 
 Als Autor oder Initiator einer Prüfungsaufgabe können Sie einer laufenden Prüfungsaufgabe neue Themen hinzufügen (wenn diese noch nicht zur Überprüfung gesendet wurden) oder Themen aus einer laufenden Prüfungsaufgabe entfernen, ohne den Prüfungs-Workflow zu beeinträchtigen.
@@ -365,4 +400,4 @@ Sobald die Prüfungsaufgabe aktualisiert wurde, erhalten die Validierungsverantw
 Weitere Informationen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

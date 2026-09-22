@@ -7,28 +7,38 @@ role: User
 TQID: https://experienceleague.adobe.com/1eKOv9Ys8N5wOu5-gon4uDq-LLIqADeSmbWq55iVg18
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: c5fd2af0-6cbb-4746-ab0d-40ecb093af12
+    internal-label: Introduction
   - id: c8841798-1a28-4264-a46a-984860f8e6f6
+    internal-label: User administration
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e5812ebac255dc10f4b6bf7287cfaede92354e70
+    internal-label: Administration
+source-git-commit: 912b7583cbbbb4beff08423d360a9a06f3c365cf
 workflow-type: tm+mt
-source-wordcount: 1526
+source-wordcount: '1618'
 ht-degree: 0%
-
 ---
-
 # Kommentare zur Adressenüberprüfung {#id2056B0X0KBI}
 
 Als Autor können Sie Kommentare in einem Thema mit dem Editor bearbeiten. Die Kommentare werden auf der Grundlage der im Überprüfungsfeld ausgewählten Überprüfungsaufgabe geladen. Weitere Informationen finden Sie in der Beschreibung des Bedienfelds **Überprüfen** ![](images/active-review-tasklist-icon.svg) im Abschnitt [Linkes Bedienfeld](../user-guide/web-editor-left-panel.md).
@@ -102,6 +112,18 @@ Als Autor und Initiator der Prüfungsaufgabe können Sie auf Prüfungskommentare
 ![](images/tag-users-review.png){width="350"}
 *Beschriftung:Tag Benutzer als Initiator/Autor*
 
+Um einen Benutzer zu taggen, geben Sie `@` in einen Kommentar oder eine Antwort ein und wählen Sie einen Benutzer aus der Liste der mit diesem Projekt verknüpften Benutzer aus. Die Liste zeigt den Namen des Benutzers zusammen mit zusätzlichen Details an, die Ihnen dabei helfen, den richtigen Benutzer zu identifizieren.
+
+Benutzerdetails werden in der folgenden Reihenfolge angezeigt:
+
+`<Role>` | `<User name>` | `<Email address>`
+
+Wenn die E-Mail-Adresse nicht verfügbar ist, werden nur die Rolle und der Name des Benutzers angezeigt.
+
+Sie können auch den Mauszeiger über einen Benutzer in der Liste bewegen, um dessen Benutzernamen, Rolle und E-Mail-Adresse in einer QuickInfo anzuzeigen.
+
+![](images/tag-users-author-ui.png){width="350"}
+
 Getaggte Benutzende erhalten sowohl eine E-Mail- als auch eine AEM-Benachrichtigung, sodass sie umgehend informiert werden. Weitere Informationen zum Trigger von Prüfungsbenachrichtigungen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
 
 **Zugreifen auf Prüfungskommentare über die Überprüfungs-Benutzeroberfläche**
@@ -133,4 +155,4 @@ Beachten Sie bei Verwendung dieser Funktion Folgendes:
 - Filter und Suche gelten nur für die Kommentare der ausgewählten Aufgabe. Kommentare von anderen, nicht ausgewählten Aufgaben sind nicht betroffen.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)
