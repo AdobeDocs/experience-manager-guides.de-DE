@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 79259c4991292c12990c42bdd819f121655d650b
+source-git-commit: 2123962f8c168928c9b0a1ee1331e5cfd86db319
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2647'
 ht-degree: 11%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 11%
       - {hide-from-toc}[Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
       - [Cloud-Versionen](./release-info/latest-release-info-cs.md)
       - Versionen 2026 {#2026-releases}
+        - Version 2026.09.0 {#2609-release}
+          - [Neue Funktionen](./release-info/whats-new-2026-09-0.md)
+          - [Behobene Probleme](./release-info/fixed-issues-2026-09-0.md)
+          - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2026-09-0.md)
         - Version 2026.08.0 {#2608-release}
           - [Neue Funktionen](./release-info/whats-new-2026-08-0.md)
           - [Behobene Probleme](./release-info/fixed-issues-2026-08-0.md)
@@ -219,8 +223,8 @@ ht-degree: 11%
   - Einführung {#about-aemg}
     - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
-      - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Startseite {#home-page}
     - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
     - [Repository-Schnittstelle](./user-guide/home-page-repository-view.md)
@@ -364,12 +368,13 @@ ht-degree: 11%
   - KI-Assistent in AEM Guides {#ai-assistant-aem}
     - [Adobe Generative AI-Benutzerinformationen](./user-guide/adobe-generative-ai-disclosures.md)
     - [Überblick über den KI-Assistenten](./user-guide/ai-assistant.md)
-    - [KI-gestützte intelligente Hilfe bei der Suche nach Inhalten](./user-guide/ai-based-smart-help.md)
-    - [KI-Assistent für das Authoring zur intelligenten Erstellung von Dokumenten](./user-guide/ai-assistant-right-panel.md)
-    - [KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten](./user-guide/authoring-ai-based-smart-suggestions.md)
-    - [Häufig gestellte Fragen](./user-guide/ai-assistant-faq.md)
-  - Handbücher zur KI in AEM Guides {#guides-ai-aem}
-    - [Erste Schritte mit KI-Handbüchern](./user-guide/guides-ai.md)
+    - KI-Assistent im Agentenmodus {#ai-assistant-agentic}
+      - [Verwenden des KI-Assistenten im Agentenmodus](./user-guide/ai-assistant-agentic.md)
+    - KI-Assistent im Standardmodus {#ai-assistant-standard}
+      - [KI-gestützte intelligente Hilfe bei der Suche nach Inhalten](./user-guide/ai-based-smart-help.md)
+      - [KI-Assistent für das Authoring zur intelligenten Erstellung von Dokumenten](./user-guide/ai-assistant-right-panel.md)
+      - [KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten](./user-guide/authoring-ai-based-smart-suggestions.md)
+      - [Häufig gestellte Fragen](./user-guide/ai-assistant-faq.md)
   - Verwalten von Lerninhalten {#learning-training-content}
     - Erste Schritte {#get-started}
       - Einführung {#intro-lc}
@@ -429,8 +434,10 @@ ht-degree: 11%
     - Fehlerbehebung {#troubleshooting}
       - [Sitzungs-Timeout](./user-guide/session-timeout-prompt.md)
       - [Zeichenfolge ist eine zu lange Ausnahme beim Metadatenexport](./user-guide/metadata-export-failure.md)
+    - Leistungsmanagement {#performance-management}
+      - [Paginiertes Laden von Dateien und Ordnern](./user-guide/paginated-loading-assets.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-conf-guide}
   - [Herunterladen, Installieren und Aktualisieren](./install-conf-guide/introduction.md)
   - Installationsprozess für Cloud Service {#deploy-conf-aemg-cs}
@@ -500,6 +507,7 @@ ht-degree: 11%
     - [Installieren von Paketen für die artikelbasierte Veröffentlichung](./install-conf-guide/conf-article-based-publishing.md)
     - [Konfigurieren der Ignorieren-Liste von Metadateneigenschaften](./install-conf-guide/conf-metadata-prop.md)
     - Editor-Einstellung für Cloud Service {#editor-cloud-settings}
+      - [Konfigurieren des KI-Assistenten im Agentenmodus für Cloud Service](./install-conf-guide/configure-ai-assistant-agentic-mode-cs.md)
       - [Konfigurieren der KI-gestützten intelligenten Vorschläge für das Authoring für Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
       - [Konfigurieren der KI-gestützten Smart-Hilfe für die Suche nach Inhalten für Cloud Service](./install-conf-guide/conf-smart-help.md)
       - [Konfigurieren Sie die Option zum Bearbeiten in Oxygen für Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
@@ -560,6 +568,7 @@ ht-degree: 11%
     - Konfigurieren von Inhalten und Experience Fragments für Cloud Service {#conf-content-exp-fragment}
       - [Erstellen einer Zuordnung zwischen einem Thema und einem Inhaltsfragment](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
       - [Erstellen einer Zuordnung zwischen einem Thema und einem Experience Fragment](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+    - [Größenbeschränkung für XML-Parser-Entitäten konfigurieren](./install-conf-guide/conf-xml-parsing.md)
   - Anpassung des Workflows {#workflow}
     - [Konfigurieren und Anpassen von Workflows](./install-conf-guide/conf-customize-workflows.md)
   - Integrationen {#aemg-integrations}
