@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/8heDTU9viOxhsg-Epvu6OZMrRyHoWRJ-584O6u9lut8
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: de26a643364cab57b415d8eff9e863ea1b4bfe62
+    internal-label: User
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
-source-wordcount: 984
+source-wordcount: '1098'
 ht-degree: 0%
-
 ---
-
 # Unterstützung für Schematron-Dateien
 
 „Schematron“ bezieht sich auf eine regelbasierte Validierungssprache, die zum Definieren von Tests für eine XML-Datei verwendet wird. Der Editor unterstützt Schematron-Dateien. Sie können die Schematron-Dateien importieren und auch im Editor bearbeiten. Mithilfe einer Schematron-Datei können Sie bestimmte Regeln definieren und diese dann für ein DITA-Thema oder eine Zuordnung validieren.
@@ -73,7 +77,7 @@ Wenn Sie ein Thema im Editor öffnen, wird rechts ein Bedienfeld für die Schema
 
    >[!NOTE]
    >
-   > Validierungsergebnisse werden basierend auf dem in der Schematron-Datei definierten Rollenattribut angezeigt. Weitere Informationen finden Sie unter [Validierungsergebnisse und Schweregrade](#understanding-validation-results-and-serverity-levels).
+   > Validierungsergebnisse werden basierend auf dem in der Schematron-Datei definierten Rollenattribut angezeigt. Weitere Informationen finden Sie unter [Validierungsergebnisse und Schweregrade](#understanding-validation-results-and-severity-levels).
 
 1. Wählen Sie die Fehlermeldung aus, um das Element mit dem Fehler im geöffneten Thema/in der geöffneten Zuordnung hervorzuheben.
 
@@ -191,3 +195,21 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
+
+## Definieren von Regeln mithilfe des Knotenkontexts von Text
+
+Sie können eine Schematron-Regel mit einem Text-Knoten-Kontext definieren, z. B. `context="//text()"`, sodass die Regel direkt anhand von Textknoten ausgewertet wird, anstatt jedes mögliche DITA-Element aufzählen zu müssen, das diesen Text enthalten kann.
+
+Beispielsweise kennzeichnet die folgende Regel einfache Anführungszeichen an einer beliebigen Stelle im Thementext:
+
+```XML
+<sch:pattern id="quotation-marks-straight-v2">
+  <sch:rule context="//text()">
+    <sch:report role="info" test="contains(., '&quot;')">Please use typographic quotes instead of straight quotes.</sch:report>
+  </sch:rule>
+</sch:pattern>
+```
+
+Wenn diese Regel übereinstimmt, verweist das Validierungsergebnis auf den exakten Textknoten, der sie ausgelöst hat, und nicht nur auf das umschließende Element.
+
+Regeln, die einen expliziten Elementkontext verwenden, z. B. `context="//p"`, funktionieren weiterhin wie zuvor, und Sie können dennoch beide Ansätze verwenden, je nachdem, wie präzise Sie die Übereinstimmung und den Fehlerspeicherort haben möchten.

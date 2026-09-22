@@ -7,27 +7,37 @@ role: User
 TQID: https://experienceleague.adobe.com/aSjUOzg8-jreMvbiuBZ5lRlbeikBHMHBLUww4L3-hZA
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd456af4-cb12-4a34-8cc4-b74adf885626
+    internal-label: Content translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 077335fcbb539ef545ce2ca9903e4a8223b3f6ce
+    internal-label: User
+source-git-commit: 0db59f201b2418911634609b93ab7892477052c9
 workflow-type: tm+mt
-source-wordcount: 2562
-ht-degree: 1%
-
+source-wordcount: '2794'
+ht-degree: 0%
 ---
-
 # Übersetzen von Dokumenten aus der Map-Konsole {#id21BKF0Z0YZF}
 
 >[!TIP]
@@ -66,7 +76,8 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 
    >[!IMPORTANT]
    >
-   > Sie können nur die Sprachen auswählen und in diese übersetzen, für die Sie den Zielordner parallel zur Quellsprache erstellt haben. Ein auf einer anderen Ebene erstellter Sprachordner, z. B. eine Ebene unterhalb des Ordners der Ausgangssprache, wird ebenfalls nicht angezeigt. Stellen Sie sicher, dass Sie alle Zielsprachordner auf derselben Ebene wie den Ordner für die Ausgangssprache erstellen.
+   > * Sie können nur die Sprachen auswählen und in diese übersetzen, für die Sie den Zielordner parallel zur Quellsprache erstellt haben. Ein auf einer anderen Ebene erstellter Sprachordner, z. B. eine Ebene unterhalb des Ordners der Ausgangssprache, wird ebenfalls nicht angezeigt. Stellen Sie sicher, dass Sie alle Zielsprachordner auf derselben Ebene wie den Ordner für die Ausgangssprache erstellen.
+   > * Wenn Sie den Zielordner für eine Sprache erstellen, nachdem Sie die Sprachgruppe erstellt haben, aktualisieren Sie den Browser, um die Sprache in den Sprachgruppen zu aktivieren.
 
 
 
@@ -80,7 +91,9 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 
    >[!NOTE]
    >
-   > Wenn Sie den Zielordner für eine Sprache erstellen, nachdem Sie die Sprachgruppe erstellt haben, aktualisieren Sie den Browser, um die Sprache in den Sprachgruppen zu aktivieren.
+   > Wenn eine einzelne Quell- oder Zielsprachkopie (Datei) aus ihrem ursprünglichen Sprachordner in einen anderen Ordner verschoben wird, spiegelt das Bedienfeld Übersetzung diese Änderung wie folgt wider:
+   > - Zielsprachkopien: Wenn eine Zielsprachkopie (Ziel-)aus ihrem ursprünglichen Zielsprachordner in einen anderen Ordner verschoben wird, wird das entsprechende Asset im Bedienfeld Übersetzung als deaktiviert angezeigt.
+   > - Source-Sprachkopien: Wenn eine Quellsprachkopie aus ihrem ursprünglichen Ordner in einen anderen Sprachordner verschoben wird, wird das entsprechende Asset im Übersetzungs-Bedienfeld als aktiviert angezeigt, sodass die Übersetzung erwartungsgemäß fortgesetzt werden kann.
 
 1. Wenn Sie eine bestimmte Sprache auswählen, wird sie in allen ausgewählten Sprachgruppen als ausgewählt angezeigt. Wenn man in eine Sprache übersetzt, wird es in einem Schritt für alle Sprachgruppen übersetzt. Wenn beispielsweise Deutsch sowohl in den G1- als auch in den G2-Sprachgruppen vorhanden ist, wird es für beide ausgewählt.
 
@@ -144,6 +157,10 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
    - Sie können **Neues mehrsprachiges Übersetzungsprojekt erstellen** auswählen, das Übersetzungsaufträge für alle Sprachen enthält, die Sie für die Übersetzung ausgewählt haben. Wenn Sie beispielsweise Französisch, Deutsch und Spanisch ausgewählt haben, wird ein Projekt erstellt, das Übersetzungsaufträge für alle drei Sprachen enthält.
    - Wenn Sie bereits über ein Übersetzungsprojekt verfügen, können Sie diesem Projekt Themen hinzufügen. Wählen Sie **Option „Zu vorhandenem Übersetzungsprojekt hinzufügen** aus der Projektliste aus und wählen Sie ein Projekt aus der Liste Vorhandenes Übersetzungsprojekt aus. Sie können diese Projekte nach aktueller, aufsteigender oder absteigender Reihenfolge sortieren.
 
+     >[!NOTE]
+     >
+     > Bei Verwendung von **Zu vorhandenem Übersetzungsprojekt hinzufügen** zum Senden zusätzlicher Assets zur Übersetzung schlägt der Vorgang fehl, wenn für dasselbe Projekt noch eine vorherige Anforderung (Projekterstellung oder Zu vorhandenem Projekt hinzufügen) ausgeführt wird. Die folgende Meldung wird angezeigt: *Eine vorherige Anfrage für dieses Projekt ist noch in Bearbeitung. Bitte einige Minuten warten und dann erneut versuchen*.
+
    - Wenn Sie **Zu vorhandenem Übersetzungsprojekt hinzufügen** auswählen, aktualisiert dieser Vorgang den vorhandenen Asset-Eintrag im Projekt, wenn das Asset bereits hinzugefügt wurde und der Status des zugehörigen Übersetzungsauftrags sich im Status *Entwurf* befindet.
      - Wenn die Zielsprache nicht im Projekt vorhanden ist, wird ein neues Projekt für das einsprachige Übersetzungsprojekt erstellt und ein neuer Auftrag für das mehrsprachige Übersetzungsprojekt erstellt.
 
@@ -163,6 +180,7 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
    - Wenn Sie zu einem vorhandenen Übersetzungsprojekt hinzufügen, wählen Sie den Pfad aus, in dem das Projekt bereits vorhanden ist. Wählen Sie dann aus der Liste **Vorhandenes Übersetzungsprojekt** das Projekt aus, dem Sie die aktuelle Übersetzungsaufgabe hinzufügen möchten. Sie können auch **Filter** verwenden, um die Liste einzugrenzen.
 
      ![Geben Sie den vorhandenen Projektpfad ein](images/existing-project-path.png){width="650"}
+
 
 1. Geben Sie im Feld **Projekttitel** einen Namen für das Projekt ein.
 1. Wählen **Senden** aus, um ein neues Übersetzungsprojekt zu erstellen.

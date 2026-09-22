@@ -8,19 +8,22 @@ level: Experienced
 TQID: https://experienceleague.adobe.com/h8V5bE1J5ztJNJ9wMPoQR4k36-pZuiaYbnD7xPYX-zE
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
 workflow-type: tm+mt
-source-wordcount: 4601
+source-wordcount: '5053'
 ht-degree: 0%
-
 ---
-
 # Komponenten einer PDF-Vorlage {#components-pdf-template}
 
 Eine PDF-Vorlage besteht aus vier Komponenten: Seitenlayouts, Stylesheets, Ressourcen und Einstellungen. Sie können eine Vorlage erstellen, indem Sie diese einzelnen Komponenten anpassen und die Vorlage mit einer Ausgabevorgabe verknüpfen, während Sie eine PDF-Ausgabe generieren. In den folgenden Abschnitten werden diese Komponenten und ihr Anpassungsprozess im Detail beschrieben.
@@ -77,7 +80,7 @@ Inhalte (Inhaltsverzeichnis), Index, leere Seite, Themenvorderseiten, rückwärt
 
 1. Geben _im Dialogfeld Layout duplizieren_ einen Namen für das Seiten-Layout ein.
 
-1. Klicken Sie **Fertig**.
+1. Klicken Sie auf **Fertig**.
 Eine Kopie des ausgewählten Seiten-Layouts wird erstellt und unter Seiten-Layouts hinzugefügt.
 
 ### Anpassen eines Seiten-Layouts {#customize-page-layout}
@@ -199,8 +202,30 @@ Gehen Sie wie folgt vor, um eine Asset-Datei zum Ordner „Ressourcen“ hinzuzu
 
 1. Klicken Sie **Dateien auswählen**, um die Asset-Datei auf Ihrem lokalen Computer zu durchsuchen
 
-1. Klicken Sie **Hochladen**.
+1. Klicken Sie auf **Hochladen**.
 Die ausgewählte Datei wird importiert und im Ordner Ressourcen aufgeführt.
+
+## Ein- oder Ausblenden von Entwurfskommentaren in der nativen PDF-Ausgabe
+
+In einem DITA-Thema hinzugefügte Kommentare zu Entwürfen sind standardmäßig aus der nativen Ausgabe von PDF ausgeschlossen. Dies wird durch den Stil `draft-comment` im Inhaltsstylesheet der Ausgabevorlage gesteuert, wobei die `display`-Eigenschaft auf `none` festgelegt ist.
+
+Als Administrator können Sie diesen Stil aktualisieren, sodass Entwurfskommentare in der Ausgabe sichtbar sind:
+
+1. Öffnen Sie im **Ausgabevorlagen** die Vorlage, die die Zuordnung für die Veröffentlichung in PDF verwendet.
+2. Erweitern Sie **Stylesheets** und doppelklicken Sie auf **content**, um das Content-Stylesheet zu öffnen.
+3. Suchen Sie im **Stile**-Bedienfeld nach &quot;**-comment“ und wählen Sie** aus.
+
+   Verwenden Sie das Suchfeld, um schnell zu finden, ob die Liste lang ist.
+
+4. Ändern Sie **Bedienfeld** Eigenschaften“ den Wert der Eigenschaft **display** von `none` auf einen sichtbaren Wert (z. B. `block`, `inline-block`, `grid` und mehr).
+
+   ![Konfigurieren der Eigenschaft für Entwurfskommentare im Inhalts-Stylesheet](./assets/draft-comment-setting.png)
+
+5. Speichern Sie die Formatvorlage.
+
+>[!NOTE]
+>
+>Mit diesem Stil wird festgelegt, ob Entwurfskommentare im Allgemeinen in formatierten Inhalten sichtbar sind. Um Entwurfskommentare gezielt in die **native PDF**-Ausgabe aufzunehmen, müssen Sie auch die Option **Entwurfskommentare einschließen** in der nativen PDF-Ausgabevorgabe aktivieren. Weitere Informationen finden Sie unter [Native PDF-Ausgabevorgabe](../web-editor/native-pdf-web-editor.md). Beide Einstellungen sind zusammen erforderlich, damit Entwurfskommentare in der generierten PDF genau so angezeigt werden, wie sie im Editor angezeigt werden.
 
 ## Erweiterte PDF-Einstellungen {#advanced-pdf-settings}
 
@@ -223,8 +248,8 @@ Legen Sie die grundlegenden Konfigurationseinstellungen für den Start eines Kap
 
 * **Inhaltsstruktur**: Ermöglicht die Anpassung der Hierarchie des Inhaltsverzeichnisses. Es werden die folgenden zusätzlichen Einstellungen verwendet:
 
-   * **Überschriften bis zur Ebene verwenden**: Damit können Sie die Anzahl der Überschriftenebenen anpassen, die in der Inhaltsverzeichnisstruktur Ihrer PDF angezeigt werden sollen.
-   * **Seitenzahl für die erste Ebene im Inhaltsverzeichnis nicht anzeigen**: Wählen Sie diese Option, um die entsprechenden Seitenzahlen für alle Kapitel auszublenden, die verschachtelte oder untergeordnete Themen enthalten. Betrachten Sie das folgende Beispiel, bei dem eine Ausgabe erstellt wird, ohne diese Option auszuwählen.
+  * **Überschriften bis zur Ebene verwenden**: Damit können Sie die Anzahl der Überschriftenebenen anpassen, die in der Inhaltsverzeichnisstruktur Ihrer PDF angezeigt werden sollen.
+  * **Seitenzahl für die erste Ebene im Inhaltsverzeichnis nicht anzeigen**: Wählen Sie diese Option, um die entsprechenden Seitenzahlen für alle Kapitel auszublenden, die verschachtelte oder untergeordnete Themen enthalten. Betrachten Sie das folgende Beispiel, bei dem eine Ausgabe erstellt wird, ohne diese Option auszuwählen.
 
   <img src="assets/page-number-in-toc.png" alt="Hochladen von Assets" width="250">
 
@@ -245,16 +270,20 @@ Informationen zum Anwenden der Überschriftenebenen für Inhaltsverzeichnisse un
   >Wenn Sie CSS-Entwickler sind, können Sie das Leader-Format auch direkt in der CSS-Datei definieren.
 
 * **Fortsetzungsmarkierung für Tabelle verwenden**: Wählen Sie diese Option, um Markierungen für lange Tabellen zu definieren, die sich über mehrere Seiten erstrecken.
-Sie können festlegen, welcher Text vor und nach der Pause angezeigt werden soll. Beispiel: Auf Seite 5 wird eine Tabelle umgebrochen, und Sie definieren `<Continued on page %page-num%>` für **Text vor Umbruch**. Der Text zeigt unten auf Seite 5 „Weiter auf Seite 6“ an.
+Sie können festlegen, welcher Text vor und nach der Pause angezeigt werden soll. Beispiel: Auf Seite 5 wird eine Tabelle umgebrochen, und Sie definieren `<Continued on page %page-num%>` für &quot;**vor Umbruch**.  Der Text zeigt unten auf Seite 5 „Fortsetzung auf Seite 6“ an.
 
   Verwenden Sie Sprachvariablen, um den Text der Fortsetzungsmarkierung vor und nach der Pause zu definieren. Je nach Sprache wird der lokalisierte Wert automatisch in der PDF-Ausgabe ausgewählt. Sie können `Continued on page %page-num%` beispielsweise als Text auf Englisch und `Fortsetzung auf Seite %page-num%` auf Deutsch veröffentlichen.
 
   Bewegen Sie den Mauszeiger über <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> in der Nähe der Option, um weitere Details dazu anzuzeigen.
+
+  >[!NOTE]
+  >
+  > Wenn Sie eine Sprachvariable im Feld **Text vor** oder **Text nach** verwenden, stellen Sie sicher, dass der gesamte Text in einer einzelnen Sprachvariablen definiert ist. Text oder Variablen, die außerhalb der Sprachvariablen in diesen Feldern hinzugefügt wurden, werden nicht gerendert. Anstatt beispielsweise eine Variablenkombination wie `${lng:Continued-from-page} %page-num%` im Feld **Text nach**&quot; zu verwenden, verwenden Sie nur `${lng:Continued-from-page}` im Feld und setzen Sie den Wert der `Continued-from-page` Sprachvariablen separat auf `Continued-from-page %page-num%`.
 * **Glossarbegriffe mit der Glossarseite verknüpfen**: Wählen Sie diese Option, um die Glossarbegriffe als Hyperlinks im Inhalt anzuzeigen und mit den Begriffen auf der Glossarseite zu verknüpfen. Dies hilft den Lesern, die Definition eines im Glossar definierten Begriffs schnell anzuzeigen.
 
   Um Glossarbegriffe in Hyperlinks zu konvertieren, gehen Sie folgendermaßen vor:
-   * Aktivieren **Glossar** auf der Registerkarte **Seitenlayoutreihenfolge** für eine DITA-Zuordnung.
-   * Fügen Sie das Glossar auf den Seiten der Hintergrundthemen für eine Buchkarte hinzu.
+  * Aktivieren **Glossar** auf der Registerkarte **Seitenlayoutreihenfolge** für eine DITA-Zuordnung.
+  * Fügen Sie das Glossar auf den Seiten der Hintergrundthemen für eine Buchkarte hinzu.
 
   Wenn Sie die Glossarseite nicht aktivieren, werden die Glossarbegriffe im Inhalt in der PDF-Ausgabe nicht in Hyperlinks konvertiert.
   <!--For more information on using table continuation markers, see Use table continuation markers.-->
@@ -394,11 +423,11 @@ Wählen Sie eine Seitenreihenfolge aus, die die Seitenreihenfolge in Ihrem PDF-D
 * **Booklet**: Alle Seiten werden wie in einem Booklet bestellt.
 * **Right to Left Booklet**: Alle Seiten befinden sich in der Reihenfolge von rechts nach links.
 * **Benutzerdefiniert**: Definieren Sie eine benutzerdefinierte Reihenfolge der Seiten anstelle einer vordefinierten Reihenfolge.
-   * „a.b“ — Alle aufeinander folgenden Seiten von a bis b.
-   * „a,b,c“ — Neue Seitenreihenfolge a, b, c.
-   * „a*b“ - Die Seite a wird x-mal wiederholt.
-   * &quot;-a“ - Negative Seitenzahlen werden ab der letzten Seite rückwärts gezählt und können mit anderen benutzerdefinierten Bestellungen kombiniert werden.
-   * „X“ — Alle Seiten des Dokuments. Gleiches Ergebnis wie „1..-1“.
+  * „a.b“ — Alle aufeinander folgenden Seiten von a bis b.
+  * „a,b,c“ — Neue Seitenreihenfolge a, b, c.
+  * „a*b“ - Die Seite a wird x-mal wiederholt.
+  * &quot;-a“ - Negative Seitenzahlen werden ab der letzten Seite rückwärts gezählt und können mit anderen benutzerdefinierten Bestellungen kombiniert werden.
+  * „X“ — Alle Seiten des Dokuments. Gleiches Ergebnis wie „1..-1“.
 
 So können Sie beispielsweise eine benutzerdefinierte Bestellung wie „2,3,5*2,7..10,-1,-2.
 Die angegebene Seitenreihenfolge führt zu einem PDF mit den folgenden Seitennummern aus dem Originaldokument, vorausgesetzt, es umfasst insgesamt 25 Seiten: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.

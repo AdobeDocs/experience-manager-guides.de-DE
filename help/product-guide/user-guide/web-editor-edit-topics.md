@@ -7,21 +7,25 @@ role: User
 TQID: https://experienceleague.adobe.com/Ln0JE2F8klsmIZJqtpy3Idi3VHdh1U900sfMrD0xpEU
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 67bbbc9afc5278722d7d60bf5574feb44a9ed69c
+    internal-label: User
+source-git-commit: 44b50108aa453052c1c9b429eaeb254cad746166
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: '1497'
 ht-degree: 0%
-
 ---
-
 # Bearbeiten von Themen im Editor {#id2056B040VUI}
 
 >[!INFO]
@@ -91,16 +95,16 @@ Den ausgewählten Inhalt fett, kursiv und den ausgewählten Inhalt unterstreiche
 
 - Den Inhalt mit einem gültigen Element umgeben: Führen Sie die folgenden Schritte aus, um den Inhalt mit einem gültigen Element einzuschließen:
 
-   - Wählen Sie den Inhalt in einem Element aus.
-   - Wählen Sie ![&#x200B; oben in der Symbolleiste das Symbol &#x200B;](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
+  - Wählen Sie den Inhalt in einem Element aus.
+  - Wählen Sie ![&#x200B; oben in der Symbolleiste das Symbol &#x200B;](images/Add_icon.svg)Hinzufügen“ aus, um das Dialogfeld **Element einfügen** anzuzeigen. Das Dialogfeld listet die gültigen Elemente für den ausgewählten Inhalt auf.
 
-     >[!NOTE]
-     >
-     > Sie können das Dialogfeld Element einfügen auch anzeigen, indem Sie auf das Kontextmenü des ausgewählten Inhalts klicken.
+    >[!NOTE]
+    >
+    > Sie können das Dialogfeld Element einfügen auch anzeigen, indem Sie auf das Kontextmenü des ausgewählten Inhalts klicken.
 
-   - Wählen Sie ein Element im Dialogfeld aus. Der ausgewählte Inhalt wird unter diesem Element umschlossen. Wenn Sie beispielsweise den Inhalt in einem Absatz auswählen und dann das `<note>` Element im Dialogfeld **Element einfügen** auswählen, wird der ausgewählte Inhalt unter einer Anmerkung angezeigt.
+  - Wählen Sie ein Element im Dialogfeld aus. Der ausgewählte Inhalt wird unter diesem Element umschlossen. Wenn Sie beispielsweise den Inhalt in einem Absatz auswählen und dann das `<note>` Element im Dialogfeld **Element einfügen** auswählen, wird der ausgewählte Inhalt unter einer Anmerkung angezeigt.
 
-     ![Dialogfeld Element einfügen](./images/insert-element-editor.png) {width="300"}
+    ![Dialogfeld Element einfügen](./images/insert-element-editor.png) {width="300"}
 
 ## Browser beim Bearbeiten der Dateien aktualisieren
 
@@ -180,6 +184,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 > Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the  Author, Source, and Layout modes.
 
  -->
+
+## Verhindern, dass Inhalte beim gleichzeitigen Bearbeiten überschrieben werden
+
+>[!NOTE]
+>
+> Aktivieren Sie **Einstellung „Bearbeitung deaktivieren, ohne die Datei** sperren“ im ConfigMgr für diese Funktion.
+
+Wenn zwei Autoren gleichzeitig am selben DITA-Thema arbeiten, können Änderungen, die auf einer veralteten Kopie vorgenommen werden, unwissentlich die Änderungen eines anderen Autors überschreiben. Um dies zu verhindern, wird bei Auswahl **Sperren** in einem Thema der Editor automatisch aktualisiert, um den neuesten Inhalt vom Server zu laden, bevor Sie mit der Bearbeitung beginnen, sodass Ihre Änderungen immer auf der aktuellen Version basieren und nicht auf einer veralteten Kopie.
 
 ## Suchen einer geöffneten Datei im Explorer
 

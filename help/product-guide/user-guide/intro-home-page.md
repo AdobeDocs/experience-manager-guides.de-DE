@@ -4,13 +4,11 @@ description: Lernen Sie die Startseite der Adobe Experience Manager Guides kenne
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: b866964c30a565eab0f6f9aec4b3fc9013f15f75
+source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2331'
 ht-degree: 0%
-
 ---
-
 # Experience Manager Guides-Startseitenerlebnis
 
 Die Startseite ist der erste Bildschirm, der beim Anmelden bei Experience Manager Guides angezeigt wird. Es bietet Ihnen ein einheitliches und intuitives Willkommenserlebnis, einschließlich einer schnellen Ansicht der Dateien, auf die Sie zuletzt zugegriffen haben, Sammlungen und mehr.
@@ -45,16 +43,17 @@ In der Navigationsleiste verfügbare Funktionen werden wie folgt erläutert:
   - **Startseite**: Die Standardseite, die Sie beim Anmelden bei Experience Manager Guides anzeigen.
   - **Editor**: Ein benutzerfreundlicher Web-basierter Editor, mit dem Sie strukturierte Dokumente in Experience Manager Guides erstellen und verwalten können. [Erfahren Sie mehr über die Benutzeroberfläche des Editors](./web-editor.md).
   - **Map-Konsole**: Bietet einen dedizierten Arbeitsbereich für alle Aspekte der Kartenverwaltung und -veröffentlichung. [Kennenlernen der Benutzeroberfläche der Map-Konsole](./map-console-overview.md).
-- **KI-Assistent**: Ein leistungsstarkes, von KI gesteuertes Tool, das Ihre Produktivität durch intelligente Hilfefunktionen steigert. Darüber hinaus können Sie beim Arbeiten in der Editor-Benutzeroberfläche die intelligenten Authoring-Funktionen des KI-Assistenten nutzen, die Ihren Authoring-Prozess durch intelligente Vorschläge für die Wiederverwendung und Optimierung von Inhalten intelligenter und schneller machen.
-
-  Die Funktion [KI-](./ai-assistant.md)) ist derzeit nur für Adobe Experience Manager as a Cloud Service verfügbar.
-
-- **Guides AI**: Bringt intelligente, agentische Smart-Tagging-Kenntnisse von Adobe CX Enterprise Coworker in den Editor und ermöglicht natürliches, konversatives Tagging von Inhalten. Es analysiert Ihre Inhalte, empfiehlt relevante Tags und hilft Ihnen bei der Anwendung konsistenter und genauer Metadaten mit minimalem Aufwand. Sie können die vorgeschlagenen Tags überprüfen und sie anwenden oder ablehnen, bevor Sie Ihre Auswahl bestätigen. [Guides AI](../user-guide/guides-ai.md) optimiert den Tagging-Prozess und verbessert die Organisation und Auffindbarkeit von Inhalten.
-
+- **KI-Assistent**: Der KI-Assistent ist in zwei Modi verfügbar: **Agent** und **Standard**.
 
   >[!NOTE]
   >
-  > Wenden Sie sich zur Verwendung der Guides-KI-Funktion in Ihrer Umgebung an das Customer Success-Team . Nachdem die Funktion aktiviert wurde, können Administratoren sie in den Workspace-Einstellungen aktivieren oder deaktivieren. Es kann jeweils nur ein KI-Erlebnis aktiviert werden, entweder KI-Handbücher oder KI-Assistent.
+  > Wenden Sie sich an das Customer Success-Team, wenn Sie den Agentenmodus der KI-Assistentenfunktion in Ihrer Umgebung verwenden möchten. Nachdem die Funktion aktiviert wurde, können Administratoren sie in den Workspace-Einstellungen aktivieren oder deaktivieren. Es kann jeweils nur ein Modus des KI-Assistenten aktiviert werden: entweder Agent oder Standard.
+
+  - **Agnetic**: Bringt intelligente, agentische Smart-Tagging-Kenntnisse von Adobe CX Enterprise Coworker in den Editor und ermöglicht das Tagging natürlicher, konversativer Inhalte. Es analysiert Ihre Inhalte, empfiehlt relevante Tags und hilft Ihnen bei der Anwendung konsistenter und genauer Metadaten mit minimalem Aufwand. Sie können die vorgeschlagenen Tags überprüfen und sie anwenden oder ablehnen, bevor Sie Ihre Auswahl bestätigen. [KI-Assistent im Agentenmodus verwenden](../user-guide/ai-assistant-agentic.md) optimiert den Tagging-Prozess und verbessert die Inhaltsorganisation und Auffindbarkeit.
+
+  - **Standard**: Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelligente Hilfefunktionen steigert. Darüber hinaus können Sie beim Arbeiten in der Editor-Benutzeroberfläche die intelligenten Authoring-Funktionen des KI-Assistenten nutzen, die Ihren Authoring-Prozess durch intelligente Vorschläge für die Wiederverwendung und Optimierung von Inhalten intelligenter und schneller machen.
+
+  Die Funktion [KI-](./ai-assistant.md)) ist derzeit nur für Adobe Experience Manager as a Cloud Service verfügbar.
 
 - **Übersichtsabschnitt anpassen**: Ermöglicht das Ausblenden oder Anzeigen der Widgets im Abschnitt Widgets .
 - **Ordnerprofil in Verwendung**: Zeigt das Ordnerprofil an, das derzeit verwendet wird.
@@ -208,6 +207,7 @@ Die Benutzereinstellungen stehen allen Autoren zur Verfügung. Über die Voreins
 
   - **Dateien immer im Explorer suchen**: Wählen Sie diese Option, um den Speicherort einer Datei im Repository anzuzeigen, während sie im Editor bearbeitet wird.
 
-  >[!NOTE]
-  >
-  >Ab Version 2025.11.0 für Cloud Service und ab Version 5.2.0 für On-Premise wird die Einstellung **Dateien immer im Repository** in **Dateien immer im Explorer suchen** umbenannt. Bei On-Premise-Setups vor Version 5.2 ist sie weiterhin verfügbar, da Dateien immer im Repository zu finden sind.
+    >[!NOTE]
+    >
+    >- Ab Version 2025.11.0 für Cloud Service und ab Version 5.2.0 für On-Premise wird die Einstellung **Dateien immer im Repository** in **Dateien immer im Explorer suchen** umbenannt. Bei On-Premise-Setups vor Version 5.2 ist sie weiterhin verfügbar, da Dateien immer im Repository zu finden sind.
+    >- Ab Version 2026.09.0 ist **Paginiertes Laden von Dateien und Ordnern** standardmäßig aktiviert. Wenn diese Funktion aktiviert ist **ist „Dateien immer im Explorer suchen** in den Benutzereinstellungen nicht verfügbar. Damit die Einstellung Dateien immer im Explorer suchen verfügbar ist, wenden Sie sich an Ihr Customer Success-Team, um das Paginieren beim Laden von Dateien und Ordnern zu deaktivieren. Weitere Informationen finden Sie unter [Paginiertes Laden von Dateien und Ordnern](./web-editor-other-features.md#paginated-loading-of-files-and-folders).

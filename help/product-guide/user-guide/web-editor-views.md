@@ -7,22 +7,27 @@ role: User
 TQID: https://experienceleague.adobe.com/hdEk3etzBCch3Ejdl5SnIC37pSK6a-WERkTMqu-jlGM
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: e4019ae1e605bd26f7df676a4fab8c632fd8fa8e
 workflow-type: tm+mt
-source-wordcount: 1578
+source-wordcount: '1824'
 ht-degree: 0%
-
 ---
-
 # Editor-Ansichten für Themen {#id204GK0D0V5Z}
 
 >[!INFO]
@@ -122,15 +127,33 @@ Beim Öffnen eines Themas im Vorschaumodus wird angezeigt, wie ein Thema angezei
 
 Der Vorschaumodus bietet die folgenden Funktionen:
 
+* [Vorschau von Inhalten mit Baseline](#preview-content-using-baseline)
 * [Inhalte basierend auf bedingten Filtern anzeigen](#id2114BI00VXA)
 * [Anzeigen der Markierungen zum Nachverfolgen von Änderungen](#id2114BJ00CE8)
 * [Thema als PDF exportieren](#id2114BL00B5U)
+
+
+### Vorschau von Inhalten mit Baseline (gilt nur für DITA-Map)
+
+>[!NOTE]
+>
+>Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion in Ihrer Umgebung zu aktivieren.
+
+Der Vorschaumodus zeigt standardmäßig die aktuelle Arbeitskopie eines Themas oder einer Karte an. Wenn eine Zuordnung eine oder mehrere statische Baselines aufweist, können Sie den Umschalter **Vorschau mit Baselines** verwenden, um die Zuordnung stattdessen so anzuzeigen, wie sie in einer bestimmten Baselines-Version vorhanden ist. Diese Funktion unterstützt nur statische Baselines. Dynamische Baselines stehen für die Vorschau nicht zur Verfügung.
+
+![](images/preview-baseline.png){width="650"}
+
+Wenn Sie eine Baseline aus der Dropdown-Liste auswählen, löst die Vorschau alle zugehörigen Themen, Assets, Bilder und Verweise basierend auf der ausgewählten Baseline anstelle der aktuellen Arbeitskopie auf. Dies bietet eine genaue Darstellung des Zuordnungsinhalts zum Zeitpunkt der Erstellung der Baseline.
+
+Wenn beispielsweise ein Bild ersetzt wurde, nachdem eine Baseline erstellt wurde, wird bei der Vorschau dieser Baseline die Version des mit der Baseline verknüpften Bildes und nicht das Bild aus der aktuellen Arbeitskopie angezeigt.
+
+Im Vorschaumodus wird eine Ladevorschau angezeigt, während der ursprüngliche Themensatz gerendert wird. Es wird nicht automatisch aktualisiert, nachdem Sie ein Thema bearbeitet oder die Version gewechselt haben. Um den neuesten Inhalt anzuzeigen, aktualisieren Sie die Vorschau manuell oder schließen Sie das Thema oder die Karte und öffnen Sie es erneut. Darüber hinaus sind die Tracking-Optionen (Kein Markup, Original und Markup anzeigen) nicht verfügbar, wenn eine Karte für eine Baseline in der Vorschau angezeigt wird.
 
 ### Inhalte basierend auf bedingten Filtern anzeigen {#id2114BI00VXA}
 
 Wenn Sie Bedingungen in Ihrem Thema oder Ihrer Karte verwendet haben, werden diese Bedingungen im Bedienfeld Filter angezeigt. Standardmäßig sind alle Bedingungen ausgewählt und der gesamte Inhalt wird angezeigt. Wenn Sie die Auswahl einer Bedingung aufheben, wird der Inhalt mit dieser Bedingung aus der Ansicht entfernt. Sie können auch bedingte Inhalte hervorheben.
 
-Die folgende Abbildung zeigt ein Thema, das zwei Bedingungen verwendet: `Audience` und `Platfor`. Der bedingte Inhalt wird mit gelbem Hintergrund hervorgehoben.
+Die folgende Abbildung zeigt ein Thema, das zwei Bedingungen verwendet: `Audience` und `Platform`. Der bedingte Inhalt wird mit gelbem Hintergrund hervorgehoben.
 
 >[!BEGINTABS]
 
@@ -153,7 +176,7 @@ Wenn ein Dokument Markierungen enthält, die Änderungen verfolgen \(oder visuel
 Es gibt drei **Tracking**-Optionen, aus denen Sie wählen können:
 
 * **Kein Markup**: In dieser Ansicht werden alle Einfügungen und Löschungen akzeptiert, und eine einfache Ansicht des Dokuments wird angezeigt. In dieser Ansicht werden keine Markups für das Tracking von Änderungen angezeigt.
-* **Original**: In dieser Ansicht werden alle Einfügungen abgelehnt, alle Löschungen werden wiederhergestellt und eine Vorschau wird angezeigt. Einfach gesagt, Sie erhalten die Originalform des Dokuments, bevor Sie den Modus Änderungen nachverfolgen aktiviert haben.
+* **Original**: In dieser Ansicht werden alle Einfügungen abgelehnt, alle Löschungen werden wiederhergestellt und eine Vorschau wird angezeigt. Sie erhalten das Originalformular des Dokuments, bevor Sie den Modus Änderungen nachverfolgen aktiviert haben.
 * **Markup anzeigen**: In dieser Ansicht erhalten Sie alle Markierungen für eingefügte und gelöschte Inhalte.
 
   Die folgende Abbildung zeigt die Vorschau einer Zuordnungsdatei mit Markierungen:
@@ -176,7 +199,7 @@ Gehen Sie wie folgt vor, um ein Thema als PDF zu exportieren:
 
 1. Öffnen Sie das Thema im Vorschaumodus. Stellen Sie sicher, dass das Thema Teil einer Zuordnungsdatei ist.
 
-1. Wählen Sie oben **die Option** Als PDF herunterladen“ aus.
+1. Wählen Sie oben **Option** Als PDF herunterladen“ aus.
 
    ![](images/download-as-pdf-preview.png).
 
@@ -185,6 +208,5 @@ Gehen Sie wie folgt vor, um ein Thema als PDF zu exportieren:
    > Vergewissern Sie sich, dass Sie das Popup-Fenster in der Browser-Konfiguration aktiviert haben, da der PDF sonst nicht heruntergeladen wird.
 
    Die PDF wird generiert und in einer neuen Registerkarte geöffnet. Andernfalls wird ein Dialogfeld zum Speichern der PDF auf Ihrem lokalen System angezeigt.
-
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
