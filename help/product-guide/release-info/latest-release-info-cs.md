@@ -14,14 +14,14 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: c581d44f5dab173cbe657e05c21d8a4a65844bc1
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
 ---
 # Versionshinweise zu Adobe Experience Manager Guides as a Cloud Service
 
-Auf dieser Seite finden Sie die neuesten Versionsinformationen für Adobe Experience Manager Guides as a Cloud Service. Hier finden Sie Details zu neuen Funktionen, Verbesserungen, behobenen Problemen, bekannten Problemen sowie Upgrade-Anweisungen, die Ihnen helfen, mit jeder Version auf dem neuesten Stand zu bleiben.
+Dieser Artikel enthält die neuesten Versionsinformationen zu Adobe Experience Manager Guides as a Cloud Service. Hier finden Sie Details zu neuen Funktionen, Verbesserungen, behobenen Problemen, bekannten Problemen sowie Upgrade-Anweisungen, die Ihnen helfen, mit jeder Version auf dem neuesten Stand zu bleiben.
 
 ## Versionen 2026
 
@@ -79,12 +79,12 @@ Auf dieser Seite finden Sie die neuesten Versionsinformationen für Adobe Experi
 |---|---|
 | **AEM Guides 2022.11.0** | [2022.11.0 - Versionshinweise](./release-notes-2022-11-0.md) |
 | **AEM Guides 2022.10.0** | [2022.10.0 - Versionshinweise](./release-notes-2022-10-0.md) |
-| **AEM Guides 2022.09.0** | [&#x200B; Versionshinweise zu 2022.09.0 &#x200B;](./release-notes-2022-9-0.md) |
+| **AEM Guides 2022.09.0** | [ Versionshinweise zu 2022.09.0 ](./release-notes-2022-9-0.md) |
 | **AEM Guides 2022.08.0** | [2022.08.0 - Versionshinweise](./release-notes-2022-8-0.md) |
-| **AEM Guides 2022.05.0** | [&#x200B; Versionshinweise zu 2022.05.0 &#x200B;](./release-notes-2022-5-0.md) |
+| **AEM Guides 2022.05.0** | [ Versionshinweise zu 2022.05.0 ](./release-notes-2022-5-0.md) |
 | **AEM Guides 2022.04.0** | [2022.04.0 - Versionshinweise](./release-notes-2022-4-0.md) |
 | **AEM Guides 2022.03.0** | [2022.03.0 - Versionshinweise](./release-notes-2022-3-0.md) |
-| **AEM Guides 2022.02.0** | [&#x200B; Versionshinweise zu 2022.02.0 &#x200B;](./release-notes-2022-2-0.md) |
+| **AEM Guides 2022.02.0** | [ Versionshinweise zu 2022.02.0 ](./release-notes-2022-2-0.md) |
 | **AEM Guides 2022.01.0** | [2022.01.0 - Versionshinweise](./release-notes-2022-1-0.md) |
 
 

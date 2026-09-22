@@ -5,9 +5,9 @@ meta-feature: Authoring
 meta-product: Experience Manager, Experience Manager Guides
 meta-role: User
 meta-type: Documentation
-source-git-commit: e234425f1e277990de25057971f3e2453c93360f
+source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1557'
 ht-degree: 1%
 ---
 
@@ -48,7 +48,7 @@ Sie installieren keine lokalen Komponenten. Sie verweisen Ihren Client auf die S
 
 ### Claude Anthropica
 
-Folgen Sie der offiziellen Anleitung: [Einrichten von Claude für AEM MCP](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Verwenden Sie beim Hinzufügen des benutzerdefinierten Connectors den Experience Manager Guides-Endpunkt:
+Folgen Sie der offiziellen Anleitung: [Einrichten von Claude für AEM MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/chat-applications/setup-claude). Verwenden Sie beim Hinzufügen des benutzerdefinierten Connectors den Experience Manager Guides-Endpunkt:
 
 ```
 https://mcp.adobeaemcloud.com/adobe/mcp/guides
@@ -141,7 +141,7 @@ Wenden Sie sich an Ihren AEM-Administrator, um die folgende Konfiguration zu üb
 
 Claude Desktop unterstützt Desktop-Erweiterungen (`.mcpb`). Die Experience Manager Guides MCP-Erweiterung packt die Verbindungskonfiguration, sodass Sie eine MCP-JSON-Konfiguration nicht manuell bearbeiten müssen.
 
-1. Extrahieren Sie die .mcpb-ZIP-Datei {[&#128279;](./mcpbfile.zip)}AEM Guides und rufen Sie die `aem-guides-mcp.mcpb` ab.
+1. Rufen Sie die [`aem-guides-mcp.mcpb`](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/aemdox/other-packages/guides-mcp/aem-guides-mcp.zip) Erweiterungsdatei ab.
 
 2. Öffnen Sie **Claude Desktop** und navigieren Sie zu **Einstellungen > Erweiterungen**.
 
