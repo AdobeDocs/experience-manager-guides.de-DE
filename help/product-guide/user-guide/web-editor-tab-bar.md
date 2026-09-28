@@ -7,22 +7,27 @@ exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
 TQID: https://experienceleague.adobe.com/sqNExkYi3iIqIxC7mdlhWw-59-LcAXCOU8w7GD63d8Q
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 018c2332a9e5a4ce8fb683a8cb0bcf859977922c
+    internal-label: User
+source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # Registerkartenleiste im Editor
 
 >[!INFO]
@@ -61,21 +66,17 @@ Speichert die von Ihnen vorgenommenen Änderungen in allen geöffneten Themen. W
 >
 > Mit **Vorgang** Alle speichern“ wird keine neue Version der Themen erstellt. Um eine neue Version zu erstellen, verwenden Sie die Option **Als neue Version speichern**.
 
-**KI-Assistent**
-
-Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelligente Hilfe- und Authoring-Funktionen steigert. Es vereint zwei robuste KI-Funktionen - **Authoring** und **Help** - in der Experience Manager Guides-Oberfläche, sodass Sie Inhalte und Informationen aus der Experience Manager Guides-Dokumentation schneller und effizienter erstellen und aufrufen können.
+**KI-Assistent**: Der KI-Assistent ist in zwei Modi verfügbar: **Agent** und **Standard**.
 
 >[!NOTE]
 >
-> Die Funktion KI-Assistent ist derzeit für Adobe Experience Manager Guides as a Cloud Service verfügbar.
+> Wenden Sie sich an das Customer Success-Team, wenn Sie den Agentenmodus der KI-Assistentenfunktion in Ihrer Umgebung verwenden möchten. Nachdem die Funktion aktiviert wurde, können Administratoren sie in den Workspace-Einstellungen aktivieren oder deaktivieren. Es kann jeweils nur ein Modus des KI-Assistenten aktiviert werden: entweder Agent oder Standard.
 
-**Handbücher KI**
+- **Agnetic**: Bringt intelligente, agentische Smart-Tagging-Kenntnisse von Adobe CX Enterprise Coworker in den Editor und ermöglicht das Tagging natürlicher, konversativer Inhalte. Es analysiert Ihre Inhalte, empfiehlt relevante Tags und hilft Ihnen bei der Anwendung konsistenter und genauer Metadaten mit minimalem Aufwand. Sie können die vorgeschlagenen Tags überprüfen und sie anwenden oder ablehnen, bevor Sie Ihre Auswahl bestätigen. [KI-Assistent im Agentenmodus verwenden](../user-guide/ai-assistant-agentic.md) optimiert den Tagging-Prozess und verbessert die Inhaltsorganisation und Auffindbarkeit.
 
-Bringt intelligente, agentische Smart-Tagging-Kenntnisse von Adobe CX Enterprise Coworker in den Editor und ermöglicht natürliches, konversatives Tagging von Inhalten. Es analysiert Ihre Inhalte, empfiehlt relevante Tags und hilft Ihnen bei der Anwendung konsistenter und genauer Metadaten mit minimalem Aufwand. Sie können die vorgeschlagenen Tags überprüfen und sie anwenden oder ablehnen, bevor Sie Ihre Auswahl bestätigen, um die Inhaltsorganisation und Auffindbarkeit zu verbessern.
+- **Standard**: Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelligente Hilfefunktionen steigert. Darüber hinaus können Sie beim Arbeiten in der Editor-Benutzeroberfläche die intelligenten Authoring-Funktionen des KI-Assistenten nutzen, die Ihren Authoring-Prozess durch intelligente Vorschläge für die Wiederverwendung und Optimierung von Inhalten intelligenter und schneller machen.
 
->[!NOTE]
->
-> Wenden Sie sich zur Verwendung der Guides-KI-Funktion in Ihrer Umgebung an das Customer Success-Team . Nachdem die Funktion aktiviert wurde, können Administratoren sie in den Workspace-Einstellungen aktivieren oder deaktivieren. Es kann jeweils nur ein KI-Erlebnis aktiviert werden, entweder KI-Handbücher oder KI-Assistent.
+Die Funktion [KI-](./ai-assistant.md)) ist derzeit nur für Adobe Experience Manager as a Cloud Service verfügbar.
 
 **Ansicht erweitern**: Ermöglicht das Erweitern der Seitenansicht mithilfe des Symbols **Erweitern**. In dieser Ansicht ist die Kopfzeilenleiste mit dem Adobe Experience Manager-Logo ausgeblendet. Dadurch wird der Inhaltsbereich für die Bearbeitung maximiert. Um zur Standardansicht zurückzukehren, verwenden Sie das Symbol **Erweiterte Ansicht beenden**.
 
@@ -91,6 +92,6 @@ Bringt intelligente, agentische Smart-Tagging-Kenntnisse von Adobe CX Enterprise
 >
 >Wenn Sie Adobe Experience Manager Guides in einem On-Premise-Setup vor Version 5.2 verwenden, wird die Option Workspace-Einstellungen weiterhin als **Einstellungen** im Menü Mehr Aktionen angezeigt.
 
-- **Editor-Einstellungen**: Leitet Sie zum Dialogfeld Editor-Einstellungen, in dem Sie das Editor-Verhalten auf individueller Autorenebene anpassen können. Damit können Sie die Sichtbarkeit und das Verhalten von Tags, Kommentaren und anderen Einstellungen auf Editor-Ebene während des Authorings steuern. Weitere Informationen finden Sie unter [Editor-Einstellungen](../install-conf-guide/workspace-settings.md).
+- **Editor-Einstellungen**: Leitet Sie zum Dialogfeld Editor-Einstellungen, in dem Sie das Editor-Verhalten auf individueller Autorenebene anpassen können. Damit können Sie die Sichtbarkeit und das Verhalten von Tags, Kommentaren und anderen Einstellungen auf Editor-Ebene während des Authorings steuern. Weitere Informationen finden Sie unter [Editor-Einstellungen](../user-guide/config-editor-settings.md).
 
 **Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
