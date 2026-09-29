@@ -6,24 +6,30 @@ exl-id: 13135928-f0fe-4147-83ac-8b06ca241ed7
 TQID: https://experienceleague.adobe.com/PFM-i4fVsgpBUJy4BeOpvyY4GWxGS8F24jEGb0Y2oiI
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Content reuse
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1021'
 ht-degree: 1%
-
 ---
-
 # Neue Funktionen in der Version 2024.10.0 (Oktober 2024)
 
 Dieser Artikel behandelt die neuen und erweiterten Funktionen, die mit Version 2024.10.0 von Adobe Experience Manager Guides as a Cloud Service eingeführt wurden.
@@ -64,7 +70,7 @@ Weitere Informationen finden Sie unter [Inhaltsfragmente veröffentlichen](../us
 
 Mit Experience Manager Guides können Sie ein Thema oder seine Elemente in einem Experience Fragment veröffentlichen. Jetzt können Sie Experience Fragment-Varianten auch mithilfe der Bedingungs- oder DITAVAL-Filter erstellen und über verschiedene Kanäle oder für verschiedene Zielgruppen hinweg wiederverwenden.
 
-Weitere Informationen zum Veröffentlichen [&#x200B; Experience Fragments &#x200B;](../user-guide/publish-experience-fragment.md).
+Weitere Informationen zum Veröffentlichen [ Experience Fragments ](../user-guide/publish-experience-fragment.md).
 
 
 ### AEM Sites-Voreinstellung neu angeordnet für einfache Verwendung
@@ -91,7 +97,7 @@ Wenn dasselbe Thema mehrmals in einer Datei referenziert wird, können Sie für 
 
 ![Alte AEM Sites-Vorgabe](assets/aem-sites-legacy.png)
 
-*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**&#x200B;der Vorgabe **AEM Sites**&#x200B;den Veröffentlichungskontext für die verknüpften Themen an.*
+*Geben Sie auf der Registerkarte **Cross-Map-Referenzen**der Vorgabe **AEM Sites**den Veröffentlichungskontext für die verknüpften Themen an.*
 
 Weitere Informationen zu [AEM Sites-Vorgaben](../user-guide/generate-output-aem-site.md).
 
@@ -114,6 +120,7 @@ Wenn eine DITA- oder Markdown-Datei von einem anderen Benutzer gesperrt oder aus
 Im schreibgeschützten Modus können Sie den Inhalt zusammen mit den Tags und Attributen im Modus **Author** oder **Source** anzeigen und die Dateieigenschaften bearbeiten.
 
 Sie können auch auf die **Layout**-Ansicht für schreibgeschützte DITA-Zuordnungen zugreifen.
+
 >[!NOTE]
 >
 > Ihre Ordnerprofiladministrierenden müssen *ui_config.json* aktualisieren, damit Sie im Autoren-, Source- und Layout-Modus einheitlich auf die schreibgeschützten Dateien zugreifen können.
@@ -122,7 +129,7 @@ Sie können auch auf die **Layout**-Ansicht für schreibgeschützte DITA-Zuordnu
 *Anzeigen der gesperrten Dateien im Authoring- und Source-Modus.*
 
 
-Erfahren Sie, wie [&#x200B; Dateien im Authoring- und Source-Modus öffnen &#x200B;](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
+Erfahren Sie, wie [ Dateien im Authoring- und Source-Modus öffnen ](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
 
 
 ### Gruppierte Bedingungen für die erweiterte Inhaltsorganisation
@@ -131,4 +138,4 @@ Mit Experience Manager Guides können Sie jetzt Bedingungen gruppieren und in ei
 
 ![Bedingungen in einer verschachtelten Hierarchie organisiert](assets/conditions-nested-hierarchy.png){width="300"}
 
-Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS)).
+Weitere Informationen zur Funktionsbeschreibung **Bedingungen** finden Sie im Abschnitt [Linkes ](../user-guide/web-editor-features.md#id2051EA0M0HS)).

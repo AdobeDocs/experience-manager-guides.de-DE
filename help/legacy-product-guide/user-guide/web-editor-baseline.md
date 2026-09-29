@@ -8,24 +8,31 @@ exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
 TQID: https://experienceleague.adobe.com/j6uFt82jpyFbhL2-lS-cPIT-cseP4rpQg9aVjipDmio
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: '1707'
 ht-degree: 0%
-
 ---
-
 # Erstellen und Verwalten von Grundlinien aus dem Web-Editor {#id223MB0ZF043}
 
 >[!TIP]
@@ -52,22 +59,23 @@ Sie können eine Baseline aus dem Web-Editor erstellen, indem Sie die folgenden 
    - Wählen **in „Version basierend auf auswählen** eine der folgenden Optionen aus:
 
 
-      1. **Datum** &lt;Zeitstempel\>: Wählt die Themenversion zum angegebenen Zeitpunkt aus.
-      1. **Beschriftung**: Wählen Sie diese Option aus, um die Themen entsprechend der ihnen zugewiesenen Beschriftung auszuwählen. Wenn für die Themen Beschriftungen angegeben sind, werden die Beschriftungen in der Dropdown-Liste aufgelistet. Sie können einen Titel aus der Liste auswählen. Sie können dem Textfeld auch einen Titel hinzufügen.
+     1. **Datum** &lt;Zeitstempel\>: Wählt die Themenversion zum angegebenen Zeitpunkt aus.
+     1. **Beschriftung**: Wählen Sie diese Option aus, um die Themen entsprechend der ihnen zugewiesenen Beschriftung auszuwählen. Wenn für die Themen Beschriftungen angegeben sind, werden die Beschriftungen in der Dropdown-Liste aufgelistet. Sie können einen Titel aus der Liste auswählen. Sie können dem Textfeld auch einen Titel hinzufügen.
 
-         Für die direkten Verweise in statischen Basislinien werden die Beschriftungen aus der zuletzt gespeicherten Version der Zuordnung abgerufen. Beispiel: Sie haben die Bezeichnungen `Label Release 1.0` und `Label Release 1.1` für die Versionen 1.0 und 1.1 von Thema A erstellt und anschließend Thema A zu der als Version 1.0 gespeicherten Zuordnung hinzugefügt. In diesem Fall können Sie die Beschriftungen `Label Release 1.0` und `Label Release 1.1` in der Dropdown-Liste für statische Baseline-Beschriftungen anzeigen.
+        Für die direkten Verweise in statischen Basislinien werden die Beschriftungen aus der zuletzt gespeicherten Version der Zuordnung abgerufen. Beispiel: Sie haben die Bezeichnungen `Label Release 1.0` und `Label Release 1.1` für die Versionen 1.0 und 1.1 von Thema A erstellt und anschließend Thema A zu der als Version 1.0 gespeicherten Zuordnung hinzugefügt. In diesem Fall können Sie die Beschriftungen `Label Release 1.0` und `Label Release 1.1` in der Dropdown-Liste für statische Baseline-Beschriftungen anzeigen.
 
 
-         Wenn Sie auf **Beschriftung“ klicken** können Sie die direkten und indirekten Verweise auswählen.
-         - Bei direkten Verweisen innerhalb der DITA-Zuordnung haben Sie die Möglichkeit, die neueste Version von Themen zu verwenden, auf die nicht die angegebene Kennzeichnung angewendet wurde.
+        Wenn Sie auf **Beschriftung“ klicken** können Sie die direkten und indirekten Verweise auswählen.
 
-           >[!NOTE]
-           >
-           > Wenn Sie eine nicht vorhandene Beschriftung eingeben und die Option **Keine Baseline erstellen** wählen, schlägt die Baseline-Erstellung fehl und gibt im Baseline-Bedienfeld eine Fehlermeldung in der Nähe des Baseline-Namens aus.
+        - Bei direkten Verweisen innerhalb der DITA-Zuordnung haben Sie die Möglichkeit, die neueste Version von Themen zu verwenden, auf die nicht die angegebene Kennzeichnung angewendet wurde.
 
-         - Für indirekte Verweise innerhalb der DITA-Zuordnung haben Sie eine zusätzliche Möglichkeit, die neueste Version von Themen zu verwenden, auf die nicht die angegebene Kennzeichnung angewendet wurde. Sie können für **referenzierten Inhalt auch** Automatische Auswahl“ auswählen. Das System wählt dann automatisch die Version des referenzierten Inhalts aus, die der Version des Inhalts entspricht, auf den verwiesen wird.
+          >[!NOTE]
+          >
+          > Wenn Sie eine nicht vorhandene Beschriftung eingeben und die Option **Keine Baseline erstellen** wählen, schlägt die Baseline-Erstellung fehl und gibt im Baseline-Bedienfeld eine Fehlermeldung in der Nähe des Baseline-Namens aus.
 
-         Nachdem Sie eine Bezeichnung oder Version als Datum ausgewählt haben, werden alle referenzierten Themen und Mediendateien in der Zuordnung entsprechend ausgewählt. Diese Themenauswahl wird nicht auf der Benutzeroberfläche angezeigt, sondern im Backend gespeichert.
+        - Für indirekte Verweise innerhalb der DITA-Zuordnung haben Sie eine zusätzliche Möglichkeit, die neueste Version von Themen zu verwenden, auf die nicht die angegebene Kennzeichnung angewendet wurde. Sie können für **referenzierten Inhalt auch** Automatische Auswahl“ auswählen. Das System wählt dann automatisch die Version des referenzierten Inhalts aus, die der Version des Inhalts entspricht, auf den verwiesen wird.
+
+        Nachdem Sie eine Bezeichnung oder Version als Datum ausgewählt haben, werden alle referenzierten Themen und Mediendateien in der Zuordnung entsprechend ausgewählt. Diese Themenauswahl wird nicht auf der Benutzeroberfläche angezeigt, sondern im Backend gespeichert.
 
    **Automatische Aktualisierung**: Wählen Sie diese Option für die Basiserstellung aus, um die Themen automatisch entsprechend dem ihnen zugewiesenen Titel auszuwählen.
 
@@ -76,7 +84,7 @@ Sie können eine Baseline aus dem Web-Editor erstellen, indem Sie die folgenden 
    ![Erstellen einer Baseline](images/dynamic-baseline.png){width="300"}
 
    - **Kennzeichnungen**: Wenn für die Themen Kennzeichnungen angegeben sind, verwenden Sie das **Kennzeichnungen** zur Auswahl aus den [aufgelisteten Kennzeichnungen](#labels-list).
-Die zuerst ausgewählten Bezeichnungen erhalten gegenüber den späteren eine höhere Priorität.
+     Die zuerst ausgewählten Bezeichnungen erhalten gegenüber den späteren eine höhere Priorität.
 
      >[!NOTE]
      >
@@ -110,33 +118,34 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
 
   ![Optionen einer Baseline](images/baseline-options.png){width="800"}
 
-
-
   Sie können auch die folgenden Vorgänge für die Grundlinie über das Menü Optionen ausführen:
 
 ### Duplizieren einer Baseline
 
 Sie können eine Baseline duplizieren und entsprechend Ihren Anforderungen ändern.
+
 ![Duplizieren einer Baseline](images/baseline-duplicate.png){width="300"}
 *Duplizieren Sie eine Baseline basierend auf einer Beschriftung oder erstellen Sie eine exakte Kopie.*
 
 1. Wählen **Duplizieren** aus dem Menü Optionen einer Baseline. Das **Basislinie duplizieren** wird geöffnet.
->[!NOTE]
->
->Der Standardname der Baseline lautet `<selected baseline name>`_suffix (wie sample-baseline_1). Sie können den Namen Ihren Anforderungen entsprechend ändern.
+
+   >[!NOTE]
+   > 
+   >Der Standardname der Baseline lautet `<selected baseline name>`_suffix (wie sample-baseline_1). Sie können den Namen Ihren Anforderungen entsprechend ändern.
 
    In **Version basierend auswählen** können Sie entweder die Option **Exakte Kopie** oder die Option **Beschriftung** auswählen:
 
    - **Exakte Kopie**: Experience Manager Guides wählt dieselbe Version aller Themen aus und erstellt eine exakte Kopie der duplizierten Baseline.
-   - **Beschriftung**: In der Dropdown-Liste können Sie eine der [&#x200B; Beschriftungen &#x200B;](#labels-list). Experience Manager Guides wählt die Versionen der Themen aus, für die die ausgewählte Beschriftung definiert ist, während für die übrigen Themen die Version aus der duplizierten Baseline ausgewählt wird. Sie wählen beispielsweise den Titel `Release 1.0` aus der Dropdown-Liste aus und wählen dann die Versionen der Themen aus, für die Sie diesen Titel definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Baseline ausgewählt.
+   - **Beschriftung**: In der Dropdown-Liste können Sie eine der [ Beschriftungen ](#labels-list). Experience Manager Guides wählt die Versionen der Themen aus, für die die ausgewählte Beschriftung definiert ist, während für die übrigen Themen die Version aus der duplizierten Baseline ausgewählt wird. Sie wählen beispielsweise den Titel `Release 1.0` aus der Dropdown-Liste aus und wählen dann die Versionen der Themen aus, für die Sie diesen Titel definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Baseline ausgewählt.
+
 1. Klicken Sie **Duplizieren**.
 
-- **Umbenennen** oder **Löschen** einer vorhandenen Baseline.
-- Hinzufügen, Entfernen oder Ändern vorhandener Kennzeichnungen über die Option **Kennzeichnungen verwalten** für statische Baselines. Wenn Ihr Administrator vordefinierte Kennzeichnungen konfiguriert hat, werden Sie diese Kennzeichnungen in der Dropdown-Liste Kennzeichnung hinzufügen angezeigt. Weitere Informationen zum Hinzufügen von Beschriftungen finden Sie unter [Verwenden von Beschriftungen](web-editor-use-label.md#).
+   - **Umbenennen** oder **Löschen** einer vorhandenen Baseline.
+   - Hinzufügen, Entfernen oder Ändern vorhandener Kennzeichnungen über die Option **Kennzeichnungen verwalten** für statische Baselines. Wenn Ihr Administrator vordefinierte Kennzeichnungen konfiguriert hat, werden Sie diese Kennzeichnungen in der Dropdown-Liste Kennzeichnung hinzufügen angezeigt. Weitere Informationen zum Hinzufügen von Beschriftungen finden Sie unter [Verwenden von Beschriftungen](web-editor-use-label.md#).
 
-  >[!NOTE]
-  >
-  > Der Prozess zum Hinzufügen oder Entfernen von Kennzeichnungen erfolgt asynchron, sodass Sie im Web-Editor mit der Arbeit an anderen Dateien fortfahren können. Nachdem die Kennzeichnung hinzugefügt oder entfernt wurde, wird eine Popup-Meldung angezeigt, die bestätigt, dass die Kennzeichnung hinzugefügt oder entfernt wurde, und Sie erhalten auch eine Benachrichtigung im Posteingang für dieselbe Kennzeichnung.
+   >[!NOTE]
+   >
+   > Der Prozess zum Hinzufügen oder Entfernen von Kennzeichnungen erfolgt asynchron, sodass Sie im Web-Editor mit der Arbeit an anderen Dateien fortfahren können. Nachdem die Kennzeichnung hinzugefügt oder entfernt wurde, wird eine Popup-Meldung angezeigt, die bestätigt, dass die Kennzeichnung hinzugefügt oder entfernt wurde, und Sie erhalten auch eine Benachrichtigung im Posteingang für dieselbe Kennzeichnung.
 
 - **Eigenschaften bearbeiten** einer vorhandenen statischen Baseline, die Sie beim Erstellen der Baseline festgelegt haben.
 - Exportieren Sie den Snapshot einer Baseline in eine Microsoft Excel-Datei mit der Option **Baseline exportieren**.
@@ -145,6 +154,7 @@ Sie können eine Baseline duplizieren und entsprechend Ihren Anforderungen ände
 ### Beschriftungsliste {#labels-list}
 
 Die im Dropdown-Menü aufgelisteten Bezeichnungen basieren auf den folgenden Kriterien:
+
 - Die Beschriftungen sollten einer der Versionen der Themen in der DITA-Map hinzugefügt werden (auf der die Baseline erstellt wird).
 - Und nur die Verweise der ersten Ebene (Themen oder Unterkarten) der DITA-Karte werden für die Auswahl der Beschriftungen berücksichtigt.
 
@@ -168,4 +178,4 @@ Mithilfe des Symbols Filter im Bedienfeld **Baseline-Filter** können Sie Filter
 
 Nachdem Sie die Baseline bearbeitet haben, können Sie auf die Schaltfläche **Speichern** oben klicken, um die Änderungen an der Baseline zu speichern. Sie können auf die **Zurücksetzen**-Schaltfläche klicken, wenn Sie die Änderung nicht speichern und die Baseline zurücksetzen möchten. Wenn Sie auf die **Zurücksetzen**-Schaltfläche klicken, wird eine Warnung angezeigt, dass Ihre nicht gespeicherten Änderungen verloren gehen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

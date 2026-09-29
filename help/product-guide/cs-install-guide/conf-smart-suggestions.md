@@ -5,25 +5,33 @@ exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
 TQID: https://experienceleague.adobe.com/gR8g8sV4RYkMabIxgGFk1I3lKffpMKJdvsPasHgC5aw
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: c6d09140-3c91-45d3-b7ed-b681af752f43
+    internal-label: APIs
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 989
+source-wordcount: '989'
 ht-degree: 1%
-
 ---
-
 # Konfigurieren des KI-Assistenten
 
 Als Administrator können Sie die Funktion KI-Assistent in Experience Manager Guides konfigurieren. Der KI-Assistent wird durch die authentifizierungsbasierte Adobe IMS-Authentifizierung geschützt. Integrieren Sie Ihre Umgebung mit den sicheren Token-basierten Authentifizierungs-Workflows von Adobe und verwenden Sie die Funktion KI-Assistent . Mit der folgenden Konfiguration können Sie die Registerkarte **KI-Konfiguration** zum Ordnerprofil hinzufügen. Nach dem Hinzufügen können Sie die Funktion KI-Assistent in Experience Manager Guides verwenden.
@@ -48,7 +56,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
 
 1. [Adobe Developer Console starten](https://developer.adobe.com/console).
 1. Nach erfolgreicher Anmeldung bei Developer Console wird der Bildschirm &quot;**&quot;**. Auf dem **Startseite**-Bildschirm finden Sie mühelos Informationen und Schnelllinks, einschließlich der oberen Navigationslinks zu Projekten und Downloads.
-1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**&#x200B;Links aus.
+1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**Links aus.
    ![Schnellstart-Links](assets/conf-ss-quick-start.png) {width="550"}
    *Neues Projekt erstellen.*
 
@@ -140,7 +148,7 @@ Weitere Informationen finden Sie unter [Die Editor-Funktionen kennen](../user-gu
 
 Konfigurieren Sie nach der Aktivierung der Funktion „KI-Assistent“ die Funktion „Intelligente Vorschläge“ im Ordnerprofil.
 
-Weitere Informationen finden Sie unter [Konfigurieren von Smart-Vorschlägen im &#x200B;](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)&quot;.
+Weitere Informationen finden Sie unter [Konfigurieren von Smart-Vorschlägen im ](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)&quot;.
 
 
 ## Anhang {#appendix}
@@ -181,4 +189,4 @@ Weitere Informationen finden Sie unter [Konfigurieren von Smart-Vorschlägen im 
 | chat.url | Endpunkt für den KI-Assistenten-Service | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | Typ der AEM-Instanz. Stellen Sie sicher, dass dies für jede AEM-Instanz, für die die Smart-Vorschläge konfiguriert sind, eindeutig ist. Ein Anwendungsfall bestünde darin, die Funktion in der Staging-Umgebung mit „instance.type“ = „stage“ zu testen, während die Funktion gleichzeitig auch in „prod“ konfiguriert ist. | Jeder eindeutige Schlüssel, der die Umgebung identifiziert. Nur *alphanumerische* Werte sind zulässig. „dev“/„stage“/„prod“/„test1“/„stage2“ | „prod“ |
 
-Nach der Konfiguration wird das Symbol für den KI-Assistenten auf der Startseite und im Editor der Experience Manager Guides angezeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt &#x200B;](../user-guide/ai-assistant.md)KI-Assistent“ im Experience Manager-Benutzerhandbuch.
+Nach der Konfiguration wird das Symbol für den KI-Assistenten auf der Startseite und im Editor der Experience Manager Guides angezeigt. Weitere Informationen finden Sie [ Abschnitt ](../user-guide/ai-assistant.md)KI-Assistent“ im Experience Manager-Benutzerhandbuch.

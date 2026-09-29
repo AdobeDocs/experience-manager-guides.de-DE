@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4546a7e24f9eea064f049d9f84eabd3253d257bd
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Zeigt die aktuell geöffneten Themen im Editor als Datei-Registerkarten an. Sie 
 
 >[!NOTE]
 >
-> Als Administrator können Sie auch festlegen, dass die Liste der Dateien nach Dateinamen auf den Registerkarten angezeigt wird. Wählen Sie die Option **Dateiname** im Abschnitt **Konfiguration der Editor-Dateien** Benutzereinstellungen[&#x200B; aus](./intro-home-page.md#user-preferences).
+> Als Administrator können Sie auch festlegen, dass die Liste der Dateien nach Dateinamen auf den Registerkarten angezeigt wird. Wählen Sie die Option **Dateiname** im Abschnitt **Konfiguration der Editor-Dateien** Benutzereinstellungen[ aus](./intro-home-page.md#user-preferences).
 
 Wenn Sie die Registerkarte Datei auswählen, wird ein Kontextmenü mit den Optionen Als neue Version speichern, Kopieren, Suchen in, Zu hinzufügen, Eigenschaften, Aufspaltung, Als PDF herunterladen und Schließen geöffnet.
 
@@ -94,4 +94,4 @@ Die Funktion [KI-](./ai-assistant.md)) ist derzeit nur für Adobe Experience Man
 
 - **Editor-Einstellungen**: Leitet Sie zum Dialogfeld Editor-Einstellungen, in dem Sie das Editor-Verhalten auf individueller Autorenebene anpassen können. Damit können Sie die Sichtbarkeit und das Verhalten von Tags, Kommentaren und anderen Einstellungen auf Editor-Ebene während des Authorings steuern. Weitere Informationen finden Sie unter [Editor-Einstellungen](../user-guide/config-editor-settings.md).
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
