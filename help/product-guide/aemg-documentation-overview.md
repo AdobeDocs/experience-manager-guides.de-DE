@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
+source-git-commit: bd500b169cc39e5d179bb2ba36e70f9a7c64958f
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '325'
 ht-degree: 6%
 ---
 # Dokumentation zu Experience Manager Guides
@@ -207,11 +207,20 @@ Reviewer können eine Prüfungsaufgabe an einen anderen Reviewer delegieren.
 
 >[!ENDSHADEBOX]
 
+## Neue Funktionen
+
+[!BADGE 2026.09.0]{type=Informative}
+
+Die Version 2026.09.0 von Adobe Experience Manager Guides führt KI-gestütztes Smart-Tagging im KI-Assistenten ein, sowie Verbesserungen bei Authoring, Content-Management, Veröffentlichung und dem gesamten Anwendererlebnis.
+
+[Neue Funktionen](./release-info/whats-new-2026-09-0.md)
+
+
 ## Zusätzliche Ressourcen
 
 * [Versionshinweise für Cloud Service](./release-info/latest-release-info-cs.md)
 * [Versionshinweise für On-Premise](./release-info/latest-release-info.md)
-* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de){target="_blank"}
-* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
-* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
-* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
