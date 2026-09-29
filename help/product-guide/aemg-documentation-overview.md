@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: a45df7e9eef75b0c4684e944fd9611eb6e7b060e
+source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '325'
 ht-degree: 6%
 ---
 # Dokumentation zu Experience Manager Guides
@@ -206,6 +206,15 @@ Reviewer können eine Prüfungsaufgabe an einen anderen Reviewer delegieren.
 </table>
 
 >[!ENDSHADEBOX]
+
+## Neue Funktionen
+
+[!BADGE 2026.09.0]{type=Informative}
+
+Die Version 2026.09.0 von Adobe Experience Manager Guides führt KI-gestütztes Smart-Tagging im KI-Assistenten ein, sowie Verbesserungen bei Authoring, Content-Management, Veröffentlichung und dem gesamten Anwendererlebnis.
+
+[Neue Funktionen](./release-info/whats-new-2026-09-0.md)
+
 
 ## Zusätzliche Ressourcen
 
