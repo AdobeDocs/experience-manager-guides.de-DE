@@ -7,23 +7,29 @@ exl-id: 52bc8f90-e4ae-4e83-bb1c-9d152fa9bb65
 TQID: https://experienceleague.adobe.com/NX3LuUjSmQKtirXc1iaJVZziVIvuDqANXwqPTi-1LIo
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7c0b10f032c2584fb6e951da898faaeb4ca7aaf
+    internal-label: Security
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: 3002
+source-wordcount: '3060'
 ht-degree: 1%
-
 ---
-
 # Konfigurieren der PDF-Ausgabevorgabe
 
 Nachdem die Voreinstellung erstellt wurde, konfigurieren Sie die Voreinstellungen für PDF. Die voreingestellten Konfigurationsoptionen sind auf den Registerkarten Allgemein, Metadaten, Layout, Sicherheit, Drucken und Erweitert verfügbar.
@@ -64,18 +70,18 @@ Wählen Sie aus den Ausgabevorgaben **PDF** > **Native-PDF** > **Metadaten** aus
   [Herunterladen](assets/SampleXMP.xmp)
 
   Alternativ können Sie mit Adobe Acrobat eine XMP-Datei generieren.
-   1. Wählen Sie **Datei** > **Eigenschaften** in Acrobat.
-   1. Wählen **unter** die Option **Zusätzliche Metadaten** aus.
-   1. Wählen Sie im linken Bedienfeld die Option **Erweitert** aus.
-   1. Wählen Sie **Speichern** aus.
+  1. Wählen Sie **Datei** > **Eigenschaften** in Acrobat.
+  1. Wählen **unter** die Option **Zusätzliche Metadaten** aus.
+  1. Wählen Sie im linken Bedienfeld die Option **Erweitert** aus.
+  1. Wählen Sie **Speichern** aus.
 
   XMP-Datei wird auf dem Gerät gespeichert.
 
 * **Geben Sie Metadatennamen und -werte an**
 
-   1. Fügen Sie einen Namen hinzu, indem Sie ihn aus der Dropdown-Liste auswählen, oder fügen Sie benutzerdefinierte Metadaten hinzu, indem Sie ihn direkt in das Namensfeld eingeben.
-   1. Geben Sie den Wert für die Metadaten ein und wählen Sie das Symbol &quot;+&quot; aus.
-Die Metadaten werden der Liste der Metadaten für die PDF hinzugefügt.
+  1. Fügen Sie einen Namen hinzu, indem Sie ihn aus der Dropdown-Liste auswählen, oder fügen Sie benutzerdefinierte Metadaten hinzu, indem Sie ihn direkt in das Namensfeld eingeben.
+  1. Geben Sie den Wert für die Metadaten ein und wählen Sie das Symbol &quot;+&quot; aus.
+     Die Metadaten werden der Liste der Metadaten für die PDF hinzugefügt.
 
 Sie können Variablen auch verwenden, um die Metadatenwerte zu definieren.  Sie können die für die DITA-Map- oder Bookmap-Datei definierten Metadaten als Variablen verwenden. Die Metadaten befinden sich unter dem Knoten `/jcr:content/metadata` der DITA-Map- oder Bookmap-Datei.
 Wenn Sie eine Variable verwenden, wird deren Wert aus den Metadateneigenschaften ausgewählt.
@@ -115,10 +121,10 @@ Schützen Sie Ihre PDF, indem Sie Einschränkungen zum Öffnen und Lesen der Dat
 Konfigurieren Sie die Druckproduktionseinstellungen, um Druckermarken zuzuweisen, Farbmodelle auszuwählen und Eigenschaften im Zusammenhang mit dem Drucken Ihrer PDF-Ausgabe anzugeben.
 
 * **Druckermarken**: Wenn Sie ein Dokument für die Druckproduktion vorbereiten, werden Druckermarken zu den Seitenbegrenzungen hinzugefügt, um die korrekte Ausrichtung, das Zuschneiden und die Farbauswahl beim Drucken zu unterstützen. Durch Auswahl einer Druckermarke wird die Seitenbegrenzung erweitert, um die Markierung aufzunehmen, die beim Drucken gekürzt wird. Sie können die folgenden Druckermarkierungen in Ihrer PDF-Ausgabe anzeigen:
-   * **Beschneidungsmarken**: Wählen Sie diese Option, um eine Markierung an jeder Ecke des Beschneidungsbereichs zu platzieren, um anzugeben, wo das Papier nach dem Drucken beschnitten werden soll.
-   * **Anschnittzeichen**: Aktivieren Sie diese Option, um eine Markierung an jeder Ecke des Anschnittrahmens zu platzieren und den Zuschnittbereich für das erweiterte Bild anzugeben.
-   * **Registrierungsmarken**: Wählen Sie diese Option, um eine Markierung außerhalb des Zuschnittsbereichs zu platzieren, um die verschiedenen Trennzeichen in einem Farbdokument auszurichten.
-   * **Farbbalken**: Wählen Sie diese Option, um einen Farbstreifen außerhalb des Endformatbereichs hinzuzufügen, um die Farbkonsistenz beizubehalten und die Tintendichte beim Drucken anzupassen.
+  * **Beschneidungsmarken**: Wählen Sie diese Option, um eine Markierung an jeder Ecke des Beschneidungsbereichs zu platzieren, um anzugeben, wo das Papier nach dem Drucken beschnitten werden soll.
+  * **Anschnittzeichen**: Aktivieren Sie diese Option, um eine Markierung an jeder Ecke des Anschnittrahmens zu platzieren und den Zuschnittbereich für das erweiterte Bild anzugeben.
+  * **Registrierungsmarken**: Wählen Sie diese Option, um eine Markierung außerhalb des Zuschnittsbereichs zu platzieren, um die verschiedenen Trennzeichen in einem Farbdokument auszurichten.
+  * **Farbbalken**: Wählen Sie diese Option, um einen Farbstreifen außerhalb des Endformatbereichs hinzuzufügen, um die Farbkonsistenz beizubehalten und die Tintendichte beim Drucken anzupassen.
 
   Legen Sie die Abmessungen für die ausgewählten Druckermarkierungen mithilfe der Optionen **Linienbreite**, **Linienfarbe** und **Anschnittrahmenbreite** fest.
 

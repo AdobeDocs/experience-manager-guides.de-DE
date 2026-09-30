@@ -19,9 +19,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: fde5d8f842d835708f1ae052879bca8a86bf8187
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
-source-wordcount: '5053'
+source-wordcount: '5049'
 ht-degree: 0%
 ---
 # Komponenten einer PDF-Vorlage {#components-pdf-template}
@@ -61,6 +61,7 @@ Inhalte (Inhaltsverzeichnis), Index, leere Seite, Themenvorderseiten, rückwärt
      <img src="assets/add-layout-2.png" alt="Dialogfeld Layout hinzufügen" width="250">
 
 1. Geben Sie einen Namen für das neue Seiten-Layout an.
+
    >[!NOTE]
    >
    >Vermeiden Sie die Verwendung von Sonderzeichen beim Benennen eines Seiten-Layouts. Ein Leerzeichen im Namen wird durch einen Unterstrich „_“ ersetzt.
@@ -196,6 +197,7 @@ Gehen Sie wie folgt vor, um eine Asset-Datei zum Ordner „Ressourcen“ hinzuzu
    <img src="assets/resources-import-assets.png" alt="Hochladen von Assets" width="300">
 
    Der Pfad, unter dem die Asset-Datei hochgeladen wird, wird im Feld **Asset-Ordner auswählen** angezeigt.
+
    >[!NOTE]
    >
    >Sie können den Pfad zum Hochladen von Assets nicht ändern. Standardmäßig werden alle Assets im Ordner `/content/dam/dita-templates/pdf/<PDF-template-name>` gespeichert.
@@ -339,8 +341,6 @@ Weitere Informationen zu Seiten-Layouts finden Sie unter [Erstellen eines Seiten
 
 Sie können die folgenden Abschnitte in Ihrer PDF ein- oder ausblenden und auch die Reihenfolge festlegen, in der sie in der endgültigen PDF-Ausgabe angezeigt werden sollen:
 
-
-
 * IHV
 * Kapitel und Themen
 * Abbildungsverzeichnis
@@ -349,18 +349,16 @@ Sie können die folgenden Abschnitte in Ihrer PDF ein- oder ausblenden und auch 
 * Glossar
 * Zitierung
 
-  <img src="assets/page-order-advance-settings.png" alt="Seitenlayoutreihenfolge" width="550">
+<img src="assets/page-order-advance-settings.png" alt="Seitenlayoutreihenfolge" width="550">
 
-  Wenn Sie einen bestimmten Abschnitt in Ihrer PDF-Ausgabe nicht anzeigen möchten, können Sie dies ausblenden, indem Sie den Umschalter deaktivieren.
+Wenn Sie einen bestimmten Abschnitt in Ihrer PDF-Ausgabe nicht anzeigen möchten, können Sie dies ausblenden, indem Sie den Umschalter deaktivieren.
 
-  Sie können auch die Reihenfolge festlegen, in der diese verschiedenen Abschnitte in Ihrer PDF generiert werden. Um die Standardreihenfolge dieser Abschnitte zu ändern, wählen Sie die gepunkteten Balken aus, um die Abschnitte per Drag-and-Drop an die gewünschte Position zu ziehen.
+Sie können auch die Reihenfolge festlegen, in der diese verschiedenen Abschnitte in Ihrer PDF generiert werden. Um die Standardreihenfolge dieser Abschnitte zu ändern, wählen Sie die gepunkteten Balken aus, um die Abschnitte per Drag-and-Drop an die gewünschte Position zu ziehen.
 
-  >[!NOTE]
-  >
-  > Die Einstellungen für Reihenfolge und Einbindung gelten nur für eine DITA-Zuordnung. Für eine Bookmap sind diese Einstellungen nicht anwendbar. Die Seiten in einer Bookmap werden gemäß der Reihenfolge der Abschnitte in der Bookmap angezeigt.
+>[!NOTE]
+>
+> Die Einstellungen für Reihenfolge und Einbindung gelten nur für eine DITA-Zuordnung. Für eine Bookmap sind diese Einstellungen nicht anwendbar. Die Seiten in einer Bookmap werden gemäß der Reihenfolge der Abschnitte in der Bookmap angezeigt.
 
-
-.
 **Kapitel und Themen** ist das Layout standardmäßig immer aktiviert. Sie können es nicht ein-/ausschalten.
 
 **Seiten zusammenführen**
@@ -479,6 +477,7 @@ Wenn Sie das Textfeld leer lassen und den Verknüpfungstext beim Einfügen eines
 * **Tabelle**: `{captionText}`
 
 Die Rangfolge der Querverweise ist:
+
 * Link-Text in den Querverweisen hinzugefügt
 * In der nativen PDF-Vorlage definiertes Querverweisformat
 * Standardmäßiges Querverweisformat
@@ -502,7 +501,6 @@ Die folgenden Screenshots zeigen zum Beispiel die Querverweise „Auf Seite 1 an
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in englischer Sprache.*
 
 <img src="./assets/german-output-corss-reference.png" alt="Deutsche Ausgabe eines Querverweises in einem Absatz&quot; width =&quot;800" border="2px">
-
 
 *Ein Querverweis innerhalb eines Absatzes bei Veröffentlichung in deutscher Sprache.*
 

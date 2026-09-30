@@ -7,25 +7,33 @@ role: User
 TQID: https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e3a10752fa872baabf8cfc339510d3ea907a17d1
+    internal-label: User
+source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
 workflow-type: tm+mt
-source-wordcount: 1903
+source-wordcount: '1929'
 ht-degree: 0%
-
 ---
-
 # Erstellen und Verwalten von Baselines über die Map-Konsole {#id223MB0ZF043}
 
 >[!NOTE]
@@ -41,7 +49,7 @@ Ebenso ist die Auswahl einer Baseline zur Übersetzung von Inhalten optional. We
 
 >[!TIP]
 >
-> Es wird empfohlen, diese Grundlinien-Funktion über die Zuordnungskonsole zu verwenden. Sie können jedoch auch &quot;[&#x200B; Dashboard verwenden, um Baselines zu erstellen und zu verwalten](./generate-output-use-baseline-for-publishing.md).
+>Es wird empfohlen, diese Grundlinien-Funktion über die Zuordnungskonsole zu verwenden. Sie können jedoch auch &quot;[&#x200B; Dashboard verwenden, um Baselines zu erstellen und zu verwalten](./generate-output-use-baseline-for-publishing.md).
 
 Auf der Registerkarte **Baseline** können Sie die folgenden Aktionen ausführen:
 
@@ -81,13 +89,13 @@ Wählen **in „Version basierend auf auswählen** eine der folgenden Optionen a
   Für die direkten Verweise in statischen Basislinien werden die Beschriftungen aus der zuletzt gespeicherten Version der Zuordnung abgerufen. Beispiel: Sie haben die Bezeichnungen `Label Release 1.0` und `Label Release 1.1` für die Versionen 1.0 und 1.1 von Thema A erstellt und anschließend Thema A zu der als Version 1.0 gespeicherten Zuordnung hinzugefügt. In diesem Fall können Sie die Beschriftungen `Label Release 1.0` und `Label Release 1.1` in der Dropdown-Liste für statische Baseline-Beschriftungen anzeigen.
 
   Wenn Sie auf **Beschriftung“ klicken** können Sie die direkten und indirekten Verweise auswählen.
-   - Bei direkten Verweisen innerhalb der DITA-Zuordnung haben Sie die Möglichkeit, die neueste Version von Themen zu verwenden, auf die nicht die angegebene Kennzeichnung angewendet wurde.
+  - Bei direkten Verweisen innerhalb der DITA-Zuordnung haben Sie die Möglichkeit, die neueste Version von Themen zu verwenden, auf die nicht die angegebene Kennzeichnung angewendet wurde.
 
-     >[!NOTE]
-     >
-     > Wenn Sie eine nicht vorhandene Beschriftung eingeben und die Option **Keine Baseline erstellen** wählen, schlägt die Baseline-Erstellung fehl und gibt im Baseline-Bedienfeld eine Fehlermeldung in der Nähe des Baseline-Namens aus.
+    >[!NOTE]
+    >
+    > Wenn Sie eine nicht vorhandene Beschriftung eingeben und die Option **Keine Baseline erstellen** wählen, schlägt die Baseline-Erstellung fehl und gibt im Baseline-Bedienfeld eine Fehlermeldung in der Nähe des Baseline-Namens aus.
 
-   - Für indirekte Verweise innerhalb der DITA-Zuordnung haben Sie eine zusätzliche Möglichkeit, die neueste Version von Themen zu verwenden, auf die nicht die angegebene Kennzeichnung angewendet wurde. Sie können für **referenzierten Inhalt auch** Automatische Auswahl“ auswählen. Das System wählt dann automatisch die Version des referenzierten Inhalts aus, die der Version des Inhalts entspricht, auf den verwiesen wird.
+  - Für indirekte Verweise innerhalb der DITA-Zuordnung haben Sie eine zusätzliche Möglichkeit, die neueste Version von Themen zu verwenden, auf die nicht die angegebene Kennzeichnung angewendet wurde. Sie können für **referenzierten Inhalt auch** Automatische Auswahl“ auswählen. Das System wählt dann automatisch die Version des referenzierten Inhalts aus, die der Version des Inhalts entspricht, auf den verwiesen wird.
 
 Nachdem Sie eine Bezeichnung oder Version als Datum ausgewählt haben, werden alle referenzierten Themen und Mediendateien in der Zuordnung entsprechend ausgewählt. Diese Themenauswahl wird nicht auf der Benutzeroberfläche angezeigt, sondern im Backend gespeichert.
 
@@ -108,11 +116,12 @@ Baselines, die mithilfe der automatischen Aktualisierungskonfiguration erstellt 
   >Während die Beschriftungen abgerufen werden, wird ein Lader angezeigt und die Dropdown-Liste ist deaktiviert.
 
   Bei dynamischen Baselines werden die Beschriftungen aus der zuletzt gespeicherten Version und der aktuellen Arbeitskopie der Zuordnung abgerufen. Beispiel: Sie haben die Bezeichnungen `Label Release A.1.0 ` und `Label Release A.1.1` für die Versionen 1.0 und 1.1 von Thema A sowie die Bezeichnungen `Label Release B.1.0` und `Label Release B.1.1` für die Versionen 1.0 und 1.1 von Thema B erstellt. Anschließend können Sie Thema A zu Map A in Version 1.0 und Thema B zu Map A in 1.0* (Arbeitskopie) hinzufügen. In diesem Fall können Sie `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0` und `Label Release B.1.1` in der Dropdown-Liste der dynamischen Baseline-Beschriftungen anzeigen.
+
 - **Indirekte Verweise**: Für indirekte Verweise innerhalb der DITA-Karte werden Ihnen die folgenden Optionen bereitgestellt:
 
-   - **Automatisch auswählen**: Sie können für den referenzierten Inhalt **Automatisch auswählen** und das System wählt automatisch die Version des referenzierten Inhalts aus, die der Version des Inhalts entspricht, auf den verwiesen wird.
-   - **Ausgewählte Beschriftung verwenden**: Sie können eine Grundlinie erstellen, bei der die ausgewählte Beschriftung für eine Version von Themen definiert ist.
-   - **Aktuelle Version oder Arbeitskopie verwenden**: Verwenden Sie die neueste Version von Themen, auf die nicht die angegebene Beschriftung angewendet wurde, oder wenn keine Version erstellt wurde, verwenden Sie die Arbeitskopie der Themen, um die Grundlinie zu erstellen.
+  - **Automatisch auswählen**: Sie können für den referenzierten Inhalt **Automatisch auswählen** und das System wählt automatisch die Version des referenzierten Inhalts aus, die der Version des Inhalts entspricht, auf den verwiesen wird.
+  - **Ausgewählte Beschriftung verwenden**: Sie können eine Grundlinie erstellen, bei der die ausgewählte Beschriftung für eine Version von Themen definiert ist.
+  - **Aktuelle Version oder Arbeitskopie verwenden**: Verwenden Sie die neueste Version von Themen, auf die nicht die angegebene Beschriftung angewendet wurde, oder wenn keine Version erstellt wurde, verwenden Sie die Arbeitskopie der Themen, um die Grundlinie zu erstellen.
 
 ## Baselines verwalten
 
@@ -122,13 +131,13 @@ Sie können Ihre vorhandenen Grundlinien mithilfe der verschiedenen Funktionen i
 - Verwenden Sie das Symbol **Aktualisieren** im Bedienfeld „Baseline“, um erneut alle Baselines zu überprüfen und eine neue Liste von Baselines für die DITA-Map anzuzeigen, die in der Kartenansicht geöffnet wird.
 - Wählen Sie die Baseline aus, um den Inhalt einer vorhandenen statischen Baseline im Bedienfeld **Baseline** anzuzeigen oder zu bearbeiten. Das Baseline-Bearbeitungsfenster zeigt die DITA-Zuordnungsdatei, den Inhalt oder die Themen der Zuordnung und den referenzierten Inhalt an.
 
-  >[!NOTE]
-  >
-  >Der Bearbeitungsvorgang für statische Grundlinien wird nur für eine geringe Anzahl von Referenzänderungen empfohlen. Der Bearbeitungsvorgang wird nicht empfohlen, die Version der DITA-Hauptzuordnung zu ändern, da alle Verweise neu berechnet werden müssen. Dies kann bei großen DITA-Zuordnungen zu einem Fehler bei der grundlegenden Aktualisierung führen. Für die größeren DITA-Zuordnungen können Sie eine neue Grundlinie erstellen oder die Eigenschaften der Grundlinie bearbeiten.
-  >
-  >Der Bearbeitungsvorgang im Fall einer dynamischen Baseline ermöglicht es Ihnen, die Eigenschaften der Baseline zu bearbeiten, da die Referenzen für dynamische Baselines zur Laufzeit mithilfe der Kennzeichnungen generiert werden.
+>[!NOTE]
+>
+>Der Bearbeitungsvorgang für statische Grundlinien wird nur für eine geringe Anzahl von Referenzänderungen empfohlen. Der Bearbeitungsvorgang wird nicht empfohlen, die Version der DITA-Hauptzuordnung zu ändern, da alle Verweise neu berechnet werden müssen. Dies kann bei großen DITA-Zuordnungen zu einem Fehler bei der grundlegenden Aktualisierung führen. Für die größeren DITA-Zuordnungen können Sie eine neue Grundlinie erstellen oder die Eigenschaften der Grundlinie bearbeiten.
+>
+>Der Bearbeitungsvorgang im Fall einer dynamischen Baseline ermöglicht es Ihnen, die Eigenschaften der Baseline zu bearbeiten, da die Referenzen für dynamische Baselines zur Laufzeit mithilfe der Kennzeichnungen generiert werden.
 
-  ![Optionen einer Baseline](images/baseline-options.png)
+![Optionen einer Baseline](images/baseline-options.png)
 
 ### Für eine vorhandene Baseline verfügbare Aktionen
 
@@ -142,14 +151,16 @@ Sie können eine Baseline duplizieren und entsprechend Ihren Anforderungen ände
 *Duplizieren Sie eine Baseline basierend auf einer Beschriftung oder erstellen Sie eine exakte Kopie.*
 
 1. Wählen **Duplizieren** aus dem Menü Optionen einer Baseline. Das **Basislinie duplizieren** wird geöffnet.
->[!NOTE]
->
->Der Standardname der Baseline lautet `<selected baseline name>`_suffix (wie sample-baseline_1). Sie können den Namen Ihren Anforderungen entsprechend ändern.
+
+   >[!NOTE]
+   > 
+   >Der Standardname der Baseline lautet `<selected baseline name>`_suffix (wie sample-baseline_1). Sie können den Namen Ihren Anforderungen entsprechend ändern.
 
    In **Version basierend auswählen** können Sie entweder die Option **Exakte Kopie** oder die Option **Beschriftung** auswählen:
 
    - **Exakte Kopie**: Experience Manager Guides wählt dieselbe Version aller Themen aus und erstellt eine exakte Kopie der duplizierten Baseline.
    - **Beschriftung**: In der Dropdown-Liste können Sie eine der [&#x200B; Beschriftungen &#x200B;](#labels-list). Experience Manager Guides wählt die Versionen der Themen aus, für die die ausgewählte Beschriftung definiert ist, während für die übrigen Themen die Version aus der duplizierten Baseline ausgewählt wird. Sie wählen beispielsweise den Titel `Release 1.0` aus der Dropdown-Liste aus und wählen dann die Versionen der Themen aus, für die Sie diesen Titel definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Baseline ausgewählt.
+
 1. Wählen Sie **Duplizieren** aus.
 
 - **Umbenennen** oder **Löschen** einer vorhandenen Baseline**.
@@ -166,6 +177,7 @@ Sie können eine Baseline duplizieren und entsprechend Ihren Anforderungen ände
 ### Beschriftungsliste {#labels-list}
 
 Die im Dropdown-Menü aufgelisteten Bezeichnungen basieren auf den folgenden Kriterien:
+
 - Die Beschriftungen sollten einer der Versionen der Themen in der DITA-Map hinzugefügt werden (auf der die Baseline erstellt wird).
 - Und nur die Verweise der ersten Ebene (Themen oder Unterkarten) der DITA-Karte werden für die Auswahl der Beschriftungen berücksichtigt.
 

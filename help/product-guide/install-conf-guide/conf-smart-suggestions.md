@@ -2,13 +2,11 @@
 title: Konfigurieren des KI-Assistenten für die intelligente Hilfe und das Authoring
 description: Erfahren Sie, wie Sie den KI-Assistenten in Experience Manager Guides konfigurieren
 exl-id: 59da626d-8433-44c6-ba69-654c7796a264
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 1%
-
 ---
-
 # Konfigurieren des KI-Assistenten für Cloud Service
 
 Als Administrator können Sie die Funktion KI-Assistent in Experience Manager Guides konfigurieren. Der KI-Assistent wird durch die authentifizierungsbasierte Adobe IMS-Authentifizierung geschützt. Integrieren Sie Ihre Umgebung mit den sicheren Token-basierten Authentifizierungs-Workflows von Adobe und verwenden Sie die Funktion KI-Assistent . Mit der folgenden Konfiguration können Sie die Registerkarte **KI-Konfiguration** zum Ordnerprofil hinzufügen. Nach dem Hinzufügen können Sie die Funktion KI-Assistent in Experience Manager Guides verwenden.
