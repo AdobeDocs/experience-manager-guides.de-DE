@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 863a9c706ce3aa62aaa24bef7242019e1886f255
+source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '459'
 ht-degree: 6%
 ---
 # Dokumentation zu Experience Manager Guides
@@ -214,6 +214,63 @@ Reviewer können eine Prüfungsaufgabe an einen anderen Reviewer delegieren.
 Die Version 2026.09.0 von Adobe Experience Manager Guides führt KI-gestütztes Smart-Tagging im KI-Assistenten ein, sowie Verbesserungen bei Authoring, Content-Management, Veröffentlichung und dem gesamten Anwendererlebnis.
 
 [Neue Funktionen](./release-info/whats-new-2026-09-0.md)
+
+## Schnell-Links
+
+>[!BEGINSHADEBOX]
+
+<table>
+<tr style="border: 0;">
+<td>
+
+![Neuerungen](../assets/whats-new-git-connector.svg)
+
+**Neue Funktionen in AEM Guides**
+
+Erfahren Sie mehr über die neuen und erweiterten Funktionen der neuesten Version von Experience Manager Guides.
+
+- KI-gestütztes Smart-Tagging im KI-Assistenten
+- Thema als „Erledigt“ in einer Prüfungsaufgabe markieren
+- Verbesserungen an Lerninhalten
+
+[Alle erkunden](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+
+</td>
+<td>
+
+![Versionshinweise](../assets/whats-new-map-collection.svg)
+
+**Versionshinweise**
+
+Erkunden Sie die neuesten Versionshinweise und Produktaktualisierungen für Cloud- und On-Premise-Bereitstellungen.
+
+- Cloud-Versionen | [Versionshinweise anzeigen](./release-info/latest-release-info-cs.md)
+- On-Premise-Versionen | [Versionshinweise anzeigen](./release-info/latest-release-info.md)
+
+[Versions-Roadmap anzeigen](./release-info/aem-guides-releases-roadmap.md)
+
+</td>
+<td>
+
+![Lernen und Support](../assets/whats-new-delegate-review.svg)
+
+**Lernen und Support**
+
+Greifen Sie auf hilfreiche Ressourcen, Dokumentation und Support zu, um die Plattform optimal zu nutzen.
+
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+
+[Interaktion mit der Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de)
+
+</td>
+</tr>
+</table>
+
+>[!ENDSHADEBOX]
+
+
 
 
 ## Zusätzliche Ressourcen

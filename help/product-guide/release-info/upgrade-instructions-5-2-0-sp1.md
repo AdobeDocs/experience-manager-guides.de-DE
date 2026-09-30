@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen für Adobe Experience Manager Guides 5.2.0 Service Pack 1
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf Version 5.2.0 Service Pack 1 von Adobe Experience Manager Guides.
-source-git-commit: 6841c373b75770e8691a2cac4d56aeb368b09480
+source-git-commit: 40e70b86b070cb91a7bc18da595edd2f2f90d29b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '929'
 ht-degree: 3%
 ---
 # Aktualisierungsanweisungen für die Version 5.2.0 Service Pack 1 (September 2026)
@@ -60,7 +60,7 @@ Weitere Informationen finden Sie unter [Konfigurieren und Verwenden der API-JAR-
 
 | AEM Guides | AEM-Version | Komponentenversion | Site-Version |
 |---|---|---| ---|
-| 5.2.0 Service Pack 1 UUID | 6.5 LTS | guides-components.all-1.4.1 | nicht vorhanden |
+| 5.2.0 Service Pack 1 UUID | 6.5 LTS | guides-components.all-1.4.1 | aemg-sites-template-1.3.0 |
 | 5.2.0 Service Pack 1 UUID | 6.5 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 ## Voraussetzungen
