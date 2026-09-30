@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 82b02a0c27b9caeedc59f6508c5a36821ab1666e
+source-git-commit: ce193b31d44d3a67bb18d1db5531c23cb81c4803
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 6%
 ---
 # Dokumentation zu Experience Manager Guides
 
@@ -227,9 +227,13 @@ Die Version 2026.09.0 von Adobe Experience Manager Guides führt KI-gestütztes 
 
 **Neue Funktionen in AEM Guides**
 
-Erfahren Sie mehr über die neuen Funktionen der neuesten Version von Experience Manager Guides.
+Erfahren Sie mehr über die neuen und erweiterten Funktionen der neuesten Version von Experience Manager Guides.
 
-[Weitere Informationen](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+- KI-gestütztes Smart-Tagging im KI-Assistenten
+- Thema als „Erledigt“ in einer Prüfungsaufgabe markieren
+- Verbesserungen an Lerninhalten
+
+[Alle erkunden](../../help/product-guide/release-info/whats-new-2026-09-0.md)
 
 </td>
 <td>
@@ -240,8 +244,8 @@ Erfahren Sie mehr über die neuen Funktionen der neuesten Version von Experience
 
 Erkunden Sie die neuesten Versionshinweise und Produktaktualisierungen für Cloud- und On-Premise-Bereitstellungen.
 
-- AEM Guides Cloud-Versionen | [Versionshinweise anzeigen](./release-info/latest-release-info-cs.md)
-- AEM Guides On-Premise-Versionen | [Versionshinweise anzeigen](./release-info/latest-release-info.md)
+- Cloud-Versionen | [Versionshinweise anzeigen](./release-info/latest-release-info-cs.md)
+- On-Premise-Versionen | [Versionshinweise anzeigen](./release-info/latest-release-info.md)
 
 [Versions-Roadmap anzeigen](./release-info/aem-guides-releases-roadmap.md)
 
@@ -254,11 +258,11 @@ Erkunden Sie die neuesten Versionshinweise und Produktaktualisierungen für Clou
 
 Greifen Sie auf hilfreiche Ressourcen, Dokumentation und Support zu, um die Plattform optimal zu nutzen.
 
-* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
-* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
-* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[Interaktion mit der Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de)
+[Interaktion mit der Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
 
 </td>
 </tr>
@@ -273,7 +277,7 @@ Greifen Sie auf hilfreiche Ressourcen, Dokumentation und Support zu, um die Plat
 
 * [Versionshinweise für Cloud Service](./release-info/latest-release-info-cs.md)
 * [Versionshinweise für On-Premise](./release-info/latest-release-info.md)
-* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de){target="_blank"}
-* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
-* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
-* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
