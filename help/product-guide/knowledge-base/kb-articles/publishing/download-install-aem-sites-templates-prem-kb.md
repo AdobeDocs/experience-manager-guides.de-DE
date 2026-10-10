@@ -104,7 +104,7 @@ Bevor Sie mit der Einrichtung fortfahren, stellen Sie sicher, dass die folgenden
    2. Erstellen Sie eine neue Produktseite unter der vorkonfigurierten Site-Struktur.
    3. Navigieren Sie zu **AEMG-** > **Englisch** > **Docs**.
 
-      ![Seite in der AEM Site-Struktur erstellen ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
+      ![Seite in der AEM Site-Struktur erstellen &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350"}
 
    4. Wählen Sie die Kachel **Startseite** und dann **Weiter** aus.
 

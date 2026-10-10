@@ -173,4 +173,4 @@ Nachdem Sie ein Problem behoben haben, wählen **in** Symbolleiste die Option �
 Wählen Sie **Bericht herunterladen** aus, um den Bericht im XLS-Format mit detaillierten Informationen für jedes Ergebnis herunterzuladen.
 
 
-**Übergeordnetes Thema:**[ Einführung in den Zuordnungs-Editor](map-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Zuordnungs-Editor](map-editor.md)

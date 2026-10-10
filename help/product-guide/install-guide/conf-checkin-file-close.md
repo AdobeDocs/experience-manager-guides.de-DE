@@ -53,4 +53,4 @@ Wenn diese Konfiguration aktiviert ist **ist das Kontrollkästchen** Datei entsp
 
 Weitere Informationen finden Sie *Abschnitt „Schließen und Speichern von Dateien* im Handbuch Verwenden von Adobe Experience Manager Guides as a Cloud Service .
 
-**Übergeordnetes Thema:**[ Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](conf-web-editor.md)

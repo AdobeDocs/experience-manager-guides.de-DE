@@ -67,4 +67,4 @@ Sie können eine Massen-Aktivierungszuordnungssammlung bearbeiten, indem Sie Zuo
 1. Klicken Sie auf **Fertig**.
 
 
-**Übergeordnetes Thema:**[ Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

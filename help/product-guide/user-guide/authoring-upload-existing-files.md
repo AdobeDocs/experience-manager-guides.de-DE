@@ -79,4 +79,4 @@ Wenn Sie ein Tool wie das Adobe Experience Manager-Desktop-Programm oder das Ass
 
 
 
-**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte verwalten](authoring.md)

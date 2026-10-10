@@ -67,7 +67,7 @@ Das linke Bedienfeld im Veröffentlichungs-Dashboard bietet die folgenden Filter
 
 ## Zugriff auf das Veröffentlichungs-Dashboard
 
-Sie können auf **Dashboard veröffentlichen** direkt über die [Experience Manager Guides-Startseite ](./intro-home-page.md). Öffnen Sie die Startseite und wählen Sie **linken Bedienfeld die Option** Veröffentlichungswarteschlange“ aus.
+Sie können auf **Dashboard veröffentlichen** direkt über die [Experience Manager Guides-Startseite &#x200B;](./intro-home-page.md). Öffnen Sie die Startseite und wählen Sie **linken Bedienfeld die Option** Veröffentlichungswarteschlange“ aus.
 
 >[!NOTE]
 >
@@ -109,4 +109,4 @@ Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung �
    ![](images/cancelled-output-task.png)
 
 
-**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

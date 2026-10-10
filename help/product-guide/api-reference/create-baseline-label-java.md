@@ -142,7 +142,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | Eine gültige JCR-Sitzung. |
 | `sourcePath` | Zeichenfolge | Absoluter Pfad der DITA-Zuordnungsdatei im AEM-Repository. |
 | ``baselineName`` | Zeichenfolge | Name des Basisknotens, auf den die Bezeichnung angewendet werden soll. Um den Namen des Baseline-Knotens abzurufen, können Sie die Methode [\#id185NFF0085Z](#id185NFF0085Z) verwenden oder den Baselines-Knoten der DITA-Zuordnung in CRXDE überprüfen.<br> **Hinweis:** Bezeichnung wird auf Versionen von Dateien angewendet, die direkt von der Zuordnungsdatei in der Baseline referenziert werden. |
-| `label` | Zeichenfolge | Eine Beschriftung, die auf Dateien in der Grundlinie angewendet wird. Achten Sie darauf, dass die Beschriftung nicht die folgenden Zeichen enthält: &amp;sol; &amp;comma; &amp;colon; &amp;comma; &amp;lbrack; &amp;rbrack; &amp;comma; &amp;vert; &amp;comma; &amp;ast; <br> Wenn Sie mehrere Beschriftungen festlegen möchten, trennen Sie Beschriftungen durch ein Komma; z. B. label1, label2. |
+| `label` | Zeichenfolge | Eine Beschriftung, die auf Dateien in der Grundlinie angewendet wird. Achten Sie darauf, dass die Beschriftung nicht die folgenden Zeichen enthält: &sol; &comma; &colon; &comma; &lbrack; &rbrack; &comma; &vert; &comma; &ast; <br> Wenn Sie mehrere Beschriftungen festlegen möchten, trennen Sie Beschriftungen durch ein Komma; z. B. label1, label2. |
 
 **Ausnahme**:
 Löst `RepositoryException` aus.

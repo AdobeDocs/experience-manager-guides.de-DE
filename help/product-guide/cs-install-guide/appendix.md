@@ -371,7 +371,7 @@ Das folgende Beispiel zeigt, wie ein `title` in ein `table` verschoben wird:
 
 Die `paragraphStyleRule` Elemente werden nachfolgend beschrieben:
 
-** `paraRule` Element**
+**&#x200B; `paraRule` Element**
 
 Das `paraRule` ist obligatorisch. Dies legt die Zuordnungsregeln für alle Absatzformate fest. In einem InDesign-Dokument ist der gesamte Text in der Unterstruktur von Absatzformaten enthalten, auch Absätze ohne Stil werden `\[No paragraph style\]` genannt. Die eckigen Klammern geben einen integrierten Namen im InDesign-Stil an.
 

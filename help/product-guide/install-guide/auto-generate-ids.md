@@ -61,4 +61,4 @@ Führen Sie die folgenden Schritte aus, um -Elemente so zu konfigurieren, dass s
 1. Klicken Sie auf **Speichern**.
 
 
-**Übergeordnetes Thema:**[ Editor anpassen](conf-web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](conf-web-editor.md)

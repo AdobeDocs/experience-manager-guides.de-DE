@@ -40,7 +40,7 @@ Bei jedem Übersetzungsprojekt werden mehrere Benutzergruppen für den Zugriff g
 
 - Bei älteren Projekten sollte der Ordner, der als inaktiv markiert, genehmigt und überprüft ist, gelöscht werden
   - Die folgenden Schritte helfen Ihnen, die Gesamtübersetzungsleistung in einem guten Zustand zu halten, indem sie temporäre Übersetzungsdateien und Benutzergruppen bereinigen, die mit diesem Projektordner verknüpft sind.
-    ![Übersetzungsprojekt und Ordner löschen ](./assets/translation-project-image2.png)
+    ![Übersetzungsprojekt und Ordner löschen &#x200B;](./assets/translation-project-image2.png)
 
 
 ## Wenn Sie eingeschaltet sind, erstellen Sie 4.6 oder 2404 oder höher:
@@ -49,4 +49,4 @@ Sie können weiterhin die oben genannten Schritte ausführen. Ab Version 4.6/240
 
 Verweis : [Ein abgeschlossenes Übersetzungsprojekt automatisch löschen oder deaktivieren](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![Automatisierte Einstellungen zum Löschen und Deaktivieren von Übersetzungsprojekten in AEM Guides ](./assets/translation-project-image3.png)
+![Automatisierte Einstellungen zum Löschen und Deaktivieren von Übersetzungsprojekten in AEM Guides &#x200B;](./assets/translation-project-image3.png)

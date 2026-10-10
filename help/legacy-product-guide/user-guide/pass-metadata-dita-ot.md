@@ -71,4 +71,4 @@ Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe von DITA-OT-Pu
 
 Die ausgewählten Metadateneigenschaften werden an die mit DITA-OT generierte Ausgabe übergeben.
 
-**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)

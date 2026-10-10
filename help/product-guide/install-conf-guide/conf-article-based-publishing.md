@@ -71,4 +71,4 @@ Um die artikelbasierte Veröffentlichung zu aktivieren, laden Sie die folgenden 
 >[!ENDTABS]
 
 
-**Übergeordnetes Thema:**[ Editor anpassen](customize-overview.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Editor anpassen](customize-overview.md)

@@ -157,7 +157,7 @@ Um die Ausgabe mithilfe einer Zuordnungssammlung zu generieren, führen Sie die 
 
 1. Sie können die Aufgabe zur Ausgabegenerierung auch abbrechen, bis der Status der Aufgabe ausgeführt wird, indem Sie das Symbol **Generierung abbrechen** auswählen.
 
-   ![Erzeugung von ](./images/cancel-generation.png)
+   ![Erzeugung von &#x200B;](./images/cancel-generation.png)
 
 
 1. Darüber hinaus können Sie die generierte Ausgabe für Zuordnungen anzeigen, deren Ausgabegenerierung abgeschlossen wurde, indem Sie auf das Symbol **Ausgabe öffnen** klicken, das angezeigt wird, wenn Sie den Mauszeiger über den Zuordnungsnamen bewegen, oder die Generierungsprotokolle anzeigen, indem Sie das angrenzende Symbol **Protokolle** auswählen.
@@ -212,4 +212,4 @@ Die Metadateneigenschaften werden für die DITA-Zuordnungen, die Sie aus der Zuo
 Die Metadateneigenschaften sind mit den Dateieigenschaften synchronisiert. Nachdem Sie sie aktualisiert haben, können Sie sie über das Bedienfeld **Dateieigenschaften** im Editor anzeigen.
 
 
-**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
