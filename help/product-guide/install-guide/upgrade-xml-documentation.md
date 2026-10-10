@@ -1332,7 +1332,7 @@ Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müsse
 
 ## Schritte zur Neuindizierung von damAssetLucene
 
-Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [&#x200B; Neuindizierung von damAssetLucene nach &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.0.0 finden Sie in diesem Artikel .
+Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [&#x200B; Neuindizierung von damAssetLucene nach &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.0.0 finden Sie in diesem Artikel .
 
 >[!NOTE]
 >
@@ -1342,7 +1342,7 @@ Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Info
 
 >[!IMPORTANT]
 >
-> Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.1.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.1.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/de/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Voraussetzungen**
 
@@ -1499,7 +1499,7 @@ Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müsse
 
 ## Schritte zur Neuindizierung von damAssetLucene
 
-Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [&#x200B; Neuindizierung von damAssetLucene nach &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.1.0 finden Sie in diesem Artikel .
+Die Indexdefinition wird für damAssetLucene mit Handbüchern aktualisiert. Informationen [&#x200B; Neuindizierung von damAssetLucene nach &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-16460) Aktualisierung auf Version 5.1.0 finden Sie in diesem Artikel .
 
 >[!NOTE]
 >
