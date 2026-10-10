@@ -5,22 +5,37 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 61a6a623-2f29-43b5-a053-7f1f925de6d6
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 2%
-
+source-wordcount: '3216'
+ht-degree: 3%
 ---
-
 # Upgrade von Adobe Experience Manager Guides On-Premise (Version 4.4.0 und früher)
 
 Dieser Artikel enthält Anweisungen zum Aktualisieren von **Adobe Experience Manager Guides**-Versionen **vor 4.6.0** (bis einschließlich **4.4.0**).
 
-Wenn Sie eine Version **vor 3.8.5** verwenden, lesen Sie den Abschnitt **Upgrade von Experience Manager Guides** im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive verfügbar ist](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html).
+Wenn Sie eine Version **vor 3.8.5** verwenden, lesen Sie den Abschnitt **Upgrade von Experience Manager Guides** im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive verfügbar ist](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 Aktualisierungsanweisungen für neuere Versionen finden Sie unter [Adobe Experience Manager Guides für Version 4.6.0 und höher aktualisieren](./upgrade-aemg-latest-version.md).
 
-## Bevor Sie beginnen
+## Voraussetzungen
 
 >[!NOTE]
 >
@@ -58,7 +73,7 @@ Bei einigen Upgrades ist es außerdem erforderlich, für eine Upgrade-Klasse fü
 
 >[!NOTE]
 >
-> Dieses Upgrade-Verfahren gilt **nur** von **3.8.5** auf **4.0**. Informationen zu Upgrades von **3.4 oder höher** auf **3.8.5** finden Sie im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+> Dieses Upgrade-Verfahren gilt **nur** von **3.8.5** auf **4.0**. Informationen zu Upgrades von **3.4 oder höher** auf **3.8.5** finden Sie im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 Wenn Sie Experience Manager Guides Version **3.8.5** verwenden, können Sie auf Version **4.0** aktualisieren, ohne die vorherige Version zu deinstallieren.
 
@@ -108,7 +123,7 @@ Diese API migriert alle Daten unter dem Quellspeicherort zum Zielspeicherort.
 
    - Wenn Sie die UUID-Version der -Software verwenden, suchen Sie nach „4.0 UUID Release for XML Documentation Solution for AEM 6.5“.
    - Wenn Sie eine Nicht-UUID-Version von Software verwenden, suchen Sie nach „4.0 Non-UUID Release for XML Documentation Solution for AEM 6.5“.
-Laden Sie das Paket mit CRX Package Manager in die bestehende(n) AEM-Server-Instanz(en) hoch und installieren Sie es.
+     Laden Sie das Paket mit CRX Package Manager in die bestehende(n) AEM-Server-Instanz(en) hoch und installieren Sie es.
 
      >[!NOTE]
      >
@@ -202,7 +217,7 @@ Sie können direkt auf Version **4.2.1**, wenn Sie **4.1**, **4.1.x** oder **4.2
    - `Unable to port translation map from v1 to v2 for property`
 5. (Optional) Upgrade des Oxygen Connector-Plug-ins, das mit Version **4.2 veröffentlicht wurde**
 6. Browser-Cache löschen.
-7. Fahren Sie mit [Allgemeine Aufgaben nach einem Upgrade (alle Versionen) &#x200B;](#common-postupgrade-tasks-all-versions).
+7. Fahren Sie mit [Allgemeine Aufgaben nach einem Upgrade (alle Versionen) ](#common-postupgrade-tasks-all-versions).
 
 ### Nach der Installation von Version 4.2.1
 
@@ -344,7 +359,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.4.0 Folge
 7. Weiter mit:
 
    - [Häufige Aufgaben nach einem Upgrade (alle Versionen)](#common-ppostupgrade-tasks-all-versions)
-   - [Vorhandenen Inhalt für Map suchen und ersetzen &#x200B;](#index-existing-content-for-map-find-and-replace)Nur falls zutreffend)
+   - [Vorhandenen Inhalt für Map suchen und ersetzen ](#index-existing-content-for-map-find-and-replace)Nur falls zutreffend)
    - [Vorhandenen Inhalt für Bericht zu fehlerhaftem Link nachverarbeiten](#post-process-existing-content-for-broken-link-report) (Nur falls zutreffend)
    - [Upgrade der Übersetzungszuordnung (Servlet-Trigger)](#translation-map-upgrade-servlet-trigger) (Nur falls zutreffend)
 
@@ -371,9 +386,9 @@ Nach der Installation von Experience Manager Guides müssen Sie möglicherweise 
 - Titel: `DXML Post Process Initiator`
 - Beschreibung: `DXML post process initiator step which will trigger a sling job for DXML post-processing of the modified/created asset`
       **Registerkarte „Prozess“**
-- Prozess: auswählen `DXML Post Process Initiator`
-- Auswählen `Handler Advance`
-- `Done` auswählen
+      - Prozess: auswählen `DXML Post Process Initiator`
+      - Auswählen `Handler Advance`
+      - `Done` auswählen
    3. Klicken Sie **rechts oben** den Änderungen auf „Synchronisieren“. Sie erhalten eine Erfolgsbenachrichtigung.
 
 >[!NOTE]
@@ -510,7 +525,7 @@ Führen Sie die folgenden Schritte aus, um den Bericht „Beschädigter Link“ 
    | Endpunkt | /bin/guides/reports/upgrade |
    |---|---|
    | Abfragetyp | **POST** Dieses Skript ist eine POST-Anfrage und sollte daher über Agenten wie Postman ausgeführt werden. |
-   | Erwartete Antwort | Die API gibt eine jobId zurück. Um den Auftragsstatus zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden.<br> Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade` |
+   | Erwartete Antwort | Die API gibt eine jobId zurück. Um den Status des Auftrags zu überprüfen, können Sie eine GET-Anfrage mit Auftrags-ID an denselben Endpunkt senden.<br> Beispiel-URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Endpunkt | /bin/guides/reports/upgrade |
    |---|---|

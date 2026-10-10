@@ -4,21 +4,28 @@ description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der
 exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
 feature: What's New
 role: Leader
-TQID: https://experienceleague.adobe.com/XAwjfiapDvgvcwAuWm943W36PsAEiBfJUkN37DJeSZ0
+TQID: 'https://experienceleague.adobe.com/XAwjfiapDvgvcwAuWm943W36PsAEiBfJUkN37DJeSZ0'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
+subfeature_v2:
+  - id: cda0baeb-996e-4aaa-92d1-41032e34fd68
+    internal-label: What's new
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: '848'
 ht-degree: 0%
-
 ---
-
 # Neue Funktionen in der Version vom November 2023 von Adobe Experience Manager Guides as a Cloud Service
 
 Dieser Artikel behandelt die neuen und erweiterten Funktionen in der Version vom November 2023 von Adobe Experience Manager Guides (später als *Experience Manager Guides as a Cloud Service* bezeichnet).
@@ -74,7 +81,7 @@ Sie können jetzt die Standardmethode zum Anzeigen der Dateien im Web-Editor aus
 
 Sie können Bedingungsattribute in Ihren DITA-Themen definieren. Verwenden Sie dann die Bedingungsattribute in der Bedingungsvorgabe, um den Inhalt in einer DITA-Zuordnung zu veröffentlichen. Mit Experience Manager Guides können Sie jetzt auch Bedingungsvorgaben über den Web-Editor erstellen und verwalten. Sie können sie auch einfach bearbeiten, duplizieren oder löschen.
 
-![Bedingungsvorgaben auf der Registerkarte Verwalten des Web-Editors &#x200B;](assets/web-editor-manage-condition-presets.png){width="550"}
+![Bedingungsvorgaben auf der Registerkarte Verwalten des Web-Editors ](assets/web-editor-manage-condition-presets.png){width="550"}
 
 Weitere Informationen finden Sie unter [Verwenden von Bedingungsvorgaben](../user-guide/generate-output-use-condition-presets.md).
 
@@ -85,7 +92,7 @@ Experience Manager Guides stellt den Status der geöffneten Dateiregisterkarten 
 ### Einfaches Entpacken eines Elements
 
 Jetzt können Sie ein Element mithilfe der Option aus dem Kontextmenü eines Elements im Web-Editor einfach entpacken. Auf diese Weise können Sie den Text des Elements einfach mit dem übergeordneten Element zusammenführen.
-Weitere Informationen finden Sie im Abschnitt **Element entpacken** unter &quot;[&#x200B; Funktionen im Web-Editor](../user-guide/web-editor-other-features.md).
+Weitere Informationen finden Sie im Abschnitt **Element entpacken** unter &quot;[ Funktionen im Web-Editor](../user-guide/web-editor-other-features.md).
 
 ### Tastaturbefehle zum Verschieben des Cursors
 

@@ -5,25 +5,32 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: dbc27856-6903-4694-9875-77dc778c80bd
-TQID: https://experienceleague.adobe.com/9MQYpx6TIE5Lt447H2Ybr21dZrb2isZlM6gb5Y-PdHk
+TQID: 'https://experienceleague.adobe.com/9MQYpx6TIE5Lt447H2Ybr21dZrb2isZlM6gb5Y-PdHk'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b9ab219dd067047e2c9f00ead6d0538df450eb66
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1465
+source-wordcount: '1465'
 ht-degree: 0%
-
 ---
-
 # Web-Editor-Ansichten {#id204GK0D0V5Z}
 
 Der Web-Editor von AEM Guides unterstützt die Anzeige von Dokumenten in drei verschiedenen Modi oder Ansichten:
@@ -57,7 +64,8 @@ Die Source-Ansicht zeigt die zugrunde liegende XML an, aus der das Thema besteht
 
   Im obigen Screenshot wird eine Kreuzhervorhebung verwendet, um die Zeile mit fehlerhafter XML darauf hinzuweisen.
 
-- Mit der Funktion „Suchen und Ersetzen“ können Sie in der Source-Ansicht nach beliebigen Texten, Elementen oder Attributen suchen.Weitere Informationen finden Sie in der Beschreibung **Suchen und Ersetzen** im Abschnitt [Haupt-](web-editor-features.md#id#id2051EA0G05Z)).
+- Mit der Funktion „Suchen und Ersetzen“ können Sie in der Source-Ansicht nach beliebigen Texten, Elementen oder Attributen suchen.
+Weitere Informationen finden Sie in der Beschreibung **Suchen und Ersetzen** im Abschnitt [Haupt-](web-editor-features.md#id#id2051EA0G05Z)).
 
 - Die Source-Ansicht bietet viele Tastaturbefehle, mit denen Sie schnell zu einem Dokument navigieren und es bearbeiten können. In der folgenden Tabelle sind die unterstützten Aktionen und ihre Tastaturbefehle aufgeführt:
 
@@ -163,4 +171,4 @@ Gehen Sie wie folgt vor, um ein Thema als PDF zu exportieren:
    Die PDF wird generiert und in einer neuen Registerkarte geöffnet. Andernfalls wird ein Dialogfeld zum Speichern der PDF auf Ihrem lokalen System angezeigt.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Web-Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Arbeiten mit dem Web-Editor](web-editor.md)

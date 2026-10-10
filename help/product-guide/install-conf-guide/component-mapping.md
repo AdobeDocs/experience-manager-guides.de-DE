@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 9243592c-1a3c-4218-8674-19305dd6f17a
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1053'
 ht-degree: 0%
-
 ---
-
 # Komponentenzuordnung für AEM Sites
 
 In diesem Artikel werden die verschiedenen Aspekte der Komponentenzuordnung für AEM Sites (Verwendung der Zuordnung zusammengesetzter Komponenten) behandelt.
@@ -23,7 +38,8 @@ Verwenden Sie ein JSON-Array von Regeln (Ihre `componentmapping.json`), um HTML 
 ### Targeting des HTML-Elements und seiner Klasse
 
 - Schreiben Sie den HTML-Tag-Namen in `name`.
-- Schließen Sie die CSS-Klasse ein, die auf dieses Element in `class` angewendet wird, falls die Klasse vorhanden ist.Zum Beispiel:
+- Schließen Sie die CSS-Klasse ein, die auf dieses Element in `class` angewendet wird, falls die Klasse vorhanden ist.
+Zum Beispiel:
 
   ```html
   <div class ="sample-class">
@@ -48,7 +64,8 @@ Stellen Sie beim Definieren der oben genannten Elemente Folgendes sicher:
 
 ### Verwenden Sie attributeMap, um Eigenschaften auf dem JCR-Knoten zu speichern
 
-Fügen Sie `attributeMap` Einträge hinzu, um Eigenschaften auf dem Ausgabeknoten festzulegen. Jeder Eintrag erzeugt `attrs[to] = value`.Häufige Muster:
+Fügen Sie `attributeMap` Einträge hinzu, um Eigenschaften auf dem Ausgabeknoten festzulegen. Jeder Eintrag erzeugt `attrs[to] = value`.
+Häufige Muster:
 
 ```json
 // copy an attribute
@@ -164,7 +181,8 @@ Erfahren Sie, wie Sie eine benutzerdefinierte Tabellenkomponente erstellen, die 
 
 ### Was Sie bauen werden
 
-Eine benutzerdefinierte Tabellenkomponente, die HTML-Tabelleninhalte akzeptiert und alle darin enthaltenen `<img>` durch die Ausgabe der AEM-Kernbildkomponente ersetzt. Auf diese Weise können Sie die Funktionen des Kernbilds (responsive Bilder, Alt-Handhabung, Barrierefreiheit) wiederverwenden und gleichzeitig die volle Kontrolle über das Tabellen-Markup behalten.Mit diesem Ansatz können Sie andere benutzerdefinierte Komponenten für Ihre AEM-Site erstellen (mithilfe der Zuordnung zusammengesetzter Komponenten).
+Eine benutzerdefinierte Tabellenkomponente, die HTML-Tabelleninhalte akzeptiert und alle darin enthaltenen `<img>` durch die Ausgabe der AEM-Kernbildkomponente ersetzt. Auf diese Weise können Sie die Funktionen des Kernbilds (responsive Bilder, Alt-Handhabung, Barrierefreiheit) wiederverwenden und gleichzeitig die volle Kontrolle über das Tabellen-Markup behalten.
+Mit diesem Ansatz können Sie andere benutzerdefinierte Komponenten für Ihre AEM-Site erstellen (mithilfe der Zuordnung zusammengesetzter Komponenten).
 
 ### Gründe für diesen Ansatz
 
@@ -189,9 +207,9 @@ Die Tabelle wird einmal ausgegeben und enthält bereits Kernbild-Markup. Es ist 
 ### Ordnerstruktur und Schlüsseldateien (in diesem Repository)
 
 - Komponenten-HTL und Client-Bibliotheken: `ui.apps/src/main/content/jcr_root/apps/guides-components/components/table/`
-   - `table.html` (HTL-Renderer)
-   - `_cq_editConfig.xml` (Listener aktualisieren)
-   - `clientlibs/` mit `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
+  - `table.html` (HTL-Renderer)
+  - `_cq_editConfig.xml` (Listener aktualisieren)
+  - `clientlibs/` mit `css.txt`, `js.txt`, `css/table.css`, `js/table.js`
 - Sling-Modell: `core/src/main/java/com/adobe/guides/aem/components/core/models/TableModel.java`
 - Bild-Rendering-Service: `core/src/main/java/com/adobe/guides/aem/components/core/services/ImageComponentRenderer.java`
 

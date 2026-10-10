@@ -3,26 +3,35 @@ title: Neue Zuordnungssammlung für die Ausgabegenerierung verwenden
 description: Erfahren Sie, wie Sie eine neue Zuordnungssammlung erstellen und löschen und eine DITA-Zuordnung hinzufügen oder löschen. Konfigurieren, Generieren und Abbrechen einer Ausgabegenerierungsaufgabe aus einer Zuordnungssammlung in AEM Guides.
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
+TQID: 'https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 56c9710820f790ed64e58521dd0d0f9ac343825f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: '1565'
 ht-degree: 0%
-
 ---
-
 # Neue Zuordnungssammlung für die Ausgabegenerierung verwenden
 
 >[!IMPORTANT]
@@ -86,7 +95,7 @@ Um eine Zuordnungssammlung zu erstellen und ihr Zuordnungen hinzuzufügen, führ
 
    ![Alle Voreinstellungen aktivieren](./images/enable-all-presets.png)
 
-1. Wählen Sie **Speichern** aus.
+1. Klicken Sie auf **Speichern**.
 
 Sie erhalten eine Liste aller gewünschten Zuordnungen mit dem Zuordnungstitel, dem entsprechenden Dateinamen, der Sprache, in der sie verfügbar sind, und den konfigurierten Voreinstellungen.
 
@@ -148,7 +157,7 @@ Um die Ausgabe mithilfe einer Zuordnungssammlung zu generieren, führen Sie die 
 
 1. Sie können die Aufgabe zur Ausgabegenerierung auch abbrechen, bis der Status der Aufgabe ausgeführt wird, indem Sie das Symbol **Generierung abbrechen** auswählen.
 
-   ![Erzeugung von &#x200B;](./images/cancel-generation.png)
+   ![Erzeugung von ](./images/cancel-generation.png)
 
 
 1. Darüber hinaus können Sie die generierte Ausgabe für Zuordnungen anzeigen, deren Ausgabegenerierung abgeschlossen wurde, indem Sie auf das Symbol **Ausgabe öffnen** klicken, das angezeigt wird, wenn Sie den Mauszeiger über den Zuordnungsnamen bewegen, oder die Generierungsprotokolle anzeigen, indem Sie das angrenzende Symbol **Protokolle** auswählen.
@@ -203,4 +212,4 @@ Die Metadateneigenschaften werden für die DITA-Zuordnungen, die Sie aus der Zuo
 Die Metadateneigenschaften sind mit den Dateieigenschaften synchronisiert. Nachdem Sie sie aktualisiert haben, können Sie sie über das Bedienfeld **Dateieigenschaften** im Editor anzeigen.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

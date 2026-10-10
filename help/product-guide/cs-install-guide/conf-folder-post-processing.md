@@ -5,23 +5,29 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
-TQID: https://experienceleague.adobe.com/UM-r83s-H3f2ldZSgNSnYrsV5Iu-zzX1ia4wcCOBB8M
+TQID: 'https://experienceleague.adobe.com/UM-r83s-H3f2ldZSgNSnYrsV5Iu-zzX1ia4wcCOBB8M'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: ccd46b93-df7f-4458-ba4c-90a3562d9ab0
+    internal-label: Filename configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '584'
 ht-degree: 0%
-
 ---
-
 # Deaktivieren der Nachbearbeitung für einen Ordner
 
 Standardmäßig werden alle hochgeladenen Assets mit dem Workflow DAM-Update-Asset verarbeitet. Experience Manager Guides führt im Rahmen dieses Workflows eine zusätzliche Verarbeitung, die so genannte Nachbearbeitung, aus. Dies hilft auch beim Generieren der UUIDs
@@ -32,15 +38,15 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 >[!NOTE]
 >
-> Sie können auch reguläre Ausdrücke (Regex) verwenden, um Regeln zu definieren, die für mehrere Ordner oder eine gesamte Ordnerhierarchie gelten. Weitere Informationen finden Sie im Abschnitt [Verwenden von Regex zum Aktivieren oder Deaktivieren der &#x200B;](#use-regex-to-enable-or-disable-post-processing)&quot;.
+> Sie können auch reguläre Ausdrücke (Regex) verwenden, um Regeln zu definieren, die für mehrere Ordner oder eine gesamte Ordnerhierarchie gelten. Weitere Informationen finden Sie im Abschnitt [Verwenden von Regex zum Aktivieren oder Deaktivieren der ](#use-regex-to-enable-or-disable-post-processing)&quot;.
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-<br> (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem `/` am Ende weggelassen werden oder Regex) **Standardwert**: `/content/dam/projects/translation_output` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-<br> (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem am Ende `/` weggelassen werden oder Regex) **Standardwert**: `/content/dam/projects/translation_output` |
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-<br> (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem `/` am Ende weggelassen werden oder Regex) **Standardwert**: `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Zeichenfolgenwert zum Festlegen beliebiger standardmäßiger NODE_OPTIONS-<br> (mehrwertige Eigenschaft, Zeichenfolgen mit einem Pfad, bei dem am Ende `/` weggelassen werden oder Regex) **Standardwert**: `/content/dam` |
 
 ## Regeln zum Aktivieren oder Deaktivieren der Nachbearbeitung
 

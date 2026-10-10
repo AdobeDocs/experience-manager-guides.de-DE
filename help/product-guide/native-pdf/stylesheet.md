@@ -5,23 +5,31 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/jQnIJx-a48aYmetosiiKY1IxDN1LqvNXl3jvYMA-heo
+TQID: 'https://experienceleague.adobe.com/jQnIJx-a48aYmetosiiKY1IxDN1LqvNXl3jvYMA-heo'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3758
+source-wordcount: '3819'
 ht-degree: 1%
-
 ---
-
 # Arbeiten mit allgemeinen Inhaltsstilen {#work-with-common-styles}
 
 Ein Stylesheet enthält die Definitionen von Stilen für die Elemente, die in der PDF-Ausgabe verwendet werden. Sie können mit den Beispiel-Stylesheets arbeiten oder neue erstellen. In den meisten Fällen hilft Ihnen die Erstellung einer Kopie des vorkonfigurierten Beispiel-Stylesheets, schnell loszulegen.
@@ -91,7 +99,7 @@ In diesem Beispiel passen wir die Überschriften von Ebene 1 bis Ebene 3 so an, 
 
 1. Erweitern Sie in der **Stile** die Liste **Überschriftenstile**.
 
-1. Wählen Sie in **Liste den Stil**&#x200B;h1) aus.
+1. Wählen Sie in **Liste den Stil**h1) aus.
 Die Eigenschaften für den Stil h1 werden im Bedienfeld Eigenschaften zusammen mit der Vorschau angezeigt.
 
    >[!NOTE]

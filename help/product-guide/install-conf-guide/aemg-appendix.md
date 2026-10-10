@@ -5,13 +5,32 @@ feature: InDesign File Conversion, Troubleshooting
 role: Admin
 level: Experienced
 exl-id: 6e757850-c563-42c5-aeac-b23c3f2ce679
-source-git-commit: 35fdbf480b4b70b70193772d0eae3a3cedec0077
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: f118db50-bb08-4bfa-a602-3b196f1f8882
+    internal-label: InDesign file conversion
+  - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2866'
 ht-degree: 0%
-
 ---
-
 # Anhang {#id195AD0L60Y4}
 
 ## Fehlerbehebung bei AEM Guides
@@ -34,7 +53,7 @@ Führen Sie die folgenden Schritte aus, um die Verweise mithilfe des im Produktp
 1. Führen Sie das validate-Skript \[`/bin/fmdita/validatebtree?operation=validate`\] aus, um zu überprüfen, ob neue fehlerhafte Verweise vorhanden sind.
 1. Falls das Skript „validate“ Fehler meldet, können Sie es mit dem Patch-Skript patchen.
 1. Notieren Sie sich die unten angegebenen Details und teilen Sie sie bei Bedarf mit Ihrem Customer Success-Team:
-1. &#x200B;
+1. 
    - Durch Validierungsskript ausgedruckte Protokolle
 - Paket von &quot;`/content/fmdita/references`&quot;
 - Alle anderen erforderlichen Details, abhängig vom gemeldeten Szenario
@@ -50,7 +69,7 @@ Führen Sie die folgenden Schritte aus, um fehlerhafte Verweise mithilfe des im 
    > Es wird empfohlen, die Protokolle zu Referenzzwecken zu kopieren und zu speichern.
 
 1. Nachdem das Patch-Skript erfolgreich ausgeführt wurde, können Sie die folgenden Prüfungen durchführen:
-1. &#x200B;
+1. 
    - Überprüfen Sie, ob der neue Knoten &quot;`references_backup_<timestamp>"`&quot; unter `/content/fmdita` erstellt wurde.
 - Überprüfen, ob die Verweise korrigiert wurden
 
@@ -344,7 +363,7 @@ Das folgende Beispiel zeigt, wie ein `title` in ein `table` verschoben wird:
 
 Die `paragraphStyleRule` Elemente werden nachfolgend beschrieben:
 
-**&#x200B; `paraRule` Element**
+** `paraRule` Element**
 
 Das `paraRule` ist obligatorisch. Dies legt die Zuordnungsregeln für alle Absatzformate fest. In einem InDesign-Dokument ist der gesamte Text in der Unterstruktur von Absatzformaten enthalten, auch Absätze ohne Stil werden `\[No paragraph style\]` genannt. Die eckigen Klammern geben einen integrierten Namen im InDesign-Stil an.
 
@@ -359,8 +378,8 @@ Im Folgenden werden die in der `paraRule` verwendeten Attribute erläutert:
 - `@mapTo`: Der Name eines DITA-Zielelements.
 
 - `@context`: Dieses Attribut wird verwendet, um eine Verknüpfung zu einer bestimmten **Wrap**-Regel herzustellen, wenn mehr als eine Wrapper-Auswahl verfügbar ist. Beispiel: Das `li` Element kann entweder in ein `ol` oder in ein `ul` Element eingeschlossen sein. Um die verschiedenen Listentypen zu identifizieren, können Sie einen bestimmten Stilnamen oder das `@local`-Attribut verwenden, das Folgendes anzeigen kann:
-   - `local="p[-|-|-|-|-|b|-|-]"` Wobei &quot;`b`&quot; in Feld 6 ein Aufzählungslistenelement anzeigt. Legen Sie in diesem Fall `@context` auf &quot;`bullet`&quot; fest.
-   - `local="p[-|-|-|-|-|n|-|-]"` Wobei &quot;`n`&quot; in Feld 6 ein nummeriertes Listenelement angibt. Legen Sie in diesem Fall `@context` auf &quot;`number`&quot; fest.
+  - `local="p[-|-|-|-|-|b|-|-]"` Wobei &quot;`b`&quot; in Feld 6 ein Aufzählungslistenelement anzeigt. Legen Sie in diesem Fall `@context` auf &quot;`bullet`&quot; fest.
+  - `local="p[-|-|-|-|-|n|-|-]"` Wobei &quot;`n`&quot; in Feld 6 ein nummeriertes Listenelement angibt. Legen Sie in diesem Fall `@context` auf &quot;`number`&quot; fest.
 
 - `@commentOut`: Dieses Attribut ermöglicht das Umschließen des Zielelements in XML-Kommentaren, sodass die Informationen nicht verloren gehen, sondern vom Benutzer manuell verarbeitet werden können. Dies ist nützlich, wenn der Quellinhalt nicht gezwungen werden kann, den DITA-Strukturregeln zu entsprechen.
 
@@ -391,9 +410,9 @@ Im Folgenden werden die in der `charRule` verwendeten Attribute erläutert:
 - `@local`: Siehe [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: Der Name eines DITA-Zielelements.
 - `@refactor`: Für dieses optionale Attribut stehen zwei Werte zur Auswahl:
-   - `unwrap`: Das übereinstimmende Element wird entfernt, während sein Inhalt beibehalten wird.
+  - `unwrap`: Das übereinstimmende Element wird entfernt, während sein Inhalt beibehalten wird.
 
-   - `drop`: Das übereinstimmende Element und sein gesamter Inhalt werden entfernt.
+  - `drop`: Das übereinstimmende Element und sein gesamter Inhalt werden entfernt.
 
 
 **Attributregeln**
@@ -423,11 +442,11 @@ Im Folgenden werden die in der `attributeRules` verwendeten Attribute erläutert
 > Dieses Element kann mehrere untergeordnete Elemente enthalten.
 
 - `addNew`: Fügt dem übereinstimmenden Element ein neues Attribut hinzu. Verfügbar für alle Kontexte. Sie weist zwei Attribute auf:
-   - `@name`: Muss ein gültiger XML-Name sein, vorzugsweise gültig für den DITA-Kontext.
-   - `@value`: Kann ein literaler Text oder ein einfacher XPath-Ausdruck sein.
+  - `@name`: Muss ein gültiger XML-Name sein, vorzugsweise gültig für den DITA-Kontext.
+  - `@value`: Kann ein literaler Text oder ein einfacher XPath-Ausdruck sein.
 - `copyAtt`: Kopiert ein einzelnes Attribut in das Ziel, wobei es optional im Prozess umbenannt wird. Der Wert wird nicht geändert. Verfügbar für Kontexte `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` und `elementRule`. Wenn dieses Element vorhanden ist, wird davon ausgegangen, dass der `@copyAllAtts` Wert `false` ist. Sie weist zwei Attribute auf:
-   - `@name`: Muss der Name eines Attributs sein, das im XML-Quellelement vorhanden ist.
-   - `@mapTo`: Muss ein gültiger XML-Name sein, vorzugsweise gültig für den DITA-Kontext.
+  - `@name`: Muss der Name eines Attributs sein, das im XML-Quellelement vorhanden ist.
+  - `@mapTo`: Muss ein gültiger XML-Name sein, vorzugsweise gültig für den DITA-Kontext.
 
 **Lokale Formatierungscodes**
 
@@ -481,9 +500,9 @@ Im Folgenden werden die in der `elementRule` verwendeten Attribute erläutert:
 
 - `@refactor`: Für dieses optionale Attribut stehen zwei Werte zur Auswahl:
 
-   - `unwrap`: Das übereinstimmende Element wird entfernt, während sein Inhalt beibehalten wird.
+  - `unwrap`: Das übereinstimmende Element wird entfernt, während sein Inhalt beibehalten wird.
 
-   - `drop`: Das übereinstimmende Element und sein gesamter Inhalt werden entfernt.
+  - `drop`: Das übereinstimmende Element und sein gesamter Inhalt werden entfernt.
 
 - `@context`: Dieses Attribut wird verwendet, um eine Verknüpfung zu einer bestimmten Wrapper-Regel herzustellen, wenn mehr als eine Wrapper-Auswahl verfügbar ist. Beispiel: Das `li` Element kann entweder in ein `ol` oder in ein `ul` Element eingeschlossen sein.
 

@@ -4,28 +4,37 @@ description: Konfigurieren der AEM-Umgebung für die native Veröffentlichung vo
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-TQID: https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ
+TQID: 'https://experienceleague.adobe.com/SLuPn9YigAcHvcSEdrbbQOz29Y6DeWGYnWktWY9L9nQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: c4e6b17e-c50c-59a1-a719-9c33ce69e5b6
+    internal-label: Native PDF Output
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: '928'
 ht-degree: 1%
-
 ---
-
 # Konfigurieren der AEM-Umgebung für die native Veröffentlichung von PDF
 
 AEM Guides enthält eine native PDF-Publishing-Engine, mit der Benutzende Inhalte im PDF-Format entwerfen, entwickeln und veröffentlichen können.
@@ -126,7 +135,7 @@ Die native PDF-Publishing-Engine benötigt Oracle JDK, um die Knotenmodule im CR
 Befehl: yum install fontconfig
 12. Generieren von nativem PDF aus Vorgaben im Editor
 
-**HINWEIS** : Das Paket node_modules.zip kann ([) &#x200B;](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) werden.
+**HINWEIS** : Das Paket node_modules.zip kann ([) ](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) werden.
 
 Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssystem ist eine Problemumgehung für Benutzende, die Guides 4.1 oder frühere Versionen verwenden (Schritte 6-12)
 
@@ -158,8 +167,8 @@ Der manuelle Import der heruntergeladenen Knotenmodule für das Linux-Betriebssy
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
    i) Suchen . -type d -exec chmod 0755 {} \;
-ii) Suchen . -type f -exec chmod 0755 {} \;
-iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-predicate-node-path
+   ii) Suchen . -type f -exec chmod 0755 {} \;
+   iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-predicate-node-path
 
 8. Überprüfen Sie mit dem folgenden Befehl, ob Java installiert ist
 
@@ -200,4 +209,4 @@ Wenn das Problem auch nach der Korrektur der Java-Umgebungseinstellungen weiterh
 
 
 
-Wenn Sie bei einem der oben genannten Schritte auf Probleme stoßen, stellen Sie Ihre Frage zur Unterstützung im AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=de).
+Wenn Sie bei einem der oben genannten Schritte auf Probleme stoßen, stellen Sie Ihre Frage zur Unterstützung im AEM Guides Community [Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation).

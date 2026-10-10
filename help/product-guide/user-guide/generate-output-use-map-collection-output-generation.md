@@ -4,26 +4,35 @@ description: Erfahren Sie, wie Sie eine Zuordnungssammlung erstellen und lösche
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE
+TQID: 'https://experienceleague.adobe.com/4ZtP8sNNhuZwJ-bTKThXiRZwVXvJ2PvfKyyo91HO1bE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1234
+source-wordcount: '1251'
 ht-degree: 1%
-
 ---
-
 # Verwenden der Zuordnungssammlung für die Ausgabegenerierung {#id1723F20G0HS}
 
 In jeder Organisation kann ein Produkt über mehrere Dokumentationstypen verfügen. Als Publishing-Spezialist möchten Sie steuern, welche Ausgabe Sie für welches Dokument generieren möchten. Außerdem sollte es eine Möglichkeit geben, mehrere Dokumente in einem Batch zu veröffentlichen.
@@ -36,7 +45,7 @@ Mit Zuordnungssammlung können Sie anzeigen, ob sich eine Zuordnung seit der let
 
 Um eine Zuordnungssammlung zu erstellen und der Sammlung DITA-Zuordnungen hinzuzufügen, führen Sie die folgenden Schritte aus:
 
-1. Öffnen Sie die Startseite von [Experience Manager Guides &#x200B;](./intro-home-page.md#map-collections) wählen Sie **Sammlungen zuordnen** aus.
+1. Öffnen Sie die Startseite von [Experience Manager Guides ](./intro-home-page.md#map-collections) wählen Sie **Sammlungen zuordnen** aus.
 
    Die **Sammlungen zuordnen** wird auf einer neuen Registerkarte geöffnet.
 
@@ -74,17 +83,17 @@ Um eine Zuordnungssammlung zu erstellen und der Sammlung DITA-Zuordnungen hinzuz
 Die folgenden Filteroptionen und Zuordnungsdetails werden auf der Sammlungsseite angezeigt:
 
 - **Filter:** In der linken Leiste werden die folgenden Filter angezeigt:
-   - **Geändert**: Sie können „Ja“ oder „Nein“ auswählen. Wenn Sie Ja auswählen, werden nur die geänderten DITA-Zuordnungen in der Tabelle Zuordnungen und Vorgaben angezeigt.
-   - **Voreinstellung**: Wählen Sie eine Voreinstellung aus, für die Sie die Zuordnungsdateien herausfiltern möchten. Wenn Sie beispielsweise die Vorgabe *AEM-Site* auswählen, werden nur die Zuordnungen angezeigt, für die die Ausgabevorgabe *AEM-Site* konfiguriert ist.
-   - **Sprache**: Sie können einen beliebigen der verfügbaren Sprach-Codes auswählen und nur die ausgewählte Sprache in der Tabelle Zuordnungen und Vorgaben anzeigen.
+  - **Geändert**: Sie können „Ja“ oder „Nein“ auswählen. Wenn Sie Ja auswählen, werden nur die geänderten DITA-Zuordnungen in der Tabelle Zuordnungen und Vorgaben angezeigt.
+  - **Voreinstellung**: Wählen Sie eine Voreinstellung aus, für die Sie die Zuordnungsdateien herausfiltern möchten. Wenn Sie beispielsweise die Vorgabe *AEM-Site* auswählen, werden nur die Zuordnungen angezeigt, für die die Ausgabevorgabe *AEM-Site* konfiguriert ist.
+  - **Sprache**: Sie können einen beliebigen der verfügbaren Sprach-Codes auswählen und nur die ausgewählte Sprache in der Tabelle Zuordnungen und Vorgaben anzeigen.
 - **Maps- und Voreinstellungs**-Tabelle: Die Tabelle Maps und Voreinstellungen enthält Informationen in den folgenden Spalten:
-   - **Map**: Zeigt den Titel der DITA-Zuordnungsdatei an.
-   - **Dateiname**: Zeigt den Dateinamen der DITA-Zuordnung an.
-   - **Language**: Zeigt die Sprache der DITA-Karte an.
-   - **Voreinstellung**: Zeigt den für die Zuordnungsdatei konfigurierten Vorgabetyp der Ausgabe an.
-   - **Baseline**: Zeigt die Baseline an, die von der Ausgabevorgabe verwendet wird.  Wenn keine Grundlinie verwendet wird, wird ein Bindestrich &quot;-&quot; angezeigt.
-   - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wird. Basierend auf diesen Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung erneut veröffentlichen möchten oder nicht.
-   - **Zuletzt generiert**: Zeigt Datum und Uhrzeit der letzten generierten Ausgabe an.
+  - **Map**: Zeigt den Titel der DITA-Zuordnungsdatei an.
+  - **Dateiname**: Zeigt den Dateinamen der DITA-Zuordnung an.
+  - **Language**: Zeigt die Sprache der DITA-Karte an.
+  - **Voreinstellung**: Zeigt den für die Zuordnungsdatei konfigurierten Vorgabetyp der Ausgabe an.
+  - **Baseline**: Zeigt die Baseline an, die von der Ausgabevorgabe verwendet wird.  Wenn keine Grundlinie verwendet wird, wird ein Bindestrich &quot;-&quot; angezeigt.
+  - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wird. Basierend auf diesen Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung erneut veröffentlichen möchten oder nicht.
+  - **Zuletzt generiert**: Zeigt Datum und Uhrzeit der letzten generierten Ausgabe an.
 
 ## Konfigurieren und Generieren der Ausgabe mithilfe einer Zuordnungssammlung
 
@@ -162,4 +171,4 @@ Dadurch werden auch alle Vorgaben oder Gebietsschemata entfernt, die mit der DIT
 
 ![](images/cancel-publish-task-map-collection.png)
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

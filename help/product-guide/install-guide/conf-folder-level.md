@@ -5,36 +5,54 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/YhhyPK2yQ7uarXyRP1OVfYtbAjYtcA0j6rb2YQ-CTKc
+TQID: 'https://experienceleague.adobe.com/YhhyPK2yQ7uarXyRP1OVfYtbAjYtcA0j6rb2YQ-CTKc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
   - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: e13e7f13-0f4c-43f9-b0a7-1f33bd47e105
+    internal-label: Troubleshooting
   - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
   - id: f7774ebe-aec9-42b6-97e4-5002acdc712e
+    internal-label: Review
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Administration
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3974
+source-wordcount: '3974'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren von globalen Profilen oder Profilen auf Ordnerebene {#id181AH2003PF}
 
 In einem Unternehmen können verschiedene Gruppen oder Produkte unterschiedliche Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Web-Editor-Konfigurationen verwenden. Wenn Sie diese nur auf Enterprise-\(oder globaler\) Ebene konfigurieren, kann dies Autorinnen und Autoren Schwierigkeiten bereiten, da sie Vorlagen oder Profile sehen, die für sie nicht relevant sind.
@@ -53,21 +71,21 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
 - **Autorenvorlage**: Verwenden Sie diese Registerkarte, um die Vorlagen zu konfigurieren, die Ihre Autoren zum Erstellen von DITA-Inhalten verwenden werden. Die folgenden Themenvorlagen sind standardmäßig verfügbar:
 
-   - Glossar
+  - Glossar
 
-   - Referenz
+  - Referenz
 
-   - Thema
+  - Thema
 
-   - Konzept
+  - Konzept
 
-   - Aufgabe
+  - Aufgabe
 
-   - Fehlerbehebung
+  - Fehlerbehebung
 
-   - Leer
+  - Leer
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -75,31 +93,31 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
   Neben Themenvorlagen können Sie auch die Zuordnungsvorlagen definieren, die Autoren zur Verfügung gestellt werden. Die folgenden Zuordnungsvorlagen sind standardmäßig verfügbar:
 
-   - Map
+  - Map
 
-   - Bookmap
+  - Bookmap
 
 - **Ausgabevorgabe**: Ähnlich wie bei Authoring-Vorlagen gibt es fünf vorkonfigurierte Ausgabevorgaben:
 
-   - AEM Site
+  - AEM Site
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - Benutzerdefiniert
+  - Benutzerdefiniert
 
-  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden &#x200B;](#id18AGD0K0OHS) Vorgabenänderungen“.
+  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden ](#id18AGD0K0OHS) Vorgabenänderungen“.
 
 - **XML-Editor-**: Auf dieser Registerkarte können Sie das Erscheinungsbild und verschiedene Funktionen des Web-Editors anpassen. Die folgenden konfigurierbaren Einstellungen sind für den Web-Editor verfügbar:
 
-   - Konfiguration der Benutzeroberfläche des XML-Editors
-   - CSS-Vorlagenlayout
-   - XML-Editor-Snippets
-   - Titel der XML-Inhaltsversion
-   - Rootmap \(nur auf Ordnerebene\)
+  - Konfiguration der Benutzeroberfläche des XML-Editors
+  - CSS-Vorlagenlayout
+  - XML-Editor-Snippets
+  - Titel der XML-Inhaltsversion
+  - Rootmap \(nur auf Ordnerebene\)
 
 Sie können sowohl ein globales Profil als auch ein Profil auf Ordnerebene konfigurieren. In einem Profil auf Ordnerebene können Sie die Ordner definieren, für die die Einstellungen gelten sollen. Zu diesen Einstellungen gehören die bedingten Attribute, Authoring-Vorlagen, Ausgabevorgaben und Einstellungen des XML-Editors. Die bedingten Vorgaben, Autorenvorlagen und XML-Editor-Konfigurationen werden dann den Autoren zur Verfügung gestellt, die in den konfigurierten Ordnern arbeiten. Ebenso haben Herausgeber Zugriff auf die konfigurierten Ausgabevorgaben, die in den konfigurierten Ordnern definiert sind.
 
@@ -129,7 +147,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Informationen zum Konfigurieren **Ausgabevorgaben** finden Sie unter [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [&#x200B; unter „Konfigurieren und Anpassen des XML-Web-Editors](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [ unter „Konfigurieren und Anpassen des XML-Web-Editors](#id2065G300O5Z).
 
 1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie **Globales Profil**.
 

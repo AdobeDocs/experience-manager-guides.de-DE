@@ -2,7 +2,15 @@
 title: Konfigurieren des KI-Assistenten für die intelligente Hilfe und das Authoring
 description: Erfahren Sie, wie Sie den KI-Assistenten in Experience Manager Guides konfigurieren
 exl-id: 59da626d-8433-44c6-ba69-654c7796a264
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 1%
@@ -31,7 +39,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
 
 1. [Adobe Developer Console starten](https://developer.adobe.com/console).
 1. Nach erfolgreicher Anmeldung bei Developer Console wird der Bildschirm &quot;**&quot;**. Auf dem **Startseite**-Bildschirm finden Sie mühelos Informationen und Schnelllinks, einschließlich der oberen Navigationslinks zu Projekten und Downloads.
-1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**&#x200B;Links aus.
+1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**Links aus.
    ![Schnellstart-Links](assets/conf-ss-quick-start.png) {width="550"}
    *Neues Projekt erstellen.*
 
@@ -123,7 +131,7 @@ Weitere Informationen finden Sie unter [Die Editor-Funktionen kennen](../user-gu
 
 Konfigurieren Sie nach der Aktivierung der Funktion „KI-Assistent“ die Funktion „Intelligente Vorschläge“ im Ordnerprofil.
 
-Weitere Informationen finden Sie unter [Konfigurieren von Smart-Vorschlägen im &#x200B;](./conf-profiles.md#configure-ai-assistant-for-smart-help-and-authoring)&quot;.
+Weitere Informationen finden Sie unter [Konfigurieren von Smart-Vorschlägen im ](./conf-profiles.md#configure-ai-assistant-for-smart-help-and-authoring)&quot;.
 
 
 ## Anhang {#appendix}
@@ -164,4 +172,4 @@ Weitere Informationen finden Sie unter [Konfigurieren von Smart-Vorschlägen im 
 | chat.url | Endpunkt für den KI-Assistenten-Service | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | Typ der AEM-Instanz. Stellen Sie sicher, dass dies für jede AEM-Instanz, für die die Smart-Vorschläge konfiguriert sind, eindeutig ist. Ein Anwendungsfall bestünde darin, die Funktion in der Staging-Umgebung mit „instance.type“ = „stage“ zu testen, während die Funktion gleichzeitig auch in „prod“ konfiguriert ist. | Jeder eindeutige Schlüssel, der die Umgebung identifiziert. Nur *alphanumerische* Werte sind zulässig. „dev“/„stage“/„prod“/„test1“/„stage2“ | „prod“ |
 
-Nach der Konfiguration wird das Symbol für den KI-Assistenten auf der Startseite und im Editor der Experience Manager Guides angezeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt &#x200B;](../user-guide/ai-assistant.md)KI-Assistent“ im Experience Manager-Benutzerhandbuch.
+Nach der Konfiguration wird das Symbol für den KI-Assistenten auf der Startseite und im Editor der Experience Manager Guides angezeigt. Weitere Informationen finden Sie [ Abschnitt ](../user-guide/ai-assistant.md)KI-Assistent“ im Experience Manager-Benutzerhandbuch.

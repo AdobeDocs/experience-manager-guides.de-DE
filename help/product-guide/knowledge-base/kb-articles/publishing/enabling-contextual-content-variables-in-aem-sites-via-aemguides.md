@@ -4,23 +4,32 @@ description: Arbeiten mit kontextuellen Inhaltsvariablen (CCVAR) in AEM Sites-Se
 feature: Web Editor
 role: User, Admin
 exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
-TQID: https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE
+TQID: 'https://experienceleague.adobe.com/ehW4uJQaj3XqejwquxVwFo4vFx6q7qCsVIm6MowolZE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+subfeature_v2:
+  - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 3%
-
 ---
-
 # Aktivieren von kontextuellen Inhaltsvariablen (CCVAR) in von AEM Guides generierten AEM Sites-Seiten
 
 Kontextuelle Inhaltsvariablen (CCVAR) sind eine Funktion von ACS Commons, mit der Autoren dynamische Inhaltsvariablen direkt in ihrem erstellten Text verwenden können. Während CCVAR häufig in AEM Sites verwendet wird, wird in diesem Artikel erläutert, wie Sie ähnliche Funktionen über Seiten erreichen können, die aus in **AEM Guides** erstellten Inhalten generiert wurden (*primär mithilfe von in der DITA-Zuordnung definierten Schlüsselwörtern*.
@@ -45,9 +54,9 @@ Bevor Sie fortfahren, stellen Sie sicher, dass die folgenden Voraussetzungen erf
 
 2. **Konfiguration von kontextuellen Inhaltsvariablen**:
    - Schließen Sie die Einrichtung für **Kontextuelle Inhaltsvariablen** in AEM mithilfe der [offiziellen Dokumentation](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html) ab. Hierzu gehört Folgendes:
-      - Aktivieren **Eigenschaftenaggregation**.
-      - Konfigurieren von **HTML Rewriting** (bei Verwendung der HTML-Ausgabe).
-      - Konfigurieren von **JSON-Rewriting** (bei Verwendung der JSON-Ausgabe).
+     - Aktivieren **Eigenschaftenaggregation**.
+     - Konfigurieren von **HTML Rewriting** (bei Verwendung der HTML-Ausgabe).
+     - Konfigurieren von **JSON-Rewriting** (bei Verwendung der JSON-Ausgabe).
 
 
 
@@ -88,7 +97,7 @@ Bevor Sie fortfahren, stellen Sie sicher, dass die folgenden Voraussetzungen erf
 
 - Wenn Sie eine Ausgabe für AEM Sites generieren, werden die Schlüsselwortverweise in die entsprechenden dynamischen Werte aufgelöst.
 - Beispiel:
-   - Wenn `((page_properties.pageTitle))` zu `My Product` aufgelöst wird, wird die Ausgabe angezeigt:
+  - Wenn `((page_properties.pageTitle))` zu `My Product` aufgelöst wird, wird die Ausgabe angezeigt:
 
 ```xml
    This is the title of the product: My Product.

@@ -5,23 +5,30 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
-TQID: https://experienceleague.adobe.com/ADaV0D2fpnxIo3tKN9zw-oUKyN6wWgALOMmgt3yJfgw
+TQID: 'https://experienceleague.adobe.com/ADaV0D2fpnxIo3tKN9zw-oUKyN6wWgALOMmgt3yJfgw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: c38bc65b-dea9-4a6e-9de3-3daf1d2b388b
+    internal-label: Bulk activation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '735'
 ht-degree: 0%
-
 ---
-
 # Erstellen einer Massenaktivierungs-Zuordnungssammlung {#id214GG0E90EV}
 
 Um eine Massen-Aktivierungszuordnungssammlung zu erstellen, führen Sie die folgenden Schritte aus:
@@ -56,7 +63,7 @@ Um eine Massen-Aktivierungszuordnungssammlung zu erstellen, führen Sie die folg
 
 Die DITA-Zuordnungsdateien werden Ihrer Massen-Aktivierungszuordnungssammlung hinzugefügt.
 
-![&#x200B; erstellte Massenaktivierungs-Sammlung](images/bulk-activation-collection-created.png){width="800"}
+![ erstellte Massenaktivierungs-Sammlung](images/bulk-activation-collection-created.png){width="800"}
 
 ## Registerkarte „Zuordnungen und Vorgaben“
 
@@ -95,7 +102,7 @@ Die **Audit-Verlauf** enthält Informationen zu den aktivierten Zuordnungsausgab
 
 - **Geändert**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wurde. Basierend auf diesen Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung aktivieren möchten.
 - **Veröffentlicht**: Zeigt Datum und Uhrzeit der letzten veröffentlichten (oder aktivierten) Ausgabe an. Wenn Sie auf den Link klicken, wird die Seite Aktivierungsergebnisse angezeigt, die die Protokolle mit Informationen zum Stammpfad enthält, in dem der Inhalt aktiviert wird.
-  ![&#x200B; hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](images/bulk-collection-audit-history.png){width="800"}
+  ![ hat die Registerkarte „Audit-Verlauf der Massenaktivierungssammlung“ erstellt](images/bulk-collection-audit-history.png){width="800"}
 
   *Informationen zu den aktivierten Zuordnungsausgaben finden Sie auf der Registerkarte **Prüfverlauf**.*
 
@@ -116,4 +123,4 @@ Die folgenden Filteroptionen sind im linken Bedienfeld verfügbar:
 
 Die Filter werden aktualisiert, wenn Sie von der Registerkarte **Zuordnungen und Vorgaben** zur Registerkarte **Prüfverlauf** und umgekehrt wechseln.
 
-**Übergeordnetes Thema: &#x200B;** [Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)
+**Übergeordnetes Thema: **[Massenaktivierung veröffentlichter Inhalte](conf-bulk-activation.md)

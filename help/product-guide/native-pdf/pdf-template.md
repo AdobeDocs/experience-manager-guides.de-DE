@@ -5,26 +5,39 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM
+TQID: 'https://experienceleague.adobe.com/omjPXvRH20uR9prVDmOiw-yowtcyX3S9YUqFJWDCLqM'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1099
+source-wordcount: '1170'
 ht-degree: 0%
-
 ---
-
 # PDF-Vorlage {#PDF-template}
 
 Die Verwendung einer Vorlage gewährleistet Konsistenz im Inhaltslayout und in der Inhaltsstruktur. Da Vorlagen vordefiniert sind, können Sie Überarbeitungen bei Formatierungsproblemen vermeiden, die bei jedem neuen Projekt oder jeder Aktualisierung auftreten. Mit Vorlagen können Sie Seiten-Layouts entwerfen, Inhalte gestalten und verschiedene Einstellungen anwenden, um Ihre PDF anzupassen.
@@ -94,7 +107,7 @@ Sie können über das Menü **Optionen“ auch die folgenden Vorgänge** Vorlage
 ### Löschen
 
 Wählen Sie die Option Löschen , um die ausgewählte Vorlage zu löschen. Wählen Sie dann bei der Bestätigungsaufforderung Ja .
-Die Vorgabe wird aus „Vorlagen&#x200B;**entfernt**.
+Die Vorgabe wird aus „Vorlagen**entfernt**.
 
 ### Eigenschaften{#properties-option}
 
@@ -106,7 +119,7 @@ Wählen Sie diese Option aus, um die Vorlage in der Assets-Benutzeroberfläche a
 
 Nachdem Sie die benutzerdefinierte Vorlage erstellt haben, können Sie sie aus den Seitenlayouts in der PDF-Ausgabevorgabe auswählen.
 
-Erfahren Sie, wie [eine PDF-Ausgabe veröffentlichen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=de).
+Erfahren Sie, wie [eine PDF-Ausgabe veröffentlichen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -116,7 +129,7 @@ Abhängig von Ihrem Setup kann Ihr Administrator die Vorlagen konfigurieren:
 
 +++ Cloud Services
 
-Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnerebene finden Sie [&#x200B; Abschnitt &quot;](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) konfigurieren“ im Installations- und Konfigurationshandbuch für Cloud Services.
+Weitere Informationen zum Einrichten globaler Profile und Profile auf Ordnerebene finden Sie [ Abschnitt &quot;](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) konfigurieren“ im Installations- und Konfigurationshandbuch für Cloud Services.
 
 +++
 
@@ -160,14 +173,14 @@ Um eine PDF-Vorlage anzupassen, führen Sie die folgenden Schritte aus:
 
    * Stylesheets: Mit den Einstellungen im Abschnitt Stylesheets können Sie das Erscheinungsbild der Seiten-Layout-Komponenten anpassen, z. B. Inhaltsverzeichnis, Index, Glossar, Zitate und mehr. Darüber hinaus können Sie auch die Stile für die DITA-Inhalte wie Überschriften, Absätze, Listen und mehr anpassen. Weitere Informationen zur Verwendung der Stylesheets finden Sie unter [Verwenden von Stylesheets zum Anpassen von PDF](components-pdf-template.md#stylesheet-customization).
    * Ressourcen: Speichern Sie Asset-Dateien, die Sie anpassen oder in PDF-Vorlagen entwerfen müssen. Assets wie Logos, benutzerdefinierte Schriftarten, Hintergrundbilder und mehr werden in den Ressourcen gespeichert.
-Sie können auch Ressourcen verwenden, die sich an einem anderen Speicherort im Repository befinden. Sie müssen nicht für jede Vorlage doppelte Ressourcen erstellen. Sie können diese in einem freigegebenen Ordner speichern und in allen nativen PDF-Vorlagen verwenden.
+     Sie können auch Ressourcen verwenden, die sich an einem anderen Speicherort im Repository befinden. Sie müssen nicht für jede Vorlage doppelte Ressourcen erstellen. Sie können diese in einem freigegebenen Ordner speichern und in allen nativen PDF-Vorlagen verwenden.
 
      Weitere Informationen zur Verwendung von Ressourcen finden Sie unter [Arbeiten mit Ressourcen](components-pdf-template.md#work-with-resources).
 
    * Einstellungen : Konfigurieren der Ausgabeeinstellungen zum Generieren einer PDF mithilfe der Vorlage. In diesem Abschnitt können Sie die Vorlagenzuordnung für verschiedene Seiten in einer PDF, für Kapitelstartseiten, Druckmarken, Zitate und mehr definieren.
 
    Sie können auch die Reihenfolge festlegen, in der sie in der endgültigen PDF-Ausgabe angezeigt werden sollen.
-Weitere Informationen zum Anwenden von Einstellungen finden Sie unter [Erweiterte PDF-Einstellungen](components-pdf-template.md#advanced-pdf-settings).
+   Weitere Informationen zum Anwenden von Einstellungen finden Sie unter [Erweiterte PDF-Einstellungen](components-pdf-template.md#advanced-pdf-settings).
 
 
 1. Um eine Vorlagenkomponente anzupassen, doppelklicken Sie auf eine Vorlagenkomponente oder wählen Sie zuvor das Symbol > aus.

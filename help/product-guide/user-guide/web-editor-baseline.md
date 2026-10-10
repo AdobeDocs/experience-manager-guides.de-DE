@@ -4,7 +4,7 @@ description: Erstellen und verwalten Sie Baselines über die Zuordnungskonsole i
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-TQID: https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g
+TQID: 'https://experienceleague.adobe.com/SSfVuVDBo6RbMZM15CoDlR2zltDGj78D6SYCyyJta2g'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,10 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -26,10 +30,12 @@ subfeature_v2:
     internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
     internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d63f33b8644b9adad67fd6badf4760aacbff063
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1929'
 ht-degree: 0%
@@ -49,7 +55,7 @@ Ebenso ist die Auswahl einer Baseline zur Übersetzung von Inhalten optional. We
 
 >[!TIP]
 >
->Es wird empfohlen, diese Grundlinien-Funktion über die Zuordnungskonsole zu verwenden. Sie können jedoch auch &quot;[&#x200B; Dashboard verwenden, um Baselines zu erstellen und zu verwalten](./generate-output-use-baseline-for-publishing.md).
+>Es wird empfohlen, diese Grundlinien-Funktion über die Zuordnungskonsole zu verwenden. Sie können jedoch auch &quot;[ Dashboard verwenden, um Baselines zu erstellen und zu verwalten](./generate-output-use-baseline-for-publishing.md).
 
 Auf der Registerkarte **Baseline** können Sie die folgenden Aktionen ausführen:
 
@@ -159,7 +165,7 @@ Sie können eine Baseline duplizieren und entsprechend Ihren Anforderungen ände
    In **Version basierend auswählen** können Sie entweder die Option **Exakte Kopie** oder die Option **Beschriftung** auswählen:
 
    - **Exakte Kopie**: Experience Manager Guides wählt dieselbe Version aller Themen aus und erstellt eine exakte Kopie der duplizierten Baseline.
-   - **Beschriftung**: In der Dropdown-Liste können Sie eine der [&#x200B; Beschriftungen &#x200B;](#labels-list). Experience Manager Guides wählt die Versionen der Themen aus, für die die ausgewählte Beschriftung definiert ist, während für die übrigen Themen die Version aus der duplizierten Baseline ausgewählt wird. Sie wählen beispielsweise den Titel `Release 1.0` aus der Dropdown-Liste aus und wählen dann die Versionen der Themen aus, für die Sie diesen Titel definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Baseline ausgewählt.
+   - **Beschriftung**: In der Dropdown-Liste können Sie eine der [ Beschriftungen ](#labels-list). Experience Manager Guides wählt die Versionen der Themen aus, für die die ausgewählte Beschriftung definiert ist, während für die übrigen Themen die Version aus der duplizierten Baseline ausgewählt wird. Sie wählen beispielsweise den Titel `Release 1.0` aus der Dropdown-Liste aus und wählen dann die Versionen der Themen aus, für die Sie diesen Titel definiert haben. Bei allen anderen Themen wird die Version aus der duplizierten Baseline ausgewählt.
 
 1. Wählen Sie **Duplizieren** aus.
 
@@ -199,5 +205,5 @@ Mithilfe des Symbols Filter im Bedienfeld **Baseline-Filter** können Sie Filter
 
 Nachdem Sie die Baseline bearbeitet haben, klicken Sie auf **Speichern**, um die Änderungen an der Baseline zu speichern. Sie können auf **Zurücksetzen** klicken, wenn Sie die Änderung nicht speichern und die Grundlinie zurücksetzen möchten. Bei Auswahl von **Zurücksetzen** wird eine Warnung angezeigt, dass Ihre nicht gespeicherten Änderungen verloren gehen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
 

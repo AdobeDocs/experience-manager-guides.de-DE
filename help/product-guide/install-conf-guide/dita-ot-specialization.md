@@ -5,13 +5,28 @@ feature: DITA-OT Configuration
 role: Admin
 level: Experienced
 exl-id: 4a5ba148-da31-4751-943d-624165c66429
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: a9152842-7b20-4563-9267-e1dc8991bd13
+    internal-label: DITA OT configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3728'
 ht-degree: 0%
-
 ---
-
 # Verwenden benutzerdefinierter DITA-OT und DITA-Spezialisierung {#id181GAJ0005Z}
 
 Das DITA Open Toolkit \(DITA-OT\) ist ein Satz von Java-basierten Open-Source-Tools zur Verarbeitung von DITA-Zuordnungen und Themeninhalten. AEM Guides ermöglicht den einfachen Import und die Verwendung benutzerdefinierter DITA-OT-Plug-ins. Nach dem Import kann AEM Guides so konfiguriert werden, dass das benutzerdefinierte DITA-OT-Plug-in verwendet wird, um Ausgaben in jedem Format zu generieren. Wählen Sie zum Zeitpunkt der Generierung der Ausgabe einfach die Option DITA-OT aus und AEM Guides verwendet das benutzerdefinierte DITA-OT-Plug-in, um die gewünschte Ausgabe zu generieren.
@@ -74,7 +89,7 @@ Führen Sie die folgenden Schritte aus, um das benutzerdefinierte DITA-OT-Plug-i
    | **Profileigenschaften** | |
    | Profilname | Geben Sie einen eindeutigen Namen für dieses Profil an. |
    | Ausgabe wiederverwenden | *\(Optional\)* Wenn Ihr Profil auf einem vorhandenen Profil basiert, wählen Sie diese Option. Durch Auswahl dieser Option wird sichergestellt, dass AEM Guides den Inhalt des DITA-OT-Pakets nicht erneut extrahiert und das vorhandene DITA-OT-Paket wiederverwendet. |
-   | Pfad der Profilextraktion | *\(Optional\)* Geben Sie den Pfad an, unter dem DITA-OT auf der Festplatte gespeichert wird. Standardmäßig bündelt AEM Guides ein DITA-OT-Paket in seinem Repository und wird unter diesem Pfad auf der Festplatte extrahiert. <br> **HINWEIS** Sie können diesen Pfad mithilfe einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [&#x200B; Eigenschaft &#x200B;](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
+   | Pfad der Profilextraktion | *\(Optional\)* Geben Sie den Pfad an, unter dem DITA-OT auf der Festplatte gespeichert wird. Standardmäßig bündelt AEM Guides ein DITA-OT-Paket in seinem Repository und wird unter diesem Pfad auf der Festplatte extrahiert. <br> **HINWEIS** Sie können diesen Pfad mithilfe einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [ Eigenschaft ](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
    | Zugewiesener Pfad | \(*Optional*\) Geben Sie den Pfad in Ihrem Content-Repository an, für den dieses Profil gilt. Sie können mehrere Speicherorte angeben. |
    | **DITA-OT-Eigenschaften** |  |
    | DITA-OT-Timeout | \(*Optional*\) Geben Sie die Zeit \(in Sekunden\) an, für die die AEM Guides auf eine Antwort des DITA-OT-Plug-ins wartet. Wenn in der angegebenen Zeit keine Antwort eingeht, beendet AEM Guides die Veröffentlichungsaufgabe und die Aufgabe wird als fehlgeschlagen markiert. Außerdem werden die Fehlerprotokolle in der Protokolldatei für die Ausgabegenerierung zur Verfügung gestellt. <br> Standardwert: 300 Sekunden \(5 Minuten\) |
@@ -175,7 +190,7 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
    | **Profileigenschaften** |  |
    | Profilname | Geben Sie einen eindeutigen Namen für dieses Profil an. |
    | Ausgabe wiederverwenden | *\(Optional\)* Wenn Ihr Profil auf einem vorhandenen Profil basiert, wählen Sie diese Option. Durch Auswahl dieser Option wird sichergestellt, dass AEM Guides den Inhalt des DITA-OT-Pakets nicht erneut extrahiert und das vorhandene DITA-OT-Paket wiederverwendet. |
-   | Pfad der Profilextraktion | *\(Optional\)* Geben Sie den Pfad an, unter dem DITA-OT auf der Festplatte gespeichert wird. Standardmäßig bündelt AEM Guides ein DITA-OT-Paket in seinem Repository und wird unter diesem Pfad auf der Festplatte extrahiert.<br>**Hinweis** Sie können diesen Pfad mit einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [&#x200B; Eigenschaft &#x200B;](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
+   | Pfad der Profilextraktion | *\(Optional\)* Geben Sie den Pfad an, unter dem DITA-OT auf der Festplatte gespeichert wird. Standardmäßig bündelt AEM Guides ein DITA-OT-Paket in seinem Repository und wird unter diesem Pfad auf der Festplatte extrahiert.<br>**Hinweis** Sie können diesen Pfad mit einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [ Eigenschaft ](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
    | Zugewiesener Pfad | \(*Optional*\) Geben Sie den Pfad in Ihrem Content-Repository an, für den dieses Profil gilt. Sie können mehrere Speicherorte angeben. |
    | **DITA-OT-Eigenschaften** |  |
    | DITA-OT-Timeout | \(*Optional*\) Geben Sie die Zeit \(in Sekunden\) an, für die AEM Guides auf eine Antwort des DITA-OT-Plug-ins wartet. Wenn in der angegebenen Zeit keine Antwort eingeht, beendet AEM Guides die Veröffentlichungsaufgabe und die Aufgabe wird als fehlgeschlagen markiert. Außerdem werden die Fehlerprotokolle in der Protokolldatei für die Ausgabegenerierung zur Verfügung gestellt. <br>Standardwert: 300 Sekunden \(5 Minuten\) |
@@ -190,7 +205,7 @@ Führen Sie die folgenden Schritte aus, um ein neues Profil zu erstellen und es 
    | DITA-OT-Plug-in-Pfad | Pfad des benutzerdefinierten Plug-ins. Dieses Plug-in wird automatisch in das Haupt-DITA-OT-Paket integriert. |
    | Kataloge integrieren | \(*Optional*\) Pfad der benutzerdefinierten DTD- und XSD-catalog.xml-Dateien im AEM-Repository. Dies sollte nur bereitgestellt werden, wenn die Kataloge im DITA-OT-Paket fehlen. Diese Kataloge werden automatisch als Plug-In in das Haupt-DITA-OT integriert. |
    | System-ID-Katalog hinzufügen | \(*Optional*\) Wählen Sie diese Option nur, wenn im Katalog öffentliche ID-Einträge fehlen oder wenn die DITA-Dateien nur die System-IDs verwenden, die relativ zum Server-Pfad sind, von dem aus sie hochgeladen werden. |
-   | Temporärer DITA-OUT-Pfad | *\(Optional\)* Geben Sie einen temporären Speicherort an, an den DITA-Dateien zur Verarbeitung kopiert werden. Bevor DITA-OT Dateien verarbeitet, werden sie an diesen temporären Speicherort kopiert. Standardmäßig lautet der temporäre Speicherort: <br> **Hinweis** Sie können diesen Pfad mit einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [&#x200B; Eigenschaft &#x200B;](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
+   | Temporärer DITA-OUT-Pfad | *\(Optional\)* Geben Sie einen temporären Speicherort an, an den DITA-Dateien zur Verarbeitung kopiert werden. Bevor DITA-OT Dateien verarbeitet, werden sie an diesen temporären Speicherort kopiert. Standardmäßig lautet der temporäre Speicherort: <br> **Hinweis** Sie können diesen Pfad mit einer beliebigen vorhandenen Systemvariablen oder -eigenschaft definieren. Weitere Informationen finden Sie unter Beschreibung [ Eigenschaft ](#id181NH0YN0AX)DITA-OT-Umgebungsvariablen“. |
 
    >[!NOTE]
    >

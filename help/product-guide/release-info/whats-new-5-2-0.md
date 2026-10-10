@@ -2,13 +2,19 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 5.2.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 5.2.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 3a0184bbedb9935ed4f2171245478330063904ba
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4152'
 ht-degree: 0%
-
 ---
-
 # Neue Funktionen in Version 5.2.0 (Mai 2026)
 
 Dieser Artikel behandelt die neuen und erweiterten Funktionen, die mit Version 5.2.0 von Adobe Experience Manager Guides as a Cloud Service eingeführt wurden.
@@ -156,7 +162,7 @@ Das **Pfad auswählen**-Dialogfeld bietet außerdem eine verbesserte baumstruktu
 
 ![](assets/select-path-dialog-new.png){width="350"}
 
-Weitere Informationen finden Sie [&#x200B; Abschnitt „Durchsuchen von Dateien und Ordnern in &#x200B;](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides)&quot; unter _Weitere Funktionen im Editor_.
+Weitere Informationen finden Sie [ Abschnitt „Durchsuchen von Dateien und Ordnern in ](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides)&quot; unter _Weitere Funktionen im Editor_.
 
 ## Verbesserungen bei der Inhaltserstellung
 
@@ -242,7 +248,7 @@ Der Filter **Gesperrt von** unter den erweiterten Filtern im Repository und **Au
 
 Sie können jetzt Zitate in allen Journalfeldern wie *Titel*, *Journaltitel*, *Autor*, *Jahr*, *Volumen*, *Anzahl* und *Seiten* mithilfe der Option **Beliebiges Feld** im Dialogfeld **Zitat hinzufügen** durchsuchen. Die Suche gibt das Zitat zurück, das dem eingegebenen Text am nächsten kommt.
 
-Weitere Informationen zum Hinzufügen von Zitaten in Experience Manager Guides finden Sie unter [Hinzufügen und Verwalten von Zitaten in &#x200B;](../user-guide/web-editor-apply-citations.md).
+Weitere Informationen zum Hinzufügen von Zitaten in Experience Manager Guides finden Sie unter [Hinzufügen und Verwalten von Zitaten in ](../user-guide/web-editor-apply-citations.md).
 
 ![](assets/add-citations.png){width="350"}
 

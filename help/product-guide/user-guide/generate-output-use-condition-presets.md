@@ -4,24 +4,32 @@ description: Kenntnis der Verwendung von Bedingungsvorgaben in AEM Guides Erfahr
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU
+TQID: 'https://experienceleague.adobe.com/IKcIREoHuXjW-uUDFS6ifRhjzzUoKCXPMW5ip2OKBZU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
 subfeature_v2:
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
   - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: '1154'
 ht-degree: 2%
-
 ---
-
 # Verwenden von Bedingungsvorgaben {#id1825FL004PN}
 
 Sie können Attribute in Ihren DITA-Themen definieren und die Bedingungsvorgabe verwenden, um festzulegen, was mit dem Attribut in der endgültigen Ausgabe geschieht. Sie können beispielsweise Attribute als Version 1.0 und Version 2.0 in Ihrem Inhalt hinzufügen und eine Bedingungsvorgabe verwenden, um Version 1.0 für Version 1.0 einzuschließen und Version 2.0 auszuschließen. Ebenso können Sie Ihrem Inhalt Attribute wie Betriebssystem Windows und Betriebssystem Linux hinzufügen und dann den relevanten Inhalt für Ihre endgültige Ausgabe je nach Betriebssystem ein- oder ausschließen.
@@ -70,7 +78,7 @@ Sie können eine Bedingungsvorgabe der Themen erstellen, indem Sie die folgenden
 1. (Optional) Bei Bedarf können Sie die auf die Attribute angewendete Aktion überschreiben.
 
    Führen Sie einen der folgenden Schritte aus:
-Wählen Sie für ein Attribut eine der folgenden Aktionen aus der Dropdown-Liste Aktion oder aus der Symbolleiste aus.
+   Wählen Sie für ein Attribut eine der folgenden Aktionen aus der Dropdown-Liste Aktion oder aus der Symbolleiste aus.
 
    - Einschließen
    - Ausschließen
@@ -134,7 +142,7 @@ Führen Sie die folgenden Schritte aus, um eine Bedingungsvoreinstellung zu erst
    - Ausschließen
    - Passthrough
    - Kennzeichnung
-Die Aktion wird als Standardaktion für alle Attribute festgelegt, unabhängig davon, ob sie zur Bedingungsvoreinstellung hinzugefügt werden oder nicht.
+     Die Aktion wird als Standardaktion für alle Attribute festgelegt, unabhängig davon, ob sie zur Bedingungsvoreinstellung hinzugefügt werden oder nicht.
 
    Sie haben beispielsweise 15 Bedingungsattribute in Ihrem Dokument und vier davon in die Bedingungsvorgabe aufgenommen. Wenn Sie **Ausschließen** als Standardaktion auswählen, wird sie auf alle 15 Attribute angewendet.
 
@@ -180,4 +188,4 @@ Sie können eine oder mehrere Bedingungsvorgaben auf der Registerkarte **Bedingu
 1. Klicken Sie auf **Schaltfläche** Entfernen“.
 1. Wählen **Entfernen** aus, um die Aktion zu bestätigen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

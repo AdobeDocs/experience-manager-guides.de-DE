@@ -5,31 +5,41 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs
+TQID: 'https://experienceleague.adobe.com/S-gzuvk3PoU8kiNR9m39L50ftQRTrt8RnZ3Lo9WJkZs'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
 subfeature_v2:
   - id: d6596f3f-92a7-43ec-b444-237db6adad05
+    internal-label: Native PDF publishing
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 5060
+source-wordcount: '5089'
 ht-degree: 0%
-
 ---
-
 # Entwerfen eines Seiten-Layouts {#design-page-layout}
 
 Beim Erstellen eines PDF-Dokuments hätten Sie verschiedene Abschnitte zur Darstellung verschiedener Arten von Informationen. Ein PDF-Dokument würde beispielsweise von einer Titelseite aus beginnen, die das Logo, den Buchtitel oder die Versionsinformationen Ihres Unternehmens enthält. Dann gibt es Kapitel, Anhänge oder Glossarseiten. Jeder Abschnitt in einem PDF-Dokument sieht anders aus. Dies wird durch Erstellen und Anpassen des Seiten-Layouts erreicht.
 
-Beim Entwerfen des Seiten-Layouts können Sie die verschiedenen Elemente definieren, aus denen eine Seite besteht. Sie können beispielsweise die Seitengröße, die Ränder, die Kopf- und Fußzeile, die Ausrichtung und andere Seitenspezifikationen auf einer Seite definieren. Mit der nativen PDF-Veröffentlichungsfunktion können Sie Ihre Seite gemäß den [Seitenmedienstandards“ &#x200B;](https://www.w3.org/TR/css-page-3/). Die meisten Einstellungen, die unter den Standards für ausgelagerte Medien behandelt werden, können einfach über die Benutzeroberfläche der nativen PDF-Veröffentlichungsfunktion angepasst werden. Für einige andere erweiterte Formatierungen können Sie die Source-Ansicht verwenden, um Ihren eigenen CSS-Code zu schreiben.
+Beim Entwerfen des Seiten-Layouts können Sie die verschiedenen Elemente definieren, aus denen eine Seite besteht. Sie können beispielsweise die Seitengröße, die Ränder, die Kopf- und Fußzeile, die Ausrichtung und andere Seitenspezifikationen auf einer Seite definieren. Mit der nativen PDF-Veröffentlichungsfunktion können Sie Ihre Seite gemäß den [Seitenmedienstandards“ ](https://www.w3.org/TR/css-page-3/). Die meisten Einstellungen, die unter den Standards für ausgelagerte Medien behandelt werden, können einfach über die Benutzeroberfläche der nativen PDF-Veröffentlichungsfunktion angepasst werden. Für einige andere erweiterte Formatierungen können Sie die Source-Ansicht verwenden, um Ihren eigenen CSS-Code zu schreiben.
 
 Nachdem Sie die Seiten-Layouts entworfen haben, müssen Sie diese Layouts mit den entsprechenden Abschnitten in den PDF-Seitenlayouteinstellungen verknüpfen. Im Abschnitt [Erstellen und Anpassen von Seiten-Layouts](components-pdf-template.md#create-customize-page-layout) finden Sie Einzelheiten zum Erstellen und Öffnen eines Seiten-Layouts zur Anpassung.
 
@@ -46,7 +56,7 @@ Ein PDF-Dokument enthält in der Regel die folgenden Abschnitte:
 * Index
 * Rückseite
 
-Für diese Abschnitte ist ein entsprechendes Seiten-Layout erforderlich, damit die Informationen in einem bestimmten Format angezeigt werden. Darüber hinaus können Sie auch eine leere Seite verwenden, die als Füller verwendet wird, um ein neues Kapitel von einer ungeraden oder geraden Seite aus zu beginnen. In diesem Fall können Sie entweder das standardmäßige Seiten-Layout verwenden oder ein Seiten-Layout für eine leere Seite erstellen. Weitere [&#x200B; finden Sie unter „Erstellen &#x200B;](components-pdf-template.md#create-page-layout) neuen Seiten-Layouts“.
+Für diese Abschnitte ist ein entsprechendes Seiten-Layout erforderlich, damit die Informationen in einem bestimmten Format angezeigt werden. Darüber hinaus können Sie auch eine leere Seite verwenden, die als Füller verwendet wird, um ein neues Kapitel von einer ungeraden oder geraden Seite aus zu beginnen. In diesem Fall können Sie entweder das standardmäßige Seiten-Layout verwenden oder ein Seiten-Layout für eine leere Seite erstellen. Weitere [ finden Sie unter „Erstellen ](components-pdf-template.md#create-page-layout) neuen Seiten-Layouts“.
 
 Mit den Seitenlayouteinstellungen im Abschnitt **Vorlage>Einstellungen** können Sie festlegen, welches Seitenlayout für verschiedene Bereiche Ihrer PDF verwendet werden soll. Jedes Seiten-Layout kann außerdem unterschiedliche Varianten der ersten, rechten oder linken Seite aufweisen.
 
@@ -104,18 +114,18 @@ Beim Entwerfen eines Seiten-Layouts ist es wichtig, die Kontrolle über verschie
 
 >[!NOTE]
 >
->Das Bedienfeld „Seiteneigenschaften“ kapselt die Eigenschaften und folgt den Regeln, die unter [Seitenmedienstandards“ definiert &#x200B;](https://www.w3.org/TR/css-page-3/).
+>Das Bedienfeld „Seiteneigenschaften“ kapselt die Eigenschaften und folgt den Regeln, die unter [Seitenmedienstandards“ definiert ](https://www.w3.org/TR/css-page-3/).
 
-* **Seitengröße** : Geben Sie die Seitengröße an, die Sie für das Seiten-Layout verwenden möchten. In der Dropdown-Liste Seitengröße können Sie aus über 15 Seitengrößen wählen. Sie können ein Seiten-Layout auch mit einer benutzerdefinierten Seitengröße erstellen. Weitere Informationen finden [&#x200B; unter „Festlegen der &#x200B;](#set-page-size)&quot;.
+* **Seitengröße** : Geben Sie die Seitengröße an, die Sie für das Seiten-Layout verwenden möchten. In der Dropdown-Liste Seitengröße können Sie aus über 15 Seitengrößen wählen. Sie können ein Seiten-Layout auch mit einer benutzerdefinierten Seitengröße erstellen. Weitere Informationen finden [ unter „Festlegen der ](#set-page-size)&quot;.
 
 * **Ausrichtung** : Geben Sie die Seitenausrichtung an, die für das Seiten-Layout verwendet werden soll. Sie können zwischen Hochformat- oder Querformat-Seitenausrichtungen wählen. Beachten Sie, dass Sie verschiedene Ausrichtungen auf verschiedene Seitenvarianten in einem Seiten-Layout anwenden können. Wenn Ihr Inhalt beispielsweise eine breite Tabelle oder ein großes Bild enthält, können Sie ein Querformat-Seiten-Layout erstellen und dieses Layout auf die breitere Tabelle oder das Bild anwenden.
 
 * **Drehung anzeigen** : Geben Sie die Seite oder Richtung an, in der die ursprüngliche Oberseite nach der Drehung dargestellt wird. Sie können zwischen 90° im Uhrzeigersinn, 90° gegen den Uhrzeigersinn oder 180° gegen den Uhrzeigersinn wählen. Dies ist besonders nützlich, wenn Sie für die Ausgabe eine Kombination aus Hoch- und Querformat verwenden möchten. Sie können beispielsweise „Hochformat“ als generisches Seiten-Layout verwenden und ein Querformat-Seiten-Layout für das Rendern breiter Tabellen festlegen. In diesem Fall können Sie festlegen, dass der Tabelleninhalt im Uhrzeigersinn um 90 Grad angezeigt wird. Auf diese Weise wird die Seite im Querformat ausgerichtet und der Inhalt wird um 90 Grad gedreht, um die Kontinuität im Blick zu erhalten. Wie dies erreicht wird, sehen wir als Beispiel weiter unten in diesem Abschnitt.
 
 * **Seitennummerierung** :The Die Seitennummerierung ist in einer PDF standardmäßig fortlaufend. Beispielsweise könnte ein PDF mit 100 Seiten fortlaufende Seitenzahlen von 1 bis 100 aufweisen. Sie können für die Nummerierung auch die Nummerierung einer bestimmten Zahl in allen Abschnitten oder das erste Vorkommen eines Abschnitts neu starten.
-   * **Neu starten von** : Geben Sie die Seitennummer an, von der aus die Nummerierung für dieses Seiten-Layout beginnen soll. Sie können beispielsweise für jedes Kapitel die Seitenzahl festlegen, die neu gestartet werden soll. In diesem Fall müssen Sie die Eigenschaft Neustart von auf 1 für die Layout-Variante Erste Seite des Kapitelseiten-Layouts einstellen. Standardmäßig wird die Seitennummerierung von der vorherigen Seite fortgesetzt.
+  * **Neu starten von** : Geben Sie die Seitennummer an, von der aus die Nummerierung für dieses Seiten-Layout beginnen soll. Sie können beispielsweise für jedes Kapitel die Seitenzahl festlegen, die neu gestartet werden soll. In diesem Fall müssen Sie die Eigenschaft Neustart von auf 1 für die Layout-Variante Erste Seite des Kapitelseiten-Layouts einstellen. Standardmäßig wird die Seitennummerierung von der vorherigen Seite fortgesetzt.
 
-   * **Nur auf das erste Vorkommen anwenden**: Sie können auch beim ersten Vorkommen eines Abschnitts nur mit einer bestimmten Zahl beginnen. Sie können beispielsweise nur das erste Kapitel mit 1 beginnen und die Seitenzahlen für andere Kapitel fortsetzen.
+  * **Nur auf das erste Vorkommen anwenden**: Sie können auch beim ersten Vorkommen eines Abschnitts nur mit einer bestimmten Zahl beginnen. Sie können beispielsweise nur das erste Kapitel mit 1 beginnen und die Seitenzahlen für andere Kapitel fortsetzen.
 
 * **Layout** : Geben Sie die Seitenränder zusammen mit dem Abstand für die obere, untere, linke und rechte Seite an. In der folgenden Abbildung wird erläutert, wie Ränder, Abstände und Rahmen um den Inhalt gerendert werden. Beachten Sie, dass der Rand oben und unten auf einer Seite die Kopf- und Fußzeile enthält.
 

@@ -4,13 +4,28 @@ description: Erfahren Sie mehr über die Änderungen im Erweiterungs-Framework f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 2ba8eadcb30faca01170cb13ae2da6fdf7da19c8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2006'
 ht-degree: 4%
-
 ---
-
 # Änderungen am Erweiterungs-Framework für Editor 2.0 (neuer Editor)
 
 In diesem Dokument werden alle APIs behandelt, die `guides.editor` (und `guides`) als Teil des Erweiterungs-Frameworks für den neuen Editor (ProseMirror-basierter Editor) hinzugefügt wurden. Diese APIs ermöglichen es externen Erweiterungen, ohne direkte DOM-Manipulation oder internes Implementierungswissen mit dem Editor zu interagieren.
@@ -240,63 +255,63 @@ guides.ready(() => {
   | Suchen und Ersetzen | `findNext` | _(keine)_ | Wechselt zum nächsten Suchergebnis |
   | Suchen und Ersetzen | `replaceAll` | `replacement?: string` | Ersetzt alle Treffer der aktuellen Suchanfrage durch `replacement` |
 
-   - **Beispiel: Legen Sie mehrere Attribute auf einem Knoten fest**
+  - **Beispiel: Legen Sie mehrere Attribute auf einem Knoten fest**
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttributes",
-       rootRange.from,
-       { createdDate: "2024-01-01", author: "Jane Doe" }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttributes",
+      rootRange.from,
+      { createdDate: "2024-01-01", author: "Jane Doe" }
+    );
+    ```
 
-   - **Beispiel: Legen Sie ein einzelnes Attribut auf einem Knoten fest**
+  - **Beispiel: Legen Sie ein einzelnes Attribut auf einem Knoten fest**
 
-     ```js
-     guides.editor.runCommand(
-       "setNodeXmlAttribute",
-       range.from,
-       "placeholdertext",
-       "Chapter 3 — Safety Requirements"
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      "setNodeXmlAttribute",
+      range.from,
+      "placeholdertext",
+      "Chapter 3 — Safety Requirements"
+    );
+    ```
 
-   - **Beispiel: Auswahl mit einem Element umschließen und Attribute festlegen**
+  - **Beispiel: Auswahl mit einem Element umschließen und Attribute festlegen**
 
-     ```js
-     const didWrap = guides.editor.runCommand(
-       "surroundWithElement",
-       "ph",
-       { outputclass: "highlight" },
-       true   // replace text content with empty node
-     );
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand(
+      "surroundWithElement",
+      "ph",
+      { outputclass: "highlight" },
+      true   // replace text content with empty node
+    );
+    ```
 
-   - **Beispiel: Auswahl in `<sup>` umbrechen (Hochgestellt ein/aus)**
+  - **Beispiel: Auswahl in `<sup>` umbrechen (Hochgestellt ein/aus)**
 
-     ```js
-     const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
-     if (!didWrap) {
-       tcx.util.showAlert("warning", "superscript is not allowed here");
-     }
-     ```
+    ```js
+    const didWrap = guides.editor.runCommand('surroundWithElement', 'sup');
+    if (!didWrap) {
+      tcx.util.showAlert("warning", "superscript is not allowed here");
+    }
+    ```
 
-   - **Beispiel: Aktuelle Knoten entpacken (Hochgestellt ein-/ausschalten)**
+  - **Beispiel: Aktuelle Knoten entpacken (Hochgestellt ein-/ausschalten)**
 
-     ```js
-     const didUnwrap = guides.editor.runCommand('unwrapNode');
-     ```
+    ```js
+    const didUnwrap = guides.editor.runCommand('unwrapNode');
+    ```
 
-   - **Beispiel: XML am Cursor einfügen, mit eingesetztem Caret-Zeichen**
+  - **Beispiel: XML am Cursor einfügen, mit eingesetztem Caret-Zeichen**
 
-     ```js
-     guides.editor.runCommand(
-       'insertXml',
-       '<sup></sup>',
-       undefined,
-       { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
-     );
-     ```
+    ```js
+    guides.editor.runCommand(
+      'insertXml',
+      '<sup></sup>',
+      undefined,
+      { setCursorInContent: true, focusEditor: true, selectInsertedXml: false }
+    );
+    ```
 
 - `guides.editor.canRunCommand(commandName, ...args)`: Überprüft, ob ein benannter Befehl derzeit ausgeführt werden kann, ohne ihn tatsächlich auszuführen.
 
@@ -461,7 +476,7 @@ Dekorationen werden durch eine `id` identifiziert, sodass sie jederzeit unabhän
   | `filter` | `(node) => boolean` | Optionales Prädikat - nur Knoten, bei denen dieses `true` zurückgegeben wird, sind dekoriert |
 
   Das `context` Objekt, das an `computeAttributes` übergeben wird, umfasst:
-   - `index` - 0-basierte Position des Knotens unter gleichrangigen Elementen, die dem Selektor entsprechen
+  - `index` - 0-basierte Position des Knotens unter gleichrangigen Elementen, die dem Selektor entsprechen
 
   **Beispiel: Fügen Sie eine CSS-Klasse zu allen `<section>` hinzu**
 

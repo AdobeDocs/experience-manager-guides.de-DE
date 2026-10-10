@@ -4,7 +4,7 @@ description: Die Symbolleiste im Editor kennenlernen. Erfahren Sie mehr über di
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-TQID: https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw
+TQID: 'https://experienceleague.adobe.com/KX-yf8J7QxTJ-vZq0onxJVPLqYFPMIka8CE6DWZgvbw'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
     internal-label: Configuration
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
     internal-label: Map Editor
@@ -30,7 +32,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 2a8b90039694267a542d3eb6012a3b5d439eeba8
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6603'
 ht-degree: 0%
@@ -50,7 +52,7 @@ Die Symbolleiste wird angezeigt, wenn Sie ein Thema oder eine Karte zur Bearbeit
 
 >[!NOTE]
 >
-> Die oben aufgeführten Funktionen gelten nur für Themendateien. Beim Arbeiten mit einer Zuordnungsdatei werden basierend auf der aktuellen Ansicht des Zuordnungs-Editors verschiedene Optionen in der Symbolleiste angezeigt. Weitere Informationen zu den Symbolleistenoptionen des Zuordnungs-Editors [&#x200B; Sie im Dokument &#x200B;](./map-editor-advanced-map-editor.md)Funktionen des Zuordnungs-Editors“.
+> Die oben aufgeführten Funktionen gelten nur für Themendateien. Beim Arbeiten mit einer Zuordnungsdatei werden basierend auf der aktuellen Ansicht des Zuordnungs-Editors verschiedene Optionen in der Symbolleiste angezeigt. Weitere Informationen zu den Symbolleistenoptionen des Zuordnungs-Editors [ Sie im Dokument ](./map-editor-advanced-map-editor.md)Funktionen des Zuordnungs-Editors“.
 
 ## Menü-Dropdown
 
@@ -74,7 +76,7 @@ Diese Funktionen werden im Einzelnen wie folgt erläutert:
 
 **Aktionen bearbeiten**
 
-Greifen Sie beim Bearbeiten eines Themas im Editor auf die verschiedenen Bearbeitungsaktionen zu, z. B. **Ausschneiden** oder ***Strg***+***X*** , **Kopieren** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+Z ***,**&#x200B;Wiederholen&#x200B;**oder*** CtrlCtrlY **&#x200B;**&#x200B;**&#x200B; **&#x200B;**&#x200B;** **&#x200B;**&#x200B;Löschenim Dropdown-Menü.
+Greifen Sie beim Bearbeiten eines Themas im Editor auf die verschiedenen Bearbeitungsaktionen zu, z. B. **Ausschneiden** oder ***Strg***+***X*** , **Kopieren** oder ***Strg***+***C*** , **Rückgängig** oder ***Strg***+Z ***,**Wiederholen**oder*** CtrlCtrlY ****** ****** **** Löschenim Dropdown-Menü.
 
 
 **Suchen und Ersetzen**
@@ -124,7 +126,7 @@ Mit **Funktion „Versionsverlauf** im Editor können Sie die verfügbaren Versi
 
    Registerkarte **Metadaten**: Die neu hinzugefügten Metadaten sind in grüner Schrift, die gelöschten Metadaten in roter Schrift.
 
-   ![Metadatenunterschied für Versionen &#x200B;](images/metadata-version-diff.png){width="550"}
+   ![Metadatenunterschied für Versionen ](images/metadata-version-diff.png){width="550"}
 
    *Vergleichen der Metadaten verschiedener Versionen im Versionsverlauf.*
 
@@ -432,7 +434,7 @@ Fügt ein Bild am aktuellen oder nächsten gültigen Speicherort ein. Wählen Si
 
 >[!NOTE]
 >
-> Sie können auch ein Bild hinzufügen, indem Sie es aus Ihrem lokalen System auf Ihren Artikel ziehen und ablegen. In diesem Fall wird die Bilddatei mithilfe des Workflows **Assets hochladen** hinzugefügt.  Weitere Informationen finden Sie im Abschnitt **Workflow &quot;Assets hochladen** im [&#x200B; Bereich](./web-editor-left-panel.md).
+> Sie können auch ein Bild hinzufügen, indem Sie es aus Ihrem lokalen System auf Ihren Artikel ziehen und ablegen. In diesem Fall wird die Bilddatei mithilfe des Workflows **Assets hochladen** hinzugefügt.  Weitere Informationen finden Sie im Abschnitt **Workflow &quot;Assets hochladen** im [ Bereich](./web-editor-left-panel.md).
 
 
 ![](images/insert-image-new-dialog.png){width="300"}
@@ -783,4 +785,4 @@ Wenn eine Datei von einem anderen Benutzer gesperrt wird, wird beim Bewegen des 
 Als Administrator erhalten Sie auch Zugriff auf die Funktion **Entsperren erzwingen** mit der Sie die von anderen Benutzern gesperrte Datei entsperren können. Verwenden Sie diese Funktion, um auf die Bearbeitungsrechte für eine Datei zuzugreifen, die von anderen Benutzern gesperrt wurde.
 
 ![](images/web-editor-force-unlock-new.png){width="350"}
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

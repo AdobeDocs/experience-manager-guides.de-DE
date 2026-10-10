@@ -4,19 +4,23 @@ description: Verwalten Sie Prüfungsaufgaben im Überprüfungs-Dashboard in AEM 
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-TQID: https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU
+TQID: 'https://experienceleague.adobe.com/VHKsjdRxz2MOIAmYGi7fFDKJNPU3rTR466d-jj-QojU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 72792fc7-6fd6-5775-a2c2-99253bb26dc2
+    internal-label: Reviewing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1440
+source-wordcount: '1440'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Prüfungsaufgaben mithilfe des Überprüfungs-Dashboards {#id2056B0Y70X4}
 
 Der Workflow zur Überprüfungsverwaltung kann eine Vielzahl von Aufgaben enthalten. Beispielsweise können Sie Reviewer für ein bestimmtes Thema hinzufügen oder die Frist für eine Überprüfung verlängern. Sie können die Prüfungsaufgabe auch als abgeschlossen markieren, wenn Sie der Meinung sind, dass alle Beteiligten ihr Feedback gegeben haben. Diese Aufgaben können über das Überprüfungs-Dashboard verwaltet werden.
@@ -69,7 +73,7 @@ Führen Sie die folgenden Schritte aus, um auf das Überprüfungs-Dashboard zuzu
 Sie können die folgenden Aktionen auf der Registerkarte **Aufgabe** ausführen:
 
 - Ändern Sie den Titel der Aufgabe im Feld **Titel** .
-- Fügen Sie Standardbevollmächtigte in der Dropdown **Liste „Zuweisen an** hinzu. Die Reviewer, die Sie von hier hinzufügen, erhalten Zugriff, um alle Themen zu überprüfen, die Teil dieser Prüfungsaufgabe sind. Sie können auf der Registerkarte „Validierungsverantwortliche“ wählen, ob Sie zu bestimmten Themen [&#x200B; oder selektiv weitere Validierungsverantwortliche &#x200B;](#Reviewer-tab-id199RF0N0MUI).
+- Fügen Sie Standardbevollmächtigte in der Dropdown **Liste „Zuweisen an** hinzu. Die Reviewer, die Sie von hier hinzufügen, erhalten Zugriff, um alle Themen zu überprüfen, die Teil dieser Prüfungsaufgabe sind. Sie können auf der Registerkarte „Validierungsverantwortliche“ wählen, ob Sie zu bestimmten Themen [ oder selektiv weitere Validierungsverantwortliche ](#Reviewer-tab-id199RF0N0MUI).
 - Aktualisieren Sie die Beschreibung der Aufgabe im Feld **Beschreibung** .
 - Ändern Sie das **Fälligkeitsdatum**. Sie können die Frist für den Abschluss der Aufgabe vorziehen oder verschieben.
 - Wählen Sie die Option aus, um Benutzer darauf zu beschränken, nur die Themen anzusehen, die ihnen zugewiesen sind.
@@ -139,11 +143,11 @@ Der Statusbericht für die Prüfungsaufgabe enthält die folgenden Details:
 
 - Name des Reviewers, dem die Prüfungsaufgabe zugewiesen wurde.
 - Die Spalte Status gibt den Prüfungsstatus an. Der Status kann einer der folgenden sein:
-   - **Nicht gestartet**: Die Überprüfenden haben die Überprüfungsaufgabe noch nicht geöffnet.
-   - **In Bearbeitung**: Die Überprüfenden haben die Überprüfungsaufgabe geöffnet und sind dabei, das Thema zu überprüfen.
-   - **Fertig stellen**: Die Überprüfenden haben die Überprüfung abgeschlossen und die Aufgabe in der Überprüfungs-Benutzeroberfläche als abgeschlossen markiert. Die Überprüfungsaufgabe befindet sich für jeden Reviewer im AEM-Benachrichtigungs-Posteingang.
+  - **Nicht gestartet**: Die Überprüfenden haben die Überprüfungsaufgabe noch nicht geöffnet.
+  - **In Bearbeitung**: Die Überprüfenden haben die Überprüfungsaufgabe geöffnet und sind dabei, das Thema zu überprüfen.
+  - **Fertig stellen**: Die Überprüfenden haben die Überprüfung abgeschlossen und die Aufgabe in der Überprüfungs-Benutzeroberfläche als abgeschlossen markiert. Die Überprüfungsaufgabe befindet sich für jeden Reviewer im AEM-Benachrichtigungs-Posteingang.
 - Wenn ein Reviewer einen Review-Link öffnet und zu einem bestimmten Thema navigiert, wird dieses Thema der Liste „Überprüfte Themen“ hinzugefügt. Auf diese Weise können Autoren feststellen, ob die Reviewer ihre jeweiligen Abschnitte geöffnet haben. Wenn Kommentare abgegeben werden, werden diese in Klammern angezeigt.
 - Gesamtzahl der Kommentare zu allen Themen. Bei mehreren zu überprüfenden Themen wird die Anzahl der Kommentare für jedes Thema \(in Klammern\) gegenüber dem Themennamen angegeben.
 - Das Datum, an dem der Reviewer zuletzt auf ein Thema zugegriffen hat.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

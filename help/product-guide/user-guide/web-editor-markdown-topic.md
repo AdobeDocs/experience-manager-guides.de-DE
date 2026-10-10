@@ -4,7 +4,7 @@ description: Verfassen Sie Markdown-Dokumente aus dem Editor. Erfahren Sie, wie 
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-TQID: https://experienceleague.adobe.com/9NrYbEPcHa0QEwAnN5VTK7UVT9sBDJHOYZZuSsID8Kc
+TQID: 'https://experienceleague.adobe.com/9NrYbEPcHa0QEwAnN5VTK7UVT9sBDJHOYZZuSsID8Kc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
     internal-label: Experience Manager Guides
@@ -13,6 +13,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -26,7 +28,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 2%
@@ -51,7 +53,7 @@ Führen Sie die folgenden Schritte aus, um im Editor ein Markdown-Thema zu erste
 
    >[!NOTE]
    >
-   > Im Falle eines Upgrades müssen Sie die Markdown-Vorlage zum aktuell verwendeten Profilordner hinzufügen. Sie können [eine neue Markdown-Vorlage aus dem Editor erstellen](./web-editor-features.md#templates) oder eine vorhandene Vorlage für die Bearbeitung von Markdown-Inhalten verwenden. Weitere Informationen zum Hinzufügen von Authoring-Vorlagen in Experience Manager Guides finden Sie unter [Konfigurieren von globalen Profilen oder Profilen auf &#x200B;](../cs-install-guide/conf-folder-level.md).
+   > Im Falle eines Upgrades müssen Sie die Markdown-Vorlage zum aktuell verwendeten Profilordner hinzufügen. Sie können [eine neue Markdown-Vorlage aus dem Editor erstellen](./web-editor-features.md#templates) oder eine vorhandene Vorlage für die Bearbeitung von Markdown-Inhalten verwenden. Weitere Informationen zum Hinzufügen von Authoring-Vorlagen in Experience Manager Guides finden Sie unter [Konfigurieren von globalen Profilen oder Profilen auf ](../cs-install-guide/conf-folder-level.md).
 
 1. Wählen Sie **Erstellen** aus.
 
@@ -106,9 +108,9 @@ Die Symbolleiste befindet sich direkt unter der Registerkartenleiste. In der Sym
 
 | Funktionen | Beschreibung |
 |----------------|----------------|
-| Bearbeiten von Aktionen | Ermöglicht den Zugriff auf verschiedene Funktionen zur Bearbeitung von Dokumenten **einschließlich** ![](images/S_Cut_18_N.svg), **Rückgängig** ![](images/S_Undo_18_N.svg), **&#x200B;**&#x200B;Wiederholen![](images/S_Redo_18_N.svg), **Kopieren** ![](images/S_Copy_18_N.svg), **&#x200B;**&#x200B;Löschen![](images/S_Delete_18_N.svg) und **&#x200B;**&#x200B;Suchen und Ersetzen![](images/S_FindAndReplace_18_N.svg). Sie können auf die verfügbaren Optionen über das Dropdown-Menü **Menü** zugreifen. |
-| Optionen für die Textformatierung | Bietet Zugriff auf verschiedene Textformatierungsoptionen, einschließlich **Überschriften** ![](images/S_DisplayHeading_18_N.svg), **Fett** ![](images/S_TextBold_18_N.svg), **Kursiv** ![](images/S_TextItalic_18_N.svg), **Durchgestrichen** ![](images/S_TextStrikethrough_18_N.svg), **Code** ![](images/S_Code_18_N.svg) und **&#x200B;**&#x200B;Blockzitat![](images/S_BlockQuoteMultipleLines_18_N.svg). |
-| Optionen zum Einfügen von Inhalten | Bietet Optionen zum Einfügen einer **nummerierten Liste** ![](images/S_TextNumbered_18_N.svg), **sortierten Liste** ![](images/S_TextBulleted_18_N.svg), **&#x200B;**&#x200B;Tabelle![](images/tableAdd.svg), **Image** ![](images/S_ImageAdd_18_N.svg), **&#x200B;**&#x200B;Querverweis![](images/S_LinkGlobe_18_N.svg) und **&#x200B;**&#x200B;Symbol![](images/S_SpecialCharacter_18_N.svg) in ein Dokument.<br><br> **Hinweis**: Sie können auch Bilder und andere Dateien per Drag-and-Drop in den Markdown-Editor ziehen. Dateien werden als Querverweis-Links hinzugefügt, während Bilder als Standardelemente des Bilds angezeigt werden. |
+| Bearbeiten von Aktionen | Ermöglicht den Zugriff auf verschiedene Funktionen zur Bearbeitung von Dokumenten **einschließlich** ![](images/S_Cut_18_N.svg), **Rückgängig** ![](images/S_Undo_18_N.svg), **** Wiederholen![](images/S_Redo_18_N.svg), **Kopieren** ![](images/S_Copy_18_N.svg), **** Löschen![](images/S_Delete_18_N.svg) und **** Suchen und Ersetzen![](images/S_FindAndReplace_18_N.svg). Sie können auf die verfügbaren Optionen über das Dropdown-Menü **Menü** zugreifen. |
+| Optionen für die Textformatierung | Bietet Zugriff auf verschiedene Textformatierungsoptionen, einschließlich **Überschriften** ![](images/S_DisplayHeading_18_N.svg), **Fett** ![](images/S_TextBold_18_N.svg), **Kursiv** ![](images/S_TextItalic_18_N.svg), **Durchgestrichen** ![](images/S_TextStrikethrough_18_N.svg), **Code** ![](images/S_Code_18_N.svg) und **** Blockzitat![](images/S_BlockQuoteMultipleLines_18_N.svg). |
+| Optionen zum Einfügen von Inhalten | Bietet Optionen zum Einfügen einer **nummerierten Liste** ![](images/S_TextNumbered_18_N.svg), **sortierten Liste** ![](images/S_TextBulleted_18_N.svg), **** Tabelle![](images/tableAdd.svg), **Image** ![](images/S_ImageAdd_18_N.svg), **** Querverweis![](images/S_LinkGlobe_18_N.svg) und **** Symbol![](images/S_SpecialCharacter_18_N.svg) in ein Dokument.<br><br> **Hinweis**: Sie können auch Bilder und andere Dateien per Drag-and-Drop in den Markdown-Editor ziehen. Dateien werden als Querverweis-Links hinzugefügt, während Bilder als Standardelemente des Bilds angezeigt werden. |
 | Versionsverlauf | Ermöglicht Ihnen, Versionen von Markdown-Dateien zu erstellen und den Änderungsverlauf anzuzeigen. Sie können verschiedene Versionen vergleichen und bei Bedarf zu vorherigen zurückkehren. Die Option Versionsverlauf ist in der Dropdown-Liste **Menü** vorhanden. |
 | Als neue Version speichern | Speichert die im Thema vorgenommenen Änderungen und erstellt außerdem eine neue Version des Themas. Wenn Sie an einem neu erstellten Thema arbeiten, werden die Versionsinformationen als „Ohne“ angezeigt. |
 | Sperren/Entsperren | Sperrt oder entsperrt die aktuelle Datei. Durch das Sperren einer Datei erhalten Sie exklusiven Schreibzugriff auf die Datei. Dadurch wird das Bearbeiten der Datei durch andere Benutzer eingeschränkt. Entsperren Sie die Datei , wenn andere Benutzer Bearbeitungszugriff haben sollen. Als Administrator erhalten Sie auch Zugriff auf die Funktion **Entsperren erzwingen** mit der Sie die von einer anderen Person gesperrte Datei entsperren können. |
@@ -196,4 +198,4 @@ Die folgenden Experience Manager Guides-Funktionen können derzeit nicht für da
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

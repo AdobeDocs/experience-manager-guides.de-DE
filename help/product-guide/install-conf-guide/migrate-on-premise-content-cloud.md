@@ -5,13 +5,25 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: c8348aae-224c-4419-845a-b8910629e5b3
-source-git-commit: 82c93529b8535532cf50f6428c41a1881b24859e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 3%
-
+source-wordcount: '1034'
+ht-degree: 6%
 ---
-
 # Migrieren von Inhalten von On-Premise zu Cloud Service
 
 Experience Manager as a Cloud Service bietet eine skalierbare, sichere und agile technologische Grundlage für Experience Manager Guides, Assets, Forms und Screens. Dadurch können sich Marketing-Experten und IT-Experten darauf konzentrieren, skaliert wirkungsvolle Erlebnisse bereitzustellen.
@@ -32,17 +44,17 @@ Dieser Artikel bietet einen detaillierten, schrittweisen Prozess für die Migrat
 ## Migrationsprozess
 
 **Content Transfer Tool** ist ein von Adobe entwickeltes Tool, mit dem Sie die Migration vorhandener Inhalte von einer Adobe Experience Manager On-Premise- oder Managed Services-Quellinstanz zur Experience Manager Cloud Service-Zielinstanz initiieren können.
-Dieses Tool überträgt auch Prinzipale (Benutzer oder Gruppen) automatisch.
+Dieses Tool überträgt auch Prinzipale (Benutzende oder Gruppen) automatisch.
 
 Sie können das **Content Transfer Tool** als ZIP-Datei vom **Software Distribution**-Portal herunterladen:
 
-1. Wählen Sie die **&#x200B;**&#x200B;AEM as a Cloud Service **im Portal** Software Distribution“ aus.
+1. Wählen Sie die **** AEM as a Cloud Service **im Portal** Software Distribution“ aus.
 1. Suchen Sie **Content Transfer Tool**.
 1. Wählen Sie **Content Transfer Tool** aus der Liste aus und laden Sie es herunter.
 
 ![Content Transfer Tool herunterladen](./assets/content-transfer-tool-software-portal.png)
-Installieren Sie dann das Paket über **Package Manager** auf Ihrer Adobe Experience Manager-Quellinstanz. Stellen Sie sicher, dass Sie die neueste Version herunterladen.
-Weitere Informationen zur neuesten Version finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=de).
+Installieren Sie dann das Paket über **Package Manager** auf Ihrer Adobe Experience Manager-Quellinstanz. Laden Sie unbedingt die neueste Version herunter.
+Weitere Informationen zur neuesten Version finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
 
 >[!NOTE]
 > 
@@ -108,7 +120,7 @@ Führen Sie die folgenden Schritte aus, um Experience Manager Guides-Inhalte zu 
    ![](./assets/migration-create-migration-set.png)
 
 1. Geben Sie den zu migrierenden Pfad an und klicken Sie auf **Speichern**.
-Beispiel: `/content/sites`
+Beispiel:  `/content/sites`
 oder
    `/content/dam/tech-docs`
    ![Enthaltene Pfade](./assets/migration-included-paths.png)
@@ -117,7 +129,7 @@ oder
 
    >[!NOTE]
    >
-   > Die folgenden Pfade müssen für Inhalte des Typs **Experience Manager Guides&rbrace; zwingend** werden.
+   > Die folgenden Pfade müssen für Inhalte des Typs **Experience Manager Guides} zwingend** werden.
 
    * `/content/dam`
    * `/var/dxml`

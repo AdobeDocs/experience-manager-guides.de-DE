@@ -5,13 +5,28 @@ feature: Profiles
 role: Admin
 level: Experienced
 exl-id: 0292a9cd-0f94-4039-8758-1740106feb71
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '6082'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren von globalen Profilen oder Profilen auf Ordnerebene {#id181AH2003PF}
 
 In einem Unternehmen können verschiedene Gruppen oder Produkte unterschiedliche Authoring-Vorlagen, Ausgabevorlagen, bedingte Attributprofile \(oder Betreffschemata\) und Editor-Konfigurationen verwenden. Wenn Sie diese nur auf Enterprise-\(oder globaler\) Ebene konfigurieren, kann dies Autorinnen und Autoren Schwierigkeiten bereiten, da sie Vorlagen oder Profile sehen, die für sie nicht relevant sind.
@@ -30,21 +45,21 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
 - **Vorlagen**: Verwenden Sie diese Registerkarte, um die Vorlagen zu konfigurieren, die Ihre Autoren zum Erstellen oder Veröffentlichen von DITA-Inhalten verwenden. Die folgenden Themenvorlagen sind standardmäßig verfügbar:
 
-   - Glossar
+  - Glossar
 
-   - Referenz
+  - Referenz
 
-   - Thema
+  - Thema
 
-   - Konzept
+  - Konzept
 
-   - Aufgabe
+  - Aufgabe
 
-   - Fehlerbehebung
+  - Fehlerbehebung
 
-   - Leer
+  - Leer
 
-   - DITAVAL
+  - DITAVAL
 
   >[!NOTE]
   >
@@ -52,33 +67,33 @@ Außerdem können Sie die ordnerspezifischen Konfigurationen an eine Abteilung o
 
   Neben Themenvorlagen können Sie auch die Zuordnungsvorlagen definieren, die Autoren zur Verfügung gestellt werden. Die folgenden Zuordnungsvorlagen sind standardmäßig verfügbar:
 
-   - Map
+  - Map
 
-   - Bookmap
+  - Bookmap
 
 - **Ausgabevorgabe**: Ähnlich wie Vorlagen gibt es fünf vorkonfigurierte Ausgabevorgaben:
 
-   - AEM Site
+  - AEM Site
 
-   - PDF
+  - PDF
 
-   - HTML5
+  - HTML5
 
-   - EPUB
+  - EPUB
 
-   - Benutzerdefiniert
+  - Benutzerdefiniert
 
-  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden &#x200B;](#id18AGD0K0OHS) Vorgabenänderungen“.
+  Publisher können diese vordefinierten Ausgabevorgaben verwenden, um Inhalte zu veröffentlichen. Diese Vorgaben können von einem Administrator des globalen Profils oder des Profils auf Ordnerebene konfiguriert werden. Nach der Konfiguration werden die Veröffentlichungsvoreinstellungen den Publishern für neu erstellte DITA-Zuordnungen zur Verfügung gestellt. Sie können auch Veröffentlichungsvorgaben auf vorhandene DITA-Zuordnungen anwenden. Weitere Informationen finden Sie unter [Anwenden ](#id18AGD0K0OHS) Vorgabenänderungen“.
 
 - **XML-Editor-**: Verwenden Sie diese Registerkarte, um das Erscheinungsbild und verschiedene Funktionen des Editors anzupassen. Die folgenden konfigurierbaren Einstellungen sind für den Editor verfügbar:
 
-   - Konfiguration der Benutzeroberfläche des XML-Editors
-   - XML-Editor-Seitenlayout nur für Cloud Service
-   - XML Editor Configuration only for Cloud Service
-   - CSS-Vorlagenlayout
-   - XML-Editor-Snippets
-   - Titel der XML-Inhaltsversion
-   - Rootmap \(nur auf Ordnerebene\)
+  - Konfiguration der Benutzeroberfläche des XML-Editors
+  - XML-Editor-Seitenlayout nur für Cloud Service
+  - XML Editor Configuration only for Cloud Service
+  - CSS-Vorlagenlayout
+  - XML-Editor-Snippets
+  - Titel der XML-Inhaltsversion
+  - Rootmap \(nur auf Ordnerebene\)
 
 Sie können sowohl ein globales Profil als auch ein Profil auf Ordnerebene konfigurieren. In einem Profil auf Ordnerebene können Sie die Ordner definieren, für die die Einstellungen gelten sollen. Zu diesen Einstellungen gehören die bedingten Attribute, Vorlagen, Ausgabevorgaben und Einstellungen des XML-Editors. Die bedingten Vorgaben, Vorlagen und XML-Editor-Konfigurationen werden dann für Autoren verfügbar gemacht, die in den konfigurierten Ordnern arbeiten. Ebenso haben Herausgeber Zugriff auf die konfigurierten Ausgabevorgaben, die in den konfigurierten Ordnern definiert sind.
 
@@ -108,7 +123,7 @@ Führen Sie die folgenden Schritte aus, um das globale Profil zu konfigurieren:
 
 1. Informationen zum Konfigurieren **Ausgabevorgaben** finden Sie unter [Konfigurieren von Ausgabevorgaben](#id18AGD0IH0Y4).
 
-1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [&#x200B; unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
+1. Informationen zum Konfigurieren der XML-Editor-Konfiguration finden [ unter „Konfigurieren und Anpassen des XML-Editors](#id2065G300O5Z).
 
 1. Nachdem Sie alle erforderlichen Aktualisierungen vorgenommen haben, speichern und schließen Sie **Globales Profil**.
 
@@ -517,7 +532,7 @@ Wenn Sie eine vorhandene Ausgabevorgabe aktualisiert haben oder eine neue Ausgab
 
 ## Konfigurieren des KI-Assistenten für intelligente Hilfe und Authoring (nur für Cloud Service)
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
 
 Der KI-Assistent in Adobe Experience Manager Guides ist ein leistungsstarkes, KI-gesteuertes Tool, mit dem Sie Ihre Inhalte durch intelligentes Authoring und die Wiederverwendung von Inhalten verbessern können. Es vereint zwei robuste KI-Funktionen - **Authoring** und **Help** - in der Experience Manager Guides-Oberfläche, sodass Sie Dokumente schneller und effizienter erstellen und auf Informationen zugreifen können.
 
@@ -603,9 +618,9 @@ Um sicherzustellen, dass intelligente Vorschläge effektiv funktionieren, sollte
 
 **Standardfragen für die intelligente Hilfe anpassen**
 
-Für Experience Manager Guides as a Cloud Service (![AEM Cloud &#x200B;](assets/aem-cloud-icon.svg)).
+Für Experience Manager Guides as a Cloud Service (![AEM Cloud ](assets/aem-cloud-icon.svg)).
 
-Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview).
+Sie können den KI-gestützten Smart **Help) konfigurieren** damit Autoren Fragen stellen und den erforderlichen Inhalt einfach in der [Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 Auf der Registerkarte **XML** Editor-Konfiguration“ können Sie die Standardfragen des Bedienfelds **Hilfe** konfigurieren.
 
@@ -662,7 +677,7 @@ Die folgenden Registerkarten enthalten Informationen basierend auf Ihrer Experie
 
 Mit dieser Einstellung können Sie JSON-Erweiterungen erstellen, die die in der `ui_config.json`-Datei vorgenommenen Änderungen widerspiegeln. Sie können diese Erweiterungen unabhängig auf Ordnerprofilebene hochladen, was eine höhere Flexibilität und Anpassung bietet. Wenn Sie beispielsweise Änderungen an der Konfiguration des **XML-Editors** vornehmen, wie z. B. eine Schaltfläche aktualisieren, erkennt das System automatisch die Unterschiede. Durch Hochladen dieser Änderungen in die **Konfiguration der Benutzeroberfläche des XML-Editors** und Konvertieren in JSON-Erweiterungen mithilfe der Schaltfläche **UI-Konfiguration in JSON**&quot; generiert das System eine Erweiterung, die die neue Funktionalität enthält.
 
-Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Erfahren Sie mehr über [Anpassen von JSON-Konfigurationen und Konvertieren von Benutzeroberflächenkonfigurationen für den neuen AEM Guides-Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >

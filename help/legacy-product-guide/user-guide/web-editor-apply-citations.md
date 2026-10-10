@@ -5,24 +5,30 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-TQID: https://experienceleague.adobe.com/3xNOR02eoj4FGibPTf4IMtqHf2O-M4DHaf5-MZy87uU
+TQID: 'https://experienceleague.adobe.com/3xNOR02eoj4FGibPTf4IMtqHf2O-M4DHaf5-MZy87uU'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f89f75b0-cf2e-4e96-aec8-fe8c39cbd0ef
+    internal-label: Web Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1896
+source-wordcount: '1896'
 ht-degree: 1%
-
 ---
-
 # Hinzufügen und Verwalten von Zitaten in Ihren Inhalten
 
 Zitate sind Verweise auf die Quelle von Informationen, die Ihrem Inhalt hinzugefügt werden. Mithilfe von Zitaten können Sie den Autoren die Quellinformationen zuschreiben und den Lesern helfen, die Quellinformationen zu verfolgen. Das Hinzufügen von Zitaten macht Ihre Inhalte zuverlässiger und verhindert Plagiate. Sie ermöglichen es Ihnen auch, gut recherchierte Inhalte anzuzeigen.
@@ -110,7 +116,7 @@ Gehen Sie wie folgt vor, um Zitate zu importieren:
 
    >[!NOTE]
    > <ol><li> AEM Guides importiert nur die Zitate, die eindeutig und noch nicht vorhanden sind.
-   > &gt; <li> AEM Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
+    &gt; <li> AEM Guides kann Zitate aus einem Buch, einem Journal oder einer Website importieren. Derzeit werden Zitate aus anderen Quellen nicht unterstützt.
 
 ## Zitate verwalten
 
@@ -201,7 +207,7 @@ Sie können Zitate zum Thema aus der Hauptsymbolleiste oder dem linken Bereich e
 ### In der Haupt-Symbolleiste
 
 1. Wählen Sie das Symbol **Zitate** ![Zitate](images/citations-icon.svg) in der Hauptsymbolleiste aus.
-1. Wählen Sie **Dialogfeld**&#x200B;Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
+1. Wählen Sie **Dialogfeld**Zitate“ das Zitat aus. Sie können auch mehrere Zitate auswählen.
    ![Zitierdialogfeld](images/citation-dialog-main-toolbar.png){width="300"}
 1. Sie können Zitate filtern, indem Sie die ersten Buchstaben in das Suchfeld des Dialogfelds **Zitat** eingeben.
 
@@ -215,7 +221,7 @@ Das ausgewählte Zitat wird an der Cursorposition im Thema hinzugefügt.
 > 
 >Um das Symbol **Zitate** im linken Bereich anzuzeigen, muss Ihr Systemadministrator die Option **Zitate** auf der Registerkarte **Bedienfelder** in **Editor-Einstellungen** auswählen.
 
-1. Wählen Sie **Zitate** ![Zitationssymbol &#x200B;](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
+1. Wählen Sie **Zitate** ![Zitationssymbol ](images/citations-icon.svg) Symbol im linken Bedienfeld aus.
 1. Ziehen Sie das Zitat aus dem Bedienfeld **Zitate** und legen Sie es an der entsprechenden Position im Thema ab.
 
    Sie können auch **Einfügen** unter ![](images/options.svg)**Optionen** auswählen, um ein Zitat einzufügen.

@@ -2,7 +2,15 @@
 title: Inhaltsüberprüfung in AEM Guides
 description: Expertensitzung - Innerhalb des AEM Guides-Überprüfungs-Workflows. Funktionen und Anwendungsfall aus der Praxis
 exl-id: 4fa4a7f8-4b0b-45d8-978e-e2bde3692b1d
-source-git-commit: 0d214aca4b5f12d5401ed174d20259627bf94469
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 2%
@@ -37,11 +45,11 @@ In dieser Sitzung haben wir Folgendes behandelt:
 
 ## Verwandte Ressourcen
 
-- [Workflow-Dokumentation überprüfen](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/review/review)
+- [Workflow-Dokumentation überprüfen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [Integration von AEM Guides mit Workfront](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [Integration von AEM Guides mit Workfront](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [Anpassen der Benutzeroberfläche für Überprüfungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [Anpassen der Benutzeroberfläche für Überprüfungen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -54,7 +62,7 @@ In dieser Sitzung haben wir Folgendes behandelt:
 
 ### Community-Forum
 
-- Sitzungsspezifische Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
+- Sitzungsspezifische Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 ## Kontakt

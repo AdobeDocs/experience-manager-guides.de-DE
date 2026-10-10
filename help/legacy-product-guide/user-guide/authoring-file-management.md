@@ -5,23 +5,29 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-TQID: https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI
+TQID: 'https://experienceleague.adobe.com/njK8ud-RQO0Ev2PnOnXuB7OUUorvKtnMHwLBx8cD1jI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: '3144'
 ht-degree: 0%
-
 ---
-
 # Dateien und Ordner verwalten {#id2116G0L08XA}
 
 In diesem Abschnitt wird erläutert, wie AEM Guides mit grundlegenden Dateivorgängen wie Kopieren, Einfügen, Drag-and-Drop und Löschen von Dateien umgeht. Die folgenden Szenarien sind möglich:
@@ -157,18 +163,18 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen.
+     - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen.
 
-      - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
+     - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 
-        Die ausgewählten Ordner werden zusammen mit ihrem Pfad aufgelistet. Bewegen Sie den Mauszeiger über das Ordner-Tag, um den vollständigen Pfad anzuzeigen.
-      - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners.
+       Die ausgewählten Ordner werden zusammen mit ihrem Pfad aufgelistet. Bewegen Sie den Mauszeiger über das Ordner-Tag, um den vollständigen Pfad anzuzeigen.
+     - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners.
 
 
    - **Zielpfad**: Geben Sie den Speicherort an, an den Sie die Quellordner verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und klicken Sie auf Auswählen , um den Vorgang abzuschließen.
-      - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
+     - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und klicken Sie auf Auswählen , um den Vorgang abzuschließen.
+     - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
 
      Der ausgewählte Ordner wird zusammen mit seinem Pfad im Textfeld angezeigt.
 
@@ -206,20 +212,20 @@ Um Dateien stapelweise zu verschieben, führen Sie die folgenden Schritte aus:
 
    - **Source-Pfad(e**: Geben Sie den Speicherort der Ordner an, die Sie verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen.
+     - Wählen Sie **Ordner durchsuchen**  <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie die zu verschiebenden Ordner aus und klicken Sie auf **Auswählen**, um den Vorgang abzuschließen.
 
-      - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
+     - Sie können auch den Quellspeicherort eingeben oder kopieren und einfügen. Drücken Sie die Eingabetaste , um den Ordner zur Liste hinzuzufügen.
 
-        Die ausgewählten Ordner werden zusammen mit ihrem Pfad aufgelistet. Bewegen Sie den Mauszeiger über das Ordner-Tag, um den vollständigen Pfad anzuzeigen.
-      - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners.
+       Die ausgewählten Ordner werden zusammen mit ihrem Pfad aufgelistet. Bewegen Sie den Mauszeiger über das Ordner-Tag, um den vollständigen Pfad anzuzeigen.
+     - Sie können auch einen beliebigen Ordner entfernen, indem Sie auf **Entfernen** klicken <img src="images/remove-folder.svg" width="25"> in der Nähe des Ordners.
 
 
    - **Zielpfad**: Geben Sie den Speicherort an, an den Sie die Quellordner verschieben möchten.
 
-      - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und klicken Sie auf Auswählen , um den Vorgang abzuschließen.
-      - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
+     - Wählen Sie **Ordner durchsuchen** <img src="images/browse-folder-icon.svg" width="25">, um das Dialogfeld „Datei durchsuchen“ zu öffnen. Wählen Sie den Speicherort aus, an den Sie die Quellordner verschieben möchten. und klicken Sie auf Auswählen , um den Vorgang abzuschließen.
+     - Sie können den Zielpfad auch eingeben oder kopieren und einfügen.
 
-        Der ausgewählte Ordner wird zusammen mit seinem Pfad im Textfeld angezeigt.
+       Der ausgewählte Ordner wird zusammen mit seinem Pfad im Textfeld angezeigt.
 
    - Klicken Sie **Massenverschieben**.
 
@@ -328,4 +334,4 @@ Wenn Ihre Mediendatei Änderungen erfahren hat, können Sie die Dateien im Absch
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte verwalten](authoring.md)
+**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)

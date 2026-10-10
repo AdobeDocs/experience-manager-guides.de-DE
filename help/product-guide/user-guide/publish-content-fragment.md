@@ -4,23 +4,32 @@ description: Veröffentlichen Sie ein Thema oder die Elemente innerhalb eines Th
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-TQID: https://experienceleague.adobe.com/VcZKWpffZfB7KtquXVtIFWESim8paNCYmqGqboC1Kic
+TQID: 'https://experienceleague.adobe.com/VcZKWpffZfB7KtquXVtIFWESim8paNCYmqGqboC1Kic'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: afb45297-4313-4f67-818e-bc0b03abe086
+    internal-label: Knowledge base
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: '962'
 ht-degree: 2%
-
 ---
-
 # Veröffentlichen von Inhaltsfragmenten
 
 Inhaltsfragmente sind separate Inhaltselemente in Adobe Experience Manager. Es handelt sich um strukturierte Inhalte, die auf einem Inhaltsmodell basieren. Inhaltsfragmente sind reine Inhalte ohne Design- oder Layout-Informationen. Sie können unabhängig von den von Adobe Experience Manager unterstützten Kanälen erstellt und verwaltet werden. Inhaltsfragmente sind modular, wobei Inhalte in kleinere Komponenten unterteilt werden.
@@ -63,9 +72,9 @@ Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration hinzu. Di
      > 
      > Bedingungen werden nur aktiviert, wenn im Thema Bedingungsattribute definiert sind.
 
-      * **Keine**: Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die veröffentlichte Ausgabe anwenden möchten.
-      * **Verwenden von DITAVAL**: Wählen Sie die DITAVAL-Datei aus, um bestimmte Inhalte in die generierte Ausgabe ein- oder auszuschließen. Sie können die DITAVAL-Datei über das Dialogfeld „Durchsuchen“ oder durch Eingabe des Dateipfads auswählen.
-      * **Verwendung von Attributen**: Sie können Bedingungsattribute in Ihren DITA-Themen definieren. Wählen Sie dann das Bedingungsattribut aus, um den relevanten Inhalt zu veröffentlichen.
+     * **Keine**: Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die veröffentlichte Ausgabe anwenden möchten.
+     * **Verwenden von DITAVAL**: Wählen Sie die DITAVAL-Datei aus, um bestimmte Inhalte in die generierte Ausgabe ein- oder auszuschließen. Sie können die DITAVAL-Datei über das Dialogfeld „Durchsuchen“ oder durch Eingabe des Dateipfads auswählen.
+     * **Verwendung von Attributen**: Sie können Bedingungsattribute in Ihren DITA-Themen definieren. Wählen Sie dann das Bedingungsattribut aus, um den relevanten Inhalt zu veröffentlichen.
 
 
 
@@ -80,12 +89,12 @@ Fügen Sie beispielsweise `/conf/we-retail` in der Cloud-Konfiguration hinzu. Di
 
    * **Modell**: Wählen Sie das Inhaltsfragmentmodell aus, das Sie zum Erstellen Ihres Inhaltsfragments verwenden möchten. Die Modelle werden aus dem Ordner ausgewählt, den Sie auf dem Experience Manager Guides-Server konfiguriert haben.
    * **Zuordnung**: Sie können die Themenelemente anzeigen, auf die ein ID-Attribut angewendet wurde. Ziehen Sie die Themenelemente in die Felder des Inhaltsfragmentmodells.
-Die rechte Seite wird im Falle eines vorhandenen Inhaltsfragments mit den veröffentlichten Inhaltsfragmentinhalten gefüllt. Diese können bei Bedarf mit dem Themeninhalt überschrieben werden. Sie können auch **Rückgängig“ auswählen** um die Zuordnungsänderungen rückgängig zu machen.
+     Die rechte Seite wird im Falle eines vorhandenen Inhaltsfragments mit den veröffentlichten Inhaltsfragmentinhalten gefüllt. Diese können bei Bedarf mit dem Themeninhalt überschrieben werden. Sie können auch **Rückgängig“ auswählen** um die Zuordnungsänderungen rückgängig zu machen.
 
 
      >[!NOTE]
      >
-     > Wenn Sie Version 4.4 oder frühere Versionen verwenden, wählen Sie eine Zuordnung aus der Dropdown-Liste aus. Die Zuordnungen werden aus der Datei *contentFragmentMapping.json* ausgewählt.  Ihr Administrator kann die Zuordnungen in der Datei *contentFragmentMapping.json* hinzufügen. Weitere Informationen zum Erstellen [&#x200B; Zuordnung zwischen einem Thema und einem Inhaltsfragment &#x200B;](../cs-install-guide/conf-content-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
+     > Wenn Sie Version 4.4 oder frühere Versionen verwenden, wählen Sie eine Zuordnung aus der Dropdown-Liste aus. Die Zuordnungen werden aus der Datei *contentFragmentMapping.json* ausgewählt.  Ihr Administrator kann die Zuordnungen in der Datei *contentFragmentMapping.json* hinzufügen. Weitere Informationen zum Erstellen [ Zuordnung zwischen einem Thema und einem Inhaltsfragment ](../cs-install-guide/conf-content-fragment-mapping-cs.md) Sie im Installations- und Konfigurationshandbuch.
 
 1. Wählen **Generieren**, um das Inhaltsfragment zu veröffentlichen.
 

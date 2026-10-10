@@ -5,29 +5,35 @@ feature: Authoring, DITAVAL Editor
 role: User
 hide: true
 exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
-TQID: https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c
+TQID: 'https://experienceleague.adobe.com/kIveRGwg17BgYGEsn9dgAtr8r5HFlEya-nD7gK2G--c'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: ca593223-d11a-4a52-b369-a8e081e71737
+    internal-label: Desktop tools
+  - id: ec789d92-5632-44b6-abc6-bc29bbd44cb6
+    internal-label: DITAVAL editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '792'
 ht-degree: 0%
-
 ---
-
 # DITAVAL-Editor {#ditaval-editor}
 
 DITAVAL-Dateien werden zur Erzeugung von bedingten Ausgaben verwendet. In einem einzelnen Thema können Sie Bedingungen mithilfe von Elementattributen hinzufügen, um Inhalte mit Bedingungen zu versehen. Anschließend erstellen Sie eine DITAVAL-Datei, in der Sie die Bedingungen angeben, die aufgenommen werden sollen, um Inhalte zu generieren, und welche Bedingung bei der endgültigen Ausgabe ausgeschlossen werden soll.
 
-Mit AEM Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die in Ihrem System definierten Attribute \(oder tags\) ab, mit denen Sie DITAVAL-Dateien erstellen oder bearbeiten können. Weitere Informationen zum Erstellen und Verwalten von Tags in AEM finden Sie [&#x200B; Abschnitt „Verwalten von &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=de)&quot; in der Dokumentation zu AEM.
+Mit AEM Guides können Sie DITAVAL-Dateien mit dem DITAVAL-Editor ganz einfach erstellen und bearbeiten. Der DITAVAL-Editor ruft die in Ihrem System definierten Attribute \(oder tags\) ab, mit denen Sie DITAVAL-Dateien erstellen oder bearbeiten können. Weitere Informationen zum Erstellen und Verwalten von Tags in AEM finden Sie [ Abschnitt „Verwalten von ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en)&quot; in der Dokumentation zu AEM.
 
 ## DITAVAL-Datei erstellen
 
@@ -63,13 +69,13 @@ Führen Sie folgende Schritte aus, um eine DITAVAL-Datei zu bearbeiten:
    Mit dem DITAVAL-Editor können Sie die folgenden Aufgaben ausführen:
 
    A: Linkes Bedienfeld ein/aus
-Linke Bereichsansicht umschalten. Wenn Sie die DITAVAL-Datei über DITA Map geöffnet haben, werden die Karte und das Repository in diesem Bedienfeld angezeigt. Weitere Informationen zum Öffnen einer Datei über DITA Map finden Sie unter [Themen über DITA Map bearbeiten](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+   Linke Bereichsansicht umschalten. Wenn Sie die DITAVAL-Datei über DITA Map geöffnet haben, werden die Karte und das Repository in diesem Bedienfeld angezeigt. Weitere Informationen zum Öffnen einer Datei über DITA Map finden Sie unter [Themen über DITA Map bearbeiten](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
    B: Speichern
-Speichert die in der Datei vorgenommenen Änderungen. Alle Ihre Änderungen werden in der aktuellen Version Ihrer Datei gespeichert.
+   Speichert die in der Datei vorgenommenen Änderungen. Alle Ihre Änderungen werden in der aktuellen Version Ihrer Datei gespeichert.
 
    C: Eigenschaft hinzufügen
-Fügen Sie in Ihrer DITAVAL-Datei eine einzelne Eigenschaft hinzu.
+   Fügen Sie in Ihrer DITAVAL-Datei eine einzelne Eigenschaft hinzu.
 
    ![](images/ditaval-editor-props.png)
 
@@ -78,7 +84,7 @@ Fügen Sie in Ihrer DITAVAL-Datei eine einzelne Eigenschaft hinzu.
    Die zweite Dropdown-Liste zeigt die für das ausgewählte Attribut konfigurierten Werte an. Anschließend werden in der nächsten Dropdown-Liste die Aktionen angezeigt, die Sie für das ausgewählte Attribut konfigurieren können. Die zulässigen Werte in der Dropdown-Liste Aktion sind `include`, `exclude`, `passthrough` und `flag`. Weitere Informationen zu diesen Werten finden Sie unter Definition des Elements [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) in der OASIS DITA-Dokumentation
 
    D: Alle Eigenschaften hinzufügen
-Wenn Sie mit einem Klick alle in Ihrem System definierten bedingten Eigenschaften oder Attribute hinzufügen möchten, verwenden Sie die Funktion Alle Eigenschaften hinzufügen .
+   Wenn Sie mit einem Klick alle in Ihrem System definierten bedingten Eigenschaften oder Attribute hinzufügen möchten, verwenden Sie die Funktion Alle Eigenschaften hinzufügen .
 
    >[!NOTE]
    >

@@ -2,7 +2,15 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2026.09.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen in der Version 2026.09.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 5d42c75d75b85b97fc3795c87004510eb43acd29
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 0%
@@ -56,7 +64,7 @@ Experience Manager Guides führt eine Fortschrittsverfolgung auf Themenebene fü
 
 Um dies zu unterstützen, sind Themen in der Dokumentansicht der Überprüfungs-Benutzeroberfläche in Akkordeons mit dem Kontrollkästchen **Thema als erledigt markieren** unterteilt. Die Themen, die Sie mithilfe des Kontrollkästchens als geprüft markieren, werden im Bereich **Themen** angezeigt, während **Zähler Themen überprüft** oben den Fortschritt bei den Ihnen zugewiesenen Themen anzeigt. Zusammen geben diese einen klaren Überblick darüber, was Sie behandelt haben und was noch verbleibt, auch wenn Sie nach einer Pause zu einer längeren Prüfungsaufgabe zurückkehren.
 
-Weitere Informationen finden Sie unter [Themen &#x200B;](../user-guide/review-topics.md#mark-individual-topics-as-done-in-a-review-task).
+Weitere Informationen finden Sie unter [Themen ](../user-guide/review-topics.md#mark-individual-topics-as-done-in-a-review-task).
 
 
 ### Identifizieren von Benutzern mit Rollen beim Taggen in Kommentaren

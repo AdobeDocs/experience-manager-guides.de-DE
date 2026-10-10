@@ -4,29 +4,37 @@ description: Erfahren Sie, wie Sie Dateien von der DITA-Zuordnungskonsole in AEM
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-TQID: https://experienceleague.adobe.com/xwz0wuugvwPsmIX78kuwv5te2NGcNTik-qoJvijRzzg
+TQID: 'https://experienceleague.adobe.com/xwz0wuugvwPsmIX78kuwv5te2NGcNTik-qoJvijRzzg'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 2afda568-c433-5cad-ab97-19b8847286b0
+    internal-label: Content Management
 subfeature_v2:
   - id: a7bba4a6-624b-4427-a9b8-dd411a1bfd41
+    internal-label: Map Editor
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
   - id: f9dbea21-a714-40dd-bc90-080d8046c93f
+    internal-label: Map console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: '864'
 ht-degree: 0%
-
 ---
-
 # Dateien herunterladen {#id216MC0H0BE8}
 
-Sie können Assets, einschließlich DITA- und Nicht-DITA-Dateien, herunterladen. Es gibt mehrere Möglichkeiten, Assets herunterzuladen. Einige Methoden sind nativ in Adobe Experience Manager und andere werden von Adobe Experience Manager Guides unterstützt. Informationen zum nativen Herunterladen von Adobe Experience Manager-Assets finden Sie unter [Herunterladen von Assets von Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=de) in der Dokumentation zu Adobe Experience Manager. Im folgenden Abschnitt wird der Mechanismus zum Herunterladen von Dateien in Experience Manager Guides erläutert.
+Sie können Assets, einschließlich DITA- und Nicht-DITA-Dateien, herunterladen. Es gibt mehrere Möglichkeiten, Assets herunterzuladen. Einige Methoden sind nativ in Adobe Experience Manager und andere werden von Adobe Experience Manager Guides unterstützt. Informationen zum nativen Herunterladen von Adobe Experience Manager-Assets finden Sie unter [Herunterladen von Assets von Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in der Dokumentation zu Adobe Experience Manager. Im folgenden Abschnitt wird der Mechanismus zum Herunterladen von Dateien in Experience Manager Guides erläutert.
 
 ## Herunterladen einer DITA-Map-Datei aus dem Editor
 
@@ -49,13 +57,13 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei aus dem Edi
 
    - **Dateihierarchieoptionen**: Sie können auch das Dropdown-Menü „Dateihierarchie“ verwenden, um festzulegen, wie die Ordnerstruktur für Ihre heruntergeladenen Zuordnungsdateien verarbeitet werden soll. Folgende Optionen sind verfügbar:
 
-      - **Dateihierarchie beibehalten**: Wählen Sie diese Option aus der Dropdown-Liste, um die vorhandene Ordnerstruktur für die heruntergeladenen Dateien beizubehalten.
-      - **Dateihierarchie reduzieren**: Wählen Sie diese Option aus der Dropdown-Liste, um alle referenzierten Themen und Mediendateien in einen Ordner herunterzuladen.
+     - **Dateihierarchie beibehalten**: Wählen Sie diese Option aus der Dropdown-Liste, um die vorhandene Ordnerstruktur für die heruntergeladenen Dateien beizubehalten.
+     - **Dateihierarchie reduzieren**: Wählen Sie diese Option aus der Dropdown-Liste, um alle referenzierten Themen und Mediendateien in einen Ordner herunterzuladen.
 
      Für jede Option können Sie außerdem angeben, wie Dateinamen für heruntergeladene Dateien verarbeitet werden. Die folgenden Dateinamenoptionen sind verfügbar:
 
-      - **GUID-Dateinamen verwenden**: Lädt die Zuordnungsdatei mit GUID als Dateinamen herunter.
-      - **Tatsächlichen Dateinamen verwenden**: Lädt die Zuordnungsdatei mit dem ursprünglichen Dateinamen herunter. Wenn diese Option mit Dateihierarchie reduzieren verwendet wird, werden alle doppelten Dateinamen in der Zuordnung automatisch durch Anhängen numerischer Suffixe (_2, _3 usw.) aufgelöst, um eindeutige Dateinamen sicherzustellen.
+     - **GUID-Dateinamen verwenden**: Lädt die Zuordnungsdatei mit GUID als Dateinamen herunter.
+     - **Tatsächlichen Dateinamen verwenden**: Lädt die Zuordnungsdatei mit dem ursprünglichen Dateinamen herunter. Wenn diese Option mit Dateihierarchie reduzieren verwendet wird, werden alle doppelten Dateinamen in der Zuordnung automatisch durch Anhängen numerischer Suffixe (_2, _3 usw.) aufgelöst, um eindeutige Dateinamen sicherzustellen.
 
    >[!NOTE]
    >
@@ -125,4 +133,4 @@ Führen Sie die folgenden Schritte aus, um eine DITA-Zuordnungsdatei zusammen mi
 
 Nachdem die Karte heruntergeladen wurde, können Sie die Karte auswählen und das Symbol Öffnen oben verwenden, um den heruntergeladenen Inhalt zu öffnen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte verwalten](authoring.md)
+**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)

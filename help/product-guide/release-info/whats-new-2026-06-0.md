@@ -2,13 +2,19 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2026.06.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2026.06.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f3f30400f776f746427e257e2c937ff3413aa9ac
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
-
 ---
-
 # Neue Funktionen in der Version 2026.06.0 (Juni 2026)
 
 Dieser Artikel behandelt die neuen und erweiterten Funktionen, die mit der Version 2026.06.0 von Adobe Experience Manager Guides as a Cloud Service eingeführt wurden.
@@ -36,7 +42,7 @@ Eine neue Publishing-Engine *Native PDF Engine v2* ist jetzt für Native PDF in 
 
 Beispielsweise kann der Text in generierten PDF-Dateien aufgrund von Aktualisierungen in den von der (nativen PDF Engine v2 *verwendeten Kernschriftarten leicht* aussehen. Ebenso können Bilder aufgrund von Verbesserungen bei der Bildinterpolation und dem Rendering-Verhalten schärfer aussehen.
 
-Erfahren Sie, wie [&#x200B; native PDF Engine v2 &#x200B;](../native-pdf/conf-new-pdf-engine.md) Ihrer Umgebung aktivieren.
+Erfahren Sie, wie [ native PDF Engine v2 ](../native-pdf/conf-new-pdf-engine.md) Ihrer Umgebung aktivieren.
 
 Informationen zur **nativen PDF Engine v2** finden Sie unter [Arbeiten mit der nativen PDF Engine v2](../native-pdf/new-pdf-engine.md).
 
@@ -68,7 +74,7 @@ Autoren können konfigurierte externe Datenquellen weiter verwenden, während si
 
 Sie können jetzt den Abschluss der Prüfungsaufgabe zwischen der Überprüfungs-Benutzeroberfläche und dem AEM-Posteingang synchron halten. Wenn diese Funktion aktiviert ist, wird sie durch das Abschließen einer Aufgabe in der Überprüfungs-Benutzeroberfläche aus dem AEM-Posteingang entfernt, und durch das Abschließen aus dem AEM-Posteingang wird sie in der Überprüfungs-Benutzeroberfläche als abgeschlossen markiert. Dadurch wird vermieden, dass dieselbe Aufgabe zweimal ausgeführt wird, und der Überprüfungs-Workflow reibungsloser. Autoren und Aufgabeninitiatoren können weiterhin Feedback überprüfen und Aufgaben neu zuweisen, wenn eine zusätzliche Überprüfung erforderlich ist. Wenn eine Aufgabe neu zugewiesen wird, wird eine neue AEM-Posteingangsbenachrichtigung für den Reviewer generiert, sodass der Überprüfungszyklus nahtlos fortgesetzt werden kann.
 
-Weitere Informationen finden Sie unter [Prüfungsaufgabe als Prüferin bzw. Prüfer &#x200B;](../user-guide/review-complete-review-tasks.md).
+Weitere Informationen finden Sie unter [Prüfungsaufgabe als Prüferin bzw. Prüfer ](../user-guide/review-complete-review-tasks.md).
 
 ## Verbesserungen an Lerninhalten
 

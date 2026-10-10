@@ -4,7 +4,20 @@ description: Erfahren Sie mehr über die verschiedenen Einstellungen, die in der
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 10df0495-1d52-4c7c-a11a-059fe72d09f2
-source-git-commit: 5ed0a5191e1852dd65e0461f02d520b195f7cc39
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2378'
 ht-degree: 1%
@@ -76,7 +89,7 @@ Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren
 
 - **Zitate**
 
-  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von &#x200B;](../user-guide/web-editor-apply-citations.md#change-citation-style).
+  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von ](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Bedingung**
 
@@ -256,7 +269,7 @@ Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum �
      >
      > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
-  1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![&#x200B; Sprachgruppen zu bearbeiten &#x200B;](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![&#x200B; oder zu löschen](../user-guide/images/Delete_icon.svg).
+  1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](../user-guide/images/Delete_icon.svg).
   1. Speichern Sie die **Einstellungen**.
 
      >[!NOTE]

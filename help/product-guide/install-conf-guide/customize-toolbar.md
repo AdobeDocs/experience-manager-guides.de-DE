@@ -5,20 +5,35 @@ feature: Web Editor Configuration
 role: Admin
 level: Experienced
 exl-id: 42f1ee19-cc59-49da-b882-5d97ec387df6
-source-git-commit: cc73b81787a3c3dbe8390d93e558064327e59965
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1728'
 ht-degree: 0%
-
 ---
-
 # Symbolleiste anpassen {#id172FB00L0V6}
 
 Standardmäßig werden im Lieferumfang des Editors die gängigsten redaktionellen Funktionen enthalten sein, die für einen DITA-Editor erforderlich sind. Funktionen wie das Einfügen von Elementen des Typs \(nummeriert oder mit Aufzählungszeichen\), Querverweis, Inhaltsreferenz, Tabelle, Absatz und Zeichenformatierung sind im Editor verfügbar. Zusätzlich zu diesen grundlegenden Elementen können Sie den Editor so anpassen, dass Elemente eingefügt werden, die in Ihrer Autorenumgebung verwendet werden.
 
 >[!NOTE]
 >
-> Bei der Migration von der alten Benutzeroberfläche zur neuen AEM Guides-Benutzeroberfläche (anwendbar ab Version 2502 und 5.0 von AEM Guides) müssen Aktualisierungen an `ui_config` in flexiblere und modulare Benutzeroberflächenkonfigurationen konvertiert werden. Dieses Framework hilft bei der nahtlosen Übernahme von Änderungen in die editor_toolbar und ggf. andere Target-Widgets. Weitere Informationen finden Sie unter [Übersicht über die Konfiguration der Convert-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Bei der Migration von der alten Benutzeroberfläche zur neuen AEM Guides-Benutzeroberfläche (anwendbar ab Version 2502 und 5.0 von AEM Guides) müssen Aktualisierungen an `ui_config` in flexiblere und modulare Benutzeroberflächenkonfigurationen konvertiert werden. Dieses Framework hilft bei der nahtlosen Übernahme von Änderungen in die editor_toolbar und ggf. andere Target-Widgets. Weitere Informationen finden Sie unter [Übersicht über die Konfiguration der Convert-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Es gibt zwei Möglichkeiten, die Symbolleiste des Editors anzupassen:
 
@@ -55,11 +70,11 @@ Die folgenden Registerkarten enthalten Anweisungen basierend auf Ihrer Experienc
    **Elemente**: Geben Sie die Definition aller Gruppen in der Symbolleiste an. Jede Gruppe kann ein oder mehrere Symbolleistensymbole enthalten. Um Symbole innerhalb einer Symbolleistengruppe zu definieren, müssen Sie erneut das `type` Attribut innerhalb der `items` definieren und deren Wert auf `buttonGroup` festlegen. Geben Sie einen oder mehrere Klassennamen in der `extraclass` Eigenschaft an. Geben Sie den Funktionsnamen in der Eigenschaft `label` an. Der folgende Ausschnitt aus der `ui_config.json` zeigt die Definition für den Haupt-Symbolleistenblock, gefolgt von der `buttonGroup` Definition:
 
        &quot;
-     „toolbar“: &lbrace;
+     „toolbar“: {
      „type“: „blockGroup“,
      „extraClass“:    „toolbar operations“,     
-„items“: &lbrack;     
-&lbrace;     
+„items“: [     
+{     
 „type“:     
 „buttonGroup“,
 „extraClass“: „left-Controls“,     
@@ -133,7 +148,7 @@ Die folgenden Registerkarten enthalten Anweisungen basierend auf Ihrer Experienc
 
 1. Fügen Sie in der `ui_config.json`-Datei die Definition der neuen Funktion im Abschnitt Symbolleisten hinzu. In der Regel können Sie eine neue Gruppe von Symbolleistenschaltflächen erstellen und ihr eine oder mehrere Symbolleistenschaltflächen hinzufügen. Sie können auch eine neue Symbolleistenschaltfläche zu einer vorhandenen Symbolleistengruppe hinzufügen. Zum Erstellen einer neuen Symbolleistengruppe sind die folgenden Details erforderlich:
 
-   - **type:**&#x200B;Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
+   - **type:**Geben Sie `blockGroup` als `type` an. Dieser Wert gibt an, dass Sie eine Blockgruppe erstellen, die eine oder mehrere Symbolleistengruppen enthalten würde.
 
    - **extraClass:** Name der Klasse(n), durch Leerzeichen getrennt.
 
@@ -153,7 +168,7 @@ Die folgenden Registerkarten enthalten Anweisungen basierend auf Ihrer Experienc
      ```
 
      Innerhalb der `items` müssen Sie die Definition für ein oder mehrere Symbolleistensymbole angeben.
-Sie müssen die folgenden Eigenschaften definieren, um ein Symbolleistensymbol hinzuzufügen:
+     Sie müssen die folgenden Eigenschaften definieren, um ein Symbolleistensymbol hinzuzufügen:
 
    - **type:** Geben Sie `button` als `type` an. Dieser Wert gibt an, dass Sie eine Symbolleistenschaltfläche hinzufügen.
 

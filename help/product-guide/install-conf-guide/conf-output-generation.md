@@ -5,13 +5,28 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 6fff24d2-ec25-4654-837c-179e8688e2f4
-source-git-commit: 12ba7129255257970ddd7a0989149be664ce9803
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+    internal-label: Output generation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3402'
 ht-degree: 1%
-
 ---
-
 # Einstellungen für die Ausgabegenerierung konfigurieren {#id181AI0B0E30}
 
 AEM Guides bietet viele Konfigurationsoptionen, mit denen Sie den Prozess der Ausgabenerstellung anpassen können. In diesem Abschnitt werden alle Konfigurationen und Anpassungen behandelt, die Ihnen beim Einrichten des Prozesses der Ausgabenerstellung helfen.
@@ -287,8 +302,8 @@ Um die an das DITA-OT übergebenen Metadatenwerte zu überprüfen, kann die loka
 
   So greifen Sie auf metadata.xml zu:
 
-   - Melden Sie sich bei dem Server-Speicherort an, auf dem die AEM-Instanz ausgeführt wird.
-   - Migrieren Sie zu „crx-quickstart/profiles/ditamaps/&lt;newly-created-directory-name\>/metadata.xml&quot;.
+  - Melden Sie sich bei dem Server-Speicherort an, auf dem die AEM-Instanz ausgeführt wird.
+  - Migrieren Sie zu „crx-quickstart/profiles/ditamaps/&lt;newly-created-directory-name\>/metadata.xml&quot;.
 - Beispieldateiformat:
 
   **metadata.xml**
@@ -347,11 +362,11 @@ AEM Guides stellt die `apps.fmdita.dashboard-extn` zum Anpassen der Zuordnungsko
 
 >[!NOTE]
 >
-> Weitere Informationen zum Erstellen der AEM-Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=de).
+> Weitere Informationen zum Erstellen der AEM-Client-Bibliothek finden Sie unter [Verwenden Client-seitiger Bibliotheken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Verarbeiten der Bildausgabedarstellung während der Ausgabegenerierung {#id177BF0G0VY4}
 
-AEM enthält einen Satz von standardmäßigen Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Asset-Verarbeitung für die gängigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabedarstellungen desselben Bilds im Binärformat. Diese Ausgabedarstellungen können unterschiedlich groß sein, eine andere Auflösung, ein hinzugefügtes Wasserzeichen oder eine andere geänderte Eigenschaft aufweisen. Weitere Informationen zum Verarbeiten von Assets durch AEM finden Sie unter [Verarbeiten von Assets mit Medien-Handlern und Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=de) in der Dokumentation zu AEM.
+AEM enthält einen Satz von standardmäßigen Workflows und Medien-Handles zur Verarbeitung von Assets. In AEM gibt es vordefinierte Workflows für die Asset-Verarbeitung für die gängigsten MIME-Typen. Normalerweise erstellt AEM für jedes Bild, das Sie hochladen, mehrere Ausgabedarstellungen desselben Bilds im Binärformat. Diese Ausgabedarstellungen können unterschiedlich groß sein, eine andere Auflösung, ein hinzugefügtes Wasserzeichen oder eine andere geänderte Eigenschaft aufweisen. Weitere Informationen zum Verarbeiten von Assets durch AEM finden Sie unter [Verarbeiten von Assets mit Medien-Handlern und Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) in der Dokumentation zu AEM.
 
 Mit AEM Guides können Sie konfigurieren, welche Bildausgabe zum Zeitpunkt der Generierung der Ausgabe für Ihre Dokumente verwendet werden soll. Sie können beispielsweise aus einer der standardmäßigen Bildausgabedarstellungen auswählen oder eine erstellen und dieselbe zum Veröffentlichen Ihrer Dokumente verwenden. Die Bildausgabedarstellungszuordnung zum Veröffentlichen Ihrer Dokumente wird in der `/libs/fmdita/config/ **renditionmap.xml**`-Datei gespeichert. Ein Ausschnitt `renditionmap.xml` Datei lautet wie folgt:
 
@@ -431,7 +446,7 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | Geben Sie die Anzahl der Tage an, nach denen der Ausgabeverlauf zusammen mit den Ausgabeprotokollen bereinigt wird. Wenn Sie diese Funktion deaktivieren möchten, setzen Sie diese Eigenschaft auf 0. Täglich zum angegebenen Zeitpunkt, an dem der Bereinigungsvorgang für Ausgaben ausgeführt wird, die vor der in dieser Eigenschaft angegebenen Anzahl von Tagen generiert wurden. | **Standardwert**: 5 |
-| `output.history.purgetime` | Geben Sie den Zeitpunkt an, zu dem der Bereinigungsvorgang gestartet wird. | **Standardwert**: 0:00 \(oder 12:00 midnight\) |
+| `output.history.purgetime` | Geben Sie den Zeitpunkt an, zu dem der Bereinigungsvorgang gestartet wird. | **Standardwert**: 0:00 \(oder 12:00 Uhr Mitternacht\) |
 
 >[!TAB On-Premise]
 
@@ -447,7 +462,7 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 1. Geben **in der Eigenschaft &quot;** des Ausgabehistorie-Löschzeitraums“ die Anzahl der Tage an, nach denen der Ausgabehistorie zusammen mit den Ausgabeprotokollen bereinigt wird. Standardmäßig ist dieser Zeitraum auf 5 Tage festgelegt. Wenn Sie diese Funktion deaktivieren möchten, setzen Sie diese Eigenschaft auf 0.
 
-1. Geben **in der Eigenschaft** Ausgabeverlauf: Bereinigungszeit“ den Zeitpunkt an, zu dem der Bereinigungsvorgang gestartet wird. Standardmäßig ist dies auf 0:00 \(oder 12:00 Mitternacht\) festgelegt. Zu dieser Zeit wird täglich der Bereinigungsvorgang für Ausgaben ausgeführt, die vor der in der Eigenschaft &quot;**des Ausgabeverlaufs: Bereinigungszeitraum“ angegebenen Anzahl** Tagen generiert wurden.
+1. Geben **in der Eigenschaft** Ausgabeverlauf: Bereinigungszeit“ den Zeitpunkt an, zu dem der Bereinigungsvorgang gestartet wird. Standardmäßig ist dies auf 0:00 \(oder 12:00 Uhr Mitternacht\) festgelegt. Zu dieser Zeit wird täglich der Bereinigungsvorgang für Ausgaben ausgeführt, die vor der in der Eigenschaft &quot;**des Ausgabeverlaufs: Bereinigungszeitraum“ angegebenen Anzahl** Tagen generiert wurden.
 
    >[!NOTE]
    >
@@ -503,8 +518,8 @@ Um AEM Guides für die Verwendung von FMPS zu konfigurieren, aktualisieren Sie d
 
 | Eigenschaft | Beschreibung |
 |--------|-----------|
-| FrameMaker Publishing Server-Anmeldedomäne | Geben Sie den Domain-Namen oder den Arbeitsgruppennamen an, auf dem die FrameMaker Publishing Server gehostet wird. Geben Sie basierend auf der FMPS-Version den Domain-Namen als:- **FMPS 2020** an: IP-Adresse als 192.168.1.101 <br>- **FMPS 2019 und früher**: IP-Adresse oder den Domain-Namen |
-| FrameMaker Publishing Server-URL | Geben Sie die URL der FrameMaker Publishing Server an. Geben Sie basierend auf der FMPS-Version die FMPS-URL als: <br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 und früher**: `http://<fmps_ip>:<port>/fmserver/v1/` |
+| FrameMaker Publishing Server-Anmeldedomäne | Geben Sie den Domain-Namen oder den Arbeitsgruppennamen an, auf dem die FrameMaker Publishing Server gehostet wird. Geben Sie basierend auf der FMPS-Version den Domain-Namen wie folgt an:- **FMPS 2020**: IP-Adresse als 192.168.1.101 <br>- **FMPS 2019 und früher**: IP-Adresse oder den Domain-Namen |
+| FrameMaker Publishing Server-URL | Geben Sie die URL der FrameMaker Publishing Server an. Geben Sie basierend auf der FMPS-Version die FMPS-URL wie folgt an: <br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 und früher**: `http://<fmps_ip>:<port>/fmserver/v1/` |
 | FMPS-Version | Geben Sie die Versionsnummer der FrameMaker Publishing Server an. Geben Sie basierend auf der FMPS-Version die Versionsinformationen wie folgt an: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 und früher**: 2019 oder 2017 |
 | Benutzername und Kennwort für FrameMaker Publishing Server | Geben Sie den Benutzernamen und das Kennwort für den Zugriff auf die FrameMaker Publishing Server an. |
 | FMPS-Zeitüberschreitung | \(*Optional*\) Geben Sie die Zeit \(in Sekunden\) an, für die AEM Guides auf eine Antwort von FrameMaker Publishing Server wartet. Wenn in der angegebenen Zeit keine Antwort eingeht, beendet AEM Guides die Veröffentlichungsaufgabe und die Aufgabe wird als fehlgeschlagen markiert. <br> Standardwert: 300 Sekunden \(5 Minuten\) |

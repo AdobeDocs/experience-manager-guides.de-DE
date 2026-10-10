@@ -5,13 +5,28 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: f84bc82a-505c-4511-8336-bb87c8eb78e3
-source-git-commit: aac604893134edc2b28e8f6d7977e92256fe7e63
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 2%
-
 ---
-
 # Aktualisieren von Adobe Experience Manager Guides für Version 4.6.0 und höher
 
 Dieser Artikel enthält Anweisungen zum Aktualisieren Ihrer Experience Manager Guides-Versionen auf 4.6.0 und höher.
@@ -46,7 +61,7 @@ Weitere Informationen finden Sie in den folgenden Verfahren:
 
 >[!IMPORTANT]
 >
-> Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.2.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/de/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.2.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Voraussetzungen**
 
@@ -66,7 +81,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 5.2.0 Folge
 
 **Installieren Sie Version 5.2.0**
 
-Laden Sie die Version 5.2.0 vom [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) herunter und befolgen Sie die Anweisungen unter [Workflow für Installation und &#x200B;](#installation-and-post-installation-upgrade-workflow) nach der Installation), um den Upgrade-Vorgang abzuschließen.
+Laden Sie die Version 5.2.0 vom [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) herunter und befolgen Sie die Anweisungen unter [Workflow für Installation und ](#installation-and-post-installation-upgrade-workflow) nach der Installation), um den Upgrade-Vorgang abzuschließen.
 
 
 ## Aktualisierung auf Version 5.1.0
@@ -74,7 +89,7 @@ Laden Sie die Version 5.2.0 vom [Adobe Software Distribution Portal](https://exp
 
 >[!IMPORTANT]
 >
-> Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.1.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/de/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Wenn Sie derzeit AEM 6.5 verwenden und planen, auf AEM 6.5 LTS zu wechseln, stellen Sie sicher, dass Sie zuerst das AEM-Upgrade abschließen, bevor Sie mit dem Experience Manager Guides 5.1.0-Upgrade fortfahren. Weitere Informationen finden Sie unter [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Voraussetzungen**
 
@@ -94,7 +109,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 5.1.0 Folge
 
 **Installieren Sie Version 5.1.0**
 
-Laden Sie das Versionspaket 5.1.0 vom [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) herunter und befolgen Sie die Anweisungen unter [Workflow für Installation und &#x200B;](#installation-and-post-installation-upgrade-workflow) nach der Installation), um den Upgrade-Vorgang abzuschließen.
+Laden Sie das Versionspaket 5.1.0 vom [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) herunter und befolgen Sie die Anweisungen unter [Workflow für Installation und ](#installation-and-post-installation-upgrade-workflow) nach der Installation), um den Upgrade-Vorgang abzuschließen.
 
 
 ## Aktualisieren auf Version 5.0.0
@@ -118,7 +133,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 5.0.0 Folge
 
 **Installieren Sie Version 5.0.0**
 
-Laden Sie das Versionspaket 5.0.0 vom [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) herunter und befolgen Sie die Anweisungen unter [Workflow für Installation und &#x200B;](#installation-and-post-installation-upgrade-workflow) nach der Installation), um den Upgrade-Vorgang abzuschließen.
+Laden Sie das Versionspaket 5.0.0 vom [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) herunter und befolgen Sie die Anweisungen unter [Workflow für Installation und ](#installation-and-post-installation-upgrade-workflow) nach der Installation), um den Upgrade-Vorgang abzuschließen.
 
 ## Aktualisieren auf Version 4.6.0
 
@@ -142,7 +157,7 @@ Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 4.6.0 Folge
 
 **Installieren Sie Version 4.6.0**
 
-Laden Sie das Versionspaket 4.6.0 vom [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) herunter und befolgen Sie die Anweisungen unter [Workflow für Installation und &#x200B;](#installation-and-post-installation-upgrade-workflow) nach der Installation), um den Upgrade-Vorgang abzuschließen.
+Laden Sie das Versionspaket 4.6.0 vom [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/de/aem.html) herunter und befolgen Sie die Anweisungen unter [Workflow für Installation und ](#installation-and-post-installation-upgrade-workflow) nach der Installation), um den Upgrade-Vorgang abzuschließen.
 
 ## Workflow für Installation und Upgrade nach der Installation
 
@@ -193,15 +208,15 @@ Nach der Installation von Experience Manager Guides können Sie die verschiedene
 
      **Registerkarte „Allgemein“:**
 
-      - **title:** DXML-Nachbearbeitungs-Initiator
+     - **title:** DXML-Nachbearbeitungs-Initiator
 
-      - **Beschreibung**: Schritt „DXML-Nachbearbeitungs-Initiator“, der einen Sling-Auftrag für die DXML-Nachbearbeitung des geänderten/erstellten Assets Trigger
+     - **Beschreibung**: Schritt „DXML-Nachbearbeitungs-Initiator“, der einen Sling-Auftrag für die DXML-Nachbearbeitung des geänderten/erstellten Assets Trigger
 
      **Registerkarte „Prozess“**
 
-      - Wählen Sie **DXML Post Process Initiator** aus der **Prozess** Dropdown aus
-      - Wählen Sie **Handler-Fortschritt** aus
-      - Wählen Sie **Fertig**
+     - Wählen Sie **DXML Post Process Initiator** aus der **Prozess** Dropdown aus
+     - Wählen Sie **Handler-Fortschritt** aus
+     - Wählen Sie **Fertig**
 
 1. Wählen **oben rechts** Synchronisieren“ aus, nachdem Sie die Änderungen abgeschlossen haben. Sie erhalten eine Erfolgsbenachrichtigung.
 
@@ -278,7 +293,7 @@ Da während dieses Upgrades der `'order'` von 1000 auf 50 geändert wird, müsse
 
 ### Schritte zur Neuindizierung von damAssetLucene
 
-Die Indexdefinition wird für damAssetLucene mit AEM Guides aktualisiert. Informationen zur Neuindizierung von damAssetLucene finden Sie nach [&#x200B; Upgrade auf &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-16460) erforderliche Version in diesem Artikel.
+Die Indexdefinition wird für damAssetLucene mit AEM Guides aktualisiert. Informationen zur Neuindizierung von damAssetLucene finden Sie nach [ Upgrade auf ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) erforderliche Version in diesem Artikel.
 
 >[!NOTE]
 >

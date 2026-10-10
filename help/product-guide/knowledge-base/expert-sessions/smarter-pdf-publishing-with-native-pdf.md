@@ -3,13 +3,19 @@ title: Intelligentere PDF-Veröffentlichung mit nativem PDF
 description: In dieser Expertensitzung wird erörtert, wie Native PDF verwendet werden kann, um DITA-fähige PDF ohne die Verwendung von erweitertem CSS- oder XSLT-Know-how zu erstellen, anstatt für die Generierung von PDF Low-Code-Technologie zu verwenden
 keywords: DITA PDF-Publishing, AEM Guides, Native PDF, DITA in PDF, DITA-Publishing-Workflow, PDF-Automatisierung, metadatengesteuerte Veröffentlichung, DITA-Vorlagen
 exl-id: 763ca6fb-1e5a-4676-9684-879c13ba9a8e
-source-git-commit: 2fde91e85c4283d114b29f77a38bae6d67e60112
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 3%
-
 ---
-
 # Intelligentere PDF-Veröffentlichung mit nativem PDF
 
 In dieser Sitzung haben wir erfahren, wie Sie Ihren Publishing-Workflow für DITA in PDF mithilfe der erweiterten nativen PDF-Funktionen in AEM Guides verbessern können. In dieser Sitzung erfahren Sie, wie Sie die Anpassung von PDF mit Metadaten, Branding und Lokalisierung automatisieren können, sodass nicht mehr mehrere DITA-Veröffentlichungsvorlagen erforderlich sind. Erfahren Sie, wie diese leistungsstarken Funktionen DITA-Teams dabei unterstützen, Inhalte intelligenter, schneller und skaliert zu veröffentlichen.
@@ -56,7 +62,7 @@ In dieser Sitzung haben wir Folgendes behandelt:
 
 ### Community-Forum
 
-- Sitzungsspezifische Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=de).
+- Sitzungsspezifische Community-Interaktionen mit Experience League finden Sie im [AEM Guides-Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 

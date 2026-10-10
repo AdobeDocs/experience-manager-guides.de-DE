@@ -2,7 +2,15 @@
 title: Versionshinweise | Upgrade-Anweisungen für Adobe Experience Manager Guides 5.1.0 Service Pack 4
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf Version 5.1.0 Service Pack 4 von Adobe Experience Manager Guides.
 exl-id: 4970ee05-2644-43d6-976b-bfaa91b41146
-source-git-commit: d11f910bde58b36a8db27d74be6799eb7891f3b5
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 4%
@@ -60,7 +68,7 @@ Sie können Ihre aktuelle Version von Experience Manager Guides einfach auf Vers
 
 >[!NOTE]
 >
-> Wenn Sie derzeit AEM 6.5 verwenden und planen, zu AEM 6.5 LTS zu wechseln, lesen Sie [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/de/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Wenn Sie derzeit AEM 6.5 verwenden und planen, zu AEM 6.5 LTS zu wechseln, lesen Sie [Upgrade auf Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Bevor Sie mit dem Upgrade auf Version 5.1.0 Service Pack 4 von Experience Manager Guides fortfahren, müssen Sie die folgenden Punkte berücksichtigen:
 

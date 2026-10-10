@@ -1,13 +1,19 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen und behobene Probleme in Adobe Experience Manager Guides Version 2026.08.0
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf die Version 2026.08.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 0de22d4883096f6a9f3b2ca8acfad4a10992f5e7
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 1%
-
 ---
-
 # Aktualisierungsanweisungen für die Version 2026.08.0
 
 Dieser Artikel behandelt die Upgrade-Anweisungen und die Kompatibilitätsmatrix für die Version 2026.08.0 von Adobe Experience Manager Guides as a Cloud Service.
@@ -28,7 +34,7 @@ Verwenden Sie die folgenden Ressourcen, wenn Sie benutzerdefinierte Java-Plug-in
 |---|---|---|----|
 | 2026.08.0 | 2026.8.0 | [AEM Guides SDK API 2026.8.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.8.0) | [Javadoc 2026.8.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-Weitere Informationen finden Sie unter [Konfigurieren und Verwenden der API-JAR-Datei aus dem Maven Central Repository](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/api-reference/introduction).
+Weitere Informationen finden Sie unter [Konfigurieren und Verwenden der API-JAR-Datei aus dem Maven Central Repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
 ### FrameMaker und FrameMaker Publishing Server
 

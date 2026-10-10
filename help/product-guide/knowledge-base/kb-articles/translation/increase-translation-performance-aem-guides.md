@@ -5,20 +5,25 @@ feature: Translation
 role: User, Admin
 author: Pulkit Nagpal (punagpal)
 exl-id: d7e4f3ae-2143-4767-b7ab-c89f5e5eef59
-TQID: https://experienceleague.adobe.com/n6-b3-ZsOIueVYWgcm1NkDLKRAOwQhWxctbgj7Q6P1U
+TQID: 'https://experienceleague.adobe.com/n6-b3-ZsOIueVYWgcm1NkDLKRAOwQhWxctbgj7Q6P1U'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 626b0638-bd2d-504c-8ccd-53d63b856710
+    internal-label: Translation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4f263fb5c60be66c1ec2d30d57dfb8f5be06eb92
+    internal-label: Admin
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '289'
 ht-degree: 0%
-
 ---
-
 # Best Practices für die Übersetzung in AEM Guides
 
 Die Leistung Ihres Übersetzungsprojekts kann mit zunehmender Übersetzungsaktivität im System abnehmen.
@@ -35,7 +40,7 @@ Bei jedem Übersetzungsprojekt werden mehrere Benutzergruppen für den Zugriff g
 
 - Bei älteren Projekten sollte der Ordner, der als inaktiv markiert, genehmigt und überprüft ist, gelöscht werden
   - Die folgenden Schritte helfen Ihnen, die Gesamtübersetzungsleistung in einem guten Zustand zu halten, indem sie temporäre Übersetzungsdateien und Benutzergruppen bereinigen, die mit diesem Projektordner verknüpft sind.
-    ![Übersetzungsprojekt und Ordner löschen &#x200B;](./assets/translation-project-image2.png)
+    ![Übersetzungsprojekt und Ordner löschen ](./assets/translation-project-image2.png)
 
 
 ## Wenn Sie eingeschaltet sind, erstellen Sie 4.6 oder 2404 oder höher:
@@ -44,4 +49,4 @@ Sie können weiterhin die oben genannten Schritte ausführen. Ab Version 4.6/240
 
 Verweis : [Ein abgeschlossenes Übersetzungsprojekt automatisch löschen oder deaktivieren](../../../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project)
 
-![Automatisierte Einstellungen zum Löschen und Deaktivieren von Übersetzungsprojekten in AEM Guides &#x200B;](./assets/translation-project-image3.png)
+![Automatisierte Einstellungen zum Löschen und Deaktivieren von Übersetzungsprojekten in AEM Guides ](./assets/translation-project-image3.png)

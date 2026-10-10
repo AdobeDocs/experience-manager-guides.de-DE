@@ -1,13 +1,19 @@
 ---
 title: Versionshinweise für Adobe Experience Manager Guides 4.0.x
 description: Erfahren Sie mehr über die Fehlerbehebungen, neuen Funktionen und Verbesserungen in Adobe Experience Manager Guides 4.0, 4.0.1, 4.0.2 und 4.0.3.
-source-git-commit: dc078c23c02c813fe39ca563e615dc3238c40253
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 5%
-
 ---
-
 
 # Versionshinweise | Adobe Experience Manager Guides 4.0.x
 
@@ -209,10 +215,10 @@ Es gibt viele Verbesserungen und neue Funktionen, die im Web-Editor eingeführt 
 
 - Das Kern-Framework wurde von der Coral-basierten Benutzeroberfläche in die spektrumbasierte Benutzeroberfläche geändert. Dies bietet eine sehr standardisierte und intuitive Benutzeroberfläche.
 - Im rechten Bedienfeld wurde die neue Funktion „Dateieigenschaften“ eingeführt. Sie können die Eigenschaften eines aktiven Dokuments überprüfen. Die Informationen sind in zwei Abschnitte unterteilt:
-   - *Allgemein*: enthält die allgemeinen Dateidetails wie Dateiname, UUID, Metadaten-Tags, Sprache, Erstellungsdatum, Status des Auscheckens und Dokumentstatus.
-   - *Referenz*: enthält eingehende und ausgehende Verweise.
+  - *Allgemein*: enthält die allgemeinen Dateidetails wie Dateiname, UUID, Metadaten-Tags, Sprache, Erstellungsdatum, Status des Auscheckens und Dokumentstatus.
+  - *Referenz*: enthält eingehende und ausgehende Verweise.
 
-     ![Bedienfeld Dateieigenschaften](assets/file-properties.avif)
+    ![Bedienfeld Dateieigenschaften](assets/file-properties.avif)
 
 - Unterstützung für das Betreffschema wurde auch im Web-Editor hinzugefügt. Sie können jetzt das Betreffschema mithilfe des Bedienfelds „Betreffschema“ erstellen und verwenden. Durch das Hinzufügen des Betreffschemas können Sie jetzt eigene Unternehmensmetadaten und -taxonomien verwenden.
 

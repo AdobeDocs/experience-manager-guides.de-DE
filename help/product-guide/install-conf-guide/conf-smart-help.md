@@ -2,7 +2,15 @@
 title: Konfigurieren der Smart-Hilfe für die Inhaltssuche
 description: Erfahren Sie, wie Sie die Smart-Hilfe für die Inhaltssuche konfigurieren
 exl-id: 5ebda503-066a-428e-bff4-1a1e91ada917
-source-git-commit: bd5be58a284c64f021af0fa97beca5e57514a5ab
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -21,7 +29,7 @@ Führen Sie die folgenden Schritte aus, um IMS-Konfigurationen in Adobe Develope
 
 1. [Adobe Developer Console starten](https://developer.adobe.com/console).
 1. Nach erfolgreicher Anmeldung bei Developer Console wird der Bildschirm &quot;**&quot;**. Auf dem **Startseite**-Bildschirm finden Sie mühelos Informationen und Schnelllinks, einschließlich der oberen Navigationslinks zu Projekten und Downloads.
-1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**&#x200B;Links aus.
+1. Um ein neues leeres Projekt zu erstellen, wählen Sie **Neues Projekt erstellen** aus den **Schnellstart**Links aus.
    ![Schnellstart-Links](assets/conf-ss-quick-start.png) {width="550"}
    *Neues Projekt erstellen.*
 
