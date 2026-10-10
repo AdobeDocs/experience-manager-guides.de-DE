@@ -1,13 +1,19 @@
 ---
 title: Versionshinweise | Upgrade-Anweisungen für Adobe Experience Manager Guides Version 5.0.0
 description: Erfahren Sie mehr über die Kompatibilitätsmatrix und das Upgrade auf Version 5.0.0 von Adobe Experience Manager Guides.
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 6%
-
+source-wordcount: '410'
+ht-degree: 5%
 ---
-
 # Aktualisierungsanweisungen für die Version 5.0.0 (März 2025)
 
 Dieser Artikel behandelt die Upgrade-Anweisungen und die Kompatibilitätsmatrix für Version 5.0.0 von Adobe Experience Manager Guides.
@@ -30,7 +36,7 @@ Weitere Informationen finden Sie im Abschnitt [Technische Anforderungen](/help/p
 
 ### FrameMaker und FrameMaker Publishing Server
 
-| Version | FMPS | FM |
+| Freigabe | FMPS | FM |
 | --- | --- | --- |
 | 5.0.0 (UUID) | Unterstützt | 2022 oder höher |
 
@@ -62,7 +68,7 @@ Sie können Ihre aktuelle Version von Guides einfach auf Version 5.0.0 aktualisi
 - Wenn Sie Version 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 oder 4.1.x verwenden, müssen Sie auf Version 4.4 aktualisieren, bevor Sie auf Version 5.0.0 aktualisieren.
 - Wenn Sie Version 4.0 verwenden, müssen Sie auf Version 4.2 aktualisieren, bevor Sie auf Version 4.3.x aktualisieren.
 - Wenn Sie Version 3.8.5 verwenden, müssen Sie auf Version 4.0 aktualisieren, bevor Sie auf Version 4.2 aktualisieren.
-- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/de/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
+- Wenn Sie eine Version vor 3.8.5 verwenden, lesen Sie den Abschnitt zum Upgrade von Experience Manager Guides im produktspezifischen Installationshandbuch, das auf der [Adobe Experience Manager Guides-Hilfe für PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) verfügbar ist.
 
 >[!NOTE]
 >

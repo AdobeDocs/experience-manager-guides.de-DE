@@ -5,24 +5,33 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-TQID: https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE
+TQID: 'https://experienceleague.adobe.com/gAPjyNNTtHv3StIe0O-Fs8Wx0NhXjkML-TEkAPLosIE'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5be0fc8f-1cff-5c3e-bb92-2903a56a3de6
+    internal-label: Migration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Troubleshooting
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 # Verarbeiten von Assets
 
 In datenintensiven Workflows wie der Veröffentlichung ist ein effizientes Asset-Management entscheidend für die Aufrechterhaltung von Leistung und Zuverlässigkeit. Der Asset-Verarbeitungs-Workflow dient zum Verwalten benutzerspezifischer Assets, die intensive Datenvorgänge erfordern. Sie gilt in erster Linie für zwei Fälle: wenn die anfängliche Verarbeitung aufgrund von Fehlern fehlschlägt oder wenn Dateien unverarbeitet bleiben, da kein Asset-Verarbeitungs-Trigger initiiert wurde. Durch die Aktivierung einer zielgerichteten Verarbeitung auf Ordnerebene können Benutzer nur die erforderlichen Assets isolieren und verarbeiten und so den Verwaltungsaufwand für unnötige Berechnungen vermeiden. Dieser selektive Ansatz verbessert die Leistung erheblich und verringert den Zeitaufwand für kritische Vorgänge wie die Veröffentlichung und die Berichterstellung. Insgesamt trägt sie zu mehr Effizienz und Geschwindigkeit bei der Bearbeitung komplexer Datenaufgaben bei.
@@ -74,7 +83,7 @@ Gehen Sie wie folgt vor, um die Assets zu verarbeiten:
    1. **Ordner und Dateien auswählen**: Navigieren Sie zu und wählen Sie einen oder mehrere Ordner und Dateien aus, die verarbeitet werden sollen.
    1. **Zu ignorierende Ordner auswählen** Wählen Sie optional Unterordner im ausgewählten übergeordneten Ordner aus, die von der Verarbeitung ausgeschlossen werden sollen.
    1. **Asset-Typ**: Wählen Sie aus der Dropdown-Liste den spezifischen Asset-Typ aus, der verarbeitet werden soll (z. B. DITA Topic, DITA Map, Markdown, HTML/CSS, DITAVAL oder andere Dateien). Nur der ausgewählte Asset-Typ wird aus den zuvor angegebenen Ordnern verarbeitet.
-Beispiel: Durch Auswahl von DITA Topic werden nur DITA-Themen innerhalb des ausgewählten Ordners verarbeitet, was eine zielgerichtete Filterung ermöglicht.
+      Beispiel: Durch Auswahl von DITA Topic werden nur DITA-Themen innerhalb des ausgewählten Ordners verarbeitet, was eine zielgerichtete Filterung ermöglicht.
    1. **Erstellt nach/Erstellt vor**: Wenden Sie Datumsfilter an, um Assets zu verarbeiten, die innerhalb des angegebenen Zeitraums erstellt wurden.
 
    >[!NOTE]

@@ -1,13 +1,19 @@
 ---
 title: Häufig gestellte Fragen zur Veröffentlichungsleistung und Skalierbarkeit in Adobe Experience Manager Guides
 description: Erfahren Sie mehr über die häufig gestellten Fragen zur Veröffentlichungsleistung und -skalierbarkeit in Adobe Experience Manager Guides.
-source-git-commit: f188c2827a9e27249d0162c9f9913e090b29672d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1666'
 ht-degree: 1%
-
 ---
-
 
 # Asset-Verarbeitung
 
@@ -39,47 +45,47 @@ Die Kernverarbeitungsschritte bleiben funktionell konsistent, werden jedoch jetz
 ### Verbesserungen der Architektur
 
 - **Graph-Datenbankintegration**:
-   - Übergang von hierarchischem JCR zu einer nativen Diagrammdatenbank
-   - Effiziente Handhabung von Beziehungen und Abhängigkeiten
-   - Beseitigt Komplexität bei der Simulation von Diagrammvorgängen auf hierarchischem Speicher
+  - Übergang von hierarchischem JCR zu einer nativen Diagrammdatenbank
+  - Effiziente Handhabung von Beziehungen und Abhängigkeiten
+  - Beseitigt Komplexität bei der Simulation von Diagrammvorgängen auf hierarchischem Speicher
 - **Verteilte Verarbeitung mit mehreren Threads**:
-   - Die Verarbeitung erfolgt über mehrere Pods in einer Cloud-Umgebung
-   - Entfernt die Abhängigkeit von einem einzelnen Führungsknoten
-   - Ermöglicht horizontale Skalierbarkeit und parallele Ausführung
+  - Die Verarbeitung erfolgt über mehrere Pods in einer Cloud-Umgebung
+  - Entfernt die Abhängigkeit von einem einzelnen Führungsknoten
+  - Ermöglicht horizontale Skalierbarkeit und parallele Ausführung
 - **Beseitigung der Abhängigkeit der übergeordneten Zuordnung:**
-   - Kein explizites Durchlaufen von Diagrammen erforderlich
-   - Reduziert I/O-Vorgänge und Verarbeitungslatenz
-   - Vereinfacht die Verarbeitung von Pipelines
+  - Kein explizites Durchlaufen von Diagrammen erforderlich
+  - Reduziert I/O-Vorgänge und Verarbeitungslatenz
+  - Vereinfacht die Verarbeitung von Pipelines
 - **Synchronisierte eindeutige ID-Zuordnung**
-   - Zentralisierte Koordination sorgt für:
-   - Keine Duplizierung von Dokument-IDs
-   - Konsistenz über verteilte Knoten hinweg
-   - Beibehaltung der referenziellen Integrität in einer gleichzeitigen Umgebung
+  - Zentralisierte Koordination sorgt für:
+  - Keine Duplizierung von Dokument-IDs
+  - Konsistenz über verteilte Knoten hinweg
+  - Beibehaltung der referenziellen Integrität in einer gleichzeitigen Umgebung
 - **Cloud-native skalierbare Datenbank (gehostet in AWS)**
-   - Hochverfügbare und zuverlässige Datenbankschicht
-   - Unterstützt elastische Skalierung basierend auf der Arbeitslast
-   - Verbessert die Zuverlässigkeit und Leistung des Systems insgesamt
+  - Hochverfügbare und zuverlässige Datenbankschicht
+  - Unterstützt elastische Skalierung basierend auf der Arbeitslast
+  - Verbessert die Zuverlässigkeit und Leistung des Systems insgesamt
 
 ![](images/workflow.png)
 
 ## Vorteile der neuen Architektur
 
 - Leistungsverbesserungen:
-   - Die parallele Ausführung reduziert die Verarbeitungszeit erheblich
-   - Die Eliminierung traversal-schwerer Operationen verringert die Latenz
-   - Optimierte Diagrammverarbeitung verbessert die Auflösungsgeschwindigkeit von Abhängigkeiten
+  - Die parallele Ausführung reduziert die Verarbeitungszeit erheblich
+  - Die Eliminierung traversal-schwerer Operationen verringert die Latenz
+  - Optimierte Diagrammverarbeitung verbessert die Auflösungsgeschwindigkeit von Abhängigkeiten
 - Skalierbarkeit:
-   - Die horizontale Skalierung über Pods hinweg ermöglicht die Handhabung großer Aufnahmevolumen
-   - Cloud-native Infrastruktur passt sich dynamisch an Workload-Anforderungen an
+  - Die horizontale Skalierung über Pods hinweg ermöglicht die Handhabung großer Aufnahmevolumen
+  - Cloud-native Infrastruktur passt sich dynamisch an Workload-Anforderungen an
 - Zuverlässigkeit und Verfügbarkeit:
-   - Verteilte Verarbeitung entfernt Single Point of Failure
-   - Von AWS gehostete Datenbank sorgt für hohe Verfügbarkeit und Fehlertoleranz
+  - Verteilte Verarbeitung entfernt Single Point of Failure
+  - Von AWS gehostete Datenbank sorgt für hohe Verfügbarkeit und Fehlertoleranz
 - Effizienzgewinne:
-   - Geringerer I/O-Overhead durch Entfernung des übergeordneten Map-Traversal
-   - Bessere Ressourcennutzung über Rechnerknoten hinweg
+  - Geringerer I/O-Overhead durch Entfernung des übergeordneten Map-Traversal
+  - Bessere Ressourcennutzung über Rechnerknoten hinweg
 - Datenintegrität:
-   - Die synchronisierte ID-Zuordnung sorgt für Konsistenz über verteilte Systeme hinweg
-   - Robustheit bei gleichzeitiger Aktivierung
+  - Die synchronisierte ID-Zuordnung sorgt für Konsistenz über verteilte Systeme hinweg
+  - Robustheit bei gleichzeitiger Aktivierung
 
 ## Datenbank konfigurieren
 

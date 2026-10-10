@@ -3,13 +3,22 @@ title: Konfigurieren der Inhaltssicherheitsrichtlinie für die SCORM-Vorschau
 description: Erfahren Sie, wie Sie die Content Security Policy für die SCORM-Vorschau mithilfe einer Umgebungsvariablen in Cloud Manager konfigurieren
 feature: Authoring
 role: User
-source-git-commit: 730fe6021aa20aa2b57801807da0f471f84a7718
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
-
 ---
-
 
 # Konfigurieren der Content Security Policy (CSP) für die SCORM-Vorschau
 
@@ -24,7 +33,7 @@ Die Variable akzeptiert `GUIDES_SCORM_PREVIEW_CONFIG` JSON-Objekt als Wert. Jede
 | Felder | Typ | Beschreibung |
 |---|---|---|
 | `CSP_ENABLED` | Boolescher Wert | Schaltet die CSP-Durchsetzung für die SCORM-Vorschau ein (`true`) oder aus (`false`). |
-| `ALLOW_UNSAFE_EVAL` | Boolesch | Ermöglicht die Verwendung von `eval()` und ähnlichen unsicheren JavaScript-Auswertungsmethoden, wenn sie auf `true` gesetzt sind. |
+| `ALLOW_UNSAFE_EVAL` | Boolescher Wert | Ermöglicht die Verwendung von `eval()` und ähnlichen unsicheren JavaScript-Auswertungsmethoden, wenn sie auf `true` gesetzt sind. |
 | `ADDITIONAL_SCRIPT_SRC` | Array | Zusätzliche vertrauenswürdige Quellen, die JavaScript bedienen dürfen. |
 | `ADDITIONAL_STYLE_SRC` | Array | Zusätzliche vertrauenswürdige Quellen, die Stylesheets bereitstellen dürfen. |
 | `ADDITIONAL_FONT_SRC` | Array | Zusätzliche vertrauenswürdige Quellen, die Schriftarten bereitstellen dürfen. |
@@ -78,7 +87,7 @@ Je nach Bedarf müssen Sie nicht jeden Wert ausfüllen. Belassen Sie einen belie
 6. Wählen Sie **Service angewendet** aus, um festzulegen, ob die Variable für **Autor**, **Veröffentlichen** oder beide gelten soll. Wählen Sie für das Experience Manager Guides-Authoring **author** aus.
 7. Wählen Sie **Variable** im Feld **Typ** aus.
 8. Wählen Sie **Hinzufügen** aus.
-9. Wählen Sie **Speichern** aus.
+9. Klicken Sie auf **Speichern**.
 
    ![Speichern der Variablen zum Anwenden auf die Umgebung](assets/save.png){width="650"}
 

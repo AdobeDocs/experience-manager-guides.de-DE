@@ -1,13 +1,19 @@
 ---
 title: Versionshinweise für Adobe Experience Manager Guides 3.8 und 3.8.5
 description: Die wichtigsten neuen Funktionen und Verbesserungen in den Versionen 3.8 und 3.8.5 von Adobe Experience Manager Guides (früher als XML Documentation-Lösung bezeichnet).
-source-git-commit: ff3d35832b80f6221f1261498934ab74261b282b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%
-
 ---
-
 
 # Versionshinweise | Adobe Experience Manager Guides 3.8
 
@@ -66,8 +72,8 @@ In den folgenden Bereichen des Produkts wurden eine Reihe neuer Funktionen und V
   ![Versions-Cue](assets/old-version-icon.avif)
 
 - In dieser Version wurde eine neue Funktion zum Versionsverlauf eingeführt. Verwenden Sie die Funktion Versionsverlauf für Folgendes:
-   - Zeigt eine Liste aller Versionen des aktuell aktiven Themas zusammen mit Beschriftungen an, die für jede Version hinzugefügt wurden.
-   - Wiederherstellen einer früheren Version des Themas
+  - Zeigt eine Liste aller Versionen des aktuell aktiven Themas zusammen mit Beschriftungen an, die für jede Version hinzugefügt wurden.
+  - Wiederherstellen einer früheren Version des Themas
 
   ![Versionsverlauf](assets/version-history.avif)
 
@@ -98,9 +104,9 @@ In den folgenden Bereichen des Produkts wurden eine Reihe neuer Funktionen und V
 #### Publishing
 
 - **Konfiguration von Bereinigungsregeln für generierte Site-Seiten zulassen**: Als Administrator können Sie die Bereinigungsregeln für die Dateinamen der generierten AEM-Site- oder DITA-OT-Ausgabe definieren. Wenn Sie eine Ausgabe oder Ausgabe einer AEM-Site mit DITA-OT generieren, können Sie die folgenden Regeln konfigurieren, um die ausgangsgenerierten URLs oder Dateinamen zu bereinigen:
-   - Wandeln Sie alle Zeichen in Kleinbuchstaben um.
-   - Ersetzen Sie Sonderzeichen durch ein Trennzeichen.
-   - Beschränken Sie einen langen Dateinamen auf eine vordefinierte Anzahl von Zeichen.
+  - Wandeln Sie alle Zeichen in Kleinbuchstaben um.
+  - Ersetzen Sie Sonderzeichen durch ein Trennzeichen.
+  - Beschränken Sie einen langen Dateinamen auf eine vordefinierte Anzahl von Zeichen.
 
 - Pushen Sie die Ausgabe einfach von Ihrer Autoreninstanz an die Veröffentlichungsinstanz, indem Sie das Dashboard für die Massenaktivierung verwenden. Sie können mit einer einzelnen Zuordnung oder einer Zuordnungssammlung arbeiten und die Ausgabevorgabe auswählen, die Sie für die Veröffentlichung verwenden möchten.
 

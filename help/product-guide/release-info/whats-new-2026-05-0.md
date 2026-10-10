@@ -2,13 +2,19 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2026.05.0
 description: Erfahren Sie mehr über die neuen und erweiterten Funktionen der Version 2026.05.0 von Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2c9e91a85bb9cfbfec05dbe5c2e9eae9e240d571
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
-
 ---
-
 # Neue Funktionen in der Version 2026.05.0 (Mai 2026)
 
 Dieser Artikel behandelt die neuen und erweiterten Funktionen, die mit der Version 2026.05.0 von Adobe Experience Manager Guides as a Cloud Service eingeführt wurden.
@@ -46,10 +52,10 @@ Eine aktualisierte Benutzeroberfläche verbessert die allgemeine Benutzerfreundl
 
 - **Konsolidierte Editor-Einstellungen auf Benutzerebene**: Ein neues zentralisiertes Einstellungsbedienfeld, das Autorinnen und Autoren eine bessere Kontrolle über das Editor-Verhalten bietet, sodass Benutzerinnen und Benutzer Voreinstellungen leichter von einem einzigen Ort aus verwalten können. Zu den Konfigurationsoptionen gehören die Möglichkeit, Folgendes zu aktivieren/deaktivieren:
 
-   - Geschützte Leerzeichen im Autorenmodus
-   - Einstellungen für die Tag-Sichtbarkeit mit oder ohne Attribute
-   - XML-Kommentare im Autorenmodus
-   - Menü „Schnelleinfügung“ zum Einfügen von Elementen im Editor
+  - Geschützte Leerzeichen im Autorenmodus
+  - Einstellungen für die Tag-Sichtbarkeit mit oder ohne Attribute
+  - XML-Kommentare im Autorenmodus
+  - Menü „Schnelleinfügung“ zum Einfügen von Elementen im Editor
 
   ![](assets/editor-settings-dialog.png){width="350"}
 
@@ -82,9 +88,9 @@ Bietet verbesserte Tools und Flexibilität, um die Erstellung und Bearbeitung vo
 
 - **Verbessertes Tabellen-Authoring**: Verbessert das allgemeine Erlebnis beim Erstellen von Tabellen durch intuitivere und effizientere Interaktionen beim Erstellen und Verwalten von Tabellen.
 
-   - Fließende und intuitive Interaktionen: Einfaches Einfügen von Zeilen und Spalten sowie Drag-and-Drop-Unterstützung für die Neuanordnung von Zeilen und Spalten.
-   - Kontextuelle Symbolleiste : Greifen Sie auf tabellenspezifische Aktionen wie Formatierung, Ausrichtung, Zusammenführung und andere zusätzliche Aktionen direkt in der Tabelle zu.
-   - Konfigurieren von Tabellen: Mehrere Zeilen oder Spalten in einer Aktion hinzufügen, wodurch sich wiederholende Schritte reduzieren und die Effizienz verbessert wird.
+  - Fließende und intuitive Interaktionen: Einfaches Einfügen von Zeilen und Spalten sowie Drag-and-Drop-Unterstützung für die Neuanordnung von Zeilen und Spalten.
+  - Kontextuelle Symbolleiste : Greifen Sie auf tabellenspezifische Aktionen wie Formatierung, Ausrichtung, Zusammenführung und andere zusätzliche Aktionen direkt in der Tabelle zu.
+  - Konfigurieren von Tabellen: Mehrere Zeilen oder Spalten in einer Aktion hinzufügen, wodurch sich wiederholende Schritte reduzieren und die Effizienz verbessert wird.
 
   ![](assets/config-table.png){width="650"}
 

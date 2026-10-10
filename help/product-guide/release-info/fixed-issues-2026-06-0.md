@@ -1,13 +1,19 @@
 ---
 title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 2026.06.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2026.06.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 318f2b7a530e50ca4432313650801b2293d6697e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 0%
-
 ---
-
 # Es wurden Probleme in der Version 2026.06.0 behoben
 
 Dieser Artikel behandelt die in verschiedenen Bereichen der Version 2026.06.0 von Adobe Experience Manager Guides as a Cloud Service behobenen Fehler.
@@ -63,10 +69,10 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2026.06.0](upgrade-instr
 - Beim Veröffentlichen einer DITA-Zuordnung mit `processing-role=resource-only` in AEM Sites (mit Zuordnung veralteter Komponenten) werden für diese Elemente in zusätzlichen Szenarien, wie z. B. `topicgroup` und bestimmten Inhaltskonfigurationen, verwaiste Sites-Seiten generiert. (GUIDES-37650)
 - Wenn eine Zuordnung mit einem langen Namen zu einer Zuordnungssammlung hinzugefügt wird, wird die Zuordnungssammlungs-Benutzeroberfläche in einem verzerrten Layout gerendert. Dieses Problem wurde mit der neuen Zuordnungssammlung behoben. (GUIDES-42062)
 - Veröffentlichung mit der nativen PDF-Engine v1:
-   - Beim Generieren der nativen PDF-Ausgabe für bestimmte Inhalte wird nur die erste Seite in der PDF gerendert, obwohl die dazwischenliegende HTML den vollständigen Inhalt auf mehreren Seiten enthält. (GUIDES-28270)
-   - Die Lesereihenfolge von Inhalten in der nativen PDF-Ausgabe mit aktivierten Barrierefreiheitseinstellungen ist falsch. Seitenzahlen in Fußzeilen werden vor dem Hauptinhalt und nicht am Ende gelesen. (GUIDES-27790)
-   - Die Farbleiste in der nativen PDF-Ausgabe erstreckt sich nicht über die gesamte Seitenbreite und überschneidet sich bei der Anpassung der Seitengröße, wodurch einige Farbfelder ausgeblendet werden. (GUIDES-15505)
-   - Der CSS- `:is()` Pseudoklassenselektor wird in der nativen PDF-Ausgabe nicht berücksichtigt, was zu Stilunterschieden im Vergleich zum Browser-Rendering führt. (GUIDES-11328)
+  - Beim Generieren der nativen PDF-Ausgabe für bestimmte Inhalte wird nur die erste Seite in der PDF gerendert, obwohl die dazwischenliegende HTML den vollständigen Inhalt auf mehreren Seiten enthält. (GUIDES-28270)
+  - Die Lesereihenfolge von Inhalten in der nativen PDF-Ausgabe mit aktivierten Barrierefreiheitseinstellungen ist falsch. Seitenzahlen in Fußzeilen werden vor dem Hauptinhalt und nicht am Ende gelesen. (GUIDES-27790)
+  - Die Farbleiste in der nativen PDF-Ausgabe erstreckt sich nicht über die gesamte Seitenbreite und überschneidet sich bei der Anpassung der Seitengröße, wodurch einige Farbfelder ausgeblendet werden. (GUIDES-15505)
+  - Der CSS- `:is()` Pseudoklassenselektor wird in der nativen PDF-Ausgabe nicht berücksichtigt, was zu Stilunterschieden im Vergleich zum Browser-Rendering führt. (GUIDES-11328)
 
   >[!NOTE]
   >

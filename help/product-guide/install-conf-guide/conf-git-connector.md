@@ -4,13 +4,28 @@ description: Erfahren Sie, wie Sie in Experience Manager Guides ein Git konfigur
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: b73e904c7e0a6f398e471be6fc874de30742e519
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+subfeature_v2:
+  - id: b0521e56-a0b2-40b6-bf47-ebc98751f9ba
+    internal-label: Web Editor configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 1%
-
 ---
-
 # Erstellen und Konfigurieren des Git-Connectors über die Benutzeroberfläche
 
 >[!NOTE]
@@ -42,17 +57,17 @@ Verwenden Sie das Datenquellen-Tool in Experience Manager Guides, um einen Git-C
    >* Bewegen Sie den Mauszeiger über <img src="./assets/info-details.svg" alt= "Infosymbol" width="25"> in der Nähe des Felds, um weitere Details dazu anzuzeigen.
    >* Felder mit * sind Pflichtfelder. Sie können beispielsweise die folgenden Details für den Git-Connector eingeben.
 
-   &#x200B;- **Name**: Geben Sie den Namen der Datenquelle ein.
-   &#x200B;- **Target AEM-Stammverzeichnis**: Geben Sie den Pfad im AEM-Repository ein, in dem aus Git importierte Inhalte gespeichert werden sollen.
-   &#x200B;- **Dateitypfilter (Einbeziehung)**: Geben Sie die Dateitypen an, die beim Import einbezogen werden sollen.
-   &#x200B;- **Ausgeschlossener Pfad (Regex)**: Geben Sie Pfadmuster an, die vom Import ausgeschlossen werden sollen.
-   &#x200B;- **Authentifizierungstyp**: Wählen Sie in der Dropdown-Liste den Authentifizierungstyp aus. Derzeit ist **Personal Access Token (PAT)** die einzige unterstützte Authentifizierungsmethode. Geben Sie den Pfad während der Connector-Einrichtung ein, um sich zu authentifizieren und auf das Git-Repository zuzugreifen.
+   - **Name**: Geben Sie den Namen der Datenquelle ein.
+   - **Target AEM-Stammverzeichnis**: Geben Sie den Pfad im AEM-Repository ein, in dem aus Git importierte Inhalte gespeichert werden sollen.
+   - **Dateitypfilter (Einbeziehung)**: Geben Sie die Dateitypen an, die beim Import einbezogen werden sollen.
+   - **Ausgeschlossener Pfad (Regex)**: Geben Sie Pfadmuster an, die vom Import ausgeschlossen werden sollen.
+   - **Authentifizierungstyp**: Wählen Sie in der Dropdown-Liste den Authentifizierungstyp aus. Derzeit ist **Personal Access Token (PAT)** die einzige unterstützte Authentifizierungsmethode. Geben Sie den Pfad während der Connector-Einrichtung ein, um sich zu authentifizieren und auf das Git-Repository zuzugreifen.
 
      Erfahren Sie, wie Sie [ein persönliches GitHub-Zugriffstoken generieren](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
      Stellen Sie beim Auswählen von Bereichen während der PAT-Generierung auf GitHub sicher, dass Sie die folgenden Bereiche aktivieren:
-     &#x200B;- **repo**: Aktivieren Sie das Kontrollkästchen der obersten Ebene. Alle Unterbereiche werden automatisch ausgewählt und gewähren Zugriff auf Repository-Inhalte, Commit-Status und Bereitstellungen.
-     &#x200B;- **admin:org**: Wählen Sie nur **lesen:org**. Dies ist erforderlich, um die Organisation und die Team-Mitgliedschaft zu klären.
+     - **repo**: Aktivieren Sie das Kontrollkästchen der obersten Ebene. Alle Unterbereiche werden automatisch ausgewählt und gewähren Zugriff auf Repository-Inhalte, Commit-Status und Bereitstellungen.
+     - **admin:org**: Wählen Sie nur **lesen:org**. Dies ist erforderlich, um die Organisation und die Team-Mitgliedschaft zu klären.
    * **Repository-URL**: Geben Sie die Git-Repository-URL ein, aus der Inhalte importiert werden sollen.
    * **Verzweigung**: Geben Sie die Verzweigung ein, die für den Inhaltsimport verwendet werden soll.
 

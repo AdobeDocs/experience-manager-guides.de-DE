@@ -4,13 +4,29 @@ description: Erstellen und verwalten Sie neue Baseline (Beta) über die Zuordnun
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: 5fe9e9476b001a1ad74c045bf05e3061702f5e42
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
+  - id: 5445d7f0-b55c-5788-9564-f9ad3a7bee84
+    internal-label: Features of Web Editor
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
-
 ---
-
 # Neue Baseline (Beta) in Experience Manager Guides
 
 >[!NOTE]
@@ -136,10 +152,10 @@ Beim Arbeiten mit Basislinien, die mit dem neuen Basismodell erstellt wurden **w
   ![](images/baseline-v2-dynamic-baseline-new.png)
 
   Sie können auch die neuen Optionen verwenden, die für dynamische Baselines eingeführt wurden, die mit dem neuen Baseline-Modell erstellt wurden:
-   - **Eigenschaften bearbeiten**: Ermöglicht die Bearbeitung der Eigenschaften einer vorhandenen Baseline.
-   - **Neu erstellen**: Ermöglicht es Ihnen, eine dynamische Baseline bei jeder Änderung neu zu erstellen.
+  - **Eigenschaften bearbeiten**: Ermöglicht die Bearbeitung der Eigenschaften einer vorhandenen Baseline.
+  - **Neu erstellen**: Ermöglicht es Ihnen, eine dynamische Baseline bei jeder Änderung neu zu erstellen.
 
-     ![rebuild-baseline](images/rebuild-baseline.png)
+    ![rebuild-baseline](images/rebuild-baseline.png)
 
 - Die **Download**-Aktion unterstützt paginierte Downloads. Der gesamte grundlegende Inhalt, der mit den angewendeten Filtern übereinstimmt, ist im Download enthalten, nicht nur der auf der aktuellen Seite sichtbare Inhalt.
 - Filtern Sie Dateien nach GUID zusätzlich zu Dateinamen oder Dateispeicherort. Eine zusätzliche Option zum **Filtern von Dateien ohne Kennzeichnungen** ist ebenfalls verfügbar.
@@ -151,28 +167,28 @@ Beim Arbeiten mit Basislinien, die mit dem neuen Basismodell erstellt wurden **w
 
   Führen Sie die folgenden Schritte aus, um eine Baseline zu bearbeiten:
 
-   - Öffnen Sie die Baseline über das Bedienfeld **Baseline**.
+  - Öffnen Sie die Baseline über das Bedienfeld **Baseline**.
 
-     Die tabellarische Ansicht der Verweise der Basislinien wird angezeigt.
+    Die tabellarische Ansicht der Verweise der Basislinien wird angezeigt.
 
-   - Navigieren Sie zur Datei, die Sie bearbeiten möchten, und bewegen Sie den Mauszeiger über diese Datei.
-   - Wählen Sie das Symbol **Bearbeiten** aus.
+  - Navigieren Sie zur Datei, die Sie bearbeiten möchten, und bewegen Sie den Mauszeiger über diese Datei.
+  - Wählen Sie das Symbol **Bearbeiten** aus.
 
-     ![edit-baseline-icon](images/edit-baseline-icon.png)
+    ![edit-baseline-icon](images/edit-baseline-icon.png)
 
-     Das **Version bearbeiten** wird angezeigt.
-   - Wählen Sie die gewünschte Version aus dem Dropdown **Version** aus (ändern Sie beispielsweise von Version 1.0 zu 1.1).
+    Das **Version bearbeiten** wird angezeigt.
+  - Wählen Sie die gewünschte Version aus dem Dropdown **Version** aus (ändern Sie beispielsweise von Version 1.0 zu 1.1).
 
 
-     ![edit-version-baseline](images/edit-version-baseline.png)
+    ![edit-version-baseline](images/edit-version-baseline.png)
 
-     Hinzugefügte und entfernte Abhängigkeiten werden ausgewertet und als Vorschau angezeigt. Überprüfen Sie die Änderungen, bevor Sie sie anwenden.
+    Hinzugefügte und entfernte Abhängigkeiten werden ausgewertet und als Vorschau angezeigt. Überprüfen Sie die Änderungen, bevor Sie sie anwenden.
 
-     ![](images/baseline-v2-version-added.png)
+    ![](images/baseline-v2-version-added.png)
 
-     Wenn keine Abhängigkeitsänderungen erkannt werden, wird eine Meldung mit leerem Status angezeigt.
+    Wenn keine Abhängigkeitsänderungen erkannt werden, wird eine Meldung mit leerem Status angezeigt.
 
-   - Wählen Sie **Aktualisieren** aus, um die Änderungen anzuwenden.
+  - Wählen Sie **Aktualisieren** aus, um die Änderungen anzuwenden.
 
   Die Baseline wird mit der ausgewählten Version aktualisiert.
   +++

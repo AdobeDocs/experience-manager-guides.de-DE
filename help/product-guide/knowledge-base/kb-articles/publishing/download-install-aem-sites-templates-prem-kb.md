@@ -5,21 +5,31 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: aa843a72-ff0d-4c9a-a87d-48d099087b5e
-TQID: https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI
+TQID: 'https://experienceleague.adobe.com/d-eC5SHwAeCMEZhZJzN-12rdk37TjqBy0SYXC6lfbUI'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
+subfeature_v2:
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 0%
-
 ---
-
 # Herunterladen und Installieren von AEM Sites-Vorlagen (On-Premise-Services)
 
 Dieses Handbuch enthält schrittweise Anweisungen zum Einrichten und Konfigurieren der neuesten AEM Guides-Vorlage für die Generierung von AEM Sites. Führen Sie diese Schritte aus, um die erforderlichen Pakete zu installieren, Voreinstellungen zu erstellen und zu konfigurieren und AEM Sites zu generieren.
@@ -32,19 +42,19 @@ Bevor Sie mit der Einrichtung fortfahren, stellen Sie sicher, dass die folgenden
 
 - **Erforderliche Berechtigungen**: Stellen Sie sicher, dass Sie über die folgenden Berechtigungen verfügen:
 
-   - Zugriff auf **Software Distribution-Portal** zum Herunterladen der erforderlichen Pakete
-   - Zugriff auf **CRX Package Manager**, um Pakete in AEM zu installieren.
-   - Berechtigungen zum Erstellen und Ändern von Vorgaben in AEM Guides.
+  - Zugriff auf **Software Distribution-Portal** zum Herunterladen der erforderlichen Pakete
+  - Zugriff auf **CRX Package Manager**, um Pakete in AEM zu installieren.
+  - Berechtigungen zum Erstellen und Ändern von Vorgaben in AEM Guides.
 
 - **Pakete herunterladen**: Laden Sie die folgenden Pakete vom **Software Distribution-Portal** herunter:
 
-   - Komponentenpaket: on-prem-guides-components.all-1.x.0.zip
-   - Sites-Paket: aemg-docs.all-1.x.0.zip
+  - Komponentenpaket: on-prem-guides-components.all-1.x.0.zip
+  - Sites-Paket: aemg-docs.all-1.x.0.zip
 
 ## Paketinstallation mit CRX Package Manager
 
 1. **Installieren des Komponentenpakets:**
-   1. Navigieren Sie zu [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr).
+   1. Navigieren Sie zu [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
    2. Laden Sie das Paket on-preme-guides-components.all-1.x.0.zip hoch und installieren Sie es.
 
 2. **Installieren Sie das Sites-Paket:** Laden Sie das Paket aemg-docs.all-1.x.0.zip hoch und installieren Sie es mit dem CRX Package Manager.

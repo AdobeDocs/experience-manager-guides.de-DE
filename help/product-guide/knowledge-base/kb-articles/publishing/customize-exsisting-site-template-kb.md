@@ -5,27 +5,40 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
-TQID: https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ
+TQID: 'https://experienceleague.adobe.com/mzWOXyP0Zr-tScAYAc4R1BBm9LaFKVhOIRbbb9DrVRQ'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: e88e74c7-6080-446a-8eb0-496f1ac5f7e6
+    internal-label: Administration
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
+    internal-label: Editor
+  - id: e557051c-ff02-4ff8-9421-cf452af0edd5
+    internal-label: Installation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 9555f90917819727b77daea4520b6bba2350129f
+    internal-label: Metadata
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 951
+source-wordcount: '951'
 ht-degree: 2%
-
 ---
-
 # Anpassen vorhandener AEM-Site-Vorlagen für AEM Guides
 
 Dieses Handbuch enthält schrittweise Anweisungen zum Anpassen vorhandener AEM-Site-Vorlagen für die Verwendung mit AEM Guides, um AEM Sites aus DITA-Zuordnungen und -Themen zu generieren.
@@ -40,8 +53,8 @@ Wenn Sie die vordefinierte Vorlage für AEM Guides (AEMG Docs) verwenden, sind d
 - Sie haben eine vorhandene Site-Hierarchie, die mit bearbeitbaren Vorlagen erstellt wurde.
 - Sie haben mindestens zwei Vorlagen aus Ihrem vorhandenen Projekt:
 
-   - **Dokumentations-Container** Seitenvorlage: Wird zum Rendern der DITA-Zuordnung als Dokumentationsstamm verwendet.
-   - **Themenseitenvorlage:** zum Rendern einzelner DITA-Themenseiten.
+  - **Dokumentations-Container** Seitenvorlage: Wird zum Rendern der DITA-Zuordnung als Dokumentationsstamm verwendet.
+  - **Themenseitenvorlage:** zum Rendern einzelner DITA-Themenseiten.
 
 ## Überlegungen zur Benennung von Vorlagen
 
@@ -88,8 +101,8 @@ Wenn Sie eine DITA-Karte für ein Produkthandbuch haben, generiert die Dokumenta
   ![Hinzufügen der Textkomponente mit der obligatorischen Eigenschaft](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650"}
 
 - Dieser Platzhalter wird während der Site-Erstellung durch den tatsächlichen Inhalt des DITA-Themas ersetzt.
-   - Die Textkomponente wird normalerweise innerhalb einer **Container-Komponente“ platziert** um ein ordnungsgemäßes Layout und Formatieren sicherzustellen.
-   - Kann angepasst werden, um konsistente Kopfzeilen, Fußzeilen und Navigationselemente über alle Themenseiten hinweg einzuschließen.
+  - Die Textkomponente wird normalerweise innerhalb einer **Container-Komponente“ platziert** um ein ordnungsgemäßes Layout und Formatieren sicherzustellen.
+  - Kann angepasst werden, um konsistente Kopfzeilen, Fußzeilen und Navigationselemente über alle Themenseiten hinweg einzuschließen.
 
 **Anwendungsbeispiel:**
 Wenn Sie ein DITA-Thema über „Installationsanweisungen“ haben, generiert die Themenseitenvorlage eine Seite mit dem Inhalt dieses Themas.

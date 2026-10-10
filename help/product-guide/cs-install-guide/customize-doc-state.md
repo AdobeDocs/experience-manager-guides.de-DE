@@ -5,23 +5,33 @@ exl-id: ab155879-4472-464d-ab25-6075088d718b
 feature: Document State
 role: Admin
 level: Experienced
-TQID: https://experienceleague.adobe.com/hnS2MHqddnjXMYeBuRF4nW2xGOSfc6i0CEqBQ4rr4Sc
+TQID: 'https://experienceleague.adobe.com/hnS2MHqddnjXMYeBuRF4nW2xGOSfc6i0CEqBQ4rr4Sc'
 product_v2:
   - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+    internal-label: Experience Manager Guides
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+    internal-label: Configuration
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+    internal-label: Authoring
 subfeature_v2:
   - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+    internal-label: Profiles
+  - id: d4f22c6d-7923-41e5-9da3-527ff8df4bc8
+    internal-label: Document state
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 0%
-
 ---
-
 # Status von Dokumenten konfigurieren {#id181GB0400UI}
 
 Mit AEM Guides können Sie die Dokumentstatus für Ihre DITA-Themen entsprechend den Anforderungen Ihres Unternehmens definieren. Sie können verschiedene Status des Dokuments vom Anfang bis zum Ende definieren. Der erste Status kann beispielsweise „Entwurf“ lauten, und er kann zu „Überprüfen“, „Genehmigt“, „Übersetzt“ und schließlich zu „Veröffentlicht“ wechseln.
@@ -40,7 +50,7 @@ Im Lieferumfang von AEM Guides sind eine Reihe von Standarddokumentstatus enthal
 - Bearbeiten
 - In-Review
 - Genehmigt
-- Überprüft
+- Geprüft
 - Fertig
 
 Diese Standardstatus stehen allen unter DAM erstellten DITA-Themen zur Verfügung. Sie können eigene Dokumentstatus erstellen und diese einem bestimmten Ordner zuweisen. Alle unter diesem Ordner erstellten DITA-Dateien haben dann Zugriff auf die neu erstellten Dokumentstatus.
@@ -60,7 +70,7 @@ So erstellen Sie Dokumentstatus mithilfe des Ordnerprofils:
 
      Klicken Sie auf **Hinzufügen**, um einen Dokumentstatus hinzuzufügen.
 
-      - Klicken Sie auf das Symbol Löschen , um einen Dokumentstatus zu löschen.
+     - Klicken Sie auf das Symbol Löschen , um einen Dokumentstatus zu löschen.
 
      >[!NOTE]
      >
@@ -70,11 +80,11 @@ So erstellen Sie Dokumentstatus mithilfe des Ordnerprofils:
    - Geben Sie den Endstatus des Dokuments im **Endstatus** an.
    - Geben Sie den Statusübergang des Dokuments in **Von** und **Bis** unter **Statusübergang** an.
 
-      - Geben Sie die Benutzer und Benutzergruppen an, die den Dokumentstatus in „Gruppen **ändern**.
+     - Geben Sie die Benutzer und Benutzergruppen an, die den Dokumentstatus in „Gruppen **ändern**.
 
-      - Klicken Sie auf **Hinzufügen**, um eine Statusübergabe hinzuzufügen.
+     - Klicken Sie auf **Hinzufügen**, um eine Statusübergabe hinzuzufügen.
 
-      - Klicken Sie auf das Symbol Löschen , um eine Statusübergabe zu löschen.
+     - Klicken Sie auf das Symbol Löschen , um eine Statusübergabe zu löschen.
 
      >[!NOTE]
      >
