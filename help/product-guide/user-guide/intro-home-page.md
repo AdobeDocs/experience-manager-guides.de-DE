@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 481c5fe8df7a81a8f00358b8f28dba131bca63d9
+source-git-commit: 4b9859bf08ffdfc7047477203eb7c2b590dfb3d9
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2380'
 ht-degree: 0%
 ---
 # Experience Manager Guides-Startseitenerlebnis
@@ -180,11 +180,15 @@ Das Repository dient als zentralisierter Hub zur einfachen Erkennung von Ordnern
 
 ### Zuordnen von Sammlungen
 
+>[!NOTE]
+>
+>Sie können die neue Funktion Zuordnungssammlungen in Adobe Experience Manager Guides as a Cloud Service ab Version 2026.08.0 verwenden, die Zuordnungsverwaltung und Massenveröffentlichung zu einer einheitlichen Oberfläche kombiniert. Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion zu aktivieren.Weitere Informationen über [Verwendung der neuen Zuordnungssammlung.](./generate-output-use-new-map-collection-output-generation.md)
+
 Experience Manager Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die Veröffentlichung mithilfe eines Dashboards namens &quot;**&quot;** organisieren. Um diese Funktion zu verwenden, wählen **Sammlungen zuordnen** im linken Bereich aus. Dadurch gelangen Sie zur Seite „Zuordnungssammlungen“ in der **Assets-Benutzeroberfläche** wo Sie [Zuordnungssammlung für die Ausgabegenerierung verwenden können.](./generate-output-use-map-collection-output-generation.md)
 
 ### Massenveröffentlichung
 
-Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [&#x200B; veröffentlichten Inhalte“ erstellen und verwalten &#x200B;](./conf-bulk-activation.md).
+Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [ veröffentlichten Inhalte“ erstellen und verwalten ](./conf-bulk-activation.md).
 
 ### Veröffentlichungswarteschlange
 
