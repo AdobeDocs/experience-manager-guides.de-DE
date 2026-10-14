@@ -15,7 +15,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 481c5fe8df7a81a8f00358b8f28dba131bca63d9
 workflow-type: tm+mt
 source-wordcount: '2331'
 ht-degree: 0%
@@ -184,7 +184,7 @@ Experience Manager Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die V
 
 ### Massenveröffentlichung
 
-Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [&#x200B; veröffentlichten Inhalte“ erstellen und verwalten &#x200B;](./conf-bulk-activation.md).
+Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [ veröffentlichten Inhalte“ erstellen und verwalten ](./conf-bulk-activation.md).
 
 ### Veröffentlichungswarteschlange
 
