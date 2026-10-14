@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4b9859bf08ffdfc7047477203eb7c2b590dfb3d9
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2380'
 ht-degree: 0%
 ---
 # Experience Manager Guides-Startseitenerlebnis
@@ -179,6 +179,10 @@ Die folgenden Widgets sind im Abschnitt Widgets vorhanden:
 Das Repository dient als zentralisierter Hub zur einfachen Erkennung von Ordnern und Dateien. Es bietet eine umfassende tabellarische Listenansicht aller Dateien und Ordner sowie deren kontextuelle Details. Über diese einheitliche Benutzeroberfläche können Sie Dateien nahtlos durchsuchen und Suchen mit robusten Filteroptionen durchführen, um Effizienz und ein verbessertes Erlebnis zu gewährleisten. Weitere Informationen zu [Repository](./home-page-repository-view.md).
 
 ### Zuordnen von Sammlungen
+
+>[!NOTE]
+>
+>Sie können die neue Funktion Zuordnungssammlungen in Adobe Experience Manager Guides as a Cloud Service ab Version 2026.08.0 verwenden, die Zuordnungsverwaltung und Massenveröffentlichung zu einer einheitlichen Oberfläche kombiniert. Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion zu aktivieren.Weitere Informationen über [Verwendung der neuen Zuordnungssammlung.](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die Veröffentlichung mithilfe eines Dashboards namens &quot;**&quot;** organisieren. Um diese Funktion zu verwenden, wählen **Sammlungen zuordnen** im linken Bereich aus. Dadurch gelangen Sie zur Seite „Zuordnungssammlungen“ in der **Assets-Benutzeroberfläche** wo Sie [Zuordnungssammlung für die Ausgabegenerierung verwenden können.](./generate-output-use-map-collection-output-generation.md)
 
