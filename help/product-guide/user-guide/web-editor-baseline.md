@@ -35,16 +35,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 0%
 ---
 # Erstellen und Verwalten von Baselines über die Map-Konsole {#id223MB0ZF043}
 
 >[!NOTE]
 >
-> Mit der Version Experience Manager Guides 2026.03.0 ist eine neue Baseline (Beta) verfügbar, die eine verbesserte Leistung und Stabilität bietet. Wenden Sie sich zur Verwendung dieser Grundlinie an das Customer Success-Team , um die Funktion aktivieren zu lassen. Erfahren Sie mehr über [Neue Baseline (Beta)](./web-editor-baseline-v2.md).
+> Mit der Version Experience Manager Guides 2026.03.0 ist eine neue Baseline verfügbar, die eine verbesserte Leistung und Stabilität bietet. Wenden Sie sich zur Verwendung dieser Grundlinie an das Customer Success-Team , um die Funktion aktivieren zu lassen. Weitere Informationen zur [neuen Baseline](./web-editor-baseline-v2.md).
 
 Mit der Funktion „Grundeinstellungen“ können Sie eine Version Ihrer Themen und Assets erstellen, die dann zur Veröffentlichung oder Übersetzung verwendet werden können. Wenn Ihre DITA-Zuordnung beispielsweise über `topicA` und `imageA` verfügt, können Sie eine Grundlinie erstellen, die die 3. Version von `topicA`, aber die 4. Version von `ImageA` verwendet. Sobald Sie eine Grundlinie eingerichtet haben, können Sie Themen aus verschiedenen Versionen in einem einzigen Schritt veröffentlichen oder übersetzen.
 

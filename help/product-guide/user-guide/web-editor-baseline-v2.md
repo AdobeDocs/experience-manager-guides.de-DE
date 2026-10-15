@@ -1,6 +1,6 @@
 ---
-title: Erstellen und Verwalten einer neuen Baseline (Beta) über die Zuordnungskonsole
-description: Erstellen und verwalten Sie neue Baseline (Beta) über die Zuordnungskonsole in Adobe Experience Manager Guides.
+title: Neue Baseline über die Zuordnungskonsole erstellen und verwalten
+description: Erstellen und verwalten Sie neue Baseline über die Zuordnungskonsole in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
@@ -22,16 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1400'
 ht-degree: 0%
 ---
-# Neue Baseline (Beta) in Experience Manager Guides
+# Neue Baseline in Experience Manager Guides
 
 >[!NOTE]
 >
-> - Dieser Artikel gilt für die neue Grundlinie , die derzeit als Funktion *Beta* verfügbar ist und eine verbesserte Leistung und Stabilität bietet, die mit der Version Experience Manager Guides 2026.04.0 verfügbar ist.
+> - Dieser Artikel gilt für die neue Grundlinie, die eine verbesserte Leistung und Stabilität bietet, welche mit der Experience Manager Guides-Version 2026.04.0 verfügbar ist.
 > - Wenden Sie sich an das Customer Success-Team , um die neue Grundlinie-Funktion für Cloud Service zu aktivieren.
 > - Um die neue Baseline-Funktion für On-Premise zu aktivieren, zeigen Sie [Neue Baseline konfigurieren](../install-conf-guide/conf-new-baseline-on-prem.md) an.
 
