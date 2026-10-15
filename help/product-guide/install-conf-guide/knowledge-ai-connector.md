@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie AEM Guides mit KI-Handbüchern verbinden
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 9f0ca688ae040c9f2f8a0aba0ac4547301a659ad
+source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Stellen Sie vor dem Start sicher, dass Sie über die folgenden Zugriffsrechte un
 
 Die Wissens-KI verwendet ein Service-Konto, um sich sicher zu authentifizieren und auf Inhalte zuzugreifen.
 
-1. Befolgen Sie die Anweisungen unter [Konfigurieren der IMT-Konfiguration für Microservices](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
+1. Befolgen Sie die Anweisungen unter [Konfigurieren der IMT-Konfiguration für Microservices](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
 
 1. Erstellen Sie ein neues Service-Konto und laden Sie die generierte JSON-Anmeldedaten-Datei herunter.
 
@@ -62,15 +62,13 @@ Nach Abschluss des Vorgangs sollte das Service-Konto erfolgreich mit Ihrer Umgeb
 Um Zugriff auf die Wissens-KI zu gewähren, identifizieren Sie das Service-Konto.
 
 1. Öffnen Sie die heruntergeladene JSON-Datei für das Service-Konto.
-1. Suchen Sie nach dem Feldnamen `technical_account_email`.
+1. Suchen Sie nach dem Feldnamen `technical_account_email`. Einen Wert ähnlich dem folgenden anzeigen:
 
-Einen Wert ähnlich dem folgenden anzeigen:
-
-```json
-{
-"technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
-}
-```
+   ```json
+   {
+   "technical_account_email": "a1b2c3d4e5f6@techacct.adobe.com"
+   }
+   ```
 
 1. Kopieren Sie die mit `technical_account_email` verknüpfte E-Mail-Adresse. Sie verwenden diese E-Mail-Adresse im nächsten Schritt.
 
@@ -105,7 +103,7 @@ Um Inhalte in der Wissens-KI zu veröffentlichen, konfigurieren Sie Experience M
 
    ![Knowledge-AI-Open](assets/open-knowledge-ai.png)
 
-Sie haben das Service-Konto erfolgreich konfiguriert, die erforderlichen Berechtigungen zugewiesen und Ihren Experience Manager Guides-Inhalt in der Wissens-KI verfügbar gemacht. Wenn Sie aktualisierte Inhalte veröffentlichen möchten, erstellen Sie eine neue Wissens-KI-Vorgabe und befolgen Sie die Schritte, die im Abschnitt [Konfigurieren der Wissens-KI-Vorgabe und Hochladen &#x200B;](#configure-knowledge-ai-preset-and-upload-content) Inhalts“ oben beschrieben sind.
+Sie haben das Service-Konto erfolgreich konfiguriert, die erforderlichen Berechtigungen zugewiesen und Ihren Experience Manager Guides-Inhalt in der Wissens-KI verfügbar gemacht. Wenn Sie aktualisierte Inhalte veröffentlichen möchten, erstellen Sie eine neue Wissens-KI-Vorgabe und befolgen Sie die Schritte, die im Abschnitt [Konfigurieren der Wissens-KI-Vorgabe und Hochladen ](#configure-knowledge-ai-preset-and-upload-content) Inhalts“ oben beschrieben sind.
 
 
 
