@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie AEM Guides mit KI-Handbüchern verbinden
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: cdc177110720dbbe944a361142911a2e365ef8fa
+source-git-commit: 05976e2a408e57256a454f181bb93d900dc091ab
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 2%
 ---
 
@@ -44,7 +44,7 @@ Stellen Sie vor dem Start sicher, dass Sie über die folgenden Zugriffsrechte un
 
 Die Wissens-KI verwendet ein Service-Konto, um sich sicher zu authentifizieren und auf Inhalte zuzugreifen.
 
-1. Befolgen Sie die Anweisungen unter [Konfigurieren der IMT-Konfiguration für Microservices](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
+1. Befolgen Sie die Anweisungen unter [Konfigurieren der Microservices-IMT-Konfiguration](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config).
 
 1. Erstellen Sie ein neues Service-Konto und laden Sie die generierte JSON-Anmeldedaten-Datei herunter.
 
@@ -86,8 +86,8 @@ Das Service-Konto ist jetzt berechtigt, Inhaltsverwaltungs- und Upload-Vorgänge
 
 Um Inhalte in der Wissens-KI zu veröffentlichen, konfigurieren Sie Experience Manager Guides, sobald Sie Berechtigungen eingerichtet haben.
 
-1. Öffnen Sie **Map-** in Experience Manager Guides.
-1. Navigieren Sie **Registerkarte &quot;**&quot;.
+1. Öffnen Sie die **Map-Konsole** in Experience Manager Guides.
+1. Navigieren Sie zur Registerkarte **Ausgabevorgaben** .
 1. Wählen Sie das Symbol + aus, um eine Ausgabevorgabe zu erstellen.
 1. Wählen Sie **Knowledge AI** aus der Dropdown-Liste **Typ** im Dialogfeld **Neue**) aus. Geben Sie **Name** ein und wählen Sie **Zum aktuellen Ordnerprofil hinzufügen** aus, um eine Ausgabevorgabe im aktuellen Ordnerprofil zu erstellen.
 
@@ -103,7 +103,7 @@ Um Inhalte in der Wissens-KI zu veröffentlichen, konfigurieren Sie Experience M
 
    ![Knowledge-AI-Open](assets/open-knowledge-ai.png)
 
-Sie haben das Service-Konto erfolgreich konfiguriert, die erforderlichen Berechtigungen zugewiesen und Ihren Experience Manager Guides-Inhalt in der Wissens-KI verfügbar gemacht. Wenn Sie aktualisierte Inhalte veröffentlichen möchten, erstellen Sie eine neue Wissens-KI-Vorgabe und befolgen Sie die Schritte, die im Abschnitt [Konfigurieren der Wissens-KI-Vorgabe und Hochladen &#x200B;](#configure-knowledge-ai-preset-and-upload-content) Inhalts“ oben beschrieben sind.
+Sie haben das Service-Konto erfolgreich konfiguriert, die erforderlichen Berechtigungen zugewiesen und Ihren Experience Manager Guides-Inhalt in der Wissens-KI verfügbar gemacht. Wenn Sie aktualisierte Inhalte veröffentlichen möchten, erstellen Sie eine neue Wissens-KI-Vorgabe und befolgen Sie die Schritte, die im Abschnitt [Konfigurieren der Wissens-KI-Vorgabe und Hochladen ](#configure-knowledge-ai-preset-and-upload-content) Inhalts“ oben beschrieben sind.
 
 
 
