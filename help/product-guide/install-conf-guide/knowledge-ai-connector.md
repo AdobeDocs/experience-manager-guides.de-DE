@@ -105,7 +105,7 @@ Um Inhalte in der Wissens-KI zu veröffentlichen, konfigurieren Sie Experience M
 
    ![Knowledge-AI-Open](assets/open-knowledge-ai.png)
 
-Sie haben das Service-Konto erfolgreich konfiguriert, die erforderlichen Berechtigungen zugewiesen und Ihren Experience Manager Guides-Inhalt in der Wissens-KI verfügbar gemacht. Wenn Sie aktualisierte Inhalte veröffentlichen möchten, erstellen Sie eine neue Wissens-KI-Vorgabe und befolgen Sie die Schritte, die im Abschnitt [Konfigurieren der Wissens-KI-Vorgabe und Hochladen ](#configure-knowledge-ai-preset-and-upload-content) Inhalts“ oben beschrieben sind.
+Sie haben das Service-Konto erfolgreich konfiguriert, die erforderlichen Berechtigungen zugewiesen und Ihren Experience Manager Guides-Inhalt in der Wissens-KI verfügbar gemacht. Wenn Sie aktualisierte Inhalte veröffentlichen möchten, erstellen Sie eine neue Wissens-KI-Vorgabe und befolgen Sie die Schritte, die im Abschnitt [Konfigurieren der Wissens-KI-Vorgabe und Hochladen &#x200B;](#configure-knowledge-ai-preset-and-upload-content) Inhalts“ oben beschrieben sind.
 
 
 
