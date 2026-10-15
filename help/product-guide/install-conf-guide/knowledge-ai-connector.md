@@ -44,7 +44,7 @@ Stellen Sie vor dem Start sicher, dass Sie über die folgenden Zugriffsrechte un
 
 Die Wissens-KI verwendet ein Service-Konto, um sich sicher zu authentifizieren und auf Inhalte zuzugreifen.
 
-1. Befolgen Sie die Anweisungen unter [Konfigurieren der IMT-Konfiguration für Microservices](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
+1. Befolgen Sie die Anweisungen unter [Konfigurieren der IMT-Konfiguration für Microservices](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/configure-microservices-imt-config)
 
 1. Erstellen Sie ein neues Service-Konto und laden Sie die generierte JSON-Anmeldedaten-Datei herunter.
 
