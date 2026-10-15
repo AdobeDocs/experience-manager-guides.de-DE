@@ -15,9 +15,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 4abf673f636ffd20d087c99b5112d8504929a6ee
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '124'
 ht-degree: 1%
 ---
 # Konfigurieren einer neuen Baseline für On-Premise
@@ -44,5 +44,5 @@ Die folgenden Schritte erläutern, wie Sie die neue Baseline in Ihrer On-Premise
 
 >[!NOTE]
 >
->Nachdem Sie diese Funktion aktiviert haben, müssen Sie vorhandene Baselines zur neuen Baseline migrieren. Eine schrittweise Anleitung und ein Video mit einer exemplarischen Vorgehensweise finden Sie unter [Neue Grundlinie (Beta) in Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
+>Nachdem Sie diese Funktion aktiviert haben, müssen Sie vorhandene Baselines zur neuen Baseline migrieren. Eine schrittweise Anleitung und ein Video mit einer exemplarischen Vorgehensweise finden Sie unter [Neue Grundlinie in Experience Manager Guides](../user-guide/web-editor-baseline-v2.md).
 
