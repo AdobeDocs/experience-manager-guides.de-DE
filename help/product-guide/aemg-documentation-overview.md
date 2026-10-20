@@ -266,7 +266,7 @@ Greifen Sie auf hilfreiche Ressourcen, Dokumentation und Support zu, um die Plat
 * [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
 * [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[Interaktion mit der Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de)
+[Interaktion mit der Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de&lang=de)
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ Greifen Sie auf hilfreiche Ressourcen, Dokumentation und Support zu, um die Plat
 
 * [Versionshinweise für Cloud Service](./release-info/latest-release-info-cs.md)
 * [Versionshinweise für On-Premise](./release-info/latest-release-info.md)
-* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de){target="_blank"}
+* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de&lang=de){target="_blank"}
 * [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
 * [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
 * [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
