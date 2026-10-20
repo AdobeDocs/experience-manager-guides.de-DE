@@ -31,7 +31,7 @@ Der KI-Assistent in Adobe Experience Manager Guides ist so konzipiert, dass Date
 
 ## Wird der Inhalt, den ich dem KI-Assistenten zur Verfügung stelle, für andere freigegeben?
 
-Nein, der Inhalt und die Eingabeaufforderungen, die Sie dem KI-Assistenten bereitstellen, werden nicht für andere Kundinnen und Kunden freigegeben. Der KI-Assistent verarbeitet Ihre Eingaben nur, um Reaktionen innerhalb Ihres Arbeitsbereichs zu generieren, und verwendet sie nicht zum Trainieren von Modellen für andere. Weitere Informationen finden Sie in den [Benutzerrichtlinien für die generative KI von Adobe](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+Nein, der Inhalt und die Eingabeaufforderungen, die Sie dem KI-Assistenten bereitstellen, werden nicht für andere Kundinnen und Kunden freigegeben. Der KI-Assistent verarbeitet Ihre Eingaben nur, um Reaktionen innerhalb Ihres Arbeitsbereichs zu generieren, und verwendet sie nicht zum Trainieren von Modellen für andere. Weitere Informationen finden Sie in den [Benutzerrichtlinien für die generative KI von Adobe](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 ## Kann ich Feedback zu den Antworten des KI-Assistenten geben?
 
