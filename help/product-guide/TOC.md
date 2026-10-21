@@ -437,7 +437,7 @@ ht-degree: 11%
     - Leistungsmanagement {#performance-management}
       - [Paginiertes Laden von Dateien und Ordnern](./user-guide/paginated-loading-assets.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-conf-guide}
   - [Herunterladen, Installieren und Aktualisieren](./install-conf-guide/introduction.md)
   - Installationsprozess für Cloud Service {#deploy-conf-aemg-cs}
