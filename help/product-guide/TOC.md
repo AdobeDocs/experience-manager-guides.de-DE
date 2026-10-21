@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: a9f16f7a9a4458a89664c1b8bdae41453d4d8c3f
+source-git-commit: 564c62de840aee9858d3c0476db6343bf306785f
 workflow-type: tm+mt
-source-wordcount: '2654'
+source-wordcount: '2657'
 ht-degree: 11%
 ---
 
@@ -223,8 +223,8 @@ ht-degree: 11%
   - Einführung {#about-aemg}
     - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
-      - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Startseite {#home-page}
     - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
     - [Repository-Schnittstelle](./user-guide/home-page-repository-view.md)
@@ -437,7 +437,7 @@ ht-degree: 11%
     - Leistungsmanagement {#performance-management}
       - [Paginiertes Laden von Dateien und Ordnern](./user-guide/paginated-loading-assets.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-conf-guide}
   - [Herunterladen, Installieren und Aktualisieren](./install-conf-guide/introduction.md)
   - Installationsprozess für Cloud Service {#deploy-conf-aemg-cs}
@@ -632,6 +632,7 @@ ht-degree: 11%
     - [Neue UX- und AI-Funktionen in AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
     - [Veröffentlichen in AEM Guides](./knowledge-base/expert-sessions/publishing-in-aem-guides-aug25.md)
     - [Inhaltsüberprüfung in AEM Guides](./knowledge-base/expert-sessions/review-in-aem-guides-jan2026.md)
+    - [AEM GUIDES - MCP](./knowledge-base/expert-sessions/guides-mcp-oct2026.md)
   - Artikel {#kb-articles}
     - [Überblick](./knowledge-base/kb-articles/introduction.md)
     - Authoring {#authoring}
