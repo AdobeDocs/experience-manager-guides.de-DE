@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 212757685049f8787ffe4d63be48c44977a67ef0
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '378'
 ht-degree: 6%
 ---
 # Dokumentation zu Experience Manager Guides
@@ -171,53 +171,6 @@ Ordnerprofile, DITA-OT-Anpassung und Ausgabevorlagen.
 
 ::::
 
-## Neue Funktionen
-
-<!-- Author note: Update images, badge labels, feature titles, descriptions, and links each release cycle. Images are stored in /assets/. The shade box with a borderless HTML table provides the three-column layout. Blank lines inside each <td> are required for ExL to process badge and bold-link markdown syntax. -->
-
->[!BEGINSHADEBOX]
-
-<table>
-<tr style="border: 0;">
-<td>
-
-![Git-Connector](../assets/whats-new-git-connector.svg)
-
-**[Importieren von Inhalten mit dem Git-Connector](./user-guide/web-editor-git-connector.md)**
-
-Importieren Sie Inhalte direkt aus Git-Repositorys in Handbücher.
-
-</td>
-<td>
-
-![Zuordnungssammlung](../assets/whats-new-map-collection.svg)
-
-**[Neue Zuordnungssammlung](./user-guide/generate-output-use-new-map-collection-output-generation.md)**
-
-Einheitliche Schnittstelle zum Verwalten von Zuordnungen und Veröffentlichen von Ausgaben.
-
-</td>
-<td>
-
-![Überprüfung delegieren](../assets/whats-new-delegate-review.svg)
-
-**[Delegieren einer Prüfungsaufgabe](./user-guide/review-complete-review-tasks.md#delegate-a-review-task-to-another-reviewer)**
-
-Reviewer können eine Prüfungsaufgabe an einen anderen Reviewer delegieren.
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
-## Neue Funktionen
-
-[!BADGE 2026.09.0]{type=Informative}
-
-Die Version 2026.09.0 von Adobe Experience Manager Guides führt KI-gestütztes Smart-Tagging im KI-Assistenten ein, sowie Verbesserungen bei Authoring, Content-Management, Veröffentlichung und dem gesamten Anwendererlebnis.
-
-[Neue Funktionen](./release-info/whats-new-2026-09-0.md)
 
 ## Schnell-Links
 
@@ -262,11 +215,11 @@ Erkunden Sie die neuesten Versionshinweise und Produktaktualisierungen für Clou
 
 Greifen Sie auf hilfreiche Ressourcen, Dokumentation und Support zu, um die Plattform optimal zu nutzen.
 
-* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
-* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
-* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
 
-[Interaktion mit der Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de&lang=de)
+[Interaktion mit der Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11)
 
 </td>
 </tr>
@@ -274,14 +227,11 @@ Greifen Sie auf hilfreiche Ressourcen, Dokumentation und Support zu, um die Plat
 
 >[!ENDSHADEBOX]
 
-
-
-
 ## Zusätzliche Ressourcen
 
 * [Versionshinweise für Cloud Service](./release-info/latest-release-info-cs.md)
 * [Versionshinweise für On-Premise](./release-info/latest-release-info.md)
-* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?profile.language=de&lang=de){target="_blank"}
-* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
-* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
-* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
