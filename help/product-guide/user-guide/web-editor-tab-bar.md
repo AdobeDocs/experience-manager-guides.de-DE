@@ -25,7 +25,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Zeigt die aktuell geöffneten Themen im Editor als Datei-Registerkarten an. Sie 
 
 >[!NOTE]
 >
-> Als Administrator können Sie auch festlegen, dass die Liste der Dateien nach Dateinamen auf den Registerkarten angezeigt wird. Wählen Sie die Option **Dateiname** im Abschnitt **Konfiguration der Editor-Dateien** Benutzereinstellungen[&#x200B; aus](./intro-home-page.md#user-preferences).
+> Als Administrator können Sie auch festlegen, dass die Liste der Dateien nach Dateinamen auf den Registerkarten angezeigt wird. Wählen Sie die Option **Dateiname** im Abschnitt **Konfiguration der Editor-Dateien** Benutzereinstellungen[ aus](./intro-home-page.md#user-preferences).
 
 Wenn Sie die Registerkarte Datei auswählen, wird ein Kontextmenü mit den Optionen Als neue Version speichern, Kopieren, Suchen in, Zu hinzufügen, Eigenschaften, Aufspaltung, Als PDF herunterladen und Schließen geöffnet.
 
@@ -74,7 +74,7 @@ Speichert die von Ihnen vorgenommenen Änderungen in allen geöffneten Themen. W
 >
 > Wenden Sie sich an das Customer Success-Team, wenn Sie den Agentenmodus der KI-Assistentenfunktion in Ihrer Umgebung verwenden möchten. Nachdem die Funktion aktiviert wurde, können Administratoren sie in den Workspace-Einstellungen aktivieren oder deaktivieren. Es kann jeweils nur ein Modus des KI-Assistenten aktiviert werden: entweder Agent oder Standard.
 
-- **Agnetic**: Bringt intelligente, agentische Smart-Tagging-Kenntnisse von Adobe CX Enterprise Coworker in den Editor und ermöglicht das Tagging natürlicher, konversativer Inhalte. Es analysiert Ihre Inhalte, empfiehlt relevante Tags und hilft Ihnen bei der Anwendung konsistenter und genauer Metadaten mit minimalem Aufwand. Sie können die vorgeschlagenen Tags überprüfen und sie anwenden oder ablehnen, bevor Sie Ihre Auswahl bestätigen. [KI-Assistent im Agentenmodus verwenden](../user-guide/ai-assistant-agentic.md) optimiert den Tagging-Prozess und verbessert die Inhaltsorganisation und Auffindbarkeit.
+- **Agent**: Bringt intelligente, agentische Smart-Tagging-Kenntnisse aus Adobe CX Enterprise Coworker in den Editor und ermöglicht das Tagging natürlicher, konversativer Inhalte. Es analysiert Ihre Inhalte, empfiehlt relevante Tags und hilft Ihnen bei der Anwendung konsistenter und genauer Metadaten mit minimalem Aufwand. Sie können die vorgeschlagenen Tags überprüfen und sie anwenden oder ablehnen, bevor Sie Ihre Auswahl bestätigen. [KI-Assistent im Agentenmodus verwenden](../user-guide/ai-assistant-agentic.md) optimiert den Tagging-Prozess und verbessert die Inhaltsorganisation und Auffindbarkeit.
 
 - **Standard**: Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelligente Hilfefunktionen steigert. Darüber hinaus können Sie beim Arbeiten in der Editor-Benutzeroberfläche die intelligenten Authoring-Funktionen des KI-Assistenten nutzen, die Ihren Authoring-Prozess durch intelligente Vorschläge für die Wiederverwendung und Optimierung von Inhalten intelligenter und schneller machen.
 
@@ -96,4 +96,4 @@ Die Funktion [KI-](./ai-assistant.md)) ist derzeit nur für Adobe Experience Man
 
 - **Editor-Einstellungen**: Leitet Sie zum Dialogfeld Editor-Einstellungen, in dem Sie das Editor-Verhalten auf individueller Autorenebene anpassen können. Damit können Sie die Sichtbarkeit und das Verhalten von Tags, Kommentaren und anderen Einstellungen auf Editor-Ebene während des Authorings steuern. Weitere Informationen finden Sie unter [Editor-Einstellungen](../user-guide/config-editor-settings.md).
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)
