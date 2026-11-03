@@ -27,7 +27,7 @@ ht-degree: 0%
 ---
 # Höhere Effizienz mit dem Hilfe-Assistenten
 
-Experience Manager Guides bietet die GenAI-basierte Smart-Hilfe, eine Funktion zur konversativen Suche, mit der Sie relevante Inhalte aus der [Adobe Experience Manager Guides-Dokumentation finden &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro).
+Experience Manager Guides bietet die GenAI-basierte Smart-Hilfe, eine Funktion zur konversativen Suche, mit der Sie relevante Inhalte aus der [Adobe Experience Manager Guides-Dokumentation finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/user-guide/about-aemg/intro).
 
 Sie können Ihre Fragen stellen und Antworten auf informative Weise erhalten. Die Antwort auf Ihre Abfrage basiert auf dem Inhalt aus der Produktdokumentation. Diese Suche ist völlig dialogorientiert. Sie können Fragen zu den verschiedenen Funktionen von Experience Manager Guides stellen oder auch Fragen zur Fehlerbehebung stellen. Je nach Antwort können Sie auch weitere Fragen stellen. Die Antwort enthält auch Links zu Quelldokumenten, auf die Sie für Details verweisen können.
 
