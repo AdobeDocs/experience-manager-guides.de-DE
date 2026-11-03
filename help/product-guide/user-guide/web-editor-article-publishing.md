@@ -55,7 +55,7 @@ Führen Sie die folgenden Schritte aus, um eine artikelbasierte Ausgabe zu gener
 1. Wählen Sie **oben** Ausgabe generieren“ aus, um die Ausgabe zu generieren.
 1. Wählen Sie in **Eingabeaufforderung Dateien für** Veröffentlichung bestätigen die Dateien aus, die Sie veröffentlichen möchten, und bestätigen Sie Ihre Auswahl durch **Veröffentlichen**.
 
-   ![Neue ](images/knowledge-base-confirm-files-for-publishing.png)
+   ![Neue &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
 
    Sie sehen den Status des Ausgabegenerierungsprozesses. Die Spalte **Themen** listet die Themen auf, für die Ausgaben generiert werden, während die Spalte **Status** den Veröffentlichungsstatus jedes Themas anzeigt.
 
@@ -113,4 +113,4 @@ Um diese Funktion zu verwenden, stellen Sie sicher, dass **Anfragen jederzeit au
 Durch Aktivierung der Unterstützung von Aktualisierungstoken in Experience Manager Guides wird die PKCE-Unterstützung automatisch aktiviert. Die entsprechende Einstellung muss jedoch auch in Salesforce aktiviert werden, damit die Authentifizierung erfolgreich funktioniert.
 
 
-**Übergeordnetes Thema:**[ Arbeiten mit dem Editor](web-editor.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Editor](web-editor.md)

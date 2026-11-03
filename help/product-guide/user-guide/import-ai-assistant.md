@@ -16,7 +16,7 @@ Die **Import**-Kenntnisse im Agent-Modus des KI-Assistenten helfen Ihnen, vorhan
 Sie können Dateien von Ihrem Gerät oder Inhalts-Repository importieren, die Überschriftenebene angeben, die den Beginn eines neuen Themas definiert, und den Zielordner für den importierten Inhalt auswählen. Gehen Sie wie folgt vor, um eine Datei zu importieren:
 
 1. Melden Sie sich bei Experience Manager Guides an.
-1. Wählen Sie auf der Startseite in **Navigationsleiste die Option** KI-Assistent“ aus. Stellen Sie sicher[ dass der KI-Assistent ](../install-conf-guide/workspace-settings.md) Agentenmodus von Ihrem Administrator aktiviert wurde.
+1. Wählen Sie auf der Startseite in **Navigationsleiste die Option** KI-Assistent“ aus. Stellen Sie sicher[&#x200B; dass der KI-Assistent &#x200B;](../install-conf-guide/workspace-settings.md) Agentenmodus von Ihrem Administrator aktiviert wurde.
 1. Wählen **Importieren** im Bedienfeld „KI-Assistent“ aus. Sie können auch andere Eingabeaufforderungen wie &quot;*in DITA-Themen konvertieren* für eine Word-Datei oder *Markdown in DITA-Themen konvertieren* für eine Markdown-Datei verwenden.
 
    Im Eingabeaufforderungsfeld wird die *„Hilfe zum Importieren von Inhalten aus der angehängten PDF* Datei“ angezeigt.

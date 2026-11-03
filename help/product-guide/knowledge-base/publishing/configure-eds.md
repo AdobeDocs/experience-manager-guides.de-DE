@@ -202,7 +202,7 @@ In den folgenden Abschnitten werden die einzelnen Schritte nacheinander beschrie
    - **Site-Repository (nur *-Lab*:** Geben Sie den Repository-Namen ein, der mit der Edge Delivery Services-Site verknüpft ist.
    - **HLX-API-Schlüssel** Geben Sie den HLX-API-Schlüssel für Ihre EDS-Konfiguration ein. Dieser Schlüssel ist erforderlich, um die Funktion „Veröffentlichung rückgängig gemacht“ zu unterstützen, die in der Version 2026.11.0 von Experience Manager Guides as a Cloud Service eingeführt wurde. Außerdem ist der Schlüssel für die Veröffentlichung des Inhalts in EDS erforderlich, wenn die Inhaltsgröße mehr als 100 Dateien beträgt.
    - **Authentifizierungsberechtigungen:** Geben Sie die Anmeldeinformationen basierend auf dem ausgewählten Git-Kontotyp an:
-     - **GitHub:** Geben Sie die **Client-ID\*** und **Client-Geheimnis\*** ein, die Sie von Ihrer GitHub OAuth-App erhalten haben. Weitere Informationen finden [ unter „Erstellen einer neuen OAuth-](#create-a-new-oauth-app)&quot;.
+     - **GitHub:** Geben Sie die **Client-ID\*** und **Client-Geheimnis\*** ein, die Sie von Ihrer GitHub OAuth-App erhalten haben. Weitere Informationen finden [&#x200B; unter „Erstellen einer neuen OAuth-](#create-a-new-oauth-app)&quot;.
      - **GitLab:** Geben Sie das **Zugriffstoken\*** ein, das für Ihr GitLab-Konto generiert wurde.
 3. (*Nur GitHub*) Wählen Sie **Anmelden** aus, um sich zu authentifizieren. Für GitLab ist keine Anmeldung erforderlich, da das Zugriffstoken für die Authentifizierung verwendet wird.
 

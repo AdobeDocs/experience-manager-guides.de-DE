@@ -51,7 +51,7 @@ Die Option **Workspace** in der [Registerkartenleiste](../user-guide/web-editor-
 
 ## Allgemein
 
-Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren, dass der Editor verwendet wird. Diese Registerkarte enthält: **KI-Funktionen**, **KI-****Authoring**, **Zitate**, **Bedingung**,**HTML-Editor**, **Lerninhalte** und **Rechtschreibprüfung**.
+Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren, dass der Editor verwendet wird. Diese Registerkarte enthält: **KI-Funktionen**, **KI-**&#x200B;**Authoring**, **Zitate**, **Bedingung**,**HTML-Editor**, **Lerninhalte** und **Rechtschreibprüfung**.
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
@@ -91,7 +91,7 @@ Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren
 
 - **Zitate**
 
-  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von ](../user-guide/web-editor-apply-citations.md#change-citation-style).
+  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von &#x200B;](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Bedingung**
 
@@ -296,7 +296,7 @@ Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum �
      >
      > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
-  1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](../user-guide/images/Delete_icon.svg).
+  1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![&#x200B; Sprachgruppen zu bearbeiten &#x200B;](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![&#x200B; oder zu löschen](../user-guide/images/Delete_icon.svg).
   1. Speichern Sie die **Einstellungen**.
 
      >[!NOTE]

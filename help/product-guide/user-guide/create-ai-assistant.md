@@ -14,7 +14,7 @@ Die **Erstellen**-Kenntnisse im Agenten-Modus des KI-Assistenten helfen Ihnen be
 Sie können eine Datei anhängen, eine vorhandene Datei als Referenz für Ton und Stil auswählen und den Ordner angeben, in dem Sie die generierten Inhalte speichern möchten. Gehen Sie wie folgt vor, um einen ersten Entwurf Ihres gewünschten Inhalts zu erstellen:
 
 1. Melden Sie sich bei Experience Manager Guides an.
-1. Wählen Sie auf der Startseite in **Navigationsleiste die Option** KI-Assistent“ aus. Stellen Sie sicher[ dass der KI-Assistent ](../install-conf-guide/workspace-settings.md) Agentenmodus von Ihrem Administrator aktiviert wurde.
+1. Wählen Sie auf der Startseite in **Navigationsleiste die Option** KI-Assistent“ aus. Stellen Sie sicher[&#x200B; dass der KI-Assistent &#x200B;](../install-conf-guide/workspace-settings.md) Agentenmodus von Ihrem Administrator aktiviert wurde.
 
 1. Wählen **im Bedienfeld**-Assistent die Option „Erstellen“ aus.
 

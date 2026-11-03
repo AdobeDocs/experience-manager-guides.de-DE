@@ -102,6 +102,6 @@ Im Folgenden finden Sie Anweisungen zum Konfigurieren dieser Einstellung:
 
    | PID | Eigenschaftsschlüssel | Eigenschaftswert |
    | --------------------------------------- | -------------------------------- | ----------------------------- |
-   | `com.adobe.fmdita.config.ConfigManager` | `guides.publish.config` | {USE_DITA_OT_GENERATED_CLASS“: {false} |
+   | `com.adobe.fmdita.config.ConfigManager` | `guides.publish.config` | &lbrace;USE_DITA_OT_GENERATED_CLASS“: {false} |
 
 3. Legen Sie den Wert auf `true` fest, um die Einstellung zu aktivieren, und stellen Sie die Konfiguration mithilfe von Cloud Manager bereit.

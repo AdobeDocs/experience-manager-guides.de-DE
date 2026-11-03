@@ -69,7 +69,7 @@ Die Benutzeroberfläche der Map-Konsole ist hauptsächlich in zwei Abschnitte un
 
 - (**B**) **Linkes Bedienfeld**: Das linke Bedienfeld bietet schnellen Zugriff auf Funktionen für Ausgabegenerierung, Ausgabegeschichte, Berichterstellung und -verwaltung, Baseline, Bedingungsvorgaben, Inhaltsübersetzung und Workfront (nur wenn konfiguriert).
 
-  Weitere Informationen finden Sie im folgenden Abschnitt [Funktionen der ](#map-console-features) zuordnen“.
+  Weitere Informationen finden Sie im folgenden Abschnitt [Funktionen der &#x200B;](#map-console-features) zuordnen“.
 
 ## Funktionen der Zuordnungskonsole
 
@@ -103,7 +103,7 @@ Weitere Informationen finden Sie unter [Berichte in Experience Manager Guides](.
 
 Experience Manager Guides bietet die Funktion „Grundlinien“, mit der Sie eine Version Ihrer Themen und Assets erstellen können, die dann zur Veröffentlichung oder Übersetzung verwendet werden können. Sie können auch mehrere Ausgabevorgaben derselben DITA-Zuordnung parallel veröffentlichen.
 
-Erfahren Sie, wie [ Baselines in Experience Manager Guides erstellen und verwalten ](./web-editor-baseline.md).
+Erfahren Sie, wie [&#x200B; Baselines in Experience Manager Guides erstellen und verwalten &#x200B;](./web-editor-baseline.md).
 
 **Bedingungsvorgaben**
 

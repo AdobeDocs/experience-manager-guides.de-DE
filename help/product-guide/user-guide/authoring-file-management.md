@@ -390,4 +390,4 @@ Sie können die Versionsbeschriftungen der Datei auch über das Bedienfeld Versi
 
 
 
-**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte verwalten](authoring.md)
