@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1140'
 ht-degree: 0%
 ---
 # Komponentenzuordnung für AEM Sites
@@ -171,9 +171,30 @@ Beispiele:
 ]
 ```
 
-Definieren Sie das Zielelement und die Klasse, verwenden Sie `attributeMap` zum Festlegen der Knoteneigenschaften, fügen Sie einen `path-attributes` Eintrag hinzu, um Pfade zu normalisieren, und wählen Sie die richtige `from` für die Werte aus, die Sie extrahieren möchten. Die oben verwendete `heroimage` ist eine Komponente in einer `we-retail`.
+Definieren Sie das Zielelement und die Klasse, verwenden Sie `attributeMap` zum Festlegen der Knoteneigenschaften, fügen Sie einen `path-attributes` Eintrag hinzu, um Pfade zu normalisieren, und wählen Sie die richtige `from` für die Werte aus, die Sie extrahieren möchten. Die oben verwendete `heroimage` ist eine Komponente in einer `we-retail`.  Es ist wichtig, den standardmäßigen Rich-Text zu besprechen und die Elemente zu identifizieren, für die er verwendet wird.
 
-**Hinweis**: Es ist wichtig, den standardmäßigen Rich-Text zu besprechen und die Elemente zu identifizieren, für die er verwendet wird.
+
+## Prolog-Metadaten an den Seitenkopf weitergeben
+
+Wenn Sie eine AEM Sites-Ausgabe mit Komponentenzuordnung generieren, werden die Prolog-Metadaten wie Autor, Schlüsselwörter und Ressourcen-ID anstelle des Seitenkopfs zum Hauptteil der generierten AEM Sites-Seite hinzugefügt.
+
+Um die Prolog-Metadaten an den Kopf der Ausgabeseiten weiterzugeben, fügen Sie die folgende Zuordnung zu Ihrer Komponentenzuordnungsdatei hinzu:
+
+```json
+{
+  "name": "div",
+  "class": "prolog",
+  "resourceType": "guides-components/components/prolog",
+  "attributeMap": [
+    {
+      "from": "outerHTML",
+      "to": "prologContent"
+    }
+  ]
+}
+```
+
+Nachdem Sie diese Zuordnung hinzugefügt haben, sind die Prolog-Metadaten im Kopf der generierten Seiten verfügbar. Dies unterstützt Anwendungsfälle wie die Suchindizierung.
 
 ## Erstellen einer benutzerdefinierten Komponente
 

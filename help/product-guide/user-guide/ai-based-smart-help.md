@@ -20,36 +20,32 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 3aa727853173c89eb63ffa09f4caec92f6dff911
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 ---
-# Effizienzsteigerung durch intelligente Hilfe im KI-Assistenten (Beta)
+# Höhere Effizienz mit dem Hilfe-Assistenten
 
->[!NOTE]
->
->Diese Funktion ist für den KI-Assistenten im Standardmodus verfügbar.
-
-Experience Manager Guides bietet die GenAI-basierte Smart-Hilfe, eine Funktion zur konversativen Suche, mit der Sie relevante Inhalte aus der [Adobe Experience Manager Guides-Dokumentation finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/overview).
+Experience Manager Guides bietet die GenAI-basierte Smart-Hilfe, eine Funktion zur konversativen Suche, mit der Sie relevante Inhalte aus der [Adobe Experience Manager Guides-Dokumentation finden ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro).
 
 Sie können Ihre Fragen stellen und Antworten auf informative Weise erhalten. Die Antwort auf Ihre Abfrage basiert auf dem Inhalt aus der Produktdokumentation. Diese Suche ist völlig dialogorientiert. Sie können Fragen zu den verschiedenen Funktionen von Experience Manager Guides stellen oder auch Fragen zur Fehlerbehebung stellen. Je nach Antwort können Sie auch weitere Fragen stellen. Die Antwort enthält auch Links zu Quelldokumenten, auf die Sie für Details verweisen können.
 
 Sie können zum Beispiel folgende Fragen stellen: *Wie veröffentliche ich eine Karte?* Sie erhalten eine Antwort und die Links für die entsprechenden Artikel. Wenn Sie dann erfahren möchten, wie Sie eine bestimmte Methode zum Veröffentlichen der Ausgabe verwenden, können Sie Fragen dazu stellen. Beispiel: *Wie veröffentliche ich eine Zuordnung zu PDF?*
 
-Wenn Sie **KI-Assistent** auf der Startseite, in der Map-Konsole oder im Editor öffnen, wird das **Hilfe**-Bedienfeld auf der rechten Seite geöffnet. Im Fall des Editors wird auch das Authoring-Bedienfeld angezeigt, das Ihnen intelligente Authoring-Funktionen bietet. Weitere Informationen finden Sie unter [KI-Assistent zum intelligenten Verfassen von Dokumenten](./ai-assistant-right-panel.md)
+>[!NOTE]
+>
+>Wenn Sie den Hilfeassistenten zum ersten Mal verwenden, werden Sie aufgefordert, Ihr Einverständnis zu geben, bevor Sie auf die Funktionen der generativen KI von Experience Manager Guides zugreifen. Wenn Sie den Richtlinien für die Verwendung der KI-Assistenten-Funktion bereits zugestimmt haben, werden Sie nicht erneut aufgefordert und können den Hilfe-Assistenten ohne zusätzliche Zustimmung weiter verwenden.
 
-![Smartes Hilfebedienfeld](images/smart-help-panel.png){width="300"}
+Führen Sie die folgenden Schritte aus, um das Bedienfeld **Hilfe-Assistent** zu verwenden, um geeignete Inhalte zu finden und Ihre Abfragen aufzulösen:
 
-*Anzeigen des Bedienfelds **Hilfe**.*
-
-Führen Sie die folgenden Schritte aus, um das Hilfebedienfeld zu verwenden, um den entsprechenden Inhalt zu finden und Ihre Abfragen aufzulösen:
-
-1. Wählen Sie **KI-Assistent** aus, um das Hilfefenster zu öffnen.
+1. Wählen Sie **Hilfe-Assistent**, um das Hilfeassistenten-Bedienfeld zu öffnen.
 
    >[!NOTE]
    >
-   > In den [globalen Profilen oder Profilen auf &#x200B;](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant) muss Ihr Administrator die Standardfragen definieren, die im Bedienfeld angezeigt werden.
+   > In den [globalen Profilen oder Profilen auf ](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant) muss Ihr Administrator die Standardfragen definieren, die im Bedienfeld angezeigt werden.
+
+   ![Smartes Hilfebedienfeld](images/smart-help-panel-new.png){width="300"}
 
 1. Geben Sie die Frage ein, um den zugehörigen Inhalt in der Dokumentation zu Experience Manager Guides zu finden. Sie können die Standardfrage im Bedienfeld auswählen oder Ihre Frage in das Textfeld eingeben.
 
@@ -69,15 +65,18 @@ Führen Sie die folgenden Schritte aus, um das Hilfebedienfeld zu verwenden, um 
 
 Anstatt in Benutzerhandbüchern und Referenzdokumenten zu suchen, können Sie die Funktion **Hilfe** verwenden, um schnell relevante Antworten auf Ihre Fragen zu finden. Dies spart Zeit und ermöglicht es Ihnen, sich auf die Inhaltserstellung zu konzentrieren, was zu höherer Produktivität und Effizienz führt.
 
-## Verfügbare Optionen für Antworten auf die Hilfe des KI-Assistenten
+## Verfügbare Optionen für Hilfeantworten
 
-Wenn Sie eine Antwort vom KI-Assistenten im Bedienfeld **Hilfe** erhalten, können Sie damit interagieren oder Feedback geben, um die Genauigkeit und Zuverlässigkeit zu verbessern. Ihr Feedback hilft dem Experience Manager Guides-Team, die Genauigkeit und Relevanz der KI-Assistentenantworten zu verbessern und ihre Leistung im Laufe der Zeit zu verbessern.
+Wenn Sie eine Antwort vom Hilfeassistenten im Bedienfeld **Hilfeassistent** erhalten, können Sie damit interagieren oder Feedback geben, um die Genauigkeit und Zuverlässigkeit zu verbessern. Ihr Feedback hilft dem Experience Manager Guides-Team, die Genauigkeit und Relevanz der Antworten zu verbessern und die Leistung im Laufe der Zeit zu verbessern.
 
-Die folgenden Optionen stehen zur Verfügung, um mit den Antworten des KI-Assistenten (Hilfebereich) zu interagieren **Feedback** geben:
+Die folgenden Optionen stehen zur Verfügung, um mit den Antworten des Bedienfelds &quot;**-Assistent“ zu interagieren oder Feedback**:
 
 ![](images/ai-assistant-response-options.png){width="300"}
 
 - **Kopieren**: Kopieren Sie die Antwort zur Verwendung in Ihren Dokumenten.
 - **Like**: Gibt an, dass die Antwort hilfreich oder korrekt war. Wählen Sie das Symbol Gefällt mir , um die Antwort zu mögen, und verwenden Sie die Option **Weitere Informationen**, um detailliertes Feedback zu geben.
-- **Gefällt mir nicht**: Markiert die Antwort als nicht hilfreich oder falsch. Wählen Sie das Symbol Gefällt mir nicht, wenn Ihnen die Antwort gefällt, und verwenden Sie die Option **Weitere Informationen**, um detailliertes Feedback zu geben.
+  ![](images/feedback-help.png){width="300"}
+- **Gefällt mir nicht**: Markiert die Antwort als nicht hilfreich oder falsch. Wählen Sie das Symbol Gefällt mir nicht, wenn Ihnen die Antwort gefällt, und verwenden Sie die Option **Weitere Informationen**, um detailliertes Feedback zu geben.\
+  ![](images/dislike-help.png){width="300"}
 - **Bericht**: Markieren Sie die Antwort zur Überprüfung, wenn sie Fehler oder ungenaue Inhalte enthält. Wählen Sie das Markierungssymbol aus, um das Dialogfeld **Berichtsergebnisse** zu öffnen. Wählen Sie aus den verfügbaren Optionen aus oder geben Sie ein benutzerdefiniertes Feedback.
+  ![](images/report-help.png){width="300"}

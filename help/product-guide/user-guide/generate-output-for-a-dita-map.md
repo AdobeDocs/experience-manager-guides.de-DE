@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '597'
 ht-degree: 0%
 ---
 # Ausgabe generieren
@@ -76,6 +76,9 @@ Um das Fehlerprotokoll anzuzeigen, wählen Sie **Verwerfen**, bewegen Sie den Ma
 >
 > Wenn Ihre Zuordnung eine DITAVAL-Datei verwendet, werden alle gekennzeichneten Bilder, auf die in der DITAVAL-Datei verwiesen wird, an einen Speicherort kopiert, der sich auf die veröffentlichte Zuordnung in der Ausgabe bezieht.  Wenn Sie mehrere DITAVAL-Dateien für die Filterung innerhalb derselben Zuordnung verwenden, stellen Sie außerdem sicher, dass Sie eindeutige `.ditaval`-Dateinamen verwenden, um Probleme mit doppelten Dateinamen beim Veröffentlichen zu vermeiden.
 
+Sie können den aktuellen Status der Ausgabegenerierungsanfrage auf der Registerkarte **Ausgabehistorie** einsehen. Weitere Informationen finden Sie unter [Anzeigen des Status der Aufgabe zur Ausgabenerstellung](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+
+
 ## Generieren einer Ausgabe für eine DITA-Zuordnung über das Zuordnungs-Dashboard
 
 Führen Sie die folgenden Schritte aus, um mithilfe des Zuordnungs-Dashboards eine Ausgabe für eine DITA-Zuordnung zu generieren:
@@ -91,7 +94,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Zuordnungs-Dashboards ei
 1. Wählen Sie das **Generieren**, um den Ausgabegenerierungsprozess zu starten.
 
 
-Sie können den aktuellen Status der Ausgabegenerierungsanfrage auf der Registerkarte **Ausgaben** einsehen. Weitere Informationen finden Sie unter [Anzeigen des Status der Aufgabe zur Ausgabenerstellung](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task).
+Sie können den aktuellen Status der Ausgabegenerierungsanfrage auf der Registerkarte **Ausgaben** einsehen. Weitere Informationen finden Sie unter [Anzeigen des Status der Ausgabegenerierungsaufgabe](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
 
 >[!IMPORTANT]
 >
@@ -110,4 +113,4 @@ Weitere Informationen zur Verwendung der öffentlichen ID und System-ID in Ihren
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

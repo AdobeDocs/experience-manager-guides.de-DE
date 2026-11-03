@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '887'
 ht-degree: 0%
 ---
 # Editor-Einstellungen
@@ -36,31 +36,79 @@ Mit diesem zentralen Einstellungsbedienfeld können Sie wichtige Editor-Voreinst
 
 ## Unterstützte Konfigurationsoptionen
 
-Je nach Ihren Voreinstellungen können Sie die folgenden Optionen aktivieren oder deaktivieren:
+Mit den Editor-Einstellungen können Sie verschiedene Optionen anpassen, darunter Änderungen verfolgen, Tags anzeigen, Schnelleinfügemenü und mehr.
 
 ![Editor-Einstellungen](./images/editor-settings-dialog.png){width="350"}
 
-- **Leerzeichen ohne Unterbrechung**: Aktivieren Sie diese Option, um beim Bearbeiten im Editor einen Indikator für die Leerzeichen ohne Unterbrechung anzuzeigen. Er ist nur in der Autorenansicht für DITA-Themen und DITA-Zuordnungen sichtbar
-- **XML-Kommentare**: Ermöglicht es Autoren, XML-Kommentare direkt im Autorenmodus anzuzeigen, zu bearbeiten und einzufügen, um eine bessere Sichtbarkeit innerhalb des Inhalts zu erzielen. Wenn diese Option aktiviert ist, können Autoren XML-Kommentare direkt im Inhalt im Autorenmodus selbst anzeigen, einfügen, bearbeiten und löschen, was das Hinzufügen von kontextuellen Anmerkungen für Mitwirkende erleichtert. Wenn diese Option deaktiviert ist, sind XML-Kommentare im Autorenmodus ausgeblendet und können nicht im Autorenmodus eingefügt oder geändert werden, um ein saubereres Authoring-Erlebnis für Benutzende zu gewährleisten, die sie nicht benötigen. Sie können weiterhin XML-Kommentare im Quellmodus mithilfe der `<!-- test comment -->`-Syntax anzeigen und erstellen.
+### Änderungen verfolgen
 
-  ![XML-Kommentare konfigurieren](./images/config-xml-comments.png){width="650"}
+>[!NOTE]
+>
+>- Diese Funktion ist standardmäßig aktiviert. Um sie zu deaktivieren, wenden Sie sich an das AEM Guides Customer Success-Team.
+>- Bei der Arbeit mit Tabellen wird das Einfügen einer Zeile oder Spalte verfolgt, aber das Löschen einer Zeile oder Spalte wird nicht im Bedienfeld Änderungen nachverfolgen nachverfolgt.
 
-- **Tags**: Steuert die Sichtbarkeit von Tags im Editor. Wenn diese Option aktiviert ist, werden im Inhalt strukturelle Tags angezeigt, sodass Autoren die zugrunde liegende DITA-Struktur anzeigen und verwalten können. Wenn diese Option deaktiviert ist, werden diese Tags ausgeblendet, um ein saubereres und fokussierteres Authoring-Erlebnis zu bieten.
+Aktivieren Sie **Modus**&#x200B;Änderungen verfolgen“, um die an einem Thema vorgenommenen Änderungen aufzuzeichnen. Sobald sie aktiviert ist, wird jede Einfügung und jeder Löschvorgang während der Arbeit erfasst, und alle Änderungen werden im Bedienfeld **Änderungen verfolgen** aufgeführt. Aufeinander folgende, an derselben Position vorgenommene Bearbeitungen werden gruppiert und im Bedienfeld **Änderungen nachverfolgen** als einzelne Änderung angezeigt.
 
-  ![Tags konfigurieren](./images/config-tags.png){width="650"}
+Gelöschter Inhalt wird durchgestrichen angezeigt, eingefügter Inhalt hingegen in grünem Text. Darüber hinaus werden Änderungsleisten am Rand der Themenseite angezeigt, wobei rote Balken gelöschte Inhalte anzeigen und grüne Balken hinzugefügte Inhalte anzeigen. Wenn eine Zeile sowohl Hinzufügungen als auch Löschungen enthält, werden beide Änderungsbalken angezeigt.
 
-  Wenn **Einstellungen** Tags anzeigen) aktiviert sind, können Sie auch **Attribute anzeigen** aktivieren, um die mit einem Element verknüpften Attribute anzuzeigen und zu validieren. Wenn einem Element mehr als drei Attribute zugeordnet sind, wird ein Zählindikator angezeigt. Wenn Sie den Mauszeiger über den Indikator bewegen, wird die vollständige Liste der auf dieses Element angewendeten Attribute angezeigt.
+Wenn mehrere Benutzende am selben Thema arbeiten, können sie die Bearbeitungen des anderen sehen, indem sie Änderungen verfolgen. Sobald die Inhalte fertig gestellt werden können, können Benutzer die verfolgten Änderungen überprüfen und sie akzeptieren oder ablehnen.
 
-  ![Tags mit Attributen konfigurieren](./images/config-tags-attributes.png) {width="650"}
+![Editor-Einstellungen](./images/track-changes-all.png){width="350"}
 
-- **Menü „Schnelleinfügung“ im Editor**: Ermöglicht das direkte Hinzufügen von Elementen während der Bearbeitung im Autorenmodus an der Cursorposition ohne Navigieren zur Symbolleiste. Häufig verwendete Elemente können auch in den „Favoriten **konfiguriert werden,** den Zugriff zu beschleunigen. Das Schnelleinfügemenü steht direkt im Editor zur Verfügung, wenn Sie unter Windows **Strg + /** oder bei macOS **Befehl + /** auf die Cursorposition drücken.
+**Verfolgte Löschungen inline anzeigen**
 
-  ![Menü „Schnelleinfügung“ im Editor](./images/quick-insert-menu-in-editor.png){width="650"}
+Steuert, wie gelöschte Inhalte im Editor angezeigt werden, während das Nachverfolgen von Änderungen aktiviert ist. Wenn diese Option aktiviert ist, bleibt gelöschter Inhalt inline an der ursprünglichen Position als durchgestrichener Text sichtbar. Wenn diese Option deaktiviert ist, wird der gelöschte Inhalt nicht angezeigt. Stattdessen wird ein Stiftsymbol an der Stelle angezeigt, an der der Inhalt entfernt wurde, sodass Sie eine klarere Ansicht Ihres Themas erhalten. Wählen Sie das Stiftsymbol aus, um zum entsprechenden gelöschten Inhalt im Bedienfeld „Nachverfolgte Änderungen“ zu wechseln.
 
-  Sie können nach Elementen suchen und diese zu Ihren Favoriten hinzufügen, zuvor hinzugefügte Elemente entfernen und sie mit einfachem Drag-and-Drop neu anordnen. Zu den Favoriten gehören die am häufigsten verwendeten Elemente. Die hier festgelegte Reihenfolge wird beim Zugriff über den Editor im Menü „Schnelleinfügung“ angezeigt.
+![Editor-Einstellungen - Änderungen verfolgen](./images/deletion-inline-off.png){width="350"}
 
-  Im Folgenden finden Sie ein kurzes Video zur Verwendung des Menüs Quick Insert im neuen Editor.
+**Akzeptieren oder Ablehnen getrackter Änderungen**
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3491343)
+Um die Änderungen zu überprüfen, wählen **im rechten Bedienfeld das Symbol**&#x200B;Änderungen verfolgen“ aus, um das Bedienfeld „Nachverfolgte Änderungen“ zu öffnen, und führen Sie die folgenden Schritte aus:
+
+1. Wählen Sie eine verfolgte Änderung im Bedienfeld aus. Der geänderte Inhalt wird im Dokument ausgewählt.
+1. Akzeptieren Sie die Änderung, indem Sie das Symbol **Änderung akzeptieren** auswählen, oder lehnen Sie sie ab, indem Sie das Symbol **Änderung ablehnen** auswählen.
+
+   ![Bedienfeld „Getrackte Änderungen“](./images/track-changes-individual.png){width="650"}
+
+1. Um alle Änderungen mit einem Klick zu akzeptieren oder abzulehnen, wählen Sie oben im Bedienfeld **Alle** akzeptieren **oder** Alle Änderungen ablehnen“ aus.
+
+   ![Bedienfeld „Getrackte Änderungen“](./images/track-changes-all-comment.png){width="650"}
+
+
+### Geschützte Leerzeichen
+
+Aktivieren Sie diese Einstellung, um bei der Bearbeitung im Editor einen Indikator für die Leerzeichen ohne Unterbrechung anzuzeigen. Er ist nur in der Autorenansicht für DITA-Themen und DITA-Zuordnungen sichtbar.
+
+### XML-Kommentare
+
+Ermöglicht es Autoren, XML-Kommentare direkt im Autorenmodus anzuzeigen, zu bearbeiten und einzufügen, um eine bessere Sichtbarkeit innerhalb des Inhalts zu erzielen. Wenn diese Option aktiviert ist, können Autoren XML-Kommentare direkt im Inhalt im Autorenmodus selbst anzeigen, einfügen, bearbeiten und löschen, was das Hinzufügen von kontextuellen Anmerkungen für Mitwirkende erleichtert. Wenn diese Option deaktiviert ist, sind XML-Kommentare im Autorenmodus ausgeblendet und können nicht im Autorenmodus eingefügt oder geändert werden, um ein saubereres Authoring-Erlebnis für Benutzende zu gewährleisten, die sie nicht benötigen. Sie können weiterhin XML-Kommentare im Quellmodus mithilfe der `<!-- test comment -->`-Syntax anzeigen und erstellen.
+
+>[!NOTE]
+>
+> Bei XML-**zeichnet „Änderungen verfolgen** nur das Einfügen oder Löschen des gesamten Kommentars auf. Änderungen, die innerhalb eines vorhandenen XML-Kommentars vorgenommen werden, werden nicht aufgezeichnet.
+
+![XML-Kommentare konfigurieren](./images/config-xml-comments.png){width="650"}
+
+### Tags
+
+Steuert die Sichtbarkeit von Tags im Editor. Wenn diese Option aktiviert ist, werden im Inhalt strukturelle Tags angezeigt, sodass Autoren die zugrunde liegende DITA-Struktur anzeigen und verwalten können. Wenn diese Option deaktiviert ist, werden diese Tags ausgeblendet, um ein saubereres und fokussierteres Authoring-Erlebnis zu bieten.
+
+![Tags konfigurieren](./images/config-tags.png){width="650"}
+
+Wenn **Einstellungen** Tags anzeigen) aktiviert sind, können Sie auch **Attribute anzeigen** aktivieren, um die mit einem Element verknüpften Attribute anzuzeigen und zu validieren. Wenn einem Element mehr als drei Attribute zugeordnet sind, wird ein Zählindikator angezeigt. Wenn Sie den Mauszeiger über den Indikator bewegen, wird die vollständige Liste der auf dieses Element angewendeten Attribute angezeigt.
+
+    ![Tags mit Attributen konfigurieren](./images/config-tags-attributes.png) {width=„650“}
+
+### Menü „Schnelleinfügung“ im Editor
+
+Ermöglicht das direkte Hinzufügen von Elementen während der Bearbeitung im Autorenmodus an der Cursorposition ohne Navigieren zur Symbolleiste. Häufig verwendete Elemente können auch in den „Favoriten **konfiguriert werden,** den Zugriff zu beschleunigen. Das Schnelleinfügemenü steht direkt im Editor zur Verfügung, wenn Sie unter Windows **Strg + /** oder bei macOS **Befehl + /** auf die Cursorposition drücken.
+
+![Menü „Schnelleinfügung“ im Editor](./images/quick-insert-menu-in-editor.png){width="650"}
+
+Sie können nach Elementen suchen und diese zu Ihren Favoriten hinzufügen, zuvor hinzugefügte Elemente entfernen und sie mit einfachem Drag-and-Drop neu anordnen. Zu den Favoriten gehören die am häufigsten verwendeten Elemente. Die hier festgelegte Reihenfolge wird beim Zugriff über den Editor im Menü „Schnelleinfügung“ angezeigt.
+
+Im Folgenden finden Sie ein kurzes Video zur Verwendung des Menüs Quick Insert im neuen Editor.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3491343)
 
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 09b8fabaa75d656ae1465d741c8aac8307ce6231
+source-git-commit: e1ea38759b90ccb044664bd70a5e7dbbaf9dd4f2
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2699'
 ht-degree: 11%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 11%
       - {hide-from-toc}[Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
       - [Cloud-Versionen](./release-info/latest-release-info-cs.md)
       - Versionen 2026 {#2026-releases}
+        - Version 2026.11.0 {#2611-release}
+          - [Neue Funktionen](./release-info/whats-new-2026-11-0.md)
+          - [Behobene Probleme](./release-info/fixed-issues-2026-11-0.md)
+          - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2026-11-0.md)
         - Version 2026.09.0 {#2609-release}
           - [Neue Funktionen](./release-info/whats-new-2026-09-0.md)
           - [Behobene Probleme](./release-info/fixed-issues-2026-09-0.md)
@@ -223,8 +227,8 @@ ht-degree: 11%
   - Einführung {#about-aemg}
     - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
     - [!DNL AEM Guides] Funktionen und Hauptfunktionen {#aemg-works-features}
-      - [Funktionsweise  [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
-      - [Wichtige  [!DNL AEM Guides] &#x200B;](./user-guide/intro-dxml-features.md)
+      - [Funktionsweise  [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+      - [Wichtige  [!DNL AEM Guides] ](./user-guide/intro-dxml-features.md)
   - Startseite {#home-page}
     - [[!DNL AEM Guides]-Startseiten-Erlebnis](./user-guide/intro-home-page.md)
     - [Repository-Schnittstelle](./user-guide/home-page-repository-view.md)
@@ -293,6 +297,10 @@ ht-degree: 11%
   - Kartenverwaltung und -veröffentlichung {#map-management-publishing}
     - [Übersicht über die Zuordnungskonsole](./user-guide/map-console-overview.md)
     - [Dateien in der Zuordnungskonsole öffnen](./user-guide/open-files-map-console.md)
+    - Verzweigung und Zusammenführung {#work-with-branching}
+      - [Überblick](./user-guide/branching-overview.md)
+      - [Erstellen und Verwalten von Verzweigungen](./user-guide/create-manage-branch.md)
+      - [Zweige fusionieren](./user-guide/merge-branches.md)
     - Berichte {#reports-aem-guide}
       - [Einführung in Berichte](./user-guide/reports-intro.md)
       - [DITA-Zuordnungsbericht über die Zuordnungskonsole](./user-guide/reports-web-editor.md)
@@ -369,12 +377,15 @@ ht-degree: 11%
     - [Adobe Generative AI-Benutzerinformationen](./user-guide/adobe-generative-ai-disclosures.md)
     - [Überblick über den KI-Assistenten](./user-guide/ai-assistant.md)
     - KI-Assistent im Agentenmodus {#ai-assistant-agentic}
-      - [Verwenden des KI-Assistenten im Agentenmodus](./user-guide/ai-assistant-agentic.md)
+      - [Importieren von Inhalten mit dem KI-Assistenten](./user-guide/import-ai-assistant.md)
+      - [Erstellen des ersten Entwurfs Ihres Inhalts](./user-guide/create-ai-assistant.md)
+      - [Smart-Tagging mit dem KI-Assistenten](./user-guide/ai-assistant-agentic.md)
     - KI-Assistent im Standardmodus {#ai-assistant-standard}
-      - [KI-gestützte intelligente Hilfe bei der Suche nach Inhalten](./user-guide/ai-based-smart-help.md)
       - [KI-Assistent für das Authoring zur intelligenten Erstellung von Dokumenten](./user-guide/ai-assistant-right-panel.md)
       - [KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Häufig gestellte Fragen](./user-guide/ai-assistant-faq.md)
+  - Hilfeassistent in AEM Guides {#help-assistant-aem}
+    - [KI-gestützte intelligente Hilfe zum Durchsuchen von Inhalten](./user-guide/ai-based-smart-help.md)
   - Verwalten von Lerninhalten {#learning-training-content}
     - Erste Schritte {#get-started}
       - Einführung {#intro-lc}
@@ -437,7 +448,7 @@ ht-degree: 11%
     - Leistungsmanagement {#performance-management}
       - [Paginiertes Laden von Dateien und Ordnern](./user-guide/paginated-loading-assets.md)
 - Benutzerhandbuch (alte Benutzeroberfläche) {#user-guide-old-ui}
-  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+  - [Übersicht über AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation und Konfiguration {#install-conf-guide}
   - [Herunterladen, Installieren und Aktualisieren](./install-conf-guide/introduction.md)
   - Installationsprozess für Cloud Service {#deploy-conf-aemg-cs}
@@ -563,6 +574,7 @@ ht-degree: 11%
         - [Anwenden von Stilen auf Fußnoten](./native-pdf/footnote-number-style.md)
         - [Konfigurieren der neuen Veröffentlichungs-Engine für Native PDF](./native-pdf/conf-new-pdf-engine.md)
       - [Arbeiten mit der nativen PDF-Engine v2](./native-pdf/new-pdf-engine.md)
+      - [Konfigurieren des Renderings von Anhängen für das Map-Rendering für native PDF](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
       - [Konfigurieren des Knotenprozesses für die native PDF-Veröffentlichung für Cloud Service](./native-pdf/conf-node-options-cs.md)
       - [Konfigurieren von JVM-Flags für native PDF-Veröffentlichung für On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
     - Konfigurieren von Inhalten und Experience Fragments für Cloud Service {#conf-content-exp-fragment}

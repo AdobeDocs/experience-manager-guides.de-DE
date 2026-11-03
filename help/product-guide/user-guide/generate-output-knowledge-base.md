@@ -31,9 +31,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1584'
 ht-degree: 1%
 ---
 # Knowledge Base {#knowledge-base}
@@ -71,12 +71,23 @@ Die folgenden Konfigurationsoptionen sind auf der Registerkarte **Allgemein** ve
 | Optionen in der Wissensdatenbank | Beschreibung |
 | --- | --- |
 | Bedingungen anwenden mit | Eine der folgenden Optionen auswählen:<br><br>* **Keine angewendet**: Wählen Sie diese Option aus, wenn Sie keine Bedingung auf die veröffentlichte Ausgabe anwenden möchten.<br>* **DITAVAL-Datei**: Wählen Sie DITAVAL-Datei(en) aus, um personalisierte Inhalte zu generieren. Sie können mehrere DITAVAL-Dateien über das Dialogfeld „Durchsuchen“ oder durch Eingabe des Dateipfads auswählen. Verwenden Sie das Kreuz-Symbol neben dem Dateinamen, um ihn zu entfernen. DITAVAL-Dateien werden in der angegebenen Reihenfolge ausgewertet, sodass die in der ersten Datei angegebenen Bedingungen Vorrang vor den in späteren Dateien angegebenen übereinstimmenden Bedingungen haben. Sie können die Dateireihenfolge durch Hinzufügen oder Löschen von Dateien beibehalten. Wenn die DITAVAL-Datei an einen anderen Speicherort verschoben oder gelöscht wird, wird sie nicht automatisch aus der Voreinstellung gelöscht. Sie müssen den Speicherort aktualisieren, falls Dateien verschoben oder gelöscht werden. Sie können den Mauszeiger über den Dateinamen bewegen, um den Pfad im Adobe Experience Manager-Repository anzuzeigen, in dem die Datei gespeichert ist. Sie können nur DITAVAL-Dateien auswählen. Wenn Sie einen anderen Dateityp auswählen, wird ein Fehler angezeigt.<br><br> **Hinweis**: Beachten Sie bei Verwendung der DITAVAL-Filterung für die **Salesforce-** Folgendes: <br> - Für jede DITAVAL-Eigenschaft werden nur `Include`- und `Exclude` unterstützt.<br> - Das Markieren zum visuellen Markieren oder Hervorheben bedingter Inhalte in der Ausgabe wird nicht unterstützt.<br> - In den Ausgabevorgaben kann nur eine einzige DITAVAL-Datei zur Veröffentlichung ausgewählt werden. Mehrere DITAVAL-Dateiauswahlen werden für die Salesforce-Veröffentlichung nicht unterstützt. <br>- `ditavalref` Verweise im Inhalt werden nicht unterstützt. <br><br> **Bedingungsvorgabe**: Wählen Sie im Dropdown-Menü eine Bedingungsvorgabe aus, um eine Bedingung beim Veröffentlichen der Ausgabe anzuwenden. Die Option ist sichtbar, wenn Sie eine Bedingung auf der Registerkarte „Bedingungsvorgaben“ der DITA-Zuordnungskonsole hinzugefügt haben. Weitere Informationen zu Bedingungsvorgaben finden Sie unter [Verwenden von Bedingungsvorgaben](generate-output-use-condition-presets.md#id1825FL004PN). |
-| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [&#x200B; „Arbeiten mit &#x200B;](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)&quot;. |
-| Nachgenerierungs-Workflow | Wenn Sie diese Option wählen, wird eine neue Dropdown-Liste für den Post-Generation-Workflow angezeigt, die alle in Adobe Experience Manager konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, der ausgeführt werden soll, nachdem die Ausgabegenerierung abgeschlossen ist.<br><br>**Hinweis**: Weitere Informationen [&#x200B; Abschnitt „Anpassen des Workflows nach der Ausgabegenerierung](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) im Installations- und Konfigurationshandbuch für Cloud Services. |
+| Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten.<br><br>Weitere Informationen finden Sie [ „Arbeiten mit ](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF)&quot;. |
+| Nachgenerierungs-Workflow | Wenn Sie diese Option wählen, wird eine neue Dropdown-Liste für den Post-Generation-Workflow angezeigt, die alle in Adobe Experience Manager konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, der ausgeführt werden soll, nachdem die Ausgabegenerierung abgeschlossen ist.<br><br>**Hinweis**: Weitere Informationen [ Abschnitt „Anpassen des Workflows nach der Ausgabegenerierung](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) im Installations- und Konfigurationshandbuch für Cloud Services. |
 
 ### Artikel
 
 Auf dieser Registerkarte wird die Baumstruktur oder die hierarchische Ansicht der Zuordnung angezeigt. Wählen Sie die Themen aus, die Sie in einer Wissensdatenbank veröffentlichen möchten. Erweitern Sie einen Inhaltsverzeichnisknoten und wählen Sie die Themen aus, die Sie veröffentlichen möchten.
+
+![](./images/articles-tab-kb.png)
+
+Beim Veröffentlichen in Salesforce wird neben der Registerkarte **Artikel** ein Warnsymbol angezeigt, wenn keine Themen für die Veröffentlichung ausgewählt wurden. Das Warnsymbol wird ausgeblendet, sobald Sie ein oder mehrere Themen auswählen.
+
+>[!NOTE]
+>
+> Diese Funktion wird mit der Version 2026.11.0 von Adobe Experience Manager Guides as a Cloud Service eingeführt. Die Funktion ist standardmäßig deaktiviert. Wenden Sie sich zur Aktivierung an Ihr Customer Success-Team. Weitere Informationen zu den in der Version 2026.11.0 eingeführten Salesforce-Veröffentlichungsverbesserungen finden Sie unter [Erweiterte Salesforce-Veröffentlichung mithilfe der Backend-Verarbeitung](./generate-output-for-a-dita-map.md#merging-different-topics-within-a-dita-map-using-the-chunk-attribute).
+
+![](./images/articles-tab-salesforce-kb.png)
+
 
 ### Target - Adobe Experience Manager/ServiceNow/Salesforce
 
@@ -114,6 +125,9 @@ Die folgenden Konfigurationsoptionen werden für „ServiceNow **als** angezeigt
 | Profil veröffentlichen | Verwenden Sie das Dropdown, um aus den von Ihrem Administrator konfigurierten ServiceNow-Verbindungsprofilen auszuwählen. Weitere Informationen dazu, wie Ihr Administrator ein Veröffentlichungsprofil erstellen kann, finden Sie in der Beschreibung der Funktion **Workspace** (angezeigt als **Einstellungen** für **On-Premise-Einrichtung vor Version 5.**) im Abschnitt [Linkes Bedienfeld](./web-editor-features.md#id2051EA0M0HS). |
 | Knowledge Base | Wählen Sie in diesem Feld die erforderliche ServiceNow-Wissensdatenbank aus. Sie können Wissensdatenbanken auf der ServiceNow-Website so konfigurieren, dass Inhalte basierend auf den Berechtigungen gespeichert werden. Die Artikel aus dieser DITA-Map können in diesen Wissensdatenbanken veröffentlicht werden. |
 | Kategorie und Unterkategorie | Kategorien sind wie hierarchische Strukturen, mit denen ServiceNow-Wissensdatenbankartikel gesucht und klassifiziert werden. Fügen Sie eine Kategorie und eine Unterkategorie hinzu, um die Themen und Unterthemen des Inhaltsverzeichnisses in dieser Kategorie und Unterkategorie auf der ServiceNow-Website zu veröffentlichen. |
+| Bilder hochladen | Wählen Sie diese Option aus, wenn Bilder in Themen in der veröffentlichten Ausgabe enthalten sein sollen. |
+| Hochladen verknüpfter Dokumente | Wählen Sie diese Option aus, um die in den Themen verknüpften Dokumente in die veröffentlichte Ausgabe aufzunehmen. |
+| Entfernen von Elementen aus dem Artikelinhalt | Geben Sie den Namen eines Elements ein (z. B. `prolog` oder `shortdesc`) und drücken Sie die **Eingabetaste**, um es der Liste hinzuzufügen. Jedes Element, das Sie hinzufügen, wird in der veröffentlichten Ausgabe aus dem Artikelinhalt ausgeschlossen. Standardmäßig enthält die Liste **Titel**, sodass die Themenüberschrift im Artikelinhalt ausgeblendet wird. Wählen Sie das `x` neben **Titel** aus, um es aus der Liste zu entfernen, wenn die Themenüberschrift enthalten sein soll, oder fügen Sie andere Elemente hinzu, die Sie ausschließen möchten. <br><br>**Hinweis**: Geben Sie den genauen Klassennamen des DITA-Elements ein, wie es in der umgewandelten HTML in der Quellcodeansicht des ServiceNow-Artikels angezeigt wird. Der Klassenname muss mit einem erkannten Element übereinstimmen, damit der Ausschluss wirksam wird. Wenn der eingegebene Name mit keinem erkannten Element übereinstimmt, wird er ignoriert und das Element bleibt im veröffentlichten Artikel. |
 
 **Salesforce**
 
@@ -125,17 +139,11 @@ Die folgenden Konfigurationsoptionen werden für **Salesforce** als Ziel angezei
 | Datensatztyp | Verwenden Sie das Dropdown, um einen der in Salesforce eingerichteten Datensatztypen gemäß den Sichtbarkeitseinstellungen basierend auf Ihrem Benutzerprofil auszuwählen. Salesforce-Datensatztypen sind eine Möglichkeit, viele Datensätze eines Typs für dieses Objekt zu gruppieren. Sie definieren, wie Ihre Veröffentlichung organisiert ist. Sie können beispielsweise den Datensatztyp „Häufig gestellte Fragen“ auswählen und entsprechend dem Layout und den Feldern der häufig gestellten Fragen veröffentlichen. |
 | Feld für Artikelinhalt | Sie können für jede Datensatztypvorlage unterschiedliche Felder und ein eindeutiges Layout verwenden. Verwenden Sie diese Felder, um je nach Artikeltyp spezifische Informationen einzugeben. Sie können beispielsweise den Titel, die Antwort und die Gleichung eines FAQ-Artikels anzeigen. |
 | Kategorien | Wählen Sie eine Kategorie aus dem Dropdown-Menü aus, um die Themen des Inhaltsverzeichnisses in dieser Kategorie auf der Salesforce-Site zu veröffentlichen. |
-
-**Einige weitere Optionen**
-
-Sie können auch die folgenden Optionen in den Salesforce- und ServiceNow-Vorgaben anzeigen:
-
-| Optionen | Beschreibung |
-| --- | --- |
 | Entfernen Sie die Themenüberschrift aus dem Artikelinhalt. | Wählen Sie diese Option, um die Themenüberschrift aus dem Artikel in der veröffentlichten Ausgabe zu entfernen. |
 | Als Entwurf hochladen | Wählen Sie diese Option aus, um das Thema hochzuladen und als Entwurf freizugeben, bevor es den Benutzern zur Verfügung gestellt wird. |
 | Bilder hochladen | Wählen Sie diese Option aus, wenn Bilder in Themen in der veröffentlichten Ausgabe enthalten sein sollen. |
 | Hochladen verknüpfter Dokumente | Wählen Sie diese Option aus, um die in den Themen verknüpften Dokumente in die veröffentlichte Ausgabe aufzunehmen. |
+
 
 
 

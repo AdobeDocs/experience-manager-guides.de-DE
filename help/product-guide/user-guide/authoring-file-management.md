@@ -22,9 +22,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3598'
 ht-degree: 0%
 ---
 # Dateien und Ordner verwalten {#id2116G0L08XA}
@@ -321,22 +321,73 @@ Wenn die Löschberechtigungen einer bestimmten Benutzergruppe zugewiesen sind, w
 
 In diesem Szenario dürfen Benutzer keine Dateien löschen, bis alle eingehenden und ausgehenden Verweise entfernt wurden.
 
-## Arbeiten mit Mediendateien
+## Arbeiten mit Medien und anderen Nicht-DITA-Dateien
 
-Mediendateien wie Bilder und Videos sind ein integraler Bestandteil Ihres Inhalts. Während Sie Ihre Inhalte hochladen und verwalten, können Sie auch mit Mediendateien arbeiten.
+Nicht-DITA-Dateien wie Bilder, Multimedia-Dateien, ZIP-Dateien, PDFs und DOCX-Dateien sind ein integraler Bestandteil Ihres Inhalts. Beim Hochladen und Verwalten Ihrer Inhalte müssen Sie möglicherweise auch auf die vorherigen Versionen dieser Dateien verweisen.
 
-Wenn Ihre Mediendatei Änderungen erfahren hat, können Sie die Dateien im Abschnitt „Versionsverlauf“ suchen **in der Vorschau anzeigen** um Änderungen in den verschiedenen Versionen einer Mediendatei herauszufinden:
+Mit Adobe Experience Manager Guides können Sie Nicht-DITA-Dateien in der Vorschau anzeigen, ihren Versionsverlauf anzeigen und Versionsbezeichnungen verwalten. Sie können Versionsbezeichnungen verwenden, um bestimmte Versionen von Dateien für Inhaltsveröffentlichungen und die allgemeine Verwaltung zu identifizieren.
+
+Sie können die Versionen von Nicht-DITA-Dateien über die Assets-Benutzeroberfläche oder direkt über den Editor verwalten.
+
+### Verwenden des Editors
+
+Sie können Nicht-DITA-Dateien direkt im Editor öffnen, um eine Vorschau ihres Inhalts anzuzeigen und ihre Versionen zu verwalten, ohne zur Assets-Benutzeroberfläche zu navigieren.
+
+>[!NOTE]
+>
+> Nicht-DITA-Dateien wie Bilder, Multimedia-Dateien, ZIP-Dateien, PDFs und DOCX-Dateien werden im Editor in einem nicht bearbeitbaren Modus geöffnet. Sie können ihre Versionen anzeigen und Versionsbezeichnungen verwalten, ihren Inhalt jedoch nicht direkt im Editor ändern.
+
+
+Führen Sie die folgenden Schritte aus, um den Versionsverlauf und die Kennzeichnungen einer Nicht-DITA-Datei anzuzeigen und zu verwalten:
+
+1. Öffnen Sie **Editor** und navigieren Sie im Explorer zur erforderlichen Nicht-DITA-Datei.
+2. Doppelklicken Sie auf die Datei, um sie im Editor zu öffnen.
+
+   Die Datei wird in einer neuen Registerkarte geöffnet und zeigt die zugehörige Vorschau an.
+
+   >[!NOTE]
+   >
+   > Für Dateien, die nicht gerendert werden können, wird eine verfügbare Miniaturansicht oder Ausgabedarstellung im Editor angezeigt. Wenn keine Vorschau verfügbar ist, wird eine entsprechende Platzhaltermeldung angezeigt.
+
+   Die aktuellen Versionsinformationen für die ausgewählte Datei werden in der [Symbolleiste](./web-editor-toolbar.md) angezeigt.
+
+   ![](images/version-management-non-dita-files-editor.png){width="650" align="center"}
+
+3. Wählen Sie in **Symbolleiste** Dropdown-Menü „Menü“ aus und wählen Sie eine der folgenden Optionen:
+
+   - **Versionsverlauf**: Öffnet den Dialog Versionsverlauf, in dem Sie die verfügbaren Versionen der Datei zusammen mit den zugehörigen Beschriftungen und Kommentaren anzeigen können. Sie können Versionen vergleichen und zu einer früheren Version zurückkehren.
+
+   - **Versionsbezeichnung**: Öffnet das Dialogfeld Versionsbezeichnung , in dem Sie eine Version aus der Dropdown-Liste auswählen und die zugehörigen Beschriftungen anzeigen können. Sie können Versionsbezeichnungen mithilfe der verfügbaren Optionen hinzufügen oder aktualisieren. Das Dialogfeld zeigt auch eine Vorschau der ausgewählten Dateiversion an, sofern verfügbar.
+
+   Weitere Informationen finden Sie in den Abschnitten Versionsverlauf und Versionsbezeichnungen in [Symbolleiste im Editor](./web-editor-toolbar.md#menu-dropdown).
+
+4. Nehmen Sie die erforderlichen Änderungen an den Versionskennzeichnungen vor oder überprüfen Sie die Versionsinformationen.
+
+### Verwenden der Assets-Benutzeroberfläche
+
+Führen Sie die folgenden Schritte aus, um den Versionsverlauf einer Nicht-DITA-Datei anzuzeigen:
 
 1. Greifen Sie in der **Assets-Benutzeroberfläche auf die Datei**.
 1. Wählen Sie die Datei aus, für die Sie den Versionsverlauf anzeigen möchten.
 1. Wählen Sie in der linken Leiste **Versionsverlauf** und wählen Sie eine Version aus.
 1. Sie können auch die Miniaturansichten der verschiedenen Versionen unter Versionsverlauf anzeigen.
 
+   Beispielsweise wird die für eine Bilddatei verfügbare Versionsverwaltungsoption wie folgt angezeigt:
+
    ![](images/media-version-history-icon.png){align="center"}
+
+   Ebenso wird die Versionsverwaltungsoption für eine PDF-Datei wie folgt angezeigt:
+
+   ![](images/pdf-version-management.png){align="center"}
 
 1. Wählen Sie aus den aufgelisteten Versionen die Version aus, die Sie als Basisversion verwenden möchten, und wählen Sie **Vorschauversion** aus. Die Vorschau der ausgewählten Version wird im Fenster Versionsvorschau angezeigt.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 
+Sie können die Versionsbeschriftungen der Datei auch über das Bedienfeld Versionsverlauf verwalten.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Inhalte verwalten](authoring.md)
+
+
+
+
+**Übergeordnetes Thema:**[ Inhalte verwalten](authoring.md)

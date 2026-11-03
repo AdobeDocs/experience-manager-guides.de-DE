@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '724'
 ht-degree: 0%
 ---
 
@@ -70,6 +70,9 @@ In den folgenden Abschnitten wird beschrieben, wie sich diese auf verschiedene S
 - **Hinzufügen oder**: Die neue Datei wird oben im Ordner angezeigt.
 - **Verschieben**: Beim Wechseln zwischen nicht verwandten Ordnern wird der Quellordner auf den ersten Asset-Batch aktualisiert und das Element am Anfang des Ziels hinzugefügt (dabei wird der erste Asset-Batch des Ziels geladen, falls er noch nicht geöffnet war).
 - **Aktualisieren**: Eine neue Aktualisierungsschaltfläche in der Kopfzeile des Explorer-Bedienfelds lädt die Stammebene neu und zeigt den ersten Asset-Batch an.
+- **Sortieren**: Verwenden Sie die Schaltfläche Sortieren oben im Explorer-Fenster, um die Reihenfolge der Dateien und Ordner zwischen aufsteigender (Standard) und absteigender Reihenfolge zu ändern. Dateien und Ordner im Explorer-Fenster werden nach dem für sie angezeigten Namen sortiert, der von Ihrer Konfiguration **Editor-Dateien zeigen** unter [Benutzereinstellungen](./intro-home-page.md#user-preferences) abhängt. Wenn sie auf Titel festgelegt ist, werden Dateien und Ordner nach Titel sortiert. Wenn sie auf Dateiname festgelegt ist, werden sie nach Dateinamen sortiert.
+
+  ![Explorer-Sortierung](images/explorer-sorting.png){width="350"}
 
 ### Suchbereich
 

@@ -21,13 +21,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 07f25eacbfa6e22c1de71d9c4012ad1e9b3440a8
+source-git-commit: 607a230b50d4c3025b6b0e91667138099b7a8000
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '414'
 ht-degree: 0%
-
 ---
-
 # Einführung in den Editor {#id181OD0QE05Z}
 
 Experience Manager Guides verfügt über einen benutzerfreundlichen Editor zum Erstellen und Bearbeiten strukturierter Dokumente. Der Editor verbirgt dem Autor alle Komplexitäten der DITA-Struktur. Der Editor stellt eine Liste der DITA-Elemente bereit, die ein Benutzer normalerweise in einem Dokument arbeiten muss.
@@ -49,21 +47,13 @@ Der neue Editor bietet eine signifikante Weiterentwicklung des Authoring-Erlebni
 - Verbesserungen der Benutzeroberfläche und der Benutzeroberfläche: Verbessert die Lesbarkeit und den visuellen Komfort durch ein dunkles Design und eine umfangreichere Standard-CSS im Autoren- und Vorschaumodus, wodurch eine modernere Bearbeitungsschnittstelle bereitgestellt wird.
 - Einstellungen für den zentralen Editor: Bietet ein einheitliches Einstellungsbedienfeld, um das Authoring-Erlebnis zu personalisieren, einschließlich der Kontrolle über Tags, Attribute, XML-Kommentare, unterbrechungsfreie Leerzeichen und das Menü „Schnelleinfügung“ im Editor.
 
-### Einschränkungen des neuen Editors
-
-Der neue Editor unterstützt derzeit nicht die folgenden Funktionen. Diese Funktionen sollen in kommenden Versionen eingeführt werden.
-
-- Authoring mit aktivierter Option „Änderungen verfolgen“ (alle vorhandenen verfolgten Änderungen werden beibehalten und als regulärer Inhalt behandelt)
-
-
 >[!NOTE]
 >
 >Die Layout-Ansicht für DITA-Zuordnungen wird mit dem neuen Editor nicht unterstützt.
-
 
 ## Alter Editor
 
 Der alte Editor in Experience Manager Guides bietet ein einfaches und zuverlässiges Authoring-Erlebnis für strukturierte Inhalte, indem er die Komplexität von DITA abstrahiert und gleichzeitig die Einhaltung unterstützter Standards wie DITA 1.2, 1.3, Lightweight DITA und spezialisiertes DITA sicherstellt. Es bietet wichtige Tools für die Arbeit mit gemeinsamen Block- und Inline-Elementen, wodurch es sich für die konsistente und kontrollierte Inhaltserstellung in einem strukturierten Framework eignet.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Erstellen von Inhalten mit Experience Manager Guides](authoring-content-xml-doc.md)
+**Übergeordnetes Thema:**[ Erstellen von Inhalten mit Experience Manager Guides](authoring-content-xml-doc.md)

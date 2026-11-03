@@ -30,16 +30,16 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5089'
+source-wordcount: '5425'
 ht-degree: 0%
 ---
 # Entwerfen eines Seiten-Layouts {#design-page-layout}
 
 Beim Erstellen eines PDF-Dokuments hätten Sie verschiedene Abschnitte zur Darstellung verschiedener Arten von Informationen. Ein PDF-Dokument würde beispielsweise von einer Titelseite aus beginnen, die das Logo, den Buchtitel oder die Versionsinformationen Ihres Unternehmens enthält. Dann gibt es Kapitel, Anhänge oder Glossarseiten. Jeder Abschnitt in einem PDF-Dokument sieht anders aus. Dies wird durch Erstellen und Anpassen des Seiten-Layouts erreicht.
 
-Beim Entwerfen des Seiten-Layouts können Sie die verschiedenen Elemente definieren, aus denen eine Seite besteht. Sie können beispielsweise die Seitengröße, die Ränder, die Kopf- und Fußzeile, die Ausrichtung und andere Seitenspezifikationen auf einer Seite definieren. Mit der nativen PDF-Veröffentlichungsfunktion können Sie Ihre Seite gemäß den [Seitenmedienstandards“ &#x200B;](https://www.w3.org/TR/css-page-3/). Die meisten Einstellungen, die unter den Standards für ausgelagerte Medien behandelt werden, können einfach über die Benutzeroberfläche der nativen PDF-Veröffentlichungsfunktion angepasst werden. Für einige andere erweiterte Formatierungen können Sie die Source-Ansicht verwenden, um Ihren eigenen CSS-Code zu schreiben.
+Beim Entwerfen des Seiten-Layouts können Sie die verschiedenen Elemente definieren, aus denen eine Seite besteht. Sie können beispielsweise die Seitengröße, die Ränder, die Kopf- und Fußzeile, die Ausrichtung und andere Seitenspezifikationen auf einer Seite definieren. Mit der nativen PDF-Veröffentlichungsfunktion können Sie Ihre Seite gemäß den [Seitenmedienstandards“ ](https://www.w3.org/TR/css-page-3/). Die meisten Einstellungen, die unter den Standards für ausgelagerte Medien behandelt werden, können einfach über die Benutzeroberfläche der nativen PDF-Veröffentlichungsfunktion angepasst werden. Für einige andere erweiterte Formatierungen können Sie die Source-Ansicht verwenden, um Ihren eigenen CSS-Code zu schreiben.
 
 Nachdem Sie die Seiten-Layouts entworfen haben, müssen Sie diese Layouts mit den entsprechenden Abschnitten in den PDF-Seitenlayouteinstellungen verknüpfen. Im Abschnitt [Erstellen und Anpassen von Seiten-Layouts](components-pdf-template.md#create-customize-page-layout) finden Sie Einzelheiten zum Erstellen und Öffnen eines Seiten-Layouts zur Anpassung.
 
@@ -56,7 +56,7 @@ Ein PDF-Dokument enthält in der Regel die folgenden Abschnitte:
 * Index
 * Rückseite
 
-Für diese Abschnitte ist ein entsprechendes Seiten-Layout erforderlich, damit die Informationen in einem bestimmten Format angezeigt werden. Darüber hinaus können Sie auch eine leere Seite verwenden, die als Füller verwendet wird, um ein neues Kapitel von einer ungeraden oder geraden Seite aus zu beginnen. In diesem Fall können Sie entweder das standardmäßige Seiten-Layout verwenden oder ein Seiten-Layout für eine leere Seite erstellen. Weitere [&#x200B; finden Sie unter „Erstellen &#x200B;](components-pdf-template.md#create-page-layout) neuen Seiten-Layouts“.
+Für diese Abschnitte ist ein entsprechendes Seiten-Layout erforderlich, damit die Informationen in einem bestimmten Format angezeigt werden. Darüber hinaus können Sie auch eine leere Seite verwenden, die als Füller verwendet wird, um ein neues Kapitel von einer ungeraden oder geraden Seite aus zu beginnen. In diesem Fall können Sie entweder das standardmäßige Seiten-Layout verwenden oder ein Seiten-Layout für eine leere Seite erstellen. Weitere [ finden Sie unter „Erstellen ](components-pdf-template.md#create-page-layout) neuen Seiten-Layouts“.
 
 Mit den Seitenlayouteinstellungen im Abschnitt **Vorlage>Einstellungen** können Sie festlegen, welches Seitenlayout für verschiedene Bereiche Ihrer PDF verwendet werden soll. Jedes Seiten-Layout kann außerdem unterschiedliche Varianten der ersten, rechten oder linken Seite aufweisen.
 
@@ -114,9 +114,9 @@ Beim Entwerfen eines Seiten-Layouts ist es wichtig, die Kontrolle über verschie
 
 >[!NOTE]
 >
->Das Bedienfeld „Seiteneigenschaften“ kapselt die Eigenschaften und folgt den Regeln, die unter [Seitenmedienstandards“ definiert &#x200B;](https://www.w3.org/TR/css-page-3/).
+>Das Bedienfeld „Seiteneigenschaften“ kapselt die Eigenschaften und folgt den Regeln, die unter [Seitenmedienstandards“ definiert ](https://www.w3.org/TR/css-page-3/).
 
-* **Seitengröße** : Geben Sie die Seitengröße an, die Sie für das Seiten-Layout verwenden möchten. In der Dropdown-Liste Seitengröße können Sie aus über 15 Seitengrößen wählen. Sie können ein Seiten-Layout auch mit einer benutzerdefinierten Seitengröße erstellen. Weitere Informationen finden [&#x200B; unter „Festlegen der &#x200B;](#set-page-size)&quot;.
+* **Seitengröße** : Geben Sie die Seitengröße an, die Sie für das Seiten-Layout verwenden möchten. In der Dropdown-Liste Seitengröße können Sie aus über 15 Seitengrößen wählen. Sie können ein Seiten-Layout auch mit einer benutzerdefinierten Seitengröße erstellen. Weitere Informationen finden [ unter „Festlegen der ](#set-page-size)&quot;.
 
 * **Ausrichtung** : Geben Sie die Seitenausrichtung an, die für das Seiten-Layout verwendet werden soll. Sie können zwischen Hochformat- oder Querformat-Seitenausrichtungen wählen. Beachten Sie, dass Sie verschiedene Ausrichtungen auf verschiedene Seitenvarianten in einem Seiten-Layout anwenden können. Wenn Ihr Inhalt beispielsweise eine breite Tabelle oder ein großes Bild enthält, können Sie ein Querformat-Seiten-Layout erstellen und dieses Layout auf die breitere Tabelle oder das Bild anwenden.
 
@@ -481,6 +481,60 @@ Wenn Sie direkt mit dem CSS- und HTML-Code arbeiten möchten, können Sie dies a
 </p>
 …
 ```
+
+### Hinzufügen eines Bildes aus Zuordnungsmetadaten
+
+Wenn Sie dieselbe Vorlage verwenden, um mehrere Karten zu veröffentlichen, können Sie für jede Karte ein anderes Bild anstelle eines statischen Bildes aus den Vorlagenressourcen anzeigen. Wenn Ihre Produkte beispielsweise eine Vorlage gemeinsam haben und sich nur im Titelbild unterscheiden, können Sie dem Titelseitenlayout einen Platzhalter für Bilder hinzufügen. Beim Veröffentlichen einer Zuordnung wird der Platzhalter durch das Bild ersetzt, das in den Metadaten dieser Zuordnung definiert ist. Beim Veröffentlichen von Map 1 wird das in Map 1 definierte Bild angezeigt, beim Veröffentlichen von Map 2 das in Map 2 definierte Bild. Wenn ein Bild nicht aufgelöst werden kann, wird stattdessen der angegebene Platzhaltertext angezeigt.
+
+Sie können das Bild im `<bookmeta>` Element einer Bookmap oder im `<topicmeta>` Element einer DITA-Map definieren. Nur das `<image>` wird unterstützt. Es können alle von Experience Manager Guides unterstützten Bildformate verwendet werden, einschließlich GIF, JPG, BMP, PNG, SVG und TIFF.
+
+So zeigen Sie ein Bild aus einer Karte an:
+
+1. Definieren Sie das Bild in Ihrer Karte, wie in den folgenden Beispielen gezeigt.
+
+   Fügen Sie das Bild in einem Bookmap-Element zum `<bookmeta>` hinzu:
+
+   ```xml
+   <bookmeta>
+     <metadata>
+       <data><image href="media/cover.png" id="cover-image"/></data>
+     </metadata>
+   </bookmeta>
+   ```
+
+   Fügen Sie in einer DITA-Zuordnung das Bild zum `<topicmeta>` hinzu:
+
+   ```xml
+   <topicmeta>
+     <data><image href="images/cover.png" id="cover-image"/></data>
+   </topicmeta>
+   ```
+
+   >[!NOTE]
+   >
+   >Das `<image>`-Element muss ein `id`-Attribut aufweisen. Die `id` ist obligatorisch und muss für jedes Bild in der Zuordnung eindeutig sein.
+
+1. Öffnen **in &quot;**&quot; das Seiten-Layout, dem Sie den Bildplatzhalter hinzufügen möchten, z. B. das Titelseiten-Layout.
+
+1. Wählen Sie **Felder** unter **Weitere Optionen** aus.
+
+1. Wählen Sie auf der **Metadaten** die Option **Format hinzufügen** aus.
+
+1. Geben Sie die folgenden Details an:
+
+   1. Wählen **unter „Metadaten verwenden von** die Option **Inhalt zuordnen** aus.
+   1. Geben Sie den XPath des Bildes oder den XPath seines `href` Attributs ein.
+   1. Geben Sie das gewünschte Format ein.
+   1. Geben Sie den Platzhaltertext ein, der angezeigt werden soll, wenn das Bild nicht aufgelöst wird.
+   1. Wählen Sie **OK** aus.
+
+1. (*Optional*) Verwenden Sie die **Stylesheets** um Stile auf die Bilder anzuwenden. CSS-Stile werden für das Bildelement unterstützt.
+
+1. Generieren Sie die PDF-Ausgabe.
+
+>[!NOTE]
+>
+>Wenn Sie das Bild in der Assets-Benutzeroberfläche aktualisieren, wird das aktualisierte Bild verwendet, wenn Sie die PDF-Ausgabe das nächste Mal generieren.
 
 ## Arbeiten mit einem Inhaltsbereich {#content-area}
 

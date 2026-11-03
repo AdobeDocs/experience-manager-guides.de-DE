@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '4036'
+source-wordcount: '4222'
 ht-degree: 0%
 ---
 # Senden von Themen zur Überprüfung {#id199RD0S035Z}
@@ -95,7 +95,7 @@ So erstellen Sie eine Prüfungsaufgabe und senden Themen zur Überprüfung:
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Aktivieren Sie **Automatische Erinnerung**, um geplante Erinnerungsbenachrichtigungen (und E-Mail-Erinnerungen) für Prüfer zu konfigurieren. Dies kann sowohl vor dem Fälligkeitsdatum einer Prüfungsaufgabe als auch nach deren Fälligkeit erfolgen.
 
@@ -267,7 +267,7 @@ Um ein oder mehrere Themen zusammen mit der Zuordnungsdatei zur Überprüfung zu
 
    >[!NOTE]
    >
-   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ &#x200B;](review-manage-tasks-review-dashboard.md#).
+   > Bei Erreichen der Frist wird der Initiator per E-Mail darüber informiert, dass die Prüfungsaufgabe abgeschlossen ist. Der Initiator kann die Frist für die Prüfungsaufgabe über das [Überprüfungs-Dashboard“ ](review-manage-tasks-review-dashboard.md#).
 
 1. Da Sie verschiedenen Themen unterschiedliche Reviewer zuweisen können, steuert die Option **Zulassen, dass Verantwortliche jedes Thema überprüfen**, ob Reviewer alle Themen in einer Prüfungsaufgabe oder nur die Themen überprüfen können, denen sie zugewiesen sind.
 
@@ -401,5 +401,31 @@ Sobald die Prüfungsaufgabe aktualisiert wurde, erhalten die Validierungsverantw
 
 Weitere Informationen finden Sie unter [Grundlegendes zu Prüfungsbenachrichtigungen](./review-understanding-review-notifications.md).
 
+## Hinzufügen von Kommentaren für Reviewer
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+Als Initiator einer Prüfungsaufgabe können Sie den Themen, die Sie zur Überprüfung senden, Inline-Kommentare hinzufügen. Öffnen Sie nach dem Erstellen einer Prüfungsaufgabe die Aufgabe in der **Prüfungsbenutzeroberfläche** um zusätzlichen Kontext bereitzustellen oder die Aufmerksamkeit der Prüfer auf bestimmte Inhalte zu lenken.
+
+Führen Sie die folgenden Schritte aus, um Themen in einer Prüfungsaufgabe Kommentare hinzuzufügen:
+
+1. Erstellen Sie eine Prüfungsaufgabe und fügen Sie die erforderlichen Themen und Reviewer hinzu.
+
+2. Öffnen Sie die erstellte Überprüfungsaufgabe in der **Überprüfungs-Benutzeroberfläche**.
+
+   Als Initiator von Überprüfungen haben Sie Zugriff auf das Bedienfeld **Kommentare** und auf die Liste der Themen auf der linken Seite, ähnlich der Ansicht, die für Validierungsverantwortliche verfügbar ist.
+
+   ![](./images/add-comments-as-author.png)
+
+3. Wählen Sie aus der Themenliste das Thema aus, zu dem Sie einen Kommentar hinzufügen möchten.
+
+4. Wählen Sie den entsprechenden Inhalt aus und verwenden Sie die Optionen im Bedienfeld **Kommentare**, um Ihr Feedback hinzuzufügen oder die Aufmerksamkeit der Prüfer auf bestimmte Inhalte zu lenken.
+
+5. Wiederholen Sie diese Schritte, um bei Bedarf Kommentare zu anderen Themen in der Prüfungsaufgabe hinzuzufügen.
+
+Die Kommentare, die Sie hinzufügen, sind für Reviewer sichtbar, wenn diese auf die Prüfungsaufgabe zugreifen. Reviewer erhalten auch eine AEM-Benachrichtigung, wenn Sie einen Kommentar hinzufügen.
+
+
+
+
+
+
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

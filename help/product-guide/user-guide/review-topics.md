@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
 workflow-type: tm+mt
-source-wordcount: '3753'
+source-wordcount: '3746'
 ht-degree: 0%
 ---
 # Themen überprüfen {#id2056B0W0FBI}
@@ -235,7 +235,10 @@ Mit der kontextuellen Symbolleiste können Sie Text auch schnell markieren oder 
 
 Das Bedienfeld Kommentare zeigt eine Liste von Kommentaren zum aktuellen Thema an. In diesem Bedienfeld werden auch Kommentare anderer Validierungsverantwortlicher aufgelistet, wenn das Thema an mehrere Validierungsverantwortliche gesendet wird. Jeder Kommentar im Kommentarbereich ist mit dem entsprechenden Text im aktuellen Thema verknüpft. Damit können Sie den kommentierten Text leichter identifizieren. Bei jedem Kommentar wird der Name des Reviewers angezeigt, der den Kommentar hinzugefügt hat, zusammen mit dem Zeitstempel.
 
-Die Kommentare werden in der Reihenfolge des kommentierten Texts im Dokument angezeigt. Es gibt beispielsweise einen Hervorhebungskommentar für den ersten Satz und einen Textkommentar für den zweiten Satz im ersten Absatz. Dann wird der Textkommentar vor dem eingefügten Textkommentar angezeigt.
+>[!NOTE]
+>
+> Der Initiator der Überprüfung kann einem Thema auch Kommentare hinzufügen, um zusätzlichen Kontext bereitzustellen oder die Aufmerksamkeit der Prüfer auf bestimmte Inhalte zu lenken. Diese Kommentare werden im Bedienfeld **Kommentare** zusammen mit Kommentaren anderer Prüfer angezeigt. Weitere Informationen finden Sie unter [Kommentare für Reviewer hinzufügen](./review-send-topics-for-review.md#add-comments-for-reviewers).
+
 
 Nachfolgend werden die Aufgaben beschrieben, die Sie mit dem Bedienfeld „Kommentare“ ausführen können:
 
@@ -443,4 +446,4 @@ Das Symbol **Versionsverlauf** des Themas wird angezeigt, sobald die Prüfungsau
 
 ![](images/version-history-dialog.png)
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

@@ -31,14 +31,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # Kennzeichnungen verwenden {#id164JBG0M0T1}
 
-Adobe Experience Manager Guides ermöglicht das Hinzufügen von Beschriftungen zu verschiedenen Dateiversionen. Mit diesen Beschriftungen können Sie die Version angeben, die Sie in eine Baseline für die Veröffentlichung einbeziehen möchten. Weitere Informationen zur Verwendung von Kennzeichnungen zum Erstellen einer Grundlinie finden Sie unter [Arbeiten mit Grundlinien](generate-output-use-baseline-for-publishing.md#).
+Adobe Experience Manager Guides ermöglicht das Hinzufügen von Beschriftungen zu verschiedenen Dateiversionen. Sie können Versionsbeschriftungen verwenden, um die Version eines Themas anzugeben, das Sie in eine [Grundlinie](./generate-output-use-baseline-for-publishing.md) für die Veröffentlichung einbeziehen möchten, und um [Versionen von Nicht-DITA-Dateien zu verwalten](./authoring-file-management.md#work-with-media-and-other-non-dita-files) z. B. Bilder, Multimediadateien, PDFs und ZIP-Dateien.
 
 Wenn Sie z. B. *Version 1.0* eines Themas in *Version 1.0* und *Version 1.1* desselben Themas in *Version 2.0* verwenden möchten, können Sie *Version 1.0* Bezeichnung auf der *Version 1.0* und *Version 2.0* Bezeichnung auf der *Version 1.1* hinzufügen.
 
@@ -104,4 +104,4 @@ Um eine Versionsbeschriftung aus einem Thema zu löschen, verwenden Sie die Scha
 ![](images/delete-labels.png){width="300"}
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung in den Editor](web-editor.md)
+**Übergeordnetes Thema:**[ Einführung in den Editor](web-editor.md)

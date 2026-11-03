@@ -27,9 +27,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '754'
 ht-degree: 0%
 ---
 # Generieren einer Wissensdatenbankausgabe {#id218CL05J0M1}
@@ -46,13 +46,16 @@ Führen Sie die folgenden Schritte aus, um eine artikelbasierte Ausgabe zu gener
 
 1. [Erstellen der Knowledgebase-Voreinstellung](./generate-output-knowledge-base.md) für die artikelbasierte Ausgabe.
 1. Navigieren Sie zur Registerkarte **Artikel** und wählen Sie die Themen aus, für die Sie die Ausgabe generieren möchten.
-1. Wählen Sie **oben** Ausgabe generieren“ aus, um die Ausgabe zu generieren.
 
    ![](images/add-preset-articles-tab_cs.png)
 
+   >[!NOTE]
+   >
+   > Beim Veröffentlichen in Salesforce wird neben der Registerkarte **Artikel** ein Warnsymbol angezeigt, wenn keine Themen für die Veröffentlichung ausgewählt wurden. Das Warnsymbol wird ausgeblendet, sobald Sie ein oder mehrere Themen auswählen.
+1. Wählen Sie **oben** Ausgabe generieren“ aus, um die Ausgabe zu generieren.
 1. Wählen Sie in **Eingabeaufforderung Dateien für** Veröffentlichung bestätigen die Dateien aus, die Sie veröffentlichen möchten, und bestätigen Sie Ihre Auswahl durch **Veröffentlichen**.
 
-   ![Neue &#x200B;](images/knowledge-base-confirm-files-for-publishing.png)
+   ![Neue ](images/knowledge-base-confirm-files-for-publishing.png)
 
    Sie sehen den Status des Ausgabegenerierungsprozesses. Die Spalte **Themen** listet die Themen auf, für die Ausgaben generiert werden, während die Spalte **Status** den Veröffentlichungsstatus jedes Themas anzeigt.
 
@@ -66,5 +69,48 @@ Führen Sie die folgenden Schritte aus, um eine artikelbasierte Ausgabe zu gener
    >
    > Sie können eine vorhandene Ausgabevorgabe auch über das Menü Optionen umbenennen, duplizieren oder löschen.
 
+## Verbesserte Salesforce-Veröffentlichung mithilfe der Backend-Verarbeitung
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Arbeiten mit dem Editor](web-editor.md)
+Ab Version 2026.11.0 von Experience Manager Guides as a Cloud Service ist ein verbessertes Salesforce-Veröffentlichungserlebnis verfügbar. Es verwendet die Backend-Verarbeitung, um größere Veröffentlichungsaufträge zu unterstützen, die Sicherheit zu verbessern und Probleme mit dem vorhandenen Veröffentlichungsprozess zu beheben.
+
+>[!NOTE]
+>
+> Das erweiterte Salesforce-Veröffentlichungserlebnis ist standardmäßig deaktiviert. Wenden Sie sich zur Aktivierung an das Kundenerfolgs-Team von Adobe.
+
+Wenn Sie Artikel in Salesforce mit dem erweiterten Erlebnis veröffentlichen, stehen die folgenden zusätzlichen Funktionen zur Verfügung:
+
+- **Warnung bei nicht ausgewählten Themen**: Wenn keine Themen zur Veröffentlichung ausgewählt sind, wird auf der Registerkarte **Artikel** der Ausgabevorgabe der Salesforce Knowledge Base ein Warnhinweis angezeigt. Die Warnung verschwindet, sobald Sie ein oder mehrere Themen auswählen.
+
+  ![](./images/articles-tab-salesforce-kb.png)
+- **Veröffentlichungsstatus auf Artikelebene**: Nach der Ausgabegenerierung wird der Veröffentlichungsstatus jedes Artikels, z. B. „Erfolg“ oder „Fehlgeschlagen“, zusammen mit dem zugehörigen Thema oder Dateinamen im Dialogfeld **Saleforce-Veröffentlichungsergebnisse** angezeigt.
+
+  ![](./images/salesforce-publish-results-dialog.png)
+
+- **Veröffentlichungsprotokolle**: Verwenden Sie die Option **Protokoll anzeigen** in der Ausgabevorgabe der Salesforce Knowledge Base, um Veröffentlichungsprotokolle zu überprüfen und Fehler oder Warnungen zu beheben.
+
+  ![](./images/salesforce-kb-view-log-option.png)
+
+  Die Protokolle enthalten auch eine Zusammenfassung der Veröffentlichungsergebnisse.
+
+  ![](./images/download-log-sf.png)
+- **Ausgabehistorie**: Anzeigen des Ausgabehistoriums von Veröffentlichungsaufgaben über die **Map-Konsole** oder die **Assets-**.
+
+  Weitere Informationen zum Verwalten von Veröffentlichungsaufgaben finden Sie unter [Prozess der Ausgabenerstellung verwalten](./generate-output-manage-process.md).
+
+  ![](./images/salesforce-publishing-output-history-panel.png)
+- **Optimierte Asset-Veröffentlichung:** Beim Veröffentlichen von Themen in Salesforce prüft Experience Manager Guides, ob die referenzierten Assets, z. B. Multimedia- und andere Nicht-DITA-Dateien, seit ihrer letzten Veröffentlichung geändert wurden. Nur geänderte Assets werden erneut veröffentlicht, während unveränderte Assets übersprungen werden. Dadurch werden redundante Asset-Aktualisierungen reduziert und die Publishing-Effizienz verbessert.
+
+### Token-basierte Authentifizierung einstellen und aktualisieren
+
+Die verbesserte Salesforce-Veröffentlichungserfahrung unterstützt auch die Token-basierte Authentifizierung, sodass Sie sich nicht mehr wiederholt von Experience Manager Guides aus bei Salesforce anmelden müssen, wenn Zugriffstoken ablaufen.
+
+>[!NOTE]
+>
+> Die Unterstützung von Aktualisierungstoken ist standardmäßig deaktiviert. Wenden Sie sich zur Aktivierung an das Kundenerfolgs-Team von Adobe.
+
+Um diese Funktion zu verwenden, stellen Sie sicher, dass **Anfragen jederzeit ausführen (refresh_token, offline_access)** in den ausgewählten OAuth-Bereichen enthalten ist und **Proof Key for Code Exchange (PKCE)-Erweiterung für unterstützte Autorisierungsflüsse erforderlich** in Ihrer mit Salesforce verbundenen App aktiviert ist.
+
+Durch Aktivierung der Unterstützung von Aktualisierungstoken in Experience Manager Guides wird die PKCE-Unterstützung automatisch aktiviert. Die entsprechende Einstellung muss jedoch auch in Salesforce aktiviert werden, damit die Authentifizierung erfolgreich funktioniert.
+
+
+**Übergeordnetes Thema:**[ Arbeiten mit dem Editor](web-editor.md)

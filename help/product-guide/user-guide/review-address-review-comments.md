@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1613'
 ht-degree: 0%
 ---
 # Kommentare zur Adressenüberprüfung {#id2056B0X0KBI}
@@ -130,9 +130,10 @@ Getaggte Benutzende erhalten sowohl eine E-Mail- als auch eine AEM-Benachrichtig
 
 **Zugreifen auf Prüfungskommentare über die Überprüfungs-Benutzeroberfläche**
 
-Wenn Sie der Initiator oder Autor einer Prüfungsaufgabe sind und diese über die **Projektekonsole** öffnen, wird das Thema in der Prüfungsbenutzeroberfläche gestartet. Da Ihnen diese Aufgabe nicht zugewiesen ist, können Sie Kommentare anzeigen und beantworten, jedoch keine Überprüfungsaktionen durchführen. Die Kommentarsymbolleiste bleibt für Benutzende deaktiviert, die der Aufgabe nicht zugewiesen sind.
+Als Initiator einer Überprüfungsaufgabe können Sie die Überprüfungsaufgabe in der **Überprüfungs-Benutzeroberfläche) öffnen** um Kommentare von Validierungsverantwortlichen anzuzeigen und darauf zu reagieren. Sie können den Themen in der Prüfungsaufgabe auch Kommentare hinzufügen, um zusätzlichen Kontext bereitzustellen oder die Aufmerksamkeit der Prüfer auf bestimmte Inhalte zu lenken.
 
-![](images/review-comments-toolbar-disabled.png){width="350"}
+Weitere Informationen finden Sie unter [Kommentare für Reviewer hinzufügen](./review-send-topics-for-review.md#add-comments-for-reviewers).
+
 
 ## Alle Prüfungsaufgaben für ein Thema anzeigen
 
@@ -157,4 +158,4 @@ Beachten Sie bei Verwendung dieser Funktion Folgendes:
 - Filter und Suche gelten nur für die Kommentare der ausgewählten Aufgabe. Kommentare von anderen, nicht ausgewählten Aufgaben sind nicht betroffen.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Einführung zur Überprüfung](review.md)
+**Übergeordnetes Thema:**[ Einführung zur Überprüfung](review.md)

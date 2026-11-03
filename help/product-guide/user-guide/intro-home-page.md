@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 18996443646923fcf9db06c020ecbdd94b8a9564
+source-git-commit: b98bb66df096e0915c5d3c810b1c4b46d8473add
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2450'
 ht-degree: 0%
 ---
 # Experience Manager Guides-Startseitenerlebnis
@@ -46,7 +46,7 @@ Die Navigationsleiste enthält Tools zum Umschalten der Navigation, zum Anpassen
 >
 > Bei Verwendung der Adobe Experience Manager Guides as a Cloud Service wird eine zusätzliche Funktion mit der Bezeichnung **KI** Assistent) in der Navigationsleiste angezeigt.
 
-![](images/aem-home-nav-bar.png)
+![](images/aem-home-nav-bar-new.png)
 
 In der Navigationsleiste verfügbare Funktionen werden wie folgt erläutert:
 
@@ -60,12 +60,13 @@ In der Navigationsleiste verfügbare Funktionen werden wie folgt erläutert:
   >
   > Wenden Sie sich an das Customer Success-Team, wenn Sie den Agentenmodus der KI-Assistentenfunktion in Ihrer Umgebung verwenden möchten. Nachdem die Funktion aktiviert wurde, können Administratoren sie in den Workspace-Einstellungen aktivieren oder deaktivieren. Es kann jeweils nur ein Modus des KI-Assistenten aktiviert werden: entweder Agent oder Standard.
 
-  - **Agent**: Bringt intelligente, agentische Smart-Tagging-Kenntnisse aus Adobe CX Enterprise Coworker in den Editor und ermöglicht das Tagging natürlicher, konversativer Inhalte. Es analysiert Ihre Inhalte, empfiehlt relevante Tags und hilft Ihnen bei der Anwendung konsistenter und genauer Metadaten mit minimalem Aufwand. Sie können die vorgeschlagenen Tags überprüfen und sie anwenden oder ablehnen, bevor Sie Ihre Auswahl bestätigen. [KI-Assistent im Agentenmodus verwenden](../user-guide/ai-assistant-agentic.md) optimiert den Tagging-Prozess und verbessert die Inhaltsorganisation und Auffindbarkeit.
+  - **Agentic**: Der Agentenmodus im KI-Assistenten ermöglicht es Ihnen, inhaltsbezogene Aufgaben durch natürliche Sprachinteraktionen auszuführen. Sie können Ihre Anforderungen im Chat-Bedienfeld beschreiben, und der KI-Assistent plant und führt Aufgaben aus, während er für Einblicke in den Fortschritt sorgt. Es unterstützt Fähigkeiten wie den Import, der PDF-, Word- oder Markdown-Dateien von Ihrem Gerät oder Inhalts-Repository in strukturierte Themen konvertiert, Erstellen , das neue Themen basierend auf Ihren Anforderungen generiert und vorhandene Inhalte hinsichtlich Ton und Stil referenzieren kann, und Smart-Tagging , das relevante Tags basierend auf der Taxonomie Ihres Unternehmens empfiehlt, um die Metadatenkonsistenz zu verbessern.
 
-  - **Standard**: Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelligente Hilfefunktionen steigert. Darüber hinaus können Sie beim Arbeiten in der Editor-Benutzeroberfläche die intelligenten Authoring-Funktionen des KI-Assistenten nutzen, die Ihren Authoring-Prozess durch intelligente Vorschläge für die Wiederverwendung und Optimierung von Inhalten intelligenter und schneller machen.
+  - **Standard**: Ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelligente Authoring-Funktionen von AI Assistant steigert, die Ihren Authoring-Prozess durch intelligente Vorschläge für die Wiederverwendung und Optimierung von Inhalten intelligenter und schneller machen.
 
   Die Funktion [KI-](./ai-assistant.md)) ist derzeit nur für Adobe Experience Manager as a Cloud Service verfügbar.
 
+- **Hilfeassistent**: Der **Hilfeassistent** in Experience Manager Guides ist eine generative KI-gestützte dialoggestützte Suchfunktion, die Ihnen hilft, Informationen über Produktfunktionen, Workflows und Fehlerbehebung zu finden. Sie enthält relevante Antworten auf der Grundlage der Experience Manager Guides-Dokumentation, unterstützt Folgefragen und enthält Links zu Quellartikeln, in denen Sie weitere Informationen finden. Weitere Informationen finden Sie unter [Effizienzsteigerung mit dem Hilfe-Assistenten](./ai-based-smart-help.md).
 - **Übersichtsabschnitt anpassen**: Ermöglicht das Ausblenden oder Anzeigen der Widgets im Abschnitt Widgets .
 - **Ordnerprofil in Verwendung**: Zeigt das Ordnerprofil an, das derzeit verwendet wird.
 - **Weitere Aktionen**: Bietet Zugriff auf zusätzliche Optionen. Durch Klicken auf diese Schaltfläche wird ein Menü mit den folgenden Optionen geöffnet:
@@ -182,13 +183,13 @@ Das Repository dient als zentralisierter Hub zur einfachen Erkennung von Ordnern
 
 >[!NOTE]
 >
->Sie können die neue Funktion Zuordnungssammlungen in Adobe Experience Manager Guides as a Cloud Service ab Version 2026.08.0 verwenden, die Zuordnungsverwaltung und Massenveröffentlichung zu einer einheitlichen Oberfläche kombiniert. Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion zu aktivieren.Weitere Informationen über [Verwendung der neuen Zuordnungssammlung.](./generate-output-use-new-map-collection-output-generation.md)
+>Sie können die neue Funktion Zuordnungssammlungen in Adobe Experience Manager Guides as a Cloud Service ab Version 2026.08.0 verwenden, die Zuordnungsverwaltung und Massenveröffentlichung zu einer einheitlichen Oberfläche kombiniert. Wenden Sie sich an Ihr Customer Success-Team , um diese Funktion zu aktivieren. Weitere Informationen über [Verwendung der neuen Zuordnungssammlung.](./generate-output-use-new-map-collection-output-generation.md)
 
 Experience Manager Guides bietet Ihnen die Möglichkeit, Ihre Inhalte für die Veröffentlichung mithilfe eines Dashboards namens &quot;**&quot;** organisieren. Um diese Funktion zu verwenden, wählen **Sammlungen zuordnen** im linken Bereich aus. Dadurch gelangen Sie zur Seite „Zuordnungssammlungen“ in der **Assets-Benutzeroberfläche** wo Sie [Zuordnungssammlung für die Ausgabegenerierung verwenden können.](./generate-output-use-map-collection-output-generation.md)
 
 ### Massenveröffentlichung
 
-Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [&#x200B; veröffentlichten Inhalte“ erstellen und verwalten &#x200B;](./conf-bulk-activation.md).
+Mit der Massenaktivierungsfunktion können Sie Ihre Inhalte schnell und einfach von der Authoring- zur Publishing-Instanz aktivieren. Um diese Funktion zu verwenden, wählen **im linken** die Option „Massenveröffentlichung“ aus. Sie gelangen zur Seite für Massenaktivierungssammlungen in der Assets-Benutzeroberfläche, auf der Sie „Massenaktivierung [ veröffentlichten Inhalte“ erstellen und verwalten ](./conf-bulk-activation.md).
 
 ### Veröffentlichungswarteschlange
 

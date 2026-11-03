@@ -28,7 +28,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -39,7 +39,7 @@ In einem realen Szenario hätten Ihre Autorinnen und Autoren Zugriff auf die Aut
 
 >[!NOTE]
 >
-> Weitere Informationen zum Einrichten der Autoren- und Veröffentlichungsinstanz in AEM finden Sie unter [Überblick über die Autoren- und Veröffentlichungsarchitektur](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=de#prerequisites).
+> Weitere Informationen zum Einrichten der Autoren- und Veröffentlichungsinstanz in AEM finden Sie unter [Überblick über die Autoren- und Veröffentlichungsarchitektur](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
 Mit der Massenaktivierungsfunktion von AEM Guides können Sie Ihre Inhalte schnell und einfach von der Autoren- zur Veröffentlichungsinstanz aktivieren. Die Funktion für die Massenaktivierung bietet Ihnen folgende Flexibilität:
 
@@ -63,4 +63,5 @@ JSON-Ausgabevorgaben.
 - **[Massenaktivierungs-Zuordnungssammlung löschen](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
+
