@@ -2,9 +2,9 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2026.11.0
 description: Erfahren Sie mehr über die neuen Funktionen in der Version 2026.11.0 von Adobe Experience Manager Guides, einschließlich Verzweigungen auf Zuordnungsebene und der Inhaltserstellung mit dem KI-Assistenten.
 role: Leader
-source-git-commit: ef5e433214f15b12102af7c9e38031536183ca72
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1508'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,7 @@ Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2026.11.0](../release-in
 
 ## Einführung von Verzweigungen auf Zuordnungsebene und Zusammenführungen
 
-Adobe Experience Manager Guides führt Verzweigungs- und Zusammenführungsfunktionen auf Zuordnungsebene ein, mit denen Autoren parallel an mehreren Dokumentationsversionen, Funktionsaktualisierungen und wichtigen Korrekturen arbeiten können, ohne den Hauptinhalt zu beeinträchtigen. Autoren können isolierte Verzweigungen einer DITA-Zuordnung und ihrer Abhängigkeiten erstellen, um sicherzustellen, dass Bearbeitungen, Sperren und Vorschauen für jede Verzweigung spezifisch bleiben.
+Experience Manager Guides führt Verzweigungs- und Zusammenführungsfunktionen auf Zuordnungsebene ein, mit denen Autoren parallel an mehreren Dokumentationsversionen, Funktionsaktualisierungen und wichtigen Korrekturen arbeiten können, ohne den Hauptinhalt zu beeinträchtigen. Autoren können isolierte Verzweigungen einer DITA-Zuordnung und ihrer Abhängigkeiten erstellen, um sicherzustellen, dass Bearbeitungen, Sperren und Vorschauen für jede Verzweigung spezifisch bleiben.
 
 Mit dieser Funktion können Dokumentations-Teams parallele Arbeitsabläufe verwalten, effizient zusammenarbeiten und die Stabilität der Hauptdokumentationsversion aufrechterhalten. Sie haben folgende Möglichkeiten:
 
@@ -40,11 +40,11 @@ Weitere Informationen zu [Verzweigung und Zusammenführung](../user-guide/branch
 >
 >Um den KI-Assistenten im Agentenmodus verwenden zu können, muss Ihr Unternehmen in Adobe CX Enterprise Coworker integriert sein und über die erforderlichen Credits verfügen.
 
-Jetzt können Sie den **KI-Assistenten** verwenden, um DITA-Inhalte mithilfe von Eingabeaufforderungen in natürlicher Sprache zu erstellen und zu importieren. Die auf **Adobe CX Enterprise Coworker** basierenden neuen **Erstellen** und **Importieren** vereinfachen die Erstellung strukturierter Inhalte und helfen Autoren bei der Arbeit mit DITA-Inhalten, ohne dass sie umfangreiches DITA-Know-how benötigen.
+Sie können jetzt **KI-**) verwenden, um DITA-Inhalte mithilfe von Eingabeaufforderungen in natürlicher Sprache zu erstellen und zu importieren. Die auf **Adobe CX Enterprise Coworker** basierenden neuen **Erstellen** und **Importieren** vereinfachen die Erstellung strukturierter Inhalte und helfen Autoren bei der Arbeit mit DITA-Inhalten, ohne dass sie umfangreiches DITA-Know-how benötigen.
 
 - **Erstellen** Generieren von DITA-Themen und -Karten aus Eingabeaufforderungen in natürlicher Sprache, Referenzdokumenten oder vorhandenem Inhalt mithilfe von Repository-Vorlagen. Sie können den generierten Inhalt vor dem Speichern überprüfen und neue oder vorhandene Inhalte iterativ verfeinern, um Ihre Anforderungen zu erfüllen.
-- **Importieren** Konvertieren Sie vorhandene PDF-, DOCX- oder Markdown-Dateien in strukturierte DITA-Themen und -Zuordnungen. Sie können den konvertierten Inhalt in der Vorschau anzeigen und überprüfen, bevor Sie ihn im Repository speichern.
-- **Smart-Tagging** Erhalten Sie relevante Tag-Empfehlungen für Ihre Inhalte, die auf der Taxonomie Ihres Unternehmens basieren. Das erweiterte Erlebnis ermöglicht es Ordnerprofil-Admins, Taxonomie-Namespaces in den Workspace-Einstellungen zu konfigurieren, um konsistente und verwaltete Tag-Empfehlungen sicherzustellen.
+- **Importieren** Konvertieren Sie vorhandene PDF-, DOCX- oder Markdown-Dateien in strukturierte DITA-Themen und -Zuordnungen. Sie können den konvertierten Inhalt überprüfen, bevor Sie ihn im Repository speichern.
+- **Smart-Tagging** Erhalten Sie relevante Tag-Empfehlungen für Ihre Inhalte, die auf der Taxonomie Ihres Unternehmens basieren. Das erweiterte Erlebnis ermöglicht es Admins, Taxonomie-Namespaces in den Workspace-Einstellungen zu konfigurieren, um konsistente und verwaltete Tag-Empfehlungen sicherzustellen.
 
 Das Bedienfeld **KI** Assistent) bietet zudem einen Vollbildmodus und einen Abschnitt **Aktive**&quot; für ein verbessertes Gesprächserlebnis.
 
@@ -55,7 +55,7 @@ Weitere Informationen finden Sie unter [Verwenden des KI-Assistenten im Agentenm
 
 ## Neues Hilfeassistenten-Bedienfeld in Experience Manager Guides
 
-Die generative KI-gestützte **Smart-Hilfe**-Funktion ist über das dedizierte Bedienfeld **Hilfeassistent** verfügbar, auf das über die Konsolenschnittstellen „Startseite“, „Editor“ und „Zuordnung“ zugegriffen werden kann. Das Bedienfeld bietet ein dialogorientiertes Sucherlebnis, mit dem Sie Fragen in natürlicher Sprache stellen und schnell relevante Informationen aus der Experience Manager Guides-Dokumentation finden können. Auf diese Weise können Sie auf kontextuelle Anleitungen zugreifen und Abfragen auflösen, ohne den Editor zu verlassen, was Ihren Authoring-Workflow optimiert.
+Die generative KI-gestützte **Smart-Hilfe**-Funktion ist über das dedizierte Bedienfeld **Hilfeassistent** verfügbar, auf das über die Konsolenoberflächen „Startseite“, „Editor“ und „Zuordnung“ zugegriffen werden kann. Das Bedienfeld bietet ein dialogorientiertes Sucherlebnis, mit dem Sie Fragen in natürlicher Sprache stellen und schnell relevante Informationen aus der Experience Manager Guides-Dokumentation finden können. Auf diese Weise können Sie auf kontextuelle Anleitungen zugreifen und Abfragen auflösen, ohne den Editor zu verlassen, was Ihren Authoring-Workflow optimiert.
 
 Administratoren können die Verfügbarkeit des Hilfeassistenten-Bedienfelds über die Workspace-Einstellungen verwalten. Der Abschnitt **KI-**) enthält einen Umschalter zum Aktivieren oder Deaktivieren des Bedienfelds für Benutzer.
 
@@ -99,7 +99,7 @@ Diese Kommentare werden im Bedienfeld **Kommentare** zusammen mit dem Feedback a
 
 ## Verbesserungen beim Veröffentlichen
 
-### Anzeigen und Verwalten des Ausgabehistoriums über die Zuordnungskonsole
+### Anzeigen und Verwalten des Ausgabehistoriums über die Map-Konsole
 
 Die Zuordnungskonsole in Experience Manager Guides enthält jetzt die Registerkarte **Ausgabehistorie**, auf der Sie Ausgabegenerierungsaufgaben direkt im Editor anzeigen und verwalten können, ohne zum Zuordnungs-Dashboard zu navigieren.
 
@@ -143,7 +143,7 @@ Weitere Informationen finden Sie unter [Hinzufügen eines Bildes aus Zuordnungsm
 
 ### Überprüfen der Inhaltsqualität mit einer Konsistenzprüfung des Inhalts im alten Editor
 
-Die Konsistenzprüfung von Inhalten ist im alten Editor verfügbar (wird bereits vom neuen Editor unterstützt) und hilft bei der Überprüfung der Inhaltsqualität in allen DITA-Zuordnungen vor der Veröffentlichung. Admins können wiederverwendbare Konsistenzprüfungs-Voreinstellungen erstellen, indem sie Prüfungen auf fehlerhafte Links, doppelte IDs und die Schematron-Validierung kombinieren.
+Die Konsistenzprüfung von Inhalten ist im alten Editor verfügbar (wird bereits im neuen Editor unterstützt) und hilft bei der Überprüfung der Inhaltsqualität in allen DITA-Zuordnungen vor der Veröffentlichung. Admins können wiederverwendbare Konsistenzprüfungs-Voreinstellungen erstellen, indem sie Prüfungen auf fehlerhafte Links, doppelte IDs und die Schematron-Validierung kombinieren.
 
 Autoren können im alten Editor eine Konsistenzprüfung für eine DITA-Zuordnung oder eine ausgewählte Grundlinie ausführen, um einen konsolidierten Bericht zu Problemen in allen zugehörigen Themen und Zuordnungen zu generieren. Weitere Informationen finden Sie unter [Ausführen einer Konsistenzprüfung auf einer Karte](../user-guide/map-editor-other-features.md#run-health-check-on-a-map).
 

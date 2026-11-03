@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 63ae0f947d50646bed34cd815db6b9fb585fc015
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 1%
 ---
 # Experience Manager Guides und Edge Delivery Services
@@ -39,7 +39,7 @@ Um die Veröffentlichung von Experience Manager Guides in EDS zu aktivieren, mü
 2. [Erstellen und Konfigurieren eines Veröffentlichungsprofils für EDS in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-in-experience-manager)
 3. [Anpassen der Ausgabe mithilfe von EDS-Blöcken](#customize-output-using-eds-blocks)
 
-Eine kurze Videoanleitung finden Sie unter [Veröffentlichen in AEM Guides](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Eine kurze Videoanleitung finden Sie unter [Veröffentlichen in AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -169,7 +169,7 @@ Führen Sie die folgenden Schritte aus, um die Anwendung *AEM Code Sync* zu inst
 
    Stellen Sie sicher **dass „Andere Inhaltsquelle verwenden** ausgewählt ist.
 
-6. Fügen Sie auf der **Benutzer** bei Bedarf Benutzer hinzu und klicken Sie dann auf **Weiter**.
+6. Fügen Sie auf **Seite** Benutzer“ bei Bedarf Benutzer hinzu und klicken Sie auf **Weiter**.
 
 7. Überprüfen Sie die Konfigurationsübersicht und wählen Sie **Speichern** aus.
 
@@ -202,7 +202,7 @@ In den folgenden Abschnitten werden die einzelnen Schritte nacheinander beschrie
    - **Site-Repository (nur *-Lab*:** Geben Sie den Repository-Namen ein, der mit der Edge Delivery Services-Site verknüpft ist.
    - **HLX-API-Schlüssel** Geben Sie den HLX-API-Schlüssel für Ihre EDS-Konfiguration ein. Dieser Schlüssel ist erforderlich, um die Funktion „Veröffentlichung rückgängig gemacht“ zu unterstützen, die in der Version 2026.11.0 von Experience Manager Guides as a Cloud Service eingeführt wurde. Außerdem ist der Schlüssel für die Veröffentlichung des Inhalts in EDS erforderlich, wenn die Inhaltsgröße mehr als 100 Dateien beträgt.
    - **Authentifizierungsberechtigungen:** Geben Sie die Anmeldeinformationen basierend auf dem ausgewählten Git-Kontotyp an:
-     - **GitHub:** Geben Sie die **Client-ID\*** und **Client-Geheimnis\*** ein, die Sie von Ihrer GitHub OAuth-App erhalten haben. Weitere Informationen finden [&#x200B; unter „Erstellen einer neuen OAuth-](#create-a-new-oauth-app)&quot;.
+     - **GitHub:** Geben Sie die **Client-ID\*** und **Client-Geheimnis\*** ein, die Sie von Ihrer GitHub OAuth-App erhalten haben. Weitere Informationen finden [ unter „Erstellen einer neuen OAuth-](#create-a-new-oauth-app)&quot;.
      - **GitLab:** Geben Sie das **Zugriffstoken\*** ein, das für Ihr GitLab-Konto generiert wurde.
 3. (*Nur GitHub*) Wählen Sie **Anmelden** aus, um sich zu authentifizieren. Für GitLab ist keine Anmeldung erforderlich, da das Zugriffstoken für die Authentifizierung verwendet wird.
 

@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 082688d62ed871fa52947e5152df35575b622164
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '757'
 ht-degree: 0%
 ---
 # KI-Assistent
@@ -38,10 +38,6 @@ ht-degree: 0%
 Der KI-Assistent in Adobe Experience Manager Guides ist ein KI-gestütztes Tool, das durch die Vereinfachung von Workflows zur Inhaltserstellung, -verwaltung und -bearbeitung die Produktivität steigert. Es bietet zwei Modi: Agent und Standard. Im **Agentenmodus** können Sie mit dem KI-Assistenten inhaltsbezogene Aufgaben durch Interaktionen in natürlicher Sprache ausführen, mit Fähigkeiten wie Importieren, Erstellen und Smart-Tagging, um die Inhaltserstellung, Organisation und Metadatenverwaltung zu optimieren. Im **Standardmodus** bietet der KI-Assistent Unterstützung beim Authoring, damit Sie Inhalte effizienter erstellen, verfeinern und verwalten können.
 
 ## KI-Assistentenmodi
-
->[!NOTE]
->
->Wenden Sie sich an das Customer Success-Team , um den KI-Assistenten für Ihre Umgebung im Agentenmodus zu aktivieren.
 
 Der KI-Assistent ist in zwei Modi verfügbar: **Agent** und **Standard**. Administratoren können den Modus im Abschnitt **KI-Funktionen** der Registerkarte **Allgemein** in den **Workspace-Einstellungen**. Das KI-Assistenten-Bedienfeld im Editor bleibt in beiden Modi gleich, die verfügbaren Funktionen unterscheiden sich jedoch:
 

@@ -1,9 +1,9 @@
 ---
 title: Erstellen von Themen und Karten mit dem KI-Assistenten
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten neue DITA-Themen und -Karten aus Ihren Notizen, Spezifikationen oder eingefügten Inhalten entwerfen und vor dem Speichern überprüfen können.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 0%
 ---
 
@@ -11,10 +11,10 @@ ht-degree: 0%
 
 Die **Erstellen**-Kenntnisse im Agenten-Modus des KI-Assistenten helfen Ihnen beim Generieren des ersten Entwurfs strukturierter Inhalte aus Notizen, Spezifikationen, Whiteboard-Bildern, Screenshots oder anderen verfügbaren Referenzmaterialien. Die Kenntnis identifiziert automatisch den entsprechenden DITA-Thementyp, z. B. Konzept, Aufgabe, Referenz oder Fehlerbehebung, basierend auf den in Ihrem Repository verfügbaren Inhalten und Themenvorlagen, wodurch der manuelle Aufwand für die Strukturierung und Erstellung von Inhalten reduziert wird.
 
-Sie können eine Datei anhängen, eine vorhandene Datei als Referenz für Ton und Stil auswählen und den Ordner angeben, in dem Sie die generierten Inhalte speichern möchten. Gehen Sie wie folgt vor, um einen ersten Entwurf Ihres gewünschten Inhalts zu erstellen:
+Sie können eine Datei anhängen, eine vorhandene Datei als Referenz für Ton und Stil auswählen und den Ordner angeben, in dem Sie die generierten Inhalte speichern möchten. Gehen Sie wie folgt vor, um den ersten Entwurf Ihres gewünschten Inhalts zu erstellen:
 
 1. Melden Sie sich bei Experience Manager Guides an.
-1. Wählen Sie auf der Startseite in **Navigationsleiste die Option** KI-Assistent“ aus. Stellen Sie sicher[&#x200B; dass der KI-Assistent &#x200B;](../install-conf-guide/workspace-settings.md) Agentenmodus von Ihrem Administrator aktiviert wurde.
+1. Wählen Sie auf der Startseite in **Navigationsleiste die Option** KI-Assistent“ aus. Stellen Sie sicher[ dass der KI-Assistent ](../install-conf-guide/workspace-settings.md) Agentenmodus von Ihrem Administrator aktiviert wurde.
 
 1. Wählen **im Bedienfeld**-Assistent die Option „Erstellen“ aus.
 
@@ -24,13 +24,13 @@ Sie können eine Datei anhängen, eine vorhandene Datei als Referenz für Ton un
 
    - **Verknüpfung verwenden**: Geben Sie `/` in das Eingabeaufforderungsfeld ein und wählen Sie dann **Repository-Verweis hinzufügen** aus, um die Datei aus dem Repository auszuwählen (oder **Dateien vom Gerät hinzufügen**, um die Datei von Ihrem Computer hochzuladen).
 
-   - **Verwenden des Symbols „Dateien anhängen“ oder „Kontext hinzufügen“ (+)**: Fügt Dateien von Ihrem lokalen System hinzu.
+   - **Verwenden des Symbols „Dateien anhängen“ oder „Kontext hinzufügen“ (+)**: Hinzufügen von Dateien von Ihrem lokalen System.
 
    - **Drag-and-Drop**: Ziehen Sie die Datei, die Sie aus dem System entwerfen möchten, per Drag-and-Drop direkt in die Eingabeaufforderung.
 
 1. *(Optional)* Wählen Sie in der Starteraufforderung `[file]` aus. Wählen Sie das vorhandene Thema aus, dessen Ton der Entwurf entsprechen soll. Sie können das Thema aus dem Repository oder aus einer Sammlung auswählen. Der Themenname ersetzt `[file]` in der Eingabeaufforderung.
 
-   ![Wählen Sie den Datei-Platzhalter aus, um das Thema auszuwählen](images/sample-create.png){width="350"}
+   ![Wählen Sie den Datei-Platzhalter aus, um das Thema auszuwählen](images/sample-create.png){width="650"}
 
 1. Wählen Sie **Senden** aus.
 
@@ -38,7 +38,7 @@ Sie können eine Datei anhängen, eine vorhandene Datei als Referenz für Ton un
 
 1. Beantworten Sie alle Folgefragen vom KI-Assistenten, um die Details bereitzustellen, die zum Generieren des Inhalts erforderlich sind.
 
-   ![Wählen Sie den Datei-Platzhalter aus, um das Thema auszuwählen](images/folder-create.png){width="350"}
+   ![Wählen Sie den Datei-Platzhalter aus, um das Thema auszuwählen](images/folder-create.png){width="650"}
 
 1. Wählen Sie **Vorschau** aus, um das generierte Thema zu überprüfen.
 

@@ -1,7 +1,7 @@
 ---
 title: Importieren von Dokumenten als Themen mit dem KI-Assistenten
 description: Erfahren Sie, wie Sie PDF-, Word- und Markdown-Dateien in DITA-Themen und eine Zuordnung mit dem KI-Assistenten konvertieren und das Ergebnis überprüfen können, bevor Sie es speichern.
-source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Die **Import**-Kenntnisse im Agent-Modus des KI-Assistenten helfen Ihnen, vorhan
 Sie können Dateien von Ihrem Gerät oder Inhalts-Repository importieren, die Überschriftenebene angeben, die den Beginn eines neuen Themas definiert, und den Zielordner für den importierten Inhalt auswählen. Gehen Sie wie folgt vor, um eine Datei zu importieren:
 
 1. Melden Sie sich bei Experience Manager Guides an.
-1. Wählen Sie auf der Startseite in **Navigationsleiste die Option** KI-Assistent“ aus. Stellen Sie sicher[&#x200B; dass der KI-Assistent &#x200B;](../install-conf-guide/workspace-settings.md) Agentenmodus von Ihrem Administrator aktiviert wurde.
+1. Wählen Sie auf der Startseite in **Navigationsleiste die Option** KI-Assistent“ aus. Stellen Sie sicher[ dass der KI-Assistent ](../install-conf-guide/workspace-settings.md) Agentenmodus von Ihrem Administrator aktiviert wurde.
 1. Wählen **Importieren** im Bedienfeld „KI-Assistent“ aus. Sie können auch andere Eingabeaufforderungen wie &quot;*in DITA-Themen konvertieren* für eine Word-Datei oder *Markdown in DITA-Themen konvertieren* für eine Markdown-Datei verwenden.
 
    Im Eingabeaufforderungsfeld wird die *„Hilfe zum Importieren von Inhalten aus der angehängten PDF* Datei“ angezeigt.
@@ -25,7 +25,7 @@ Sie können Dateien von Ihrem Gerät oder Inhalts-Repository importieren, die Ü
 
    - **Verknüpfung verwenden**: Geben Sie `/` in das Eingabeaufforderungsfeld ein und wählen Sie dann **Repository-Verweis hinzufügen** aus, um die Datei aus dem Repository auszuwählen (oder **Dateien vom Gerät hinzufügen**, um die Datei von Ihrem Computer hochzuladen).
 
-   - **Verwenden des Symbols „Dateien anhängen“ oder „Kontext hinzufügen“ (+)**: Fügt Dateien aus Ihrem lokalen System hinzu, um den Inhalt für den Import bereitzustellen.
+   - **Verwenden des Symbols „Dateien anhängen“ oder „Kontext hinzufügen“ (+)**: Fügen Sie Dateien aus Ihrem lokalen System hinzu, um den Inhalt für den Import bereitzustellen.
 
    - **Drag-and-Drop**: Ziehen Sie die Datei, die Sie aus dem System importieren möchten, per Drag-and-Drop direkt in die Eingabeaufforderung.
 
@@ -39,7 +39,7 @@ Sie können Dateien von Ihrem Gerät oder Inhalts-Repository importieren, die Ü
 
    ![](images/folder-import.png)
 
-1. Wählen Sie die Überschriftenebene aus, die zu einem Thema wird. Beispiel: H2 wie im Screenshot gezeigt.
+1. Wählen Sie die Überschriftenebene aus, die zu einem Thema wird. Beispiel: H2, wie im Screenshot gezeigt.
 
    Beantworten Sie alle zusätzlichen Folgefragen, die die erforderlichen Details für den Importprozess zu enthalten scheinen.
 

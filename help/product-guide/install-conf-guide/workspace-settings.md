@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2eb766dc53b23f750dd6eb232ab21025b0c0c46d
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2799'
 ht-degree: 0%
 ---
 # Workspace-Einstellungen
@@ -51,19 +51,15 @@ Die Option **Workspace** in der [Registerkartenleiste](../user-guide/web-editor-
 
 ## Allgemein
 
-Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren, dass der Editor verwendet wird. Diese Registerkarte enthält: **KI-Funktionen**, **KI-**&#x200B;**Authoring**, **Zitate**, **Bedingung**,**HTML-Editor**, **Lerninhalte** und **Rechtschreibprüfung**.
+Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren, dass der Editor verwendet wird. Diese Registerkarte enthält: **KI-Funktionen**, **KI-****Authoring**, **Zitate**, **Bedingung**,**HTML-Editor**, **Lerninhalte** und **Rechtschreibprüfung**.
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **KI-Funktionen**
+- **KI-Funktionen**: Verwenden Sie diese Option, um die Funktion „KI-Assistent“ in Experience Manager Guides zu aktivieren. Der KI-Assistent ist in zwei Modi verfügbar: **Agent** und **Standard**. Sie können zwischen den beiden Modi wählen, indem Sie die entsprechenden Optionsfelder aktivieren.
 
   >[!NOTE]
   >
   > Wenden Sie sich an das Customer Success-Team, wenn Sie den Agentenmodus der KI-Assistentenfunktion in Ihrer Umgebung verwenden möchten.
-
-  Wählen Sie aus, um die Funktion KI-Assistent in der Experience Manager Guides zu aktivieren. Deaktivieren Sie diese Option, um die Funktion zu deaktivieren.
-
-  Der KI-Assistent ist in zwei Modi verfügbar: **Agent** und **Standard**. Sie können zwischen den beiden Modi wählen, indem Sie die entsprechenden Optionsfelder aktivieren.
 
   - **Agent**: Nach Aktivierung dieser Option können Sie über die Navigationsleiste der Experience Manager Guides-Anwendung auf den Agent-KI-Assistenten zugreifen. Sie können auch die von der Smart-Tagging-Fähigkeit verwendeten Taxonomie-Namespaces konfigurieren, um Tag-Empfehlungen zu generieren. Der KI-Assistent berücksichtigt nur Tags aus den ausgewählten Namespaces, basierend auf den in AEM definierten Tags. Detailansicht ([-Modus im KI-Assistenten](../user-guide/ai-assistant.md#ai-assistant-modes).
 
@@ -91,7 +87,7 @@ Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren
 
 - **Zitate**
 
-  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von &#x200B;](../user-guide/web-editor-apply-citations.md#change-citation-style).
+  Ändern des Stils von Zitaten. Wählen Sie in der Dropdown-Liste den Zitatstil aus, den Sie in Ihrem Projekt verwenden möchten. Weitere Informationen finden Sie unter [Ändern von ](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Bedingung**
 
@@ -296,7 +292,7 @@ Diese Registerkarte enthält die Optionen zum Erstellen von Sprachgruppen, zum �
      >
      > Schalten Sie **Mehr anzeigen** auf **Weniger anzeigen** um und zeigen Sie nur einige Sprachen an.
 
-  1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![&#x200B; Sprachgruppen zu bearbeiten &#x200B;](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![&#x200B; oder zu löschen](../user-guide/images/Delete_icon.svg).
+  1. Bewegen Sie den Mauszeiger über die Sprachen in einer Gruppe, um ![ Sprachgruppen zu bearbeiten ](../user-guide/images/edit_pencil_icon.svg)Bearbeiten-Symbol![ oder zu löschen](../user-guide/images/Delete_icon.svg).
   1. Speichern Sie die **Einstellungen**.
 
      >[!NOTE]
