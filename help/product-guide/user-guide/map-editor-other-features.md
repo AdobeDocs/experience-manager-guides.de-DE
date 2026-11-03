@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 ---
 # Zusätzliche Funktionen im Karten-Editor {#id1942D0T0HUI}
@@ -90,7 +90,7 @@ Ein Navigationsverweis der ausgewählten Zuordnungsdatei wird am angegebenen Spe
 
 ## Ausführen einer Konsistenzprüfung für eine Zuordnung
 
-Mit der Option Konsistenzprüfung ausführen im Kontextmenü können Sie eine Konsistenzprüfung für die ausgewählte Zuordnung ausführen, um Probleme wie fehlerhafte Links, doppelte IDs und Schematron-Validierungsfehler vor der Veröffentlichung zu erfassen.
+Mit **Option „Konsistenzprüfung ausführen** im Kontextmenü können Sie eine Konsistenzprüfung für die ausgewählte Zuordnung ausführen, um Probleme wie fehlerhafte Links, doppelte IDs und Fehler bei der Schematron-Validierung vor der Veröffentlichung zu erfassen. Diese Funktion ist sowohl im neuen als auch im alten Editor verfügbar.
 
 >[!NOTE]
 >

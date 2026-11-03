@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '872'
 ht-degree: 0%
 ---
 # Arbeiten mit der nativen PDF-Engine v2
@@ -102,3 +102,4 @@ Die folgenden Probleme in der PDF-Ausgabe, die mit _Native PDF Engine v1_ generi
 - Die Lesereihenfolge von Inhalten in der nativen PDF-Ausgabe mit aktivierten Barrierefreiheitseinstellungen ist falsch. Seitenzahlen in Fußzeilen werden vor dem Hauptinhalt und nicht am Ende gelesen. (GUIDES-27790)
 - Die Farbleiste in der nativen PDF-Ausgabe erstreckt sich nicht über die gesamte Seitenbreite und überschneidet sich bei der Anpassung der Seitengröße, wodurch einige Farbfelder ausgeblendet werden. (GUIDES-15505)
 - Der `CSS:is()pseudo-class`-Selektor wird in der nativen PDF-Ausgabe nicht berücksichtigt, was zu Stilunterschieden im Vergleich zum Browser-Rendering führt. (GUIDES-11328)
+- Bestimmte chinesische (vereinfachte) Zeichen werden in der nativen PDF-Ausgabe mit einer japanischen Schriftart gerendert, auch wenn die Ausgabesprache auf Chinesisch (zh-CN) festgelegt ist. (GUIDES-48094)

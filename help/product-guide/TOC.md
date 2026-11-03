@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: 09b8fabaa75d656ae1465d741c8aac8307ce6231
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2705'
 ht-degree: 11%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 11%
       - {hide-from-toc}[Bereitstellungsanweisungen](./release-info/deploy-xml-on-aemaacs.md)
       - [Cloud-Versionen](./release-info/latest-release-info-cs.md)
       - Versionen 2026 {#2026-releases}
+        - Version 2026.11.0 {#2611-release}
+          - [Neue Funktionen](./release-info/whats-new-2026-11-0.md)
+          - [Behobene Probleme](./release-info/fixed-issues-2026-11-0.md)
+          - [Upgrade-Anweisungen](./release-info/upgrade-instructions-2026-11-0.md)
         - Version 2026.09.0 {#2609-release}
           - [Neue Funktionen](./release-info/whats-new-2026-09-0.md)
           - [Behobene Probleme](./release-info/fixed-issues-2026-09-0.md)
@@ -293,6 +297,10 @@ ht-degree: 11%
   - Kartenverwaltung und -veröffentlichung {#map-management-publishing}
     - [Übersicht über die Zuordnungskonsole](./user-guide/map-console-overview.md)
     - [Dateien in der Zuordnungskonsole öffnen](./user-guide/open-files-map-console.md)
+    - Verzweigung und Zusammenführung {#work-with-branching}
+      - [Überblick](./user-guide/branching-overview.md)
+      - [Erstellen und Verwalten von Verzweigungen](./user-guide/create-manage-branch.md)
+      - [Zweige fusionieren](./user-guide/merge-branches.md)
     - Berichte {#reports-aem-guide}
       - [Einführung in Berichte](./user-guide/reports-intro.md)
       - [DITA-Zuordnungsbericht über die Zuordnungskonsole](./user-guide/reports-web-editor.md)
@@ -369,12 +377,15 @@ ht-degree: 11%
     - [Adobe Generative AI-Benutzerinformationen](./user-guide/adobe-generative-ai-disclosures.md)
     - [Überblick über den KI-Assistenten](./user-guide/ai-assistant.md)
     - KI-Assistent im Agentenmodus {#ai-assistant-agentic}
-      - [Verwenden des KI-Assistenten im Agentenmodus](./user-guide/ai-assistant-agentic.md)
+      - [Importieren von Inhalten mit dem KI-Assistenten](./user-guide/import-ai-assistant.md)
+      - [Erstellen des ersten Entwurfs Ihres Inhalts](./user-guide/create-ai-assistant.md)
+      - [Smart-Tagging mit dem KI-Assistenten](./user-guide/ai-assistant-agentic.md)
     - KI-Assistent im Standardmodus {#ai-assistant-standard}
-      - [KI-gestützte intelligente Hilfe bei der Suche nach Inhalten](./user-guide/ai-based-smart-help.md)
       - [KI-Assistent für das Authoring zur intelligenten Erstellung von Dokumenten](./user-guide/ai-assistant-right-panel.md)
       - [KI-gestützte intelligente Vorschläge zum Erstellen von Inhalten](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Häufig gestellte Fragen](./user-guide/ai-assistant-faq.md)
+  - Hilfeassistent in AEM Guides {#help-assistant-aem}
+    - [KI-gestützte intelligente Hilfe zum Durchsuchen von Inhalten](./user-guide/ai-based-smart-help.md)
   - Verwalten von Lerninhalten {#learning-training-content}
     - Erste Schritte {#get-started}
       - Einführung {#intro-lc}
@@ -563,6 +574,7 @@ ht-degree: 11%
         - [Anwenden von Stilen auf Fußnoten](./native-pdf/footnote-number-style.md)
         - [Konfigurieren der neuen Veröffentlichungs-Engine für Native PDF](./native-pdf/conf-new-pdf-engine.md)
       - [Arbeiten mit der nativen PDF-Engine v2](./native-pdf/new-pdf-engine.md)
+      - [Konfigurieren des Renderings von Anhängen für das Map-Rendering für native PDF](./install-conf-guide/conf-appendix-map-ref-native-pdf.md)
       - [Konfigurieren des Knotenprozesses für die native PDF-Veröffentlichung für Cloud Service](./native-pdf/conf-node-options-cs.md)
       - [Konfigurieren von JVM-Flags für native PDF-Veröffentlichung für On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
     - Konfigurieren von Inhalten und Experience Fragments für Cloud Service {#conf-content-exp-fragment}
@@ -699,6 +711,7 @@ ht-degree: 11%
       - [Konfigurieren von auf Microservices basierender Veröffentlichung mit JWT-Authentifizierung](./knowledge-base/publishing/configure-microservices.md)
       - [Konfigurieren von auf Microservices basierender Veröffentlichung mit OAuth-Authentifizierung](./knowledge-base/publishing/configure-microservices-imt-config.md)
       - [Konfigurieren von Edge Delivery Services](./knowledge-base/publishing/configure-eds.md)
+      - [Konfigurieren von GitLab für Edge Delivery Services](./knowledge-base/publishing/configure-eds-gitlab.md)
       - [Veröffentlichen von Benchmarks in der AEM Cloud](./knowledge-base/publishing/publishing-benchmarks-on-aem-cloud.md)
     - Workflows {#workflows}
       - [Nachgenerierungs-Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)

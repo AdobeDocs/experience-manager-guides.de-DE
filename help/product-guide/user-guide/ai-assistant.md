@@ -24,62 +24,63 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 71ddd55d2a6848449d5810701b60e9f69a29112b
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '757'
 ht-degree: 0%
 ---
-# KI-Assistent (Beta)
-
-Der **KI-Assistent** in Adobe Experience Manager Guides ist ein leistungsstarkes, KI-gesteuertes Tool, das Ihre Produktivität durch intelligente Hilfe-, Authoring- und Tagging-Funktionen steigert. Im **Standard**-Modus werden zwei robuste KI-Funktionen - **Authoring** und **Hilfe** in der Experience Manager Guides-Benutzeroberfläche zusammengeführt, sodass Sie Inhalte und Informationen aus der Experience Manager Guides-Dokumentation schneller und effizienter erstellen und darauf zugreifen können. Im **Agent**-Modus bietet der KI-Assistent stattdessen **Smart-Tagging**, mit dem Sie über ein Konversationsaufforderungsfenster Tag-Empfehlungen für Ihre Inhalte anfordern und sie auf ein oder mehrere Themen anwenden können.
+# KI-Assistent
 
 >[!NOTE]
 >
 > Die Funktion KI-Assistent ist derzeit für Adobe Experience Manager Guides as a Cloud Service verfügbar.
 
+Der KI-Assistent in Adobe Experience Manager Guides ist ein KI-gestütztes Tool, das durch die Vereinfachung von Workflows zur Inhaltserstellung, -verwaltung und -bearbeitung die Produktivität steigert. Es bietet zwei Modi: Agent und Standard. Im **Agentenmodus** können Sie mit dem KI-Assistenten inhaltsbezogene Aufgaben durch Interaktionen in natürlicher Sprache ausführen, mit Fähigkeiten wie Importieren, Erstellen und Smart-Tagging, um die Inhaltserstellung, Organisation und Metadatenverwaltung zu optimieren. Im **Standardmodus** bietet der KI-Assistent Unterstützung beim Authoring, damit Sie Inhalte effizienter erstellen, verfeinern und verwalten können.
+
 ## KI-Assistentenmodi
 
->[!NOTE]
->
->Wenden Sie sich an das Customer Success-Team , um den KI-Assistenten für Ihre Umgebung im Agentenmodus zu aktivieren.
+Der KI-Assistent ist in zwei Modi verfügbar: **Agent** und **Standard**. Administratoren können den Modus im Abschnitt **KI-Funktionen** der Registerkarte **Allgemein** in den **Workspace-Einstellungen**. Das KI-Assistenten-Bedienfeld im Editor bleibt in beiden Modi gleich, die verfügbaren Funktionen unterscheiden sich jedoch:
 
-Der KI-Assistent ist in zwei Modi verfügbar: **Agent** und **Standard**. Administratoren können zwischen den beiden Modi im Abschnitt **KI-Assistent** der Registerkarte **Allgemein** in den **Workspace-Einstellungen**. Das Bedienfeld des KI-Assistenten bleibt in beiden Modi im Editor gleich, aber die darin verfügbaren Funktionen unterscheiden sich:
-
-* **Agent**-Modus verwendet die **Smart-Tagging**-Fähigkeit von Adobe CX Enterprise Coworker, um Ihren Inhalt zu analysieren und relevante Tags basierend auf der Taxonomie Ihres Unternehmens zu empfehlen.
-* **Standard**-Modus bietet das vorhandene KI-Assistentenerlebnis mit den Registerkarten **Hilfe** und **Authoring** im KI-Assistenten-Bedienfeld.
+- **Agentenmodus:** Verwendet Kenntnisse **Import**, **Erstellen** und **Smart-Tagging**, um Dateien in strukturierte Themen zu konvertieren, einen ersten Entwurf von Inhalten zu erstellen und relevante Tags basierend auf der Taxonomie Ihres Unternehmens zu empfehlen.
+- **Standardmodus:** bietet KI-gestützte Authoring-Unterstützung durch kontextuelle Aktionen wie die Wiederverwendung von Inhalten, Übersetzung und Verbesserungen der Inhaltsqualität, um Authoring-Workflows zu optimieren.
 
 ## Agent-Modus
 
-### Smart-Tagging
+>[!NOTE]
+>
+> Um den KI-Assistenten im Agentenmodus zu verwenden, muss sich Ihr Unternehmen in Adobe CX Enterprise Coworker einarbeiten lassen und über verfügbare Credits verfügen. Wenden Sie sich nach der Einführung an Ihr Customer Success-Team, um die Funktion zu aktivieren. Konfigurationsdetails finden Sie unter [Konfigurieren des KI-Assistenten im Agentenmodus](../install-conf-guide/configure-ai-assistant-agentic-mode-cs.md).
 
-Der KI-Assistent im Agentenmodus macht das Tagging Ihres Inhalts durch ein dialogorientiertes Eingabeaufforderungsfenster schneller und einfacher. Bei Verwendung der agenten Smart-Tagging-Fähigkeit von Adobe CX Enterprise Coworker empfiehlt der KI-Assistent relevante Tags für Ihren Inhalt, wenn Sie ihn darum bitten. Sie behalten die Kontrolle, indem Sie die vorgeschlagenen Tags überprüfen und sie auf ein oder mehrere Themen anwenden, einschließlich mehrerer Themen in einer Zuordnung.
+Der Agentenmodus im KI-Assistenten ermöglicht es Ihnen, eine Vielzahl von inhaltsbezogenen Aufgaben durch Interaktionen in natürlicher Sprache auszuführen, z. B. das Erstellen und Importieren von Inhalten, das Zusammenfassen von Themen, das Hinzufügen von Themen zu Karten und das Verwalten von Metadaten. Sie können Ihre Anforderungen im Chat-Bedienfeld beschreiben, und der KI-Assistent plant und führt Aufgaben aus, während er für Einblick in deren Fortschritt sorgt. Der Agentenmodus bietet schnellen Zugriff auf die folgenden Fähigkeiten:
 
-Weitere Informationen finden Sie unter [Erste Schritte mit dem Agent-KI-Assistenten](./ai-assistant-agentic.md).
+- **Importieren**: Konvertiert PDF-, Word- oder Markdown-Dateien aus Ihrem Geräte- oder Content-Repository in strukturierte Themen. Weitere Informationen finden Sie unter [Inhalt mit KI-Assistenten importieren](./import-ai-assistant.md).
 
-![KI-Assistent für Smart-Tagging](./images/suggested-prompts.png)
+- **Erstellen**: Generiert Themenentwürfe und Karten aus Eingabematerialien wie Spezifikationen, Whiteboard-Bildern, Screenshots und anderen Referenzinhalten mit der Option, vorhandene Inhalte für Ton und Stil zu verwenden. Weitere Informationen finden Sie unter [Erstellen von Inhalten mit dem KI-Assistenten](./create-ai-assistant.md).
+
+- **Smart-Tagging**: Empfiehlt relevante Tags für Themen basierend auf der Taxonomie Ihres Unternehmens, um die Konsistenz der Metadaten zu verbessern. Weitere Informationen finden Sie unter [Smart-Tagging mit dem KI-Assistenten](./ai-assistant-agentic.md).
+
+Die folgenden Komponenten des KI-Assistenten-Bedienfelds helfen Ihnen beim Hinzufügen von Inhalten, beim Eingeben von Eingabeaufforderungen und beim Starten von Aufgaben:
+
+![KI-Assistent für Smart-Tagging](./images/panel-new-agentic.png)
+
+- **(A)** Konversationsverlauf: Frühere Konversationen anzeigen und erneut öffnen, um frühere Anfragen und Antworten zu überprüfen.
+- **(B)** Vollbild: Erweitert das Bedienfeld des KI-Assistenten auf Vollbild.
+- **(C)** Leertaste eingeben: Geben Sie eine Eingabeaufforderung ein, oder geben Sie `/` ein, um Dateien hinzuzufügen und Tags zu generieren.
+- **(D)** Dateien anhängen oder Kontext hinzufügen: Fügt Themen, Karten oder Dateien aus Ihrem lokalen System hinzu, um den Inhalt bereitzustellen, mit dem der KI-Assistent arbeitet.
+- **(E)** Senden: Senden Sie Ihre Eingabeaufforderung und angehängten Inhalte an den KI-Assistenten.
+- **(F)** Schnellaktionen: Starten Sie eine Aufgabe direkt über eine der folgenden Tastaturbefehle: **Importieren**, **Erstellen** oder **Tag**.
 
 ## Standardmodus
 
-### Authoring
+Der Standardmodus macht den Authoring-Prozess intelligenter und schneller. Wenn Sie Text im Editor auswählen, bietet der KI-Assistent schnelle Aktionen, wie das Generieren intelligenter Vorschläge für die Wiederverwendung von Inhalten, das Übersetzen von Inhalten, die Verbesserung der Inhaltsqualität und mehr, die alle auf Ihren ausgewählten Inhalten basieren. Dies verbessert das allgemeine Authoring-Erlebnis und die Produktivität von Autoren.
 
-Wenn der KI-Assistent im **Standard**-Modus konfiguriert ist, **die Funktion Authoring** im KI-Assistenten Ihren Authoring-Prozess intelligenter und schneller. Es bietet Funktionen wie das Generieren intelligenter Vorschläge für die Wiederverwendung von Inhalten, das Übersetzen von Inhalten, die Verbesserung der Inhaltsqualität und mehr, die alle auf Ihren ausgewählten Inhalten basieren. Diese Funktion verbessert das allgemeine Authoring-Erlebnis und die Produktivität von Autoren.
-
-Weitere Informationen finden Sie unter [Authoring](./ai-assistant-right-panel.md).
+Weitere Informationen finden Sie unter [Erstellen von Dokumenten mit dem KI-Assistenten](./ai-assistant-right-panel.md).
 
 ![KI-Assistent](./images/ai-assistant-panel.png)
 
-### Hilfe
 
-Wenn der KI-Assistent im **Standard**-Modus konfiguriert ist, bietet die **Hilfe**-Funktion ein intuitives, chatbasiertes Erlebnis, das Ihnen hilft, Experience Manager Guides zu verstehen, Probleme zu beheben und Informationen in der Dokumentation zu Adobe Experience Manager Guides zu finden. Anstatt in Benutzerhandbüchern und Referenzdokumenten zu suchen, können Sie die Funktion **Hilfe** verwenden, um schnell relevante Antworten auf Ihre Fragen zu finden. Dies spart Zeit und ermöglicht es Ihnen, sich auf die Inhaltserstellung zu konzentrieren, was zu höherer Produktivität und Effizienz führt.
+## Erste Schritte mit dem KI-Assistenten
 
-Weitere Informationen finden Sie unter [Hilfe](./ai-based-smart-help.md).
-
-
-![Smartes Hilfebedienfeld](images/smart-help-panel.png)
-
-## Erste Schritte mit dem KI-Assistenten im Standardmodus
-
-Wenn Sie den **KI** Assistenten im Standardmodus zum ersten Mal verwenden, werden Sie aufgefordert, Ihr Einverständnis einzureichen, bevor Sie die Funktionen der generativen KI von Experience Manager Guides verwenden.
+Wenn Sie den **KI-Assistenten** zum ersten Mal verwenden, werden Sie aufgefordert, Ihr Einverständnis einzureichen, bevor Sie die Funktionen der generativen KI von Experience Manager Guides verwenden.
 
 Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu starten:
 
@@ -87,10 +88,11 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu starten:
 1. Wählen Sie auf der Startseite **KI-Assistent** aus. Stellen Sie sicher, dass Ihr Administrator die Funktion KI-Assistent im gewünschten Modus aktiviert hat.
 
 Der KI-Assistent zeigt die wichtigsten Funktionen, den Link zu Benutzerrichtlinien und eine Schaltfläche **Erste Schritte** an.
-
-![Smartes Hilfebedienfeld](images/get-started-ai.png)
-
 Lesen Sie die Benutzerrichtlinien sorgfältig durch und wählen Sie dann **Erste Schritte** aus, um den KI-Assistenten zu starten.
+
+>[!NOTE]
+>
+>Wenn Sie den Richtlinien für die Verwendung der Hilfe-Assistant-Funktion bereits zugestimmt haben, werden Sie nicht erneut zur Einwilligung aufgefordert und können die KI-Assistant-Funktion weiterhin verwenden.
 
 **Verwandte Themen**
 

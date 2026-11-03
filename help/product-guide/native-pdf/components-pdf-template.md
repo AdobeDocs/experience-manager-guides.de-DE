@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5098'
 ht-degree: 0%
 ---
 # Komponenten einer PDF-Vorlage {#components-pdf-template}
@@ -287,14 +287,17 @@ Sie können festlegen, welcher Text vor und nach der Pause angezeigt werden soll
   >[!NOTE]
   >
   > Wenn Sie eine Sprachvariable im Feld **Text vor** oder **Text nach** verwenden, stellen Sie sicher, dass der gesamte Text in einer einzelnen Sprachvariablen definiert ist. Text oder Variablen, die außerhalb der Sprachvariablen in diesen Feldern hinzugefügt wurden, werden nicht gerendert. Anstatt beispielsweise eine Variablenkombination wie `${lng:Continued-from-page} %page-num%` im Feld **Text nach**&quot; zu verwenden, verwenden Sie nur `${lng:Continued-from-page}` im Feld und setzen Sie den Wert der `Continued-from-page` Sprachvariablen separat auf `Continued-from-page %page-num%`.
-* **Glossarbegriffe mit der Glossarseite verknüpfen**: Wählen Sie diese Option, um die Glossarbegriffe als Hyperlinks im Inhalt anzuzeigen und mit den Begriffen auf der Glossarseite zu verknüpfen. Dies hilft den Lesern, die Definition eines im Glossar definierten Begriffs schnell anzuzeigen.
+* **Glossarbegriffe mit der Glossarseite verknüpfen**: Aktivieren Sie diese Option, um die Glossarbegriffe als Hyperlinks im Inhalt anzuzeigen und mit den Begriffen auf der Glossarseite zu verknüpfen. Dies hilft den Lesern, die Definition eines im Glossar definierten Begriffs schnell anzuzeigen.
 
   Um Glossarbegriffe in Hyperlinks zu konvertieren, gehen Sie folgendermaßen vor:
   * Aktivieren **Glossar** auf der Registerkarte **Seitenlayoutreihenfolge** für eine DITA-Zuordnung.
   * Fügen Sie das Glossar auf den Seiten der Hintergrundthemen für eine Buchkarte hinzu.
 
   Wenn Sie die Glossarseite nicht aktivieren, werden die Glossarbegriffe im Inhalt in der PDF-Ausgabe nicht in Hyperlinks konvertiert.
-  <!--For more information on using table continuation markers, see Use table continuation markers.-->
+
+* **Alle Glossareinträge anzeigen**: Aktivieren Sie diese Option, um alle in der Zuordnung definierten Glossareinträge einzubeziehen, unabhängig davon, ob der entsprechende Begriff im Inhalt referenziert wird oder nicht. Standardmäßig ist diese Option deaktiviert und nur die in Ihrem Inhalt tatsächlich verwendeten Glossarbegriffe sind in der Glossarseite enthalten.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Seiten-Layouts {#page-layouts}
 

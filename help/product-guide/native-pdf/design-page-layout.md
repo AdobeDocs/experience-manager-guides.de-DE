@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '5089'
+source-wordcount: '5425'
 ht-degree: 0%
 ---
 # Entwerfen eines Seiten-Layouts {#design-page-layout}
@@ -481,6 +481,60 @@ Wenn Sie direkt mit dem CSS- und HTML-Code arbeiten möchten, können Sie dies a
 </p>
 …
 ```
+
+### Hinzufügen eines Bildes aus Zuordnungsmetadaten
+
+Wenn Sie dieselbe Vorlage verwenden, um mehrere Karten zu veröffentlichen, können Sie für jede Karte ein anderes Bild anstelle eines statischen Bildes aus den Vorlagenressourcen anzeigen. Wenn Ihre Produkte beispielsweise eine Vorlage gemeinsam haben und sich nur im Titelbild unterscheiden, können Sie dem Titelseitenlayout einen Platzhalter für Bilder hinzufügen. Beim Veröffentlichen einer Zuordnung wird der Platzhalter durch das Bild ersetzt, das in den Metadaten dieser Zuordnung definiert ist. Beim Veröffentlichen von Map 1 wird das in Map 1 definierte Bild angezeigt, beim Veröffentlichen von Map 2 das in Map 2 definierte Bild. Wenn ein Bild nicht aufgelöst werden kann, wird stattdessen der angegebene Platzhaltertext angezeigt.
+
+Sie können das Bild im `<bookmeta>` Element einer Bookmap oder im `<topicmeta>` Element einer DITA-Map definieren. Nur das `<image>` wird unterstützt. Es können alle von Experience Manager Guides unterstützten Bildformate verwendet werden, einschließlich GIF, JPG, BMP, PNG, SVG und TIFF.
+
+So zeigen Sie ein Bild aus einer Karte an:
+
+1. Definieren Sie das Bild in Ihrer Karte, wie in den folgenden Beispielen gezeigt.
+
+   Fügen Sie das Bild in einem Bookmap-Element zum `<bookmeta>` hinzu:
+
+   ```xml
+   <bookmeta>
+     <metadata>
+       <data><image href="media/cover.png" id="cover-image"/></data>
+     </metadata>
+   </bookmeta>
+   ```
+
+   Fügen Sie in einer DITA-Zuordnung das Bild zum `<topicmeta>` hinzu:
+
+   ```xml
+   <topicmeta>
+     <data><image href="images/cover.png" id="cover-image"/></data>
+   </topicmeta>
+   ```
+
+   >[!NOTE]
+   >
+   >Das `<image>`-Element muss ein `id`-Attribut aufweisen. Die `id` ist obligatorisch und muss für jedes Bild in der Zuordnung eindeutig sein.
+
+1. Öffnen **in &quot;**&quot; das Seiten-Layout, dem Sie den Bildplatzhalter hinzufügen möchten, z. B. das Titelseiten-Layout.
+
+1. Wählen Sie **Felder** unter **Weitere Optionen** aus.
+
+1. Wählen Sie auf der **Metadaten** die Option **Format hinzufügen** aus.
+
+1. Geben Sie die folgenden Details an:
+
+   1. Wählen **unter „Metadaten verwenden von** die Option **Inhalt zuordnen** aus.
+   1. Geben Sie den XPath des Bildes oder den XPath seines `href` Attributs ein.
+   1. Geben Sie das gewünschte Format ein.
+   1. Geben Sie den Platzhaltertext ein, der angezeigt werden soll, wenn das Bild nicht aufgelöst wird.
+   1. Wählen Sie **OK** aus.
+
+1. (*Optional*) Verwenden Sie die **Stylesheets** um Stile auf die Bilder anzuwenden. CSS-Stile werden für das Bildelement unterstützt.
+
+1. Generieren Sie die PDF-Ausgabe.
+
+>[!NOTE]
+>
+>Wenn Sie das Bild in der Assets-Benutzeroberfläche aktualisieren, wird das aktualisierte Bild verwendet, wenn Sie die PDF-Ausgabe das nächste Mal generieren.
 
 ## Arbeiten mit einem Inhaltsbereich {#content-area}
 

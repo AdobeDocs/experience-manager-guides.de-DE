@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '445'
 ht-degree: 0%
 ---
 # Einführung in die Überprüfung {#id1645H6010Q5}
@@ -42,6 +42,8 @@ Zu den Hauptfunktionen, die Adobe Experience Manager Guides den Initiatoren (ode
 - Geben Sie eine aktualisierte Version des Themas zur Überprüfung im Überprüfungs-Dashboard frei.
 
 - Zugreifen auf Kommentare, die in verschiedenen Versionen des Themas freigegeben wurden.
+- Fügen Sie Kommentare zu Themen hinzu, um Kontext zu bieten oder die Aufmerksamkeit der Prüfer auf bestimmte Inhalte zu lenken.
+
 - Einfaches Tagging von Benutzern bestimmter Prüfungsaufgaben in Kommentaren oder Antworten für schnelle Aktionen und Folgemaßnahmen. Getaggte Benutzende werden sofort über AEM und E-Mail-Benachrichtigungen benachrichtigt.
 - Gruppieren und Filtern von Kommentaren nach Themenversion.
 

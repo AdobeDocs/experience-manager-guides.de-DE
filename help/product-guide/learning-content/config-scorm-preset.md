@@ -18,13 +18,11 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: dbb138a7804d102d1b9aa9cfbc3564e827ef199e
+source-git-commit: 6b1f5e5a0264c340240a52e59c1d0e5c093fed50
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '1066'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren der SCORM-Ausgabevorgabe
 
 Nachdem die Voreinstellung erstellt wurde, konfigurieren Sie die SCORM-Voreinstellungen. Die voreingestellten Konfigurationsoptionen sind auf den Registerkarten Allgemein, Inhalt, Teilnehmererlebnis und Veröffentlichen organisiert.
@@ -74,6 +72,41 @@ Nachdem die Voreinstellung erstellt wurde, konfigurieren Sie die SCORM-Voreinste
 
     - **Fragereihenfolge für jeden Versuch zufälligen**: Zeigt Quizfragen für jeden Versuch in einer anderen Reihenfolge an, wodurch die Vorhersehbarkeit verringert wird.
     - **Auswahl der Antworten für jeden Versuch zufälligen**: Mischt die Antwortoptionen für jede Frage bei jedem Versuch, wodurch die Wahrscheinlichkeit des Ratens verringert wird.
+
+  - **Reporting**: Verwenden Sie diese Einstellungen, um zu steuern, wann der Abschluss des Kurses und der Status „bestanden/fehlgeschlagen“ in Adobe Learning Manager (ALM) veröffentlicht werden.
+
+    ![Reporting-Einstellungen](assets/reporting-scorm.png)
+
+    - **Kursabschluss**: Definiert, wann der Kurs als abgeschlossen markiert und auf der ALM veröffentlicht wird.
+
+      - **Kurs bei Start als abgeschlossen markieren**: Markiert den Kurs für den Teilnehmer als abgeschlossen, sobald er gestartet wurde. Der Teilnehmer muss mit keinem Inhalt interagieren. Diese Option wird selten benötigt, ist aber verfügbar, wenn Ihr Workflow sie erfordert.
+      - **Basierend auf abgeschlossenen Themen**: Markiert den Kurs als abgeschlossen, sobald der Teilnehmer einen bestimmten **Prozentsatz** oder **Anzahl** abgeschlossener Themen erreicht. Wählen Sie die Einheit (Prozentsatz oder Zahl) aus, die dem gewünschten Abschlussschwellenwert entspricht.
+      - **Basierend auf dem abgestuften Quiz**: Markiert den Kurs basierend auf dem Quizstatus des Teilnehmers, ausgewählt aus der Dropdown-Liste:
+
+        - **Bewerteter Quiz versucht**
+        - **Bewerteter Quiz bestanden**
+        - **Bewerteter Quiz wurde bestanden oder das Limit für Versuche wurde erreicht**
+
+      Wenn sowohl **Basierend auf abgeschlossenen Themen** als **Basierend auf dem bewerteten Quiz** aktiviert sind, verwenden Sie den **AND**/**OR**-Selektor, um zu definieren, wie die beiden Bedingungen kombiniert werden:
+
+      - **AND**: Beide Bedingungen müssen erfüllt sein.
+      - **OR**: Es reicht, wenn beide Bedingungen erfüllt sind.
+
+    - **Kurs besteht oder**: Definiert, wann der Status „bestanden“ oder „nicht bestanden“ im ALM veröffentlicht wird. Die Meldung des Status „bestanden“ oder „fehlgeschlagen“ ist optional.
+
+      - **Melden Sie LMS den Status „bestanden“ oder „fehlgeschlagen“**: Deaktivieren Sie diese Option, wenn der Status „bestanden“/„nicht bestanden“ nicht in ALM veröffentlicht werden soll. Wenn diese Option deaktiviert ist, sind die verbleibenden Optionen in dieser Gruppe ausgeblendet.
+      - **Kurs bei Start weitergeleitet markieren**: Markiert den Kurs für den Teilnehmer als weitergeleitet, sobald er gestartet wurde.
+      - **Basierend auf abgeschlossenen Themen**: Markiert den Kurs als abgeschlossen, sobald der Teilnehmer einen bestimmten **Prozentsatz** oder **Anzahl** abgeschlossener Themen erreicht. Wählen Sie die Einheit (Prozentsatz oder Zahl) aus, die dem gewünschten Abschlussschwellenwert entspricht.
+      - **Basierend auf dem abgestuften Quiz**: Markiert den Kurs als bestanden oder fehlgeschlagen basierend auf dem Quizstatus des Teilnehmers, ausgewählt aus der Dropdown-Liste
+
+        - Bewerteter Quiz wurde versucht
+        - Abgestuftes Quiz bestanden
+
+      Wenn sowohl **Basierend auf abgeschlossenen Themen** als **Basierend auf dem bewerteten Quiz** aktiviert sind, verwenden Sie den **AND**/**OR**-Selektor, um sie wie oben beschrieben zu kombinieren.
+
+    >[!NOTE]
+    >
+    >Standardmäßig stimmen diese Einstellungen mit dem vorherigen Verhalten überein: Abschluss bei 100 % der abgeschlossenen Themen und Bestehen basierend sowohl auf dem Test, der bestanden wird, als auch auf 100 % abgeschlossenen Themen. Dies gilt sowohl für neue als auch vorhandene SCORM-Vorgaben. Daher ändert sich für vorhandene Kurse nichts, es sei denn, Sie konfigurieren diese Einstellungen neu.
 
 - **In LMS veröffentlichen:** Verwenden Sie diese Einstellung, um Ihre Inhalte direkt in Adobe Learning Manager (ALM) zu veröffentlichen. Wählen Sie im Dropdown-Menü **Veröffentlichungsserver** die Option **Adobe Learning Manager** und wählen Sie dann das erforderliche **Veröffentlichungsprofil**, das zuvor in den Workspace-Einstellungen konfiguriert wurde. Das ausgewählte Profil wird verwendet, um die Verbindung herzustellen und den generierten Inhalt in ALM hochzuladen.
 

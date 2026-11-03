@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ae9ac69745555aa3683e0a6a648f6519377dd6d7
+source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Führen Sie die folgenden Schritte aus, um die intelligenten Vorschläge zum Hin
 1. Sie können für die entsprechenden Empfehlungen auch **Akzeptieren** oder **Verwerfen** im Bedienfeld „Vorschläge“ auswählen.
 
 
-Diese intelligente Funktion ist praktisch und minimiert den Aufwand für die manuelle Inhaltssuche, sodass Sie sich mehr auf die Erstellung neuer Inhalte konzentrieren können. Dies erleichtert auch eine bessere Zusammenarbeit im Team und hilft bei der Beibehaltung der Konsistenz der von verschiedenen Autoren erstellten Inhalte.
+Diese intelligente Funktion ist nützlich und minimiert den Aufwand für die manuelle Inhaltssuche, sodass Sie sich mehr auf die Erstellung neuer Inhalte konzentrieren können. Dies erleichtert auch eine bessere Zusammenarbeit im Team und hilft bei der Beibehaltung der Konsistenz der von verschiedenen Autoren erstellten Inhalte.
 
 >[!NOTE]
 >

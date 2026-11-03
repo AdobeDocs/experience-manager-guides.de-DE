@@ -37,9 +37,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '2794'
+source-wordcount: '2824'
 ht-degree: 0%
 ---
 # Übersetzen von Dokumenten aus der Map-Konsole {#id21BKF0Z0YZF}
@@ -65,7 +65,7 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 >
 > Der Stammordner und die Zielordner müssen auf derselben Ebene erstellt werden.
 
-## Ein Übersetzungsprojekt erstellen
+## Erstellen eines Übersetzungsprojekts
 
 1. Öffnen Sie **Bedienfeld** Repository“ die DITA-Zuordnungsdatei in der Zuordnungsansicht.
 1. Wählen Sie das Symbol **In Map-Konsole öffnen** aus.
@@ -181,7 +181,7 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie die erforderli
 
      ![Geben Sie den Projektpfad ein](images/project-path.png){width="650"}
 
-   - Wenn Sie zu einem vorhandenen Übersetzungsprojekt hinzufügen, wählen Sie den Pfad aus, in dem das Projekt bereits vorhanden ist. Wählen Sie dann aus der Liste **Vorhandenes Übersetzungsprojekt** das Projekt aus, dem Sie die aktuelle Übersetzungsaufgabe hinzufügen möchten. Sie können auch **Filter** verwenden, um die Liste einzugrenzen.
+   - Wenn Sie zu einem vorhandenen Übersetzungsprojekt hinzufügen, wählen Sie den Pfad aus, in dem das Projekt bereits vorhanden ist. Wählen Sie dann aus der **Vorhandenes Übersetzungsprojekt** das Projekt aus, dem Sie die aktuelle Übersetzungsaufgabe hinzufügen möchten. Wenn mehrere Projekte denselben Titel haben, verwenden Sie den zusammen mit jedem Projekttitel angezeigten Pfad, um das richtige Projekt zu ermitteln. Sie können auch **Filter** verwenden, um die Liste einzugrenzen und auch **Sortieren** die Projekte basierend auf Ihren Anforderungen
 
      ![Geben Sie den vorhandenen Projektpfad ein](images/existing-project-path.png){width="650"}
 

@@ -30,20 +30,75 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '1296'
 ht-degree: 0%
 ---
 # Output-Erzeugungsprozess verwalten
 
-Mit Adobe Experience Manager Guides können Sie die folgenden Aktionen für die generierte Ausgabe ausführen:
+Mit Adobe Experience Manager Guides können Sie Aufgaben zur Ausgabenerstellung für Ihre DITA-Zuordnungen überwachen und verwalten. Sie können den Status der Ausgabegenerierungsaufgaben anzeigen, laufende Aufgaben abbrechen und veraltete Einträge aus dem Ausgabegenerierungsverlauf entfernen.
+
+Nachdem Sie eine Ausgabegenerierungsaufgabe für eine Zuordnung initiiert oder ausgewählte Themen neu generiert haben, sendet Experience Manager Guides die Aufgabe an die Ausgabegenerierungswarteschlange. Der Status der Aufgabe wird im Verlauf der Ausgabegenerierung aktualisiert.
+
+Sie können Aufgaben zur Ausgabegenerierung über die Registerkarte **Ausgabegeschichte** im Editor oder die Registerkarte **AUSGABEN** in der Assets-Benutzeroberfläche anzeigen und verwalten.
+
+
+## Aufgaben zur Ausgabenerstellung im Editor anzeigen und verwalten
+
+Sie können Aufgaben zur Ausgabenerstellung direkt auf der Registerkarte **Ausgabehistorie** in der Zuordnungskonsole anzeigen und verwalten.
+
+Öffnen Sie die DITA-Zuordnung in der Zuordnungskonsole und generieren Sie die Ausgabe mit einer der in Experience Manager Guides verfügbaren Ausgabevorgaben. Wechseln Sie zur Registerkarte **Ausgabehistorie**, um den Status der Ausgabegenerierungsaufgabe und andere Details anzuzeigen, wie unten dargestellt:
+
+![](images/output-history-editor-view.png)
+
+Für jede Ausgabegenerierungsaufgabe können Sie die folgenden Informationen anzeigen:
+
+1. **Voreinstellung:** Name der für die Erzeugung der Ausgabe verwendeten Ausgabevorgabe.
+1. **Vorgabetyp** Der für die Ausgabegenerierung verwendete Ausgabevorgabetyp.
+1. **Status** Aktueller Status der Ausgabegenerierungsaufgabe, z. B. Warten, Wird ausgeführt, Beendet, Fehlgeschlagen, Nachveröffentlichung oder Abgebrochen.
+1. **Erstellt am:** Datum und Uhrzeit der Erstellung der Ausgabe.
+1. **Dauer:** die Generierung der Ausgabe.
+1. **Generiert von:** Name des Benutzers, der die Aufgabe zur Ausgabegenerierung initiiert hat.
+
+>[!NOTE]
+>
+> Wenn derzeit eine Ausgabegenerierungsaufgabe ausgeführt wird, gibt die Bezeichnung **Wird ausgeführt** in der Spalte **Status** an, dass die Aufgabe verarbeitet wird. Verwenden Sie **Aktualisieren**, um den neuesten Status der Ausgabegenerierungsaufgaben anzuzeigen.
+
+Sie können auch eine laufende Ausgabegenerierungsaufgabe abbrechen. Um eine laufende Aufgabe abzubrechen, bewegen Sie den Mauszeiger über die Aufgabenzeile und wählen Sie **Generierung abbrechen**.
+
+![](images/cancel-generation-editor.png)
+
+Sobald die Aufgabe abgebrochen wurde, wird die Bezeichnung **Abgebrochen** in der Spalte **Status** angezeigt.
+
+Bewegen Sie bei abgeschlossenen Aufgaben zur Ausgabegenerierung den Mauszeiger über die Aufgabenzeile, um je nach Aufgabenstatus auf die folgenden Aktionen zuzugreifen:
+
+![](images/output-history-editor-actions.png)
+
+- **Ausgabe öffnen** Anzeige der erzeugten Ausgabe in einer neuen Registerkarte.
+- **Protokolle anzeigen:** Greifen Sie auf die Ausgabegenerierungsprotokolle zu, um die Veröffentlichungsdetails zu überprüfen und Fehler oder Warnungen zu beheben.
+- **Ausgabeverlauf löschen:** die ausgewählte Aufgabe aus dem Ausgabegenerierungsverlauf, ohne die generierte Ausgabe zu löschen.
+
+Sie können auch die folgenden Optionen verwenden, um mit dem Verlauf der Ausgabegenerierung zu arbeiten:
+
+- **Suche** Verwenden Sie das Suchfeld, um bestimmte Aufgaben zur Ausgabegenerierung im Verlauf zu finden.
+- **CSV herunterladen:** Wählen Sie **CSV herunterladen**, um den Verlauf der Ausgabegenerierung im CSV-Format herunterzuladen.
+- **Spaltengröße ändern:** Wählen Sie das Dropdown-Menü neben einem Spaltennamen aus und klicken Sie auf **Spaltengröße ändern**, um die Spaltenbreite anzupassen.
+- **Filter**: Wenden Sie Filter basierend auf dem Ausgabevorgabetyp, dem Aufgabenstatus und dem Datums- und Zeitbereich an, um den Verlauf der Ausgabegenerierung einzugrenzen.
+
+  ![](./images/output-history-filters.png)
+
+Die farbcodierten Symbole geben außerdem den Status jeder Aufgabe an: grün für erfolgreiche Aufgaben, orange für Aufgaben, die mit Nachrichten abgeschlossen wurden, und rot für fehlgeschlagene Aufgaben. So können Sie schnell Aufgaben identifizieren, die Aufmerksamkeit erfordern.
+
+## Anzeigen und Verwalten von Ausgabenerstellungsaufgaben über die Assets-Benutzeroberfläche
+
+Mit Assets AI können Sie die folgenden Aktionen für die generierte Ausgabe ausführen:
 
 - [Anzeigen des Status der Ausgabegenerierungsaufgabe](#view-the-status-of-the-output-generation-task)
 - [Aufgabe zum Erzeugen einer Ausgabe abbrechen](#cancel-an-output-generation-task)
 - [Ausgabeaufgabe löschen](#delete-an-output-task)
 
-## Anzeigen des Status der Ausgabegenerierungsaufgabe
+### Anzeigen des Status der Ausgabegenerierungsaufgabe
 
 Nachdem Sie die Ausgabegenerierungsaufgabe für eine Zuordnung initiiert oder ausgewählte Themen neu generiert haben, sendet Experience Manager Guides diese Aufgabe an die Ausgabegenerierungswarteschlange. Diese Warteschlange wird in Echtzeit aktualisiert und zeigt den Status jeder Ausgabegenerierungsaufgabe in der Warteschlange an.
 
@@ -67,14 +122,14 @@ Nachdem Sie die Ausgabegenerierungsaufgabe für eine Zuordnung initiiert oder au
 
      In dieser Liste können Sie Aufgaben, die erfolgreich ausgeführt wurden, Aufgaben, die mit einer Nachricht ausgeführt wurden, oder fehlgeschlagene Aufgaben anzeigen. Die erfolgreichen Aufgaben werden mit einem grünen Farbsymbol angezeigt, die Aufgaben mit einer Nachricht haben ein orangefarbenes Farbsymbol und die fehlgeschlagenen Aufgaben werden mit einem roten Farbsymbol angezeigt.
 
-     Für alle Aufgaben erstellt der Veröffentlichungsprozess eine Protokolldatei \(logs.txt\), auf die Sie zugreifen können, indem Sie den Link in der Spalte Generiert unter auswählen. Bei fehlgeschlagenen Aufgaben oder bei Meldungen können Sie die Protokolldatei überprüfen. Weitere Informationen hierzu finden Sie im Abschnitt [Anzeigen und Überprüfen der Protokolldatei](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     Für alle Aufgaben erstellt der Veröffentlichungsprozess eine Protokolldatei \(logs.txt\), auf die Sie zugreifen können, indem Sie den Link in der Spalte &quot;**&quot;**. Bei fehlgeschlagenen Aufgaben oder bei Meldungen können Sie die Protokolldatei überprüfen. Weitere Informationen hierzu finden Sie im Abschnitt [Anzeigen und Überprüfen der Protokolldatei](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
      >[!NOTE]
      >
      > Wenn Sie den Link der generierten PDF-Ausgabe auswählen, werden Sie aufgefordert, die PDF herunterzuladen.
 
 
-## Aufgabe zum Erzeugen einer Ausgabe abbrechen
+### Aufgabe zum Erzeugen einer Ausgabe abbrechen
 
 Experience Manager Guides bietet Publishern eine einfache Möglichkeit, laufende Veröffentlichungsaufgaben abzubrechen. Als Herausgeber können Sie eine laufende Veröffentlichungsaufgabe über die DITA Map-Konsole oder das [Dashboard veröffentlichen“ &#x200B;](generate-output-publish-dashboard.md#).
 
@@ -101,7 +156,7 @@ Führen Sie die folgenden Schritte aus, um eine Aufgabe zur Ausgabegenerierung �
    ![](images/cancelled-output-task.png)
 
 
-## Ausgabeaufgabe löschen
+### Ausgabeaufgabe löschen
 
 Wenn Sie mehrere Ausgaben für eine DITA-Zuordnung generieren, wird die Liste Erzeugte Ausgaben für eine solche Zuordnung über einen bestimmten Zeitraum sehr lang. Als Herausgeber können Sie den Ausgabehistorie jeder Zuordnungsdatei bereinigen, indem Sie die veralteten Aufgaben aus der Liste *Erzeugte Ausgaben* entfernen. Beachten Sie, dass die Ausgabe nicht aus dem System entfernt wird, sondern nur der Eintrag der generierten Ausgabe aus der Liste *Generierte Ausgaben* entfernt wird.
 
@@ -120,3 +175,20 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabeaufgabe aus der Liste Erz
 1. Wählen Sie **Ja** in der **Löschen bestätigen** aus.
 
    Die Aufgabe wird aus der Liste Erzeugte Ausgaben gelöscht.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

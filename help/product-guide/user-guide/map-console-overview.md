@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: d859c31fb0241400fd0f1b4a8acfc0fed9554242
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '935'
 ht-degree: 0%
 ---
 # Übersicht über die Zuordnungskonsole
@@ -67,7 +67,7 @@ Die Benutzeroberfläche der Map-Konsole ist hauptsächlich in zwei Abschnitte un
   >
   > Bei Verwendung der Adobe Experience Manager Guides as a Cloud Service wird eine zusätzliche Funktion [KI](./ai-assistant.md)Assistent) in der Navigationsleiste angezeigt.
 
-- (**B**) **Linker Bereich**: Der linke Bereich bietet schnellen Zugriff auf die Funktionen „Ausgabegenerierung“, „Berichterstellung und -verwaltung“, „Baseline“, „Bedingungsvorgaben“, „Inhaltsübersetzung“ und &quot;Workfront (nur wenn konfiguriert)“.
+- (**B**) **Linkes Bedienfeld**: Das linke Bedienfeld bietet schnellen Zugriff auf Funktionen für Ausgabegenerierung, Ausgabegeschichte, Berichterstellung und -verwaltung, Baseline, Bedingungsvorgaben, Inhaltsübersetzung und Workfront (nur wenn konfiguriert).
 
   Weitere Informationen finden Sie im folgenden Abschnitt [Funktionen der &#x200B;](#map-console-features) zuordnen“.
 
@@ -81,6 +81,14 @@ Mit der Map-Konsole können Sie effizient Ausgaben in verschiedenen Formaten gen
 
 Weitere Informationen finden Sie unter [Ausgabegenerierung](./generate-output.md).
 
+**Ausgabehistorie**
+
+Ermöglicht die Anzeige und Verwaltung von Ausgabegenerierungsaufgaben für die ausgewählte DITA-Zuordnung direkt im Editor. Sie können den Status laufender und abgeschlossener Aufgaben überwachen, Details zur Ausgabegenerierung anzeigen, auf Veröffentlichungsprotokolle zugreifen und den Verlauf der Ausgabegenerierung verwalten.
+
+Sie können auch Aufgaben zur Ausgabegenerierung basierend auf Vorgabetyp, Aufgabenstatus sowie Datum und Zeitbereich suchen und filtern und den Verlauf der Ausgabegenerierung im CSV-Format herunterladen.
+
+Weitere Informationen finden Sie unter [Prozess zur Ausgabenerstellung verwalten](./generate-output-manage-process.md#view-and-manage-output-generation-tasks-from-the-editor).
+
 **Berichterstellung und -verwaltung**
 
 In einem organisatorischen Setup sollten Sie die Vollständigkeit Ihrer technischen Dokumentation insgesamt überprüfen, bevor Sie mit der Arbeit daran beginnen oder die Dokumente live verschieben. Ein solcher Bedarf wird in Umgebungen mit mehreren Benutzern und großen Umgebungen noch wichtiger. Mit der Zuordnungskonsole erhalten Sie Zugriff auf Experience Manager Guides-Berichte, die eine nützliche insight zum Gesamtzustand der Inhalte in Ihrem Repository und zur Verwendung von Inhalten im Dokumentationsprozess geben.
@@ -88,6 +96,10 @@ In einem organisatorischen Setup sollten Sie die Vollständigkeit Ihrer technisc
 Weitere Informationen finden Sie unter [Berichte in Experience Manager Guides](./reports-intro.md).
 
 **Baseline**
+
+>[!NOTE]
+>
+> In der Map-Konsole wird entweder die **Baseline** oder die Registerkarte **Verzweigungen** angezeigt, je nachdem, ob die Verzweigung für Ihre Umgebung aktiviert ist. Verzweigungen sind in Experience Manager Guides as a Cloud Service ab Version 2026.11.0 verfügbar und standardmäßig deaktiviert. Wenden Sie sich zur Aktivierung an das Kundenerfolgs-Team von Adobe. Wenn die Verzweigung aktiviert ist, sind Baselines nicht mehr verfügbar. Weitere Informationen finden Sie unter [Verzweigung in Experience Manager Guides](./branching-overview.md) und [Erstellen und Verwalten von Verzweigungen einer DITA-Zuordnung](./create-manage-branch.md#manage-branches).
 
 Experience Manager Guides bietet die Funktion „Grundlinien“, mit der Sie eine Version Ihrer Themen und Assets erstellen können, die dann zur Veröffentlichung oder Übersetzung verwendet werden können. Sie können auch mehrere Ausgabevorgaben derselben DITA-Zuordnung parallel veröffentlichen.
 

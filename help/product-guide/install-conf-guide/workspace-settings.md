@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
 workflow-type: tm+mt
-source-wordcount: '2378'
-ht-degree: 1%
+source-wordcount: '2799'
+ht-degree: 0%
 ---
 # Workspace-Einstellungen
 
@@ -51,25 +51,21 @@ Die Option **Workspace** in der [Registerkartenleiste](../user-guide/web-editor-
 
 ## Allgemein
 
-Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren, dass der Editor verwendet wird. Diese Registerkarte enthält fünf Abschnitte: **KI-Assistent**, **Authoring**, **Zitate**, **Bedingung** und **Rechtschreibprüfung**.
+Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren, dass der Editor verwendet wird. Diese Registerkarte enthält: **KI-Funktionen**, **KI-**&#x200B;**Authoring**, **Zitate**, **Bedingung**,**HTML-Editor**, **Lerninhalte** und **Rechtschreibprüfung**.
 
 ![](assets/editor-setting-general-agentic.png){width="350"}
 
-- **KI-Assistent**
+- **KI-Funktionen**: Verwenden Sie diese Option, um die Funktion „KI-Assistent“ in Experience Manager Guides zu aktivieren. Der KI-Assistent ist in zwei Modi verfügbar: **Agent** und **Standard**. Sie können zwischen den beiden Modi wählen, indem Sie die entsprechenden Optionsfelder aktivieren.
 
   >[!NOTE]
   >
   > Wenden Sie sich an das Customer Success-Team, wenn Sie den Agentenmodus der KI-Assistentenfunktion in Ihrer Umgebung verwenden möchten.
 
-  Wählen Sie diese Option aus, um die Funktion [KI](../user-guide/ai-assistant.md)Assistent“ in der Experience Manager Guides zu aktivieren. Deaktivieren Sie diese Option, um die Funktion zu deaktivieren.
+  - **Agent**: Nach Aktivierung dieser Option können Sie über die Navigationsleiste der Experience Manager Guides-Anwendung auf den Agent-KI-Assistenten zugreifen. Sie können auch die von der Smart-Tagging-Fähigkeit verwendeten Taxonomie-Namespaces konfigurieren, um Tag-Empfehlungen zu generieren. Der KI-Assistent berücksichtigt nur Tags aus den ausgewählten Namespaces, basierend auf den in AEM definierten Tags. Detailansicht ([-Modus im KI-Assistenten](../user-guide/ai-assistant.md#ai-assistant-modes).
 
-  Der KI-Assistent ist in zwei Modi verfügbar: **Agent** und **Standard**. Sie können zwischen den beiden Modi wählen, indem Sie die entsprechenden Umschalter aktivieren.
+    ![](assets/agentic-new.png){width="350"}
 
-  - **Agent**: Nach Aktivierung dieser Option können Sie über die Navigationsleiste auf der Startseite und die Registerkartenleiste auf der Editor-Benutzeroberfläche auf die Funktion „Agent-KI-Assistent“ zugreifen. Weitere Informationen zum Generieren der von KI vorgeschlagenen Tags für Themen finden Sie unter [Verwenden des KI-Assistenten im Agentenmodus](../user-guide/ai-assistant-agentic.md).
-
-  ![](assets/agentic-ai-workspace.png){width="350"}
-
-  - **Standard**: Nachdem Sie den **Standard**-Umschalter aktiviert haben, können Sie mithilfe des Menüs **Authoring-Schnellaktionen** konfigurieren, welche Optionen auf der **Authoring-Registerkarte** für Autoren angezeigt werden.
+  - **Standard**: Nachdem Sie die Option **Standard** aktiviert haben, können Sie konfigurieren, welche Optionen im Menü **Authoring-Schnellaktionen** angezeigt werden, wie unten dargestellt.
 
     Diese Änderungen gelten für das jeweilige Ordnerprofil, mit dem Sie arbeiten. Wenn Sie ein neues Ordnerprofil erstellen, übernimmt es standardmäßig die Workspace-Einstellungen, die im Ordnerprofil **Global** definiert sind. Sie können diese Einstellungen nach Bedarf mit den **Workspace-Einstellungen ändern** die aktualisierte Konfiguration speichern.
 
@@ -82,6 +78,8 @@ Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren
   - Ändern Sie die Reihenfolge, in der die Optionen angezeigt werden, und ziehen Sie sie per Drag-and-Drop nach Bedarf.
 
   ![](assets/authoring-quick-actions-standard.png){width="350"}
+
+- **KI-**: Diese Funktion ist standardmäßig deaktiviert. Aktivieren Sie diese Funktion, um über die Konsolenschnittstellen „Startseite“, „Editor“ und „Zuordnen“ auf das Bedienfeld „Hilfe-Assistent“ zuzugreifen. Der Hilfeassistent ermöglicht es Ihnen, Fragen zu Experience Manager Guides-Funktionen, Workflows und zur Fehlerbehebung zu stellen, und bietet auf der Grundlage der Produktdokumentation relevante Antworten. Weitere Informationen finden Sie unter [Smart-Hilfe](../user-guide/ai-based-smart-help.md).
 
 - **Authoring**
 
@@ -115,7 +113,26 @@ Mit den allgemeinen Einstellungen können Sie die Einstellungen so konfigurieren
     >
     > Die AEM-Rechtschreibprüfung verwendet die in der Spracheigenschaft der Datei ausgewählte Sprache. Wenn die Sprache für die Datei nicht angegeben ist, wird die Rechtschreibprüfung auf die AEM-Serversprache zurückgesetzt.
     >Um präzise Ergebnisse der Rechtschreibprüfung sicherzustellen, muss das Wörterbuch für die ausgewählte Sprache in AEM verfügbar sein. Wenn das erforderliche Wörterbuch für die konfigurierte Sprache nicht verfügbar ist, wird für die Rechtschreibprüfung standardmäßig `en_us` festgelegt.
+- **Lerninhalte**: Mit dieser Einstellung können Sie die Funktion „Produktschulungen und Lerninhalte“ für Ihre Experience Manager Guides-Instanz aktivieren oder deaktivieren. Verwenden Sie den **Lerninhalt aktivieren**, um die Funktion auf Ordnerprofilebene zu aktivieren oder zu deaktivieren. Standardmäßig bleibt diese Funktion für alle Instanzen deaktiviert.
 
+  Weitere Informationen zur Funktion [Produktschulung und Lerninhalte](../learning-content/intro.md).
+
+  Die folgenden Funktionen/Optionen sind nur verfügbar, wenn die Einstellung Lerninhalte aktiviert ist:
+
+  - **Kurserstellung**: Ermöglicht die Erstellung und Verwaltung von Kursen im Editor und auf der Startseite.
+  - **SCORM-Vorlagen**: Aktiviert die Option zum Erstellen von SCORM *Vorlagen* Editor.
+  - **Inhaltsvorlagen und Ausgabevorgaben**: Aktiviert die Konfigurationsoptionen für Inhaltsvorlagen und Ausgabevorgaben im Dialogfeld Workspace-Einstellungen.
+
+Wenn Lerninhalte deaktiviert sind, sind alle oben genannten Optionen auf der Experience Manager Guides-Benutzeroberfläche nicht mehr verfügbar.
+
+Weitere Informationen finden Sie unter [Konfigurieren von Ordnerprofilen](../lc-config-guide/lc-folder-profile.md).
+
+- **HTML-Editor**: Mit dieser Einstellung können Sie den Editor für das HTML-basierte Authoring konfigurieren. Die wichtigsten Konfigurationsoptionen in dieser Einstellung sind:
+
+  - **Inline-Stil ausblenden**: Aktivieren Sie diese Option, um zu verhindern, dass Autoren bzw. Autorinnen eine Inline-Formatierung auf den Kursinhalt anwenden. Wenn diese Option aktiviert ist, bleiben alle Inline-Formatierungsoptionen wie Schriftarten, Rahmen, Layout, Hintergrund und Spalten im rechten Bereich des Editors für Autoren ausgeblendet. Autoren können jedoch weiterhin die globalen klassenbasierten Stiloptionen verwenden, die im Bedienfeld **Stile** verfügbar sind. Dies hilft, die Konsistenz mit den Stilrichtlinien Ihrer Organisation zu wahren.
+  - **Source-Ansicht für Autoren ausblenden**: Aktivieren Sie diese Option, um den Zugriff auf den HTML-Quell-Code zu beschränken. Dies ist nützlich, wenn Sie die Bearbeitung vereinfachen oder versehentliche Änderungen am zugrunde liegenden Code vermeiden möchten.
+
+  Weitere Informationen finden Sie unter [Erstellen und Anpassen von Lerninhalten](../learning-content/lc-overview.md).
 
 ## Bedienfelder
 
@@ -181,6 +198,12 @@ Enthält die Profile, mit denen die Ausgabe der **Wissensdatenbank** veröffentl
   - Wählen Sie die folgenden OAuth-Bereiche aus:
     - Vollständiger Zugriff (vollständig)
     - Wählen Sie Benutzerdaten über APIs verwalten (API) aus
+    - Jederzeit Anfragen ausführen (refresh_token, offline_access)
+
+    >[!NOTE]
+    >
+    >- Um Proof Key for Code Exchange (PKCE) zu verwenden, fügen Sie `Perform requests at any time` zu den Bereichen hinzu. Wenden Sie sich auch an das Customer Success-Team , um diese Funktion zu aktivieren.
+    >- Aktivieren Sie die **PKCE-Erweiterung (Proof Key for Code Exchange) für unterstützte Autorisierungsflüsse erforderlich** in der Salesforce Connected App. PKCE verhindert, dass ein abgefangener Autorisierungs-Code gegen ein Zugriffstoken ausgetauscht wird, wodurch die Verbindung zwischen Experience Manager Guides und Salesforce sicherer wird.
 
     Sobald die App konfiguriert ist, stellt Salesforce einen **Consumer Key** und **Consumer Secret** bereit. Diese können zum Erstellen des Salesforce-Profils verwendet werden.
 
@@ -234,7 +257,7 @@ Diese Registerkarte enthält Optionen zum Konfigurieren der Schematron-Validieru
 
   Dies verhindert, dass Benutzer eine Datei speichern, die gegen eine in der/den ausgewählten Schematron-Datei(en) definierte Regel verstößt. Wenn diese Option nicht ausgewählt ist, wird die Datei vor dem Speichern der Änderungen nicht validiert.
 
-- **Zulassen, dass alle Benutzer Schematron-Dateien im Validierungsbereich hinzufügen**: Wählen Sie diese Option aus, damit die Benutzer im Validierungsbereich des Editors beliebige Schematron-Dateien hinzufügen können. Auf diese Weise können Benutzer Schematron-Dateien hinzufügen und dann die Themen anhand der Schematron-Datei validieren. Wenn diese Option nicht ausgewählt ist, steht die Schaltfläche zum Hinzufügen **Schematrondatei** Schematrondatei hinzufügen“ den Benutzenden im **Validierungsbereich** des Editors nicht zur Verfügung.
+- **Zulassen, dass alle Benutzer Schematron-Dateien im Validierungsbereich hinzufügen**: Wählen Sie diese Option aus, damit die Benutzer im Validierungsbereich des Editors beliebige Schematron-Dateien hinzufügen können. Auf diese Weise können Benutzer Schematron-Dateien hinzufügen und dann die Themen anhand der Schematron-Datei validieren. Wenn diese Option nicht ausgewählt ist **steht die Schaltfläche** Schematrondatei hinzufügen“ den Benutzenden im **Validierungsbereich** des Editors nicht zur Verfügung.
 
   ![Validierung in Workspace-Einstellungen](../user-guide/images/editor-setting-validation.png){width="550"}
 

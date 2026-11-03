@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3665'
 ht-degree: 1%
 ---
 # Einstellungen für die Ausgabegenerierung konfigurieren {#id181AI0B0E30}
@@ -423,7 +423,12 @@ Wenn Sie eine Ausgabe generieren, wird die Ausgabe zusammen mit den Ausgabeproto
 
 `/var/dxml/metadata/outputHistory`
 
-Über einen bestimmten Zeitraum hinweg konnte die Gesamtgröße aller Protokolldateien GB erreichen. Mit AEM Guides können Sie einen Zeitraum konfigurieren, während dessen diese Protokolldateien im Repository gespeichert werden. Nach dem angegebenen Zeitraum werden die Protokolle zusammen mit dem Verlauf der Ausgabegenerierung aus dem Repository gelöscht.
+Über einen bestimmten Zeitraum hinweg konnte die Gesamtgröße aller Protokolldateien GB erreichen. Mit AEM Guides können Sie steuern, wie lange die Protokolle und der Verlauf der Ausgabegenerierung im Repository aufbewahrt werden. Sie können den Ausgabehistorie auf eine der folgenden Arten beibehalten:
+
+- **Nach Alter (Standard):** Einträge, die älter sind als die angegebene Anzahl von Tagen, werden bereinigt.
+- **Nach Anzahl** Nur die zuletzt angegebene Anzahl von Einträgen wird für jede Zuordnung und Vorgabe beibehalten. Ältere Einträge werden unabhängig von ihrem Alter gelöscht.
+
+Sie können auch festlegen, ob bei der Bereinigung der gesamte Ausgabehistorieneintrag zusammen mit dem zugehörigen Protokoll entfernt wird oder nur das Protokoll. Wenn Sie den Eintrag ohne Protokoll belassen, können Sie die generierten Ausgaben zu Prüfungszwecken aufzeichnen und gleichzeitig die Repository-Größe reduzieren.
 
 >[!NOTE]
 >
@@ -431,11 +436,15 @@ Wenn Sie eine Ausgabe generieren, wird die Ausgabe zusammen mit den Ausgabeproto
 
 Die Konfiguration der Verlaufsbereinigung wirkt sich auf die Ausgabegenerierung für alle DITA-Zuordnungen im Repository aus. Auf der Registerkarte Ausgaben einer DITA-Zuordnung wird der Verlauf nach der angegebenen Anzahl von Tagen und zu dem in der Einstellung angegebenen Zeitpunkt gelöscht.
 
+
+
 >[!NOTE]
 >
 > Das Entfernen der Protokolldateien und des Verlaufs der Ausgabegenerierung hat keine Auswirkungen auf die generierte Ausgabe.
 
-Die folgenden Registerkarten enthalten Anweisungen zum Festlegen eines Tages und einer Uhrzeit für die Bereinigung des Ausgabehistoriums und der Protokolle basierend auf Ihrem Experience Manager Guides-Setup: Cloud Service oder On-Premise.
+Die folgenden Registerkarten enthalten Anweisungen zum Konfigurieren des Ausgabeverlaufs und der Protokolle basierend auf Ihrer Experience Manager Guides-Einrichtung: Cloud Service oder On-Premise.
+
+![](assets/purging-history-setting.png){width="600"}
 
 >[!BEGINTABS]
 
@@ -445,8 +454,11 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 | PID | Eigenschaftsschlüssel | Eigenschaftswert |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | Geben Sie die Anzahl der Tage an, nach denen der Ausgabeverlauf zusammen mit den Ausgabeprotokollen bereinigt wird. Wenn Sie diese Funktion deaktivieren möchten, setzen Sie diese Eigenschaft auf 0. Täglich zum angegebenen Zeitpunkt, an dem der Bereinigungsvorgang für Ausgaben ausgeführt wird, die vor der in dieser Eigenschaft angegebenen Anzahl von Tagen generiert wurden. | **Standardwert**: 5 |
-| `output.history.purgetime` | Geben Sie den Zeitpunkt an, zu dem der Bereinigungsvorgang gestartet wird. | **Standardwert**: 0:00 \(oder 12:00 Uhr Mitternacht\) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Geben Sie die Anzahl der Tage an, nach denen der Ausgabeverlauf zusammen mit den Ausgabeprotokollen bereinigt wird. Wenn Sie diese Funktion deaktivieren möchten, setzen Sie diese Eigenschaft auf 0. Täglich zum angegebenen Zeitpunkt wird der Bereinigungsvorgang für Ausgaben ausgeführt, die vor der in dieser Eigenschaft angegebenen Anzahl von Tagen generiert wurden. Diese Eigenschaft wird nur verwendet, wenn `output.history.retention.mode` `AGE` ist. **Standardwert**: `5` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgetime` | Geben Sie den Zeitpunkt an, zu dem der Bereinigungsvorgang gestartet wird. Format: `HH:MM` (z. B. `15:30`) **Standardwert**: `0:00` (oder 12:00 Uhr Mitternacht) |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.mode` | Geben Sie die Aufbewahrungsstrategie für den Ausgabedarstellungsverlauf an. Mögliche Werte sind `AGE` und `COUNT`. **Standardwert**: `AGE` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.count` | Geben Sie die Anzahl der zuletzt verwendeten Einträge im Ausgabegeschichte an, die für jede Zuordnung und Vorgabe beibehalten werden sollen. Geben Sie eine positive Ganzzahl ein. Diese Eigenschaft wird nur verwendet, wenn `output.history.retention.mode` `COUNT` ist. **Standardwert**: `25` |
+| `com.adobe.fmdita.config.ConfigManager` | `output.history.retention.action` | Geben Sie an, was mit den Ausgabeverlaufseinträgen geschieht, die durch Beibehaltung in beiden Modi entfernt werden. Mögliche Werte sind `DELETE_ENTRY` und `LOGS_ONLY`. **Standardwert**: `DELETE_ENTRY` |
 
 >[!TAB On-Premise]
 
@@ -460,13 +472,19 @@ Verwenden Sie die Anweisungen unter [Konfigurationsüberschreibungen](download-i
 
 1. Suchen Sie nach dem Bundle **com.adobe.fmdita.config.ConfigManager** und klicken Sie darauf.
 
-1. Geben **in der Eigenschaft &quot;** des Ausgabehistorie-Löschzeitraums“ die Anzahl der Tage an, nach denen der Ausgabehistorie zusammen mit den Ausgabeprotokollen bereinigt wird. Standardmäßig ist dieser Zeitraum auf 5 Tage festgelegt. Wenn Sie diese Funktion deaktivieren möchten, setzen Sie diese Eigenschaft auf 0.
+1. Geben **in der Eigenschaft &quot;** des Ausgabehistorie-Löschzeitraums“ die Anzahl der Tage an, nach denen der Ausgabehistorie zusammen mit den Ausgabeprotokollen bereinigt wird. Standardmäßig ist dieser Zeitraum auf 5 Tage festgelegt. Wenn Sie diese Funktion deaktivieren möchten, setzen Sie diese Eigenschaft auf 0. Diese Eigenschaft wird nur verwendet **wenn „Aufbewahrungsmodus des Ausgabehistoriums** auf &quot;**&quot;**.
 
-1. Geben **in der Eigenschaft** Ausgabeverlauf: Bereinigungszeit“ den Zeitpunkt an, zu dem der Bereinigungsvorgang gestartet wird. Standardmäßig ist dies auf 0:00 \(oder 12:00 Uhr Mitternacht\) festgelegt. Zu dieser Zeit wird täglich der Bereinigungsvorgang für Ausgaben ausgeführt, die vor der in der Eigenschaft &quot;**des Ausgabeverlaufs: Bereinigungszeitraum“ angegebenen Anzahl** Tagen generiert wurden.
+1. Geben **in der Eigenschaft** Ausgabeverlauf: Bereinigungszeit“ den Zeitpunkt an, zu dem der Bereinigungsvorgang gestartet wird. Standardmäßig ist dies auf 0:00 (oder 12:00 Uhr Mitternacht) festgelegt. Zu dieser Zeit wird täglich der Bereinigungsvorgang für Ausgaben ausgeführt, die vor der in der Eigenschaft &quot;**des Ausgabeverlaufs: Bereinigungszeitraum“ angegebenen Anzahl** Tagen generiert wurden.
 
    >[!NOTE]
    >
-   > Standardmäßig wird die Bereinigungsfunktion bei Ausgaben, die älter als 5 Tage sind, jeden Mitternacht ausgeführt.
+   >Standardmäßig wird die Bereinigungsfunktion bei Ausgaben, die älter als 5 Tage sind, jeden Mitternacht ausgeführt.
+
+1. Wählen Sie aus **Dropdown-Liste** Ausgabehistorie-Aufbewahrungsmodus) die Aufbewahrungsstrategie aus. Standardmäßig ist dies auf &quot;**&quot;**. Die beiden Modi schließen sich gegenseitig aus.
+
+1. Geben **in der Eigenschaft „(pro Voreinstellung)“ die** der letzten Einträge im Ausgabeverlauf an, die für jede Zuordnung und Voreinstellung beibehalten werden sollen. Standardmäßig ist dieser auf 25 festgelegt. Diese Eigenschaft wird nur verwendet, wenn **Ausgabeverlaufs-Aufbewahrungsmodus** auf &quot;**&quot;** ist.
+
+1. Wählen Sie aus **Dropdown-Liste** Ausgabe-Verlaufsaufbewahrungsaktion“ aus, was mit den Einträgen geschieht, die durch die Aufbewahrung entfernt werden. Standardmäßig ist dies auf **DELETE_ENTRY** festgelegt.
 
 1. Klicken Sie auf **Speichern**.
 

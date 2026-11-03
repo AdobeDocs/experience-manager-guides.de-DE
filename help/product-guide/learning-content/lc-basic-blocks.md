@@ -16,13 +16,11 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: ffb697b53a663370621af1a3a484de9c3218881f
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 # Hinzufügen grundlegender Bausteine zu einem Thema
 
 Um ein klareres Verständnis dafür zu vermitteln, wie Sie ein Lernthema erstellen und ihm grundlegende Bausteine hinzufügen, bietet das folgende Video einen kurzen Überblick über die verfügbaren Funktionen.
@@ -59,6 +57,10 @@ Sie können die in der Editor-Symbolleiste verfügbaren grundlegenden Bearbeitun
 
 - **Bild**: Fügen Sie Bilder zusammen mit Alternativtext und einer QuickInfo in den Inhalt ein. Bilder können aus dem Repository oder über eine externe URL hinzugefügt werden. Darüber hinaus können Bildeigenschaften mithilfe des Bedienfelds **Inhaltseigenschaften** geändert werden.
 
+  >[!NOTE]
+  >
+  > Das AVIF-Bildformat wird ebenfalls unterstützt. Sie können eine Datei in diesem Format in das Repository hochladen oder sie beim Einfügen eines Bildes in Ihren Inhalt auswählen. Dies funktioniert nur für die SCORM-Ausgabe.
+
   ![](assets/image-learning-content.png){width="650"}
 
 - **Multimedia**: Fügt Video und Audio zum Inhalt hinzu. Sie können ihre Eigenschaften mithilfe des Bedienfelds **Inhaltseigenschaften** anpassen.
@@ -67,14 +69,14 @@ Sie können die in der Editor-Symbolleiste verfügbaren grundlegenden Bearbeitun
 
 - **Wiederverwendbarer Inhalt**: Ermöglicht die Integration vorhandener Inhalte aus Ihren Assets oder dem Repository zur Wiederverwendbarkeit. Führen Sie die folgenden Schritte aus, um einen wiederverwendbaren Inhalt einzufügen:
 
-   1. Wählen Sie **Wiederverwendbarer Inhalt** in der Symbolleiste aus.
-Das **Wiederverwenden von Inhalten** wird geöffnet.
-   2. Navigieren Sie zum gewünschten Thema und wählen Sie es aus, um seinen Inhalt in den aktuellen Kurs aufzunehmen.
-   3. Wählen Sie die ID des Inhalts aus, den Sie hinzufügen möchten. Daraufhin wird eine Vorschau angezeigt.
+  1. Wählen Sie **Wiederverwendbarer Inhalt** in der Symbolleiste aus.
+     Das **Wiederverwenden von Inhalten** wird geöffnet.
+  2. Navigieren Sie zum gewünschten Thema und wählen Sie es aus, um seinen Inhalt in den aktuellen Kurs aufzunehmen.
+  3. Wählen Sie die ID des Inhalts aus, den Sie hinzufügen möchten. Daraufhin wird eine Vorschau angezeigt.
 
-      ![](assets/reuse-content-dialog.png){width="650"}
+     ![](assets/reuse-content-dialog.png){width="650"}
 
-   4. Wählen Sie **Auswählen** aus.
+  4. Wählen Sie **Auswählen** aus.
 
   Der Inhalt wird eingefügt. Beispielsweise ist der Abschnitt Fahrzeugstruktur ein Inhaltselement, das wiederverwendet und zum Thema des Kurses hinzugefügt wird. Der Typ wird als **Referenz** angezeigt und seine **ID** wird im Bedienfeld **Inhaltseigenschaften** angezeigt.
 

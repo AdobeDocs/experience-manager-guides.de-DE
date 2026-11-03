@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '11296'
+source-wordcount: '11329'
 ht-degree: 0%
 ---
 # Linkes Bedienfeld im Editor
@@ -859,7 +859,8 @@ Beispielsweise können Sie Bedingungsgruppen von Produkten wie *Acrobat* und *AE
 
 >[!NOTE]
 >
-> Geben Sie entweder ein, um eine neue Gruppe zu erstellen, oder wählen Sie eine vorhandene Gruppe für ein bestimmtes Attribut aus.
+> - Geben Sie entweder ein, um eine neue Gruppe zu erstellen, oder wählen Sie eine vorhandene Gruppe für ein bestimmtes Attribut aus.
+> - Bedingungen im Bedienfeld Bedingungen werden alphabetisch nach ihrer Beschriftung und nicht nach ihrem Wert sortiert. Die Sortierreihenfolge wird durch die den Bedingungen zugewiesenen Kennzeichnungen unabhängig von ihren entsprechenden Werten bestimmt.
 
 Sie können `/` verwenden und Untergruppen wie `AEM Guides/Cloud Service` definieren.
 

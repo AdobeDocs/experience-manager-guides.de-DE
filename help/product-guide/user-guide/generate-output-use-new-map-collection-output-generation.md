@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1589'
 ht-degree: 0%
 ---
 # Neue Zuordnungssammlung für die Ausgabegenerierung verwenden
@@ -101,7 +101,8 @@ Sie erhalten eine Liste aller gewünschten Zuordnungen mit dem Zuordnungstitel, 
 
 >[!NOTE]
 >
-> Wenn einer Zuordnungssammlung eine große Anzahl von Zuordnungen hinzugefügt wird, werden auf den Registerkarten Zuordnungen und Vorgaben maximal vier Zuordnungen gleichzeitig zusammen mit den zugehörigen Vorgaben angezeigt. Am unteren Bildschirmrand wird eine paginierte Ansicht angezeigt, mit der Benutzende zwischen Seiten navigieren und auf zusätzliche Karten und Voreinstellungen zugreifen können. Wenn Sie eine Zuordnung oder Vorgabe auswählen, wird die Auswahl beim Navigieren durch die verbleibenden Zuordnungen und Vorgaben auf verschiedenen Seiten beibehalten.
+>- Wenn eine Sammlung viele Zuordnungen enthält, werden auf der Registerkarte Zuordnungen und Vorgaben maximal vier Zuordnungen zusammen mit den entsprechenden Vorgaben angezeigt. Die übersetzten Kopien einer Karte werden als separate Einträge aufgelistet und sind in dieser Zählung enthalten, sodass die Karten und ihre Übersetzungen über mehrere Seiten verteilt werden können. Verwenden Sie die Steuerelemente für die Paginierung am unteren Bildschirmrand, um zwischen Seiten zu wechseln. Ihre Auswahl wird beim Navigieren beibehalten.
+>- Die Sortierung gilt nur für die auf der aktuellen Seite angezeigten Ergebnisse. Die vollständige Sammlung wird nicht seitenübergreifend neu angeordnet. Verwenden Sie die unter Filteroptionen beschriebenen Filter, um spezifische Zuordnungen für die gesamte Sammlung zu finden.
 
 ![Registerkarten „Zuordnungen“ und „Voreinstellungen“](./images/maps-presets-tab.png)
 
@@ -109,8 +110,8 @@ Die **Karten und Vorgaben** enthält Informationen auf der Grundlage der ausgew�
 
 - **Voreinstellung**: Zeigt den für die Zuordnungsdatei konfigurierten Vorgabetyp der Ausgabe an.
 - **Baseline**: Zeigt die Baseline an, die von der Ausgabevorgabe verwendet wird.  Wenn keine Grundlinie verwendet wird, wird ein `-` angezeigt.
-- **Geändert seit Generierung**: Gibt an, ob die DITA-Zuordnung nach der Generierung aktualisiert wird. Basierend auf diesen Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung veröffentlichen möchten oder nicht.
-- **Geändert seit veröffentlicht**: Gibt an, ob die DITA-Zuordnung nach der letzten Veröffentlichung aktualisiert wird. Basierend auf diesen Informationen können Sie entscheiden, ob Sie die Ausgabe für diese DITA-Zuordnung erneut veröffentlichen möchten oder nicht.
+- **Geändert seit Generierung**: Gibt an, dass sich die Zuordnung möglicherweise geändert hat, seit die Ausgabe zuletzt für diese Voreinstellung generiert wurde. Sie können dies verwenden, um zu entscheiden, ob die Ausgabe neu generiert werden soll.
+- **Geändert seit veröffentlicht**: Gibt an, dass die Zuordnung seit der letzten Veröffentlichung der Ausgabe aktualisiert wurde. Sie können dies verwenden, um zu entscheiden, ob die Ausgabe erneut veröffentlicht werden soll.
 - **Zuletzt generiert**: Zeigt Datum und Uhrzeit der letzten generierten Ausgabe an.
 - **Zuletzt veröffentlicht**: Zeigt Datum und Uhrzeit der letzten veröffentlichten Ausgabe an.
 

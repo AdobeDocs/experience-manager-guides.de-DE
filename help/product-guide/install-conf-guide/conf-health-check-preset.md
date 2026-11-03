@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '434'
 ht-degree: 0%
 ---
 # Erstellen und Verwalten von Vorgaben für Konsistenzprüfungen
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 Als Admin können Sie die Konsistenzprüfungsfunktion auf Ordnerprofilebene in Experience Manager konfigurieren, sodass Autoren und Herausgeber Konsistenzprüfungen auf einer DITA-Zuordnung ausführen können. Dazu gehört die Früherkennung von Problemen wie fehlerhaften Links, doppelten IDs und Schematron-Validierungsfehlern in einer Zuordnung vor der Veröffentlichung, anstatt jede Datei einzeln zu überprüfen. Welche Prüfungen ausgeführt werden, wird durch eine Konsistenzprüfungsvorgabe definiert, einen Regelsatz, den Autoren und Herausgeber auswählen und ausführen können.
 
-Dieser Artikel enthält Informationen zum Erstellen und Verwalten von Vorgaben für Konsistenzprüfungen.
+Die Funktion für die Konsistenzprüfung ist sowohl im neuen als auch im alten Editor verfügbar.
 
 ## Erstellen einer Vorgabe für die Konsistenzprüfung
 

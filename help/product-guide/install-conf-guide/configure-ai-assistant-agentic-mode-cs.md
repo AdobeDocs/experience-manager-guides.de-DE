@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: f936d474c6efcea89b244ccd25e03b065a478250
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '437'
 ht-degree: 2%
 ---
 
@@ -74,4 +74,4 @@ Führen Sie die folgenden Schritte aus, um die IMS-Konfiguration zur Umgebung hi
 
 Nachdem die Konfiguration für Ihre Umgebung abgeschlossen ist, wenden Sie sich an das Customer Success-Team , um den Agentenmodus zu aktivieren.
 
-Navigieren Sie bei für Ihre Umgebung aktiviertem Agentenmodus zu **Workspace-Einstellungen** und aktivieren Sie den Umschalter **Agent** auf der Registerkarte **Allgemein** im Abschnitt **KI-Assistent**.
+Navigieren Sie bei für Ihre Umgebung aktiviertem Agentenmodus zu **Workspace** und aktivieren Sie die Option **Agent** auf der Registerkarte **Allgemein** im Abschnitt **KI-Funktionen**. Weitere Informationen finden Sie unter [Workspace-Einstellungen](../install-conf-guide/workspace-settings.md).

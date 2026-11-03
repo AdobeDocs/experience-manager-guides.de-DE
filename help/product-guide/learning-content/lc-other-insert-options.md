@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2fcdb485f7527b5ffdfe1d42ed3d9bbdd576ce7a
+source-git-commit: ab188ec25b60920cf4055bc21e21634a811bb20a
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # Andere Optionen im Menü Einfügen
@@ -59,7 +59,8 @@ Zu den weiteren Optionen, die im Menü Einfügen in der Editor-Symbolleiste verf
 
   >[!NOTE]
   >
-  > Das Bearbeiten oder Erstellen von H5P-Inhalten wird in Adobe Experience Manager Guides nicht unterstützt. Bereiten Sie das H5P-Paket extern vor dem Hochladen vor.
+  > - Das Bearbeiten oder Erstellen von H5P-Inhalten wird in Adobe Experience Manager Guides nicht unterstützt. Bereiten Sie das H5P-Paket extern vor dem Hochladen vor.
+  > - Kurse, die mehrere H5P-Dateien enthalten, verwenden gemeinsame Ressourcen, anstatt sie für jede Datei zu duplizieren. Dies reduziert die Paketgröße und führt zu einer schnelleren Kurserstellung und -veröffentlichung für H5P-intensive Kurse.
 
   ![](assets/h5p-fullscreen.png)
 
