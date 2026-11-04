@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c578f56f0aa976ea4421e4317e4c86dedfc5a700
+source-git-commit: c6381f6d58f64bed575966423685b63971834d66
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 7%
 ---
 # Dokumentation zu Experience Manager Guides
@@ -186,11 +186,11 @@ Ordnerprofile, DITA-OT-Anpassung und Ausgabevorlagen.
 
 Erfahren Sie mehr über die neuen und erweiterten Funktionen der neuesten Version von Experience Manager Guides.
 
-- KI-gestütztes Smart-Tagging im KI-Assistenten
-- Thema als „Erledigt“ in einer Prüfungsaufgabe markieren
-- Verbesserungen an Lerninhalten
+- Verzweigung auf Zuordnungsebene und Zusammenführung
+- Inhaltserstellung und -import im KI-Assistenten
+- Neues Hilfeassistenten-Panel
 
-[Alle erkunden](../../help/product-guide/release-info/whats-new-2026-09-0.md)
+[Alle erkunden](../../help/product-guide/release-info/whats-new-2026-11-0.md)
 
 </td>
 <td>
@@ -215,10 +215,10 @@ Erkunden Sie die neuesten Versionshinweise und Produktaktualisierungen für Clou
 
 Greifen Sie auf hilfreiche Ressourcen, Dokumentation und Support zu, um die Plattform optimal zu nutzen.
 
-* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
-* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
-* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=de){target="_blank"}
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
