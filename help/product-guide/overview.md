@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3c8ea4a0644121e4eb87877aeb6f9140fc365cc1
+source-git-commit: 30cc2448fbc386901ec2a71f4d226ca3b01d905e
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 6%
@@ -184,7 +184,7 @@ Konfigurieren Sie Profile, Vorlagen, bedingte Attribute, Ausgabevorgaben und Edi
 
 **Neue Funktionen in AEM Guides**
 
-Erfahren Sie mehr über die neuen und erweiterten Funktionen der neuesten Version von Experience Manager Guides.
+Erfahren Sie mehr über die neuen und erweiterten Funktionen der neuesten Experience Manager Guides-Version 2026.11.0.
 
 - Verzweigung auf Zuordnungsebene und Zusammenführung
 - Inhaltserstellung und -import im KI-Assistenten
@@ -215,10 +215,10 @@ Erkunden Sie die neuesten Versionshinweise und Produktaktualisierungen für Clou
 
 Greifen Sie auf hilfreiche Ressourcen, Dokumentation und Support zu, um die Plattform optimal zu nutzen.
 
-* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
-* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
-* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=de){target="_blank"}
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
