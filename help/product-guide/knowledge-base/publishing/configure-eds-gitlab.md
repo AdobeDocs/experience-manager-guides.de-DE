@@ -67,18 +67,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 Erstellen Sie die Zugriffstoken, die für Folgendes erforderlich sind:
 
-- **Cloud Manager**, um das Repository zu validieren und darauf zuzugreifen. Weitere Informationen finden Sie unter [Hinzufügen externer Repositorys in Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+- **Cloud Manager**, um das Repository zu validieren und darauf zuzugreifen. Weitere Informationen finden Sie unter [Hinzufügen externer Repositorys in Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 - **Experience Manager Guides-Veröffentlichungsprofil**, um die veröffentlichte Ausgabe zu übertragen. Erstellen Sie ein GitLab-Projekt-Zugriffstoken mit der Rolle **Entwickler** und dem `api`. Weitere Informationen finden Sie in der [GitLab-Dokumentation](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html).
 
 >[!NOTE]
 >
-> Verlängern Sie Token, bevor sie ablaufen. Die Veröffentlichung schlägt fehl, wenn das Token im Veröffentlichungsprofil abgelaufen ist. Um ein von Cloud Manager verwendetes Token zu aktualisieren, lesen Sie [Zugriffstoken für externe Repositorys verwalten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
+> Verlängern Sie Token, bevor sie ablaufen. Die Veröffentlichung schlägt fehl, wenn das Token im Veröffentlichungsprofil abgelaufen ist. Um ein von Cloud Manager verwendetes Token zu aktualisieren, lesen Sie [Zugriffstoken für externe Repositorys verwalten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
 
 ### &#x200B;5. Hinzufügen des GitLab-Repositorys zu Cloud Manager
 
 Gehen Sie in Cloud Manager zu **Repositorys** > **Repository hinzufügen**, wählen Sie **Privates Repository** aus und überprüfen Sie die Eigentümerschaft mithilfe des Zugriffstokens. Warten Sie, bis der Repository-Status **Bereit** ist. Die BYOG-Option ist erst verfügbar, wenn mindestens ein externes Repository bereit ist.
 
-Anweisungen hierzu finden Sie unter [Hinzufügen externer Repositorys in Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+Anweisungen hierzu finden Sie unter [Hinzufügen externer Repositorys in Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 
 ### &#x200B;6. Generieren eines Cloud Manager-API-Schlüssels
 
