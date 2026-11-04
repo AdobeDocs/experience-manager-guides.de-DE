@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie GitLab-Repositorys, Zugriffstoken, Cloud Mana
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e5721ff1d6e2322213ac7bc988fb1d7e721cd148
+source-git-commit: 97620587a9e736e0886ea4d7158af330814e6392
 workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Um Inhalte mithilfe von GitLab von Experience Manager Guides in Edge Delivery Se
 
 ## Konfigurationssequenz
 
-1. [Erstellen der EDS-Site mit GitHub](#1-create-the-eds-site-using-github)
+1. [Erstellen der EDS-Site mit GitHub](#1-create-the-eds-site-using-github-create-eds-site)
 2. [Erstellen des GitLab-Repositorys](#2-create-the-gitlab-repository)
 3. [Konfigurieren der Bereitstellungspunkt-URL](#3-configure-the-mountpoint-url)
 4. [Erstellen von GitLab-Zugriffstoken](#4-create-gitlab-access-tokens)
@@ -42,7 +42,7 @@ Um Inhalte mithilfe von GitLab von Experience Manager Guides in Edge Delivery Se
 11. [Synchronisieren und überprüfen](#11-sync-and-verify)
 12. [Aus Experience Manager Guides veröffentlichen](#12-publish-from-experience-manager-guides)
 
-### &#x200B;1. Erstellen der EDS-Site mit GitHub
+### &#x200B;1. Erstellen der EDS-Site mit GitHub {#create-eds-site}
 
 Erstellen Sie ein GitHub-Repository aus dem AEM Guides-Textbaustein und installieren Sie die AEM Code Sync -App darauf. Speichern Sie die generierte **Live-URL** (`https://<branch>--<github-repo>--<github-username>.aem.live`) für später.
 
@@ -78,18 +78,18 @@ https://<worker URL>/gitlab/<git acc domain>/<git username>/<git repo>/main/docs
 
 Erstellen Sie die Zugriffstoken, die für Folgendes erforderlich sind:
 
-- **Cloud Manager**, um das Repository zu validieren und darauf zuzugreifen. Weitere Informationen finden Sie unter [Hinzufügen externer Repositorys in Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+- **Cloud Manager**, um das Repository zu validieren und darauf zuzugreifen. Weitere Informationen finden Sie unter [Hinzufügen externer Repositorys in Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 - **Experience Manager Guides-Veröffentlichungsprofil**, um die veröffentlichte Ausgabe zu übertragen. Erstellen Sie ein GitLab-Projekt-Zugriffstoken mit der Rolle **Entwickler** und dem `api`. Weitere Informationen finden Sie in der [GitLab-Dokumentation](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html).
 
 >[!NOTE]
 >
-> Verlängern Sie Token, bevor sie ablaufen. Die Veröffentlichung schlägt fehl, wenn das Token im Veröffentlichungsprofil abgelaufen ist. Um ein von Cloud Manager verwendetes Token zu aktualisieren, lesen Sie [Zugriffstoken für externe Repositorys verwalten](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
+> Verlängern Sie Token, bevor sie ablaufen. Die Veröffentlichung schlägt fehl, wenn das Token im Veröffentlichungsprofil abgelaufen ist. Um ein von Cloud Manager verwendetes Token zu aktualisieren, lesen Sie [Zugriffstoken für externe Repositorys verwalten](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/manage-access-tokens).
 
 ### &#x200B;5. Hinzufügen des GitLab-Repositorys zu Cloud Manager
 
 Gehen Sie in Cloud Manager zu **Repositorys** > **Repository hinzufügen**, wählen Sie **Privates Repository** aus und überprüfen Sie die Eigentümerschaft mithilfe des Zugriffstokens. Warten Sie, bis der Repository-Status **Bereit** ist. Die BYOG-Option ist erst verfügbar, wenn mindestens ein externes Repository bereit ist.
 
-Anweisungen hierzu finden Sie unter [Hinzufügen externer Repositorys in Cloud Manager](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
+Anweisungen hierzu finden Sie unter [Hinzufügen externer Repositorys in Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/managing-code/external-repositories).
 
 ### &#x200B;6. Generieren eines Cloud Manager-API-Schlüssels
 
