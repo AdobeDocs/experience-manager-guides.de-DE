@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: c6381f6d58f64bed575966423685b63971834d66
+source-git-commit: 3c8ea4a0644121e4eb87877aeb6f9140fc365cc1
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 7%
+source-wordcount: '349'
+ht-degree: 6%
 ---
 # Dokumentation zu Experience Manager Guides
 
@@ -114,7 +114,7 @@ Design DITA specializations, schemas, and content architecture for your implemen
 
 Authoring
 
-Web-Editor, FrameMaker-Integration, wiederverwendbare Inhalte und Überprüfungszyklen.
+Erstellen und bearbeiten Sie strukturierte Inhalte mit dem Editor und den DITA-Authoring-Funktionen.
 
 [Erstellen von Inhalten](./user-guide/web-editor.md)
 :::
@@ -124,7 +124,7 @@ Web-Editor, FrameMaker-Integration, wiederverwendbare Inhalte und Überprüfungs
 
 Überprüfung
 
-Themen überprüfen, Prüfungsaufgaben verwalten und Benachrichtigungen überprüfen.
+Erstellen und verwalten Sie Prüfungsaufgaben, arbeiten Sie mit Feedback zusammen und sprechen Sie Prüfungskommentare an.
 
 [Einführung in die Überprüfung](./user-guide/review.md)
 :::
@@ -134,7 +134,7 @@ Themen überprüfen, Prüfungsaufgaben verwalten und Benachrichtigungen überpr�
 
 Publishing
 
-Ausgabetypen von PDF, AEM Sites, HTML5, EPUB und JSON.
+Konfigurieren und generieren Sie Ausgaben für AEM Sites, PDF, HTML5, EPUB, JSON und andere Formate.
 
 [Veröffentlichen von Inhalten](./user-guide/generate-output.md)
 :::
@@ -144,7 +144,7 @@ Ausgabetypen von PDF, AEM Sites, HTML5, EPUB und JSON.
 
 Übersetzung
 
-Workflows für menschliche und maschinelle Übersetzung mehrsprachiger Inhalte.
+Übersetzen Sie Inhalte mithilfe von Workflows für menschliche oder maschinelle Übersetzungen und verfolgen Sie den Übersetzungsstatus.
 
 [Inhalte übersetzen](./user-guide/translation.md)
 :::
@@ -154,7 +154,7 @@ Workflows für menschliche und maschinelle Übersetzung mehrsprachiger Inhalte.
 
 Berichte
 
-Themenliste, Multimedia, fehlerhafte Links und Metadatenberichte.
+Bewertung des Inhaltszustands, Verwaltung von Metadaten, Identifizierung fehlerhafter Links und Analyse der Wiederverwendung von Inhalten.
 
 [Erzeugen von Berichten](./user-guide/reports-intro.md)
 :::
@@ -164,7 +164,7 @@ Themenliste, Multimedia, fehlerhafte Links und Metadatenberichte.
 
 Konfiguration
 
-Ordnerprofile, DITA-OT-Anpassung und Ausgabevorlagen.
+Konfigurieren Sie Profile, Vorlagen, bedingte Attribute, Ausgabevorgaben und Editor-Einstellungen.
 
 [Ordnerprofile konfigurieren](./install-conf-guide/conf-profiles.md)
 :::
@@ -172,7 +172,7 @@ Ordnerprofile, DITA-OT-Anpassung und Ausgabevorlagen.
 ::::
 
 
-## Schnell-Links
+## Ressourcen und Aktualisierungen
 
 >[!BEGINSHADEBOX]
 
@@ -215,10 +215,10 @@ Erkunden Sie die neuesten Versionshinweise und Produktaktualisierungen für Clou
 
 Greifen Sie auf hilfreiche Ressourcen, Dokumentation und Support zu, um die Plattform optimal zu nutzen.
 
-* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
-* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
-* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=de){target="_blank"}
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
