@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: b3c2c68321080aa4dde16befe4bfd0022bf9f61c
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -86,13 +86,12 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu starten:
 
 1. Melden Sie sich bei Experience Manager Guides an.
 1. Wählen Sie auf der Startseite **KI-Assistent** aus. Stellen Sie sicher, dass Ihr Administrator die Funktion KI-Assistent im gewünschten Modus aktiviert hat.
-
 Der KI-Assistent zeigt die wichtigsten Funktionen, den Link zu Benutzerrichtlinien und eine Schaltfläche **Erste Schritte** an.
-Lesen Sie die Benutzerrichtlinien sorgfältig durch und wählen Sie dann **Erste Schritte** aus, um den KI-Assistenten zu starten.
+1. Lesen Sie die Benutzerrichtlinien sorgfältig durch und wählen Sie dann **Erste Schritte** aus, um den KI-Assistenten zu starten.
 
 >[!NOTE]
 >
->Wenn Sie den Richtlinien für die Verwendung der Hilfe-Assistant-Funktion bereits zugestimmt haben, werden Sie nicht erneut zur Einwilligung aufgefordert und können die KI-Assistant-Funktion weiterhin verwenden.
+>Wenn Sie den Richtlinien für die Verwendung der Hilfe-Assistentenfunktion bereits zugestimmt haben, werden Sie nicht erneut zur Einwilligung aufgefordert und können die KI-Assistentenfunktion weiterhin verwenden.
 
 **Verwandte Themen**
 
