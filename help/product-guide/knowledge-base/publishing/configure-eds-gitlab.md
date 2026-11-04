@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie GitLab-Repositorys, Zugriffstoken, Cloud Mana
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e5721ff1d6e2322213ac7bc988fb1d7e721cd148
+source-git-commit: 380089cbcfc56b23a9cb494d49c0e39e1813eabd
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1217'
 ht-degree: 3%
 ---
 
@@ -27,20 +27,9 @@ Um Inhalte mithilfe von GitLab von Experience Manager Guides in Edge Delivery Se
 - Systemadministrator oder API-Entwicklerrolle in Ihrem Adobe-Unternehmen, um die Cloud Manager-API-Integration zu erstellen.
 - Eine im Konfigurations-Service registrierte `aem.live`. Weitere Informationen finden Sie unter [Einrichten des Konfigurationsdienstes](https://www.aem.live/docs/config-service-setup).
 
-## Konfigurationssequenz
+## Konfigurieren von GitLab für Edge Delivery Services
 
-1. [Erstellen der EDS-Site mit GitHub](#1-create-the-eds-site-using-github)
-2. [Erstellen des GitLab-Repositorys](#2-create-the-gitlab-repository)
-3. [Konfigurieren der Bereitstellungspunkt-URL](#3-configure-the-mountpoint-url)
-4. [Erstellen von GitLab-Zugriffstoken](#4-create-gitlab-access-tokens)
-5. [Hinzufügen des GitLab-Repositorys zu Cloud Manager](#5-add-the-gitlab-repository-to-cloud-manager)
-6. [Generieren eines Cloud Manager-API-Schlüssels](#6-generate-a-cloud-manager-api-key)
-7. [Konfigurieren des GitLab-Webhooks](#7-configure-the-gitlab-webhook)
-8. [Hinzufügen der EDS-Site zu Cloud Manager](#8-add-the-eds-site-to-cloud-manager)
-9. [Verbinden Sie das Repository mit Bring Your Own Git](#9-connect-the-repository-using-bring-your-own-git)
-10. [Konfigurieren der EDS-Site für die Verwendung von Cloud Manager](#10-configure-the-eds-site-to-use-cloud-manager)
-11. [Synchronisieren und überprüfen](#11-sync-and-verify)
-12. [Aus Experience Manager Guides veröffentlichen](#12-publish-from-experience-manager-guides)
+Um GitLab für die Verwendung mit Edge Delivery Services zu konfigurieren, führen Sie die folgenden Schritte in der angegebenen Reihenfolge aus, um eine ordnungsgemäße Einrichtung und Integration sicherzustellen.
 
 ### &#x200B;1. Erstellen der EDS-Site mit GitHub
 
