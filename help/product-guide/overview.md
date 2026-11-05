@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: de4730d6b52026979ba40224dc7ff811a8915412
+source-git-commit: ea5982aa0802068c9adc6ba38764f7102850996e
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 6%
@@ -126,7 +126,7 @@ KI-Assistent
 
 Beschleunigen Sie die Inhaltserstellung, finden Sie Antworten auf Ihre Fragen und wenden Sie intelligente Tags mithilfe von KI an.
 
-[KI-Assistent](./install-conf-guide/conf-profiles.md)
+[KI-Assistent](./user-guide/ai-assistant.md)
 :::
 
 :::card
@@ -215,10 +215,10 @@ Erkunden Sie die neuesten Versionshinweise und Produktaktualisierungen für Clou
 
 Greifen Sie auf hilfreiche Ressourcen, Dokumentation und Support zu, um die Plattform optimal zu nutzen.
 
-* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.de-DE){target="_blank"}
-* [Support](https://experienceleague.adobe.com/support/v2/en/?lang=de){target="_blank"}
-* [Videoschulungen](https://experienceleague.adobe.com/de/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
-* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11?lang=de){target="_blank"}
+* [GitHub-Repository](https://github.com/AdobeDocs/experience-manager-guides.en){target="_blank"}
+* [Support](https://experienceleague.adobe.com/support/v2/en/){target="_blank"}
+* [Videoschulungen](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/getting-started/overview){target="_blank"}
+* [AEM Guides-Community](https://experienceleaguecommunities.adobe.com/adobe-experience-manager-guides-11){target="_blank"}
 
 </td>
 </tr>
