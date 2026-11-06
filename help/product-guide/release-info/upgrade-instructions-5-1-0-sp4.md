@@ -10,9 +10,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: b5e241987a89ab974c71f3ec7283c668fedb164b
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '596'
 ht-degree: 4%
 ---
 # Aktualisierungsanweisungen für die Version 5.1.0 Service Pack 4 (April 2026)
@@ -30,7 +30,7 @@ In diesem Abschnitt wird die Kompatibilitätsmatrix für die Softwareanwendungen
 | 5.1.0 Service Pack 4 (UUID) | 6.5 LTS | 1 |
 | 5.1.0 Service Pack 4 (UUID) | 6.5 | 23, 22, 21 |
 
-Weitere Informationen finden Sie im Abschnitt [Technische Anforderungen](../install-guide/download-install-technical-requirements.md) im On-Premise-Installations- und Konfigurationshandbuch.
+Weitere Informationen finden Sie im Abschnitt [Technische Anforderungen](../install-conf-guide/aemg-technical-requirements.md) im On-Premise-Installations- und Konfigurationshandbuch.
 
 ### FrameMaker und FrameMaker Publishing Server
 

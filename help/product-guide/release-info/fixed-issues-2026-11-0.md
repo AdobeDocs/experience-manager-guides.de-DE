@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise | Behobene Probleme in Adobe Experience Manager Guides Version 2026.11.0
 description: Erfahren Sie mehr über die Fehlerbehebungen in der Version 2026.11.0 von Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f33da832def2bf2cc8caf46f3b6f8102bcfafb19
+source-git-commit: 0ebd3941a6ea5160c86e68a9ca6bdda50900a78d
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -102,12 +102,12 @@ Wenn **Änderungen verfolgen** aktiviert ist:
 
 - In der nativen PDF-Ausgabe werden die Formatierung hochgestellt und tiefgestellt in den Indexeinträgen nicht beibehalten. (GUIDES-58349)
 - Wenn Sie dieselbe globale Vorgabe für die Generierung von Ausgaben für verschiedene Zuordnungen verwenden, kann sich die Themenauswahl aus der vorherigen Zuordnung auf die Ausgabe der neuen Zuordnung auswirken. (GUIDES-58346)
-- Wenn eine Buchzuordnung ein Kapitel mit einer gültigen `href` und eine verschachtelte Themenreferenz enthält, führt das Veröffentlichen der Zuordnung in AEM Sites zu einer leeren Seite. (GUIDES-58266)
+- Das Veröffentlichen einer Bookmap führt manchmal zu einer leeren Seite, wenn in einem bestimmten Szenario ein `<chapter>` gleichzeitig ein direktes `href` definiert und dieses Kapitel verschachtelte `<topicref>` untergeordnete Elemente enthält. (GUIDES-58266)
 - Wenn Sie von einer Vorgabe mit nicht gespeicherten Änderungen zur Registerkarte **Ausgabehistorie** navigieren, bleiben **Schaltflächen Speichern** und **Ausgabe generieren** sichtbar. (GUIDES-57989)
 - Wenn ein Post-Publishing-Workflow für eine Voreinstellung konfiguriert ist, enthält die unter &quot;**&quot; angezeigte** nicht die für den Workflow benötigte Zeit. (GUIDES-57856)
 - Sie können die native PDF-Ausgabegenerierung nicht über die Seite **Ausgabehistorie“**. (GUIDES-57821)
 
 ### Überprüfung
 
-- Das Öffnen einer in der Version 2026.08.0 oder 2026.09.0 erstellten Prüfungsaufgabe kann zu Anwendungsfehlern führen. (GUIDES-56583) <br>**Problemumgehung:** Schließen Sie alle in diesen Versionen erstellten Prüfungsaufgaben ab, bevor Sie auf Version 2026.11.0 aktualisieren.
+- Das Öffnen einer in der Version 2026.08.0 oder 2026.09.0 erstellten Prüfungsaufgabe führt manchmal zu einem Programmfehler, wenn der überprüfte Inhalt *Überprüfungsanmerkungen* sowie Leerzeichen ohne Unterbrechung (`&nbsp;`) enthält. (GUIDES-56583) <br>**Problemumgehung:** Schließen Sie alle in diesen Versionen erstellten Prüfungsaufgaben ab oder schließen Sie sie.
 
