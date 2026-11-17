@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 43e3af5a6d753e6124acf1d56e99497f6b9c4cd9
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 ---
 # Ausgabe generieren
@@ -81,6 +81,10 @@ Sie können den aktuellen Status der Ausgabegenerierungsanfrage auf der Register
 
 ## Generieren einer Ausgabe für eine DITA-Zuordnung über das Zuordnungs-Dashboard
 
+>[!NOTE]
+>
+>Ab Version 2027.01.0 von Cloud Service und Version 5.4 von On-Premise von Experience Manager Guides wird die Funktion Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Sie bleibt jedoch für Bestandskunden aktiviert, die sie bereits verwenden. Wenn Sie das Zuordnungs-Dashboard deaktivieren möchten, wenden Sie sich an Ihr Customer Success-Team. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden.
+
 Führen Sie die folgenden Schritte aus, um mithilfe des Zuordnungs-Dashboards eine Ausgabe für eine DITA-Zuordnung zu generieren:
 
 1. Navigieren Sie in der Assets-Benutzeroberfläche zu der DITA-Zuordnungsdatei, die Sie veröffentlichen möchten, und wählen Sie sie aus.
@@ -113,4 +117,4 @@ Weitere Informationen zur Verwendung der öffentlichen ID und System-ID in Ihren
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

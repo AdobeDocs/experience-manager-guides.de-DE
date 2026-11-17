@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1224'
 ht-degree: 2%
 ---
 # Verwenden von Bedingungsvorgaben {#id1825FL004PN}
@@ -128,6 +128,9 @@ Gehen Sie wie folgt vor, um Bedingungsvorgaben zu löschen:
 
 ## Bedingungsvorgaben im Zuordnungs-Dashboard
 
+>[!NOTE]
+>
+>Ab Version 2027.01.0 von Cloud Service und Version 5.4 von On-Premise von Experience Manager Guides wird die Funktion Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Sie bleibt jedoch für Bestandskunden aktiviert, die sie bereits verwenden. Wenn Sie das Zuordnungs-Dashboard deaktivieren möchten, wenden Sie sich an Ihr Customer Success-Team. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden.
 
 ### Erstellen einer Bedingungsvorgabe
 
@@ -188,4 +191,4 @@ Sie können eine oder mehrere Bedingungsvorgaben auf der Registerkarte **Bedingu
 1. Klicken Sie auf **Schaltfläche** Entfernen“.
 1. Wählen **Entfernen** aus, um die Aktion zu bestätigen.
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

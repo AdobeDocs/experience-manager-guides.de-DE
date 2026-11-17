@@ -27,12 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '293'
 ht-degree: 1%
 ---
 # Grundlegendes zu Ausgabevorgaben {#understanding_output_settings}
+
+>[!NOTE]
+>
+>Ab Version 2027.01.0 von Cloud Service und Version 5.4 von On-Premise von Experience Manager Guides wird die Funktion Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Sie bleibt jedoch für Bestandskunden aktiviert, die sie bereits verwenden. Wenn Sie das Zuordnungs-Dashboard deaktivieren möchten, wenden Sie sich an Ihr Customer Success-Team. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden.
 
 Experience Manager Guides unterstützt die Erstellung von Ausgaben in den gängigsten Formaten wie AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON und benutzerdefinierte Ausgaben über DITA-OT, Native PDF und FMPS. Mithilfe dieser Ausgabeformate können Sie verschiedene Ausgabevorgaben konfigurieren. Hier stellt eine Ausgabevorgabe ein benutzerdefiniertes Ausgabeformat dar, in dem der Inhalt veröffentlicht werden soll.
 
@@ -63,4 +67,4 @@ Die folgenden Voreinstellungsoptionen sind für die unterstützten Ausgabeformat
 
 Als Administrator können Sie mit Experience Manager Guides Ausgabevorgaben für die globalen Profile und Ordnerprofile erstellen und verwalten. Weitere Informationen finden Sie unter [Verwalten von globalen und Ordnerprofil-Ausgabevorgaben](./web-editor-manage-output-presets.md).
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

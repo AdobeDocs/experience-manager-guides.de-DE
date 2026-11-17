@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 543a83c00a07931231dcd985e8ffdceb4306b4b7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # Bearbeiten, Duplizieren oder Löschen einer Ausgabevorgabe {#id205BEH0K09Z}
@@ -50,10 +50,14 @@ Darüber hinaus können Sie eine Ausgabevorgabe mithilfe des Dropdown-Menüs **O
 
 ## Verwenden des Karten-Dashboards
 
+>[!NOTE]
+>
+>Ab Version 2027.01.0 von Cloud Service und Version 5.4 von On-Premise von Experience Manager Guides wird die Funktion Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Sie bleibt jedoch für Bestandskunden aktiviert, die sie bereits verwenden. Wenn Sie das Zuordnungs-Dashboard deaktivieren möchten, wenden Sie sich an Ihr Customer Success-Team. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden.
+
 Sie können eine Ausgabevorgabe über das Zuordnungs -Dashboard bearbeiten, duplizieren und löschen, indem Sie die gewünschte Registerkarte wie unten dargestellt in der oberen Leiste auswählen.
 
 ![](images/create-new-preset-map-dashboard-new.png)
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
