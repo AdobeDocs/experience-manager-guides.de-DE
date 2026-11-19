@@ -1,5 +1,5 @@
 ---
-title: Verzweigung in AEM Guides | Adobe Experience Manager Guides`
+title: Verzweigung in AEM Guides | Adobe Experience Manager Guides
 description: Erfahren Sie, wie Sie Verzweigungen einer DITA-Zuordnung in AEM Guides erstellen und verwalten, um paralleles Authoring, unabhängige Veröffentlichung und das Zusammenführen von Dokumentationsänderungen zu unterstützen.
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -10,8 +10,8 @@ product_v2:
 feature_v2:
   - id: ab01a588-7dea-43f2-a699-0b3f128465d6
     internal-label: Authoring
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-    internal-label: Generative AI
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+    internal-label: Publishing
 subfeature_v2:
   - id: ad602516-aca3-4247-9ae8-f393d958efa9
     internal-label: Editor
@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 3f0d8e31537ade58a4eab5ddf73eb6d263d3dd96
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '659'
 ht-degree: 0%
 ---
 # Überblick
@@ -54,8 +54,6 @@ Beide Teams können unabhängig voneinander an ihren jeweiligen Zuordnungsverzwe
 >Basierend auf einer DITA-Zuordnung wird eine Verzweigung erstellt. Sie können auch Themen hinzufügen und bearbeiten, die nicht von der Zuordnung innerhalb der ausgewählten Verzweigung referenziert werden. Weitere Informationen finden Sie unter [Themen außerhalb der aktuellen Karte öffnen oder bearbeiten](./create-manage-branch.md#open-or-edit-topics-outside-the-current-map-context).
 
 Wenn Sie eine Verzweigung einer DITA-Zuordnung erstellen, kopiert Experience Manager Guides die referenzierten Themen der Zuordnung nicht automatisch in die neue Verzweigung. Unveränderte Themen werden aus dem Quellzweig oder dem Standardzweig (Main) gelesen. Ein Thema wird nur dann in die neue Verzweigung kopiert, wenn Sie es bearbeiten und in dieser Verzweigung speichern.
-
-Beispielsweise verweist eine DITA-Zuordnung auf 100 Themen, und das Repository enthält 50 zusätzliche Themen, auf die die Zuordnung nicht verweist. Wenn Sie eine neue Verzweigung erstellen (Version 1.0), werden alle 100 referenzierten Themen automatisch Teil von Version 1.0, auch wenn keines von ihnen bearbeitet wird. Die 50 nicht referenzierten Themen werden nicht automatisch Teil der neuen Verzweigung. Wenn Sie 10 davon bearbeiten, werden nur diese 10 Teil von Version 1.0. Die verbleibenden 40 unveränderten Themen werden weiterhin von der Standardverzweigung (Hauptverzweigung) aus verwendet.
 
 >[!NOTE]
 >
