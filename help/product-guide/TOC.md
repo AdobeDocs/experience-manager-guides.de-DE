@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lesen Sie die Produktdokumentation zu Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation zu AEM Guides
-source-git-commit: b4ab0b62f5e4a863a7ae061fbd5f21330921b27d
+source-git-commit: 5a65f5e9fc14df1548491321aa3a3356b6a91c12
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2708'
 ht-degree: 11%
 ---
 
@@ -147,6 +147,9 @@ ht-degree: 11%
         - [Januar - Versionshinweise](./release-info/release-notes-2022-1-0.md)
     - On-Premise/Managed Services {#on-prem-release-notes}
       - [[!DNL AEM Guides] Versionen](./release-info/latest-release-info.md)
+      - Version 5.2.0 SP3 {#520-sp3-release}
+        - [Behobene Probleme](./release-info/fixed-issues-5-2-0-sp3.md)
+        - [Upgrade-Anweisungen](./release-info/upgrade-instructions-5-2-0-sp3.md)
       - Version 5.2.0 SP1 {#520-sp1-release}
         - [Neue Funktionen](./release-info/whats-new-5-2-1.md)
         - [Behobene Probleme](./release-info/fixed-issues-5-2-0-sp1.md)

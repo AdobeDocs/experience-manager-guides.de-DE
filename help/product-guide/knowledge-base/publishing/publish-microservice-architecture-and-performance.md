@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -106,4 +106,4 @@ Wenn Sie eine große Karte On-Premise veröffentlichen, müssen Sie möglicherwe
 
 Ein Teil jeder Veröffentlichungsanfrage muss auf der AEM-Instanz ausgeführt werden, um den richtigen Veröffentlichungsinhalt abzurufen, der an den Microservice gesendet werden soll. Die neue Cloud-Architektur verwendet AEM-Aufträge anstelle von AEM-Workflows, wie es in der alten Architektur der Fall war. Diese Änderung ermöglicht es AEM Guides-Administratoren, die Einstellungen für die Cloud-Publishing-Warteschlange individuell zu konfigurieren, ohne dass andere AEM-Aufträge oder Workflow-Konfigurationen betroffen sind.
 
-Details zum Konfigurieren des neuen Veröffentlichungs-Microservice finden Sie hier: [Konfigurieren des Microservice](configure-microservices.md)
+Details zum Konfigurieren des neuen Veröffentlichungs-Microservice finden Sie hier: [Konfigurieren des Microservice](./configure-microservices-imt-config.md)

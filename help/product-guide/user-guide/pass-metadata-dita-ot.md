@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 81a0e7f0736ba4970673dd87a888a4c60d3c1b4e
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '690'
 ht-degree: 0%
 ---
 # Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT {#id21BJ00QD0XA}
@@ -82,6 +82,10 @@ Die ausgewählten Metadateneigenschaften werden an die mit DITA-OT generierte Au
 > Ab Version 2502 von Experience Manager Guides wird die Funktion zum Übergeben von Metadatenargumenten für Stammzuordnungen über die DITA-OT-Befehlszeile nicht mehr unterstützt. Um Unterbrechungen zu vermeiden, wurde jedoch eine neue Eigenschaft in der `Config.Manager` hinzugefügt, um die Funktion zu aktivieren oder zu deaktivieren.  Weitere Informationen finden Sie unter [Einstellungen für die Ausgabenerstellung konfigurieren](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard).
 
 ## Verwenden des Karten-Dashboards
+
+>[!NOTE]
+>
+>Ab Version 2027.01.0 von Cloud Service und Version 5.4 von On-Premise von Experience Manager Guides wird die Funktion Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Sie bleibt jedoch für Bestandskunden aktiviert, die sie bereits verwenden. Wenn Sie das Zuordnungs-Dashboard deaktivieren möchten, wenden Sie sich an Ihr Customer Success-Team. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden.
 
 Wenn Sie an der **Assets-Benutzeroberfläche arbeiten** führen Sie die folgenden Schritte aus, um die Metadaten mithilfe der DITA-OT-Veröffentlichung an die Ausgabe zu übergeben:
 

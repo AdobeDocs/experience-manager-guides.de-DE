@@ -18,10 +18,10 @@ role_v2:
     internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 01ef49b5e26c31359559d9849e6726f704393cd7
+source-git-commit: 7a7297820a64e650b4bad60fc202dc1f539b81c5
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 40%
+source-wordcount: '1002'
+ht-degree: 38%
 ---
 # [!DNL Experience Manager Guides] Versionsinformationen {#aem-guides-releases-roadmap}
 
@@ -34,6 +34,15 @@ ht-degree: 40%
 ## [!DNL Experience Manager Guides] as a [!DNL Cloud Service] {#aem-guides-roadmap-cs}
 
 Die Versionen für Adobe Experience Manager Guides as a Cloud Service lauten wie folgt:
+
+### Geplante Versionen
+
+| Freigabe | Ereignis | Zeitplan | Neue Funktionen | Upgrade-Anweisungen | Behobene Probleme | Status |
+|---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2027.01.0 | Automatische Aktualisierung | &#x200B;25. bis 27. Januar 2027 | – | – | – | Ziel |
+| Adobe Experience Manager Guides 2027.03.0 | Automatische Aktualisierung | &#x200B;10. März 2027 | – | – | – | Ziel |
+| Adobe Experience Manager Guides 2027.04.0 | Automatische Aktualisierung | &#x200B;21. April 2027 | – | – | – | Ziel |
+| Adobe Experience Manager Guides 2027.06.0 | Automatische Aktualisierung | &#x200B;2. Juni 2027 | – | – | – | Ziel |
 
 ### Live-Versionen
 
@@ -73,7 +82,6 @@ Folgende Produktaktualisierungen in Bezug auf neue Funktionen, Verbesserungen un
 
 | Freigabe | Ereignis | Zeitplan | Neue Funktionen | Upgrade-Anweisungen | Status |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 5.2.0 | Service Pack 3 | &#x200B;17. November 2026 | – | – | Ziel |
 | Adobe Experience Manager Guides 5.3.0 | Freigabe | &#x200B;20. Januar 2027 | – | – | Ziel |
 
 
@@ -81,6 +89,7 @@ Folgende Produktaktualisierungen in Bezug auf neue Funktionen, Verbesserungen un
 
 | Freigabe | Ereignis | Zeitplan | Neue Funktionen | Upgrade-Anweisungen | Status |
 |---|---|---|---|---|---|
+| Adobe Experience Manager Guides 5.2.0 | Service Pack 3 | &#x200B;17. November 2026 | – | [hier](upgrade-instructions-5-2-0-sp3.md) | Freigegeben |
 | Adobe Experience Manager Guides 5.2.0 | Service Pack 1 | &#x200B;21. September 2026 | [hier](whats-new-5-2-1.md) | [hier](upgrade-instructions-5-2-0-sp1.md) | Freigegeben |
 | Adobe Experience Manager Guides 5.2.0 | Freigabe | &#x200B;29. Mai 2026 | [hier](whats-new-5-2-0.md) | [hier](upgrade-instructions-5-2-0.md) | Freigegeben |
 | Adobe Experience Manager Guides 5.1.0 | Service Pack 4 | &#x200B;1. April 2026 | – | [hier](upgrade-instructions-5-1-0-sp4.md) | Freigegeben |

@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Reporting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 8ed5c9cb07c56b84b36ef56a55af8738989a6d3f
+source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '839'
 ht-degree: 0%
-
 ---
-
 # DITA-Map-Bericht über das Map-Dashboard {#id205BB800EEN}
+
+>[!NOTE]
+>
+>Ab Version 2027.01.0 von Cloud Service und Version 5.4 von On-Premise von Experience Manager Guides wird die Funktion Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Sie bleibt jedoch für Bestandskunden aktiviert, die sie bereits verwenden. Wenn Sie das Zuordnungs-Dashboard deaktivieren möchten, wenden Sie sich an Ihr Customer Success-Team. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden.
 
 Adobe Experience Manager Guides bietet Ihren Admins die Reporting-Funktionen, um die Integrität der Dokumentation insgesamt zu überprüfen, bevor sie live geschaltet oder Endbenutzern zur Verfügung gestellt wird. Der DITA-Zuordnungsbericht im Zuordnungs-Dashboard in Experience Manager Guides bietet wertvolle Informationen wie fehlende Themen, Themen mit fehlenden Elementen, UUID referenzierter Themen und Mediendateien sowie den Prüfungsstatus jedes Themas. Ein detaillierter Bericht auf individueller Themenebene enthält auch DITA-inhaltsbezogene Informationen wie Inhaltsreferenzen und fehlende Bilder oder Querverweise.
 
@@ -67,23 +69,23 @@ Führen Sie die folgenden Schritte aus, um den DITA Map-Bericht anzuzeigen:
 
      Nachfolgend werden die unter **A**, **B**, **C** und **D** hervorgehobenen Punkte beschrieben:
 
-      - **Thema**: Der Titel des in der DITA-Zuordnung angegebenen Themas. Wenn Sie den Mauszeiger über den Titel des Themas bewegen, wird der vollständige Pfad des Themas angezeigt. Wenn das Thema Probleme aufweist, z. B. fehlende Verweise oder Bilder, wird ein roter Punkt vor dem Titel des Themas angezeigt.
+     - **Thema**: Der Titel des in der DITA-Zuordnung angegebenen Themas. Wenn Sie den Mauszeiger über den Titel des Themas bewegen, wird der vollständige Pfad des Themas angezeigt. Wenn das Thema Probleme aufweist, z. B. fehlende Verweise oder Bilder, wird ein roter Punkt vor dem Titel des Themas angezeigt.
 
-      - **Dateiname**: Name der Datei.
+     - **Dateiname**: Name der Datei.
 
-      - **UUID**: Die universell eindeutige Kennung \(UUID\) der Datei.
+     - **UUID**: Die universell eindeutige Kennung \(UUID\) der Datei.
 
-      - **Autor**: Benutzer, der zuletzt an diesem Thema gearbeitet hat.
+     - **Autor**: Benutzer, der zuletzt an diesem Thema gearbeitet hat.
 
-      - **Dokumentstatus**: Der aktuelle Status des Dokuments - Entwurf, In Überprüfung oder Überprüft.
+     - **Dokumentstatus**: Der aktuelle Status des Dokuments - Entwurf, In Überprüfung oder Überprüft.
 
-      - **Fehlende Elemente**: Listet die Anzahl fehlender Bilder oder beschädigter Querverweise auf, falls vorhanden.
+     - **Fehlende Elemente**: Listet die Anzahl fehlender Bilder oder beschädigter Querverweise auf, falls vorhanden.
 
-      - **Fehlende Themen \(B\)**: Wenn es Themen mit fehlerhaften Verweisen gibt, werden diese Themen unter der Liste „Fehlende Themen“ aufgeführt.
+     - **Fehlende Themen \(B\)**: Wenn es Themen mit fehlerhaften Verweisen gibt, werden diese Themen unter der Liste „Fehlende Themen“ aufgeführt.
 
-      - **In FrameMaker öffnen \(C\)**: Listet die Anzahl der fehlenden Bilder oder beschädigten Querverweise auf, falls vorhanden.
+     - **In FrameMaker öffnen \(C\)**: Listet die Anzahl der fehlenden Bilder oder beschädigten Querverweise auf, falls vorhanden.
 
-      - **Im Editor öffnen \(D\)**: Wenn Sie auf dieses Symbol klicken, wird das Thema im Editor geöffnet.
+     - **Im Editor öffnen \(D\)**: Wenn Sie auf dieses Symbol klicken, wird das Thema im Editor geöffnet.
 
 
    Nachfolgend werden die unter **E** hervorgehobenen Elemente beschrieben:
