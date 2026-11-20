@@ -2,9 +2,9 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2026.11.0
 description: Erfahren Sie mehr über die neuen Funktionen in der Version 2026.11.0 von Adobe Experience Manager Guides, einschließlich Verzweigungen auf Zuordnungsebene und der Inhaltserstellung mit dem KI-Assistenten.
 role: Leader
-source-git-commit: b9dc9674244cbcf20fba1f51665afb4440172cdb
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1544'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,10 @@ Eine Liste der in dieser Version behobenen Probleme finden Sie unter [Behobene P
 Erfahren Sie mehr [Upgrade-Anweisungen für die Version 2026.11.0](../release-info/upgrade-instructions-2026-11-0.md).
 
 ## Einführung von Verzweigungen auf Zuordnungsebene und Zusammenführungen
+
+>[!NOTE]
+>
+> Die Funktion **Verzweigen und Zusammenführen** wird derzeit nur in Cloud Service-Umgebungen unterstützt, die eine Datenbankeinrichtung verwenden, und ist standardmäßig deaktiviert. Wenden Sie sich an Ihr Customer Success-Team, um Verzweigungen und Zusammenführungen in Ihrer Umgebung zu aktivieren.
 
 Experience Manager Guides führt Verzweigungs- und Zusammenführungsfunktionen auf Zuordnungsebene ein, mit denen Autoren parallel an mehreren Dokumentationsversionen, Funktionsaktualisierungen und wichtigen Korrekturen arbeiten können, ohne den Hauptinhalt zu beeinträchtigen. Autoren können isolierte Verzweigungen einer DITA-Zuordnung und ihrer Abhängigkeiten erstellen, um sicherzustellen, dass Bearbeitungen, Sperren und Vorschauen für jede Verzweigung spezifisch bleiben.
 
