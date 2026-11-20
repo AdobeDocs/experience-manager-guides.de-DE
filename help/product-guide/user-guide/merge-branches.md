@@ -23,18 +23,18 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 92654f51cb5f9ad4b0d625460e8b16908e01b2a5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1041'
 ht-degree: 0%
 ---
 # Zusammenführen einer Verzweigung mit einer Hauptverzweigung
 
 In Experience Manager Guides können Sie Änderungen aus einer Verzweigung einer DITA-Zuordnung mit der `main` Verzweigung zusammenführen. Durch die Zusammenführung können Sie abgeschlossene Dokumentationsaktualisierungen in `main` integrieren, ohne die Änderungen manuell in `main` zu kopieren.
 
-Nehmen wir als Beispiel eine DITA-Zuordnung namens `install-the-lift.ditamap` mit einer Verzweigung namens `Release 2`. Autoren können die Installationsanweisungen in dieser Verzweigung aktualisieren, während die vorhandene Dokumentation in `main` unverändert bleibt.
+Nehmen wir als Beispiel eine DITA-Zuordnung namens `install-the-lift.ditamap` mit einer Verzweigung namens `Release 2.0`. Autoren können die Installationsanweisungen in dieser Verzweigung (die in einem der Themen in der Karte behandelt werden) aktualisieren, während die vorhandene Dokumentation in `main` unverändert bleibt.
 
-Sobald die Aktualisierungen fertig sind, können Autoren die Änderungen aus `Release 2` in `main` zusammenführen.
+Sobald die Aktualisierungen fertig sind, können Autoren die Änderungen aus `Release 2.0` in `main` zusammenführen.
 
 ## Verstehen der Verzweigungszusammenführung
 
@@ -49,7 +49,7 @@ Wenn derselbe Teil eines Themas/einer Zuordnung in beiden Verzweigungen geänder
 
 Sie können Änderungen aus einem ausgewählten Zweig einer DITA-Zuordnung in `main` zusammenführen.
 
-Um eine Verzweigung zusammenzuführen, führen Sie die folgenden Schritte aus:
+Führen Sie die folgenden Schritte aus, um eine Verzweigung zusammenzuführen:
 
 1. Öffnen Sie die erforderliche DITA-Zuordnung in der Zuordnungskonsole.
 2. Navigieren Sie zur Registerkarte **Verzweigungen**.
@@ -64,14 +64,12 @@ Um eine Verzweigung zusammenzuführen, führen Sie die folgenden Schritte aus:
 
 5. Wählen Sie die Zusammenführungsanfrage aus.
 
-   Die Zusammenführungsanfrage wird in der Ansicht **Zweig zusammenführen** geöffnet. Überprüfen Sie die Änderungen und lösen Sie ggf. Konflikte.
-6. Schließen Sie die Zusammenführung ab.
+   Die Zusammenführungsanfrage wird in der Ansicht **Zweig zusammenführen** geöffnet. In dieser Ansicht werden die Dateien mit Konflikten sowie die Dateien aufgelistet, die ohne Konflikte zusammengeführt werden können.
+6. Wenn die Zusammenführungsanfrage Konflikte enthält, lösen Sie diese. Weitere Informationen finden Sie unter [Zusammenführungskonflikte lösen](#resolve-merge-conflicts).
 
-   Überprüfen Sie die Änderungen und lösen Sie ggf. Konflikte. Weitere Informationen finden Sie unter [Zusammenführungskonflikte lösen](#resolve-merge-conflicts).
+7. Wählen Sie **Alle zusammenführen** aus.
 
-   Nachdem alle Konflikte gelöst wurden, wählen Sie **Alle zusammenführen** aus, um die Änderungen in `main` zusammenzuführen.
-
-   Die Änderungen werden in der `main` zusammengeführt.
+   Die Änderungen aus der Verzweigung werden in der `main` zusammengeführt.
 
 ## Auflösen von Zusammenführungskonflikten
 
@@ -143,20 +141,17 @@ Führen Sie die folgenden Schritte aus, um Zusammenführungskonflikte zu lösen:
 
    Alternativ können Sie den Inhalt direkt im Bereich „Zusammengeführt **überprüfen oder bearbeiten** dann **Aufgelöst markieren** um den zusammengeführten Inhalt beizubehalten.
 
-4. Überprüfen Sie den endgültigen Inhalt im Bereich **Zusammengeführt** und wählen Sie **Aufgelöst markieren** aus, um die Datei als aufgelöst zu markieren.
-
-5. Wiederholen Sie die Schritte für alle Dateien, die unter **Konflikte** aufgeführt sind.
+4. Wiederholen Sie die Schritte für alle Dateien, die unter **Konflikte** aufgeführt sind.
 
    Sobald alle Konflikte gelöst sind, wird **Option „Alle** zusammenführen“ verfügbar.
 
-6. Wählen Sie **Alle zusammenführen** aus, um die aufgelösten Dateien und die bereinigten Aktualisierungen in `main` zusammenzuführen.
+5. Wählen Sie **Alle zusammenführen** aus, um die aufgelösten Dateien und die bereinigten Aktualisierungen in `main` zusammenzuführen.
 
    >[!NOTE]
    > 
    > Die Option **Alle zusammenführen** bleibt deaktiviert, bis alle Konflikte behoben sind.
 
    Die aufgelösten Änderungen werden in `main` zusammengeführt. Eine abgeschlossene Zusammenführung kann nicht rückgängig gemacht werden. Sie können jedoch eine neue Zusammenführungsanfrage erstellen, um nachfolgende Änderungen mit Hauptänderungen zusammenzuführen.
-
 
 
 ## Verwalten einer Zusammenführungsanfrage
