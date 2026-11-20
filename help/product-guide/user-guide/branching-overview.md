@@ -1,5 +1,5 @@
 ---
-title: Verzweigung in AEM Guides | Adobe Experience Manager Guides
+title: Verzweigung und Zusammenführung in AEM Guides | Adobe Experience Manager Guides
 description: Erfahren Sie, wie Sie Verzweigungen einer DITA-Zuordnung in AEM Guides erstellen und verwalten, um paralleles Authoring, unabhängige Veröffentlichung und das Zusammenführen von Dokumentationsänderungen zu unterstützen.
 TQID: https://experienceleague.adobe.com/pg9zeEg8m3NeDbN-j945SqPbaMX0GgBmuquAsQcrjOM
 product_v2:
@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 ---
 # Überblick
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Die Verzweigungs- und Zusammenführungsfunktion wurde mit der Version 2026.11.0 von Experience Manager Guides as a Cloud Service eingeführt und ist standardmäßig deaktiviert. Wenden Sie sich an Ihr Customer Success-Team, um die Funktion für Ihre Umgebung zu aktivieren.
+> Die Funktion **Verzweigen und Zusammenführen** ist ab Version 2026.11.0 von Experience Manager Guides as a Cloud Service verfügbar. Sie wird derzeit nur in Cloud Service-Umgebungen unterstützt, die eine Datenbankeinrichtung verwenden, und ist standardmäßig deaktiviert. Wenden Sie sich an Ihr Customer Success-Team, um Verzweigungen und Zusammenführungen in Ihrer Umgebung zu aktivieren.
 
 Mit Verzweigungen in Adobe Experience Manager Guides können Sie mehrere Verzweigungen außerhalb der **erstellen und verwalten** damit eine DITA-Zuordnung parallel an verschiedenen Dokumentationsversionen arbeiten kann. Jede Verzweigung ermöglicht es Autorinnen und Autoren, Inhaltsänderungen unabhängig zu verwalten, ohne den entsprechenden Inhalt in anderen Verzweigungen zu beeinflussen.
 

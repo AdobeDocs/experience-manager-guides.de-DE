@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Security
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 6359bacca2ef4114a81049d9792214f3439de364
+source-git-commit: 4dbc008bb913b34a534eb65a146b33e9939febb8
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1158'
 ht-degree: 0%
 ---
 
@@ -45,7 +45,7 @@ Führen Sie die folgenden Schritte aus, um eine Verzweigung zu erstellen:
 
    >[!NOTE]
    >
-   > Wenn bereits eine andere Zuordnung im Editor geöffnet ist, wird ein Bestätigungsdialogfeld angezeigt. Wählen Sie **Öffnen** aus, um die ausgewählte Zuordnung in der aktuellen Verzweigung zu öffnen. Weitere Informationen finden Sie unter [Inhalt außerhalb des aktuellen Zuordnungskontexts öffnen](#open-content-outside-the-current-map-context).
+   > Wenn bereits eine andere Zuordnung im Editor geöffnet ist, wird ein Bestätigungsdialogfeld angezeigt. Wählen Sie **Öffnen** aus, um die ausgewählte Zuordnung in der aktuellen Verzweigung zu öffnen. Weitere Informationen finden Sie unter [Karte außerhalb des aktuellen Kartenkontexts öffnen](#open-a-map-outside-the-current-map-context).
 
 1. Wählen Sie das **Haupt** Verzweigung-Dropdown-Menü aus und überprüfen Sie, ob die erforderliche DITA-Zuordnung ausgewählt ist.
 
@@ -53,7 +53,7 @@ Führen Sie die folgenden Schritte aus, um eine Verzweigung zu erstellen:
 
 1. Wählen Sie **Neue Verzweigung** aus, um eine Verzweigung der ausgewählten Zuordnung zu erstellen.
 
-1. Geben **im Dialogfeld &quot;** Verzweigung“ einen Namen für die neue Verzweigung ein und wählen Sie die übergeordnete Verzweigung aus, aus der Sie sie erstellen möchten.
+1. Geben Sie im Dialogfeld **Neue Verzweigung** einen Namen für die neue Verzweigung ein und wählen Sie die **Source-Verzweigung** (die als übergeordnete Verzweigung fungiert), aus der Sie sie erstellen möchten.
 
    ![](./images/new-branch-creation.png)
 
@@ -76,13 +76,9 @@ Führen Sie die folgenden Schritte aus, um Verzweigungen zu wechseln:
 
 Sie können jetzt in der ausgewählten Verzweigung mit der Zuordnung und den zugehörigen Inhalten arbeiten.
 
-![](./images/branch-switched.png)
-
 >[!NOTE]
 >
 >Wenn ein Thema beim Wechseln von Verzweigungen nicht gespeicherte Änderungen enthält, werden Sie in einem Dialogfeld aufgefordert, die Änderungen zu speichern, bevor Sie zur ausgewählten Verzweigung wechseln.
-
-Sie können jetzt in der ausgewählten Verzweigung mit der Zuordnung und den zugehörigen Inhalten arbeiten.
 
 ## Isolierte Bearbeitung in einer Verzweigung
 
@@ -174,7 +170,7 @@ Sie können nicht mehr aktiv verwendete Verzweigungen einer DITA-Map archivieren
 >
 > Die Standardverzweigung (`main`) kann nicht archiviert werden.
 
-Um eine Verzweigung zu archivieren, führen Sie die folgenden Schritte aus:
+Führen Sie die folgenden Schritte aus, um eine Verzweigung zu archivieren:
 
 1. Wählen Sie im **Verzweigungen** das Symbol **Verwalten** aus.
 
@@ -199,7 +195,7 @@ Um eine Verzweigung zu archivieren, führen Sie die folgenden Schritte aus:
 
 Sie können einen archivierten Zweig einer DITA-Map wiederherstellen, wenn Sie die Arbeit am Inhalt fortsetzen müssen.
 
-Um eine archivierte Verzweigung wiederherzustellen, führen Sie die folgenden Schritte aus:
+Führen Sie die folgenden Schritte aus, um eine archivierte Verzweigung wiederherzustellen:
 
 1. Wählen Sie im **Verzweigungen** das Symbol **Verwalten** aus.
 2. Wählen **Dialogfeld „Verzweigungen verwalten** die Registerkarte **Archiviert** aus.
