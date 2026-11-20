@@ -9,9 +9,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9fc07666f2f53b6f0ca43e3203ac817daf8039d9
+source-git-commit: e21e39b2acf48c4115101ab806e97b45844fa191
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 1%
 ---
 # Versionshinweise für die Version 2026.11.0 Service Pack 1 (November 2026)
@@ -26,7 +26,7 @@ Verwenden Sie die folgenden Ressourcen, wenn Sie benutzerdefinierte Java-Plug-in
 |---|---|---|----|
 | 2026.11.0 Service Pack 1 | 2026.11.0 | [AEM Guides SDK API 2026.11.0](https://central.sonatype.com/artifact/com.adobe.aem/aem-dox-sdk-api/2026.11.0) | [Javadoc 2026.11.0](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) |
 
-Weitere Informationen finden Sie unter [Konfigurieren und Verwenden der API-JAR-Datei aus dem Maven Central Repository](https://experienceleague.adobe.com/de/docs/experience-manager-guides/using/api-reference/introduction).
+Weitere Informationen finden Sie unter [Konfigurieren und Verwenden der API-JAR-Datei aus dem Maven Central Repository](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/api-reference/introduction).
 
 
 ## Behobene Probleme
@@ -46,5 +46,5 @@ Die folgenden Probleme treten bei der Veröffentlichung in AEM Sites mit einer d
 Adobe hat die folgenden bekannten Probleme in Version 2026.11.0 Service Pack 1 identifiziert:
 
 - Bei Verwendung von Experience Manager Guides as a Cloud Service 2026.11.0 oder höher schlägt die Veröffentlichung mit einem Anwendungsfehler fehl, wenn AEM bestimmte interne Services während des Veröffentlichungsprozesses neu startet, z. B. beim Starten einer Server-Instanz. (GUIDES-60804)<br>**Problemumgehung:** Um das Problem zu beheben, wiederholen Sie die Veröffentlichung.
-- Beim Generieren einer Ausgabe für mehrere AEM Sites-Vorgaben (unter Verwendung der Zuordnung zusammengesetzter Komponenten) oder native PDF-Vorgaben über **Zuordnungssammlung** oder API schlägt die Ausgabenerstellung mit einer `Rebuild the Baseline` Ausnahme fehl. (GUIDES-60877) <br>**Problemumgehung:** Veröffentlichen Sie die Vorgaben sequenziell anstatt gleichzeitig, um das Problem zu vermeiden.
+- Beim Generieren einer Ausgabe für mehrere AEM Sites-Vorgaben (unter Verwendung der Zuordnung zusammengesetzter Komponenten) oder native PDF-Vorgaben mit derselben Baseline über **Zuordnungssammlung** oder API schlägt die Ausgabenerstellung mit einer `Rebuild the Baseline` Ausnahme fehl. (GUIDES-60877) <br>**Problemumgehung:** Veröffentlichen Sie die Vorgaben sequenziell anstatt gleichzeitig, um das Problem zu vermeiden.
 
