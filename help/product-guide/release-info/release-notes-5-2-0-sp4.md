@@ -14,14 +14,14 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: ad78587f55ec7190443dbbce80f596821ec41f9f
+source-git-commit: a232c8a03cda9b0ef7ae8114c3d901df5fb5bcb4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '530'
 ht-degree: 2%
 ---
 # Versionshinweise für Version 5.2.0 Service Pack 4 (November 2026)
 
-Dieser Artikel enthält Informationen zu den Upgrade-Anweisungen, zur Java SDK-Kompatibilität, zu behobenen Problemen und bekannten Problemen in Version 5.2.0 Service Pack 4 von Adobe Experience Manager Guides.
+Dieser Artikel enthält Informationen zu Upgrade-Anweisungen, zur Java SDK-Kompatibilität, zu behobenen Problemen und bekannten Problemen in Version 5.2.0 Service Pack 4 von Adobe Experience Manager Guides.
 
 ## Java SDK-Ressourcen
 
@@ -45,7 +45,7 @@ Erfahren Sie, wie Sie Experience Manager Guides Version 5.2.0 Service Pack 4 ins
 
 Stellen Sie vor dem Start des Upgrades auf Experience Manager Guides 5.2.0 Service Pack 4 sicher, dass Sie Version 5.2.0 Service Pack 1 verwenden.
 
-### Upgrade-Prozess Version 5.2.0 Service Pack 4
+### Upgrade-Prozess für Version 5.2.0 Service Pack 4
 
 1. Laden Sie das Experience Manager Guides-Paket Version 5.2.0 Service Pack 4 herunter.
 1. Laden Sie mithilfe von Package Manager (`/crx/packmgr`) das Paket in Ihre Instanz hoch.
