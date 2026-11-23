@@ -2,9 +2,9 @@
 title: Versionshinweise | Neue Funktionen in Adobe Experience Manager Guides Version 2026.11.0
 description: Erfahren Sie mehr über die neuen Funktionen in der Version 2026.11.0 von Adobe Experience Manager Guides, einschließlich Verzweigungen auf Zuordnungsebene und der Inhaltserstellung mit dem KI-Assistenten.
 role: Leader
-source-git-commit: 88172f3fd5c6da80091581a082db9b05d5d13483
+source-git-commit: 79ba2d52e002fd5c821678e5662d67e6607f7808
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 ---
 
@@ -118,7 +118,7 @@ Weitere Informationen finden Sie unter [Prozess zur Ausgabenerstellung verwalten
 
 Sie können den Ausgabehistorie-**(nach Alter** (Entfernen von Einträgen, die älter als eine bestimmte Anzahl von Tagen sind) oder **Nach Anzahl** (Beibehalten einer bestimmten Anzahl aktueller Einträge) bereinigen.
 
-Sie können auch festlegen, dass nur die Ausgabeprotokolle bereinigt werden sollen, während die Verlaufseinträge für Überwachungszwecke beibehalten werden, oder dass sowohl die Protokolle als auch die zugehörigen Einträge entfernt werden. Diese Optionen helfen bei der Optimierung des Repository-Speichers und bieten gleichzeitig eine bessere Kontrolle über die Bereinigung des Ausgabedatensatzverlaufs.
+Sie können wählen, ob nur die Ausgabelogos bereinigt werden sollen, während die Verlaufseinträge zu Auditzwecken beibehalten werden, oder ob sowohl die Protokolle als auch die zugehörigen Einträge entfernt werden sollen. Diese Optionen helfen bei der Optimierung des Repository-Speichers und bieten gleichzeitig eine bessere Kontrolle über die Bereinigung des Ausgabedatensatzverlaufs.
 
 Weitere Informationen finden Sie unter [Konfigurieren des automatischen Bereinigungszeitraums für den Ausgabegeschichte](../install-conf-guide/conf-output-generation.md#configure-auto-purging-period-for-output-history-id19aai070v8q).
 
