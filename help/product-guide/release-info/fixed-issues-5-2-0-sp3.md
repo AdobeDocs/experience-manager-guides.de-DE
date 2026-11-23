@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
-source-git-commit: 01aae4f8c25d87d2dd0a0255bedab8d7b091e54d
+source-git-commit: a3144f0078b2073289043befacc5e2358b9c0e02
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '816'
 ht-degree: 1%
 ---
 # Es wurden Probleme in Version 5.2.0 Service Pack 3 (November 2026) behoben
@@ -74,4 +74,4 @@ Erfahren Sie mehr [Upgrade-Anweisungen für Version 5.2.0 Service Pack 3](upgrad
 
 Adobe hat die folgenden bekannten Probleme in Version 5.2.0 Service Pack 3 erkannt:
 
-- Nach der Installation des Service Packs schlägt die Validierung des Schematrons möglicherweise mit einer `NoClassDefFoundError` Ausnahme fehl, und Sie können keine Themen im Editor speichern. <br>**Problemumgehung:** Aktualisieren Sie das `com.adobe.fmdita.schematron-wrapper`-Bundle über die AEM Web Console (`/system/console/bundles`).
+- Nach der Installation des Service Packs schlägt die Validierung des Schematrons möglicherweise mit einer `NoClassDefFoundError` Ausnahme fehl, und Sie können keine Themen im Editor speichern. (GUIDES-60062)<br>**Problemumgehung:** Aktualisieren Sie das `com.adobe.fmdita.schematron-wrapper`-Bundle über die AEM Web Console (`/system/console/bundles`).
