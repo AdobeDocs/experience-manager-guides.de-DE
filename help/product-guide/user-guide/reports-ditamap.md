@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Reporting
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 ---
 # DITA-Map-Bericht über das Map-Dashboard {#id205BB800EEN}
 
 >[!NOTE]
 >
->Ab Version 2027.01.0 von Cloud Service und Version 5.4 von On-Premise von Experience Manager Guides wird die Funktion Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Sie bleibt jedoch für Bestandskunden aktiviert, die sie bereits verwenden. Wenn Sie das Zuordnungs-Dashboard deaktivieren möchten, wenden Sie sich an Ihr Customer Success-Team. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden.
+>Ab Version 2027.01.0 von Experience Manager Guides Cloud Service und Version 5.3 von On-Premise wird das Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Neue Kunden verwenden standardmäßig die Zuordnungskonsole . Ab Version 2027.03.0 wird das Zuordnungs-Dashboard standardmäßig deaktiviert. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden. Wenn Sie weiterhin Zugriff auf das Zuordnungs-Dashboard benötigen, wenden Sie sich an das Customer Success-Team , um Hilfe zu erhalten.
 
 Adobe Experience Manager Guides bietet Ihren Admins die Reporting-Funktionen, um die Integrität der Dokumentation insgesamt zu überprüfen, bevor sie live geschaltet oder Endbenutzern zur Verfügung gestellt wird. Der DITA-Zuordnungsbericht im Zuordnungs-Dashboard in Experience Manager Guides bietet wertvolle Informationen wie fehlende Themen, Themen mit fehlenden Elementen, UUID referenzierter Themen und Mediendateien sowie den Prüfungsstatus jedes Themas. Ein detaillierter Bericht auf individueller Themenebene enthält auch DITA-inhaltsbezogene Informationen wie Inhaltsreferenzen und fehlende Bilder oder Querverweise.
 
