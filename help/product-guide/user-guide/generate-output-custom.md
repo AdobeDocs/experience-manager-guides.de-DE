@@ -89,7 +89,7 @@ Die Registerkarte Erweitert enthält die folgenden Konfigurationsoptionen:
 - Temporäre Dateien aufbewahren
 - Dateieigenschaften
 
-Weitere Informationen zu den Voreinstellungskonfigurationsoptionen finden Sie [ Abschnitt „Benutzerdefinierte Voreinstellungskonfiguration](#custom-preset-configuration) .
+Weitere Informationen zu den Voreinstellungskonfigurationsoptionen finden Sie [&#x200B; Abschnitt „Benutzerdefinierte Voreinstellungskonfiguration](#custom-preset-configuration) .
 
 
 ## Erstellen der benutzerdefinierten Vorgabe über das Zuordnungs-Dashboard
@@ -111,7 +111,7 @@ Führen Sie die folgenden Schritte aus, um die benutzerdefinierte Vorgabe über 
 1. Geben Sie die erforderlichen Konfigurationsdetails für die benutzerdefinierte Voreinstellung ein.
 1. Klicken Sie **Fertig**, um die Voreinstellungen zu speichern.
 
-Weitere Informationen zu den Voreinstellungskonfigurationsoptionen finden Sie [ Abschnitt „Benutzerdefinierte Voreinstellungskonfiguration](#custom-preset-configuration) .
+Weitere Informationen zu den Voreinstellungskonfigurationsoptionen finden Sie [&#x200B; Abschnitt „Benutzerdefinierte Voreinstellungskonfiguration](#custom-preset-configuration) .
 
 ## Benutzerdefinierte Voreinstellungskonfiguration
 
@@ -133,7 +133,7 @@ Beispiel: **Ausgabepfad/Zielpfad** - Hier ist **Ausgabepfad** die in der Zuordnu
 | Temporäre Dateien aufbewahren | Wählen Sie diese Option, um die von DITA-OT generierten temporären Dateien beizubehalten. Wenn beim Generieren der Ausgabe über DITA-OT Fehler auftreten, wählen Sie diese Option aus, um die temporären Dateien beizubehalten. Anschließend können Sie diese Dateien verwenden, um Fehler bei der Ausgabegenerierung zu beheben.<br> <br> Klicken Sie nach dem Generieren der Ausgabe auf das Symbol **Temporäre Dateien herunterladen** ![Symbol für temporäre Dateien herunterladen](images/download-temp-files-icon.png), um den ZIP-Ordner mit den temporären Dateien herunterzuladen. <br><br> **Hinweis**: Wenn Dateieigenschaften während der Generierung hinzugefügt werden, enthalten die temporären Ausgabedateien auch eine *metadata.xml*-Datei, die diese Eigenschaften enthält. |
 | Nachgenerierungs-Workflow ausführen | Wenn Sie diese Option wählen, wird eine neue Dropdown-Liste für den Post-Generation-Workflow angezeigt, die alle in AEM konfigurierten Workflows enthält. Sie müssen einen Workflow auswählen, der nach Abschluss des Workflows zur Ausgabegenerierung ausgeführt werden soll.<br><br>**Hinweis**: Weitere Informationen zum Erstellen eines benutzerdefinierten Workflows nach der Ausgabegenerierung finden Sie unter _Workflow für die Postausgangserstellung anpassen_ unter Installieren und Konfigurieren von Adobe Experience Manager Guides as a Cloud Service. |
 | Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten. In [Mit Baseline arbeiten](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) finden Sie weitere Details.<br>**Hinweis**: Wenn Sie eine Baseline löschen, die in der Ausgabevorgabe verwendet wird, wird die Vorgabe nicht automatisch aktualisiert. Führen Sie folgende Schritte aus, bevor Sie die Ausgabe generieren: <ul><li>**Wenn Sie nur die Baseline löschen**: Die Option **Baseline verwenden** bleibt aktiviert und die Dropdown-Liste ist leer. Das Generieren einer Ausgabe in diesem Status schlägt fehl. Deaktivieren Sie den Umschalter Baseline verwenden und aktualisieren Sie die Seite und generieren Sie dann die Ausgabe.</li><li>**Wenn Sie mehrere Baselines haben und die ausgewählte löschen**: Die **Baseline verwenden** Dropdown-Liste zeigt weiterhin die gelöschte Baseline als ausgewählt an. Wählen Sie eine gültige Baseline aus der Dropdown-Liste aus und generieren Sie dann die Ausgabe.</li></ul> |
-| Dateieigenschaften/-eigenschaften | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite Eigenschaften der DITA-Map- oder Bookmap-Datei festgelegt. Die aus der Dropdown-Liste ausgewählten Eigenschaften werden unter dem Feld **Dateieigenschaften** angezeigt. Klicken Sie auf das Kreuzsymbol neben der Eigenschaft, um sie zu entfernen. <br><br>**Hinweis**: Sie können die Metadaten auch mithilfe von DITA-OT-Publishing an die Ausgabe übergeben. Für eine weitere Detailansicht ([ Sie die Metadaten mithilfe von DITA-OT an die Ausgabe ](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| Dateieigenschaften/-eigenschaften | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite Eigenschaften der DITA-Map- oder Bookmap-Datei festgelegt. Die aus der Dropdown-Liste ausgewählten Eigenschaften werden unter dem Feld **Dateieigenschaften** angezeigt. Klicken Sie auf das Kreuzsymbol neben der Eigenschaft, um sie zu entfernen. <br><br>**Hinweis**: Sie können die Metadaten auch mithilfe von DITA-OT-Publishing an die Ausgabe übergeben. Für eine weitere Detailansicht ([&#x200B; Sie die Metadaten mithilfe von DITA-OT an die Ausgabe &#x200B;](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
-**Übergeordnetes Thema:**[ Verstehen der Ausgabevorgaben](generate-output-understand-presets.md)
+**Übergeordnetes Thema:**&#x200B;[&#x200B; Verstehen der Ausgabevorgaben](generate-output-understand-presets.md)
 
