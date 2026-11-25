@@ -27,16 +27,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1879'
 ht-degree: 0%
 ---
 # Arbeiten mit Baseline über das Zuordnungs-Dashboard {#id1825FI0J0PF}
 
 >[!NOTE]
 >
->Ab Version 2027.01.0 von Cloud Service und Version 5.4 von On-Premise von Experience Manager Guides wird die Funktion Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Sie bleibt jedoch für Bestandskunden aktiviert, die sie bereits verwenden. Wenn Sie das Zuordnungs-Dashboard deaktivieren möchten, wenden Sie sich an Ihr Customer Success-Team. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden.
+>Ab Version 2027.01.0 von Experience Manager Guides Cloud Service und Version 5.3 von On-Premise wird das Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Neue Kunden verwenden standardmäßig die Zuordnungskonsole . Ab Version 2027.03.0 wird das Zuordnungs-Dashboard standardmäßig deaktiviert. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden. Wenn Sie weiterhin Zugriff auf das Zuordnungs-Dashboard benötigen, wenden Sie sich an das Customer Success-Team , um Hilfe zu erhalten.
 
 Experience Manager Guides bietet die Funktion „Grundlinien“, mit der Benutzende Grundlinien erstellen und zur Veröffentlichung oder Übersetzung von Themen verschiedener Versionen verwenden können. Sie können auch mehrere Ausgabevorgaben derselben DITA-Zuordnung parallel veröffentlichen.
 
@@ -196,4 +196,4 @@ Führen Sie die folgenden Schritte aus, um eine übersetzte Baseline zu exportie
 1. \(Optional\) Um eine bereits exportierte Baseline zu exportieren, wählen Sie **Vorhandene Baseline überschreiben** und wählen Sie dann **Baseline exportieren**.
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)

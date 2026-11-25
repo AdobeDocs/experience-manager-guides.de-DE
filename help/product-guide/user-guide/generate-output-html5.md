@@ -34,9 +34,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1827'
 ht-degree: 0%
 ---
 # HTML5 {#id205BE700XO1}
@@ -99,7 +99,7 @@ Weitere Informationen zu den Voreinstellungskonfigurationsoptionen finden Sie im
 
 >[!NOTE]
 >
->Ab Version 2027.01.0 von Cloud Service und Version 5.4 von On-Premise von Experience Manager Guides wird die Funktion Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Sie bleibt jedoch für Bestandskunden aktiviert, die sie bereits verwenden. Wenn Sie das Zuordnungs-Dashboard deaktivieren möchten, wenden Sie sich an Ihr Customer Success-Team. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden.
+>Ab Version 2027.01.0 von Experience Manager Guides Cloud Service und Version 5.3 von On-Premise wird das Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Neue Kunden verwenden standardmäßig die Zuordnungskonsole . Ab Version 2027.03.0 wird das Zuordnungs-Dashboard standardmäßig deaktiviert. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden. Wenn Sie weiterhin Zugriff auf das Zuordnungs-Dashboard benötigen, wenden Sie sich an das Customer Success-Team , um Hilfe zu erhalten.
 
 Führen Sie die folgenden Schritte aus, um die HTML5-Voreinstellung über das Zuordnungs-Dashboard zu erstellen:
 
@@ -136,7 +136,7 @@ Beispiel: **Ausgabepfad/Zielpfad** - Hier ist **Ausgabepfad** die in der Zuordnu
 | Temporäre Dateien aufbewahren | Wählen Sie diese Option, um die von DITA-OT generierten temporären Dateien beizubehalten. Wenn beim Generieren der Ausgabe über DITA-OT Fehler auftreten, wählen Sie diese Option aus, um die temporären Dateien beizubehalten. Anschließend können Sie diese Dateien verwenden, um Fehler bei der Ausgabegenerierung zu beheben.<br> <br> Klicken Sie nach dem Generieren der Ausgabe auf das Symbol **Temporäre Dateien herunterladen** ![Symbol für temporäre Dateien herunterladen](images/download-temp-files-icon.svg), um den ZIP-Ordner mit den temporären Dateien herunterzuladen. Die heruntergeladenen Dateien enthalten auch `system_config.xml` Datei mit Informationen zur Autoren-URL, lokalen URL und Veröffentlichungs-URL. Diese URLs werden in den AEM-Externalisierungseinstellungen konfiguriert und in der `system_config.xml`-Datei angezeigt. <br><br> **Hinweis**: Wenn Dateieigenschaften während der Generierung hinzugefügt werden, enthalten die temporären Ausgabedateien auch eine *metadata.xml*-Datei, die diese Eigenschaften enthält. |
 | Baseline verwenden | Wenn Sie eine Baseline für die ausgewählte DITA-Map erstellt haben, wählen Sie diese Option, um die Version anzugeben, die Sie veröffentlichen möchten. In [Mit Baseline arbeiten](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) finden Sie weitere Details.<br>**Hinweis**: Wenn Sie eine Baseline löschen, die in der Ausgabevorgabe verwendet wird, wird die Vorgabe nicht automatisch aktualisiert. Führen Sie folgende Schritte aus, bevor Sie die Ausgabe generieren: <ul><li>**Wenn Sie nur die Baseline löschen**: Die Option **Baseline verwenden** bleibt aktiviert und die Dropdown-Liste ist leer. Das Generieren einer Ausgabe in diesem Status schlägt fehl. Deaktivieren Sie den Umschalter Baseline verwenden und aktualisieren Sie die Seite und generieren Sie dann die Ausgabe.</li><li>**Wenn Sie mehrere Baselines haben und die ausgewählte löschen**: Die **Baseline verwenden** Dropdown-Liste zeigt weiterhin die gelöschte Baseline als ausgewählt an. Wählen Sie eine gültige Baseline aus der Dropdown-Liste aus und generieren Sie dann die Ausgabe.</li></ul> |
 | Dateihierarchie reduzieren | Wählen Sie die Option aus, um die HTML5-Ausgabe in einer flachen Ordnerhierarchie zu generieren. Der gesamte Inhalt wird im HTML5-Ausgabeformat in einer flachen Dateihierarchie veröffentlicht und in einem einzigen Ordner gespeichert. <br> Wenn Sie diese Option deaktivieren, wird die Ausgabe in einer verschachtelten Ordnerhierarchie generiert und die gesamte Ordnerstruktur repliziert. |
-| Dateieigenschaften | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite Eigenschaften der DITA-Map- oder Bookmap-Datei festgelegt. Die aus der Dropdown-Liste ausgewählten Eigenschaften werden unter dem Feld **Dateieigenschaften** angezeigt. Klicken Sie auf das Kreuzsymbol neben der Eigenschaft, um sie zu entfernen. <br><br>**Hinweis**: Sie können die Metadaten auch mithilfe von DITA-OT-Publishing an die Ausgabe übergeben. Für eine weitere Detailansicht ([&#x200B; Sie die Metadaten mithilfe von DITA-OT an die Ausgabe &#x200B;](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| Dateieigenschaften | Wählen Sie die Eigenschaften aus, die Sie als Metadaten verarbeiten möchten. Diese Eigenschaften werden auf der Seite Eigenschaften der DITA-Map- oder Bookmap-Datei festgelegt. Die aus der Dropdown-Liste ausgewählten Eigenschaften werden unter dem Feld **Dateieigenschaften** angezeigt. Klicken Sie auf das Kreuzsymbol neben der Eigenschaft, um sie zu entfernen. <br><br>**Hinweis**: Sie können die Metadaten auch mithilfe von DITA-OT-Publishing an die Ausgabe übergeben. Für eine weitere Detailansicht ([ Sie die Metadaten mithilfe von DITA-OT an die Ausgabe ](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 
 
@@ -144,4 +144,4 @@ Beispiel: **Ausgabepfad/Zielpfad** - Hier ist **Ausgabepfad** die in der Zuordnu
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Verstehen der Ausgabevorgaben](generate-output-understand-presets.md)
+**Übergeordnetes Thema:**[ Verstehen der Ausgabevorgaben](generate-output-understand-presets.md)

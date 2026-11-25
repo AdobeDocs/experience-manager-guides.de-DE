@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: bfc6cec48b5e3a50b472e97f456a06d2a32bb8d2
+source-git-commit: 2296e0706603eef5c4a76542c4a58f7eb2e13c6c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '696'
 ht-degree: 0%
 ---
 # Übergeben der Metadaten an die Ausgabe mithilfe von DITA-OT {#id21BJ00QD0XA}
@@ -66,7 +66,7 @@ Führen Sie die folgenden Schritte aus, um die Metadaten mithilfe von DITA-OT-Pu
 
    Diese Datei kann überlagert werden unter: `/apps/fmdita/config/metadataList`.
 
-   Um eine benutzerdefinierte Eigenschaft zu übergeben, für die Sie bereits die Werte definiert haben, rufen Sie [Verwenden von AEM-Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=de) auf.
+   Um eine benutzerdefinierte Eigenschaft zu übergeben, für die Sie bereits die Werte definiert haben, rufen Sie [Verwenden von AEM-Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880) auf.
 
 1. Die ausgewählten Eigenschaften werden unter dem Dropdown-Menü aufgelistet.
 
@@ -85,7 +85,7 @@ Die ausgewählten Metadateneigenschaften werden an die mit DITA-OT generierte Au
 
 >[!NOTE]
 >
->Ab Version 2027.01.0 von Cloud Service und Version 5.4 von On-Premise von Experience Manager Guides wird die Funktion Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Sie bleibt jedoch für Bestandskunden aktiviert, die sie bereits verwenden. Wenn Sie das Zuordnungs-Dashboard deaktivieren möchten, wenden Sie sich an Ihr Customer Success-Team. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden.
+>Ab Version 2027.01.0 von Experience Manager Guides Cloud Service und Version 5.3 von On-Premise wird das Zuordnungs-Dashboard für neue Kundinnen und Kunden nicht mehr unterstützt. Neue Kunden verwenden standardmäßig die Zuordnungskonsole . Ab Version 2027.03.0 wird das Zuordnungs-Dashboard standardmäßig deaktiviert. Es wird empfohlen, künftig die Map-Konsole für die Verwaltung und Veröffentlichung von Karten zu verwenden. Wenn Sie weiterhin Zugriff auf das Zuordnungs-Dashboard benötigen, wenden Sie sich an das Customer Success-Team , um Hilfe zu erhalten.
 
 Wenn Sie an der **Assets-Benutzeroberfläche arbeiten** führen Sie die folgenden Schritte aus, um die Metadaten mithilfe der DITA-OT-Veröffentlichung an die Ausgabe zu übergeben:
 
@@ -105,7 +105,7 @@ Wenn Sie an der **Assets-Benutzeroberfläche arbeiten** führen Sie die folgende
 
    Diese Datei kann überlagert werden unter: `/apps/fmdita/config/metadataList`.
 
-   Um eine benutzerdefinierte Eigenschaft zu übergeben, für die Sie bereits die Werte definiert haben, rufen Sie [Verwenden von AEM-Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=de) auf.
+   Um eine benutzerdefinierte Eigenschaft zu übergeben, für die Sie bereits die Werte definiert haben, rufen Sie [Verwenden von AEM-Metadaten in der DITA-OT-PDF-Ausgabe](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880) auf.
 
 1. Wählen Sie **Dropdown-** „Eigenschaften“ die erforderlichen benutzerdefinierten und Standardeigenschaften aus. Wählen Sie beispielsweise `author`, `dc:title` und `dc:description`. Dies sind die `metadata/properties`, die erstellt werden, sobald wir eine Datei erstellen. Die ausgewählten Eigenschaften werden unter der Dropbox aufgelistet.
 
@@ -118,4 +118,4 @@ Die ausgewählten Metadateneigenschaften werden an die mit DITA-OT generierte Au
 
 
 
-**Übergeordnetes Thema:**&#x200B;[&#x200B; Ausgabegenerierung](generate-output.md)
+**Übergeordnetes Thema:**[ Ausgabegenerierung](generate-output.md)
